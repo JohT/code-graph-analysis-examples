@@ -1,0 +1,80 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "config:recommended",
+    ":combinePatchMinorReleases",
+    "schedule:earlyMondays"
+  ],
+  "ignoreUnstable": false,
+  "packageRules": [
+  ],
+  "customManagers": [
+    {
+      "description": "Update AXON_FRAMEWORK_VERSION environment variable in GitHub Actions",
+      "customType": "regex",
+      "fileMatch": [
+        "^(workflow-templates|\\.github/workflows)\\/[^/]+\\.ya?ml$",
+        "(^|\\/)action\\.ya?ml$]"
+      ],
+      "matchStrings": [
+        "AXON_FRAMEWORK_VERSION:\\s+?(?<currentValue>.*?)\\s+"
+      ],
+      "depNameTemplate": "AxonFramework/AxonFramework",
+      "datasourceTemplate": "github-releases",
+      "extractVersionTemplate": "^axon-?(?<version>.*?)$"
+    },
+    {
+      "description": "Update REACT_ROUTER_VERSION environment variable in GitHub Actions",
+      "customType": "regex",
+      "fileMatch": [
+        "^(workflow-templates|\\.github/workflows)\\/[^/]+\\.ya?ml$",
+        "(^|\\/)action\\.ya?ml$]"
+      ],
+      "matchStrings": [
+        "REACT_ROUTER_VERSION:\\s+?(?<currentValue>.*?)\\s+"
+      ],
+      "depNameTemplate": "remix-run/react-router",
+      "datasourceTemplate": "github-releases",
+      "extractVersionTemplate": "^react-router@?(?<version>.*?)$"
+    },
+    {
+      "description": "Update AxonFramework analysis result links in README.md",
+      "customType": "regex",
+      "fileMatch": [
+        "README.md"
+      ],
+      "matchStrings": [
+        "\\/AxonFramework-?(?<currentValue>.*?)\\/"
+      ],
+      "depNameTemplate": "AxonFramework/AxonFramework",
+      "datasourceTemplate": "github-releases",
+      "extractVersionTemplate": "^axon-?(?<version>.*?)$"
+    },
+    {
+      "description": "Update Python environment mambaforge version in GitHub Actions",
+      "customType": "regex",
+      "fileMatch": [
+        "^(workflow-templates|\\.github/workflows)\\/[^/]+\\.ya?ml$",
+        "(^|\\/)action\\.ya?ml$]"
+      ],
+      "matchStrings": [
+        "mambaforge:\\s+?(?<currentValue>.*?)\\s+"
+      ],
+      "depNameTemplate": "conda-forge/miniforge",
+      "datasourceTemplate": "github-releases"
+    },
+    {
+      "description": "Update npx command package versions",
+      "customType": "regex",
+      "fileMatch": [
+        "^scripts/[^/]*\\.sh$",
+        "^(workflow-templates|\\.github/workflows)\\/[^/]+\\.ya?ml$",
+        "(^|\\/)action\\.ya?ml$]"
+      ],
+      "matchStrings": [
+        "npx\\s+--yes\\s+(--package\\s+)?(-p\\s+)?(?<depName>@?[^@]+)@(?<currentValue>.*?)($|\\s+)"
+      ],
+      "datasourceTemplate": "npm"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+name: Check links in documentation
+
+on:
+  pull_request:
+    branches:
+      - main
+    # Only watch root level Markdown documentation file changes
+    paths:
+      - 'README.md'
+      - '.github/workflows/check-links-in-documentation.yml' # also run when this file was changed
+  schedule:
+    - cron: "15 6 1 * *" # On the first day of each month at 6:15 o'clock
+
+jobs:
+  analysis-results:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout GIT Repository
+      uses: actions/checkout@v4
+
+    - name: Setup node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version-file: '.nvmrc'
+
+    - name: Skip on update of AxonFramework by bot (Renovate)
+      if: |
+        github.event_name == 'pull_request' && 
+        startsWith(github.event.pull_request.title, 'Update dependency AxonFramework') && 
+        github.event.pull_request.user.type == 'Bot'
+      run: |
+        echo "Skipping link check on AxonFramework updates since the updated links to the analysis-results will only be active " 
+        echo "skip_link_check=true" >> $GITHUB_ENV
+
+    - name: Check links in top level documentation Markdown files
+      if: ${{ ! env.skip_link_check}}
+      run: npx --yes markdown-link-check@3.13.6 --verbose --alive=200,202,206 --retry README.md
+      # Temporarily, everything is done using command line options rather than with the config file, which doesn't seem to work.
+      # Maybe related to https://github.com/tcort/markdown-link-check/issues/379 ?
