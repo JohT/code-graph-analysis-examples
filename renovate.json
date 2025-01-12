@@ -75,6 +75,21 @@
         "npx\\s+--yes\\s+(--package\\s+)?(-p\\s+)?(?<depName>@?[^@]+)@(?<currentValue>.*?)($|\\s+)"
       ],
       "datasourceTemplate": "npm"
+    },
+    {
+      "description": "Update java version in GitHub Action environment variable",
+      "customType": "regex",
+      "datasourceTemplate": "java-version",
+      "depNameTemplate": "java",
+      "packageNameTemplate": "",
+      "fileMatch": [
+        "^(workflow-templates|\\.github/workflows)\\/[^/]+\\.ya?ml$",
+        "(^|\\/)action\\.ya?ml$]"
+      ],
+      "matchStrings": [
+        "JAVA_VERSION:\\s+?(?<currentValue>.*?)\\s+"
+      ],
+      "extractVersionTemplate": "^(?<version>\\d+).*$"
     }
   ]
 }
