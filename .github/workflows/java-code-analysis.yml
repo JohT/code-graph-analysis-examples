@@ -1,0 +1,168 @@
+name: AxonFramework Code Graph Analysis (Java)
+
+on:
+  push:
+    branches:
+      - main
+    # Ignore changes in documentation, general configuration and analysis-results for push events
+    paths-ignore: 
+      - 'analysis-results/**'
+      - '**/*.md'
+      - '**/*.txt'
+      - '**/*.css'
+      - '**/*.html'
+      - '**/*.js'
+      - '.gitignore'
+      - '.gitattributes'
+      - 'renovate.json'
+      - '**.code-workspace'
+      - '.github/workflows/typescript-code-analysis.yml'
+      - '.github/workflows/*documentation.yml'
+  pull_request:
+    branches:
+      - main
+    # Ignore changes in documentation, general configuration and analysis-results for pull request events
+    paths-ignore: 
+      - 'analysis-results/**'
+      - '**/*.md'
+      - '**/*.txt'
+      - '**/*.css'
+      - '**/*.html'
+      - '**/*.js'
+      - '.gitignore'
+      - '.gitattributes'
+      - 'renovate.json'
+      - '**.code-workspace'
+      - '.github/workflows/typescript-code-analysis.yml'
+      - '.github/workflows/*documentation.yml'
+
+jobs:
+  prepare-code-to-analyze:
+    runs-on: ubuntu-latest
+    outputs:
+      analysis-name: ${{ steps.set-analysis-name.outputs.analysis-name }}
+      sources-upload-name: ${{ steps.set-sources-upload-name.outputs.sources-upload-name }}
+      artifacts-upload-name: ${{ steps.set-artifacts-upload-name.outputs.artifacts-upload-name }}
+
+    env: 
+      PROJECT_NAME: AxonFramework
+      # Version variable names matches renovate.json configuration entry
+      AXON_FRAMEWORK_VERSION: 4.10.3
+      # Java is in this example only used to download JARs for analysis using Maven
+      JAVA_VERSION: 21
+
+    steps:
+    - name: (Prepare Code to Analyze) Checkout AxonFramework repository
+      uses: actions/checkout@v4
+      with:
+        repository: AxonFramework/AxonFramework
+        ref: axon-${{ env.AXON_FRAMEWORK_VERSION }}
+        path: ./source
+
+    - name: (Prepare Code to Analyze) Setup Java Development Kit for Maven JARs downloading (JDK) ${{ env.JAVA_VERSION}}
+      uses: actions/setup-java@v4
+      with:
+        distribution: "temurin"
+        java-version: ${{ env.JAVA_VERSION}}
+
+    - name: (Prepare Code to Analyze) Download AxonFramework JARs for analysis
+      run: |
+        mvn dependency:copy -Dartifact=org.axonframework:axon-configuration:${{ env.AXON_FRAMEWORK_VERSION }} -DoutputDirectory=./artifacts
+        mvn dependency:copy -Dartifact=org.axonframework:axon-disruptor:${{ env.AXON_FRAMEWORK_VERSION }} -DoutputDirectory=./artifacts
+        mvn dependency:copy -Dartifact=org.axonframework:axon-eventsourcing:${{ env.AXON_FRAMEWORK_VERSION }} -DoutputDirectory=./artifacts
+        mvn dependency:copy -Dartifact=org.axonframework:axon-messaging:${{ env.AXON_FRAMEWORK_VERSION }} -DoutputDirectory=./artifacts
+        mvn dependency:copy -Dartifact=org.axonframework:axon-modelling:${{ env.AXON_FRAMEWORK_VERSION }} -DoutputDirectory=./artifacts
+        mvn dependency:copy -Dartifact=org.axonframework:axon-test:${{ env.AXON_FRAMEWORK_VERSION }} -DoutputDirectory=./artifacts
+        mvn dependency:copy -Dartifact=org.axonframework:axon-server-connector:${{ env.AXON_FRAMEWORK_VERSION }} -DoutputDirectory=./artifacts
+        mvn dependency:copy -Dartifact=org.axonframework:axon-spring-boot-autoconfigure:${{ env.AXON_FRAMEWORK_VERSION }} -DoutputDirectory=./artifacts
+        mvn dependency:copy -Dartifact=org.axonframework:axon-tracing-opentelemetry:${{ env.AXON_FRAMEWORK_VERSION }} -DoutputDirectory=./artifacts
+ 
+    - name: (Prepare Code to Analyze) Set analysis-name
+      id: set-analysis-name
+      run: echo "analysis-name=${{ env.PROJECT_NAME }}-${{ env.AXON_FRAMEWORK_VERSION }}" >> "$GITHUB_OUTPUT"
+
+    - name: (Prepare Code to Analyze) Generate ARTIFACT_UPLOAD_ID
+      run: echo "ARTIFACT_UPLOAD_ID=$(LC_ALL=C tr -dc 'A-Za-z0-9' < /dev/urandom | head -c 10)" >> $GITHUB_ENV
+ 
+    - name: (Prepare Code to Analyze) Set sources-upload-name
+      id: set-sources-upload-name
+      run: echo "sources-upload-name=${{ steps.set-analysis-name.outputs.analysis-name }}-analysis-sources_input-${{ env.ARTIFACT_UPLOAD_ID }}" >> "$GITHUB_OUTPUT"
+ 
+    - name: (Prepare Code to Analyze) Assemble ARTIFACTS_UPLOAD_NAME
+      id: set-artifacts-upload-name
+      run: echo "artifacts-upload-name=${{ steps.set-analysis-name.outputs.analysis-name }}-analysis-artifacts-input-${{ env.ARTIFACT_UPLOAD_ID }}" >> "$GITHUB_OUTPUT"
+
+    - name: (Prepare Code to Analyze) Upload sources to analyze
+      if: success()
+      uses: actions/upload-artifact@v4
+      with:
+        name: ${{ steps.set-sources-upload-name.outputs.sources-upload-name }}
+        path: ./source
+        if-no-files-found: error
+        retention-days: 5
+
+    - name: (Prepare Code to Analyze) Upload artifacts to analyze
+      if: success()
+      uses: actions/upload-artifact@v4
+      with:
+        name: ${{ steps.set-artifacts-upload-name.outputs.artifacts-upload-name }}
+        path: ./artifacts
+        if-no-files-found: error
+        retention-days: 5
+
+
+  analyze-code-graph:
+    needs: [prepare-code-to-analyze]
+    uses: ./.github/workflows/analyze-code-graph.yml
+    with:
+      analysis-name: ${{ needs.prepare-code-to-analyze.outputs.analysis-name }}
+      artifacts-upload-name: ${{ needs.prepare-code-to-analyze.outputs.artifacts-upload-name }}
+      sources-upload-name: ${{ needs.prepare-code-to-analyze.outputs.sources-upload-name }}
+
+
+  analysis-results:
+    needs: [prepare-code-to-analyze, analyze-code-graph]
+    runs-on: ubuntu-latest
+
+    env: 
+      CI_COMMIT_MESSAGE: Automated code structure analysis analysis-results (CI)
+      CI_COMMIT_AUTHOR: ${{ github.event.repository.name }} Continuous Integration
+
+    steps:
+    - name: Checkout GIT Repository
+      uses: actions/checkout@v4
+      with:
+        token: ${{ secrets.WORKFLOW_GIT_ACCESS_TOKEN }}
+  
+    - name: (Code Analysis Setup) Download source code and artifacts for analysis
+      uses: actions/download-artifact@v4
+      with:
+        name: ${{ needs.analyze-code-graph.outputs.uploaded-analysis-results }}
+        path: analysis-results/${{ needs.prepare-code-to-analyze.outputs.analysis-name }}
+
+    # Commit and push the native image agent analysis-results
+    - name: Display environment variable "github.event_name"
+      run: echo "github.event_name=${{ github.event_name }}"
+    - name: Display changes in the "analysis-results" directory and prepare commit
+      # Only run when a pull request gets merged or a commit is pushed to the main branch
+      # git add parameters need to match paths-ignore parameters above
+      # Git pull before add/commit/push to reduce race conditions on parallel builds
+      run: |
+        git config --global user.name '${{ env.CI_COMMIT_AUTHOR }}'
+        git config --global user.email "7671054+JohT@users.noreply.github.com"
+        git config --local http.postBuffer 524288000
+        git fetch origin
+        git status
+        git add analysis-results
+        git status
+    - name: Commit and push changes in the "analysis-results" directory
+      # Only run when a pull request gets merged or a commit is pushed to the main branch
+      # git add parameters need to match paths-ignore parameters above
+      # Git pull before add/commit/push to reduce race conditions on parallel builds
+      if: github.event_name == 'push'
+      run: |
+        git commit -m "${{ env.CI_COMMIT_MESSAGE }}"
+        git status
+        git rebase --strategy-option=theirs origin/main --verbose
+        git status
+        git push --verbose
