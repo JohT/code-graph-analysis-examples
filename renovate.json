@@ -90,6 +90,22 @@
         "JAVA_VERSION:\\s+?(?<currentValue>.*?)\\s+"
       ],
       "extractVersionTemplate": "^(?<version>\\d+).*$"
+    },
+    {
+      "description": "Update repositories checked out with 'actions/checkout' and a specific ref",
+      "customType": "regex",
+      "fileMatch": [
+        "(^|/)(workflow-templates|\\.(?:github|gitea|forgejo)/(?:workflows|actions))/.+\\.ya?ml$",
+        "(^|/)action\\.ya?ml$"
+      ],
+      "matchStringsStrategy": "combination",
+      "matchStrings": [
+        "uses: actions/checkout@v*\\s",
+        "repository: (?<depName>.*?)\\s",
+        "ref: (?<currentDigest>.*?)\\s"
+      ],
+      "currentValueTemplate": "main",
+      "datasourceTemplate": "github-refs"
     }
   ]
 }
