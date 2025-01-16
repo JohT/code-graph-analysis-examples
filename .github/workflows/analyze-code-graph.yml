@@ -165,7 +165,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: ${{ steps.set-analysis-results-artifact-name.outputs.uploaded-analysis-results-artifact-name }}
-          path: ./code-graph-analysis-pipeline/temp/**/reports/*
+          path: ./code-graph-analysis-pipeline/temp/${{ inputs.analysis-name }}/reports/*
           if-no-files-found: error
           retention-days: 5
 
