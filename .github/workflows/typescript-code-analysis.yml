@@ -80,7 +80,7 @@ jobs:
         name: ${{ steps.set-sources-upload-name.outputs.sources-upload-name }}
         path: .
         if-no-files-found: error
-        retention-days: 5
+        retention-days: 1
     
 
   analyze-code-graph:

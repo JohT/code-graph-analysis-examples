@@ -99,7 +99,7 @@ jobs:
         name: ${{ steps.set-sources-upload-name.outputs.sources-upload-name }}
         path: ./source
         if-no-files-found: error
-        retention-days: 5
+        retention-days: 1
 
     - name: (Prepare Code to Analyze) Upload artifacts to analyze
       if: success()
@@ -108,7 +108,7 @@ jobs:
         name: ${{ steps.set-artifacts-upload-name.outputs.artifacts-upload-name }}
         path: ./artifacts
         if-no-files-found: error
-        retention-days: 5
+        retention-days: 1
 
 
   analyze-code-graph:
