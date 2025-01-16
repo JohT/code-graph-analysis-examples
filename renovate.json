@@ -13,8 +13,8 @@
       "description": "Update AXON_FRAMEWORK_VERSION environment variable in GitHub Actions",
       "customType": "regex",
       "fileMatch": [
-        "^(workflow-templates|\\.github/workflows)\\/[^/]+\\.ya?ml$",
-        "(^|\\/)action\\.ya?ml$]"
+        "(^|/)(workflow-templates|\\.(?:github|gitea|forgejo)/(?:workflows|actions))/.+\\.ya?ml$",
+        "(^|/)action\\.ya?ml$"
       ],
       "matchStrings": [
         "AXON_FRAMEWORK_VERSION:\\s+?(?<currentValue>.*?)\\s+"
@@ -27,8 +27,8 @@
       "description": "Update REACT_ROUTER_VERSION environment variable in GitHub Actions",
       "customType": "regex",
       "fileMatch": [
-        "^(workflow-templates|\\.github/workflows)\\/[^/]+\\.ya?ml$",
-        "(^|\\/)action\\.ya?ml$]"
+        "(^|/)(workflow-templates|\\.(?:github|gitea|forgejo)/(?:workflows|actions))/.+\\.ya?ml$",
+        "(^|/)action\\.ya?ml$"
       ],
       "matchStrings": [
         "REACT_ROUTER_VERSION:\\s+?(?<currentValue>.*?)\\s+"
@@ -54,8 +54,8 @@
       "description": "Update Python environment mambaforge version in GitHub Actions",
       "customType": "regex",
       "fileMatch": [
-        "^(workflow-templates|\\.github/workflows)\\/[^/]+\\.ya?ml$",
-        "(^|\\/)action\\.ya?ml$]"
+        "(^|/)(workflow-templates|\\.(?:github|gitea|forgejo)/(?:workflows|actions))/.+\\.ya?ml$",
+        "(^|/)action\\.ya?ml$"
       ],
       "matchStrings": [
         "mambaforge:\\s+?(?<currentValue>.*?)\\s+"
@@ -67,9 +67,8 @@
       "description": "Update npx command package versions",
       "customType": "regex",
       "fileMatch": [
-        "^scripts/[^/]*\\.sh$",
-        "^(workflow-templates|\\.github/workflows)\\/[^/]+\\.ya?ml$",
-        "(^|\\/)action\\.ya?ml$]"
+        "(^|/)(workflow-templates|\\.(?:github|gitea|forgejo)/(?:workflows|actions))/.+\\.ya?ml$",
+        "(^|/)action\\.ya?ml$"
       ],
       "matchStrings": [
         "npx\\s+--yes\\s+(--package\\s+)?(-p\\s+)?(?<depName>@?[^@]+)@(?<currentValue>.*?)($|\\s+)"
@@ -83,8 +82,8 @@
       "depNameTemplate": "java",
       "packageNameTemplate": "",
       "fileMatch": [
-        "^(workflow-templates|\\.github/workflows)\\/[^/]+\\.ya?ml$",
-        "(^|\\/)action\\.ya?ml$]"
+        "(^|/)(workflow-templates|\\.(?:github|gitea|forgejo)/(?:workflows|actions))/.+\\.ya?ml$",
+        "(^|/)action\\.ya?ml$"
       ],
       "matchStrings": [
         "JAVA_VERSION:\\s+?(?<currentValue>.*?)\\s+"
@@ -92,7 +91,7 @@
       "extractVersionTemplate": "^(?<version>\\d+).*$"
     },
     {
-      "description": "Update repositories checked out with 'actions/checkout' and a specific ref",
+      "description": "Update code-graph-analysis-pipeline repository commit hash",
       "customType": "regex",
       "fileMatch": [
         "(^|/)(workflow-templates|\\.(?:github|gitea|forgejo)/(?:workflows|actions))/.+\\.ya?ml$",
@@ -101,11 +100,12 @@
       "matchStringsStrategy": "combination",
       "matchStrings": [
         "uses: actions/checkout@v*\\s",
-        "repository: (?<depName>.*?)\\s",
-        "ref: (?<currentDigest>.*?)\\s"
+        "repository:\\s*JohT/code-graph-analysis-pipeline\\s",
+        "ref:\\s*(?<currentDigest>.*?)\\s"
       ],
+      "packageNameTemplate": "https://github.com/JohT/code-graph-analysis-pipeline",
       "currentValueTemplate": "main",
-      "datasourceTemplate": "github-refs"
+      "datasourceTemplate": "git-refs"
     }
   ]
 }
