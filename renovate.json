@@ -4,6 +4,7 @@
     "config:recommended",
     ":combinePatchMinorReleases",
     "schedule:earlyMondays",
+    "helpers:pinGitHubActionDigests",
     ":automergeDigest",
     ":automergePatch",
     ":automergeRequireAllStatusChecks"
