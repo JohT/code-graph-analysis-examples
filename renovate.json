@@ -3,7 +3,10 @@
   "extends": [
     "config:recommended",
     ":combinePatchMinorReleases",
-    "schedule:earlyMondays"
+    "schedule:earlyMondays",
+    ":automergeDigest",
+    ":automergePatch",
+    ":automergeRequireAllStatusChecks"
   ],
   "ignoreUnstable": false,
   "packageRules": [
