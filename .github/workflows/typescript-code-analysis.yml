@@ -50,13 +50,13 @@ jobs:
 
     steps:
     - name: (Prepare Code to Analyze) Checkout react-router repository
-      uses: actions/checkout@v4
+      uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4
       with:
         repository: remix-run/react-router
         ref: react-router@${{ env.REACT_ROUTER_VERSION }}
  
     - name: (Prepare Code to Analyze) Setup pnpm for react-router
-      uses: pnpm/action-setup@v4.0.0
+      uses: pnpm/action-setup@fe02b34f77f8bc703788d5817da081398fad5dd2 # v4.0.0
           
     - name: (Prepare Code to Analyze) Install dependencies with pnpm
       run: pnpm install --frozen-lockfile --strict-peer-dependencies
@@ -75,7 +75,7 @@ jobs:
     
     - name: (Prepare Code to Analyze) Upload code to analyze
       if: success()
-      uses: actions/upload-artifact@v4
+      uses: actions/upload-artifact@65c4c4a1ddee5b72f698fdd19549f0f0fb45cf08 # v4
       with:
         name: ${{ steps.set-sources-upload-name.outputs.sources-upload-name }}
         path: .
@@ -101,12 +101,12 @@ jobs:
 
     steps:
     - name: Checkout GIT Repository
-      uses: actions/checkout@v4
+      uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4
       with:
         token: ${{ secrets.WORKFLOW_GIT_ACCESS_TOKEN }}
   
     - name: (Code Analysis Setup) Download source code and artifacts for analysis
-      uses: actions/download-artifact@v4
+      uses: actions/download-artifact@fa0a91b85d4f404e444e00e005971372dc801d16 # v4
       with:
         name: ${{ needs.analyze-code-graph.outputs.uploaded-analysis-results }}
         path: analysis-results/${{ needs.prepare-code-to-analyze.outputs.analysis-name }}
