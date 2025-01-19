@@ -79,16 +79,18 @@ jobs:
       with:
         name: ${{ steps.set-sources-upload-name.outputs.sources-upload-name }}
         path: .
+        include-hidden-files: true
         if-no-files-found: error
         retention-days: 1
     
 
   analyze-code-graph:
     needs: [prepare-code-to-analyze]
-    uses: ./.github/workflows/analyze-code-graph.yml
+    uses: JohT/code-graph-analysis-pipeline/.github/workflows/public-analyze-code-graph.yml@7f43cf96d676f715cf278b020ce1dbb3338f900b # v2
     with:
       analysis-name: ${{ needs.prepare-code-to-analyze.outputs.analysis-name }}
       sources-upload-name: ${{ needs.prepare-code-to-analyze.outputs.sources-upload-name }}
+      ref: 7f43cf96d676f715cf278b020ce1dbb3338f900b
 
 
   analysis-results:

@@ -98,6 +98,7 @@ jobs:
       with:
         name: ${{ steps.set-sources-upload-name.outputs.sources-upload-name }}
         path: ./source
+        include-hidden-files: true
         if-no-files-found: error
         retention-days: 1
 
@@ -113,11 +114,12 @@ jobs:
 
   analyze-code-graph:
     needs: [prepare-code-to-analyze]
-    uses: ./.github/workflows/analyze-code-graph.yml
+    uses: JohT/code-graph-analysis-pipeline/.github/workflows/public-analyze-code-graph.yml@7f43cf96d676f715cf278b020ce1dbb3338f900b # v2
     with:
       analysis-name: ${{ needs.prepare-code-to-analyze.outputs.analysis-name }}
       artifacts-upload-name: ${{ needs.prepare-code-to-analyze.outputs.artifacts-upload-name }}
       sources-upload-name: ${{ needs.prepare-code-to-analyze.outputs.sources-upload-name }}
+      ref: 7f43cf96d676f715cf278b020ce1dbb3338f900b
 
 
   analysis-results:
@@ -134,7 +136,7 @@ jobs:
       with:
         token: ${{ secrets.WORKFLOW_GIT_ACCESS_TOKEN }}
   
-    - name: (Code Analysis Setup) Download source code and artifacts for analysis
+    - name: Download source code and artifacts for analysis
       uses: actions/download-artifact@fa0a91b85d4f404e444e00e005971372dc801d16 # v4
       with:
         name: ${{ needs.analyze-code-graph.outputs.uploaded-analysis-results }}

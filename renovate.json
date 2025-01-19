@@ -11,6 +11,18 @@
   ],
   "ignoreUnstable": false,
   "packageRules": [
+    {
+      "description": "Code Graph Analysis Pipeline Workflow",
+      "groupName": [
+        "Code Graph Analysis Pipeline Workflow"
+      ],
+      "matchSourceUrls": [
+        "https://github.com/JohT/code-graph-analysis-pipeline"
+      ],
+      "matchUpdateTypes": [
+        "digest"
+      ]
+    }
   ],
   "customManagers": [
     {
@@ -95,7 +107,7 @@
       "extractVersionTemplate": "^(?<version>\\d+).*$"
     },
     {
-      "description": "Update code-graph-analysis-pipeline repository commit hash",
+      "description": "Update code-graph-analysis-pipeline ref parameter",
       "customType": "regex",
       "fileMatch": [
         "(^|/)(workflow-templates|\\.(?:github|gitea|forgejo)/(?:workflows|actions))/.+\\.ya?ml$",
@@ -103,8 +115,7 @@
       ],
       "matchStringsStrategy": "combination",
       "matchStrings": [
-        "uses: actions/checkout@v*\\s",
-        "repository:\\s*JohT/code-graph-analysis-pipeline\\s",
+        "uses: JohT/code-graph-analysis-pipeline/.github/workflows/public-analyze-code-graph.yml*\\s*",
         "ref:\\s*(?<currentDigest>.*?)\\s"
       ],
       "packageNameTemplate": "https://github.com/JohT/code-graph-analysis-pipeline",
