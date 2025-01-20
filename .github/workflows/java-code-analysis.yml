@@ -38,18 +38,19 @@ on:
 
 jobs:
   prepare-code-to-analyze:
+    name: Prepare Code to Analyze
     runs-on: ubuntu-latest
-    outputs:
-      analysis-name: ${{ steps.set-analysis-name.outputs.analysis-name }}
-      sources-upload-name: ${{ steps.set-sources-upload-name.outputs.sources-upload-name }}
-      artifacts-upload-name: ${{ steps.set-artifacts-upload-name.outputs.artifacts-upload-name }}
-
     env: 
       PROJECT_NAME: AxonFramework
       # Version variable names matches renovate.json configuration entry
       AXON_FRAMEWORK_VERSION: 4.10.3
       # Java is in this example only used to download JARs for analysis using Maven
       JAVA_VERSION: 21
+    outputs:
+      project-name: ${{ env.PROJECT_NAME }}
+      analysis-name: ${{ steps.set-analysis-name.outputs.analysis-name }}
+      sources-upload-name: ${{ steps.set-sources-upload-name.outputs.sources-upload-name }}
+      artifacts-upload-name: ${{ steps.set-artifacts-upload-name.outputs.artifacts-upload-name }}
 
     steps:
     - name: (Prepare Code to Analyze) Checkout AxonFramework repository
@@ -98,6 +99,7 @@ jobs:
       with:
         name: ${{ steps.set-sources-upload-name.outputs.sources-upload-name }}
         path: ./source
+        include-hidden-files: true
         if-no-files-found: error
         retention-days: 1
 
@@ -112,57 +114,25 @@ jobs:
 
 
   analyze-code-graph:
+    name: Analyze Code Graph
     needs: [prepare-code-to-analyze]
-    uses: ./.github/workflows/analyze-code-graph.yml
+    uses: JohT/code-graph-analysis-pipeline/.github/workflows/public-analyze-code-graph.yml@7f43cf96d676f715cf278b020ce1dbb3338f900b # v2
     with:
       analysis-name: ${{ needs.prepare-code-to-analyze.outputs.analysis-name }}
       artifacts-upload-name: ${{ needs.prepare-code-to-analyze.outputs.artifacts-upload-name }}
       sources-upload-name: ${{ needs.prepare-code-to-analyze.outputs.sources-upload-name }}
+      ref: 7f43cf96d676f715cf278b020ce1dbb3338f900b
 
 
-  analysis-results:
+  commit-analysis-results:
+    name: Commit Analysis Results
     needs: [prepare-code-to-analyze, analyze-code-graph]
-    runs-on: ubuntu-latest
-
-    env: 
-      CI_COMMIT_MESSAGE: Automated code structure analysis analysis-results (CI)
-      CI_COMMIT_AUTHOR: ${{ github.event.repository.name }} Continuous Integration
-
-    steps:
-    - name: Checkout GIT Repository
-      uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4
-      with:
-        token: ${{ secrets.WORKFLOW_GIT_ACCESS_TOKEN }}
-  
-    - name: (Code Analysis Setup) Download source code and artifacts for analysis
-      uses: actions/download-artifact@fa0a91b85d4f404e444e00e005971372dc801d16 # v4
-      with:
-        name: ${{ needs.analyze-code-graph.outputs.uploaded-analysis-results }}
-        path: analysis-results/${{ needs.prepare-code-to-analyze.outputs.analysis-name }}
-
-    # Commit and push the native image agent analysis-results
-    - name: Display environment variable "github.event_name"
-      run: echo "github.event_name=${{ github.event_name }}"
-    - name: Display changes in the "analysis-results" directory and prepare commit
-      # Only run when a pull request gets merged or a commit is pushed to the main branch
-      # git add parameters need to match paths-ignore parameters above
-      # Git pull before add/commit/push to reduce race conditions on parallel builds
-      run: |
-        git config --global user.name '${{ env.CI_COMMIT_AUTHOR }}'
-        git config --global user.email "7671054+JohT@users.noreply.github.com"
-        git config --local http.postBuffer 524288000
-        git fetch origin
-        git status
-        git add analysis-results
-        git status
-    - name: Commit and push changes in the "analysis-results" directory
-      # Only run when a pull request gets merged or a commit is pushed to the main branch
-      # git add parameters need to match paths-ignore parameters above
-      # Git pull before add/commit/push to reduce race conditions on parallel builds
-      if: github.event_name == 'push'
-      run: |
-        git commit -m "${{ env.CI_COMMIT_MESSAGE }}"
-        git status
-        git rebase --strategy-option=theirs origin/main --verbose
-        git status
-        git push --verbose
+    uses: ./.github/workflows/internal-commit-results.yml
+    with:
+      commit-author-name: "${{ github.event.repository.name }} Continuous Integration"
+      commit-author-email: "7671054+JohT@users.noreply.github.com"
+      commit-message: "Automated code structure analysis results (CI)"
+      commit-directory: "analysis-results/${{ needs.prepare-code-to-analyze.outputs.project-name }}/${{ needs.prepare-code-to-analyze.outputs.analysis-name }}"
+      uploaded-artifact-name: ${{ needs.analyze-code-graph.outputs.uploaded-analysis-results }}
+    secrets:
+      repository-commit-token: ${{ secrets.WORKFLOW_GIT_ACCESS_TOKEN }}
