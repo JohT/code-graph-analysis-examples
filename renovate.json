@@ -112,7 +112,7 @@
       ],
       "matchStringsStrategy": "combination",
       "matchStrings": [
-        "uses: JohT/code-graph-analysis-pipeline/.github/workflows/public-analyze-code-graph.yml*\\s*",
+        "uses: JohT/code-graph-analysis-pipeline/\\.github/workflows/public-analyze-code-graph\\.yml*\\s*",
         "ref:\\s*(?<currentDigest>.*?)\\s"
       ],
       "packageNameTemplate": "https://github.com/JohT/code-graph-analysis-pipeline",
