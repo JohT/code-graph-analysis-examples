@@ -15,9 +15,6 @@
       ],
       "matchSourceUrls": [
         "https://github.com/JohT/code-graph-analysis-pipeline"
-      ],
-      "matchUpdateTypes": [
-        "digest"
       ]
     }
   ],
@@ -114,6 +111,20 @@
       "matchStrings": [
         "uses: JohT/code-graph-analysis-pipeline/\\.github/workflows/public-analyze-code-graph\\.yml*\\s*",
         "ref:\\s*(?<currentDigest>.*?)\\s"
+      ],
+      "packageNameTemplate": "https://github.com/JohT/code-graph-analysis-pipeline",
+      "currentValueTemplate": "main",
+      "datasourceTemplate": "git-refs"
+    },
+    {
+      "description": "Update code-graph-analysis-pipeline workflow digest",
+      "customType": "regex",
+      "fileMatch": [
+        "(^|/)(workflow-templates|\\.(?:github|gitea|forgejo)/(?:workflows|actions))/.+\\.ya?ml$",
+        "(^|/)action\\.ya?ml$"
+      ],
+      "matchStrings": [
+        "uses: JohT/code-graph-analysis-pipeline/\\.github/workflows/public-analyze-code-graph\\.yml@(?<currentDigest>.*?)\\s+"
       ],
       "packageNameTemplate": "https://github.com/JohT/code-graph-analysis-pipeline",
       "currentValueTemplate": "main",
