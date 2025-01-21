@@ -121,7 +121,7 @@ jobs:
       analysis-name: ${{ needs.prepare-code-to-analyze.outputs.analysis-name }}
       artifacts-upload-name: ${{ needs.prepare-code-to-analyze.outputs.artifacts-upload-name }}
       sources-upload-name: ${{ needs.prepare-code-to-analyze.outputs.sources-upload-name }}
-      ref: c264c7ae741f6fcd43b8a8b40486a67f5c0b735b
+      ref: 7f43cf96d676f715cf278b020ce1dbb3338f900b
 
 
   commit-analysis-results:
