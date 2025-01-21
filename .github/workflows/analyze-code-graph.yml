@@ -52,7 +52,7 @@ jobs:
         uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4
         with:
           repository: JohT/code-graph-analysis-pipeline
-          ref: 41f3e22b5bd65351474dd23effeee91fab849a12
+          ref: c264c7ae741f6fcd43b8a8b40486a67f5c0b735b
           path: code-graph-analysis-pipeline
           persist-credentials: false
 
