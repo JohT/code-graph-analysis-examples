@@ -61,19 +61,6 @@
       "extractVersionTemplate": "^axon-?(?<version>.*?)$"
     },
     {
-      "description": "Update Python environment mambaforge version in GitHub Actions",
-      "customType": "regex",
-      "fileMatch": [
-        "(^|/)(workflow-templates|\\.(?:github|gitea|forgejo)/(?:workflows|actions))/.+\\.ya?ml$",
-        "(^|/)action\\.ya?ml$"
-      ],
-      "matchStrings": [
-        "mambaforge:\\s+?(?<currentValue>.*?)\\s+"
-      ],
-      "depNameTemplate": "conda-forge/miniforge",
-      "datasourceTemplate": "github-releases"
-    },
-    {
       "description": "Update npx command package versions",
       "customType": "regex",
       "fileMatch": [
