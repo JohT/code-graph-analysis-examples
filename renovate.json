@@ -97,10 +97,10 @@
       "matchStringsStrategy": "combination",
       "matchStrings": [
         "uses: JohT/code-graph-analysis-pipeline/\\.github/workflows/public-analyze-code-graph\\.yml*\\s*",
-        "ref:\\s*(?<currentDigest>.*?)\\s"
+        "ref:\\s*(?<currentDigest>.*?)\\s+#\\s+(?<currentValue>.*?)\\s+"
       ],
+      
       "packageNameTemplate": "https://github.com/JohT/code-graph-analysis-pipeline",
-      "currentValueTemplate": "main",
       "datasourceTemplate": "git-refs"
     }
   ]
