@@ -13,8 +13,8 @@
       "groupName": [
         "Code Graph Analysis Pipeline Workflow"
       ],
-      "matchSourceUrls": [
-        "https://github.com/JohT/code-graph-analysis-pipeline"
+      "matchPackageNames": [
+        "JohT/code-graph-analysis-pipeline"
       ]
     }
   ],
