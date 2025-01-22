@@ -14,7 +14,8 @@
         "Code Graph Analysis Pipeline Workflow"
       ],
       "matchPackageNames": [
-        "JohT/code-graph-analysis-pipeline"
+        "JohT/code-graph-analysis-pipeline",
+        "https://github.com/JohT/code-graph-analysis-pipeline"
       ]
     }
   ],
