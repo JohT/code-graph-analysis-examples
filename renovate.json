@@ -4,8 +4,20 @@
     "config:recommended",
     ":combinePatchMinorReleases",
     "schedule:earlyMondays",
-    "helpers:pinGitHubActionDigests",
-    "github>JohT/code-graph-analysis-pipeline//renovate-presets/code-graph-analysis-workflow-latest-digest.json5"
+    "helpers:pinGitHubActionDigests"
+  ],
+  "ignoreUnstable": false,
+  "packageRules": [
+    {
+      "description": "Code Graph Analysis Pipeline Workflow",
+      "groupName": [
+        "Code Graph Analysis Pipeline Workflow"
+      ],
+      "matchPackageNames": [
+        "JohT/code-graph-analysis-pipeline",
+        "https://github.com/JohT/code-graph-analysis-pipeline"
+      ]
+    }
   ],
   "customManagers": [
     {
@@ -75,6 +87,22 @@
         "JAVA_VERSION:\\s+?(?<currentValue>.*?)\\s+"
       ],
       "extractVersionTemplate": "^(?<version>\\d+).*$"
+    },
+    {
+      "description": "Update code-graph-analysis-pipeline ref parameter",
+      "customType": "regex",
+      "fileMatch": [
+        "(^|/)(workflow-templates|\\.(?:github|gitea|forgejo)/(?:workflows|actions))/.+\\.ya?ml$",
+        "(^|/)action\\.ya?ml$"
+      ],
+      "matchStringsStrategy": "combination",
+      "matchStrings": [
+        "uses: JohT/code-graph-analysis-pipeline/\\.github/workflows/public-analyze-code-graph\\.yml*\\s*",
+        "ref:\\s*(?<currentDigest>.*?)\\s+#\\s+(?<currentValue>.*?)\\s+"
+      ],
+      
+      "packageNameTemplate": "https://github.com/JohT/code-graph-analysis-pipeline",
+      "datasourceTemplate": "git-refs"
     }
   ]
 }
