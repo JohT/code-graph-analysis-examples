@@ -7,18 +7,6 @@
     "helpers:pinGitHubActionDigests",
     "github>JohT/code-graph-analysis-pipeline//renovate-presets/code-graph-analysis-workflow-latest-digest.json5"
   ],
-  "packageRules": [
-    {
-      "description": "Code Graph Analysis Pipeline Workflow",
-      "groupName": [
-        "Code Graph Analysis Pipeline Workflow"
-      ],
-      "matchPackageNames": [
-        "JohT/code-graph-analysis-pipeline",
-        "https://github.com/JohT/code-graph-analysis-pipeline"
-      ]
-    }
-  ],
   "customManagers": [
     {
       "description": "Update AXON_FRAMEWORK_VERSION environment variable in GitHub Actions",
