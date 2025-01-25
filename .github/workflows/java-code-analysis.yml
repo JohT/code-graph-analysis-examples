@@ -59,6 +59,7 @@ jobs:
         repository: AxonFramework/AxonFramework
         ref: axon-${{ env.AXON_FRAMEWORK_VERSION }}
         path: ./source
+        fetch-depth: 0 # Include the full git history for analysis
 
     - name: (Prepare Code to Analyze) Setup Java Development Kit for Maven JARs downloading (JDK) ${{ env.JAVA_VERSION}}
       uses: actions/setup-java@7a6d8a8234af8eb26422e24e3006232cccaa061b # v4

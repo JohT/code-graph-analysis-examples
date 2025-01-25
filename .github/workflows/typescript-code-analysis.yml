@@ -56,6 +56,7 @@ jobs:
       with:
         repository: remix-run/react-router
         ref: react-router@${{ env.REACT_ROUTER_VERSION }}
+        fetch-depth: 0 # Include the full git history for enhanced analysis
  
     - name: (Prepare Code to Analyze) Setup pnpm for react-router
       uses: pnpm/action-setup@fe02b34f77f8bc703788d5817da081398fad5dd2 # v4.0.0
