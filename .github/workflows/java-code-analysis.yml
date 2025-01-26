@@ -7,6 +7,7 @@ on:
     # Ignore changes in documentation, general configuration and analysis-results for push events
     paths-ignore: 
       - 'analysis-results/**'
+      - 'documentation/**'
       - '**/*.md'
       - '**/*.txt'
       - '**/*.css'
@@ -24,6 +25,7 @@ on:
     # Ignore changes in documentation, general configuration and analysis-results for pull request events
     paths-ignore: 
       - 'analysis-results/**'
+      - 'documentation/**'
       - '**/*.md'
       - '**/*.txt'
       - '**/*.css'

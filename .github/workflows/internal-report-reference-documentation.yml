@@ -1,0 +1,76 @@
+name: Generate report reference documentation
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "analysis-results/**" # Only run on changed analysis results
+      - "!analysis-results/*.md" # Ignore report reference documentation changes (endless loop prevention)
+      - ".github/workflows/internal-report-reference-documentation.yml" # Also run when this file was changed
+  pull_request:
+    branches:
+      - main
+    paths:
+      - "analysis-results/**" # Only run on changed analysis results
+      - "!analysis-results/*.md" # Ignore report reference documentation changes (endless loop prevention)
+      - ".github/workflows/internal-report-reference-documentation.yml" # Also run when this file was changed
+
+jobs:
+  generate-report-reference-documentation:
+    runs-on: ubuntu-latest
+    outputs:
+      generated_documents_changed: ${{ steps.set-generated_documents_changed.outputs.generated_documents_changed }}
+      documentation-upload-name: ${{ steps.set-documentation-upload-name.outputs.documentation-upload-name }}
+      
+    steps:
+      - name: Checkout git repository
+        uses: actions/checkout@v4
+
+      - name: Generate report reference document
+        working-directory: analysis-results
+        run: |
+          ./../documentation/analysis-reports-reference/generateReportReferences.sh
+
+      - name: Use git to detect changes in the regenerated documentation and set generated_documents_changed
+        working-directory: analysis-results
+        id: set-generated_documents_changed
+        run: |
+          git diff --quiet || echo "generated_documents_changed=true" >> "$GITHUB_OUTPUT"
+          git --no-pager diff --name-only
+
+      - name: Display generated_documents_changed
+        run: echo "generated_documents_changed=${{ steps.set-generated_documents_changed.outputs.generated_documents_changed }}"
+
+      - name: Generate ARTIFACT_UPLOAD_ID
+        if: steps.set-generated_documents_changed.outputs.generated_documents_changed == 'true'
+        run: echo "ARTIFACT_UPLOAD_ID=$(LC_ALL=C tr -dc 'A-Za-z0-9' < /dev/urandom | head -c 10)" >> $GITHUB_ENV
+ 
+      - name: Set documentation-upload-name
+        if: steps.set-generated_documents_changed.outputs.generated_documents_changed == 'true'
+        id: set-documentation-upload-name
+        run: echo "documentation-upload-name=report-reference-documentation-${{ env.ARTIFACT_UPLOAD_ID }}" >> "$GITHUB_OUTPUT"
+
+      - name: Archive generated report references documents
+        if: steps.set-generated_documents_changed.outputs.generated_documents_changed == 'true'
+        uses: actions/upload-artifact@v4
+        with:
+          name: ${{ steps.set-documentation-upload-name.outputs.documentation-upload-name }}
+          path: ./analysis-results/*.md
+          if-no-files-found: error
+          retention-days: 5
+
+
+  commit-analysis-results:
+    name: Commit Analysis Results
+    needs: [generate-report-reference-documentation]
+    uses: ./.github/workflows/internal-commit-results.yml
+    if: needs.generate-report-reference-documentation.outputs.generated_documents_changed == 'true'
+    with:
+      commit-author-name: "${{ github.event.repository.name }} Continuous Integration"
+      commit-author-email: "7671054+JohT@users.noreply.github.com"
+      commit-message: "Automated code structure analysis results (CI)"
+      commit-directory: "./analysis-results/*.md"
+      uploaded-artifact-name: ${{ needs.generate-report-reference-documentation.outputs.documentation-upload-name }}
+    secrets:
+      repository-commit-token: ${{ secrets.WORKFLOW_GIT_ACCESS_TOKEN }}
