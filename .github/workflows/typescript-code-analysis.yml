@@ -108,6 +108,7 @@ jobs:
       commit-author-email: "7671054+JohT@users.noreply.github.com"
       commit-message: "Automated code structure analysis results (CI)"
       commit-directory: "analysis-results/${{ needs.prepare-code-to-analyze.outputs.project-name }}/${{ needs.prepare-code-to-analyze.outputs.analysis-name }}"
+      second-commit-directory: "analysis-results/${{ needs.prepare-code-to-analyze.outputs.project-name }}/latest"
       uploaded-artifact-name: ${{ needs.analyze-code-graph.outputs.uploaded-analysis-results }}
     secrets:
       repository-commit-token: ${{ secrets.WORKFLOW_GIT_ACCESS_TOKEN }}
