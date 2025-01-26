@@ -70,7 +70,8 @@ jobs:
       commit-author-name: "${{ github.event.repository.name }} Continuous Integration"
       commit-author-email: "7671054+JohT@users.noreply.github.com"
       commit-message: "Automated code structure analysis results (CI)"
-      commit-directory: "./analysis-results/*.md"
+      commit-directory: "./analysis-results"
+      file-filter: "*.md"
       uploaded-artifact-name: ${{ needs.generate-report-reference-documentation.outputs.documentation-upload-name }}
     secrets:
       repository-commit-token: ${{ secrets.WORKFLOW_GIT_ACCESS_TOKEN }}

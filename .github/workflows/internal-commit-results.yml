@@ -1,5 +1,4 @@
 name: Commit Results
-
 on:
   workflow_call:
     inputs:
@@ -18,9 +17,19 @@ on:
         type: string
         default: "ci: Add automated results"
       commit-directory:
-        description: "The directory to commit"
+        description: "The directory where the artifacts will be downloaded and committed"
         required: true
         type: string
+      second-commit-directory:
+        description: "An optional second directory where the same files will be copied and committed"
+        required: false
+        type: string
+        default: ""
+      file-filter:
+        description: "A filter to apply to files in the commit-directory when staging them with git add. Example: *.md"
+        required: false
+        type: string
+        default: ""
       uploaded-artifact-name:
         description: "The name of the uploaded artifact"
         required: true
@@ -45,9 +54,26 @@ jobs:
         with:
           name: ${{ inputs.uploaded-artifact-name }}
           path: ${{ inputs.commit-directory }}
-
+      
+      - name: Copy artifacts into the second directory
+        if: inputs.second-commit-directory != ''
+        run: rm -rf ${{ inputs.second-commit-directory }} && cp -r ${{ inputs.commit-directory }} ${{ inputs.second-commit-directory }}
+      
       - name: Display environment variable "github.event_name"
         run: echo "github.event_name=${{ github.event_name }}"
+
+
+      - name: Assemble GIT_ADD_PATH
+        run: echo "GIT_ADD_PATH=${{ inputs.commit-directory }}${{ inputs.file-filter != '' && '/' || '' }}${{ inputs.file-filter }}" >> $GITHUB_ENV
+      - name: Display GIT_ADD_PATH
+        run: echo "GIT_ADD_PATH=${{ env.GIT_ADD_PATH }}"
+      
+      - name: Assemble SECOND_GIT_ADD_PATH
+        if: inputs.second-commit-directory != ''
+        run: echo "SECOND_GIT_ADD_PATH=${{ inputs.second-commit-directory }}${{ inputs.file-filter != '' && '/' || '' }}${{ inputs.file-filter }}" >> $GITHUB_ENV
+      - name: Display SECOND_GIT_ADD_PATH
+        if: inputs.second-commit-directory != ''
+        run: echo "SECOND_GIT_ADD_PATH=${{ env.SECOND_GIT_ADD_PATH }}"
 
       - name: Prepare commit of changes in `${{ inputs.commit-directory }}`
         run: |
@@ -56,7 +82,7 @@ jobs:
           git config --local http.postBuffer 524288000
           git fetch origin
           git status
-          git add ${{ inputs.commit-directory }}
+          git add ${{ env.GIT_ADD_PATH }} ${{ env.SECOND_GIT_ADD_PATH }}
           git status
 
       - name: Commit and push changes in `${{ inputs.commit-directory }}`
@@ -67,6 +93,6 @@ jobs:
           git status
           git rebase --strategy-option=theirs origin/main --verbose
           git status
-          git add ${{ inputs.commit-directory }}
+          git add ${{ env.GIT_ADD_PATH }} ${{ env.SECOND_GIT_ADD_PATH }}
           git status
           git push --verbose
