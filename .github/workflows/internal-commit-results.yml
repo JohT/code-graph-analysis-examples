@@ -21,6 +21,11 @@ on:
         description: "The directory to commit"
         required: true
         type: string
+      file-filter:
+        description: "Will be appended to the commit-directory to filter files when staging them with git add. Example: *.md"
+        required: false
+        type: string
+        default: ""
       uploaded-artifact-name:
         description: "The name of the uploaded artifact"
         required: true
@@ -49,6 +54,12 @@ jobs:
       - name: Display environment variable "github.event_name"
         run: echo "github.event_name=${{ github.event_name }}"
 
+
+      - name: Assemble GIT_ADD_PATH
+        run: echo "GIT_ADD_PATH=${{ inputs.commit-directory }}${{ inputs.file-filter != '' && '/' || '' }}${{ inputs.file-filter }}" >> $GITHUB_ENV
+      - name: Display GIT_ADD_PATH
+        run: echo "GIT_ADD_PATH=${{ env.GIT_ADD_PATH }}"
+
       - name: Prepare commit of changes in `${{ inputs.commit-directory }}`
         run: |
           git config --global user.name '${{ inputs.commit-author-name }}'
@@ -56,7 +67,7 @@ jobs:
           git config --local http.postBuffer 524288000
           git fetch origin
           git status
-          git add ${{ inputs.commit-directory }}
+          git add ${{ env.GIT_ADD_PATH }}
           git status
 
       - name: Commit and push changes in `${{ inputs.commit-directory }}`
@@ -67,6 +78,6 @@ jobs:
           git status
           git rebase --strategy-option=theirs origin/main --verbose
           git status
-          git add ${{ inputs.commit-directory }}
+          git add ${{ env.GIT_ADD_PATH }}
           git status
           git push --verbose
