@@ -35,35 +35,35 @@
     </tr>
     <tr>
       <th>2</th>
-      <td>server</td>
+      <td>configuration</td>
     </tr>
     <tr>
       <th>3</th>
-      <td>connector</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>services</td>
-    </tr>
-    <tr>
-      <th>5</th>
       <td>maven</td>
     </tr>
     <tr>
-      <th>6</th>
+      <th>4</th>
       <td>org</td>
     </tr>
     <tr>
-      <th>7</th>
+      <th>5</th>
       <td>axonframework</td>
     </tr>
     <tr>
-      <th>8</th>
+      <th>6</th>
       <td>axon</td>
     </tr>
     <tr>
+      <th>7</th>
+      <td>configuration</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>main</td>
+    </tr>
+    <tr>
       <th>9</th>
-      <td>server</td>
+      <td>manifest</td>
     </tr>
   </tbody>
 </table>
@@ -97,8 +97,53 @@
   <tbody>
     <tr>
       <th>0</th>
+      <td>Allard Buijze</td>
+      <td>3135</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>Mateusz Nowak</td>
+      <td>313</td>
+    </tr>
+    <tr>
+      <th>2</th>
       <td>Steven van Beelen</td>
+      <td>4039</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>Christian Thiel</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>Lucas Campos</td>
+      <td>61</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>Mitchell Herrijgers</td>
+      <td>289</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>Marc</td>
+      <td>25</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>Paul Kuyer</td>
+      <td>11</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>Praegla, Alexander</td>
       <td>1</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>Roald Bankras</td>
+      <td>18</td>
     </tr>
   </tbody>
 </table>

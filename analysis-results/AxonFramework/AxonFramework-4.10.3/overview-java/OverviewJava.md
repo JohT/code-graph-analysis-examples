@@ -33,8 +33,8 @@
   <tbody>
     <tr>
       <th>0</th>
-      <td>65381</td>
-      <td>209889</td>
+      <td>349450</td>
+      <td>1085153</td>
       <td>9</td>
       <td>122</td>
       <td>2091</td>
@@ -73,15 +73,15 @@ The whole table can be found in the CSV report `Number_of_types_per_artifact`.
       <th>0</th>
       <td>axon-messaging-4.10.3</td>
       <td>787</td>
-      <td>Class</td>
-      <td>587</td>
+      <td>Interface</td>
+      <td>155</td>
     </tr>
     <tr>
       <th>1</th>
       <td>axon-messaging-4.10.3</td>
       <td>787</td>
-      <td>Interface</td>
-      <td>155</td>
+      <td>Class</td>
+      <td>587</td>
     </tr>
     <tr>
       <th>2</th>
@@ -101,15 +101,15 @@ The whole table can be found in the CSV report `Number_of_types_per_artifact`.
       <th>4</th>
       <td>axon-modelling-4.10.3</td>
       <td>158</td>
-      <td>Interface</td>
-      <td>28</td>
+      <td>Class</td>
+      <td>115</td>
     </tr>
     <tr>
       <th>5</th>
       <td>axon-modelling-4.10.3</td>
       <td>158</td>
-      <td>Class</td>
-      <td>115</td>
+      <td>Interface</td>
+      <td>28</td>
     </tr>
     <tr>
       <th>6</th>
@@ -129,15 +129,15 @@ The whole table can be found in the CSV report `Number_of_types_per_artifact`.
       <th>8</th>
       <td>axon-server-connector-4.10.3</td>
       <td>136</td>
-      <td>Interface</td>
-      <td>25</td>
+      <td>Class</td>
+      <td>110</td>
     </tr>
     <tr>
       <th>9</th>
       <td>axon-server-connector-4.10.3</td>
       <td>136</td>
-      <td>Class</td>
-      <td>110</td>
+      <td>Interface</td>
+      <td>25</td>
     </tr>
     <tr>
       <th>10</th>
@@ -150,15 +150,15 @@ The whole table can be found in the CSV report `Number_of_types_per_artifact`.
       <th>11</th>
       <td>axon-eventsourcing-4.10.3</td>
       <td>133</td>
-      <td>Class</td>
-      <td>98</td>
+      <td>Interface</td>
+      <td>32</td>
     </tr>
     <tr>
       <th>12</th>
       <td>axon-eventsourcing-4.10.3</td>
       <td>133</td>
-      <td>Interface</td>
-      <td>32</td>
+      <td>Class</td>
+      <td>98</td>
     </tr>
     <tr>
       <th>13</th>
@@ -568,12 +568,12 @@ The whole table can be found in the CSV report `Number_of_packages_per_artifact`
     </tr>
     <tr>
       <th>7</th>
-      <td>axon-disruptor-4.10.3</td>
+      <td>axon-tracing-opentelemetry-4.10.3</td>
       <td>1</td>
     </tr>
     <tr>
       <th>8</th>
-      <td>axon-tracing-opentelemetry-4.10.3</td>
+      <td>axon-disruptor-4.10.3</td>
       <td>1</td>
     </tr>
   </tbody>
