@@ -65,6 +65,17 @@ Report | Analysis | Description
 | [OverviewJava.md](./AxonFramework/AxonFramework-4.9.3/overview-java/OverviewJava.md) | AxonFramework-4.9.3 | Overview for Java |
 | [VisibilityMetricsJava.md](./AxonFramework/AxonFramework-4.9.3/visibility-metrics-java/VisibilityMetricsJava.md) | AxonFramework-4.9.3 | Visibility Metrics for Java |
 | [Wordcloud.md](./AxonFramework/AxonFramework-4.9.3/wordcloud/Wordcloud.md) | AxonFramework-4.9.3 | Wordcloud |
+| [DependenciesGraphJava.md](./AxonFramework/latest/dependencies-graph-java/DependenciesGraphJava.md) | latest | Artifact Dependencies |
+| [ExternalDependenciesJava.md](./AxonFramework/latest/external-dependencies-java/ExternalDependenciesJava.md) | latest | External Dependencies for Java |
+| [InternalDependenciesJava.md](./AxonFramework/latest/internal-dependencies-java/InternalDependenciesJava.md) | latest | Internal Dependencies |
+| [MethodMetricsJava.md](./AxonFramework/latest/method-metrics-java/MethodMetricsJava.md) | latest | Method Metrics |
+| [NodeEmbeddingsJava.md](./AxonFramework/latest/node-embeddings-java/NodeEmbeddingsJava.md) | latest | Node Embeddings |
+| [ObjectOrientedDesignMetricsJava.md](./AxonFramework/latest/object-oriented-design-metrics-java/ObjectOrientedDesignMetricsJava.md) | latest | Object Oriented Design Quality Metrics |
+| [OverviewGeneral.md](./AxonFramework/latest/overview-general/OverviewGeneral.md) | latest | Overview in General |
+| [OverviewJava.md](./AxonFramework/latest/overview-java/OverviewJava.md) | latest | Overview for Java |
+| [PathFindingJava.md](./AxonFramework/latest/path-finding-java/PathFindingJava.md) | latest | Path Finding for Java |
+| [VisibilityMetricsJava.md](./AxonFramework/latest/visibility-metrics-java/VisibilityMetricsJava.md) | latest | Visibility Metrics for Java |
+| [Wordcloud.md](./AxonFramework/latest/wordcloud/Wordcloud.md) | latest | Wordcloud |
 | [CSV_REPORTS.md](./CSV_REPORTS.md) |  | CSV Cypher Query Result Reports Reference |
 | [IMAGES.md](./IMAGES.md) |  | Image Reference |
 | [OverviewGeneral.md](./react-router/latest/overview-general/OverviewGeneral.md) | latest | Overview in General |
