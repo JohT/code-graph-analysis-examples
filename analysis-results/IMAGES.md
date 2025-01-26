@@ -231,6 +231,13 @@ Image  | Analysis |
 | [VisibilityMetricsJava_17_2.png](./AxonFramework/AxonFramework-4.9.3/visibility-metrics-java/VisibilityMetricsJava_files/VisibilityMetricsJava_17_2.png) | AxonFramework-4.9.3 |
 | [VisibilityMetricsJava_24_2.png](./AxonFramework/AxonFramework-4.9.3/visibility-metrics-java/VisibilityMetricsJava_files/VisibilityMetricsJava_24_2.png) | AxonFramework-4.9.3 |
 | [Wordcloud_10_1.png](./AxonFramework/AxonFramework-4.9.3/wordcloud/Wordcloud_files/Wordcloud_10_1.png) | AxonFramework-4.9.3 |
+| [OverviewGeneral_15_1.png](./react-router/latest/overview-general/OverviewGeneral_files/OverviewGeneral_15_1.png) | latest |
+| [OverviewGeneral_19_1.png](./react-router/latest/overview-general/OverviewGeneral_files/OverviewGeneral_19_1.png) | latest |
+| [OverviewGeneral_23_1.png](./react-router/latest/overview-general/OverviewGeneral_files/OverviewGeneral_23_1.png) | latest |
+| [OverviewGeneral_28_1.png](./react-router/latest/overview-general/OverviewGeneral_files/OverviewGeneral_28_1.png) | latest |
+| [OverviewGeneral_32_1.png](./react-router/latest/overview-general/OverviewGeneral_files/OverviewGeneral_32_1.png) | latest |
+| [Wordcloud_14_1.png](./react-router/latest/wordcloud/Wordcloud_files/Wordcloud_14_1.png) | latest |
+| [Wordcloud_17_0.png](./react-router/latest/wordcloud/Wordcloud_files/Wordcloud_17_0.png) | latest |
 | [error-artifactDependenciesGraph-no-canvas-found.png](./react-router/react-router-6.22.0/artifact-dependencies-graph/error-artifactDependenciesGraph-no-canvas-found.png) | react-router-6.22.0 |
 | [ObjectOrientedDesignMetrics_55_0.png](./react-router/react-router-6.22.0/object-oriented-design-metrics/ObjectOrientedDesignMetrics_files/ObjectOrientedDesignMetrics_55_0.png) | react-router-6.22.0 |
 | [VisibilityMetrics_17_2.png](./react-router/react-router-6.22.0/visibility-metrics/VisibilityMetrics_files/VisibilityMetrics_17_2.png) | react-router-6.22.0 |
