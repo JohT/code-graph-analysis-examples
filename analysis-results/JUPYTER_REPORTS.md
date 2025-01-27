@@ -144,3 +144,5 @@ Report | Analysis | Description
 | [Wordcloud.md](./react-router/react-router-6.28.0/wordcloud/Wordcloud.md) | react-router-6.28.0 | Wordcloud |
 | [OverviewGeneral.md](./react-router/react-router-6.28.1/overview-general/OverviewGeneral.md) | react-router-6.28.1 | Overview in General |
 | [Wordcloud.md](./react-router/react-router-6.28.1/wordcloud/Wordcloud.md) | react-router-6.28.1 | Wordcloud |
+| [OverviewGeneral.md](./react-router/react-router-6.28.2/overview-general/OverviewGeneral.md) | react-router-6.28.2 | Overview in General |
+| [Wordcloud.md](./react-router/react-router-6.28.2/wordcloud/Wordcloud.md) | react-router-6.28.2 | Wordcloud |
