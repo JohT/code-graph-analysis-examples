@@ -25,7 +25,7 @@ jobs:
       
     steps:
       - name: Checkout git repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4
 
       - name: Generate report reference document
         working-directory: analysis-results
@@ -53,7 +53,7 @@ jobs:
 
       - name: Archive generated report references documents
         if: steps.set-generated_documents_changed.outputs.generated_documents_changed == 'true'
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@65c4c4a1ddee5b72f698fdd19549f0f0fb45cf08 # v4
         with:
           name: ${{ steps.set-documentation-upload-name.outputs.documentation-upload-name }}
           path: ./analysis-results/*.md
