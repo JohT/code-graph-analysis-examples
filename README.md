@@ -14,12 +14,12 @@ The process involves three steps:
 <!-- TOC -->
 
 - [Table of Contents](#table-of-contents)
-- [:rocket: Pipeline for TypeScript Code](#rocket-pipeline-for-typescript-code)
-- [:coffee: Pipeline for Java Artifacts](#coffee-pipeline-for-java-artifacts)
-- [:bookmark_tabs: CSV Cypher Query Report Reference](#bookmark_tabs-csv-cypher-query-report-reference)
+- [:rocket: TypeScript Code Pipeline](#rocket-typescript-code-pipeline)
+- [:coffee: Java Artifacts Pipeline](#coffee-java-artifacts-pipeline)
+- [:bookmark_tabs: CSV Report Reference](#bookmark_tabs-csv-report-reference)
 - [:notebook: Jupyter Notebook Report Reference](#notebook-jupyter-notebook-report-reference)
 - [:framed_picture: Image Reference](#framed_picture-image-reference)
-- [:recycle: Keeping the Analysis Workflow Updated with Renovate](#recycle-keeping-the-analysis-workflow-updated-with-renovate)
+- [:recycle: Update Analysis Workflow with Renovate](#recycle-update-analysis-workflow-with-renovate)
 - [:page_facing_up: License](#page_facing_up-license)
 - [:bar_chart: Analysis Results](#bar_chart-analysis-results)
     - [External Dependencies of Java Packages](#external-dependencies-of-java-packages)
@@ -35,7 +35,7 @@ The process involves three steps:
 
 <!-- /TOC -->
 
-## :rocket: Pipeline for TypeScript Code
+## :rocket: TypeScript Code Pipeline
 
 This example demonstrates how to analyze TypeScript code in a GitHub Workflows pipeline.
 
@@ -43,18 +43,18 @@ This example demonstrates how to analyze TypeScript code in a GitHub Workflows p
 
 2. The second job, [analyze-code-graph](https://github.com/JohT/code-graph-analysis-examples/blob/23143b34d8fc6e0ab7d80102d8de0b6e6a4ec98e/.github/workflows/typescript-code-analysis.yml#L89), calls the shared analysis workflows using the uploaded artifacts' names as parameters. Here is a simple example:
 
-    ```yaml
-    name: Analyze Code Graph
-    needs: [prepare-code-to-analyze]
-    uses: JohT/code-graph-analysis-pipeline/.github/workflows/public-analyze-code-graph.yml
-    with:
-      analysis-name: ${{ needs.prepare-code-to-analyze.outputs.analysis-name }}
-      sources-upload-name: ${{ needs.prepare-code-to-analyze.outputs.sources-upload-name }}
-    ```
+  ```yaml
+  name: Analyze Code Graph
+  needs: [prepare-code-to-analyze]
+  uses: JohT/code-graph-analysis-pipeline/.github/workflows/public-analyze-code-graph.yml
+  with:
+    analysis-name: ${{ needs.prepare-code-to-analyze.outputs.analysis-name }}
+    sources-upload-name: ${{ needs.prepare-code-to-analyze.outputs.sources-upload-name }}
+  ```
 
 3. The third job, [analyze-code-graph](https://github.com/JohT/code-graph-analysis-examples/blob/23143b34d8fc6e0ab7d80102d8de0b6e6a4ec98e/.github/workflows/typescript-code-analysis.yml#L99), demonstrates how to download the analysis results and commit them back to the repository.
 
-## :coffee: Pipeline for Java Artifacts
+## :coffee: Java Artifacts Pipeline
 
 Java artifacts are analyzed similarly to TypeScript code. The main difference is that Java artifacts are downloaded from a Maven repository instead of being part of the repository.
 
@@ -64,7 +64,7 @@ The first job, [prepare-code-to-analyze](https://github.com/JohT/code-graph-anal
 
 The second and third jobs are the same as for the TypeScript example.
 
-## :bookmark_tabs: CSV Cypher Query Report Reference
+## :bookmark_tabs: CSV Report Reference
 
 [CSV_REPORTS.md](./analysis-results/CSV_REPORTS.md) lists all CSV Cypher query result reports inside the [results](./results) directory. It can be generated as described in [Generate CSV Report Reference](./COMMANDS.md#generate-csv-cypher-query-report-reference).
 
@@ -76,7 +76,7 @@ The second and third jobs are the same as for the TypeScript example.
 
 [IMAGES.md](./analysis-results/IMAGES.md) lists all PNG images inside the [results](./results) directory. It can be generated as described in [Generate Image Reference](./COMMANDS.md#generate-image-reference).
 
-## :recycle: Keeping the Analysis Workflow Updated with Renovate
+## :recycle: Update Analysis Workflow with Renovate
 
 This repository uses [Renovate](https://docs.renovatebot.com) to automatically update the analysis workflow to the latest version. To enable this, add the following extension to your Renovate configuration:
 
