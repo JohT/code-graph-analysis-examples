@@ -5,7 +5,9 @@
     ":combinePatchMinorReleases",
     "schedule:earlyMondays",
     "helpers:pinGitHubActionDigests",
-    "github>JohT/code-graph-analysis-pipeline//renovate-presets/code-graph-analysis-workflow-latest-digest.json5"
+    "github>JohT/code-graph-analysis-pipeline//renovate-presets/code-graph-analysis-workflow-latest-digest.json5",
+    ":automergeRequireAllStatusChecks",
+    ":automergeDigest"
   ],
   "customManagers": [
     {
