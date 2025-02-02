@@ -97,38 +97,38 @@
   <tbody>
     <tr>
       <th>0</th>
-      <td>Jacob Ebey</td>
-      <td>245</td>
+      <td>Brooks Lybrand</td>
+      <td>77</td>
     </tr>
     <tr>
       <th>1</th>
       <td>Remix Run Bot</td>
-      <td>422</td>
+      <td>431</td>
     </tr>
     <tr>
       <th>2</th>
+      <td>Matt Brophy</td>
+      <td>1923</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>Mark Dalgleish</td>
+      <td>387</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>davidbielik</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>5</th>
       <td>Sanjai Kumar R</td>
       <td>1</td>
     </tr>
     <tr>
-      <th>3</th>
-      <td>Matt Brophy</td>
-      <td>1893</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>Brooks Lybrand</td>
-      <td>76</td>
-    </tr>
-    <tr>
-      <th>5</th>
+      <th>6</th>
       <td>Pedro Cattori</td>
       <td>392</td>
-    </tr>
-    <tr>
-      <th>6</th>
-      <td>Mark Dalgleish</td>
-      <td>389</td>
     </tr>
     <tr>
       <th>7</th>
