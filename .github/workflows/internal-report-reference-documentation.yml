@@ -8,6 +8,7 @@ on:
       - "analysis-results/**" # Only run on changed analysis results
       - "!analysis-results/*.md" # Ignore report reference documentation changes (endless loop prevention)
       - ".github/workflows/internal-report-reference-documentation.yml" # Also run when this file was changed
+      - ".github/workflows/internal-commit-results" # Also run when the commit-results workflow was changed
   pull_request:
     branches:
       - main
@@ -15,6 +16,7 @@ on:
       - "analysis-results/**" # Only run on changed analysis results
       - "!analysis-results/*.md" # Ignore report reference documentation changes (endless loop prevention)
       - ".github/workflows/internal-report-reference-documentation.yml" # Also run when this file was changed
+      - ".github/workflows/internal-commit-results" # Also run when the commit-results workflow was changed
 
 jobs:
   generate-report-reference-documentation:
