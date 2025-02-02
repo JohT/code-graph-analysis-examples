@@ -97,13 +97,13 @@
   <tbody>
     <tr>
       <th>0</th>
-      <td>Allard Buijze</td>
-      <td>3135</td>
+      <td>Mateusz Nowak</td>
+      <td>317</td>
     </tr>
     <tr>
       <th>1</th>
-      <td>Mateusz Nowak</td>
-      <td>313</td>
+      <td>Allard Buijze</td>
+      <td>3135</td>
     </tr>
     <tr>
       <th>2</th>
