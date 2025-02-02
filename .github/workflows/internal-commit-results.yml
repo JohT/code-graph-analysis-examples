@@ -77,6 +77,7 @@ jobs:
 
       - name: Prepare commit of changes in `${{ inputs.commit-directory }}`
         run: |
+          set -x # Print commands and their arguments as they are executed
           git config --global user.name '${{ inputs.commit-author-name }}'
           git config --global user.email '${{ inputs.commit-author-email }}'
           git config --local http.postBuffer 524288000
@@ -89,10 +90,13 @@ jobs:
         # Only run when a pull request gets merged or a commit is pushed to the main branch
         if: github.event_name == 'push'
         run: |
-          git commit --message "${{ inputs.commit-message }}"
-          git status
-          git rebase --strategy-option=theirs origin/main --verbose
-          git status
-          git add ${{ env.GIT_ADD_PATH }} ${{ env.SECOND_GIT_ADD_PATH }}
-          git status
-          git push --verbose
+            set -x # Print commands and their arguments as they are executed
+            git commit --message "${{ inputs.commit-message }}"
+            git status
+            git rebase --strategy-option=theirs origin/main --verbose # Resolve conflicts by taking the current branch's changes
+            git add ${{ env.GIT_ADD_PATH }} ${{ env.SECOND_GIT_ADD_PATH }} # Add the files again after the rebase
+            GIT_EDITOR=true git rebase --continue || true # Continue the rebase or ignore if it fails
+            git status
+            git commit --amend --no-edit # Amend the commit to include the changes from the rebase
+            git status
+            git push --force-with-lease --verbose
