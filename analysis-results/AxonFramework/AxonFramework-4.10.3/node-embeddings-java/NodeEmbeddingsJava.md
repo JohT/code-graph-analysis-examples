@@ -136,30 +136,30 @@ This step takes the original node embeddings with a higher dimensionality, e.g. 
     TSNE(early_exaggeration=12, random_state=47, verbose=1)
     --------------------------------------------------------------------------------
     ===> Finding 90 nearest neighbors using exact search using euclidean distance...
-       --> Time elapsed: 0.02 seconds
+       --> Time elapsed: 0.03 seconds
     ===> Calculating affinity matrix...
        --> Time elapsed: 0.00 seconds
     ===> Calculating PCA-based initialization...
        --> Time elapsed: 0.00 seconds
     ===> Running optimization with exaggeration=12.00, lr=9.50 for 250 iterations...
-    Iteration   50, KL divergence -0.2840, 50 iterations in 0.0554 sec
+    Iteration   50, KL divergence -0.2840, 50 iterations in 0.0546 sec
     Iteration  100, KL divergence 1.2013, 50 iterations in 0.0159 sec
     Iteration  150, KL divergence 1.2013, 50 iterations in 0.0145 sec
     Iteration  200, KL divergence 1.2013, 50 iterations in 0.0145 sec
-    Iteration  250, KL divergence 1.2013, 50 iterations in 0.0146 sec
-       --> Time elapsed: 0.12 seconds
+    Iteration  250, KL divergence 1.2013, 50 iterations in 0.0144 sec
+       --> Time elapsed: 0.11 seconds
     ===> Running optimization with exaggeration=1.00, lr=114.00 for 500 iterations...
     Iteration   50, KL divergence 0.1845, 50 iterations in 0.0530 sec
-    Iteration  100, KL divergence 0.1710, 50 iterations in 0.0471 sec
-    Iteration  150, KL divergence 0.1681, 50 iterations in 0.0438 sec
-    Iteration  200, KL divergence 0.1681, 50 iterations in 0.0429 sec
-    Iteration  250, KL divergence 0.1678, 50 iterations in 0.0426 sec
-    Iteration  300, KL divergence 0.1679, 50 iterations in 0.0430 sec
-    Iteration  350, KL divergence 0.1679, 50 iterations in 0.0440 sec
-    Iteration  400, KL divergence 0.1678, 50 iterations in 0.0428 sec
-    Iteration  450, KL divergence 0.1679, 50 iterations in 0.0425 sec
-    Iteration  500, KL divergence 0.1680, 50 iterations in 0.0430 sec
-       --> Time elapsed: 0.45 seconds
+    Iteration  100, KL divergence 0.1710, 50 iterations in 0.0486 sec
+    Iteration  150, KL divergence 0.1681, 50 iterations in 0.0434 sec
+    Iteration  200, KL divergence 0.1681, 50 iterations in 0.0424 sec
+    Iteration  250, KL divergence 0.1678, 50 iterations in 0.0424 sec
+    Iteration  300, KL divergence 0.1679, 50 iterations in 0.0429 sec
+    Iteration  350, KL divergence 0.1679, 50 iterations in 0.0429 sec
+    Iteration  400, KL divergence 0.1678, 50 iterations in 0.0435 sec
+    Iteration  450, KL divergence 0.1679, 50 iterations in 0.0424 sec
+    Iteration  500, KL divergence 0.1680, 50 iterations in 0.0423 sec
+       --> Time elapsed: 0.44 seconds
 
 
 
@@ -321,24 +321,24 @@ This step takes the original node embeddings with a higher dimensionality, e.g. 
     ===> Calculating PCA-based initialization...
        --> Time elapsed: 0.00 seconds
     ===> Running optimization with exaggeration=12.00, lr=9.50 for 250 iterations...
-    Iteration   50, KL divergence -0.3439, 50 iterations in 0.0720 sec
-    Iteration  100, KL divergence 1.2175, 50 iterations in 0.0168 sec
-    Iteration  150, KL divergence 1.2175, 50 iterations in 0.0145 sec
+    Iteration   50, KL divergence -0.3439, 50 iterations in 0.0672 sec
+    Iteration  100, KL divergence 1.2175, 50 iterations in 0.0173 sec
+    Iteration  150, KL divergence 1.2175, 50 iterations in 0.0143 sec
     Iteration  200, KL divergence 1.2175, 50 iterations in 0.0143 sec
-    Iteration  250, KL divergence 1.2175, 50 iterations in 0.0144 sec
+    Iteration  250, KL divergence 1.2175, 50 iterations in 0.0142 sec
        --> Time elapsed: 0.13 seconds
     ===> Running optimization with exaggeration=1.00, lr=114.00 for 500 iterations...
-    Iteration   50, KL divergence 0.6710, 50 iterations in 0.0491 sec
-    Iteration  100, KL divergence 0.6496, 50 iterations in 0.0475 sec
-    Iteration  150, KL divergence 0.6388, 50 iterations in 0.0462 sec
-    Iteration  200, KL divergence 0.6326, 50 iterations in 0.0465 sec
-    Iteration  250, KL divergence 0.6233, 50 iterations in 0.0454 sec
-    Iteration  300, KL divergence 0.6175, 50 iterations in 0.0461 sec
-    Iteration  350, KL divergence 0.6150, 50 iterations in 0.0469 sec
-    Iteration  400, KL divergence 0.6151, 50 iterations in 0.0459 sec
-    Iteration  450, KL divergence 0.6153, 50 iterations in 0.0454 sec
-    Iteration  500, KL divergence 0.6153, 50 iterations in 0.0454 sec
-       --> Time elapsed: 0.46 seconds
+    Iteration   50, KL divergence 0.6710, 50 iterations in 0.0517 sec
+    Iteration  100, KL divergence 0.6496, 50 iterations in 0.0470 sec
+    Iteration  150, KL divergence 0.6388, 50 iterations in 0.0458 sec
+    Iteration  200, KL divergence 0.6326, 50 iterations in 0.0461 sec
+    Iteration  250, KL divergence 0.6233, 50 iterations in 0.0462 sec
+    Iteration  300, KL divergence 0.6175, 50 iterations in 0.0466 sec
+    Iteration  350, KL divergence 0.6150, 50 iterations in 0.0462 sec
+    Iteration  400, KL divergence 0.6151, 50 iterations in 0.0460 sec
+    Iteration  450, KL divergence 0.6153, 50 iterations in 0.0457 sec
+    Iteration  500, KL divergence 0.6153, 50 iterations in 0.0447 sec
+       --> Time elapsed: 0.47 seconds
 
 
 
@@ -443,7 +443,7 @@ This step takes the original node embeddings with a higher dimensionality, e.g. 
       <td>axon-configuration-4.10.3</td>
       <td>0</td>
       <td>0.047302</td>
-      <td>[-0.15069685876369476, -0.06743332743644714, -...</td>
+      <td>[0.18772585690021515, -0.23526234924793243, -0...</td>
     </tr>
     <tr>
       <th>1</th>
@@ -452,7 +452,7 @@ This step takes the original node embeddings with a higher dimensionality, e.g. 
       <td>axon-eventsourcing-4.10.3</td>
       <td>0</td>
       <td>0.037034</td>
-      <td>[-0.09326393157243729, 0.055255111306905746, 0...</td>
+      <td>[0.16817058622837067, -0.1347678154706955, 0.1...</td>
     </tr>
     <tr>
       <th>2</th>
@@ -461,7 +461,7 @@ This step takes the original node embeddings with a higher dimensionality, e.g. 
       <td>axon-eventsourcing-4.10.3</td>
       <td>0</td>
       <td>0.012211</td>
-      <td>[-0.22207877039909363, 0.0225811954587698, -0....</td>
+      <td>[0.13491210341453552, -0.15305092930793762, -0...</td>
     </tr>
     <tr>
       <th>3</th>
@@ -470,7 +470,7 @@ This step takes the original node embeddings with a higher dimensionality, e.g. 
       <td>axon-eventsourcing-4.10.3</td>
       <td>0</td>
       <td>0.023525</td>
-      <td>[0.27862706780433655, 0.4308456480503082, 0.25...</td>
+      <td>[0.5044845938682556, 0.24880748987197876, 0.23...</td>
     </tr>
     <tr>
       <th>4</th>
@@ -479,7 +479,7 @@ This step takes the original node embeddings with a higher dimensionality, e.g. 
       <td>axon-eventsourcing-4.10.3</td>
       <td>0</td>
       <td>0.015345</td>
-      <td>[0.49750858545303345, 0.4777665138244629, 0.14...</td>
+      <td>[0.5275747776031494, 0.3018451929092407, 0.216...</td>
     </tr>
   </tbody>
 </table>
@@ -490,30 +490,30 @@ This step takes the original node embeddings with a higher dimensionality, e.g. 
     TSNE(early_exaggeration=12, random_state=47, verbose=1)
     --------------------------------------------------------------------------------
     ===> Finding 90 nearest neighbors using exact search using euclidean distance...
-       --> Time elapsed: 0.01 seconds
+       --> Time elapsed: 0.00 seconds
     ===> Calculating affinity matrix...
        --> Time elapsed: 0.00 seconds
     ===> Calculating PCA-based initialization...
        --> Time elapsed: 0.00 seconds
     ===> Running optimization with exaggeration=12.00, lr=9.50 for 250 iterations...
-    Iteration   50, KL divergence -0.2007, 50 iterations in 0.0647 sec
-    Iteration  100, KL divergence 1.1499, 50 iterations in 0.0174 sec
-    Iteration  150, KL divergence 1.1499, 50 iterations in 0.0147 sec
-    Iteration  200, KL divergence 1.1499, 50 iterations in 0.0147 sec
-    Iteration  250, KL divergence 1.1499, 50 iterations in 0.0146 sec
+    Iteration   50, KL divergence -1.1888, 50 iterations in 0.0644 sec
+    Iteration  100, KL divergence 1.1519, 50 iterations in 0.0170 sec
+    Iteration  150, KL divergence 1.1519, 50 iterations in 0.0148 sec
+    Iteration  200, KL divergence 1.1519, 50 iterations in 0.0146 sec
+    Iteration  250, KL divergence 1.1519, 50 iterations in 0.0146 sec
        --> Time elapsed: 0.13 seconds
     ===> Running optimization with exaggeration=1.00, lr=114.00 for 500 iterations...
-    Iteration   50, KL divergence 0.3544, 50 iterations in 0.0541 sec
-    Iteration  100, KL divergence 0.3341, 50 iterations in 0.0476 sec
-    Iteration  150, KL divergence 0.3311, 50 iterations in 0.0454 sec
-    Iteration  200, KL divergence 0.3313, 50 iterations in 0.0427 sec
-    Iteration  250, KL divergence 0.3313, 50 iterations in 0.0431 sec
-    Iteration  300, KL divergence 0.3313, 50 iterations in 0.0426 sec
-    Iteration  350, KL divergence 0.3313, 50 iterations in 0.0430 sec
-    Iteration  400, KL divergence 0.3313, 50 iterations in 0.0430 sec
-    Iteration  450, KL divergence 0.3313, 50 iterations in 0.0435 sec
-    Iteration  500, KL divergence 0.3313, 50 iterations in 0.0425 sec
-       --> Time elapsed: 0.45 seconds
+    Iteration   50, KL divergence 0.3346, 50 iterations in 0.0537 sec
+    Iteration  100, KL divergence 0.3118, 50 iterations in 0.0488 sec
+    Iteration  150, KL divergence 0.3012, 50 iterations in 0.0459 sec
+    Iteration  200, KL divergence 0.3004, 50 iterations in 0.0457 sec
+    Iteration  250, KL divergence 0.3002, 50 iterations in 0.0459 sec
+    Iteration  300, KL divergence 0.3003, 50 iterations in 0.0455 sec
+    Iteration  350, KL divergence 0.3000, 50 iterations in 0.0457 sec
+    Iteration  400, KL divergence 0.2999, 50 iterations in 0.0464 sec
+    Iteration  450, KL divergence 0.3000, 50 iterations in 0.0445 sec
+    Iteration  500, KL divergence 0.3001, 50 iterations in 0.0443 sec
+       --> Time elapsed: 0.47 seconds
 
 
 
@@ -541,8 +541,8 @@ This step takes the original node embeddings with a higher dimensionality, e.g. 
       <td>axon-configuration-4.10.3</td>
       <td>0</td>
       <td>0.047302</td>
-      <td>-1.238829</td>
-      <td>-0.188836</td>
+      <td>-0.100619</td>
+      <td>2.338111</td>
     </tr>
     <tr>
       <th>1</th>
@@ -550,8 +550,8 @@ This step takes the original node embeddings with a higher dimensionality, e.g. 
       <td>axon-eventsourcing-4.10.3</td>
       <td>0</td>
       <td>0.037034</td>
-      <td>-4.630749</td>
-      <td>-0.097631</td>
+      <td>4.144652</td>
+      <td>-2.237643</td>
     </tr>
     <tr>
       <th>2</th>
@@ -559,8 +559,8 @@ This step takes the original node embeddings with a higher dimensionality, e.g. 
       <td>axon-eventsourcing-4.10.3</td>
       <td>0</td>
       <td>0.012211</td>
-      <td>-3.300863</td>
-      <td>-0.220178</td>
+      <td>2.555523</td>
+      <td>-0.302371</td>
     </tr>
     <tr>
       <th>3</th>
@@ -568,8 +568,8 @@ This step takes the original node embeddings with a higher dimensionality, e.g. 
       <td>axon-eventsourcing-4.10.3</td>
       <td>0</td>
       <td>0.023525</td>
-      <td>-6.018701</td>
-      <td>-1.858038</td>
+      <td>6.464696</td>
+      <td>-3.343738</td>
     </tr>
     <tr>
       <th>4</th>
@@ -577,8 +577,8 @@ This step takes the original node embeddings with a higher dimensionality, e.g. 
       <td>axon-eventsourcing-4.10.3</td>
       <td>0</td>
       <td>0.015345</td>
-      <td>-6.033609</td>
-      <td>-1.879617</td>
+      <td>6.464112</td>
+      <td>-3.345110</td>
     </tr>
   </tbody>
 </table>
