@@ -102,48 +102,48 @@
     </tr>
     <tr>
       <th>1</th>
+      <td>Emil Sadek</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>2</th>
       <td>Remix Run Bot</td>
       <td>431</td>
     </tr>
     <tr>
-      <th>2</th>
+      <th>3</th>
       <td>Matt Brophy</td>
       <td>1923</td>
     </tr>
     <tr>
-      <th>3</th>
+      <th>4</th>
       <td>Mark Dalgleish</td>
       <td>387</td>
     </tr>
     <tr>
-      <th>4</th>
+      <th>5</th>
       <td>davidbielik</td>
       <td>2</td>
     </tr>
     <tr>
-      <th>5</th>
+      <th>6</th>
       <td>Sanjai Kumar R</td>
       <td>1</td>
     </tr>
     <tr>
-      <th>6</th>
+      <th>7</th>
       <td>Pedro Cattori</td>
       <td>392</td>
     </tr>
     <tr>
-      <th>7</th>
+      <th>8</th>
       <td>Richard Leek</td>
       <td>1</td>
     </tr>
     <tr>
-      <th>8</th>
+      <th>9</th>
       <td>Tim Dorr</td>
       <td>388</td>
-    </tr>
-    <tr>
-      <th>9</th>
-      <td>Justin Hall</td>
-      <td>2</td>
     </tr>
   </tbody>
 </table>
