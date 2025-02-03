@@ -102,23 +102,23 @@
     </tr>
     <tr>
       <th>1</th>
+      <td>Mark Dalgleish</td>
+      <td>388</td>
+    </tr>
+    <tr>
+      <th>2</th>
       <td>Emil Sadek</td>
       <td>1</td>
     </tr>
     <tr>
-      <th>2</th>
+      <th>3</th>
       <td>Remix Run Bot</td>
       <td>431</td>
     </tr>
     <tr>
-      <th>3</th>
+      <th>4</th>
       <td>Matt Brophy</td>
       <td>1923</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>Mark Dalgleish</td>
-      <td>387</td>
     </tr>
     <tr>
       <th>5</th>
