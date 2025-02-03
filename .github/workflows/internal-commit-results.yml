@@ -99,4 +99,4 @@ jobs:
             git status
             git commit --amend --no-edit # Amend the commit to include the changes from the rebase
             git status
-            git push --force-with-lease --verbose
+            git push --verbose
