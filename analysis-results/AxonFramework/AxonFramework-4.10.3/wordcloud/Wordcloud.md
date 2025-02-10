@@ -98,32 +98,32 @@
     <tr>
       <th>0</th>
       <td>Mateusz Nowak</td>
-      <td>317</td>
+      <td>344</td>
     </tr>
     <tr>
       <th>1</th>
-      <td>Allard Buijze</td>
-      <td>3135</td>
+      <td>Steven van Beelen</td>
+      <td>4075</td>
     </tr>
     <tr>
       <th>2</th>
-      <td>Steven van Beelen</td>
-      <td>4039</td>
+      <td>Mitchell Herrijgers</td>
+      <td>296</td>
     </tr>
     <tr>
       <th>3</th>
+      <td>Allard Buijze</td>
+      <td>3136</td>
+    </tr>
+    <tr>
+      <th>4</th>
       <td>Christian Thiel</td>
       <td>3</td>
     </tr>
     <tr>
-      <th>4</th>
+      <th>5</th>
       <td>Lucas Campos</td>
       <td>61</td>
-    </tr>
-    <tr>
-      <th>5</th>
-      <td>Mitchell Herrijgers</td>
-      <td>289</td>
     </tr>
     <tr>
       <th>6</th>
