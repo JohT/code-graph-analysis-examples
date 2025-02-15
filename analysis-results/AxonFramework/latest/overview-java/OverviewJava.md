@@ -13,6 +13,9 @@
 
 ### Table 1 - Size
 
+    Received notification from DBMS server: {severity: WARNING} {code: Neo.ClientNotification.Statement.AggregationSkippedNull} {category: UNRECOGNIZED} {title: The query contains an aggregation function that skips null values.} {description: null value eliminated in set function.} {position: None} for query: '// Overview size\n \n  MATCH (n)\n   WITH COUNT(n) AS nodeCount\n  MATCH ()-[]->()\n   WITH nodeCount\n       ,count(*) AS relationshipCount\n  MATCH (a:Artifact:Archive)\n   WITH nodeCount\n       ,relationshipCount\n       ,count(DISTINCT a.fileName) AS artifactCount\n  MATCH (p:Package)\n   WITH nodeCount\n       ,relationshipCount\n       ,artifactCount\n       ,count(DISTINCT p.fqn) AS packageCount\n  MATCH (t:Type)\n   WITH nodeCount\n       ,relationshipCount\n       ,artifactCount\n       ,packageCount\n       ,count(DISTINCT t.fqn) AS typeCount\n  MATCH (m:Method)\n   WITH nodeCount\n       ,relationshipCount\n       ,artifactCount\n       ,packageCount\n       ,typeCount\n       ,count(DISTINCT m.signature) AS methodCount\n  MATCH (member:Member)\n   WITH nodeCount\n       ,relationshipCount\n       ,artifactCount\n       ,packageCount\n       ,typeCount\n       ,methodCount\n       ,count(DISTINCT member.signature) AS memberCount\n RETURN nodeCount\n       ,relationshipCount\n       ,artifactCount\n       ,packageCount\n       ,typeCount\n       ,methodCount\n       ,memberCount'
+
+
 
 
 
@@ -33,8 +36,8 @@
   <tbody>
     <tr>
       <th>0</th>
-      <td>350299</td>
-      <td>1087767</td>
+      <td>351582</td>
+      <td>1091605</td>
       <td>9</td>
       <td>122</td>
       <td>2091</td>

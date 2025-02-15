@@ -97,53 +97,53 @@
   <tbody>
     <tr>
       <th>0</th>
-      <td>Mateusz Nowak</td>
-      <td>344</td>
+      <td>Allard Buijze</td>
+      <td>3137</td>
     </tr>
     <tr>
       <th>1</th>
-      <td>Steven van Beelen</td>
-      <td>4075</td>
+      <td>Mateusz Nowak</td>
+      <td>330</td>
     </tr>
     <tr>
       <th>2</th>
       <td>Mitchell Herrijgers</td>
-      <td>296</td>
+      <td>314</td>
     </tr>
     <tr>
       <th>3</th>
-      <td>Allard Buijze</td>
-      <td>3136</td>
+      <td>Steven van Beelen</td>
+      <td>4100</td>
     </tr>
     <tr>
       <th>4</th>
+      <td>Simon Zambrovski</td>
+      <td>52</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>Jan Galinski</td>
+      <td>12</td>
+    </tr>
+    <tr>
+      <th>6</th>
       <td>Christian Thiel</td>
       <td>3</td>
     </tr>
     <tr>
-      <th>5</th>
+      <th>7</th>
       <td>Lucas Campos</td>
       <td>61</td>
     </tr>
     <tr>
-      <th>6</th>
+      <th>8</th>
       <td>Marc</td>
       <td>25</td>
     </tr>
     <tr>
-      <th>7</th>
+      <th>9</th>
       <td>Paul Kuyer</td>
       <td>11</td>
-    </tr>
-    <tr>
-      <th>8</th>
-      <td>Praegla, Alexander</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <th>9</th>
-      <td>Roald Bankras</td>
-      <td>18</td>
     </tr>
   </tbody>
 </table>

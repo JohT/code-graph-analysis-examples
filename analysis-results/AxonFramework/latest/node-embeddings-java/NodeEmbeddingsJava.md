@@ -36,8 +36,8 @@ If these properties are missing you will only see black dots all of the same siz
 - [node2vec (neo4j)](https://neo4j.com/docs/graph-data-science/current/machine-learning/node-embeddings/node2vec) computes a vector representation of a node based on second order random walks in the graph. 
 - [Complete guide to understanding Node2Vec algorithm](https://towardsdatascience.com/complete-guide-to-understanding-node2vec-algorithm-4e9a35e5d147)
 
-    The openTSNE version is: 1.0.1
-    The pandas version is: 1.5.1
+    The openTSNE version is: 1.0.2
+    The pandas version is: 2.2.3
 
 
 ### Dimensionality reduction with t-distributed stochastic neighbor embedding (t-SNE)
@@ -59,6 +59,9 @@ The following function takes the original node embeddings with a higher dimensio
 [Fast Random Projection](https://neo4j.com/docs/graph-data-science/current/machine-learning/node-embeddings/fastrp) is used to reduce the dimensionality of the node feature space while preserving most of the distance information. Nodes with similar neighborhood result in node embedding with similar vectors.
 
 **👉Hint:** To skip existing node embeddings and always calculate them based on the parameters below edit `Node_Embeddings_0a_Query_Calculated` so that it won't return any results.
+
+    Received notification from DBMS server: {severity: WARNING} {code: Neo.ClientNotification.Statement.UnknownRelationshipTypeWarning} {category: UNRECOGNIZED} {title: The provided relationship type is not in the database.} {description: One of the relationship types in your query is not available in the database, make sure you didn't misspell it or that the label is available when you run this statement in your application (the missing relationship type is: HAS_ROOT)} {position: line: 9, column: 44, offset: 696} for query: '// Query already calculated and written node embeddings on nodes with label in parameter $dependencies_projection_node including a communityId and centrality. Variables: dependencies_projection_node, dependencies_projection_write_property. Requires "Add_file_name and_extension.cypher".\n \n  MATCH (codeUnit)\n  WHERE $dependencies_projection_node IN LABELS(codeUnit)\n    AND codeUnit[$dependencies_projection_write_property] IS NOT NULL\n    // AND codeUnit.notExistingToForceRecalculation IS NOT NULL // uncomment this line to force recalculation\n OPTIONAL MATCH (artifact:Java:Artifact)-[:CONTAINS]->(codeUnit)\n    WITH *, artifact.name AS artifactName\n OPTIONAL MATCH (projectRoot:Directory)<-[:HAS_ROOT]-(proj:TS:Project)-[:CONTAINS]->(codeUnit)\n    WITH *, last(split(projectRoot.absoluteFileName, \'/\')) AS projectName   \n  RETURN DISTINCT \n         coalesce(codeUnit.fqn, codeUnit.globalFqn, codeUnit.fileName, codeUnit.signature, codeUnit.name) AS codeUnitName\n        ,codeUnit.name                AS shortCodeUnitName\n        ,coalesce(artifactName, projectName)                                                              AS projectName\n        ,coalesce(codeUnit.communityLeidenId, 0)           AS communityId\n        ,coalesce(codeUnit.centralityPageRank, 0.01)       AS centrality\n        ,codeUnit[$dependencies_projection_write_property] AS embedding\n   ORDER BY communityId'
+
 
     The results have been provided by the query filename: ../cypher/Node_Embeddings/Node_Embeddings_0a_Query_Calculated.cypher
 
@@ -142,24 +145,28 @@ This step takes the original node embeddings with a higher dimensionality, e.g. 
     ===> Calculating PCA-based initialization...
        --> Time elapsed: 0.00 seconds
     ===> Running optimization with exaggeration=12.00, lr=9.50 for 250 iterations...
-    Iteration   50, KL divergence -0.2840, 50 iterations in 0.0549 sec
-    Iteration  100, KL divergence 1.2013, 50 iterations in 0.0161 sec
-    Iteration  150, KL divergence 1.2013, 50 iterations in 0.0149 sec
-    Iteration  200, KL divergence 1.2013, 50 iterations in 0.0145 sec
-    Iteration  250, KL divergence 1.2013, 50 iterations in 0.0146 sec
-       --> Time elapsed: 0.12 seconds
+    Iteration   50, KL divergence -0.8292, 50 iterations in 0.0409 sec
+    Iteration  100, KL divergence 1.2013, 50 iterations in 0.0108 sec
+    Iteration  150, KL divergence 1.2013, 50 iterations in 0.0100 sec
+    Iteration  200, KL divergence 1.2013, 50 iterations in 0.0100 sec
+    Iteration  250, KL divergence 1.2013, 50 iterations in 0.0100 sec
+       --> Time elapsed: 0.08 seconds
     ===> Running optimization with exaggeration=1.00, lr=114.00 for 500 iterations...
-    Iteration   50, KL divergence 0.1845, 50 iterations in 0.0527 sec
-    Iteration  100, KL divergence 0.1710, 50 iterations in 0.0475 sec
-    Iteration  150, KL divergence 0.1681, 50 iterations in 0.0443 sec
-    Iteration  200, KL divergence 0.1681, 50 iterations in 0.0431 sec
-    Iteration  250, KL divergence 0.1678, 50 iterations in 0.0429 sec
-    Iteration  300, KL divergence 0.1679, 50 iterations in 0.0431 sec
-    Iteration  350, KL divergence 0.1679, 50 iterations in 0.0445 sec
-    Iteration  400, KL divergence 0.1678, 50 iterations in 0.0434 sec
-    Iteration  450, KL divergence 0.1679, 50 iterations in 0.0430 sec
-    Iteration  500, KL divergence 0.1680, 50 iterations in 0.0427 sec
-       --> Time elapsed: 0.45 seconds
+    Iteration   50, KL divergence 0.1864, 50 iterations in 0.0363 sec
+
+
+    Iteration  100, KL divergence 0.1678, 50 iterations in 0.0498 sec
+    Iteration  150, KL divergence 0.1615, 50 iterations in 0.0477 sec
+    Iteration  200, KL divergence 0.1606, 50 iterations in 0.0473 sec
+    Iteration  250, KL divergence 0.1606, 50 iterations in 0.0460 sec
+    Iteration  300, KL divergence 0.1605, 50 iterations in 0.0472 sec
+
+
+    Iteration  350, KL divergence 0.1604, 50 iterations in 0.0480 sec
+    Iteration  400, KL divergence 0.1604, 50 iterations in 0.0480 sec
+    Iteration  450, KL divergence 0.1604, 50 iterations in 0.0483 sec
+    Iteration  500, KL divergence 0.1602, 50 iterations in 0.0484 sec
+       --> Time elapsed: 0.47 seconds
 
 
 
@@ -187,8 +194,8 @@ This step takes the original node embeddings with a higher dimensionality, e.g. 
       <td>axon-configuration-4.10.3</td>
       <td>0</td>
       <td>0.047302</td>
-      <td>0.686673</td>
-      <td>-0.115548</td>
+      <td>0.583090</td>
+      <td>-0.461692</td>
     </tr>
     <tr>
       <th>1</th>
@@ -196,8 +203,8 @@ This step takes the original node embeddings with a higher dimensionality, e.g. 
       <td>axon-eventsourcing-4.10.3</td>
       <td>0</td>
       <td>0.037034</td>
-      <td>2.231185</td>
-      <td>3.926552</td>
+      <td>-1.407498</td>
+      <td>-3.080751</td>
     </tr>
     <tr>
       <th>2</th>
@@ -205,8 +212,8 @@ This step takes the original node embeddings with a higher dimensionality, e.g. 
       <td>axon-eventsourcing-4.10.3</td>
       <td>0</td>
       <td>0.012211</td>
-      <td>1.442831</td>
-      <td>2.390903</td>
+      <td>0.556425</td>
+      <td>-4.255352</td>
     </tr>
     <tr>
       <th>3</th>
@@ -214,8 +221,8 @@ This step takes the original node embeddings with a higher dimensionality, e.g. 
       <td>axon-eventsourcing-4.10.3</td>
       <td>0</td>
       <td>0.023525</td>
-      <td>-0.809083</td>
-      <td>5.164411</td>
+      <td>-4.245894</td>
+      <td>-3.167850</td>
     </tr>
     <tr>
       <th>4</th>
@@ -223,8 +230,8 @@ This step takes the original node embeddings with a higher dimensionality, e.g. 
       <td>axon-eventsourcing-4.10.3</td>
       <td>0</td>
       <td>0.015345</td>
-      <td>-0.811422</td>
-      <td>5.152515</td>
+      <td>-4.240696</td>
+      <td>-3.159957</td>
     </tr>
   </tbody>
 </table>
@@ -242,6 +249,9 @@ This step takes the original node embeddings with a higher dimensionality, e.g. 
 ### 1.4 Node Embeddings for Java Packages using HashGNN
 
 [HashGNN](https://neo4j.com/docs/graph-data-science/2.6/machine-learning/node-embeddings/hashgnn) resembles Graph Neural Networks (GNN) but does not include a model or require training. It combines ideas of GNNs and fast randomized algorithms. For more details see [HashGNN](https://neo4j.com/docs/graph-data-science/2.6/machine-learning/node-embeddings/hashgnn). Here, the latter 3 steps are combined into one for HashGNN.
+
+    Received notification from DBMS server: {severity: WARNING} {code: Neo.ClientNotification.Statement.UnknownRelationshipTypeWarning} {category: UNRECOGNIZED} {title: The provided relationship type is not in the database.} {description: One of the relationship types in your query is not available in the database, make sure you didn't misspell it or that the label is available when you run this statement in your application (the missing relationship type is: HAS_ROOT)} {position: line: 9, column: 44, offset: 696} for query: '// Query already calculated and written node embeddings on nodes with label in parameter $dependencies_projection_node including a communityId and centrality. Variables: dependencies_projection_node, dependencies_projection_write_property. Requires "Add_file_name and_extension.cypher".\n \n  MATCH (codeUnit)\n  WHERE $dependencies_projection_node IN LABELS(codeUnit)\n    AND codeUnit[$dependencies_projection_write_property] IS NOT NULL\n    // AND codeUnit.notExistingToForceRecalculation IS NOT NULL // uncomment this line to force recalculation\n OPTIONAL MATCH (artifact:Java:Artifact)-[:CONTAINS]->(codeUnit)\n    WITH *, artifact.name AS artifactName\n OPTIONAL MATCH (projectRoot:Directory)<-[:HAS_ROOT]-(proj:TS:Project)-[:CONTAINS]->(codeUnit)\n    WITH *, last(split(projectRoot.absoluteFileName, \'/\')) AS projectName   \n  RETURN DISTINCT \n         coalesce(codeUnit.fqn, codeUnit.globalFqn, codeUnit.fileName, codeUnit.signature, codeUnit.name) AS codeUnitName\n        ,codeUnit.name                AS shortCodeUnitName\n        ,coalesce(artifactName, projectName)                                                              AS projectName\n        ,coalesce(codeUnit.communityLeidenId, 0)           AS communityId\n        ,coalesce(codeUnit.centralityPageRank, 0.01)       AS centrality\n        ,codeUnit[$dependencies_projection_write_property] AS embedding\n   ORDER BY communityId'
+
 
     The results have been provided by the query filename: ../cypher/Node_Embeddings/Node_Embeddings_0a_Query_Calculated.cypher
 
@@ -319,26 +329,32 @@ This step takes the original node embeddings with a higher dimensionality, e.g. 
     ===> Calculating affinity matrix...
        --> Time elapsed: 0.00 seconds
     ===> Calculating PCA-based initialization...
-       --> Time elapsed: 0.00 seconds
+       --> Time elapsed: 0.10 seconds
     ===> Running optimization with exaggeration=12.00, lr=9.50 for 250 iterations...
-    Iteration   50, KL divergence -0.3439, 50 iterations in 0.0681 sec
-    Iteration  100, KL divergence 1.2175, 50 iterations in 0.0174 sec
-    Iteration  150, KL divergence 1.2175, 50 iterations in 0.0145 sec
-    Iteration  200, KL divergence 1.2175, 50 iterations in 0.0145 sec
-    Iteration  250, KL divergence 1.2175, 50 iterations in 0.0147 sec
+    Iteration   50, KL divergence -0.2759, 50 iterations in 0.0695 sec
+
+
+    Iteration  100, KL divergence 1.2175, 50 iterations in 0.0303 sec
+    Iteration  150, KL divergence 1.2175, 50 iterations in 0.0099 sec
+    Iteration  200, KL divergence 1.2175, 50 iterations in 0.0097 sec
+    Iteration  250, KL divergence 1.2175, 50 iterations in 0.0098 sec
        --> Time elapsed: 0.13 seconds
     ===> Running optimization with exaggeration=1.00, lr=114.00 for 500 iterations...
-    Iteration   50, KL divergence 0.6710, 50 iterations in 0.0509 sec
-    Iteration  100, KL divergence 0.6496, 50 iterations in 0.0473 sec
-    Iteration  150, KL divergence 0.6388, 50 iterations in 0.0460 sec
-    Iteration  200, KL divergence 0.6326, 50 iterations in 0.0458 sec
-    Iteration  250, KL divergence 0.6233, 50 iterations in 0.0459 sec
-    Iteration  300, KL divergence 0.6175, 50 iterations in 0.0466 sec
-    Iteration  350, KL divergence 0.6150, 50 iterations in 0.0468 sec
-    Iteration  400, KL divergence 0.6151, 50 iterations in 0.0461 sec
-    Iteration  450, KL divergence 0.6153, 50 iterations in 0.0456 sec
-    Iteration  500, KL divergence 0.6153, 50 iterations in 0.0457 sec
-       --> Time elapsed: 0.47 seconds
+    Iteration   50, KL divergence 0.6213, 50 iterations in 0.0375 sec
+    Iteration  100, KL divergence 0.6118, 50 iterations in 0.0492 sec
+    Iteration  150, KL divergence 0.6076, 50 iterations in 0.0500 sec
+
+
+    Iteration  200, KL divergence 0.6044, 50 iterations in 0.0506 sec
+    Iteration  250, KL divergence 0.6040, 50 iterations in 0.0512 sec
+    Iteration  300, KL divergence 0.6044, 50 iterations in 0.0497 sec
+    Iteration  350, KL divergence 0.6046, 50 iterations in 0.0495 sec
+    Iteration  400, KL divergence 0.6047, 50 iterations in 0.0493 sec
+
+
+    Iteration  450, KL divergence 0.6046, 50 iterations in 0.0502 sec
+    Iteration  500, KL divergence 0.6038, 50 iterations in 0.0501 sec
+       --> Time elapsed: 0.49 seconds
 
 
 
@@ -366,8 +382,8 @@ This step takes the original node embeddings with a higher dimensionality, e.g. 
       <td>axon-configuration-4.10.3</td>
       <td>0</td>
       <td>0.047302</td>
-      <td>-3.746449</td>
-      <td>5.976571</td>
+      <td>-4.265186</td>
+      <td>4.836691</td>
     </tr>
     <tr>
       <th>1</th>
@@ -375,8 +391,8 @@ This step takes the original node embeddings with a higher dimensionality, e.g. 
       <td>axon-eventsourcing-4.10.3</td>
       <td>0</td>
       <td>0.037034</td>
-      <td>3.681591</td>
-      <td>2.696897</td>
+      <td>3.493848</td>
+      <td>2.419350</td>
     </tr>
     <tr>
       <th>2</th>
@@ -384,8 +400,8 @@ This step takes the original node embeddings with a higher dimensionality, e.g. 
       <td>axon-eventsourcing-4.10.3</td>
       <td>0</td>
       <td>0.012211</td>
-      <td>-7.381441</td>
-      <td>-0.539348</td>
+      <td>-6.319843</td>
+      <td>-3.182643</td>
     </tr>
     <tr>
       <th>3</th>
@@ -393,8 +409,8 @@ This step takes the original node embeddings with a higher dimensionality, e.g. 
       <td>axon-eventsourcing-4.10.3</td>
       <td>0</td>
       <td>0.023525</td>
-      <td>1.072075</td>
-      <td>1.066404</td>
+      <td>0.961259</td>
+      <td>2.051103</td>
     </tr>
     <tr>
       <th>4</th>
@@ -402,8 +418,8 @@ This step takes the original node embeddings with a higher dimensionality, e.g. 
       <td>axon-eventsourcing-4.10.3</td>
       <td>0</td>
       <td>0.015345</td>
-      <td>-2.965090</td>
-      <td>-4.916114</td>
+      <td>1.957544</td>
+      <td>5.590578</td>
     </tr>
   </tbody>
 </table>
@@ -412,11 +428,14 @@ This step takes the original node embeddings with a higher dimensionality, e.g. 
 
 
     
-![png](NodeEmbeddingsJava_files/NodeEmbeddingsJava_23_5.png)
+![png](NodeEmbeddingsJava_files/NodeEmbeddingsJava_23_9.png)
     
 
 
 ### 2.5 Node Embeddings for Java Packages using node2vec
+
+    Received notification from DBMS server: {severity: WARNING} {code: Neo.ClientNotification.Statement.UnknownRelationshipTypeWarning} {category: UNRECOGNIZED} {title: The provided relationship type is not in the database.} {description: One of the relationship types in your query is not available in the database, make sure you didn't misspell it or that the label is available when you run this statement in your application (the missing relationship type is: HAS_ROOT)} {position: line: 9, column: 44, offset: 696} for query: '// Query already calculated and written node embeddings on nodes with label in parameter $dependencies_projection_node including a communityId and centrality. Variables: dependencies_projection_node, dependencies_projection_write_property. Requires "Add_file_name and_extension.cypher".\n \n  MATCH (codeUnit)\n  WHERE $dependencies_projection_node IN LABELS(codeUnit)\n    AND codeUnit[$dependencies_projection_write_property] IS NOT NULL\n    // AND codeUnit.notExistingToForceRecalculation IS NOT NULL // uncomment this line to force recalculation\n OPTIONAL MATCH (artifact:Java:Artifact)-[:CONTAINS]->(codeUnit)\n    WITH *, artifact.name AS artifactName\n OPTIONAL MATCH (projectRoot:Directory)<-[:HAS_ROOT]-(proj:TS:Project)-[:CONTAINS]->(codeUnit)\n    WITH *, last(split(projectRoot.absoluteFileName, \'/\')) AS projectName   \n  RETURN DISTINCT \n         coalesce(codeUnit.fqn, codeUnit.globalFqn, codeUnit.fileName, codeUnit.signature, codeUnit.name) AS codeUnitName\n        ,codeUnit.name                AS shortCodeUnitName\n        ,coalesce(artifactName, projectName)                                                              AS projectName\n        ,coalesce(codeUnit.communityLeidenId, 0)           AS communityId\n        ,coalesce(codeUnit.centralityPageRank, 0.01)       AS centrality\n        ,codeUnit[$dependencies_projection_write_property] AS embedding\n   ORDER BY communityId'
+
 
     The results have been provided by the query filename: ../cypher/Node_Embeddings/Node_Embeddings_0a_Query_Calculated.cypher
 
@@ -443,7 +462,7 @@ This step takes the original node embeddings with a higher dimensionality, e.g. 
       <td>axon-configuration-4.10.3</td>
       <td>0</td>
       <td>0.047302</td>
-      <td>[-0.2844424247741699, -0.18345096707344055, -0...</td>
+      <td>[0.3563048243522644, -0.15225465595722198, -0....</td>
     </tr>
     <tr>
       <th>1</th>
@@ -452,7 +471,7 @@ This step takes the original node embeddings with a higher dimensionality, e.g. 
       <td>axon-eventsourcing-4.10.3</td>
       <td>0</td>
       <td>0.037034</td>
-      <td>[-0.20477433502674103, 0.2529161274433136, -0....</td>
+      <td>[0.31444665789604187, 0.12742845714092255, 0.1...</td>
     </tr>
     <tr>
       <th>2</th>
@@ -461,7 +480,7 @@ This step takes the original node embeddings with a higher dimensionality, e.g. 
       <td>axon-eventsourcing-4.10.3</td>
       <td>0</td>
       <td>0.012211</td>
-      <td>[-0.260051965713501, 0.19741740822792053, -0.4...</td>
+      <td>[0.49195241928100586, -0.01401556096971035, -0...</td>
     </tr>
     <tr>
       <th>3</th>
@@ -470,7 +489,7 @@ This step takes the original node embeddings with a higher dimensionality, e.g. 
       <td>axon-eventsourcing-4.10.3</td>
       <td>0</td>
       <td>0.023525</td>
-      <td>[0.10492256283760071, 0.4967183768749237, -0.4...</td>
+      <td>[0.5391800999641418, 0.13031646609306335, 0.29...</td>
     </tr>
     <tr>
       <th>4</th>
@@ -479,7 +498,7 @@ This step takes the original node embeddings with a higher dimensionality, e.g. 
       <td>axon-eventsourcing-4.10.3</td>
       <td>0</td>
       <td>0.015345</td>
-      <td>[0.3293749690055847, 0.7140629291534424, -0.19...</td>
+      <td>[0.6237025856971741, 0.18466168642044067, 0.15...</td>
     </tr>
   </tbody>
 </table>
@@ -496,23 +515,27 @@ This step takes the original node embeddings with a higher dimensionality, e.g. 
     ===> Calculating PCA-based initialization...
        --> Time elapsed: 0.00 seconds
     ===> Running optimization with exaggeration=12.00, lr=9.50 for 250 iterations...
-    Iteration   50, KL divergence -0.1995, 50 iterations in 0.0635 sec
-    Iteration  100, KL divergence -2.4973, 50 iterations in 0.0198 sec
-    Iteration  150, KL divergence -2.9013, 50 iterations in 0.0171 sec
-    Iteration  200, KL divergence 1.1461, 50 iterations in 0.0151 sec
-    Iteration  250, KL divergence 1.1461, 50 iterations in 0.0147 sec
-       --> Time elapsed: 0.13 seconds
+    Iteration   50, KL divergence -0.2050, 50 iterations in 0.0466 sec
+    Iteration  100, KL divergence -2.4793, 50 iterations in 0.0131 sec
+    Iteration  150, KL divergence -2.8832, 50 iterations in 0.0116 sec
+    Iteration  200, KL divergence 1.1642, 50 iterations in 0.0101 sec
+    Iteration  250, KL divergence 1.1642, 50 iterations in 0.0098 sec
+       --> Time elapsed: 0.09 seconds
     ===> Running optimization with exaggeration=1.00, lr=114.00 for 500 iterations...
-    Iteration   50, KL divergence 0.3618, 50 iterations in 0.0549 sec
-    Iteration  100, KL divergence 0.3501, 50 iterations in 0.0480 sec
-    Iteration  150, KL divergence 0.3433, 50 iterations in 0.0486 sec
-    Iteration  200, KL divergence 0.3412, 50 iterations in 0.0471 sec
-    Iteration  250, KL divergence 0.3411, 50 iterations in 0.0460 sec
-    Iteration  300, KL divergence 0.3407, 50 iterations in 0.0459 sec
-    Iteration  350, KL divergence 0.3406, 50 iterations in 0.0467 sec
-    Iteration  400, KL divergence 0.3406, 50 iterations in 0.0462 sec
-    Iteration  450, KL divergence 0.3407, 50 iterations in 0.0460 sec
-    Iteration  500, KL divergence 0.3406, 50 iterations in 0.0459 sec
+    Iteration   50, KL divergence 0.3436, 50 iterations in 0.0405 sec
+    Iteration  100, KL divergence 0.2941, 50 iterations in 0.0506 sec
+
+
+    Iteration  150, KL divergence 0.2931, 50 iterations in 0.0494 sec
+    Iteration  200, KL divergence 0.2935, 50 iterations in 0.0490 sec
+    Iteration  250, KL divergence 0.2936, 50 iterations in 0.0487 sec
+    Iteration  300, KL divergence 0.2937, 50 iterations in 0.0487 sec
+    Iteration  350, KL divergence 0.2936, 50 iterations in 0.0484 sec
+
+
+    Iteration  400, KL divergence 0.2936, 50 iterations in 0.0496 sec
+    Iteration  450, KL divergence 0.2935, 50 iterations in 0.0488 sec
+    Iteration  500, KL divergence 0.2934, 50 iterations in 0.0482 sec
        --> Time elapsed: 0.48 seconds
 
 
@@ -541,8 +564,8 @@ This step takes the original node embeddings with a higher dimensionality, e.g. 
       <td>axon-configuration-4.10.3</td>
       <td>0</td>
       <td>0.047302</td>
-      <td>-0.310613</td>
-      <td>-0.083244</td>
+      <td>0.457618</td>
+      <td>0.028197</td>
     </tr>
     <tr>
       <th>1</th>
@@ -550,8 +573,8 @@ This step takes the original node embeddings with a higher dimensionality, e.g. 
       <td>axon-eventsourcing-4.10.3</td>
       <td>0</td>
       <td>0.037034</td>
-      <td>3.366698</td>
-      <td>-2.059075</td>
+      <td>-0.551798</td>
+      <td>3.150891</td>
     </tr>
     <tr>
       <th>2</th>
@@ -559,8 +582,8 @@ This step takes the original node embeddings with a higher dimensionality, e.g. 
       <td>axon-eventsourcing-4.10.3</td>
       <td>0</td>
       <td>0.012211</td>
-      <td>2.979672</td>
-      <td>-0.960481</td>
+      <td>-1.656406</td>
+      <td>-0.594156</td>
     </tr>
     <tr>
       <th>3</th>
@@ -568,8 +591,8 @@ This step takes the original node embeddings with a higher dimensionality, e.g. 
       <td>axon-eventsourcing-4.10.3</td>
       <td>0</td>
       <td>0.023525</td>
-      <td>5.752713</td>
-      <td>-3.568722</td>
+      <td>1.906361</td>
+      <td>7.806532</td>
     </tr>
     <tr>
       <th>4</th>
@@ -577,8 +600,8 @@ This step takes the original node embeddings with a higher dimensionality, e.g. 
       <td>axon-eventsourcing-4.10.3</td>
       <td>0</td>
       <td>0.015345</td>
-      <td>5.786802</td>
-      <td>-3.591478</td>
+      <td>1.922303</td>
+      <td>7.826993</td>
     </tr>
   </tbody>
 </table>
@@ -587,6 +610,6 @@ This step takes the original node embeddings with a higher dimensionality, e.g. 
 
 
     
-![png](NodeEmbeddingsJava_files/NodeEmbeddingsJava_25_5.png)
+![png](NodeEmbeddingsJava_files/NodeEmbeddingsJava_25_8.png)
     
 
