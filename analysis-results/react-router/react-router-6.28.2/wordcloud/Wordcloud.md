@@ -138,27 +138,27 @@
     <tr>
       <th>5</th>
       <td>Remix Run Bot</td>
-      <td>449</td>
+      <td>450</td>
     </tr>
     <tr>
       <th>6</th>
+      <td>Nick Amoscato</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>Maxim Evtush</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>8</th>
       <td>Mark Dalgleish</td>
       <td>396</td>
     </tr>
     <tr>
-      <th>7</th>
+      <th>9</th>
       <td>Matt Brophy</td>
       <td>1947</td>
-    </tr>
-    <tr>
-      <th>8</th>
-      <td>Jacob Ebey</td>
-      <td>260</td>
-    </tr>
-    <tr>
-      <th>9</th>
-      <td>Lenz Weber-Tronic</td>
-      <td>1</td>
     </tr>
   </tbody>
 </table>
