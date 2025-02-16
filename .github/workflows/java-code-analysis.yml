@@ -45,7 +45,7 @@ jobs:
     env: 
       PROJECT_NAME: AxonFramework
       # Version variable names matches renovate.json configuration entry
-      AXON_FRAMEWORK_VERSION: 4.10.3
+      AXON_FRAMEWORK_VERSION: 4.11.0
       # Java is in this example only used to download JARs for analysis using Maven
       JAVA_VERSION: 21
     outputs:
