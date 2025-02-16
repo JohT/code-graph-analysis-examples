@@ -28,15 +28,15 @@ Have a look below to find out which packages and methods have the highest effect
   <thead>
     <tr style="text-align: right;">
       <th>artifactName</th>
-      <th>axon-messaging-4.10.3.jar</th>
-      <th>axon-server-connector-4.10.3.jar</th>
-      <th>axon-eventsourcing-4.10.3.jar</th>
-      <th>axon-modelling-4.10.3.jar</th>
-      <th>axon-test-4.10.3.jar</th>
-      <th>axon-configuration-4.10.3.jar</th>
-      <th>axon-spring-boot-autoconfigure-4.10.3.jar</th>
-      <th>axon-disruptor-4.10.3.jar</th>
-      <th>axon-tracing-opentelemetry-4.10.3.jar</th>
+      <th>axon-messaging-4.11.0.jar</th>
+      <th>axon-server-connector-4.11.0.jar</th>
+      <th>axon-eventsourcing-4.11.0.jar</th>
+      <th>axon-modelling-4.11.0.jar</th>
+      <th>axon-test-4.11.0.jar</th>
+      <th>axon-configuration-4.11.0.jar</th>
+      <th>axon-spring-boot-autoconfigure-4.11.0.jar</th>
+      <th>axon-disruptor-4.11.0.jar</th>
+      <th>axon-tracing-opentelemetry-4.11.0.jar</th>
     </tr>
     <tr>
       <th>effectiveLineCount</th>
@@ -54,67 +54,67 @@ Have a look below to find out which packages and methods have the highest effect
   <tbody>
     <tr>
       <th>1</th>
-      <td>2830</td>
-      <td>552</td>
+      <td>2888</td>
+      <td>566</td>
       <td>573</td>
       <td>535</td>
       <td>280</td>
       <td>310</td>
-      <td>222</td>
+      <td>269</td>
       <td>84</td>
       <td>16</td>
     </tr>
     <tr>
       <th>2</th>
-      <td>828</td>
-      <td>198</td>
+      <td>852</td>
+      <td>202</td>
       <td>204</td>
       <td>160</td>
       <td>171</td>
       <td>146</td>
-      <td>91</td>
+      <td>107</td>
       <td>31</td>
       <td>4</td>
     </tr>
     <tr>
       <th>3</th>
-      <td>671</td>
-      <td>138</td>
+      <td>692</td>
+      <td>140</td>
       <td>127</td>
       <td>140</td>
-      <td>65</td>
+      <td>66</td>
       <td>34</td>
-      <td>18</td>
+      <td>19</td>
       <td>30</td>
       <td>10</td>
     </tr>
     <tr>
       <th>4</th>
-      <td>272</td>
+      <td>277</td>
       <td>68</td>
       <td>64</td>
       <td>58</td>
       <td>49</td>
       <td>42</td>
-      <td>19</td>
+      <td>22</td>
       <td>8</td>
       <td>7</td>
     </tr>
     <tr>
       <th>5</th>
-      <td>221</td>
-      <td>44</td>
+      <td>228</td>
+      <td>47</td>
       <td>39</td>
       <td>46</td>
       <td>24</td>
       <td>16</td>
-      <td>12</td>
+      <td>14</td>
       <td>5</td>
       <td>2</td>
     </tr>
     <tr>
       <th>6</th>
-      <td>161</td>
+      <td>169</td>
       <td>25</td>
       <td>34</td>
       <td>44</td>
@@ -126,19 +126,19 @@ Have a look below to find out which packages and methods have the highest effect
     </tr>
     <tr>
       <th>7</th>
-      <td>105</td>
+      <td>109</td>
       <td>19</td>
       <td>32</td>
       <td>25</td>
       <td>20</td>
       <td>3</td>
-      <td>11</td>
+      <td>12</td>
       <td>2</td>
       <td>2</td>
     </tr>
     <tr>
       <th>8</th>
-      <td>80</td>
+      <td>88</td>
       <td>21</td>
       <td>12</td>
       <td>10</td>
@@ -150,7 +150,7 @@ Have a look below to find out which packages and methods have the highest effect
     </tr>
     <tr>
       <th>9</th>
-      <td>77</td>
+      <td>82</td>
       <td>12</td>
       <td>18</td>
       <td>17</td>
@@ -162,7 +162,7 @@ Have a look below to find out which packages and methods have the highest effect
     </tr>
     <tr>
       <th>10</th>
-      <td>47</td>
+      <td>48</td>
       <td>15</td>
       <td>7</td>
       <td>8</td>
@@ -175,19 +175,19 @@ Have a look below to find out which packages and methods have the highest effect
     <tr>
       <th>11</th>
       <td>44</td>
-      <td>11</td>
+      <td>13</td>
       <td>2</td>
       <td>7</td>
       <td>9</td>
       <td>5</td>
-      <td>3</td>
+      <td>4</td>
       <td>1</td>
       <td>0</td>
     </tr>
     <tr>
       <th>12</th>
-      <td>42</td>
-      <td>9</td>
+      <td>43</td>
+      <td>10</td>
       <td>5</td>
       <td>2</td>
       <td>9</td>
@@ -210,7 +210,7 @@ Have a look below to find out which packages and methods have the highest effect
     </tr>
     <tr>
       <th>14</th>
-      <td>12</td>
+      <td>13</td>
       <td>1</td>
       <td>3</td>
       <td>4</td>
@@ -222,7 +222,7 @@ Have a look below to find out which packages and methods have the highest effect
     </tr>
     <tr>
       <th>15</th>
-      <td>10</td>
+      <td>13</td>
       <td>5</td>
       <td>2</td>
       <td>5</td>
@@ -234,7 +234,7 @@ Have a look below to find out which packages and methods have the highest effect
     </tr>
     <tr>
       <th>16</th>
-      <td>8</td>
+      <td>9</td>
       <td>3</td>
       <td>6</td>
       <td>2</td>
@@ -247,12 +247,12 @@ Have a look below to find out which packages and methods have the highest effect
     <tr>
       <th>17</th>
       <td>10</td>
-      <td>6</td>
+      <td>7</td>
       <td>0</td>
       <td>1</td>
       <td>4</td>
       <td>1</td>
-      <td>0</td>
+      <td>1</td>
       <td>1</td>
       <td>0</td>
     </tr>
@@ -270,7 +270,7 @@ Have a look below to find out which packages and methods have the highest effect
     </tr>
     <tr>
       <th>19</th>
-      <td>7</td>
+      <td>8</td>
       <td>4</td>
       <td>0</td>
       <td>2</td>
@@ -295,7 +295,7 @@ Have a look below to find out which packages and methods have the highest effect
     <tr>
       <th>21</th>
       <td>6</td>
-      <td>2</td>
+      <td>1</td>
       <td>2</td>
       <td>1</td>
       <td>1</td>
@@ -318,8 +318,8 @@ Have a look below to find out which packages and methods have the highest effect
     </tr>
     <tr>
       <th>23</th>
-      <td>5</td>
-      <td>0</td>
+      <td>4</td>
+      <td>1</td>
       <td>2</td>
       <td>0</td>
       <td>1</td>
@@ -342,7 +342,7 @@ Have a look below to find out which packages and methods have the highest effect
     </tr>
     <tr>
       <th>25</th>
-      <td>2</td>
+      <td>1</td>
       <td>0</td>
       <td>1</td>
       <td>0</td>
@@ -354,7 +354,7 @@ Have a look below to find out which packages and methods have the highest effect
     </tr>
     <tr>
       <th>26</th>
-      <td>2</td>
+      <td>4</td>
       <td>0</td>
       <td>0</td>
       <td>1</td>
@@ -379,7 +379,7 @@ Have a look below to find out which packages and methods have the highest effect
     <tr>
       <th>28</th>
       <td>2</td>
-      <td>1</td>
+      <td>2</td>
       <td>0</td>
       <td>0</td>
       <td>0</td>
@@ -451,19 +451,7 @@ Have a look below to find out which packages and methods have the highest effect
     <tr>
       <th>34</th>
       <td>1</td>
-      <td>1</td>
       <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>1</td>
-      <td>0</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>35</th>
-      <td>0</td>
-      <td>1</td>
       <td>0</td>
       <td>0</td>
       <td>0</td>
@@ -475,7 +463,7 @@ Have a look below to find out which packages and methods have the highest effect
     <tr>
       <th>36</th>
       <td>2</td>
-      <td>0</td>
+      <td>1</td>
       <td>0</td>
       <td>0</td>
       <td>0</td>
@@ -497,7 +485,7 @@ Have a look below to find out which packages and methods have the highest effect
       <td>0</td>
     </tr>
     <tr>
-      <th>41</th>
+      <th>42</th>
       <td>0</td>
       <td>1</td>
       <td>0</td>
@@ -527,6 +515,18 @@ Have a look below to find out which packages and methods have the highest effect
       <td>0</td>
       <td>0</td>
       <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>45</th>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
       <td>0</td>
       <td>0</td>
       <td>0</td>
@@ -551,15 +551,15 @@ Have a look below to find out which packages and methods have the highest effect
   <thead>
     <tr style="text-align: right;">
       <th>artifactName</th>
-      <th>axon-messaging-4.10.3.jar</th>
-      <th>axon-server-connector-4.10.3.jar</th>
-      <th>axon-eventsourcing-4.10.3.jar</th>
-      <th>axon-modelling-4.10.3.jar</th>
-      <th>axon-test-4.10.3.jar</th>
-      <th>axon-configuration-4.10.3.jar</th>
-      <th>axon-spring-boot-autoconfigure-4.10.3.jar</th>
-      <th>axon-disruptor-4.10.3.jar</th>
-      <th>axon-tracing-opentelemetry-4.10.3.jar</th>
+      <th>axon-messaging-4.11.0.jar</th>
+      <th>axon-server-connector-4.11.0.jar</th>
+      <th>axon-eventsourcing-4.11.0.jar</th>
+      <th>axon-modelling-4.11.0.jar</th>
+      <th>axon-test-4.11.0.jar</th>
+      <th>axon-configuration-4.11.0.jar</th>
+      <th>axon-spring-boot-autoconfigure-4.11.0.jar</th>
+      <th>axon-disruptor-4.11.0.jar</th>
+      <th>axon-tracing-opentelemetry-4.11.0.jar</th>
     </tr>
     <tr>
       <th>effectiveLineCount</th>
@@ -577,143 +577,143 @@ Have a look below to find out which packages and methods have the highest effect
   <tbody>
     <tr>
       <th>1</th>
-      <td>51.435842</td>
-      <td>48.041775</td>
+      <td>51.115044</td>
+      <td>48.129252</td>
       <td>50.175131</td>
       <td>49.399815</td>
-      <td>40.057225</td>
+      <td>40.000000</td>
       <td>51.155116</td>
-      <td>54.545455</td>
+      <td>56.158664</td>
       <td>45.652174</td>
       <td>34.782609</td>
     </tr>
     <tr>
       <th>2</th>
-      <td>15.049073</td>
-      <td>17.232376</td>
+      <td>15.079646</td>
+      <td>17.176871</td>
       <td>17.863398</td>
       <td>14.773777</td>
-      <td>24.463519</td>
+      <td>24.428571</td>
       <td>24.092409</td>
-      <td>22.358722</td>
+      <td>22.338205</td>
       <td>16.847826</td>
       <td>8.695652</td>
     </tr>
     <tr>
       <th>3</th>
-      <td>12.195565</td>
-      <td>12.010444</td>
+      <td>12.247788</td>
+      <td>11.904762</td>
       <td>11.120841</td>
       <td>12.927054</td>
-      <td>9.298999</td>
+      <td>9.428571</td>
       <td>5.610561</td>
-      <td>4.422604</td>
+      <td>3.966597</td>
       <td>16.304348</td>
       <td>21.739130</td>
     </tr>
     <tr>
       <th>4</th>
-      <td>4.943657</td>
-      <td>5.918190</td>
+      <td>4.902655</td>
+      <td>5.782313</td>
       <td>5.604203</td>
       <td>5.355494</td>
-      <td>7.010014</td>
+      <td>7.000000</td>
       <td>6.930693</td>
-      <td>4.668305</td>
+      <td>4.592902</td>
       <td>4.347826</td>
       <td>15.217391</td>
     </tr>
     <tr>
       <th>5</th>
-      <td>4.016721</td>
-      <td>3.829417</td>
+      <td>4.035398</td>
+      <td>3.996599</td>
       <td>3.415061</td>
       <td>4.247461</td>
-      <td>3.433476</td>
+      <td>3.428571</td>
       <td>2.640264</td>
-      <td>2.948403</td>
+      <td>2.922756</td>
       <td>2.717391</td>
       <td>4.347826</td>
     </tr>
     <tr>
       <th>6</th>
-      <td>2.926209</td>
-      <td>2.175805</td>
+      <td>2.991150</td>
+      <td>2.125850</td>
       <td>2.977233</td>
       <td>4.062789</td>
-      <td>2.575107</td>
+      <td>2.571429</td>
       <td>2.805281</td>
-      <td>2.702703</td>
+      <td>2.296451</td>
       <td>3.260870</td>
       <td>6.521739</td>
     </tr>
     <tr>
       <th>7</th>
-      <td>1.908397</td>
-      <td>1.653612</td>
+      <td>1.929204</td>
+      <td>1.615646</td>
       <td>2.802102</td>
       <td>2.308403</td>
-      <td>2.861230</td>
+      <td>2.857143</td>
       <td>0.495050</td>
-      <td>2.702703</td>
+      <td>2.505219</td>
       <td>1.086957</td>
       <td>4.347826</td>
     </tr>
     <tr>
       <th>8</th>
-      <td>1.454017</td>
-      <td>1.827676</td>
+      <td>1.557522</td>
+      <td>1.785714</td>
       <td>1.050788</td>
       <td>0.923361</td>
-      <td>1.573677</td>
+      <td>1.571429</td>
       <td>1.155116</td>
-      <td>1.965602</td>
+      <td>1.670146</td>
       <td>0.000000</td>
       <td>0.000000</td>
     </tr>
     <tr>
       <th>9</th>
-      <td>1.399491</td>
-      <td>1.044386</td>
+      <td>1.451327</td>
+      <td>1.020408</td>
       <td>1.576182</td>
       <td>1.569714</td>
-      <td>1.430615</td>
+      <td>1.428571</td>
       <td>1.320132</td>
-      <td>0.982801</td>
+      <td>0.835073</td>
       <td>2.173913</td>
       <td>2.173913</td>
     </tr>
     <tr>
       <th>10</th>
-      <td>0.854235</td>
-      <td>1.305483</td>
+      <td>0.849558</td>
+      <td>1.275510</td>
       <td>0.612960</td>
       <td>0.738689</td>
-      <td>0.572246</td>
+      <td>0.571429</td>
       <td>0.990099</td>
-      <td>0.737101</td>
+      <td>0.626305</td>
       <td>1.630435</td>
       <td>0.000000</td>
     </tr>
     <tr>
       <th>11</th>
-      <td>0.799709</td>
-      <td>0.957354</td>
+      <td>0.778761</td>
+      <td>1.105442</td>
       <td>0.175131</td>
       <td>0.646353</td>
-      <td>1.287554</td>
+      <td>1.285714</td>
       <td>0.825083</td>
-      <td>0.737101</td>
+      <td>0.835073</td>
       <td>0.543478</td>
       <td>0.000000</td>
     </tr>
     <tr>
       <th>12</th>
-      <td>0.763359</td>
-      <td>0.783290</td>
+      <td>0.761062</td>
+      <td>0.850340</td>
       <td>0.437828</td>
       <td>0.184672</td>
-      <td>1.287554</td>
+      <td>1.285714</td>
       <td>0.165017</td>
       <td>0.000000</td>
       <td>0.543478</td>
@@ -721,11 +721,11 @@ Have a look below to find out which packages and methods have the highest effect
     </tr>
     <tr>
       <th>13</th>
-      <td>0.508906</td>
-      <td>0.522193</td>
+      <td>0.495575</td>
+      <td>0.510204</td>
       <td>0.175131</td>
       <td>0.831025</td>
-      <td>0.572246</td>
+      <td>0.571429</td>
       <td>0.330033</td>
       <td>0.000000</td>
       <td>0.543478</td>
@@ -733,11 +733,11 @@ Have a look below to find out which packages and methods have the highest effect
     </tr>
     <tr>
       <th>14</th>
-      <td>0.218103</td>
-      <td>0.087032</td>
+      <td>0.230088</td>
+      <td>0.085034</td>
       <td>0.262697</td>
       <td>0.369344</td>
-      <td>0.286123</td>
+      <td>0.285714</td>
       <td>0.165017</td>
       <td>0.000000</td>
       <td>1.086957</td>
@@ -745,11 +745,11 @@ Have a look below to find out which packages and methods have the highest effect
     </tr>
     <tr>
       <th>15</th>
-      <td>0.181752</td>
-      <td>0.435161</td>
+      <td>0.230088</td>
+      <td>0.425170</td>
       <td>0.175131</td>
       <td>0.461681</td>
-      <td>0.429185</td>
+      <td>0.428571</td>
       <td>0.000000</td>
       <td>0.000000</td>
       <td>0.000000</td>
@@ -757,11 +757,11 @@ Have a look below to find out which packages and methods have the highest effect
     </tr>
     <tr>
       <th>16</th>
-      <td>0.145402</td>
-      <td>0.261097</td>
+      <td>0.159292</td>
+      <td>0.255102</td>
       <td>0.525394</td>
       <td>0.184672</td>
-      <td>0.572246</td>
+      <td>0.571429</td>
       <td>0.000000</td>
       <td>0.000000</td>
       <td>0.000000</td>
@@ -769,23 +769,23 @@ Have a look below to find out which packages and methods have the highest effect
     </tr>
     <tr>
       <th>17</th>
-      <td>0.181752</td>
-      <td>0.522193</td>
+      <td>0.176991</td>
+      <td>0.595238</td>
       <td>0.000000</td>
       <td>0.092336</td>
-      <td>0.572246</td>
+      <td>0.571429</td>
       <td>0.165017</td>
-      <td>0.000000</td>
+      <td>0.208768</td>
       <td>0.543478</td>
       <td>0.000000</td>
     </tr>
     <tr>
       <th>18</th>
-      <td>0.163577</td>
+      <td>0.159292</td>
       <td>0.000000</td>
       <td>0.262697</td>
       <td>0.000000</td>
-      <td>0.429185</td>
+      <td>0.428571</td>
       <td>0.165017</td>
       <td>0.000000</td>
       <td>0.543478</td>
@@ -793,23 +793,23 @@ Have a look below to find out which packages and methods have the highest effect
     </tr>
     <tr>
       <th>19</th>
-      <td>0.127226</td>
-      <td>0.348129</td>
+      <td>0.141593</td>
+      <td>0.340136</td>
       <td>0.000000</td>
       <td>0.184672</td>
       <td>0.000000</td>
       <td>0.165017</td>
-      <td>0.245700</td>
+      <td>0.208768</td>
       <td>0.543478</td>
       <td>0.000000</td>
     </tr>
     <tr>
       <th>20</th>
-      <td>0.090876</td>
-      <td>0.174064</td>
+      <td>0.088496</td>
+      <td>0.170068</td>
       <td>0.175131</td>
       <td>0.184672</td>
-      <td>0.143062</td>
+      <td>0.142857</td>
       <td>0.000000</td>
       <td>0.000000</td>
       <td>0.000000</td>
@@ -817,11 +817,11 @@ Have a look below to find out which packages and methods have the highest effect
     </tr>
     <tr>
       <th>21</th>
-      <td>0.109051</td>
-      <td>0.174064</td>
+      <td>0.106195</td>
+      <td>0.085034</td>
       <td>0.175131</td>
       <td>0.092336</td>
-      <td>0.143062</td>
+      <td>0.142857</td>
       <td>0.165017</td>
       <td>0.000000</td>
       <td>0.000000</td>
@@ -829,35 +829,35 @@ Have a look below to find out which packages and methods have the highest effect
     </tr>
     <tr>
       <th>22</th>
-      <td>0.054526</td>
+      <td>0.053097</td>
       <td>0.000000</td>
       <td>0.087566</td>
       <td>0.184672</td>
-      <td>0.143062</td>
+      <td>0.142857</td>
       <td>0.000000</td>
-      <td>0.491400</td>
+      <td>0.417537</td>
       <td>0.543478</td>
       <td>0.000000</td>
     </tr>
     <tr>
       <th>23</th>
-      <td>0.090876</td>
-      <td>0.000000</td>
+      <td>0.070796</td>
+      <td>0.085034</td>
       <td>0.175131</td>
       <td>0.000000</td>
-      <td>0.143062</td>
+      <td>0.142857</td>
       <td>0.165017</td>
-      <td>0.245700</td>
+      <td>0.208768</td>
       <td>0.000000</td>
       <td>0.000000</td>
     </tr>
     <tr>
       <th>24</th>
-      <td>0.054526</td>
-      <td>0.261097</td>
+      <td>0.053097</td>
+      <td>0.255102</td>
       <td>0.087566</td>
       <td>0.092336</td>
-      <td>0.143062</td>
+      <td>0.142857</td>
       <td>0.000000</td>
       <td>0.000000</td>
       <td>0.543478</td>
@@ -865,7 +865,7 @@ Have a look below to find out which packages and methods have the highest effect
     </tr>
     <tr>
       <th>25</th>
-      <td>0.036350</td>
+      <td>0.017699</td>
       <td>0.000000</td>
       <td>0.087566</td>
       <td>0.000000</td>
@@ -877,11 +877,11 @@ Have a look below to find out which packages and methods have the highest effect
     </tr>
     <tr>
       <th>26</th>
-      <td>0.036350</td>
+      <td>0.070796</td>
       <td>0.000000</td>
       <td>0.000000</td>
       <td>0.092336</td>
-      <td>0.143062</td>
+      <td>0.142857</td>
       <td>0.165017</td>
       <td>0.000000</td>
       <td>0.000000</td>
@@ -890,7 +890,7 @@ Have a look below to find out which packages and methods have the highest effect
     <tr>
       <th>27</th>
       <td>0.000000</td>
-      <td>0.087032</td>
+      <td>0.085034</td>
       <td>0.000000</td>
       <td>0.000000</td>
       <td>0.000000</td>
@@ -901,8 +901,8 @@ Have a look below to find out which packages and methods have the highest effect
     </tr>
     <tr>
       <th>28</th>
-      <td>0.036350</td>
-      <td>0.087032</td>
+      <td>0.035398</td>
+      <td>0.170068</td>
       <td>0.000000</td>
       <td>0.000000</td>
       <td>0.000000</td>
@@ -917,7 +917,7 @@ Have a look below to find out which packages and methods have the highest effect
       <td>0.000000</td>
       <td>0.000000</td>
       <td>0.000000</td>
-      <td>0.143062</td>
+      <td>0.142857</td>
       <td>0.000000</td>
       <td>0.000000</td>
       <td>0.000000</td>
@@ -925,7 +925,7 @@ Have a look below to find out which packages and methods have the highest effect
     </tr>
     <tr>
       <th>30</th>
-      <td>0.018175</td>
+      <td>0.017699</td>
       <td>0.000000</td>
       <td>0.000000</td>
       <td>0.000000</td>
@@ -937,11 +937,11 @@ Have a look below to find out which packages and methods have the highest effect
     </tr>
     <tr>
       <th>31</th>
-      <td>0.018175</td>
+      <td>0.017699</td>
       <td>0.000000</td>
       <td>0.000000</td>
       <td>0.000000</td>
-      <td>0.143062</td>
+      <td>0.142857</td>
       <td>0.000000</td>
       <td>0.000000</td>
       <td>0.000000</td>
@@ -949,7 +949,7 @@ Have a look below to find out which packages and methods have the highest effect
     </tr>
     <tr>
       <th>32</th>
-      <td>0.018175</td>
+      <td>0.017699</td>
       <td>0.000000</td>
       <td>0.000000</td>
       <td>0.000000</td>
@@ -961,7 +961,7 @@ Have a look below to find out which packages and methods have the highest effect
     </tr>
     <tr>
       <th>33</th>
-      <td>0.018175</td>
+      <td>0.017699</td>
       <td>0.000000</td>
       <td>0.000000</td>
       <td>0.000000</td>
@@ -973,20 +973,8 @@ Have a look below to find out which packages and methods have the highest effect
     </tr>
     <tr>
       <th>34</th>
-      <td>0.018175</td>
-      <td>0.087032</td>
+      <td>0.017699</td>
       <td>0.000000</td>
-      <td>0.000000</td>
-      <td>0.000000</td>
-      <td>0.000000</td>
-      <td>0.245700</td>
-      <td>0.000000</td>
-      <td>0.000000</td>
-    </tr>
-    <tr>
-      <th>35</th>
-      <td>0.000000</td>
-      <td>0.087032</td>
       <td>0.000000</td>
       <td>0.000000</td>
       <td>0.000000</td>
@@ -997,8 +985,8 @@ Have a look below to find out which packages and methods have the highest effect
     </tr>
     <tr>
       <th>36</th>
-      <td>0.036350</td>
-      <td>0.000000</td>
+      <td>0.035398</td>
+      <td>0.085034</td>
       <td>0.000000</td>
       <td>0.000000</td>
       <td>0.000000</td>
@@ -1020,9 +1008,9 @@ Have a look below to find out which packages and methods have the highest effect
       <td>0.000000</td>
     </tr>
     <tr>
-      <th>41</th>
+      <th>42</th>
       <td>0.000000</td>
-      <td>0.087032</td>
+      <td>0.085034</td>
       <td>0.000000</td>
       <td>0.000000</td>
       <td>0.000000</td>
@@ -1045,11 +1033,23 @@ Have a look below to find out which packages and methods have the highest effect
     </tr>
     <tr>
       <th>44</th>
-      <td>0.018175</td>
+      <td>0.017699</td>
       <td>0.000000</td>
       <td>0.000000</td>
       <td>0.000000</td>
       <td>0.000000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+    </tr>
+    <tr>
+      <th>45</th>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>0.142857</td>
       <td>0.000000</td>
       <td>0.000000</td>
       <td>0.000000</td>
@@ -1096,7 +1096,7 @@ The following table shows the top 30 packages with the highest effective lines o
   <tbody>
     <tr>
       <th>0</th>
-      <td>axon-messaging-4.10.3</td>
+      <td>axon-messaging-4.11.0</td>
       <td>org.axonframework.eventhandling</td>
       <td>2331</td>
       <td>838</td>
@@ -1105,7 +1105,7 @@ The following table shows the top 30 packages with the highest effective lines o
     </tr>
     <tr>
       <th>1</th>
-      <td>axon-configuration-4.10.3</td>
+      <td>axon-configuration-4.11.0</td>
       <td>org.axonframework.config</td>
       <td>1587</td>
       <td>606</td>
@@ -1114,16 +1114,16 @@ The following table shows the top 30 packages with the highest effective lines o
     </tr>
     <tr>
       <th>2</th>
-      <td>axon-messaging-4.10.3</td>
+      <td>axon-messaging-4.11.0</td>
       <td>org.axonframework.eventhandling.pooled</td>
-      <td>1041</td>
-      <td>341</td>
-      <td>77</td>
+      <td>1082</td>
+      <td>350</td>
+      <td>81</td>
       <td>run</td>
     </tr>
     <tr>
       <th>3</th>
-      <td>axon-test-4.10.3</td>
+      <td>axon-test-4.11.0</td>
       <td>org.axonframework.test.aggregate</td>
       <td>956</td>
       <td>251</td>
@@ -1132,7 +1132,7 @@ The following table shows the top 30 packages with the highest effective lines o
     </tr>
     <tr>
       <th>4</th>
-      <td>axon-messaging-4.10.3</td>
+      <td>axon-messaging-4.11.0</td>
       <td>org.axonframework.queryhandling</td>
       <td>953</td>
       <td>388</td>
@@ -1141,16 +1141,16 @@ The following table shows the top 30 packages with the highest effective lines o
     </tr>
     <tr>
       <th>5</th>
-      <td>axon-server-connector-4.10.3</td>
+      <td>axon-server-connector-4.11.0</td>
       <td>org.axonframework.axonserver.connector.event.axon</td>
-      <td>872</td>
-      <td>279</td>
-      <td>35</td>
+      <td>885</td>
+      <td>283</td>
+      <td>28</td>
       <td>readMessages</td>
     </tr>
     <tr>
       <th>6</th>
-      <td>axon-messaging-4.10.3</td>
+      <td>axon-messaging-4.11.0</td>
       <td>org.axonframework.eventhandling.deadletter.jdbc</td>
       <td>848</td>
       <td>249</td>
@@ -1159,7 +1159,7 @@ The following table shows the top 30 packages with the highest effective lines o
     </tr>
     <tr>
       <th>7</th>
-      <td>axon-modelling-4.10.3</td>
+      <td>axon-modelling-4.11.0</td>
       <td>org.axonframework.modelling.command</td>
       <td>843</td>
       <td>335</td>
@@ -1168,25 +1168,25 @@ The following table shows the top 30 packages with the highest effective lines o
     </tr>
     <tr>
       <th>8</th>
-      <td>axon-server-connector-4.10.3</td>
+      <td>axon-server-connector-4.11.0</td>
       <td>org.axonframework.axonserver.connector.query</td>
-      <td>739</td>
-      <td>216</td>
+      <td>749</td>
+      <td>219</td>
       <td>27</td>
       <td>query</td>
     </tr>
     <tr>
       <th>9</th>
-      <td>axon-server-connector-4.10.3</td>
+      <td>axon-server-connector-4.11.0</td>
       <td>org.axonframework.axonserver.connector</td>
-      <td>729</td>
-      <td>299</td>
-      <td>41</td>
+      <td>742</td>
+      <td>304</td>
+      <td>42</td>
       <td>build</td>
     </tr>
     <tr>
       <th>10</th>
-      <td>axon-eventsourcing-4.10.3</td>
+      <td>axon-eventsourcing-4.11.0</td>
       <td>org.axonframework.eventsourcing.eventstore</td>
       <td>712</td>
       <td>264</td>
@@ -1195,7 +1195,7 @@ The following table shows the top 30 packages with the highest effective lines o
     </tr>
     <tr>
       <th>11</th>
-      <td>axon-messaging-4.10.3</td>
+      <td>axon-messaging-4.11.0</td>
       <td>org.axonframework.messaging.annotation</td>
       <td>670</td>
       <td>239</td>
@@ -1204,7 +1204,16 @@ The following table shows the top 30 packages with the highest effective lines o
     </tr>
     <tr>
       <th>12</th>
-      <td>axon-modelling-4.10.3</td>
+      <td>axon-spring-boot-autoconfigure-4.11.0</td>
+      <td>org.axonframework.springboot.autoconfig</td>
+      <td>669</td>
+      <td>237</td>
+      <td>48</td>
+      <td>buildSerializer</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>axon-modelling-4.11.0</td>
       <td>org.axonframework.modelling.command.inspection</td>
       <td>637</td>
       <td>218</td>
@@ -1212,8 +1221,8 @@ The following table shows the top 30 packages with the highest effective lines o
       <td>inspectFieldsAndMethods</td>
     </tr>
     <tr>
-      <th>13</th>
-      <td>axon-eventsourcing-4.10.3</td>
+      <th>14</th>
+      <td>axon-eventsourcing-4.11.0</td>
       <td>org.axonframework.eventsourcing</td>
       <td>622</td>
       <td>251</td>
@@ -1221,8 +1230,8 @@ The following table shows the top 30 packages with the highest effective lines o
       <td>doScheduleSnapshot</td>
     </tr>
     <tr>
-      <th>14</th>
-      <td>axon-disruptor-4.10.3</td>
+      <th>15</th>
+      <td>axon-disruptor-4.11.0</td>
       <td>org.axonframework.disruptor.commandhandling</td>
       <td>605</td>
       <td>184</td>
@@ -1230,8 +1239,8 @@ The following table shows the top 30 packages with the highest effective lines o
       <td>&lt;init&gt;</td>
     </tr>
     <tr>
-      <th>15</th>
-      <td>axon-eventsourcing-4.10.3</td>
+      <th>16</th>
+      <td>axon-eventsourcing-4.11.0</td>
       <td>org.axonframework.eventsourcing.eventstore.leg...</td>
       <td>573</td>
       <td>187</td>
@@ -1239,8 +1248,8 @@ The following table shows the top 30 packages with the highest effective lines o
       <td>fetchTrackedEvents</td>
     </tr>
     <tr>
-      <th>16</th>
-      <td>axon-eventsourcing-4.10.3</td>
+      <th>17</th>
+      <td>axon-eventsourcing-4.11.0</td>
       <td>org.axonframework.eventsourcing.eventstore.jdbc</td>
       <td>568</td>
       <td>236</td>
@@ -1248,26 +1257,17 @@ The following table shows the top 30 packages with the highest effective lines o
       <td>&lt;init&gt;</td>
     </tr>
     <tr>
-      <th>17</th>
-      <td>axon-spring-boot-autoconfigure-4.10.3</td>
-      <td>org.axonframework.springboot.autoconfig</td>
-      <td>567</td>
-      <td>192</td>
-      <td>34</td>
-      <td>buildSerializer</td>
-    </tr>
-    <tr>
       <th>18</th>
-      <td>axon-messaging-4.10.3</td>
+      <td>axon-messaging-4.11.0</td>
       <td>org.axonframework.serialization</td>
-      <td>537</td>
-      <td>181</td>
+      <td>538</td>
+      <td>182</td>
       <td>22</td>
       <td>&lt;init&gt;</td>
     </tr>
     <tr>
       <th>19</th>
-      <td>axon-messaging-4.10.3</td>
+      <td>axon-messaging-4.11.0</td>
       <td>org.axonframework.eventhandling.deadletter.jpa</td>
       <td>525</td>
       <td>132</td>
@@ -1276,7 +1276,7 @@ The following table shows the top 30 packages with the highest effective lines o
     </tr>
     <tr>
       <th>20</th>
-      <td>axon-messaging-4.10.3</td>
+      <td>axon-messaging-4.11.0</td>
       <td>org.axonframework.common</td>
       <td>498</td>
       <td>144</td>
@@ -1285,16 +1285,16 @@ The following table shows the top 30 packages with the highest effective lines o
     </tr>
     <tr>
       <th>21</th>
-      <td>axon-test-4.10.3</td>
+      <td>axon-test-4.11.0</td>
       <td>org.axonframework.test.saga</td>
-      <td>492</td>
-      <td>168</td>
+      <td>495</td>
+      <td>169</td>
       <td>29</td>
       <td>&lt;init&gt;</td>
     </tr>
     <tr>
       <th>22</th>
-      <td>axon-modelling-4.10.3</td>
+      <td>axon-modelling-4.11.0</td>
       <td>org.axonframework.modelling.saga</td>
       <td>490</td>
       <td>194</td>
@@ -1303,7 +1303,7 @@ The following table shows the top 30 packages with the highest effective lines o
     </tr>
     <tr>
       <th>23</th>
-      <td>axon-messaging-4.10.3</td>
+      <td>axon-messaging-4.11.0</td>
       <td>org.axonframework.commandhandling.gateway</td>
       <td>488</td>
       <td>174</td>
@@ -1312,7 +1312,7 @@ The following table shows the top 30 packages with the highest effective lines o
     </tr>
     <tr>
       <th>24</th>
-      <td>axon-messaging-4.10.3</td>
+      <td>axon-messaging-4.11.0</td>
       <td>org.axonframework.commandhandling.distributed</td>
       <td>477</td>
       <td>175</td>
@@ -1321,7 +1321,7 @@ The following table shows the top 30 packages with the highest effective lines o
     </tr>
     <tr>
       <th>25</th>
-      <td>axon-messaging-4.10.3</td>
+      <td>axon-messaging-4.11.0</td>
       <td>org.axonframework.eventhandling.tokenstore.jdbc</td>
       <td>430</td>
       <td>130</td>
@@ -1330,7 +1330,7 @@ The following table shows the top 30 packages with the highest effective lines o
     </tr>
     <tr>
       <th>26</th>
-      <td>axon-messaging-4.10.3</td>
+      <td>axon-messaging-4.11.0</td>
       <td>org.axonframework.eventhandling.deadletter.leg...</td>
       <td>401</td>
       <td>97</td>
@@ -1339,7 +1339,7 @@ The following table shows the top 30 packages with the highest effective lines o
     </tr>
     <tr>
       <th>27</th>
-      <td>axon-messaging-4.10.3</td>
+      <td>axon-messaging-4.11.0</td>
       <td>org.axonframework.commandhandling</td>
       <td>377</td>
       <td>169</td>
@@ -1348,7 +1348,7 @@ The following table shows the top 30 packages with the highest effective lines o
     </tr>
     <tr>
       <th>28</th>
-      <td>axon-modelling-4.10.3</td>
+      <td>axon-modelling-4.11.0</td>
       <td>org.axonframework.modelling.saga.repository.jdbc</td>
       <td>374</td>
       <td>84</td>
@@ -1357,7 +1357,7 @@ The following table shows the top 30 packages with the highest effective lines o
     </tr>
     <tr>
       <th>29</th>
-      <td>axon-messaging-4.10.3</td>
+      <td>axon-messaging-4.11.0</td>
       <td>org.axonframework.messaging.unitofwork</td>
       <td>363</td>
       <td>129</td>
@@ -1395,17 +1395,17 @@ The following table shows the top 30 methods with the highest effective lines of
     <tr>
       <th>0</th>
       <td>2</td>
-      <td>axon-messaging-4.10.3</td>
+      <td>axon-messaging-4.11.0</td>
       <td>org.axonframework.eventhandling.pooled</td>
       <td>Coordinator$CoordinationTask</td>
       <td>run</td>
-      <td>77</td>
-      <td>1041</td>
+      <td>81</td>
+      <td>1082</td>
     </tr>
     <tr>
       <th>1</th>
       <td>0</td>
-      <td>axon-messaging-4.10.3</td>
+      <td>axon-messaging-4.11.0</td>
       <td>org.axonframework.eventhandling</td>
       <td>TrackingEventProcessor</td>
       <td>processBatch</td>
@@ -1414,18 +1414,8 @@ The following table shows the top 30 methods with the highest effective lines of
     </tr>
     <tr>
       <th>2</th>
-      <td>23</td>
-      <td>axon-messaging-4.10.3</td>
-      <td>org.axonframework.commandhandling.gateway</td>
-      <td>CommandGatewayFactory</td>
-      <td>createGateway</td>
-      <td>50</td>
-      <td>488</td>
-    </tr>
-    <tr>
-      <th>3</th>
       <td>1</td>
-      <td>axon-configuration-4.10.3</td>
+      <td>axon-configuration-4.11.0</td>
       <td>org.axonframework.config</td>
       <td>DefaultConfigurer</td>
       <td>&lt;init&gt;</td>
@@ -1433,9 +1423,29 @@ The following table shows the top 30 methods with the highest effective lines of
       <td>1587</td>
     </tr>
     <tr>
+      <th>3</th>
+      <td>23</td>
+      <td>axon-messaging-4.11.0</td>
+      <td>org.axonframework.commandhandling.gateway</td>
+      <td>CommandGatewayFactory</td>
+      <td>createGateway</td>
+      <td>50</td>
+      <td>488</td>
+    </tr>
+    <tr>
       <th>4</th>
+      <td>12</td>
+      <td>axon-spring-boot-autoconfigure-4.11.0</td>
+      <td>org.axonframework.springboot.autoconfig</td>
+      <td>AxonAutoConfiguration</td>
+      <td>buildSerializer</td>
+      <td>48</td>
+      <td>669</td>
+    </tr>
+    <tr>
+      <th>5</th>
       <td>3</td>
-      <td>axon-test-4.10.3</td>
+      <td>axon-test-4.11.0</td>
       <td>org.axonframework.test.aggregate</td>
       <td>Reporter</td>
       <td>appendEventOverview</td>
@@ -1443,9 +1453,9 @@ The following table shows the top 30 methods with the highest effective lines of
       <td>956</td>
     </tr>
     <tr>
-      <th>5</th>
-      <td>42</td>
-      <td>axon-messaging-4.10.3</td>
+      <th>6</th>
+      <td>43</td>
+      <td>axon-messaging-4.11.0</td>
       <td>org.axonframework.deadline.quartz</td>
       <td>DeadlineJob</td>
       <td>execute</td>
@@ -1453,19 +1463,19 @@ The following table shows the top 30 methods with the highest effective lines of
       <td>245</td>
     </tr>
     <tr>
-      <th>6</th>
+      <th>7</th>
       <td>9</td>
-      <td>axon-server-connector-4.10.3</td>
+      <td>axon-server-connector-4.11.0</td>
       <td>org.axonframework.axonserver.connector</td>
       <td>AxonServerConnectionManager$Builder</td>
       <td>build</td>
-      <td>41</td>
-      <td>729</td>
+      <td>42</td>
+      <td>742</td>
     </tr>
     <tr>
-      <th>7</th>
+      <th>8</th>
       <td>28</td>
-      <td>axon-modelling-4.10.3</td>
+      <td>axon-modelling-4.11.0</td>
       <td>org.axonframework.modelling.saga.repository.jdbc</td>
       <td>JdbcSagaStore</td>
       <td>updateSaga</td>
@@ -1473,9 +1483,9 @@ The following table shows the top 30 methods with the highest effective lines of
       <td>374</td>
     </tr>
     <tr>
-      <th>8</th>
+      <th>9</th>
       <td>4</td>
-      <td>axon-messaging-4.10.3</td>
+      <td>axon-messaging-4.11.0</td>
       <td>org.axonframework.queryhandling</td>
       <td>SimpleQueryBus</td>
       <td>doQuery</td>
@@ -1483,29 +1493,9 @@ The following table shows the top 30 methods with the highest effective lines of
       <td>953</td>
     </tr>
     <tr>
-      <th>9</th>
-      <td>5</td>
-      <td>axon-server-connector-4.10.3</td>
-      <td>org.axonframework.axonserver.connector.event.axon</td>
-      <td>PersistentStreamConnection$SegmentConnection$P...</td>
-      <td>readMessages</td>
-      <td>35</td>
-      <td>872</td>
-    </tr>
-    <tr>
       <th>10</th>
-      <td>17</td>
-      <td>axon-spring-boot-autoconfigure-4.10.3</td>
-      <td>org.axonframework.springboot.autoconfig</td>
-      <td>AxonAutoConfiguration</td>
-      <td>buildSerializer</td>
-      <td>34</td>
-      <td>567</td>
-    </tr>
-    <tr>
-      <th>11</th>
-      <td>34</td>
-      <td>axon-messaging-4.10.3</td>
+      <td>36</td>
+      <td>axon-messaging-4.11.0</td>
       <td>org.axonframework.messaging.deadletter</td>
       <td>InMemorySequencedDeadLetterQueue</td>
       <td>process</td>
@@ -1513,9 +1503,19 @@ The following table shows the top 30 methods with the highest effective lines of
       <td>300</td>
     </tr>
     <tr>
+      <th>11</th>
+      <td>29</td>
+      <td>axon-messaging-4.11.0</td>
+      <td>org.axonframework.messaging.unitofwork</td>
+      <td>BatchingUnitOfWork</td>
+      <td>executeWithResult</td>
+      <td>32</td>
+      <td>363</td>
+    </tr>
+    <tr>
       <th>12</th>
-      <td>14</td>
-      <td>axon-disruptor-4.10.3</td>
+      <td>15</td>
+      <td>axon-disruptor-4.11.0</td>
       <td>org.axonframework.disruptor.commandhandling</td>
       <td>DisruptorCommandBus</td>
       <td>&lt;init&gt;</td>
@@ -1524,18 +1524,8 @@ The following table shows the top 30 methods with the highest effective lines of
     </tr>
     <tr>
       <th>13</th>
-      <td>29</td>
-      <td>axon-messaging-4.10.3</td>
-      <td>org.axonframework.messaging.unitofwork</td>
-      <td>BatchingUnitOfWork</td>
-      <td>executeWithResult</td>
-      <td>32</td>
-      <td>363</td>
-    </tr>
-    <tr>
-      <th>14</th>
       <td>6</td>
-      <td>axon-messaging-4.10.3</td>
+      <td>axon-messaging-4.11.0</td>
       <td>org.axonframework.eventhandling.deadletter.jdbc</td>
       <td>DefaultDeadLetterJdbcConverter</td>
       <td>convertToLetter</td>
@@ -1543,19 +1533,29 @@ The following table shows the top 30 methods with the highest effective lines of
       <td>848</td>
     </tr>
     <tr>
-      <th>15</th>
+      <th>14</th>
       <td>21</td>
-      <td>axon-test-4.10.3</td>
+      <td>axon-test-4.11.0</td>
       <td>org.axonframework.test.saga</td>
       <td>SagaTestFixture</td>
       <td>&lt;init&gt;</td>
       <td>29</td>
-      <td>492</td>
+      <td>495</td>
+    </tr>
+    <tr>
+      <th>15</th>
+      <td>5</td>
+      <td>axon-server-connector-4.11.0</td>
+      <td>org.axonframework.axonserver.connector.event.axon</td>
+      <td>PersistentStreamConnection$SegmentConnection$P...</td>
+      <td>readMessages</td>
+      <td>28</td>
+      <td>885</td>
     </tr>
     <tr>
       <th>16</th>
       <td>19</td>
-      <td>axon-messaging-4.10.3</td>
+      <td>axon-messaging-4.11.0</td>
       <td>org.axonframework.eventhandling.deadletter.jpa</td>
       <td>DeadLetterEventEntry</td>
       <td>equals</td>
@@ -1565,27 +1565,17 @@ The following table shows the top 30 methods with the highest effective lines of
     <tr>
       <th>17</th>
       <td>8</td>
-      <td>axon-server-connector-4.10.3</td>
+      <td>axon-server-connector-4.11.0</td>
       <td>org.axonframework.axonserver.connector.query</td>
       <td>AxonServerQueryBus</td>
       <td>query</td>
       <td>27</td>
-      <td>739</td>
+      <td>749</td>
     </tr>
     <tr>
       <th>18</th>
-      <td>12</td>
-      <td>axon-modelling-4.10.3</td>
-      <td>org.axonframework.modelling.command.inspection</td>
-      <td>AnnotatedAggregateMetaModelFactory$AnnotatedAg...</td>
-      <td>inspectFieldsAndMethods</td>
-      <td>26</td>
-      <td>637</td>
-    </tr>
-    <tr>
-      <th>19</th>
       <td>25</td>
-      <td>axon-messaging-4.10.3</td>
+      <td>axon-messaging-4.11.0</td>
       <td>org.axonframework.eventhandling.tokenstore.jdbc</td>
       <td>JdbcTokenStore</td>
       <td>updateToken</td>
@@ -1593,19 +1583,19 @@ The following table shows the top 30 methods with the highest effective lines of
       <td>430</td>
     </tr>
     <tr>
-      <th>20</th>
-      <td>15</td>
-      <td>axon-eventsourcing-4.10.3</td>
-      <td>org.axonframework.eventsourcing.eventstore.leg...</td>
-      <td>JpaEventStorageEngine</td>
-      <td>fetchTrackedEvents</td>
-      <td>25</td>
-      <td>573</td>
+      <th>19</th>
+      <td>13</td>
+      <td>axon-modelling-4.11.0</td>
+      <td>org.axonframework.modelling.command.inspection</td>
+      <td>AnnotatedAggregateMetaModelFactory$AnnotatedAg...</td>
+      <td>inspectFieldsAndMethods</td>
+      <td>26</td>
+      <td>637</td>
     </tr>
     <tr>
-      <th>21</th>
-      <td>41</td>
-      <td>axon-messaging-4.10.3</td>
+      <th>20</th>
+      <td>42</td>
+      <td>axon-messaging-4.11.0</td>
       <td>org.axonframework.deadline</td>
       <td>SimpleDeadlineManager$DeadlineTask</td>
       <td>run</td>
@@ -1613,9 +1603,19 @@ The following table shows the top 30 methods with the highest effective lines of
       <td>265</td>
     </tr>
     <tr>
-      <th>22</th>
+      <th>21</th>
       <td>16</td>
-      <td>axon-eventsourcing-4.10.3</td>
+      <td>axon-eventsourcing-4.11.0</td>
+      <td>org.axonframework.eventsourcing.eventstore.leg...</td>
+      <td>JpaEventStorageEngine</td>
+      <td>fetchTrackedEvents</td>
+      <td>25</td>
+      <td>573</td>
+    </tr>
+    <tr>
+      <th>22</th>
+      <td>17</td>
+      <td>axon-eventsourcing-4.11.0</td>
       <td>org.axonframework.eventsourcing.eventstore.jdbc</td>
       <td>JdbcEventStorageEngine</td>
       <td>&lt;init&gt;</td>
@@ -1624,28 +1624,8 @@ The following table shows the top 30 methods with the highest effective lines of
     </tr>
     <tr>
       <th>23</th>
-      <td>35</td>
-      <td>axon-server-connector-4.10.3</td>
-      <td>org.axonframework.axonserver.connector.command</td>
-      <td>AxonServerCommandBus</td>
-      <td>doDispatch</td>
-      <td>24</td>
-      <td>300</td>
-    </tr>
-    <tr>
-      <th>24</th>
-      <td>65</td>
-      <td>axon-server-connector-4.10.3</td>
-      <td>org.axonframework.axonserver.connector.event.util</td>
-      <td>EventCipher</td>
-      <td>&lt;init&gt;</td>
-      <td>24</td>
-      <td>103</td>
-    </tr>
-    <tr>
-      <th>25</th>
       <td>20</td>
-      <td>axon-messaging-4.10.3</td>
+      <td>axon-messaging-4.11.0</td>
       <td>org.axonframework.common</td>
       <td>TypeReflectionUtils</td>
       <td>getExactDirectSuperTypesOfParameterizedTypeOrC...</td>
@@ -1653,29 +1633,39 @@ The following table shows the top 30 methods with the highest effective lines of
       <td>498</td>
     </tr>
     <tr>
-      <th>26</th>
-      <td>11</td>
-      <td>axon-messaging-4.10.3</td>
-      <td>org.axonframework.messaging.annotation</td>
-      <td>AnnotatedMessageHandlingMember</td>
-      <td>&lt;init&gt;</td>
-      <td>23</td>
-      <td>670</td>
+      <th>24</th>
+      <td>37</td>
+      <td>axon-server-connector-4.11.0</td>
+      <td>org.axonframework.axonserver.connector.command</td>
+      <td>AxonServerCommandBus</td>
+      <td>doDispatch</td>
+      <td>24</td>
+      <td>300</td>
     </tr>
     <tr>
-      <th>27</th>
+      <th>25</th>
+      <td>67</td>
+      <td>axon-server-connector-4.11.0</td>
+      <td>org.axonframework.axonserver.connector.event.util</td>
+      <td>EventCipher</td>
+      <td>&lt;init&gt;</td>
+      <td>24</td>
+      <td>103</td>
+    </tr>
+    <tr>
+      <th>26</th>
       <td>56</td>
-      <td>axon-messaging-4.10.3</td>
+      <td>axon-messaging-4.11.0</td>
       <td>org.axonframework.deadline.jobrunr</td>
       <td>JobRunrDeadlineManager</td>
       <td>execute</td>
       <td>23</td>
-      <td>165</td>
+      <td>171</td>
     </tr>
     <tr>
-      <th>28</th>
-      <td>33</td>
-      <td>axon-eventsourcing-4.10.3</td>
+      <th>27</th>
+      <td>35</td>
+      <td>axon-eventsourcing-4.11.0</td>
       <td>org.axonframework.eventsourcing.eventstore.jpa</td>
       <td>JpaEventStorageEngine</td>
       <td>fetchTrackedEvents</td>
@@ -1683,9 +1673,19 @@ The following table shows the top 30 methods with the highest effective lines of
       <td>318</td>
     </tr>
     <tr>
+      <th>28</th>
+      <td>78</td>
+      <td>axon-spring-boot-autoconfigure-4.11.0</td>
+      <td>org.axonframework.springboot.util</td>
+      <td>AbstractQualifiedBeanCondition</td>
+      <td>getMatchOutcome</td>
+      <td>23</td>
+      <td>72</td>
+    </tr>
+    <tr>
       <th>29</th>
       <td>24</td>
-      <td>axon-messaging-4.10.3</td>
+      <td>axon-messaging-4.11.0</td>
       <td>org.axonframework.commandhandling.distributed</td>
       <td>DistributedCommandBus</td>
       <td>dispatch</td>
@@ -1717,15 +1717,15 @@ Have a look below to find out which packages and methods have the highest effect
   <thead>
     <tr style="text-align: right;">
       <th>artifactName</th>
-      <th>axon-messaging-4.10.3.jar</th>
-      <th>axon-server-connector-4.10.3.jar</th>
-      <th>axon-eventsourcing-4.10.3.jar</th>
-      <th>axon-modelling-4.10.3.jar</th>
-      <th>axon-test-4.10.3.jar</th>
-      <th>axon-configuration-4.10.3.jar</th>
-      <th>axon-spring-boot-autoconfigure-4.10.3.jar</th>
-      <th>axon-disruptor-4.10.3.jar</th>
-      <th>axon-tracing-opentelemetry-4.10.3.jar</th>
+      <th>axon-messaging-4.11.0.jar</th>
+      <th>axon-server-connector-4.11.0.jar</th>
+      <th>axon-eventsourcing-4.11.0.jar</th>
+      <th>axon-modelling-4.11.0.jar</th>
+      <th>axon-test-4.11.0.jar</th>
+      <th>axon-configuration-4.11.0.jar</th>
+      <th>axon-spring-boot-autoconfigure-4.11.0.jar</th>
+      <th>axon-disruptor-4.11.0.jar</th>
+      <th>axon-tracing-opentelemetry-4.11.0.jar</th>
     </tr>
     <tr>
       <th>cyclomaticComplexity</th>
@@ -1743,20 +1743,20 @@ Have a look below to find out which packages and methods have the highest effect
   <tbody>
     <tr>
       <th>1</th>
-      <td>4431</td>
-      <td>967</td>
+      <td>4541</td>
+      <td>988</td>
       <td>943</td>
       <td>899</td>
-      <td>520</td>
+      <td>521</td>
       <td>542</td>
-      <td>386</td>
+      <td>456</td>
       <td>146</td>
       <td>35</td>
     </tr>
     <tr>
       <th>2</th>
-      <td>462</td>
-      <td>87</td>
+      <td>473</td>
+      <td>89</td>
       <td>94</td>
       <td>75</td>
       <td>61</td>
@@ -1767,20 +1767,20 @@ Have a look below to find out which packages and methods have the highest effect
     </tr>
     <tr>
       <th>3</th>
-      <td>284</td>
-      <td>42</td>
+      <td>295</td>
+      <td>43</td>
       <td>53</td>
       <td>40</td>
       <td>59</td>
       <td>17</td>
-      <td>4</td>
+      <td>6</td>
       <td>5</td>
       <td>2</td>
     </tr>
     <tr>
       <th>4</th>
-      <td>141</td>
-      <td>24</td>
+      <td>150</td>
+      <td>26</td>
       <td>24</td>
       <td>29</td>
       <td>23</td>
@@ -1791,7 +1791,7 @@ Have a look below to find out which packages and methods have the highest effect
     </tr>
     <tr>
       <th>5</th>
-      <td>74</td>
+      <td>77</td>
       <td>7</td>
       <td>9</td>
       <td>24</td>
@@ -1804,30 +1804,30 @@ Have a look below to find out which packages and methods have the highest effect
     <tr>
       <th>6</th>
       <td>46</td>
-      <td>3</td>
+      <td>4</td>
       <td>4</td>
       <td>10</td>
       <td>9</td>
       <td>0</td>
-      <td>2</td>
+      <td>1</td>
       <td>2</td>
       <td>0</td>
     </tr>
     <tr>
       <th>7</th>
-      <td>20</td>
+      <td>21</td>
       <td>6</td>
       <td>7</td>
       <td>2</td>
       <td>4</td>
       <td>2</td>
-      <td>0</td>
+      <td>1</td>
       <td>2</td>
       <td>0</td>
     </tr>
     <tr>
       <th>8</th>
-      <td>12</td>
+      <td>13</td>
       <td>6</td>
       <td>7</td>
       <td>1</td>
@@ -1839,7 +1839,7 @@ Have a look below to find out which packages and methods have the highest effect
     </tr>
     <tr>
       <th>9</th>
-      <td>7</td>
+      <td>8</td>
       <td>3</td>
       <td>0</td>
       <td>2</td>
@@ -1851,13 +1851,13 @@ Have a look below to find out which packages and methods have the highest effect
     </tr>
     <tr>
       <th>10</th>
-      <td>4</td>
+      <td>5</td>
       <td>2</td>
       <td>0</td>
       <td>0</td>
       <td>1</td>
       <td>0</td>
-      <td>1</td>
+      <td>0</td>
       <td>0</td>
       <td>0</td>
     </tr>
@@ -1905,14 +1905,14 @@ Have a look below to find out which packages and methods have the highest effect
       <td>0</td>
       <td>0</td>
       <td>0</td>
-      <td>0</td>
+      <td>1</td>
       <td>0</td>
       <td>0</td>
     </tr>
     <tr>
       <th>15</th>
       <td>1</td>
-      <td>0</td>
+      <td>1</td>
       <td>0</td>
       <td>0</td>
       <td>0</td>
@@ -1924,7 +1924,7 @@ Have a look below to find out which packages and methods have the highest effect
     <tr>
       <th>16</th>
       <td>0</td>
-      <td>1</td>
+      <td>0</td>
       <td>0</td>
       <td>1</td>
       <td>0</td>
@@ -2000,15 +2000,15 @@ Have a look below to find out which packages and methods have the highest effect
   <thead>
     <tr style="text-align: right;">
       <th>artifactName</th>
-      <th>axon-messaging-4.10.3.jar</th>
-      <th>axon-server-connector-4.10.3.jar</th>
-      <th>axon-eventsourcing-4.10.3.jar</th>
-      <th>axon-modelling-4.10.3.jar</th>
-      <th>axon-test-4.10.3.jar</th>
-      <th>axon-configuration-4.10.3.jar</th>
-      <th>axon-spring-boot-autoconfigure-4.10.3.jar</th>
-      <th>axon-disruptor-4.10.3.jar</th>
-      <th>axon-tracing-opentelemetry-4.10.3.jar</th>
+      <th>axon-messaging-4.11.0.jar</th>
+      <th>axon-server-connector-4.11.0.jar</th>
+      <th>axon-eventsourcing-4.11.0.jar</th>
+      <th>axon-modelling-4.11.0.jar</th>
+      <th>axon-test-4.11.0.jar</th>
+      <th>axon-configuration-4.11.0.jar</th>
+      <th>axon-spring-boot-autoconfigure-4.11.0.jar</th>
+      <th>axon-disruptor-4.11.0.jar</th>
+      <th>axon-tracing-opentelemetry-4.11.0.jar</th>
     </tr>
     <tr>
       <th>cyclomaticComplexity</th>
@@ -2026,95 +2026,95 @@ Have a look below to find out which packages and methods have the highest effect
   <tbody>
     <tr>
       <th>1</th>
-      <td>80.534351</td>
-      <td>84.160139</td>
+      <td>80.371681</td>
+      <td>84.013605</td>
       <td>82.574431</td>
       <td>83.010157</td>
-      <td>74.391989</td>
+      <td>74.428571</td>
       <td>89.438944</td>
-      <td>94.840295</td>
+      <td>95.198330</td>
       <td>79.347826</td>
       <td>76.086957</td>
     </tr>
     <tr>
       <th>2</th>
-      <td>8.396947</td>
-      <td>7.571802</td>
+      <td>8.371681</td>
+      <td>7.568027</td>
       <td>8.231173</td>
       <td>6.925208</td>
-      <td>8.726753</td>
+      <td>8.714286</td>
       <td>6.105611</td>
-      <td>2.457002</td>
+      <td>2.087683</td>
       <td>10.869565</td>
       <td>17.391304</td>
     </tr>
     <tr>
       <th>3</th>
-      <td>5.161759</td>
-      <td>3.655352</td>
+      <td>5.221239</td>
+      <td>3.656463</td>
       <td>4.640981</td>
       <td>3.693444</td>
-      <td>8.440629</td>
+      <td>8.428571</td>
       <td>2.805281</td>
-      <td>0.982801</td>
+      <td>1.252610</td>
       <td>2.717391</td>
       <td>4.347826</td>
     </tr>
     <tr>
       <th>4</th>
-      <td>2.562704</td>
-      <td>2.088773</td>
+      <td>2.654867</td>
+      <td>2.210884</td>
       <td>2.101576</td>
       <td>2.677747</td>
-      <td>3.290415</td>
+      <td>3.285714</td>
       <td>0.825083</td>
-      <td>0.737101</td>
+      <td>0.626305</td>
       <td>2.173913</td>
       <td>2.173913</td>
     </tr>
     <tr>
       <th>5</th>
-      <td>1.344965</td>
-      <td>0.609225</td>
+      <td>1.362832</td>
+      <td>0.595238</td>
       <td>0.788091</td>
       <td>2.216066</td>
-      <td>1.859800</td>
+      <td>1.857143</td>
       <td>0.495050</td>
-      <td>0.245700</td>
+      <td>0.208768</td>
       <td>1.630435</td>
       <td>0.000000</td>
     </tr>
     <tr>
       <th>6</th>
-      <td>0.836060</td>
-      <td>0.261097</td>
+      <td>0.814159</td>
+      <td>0.340136</td>
       <td>0.350263</td>
       <td>0.923361</td>
-      <td>1.287554</td>
+      <td>1.285714</td>
       <td>0.000000</td>
-      <td>0.491400</td>
+      <td>0.208768</td>
       <td>1.086957</td>
       <td>0.000000</td>
     </tr>
     <tr>
       <th>7</th>
-      <td>0.363504</td>
-      <td>0.522193</td>
+      <td>0.371681</td>
+      <td>0.510204</td>
       <td>0.612960</td>
       <td>0.184672</td>
-      <td>0.572246</td>
+      <td>0.571429</td>
       <td>0.330033</td>
-      <td>0.000000</td>
+      <td>0.208768</td>
       <td>1.086957</td>
       <td>0.000000</td>
     </tr>
     <tr>
       <th>8</th>
-      <td>0.218103</td>
-      <td>0.522193</td>
+      <td>0.230088</td>
+      <td>0.510204</td>
       <td>0.612960</td>
       <td>0.092336</td>
-      <td>0.286123</td>
+      <td>0.285714</td>
       <td>0.000000</td>
       <td>0.000000</td>
       <td>1.086957</td>
@@ -2122,11 +2122,11 @@ Have a look below to find out which packages and methods have the highest effect
     </tr>
     <tr>
       <th>9</th>
-      <td>0.127226</td>
-      <td>0.261097</td>
+      <td>0.141593</td>
+      <td>0.255102</td>
       <td>0.000000</td>
       <td>0.184672</td>
-      <td>0.286123</td>
+      <td>0.285714</td>
       <td>0.000000</td>
       <td>0.000000</td>
       <td>0.000000</td>
@@ -2134,23 +2134,23 @@ Have a look below to find out which packages and methods have the highest effect
     </tr>
     <tr>
       <th>10</th>
-      <td>0.072701</td>
-      <td>0.174064</td>
+      <td>0.088496</td>
+      <td>0.170068</td>
       <td>0.000000</td>
       <td>0.000000</td>
-      <td>0.143062</td>
+      <td>0.142857</td>
       <td>0.000000</td>
-      <td>0.245700</td>
+      <td>0.000000</td>
       <td>0.000000</td>
       <td>0.000000</td>
     </tr>
     <tr>
       <th>11</th>
-      <td>0.163577</td>
+      <td>0.159292</td>
       <td>0.000000</td>
       <td>0.000000</td>
       <td>0.000000</td>
-      <td>0.286123</td>
+      <td>0.285714</td>
       <td>0.000000</td>
       <td>0.000000</td>
       <td>0.000000</td>
@@ -2158,11 +2158,11 @@ Have a look below to find out which packages and methods have the highest effect
     </tr>
     <tr>
       <th>12</th>
-      <td>0.072701</td>
-      <td>0.087032</td>
+      <td>0.070796</td>
+      <td>0.085034</td>
       <td>0.000000</td>
       <td>0.000000</td>
-      <td>0.286123</td>
+      <td>0.285714</td>
       <td>0.000000</td>
       <td>0.000000</td>
       <td>0.000000</td>
@@ -2170,11 +2170,11 @@ Have a look below to find out which packages and methods have the highest effect
     </tr>
     <tr>
       <th>13</th>
-      <td>0.036350</td>
+      <td>0.035398</td>
       <td>0.000000</td>
       <td>0.087566</td>
       <td>0.000000</td>
-      <td>0.143062</td>
+      <td>0.142857</td>
       <td>0.000000</td>
       <td>0.000000</td>
       <td>0.000000</td>
@@ -2182,20 +2182,20 @@ Have a look below to find out which packages and methods have the highest effect
     </tr>
     <tr>
       <th>14</th>
-      <td>0.018175</td>
+      <td>0.017699</td>
       <td>0.000000</td>
       <td>0.000000</td>
       <td>0.000000</td>
       <td>0.000000</td>
       <td>0.000000</td>
-      <td>0.000000</td>
+      <td>0.208768</td>
       <td>0.000000</td>
       <td>0.000000</td>
     </tr>
     <tr>
       <th>15</th>
-      <td>0.018175</td>
-      <td>0.000000</td>
+      <td>0.017699</td>
+      <td>0.085034</td>
       <td>0.000000</td>
       <td>0.000000</td>
       <td>0.000000</td>
@@ -2207,7 +2207,7 @@ Have a look below to find out which packages and methods have the highest effect
     <tr>
       <th>16</th>
       <td>0.000000</td>
-      <td>0.087032</td>
+      <td>0.000000</td>
       <td>0.000000</td>
       <td>0.092336</td>
       <td>0.000000</td>
@@ -2218,7 +2218,7 @@ Have a look below to find out which packages and methods have the highest effect
     </tr>
     <tr>
       <th>17</th>
-      <td>0.018175</td>
+      <td>0.017699</td>
       <td>0.000000</td>
       <td>0.000000</td>
       <td>0.000000</td>
@@ -2230,7 +2230,7 @@ Have a look below to find out which packages and methods have the highest effect
     </tr>
     <tr>
       <th>21</th>
-      <td>0.018175</td>
+      <td>0.017699</td>
       <td>0.000000</td>
       <td>0.000000</td>
       <td>0.000000</td>
@@ -2242,7 +2242,7 @@ Have a look below to find out which packages and methods have the highest effect
     </tr>
     <tr>
       <th>23</th>
-      <td>0.018175</td>
+      <td>0.017699</td>
       <td>0.000000</td>
       <td>0.000000</td>
       <td>0.000000</td>
@@ -2254,7 +2254,7 @@ Have a look below to find out which packages and methods have the highest effect
     </tr>
     <tr>
       <th>40</th>
-      <td>0.018175</td>
+      <td>0.017699</td>
       <td>0.000000</td>
       <td>0.000000</td>
       <td>0.000000</td>
@@ -2305,7 +2305,7 @@ The following table shows the top 30 packages with the highest cyclomatic comple
   <tbody>
     <tr>
       <th>0</th>
-      <td>axon-messaging-4.10.3</td>
+      <td>axon-messaging-4.11.0</td>
       <td>org.axonframework.eventhandling</td>
       <td>1276</td>
       <td>838</td>
@@ -2314,16 +2314,16 @@ The following table shows the top 30 packages with the highest cyclomatic comple
     </tr>
     <tr>
       <th>1</th>
-      <td>axon-configuration-4.10.3</td>
+      <td>axon-configuration-4.11.0</td>
       <td>org.axonframework.config</td>
       <td>716</td>
       <td>606</td>
       <td>7</td>
-      <td>invokeLifecycleHandlers</td>
+      <td>getFactoryForType</td>
     </tr>
     <tr>
       <th>4</th>
-      <td>axon-messaging-4.10.3</td>
+      <td>axon-messaging-4.11.0</td>
       <td>org.axonframework.queryhandling</td>
       <td>484</td>
       <td>388</td>
@@ -2332,16 +2332,16 @@ The following table shows the top 30 packages with the highest cyclomatic comple
     </tr>
     <tr>
       <th>2</th>
-      <td>axon-messaging-4.10.3</td>
+      <td>axon-messaging-4.11.0</td>
       <td>org.axonframework.eventhandling.pooled</td>
-      <td>460</td>
-      <td>341</td>
+      <td>472</td>
+      <td>350</td>
       <td>23</td>
       <td>run</td>
     </tr>
     <tr>
       <th>7</th>
-      <td>axon-modelling-4.10.3</td>
+      <td>axon-modelling-4.11.0</td>
       <td>org.axonframework.modelling.command</td>
       <td>455</td>
       <td>335</td>
@@ -2350,16 +2350,16 @@ The following table shows the top 30 packages with the highest cyclomatic comple
     </tr>
     <tr>
       <th>5</th>
-      <td>axon-server-connector-4.10.3</td>
+      <td>axon-server-connector-4.11.0</td>
       <td>org.axonframework.axonserver.connector.event.axon</td>
-      <td>445</td>
-      <td>279</td>
-      <td>16</td>
+      <td>453</td>
+      <td>283</td>
+      <td>15</td>
       <td>readMessages</td>
     </tr>
     <tr>
       <th>3</th>
-      <td>axon-test-4.10.3</td>
+      <td>axon-test-4.11.0</td>
       <td>org.axonframework.test.aggregate</td>
       <td>438</td>
       <td>251</td>
@@ -2368,7 +2368,7 @@ The following table shows the top 30 packages with the highest cyclomatic comple
     </tr>
     <tr>
       <th>10</th>
-      <td>axon-eventsourcing-4.10.3</td>
+      <td>axon-eventsourcing-4.11.0</td>
       <td>org.axonframework.eventsourcing.eventstore</td>
       <td>397</td>
       <td>264</td>
@@ -2377,7 +2377,7 @@ The following table shows the top 30 packages with the highest cyclomatic comple
     </tr>
     <tr>
       <th>11</th>
-      <td>axon-messaging-4.10.3</td>
+      <td>axon-messaging-4.11.0</td>
       <td>org.axonframework.messaging.annotation</td>
       <td>386</td>
       <td>239</td>
@@ -2386,16 +2386,16 @@ The following table shows the top 30 packages with the highest cyclomatic comple
     </tr>
     <tr>
       <th>9</th>
-      <td>axon-server-connector-4.10.3</td>
+      <td>axon-server-connector-4.11.0</td>
       <td>org.axonframework.axonserver.connector</td>
-      <td>355</td>
-      <td>299</td>
+      <td>361</td>
+      <td>304</td>
       <td>12</td>
       <td>build</td>
     </tr>
     <tr>
-      <th>12</th>
-      <td>axon-modelling-4.10.3</td>
+      <th>13</th>
+      <td>axon-modelling-4.11.0</td>
       <td>org.axonframework.modelling.command.inspection</td>
       <td>339</td>
       <td>218</td>
@@ -2403,8 +2403,8 @@ The following table shows the top 30 packages with the highest cyclomatic comple
       <td>prepareHandlers</td>
     </tr>
     <tr>
-      <th>13</th>
-      <td>axon-eventsourcing-4.10.3</td>
+      <th>14</th>
+      <td>axon-eventsourcing-4.11.0</td>
       <td>org.axonframework.eventsourcing</td>
       <td>325</td>
       <td>251</td>
@@ -2413,7 +2413,7 @@ The following table shows the top 30 packages with the highest cyclomatic comple
     </tr>
     <tr>
       <th>6</th>
-      <td>axon-messaging-4.10.3</td>
+      <td>axon-messaging-4.11.0</td>
       <td>org.axonframework.eventhandling.deadletter.jdbc</td>
       <td>304</td>
       <td>249</td>
@@ -2422,7 +2422,7 @@ The following table shows the top 30 packages with the highest cyclomatic comple
     </tr>
     <tr>
       <th>20</th>
-      <td>axon-messaging-4.10.3</td>
+      <td>axon-messaging-4.11.0</td>
       <td>org.axonframework.common</td>
       <td>301</td>
       <td>144</td>
@@ -2430,35 +2430,44 @@ The following table shows the top 30 packages with the highest cyclomatic comple
       <td>getExactDirectSuperTypesOfParameterizedTypeOrC...</td>
     </tr>
     <tr>
-      <th>15</th>
-      <td>axon-eventsourcing-4.10.3</td>
-      <td>org.axonframework.eventsourcing.eventstore.leg...</td>
-      <td>292</td>
-      <td>187</td>
-      <td>8</td>
-      <td>loadKeyViolationCodes</td>
-    </tr>
-    <tr>
       <th>8</th>
-      <td>axon-server-connector-4.10.3</td>
+      <td>axon-server-connector-4.11.0</td>
       <td>org.axonframework.axonserver.connector.query</td>
-      <td>292</td>
-      <td>216</td>
+      <td>295</td>
+      <td>219</td>
       <td>9</td>
       <td>stream</td>
     </tr>
     <tr>
+      <th>16</th>
+      <td>axon-eventsourcing-4.11.0</td>
+      <td>org.axonframework.eventsourcing.eventstore.leg...</td>
+      <td>292</td>
+      <td>187</td>
+      <td>8</td>
+      <td>withGapsCleaned</td>
+    </tr>
+    <tr>
       <th>18</th>
-      <td>axon-messaging-4.10.3</td>
+      <td>axon-messaging-4.11.0</td>
       <td>org.axonframework.serialization</td>
-      <td>285</td>
-      <td>181</td>
+      <td>286</td>
+      <td>182</td>
       <td>7</td>
-      <td>equals</td>
+      <td>calculateRoute</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>axon-spring-boot-autoconfigure-4.11.0</td>
+      <td>org.axonframework.springboot.autoconfig</td>
+      <td>278</td>
+      <td>237</td>
+      <td>14</td>
+      <td>buildSerializer</td>
     </tr>
     <tr>
       <th>22</th>
-      <td>axon-modelling-4.10.3</td>
+      <td>axon-modelling-4.11.0</td>
       <td>org.axonframework.modelling.saga</td>
       <td>277</td>
       <td>194</td>
@@ -2466,17 +2475,17 @@ The following table shows the top 30 packages with the highest cyclomatic comple
       <td>instantiateAssociationResolver</td>
     </tr>
     <tr>
-      <th>14</th>
-      <td>axon-disruptor-4.10.3</td>
+      <th>15</th>
+      <td>axon-disruptor-4.11.0</td>
       <td>org.axonframework.disruptor.commandhandling</td>
       <td>274</td>
       <td>184</td>
       <td>8</td>
-      <td>onResult</td>
+      <td>doDispatch</td>
     </tr>
     <tr>
-      <th>16</th>
-      <td>axon-eventsourcing-4.10.3</td>
+      <th>17</th>
+      <td>axon-eventsourcing-4.11.0</td>
       <td>org.axonframework.eventsourcing.eventstore.jdbc</td>
       <td>273</td>
       <td>236</td>
@@ -2485,7 +2494,7 @@ The following table shows the top 30 packages with the highest cyclomatic comple
     </tr>
     <tr>
       <th>23</th>
-      <td>axon-messaging-4.10.3</td>
+      <td>axon-messaging-4.11.0</td>
       <td>org.axonframework.commandhandling.gateway</td>
       <td>249</td>
       <td>174</td>
@@ -2494,7 +2503,7 @@ The following table shows the top 30 packages with the highest cyclomatic comple
     </tr>
     <tr>
       <th>24</th>
-      <td>axon-messaging-4.10.3</td>
+      <td>axon-messaging-4.11.0</td>
       <td>org.axonframework.commandhandling.distributed</td>
       <td>243</td>
       <td>175</td>
@@ -2503,25 +2512,16 @@ The following table shows the top 30 packages with the highest cyclomatic comple
     </tr>
     <tr>
       <th>21</th>
-      <td>axon-test-4.10.3</td>
+      <td>axon-test-4.11.0</td>
       <td>org.axonframework.test.saga</td>
-      <td>235</td>
-      <td>168</td>
+      <td>236</td>
+      <td>169</td>
       <td>9</td>
       <td>assertDispatchedEqualTo</td>
     </tr>
     <tr>
-      <th>17</th>
-      <td>axon-spring-boot-autoconfigure-4.10.3</td>
-      <td>org.axonframework.springboot.autoconfig</td>
-      <td>224</td>
-      <td>192</td>
-      <td>10</td>
-      <td>buildSerializer</td>
-    </tr>
-    <tr>
       <th>19</th>
-      <td>axon-messaging-4.10.3</td>
+      <td>axon-messaging-4.11.0</td>
       <td>org.axonframework.eventhandling.deadletter.jpa</td>
       <td>212</td>
       <td>132</td>
@@ -2529,17 +2529,17 @@ The following table shows the top 30 packages with the highest cyclomatic comple
       <td>equals</td>
     </tr>
     <tr>
-      <th>31</th>
-      <td>axon-messaging-4.10.3</td>
+      <th>32</th>
+      <td>axon-messaging-4.11.0</td>
       <td>org.axonframework.messaging</td>
       <td>209</td>
       <td>156</td>
       <td>4</td>
-      <td>endScope</td>
+      <td>equals</td>
     </tr>
     <tr>
       <th>29</th>
-      <td>axon-messaging-4.10.3</td>
+      <td>axon-messaging-4.11.0</td>
       <td>org.axonframework.messaging.unitofwork</td>
       <td>206</td>
       <td>129</td>
@@ -2548,7 +2548,7 @@ The following table shows the top 30 packages with the highest cyclomatic comple
     </tr>
     <tr>
       <th>27</th>
-      <td>axon-messaging-4.10.3</td>
+      <td>axon-messaging-4.11.0</td>
       <td>org.axonframework.commandhandling</td>
       <td>201</td>
       <td>169</td>
@@ -2556,22 +2556,22 @@ The following table shows the top 30 packages with the highest cyclomatic comple
       <td>&lt;init&gt;</td>
     </tr>
     <tr>
-      <th>30</th>
-      <td>axon-test-4.10.3</td>
+      <th>33</th>
+      <td>axon-spring-boot-autoconfigure-4.11.0</td>
+      <td>org.axonframework.springboot</td>
+      <td>191</td>
+      <td>186</td>
+      <td>6</td>
+      <td>getThreadCount</td>
+    </tr>
+    <tr>
+      <th>31</th>
+      <td>axon-test-4.11.0</td>
       <td>org.axonframework.test.matchers</td>
       <td>191</td>
       <td>108</td>
       <td>8</td>
       <td>matchesList</td>
-    </tr>
-    <tr>
-      <th>38</th>
-      <td>axon-messaging-4.10.3</td>
-      <td>org.axonframework.common.caching</td>
-      <td>182</td>
-      <td>110</td>
-      <td>8</td>
-      <td>onEvent</td>
     </tr>
   </tbody>
 </table>
@@ -2602,8 +2602,8 @@ The following table shows the top 30 packages containing the methods with the hi
   <tbody>
     <tr>
       <th>0</th>
-      <td>61</td>
-      <td>axon-messaging-4.10.3</td>
+      <td>63</td>
+      <td>axon-messaging-4.11.0</td>
       <td>org.axonframework.eventhandling.scheduling.job...</td>
       <td>JobRunrEventScheduler</td>
       <td>$deserializeLambda$</td>
@@ -2612,7 +2612,7 @@ The following table shows the top 30 packages containing the methods with the hi
     <tr>
       <th>1</th>
       <td>2</td>
-      <td>axon-messaging-4.10.3</td>
+      <td>axon-messaging-4.11.0</td>
       <td>org.axonframework.eventhandling.pooled</td>
       <td>Coordinator$CoordinationTask</td>
       <td>run</td>
@@ -2621,7 +2621,7 @@ The following table shows the top 30 packages containing the methods with the hi
     <tr>
       <th>2</th>
       <td>0</td>
-      <td>axon-messaging-4.10.3</td>
+      <td>axon-messaging-4.11.0</td>
       <td>org.axonframework.eventhandling</td>
       <td>TrackingEventProcessor</td>
       <td>processBatch</td>
@@ -2629,116 +2629,116 @@ The following table shows the top 30 packages containing the methods with the hi
     </tr>
     <tr>
       <th>3</th>
-      <td>5</td>
-      <td>axon-server-connector-4.10.3</td>
-      <td>org.axonframework.axonserver.connector.event.axon</td>
-      <td>PersistentStreamConnection$SegmentConnection$P...</td>
-      <td>readMessages</td>
-      <td>16</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>39</td>
-      <td>axon-modelling-4.10.3</td>
+      <td>40</td>
+      <td>axon-modelling-4.11.0</td>
       <td>org.axonframework.modelling.saga.repository</td>
       <td>AssociationValueMap$AssociationValueComparator</td>
       <td>compare</td>
       <td>16</td>
     </tr>
     <tr>
-      <th>5</th>
+      <th>4</th>
       <td>19</td>
-      <td>axon-messaging-4.10.3</td>
+      <td>axon-messaging-4.11.0</td>
       <td>org.axonframework.eventhandling.deadletter.jpa</td>
       <td>DeadLetterEventEntry</td>
       <td>equals</td>
       <td>15</td>
     </tr>
     <tr>
+      <th>5</th>
+      <td>5</td>
+      <td>axon-server-connector-4.11.0</td>
+      <td>org.axonframework.axonserver.connector.event.axon</td>
+      <td>PersistentStreamConnection$SegmentConnection$P...</td>
+      <td>readMessages</td>
+      <td>15</td>
+    </tr>
+    <tr>
       <th>6</th>
+      <td>12</td>
+      <td>axon-spring-boot-autoconfigure-4.11.0</td>
+      <td>org.axonframework.springboot.autoconfig</td>
+      <td>AxonAutoConfiguration</td>
+      <td>buildSerializer</td>
+      <td>14</td>
+    </tr>
+    <tr>
+      <th>7</th>
       <td>11</td>
-      <td>axon-messaging-4.10.3</td>
+      <td>axon-messaging-4.11.0</td>
       <td>org.axonframework.messaging.annotation</td>
       <td>AnnotatedMessageHandlingMember</td>
       <td>handle</td>
       <td>14</td>
     </tr>
     <tr>
-      <th>7</th>
-      <td>62</td>
-      <td>axon-messaging-4.10.3</td>
+      <th>8</th>
+      <td>64</td>
+      <td>axon-messaging-4.11.0</td>
       <td>org.axonframework.commandhandling.distributed....</td>
       <td>CommandNameFilter</td>
       <td>$deserializeLambda$</td>
       <td>13</td>
     </tr>
     <tr>
-      <th>8</th>
-      <td>3</td>
-      <td>axon-test-4.10.3</td>
-      <td>org.axonframework.test.aggregate</td>
-      <td>AggregateTestFixture</td>
-      <td>ensureValuesEqual</td>
-      <td>13</td>
-    </tr>
-    <tr>
       <th>9</th>
-      <td>56</td>
-      <td>axon-messaging-4.10.3</td>
-      <td>org.axonframework.deadline.jobrunr</td>
-      <td>JobRunrDeadlineManager</td>
-      <td>$deserializeLambda$</td>
-      <td>13</td>
-    </tr>
-    <tr>
-      <th>10</th>
       <td>10</td>
-      <td>axon-eventsourcing-4.10.3</td>
+      <td>axon-eventsourcing-4.11.0</td>
       <td>org.axonframework.eventsourcing.eventstore</td>
       <td>ConcatenatingDomainEventStream</td>
       <td>hasNext</td>
       <td>13</td>
     </tr>
     <tr>
+      <th>10</th>
+      <td>56</td>
+      <td>axon-messaging-4.11.0</td>
+      <td>org.axonframework.deadline.jobrunr</td>
+      <td>JobRunrDeadlineManager</td>
+      <td>$deserializeLambda$</td>
+      <td>13</td>
+    </tr>
+    <tr>
       <th>11</th>
-      <td>6</td>
-      <td>axon-messaging-4.10.3</td>
-      <td>org.axonframework.eventhandling.deadletter.jdbc</td>
-      <td>JdbcDeadLetter</td>
-      <td>equals</td>
-      <td>12</td>
+      <td>3</td>
+      <td>axon-test-4.11.0</td>
+      <td>org.axonframework.test.aggregate</td>
+      <td>AggregateTestFixture</td>
+      <td>ensureValuesEqual</td>
+      <td>13</td>
     </tr>
     <tr>
       <th>12</th>
-      <td>46</td>
-      <td>axon-messaging-4.10.3</td>
-      <td>org.axonframework.common.jdbc</td>
-      <td>ConnectionWrapperFactory</td>
-      <td>lambda$wrap$0</td>
-      <td>12</td>
-    </tr>
-    <tr>
-      <th>13</th>
       <td>9</td>
-      <td>axon-server-connector-4.10.3</td>
+      <td>axon-server-connector-4.11.0</td>
       <td>org.axonframework.axonserver.connector</td>
       <td>AxonServerConnectionManager$Builder</td>
       <td>build</td>
       <td>12</td>
     </tr>
     <tr>
-      <th>14</th>
+      <th>13</th>
       <td>23</td>
-      <td>axon-messaging-4.10.3</td>
+      <td>axon-messaging-4.11.0</td>
       <td>org.axonframework.commandhandling.gateway</td>
       <td>CommandGatewayFactory</td>
       <td>createGateway</td>
       <td>12</td>
     </tr>
     <tr>
+      <th>14</th>
+      <td>47</td>
+      <td>axon-messaging-4.11.0</td>
+      <td>org.axonframework.common.jdbc</td>
+      <td>ConnectionWrapperFactory</td>
+      <td>lambda$wrap$0</td>
+      <td>12</td>
+    </tr>
+    <tr>
       <th>15</th>
-      <td>45</td>
-      <td>axon-test-4.10.3</td>
+      <td>46</td>
+      <td>axon-test-4.11.0</td>
       <td>org.axonframework.test.server</td>
       <td>AxonServerContainer</td>
       <td>equals</td>
@@ -2746,35 +2746,35 @@ The following table shows the top 30 packages containing the methods with the hi
     </tr>
     <tr>
       <th>16</th>
+      <td>6</td>
+      <td>axon-messaging-4.11.0</td>
+      <td>org.axonframework.eventhandling.deadletter.jdbc</td>
+      <td>JdbcDeadLetter</td>
+      <td>equals</td>
+      <td>12</td>
+    </tr>
+    <tr>
+      <th>17</th>
       <td>24</td>
-      <td>axon-messaging-4.10.3</td>
+      <td>axon-messaging-4.11.0</td>
       <td>org.axonframework.commandhandling.distributed</td>
       <td>ReplyMessage</td>
       <td>equals</td>
       <td>12</td>
     </tr>
     <tr>
-      <th>17</th>
-      <td>42</td>
-      <td>axon-messaging-4.10.3</td>
-      <td>org.axonframework.deadline.quartz</td>
-      <td>DeadlineJob</td>
-      <td>execute</td>
-      <td>11</td>
-    </tr>
-    <tr>
       <th>18</th>
-      <td>32</td>
-      <td>axon-messaging-4.10.3</td>
-      <td>org.axonframework.deadline.dbscheduler</td>
-      <td>DbSchedulerHumanReadableDeadlineDetails</td>
+      <td>26</td>
+      <td>axon-messaging-4.11.0</td>
+      <td>org.axonframework.eventhandling.deadletter.leg...</td>
+      <td>JpaDeadLetter</td>
       <td>equals</td>
       <td>11</td>
     </tr>
     <tr>
       <th>19</th>
       <td>29</td>
-      <td>axon-messaging-4.10.3</td>
+      <td>axon-messaging-4.11.0</td>
       <td>org.axonframework.messaging.unitofwork</td>
       <td>BatchingUnitOfWork</td>
       <td>executeWithResult</td>
@@ -2782,17 +2782,17 @@ The following table shows the top 30 packages containing the methods with the hi
     </tr>
     <tr>
       <th>20</th>
-      <td>26</td>
-      <td>axon-messaging-4.10.3</td>
-      <td>org.axonframework.eventhandling.deadletter.leg...</td>
-      <td>JpaDeadLetter</td>
-      <td>equals</td>
+      <td>43</td>
+      <td>axon-messaging-4.11.0</td>
+      <td>org.axonframework.deadline.quartz</td>
+      <td>DeadlineJob</td>
+      <td>execute</td>
       <td>11</td>
     </tr>
     <tr>
       <th>21</th>
       <td>4</td>
-      <td>axon-messaging-4.10.3</td>
+      <td>axon-messaging-4.11.0</td>
       <td>org.axonframework.queryhandling</td>
       <td>SimpleQueryBus</td>
       <td>doQuery</td>
@@ -2800,71 +2800,71 @@ The following table shows the top 30 packages containing the methods with the hi
     </tr>
     <tr>
       <th>22</th>
-      <td>48</td>
-      <td>axon-messaging-4.10.3</td>
+      <td>34</td>
+      <td>axon-messaging-4.11.0</td>
+      <td>org.axonframework.deadline.dbscheduler</td>
+      <td>DbSchedulerBinaryDeadlineDetails</td>
+      <td>equals</td>
+      <td>11</td>
+    </tr>
+    <tr>
+      <th>23</th>
+      <td>50</td>
+      <td>axon-messaging-4.11.0</td>
       <td>org.axonframework.messaging.responsetypes</td>
       <td>MultipleInstancesResponseType</td>
       <td>convert</td>
       <td>10</td>
     </tr>
     <tr>
-      <th>23</th>
-      <td>59</td>
-      <td>axon-messaging-4.10.3</td>
-      <td>org.axonframework.common.lock</td>
-      <td>PessimisticLockFactory$DisposableLock</td>
-      <td>lock</td>
-      <td>10</td>
-    </tr>
-    <tr>
       <th>24</th>
-      <td>17</td>
-      <td>axon-spring-boot-autoconfigure-4.10.3</td>
-      <td>org.axonframework.springboot.autoconfig</td>
-      <td>AxonAutoConfiguration</td>
-      <td>buildSerializer</td>
-      <td>10</td>
-    </tr>
-    <tr>
-      <th>25</th>
-      <td>27</td>
-      <td>axon-messaging-4.10.3</td>
-      <td>org.axonframework.commandhandling</td>
-      <td>MethodCommandHandlerDefinition$MethodCommandMe...</td>
-      <td>&lt;init&gt;</td>
-      <td>10</td>
-    </tr>
-    <tr>
-      <th>26</th>
-      <td>34</td>
-      <td>axon-messaging-4.10.3</td>
+      <td>36</td>
+      <td>axon-messaging-4.11.0</td>
       <td>org.axonframework.messaging.deadletter</td>
       <td>GenericDeadLetter</td>
       <td>equals</td>
       <td>10</td>
     </tr>
     <tr>
+      <th>25</th>
+      <td>39</td>
+      <td>axon-messaging-4.11.0</td>
+      <td>org.axonframework.serialization.avro</td>
+      <td>AvroUtil</td>
+      <td>fingerprint</td>
+      <td>10</td>
+    </tr>
+    <tr>
+      <th>26</th>
+      <td>61</td>
+      <td>axon-messaging-4.11.0</td>
+      <td>org.axonframework.common.lock</td>
+      <td>PessimisticLockFactory$DisposableLock</td>
+      <td>lock</td>
+      <td>10</td>
+    </tr>
+    <tr>
       <th>27</th>
-      <td>21</td>
-      <td>axon-test-4.10.3</td>
-      <td>org.axonframework.test.saga</td>
-      <td>CommandValidator</td>
-      <td>assertDispatchedEqualTo</td>
-      <td>9</td>
+      <td>27</td>
+      <td>axon-messaging-4.11.0</td>
+      <td>org.axonframework.commandhandling</td>
+      <td>MethodCommandHandlerDefinition$MethodCommandMe...</td>
+      <td>&lt;init&gt;</td>
+      <td>10</td>
     </tr>
     <tr>
       <th>28</th>
-      <td>20</td>
-      <td>axon-messaging-4.10.3</td>
-      <td>org.axonframework.common</td>
-      <td>TypeReflectionUtils</td>
-      <td>getExactDirectSuperTypesOfParameterizedTypeOrC...</td>
+      <td>62</td>
+      <td>axon-messaging-4.11.0</td>
+      <td>org.axonframework.serialization.json</td>
+      <td>JacksonSerializer</td>
+      <td>deserialize</td>
       <td>9</td>
     </tr>
     <tr>
       <th>29</th>
       <td>25</td>
-      <td>axon-messaging-4.10.3</td>
+      <td>axon-messaging-4.11.0</td>
       <td>org.axonframework.eventhandling.tokenstore.jdbc</td>
       <td>JdbcTokenStore</td>
       <td>updateToken</td>

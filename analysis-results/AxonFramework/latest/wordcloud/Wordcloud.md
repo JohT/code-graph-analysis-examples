@@ -35,7 +35,7 @@
     </tr>
     <tr>
       <th>2</th>
-      <td>configuration</td>
+      <td>disruptor</td>
     </tr>
     <tr>
       <th>3</th>
@@ -55,7 +55,7 @@
     </tr>
     <tr>
       <th>7</th>
-      <td>configuration</td>
+      <td>disruptor</td>
     </tr>
     <tr>
       <th>8</th>
@@ -71,7 +71,7 @@
 
 
 
-    There are 41357 words in the dataset for the plot titled 'Wordcloud of names in code'.
+    There are 42449 words in the dataset for the plot titled 'Wordcloud of names in code'.
 
 
 

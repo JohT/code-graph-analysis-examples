@@ -59,23 +59,23 @@ Only the top 20 entries are shown. The whole table can be found in the following
     <tr>
       <th>0</th>
       <td>javax.annotation</td>
-      <td>76</td>
-      <td>342</td>
-      <td>374</td>
-      <td>1731</td>
-      <td>114</td>
-      <td>1444</td>
+      <td>78</td>
+      <td>353</td>
+      <td>386</td>
+      <td>1793</td>
+      <td>116</td>
+      <td>1485</td>
       <td>[Nonnull, Nullable, PreDestroy]</td>
     </tr>
     <tr>
       <th>1</th>
       <td>org.slf4j</td>
-      <td>66</td>
-      <td>144</td>
-      <td>257</td>
-      <td>720</td>
-      <td>114</td>
-      <td>1444</td>
+      <td>67</td>
+      <td>151</td>
+      <td>267</td>
+      <td>749</td>
+      <td>116</td>
+      <td>1485</td>
       <td>[Logger, LoggerFactory]</td>
     </tr>
     <tr>
@@ -85,9 +85,9 @@ Only the top 20 entries are shown. The whole table can be found in the following
       <td>27</td>
       <td>82</td>
       <td>311</td>
-      <td>114</td>
-      <td>1444</td>
-      <td>[IdClass, MappedSuperclass, Id, Entity, Index,...</td>
+      <td>116</td>
+      <td>1485</td>
+      <td>[LockModeType, EntityManager, Lob, MappedSuper...</td>
     </tr>
     <tr>
       <th>3</th>
@@ -96,9 +96,9 @@ Only the top 20 entries are shown. The whole table can be found in the following
       <td>23</td>
       <td>57</td>
       <td>87</td>
-      <td>114</td>
-      <td>1444</td>
-      <td>[JsonCreator, JsonProperty, JsonTypeInfo$Id, J...</td>
+      <td>116</td>
+      <td>1485</td>
+      <td>[JsonCreator, JsonProperty, JsonTypeInfo, Json...</td>
     </tr>
     <tr>
       <th>4</th>
@@ -107,9 +107,9 @@ Only the top 20 entries are shown. The whole table can be found in the following
       <td>25</td>
       <td>73</td>
       <td>299</td>
-      <td>114</td>
-      <td>1444</td>
-      <td>[Id, MappedSuperclass, IdClass, EntityExistsEx...</td>
+      <td>116</td>
+      <td>1485</td>
+      <td>[EntityManager, LockModeType, Id, Column, Enti...</td>
     </tr>
     <tr>
       <th>5</th>
@@ -118,9 +118,9 @@ Only the top 20 entries are shown. The whole table can be found in the following
       <td>30</td>
       <td>55</td>
       <td>273</td>
-      <td>114</td>
-      <td>1444</td>
-      <td>[ErrorMessage, InstructionAck$Builder, Instruc...</td>
+      <td>116</td>
+      <td>1485</td>
+      <td>[InstructionAck$Builder, InstructionAck, Error...</td>
     </tr>
     <tr>
       <th>6</th>
@@ -128,10 +128,10 @@ Only the top 20 entries are shown. The whole table can be found in the following
       <td>6</td>
       <td>21</td>
       <td>30</td>
-      <td>126</td>
-      <td>114</td>
-      <td>1444</td>
-      <td>[AxonServerConnection, AxonServerConnectionFac...</td>
+      <td>127</td>
+      <td>116</td>
+      <td>1485</td>
+      <td>[AxonServerConnectionFactory, AxonServerConnec...</td>
     </tr>
     <tr>
       <th>7</th>
@@ -140,20 +140,20 @@ Only the top 20 entries are shown. The whole table can be found in the following
       <td>27</td>
       <td>59</td>
       <td>370</td>
-      <td>114</td>
-      <td>1444</td>
-      <td>[Matcher, CoreMatchers, StringDescription, Des...</td>
+      <td>116</td>
+      <td>1485</td>
+      <td>[Description, Matchers, StringDescription, Mat...</td>
     </tr>
     <tr>
       <th>8</th>
       <td>io.grpc</td>
       <td>4</td>
-      <td>12</td>
-      <td>50</td>
-      <td>94</td>
-      <td>114</td>
-      <td>1444</td>
-      <td>[Channel, ManagedChannelBuilder, ClientCall, M...</td>
+      <td>15</td>
+      <td>62</td>
+      <td>119</td>
+      <td>116</td>
+      <td>1485</td>
+      <td>[ManagedChannelBuilder, ClientInterceptor, Cha...</td>
     </tr>
     <tr>
       <th>9</th>
@@ -162,9 +162,9 @@ Only the top 20 entries are shown. The whole table can be found in the following
       <td>27</td>
       <td>49</td>
       <td>198</td>
-      <td>114</td>
-      <td>1444</td>
-      <td>[Flux, BaseSubscriber, Mono, SignalType, FluxS...</td>
+      <td>116</td>
+      <td>1485</td>
+      <td>[Flux, BaseSubscriber, SignalType, Mono, FluxS...</td>
     </tr>
     <tr>
       <th>10</th>
@@ -173,9 +173,9 @@ Only the top 20 entries are shown. The whole table can be found in the following
       <td>5</td>
       <td>8</td>
       <td>49</td>
-      <td>114</td>
-      <td>1444</td>
-      <td>[Scheduler, SchedulerState, ScheduledExecution]</td>
+      <td>116</td>
+      <td>1485</td>
+      <td>[Scheduler, ScheduledExecution, SchedulerState]</td>
     </tr>
     <tr>
       <th>11</th>
@@ -184,9 +184,9 @@ Only the top 20 entries are shown. The whole table can be found in the following
       <td>5</td>
       <td>11</td>
       <td>44</td>
-      <td>114</td>
-      <td>1444</td>
-      <td>[Task, TaskInstanceId, TaskInstance, Execution...</td>
+      <td>116</td>
+      <td>1485</td>
+      <td>[Task, TaskWithDataDescriptor, ExecutionContex...</td>
     </tr>
     <tr>
       <th>12</th>
@@ -195,9 +195,9 @@ Only the top 20 entries are shown. The whole table can be found in the following
       <td>6</td>
       <td>7</td>
       <td>27</td>
-      <td>114</td>
-      <td>1444</td>
-      <td>[StreamObserver, ClientResponseObserver, Clien...</td>
+      <td>116</td>
+      <td>1485</td>
+      <td>[StreamObserver, ClientCallStreamObserver, Cli...</td>
     </tr>
     <tr>
       <th>13</th>
@@ -206,8 +206,8 @@ Only the top 20 entries are shown. The whole table can be found in the following
       <td>5</td>
       <td>7</td>
       <td>34</td>
-      <td>114</td>
-      <td>1444</td>
+      <td>116</td>
+      <td>1485</td>
       <td>[JobScheduler, JobBuilder]</td>
     </tr>
     <tr>
@@ -217,42 +217,42 @@ Only the top 20 entries are shown. The whole table can be found in the following
       <td>4</td>
       <td>7</td>
       <td>24</td>
-      <td>114</td>
-      <td>1444</td>
-      <td>[Status, AbstractHealthIndicator, Health$Build...</td>
+      <td>116</td>
+      <td>1485</td>
+      <td>[Status, SimpleStatusAggregator, AbstractHealt...</td>
     </tr>
     <tr>
       <th>15</th>
       <td>org.springframework.boot.autoconfigure</td>
       <td>3</td>
-      <td>24</td>
-      <td>54</td>
-      <td>55</td>
-      <td>114</td>
-      <td>1444</td>
-      <td>[AutoConfigurationPackages, AutoConfigureAfter...</td>
+      <td>28</td>
+      <td>61</td>
+      <td>63</td>
+      <td>116</td>
+      <td>1485</td>
+      <td>[AutoConfigureBefore, AutoConfiguration, AutoC...</td>
     </tr>
     <tr>
       <th>16</th>
       <td>org.springframework.boot.autoconfigure.condition</td>
       <td>3</td>
-      <td>32</td>
-      <td>65</td>
-      <td>152</td>
-      <td>114</td>
-      <td>1444</td>
-      <td>[SpringBootCondition, ConditionOutcome, Condit...</td>
+      <td>41</td>
+      <td>75</td>
+      <td>168</td>
+      <td>116</td>
+      <td>1485</td>
+      <td>[ConditionalOnProperty, ConditionalOnMissingBe...</td>
     </tr>
     <tr>
       <th>17</th>
       <td>org.springframework.context.annotation</td>
       <td>3</td>
-      <td>30</td>
-      <td>41</td>
-      <td>135</td>
-      <td>114</td>
-      <td>1444</td>
-      <td>[Conditional, Import, ConfigurationCondition$C...</td>
+      <td>36</td>
+      <td>48</td>
+      <td>152</td>
+      <td>116</td>
+      <td>1485</td>
+      <td>[Bean, ConfigurationCondition$ConfigurationPha...</td>
     </tr>
     <tr>
       <th>18</th>
@@ -261,9 +261,9 @@ Only the top 20 entries are shown. The whole table can be found in the following
       <td>9</td>
       <td>17</td>
       <td>75</td>
-      <td>114</td>
-      <td>1444</td>
-      <td>[ObjectMapper, JsonNode, ObjectWriter, ObjectR...</td>
+      <td>116</td>
+      <td>1485</td>
+      <td>[ObjectMapper, JsonNode, ObjectMapper$DefaultT...</td>
     </tr>
     <tr>
       <th>19</th>
@@ -272,9 +272,9 @@ Only the top 20 entries are shown. The whole table can be found in the following
       <td>4</td>
       <td>9</td>
       <td>39</td>
-      <td>114</td>
-      <td>1444</td>
-      <td>[HierarchicalStreamWriter, HierarchicalStreamR...</td>
+      <td>116</td>
+      <td>1485</td>
+      <td>[HierarchicalStreamReader, HierarchicalStreamW...</td>
     </tr>
   </tbody>
 </table>
@@ -381,23 +381,23 @@ Only the top 20 entries are shown. The whole table can be found in the following
     <tr>
       <th>0</th>
       <td>javax.annotation</td>
-      <td>76</td>
-      <td>342</td>
-      <td>374</td>
-      <td>1731</td>
-      <td>114</td>
-      <td>1444</td>
+      <td>78</td>
+      <td>353</td>
+      <td>386</td>
+      <td>1793</td>
+      <td>116</td>
+      <td>1485</td>
       <td>[Nonnull, Nullable, PreDestroy]</td>
     </tr>
     <tr>
       <th>1</th>
       <td>org.slf4j</td>
-      <td>66</td>
-      <td>144</td>
-      <td>257</td>
-      <td>720</td>
-      <td>114</td>
-      <td>1444</td>
+      <td>67</td>
+      <td>151</td>
+      <td>267</td>
+      <td>749</td>
+      <td>116</td>
+      <td>1485</td>
       <td>[Logger, LoggerFactory]</td>
     </tr>
     <tr>
@@ -407,9 +407,9 @@ Only the top 20 entries are shown. The whole table can be found in the following
       <td>33</td>
       <td>89</td>
       <td>199</td>
-      <td>114</td>
-      <td>1444</td>
-      <td>[ObjectMapper, CBORMapper, JsonCreator, JsonPr...</td>
+      <td>116</td>
+      <td>1485</td>
+      <td>[JsonCreator, JsonProperty, ObjectMapper, CBOR...</td>
     </tr>
     <tr>
       <th>3</th>
@@ -418,9 +418,9 @@ Only the top 20 entries are shown. The whole table can be found in the following
       <td>27</td>
       <td>82</td>
       <td>311</td>
-      <td>114</td>
-      <td>1444</td>
-      <td>[IdClass, MappedSuperclass, Id, Entity, Index,...</td>
+      <td>116</td>
+      <td>1485</td>
+      <td>[LockModeType, EntityManager, Lob, MappedSuper...</td>
     </tr>
     <tr>
       <th>4</th>
@@ -429,9 +429,9 @@ Only the top 20 entries are shown. The whole table can be found in the following
       <td>25</td>
       <td>73</td>
       <td>299</td>
-      <td>114</td>
-      <td>1444</td>
-      <td>[Id, MappedSuperclass, IdClass, EntityExistsEx...</td>
+      <td>116</td>
+      <td>1485</td>
+      <td>[EntityManager, LockModeType, Id, Column, Enti...</td>
     </tr>
     <tr>
       <th>5</th>
@@ -439,32 +439,32 @@ Only the top 20 entries are shown. The whole table can be found in the following
       <td>9</td>
       <td>69</td>
       <td>202</td>
-      <td>988</td>
-      <td>114</td>
-      <td>1444</td>
-      <td>[ControlChannel, AxonServerConnection, AxonSer...</td>
+      <td>997</td>
+      <td>116</td>
+      <td>1485</td>
+      <td>[NodeInfo, NodeInfo$Builder, ServerAddress, Ax...</td>
     </tr>
     <tr>
       <th>6</th>
       <td>org.springframework</td>
       <td>8</td>
-      <td>53</td>
-      <td>245</td>
-      <td>528</td>
-      <td>114</td>
-      <td>1444</td>
-      <td>[ConfigurationProperties, Status, AbstractHeal...</td>
+      <td>65</td>
+      <td>276</td>
+      <td>587</td>
+      <td>116</td>
+      <td>1485</td>
+      <td>[ConfigurationProperties, Status, SimpleStatus...</td>
     </tr>
     <tr>
       <th>7</th>
       <td>io.grpc</td>
       <td>5</td>
-      <td>18</td>
-      <td>61</td>
-      <td>126</td>
-      <td>114</td>
-      <td>1444</td>
-      <td>[Channel, ManagedChannelBuilder, StreamObserve...</td>
+      <td>21</td>
+      <td>73</td>
+      <td>151</td>
+      <td>116</td>
+      <td>1485</td>
+      <td>[ManagedChannelBuilder, SslContextBuilder, Cli...</td>
     </tr>
     <tr>
       <th>8</th>
@@ -473,9 +473,9 @@ Only the top 20 entries are shown. The whole table can be found in the following
       <td>27</td>
       <td>59</td>
       <td>370</td>
-      <td>114</td>
-      <td>1444</td>
-      <td>[Matcher, CoreMatchers, StringDescription, Des...</td>
+      <td>116</td>
+      <td>1485</td>
+      <td>[Description, Matchers, StringDescription, Mat...</td>
     </tr>
     <tr>
       <th>9</th>
@@ -484,20 +484,20 @@ Only the top 20 entries are shown. The whole table can be found in the following
       <td>28</td>
       <td>53</td>
       <td>203</td>
-      <td>114</td>
-      <td>1444</td>
+      <td>116</td>
+      <td>1485</td>
       <td>[Schedulers, Scheduler, Flux, BaseSubscriber, ...</td>
     </tr>
     <tr>
       <th>10</th>
       <td>com.google</td>
       <td>4</td>
-      <td>9</td>
-      <td>12</td>
-      <td>18</td>
-      <td>114</td>
-      <td>1444</td>
-      <td>[ByteString, Strings, JsonArray, JsonObject, J...</td>
+      <td>11</td>
+      <td>14</td>
+      <td>24</td>
+      <td>116</td>
+      <td>1485</td>
+      <td>[ByteString, MessageLite, Strings, JsonElement...</td>
     </tr>
     <tr>
       <th>11</th>
@@ -506,9 +506,9 @@ Only the top 20 entries are shown. The whole table can be found in the following
       <td>7</td>
       <td>21</td>
       <td>107</td>
-      <td>114</td>
-      <td>1444</td>
-      <td>[Task, Scheduler, TaskInstanceId, TaskInstance...</td>
+      <td>116</td>
+      <td>1485</td>
+      <td>[Task, Scheduler, TaskWithDataDescriptor, Task...</td>
     </tr>
     <tr>
       <th>12</th>
@@ -517,86 +517,86 @@ Only the top 20 entries are shown. The whole table can be found in the following
       <td>10</td>
       <td>33</td>
       <td>121</td>
-      <td>114</td>
-      <td>1444</td>
-      <td>[XStream, UnmarshallingContext, HierarchicalSt...</td>
+      <td>116</td>
+      <td>1485</td>
+      <td>[XStream, HierarchicalStreamReader, Unmarshall...</td>
     </tr>
     <tr>
       <th>13</th>
       <td>org.jobrunr</td>
       <td>3</td>
       <td>5</td>
-      <td>7</td>
-      <td>34</td>
-      <td>114</td>
-      <td>1444</td>
-      <td>[JobScheduler, JobBuilder]</td>
+      <td>9</td>
+      <td>41</td>
+      <td>116</td>
+      <td>1485</td>
+      <td>[JobScheduler, JobBuilder, StateName, IllegalJ...</td>
     </tr>
     <tr>
       <th>14</th>
-      <td>org.axonframework</td>
+      <td>org.apache</td>
       <td>2</td>
-      <td>7</td>
-      <td>17</td>
-      <td>59</td>
-      <td>114</td>
-      <td>1444</td>
-      <td>[SpringUtils, MetricsConfigurerModule, GlobalM...</td>
+      <td>12</td>
+      <td>41</td>
+      <td>137</td>
+      <td>116</td>
+      <td>1485</td>
+      <td>[SchemaStore, SchemaStore$Cache, Schema, Schem...</td>
     </tr>
     <tr>
       <th>15</th>
+      <td>org.axonframework</td>
+      <td>2</td>
+      <td>10</td>
+      <td>22</td>
+      <td>70</td>
+      <td>116</td>
+      <td>1485</td>
+      <td>[MetricsConfigurerModule, GlobalMetricRegistry...</td>
+    </tr>
+    <tr>
+      <th>16</th>
       <td>org.junit</td>
       <td>2</td>
       <td>4</td>
       <td>8</td>
       <td>14</td>
-      <td>114</td>
-      <td>1444</td>
-      <td>[Statement, Description, TestRule, BeforeEachC...</td>
+      <td>116</td>
+      <td>1485</td>
+      <td>[Assertions, Statement, TestRule, Description,...</td>
     </tr>
     <tr>
-      <th>16</th>
+      <th>17</th>
       <td>org.quartz</td>
       <td>2</td>
       <td>9</td>
       <td>36</td>
       <td>187</td>
-      <td>114</td>
-      <td>1444</td>
-      <td>[JobDataMap, Scheduler, SchedulerException, Jo...</td>
+      <td>116</td>
+      <td>1485</td>
+      <td>[Job, Trigger, JobDetail, JobExecutionExceptio...</td>
     </tr>
     <tr>
-      <th>17</th>
+      <th>18</th>
       <td>com.lmax</td>
       <td>1</td>
       <td>7</td>
       <td>14</td>
       <td>46</td>
-      <td>114</td>
-      <td>1444</td>
-      <td>[RingBuffer, Disruptor, EventHandlerGroup, Eve...</td>
+      <td>116</td>
+      <td>1485</td>
+      <td>[EventHandler, RingBuffer, Disruptor, EventHan...</td>
     </tr>
     <tr>
-      <th>18</th>
+      <th>19</th>
       <td>io.micrometer</td>
       <td>1</td>
       <td>1</td>
       <td>2</td>
       <td>6</td>
-      <td>114</td>
-      <td>1444</td>
+      <td>116</td>
+      <td>1485</td>
       <td>[MeterRegistry, SimpleMeterRegistry]</td>
-    </tr>
-    <tr>
-      <th>19</th>
-      <td>io.opentelemetry</td>
-      <td>1</td>
-      <td>5</td>
-      <td>21</td>
-      <td>74</td>
-      <td>114</td>
-      <td>1444</td>
-      <td>[SpanBuilder, Span, TextMapSetter, Context, Te...</td>
     </tr>
   </tbody>
 </table>
@@ -719,25 +719,25 @@ Only the top 20 entries are shown. The whole table can be found in the following
       <th>0</th>
       <td>org.slf4j</td>
       <td>9</td>
-      <td>66</td>
+      <td>67</td>
       <td>1</td>
-      <td>38</td>
+      <td>39</td>
       <td>3.0</td>
-      <td>7.333333</td>
-      <td>11.821590</td>
+      <td>7.444444</td>
+      <td>12.146101</td>
       <td>25.000000</td>
       <td>100.000000</td>
       <td>...</td>
-      <td>79</td>
+      <td>82</td>
       <td>8.0</td>
-      <td>16.00</td>
-      <td>24.433583</td>
+      <td>16.777778</td>
+      <td>25.528307</td>
       <td>2.298851</td>
       <td>36.363636</td>
       <td>10.526316</td>
-      <td>13.370198</td>
-      <td>10.270014</td>
-      <td>[axon-configuration-4.10.3, axon-eventsourcing...</td>
+      <td>13.534023</td>
+      <td>10.427346</td>
+      <td>[axon-disruptor-4.11.0, axon-tracing-opentelem...</td>
     </tr>
     <tr>
       <th>1</th>
@@ -749,19 +749,19 @@ Only the top 20 entries are shown. The whole table can be found in the following
       <td>2.0</td>
       <td>2.000000</td>
       <td>0.816497</td>
-      <td>4.687500</td>
+      <td>4.545455</td>
       <td>22.222222</td>
       <td>...</td>
       <td>8</td>
       <td>3.0</td>
-      <td>4.25</td>
+      <td>4.250000</td>
       <td>2.500000</td>
-      <td>1.016518</td>
-      <td>4.000000</td>
+      <td>0.988875</td>
+      <td>3.409091</td>
       <td>2.077187</td>
-      <td>2.292723</td>
-      <td>1.251678</td>
-      <td>[axon-eventsourcing-4.10.3, axon-spring-boot-a...</td>
+      <td>2.138085</td>
+      <td>1.001207</td>
+      <td>[axon-modelling-4.11.0, axon-eventsourcing-4.1...</td>
     </tr>
     <tr>
       <th>2</th>
@@ -773,19 +773,19 @@ Only the top 20 entries are shown. The whole table can be found in the following
       <td>2.5</td>
       <td>2.750000</td>
       <td>0.957427</td>
-      <td>6.250000</td>
+      <td>6.060606</td>
       <td>30.000000</td>
       <td>...</td>
       <td>8</td>
       <td>3.0</td>
-      <td>4.25</td>
+      <td>4.250000</td>
       <td>2.500000</td>
-      <td>1.016518</td>
-      <td>4.000000</td>
+      <td>0.988875</td>
+      <td>3.409091</td>
       <td>2.077187</td>
-      <td>2.292723</td>
-      <td>1.251678</td>
-      <td>[axon-eventsourcing-4.10.3, axon-spring-boot-a...</td>
+      <td>2.138085</td>
+      <td>1.001207</td>
+      <td>[axon-modelling-4.11.0, axon-eventsourcing-4.1...</td>
     </tr>
     <tr>
       <th>3</th>
@@ -797,19 +797,19 @@ Only the top 20 entries are shown. The whole table can be found in the following
       <td>1.0</td>
       <td>1.000000</td>
       <td>0.000000</td>
-      <td>1.562500</td>
+      <td>1.515152</td>
       <td>11.111111</td>
       <td>...</td>
       <td>7</td>
       <td>4.5</td>
-      <td>4.50</td>
+      <td>4.500000</td>
       <td>3.535534</td>
-      <td>0.889454</td>
-      <td>2.666667</td>
-      <td>1.778060</td>
-      <td>1.778060</td>
-      <td>1.256679</td>
-      <td>[axon-spring-boot-autoconfigure-4.10.3, axon-m...</td>
+      <td>0.865266</td>
+      <td>2.272727</td>
+      <td>1.568997</td>
+      <td>1.568997</td>
+      <td>0.995226</td>
+      <td>[axon-spring-boot-autoconfigure-4.11.0, axon-m...</td>
     </tr>
     <tr>
       <th>4</th>
@@ -821,19 +821,19 @@ Only the top 20 entries are shown. The whole table can be found in the following
       <td>1.5</td>
       <td>1.500000</td>
       <td>0.707107</td>
-      <td>3.125000</td>
+      <td>3.030303</td>
       <td>11.111111</td>
       <td>...</td>
       <td>4</td>
       <td>2.5</td>
-      <td>2.50</td>
+      <td>2.500000</td>
       <td>2.121320</td>
-      <td>0.508259</td>
-      <td>1.333333</td>
-      <td>0.920796</td>
-      <td>0.920796</td>
-      <td>0.583416</td>
-      <td>[axon-spring-boot-autoconfigure-4.10.3, axon-m...</td>
+      <td>0.494438</td>
+      <td>1.136364</td>
+      <td>0.815401</td>
+      <td>0.815401</td>
+      <td>0.453910</td>
+      <td>[axon-spring-boot-autoconfigure-4.11.0, axon-m...</td>
     </tr>
     <tr>
       <th>5</th>
@@ -845,19 +845,19 @@ Only the top 20 entries are shown. The whole table can be found in the following
       <td>1.5</td>
       <td>1.500000</td>
       <td>0.707107</td>
-      <td>3.125000</td>
+      <td>3.030303</td>
       <td>11.111111</td>
       <td>...</td>
       <td>4</td>
       <td>2.5</td>
-      <td>2.50</td>
+      <td>2.500000</td>
       <td>2.121320</td>
-      <td>0.508259</td>
-      <td>1.333333</td>
-      <td>0.920796</td>
-      <td>0.920796</td>
-      <td>0.583416</td>
-      <td>[axon-spring-boot-autoconfigure-4.10.3, axon-m...</td>
+      <td>0.494438</td>
+      <td>1.136364</td>
+      <td>0.815401</td>
+      <td>0.815401</td>
+      <td>0.453910</td>
+      <td>[axon-spring-boot-autoconfigure-4.11.0, axon-m...</td>
     </tr>
     <tr>
       <th>6</th>
@@ -869,19 +869,19 @@ Only the top 20 entries are shown. The whole table can be found in the following
       <td>1.5</td>
       <td>1.500000</td>
       <td>0.707107</td>
-      <td>3.125000</td>
+      <td>3.030303</td>
       <td>11.111111</td>
       <td>...</td>
       <td>4</td>
       <td>3.0</td>
-      <td>3.00</td>
+      <td>3.000000</td>
       <td>1.414214</td>
-      <td>0.508259</td>
-      <td>2.666667</td>
-      <td>1.587463</td>
-      <td>1.587463</td>
-      <td>1.526225</td>
-      <td>[axon-spring-boot-autoconfigure-4.10.3, axon-m...</td>
+      <td>0.494438</td>
+      <td>2.272727</td>
+      <td>1.383582</td>
+      <td>1.383582</td>
+      <td>1.257441</td>
+      <td>[axon-spring-boot-autoconfigure-4.11.0, axon-m...</td>
     </tr>
     <tr>
       <th>7</th>
@@ -896,16 +896,16 @@ Only the top 20 entries are shown. The whole table can be found in the following
       <td>9.090909</td>
       <td>11.111111</td>
       <td>...</td>
-      <td>13</td>
+      <td>14</td>
       <td>7.5</td>
-      <td>7.50</td>
-      <td>7.778175</td>
-      <td>2.666667</td>
-      <td>9.558824</td>
-      <td>6.112745</td>
-      <td>6.112745</td>
-      <td>4.873491</td>
-      <td>[axon-server-connector-4.10.3, axon-spring-boo...</td>
+      <td>7.500000</td>
+      <td>9.192388</td>
+      <td>1.136364</td>
+      <td>9.859155</td>
+      <td>5.497759</td>
+      <td>5.497759</td>
+      <td>6.167945</td>
+      <td>[axon-server-connector-4.11.0, axon-spring-boo...</td>
     </tr>
     <tr>
       <th>8</th>
@@ -922,38 +922,38 @@ Only the top 20 entries are shown. The whole table can be found in the following
       <td>...</td>
       <td>4</td>
       <td>2.5</td>
-      <td>2.50</td>
+      <td>2.500000</td>
       <td>2.121320</td>
-      <td>1.333333</td>
-      <td>2.941176</td>
-      <td>2.137255</td>
-      <td>2.137255</td>
-      <td>1.136917</td>
-      <td>[axon-server-connector-4.10.3, axon-spring-boo...</td>
+      <td>1.136364</td>
+      <td>2.816901</td>
+      <td>1.976633</td>
+      <td>1.976633</td>
+      <td>1.188320</td>
+      <td>[axon-server-connector-4.11.0, axon-spring-boo...</td>
     </tr>
     <tr>
       <th>9</th>
-      <td>org.jobrunr.scheduling</td>
+      <td>org.apache.avro.message</td>
       <td>2</td>
-      <td>3</td>
+      <td>2</td>
       <td>1</td>
-      <td>2</td>
-      <td>1.5</td>
-      <td>1.500000</td>
-      <td>0.707107</td>
-      <td>3.125000</td>
+      <td>1</td>
+      <td>1.0</td>
+      <td>1.000000</td>
+      <td>0.000000</td>
+      <td>1.515152</td>
       <td>11.111111</td>
       <td>...</td>
-      <td>4</td>
-      <td>2.5</td>
-      <td>2.50</td>
-      <td>2.121320</td>
-      <td>0.508259</td>
-      <td>1.333333</td>
-      <td>0.920796</td>
-      <td>0.920796</td>
-      <td>0.583416</td>
-      <td>[axon-spring-boot-autoconfigure-4.10.3, axon-m...</td>
+      <td>5</td>
+      <td>4.0</td>
+      <td>4.000000</td>
+      <td>1.414214</td>
+      <td>0.618047</td>
+      <td>3.409091</td>
+      <td>2.013569</td>
+      <td>2.013569</td>
+      <td>1.973566</td>
+      <td>[axon-spring-boot-autoconfigure-4.11.0, axon-m...</td>
     </tr>
   </tbody>
 </table>
@@ -989,10 +989,10 @@ This table shows the top 20 most widely spread external packages focussing on th
       <td>org.slf4j</td>
       <td>9</td>
       <td>1</td>
-      <td>38</td>
+      <td>39</td>
       <td>3.0</td>
-      <td>7.333333</td>
-      <td>11.821590</td>
+      <td>7.444444</td>
+      <td>12.146101</td>
     </tr>
     <tr>
       <th>1</th>
@@ -1076,6 +1076,16 @@ This table shows the top 20 most widely spread external packages focussing on th
     </tr>
     <tr>
       <th>9</th>
+      <td>org.apache.avro.message</td>
+      <td>2</td>
+      <td>1</td>
+      <td>1</td>
+      <td>1.0</td>
+      <td>1.000000</td>
+      <td>0.000000</td>
+    </tr>
+    <tr>
+      <th>10</th>
       <td>org.jobrunr.scheduling</td>
       <td>2</td>
       <td>1</td>
@@ -1085,7 +1095,7 @@ This table shows the top 20 most widely spread external packages focussing on th
       <td>0.707107</td>
     </tr>
     <tr>
-      <th>10</th>
+      <th>11</th>
       <td>org.reactivestreams</td>
       <td>2</td>
       <td>1</td>
@@ -1095,7 +1105,7 @@ This table shows the top 20 most widely spread external packages focussing on th
       <td>0.707107</td>
     </tr>
     <tr>
-      <th>11</th>
+      <th>12</th>
       <td>reactor.core.publisher</td>
       <td>2</td>
       <td>2</td>
@@ -1105,7 +1115,7 @@ This table shows the top 20 most widely spread external packages focussing on th
       <td>0.000000</td>
     </tr>
     <tr>
-      <th>12</th>
+      <th>13</th>
       <td>AggregateEventPublisherImpl</td>
       <td>1</td>
       <td>1</td>
@@ -1115,7 +1125,7 @@ This table shows the top 20 most widely spread external packages focussing on th
       <td>0.000000</td>
     </tr>
     <tr>
-      <th>13</th>
+      <th>14</th>
       <td>WeakValue</td>
       <td>1</td>
       <td>1</td>
@@ -1125,7 +1135,7 @@ This table shows the top 20 most widely spread external packages focussing on th
       <td>0.000000</td>
     </tr>
     <tr>
-      <th>14</th>
+      <th>15</th>
       <td>com.codahale.metrics</td>
       <td>1</td>
       <td>1</td>
@@ -1135,7 +1145,7 @@ This table shows the top 20 most widely spread external packages focussing on th
       <td>0.000000</td>
     </tr>
     <tr>
-      <th>15</th>
+      <th>16</th>
       <td>com.fasterxml.jackson.annotation</td>
       <td>1</td>
       <td>3</td>
@@ -1145,7 +1155,7 @@ This table shows the top 20 most widely spread external packages focussing on th
       <td>0.000000</td>
     </tr>
     <tr>
-      <th>16</th>
+      <th>17</th>
       <td>com.fasterxml.jackson.core</td>
       <td>1</td>
       <td>1</td>
@@ -1155,7 +1165,7 @@ This table shows the top 20 most widely spread external packages focussing on th
       <td>0.000000</td>
     </tr>
     <tr>
-      <th>17</th>
+      <th>18</th>
       <td>com.fasterxml.jackson.databind.jsontype</td>
       <td>1</td>
       <td>1</td>
@@ -1165,18 +1175,8 @@ This table shows the top 20 most widely spread external packages focussing on th
       <td>0.000000</td>
     </tr>
     <tr>
-      <th>18</th>
-      <td>com.fasterxml.jackson.databind.module</td>
-      <td>1</td>
-      <td>1</td>
-      <td>1</td>
-      <td>1.0</td>
-      <td>1.000000</td>
-      <td>0.000000</td>
-    </tr>
-    <tr>
       <th>19</th>
-      <td>com.fasterxml.jackson.databind.node</td>
+      <td>com.fasterxml.jackson.databind.module</td>
       <td>1</td>
       <td>1</td>
       <td>1</td>
@@ -1219,68 +1219,68 @@ This table shows the top 20 most widely spread external packages focussing on th
       <td>25.000000</td>
       <td>100.000000</td>
       <td>60.000000</td>
-      <td>68.342452</td>
-      <td>28.735691</td>
+      <td>68.310887</td>
+      <td>28.746926</td>
     </tr>
     <tr>
       <th>1</th>
       <td>jakarta.persistence</td>
       <td>4</td>
-      <td>4.687500</td>
+      <td>4.545455</td>
       <td>22.222222</td>
       <td>15.555556</td>
-      <td>14.505208</td>
-      <td>8.116903</td>
+      <td>14.469697</td>
+      <td>8.174281</td>
     </tr>
     <tr>
       <th>2</th>
       <td>javax.persistence</td>
       <td>4</td>
-      <td>6.250000</td>
+      <td>6.060606</td>
       <td>30.000000</td>
       <td>22.222222</td>
-      <td>20.173611</td>
-      <td>9.980289</td>
+      <td>20.126263</td>
+      <td>10.068424</td>
     </tr>
     <tr>
       <th>3</th>
       <td>com.fasterxml.jackson.databind</td>
       <td>2</td>
-      <td>1.562500</td>
+      <td>1.515152</td>
       <td>11.111111</td>
-      <td>6.336806</td>
-      <td>6.336806</td>
-      <td>6.751888</td>
+      <td>6.313131</td>
+      <td>6.313131</td>
+      <td>6.785368</td>
     </tr>
     <tr>
       <th>4</th>
       <td>com.github.kagkarlsson.scheduler</td>
       <td>2</td>
-      <td>3.125000</td>
+      <td>3.030303</td>
       <td>11.111111</td>
-      <td>7.118056</td>
-      <td>7.118056</td>
-      <td>5.647033</td>
+      <td>7.070707</td>
+      <td>7.070707</td>
+      <td>5.713994</td>
     </tr>
     <tr>
       <th>5</th>
       <td>com.github.kagkarlsson.scheduler.task</td>
       <td>2</td>
-      <td>3.125000</td>
+      <td>3.030303</td>
       <td>11.111111</td>
-      <td>7.118056</td>
-      <td>7.118056</td>
-      <td>5.647033</td>
+      <td>7.070707</td>
+      <td>7.070707</td>
+      <td>5.713994</td>
     </tr>
     <tr>
       <th>6</th>
       <td>com.thoughtworks.xstream</td>
       <td>2</td>
-      <td>3.125000</td>
+      <td>3.030303</td>
       <td>11.111111</td>
-      <td>7.118056</td>
-      <td>7.118056</td>
-      <td>5.647033</td>
+      <td>7.070707</td>
+      <td>7.070707</td>
+      <td>5.713994</td>
     </tr>
     <tr>
       <th>7</th>
@@ -1304,36 +1304,46 @@ This table shows the top 20 most widely spread external packages focussing on th
     </tr>
     <tr>
       <th>9</th>
-      <td>org.jobrunr.scheduling</td>
+      <td>org.apache.avro.message</td>
       <td>2</td>
-      <td>3.125000</td>
+      <td>1.515152</td>
       <td>11.111111</td>
-      <td>7.118056</td>
-      <td>7.118056</td>
-      <td>5.647033</td>
+      <td>6.313131</td>
+      <td>6.313131</td>
+      <td>6.785368</td>
     </tr>
     <tr>
       <th>10</th>
-      <td>org.reactivestreams</td>
+      <td>org.jobrunr.scheduling</td>
       <td>2</td>
-      <td>3.125000</td>
-      <td>9.090909</td>
-      <td>6.107955</td>
-      <td>6.107955</td>
-      <td>4.218535</td>
+      <td>3.030303</td>
+      <td>11.111111</td>
+      <td>7.070707</td>
+      <td>7.070707</td>
+      <td>5.713994</td>
     </tr>
     <tr>
       <th>11</th>
-      <td>reactor.core.publisher</td>
+      <td>org.reactivestreams</td>
       <td>2</td>
-      <td>3.125000</td>
-      <td>18.181818</td>
-      <td>10.653409</td>
-      <td>10.653409</td>
-      <td>10.646778</td>
+      <td>3.030303</td>
+      <td>9.090909</td>
+      <td>6.060606</td>
+      <td>6.060606</td>
+      <td>4.285496</td>
     </tr>
     <tr>
       <th>12</th>
+      <td>reactor.core.publisher</td>
+      <td>2</td>
+      <td>3.030303</td>
+      <td>18.181818</td>
+      <td>10.606061</td>
+      <td>10.606061</td>
+      <td>10.713739</td>
+    </tr>
+    <tr>
+      <th>13</th>
       <td>AggregateEventPublisherImpl</td>
       <td>1</td>
       <td>12.500000</td>
@@ -1343,7 +1353,7 @@ This table shows the top 20 most widely spread external packages focussing on th
       <td>0.000000</td>
     </tr>
     <tr>
-      <th>13</th>
+      <th>14</th>
       <td>WeakValue</td>
       <td>1</td>
       <td>100.000000</td>
@@ -1353,7 +1363,7 @@ This table shows the top 20 most widely spread external packages focussing on th
       <td>0.000000</td>
     </tr>
     <tr>
-      <th>14</th>
+      <th>15</th>
       <td>com.codahale.metrics</td>
       <td>1</td>
       <td>11.111111</td>
@@ -1363,53 +1373,43 @@ This table shows the top 20 most widely spread external packages focussing on th
       <td>0.000000</td>
     </tr>
     <tr>
-      <th>15</th>
+      <th>16</th>
       <td>com.fasterxml.jackson.annotation</td>
       <td>1</td>
-      <td>4.687500</td>
-      <td>4.687500</td>
-      <td>4.687500</td>
-      <td>4.687500</td>
-      <td>0.000000</td>
-    </tr>
-    <tr>
-      <th>16</th>
-      <td>com.fasterxml.jackson.core</td>
-      <td>1</td>
-      <td>1.562500</td>
-      <td>1.562500</td>
-      <td>1.562500</td>
-      <td>1.562500</td>
+      <td>4.545455</td>
+      <td>4.545455</td>
+      <td>4.545455</td>
+      <td>4.545455</td>
       <td>0.000000</td>
     </tr>
     <tr>
       <th>17</th>
-      <td>com.fasterxml.jackson.databind.jsontype</td>
+      <td>com.fasterxml.jackson.core</td>
       <td>1</td>
-      <td>1.562500</td>
-      <td>1.562500</td>
-      <td>1.562500</td>
-      <td>1.562500</td>
+      <td>1.515152</td>
+      <td>1.515152</td>
+      <td>1.515152</td>
+      <td>1.515152</td>
       <td>0.000000</td>
     </tr>
     <tr>
       <th>18</th>
-      <td>com.fasterxml.jackson.databind.module</td>
+      <td>com.fasterxml.jackson.databind.jsontype</td>
       <td>1</td>
-      <td>1.562500</td>
-      <td>1.562500</td>
-      <td>1.562500</td>
-      <td>1.562500</td>
+      <td>1.515152</td>
+      <td>1.515152</td>
+      <td>1.515152</td>
+      <td>1.515152</td>
       <td>0.000000</td>
     </tr>
     <tr>
       <th>19</th>
-      <td>com.fasterxml.jackson.databind.node</td>
+      <td>com.fasterxml.jackson.databind.module</td>
       <td>1</td>
-      <td>1.562500</td>
-      <td>1.562500</td>
-      <td>1.562500</td>
-      <td>1.562500</td>
+      <td>1.515152</td>
+      <td>1.515152</td>
+      <td>1.515152</td>
+      <td>1.515152</td>
       <td>0.000000</td>
     </tr>
   </tbody>
@@ -1445,10 +1445,10 @@ This table shows the top 20 most widely spread external packages focussing on th
       <td>org.slf4j</td>
       <td>9</td>
       <td>1</td>
-      <td>79</td>
+      <td>82</td>
       <td>8.0</td>
-      <td>16.00</td>
-      <td>24.433583</td>
+      <td>16.777778</td>
+      <td>25.528307</td>
     </tr>
     <tr>
       <th>1</th>
@@ -1457,7 +1457,7 @@ This table shows the top 20 most widely spread external packages focussing on th
       <td>3</td>
       <td>8</td>
       <td>3.0</td>
-      <td>4.25</td>
+      <td>4.250000</td>
       <td>2.500000</td>
     </tr>
     <tr>
@@ -1467,7 +1467,7 @@ This table shows the top 20 most widely spread external packages focussing on th
       <td>3</td>
       <td>8</td>
       <td>3.0</td>
-      <td>4.25</td>
+      <td>4.250000</td>
       <td>2.500000</td>
     </tr>
     <tr>
@@ -1477,7 +1477,7 @@ This table shows the top 20 most widely spread external packages focussing on th
       <td>2</td>
       <td>7</td>
       <td>4.5</td>
-      <td>4.50</td>
+      <td>4.500000</td>
       <td>3.535534</td>
     </tr>
     <tr>
@@ -1487,7 +1487,7 @@ This table shows the top 20 most widely spread external packages focussing on th
       <td>1</td>
       <td>4</td>
       <td>2.5</td>
-      <td>2.50</td>
+      <td>2.500000</td>
       <td>2.121320</td>
     </tr>
     <tr>
@@ -1497,7 +1497,7 @@ This table shows the top 20 most widely spread external packages focussing on th
       <td>1</td>
       <td>4</td>
       <td>2.5</td>
-      <td>2.50</td>
+      <td>2.500000</td>
       <td>2.121320</td>
     </tr>
     <tr>
@@ -1507,18 +1507,18 @@ This table shows the top 20 most widely spread external packages focussing on th
       <td>2</td>
       <td>4</td>
       <td>3.0</td>
-      <td>3.00</td>
+      <td>3.000000</td>
       <td>1.414214</td>
     </tr>
     <tr>
       <th>7</th>
       <td>io.axoniq.axonserver.connector.event</td>
       <td>2</td>
-      <td>2</td>
-      <td>13</td>
+      <td>1</td>
+      <td>14</td>
       <td>7.5</td>
-      <td>7.50</td>
-      <td>7.778175</td>
+      <td>7.500000</td>
+      <td>9.192388</td>
     </tr>
     <tr>
       <th>8</th>
@@ -1527,117 +1527,117 @@ This table shows the top 20 most widely spread external packages focussing on th
       <td>1</td>
       <td>4</td>
       <td>2.5</td>
-      <td>2.50</td>
+      <td>2.500000</td>
       <td>2.121320</td>
     </tr>
     <tr>
       <th>9</th>
+      <td>org.apache.avro.message</td>
+      <td>2</td>
+      <td>3</td>
+      <td>5</td>
+      <td>4.0</td>
+      <td>4.000000</td>
+      <td>1.414214</td>
+    </tr>
+    <tr>
+      <th>10</th>
       <td>org.jobrunr.scheduling</td>
       <td>2</td>
       <td>1</td>
       <td>4</td>
       <td>2.5</td>
-      <td>2.50</td>
+      <td>2.500000</td>
       <td>2.121320</td>
     </tr>
     <tr>
-      <th>10</th>
+      <th>11</th>
       <td>org.reactivestreams</td>
       <td>2</td>
       <td>4</td>
       <td>13</td>
       <td>8.5</td>
-      <td>8.50</td>
+      <td>8.500000</td>
       <td>6.363961</td>
     </tr>
     <tr>
-      <th>11</th>
+      <th>12</th>
       <td>reactor.core.publisher</td>
       <td>2</td>
       <td>9</td>
       <td>18</td>
       <td>13.5</td>
-      <td>13.50</td>
+      <td>13.500000</td>
       <td>6.363961</td>
     </tr>
     <tr>
-      <th>12</th>
+      <th>13</th>
       <td>AggregateEventPublisherImpl</td>
       <td>1</td>
       <td>1</td>
       <td>1</td>
       <td>1.0</td>
-      <td>1.00</td>
+      <td>1.000000</td>
       <td>0.000000</td>
     </tr>
     <tr>
-      <th>13</th>
+      <th>14</th>
       <td>WeakValue</td>
       <td>1</td>
       <td>1</td>
       <td>1</td>
       <td>1.0</td>
-      <td>1.00</td>
+      <td>1.000000</td>
       <td>0.000000</td>
     </tr>
     <tr>
-      <th>14</th>
+      <th>15</th>
       <td>com.codahale.metrics</td>
       <td>1</td>
       <td>1</td>
       <td>1</td>
       <td>1.0</td>
-      <td>1.00</td>
+      <td>1.000000</td>
       <td>0.000000</td>
     </tr>
     <tr>
-      <th>15</th>
+      <th>16</th>
       <td>com.fasterxml.jackson.annotation</td>
       <td>1</td>
       <td>5</td>
       <td>5</td>
       <td>5.0</td>
-      <td>5.00</td>
+      <td>5.000000</td>
       <td>0.000000</td>
     </tr>
     <tr>
-      <th>16</th>
+      <th>17</th>
       <td>com.fasterxml.jackson.core</td>
       <td>1</td>
       <td>3</td>
       <td>3</td>
       <td>3.0</td>
-      <td>3.00</td>
+      <td>3.000000</td>
       <td>0.000000</td>
     </tr>
     <tr>
-      <th>17</th>
+      <th>18</th>
       <td>com.fasterxml.jackson.databind.jsontype</td>
       <td>1</td>
       <td>1</td>
       <td>1</td>
       <td>1.0</td>
-      <td>1.00</td>
+      <td>1.000000</td>
       <td>0.000000</td>
     </tr>
     <tr>
-      <th>18</th>
+      <th>19</th>
       <td>com.fasterxml.jackson.databind.module</td>
       <td>1</td>
       <td>1</td>
       <td>1</td>
       <td>1.0</td>
-      <td>1.00</td>
-      <td>0.000000</td>
-    </tr>
-    <tr>
-      <th>19</th>
-      <td>com.fasterxml.jackson.databind.node</td>
-      <td>1</td>
-      <td>2</td>
-      <td>2</td>
-      <td>2.0</td>
-      <td>2.00</td>
+      <td>1.000000</td>
       <td>0.000000</td>
     </tr>
   </tbody>
@@ -1675,121 +1675,131 @@ This table shows the top 20 most widely spread external packages focussing on th
       <td>2.298851</td>
       <td>36.363636</td>
       <td>10.526316</td>
-      <td>13.370198</td>
-      <td>10.270014</td>
+      <td>13.534023</td>
+      <td>10.427346</td>
     </tr>
     <tr>
       <th>1</th>
       <td>jakarta.persistence</td>
       <td>4</td>
-      <td>1.016518</td>
-      <td>4.000000</td>
+      <td>0.988875</td>
+      <td>3.409091</td>
       <td>2.077187</td>
-      <td>2.292723</td>
-      <td>1.251678</td>
+      <td>2.138085</td>
+      <td>1.001207</td>
     </tr>
     <tr>
       <th>2</th>
       <td>javax.persistence</td>
       <td>4</td>
-      <td>1.016518</td>
-      <td>4.000000</td>
+      <td>0.988875</td>
+      <td>3.409091</td>
       <td>2.077187</td>
-      <td>2.292723</td>
-      <td>1.251678</td>
+      <td>2.138085</td>
+      <td>1.001207</td>
     </tr>
     <tr>
       <th>3</th>
       <td>com.fasterxml.jackson.databind</td>
       <td>2</td>
-      <td>0.889454</td>
-      <td>2.666667</td>
-      <td>1.778060</td>
-      <td>1.778060</td>
-      <td>1.256679</td>
+      <td>0.865266</td>
+      <td>2.272727</td>
+      <td>1.568997</td>
+      <td>1.568997</td>
+      <td>0.995226</td>
     </tr>
     <tr>
       <th>4</th>
       <td>com.github.kagkarlsson.scheduler</td>
       <td>2</td>
-      <td>0.508259</td>
-      <td>1.333333</td>
-      <td>0.920796</td>
-      <td>0.920796</td>
-      <td>0.583416</td>
+      <td>0.494438</td>
+      <td>1.136364</td>
+      <td>0.815401</td>
+      <td>0.815401</td>
+      <td>0.453910</td>
     </tr>
     <tr>
       <th>5</th>
       <td>com.github.kagkarlsson.scheduler.task</td>
       <td>2</td>
-      <td>0.508259</td>
-      <td>1.333333</td>
-      <td>0.920796</td>
-      <td>0.920796</td>
-      <td>0.583416</td>
+      <td>0.494438</td>
+      <td>1.136364</td>
+      <td>0.815401</td>
+      <td>0.815401</td>
+      <td>0.453910</td>
     </tr>
     <tr>
       <th>6</th>
       <td>com.thoughtworks.xstream</td>
       <td>2</td>
-      <td>0.508259</td>
-      <td>2.666667</td>
-      <td>1.587463</td>
-      <td>1.587463</td>
-      <td>1.526225</td>
+      <td>0.494438</td>
+      <td>2.272727</td>
+      <td>1.383582</td>
+      <td>1.383582</td>
+      <td>1.257441</td>
     </tr>
     <tr>
       <th>7</th>
       <td>io.axoniq.axonserver.connector.event</td>
       <td>2</td>
-      <td>2.666667</td>
-      <td>9.558824</td>
-      <td>6.112745</td>
-      <td>6.112745</td>
-      <td>4.873491</td>
+      <td>1.136364</td>
+      <td>9.859155</td>
+      <td>5.497759</td>
+      <td>5.497759</td>
+      <td>6.167945</td>
     </tr>
     <tr>
       <th>8</th>
       <td>io.axoniq.axonserver.connector.impl</td>
       <td>2</td>
-      <td>1.333333</td>
-      <td>2.941176</td>
-      <td>2.137255</td>
-      <td>2.137255</td>
-      <td>1.136917</td>
+      <td>1.136364</td>
+      <td>2.816901</td>
+      <td>1.976633</td>
+      <td>1.976633</td>
+      <td>1.188320</td>
     </tr>
     <tr>
       <th>9</th>
-      <td>org.jobrunr.scheduling</td>
+      <td>org.apache.avro.message</td>
       <td>2</td>
-      <td>0.508259</td>
-      <td>1.333333</td>
-      <td>0.920796</td>
-      <td>0.920796</td>
-      <td>0.583416</td>
+      <td>0.618047</td>
+      <td>3.409091</td>
+      <td>2.013569</td>
+      <td>2.013569</td>
+      <td>1.973566</td>
     </tr>
     <tr>
       <th>10</th>
-      <td>org.reactivestreams</td>
+      <td>org.jobrunr.scheduling</td>
       <td>2</td>
-      <td>1.651842</td>
-      <td>2.941176</td>
-      <td>2.296509</td>
-      <td>2.296509</td>
-      <td>0.911697</td>
+      <td>0.494438</td>
+      <td>1.136364</td>
+      <td>0.815401</td>
+      <td>0.815401</td>
+      <td>0.453910</td>
     </tr>
     <tr>
       <th>11</th>
-      <td>reactor.core.publisher</td>
+      <td>org.reactivestreams</td>
       <td>2</td>
-      <td>2.287166</td>
-      <td>6.617647</td>
-      <td>4.452407</td>
-      <td>4.452407</td>
-      <td>3.062112</td>
+      <td>1.606922</td>
+      <td>2.816901</td>
+      <td>2.211912</td>
+      <td>2.211912</td>
+      <td>0.855585</td>
     </tr>
     <tr>
       <th>12</th>
+      <td>reactor.core.publisher</td>
+      <td>2</td>
+      <td>2.224969</td>
+      <td>6.338028</td>
+      <td>4.281499</td>
+      <td>4.281499</td>
+      <td>2.908372</td>
+    </tr>
+    <tr>
+      <th>13</th>
       <td>AggregateEventPublisherImpl</td>
       <td>1</td>
       <td>1.149425</td>
@@ -1799,7 +1809,7 @@ This table shows the top 20 most widely spread external packages focussing on th
       <td>0.000000</td>
     </tr>
     <tr>
-      <th>13</th>
+      <th>14</th>
       <td>WeakValue</td>
       <td>1</td>
       <td>4.545455</td>
@@ -1809,63 +1819,53 @@ This table shows the top 20 most widely spread external packages focussing on th
       <td>0.000000</td>
     </tr>
     <tr>
-      <th>14</th>
+      <th>15</th>
       <td>com.codahale.metrics</td>
       <td>1</td>
-      <td>1.333333</td>
-      <td>1.333333</td>
-      <td>1.333333</td>
-      <td>1.333333</td>
-      <td>0.000000</td>
-    </tr>
-    <tr>
-      <th>15</th>
-      <td>com.fasterxml.jackson.annotation</td>
-      <td>1</td>
-      <td>0.635324</td>
-      <td>0.635324</td>
-      <td>0.635324</td>
-      <td>0.635324</td>
+      <td>1.136364</td>
+      <td>1.136364</td>
+      <td>1.136364</td>
+      <td>1.136364</td>
       <td>0.000000</td>
     </tr>
     <tr>
       <th>16</th>
-      <td>com.fasterxml.jackson.core</td>
+      <td>com.fasterxml.jackson.annotation</td>
       <td>1</td>
-      <td>0.381194</td>
-      <td>0.381194</td>
-      <td>0.381194</td>
-      <td>0.381194</td>
+      <td>0.618047</td>
+      <td>0.618047</td>
+      <td>0.618047</td>
+      <td>0.618047</td>
       <td>0.000000</td>
     </tr>
     <tr>
       <th>17</th>
-      <td>com.fasterxml.jackson.databind.jsontype</td>
+      <td>com.fasterxml.jackson.core</td>
       <td>1</td>
-      <td>0.127065</td>
-      <td>0.127065</td>
-      <td>0.127065</td>
-      <td>0.127065</td>
+      <td>0.370828</td>
+      <td>0.370828</td>
+      <td>0.370828</td>
+      <td>0.370828</td>
       <td>0.000000</td>
     </tr>
     <tr>
       <th>18</th>
-      <td>com.fasterxml.jackson.databind.module</td>
+      <td>com.fasterxml.jackson.databind.jsontype</td>
       <td>1</td>
-      <td>0.127065</td>
-      <td>0.127065</td>
-      <td>0.127065</td>
-      <td>0.127065</td>
+      <td>0.123609</td>
+      <td>0.123609</td>
+      <td>0.123609</td>
+      <td>0.123609</td>
       <td>0.000000</td>
     </tr>
     <tr>
       <th>19</th>
-      <td>com.fasterxml.jackson.databind.node</td>
+      <td>com.fasterxml.jackson.databind.module</td>
       <td>1</td>
-      <td>0.254130</td>
-      <td>0.254130</td>
-      <td>0.254130</td>
-      <td>0.254130</td>
+      <td>0.123609</td>
+      <td>0.123609</td>
+      <td>0.123609</td>
+      <td>0.123609</td>
       <td>0.000000</td>
     </tr>
   </tbody>
@@ -1987,25 +1987,25 @@ Only the top 20 entries are shown. The whole table can be found in the following
       <th>0</th>
       <td>org.slf4j</td>
       <td>9</td>
-      <td>66</td>
+      <td>67</td>
       <td>1</td>
-      <td>38</td>
+      <td>39</td>
       <td>3.0</td>
-      <td>7.333333</td>
-      <td>11.821590</td>
+      <td>7.444444</td>
+      <td>12.146101</td>
       <td>25.000000</td>
       <td>100.000000</td>
       <td>...</td>
-      <td>79</td>
+      <td>82</td>
       <td>8.0</td>
-      <td>16.00</td>
-      <td>24.433583</td>
+      <td>16.777778</td>
+      <td>25.528307</td>
       <td>2.298851</td>
       <td>36.363636</td>
       <td>10.526316</td>
-      <td>13.370198</td>
-      <td>10.270014</td>
-      <td>[axon-configuration-4.10.3, axon-eventsourcing...</td>
+      <td>13.534023</td>
+      <td>10.427346</td>
+      <td>[axon-disruptor-4.11.0, axon-tracing-opentelem...</td>
     </tr>
     <tr>
       <th>1</th>
@@ -2017,19 +2017,19 @@ Only the top 20 entries are shown. The whole table can be found in the following
       <td>2.0</td>
       <td>2.000000</td>
       <td>0.816497</td>
-      <td>4.687500</td>
+      <td>4.545455</td>
       <td>22.222222</td>
       <td>...</td>
       <td>8</td>
       <td>3.0</td>
-      <td>4.25</td>
+      <td>4.250000</td>
       <td>2.500000</td>
-      <td>1.016518</td>
-      <td>4.000000</td>
+      <td>0.988875</td>
+      <td>3.409091</td>
       <td>2.077187</td>
-      <td>2.292723</td>
-      <td>1.251678</td>
-      <td>[axon-eventsourcing-4.10.3, axon-spring-boot-a...</td>
+      <td>2.138085</td>
+      <td>1.001207</td>
+      <td>[axon-modelling-4.11.0, axon-eventsourcing-4.1...</td>
     </tr>
     <tr>
       <th>2</th>
@@ -2041,19 +2041,19 @@ Only the top 20 entries are shown. The whole table can be found in the following
       <td>2.5</td>
       <td>2.750000</td>
       <td>0.957427</td>
-      <td>6.250000</td>
+      <td>6.060606</td>
       <td>30.000000</td>
       <td>...</td>
       <td>8</td>
       <td>3.0</td>
-      <td>4.25</td>
+      <td>4.250000</td>
       <td>2.500000</td>
-      <td>1.016518</td>
-      <td>4.000000</td>
+      <td>0.988875</td>
+      <td>3.409091</td>
       <td>2.077187</td>
-      <td>2.292723</td>
-      <td>1.251678</td>
-      <td>[axon-eventsourcing-4.10.3, axon-spring-boot-a...</td>
+      <td>2.138085</td>
+      <td>1.001207</td>
+      <td>[axon-modelling-4.11.0, axon-eventsourcing-4.1...</td>
     </tr>
     <tr>
       <th>3</th>
@@ -2065,19 +2065,19 @@ Only the top 20 entries are shown. The whole table can be found in the following
       <td>2.5</td>
       <td>2.500000</td>
       <td>2.121320</td>
-      <td>6.250000</td>
+      <td>6.060606</td>
       <td>11.111111</td>
       <td>...</td>
       <td>12</td>
       <td>7.5</td>
-      <td>7.50</td>
+      <td>7.500000</td>
       <td>6.363961</td>
-      <td>1.524778</td>
-      <td>4.000000</td>
-      <td>2.762389</td>
-      <td>2.762389</td>
-      <td>1.750247</td>
-      <td>[axon-spring-boot-autoconfigure-4.10.3, axon-m...</td>
+      <td>1.483313</td>
+      <td>3.409091</td>
+      <td>2.446202</td>
+      <td>2.446202</td>
+      <td>1.361731</td>
+      <td>[axon-spring-boot-autoconfigure-4.11.0, axon-m...</td>
     </tr>
     <tr>
       <th>4</th>
@@ -2089,19 +2089,19 @@ Only the top 20 entries are shown. The whole table can be found in the following
       <td>1.5</td>
       <td>1.500000</td>
       <td>0.707107</td>
-      <td>3.125000</td>
+      <td>3.030303</td>
       <td>11.111111</td>
       <td>...</td>
       <td>6</td>
       <td>3.5</td>
-      <td>3.50</td>
+      <td>3.500000</td>
       <td>3.535534</td>
-      <td>0.762389</td>
-      <td>1.333333</td>
-      <td>1.047861</td>
-      <td>1.047861</td>
-      <td>0.403719</td>
-      <td>[axon-spring-boot-autoconfigure-4.10.3, axon-m...</td>
+      <td>0.741656</td>
+      <td>1.136364</td>
+      <td>0.939010</td>
+      <td>0.939010</td>
+      <td>0.279100</td>
+      <td>[axon-spring-boot-autoconfigure-4.11.0, axon-m...</td>
     </tr>
     <tr>
       <th>5</th>
@@ -2116,16 +2116,16 @@ Only the top 20 entries are shown. The whole table can be found in the following
       <td>12.500000</td>
       <td>27.272727</td>
       <td>...</td>
-      <td>8</td>
-      <td>4.5</td>
-      <td>4.50</td>
-      <td>4.949747</td>
+      <td>10</td>
+      <td>5.5</td>
+      <td>5.500000</td>
+      <td>6.363961</td>
       <td>1.149425</td>
-      <td>5.882353</td>
-      <td>3.515889</td>
-      <td>3.515889</td>
-      <td>3.346685</td>
-      <td>[axon-server-connector-4.10.3, axon-test-4.10.3]</td>
+      <td>7.042254</td>
+      <td>4.095839</td>
+      <td>4.095839</td>
+      <td>4.166859</td>
+      <td>[axon-server-connector-4.11.0, axon-test-4.11.0]</td>
     </tr>
     <tr>
       <th>6</th>
@@ -2137,19 +2137,19 @@ Only the top 20 entries are shown. The whole table can be found in the following
       <td>1.5</td>
       <td>1.500000</td>
       <td>0.707107</td>
-      <td>3.125000</td>
+      <td>3.030303</td>
       <td>11.111111</td>
       <td>...</td>
       <td>8</td>
       <td>5.0</td>
-      <td>5.00</td>
+      <td>5.000000</td>
       <td>4.242641</td>
-      <td>1.016518</td>
-      <td>2.666667</td>
-      <td>1.841593</td>
-      <td>1.841593</td>
-      <td>1.166831</td>
-      <td>[axon-spring-boot-autoconfigure-4.10.3, axon-m...</td>
+      <td>0.988875</td>
+      <td>2.272727</td>
+      <td>1.630801</td>
+      <td>1.630801</td>
+      <td>0.907821</td>
+      <td>[axon-spring-boot-autoconfigure-4.11.0, axon-m...</td>
     </tr>
     <tr>
       <th>7</th>
@@ -2164,19 +2164,43 @@ Only the top 20 entries are shown. The whole table can be found in the following
       <td>11.111111</td>
       <td>72.727273</td>
       <td>...</td>
-      <td>67</td>
+      <td>68</td>
       <td>34.5</td>
-      <td>34.50</td>
-      <td>45.961941</td>
-      <td>2.666667</td>
-      <td>49.264706</td>
-      <td>25.965686</td>
-      <td>25.965686</td>
-      <td>32.949790</td>
-      <td>[axon-server-connector-4.10.3, axon-spring-boo...</td>
+      <td>34.500000</td>
+      <td>47.376154</td>
+      <td>1.136364</td>
+      <td>47.887324</td>
+      <td>24.511844</td>
+      <td>24.511844</td>
+      <td>33.057921</td>
+      <td>[axon-server-connector-4.11.0, axon-spring-boo...</td>
     </tr>
     <tr>
       <th>8</th>
+      <td>org.apache</td>
+      <td>2</td>
+      <td>2</td>
+      <td>1</td>
+      <td>1</td>
+      <td>1.0</td>
+      <td>1.000000</td>
+      <td>0.000000</td>
+      <td>1.515152</td>
+      <td>11.111111</td>
+      <td>...</td>
+      <td>9</td>
+      <td>6.0</td>
+      <td>6.000000</td>
+      <td>4.242641</td>
+      <td>1.112485</td>
+      <td>3.409091</td>
+      <td>2.260788</td>
+      <td>2.260788</td>
+      <td>1.623946</td>
+      <td>[axon-spring-boot-autoconfigure-4.11.0, axon-m...</td>
+    </tr>
+    <tr>
+      <th>9</th>
       <td>org.jobrunr</td>
       <td>2</td>
       <td>3</td>
@@ -2185,22 +2209,22 @@ Only the top 20 entries are shown. The whole table can be found in the following
       <td>1.5</td>
       <td>1.500000</td>
       <td>0.707107</td>
-      <td>3.125000</td>
+      <td>3.030303</td>
       <td>11.111111</td>
       <td>...</td>
       <td>4</td>
       <td>2.5</td>
-      <td>2.50</td>
+      <td>2.500000</td>
       <td>2.121320</td>
-      <td>0.508259</td>
-      <td>1.333333</td>
-      <td>0.920796</td>
-      <td>0.920796</td>
-      <td>0.583416</td>
-      <td>[axon-spring-boot-autoconfigure-4.10.3, axon-m...</td>
+      <td>0.494438</td>
+      <td>1.136364</td>
+      <td>0.815401</td>
+      <td>0.815401</td>
+      <td>0.453910</td>
+      <td>[axon-spring-boot-autoconfigure-4.11.0, axon-m...</td>
     </tr>
     <tr>
-      <th>9</th>
+      <th>10</th>
       <td>org.reactivestreams</td>
       <td>2</td>
       <td>3</td>
@@ -2209,22 +2233,22 @@ Only the top 20 entries are shown. The whole table can be found in the following
       <td>1.5</td>
       <td>1.500000</td>
       <td>0.707107</td>
-      <td>3.125000</td>
+      <td>3.030303</td>
       <td>9.090909</td>
       <td>...</td>
       <td>13</td>
       <td>8.5</td>
-      <td>8.50</td>
+      <td>8.500000</td>
       <td>6.363961</td>
-      <td>1.651842</td>
-      <td>2.941176</td>
-      <td>2.296509</td>
-      <td>2.296509</td>
-      <td>0.911697</td>
-      <td>[axon-server-connector-4.10.3, axon-messaging-...</td>
+      <td>1.606922</td>
+      <td>2.816901</td>
+      <td>2.211912</td>
+      <td>2.211912</td>
+      <td>0.855585</td>
+      <td>[axon-server-connector-4.11.0, axon-messaging-...</td>
     </tr>
     <tr>
-      <th>10</th>
+      <th>11</th>
       <td>reactor.core</td>
       <td>2</td>
       <td>5</td>
@@ -2233,22 +2257,22 @@ Only the top 20 entries are shown. The whole table can be found in the following
       <td>2.5</td>
       <td>2.500000</td>
       <td>0.707107</td>
-      <td>3.125000</td>
+      <td>3.030303</td>
       <td>27.272727</td>
       <td>...</td>
       <td>18</td>
       <td>14.0</td>
-      <td>14.00</td>
+      <td>14.000000</td>
       <td>5.656854</td>
-      <td>2.287166</td>
-      <td>7.352941</td>
-      <td>4.820054</td>
-      <td>4.820054</td>
-      <td>3.582044</td>
-      <td>[axon-server-connector-4.10.3, axon-messaging-...</td>
+      <td>2.224969</td>
+      <td>7.042254</td>
+      <td>4.633611</td>
+      <td>4.633611</td>
+      <td>3.406334</td>
+      <td>[axon-server-connector-4.11.0, axon-messaging-...</td>
     </tr>
     <tr>
-      <th>11</th>
+      <th>12</th>
       <td>AggregateEventPublisherImpl</td>
       <td>1</td>
       <td>1</td>
@@ -2262,17 +2286,17 @@ Only the top 20 entries are shown. The whole table can be found in the following
       <td>...</td>
       <td>1</td>
       <td>1.0</td>
-      <td>1.00</td>
+      <td>1.000000</td>
       <td>0.000000</td>
       <td>1.149425</td>
       <td>1.149425</td>
       <td>1.149425</td>
       <td>1.149425</td>
       <td>0.000000</td>
-      <td>[axon-test-4.10.3]</td>
+      <td>[axon-test-4.11.0]</td>
     </tr>
     <tr>
-      <th>12</th>
+      <th>13</th>
       <td>WeakValue</td>
       <td>1</td>
       <td>1</td>
@@ -2286,17 +2310,17 @@ Only the top 20 entries are shown. The whole table can be found in the following
       <td>...</td>
       <td>1</td>
       <td>1.0</td>
-      <td>1.00</td>
+      <td>1.000000</td>
       <td>0.000000</td>
       <td>4.545455</td>
       <td>4.545455</td>
       <td>4.545455</td>
       <td>4.545455</td>
       <td>0.000000</td>
-      <td>[axon-disruptor-4.10.3]</td>
+      <td>[axon-disruptor-4.11.0]</td>
     </tr>
     <tr>
-      <th>13</th>
+      <th>14</th>
       <td>com.codahale</td>
       <td>1</td>
       <td>1</td>
@@ -2310,17 +2334,17 @@ Only the top 20 entries are shown. The whole table can be found in the following
       <td>...</td>
       <td>1</td>
       <td>1.0</td>
-      <td>1.00</td>
+      <td>1.000000</td>
       <td>0.000000</td>
-      <td>1.333333</td>
-      <td>1.333333</td>
-      <td>1.333333</td>
-      <td>1.333333</td>
+      <td>1.136364</td>
+      <td>1.136364</td>
+      <td>1.136364</td>
+      <td>1.136364</td>
       <td>0.000000</td>
-      <td>[axon-spring-boot-autoconfigure-4.10.3]</td>
+      <td>[axon-spring-boot-autoconfigure-4.11.0]</td>
     </tr>
     <tr>
-      <th>14</th>
+      <th>15</th>
       <td>com.lmax</td>
       <td>1</td>
       <td>1</td>
@@ -2334,17 +2358,17 @@ Only the top 20 entries are shown. The whole table can be found in the following
       <td>...</td>
       <td>7</td>
       <td>7.0</td>
-      <td>7.00</td>
+      <td>7.000000</td>
       <td>0.000000</td>
       <td>31.818182</td>
       <td>31.818182</td>
       <td>31.818182</td>
       <td>31.818182</td>
       <td>0.000000</td>
-      <td>[axon-disruptor-4.10.3]</td>
+      <td>[axon-disruptor-4.11.0]</td>
     </tr>
     <tr>
-      <th>15</th>
+      <th>16</th>
       <td>io.grpc</td>
       <td>1</td>
       <td>5</td>
@@ -2356,19 +2380,19 @@ Only the top 20 entries are shown. The whole table can be found in the following
       <td>45.454545</td>
       <td>45.454545</td>
       <td>...</td>
-      <td>18</td>
-      <td>18.0</td>
-      <td>18.00</td>
+      <td>21</td>
+      <td>21.0</td>
+      <td>21.000000</td>
       <td>0.000000</td>
-      <td>13.235294</td>
-      <td>13.235294</td>
-      <td>13.235294</td>
-      <td>13.235294</td>
+      <td>14.788732</td>
+      <td>14.788732</td>
+      <td>14.788732</td>
+      <td>14.788732</td>
       <td>0.000000</td>
-      <td>[axon-server-connector-4.10.3]</td>
+      <td>[axon-server-connector-4.11.0]</td>
     </tr>
     <tr>
-      <th>16</th>
+      <th>17</th>
       <td>io.micrometer</td>
       <td>1</td>
       <td>1</td>
@@ -2382,17 +2406,17 @@ Only the top 20 entries are shown. The whole table can be found in the following
       <td>...</td>
       <td>1</td>
       <td>1.0</td>
-      <td>1.00</td>
+      <td>1.000000</td>
       <td>0.000000</td>
-      <td>1.333333</td>
-      <td>1.333333</td>
-      <td>1.333333</td>
-      <td>1.333333</td>
+      <td>1.136364</td>
+      <td>1.136364</td>
+      <td>1.136364</td>
+      <td>1.136364</td>
       <td>0.000000</td>
-      <td>[axon-spring-boot-autoconfigure-4.10.3]</td>
+      <td>[axon-spring-boot-autoconfigure-4.11.0]</td>
     </tr>
     <tr>
-      <th>17</th>
+      <th>18</th>
       <td>io.opentelemetry</td>
       <td>1</td>
       <td>1</td>
@@ -2406,17 +2430,17 @@ Only the top 20 entries are shown. The whole table can be found in the following
       <td>...</td>
       <td>5</td>
       <td>5.0</td>
-      <td>5.00</td>
+      <td>5.000000</td>
       <td>0.000000</td>
       <td>100.000000</td>
       <td>100.000000</td>
       <td>100.000000</td>
       <td>100.000000</td>
       <td>0.000000</td>
-      <td>[axon-tracing-opentelemetry-4.10.3]</td>
+      <td>[axon-tracing-opentelemetry-4.11.0]</td>
     </tr>
     <tr>
-      <th>18</th>
+      <th>19</th>
       <td>jakarta.validation</td>
       <td>1</td>
       <td>1</td>
@@ -2425,43 +2449,19 @@ Only the top 20 entries are shown. The whole table can be found in the following
       <td>1.0</td>
       <td>1.000000</td>
       <td>0.000000</td>
-      <td>1.562500</td>
-      <td>1.562500</td>
+      <td>1.515152</td>
+      <td>1.515152</td>
       <td>...</td>
       <td>2</td>
       <td>2.0</td>
-      <td>2.00</td>
+      <td>2.000000</td>
       <td>0.000000</td>
-      <td>0.254130</td>
-      <td>0.254130</td>
-      <td>0.254130</td>
-      <td>0.254130</td>
+      <td>0.247219</td>
+      <td>0.247219</td>
+      <td>0.247219</td>
+      <td>0.247219</td>
       <td>0.000000</td>
-      <td>[axon-messaging-4.10.3]</td>
-    </tr>
-    <tr>
-      <th>19</th>
-      <td>javax.cache</td>
-      <td>1</td>
-      <td>1</td>
-      <td>1</td>
-      <td>1</td>
-      <td>1.0</td>
-      <td>1.000000</td>
-      <td>0.000000</td>
-      <td>1.562500</td>
-      <td>1.562500</td>
-      <td>...</td>
-      <td>2</td>
-      <td>2.0</td>
-      <td>2.00</td>
-      <td>0.000000</td>
-      <td>0.254130</td>
-      <td>0.254130</td>
-      <td>0.254130</td>
-      <td>0.254130</td>
-      <td>0.000000</td>
-      <td>[axon-messaging-4.10.3]</td>
+      <td>[axon-messaging-4.11.0]</td>
     </tr>
   </tbody>
 </table>
@@ -2557,92 +2557,92 @@ Only the last 20 entries are shown. The whole table can be found in the followin
     </tr>
     <tr>
       <th>2</th>
-      <td>org.axonframework.spring.eventsourcing</td>
-      <td>2</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>org.axonframework.spring.config.annotation</td>
-      <td>2</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>org.axonframework.micrometer</td>
-      <td>2</td>
-    </tr>
-    <tr>
-      <th>5</th>
       <td>org.axonframework.metrics</td>
       <td>2</td>
     </tr>
     <tr>
+      <th>3</th>
+      <td>org.axonframework.micrometer</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>org.jobrunr.jobs.states</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>org.axonframework.spring.config.annotation</td>
+      <td>2</td>
+    </tr>
+    <tr>
       <th>6</th>
-      <td>reactor.core.scheduler</td>
-      <td>3</td>
+      <td>org.axonframework.spring.eventsourcing</td>
+      <td>2</td>
     </tr>
     <tr>
       <th>7</th>
-      <td>org.springframework.boot.context.properties.bind</td>
+      <td>org.axonframework.spring.serialization.avro</td>
       <td>3</td>
     </tr>
     <tr>
       <th>8</th>
-      <td>com.fasterxml.jackson.databind.node</td>
-      <td>3</td>
-    </tr>
-    <tr>
-      <th>9</th>
-      <td>org.junit.jupiter.api.extension</td>
-      <td>3</td>
-    </tr>
-    <tr>
-      <th>10</th>
       <td>net.sf.ehcache.event</td>
       <td>3</td>
     </tr>
     <tr>
-      <th>11</th>
+      <th>9</th>
+      <td>com.fasterxml.jackson.databind.node</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>10</th>
       <td>javax.cache.configuration</td>
       <td>3</td>
     </tr>
     <tr>
+      <th>11</th>
+      <td>org.junit.jupiter.api.extension</td>
+      <td>3</td>
+    </tr>
+    <tr>
       <th>12</th>
+      <td>org.springframework.boot.context.properties.bind</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>reactor.core.scheduler</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>14</th>
       <td>com.fasterxml.jackson.core</td>
       <td>4</td>
     </tr>
     <tr>
-      <th>13</th>
+      <th>15</th>
       <td>org.testcontainers.containers.wait.strategy</td>
       <td>4</td>
     </tr>
     <tr>
-      <th>14</th>
-      <td>com.google.gson</td>
-      <td>4</td>
-    </tr>
-    <tr>
-      <th>15</th>
+      <th>16</th>
       <td>com.thoughtworks.xstream.io.xml</td>
       <td>4</td>
     </tr>
     <tr>
-      <th>16</th>
-      <td>org.springframework.beans.factory.config</td>
-      <td>4</td>
-    </tr>
-    <tr>
       <th>17</th>
-      <td>org.springframework.beans.factory.support</td>
+      <td>com.google.gson</td>
       <td>4</td>
     </tr>
     <tr>
       <th>18</th>
-      <td>org.springframework.beans.factory</td>
+      <td>org.springframework.beans.factory.config</td>
       <td>4</td>
     </tr>
     <tr>
       <th>19</th>
-      <td>org.springframework.boot.testcontainers.servic...</td>
+      <td>org.springframework.beans.factory.support</td>
       <td>4</td>
     </tr>
   </tbody>
@@ -2696,7 +2696,7 @@ Only the last 40 entries are shown. The whole table can be found in the followin
   <tbody>
     <tr>
       <th>0</th>
-      <td>axon-tracing-opentelemetry-4.10.3</td>
+      <td>axon-tracing-opentelemetry-4.11.0</td>
       <td>io.opentelemetry.api.trace</td>
       <td>9</td>
       <td>47</td>
@@ -2704,11 +2704,11 @@ Only the last 40 entries are shown. The whole table can be found in the followin
       <td>16</td>
       <td>6</td>
       <td>320.000000</td>
-      <td>[SpanBuilder, Span, SpanKind, Tracer, SpanCont...</td>
+      <td>[Tracer, SpanContext, SpanBuilder, StatusCode,...</td>
     </tr>
     <tr>
       <th>1</th>
-      <td>axon-tracing-opentelemetry-4.10.3</td>
+      <td>axon-tracing-opentelemetry-4.11.0</td>
       <td>io.opentelemetry.context.propagation</td>
       <td>9</td>
       <td>18</td>
@@ -2716,11 +2716,11 @@ Only the last 40 entries are shown. The whole table can be found in the followin
       <td>16</td>
       <td>6</td>
       <td>320.000000</td>
-      <td>[TextMapSetter, TextMapGetter, TextMapPropagat...</td>
+      <td>[TextMapGetter, ContextPropagators, TextMapPro...</td>
     </tr>
     <tr>
       <th>2</th>
-      <td>axon-tracing-opentelemetry-4.10.3</td>
+      <td>axon-tracing-opentelemetry-4.11.0</td>
       <td>javax.annotation</td>
       <td>3</td>
       <td>8</td>
@@ -2732,7 +2732,7 @@ Only the last 40 entries are shown. The whole table can be found in the followin
     </tr>
     <tr>
       <th>3</th>
-      <td>axon-tracing-opentelemetry-4.10.3</td>
+      <td>axon-tracing-opentelemetry-4.11.0</td>
       <td>io.opentelemetry.context</td>
       <td>2</td>
       <td>7</td>
@@ -2740,11 +2740,11 @@ Only the last 40 entries are shown. The whole table can be found in the followin
       <td>16</td>
       <td>6</td>
       <td>320.000000</td>
-      <td>[Context, Scope]</td>
+      <td>[Scope, Context]</td>
     </tr>
     <tr>
       <th>4</th>
-      <td>axon-tracing-opentelemetry-4.10.3</td>
+      <td>axon-tracing-opentelemetry-4.11.0</td>
       <td>org.slf4j</td>
       <td>2</td>
       <td>7</td>
@@ -2752,11 +2752,11 @@ Only the last 40 entries are shown. The whole table can be found in the followin
       <td>16</td>
       <td>6</td>
       <td>320.000000</td>
-      <td>[Logger, LoggerFactory]</td>
+      <td>[LoggerFactory, Logger]</td>
     </tr>
     <tr>
       <th>5</th>
-      <td>axon-tracing-opentelemetry-4.10.3</td>
+      <td>axon-tracing-opentelemetry-4.11.0</td>
       <td>io.opentelemetry.api</td>
       <td>1</td>
       <td>2</td>
@@ -2768,411 +2768,411 @@ Only the last 40 entries are shown. The whole table can be found in the followin
     </tr>
     <tr>
       <th>6</th>
-      <td>axon-spring-boot-autoconfigure-4.10.3</td>
+      <td>axon-spring-boot-autoconfigure-4.11.0</td>
       <td>org.springframework.boot.autoconfigure.condition</td>
-      <td>65</td>
-      <td>152</td>
       <td>75</td>
-      <td>101</td>
-      <td>47</td>
-      <td>134.666667</td>
-      <td>[ConditionalOnBean, ConditionalOnClass, Condit...</td>
+      <td>168</td>
+      <td>88</td>
+      <td>112</td>
+      <td>52</td>
+      <td>127.272727</td>
+      <td>[ConditionalOnBean, ConditionalOnMissingBean, ...</td>
     </tr>
     <tr>
       <th>7</th>
-      <td>axon-spring-boot-autoconfigure-4.10.3</td>
+      <td>axon-spring-boot-autoconfigure-4.11.0</td>
       <td>org.springframework.boot.autoconfigure</td>
-      <td>54</td>
-      <td>55</td>
-      <td>75</td>
-      <td>101</td>
-      <td>47</td>
-      <td>134.666667</td>
-      <td>[AutoConfiguration, AutoConfigureAfter, AutoCo...</td>
+      <td>61</td>
+      <td>63</td>
+      <td>88</td>
+      <td>112</td>
+      <td>52</td>
+      <td>127.272727</td>
+      <td>[AutoConfigureBefore, AutoConfiguration, AutoC...</td>
     </tr>
     <tr>
       <th>8</th>
-      <td>axon-spring-boot-autoconfigure-4.10.3</td>
+      <td>axon-spring-boot-autoconfigure-4.11.0</td>
       <td>org.springframework.context.annotation</td>
-      <td>41</td>
-      <td>135</td>
-      <td>75</td>
-      <td>101</td>
-      <td>47</td>
-      <td>134.666667</td>
-      <td>[Bean, Configuration, Lazy, Conditional, Impor...</td>
+      <td>48</td>
+      <td>152</td>
+      <td>88</td>
+      <td>112</td>
+      <td>52</td>
+      <td>127.272727</td>
+      <td>[Bean, Conditional, ConditionContext, Configur...</td>
     </tr>
     <tr>
       <th>9</th>
-      <td>axon-spring-boot-autoconfigure-4.10.3</td>
+      <td>axon-spring-boot-autoconfigure-4.11.0</td>
       <td>org.springframework.boot.context.properties</td>
-      <td>18</td>
-      <td>18</td>
-      <td>75</td>
-      <td>101</td>
-      <td>47</td>
-      <td>134.666667</td>
-      <td>[EnableConfigurationProperties, ConfigurationP...</td>
+      <td>22</td>
+      <td>28</td>
+      <td>88</td>
+      <td>112</td>
+      <td>52</td>
+      <td>127.272727</td>
+      <td>[ConfigurationProperties, EnableConfigurationP...</td>
     </tr>
     <tr>
       <th>10</th>
-      <td>axon-spring-boot-autoconfigure-4.10.3</td>
+      <td>axon-spring-boot-autoconfigure-4.11.0</td>
       <td>org.springframework.beans.factory.annotation</td>
       <td>11</td>
       <td>28</td>
-      <td>75</td>
-      <td>101</td>
-      <td>47</td>
-      <td>134.666667</td>
+      <td>88</td>
+      <td>112</td>
+      <td>52</td>
+      <td>127.272727</td>
       <td>[Qualifier, Autowired]</td>
     </tr>
     <tr>
       <th>11</th>
-      <td>axon-spring-boot-autoconfigure-4.10.3</td>
+      <td>axon-spring-boot-autoconfigure-4.11.0</td>
       <td>javax.annotation</td>
       <td>8</td>
       <td>9</td>
-      <td>75</td>
-      <td>101</td>
-      <td>47</td>
-      <td>134.666667</td>
+      <td>88</td>
+      <td>112</td>
+      <td>52</td>
+      <td>127.272727</td>
       <td>[Nonnull]</td>
     </tr>
     <tr>
       <th>12</th>
-      <td>axon-spring-boot-autoconfigure-4.10.3</td>
+      <td>axon-spring-boot-autoconfigure-4.11.0</td>
       <td>org.slf4j</td>
       <td>8</td>
       <td>13</td>
-      <td>75</td>
-      <td>101</td>
-      <td>47</td>
-      <td>134.666667</td>
-      <td>[Logger, LoggerFactory]</td>
+      <td>88</td>
+      <td>112</td>
+      <td>52</td>
+      <td>127.272727</td>
+      <td>[LoggerFactory, Logger]</td>
     </tr>
     <tr>
       <th>13</th>
-      <td>axon-spring-boot-autoconfigure-4.10.3</td>
+      <td>axon-spring-boot-autoconfigure-4.11.0</td>
       <td>org.springframework.boot.actuate.health</td>
       <td>7</td>
       <td>24</td>
-      <td>75</td>
-      <td>101</td>
-      <td>47</td>
-      <td>134.666667</td>
-      <td>[Status, AbstractHealthIndicator, Health$Build...</td>
+      <td>88</td>
+      <td>112</td>
+      <td>52</td>
+      <td>127.272727</td>
+      <td>[SimpleStatusAggregator, Status, AbstractHealt...</td>
     </tr>
     <tr>
       <th>14</th>
-      <td>axon-spring-boot-autoconfigure-4.10.3</td>
-      <td>org.springframework.context</td>
+      <td>axon-spring-boot-autoconfigure-4.11.0</td>
+      <td>org.axonframework.spring.config</td>
       <td>6</td>
-      <td>24</td>
-      <td>75</td>
-      <td>101</td>
-      <td>47</td>
-      <td>134.666667</td>
-      <td>[ApplicationContextAware, ApplicationContext]</td>
+      <td>18</td>
+      <td>88</td>
+      <td>112</td>
+      <td>52</td>
+      <td>127.272727</td>
+      <td>[SpringConfigurer, MessageHandlerLookup, Sprin...</td>
     </tr>
     <tr>
       <th>15</th>
-      <td>axon-spring-boot-autoconfigure-4.10.3</td>
-      <td>org.axonframework.spring.config</td>
-      <td>5</td>
-      <td>17</td>
-      <td>75</td>
-      <td>101</td>
-      <td>47</td>
-      <td>134.666667</td>
-      <td>[SpringConfigurer, SpringSagaLookup, SpringAgg...</td>
+      <td>axon-spring-boot-autoconfigure-4.11.0</td>
+      <td>org.springframework.beans.factory</td>
+      <td>6</td>
+      <td>21</td>
+      <td>88</td>
+      <td>112</td>
+      <td>52</td>
+      <td>127.272727</td>
+      <td>[InitializingBean, BeanClassLoaderAware, NoSuc...</td>
     </tr>
     <tr>
       <th>16</th>
-      <td>axon-spring-boot-autoconfigure-4.10.3</td>
-      <td>jakarta.persistence</td>
-      <td>4</td>
+      <td>axon-spring-boot-autoconfigure-4.11.0</td>
+      <td>org.springframework.context</td>
       <td>6</td>
-      <td>75</td>
-      <td>101</td>
-      <td>47</td>
-      <td>134.666667</td>
-      <td>[PersistenceContext, EntityManager, EntityMana...</td>
+      <td>24</td>
+      <td>88</td>
+      <td>112</td>
+      <td>52</td>
+      <td>127.272727</td>
+      <td>[ApplicationContext, ApplicationContextAware]</td>
     </tr>
     <tr>
       <th>17</th>
-      <td>axon-spring-boot-autoconfigure-4.10.3</td>
-      <td>javax.persistence</td>
+      <td>axon-spring-boot-autoconfigure-4.11.0</td>
+      <td>jakarta.persistence</td>
       <td>4</td>
       <td>6</td>
-      <td>75</td>
-      <td>101</td>
-      <td>47</td>
-      <td>134.666667</td>
-      <td>[EntityManagerFactory, PersistenceContext, Ent...</td>
+      <td>88</td>
+      <td>112</td>
+      <td>52</td>
+      <td>127.272727</td>
+      <td>[EntityManagerFactory, EntityManager, Persiste...</td>
     </tr>
     <tr>
       <th>18</th>
-      <td>axon-spring-boot-autoconfigure-4.10.3</td>
-      <td>org.springframework.beans.factory</td>
+      <td>axon-spring-boot-autoconfigure-4.11.0</td>
+      <td>javax.persistence</td>
       <td>4</td>
-      <td>14</td>
-      <td>75</td>
-      <td>101</td>
-      <td>47</td>
-      <td>134.666667</td>
-      <td>[InitializingBean, NoSuchBeanDefinitionExcepti...</td>
+      <td>6</td>
+      <td>88</td>
+      <td>112</td>
+      <td>52</td>
+      <td>127.272727</td>
+      <td>[EntityManager, PersistenceContext, EntityMana...</td>
     </tr>
     <tr>
       <th>19</th>
-      <td>axon-spring-boot-autoconfigure-4.10.3</td>
-      <td>org.springframework.beans.factory.config</td>
+      <td>axon-spring-boot-autoconfigure-4.11.0</td>
+      <td>org.apache.avro.message</td>
       <td>4</td>
-      <td>7</td>
-      <td>75</td>
-      <td>101</td>
-      <td>47</td>
-      <td>134.666667</td>
-      <td>[ConfigurableListableBeanFactory, RuntimeBeanR...</td>
+      <td>10</td>
+      <td>88</td>
+      <td>112</td>
+      <td>52</td>
+      <td>127.272727</td>
+      <td>[SchemaStore, SchemaStore$Cache]</td>
     </tr>
     <tr>
       <th>20</th>
-      <td>axon-spring-boot-autoconfigure-4.10.3</td>
-      <td>org.springframework.beans.factory.support</td>
+      <td>axon-spring-boot-autoconfigure-4.11.0</td>
+      <td>org.springframework.beans.factory.config</td>
       <td>4</td>
-      <td>21</td>
-      <td>75</td>
-      <td>101</td>
-      <td>47</td>
-      <td>134.666667</td>
-      <td>[BeanDefinitionRegistry, BeanDefinitionBuilder...</td>
+      <td>7</td>
+      <td>88</td>
+      <td>112</td>
+      <td>52</td>
+      <td>127.272727</td>
+      <td>[ConfigurableListableBeanFactory, RuntimeBeanR...</td>
     </tr>
     <tr>
       <th>21</th>
-      <td>axon-spring-boot-autoconfigure-4.10.3</td>
-      <td>org.springframework.boot.testcontainers.servic...</td>
+      <td>axon-spring-boot-autoconfigure-4.11.0</td>
+      <td>org.springframework.beans.factory.support</td>
       <td>4</td>
-      <td>9</td>
-      <td>75</td>
-      <td>101</td>
-      <td>47</td>
-      <td>134.666667</td>
-      <td>[ContainerConnectionDetailsFactory, ContainerC...</td>
+      <td>21</td>
+      <td>88</td>
+      <td>112</td>
+      <td>52</td>
+      <td>127.272727</td>
+      <td>[BeanDefinitionBuilder, BeanDefinitionRegistry...</td>
     </tr>
     <tr>
       <th>22</th>
-      <td>axon-spring-boot-autoconfigure-4.10.3</td>
-      <td>org.springframework.core.annotation</td>
+      <td>axon-spring-boot-autoconfigure-4.11.0</td>
+      <td>org.springframework.boot.testcontainers.servic...</td>
       <td>4</td>
-      <td>4</td>
-      <td>75</td>
-      <td>101</td>
-      <td>47</td>
-      <td>134.666667</td>
-      <td>[Order, AnnotationAwareOrderComparator]</td>
+      <td>9</td>
+      <td>88</td>
+      <td>112</td>
+      <td>52</td>
+      <td>127.272727</td>
+      <td>[ContainerConnectionSource, ContainerConnectio...</td>
     </tr>
     <tr>
       <th>23</th>
-      <td>axon-spring-boot-autoconfigure-4.10.3</td>
-      <td>org.springframework.boot.autoconfigure.orm.jpa</td>
-      <td>3</td>
-      <td>3</td>
-      <td>75</td>
-      <td>101</td>
-      <td>47</td>
-      <td>134.666667</td>
-      <td>[HibernateJpaAutoConfiguration]</td>
+      <td>axon-spring-boot-autoconfigure-4.11.0</td>
+      <td>org.springframework.core.annotation</td>
+      <td>4</td>
+      <td>4</td>
+      <td>88</td>
+      <td>112</td>
+      <td>52</td>
+      <td>127.272727</td>
+      <td>[Order, AnnotationAwareOrderComparator]</td>
     </tr>
     <tr>
       <th>24</th>
-      <td>axon-spring-boot-autoconfigure-4.10.3</td>
-      <td>org.springframework.boot.autoconfigure.service...</td>
+      <td>axon-spring-boot-autoconfigure-4.11.0</td>
+      <td>org.axonframework.spring.serialization.avro</td>
       <td>3</td>
-      <td>3</td>
-      <td>75</td>
-      <td>101</td>
-      <td>47</td>
-      <td>134.666667</td>
-      <td>[ConnectionDetails]</td>
+      <td>8</td>
+      <td>88</td>
+      <td>112</td>
+      <td>52</td>
+      <td>127.272727</td>
+      <td>[ClasspathAvroSchemaLoader, AvroSchemaPackages...</td>
     </tr>
     <tr>
       <th>25</th>
-      <td>axon-spring-boot-autoconfigure-4.10.3</td>
-      <td>org.springframework.boot.context.properties.bind</td>
+      <td>axon-spring-boot-autoconfigure-4.11.0</td>
+      <td>org.springframework.boot.autoconfigure.orm.jpa</td>
       <td>3</td>
-      <td>4</td>
-      <td>75</td>
-      <td>101</td>
-      <td>47</td>
-      <td>134.666667</td>
-      <td>[Binder, BindResult, Bindable]</td>
+      <td>3</td>
+      <td>88</td>
+      <td>112</td>
+      <td>52</td>
+      <td>127.272727</td>
+      <td>[HibernateJpaAutoConfiguration]</td>
     </tr>
     <tr>
       <th>26</th>
-      <td>axon-spring-boot-autoconfigure-4.10.3</td>
-      <td>com.fasterxml.jackson.databind</td>
-      <td>2</td>
-      <td>10</td>
-      <td>75</td>
-      <td>101</td>
-      <td>47</td>
-      <td>134.666667</td>
-      <td>[ObjectMapper]</td>
+      <td>axon-spring-boot-autoconfigure-4.11.0</td>
+      <td>org.springframework.boot.autoconfigure.service...</td>
+      <td>3</td>
+      <td>3</td>
+      <td>88</td>
+      <td>112</td>
+      <td>52</td>
+      <td>127.272727</td>
+      <td>[ConnectionDetails]</td>
     </tr>
     <tr>
       <th>27</th>
-      <td>axon-spring-boot-autoconfigure-4.10.3</td>
-      <td>com.fasterxml.jackson.dataformat.cbor.databind</td>
-      <td>2</td>
-      <td>8</td>
-      <td>75</td>
-      <td>101</td>
-      <td>47</td>
-      <td>134.666667</td>
-      <td>[CBORMapper]</td>
+      <td>axon-spring-boot-autoconfigure-4.11.0</td>
+      <td>org.springframework.boot.context.properties.bind</td>
+      <td>3</td>
+      <td>4</td>
+      <td>88</td>
+      <td>112</td>
+      <td>52</td>
+      <td>127.272727</td>
+      <td>[BindResult, Bindable, Binder]</td>
     </tr>
     <tr>
       <th>28</th>
-      <td>axon-spring-boot-autoconfigure-4.10.3</td>
-      <td>com.thoughtworks.xstream</td>
+      <td>axon-spring-boot-autoconfigure-4.11.0</td>
+      <td>com.fasterxml.jackson.databind</td>
       <td>2</td>
-      <td>8</td>
-      <td>75</td>
-      <td>101</td>
-      <td>47</td>
-      <td>134.666667</td>
-      <td>[XStream]</td>
+      <td>10</td>
+      <td>88</td>
+      <td>112</td>
+      <td>52</td>
+      <td>127.272727</td>
+      <td>[ObjectMapper]</td>
     </tr>
     <tr>
       <th>29</th>
-      <td>axon-spring-boot-autoconfigure-4.10.3</td>
-      <td>io.axoniq.axonserver.connector.event</td>
+      <td>axon-spring-boot-autoconfigure-4.11.0</td>
+      <td>com.fasterxml.jackson.dataformat.cbor.databind</td>
       <td>2</td>
-      <td>2</td>
-      <td>75</td>
-      <td>101</td>
-      <td>47</td>
-      <td>134.666667</td>
-      <td>[PersistentStreamProperties]</td>
+      <td>8</td>
+      <td>88</td>
+      <td>112</td>
+      <td>52</td>
+      <td>127.272727</td>
+      <td>[CBORMapper]</td>
     </tr>
     <tr>
       <th>30</th>
-      <td>axon-spring-boot-autoconfigure-4.10.3</td>
-      <td>org.axonframework.metrics</td>
+      <td>axon-spring-boot-autoconfigure-4.11.0</td>
+      <td>com.thoughtworks.xstream</td>
       <td>2</td>
       <td>8</td>
-      <td>75</td>
-      <td>101</td>
-      <td>47</td>
-      <td>134.666667</td>
-      <td>[MetricsConfigurerModule, GlobalMetricRegistry]</td>
+      <td>88</td>
+      <td>112</td>
+      <td>52</td>
+      <td>127.272727</td>
+      <td>[XStream]</td>
     </tr>
     <tr>
       <th>31</th>
-      <td>axon-spring-boot-autoconfigure-4.10.3</td>
-      <td>org.axonframework.micrometer</td>
+      <td>axon-spring-boot-autoconfigure-4.11.0</td>
+      <td>org.axonframework.metrics</td>
       <td>2</td>
-      <td>10</td>
-      <td>75</td>
-      <td>101</td>
-      <td>47</td>
-      <td>134.666667</td>
+      <td>8</td>
+      <td>88</td>
+      <td>112</td>
+      <td>52</td>
+      <td>127.272727</td>
       <td>[MetricsConfigurerModule, GlobalMetricRegistry]</td>
     </tr>
     <tr>
       <th>32</th>
-      <td>axon-spring-boot-autoconfigure-4.10.3</td>
-      <td>org.axonframework.spring.config.annotation</td>
+      <td>axon-spring-boot-autoconfigure-4.11.0</td>
+      <td>org.axonframework.micrometer</td>
       <td>2</td>
-      <td>7</td>
-      <td>75</td>
-      <td>101</td>
-      <td>47</td>
-      <td>134.666667</td>
-      <td>[SpringParameterResolverFactoryBean, HandlerDe...</td>
+      <td>10</td>
+      <td>88</td>
+      <td>112</td>
+      <td>52</td>
+      <td>127.272727</td>
+      <td>[MetricsConfigurerModule, GlobalMetricRegistry]</td>
     </tr>
     <tr>
       <th>33</th>
-      <td>axon-spring-boot-autoconfigure-4.10.3</td>
-      <td>org.axonframework.spring.eventsourcing</td>
+      <td>axon-spring-boot-autoconfigure-4.11.0</td>
+      <td>org.axonframework.spring.config.annotation</td>
       <td>2</td>
-      <td>10</td>
-      <td>75</td>
-      <td>101</td>
-      <td>47</td>
-      <td>134.666667</td>
-      <td>[SpringAggregateSnapshotter, SpringAggregateSn...</td>
+      <td>7</td>
+      <td>88</td>
+      <td>112</td>
+      <td>52</td>
+      <td>127.272727</td>
+      <td>[SpringParameterResolverFactoryBean, HandlerDe...</td>
     </tr>
     <tr>
       <th>34</th>
-      <td>axon-spring-boot-autoconfigure-4.10.3</td>
-      <td>org.springframework.beans</td>
+      <td>axon-spring-boot-autoconfigure-4.11.0</td>
+      <td>org.axonframework.spring.eventsourcing</td>
       <td>2</td>
-      <td>3</td>
-      <td>75</td>
-      <td>101</td>
-      <td>47</td>
-      <td>134.666667</td>
-      <td>[BeansException]</td>
+      <td>10</td>
+      <td>88</td>
+      <td>112</td>
+      <td>52</td>
+      <td>127.272727</td>
+      <td>[SpringAggregateSnapshotter, SpringAggregateSn...</td>
     </tr>
     <tr>
       <th>35</th>
-      <td>axon-spring-boot-autoconfigure-4.10.3</td>
-      <td>org.springframework.boot.docker.compose.core</td>
+      <td>axon-spring-boot-autoconfigure-4.11.0</td>
+      <td>org.springframework.beans</td>
       <td>2</td>
-      <td>5</td>
-      <td>75</td>
-      <td>101</td>
-      <td>47</td>
-      <td>134.666667</td>
-      <td>[RunningService, ConnectionPorts]</td>
+      <td>3</td>
+      <td>88</td>
+      <td>112</td>
+      <td>52</td>
+      <td>127.272727</td>
+      <td>[BeansException]</td>
     </tr>
     <tr>
       <th>36</th>
-      <td>axon-spring-boot-autoconfigure-4.10.3</td>
-      <td>org.springframework.boot.docker.compose.servic...</td>
+      <td>axon-spring-boot-autoconfigure-4.11.0</td>
+      <td>org.springframework.boot.docker.compose.core</td>
       <td>2</td>
       <td>5</td>
-      <td>75</td>
-      <td>101</td>
-      <td>47</td>
-      <td>134.666667</td>
-      <td>[DockerComposeConnectionDetailsFactory, Docker...</td>
+      <td>88</td>
+      <td>112</td>
+      <td>52</td>
+      <td>127.272727</td>
+      <td>[RunningService, ConnectionPorts]</td>
     </tr>
     <tr>
       <th>37</th>
-      <td>axon-spring-boot-autoconfigure-4.10.3</td>
-      <td>org.springframework.core.env</td>
+      <td>axon-spring-boot-autoconfigure-4.11.0</td>
+      <td>org.springframework.boot.docker.compose.servic...</td>
       <td>2</td>
-      <td>2</td>
-      <td>75</td>
-      <td>101</td>
-      <td>47</td>
-      <td>134.666667</td>
-      <td>[Environment]</td>
+      <td>5</td>
+      <td>88</td>
+      <td>112</td>
+      <td>52</td>
+      <td>127.272727</td>
+      <td>[DockerComposeConnectionSource, DockerComposeC...</td>
     </tr>
     <tr>
       <th>38</th>
-      <td>axon-spring-boot-autoconfigure-4.10.3</td>
-      <td>org.springframework.core.type</td>
+      <td>axon-spring-boot-autoconfigure-4.11.0</td>
+      <td>org.springframework.core.env</td>
       <td>2</td>
-      <td>4</td>
-      <td>75</td>
-      <td>101</td>
-      <td>47</td>
-      <td>134.666667</td>
-      <td>[AnnotationMetadata, AnnotatedTypeMetadata]</td>
+      <td>2</td>
+      <td>88</td>
+      <td>112</td>
+      <td>52</td>
+      <td>127.272727</td>
+      <td>[Environment]</td>
     </tr>
     <tr>
       <th>39</th>
-      <td>axon-spring-boot-autoconfigure-4.10.3</td>
-      <td>com.codahale.metrics</td>
-      <td>1</td>
-      <td>6</td>
-      <td>75</td>
-      <td>101</td>
-      <td>47</td>
-      <td>134.666667</td>
-      <td>[MetricRegistry]</td>
+      <td>axon-spring-boot-autoconfigure-4.11.0</td>
+      <td>org.springframework.core.type</td>
+      <td>2</td>
+      <td>4</td>
+      <td>88</td>
+      <td>112</td>
+      <td>52</td>
+      <td>127.272727</td>
+      <td>[AnnotatedTypeMetadata, AnnotationMetadata]</td>
     </tr>
   </tbody>
 </table>
@@ -3233,7 +3233,7 @@ Only the last 30 entries are shown. The whole table can be found in the followin
   <tbody>
     <tr>
       <th>0</th>
-      <td>axon-configuration-4.10.3</td>
+      <td>axon-configuration-4.11.0</td>
       <td>1</td>
       <td>41</td>
       <td>2</td>
@@ -3245,11 +3245,11 @@ Only the last 30 entries are shown. The whole table can be found in the followin
       <td>100.000000</td>
       <td>31.707317</td>
       <td>[org.axonframework.config]</td>
-      <td>[org.axonframework.config.ConfigurerModule, or...</td>
+      <td>[org.axonframework.config.Configuration$1, org...</td>
     </tr>
     <tr>
       <th>1</th>
-      <td>axon-configuration-4.10.3</td>
+      <td>axon-configuration-4.11.0</td>
       <td>1</td>
       <td>41</td>
       <td>2</td>
@@ -3261,11 +3261,11 @@ Only the last 30 entries are shown. The whole table can be found in the followin
       <td>100.000000</td>
       <td>14.634146</td>
       <td>[org.axonframework.config]</td>
-      <td>[org.axonframework.config.DefaultConfigurer$Co...</td>
+      <td>[org.axonframework.config.Component, org.axonf...</td>
     </tr>
     <tr>
       <th>2</th>
-      <td>axon-disruptor-4.10.3</td>
+      <td>axon-disruptor-4.11.0</td>
       <td>1</td>
       <td>22</td>
       <td>5</td>
@@ -3281,7 +3281,7 @@ Only the last 30 entries are shown. The whole table can be found in the followin
     </tr>
     <tr>
       <th>3</th>
-      <td>axon-disruptor-4.10.3</td>
+      <td>axon-disruptor-4.11.0</td>
       <td>1</td>
       <td>22</td>
       <td>5</td>
@@ -3293,11 +3293,11 @@ Only the last 30 entries are shown. The whole table can be found in the followin
       <td>100.000000</td>
       <td>31.818182</td>
       <td>[org.axonframework.disruptor.commandhandling]</td>
-      <td>[org.axonframework.disruptor.commandhandling.B...</td>
+      <td>[org.axonframework.disruptor.commandhandling.E...</td>
     </tr>
     <tr>
       <th>4</th>
-      <td>axon-disruptor-4.10.3</td>
+      <td>axon-disruptor-4.11.0</td>
       <td>1</td>
       <td>22</td>
       <td>5</td>
@@ -3313,7 +3313,7 @@ Only the last 30 entries are shown. The whole table can be found in the followin
     </tr>
     <tr>
       <th>5</th>
-      <td>axon-disruptor-4.10.3</td>
+      <td>axon-disruptor-4.11.0</td>
       <td>1</td>
       <td>22</td>
       <td>5</td>
@@ -3329,7 +3329,7 @@ Only the last 30 entries are shown. The whole table can be found in the followin
     </tr>
     <tr>
       <th>6</th>
-      <td>axon-disruptor-4.10.3</td>
+      <td>axon-disruptor-4.11.0</td>
       <td>1</td>
       <td>22</td>
       <td>5</td>
@@ -3341,373 +3341,373 @@ Only the last 30 entries are shown. The whole table can be found in the followin
       <td>100.000000</td>
       <td>36.363636</td>
       <td>[org.axonframework.disruptor.commandhandling]</td>
-      <td>[org.axonframework.disruptor.commandhandling.D...</td>
+      <td>[org.axonframework.disruptor.commandhandling.E...</td>
     </tr>
     <tr>
       <th>7</th>
-      <td>axon-spring-boot-autoconfigure-4.10.3</td>
+      <td>axon-spring-boot-autoconfigure-4.11.0</td>
       <td>9</td>
-      <td>75</td>
-      <td>47</td>
+      <td>88</td>
+      <td>52</td>
       <td>9</td>
       <td>100.0</td>
       <td>javax.annotation</td>
       <td>4</td>
       <td>8</td>
       <td>44.444444</td>
-      <td>10.666667</td>
-      <td>[org.axonframework.springboot.util, org.axonfr...</td>
-      <td>[org.axonframework.springboot.util.DeadLetterQ...</td>
+      <td>9.090909</td>
+      <td>[org.axonframework.springboot.autoconfig, org....</td>
+      <td>[org.axonframework.springboot.autoconfig.Persi...</td>
     </tr>
     <tr>
       <th>8</th>
-      <td>axon-spring-boot-autoconfigure-4.10.3</td>
+      <td>axon-spring-boot-autoconfigure-4.11.0</td>
       <td>9</td>
-      <td>75</td>
-      <td>47</td>
+      <td>88</td>
+      <td>52</td>
       <td>9</td>
       <td>100.0</td>
       <td>org.slf4j</td>
       <td>3</td>
       <td>4</td>
       <td>33.333333</td>
-      <td>5.333333</td>
-      <td>[org.axonframework.springboot.util, org.axonfr...</td>
-      <td>[org.axonframework.springboot.util.XStreamSecu...</td>
+      <td>4.545455</td>
+      <td>[org.axonframework.springboot.service.connecti...</td>
+      <td>[org.axonframework.springboot.service.connecti...</td>
     </tr>
     <tr>
       <th>9</th>
-      <td>axon-spring-boot-autoconfigure-4.10.3</td>
+      <td>axon-spring-boot-autoconfigure-4.11.0</td>
       <td>9</td>
-      <td>75</td>
-      <td>47</td>
+      <td>88</td>
+      <td>52</td>
       <td>9</td>
       <td>100.0</td>
       <td>org.springframework.boot.actuate.health</td>
       <td>3</td>
       <td>4</td>
       <td>33.333333</td>
-      <td>5.333333</td>
+      <td>4.545455</td>
       <td>[org.axonframework.actuator, org.axonframework...</td>
       <td>[org.axonframework.actuator.HealthStatus, org....</td>
     </tr>
     <tr>
       <th>10</th>
-      <td>axon-spring-boot-autoconfigure-4.10.3</td>
+      <td>axon-spring-boot-autoconfigure-4.11.0</td>
       <td>9</td>
-      <td>75</td>
-      <td>47</td>
+      <td>88</td>
+      <td>52</td>
       <td>9</td>
       <td>100.0</td>
       <td>org.springframework.boot.autoconfigure</td>
       <td>3</td>
-      <td>24</td>
+      <td>28</td>
       <td>33.333333</td>
-      <td>32.000000</td>
-      <td>[org.axonframework.springboot.util, org.axonfr...</td>
-      <td>[org.axonframework.springboot.util.XStreamSecu...</td>
+      <td>31.818182</td>
+      <td>[org.axonframework.springboot.autoconfig, org....</td>
+      <td>[org.axonframework.springboot.autoconfig.Metri...</td>
     </tr>
     <tr>
       <th>11</th>
-      <td>axon-spring-boot-autoconfigure-4.10.3</td>
+      <td>axon-spring-boot-autoconfigure-4.11.0</td>
       <td>9</td>
-      <td>75</td>
-      <td>47</td>
+      <td>88</td>
+      <td>52</td>
       <td>9</td>
       <td>100.0</td>
       <td>org.springframework.boot.autoconfigure.condition</td>
       <td>3</td>
-      <td>32</td>
+      <td>41</td>
       <td>33.333333</td>
-      <td>42.666667</td>
-      <td>[org.axonframework.springboot.util, org.axonfr...</td>
-      <td>[org.axonframework.springboot.util.AbstractQua...</td>
+      <td>46.590909</td>
+      <td>[org.axonframework.springboot.autoconfig, org....</td>
+      <td>[org.axonframework.springboot.autoconfig.XStre...</td>
     </tr>
     <tr>
       <th>12</th>
-      <td>axon-spring-boot-autoconfigure-4.10.3</td>
+      <td>axon-spring-boot-autoconfigure-4.11.0</td>
       <td>9</td>
-      <td>75</td>
-      <td>47</td>
+      <td>88</td>
+      <td>52</td>
       <td>9</td>
       <td>100.0</td>
       <td>org.springframework.boot.context.properties</td>
       <td>3</td>
-      <td>18</td>
+      <td>22</td>
       <td>33.333333</td>
-      <td>24.000000</td>
+      <td>25.000000</td>
       <td>[org.axonframework.springboot, org.axonframewo...</td>
-      <td>[org.axonframework.springboot.TokenStoreProper...</td>
+      <td>[org.axonframework.springboot.TimeoutPropertie...</td>
     </tr>
     <tr>
       <th>13</th>
-      <td>axon-spring-boot-autoconfigure-4.10.3</td>
+      <td>axon-spring-boot-autoconfigure-4.11.0</td>
       <td>9</td>
-      <td>75</td>
-      <td>47</td>
+      <td>88</td>
+      <td>52</td>
       <td>9</td>
       <td>100.0</td>
       <td>org.springframework.context.annotation</td>
       <td>3</td>
-      <td>30</td>
+      <td>36</td>
       <td>33.333333</td>
-      <td>40.000000</td>
-      <td>[org.axonframework.springboot.util, org.axonfr...</td>
-      <td>[org.axonframework.springboot.util.Conditional...</td>
+      <td>40.909091</td>
+      <td>[org.axonframework.springboot.autoconfig, org....</td>
+      <td>[org.axonframework.springboot.autoconfig.Metri...</td>
     </tr>
     <tr>
       <th>14</th>
-      <td>axon-spring-boot-autoconfigure-4.10.3</td>
+      <td>axon-spring-boot-autoconfigure-4.11.0</td>
       <td>9</td>
-      <td>75</td>
-      <td>47</td>
+      <td>88</td>
+      <td>52</td>
       <td>9</td>
       <td>100.0</td>
       <td>jakarta.persistence</td>
       <td>2</td>
       <td>3</td>
       <td>22.222222</td>
-      <td>4.000000</td>
-      <td>[org.axonframework.springboot.util.jpa, org.ax...</td>
-      <td>[org.axonframework.springboot.util.jpa.Contain...</td>
+      <td>3.409091</td>
+      <td>[org.axonframework.springboot.autoconfig, org....</td>
+      <td>[org.axonframework.springboot.autoconfig.JpaAu...</td>
     </tr>
     <tr>
       <th>15</th>
-      <td>axon-spring-boot-autoconfigure-4.10.3</td>
+      <td>axon-spring-boot-autoconfigure-4.11.0</td>
       <td>9</td>
-      <td>75</td>
-      <td>47</td>
+      <td>88</td>
+      <td>52</td>
       <td>9</td>
       <td>100.0</td>
       <td>javax.persistence</td>
       <td>2</td>
       <td>3</td>
       <td>22.222222</td>
-      <td>4.000000</td>
-      <td>[org.axonframework.springboot.util.legacyjpa, ...</td>
-      <td>[org.axonframework.springboot.util.legacyjpa.C...</td>
+      <td>3.409091</td>
+      <td>[org.axonframework.springboot.autoconfig.legac...</td>
+      <td>[org.axonframework.springboot.autoconfig.legac...</td>
     </tr>
     <tr>
       <th>16</th>
-      <td>axon-spring-boot-autoconfigure-4.10.3</td>
+      <td>axon-spring-boot-autoconfigure-4.11.0</td>
       <td>9</td>
-      <td>75</td>
-      <td>47</td>
+      <td>88</td>
+      <td>52</td>
       <td>9</td>
       <td>100.0</td>
       <td>org.springframework.beans.factory.annotation</td>
       <td>2</td>
       <td>10</td>
       <td>22.222222</td>
-      <td>13.333333</td>
+      <td>11.363636</td>
       <td>[org.axonframework.springboot.autoconfig, org....</td>
-      <td>[org.axonframework.springboot.autoconfig.AxonS...</td>
+      <td>[org.axonframework.springboot.autoconfig.AxonJ...</td>
     </tr>
     <tr>
       <th>17</th>
-      <td>axon-spring-boot-autoconfigure-4.10.3</td>
+      <td>axon-spring-boot-autoconfigure-4.11.0</td>
       <td>9</td>
-      <td>75</td>
-      <td>47</td>
+      <td>88</td>
+      <td>52</td>
       <td>9</td>
       <td>100.0</td>
       <td>org.springframework.beans.factory.config</td>
       <td>2</td>
       <td>3</td>
       <td>22.222222</td>
-      <td>4.000000</td>
-      <td>[org.axonframework.springboot.util, org.axonfr...</td>
-      <td>[org.axonframework.springboot.util.AbstractQua...</td>
+      <td>3.409091</td>
+      <td>[org.axonframework.springboot.autoconfig, org....</td>
+      <td>[org.axonframework.springboot.autoconfig.Infra...</td>
     </tr>
     <tr>
       <th>18</th>
-      <td>axon-spring-boot-autoconfigure-4.10.3</td>
+      <td>axon-spring-boot-autoconfigure-4.11.0</td>
       <td>9</td>
-      <td>75</td>
-      <td>47</td>
+      <td>88</td>
+      <td>52</td>
       <td>9</td>
       <td>100.0</td>
       <td>org.springframework.beans.factory.support</td>
       <td>2</td>
       <td>2</td>
       <td>22.222222</td>
-      <td>2.666667</td>
-      <td>[org.axonframework.springboot.util, org.axonfr...</td>
-      <td>[org.axonframework.springboot.util.DefaultEnti...</td>
+      <td>2.272727</td>
+      <td>[org.axonframework.springboot.autoconfig, org....</td>
+      <td>[org.axonframework.springboot.autoconfig.Persi...</td>
     </tr>
     <tr>
       <th>19</th>
-      <td>axon-spring-boot-autoconfigure-4.10.3</td>
+      <td>axon-spring-boot-autoconfigure-4.11.0</td>
       <td>9</td>
-      <td>75</td>
-      <td>47</td>
+      <td>88</td>
+      <td>52</td>
       <td>9</td>
       <td>100.0</td>
       <td>org.springframework.boot.autoconfigure.orm.jpa</td>
       <td>2</td>
       <td>3</td>
       <td>22.222222</td>
-      <td>4.000000</td>
+      <td>3.409091</td>
       <td>[org.axonframework.springboot.autoconfig, org....</td>
-      <td>[org.axonframework.springboot.autoconfig.JpaEv...</td>
+      <td>[org.axonframework.springboot.autoconfig.JpaAu...</td>
     </tr>
     <tr>
       <th>20</th>
-      <td>axon-spring-boot-autoconfigure-4.10.3</td>
+      <td>axon-spring-boot-autoconfigure-4.11.0</td>
       <td>9</td>
-      <td>75</td>
-      <td>47</td>
+      <td>88</td>
+      <td>52</td>
       <td>9</td>
       <td>100.0</td>
       <td>org.springframework.context</td>
       <td>2</td>
       <td>5</td>
       <td>22.222222</td>
-      <td>6.666667</td>
-      <td>[org.axonframework.springboot.util, org.axonfr...</td>
-      <td>[org.axonframework.springboot.util.XStreamSecu...</td>
+      <td>5.681818</td>
+      <td>[org.axonframework.springboot.autoconfig, org....</td>
+      <td>[org.axonframework.springboot.autoconfig.AxonD...</td>
     </tr>
     <tr>
       <th>21</th>
-      <td>axon-spring-boot-autoconfigure-4.10.3</td>
+      <td>axon-spring-boot-autoconfigure-4.11.0</td>
       <td>9</td>
-      <td>75</td>
-      <td>47</td>
+      <td>88</td>
+      <td>52</td>
       <td>9</td>
       <td>100.0</td>
       <td>org.springframework.core.annotation</td>
       <td>2</td>
       <td>4</td>
       <td>22.222222</td>
-      <td>5.333333</td>
-      <td>[org.axonframework.springboot.util, org.axonfr...</td>
-      <td>[org.axonframework.springboot.util.DefaultEnti...</td>
+      <td>4.545455</td>
+      <td>[org.axonframework.springboot.autoconfig, org....</td>
+      <td>[org.axonframework.springboot.autoconfig.Infra...</td>
     </tr>
     <tr>
       <th>22</th>
-      <td>axon-spring-boot-autoconfigure-4.10.3</td>
+      <td>axon-spring-boot-autoconfigure-4.11.0</td>
       <td>9</td>
-      <td>75</td>
-      <td>47</td>
+      <td>88</td>
+      <td>52</td>
       <td>9</td>
       <td>100.0</td>
       <td>com.codahale.metrics</td>
       <td>1</td>
       <td>1</td>
       <td>11.111111</td>
-      <td>1.333333</td>
+      <td>1.136364</td>
       <td>[org.axonframework.springboot.autoconfig]</td>
       <td>[org.axonframework.springboot.autoconfig.Metri...</td>
     </tr>
     <tr>
       <th>23</th>
-      <td>axon-spring-boot-autoconfigure-4.10.3</td>
+      <td>axon-spring-boot-autoconfigure-4.11.0</td>
       <td>9</td>
-      <td>75</td>
-      <td>47</td>
+      <td>88</td>
+      <td>52</td>
       <td>9</td>
       <td>100.0</td>
       <td>com.fasterxml.jackson.databind</td>
       <td>1</td>
       <td>2</td>
       <td>11.111111</td>
-      <td>2.666667</td>
+      <td>2.272727</td>
       <td>[org.axonframework.springboot.autoconfig]</td>
       <td>[org.axonframework.springboot.autoconfig.Objec...</td>
     </tr>
     <tr>
       <th>24</th>
-      <td>axon-spring-boot-autoconfigure-4.10.3</td>
+      <td>axon-spring-boot-autoconfigure-4.11.0</td>
       <td>9</td>
-      <td>75</td>
-      <td>47</td>
+      <td>88</td>
+      <td>52</td>
       <td>9</td>
       <td>100.0</td>
       <td>com.fasterxml.jackson.dataformat.cbor.databind</td>
       <td>1</td>
       <td>2</td>
       <td>11.111111</td>
-      <td>2.666667</td>
+      <td>2.272727</td>
       <td>[org.axonframework.springboot.autoconfig]</td>
       <td>[org.axonframework.springboot.autoconfig.CBORM...</td>
     </tr>
     <tr>
       <th>25</th>
-      <td>axon-spring-boot-autoconfigure-4.10.3</td>
+      <td>axon-spring-boot-autoconfigure-4.11.0</td>
       <td>9</td>
-      <td>75</td>
-      <td>47</td>
+      <td>88</td>
+      <td>52</td>
       <td>9</td>
       <td>100.0</td>
       <td>com.github.kagkarlsson.scheduler</td>
       <td>1</td>
       <td>1</td>
       <td>11.111111</td>
-      <td>1.333333</td>
+      <td>1.136364</td>
       <td>[org.axonframework.springboot.autoconfig]</td>
       <td>[org.axonframework.springboot.autoconfig.AxonD...</td>
     </tr>
     <tr>
       <th>26</th>
-      <td>axon-spring-boot-autoconfigure-4.10.3</td>
+      <td>axon-spring-boot-autoconfigure-4.11.0</td>
       <td>9</td>
-      <td>75</td>
-      <td>47</td>
+      <td>88</td>
+      <td>52</td>
       <td>9</td>
       <td>100.0</td>
       <td>com.github.kagkarlsson.scheduler.task</td>
       <td>1</td>
       <td>1</td>
       <td>11.111111</td>
-      <td>1.333333</td>
+      <td>1.136364</td>
       <td>[org.axonframework.springboot.autoconfig]</td>
       <td>[org.axonframework.springboot.autoconfig.AxonD...</td>
     </tr>
     <tr>
       <th>27</th>
-      <td>axon-spring-boot-autoconfigure-4.10.3</td>
+      <td>axon-spring-boot-autoconfigure-4.11.0</td>
       <td>9</td>
-      <td>75</td>
-      <td>47</td>
+      <td>88</td>
+      <td>52</td>
       <td>9</td>
       <td>100.0</td>
       <td>com.thoughtworks.xstream</td>
       <td>1</td>
       <td>2</td>
       <td>11.111111</td>
-      <td>2.666667</td>
+      <td>2.272727</td>
       <td>[org.axonframework.springboot.autoconfig]</td>
-      <td>[org.axonframework.springboot.autoconfig.XStre...</td>
+      <td>[org.axonframework.springboot.autoconfig.AxonA...</td>
     </tr>
     <tr>
       <th>28</th>
-      <td>axon-spring-boot-autoconfigure-4.10.3</td>
+      <td>axon-spring-boot-autoconfigure-4.11.0</td>
       <td>9</td>
-      <td>75</td>
-      <td>47</td>
+      <td>88</td>
+      <td>52</td>
       <td>9</td>
       <td>100.0</td>
       <td>io.axoniq.axonserver.connector.event</td>
       <td>1</td>
-      <td>2</td>
+      <td>1</td>
       <td>11.111111</td>
-      <td>2.666667</td>
+      <td>1.136364</td>
       <td>[org.axonframework.springboot.autoconfig]</td>
-      <td>[org.axonframework.springboot.autoconfig.AxonS...</td>
+      <td>[org.axonframework.springboot.autoconfig.Persi...</td>
     </tr>
     <tr>
       <th>29</th>
-      <td>axon-spring-boot-autoconfigure-4.10.3</td>
+      <td>axon-spring-boot-autoconfigure-4.11.0</td>
       <td>9</td>
-      <td>75</td>
-      <td>47</td>
+      <td>88</td>
+      <td>52</td>
       <td>9</td>
       <td>100.0</td>
       <td>io.axoniq.axonserver.connector.impl</td>
       <td>1</td>
       <td>1</td>
       <td>11.111111</td>
-      <td>1.333333</td>
+      <td>1.136364</td>
       <td>[org.axonframework.springboot.autoconfig]</td>
       <td>[org.axonframework.springboot.autoconfig.Persi...</td>
     </tr>
@@ -3750,7 +3750,7 @@ The following table groups the external packages by their first two levels. For 
   <tbody>
     <tr>
       <th>0</th>
-      <td>axon-configuration-4.10.3</td>
+      <td>axon-configuration-4.11.0</td>
       <td>1</td>
       <td>41</td>
       <td>2</td>
@@ -3762,11 +3762,11 @@ The following table groups the external packages by their first two levels. For 
       <td>100.000000</td>
       <td>31.707317</td>
       <td>[org.axonframework.config]</td>
-      <td>[org.axonframework.config.ConfigurerModule, or...</td>
+      <td>[org.axonframework.config.Configuration$1, org...</td>
     </tr>
     <tr>
       <th>1</th>
-      <td>axon-configuration-4.10.3</td>
+      <td>axon-configuration-4.11.0</td>
       <td>1</td>
       <td>41</td>
       <td>2</td>
@@ -3778,11 +3778,11 @@ The following table groups the external packages by their first two levels. For 
       <td>100.000000</td>
       <td>14.634146</td>
       <td>[org.axonframework.config]</td>
-      <td>[org.axonframework.config.DefaultConfigurer$Co...</td>
+      <td>[org.axonframework.config.Component, org.axonf...</td>
     </tr>
     <tr>
       <th>2</th>
-      <td>axon-disruptor-4.10.3</td>
+      <td>axon-disruptor-4.11.0</td>
       <td>1</td>
       <td>22</td>
       <td>4</td>
@@ -3798,7 +3798,7 @@ The following table groups the external packages by their first two levels. For 
     </tr>
     <tr>
       <th>3</th>
-      <td>axon-disruptor-4.10.3</td>
+      <td>axon-disruptor-4.11.0</td>
       <td>1</td>
       <td>22</td>
       <td>4</td>
@@ -3810,11 +3810,11 @@ The following table groups the external packages by their first two levels. For 
       <td>100.000000</td>
       <td>31.818182</td>
       <td>[org.axonframework.disruptor.commandhandling]</td>
-      <td>[org.axonframework.disruptor.commandhandling.B...</td>
+      <td>[org.axonframework.disruptor.commandhandling.E...</td>
     </tr>
     <tr>
       <th>4</th>
-      <td>axon-disruptor-4.10.3</td>
+      <td>axon-disruptor-4.11.0</td>
       <td>1</td>
       <td>22</td>
       <td>4</td>
@@ -3830,7 +3830,7 @@ The following table groups the external packages by their first two levels. For 
     </tr>
     <tr>
       <th>5</th>
-      <td>axon-disruptor-4.10.3</td>
+      <td>axon-disruptor-4.11.0</td>
       <td>1</td>
       <td>22</td>
       <td>4</td>
@@ -3842,219 +3842,251 @@ The following table groups the external packages by their first two levels. For 
       <td>100.000000</td>
       <td>36.363636</td>
       <td>[org.axonframework.disruptor.commandhandling]</td>
-      <td>[org.axonframework.disruptor.commandhandling.D...</td>
+      <td>[org.axonframework.disruptor.commandhandling.E...</td>
     </tr>
     <tr>
       <th>6</th>
-      <td>axon-spring-boot-autoconfigure-4.10.3</td>
+      <td>axon-spring-boot-autoconfigure-4.11.0</td>
       <td>9</td>
-      <td>75</td>
-      <td>13</td>
+      <td>88</td>
+      <td>15</td>
       <td>9</td>
       <td>100.00</td>
       <td>org.springframework</td>
       <td>7</td>
-      <td>52</td>
+      <td>64</td>
       <td>77.777778</td>
-      <td>69.333333</td>
+      <td>72.727273</td>
       <td>[org.axonframework.actuator, org.axonframework...</td>
       <td>[org.axonframework.actuator.HealthStatus, org....</td>
     </tr>
     <tr>
       <th>7</th>
-      <td>axon-spring-boot-autoconfigure-4.10.3</td>
+      <td>axon-spring-boot-autoconfigure-4.11.0</td>
       <td>9</td>
-      <td>75</td>
-      <td>13</td>
+      <td>88</td>
+      <td>15</td>
       <td>9</td>
       <td>100.00</td>
       <td>javax.annotation</td>
       <td>4</td>
       <td>8</td>
       <td>44.444444</td>
-      <td>10.666667</td>
-      <td>[org.axonframework.springboot.util, org.axonfr...</td>
-      <td>[org.axonframework.springboot.util.DeadLetterQ...</td>
+      <td>9.090909</td>
+      <td>[org.axonframework.springboot.autoconfig, org....</td>
+      <td>[org.axonframework.springboot.autoconfig.Persi...</td>
     </tr>
     <tr>
       <th>8</th>
-      <td>axon-spring-boot-autoconfigure-4.10.3</td>
+      <td>axon-spring-boot-autoconfigure-4.11.0</td>
       <td>9</td>
-      <td>75</td>
-      <td>13</td>
+      <td>88</td>
+      <td>15</td>
       <td>9</td>
       <td>100.00</td>
       <td>org.slf4j</td>
       <td>3</td>
       <td>4</td>
       <td>33.333333</td>
-      <td>5.333333</td>
-      <td>[org.axonframework.springboot.util, org.axonfr...</td>
-      <td>[org.axonframework.springboot.util.XStreamSecu...</td>
+      <td>4.545455</td>
+      <td>[org.axonframework.springboot.service.connecti...</td>
+      <td>[org.axonframework.springboot.service.connecti...</td>
     </tr>
     <tr>
       <th>9</th>
-      <td>axon-spring-boot-autoconfigure-4.10.3</td>
+      <td>axon-spring-boot-autoconfigure-4.11.0</td>
       <td>9</td>
-      <td>75</td>
-      <td>13</td>
+      <td>88</td>
+      <td>15</td>
       <td>9</td>
       <td>100.00</td>
       <td>jakarta.persistence</td>
       <td>2</td>
       <td>3</td>
       <td>22.222222</td>
-      <td>4.000000</td>
-      <td>[org.axonframework.springboot.util.jpa, org.ax...</td>
-      <td>[org.axonframework.springboot.util.jpa.Contain...</td>
+      <td>3.409091</td>
+      <td>[org.axonframework.springboot.autoconfig, org....</td>
+      <td>[org.axonframework.springboot.autoconfig.JpaAu...</td>
     </tr>
     <tr>
       <th>10</th>
-      <td>axon-spring-boot-autoconfigure-4.10.3</td>
+      <td>axon-spring-boot-autoconfigure-4.11.0</td>
       <td>9</td>
-      <td>75</td>
-      <td>13</td>
+      <td>88</td>
+      <td>15</td>
       <td>9</td>
       <td>100.00</td>
       <td>javax.persistence</td>
       <td>2</td>
       <td>3</td>
       <td>22.222222</td>
-      <td>4.000000</td>
-      <td>[org.axonframework.springboot.util.legacyjpa, ...</td>
-      <td>[org.axonframework.springboot.util.legacyjpa.C...</td>
+      <td>3.409091</td>
+      <td>[org.axonframework.springboot.autoconfig.legac...</td>
+      <td>[org.axonframework.springboot.autoconfig.legac...</td>
     </tr>
     <tr>
       <th>11</th>
-      <td>axon-spring-boot-autoconfigure-4.10.3</td>
+      <td>axon-spring-boot-autoconfigure-4.11.0</td>
       <td>9</td>
-      <td>75</td>
-      <td>13</td>
+      <td>88</td>
+      <td>15</td>
       <td>9</td>
       <td>100.00</td>
       <td>org.axonframework</td>
       <td>2</td>
-      <td>7</td>
+      <td>10</td>
       <td>22.222222</td>
-      <td>9.333333</td>
-      <td>[org.axonframework.springboot.util, org.axonfr...</td>
-      <td>[org.axonframework.springboot.util.AbstractQua...</td>
+      <td>11.363636</td>
+      <td>[org.axonframework.springboot.autoconfig, org....</td>
+      <td>[org.axonframework.springboot.autoconfig.Metri...</td>
     </tr>
     <tr>
       <th>12</th>
-      <td>axon-spring-boot-autoconfigure-4.10.3</td>
+      <td>axon-spring-boot-autoconfigure-4.11.0</td>
       <td>9</td>
-      <td>75</td>
-      <td>13</td>
+      <td>88</td>
+      <td>15</td>
       <td>9</td>
       <td>100.00</td>
       <td>com.codahale</td>
       <td>1</td>
       <td>1</td>
       <td>11.111111</td>
-      <td>1.333333</td>
+      <td>1.136364</td>
       <td>[org.axonframework.springboot.autoconfig]</td>
       <td>[org.axonframework.springboot.autoconfig.Metri...</td>
     </tr>
     <tr>
       <th>13</th>
-      <td>axon-spring-boot-autoconfigure-4.10.3</td>
+      <td>axon-spring-boot-autoconfigure-4.11.0</td>
       <td>9</td>
-      <td>75</td>
-      <td>13</td>
+      <td>88</td>
+      <td>15</td>
       <td>9</td>
       <td>100.00</td>
       <td>com.fasterxml</td>
       <td>1</td>
       <td>3</td>
       <td>11.111111</td>
-      <td>4.000000</td>
+      <td>3.409091</td>
       <td>[org.axonframework.springboot.autoconfig]</td>
       <td>[org.axonframework.springboot.autoconfig.Objec...</td>
     </tr>
     <tr>
       <th>14</th>
-      <td>axon-spring-boot-autoconfigure-4.10.3</td>
+      <td>axon-spring-boot-autoconfigure-4.11.0</td>
       <td>9</td>
-      <td>75</td>
-      <td>13</td>
+      <td>88</td>
+      <td>15</td>
       <td>9</td>
       <td>100.00</td>
       <td>com.github</td>
       <td>1</td>
       <td>1</td>
       <td>11.111111</td>
-      <td>1.333333</td>
+      <td>1.136364</td>
       <td>[org.axonframework.springboot.autoconfig]</td>
       <td>[org.axonframework.springboot.autoconfig.AxonD...</td>
     </tr>
     <tr>
       <th>15</th>
-      <td>axon-spring-boot-autoconfigure-4.10.3</td>
+      <td>axon-spring-boot-autoconfigure-4.11.0</td>
       <td>9</td>
-      <td>75</td>
-      <td>13</td>
+      <td>88</td>
+      <td>15</td>
       <td>9</td>
       <td>100.00</td>
       <td>com.thoughtworks</td>
       <td>1</td>
       <td>2</td>
       <td>11.111111</td>
-      <td>2.666667</td>
+      <td>2.272727</td>
       <td>[org.axonframework.springboot.autoconfig]</td>
-      <td>[org.axonframework.springboot.autoconfig.XStre...</td>
+      <td>[org.axonframework.springboot.autoconfig.AxonA...</td>
     </tr>
     <tr>
       <th>16</th>
-      <td>axon-spring-boot-autoconfigure-4.10.3</td>
+      <td>axon-spring-boot-autoconfigure-4.11.0</td>
       <td>9</td>
-      <td>75</td>
-      <td>13</td>
+      <td>88</td>
+      <td>15</td>
       <td>9</td>
       <td>100.00</td>
       <td>io.axoniq</td>
       <td>1</td>
-      <td>2</td>
+      <td>1</td>
       <td>11.111111</td>
-      <td>2.666667</td>
+      <td>1.136364</td>
       <td>[org.axonframework.springboot.autoconfig]</td>
-      <td>[org.axonframework.springboot.autoconfig.AxonS...</td>
+      <td>[org.axonframework.springboot.autoconfig.Persi...</td>
     </tr>
     <tr>
       <th>17</th>
-      <td>axon-spring-boot-autoconfigure-4.10.3</td>
+      <td>axon-spring-boot-autoconfigure-4.11.0</td>
       <td>9</td>
-      <td>75</td>
-      <td>13</td>
+      <td>88</td>
+      <td>15</td>
       <td>9</td>
       <td>100.00</td>
       <td>io.micrometer</td>
       <td>1</td>
       <td>1</td>
       <td>11.111111</td>
-      <td>1.333333</td>
+      <td>1.136364</td>
       <td>[org.axonframework.springboot.autoconfig]</td>
       <td>[org.axonframework.springboot.autoconfig.Micro...</td>
     </tr>
     <tr>
       <th>18</th>
-      <td>axon-spring-boot-autoconfigure-4.10.3</td>
+      <td>axon-spring-boot-autoconfigure-4.11.0</td>
       <td>9</td>
-      <td>75</td>
-      <td>13</td>
+      <td>88</td>
+      <td>15</td>
+      <td>9</td>
+      <td>100.00</td>
+      <td>org.apache</td>
+      <td>1</td>
+      <td>3</td>
+      <td>11.111111</td>
+      <td>3.409091</td>
+      <td>[org.axonframework.springboot.autoconfig]</td>
+      <td>[org.axonframework.springboot.autoconfig.AvroS...</td>
+    </tr>
+    <tr>
+      <th>19</th>
+      <td>axon-spring-boot-autoconfigure-4.11.0</td>
+      <td>9</td>
+      <td>88</td>
+      <td>15</td>
+      <td>9</td>
+      <td>100.00</td>
+      <td>org.jetbrains</td>
+      <td>1</td>
+      <td>1</td>
+      <td>11.111111</td>
+      <td>1.136364</td>
+      <td>[org.axonframework.springboot.autoconfig]</td>
+      <td>[org.axonframework.springboot.autoconfig.AxonT...</td>
+    </tr>
+    <tr>
+      <th>20</th>
+      <td>axon-spring-boot-autoconfigure-4.11.0</td>
+      <td>9</td>
+      <td>88</td>
+      <td>15</td>
       <td>9</td>
       <td>100.00</td>
       <td>org.jobrunr</td>
       <td>1</td>
       <td>1</td>
       <td>11.111111</td>
-      <td>1.333333</td>
+      <td>1.136364</td>
       <td>[org.axonframework.springboot.autoconfig]</td>
       <td>[org.axonframework.springboot.autoconfig.AxonJ...</td>
     </tr>
     <tr>
-      <th>19</th>
-      <td>axon-tracing-opentelemetry-4.10.3</td>
+      <th>21</th>
+      <td>axon-tracing-opentelemetry-4.11.0</td>
       <td>1</td>
       <td>5</td>
       <td>3</td>
@@ -4069,8 +4101,8 @@ The following table groups the external packages by their first two levels. For 
       <td>[org.axonframework.tracing.opentelemetry.OpenT...</td>
     </tr>
     <tr>
-      <th>20</th>
-      <td>axon-tracing-opentelemetry-4.10.3</td>
+      <th>22</th>
+      <td>axon-tracing-opentelemetry-4.11.0</td>
       <td>1</td>
       <td>5</td>
       <td>3</td>
@@ -4082,11 +4114,11 @@ The following table groups the external packages by their first two levels. For 
       <td>100.000000</td>
       <td>60.000000</td>
       <td>[org.axonframework.tracing.opentelemetry]</td>
-      <td>[org.axonframework.tracing.opentelemetry.Metad...</td>
+      <td>[org.axonframework.tracing.opentelemetry.OpenT...</td>
     </tr>
     <tr>
-      <th>21</th>
-      <td>axon-tracing-opentelemetry-4.10.3</td>
+      <th>23</th>
+      <td>axon-tracing-opentelemetry-4.11.0</td>
       <td>1</td>
       <td>5</td>
       <td>3</td>
@@ -4101,42 +4133,42 @@ The following table groups the external packages by their first two levels. For 
       <td>[org.axonframework.tracing.opentelemetry.OpenT...</td>
     </tr>
     <tr>
-      <th>22</th>
-      <td>axon-server-connector-4.10.3</td>
+      <th>24</th>
+      <td>axon-server-connector-4.11.0</td>
       <td>11</td>
-      <td>136</td>
+      <td>142</td>
       <td>8</td>
       <td>10</td>
       <td>90.91</td>
       <td>org.slf4j</td>
       <td>9</td>
-      <td>21</td>
+      <td>25</td>
       <td>81.818182</td>
-      <td>15.441176</td>
+      <td>17.605634</td>
       <td>[org.axonframework.axonserver.connector, org.a...</td>
       <td>[org.axonframework.axonserver.connector.Server...</td>
     </tr>
     <tr>
-      <th>23</th>
-      <td>axon-server-connector-4.10.3</td>
+      <th>25</th>
+      <td>axon-server-connector-4.11.0</td>
       <td>11</td>
-      <td>136</td>
+      <td>142</td>
       <td>8</td>
       <td>10</td>
       <td>90.91</td>
       <td>io.axoniq</td>
       <td>8</td>
-      <td>67</td>
+      <td>68</td>
       <td>72.727273</td>
-      <td>49.264706</td>
+      <td>47.887324</td>
       <td>[org.axonframework.axonserver.connector, org.a...</td>
       <td>[org.axonframework.axonserver.connector.AxonSe...</td>
     </tr>
     <tr>
-      <th>24</th>
-      <td>axon-server-connector-4.10.3</td>
+      <th>26</th>
+      <td>axon-server-connector-4.11.0</td>
       <td>11</td>
-      <td>136</td>
+      <td>142</td>
       <td>8</td>
       <td>10</td>
       <td>90.91</td>
@@ -4144,47 +4176,47 @@ The following table groups the external packages by their first two levels. For 
       <td>8</td>
       <td>21</td>
       <td>72.727273</td>
-      <td>15.441176</td>
+      <td>14.788732</td>
       <td>[org.axonframework.axonserver.connector, org.a...</td>
-      <td>[org.axonframework.axonserver.connector.AxonSe...</td>
+      <td>[org.axonframework.axonserver.connector.Server...</td>
     </tr>
     <tr>
-      <th>25</th>
-      <td>axon-server-connector-4.10.3</td>
+      <th>27</th>
+      <td>axon-server-connector-4.11.0</td>
       <td>11</td>
-      <td>136</td>
+      <td>142</td>
       <td>8</td>
       <td>10</td>
       <td>90.91</td>
       <td>io.grpc</td>
       <td>5</td>
-      <td>18</td>
+      <td>21</td>
       <td>45.454545</td>
-      <td>13.235294</td>
+      <td>14.788732</td>
       <td>[org.axonframework.axonserver.connector, org.a...</td>
-      <td>[org.axonframework.axonserver.connector.AxonSe...</td>
+      <td>[org.axonframework.axonserver.connector.Manage...</td>
     </tr>
     <tr>
-      <th>26</th>
-      <td>axon-server-connector-4.10.3</td>
+      <th>28</th>
+      <td>axon-server-connector-4.11.0</td>
       <td>11</td>
-      <td>136</td>
+      <td>142</td>
       <td>8</td>
       <td>10</td>
       <td>90.91</td>
       <td>com.google</td>
       <td>3</td>
-      <td>8</td>
+      <td>10</td>
       <td>27.272727</td>
-      <td>5.882353</td>
+      <td>7.042254</td>
       <td>[org.axonframework.axonserver.connector.util, ...</td>
       <td>[org.axonframework.axonserver.connector.util.G...</td>
     </tr>
     <tr>
-      <th>27</th>
-      <td>axon-server-connector-4.10.3</td>
+      <th>29</th>
+      <td>axon-server-connector-4.11.0</td>
       <td>11</td>
-      <td>136</td>
+      <td>142</td>
       <td>8</td>
       <td>10</td>
       <td>90.91</td>
@@ -4192,41 +4224,9 @@ The following table groups the external packages by their first two levels. For 
       <td>3</td>
       <td>10</td>
       <td>27.272727</td>
-      <td>7.352941</td>
+      <td>7.042254</td>
       <td>[org.axonframework.axonserver.connector.util, ...</td>
       <td>[org.axonframework.axonserver.connector.util.P...</td>
-    </tr>
-    <tr>
-      <th>28</th>
-      <td>axon-server-connector-4.10.3</td>
-      <td>11</td>
-      <td>136</td>
-      <td>8</td>
-      <td>10</td>
-      <td>90.91</td>
-      <td>org.reactivestreams</td>
-      <td>1</td>
-      <td>4</td>
-      <td>9.090909</td>
-      <td>2.941176</td>
-      <td>[org.axonframework.axonserver.connector.query]</td>
-      <td>[org.axonframework.axonserver.connector.query....</td>
-    </tr>
-    <tr>
-      <th>29</th>
-      <td>axon-server-connector-4.10.3</td>
-      <td>11</td>
-      <td>136</td>
-      <td>8</td>
-      <td>10</td>
-      <td>90.91</td>
-      <td>org.springframework</td>
-      <td>1</td>
-      <td>1</td>
-      <td>9.090909</td>
-      <td>0.735294</td>
-      <td>[org.axonframework.axonserver.connector]</td>
-      <td>[org.axonframework.axonserver.connector.AxonSe...</td>
     </tr>
   </tbody>
 </table>
@@ -4246,15 +4246,15 @@ The following table uses pivot to show the artifacts in columns, the external de
   <thead>
     <tr style="text-align: right;">
       <th>artifactName</th>
-      <th>axon-messaging-4.10.3</th>
-      <th>axon-spring-boot-autoconfigure-4.10.3</th>
-      <th>axon-server-connector-4.10.3</th>
-      <th>axon-test-4.10.3</th>
-      <th>axon-modelling-4.10.3</th>
-      <th>axon-eventsourcing-4.10.3</th>
-      <th>axon-tracing-opentelemetry-4.10.3</th>
-      <th>axon-disruptor-4.10.3</th>
-      <th>axon-configuration-4.10.3</th>
+      <th>axon-messaging-4.11.0</th>
+      <th>axon-spring-boot-autoconfigure-4.11.0</th>
+      <th>axon-server-connector-4.11.0</th>
+      <th>axon-test-4.11.0</th>
+      <th>axon-modelling-4.11.0</th>
+      <th>axon-eventsourcing-4.11.0</th>
+      <th>axon-tracing-opentelemetry-4.11.0</th>
+      <th>axon-disruptor-4.11.0</th>
+      <th>axon-configuration-4.11.0</th>
     </tr>
     <tr>
       <th>externalPackageName</th>
@@ -4404,7 +4404,7 @@ The following table uses pivot to show the artifacts in columns, the external de
     </tr>
   </tbody>
 </table>
-<p>117 rows × 9 columns</p>
+<p>129 rows × 9 columns</p>
 </div>
 
 
@@ -4421,15 +4421,15 @@ The following table uses pivot to show the artifacts in columns, the external pa
   <thead>
     <tr style="text-align: right;">
       <th>artifactName</th>
-      <th>axon-messaging-4.10.3</th>
-      <th>axon-server-connector-4.10.3</th>
-      <th>axon-spring-boot-autoconfigure-4.10.3</th>
-      <th>axon-modelling-4.10.3</th>
-      <th>axon-eventsourcing-4.10.3</th>
-      <th>axon-test-4.10.3</th>
-      <th>axon-disruptor-4.10.3</th>
-      <th>axon-tracing-opentelemetry-4.10.3</th>
-      <th>axon-configuration-4.10.3</th>
+      <th>axon-messaging-4.11.0</th>
+      <th>axon-server-connector-4.11.0</th>
+      <th>axon-spring-boot-autoconfigure-4.11.0</th>
+      <th>axon-modelling-4.11.0</th>
+      <th>axon-eventsourcing-4.11.0</th>
+      <th>axon-test-4.11.0</th>
+      <th>axon-disruptor-4.11.0</th>
+      <th>axon-tracing-opentelemetry-4.11.0</th>
+      <th>axon-configuration-4.11.0</th>
     </tr>
     <tr>
       <th>externalPackageNameFirst2Levels</th>
@@ -4615,7 +4615,7 @@ The following table uses pivot to show the artifacts in columns, the external pa
     </tr>
     <tr>
       <th>javax.annotation</th>
-      <td>47</td>
+      <td>49</td>
       <td>8</td>
       <td>4</td>
       <td>4</td>
@@ -4686,6 +4686,18 @@ The following table uses pivot to show the artifacts in columns, the external pa
       <td>0</td>
     </tr>
     <tr>
+      <th>org.apache</th>
+      <td>1</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
       <th>org.axonframework</th>
       <td>0</td>
       <td>0</td>
@@ -4729,6 +4741,18 @@ The following table uses pivot to show the artifacts in columns, the external pa
       <td>0</td>
       <td>0</td>
       <td>5</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>org.jetbrains</th>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
       <td>0</td>
       <td>0</td>
       <td>0</td>
@@ -4783,7 +4807,7 @@ The following table uses pivot to show the artifacts in columns, the external pa
     </tr>
     <tr>
       <th>org.slf4j</th>
-      <td>38</td>
+      <td>39</td>
       <td>9</td>
       <td>3</td>
       <td>6</td>
@@ -4926,7 +4950,7 @@ Only the last 40 entries are shown. The whole table can be found in the followin
   <tbody>
     <tr>
       <th>0</th>
-      <td>axon-tracing-opentelemetry-4.10.3</td>
+      <td>axon-tracing-opentelemetry-4.11.0</td>
       <td>5</td>
       <td>16</td>
       <td>6</td>
@@ -4934,38 +4958,38 @@ Only the last 40 entries are shown. The whole table can be found in the followin
       <td>26</td>
       <td>89</td>
       <td>6</td>
-      <td>[io.opentelemetry.api.trace, io.opentelemetry....</td>
-      <td>[SpanBuilder, Span, SpanKind, Tracer, SpanCont...</td>
+      <td>[io.opentelemetry.context.propagation, io.open...</td>
+      <td>[TextMapGetter, ContextPropagators, TextMapPro...</td>
     </tr>
     <tr>
       <th>1</th>
-      <td>axon-spring-boot-autoconfigure-4.10.3</td>
-      <td>75</td>
-      <td>101</td>
-      <td>47</td>
-      <td>134.666667</td>
-      <td>300</td>
-      <td>670</td>
-      <td>47</td>
+      <td>axon-spring-boot-autoconfigure-4.11.0</td>
+      <td>88</td>
+      <td>112</td>
+      <td>52</td>
+      <td>127.272727</td>
+      <td>340</td>
+      <td>750</td>
+      <td>52</td>
       <td>[org.springframework.boot.autoconfigure.condit...</td>
-      <td>[ConditionalOnBean, ConditionalOnClass, Condit...</td>
+      <td>[ConditionalOnBean, ConditionalOnMissingBean, ...</td>
     </tr>
     <tr>
       <th>2</th>
-      <td>axon-server-connector-4.10.3</td>
-      <td>136</td>
-      <td>113</td>
+      <td>axon-server-connector-4.11.0</td>
+      <td>142</td>
+      <td>115</td>
       <td>26</td>
-      <td>83.088235</td>
-      <td>348</td>
-      <td>1402</td>
+      <td>80.985915</td>
+      <td>369</td>
+      <td>1456</td>
       <td>26</td>
-      <td>[io.axoniq.axonserver.grpc, io.grpc, io.axoniq...</td>
-      <td>[MetaDataValue, ErrorMessage, InstructionAck$B...</td>
+      <td>[io.grpc, io.axoniq.axonserver.grpc, io.axoniq...</td>
+      <td>[ClientInterceptor, MethodDescriptor, Metadata...</td>
     </tr>
     <tr>
       <th>3</th>
-      <td>axon-disruptor-4.10.3</td>
+      <td>axon-disruptor-4.11.0</td>
       <td>22</td>
       <td>13</td>
       <td>5</td>
@@ -4974,11 +4998,11 @@ Only the last 40 entries are shown. The whole table can be found in the followin
       <td>93</td>
       <td>5</td>
       <td>[org.slf4j, com.lmax.disruptor, javax.annotati...</td>
-      <td>[Logger, LoggerFactory, ExceptionHandler, Ring...</td>
+      <td>[Logger, LoggerFactory, BlockingWaitStrategy, ...</td>
     </tr>
     <tr>
       <th>4</th>
-      <td>axon-test-4.10.3</td>
+      <td>axon-test-4.11.0</td>
       <td>87</td>
       <td>28</td>
       <td>13</td>
@@ -4987,11 +5011,11 @@ Only the last 40 entries are shown. The whole table can be found in the followin
       <td>500</td>
       <td>13</td>
       <td>[org.hamcrest, javax.annotation, org.testconta...</td>
-      <td>[Matcher, Description, BaseMatcher, CoreMatche...</td>
+      <td>[CoreMatchers, Matcher, StringDescription, Des...</td>
     </tr>
     <tr>
       <th>5</th>
-      <td>axon-modelling-4.10.3</td>
+      <td>axon-modelling-4.11.0</td>
       <td>158</td>
       <td>35</td>
       <td>5</td>
@@ -5000,24 +5024,24 @@ Only the last 40 entries are shown. The whole table can be found in the followin
       <td>356</td>
       <td>5</td>
       <td>[javax.annotation, javax.persistence, jakarta....</td>
-      <td>[Nonnull, Nullable, LockModeType, EntityManage...</td>
+      <td>[Nonnull, Nullable, EntityNotFoundException, E...</td>
     </tr>
     <tr>
       <th>6</th>
-      <td>axon-messaging-4.10.3</td>
-      <td>787</td>
-      <td>154</td>
-      <td>42</td>
-      <td>19.567980</td>
-      <td>749</td>
-      <td>2975</td>
-      <td>42</td>
+      <td>axon-messaging-4.11.0</td>
+      <td>809</td>
+      <td>179</td>
+      <td>50</td>
+      <td>22.126082</td>
+      <td>804</td>
+      <td>3187</td>
+      <td>50</td>
       <td>[javax.annotation, org.slf4j, com.fasterxml.ja...</td>
-      <td>[Nonnull, Nullable, Logger, LoggerFactory, Jso...</td>
+      <td>[Nonnull, Nullable, LoggerFactory, Logger, Jso...</td>
     </tr>
     <tr>
       <th>7</th>
-      <td>axon-eventsourcing-4.10.3</td>
+      <td>axon-eventsourcing-4.11.0</td>
       <td>133</td>
       <td>25</td>
       <td>4</td>
@@ -5025,12 +5049,12 @@ Only the last 40 entries are shown. The whole table can be found in the followin
       <td>74</td>
       <td>238</td>
       <td>4</td>
-      <td>[javax.annotation, org.slf4j, javax.persistenc...</td>
-      <td>[Nonnull, PreDestroy, Nullable, Logger, Logger...</td>
+      <td>[javax.annotation, org.slf4j, jakarta.persiste...</td>
+      <td>[PreDestroy, Nonnull, Nullable, Logger, Logger...</td>
     </tr>
     <tr>
       <th>8</th>
-      <td>axon-configuration-4.10.3</td>
+      <td>axon-configuration-4.11.0</td>
       <td>41</td>
       <td>4</td>
       <td>2</td>
@@ -5085,117 +5109,117 @@ Only the last 40 entries are shown. The whole table can be found in the followin
   <tbody>
     <tr>
       <th>0</th>
-      <td>axon-server-connector-4.10.3</td>
+      <td>axon-server-connector-4.11.0</td>
       <td>org.axonframework.axonserver.connector.util</td>
       <td>io.grpc</td>
-      <td>39</td>
-      <td>69</td>
-      <td>26</td>
-      <td>[ClientCall, MethodDescriptor$MethodType, Meth...</td>
+      <td>50</td>
+      <td>90</td>
+      <td>31</td>
+      <td>[ClientCall$Listener, Metadata$Key, ClientCall...</td>
       <td>util</td>
     </tr>
     <tr>
       <th>1</th>
-      <td>axon-test-4.10.3</td>
+      <td>axon-test-4.11.0</td>
       <td>org.axonframework.test.matchers</td>
       <td>org.hamcrest</td>
       <td>38</td>
       <td>147</td>
       <td>24</td>
-      <td>[Matcher, Description, BaseMatcher, TypeSafeMa...</td>
+      <td>[BaseMatcher, Description, Matcher, TypeSafeMa...</td>
       <td>matchers</td>
     </tr>
     <tr>
       <th>2</th>
-      <td>axon-messaging-4.10.3</td>
+      <td>axon-messaging-4.11.0</td>
       <td>org.axonframework.queryhandling</td>
       <td>reactor.core.publisher</td>
       <td>28</td>
       <td>108</td>
       <td>48</td>
-      <td>[Sinks$Many, Sinks$EmitResult, Mono, Flux, Mon...</td>
+      <td>[Mono, Flux, FluxSink$OverflowStrategy, Sinks$...</td>
       <td>queryhandling</td>
     </tr>
     <tr>
       <th>3</th>
-      <td>axon-server-connector-4.10.3</td>
+      <td>axon-server-connector-4.11.0</td>
       <td>org.axonframework.axonserver.connector.query</td>
       <td>io.axoniq.axonserver.grpc.query</td>
       <td>25</td>
       <td>124</td>
       <td>21</td>
-      <td>[QueryResponse, QueryProviderInbound, QueryPro...</td>
+      <td>[QueryResponse, QueryUpdate$Builder, QueryRequ...</td>
       <td>query</td>
     </tr>
     <tr>
       <th>4</th>
-      <td>axon-server-connector-4.10.3</td>
+      <td>axon-server-connector-4.11.0</td>
+      <td>org.axonframework.axonserver.connector.event.axon</td>
+      <td>io.axoniq.axonserver.connector.event</td>
+      <td>21</td>
+      <td>99</td>
+      <td>32</td>
+      <td>[EventQueryResultEntry, EventStream, Aggregate...</td>
+      <td>axon</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>axon-server-connector-4.11.0</td>
       <td>org.axonframework.axonserver.connector.query.s...</td>
       <td>io.axoniq.axonserver.grpc.query</td>
       <td>21</td>
       <td>113</td>
       <td>6</td>
-      <td>[QueryUpdate$Builder, QueryProviderOutbound, Q...</td>
+      <td>[SubscriptionQuery, QueryRequest$Builder, Quer...</td>
       <td>subscription</td>
     </tr>
     <tr>
-      <th>5</th>
-      <td>axon-server-connector-4.10.3</td>
-      <td>org.axonframework.axonserver.connector.event.axon</td>
-      <td>io.axoniq.axonserver.connector.event</td>
-      <td>20</td>
-      <td>90</td>
-      <td>31</td>
-      <td>[PersistentStreamProperties, PersistentStreamS...</td>
-      <td>axon</td>
-    </tr>
-    <tr>
       <th>6</th>
-      <td>axon-server-connector-4.10.3</td>
+      <td>axon-server-connector-4.11.0</td>
       <td>org.axonframework.axonserver.connector.util</td>
       <td>io.axoniq.axonserver.grpc</td>
       <td>20</td>
       <td>106</td>
-      <td>26</td>
-      <td>[ProcessingInstruction, ProcessingKey, MetaDat...</td>
+      <td>31</td>
+      <td>[MetaDataValue, MetaDataValue$Builder, Seriali...</td>
       <td>util</td>
     </tr>
     <tr>
       <th>7</th>
-      <td>axon-messaging-4.10.3</td>
+      <td>axon-messaging-4.11.0</td>
       <td>org.axonframework.deadline.quartz</td>
       <td>org.quartz</td>
       <td>18</td>
       <td>109</td>
       <td>4</td>
-      <td>[JobDataMap, Scheduler, SchedulerException, Jo...</td>
+      <td>[Job, Trigger, JobDetail, JobExecutionExceptio...</td>
       <td>quartz</td>
     </tr>
     <tr>
       <th>8</th>
-      <td>axon-messaging-4.10.3</td>
+      <td>axon-messaging-4.11.0</td>
       <td>org.axonframework.eventhandling.scheduling.quartz</td>
       <td>org.quartz</td>
       <td>17</td>
       <td>76</td>
       <td>6</td>
-      <td>[Scheduler, Job, JobDetail, JobExecutionContex...</td>
+      <td>[JobDataMap, JobExecutionContext, Scheduler, J...</td>
       <td>quartz</td>
     </tr>
     <tr>
       <th>9</th>
-      <td>axon-server-connector-4.10.3</td>
+      <td>axon-server-connector-4.11.0</td>
       <td>org.axonframework.axonserver.connector.query</td>
       <td>io.axoniq.axonserver.connector</td>
       <td>17</td>
       <td>53</td>
       <td>21</td>
-      <td>[ReplyChannel, FlowControl, Registration, Resu...</td>
+      <td>[ReplyChannel, ResultStream, Registration, Flo...</td>
       <td>query</td>
     </tr>
     <tr>
       <th>10</th>
-      <td>axon-messaging-4.10.3</td>
+      <td>axon-messaging-4.11.0</td>
       <td>org.axonframework.eventhandling</td>
       <td>org.slf4j</td>
       <td>16</td>
@@ -5206,29 +5230,40 @@ Only the last 40 entries are shown. The whole table can be found in the followin
     </tr>
     <tr>
       <th>11</th>
-      <td>axon-messaging-4.10.3</td>
-      <td>org.axonframework.eventhandling.pooled</td>
-      <td>org.slf4j</td>
-      <td>15</td>
-      <td>71</td>
-      <td>22</td>
-      <td>[Logger, LoggerFactory]</td>
-      <td>pooled</td>
+      <td>axon-messaging-4.11.0</td>
+      <td>org.axonframework.serialization.avro</td>
+      <td>org.apache.avro</td>
+      <td>16</td>
+      <td>54</td>
+      <td>11</td>
+      <td>[Schema, SchemaCompatibility$Incompatibility, ...</td>
+      <td>avro</td>
     </tr>
     <tr>
       <th>12</th>
-      <td>axon-messaging-4.10.3</td>
+      <td>axon-messaging-4.11.0</td>
+      <td>org.axonframework.eventhandling.pooled</td>
+      <td>org.slf4j</td>
+      <td>15</td>
+      <td>73</td>
+      <td>22</td>
+      <td>[LoggerFactory, Logger]</td>
+      <td>pooled</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>axon-messaging-4.11.0</td>
       <td>org.axonframework.serialization.json</td>
       <td>com.fasterxml.jackson.databind</td>
       <td>15</td>
       <td>65</td>
       <td>7</td>
-      <td>[JsonNode, ObjectMapper, ObjectWriter, ObjectR...</td>
+      <td>[JsonNode, ObjectMapper, ObjectMapper$DefaultT...</td>
       <td>json</td>
     </tr>
     <tr>
-      <th>13</th>
-      <td>axon-disruptor-4.10.3</td>
+      <th>14</th>
+      <td>axon-disruptor-4.11.0</td>
       <td>org.axonframework.disruptor.commandhandling</td>
       <td>org.slf4j</td>
       <td>12</td>
@@ -5238,96 +5273,96 @@ Only the last 40 entries are shown. The whole table can be found in the followin
       <td>commandhandling</td>
     </tr>
     <tr>
-      <th>14</th>
-      <td>axon-configuration-4.10.3</td>
+      <th>15</th>
+      <td>axon-server-connector-4.11.0</td>
+      <td>org.axonframework.axonserver.connector.event.axon</td>
+      <td>org.slf4j</td>
+      <td>12</td>
+      <td>29</td>
+      <td>32</td>
+      <td>[LoggerFactory, Logger]</td>
+      <td>axon</td>
+    </tr>
+    <tr>
+      <th>16</th>
+      <td>axon-configuration-4.11.0</td>
       <td>org.axonframework.config</td>
       <td>org.slf4j</td>
       <td>11</td>
       <td>32</td>
       <td>41</td>
-      <td>[Logger, LoggerFactory]</td>
+      <td>[LoggerFactory, Logger]</td>
       <td>config</td>
     </tr>
     <tr>
-      <th>15</th>
-      <td>axon-server-connector-4.10.3</td>
-      <td>org.axonframework.axonserver.connector.event.axon</td>
-      <td>org.slf4j</td>
-      <td>10</td>
-      <td>26</td>
-      <td>31</td>
-      <td>[Logger, LoggerFactory]</td>
-      <td>axon</td>
-    </tr>
-    <tr>
-      <th>16</th>
-      <td>axon-disruptor-4.10.3</td>
+      <th>17</th>
+      <td>axon-disruptor-4.11.0</td>
       <td>org.axonframework.disruptor.commandhandling</td>
       <td>com.lmax.disruptor</td>
       <td>9</td>
       <td>25</td>
       <td>22</td>
-      <td>[RingBuffer, EventHandler, ExceptionHandler, W...</td>
+      <td>[EventHandler, RingBuffer, LifecycleAware, Exc...</td>
       <td>commandhandling</td>
     </tr>
     <tr>
-      <th>17</th>
-      <td>axon-messaging-4.10.3</td>
+      <th>18</th>
+      <td>axon-messaging-4.11.0</td>
       <td>org.axonframework.queryhandling</td>
       <td>org.slf4j</td>
       <td>9</td>
       <td>18</td>
       <td>48</td>
-      <td>[LoggerFactory, Logger]</td>
+      <td>[Logger, LoggerFactory]</td>
       <td>queryhandling</td>
     </tr>
     <tr>
-      <th>18</th>
-      <td>axon-server-connector-4.10.3</td>
+      <th>19</th>
+      <td>axon-server-connector-4.11.0</td>
       <td>org.axonframework.axonserver.connector.command</td>
       <td>io.axoniq.axonserver.grpc.command</td>
       <td>9</td>
       <td>52</td>
       <td>11</td>
-      <td>[CommandResponse, Command, CommandResponse$Bui...</td>
+      <td>[Command, CommandResponse, CommandResponse$Bui...</td>
       <td>command</td>
     </tr>
     <tr>
-      <th>19</th>
-      <td>axon-server-connector-4.10.3</td>
+      <th>20</th>
+      <td>axon-server-connector-4.11.0</td>
       <td>org.axonframework.axonserver.connector.query</td>
       <td>io.axoniq.axonserver.grpc</td>
       <td>9</td>
       <td>46</td>
       <td>21</td>
-      <td>[SerializedObject, ErrorMessage, MetaDataValue...</td>
+      <td>[ErrorMessage, MetaDataValue, ProcessingInstru...</td>
       <td>query</td>
     </tr>
     <tr>
-      <th>20</th>
-      <td>axon-tracing-opentelemetry-4.10.3</td>
-      <td>org.axonframework.tracing.opentelemetry</td>
-      <td>io.opentelemetry.api.trace</td>
-      <td>9</td>
-      <td>47</td>
-      <td>5</td>
-      <td>[SpanBuilder, Span, SpanKind, Tracer, SpanCont...</td>
-      <td>opentelemetry</td>
-    </tr>
-    <tr>
       <th>21</th>
-      <td>axon-tracing-opentelemetry-4.10.3</td>
+      <td>axon-tracing-opentelemetry-4.11.0</td>
       <td>org.axonframework.tracing.opentelemetry</td>
       <td>io.opentelemetry.context.propagation</td>
       <td>9</td>
       <td>18</td>
       <td>5</td>
-      <td>[TextMapSetter, TextMapGetter, TextMapPropagat...</td>
+      <td>[ContextPropagators, TextMapPropagator, TextMa...</td>
       <td>opentelemetry</td>
     </tr>
     <tr>
       <th>22</th>
-      <td>axon-eventsourcing-4.10.3</td>
+      <td>axon-tracing-opentelemetry-4.11.0</td>
+      <td>org.axonframework.tracing.opentelemetry</td>
+      <td>io.opentelemetry.api.trace</td>
+      <td>9</td>
+      <td>47</td>
+      <td>5</td>
+      <td>[Tracer, SpanContext, SpanBuilder, StatusCode,...</td>
+      <td>opentelemetry</td>
+    </tr>
+    <tr>
+      <th>23</th>
+      <td>axon-eventsourcing-4.11.0</td>
       <td>org.axonframework.eventsourcing.eventstore.leg...</td>
       <td>org.slf4j</td>
       <td>8</td>
@@ -5337,85 +5372,96 @@ Only the last 40 entries are shown. The whole table can be found in the followin
       <td>legacyjpa</td>
     </tr>
     <tr>
-      <th>23</th>
-      <td>axon-messaging-4.10.3</td>
+      <th>24</th>
+      <td>axon-messaging-4.11.0</td>
       <td>org.axonframework.common.caching</td>
       <td>org.ehcache.event</td>
       <td>8</td>
       <td>30</td>
       <td>15</td>
-      <td>[EventType, CacheEvent, CacheEventListener, Ev...</td>
+      <td>[EventOrdering, CacheEventListener, EventFirin...</td>
       <td>caching</td>
     </tr>
     <tr>
-      <th>24</th>
-      <td>axon-messaging-4.10.3</td>
+      <th>25</th>
+      <td>axon-messaging-4.11.0</td>
       <td>org.axonframework.common.caching</td>
       <td>javax.cache.event</td>
       <td>8</td>
       <td>26</td>
       <td>15</td>
-      <td>[CacheEntryRemovedListener, CacheEntryExpiredL...</td>
+      <td>[CacheEntryEvent, CacheEntryExpiredListener, C...</td>
       <td>caching</td>
     </tr>
     <tr>
-      <th>25</th>
-      <td>axon-messaging-4.10.3</td>
+      <th>26</th>
+      <td>axon-messaging-4.11.0</td>
       <td>org.axonframework.messaging.annotation</td>
       <td>org.slf4j</td>
       <td>8</td>
       <td>15</td>
-      <td>54</td>
+      <td>55</td>
       <td>[Logger, LoggerFactory]</td>
       <td>annotation</td>
     </tr>
     <tr>
-      <th>26</th>
-      <td>axon-server-connector-4.10.3</td>
+      <th>27</th>
+      <td>axon-server-connector-4.11.0</td>
       <td>org.axonframework.axonserver.connector</td>
       <td>io.axoniq.axonserver.grpc</td>
       <td>8</td>
       <td>68</td>
       <td>27</td>
-      <td>[ErrorMessage, InstructionAck$Builder, Instruc...</td>
+      <td>[InstructionAck$Builder, InstructionAck, Error...</td>
       <td>connector</td>
     </tr>
     <tr>
-      <th>27</th>
-      <td>axon-server-connector-4.10.3</td>
+      <th>28</th>
+      <td>axon-server-connector-4.11.0</td>
       <td>org.axonframework.axonserver.connector.command</td>
       <td>io.axoniq.axonserver.grpc</td>
       <td>8</td>
       <td>25</td>
       <td>11</td>
-      <td>[ErrorMessage, ProcessingInstruction, Processi...</td>
+      <td>[ErrorMessage, MetaDataValue, ProcessingInstru...</td>
       <td>command</td>
     </tr>
     <tr>
-      <th>28</th>
-      <td>axon-server-connector-4.10.3</td>
+      <th>29</th>
+      <td>axon-server-connector-4.11.0</td>
       <td>org.axonframework.axonserver.connector.event.axon</td>
       <td>io.axoniq.axonserver.grpc.event</td>
       <td>8</td>
       <td>43</td>
-      <td>31</td>
-      <td>[Event, EventWithToken, Event$Builder, Confirm...</td>
+      <td>32</td>
+      <td>[EventWithToken, Event, Event$Builder, Confirm...</td>
       <td>axon</td>
     </tr>
     <tr>
-      <th>29</th>
-      <td>axon-test-4.10.3</td>
+      <th>30</th>
+      <td>axon-server-connector-4.11.0</td>
+      <td>org.axonframework.axonserver.connector.util</td>
+      <td>org.slf4j</td>
+      <td>8</td>
+      <td>19</td>
+      <td>31</td>
+      <td>[Logger, LoggerFactory]</td>
+      <td>util</td>
+    </tr>
+    <tr>
+      <th>31</th>
+      <td>axon-test-4.11.0</td>
       <td>org.axonframework.test.saga</td>
       <td>org.hamcrest</td>
       <td>8</td>
       <td>66</td>
       <td>21</td>
-      <td>[Matcher, CoreMatchers, StringDescription, Des...</td>
+      <td>[StringDescription, Matcher, Description, Core...</td>
       <td>saga</td>
     </tr>
     <tr>
-      <th>30</th>
-      <td>axon-messaging-4.10.3</td>
+      <th>32</th>
+      <td>axon-messaging-4.11.0</td>
       <td>org.axonframework.messaging.responsetypes</td>
       <td>reactor.core.publisher</td>
       <td>7</td>
@@ -5425,8 +5471,8 @@ Only the last 40 entries are shown. The whole table can be found in the followin
       <td>responsetypes</td>
     </tr>
     <tr>
-      <th>31</th>
-      <td>axon-messaging-4.10.3</td>
+      <th>33</th>
+      <td>axon-messaging-4.11.0</td>
       <td>org.axonframework.queryhandling</td>
       <td>org.reactivestreams</td>
       <td>7</td>
@@ -5436,41 +5482,63 @@ Only the last 40 entries are shown. The whole table can be found in the followin
       <td>queryhandling</td>
     </tr>
     <tr>
-      <th>32</th>
-      <td>axon-server-connector-4.10.3</td>
+      <th>34</th>
+      <td>axon-messaging-4.11.0</td>
+      <td>org.axonframework.serialization.avro</td>
+      <td>org.apache.avro.generic</td>
+      <td>7</td>
+      <td>26</td>
+      <td>11</td>
+      <td>[GenericRecord, GenericDatumReader, GenericData]</td>
+      <td>avro</td>
+    </tr>
+    <tr>
+      <th>35</th>
+      <td>axon-messaging-4.11.0</td>
+      <td>org.axonframework.serialization.avro</td>
+      <td>org.apache.avro.message</td>
+      <td>7</td>
+      <td>23</td>
+      <td>11</td>
+      <td>[SchemaStore, BinaryMessageDecoder, BinaryMess...</td>
+      <td>avro</td>
+    </tr>
+    <tr>
+      <th>36</th>
+      <td>axon-server-connector-4.11.0</td>
       <td>org.axonframework.axonserver.connector.event.axon</td>
       <td>io.axoniq.axonserver.grpc</td>
       <td>7</td>
       <td>18</td>
-      <td>31</td>
-      <td>[SerializedObject, ErrorMessage, SerializedObj...</td>
+      <td>32</td>
+      <td>[SerializedObject, SerializedObject$Builder, I...</td>
       <td>axon</td>
     </tr>
     <tr>
-      <th>33</th>
-      <td>axon-server-connector-4.10.3</td>
+      <th>37</th>
+      <td>axon-server-connector-4.11.0</td>
       <td>org.axonframework.axonserver.connector.query</td>
       <td>reactor.core.publisher</td>
       <td>7</td>
       <td>27</td>
       <td>21</td>
-      <td>[Flux, BaseSubscriber, Mono, SignalType]</td>
+      <td>[Flux, BaseSubscriber, SignalType, Mono]</td>
       <td>query</td>
     </tr>
     <tr>
-      <th>34</th>
-      <td>axon-server-connector-4.10.3</td>
+      <th>38</th>
+      <td>axon-server-connector-4.11.0</td>
       <td>org.axonframework.axonserver.connector.query.s...</td>
       <td>reactor.core.publisher</td>
       <td>7</td>
       <td>29</td>
       <td>6</td>
-      <td>[Mono, Flux, FluxSink]</td>
+      <td>[Flux, FluxSink, Mono]</td>
       <td>subscription</td>
     </tr>
     <tr>
-      <th>35</th>
-      <td>axon-eventsourcing-4.10.3</td>
+      <th>39</th>
+      <td>axon-eventsourcing-4.11.0</td>
       <td>org.axonframework.eventsourcing.eventstore</td>
       <td>org.slf4j</td>
       <td>6</td>
@@ -5478,50 +5546,6 @@ Only the last 40 entries are shown. The whole table can be found in the followin
       <td>31</td>
       <td>[LoggerFactory, Logger]</td>
       <td>eventstore</td>
-    </tr>
-    <tr>
-      <th>36</th>
-      <td>axon-messaging-4.10.3</td>
-      <td>org.axonframework.eventhandling.deadletter</td>
-      <td>org.slf4j</td>
-      <td>6</td>
-      <td>25</td>
-      <td>5</td>
-      <td>[Logger, LoggerFactory]</td>
-      <td>deadletter</td>
-    </tr>
-    <tr>
-      <th>37</th>
-      <td>axon-messaging-4.10.3</td>
-      <td>org.axonframework.messaging.responsetypes</td>
-      <td>org.reactivestreams</td>
-      <td>6</td>
-      <td>14</td>
-      <td>8</td>
-      <td>[Publisher]</td>
-      <td>responsetypes</td>
-    </tr>
-    <tr>
-      <th>38</th>
-      <td>axon-messaging-4.10.3</td>
-      <td>org.axonframework.serialization</td>
-      <td>com.thoughtworks.xstream.converters</td>
-      <td>6</td>
-      <td>6</td>
-      <td>34</td>
-      <td>[UnmarshallingContext, MarshallingContext]</td>
-      <td>serialization</td>
-    </tr>
-    <tr>
-      <th>39</th>
-      <td>axon-messaging-4.10.3</td>
-      <td>org.axonframework.serialization</td>
-      <td>com.thoughtworks.xstream.io</td>
-      <td>6</td>
-      <td>32</td>
-      <td>34</td>
-      <td>[HierarchicalStreamWriter, HierarchicalStreamR...</td>
-      <td>serialization</td>
     </tr>
   </tbody>
 </table>
@@ -5572,147 +5596,119 @@ Only the last 20 entries are shown. The whole table can be found in the followin
   <tbody>
     <tr>
       <th>0</th>
-      <td>axon-spring-boot-autoconfigure-4.10.3</td>
+      <td>axon-spring-boot-autoconfigure-4.11.0</td>
       <td>org.axonframework.springboot.autoconfig</td>
       <td>AxonAutoConfiguration</td>
-      <td>19</td>
-      <td>91</td>
-      <td>12</td>
-      <td>19</td>
-      <td>[javax.annotation, org.springframework.context...</td>
-      <td>[javax.annotation.Nonnull, org.springframework...</td>
+      <td>20</td>
+      <td>100</td>
+      <td>13</td>
+      <td>20</td>
+      <td>[org.springframework.boot.autoconfigure, org.s...</td>
+      <td>[org.springframework.boot.autoconfigure.AutoCo...</td>
       <td>autoconfig</td>
       <td>org.axonframework.springboot.autoconfig.AxonAu...</td>
     </tr>
     <tr>
       <th>1</th>
-      <td>axon-spring-boot-autoconfigure-4.10.3</td>
+      <td>axon-spring-boot-autoconfigure-4.11.0</td>
       <td>org.axonframework.springboot.autoconfig</td>
       <td>AxonServerAutoConfiguration</td>
-      <td>16</td>
-      <td>48</td>
-      <td>11</td>
-      <td>16</td>
-      <td>[javax.annotation, org.springframework.context...</td>
-      <td>[javax.annotation.Nonnull, org.springframework...</td>
+      <td>15</td>
+      <td>47</td>
+      <td>10</td>
+      <td>15</td>
+      <td>[org.springframework.boot.autoconfigure, org.s...</td>
+      <td>[org.springframework.boot.autoconfigure.AutoCo...</td>
       <td>autoconfig</td>
       <td>org.axonframework.springboot.autoconfig.AxonSe...</td>
     </tr>
     <tr>
       <th>2</th>
-      <td>axon-spring-boot-autoconfigure-4.10.3</td>
+      <td>axon-spring-boot-autoconfigure-4.11.0</td>
       <td>org.axonframework.springboot.autoconfig</td>
       <td>InfraConfiguration</td>
       <td>18</td>
       <td>53</td>
       <td>9</td>
       <td>18</td>
-      <td>[org.springframework.beans.factory.config, org...</td>
-      <td>[org.springframework.beans.factory.config.Conf...</td>
+      <td>[org.springframework.boot.autoconfigure, org.s...</td>
+      <td>[org.springframework.boot.autoconfigure.AutoCo...</td>
       <td>autoconfig</td>
       <td>org.axonframework.springboot.autoconfig.InfraC...</td>
     </tr>
     <tr>
       <th>3</th>
-      <td>axon-server-connector-4.10.3</td>
+      <td>axon-server-connector-4.11.0</td>
       <td>org.axonframework.axonserver.connector.query</td>
       <td>AxonServerQueryBus</td>
       <td>15</td>
       <td>73</td>
       <td>8</td>
       <td>15</td>
-      <td>[javax.annotation, reactor.core.scheduler, org...</td>
-      <td>[javax.annotation.Nonnull, reactor.core.schedu...</td>
+      <td>[org.slf4j, javax.annotation, io.axoniq.axonse...</td>
+      <td>[org.slf4j.Logger, javax.annotation.Nonnull, i...</td>
       <td>query</td>
       <td>org.axonframework.axonserver.connector.query.A...</td>
     </tr>
     <tr>
       <th>4</th>
-      <td>axon-spring-boot-autoconfigure-4.10.3</td>
+      <td>axon-spring-boot-autoconfigure-4.11.0</td>
       <td>org.axonframework.springboot.autoconfig</td>
       <td>PersistentStreamMessageSourceRegistrar</td>
       <td>13</td>
       <td>34</td>
       <td>8</td>
       <td>13</td>
-      <td>[javax.annotation, org.springframework.beans.f...</td>
-      <td>[javax.annotation.Nonnull, org.springframework...</td>
+      <td>[org.springframework.boot.context.properties.b...</td>
+      <td>[org.springframework.boot.context.properties.b...</td>
       <td>autoconfig</td>
       <td>org.axonframework.springboot.autoconfig.Persis...</td>
     </tr>
     <tr>
       <th>5</th>
-      <td>axon-spring-boot-autoconfigure-4.10.3</td>
+      <td>axon-spring-boot-autoconfigure-4.11.0</td>
       <td>org.axonframework.springboot.util</td>
       <td>AbstractQualifiedBeanCondition</td>
       <td>12</td>
       <td>24</td>
       <td>8</td>
       <td>12</td>
-      <td>[org.springframework.boot.autoconfigure.condit...</td>
-      <td>[org.springframework.boot.autoconfigure.condit...</td>
+      <td>[org.slf4j, org.springframework.context.annota...</td>
+      <td>[org.slf4j.Logger, org.slf4j.LoggerFactory, or...</td>
       <td>util</td>
       <td>org.axonframework.springboot.util.AbstractQual...</td>
     </tr>
     <tr>
       <th>6</th>
-      <td>axon-server-connector-4.10.3</td>
+      <td>axon-server-connector-4.11.0</td>
       <td>org.axonframework.axonserver.connector.event.axon</td>
       <td>AxonServerEventStore$AxonIQEventStorageEngine</td>
       <td>12</td>
       <td>58</td>
       <td>7</td>
       <td>12</td>
-      <td>[javax.annotation, io.axoniq.axonserver.grpc, ...</td>
-      <td>[javax.annotation.Nonnull, io.axoniq.axonserve...</td>
+      <td>[org.slf4j, javax.annotation, io.axoniq.axonse...</td>
+      <td>[org.slf4j.Logger, javax.annotation.Nonnull, i...</td>
       <td>axon</td>
       <td>org.axonframework.axonserver.connector.event.a...</td>
     </tr>
     <tr>
       <th>7</th>
-      <td>axon-spring-boot-autoconfigure-4.10.3</td>
+      <td>axon-spring-boot-autoconfigure-4.11.0</td>
       <td>org.axonframework.springboot.autoconfig</td>
       <td>XStreamAutoConfiguration</td>
       <td>11</td>
       <td>15</td>
       <td>7</td>
       <td>11</td>
-      <td>[org.springframework.context.annotation, org.s...</td>
-      <td>[org.springframework.context.annotation.Condit...</td>
+      <td>[org.slf4j, org.springframework.boot.autoconfi...</td>
+      <td>[org.slf4j.Logger, org.slf4j.LoggerFactory, or...</td>
       <td>autoconfig</td>
       <td>org.axonframework.springboot.autoconfig.XStrea...</td>
     </tr>
     <tr>
       <th>8</th>
-      <td>axon-spring-boot-autoconfigure-4.10.3</td>
-      <td>org.axonframework.springboot.autoconfig</td>
-      <td>AxonDbSchedulerAutoConfiguration</td>
-      <td>9</td>
-      <td>26</td>
-      <td>7</td>
-      <td>9</td>
-      <td>[org.springframework.context, org.springframew...</td>
-      <td>[org.springframework.context.ApplicationContex...</td>
-      <td>autoconfig</td>
-      <td>org.axonframework.springboot.autoconfig.AxonDb...</td>
-    </tr>
-    <tr>
-      <th>9</th>
-      <td>axon-spring-boot-autoconfigure-4.10.3</td>
-      <td>org.axonframework.springboot.autoconfig</td>
-      <td>MicrometerMetricsAutoConfiguration</td>
-      <td>13</td>
-      <td>30</td>
-      <td>7</td>
-      <td>13</td>
-      <td>[org.springframework.boot.autoconfigure.condit...</td>
-      <td>[org.springframework.boot.autoconfigure.condit...</td>
-      <td>autoconfig</td>
-      <td>org.axonframework.springboot.autoconfig.Microm...</td>
-    </tr>
-    <tr>
-      <th>10</th>
-      <td>axon-spring-boot-autoconfigure-4.10.3</td>
+      <td>axon-spring-boot-autoconfigure-4.11.0</td>
       <td>org.axonframework.springboot.autoconfig</td>
       <td>JpaAutoConfiguration</td>
       <td>10</td>
@@ -5725,8 +5721,50 @@ Only the last 20 entries are shown. The whole table can be found in the followin
       <td>org.axonframework.springboot.autoconfig.JpaAut...</td>
     </tr>
     <tr>
+      <th>9</th>
+      <td>axon-spring-boot-autoconfigure-4.11.0</td>
+      <td>org.axonframework.springboot.autoconfig</td>
+      <td>AvroSerializerAutoConfiguration</td>
+      <td>13</td>
+      <td>24</td>
+      <td>7</td>
+      <td>13</td>
+      <td>[org.springframework.boot.autoconfigure, org.s...</td>
+      <td>[org.springframework.boot.autoconfigure.AutoCo...</td>
+      <td>autoconfig</td>
+      <td>org.axonframework.springboot.autoconfig.AvroSe...</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>axon-spring-boot-autoconfigure-4.11.0</td>
+      <td>org.axonframework.springboot.autoconfig</td>
+      <td>AxonDbSchedulerAutoConfiguration</td>
+      <td>9</td>
+      <td>26</td>
+      <td>7</td>
+      <td>9</td>
+      <td>[org.springframework.boot.autoconfigure, org.s...</td>
+      <td>[org.springframework.boot.autoconfigure.AutoCo...</td>
+      <td>autoconfig</td>
+      <td>org.axonframework.springboot.autoconfig.AxonDb...</td>
+    </tr>
+    <tr>
       <th>11</th>
-      <td>axon-spring-boot-autoconfigure-4.10.3</td>
+      <td>axon-spring-boot-autoconfigure-4.11.0</td>
+      <td>org.axonframework.springboot.autoconfig</td>
+      <td>MicrometerMetricsAutoConfiguration</td>
+      <td>13</td>
+      <td>30</td>
+      <td>7</td>
+      <td>13</td>
+      <td>[org.springframework.boot.autoconfigure, org.s...</td>
+      <td>[org.springframework.boot.autoconfigure.AutoCo...</td>
+      <td>autoconfig</td>
+      <td>org.axonframework.springboot.autoconfig.Microm...</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>axon-spring-boot-autoconfigure-4.11.0</td>
       <td>org.axonframework.springboot.autoconfig.legacyjpa</td>
       <td>JpaJavaxAutoConfiguration</td>
       <td>11</td>
@@ -5739,8 +5777,8 @@ Only the last 20 entries are shown. The whole table can be found in the followin
       <td>org.axonframework.springboot.autoconfig.legacy...</td>
     </tr>
     <tr>
-      <th>12</th>
-      <td>axon-messaging-4.10.3</td>
+      <th>13</th>
+      <td>axon-messaging-4.11.0</td>
       <td>org.axonframework.serialization.json</td>
       <td>JacksonSerializer</td>
       <td>9</td>
@@ -5753,50 +5791,50 @@ Only the last 20 entries are shown. The whole table can be found in the followin
       <td>org.axonframework.serialization.json.JacksonSe...</td>
     </tr>
     <tr>
-      <th>13</th>
-      <td>axon-server-connector-4.10.3</td>
+      <th>14</th>
+      <td>axon-server-connector-4.11.0</td>
       <td>org.axonframework.axonserver.connector</td>
       <td>AxonServerConnectionManager$Builder</td>
-      <td>8</td>
-      <td>40</td>
+      <td>9</td>
+      <td>45</td>
       <td>6</td>
-      <td>8</td>
-      <td>[io.grpc, io.axoniq.axonserver.connector, io.a...</td>
-      <td>[io.grpc.ManagedChannelBuilder, io.axoniq.axon...</td>
+      <td>9</td>
+      <td>[io.axoniq.axonserver.connector, io.axoniq.axo...</td>
+      <td>[io.axoniq.axonserver.connector.AxonServerConn...</td>
       <td>connector</td>
       <td>org.axonframework.axonserver.connector.AxonSer...</td>
     </tr>
     <tr>
-      <th>14</th>
-      <td>axon-server-connector-4.10.3</td>
+      <th>15</th>
+      <td>axon-server-connector-4.11.0</td>
       <td>org.axonframework.axonserver.connector.event.axon</td>
       <td>AxonServerEventScheduler</td>
       <td>10</td>
       <td>26</td>
       <td>6</td>
       <td>10</td>
-      <td>[javax.annotation, io.axoniq.axonserver.grpc, ...</td>
-      <td>[javax.annotation.Nonnull, io.axoniq.axonserve...</td>
+      <td>[io.axoniq.axonserver.grpc, javax.annotation, ...</td>
+      <td>[io.axoniq.axonserver.grpc.ErrorMessage, javax...</td>
       <td>axon</td>
       <td>org.axonframework.axonserver.connector.event.a...</td>
     </tr>
     <tr>
-      <th>15</th>
-      <td>axon-server-connector-4.10.3</td>
+      <th>16</th>
+      <td>axon-server-connector-4.11.0</td>
       <td>org.axonframework.axonserver.connector.processor</td>
       <td>EventProcessorControlService</td>
       <td>8</td>
       <td>36</td>
       <td>6</td>
       <td>8</td>
-      <td>[javax.annotation, org.slf4j, io.axoniq.axonse...</td>
-      <td>[javax.annotation.Nonnull, org.slf4j.Logger, o...</td>
+      <td>[io.axoniq.axonserver.grpc.control, org.slf4j,...</td>
+      <td>[io.axoniq.axonserver.grpc.control.EventProces...</td>
       <td>processor</td>
       <td>org.axonframework.axonserver.connector.process...</td>
     </tr>
     <tr>
-      <th>16</th>
-      <td>axon-server-connector-4.10.3</td>
+      <th>17</th>
+      <td>axon-server-connector-4.11.0</td>
       <td>org.axonframework.axonserver.connector.query</td>
       <td>QueryProcessingTask</td>
       <td>10</td>
@@ -5809,36 +5847,22 @@ Only the last 20 entries are shown. The whole table can be found in the followin
       <td>org.axonframework.axonserver.connector.query.Q...</td>
     </tr>
     <tr>
-      <th>17</th>
-      <td>axon-spring-boot-autoconfigure-4.10.3</td>
+      <th>18</th>
+      <td>axon-spring-boot-autoconfigure-4.11.0</td>
       <td>org.axonframework.springboot.autoconfig</td>
       <td>MetricsAutoConfiguration</td>
       <td>11</td>
       <td>28</td>
       <td>6</td>
       <td>11</td>
-      <td>[org.springframework.boot.autoconfigure.condit...</td>
-      <td>[org.springframework.boot.autoconfigure.condit...</td>
+      <td>[org.springframework.boot.autoconfigure, org.s...</td>
+      <td>[org.springframework.boot.autoconfigure.AutoCo...</td>
       <td>autoconfig</td>
       <td>org.axonframework.springboot.autoconfig.Metric...</td>
     </tr>
     <tr>
-      <th>18</th>
-      <td>axon-spring-boot-autoconfigure-4.10.3</td>
-      <td>org.axonframework.springboot.autoconfig</td>
-      <td>JdbcAutoConfiguration</td>
-      <td>9</td>
-      <td>30</td>
-      <td>6</td>
-      <td>9</td>
-      <td>[org.springframework.boot.autoconfigure, org.s...</td>
-      <td>[org.springframework.boot.autoconfigure.AutoCo...</td>
-      <td>autoconfig</td>
-      <td>org.axonframework.springboot.autoconfig.JdbcAu...</td>
-    </tr>
-    <tr>
       <th>19</th>
-      <td>axon-spring-boot-autoconfigure-4.10.3</td>
+      <td>axon-spring-boot-autoconfigure-4.11.0</td>
       <td>org.axonframework.springboot.autoconfig</td>
       <td>JpaEventStoreAutoConfiguration</td>
       <td>9</td>
@@ -5894,40 +5918,40 @@ Only the last 40 entries are shown. The whole table can be found in the followin
   <tbody>
     <tr>
       <th>0</th>
-      <td>axon-messaging-4.10.3</td>
-      <td>64</td>
-      <td>787</td>
-      <td>41</td>
-      <td>44</td>
-      <td>155</td>
-      <td>19.695044</td>
-      <td>68.750000</td>
+      <td>axon-messaging-4.11.0</td>
+      <td>66</td>
+      <td>809</td>
+      <td>49</td>
+      <td>46</td>
+      <td>167</td>
+      <td>20.642769</td>
+      <td>69.696970</td>
     </tr>
     <tr>
       <th>1</th>
-      <td>axon-server-connector-4.10.3</td>
+      <td>axon-server-connector-4.11.0</td>
       <td>11</td>
-      <td>136</td>
+      <td>142</td>
       <td>24</td>
       <td>10</td>
-      <td>84</td>
-      <td>61.764706</td>
+      <td>88</td>
+      <td>61.971831</td>
       <td>90.909091</td>
     </tr>
     <tr>
       <th>2</th>
-      <td>axon-spring-boot-autoconfigure-4.10.3</td>
+      <td>axon-spring-boot-autoconfigure-4.11.0</td>
       <td>9</td>
-      <td>75</td>
-      <td>43</td>
+      <td>88</td>
+      <td>47</td>
       <td>8</td>
-      <td>33</td>
-      <td>44.000000</td>
+      <td>39</td>
+      <td>44.318182</td>
       <td>88.888889</td>
     </tr>
     <tr>
       <th>3</th>
-      <td>axon-modelling-4.10.3</td>
+      <td>axon-modelling-4.11.0</td>
       <td>10</td>
       <td>158</td>
       <td>3</td>
@@ -5938,7 +5962,7 @@ Only the last 40 entries are shown. The whole table can be found in the followin
     </tr>
     <tr>
       <th>4</th>
-      <td>axon-test-4.10.3</td>
+      <td>axon-test-4.11.0</td>
       <td>8</td>
       <td>87</td>
       <td>12</td>
@@ -5949,7 +5973,7 @@ Only the last 40 entries are shown. The whole table can be found in the followin
     </tr>
     <tr>
       <th>5</th>
-      <td>axon-eventsourcing-4.10.3</td>
+      <td>axon-eventsourcing-4.11.0</td>
       <td>9</td>
       <td>133</td>
       <td>3</td>
@@ -5960,7 +5984,7 @@ Only the last 40 entries are shown. The whole table can be found in the followin
     </tr>
     <tr>
       <th>6</th>
-      <td>axon-configuration-4.10.3</td>
+      <td>axon-configuration-4.11.0</td>
       <td>1</td>
       <td>41</td>
       <td>1</td>
@@ -5971,7 +5995,7 @@ Only the last 40 entries are shown. The whole table can be found in the followin
     </tr>
     <tr>
       <th>7</th>
-      <td>axon-disruptor-4.10.3</td>
+      <td>axon-disruptor-4.11.0</td>
       <td>1</td>
       <td>22</td>
       <td>4</td>
@@ -5982,7 +6006,7 @@ Only the last 40 entries are shown. The whole table can be found in the followin
     </tr>
     <tr>
       <th>8</th>
-      <td>axon-tracing-opentelemetry-4.10.3</td>
+      <td>axon-tracing-opentelemetry-4.11.0</td>
       <td>1</td>
       <td>5</td>
       <td>5</td>
@@ -6014,12 +6038,12 @@ The whole table can be found in the following CSV report:
   <thead>
     <tr style="text-align: right;">
       <th>artifactName</th>
-      <th>axon-eventsourcing-4.10.3</th>
-      <th>axon-messaging-4.10.3</th>
-      <th>axon-modelling-4.10.3</th>
-      <th>axon-server-connector-4.10.3</th>
-      <th>axon-spring-boot-autoconfigure-4.10.3</th>
-      <th>axon-test-4.10.3</th>
+      <th>axon-eventsourcing-4.11.0</th>
+      <th>axon-messaging-4.11.0</th>
+      <th>axon-modelling-4.11.0</th>
+      <th>axon-server-connector-4.11.0</th>
+      <th>axon-spring-boot-autoconfigure-4.11.0</th>
+      <th>axon-test-4.11.0</th>
     </tr>
     <tr>
       <th>numberOfPackages</th>
@@ -6035,7 +6059,7 @@ The whole table can be found in the following CSV report:
     <tr>
       <th>2</th>
       <td>22.222222</td>
-      <td>3.1250</td>
+      <td>3.030303</td>
       <td>20.0</td>
       <td>18.181818</td>
       <td>22.222222</td>
@@ -6044,7 +6068,7 @@ The whole table can be found in the following CSV report:
     <tr>
       <th>3</th>
       <td>33.333333</td>
-      <td>0.0000</td>
+      <td>0.000000</td>
       <td>30.0</td>
       <td>27.272727</td>
       <td>33.333333</td>
@@ -6053,7 +6077,7 @@ The whole table can be found in the following CSV report:
     <tr>
       <th>4</th>
       <td>0.000000</td>
-      <td>6.2500</td>
+      <td>6.060606</td>
       <td>40.0</td>
       <td>36.363636</td>
       <td>44.444444</td>
@@ -6062,7 +6086,7 @@ The whole table can be found in the following CSV report:
     <tr>
       <th>5</th>
       <td>55.555556</td>
-      <td>0.0000</td>
+      <td>0.000000</td>
       <td>0.0</td>
       <td>0.000000</td>
       <td>0.000000</td>
@@ -6071,7 +6095,7 @@ The whole table can be found in the following CSV report:
     <tr>
       <th>6</th>
       <td>66.666667</td>
-      <td>0.0000</td>
+      <td>0.000000</td>
       <td>60.0</td>
       <td>54.545455</td>
       <td>0.000000</td>
@@ -6080,7 +6104,7 @@ The whole table can be found in the following CSV report:
     <tr>
       <th>7</th>
       <td>0.000000</td>
-      <td>10.9375</td>
+      <td>10.606061</td>
       <td>0.0</td>
       <td>63.636364</td>
       <td>0.000000</td>
@@ -6089,7 +6113,7 @@ The whole table can be found in the following CSV report:
     <tr>
       <th>8</th>
       <td>0.000000</td>
-      <td>0.0000</td>
+      <td>0.000000</td>
       <td>0.0</td>
       <td>72.727273</td>
       <td>0.000000</td>
@@ -6098,7 +6122,7 @@ The whole table can be found in the following CSV report:
     <tr>
       <th>9</th>
       <td>0.000000</td>
-      <td>0.0000</td>
+      <td>0.000000</td>
       <td>0.0</td>
       <td>81.818182</td>
       <td>0.000000</td>
@@ -6107,25 +6131,25 @@ The whole table can be found in the following CSV report:
     <tr>
       <th>11</th>
       <td>0.000000</td>
-      <td>17.1875</td>
+      <td>16.666667</td>
       <td>0.0</td>
       <td>0.000000</td>
       <td>0.000000</td>
       <td>0.0</td>
     </tr>
     <tr>
-      <th>38</th>
+      <th>39</th>
       <td>0.000000</td>
-      <td>59.3750</td>
+      <td>59.090909</td>
       <td>0.0</td>
       <td>0.000000</td>
       <td>0.000000</td>
       <td>0.0</td>
     </tr>
     <tr>
-      <th>47</th>
+      <th>49</th>
       <td>0.000000</td>
-      <td>73.4375</td>
+      <td>74.242424</td>
       <td>0.0</td>
       <td>0.000000</td>
       <td>0.000000</td>
@@ -6181,18 +6205,18 @@ Only the last 40 entries are shown. The whole table can be found in the followin
   <tbody>
     <tr>
       <th>0</th>
-      <td>axon-messaging-4.10.3</td>
-      <td>64</td>
-      <td>41</td>
+      <td>axon-messaging-4.11.0</td>
+      <td>66</td>
+      <td>49</td>
       <td>1</td>
       <td>1.0</td>
-      <td>2.292683</td>
-      <td>38</td>
-      <td>5.758663</td>
+      <td>2.102041</td>
+      <td>39</td>
+      <td>5.420812</td>
     </tr>
     <tr>
       <th>1</th>
-      <td>axon-server-connector-4.10.3</td>
+      <td>axon-server-connector-4.11.0</td>
       <td>11</td>
       <td>24</td>
       <td>1</td>
@@ -6203,7 +6227,7 @@ Only the last 40 entries are shown. The whole table can be found in the followin
     </tr>
     <tr>
       <th>2</th>
-      <td>axon-modelling-4.10.3</td>
+      <td>axon-modelling-4.11.0</td>
       <td>10</td>
       <td>3</td>
       <td>2</td>
@@ -6214,7 +6238,7 @@ Only the last 40 entries are shown. The whole table can be found in the followin
     </tr>
     <tr>
       <th>3</th>
-      <td>axon-eventsourcing-4.10.3</td>
+      <td>axon-eventsourcing-4.11.0</td>
       <td>9</td>
       <td>3</td>
       <td>1</td>
@@ -6225,7 +6249,7 @@ Only the last 40 entries are shown. The whole table can be found in the followin
     </tr>
     <tr>
       <th>4</th>
-      <td>axon-test-4.10.3</td>
+      <td>axon-test-4.11.0</td>
       <td>8</td>
       <td>12</td>
       <td>1</td>
@@ -6236,18 +6260,18 @@ Only the last 40 entries are shown. The whole table can be found in the followin
     </tr>
     <tr>
       <th>5</th>
-      <td>axon-spring-boot-autoconfigure-4.10.3</td>
+      <td>axon-spring-boot-autoconfigure-4.11.0</td>
       <td>9</td>
-      <td>43</td>
+      <td>47</td>
       <td>1</td>
       <td>1.0</td>
-      <td>1.279070</td>
+      <td>1.276596</td>
       <td>3</td>
-      <td>0.548833</td>
+      <td>0.539812</td>
     </tr>
     <tr>
       <th>6</th>
-      <td>axon-configuration-4.10.3</td>
+      <td>axon-configuration-4.11.0</td>
       <td>1</td>
       <td>1</td>
       <td>1</td>
@@ -6258,7 +6282,7 @@ Only the last 40 entries are shown. The whole table can be found in the followin
     </tr>
     <tr>
       <th>7</th>
-      <td>axon-disruptor-4.10.3</td>
+      <td>axon-disruptor-4.11.0</td>
       <td>1</td>
       <td>4</td>
       <td>1</td>
@@ -6269,7 +6293,7 @@ Only the last 40 entries are shown. The whole table can be found in the followin
     </tr>
     <tr>
       <th>8</th>
-      <td>axon-tracing-opentelemetry-4.10.3</td>
+      <td>axon-tracing-opentelemetry-4.11.0</td>
       <td>1</td>
       <td>5</td>
       <td>1</td>
@@ -6307,18 +6331,18 @@ Only the last 40 entries are shown. The whole table can be found in the followin
   <tbody>
     <tr>
       <th>0</th>
-      <td>axon-messaging-4.10.3</td>
-      <td>64</td>
-      <td>41</td>
-      <td>1.562500</td>
-      <td>1.562500</td>
-      <td>3.582317</td>
-      <td>59.375000</td>
-      <td>8.997910</td>
+      <td>axon-messaging-4.11.0</td>
+      <td>66</td>
+      <td>49</td>
+      <td>1.515152</td>
+      <td>1.515152</td>
+      <td>3.184910</td>
+      <td>59.090909</td>
+      <td>8.213352</td>
     </tr>
     <tr>
       <th>1</th>
-      <td>axon-server-connector-4.10.3</td>
+      <td>axon-server-connector-4.11.0</td>
       <td>11</td>
       <td>24</td>
       <td>9.090909</td>
@@ -6329,7 +6353,7 @@ Only the last 40 entries are shown. The whole table can be found in the followin
     </tr>
     <tr>
       <th>2</th>
-      <td>axon-modelling-4.10.3</td>
+      <td>axon-modelling-4.11.0</td>
       <td>10</td>
       <td>3</td>
       <td>20.000000</td>
@@ -6340,7 +6364,7 @@ Only the last 40 entries are shown. The whole table can be found in the followin
     </tr>
     <tr>
       <th>3</th>
-      <td>axon-eventsourcing-4.10.3</td>
+      <td>axon-eventsourcing-4.11.0</td>
       <td>9</td>
       <td>3</td>
       <td>11.111111</td>
@@ -6351,7 +6375,7 @@ Only the last 40 entries are shown. The whole table can be found in the followin
     </tr>
     <tr>
       <th>4</th>
-      <td>axon-test-4.10.3</td>
+      <td>axon-test-4.11.0</td>
       <td>8</td>
       <td>12</td>
       <td>12.500000</td>
@@ -6362,18 +6386,18 @@ Only the last 40 entries are shown. The whole table can be found in the followin
     </tr>
     <tr>
       <th>5</th>
-      <td>axon-spring-boot-autoconfigure-4.10.3</td>
+      <td>axon-spring-boot-autoconfigure-4.11.0</td>
       <td>9</td>
-      <td>43</td>
+      <td>47</td>
       <td>11.111111</td>
       <td>11.111111</td>
-      <td>14.211886</td>
+      <td>14.184397</td>
       <td>33.333333</td>
-      <td>6.098150</td>
+      <td>5.997910</td>
     </tr>
     <tr>
       <th>6</th>
-      <td>axon-configuration-4.10.3</td>
+      <td>axon-configuration-4.11.0</td>
       <td>1</td>
       <td>1</td>
       <td>100.000000</td>
@@ -6384,7 +6408,7 @@ Only the last 40 entries are shown. The whole table can be found in the followin
     </tr>
     <tr>
       <th>7</th>
-      <td>axon-disruptor-4.10.3</td>
+      <td>axon-disruptor-4.11.0</td>
       <td>1</td>
       <td>4</td>
       <td>100.000000</td>
@@ -6395,7 +6419,7 @@ Only the last 40 entries are shown. The whole table can be found in the followin
     </tr>
     <tr>
       <th>8</th>
-      <td>axon-tracing-opentelemetry-4.10.3</td>
+      <td>axon-tracing-opentelemetry-4.11.0</td>
       <td>1</td>
       <td>5</td>
       <td>100.000000</td>
@@ -6433,29 +6457,29 @@ Only the last 40 entries are shown. The whole table can be found in the followin
   <tbody>
     <tr>
       <th>0</th>
-      <td>axon-messaging-4.10.3</td>
-      <td>787</td>
-      <td>41</td>
+      <td>axon-messaging-4.11.0</td>
+      <td>809</td>
+      <td>49</td>
       <td>1</td>
-      <td>3.0</td>
-      <td>5.414634</td>
-      <td>79</td>
-      <td>12.271869</td>
+      <td>2.0</td>
+      <td>5.020408</td>
+      <td>82</td>
+      <td>11.689543</td>
     </tr>
     <tr>
       <th>1</th>
-      <td>axon-server-connector-4.10.3</td>
-      <td>136</td>
+      <td>axon-server-connector-4.11.0</td>
+      <td>142</td>
       <td>24</td>
       <td>1</td>
       <td>4.0</td>
-      <td>7.375000</td>
+      <td>7.791667</td>
       <td>30</td>
-      <td>7.856388</td>
+      <td>8.319590</td>
     </tr>
     <tr>
       <th>2</th>
-      <td>axon-modelling-4.10.3</td>
+      <td>axon-modelling-4.11.0</td>
       <td>158</td>
       <td>3</td>
       <td>3</td>
@@ -6466,7 +6490,7 @@ Only the last 40 entries are shown. The whole table can be found in the followin
     </tr>
     <tr>
       <th>3</th>
-      <td>axon-eventsourcing-4.10.3</td>
+      <td>axon-eventsourcing-4.11.0</td>
       <td>133</td>
       <td>3</td>
       <td>3</td>
@@ -6477,7 +6501,7 @@ Only the last 40 entries are shown. The whole table can be found in the followin
     </tr>
     <tr>
       <th>4</th>
-      <td>axon-test-4.10.3</td>
+      <td>axon-test-4.11.0</td>
       <td>87</td>
       <td>12</td>
       <td>1</td>
@@ -6488,18 +6512,18 @@ Only the last 40 entries are shown. The whole table can be found in the followin
     </tr>
     <tr>
       <th>5</th>
-      <td>axon-spring-boot-autoconfigure-4.10.3</td>
-      <td>75</td>
-      <td>43</td>
+      <td>axon-spring-boot-autoconfigure-4.11.0</td>
+      <td>88</td>
+      <td>47</td>
       <td>1</td>
       <td>1.0</td>
-      <td>1.837209</td>
-      <td>5</td>
-      <td>1.067490</td>
+      <td>1.957447</td>
+      <td>6</td>
+      <td>1.301461</td>
     </tr>
     <tr>
       <th>6</th>
-      <td>axon-configuration-4.10.3</td>
+      <td>axon-configuration-4.11.0</td>
       <td>41</td>
       <td>1</td>
       <td>6</td>
@@ -6510,7 +6534,7 @@ Only the last 40 entries are shown. The whole table can be found in the followin
     </tr>
     <tr>
       <th>7</th>
-      <td>axon-disruptor-4.10.3</td>
+      <td>axon-disruptor-4.11.0</td>
       <td>22</td>
       <td>4</td>
       <td>1</td>
@@ -6521,7 +6545,7 @@ Only the last 40 entries are shown. The whole table can be found in the followin
     </tr>
     <tr>
       <th>8</th>
-      <td>axon-tracing-opentelemetry-4.10.3</td>
+      <td>axon-tracing-opentelemetry-4.11.0</td>
       <td>5</td>
       <td>5</td>
       <td>1</td>
@@ -6559,29 +6583,29 @@ Only the last 40 entries are shown. The whole table can be found in the followin
   <tbody>
     <tr>
       <th>0</th>
-      <td>axon-messaging-4.10.3</td>
-      <td>787</td>
-      <td>41</td>
-      <td>0.127065</td>
-      <td>0.381194</td>
-      <td>0.688009</td>
-      <td>10.038119</td>
-      <td>1.559323</td>
+      <td>axon-messaging-4.11.0</td>
+      <td>809</td>
+      <td>49</td>
+      <td>0.123609</td>
+      <td>0.247219</td>
+      <td>0.620570</td>
+      <td>10.135970</td>
+      <td>1.444937</td>
     </tr>
     <tr>
       <th>1</th>
-      <td>axon-server-connector-4.10.3</td>
-      <td>136</td>
+      <td>axon-server-connector-4.11.0</td>
+      <td>142</td>
       <td>24</td>
-      <td>0.735294</td>
-      <td>2.941176</td>
-      <td>5.422794</td>
-      <td>22.058824</td>
-      <td>5.776756</td>
+      <td>0.704225</td>
+      <td>2.816901</td>
+      <td>5.487089</td>
+      <td>21.126761</td>
+      <td>5.858866</td>
     </tr>
     <tr>
       <th>2</th>
-      <td>axon-modelling-4.10.3</td>
+      <td>axon-modelling-4.11.0</td>
       <td>158</td>
       <td>3</td>
       <td>1.898734</td>
@@ -6592,7 +6616,7 @@ Only the last 40 entries are shown. The whole table can be found in the followin
     </tr>
     <tr>
       <th>3</th>
-      <td>axon-eventsourcing-4.10.3</td>
+      <td>axon-eventsourcing-4.11.0</td>
       <td>133</td>
       <td>3</td>
       <td>2.255639</td>
@@ -6603,7 +6627,7 @@ Only the last 40 entries are shown. The whole table can be found in the followin
     </tr>
     <tr>
       <th>4</th>
-      <td>axon-test-4.10.3</td>
+      <td>axon-test-4.11.0</td>
       <td>87</td>
       <td>12</td>
       <td>1.149425</td>
@@ -6614,18 +6638,18 @@ Only the last 40 entries are shown. The whole table can be found in the followin
     </tr>
     <tr>
       <th>5</th>
-      <td>axon-spring-boot-autoconfigure-4.10.3</td>
-      <td>75</td>
-      <td>43</td>
-      <td>1.333333</td>
-      <td>1.333333</td>
-      <td>2.449612</td>
-      <td>6.666667</td>
-      <td>1.423320</td>
+      <td>axon-spring-boot-autoconfigure-4.11.0</td>
+      <td>88</td>
+      <td>47</td>
+      <td>1.136364</td>
+      <td>1.136364</td>
+      <td>2.224371</td>
+      <td>6.818182</td>
+      <td>1.478934</td>
     </tr>
     <tr>
       <th>6</th>
-      <td>axon-configuration-4.10.3</td>
+      <td>axon-configuration-4.11.0</td>
       <td>41</td>
       <td>1</td>
       <td>14.634146</td>
@@ -6636,7 +6660,7 @@ Only the last 40 entries are shown. The whole table can be found in the followin
     </tr>
     <tr>
       <th>7</th>
-      <td>axon-disruptor-4.10.3</td>
+      <td>axon-disruptor-4.11.0</td>
       <td>22</td>
       <td>4</td>
       <td>4.545455</td>
@@ -6647,7 +6671,7 @@ Only the last 40 entries are shown. The whole table can be found in the followin
     </tr>
     <tr>
       <th>8</th>
-      <td>axon-tracing-opentelemetry-4.10.3</td>
+      <td>axon-tracing-opentelemetry-4.11.0</td>
       <td>5</td>
       <td>5</td>
       <td>20.000000</td>
@@ -6724,43 +6748,43 @@ If Maven is used as for package and dependency management and a ".pom" file is i
       <td>Axon Framework - Configuration</td>
       <td>test</td>
       <td>False</td>
-      <td>${project.groupId}</td>
-      <td>axon-messaging</td>
+      <td>org.hsqldb</td>
+      <td>hsqldb</td>
     </tr>
     <tr>
       <th>1</th>
       <td>axon-configuration</td>
       <td>Axon Framework - Configuration</td>
-      <td>test</td>
+      <td>provided</td>
       <td>False</td>
-      <td>jakarta.persistence</td>
-      <td>jakarta.persistence-api</td>
+      <td>com.google.code.findbugs</td>
+      <td>jsr305</td>
     </tr>
     <tr>
       <th>2</th>
       <td>axon-configuration</td>
       <td>Axon Framework - Configuration</td>
       <td>default</td>
-      <td>True</td>
-      <td>jakarta.annotation</td>
-      <td>jakarta.annotation-api</td>
+      <td>False</td>
+      <td>${project.groupId}</td>
+      <td>axon-eventsourcing</td>
     </tr>
     <tr>
       <th>3</th>
       <td>axon-configuration</td>
       <td>Axon Framework - Configuration</td>
-      <td>default</td>
+      <td>test</td>
       <td>False</td>
-      <td>org.axonframework</td>
-      <td>axon-modelling</td>
+      <td>org.hibernate</td>
+      <td>hibernate-core-jakarta</td>
     </tr>
     <tr>
       <th>4</th>
       <td>axon-configuration</td>
       <td>Axon Framework - Configuration</td>
-      <td>default</td>
+      <td>test</td>
       <td>False</td>
-      <td>org.axonframework</td>
+      <td>${project.groupId}</td>
       <td>axon-messaging</td>
     </tr>
     <tr>
@@ -6773,31 +6797,13 @@ If Maven is used as for package and dependency management and a ".pom" file is i
       <td>...</td>
     </tr>
     <tr>
-      <th>158</th>
+      <th>160</th>
       <td>axon-test</td>
       <td>Axon Framework - Test Fixtures</td>
-      <td>provided</td>
-      <td>False</td>
-      <td>com.google.code.findbugs</td>
-      <td>jsr305</td>
-    </tr>
-    <tr>
-      <th>159</th>
-      <td>axon-tracing-opentelemetry</td>
-      <td>Axon Framework - OpenTelemetry Tracing</td>
-      <td>provided</td>
-      <td>False</td>
-      <td>com.google.code.findbugs</td>
-      <td>jsr305</td>
-    </tr>
-    <tr>
-      <th>160</th>
-      <td>axon-tracing-opentelemetry</td>
-      <td>Axon Framework - OpenTelemetry Tracing</td>
       <td>default</td>
-      <td>False</td>
-      <td>${project.groupId}</td>
-      <td>axon-messaging</td>
+      <td>True</td>
+      <td>com.google.code.gson</td>
+      <td>gson</td>
     </tr>
     <tr>
       <th>161</th>
@@ -6812,14 +6818,32 @@ If Maven is used as for package and dependency management and a ".pom" file is i
       <th>162</th>
       <td>axon-tracing-opentelemetry</td>
       <td>Axon Framework - OpenTelemetry Tracing</td>
+      <td>provided</td>
+      <td>False</td>
+      <td>com.google.code.findbugs</td>
+      <td>jsr305</td>
+    </tr>
+    <tr>
+      <th>163</th>
+      <td>axon-tracing-opentelemetry</td>
+      <td>Axon Framework - OpenTelemetry Tracing</td>
       <td>default</td>
       <td>False</td>
       <td>${project.groupId}</td>
       <td>axon-configuration</td>
     </tr>
+    <tr>
+      <th>164</th>
+      <td>axon-tracing-opentelemetry</td>
+      <td>Axon Framework - OpenTelemetry Tracing</td>
+      <td>default</td>
+      <td>False</td>
+      <td>${project.groupId}</td>
+      <td>axon-messaging</td>
+    </tr>
   </tbody>
 </table>
-<p>163 rows × 6 columns</p>
+<p>165 rows × 6 columns</p>
 </div>
 
 

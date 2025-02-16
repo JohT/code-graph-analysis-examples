@@ -128,19 +128,19 @@ Creates a in-memory projection of "Java:Package" nodes and their "DEPENDS_ON" re
   <tbody>
     <tr>
       <th>0</th>
-      <td>114</td>
-      <td>746</td>
-      <td>0.05791</td>
-      <td>2925197</td>
+      <td>116</td>
+      <td>760</td>
+      <td>0.056972</td>
+      <td>2925257</td>
       <td>0</td>
-      <td>6.54386</td>
-      <td>56</td>
+      <td>6.551724</td>
+      <td>58</td>
       <td>5</td>
       <td>8</td>
       <td>14</td>
       <td>16</td>
       <td>45</td>
-      <td>56</td>
+      <td>58</td>
     </tr>
   </tbody>
 </table>
@@ -197,32 +197,32 @@ First, we'll have a look at the overall/total result of the all pairs shortest p
       <th>0</th>
       <td>0</td>
       <td>1</td>
-      <td>746</td>
-      <td>108</td>
-      <td>101</td>
+      <td>760</td>
+      <td>110</td>
+      <td>103</td>
     </tr>
     <tr>
       <th>1</th>
       <td>1</td>
       <td>2</td>
-      <td>1567</td>
-      <td>99</td>
-      <td>86</td>
+      <td>1593</td>
+      <td>101</td>
+      <td>88</td>
     </tr>
     <tr>
       <th>2</th>
       <td>4</td>
       <td>3</td>
-      <td>1127</td>
-      <td>95</td>
+      <td>1146</td>
+      <td>97</td>
       <td>60</td>
     </tr>
     <tr>
       <th>3</th>
       <td>5</td>
       <td>4</td>
-      <td>201</td>
-      <td>60</td>
+      <td>204</td>
+      <td>61</td>
       <td>21</td>
     </tr>
     <tr>
@@ -292,192 +292,192 @@ The following table shows the first 10 rows with all details of the query above.
   <tbody>
     <tr>
       <th>0</th>
-      <td>axon-configuration-4.10.3</td>
+      <td>axon-configuration-4.11.0</td>
       <td>None</td>
       <td>None</td>
       <td>True</td>
       <td>None</td>
       <td>None</td>
       <td>1</td>
-      <td>746</td>
-      <td>108</td>
-      <td>101</td>
+      <td>760</td>
+      <td>110</td>
+      <td>103</td>
       <td>45</td>
       <td>1</td>
       <td>45</td>
-      <td>[/org/axonframework/config -&gt; /org/axonframework/eventsourcing, /org/axonframework/config -&gt; /org/axonframework/eventsourcing/eventstore, /org/axonframework/config -&gt; /org/axonframework/eventsourcing/eventstore/jpa, /org/axonframework/config -&gt; /org/axonframework/eventsourcing/snapshotting]</td>
-      <td>[axon-configuration-4.10.3 -&gt; axon-eventsourcing-4.10.3, axon-configuration-4.10.3 -&gt; axon-modelling-4.10.3, axon-configuration-4.10.3 -&gt; axon-disruptor-4.10.3, axon-configuration-4.10.3 -&gt; axon-messaging-4.10.3]</td>
+      <td>[/org/axonframework/config -&gt; /org/axonframework/disruptor/commandhandling, /org/axonframework/config -&gt; /org/axonframework/modelling/command, /org/axonframework/config -&gt; /org/axonframework/modelling/command/inspection, /org/axonframework/config -&gt; /org/axonframework/modelling/saga]</td>
+      <td>[axon-configuration-4.11.0 -&gt; axon-disruptor-4.11.0, axon-configuration-4.11.0 -&gt; axon-modelling-4.11.0, axon-configuration-4.11.0 -&gt; axon-eventsourcing-4.11.0, axon-configuration-4.11.0 -&gt; axon-messaging-4.11.0]</td>
       <td>[]</td>
     </tr>
     <tr>
       <th>1</th>
-      <td>axon-configuration-4.10.3</td>
+      <td>axon-configuration-4.11.0</td>
       <td>None</td>
       <td>None</td>
       <td>True</td>
       <td>None</td>
       <td>None</td>
       <td>2</td>
-      <td>1567</td>
-      <td>99</td>
-      <td>86</td>
+      <td>1593</td>
+      <td>101</td>
+      <td>88</td>
       <td>10</td>
       <td>1</td>
       <td>10</td>
-      <td>[/org/axonframework/config -&gt; /org/axonframework/eventsourcing/conflictresolution, /org/axonframework/config -&gt; /org/axonframework/modelling/saga/metamodel, /org/axonframework/config -&gt; /org/axonframework/commandhandling/callbacks, /org/axonframework/config -&gt; /org/axonframework/common/io]</td>
-      <td>[axon-configuration-4.10.3 -&gt; axon-eventsourcing-4.10.3, axon-configuration-4.10.3 -&gt; axon-modelling-4.10.3, axon-configuration-4.10.3 -&gt; axon-messaging-4.10.3]</td>
+      <td>[/org/axonframework/config -&gt; /org/axonframework/modelling/saga/metamodel, /org/axonframework/config -&gt; /org/axonframework/eventsourcing/conflictresolution, /org/axonframework/config -&gt; /org/axonframework/commandhandling/callbacks, /org/axonframework/config -&gt; /org/axonframework/common/io]</td>
+      <td>[axon-configuration-4.11.0 -&gt; axon-modelling-4.11.0, axon-configuration-4.11.0 -&gt; axon-eventsourcing-4.11.0, axon-configuration-4.11.0 -&gt; axon-messaging-4.11.0]</td>
       <td>[]</td>
     </tr>
     <tr>
       <th>2</th>
-      <td>axon-disruptor-4.10.3</td>
+      <td>axon-disruptor-4.11.0</td>
       <td>None</td>
       <td>None</td>
       <td>True</td>
       <td>None</td>
       <td>None</td>
       <td>1</td>
-      <td>746</td>
-      <td>108</td>
-      <td>101</td>
+      <td>760</td>
+      <td>110</td>
+      <td>103</td>
       <td>13</td>
       <td>1</td>
       <td>13</td>
-      <td>[/org/axonframework/disruptor/commandhandling -&gt; /org/axonframework/eventsourcing, /org/axonframework/disruptor/commandhandling -&gt; /org/axonframework/eventsourcing/eventstore, /org/axonframework/disruptor/commandhandling -&gt; /org/axonframework/modelling/command, /org/axonframework/disruptor/comma...</td>
-      <td>[axon-disruptor-4.10.3 -&gt; axon-eventsourcing-4.10.3, axon-disruptor-4.10.3 -&gt; axon-modelling-4.10.3, axon-disruptor-4.10.3 -&gt; axon-messaging-4.10.3]</td>
+      <td>[/org/axonframework/disruptor/commandhandling -&gt; /org/axonframework/modelling/command, /org/axonframework/disruptor/commandhandling -&gt; /org/axonframework/modelling/command/inspection, /org/axonframework/disruptor/commandhandling -&gt; /org/axonframework/eventsourcing, /org/axonframework/disruptor/c...</td>
+      <td>[axon-disruptor-4.11.0 -&gt; axon-modelling-4.11.0, axon-disruptor-4.11.0 -&gt; axon-eventsourcing-4.11.0, axon-disruptor-4.11.0 -&gt; axon-messaging-4.11.0]</td>
       <td>[]</td>
     </tr>
     <tr>
       <th>3</th>
-      <td>axon-disruptor-4.10.3</td>
+      <td>axon-disruptor-4.11.0</td>
       <td>None</td>
       <td>None</td>
       <td>True</td>
       <td>None</td>
       <td>None</td>
       <td>2</td>
-      <td>1567</td>
-      <td>99</td>
-      <td>86</td>
+      <td>1593</td>
+      <td>101</td>
+      <td>88</td>
       <td>18</td>
       <td>1</td>
       <td>18</td>
       <td>[/org/axonframework/disruptor/commandhandling -&gt; /org/axonframework/eventsourcing/conflictresolution, /org/axonframework/disruptor/commandhandling -&gt; /org/axonframework/eventsourcing/snapshotting, /org/axonframework/disruptor/commandhandling -&gt; /org/axonframework/common/annotation, /org/axonfram...</td>
-      <td>[axon-disruptor-4.10.3 -&gt; axon-eventsourcing-4.10.3, axon-disruptor-4.10.3 -&gt; axon-messaging-4.10.3]</td>
+      <td>[axon-disruptor-4.11.0 -&gt; axon-eventsourcing-4.11.0, axon-disruptor-4.11.0 -&gt; axon-messaging-4.11.0]</td>
       <td>[]</td>
     </tr>
     <tr>
       <th>4</th>
-      <td>axon-disruptor-4.10.3</td>
+      <td>axon-disruptor-4.11.0</td>
       <td>None</td>
       <td>None</td>
       <td>True</td>
       <td>None</td>
       <td>None</td>
       <td>3</td>
-      <td>1127</td>
-      <td>95</td>
+      <td>1146</td>
+      <td>97</td>
       <td>60</td>
       <td>6</td>
       <td>1</td>
       <td>6</td>
       <td>[/org/axonframework/disruptor/commandhandling -&gt; /org/axonframework/eventhandling/async, /org/axonframework/disruptor/commandhandling -&gt; /org/axonframework/eventhandling/replay, /org/axonframework/disruptor/commandhandling -&gt; /org/axonframework/eventhandling/tokenstore, /org/axonframework/disrup...</td>
-      <td>[axon-disruptor-4.10.3 -&gt; axon-messaging-4.10.3]</td>
+      <td>[axon-disruptor-4.11.0 -&gt; axon-messaging-4.11.0]</td>
       <td>[]</td>
     </tr>
     <tr>
       <th>5</th>
-      <td>axon-disruptor-4.10.3</td>
+      <td>axon-disruptor-4.11.0</td>
       <td>None</td>
       <td>None</td>
       <td>True</td>
       <td>None</td>
       <td>None</td>
       <td>4</td>
-      <td>201</td>
-      <td>60</td>
+      <td>204</td>
+      <td>61</td>
       <td>21</td>
       <td>2</td>
       <td>1</td>
       <td>2</td>
       <td>[/org/axonframework/disruptor/commandhandling -&gt; /org/axonframework/messaging/responsetypes, /org/axonframework/disruptor/commandhandling -&gt; /org/axonframework/queryhandling/registration]</td>
-      <td>[axon-disruptor-4.10.3 -&gt; axon-messaging-4.10.3]</td>
+      <td>[axon-disruptor-4.11.0 -&gt; axon-messaging-4.11.0]</td>
       <td>[]</td>
     </tr>
     <tr>
       <th>6</th>
-      <td>axon-eventsourcing-4.10.3</td>
+      <td>axon-eventsourcing-4.11.0</td>
       <td>None</td>
       <td>None</td>
       <td>False</td>
       <td>None</td>
       <td>None</td>
       <td>1</td>
-      <td>746</td>
-      <td>108</td>
-      <td>101</td>
+      <td>760</td>
+      <td>110</td>
+      <td>103</td>
       <td>15</td>
       <td>8</td>
       <td>7</td>
       <td>[/org/axonframework/eventsourcing/eventstore -&gt; /org/axonframework/eventsourcing, /org/axonframework/eventsourcing -&gt; /org/axonframework/eventsourcing/conflictresolution, /org/axonframework/eventsourcing -&gt; /org/axonframework/eventsourcing/eventstore, /org/axonframework/eventsourcing/conflictres...</td>
-      <td>[axon-eventsourcing-4.10.3 -&gt; axon-eventsourcing-4.10.3]</td>
+      <td>[axon-eventsourcing-4.11.0 -&gt; axon-eventsourcing-4.11.0]</td>
       <td>[]</td>
     </tr>
     <tr>
       <th>7</th>
-      <td>axon-eventsourcing-4.10.3</td>
+      <td>axon-eventsourcing-4.11.0</td>
       <td>None</td>
       <td>None</td>
       <td>False</td>
       <td>None</td>
       <td>None</td>
       <td>2</td>
-      <td>1567</td>
-      <td>99</td>
-      <td>86</td>
+      <td>1593</td>
+      <td>101</td>
+      <td>88</td>
       <td>11</td>
       <td>8</td>
       <td>4</td>
       <td>[/org/axonframework/eventsourcing/conflictresolution -&gt; /org/axonframework/eventsourcing, /org/axonframework/eventsourcing/eventstore/inmemory -&gt; /org/axonframework/eventsourcing, /org/axonframework/eventsourcing/eventstore/jdbc -&gt; /org/axonframework/eventsourcing, /org/axonframework/eventsourci...</td>
-      <td>[axon-eventsourcing-4.10.3 -&gt; axon-eventsourcing-4.10.3]</td>
+      <td>[axon-eventsourcing-4.11.0 -&gt; axon-eventsourcing-4.11.0]</td>
       <td>[]</td>
     </tr>
     <tr>
       <th>8</th>
-      <td>axon-eventsourcing-4.10.3</td>
+      <td>axon-eventsourcing-4.11.0</td>
       <td>None</td>
       <td>None</td>
       <td>False</td>
       <td>None</td>
       <td>None</td>
       <td>3</td>
-      <td>1127</td>
-      <td>95</td>
+      <td>1146</td>
+      <td>97</td>
       <td>60</td>
       <td>5</td>
       <td>5</td>
       <td>2</td>
       <td>[/org/axonframework/eventsourcing/eventstore/jdbc/statements -&gt; /org/axonframework/eventsourcing, /org/axonframework/eventsourcing/eventstore/inmemory -&gt; /org/axonframework/eventsourcing/conflictresolution, /org/axonframework/eventsourcing/eventstore/jdbc -&gt; /org/axonframework/eventsourcing/conf...</td>
-      <td>[axon-eventsourcing-4.10.3 -&gt; axon-eventsourcing-4.10.3]</td>
+      <td>[axon-eventsourcing-4.11.0 -&gt; axon-eventsourcing-4.11.0]</td>
       <td>[]</td>
     </tr>
     <tr>
       <th>9</th>
-      <td>axon-eventsourcing-4.10.3</td>
+      <td>axon-eventsourcing-4.11.0</td>
       <td>None</td>
       <td>None</td>
       <td>False</td>
       <td>None</td>
       <td>None</td>
       <td>4</td>
-      <td>201</td>
-      <td>60</td>
+      <td>204</td>
+      <td>61</td>
       <td>21</td>
       <td>1</td>
       <td>1</td>
       <td>1</td>
       <td>[/org/axonframework/eventsourcing/eventstore/jdbc/statements -&gt; /org/axonframework/eventsourcing/conflictresolution]</td>
-      <td>[axon-eventsourcing-4.10.3 -&gt; axon-eventsourcing-4.10.3]</td>
+      <td>[axon-eventsourcing-4.11.0 -&gt; axon-eventsourcing-4.11.0]</td>
       <td>[]</td>
     </tr>
   </tbody>
@@ -521,159 +521,159 @@ In this section we'll focus only on pairs of nodes that both belong to the same 
   <tbody>
     <tr>
       <th>6</th>
-      <td>axon-eventsourcing-4.10.3</td>
+      <td>axon-eventsourcing-4.11.0</td>
       <td>None</td>
       <td>None</td>
       <td>False</td>
       <td>None</td>
       <td>None</td>
       <td>1</td>
-      <td>746</td>
-      <td>108</td>
-      <td>101</td>
+      <td>760</td>
+      <td>110</td>
+      <td>103</td>
       <td>15</td>
       <td>8</td>
       <td>7</td>
       <td>[/org/axonframework/eventsourcing/eventstore -&gt; /org/axonframework/eventsourcing, /org/axonframework/eventsourcing -&gt; /org/axonframework/eventsourcing/conflictresolution, /org/axonframework/eventsourcing -&gt; /org/axonframework/eventsourcing/eventstore, /org/axonframework/eventsourcing/conflictres...</td>
-      <td>[axon-eventsourcing-4.10.3 -&gt; axon-eventsourcing-4.10.3]</td>
+      <td>[axon-eventsourcing-4.11.0 -&gt; axon-eventsourcing-4.11.0]</td>
       <td>[]</td>
     </tr>
     <tr>
       <th>7</th>
-      <td>axon-eventsourcing-4.10.3</td>
+      <td>axon-eventsourcing-4.11.0</td>
       <td>None</td>
       <td>None</td>
       <td>False</td>
       <td>None</td>
       <td>None</td>
       <td>2</td>
-      <td>1567</td>
-      <td>99</td>
-      <td>86</td>
+      <td>1593</td>
+      <td>101</td>
+      <td>88</td>
       <td>11</td>
       <td>8</td>
       <td>4</td>
       <td>[/org/axonframework/eventsourcing/conflictresolution -&gt; /org/axonframework/eventsourcing, /org/axonframework/eventsourcing/eventstore/inmemory -&gt; /org/axonframework/eventsourcing, /org/axonframework/eventsourcing/eventstore/jdbc -&gt; /org/axonframework/eventsourcing, /org/axonframework/eventsourci...</td>
-      <td>[axon-eventsourcing-4.10.3 -&gt; axon-eventsourcing-4.10.3]</td>
+      <td>[axon-eventsourcing-4.11.0 -&gt; axon-eventsourcing-4.11.0]</td>
       <td>[]</td>
     </tr>
     <tr>
       <th>8</th>
-      <td>axon-eventsourcing-4.10.3</td>
+      <td>axon-eventsourcing-4.11.0</td>
       <td>None</td>
       <td>None</td>
       <td>False</td>
       <td>None</td>
       <td>None</td>
       <td>3</td>
-      <td>1127</td>
-      <td>95</td>
+      <td>1146</td>
+      <td>97</td>
       <td>60</td>
       <td>5</td>
       <td>5</td>
       <td>2</td>
       <td>[/org/axonframework/eventsourcing/eventstore/jdbc/statements -&gt; /org/axonframework/eventsourcing, /org/axonframework/eventsourcing/eventstore/inmemory -&gt; /org/axonframework/eventsourcing/conflictresolution, /org/axonframework/eventsourcing/eventstore/jdbc -&gt; /org/axonframework/eventsourcing/conf...</td>
-      <td>[axon-eventsourcing-4.10.3 -&gt; axon-eventsourcing-4.10.3]</td>
+      <td>[axon-eventsourcing-4.11.0 -&gt; axon-eventsourcing-4.11.0]</td>
       <td>[]</td>
     </tr>
     <tr>
       <th>9</th>
-      <td>axon-eventsourcing-4.10.3</td>
+      <td>axon-eventsourcing-4.11.0</td>
       <td>None</td>
       <td>None</td>
       <td>False</td>
       <td>None</td>
       <td>None</td>
       <td>4</td>
-      <td>201</td>
-      <td>60</td>
+      <td>204</td>
+      <td>61</td>
       <td>21</td>
       <td>1</td>
       <td>1</td>
       <td>1</td>
       <td>[/org/axonframework/eventsourcing/eventstore/jdbc/statements -&gt; /org/axonframework/eventsourcing/conflictresolution]</td>
-      <td>[axon-eventsourcing-4.10.3 -&gt; axon-eventsourcing-4.10.3]</td>
+      <td>[axon-eventsourcing-4.11.0 -&gt; axon-eventsourcing-4.11.0]</td>
       <td>[]</td>
     </tr>
     <tr>
       <th>14</th>
-      <td>axon-messaging-4.10.3</td>
+      <td>axon-messaging-4.11.0</td>
       <td>None</td>
       <td>None</td>
       <td>False</td>
       <td>None</td>
       <td>None</td>
       <td>1</td>
-      <td>746</td>
-      <td>108</td>
-      <td>101</td>
-      <td>300</td>
-      <td>59</td>
+      <td>760</td>
+      <td>110</td>
+      <td>103</td>
+      <td>311</td>
+      <td>61</td>
       <td>41</td>
-      <td>[/org/axonframework/serialization -&gt; /org/axonframework/commandhandling, /org/axonframework/tracing -&gt; /org/axonframework/commandhandling, /org/axonframework/tracing/attributes -&gt; /org/axonframework/commandhandling, /org/axonframework/util -&gt; /org/axonframework/commandhandling]</td>
-      <td>[axon-messaging-4.10.3 -&gt; axon-messaging-4.10.3]</td>
+      <td>[/org/axonframework/messaging/timeout -&gt; /org/axonframework/commandhandling, /org/axonframework/serialization -&gt; /org/axonframework/commandhandling, /org/axonframework/tracing -&gt; /org/axonframework/commandhandling, /org/axonframework/tracing/attributes -&gt; /org/axonframework/commandhandling]</td>
+      <td>[axon-messaging-4.11.0 -&gt; axon-messaging-4.11.0]</td>
       <td>[]</td>
     </tr>
     <tr>
       <th>15</th>
-      <td>axon-messaging-4.10.3</td>
+      <td>axon-messaging-4.11.0</td>
       <td>None</td>
       <td>None</td>
       <td>False</td>
       <td>None</td>
       <td>None</td>
       <td>2</td>
-      <td>1567</td>
-      <td>99</td>
-      <td>86</td>
-      <td>563</td>
-      <td>51</td>
+      <td>1593</td>
+      <td>101</td>
+      <td>88</td>
+      <td>586</td>
+      <td>53</td>
       <td>30</td>
-      <td>[/org/axonframework/deadline -&gt; /org/axonframework/commandhandling, /org/axonframework/deadline/dbscheduler -&gt; /org/axonframework/commandhandling, /org/axonframework/deadline/jobrunr -&gt; /org/axonframework/commandhandling, /org/axonframework/deadline/quartz -&gt; /org/axonframework/commandhandling]</td>
-      <td>[axon-messaging-4.10.3 -&gt; axon-messaging-4.10.3]</td>
+      <td>[/org/axonframework/eventhandling/deadletter/jdbc -&gt; /org/axonframework/commandhandling, /org/axonframework/eventhandling/deadletter/jpa -&gt; /org/axonframework/commandhandling, /org/axonframework/eventhandling/deadletter/legacyjpa -&gt; /org/axonframework/commandhandling, /org/axonframework/eventhan...</td>
+      <td>[axon-messaging-4.11.0 -&gt; axon-messaging-4.11.0]</td>
       <td>[]</td>
     </tr>
     <tr>
       <th>16</th>
-      <td>axon-messaging-4.10.3</td>
+      <td>axon-messaging-4.11.0</td>
       <td>None</td>
       <td>None</td>
       <td>False</td>
       <td>None</td>
       <td>None</td>
       <td>3</td>
-      <td>1127</td>
-      <td>95</td>
+      <td>1146</td>
+      <td>97</td>
       <td>60</td>
-      <td>450</td>
-      <td>51</td>
+      <td>469</td>
+      <td>53</td>
       <td>26</td>
-      <td>[/org/axonframework/deadline/annotation -&gt; /org/axonframework/commandhandling, /org/axonframework/eventhandling/deadletter -&gt; /org/axonframework/commandhandling, /org/axonframework/eventhandling/async -&gt; /org/axonframework/commandhandling, /org/axonframework/eventhandling/gateway -&gt; /org/axonfra...</td>
-      <td>[axon-messaging-4.10.3 -&gt; axon-messaging-4.10.3]</td>
+      <td>[/org/axonframework/eventhandling/async -&gt; /org/axonframework/commandhandling, /org/axonframework/eventhandling/deadletter -&gt; /org/axonframework/commandhandling, /org/axonframework/eventhandling/interceptors -&gt; /org/axonframework/commandhandling, /org/axonframework/eventhandling/gateway -&gt; /org/...</td>
+      <td>[axon-messaging-4.11.0 -&gt; axon-messaging-4.11.0]</td>
       <td>[]</td>
     </tr>
     <tr>
       <th>17</th>
-      <td>axon-messaging-4.10.3</td>
+      <td>axon-messaging-4.11.0</td>
       <td>None</td>
       <td>None</td>
       <td>False</td>
       <td>None</td>
       <td>None</td>
       <td>4</td>
-      <td>201</td>
-      <td>60</td>
+      <td>204</td>
+      <td>61</td>
       <td>21</td>
-      <td>125</td>
-      <td>32</td>
+      <td>128</td>
+      <td>33</td>
       <td>18</td>
-      <td>[/org/axonframework/lifecycle -&gt; /org/axonframework/commandhandling, /org/axonframework/deadline/annotation -&gt; /org/axonframework/commandhandling/callbacks, /org/axonframework/eventhandling/deadletter -&gt; /org/axonframework/commandhandling/callbacks, /org/axonframework/eventhandling/async -&gt; /org...</td>
-      <td>[axon-messaging-4.10.3 -&gt; axon-messaging-4.10.3]</td>
+      <td>[/org/axonframework/lifecycle -&gt; /org/axonframework/commandhandling, /org/axonframework/eventhandling/async -&gt; /org/axonframework/commandhandling/callbacks, /org/axonframework/eventhandling/deadletter -&gt; /org/axonframework/commandhandling/callbacks, /org/axonframework/eventhandling/interceptors ...</td>
+      <td>[axon-messaging-4.11.0 -&gt; axon-messaging-4.11.0]</td>
       <td>[]</td>
     </tr>
     <tr>
       <th>18</th>
-      <td>axon-messaging-4.10.3</td>
+      <td>axon-messaging-4.11.0</td>
       <td>None</td>
       <td>None</td>
       <td>False</td>
@@ -687,26 +687,26 @@ In this section we'll focus only on pairs of nodes that both belong to the same 
       <td>3</td>
       <td>5</td>
       <td>[/org/axonframework/lifecycle -&gt; /org/axonframework/commandhandling/callbacks, /org/axonframework/lifecycle -&gt; /org/axonframework/messaging/responsetypes, /org/axonframework/lifecycle -&gt; /org/axonframework/queryhandling/registration, /org/axonframework/commandhandling/callbacks -&gt; /org/axonframe...</td>
-      <td>[axon-messaging-4.10.3 -&gt; axon-messaging-4.10.3]</td>
+      <td>[axon-messaging-4.11.0 -&gt; axon-messaging-4.11.0]</td>
       <td>[]</td>
     </tr>
     <tr>
       <th>19</th>
-      <td>axon-modelling-4.10.3</td>
+      <td>axon-modelling-4.11.0</td>
       <td>None</td>
       <td>None</td>
       <td>False</td>
       <td>None</td>
       <td>None</td>
       <td>1</td>
-      <td>746</td>
-      <td>108</td>
-      <td>101</td>
+      <td>760</td>
+      <td>110</td>
+      <td>103</td>
       <td>18</td>
       <td>10</td>
       <td>6</td>
       <td>[/org/axonframework/modelling/command/inspection -&gt; /org/axonframework/modelling/command, /org/axonframework/modelling/command/legacyjpa -&gt; /org/axonframework/modelling/command, /org/axonframework/modelling/command -&gt; /org/axonframework/modelling/command/inspection, /org/axonframework/modelling/...</td>
-      <td>[axon-modelling-4.10.3 -&gt; axon-modelling-4.10.3]</td>
+      <td>[axon-modelling-4.11.0 -&gt; axon-modelling-4.11.0]</td>
       <td>[]</td>
     </tr>
   </tbody>
@@ -723,12 +723,12 @@ Shows the top 20 artifacts with the longest shortest path (=Graph Diameter).
 
 
     sourceProject
-    axon-messaging-4.10.3                    5
-    axon-eventsourcing-4.10.3                4
-    axon-server-connector-4.10.3             3
-    axon-spring-boot-autoconfigure-4.10.3    3
-    axon-modelling-4.10.3                    2
-    axon-test-4.10.3                         1
+    axon-messaging-4.11.0                    5
+    axon-eventsourcing-4.11.0                4
+    axon-server-connector-4.11.0             3
+    axon-spring-boot-autoconfigure-4.11.0    3
+    axon-modelling-4.11.0                    2
+    axon-test-4.11.0                         1
     Name: distance, dtype: int64
 
 
@@ -780,15 +780,15 @@ Shows the top 50 artifacts with the highest number of dependency paths stacked b
   </thead>
   <tbody>
     <tr>
-      <th>axon-messaging-4.10.3</th>
-      <td>20.761246</td>
-      <td>38.961938</td>
-      <td>31.141869</td>
-      <td>8.650519</td>
-      <td>0.484429</td>
+      <th>axon-messaging-4.11.0</th>
+      <td>20.719520</td>
+      <td>39.040640</td>
+      <td>31.245836</td>
+      <td>8.527648</td>
+      <td>0.466356</td>
     </tr>
     <tr>
-      <th>axon-server-connector-4.10.3</th>
+      <th>axon-server-connector-4.11.0</th>
       <td>34.146341</td>
       <td>46.341463</td>
       <td>19.512195</td>
@@ -796,7 +796,7 @@ Shows the top 50 artifacts with the highest number of dependency paths stacked b
       <td>0.000000</td>
     </tr>
     <tr>
-      <th>axon-eventsourcing-4.10.3</th>
+      <th>axon-eventsourcing-4.11.0</th>
       <td>46.875000</td>
       <td>34.375000</td>
       <td>15.625000</td>
@@ -804,7 +804,7 @@ Shows the top 50 artifacts with the highest number of dependency paths stacked b
       <td>0.000000</td>
     </tr>
     <tr>
-      <th>axon-modelling-4.10.3</th>
+      <th>axon-modelling-4.11.0</th>
       <td>81.818182</td>
       <td>18.181818</td>
       <td>0.000000</td>
@@ -812,7 +812,7 @@ Shows the top 50 artifacts with the highest number of dependency paths stacked b
       <td>0.000000</td>
     </tr>
     <tr>
-      <th>axon-spring-boot-autoconfigure-4.10.3</th>
+      <th>axon-spring-boot-autoconfigure-4.11.0</th>
       <td>68.750000</td>
       <td>25.000000</td>
       <td>6.250000</td>
@@ -820,7 +820,7 @@ Shows the top 50 artifacts with the highest number of dependency paths stacked b
       <td>0.000000</td>
     </tr>
     <tr>
-      <th>axon-test-4.10.3</th>
+      <th>axon-test-4.11.0</th>
       <td>100.000000</td>
       <td>0.000000</td>
       <td>0.000000</td>
@@ -873,7 +873,7 @@ First, we'll have a look at the overall/total result of the longest path algorit
 
 #### Longest path in total - Max longest path
 
-    The max. longest path of the projected package dependencies is: 4
+    The max. longest path of the projected package dependencies is: 5
 
 
 #### Longest path in total - Paths per length - Table
@@ -906,25 +906,33 @@ First, we'll have a look at the overall/total result of the longest path algorit
       <th>1</th>
       <td>3</td>
       <td>2</td>
-      <td>39</td>
+      <td>40</td>
       <td>3</td>
-      <td>39</td>
+      <td>40</td>
     </tr>
     <tr>
       <th>2</th>
       <td>6</td>
       <td>3</td>
-      <td>18</td>
+      <td>15</td>
       <td>2</td>
-      <td>18</td>
+      <td>15</td>
     </tr>
     <tr>
       <th>3</th>
       <td>10</td>
       <td>4</td>
+      <td>7</td>
+      <td>1</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <th>4</th>
       <td>11</td>
-      <td>2</td>
-      <td>11</td>
+      <td>5</td>
+      <td>8</td>
+      <td>1</td>
+      <td>8</td>
     </tr>
   </tbody>
 </table>
@@ -985,7 +993,7 @@ The following table shows the first 10 rows with all details of the query above.
   <tbody>
     <tr>
       <th>0</th>
-      <td>axon-modelling-4.10.3</td>
+      <td>axon-modelling-4.11.0</td>
       <td>None</td>
       <td>None</td>
       <td>False</td>
@@ -999,12 +1007,12 @@ The following table shows the first 10 rows with all details of the query above.
       <td>1</td>
       <td>1</td>
       <td>[/org/axonframework/modelling/command/legacyjpa -&gt; /org/axonframework/modelling/command/inspection]</td>
-      <td>[axon-modelling-4.10.3 -&gt; axon-modelling-4.10.3]</td>
+      <td>[axon-modelling-4.11.0 -&gt; axon-modelling-4.11.0]</td>
       <td>[]</td>
     </tr>
     <tr>
       <th>1</th>
-      <td>axon-modelling-4.10.3</td>
+      <td>axon-modelling-4.11.0</td>
       <td>None</td>
       <td>None</td>
       <td>True</td>
@@ -1018,12 +1026,12 @@ The following table shows the first 10 rows with all details of the query above.
       <td>1</td>
       <td>1</td>
       <td>[/org/axonframework/modelling/command/legacyjpa -&gt; /org/axonframework/common/lock]</td>
-      <td>[axon-modelling-4.10.3 -&gt; axon-messaging-4.10.3]</td>
+      <td>[axon-modelling-4.11.0 -&gt; axon-messaging-4.11.0]</td>
       <td>[]</td>
     </tr>
     <tr>
       <th>2</th>
-      <td>axon-server-connector-4.10.3</td>
+      <td>axon-server-connector-4.11.0</td>
       <td>None</td>
       <td>None</td>
       <td>False</td>
@@ -1037,31 +1045,31 @@ The following table shows the first 10 rows with all details of the query above.
       <td>1</td>
       <td>1</td>
       <td>[/org/axonframework/axonserver/connector/heartbeat/connection/checker -&gt; /org/axonframework/axonserver/connector/heartbeat]</td>
-      <td>[axon-server-connector-4.10.3 -&gt; axon-server-connector-4.10.3]</td>
+      <td>[axon-server-connector-4.11.0 -&gt; axon-server-connector-4.11.0]</td>
       <td>[]</td>
     </tr>
     <tr>
       <th>3</th>
-      <td>axon-server-connector-4.10.3</td>
+      <td>axon-server-connector-4.11.0</td>
       <td>None</td>
       <td>None</td>
       <td>False</td>
       <td>None</td>
       <td>None</td>
       <td>2</td>
-      <td>39</td>
+      <td>40</td>
       <td>3</td>
-      <td>39</td>
+      <td>40</td>
       <td>1</td>
       <td>1</td>
       <td>1</td>
       <td>[/org/axonframework/axonserver/connector/heartbeat/connection/checker -&gt; /org/axonframework/axonserver/connector/util]</td>
-      <td>[axon-server-connector-4.10.3 -&gt; axon-server-connector-4.10.3]</td>
+      <td>[axon-server-connector-4.11.0 -&gt; axon-server-connector-4.11.0]</td>
       <td>[]</td>
     </tr>
     <tr>
       <th>4</th>
-      <td>axon-spring-boot-autoconfigure-4.10.3</td>
+      <td>axon-spring-boot-autoconfigure-4.11.0</td>
       <td>None</td>
       <td>None</td>
       <td>False</td>
@@ -1074,51 +1082,51 @@ The following table shows the first 10 rows with all details of the query above.
       <td>2</td>
       <td>1</td>
       <td>2</td>
-      <td>[/org/axonframework/springboot/autoconfig/legacyjpa -&gt; /org/axonframework/springboot/util/legacyjpa, /org/axonframework/springboot/autoconfig/legacyjpa -&gt; /org/axonframework/springboot/autoconfig]</td>
-      <td>[axon-spring-boot-autoconfigure-4.10.3 -&gt; axon-spring-boot-autoconfigure-4.10.3]</td>
+      <td>[/org/axonframework/springboot/autoconfig/legacyjpa -&gt; /org/axonframework/springboot/autoconfig, /org/axonframework/springboot/autoconfig/legacyjpa -&gt; /org/axonframework/springboot/util/legacyjpa]</td>
+      <td>[axon-spring-boot-autoconfigure-4.11.0 -&gt; axon-spring-boot-autoconfigure-4.11.0]</td>
       <td>[]</td>
     </tr>
     <tr>
       <th>5</th>
-      <td>axon-spring-boot-autoconfigure-4.10.3</td>
+      <td>axon-spring-boot-autoconfigure-4.11.0</td>
       <td>None</td>
       <td>None</td>
       <td>False</td>
       <td>None</td>
       <td>None</td>
       <td>2</td>
-      <td>39</td>
+      <td>40</td>
       <td>3</td>
-      <td>39</td>
+      <td>40</td>
       <td>4</td>
       <td>1</td>
       <td>4</td>
-      <td>[/org/axonframework/springboot/autoconfig/legacyjpa -&gt; /org/axonframework/actuator/axonserver, /org/axonframework/springboot/autoconfig/legacyjpa -&gt; /org/axonframework/springboot/util, /org/axonframework/springboot/autoconfig/legacyjpa -&gt; /org/axonframework/springboot/util/jpa, /org/axonframewor...</td>
-      <td>[axon-spring-boot-autoconfigure-4.10.3 -&gt; axon-spring-boot-autoconfigure-4.10.3]</td>
+      <td>[/org/axonframework/springboot/autoconfig/legacyjpa -&gt; /org/axonframework/actuator/axonserver, /org/axonframework/springboot/autoconfig/legacyjpa -&gt; /org/axonframework/springboot/service/connection, /org/axonframework/springboot/autoconfig/legacyjpa -&gt; /org/axonframework/springboot/util, /org/ax...</td>
+      <td>[axon-spring-boot-autoconfigure-4.11.0 -&gt; axon-spring-boot-autoconfigure-4.11.0]</td>
       <td>[]</td>
     </tr>
     <tr>
       <th>6</th>
-      <td>axon-spring-boot-autoconfigure-4.10.3</td>
+      <td>axon-spring-boot-autoconfigure-4.11.0</td>
       <td>None</td>
       <td>None</td>
       <td>False</td>
       <td>None</td>
       <td>None</td>
       <td>3</td>
-      <td>18</td>
+      <td>15</td>
       <td>2</td>
-      <td>18</td>
+      <td>15</td>
       <td>2</td>
       <td>1</td>
       <td>2</td>
       <td>[/org/axonframework/springboot/autoconfig/legacyjpa -&gt; /org/axonframework/actuator, /org/axonframework/springboot/autoconfig/legacyjpa -&gt; /org/axonframework/springboot]</td>
-      <td>[axon-spring-boot-autoconfigure-4.10.3 -&gt; axon-spring-boot-autoconfigure-4.10.3]</td>
+      <td>[axon-spring-boot-autoconfigure-4.11.0 -&gt; axon-spring-boot-autoconfigure-4.11.0]</td>
       <td>[]</td>
     </tr>
     <tr>
       <th>7</th>
-      <td>axon-spring-boot-autoconfigure-4.10.3</td>
+      <td>axon-spring-boot-autoconfigure-4.11.0</td>
       <td>None</td>
       <td>None</td>
       <td>True</td>
@@ -1131,46 +1139,46 @@ The following table shows the first 10 rows with all details of the query above.
       <td>4</td>
       <td>1</td>
       <td>4</td>
-      <td>[/org/axonframework/springboot/autoconfig/legacyjpa -&gt; /org/axonframework/eventsourcing/eventstore/legacyjpa, /org/axonframework/springboot/autoconfig/legacyjpa -&gt; /org/axonframework/modelling/saga/repository/legacyjpa, /org/axonframework/springboot/autoconfig/legacyjpa -&gt; /org/axonframework/eve...</td>
-      <td>[axon-spring-boot-autoconfigure-4.10.3 -&gt; axon-eventsourcing-4.10.3, axon-spring-boot-autoconfigure-4.10.3 -&gt; axon-modelling-4.10.3, axon-spring-boot-autoconfigure-4.10.3 -&gt; axon-messaging-4.10.3]</td>
+      <td>[/org/axonframework/springboot/autoconfig/legacyjpa -&gt; /org/axonframework/modelling/saga/repository/legacyjpa, /org/axonframework/springboot/autoconfig/legacyjpa -&gt; /org/axonframework/eventsourcing/eventstore/legacyjpa, /org/axonframework/springboot/autoconfig/legacyjpa -&gt; /org/axonframework/eve...</td>
+      <td>[axon-spring-boot-autoconfigure-4.11.0 -&gt; axon-modelling-4.11.0, axon-spring-boot-autoconfigure-4.11.0 -&gt; axon-eventsourcing-4.11.0, axon-spring-boot-autoconfigure-4.11.0 -&gt; axon-messaging-4.11.0]</td>
       <td>[]</td>
     </tr>
     <tr>
       <th>8</th>
-      <td>axon-spring-boot-autoconfigure-4.10.3</td>
+      <td>axon-spring-boot-autoconfigure-4.11.0</td>
       <td>None</td>
       <td>None</td>
       <td>True</td>
       <td>None</td>
       <td>None</td>
       <td>2</td>
-      <td>39</td>
+      <td>40</td>
       <td>3</td>
-      <td>39</td>
-      <td>33</td>
+      <td>40</td>
+      <td>34</td>
       <td>1</td>
-      <td>33</td>
-      <td>[/org/axonframework/springboot/autoconfig/legacyjpa -&gt; /org/axonframework/eventsourcing, /org/axonframework/springboot/autoconfig/legacyjpa -&gt; /org/axonframework/eventsourcing/eventstore, /org/axonframework/springboot/autoconfig/legacyjpa -&gt; /org/axonframework/eventsourcing/eventstore/jdbc, /org...</td>
-      <td>[axon-spring-boot-autoconfigure-4.10.3 -&gt; axon-eventsourcing-4.10.3, axon-spring-boot-autoconfigure-4.10.3 -&gt; axon-server-connector-4.10.3, axon-spring-boot-autoconfigure-4.10.3 -&gt; axon-modelling-4.10.3, axon-spring-boot-autoconfigure-4.10.3 -&gt; axon-tracing-opentelemetry-4.10.3]</td>
+      <td>34</td>
+      <td>[/org/axonframework/springboot/autoconfig/legacyjpa -&gt; /org/axonframework/tracing/opentelemetry, /org/axonframework/springboot/autoconfig/legacyjpa -&gt; /org/axonframework/modelling/command, /org/axonframework/springboot/autoconfig/legacyjpa -&gt; /org/axonframework/modelling/saga/repository/jdbc, /o...</td>
+      <td>[axon-spring-boot-autoconfigure-4.11.0 -&gt; axon-tracing-opentelemetry-4.11.0, axon-spring-boot-autoconfigure-4.11.0 -&gt; axon-modelling-4.11.0, axon-spring-boot-autoconfigure-4.11.0 -&gt; axon-eventsourcing-4.11.0, axon-spring-boot-autoconfigure-4.11.0 -&gt; axon-server-connector-4.11.0]</td>
       <td>[]</td>
     </tr>
     <tr>
       <th>9</th>
-      <td>axon-spring-boot-autoconfigure-4.10.3</td>
+      <td>axon-spring-boot-autoconfigure-4.11.0</td>
       <td>None</td>
       <td>None</td>
       <td>True</td>
       <td>None</td>
       <td>None</td>
       <td>3</td>
-      <td>18</td>
+      <td>15</td>
       <td>2</td>
-      <td>18</td>
       <td>15</td>
+      <td>12</td>
       <td>1</td>
-      <td>15</td>
-      <td>[/org/axonframework/springboot/autoconfig/legacyjpa -&gt; /org/axonframework/axonserver/connector, /org/axonframework/springboot/autoconfig/legacyjpa -&gt; /org/axonframework/modelling/saga, /org/axonframework/springboot/autoconfig/legacyjpa -&gt; /org/axonframework/modelling/saga/repository, /org/axonfr...</td>
-      <td>[axon-spring-boot-autoconfigure-4.10.3 -&gt; axon-server-connector-4.10.3, axon-spring-boot-autoconfigure-4.10.3 -&gt; axon-modelling-4.10.3, axon-spring-boot-autoconfigure-4.10.3 -&gt; axon-test-4.10.3, axon-spring-boot-autoconfigure-4.10.3 -&gt; axon-messaging-4.10.3]</td>
+      <td>12</td>
+      <td>[/org/axonframework/springboot/autoconfig/legacyjpa -&gt; /org/axonframework/modelling/saga, /org/axonframework/springboot/autoconfig/legacyjpa -&gt; /org/axonframework/modelling/saga/repository, /org/axonframework/springboot/autoconfig/legacyjpa -&gt; /org/axonframework/modelling/saga/repository/jpa, /o...</td>
+      <td>[axon-spring-boot-autoconfigure-4.11.0 -&gt; axon-modelling-4.11.0, axon-spring-boot-autoconfigure-4.11.0 -&gt; axon-server-connector-4.11.0, axon-spring-boot-autoconfigure-4.11.0 -&gt; axon-messaging-4.11.0, axon-spring-boot-autoconfigure-4.11.0 -&gt; axon-test-4.11.0]</td>
       <td>[]</td>
     </tr>
   </tbody>
@@ -1214,7 +1222,7 @@ In this section we'll focus only on pairs of nodes that both belong to the same 
   <tbody>
     <tr>
       <th>0</th>
-      <td>axon-modelling-4.10.3</td>
+      <td>axon-modelling-4.11.0</td>
       <td>None</td>
       <td>None</td>
       <td>False</td>
@@ -1228,12 +1236,12 @@ In this section we'll focus only on pairs of nodes that both belong to the same 
       <td>1</td>
       <td>1</td>
       <td>[/org/axonframework/modelling/command/legacyjpa -&gt; /org/axonframework/modelling/command/inspection]</td>
-      <td>[axon-modelling-4.10.3 -&gt; axon-modelling-4.10.3]</td>
+      <td>[axon-modelling-4.11.0 -&gt; axon-modelling-4.11.0]</td>
       <td>[]</td>
     </tr>
     <tr>
       <th>2</th>
-      <td>axon-server-connector-4.10.3</td>
+      <td>axon-server-connector-4.11.0</td>
       <td>None</td>
       <td>None</td>
       <td>False</td>
@@ -1247,31 +1255,31 @@ In this section we'll focus only on pairs of nodes that both belong to the same 
       <td>1</td>
       <td>1</td>
       <td>[/org/axonframework/axonserver/connector/heartbeat/connection/checker -&gt; /org/axonframework/axonserver/connector/heartbeat]</td>
-      <td>[axon-server-connector-4.10.3 -&gt; axon-server-connector-4.10.3]</td>
+      <td>[axon-server-connector-4.11.0 -&gt; axon-server-connector-4.11.0]</td>
       <td>[]</td>
     </tr>
     <tr>
       <th>3</th>
-      <td>axon-server-connector-4.10.3</td>
+      <td>axon-server-connector-4.11.0</td>
       <td>None</td>
       <td>None</td>
       <td>False</td>
       <td>None</td>
       <td>None</td>
       <td>2</td>
-      <td>39</td>
+      <td>40</td>
       <td>3</td>
-      <td>39</td>
+      <td>40</td>
       <td>1</td>
       <td>1</td>
       <td>1</td>
       <td>[/org/axonframework/axonserver/connector/heartbeat/connection/checker -&gt; /org/axonframework/axonserver/connector/util]</td>
-      <td>[axon-server-connector-4.10.3 -&gt; axon-server-connector-4.10.3]</td>
+      <td>[axon-server-connector-4.11.0 -&gt; axon-server-connector-4.11.0]</td>
       <td>[]</td>
     </tr>
     <tr>
       <th>4</th>
-      <td>axon-spring-boot-autoconfigure-4.10.3</td>
+      <td>axon-spring-boot-autoconfigure-4.11.0</td>
       <td>None</td>
       <td>None</td>
       <td>False</td>
@@ -1284,51 +1292,51 @@ In this section we'll focus only on pairs of nodes that both belong to the same 
       <td>2</td>
       <td>1</td>
       <td>2</td>
-      <td>[/org/axonframework/springboot/autoconfig/legacyjpa -&gt; /org/axonframework/springboot/util/legacyjpa, /org/axonframework/springboot/autoconfig/legacyjpa -&gt; /org/axonframework/springboot/autoconfig]</td>
-      <td>[axon-spring-boot-autoconfigure-4.10.3 -&gt; axon-spring-boot-autoconfigure-4.10.3]</td>
+      <td>[/org/axonframework/springboot/autoconfig/legacyjpa -&gt; /org/axonframework/springboot/autoconfig, /org/axonframework/springboot/autoconfig/legacyjpa -&gt; /org/axonframework/springboot/util/legacyjpa]</td>
+      <td>[axon-spring-boot-autoconfigure-4.11.0 -&gt; axon-spring-boot-autoconfigure-4.11.0]</td>
       <td>[]</td>
     </tr>
     <tr>
       <th>5</th>
-      <td>axon-spring-boot-autoconfigure-4.10.3</td>
+      <td>axon-spring-boot-autoconfigure-4.11.0</td>
       <td>None</td>
       <td>None</td>
       <td>False</td>
       <td>None</td>
       <td>None</td>
       <td>2</td>
-      <td>39</td>
+      <td>40</td>
       <td>3</td>
-      <td>39</td>
+      <td>40</td>
       <td>4</td>
       <td>1</td>
       <td>4</td>
-      <td>[/org/axonframework/springboot/autoconfig/legacyjpa -&gt; /org/axonframework/actuator/axonserver, /org/axonframework/springboot/autoconfig/legacyjpa -&gt; /org/axonframework/springboot/util, /org/axonframework/springboot/autoconfig/legacyjpa -&gt; /org/axonframework/springboot/util/jpa, /org/axonframewor...</td>
-      <td>[axon-spring-boot-autoconfigure-4.10.3 -&gt; axon-spring-boot-autoconfigure-4.10.3]</td>
+      <td>[/org/axonframework/springboot/autoconfig/legacyjpa -&gt; /org/axonframework/actuator/axonserver, /org/axonframework/springboot/autoconfig/legacyjpa -&gt; /org/axonframework/springboot/service/connection, /org/axonframework/springboot/autoconfig/legacyjpa -&gt; /org/axonframework/springboot/util, /org/ax...</td>
+      <td>[axon-spring-boot-autoconfigure-4.11.0 -&gt; axon-spring-boot-autoconfigure-4.11.0]</td>
       <td>[]</td>
     </tr>
     <tr>
       <th>6</th>
-      <td>axon-spring-boot-autoconfigure-4.10.3</td>
+      <td>axon-spring-boot-autoconfigure-4.11.0</td>
       <td>None</td>
       <td>None</td>
       <td>False</td>
       <td>None</td>
       <td>None</td>
       <td>3</td>
-      <td>18</td>
+      <td>15</td>
       <td>2</td>
-      <td>18</td>
+      <td>15</td>
       <td>2</td>
       <td>1</td>
       <td>2</td>
       <td>[/org/axonframework/springboot/autoconfig/legacyjpa -&gt; /org/axonframework/actuator, /org/axonframework/springboot/autoconfig/legacyjpa -&gt; /org/axonframework/springboot]</td>
-      <td>[axon-spring-boot-autoconfigure-4.10.3 -&gt; axon-spring-boot-autoconfigure-4.10.3]</td>
+      <td>[axon-spring-boot-autoconfigure-4.11.0 -&gt; axon-spring-boot-autoconfigure-4.11.0]</td>
       <td>[]</td>
     </tr>
     <tr>
-      <th>11</th>
-      <td>axon-test-4.10.3</td>
+      <th>12</th>
+      <td>axon-test-4.11.0</td>
       <td>None</td>
       <td>None</td>
       <td>False</td>
@@ -1341,46 +1349,46 @@ In this section we'll focus only on pairs of nodes that both belong to the same 
       <td>3</td>
       <td>1</td>
       <td>3</td>
-      <td>[/org/axonframework/test/saga -&gt; /org/axonframework/test/utils, /org/axonframework/test/saga -&gt; /org/axonframework/test/deadline, /org/axonframework/test/saga -&gt; /org/axonframework/test/eventscheduler]</td>
-      <td>[axon-test-4.10.3 -&gt; axon-test-4.10.3]</td>
-      <td>[]</td>
-    </tr>
-    <tr>
-      <th>12</th>
-      <td>axon-test-4.10.3</td>
-      <td>None</td>
-      <td>None</td>
-      <td>False</td>
-      <td>None</td>
-      <td>None</td>
-      <td>2</td>
-      <td>39</td>
-      <td>3</td>
-      <td>39</td>
-      <td>1</td>
-      <td>1</td>
-      <td>1</td>
-      <td>[/org/axonframework/test/saga -&gt; /org/axonframework/test/matchers]</td>
-      <td>[axon-test-4.10.3 -&gt; axon-test-4.10.3]</td>
+      <td>[/org/axonframework/test/saga -&gt; /org/axonframework/test/deadline, /org/axonframework/test/saga -&gt; /org/axonframework/test/eventscheduler, /org/axonframework/test/saga -&gt; /org/axonframework/test/utils]</td>
+      <td>[axon-test-4.11.0 -&gt; axon-test-4.11.0]</td>
       <td>[]</td>
     </tr>
     <tr>
       <th>13</th>
-      <td>axon-test-4.10.3</td>
+      <td>axon-test-4.11.0</td>
+      <td>None</td>
+      <td>None</td>
+      <td>False</td>
+      <td>None</td>
+      <td>None</td>
+      <td>2</td>
+      <td>40</td>
+      <td>3</td>
+      <td>40</td>
+      <td>1</td>
+      <td>1</td>
+      <td>1</td>
+      <td>[/org/axonframework/test/saga -&gt; /org/axonframework/test/matchers]</td>
+      <td>[axon-test-4.11.0 -&gt; axon-test-4.11.0]</td>
+      <td>[]</td>
+    </tr>
+    <tr>
+      <th>14</th>
+      <td>axon-test-4.11.0</td>
       <td>None</td>
       <td>None</td>
       <td>False</td>
       <td>None</td>
       <td>None</td>
       <td>3</td>
-      <td>18</td>
+      <td>15</td>
       <td>2</td>
-      <td>18</td>
+      <td>15</td>
       <td>1</td>
       <td>1</td>
       <td>1</td>
       <td>[/org/axonframework/test/saga -&gt; /org/axonframework/test]</td>
-      <td>[axon-test-4.10.3 -&gt; axon-test-4.10.3]</td>
+      <td>[axon-test-4.11.0 -&gt; axon-test-4.11.0]</td>
       <td>[]</td>
     </tr>
   </tbody>
@@ -1397,10 +1405,10 @@ Shows the top 20 artifacts with their max. longest path.
 
 
     sourceProject
-    axon-spring-boot-autoconfigure-4.10.3    3
-    axon-test-4.10.3                         3
-    axon-server-connector-4.10.3             2
-    axon-modelling-4.10.3                    1
+    axon-spring-boot-autoconfigure-4.11.0    3
+    axon-test-4.11.0                         3
+    axon-server-connector-4.11.0             2
+    axon-modelling-4.11.0                    1
     Name: distance, dtype: int64
 
 
@@ -1448,25 +1456,25 @@ Shows the top 50 artifacts with the highest number of dependency paths stacked b
   </thead>
   <tbody>
     <tr>
-      <th>axon-spring-boot-autoconfigure-4.10.3</th>
+      <th>axon-spring-boot-autoconfigure-4.11.0</th>
       <td>25.0</td>
       <td>50.0</td>
       <td>25.0</td>
     </tr>
     <tr>
-      <th>axon-test-4.10.3</th>
+      <th>axon-test-4.11.0</th>
       <td>60.0</td>
       <td>20.0</td>
       <td>20.0</td>
     </tr>
     <tr>
-      <th>axon-server-connector-4.10.3</th>
+      <th>axon-server-connector-4.11.0</th>
       <td>50.0</td>
       <td>50.0</td>
       <td>0.0</td>
     </tr>
     <tr>
-      <th>axon-modelling-4.10.3</th>
+      <th>axon-modelling-4.11.0</th>
       <td>100.0</td>
       <td>0.0</td>
       <td>0.0</td>
@@ -1528,7 +1536,7 @@ Creates a in-memory projection of "Java:Artifact" nodes and their "DEPENDS_ON" r
       <td>9</td>
       <td>25</td>
       <td>0.347222</td>
-      <td>2693279</td>
+      <td>2693291</td>
       <td>0</td>
       <td>2.777778</td>
       <td>7</td>
@@ -1778,12 +1786,12 @@ First, we'll have a look at the overall/total result of the longest path algorit
   <tbody>
     <tr>
       <th>0</th>
-      <td>114</td>
-      <td>0.05791</td>
+      <td>116</td>
+      <td>0.056972</td>
       <td>5</td>
-      <td>56</td>
+      <td>58</td>
       <td>5</td>
-      <td>4</td>
+      <td>5</td>
     </tr>
   </tbody>
 </table>
