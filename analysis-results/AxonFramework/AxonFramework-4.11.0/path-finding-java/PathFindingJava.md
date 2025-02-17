@@ -904,7 +904,7 @@ First, we'll have a look at the overall/total result of the longest path algorit
     </tr>
     <tr>
       <th>1</th>
-      <td>2</td>
+      <td>3</td>
       <td>2</td>
       <td>40</td>
       <td>3</td>
@@ -912,7 +912,7 @@ First, we'll have a look at the overall/total result of the longest path algorit
     </tr>
     <tr>
       <th>2</th>
-      <td>5</td>
+      <td>6</td>
       <td>3</td>
       <td>15</td>
       <td>2</td>
@@ -920,7 +920,7 @@ First, we'll have a look at the overall/total result of the longest path algorit
     </tr>
     <tr>
       <th>3</th>
-      <td>9</td>
+      <td>10</td>
       <td>4</td>
       <td>7</td>
       <td>1</td>
@@ -928,7 +928,7 @@ First, we'll have a look at the overall/total result of the longest path algorit
     </tr>
     <tr>
       <th>4</th>
-      <td>10</td>
+      <td>11</td>
       <td>5</td>
       <td>8</td>
       <td>1</td>
@@ -996,6 +996,25 @@ The following table shows the first 10 rows with all details of the query above.
       <td>axon-modelling-4.11.0</td>
       <td>None</td>
       <td>None</td>
+      <td>False</td>
+      <td>None</td>
+      <td>None</td>
+      <td>1</td>
+      <td>13</td>
+      <td>5</td>
+      <td>13</td>
+      <td>1</td>
+      <td>1</td>
+      <td>1</td>
+      <td>[/org/axonframework/modelling/command/legacyjpa -&gt; /org/axonframework/modelling/command/inspection]</td>
+      <td>[axon-modelling-4.11.0 -&gt; axon-modelling-4.11.0]</td>
+      <td>[]</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>axon-modelling-4.11.0</td>
+      <td>None</td>
+      <td>None</td>
       <td>True</td>
       <td>None</td>
       <td>None</td>
@@ -1011,7 +1030,7 @@ The following table shows the first 10 rows with all details of the query above.
       <td>[]</td>
     </tr>
     <tr>
-      <th>1</th>
+      <th>2</th>
       <td>axon-server-connector-4.11.0</td>
       <td>None</td>
       <td>None</td>
@@ -1025,12 +1044,12 @@ The following table shows the first 10 rows with all details of the query above.
       <td>1</td>
       <td>1</td>
       <td>1</td>
-      <td>[/org/axonframework/axonserver/connector/heartbeat/connection/checker -&gt; /org/axonframework/axonserver/connector/heartbeat]</td>
+      <td>[/org/axonframework/axonserver/connector/heartbeat/source -&gt; /org/axonframework/axonserver/connector/heartbeat]</td>
       <td>[axon-server-connector-4.11.0 -&gt; axon-server-connector-4.11.0]</td>
       <td>[]</td>
     </tr>
     <tr>
-      <th>2</th>
+      <th>3</th>
       <td>axon-server-connector-4.11.0</td>
       <td>None</td>
       <td>None</td>
@@ -1044,12 +1063,12 @@ The following table shows the first 10 rows with all details of the query above.
       <td>1</td>
       <td>1</td>
       <td>1</td>
-      <td>[/org/axonframework/axonserver/connector/heartbeat/connection/checker -&gt; /org/axonframework/axonserver/connector/util]</td>
+      <td>[/org/axonframework/axonserver/connector/heartbeat/source -&gt; /org/axonframework/axonserver/connector/util]</td>
       <td>[axon-server-connector-4.11.0 -&gt; axon-server-connector-4.11.0]</td>
       <td>[]</td>
     </tr>
     <tr>
-      <th>3</th>
+      <th>4</th>
       <td>axon-spring-boot-autoconfigure-4.11.0</td>
       <td>None</td>
       <td>None</td>
@@ -1068,7 +1087,7 @@ The following table shows the first 10 rows with all details of the query above.
       <td>[]</td>
     </tr>
     <tr>
-      <th>4</th>
+      <th>5</th>
       <td>axon-spring-boot-autoconfigure-4.11.0</td>
       <td>None</td>
       <td>None</td>
@@ -1087,7 +1106,7 @@ The following table shows the first 10 rows with all details of the query above.
       <td>[]</td>
     </tr>
     <tr>
-      <th>5</th>
+      <th>6</th>
       <td>axon-spring-boot-autoconfigure-4.11.0</td>
       <td>None</td>
       <td>None</td>
@@ -1106,7 +1125,7 @@ The following table shows the first 10 rows with all details of the query above.
       <td>[]</td>
     </tr>
     <tr>
-      <th>6</th>
+      <th>7</th>
       <td>axon-spring-boot-autoconfigure-4.11.0</td>
       <td>None</td>
       <td>None</td>
@@ -1125,7 +1144,7 @@ The following table shows the first 10 rows with all details of the query above.
       <td>[]</td>
     </tr>
     <tr>
-      <th>7</th>
+      <th>8</th>
       <td>axon-spring-boot-autoconfigure-4.11.0</td>
       <td>None</td>
       <td>None</td>
@@ -1144,7 +1163,7 @@ The following table shows the first 10 rows with all details of the query above.
       <td>[]</td>
     </tr>
     <tr>
-      <th>8</th>
+      <th>9</th>
       <td>axon-spring-boot-autoconfigure-4.11.0</td>
       <td>None</td>
       <td>None</td>
@@ -1160,25 +1179,6 @@ The following table shows the first 10 rows with all details of the query above.
       <td>12</td>
       <td>[/org/axonframework/springboot/autoconfig/legacyjpa -&gt; /org/axonframework/modelling/saga, /org/axonframework/springboot/autoconfig/legacyjpa -&gt; /org/axonframework/modelling/saga/repository, /org/axonframework/springboot/autoconfig/legacyjpa -&gt; /org/axonframework/modelling/saga/repository/jpa, /o...</td>
       <td>[axon-spring-boot-autoconfigure-4.11.0 -&gt; axon-modelling-4.11.0, axon-spring-boot-autoconfigure-4.11.0 -&gt; axon-server-connector-4.11.0, axon-spring-boot-autoconfigure-4.11.0 -&gt; axon-messaging-4.11.0, axon-spring-boot-autoconfigure-4.11.0 -&gt; axon-test-4.11.0]</td>
-      <td>[]</td>
-    </tr>
-    <tr>
-      <th>9</th>
-      <td>axon-spring-boot-autoconfigure-4.11.0</td>
-      <td>None</td>
-      <td>None</td>
-      <td>True</td>
-      <td>None</td>
-      <td>None</td>
-      <td>4</td>
-      <td>7</td>
-      <td>1</td>
-      <td>7</td>
-      <td>7</td>
-      <td>1</td>
-      <td>7</td>
-      <td>[/org/axonframework/springboot/autoconfig/legacyjpa -&gt; /org/axonframework/common/digest, /org/axonframework/springboot/autoconfig/legacyjpa -&gt; /org/axonframework/common/transaction, /org/axonframework/springboot/autoconfig/legacyjpa -&gt; /org/axonframework/lifecycle, /org/axonframework/springboot/...</td>
-      <td>[axon-spring-boot-autoconfigure-4.11.0 -&gt; axon-messaging-4.11.0, axon-spring-boot-autoconfigure-4.11.0 -&gt; axon-configuration-4.11.0]</td>
       <td>[]</td>
     </tr>
   </tbody>
@@ -1221,7 +1221,26 @@ In this section we'll focus only on pairs of nodes that both belong to the same 
   </thead>
   <tbody>
     <tr>
-      <th>1</th>
+      <th>0</th>
+      <td>axon-modelling-4.11.0</td>
+      <td>None</td>
+      <td>None</td>
+      <td>False</td>
+      <td>None</td>
+      <td>None</td>
+      <td>1</td>
+      <td>13</td>
+      <td>5</td>
+      <td>13</td>
+      <td>1</td>
+      <td>1</td>
+      <td>1</td>
+      <td>[/org/axonframework/modelling/command/legacyjpa -&gt; /org/axonframework/modelling/command/inspection]</td>
+      <td>[axon-modelling-4.11.0 -&gt; axon-modelling-4.11.0]</td>
+      <td>[]</td>
+    </tr>
+    <tr>
+      <th>2</th>
       <td>axon-server-connector-4.11.0</td>
       <td>None</td>
       <td>None</td>
@@ -1235,12 +1254,12 @@ In this section we'll focus only on pairs of nodes that both belong to the same 
       <td>1</td>
       <td>1</td>
       <td>1</td>
-      <td>[/org/axonframework/axonserver/connector/heartbeat/connection/checker -&gt; /org/axonframework/axonserver/connector/heartbeat]</td>
+      <td>[/org/axonframework/axonserver/connector/heartbeat/source -&gt; /org/axonframework/axonserver/connector/heartbeat]</td>
       <td>[axon-server-connector-4.11.0 -&gt; axon-server-connector-4.11.0]</td>
       <td>[]</td>
     </tr>
     <tr>
-      <th>2</th>
+      <th>3</th>
       <td>axon-server-connector-4.11.0</td>
       <td>None</td>
       <td>None</td>
@@ -1254,12 +1273,12 @@ In this section we'll focus only on pairs of nodes that both belong to the same 
       <td>1</td>
       <td>1</td>
       <td>1</td>
-      <td>[/org/axonframework/axonserver/connector/heartbeat/connection/checker -&gt; /org/axonframework/axonserver/connector/util]</td>
+      <td>[/org/axonframework/axonserver/connector/heartbeat/source -&gt; /org/axonframework/axonserver/connector/util]</td>
       <td>[axon-server-connector-4.11.0 -&gt; axon-server-connector-4.11.0]</td>
       <td>[]</td>
     </tr>
     <tr>
-      <th>3</th>
+      <th>4</th>
       <td>axon-spring-boot-autoconfigure-4.11.0</td>
       <td>None</td>
       <td>None</td>
@@ -1278,7 +1297,7 @@ In this section we'll focus only on pairs of nodes that both belong to the same 
       <td>[]</td>
     </tr>
     <tr>
-      <th>4</th>
+      <th>5</th>
       <td>axon-spring-boot-autoconfigure-4.11.0</td>
       <td>None</td>
       <td>None</td>
@@ -1297,7 +1316,7 @@ In this section we'll focus only on pairs of nodes that both belong to the same 
       <td>[]</td>
     </tr>
     <tr>
-      <th>5</th>
+      <th>6</th>
       <td>axon-spring-boot-autoconfigure-4.11.0</td>
       <td>None</td>
       <td>None</td>
@@ -1316,7 +1335,7 @@ In this section we'll focus only on pairs of nodes that both belong to the same 
       <td>[]</td>
     </tr>
     <tr>
-      <th>11</th>
+      <th>12</th>
       <td>axon-test-4.11.0</td>
       <td>None</td>
       <td>None</td>
@@ -1335,7 +1354,7 @@ In this section we'll focus only on pairs of nodes that both belong to the same 
       <td>[]</td>
     </tr>
     <tr>
-      <th>12</th>
+      <th>13</th>
       <td>axon-test-4.11.0</td>
       <td>None</td>
       <td>None</td>
@@ -1354,7 +1373,7 @@ In this section we'll focus only on pairs of nodes that both belong to the same 
       <td>[]</td>
     </tr>
     <tr>
-      <th>13</th>
+      <th>14</th>
       <td>axon-test-4.11.0</td>
       <td>None</td>
       <td>None</td>
@@ -1389,6 +1408,7 @@ Shows the top 20 artifacts with their max. longest path.
     axon-spring-boot-autoconfigure-4.11.0    3
     axon-test-4.11.0                         3
     axon-server-connector-4.11.0             2
+    axon-modelling-4.11.0                    1
     Name: distance, dtype: int64
 
 
@@ -1451,6 +1471,12 @@ Shows the top 50 artifacts with the highest number of dependency paths stacked b
       <th>axon-server-connector-4.11.0</th>
       <td>50.0</td>
       <td>50.0</td>
+      <td>0.0</td>
+    </tr>
+    <tr>
+      <th>axon-modelling-4.11.0</th>
+      <td>100.0</td>
+      <td>0.0</td>
       <td>0.0</td>
     </tr>
   </tbody>
