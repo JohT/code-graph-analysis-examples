@@ -132,33 +132,33 @@
     </tr>
     <tr>
       <th>4</th>
-      <td>Tobias Edwards</td>
+      <td>Otabek Shoyimov</td>
       <td>1</td>
     </tr>
     <tr>
       <th>5</th>
+      <td>Matt Brophy</td>
+      <td>1951</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>Alex Anderson</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>Lenz Weber-Tronic</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>8</th>
       <td>Remix Run Bot</td>
       <td>450</td>
     </tr>
     <tr>
-      <th>6</th>
+      <th>9</th>
       <td>Nick Amoscato</td>
       <td>1</td>
-    </tr>
-    <tr>
-      <th>7</th>
-      <td>Maxim Evtush</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <th>8</th>
-      <td>Mark Dalgleish</td>
-      <td>396</td>
-    </tr>
-    <tr>
-      <th>9</th>
-      <td>Matt Brophy</td>
-      <td>1947</td>
     </tr>
   </tbody>
 </table>
