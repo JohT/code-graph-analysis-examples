@@ -102,18 +102,18 @@
     </tr>
     <tr>
       <th>1</th>
+      <td>Steven van Beelen</td>
+      <td>4108</td>
+    </tr>
+    <tr>
+      <th>2</th>
       <td>Mateusz Nowak</td>
       <td>330</td>
     </tr>
     <tr>
-      <th>2</th>
+      <th>3</th>
       <td>Mitchell Herrijgers</td>
       <td>314</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>Steven van Beelen</td>
-      <td>4100</td>
     </tr>
     <tr>
       <th>4</th>
