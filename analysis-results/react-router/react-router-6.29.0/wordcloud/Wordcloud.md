@@ -112,53 +112,53 @@
   <tbody>
     <tr>
       <th>0</th>
-      <td>Brooks Lybrand</td>
-      <td>78</td>
+      <td>James Opstad</td>
+      <td>2</td>
     </tr>
     <tr>
       <th>1</th>
-      <td>Cody McFoo</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>dadamssg</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>MX</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <th>4</th>
       <td>Otabek Shoyimov</td>
       <td>1</td>
     </tr>
     <tr>
-      <th>5</th>
-      <td>Matt Brophy</td>
-      <td>1951</td>
-    </tr>
-    <tr>
-      <th>6</th>
+      <th>2</th>
       <td>Alex Anderson</td>
       <td>6</td>
     </tr>
     <tr>
-      <th>7</th>
+      <th>3</th>
       <td>Lenz Weber-Tronic</td>
       <td>2</td>
     </tr>
     <tr>
-      <th>8</th>
+      <th>4</th>
+      <td>Mark Dalgleish</td>
+      <td>407</td>
+    </tr>
+    <tr>
+      <th>5</th>
       <td>Remix Run Bot</td>
-      <td>450</td>
+      <td>462</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>Libor Gabrhel</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>Jacob Ebey</td>
+      <td>274</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>Matt Brophy</td>
+      <td>1963</td>
     </tr>
     <tr>
       <th>9</th>
-      <td>Nick Amoscato</td>
-      <td>1</td>
+      <td>Jon Jensen</td>
+      <td>12</td>
     </tr>
   </tbody>
 </table>
