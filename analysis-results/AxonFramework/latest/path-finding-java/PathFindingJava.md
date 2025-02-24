@@ -648,7 +648,7 @@ In this section we'll focus only on pairs of nodes that both belong to the same 
       <td>469</td>
       <td>53</td>
       <td>26</td>
-      <td>[/org/axonframework/common/jdbc -&gt; /org/axonframework/commandhandling, /org/axonframework/deadline/annotation -&gt; /org/axonframework/commandhandling, /org/axonframework/deadline/dbscheduler -&gt; /org/axonframework/commandhandling/callbacks, /org/axonframework/deadline -&gt; /org/axonframework/commandh...</td>
+      <td>[/org/axonframework/eventhandling/async -&gt; /org/axonframework/commandhandling, /org/axonframework/eventhandling/deadletter -&gt; /org/axonframework/commandhandling, /org/axonframework/eventhandling/interceptors -&gt; /org/axonframework/commandhandling, /org/axonframework/eventhandling/gateway -&gt; /org/...</td>
       <td>[axon-messaging-4.11.0 -&gt; axon-messaging-4.11.0]</td>
       <td>[]</td>
     </tr>
@@ -667,7 +667,7 @@ In this section we'll focus only on pairs of nodes that both belong to the same 
       <td>128</td>
       <td>33</td>
       <td>18</td>
-      <td>[/org/axonframework/common/jdbc -&gt; /org/axonframework/commandhandling/callbacks, /org/axonframework/deadline/annotation -&gt; /org/axonframework/commandhandling/callbacks, /org/axonframework/common/jdbc -&gt; /org/axonframework/common/annotation, /org/axonframework/commandhandling/callbacks -&gt; /org/ax...</td>
+      <td>[/org/axonframework/lifecycle -&gt; /org/axonframework/commandhandling, /org/axonframework/eventhandling/async -&gt; /org/axonframework/commandhandling/callbacks, /org/axonframework/eventhandling/deadletter -&gt; /org/axonframework/commandhandling/callbacks, /org/axonframework/eventhandling/interceptors ...</td>
       <td>[axon-messaging-4.11.0 -&gt; axon-messaging-4.11.0]</td>
       <td>[]</td>
     </tr>
@@ -686,7 +686,7 @@ In this section we'll focus only on pairs of nodes that both belong to the same 
       <td>7</td>
       <td>3</td>
       <td>5</td>
-      <td>[/org/axonframework/commandhandling/callbacks -&gt; /org/axonframework/common/property, /org/axonframework/commandhandling/distributed/commandfilter -&gt; /org/axonframework/common/property, /org/axonframework/commandhandling/callbacks -&gt; /org/axonframework/serialization/upcasting, /org/axonframework/...</td>
+      <td>[/org/axonframework/lifecycle -&gt; /org/axonframework/commandhandling/callbacks, /org/axonframework/lifecycle -&gt; /org/axonframework/messaging/responsetypes, /org/axonframework/lifecycle -&gt; /org/axonframework/queryhandling/registration, /org/axonframework/commandhandling/callbacks -&gt; /org/axonframe...</td>
       <td>[axon-messaging-4.11.0 -&gt; axon-messaging-4.11.0]</td>
       <td>[]</td>
     </tr>

@@ -98,22 +98,22 @@
     <tr>
       <th>0</th>
       <td>Allard Buijze</td>
-      <td>3137</td>
+      <td>3143</td>
     </tr>
     <tr>
       <th>1</th>
-      <td>Steven van Beelen</td>
-      <td>4108</td>
+      <td>Mateusz Nowak</td>
+      <td>336</td>
     </tr>
     <tr>
       <th>2</th>
-      <td>Mateusz Nowak</td>
-      <td>330</td>
+      <td>Mitchell Herrijgers</td>
+      <td>331</td>
     </tr>
     <tr>
       <th>3</th>
-      <td>Mitchell Herrijgers</td>
-      <td>314</td>
+      <td>Steven van Beelen</td>
+      <td>4137</td>
     </tr>
     <tr>
       <th>4</th>
@@ -132,13 +132,13 @@
     </tr>
     <tr>
       <th>7</th>
-      <td>Lucas Campos</td>
-      <td>61</td>
+      <td>Marc</td>
+      <td>25</td>
     </tr>
     <tr>
       <th>8</th>
-      <td>Marc</td>
-      <td>25</td>
+      <td>Lucas Campos</td>
+      <td>61</td>
     </tr>
     <tr>
       <th>9</th>

@@ -1,7 +1,7 @@
 "fullDependentTypeName","declaredMethods","calledMethodNames","calledMethods","callerTypes","Source Cypher File: Internal_Dependencies/Candidates_for_Interface_Segregation.cypher"
 "org.axonframework.commandhandling.CommandMessage",9,"getCommandName",1,20,""
-"org.axonframework.eventhandling.EventMessage",9,"getIdentifier",1,10,""
 "org.axonframework.eventhandling.EventMessage",9,"getIdentifier,getTimestamp",2,10,""
+"org.axonframework.eventhandling.EventMessage",9,"getIdentifier",1,10,""
 "org.axonframework.eventhandling.DomainEventMessage",10,"getSequenceNumber",1,9,""
 "org.axonframework.eventhandling.TrackedEventMessage",10,"trackingToken",1,8,""
 "org.axonframework.commandhandling.GenericCommandResultMessage",14,"asCommandResultMessage",1,6,""

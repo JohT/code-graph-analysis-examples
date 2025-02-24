@@ -8,7 +8,7 @@
 "org.axonframework.common.Assert: void isTrue(boolean,java.util.function.Supplier)","isTrue","centralityHarmonic",0.017346938775510204,""
 "org.axonframework.config.Component: void update(java.util.function.Function)","update","centralityHarmonic",0.017006802721088437,""
 "org.axonframework.messaging.unitofwork.CurrentUnitOfWork: org.axonframework.messaging.unitofwork.UnitOfWork get()","get","centralityHarmonic",0.01598639455782313,""
-"org.axonframework.common.transaction.TransactionManager: void executeInTransaction(java.lang.Runnable)","executeInTransaction","centralityHarmonic",0.012131519274376416,""
+"org.axonframework.common.transaction.TransactionManager: void executeInTransaction(java.lang.Runnable)","executeInTransaction","centralityHarmonic",0.01213151927437642,""
 "org.axonframework.common.BuilderUtils: void assertStrictPositive(int,java.lang.String)","assertStrictPositive","centralityHarmonic",0.011564625850340135,""
 "org.axonframework.common.ObjectUtils: java.lang.Object getOrDefault(java.lang.Object,java.lang.Object)","getOrDefault","centralityHarmonic",0.010884353741496598,""
 "org.axonframework.config.Component: java.lang.Object get()","get","centralityHarmonic",0.010884353741496598,""

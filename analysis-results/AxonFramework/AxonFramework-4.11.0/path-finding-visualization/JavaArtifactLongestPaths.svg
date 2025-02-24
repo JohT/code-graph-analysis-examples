@@ -178,14 +178,14 @@
 <text text-anchor="middle" x="267.41" y="-400.33" font-family="Helvetica,Arial,sans-serif" font-size="10.00">36</text>
 </g>
 <!-- axon&#45;spring&#45;boot&#45;autoconfigure&#45;4.11.0\n(level 0/6)&#45;&gt;axon&#45;messaging&#45;4.11.0\n(level 6/6) -->
-<g id="edge13" class="edge">
+<g id="edge15" class="edge">
 <title>axon&#45;spring&#45;boot&#45;autoconfigure&#45;4.11.0\n(level 0/6)&#45;&gt;axon&#45;messaging&#45;4.11.0\n(level 6/6)</title>
 <path fill="none" stroke="#1178b2" stroke-width="3.82" d="M223.45,-701.83C120.68,-687.34 0,-659.98 0,-611.4 0,-611.4 0,-611.4 0,-135.25 0,-87.44 303.72,-54.3 475.7,-39.37"/>
 <polygon fill="#1178b2" stroke="#1178b2" stroke-width="3.82" points="475.99,-42.86 485.65,-38.52 475.39,-35.88 475.99,-42.86"/>
 <text text-anchor="middle" x="7.5" y="-346.91" font-family="Helvetica,Arial,sans-serif" font-size="10.00">428</text>
 </g>
 <!-- axon&#45;spring&#45;boot&#45;autoconfigure&#45;4.11.0\n(level 0/6)&#45;&gt;axon&#45;eventsourcing&#45;4.11.0\n(level 4/6) -->
-<g id="edge14" class="edge">
+<g id="edge13" class="edge">
 <title>axon&#45;spring&#45;boot&#45;autoconfigure&#45;4.11.0\n(level 0/6)&#45;&gt;axon&#45;eventsourcing&#45;4.11.0\n(level 4/6)</title>
 <path fill="none" stroke="#1178b2" stroke-width="1.33" d="M373.45,-687.41C394.34,-606.56 453.53,-377.48 477.61,-284.27"/>
 <polygon fill="#1178b2" stroke="#1178b2" stroke-width="1.33" points="480.96,-285.33 480.07,-274.77 474.18,-283.58 480.96,-285.33"/>
@@ -206,7 +206,7 @@
 <text text-anchor="middle" x="531.74" y="-660.82" font-family="Helvetica,Arial,sans-serif" font-size="10.00">88</text>
 </g>
 <!-- axon&#45;spring&#45;boot&#45;autoconfigure&#45;4.11.0\n(level 0/6)&#45;&gt;axon&#45;configuration&#45;4.11.0\n(level 2/6) -->
-<g id="edge15" class="edge">
+<g id="edge14" class="edge">
 <title>axon&#45;spring&#45;boot&#45;autoconfigure&#45;4.11.0\n(level 0/6)&#45;&gt;axon&#45;configuration&#45;4.11.0\n(level 2/6)</title>
 <path fill="none" stroke="#1178b2" stroke-width="1.61" d="M425.03,-689.34C434.3,-683.66 443.34,-677.13 451,-669.82 484.42,-637.91 474.9,-616.04 505,-580.99 534.08,-547.13 572.99,-514.95 603.47,-491.97"/>
 <polygon fill="#1178b2" stroke="#1178b2" stroke-width="1.61" points="605.17,-495.07 611.1,-486.29 600.99,-489.46 605.17,-495.07"/>
