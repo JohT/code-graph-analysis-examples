@@ -35,35 +35,35 @@
     </tr>
     <tr>
       <th>2</th>
-      <td>spring</td>
+      <td>disruptor</td>
     </tr>
     <tr>
       <th>3</th>
-      <td>boot</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>autoconfigure</td>
-    </tr>
-    <tr>
-      <th>5</th>
-      <td>spring</td>
-    </tr>
-    <tr>
-      <th>6</th>
       <td>maven</td>
     </tr>
     <tr>
-      <th>7</th>
+      <th>4</th>
       <td>org</td>
     </tr>
     <tr>
-      <th>8</th>
+      <th>5</th>
       <td>axonframework</td>
     </tr>
     <tr>
-      <th>9</th>
+      <th>6</th>
       <td>axon</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>disruptor</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>main</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>manifest</td>
     </tr>
   </tbody>
 </table>
@@ -97,48 +97,48 @@
   <tbody>
     <tr>
       <th>0</th>
+      <td>Mateusz Nowak</td>
+      <td>365</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>Steven van Beelen</td>
+      <td>4192</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>Mitchell Herrijgers</td>
+      <td>362</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>Marc</td>
+      <td>26</td>
+    </tr>
+    <tr>
+      <th>4</th>
       <td>Allard Buijze</td>
       <td>3143</td>
     </tr>
     <tr>
-      <th>1</th>
-      <td>Mateusz Nowak</td>
-      <td>339</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>Steven van Beelen</td>
-      <td>4138</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>Mitchell Herrijgers</td>
-      <td>338</td>
-    </tr>
-    <tr>
-      <th>4</th>
+      <th>5</th>
       <td>Simon Zambrovski</td>
       <td>52</td>
     </tr>
     <tr>
-      <th>5</th>
+      <th>6</th>
       <td>Jan Galinski</td>
       <td>12</td>
     </tr>
     <tr>
-      <th>6</th>
+      <th>7</th>
       <td>Christian Thiel</td>
       <td>3</td>
     </tr>
     <tr>
-      <th>7</th>
+      <th>8</th>
       <td>Lucas Campos</td>
       <td>61</td>
-    </tr>
-    <tr>
-      <th>8</th>
-      <td>Marc</td>
-      <td>25</td>
     </tr>
     <tr>
       <th>9</th>

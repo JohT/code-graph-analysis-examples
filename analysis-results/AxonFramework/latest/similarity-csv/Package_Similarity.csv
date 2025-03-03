@@ -87,7 +87,7 @@
 0.5,"axon-server-connector-4.11.1","org.axonframework.axonserver.connector.event.util",6,3,"axon-server-connector-4.11.1","org.axonframework.axonserver.connector.heartbeat.source",0,2,""
 0.5,"axon-server-connector-4.11.1","org.axonframework.axonserver.connector.heartbeat.source",0,2,"axon-server-connector-4.11.1","org.axonframework.axonserver.connector.event.util",6,3,""
 0.5,"axon-messaging-4.11.1","org.axonframework.eventhandling.async",52,87,"axon-messaging-4.11.1","org.axonframework.eventhandling.tokenstore",83,42,""
-0.5,"axon-eventsourcing-4.11.1","org.axonframework.eventsourcing.snapshotting",29,17,"axon-messaging-4.11.1","org.axonframework.common.caching",37,49,""
+0.5,"axon-eventsourcing-4.11.1","org.axonframework.eventsourcing.snapshotting",29,17,"axon-messaging-4.11.1","org.axonframework.common.annotation",22,3,""
 0.5,"axon-messaging-4.11.1","org.axonframework.messaging.interceptors.legacyvalidation",1,27,"axon-test-4.11.1","org.axonframework.test.server",3,2,""
 0.49514563106796117,"axon-messaging-4.11.1","org.axonframework.messaging.annotation",1111,302,"axon-messaging-4.11.1","org.axonframework.serialization",1771,176,""
 0.49514563106796117,"axon-messaging-4.11.1","org.axonframework.serialization",1771,176,"axon-messaging-4.11.1","org.axonframework.messaging.annotation",1111,302,""
