@@ -199,6 +199,7 @@ Image  | Analysis |
 | [NodeEmbeddingsJava_21_0.png](./AxonFramework/AxonFramework-4.11.1/node-embeddings-java/NodeEmbeddingsJava_files/NodeEmbeddingsJava_21_0.png) | AxonFramework-4.11.1 |
 | [NodeEmbeddingsJava_23_8.png](./AxonFramework/AxonFramework-4.11.1/node-embeddings-java/NodeEmbeddingsJava_files/NodeEmbeddingsJava_23_8.png) | AxonFramework-4.11.1 |
 | [NodeEmbeddingsJava_25_11.png](./AxonFramework/AxonFramework-4.11.1/node-embeddings-java/NodeEmbeddingsJava_files/NodeEmbeddingsJava_25_11.png) | AxonFramework-4.11.1 |
+| [NodeEmbeddingsJava_25_8.png](./AxonFramework/AxonFramework-4.11.1/node-embeddings-java/NodeEmbeddingsJava_files/NodeEmbeddingsJava_25_8.png) | AxonFramework-4.11.1 |
 | [ObjectOrientedDesignMetricsJava_41_0.png](./AxonFramework/AxonFramework-4.11.1/object-oriented-design-metrics-java/ObjectOrientedDesignMetricsJava_files/ObjectOrientedDesignMetricsJava_41_0.png) | AxonFramework-4.11.1 |
 | [ObjectOrientedDesignMetricsJava_43_0.png](./AxonFramework/AxonFramework-4.11.1/object-oriented-design-metrics-java/ObjectOrientedDesignMetricsJava_files/ObjectOrientedDesignMetricsJava_43_0.png) | AxonFramework-4.11.1 |
 | [OverviewGeneral_15_1.png](./AxonFramework/AxonFramework-4.11.1/overview-general/OverviewGeneral_files/OverviewGeneral_15_1.png) | AxonFramework-4.11.1 |
@@ -367,6 +368,7 @@ Image  | Analysis |
 | [NodeEmbeddingsJava_21_0.png](./AxonFramework/latest/node-embeddings-java/NodeEmbeddingsJava_files/NodeEmbeddingsJava_21_0.png) | latest |
 | [NodeEmbeddingsJava_23_8.png](./AxonFramework/latest/node-embeddings-java/NodeEmbeddingsJava_files/NodeEmbeddingsJava_23_8.png) | latest |
 | [NodeEmbeddingsJava_25_11.png](./AxonFramework/latest/node-embeddings-java/NodeEmbeddingsJava_files/NodeEmbeddingsJava_25_11.png) | latest |
+| [NodeEmbeddingsJava_25_8.png](./AxonFramework/latest/node-embeddings-java/NodeEmbeddingsJava_files/NodeEmbeddingsJava_25_8.png) | latest |
 | [ObjectOrientedDesignMetricsJava_41_0.png](./AxonFramework/latest/object-oriented-design-metrics-java/ObjectOrientedDesignMetricsJava_files/ObjectOrientedDesignMetricsJava_41_0.png) | latest |
 | [ObjectOrientedDesignMetricsJava_43_0.png](./AxonFramework/latest/object-oriented-design-metrics-java/ObjectOrientedDesignMetricsJava_files/ObjectOrientedDesignMetricsJava_43_0.png) | latest |
 | [OverviewGeneral_15_1.png](./AxonFramework/latest/overview-general/OverviewGeneral_files/OverviewGeneral_15_1.png) | latest |
