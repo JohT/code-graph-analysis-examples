@@ -97,18 +97,18 @@
   <tbody>
     <tr>
       <th>0</th>
-      <td>Mateusz Nowak</td>
-      <td>365</td>
+      <td>Mitchell Herrijgers</td>
+      <td>367</td>
     </tr>
     <tr>
       <th>1</th>
       <td>Steven van Beelen</td>
-      <td>4192</td>
+      <td>4193</td>
     </tr>
     <tr>
       <th>2</th>
-      <td>Mitchell Herrijgers</td>
-      <td>362</td>
+      <td>Mateusz Nowak</td>
+      <td>365</td>
     </tr>
     <tr>
       <th>3</th>

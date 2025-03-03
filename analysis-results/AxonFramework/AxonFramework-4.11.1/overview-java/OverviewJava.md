@@ -36,8 +36,8 @@
   <tbody>
     <tr>
       <th>0</th>
-      <td>358128</td>
-      <td>1111319</td>
+      <td>358235</td>
+      <td>1111671</td>
       <td>9</td>
       <td>124</td>
       <td>2173</td>
@@ -132,15 +132,15 @@ The whole table can be found in the CSV report `Number_of_types_per_artifact`.
       <th>8</th>
       <td>axon-server-connector-4.11.1</td>
       <td>142</td>
-      <td>Class</td>
-      <td>116</td>
+      <td>Interface</td>
+      <td>25</td>
     </tr>
     <tr>
       <th>9</th>
       <td>axon-server-connector-4.11.1</td>
       <td>142</td>
-      <td>Interface</td>
-      <td>25</td>
+      <td>Class</td>
+      <td>116</td>
     </tr>
     <tr>
       <th>10</th>
@@ -188,15 +188,15 @@ The whole table can be found in the CSV report `Number_of_types_per_artifact`.
       <th>16</th>
       <td>axon-spring-boot-autoconfigure-4.11.1</td>
       <td>88</td>
-      <td>Enum</td>
-      <td>2</td>
+      <td>Annotation</td>
+      <td>3</td>
     </tr>
     <tr>
       <th>17</th>
       <td>axon-spring-boot-autoconfigure-4.11.1</td>
       <td>88</td>
-      <td>Annotation</td>
-      <td>3</td>
+      <td>Enum</td>
+      <td>2</td>
     </tr>
     <tr>
       <th>18</th>
@@ -209,15 +209,15 @@ The whole table can be found in the CSV report `Number_of_types_per_artifact`.
       <th>19</th>
       <td>axon-test-4.11.1</td>
       <td>87</td>
-      <td>Class</td>
-      <td>71</td>
+      <td>Interface</td>
+      <td>16</td>
     </tr>
     <tr>
       <th>20</th>
       <td>axon-test-4.11.1</td>
       <td>87</td>
-      <td>Interface</td>
-      <td>16</td>
+      <td>Class</td>
+      <td>71</td>
     </tr>
     <tr>
       <th>21</th>
