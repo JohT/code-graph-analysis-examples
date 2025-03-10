@@ -35,7 +35,7 @@
     </tr>
     <tr>
       <th>2</th>
-      <td>disruptor</td>
+      <td>configuration</td>
     </tr>
     <tr>
       <th>3</th>
@@ -55,7 +55,7 @@
     </tr>
     <tr>
       <th>7</th>
-      <td>disruptor</td>
+      <td>configuration</td>
     </tr>
     <tr>
       <th>8</th>
@@ -98,17 +98,17 @@
     <tr>
       <th>0</th>
       <td>Mitchell Herrijgers</td>
-      <td>367</td>
+      <td>379</td>
     </tr>
     <tr>
       <th>1</th>
-      <td>Steven van Beelen</td>
-      <td>4193</td>
+      <td>Mateusz Nowak</td>
+      <td>374</td>
     </tr>
     <tr>
       <th>2</th>
-      <td>Mateusz Nowak</td>
-      <td>365</td>
+      <td>Steven van Beelen</td>
+      <td>4226</td>
     </tr>
     <tr>
       <th>3</th>
