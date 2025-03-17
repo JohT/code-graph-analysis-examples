@@ -112,53 +112,53 @@
   <tbody>
     <tr>
       <th>0</th>
-      <td>Brooks Lybrand</td>
-      <td>79</td>
+      <td>Pedro Cattori</td>
+      <td>412</td>
     </tr>
     <tr>
       <th>1</th>
-      <td>Mark Dalgleish</td>
-      <td>413</td>
+      <td>James Opstad</td>
+      <td>4</td>
     </tr>
     <tr>
       <th>2</th>
-      <td>Joshua Jacobson</td>
-      <td>1</td>
+      <td>Kent C. Dodds</td>
+      <td>15</td>
     </tr>
     <tr>
       <th>3</th>
-      <td>Mosaad</td>
-      <td>1</td>
+      <td>Remix Run Bot</td>
+      <td>488</td>
     </tr>
     <tr>
       <th>4</th>
-      <td>Renyu Liu</td>
-      <td>1</td>
+      <td>Mark Dalgleish</td>
+      <td>422</td>
     </tr>
     <tr>
       <th>5</th>
-      <td>Matt Brophy</td>
-      <td>2026</td>
-    </tr>
-    <tr>
-      <th>6</th>
-      <td>Jacob Ebey</td>
-      <td>284</td>
-    </tr>
-    <tr>
-      <th>7</th>
-      <td>Remix Run Bot</td>
-      <td>484</td>
-    </tr>
-    <tr>
-      <th>8</th>
-      <td>Ken</td>
+      <td>Daniel Weinmann</td>
       <td>1</td>
     </tr>
     <tr>
+      <th>6</th>
+      <td>Basang Basangov</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>Ryan Florence</td>
+      <td>1306</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>Matt Brophy</td>
+      <td>2037</td>
+    </tr>
+    <tr>
       <th>9</th>
-      <td>Nick Amoscato</td>
-      <td>2</td>
+      <td>Jacob Ebey</td>
+      <td>288</td>
     </tr>
   </tbody>
 </table>
