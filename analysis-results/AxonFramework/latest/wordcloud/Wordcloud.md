@@ -97,33 +97,33 @@
   <tbody>
     <tr>
       <th>0</th>
-      <td>Mateusz Nowak</td>
-      <td>375</td>
+      <td>Steven van Beelen</td>
+      <td>4262</td>
     </tr>
     <tr>
       <th>1</th>
-      <td>Steven van Beelen</td>
-      <td>4228</td>
+      <td>Allard Buijze</td>
+      <td>3144</td>
     </tr>
     <tr>
       <th>2</th>
-      <td>Mitchell Herrijgers</td>
-      <td>380</td>
+      <td>Mateusz Nowak</td>
+      <td>401</td>
     </tr>
     <tr>
       <th>3</th>
-      <td>Allard Buijze</td>
-      <td>3143</td>
+      <td>Mitchell Herrijgers</td>
+      <td>394</td>
     </tr>
     <tr>
       <th>4</th>
-      <td>Marc</td>
-      <td>26</td>
+      <td>Simon Zambrovski</td>
+      <td>54</td>
     </tr>
     <tr>
       <th>5</th>
-      <td>Simon Zambrovski</td>
-      <td>52</td>
+      <td>Marc</td>
+      <td>26</td>
     </tr>
     <tr>
       <th>6</th>
