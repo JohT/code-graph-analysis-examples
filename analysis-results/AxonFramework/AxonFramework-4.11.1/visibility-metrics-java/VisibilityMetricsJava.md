@@ -349,7 +349,7 @@ Only the top 40 entries are shown. The whole table can be found in the following
 
 
     
-![png](VisibilityMetricsJava_files/VisibilityMetricsJava_17_2.png)
+![png](VisibilityMetricsJava_files/VisibilityMetricsJava_16_2.png)
     
 
 
@@ -1145,6 +1145,6 @@ Only the top 40 entries are shown. The whole table can be found in the following
 
 
     
-![png](VisibilityMetricsJava_files/VisibilityMetricsJava_24_2.png)
+![png](VisibilityMetricsJava_files/VisibilityMetricsJava_23_2.png)
     
 

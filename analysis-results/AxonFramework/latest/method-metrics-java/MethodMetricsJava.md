@@ -1069,7 +1069,7 @@ Have a look below to find out which packages and methods have the highest effect
 
 
     
-![png](MethodMetricsJava_files/MethodMetricsJava_14_1.png)
+![png](MethodMetricsJava_files/MethodMetricsJava_13_1.png)
     
 
 
@@ -2278,7 +2278,7 @@ Have a look below to find out which packages and methods have the highest effect
 
 
     
-![png](MethodMetricsJava_files/MethodMetricsJava_26_1.png)
+![png](MethodMetricsJava_files/MethodMetricsJava_25_1.png)
     
 
 
@@ -2454,7 +2454,7 @@ The following table shows the top 30 packages with the highest cyclomatic comple
       <td>286</td>
       <td>182</td>
       <td>7</td>
-      <td>calculateRoute</td>
+      <td>equals</td>
     </tr>
     <tr>
       <th>22</th>
@@ -2490,7 +2490,7 @@ The following table shows the top 30 packages with the highest cyclomatic comple
       <td>273</td>
       <td>236</td>
       <td>7</td>
-      <td>lambda$cleanGaps$37</td>
+      <td>lambda$fetchTrackedEvents$32</td>
     </tr>
     <tr>
       <th>23</th>
@@ -2535,7 +2535,7 @@ The following table shows the top 30 packages with the highest cyclomatic comple
       <td>209</td>
       <td>156</td>
       <td>4</td>
-      <td>from</td>
+      <td>equals</td>
     </tr>
     <tr>
       <th>29</th>
@@ -2803,7 +2803,7 @@ The following table shows the top 30 packages containing the methods with the hi
       <td>34</td>
       <td>axon-messaging-4.11.1</td>
       <td>org.axonframework.deadline.dbscheduler</td>
-      <td>DbSchedulerBinaryDeadlineDetails</td>
+      <td>DbSchedulerHumanReadableDeadlineDetails</td>
       <td>equals</td>
       <td>11</td>
     </tr>

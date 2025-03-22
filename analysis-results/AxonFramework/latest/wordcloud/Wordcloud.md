@@ -76,7 +76,7 @@
 
 
     
-![png](Wordcloud_files/Wordcloud_14_1.png)
+![png](Wordcloud_files/Wordcloud_13_1.png)
     
 
 
@@ -98,52 +98,52 @@
     <tr>
       <th>0</th>
       <td>Steven van Beelen</td>
-      <td>4262</td>
+      <td>4305</td>
     </tr>
     <tr>
       <th>1</th>
-      <td>Allard Buijze</td>
-      <td>3144</td>
+      <td>Mateusz Nowak</td>
+      <td>412</td>
     </tr>
     <tr>
       <th>2</th>
-      <td>Mateusz Nowak</td>
-      <td>401</td>
+      <td>Mitchell Herrijgers</td>
+      <td>408</td>
     </tr>
     <tr>
       <th>3</th>
-      <td>Mitchell Herrijgers</td>
-      <td>394</td>
+      <td>rsobies</td>
+      <td>17</td>
     </tr>
     <tr>
       <th>4</th>
+      <td>Allard Buijze</td>
+      <td>3148</td>
+    </tr>
+    <tr>
+      <th>5</th>
       <td>Simon Zambrovski</td>
       <td>54</td>
     </tr>
     <tr>
-      <th>5</th>
+      <th>6</th>
       <td>Marc</td>
       <td>26</td>
     </tr>
     <tr>
-      <th>6</th>
+      <th>7</th>
       <td>Jan Galinski</td>
       <td>12</td>
     </tr>
     <tr>
-      <th>7</th>
+      <th>8</th>
       <td>Christian Thiel</td>
       <td>3</td>
     </tr>
     <tr>
-      <th>8</th>
+      <th>9</th>
       <td>Lucas Campos</td>
       <td>61</td>
-    </tr>
-    <tr>
-      <th>9</th>
-      <td>Paul Kuyer</td>
-      <td>11</td>
     </tr>
   </tbody>
 </table>
@@ -153,6 +153,6 @@
 
 
     
-![png](Wordcloud_files/Wordcloud_17_0.png)
+![png](Wordcloud_files/Wordcloud_16_0.png)
     
 

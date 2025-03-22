@@ -3981,7 +3981,7 @@ Read more details on that in [OO Design Quality Metrics](https://api.semanticsch
 
 
     
-![png](ObjectOrientedDesignMetricsJava_files/ObjectOrientedDesignMetricsJava_41_0.png)
+![png](ObjectOrientedDesignMetricsJava_files/ObjectOrientedDesignMetricsJava_39_0.png)
     
 
 
@@ -3989,6 +3989,6 @@ Read more details on that in [OO Design Quality Metrics](https://api.semanticsch
 
 
     
-![png](ObjectOrientedDesignMetricsJava_files/ObjectOrientedDesignMetricsJava_43_0.png)
+![png](ObjectOrientedDesignMetricsJava_files/ObjectOrientedDesignMetricsJava_41_0.png)
     
 
