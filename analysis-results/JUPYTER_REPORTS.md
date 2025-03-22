@@ -41,6 +41,7 @@ Report | Analysis | Description
 | [Wordcloud.md](./AxonFramework/AxonFramework-4.11.0/wordcloud/Wordcloud.md) | AxonFramework-4.11.0 | Wordcloud |
 | [DependenciesGraphJava.md](./AxonFramework/AxonFramework-4.11.1/dependencies-graph-java/DependenciesGraphJava.md) | AxonFramework-4.11.1 | Artifact Dependencies |
 | [ExternalDependenciesJava.md](./AxonFramework/AxonFramework-4.11.1/external-dependencies-java/ExternalDependenciesJava.md) | AxonFramework-4.11.1 | External Dependencies for Java |
+| [GitHistoryGeneral.md](./AxonFramework/AxonFramework-4.11.1/git-history-general/GitHistoryGeneral.md) | AxonFramework-4.11.1 | git log/history |
 | [InternalDependenciesJava.md](./AxonFramework/AxonFramework-4.11.1/internal-dependencies-java/InternalDependenciesJava.md) | AxonFramework-4.11.1 | Internal Dependencies |
 | [MethodMetricsJava.md](./AxonFramework/AxonFramework-4.11.1/method-metrics-java/MethodMetricsJava.md) | AxonFramework-4.11.1 | Method Metrics |
 | [NodeEmbeddingsJava.md](./AxonFramework/AxonFramework-4.11.1/node-embeddings-java/NodeEmbeddingsJava.md) | AxonFramework-4.11.1 | Node Embeddings |
@@ -89,6 +90,7 @@ Report | Analysis | Description
 | [Wordcloud.md](./AxonFramework/AxonFramework-4.9.3/wordcloud/Wordcloud.md) | AxonFramework-4.9.3 | Wordcloud |
 | [DependenciesGraphJava.md](./AxonFramework/latest/dependencies-graph-java/DependenciesGraphJava.md) | latest | Artifact Dependencies |
 | [ExternalDependenciesJava.md](./AxonFramework/latest/external-dependencies-java/ExternalDependenciesJava.md) | latest | External Dependencies for Java |
+| [GitHistoryGeneral.md](./AxonFramework/latest/git-history-general/GitHistoryGeneral.md) | latest | git log/history |
 | [InternalDependenciesJava.md](./AxonFramework/latest/internal-dependencies-java/InternalDependenciesJava.md) | latest | Internal Dependencies |
 | [MethodMetricsJava.md](./AxonFramework/latest/method-metrics-java/MethodMetricsJava.md) | latest | Method Metrics |
 | [NodeEmbeddingsJava.md](./AxonFramework/latest/node-embeddings-java/NodeEmbeddingsJava.md) | latest | Node Embeddings |
