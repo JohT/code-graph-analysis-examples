@@ -91,7 +91,7 @@
 
 
     
-![png](Wordcloud_files/Wordcloud_14_1.png)
+![png](Wordcloud_files/Wordcloud_13_1.png)
     
 
 
@@ -127,38 +127,38 @@
     </tr>
     <tr>
       <th>3</th>
-      <td>Remix Run Bot</td>
-      <td>488</td>
+      <td>Tim Dorr</td>
+      <td>388</td>
     </tr>
     <tr>
       <th>4</th>
-      <td>Mark Dalgleish</td>
-      <td>422</td>
+      <td>Remix Run Bot</td>
+      <td>493</td>
     </tr>
     <tr>
       <th>5</th>
-      <td>Daniel Weinmann</td>
-      <td>1</td>
+      <td>Mark Dalgleish</td>
+      <td>418</td>
     </tr>
     <tr>
       <th>6</th>
-      <td>Basang Basangov</td>
-      <td>1</td>
+      <td>Jacob Ebey</td>
+      <td>290</td>
     </tr>
     <tr>
       <th>7</th>
-      <td>Ryan Florence</td>
-      <td>1306</td>
+      <td>Matt Brophy</td>
+      <td>2059</td>
     </tr>
     <tr>
       <th>8</th>
-      <td>Matt Brophy</td>
-      <td>2037</td>
+      <td>Sami</td>
+      <td>1</td>
     </tr>
     <tr>
       <th>9</th>
-      <td>Jacob Ebey</td>
-      <td>288</td>
+      <td>Laryssa Rocha</td>
+      <td>1</td>
     </tr>
   </tbody>
 </table>
@@ -168,6 +168,6 @@
 
 
     
-![png](Wordcloud_files/Wordcloud_17_0.png)
+![png](Wordcloud_files/Wordcloud_16_0.png)
     
 
