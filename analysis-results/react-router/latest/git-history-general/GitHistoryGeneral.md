@@ -47,30 +47,30 @@
   <tbody>
     <tr>
       <th>count</th>
-      <td>198.000000</td>
-      <td>198.000000</td>
-      <td>198.000000</td>
-      <td>198.000000</td>
-      <td>198.00000</td>
-      <td>198.000000</td>
+      <td>199.000000</td>
+      <td>199.000000</td>
+      <td>199.000000</td>
+      <td>199.000000</td>
+      <td>199.000000</td>
+      <td>199.000000</td>
     </tr>
     <tr>
       <th>mean</th>
-      <td>22.489899</td>
-      <td>13.449495</td>
-      <td>659.520202</td>
-      <td>109.121212</td>
-      <td>392.19697</td>
-      <td>174.939394</td>
+      <td>22.437186</td>
+      <td>13.396985</td>
+      <td>656.366834</td>
+      <td>110.537688</td>
+      <td>392.185930</td>
+      <td>175.924623</td>
     </tr>
     <tr>
       <th>std</th>
-      <td>100.699721</td>
-      <td>39.140447</td>
-      <td>3249.715697</td>
-      <td>221.568670</td>
-      <td>470.42799</td>
-      <td>303.195697</td>
+      <td>100.447860</td>
+      <td>39.048509</td>
+      <td>3241.925924</td>
+      <td>221.160934</td>
+      <td>470.073657</td>
+      <td>302.739878</td>
     </tr>
     <tr>
       <th>min</th>
@@ -78,44 +78,44 @@
       <td>2.000000</td>
       <td>2.000000</td>
       <td>2.000000</td>
-      <td>2.00000</td>
+      <td>4.000000</td>
       <td>1.000000</td>
     </tr>
     <tr>
       <th>25%</th>
       <td>2.000000</td>
       <td>3.000000</td>
-      <td>22.250000</td>
-      <td>11.000000</td>
-      <td>65.00000</td>
-      <td>10.000000</td>
+      <td>22.500000</td>
+      <td>13.000000</td>
+      <td>66.000000</td>
+      <td>12.000000</td>
     </tr>
     <tr>
       <th>50%</th>
       <td>5.000000</td>
       <td>6.000000</td>
       <td>64.000000</td>
-      <td>11.000000</td>
-      <td>142.00000</td>
-      <td>25.000000</td>
+      <td>13.000000</td>
+      <td>144.000000</td>
+      <td>27.000000</td>
     </tr>
     <tr>
       <th>75%</th>
       <td>13.000000</td>
       <td>10.000000</td>
-      <td>255.500000</td>
-      <td>120.000000</td>
-      <td>616.25000</td>
-      <td>143.500000</td>
+      <td>255.000000</td>
+      <td>122.000000</td>
+      <td>616.500000</td>
+      <td>145.000000</td>
     </tr>
     <tr>
       <th>max</th>
       <td>1280.000000</td>
       <td>483.000000</td>
-      <td>37505.000000</td>
-      <td>1235.000000</td>
-      <td>1754.00000</td>
-      <td>1288.000000</td>
+      <td>37507.000000</td>
+      <td>1237.000000</td>
+      <td>1756.000000</td>
+      <td>1290.000000</td>
     </tr>
   </tbody>
 </table>
@@ -163,9 +163,9 @@
       <td>Logan McAnsh</td>
       <td>Michael Jackson</td>
       <td>5</td>
-      <td>360</td>
-      <td>1248</td>
-      <td>1248</td>
+      <td>362</td>
+      <td>1250</td>
+      <td>1250</td>
       <td>2024-03-27</td>
       <td>2021-10-20</td>
       <td>2021-10-20</td>
@@ -183,9 +183,9 @@
       <td>Matt Brophy</td>
       <td>Mark Dalgleish</td>
       <td>5</td>
-      <td>771</td>
-      <td>777</td>
-      <td>771</td>
+      <td>773</td>
+      <td>779</td>
+      <td>773</td>
       <td>2023-02-10</td>
       <td>2023-02-03</td>
       <td>2023-02-09</td>
@@ -203,9 +203,9 @@
       <td>Matt Brophy</td>
       <td>Mark Dalgleish</td>
       <td>22</td>
-      <td>11</td>
-      <td>25</td>
-      <td>25</td>
+      <td>13</td>
+      <td>27</td>
+      <td>27</td>
       <td>2025-03-11</td>
       <td>2025-02-24</td>
       <td>2025-02-24</td>
@@ -223,9 +223,9 @@
       <td>Matt Brophy</td>
       <td>Mark Dalgleish</td>
       <td>6</td>
-      <td>11</td>
-      <td>25</td>
-      <td>25</td>
+      <td>13</td>
+      <td>27</td>
+      <td>27</td>
       <td>2025-03-11</td>
       <td>2025-02-24</td>
       <td>2025-02-24</td>
@@ -243,9 +243,9 @@
       <td>Matt Brophy</td>
       <td>Mark Dalgleish</td>
       <td>24</td>
-      <td>11</td>
-      <td>95</td>
-      <td>95</td>
+      <td>13</td>
+      <td>97</td>
+      <td>97</td>
       <td>2025-03-11</td>
       <td>2024-12-17</td>
       <td>2024-12-17</td>
@@ -263,9 +263,9 @@
       <td>Mark Dalgleish</td>
       <td>Matt Brophy</td>
       <td>5</td>
-      <td>11</td>
-      <td>95</td>
-      <td>95</td>
+      <td>13</td>
+      <td>97</td>
+      <td>97</td>
       <td>2025-03-11</td>
       <td>2024-12-17</td>
       <td>2024-12-17</td>
@@ -283,9 +283,9 @@
       <td>Mark Dalgleish</td>
       <td>Matt Brophy</td>
       <td>5</td>
-      <td>11</td>
-      <td>95</td>
-      <td>95</td>
+      <td>13</td>
+      <td>97</td>
+      <td>97</td>
       <td>2025-03-11</td>
       <td>2024-12-17</td>
       <td>2024-12-17</td>
@@ -303,9 +303,9 @@
       <td>Mark Dalgleish</td>
       <td>Matt Brophy</td>
       <td>5</td>
-      <td>11</td>
-      <td>95</td>
-      <td>95</td>
+      <td>13</td>
+      <td>97</td>
+      <td>97</td>
       <td>2025-03-11</td>
       <td>2024-12-17</td>
       <td>2024-12-17</td>
@@ -323,9 +323,9 @@
       <td>Matt Brophy</td>
       <td>Mark Dalgleish</td>
       <td>6</td>
-      <td>11</td>
-      <td>25</td>
-      <td>25</td>
+      <td>13</td>
+      <td>27</td>
+      <td>27</td>
       <td>2025-03-11</td>
       <td>2025-02-24</td>
       <td>2025-02-24</td>
@@ -343,9 +343,9 @@
       <td>Matt Brophy</td>
       <td>Mark Dalgleish</td>
       <td>21</td>
-      <td>11</td>
-      <td>25</td>
-      <td>25</td>
+      <td>13</td>
+      <td>27</td>
+      <td>27</td>
       <td>2025-03-11</td>
       <td>2025-02-24</td>
       <td>2025-02-24</td>
@@ -363,9 +363,9 @@
       <td>Matt Brophy</td>
       <td>Mark Dalgleish</td>
       <td>11</td>
-      <td>3</td>
-      <td>25</td>
-      <td>2</td>
+      <td>5</td>
+      <td>27</td>
+      <td>4</td>
       <td>2025-03-19</td>
       <td>2025-02-24</td>
       <td>2025-03-19</td>
@@ -383,9 +383,9 @@
       <td>Matt Brophy</td>
       <td>Mark Dalgleish</td>
       <td>31</td>
-      <td>120</td>
-      <td>142</td>
-      <td>142</td>
+      <td>122</td>
+      <td>144</td>
+      <td>144</td>
       <td>2024-11-22</td>
       <td>2024-10-31</td>
       <td>2024-10-31</td>
@@ -403,9 +403,9 @@
       <td>Mark Dalgleish</td>
       <td>Michael Jackson</td>
       <td>4</td>
-      <td>120</td>
-      <td>142</td>
-      <td>142</td>
+      <td>122</td>
+      <td>144</td>
+      <td>144</td>
       <td>2024-11-22</td>
       <td>2024-10-31</td>
       <td>2024-10-31</td>
@@ -423,9 +423,9 @@
       <td>Mark Dalgleish</td>
       <td>Michael Jackson</td>
       <td>4</td>
-      <td>120</td>
-      <td>142</td>
-      <td>142</td>
+      <td>122</td>
+      <td>144</td>
+      <td>144</td>
       <td>2024-11-22</td>
       <td>2024-10-31</td>
       <td>2024-10-31</td>
@@ -443,9 +443,9 @@
       <td>Mark Dalgleish</td>
       <td>Michael Jackson</td>
       <td>4</td>
-      <td>120</td>
-      <td>142</td>
-      <td>142</td>
+      <td>122</td>
+      <td>144</td>
+      <td>144</td>
       <td>2024-11-22</td>
       <td>2024-10-31</td>
       <td>2024-10-31</td>
@@ -463,9 +463,9 @@
       <td>Matt Brophy</td>
       <td>Mark Dalgleish</td>
       <td>8</td>
-      <td>120</td>
-      <td>249</td>
-      <td>184</td>
+      <td>122</td>
+      <td>250</td>
+      <td>186</td>
       <td>2024-11-22</td>
       <td>2024-07-16</td>
       <td>2024-09-18</td>
@@ -483,9 +483,9 @@
       <td>Matt Brophy</td>
       <td>Mark Dalgleish</td>
       <td>8</td>
-      <td>120</td>
-      <td>250</td>
-      <td>184</td>
+      <td>122</td>
+      <td>251</td>
+      <td>186</td>
       <td>2024-11-22</td>
       <td>2024-07-15</td>
       <td>2024-09-18</td>
@@ -503,9 +503,9 @@
       <td>Chance Strickland</td>
       <td>Michael Jackson</td>
       <td>4</td>
-      <td>1070</td>
-      <td>1271</td>
-      <td>1069</td>
+      <td>1072</td>
+      <td>1273</td>
+      <td>1071</td>
       <td>2022-04-17</td>
       <td>2021-09-27</td>
       <td>2022-04-17</td>
@@ -523,9 +523,9 @@
       <td>Matt Brophy</td>
       <td>Mark Dalgleish</td>
       <td>29</td>
-      <td>11</td>
-      <td>65</td>
-      <td>65</td>
+      <td>13</td>
+      <td>67</td>
+      <td>67</td>
       <td>2025-03-11</td>
       <td>2025-01-16</td>
       <td>2025-01-16</td>
@@ -543,9 +543,9 @@
       <td>Matt Brophy</td>
       <td>Mark Dalgleish</td>
       <td>7</td>
-      <td>11</td>
-      <td>65</td>
-      <td>65</td>
+      <td>13</td>
+      <td>67</td>
+      <td>67</td>
       <td>2025-03-11</td>
       <td>2025-01-16</td>
       <td>2025-01-16</td>
@@ -563,9 +563,9 @@
       <td>Matt Brophy</td>
       <td>Mark Dalgleish</td>
       <td>57</td>
-      <td>3</td>
-      <td>273</td>
-      <td>2</td>
+      <td>5</td>
+      <td>275</td>
+      <td>4</td>
       <td>2025-03-19</td>
       <td>2024-06-21</td>
       <td>2025-03-19</td>
@@ -583,9 +583,9 @@
       <td>Michael Jackson</td>
       <td>Jacob Bundgaard</td>
       <td>3</td>
-      <td>1235</td>
-      <td>1754</td>
-      <td>1234</td>
+      <td>1237</td>
+      <td>1756</td>
+      <td>1236</td>
       <td>2021-11-03</td>
       <td>2020-06-01</td>
       <td>2021-11-03</td>
@@ -603,9 +603,9 @@
       <td>Matt Brophy</td>
       <td>Chance Strickland</td>
       <td>64</td>
-      <td>120</td>
-      <td>273</td>
-      <td>273</td>
+      <td>122</td>
+      <td>275</td>
+      <td>275</td>
       <td>2024-11-22</td>
       <td>2024-06-21</td>
       <td>2024-06-21</td>
@@ -623,9 +623,9 @@
       <td>Michael Jackson</td>
       <td>Jacob Bundgaard</td>
       <td>3</td>
-      <td>1235</td>
-      <td>1754</td>
-      <td>1234</td>
+      <td>1237</td>
+      <td>1756</td>
+      <td>1236</td>
       <td>2021-11-03</td>
       <td>2020-06-01</td>
       <td>2021-11-03</td>
@@ -643,9 +643,9 @@
       <td>Matt Brophy</td>
       <td>Chance Strickland</td>
       <td>49</td>
-      <td>120</td>
-      <td>273</td>
-      <td>184</td>
+      <td>122</td>
+      <td>275</td>
+      <td>186</td>
       <td>2024-11-22</td>
       <td>2024-06-21</td>
       <td>2024-09-18</td>
@@ -663,9 +663,9 @@
       <td>Chance Strickland</td>
       <td>Michael Jackson</td>
       <td>7</td>
-      <td>360</td>
-      <td>1345</td>
-      <td>1288</td>
+      <td>362</td>
+      <td>1347</td>
+      <td>1290</td>
       <td>2024-03-27</td>
       <td>2021-07-15</td>
       <td>2021-09-10</td>
@@ -683,9 +683,9 @@
       <td>Matt Brophy</td>
       <td>Michael Jackson</td>
       <td>16</td>
-      <td>120</td>
-      <td>336</td>
-      <td>336</td>
+      <td>122</td>
+      <td>338</td>
+      <td>338</td>
       <td>2024-11-22</td>
       <td>2024-04-19</td>
       <td>2024-04-19</td>
@@ -703,9 +703,9 @@
       <td>Matt Brophy</td>
       <td>Jon Jensen</td>
       <td>16</td>
-      <td>120</td>
-      <td>336</td>
-      <td>336</td>
+      <td>122</td>
+      <td>338</td>
+      <td>338</td>
       <td>2024-11-22</td>
       <td>2024-04-19</td>
       <td>2024-04-19</td>
@@ -723,9 +723,9 @@
       <td>Michael Jackson</td>
       <td>Jacob Bundgaard</td>
       <td>3</td>
-      <td>1235</td>
-      <td>1754</td>
-      <td>1234</td>
+      <td>1237</td>
+      <td>1756</td>
+      <td>1236</td>
       <td>2021-11-03</td>
       <td>2020-06-01</td>
       <td>2021-11-03</td>
@@ -743,9 +743,9 @@
       <td>Matt Brophy</td>
       <td>Jacob Ebey</td>
       <td>23</td>
-      <td>75</td>
-      <td>121</td>
-      <td>121</td>
+      <td>77</td>
+      <td>123</td>
+      <td>123</td>
       <td>2025-01-06</td>
       <td>2024-11-21</td>
       <td>2024-11-21</td>
@@ -884,12 +884,12 @@ The data preview also includes overall statistics including the number of commit
     <tr>
       <th>mean</th>
       <td>149.959064</td>
-      <td>65.766082</td>
+      <td>65.777778</td>
     </tr>
     <tr>
       <th>std</th>
       <td>193.597592</td>
-      <td>390.426273</td>
+      <td>390.563903</td>
     </tr>
     <tr>
       <th>min</th>
@@ -914,7 +914,7 @@ The data preview also includes overall statistics including the number of commit
     <tr>
       <th>max</th>
       <td>1061.000000</td>
-      <td>4633.000000</td>
+      <td>4635.000000</td>
     </tr>
   </tbody>
 </table>
@@ -935,7 +935,7 @@ The data preview also includes overall statistics including the number of commit
     <tr>
       <th>0</th>
       <td>1</td>
-      <td>4633</td>
+      <td>4635</td>
     </tr>
     <tr>
       <th>1</th>
@@ -1147,13 +1147,13 @@ The data preview also includes overall statistics including the number of commit
     </tr>
     <tr>
       <th>7</th>
-      <td>Jimmy Jia</td>
-      <td>389</td>
+      <td>Tim Dorr</td>
+      <td>390</td>
     </tr>
     <tr>
       <th>8</th>
-      <td>Tim Dorr</td>
-      <td>388</td>
+      <td>Jimmy Jia</td>
+      <td>389</td>
     </tr>
     <tr>
       <th>9</th>

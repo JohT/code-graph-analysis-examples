@@ -128,7 +128,7 @@
     <tr>
       <th>3</th>
       <td>Tim Dorr</td>
-      <td>388</td>
+      <td>390</td>
     </tr>
     <tr>
       <th>4</th>
