@@ -6,7 +6,7 @@
 "org.axonframework.messaging.unitofwork","unitofwork","centralityHarmonic",0.5753623188405798,""
 "org.axonframework.common.transaction","transaction","centralityHarmonic",0.5681159420289856,""
 "org.axonframework.messaging.annotation","annotation","centralityHarmonic",0.5173913043478261,""
-"org.axonframework.tracing","tracing","centralityHarmonic",0.4985507246376812,""
+"org.axonframework.tracing","tracing","centralityHarmonic",0.49855072463768113,""
 "org.axonframework.commandhandling","commandhandling","centralityHarmonic",0.48043478260869565,""
 "org.axonframework.lifecycle","lifecycle","centralityHarmonic",0.47463768115942023,""
 "org.axonframework.common.stream","stream","centralityHarmonic",0.4347826086956521,""

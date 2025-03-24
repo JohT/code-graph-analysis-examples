@@ -59,9 +59,9 @@
       <td>13.240550</td>
       <td>7.728522</td>
       <td>343.522337</td>
-      <td>420.237113</td>
-      <td>671.680412</td>
-      <td>599.786942</td>
+      <td>422.237113</td>
+      <td>673.371134</td>
+      <td>601.494845</td>
     </tr>
     <tr>
       <th>std</th>
@@ -69,53 +69,53 @@
       <td>7.038209</td>
       <td>1446.295449</td>
       <td>1068.709845</td>
-      <td>1241.224911</td>
-      <td>1252.384978</td>
+      <td>1241.256860</td>
+      <td>1252.419219</td>
     </tr>
     <tr>
       <th>min</th>
       <td>1.000000</td>
       <td>2.000000</td>
       <td>2.000000</td>
-      <td>1.000000</td>
-      <td>0.000000</td>
-      <td>0.000000</td>
+      <td>3.000000</td>
+      <td>2.000000</td>
+      <td>2.000000</td>
     </tr>
     <tr>
       <th>25%</th>
       <td>1.000000</td>
       <td>3.000000</td>
       <td>24.000000</td>
-      <td>2.000000</td>
-      <td>69.000000</td>
-      <td>15.000000</td>
+      <td>4.000000</td>
+      <td>71.000000</td>
+      <td>17.000000</td>
     </tr>
     <tr>
       <th>50%</th>
       <td>3.000000</td>
       <td>7.000000</td>
       <td>74.000000</td>
-      <td>64.000000</td>
-      <td>265.000000</td>
-      <td>112.000000</td>
+      <td>66.000000</td>
+      <td>267.000000</td>
+      <td>114.000000</td>
     </tr>
     <tr>
       <th>75%</th>
       <td>8.000000</td>
       <td>8.000000</td>
       <td>181.000000</td>
-      <td>234.000000</td>
-      <td>367.000000</td>
-      <td>276.000000</td>
+      <td>236.000000</td>
+      <td>369.000000</td>
+      <td>277.000000</td>
     </tr>
     <tr>
       <th>max</th>
       <td>828.000000</td>
       <td>70.000000</td>
       <td>21397.000000</td>
-      <td>4775.000000</td>
-      <td>4863.000000</td>
-      <td>4774.000000</td>
+      <td>4777.000000</td>
+      <td>4864.000000</td>
+      <td>4776.000000</td>
     </tr>
   </tbody>
 </table>
@@ -163,9 +163,9 @@
       <td>Steven van Beelen</td>
       <td>Allard Buijze</td>
       <td>9</td>
-      <td>26</td>
-      <td>71</td>
-      <td>71</td>
+      <td>28</td>
+      <td>73</td>
+      <td>73</td>
       <td>2025-02-24</td>
       <td>2025-01-09</td>
       <td>2025-01-09</td>
@@ -183,9 +183,9 @@
       <td>Steven van Beelen</td>
       <td>Allard Buijze</td>
       <td>9</td>
-      <td>26</td>
-      <td>71</td>
-      <td>71</td>
+      <td>28</td>
+      <td>73</td>
+      <td>73</td>
       <td>2025-02-24</td>
       <td>2025-01-09</td>
       <td>2025-01-09</td>
@@ -203,9 +203,9 @@
       <td>Steven van Beelen</td>
       <td>Mitchell Herrijgers</td>
       <td>13</td>
-      <td>26</td>
-      <td>511</td>
-      <td>511</td>
+      <td>28</td>
+      <td>513</td>
+      <td>513</td>
       <td>2025-02-24</td>
       <td>2023-10-27</td>
       <td>2023-10-27</td>
@@ -223,9 +223,9 @@
       <td>Steven van Beelen</td>
       <td>Allard Buijze</td>
       <td>41</td>
-      <td>26</td>
-      <td>367</td>
-      <td>44</td>
+      <td>28</td>
+      <td>369</td>
+      <td>46</td>
       <td>2025-02-24</td>
       <td>2024-03-19</td>
       <td>2025-02-05</td>
@@ -243,9 +243,9 @@
       <td>Allard Buijze</td>
       <td>Rene de Waele</td>
       <td>2</td>
-      <td>3453</td>
-      <td>3475</td>
-      <td>3452</td>
+      <td>3455</td>
+      <td>3477</td>
+      <td>3454</td>
       <td>2015-10-08</td>
       <td>2015-09-15</td>
       <td>2015-10-08</td>
@@ -263,9 +263,9 @@
       <td>Sebastian Ganslandt</td>
       <td>lburgazzoli</td>
       <td>2</td>
-      <td>4218</td>
-      <td>4312</td>
-      <td>4312</td>
+      <td>4220</td>
+      <td>4314</td>
+      <td>4314</td>
       <td>2013-09-03</td>
       <td>2013-05-31</td>
       <td>2013-05-31</td>
@@ -283,9 +283,9 @@
       <td>Allard Buijze</td>
       <td>smcvb</td>
       <td>121</td>
-      <td>235</td>
-      <td>4658</td>
-      <td>4658</td>
+      <td>237</td>
+      <td>4659</td>
+      <td>4659</td>
       <td>2024-07-30</td>
       <td>2012-06-20</td>
       <td>2012-06-20</td>
@@ -303,9 +303,9 @@
       <td>Steven van Beelen</td>
       <td>Allard Buijze</td>
       <td>13</td>
-      <td>234</td>
-      <td>288</td>
-      <td>288</td>
+      <td>236</td>
+      <td>289</td>
+      <td>289</td>
       <td>2024-07-31</td>
       <td>2024-06-07</td>
       <td>2024-06-07</td>
@@ -323,9 +323,9 @@
       <td>Steven van Beelen</td>
       <td>Milen Dyankov</td>
       <td>22</td>
-      <td>234</td>
-      <td>276</td>
-      <td>276</td>
+      <td>236</td>
+      <td>277</td>
+      <td>277</td>
       <td>2024-07-31</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -343,9 +343,9 @@
       <td>Steven van Beelen</td>
       <td>Milen Dyankov</td>
       <td>22</td>
-      <td>234</td>
-      <td>276</td>
-      <td>276</td>
+      <td>236</td>
+      <td>277</td>
+      <td>277</td>
       <td>2024-07-31</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -363,9 +363,9 @@
       <td>Steven van Beelen</td>
       <td>Milen Dyankov</td>
       <td>23</td>
-      <td>234</td>
-      <td>276</td>
-      <td>276</td>
+      <td>236</td>
+      <td>277</td>
+      <td>277</td>
       <td>2024-07-31</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -383,9 +383,9 @@
       <td>Steven van Beelen</td>
       <td>Milen Dyankov</td>
       <td>22</td>
-      <td>234</td>
-      <td>276</td>
-      <td>276</td>
+      <td>236</td>
+      <td>277</td>
+      <td>277</td>
       <td>2024-07-31</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -403,9 +403,9 @@
       <td>Steven van Beelen</td>
       <td>Milen Dyankov</td>
       <td>23</td>
-      <td>234</td>
-      <td>276</td>
-      <td>276</td>
+      <td>236</td>
+      <td>277</td>
+      <td>277</td>
       <td>2024-07-31</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -423,9 +423,9 @@
       <td>Steven van Beelen</td>
       <td>Milen Dyankov</td>
       <td>22</td>
-      <td>234</td>
-      <td>276</td>
-      <td>276</td>
+      <td>236</td>
+      <td>277</td>
+      <td>277</td>
       <td>2024-07-31</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -443,9 +443,9 @@
       <td>Steven van Beelen</td>
       <td>Milen Dyankov</td>
       <td>23</td>
-      <td>234</td>
-      <td>276</td>
-      <td>276</td>
+      <td>236</td>
+      <td>277</td>
+      <td>277</td>
       <td>2024-07-31</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -463,9 +463,9 @@
       <td>Steven van Beelen</td>
       <td>Milen Dyankov</td>
       <td>22</td>
-      <td>234</td>
-      <td>276</td>
-      <td>276</td>
+      <td>236</td>
+      <td>277</td>
+      <td>277</td>
       <td>2024-07-31</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -483,9 +483,9 @@
       <td>Steven van Beelen</td>
       <td>Milen Dyankov</td>
       <td>24</td>
-      <td>234</td>
-      <td>276</td>
-      <td>276</td>
+      <td>236</td>
+      <td>277</td>
+      <td>277</td>
       <td>2024-07-31</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -503,9 +503,9 @@
       <td>Steven van Beelen</td>
       <td>Milen Dyankov</td>
       <td>22</td>
-      <td>234</td>
-      <td>276</td>
-      <td>276</td>
+      <td>236</td>
+      <td>277</td>
+      <td>277</td>
       <td>2024-07-31</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -523,9 +523,9 @@
       <td>Steven van Beelen</td>
       <td>Milen Dyankov</td>
       <td>23</td>
-      <td>234</td>
-      <td>276</td>
-      <td>276</td>
+      <td>236</td>
+      <td>277</td>
+      <td>277</td>
       <td>2024-07-31</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -543,9 +543,9 @@
       <td>Steven van Beelen</td>
       <td>Milen Dyankov</td>
       <td>22</td>
-      <td>234</td>
-      <td>276</td>
-      <td>276</td>
+      <td>236</td>
+      <td>277</td>
+      <td>277</td>
       <td>2024-07-31</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -563,9 +563,9 @@
       <td>Steven van Beelen</td>
       <td>Milen Dyankov</td>
       <td>23</td>
-      <td>234</td>
-      <td>276</td>
-      <td>276</td>
+      <td>236</td>
+      <td>277</td>
+      <td>277</td>
       <td>2024-07-31</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -583,9 +583,9 @@
       <td>Steven van Beelen</td>
       <td>Milen Dyankov</td>
       <td>22</td>
-      <td>234</td>
-      <td>276</td>
-      <td>276</td>
+      <td>236</td>
+      <td>277</td>
+      <td>277</td>
       <td>2024-07-31</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -603,9 +603,9 @@
       <td>Steven van Beelen</td>
       <td>Milen Dyankov</td>
       <td>23</td>
-      <td>234</td>
-      <td>276</td>
-      <td>276</td>
+      <td>236</td>
+      <td>277</td>
+      <td>277</td>
       <td>2024-07-31</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -623,9 +623,9 @@
       <td>Steven van Beelen</td>
       <td>Milen Dyankov</td>
       <td>22</td>
-      <td>234</td>
-      <td>276</td>
-      <td>276</td>
+      <td>236</td>
+      <td>277</td>
+      <td>277</td>
       <td>2024-07-31</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -643,9 +643,9 @@
       <td>Steven van Beelen</td>
       <td>Milen Dyankov</td>
       <td>22</td>
-      <td>234</td>
-      <td>276</td>
-      <td>276</td>
+      <td>236</td>
+      <td>277</td>
+      <td>277</td>
       <td>2024-07-31</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -663,9 +663,9 @@
       <td>Steven van Beelen</td>
       <td>Milen Dyankov</td>
       <td>23</td>
-      <td>234</td>
-      <td>276</td>
-      <td>276</td>
+      <td>236</td>
+      <td>277</td>
+      <td>277</td>
       <td>2024-07-31</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -683,9 +683,9 @@
       <td>Steven van Beelen</td>
       <td>Milen Dyankov</td>
       <td>22</td>
-      <td>234</td>
-      <td>276</td>
-      <td>276</td>
+      <td>236</td>
+      <td>277</td>
+      <td>277</td>
       <td>2024-07-31</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -703,9 +703,9 @@
       <td>Steven van Beelen</td>
       <td>Milen Dyankov</td>
       <td>24</td>
-      <td>234</td>
-      <td>276</td>
-      <td>276</td>
+      <td>236</td>
+      <td>277</td>
+      <td>277</td>
       <td>2024-07-31</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -723,9 +723,9 @@
       <td>Steven van Beelen</td>
       <td>Milen Dyankov</td>
       <td>22</td>
-      <td>234</td>
-      <td>276</td>
-      <td>276</td>
+      <td>236</td>
+      <td>277</td>
+      <td>277</td>
       <td>2024-07-31</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -743,9 +743,9 @@
       <td>Steven van Beelen</td>
       <td>Milen Dyankov</td>
       <td>23</td>
-      <td>234</td>
-      <td>276</td>
-      <td>276</td>
+      <td>236</td>
+      <td>277</td>
+      <td>277</td>
       <td>2024-07-31</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -884,12 +884,12 @@ The data preview also includes overall statistics including the number of commit
     <tr>
       <th>mean</th>
       <td>398.572944</td>
-      <td>35.111406</td>
+      <td>35.114058</td>
     </tr>
     <tr>
       <th>std</th>
       <td>559.546155</td>
-      <td>298.728099</td>
+      <td>298.774056</td>
     </tr>
     <tr>
       <th>min</th>
@@ -914,7 +914,7 @@ The data preview also includes overall statistics including the number of commit
     <tr>
       <th>max</th>
       <td>4041.000000</td>
-      <td>5197.000000</td>
+      <td>5198.000000</td>
     </tr>
   </tbody>
 </table>
@@ -935,7 +935,7 @@ The data preview also includes overall statistics including the number of commit
     <tr>
       <th>0</th>
       <td>1</td>
-      <td>5197</td>
+      <td>5198</td>
     </tr>
     <tr>
       <th>1</th>
