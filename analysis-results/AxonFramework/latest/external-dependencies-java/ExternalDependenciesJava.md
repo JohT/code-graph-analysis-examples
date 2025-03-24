@@ -263,7 +263,7 @@ Only the top 20 entries are shown. The whole table can be found in the following
       <td>75</td>
       <td>116</td>
       <td>1485</td>
-      <td>[ObjectMapper, JsonDeserializer, Deserializati...</td>
+      <td>[ObjectMapper, DeserializationFeature, ObjectM...</td>
     </tr>
     <tr>
       <th>19</th>
@@ -508,7 +508,7 @@ Only the top 20 entries are shown. The whole table can be found in the following
       <td>107</td>
       <td>116</td>
       <td>1485</td>
-      <td>[Task, Scheduler, Tasks$OneTimeTaskBuilder, Sc...</td>
+      <td>[Task, Scheduler, SchedulerState, TaskInstance...</td>
     </tr>
     <tr>
       <th>12</th>
@@ -519,7 +519,7 @@ Only the top 20 entries are shown. The whole table can be found in the following
       <td>121</td>
       <td>116</td>
       <td>1485</td>
-      <td>[XStream, UnmarshallingContext, CollectionConv...</td>
+      <td>[XStream, Mapper, CannotResolveClassException,...</td>
     </tr>
     <tr>
       <th>13</th>
@@ -541,7 +541,7 @@ Only the top 20 entries are shown. The whole table can be found in the following
       <td>137</td>
       <td>116</td>
       <td>1485</td>
-      <td>[SchemaStore, SchemaStore$Cache, GenericRecord...</td>
+      <td>[SchemaStore, SchemaStore$Cache, ClassUtils, G...</td>
     </tr>
     <tr>
       <th>15</th>
@@ -574,7 +574,7 @@ Only the top 20 entries are shown. The whole table can be found in the following
       <td>187</td>
       <td>116</td>
       <td>1485</td>
-      <td>[Scheduler, JobDataMap, JobDetail, GroupMatche...</td>
+      <td>[SchedulerContext, JobDetail, JobExecutionExce...</td>
     </tr>
     <tr>
       <th>18</th>
@@ -5037,7 +5037,7 @@ Only the last 40 entries are shown. The whole table can be found in the followin
       <td>3187</td>
       <td>50</td>
       <td>[javax.annotation, org.slf4j, com.fasterxml.ja...</td>
-      <td>[Nonnull, Nullable, Logger, LoggerFactory, Jso...</td>
+      <td>[Nonnull, Nullable, LoggerFactory, Logger, Jso...</td>
     </tr>
     <tr>
       <th>7</th>
@@ -5137,7 +5137,7 @@ Only the last 40 entries are shown. The whole table can be found in the followin
       <td>28</td>
       <td>108</td>
       <td>48</td>
-      <td>[Flux, Mono, Sinks$Many, Sinks$EmitResult, Flu...</td>
+      <td>[Flux, Mono, Signal, FluxSink, EmitterProcesso...</td>
       <td>queryhandling</td>
     </tr>
     <tr>
@@ -5192,7 +5192,7 @@ Only the last 40 entries are shown. The whole table can be found in the followin
       <td>18</td>
       <td>109</td>
       <td>4</td>
-      <td>[Scheduler, JobDataMap, JobDetail, SchedulerEx...</td>
+      <td>[SchedulerContext, JobDetail, JobExecutionExce...</td>
       <td>quartz</td>
     </tr>
     <tr>
@@ -5203,7 +5203,7 @@ Only the last 40 entries are shown. The whole table can be found in the followin
       <td>17</td>
       <td>76</td>
       <td>6</td>
-      <td>[JobDataMap, Scheduler, JobDetail, SchedulerEx...</td>
+      <td>[Scheduler, Trigger, JobKey, JobBuilder, Sched...</td>
       <td>quartz</td>
     </tr>
     <tr>
@@ -5236,7 +5236,7 @@ Only the last 40 entries are shown. The whole table can be found in the followin
       <td>16</td>
       <td>54</td>
       <td>11</td>
-      <td>[AvroRuntimeException, SchemaCompatibility$Sch...</td>
+      <td>[AvroRuntimeException, Schema, SchemaCompatibi...</td>
       <td>avro</td>
     </tr>
     <tr>
@@ -5258,7 +5258,7 @@ Only the last 40 entries are shown. The whole table can be found in the followin
       <td>15</td>
       <td>65</td>
       <td>7</td>
-      <td>[JsonDeserializer, DeserializationContext, Obj...</td>
+      <td>[DeserializationFeature, ObjectMapper$DefaultT...</td>
       <td>json</td>
     </tr>
     <tr>
@@ -5313,7 +5313,7 @@ Only the last 40 entries are shown. The whole table can be found in the followin
       <td>9</td>
       <td>18</td>
       <td>48</td>
-      <td>[Logger, LoggerFactory]</td>
+      <td>[LoggerFactory, Logger]</td>
       <td>queryhandling</td>
     </tr>
     <tr>
@@ -5379,7 +5379,7 @@ Only the last 40 entries are shown. The whole table can be found in the followin
       <td>8</td>
       <td>30</td>
       <td>15</td>
-      <td>[CacheEventListener, EventFiring, EventOrderin...</td>
+      <td>[EventType, CacheEvent, CacheEventListener, Ev...</td>
       <td>caching</td>
     </tr>
     <tr>
@@ -5390,7 +5390,7 @@ Only the last 40 entries are shown. The whole table can be found in the followin
       <td>8</td>
       <td>26</td>
       <td>15</td>
-      <td>[CacheEntryUpdatedListener, CacheEntryRemovedL...</td>
+      <td>[CacheEntryCreatedListener, CacheEntryExpiredL...</td>
       <td>caching</td>
     </tr>
     <tr>
@@ -5401,7 +5401,7 @@ Only the last 40 entries are shown. The whole table can be found in the followin
       <td>8</td>
       <td>15</td>
       <td>55</td>
-      <td>[Logger, LoggerFactory]</td>
+      <td>[LoggerFactory, Logger]</td>
       <td>annotation</td>
     </tr>
     <tr>
@@ -5467,7 +5467,7 @@ Only the last 40 entries are shown. The whole table can be found in the followin
       <td>7</td>
       <td>34</td>
       <td>8</td>
-      <td>[Flux, Mono]</td>
+      <td>[Mono, Flux]</td>
       <td>responsetypes</td>
     </tr>
     <tr>
@@ -5500,7 +5500,7 @@ Only the last 40 entries are shown. The whole table can be found in the followin
       <td>7</td>
       <td>23</td>
       <td>11</td>
-      <td>[SchemaStore, BinaryMessageDecoder, BinaryMess...</td>
+      <td>[SchemaStore, BinaryMessageEncoder, BinaryMess...</td>
       <td>avro</td>
     </tr>
     <tr>
