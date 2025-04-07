@@ -112,53 +112,53 @@
   <tbody>
     <tr>
       <th>0</th>
+      <td>James Opstad</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>Matt Lynch</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>2</th>
       <td>Ryan Florence</td>
       <td>1307</td>
     </tr>
     <tr>
-      <th>1</th>
+      <th>3</th>
       <td>迷渡</td>
       <td>2</td>
     </tr>
     <tr>
-      <th>2</th>
+      <th>4</th>
       <td>Tim Dorr</td>
       <td>390</td>
     </tr>
     <tr>
-      <th>3</th>
-      <td>Sami</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>Laryssa Rocha</td>
-      <td>1</td>
-    </tr>
-    <tr>
       <th>5</th>
-      <td>Mark Dalgleish</td>
-      <td>434</td>
+      <td>Remix Run Bot</td>
+      <td>504</td>
     </tr>
     <tr>
       <th>6</th>
-      <td>Mosaad</td>
-      <td>2</td>
-    </tr>
-    <tr>
-      <th>7</th>
-      <td>Remix Run Bot</td>
-      <td>499</td>
-    </tr>
-    <tr>
-      <th>8</th>
-      <td>Christian Moen</td>
+      <td>weiss</td>
       <td>1</td>
     </tr>
     <tr>
-      <th>9</th>
+      <th>7</th>
       <td>Matt Brophy</td>
-      <td>2066</td>
+      <td>2084</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>Mark Dalgleish</td>
+      <td>422</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>Jacob Ebey</td>
+      <td>294</td>
     </tr>
   </tbody>
 </table>
