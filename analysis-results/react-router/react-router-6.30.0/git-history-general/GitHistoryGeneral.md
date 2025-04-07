@@ -56,30 +56,30 @@
     </tr>
     <tr>
       <th>mean</th>
-      <td>22.295567</td>
+      <td>22.305419</td>
       <td>13.300493</td>
-      <td>653.699507</td>
-      <td>117.418719</td>
-      <td>397.359606</td>
-      <td>180.635468</td>
+      <td>653.871921</td>
+      <td>117.236453</td>
+      <td>397.438424</td>
+      <td>180.615764</td>
     </tr>
     <tr>
       <th>std</th>
-      <td>100.534617</td>
+      <td>100.597499</td>
       <td>38.987601</td>
-      <td>3260.535248</td>
-      <td>221.696378</td>
-      <td>469.449935</td>
-      <td>303.360918</td>
+      <td>3261.376257</td>
+      <td>221.791342</td>
+      <td>469.424737</td>
+      <td>303.415116</td>
     </tr>
     <tr>
       <th>min</th>
       <td>1.000000</td>
       <td>2.000000</td>
       <td>2.000000</td>
-      <td>2.000000</td>
-      <td>2.000000</td>
-      <td>1.000000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
     </tr>
     <tr>
       <th>25%</th>
@@ -87,7 +87,7 @@
       <td>3.000000</td>
       <td>21.500000</td>
       <td>10.000000</td>
-      <td>76.000000</td>
+      <td>76.500000</td>
       <td>9.000000</td>
     </tr>
     <tr>
@@ -110,9 +110,9 @@
     </tr>
     <tr>
       <th>max</th>
-      <td>1295.000000</td>
+      <td>1296.000000</td>
       <td>487.000000</td>
-      <td>38102.000000</td>
+      <td>38110.000000</td>
       <td>1251.000000</td>
       <td>1770.000000</td>
       <td>1304.000000</td>
@@ -464,7 +464,7 @@
       <td>Mark Dalgleish</td>
       <td>8</td>
       <td>136</td>
-      <td>264</td>
+      <td>265</td>
       <td>200</td>
       <td>2024-11-22</td>
       <td>2024-07-16</td>
@@ -884,12 +884,12 @@ The data preview also includes overall statistics including the number of commit
     <tr>
       <th>mean</th>
       <td>149.959064</td>
-      <td>66.116959</td>
+      <td>66.122807</td>
     </tr>
     <tr>
       <th>std</th>
       <td>193.597592</td>
-      <td>392.138358</td>
+      <td>392.139714</td>
     </tr>
     <tr>
       <th>min</th>
@@ -970,7 +970,7 @@ The data preview also includes overall statistics including the number of commit
     <tr>
       <th>7</th>
       <td>8</td>
-      <td>156</td>
+      <td>157</td>
     </tr>
     <tr>
       <th>8</th>
@@ -1138,7 +1138,7 @@ The data preview also includes overall statistics including the number of commit
     <tr>
       <th>5</th>
       <td>Mark Dalgleish</td>
-      <td>422</td>
+      <td>423</td>
     </tr>
     <tr>
       <th>6</th>

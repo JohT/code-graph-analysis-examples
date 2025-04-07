@@ -137,23 +137,23 @@
     </tr>
     <tr>
       <th>5</th>
+      <td>Mark Dalgleish</td>
+      <td>423</td>
+    </tr>
+    <tr>
+      <th>6</th>
       <td>Remix Run Bot</td>
       <td>504</td>
     </tr>
     <tr>
-      <th>6</th>
+      <th>7</th>
       <td>weiss</td>
       <td>1</td>
     </tr>
     <tr>
-      <th>7</th>
+      <th>8</th>
       <td>Matt Brophy</td>
       <td>2084</td>
-    </tr>
-    <tr>
-      <th>8</th>
-      <td>Mark Dalgleish</td>
-      <td>422</td>
     </tr>
     <tr>
       <th>9</th>

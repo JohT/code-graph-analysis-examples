@@ -37,182 +37,182 @@ The whole table can be found in the CSV report `Node_label_combination_count`.
     <tr>
       <th>0</th>
       <td>[Git, Update, Change]</td>
-      <td>58980</td>
-      <td>52.260363</td>
+      <td>58987</td>
+      <td>52.261471</td>
     </tr>
     <tr>
       <th>1</th>
       <td>[Git, Change, Create]</td>
-      <td>17328</td>
-      <td>15.353807</td>
+      <td>17329</td>
+      <td>15.353197</td>
     </tr>
     <tr>
       <th>2</th>
       <td>[Git, Commit]</td>
-      <td>11315</td>
-      <td>10.025873</td>
+      <td>11316</td>
+      <td>10.025782</td>
     </tr>
     <tr>
       <th>3</th>
       <td>[Git, Change, Delete]</td>
       <td>8787</td>
-      <td>7.785890</td>
+      <td>7.785131</td>
     </tr>
     <tr>
       <th>4</th>
       <td>[File, Git]</td>
-      <td>5920</td>
-      <td>5.245530</td>
+      <td>5921</td>
+      <td>5.245905</td>
     </tr>
     <tr>
       <th>5</th>
       <td>[Git, Change, Rename]</td>
       <td>3354</td>
-      <td>2.971876</td>
+      <td>2.971587</td>
     </tr>
     <tr>
       <th>6</th>
       <td>[Git, Tag]</td>
       <td>1795</td>
-      <td>1.590494</td>
+      <td>1.590339</td>
     </tr>
     <tr>
       <th>7</th>
       <td>[Author, Git, Person]</td>
       <td>1268</td>
-      <td>1.123536</td>
+      <td>1.123426</td>
     </tr>
     <tr>
       <th>8</th>
       <td>[Json, Key]</td>
       <td>668</td>
-      <td>0.591894</td>
+      <td>0.591837</td>
     </tr>
     <tr>
       <th>9</th>
       <td>[Json, Value, Scalar]</td>
       <td>603</td>
-      <td>0.534300</td>
+      <td>0.534248</td>
     </tr>
     <tr>
       <th>10</th>
       <td>[Committer, Git, Person]</td>
       <td>370</td>
-      <td>0.327846</td>
+      <td>0.327814</td>
     </tr>
     <tr>
       <th>11</th>
       <td>[NPM, Dependency]</td>
       <td>338</td>
-      <td>0.299491</td>
+      <td>0.299462</td>
     </tr>
     <tr>
       <th>12</th>
       <td>[Type, TS, Primitive]</td>
       <td>293</td>
-      <td>0.259618</td>
+      <td>0.259593</td>
     </tr>
     <tr>
       <th>13</th>
       <td>[Type, TS, Declared]</td>
       <td>277</td>
-      <td>0.245441</td>
+      <td>0.245417</td>
     </tr>
     <tr>
       <th>14</th>
       <td>[TS, ExternalDeclaration]</td>
       <td>215</td>
-      <td>0.190505</td>
+      <td>0.190486</td>
     </tr>
     <tr>
       <th>15</th>
       <td>[Git, Change, Copy]</td>
       <td>138</td>
-      <td>0.122278</td>
+      <td>0.122266</td>
     </tr>
     <tr>
       <th>16</th>
       <td>[Type, TS, Literal]</td>
       <td>136</td>
-      <td>0.120505</td>
+      <td>0.120494</td>
     </tr>
     <tr>
       <th>17</th>
       <td>[Json, Value, Object]</td>
       <td>133</td>
-      <td>0.117847</td>
+      <td>0.117836</td>
     </tr>
     <tr>
       <th>18</th>
       <td>[Type, TS, Union]</td>
       <td>120</td>
-      <td>0.106328</td>
+      <td>0.106318</td>
     </tr>
     <tr>
       <th>19</th>
       <td>[Type, TS, ObjectMember]</td>
       <td>103</td>
-      <td>0.091265</td>
+      <td>0.091256</td>
     </tr>
     <tr>
       <th>20</th>
       <td>[NPM, Script]</td>
       <td>91</td>
-      <td>0.080632</td>
+      <td>0.080624</td>
     </tr>
     <tr>
       <th>21</th>
       <td>[TS, Property]</td>
       <td>65</td>
-      <td>0.057594</td>
+      <td>0.057589</td>
     </tr>
     <tr>
       <th>22</th>
       <td>[TS, Function]</td>
       <td>47</td>
-      <td>0.041645</td>
+      <td>0.041641</td>
     </tr>
     <tr>
       <th>23</th>
       <td>[Git, Branch]</td>
-      <td>45</td>
-      <td>0.039873</td>
+      <td>46</td>
+      <td>0.040755</td>
     </tr>
     <tr>
       <th>24</th>
       <td>[Type, TS, FunctionParameter]</td>
       <td>40</td>
-      <td>0.035443</td>
+      <td>0.035439</td>
     </tr>
     <tr>
       <th>25</th>
       <td>[Type, Object, TS]</td>
       <td>39</td>
-      <td>0.034557</td>
+      <td>0.034553</td>
     </tr>
     <tr>
       <th>26</th>
       <td>[File, Directory]</td>
       <td>34</td>
-      <td>0.030126</td>
+      <td>0.030123</td>
     </tr>
     <tr>
       <th>27</th>
       <td>[Type, TS, Function]</td>
       <td>34</td>
-      <td>0.030126</td>
+      <td>0.030123</td>
     </tr>
     <tr>
       <th>28</th>
       <td>[TS, Parameter]</td>
       <td>33</td>
-      <td>0.029240</td>
+      <td>0.029237</td>
     </tr>
     <tr>
       <th>29</th>
       <td>[Package, File, Json, NPM]</td>
       <td>29</td>
-      <td>0.025696</td>
+      <td>0.025694</td>
     </tr>
   </tbody>
 </table>
@@ -388,49 +388,49 @@ Lists the 30 label combinations with the lowest number of nodes until they reach
       <th>22</th>
       <td>[TS, EnumMember]</td>
       <td>8</td>
-      <td>0.007089</td>
+      <td>0.007088</td>
     </tr>
     <tr>
       <th>23</th>
       <td>[Type, TS, NotIdentified]</td>
       <td>11</td>
-      <td>0.009747</td>
+      <td>0.009746</td>
     </tr>
     <tr>
       <th>24</th>
       <td>[TS, ExternalModule]</td>
       <td>11</td>
-      <td>0.009747</td>
+      <td>0.009746</td>
     </tr>
     <tr>
       <th>25</th>
       <td>[Json, Value, Array]</td>
       <td>12</td>
-      <td>0.010633</td>
+      <td>0.010632</td>
     </tr>
     <tr>
       <th>26</th>
       <td>[Value, TS, Declared]</td>
       <td>13</td>
-      <td>0.011519</td>
+      <td>0.011518</td>
     </tr>
     <tr>
       <th>27</th>
       <td>[TS, TypeAlias]</td>
       <td>16</td>
-      <td>0.014177</td>
+      <td>0.014176</td>
     </tr>
     <tr>
       <th>28</th>
       <td>[File, Directory, Local]</td>
       <td>16</td>
-      <td>0.014177</td>
+      <td>0.014176</td>
     </tr>
     <tr>
       <th>29</th>
       <td>[TS, Interface]</td>
       <td>17</td>
-      <td>0.015063</td>
+      <td>0.015062</td>
     </tr>
   </tbody>
 </table>
@@ -475,242 +475,242 @@ Helps to identify commonly used labels.
     <tr>
       <th>0</th>
       <td>Git</td>
-      <td>109301</td>
-      <td>96.848252</td>
+      <td>109312</td>
+      <td>96.848559</td>
     </tr>
     <tr>
       <th>1</th>
       <td>Change</td>
-      <td>88587</td>
-      <td>78.494214</td>
+      <td>88595</td>
+      <td>78.493652</td>
     </tr>
     <tr>
       <th>2</th>
       <td>Update</td>
-      <td>58980</td>
-      <td>52.260363</td>
+      <td>58987</td>
+      <td>52.261471</td>
     </tr>
     <tr>
       <th>3</th>
       <td>Create</td>
-      <td>17328</td>
-      <td>15.353807</td>
+      <td>17329</td>
+      <td>15.353197</td>
     </tr>
     <tr>
       <th>4</th>
       <td>Commit</td>
-      <td>11315</td>
-      <td>10.025873</td>
+      <td>11316</td>
+      <td>10.025782</td>
     </tr>
     <tr>
       <th>5</th>
       <td>Delete</td>
       <td>8787</td>
-      <td>7.785890</td>
+      <td>7.785131</td>
     </tr>
     <tr>
       <th>6</th>
       <td>File</td>
-      <td>6013</td>
-      <td>5.327934</td>
+      <td>6014</td>
+      <td>5.328301</td>
     </tr>
     <tr>
       <th>7</th>
       <td>Rename</td>
       <td>3354</td>
-      <td>2.971876</td>
+      <td>2.971587</td>
     </tr>
     <tr>
       <th>8</th>
       <td>Tag</td>
       <td>1795</td>
-      <td>1.590494</td>
+      <td>1.590339</td>
     </tr>
     <tr>
       <th>9</th>
       <td>Person</td>
       <td>1638</td>
-      <td>1.451381</td>
+      <td>1.451240</td>
     </tr>
     <tr>
       <th>10</th>
       <td>TS</td>
       <td>1595</td>
-      <td>1.413280</td>
+      <td>1.413143</td>
     </tr>
     <tr>
       <th>11</th>
       <td>Json</td>
       <td>1445</td>
-      <td>1.280370</td>
+      <td>1.280245</td>
     </tr>
     <tr>
       <th>12</th>
       <td>Author</td>
       <td>1268</td>
-      <td>1.123536</td>
+      <td>1.123426</td>
     </tr>
     <tr>
       <th>13</th>
       <td>Type</td>
       <td>1079</td>
-      <td>0.956069</td>
+      <td>0.955976</td>
     </tr>
     <tr>
       <th>14</th>
       <td>Value</td>
       <td>806</td>
-      <td>0.714172</td>
+      <td>0.714102</td>
     </tr>
     <tr>
       <th>15</th>
       <td>Key</td>
       <td>668</td>
-      <td>0.591894</td>
+      <td>0.591837</td>
     </tr>
     <tr>
       <th>16</th>
       <td>Scalar</td>
       <td>603</td>
-      <td>0.534300</td>
+      <td>0.534248</td>
     </tr>
     <tr>
       <th>17</th>
       <td>NPM</td>
       <td>470</td>
-      <td>0.416453</td>
+      <td>0.416412</td>
     </tr>
     <tr>
       <th>18</th>
       <td>Committer</td>
       <td>370</td>
-      <td>0.327846</td>
+      <td>0.327814</td>
     </tr>
     <tr>
       <th>19</th>
       <td>Dependency</td>
       <td>338</td>
-      <td>0.299491</td>
+      <td>0.299462</td>
     </tr>
     <tr>
       <th>20</th>
       <td>Primitive</td>
       <td>293</td>
-      <td>0.259618</td>
+      <td>0.259593</td>
     </tr>
     <tr>
       <th>21</th>
       <td>Declared</td>
       <td>290</td>
-      <td>0.256960</td>
+      <td>0.256935</td>
     </tr>
     <tr>
       <th>22</th>
       <td>ExternalDeclaration</td>
       <td>215</td>
-      <td>0.190505</td>
+      <td>0.190486</td>
     </tr>
     <tr>
       <th>23</th>
       <td>Object</td>
       <td>175</td>
-      <td>0.155062</td>
+      <td>0.155047</td>
     </tr>
     <tr>
       <th>24</th>
       <td>Literal</td>
       <td>156</td>
-      <td>0.138227</td>
+      <td>0.138213</td>
     </tr>
     <tr>
       <th>25</th>
       <td>Copy</td>
       <td>138</td>
-      <td>0.122278</td>
+      <td>0.122266</td>
     </tr>
     <tr>
       <th>26</th>
       <td>Union</td>
       <td>120</td>
-      <td>0.106328</td>
+      <td>0.106318</td>
     </tr>
     <tr>
       <th>27</th>
       <td>ObjectMember</td>
       <td>104</td>
-      <td>0.092151</td>
+      <td>0.092142</td>
     </tr>
     <tr>
       <th>28</th>
       <td>Script</td>
       <td>91</td>
-      <td>0.080632</td>
+      <td>0.080624</td>
     </tr>
     <tr>
       <th>29</th>
       <td>Function</td>
       <td>85</td>
-      <td>0.075316</td>
+      <td>0.075309</td>
     </tr>
     <tr>
       <th>30</th>
       <td>Property</td>
       <td>65</td>
-      <td>0.057594</td>
+      <td>0.057589</td>
     </tr>
     <tr>
       <th>31</th>
       <td>Directory</td>
       <td>50</td>
-      <td>0.044303</td>
+      <td>0.044299</td>
     </tr>
     <tr>
       <th>32</th>
       <td>Branch</td>
-      <td>45</td>
-      <td>0.039873</td>
+      <td>46</td>
+      <td>0.040755</td>
     </tr>
     <tr>
       <th>33</th>
       <td>FunctionParameter</td>
       <td>40</td>
-      <td>0.035443</td>
+      <td>0.035439</td>
     </tr>
     <tr>
       <th>34</th>
       <td>Parameter</td>
       <td>33</td>
-      <td>0.029240</td>
+      <td>0.029237</td>
     </tr>
     <tr>
       <th>35</th>
       <td>Package</td>
       <td>29</td>
-      <td>0.025696</td>
+      <td>0.025694</td>
     </tr>
     <tr>
       <th>36</th>
       <td>Local</td>
       <td>28</td>
-      <td>0.024810</td>
+      <td>0.024808</td>
     </tr>
     <tr>
       <th>37</th>
       <td>Variable</td>
       <td>24</td>
-      <td>0.021266</td>
+      <td>0.021264</td>
     </tr>
     <tr>
       <th>38</th>
       <td>jQAssistant</td>
       <td>20</td>
-      <td>0.017721</td>
+      <td>0.017720</td>
     </tr>
     <tr>
       <th>39</th>
       <td>Concept</td>
       <td>19</td>
-      <td>0.016835</td>
+      <td>0.016834</td>
     </tr>
   </tbody>
 </table>
@@ -739,7 +739,7 @@ Shows the 40 labels with the highest number of nodes.
 Lists the 30 relationship types with the highest number of occurrences.
 The whole table can be found in the CSV report `Relationship_type_count`.
 
-    Total number of relationships: 336953
+    Total number of relationships: 336984
 
 
 
@@ -759,182 +759,182 @@ The whole table can be found in the CSV report `Relationship_type_count`.
     <tr>
       <th>0</th>
       <td>CONTAINS_CHANGE</td>
-      <td>88587</td>
-      <td>26.290610</td>
+      <td>88595</td>
+      <td>26.290566</td>
     </tr>
     <tr>
       <th>1</th>
       <td>MODIFIES</td>
-      <td>88587</td>
-      <td>26.290610</td>
+      <td>88595</td>
+      <td>26.290566</td>
     </tr>
     <tr>
       <th>2</th>
       <td>UPDATES</td>
-      <td>58980</td>
-      <td>17.503925</td>
+      <td>58987</td>
+      <td>17.504392</td>
     </tr>
     <tr>
       <th>3</th>
       <td>COMMITTED</td>
-      <td>22630</td>
-      <td>6.716070</td>
+      <td>22632</td>
+      <td>6.716046</td>
     </tr>
     <tr>
       <th>4</th>
       <td>CREATES</td>
-      <td>20820</td>
-      <td>6.178903</td>
+      <td>20821</td>
+      <td>6.178632</td>
     </tr>
     <tr>
       <th>5</th>
       <td>HAS_PARENT</td>
-      <td>12401</td>
-      <td>3.680335</td>
+      <td>12402</td>
+      <td>3.680293</td>
     </tr>
     <tr>
       <th>6</th>
       <td>DELETES</td>
       <td>12141</td>
-      <td>3.603173</td>
+      <td>3.602842</td>
     </tr>
     <tr>
       <th>7</th>
       <td>HAS_COMMIT</td>
-      <td>11315</td>
-      <td>3.358035</td>
+      <td>11316</td>
+      <td>3.358023</td>
     </tr>
     <tr>
       <th>8</th>
       <td>HAS_FILE</td>
-      <td>5920</td>
-      <td>1.756922</td>
+      <td>5921</td>
+      <td>1.757057</td>
     </tr>
     <tr>
       <th>9</th>
       <td>RENAMES</td>
       <td>3354</td>
-      <td>0.995391</td>
+      <td>0.995299</td>
     </tr>
     <tr>
       <th>10</th>
       <td>HAS_TAG</td>
       <td>1795</td>
-      <td>0.532715</td>
+      <td>0.532666</td>
     </tr>
     <tr>
       <th>11</th>
       <td>ON_COMMIT</td>
       <td>1795</td>
-      <td>0.532715</td>
+      <td>0.532666</td>
     </tr>
     <tr>
       <th>12</th>
       <td>HAS_NEW_NAME</td>
       <td>1770</td>
-      <td>0.525296</td>
+      <td>0.525247</td>
     </tr>
     <tr>
       <th>13</th>
       <td>HAS_AUTHOR</td>
       <td>1268</td>
-      <td>0.376314</td>
+      <td>0.376279</td>
     </tr>
     <tr>
       <th>14</th>
       <td>DEPENDS_ON</td>
       <td>887</td>
-      <td>0.263241</td>
+      <td>0.263217</td>
     </tr>
     <tr>
       <th>15</th>
       <td>HAS_KEY</td>
       <td>668</td>
-      <td>0.198247</td>
+      <td>0.198229</td>
     </tr>
     <tr>
       <th>16</th>
       <td>HAS_VALUE</td>
       <td>668</td>
-      <td>0.198247</td>
+      <td>0.198229</td>
     </tr>
     <tr>
       <th>17</th>
       <td>CONTAINS</td>
       <td>596</td>
-      <td>0.176879</td>
+      <td>0.176863</td>
     </tr>
     <tr>
       <th>18</th>
       <td>HAS_COMMITTER</td>
       <td>370</td>
-      <td>0.109808</td>
+      <td>0.109797</td>
     </tr>
     <tr>
       <th>19</th>
       <td>OF_TYPE</td>
       <td>339</td>
-      <td>0.100608</td>
+      <td>0.100598</td>
     </tr>
     <tr>
       <th>20</th>
       <td>EXPORTS</td>
       <td>309</td>
-      <td>0.091704</td>
+      <td>0.091696</td>
     </tr>
     <tr>
       <th>21</th>
       <td>REFERENCES</td>
       <td>197</td>
-      <td>0.058465</td>
+      <td>0.058460</td>
     </tr>
     <tr>
       <th>22</th>
       <td>DECLARES</td>
       <td>186</td>
-      <td>0.055201</td>
+      <td>0.055195</td>
     </tr>
     <tr>
       <th>23</th>
       <td>DECLARES_DEV_DEPENDENCY</td>
       <td>169</td>
-      <td>0.050155</td>
+      <td>0.050151</td>
     </tr>
     <tr>
       <th>24</th>
       <td>DECLARES_DEPENDENCY</td>
       <td>161</td>
-      <td>0.047781</td>
+      <td>0.047777</td>
     </tr>
     <tr>
       <th>25</th>
       <td>COPIES</td>
       <td>138</td>
-      <td>0.040955</td>
+      <td>0.040951</td>
     </tr>
     <tr>
       <th>26</th>
       <td>HAS_MEMBER</td>
       <td>104</td>
-      <td>0.030865</td>
+      <td>0.030862</td>
     </tr>
     <tr>
       <th>27</th>
       <td>HAS_TYPE_ARGUMENT</td>
       <td>94</td>
-      <td>0.027897</td>
+      <td>0.027894</td>
     </tr>
     <tr>
       <th>28</th>
       <td>DECLARES_SCRIPT</td>
       <td>91</td>
-      <td>0.027007</td>
+      <td>0.027004</td>
     </tr>
     <tr>
       <th>29</th>
       <td>RETURNS</td>
       <td>82</td>
-      <td>0.024336</td>
+      <td>0.024333</td>
     </tr>
   </tbody>
 </table>
@@ -1002,61 +1002,61 @@ Lists the 30 relationships type with the lowest number of occurrences up to 0.5%
       <th>4</th>
       <td>PARENT</td>
       <td>6</td>
-      <td>0.001781</td>
+      <td>0.001780</td>
     </tr>
     <tr>
       <th>5</th>
       <td>MEMBER</td>
       <td>6</td>
-      <td>0.001781</td>
+      <td>0.001780</td>
     </tr>
     <tr>
       <th>6</th>
       <td>HAS_ROOT</td>
       <td>6</td>
-      <td>0.001781</td>
+      <td>0.001780</td>
     </tr>
     <tr>
       <th>7</th>
       <td>HAS_NPM_PACKAGE</td>
       <td>6</td>
-      <td>0.001781</td>
+      <td>0.001780</td>
     </tr>
     <tr>
       <th>8</th>
       <td>HAS_CONFIG</td>
       <td>6</td>
-      <td>0.001781</td>
+      <td>0.001780</td>
     </tr>
     <tr>
       <th>9</th>
       <td>HAS_ARGUMENT</td>
       <td>6</td>
-      <td>0.001781</td>
+      <td>0.001780</td>
     </tr>
     <tr>
       <th>10</th>
       <td>EXTENDS</td>
       <td>6</td>
-      <td>0.001781</td>
+      <td>0.001780</td>
     </tr>
     <tr>
       <th>11</th>
       <td>DECLARES_ENGINE</td>
       <td>6</td>
-      <td>0.001781</td>
+      <td>0.001780</td>
     </tr>
     <tr>
       <th>12</th>
       <td>CONTAINS_PROJECT</td>
       <td>6</td>
-      <td>0.001781</td>
+      <td>0.001780</td>
     </tr>
     <tr>
       <th>13</th>
       <td>CALLS</td>
       <td>6</td>
-      <td>0.001781</td>
+      <td>0.001780</td>
     </tr>
     <tr>
       <th>14</th>
@@ -1068,91 +1068,91 @@ Lists the 30 relationships type with the lowest number of occurrences up to 0.5%
       <th>15</th>
       <td>USES</td>
       <td>11</td>
-      <td>0.003265</td>
+      <td>0.003264</td>
     </tr>
     <tr>
       <th>16</th>
       <td>INCLUDES_CONCEPT</td>
       <td>19</td>
-      <td>0.005639</td>
+      <td>0.005638</td>
     </tr>
     <tr>
       <th>17</th>
       <td>REQUIRES_CONCEPT</td>
       <td>28</td>
-      <td>0.008310</td>
+      <td>0.008309</td>
     </tr>
     <tr>
       <th>18</th>
       <td>INITIALIZED_WITH</td>
       <td>32</td>
-      <td>0.009497</td>
+      <td>0.009496</td>
     </tr>
     <tr>
       <th>19</th>
       <td>IS_DESCRIBED_IN_NPM_PACKAGE</td>
       <td>33</td>
-      <td>0.009794</td>
+      <td>0.009793</td>
     </tr>
     <tr>
       <th>20</th>
       <td>RESOLVES_TO</td>
       <td>41</td>
-      <td>0.012168</td>
+      <td>0.012167</td>
     </tr>
     <tr>
       <th>21</th>
       <td>HAS_BRANCH</td>
-      <td>45</td>
-      <td>0.013355</td>
+      <td>46</td>
+      <td>0.013650</td>
     </tr>
     <tr>
       <th>22</th>
       <td>HAS_HEAD</td>
-      <td>46</td>
-      <td>0.013652</td>
+      <td>47</td>
+      <td>0.013947</td>
     </tr>
     <tr>
       <th>23</th>
       <td>CONTAINS_VALUE</td>
       <td>51</td>
-      <td>0.015136</td>
+      <td>0.015134</td>
     </tr>
     <tr>
       <th>24</th>
       <td>COPY_OF</td>
       <td>69</td>
-      <td>0.020478</td>
+      <td>0.020476</td>
     </tr>
     <tr>
       <th>25</th>
       <td>HAS_PARAMETER</td>
       <td>73</td>
-      <td>0.021665</td>
+      <td>0.021663</td>
     </tr>
     <tr>
       <th>26</th>
       <td>RETURNS</td>
       <td>82</td>
-      <td>0.024336</td>
+      <td>0.024333</td>
     </tr>
     <tr>
       <th>27</th>
       <td>DECLARES_SCRIPT</td>
       <td>91</td>
-      <td>0.027007</td>
+      <td>0.027004</td>
     </tr>
     <tr>
       <th>28</th>
       <td>HAS_TYPE_ARGUMENT</td>
       <td>94</td>
-      <td>0.027897</td>
+      <td>0.027894</td>
     </tr>
     <tr>
       <th>29</th>
       <td>HAS_MEMBER</td>
       <td>104</td>
-      <td>0.030865</td>
+      <td>0.030862</td>
     </tr>
   </tbody>
 </table>
@@ -1203,79 +1203,79 @@ Lists the 30 node labels and their relationship types with the highest number of
       <td>[Git, Update, Change]</td>
       <td>MODIFIES</td>
       <td>[File, Git]</td>
-      <td>58980</td>
-      <td>58980</td>
-      <td>5920</td>
-      <td>0.016892</td>
+      <td>58987</td>
+      <td>58987</td>
+      <td>5921</td>
+      <td>0.016889</td>
     </tr>
     <tr>
       <th>1</th>
       <td>[Git, Update, Change]</td>
       <td>UPDATES</td>
       <td>[File, Git]</td>
-      <td>58980</td>
-      <td>58980</td>
-      <td>5920</td>
-      <td>0.016892</td>
+      <td>58987</td>
+      <td>58987</td>
+      <td>5921</td>
+      <td>0.016889</td>
     </tr>
     <tr>
       <th>2</th>
       <td>[Git, Commit]</td>
       <td>CONTAINS_CHANGE</td>
       <td>[Git, Update, Change]</td>
-      <td>58980</td>
-      <td>11315</td>
-      <td>58980</td>
-      <td>0.008838</td>
+      <td>58987</td>
+      <td>11316</td>
+      <td>58987</td>
+      <td>0.008837</td>
     </tr>
     <tr>
       <th>3</th>
       <td>[Git, Change, Create]</td>
       <td>MODIFIES</td>
       <td>[File, Git]</td>
-      <td>17328</td>
-      <td>17328</td>
-      <td>5920</td>
-      <td>0.016892</td>
+      <td>17329</td>
+      <td>17329</td>
+      <td>5921</td>
+      <td>0.016889</td>
     </tr>
     <tr>
       <th>4</th>
       <td>[Git, Change, Create]</td>
       <td>CREATES</td>
       <td>[File, Git]</td>
-      <td>17328</td>
-      <td>17328</td>
-      <td>5920</td>
-      <td>0.016892</td>
+      <td>17329</td>
+      <td>17329</td>
+      <td>5921</td>
+      <td>0.016889</td>
     </tr>
     <tr>
       <th>5</th>
       <td>[Git, Commit]</td>
       <td>CONTAINS_CHANGE</td>
       <td>[Git, Change, Create]</td>
-      <td>17328</td>
-      <td>11315</td>
-      <td>17328</td>
-      <td>0.008838</td>
+      <td>17329</td>
+      <td>11316</td>
+      <td>17329</td>
+      <td>0.008837</td>
     </tr>
     <tr>
       <th>6</th>
       <td>[Git, Commit]</td>
       <td>HAS_PARENT</td>
       <td>[Git, Commit]</td>
-      <td>12401</td>
-      <td>11315</td>
-      <td>11315</td>
-      <td>0.009686</td>
+      <td>12402</td>
+      <td>11316</td>
+      <td>11316</td>
+      <td>0.009685</td>
     </tr>
     <tr>
       <th>7</th>
       <td>[Repository, File, Git]</td>
       <td>HAS_COMMIT</td>
       <td>[Git, Commit]</td>
-      <td>11315</td>
+      <td>11316</td>
       <td>1</td>
-      <td>11315</td>
+      <td>11316</td>
       <td>100.000000</td>
     </tr>
     <tr>
@@ -1283,9 +1283,9 @@ Lists the 30 node labels and their relationship types with the highest number of
       <td>[Author, Git, Person]</td>
       <td>COMMITTED</td>
       <td>[Git, Commit]</td>
-      <td>11315</td>
+      <td>11316</td>
       <td>1268</td>
-      <td>11315</td>
+      <td>11316</td>
       <td>0.078864</td>
     </tr>
     <tr>
@@ -1293,9 +1293,9 @@ Lists the 30 node labels and their relationship types with the highest number of
       <td>[Committer, Git, Person]</td>
       <td>COMMITTED</td>
       <td>[Git, Commit]</td>
-      <td>11315</td>
+      <td>11316</td>
       <td>370</td>
-      <td>11315</td>
+      <td>11316</td>
       <td>0.270270</td>
     </tr>
     <tr>
@@ -1304,9 +1304,9 @@ Lists the 30 node labels and their relationship types with the highest number of
       <td>CONTAINS_CHANGE</td>
       <td>[Git, Change, Delete]</td>
       <td>8787</td>
-      <td>11315</td>
+      <td>11316</td>
       <td>8787</td>
-      <td>0.008838</td>
+      <td>0.008837</td>
     </tr>
     <tr>
       <th>11</th>
@@ -1315,8 +1315,8 @@ Lists the 30 node labels and their relationship types with the highest number of
       <td>[File, Git]</td>
       <td>8787</td>
       <td>8787</td>
-      <td>5920</td>
-      <td>0.016892</td>
+      <td>5921</td>
+      <td>0.016889</td>
     </tr>
     <tr>
       <th>12</th>
@@ -1325,17 +1325,17 @@ Lists the 30 node labels and their relationship types with the highest number of
       <td>[File, Git]</td>
       <td>8787</td>
       <td>8787</td>
-      <td>5920</td>
-      <td>0.016892</td>
+      <td>5921</td>
+      <td>0.016889</td>
     </tr>
     <tr>
       <th>13</th>
       <td>[Repository, File, Git]</td>
       <td>HAS_FILE</td>
       <td>[File, Git]</td>
-      <td>5920</td>
+      <td>5921</td>
       <td>1</td>
-      <td>5920</td>
+      <td>5921</td>
       <td>100.000000</td>
     </tr>
     <tr>
@@ -1344,39 +1344,39 @@ Lists the 30 node labels and their relationship types with the highest number of
       <td>CONTAINS_CHANGE</td>
       <td>[Git, Change, Rename]</td>
       <td>3354</td>
-      <td>11315</td>
+      <td>11316</td>
       <td>3354</td>
-      <td>0.008838</td>
+      <td>0.008837</td>
     </tr>
     <tr>
       <th>15</th>
-      <td>[Git, Change, Rename]</td>
-      <td>RENAMES</td>
-      <td>[File, Git]</td>
-      <td>3354</td>
-      <td>3354</td>
-      <td>5920</td>
-      <td>0.016892</td>
-    </tr>
-    <tr>
-      <th>16</th>
-      <td>[Git, Change, Rename]</td>
-      <td>MODIFIES</td>
-      <td>[File, Git]</td>
-      <td>3354</td>
-      <td>3354</td>
-      <td>5920</td>
-      <td>0.016892</td>
-    </tr>
-    <tr>
-      <th>17</th>
       <td>[Git, Change, Rename]</td>
       <td>DELETES</td>
       <td>[File, Git]</td>
       <td>3354</td>
       <td>3354</td>
-      <td>5920</td>
-      <td>0.016892</td>
+      <td>5921</td>
+      <td>0.016889</td>
+    </tr>
+    <tr>
+      <th>16</th>
+      <td>[Git, Change, Rename]</td>
+      <td>RENAMES</td>
+      <td>[File, Git]</td>
+      <td>3354</td>
+      <td>3354</td>
+      <td>5921</td>
+      <td>0.016889</td>
+    </tr>
+    <tr>
+      <th>17</th>
+      <td>[Git, Change, Rename]</td>
+      <td>MODIFIES</td>
+      <td>[File, Git]</td>
+      <td>3354</td>
+      <td>3354</td>
+      <td>5921</td>
+      <td>0.016889</td>
     </tr>
     <tr>
       <th>18</th>
@@ -1385,8 +1385,8 @@ Lists the 30 node labels and their relationship types with the highest number of
       <td>[File, Git]</td>
       <td>3354</td>
       <td>3354</td>
-      <td>5920</td>
-      <td>0.016892</td>
+      <td>5921</td>
+      <td>0.016889</td>
     </tr>
     <tr>
       <th>19</th>
@@ -1405,8 +1405,8 @@ Lists the 30 node labels and their relationship types with the highest number of
       <td>[Git, Commit]</td>
       <td>1795</td>
       <td>1795</td>
-      <td>11315</td>
-      <td>0.008838</td>
+      <td>11316</td>
+      <td>0.008837</td>
     </tr>
     <tr>
       <th>21</th>
@@ -1414,9 +1414,9 @@ Lists the 30 node labels and their relationship types with the highest number of
       <td>HAS_NEW_NAME</td>
       <td>[File, Git]</td>
       <td>1770</td>
-      <td>5920</td>
-      <td>5920</td>
-      <td>0.005050</td>
+      <td>5921</td>
+      <td>5921</td>
+      <td>0.005049</td>
     </tr>
     <tr>
       <th>22</th>
@@ -1506,8 +1506,8 @@ Lists the 30 node labels and their relationship types with the highest number of
 
 ## Graph Density
 
-    total_number_of_nodes (vertices): 112858
-    total_number_of_relationships (edges): 336953
-    -> total directed graph density: 2.645504326668455e-05
-    -> total directed graph density in percent: 0.0026455043266684552
+    total_number_of_nodes (vertices): 112869
+    total_number_of_relationships (edges): 336984
+    -> total directed graph density: 2.6452320392844444e-05
+    -> total directed graph density in percent: 0.0026452320392844446
 
