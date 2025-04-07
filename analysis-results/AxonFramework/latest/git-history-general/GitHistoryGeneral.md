@@ -47,75 +47,75 @@
   <tbody>
     <tr>
       <th>count</th>
-      <td>291.000000</td>
-      <td>291.000000</td>
-      <td>291.000000</td>
-      <td>291.000000</td>
-      <td>291.000000</td>
-      <td>291.000000</td>
+      <td>305.000000</td>
+      <td>305.000000</td>
+      <td>305.000000</td>
+      <td>305.000000</td>
+      <td>305.000000</td>
+      <td>305.000000</td>
     </tr>
     <tr>
       <th>mean</th>
-      <td>13.240550</td>
-      <td>7.728522</td>
-      <td>343.522337</td>
-      <td>422.237113</td>
-      <td>673.374570</td>
-      <td>601.494845</td>
+      <td>14.062295</td>
+      <td>7.636066</td>
+      <td>348.750820</td>
+      <td>412.901639</td>
+      <td>651.790164</td>
+      <td>583.085246</td>
     </tr>
     <tr>
       <th>std</th>
-      <td>53.778125</td>
-      <td>7.038209</td>
-      <td>1446.295449</td>
-      <td>1068.709845</td>
-      <td>1241.255683</td>
-      <td>1252.419219</td>
+      <td>57.455641</td>
+      <td>7.093502</td>
+      <td>1465.259193</td>
+      <td>1048.994357</td>
+      <td>1222.531267</td>
+      <td>1231.770321</td>
     </tr>
     <tr>
       <th>min</th>
       <td>1.000000</td>
       <td>2.000000</td>
       <td>2.000000</td>
-      <td>3.000000</td>
-      <td>2.000000</td>
-      <td>2.000000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
     </tr>
     <tr>
       <th>25%</th>
       <td>1.000000</td>
       <td>3.000000</td>
       <td>24.000000</td>
-      <td>4.000000</td>
-      <td>71.000000</td>
+      <td>18.000000</td>
+      <td>55.000000</td>
       <td>17.000000</td>
     </tr>
     <tr>
       <th>50%</th>
-      <td>3.000000</td>
-      <td>7.000000</td>
-      <td>74.000000</td>
-      <td>66.000000</td>
-      <td>267.000000</td>
-      <td>114.000000</td>
+      <td>4.000000</td>
+      <td>6.000000</td>
+      <td>75.000000</td>
+      <td>42.000000</td>
+      <td>262.000000</td>
+      <td>104.000000</td>
     </tr>
     <tr>
       <th>75%</th>
       <td>8.000000</td>
       <td>8.000000</td>
-      <td>181.000000</td>
-      <td>236.000000</td>
-      <td>369.000000</td>
-      <td>277.000000</td>
+      <td>187.000000</td>
+      <td>250.000000</td>
+      <td>347.000000</td>
+      <td>292.000000</td>
     </tr>
     <tr>
       <th>max</th>
-      <td>828.000000</td>
-      <td>70.000000</td>
-      <td>21397.000000</td>
-      <td>4777.000000</td>
-      <td>4864.000000</td>
-      <td>4776.000000</td>
+      <td>904.000000</td>
+      <td>71.000000</td>
+      <td>22225.000000</td>
+      <td>4791.000000</td>
+      <td>4879.000000</td>
+      <td>4790.000000</td>
     </tr>
   </tbody>
 </table>
@@ -163,9 +163,9 @@
       <td>Steven van Beelen</td>
       <td>Allard Buijze</td>
       <td>9</td>
-      <td>28</td>
-      <td>73</td>
-      <td>73</td>
+      <td>42</td>
+      <td>87</td>
+      <td>87</td>
       <td>2025-02-24</td>
       <td>2025-01-09</td>
       <td>2025-01-09</td>
@@ -179,16 +179,16 @@
       <td>1</td>
       <td>AxonFramework-4.11.1/.idea/inspectionProfiles/Project_Default.xml</td>
       <td>xml</td>
-      <td>2</td>
+      <td>3</td>
       <td>Steven van Beelen</td>
       <td>Allard Buijze</td>
-      <td>9</td>
-      <td>28</td>
-      <td>73</td>
-      <td>73</td>
-      <td>2025-02-24</td>
+      <td>13</td>
+      <td>3</td>
+      <td>87</td>
+      <td>2</td>
+      <td>2025-04-04</td>
       <td>2025-01-09</td>
-      <td>2025-01-09</td>
+      <td>2025-04-04</td>
       <td>fe926a4970bdf1e538e8e7fb8d147ffdc676e713</td>
     </tr>
     <tr>
@@ -203,9 +203,9 @@
       <td>Steven van Beelen</td>
       <td>Mitchell Herrijgers</td>
       <td>13</td>
-      <td>28</td>
-      <td>513</td>
-      <td>513</td>
+      <td>42</td>
+      <td>527</td>
+      <td>527</td>
       <td>2025-02-24</td>
       <td>2023-10-27</td>
       <td>2023-10-27</td>
@@ -219,16 +219,16 @@
       <td>1</td>
       <td>AxonFramework-4.11.1/axon-server-connector/src/main/java/org/axonframework/axonserver/connector/command/AxonServerConnector.java</td>
       <td>java</td>
-      <td>3</td>
+      <td>4</td>
       <td>Steven van Beelen</td>
       <td>Allard Buijze</td>
-      <td>41</td>
-      <td>28</td>
-      <td>369</td>
-      <td>46</td>
-      <td>2025-02-24</td>
+      <td>43</td>
+      <td>0</td>
+      <td>383</td>
+      <td>0</td>
+      <td>2025-04-07</td>
       <td>2024-03-19</td>
-      <td>2025-02-05</td>
+      <td>2025-04-07</td>
       <td>fcedac961db62285c0c224c507284ef1746d5f35</td>
     </tr>
     <tr>
@@ -243,9 +243,9 @@
       <td>Allard Buijze</td>
       <td>Rene de Waele</td>
       <td>2</td>
-      <td>3455</td>
-      <td>3477</td>
-      <td>3454</td>
+      <td>3469</td>
+      <td>3491</td>
+      <td>3468</td>
       <td>2015-10-08</td>
       <td>2015-09-15</td>
       <td>2015-10-08</td>
@@ -263,9 +263,9 @@
       <td>Sebastian Ganslandt</td>
       <td>lburgazzoli</td>
       <td>2</td>
-      <td>4220</td>
-      <td>4314</td>
-      <td>4314</td>
+      <td>4234</td>
+      <td>4328</td>
+      <td>4328</td>
       <td>2013-09-03</td>
       <td>2013-05-31</td>
       <td>2013-05-31</td>
@@ -283,9 +283,9 @@
       <td>Allard Buijze</td>
       <td>smcvb</td>
       <td>121</td>
-      <td>237</td>
-      <td>4659</td>
-      <td>4659</td>
+      <td>251</td>
+      <td>4673</td>
+      <td>4673</td>
       <td>2024-07-30</td>
       <td>2012-06-20</td>
       <td>2012-06-20</td>
@@ -303,9 +303,9 @@
       <td>Steven van Beelen</td>
       <td>Allard Buijze</td>
       <td>13</td>
-      <td>236</td>
-      <td>289</td>
-      <td>289</td>
+      <td>250</td>
+      <td>303</td>
+      <td>303</td>
       <td>2024-07-31</td>
       <td>2024-06-07</td>
       <td>2024-06-07</td>
@@ -323,9 +323,9 @@
       <td>Steven van Beelen</td>
       <td>Milen Dyankov</td>
       <td>22</td>
-      <td>236</td>
-      <td>277</td>
-      <td>277</td>
+      <td>250</td>
+      <td>292</td>
+      <td>292</td>
       <td>2024-07-31</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -343,9 +343,9 @@
       <td>Steven van Beelen</td>
       <td>Milen Dyankov</td>
       <td>22</td>
-      <td>236</td>
-      <td>277</td>
-      <td>277</td>
+      <td>250</td>
+      <td>292</td>
+      <td>292</td>
       <td>2024-07-31</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -363,9 +363,9 @@
       <td>Steven van Beelen</td>
       <td>Milen Dyankov</td>
       <td>23</td>
-      <td>236</td>
-      <td>277</td>
-      <td>277</td>
+      <td>250</td>
+      <td>292</td>
+      <td>292</td>
       <td>2024-07-31</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -383,9 +383,9 @@
       <td>Steven van Beelen</td>
       <td>Milen Dyankov</td>
       <td>22</td>
-      <td>236</td>
-      <td>277</td>
-      <td>277</td>
+      <td>250</td>
+      <td>292</td>
+      <td>292</td>
       <td>2024-07-31</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -403,9 +403,9 @@
       <td>Steven van Beelen</td>
       <td>Milen Dyankov</td>
       <td>23</td>
-      <td>236</td>
-      <td>277</td>
-      <td>277</td>
+      <td>250</td>
+      <td>292</td>
+      <td>292</td>
       <td>2024-07-31</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -423,9 +423,9 @@
       <td>Steven van Beelen</td>
       <td>Milen Dyankov</td>
       <td>22</td>
-      <td>236</td>
-      <td>277</td>
-      <td>277</td>
+      <td>250</td>
+      <td>292</td>
+      <td>292</td>
       <td>2024-07-31</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -443,9 +443,9 @@
       <td>Steven van Beelen</td>
       <td>Milen Dyankov</td>
       <td>23</td>
-      <td>236</td>
-      <td>277</td>
-      <td>277</td>
+      <td>250</td>
+      <td>292</td>
+      <td>292</td>
       <td>2024-07-31</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -463,9 +463,9 @@
       <td>Steven van Beelen</td>
       <td>Milen Dyankov</td>
       <td>22</td>
-      <td>236</td>
-      <td>277</td>
-      <td>277</td>
+      <td>250</td>
+      <td>292</td>
+      <td>292</td>
       <td>2024-07-31</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -483,9 +483,9 @@
       <td>Steven van Beelen</td>
       <td>Milen Dyankov</td>
       <td>24</td>
-      <td>236</td>
-      <td>277</td>
-      <td>277</td>
+      <td>250</td>
+      <td>292</td>
+      <td>292</td>
       <td>2024-07-31</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -503,9 +503,9 @@
       <td>Steven van Beelen</td>
       <td>Milen Dyankov</td>
       <td>22</td>
-      <td>236</td>
-      <td>277</td>
-      <td>277</td>
+      <td>250</td>
+      <td>292</td>
+      <td>292</td>
       <td>2024-07-31</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -523,9 +523,9 @@
       <td>Steven van Beelen</td>
       <td>Milen Dyankov</td>
       <td>23</td>
-      <td>236</td>
-      <td>277</td>
-      <td>277</td>
+      <td>250</td>
+      <td>292</td>
+      <td>292</td>
       <td>2024-07-31</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -543,9 +543,9 @@
       <td>Steven van Beelen</td>
       <td>Milen Dyankov</td>
       <td>22</td>
-      <td>236</td>
-      <td>277</td>
-      <td>277</td>
+      <td>250</td>
+      <td>292</td>
+      <td>292</td>
       <td>2024-07-31</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -563,9 +563,9 @@
       <td>Steven van Beelen</td>
       <td>Milen Dyankov</td>
       <td>23</td>
-      <td>236</td>
-      <td>277</td>
-      <td>277</td>
+      <td>250</td>
+      <td>292</td>
+      <td>292</td>
       <td>2024-07-31</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -583,9 +583,9 @@
       <td>Steven van Beelen</td>
       <td>Milen Dyankov</td>
       <td>22</td>
-      <td>236</td>
-      <td>277</td>
-      <td>277</td>
+      <td>250</td>
+      <td>292</td>
+      <td>292</td>
       <td>2024-07-31</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -603,9 +603,9 @@
       <td>Steven van Beelen</td>
       <td>Milen Dyankov</td>
       <td>23</td>
-      <td>236</td>
-      <td>277</td>
-      <td>277</td>
+      <td>250</td>
+      <td>292</td>
+      <td>292</td>
       <td>2024-07-31</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -623,9 +623,9 @@
       <td>Steven van Beelen</td>
       <td>Milen Dyankov</td>
       <td>22</td>
-      <td>236</td>
-      <td>277</td>
-      <td>277</td>
+      <td>250</td>
+      <td>292</td>
+      <td>292</td>
       <td>2024-07-31</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -643,9 +643,9 @@
       <td>Steven van Beelen</td>
       <td>Milen Dyankov</td>
       <td>22</td>
-      <td>236</td>
-      <td>277</td>
-      <td>277</td>
+      <td>250</td>
+      <td>292</td>
+      <td>292</td>
       <td>2024-07-31</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -663,9 +663,9 @@
       <td>Steven van Beelen</td>
       <td>Milen Dyankov</td>
       <td>23</td>
-      <td>236</td>
-      <td>277</td>
-      <td>277</td>
+      <td>250</td>
+      <td>292</td>
+      <td>292</td>
       <td>2024-07-31</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -683,9 +683,9 @@
       <td>Steven van Beelen</td>
       <td>Milen Dyankov</td>
       <td>22</td>
-      <td>236</td>
-      <td>277</td>
-      <td>277</td>
+      <td>250</td>
+      <td>292</td>
+      <td>292</td>
       <td>2024-07-31</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -703,9 +703,9 @@
       <td>Steven van Beelen</td>
       <td>Milen Dyankov</td>
       <td>24</td>
-      <td>236</td>
-      <td>277</td>
-      <td>277</td>
+      <td>250</td>
+      <td>292</td>
+      <td>292</td>
       <td>2024-07-31</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -723,9 +723,9 @@
       <td>Steven van Beelen</td>
       <td>Milen Dyankov</td>
       <td>22</td>
-      <td>236</td>
-      <td>277</td>
-      <td>277</td>
+      <td>250</td>
+      <td>292</td>
+      <td>292</td>
       <td>2024-07-31</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -743,9 +743,9 @@
       <td>Steven van Beelen</td>
       <td>Milen Dyankov</td>
       <td>23</td>
-      <td>236</td>
-      <td>277</td>
-      <td>277</td>
+      <td>250</td>
+      <td>292</td>
+      <td>292</td>
       <td>2024-07-31</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -861,7 +861,7 @@ The data preview also includes overall statistics including the number of commit
 
 ### Preview data
 
-    Sum of commits that changed more than 30 files (each) = 1168
+    Sum of commits that changed more than 30 files (each) = 1181
     Max changed files with one commit = 4041
 
 
@@ -884,12 +884,12 @@ The data preview also includes overall statistics including the number of commit
     <tr>
       <th>mean</th>
       <td>398.572944</td>
-      <td>35.114058</td>
+      <td>35.607427</td>
     </tr>
     <tr>
       <th>std</th>
       <td>559.546155</td>
-      <td>298.774056</td>
+      <td>302.200493</td>
     </tr>
     <tr>
       <th>min</th>
@@ -914,7 +914,7 @@ The data preview also includes overall statistics including the number of commit
     <tr>
       <th>max</th>
       <td>4041.000000</td>
-      <td>5198.000000</td>
+      <td>5249.000000</td>
     </tr>
   </tbody>
 </table>
@@ -935,52 +935,52 @@ The data preview also includes overall statistics including the number of commit
     <tr>
       <th>0</th>
       <td>1</td>
-      <td>5198</td>
+      <td>5249</td>
     </tr>
     <tr>
       <th>1</th>
       <td>2</td>
-      <td>2216</td>
+      <td>2251</td>
     </tr>
     <tr>
       <th>2</th>
       <td>3</td>
-      <td>1033</td>
+      <td>1059</td>
     </tr>
     <tr>
       <th>3</th>
       <td>4</td>
-      <td>648</td>
+      <td>664</td>
     </tr>
     <tr>
       <th>4</th>
       <td>5</td>
-      <td>435</td>
+      <td>449</td>
     </tr>
     <tr>
       <th>5</th>
       <td>6</td>
-      <td>327</td>
+      <td>329</td>
     </tr>
     <tr>
       <th>6</th>
       <td>7</td>
-      <td>261</td>
+      <td>267</td>
     </tr>
     <tr>
       <th>7</th>
       <td>8</td>
-      <td>214</td>
+      <td>218</td>
     </tr>
     <tr>
       <th>8</th>
       <td>9</td>
-      <td>160</td>
+      <td>163</td>
     </tr>
     <tr>
       <th>9</th>
       <td>10</td>
-      <td>145</td>
+      <td>147</td>
     </tr>
     <tr>
       <th>10</th>
@@ -995,32 +995,32 @@ The data preview also includes overall statistics including the number of commit
     <tr>
       <th>12</th>
       <td>13</td>
-      <td>124</td>
+      <td>127</td>
     </tr>
     <tr>
       <th>13</th>
       <td>14</td>
-      <td>168</td>
+      <td>170</td>
     </tr>
     <tr>
       <th>14</th>
       <td>15</td>
-      <td>188</td>
+      <td>189</td>
     </tr>
     <tr>
       <th>15</th>
       <td>16</td>
-      <td>77</td>
+      <td>78</td>
     </tr>
     <tr>
       <th>16</th>
       <td>17</td>
-      <td>70</td>
+      <td>71</td>
     </tr>
     <tr>
       <th>17</th>
       <td>18</td>
-      <td>60</td>
+      <td>61</td>
     </tr>
     <tr>
       <th>18</th>
@@ -1045,17 +1045,17 @@ The data preview also includes overall statistics including the number of commit
     <tr>
       <th>22</th>
       <td>23</td>
-      <td>33</td>
+      <td>34</td>
     </tr>
     <tr>
       <th>23</th>
       <td>24</td>
-      <td>36</td>
+      <td>38</td>
     </tr>
     <tr>
       <th>24</th>
       <td>25</td>
-      <td>42</td>
+      <td>43</td>
     </tr>
     <tr>
       <th>25</th>
@@ -1065,12 +1065,12 @@ The data preview also includes overall statistics including the number of commit
     <tr>
       <th>26</th>
       <td>27</td>
-      <td>35</td>
+      <td>34</td>
     </tr>
     <tr>
       <th>27</th>
       <td>28</td>
-      <td>29</td>
+      <td>30</td>
     </tr>
     <tr>
       <th>28</th>
@@ -1080,7 +1080,7 @@ The data preview also includes overall statistics including the number of commit
     <tr>
       <th>29</th>
       <td>30</td>
-      <td>23</td>
+      <td>24</td>
     </tr>
   </tbody>
 </table>
@@ -1113,12 +1113,12 @@ The data preview also includes overall statistics including the number of commit
     <tr>
       <th>0</th>
       <td>Steven van Beelen</td>
-      <td>4305</td>
+      <td>4357</td>
     </tr>
     <tr>
       <th>1</th>
       <td>Allard Buijze</td>
-      <td>3148</td>
+      <td>3156</td>
     </tr>
     <tr>
       <th>2</th>
@@ -1127,18 +1127,18 @@ The data preview also includes overall statistics including the number of commit
     </tr>
     <tr>
       <th>3</th>
+      <td>Mateusz Nowak</td>
+      <td>506</td>
+    </tr>
+    <tr>
+      <th>4</th>
       <td>Milan Savic</td>
       <td>449</td>
     </tr>
     <tr>
-      <th>4</th>
-      <td>Mateusz Nowak</td>
-      <td>412</td>
-    </tr>
-    <tr>
       <th>5</th>
       <td>Mitchell Herrijgers</td>
-      <td>408</td>
+      <td>438</td>
     </tr>
     <tr>
       <th>6</th>
