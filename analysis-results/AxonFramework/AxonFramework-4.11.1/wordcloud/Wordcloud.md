@@ -31,39 +31,39 @@
     </tr>
     <tr>
       <th>1</th>
-      <td>axon</td>
+      <td>npm</td>
     </tr>
     <tr>
       <th>2</th>
-      <td>configuration</td>
+      <td>package</td>
     </tr>
     <tr>
       <th>3</th>
-      <td>maven</td>
+      <td>json</td>
     </tr>
     <tr>
       <th>4</th>
-      <td>org</td>
-    </tr>
-    <tr>
-      <th>5</th>
-      <td>axonframework</td>
-    </tr>
-    <tr>
-      <th>6</th>
       <td>axon</td>
     </tr>
     <tr>
+      <th>5</th>
+      <td>framework</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>docs</td>
+    </tr>
+    <tr>
       <th>7</th>
-      <td>configuration</td>
+      <td>playbook</td>
     </tr>
     <tr>
       <th>8</th>
-      <td>main</td>
+      <td>package</td>
     </tr>
     <tr>
       <th>9</th>
-      <td>manifest</td>
+      <td>antora</td>
     </tr>
   </tbody>
 </table>
@@ -97,53 +97,53 @@
   <tbody>
     <tr>
       <th>0</th>
-      <td>Mateusz Nowak</td>
-      <td>506</td>
+      <td>Mitchell Herrijgers</td>
+      <td>457</td>
     </tr>
     <tr>
       <th>1</th>
       <td>Steven van Beelen</td>
-      <td>4357</td>
+      <td>4365</td>
     </tr>
     <tr>
       <th>2</th>
+      <td>Mateusz Nowak</td>
+      <td>151</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>Corrado Musumeci</td>
+      <td>13</td>
+    </tr>
+    <tr>
+      <th>4</th>
       <td>Allard Buijze</td>
       <td>3156</td>
     </tr>
     <tr>
-      <th>3</th>
-      <td>Mitchell Herrijgers</td>
-      <td>438</td>
-    </tr>
-    <tr>
-      <th>4</th>
+      <th>5</th>
       <td>rsobies</td>
       <td>17</td>
     </tr>
     <tr>
-      <th>5</th>
+      <th>6</th>
       <td>Simon Zambrovski</td>
       <td>54</td>
     </tr>
     <tr>
-      <th>6</th>
+      <th>7</th>
       <td>Marc</td>
       <td>26</td>
     </tr>
     <tr>
-      <th>7</th>
+      <th>8</th>
       <td>Jan Galinski</td>
       <td>12</td>
     </tr>
     <tr>
-      <th>8</th>
+      <th>9</th>
       <td>Christian Thiel</td>
       <td>3</td>
-    </tr>
-    <tr>
-      <th>9</th>
-      <td>Lucas Campos</td>
-      <td>61</td>
     </tr>
   </tbody>
 </table>
