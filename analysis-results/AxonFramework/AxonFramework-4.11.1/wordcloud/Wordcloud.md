@@ -71,7 +71,7 @@
 
 
 
-    There are 42441 words in the dataset for the plot titled 'Wordcloud of names in code'.
+    There are 42413 words in the dataset for the plot titled 'Wordcloud of names in code'.
 
 
 
@@ -97,53 +97,53 @@
   <tbody>
     <tr>
       <th>0</th>
-      <td>Steven van Beelen</td>
-      <td>4475</td>
+      <td>Mateusz Nowak</td>
+      <td>10</td>
     </tr>
     <tr>
       <th>1</th>
-      <td>Mateusz Nowak</td>
-      <td>91</td>
+      <td>Allard Buijze</td>
+      <td>2721</td>
     </tr>
     <tr>
       <th>2</th>
-      <td>Mitchell Herrijgers</td>
-      <td>476</td>
+      <td>Steven van Beelen</td>
+      <td>3360</td>
     </tr>
     <tr>
       <th>3</th>
-      <td>Corrado Musumeci</td>
-      <td>13</td>
+      <td>Mitchell Herrijgers</td>
+      <td>309</td>
     </tr>
     <tr>
       <th>4</th>
-      <td>Allard Buijze</td>
-      <td>3156</td>
+      <td>Simon Zambrovski</td>
+      <td>52</td>
     </tr>
     <tr>
       <th>5</th>
-      <td>rsobies</td>
-      <td>17</td>
-    </tr>
-    <tr>
-      <th>6</th>
-      <td>Simon Zambrovski</td>
-      <td>54</td>
-    </tr>
-    <tr>
-      <th>7</th>
-      <td>Marc</td>
-      <td>26</td>
-    </tr>
-    <tr>
-      <th>8</th>
       <td>Jan Galinski</td>
       <td>12</td>
     </tr>
     <tr>
-      <th>9</th>
+      <th>6</th>
       <td>Christian Thiel</td>
       <td>3</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>Lucas Campos</td>
+      <td>61</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>Marc</td>
+      <td>25</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>Paul Kuyer</td>
+      <td>11</td>
     </tr>
   </tbody>
 </table>

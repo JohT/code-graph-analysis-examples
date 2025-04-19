@@ -44,75 +44,75 @@
   <tbody>
     <tr>
       <th>count</th>
-      <td>316.000000</td>
-      <td>316.000000</td>
-      <td>316.000000</td>
-      <td>316.000000</td>
-      <td>316.000000</td>
-      <td>316.000000</td>
+      <td>563.000000</td>
+      <td>563.000000</td>
+      <td>563.000000</td>
+      <td>563.000000</td>
+      <td>563.000000</td>
+      <td>563.000000</td>
     </tr>
     <tr>
       <th>mean</th>
-      <td>14.145570</td>
-      <td>8.588608</td>
-      <td>404.939873</td>
-      <td>396.218354</td>
-      <td>631.012658</td>
-      <td>563.319620</td>
+      <td>24.492007</td>
+      <td>19.502664</td>
+      <td>1596.113677</td>
+      <td>204.362345</td>
+      <td>1062.840142</td>
+      <td>298.296625</td>
     </tr>
     <tr>
       <th>std</th>
-      <td>58.449905</td>
-      <td>9.187382</td>
-      <td>1776.388585</td>
-      <td>1038.459317</td>
-      <td>1211.491247</td>
-      <td>1220.043575</td>
+      <td>117.928146</td>
+      <td>21.209040</td>
+      <td>7954.335528</td>
+      <td>127.121149</td>
+      <td>968.683356</td>
+      <td>367.528519</td>
     </tr>
     <tr>
       <th>min</th>
       <td>1.000000</td>
       <td>2.000000</td>
-      <td>2.000000</td>
-      <td>1.000000</td>
       <td>3.000000</td>
-      <td>1.000000</td>
+      <td>57.000000</td>
+      <td>64.000000</td>
+      <td>57.000000</td>
     </tr>
     <tr>
       <th>25%</th>
       <td>1.000000</td>
-      <td>3.000000</td>
-      <td>24.000000</td>
-      <td>3.000000</td>
-      <td>47.000000</td>
-      <td>3.000000</td>
+      <td>7.000000</td>
+      <td>50.500000</td>
+      <td>121.000000</td>
+      <td>304.000000</td>
+      <td>121.000000</td>
     </tr>
     <tr>
       <th>50%</th>
       <td>4.000000</td>
-      <td>7.000000</td>
-      <td>72.500000</td>
-      <td>4.000000</td>
-      <td>198.000000</td>
-      <td>117.000000</td>
+      <td>12.000000</td>
+      <td>141.000000</td>
+      <td>263.000000</td>
+      <td>823.000000</td>
+      <td>263.000000</td>
     </tr>
     <tr>
       <th>75%</th>
-      <td>9.000000</td>
-      <td>9.000000</td>
-      <td>189.750000</td>
-      <td>262.000000</td>
-      <td>316.000000</td>
-      <td>304.000000</td>
+      <td>10.000000</td>
+      <td>25.000000</td>
+      <td>595.500000</td>
+      <td>263.000000</td>
+      <td>1877.000000</td>
+      <td>263.000000</td>
     </tr>
     <tr>
       <th>max</th>
-      <td>936.000000</td>
-      <td>90.000000</td>
-      <td>27302.000000</td>
-      <td>4803.000000</td>
-      <td>4891.000000</td>
-      <td>4803.000000</td>
+      <td>2250.000000</td>
+      <td>212.000000</td>
+      <td>154891.000000</td>
+      <td>2413.000000</td>
+      <td>5541.000000</td>
+      <td>2892.000000</td>
     </tr>
   </tbody>
 </table>
@@ -150,146 +150,126 @@
   <tbody>
     <tr>
       <th>0</th>
-      <td>AxonFramework-4.11.1/.idea/copyright</td>
-      <td>AxonFramework-4.11.1/.idea</td>
-      <td>copyright</td>
+      <td>AxonFramework-4.11.1/assembly</td>
+      <td>AxonFramework-4.11.1</td>
+      <td>assembly</td>
       <td>1</td>
-      <td>AxonFramework-4.11.1/.idea/copyright/Axon_Framework_copyright_template.xml</td>
+      <td>AxonFramework-4.11.1/assembly/axon-full.xml</td>
       <td>xml</td>
-      <td>2</td>
-      <td>Steven van Beelen</td>
+      <td>6</td>
       <td>Allard Buijze</td>
-      <td>10</td>
-      <td>4</td>
-      <td>100</td>
-      <td>100</td>
-      <td>2025-04-15</td>
-      <td>2025-01-09</td>
-      <td>2025-01-09</td>
-      <td>fe926a4970bdf1e538e8e7fb8d147ffdc676e713</td>
+      <td>Steven van Beelen</td>
+      <td>47</td>
+      <td>263</td>
+      <td>5541</td>
+      <td>263</td>
+      <td>2024-07-30</td>
+      <td>2010-02-16</td>
+      <td>2024-07-30</td>
+      <td>fe95401de37055093f4e79fbe39a807a9d041240</td>
     </tr>
     <tr>
       <th>1</th>
-      <td>AxonFramework-4.11.1/.idea/inspectionProfiles</td>
-      <td>AxonFramework-4.11.1/.idea</td>
-      <td>inspectionProfiles</td>
+      <td>AxonFramework-4.11.1/axon-server-connector/src/main/java/org/axonframework/axonserver/connector/heartbeat/source</td>
+      <td>AxonFramework-4.11.1/axon-server-connector/src/main/java/org/axonframework/axonserver/connector/heartbeat</td>
+      <td>source</td>
       <td>1</td>
-      <td>AxonFramework-4.11.1/.idea/inspectionProfiles/Project_Default.xml</td>
-      <td>xml</td>
-      <td>3</td>
+      <td>AxonFramework-4.11.1/axon-server-connector/src/main/java/org/axonframework/axonserver/connector/heartbeat/source/GrpcHeartbeatSource.java</td>
+      <td>java</td>
+      <td>10</td>
       <td>Steven van Beelen</td>
-      <td>Allard Buijze</td>
-      <td>18</td>
-      <td>4</td>
-      <td>100</td>
-      <td>9</td>
-      <td>2025-04-15</td>
-      <td>2025-01-09</td>
-      <td>2025-04-10</td>
-      <td>fe926a4970bdf1e538e8e7fb8d147ffdc676e713</td>
+      <td>Sara Pellegrini</td>
+      <td>31</td>
+      <td>263</td>
+      <td>2012</td>
+      <td>263</td>
+      <td>2024-07-30</td>
+      <td>2019-10-16</td>
+      <td>2024-07-30</td>
+      <td>fe00b61e3d1268e540588c0b5e1921c535074072</td>
     </tr>
     <tr>
       <th>2</th>
-      <td>AxonFramework-4.11.1/axon-5-module-structure-suggestion/messaging-core/src/test/java/org/axonframework/messaging</td>
-      <td>AxonFramework-4.11.1/axon-5-module-structure-suggestion/messaging-core/src</td>
-      <td>test/java/org/axonframework/messaging</td>
+      <td>AxonFramework-4.11.1/axon-server-connector/src/main/resources/META-INF/services</td>
+      <td>AxonFramework-4.11.1/axon-server-connector/src/main/resources</td>
+      <td>META-INF/services</td>
       <td>1</td>
-      <td>AxonFramework-4.11.1/axon-5-module-structure-suggestion/messaging-core/src/test/java/org/axonframework/messaging/UnitOfWorkTest.java</td>
-      <td>java</td>
-      <td>2</td>
-      <td>Steven van Beelen</td>
-      <td>Mitchell Herrijgers</td>
-      <td>14</td>
-      <td>4</td>
-      <td>540</td>
-      <td>540</td>
-      <td>2025-04-15</td>
-      <td>2023-10-27</td>
-      <td>2023-10-27</td>
-      <td>ea5ee757f6536e2b4f6f5d0cac71a07b94c4c0c4</td>
+      <td>AxonFramework-4.11.1/axon-server-connector/src/main/resources/META-INF/services/org.axonframework.config.ConfigurerModule</td>
+      <td>ConfigurerModule</td>
+      <td>7</td>
+      <td>Allard Buijze</td>
+      <td>Marc Gathier</td>
+      <td>22</td>
+      <td>263</td>
+      <td>2381</td>
+      <td>2381</td>
+      <td>2024-07-30</td>
+      <td>2018-10-12</td>
+      <td>2018-10-12</td>
+      <td>f87aa13a6118aae79bd02cdc5a8406e126e5bdc1</td>
     </tr>
     <tr>
       <th>3</th>
-      <td>AxonFramework-4.11.1/axon-server-connector/src/main/java/org/axonframework/axonserver/connector/command</td>
-      <td>AxonFramework-4.11.1/axon-server-connector/src/main/java/org/axonframework/axonserver/connector</td>
-      <td>command</td>
+      <td>AxonFramework-4.11.1/axon-server-connector/src/test/java/org/axonframework/axonserver/connector/event/util</td>
+      <td>AxonFramework-4.11.1/axon-server-connector/src/test/java/org/axonframework/axonserver/connector/event</td>
+      <td>util</td>
       <td>1</td>
-      <td>AxonFramework-4.11.1/axon-server-connector/src/main/java/org/axonframework/axonserver/connector/command/AxonServerConnector.java</td>
+      <td>AxonFramework-4.11.1/axon-server-connector/src/test/java/org/axonframework/axonserver/connector/event/util/EventCipherTests.java</td>
       <td>java</td>
-      <td>3</td>
+      <td>11</td>
       <td>Steven van Beelen</td>
       <td>Allard Buijze</td>
-      <td>45</td>
-      <td>4</td>
-      <td>396</td>
-      <td>10</td>
-      <td>2025-04-15</td>
-      <td>2024-03-19</td>
-      <td>2025-04-09</td>
-      <td>fcedac961db62285c0c224c507284ef1746d5f35</td>
+      <td>69</td>
+      <td>263</td>
+      <td>2405</td>
+      <td>263</td>
+      <td>2024-07-30</td>
+      <td>2018-09-18</td>
+      <td>2024-07-30</td>
+      <td>fd487ec121971cebef59ef35ec2ae82f97190cb6</td>
     </tr>
     <tr>
       <th>4</th>
-      <td>AxonFramework-4.11.1/core/src/test/java/org/axonframework/commandhandling/disruptor</td>
-      <td>AxonFramework-4.11.1/core/src/test/java/org/axonframework</td>
-      <td>commandhandling/disruptor</td>
+      <td>AxonFramework-4.11.1/config/src/test/resources/META-INF</td>
+      <td>AxonFramework-4.11.1/config/src/test/resources</td>
+      <td>META-INF</td>
       <td>1</td>
-      <td>AxonFramework-4.11.1/core/src/test/java/org/axonframework/commandhandling/disruptor/EventPublisherTest.java</td>
-      <td>java</td>
-      <td>2</td>
-      <td>Allard Buijze</td>
-      <td>Rene de Waele</td>
-      <td>2</td>
-      <td>3481</td>
-      <td>3504</td>
-      <td>3481</td>
-      <td>2015-10-08</td>
-      <td>2015-09-15</td>
-      <td>2015-10-08</td>
-      <td>30d68fd229c59f5aa8f45848de82c91967eebcba</td>
+      <td>AxonFramework-4.11.1/config/src/test/resources/META-INF/persistence.xml</td>
+      <td>xml</td>
+      <td>5</td>
+      <td>Steven van Beelen</td>
+      <td>smcvb</td>
+      <td>34</td>
+      <td>263</td>
+      <td>2383</td>
+      <td>263</td>
+      <td>2024-07-30</td>
+      <td>2018-10-10</td>
+      <td>2024-07-30</td>
+      <td>f526be04f89262baf7e130a523770b405af51b2b</td>
     </tr>
     <tr>
       <th>5</th>
-      <td>AxonFramework-4.11.1/core/src/test/java/org/axonframework/contextsupport/spring</td>
-      <td>AxonFramework-4.11.1/core/src/test/java/org/axonframework</td>
-      <td>contextsupport/spring</td>
+      <td>AxonFramework-4.11.1/coverage-report</td>
+      <td>AxonFramework-4.11.1</td>
+      <td>coverage-report</td>
       <td>1</td>
-      <td>AxonFramework-4.11.1/core/src/test/java/org/axonframework/contextsupport/spring/WiringTest.java</td>
-      <td>java</td>
-      <td>2</td>
-      <td>Sebastian Ganslandt</td>
-      <td>lburgazzoli</td>
-      <td>2</td>
-      <td>4246</td>
-      <td>4341</td>
-      <td>4341</td>
-      <td>2013-09-03</td>
-      <td>2013-05-31</td>
-      <td>2013-05-31</td>
-      <td>f17a45795111f567ca57f97c63a976c1a9a2cce0</td>
+      <td>AxonFramework-4.11.1/coverage-report/pom.xml</td>
+      <td>xml</td>
+      <td>10</td>
+      <td>Steven van Beelen</td>
+      <td>Mitchell Herrijgers</td>
+      <td>166</td>
+      <td>64</td>
+      <td>1206</td>
+      <td>64</td>
+      <td>2025-02-14</td>
+      <td>2021-12-30</td>
+      <td>2025-02-14</td>
+      <td>ff147d51c6cf46d3eb4facf4bfe6d03dd6bb4b5e</td>
     </tr>
     <tr>
       <th>6</th>
-      <td>AxonFramework-4.11.1/core/src/test/java/org/axonframework/eventhandling/scheduling/quartz</td>
-      <td>AxonFramework-4.11.1/core/src/test/java/org/axonframework</td>
-      <td>eventhandling/scheduling/quartz</td>
-      <td>1</td>
-      <td>AxonFramework-4.11.1/core/src/test/java/org/axonframework/eventhandling/scheduling/quartz/Quartz2EventSchedulerTest.java</td>
-      <td>java</td>
-      <td>14</td>
-      <td>Allard Buijze</td>
-      <td>smcvb</td>
-      <td>121</td>
-      <td>263</td>
-      <td>4686</td>
-      <td>4686</td>
-      <td>2024-07-30</td>
-      <td>2012-06-20</td>
-      <td>2012-06-20</td>
-      <td>fdd51aa788071375721c67bb30bf5709136e974a</td>
-    </tr>
-    <tr>
-      <th>7</th>
       <td>AxonFramework-4.11.1/docs/_playbook/localLinks</td>
       <td>AxonFramework-4.11.1/docs/_playbook</td>
       <td>localLinks</td>
@@ -299,17 +279,17 @@
       <td>7</td>
       <td>Steven van Beelen</td>
       <td>Allard Buijze</td>
-      <td>13</td>
-      <td>262</td>
+      <td>10</td>
+      <td>263</td>
       <td>316</td>
       <td>316</td>
-      <td>2024-07-31</td>
+      <td>2024-07-30</td>
       <td>2024-06-07</td>
       <td>2024-06-07</td>
       <td>fcf55fb4f72d050c0949cac6a1818df2cd53d608</td>
     </tr>
     <tr>
-      <th>8</th>
+      <th>7</th>
       <td>AxonFramework-4.11.1/docs/_reference/modules/ROOT/attachments</td>
       <td>AxonFramework-4.11.1/docs/_reference/modules/ROOT</td>
       <td>attachments</td>
@@ -319,17 +299,17 @@
       <td>8</td>
       <td>Steven van Beelen</td>
       <td>Milen Dyankov</td>
-      <td>22</td>
-      <td>262</td>
+      <td>18</td>
+      <td>263</td>
       <td>304</td>
       <td>304</td>
-      <td>2024-07-31</td>
+      <td>2024-07-30</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
       <td>f851948ee70e6cc9742c7b1bde5941ed2655e28f</td>
     </tr>
     <tr>
-      <th>9</th>
+      <th>8</th>
       <td>AxonFramework-4.11.1/docs/_reference/modules/ROOT/partials</td>
       <td>AxonFramework-4.11.1/docs/_reference/modules/ROOT</td>
       <td>partials</td>
@@ -339,17 +319,17 @@
       <td>8</td>
       <td>Steven van Beelen</td>
       <td>Milen Dyankov</td>
-      <td>22</td>
-      <td>262</td>
+      <td>18</td>
+      <td>263</td>
       <td>304</td>
       <td>304</td>
-      <td>2024-07-31</td>
+      <td>2024-07-30</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
       <td>f851948ee70e6cc9742c7b1bde5941ed2655e28f</td>
     </tr>
     <tr>
-      <th>10</th>
+      <th>9</th>
       <td>AxonFramework-4.11.1/docs/_reference/modules/axon-server-connector/pages</td>
       <td>AxonFramework-4.11.1/docs/_reference/modules/axon-server-connector</td>
       <td>pages</td>
@@ -359,17 +339,17 @@
       <td>8</td>
       <td>Steven van Beelen</td>
       <td>Milen Dyankov</td>
-      <td>23</td>
-      <td>262</td>
+      <td>19</td>
+      <td>263</td>
       <td>304</td>
       <td>304</td>
-      <td>2024-07-31</td>
+      <td>2024-07-30</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
       <td>f851948ee70e6cc9742c7b1bde5941ed2655e28f</td>
     </tr>
     <tr>
-      <th>11</th>
+      <th>10</th>
       <td>AxonFramework-4.11.1/docs/_reference/modules/axon-server-connector/partials</td>
       <td>AxonFramework-4.11.1/docs/_reference/modules/axon-server-connector</td>
       <td>partials</td>
@@ -379,17 +359,17 @@
       <td>8</td>
       <td>Steven van Beelen</td>
       <td>Milen Dyankov</td>
-      <td>22</td>
-      <td>262</td>
+      <td>18</td>
+      <td>263</td>
       <td>304</td>
       <td>304</td>
-      <td>2024-07-31</td>
+      <td>2024-07-30</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
       <td>f851948ee70e6cc9742c7b1bde5941ed2655e28f</td>
     </tr>
     <tr>
-      <th>12</th>
+      <th>11</th>
       <td>AxonFramework-4.11.1/docs/_reference/modules/configuration/pages</td>
       <td>AxonFramework-4.11.1/docs/_reference/modules/configuration</td>
       <td>pages</td>
@@ -399,17 +379,17 @@
       <td>8</td>
       <td>Steven van Beelen</td>
       <td>Milen Dyankov</td>
-      <td>23</td>
-      <td>262</td>
+      <td>19</td>
+      <td>263</td>
       <td>304</td>
       <td>304</td>
-      <td>2024-07-31</td>
+      <td>2024-07-30</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
       <td>f851948ee70e6cc9742c7b1bde5941ed2655e28f</td>
     </tr>
     <tr>
-      <th>13</th>
+      <th>12</th>
       <td>AxonFramework-4.11.1/docs/_reference/modules/configuration/partials</td>
       <td>AxonFramework-4.11.1/docs/_reference/modules/configuration</td>
       <td>partials</td>
@@ -419,17 +399,17 @@
       <td>8</td>
       <td>Steven van Beelen</td>
       <td>Milen Dyankov</td>
-      <td>22</td>
-      <td>262</td>
+      <td>18</td>
+      <td>263</td>
       <td>304</td>
       <td>304</td>
-      <td>2024-07-31</td>
+      <td>2024-07-30</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
       <td>f851948ee70e6cc9742c7b1bde5941ed2655e28f</td>
     </tr>
     <tr>
-      <th>14</th>
+      <th>13</th>
       <td>AxonFramework-4.11.1/docs/_reference/modules/disruptor/pages</td>
       <td>AxonFramework-4.11.1/docs/_reference/modules/disruptor</td>
       <td>pages</td>
@@ -439,17 +419,17 @@
       <td>8</td>
       <td>Steven van Beelen</td>
       <td>Milen Dyankov</td>
-      <td>23</td>
-      <td>262</td>
+      <td>19</td>
+      <td>263</td>
       <td>304</td>
       <td>304</td>
-      <td>2024-07-31</td>
+      <td>2024-07-30</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
       <td>f851948ee70e6cc9742c7b1bde5941ed2655e28f</td>
     </tr>
     <tr>
-      <th>15</th>
+      <th>14</th>
       <td>AxonFramework-4.11.1/docs/_reference/modules/disruptor/partials</td>
       <td>AxonFramework-4.11.1/docs/_reference/modules/disruptor</td>
       <td>partials</td>
@@ -459,17 +439,17 @@
       <td>8</td>
       <td>Steven van Beelen</td>
       <td>Milen Dyankov</td>
-      <td>22</td>
-      <td>262</td>
+      <td>18</td>
+      <td>263</td>
       <td>304</td>
       <td>304</td>
-      <td>2024-07-31</td>
+      <td>2024-07-30</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
       <td>f851948ee70e6cc9742c7b1bde5941ed2655e28f</td>
     </tr>
     <tr>
-      <th>16</th>
+      <th>15</th>
       <td>AxonFramework-4.11.1/docs/_reference/modules/eventsourcing/pages</td>
       <td>AxonFramework-4.11.1/docs/_reference/modules/eventsourcing</td>
       <td>pages</td>
@@ -479,17 +459,17 @@
       <td>8</td>
       <td>Steven van Beelen</td>
       <td>Milen Dyankov</td>
-      <td>24</td>
-      <td>262</td>
+      <td>20</td>
+      <td>263</td>
       <td>304</td>
       <td>304</td>
-      <td>2024-07-31</td>
+      <td>2024-07-30</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
       <td>f851948ee70e6cc9742c7b1bde5941ed2655e28f</td>
     </tr>
     <tr>
-      <th>17</th>
+      <th>16</th>
       <td>AxonFramework-4.11.1/docs/_reference/modules/eventsourcing/partials</td>
       <td>AxonFramework-4.11.1/docs/_reference/modules/eventsourcing</td>
       <td>partials</td>
@@ -499,17 +479,17 @@
       <td>8</td>
       <td>Steven van Beelen</td>
       <td>Milen Dyankov</td>
-      <td>22</td>
-      <td>262</td>
+      <td>18</td>
+      <td>263</td>
       <td>304</td>
       <td>304</td>
-      <td>2024-07-31</td>
+      <td>2024-07-30</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
       <td>f851948ee70e6cc9742c7b1bde5941ed2655e28f</td>
     </tr>
     <tr>
-      <th>18</th>
+      <th>17</th>
       <td>AxonFramework-4.11.1/docs/_reference/modules/legacy/pages</td>
       <td>AxonFramework-4.11.1/docs/_reference/modules/legacy</td>
       <td>pages</td>
@@ -519,17 +499,17 @@
       <td>8</td>
       <td>Steven van Beelen</td>
       <td>Milen Dyankov</td>
-      <td>23</td>
-      <td>262</td>
+      <td>19</td>
+      <td>263</td>
       <td>304</td>
       <td>304</td>
-      <td>2024-07-31</td>
+      <td>2024-07-30</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
       <td>f851948ee70e6cc9742c7b1bde5941ed2655e28f</td>
     </tr>
     <tr>
-      <th>19</th>
+      <th>18</th>
       <td>AxonFramework-4.11.1/docs/_reference/modules/legacy/partials</td>
       <td>AxonFramework-4.11.1/docs/_reference/modules/legacy</td>
       <td>partials</td>
@@ -539,17 +519,17 @@
       <td>8</td>
       <td>Steven van Beelen</td>
       <td>Milen Dyankov</td>
-      <td>22</td>
-      <td>262</td>
+      <td>18</td>
+      <td>263</td>
       <td>304</td>
       <td>304</td>
-      <td>2024-07-31</td>
+      <td>2024-07-30</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
       <td>f851948ee70e6cc9742c7b1bde5941ed2655e28f</td>
     </tr>
     <tr>
-      <th>20</th>
+      <th>19</th>
       <td>AxonFramework-4.11.1/docs/_reference/modules/metrics/pages</td>
       <td>AxonFramework-4.11.1/docs/_reference/modules/metrics</td>
       <td>pages</td>
@@ -559,17 +539,17 @@
       <td>8</td>
       <td>Steven van Beelen</td>
       <td>Milen Dyankov</td>
-      <td>23</td>
-      <td>262</td>
+      <td>19</td>
+      <td>263</td>
       <td>304</td>
       <td>304</td>
-      <td>2024-07-31</td>
+      <td>2024-07-30</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
       <td>f851948ee70e6cc9742c7b1bde5941ed2655e28f</td>
     </tr>
     <tr>
-      <th>21</th>
+      <th>20</th>
       <td>AxonFramework-4.11.1/docs/_reference/modules/metrics/partials</td>
       <td>AxonFramework-4.11.1/docs/_reference/modules/metrics</td>
       <td>partials</td>
@@ -579,17 +559,17 @@
       <td>8</td>
       <td>Steven van Beelen</td>
       <td>Milen Dyankov</td>
-      <td>22</td>
-      <td>262</td>
+      <td>18</td>
+      <td>263</td>
       <td>304</td>
       <td>304</td>
-      <td>2024-07-31</td>
+      <td>2024-07-30</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
       <td>f851948ee70e6cc9742c7b1bde5941ed2655e28f</td>
     </tr>
     <tr>
-      <th>22</th>
+      <th>21</th>
       <td>AxonFramework-4.11.1/docs/_reference/modules/micrometer/pages</td>
       <td>AxonFramework-4.11.1/docs/_reference/modules/micrometer</td>
       <td>pages</td>
@@ -599,17 +579,17 @@
       <td>8</td>
       <td>Steven van Beelen</td>
       <td>Milen Dyankov</td>
-      <td>23</td>
-      <td>262</td>
+      <td>19</td>
+      <td>263</td>
       <td>304</td>
       <td>304</td>
-      <td>2024-07-31</td>
+      <td>2024-07-30</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
       <td>f851948ee70e6cc9742c7b1bde5941ed2655e28f</td>
     </tr>
     <tr>
-      <th>23</th>
+      <th>22</th>
       <td>AxonFramework-4.11.1/docs/_reference/modules/micrometer/partials</td>
       <td>AxonFramework-4.11.1/docs/_reference/modules/micrometer</td>
       <td>partials</td>
@@ -619,17 +599,17 @@
       <td>8</td>
       <td>Steven van Beelen</td>
       <td>Milen Dyankov</td>
-      <td>22</td>
-      <td>262</td>
+      <td>18</td>
+      <td>263</td>
       <td>304</td>
       <td>304</td>
-      <td>2024-07-31</td>
+      <td>2024-07-30</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
       <td>f851948ee70e6cc9742c7b1bde5941ed2655e28f</td>
     </tr>
     <tr>
-      <th>24</th>
+      <th>23</th>
       <td>AxonFramework-4.11.1/docs/_reference/modules/modeling/partials</td>
       <td>AxonFramework-4.11.1/docs/_reference/modules/modeling</td>
       <td>partials</td>
@@ -639,17 +619,17 @@
       <td>8</td>
       <td>Steven van Beelen</td>
       <td>Milen Dyankov</td>
-      <td>22</td>
-      <td>262</td>
+      <td>18</td>
+      <td>263</td>
       <td>304</td>
       <td>304</td>
-      <td>2024-07-31</td>
+      <td>2024-07-30</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
       <td>f851948ee70e6cc9742c7b1bde5941ed2655e28f</td>
     </tr>
     <tr>
-      <th>25</th>
+      <th>24</th>
       <td>AxonFramework-4.11.1/docs/_reference/modules/spring/pages</td>
       <td>AxonFramework-4.11.1/docs/_reference/modules/spring</td>
       <td>pages</td>
@@ -659,17 +639,17 @@
       <td>8</td>
       <td>Steven van Beelen</td>
       <td>Milen Dyankov</td>
-      <td>23</td>
-      <td>262</td>
+      <td>19</td>
+      <td>263</td>
       <td>304</td>
       <td>304</td>
-      <td>2024-07-31</td>
+      <td>2024-07-30</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
       <td>f851948ee70e6cc9742c7b1bde5941ed2655e28f</td>
     </tr>
     <tr>
-      <th>26</th>
+      <th>25</th>
       <td>AxonFramework-4.11.1/docs/_reference/modules/spring/partials</td>
       <td>AxonFramework-4.11.1/docs/_reference/modules/spring</td>
       <td>partials</td>
@@ -679,17 +659,17 @@
       <td>8</td>
       <td>Steven van Beelen</td>
       <td>Milen Dyankov</td>
-      <td>22</td>
-      <td>262</td>
+      <td>18</td>
+      <td>263</td>
       <td>304</td>
       <td>304</td>
-      <td>2024-07-31</td>
+      <td>2024-07-30</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
       <td>f851948ee70e6cc9742c7b1bde5941ed2655e28f</td>
     </tr>
     <tr>
-      <th>27</th>
+      <th>26</th>
       <td>AxonFramework-4.11.1/docs/_reference/modules/springboot-starter/pages</td>
       <td>AxonFramework-4.11.1/docs/_reference/modules/springboot-starter</td>
       <td>pages</td>
@@ -699,17 +679,17 @@
       <td>8</td>
       <td>Steven van Beelen</td>
       <td>Milen Dyankov</td>
-      <td>24</td>
-      <td>262</td>
+      <td>20</td>
+      <td>263</td>
       <td>304</td>
       <td>304</td>
-      <td>2024-07-31</td>
+      <td>2024-07-30</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
       <td>f851948ee70e6cc9742c7b1bde5941ed2655e28f</td>
     </tr>
     <tr>
-      <th>28</th>
+      <th>27</th>
       <td>AxonFramework-4.11.1/docs/_reference/modules/springboot-starter/partials</td>
       <td>AxonFramework-4.11.1/docs/_reference/modules/springboot-starter</td>
       <td>partials</td>
@@ -719,17 +699,17 @@
       <td>8</td>
       <td>Steven van Beelen</td>
       <td>Milen Dyankov</td>
-      <td>22</td>
-      <td>262</td>
+      <td>18</td>
+      <td>263</td>
       <td>304</td>
       <td>304</td>
-      <td>2024-07-31</td>
+      <td>2024-07-30</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
       <td>f851948ee70e6cc9742c7b1bde5941ed2655e28f</td>
     </tr>
     <tr>
-      <th>29</th>
+      <th>28</th>
       <td>AxonFramework-4.11.1/docs/_reference/modules/test/pages</td>
       <td>AxonFramework-4.11.1/docs/_reference/modules/test</td>
       <td>pages</td>
@@ -739,11 +719,31 @@
       <td>8</td>
       <td>Steven van Beelen</td>
       <td>Milen Dyankov</td>
-      <td>23</td>
-      <td>262</td>
+      <td>19</td>
+      <td>263</td>
       <td>304</td>
       <td>304</td>
-      <td>2024-07-31</td>
+      <td>2024-07-30</td>
+      <td>2024-06-19</td>
+      <td>2024-06-19</td>
+      <td>f851948ee70e6cc9742c7b1bde5941ed2655e28f</td>
+    </tr>
+    <tr>
+      <th>29</th>
+      <td>AxonFramework-4.11.1/docs/_reference/modules/test/partials</td>
+      <td>AxonFramework-4.11.1/docs/_reference/modules/test</td>
+      <td>partials</td>
+      <td>1</td>
+      <td>AxonFramework-4.11.1/docs/_reference/modules/test/partials/nav.adoc</td>
+      <td>adoc</td>
+      <td>8</td>
+      <td>Steven van Beelen</td>
+      <td>Milen Dyankov</td>
+      <td>18</td>
+      <td>263</td>
+      <td>304</td>
+      <td>304</td>
+      <td>2024-07-30</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
       <td>f851948ee70e6cc9742c7b1bde5941ed2655e28f</td>
@@ -8561,9 +8561,9 @@ maplibre-gl/dist/maplibre-gl.js:
 
 window.Plotly = Plotly;
 return Plotly;
-}));</script>                <div id="2720d236-ba7d-48e2-b043-0ba0bbf23f96" class="plotly-graph-div" style="height:525px; width:100%;"></div>            <script type="text/javascript">                window.PLOTLYENV=window.PLOTLYENV || {};                                if (document.getElementById("2720d236-ba7d-48e2-b043-0ba0bbf23f96")) {                    Plotly.newPlot(                        "2720d236-ba7d-48e2-b043-0ba0bbf23f96",                        [{"labels":["A","B","C","D","E"],"marker":{"colorbar":{"tickformat":",","ticklabeloverflow":"allow","ticklabelposition":"outside top","ticklabelstep":1,"tickmode":"auto","title":{"text":"Value"}},"colors":[10,20,30,40,50],"colorscale":[[0.0,"rgb(247,251,255)"],[0.125,"rgb(222,235,247)"],[0.25,"rgb(198,219,239)"],[0.375,"rgb(158,202,225)"],[0.5,"rgb(107,174,214)"],[0.625,"rgb(66,146,198)"],[0.75,"rgb(33,113,181)"],[0.875,"rgb(8,81,156)"],[1.0,"rgb(8,48,107)"]]},"parents":["","A","A","B","B"],"values":[10,20,30,40,50],"type":"treemap"}],                        {"template":{"data":{"histogram2dcontour":[{"type":"histogram2dcontour","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"choropleth":[{"type":"choropleth","colorbar":{"outlinewidth":0,"ticks":""}}],"histogram2d":[{"type":"histogram2d","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"heatmap":[{"type":"heatmap","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"contourcarpet":[{"type":"contourcarpet","colorbar":{"outlinewidth":0,"ticks":""}}],"contour":[{"type":"contour","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"surface":[{"type":"surface","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"mesh3d":[{"type":"mesh3d","colorbar":{"outlinewidth":0,"ticks":""}}],"scatter":[{"fillpattern":{"fillmode":"overlay","size":10,"solidity":0.2},"type":"scatter"}],"parcoords":[{"type":"parcoords","line":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterpolargl":[{"type":"scatterpolargl","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"bar":[{"error_x":{"color":"#2a3f5f"},"error_y":{"color":"#2a3f5f"},"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"bar"}],"scattergeo":[{"type":"scattergeo","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterpolar":[{"type":"scatterpolar","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"histogram":[{"marker":{"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"histogram"}],"scattergl":[{"type":"scattergl","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatter3d":[{"type":"scatter3d","line":{"colorbar":{"outlinewidth":0,"ticks":""}},"marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattermap":[{"type":"scattermap","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattermapbox":[{"type":"scattermapbox","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterternary":[{"type":"scatterternary","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattercarpet":[{"type":"scattercarpet","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"carpet":[{"aaxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"baxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"type":"carpet"}],"table":[{"cells":{"fill":{"color":"#EBF0F8"},"line":{"color":"white"}},"header":{"fill":{"color":"#C8D4E3"},"line":{"color":"white"}},"type":"table"}],"barpolar":[{"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"barpolar"}],"pie":[{"automargin":true,"type":"pie"}]},"layout":{"autotypenumbers":"strict","colorway":["#636efa","#EF553B","#00cc96","#ab63fa","#FFA15A","#19d3f3","#FF6692","#B6E880","#FF97FF","#FECB52"],"font":{"color":"#2a3f5f"},"hovermode":"closest","hoverlabel":{"align":"left"},"paper_bgcolor":"white","plot_bgcolor":"#E5ECF6","polar":{"bgcolor":"#E5ECF6","angularaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"radialaxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"ternary":{"bgcolor":"#E5ECF6","aaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"baxis":{"gridcolor":"white","linecolor":"white","ticks":""},"caxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"coloraxis":{"colorbar":{"outlinewidth":0,"ticks":""}},"colorscale":{"sequential":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"sequentialminus":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"diverging":[[0,"#8e0152"],[0.1,"#c51b7d"],[0.2,"#de77ae"],[0.3,"#f1b6da"],[0.4,"#fde0ef"],[0.5,"#f7f7f7"],[0.6,"#e6f5d0"],[0.7,"#b8e186"],[0.8,"#7fbc41"],[0.9,"#4d9221"],[1,"#276419"]]},"xaxis":{"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","automargin":true,"zerolinewidth":2},"yaxis":{"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","automargin":true,"zerolinewidth":2},"scene":{"xaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2},"yaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2},"zaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2}},"shapedefaults":{"line":{"color":"#2a3f5f"}},"annotationdefaults":{"arrowcolor":"#2a3f5f","arrowhead":0,"arrowwidth":1},"geo":{"bgcolor":"white","landcolor":"#E5ECF6","subunitcolor":"white","showland":true,"showlakes":true,"lakecolor":"white"},"title":{"x":0.05},"mapbox":{"style":"light"}}},"coloraxis":{"colorbar":{"tickvals":[50],"ticktext":["50 or more"]}}},                        {"responsive": true}                    ).then(function(){
+}));</script>                <div id="f8f7ca7b-6b87-4cb9-9d9f-79704858c017" class="plotly-graph-div" style="height:525px; width:100%;"></div>            <script type="text/javascript">                window.PLOTLYENV=window.PLOTLYENV || {};                                if (document.getElementById("f8f7ca7b-6b87-4cb9-9d9f-79704858c017")) {                    Plotly.newPlot(                        "f8f7ca7b-6b87-4cb9-9d9f-79704858c017",                        [{"labels":["A","B","C","D","E"],"marker":{"colorbar":{"tickformat":",","ticklabeloverflow":"allow","ticklabelposition":"outside top","ticklabelstep":1,"tickmode":"auto","title":{"text":"Value"}},"colors":[10,20,30,40,50],"colorscale":[[0.0,"rgb(247,251,255)"],[0.125,"rgb(222,235,247)"],[0.25,"rgb(198,219,239)"],[0.375,"rgb(158,202,225)"],[0.5,"rgb(107,174,214)"],[0.625,"rgb(66,146,198)"],[0.75,"rgb(33,113,181)"],[0.875,"rgb(8,81,156)"],[1.0,"rgb(8,48,107)"]]},"parents":["","A","A","B","B"],"values":[10,20,30,40,50],"type":"treemap"}],                        {"template":{"data":{"histogram2dcontour":[{"type":"histogram2dcontour","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"choropleth":[{"type":"choropleth","colorbar":{"outlinewidth":0,"ticks":""}}],"histogram2d":[{"type":"histogram2d","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"heatmap":[{"type":"heatmap","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"contourcarpet":[{"type":"contourcarpet","colorbar":{"outlinewidth":0,"ticks":""}}],"contour":[{"type":"contour","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"surface":[{"type":"surface","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"mesh3d":[{"type":"mesh3d","colorbar":{"outlinewidth":0,"ticks":""}}],"scatter":[{"fillpattern":{"fillmode":"overlay","size":10,"solidity":0.2},"type":"scatter"}],"parcoords":[{"type":"parcoords","line":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterpolargl":[{"type":"scatterpolargl","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"bar":[{"error_x":{"color":"#2a3f5f"},"error_y":{"color":"#2a3f5f"},"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"bar"}],"scattergeo":[{"type":"scattergeo","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterpolar":[{"type":"scatterpolar","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"histogram":[{"marker":{"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"histogram"}],"scattergl":[{"type":"scattergl","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatter3d":[{"type":"scatter3d","line":{"colorbar":{"outlinewidth":0,"ticks":""}},"marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattermap":[{"type":"scattermap","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattermapbox":[{"type":"scattermapbox","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterternary":[{"type":"scatterternary","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattercarpet":[{"type":"scattercarpet","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"carpet":[{"aaxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"baxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"type":"carpet"}],"table":[{"cells":{"fill":{"color":"#EBF0F8"},"line":{"color":"white"}},"header":{"fill":{"color":"#C8D4E3"},"line":{"color":"white"}},"type":"table"}],"barpolar":[{"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"barpolar"}],"pie":[{"automargin":true,"type":"pie"}]},"layout":{"autotypenumbers":"strict","colorway":["#636efa","#EF553B","#00cc96","#ab63fa","#FFA15A","#19d3f3","#FF6692","#B6E880","#FF97FF","#FECB52"],"font":{"color":"#2a3f5f"},"hovermode":"closest","hoverlabel":{"align":"left"},"paper_bgcolor":"white","plot_bgcolor":"#E5ECF6","polar":{"bgcolor":"#E5ECF6","angularaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"radialaxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"ternary":{"bgcolor":"#E5ECF6","aaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"baxis":{"gridcolor":"white","linecolor":"white","ticks":""},"caxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"coloraxis":{"colorbar":{"outlinewidth":0,"ticks":""}},"colorscale":{"sequential":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"sequentialminus":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"diverging":[[0,"#8e0152"],[0.1,"#c51b7d"],[0.2,"#de77ae"],[0.3,"#f1b6da"],[0.4,"#fde0ef"],[0.5,"#f7f7f7"],[0.6,"#e6f5d0"],[0.7,"#b8e186"],[0.8,"#7fbc41"],[0.9,"#4d9221"],[1,"#276419"]]},"xaxis":{"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","automargin":true,"zerolinewidth":2},"yaxis":{"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","automargin":true,"zerolinewidth":2},"scene":{"xaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2},"yaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2},"zaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2}},"shapedefaults":{"line":{"color":"#2a3f5f"}},"annotationdefaults":{"arrowcolor":"#2a3f5f","arrowhead":0,"arrowwidth":1},"geo":{"bgcolor":"white","landcolor":"#E5ECF6","subunitcolor":"white","showland":true,"showlakes":true,"lakecolor":"white"},"title":{"x":0.05},"mapbox":{"style":"light"}}},"coloraxis":{"colorbar":{"tickvals":[50],"ticktext":["50 or more"]}}},                        {"responsive": true}                    ).then(function(){
 
-var gd = document.getElementById('2720d236-ba7d-48e2-b043-0ba0bbf23f96');
+var gd = document.getElementById('f8f7ca7b-6b87-4cb9-9d9f-79704858c017');
 var x = new MutationObserver(function (mutations, observer) {{
         var display = window.getComputedStyle(gd).display;
         if (!display || display === 'none') {{
@@ -8668,8 +8668,8 @@ The data preview also includes overall statistics including the number of commit
 
 ### Preview data
 
-    Sum of commits that changed more than 30 files (each) = 1211
-    Max changed files with one commit = 4041
+    Sum of commits that changed more than 30 files (each) = 961
+    Max changed files with one commit = 2178
 
 
 
@@ -8685,18 +8685,18 @@ The data preview also includes overall statistics including the number of commit
   <tbody>
     <tr>
       <th>count</th>
-      <td>377.000000</td>
-      <td>377.000000</td>
+      <td>333.000000</td>
+      <td>333.000000</td>
     </tr>
     <tr>
       <th>mean</th>
-      <td>403.740053</td>
-      <td>34.925729</td>
+      <td>344.075075</td>
+      <td>33.960961</td>
     </tr>
     <tr>
       <th>std</th>
-      <td>568.423371</td>
-      <td>292.901288</td>
+      <td>440.375494</td>
+      <td>274.606293</td>
     </tr>
     <tr>
       <th>min</th>
@@ -8705,23 +8705,23 @@ The data preview also includes overall statistics including the number of commit
     </tr>
     <tr>
       <th>25%</th>
-      <td>95.000000</td>
+      <td>84.000000</td>
       <td>1.000000</td>
     </tr>
     <tr>
       <th>50%</th>
-      <td>203.000000</td>
+      <td>186.000000</td>
       <td>2.000000</td>
     </tr>
     <tr>
       <th>75%</th>
-      <td>431.000000</td>
+      <td>428.000000</td>
       <td>5.000000</td>
     </tr>
     <tr>
       <th>max</th>
-      <td>4041.000000</td>
-      <td>5098.000000</td>
+      <td>2178.000000</td>
+      <td>4508.000000</td>
     </tr>
   </tbody>
 </table>
@@ -8742,152 +8742,152 @@ The data preview also includes overall statistics including the number of commit
     <tr>
       <th>0</th>
       <td>1</td>
-      <td>5098</td>
+      <td>4508</td>
     </tr>
     <tr>
       <th>1</th>
       <td>2</td>
-      <td>2163</td>
+      <td>1905</td>
     </tr>
     <tr>
       <th>2</th>
       <td>3</td>
-      <td>990</td>
+      <td>848</td>
     </tr>
     <tr>
       <th>3</th>
       <td>4</td>
-      <td>655</td>
+      <td>548</td>
     </tr>
     <tr>
       <th>4</th>
       <td>5</td>
-      <td>445</td>
+      <td>381</td>
     </tr>
     <tr>
       <th>5</th>
       <td>6</td>
-      <td>335</td>
+      <td>273</td>
     </tr>
     <tr>
       <th>6</th>
       <td>7</td>
-      <td>266</td>
+      <td>226</td>
     </tr>
     <tr>
       <th>7</th>
       <td>8</td>
-      <td>220</td>
+      <td>187</td>
     </tr>
     <tr>
       <th>8</th>
       <td>9</td>
-      <td>163</td>
+      <td>134</td>
     </tr>
     <tr>
       <th>9</th>
       <td>10</td>
-      <td>147</td>
+      <td>110</td>
     </tr>
     <tr>
       <th>10</th>
       <td>11</td>
-      <td>113</td>
+      <td>91</td>
     </tr>
     <tr>
       <th>11</th>
       <td>12</td>
-      <td>104</td>
+      <td>97</td>
     </tr>
     <tr>
       <th>12</th>
       <td>13</td>
-      <td>128</td>
+      <td>108</td>
     </tr>
     <tr>
       <th>13</th>
       <td>14</td>
-      <td>170</td>
+      <td>127</td>
     </tr>
     <tr>
       <th>14</th>
       <td>15</td>
-      <td>191</td>
+      <td>169</td>
     </tr>
     <tr>
       <th>15</th>
       <td>16</td>
-      <td>81</td>
+      <td>69</td>
     </tr>
     <tr>
       <th>16</th>
       <td>17</td>
-      <td>72</td>
+      <td>58</td>
     </tr>
     <tr>
       <th>17</th>
       <td>18</td>
-      <td>64</td>
+      <td>53</td>
     </tr>
     <tr>
       <th>18</th>
       <td>19</td>
-      <td>84</td>
+      <td>73</td>
     </tr>
     <tr>
       <th>19</th>
       <td>20</td>
-      <td>77</td>
+      <td>55</td>
     </tr>
     <tr>
       <th>20</th>
       <td>21</td>
-      <td>46</td>
+      <td>38</td>
     </tr>
     <tr>
       <th>21</th>
       <td>22</td>
-      <td>70</td>
+      <td>63</td>
     </tr>
     <tr>
       <th>22</th>
       <td>23</td>
-      <td>39</td>
+      <td>30</td>
     </tr>
     <tr>
       <th>23</th>
       <td>24</td>
-      <td>37</td>
+      <td>31</td>
     </tr>
     <tr>
       <th>24</th>
       <td>25</td>
-      <td>43</td>
+      <td>37</td>
     </tr>
     <tr>
       <th>25</th>
       <td>26</td>
-      <td>34</td>
+      <td>28</td>
     </tr>
     <tr>
       <th>26</th>
       <td>27</td>
-      <td>33</td>
+      <td>28</td>
     </tr>
     <tr>
       <th>27</th>
       <td>28</td>
-      <td>33</td>
+      <td>24</td>
     </tr>
     <tr>
       <th>28</th>
       <td>29</td>
-      <td>31</td>
+      <td>28</td>
     </tr>
     <tr>
       <th>29</th>
       <td>30</td>
-      <td>24</td>
+      <td>21</td>
     </tr>
   </tbody>
 </table>
@@ -8934,19 +8934,121 @@ This section explores the correlation between how often pairs of files are chang
     <tr>
       <th>0</th>
       <td>1</td>
-      <td>14</td>
+      <td>12</td>
       <td>0</td>
     </tr>
     <tr>
       <th>1</th>
-      <td>3</td>
-      <td>14</td>
+      <td>1</td>
+      <td>12</td>
       <td>0</td>
     </tr>
     <tr>
       <th>2</th>
-      <td>5</td>
-      <td>20</td>
+      <td>1</td>
+      <td>12</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>1</td>
+      <td>12</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>1</td>
+      <td>12</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>1</td>
+      <td>12</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>1</td>
+      <td>12</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>1</td>
+      <td>12</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>1</td>
+      <td>12</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>1</td>
+      <td>12</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>1</td>
+      <td>13</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>1</td>
+      <td>13</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>1</td>
+      <td>13</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>1</td>
+      <td>13</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>14</th>
+      <td>1</td>
+      <td>14</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>15</th>
+      <td>1</td>
+      <td>14</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>16</th>
+      <td>1</td>
+      <td>15</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>17</th>
+      <td>1</td>
+      <td>15</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>18</th>
+      <td>1</td>
+      <td>15</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>19</th>
+      <td>1</td>
+      <td>16</td>
       <td>0</td>
     </tr>
   </tbody>
@@ -8975,51 +9077,51 @@ This section explores the correlation between how often pairs of files are chang
   <tbody>
     <tr>
       <th>count</th>
-      <td>3.0</td>
-      <td>3.000000</td>
-      <td>3.0</td>
+      <td>166.000000</td>
+      <td>166.000000</td>
+      <td>166.000000</td>
     </tr>
     <tr>
       <th>mean</th>
-      <td>3.0</td>
-      <td>16.000000</td>
-      <td>0.0</td>
+      <td>9.590361</td>
+      <td>25.204819</td>
+      <td>1.373494</td>
     </tr>
     <tr>
       <th>std</th>
-      <td>2.0</td>
-      <td>3.464102</td>
-      <td>0.0</td>
+      <td>19.230680</td>
+      <td>16.573260</td>
+      <td>1.570260</td>
     </tr>
     <tr>
       <th>min</th>
-      <td>1.0</td>
-      <td>14.000000</td>
-      <td>0.0</td>
+      <td>1.000000</td>
+      <td>12.000000</td>
+      <td>0.000000</td>
     </tr>
     <tr>
       <th>25%</th>
-      <td>2.0</td>
-      <td>14.000000</td>
-      <td>0.0</td>
+      <td>1.250000</td>
+      <td>14.250000</td>
+      <td>0.000000</td>
     </tr>
     <tr>
       <th>50%</th>
-      <td>3.0</td>
-      <td>14.000000</td>
-      <td>0.0</td>
+      <td>3.000000</td>
+      <td>19.000000</td>
+      <td>0.000000</td>
     </tr>
     <tr>
       <th>75%</th>
-      <td>4.0</td>
-      <td>17.000000</td>
-      <td>0.0</td>
+      <td>10.000000</td>
+      <td>28.000000</td>
+      <td>2.000000</td>
     </tr>
     <tr>
       <th>max</th>
-      <td>5.0</td>
-      <td>20.000000</td>
-      <td>0.0</td>
+      <td>154.000000</td>
+      <td>95.000000</td>
+      <td>4.000000</td>
     </tr>
   </tbody>
 </table>
@@ -9045,20 +9147,20 @@ This section explores the correlation between how often pairs of files are chang
     <tr>
       <th>dependencyWeight</th>
       <td>1.000000</td>
-      <td>0.866025</td>
-      <td>NaN</td>
+      <td>0.200368</td>
+      <td>-0.141013</td>
     </tr>
     <tr>
       <th>commitCount</th>
-      <td>0.866025</td>
+      <td>0.200368</td>
       <td>1.000000</td>
-      <td>NaN</td>
+      <td>-0.145947</td>
     </tr>
     <tr>
       <th>fileDistanceAsFewestChangeDirectoryCommands</th>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
+      <td>-0.141013</td>
+      <td>-0.145947</td>
+      <td>1.000000</td>
     </tr>
   </tbody>
 </table>
@@ -9084,27 +9186,40 @@ This section explores the correlation between how often pairs of files are chang
     <tr>
       <th>dependencyWeight</th>
       <td>1.000000</td>
-      <td>0.866025</td>
-      <td>NaN</td>
+      <td>0.214529</td>
+      <td>-0.091448</td>
     </tr>
     <tr>
       <th>commitCount</th>
-      <td>0.866025</td>
+      <td>0.214529</td>
       <td>1.000000</td>
-      <td>NaN</td>
+      <td>-0.133180</td>
     </tr>
     <tr>
       <th>fileDistanceAsFewestChangeDirectoryCommands</th>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
+      <td>-0.091448</td>
+      <td>-0.133180</td>
+      <td>1.000000</td>
     </tr>
   </tbody>
 </table>
 </div>
 
 
-    Less than 5 samples are not enough to calculate p-values
+
+    'Pearson Correlation with p-value for commitCount and dependencyWeight'
+
+
+
+    PearsonRResult(statistic=0.20036758755264605, pvalue=0.009643647845018762)
+
+
+
+    'Spearman Correlation with p-value for commitCount and dependencyWeight'
+
+
+
+    SignificanceResult(statistic=0.21452881933918705, pvalue=0.005511439972198768)
 
 
 
@@ -9131,12 +9246,12 @@ This section explores the correlation between how often pairs of files are chang
     <tr>
       <th>0</th>
       <td>Steven van Beelen</td>
-      <td>4475</td>
+      <td>3360</td>
     </tr>
     <tr>
       <th>1</th>
       <td>Allard Buijze</td>
-      <td>3156</td>
+      <td>2721</td>
     </tr>
     <tr>
       <th>2</th>
@@ -9145,13 +9260,13 @@ This section explores the correlation between how often pairs of files are chang
     </tr>
     <tr>
       <th>3</th>
-      <td>Mitchell Herrijgers</td>
-      <td>476</td>
+      <td>Milan Savic</td>
+      <td>449</td>
     </tr>
     <tr>
       <th>4</th>
-      <td>Milan Savic</td>
-      <td>449</td>
+      <td>Mitchell Herrijgers</td>
+      <td>309</td>
     </tr>
     <tr>
       <th>5</th>
@@ -9171,12 +9286,12 @@ This section explores the correlation between how often pairs of files are chang
     <tr>
       <th>8</th>
       <td>Rene de Waele</td>
-      <td>129</td>
+      <td>121</td>
     </tr>
     <tr>
       <th>9</th>
       <td>Jettro Coenradie</td>
-      <td>123</td>
+      <td>117</td>
     </tr>
   </tbody>
 </table>
