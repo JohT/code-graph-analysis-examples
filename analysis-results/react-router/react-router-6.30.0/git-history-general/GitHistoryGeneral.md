@@ -44,74 +44,74 @@
   <tbody>
     <tr>
       <th>count</th>
-      <td>232.000000</td>
-      <td>232.000000</td>
-      <td>232.000000</td>
-      <td>232.000000</td>
-      <td>232.000000</td>
-      <td>232.000000</td>
+      <td>83.000000</td>
+      <td>83.000000</td>
+      <td>83.000000</td>
+      <td>83.000000</td>
+      <td>83.000000</td>
+      <td>83.000000</td>
     </tr>
     <tr>
       <th>mean</th>
-      <td>20.383621</td>
-      <td>12.086207</td>
-      <td>605.818966</td>
-      <td>107.594828</td>
-      <td>358.431034</td>
-      <td>166.017241</td>
+      <td>25.301205</td>
+      <td>19.650602</td>
+      <td>434.650602</td>
+      <td>468.975904</td>
+      <td>873.301205</td>
+      <td>470.819277</td>
     </tr>
     <tr>
       <th>std</th>
-      <td>94.815950</td>
-      <td>36.880072</td>
-      <td>3199.780891</td>
-      <td>214.166823</td>
-      <td>459.161663</td>
-      <td>292.453955</td>
+      <td>77.772453</td>
+      <td>46.179246</td>
+      <td>1505.037423</td>
+      <td>277.542657</td>
+      <td>386.656138</td>
+      <td>277.823121</td>
     </tr>
     <tr>
       <th>min</th>
       <td>1.000000</td>
       <td>2.000000</td>
-      <td>2.000000</td>
-      <td>0.000000</td>
-      <td>1.000000</td>
-      <td>0.000000</td>
+      <td>3.000000</td>
+      <td>51.000000</td>
+      <td>81.000000</td>
+      <td>51.000000</td>
     </tr>
     <tr>
       <th>25%</th>
-      <td>2.000000</td>
-      <td>3.000000</td>
-      <td>18.000000</td>
-      <td>2.000000</td>
-      <td>50.750000</td>
-      <td>6.500000</td>
+      <td>4.000000</td>
+      <td>4.000000</td>
+      <td>23.500000</td>
+      <td>199.000000</td>
+      <td>598.000000</td>
+      <td>199.000000</td>
     </tr>
     <tr>
       <th>50%</th>
-      <td>5.000000</td>
+      <td>10.000000</td>
       <td>6.000000</td>
-      <td>61.500000</td>
-      <td>39.000000</td>
-      <td>148.500000</td>
-      <td>39.000000</td>
+      <td>69.000000</td>
+      <td>584.000000</td>
+      <td>953.000000</td>
+      <td>584.000000</td>
     </tr>
     <tr>
       <th>75%</th>
-      <td>12.000000</td>
-      <td>10.000000</td>
-      <td>225.250000</td>
-      <td>103.000000</td>
-      <td>365.000000</td>
-      <td>149.000000</td>
+      <td>13.000000</td>
+      <td>13.500000</td>
+      <td>142.500000</td>
+      <td>683.000000</td>
+      <td>1276.000000</td>
+      <td>683.000000</td>
     </tr>
     <tr>
       <th>max</th>
-      <td>1304.000000</td>
-      <td>491.000000</td>
-      <td>40088.000000</td>
-      <td>1263.000000</td>
-      <td>1782.000000</td>
+      <td>633.000000</td>
+      <td>343.000000</td>
+      <td>11557.000000</td>
+      <td>1317.000000</td>
+      <td>1374.000000</td>
       <td>1316.000000</td>
     </tr>
   </tbody>
@@ -156,597 +156,597 @@
       <td>1</td>
       <td>react-router-6.30.0/examples/custom-query-parsing/types/jsurl.d.ts</td>
       <td>ts</td>
-      <td>3</td>
+      <td>2</td>
       <td>Logan McAnsh</td>
       <td>Michael Jackson</td>
-      <td>5</td>
-      <td>388</td>
+      <td>4</td>
       <td>1276</td>
       <td>1276</td>
-      <td>2024-03-27</td>
+      <td>1276</td>
+      <td>2021-10-21</td>
       <td>2021-10-20</td>
       <td>2021-10-20</td>
       <td>dd0de338dfb32e38d1f4b091b3442ae55515edc3</td>
     </tr>
     <tr>
       <th>1</th>
-      <td>react-router-6.30.0/examples/data-router/src</td>
-      <td>react-router-6.30.0/examples/data-router</td>
-      <td>src</td>
+      <td>react-router-6.30.0/packages/react-router-dom-v5-compat/lib</td>
+      <td>react-router-6.30.0/packages/react-router-dom-v5-compat</td>
+      <td>lib</td>
       <td>1</td>
-      <td>react-router-6.30.0/examples/data-router/src/lazy.tsx</td>
+      <td>react-router-6.30.0/packages/react-router-dom-v5-compat/lib/components.tsx</td>
       <td>tsx</td>
-      <td>2</td>
+      <td>6</td>
       <td>Matt Brophy</td>
-      <td>Mark Dalgleish</td>
-      <td>5</td>
-      <td>799</td>
-      <td>805</td>
-      <td>799</td>
-      <td>2023-02-10</td>
-      <td>2023-02-03</td>
-      <td>2023-02-09</td>
-      <td>f94adc5a3290be4fcd175a2a7fae00fbcd8f4154</td>
+      <td>Ryan Florence</td>
+      <td>26</td>
+      <td>299</td>
+      <td>1115</td>
+      <td>299</td>
+      <td>2024-06-24</td>
+      <td>2022-03-31</td>
+      <td>2024-06-24</td>
+      <td>da57748644da6400e2d051b2aa004df47beda1cf</td>
     </tr>
     <tr>
       <th>2</th>
-      <td>react-router-6.30.0/integration/helpers/cloudflare-dev-proxy-template/app/routes</td>
-      <td>react-router-6.30.0/integration/helpers/cloudflare-dev-proxy-template/app</td>
-      <td>routes</td>
+      <td>react-router-6.30.0/packages/react-router-dom/__tests__/polyfills</td>
+      <td>react-router-6.30.0/packages/react-router-dom/__tests__</td>
+      <td>polyfills</td>
       <td>1</td>
-      <td>react-router-6.30.0/integration/helpers/cloudflare-dev-proxy-template/app/routes/_index.tsx</td>
-      <td>tsx</td>
-      <td>5</td>
+      <td>react-router-6.30.0/packages/react-router-dom/__tests__/polyfills/drop-FormData-submitter.ts</td>
+      <td>ts</td>
+      <td>2</td>
       <td>Matt Brophy</td>
-      <td>Mark Dalgleish</td>
-      <td>24</td>
-      <td>10</td>
-      <td>53</td>
-      <td>53</td>
-      <td>2025-04-09</td>
-      <td>2025-02-24</td>
-      <td>2025-02-24</td>
-      <td>f8b1a47883109f968702ff272a370070577ca2ed</td>
+      <td>Jon Jensen</td>
+      <td>3</td>
+      <td>660</td>
+      <td>674</td>
+      <td>674</td>
+      <td>2023-06-29</td>
+      <td>2023-06-14</td>
+      <td>2023-06-14</td>
+      <td>f63774c3843e2f25b6ca5b6f4882ebd4db705603</td>
     </tr>
     <tr>
       <th>3</th>
-      <td>react-router-6.30.0/integration/helpers/cloudflare-dev-proxy-template/public</td>
-      <td>react-router-6.30.0/integration/helpers/cloudflare-dev-proxy-template</td>
-      <td>public</td>
-      <td>1</td>
-      <td>react-router-6.30.0/integration/helpers/cloudflare-dev-proxy-template/public/favicon.ico</td>
-      <td>ico</td>
-      <td>4</td>
-      <td>Matt Brophy</td>
-      <td>Mark Dalgleish</td>
-      <td>8</td>
-      <td>10</td>
-      <td>53</td>
-      <td>53</td>
-      <td>2025-04-09</td>
-      <td>2025-02-24</td>
-      <td>2025-02-24</td>
-      <td>f174d2f63548c7070242453dafe3c101fd102520</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>react-router-6.30.0/integration/helpers/vite-5-template/app/routes</td>
-      <td>react-router-6.30.0/integration/helpers/vite-5-template/app</td>
-      <td>routes</td>
-      <td>1</td>
-      <td>react-router-6.30.0/integration/helpers/vite-5-template/app/routes/_index.tsx</td>
-      <td>tsx</td>
-      <td>6</td>
-      <td>Matt Brophy</td>
-      <td>Mark Dalgleish</td>
-      <td>24</td>
-      <td>39</td>
-      <td>123</td>
-      <td>123</td>
-      <td>2025-03-11</td>
-      <td>2024-12-17</td>
-      <td>2024-12-17</td>
-      <td>f8b1a47883109f968702ff272a370070577ca2ed</td>
-    </tr>
-    <tr>
-      <th>5</th>
-      <td>react-router-6.30.0/integration/helpers/vite-5-template/public</td>
-      <td>react-router-6.30.0/integration/helpers/vite-5-template</td>
-      <td>public</td>
-      <td>1</td>
-      <td>react-router-6.30.0/integration/helpers/vite-5-template/public/favicon.ico</td>
-      <td>ico</td>
-      <td>3</td>
-      <td>Mark Dalgleish</td>
-      <td>Matt Brophy</td>
-      <td>5</td>
-      <td>39</td>
-      <td>123</td>
-      <td>123</td>
-      <td>2025-03-11</td>
-      <td>2024-12-17</td>
-      <td>2024-12-17</td>
-      <td>740f55625e6de24975d5008a9135d4989fa5b795</td>
-    </tr>
-    <tr>
-      <th>6</th>
-      <td>react-router-6.30.0/integration/helpers/vite-6-template/app/routes</td>
-      <td>react-router-6.30.0/integration/helpers/vite-6-template/app</td>
-      <td>routes</td>
-      <td>1</td>
-      <td>react-router-6.30.0/integration/helpers/vite-6-template/app/routes/_index.tsx</td>
-      <td>tsx</td>
-      <td>3</td>
-      <td>Mark Dalgleish</td>
-      <td>Matt Brophy</td>
-      <td>5</td>
-      <td>39</td>
-      <td>123</td>
-      <td>123</td>
-      <td>2025-03-11</td>
-      <td>2024-12-17</td>
-      <td>2024-12-17</td>
-      <td>740f55625e6de24975d5008a9135d4989fa5b795</td>
-    </tr>
-    <tr>
-      <th>7</th>
-      <td>react-router-6.30.0/integration/helpers/vite-6-template/public</td>
-      <td>react-router-6.30.0/integration/helpers/vite-6-template</td>
-      <td>public</td>
-      <td>1</td>
-      <td>react-router-6.30.0/integration/helpers/vite-6-template/public/favicon.ico</td>
-      <td>ico</td>
-      <td>3</td>
-      <td>Mark Dalgleish</td>
-      <td>Matt Brophy</td>
-      <td>5</td>
-      <td>39</td>
-      <td>123</td>
-      <td>123</td>
-      <td>2025-03-11</td>
-      <td>2024-12-17</td>
-      <td>2024-12-17</td>
-      <td>740f55625e6de24975d5008a9135d4989fa5b795</td>
-    </tr>
-    <tr>
-      <th>8</th>
-      <td>react-router-6.30.0/integration/helpers/vite-plugin-cloudflare-template/app/routes</td>
-      <td>react-router-6.30.0/integration/helpers/vite-plugin-cloudflare-template/app</td>
-      <td>routes</td>
-      <td>1</td>
-      <td>react-router-6.30.0/integration/helpers/vite-plugin-cloudflare-template/app/routes/_index.tsx</td>
-      <td>tsx</td>
-      <td>4</td>
-      <td>Matt Brophy</td>
-      <td>Mark Dalgleish</td>
-      <td>8</td>
-      <td>10</td>
-      <td>53</td>
-      <td>53</td>
-      <td>2025-04-09</td>
-      <td>2025-02-24</td>
-      <td>2025-02-24</td>
-      <td>f174d2f63548c7070242453dafe3c101fd102520</td>
-    </tr>
-    <tr>
-      <th>9</th>
-      <td>react-router-6.30.0/integration/helpers/vite-plugin-cloudflare-template/public</td>
-      <td>react-router-6.30.0/integration/helpers/vite-plugin-cloudflare-template</td>
-      <td>public</td>
-      <td>1</td>
-      <td>react-router-6.30.0/integration/helpers/vite-plugin-cloudflare-template/public/favicon.ico</td>
-      <td>ico</td>
-      <td>5</td>
-      <td>Matt Brophy</td>
-      <td>Mark Dalgleish</td>
-      <td>23</td>
-      <td>10</td>
-      <td>53</td>
-      <td>53</td>
-      <td>2025-04-09</td>
-      <td>2025-02-24</td>
-      <td>2025-02-24</td>
-      <td>f8b1a47883109f968702ff272a370070577ca2ed</td>
-    </tr>
-    <tr>
-      <th>10</th>
-      <td>react-router-6.30.0/integration/helpers/vite-plugin-cloudflare-template/workers</td>
-      <td>react-router-6.30.0/integration/helpers/vite-plugin-cloudflare-template</td>
-      <td>workers</td>
-      <td>1</td>
-      <td>react-router-6.30.0/integration/helpers/vite-plugin-cloudflare-template/workers/app.ts</td>
-      <td>ts</td>
-      <td>4</td>
-      <td>Matt Brophy</td>
-      <td>Mark Dalgleish</td>
-      <td>13</td>
-      <td>10</td>
-      <td>53</td>
-      <td>31</td>
-      <td>2025-04-09</td>
-      <td>2025-02-24</td>
-      <td>2025-03-19</td>
-      <td>f77ca631ab6016e138716edf785c20d70b2855df</td>
-    </tr>
-    <tr>
-      <th>11</th>
-      <td>react-router-6.30.0/integration/helpers/vite-rolldown-template/app/routes</td>
-      <td>react-router-6.30.0/integration/helpers/vite-rolldown-template/app</td>
-      <td>routes</td>
-      <td>1</td>
-      <td>react-router-6.30.0/integration/helpers/vite-rolldown-template/app/routes/_index.tsx</td>
-      <td>tsx</td>
-      <td>2</td>
-      <td>Matt Brophy</td>
-      <td>Mark Dalgleish</td>
-      <td>4</td>
-      <td>2</td>
-      <td>8</td>
-      <td>8</td>
-      <td>2025-04-17</td>
-      <td>2025-04-11</td>
-      <td>2025-04-11</td>
-      <td>df27738b9be12f01847b86655a8a00689c15702a</td>
-    </tr>
-    <tr>
-      <th>12</th>
-      <td>react-router-6.30.0/integration/helpers/vite-rolldown-template/public</td>
-      <td>react-router-6.30.0/integration/helpers/vite-rolldown-template</td>
-      <td>public</td>
-      <td>1</td>
-      <td>react-router-6.30.0/integration/helpers/vite-rolldown-template/public/favicon.ico</td>
-      <td>ico</td>
-      <td>2</td>
-      <td>Matt Brophy</td>
-      <td>Mark Dalgleish</td>
-      <td>4</td>
-      <td>2</td>
-      <td>8</td>
-      <td>8</td>
-      <td>2025-04-17</td>
-      <td>2025-04-11</td>
-      <td>2025-04-11</td>
-      <td>df27738b9be12f01847b86655a8a00689c15702a</td>
-    </tr>
-    <tr>
-      <th>13</th>
-      <td>react-router-6.30.0/packages/create-react-router/__tests__/fixtures/basic/app/routes</td>
-      <td>react-router-6.30.0/packages/create-react-router/__tests__/fixtures/basic/app</td>
-      <td>routes</td>
-      <td>1</td>
-      <td>react-router-6.30.0/packages/create-react-router/__tests__/fixtures/basic/app/routes/home.tsx</td>
-      <td>tsx</td>
-      <td>8</td>
-      <td>Matt Brophy</td>
-      <td>Mark Dalgleish</td>
-      <td>31</td>
-      <td>148</td>
-      <td>170</td>
-      <td>170</td>
-      <td>2024-11-22</td>
-      <td>2024-10-31</td>
-      <td>2024-10-31</td>
-      <td>fbe8ac244eedb8556dd0faf00dfbe1f78e461120</td>
-    </tr>
-    <tr>
-      <th>14</th>
-      <td>react-router-6.30.0/packages/create-react-router/__tests__/fixtures/basic/public</td>
-      <td>react-router-6.30.0/packages/create-react-router/__tests__/fixtures/basic</td>
-      <td>public</td>
-      <td>1</td>
-      <td>react-router-6.30.0/packages/create-react-router/__tests__/fixtures/basic/public/favicon.ico</td>
-      <td>ico</td>
-      <td>2</td>
-      <td>Mark Dalgleish</td>
-      <td>Michael Jackson</td>
-      <td>4</td>
-      <td>148</td>
-      <td>170</td>
-      <td>170</td>
-      <td>2024-11-22</td>
-      <td>2024-10-31</td>
-      <td>2024-10-31</td>
-      <td>c6afcf85f2003d93e77f901e2b4ecdef5e83fd97</td>
-    </tr>
-    <tr>
-      <th>15</th>
-      <td>react-router-6.30.0/packages/create-react-router/__tests__/fixtures/blank</td>
-      <td>react-router-6.30.0/packages/create-react-router/__tests__/fixtures</td>
-      <td>blank</td>
-      <td>1</td>
-      <td>react-router-6.30.0/packages/create-react-router/__tests__/fixtures/blank/package.json</td>
-      <td>json</td>
-      <td>2</td>
-      <td>Mark Dalgleish</td>
-      <td>Michael Jackson</td>
-      <td>4</td>
-      <td>148</td>
-      <td>170</td>
-      <td>170</td>
-      <td>2024-11-22</td>
-      <td>2024-10-31</td>
-      <td>2024-10-31</td>
-      <td>c6afcf85f2003d93e77f901e2b4ecdef5e83fd97</td>
-    </tr>
-    <tr>
-      <th>16</th>
-      <td>react-router-6.30.0/packages/create-react-router/__tests__/fixtures/with-ignored-dir</td>
-      <td>react-router-6.30.0/packages/create-react-router/__tests__/fixtures</td>
-      <td>with-ignored-dir</td>
-      <td>1</td>
-      <td>react-router-6.30.0/packages/create-react-router/__tests__/fixtures/with-ignored-dir/package.json</td>
-      <td>json</td>
-      <td>2</td>
-      <td>Mark Dalgleish</td>
-      <td>Michael Jackson</td>
-      <td>4</td>
-      <td>148</td>
-      <td>170</td>
-      <td>170</td>
-      <td>2024-11-22</td>
-      <td>2024-10-31</td>
-      <td>2024-10-31</td>
-      <td>c6afcf85f2003d93e77f901e2b4ecdef5e83fd97</td>
-    </tr>
-    <tr>
-      <th>17</th>
-      <td>react-router-6.30.0/packages/react-router-architect/sessions</td>
-      <td>react-router-6.30.0/packages/react-router-architect</td>
-      <td>sessions</td>
-      <td>1</td>
-      <td>react-router-6.30.0/packages/react-router-architect/sessions/arcTableSessionStorage.ts</td>
-      <td>ts</td>
-      <td>3</td>
-      <td>Matt Brophy</td>
-      <td>Mark Dalgleish</td>
-      <td>8</td>
-      <td>148</td>
-      <td>277</td>
-      <td>213</td>
-      <td>2024-11-22</td>
-      <td>2024-07-16</td>
-      <td>2024-09-18</td>
-      <td>eed3ebd417e2522f527eee4fba098785ceb3dcfb</td>
-    </tr>
-    <tr>
-      <th>18</th>
-      <td>react-router-6.30.0/packages/react-router-cloudflare/sessions</td>
-      <td>react-router-6.30.0/packages/react-router-cloudflare</td>
-      <td>sessions</td>
-      <td>1</td>
-      <td>react-router-6.30.0/packages/react-router-cloudflare/sessions/workersKVStorage.ts</td>
-      <td>ts</td>
-      <td>3</td>
-      <td>Matt Brophy</td>
-      <td>Mark Dalgleish</td>
-      <td>8</td>
-      <td>148</td>
-      <td>278</td>
-      <td>213</td>
-      <td>2024-11-22</td>
-      <td>2024-07-15</td>
-      <td>2024-09-18</td>
-      <td>eed3ebd417e2522f527eee4fba098785ceb3dcfb</td>
-    </tr>
-    <tr>
-      <th>19</th>
-      <td>react-router-6.30.0/packages/react-router-config</td>
-      <td>react-router-6.30.0/packages</td>
-      <td>react-router-config</td>
-      <td>1</td>
-      <td>react-router-6.30.0/packages/react-router-config/LICENSE</td>
-      <td>LICENSE</td>
-      <td>3</td>
-      <td>Chance Strickland</td>
-      <td>Michael Jackson</td>
-      <td>4</td>
-      <td>1098</td>
-      <td>1300</td>
-      <td>1098</td>
-      <td>2022-04-17</td>
-      <td>2021-09-27</td>
-      <td>2022-04-17</td>
-      <td>fe8262722aa630dca8841a89206a0f46f6c40029</td>
-    </tr>
-    <tr>
-      <th>20</th>
-      <td>react-router-6.30.0/packages/react-router-dev/__tests__/fixtures/basic/app/routes</td>
-      <td>react-router-6.30.0/packages/react-router-dev/__tests__/fixtures/basic/app</td>
-      <td>routes</td>
-      <td>1</td>
-      <td>react-router-6.30.0/packages/react-router-dev/__tests__/fixtures/basic/app/routes/_index.tsx</td>
-      <td>tsx</td>
-      <td>7</td>
-      <td>Matt Brophy</td>
-      <td>Mark Dalgleish</td>
-      <td>29</td>
-      <td>39</td>
-      <td>93</td>
-      <td>93</td>
-      <td>2025-03-11</td>
-      <td>2025-01-16</td>
-      <td>2025-01-16</td>
-      <td>fbe8ac244eedb8556dd0faf00dfbe1f78e461120</td>
-    </tr>
-    <tr>
-      <th>21</th>
-      <td>react-router-6.30.0/packages/react-router-dev/__tests__/fixtures/basic/public</td>
-      <td>react-router-6.30.0/packages/react-router-dev/__tests__/fixtures/basic</td>
-      <td>public</td>
-      <td>1</td>
-      <td>react-router-6.30.0/packages/react-router-dev/__tests__/fixtures/basic/public/favicon.ico</td>
-      <td>ico</td>
-      <td>4</td>
-      <td>Matt Brophy</td>
-      <td>Mark Dalgleish</td>
-      <td>7</td>
-      <td>39</td>
-      <td>93</td>
-      <td>93</td>
-      <td>2025-03-11</td>
-      <td>2025-01-16</td>
-      <td>2025-01-16</td>
-      <td>c364bd450e5e8811bd4d24f7e5fe5489d361a66f</td>
-    </tr>
-    <tr>
-      <th>22</th>
-      <td>react-router-6.30.0/packages/react-router-dev/vite/static</td>
-      <td>react-router-6.30.0/packages/react-router-dev/vite</td>
-      <td>static</td>
-      <td>1</td>
-      <td>react-router-6.30.0/packages/react-router-dev/vite/static/refresh-utils.cjs</td>
-      <td>cjs</td>
-      <td>6</td>
-      <td>Matt Brophy</td>
-      <td>Mark Dalgleish</td>
-      <td>62</td>
-      <td>10</td>
-      <td>302</td>
-      <td>9</td>
-      <td>2025-04-09</td>
-      <td>2024-06-21</td>
-      <td>2025-04-09</td>
-      <td>f8b1a47883109f968702ff272a370070577ca2ed</td>
-    </tr>
-    <tr>
-      <th>23</th>
-      <td>react-router-6.30.0/packages/react-router-dom/docs</td>
-      <td>react-router-6.30.0/packages/react-router-dom</td>
-      <td>docs</td>
-      <td>1</td>
-      <td>react-router-6.30.0/packages/react-router-dom/docs/README.md</td>
-      <td>md</td>
-      <td>2</td>
-      <td>Michael Jackson</td>
-      <td>Jacob Bundgaard</td>
-      <td>3</td>
-      <td>1263</td>
-      <td>1782</td>
-      <td>1262</td>
-      <td>2021-11-03</td>
-      <td>2020-06-01</td>
-      <td>2021-11-03</td>
-      <td>c64bbce903ed80abed3488e0a57240f8a8978d0b</td>
-    </tr>
-    <tr>
-      <th>24</th>
-      <td>react-router-6.30.0/packages/react-router-express/__tests__</td>
-      <td>react-router-6.30.0/packages/react-router-express</td>
-      <td>__tests__</td>
-      <td>1</td>
-      <td>react-router-6.30.0/packages/react-router-express/__tests__/server-test.ts</td>
-      <td>ts</td>
-      <td>12</td>
-      <td>Matt Brophy</td>
-      <td>Chance Strickland</td>
-      <td>71</td>
-      <td>10</td>
-      <td>302</td>
-      <td>9</td>
-      <td>2025-04-09</td>
-      <td>2024-06-21</td>
-      <td>2025-04-09</td>
-      <td>fbe8ac244eedb8556dd0faf00dfbe1f78e461120</td>
-    </tr>
-    <tr>
-      <th>25</th>
-      <td>react-router-6.30.0/packages/react-router-native/docs</td>
-      <td>react-router-6.30.0/packages/react-router-native</td>
-      <td>docs</td>
-      <td>1</td>
-      <td>react-router-6.30.0/packages/react-router-native/docs/README.md</td>
-      <td>md</td>
-      <td>2</td>
-      <td>Michael Jackson</td>
-      <td>Jacob Bundgaard</td>
-      <td>3</td>
-      <td>1263</td>
-      <td>1782</td>
-      <td>1262</td>
-      <td>2021-11-03</td>
-      <td>2020-06-01</td>
-      <td>2021-11-03</td>
-      <td>c64bbce903ed80abed3488e0a57240f8a8978d0b</td>
-    </tr>
-    <tr>
-      <th>26</th>
-      <td>react-router-6.30.0/packages/react-router-node/sessions</td>
-      <td>react-router-6.30.0/packages/react-router-node</td>
-      <td>sessions</td>
-      <td>1</td>
-      <td>react-router-6.30.0/packages/react-router-node/sessions/fileStorage.ts</td>
-      <td>ts</td>
-      <td>13</td>
-      <td>Matt Brophy</td>
-      <td>Chance Strickland</td>
-      <td>49</td>
-      <td>148</td>
-      <td>302</td>
-      <td>213</td>
-      <td>2024-11-22</td>
-      <td>2024-06-21</td>
-      <td>2024-09-18</td>
-      <td>fbe8ac244eedb8556dd0faf00dfbe1f78e461120</td>
-    </tr>
-    <tr>
-      <th>27</th>
       <td>react-router-6.30.0/packages/react-router/__tests__/__snapshots__</td>
       <td>react-router-6.30.0/packages/react-router/__tests__</td>
       <td>__snapshots__</td>
       <td>1</td>
       <td>react-router-6.30.0/packages/react-router/__tests__/__snapshots__/route-matching-test.tsx.snap</td>
       <td>snap</td>
-      <td>3</td>
+      <td>2</td>
       <td>Chance Strickland</td>
       <td>Michael Jackson</td>
-      <td>7</td>
-      <td>388</td>
+      <td>6</td>
+      <td>1317</td>
       <td>1374</td>
       <td>1316</td>
-      <td>2024-03-27</td>
+      <td>2021-09-10</td>
       <td>2021-07-15</td>
       <td>2021-09-10</td>
       <td>eff2bd9148de1849fb93519f59262e4b53e8d823</td>
     </tr>
     <tr>
-      <th>28</th>
-      <td>react-router-6.30.0/packages/react-router/__tests__/dom/components</td>
-      <td>react-router-6.30.0/packages/react-router/__tests__/dom</td>
-      <td>components</td>
+      <th>4</th>
+      <td>react-router-6.30.0/patches</td>
+      <td>react-router-6.30.0</td>
+      <td>patches</td>
       <td>1</td>
-      <td>react-router-6.30.0/packages/react-router/__tests__/dom/components/LazyComponent.tsx</td>
+      <td>react-router-6.30.0/patches/@changesets__get-dependents-graph@1.3.6.patch</td>
+      <td>patch</td>
+      <td>4</td>
+      <td>Matt Brophy</td>
+      <td>Chance Strickland</td>
+      <td>10</td>
+      <td>361</td>
+      <td>394</td>
+      <td>394</td>
+      <td>2024-04-23</td>
+      <td>2024-03-21</td>
+      <td>2024-03-21</td>
+      <td>f264d828939e3ae74a6ca47e40d4c4b2fd027e8e</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>react-router-6.30.0/.changeset</td>
+      <td>react-router-6.30.0</td>
+      <td>.changeset</td>
+      <td>2</td>
+      <td>react-router-6.30.0/.changeset/README.md</td>
+      <td>json</td>
+      <td>3</td>
+      <td>Chance Strickland</td>
+      <td>Matt Brophy</td>
+      <td>12</td>
+      <td>361</td>
+      <td>1040</td>
+      <td>361</td>
+      <td>2024-04-23</td>
+      <td>2022-06-14</td>
+      <td>2024-04-23</td>
+      <td>f3009f5536b6bb3354bfe91d5ff02dd2fae91285</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>react-router-6.30.0/docs/upgrading</td>
+      <td>react-router-6.30.0/docs</td>
+      <td>upgrading</td>
+      <td>2</td>
+      <td>react-router-6.30.0/docs/upgrading/future.md</td>
+      <td>md</td>
+      <td>5</td>
+      <td>Matt Brophy</td>
+      <td>Brooks Lybrand</td>
+      <td>16</td>
+      <td>135</td>
+      <td>323</td>
+      <td>135</td>
+      <td>2024-12-05</td>
+      <td>2024-05-30</td>
+      <td>2024-12-05</td>
+      <td>fa256911d64a0ce07ee46fa0e598ff734842f622</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>react-router-6.30.0/examples/lazy-loading/src/pages</td>
+      <td>react-router-6.30.0/examples/lazy-loading/src</td>
+      <td>pages</td>
+      <td>2</td>
+      <td>react-router-6.30.0/examples/lazy-loading/src/pages/About.tsx</td>
+      <td>tsx</td>
+      <td>3</td>
+      <td>Matt Brophy</td>
+      <td>Logan McAnsh</td>
+      <td>14</td>
+      <td>683</td>
+      <td>1276</td>
+      <td>683</td>
+      <td>2023-06-06</td>
+      <td>2021-10-21</td>
+      <td>2023-06-06</td>
+      <td>f3e3f59fa15ab4dbc497a2d8c66055976d3e54d3</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>react-router-6.30.0/.github/ISSUE_TEMPLATE</td>
+      <td>react-router-6.30.0/.github</td>
+      <td>ISSUE_TEMPLATE</td>
+      <td>3</td>
+      <td>react-router-6.30.0/.github/ISSUE_TEMPLATE/bug_report.yml</td>
+      <td>yml</td>
+      <td>10</td>
+      <td>Matt Brophy</td>
+      <td>Chance Strickland</td>
+      <td>38</td>
+      <td>184</td>
+      <td>829</td>
+      <td>184</td>
+      <td>2024-10-17</td>
+      <td>2023-01-11</td>
+      <td>2024-10-17</td>
+      <td>fdb90690cb74b1060f9e9de550520f30f9c2ef08</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>react-router-6.30.0/examples/navigation-blocking/src</td>
+      <td>react-router-6.30.0/examples/navigation-blocking</td>
+      <td>src</td>
+      <td>3</td>
+      <td>react-router-6.30.0/examples/navigation-blocking/src/app.tsx</td>
       <td>tsx</td>
       <td>2</td>
       <td>Matt Brophy</td>
+      <td>Chance Strickland</td>
+      <td>24</td>
+      <td>520</td>
+      <td>826</td>
+      <td>520</td>
+      <td>2023-11-16</td>
+      <td>2023-01-13</td>
+      <td>2023-11-16</td>
+      <td>f3e3f59fa15ab4dbc497a2d8c66055976d3e54d3</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>react-router-6.30.0/packages/react-router-dom-v5-compat/__tests__</td>
+      <td>react-router-6.30.0/packages/react-router-dom-v5-compat</td>
+      <td>__tests__</td>
+      <td>3</td>
+      <td>react-router-6.30.0/packages/react-router-dom-v5-compat/__tests__/compat-router-test.tsx</td>
+      <td>tsx</td>
+      <td>4</td>
+      <td>Matt Brophy</td>
+      <td>Ryan Florence</td>
+      <td>12</td>
+      <td>814</td>
+      <td>820</td>
+      <td>820</td>
+      <td>2023-01-26</td>
+      <td>2023-01-19</td>
+      <td>2023-01-19</td>
+      <td>d1e7f3b749b8f2b4aa7fc605ed2f3ddc1121b63b</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>react-router-6.30.0/decisions</td>
+      <td>react-router-6.30.0</td>
+      <td>decisions</td>
+      <td>4</td>
+      <td>react-router-6.30.0/decisions/0001-use-blocker.md</td>
+      <td>md</td>
+      <td>2</td>
+      <td>Matt Brophy</td>
+      <td>Jacob Ebey</td>
+      <td>12</td>
+      <td>361</td>
+      <td>404</td>
+      <td>404</td>
+      <td>2024-04-23</td>
+      <td>2024-03-11</td>
+      <td>2024-03-11</td>
+      <td>fca5e55122ee717afac9da1020861a68d0b6425b</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>react-router-6.30.0/examples/basic/src</td>
+      <td>react-router-6.30.0/examples/basic</td>
+      <td>src</td>
+      <td>4</td>
+      <td>react-router-6.30.0/examples/basic/src/App.tsx</td>
+      <td>tsx</td>
+      <td>7</td>
+      <td>Matt Brophy</td>
+      <td>Chance Strickland</td>
+      <td>25</td>
+      <td>683</td>
+      <td>1335</td>
+      <td>683</td>
+      <td>2023-06-06</td>
+      <td>2021-08-23</td>
+      <td>2023-06-06</td>
+      <td>fedf1d2ad8b7cc20b2fcfe18d86d0f4eb3f689a2</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>react-router-6.30.0/examples/custom-link/src</td>
+      <td>react-router-6.30.0/examples/custom-link</td>
+      <td>src</td>
+      <td>4</td>
+      <td>react-router-6.30.0/examples/custom-link/src/App.tsx</td>
+      <td>tsx</td>
+      <td>5</td>
+      <td>Matt Brophy</td>
+      <td>Logan McAnsh</td>
+      <td>18</td>
+      <td>683</td>
+      <td>1289</td>
+      <td>683</td>
+      <td>2023-06-06</td>
+      <td>2021-10-07</td>
+      <td>2023-06-06</td>
+      <td>fedf1d2ad8b7cc20b2fcfe18d86d0f4eb3f689a2</td>
+    </tr>
+    <tr>
+      <th>14</th>
+      <td>react-router-6.30.0/examples/custom-query-parsing/src</td>
+      <td>react-router-6.30.0/examples/custom-query-parsing</td>
+      <td>src</td>
+      <td>4</td>
+      <td>react-router-6.30.0/examples/custom-query-parsing/src/App.tsx</td>
+      <td>tsx</td>
+      <td>7</td>
+      <td>Logan McAnsh</td>
+      <td>Matt Brophy</td>
+      <td>24</td>
+      <td>683</td>
+      <td>1276</td>
+      <td>683</td>
+      <td>2023-06-06</td>
+      <td>2021-10-20</td>
+      <td>2023-06-06</td>
+      <td>fedf1d2ad8b7cc20b2fcfe18d86d0f4eb3f689a2</td>
+    </tr>
+    <tr>
+      <th>15</th>
+      <td>react-router-6.30.0/examples/multi-app/home</td>
+      <td>react-router-6.30.0/examples/multi-app</td>
+      <td>home</td>
+      <td>4</td>
+      <td>react-router-6.30.0/examples/multi-app/home/main.jsx</td>
+      <td>jsx</td>
+      <td>4</td>
+      <td>Matt Brophy</td>
+      <td>Logan McAnsh</td>
+      <td>14</td>
+      <td>683</td>
+      <td>1274</td>
+      <td>683</td>
+      <td>2023-06-06</td>
+      <td>2021-10-22</td>
+      <td>2023-06-06</td>
+      <td>f3e3f59fa15ab4dbc497a2d8c66055976d3e54d3</td>
+    </tr>
+    <tr>
+      <th>16</th>
+      <td>react-router-6.30.0/examples/route-objects/src</td>
+      <td>react-router-6.30.0/examples/route-objects</td>
+      <td>src</td>
+      <td>4</td>
+      <td>react-router-6.30.0/examples/route-objects/src/App.tsx</td>
+      <td>tsx</td>
+      <td>5</td>
+      <td>Matt Brophy</td>
       <td>Michael Jackson</td>
+      <td>23</td>
+      <td>683</td>
+      <td>1276</td>
+      <td>683</td>
+      <td>2023-06-06</td>
+      <td>2021-10-21</td>
+      <td>2023-06-06</td>
+      <td>fedf1d2ad8b7cc20b2fcfe18d86d0f4eb3f689a2</td>
+    </tr>
+    <tr>
+      <th>17</th>
+      <td>react-router-6.30.0/examples/scroll-restoration/src</td>
+      <td>react-router-6.30.0/examples/scroll-restoration</td>
+      <td>src</td>
+      <td>4</td>
+      <td>react-router-6.30.0/examples/scroll-restoration/src/app.tsx</td>
+      <td>tsx</td>
+      <td>3</td>
+      <td>Matt Brophy</td>
+      <td>Pedro Cattori</td>
+      <td>25</td>
+      <td>683</td>
+      <td>953</td>
+      <td>683</td>
+      <td>2023-06-06</td>
+      <td>2022-09-08</td>
+      <td>2023-06-06</td>
+      <td>f3e3f59fa15ab4dbc497a2d8c66055976d3e54d3</td>
+    </tr>
+    <tr>
+      <th>18</th>
+      <td>react-router-6.30.0/examples/search-params/src</td>
+      <td>react-router-6.30.0/examples/search-params</td>
+      <td>src</td>
+      <td>4</td>
+      <td>react-router-6.30.0/examples/search-params/src/main.tsx</td>
+      <td>tsx</td>
+      <td>6</td>
+      <td>Matt Brophy</td>
+      <td>Logan McAnsh</td>
       <td>16</td>
-      <td>148</td>
-      <td>365</td>
-      <td>365</td>
-      <td>2024-11-22</td>
-      <td>2024-04-19</td>
-      <td>2024-04-19</td>
-      <td>f8b1a47883109f968702ff272a370070577ca2ed</td>
+      <td>683</td>
+      <td>1291</td>
+      <td>683</td>
+      <td>2023-06-06</td>
+      <td>2021-10-05</td>
+      <td>2023-06-06</td>
+      <td>fedf1d2ad8b7cc20b2fcfe18d86d0f4eb3f689a2</td>
+    </tr>
+    <tr>
+      <th>19</th>
+      <td>react-router-6.30.0/packages/react-router-native/__tests__/__snapshots__</td>
+      <td>react-router-6.30.0/packages/react-router-native/__tests__</td>
+      <td>__snapshots__</td>
+      <td>4</td>
+      <td>react-router-6.30.0/packages/react-router-native/__tests__/__snapshots__/deep-linking-test.tsx.snap</td>
+      <td>snap</td>
+      <td>4</td>
+      <td>Chance Strickland</td>
+      <td>Matt Brophy</td>
+      <td>27</td>
+      <td>814</td>
+      <td>1324</td>
+      <td>814</td>
+      <td>2023-01-26</td>
+      <td>2021-09-03</td>
+      <td>2023-01-26</td>
+      <td>eff2bd9148de1849fb93519f59262e4b53e8d823</td>
+    </tr>
+    <tr>
+      <th>20</th>
+      <td>react-router-6.30.0/packages/react-router/lib</td>
+      <td>react-router-6.30.0/packages/react-router</td>
+      <td>lib</td>
+      <td>4</td>
+      <td>react-router-6.30.0/packages/react-router/lib/components.tsx</td>
+      <td>tsx</td>
+      <td>19</td>
+      <td>Matt Brophy</td>
+      <td>Chance Strickland</td>
+      <td>312</td>
+      <td>79</td>
+      <td>183</td>
+      <td>79</td>
+      <td>2025-01-30</td>
+      <td>2024-10-18</td>
+      <td>2025-01-30</td>
+      <td>feebfc0bf10614ba44ff43e2b9c69e22ad07a7a1</td>
+    </tr>
+    <tr>
+      <th>21</th>
+      <td>react-router-6.30.0/packages/router/__tests__/utils</td>
+      <td>react-router-6.30.0/packages/router/__tests__</td>
+      <td>utils</td>
+      <td>4</td>
+      <td>react-router-6.30.0/packages/router/__tests__/utils/custom-matchers.ts</td>
+      <td>ts</td>
+      <td>2</td>
+      <td>Matt Brophy</td>
+      <td>Jacob Ebey</td>
+      <td>32</td>
+      <td>221</td>
+      <td>404</td>
+      <td>221</td>
+      <td>2024-09-10</td>
+      <td>2024-03-11</td>
+      <td>2024-09-10</td>
+      <td>ec03b12c600ba899d1a35b6f63bc45bb594c1e88</td>
+    </tr>
+    <tr>
+      <th>22</th>
+      <td>react-router-6.30.0/tutorial/src</td>
+      <td>react-router-6.30.0/tutorial</td>
+      <td>src</td>
+      <td>4</td>
+      <td>react-router-6.30.0/tutorial/src/App.jsx</td>
+      <td>jsx</td>
+      <td>3</td>
+      <td>Chance Strickland</td>
+      <td>Chris Chudzicki</td>
+      <td>10</td>
+      <td>1146</td>
+      <td>1265</td>
+      <td>1145</td>
+      <td>2022-02-28</td>
+      <td>2021-11-01</td>
+      <td>2022-02-28</td>
+      <td>f5dccaa1426ea2c06dc654a73b939e45c7d5038e</td>
+    </tr>
+    <tr>
+      <th>23</th>
+      <td>react-router-6.30.0/docs/fetch</td>
+      <td>react-router-6.30.0/docs</td>
+      <td>fetch</td>
+      <td>5</td>
+      <td>react-router-6.30.0/docs/fetch/index.md</td>
+      <td>md</td>
+      <td>6</td>
+      <td>Matt Brophy</td>
+      <td>Ryan Florence</td>
+      <td>22</td>
+      <td>261</td>
+      <td>262</td>
+      <td>262</td>
+      <td>2024-08-01</td>
+      <td>2024-07-31</td>
+      <td>2024-07-31</td>
+      <td>f0b886bce7dab2e2f37f53fe58cd6c7ab0660e25</td>
+    </tr>
+    <tr>
+      <th>24</th>
+      <td>react-router-6.30.0/examples/auth/src</td>
+      <td>react-router-6.30.0/examples/auth</td>
+      <td>src</td>
+      <td>5</td>
+      <td>react-router-6.30.0/examples/auth/src/main.tsx</td>
+      <td>tsx</td>
+      <td>8</td>
+      <td>Matt Brophy</td>
+      <td>Michael Jackson</td>
+      <td>28</td>
+      <td>683</td>
+      <td>1293</td>
+      <td>683</td>
+      <td>2023-06-06</td>
+      <td>2021-10-04</td>
+      <td>2023-06-06</td>
+      <td>fedf1d2ad8b7cc20b2fcfe18d86d0f4eb3f689a2</td>
+    </tr>
+    <tr>
+      <th>25</th>
+      <td>react-router-6.30.0/examples/custom-filter-link/src</td>
+      <td>react-router-6.30.0/examples/custom-filter-link</td>
+      <td>src</td>
+      <td>5</td>
+      <td>react-router-6.30.0/examples/custom-filter-link/src/App.tsx</td>
+      <td>tsx</td>
+      <td>6</td>
+      <td>Matt Brophy</td>
+      <td>Logan McAnsh</td>
+      <td>19</td>
+      <td>683</td>
+      <td>1289</td>
+      <td>683</td>
+      <td>2023-06-06</td>
+      <td>2021-10-07</td>
+      <td>2023-06-06</td>
+      <td>fedf1d2ad8b7cc20b2fcfe18d86d0f4eb3f689a2</td>
+    </tr>
+    <tr>
+      <th>26</th>
+      <td>react-router-6.30.0/examples/data-router/src</td>
+      <td>react-router-6.30.0/examples/data-router</td>
+      <td>src</td>
+      <td>5</td>
+      <td>react-router-6.30.0/examples/data-router/src/app.tsx</td>
+      <td>tsx</td>
+      <td>4</td>
+      <td>Matt Brophy</td>
+      <td>Chance Strickland</td>
+      <td>36</td>
+      <td>520</td>
+      <td>953</td>
+      <td>520</td>
+      <td>2023-11-16</td>
+      <td>2022-09-08</td>
+      <td>2023-11-16</td>
+      <td>f3e3f59fa15ab4dbc497a2d8c66055976d3e54d3</td>
+    </tr>
+    <tr>
+      <th>27</th>
+      <td>react-router-6.30.0/examples/error-boundaries/src</td>
+      <td>react-router-6.30.0/examples/error-boundaries</td>
+      <td>src</td>
+      <td>5</td>
+      <td>react-router-6.30.0/examples/error-boundaries/src/app.tsx</td>
+      <td>tsx</td>
+      <td>2</td>
+      <td>Matt Brophy</td>
+      <td>Pedro Cattori</td>
+      <td>25</td>
+      <td>683</td>
+      <td>953</td>
+      <td>683</td>
+      <td>2023-06-06</td>
+      <td>2022-09-08</td>
+      <td>2023-06-06</td>
+      <td>f3e3f59fa15ab4dbc497a2d8c66055976d3e54d3</td>
+    </tr>
+    <tr>
+      <th>28</th>
+      <td>react-router-6.30.0/examples/modal-route-with-outlet/src</td>
+      <td>react-router-6.30.0/examples/modal-route-with-outlet</td>
+      <td>src</td>
+      <td>5</td>
+      <td>react-router-6.30.0/examples/modal-route-with-outlet/src/App.tsx</td>
+      <td>ts</td>
+      <td>2</td>
+      <td>Matt Brophy</td>
+      <td>Shane Walker</td>
+      <td>15</td>
+      <td>618</td>
+      <td>640</td>
+      <td>640</td>
+      <td>2023-08-10</td>
+      <td>2023-07-19</td>
+      <td>2023-07-19</td>
+      <td>fad3bc011140d6daec3d03889ac30375aca11c05</td>
     </tr>
     <tr>
       <th>29</th>
-      <td>react-router-6.30.0/packages/react-router/__tests__/dom/polyfills</td>
-      <td>react-router-6.30.0/packages/react-router/__tests__/dom</td>
-      <td>polyfills</td>
-      <td>1</td>
-      <td>react-router-6.30.0/packages/react-router/__tests__/dom/polyfills/drop-FormData-submitter.ts</td>
-      <td>ts</td>
-      <td>3</td>
-      <td>Matt Brophy</td>
-      <td>Jon Jensen</td>
-      <td>16</td>
-      <td>148</td>
-      <td>365</td>
-      <td>365</td>
-      <td>2024-11-22</td>
-      <td>2024-04-19</td>
-      <td>2024-04-19</td>
-      <td>f8b1a47883109f968702ff272a370070577ca2ed</td>
+      <td>react-router-6.30.0/examples/modal/src</td>
+      <td>react-router-6.30.0/examples/modal</td>
+      <td>src</td>
+      <td>5</td>
+      <td>react-router-6.30.0/examples/modal/src/App.tsx</td>
+      <td>tsx</td>
+      <td>6</td>
+      <td>Michael Jackson</td>
+      <td>Logan McAnsh</td>
+      <td>22</td>
+      <td>683</td>
+      <td>1289</td>
+      <td>683</td>
+      <td>2023-06-06</td>
+      <td>2021-10-07</td>
+      <td>2023-06-06</td>
+      <td>fedf1d2ad8b7cc20b2fcfe18d86d0f4eb3f689a2</td>
     </tr>
   </tbody>
 </table>
@@ -8561,9 +8561,9 @@ maplibre-gl/dist/maplibre-gl.js:
 
 window.Plotly = Plotly;
 return Plotly;
-}));</script>                <div id="485e2487-21bf-48cf-b624-c2a2b0fad421" class="plotly-graph-div" style="height:525px; width:100%;"></div>            <script type="text/javascript">                window.PLOTLYENV=window.PLOTLYENV || {};                                if (document.getElementById("485e2487-21bf-48cf-b624-c2a2b0fad421")) {                    Plotly.newPlot(                        "485e2487-21bf-48cf-b624-c2a2b0fad421",                        [{"labels":["A","B","C","D","E"],"marker":{"colorbar":{"tickformat":",","ticklabeloverflow":"allow","ticklabelposition":"outside top","ticklabelstep":1,"tickmode":"auto","title":{"text":"Value"}},"colors":[10,20,30,40,50],"colorscale":[[0.0,"rgb(247,251,255)"],[0.125,"rgb(222,235,247)"],[0.25,"rgb(198,219,239)"],[0.375,"rgb(158,202,225)"],[0.5,"rgb(107,174,214)"],[0.625,"rgb(66,146,198)"],[0.75,"rgb(33,113,181)"],[0.875,"rgb(8,81,156)"],[1.0,"rgb(8,48,107)"]]},"parents":["","A","A","B","B"],"values":[10,20,30,40,50],"type":"treemap"}],                        {"template":{"data":{"histogram2dcontour":[{"type":"histogram2dcontour","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"choropleth":[{"type":"choropleth","colorbar":{"outlinewidth":0,"ticks":""}}],"histogram2d":[{"type":"histogram2d","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"heatmap":[{"type":"heatmap","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"contourcarpet":[{"type":"contourcarpet","colorbar":{"outlinewidth":0,"ticks":""}}],"contour":[{"type":"contour","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"surface":[{"type":"surface","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"mesh3d":[{"type":"mesh3d","colorbar":{"outlinewidth":0,"ticks":""}}],"scatter":[{"fillpattern":{"fillmode":"overlay","size":10,"solidity":0.2},"type":"scatter"}],"parcoords":[{"type":"parcoords","line":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterpolargl":[{"type":"scatterpolargl","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"bar":[{"error_x":{"color":"#2a3f5f"},"error_y":{"color":"#2a3f5f"},"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"bar"}],"scattergeo":[{"type":"scattergeo","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterpolar":[{"type":"scatterpolar","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"histogram":[{"marker":{"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"histogram"}],"scattergl":[{"type":"scattergl","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatter3d":[{"type":"scatter3d","line":{"colorbar":{"outlinewidth":0,"ticks":""}},"marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattermap":[{"type":"scattermap","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattermapbox":[{"type":"scattermapbox","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterternary":[{"type":"scatterternary","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattercarpet":[{"type":"scattercarpet","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"carpet":[{"aaxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"baxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"type":"carpet"}],"table":[{"cells":{"fill":{"color":"#EBF0F8"},"line":{"color":"white"}},"header":{"fill":{"color":"#C8D4E3"},"line":{"color":"white"}},"type":"table"}],"barpolar":[{"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"barpolar"}],"pie":[{"automargin":true,"type":"pie"}]},"layout":{"autotypenumbers":"strict","colorway":["#636efa","#EF553B","#00cc96","#ab63fa","#FFA15A","#19d3f3","#FF6692","#B6E880","#FF97FF","#FECB52"],"font":{"color":"#2a3f5f"},"hovermode":"closest","hoverlabel":{"align":"left"},"paper_bgcolor":"white","plot_bgcolor":"#E5ECF6","polar":{"bgcolor":"#E5ECF6","angularaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"radialaxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"ternary":{"bgcolor":"#E5ECF6","aaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"baxis":{"gridcolor":"white","linecolor":"white","ticks":""},"caxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"coloraxis":{"colorbar":{"outlinewidth":0,"ticks":""}},"colorscale":{"sequential":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"sequentialminus":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"diverging":[[0,"#8e0152"],[0.1,"#c51b7d"],[0.2,"#de77ae"],[0.3,"#f1b6da"],[0.4,"#fde0ef"],[0.5,"#f7f7f7"],[0.6,"#e6f5d0"],[0.7,"#b8e186"],[0.8,"#7fbc41"],[0.9,"#4d9221"],[1,"#276419"]]},"xaxis":{"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","automargin":true,"zerolinewidth":2},"yaxis":{"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","automargin":true,"zerolinewidth":2},"scene":{"xaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2},"yaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2},"zaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2}},"shapedefaults":{"line":{"color":"#2a3f5f"}},"annotationdefaults":{"arrowcolor":"#2a3f5f","arrowhead":0,"arrowwidth":1},"geo":{"bgcolor":"white","landcolor":"#E5ECF6","subunitcolor":"white","showland":true,"showlakes":true,"lakecolor":"white"},"title":{"x":0.05},"mapbox":{"style":"light"}}},"coloraxis":{"colorbar":{"tickvals":[50],"ticktext":["50 or more"]}}},                        {"responsive": true}                    ).then(function(){
+}));</script>                <div id="e71ed8cf-bc48-4cf6-af79-3ea11741b1b5" class="plotly-graph-div" style="height:525px; width:100%;"></div>            <script type="text/javascript">                window.PLOTLYENV=window.PLOTLYENV || {};                                if (document.getElementById("e71ed8cf-bc48-4cf6-af79-3ea11741b1b5")) {                    Plotly.newPlot(                        "e71ed8cf-bc48-4cf6-af79-3ea11741b1b5",                        [{"labels":["A","B","C","D","E"],"marker":{"colorbar":{"tickformat":",","ticklabeloverflow":"allow","ticklabelposition":"outside top","ticklabelstep":1,"tickmode":"auto","title":{"text":"Value"}},"colors":[10,20,30,40,50],"colorscale":[[0.0,"rgb(247,251,255)"],[0.125,"rgb(222,235,247)"],[0.25,"rgb(198,219,239)"],[0.375,"rgb(158,202,225)"],[0.5,"rgb(107,174,214)"],[0.625,"rgb(66,146,198)"],[0.75,"rgb(33,113,181)"],[0.875,"rgb(8,81,156)"],[1.0,"rgb(8,48,107)"]]},"parents":["","A","A","B","B"],"values":[10,20,30,40,50],"type":"treemap"}],                        {"template":{"data":{"histogram2dcontour":[{"type":"histogram2dcontour","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"choropleth":[{"type":"choropleth","colorbar":{"outlinewidth":0,"ticks":""}}],"histogram2d":[{"type":"histogram2d","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"heatmap":[{"type":"heatmap","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"contourcarpet":[{"type":"contourcarpet","colorbar":{"outlinewidth":0,"ticks":""}}],"contour":[{"type":"contour","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"surface":[{"type":"surface","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"mesh3d":[{"type":"mesh3d","colorbar":{"outlinewidth":0,"ticks":""}}],"scatter":[{"fillpattern":{"fillmode":"overlay","size":10,"solidity":0.2},"type":"scatter"}],"parcoords":[{"type":"parcoords","line":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterpolargl":[{"type":"scatterpolargl","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"bar":[{"error_x":{"color":"#2a3f5f"},"error_y":{"color":"#2a3f5f"},"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"bar"}],"scattergeo":[{"type":"scattergeo","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterpolar":[{"type":"scatterpolar","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"histogram":[{"marker":{"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"histogram"}],"scattergl":[{"type":"scattergl","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatter3d":[{"type":"scatter3d","line":{"colorbar":{"outlinewidth":0,"ticks":""}},"marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattermap":[{"type":"scattermap","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattermapbox":[{"type":"scattermapbox","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterternary":[{"type":"scatterternary","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattercarpet":[{"type":"scattercarpet","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"carpet":[{"aaxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"baxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"type":"carpet"}],"table":[{"cells":{"fill":{"color":"#EBF0F8"},"line":{"color":"white"}},"header":{"fill":{"color":"#C8D4E3"},"line":{"color":"white"}},"type":"table"}],"barpolar":[{"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"barpolar"}],"pie":[{"automargin":true,"type":"pie"}]},"layout":{"autotypenumbers":"strict","colorway":["#636efa","#EF553B","#00cc96","#ab63fa","#FFA15A","#19d3f3","#FF6692","#B6E880","#FF97FF","#FECB52"],"font":{"color":"#2a3f5f"},"hovermode":"closest","hoverlabel":{"align":"left"},"paper_bgcolor":"white","plot_bgcolor":"#E5ECF6","polar":{"bgcolor":"#E5ECF6","angularaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"radialaxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"ternary":{"bgcolor":"#E5ECF6","aaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"baxis":{"gridcolor":"white","linecolor":"white","ticks":""},"caxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"coloraxis":{"colorbar":{"outlinewidth":0,"ticks":""}},"colorscale":{"sequential":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"sequentialminus":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"diverging":[[0,"#8e0152"],[0.1,"#c51b7d"],[0.2,"#de77ae"],[0.3,"#f1b6da"],[0.4,"#fde0ef"],[0.5,"#f7f7f7"],[0.6,"#e6f5d0"],[0.7,"#b8e186"],[0.8,"#7fbc41"],[0.9,"#4d9221"],[1,"#276419"]]},"xaxis":{"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","automargin":true,"zerolinewidth":2},"yaxis":{"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","automargin":true,"zerolinewidth":2},"scene":{"xaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2},"yaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2},"zaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2}},"shapedefaults":{"line":{"color":"#2a3f5f"}},"annotationdefaults":{"arrowcolor":"#2a3f5f","arrowhead":0,"arrowwidth":1},"geo":{"bgcolor":"white","landcolor":"#E5ECF6","subunitcolor":"white","showland":true,"showlakes":true,"lakecolor":"white"},"title":{"x":0.05},"mapbox":{"style":"light"}}},"coloraxis":{"colorbar":{"tickvals":[50],"ticktext":["50 or more"]}}},                        {"responsive": true}                    ).then(function(){
 
-var gd = document.getElementById('485e2487-21bf-48cf-b624-c2a2b0fad421');
+var gd = document.getElementById('e71ed8cf-bc48-4cf6-af79-3ea11741b1b5');
 var x = new MutationObserver(function (mutations, observer) {{
         var display = window.getComputedStyle(gd).display;
         if (!display || display === 'none') {{
@@ -8668,8 +8668,8 @@ The data preview also includes overall statistics including the number of commit
 
 ### Preview data
 
-    Sum of commits that changed more than 30 files (each) = 482
-    Max changed files with one commit = 1061
+    Sum of commits that changed more than 30 files (each) = 229
+    Max changed files with one commit = 498
 
 
 
@@ -8685,18 +8685,18 @@ The data preview also includes overall statistics including the number of commit
   <tbody>
     <tr>
       <th>count</th>
-      <td>174.000000</td>
-      <td>174.000000</td>
+      <td>117.000000</td>
+      <td>117.000000</td>
     </tr>
     <tr>
       <th>mean</th>
-      <td>152.936782</td>
-      <td>65.701149</td>
+      <td>79.179487</td>
+      <td>57.487179</td>
     </tr>
     <tr>
       <th>std</th>
-      <td>193.444744</td>
-      <td>391.697805</td>
+      <td>78.464424</td>
+      <td>318.285158</td>
     </tr>
     <tr>
       <th>min</th>
@@ -8705,23 +8705,23 @@ The data preview also includes overall statistics including the number of commit
     </tr>
     <tr>
       <th>25%</th>
-      <td>44.250000</td>
+      <td>30.000000</td>
       <td>1.000000</td>
     </tr>
     <tr>
       <th>50%</th>
-      <td>89.000000</td>
+      <td>59.000000</td>
       <td>3.000000</td>
     </tr>
     <tr>
       <th>75%</th>
-      <td>163.750000</td>
+      <td>96.000000</td>
       <td>8.000000</td>
     </tr>
     <tr>
       <th>max</th>
-      <td>1061.000000</td>
-      <td>4686.000000</td>
+      <td>498.000000</td>
+      <td>3220.000000</td>
     </tr>
   </tbody>
 </table>
@@ -8742,152 +8742,152 @@ The data preview also includes overall statistics including the number of commit
     <tr>
       <th>0</th>
       <td>1</td>
-      <td>4686</td>
+      <td>3220</td>
     </tr>
     <tr>
       <th>1</th>
       <td>2</td>
-      <td>1863</td>
+      <td>1119</td>
     </tr>
     <tr>
       <th>2</th>
       <td>3</td>
-      <td>911</td>
+      <td>516</td>
     </tr>
     <tr>
       <th>3</th>
       <td>4</td>
-      <td>584</td>
+      <td>328</td>
     </tr>
     <tr>
       <th>4</th>
       <td>5</td>
-      <td>504</td>
+      <td>241</td>
     </tr>
     <tr>
       <th>5</th>
       <td>6</td>
-      <td>306</td>
+      <td>166</td>
     </tr>
     <tr>
       <th>6</th>
       <td>7</td>
-      <td>234</td>
+      <td>119</td>
     </tr>
     <tr>
       <th>7</th>
       <td>8</td>
-      <td>160</td>
+      <td>81</td>
     </tr>
     <tr>
       <th>8</th>
       <td>9</td>
-      <td>119</td>
+      <td>68</td>
     </tr>
     <tr>
       <th>9</th>
       <td>10</td>
-      <td>191</td>
+      <td>64</td>
     </tr>
     <tr>
       <th>10</th>
       <td>11</td>
-      <td>310</td>
+      <td>101</td>
     </tr>
     <tr>
       <th>11</th>
       <td>12</td>
-      <td>264</td>
+      <td>65</td>
     </tr>
     <tr>
       <th>12</th>
       <td>13</td>
-      <td>103</td>
+      <td>62</td>
     </tr>
     <tr>
       <th>13</th>
       <td>14</td>
-      <td>88</td>
+      <td>50</td>
     </tr>
     <tr>
       <th>14</th>
       <td>15</td>
-      <td>58</td>
+      <td>36</td>
     </tr>
     <tr>
       <th>15</th>
       <td>16</td>
-      <td>52</td>
+      <td>31</td>
     </tr>
     <tr>
       <th>16</th>
       <td>17</td>
-      <td>46</td>
+      <td>30</td>
     </tr>
     <tr>
       <th>17</th>
       <td>18</td>
-      <td>40</td>
+      <td>25</td>
     </tr>
     <tr>
       <th>18</th>
       <td>19</td>
-      <td>47</td>
+      <td>30</td>
     </tr>
     <tr>
       <th>19</th>
       <td>20</td>
-      <td>33</td>
+      <td>25</td>
     </tr>
     <tr>
       <th>20</th>
       <td>21</td>
-      <td>37</td>
+      <td>21</td>
     </tr>
     <tr>
       <th>21</th>
       <td>22</td>
-      <td>31</td>
+      <td>12</td>
     </tr>
     <tr>
       <th>22</th>
       <td>23</td>
-      <td>57</td>
+      <td>15</td>
     </tr>
     <tr>
       <th>23</th>
       <td>24</td>
-      <td>31</td>
+      <td>13</td>
     </tr>
     <tr>
       <th>24</th>
       <td>25</td>
-      <td>30</td>
+      <td>15</td>
     </tr>
     <tr>
       <th>25</th>
       <td>26</td>
-      <td>15</td>
+      <td>6</td>
     </tr>
     <tr>
       <th>26</th>
       <td>27</td>
-      <td>56</td>
+      <td>6</td>
     </tr>
     <tr>
       <th>27</th>
       <td>28</td>
-      <td>57</td>
+      <td>13</td>
     </tr>
     <tr>
       <th>28</th>
       <td>29</td>
-      <td>19</td>
+      <td>9</td>
     </tr>
     <tr>
       <th>29</th>
       <td>30</td>
-      <td>18</td>
+      <td>10</td>
     </tr>
   </tbody>
 </table>
@@ -9088,53 +9088,53 @@ This section explores the correlation between how often pairs of files are chang
   <tbody>
     <tr>
       <th>0</th>
-      <td>Matt Brophy</td>
-      <td>2131</td>
+      <td>Michael Jackson</td>
+      <td>1832</td>
     </tr>
     <tr>
       <th>1</th>
-      <td>Michael Jackson</td>
-      <td>1951</td>
+      <td>Ryan Florence</td>
+      <td>1119</td>
     </tr>
     <tr>
       <th>2</th>
-      <td>Ryan Florence</td>
-      <td>1307</td>
+      <td>Matt Brophy</td>
+      <td>753</td>
     </tr>
     <tr>
       <th>3</th>
-      <td>Remix Run Bot</td>
-      <td>531</td>
+      <td>Jimmy Jia</td>
+      <td>381</td>
     </tr>
     <tr>
       <th>4</th>
-      <td>Chance Strickland</td>
-      <td>511</td>
+      <td>Tim Dorr</td>
+      <td>326</td>
     </tr>
     <tr>
       <th>5</th>
-      <td>Mark Dalgleish</td>
-      <td>427</td>
+      <td>Chance Strickland</td>
+      <td>180</td>
     </tr>
     <tr>
       <th>6</th>
-      <td>Pedro Cattori</td>
-      <td>412</td>
+      <td>Mateusz Zatorski</td>
+      <td>124</td>
     </tr>
     <tr>
       <th>7</th>
-      <td>Tim Dorr</td>
-      <td>392</td>
+      <td>Logan McAnsh</td>
+      <td>99</td>
     </tr>
     <tr>
       <th>8</th>
-      <td>Jimmy Jia</td>
-      <td>389</td>
+      <td>Dan Abramov</td>
+      <td>92</td>
     </tr>
     <tr>
       <th>9</th>
-      <td>Jacob Ebey</td>
-      <td>329</td>
+      <td>Paul Sherman</td>
+      <td>77</td>
     </tr>
   </tbody>
 </table>
