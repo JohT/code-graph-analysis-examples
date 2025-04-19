@@ -66,19 +66,19 @@
     </tr>
     <tr>
       <th>6</th>
-      <td>examples</td>
+      <td>packages</td>
     </tr>
     <tr>
       <th>7</th>
-      <td>custom</td>
+      <td>router</td>
     </tr>
     <tr>
       <th>8</th>
-      <td>link</td>
+      <td>react</td>
     </tr>
     <tr>
       <th>9</th>
-      <td>notes</td>
+      <td>router</td>
     </tr>
   </tbody>
 </table>
@@ -112,53 +112,53 @@
   <tbody>
     <tr>
       <th>0</th>
-      <td>James Opstad</td>
-      <td>5</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>Matt Lynch</td>
+      <td>Peter Ruszel</td>
       <td>1</td>
     </tr>
     <tr>
+      <th>1</th>
+      <td>Remix Run Bot</td>
+      <td>531</td>
+    </tr>
+    <tr>
       <th>2</th>
-      <td>Ryan Florence</td>
-      <td>1307</td>
+      <td>Matt Brophy</td>
+      <td>2131</td>
     </tr>
     <tr>
       <th>3</th>
-      <td>迷渡</td>
-      <td>2</td>
+      <td>Jacob Ebey</td>
+      <td>329</td>
     </tr>
     <tr>
       <th>4</th>
       <td>Tim Dorr</td>
-      <td>390</td>
+      <td>392</td>
     </tr>
     <tr>
       <th>5</th>
-      <td>Mark Dalgleish</td>
-      <td>423</td>
+      <td>Mikaël Sévigny</td>
+      <td>1</td>
     </tr>
     <tr>
       <th>6</th>
-      <td>Remix Run Bot</td>
-      <td>504</td>
+      <td>Brooks Lybrand</td>
+      <td>81</td>
     </tr>
     <tr>
       <th>7</th>
-      <td>weiss</td>
+      <td>Mat Milbury</td>
       <td>1</td>
     </tr>
     <tr>
       <th>8</th>
-      <td>Matt Brophy</td>
-      <td>2084</td>
+      <td>Dima Smirnov</td>
+      <td>1</td>
     </tr>
     <tr>
       <th>9</th>
-      <td>Jacob Ebey</td>
-      <td>294</td>
+      <td>Michaël De Boey</td>
+      <td>157</td>
     </tr>
   </tbody>
 </table>

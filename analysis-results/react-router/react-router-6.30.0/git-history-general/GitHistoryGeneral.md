@@ -23,9 +23,6 @@
 
 ### File Data Preparation 
 
-    Received notification from DBMS server: {severity: WARNING} {code: Neo.ClientNotification.Statement.AggregationSkippedNull} {category: UNRECOGNIZED} {title: The query contains an aggregation function that skips null values.} {description: null value eliminated in set function.} {position: None} for query: "// List git files with commit statistics\n \n  MATCH (git_file:File&Git&!Repository)\n  WHERE git_file.deletedAt IS NULL // filter out deleted files\n   WITH percentileDisc(git_file.createdAtEpoch, 0.5)          AS medianCreatedAtEpoch\n       ,percentileDisc(git_file.lastModificationAtEpoch, 0.5) AS medianLastModificationAtEpoch\n       ,collect(git_file)                                     AS git_files\n UNWIND git_files AS git_file\n   WITH *\n       ,datetime.fromepochMillis(coalesce(git_file.createdAtEpoch, medianCreatedAtEpoch))                                            AS fileCreatedAtTimestamp\n       ,datetime.fromepochMillis(coalesce(git_file.lastModificationAtEpoch, git_file.createdAtEpoch, medianLastModificationAtEpoch)) AS fileLastModificationAtTimestamp\n  MATCH (git_repository:Git&Repository)-[:HAS_FILE]->(git_file)\n  MATCH (git_commit:Git&Commit)-[:CONTAINS_CHANGE]->(git_change:Git&Change)-->(old_files_included:Git&File&!Repository)-[:HAS_NEW_NAME*0..3]->(git_file)\n RETURN git_repository.name + '/' + git_file.relativePath AS filePath\n       ,split(git_commit.author, ' <')[0]                 AS author\n       ,count(DISTINCT git_commit.sha)                    AS commitCount\n       ,date(max(git_commit.date))                        AS lastCommitDate\n       ,max(date(fileCreatedAtTimestamp))                 AS lastCreationDate\n       ,max(date(fileLastModificationAtTimestamp))        AS lastModificationDate\n       ,duration.inDays(date(max(git_commit.date)), date()).days               AS daysSinceLastCommit\n       ,duration.inDays(max(fileCreatedAtTimestamp), datetime()).days          AS daysSinceLastCreation\n       ,duration.inDays(max(fileLastModificationAtTimestamp), datetime()).days AS daysSinceLastModification\n       ,max(git_commit.sha)                               AS maxCommitSha\n ORDER BY filePath ASCENDING, commitCount DESCENDING"
-
-
 ### Data Preview
 
 
@@ -47,30 +44,30 @@
   <tbody>
     <tr>
       <th>count</th>
-      <td>203.000000</td>
-      <td>203.000000</td>
-      <td>203.000000</td>
-      <td>203.000000</td>
-      <td>203.000000</td>
-      <td>203.000000</td>
+      <td>232.000000</td>
+      <td>232.000000</td>
+      <td>232.000000</td>
+      <td>232.000000</td>
+      <td>232.000000</td>
+      <td>232.000000</td>
     </tr>
     <tr>
       <th>mean</th>
-      <td>22.305419</td>
-      <td>13.300493</td>
-      <td>653.871921</td>
-      <td>117.236453</td>
-      <td>397.443350</td>
-      <td>180.620690</td>
+      <td>20.383621</td>
+      <td>12.086207</td>
+      <td>605.818966</td>
+      <td>107.594828</td>
+      <td>358.146552</td>
+      <td>165.556034</td>
     </tr>
     <tr>
       <th>std</th>
-      <td>100.597499</td>
-      <td>38.987601</td>
-      <td>3261.376257</td>
-      <td>221.791342</td>
-      <td>469.421427</td>
-      <td>303.413532</td>
+      <td>94.815950</td>
+      <td>36.880072</td>
+      <td>3199.780891</td>
+      <td>214.166823</td>
+      <td>459.171478</td>
+      <td>292.409332</td>
     </tr>
     <tr>
       <th>min</th>
@@ -85,37 +82,37 @@
       <th>25%</th>
       <td>2.000000</td>
       <td>3.000000</td>
-      <td>21.500000</td>
-      <td>10.000000</td>
-      <td>76.500000</td>
-      <td>9.000000</td>
+      <td>18.000000</td>
+      <td>2.000000</td>
+      <td>50.750000</td>
+      <td>6.500000</td>
     </tr>
     <tr>
       <th>50%</th>
       <td>5.000000</td>
       <td>6.000000</td>
-      <td>63.000000</td>
-      <td>27.000000</td>
-      <td>158.000000</td>
-      <td>34.000000</td>
+      <td>61.500000</td>
+      <td>39.000000</td>
+      <td>148.500000</td>
+      <td>38.000000</td>
     </tr>
     <tr>
       <th>75%</th>
-      <td>13.000000</td>
+      <td>12.000000</td>
       <td>10.000000</td>
-      <td>253.000000</td>
-      <td>136.000000</td>
-      <td>627.000000</td>
-      <td>158.000000</td>
+      <td>225.250000</td>
+      <td>103.000000</td>
+      <td>364.000000</td>
+      <td>149.000000</td>
     </tr>
     <tr>
       <th>max</th>
-      <td>1296.000000</td>
-      <td>487.000000</td>
-      <td>38110.000000</td>
-      <td>1251.000000</td>
-      <td>1770.000000</td>
       <td>1304.000000</td>
+      <td>491.000000</td>
+      <td>40088.000000</td>
+      <td>1263.000000</td>
+      <td>1782.000000</td>
+      <td>1316.000000</td>
     </tr>
   </tbody>
 </table>
@@ -163,9 +160,9 @@
       <td>Logan McAnsh</td>
       <td>Michael Jackson</td>
       <td>5</td>
-      <td>376</td>
-      <td>1264</td>
-      <td>1264</td>
+      <td>388</td>
+      <td>1276</td>
+      <td>1276</td>
       <td>2024-03-27</td>
       <td>2021-10-20</td>
       <td>2021-10-20</td>
@@ -183,9 +180,9 @@
       <td>Matt Brophy</td>
       <td>Mark Dalgleish</td>
       <td>5</td>
-      <td>787</td>
-      <td>793</td>
-      <td>787</td>
+      <td>799</td>
+      <td>805</td>
+      <td>799</td>
       <td>2023-02-10</td>
       <td>2023-02-03</td>
       <td>2023-02-09</td>
@@ -202,11 +199,11 @@
       <td>5</td>
       <td>Matt Brophy</td>
       <td>Mark Dalgleish</td>
-      <td>22</td>
-      <td>27</td>
-      <td>41</td>
-      <td>41</td>
-      <td>2025-03-11</td>
+      <td>24</td>
+      <td>10</td>
+      <td>53</td>
+      <td>53</td>
+      <td>2025-04-09</td>
       <td>2025-02-24</td>
       <td>2025-02-24</td>
       <td>f8b1a47883109f968702ff272a370070577ca2ed</td>
@@ -219,14 +216,14 @@
       <td>1</td>
       <td>react-router-6.30.0/integration/helpers/cloudflare-dev-proxy-template/public/favicon.ico</td>
       <td>ico</td>
-      <td>3</td>
+      <td>4</td>
       <td>Matt Brophy</td>
       <td>Mark Dalgleish</td>
-      <td>6</td>
-      <td>27</td>
-      <td>41</td>
-      <td>41</td>
-      <td>2025-03-11</td>
+      <td>8</td>
+      <td>10</td>
+      <td>53</td>
+      <td>53</td>
+      <td>2025-04-09</td>
       <td>2025-02-24</td>
       <td>2025-02-24</td>
       <td>f174d2f63548c7070242453dafe3c101fd102520</td>
@@ -243,9 +240,9 @@
       <td>Matt Brophy</td>
       <td>Mark Dalgleish</td>
       <td>24</td>
-      <td>27</td>
-      <td>111</td>
-      <td>111</td>
+      <td>39</td>
+      <td>123</td>
+      <td>123</td>
       <td>2025-03-11</td>
       <td>2024-12-17</td>
       <td>2024-12-17</td>
@@ -263,9 +260,9 @@
       <td>Mark Dalgleish</td>
       <td>Matt Brophy</td>
       <td>5</td>
-      <td>27</td>
-      <td>111</td>
-      <td>111</td>
+      <td>39</td>
+      <td>123</td>
+      <td>123</td>
       <td>2025-03-11</td>
       <td>2024-12-17</td>
       <td>2024-12-17</td>
@@ -283,9 +280,9 @@
       <td>Mark Dalgleish</td>
       <td>Matt Brophy</td>
       <td>5</td>
-      <td>27</td>
-      <td>111</td>
-      <td>111</td>
+      <td>39</td>
+      <td>123</td>
+      <td>123</td>
       <td>2025-03-11</td>
       <td>2024-12-17</td>
       <td>2024-12-17</td>
@@ -303,9 +300,9 @@
       <td>Mark Dalgleish</td>
       <td>Matt Brophy</td>
       <td>5</td>
-      <td>27</td>
-      <td>111</td>
-      <td>111</td>
+      <td>39</td>
+      <td>123</td>
+      <td>123</td>
       <td>2025-03-11</td>
       <td>2024-12-17</td>
       <td>2024-12-17</td>
@@ -319,14 +316,14 @@
       <td>1</td>
       <td>react-router-6.30.0/integration/helpers/vite-plugin-cloudflare-template/app/routes/_index.tsx</td>
       <td>tsx</td>
-      <td>3</td>
+      <td>4</td>
       <td>Matt Brophy</td>
       <td>Mark Dalgleish</td>
-      <td>6</td>
-      <td>27</td>
-      <td>41</td>
-      <td>41</td>
-      <td>2025-03-11</td>
+      <td>8</td>
+      <td>10</td>
+      <td>53</td>
+      <td>53</td>
+      <td>2025-04-09</td>
       <td>2025-02-24</td>
       <td>2025-02-24</td>
       <td>f174d2f63548c7070242453dafe3c101fd102520</td>
@@ -342,11 +339,11 @@
       <td>5</td>
       <td>Matt Brophy</td>
       <td>Mark Dalgleish</td>
-      <td>21</td>
-      <td>27</td>
-      <td>41</td>
-      <td>41</td>
-      <td>2025-03-11</td>
+      <td>23</td>
+      <td>10</td>
+      <td>53</td>
+      <td>53</td>
+      <td>2025-04-09</td>
       <td>2025-02-24</td>
       <td>2025-02-24</td>
       <td>f8b1a47883109f968702ff272a370070577ca2ed</td>
@@ -359,20 +356,60 @@
       <td>1</td>
       <td>react-router-6.30.0/integration/helpers/vite-plugin-cloudflare-template/workers/app.ts</td>
       <td>ts</td>
-      <td>3</td>
+      <td>4</td>
       <td>Matt Brophy</td>
       <td>Mark Dalgleish</td>
-      <td>11</td>
-      <td>19</td>
-      <td>41</td>
-      <td>18</td>
-      <td>2025-03-19</td>
+      <td>13</td>
+      <td>10</td>
+      <td>53</td>
+      <td>30</td>
+      <td>2025-04-09</td>
       <td>2025-02-24</td>
       <td>2025-03-19</td>
       <td>f77ca631ab6016e138716edf785c20d70b2855df</td>
     </tr>
     <tr>
       <th>11</th>
+      <td>react-router-6.30.0/integration/helpers/vite-rolldown-template/app/routes</td>
+      <td>react-router-6.30.0/integration/helpers/vite-rolldown-template/app</td>
+      <td>routes</td>
+      <td>1</td>
+      <td>react-router-6.30.0/integration/helpers/vite-rolldown-template/app/routes/_index.tsx</td>
+      <td>tsx</td>
+      <td>2</td>
+      <td>Matt Brophy</td>
+      <td>Mark Dalgleish</td>
+      <td>4</td>
+      <td>2</td>
+      <td>8</td>
+      <td>8</td>
+      <td>2025-04-17</td>
+      <td>2025-04-11</td>
+      <td>2025-04-11</td>
+      <td>df27738b9be12f01847b86655a8a00689c15702a</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>react-router-6.30.0/integration/helpers/vite-rolldown-template/public</td>
+      <td>react-router-6.30.0/integration/helpers/vite-rolldown-template</td>
+      <td>public</td>
+      <td>1</td>
+      <td>react-router-6.30.0/integration/helpers/vite-rolldown-template/public/favicon.ico</td>
+      <td>ico</td>
+      <td>2</td>
+      <td>Matt Brophy</td>
+      <td>Mark Dalgleish</td>
+      <td>4</td>
+      <td>2</td>
+      <td>8</td>
+      <td>8</td>
+      <td>2025-04-17</td>
+      <td>2025-04-11</td>
+      <td>2025-04-11</td>
+      <td>df27738b9be12f01847b86655a8a00689c15702a</td>
+    </tr>
+    <tr>
+      <th>13</th>
       <td>react-router-6.30.0/packages/create-react-router/__tests__/fixtures/basic/app/routes</td>
       <td>react-router-6.30.0/packages/create-react-router/__tests__/fixtures/basic/app</td>
       <td>routes</td>
@@ -383,16 +420,16 @@
       <td>Matt Brophy</td>
       <td>Mark Dalgleish</td>
       <td>31</td>
-      <td>136</td>
-      <td>158</td>
-      <td>158</td>
+      <td>148</td>
+      <td>170</td>
+      <td>170</td>
       <td>2024-11-22</td>
       <td>2024-10-31</td>
       <td>2024-10-31</td>
       <td>fbe8ac244eedb8556dd0faf00dfbe1f78e461120</td>
     </tr>
     <tr>
-      <th>12</th>
+      <th>14</th>
       <td>react-router-6.30.0/packages/create-react-router/__tests__/fixtures/basic/public</td>
       <td>react-router-6.30.0/packages/create-react-router/__tests__/fixtures/basic</td>
       <td>public</td>
@@ -403,16 +440,16 @@
       <td>Mark Dalgleish</td>
       <td>Michael Jackson</td>
       <td>4</td>
-      <td>136</td>
-      <td>158</td>
-      <td>158</td>
+      <td>148</td>
+      <td>170</td>
+      <td>170</td>
       <td>2024-11-22</td>
       <td>2024-10-31</td>
       <td>2024-10-31</td>
       <td>c6afcf85f2003d93e77f901e2b4ecdef5e83fd97</td>
     </tr>
     <tr>
-      <th>13</th>
+      <th>15</th>
       <td>react-router-6.30.0/packages/create-react-router/__tests__/fixtures/blank</td>
       <td>react-router-6.30.0/packages/create-react-router/__tests__/fixtures</td>
       <td>blank</td>
@@ -423,16 +460,16 @@
       <td>Mark Dalgleish</td>
       <td>Michael Jackson</td>
       <td>4</td>
-      <td>136</td>
-      <td>158</td>
-      <td>158</td>
+      <td>148</td>
+      <td>170</td>
+      <td>170</td>
       <td>2024-11-22</td>
       <td>2024-10-31</td>
       <td>2024-10-31</td>
       <td>c6afcf85f2003d93e77f901e2b4ecdef5e83fd97</td>
     </tr>
     <tr>
-      <th>14</th>
+      <th>16</th>
       <td>react-router-6.30.0/packages/create-react-router/__tests__/fixtures/with-ignored-dir</td>
       <td>react-router-6.30.0/packages/create-react-router/__tests__/fixtures</td>
       <td>with-ignored-dir</td>
@@ -443,16 +480,16 @@
       <td>Mark Dalgleish</td>
       <td>Michael Jackson</td>
       <td>4</td>
-      <td>136</td>
-      <td>158</td>
-      <td>158</td>
+      <td>148</td>
+      <td>170</td>
+      <td>170</td>
       <td>2024-11-22</td>
       <td>2024-10-31</td>
       <td>2024-10-31</td>
       <td>c6afcf85f2003d93e77f901e2b4ecdef5e83fd97</td>
     </tr>
     <tr>
-      <th>15</th>
+      <th>17</th>
       <td>react-router-6.30.0/packages/react-router-architect/sessions</td>
       <td>react-router-6.30.0/packages/react-router-architect</td>
       <td>sessions</td>
@@ -463,16 +500,16 @@
       <td>Matt Brophy</td>
       <td>Mark Dalgleish</td>
       <td>8</td>
-      <td>136</td>
-      <td>265</td>
-      <td>200</td>
+      <td>148</td>
+      <td>277</td>
+      <td>212</td>
       <td>2024-11-22</td>
       <td>2024-07-16</td>
       <td>2024-09-18</td>
       <td>eed3ebd417e2522f527eee4fba098785ceb3dcfb</td>
     </tr>
     <tr>
-      <th>16</th>
+      <th>18</th>
       <td>react-router-6.30.0/packages/react-router-cloudflare/sessions</td>
       <td>react-router-6.30.0/packages/react-router-cloudflare</td>
       <td>sessions</td>
@@ -483,16 +520,16 @@
       <td>Matt Brophy</td>
       <td>Mark Dalgleish</td>
       <td>8</td>
-      <td>136</td>
-      <td>265</td>
-      <td>200</td>
+      <td>148</td>
+      <td>278</td>
+      <td>212</td>
       <td>2024-11-22</td>
       <td>2024-07-15</td>
       <td>2024-09-18</td>
       <td>eed3ebd417e2522f527eee4fba098785ceb3dcfb</td>
     </tr>
     <tr>
-      <th>17</th>
+      <th>19</th>
       <td>react-router-6.30.0/packages/react-router-config</td>
       <td>react-router-6.30.0/packages</td>
       <td>react-router-config</td>
@@ -503,16 +540,16 @@
       <td>Chance Strickland</td>
       <td>Michael Jackson</td>
       <td>4</td>
-      <td>1086</td>
-      <td>1287</td>
-      <td>1085</td>
+      <td>1098</td>
+      <td>1299</td>
+      <td>1097</td>
       <td>2022-04-17</td>
       <td>2021-09-27</td>
       <td>2022-04-17</td>
       <td>fe8262722aa630dca8841a89206a0f46f6c40029</td>
     </tr>
     <tr>
-      <th>18</th>
+      <th>20</th>
       <td>react-router-6.30.0/packages/react-router-dev/__tests__/fixtures/basic/app/routes</td>
       <td>react-router-6.30.0/packages/react-router-dev/__tests__/fixtures/basic/app</td>
       <td>routes</td>
@@ -523,16 +560,16 @@
       <td>Matt Brophy</td>
       <td>Mark Dalgleish</td>
       <td>29</td>
-      <td>27</td>
-      <td>81</td>
-      <td>81</td>
+      <td>39</td>
+      <td>93</td>
+      <td>93</td>
       <td>2025-03-11</td>
       <td>2025-01-16</td>
       <td>2025-01-16</td>
       <td>fbe8ac244eedb8556dd0faf00dfbe1f78e461120</td>
     </tr>
     <tr>
-      <th>19</th>
+      <th>21</th>
       <td>react-router-6.30.0/packages/react-router-dev/__tests__/fixtures/basic/public</td>
       <td>react-router-6.30.0/packages/react-router-dev/__tests__/fixtures/basic</td>
       <td>public</td>
@@ -543,16 +580,16 @@
       <td>Matt Brophy</td>
       <td>Mark Dalgleish</td>
       <td>7</td>
-      <td>27</td>
-      <td>81</td>
-      <td>81</td>
+      <td>39</td>
+      <td>93</td>
+      <td>93</td>
       <td>2025-03-11</td>
       <td>2025-01-16</td>
       <td>2025-01-16</td>
       <td>c364bd450e5e8811bd4d24f7e5fe5489d361a66f</td>
     </tr>
     <tr>
-      <th>20</th>
+      <th>22</th>
       <td>react-router-6.30.0/packages/react-router-dev/vite/static</td>
       <td>react-router-6.30.0/packages/react-router-dev/vite</td>
       <td>static</td>
@@ -562,17 +599,17 @@
       <td>6</td>
       <td>Matt Brophy</td>
       <td>Mark Dalgleish</td>
-      <td>59</td>
+      <td>62</td>
       <td>10</td>
-      <td>289</td>
+      <td>301</td>
       <td>9</td>
-      <td>2025-03-28</td>
+      <td>2025-04-09</td>
       <td>2024-06-21</td>
-      <td>2025-03-28</td>
+      <td>2025-04-09</td>
       <td>f8b1a47883109f968702ff272a370070577ca2ed</td>
     </tr>
     <tr>
-      <th>21</th>
+      <th>23</th>
       <td>react-router-6.30.0/packages/react-router-dom/docs</td>
       <td>react-router-6.30.0/packages/react-router-dom</td>
       <td>docs</td>
@@ -583,16 +620,16 @@
       <td>Michael Jackson</td>
       <td>Jacob Bundgaard</td>
       <td>3</td>
-      <td>1251</td>
-      <td>1770</td>
-      <td>1250</td>
+      <td>1263</td>
+      <td>1782</td>
+      <td>1262</td>
       <td>2021-11-03</td>
       <td>2020-06-01</td>
       <td>2021-11-03</td>
       <td>c64bbce903ed80abed3488e0a57240f8a8978d0b</td>
     </tr>
     <tr>
-      <th>22</th>
+      <th>24</th>
       <td>react-router-6.30.0/packages/react-router-express/__tests__</td>
       <td>react-router-6.30.0/packages/react-router-express</td>
       <td>__tests__</td>
@@ -602,17 +639,17 @@
       <td>12</td>
       <td>Matt Brophy</td>
       <td>Chance Strickland</td>
-      <td>68</td>
+      <td>71</td>
       <td>10</td>
-      <td>289</td>
+      <td>301</td>
       <td>9</td>
-      <td>2025-03-28</td>
+      <td>2025-04-09</td>
       <td>2024-06-21</td>
-      <td>2025-03-28</td>
+      <td>2025-04-09</td>
       <td>fbe8ac244eedb8556dd0faf00dfbe1f78e461120</td>
     </tr>
     <tr>
-      <th>23</th>
+      <th>25</th>
       <td>react-router-6.30.0/packages/react-router-native/docs</td>
       <td>react-router-6.30.0/packages/react-router-native</td>
       <td>docs</td>
@@ -623,16 +660,16 @@
       <td>Michael Jackson</td>
       <td>Jacob Bundgaard</td>
       <td>3</td>
-      <td>1251</td>
-      <td>1770</td>
-      <td>1250</td>
+      <td>1263</td>
+      <td>1782</td>
+      <td>1262</td>
       <td>2021-11-03</td>
       <td>2020-06-01</td>
       <td>2021-11-03</td>
       <td>c64bbce903ed80abed3488e0a57240f8a8978d0b</td>
     </tr>
     <tr>
-      <th>24</th>
+      <th>26</th>
       <td>react-router-6.30.0/packages/react-router-node/sessions</td>
       <td>react-router-6.30.0/packages/react-router-node</td>
       <td>sessions</td>
@@ -643,16 +680,16 @@
       <td>Matt Brophy</td>
       <td>Chance Strickland</td>
       <td>49</td>
-      <td>136</td>
-      <td>289</td>
-      <td>200</td>
+      <td>148</td>
+      <td>301</td>
+      <td>212</td>
       <td>2024-11-22</td>
       <td>2024-06-21</td>
       <td>2024-09-18</td>
       <td>fbe8ac244eedb8556dd0faf00dfbe1f78e461120</td>
     </tr>
     <tr>
-      <th>25</th>
+      <th>27</th>
       <td>react-router-6.30.0/packages/react-router/__tests__/__snapshots__</td>
       <td>react-router-6.30.0/packages/react-router/__tests__</td>
       <td>__snapshots__</td>
@@ -663,16 +700,16 @@
       <td>Chance Strickland</td>
       <td>Michael Jackson</td>
       <td>7</td>
-      <td>376</td>
-      <td>1361</td>
-      <td>1304</td>
+      <td>388</td>
+      <td>1373</td>
+      <td>1316</td>
       <td>2024-03-27</td>
       <td>2021-07-15</td>
       <td>2021-09-10</td>
       <td>eff2bd9148de1849fb93519f59262e4b53e8d823</td>
     </tr>
     <tr>
-      <th>26</th>
+      <th>28</th>
       <td>react-router-6.30.0/packages/react-router/__tests__/dom/components</td>
       <td>react-router-6.30.0/packages/react-router/__tests__/dom</td>
       <td>components</td>
@@ -683,16 +720,16 @@
       <td>Matt Brophy</td>
       <td>Michael Jackson</td>
       <td>16</td>
-      <td>136</td>
-      <td>352</td>
-      <td>352</td>
+      <td>148</td>
+      <td>364</td>
+      <td>364</td>
       <td>2024-11-22</td>
       <td>2024-04-19</td>
       <td>2024-04-19</td>
       <td>f8b1a47883109f968702ff272a370070577ca2ed</td>
     </tr>
     <tr>
-      <th>27</th>
+      <th>29</th>
       <td>react-router-6.30.0/packages/react-router/__tests__/dom/polyfills</td>
       <td>react-router-6.30.0/packages/react-router/__tests__/dom</td>
       <td>polyfills</td>
@@ -703,52 +740,12 @@
       <td>Matt Brophy</td>
       <td>Jon Jensen</td>
       <td>16</td>
-      <td>136</td>
-      <td>352</td>
-      <td>352</td>
+      <td>148</td>
+      <td>364</td>
+      <td>364</td>
       <td>2024-11-22</td>
       <td>2024-04-19</td>
       <td>2024-04-19</td>
-      <td>f8b1a47883109f968702ff272a370070577ca2ed</td>
-    </tr>
-    <tr>
-      <th>28</th>
-      <td>react-router-6.30.0/packages/react-router/docs</td>
-      <td>react-router-6.30.0/packages/react-router</td>
-      <td>docs</td>
-      <td>1</td>
-      <td>react-router-6.30.0/packages/react-router/docs/README.md</td>
-      <td>md</td>
-      <td>2</td>
-      <td>Michael Jackson</td>
-      <td>Jacob Bundgaard</td>
-      <td>3</td>
-      <td>1251</td>
-      <td>1770</td>
-      <td>1250</td>
-      <td>2021-11-03</td>
-      <td>2020-06-01</td>
-      <td>2021-11-03</td>
-      <td>c64bbce903ed80abed3488e0a57240f8a8978d0b</td>
-    </tr>
-    <tr>
-      <th>29</th>
-      <td>react-router-6.30.0/playground/framework-express/app/routes</td>
-      <td>react-router-6.30.0/playground/framework-express/app</td>
-      <td>routes</td>
-      <td>1</td>
-      <td>react-router-6.30.0/playground/framework-express/app/routes/_index.tsx</td>
-      <td>tsx</td>
-      <td>6</td>
-      <td>Matt Brophy</td>
-      <td>Jacob Ebey</td>
-      <td>23</td>
-      <td>91</td>
-      <td>137</td>
-      <td>137</td>
-      <td>2025-01-06</td>
-      <td>2024-11-21</td>
-      <td>2024-11-21</td>
       <td>f8b1a47883109f968702ff272a370070577ca2ed</td>
     </tr>
   </tbody>
@@ -8564,9 +8561,9 @@ maplibre-gl/dist/maplibre-gl.js:
 
 window.Plotly = Plotly;
 return Plotly;
-}));</script>                <div id="74c74e74-a6aa-4e75-aa43-4175933f0b33" class="plotly-graph-div" style="height:525px; width:100%;"></div>            <script type="text/javascript">                window.PLOTLYENV=window.PLOTLYENV || {};                                if (document.getElementById("74c74e74-a6aa-4e75-aa43-4175933f0b33")) {                    Plotly.newPlot(                        "74c74e74-a6aa-4e75-aa43-4175933f0b33",                        [{"labels":["A","B","C","D","E"],"marker":{"colorbar":{"tickformat":",","ticklabeloverflow":"allow","ticklabelposition":"outside top","ticklabelstep":1,"tickmode":"auto","title":{"text":"Value"}},"colors":[10,20,30,40,50],"colorscale":[[0.0,"rgb(247,251,255)"],[0.125,"rgb(222,235,247)"],[0.25,"rgb(198,219,239)"],[0.375,"rgb(158,202,225)"],[0.5,"rgb(107,174,214)"],[0.625,"rgb(66,146,198)"],[0.75,"rgb(33,113,181)"],[0.875,"rgb(8,81,156)"],[1.0,"rgb(8,48,107)"]]},"parents":["","A","A","B","B"],"values":[10,20,30,40,50],"type":"treemap"}],                        {"template":{"data":{"histogram2dcontour":[{"type":"histogram2dcontour","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"choropleth":[{"type":"choropleth","colorbar":{"outlinewidth":0,"ticks":""}}],"histogram2d":[{"type":"histogram2d","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"heatmap":[{"type":"heatmap","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"contourcarpet":[{"type":"contourcarpet","colorbar":{"outlinewidth":0,"ticks":""}}],"contour":[{"type":"contour","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"surface":[{"type":"surface","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"mesh3d":[{"type":"mesh3d","colorbar":{"outlinewidth":0,"ticks":""}}],"scatter":[{"fillpattern":{"fillmode":"overlay","size":10,"solidity":0.2},"type":"scatter"}],"parcoords":[{"type":"parcoords","line":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterpolargl":[{"type":"scatterpolargl","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"bar":[{"error_x":{"color":"#2a3f5f"},"error_y":{"color":"#2a3f5f"},"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"bar"}],"scattergeo":[{"type":"scattergeo","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterpolar":[{"type":"scatterpolar","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"histogram":[{"marker":{"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"histogram"}],"scattergl":[{"type":"scattergl","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatter3d":[{"type":"scatter3d","line":{"colorbar":{"outlinewidth":0,"ticks":""}},"marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattermap":[{"type":"scattermap","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattermapbox":[{"type":"scattermapbox","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterternary":[{"type":"scatterternary","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattercarpet":[{"type":"scattercarpet","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"carpet":[{"aaxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"baxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"type":"carpet"}],"table":[{"cells":{"fill":{"color":"#EBF0F8"},"line":{"color":"white"}},"header":{"fill":{"color":"#C8D4E3"},"line":{"color":"white"}},"type":"table"}],"barpolar":[{"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"barpolar"}],"pie":[{"automargin":true,"type":"pie"}]},"layout":{"autotypenumbers":"strict","colorway":["#636efa","#EF553B","#00cc96","#ab63fa","#FFA15A","#19d3f3","#FF6692","#B6E880","#FF97FF","#FECB52"],"font":{"color":"#2a3f5f"},"hovermode":"closest","hoverlabel":{"align":"left"},"paper_bgcolor":"white","plot_bgcolor":"#E5ECF6","polar":{"bgcolor":"#E5ECF6","angularaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"radialaxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"ternary":{"bgcolor":"#E5ECF6","aaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"baxis":{"gridcolor":"white","linecolor":"white","ticks":""},"caxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"coloraxis":{"colorbar":{"outlinewidth":0,"ticks":""}},"colorscale":{"sequential":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"sequentialminus":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"diverging":[[0,"#8e0152"],[0.1,"#c51b7d"],[0.2,"#de77ae"],[0.3,"#f1b6da"],[0.4,"#fde0ef"],[0.5,"#f7f7f7"],[0.6,"#e6f5d0"],[0.7,"#b8e186"],[0.8,"#7fbc41"],[0.9,"#4d9221"],[1,"#276419"]]},"xaxis":{"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","automargin":true,"zerolinewidth":2},"yaxis":{"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","automargin":true,"zerolinewidth":2},"scene":{"xaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2},"yaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2},"zaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2}},"shapedefaults":{"line":{"color":"#2a3f5f"}},"annotationdefaults":{"arrowcolor":"#2a3f5f","arrowhead":0,"arrowwidth":1},"geo":{"bgcolor":"white","landcolor":"#E5ECF6","subunitcolor":"white","showland":true,"showlakes":true,"lakecolor":"white"},"title":{"x":0.05},"mapbox":{"style":"light"}}},"coloraxis":{"colorbar":{"tickvals":[50],"ticktext":["50 or more"]}}},                        {"responsive": true}                    ).then(function(){
+}));</script>                <div id="2befa9ae-084a-4fcf-b735-00838c293968" class="plotly-graph-div" style="height:525px; width:100%;"></div>            <script type="text/javascript">                window.PLOTLYENV=window.PLOTLYENV || {};                                if (document.getElementById("2befa9ae-084a-4fcf-b735-00838c293968")) {                    Plotly.newPlot(                        "2befa9ae-084a-4fcf-b735-00838c293968",                        [{"labels":["A","B","C","D","E"],"marker":{"colorbar":{"tickformat":",","ticklabeloverflow":"allow","ticklabelposition":"outside top","ticklabelstep":1,"tickmode":"auto","title":{"text":"Value"}},"colors":[10,20,30,40,50],"colorscale":[[0.0,"rgb(247,251,255)"],[0.125,"rgb(222,235,247)"],[0.25,"rgb(198,219,239)"],[0.375,"rgb(158,202,225)"],[0.5,"rgb(107,174,214)"],[0.625,"rgb(66,146,198)"],[0.75,"rgb(33,113,181)"],[0.875,"rgb(8,81,156)"],[1.0,"rgb(8,48,107)"]]},"parents":["","A","A","B","B"],"values":[10,20,30,40,50],"type":"treemap"}],                        {"template":{"data":{"histogram2dcontour":[{"type":"histogram2dcontour","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"choropleth":[{"type":"choropleth","colorbar":{"outlinewidth":0,"ticks":""}}],"histogram2d":[{"type":"histogram2d","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"heatmap":[{"type":"heatmap","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"contourcarpet":[{"type":"contourcarpet","colorbar":{"outlinewidth":0,"ticks":""}}],"contour":[{"type":"contour","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"surface":[{"type":"surface","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"mesh3d":[{"type":"mesh3d","colorbar":{"outlinewidth":0,"ticks":""}}],"scatter":[{"fillpattern":{"fillmode":"overlay","size":10,"solidity":0.2},"type":"scatter"}],"parcoords":[{"type":"parcoords","line":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterpolargl":[{"type":"scatterpolargl","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"bar":[{"error_x":{"color":"#2a3f5f"},"error_y":{"color":"#2a3f5f"},"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"bar"}],"scattergeo":[{"type":"scattergeo","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterpolar":[{"type":"scatterpolar","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"histogram":[{"marker":{"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"histogram"}],"scattergl":[{"type":"scattergl","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatter3d":[{"type":"scatter3d","line":{"colorbar":{"outlinewidth":0,"ticks":""}},"marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattermap":[{"type":"scattermap","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattermapbox":[{"type":"scattermapbox","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterternary":[{"type":"scatterternary","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattercarpet":[{"type":"scattercarpet","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"carpet":[{"aaxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"baxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"type":"carpet"}],"table":[{"cells":{"fill":{"color":"#EBF0F8"},"line":{"color":"white"}},"header":{"fill":{"color":"#C8D4E3"},"line":{"color":"white"}},"type":"table"}],"barpolar":[{"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"barpolar"}],"pie":[{"automargin":true,"type":"pie"}]},"layout":{"autotypenumbers":"strict","colorway":["#636efa","#EF553B","#00cc96","#ab63fa","#FFA15A","#19d3f3","#FF6692","#B6E880","#FF97FF","#FECB52"],"font":{"color":"#2a3f5f"},"hovermode":"closest","hoverlabel":{"align":"left"},"paper_bgcolor":"white","plot_bgcolor":"#E5ECF6","polar":{"bgcolor":"#E5ECF6","angularaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"radialaxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"ternary":{"bgcolor":"#E5ECF6","aaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"baxis":{"gridcolor":"white","linecolor":"white","ticks":""},"caxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"coloraxis":{"colorbar":{"outlinewidth":0,"ticks":""}},"colorscale":{"sequential":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"sequentialminus":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"diverging":[[0,"#8e0152"],[0.1,"#c51b7d"],[0.2,"#de77ae"],[0.3,"#f1b6da"],[0.4,"#fde0ef"],[0.5,"#f7f7f7"],[0.6,"#e6f5d0"],[0.7,"#b8e186"],[0.8,"#7fbc41"],[0.9,"#4d9221"],[1,"#276419"]]},"xaxis":{"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","automargin":true,"zerolinewidth":2},"yaxis":{"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","automargin":true,"zerolinewidth":2},"scene":{"xaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2},"yaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2},"zaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2}},"shapedefaults":{"line":{"color":"#2a3f5f"}},"annotationdefaults":{"arrowcolor":"#2a3f5f","arrowhead":0,"arrowwidth":1},"geo":{"bgcolor":"white","landcolor":"#E5ECF6","subunitcolor":"white","showland":true,"showlakes":true,"lakecolor":"white"},"title":{"x":0.05},"mapbox":{"style":"light"}}},"coloraxis":{"colorbar":{"tickvals":[50],"ticktext":["50 or more"]}}},                        {"responsive": true}                    ).then(function(){
 
-var gd = document.getElementById('74c74e74-a6aa-4e75-aa43-4175933f0b33');
+var gd = document.getElementById('2befa9ae-084a-4fcf-b735-00838c293968');
 var x = new MutationObserver(function (mutations, observer) {{
         var display = window.getComputedStyle(gd).display;
         if (!display || display === 'none') {{
@@ -8671,7 +8668,7 @@ The data preview also includes overall statistics including the number of commit
 
 ### Preview data
 
-    Sum of commits that changed more than 30 files (each) = 469
+    Sum of commits that changed more than 30 files (each) = 482
     Max changed files with one commit = 1061
 
 
@@ -8688,18 +8685,18 @@ The data preview also includes overall statistics including the number of commit
   <tbody>
     <tr>
       <th>count</th>
-      <td>171.000000</td>
-      <td>171.000000</td>
+      <td>174.000000</td>
+      <td>174.000000</td>
     </tr>
     <tr>
       <th>mean</th>
-      <td>149.959064</td>
-      <td>66.122807</td>
+      <td>152.936782</td>
+      <td>65.701149</td>
     </tr>
     <tr>
       <th>std</th>
-      <td>193.597592</td>
-      <td>392.139714</td>
+      <td>193.444744</td>
+      <td>391.697805</td>
     </tr>
     <tr>
       <th>min</th>
@@ -8708,23 +8705,23 @@ The data preview also includes overall statistics including the number of commit
     </tr>
     <tr>
       <th>25%</th>
-      <td>43.500000</td>
+      <td>44.250000</td>
       <td>1.000000</td>
     </tr>
     <tr>
       <th>50%</th>
-      <td>87.000000</td>
+      <td>89.000000</td>
       <td>3.000000</td>
     </tr>
     <tr>
       <th>75%</th>
-      <td>157.500000</td>
+      <td>163.750000</td>
       <td>8.000000</td>
     </tr>
     <tr>
       <th>max</th>
       <td>1061.000000</td>
-      <td>4654.000000</td>
+      <td>4686.000000</td>
     </tr>
   </tbody>
 </table>
@@ -8745,67 +8742,67 @@ The data preview also includes overall statistics including the number of commit
     <tr>
       <th>0</th>
       <td>1</td>
-      <td>4654</td>
+      <td>4686</td>
     </tr>
     <tr>
       <th>1</th>
       <td>2</td>
-      <td>1848</td>
+      <td>1863</td>
     </tr>
     <tr>
       <th>2</th>
       <td>3</td>
-      <td>904</td>
+      <td>911</td>
     </tr>
     <tr>
       <th>3</th>
       <td>4</td>
-      <td>575</td>
+      <td>584</td>
     </tr>
     <tr>
       <th>4</th>
       <td>5</td>
-      <td>499</td>
+      <td>504</td>
     </tr>
     <tr>
       <th>5</th>
       <td>6</td>
-      <td>301</td>
+      <td>306</td>
     </tr>
     <tr>
       <th>6</th>
       <td>7</td>
-      <td>233</td>
+      <td>234</td>
     </tr>
     <tr>
       <th>7</th>
       <td>8</td>
-      <td>157</td>
+      <td>160</td>
     </tr>
     <tr>
       <th>8</th>
       <td>9</td>
-      <td>116</td>
+      <td>119</td>
     </tr>
     <tr>
       <th>9</th>
       <td>10</td>
-      <td>190</td>
+      <td>191</td>
     </tr>
     <tr>
       <th>10</th>
       <td>11</td>
-      <td>284</td>
+      <td>310</td>
     </tr>
     <tr>
       <th>11</th>
       <td>12</td>
-      <td>263</td>
+      <td>264</td>
     </tr>
     <tr>
       <th>12</th>
       <td>13</td>
-      <td>102</td>
+      <td>103</td>
     </tr>
     <tr>
       <th>13</th>
@@ -8845,7 +8842,7 @@ The data preview also includes overall statistics including the number of commit
     <tr>
       <th>20</th>
       <td>21</td>
-      <td>36</td>
+      <td>37</td>
     </tr>
     <tr>
       <th>21</th>
@@ -8855,7 +8852,7 @@ The data preview also includes overall statistics including the number of commit
     <tr>
       <th>22</th>
       <td>23</td>
-      <td>56</td>
+      <td>57</td>
     </tr>
     <tr>
       <th>23</th>
@@ -8880,7 +8877,7 @@ The data preview also includes overall statistics including the number of commit
     <tr>
       <th>27</th>
       <td>28</td>
-      <td>56</td>
+      <td>57</td>
     </tr>
     <tr>
       <th>28</th>
@@ -8905,6 +8902,175 @@ The data preview also includes overall statistics including the number of commit
     
 
 
+## Pairwise Changed Files vs. Dependency Weight
+
+This section explores the correlation between how often pairs of files are changed together (common commit count) and their dependency weight. Note that these results should be interpreted cautiously, as comparing pairwise changes and dependencies is inherently challenging.
+
+### Considerations
+- **Historical vs. Current State**: Pairwise changes reflect the entire git history, while dependency weight represents the current state of the codebase.
+- **Commit Granularity**: Developers may use different commit strategies, such as squashing changes into a single commit or creating fine-grained commits. Ideally, each commit should represent a single semantic change for accurate analysis.
+- **Dependency Representation**: Some file types (e.g., Java files with import statements) clearly define dependencies, while others (e.g., shell scripts, XML, YAML) lack explicit dependency relationships.
+- **Repository Characteristics**: Repositories with generated code may have many large commits, while stabilized repositories may only update configuration files for dependency changes.
+
+#### Data Preview
+
+    Received notification from DBMS server: {severity: WARNING} {code: Neo.ClientNotification.Statement.UnknownPropertyKeyWarning} {category: UNRECOGNIZED} {title: The provided property key is not in the database} {description: One of the property names in your query is not available in the database, make sure you didn't misspell it or that the label is available when you run this statement in your application (the missing property name is: weight)} {position: line: 9, column: 29, offset: 557} for query: "// List pair of files that were changed together and that have a declared dependency between each other.\n \n MATCH (firstCodeFile:File)-[dependency:DEPENDS_ON]->(secondCodeFile:File)\n MATCH (firstCodeFile)-[pairwiseChange:CHANGED_TOGETHER_WITH]-(secondCodeFile)\n //De-duplicating the pairs of files isn't necessary, because the dependency relation is directed.\n //WHERE elementId(firstCodeFile) < elementId(secondCodeFile)\n  WITH  firstCodeFile.fileName      AS firstFileName\n       ,secondCodeFile.fileName     AS secondFileName\n       ,coalesce(dependency.weight, dependency.cardinality)    AS dependencyWeight\n       ,pairwiseChange.commitCount  AS commitCount\n       ,dependency.fileDistanceAsFewestChangeDirectoryCommands AS fileDistanceAsFewestChangeDirectoryCommands\n RETURN dependencyWeight\n       ,commitCount\n       ,fileDistanceAsFewestChangeDirectoryCommands\n       // ,count(*)                    AS occurrences\n       // ,collect(firstFileName + ' -> ' + secondFileName)[0..3] AS examples\n ORDER BY dependencyWeight, commitCount\n \n // MATCH (firstCodeFile:File)-[dependency:DEPENDS_ON]->(secondCodeFile:File)\n // MATCH (firstCodeFile)-[pairwiseChange:CHANGED_TOGETHER_WITH]-(secondCodeFile)\n // WHERE elementId(firstCodeFile) < elementId(secondCodeFile)\n // RETURN firstCodeFile.fileName  AS firstFileName\n //       ,secondCodeFile.fileName AS secondFileName\n //       ,dependency.weight           AS dependencyWeight\n //       ,pairwiseChange.commitCount  AS commitCount\n // ORDER BY dependencyWeight, commitCount\n \n //  MATCH (g1:!Git&File)-[relation:CHANGED_TOGETHER_WITH|DEPENDS_ON]-(g2:!Git&File) \n //   WITH count(DISTINCT relation)   AS relatedFilesCount\n //       ,collect(DISTINCT relation) AS relations\n // UNWIND relations AS relation\n //   WITH relatedFilesCount\n //       ,coalesce(relation.commitCount, 0)                                 AS commitCount\n //       ,coalesce(relation.weight, 0)                                      AS dependencyWeight\n //       ,coalesce(relation.fileDistanceAsFewestChangeDirectoryCommands, 0) AS fileDistanceAsFewestChangeDirectoryCommands\n // RETURN dependencyWeight\n //       ,commitCount\n //       ,fileDistanceAsFewestChangeDirectoryCommands\n // ORDER BY dependencyWeight, commitCount\n"
+
+
+    Received notification from DBMS server: {severity: WARNING} {code: Neo.ClientNotification.Statement.UnknownPropertyKeyWarning} {category: UNRECOGNIZED} {title: The provided property key is not in the database} {description: One of the property names in your query is not available in the database, make sure you didn't misspell it or that the label is available when you run this statement in your application (the missing property name is: fileDistanceAsFewestChangeDirectoryCommands)} {position: line: 11, column: 20, offset: 682} for query: "// List pair of files that were changed together and that have a declared dependency between each other.\n \n MATCH (firstCodeFile:File)-[dependency:DEPENDS_ON]->(secondCodeFile:File)\n MATCH (firstCodeFile)-[pairwiseChange:CHANGED_TOGETHER_WITH]-(secondCodeFile)\n //De-duplicating the pairs of files isn't necessary, because the dependency relation is directed.\n //WHERE elementId(firstCodeFile) < elementId(secondCodeFile)\n  WITH  firstCodeFile.fileName      AS firstFileName\n       ,secondCodeFile.fileName     AS secondFileName\n       ,coalesce(dependency.weight, dependency.cardinality)    AS dependencyWeight\n       ,pairwiseChange.commitCount  AS commitCount\n       ,dependency.fileDistanceAsFewestChangeDirectoryCommands AS fileDistanceAsFewestChangeDirectoryCommands\n RETURN dependencyWeight\n       ,commitCount\n       ,fileDistanceAsFewestChangeDirectoryCommands\n       // ,count(*)                    AS occurrences\n       // ,collect(firstFileName + ' -> ' + secondFileName)[0..3] AS examples\n ORDER BY dependencyWeight, commitCount\n \n // MATCH (firstCodeFile:File)-[dependency:DEPENDS_ON]->(secondCodeFile:File)\n // MATCH (firstCodeFile)-[pairwiseChange:CHANGED_TOGETHER_WITH]-(secondCodeFile)\n // WHERE elementId(firstCodeFile) < elementId(secondCodeFile)\n // RETURN firstCodeFile.fileName  AS firstFileName\n //       ,secondCodeFile.fileName AS secondFileName\n //       ,dependency.weight           AS dependencyWeight\n //       ,pairwiseChange.commitCount  AS commitCount\n // ORDER BY dependencyWeight, commitCount\n \n //  MATCH (g1:!Git&File)-[relation:CHANGED_TOGETHER_WITH|DEPENDS_ON]-(g2:!Git&File) \n //   WITH count(DISTINCT relation)   AS relatedFilesCount\n //       ,collect(DISTINCT relation) AS relations\n // UNWIND relations AS relation\n //   WITH relatedFilesCount\n //       ,coalesce(relation.commitCount, 0)                                 AS commitCount\n //       ,coalesce(relation.weight, 0)                                      AS dependencyWeight\n //       ,coalesce(relation.fileDistanceAsFewestChangeDirectoryCommands, 0) AS fileDistanceAsFewestChangeDirectoryCommands\n // RETURN dependencyWeight\n //       ,commitCount\n //       ,fileDistanceAsFewestChangeDirectoryCommands\n // ORDER BY dependencyWeight, commitCount\n"
+
+
+
+
+
+<div>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>dependencyWeight</th>
+      <th>commitCount</th>
+      <th>fileDistanceAsFewestChangeDirectoryCommands</th>
+    </tr>
+  </thead>
+  <tbody>
+  </tbody>
+</table>
+</div>
+
+
+
+#### Data Statistics
+
+
+    'Pairwise changed git files compared to dependency weights - Overall statistics'
+
+
+
+<div>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>dependencyWeight</th>
+      <th>commitCount</th>
+      <th>fileDistanceAsFewestChangeDirectoryCommands</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>count</th>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>unique</th>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>top</th>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>freq</th>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+
+
+    'Pairwise changed git files compared to dependency weights - Pearson Correlation'
+
+
+
+<div>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>dependencyWeight</th>
+      <th>commitCount</th>
+      <th>fileDistanceAsFewestChangeDirectoryCommands</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>dependencyWeight</th>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>commitCount</th>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>fileDistanceAsFewestChangeDirectoryCommands</th>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+
+
+    'Pairwise changed git files compared to dependency weights - Spearman Correlation'
+
+
+
+<div>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>dependencyWeight</th>
+      <th>commitCount</th>
+      <th>fileDistanceAsFewestChangeDirectoryCommands</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>dependencyWeight</th>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>commitCount</th>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>fileDistanceAsFewestChangeDirectoryCommands</th>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+
+    Less than 5 samples are not enough to calculate p-values
+
+
+    No data to plot
+
+
 ## WordCloud of git authors
 
 
@@ -8923,7 +9089,7 @@ The data preview also includes overall statistics including the number of commit
     <tr>
       <th>0</th>
       <td>Matt Brophy</td>
-      <td>2084</td>
+      <td>2131</td>
     </tr>
     <tr>
       <th>1</th>
@@ -8937,18 +9103,18 @@ The data preview also includes overall statistics including the number of commit
     </tr>
     <tr>
       <th>3</th>
+      <td>Remix Run Bot</td>
+      <td>531</td>
+    </tr>
+    <tr>
+      <th>4</th>
       <td>Chance Strickland</td>
       <td>511</td>
     </tr>
     <tr>
-      <th>4</th>
-      <td>Remix Run Bot</td>
-      <td>504</td>
-    </tr>
-    <tr>
       <th>5</th>
       <td>Mark Dalgleish</td>
-      <td>423</td>
+      <td>427</td>
     </tr>
     <tr>
       <th>6</th>
@@ -8958,7 +9124,7 @@ The data preview also includes overall statistics including the number of commit
     <tr>
       <th>7</th>
       <td>Tim Dorr</td>
-      <td>390</td>
+      <td>392</td>
     </tr>
     <tr>
       <th>8</th>
@@ -8968,7 +9134,7 @@ The data preview also includes overall statistics including the number of commit
     <tr>
       <th>9</th>
       <td>Jacob Ebey</td>
-      <td>294</td>
+      <td>329</td>
     </tr>
   </tbody>
 </table>
@@ -8978,6 +9144,6 @@ The data preview also includes overall statistics including the number of commit
 
 
     
-![png](GitHistoryGeneral_files/GitHistoryGeneral_62_0.png)
+![png](GitHistoryGeneral_files/GitHistoryGeneral_69_0.png)
     
 
