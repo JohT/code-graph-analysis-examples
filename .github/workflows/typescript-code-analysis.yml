@@ -54,12 +54,10 @@ jobs:
 
     steps:
     - name: (Prepare Code to Analyze) Checkout react-router repository
-      uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4
-      with:
-        repository: remix-run/react-router
-        ref: react-router@${{ env.REACT_ROUTER_VERSION }}
-        fetch-depth: 0 # Include the full git history for enhanced analysis
- 
+      run: |
+        git clone https://github.com/remix-run/react-router.git --branch "react-router@${{ env.REACT_ROUTER_VERSION }}" --single-branch .
+        
+
     - name: (Prepare Code to Analyze) Setup pnpm for react-router
       uses: pnpm/action-setup@a7487c7e89a18df4991f7f222e4898a00d66ddda # v4.1.0
           

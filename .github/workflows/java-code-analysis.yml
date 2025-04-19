@@ -56,12 +56,8 @@ jobs:
 
     steps:
     - name: (Prepare Code to Analyze) Checkout AxonFramework repository
-      uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4
-      with:
-        repository: AxonFramework/AxonFramework
-        ref: axon-${{ env.AXON_FRAMEWORK_VERSION }}
-        path: ./source
-        fetch-depth: 0 # Include the full git history for analysis
+      run: |
+        git clone --bare https://github.com/AxonFramework/AxonFramework.git --branch "axon-${{ env.AXON_FRAMEWORK_VERSION }}" --single-branch "./source/AxonFramework-${{ env.AXON_FRAMEWORK_VERSION }}/.git"
 
     - name: (Prepare Code to Analyze) Setup Java Development Kit for Maven JARs downloading (JDK) ${{ env.JAVA_VERSION}}
       uses: actions/setup-java@c5195efecf7bdfc987ee8bae7a71cb8b11521c00 # v4
