@@ -13,9 +13,6 @@
 
 ### Table 1 - Size
 
-    Received notification from DBMS server: {severity: WARNING} {code: Neo.ClientNotification.Statement.AggregationSkippedNull} {category: UNRECOGNIZED} {title: The query contains an aggregation function that skips null values.} {description: null value eliminated in set function.} {position: None} for query: '// Overview size\n \n  MATCH (n)\n   WITH COUNT(n) AS nodeCount\n  MATCH ()-[]->()\n   WITH nodeCount\n       ,count(*) AS relationshipCount\n  MATCH (a:Artifact:Archive)\n   WITH nodeCount\n       ,relationshipCount\n       ,count(DISTINCT a.fileName) AS artifactCount\n  MATCH (p:Package)\n   WITH nodeCount\n       ,relationshipCount\n       ,artifactCount\n       ,count(DISTINCT p.fqn) AS packageCount\n  MATCH (t:Type)\n   WITH nodeCount\n       ,relationshipCount\n       ,artifactCount\n       ,packageCount\n       ,count(DISTINCT t.fqn) AS typeCount\n  MATCH (m:Method)\n   WITH nodeCount\n       ,relationshipCount\n       ,artifactCount\n       ,packageCount\n       ,typeCount\n       ,count(DISTINCT m.signature) AS methodCount\n  MATCH (member:Member)\n   WITH nodeCount\n       ,relationshipCount\n       ,artifactCount\n       ,packageCount\n       ,typeCount\n       ,methodCount\n       ,count(DISTINCT member.signature) AS memberCount\n RETURN nodeCount\n       ,relationshipCount\n       ,artifactCount\n       ,packageCount\n       ,typeCount\n       ,methodCount\n       ,memberCount'
-
-
 
 
 
@@ -36,8 +33,8 @@
   <tbody>
     <tr>
       <th>0</th>
-      <td>363277</td>
-      <td>1127591</td>
+      <td>368771</td>
+      <td>1144320</td>
       <td>9</td>
       <td>124</td>
       <td>2173</td>
@@ -76,22 +73,22 @@ The whole table can be found in the CSV report `Number_of_types_per_artifact`.
       <th>0</th>
       <td>axon-messaging-4.11.1</td>
       <td>809</td>
-      <td>Interface</td>
-      <td>157</td>
+      <td>Class</td>
+      <td>606</td>
     </tr>
     <tr>
       <th>1</th>
       <td>axon-messaging-4.11.1</td>
       <td>809</td>
-      <td>Class</td>
-      <td>606</td>
+      <td>Enum</td>
+      <td>19</td>
     </tr>
     <tr>
       <th>2</th>
       <td>axon-messaging-4.11.1</td>
       <td>809</td>
-      <td>Enum</td>
-      <td>19</td>
+      <td>Interface</td>
+      <td>157</td>
     </tr>
     <tr>
       <th>3</th>
@@ -118,15 +115,15 @@ The whole table can be found in the CSV report `Number_of_types_per_artifact`.
       <th>6</th>
       <td>axon-modelling-4.11.1</td>
       <td>158</td>
-      <td>Enum</td>
-      <td>3</td>
+      <td>Annotation</td>
+      <td>12</td>
     </tr>
     <tr>
       <th>7</th>
       <td>axon-modelling-4.11.1</td>
       <td>158</td>
-      <td>Annotation</td>
-      <td>12</td>
+      <td>Enum</td>
+      <td>3</td>
     </tr>
     <tr>
       <th>8</th>
@@ -195,29 +192,29 @@ The whole table can be found in the CSV report `Number_of_types_per_artifact`.
       <th>17</th>
       <td>axon-spring-boot-autoconfigure-4.11.1</td>
       <td>88</td>
-      <td>Enum</td>
-      <td>2</td>
+      <td>Interface</td>
+      <td>1</td>
     </tr>
     <tr>
       <th>18</th>
       <td>axon-spring-boot-autoconfigure-4.11.1</td>
       <td>88</td>
-      <td>Interface</td>
-      <td>1</td>
+      <td>Enum</td>
+      <td>2</td>
     </tr>
     <tr>
       <th>19</th>
       <td>axon-test-4.11.1</td>
       <td>87</td>
-      <td>Class</td>
-      <td>71</td>
+      <td>Interface</td>
+      <td>16</td>
     </tr>
     <tr>
       <th>20</th>
       <td>axon-test-4.11.1</td>
       <td>87</td>
-      <td>Interface</td>
-      <td>16</td>
+      <td>Class</td>
+      <td>71</td>
     </tr>
     <tr>
       <th>21</th>
@@ -237,14 +234,14 @@ The whole table can be found in the CSV report `Number_of_types_per_artifact`.
       <th>23</th>
       <td>axon-configuration-4.11.1</td>
       <td>41</td>
-      <td>Annotation</td>
+      <td>Enum</td>
       <td>1</td>
     </tr>
     <tr>
       <th>24</th>
       <td>axon-configuration-4.11.1</td>
       <td>41</td>
-      <td>Enum</td>
+      <td>Annotation</td>
       <td>1</td>
     </tr>
     <tr>

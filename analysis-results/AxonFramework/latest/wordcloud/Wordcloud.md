@@ -31,39 +31,39 @@
     </tr>
     <tr>
       <th>1</th>
-      <td>npm</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>package</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>json</td>
-    </tr>
-    <tr>
-      <th>4</th>
       <td>axon</td>
     </tr>
     <tr>
+      <th>2</th>
+      <td>eventsourcing</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>maven</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>org</td>
+    </tr>
+    <tr>
       <th>5</th>
-      <td>framework</td>
+      <td>axonframework</td>
     </tr>
     <tr>
       <th>6</th>
-      <td>docs</td>
+      <td>axon</td>
     </tr>
     <tr>
       <th>7</th>
-      <td>playbook</td>
+      <td>eventsourcing</td>
     </tr>
     <tr>
       <th>8</th>
-      <td>package</td>
+      <td>main</td>
     </tr>
     <tr>
       <th>9</th>
-      <td>antora</td>
+      <td>manifest</td>
     </tr>
   </tbody>
 </table>
@@ -97,18 +97,18 @@
   <tbody>
     <tr>
       <th>0</th>
-      <td>Mitchell Herrijgers</td>
-      <td>457</td>
+      <td>Steven van Beelen</td>
+      <td>4475</td>
     </tr>
     <tr>
       <th>1</th>
-      <td>Steven van Beelen</td>
-      <td>4365</td>
+      <td>Mateusz Nowak</td>
+      <td>91</td>
     </tr>
     <tr>
       <th>2</th>
-      <td>Mateusz Nowak</td>
-      <td>151</td>
+      <td>Mitchell Herrijgers</td>
+      <td>476</td>
     </tr>
     <tr>
       <th>3</th>

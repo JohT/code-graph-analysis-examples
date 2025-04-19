@@ -23,9 +23,6 @@
 
 ### File Data Preparation 
 
-    Received notification from DBMS server: {severity: WARNING} {code: Neo.ClientNotification.Statement.AggregationSkippedNull} {category: UNRECOGNIZED} {title: The query contains an aggregation function that skips null values.} {description: null value eliminated in set function.} {position: None} for query: "// List git files with commit statistics\n \n  MATCH (git_file:File&Git&!Repository)\n  WHERE git_file.deletedAt IS NULL // filter out deleted files\n   WITH percentileDisc(git_file.createdAtEpoch, 0.5)          AS medianCreatedAtEpoch\n       ,percentileDisc(git_file.lastModificationAtEpoch, 0.5) AS medianLastModificationAtEpoch\n       ,collect(git_file)                                     AS git_files\n UNWIND git_files AS git_file\n   WITH *\n       ,datetime.fromepochMillis(coalesce(git_file.createdAtEpoch, medianCreatedAtEpoch))                                            AS fileCreatedAtTimestamp\n       ,datetime.fromepochMillis(coalesce(git_file.lastModificationAtEpoch, git_file.createdAtEpoch, medianLastModificationAtEpoch)) AS fileLastModificationAtTimestamp\n  MATCH (git_repository:Git&Repository)-[:HAS_FILE]->(git_file)\n  MATCH (git_commit:Git&Commit)-[:CONTAINS_CHANGE]->(git_change:Git&Change)-->(old_files_included:Git&File&!Repository)-[:HAS_NEW_NAME*0..3]->(git_file)\n RETURN git_repository.name + '/' + git_file.relativePath AS filePath\n       ,split(git_commit.author, ' <')[0]                 AS author\n       ,count(DISTINCT git_commit.sha)                    AS commitCount\n       ,date(max(git_commit.date))                        AS lastCommitDate\n       ,max(date(fileCreatedAtTimestamp))                 AS lastCreationDate\n       ,max(date(fileLastModificationAtTimestamp))        AS lastModificationDate\n       ,duration.inDays(date(max(git_commit.date)), date()).days               AS daysSinceLastCommit\n       ,duration.inDays(max(fileCreatedAtTimestamp), datetime()).days          AS daysSinceLastCreation\n       ,duration.inDays(max(fileLastModificationAtTimestamp), datetime()).days AS daysSinceLastModification\n       ,max(git_commit.sha)                               AS maxCommitSha\n ORDER BY filePath ASCENDING, commitCount DESCENDING"
-
-
 ### Data Preview
 
 
@@ -47,30 +44,30 @@
   <tbody>
     <tr>
       <th>count</th>
-      <td>317.000000</td>
-      <td>317.000000</td>
-      <td>317.000000</td>
-      <td>317.000000</td>
-      <td>317.000000</td>
-      <td>317.000000</td>
+      <td>316.000000</td>
+      <td>316.000000</td>
+      <td>316.000000</td>
+      <td>316.000000</td>
+      <td>316.000000</td>
+      <td>316.000000</td>
     </tr>
     <tr>
       <th>mean</th>
-      <td>13.738170</td>
-      <td>7.463722</td>
-      <td>333.952681</td>
-      <td>400.574132</td>
-      <td>640.056782</td>
-      <td>558.889590</td>
+      <td>14.145570</td>
+      <td>8.588608</td>
+      <td>404.939873</td>
+      <td>396.218354</td>
+      <td>630.648734</td>
+      <td>562.832278</td>
     </tr>
     <tr>
       <th>std</th>
-      <td>57.010194</td>
-      <td>6.974827</td>
-      <td>1435.127527</td>
-      <td>1033.256021</td>
-      <td>1204.027191</td>
-      <td>1216.281516</td>
+      <td>58.449905</td>
+      <td>9.187382</td>
+      <td>1776.388585</td>
+      <td>1038.459317</td>
+      <td>1211.536383</td>
+      <td>1220.149536</td>
     </tr>
     <tr>
       <th>min</th>
@@ -78,44 +75,44 @@
       <td>2.000000</td>
       <td>2.000000</td>
       <td>1.000000</td>
-      <td>2.000000</td>
-      <td>1.000000</td>
+      <td>3.000000</td>
+      <td>0.000000</td>
     </tr>
     <tr>
       <th>25%</th>
       <td>1.000000</td>
       <td>3.000000</td>
-      <td>23.000000</td>
-      <td>5.000000</td>
-      <td>60.000000</td>
-      <td>5.000000</td>
+      <td>24.000000</td>
+      <td>3.000000</td>
+      <td>47.000000</td>
+      <td>3.000000</td>
     </tr>
     <tr>
       <th>50%</th>
-      <td>3.000000</td>
-      <td>6.000000</td>
-      <td>63.000000</td>
-      <td>49.000000</td>
-      <td>219.000000</td>
-      <td>94.000000</td>
+      <td>4.000000</td>
+      <td>7.000000</td>
+      <td>72.500000</td>
+      <td>4.000000</td>
+      <td>197.000000</td>
+      <td>116.000000</td>
     </tr>
     <tr>
       <th>75%</th>
-      <td>8.000000</td>
-      <td>8.000000</td>
-      <td>168.000000</td>
-      <td>257.000000</td>
-      <td>354.000000</td>
-      <td>298.000000</td>
+      <td>9.000000</td>
+      <td>9.000000</td>
+      <td>189.750000</td>
+      <td>262.000000</td>
+      <td>315.000000</td>
+      <td>304.000000</td>
     </tr>
     <tr>
       <th>max</th>
-      <td>913.000000</td>
-      <td>71.000000</td>
-      <td>22052.000000</td>
-      <td>4798.000000</td>
-      <td>4885.000000</td>
-      <td>4797.000000</td>
+      <td>936.000000</td>
+      <td>90.000000</td>
+      <td>27302.000000</td>
+      <td>4803.000000</td>
+      <td>4891.000000</td>
+      <td>4802.000000</td>
     </tr>
   </tbody>
 </table>
@@ -162,11 +159,11 @@
       <td>2</td>
       <td>Steven van Beelen</td>
       <td>Allard Buijze</td>
-      <td>9</td>
-      <td>49</td>
-      <td>94</td>
-      <td>94</td>
-      <td>2025-02-24</td>
+      <td>10</td>
+      <td>4</td>
+      <td>100</td>
+      <td>100</td>
+      <td>2025-04-15</td>
       <td>2025-01-09</td>
       <td>2025-01-09</td>
       <td>fe926a4970bdf1e538e8e7fb8d147ffdc676e713</td>
@@ -182,57 +179,17 @@
       <td>3</td>
       <td>Steven van Beelen</td>
       <td>Allard Buijze</td>
-      <td>17</td>
+      <td>18</td>
       <td>4</td>
-      <td>94</td>
-      <td>3</td>
-      <td>2025-04-10</td>
+      <td>100</td>
+      <td>8</td>
+      <td>2025-04-15</td>
       <td>2025-01-09</td>
       <td>2025-04-10</td>
       <td>fe926a4970bdf1e538e8e7fb8d147ffdc676e713</td>
     </tr>
     <tr>
       <th>2</th>
-      <td>AxonFramework-4.11.1/axon-5-module-structure-suggestion/event-sourcing</td>
-      <td>AxonFramework-4.11.1/axon-5-module-structure-suggestion</td>
-      <td>event-sourcing</td>
-      <td>1</td>
-      <td>AxonFramework-4.11.1/axon-5-module-structure-suggestion/event-sourcing/pom.xml</td>
-      <td>xml</td>
-      <td>2</td>
-      <td>Steven van Beelen</td>
-      <td>Mateusz Nowak</td>
-      <td>13</td>
-      <td>4</td>
-      <td>534</td>
-      <td>3</td>
-      <td>2025-04-10</td>
-      <td>2023-10-27</td>
-      <td>2025-04-10</td>
-      <td>ea5ee757f6536e2b4f6f5d0cac71a07b94c4c0c4</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>AxonFramework-4.11.1/axon-5-module-structure-suggestion/integration-tests</td>
-      <td>AxonFramework-4.11.1/axon-5-module-structure-suggestion</td>
-      <td>integration-tests</td>
-      <td>1</td>
-      <td>AxonFramework-4.11.1/axon-5-module-structure-suggestion/integration-tests/pom.xml</td>
-      <td>xml</td>
-      <td>2</td>
-      <td>Steven van Beelen</td>
-      <td>Mateusz Nowak</td>
-      <td>13</td>
-      <td>4</td>
-      <td>534</td>
-      <td>3</td>
-      <td>2025-04-10</td>
-      <td>2023-10-27</td>
-      <td>2025-04-10</td>
-      <td>ea5ee757f6536e2b4f6f5d0cac71a07b94c4c0c4</td>
-    </tr>
-    <tr>
-      <th>4</th>
       <td>AxonFramework-4.11.1/axon-5-module-structure-suggestion/messaging-core/src/test/java/org/axonframework/messaging</td>
       <td>AxonFramework-4.11.1/axon-5-module-structure-suggestion/messaging-core/src</td>
       <td>test/java/org/axonframework/messaging</td>
@@ -242,57 +199,17 @@
       <td>2</td>
       <td>Steven van Beelen</td>
       <td>Mitchell Herrijgers</td>
-      <td>13</td>
-      <td>49</td>
-      <td>534</td>
-      <td>534</td>
-      <td>2025-02-24</td>
-      <td>2023-10-27</td>
-      <td>2023-10-27</td>
-      <td>ea5ee757f6536e2b4f6f5d0cac71a07b94c4c0c4</td>
-    </tr>
-    <tr>
-      <th>5</th>
-      <td>AxonFramework-4.11.1/axon-5-module-structure-suggestion/messaging</td>
-      <td>AxonFramework-4.11.1/axon-5-module-structure-suggestion</td>
-      <td>messaging</td>
-      <td>1</td>
-      <td>AxonFramework-4.11.1/axon-5-module-structure-suggestion/messaging/pom.xml</td>
-      <td>xml</td>
-      <td>2</td>
-      <td>Steven van Beelen</td>
-      <td>Mateusz Nowak</td>
-      <td>12</td>
+      <td>14</td>
       <td>4</td>
-      <td>534</td>
-      <td>3</td>
-      <td>2025-04-10</td>
+      <td>540</td>
+      <td>540</td>
+      <td>2025-04-15</td>
       <td>2023-10-27</td>
-      <td>2025-04-10</td>
+      <td>2023-10-27</td>
       <td>ea5ee757f6536e2b4f6f5d0cac71a07b94c4c0c4</td>
     </tr>
     <tr>
-      <th>6</th>
-      <td>AxonFramework-4.11.1/axon-5-module-structure-suggestion/test</td>
-      <td>AxonFramework-4.11.1/axon-5-module-structure-suggestion</td>
-      <td>test</td>
-      <td>1</td>
-      <td>AxonFramework-4.11.1/axon-5-module-structure-suggestion/test/pom.xml</td>
-      <td>xml</td>
-      <td>2</td>
-      <td>Steven van Beelen</td>
-      <td>Mateusz Nowak</td>
-      <td>12</td>
-      <td>4</td>
-      <td>534</td>
-      <td>3</td>
-      <td>2025-04-10</td>
-      <td>2023-10-27</td>
-      <td>2025-04-10</td>
-      <td>ea5ee757f6536e2b4f6f5d0cac71a07b94c4c0c4</td>
-    </tr>
-    <tr>
-      <th>7</th>
+      <th>3</th>
       <td>AxonFramework-4.11.1/axon-server-connector/src/main/java/org/axonframework/axonserver/connector/command</td>
       <td>AxonFramework-4.11.1/axon-server-connector/src/main/java/org/axonframework/axonserver/connector</td>
       <td>command</td>
@@ -302,17 +219,17 @@
       <td>3</td>
       <td>Steven van Beelen</td>
       <td>Allard Buijze</td>
-      <td>44</td>
-      <td>5</td>
-      <td>390</td>
+      <td>45</td>
       <td>4</td>
-      <td>2025-04-09</td>
+      <td>395</td>
+      <td>9</td>
+      <td>2025-04-15</td>
       <td>2024-03-19</td>
       <td>2025-04-09</td>
       <td>fcedac961db62285c0c224c507284ef1746d5f35</td>
     </tr>
     <tr>
-      <th>8</th>
+      <th>4</th>
       <td>AxonFramework-4.11.1/core/src/test/java/org/axonframework/commandhandling/disruptor</td>
       <td>AxonFramework-4.11.1/core/src/test/java/org/axonframework</td>
       <td>commandhandling/disruptor</td>
@@ -323,16 +240,16 @@
       <td>Allard Buijze</td>
       <td>Rene de Waele</td>
       <td>2</td>
-      <td>3476</td>
-      <td>3498</td>
-      <td>3475</td>
+      <td>3481</td>
+      <td>3503</td>
+      <td>3480</td>
       <td>2015-10-08</td>
       <td>2015-09-15</td>
       <td>2015-10-08</td>
       <td>30d68fd229c59f5aa8f45848de82c91967eebcba</td>
     </tr>
     <tr>
-      <th>9</th>
+      <th>5</th>
       <td>AxonFramework-4.11.1/core/src/test/java/org/axonframework/contextsupport/spring</td>
       <td>AxonFramework-4.11.1/core/src/test/java/org/axonframework</td>
       <td>contextsupport/spring</td>
@@ -343,16 +260,16 @@
       <td>Sebastian Ganslandt</td>
       <td>lburgazzoli</td>
       <td>2</td>
-      <td>4241</td>
-      <td>4335</td>
-      <td>4335</td>
+      <td>4246</td>
+      <td>4341</td>
+      <td>4341</td>
       <td>2013-09-03</td>
       <td>2013-05-31</td>
       <td>2013-05-31</td>
       <td>f17a45795111f567ca57f97c63a976c1a9a2cce0</td>
     </tr>
     <tr>
-      <th>10</th>
+      <th>6</th>
       <td>AxonFramework-4.11.1/core/src/test/java/org/axonframework/eventhandling/scheduling/quartz</td>
       <td>AxonFramework-4.11.1/core/src/test/java/org/axonframework</td>
       <td>eventhandling/scheduling/quartz</td>
@@ -363,16 +280,16 @@
       <td>Allard Buijze</td>
       <td>smcvb</td>
       <td>121</td>
-      <td>258</td>
-      <td>4680</td>
-      <td>4680</td>
+      <td>263</td>
+      <td>4686</td>
+      <td>4686</td>
       <td>2024-07-30</td>
       <td>2012-06-20</td>
       <td>2012-06-20</td>
       <td>fdd51aa788071375721c67bb30bf5709136e974a</td>
     </tr>
     <tr>
-      <th>11</th>
+      <th>7</th>
       <td>AxonFramework-4.11.1/docs/_playbook/localLinks</td>
       <td>AxonFramework-4.11.1/docs/_playbook</td>
       <td>localLinks</td>
@@ -383,16 +300,16 @@
       <td>Steven van Beelen</td>
       <td>Allard Buijze</td>
       <td>13</td>
-      <td>257</td>
-      <td>310</td>
-      <td>310</td>
+      <td>262</td>
+      <td>316</td>
+      <td>316</td>
       <td>2024-07-31</td>
       <td>2024-06-07</td>
       <td>2024-06-07</td>
       <td>fcf55fb4f72d050c0949cac6a1818df2cd53d608</td>
     </tr>
     <tr>
-      <th>12</th>
+      <th>8</th>
       <td>AxonFramework-4.11.1/docs/_reference/modules/ROOT/attachments</td>
       <td>AxonFramework-4.11.1/docs/_reference/modules/ROOT</td>
       <td>attachments</td>
@@ -403,16 +320,16 @@
       <td>Steven van Beelen</td>
       <td>Milen Dyankov</td>
       <td>22</td>
-      <td>257</td>
-      <td>298</td>
-      <td>298</td>
+      <td>262</td>
+      <td>304</td>
+      <td>304</td>
       <td>2024-07-31</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
       <td>f851948ee70e6cc9742c7b1bde5941ed2655e28f</td>
     </tr>
     <tr>
-      <th>13</th>
+      <th>9</th>
       <td>AxonFramework-4.11.1/docs/_reference/modules/ROOT/partials</td>
       <td>AxonFramework-4.11.1/docs/_reference/modules/ROOT</td>
       <td>partials</td>
@@ -423,16 +340,16 @@
       <td>Steven van Beelen</td>
       <td>Milen Dyankov</td>
       <td>22</td>
-      <td>257</td>
-      <td>298</td>
-      <td>298</td>
+      <td>262</td>
+      <td>304</td>
+      <td>304</td>
       <td>2024-07-31</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
       <td>f851948ee70e6cc9742c7b1bde5941ed2655e28f</td>
     </tr>
     <tr>
-      <th>14</th>
+      <th>10</th>
       <td>AxonFramework-4.11.1/docs/_reference/modules/axon-server-connector/pages</td>
       <td>AxonFramework-4.11.1/docs/_reference/modules/axon-server-connector</td>
       <td>pages</td>
@@ -443,16 +360,16 @@
       <td>Steven van Beelen</td>
       <td>Milen Dyankov</td>
       <td>23</td>
-      <td>257</td>
-      <td>298</td>
-      <td>298</td>
+      <td>262</td>
+      <td>304</td>
+      <td>304</td>
       <td>2024-07-31</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
       <td>f851948ee70e6cc9742c7b1bde5941ed2655e28f</td>
     </tr>
     <tr>
-      <th>15</th>
+      <th>11</th>
       <td>AxonFramework-4.11.1/docs/_reference/modules/axon-server-connector/partials</td>
       <td>AxonFramework-4.11.1/docs/_reference/modules/axon-server-connector</td>
       <td>partials</td>
@@ -463,16 +380,16 @@
       <td>Steven van Beelen</td>
       <td>Milen Dyankov</td>
       <td>22</td>
-      <td>257</td>
-      <td>298</td>
-      <td>298</td>
+      <td>262</td>
+      <td>304</td>
+      <td>304</td>
       <td>2024-07-31</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
       <td>f851948ee70e6cc9742c7b1bde5941ed2655e28f</td>
     </tr>
     <tr>
-      <th>16</th>
+      <th>12</th>
       <td>AxonFramework-4.11.1/docs/_reference/modules/configuration/pages</td>
       <td>AxonFramework-4.11.1/docs/_reference/modules/configuration</td>
       <td>pages</td>
@@ -483,16 +400,16 @@
       <td>Steven van Beelen</td>
       <td>Milen Dyankov</td>
       <td>23</td>
-      <td>257</td>
-      <td>298</td>
-      <td>298</td>
+      <td>262</td>
+      <td>304</td>
+      <td>304</td>
       <td>2024-07-31</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
       <td>f851948ee70e6cc9742c7b1bde5941ed2655e28f</td>
     </tr>
     <tr>
-      <th>17</th>
+      <th>13</th>
       <td>AxonFramework-4.11.1/docs/_reference/modules/configuration/partials</td>
       <td>AxonFramework-4.11.1/docs/_reference/modules/configuration</td>
       <td>partials</td>
@@ -503,16 +420,16 @@
       <td>Steven van Beelen</td>
       <td>Milen Dyankov</td>
       <td>22</td>
-      <td>257</td>
-      <td>298</td>
-      <td>298</td>
+      <td>262</td>
+      <td>304</td>
+      <td>304</td>
       <td>2024-07-31</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
       <td>f851948ee70e6cc9742c7b1bde5941ed2655e28f</td>
     </tr>
     <tr>
-      <th>18</th>
+      <th>14</th>
       <td>AxonFramework-4.11.1/docs/_reference/modules/disruptor/pages</td>
       <td>AxonFramework-4.11.1/docs/_reference/modules/disruptor</td>
       <td>pages</td>
@@ -523,16 +440,16 @@
       <td>Steven van Beelen</td>
       <td>Milen Dyankov</td>
       <td>23</td>
-      <td>257</td>
-      <td>298</td>
-      <td>298</td>
+      <td>262</td>
+      <td>304</td>
+      <td>304</td>
       <td>2024-07-31</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
       <td>f851948ee70e6cc9742c7b1bde5941ed2655e28f</td>
     </tr>
     <tr>
-      <th>19</th>
+      <th>15</th>
       <td>AxonFramework-4.11.1/docs/_reference/modules/disruptor/partials</td>
       <td>AxonFramework-4.11.1/docs/_reference/modules/disruptor</td>
       <td>partials</td>
@@ -543,16 +460,16 @@
       <td>Steven van Beelen</td>
       <td>Milen Dyankov</td>
       <td>22</td>
-      <td>257</td>
-      <td>298</td>
-      <td>298</td>
+      <td>262</td>
+      <td>304</td>
+      <td>304</td>
       <td>2024-07-31</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
       <td>f851948ee70e6cc9742c7b1bde5941ed2655e28f</td>
     </tr>
     <tr>
-      <th>20</th>
+      <th>16</th>
       <td>AxonFramework-4.11.1/docs/_reference/modules/eventsourcing/pages</td>
       <td>AxonFramework-4.11.1/docs/_reference/modules/eventsourcing</td>
       <td>pages</td>
@@ -563,16 +480,16 @@
       <td>Steven van Beelen</td>
       <td>Milen Dyankov</td>
       <td>24</td>
-      <td>257</td>
-      <td>298</td>
-      <td>298</td>
+      <td>262</td>
+      <td>304</td>
+      <td>304</td>
       <td>2024-07-31</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
       <td>f851948ee70e6cc9742c7b1bde5941ed2655e28f</td>
     </tr>
     <tr>
-      <th>21</th>
+      <th>17</th>
       <td>AxonFramework-4.11.1/docs/_reference/modules/eventsourcing/partials</td>
       <td>AxonFramework-4.11.1/docs/_reference/modules/eventsourcing</td>
       <td>partials</td>
@@ -583,16 +500,16 @@
       <td>Steven van Beelen</td>
       <td>Milen Dyankov</td>
       <td>22</td>
-      <td>257</td>
-      <td>298</td>
-      <td>298</td>
+      <td>262</td>
+      <td>304</td>
+      <td>304</td>
       <td>2024-07-31</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
       <td>f851948ee70e6cc9742c7b1bde5941ed2655e28f</td>
     </tr>
     <tr>
-      <th>22</th>
+      <th>18</th>
       <td>AxonFramework-4.11.1/docs/_reference/modules/legacy/pages</td>
       <td>AxonFramework-4.11.1/docs/_reference/modules/legacy</td>
       <td>pages</td>
@@ -603,16 +520,16 @@
       <td>Steven van Beelen</td>
       <td>Milen Dyankov</td>
       <td>23</td>
-      <td>257</td>
-      <td>298</td>
-      <td>298</td>
+      <td>262</td>
+      <td>304</td>
+      <td>304</td>
       <td>2024-07-31</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
       <td>f851948ee70e6cc9742c7b1bde5941ed2655e28f</td>
     </tr>
     <tr>
-      <th>23</th>
+      <th>19</th>
       <td>AxonFramework-4.11.1/docs/_reference/modules/legacy/partials</td>
       <td>AxonFramework-4.11.1/docs/_reference/modules/legacy</td>
       <td>partials</td>
@@ -623,16 +540,16 @@
       <td>Steven van Beelen</td>
       <td>Milen Dyankov</td>
       <td>22</td>
-      <td>257</td>
-      <td>298</td>
-      <td>298</td>
+      <td>262</td>
+      <td>304</td>
+      <td>304</td>
       <td>2024-07-31</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
       <td>f851948ee70e6cc9742c7b1bde5941ed2655e28f</td>
     </tr>
     <tr>
-      <th>24</th>
+      <th>20</th>
       <td>AxonFramework-4.11.1/docs/_reference/modules/metrics/pages</td>
       <td>AxonFramework-4.11.1/docs/_reference/modules/metrics</td>
       <td>pages</td>
@@ -643,16 +560,16 @@
       <td>Steven van Beelen</td>
       <td>Milen Dyankov</td>
       <td>23</td>
-      <td>257</td>
-      <td>298</td>
-      <td>298</td>
+      <td>262</td>
+      <td>304</td>
+      <td>304</td>
       <td>2024-07-31</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
       <td>f851948ee70e6cc9742c7b1bde5941ed2655e28f</td>
     </tr>
     <tr>
-      <th>25</th>
+      <th>21</th>
       <td>AxonFramework-4.11.1/docs/_reference/modules/metrics/partials</td>
       <td>AxonFramework-4.11.1/docs/_reference/modules/metrics</td>
       <td>partials</td>
@@ -663,16 +580,16 @@
       <td>Steven van Beelen</td>
       <td>Milen Dyankov</td>
       <td>22</td>
-      <td>257</td>
-      <td>298</td>
-      <td>298</td>
+      <td>262</td>
+      <td>304</td>
+      <td>304</td>
       <td>2024-07-31</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
       <td>f851948ee70e6cc9742c7b1bde5941ed2655e28f</td>
     </tr>
     <tr>
-      <th>26</th>
+      <th>22</th>
       <td>AxonFramework-4.11.1/docs/_reference/modules/micrometer/pages</td>
       <td>AxonFramework-4.11.1/docs/_reference/modules/micrometer</td>
       <td>pages</td>
@@ -683,16 +600,16 @@
       <td>Steven van Beelen</td>
       <td>Milen Dyankov</td>
       <td>23</td>
-      <td>257</td>
-      <td>298</td>
-      <td>298</td>
+      <td>262</td>
+      <td>304</td>
+      <td>304</td>
       <td>2024-07-31</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
       <td>f851948ee70e6cc9742c7b1bde5941ed2655e28f</td>
     </tr>
     <tr>
-      <th>27</th>
+      <th>23</th>
       <td>AxonFramework-4.11.1/docs/_reference/modules/micrometer/partials</td>
       <td>AxonFramework-4.11.1/docs/_reference/modules/micrometer</td>
       <td>partials</td>
@@ -703,16 +620,16 @@
       <td>Steven van Beelen</td>
       <td>Milen Dyankov</td>
       <td>22</td>
-      <td>257</td>
-      <td>298</td>
-      <td>298</td>
+      <td>262</td>
+      <td>304</td>
+      <td>304</td>
       <td>2024-07-31</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
       <td>f851948ee70e6cc9742c7b1bde5941ed2655e28f</td>
     </tr>
     <tr>
-      <th>28</th>
+      <th>24</th>
       <td>AxonFramework-4.11.1/docs/_reference/modules/modeling/partials</td>
       <td>AxonFramework-4.11.1/docs/_reference/modules/modeling</td>
       <td>partials</td>
@@ -723,16 +640,16 @@
       <td>Steven van Beelen</td>
       <td>Milen Dyankov</td>
       <td>22</td>
-      <td>257</td>
-      <td>298</td>
-      <td>298</td>
+      <td>262</td>
+      <td>304</td>
+      <td>304</td>
       <td>2024-07-31</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
       <td>f851948ee70e6cc9742c7b1bde5941ed2655e28f</td>
     </tr>
     <tr>
-      <th>29</th>
+      <th>25</th>
       <td>AxonFramework-4.11.1/docs/_reference/modules/spring/pages</td>
       <td>AxonFramework-4.11.1/docs/_reference/modules/spring</td>
       <td>pages</td>
@@ -743,9 +660,89 @@
       <td>Steven van Beelen</td>
       <td>Milen Dyankov</td>
       <td>23</td>
-      <td>257</td>
-      <td>298</td>
-      <td>298</td>
+      <td>262</td>
+      <td>304</td>
+      <td>304</td>
+      <td>2024-07-31</td>
+      <td>2024-06-19</td>
+      <td>2024-06-19</td>
+      <td>f851948ee70e6cc9742c7b1bde5941ed2655e28f</td>
+    </tr>
+    <tr>
+      <th>26</th>
+      <td>AxonFramework-4.11.1/docs/_reference/modules/spring/partials</td>
+      <td>AxonFramework-4.11.1/docs/_reference/modules/spring</td>
+      <td>partials</td>
+      <td>1</td>
+      <td>AxonFramework-4.11.1/docs/_reference/modules/spring/partials/nav.adoc</td>
+      <td>adoc</td>
+      <td>8</td>
+      <td>Steven van Beelen</td>
+      <td>Milen Dyankov</td>
+      <td>22</td>
+      <td>262</td>
+      <td>304</td>
+      <td>304</td>
+      <td>2024-07-31</td>
+      <td>2024-06-19</td>
+      <td>2024-06-19</td>
+      <td>f851948ee70e6cc9742c7b1bde5941ed2655e28f</td>
+    </tr>
+    <tr>
+      <th>27</th>
+      <td>AxonFramework-4.11.1/docs/_reference/modules/springboot-starter/pages</td>
+      <td>AxonFramework-4.11.1/docs/_reference/modules/springboot-starter</td>
+      <td>pages</td>
+      <td>1</td>
+      <td>AxonFramework-4.11.1/docs/_reference/modules/springboot-starter/pages/index.adoc</td>
+      <td>adoc</td>
+      <td>8</td>
+      <td>Steven van Beelen</td>
+      <td>Milen Dyankov</td>
+      <td>24</td>
+      <td>262</td>
+      <td>304</td>
+      <td>304</td>
+      <td>2024-07-31</td>
+      <td>2024-06-19</td>
+      <td>2024-06-19</td>
+      <td>f851948ee70e6cc9742c7b1bde5941ed2655e28f</td>
+    </tr>
+    <tr>
+      <th>28</th>
+      <td>AxonFramework-4.11.1/docs/_reference/modules/springboot-starter/partials</td>
+      <td>AxonFramework-4.11.1/docs/_reference/modules/springboot-starter</td>
+      <td>partials</td>
+      <td>1</td>
+      <td>AxonFramework-4.11.1/docs/_reference/modules/springboot-starter/partials/nav.adoc</td>
+      <td>adoc</td>
+      <td>8</td>
+      <td>Steven van Beelen</td>
+      <td>Milen Dyankov</td>
+      <td>22</td>
+      <td>262</td>
+      <td>304</td>
+      <td>304</td>
+      <td>2024-07-31</td>
+      <td>2024-06-19</td>
+      <td>2024-06-19</td>
+      <td>f851948ee70e6cc9742c7b1bde5941ed2655e28f</td>
+    </tr>
+    <tr>
+      <th>29</th>
+      <td>AxonFramework-4.11.1/docs/_reference/modules/test/pages</td>
+      <td>AxonFramework-4.11.1/docs/_reference/modules/test</td>
+      <td>pages</td>
+      <td>1</td>
+      <td>AxonFramework-4.11.1/docs/_reference/modules/test/pages/index.adoc</td>
+      <td>adoc</td>
+      <td>8</td>
+      <td>Steven van Beelen</td>
+      <td>Milen Dyankov</td>
+      <td>23</td>
+      <td>262</td>
+      <td>304</td>
+      <td>304</td>
       <td>2024-07-31</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -8564,9 +8561,9 @@ maplibre-gl/dist/maplibre-gl.js:
 
 window.Plotly = Plotly;
 return Plotly;
-}));</script>                <div id="e207060d-4ba8-4593-922a-dfd048a499dc" class="plotly-graph-div" style="height:525px; width:100%;"></div>            <script type="text/javascript">                window.PLOTLYENV=window.PLOTLYENV || {};                                if (document.getElementById("e207060d-4ba8-4593-922a-dfd048a499dc")) {                    Plotly.newPlot(                        "e207060d-4ba8-4593-922a-dfd048a499dc",                        [{"labels":["A","B","C","D","E"],"marker":{"colorbar":{"tickformat":",","ticklabeloverflow":"allow","ticklabelposition":"outside top","ticklabelstep":1,"tickmode":"auto","title":{"text":"Value"}},"colors":[10,20,30,40,50],"colorscale":[[0.0,"rgb(247,251,255)"],[0.125,"rgb(222,235,247)"],[0.25,"rgb(198,219,239)"],[0.375,"rgb(158,202,225)"],[0.5,"rgb(107,174,214)"],[0.625,"rgb(66,146,198)"],[0.75,"rgb(33,113,181)"],[0.875,"rgb(8,81,156)"],[1.0,"rgb(8,48,107)"]]},"parents":["","A","A","B","B"],"values":[10,20,30,40,50],"type":"treemap"}],                        {"template":{"data":{"histogram2dcontour":[{"type":"histogram2dcontour","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"choropleth":[{"type":"choropleth","colorbar":{"outlinewidth":0,"ticks":""}}],"histogram2d":[{"type":"histogram2d","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"heatmap":[{"type":"heatmap","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"contourcarpet":[{"type":"contourcarpet","colorbar":{"outlinewidth":0,"ticks":""}}],"contour":[{"type":"contour","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"surface":[{"type":"surface","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"mesh3d":[{"type":"mesh3d","colorbar":{"outlinewidth":0,"ticks":""}}],"scatter":[{"fillpattern":{"fillmode":"overlay","size":10,"solidity":0.2},"type":"scatter"}],"parcoords":[{"type":"parcoords","line":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterpolargl":[{"type":"scatterpolargl","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"bar":[{"error_x":{"color":"#2a3f5f"},"error_y":{"color":"#2a3f5f"},"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"bar"}],"scattergeo":[{"type":"scattergeo","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterpolar":[{"type":"scatterpolar","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"histogram":[{"marker":{"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"histogram"}],"scattergl":[{"type":"scattergl","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatter3d":[{"type":"scatter3d","line":{"colorbar":{"outlinewidth":0,"ticks":""}},"marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattermap":[{"type":"scattermap","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattermapbox":[{"type":"scattermapbox","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterternary":[{"type":"scatterternary","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattercarpet":[{"type":"scattercarpet","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"carpet":[{"aaxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"baxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"type":"carpet"}],"table":[{"cells":{"fill":{"color":"#EBF0F8"},"line":{"color":"white"}},"header":{"fill":{"color":"#C8D4E3"},"line":{"color":"white"}},"type":"table"}],"barpolar":[{"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"barpolar"}],"pie":[{"automargin":true,"type":"pie"}]},"layout":{"autotypenumbers":"strict","colorway":["#636efa","#EF553B","#00cc96","#ab63fa","#FFA15A","#19d3f3","#FF6692","#B6E880","#FF97FF","#FECB52"],"font":{"color":"#2a3f5f"},"hovermode":"closest","hoverlabel":{"align":"left"},"paper_bgcolor":"white","plot_bgcolor":"#E5ECF6","polar":{"bgcolor":"#E5ECF6","angularaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"radialaxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"ternary":{"bgcolor":"#E5ECF6","aaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"baxis":{"gridcolor":"white","linecolor":"white","ticks":""},"caxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"coloraxis":{"colorbar":{"outlinewidth":0,"ticks":""}},"colorscale":{"sequential":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"sequentialminus":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"diverging":[[0,"#8e0152"],[0.1,"#c51b7d"],[0.2,"#de77ae"],[0.3,"#f1b6da"],[0.4,"#fde0ef"],[0.5,"#f7f7f7"],[0.6,"#e6f5d0"],[0.7,"#b8e186"],[0.8,"#7fbc41"],[0.9,"#4d9221"],[1,"#276419"]]},"xaxis":{"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","automargin":true,"zerolinewidth":2},"yaxis":{"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","automargin":true,"zerolinewidth":2},"scene":{"xaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2},"yaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2},"zaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2}},"shapedefaults":{"line":{"color":"#2a3f5f"}},"annotationdefaults":{"arrowcolor":"#2a3f5f","arrowhead":0,"arrowwidth":1},"geo":{"bgcolor":"white","landcolor":"#E5ECF6","subunitcolor":"white","showland":true,"showlakes":true,"lakecolor":"white"},"title":{"x":0.05},"mapbox":{"style":"light"}}},"coloraxis":{"colorbar":{"tickvals":[50],"ticktext":["50 or more"]}}},                        {"responsive": true}                    ).then(function(){
+}));</script>                <div id="f24f25e0-dd1c-4e35-9b61-d39a1711b3a7" class="plotly-graph-div" style="height:525px; width:100%;"></div>            <script type="text/javascript">                window.PLOTLYENV=window.PLOTLYENV || {};                                if (document.getElementById("f24f25e0-dd1c-4e35-9b61-d39a1711b3a7")) {                    Plotly.newPlot(                        "f24f25e0-dd1c-4e35-9b61-d39a1711b3a7",                        [{"labels":["A","B","C","D","E"],"marker":{"colorbar":{"tickformat":",","ticklabeloverflow":"allow","ticklabelposition":"outside top","ticklabelstep":1,"tickmode":"auto","title":{"text":"Value"}},"colors":[10,20,30,40,50],"colorscale":[[0.0,"rgb(247,251,255)"],[0.125,"rgb(222,235,247)"],[0.25,"rgb(198,219,239)"],[0.375,"rgb(158,202,225)"],[0.5,"rgb(107,174,214)"],[0.625,"rgb(66,146,198)"],[0.75,"rgb(33,113,181)"],[0.875,"rgb(8,81,156)"],[1.0,"rgb(8,48,107)"]]},"parents":["","A","A","B","B"],"values":[10,20,30,40,50],"type":"treemap"}],                        {"template":{"data":{"histogram2dcontour":[{"type":"histogram2dcontour","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"choropleth":[{"type":"choropleth","colorbar":{"outlinewidth":0,"ticks":""}}],"histogram2d":[{"type":"histogram2d","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"heatmap":[{"type":"heatmap","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"contourcarpet":[{"type":"contourcarpet","colorbar":{"outlinewidth":0,"ticks":""}}],"contour":[{"type":"contour","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"surface":[{"type":"surface","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"mesh3d":[{"type":"mesh3d","colorbar":{"outlinewidth":0,"ticks":""}}],"scatter":[{"fillpattern":{"fillmode":"overlay","size":10,"solidity":0.2},"type":"scatter"}],"parcoords":[{"type":"parcoords","line":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterpolargl":[{"type":"scatterpolargl","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"bar":[{"error_x":{"color":"#2a3f5f"},"error_y":{"color":"#2a3f5f"},"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"bar"}],"scattergeo":[{"type":"scattergeo","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterpolar":[{"type":"scatterpolar","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"histogram":[{"marker":{"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"histogram"}],"scattergl":[{"type":"scattergl","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatter3d":[{"type":"scatter3d","line":{"colorbar":{"outlinewidth":0,"ticks":""}},"marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattermap":[{"type":"scattermap","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattermapbox":[{"type":"scattermapbox","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterternary":[{"type":"scatterternary","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattercarpet":[{"type":"scattercarpet","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"carpet":[{"aaxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"baxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"type":"carpet"}],"table":[{"cells":{"fill":{"color":"#EBF0F8"},"line":{"color":"white"}},"header":{"fill":{"color":"#C8D4E3"},"line":{"color":"white"}},"type":"table"}],"barpolar":[{"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"barpolar"}],"pie":[{"automargin":true,"type":"pie"}]},"layout":{"autotypenumbers":"strict","colorway":["#636efa","#EF553B","#00cc96","#ab63fa","#FFA15A","#19d3f3","#FF6692","#B6E880","#FF97FF","#FECB52"],"font":{"color":"#2a3f5f"},"hovermode":"closest","hoverlabel":{"align":"left"},"paper_bgcolor":"white","plot_bgcolor":"#E5ECF6","polar":{"bgcolor":"#E5ECF6","angularaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"radialaxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"ternary":{"bgcolor":"#E5ECF6","aaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"baxis":{"gridcolor":"white","linecolor":"white","ticks":""},"caxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"coloraxis":{"colorbar":{"outlinewidth":0,"ticks":""}},"colorscale":{"sequential":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"sequentialminus":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"diverging":[[0,"#8e0152"],[0.1,"#c51b7d"],[0.2,"#de77ae"],[0.3,"#f1b6da"],[0.4,"#fde0ef"],[0.5,"#f7f7f7"],[0.6,"#e6f5d0"],[0.7,"#b8e186"],[0.8,"#7fbc41"],[0.9,"#4d9221"],[1,"#276419"]]},"xaxis":{"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","automargin":true,"zerolinewidth":2},"yaxis":{"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","automargin":true,"zerolinewidth":2},"scene":{"xaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2},"yaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2},"zaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2}},"shapedefaults":{"line":{"color":"#2a3f5f"}},"annotationdefaults":{"arrowcolor":"#2a3f5f","arrowhead":0,"arrowwidth":1},"geo":{"bgcolor":"white","landcolor":"#E5ECF6","subunitcolor":"white","showland":true,"showlakes":true,"lakecolor":"white"},"title":{"x":0.05},"mapbox":{"style":"light"}}},"coloraxis":{"colorbar":{"tickvals":[50],"ticktext":["50 or more"]}}},                        {"responsive": true}                    ).then(function(){
 
-var gd = document.getElementById('e207060d-4ba8-4593-922a-dfd048a499dc');
+var gd = document.getElementById('f24f25e0-dd1c-4e35-9b61-d39a1711b3a7');
 var x = new MutationObserver(function (mutations, observer) {{
         var display = window.getComputedStyle(gd).display;
         if (!display || display === 'none') {{
@@ -8671,7 +8668,7 @@ The data preview also includes overall statistics including the number of commit
 
 ### Preview data
 
-    Sum of commits that changed more than 30 files (each) = 1185
+    Sum of commits that changed more than 30 files (each) = 1211
     Max changed files with one commit = 4041
 
 
@@ -8688,43 +8685,43 @@ The data preview also includes overall statistics including the number of commit
   <tbody>
     <tr>
       <th>count</th>
-      <td>375.000000</td>
-      <td>375.00000</td>
+      <td>377.000000</td>
+      <td>377.000000</td>
     </tr>
     <tr>
       <th>mean</th>
-      <td>399.136000</td>
-      <td>34.92800</td>
+      <td>403.740053</td>
+      <td>34.925729</td>
     </tr>
     <tr>
       <th>std</th>
-      <td>560.984963</td>
-      <td>293.94355</td>
+      <td>568.423371</td>
+      <td>292.901288</td>
     </tr>
     <tr>
       <th>min</th>
       <td>1.000000</td>
-      <td>1.00000</td>
+      <td>1.000000</td>
     </tr>
     <tr>
       <th>25%</th>
-      <td>94.500000</td>
-      <td>1.00000</td>
+      <td>95.000000</td>
+      <td>1.000000</td>
     </tr>
     <tr>
       <th>50%</th>
       <td>203.000000</td>
-      <td>2.00000</td>
+      <td>2.000000</td>
     </tr>
     <tr>
       <th>75%</th>
-      <td>430.000000</td>
-      <td>5.00000</td>
+      <td>431.000000</td>
+      <td>5.000000</td>
     </tr>
     <tr>
       <th>max</th>
       <td>4041.000000</td>
-      <td>5107.00000</td>
+      <td>5098.000000</td>
     </tr>
   </tbody>
 </table>
@@ -8745,57 +8742,57 @@ The data preview also includes overall statistics including the number of commit
     <tr>
       <th>0</th>
       <td>1</td>
-      <td>5107</td>
+      <td>5098</td>
     </tr>
     <tr>
       <th>1</th>
       <td>2</td>
-      <td>2161</td>
+      <td>2163</td>
     </tr>
     <tr>
       <th>2</th>
       <td>3</td>
-      <td>985</td>
+      <td>990</td>
     </tr>
     <tr>
       <th>3</th>
       <td>4</td>
-      <td>651</td>
+      <td>655</td>
     </tr>
     <tr>
       <th>4</th>
       <td>5</td>
-      <td>444</td>
+      <td>445</td>
     </tr>
     <tr>
       <th>5</th>
       <td>6</td>
-      <td>327</td>
+      <td>335</td>
     </tr>
     <tr>
       <th>6</th>
       <td>7</td>
-      <td>264</td>
+      <td>266</td>
     </tr>
     <tr>
       <th>7</th>
       <td>8</td>
-      <td>218</td>
+      <td>220</td>
     </tr>
     <tr>
       <th>8</th>
       <td>9</td>
-      <td>161</td>
+      <td>163</td>
     </tr>
     <tr>
       <th>9</th>
       <td>10</td>
-      <td>146</td>
+      <td>147</td>
     </tr>
     <tr>
       <th>10</th>
       <td>11</td>
-      <td>110</td>
+      <td>113</td>
     </tr>
     <tr>
       <th>11</th>
@@ -8815,47 +8812,47 @@ The data preview also includes overall statistics including the number of commit
     <tr>
       <th>14</th>
       <td>15</td>
-      <td>189</td>
+      <td>191</td>
     </tr>
     <tr>
       <th>15</th>
       <td>16</td>
-      <td>78</td>
+      <td>81</td>
     </tr>
     <tr>
       <th>16</th>
       <td>17</td>
-      <td>71</td>
+      <td>72</td>
     </tr>
     <tr>
       <th>17</th>
       <td>18</td>
-      <td>61</td>
+      <td>64</td>
     </tr>
     <tr>
       <th>18</th>
       <td>19</td>
-      <td>83</td>
+      <td>84</td>
     </tr>
     <tr>
       <th>19</th>
       <td>20</td>
-      <td>73</td>
+      <td>77</td>
     </tr>
     <tr>
       <th>20</th>
       <td>21</td>
-      <td>45</td>
+      <td>46</td>
     </tr>
     <tr>
       <th>21</th>
       <td>22</td>
-      <td>69</td>
+      <td>70</td>
     </tr>
     <tr>
       <th>22</th>
       <td>23</td>
-      <td>36</td>
+      <td>39</td>
     </tr>
     <tr>
       <th>23</th>
@@ -8880,12 +8877,12 @@ The data preview also includes overall statistics including the number of commit
     <tr>
       <th>27</th>
       <td>28</td>
-      <td>32</td>
+      <td>33</td>
     </tr>
     <tr>
       <th>28</th>
       <td>29</td>
-      <td>29</td>
+      <td>31</td>
     </tr>
     <tr>
       <th>29</th>
@@ -8902,6 +8899,217 @@ The data preview also includes overall statistics including the number of commit
 
     
 ![svg](GitHistoryGeneral_files/GitHistoryGeneral_59_0.svg)
+    
+
+
+## Pairwise Changed Files vs. Dependency Weight
+
+This section explores the correlation between how often pairs of files are changed together (common commit count) and their dependency weight. Note that these results should be interpreted cautiously, as comparing pairwise changes and dependencies is inherently challenging.
+
+### Considerations
+- **Historical vs. Current State**: Pairwise changes reflect the entire git history, while dependency weight represents the current state of the codebase.
+- **Commit Granularity**: Developers may use different commit strategies, such as squashing changes into a single commit or creating fine-grained commits. Ideally, each commit should represent a single semantic change for accurate analysis.
+- **Dependency Representation**: Some file types (e.g., Java files with import statements) clearly define dependencies, while others (e.g., shell scripts, XML, YAML) lack explicit dependency relationships.
+- **Repository Characteristics**: Repositories with generated code may have many large commits, while stabilized repositories may only update configuration files for dependency changes.
+
+#### Data Preview
+
+    Received notification from DBMS server: {severity: WARNING} {code: Neo.ClientNotification.Statement.UnknownPropertyKeyWarning} {category: UNRECOGNIZED} {title: The provided property key is not in the database} {description: One of the property names in your query is not available in the database, make sure you didn't misspell it or that the label is available when you run this statement in your application (the missing property name is: cardinality)} {position: line: 9, column: 48, offset: 576} for query: "// List pair of files that were changed together and that have a declared dependency between each other.\n \n MATCH (firstCodeFile:File)-[dependency:DEPENDS_ON]->(secondCodeFile:File)\n MATCH (firstCodeFile)-[pairwiseChange:CHANGED_TOGETHER_WITH]-(secondCodeFile)\n //De-duplicating the pairs of files isn't necessary, because the dependency relation is directed.\n //WHERE elementId(firstCodeFile) < elementId(secondCodeFile)\n  WITH  firstCodeFile.fileName      AS firstFileName\n       ,secondCodeFile.fileName     AS secondFileName\n       ,coalesce(dependency.weight, dependency.cardinality)    AS dependencyWeight\n       ,pairwiseChange.commitCount  AS commitCount\n       ,dependency.fileDistanceAsFewestChangeDirectoryCommands AS fileDistanceAsFewestChangeDirectoryCommands\n RETURN dependencyWeight\n       ,commitCount\n       ,fileDistanceAsFewestChangeDirectoryCommands\n       // ,count(*)                    AS occurrences\n       // ,collect(firstFileName + ' -> ' + secondFileName)[0..3] AS examples\n ORDER BY dependencyWeight, commitCount\n \n // MATCH (firstCodeFile:File)-[dependency:DEPENDS_ON]->(secondCodeFile:File)\n // MATCH (firstCodeFile)-[pairwiseChange:CHANGED_TOGETHER_WITH]-(secondCodeFile)\n // WHERE elementId(firstCodeFile) < elementId(secondCodeFile)\n // RETURN firstCodeFile.fileName  AS firstFileName\n //       ,secondCodeFile.fileName AS secondFileName\n //       ,dependency.weight           AS dependencyWeight\n //       ,pairwiseChange.commitCount  AS commitCount\n // ORDER BY dependencyWeight, commitCount\n \n //  MATCH (g1:!Git&File)-[relation:CHANGED_TOGETHER_WITH|DEPENDS_ON]-(g2:!Git&File) \n //   WITH count(DISTINCT relation)   AS relatedFilesCount\n //       ,collect(DISTINCT relation) AS relations\n // UNWIND relations AS relation\n //   WITH relatedFilesCount\n //       ,coalesce(relation.commitCount, 0)                                 AS commitCount\n //       ,coalesce(relation.weight, 0)                                      AS dependencyWeight\n //       ,coalesce(relation.fileDistanceAsFewestChangeDirectoryCommands, 0) AS fileDistanceAsFewestChangeDirectoryCommands\n // RETURN dependencyWeight\n //       ,commitCount\n //       ,fileDistanceAsFewestChangeDirectoryCommands\n // ORDER BY dependencyWeight, commitCount\n"
+
+
+
+
+
+<div>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>dependencyWeight</th>
+      <th>commitCount</th>
+      <th>fileDistanceAsFewestChangeDirectoryCommands</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>1</td>
+      <td>14</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>3</td>
+      <td>14</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>5</td>
+      <td>20</td>
+      <td>0</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+
+
+#### Data Statistics
+
+
+    'Pairwise changed git files compared to dependency weights - Overall statistics'
+
+
+
+<div>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>dependencyWeight</th>
+      <th>commitCount</th>
+      <th>fileDistanceAsFewestChangeDirectoryCommands</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>count</th>
+      <td>3.0</td>
+      <td>3.000000</td>
+      <td>3.0</td>
+    </tr>
+    <tr>
+      <th>mean</th>
+      <td>3.0</td>
+      <td>16.000000</td>
+      <td>0.0</td>
+    </tr>
+    <tr>
+      <th>std</th>
+      <td>2.0</td>
+      <td>3.464102</td>
+      <td>0.0</td>
+    </tr>
+    <tr>
+      <th>min</th>
+      <td>1.0</td>
+      <td>14.000000</td>
+      <td>0.0</td>
+    </tr>
+    <tr>
+      <th>25%</th>
+      <td>2.0</td>
+      <td>14.000000</td>
+      <td>0.0</td>
+    </tr>
+    <tr>
+      <th>50%</th>
+      <td>3.0</td>
+      <td>14.000000</td>
+      <td>0.0</td>
+    </tr>
+    <tr>
+      <th>75%</th>
+      <td>4.0</td>
+      <td>17.000000</td>
+      <td>0.0</td>
+    </tr>
+    <tr>
+      <th>max</th>
+      <td>5.0</td>
+      <td>20.000000</td>
+      <td>0.0</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+
+
+    'Pairwise changed git files compared to dependency weights - Pearson Correlation'
+
+
+
+<div>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>dependencyWeight</th>
+      <th>commitCount</th>
+      <th>fileDistanceAsFewestChangeDirectoryCommands</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>dependencyWeight</th>
+      <td>1.000000</td>
+      <td>0.866025</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>commitCount</th>
+      <td>0.866025</td>
+      <td>1.000000</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>fileDistanceAsFewestChangeDirectoryCommands</th>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+
+
+    'Pairwise changed git files compared to dependency weights - Spearman Correlation'
+
+
+
+<div>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>dependencyWeight</th>
+      <th>commitCount</th>
+      <th>fileDistanceAsFewestChangeDirectoryCommands</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>dependencyWeight</th>
+      <td>1.000000</td>
+      <td>0.866025</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>commitCount</th>
+      <td>0.866025</td>
+      <td>1.000000</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>fileDistanceAsFewestChangeDirectoryCommands</th>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+
+    Less than 5 samples are not enough to calculate p-values
+
+
+
+    
+![svg](GitHistoryGeneral_files/GitHistoryGeneral_66_0.svg)
     
 
 
@@ -8923,7 +9131,7 @@ The data preview also includes overall statistics including the number of commit
     <tr>
       <th>0</th>
       <td>Steven van Beelen</td>
-      <td>4365</td>
+      <td>4475</td>
     </tr>
     <tr>
       <th>1</th>
@@ -8938,7 +9146,7 @@ The data preview also includes overall statistics including the number of commit
     <tr>
       <th>3</th>
       <td>Mitchell Herrijgers</td>
-      <td>457</td>
+      <td>476</td>
     </tr>
     <tr>
       <th>4</th>
@@ -8962,13 +9170,13 @@ The data preview also includes overall statistics including the number of commit
     </tr>
     <tr>
       <th>8</th>
-      <td>Mateusz Nowak</td>
-      <td>151</td>
+      <td>Rene de Waele</td>
+      <td>129</td>
     </tr>
     <tr>
       <th>9</th>
-      <td>Rene de Waele</td>
-      <td>129</td>
+      <td>Jettro Coenradie</td>
+      <td>123</td>
     </tr>
   </tbody>
 </table>
@@ -8978,6 +9186,6 @@ The data preview also includes overall statistics including the number of commit
 
 
     
-![png](GitHistoryGeneral_files/GitHistoryGeneral_62_0.png)
+![png](GitHistoryGeneral_files/GitHistoryGeneral_69_0.png)
     
 
