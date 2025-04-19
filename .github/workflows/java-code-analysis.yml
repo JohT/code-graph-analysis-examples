@@ -119,12 +119,12 @@ jobs:
   analyze-code-graph:
     name: Analyze Code Graph
     needs: [prepare-code-to-analyze]
-    uses: JohT/code-graph-analysis-pipeline/.github/workflows/public-analyze-code-graph.yml@455c61916a6ebf5f53782887aa253def918c335f # main
+    uses: JohT/code-graph-analysis-pipeline/.github/workflows/public-analyze-code-graph.yml@483d3908b79e90c2342734b2179c309d330fd461 # main
     with:
       analysis-name: ${{ needs.prepare-code-to-analyze.outputs.analysis-name }}
       artifacts-upload-name: ${{ needs.prepare-code-to-analyze.outputs.artifacts-upload-name }}
       sources-upload-name: ${{ needs.prepare-code-to-analyze.outputs.sources-upload-name }}
-      ref: 455c61916a6ebf5f53782887aa253def918c335f # main
+      ref: 483d3908b79e90c2342734b2179c309d330fd461 # main
 
 
   commit-analysis-results:
