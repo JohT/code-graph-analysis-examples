@@ -520,6 +520,7 @@ Image  | Analysis |
 | [Wordcloud_17_0.png](./AxonFramework/latest/wordcloud/Wordcloud_files/Wordcloud_17_0.png) | latest |
 | [GitHistoryGeneral_56_0.png](./react-router/latest/git-history-general/GitHistoryGeneral_files/GitHistoryGeneral_56_0.png) | latest |
 | [GitHistoryGeneral_62_0.png](./react-router/latest/git-history-general/GitHistoryGeneral_files/GitHistoryGeneral_62_0.png) | latest |
+| [GitHistoryGeneral_68_0.png](./react-router/latest/git-history-general/GitHistoryGeneral_files/GitHistoryGeneral_68_0.png) | latest |
 | [GitHistoryGeneral_69_0.png](./react-router/latest/git-history-general/GitHistoryGeneral_files/GitHistoryGeneral_69_0.png) | latest |
 | [OverviewGeneral_14_1.png](./react-router/latest/overview-general/OverviewGeneral_files/OverviewGeneral_14_1.png) | latest |
 | [OverviewGeneral_18_1.png](./react-router/latest/overview-general/OverviewGeneral_files/OverviewGeneral_18_1.png) | latest |
@@ -788,6 +789,7 @@ Image  | Analysis |
 | [Wordcloud_17_0.png](./react-router/react-router-6.29.0/wordcloud/Wordcloud_files/Wordcloud_17_0.png) | react-router-6.29.0 |
 | [GitHistoryGeneral_56_0.png](./react-router/react-router-6.30.0/git-history-general/GitHistoryGeneral_files/GitHistoryGeneral_56_0.png) | react-router-6.30.0 |
 | [GitHistoryGeneral_62_0.png](./react-router/react-router-6.30.0/git-history-general/GitHistoryGeneral_files/GitHistoryGeneral_62_0.png) | react-router-6.30.0 |
+| [GitHistoryGeneral_68_0.png](./react-router/react-router-6.30.0/git-history-general/GitHistoryGeneral_files/GitHistoryGeneral_68_0.png) | react-router-6.30.0 |
 | [GitHistoryGeneral_69_0.png](./react-router/react-router-6.30.0/git-history-general/GitHistoryGeneral_files/GitHistoryGeneral_69_0.png) | react-router-6.30.0 |
 | [OverviewGeneral_14_1.png](./react-router/react-router-6.30.0/overview-general/OverviewGeneral_files/OverviewGeneral_14_1.png) | react-router-6.30.0 |
 | [OverviewGeneral_18_1.png](./react-router/react-router-6.30.0/overview-general/OverviewGeneral_files/OverviewGeneral_18_1.png) | react-router-6.30.0 |
