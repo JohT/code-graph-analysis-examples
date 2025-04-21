@@ -56,9 +56,9 @@
       <td>25.301205</td>
       <td>19.650602</td>
       <td>434.650602</td>
-      <td>468.975904</td>
-      <td>873.301205</td>
-      <td>470.819277</td>
+      <td>470.975904</td>
+      <td>874.722892</td>
+      <td>471.903614</td>
     </tr>
     <tr>
       <th>std</th>
@@ -66,53 +66,53 @@
       <td>46.179246</td>
       <td>1505.037423</td>
       <td>277.542657</td>
-      <td>386.656138</td>
-      <td>277.823121</td>
+      <td>386.873122</td>
+      <td>277.920045</td>
     </tr>
     <tr>
       <th>min</th>
       <td>1.000000</td>
       <td>2.000000</td>
       <td>3.000000</td>
-      <td>51.000000</td>
-      <td>81.000000</td>
-      <td>51.000000</td>
+      <td>53.000000</td>
+      <td>82.000000</td>
+      <td>52.000000</td>
     </tr>
     <tr>
       <th>25%</th>
       <td>4.000000</td>
       <td>4.000000</td>
       <td>23.500000</td>
-      <td>199.000000</td>
-      <td>598.000000</td>
-      <td>199.000000</td>
+      <td>201.000000</td>
+      <td>599.000000</td>
+      <td>200.000000</td>
     </tr>
     <tr>
       <th>50%</th>
       <td>10.000000</td>
       <td>6.000000</td>
       <td>69.000000</td>
-      <td>584.000000</td>
-      <td>953.000000</td>
-      <td>584.000000</td>
+      <td>586.000000</td>
+      <td>954.000000</td>
+      <td>585.000000</td>
     </tr>
     <tr>
       <th>75%</th>
       <td>13.000000</td>
       <td>13.500000</td>
       <td>142.500000</td>
-      <td>683.000000</td>
-      <td>1276.000000</td>
-      <td>683.000000</td>
+      <td>685.000000</td>
+      <td>1278.000000</td>
+      <td>684.000000</td>
     </tr>
     <tr>
       <th>max</th>
       <td>633.000000</td>
       <td>343.000000</td>
       <td>11557.000000</td>
-      <td>1317.000000</td>
-      <td>1374.000000</td>
-      <td>1316.000000</td>
+      <td>1319.000000</td>
+      <td>1375.000000</td>
+      <td>1318.000000</td>
     </tr>
   </tbody>
 </table>
@@ -160,9 +160,9 @@
       <td>Logan McAnsh</td>
       <td>Michael Jackson</td>
       <td>4</td>
-      <td>1276</td>
-      <td>1276</td>
-      <td>1276</td>
+      <td>1278</td>
+      <td>1278</td>
+      <td>1278</td>
       <td>2021-10-21</td>
       <td>2021-10-20</td>
       <td>2021-10-20</td>
@@ -180,9 +180,9 @@
       <td>Matt Brophy</td>
       <td>Ryan Florence</td>
       <td>26</td>
-      <td>299</td>
-      <td>1115</td>
-      <td>299</td>
+      <td>301</td>
+      <td>1116</td>
+      <td>300</td>
       <td>2024-06-24</td>
       <td>2022-03-31</td>
       <td>2024-06-24</td>
@@ -200,9 +200,9 @@
       <td>Matt Brophy</td>
       <td>Jon Jensen</td>
       <td>3</td>
-      <td>660</td>
-      <td>674</td>
-      <td>674</td>
+      <td>662</td>
+      <td>676</td>
+      <td>676</td>
       <td>2023-06-29</td>
       <td>2023-06-14</td>
       <td>2023-06-14</td>
@@ -220,9 +220,9 @@
       <td>Chance Strickland</td>
       <td>Michael Jackson</td>
       <td>6</td>
-      <td>1317</td>
-      <td>1374</td>
-      <td>1316</td>
+      <td>1319</td>
+      <td>1375</td>
+      <td>1318</td>
       <td>2021-09-10</td>
       <td>2021-07-15</td>
       <td>2021-09-10</td>
@@ -240,9 +240,9 @@
       <td>Matt Brophy</td>
       <td>Chance Strickland</td>
       <td>10</td>
-      <td>361</td>
-      <td>394</td>
-      <td>394</td>
+      <td>363</td>
+      <td>395</td>
+      <td>395</td>
       <td>2024-04-23</td>
       <td>2024-03-21</td>
       <td>2024-03-21</td>
@@ -260,9 +260,9 @@
       <td>Chance Strickland</td>
       <td>Matt Brophy</td>
       <td>12</td>
-      <td>361</td>
-      <td>1040</td>
-      <td>361</td>
+      <td>363</td>
+      <td>1041</td>
+      <td>362</td>
       <td>2024-04-23</td>
       <td>2022-06-14</td>
       <td>2024-04-23</td>
@@ -280,9 +280,9 @@
       <td>Matt Brophy</td>
       <td>Brooks Lybrand</td>
       <td>16</td>
-      <td>135</td>
-      <td>323</td>
-      <td>135</td>
+      <td>137</td>
+      <td>325</td>
+      <td>137</td>
       <td>2024-12-05</td>
       <td>2024-05-30</td>
       <td>2024-12-05</td>
@@ -300,9 +300,9 @@
       <td>Matt Brophy</td>
       <td>Logan McAnsh</td>
       <td>14</td>
-      <td>683</td>
-      <td>1276</td>
-      <td>683</td>
+      <td>685</td>
+      <td>1278</td>
+      <td>684</td>
       <td>2023-06-06</td>
       <td>2021-10-21</td>
       <td>2023-06-06</td>
@@ -320,9 +320,9 @@
       <td>Matt Brophy</td>
       <td>Chance Strickland</td>
       <td>38</td>
-      <td>184</td>
-      <td>829</td>
-      <td>184</td>
+      <td>186</td>
+      <td>830</td>
+      <td>185</td>
       <td>2024-10-17</td>
       <td>2023-01-11</td>
       <td>2024-10-17</td>
@@ -340,9 +340,9 @@
       <td>Matt Brophy</td>
       <td>Chance Strickland</td>
       <td>24</td>
-      <td>520</td>
-      <td>826</td>
-      <td>520</td>
+      <td>522</td>
+      <td>828</td>
+      <td>521</td>
       <td>2023-11-16</td>
       <td>2023-01-13</td>
       <td>2023-11-16</td>
@@ -360,9 +360,9 @@
       <td>Matt Brophy</td>
       <td>Ryan Florence</td>
       <td>12</td>
-      <td>814</td>
-      <td>820</td>
-      <td>820</td>
+      <td>816</td>
+      <td>822</td>
+      <td>822</td>
       <td>2023-01-26</td>
       <td>2023-01-19</td>
       <td>2023-01-19</td>
@@ -380,9 +380,9 @@
       <td>Matt Brophy</td>
       <td>Jacob Ebey</td>
       <td>12</td>
-      <td>361</td>
-      <td>404</td>
-      <td>404</td>
+      <td>363</td>
+      <td>405</td>
+      <td>405</td>
       <td>2024-04-23</td>
       <td>2024-03-11</td>
       <td>2024-03-11</td>
@@ -400,9 +400,9 @@
       <td>Matt Brophy</td>
       <td>Chance Strickland</td>
       <td>25</td>
-      <td>683</td>
-      <td>1335</td>
-      <td>683</td>
+      <td>685</td>
+      <td>1336</td>
+      <td>684</td>
       <td>2023-06-06</td>
       <td>2021-08-23</td>
       <td>2023-06-06</td>
@@ -420,9 +420,9 @@
       <td>Matt Brophy</td>
       <td>Logan McAnsh</td>
       <td>18</td>
-      <td>683</td>
-      <td>1289</td>
-      <td>683</td>
+      <td>685</td>
+      <td>1291</td>
+      <td>684</td>
       <td>2023-06-06</td>
       <td>2021-10-07</td>
       <td>2023-06-06</td>
@@ -440,9 +440,9 @@
       <td>Logan McAnsh</td>
       <td>Matt Brophy</td>
       <td>24</td>
-      <td>683</td>
-      <td>1276</td>
-      <td>683</td>
+      <td>685</td>
+      <td>1278</td>
+      <td>684</td>
       <td>2023-06-06</td>
       <td>2021-10-20</td>
       <td>2023-06-06</td>
@@ -460,9 +460,9 @@
       <td>Matt Brophy</td>
       <td>Logan McAnsh</td>
       <td>14</td>
-      <td>683</td>
-      <td>1274</td>
-      <td>683</td>
+      <td>685</td>
+      <td>1276</td>
+      <td>684</td>
       <td>2023-06-06</td>
       <td>2021-10-22</td>
       <td>2023-06-06</td>
@@ -480,9 +480,9 @@
       <td>Matt Brophy</td>
       <td>Michael Jackson</td>
       <td>23</td>
-      <td>683</td>
-      <td>1276</td>
-      <td>683</td>
+      <td>685</td>
+      <td>1277</td>
+      <td>684</td>
       <td>2023-06-06</td>
       <td>2021-10-21</td>
       <td>2023-06-06</td>
@@ -500,9 +500,9 @@
       <td>Matt Brophy</td>
       <td>Pedro Cattori</td>
       <td>25</td>
-      <td>683</td>
-      <td>953</td>
-      <td>683</td>
+      <td>685</td>
+      <td>955</td>
+      <td>684</td>
       <td>2023-06-06</td>
       <td>2022-09-08</td>
       <td>2023-06-06</td>
@@ -520,9 +520,9 @@
       <td>Matt Brophy</td>
       <td>Logan McAnsh</td>
       <td>16</td>
-      <td>683</td>
-      <td>1291</td>
-      <td>683</td>
+      <td>685</td>
+      <td>1293</td>
+      <td>684</td>
       <td>2023-06-06</td>
       <td>2021-10-05</td>
       <td>2023-06-06</td>
@@ -540,9 +540,9 @@
       <td>Chance Strickland</td>
       <td>Matt Brophy</td>
       <td>27</td>
-      <td>814</td>
-      <td>1324</td>
-      <td>814</td>
+      <td>816</td>
+      <td>1325</td>
+      <td>815</td>
       <td>2023-01-26</td>
       <td>2021-09-03</td>
       <td>2023-01-26</td>
@@ -560,9 +560,9 @@
       <td>Matt Brophy</td>
       <td>Chance Strickland</td>
       <td>312</td>
-      <td>79</td>
-      <td>183</td>
-      <td>79</td>
+      <td>81</td>
+      <td>184</td>
+      <td>80</td>
       <td>2025-01-30</td>
       <td>2024-10-18</td>
       <td>2025-01-30</td>
@@ -580,9 +580,9 @@
       <td>Matt Brophy</td>
       <td>Jacob Ebey</td>
       <td>32</td>
-      <td>221</td>
-      <td>404</td>
-      <td>221</td>
+      <td>223</td>
+      <td>405</td>
+      <td>222</td>
       <td>2024-09-10</td>
       <td>2024-03-11</td>
       <td>2024-09-10</td>
@@ -600,9 +600,9 @@
       <td>Chance Strickland</td>
       <td>Chris Chudzicki</td>
       <td>10</td>
-      <td>1146</td>
-      <td>1265</td>
-      <td>1145</td>
+      <td>1148</td>
+      <td>1266</td>
+      <td>1147</td>
       <td>2022-02-28</td>
       <td>2021-11-01</td>
       <td>2022-02-28</td>
@@ -620,9 +620,9 @@
       <td>Matt Brophy</td>
       <td>Ryan Florence</td>
       <td>22</td>
-      <td>261</td>
-      <td>262</td>
-      <td>262</td>
+      <td>263</td>
+      <td>263</td>
+      <td>263</td>
       <td>2024-08-01</td>
       <td>2024-07-31</td>
       <td>2024-07-31</td>
@@ -640,9 +640,9 @@
       <td>Matt Brophy</td>
       <td>Michael Jackson</td>
       <td>28</td>
-      <td>683</td>
-      <td>1293</td>
-      <td>683</td>
+      <td>685</td>
+      <td>1294</td>
+      <td>684</td>
       <td>2023-06-06</td>
       <td>2021-10-04</td>
       <td>2023-06-06</td>
@@ -660,9 +660,9 @@
       <td>Matt Brophy</td>
       <td>Logan McAnsh</td>
       <td>19</td>
-      <td>683</td>
-      <td>1289</td>
-      <td>683</td>
+      <td>685</td>
+      <td>1291</td>
+      <td>684</td>
       <td>2023-06-06</td>
       <td>2021-10-07</td>
       <td>2023-06-06</td>
@@ -680,9 +680,9 @@
       <td>Matt Brophy</td>
       <td>Chance Strickland</td>
       <td>36</td>
-      <td>520</td>
-      <td>953</td>
-      <td>520</td>
+      <td>522</td>
+      <td>955</td>
+      <td>521</td>
       <td>2023-11-16</td>
       <td>2022-09-08</td>
       <td>2023-11-16</td>
@@ -700,9 +700,9 @@
       <td>Matt Brophy</td>
       <td>Pedro Cattori</td>
       <td>25</td>
-      <td>683</td>
-      <td>953</td>
-      <td>683</td>
+      <td>685</td>
+      <td>955</td>
+      <td>684</td>
       <td>2023-06-06</td>
       <td>2022-09-08</td>
       <td>2023-06-06</td>
@@ -720,9 +720,9 @@
       <td>Matt Brophy</td>
       <td>Shane Walker</td>
       <td>15</td>
-      <td>618</td>
-      <td>640</td>
-      <td>640</td>
+      <td>620</td>
+      <td>641</td>
+      <td>641</td>
       <td>2023-08-10</td>
       <td>2023-07-19</td>
       <td>2023-07-19</td>
@@ -740,9 +740,9 @@
       <td>Michael Jackson</td>
       <td>Logan McAnsh</td>
       <td>22</td>
-      <td>683</td>
-      <td>1289</td>
-      <td>683</td>
+      <td>685</td>
+      <td>1291</td>
+      <td>684</td>
       <td>2023-06-06</td>
       <td>2021-10-07</td>
       <td>2023-06-06</td>
@@ -8561,9 +8561,9 @@ maplibre-gl/dist/maplibre-gl.js:
 
 window.Plotly = Plotly;
 return Plotly;
-}));</script>                <div id="e71ed8cf-bc48-4cf6-af79-3ea11741b1b5" class="plotly-graph-div" style="height:525px; width:100%;"></div>            <script type="text/javascript">                window.PLOTLYENV=window.PLOTLYENV || {};                                if (document.getElementById("e71ed8cf-bc48-4cf6-af79-3ea11741b1b5")) {                    Plotly.newPlot(                        "e71ed8cf-bc48-4cf6-af79-3ea11741b1b5",                        [{"labels":["A","B","C","D","E"],"marker":{"colorbar":{"tickformat":",","ticklabeloverflow":"allow","ticklabelposition":"outside top","ticklabelstep":1,"tickmode":"auto","title":{"text":"Value"}},"colors":[10,20,30,40,50],"colorscale":[[0.0,"rgb(247,251,255)"],[0.125,"rgb(222,235,247)"],[0.25,"rgb(198,219,239)"],[0.375,"rgb(158,202,225)"],[0.5,"rgb(107,174,214)"],[0.625,"rgb(66,146,198)"],[0.75,"rgb(33,113,181)"],[0.875,"rgb(8,81,156)"],[1.0,"rgb(8,48,107)"]]},"parents":["","A","A","B","B"],"values":[10,20,30,40,50],"type":"treemap"}],                        {"template":{"data":{"histogram2dcontour":[{"type":"histogram2dcontour","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"choropleth":[{"type":"choropleth","colorbar":{"outlinewidth":0,"ticks":""}}],"histogram2d":[{"type":"histogram2d","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"heatmap":[{"type":"heatmap","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"contourcarpet":[{"type":"contourcarpet","colorbar":{"outlinewidth":0,"ticks":""}}],"contour":[{"type":"contour","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"surface":[{"type":"surface","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"mesh3d":[{"type":"mesh3d","colorbar":{"outlinewidth":0,"ticks":""}}],"scatter":[{"fillpattern":{"fillmode":"overlay","size":10,"solidity":0.2},"type":"scatter"}],"parcoords":[{"type":"parcoords","line":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterpolargl":[{"type":"scatterpolargl","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"bar":[{"error_x":{"color":"#2a3f5f"},"error_y":{"color":"#2a3f5f"},"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"bar"}],"scattergeo":[{"type":"scattergeo","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterpolar":[{"type":"scatterpolar","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"histogram":[{"marker":{"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"histogram"}],"scattergl":[{"type":"scattergl","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatter3d":[{"type":"scatter3d","line":{"colorbar":{"outlinewidth":0,"ticks":""}},"marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattermap":[{"type":"scattermap","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattermapbox":[{"type":"scattermapbox","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterternary":[{"type":"scatterternary","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattercarpet":[{"type":"scattercarpet","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"carpet":[{"aaxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"baxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"type":"carpet"}],"table":[{"cells":{"fill":{"color":"#EBF0F8"},"line":{"color":"white"}},"header":{"fill":{"color":"#C8D4E3"},"line":{"color":"white"}},"type":"table"}],"barpolar":[{"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"barpolar"}],"pie":[{"automargin":true,"type":"pie"}]},"layout":{"autotypenumbers":"strict","colorway":["#636efa","#EF553B","#00cc96","#ab63fa","#FFA15A","#19d3f3","#FF6692","#B6E880","#FF97FF","#FECB52"],"font":{"color":"#2a3f5f"},"hovermode":"closest","hoverlabel":{"align":"left"},"paper_bgcolor":"white","plot_bgcolor":"#E5ECF6","polar":{"bgcolor":"#E5ECF6","angularaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"radialaxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"ternary":{"bgcolor":"#E5ECF6","aaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"baxis":{"gridcolor":"white","linecolor":"white","ticks":""},"caxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"coloraxis":{"colorbar":{"outlinewidth":0,"ticks":""}},"colorscale":{"sequential":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"sequentialminus":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"diverging":[[0,"#8e0152"],[0.1,"#c51b7d"],[0.2,"#de77ae"],[0.3,"#f1b6da"],[0.4,"#fde0ef"],[0.5,"#f7f7f7"],[0.6,"#e6f5d0"],[0.7,"#b8e186"],[0.8,"#7fbc41"],[0.9,"#4d9221"],[1,"#276419"]]},"xaxis":{"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","automargin":true,"zerolinewidth":2},"yaxis":{"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","automargin":true,"zerolinewidth":2},"scene":{"xaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2},"yaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2},"zaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2}},"shapedefaults":{"line":{"color":"#2a3f5f"}},"annotationdefaults":{"arrowcolor":"#2a3f5f","arrowhead":0,"arrowwidth":1},"geo":{"bgcolor":"white","landcolor":"#E5ECF6","subunitcolor":"white","showland":true,"showlakes":true,"lakecolor":"white"},"title":{"x":0.05},"mapbox":{"style":"light"}}},"coloraxis":{"colorbar":{"tickvals":[50],"ticktext":["50 or more"]}}},                        {"responsive": true}                    ).then(function(){
+}));</script>                <div id="12d0a21a-95dc-4793-b12a-35abf2fe39f8" class="plotly-graph-div" style="height:525px; width:100%;"></div>            <script type="text/javascript">                window.PLOTLYENV=window.PLOTLYENV || {};                                if (document.getElementById("12d0a21a-95dc-4793-b12a-35abf2fe39f8")) {                    Plotly.newPlot(                        "12d0a21a-95dc-4793-b12a-35abf2fe39f8",                        [{"labels":["A","B","C","D","E"],"marker":{"colorbar":{"tickformat":",","ticklabeloverflow":"allow","ticklabelposition":"outside top","ticklabelstep":1,"tickmode":"auto","title":{"text":"Value"}},"colors":[10,20,30,40,50],"colorscale":[[0.0,"rgb(247,251,255)"],[0.125,"rgb(222,235,247)"],[0.25,"rgb(198,219,239)"],[0.375,"rgb(158,202,225)"],[0.5,"rgb(107,174,214)"],[0.625,"rgb(66,146,198)"],[0.75,"rgb(33,113,181)"],[0.875,"rgb(8,81,156)"],[1.0,"rgb(8,48,107)"]]},"parents":["","A","A","B","B"],"values":[10,20,30,40,50],"type":"treemap"}],                        {"template":{"data":{"histogram2dcontour":[{"type":"histogram2dcontour","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"choropleth":[{"type":"choropleth","colorbar":{"outlinewidth":0,"ticks":""}}],"histogram2d":[{"type":"histogram2d","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"heatmap":[{"type":"heatmap","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"contourcarpet":[{"type":"contourcarpet","colorbar":{"outlinewidth":0,"ticks":""}}],"contour":[{"type":"contour","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"surface":[{"type":"surface","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"mesh3d":[{"type":"mesh3d","colorbar":{"outlinewidth":0,"ticks":""}}],"scatter":[{"fillpattern":{"fillmode":"overlay","size":10,"solidity":0.2},"type":"scatter"}],"parcoords":[{"type":"parcoords","line":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterpolargl":[{"type":"scatterpolargl","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"bar":[{"error_x":{"color":"#2a3f5f"},"error_y":{"color":"#2a3f5f"},"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"bar"}],"scattergeo":[{"type":"scattergeo","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterpolar":[{"type":"scatterpolar","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"histogram":[{"marker":{"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"histogram"}],"scattergl":[{"type":"scattergl","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatter3d":[{"type":"scatter3d","line":{"colorbar":{"outlinewidth":0,"ticks":""}},"marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattermap":[{"type":"scattermap","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattermapbox":[{"type":"scattermapbox","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterternary":[{"type":"scatterternary","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattercarpet":[{"type":"scattercarpet","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"carpet":[{"aaxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"baxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"type":"carpet"}],"table":[{"cells":{"fill":{"color":"#EBF0F8"},"line":{"color":"white"}},"header":{"fill":{"color":"#C8D4E3"},"line":{"color":"white"}},"type":"table"}],"barpolar":[{"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"barpolar"}],"pie":[{"automargin":true,"type":"pie"}]},"layout":{"autotypenumbers":"strict","colorway":["#636efa","#EF553B","#00cc96","#ab63fa","#FFA15A","#19d3f3","#FF6692","#B6E880","#FF97FF","#FECB52"],"font":{"color":"#2a3f5f"},"hovermode":"closest","hoverlabel":{"align":"left"},"paper_bgcolor":"white","plot_bgcolor":"#E5ECF6","polar":{"bgcolor":"#E5ECF6","angularaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"radialaxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"ternary":{"bgcolor":"#E5ECF6","aaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"baxis":{"gridcolor":"white","linecolor":"white","ticks":""},"caxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"coloraxis":{"colorbar":{"outlinewidth":0,"ticks":""}},"colorscale":{"sequential":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"sequentialminus":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"diverging":[[0,"#8e0152"],[0.1,"#c51b7d"],[0.2,"#de77ae"],[0.3,"#f1b6da"],[0.4,"#fde0ef"],[0.5,"#f7f7f7"],[0.6,"#e6f5d0"],[0.7,"#b8e186"],[0.8,"#7fbc41"],[0.9,"#4d9221"],[1,"#276419"]]},"xaxis":{"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","automargin":true,"zerolinewidth":2},"yaxis":{"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","automargin":true,"zerolinewidth":2},"scene":{"xaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2},"yaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2},"zaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2}},"shapedefaults":{"line":{"color":"#2a3f5f"}},"annotationdefaults":{"arrowcolor":"#2a3f5f","arrowhead":0,"arrowwidth":1},"geo":{"bgcolor":"white","landcolor":"#E5ECF6","subunitcolor":"white","showland":true,"showlakes":true,"lakecolor":"white"},"title":{"x":0.05},"mapbox":{"style":"light"}}},"coloraxis":{"colorbar":{"tickvals":[50],"ticktext":["50 or more"]}}},                        {"responsive": true}                    ).then(function(){
 
-var gd = document.getElementById('e71ed8cf-bc48-4cf6-af79-3ea11741b1b5');
+var gd = document.getElementById('12d0a21a-95dc-4793-b12a-35abf2fe39f8');
 var x = new MutationObserver(function (mutations, observer) {{
         var display = window.getComputedStyle(gd).display;
         if (!display || display === 'none') {{
