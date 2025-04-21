@@ -131,7 +131,7 @@ Creates a in-memory projection of "Java:Package" nodes and their "DEPENDS_ON" re
       <td>116</td>
       <td>760</td>
       <td>0.056972</td>
-      <td>2958037</td>
+      <td>2957981</td>
       <td>0</td>
       <td>6.551724</td>
       <td>58</td>
@@ -1031,7 +1031,7 @@ The following table shows the first 10 rows with all details of the query above.
       <td>1</td>
       <td>1</td>
       <td>1</td>
-      <td>[/org/axonframework/axonserver/connector/heartbeat/connection/checker -&gt; /org/axonframework/axonserver/connector/heartbeat]</td>
+      <td>[/org/axonframework/axonserver/connector/heartbeat/source -&gt; /org/axonframework/axonserver/connector/heartbeat]</td>
       <td>[axon-server-connector-4.11.1 -&gt; axon-server-connector-4.11.1]</td>
       <td>[]</td>
     </tr>
@@ -1050,7 +1050,7 @@ The following table shows the first 10 rows with all details of the query above.
       <td>1</td>
       <td>1</td>
       <td>1</td>
-      <td>[/org/axonframework/axonserver/connector/heartbeat/connection/checker -&gt; /org/axonframework/axonserver/connector/util]</td>
+      <td>[/org/axonframework/axonserver/connector/heartbeat/source -&gt; /org/axonframework/axonserver/connector/util]</td>
       <td>[axon-server-connector-4.11.1 -&gt; axon-server-connector-4.11.1]</td>
       <td>[]</td>
     </tr>
@@ -1241,7 +1241,7 @@ In this section we'll focus only on pairs of nodes that both belong to the same 
       <td>1</td>
       <td>1</td>
       <td>1</td>
-      <td>[/org/axonframework/axonserver/connector/heartbeat/connection/checker -&gt; /org/axonframework/axonserver/connector/heartbeat]</td>
+      <td>[/org/axonframework/axonserver/connector/heartbeat/source -&gt; /org/axonframework/axonserver/connector/heartbeat]</td>
       <td>[axon-server-connector-4.11.1 -&gt; axon-server-connector-4.11.1]</td>
       <td>[]</td>
     </tr>
@@ -1260,7 +1260,7 @@ In this section we'll focus only on pairs of nodes that both belong to the same 
       <td>1</td>
       <td>1</td>
       <td>1</td>
-      <td>[/org/axonframework/axonserver/connector/heartbeat/connection/checker -&gt; /org/axonframework/axonserver/connector/util]</td>
+      <td>[/org/axonframework/axonserver/connector/heartbeat/source -&gt; /org/axonframework/axonserver/connector/util]</td>
       <td>[axon-server-connector-4.11.1 -&gt; axon-server-connector-4.11.1]</td>
       <td>[]</td>
     </tr>
@@ -1516,7 +1516,7 @@ Creates a in-memory projection of "Java:Artifact" nodes and their "DEPENDS_ON" r
       <td>9</td>
       <td>25</td>
       <td>0.347222</td>
-      <td>2758863</td>
+      <td>2758807</td>
       <td>0</td>
       <td>2.777778</td>
       <td>7</td>
