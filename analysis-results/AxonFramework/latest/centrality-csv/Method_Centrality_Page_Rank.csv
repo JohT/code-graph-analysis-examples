@@ -21,7 +21,7 @@
 "org.axonframework.messaging.HandlerExecutionException: java.util.Optional resolveDetails(java.lang.Throwable)","resolveDetails","centralityPageRank",0.01349879984900367,""
 "org.axonframework.common.AxonNonTransientException: boolean isCauseOf(java.lang.Throwable)","isCauseOf","centralityPageRank",0.012184540306341557,""
 "org.axonframework.common.jdbc.JdbcUtils: void closeQuietly(java.sql.Statement)","closeQuietly","centralityPageRank",0.012035766820978459,""
-"org.axonframework.eventhandling.GenericEventMessage: org.axonframework.eventhandling.EventMessage asEventMessage(java.lang.Object)","asEventMessage","centralityPageRank",0.011609724557060285,""
+"org.axonframework.eventhandling.GenericEventMessage: org.axonframework.eventhandling.EventMessage asEventMessage(java.lang.Object)","asEventMessage","centralityPageRank",0.011609724557060289,""
 "org.axonframework.eventsourcing.eventstore.DomainEventStream: org.axonframework.eventsourcing.eventstore.DomainEventStream of(java.util.stream.Stream,java.util.function.Supplier)","of","centralityPageRank",0.01148370893169723,""
 "org.axonframework.messaging.MetaData: boolean equals(java.lang.Object)","equals","centralityPageRank",0.0112902483237455,""
 "org.axonframework.common.io.IOUtils: void closeQuietly(java.lang.AutoCloseable)","closeQuietly","centralityPageRank",0.011254750964488299,""

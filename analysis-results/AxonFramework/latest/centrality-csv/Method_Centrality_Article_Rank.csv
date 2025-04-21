@@ -16,7 +16,7 @@
 "org.axonframework.messaging.MetaData: org.axonframework.messaging.MetaData from(java.util.Map)","from","centralityArticleRank",0.024817895955622064,""
 "org.axonframework.messaging.annotation.AnnotatedHandlerInspector: java.util.stream.Stream getHandlers(java.lang.Class)","getHandlers","centralityArticleRank",0.024750282414698,""
 "org.axonframework.common.ExceptionUtils: boolean isExplicitlyNonTransient(java.lang.Throwable)","isExplicitlyNonTransient","centralityArticleRank",0.02462512766302655,""
-"org.axonframework.common.io.IOUtils: void closeQuietly(java.lang.AutoCloseable)","closeQuietly","centralityArticleRank",0.02436624369465384,""
+"org.axonframework.common.io.IOUtils: void closeQuietly(java.lang.AutoCloseable)","closeQuietly","centralityArticleRank",0.024366243694653844,""
 "org.axonframework.config.LifecycleHandlerInspector: void registerLifecycleHandlers(org.axonframework.config.Configuration,java.lang.Object)","registerLifecycleHandlers","centralityArticleRank",0.024017024429845314,""
 "org.axonframework.eventhandling.GenericEventMessage: org.axonframework.eventhandling.EventMessage asEventMessage(java.lang.Object)","asEventMessage","centralityArticleRank",0.0223746185936161,""
 "org.axonframework.serialization.LazyDeserializingObject: java.lang.Object getObject()","getObject","centralityArticleRank",0.02010132750351424,""
