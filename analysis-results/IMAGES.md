@@ -215,6 +215,7 @@ Image  | Analysis |
 | [ExternalDependenciesJava_99_1.png](./AxonFramework/AxonFramework-4.11.1/external-dependencies-java/ExternalDependenciesJava_files/ExternalDependenciesJava_99_1.png) | AxonFramework-4.11.1 |
 | [GitHistoryGeneral_56_0.png](./AxonFramework/AxonFramework-4.11.1/git-history-general/GitHistoryGeneral_files/GitHistoryGeneral_56_0.png) | AxonFramework-4.11.1 |
 | [GitHistoryGeneral_62_0.png](./AxonFramework/AxonFramework-4.11.1/git-history-general/GitHistoryGeneral_files/GitHistoryGeneral_62_0.png) | AxonFramework-4.11.1 |
+| [GitHistoryGeneral_68_0.png](./AxonFramework/AxonFramework-4.11.1/git-history-general/GitHistoryGeneral_files/GitHistoryGeneral_68_0.png) | AxonFramework-4.11.1 |
 | [GitHistoryGeneral_69_0.png](./AxonFramework/AxonFramework-4.11.1/git-history-general/GitHistoryGeneral_files/GitHistoryGeneral_69_0.png) | AxonFramework-4.11.1 |
 | [MethodMetricsJava_13_1.png](./AxonFramework/AxonFramework-4.11.1/method-metrics-java/MethodMetricsJava_files/MethodMetricsJava_13_1.png) | AxonFramework-4.11.1 |
 | [MethodMetricsJava_14_1.png](./AxonFramework/AxonFramework-4.11.1/method-metrics-java/MethodMetricsJava_files/MethodMetricsJava_14_1.png) | AxonFramework-4.11.1 |
@@ -443,6 +444,7 @@ Image  | Analysis |
 | [ExternalDependenciesJava_99_1.png](./AxonFramework/latest/external-dependencies-java/ExternalDependenciesJava_files/ExternalDependenciesJava_99_1.png) | latest |
 | [GitHistoryGeneral_56_0.png](./AxonFramework/latest/git-history-general/GitHistoryGeneral_files/GitHistoryGeneral_56_0.png) | latest |
 | [GitHistoryGeneral_62_0.png](./AxonFramework/latest/git-history-general/GitHistoryGeneral_files/GitHistoryGeneral_62_0.png) | latest |
+| [GitHistoryGeneral_68_0.png](./AxonFramework/latest/git-history-general/GitHistoryGeneral_files/GitHistoryGeneral_68_0.png) | latest |
 | [GitHistoryGeneral_69_0.png](./AxonFramework/latest/git-history-general/GitHistoryGeneral_files/GitHistoryGeneral_69_0.png) | latest |
 | [MethodMetricsJava_13_1.png](./AxonFramework/latest/method-metrics-java/MethodMetricsJava_files/MethodMetricsJava_13_1.png) | latest |
 | [MethodMetricsJava_14_1.png](./AxonFramework/latest/method-metrics-java/MethodMetricsJava_files/MethodMetricsJava_14_1.png) | latest |
