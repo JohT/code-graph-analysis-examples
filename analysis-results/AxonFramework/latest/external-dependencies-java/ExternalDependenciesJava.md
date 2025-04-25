@@ -186,7 +186,7 @@ Only the top 20 entries are shown. The whole table can be found in the following
       <td>44</td>
       <td>116</td>
       <td>1485</td>
-      <td>[Task, ExecutionContext, TaskWithDataDescripto...</td>
+      <td>[Task, ExecutionContext, TaskInstance, TaskWit...</td>
     </tr>
     <tr>
       <th>12</th>
@@ -263,7 +263,7 @@ Only the top 20 entries are shown. The whole table can be found in the following
       <td>75</td>
       <td>116</td>
       <td>1485</td>
-      <td>[ObjectMapper, JsonDeserializer, Deserializati...</td>
+      <td>[ObjectMapper, DeserializationContext, JsonDes...</td>
     </tr>
     <tr>
       <th>19</th>
@@ -519,7 +519,7 @@ Only the top 20 entries are shown. The whole table can be found in the following
       <td>121</td>
       <td>116</td>
       <td>1485</td>
-      <td>[XStream, HierarchicalStreamReader, Mapper, Un...</td>
+      <td>[XStream, HierarchicalStreamReader, Mapper, Co...</td>
     </tr>
     <tr>
       <th>13</th>
@@ -530,7 +530,7 @@ Only the top 20 entries are shown. The whole table can be found in the following
       <td>41</td>
       <td>116</td>
       <td>1485</td>
-      <td>[JobScheduler, StateName, IllegalJobStateChang...</td>
+      <td>[JobScheduler, JobBuilder, StateName, IllegalJ...</td>
     </tr>
     <tr>
       <th>14</th>
@@ -574,7 +574,7 @@ Only the top 20 entries are shown. The whole table can be found in the following
       <td>187</td>
       <td>116</td>
       <td>1485</td>
-      <td>[Scheduler, SchedulerContext, TriggerBuilder, ...</td>
+      <td>[Scheduler, TriggerBuilder, JobDetail, Trigger...</td>
     </tr>
     <tr>
       <th>18</th>
@@ -5180,7 +5180,7 @@ Only the last 40 entries are shown. The whole table can be found in the followin
       <td>18</td>
       <td>109</td>
       <td>4</td>
-      <td>[Scheduler, SchedulerContext, TriggerBuilder, ...</td>
+      <td>[Scheduler, TriggerBuilder, JobDetail, Trigger...</td>
       <td>quartz</td>
     </tr>
     <tr>
@@ -5191,7 +5191,7 @@ Only the last 40 entries are shown. The whole table can be found in the followin
       <td>17</td>
       <td>76</td>
       <td>6</td>
-      <td>[JobDataMap, Scheduler, TriggerBuilder, JobDet...</td>
+      <td>[JobDataMap, Scheduler, JobDetail, Trigger, Jo...</td>
       <td>quartz</td>
     </tr>
     <tr>
@@ -5246,7 +5246,7 @@ Only the last 40 entries are shown. The whole table can be found in the followin
       <td>15</td>
       <td>65</td>
       <td>7</td>
-      <td>[JsonDeserializer, DeserializationContext, Obj...</td>
+      <td>[DeserializationContext, JsonDeserializer, Des...</td>
       <td>json</td>
     </tr>
     <tr>
@@ -5367,7 +5367,7 @@ Only the last 40 entries are shown. The whole table can be found in the followin
       <td>8</td>
       <td>30</td>
       <td>15</td>
-      <td>[EventType, CacheEventListener, EventOrdering,...</td>
+      <td>[EventType, EventFiring, CacheEventListener, E...</td>
       <td>caching</td>
     </tr>
     <tr>
@@ -5378,7 +5378,7 @@ Only the last 40 entries are shown. The whole table can be found in the followin
       <td>8</td>
       <td>26</td>
       <td>15</td>
-      <td>[CacheEntryEventFilter, CacheEntryUpdatedListe...</td>
+      <td>[CacheEntryCreatedListener, CacheEntryUpdatedL...</td>
       <td>caching</td>
     </tr>
     <tr>
@@ -5389,7 +5389,7 @@ Only the last 40 entries are shown. The whole table can be found in the followin
       <td>8</td>
       <td>15</td>
       <td>55</td>
-      <td>[LoggerFactory, Logger]</td>
+      <td>[Logger, LoggerFactory]</td>
       <td>annotation</td>
     </tr>
     <tr>

@@ -150,7 +150,7 @@
 <text text-anchor="middle" x="350" y="-704.63" font-family="Helvetica,Arial,sans-serif" font-size="14.00">(level 0/6)</text>
 </g>
 <!-- axon&#45;spring&#45;boot&#45;autoconfigure&#45;4.11.1\n(level 0/6)&#45;&gt;axon&#45;eventsourcing&#45;4.11.1\n(level 4/6) -->
-<g id="edge15" class="edge">
+<g id="edge17" class="edge">
 <title>axon&#45;spring&#45;boot&#45;autoconfigure&#45;4.11.1\n(level 0/6)&#45;&gt;axon&#45;eventsourcing&#45;4.11.1\n(level 4/6)</title>
 <path fill="none" stroke="#1178b2" stroke-width="1.33" d="M342.34,-687.49C333.67,-658.59 317.49,-613.74 293,-580.99 285.44,-570.87 276.81,-574.21 271,-562.99 233.37,-490.32 260.89,-461.11 258,-379.33 257.08,-353.19 247.29,-344.35 258,-320.49 265.38,-304.05 278.25,-289.71 291.81,-278.03"/>
 <polygon fill="#1178b2" stroke="#1178b2" stroke-width="1.33" points="293.66,-281.03 299.21,-272.01 289.25,-275.6 293.66,-281.03"/>
@@ -164,7 +164,7 @@
 <text text-anchor="middle" x="7.5" y="-346.91" font-family="Helvetica,Arial,sans-serif" font-size="10.00">436</text>
 </g>
 <!-- axon&#45;spring&#45;boot&#45;autoconfigure&#45;4.11.1\n(level 0/6)&#45;&gt;axon&#45;modelling&#45;4.11.1\n(level 5/6) -->
-<g id="edge16" class="edge">
+<g id="edge15" class="edge">
 <title>axon&#45;spring&#45;boot&#45;autoconfigure&#45;4.11.1\n(level 0/6)&#45;&gt;axon&#45;modelling&#45;4.11.1\n(level 5/6)</title>
 <path fill="none" stroke="#1178b2" stroke-width="1.23" d="M506.94,-707.44C630.85,-696.04 783,-670.09 783,-611.4 783,-611.4 783,-611.4 783,-242.08 783,-200.98 677.84,-171.22 594.83,-154.14"/>
 <polygon fill="#1178b2" stroke="#1178b2" stroke-width="1.23" points="595.6,-150.72 585.1,-152.18 594.22,-157.59 595.6,-150.72"/>
@@ -178,7 +178,7 @@
 <text text-anchor="middle" x="349.56" y="-530.57" font-family="Helvetica,Arial,sans-serif" font-size="10.00">4</text>
 </g>
 <!-- axon&#45;spring&#45;boot&#45;autoconfigure&#45;4.11.1\n(level 0/6)&#45;&gt;axon&#45;configuration&#45;4.11.1\n(level 2/6) -->
-<g id="edge17" class="edge">
+<g id="edge16" class="edge">
 <title>axon&#45;spring&#45;boot&#45;autoconfigure&#45;4.11.1\n(level 0/6)&#45;&gt;axon&#45;configuration&#45;4.11.1\n(level 2/6)</title>
 <path fill="none" stroke="#1178b2" stroke-width="1.58" d="M365.85,-687.58C391.58,-641.07 442.47,-549.08 471.46,-496.68"/>
 <polygon fill="#1178b2" stroke="#1178b2" stroke-width="1.58" points="474.36,-498.66 476.14,-488.22 468.24,-495.27 474.36,-498.66"/>

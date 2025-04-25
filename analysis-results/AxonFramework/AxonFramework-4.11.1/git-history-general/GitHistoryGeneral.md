@@ -47,64 +47,64 @@
       <th>mean</th>
       <td>24.492007</td>
       <td>19.502664</td>
-      <td>1596.113677</td>
-      <td>206.362345</td>
-      <td>1063.900533</td>
-      <td>299.301954</td>
+      <td>282.909414</td>
+      <td>210.362345</td>
+      <td>1068.838366</td>
+      <td>304.296625</td>
     </tr>
     <tr>
       <th>std</th>
       <td>117.928146</td>
       <td>21.209040</td>
-      <td>7954.335528</td>
+      <td>627.630238</td>
       <td>127.121149</td>
-      <td>968.697642</td>
-      <td>367.525167</td>
+      <td>968.679341</td>
+      <td>367.528519</td>
     </tr>
     <tr>
       <th>min</th>
       <td>1.000000</td>
       <td>2.000000</td>
       <td>3.000000</td>
-      <td>59.000000</td>
-      <td>65.000000</td>
-      <td>58.000000</td>
+      <td>63.000000</td>
+      <td>70.000000</td>
+      <td>63.000000</td>
     </tr>
     <tr>
       <th>25%</th>
       <td>1.000000</td>
       <td>7.000000</td>
-      <td>50.500000</td>
-      <td>123.000000</td>
-      <td>305.000000</td>
-      <td>122.000000</td>
+      <td>27.000000</td>
+      <td>127.000000</td>
+      <td>310.000000</td>
+      <td>127.000000</td>
     </tr>
     <tr>
       <th>50%</th>
       <td>4.000000</td>
       <td>12.000000</td>
-      <td>141.000000</td>
-      <td>265.000000</td>
-      <td>824.000000</td>
-      <td>264.000000</td>
+      <td>80.000000</td>
+      <td>269.000000</td>
+      <td>829.000000</td>
+      <td>269.000000</td>
     </tr>
     <tr>
       <th>75%</th>
       <td>10.000000</td>
       <td>25.000000</td>
-      <td>595.500000</td>
-      <td>265.000000</td>
-      <td>1878.000000</td>
-      <td>264.000000</td>
+      <td>262.000000</td>
+      <td>269.000000</td>
+      <td>1883.000000</td>
+      <td>269.000000</td>
     </tr>
     <tr>
       <th>max</th>
       <td>2250.000000</td>
       <td>212.000000</td>
-      <td>154891.000000</td>
-      <td>2415.000000</td>
-      <td>5542.000000</td>
-      <td>2893.000000</td>
+      <td>9588.000000</td>
+      <td>2419.000000</td>
+      <td>5547.000000</td>
+      <td>2898.000000</td>
     </tr>
   </tbody>
 </table>
@@ -150,11 +150,11 @@
       <td>xml</td>
       <td>6</td>
       <td>Allard Buijze</td>
-      <td>Steven van Beelen</td>
+      <td>Frank Versnel</td>
       <td>47</td>
-      <td>265</td>
-      <td>5542</td>
-      <td>264</td>
+      <td>269</td>
+      <td>5547</td>
+      <td>269</td>
       <td>2024-07-30</td>
       <td>2010-02-16</td>
       <td>2024-07-30</td>
@@ -169,12 +169,12 @@
       <td>AxonFramework-4.11.1/axon-server-connector/src/main/java/org/axonframework/axonserver/connector/heartbeat/source/GrpcHeartbeatSource.java</td>
       <td>java</td>
       <td>10</td>
-      <td>Steven van Beelen</td>
-      <td>Sara Pellegrini</td>
+      <td>Allard Buijze</td>
+      <td>Elin Alexey</td>
       <td>31</td>
-      <td>265</td>
-      <td>2013</td>
-      <td>264</td>
+      <td>269</td>
+      <td>2018</td>
+      <td>269</td>
       <td>2024-07-30</td>
       <td>2019-10-16</td>
       <td>2024-07-30</td>
@@ -192,9 +192,9 @@
       <td>Allard Buijze</td>
       <td>Marc Gathier</td>
       <td>22</td>
-      <td>265</td>
-      <td>2382</td>
-      <td>2382</td>
+      <td>269</td>
+      <td>2387</td>
+      <td>2387</td>
       <td>2024-07-30</td>
       <td>2018-10-12</td>
       <td>2018-10-12</td>
@@ -209,12 +209,12 @@
       <td>AxonFramework-4.11.1/axon-server-connector/src/test/java/org/axonframework/axonserver/connector/event/util/EventCipherTests.java</td>
       <td>java</td>
       <td>11</td>
-      <td>Steven van Beelen</td>
       <td>Allard Buijze</td>
+      <td>Elin Alexey</td>
       <td>69</td>
-      <td>265</td>
-      <td>2406</td>
-      <td>264</td>
+      <td>269</td>
+      <td>2411</td>
+      <td>269</td>
       <td>2024-07-30</td>
       <td>2018-09-18</td>
       <td>2024-07-30</td>
@@ -229,12 +229,12 @@
       <td>AxonFramework-4.11.1/config/src/test/resources/META-INF/persistence.xml</td>
       <td>xml</td>
       <td>5</td>
-      <td>Steven van Beelen</td>
-      <td>smcvb</td>
+      <td>Allard Buijze</td>
+      <td>Marijn van Zelst</td>
       <td>34</td>
-      <td>265</td>
-      <td>2384</td>
-      <td>264</td>
+      <td>269</td>
+      <td>2389</td>
+      <td>269</td>
       <td>2024-07-30</td>
       <td>2018-10-10</td>
       <td>2024-07-30</td>
@@ -249,12 +249,12 @@
       <td>AxonFramework-4.11.1/coverage-report/pom.xml</td>
       <td>xml</td>
       <td>10</td>
-      <td>Steven van Beelen</td>
-      <td>Mitchell Herrijgers</td>
+      <td>Allard Buijze</td>
+      <td>Christian Vermorken</td>
       <td>166</td>
-      <td>66</td>
-      <td>1207</td>
-      <td>65</td>
+      <td>70</td>
+      <td>1212</td>
+      <td>70</td>
       <td>2025-02-14</td>
       <td>2021-12-30</td>
       <td>2025-02-14</td>
@@ -269,12 +269,12 @@
       <td>AxonFramework-4.11.1/docs/_playbook/localLinks/axoniq-library-ui</td>
       <td>axoniq-library-ui</td>
       <td>7</td>
-      <td>Steven van Beelen</td>
       <td>Allard Buijze</td>
+      <td>David Gómez G</td>
       <td>10</td>
-      <td>265</td>
-      <td>317</td>
-      <td>317</td>
+      <td>269</td>
+      <td>322</td>
+      <td>322</td>
       <td>2024-07-30</td>
       <td>2024-06-07</td>
       <td>2024-06-07</td>
@@ -289,12 +289,12 @@
       <td>AxonFramework-4.11.1/docs/_reference/modules/ROOT/attachments/axonframework_overview.gv</td>
       <td>gv</td>
       <td>8</td>
-      <td>Steven van Beelen</td>
-      <td>Milen Dyankov</td>
+      <td>Allard Buijze</td>
+      <td>David Gómez G</td>
       <td>18</td>
-      <td>265</td>
-      <td>305</td>
-      <td>305</td>
+      <td>269</td>
+      <td>310</td>
+      <td>310</td>
       <td>2024-07-30</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -309,12 +309,12 @@
       <td>AxonFramework-4.11.1/docs/_reference/modules/ROOT/partials/nav.adoc</td>
       <td>adoc</td>
       <td>8</td>
-      <td>Steven van Beelen</td>
-      <td>Milen Dyankov</td>
+      <td>Allard Buijze</td>
+      <td>David Gómez G</td>
       <td>18</td>
-      <td>265</td>
-      <td>305</td>
-      <td>305</td>
+      <td>269</td>
+      <td>310</td>
+      <td>310</td>
       <td>2024-07-30</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -329,12 +329,12 @@
       <td>AxonFramework-4.11.1/docs/_reference/modules/axon-server-connector/pages/index.adoc</td>
       <td>adoc</td>
       <td>8</td>
-      <td>Steven van Beelen</td>
-      <td>Milen Dyankov</td>
+      <td>Allard Buijze</td>
+      <td>David Gómez G</td>
       <td>19</td>
-      <td>265</td>
-      <td>305</td>
-      <td>305</td>
+      <td>269</td>
+      <td>310</td>
+      <td>310</td>
       <td>2024-07-30</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -349,12 +349,12 @@
       <td>AxonFramework-4.11.1/docs/_reference/modules/axon-server-connector/partials/nav.adoc</td>
       <td>adoc</td>
       <td>8</td>
-      <td>Steven van Beelen</td>
-      <td>Milen Dyankov</td>
+      <td>Allard Buijze</td>
+      <td>David Gómez G</td>
       <td>18</td>
-      <td>265</td>
-      <td>305</td>
-      <td>305</td>
+      <td>269</td>
+      <td>310</td>
+      <td>310</td>
       <td>2024-07-30</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -369,12 +369,12 @@
       <td>AxonFramework-4.11.1/docs/_reference/modules/configuration/pages/index.adoc</td>
       <td>adoc</td>
       <td>8</td>
-      <td>Steven van Beelen</td>
-      <td>Milen Dyankov</td>
+      <td>Allard Buijze</td>
+      <td>David Gómez G</td>
       <td>19</td>
-      <td>265</td>
-      <td>305</td>
-      <td>305</td>
+      <td>269</td>
+      <td>310</td>
+      <td>310</td>
       <td>2024-07-30</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -389,12 +389,12 @@
       <td>AxonFramework-4.11.1/docs/_reference/modules/configuration/partials/nav.adoc</td>
       <td>adoc</td>
       <td>8</td>
-      <td>Steven van Beelen</td>
-      <td>Milen Dyankov</td>
+      <td>Allard Buijze</td>
+      <td>David Gómez G</td>
       <td>18</td>
-      <td>265</td>
-      <td>305</td>
-      <td>305</td>
+      <td>269</td>
+      <td>310</td>
+      <td>310</td>
       <td>2024-07-30</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -409,12 +409,12 @@
       <td>AxonFramework-4.11.1/docs/_reference/modules/disruptor/pages/index.adoc</td>
       <td>adoc</td>
       <td>8</td>
-      <td>Steven van Beelen</td>
-      <td>Milen Dyankov</td>
+      <td>Allard Buijze</td>
+      <td>David Gómez G</td>
       <td>19</td>
-      <td>265</td>
-      <td>305</td>
-      <td>305</td>
+      <td>269</td>
+      <td>310</td>
+      <td>310</td>
       <td>2024-07-30</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -429,12 +429,12 @@
       <td>AxonFramework-4.11.1/docs/_reference/modules/disruptor/partials/nav.adoc</td>
       <td>adoc</td>
       <td>8</td>
-      <td>Steven van Beelen</td>
-      <td>Milen Dyankov</td>
+      <td>Allard Buijze</td>
+      <td>David Gómez G</td>
       <td>18</td>
-      <td>265</td>
-      <td>305</td>
-      <td>305</td>
+      <td>269</td>
+      <td>310</td>
+      <td>310</td>
       <td>2024-07-30</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -449,12 +449,12 @@
       <td>AxonFramework-4.11.1/docs/_reference/modules/eventsourcing/pages/index.adoc</td>
       <td>adoc</td>
       <td>8</td>
-      <td>Steven van Beelen</td>
-      <td>Milen Dyankov</td>
+      <td>Allard Buijze</td>
+      <td>David Gómez G</td>
       <td>20</td>
-      <td>265</td>
-      <td>305</td>
-      <td>305</td>
+      <td>269</td>
+      <td>310</td>
+      <td>310</td>
       <td>2024-07-30</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -469,12 +469,12 @@
       <td>AxonFramework-4.11.1/docs/_reference/modules/eventsourcing/partials/nav.adoc</td>
       <td>adoc</td>
       <td>8</td>
-      <td>Steven van Beelen</td>
-      <td>Milen Dyankov</td>
+      <td>Allard Buijze</td>
+      <td>David Gómez G</td>
       <td>18</td>
-      <td>265</td>
-      <td>305</td>
-      <td>305</td>
+      <td>269</td>
+      <td>310</td>
+      <td>310</td>
       <td>2024-07-30</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -489,12 +489,12 @@
       <td>AxonFramework-4.11.1/docs/_reference/modules/legacy/pages/index.adoc</td>
       <td>adoc</td>
       <td>8</td>
-      <td>Steven van Beelen</td>
-      <td>Milen Dyankov</td>
+      <td>Allard Buijze</td>
+      <td>David Gómez G</td>
       <td>19</td>
-      <td>265</td>
-      <td>305</td>
-      <td>305</td>
+      <td>269</td>
+      <td>310</td>
+      <td>310</td>
       <td>2024-07-30</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -509,12 +509,12 @@
       <td>AxonFramework-4.11.1/docs/_reference/modules/legacy/partials/nav.adoc</td>
       <td>adoc</td>
       <td>8</td>
-      <td>Steven van Beelen</td>
-      <td>Milen Dyankov</td>
+      <td>Allard Buijze</td>
+      <td>David Gómez G</td>
       <td>18</td>
-      <td>265</td>
-      <td>305</td>
-      <td>305</td>
+      <td>269</td>
+      <td>310</td>
+      <td>310</td>
       <td>2024-07-30</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -529,12 +529,12 @@
       <td>AxonFramework-4.11.1/docs/_reference/modules/metrics/pages/index.adoc</td>
       <td>adoc</td>
       <td>8</td>
-      <td>Steven van Beelen</td>
-      <td>Milen Dyankov</td>
+      <td>Allard Buijze</td>
+      <td>David Gómez G</td>
       <td>19</td>
-      <td>265</td>
-      <td>305</td>
-      <td>305</td>
+      <td>269</td>
+      <td>310</td>
+      <td>310</td>
       <td>2024-07-30</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -549,12 +549,12 @@
       <td>AxonFramework-4.11.1/docs/_reference/modules/metrics/partials/nav.adoc</td>
       <td>adoc</td>
       <td>8</td>
-      <td>Steven van Beelen</td>
-      <td>Milen Dyankov</td>
+      <td>Allard Buijze</td>
+      <td>David Gómez G</td>
       <td>18</td>
-      <td>265</td>
-      <td>305</td>
-      <td>305</td>
+      <td>269</td>
+      <td>310</td>
+      <td>310</td>
       <td>2024-07-30</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -569,12 +569,12 @@
       <td>AxonFramework-4.11.1/docs/_reference/modules/micrometer/pages/index.adoc</td>
       <td>adoc</td>
       <td>8</td>
-      <td>Steven van Beelen</td>
-      <td>Milen Dyankov</td>
+      <td>Allard Buijze</td>
+      <td>David Gómez G</td>
       <td>19</td>
-      <td>265</td>
-      <td>305</td>
-      <td>305</td>
+      <td>269</td>
+      <td>310</td>
+      <td>310</td>
       <td>2024-07-30</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -589,12 +589,12 @@
       <td>AxonFramework-4.11.1/docs/_reference/modules/micrometer/partials/nav.adoc</td>
       <td>adoc</td>
       <td>8</td>
-      <td>Steven van Beelen</td>
-      <td>Milen Dyankov</td>
+      <td>Allard Buijze</td>
+      <td>David Gómez G</td>
       <td>18</td>
-      <td>265</td>
-      <td>305</td>
-      <td>305</td>
+      <td>269</td>
+      <td>310</td>
+      <td>310</td>
       <td>2024-07-30</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -609,12 +609,12 @@
       <td>AxonFramework-4.11.1/docs/_reference/modules/modeling/partials/nav.adoc</td>
       <td>adoc</td>
       <td>8</td>
-      <td>Steven van Beelen</td>
-      <td>Milen Dyankov</td>
+      <td>Allard Buijze</td>
+      <td>David Gómez G</td>
       <td>18</td>
-      <td>265</td>
-      <td>305</td>
-      <td>305</td>
+      <td>269</td>
+      <td>310</td>
+      <td>310</td>
       <td>2024-07-30</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -629,12 +629,12 @@
       <td>AxonFramework-4.11.1/docs/_reference/modules/spring/pages/index.adoc</td>
       <td>adoc</td>
       <td>8</td>
-      <td>Steven van Beelen</td>
-      <td>Milen Dyankov</td>
+      <td>Allard Buijze</td>
+      <td>David Gómez G</td>
       <td>19</td>
-      <td>265</td>
-      <td>305</td>
-      <td>305</td>
+      <td>269</td>
+      <td>310</td>
+      <td>310</td>
       <td>2024-07-30</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -649,12 +649,12 @@
       <td>AxonFramework-4.11.1/docs/_reference/modules/spring/partials/nav.adoc</td>
       <td>adoc</td>
       <td>8</td>
-      <td>Steven van Beelen</td>
-      <td>Milen Dyankov</td>
+      <td>Allard Buijze</td>
+      <td>David Gómez G</td>
       <td>18</td>
-      <td>265</td>
-      <td>305</td>
-      <td>305</td>
+      <td>269</td>
+      <td>310</td>
+      <td>310</td>
       <td>2024-07-30</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -669,12 +669,12 @@
       <td>AxonFramework-4.11.1/docs/_reference/modules/springboot-starter/pages/index.adoc</td>
       <td>adoc</td>
       <td>8</td>
-      <td>Steven van Beelen</td>
-      <td>Milen Dyankov</td>
+      <td>Allard Buijze</td>
+      <td>David Gómez G</td>
       <td>20</td>
-      <td>265</td>
-      <td>305</td>
-      <td>305</td>
+      <td>269</td>
+      <td>310</td>
+      <td>310</td>
       <td>2024-07-30</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -689,12 +689,12 @@
       <td>AxonFramework-4.11.1/docs/_reference/modules/springboot-starter/partials/nav.adoc</td>
       <td>adoc</td>
       <td>8</td>
-      <td>Steven van Beelen</td>
-      <td>Milen Dyankov</td>
+      <td>Allard Buijze</td>
+      <td>David Gómez G</td>
       <td>18</td>
-      <td>265</td>
-      <td>305</td>
-      <td>305</td>
+      <td>269</td>
+      <td>310</td>
+      <td>310</td>
       <td>2024-07-30</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -709,12 +709,12 @@
       <td>AxonFramework-4.11.1/docs/_reference/modules/test/pages/index.adoc</td>
       <td>adoc</td>
       <td>8</td>
-      <td>Steven van Beelen</td>
-      <td>Milen Dyankov</td>
+      <td>Allard Buijze</td>
+      <td>David Gómez G</td>
       <td>19</td>
-      <td>265</td>
-      <td>305</td>
-      <td>305</td>
+      <td>269</td>
+      <td>310</td>
+      <td>310</td>
       <td>2024-07-30</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -729,12 +729,12 @@
       <td>AxonFramework-4.11.1/docs/_reference/modules/test/partials/nav.adoc</td>
       <td>adoc</td>
       <td>8</td>
-      <td>Steven van Beelen</td>
-      <td>Milen Dyankov</td>
+      <td>Allard Buijze</td>
+      <td>David Gómez G</td>
       <td>18</td>
-      <td>265</td>
-      <td>305</td>
-      <td>305</td>
+      <td>269</td>
+      <td>310</td>
+      <td>310</td>
       <td>2024-07-30</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -750,7 +750,7 @@
 
 
     
-![svg](GitHistoryGeneral_files/GitHistoryGeneral_26_0.svg)
+![svg](GitHistoryGeneral_files/GitHistoryGeneral_27_0.svg)
     
 
 
@@ -762,7 +762,7 @@
 
 
     
-![svg](GitHistoryGeneral_files/GitHistoryGeneral_28_0.svg)
+![svg](GitHistoryGeneral_files/GitHistoryGeneral_29_0.svg)
     
 
 
@@ -774,7 +774,7 @@
 
 
     
-![svg](GitHistoryGeneral_files/GitHistoryGeneral_30_0.svg)
+![svg](GitHistoryGeneral_files/GitHistoryGeneral_31_0.svg)
     
 
 
@@ -786,7 +786,7 @@
 
 
     
-![svg](GitHistoryGeneral_files/GitHistoryGeneral_32_0.svg)
+![svg](GitHistoryGeneral_files/GitHistoryGeneral_33_0.svg)
     
 
 
@@ -798,7 +798,7 @@
 
 
     
-![svg](GitHistoryGeneral_files/GitHistoryGeneral_34_0.svg)
+![svg](GitHistoryGeneral_files/GitHistoryGeneral_35_0.svg)
     
 
 
@@ -810,7 +810,7 @@
 
 
     
-![svg](GitHistoryGeneral_files/GitHistoryGeneral_36_0.svg)
+![svg](GitHistoryGeneral_files/GitHistoryGeneral_37_0.svg)
     
 
 
@@ -822,7 +822,7 @@
 
 
     
-![svg](GitHistoryGeneral_files/GitHistoryGeneral_38_0.svg)
+![svg](GitHistoryGeneral_files/GitHistoryGeneral_39_0.svg)
     
 
 
@@ -834,7 +834,7 @@
 
 
     
-![svg](GitHistoryGeneral_files/GitHistoryGeneral_40_0.svg)
+![svg](GitHistoryGeneral_files/GitHistoryGeneral_41_0.svg)
     
 
 
@@ -846,7 +846,7 @@
 
 
     
-![svg](GitHistoryGeneral_files/GitHistoryGeneral_42_0.svg)
+![svg](GitHistoryGeneral_files/GitHistoryGeneral_43_0.svg)
     
 
 
@@ -858,7 +858,7 @@
 
 
     
-![svg](GitHistoryGeneral_files/GitHistoryGeneral_44_0.svg)
+![svg](GitHistoryGeneral_files/GitHistoryGeneral_45_0.svg)
     
 
 
@@ -870,7 +870,7 @@
 
 
     
-![svg](GitHistoryGeneral_files/GitHistoryGeneral_46_0.svg)
+![svg](GitHistoryGeneral_files/GitHistoryGeneral_47_0.svg)
     
 
 
@@ -882,7 +882,7 @@
 
 
     
-![svg](GitHistoryGeneral_files/GitHistoryGeneral_48_0.svg)
+![svg](GitHistoryGeneral_files/GitHistoryGeneral_49_0.svg)
     
 
 
@@ -894,7 +894,7 @@
 
 
     
-![svg](GitHistoryGeneral_files/GitHistoryGeneral_50_0.svg)
+![svg](GitHistoryGeneral_files/GitHistoryGeneral_51_0.svg)
     
 
 
@@ -906,7 +906,7 @@
 
 
     
-![svg](GitHistoryGeneral_files/GitHistoryGeneral_53_0.svg)
+![svg](GitHistoryGeneral_files/GitHistoryGeneral_54_0.svg)
     
 
 
@@ -1152,7 +1152,7 @@ The data preview also includes overall statistics including the number of commit
 
 
     
-![svg](GitHistoryGeneral_files/GitHistoryGeneral_58_0.svg)
+![svg](GitHistoryGeneral_files/GitHistoryGeneral_59_0.svg)
     
 
 
@@ -1482,7 +1482,7 @@ This section explores the correlation between how often pairs of files are chang
 
 
     
-![svg](GitHistoryGeneral_files/GitHistoryGeneral_65_0.svg)
+![svg](GitHistoryGeneral_files/GitHistoryGeneral_66_0.svg)
     
 
 
@@ -1563,6 +1563,6 @@ This section explores the correlation between how often pairs of files are chang
 
 
     
-![png](GitHistoryGeneral_files/GitHistoryGeneral_68_0.png)
+![png](GitHistoryGeneral_files/GitHistoryGeneral_69_0.png)
     
 
