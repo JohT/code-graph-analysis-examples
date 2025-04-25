@@ -47,64 +47,64 @@
       <th>mean</th>
       <td>25.301205</td>
       <td>19.650602</td>
-      <td>434.650602</td>
-      <td>470.975904</td>
-      <td>874.722892</td>
-      <td>471.903614</td>
+      <td>129.975904</td>
+      <td>474.975904</td>
+      <td>879.216867</td>
+      <td>476.771084</td>
     </tr>
     <tr>
       <th>std</th>
       <td>77.772453</td>
       <td>46.179246</td>
-      <td>1505.037423</td>
+      <td>291.778607</td>
       <td>277.542657</td>
-      <td>386.873122</td>
-      <td>277.920045</td>
+      <td>386.645172</td>
+      <td>277.860218</td>
     </tr>
     <tr>
       <th>min</th>
       <td>1.000000</td>
       <td>2.000000</td>
       <td>3.000000</td>
-      <td>53.000000</td>
-      <td>82.000000</td>
-      <td>52.000000</td>
+      <td>57.000000</td>
+      <td>87.000000</td>
+      <td>57.000000</td>
     </tr>
     <tr>
       <th>25%</th>
       <td>4.000000</td>
       <td>4.000000</td>
-      <td>23.500000</td>
-      <td>201.000000</td>
-      <td>599.000000</td>
-      <td>200.000000</td>
+      <td>11.000000</td>
+      <td>205.000000</td>
+      <td>603.500000</td>
+      <td>204.000000</td>
     </tr>
     <tr>
       <th>50%</th>
       <td>10.000000</td>
       <td>6.000000</td>
-      <td>69.000000</td>
-      <td>586.000000</td>
-      <td>954.000000</td>
-      <td>585.000000</td>
+      <td>26.000000</td>
+      <td>590.000000</td>
+      <td>959.000000</td>
+      <td>590.000000</td>
     </tr>
     <tr>
       <th>75%</th>
       <td>13.000000</td>
       <td>13.500000</td>
-      <td>142.500000</td>
-      <td>685.000000</td>
-      <td>1278.000000</td>
-      <td>684.000000</td>
+      <td>83.000000</td>
+      <td>689.000000</td>
+      <td>1282.000000</td>
+      <td>689.000000</td>
     </tr>
     <tr>
       <th>max</th>
       <td>633.000000</td>
       <td>343.000000</td>
-      <td>11557.000000</td>
-      <td>1319.000000</td>
-      <td>1375.000000</td>
-      <td>1318.000000</td>
+      <td>1989.000000</td>
+      <td>1323.000000</td>
+      <td>1380.000000</td>
+      <td>1322.000000</td>
     </tr>
   </tbody>
 </table>
@@ -152,9 +152,9 @@
       <td>Logan McAnsh</td>
       <td>Michael Jackson</td>
       <td>4</td>
-      <td>1278</td>
-      <td>1278</td>
-      <td>1278</td>
+      <td>1282</td>
+      <td>1282</td>
+      <td>1282</td>
       <td>2021-10-21</td>
       <td>2021-10-20</td>
       <td>2021-10-20</td>
@@ -169,12 +169,12 @@
       <td>react-router-6.30.0/packages/react-router-dom-v5-compat/lib/components.tsx</td>
       <td>tsx</td>
       <td>6</td>
-      <td>Matt Brophy</td>
-      <td>Ryan Florence</td>
+      <td>Ayush C</td>
+      <td>Brooks Lybrand</td>
       <td>26</td>
-      <td>301</td>
-      <td>1116</td>
-      <td>300</td>
+      <td>305</td>
+      <td>1121</td>
+      <td>305</td>
       <td>2024-06-24</td>
       <td>2022-03-31</td>
       <td>2024-06-24</td>
@@ -189,12 +189,12 @@
       <td>react-router-6.30.0/packages/react-router-dom/__tests__/polyfills/drop-FormData-submitter.ts</td>
       <td>ts</td>
       <td>2</td>
-      <td>Matt Brophy</td>
       <td>Jon Jensen</td>
+      <td>Matt Brophy</td>
       <td>3</td>
-      <td>662</td>
-      <td>676</td>
-      <td>676</td>
+      <td>666</td>
+      <td>680</td>
+      <td>680</td>
       <td>2023-06-29</td>
       <td>2023-06-14</td>
       <td>2023-06-14</td>
@@ -212,9 +212,9 @@
       <td>Chance Strickland</td>
       <td>Michael Jackson</td>
       <td>6</td>
-      <td>1319</td>
-      <td>1375</td>
-      <td>1318</td>
+      <td>1323</td>
+      <td>1380</td>
+      <td>1322</td>
       <td>2021-09-10</td>
       <td>2021-07-15</td>
       <td>2021-09-10</td>
@@ -229,12 +229,12 @@
       <td>react-router-6.30.0/patches/@changesets__get-dependents-graph@1.3.6.patch</td>
       <td>patch</td>
       <td>4</td>
-      <td>Matt Brophy</td>
       <td>Chance Strickland</td>
+      <td>Mark Dalgleish</td>
       <td>10</td>
-      <td>363</td>
-      <td>395</td>
-      <td>395</td>
+      <td>367</td>
+      <td>400</td>
+      <td>400</td>
       <td>2024-04-23</td>
       <td>2024-03-21</td>
       <td>2024-03-21</td>
@@ -251,10 +251,10 @@
       <td>3</td>
       <td>Chance Strickland</td>
       <td>Matt Brophy</td>
-      <td>12</td>
-      <td>363</td>
-      <td>1041</td>
-      <td>362</td>
+      <td>10</td>
+      <td>367</td>
+      <td>1045</td>
+      <td>367</td>
       <td>2024-04-23</td>
       <td>2022-06-14</td>
       <td>2024-04-23</td>
@@ -272,9 +272,9 @@
       <td>Matt Brophy</td>
       <td>Brooks Lybrand</td>
       <td>16</td>
-      <td>137</td>
-      <td>325</td>
-      <td>137</td>
+      <td>141</td>
+      <td>329</td>
+      <td>141</td>
       <td>2024-12-05</td>
       <td>2024-05-30</td>
       <td>2024-12-05</td>
@@ -289,12 +289,12 @@
       <td>react-router-6.30.0/examples/lazy-loading/src/pages/About.tsx</td>
       <td>tsx</td>
       <td>3</td>
-      <td>Matt Brophy</td>
       <td>Logan McAnsh</td>
-      <td>14</td>
-      <td>685</td>
-      <td>1278</td>
-      <td>684</td>
+      <td>Matt Brophy</td>
+      <td>7</td>
+      <td>689</td>
+      <td>1282</td>
+      <td>689</td>
       <td>2023-06-06</td>
       <td>2021-10-21</td>
       <td>2023-06-06</td>
@@ -309,12 +309,12 @@
       <td>react-router-6.30.0/.github/ISSUE_TEMPLATE/bug_report.yml</td>
       <td>yml</td>
       <td>10</td>
-      <td>Matt Brophy</td>
       <td>Chance Strickland</td>
-      <td>38</td>
-      <td>186</td>
-      <td>830</td>
-      <td>185</td>
+      <td>Matt Brophy</td>
+      <td>25</td>
+      <td>190</td>
+      <td>835</td>
+      <td>190</td>
       <td>2024-10-17</td>
       <td>2023-01-11</td>
       <td>2024-10-17</td>
@@ -329,12 +329,12 @@
       <td>react-router-6.30.0/examples/navigation-blocking/src/app.tsx</td>
       <td>tsx</td>
       <td>2</td>
-      <td>Matt Brophy</td>
       <td>Chance Strickland</td>
-      <td>24</td>
-      <td>522</td>
-      <td>828</td>
-      <td>521</td>
+      <td>Matt Brophy</td>
+      <td>15</td>
+      <td>526</td>
+      <td>832</td>
+      <td>526</td>
       <td>2023-11-16</td>
       <td>2023-01-13</td>
       <td>2023-11-16</td>
@@ -350,11 +350,11 @@
       <td>tsx</td>
       <td>4</td>
       <td>Matt Brophy</td>
-      <td>Ryan Florence</td>
-      <td>12</td>
-      <td>816</td>
-      <td>822</td>
-      <td>822</td>
+      <td>Pedro Cattori</td>
+      <td>9</td>
+      <td>820</td>
+      <td>826</td>
+      <td>826</td>
       <td>2023-01-26</td>
       <td>2023-01-19</td>
       <td>2023-01-19</td>
@@ -371,10 +371,10 @@
       <td>2</td>
       <td>Matt Brophy</td>
       <td>Jacob Ebey</td>
-      <td>12</td>
-      <td>363</td>
-      <td>405</td>
-      <td>405</td>
+      <td>9</td>
+      <td>367</td>
+      <td>410</td>
+      <td>410</td>
       <td>2024-04-23</td>
       <td>2024-03-11</td>
       <td>2024-03-11</td>
@@ -389,12 +389,12 @@
       <td>react-router-6.30.0/examples/basic/src/App.tsx</td>
       <td>tsx</td>
       <td>7</td>
-      <td>Matt Brophy</td>
       <td>Chance Strickland</td>
-      <td>25</td>
-      <td>685</td>
-      <td>1336</td>
-      <td>684</td>
+      <td>Michael Jackson</td>
+      <td>18</td>
+      <td>689</td>
+      <td>1340</td>
+      <td>689</td>
       <td>2023-06-06</td>
       <td>2021-08-23</td>
       <td>2023-06-06</td>
@@ -409,12 +409,12 @@
       <td>react-router-6.30.0/examples/custom-link/src/App.tsx</td>
       <td>tsx</td>
       <td>5</td>
-      <td>Matt Brophy</td>
       <td>Logan McAnsh</td>
-      <td>18</td>
-      <td>685</td>
-      <td>1291</td>
-      <td>684</td>
+      <td>Matt Brophy</td>
+      <td>11</td>
+      <td>689</td>
+      <td>1295</td>
+      <td>689</td>
       <td>2023-06-06</td>
       <td>2021-10-07</td>
       <td>2023-06-06</td>
@@ -430,11 +430,11 @@
       <td>tsx</td>
       <td>7</td>
       <td>Logan McAnsh</td>
-      <td>Matt Brophy</td>
-      <td>24</td>
-      <td>685</td>
-      <td>1278</td>
-      <td>684</td>
+      <td>Chance Strickland</td>
+      <td>18</td>
+      <td>689</td>
+      <td>1282</td>
+      <td>689</td>
       <td>2023-06-06</td>
       <td>2021-10-20</td>
       <td>2023-06-06</td>
@@ -446,15 +446,15 @@
       <td>react-router-6.30.0/examples/multi-app</td>
       <td>home</td>
       <td>4</td>
-      <td>react-router-6.30.0/examples/multi-app/home/main.jsx</td>
+      <td>react-router-6.30.0/examples/multi-app/home/App.jsx</td>
       <td>jsx</td>
       <td>4</td>
-      <td>Matt Brophy</td>
       <td>Logan McAnsh</td>
-      <td>14</td>
-      <td>685</td>
-      <td>1276</td>
-      <td>684</td>
+      <td>Michael Jackson</td>
+      <td>9</td>
+      <td>689</td>
+      <td>1280</td>
+      <td>689</td>
       <td>2023-06-06</td>
       <td>2021-10-22</td>
       <td>2023-06-06</td>
@@ -469,12 +469,12 @@
       <td>react-router-6.30.0/examples/route-objects/src/App.tsx</td>
       <td>tsx</td>
       <td>5</td>
-      <td>Matt Brophy</td>
+      <td>Logan McAnsh</td>
       <td>Michael Jackson</td>
-      <td>23</td>
-      <td>685</td>
-      <td>1277</td>
-      <td>684</td>
+      <td>11</td>
+      <td>689</td>
+      <td>1282</td>
+      <td>689</td>
       <td>2023-06-06</td>
       <td>2021-10-21</td>
       <td>2023-06-06</td>
@@ -491,10 +491,10 @@
       <td>3</td>
       <td>Matt Brophy</td>
       <td>Pedro Cattori</td>
-      <td>25</td>
-      <td>685</td>
-      <td>955</td>
-      <td>684</td>
+      <td>12</td>
+      <td>689</td>
+      <td>959</td>
+      <td>689</td>
       <td>2023-06-06</td>
       <td>2022-09-08</td>
       <td>2023-06-06</td>
@@ -506,15 +506,15 @@
       <td>react-router-6.30.0/examples/search-params</td>
       <td>src</td>
       <td>4</td>
-      <td>react-router-6.30.0/examples/search-params/src/main.tsx</td>
+      <td>react-router-6.30.0/examples/search-params/src/App.tsx</td>
       <td>tsx</td>
       <td>6</td>
-      <td>Matt Brophy</td>
       <td>Logan McAnsh</td>
-      <td>16</td>
-      <td>685</td>
-      <td>1293</td>
-      <td>684</td>
+      <td>Chance Strickland</td>
+      <td>13</td>
+      <td>689</td>
+      <td>1297</td>
+      <td>689</td>
       <td>2023-06-06</td>
       <td>2021-10-05</td>
       <td>2023-06-06</td>
@@ -531,10 +531,10 @@
       <td>4</td>
       <td>Chance Strickland</td>
       <td>Matt Brophy</td>
-      <td>27</td>
-      <td>816</td>
-      <td>1325</td>
-      <td>815</td>
+      <td>14</td>
+      <td>820</td>
+      <td>1330</td>
+      <td>820</td>
       <td>2023-01-26</td>
       <td>2021-09-03</td>
       <td>2023-01-26</td>
@@ -550,11 +550,11 @@
       <td>tsx</td>
       <td>19</td>
       <td>Matt Brophy</td>
-      <td>Chance Strickland</td>
-      <td>312</td>
-      <td>81</td>
-      <td>184</td>
-      <td>80</td>
+      <td>Ayush C</td>
+      <td>194</td>
+      <td>85</td>
+      <td>189</td>
+      <td>85</td>
       <td>2025-01-30</td>
       <td>2024-10-18</td>
       <td>2025-01-30</td>
@@ -571,10 +571,10 @@
       <td>2</td>
       <td>Matt Brophy</td>
       <td>Jacob Ebey</td>
-      <td>32</td>
-      <td>223</td>
-      <td>405</td>
-      <td>222</td>
+      <td>21</td>
+      <td>227</td>
+      <td>410</td>
+      <td>227</td>
       <td>2024-09-10</td>
       <td>2024-03-11</td>
       <td>2024-09-10</td>
@@ -591,10 +591,10 @@
       <td>3</td>
       <td>Chance Strickland</td>
       <td>Chris Chudzicki</td>
-      <td>10</td>
-      <td>1148</td>
-      <td>1266</td>
-      <td>1147</td>
+      <td>7</td>
+      <td>1152</td>
+      <td>1271</td>
+      <td>1151</td>
       <td>2022-02-28</td>
       <td>2021-11-01</td>
       <td>2022-02-28</td>
@@ -611,10 +611,10 @@
       <td>6</td>
       <td>Matt Brophy</td>
       <td>Ryan Florence</td>
-      <td>22</td>
-      <td>263</td>
-      <td>263</td>
-      <td>263</td>
+      <td>16</td>
+      <td>267</td>
+      <td>268</td>
+      <td>268</td>
       <td>2024-08-01</td>
       <td>2024-07-31</td>
       <td>2024-07-31</td>
@@ -626,15 +626,15 @@
       <td>react-router-6.30.0/examples/auth</td>
       <td>src</td>
       <td>5</td>
-      <td>react-router-6.30.0/examples/auth/src/main.tsx</td>
+      <td>react-router-6.30.0/examples/auth/src/App.tsx</td>
       <td>tsx</td>
       <td>8</td>
-      <td>Matt Brophy</td>
-      <td>Michael Jackson</td>
-      <td>28</td>
-      <td>685</td>
-      <td>1294</td>
-      <td>684</td>
+      <td>Logan McAnsh</td>
+      <td>Chance Strickland</td>
+      <td>22</td>
+      <td>689</td>
+      <td>1299</td>
+      <td>689</td>
       <td>2023-06-06</td>
       <td>2021-10-04</td>
       <td>2023-06-06</td>
@@ -649,12 +649,12 @@
       <td>react-router-6.30.0/examples/custom-filter-link/src/App.tsx</td>
       <td>tsx</td>
       <td>6</td>
-      <td>Matt Brophy</td>
       <td>Logan McAnsh</td>
-      <td>19</td>
-      <td>685</td>
-      <td>1291</td>
-      <td>684</td>
+      <td>Chance Strickland</td>
+      <td>13</td>
+      <td>689</td>
+      <td>1295</td>
+      <td>689</td>
       <td>2023-06-06</td>
       <td>2021-10-07</td>
       <td>2023-06-06</td>
@@ -671,10 +671,10 @@
       <td>4</td>
       <td>Matt Brophy</td>
       <td>Chance Strickland</td>
-      <td>36</td>
-      <td>522</td>
-      <td>955</td>
-      <td>521</td>
+      <td>25</td>
+      <td>526</td>
+      <td>959</td>
+      <td>526</td>
       <td>2023-11-16</td>
       <td>2022-09-08</td>
       <td>2023-11-16</td>
@@ -691,10 +691,10 @@
       <td>2</td>
       <td>Matt Brophy</td>
       <td>Pedro Cattori</td>
-      <td>25</td>
-      <td>685</td>
-      <td>955</td>
-      <td>684</td>
+      <td>8</td>
+      <td>689</td>
+      <td>959</td>
+      <td>689</td>
       <td>2023-06-06</td>
       <td>2022-09-08</td>
       <td>2023-06-06</td>
@@ -711,10 +711,10 @@
       <td>2</td>
       <td>Matt Brophy</td>
       <td>Shane Walker</td>
-      <td>15</td>
-      <td>620</td>
-      <td>641</td>
-      <td>641</td>
+      <td>3</td>
+      <td>624</td>
+      <td>646</td>
+      <td>646</td>
       <td>2023-08-10</td>
       <td>2023-07-19</td>
       <td>2023-07-19</td>
@@ -729,12 +729,12 @@
       <td>react-router-6.30.0/examples/modal/src/App.tsx</td>
       <td>tsx</td>
       <td>6</td>
-      <td>Michael Jackson</td>
       <td>Logan McAnsh</td>
-      <td>22</td>
-      <td>685</td>
-      <td>1291</td>
-      <td>684</td>
+      <td>Michael Jackson</td>
+      <td>16</td>
+      <td>689</td>
+      <td>1295</td>
+      <td>689</td>
       <td>2023-06-06</td>
       <td>2021-10-07</td>
       <td>2023-06-06</td>
@@ -750,7 +750,7 @@
 
 
     
-![svg](GitHistoryGeneral_files/GitHistoryGeneral_26_0.svg)
+![svg](GitHistoryGeneral_files/GitHistoryGeneral_27_0.svg)
     
 
 
@@ -762,7 +762,7 @@
 
 
     
-![svg](GitHistoryGeneral_files/GitHistoryGeneral_28_0.svg)
+![svg](GitHistoryGeneral_files/GitHistoryGeneral_29_0.svg)
     
 
 
@@ -774,7 +774,7 @@
 
 
     
-![svg](GitHistoryGeneral_files/GitHistoryGeneral_30_0.svg)
+![svg](GitHistoryGeneral_files/GitHistoryGeneral_31_0.svg)
     
 
 
@@ -786,7 +786,7 @@
 
 
     
-![svg](GitHistoryGeneral_files/GitHistoryGeneral_32_0.svg)
+![svg](GitHistoryGeneral_files/GitHistoryGeneral_33_0.svg)
     
 
 
@@ -798,7 +798,7 @@
 
 
     
-![svg](GitHistoryGeneral_files/GitHistoryGeneral_34_0.svg)
+![svg](GitHistoryGeneral_files/GitHistoryGeneral_35_0.svg)
     
 
 
@@ -810,7 +810,7 @@
 
 
     
-![svg](GitHistoryGeneral_files/GitHistoryGeneral_36_0.svg)
+![svg](GitHistoryGeneral_files/GitHistoryGeneral_37_0.svg)
     
 
 
@@ -822,7 +822,7 @@
 
 
     
-![svg](GitHistoryGeneral_files/GitHistoryGeneral_38_0.svg)
+![svg](GitHistoryGeneral_files/GitHistoryGeneral_39_0.svg)
     
 
 
@@ -834,7 +834,7 @@
 
 
     
-![svg](GitHistoryGeneral_files/GitHistoryGeneral_40_0.svg)
+![svg](GitHistoryGeneral_files/GitHistoryGeneral_41_0.svg)
     
 
 
@@ -846,7 +846,7 @@
 
 
     
-![svg](GitHistoryGeneral_files/GitHistoryGeneral_42_0.svg)
+![svg](GitHistoryGeneral_files/GitHistoryGeneral_43_0.svg)
     
 
 
@@ -858,7 +858,7 @@
 
 
     
-![svg](GitHistoryGeneral_files/GitHistoryGeneral_44_0.svg)
+![svg](GitHistoryGeneral_files/GitHistoryGeneral_45_0.svg)
     
 
 
@@ -870,7 +870,7 @@
 
 
     
-![svg](GitHistoryGeneral_files/GitHistoryGeneral_46_0.svg)
+![svg](GitHistoryGeneral_files/GitHistoryGeneral_47_0.svg)
     
 
 
@@ -882,7 +882,7 @@
 
 
     
-![svg](GitHistoryGeneral_files/GitHistoryGeneral_48_0.svg)
+![svg](GitHistoryGeneral_files/GitHistoryGeneral_49_0.svg)
     
 
 
@@ -894,7 +894,7 @@
 
 
     
-![svg](GitHistoryGeneral_files/GitHistoryGeneral_50_0.svg)
+![svg](GitHistoryGeneral_files/GitHistoryGeneral_51_0.svg)
     
 
 
@@ -906,7 +906,7 @@
 
 
     
-![svg](GitHistoryGeneral_files/GitHistoryGeneral_53_0.svg)
+![svg](GitHistoryGeneral_files/GitHistoryGeneral_54_0.svg)
     
 
 
@@ -1152,7 +1152,7 @@ The data preview also includes overall statistics including the number of commit
 
 
     
-![svg](GitHistoryGeneral_files/GitHistoryGeneral_58_0.svg)
+![svg](GitHistoryGeneral_files/GitHistoryGeneral_59_0.svg)
     
 
 
@@ -1172,10 +1172,10 @@ This section explores the correlation between how often pairs of files are chang
 
 #### Data Preview
 
-    Received notification from DBMS server: {severity: WARNING} {code: Neo.ClientNotification.Statement.UnknownPropertyKeyWarning} {category: UNRECOGNIZED} {title: The provided property key is not in the database} {description: One of the property names in your query is not available in the database, make sure you didn't misspell it or that the label is available when you run this statement in your application (the missing property name is: weight)} {position: line: 9, column: 29, offset: 557} for query: "// List pair of files that were changed together and that have a declared dependency between each other.\n \n MATCH (firstCodeFile:File)-[dependency:DEPENDS_ON]->(secondCodeFile:File)\n MATCH (firstCodeFile)-[pairwiseChange:CHANGED_TOGETHER_WITH]-(secondCodeFile)\n //De-duplicating the pairs of files isn't necessary, because the dependency relation is directed.\n //WHERE elementId(firstCodeFile) < elementId(secondCodeFile)\n  WITH  firstCodeFile.fileName      AS firstFileName\n       ,secondCodeFile.fileName     AS secondFileName\n       ,coalesce(dependency.weight, dependency.cardinality)    AS dependencyWeight\n       ,pairwiseChange.commitCount  AS commitCount\n       ,dependency.fileDistanceAsFewestChangeDirectoryCommands AS fileDistanceAsFewestChangeDirectoryCommands\n RETURN dependencyWeight\n       ,commitCount\n       ,fileDistanceAsFewestChangeDirectoryCommands\n       // ,count(*)                    AS occurrences\n       // ,collect(firstFileName + ' -> ' + secondFileName)[0..3] AS examples\n ORDER BY dependencyWeight, commitCount\n \n // MATCH (firstCodeFile:File)-[dependency:DEPENDS_ON]->(secondCodeFile:File)\n // MATCH (firstCodeFile)-[pairwiseChange:CHANGED_TOGETHER_WITH]-(secondCodeFile)\n // WHERE elementId(firstCodeFile) < elementId(secondCodeFile)\n // RETURN firstCodeFile.fileName  AS firstFileName\n //       ,secondCodeFile.fileName AS secondFileName\n //       ,dependency.weight           AS dependencyWeight\n //       ,pairwiseChange.commitCount  AS commitCount\n // ORDER BY dependencyWeight, commitCount\n \n //  MATCH (g1:!Git&File)-[relation:CHANGED_TOGETHER_WITH|DEPENDS_ON]-(g2:!Git&File) \n //   WITH count(DISTINCT relation)   AS relatedFilesCount\n //       ,collect(DISTINCT relation) AS relations\n // UNWIND relations AS relation\n //   WITH relatedFilesCount\n //       ,coalesce(relation.commitCount, 0)                                 AS commitCount\n //       ,coalesce(relation.weight, 0)                                      AS dependencyWeight\n //       ,coalesce(relation.fileDistanceAsFewestChangeDirectoryCommands, 0) AS fileDistanceAsFewestChangeDirectoryCommands\n // RETURN dependencyWeight\n //       ,commitCount\n //       ,fileDistanceAsFewestChangeDirectoryCommands\n // ORDER BY dependencyWeight, commitCount\n"
+    Received notification from DBMS server: {severity: WARNING} {code: Neo.ClientNotification.Statement.UnknownPropertyKeyWarning} {category: UNRECOGNIZED} {title: The provided property key is not in the database} {description: One of the property names in your query is not available in the database, make sure you didn't misspell it or that the label is available when you run this statement in your application (the missing property name is: weight)} {position: line: 9, column: 28, offset: 551} for query: "// List pair of files that were changed together and that have a declared dependency between each other.\n \n MATCH (firstCodeFile:File)-[dependency:DEPENDS_ON]->(secondCodeFile:File)\n MATCH (firstCodeFile)-[pairwiseChange:CHANGED_TOGETHER_WITH]-(secondCodeFile)\n //De-duplicating the pairs of files isn't necessary, because the dependency relation is directed.\n //WHERE elementId(firstCodeFile) < elementId(secondCodeFile)\n  WITH  firstCodeFile.fileName      AS firstFileName\n       ,secondCodeFile.fileName     AS secondFileName\n       ,coalesce(dependency.weight, dependency.cardinality)    AS dependencyWeight\n       ,pairwiseChange.commitCount  AS commitCount\n       ,dependency.fileDistanceAsFewestChangeDirectoryCommands AS fileDistanceAsFewestChangeDirectoryCommands\n RETURN dependencyWeight\n       ,commitCount\n       ,fileDistanceAsFewestChangeDirectoryCommands\n       // ,count(*)                    AS occurrences\n       // ,collect(firstFileName + ' -> ' + secondFileName)[0..3] AS examples\n ORDER BY dependencyWeight, commitCount\n \n // MATCH (firstCodeFile:File)-[dependency:DEPENDS_ON]->(secondCodeFile:File)\n // MATCH (firstCodeFile)-[pairwiseChange:CHANGED_TOGETHER_WITH]-(secondCodeFile)\n // WHERE elementId(firstCodeFile) < elementId(secondCodeFile)\n // RETURN firstCodeFile.fileName  AS firstFileName\n //       ,secondCodeFile.fileName AS secondFileName\n //       ,dependency.weight           AS dependencyWeight\n //       ,pairwiseChange.commitCount  AS commitCount\n // ORDER BY dependencyWeight, commitCount\n \n //  MATCH (g1:!Git&File)-[relation:CHANGED_TOGETHER_WITH|DEPENDS_ON]-(g2:!Git&File) \n //   WITH count(DISTINCT relation)   AS relatedFilesCount\n //       ,collect(DISTINCT relation) AS relations\n // UNWIND relations AS relation\n //   WITH relatedFilesCount\n //       ,coalesce(relation.commitCount, 0)                                 AS commitCount\n //       ,coalesce(relation.weight, 0)                                      AS dependencyWeight\n //       ,coalesce(relation.fileDistanceAsFewestChangeDirectoryCommands, 0) AS fileDistanceAsFewestChangeDirectoryCommands\n // RETURN dependencyWeight\n //       ,commitCount\n //       ,fileDistanceAsFewestChangeDirectoryCommands\n // ORDER BY dependencyWeight, commitCount\n"
 
 
-    Received notification from DBMS server: {severity: WARNING} {code: Neo.ClientNotification.Statement.UnknownPropertyKeyWarning} {category: UNRECOGNIZED} {title: The provided property key is not in the database} {description: One of the property names in your query is not available in the database, make sure you didn't misspell it or that the label is available when you run this statement in your application (the missing property name is: fileDistanceAsFewestChangeDirectoryCommands)} {position: line: 11, column: 20, offset: 682} for query: "// List pair of files that were changed together and that have a declared dependency between each other.\n \n MATCH (firstCodeFile:File)-[dependency:DEPENDS_ON]->(secondCodeFile:File)\n MATCH (firstCodeFile)-[pairwiseChange:CHANGED_TOGETHER_WITH]-(secondCodeFile)\n //De-duplicating the pairs of files isn't necessary, because the dependency relation is directed.\n //WHERE elementId(firstCodeFile) < elementId(secondCodeFile)\n  WITH  firstCodeFile.fileName      AS firstFileName\n       ,secondCodeFile.fileName     AS secondFileName\n       ,coalesce(dependency.weight, dependency.cardinality)    AS dependencyWeight\n       ,pairwiseChange.commitCount  AS commitCount\n       ,dependency.fileDistanceAsFewestChangeDirectoryCommands AS fileDistanceAsFewestChangeDirectoryCommands\n RETURN dependencyWeight\n       ,commitCount\n       ,fileDistanceAsFewestChangeDirectoryCommands\n       // ,count(*)                    AS occurrences\n       // ,collect(firstFileName + ' -> ' + secondFileName)[0..3] AS examples\n ORDER BY dependencyWeight, commitCount\n \n // MATCH (firstCodeFile:File)-[dependency:DEPENDS_ON]->(secondCodeFile:File)\n // MATCH (firstCodeFile)-[pairwiseChange:CHANGED_TOGETHER_WITH]-(secondCodeFile)\n // WHERE elementId(firstCodeFile) < elementId(secondCodeFile)\n // RETURN firstCodeFile.fileName  AS firstFileName\n //       ,secondCodeFile.fileName AS secondFileName\n //       ,dependency.weight           AS dependencyWeight\n //       ,pairwiseChange.commitCount  AS commitCount\n // ORDER BY dependencyWeight, commitCount\n \n //  MATCH (g1:!Git&File)-[relation:CHANGED_TOGETHER_WITH|DEPENDS_ON]-(g2:!Git&File) \n //   WITH count(DISTINCT relation)   AS relatedFilesCount\n //       ,collect(DISTINCT relation) AS relations\n // UNWIND relations AS relation\n //   WITH relatedFilesCount\n //       ,coalesce(relation.commitCount, 0)                                 AS commitCount\n //       ,coalesce(relation.weight, 0)                                      AS dependencyWeight\n //       ,coalesce(relation.fileDistanceAsFewestChangeDirectoryCommands, 0) AS fileDistanceAsFewestChangeDirectoryCommands\n // RETURN dependencyWeight\n //       ,commitCount\n //       ,fileDistanceAsFewestChangeDirectoryCommands\n // ORDER BY dependencyWeight, commitCount\n"
+    Received notification from DBMS server: {severity: WARNING} {code: Neo.ClientNotification.Statement.UnknownPropertyKeyWarning} {category: UNRECOGNIZED} {title: The provided property key is not in the database} {description: One of the property names in your query is not available in the database, make sure you didn't misspell it or that the label is available when you run this statement in your application (the missing property name is: fileDistanceAsFewestChangeDirectoryCommands)} {position: line: 11, column: 19, offset: 674} for query: "// List pair of files that were changed together and that have a declared dependency between each other.\n \n MATCH (firstCodeFile:File)-[dependency:DEPENDS_ON]->(secondCodeFile:File)\n MATCH (firstCodeFile)-[pairwiseChange:CHANGED_TOGETHER_WITH]-(secondCodeFile)\n //De-duplicating the pairs of files isn't necessary, because the dependency relation is directed.\n //WHERE elementId(firstCodeFile) < elementId(secondCodeFile)\n  WITH  firstCodeFile.fileName      AS firstFileName\n       ,secondCodeFile.fileName     AS secondFileName\n       ,coalesce(dependency.weight, dependency.cardinality)    AS dependencyWeight\n       ,pairwiseChange.commitCount  AS commitCount\n       ,dependency.fileDistanceAsFewestChangeDirectoryCommands AS fileDistanceAsFewestChangeDirectoryCommands\n RETURN dependencyWeight\n       ,commitCount\n       ,fileDistanceAsFewestChangeDirectoryCommands\n       // ,count(*)                    AS occurrences\n       // ,collect(firstFileName + ' -> ' + secondFileName)[0..3] AS examples\n ORDER BY dependencyWeight, commitCount\n \n // MATCH (firstCodeFile:File)-[dependency:DEPENDS_ON]->(secondCodeFile:File)\n // MATCH (firstCodeFile)-[pairwiseChange:CHANGED_TOGETHER_WITH]-(secondCodeFile)\n // WHERE elementId(firstCodeFile) < elementId(secondCodeFile)\n // RETURN firstCodeFile.fileName  AS firstFileName\n //       ,secondCodeFile.fileName AS secondFileName\n //       ,dependency.weight           AS dependencyWeight\n //       ,pairwiseChange.commitCount  AS commitCount\n // ORDER BY dependencyWeight, commitCount\n \n //  MATCH (g1:!Git&File)-[relation:CHANGED_TOGETHER_WITH|DEPENDS_ON]-(g2:!Git&File) \n //   WITH count(DISTINCT relation)   AS relatedFilesCount\n //       ,collect(DISTINCT relation) AS relations\n // UNWIND relations AS relation\n //   WITH relatedFilesCount\n //       ,coalesce(relation.commitCount, 0)                                 AS commitCount\n //       ,coalesce(relation.weight, 0)                                      AS dependencyWeight\n //       ,coalesce(relation.fileDistanceAsFewestChangeDirectoryCommands, 0) AS fileDistanceAsFewestChangeDirectoryCommands\n // RETURN dependencyWeight\n //       ,commitCount\n //       ,fileDistanceAsFewestChangeDirectoryCommands\n // ORDER BY dependencyWeight, commitCount\n"
 
 
 
@@ -1402,6 +1402,6 @@ This section explores the correlation between how often pairs of files are chang
 
 
     
-![png](GitHistoryGeneral_files/GitHistoryGeneral_68_0.png)
+![png](GitHistoryGeneral_files/GitHistoryGeneral_69_0.png)
     
 
