@@ -48,9 +48,9 @@
       <td>25.301205</td>
       <td>19.650602</td>
       <td>129.975904</td>
-      <td>474.975904</td>
-      <td>879.216867</td>
-      <td>476.771084</td>
+      <td>477.975904</td>
+      <td>881.722892</td>
+      <td>478.903614</td>
     </tr>
     <tr>
       <th>std</th>
@@ -58,53 +58,53 @@
       <td>46.179246</td>
       <td>291.778607</td>
       <td>277.542657</td>
-      <td>386.645172</td>
-      <td>277.860218</td>
+      <td>386.873122</td>
+      <td>277.920045</td>
     </tr>
     <tr>
       <th>min</th>
       <td>1.000000</td>
       <td>2.000000</td>
       <td>3.000000</td>
-      <td>57.000000</td>
-      <td>87.000000</td>
-      <td>57.000000</td>
+      <td>60.000000</td>
+      <td>89.000000</td>
+      <td>59.000000</td>
     </tr>
     <tr>
       <th>25%</th>
       <td>4.000000</td>
       <td>4.000000</td>
       <td>11.000000</td>
-      <td>205.000000</td>
-      <td>603.500000</td>
-      <td>204.000000</td>
+      <td>208.000000</td>
+      <td>606.000000</td>
+      <td>207.000000</td>
     </tr>
     <tr>
       <th>50%</th>
       <td>10.000000</td>
       <td>6.000000</td>
       <td>26.000000</td>
-      <td>590.000000</td>
-      <td>959.000000</td>
-      <td>590.000000</td>
+      <td>593.000000</td>
+      <td>961.000000</td>
+      <td>592.000000</td>
     </tr>
     <tr>
       <th>75%</th>
       <td>13.000000</td>
       <td>13.500000</td>
       <td>83.000000</td>
-      <td>689.000000</td>
-      <td>1282.000000</td>
-      <td>689.000000</td>
+      <td>692.000000</td>
+      <td>1285.000000</td>
+      <td>691.000000</td>
     </tr>
     <tr>
       <th>max</th>
       <td>633.000000</td>
       <td>343.000000</td>
       <td>1989.000000</td>
-      <td>1323.000000</td>
-      <td>1380.000000</td>
-      <td>1322.000000</td>
+      <td>1326.000000</td>
+      <td>1382.000000</td>
+      <td>1325.000000</td>
     </tr>
   </tbody>
 </table>
@@ -152,9 +152,9 @@
       <td>Logan McAnsh</td>
       <td>Michael Jackson</td>
       <td>4</td>
-      <td>1282</td>
-      <td>1282</td>
-      <td>1282</td>
+      <td>1285</td>
+      <td>1285</td>
+      <td>1285</td>
       <td>2021-10-21</td>
       <td>2021-10-20</td>
       <td>2021-10-20</td>
@@ -172,9 +172,9 @@
       <td>Ayush C</td>
       <td>Brooks Lybrand</td>
       <td>26</td>
-      <td>305</td>
-      <td>1121</td>
-      <td>305</td>
+      <td>308</td>
+      <td>1123</td>
+      <td>307</td>
       <td>2024-06-24</td>
       <td>2022-03-31</td>
       <td>2024-06-24</td>
@@ -192,9 +192,9 @@
       <td>Jon Jensen</td>
       <td>Matt Brophy</td>
       <td>3</td>
-      <td>666</td>
-      <td>680</td>
-      <td>680</td>
+      <td>669</td>
+      <td>683</td>
+      <td>683</td>
       <td>2023-06-29</td>
       <td>2023-06-14</td>
       <td>2023-06-14</td>
@@ -212,9 +212,9 @@
       <td>Chance Strickland</td>
       <td>Michael Jackson</td>
       <td>6</td>
-      <td>1323</td>
-      <td>1380</td>
-      <td>1322</td>
+      <td>1326</td>
+      <td>1382</td>
+      <td>1325</td>
       <td>2021-09-10</td>
       <td>2021-07-15</td>
       <td>2021-09-10</td>
@@ -232,9 +232,9 @@
       <td>Chance Strickland</td>
       <td>Mark Dalgleish</td>
       <td>10</td>
-      <td>367</td>
-      <td>400</td>
-      <td>400</td>
+      <td>370</td>
+      <td>402</td>
+      <td>402</td>
       <td>2024-04-23</td>
       <td>2024-03-21</td>
       <td>2024-03-21</td>
@@ -252,9 +252,9 @@
       <td>Chance Strickland</td>
       <td>Matt Brophy</td>
       <td>10</td>
-      <td>367</td>
-      <td>1045</td>
-      <td>367</td>
+      <td>370</td>
+      <td>1048</td>
+      <td>369</td>
       <td>2024-04-23</td>
       <td>2022-06-14</td>
       <td>2024-04-23</td>
@@ -272,9 +272,9 @@
       <td>Matt Brophy</td>
       <td>Brooks Lybrand</td>
       <td>16</td>
-      <td>141</td>
-      <td>329</td>
-      <td>141</td>
+      <td>144</td>
+      <td>332</td>
+      <td>144</td>
       <td>2024-12-05</td>
       <td>2024-05-30</td>
       <td>2024-12-05</td>
@@ -292,9 +292,9 @@
       <td>Logan McAnsh</td>
       <td>Matt Brophy</td>
       <td>7</td>
-      <td>689</td>
-      <td>1282</td>
-      <td>689</td>
+      <td>692</td>
+      <td>1285</td>
+      <td>691</td>
       <td>2023-06-06</td>
       <td>2021-10-21</td>
       <td>2023-06-06</td>
@@ -312,9 +312,9 @@
       <td>Chance Strickland</td>
       <td>Matt Brophy</td>
       <td>25</td>
-      <td>190</td>
-      <td>835</td>
-      <td>190</td>
+      <td>193</td>
+      <td>837</td>
+      <td>192</td>
       <td>2024-10-17</td>
       <td>2023-01-11</td>
       <td>2024-10-17</td>
@@ -332,9 +332,9 @@
       <td>Chance Strickland</td>
       <td>Matt Brophy</td>
       <td>15</td>
-      <td>526</td>
-      <td>832</td>
-      <td>526</td>
+      <td>529</td>
+      <td>835</td>
+      <td>528</td>
       <td>2023-11-16</td>
       <td>2023-01-13</td>
       <td>2023-11-16</td>
@@ -352,9 +352,9 @@
       <td>Matt Brophy</td>
       <td>Pedro Cattori</td>
       <td>9</td>
-      <td>820</td>
-      <td>826</td>
-      <td>826</td>
+      <td>823</td>
+      <td>829</td>
+      <td>829</td>
       <td>2023-01-26</td>
       <td>2023-01-19</td>
       <td>2023-01-19</td>
@@ -372,9 +372,9 @@
       <td>Matt Brophy</td>
       <td>Jacob Ebey</td>
       <td>9</td>
-      <td>367</td>
-      <td>410</td>
-      <td>410</td>
+      <td>370</td>
+      <td>412</td>
+      <td>412</td>
       <td>2024-04-23</td>
       <td>2024-03-11</td>
       <td>2024-03-11</td>
@@ -392,9 +392,9 @@
       <td>Chance Strickland</td>
       <td>Michael Jackson</td>
       <td>18</td>
-      <td>689</td>
-      <td>1340</td>
-      <td>689</td>
+      <td>692</td>
+      <td>1343</td>
+      <td>691</td>
       <td>2023-06-06</td>
       <td>2021-08-23</td>
       <td>2023-06-06</td>
@@ -412,9 +412,9 @@
       <td>Logan McAnsh</td>
       <td>Matt Brophy</td>
       <td>11</td>
-      <td>689</td>
-      <td>1295</td>
-      <td>689</td>
+      <td>692</td>
+      <td>1298</td>
+      <td>691</td>
       <td>2023-06-06</td>
       <td>2021-10-07</td>
       <td>2023-06-06</td>
@@ -432,9 +432,9 @@
       <td>Logan McAnsh</td>
       <td>Chance Strickland</td>
       <td>18</td>
-      <td>689</td>
-      <td>1282</td>
-      <td>689</td>
+      <td>692</td>
+      <td>1285</td>
+      <td>691</td>
       <td>2023-06-06</td>
       <td>2021-10-20</td>
       <td>2023-06-06</td>
@@ -452,9 +452,9 @@
       <td>Logan McAnsh</td>
       <td>Michael Jackson</td>
       <td>9</td>
-      <td>689</td>
-      <td>1280</td>
-      <td>689</td>
+      <td>692</td>
+      <td>1283</td>
+      <td>691</td>
       <td>2023-06-06</td>
       <td>2021-10-22</td>
       <td>2023-06-06</td>
@@ -472,9 +472,9 @@
       <td>Logan McAnsh</td>
       <td>Michael Jackson</td>
       <td>11</td>
-      <td>689</td>
-      <td>1282</td>
-      <td>689</td>
+      <td>692</td>
+      <td>1284</td>
+      <td>691</td>
       <td>2023-06-06</td>
       <td>2021-10-21</td>
       <td>2023-06-06</td>
@@ -492,9 +492,9 @@
       <td>Matt Brophy</td>
       <td>Pedro Cattori</td>
       <td>12</td>
-      <td>689</td>
-      <td>959</td>
-      <td>689</td>
+      <td>692</td>
+      <td>962</td>
+      <td>691</td>
       <td>2023-06-06</td>
       <td>2022-09-08</td>
       <td>2023-06-06</td>
@@ -512,9 +512,9 @@
       <td>Logan McAnsh</td>
       <td>Chance Strickland</td>
       <td>13</td>
-      <td>689</td>
-      <td>1297</td>
-      <td>689</td>
+      <td>692</td>
+      <td>1300</td>
+      <td>691</td>
       <td>2023-06-06</td>
       <td>2021-10-05</td>
       <td>2023-06-06</td>
@@ -532,9 +532,9 @@
       <td>Chance Strickland</td>
       <td>Matt Brophy</td>
       <td>14</td>
-      <td>820</td>
-      <td>1330</td>
-      <td>820</td>
+      <td>823</td>
+      <td>1332</td>
+      <td>822</td>
       <td>2023-01-26</td>
       <td>2021-09-03</td>
       <td>2023-01-26</td>
@@ -552,9 +552,9 @@
       <td>Matt Brophy</td>
       <td>Ayush C</td>
       <td>194</td>
-      <td>85</td>
-      <td>189</td>
-      <td>85</td>
+      <td>88</td>
+      <td>191</td>
+      <td>87</td>
       <td>2025-01-30</td>
       <td>2024-10-18</td>
       <td>2025-01-30</td>
@@ -572,9 +572,9 @@
       <td>Matt Brophy</td>
       <td>Jacob Ebey</td>
       <td>21</td>
-      <td>227</td>
-      <td>410</td>
-      <td>227</td>
+      <td>230</td>
+      <td>412</td>
+      <td>229</td>
       <td>2024-09-10</td>
       <td>2024-03-11</td>
       <td>2024-09-10</td>
@@ -592,9 +592,9 @@
       <td>Chance Strickland</td>
       <td>Chris Chudzicki</td>
       <td>7</td>
-      <td>1152</td>
-      <td>1271</td>
-      <td>1151</td>
+      <td>1155</td>
+      <td>1273</td>
+      <td>1154</td>
       <td>2022-02-28</td>
       <td>2021-11-01</td>
       <td>2022-02-28</td>
@@ -612,9 +612,9 @@
       <td>Matt Brophy</td>
       <td>Ryan Florence</td>
       <td>16</td>
-      <td>267</td>
-      <td>268</td>
-      <td>268</td>
+      <td>270</td>
+      <td>270</td>
+      <td>270</td>
       <td>2024-08-01</td>
       <td>2024-07-31</td>
       <td>2024-07-31</td>
@@ -632,9 +632,9 @@
       <td>Logan McAnsh</td>
       <td>Chance Strickland</td>
       <td>22</td>
-      <td>689</td>
-      <td>1299</td>
-      <td>689</td>
+      <td>692</td>
+      <td>1301</td>
+      <td>691</td>
       <td>2023-06-06</td>
       <td>2021-10-04</td>
       <td>2023-06-06</td>
@@ -652,9 +652,9 @@
       <td>Logan McAnsh</td>
       <td>Chance Strickland</td>
       <td>13</td>
-      <td>689</td>
-      <td>1295</td>
-      <td>689</td>
+      <td>692</td>
+      <td>1298</td>
+      <td>691</td>
       <td>2023-06-06</td>
       <td>2021-10-07</td>
       <td>2023-06-06</td>
@@ -672,9 +672,9 @@
       <td>Matt Brophy</td>
       <td>Chance Strickland</td>
       <td>25</td>
-      <td>526</td>
-      <td>959</td>
-      <td>526</td>
+      <td>529</td>
+      <td>962</td>
+      <td>528</td>
       <td>2023-11-16</td>
       <td>2022-09-08</td>
       <td>2023-11-16</td>
@@ -692,9 +692,9 @@
       <td>Matt Brophy</td>
       <td>Pedro Cattori</td>
       <td>8</td>
-      <td>689</td>
-      <td>959</td>
-      <td>689</td>
+      <td>692</td>
+      <td>962</td>
+      <td>691</td>
       <td>2023-06-06</td>
       <td>2022-09-08</td>
       <td>2023-06-06</td>
@@ -712,9 +712,9 @@
       <td>Matt Brophy</td>
       <td>Shane Walker</td>
       <td>3</td>
-      <td>624</td>
-      <td>646</td>
-      <td>646</td>
+      <td>627</td>
+      <td>648</td>
+      <td>648</td>
       <td>2023-08-10</td>
       <td>2023-07-19</td>
       <td>2023-07-19</td>
@@ -732,9 +732,9 @@
       <td>Logan McAnsh</td>
       <td>Michael Jackson</td>
       <td>16</td>
-      <td>689</td>
-      <td>1295</td>
-      <td>689</td>
+      <td>692</td>
+      <td>1298</td>
+      <td>691</td>
       <td>2023-06-06</td>
       <td>2021-10-07</td>
       <td>2023-06-06</td>
