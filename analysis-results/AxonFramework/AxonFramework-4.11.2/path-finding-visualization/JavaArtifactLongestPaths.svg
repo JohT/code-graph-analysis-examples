@@ -122,14 +122,14 @@
 <text text-anchor="middle" x="50.5" y="-293.49" font-family="Helvetica,Arial,sans-serif" font-size="10.00">756</text>
 </g>
 <!-- axon&#45;server&#45;connector&#45;4.11.2\n(level 1/6)&#45;&gt;axon&#45;configuration&#45;4.11.2\n(level 2/6) -->
-<g id="edge15" class="edge">
+<g id="edge14" class="edge">
 <title>axon&#45;server&#45;connector&#45;4.11.2\n(level 1/6)&#45;&gt;axon&#45;configuration&#45;4.11.2\n(level 2/6)</title>
 <path fill="none" stroke="red" stroke-width="1.25" d="M279.1,-580.88C288.26,-557.33 301.36,-523.66 311.54,-497.47"/>
 <polygon fill="red" stroke="red" stroke-width="1.25" points="314.8,-498.75 315.17,-488.16 308.28,-496.21 314.8,-498.75"/>
 <text text-anchor="middle" x="312.92" y="-530.57" font-family="Helvetica,Arial,sans-serif" font-size="10.00">40</text>
 </g>
 <!-- axon&#45;server&#45;connector&#45;4.11.2\n(level 1/6)&#45;&gt;axon&#45;eventsourcing&#45;4.11.2\n(level 4/6) -->
-<g id="edge14" class="edge">
+<g id="edge15" class="edge">
 <title>axon&#45;server&#45;connector&#45;4.11.2\n(level 1/6)&#45;&gt;axon&#45;eventsourcing&#45;4.11.2\n(level 4/6)</title>
 <path fill="none" stroke="#1178b2" stroke-width="1.21" d="M325.91,-583.77C366.52,-562.98 419.06,-529.94 451,-486.16 494.51,-426.52 494.11,-336.08 489.4,-284.28"/>
 <polygon fill="#1178b2" stroke="#1178b2" stroke-width="1.21" points="492.89,-284.02 488.39,-274.43 485.92,-284.74 492.89,-284.02"/>
@@ -150,14 +150,14 @@
 <text text-anchor="middle" x="156.19" y="-240.08" font-family="Helvetica,Arial,sans-serif" font-size="10.00">532</text>
 </g>
 <!-- axon&#45;configuration&#45;4.11.2\n(level 2/6)&#45;&gt;axon&#45;eventsourcing&#45;4.11.2\n(level 4/6) -->
-<g id="edge10" class="edge">
+<g id="edge11" class="edge">
 <title>axon&#45;configuration&#45;4.11.2\n(level 2/6)&#45;&gt;axon&#45;eventsourcing&#45;4.11.2\n(level 4/6)</title>
 <path fill="none" stroke="#1178b2" stroke-width="1.4" d="M395.26,-432.63C406.63,-426.44 417.47,-418.76 426,-409.33 457.6,-374.37 472.19,-321.17 478.79,-284.63"/>
 <polygon fill="#1178b2" stroke="#1178b2" stroke-width="1.4" points="482.2,-285.46 480.39,-275.02 475.3,-284.31 482.2,-285.46"/>
 <text text-anchor="middle" x="475.36" y="-346.91" font-family="Helvetica,Arial,sans-serif" font-size="10.00">62</text>
 </g>
 <!-- axon&#45;configuration&#45;4.11.2\n(level 2/6)&#45;&gt;axon&#45;modelling&#45;4.11.2\n(level 5/6) -->
-<g id="edge11" class="edge">
+<g id="edge10" class="edge">
 <title>axon&#45;configuration&#45;4.11.2\n(level 2/6)&#45;&gt;axon&#45;modelling&#45;4.11.2\n(level 5/6)</title>
 <path fill="none" stroke="#1178b2" stroke-width="1.64" d="M359.31,-428.23C372.42,-414.95 386.09,-397.89 393,-379.33 402.12,-354.82 405.53,-343.44 393,-320.49 385.91,-307.51 373.53,-314.58 365,-302.49 357.11,-291.31 360.56,-285.94 358,-272.49 352.01,-240.99 346.77,-205.07 343.16,-178.17"/>
 <polygon fill="#1178b2" stroke="#1178b2" stroke-width="1.64" points="346.67,-178.04 341.89,-168.58 339.73,-178.95 346.67,-178.04"/>
@@ -227,21 +227,21 @@
 <text text-anchor="middle" x="641.27" y="-240.08" font-family="Helvetica,Arial,sans-serif" font-size="10.00">98</text>
 </g>
 <!-- axon&#45;disruptor&#45;4.11.2\n(level 3/6)&#45;&gt;axon&#45;messaging&#45;4.11.2\n(level 6/6) -->
-<g id="edge20" class="edge">
+<g id="edge18" class="edge">
 <title>axon&#45;disruptor&#45;4.11.2\n(level 3/6)&#45;&gt;axon&#45;messaging&#45;4.11.2\n(level 6/6)</title>
 <path fill="none" stroke="#1178b2" stroke-width="2.23" d="M271.82,-320.57C251.03,-275.73 215.91,-185.43 227,-106.83 228.64,-95.24 231.6,-82.94 234.84,-71.67"/>
 <polygon fill="#1178b2" stroke="#1178b2" stroke-width="2.23" points="238.14,-72.84 237.71,-62.26 231.45,-70.8 238.14,-72.84"/>
 <text text-anchor="middle" x="237.88" y="-186.66" font-family="Helvetica,Arial,sans-serif" font-size="10.00">188</text>
 </g>
 <!-- axon&#45;disruptor&#45;4.11.2\n(level 3/6)&#45;&gt;axon&#45;eventsourcing&#45;4.11.2\n(level 4/6) -->
-<g id="edge19" class="edge">
+<g id="edge20" class="edge">
 <title>axon&#45;disruptor&#45;4.11.2\n(level 3/6)&#45;&gt;axon&#45;eventsourcing&#45;4.11.2\n(level 4/6)</title>
 <path fill="none" stroke="red" stroke-width="1.19" d="M333.43,-323.8C360.85,-309.28 395.61,-290.88 424.81,-275.41"/>
 <polygon fill="red" stroke="red" stroke-width="1.19" points="426.1,-278.69 433.3,-270.92 422.83,-272.51 426.1,-278.69"/>
 <text text-anchor="middle" x="395.94" y="-293.49" font-family="Helvetica,Arial,sans-serif" font-size="10.00">30</text>
 </g>
 <!-- axon&#45;disruptor&#45;4.11.2\n(level 3/6)&#45;&gt;axon&#45;modelling&#45;4.11.2\n(level 5/6) -->
-<g id="edge18" class="edge">
+<g id="edge19" class="edge">
 <title>axon&#45;disruptor&#45;4.11.2\n(level 3/6)&#45;&gt;axon&#45;modelling&#45;4.11.2\n(level 5/6)</title>
 <path fill="none" stroke="#1178b2" stroke-width="1.27" d="M291.44,-320.26C296.83,-292.77 305.61,-250.18 315,-213.66 318.08,-201.69 321.81,-188.77 325.36,-177.03"/>
 <polygon fill="#1178b2" stroke="#1178b2" stroke-width="1.27" points="328.67,-178.18 328.25,-167.6 321.97,-176.13 328.67,-178.18"/>
