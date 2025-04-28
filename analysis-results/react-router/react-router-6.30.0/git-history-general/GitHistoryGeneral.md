@@ -754,20 +754,12 @@
     
 
 
-    os.path.abspath=/home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/jupyter
-    os.path.curdir=.
-
-
 ### Most frequent file extension per directory
 
 
     
 ![svg](GitHistoryGeneral_files/GitHistoryGeneral_29_0.svg)
     
-
-
-    os.path.abspath=/home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/jupyter
-    os.path.curdir=.
 
 
 ### Number of commits per directory
@@ -778,20 +770,12 @@
     
 
 
-    os.path.abspath=/home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/jupyter
-    os.path.curdir=.
-
-
 ### Number of distinct authors per directory
 
 
     
 ![svg](GitHistoryGeneral_files/GitHistoryGeneral_33_0.svg)
     
-
-
-    os.path.abspath=/home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/jupyter
-    os.path.curdir=.
 
 
 ### Directories with very few different authors
@@ -802,20 +786,12 @@
     
 
 
-    os.path.abspath=/home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/jupyter
-    os.path.curdir=.
-
-
 ### Main author per directory
 
 
     
 ![svg](GitHistoryGeneral_files/GitHistoryGeneral_37_0.svg)
     
-
-
-    os.path.abspath=/home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/jupyter
-    os.path.curdir=.
 
 
 ### Second author per directory
@@ -826,20 +802,12 @@
     
 
 
-    os.path.abspath=/home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/jupyter
-    os.path.curdir=.
-
-
 ### Days since last commit per directory
 
 
     
 ![svg](GitHistoryGeneral_files/GitHistoryGeneral_41_0.svg)
     
-
-
-    os.path.abspath=/home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/jupyter
-    os.path.curdir=.
 
 
 ### Days since last commit per directory (ranked)
@@ -850,20 +818,12 @@
     
 
 
-    os.path.abspath=/home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/jupyter
-    os.path.curdir=.
-
-
 ### Days since last file creation per directory
 
 
     
 ![svg](GitHistoryGeneral_files/GitHistoryGeneral_45_0.svg)
     
-
-
-    os.path.abspath=/home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/jupyter
-    os.path.curdir=.
 
 
 ### Days since last file creation per directory (ranked)
@@ -874,20 +834,12 @@
     
 
 
-    os.path.abspath=/home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/jupyter
-    os.path.curdir=.
-
-
 ### Days since last file modification per directory
 
 
     
 ![svg](GitHistoryGeneral_files/GitHistoryGeneral_49_0.svg)
     
-
-
-    os.path.abspath=/home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/jupyter
-    os.path.curdir=.
 
 
 ### Days since last file modification per directory (ranked)
@@ -898,20 +850,12 @@
     
 
 
-    os.path.abspath=/home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/jupyter
-    os.path.curdir=.
-
-
 ### File changed frequently with other files
 
 
     
 ![svg](GitHistoryGeneral_files/GitHistoryGeneral_54_0.svg)
     
-
-
-    os.path.abspath=/home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/jupyter
-    os.path.curdir=.
 
 
 ## Filecount per commit
@@ -1154,10 +1098,6 @@ The data preview also includes overall statistics including the number of commit
     
 ![svg](GitHistoryGeneral_files/GitHistoryGeneral_59_0.svg)
     
-
-
-    os.path.abspath=/home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/jupyter
-    os.path.curdir=.
 
 
 ## Pairwise Changed Files vs. Dependency Weight
