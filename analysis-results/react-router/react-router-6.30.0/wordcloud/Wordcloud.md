@@ -66,19 +66,19 @@
     </tr>
     <tr>
       <th>6</th>
-      <td>packages</td>
+      <td>tutorial</td>
     </tr>
     <tr>
       <th>7</th>
-      <td>router</td>
+      <td>examples</td>
     </tr>
     <tr>
       <th>8</th>
-      <td>react</td>
+      <td>ssr</td>
     </tr>
     <tr>
       <th>9</th>
-      <td>router</td>
+      <td>error</td>
     </tr>
   </tbody>
 </table>
@@ -137,27 +137,27 @@
     </tr>
     <tr>
       <th>5</th>
-      <td>Michael Liendo</td>
+      <td>Ahmed Abdel-Aziz</td>
       <td>1</td>
     </tr>
     <tr>
       <th>6</th>
-      <td>Kapil Patel</td>
-      <td>1</td>
+      <td>Remix Run Bot</td>
+      <td>68</td>
     </tr>
     <tr>
       <th>7</th>
-      <td>Sol Lee</td>
+      <td>Marco Spiess</td>
       <td>1</td>
     </tr>
     <tr>
       <th>8</th>
-      <td>Mark Dalgleish</td>
-      <td>3</td>
+      <td>ZeroMask</td>
+      <td>1</td>
     </tr>
     <tr>
       <th>9</th>
-      <td>Andrew Patton</td>
+      <td>Mark Deutsch</td>
       <td>1</td>
     </tr>
   </tbody>
