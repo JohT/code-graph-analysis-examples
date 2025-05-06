@@ -15,6 +15,9 @@
 
 ## Git History - Directory Commit Statistics
 
+    Received notification from DBMS server: {severity: WARNING} {code: Neo.ClientNotification.Statement.AggregationSkippedNull} {category: UNRECOGNIZED} {title: The query contains an aggregation function that skips null values.} {description: null value eliminated in set function.} {position: None} for query: "// List git files with commit statistics\n \n  MATCH (git_file:File&Git&!Repository)\n  WHERE git_file.deletedAt IS NULL // filter out deleted files\n   WITH percentileDisc(git_file.createdAtEpoch, 0.5)          AS medianCreatedAtEpoch\n       ,percentileDisc(git_file.lastModificationAtEpoch, 0.5) AS medianLastModificationAtEpoch\n       ,collect(git_file)                                     AS git_files\n UNWIND git_files AS git_file\n   WITH *\n       ,datetime.fromepochMillis(coalesce(git_file.createdAtEpoch, medianCreatedAtEpoch))                                            AS fileCreatedAtTimestamp\n       ,datetime.fromepochMillis(coalesce(git_file.lastModificationAtEpoch, git_file.createdAtEpoch, medianLastModificationAtEpoch)) AS fileLastModificationAtTimestamp\n  MATCH (git_repository:Git&Repository)-[:HAS_FILE]->(git_file)\n  MATCH (git_commit:Git&Commit)-[:CONTAINS_CHANGE]->(git_change:Git&Change)-->(old_files_included:Git&File&!Repository)-[:HAS_NEW_NAME*0..3]->(git_file)\n RETURN git_repository.name + '/' + git_file.relativePath AS filePath\n       ,split(git_commit.author, ' <')[0]                 AS author\n       ,count(DISTINCT git_commit.sha)                    AS commitCount\n       ,collect(DISTINCT git_commit.sha)                  AS commitHashes\n       ,date(max(git_commit.date))                        AS lastCommitDate\n       ,max(date(fileCreatedAtTimestamp))                 AS lastCreationDate\n       ,max(date(fileLastModificationAtTimestamp))        AS lastModificationDate\n       ,duration.inDays(date(max(git_commit.date)), date()).days               AS daysSinceLastCommit\n       ,duration.inDays(max(fileCreatedAtTimestamp), datetime()).days          AS daysSinceLastCreation\n       ,duration.inDays(max(fileLastModificationAtTimestamp), datetime()).days AS daysSinceLastModification\n       ,max(git_commit.sha)                               AS maxCommitSha\n ORDER BY filePath ASCENDING, commitCount DESCENDING"
+
+
 ### Data Preview
 
 
@@ -48,9 +51,9 @@
       <td>25.301205</td>
       <td>19.650602</td>
       <td>129.975904</td>
-      <td>484.975904</td>
-      <td>888.722892</td>
-      <td>485.903614</td>
+      <td>485.975904</td>
+      <td>889.722892</td>
+      <td>486.879518</td>
     </tr>
     <tr>
       <th>std</th>
@@ -59,52 +62,52 @@
       <td>291.778607</td>
       <td>277.542657</td>
       <td>386.873122</td>
-      <td>277.920045</td>
+      <td>277.949478</td>
     </tr>
     <tr>
       <th>min</th>
       <td>1.000000</td>
       <td>2.000000</td>
       <td>3.000000</td>
+      <td>68.000000</td>
+      <td>97.000000</td>
       <td>67.000000</td>
-      <td>96.000000</td>
-      <td>66.000000</td>
     </tr>
     <tr>
       <th>25%</th>
       <td>4.000000</td>
       <td>4.000000</td>
       <td>11.000000</td>
+      <td>216.000000</td>
+      <td>614.000000</td>
       <td>215.000000</td>
-      <td>613.000000</td>
-      <td>214.000000</td>
     </tr>
     <tr>
       <th>50%</th>
       <td>10.000000</td>
       <td>6.000000</td>
       <td>26.000000</td>
+      <td>601.000000</td>
+      <td>969.000000</td>
       <td>600.000000</td>
-      <td>968.000000</td>
-      <td>599.000000</td>
     </tr>
     <tr>
       <th>75%</th>
       <td>13.000000</td>
       <td>13.500000</td>
       <td>83.000000</td>
+      <td>700.000000</td>
+      <td>1293.000000</td>
       <td>699.000000</td>
-      <td>1292.000000</td>
-      <td>698.000000</td>
     </tr>
     <tr>
       <th>max</th>
       <td>633.000000</td>
       <td>343.000000</td>
       <td>1989.000000</td>
+      <td>1334.000000</td>
+      <td>1390.000000</td>
       <td>1333.000000</td>
-      <td>1389.000000</td>
-      <td>1332.000000</td>
     </tr>
   </tbody>
 </table>
@@ -152,9 +155,9 @@
       <td>Logan McAnsh</td>
       <td>Michael Jackson</td>
       <td>4</td>
-      <td>1292</td>
-      <td>1292</td>
-      <td>1292</td>
+      <td>1293</td>
+      <td>1293</td>
+      <td>1293</td>
       <td>2021-10-21</td>
       <td>2021-10-20</td>
       <td>2021-10-20</td>
@@ -172,9 +175,9 @@
       <td>Ayush C</td>
       <td>Brooks Lybrand</td>
       <td>26</td>
+      <td>316</td>
+      <td>1131</td>
       <td>315</td>
-      <td>1130</td>
-      <td>314</td>
       <td>2024-06-24</td>
       <td>2022-03-31</td>
       <td>2024-06-24</td>
@@ -192,9 +195,9 @@
       <td>Jon Jensen</td>
       <td>Matt Brophy</td>
       <td>3</td>
-      <td>676</td>
-      <td>690</td>
-      <td>690</td>
+      <td>677</td>
+      <td>691</td>
+      <td>691</td>
       <td>2023-06-29</td>
       <td>2023-06-14</td>
       <td>2023-06-14</td>
@@ -212,9 +215,9 @@
       <td>Chance Strickland</td>
       <td>Michael Jackson</td>
       <td>6</td>
+      <td>1334</td>
+      <td>1390</td>
       <td>1333</td>
-      <td>1389</td>
-      <td>1332</td>
       <td>2021-09-10</td>
       <td>2021-07-15</td>
       <td>2021-09-10</td>
@@ -232,9 +235,9 @@
       <td>Chance Strickland</td>
       <td>Mark Dalgleish</td>
       <td>10</td>
-      <td>377</td>
-      <td>409</td>
-      <td>409</td>
+      <td>378</td>
+      <td>410</td>
+      <td>410</td>
       <td>2024-04-23</td>
       <td>2024-03-21</td>
       <td>2024-03-21</td>
@@ -252,9 +255,9 @@
       <td>Chance Strickland</td>
       <td>Matt Brophy</td>
       <td>10</td>
+      <td>378</td>
+      <td>1056</td>
       <td>377</td>
-      <td>1055</td>
-      <td>376</td>
       <td>2024-04-23</td>
       <td>2022-06-14</td>
       <td>2024-04-23</td>
@@ -272,8 +275,8 @@
       <td>Matt Brophy</td>
       <td>Brooks Lybrand</td>
       <td>16</td>
-      <td>151</td>
-      <td>339</td>
+      <td>152</td>
+      <td>340</td>
       <td>151</td>
       <td>2024-12-05</td>
       <td>2024-05-30</td>
@@ -292,9 +295,9 @@
       <td>Logan McAnsh</td>
       <td>Matt Brophy</td>
       <td>7</td>
+      <td>700</td>
+      <td>1293</td>
       <td>699</td>
-      <td>1292</td>
-      <td>698</td>
       <td>2023-06-06</td>
       <td>2021-10-21</td>
       <td>2023-06-06</td>
@@ -312,9 +315,9 @@
       <td>Chance Strickland</td>
       <td>Matt Brophy</td>
       <td>25</td>
+      <td>201</td>
+      <td>845</td>
       <td>200</td>
-      <td>844</td>
-      <td>199</td>
       <td>2024-10-17</td>
       <td>2023-01-11</td>
       <td>2024-10-17</td>
@@ -332,9 +335,9 @@
       <td>Chance Strickland</td>
       <td>Matt Brophy</td>
       <td>15</td>
+      <td>537</td>
+      <td>843</td>
       <td>536</td>
-      <td>842</td>
-      <td>535</td>
       <td>2023-11-16</td>
       <td>2023-01-13</td>
       <td>2023-11-16</td>
@@ -352,9 +355,9 @@
       <td>Matt Brophy</td>
       <td>Pedro Cattori</td>
       <td>9</td>
-      <td>830</td>
-      <td>836</td>
-      <td>836</td>
+      <td>831</td>
+      <td>837</td>
+      <td>837</td>
       <td>2023-01-26</td>
       <td>2023-01-19</td>
       <td>2023-01-19</td>
@@ -372,9 +375,9 @@
       <td>Matt Brophy</td>
       <td>Jacob Ebey</td>
       <td>9</td>
-      <td>377</td>
-      <td>419</td>
-      <td>419</td>
+      <td>378</td>
+      <td>420</td>
+      <td>420</td>
       <td>2024-04-23</td>
       <td>2024-03-11</td>
       <td>2024-03-11</td>
@@ -392,9 +395,9 @@
       <td>Chance Strickland</td>
       <td>Michael Jackson</td>
       <td>18</td>
+      <td>700</td>
+      <td>1351</td>
       <td>699</td>
-      <td>1350</td>
-      <td>698</td>
       <td>2023-06-06</td>
       <td>2021-08-23</td>
       <td>2023-06-06</td>
@@ -412,9 +415,9 @@
       <td>Logan McAnsh</td>
       <td>Matt Brophy</td>
       <td>11</td>
+      <td>700</td>
+      <td>1306</td>
       <td>699</td>
-      <td>1305</td>
-      <td>698</td>
       <td>2023-06-06</td>
       <td>2021-10-07</td>
       <td>2023-06-06</td>
@@ -432,9 +435,9 @@
       <td>Logan McAnsh</td>
       <td>Chance Strickland</td>
       <td>18</td>
+      <td>700</td>
+      <td>1293</td>
       <td>699</td>
-      <td>1292</td>
-      <td>698</td>
       <td>2023-06-06</td>
       <td>2021-10-20</td>
       <td>2023-06-06</td>
@@ -452,9 +455,9 @@
       <td>Logan McAnsh</td>
       <td>Michael Jackson</td>
       <td>9</td>
+      <td>700</td>
+      <td>1291</td>
       <td>699</td>
-      <td>1290</td>
-      <td>698</td>
       <td>2023-06-06</td>
       <td>2021-10-22</td>
       <td>2023-06-06</td>
@@ -472,9 +475,9 @@
       <td>Logan McAnsh</td>
       <td>Michael Jackson</td>
       <td>11</td>
+      <td>700</td>
+      <td>1292</td>
       <td>699</td>
-      <td>1291</td>
-      <td>698</td>
       <td>2023-06-06</td>
       <td>2021-10-21</td>
       <td>2023-06-06</td>
@@ -492,9 +495,9 @@
       <td>Matt Brophy</td>
       <td>Pedro Cattori</td>
       <td>12</td>
+      <td>700</td>
+      <td>970</td>
       <td>699</td>
-      <td>969</td>
-      <td>698</td>
       <td>2023-06-06</td>
       <td>2022-09-08</td>
       <td>2023-06-06</td>
@@ -512,9 +515,9 @@
       <td>Logan McAnsh</td>
       <td>Chance Strickland</td>
       <td>13</td>
+      <td>700</td>
+      <td>1308</td>
       <td>699</td>
-      <td>1307</td>
-      <td>698</td>
       <td>2023-06-06</td>
       <td>2021-10-05</td>
       <td>2023-06-06</td>
@@ -532,9 +535,9 @@
       <td>Chance Strickland</td>
       <td>Matt Brophy</td>
       <td>14</td>
+      <td>831</td>
+      <td>1340</td>
       <td>830</td>
-      <td>1339</td>
-      <td>829</td>
       <td>2023-01-26</td>
       <td>2021-09-03</td>
       <td>2023-01-26</td>
@@ -552,9 +555,9 @@
       <td>Matt Brophy</td>
       <td>Ayush C</td>
       <td>194</td>
+      <td>96</td>
+      <td>199</td>
       <td>95</td>
-      <td>198</td>
-      <td>94</td>
       <td>2025-01-30</td>
       <td>2024-10-18</td>
       <td>2025-01-30</td>
@@ -572,9 +575,9 @@
       <td>Matt Brophy</td>
       <td>Jacob Ebey</td>
       <td>21</td>
+      <td>238</td>
+      <td>420</td>
       <td>237</td>
-      <td>419</td>
-      <td>236</td>
       <td>2024-09-10</td>
       <td>2024-03-11</td>
       <td>2024-09-10</td>
@@ -592,9 +595,9 @@
       <td>Chance Strickland</td>
       <td>Chris Chudzicki</td>
       <td>7</td>
+      <td>1163</td>
+      <td>1281</td>
       <td>1162</td>
-      <td>1280</td>
-      <td>1161</td>
       <td>2022-02-28</td>
       <td>2021-11-01</td>
       <td>2022-02-28</td>
@@ -612,9 +615,9 @@
       <td>Matt Brophy</td>
       <td>Ryan Florence</td>
       <td>16</td>
-      <td>277</td>
-      <td>277</td>
-      <td>277</td>
+      <td>278</td>
+      <td>278</td>
+      <td>278</td>
       <td>2024-08-01</td>
       <td>2024-07-31</td>
       <td>2024-07-31</td>
@@ -632,9 +635,9 @@
       <td>Logan McAnsh</td>
       <td>Chance Strickland</td>
       <td>22</td>
+      <td>700</td>
+      <td>1309</td>
       <td>699</td>
-      <td>1308</td>
-      <td>698</td>
       <td>2023-06-06</td>
       <td>2021-10-04</td>
       <td>2023-06-06</td>
@@ -652,9 +655,9 @@
       <td>Logan McAnsh</td>
       <td>Chance Strickland</td>
       <td>13</td>
+      <td>700</td>
+      <td>1306</td>
       <td>699</td>
-      <td>1305</td>
-      <td>698</td>
       <td>2023-06-06</td>
       <td>2021-10-07</td>
       <td>2023-06-06</td>
@@ -672,9 +675,9 @@
       <td>Matt Brophy</td>
       <td>Chance Strickland</td>
       <td>25</td>
+      <td>537</td>
+      <td>970</td>
       <td>536</td>
-      <td>969</td>
-      <td>535</td>
       <td>2023-11-16</td>
       <td>2022-09-08</td>
       <td>2023-11-16</td>
@@ -692,9 +695,9 @@
       <td>Matt Brophy</td>
       <td>Pedro Cattori</td>
       <td>8</td>
+      <td>700</td>
+      <td>970</td>
       <td>699</td>
-      <td>969</td>
-      <td>698</td>
       <td>2023-06-06</td>
       <td>2022-09-08</td>
       <td>2023-06-06</td>
@@ -712,9 +715,9 @@
       <td>Matt Brophy</td>
       <td>Shane Walker</td>
       <td>3</td>
-      <td>634</td>
-      <td>655</td>
-      <td>655</td>
+      <td>635</td>
+      <td>656</td>
+      <td>656</td>
       <td>2023-08-10</td>
       <td>2023-07-19</td>
       <td>2023-07-19</td>
@@ -732,9 +735,9 @@
       <td>Logan McAnsh</td>
       <td>Michael Jackson</td>
       <td>16</td>
+      <td>700</td>
+      <td>1306</td>
       <td>699</td>
-      <td>1305</td>
-      <td>698</td>
       <td>2023-06-06</td>
       <td>2021-10-07</td>
       <td>2023-06-06</td>
@@ -1112,10 +1115,10 @@ This section explores the correlation between how often pairs of files are chang
 
 #### Data Preview
 
-    Received notification from DBMS server: {severity: WARNING} {code: Neo.ClientNotification.Statement.UnknownPropertyKeyWarning} {category: UNRECOGNIZED} {title: The provided property key is not in the database} {description: One of the property names in your query is not available in the database, make sure you didn't misspell it or that the label is available when you run this statement in your application (the missing property name is: weight)} {position: line: 9, column: 28, offset: 551} for query: "// List pair of files that were changed together and that have a declared dependency between each other.\n \n MATCH (firstCodeFile:File)-[dependency:DEPENDS_ON]->(secondCodeFile:File)\n MATCH (firstCodeFile)-[pairwiseChange:CHANGED_TOGETHER_WITH]-(secondCodeFile)\n //De-duplicating the pairs of files isn't necessary, because the dependency relation is directed.\n //WHERE elementId(firstCodeFile) < elementId(secondCodeFile)\n  WITH  firstCodeFile.fileName      AS firstFileName\n       ,secondCodeFile.fileName     AS secondFileName\n       ,coalesce(dependency.weight, dependency.cardinality)    AS dependencyWeight\n       ,pairwiseChange.commitCount  AS commitCount\n       ,dependency.fileDistanceAsFewestChangeDirectoryCommands AS fileDistanceAsFewestChangeDirectoryCommands\n RETURN dependencyWeight\n       ,commitCount\n       ,fileDistanceAsFewestChangeDirectoryCommands\n       // ,count(*)                    AS occurrences\n       // ,collect(firstFileName + ' -> ' + secondFileName)[0..3] AS examples\n ORDER BY dependencyWeight, commitCount\n \n // MATCH (firstCodeFile:File)-[dependency:DEPENDS_ON]->(secondCodeFile:File)\n // MATCH (firstCodeFile)-[pairwiseChange:CHANGED_TOGETHER_WITH]-(secondCodeFile)\n // WHERE elementId(firstCodeFile) < elementId(secondCodeFile)\n // RETURN firstCodeFile.fileName  AS firstFileName\n //       ,secondCodeFile.fileName AS secondFileName\n //       ,dependency.weight           AS dependencyWeight\n //       ,pairwiseChange.commitCount  AS commitCount\n // ORDER BY dependencyWeight, commitCount\n \n //  MATCH (g1:!Git&File)-[relation:CHANGED_TOGETHER_WITH|DEPENDS_ON]-(g2:!Git&File) \n //   WITH count(DISTINCT relation)   AS relatedFilesCount\n //       ,collect(DISTINCT relation) AS relations\n // UNWIND relations AS relation\n //   WITH relatedFilesCount\n //       ,coalesce(relation.commitCount, 0)                                 AS commitCount\n //       ,coalesce(relation.weight, 0)                                      AS dependencyWeight\n //       ,coalesce(relation.fileDistanceAsFewestChangeDirectoryCommands, 0) AS fileDistanceAsFewestChangeDirectoryCommands\n // RETURN dependencyWeight\n //       ,commitCount\n //       ,fileDistanceAsFewestChangeDirectoryCommands\n // ORDER BY dependencyWeight, commitCount\n"
+    Received notification from DBMS server: {severity: WARNING} {code: Neo.ClientNotification.Statement.UnknownPropertyKeyWarning} {category: UNRECOGNIZED} {title: The provided property key is not in the database} {description: One of the property names in your query is not available in the database, make sure you didn't misspell it or that the label is available when you run this statement in your application (the missing property name is: weight)} {position: line: 9, column: 28, offset: 549} for query: "// List pair of files that were changed together and that have a declared dependency between each other.\n \n MATCH (firstCodeFile:File)-[dependency:DEPENDS_ON]->(secondCodeFile:File)\n MATCH (firstCodeFile)-[pairwiseChange:CHANGED_TOGETHER_WITH]-(secondCodeFile)\n //De-duplicating the pairs of files isn't necessary, because the dependency relation is directed.\n //WHERE elementId(firstCodeFile) < elementId(secondCodeFile)\n  WITH  firstCodeFile.fileName      AS firstFileName\n       ,secondCodeFile.fileName     AS secondFileName\n       ,coalesce(dependency.weight, dependency.cardinality)    AS dependencyWeight\n       ,pairwiseChange.commitCount  AS commitCount\n       ,dependency.fileDistanceAsFewestChangeDirectoryCommands AS fileDistanceAsFewestChangeDirectoryCommands\n RETURN dependencyWeight\n       ,commitCount\n       ,fileDistanceAsFewestChangeDirectoryCommands\n       // ,count(*)                    AS occurrences\n       // ,collect(firstFileName + ' -> ' + secondFileName)[0..3] AS examples\n ORDER BY dependencyWeight, commitCount\n \n // MATCH (firstCodeFile:File)-[dependency:DEPENDS_ON]->(secondCodeFile:File)\n // MATCH (firstCodeFile)-[pairwiseChange:CHANGED_TOGETHER_WITH]-(secondCodeFile)\n // WHERE elementId(firstCodeFile) < elementId(secondCodeFile)\n // RETURN firstCodeFile.fileName  AS firstFileName\n //       ,secondCodeFile.fileName AS secondFileName\n //       ,dependency.weight           AS dependencyWeight\n //       ,pairwiseChange.commitCount  AS commitCount\n // ORDER BY dependencyWeight, commitCount\n \n //  MATCH (g1:!Git&File)-[relation:CHANGED_TOGETHER_WITH|DEPENDS_ON]-(g2:!Git&File) \n //   WITH count(DISTINCT relation)   AS relatedFilesCount\n //       ,collect(DISTINCT relation) AS relations\n // UNWIND relations AS relation\n //   WITH relatedFilesCount\n //       ,coalesce(relation.commitCount, 0)                                 AS commitCount\n //       ,coalesce(relation.weight, 0)                                      AS dependencyWeight\n //       ,coalesce(relation.fileDistanceAsFewestChangeDirectoryCommands, 0) AS fileDistanceAsFewestChangeDirectoryCommands\n // RETURN dependencyWeight\n //       ,commitCount\n //       ,fileDistanceAsFewestChangeDirectoryCommands\n // ORDER BY dependencyWeight, commitCount\n"
 
 
-    Received notification from DBMS server: {severity: WARNING} {code: Neo.ClientNotification.Statement.UnknownPropertyKeyWarning} {category: UNRECOGNIZED} {title: The provided property key is not in the database} {description: One of the property names in your query is not available in the database, make sure you didn't misspell it or that the label is available when you run this statement in your application (the missing property name is: fileDistanceAsFewestChangeDirectoryCommands)} {position: line: 11, column: 19, offset: 674} for query: "// List pair of files that were changed together and that have a declared dependency between each other.\n \n MATCH (firstCodeFile:File)-[dependency:DEPENDS_ON]->(secondCodeFile:File)\n MATCH (firstCodeFile)-[pairwiseChange:CHANGED_TOGETHER_WITH]-(secondCodeFile)\n //De-duplicating the pairs of files isn't necessary, because the dependency relation is directed.\n //WHERE elementId(firstCodeFile) < elementId(secondCodeFile)\n  WITH  firstCodeFile.fileName      AS firstFileName\n       ,secondCodeFile.fileName     AS secondFileName\n       ,coalesce(dependency.weight, dependency.cardinality)    AS dependencyWeight\n       ,pairwiseChange.commitCount  AS commitCount\n       ,dependency.fileDistanceAsFewestChangeDirectoryCommands AS fileDistanceAsFewestChangeDirectoryCommands\n RETURN dependencyWeight\n       ,commitCount\n       ,fileDistanceAsFewestChangeDirectoryCommands\n       // ,count(*)                    AS occurrences\n       // ,collect(firstFileName + ' -> ' + secondFileName)[0..3] AS examples\n ORDER BY dependencyWeight, commitCount\n \n // MATCH (firstCodeFile:File)-[dependency:DEPENDS_ON]->(secondCodeFile:File)\n // MATCH (firstCodeFile)-[pairwiseChange:CHANGED_TOGETHER_WITH]-(secondCodeFile)\n // WHERE elementId(firstCodeFile) < elementId(secondCodeFile)\n // RETURN firstCodeFile.fileName  AS firstFileName\n //       ,secondCodeFile.fileName AS secondFileName\n //       ,dependency.weight           AS dependencyWeight\n //       ,pairwiseChange.commitCount  AS commitCount\n // ORDER BY dependencyWeight, commitCount\n \n //  MATCH (g1:!Git&File)-[relation:CHANGED_TOGETHER_WITH|DEPENDS_ON]-(g2:!Git&File) \n //   WITH count(DISTINCT relation)   AS relatedFilesCount\n //       ,collect(DISTINCT relation) AS relations\n // UNWIND relations AS relation\n //   WITH relatedFilesCount\n //       ,coalesce(relation.commitCount, 0)                                 AS commitCount\n //       ,coalesce(relation.weight, 0)                                      AS dependencyWeight\n //       ,coalesce(relation.fileDistanceAsFewestChangeDirectoryCommands, 0) AS fileDistanceAsFewestChangeDirectoryCommands\n // RETURN dependencyWeight\n //       ,commitCount\n //       ,fileDistanceAsFewestChangeDirectoryCommands\n // ORDER BY dependencyWeight, commitCount\n"
+    Received notification from DBMS server: {severity: WARNING} {code: Neo.ClientNotification.Statement.UnknownPropertyKeyWarning} {category: UNRECOGNIZED} {title: The provided property key is not in the database} {description: One of the property names in your query is not available in the database, make sure you didn't misspell it or that the label is available when you run this statement in your application (the missing property name is: fileDistanceAsFewestChangeDirectoryCommands)} {position: line: 11, column: 19, offset: 672} for query: "// List pair of files that were changed together and that have a declared dependency between each other.\n \n MATCH (firstCodeFile:File)-[dependency:DEPENDS_ON]->(secondCodeFile:File)\n MATCH (firstCodeFile)-[pairwiseChange:CHANGED_TOGETHER_WITH]-(secondCodeFile)\n //De-duplicating the pairs of files isn't necessary, because the dependency relation is directed.\n //WHERE elementId(firstCodeFile) < elementId(secondCodeFile)\n  WITH  firstCodeFile.fileName      AS firstFileName\n       ,secondCodeFile.fileName     AS secondFileName\n       ,coalesce(dependency.weight, dependency.cardinality)    AS dependencyWeight\n       ,pairwiseChange.commitCount  AS commitCount\n       ,dependency.fileDistanceAsFewestChangeDirectoryCommands AS fileDistanceAsFewestChangeDirectoryCommands\n RETURN dependencyWeight\n       ,commitCount\n       ,fileDistanceAsFewestChangeDirectoryCommands\n       // ,count(*)                    AS occurrences\n       // ,collect(firstFileName + ' -> ' + secondFileName)[0..3] AS examples\n ORDER BY dependencyWeight, commitCount\n \n // MATCH (firstCodeFile:File)-[dependency:DEPENDS_ON]->(secondCodeFile:File)\n // MATCH (firstCodeFile)-[pairwiseChange:CHANGED_TOGETHER_WITH]-(secondCodeFile)\n // WHERE elementId(firstCodeFile) < elementId(secondCodeFile)\n // RETURN firstCodeFile.fileName  AS firstFileName\n //       ,secondCodeFile.fileName AS secondFileName\n //       ,dependency.weight           AS dependencyWeight\n //       ,pairwiseChange.commitCount  AS commitCount\n // ORDER BY dependencyWeight, commitCount\n \n //  MATCH (g1:!Git&File)-[relation:CHANGED_TOGETHER_WITH|DEPENDS_ON]-(g2:!Git&File) \n //   WITH count(DISTINCT relation)   AS relatedFilesCount\n //       ,collect(DISTINCT relation) AS relations\n // UNWIND relations AS relation\n //   WITH relatedFilesCount\n //       ,coalesce(relation.commitCount, 0)                                 AS commitCount\n //       ,coalesce(relation.weight, 0)                                      AS dependencyWeight\n //       ,coalesce(relation.fileDistanceAsFewestChangeDirectoryCommands, 0) AS fileDistanceAsFewestChangeDirectoryCommands\n // RETURN dependencyWeight\n //       ,commitCount\n //       ,fileDistanceAsFewestChangeDirectoryCommands\n // ORDER BY dependencyWeight, commitCount\n"
 
 
 
