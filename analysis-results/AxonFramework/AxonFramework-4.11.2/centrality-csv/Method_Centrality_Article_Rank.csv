@@ -23,7 +23,7 @@
 "org.axonframework.serialization.Converter: org.axonframework.serialization.SerializedObject convert(org.axonframework.serialization.SerializedObject,java.lang.Class)","convert","centralityArticleRank",0.019569954443457688,""
 "org.axonframework.eventsourcing.eventstore.DomainEventStream: org.axonframework.eventsourcing.eventstore.DomainEventStream of(java.util.stream.Stream,java.util.function.Supplier)","of","centralityArticleRank",0.018873431455747006,""
 "org.axonframework.test.deadline.DeadlineManagerValidator: void assertScheduledDeadlineMatching(java.time.Instant,org.hamcrest.Matcher)","assertScheduledDeadlineMatching","centralityArticleRank",0.017782915942478404,""
-"org.axonframework.modelling.command.AggregateScopeDescriptor: java.lang.Object getIdentifier()","getIdentifier","centralityArticleRank",0.01752470089428774,""
+"org.axonframework.modelling.command.AggregateScopeDescriptor: java.lang.Object getIdentifier()","getIdentifier","centralityArticleRank",0.017524700894287742,""
 "org.axonframework.messaging.unitofwork.UnitOfWork: void attachTransaction(org.axonframework.common.transaction.TransactionManager)","attachTransaction","centralityArticleRank",0.016979380872208006,""
 "org.axonframework.common.TypeReflectionUtils: java.lang.reflect.Type getExactSuperType(java.lang.reflect.Type,java.lang.Class)","getExactSuperType","centralityArticleRank",0.016915176282106734,""
 "org.axonframework.common.ReflectionUtils: java.lang.reflect.AccessibleObject ensureAccessible(java.lang.reflect.AccessibleObject)","ensureAccessible","centralityArticleRank",0.016895477099522792,""

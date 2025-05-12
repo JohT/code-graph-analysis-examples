@@ -37,7 +37,7 @@
 "org.axonframework.common.ReflectionUtils: java.lang.reflect.AccessibleObject ensureAccessible(java.lang.reflect.AccessibleObject)","ensureAccessible","centralityHarmonic",0.0034482758620689655,""
 "org.axonframework.config.Configuration: org.axonframework.eventsourcing.snapshotting.SnapshotFilter snapshotFilter()","snapshotFilter","centralityHarmonic",0.0034482758620689655,""
 "org.axonframework.deadline.DefaultDeadlineManagerSpanFactory$Builder: org.axonframework.deadline.DefaultDeadlineManagerSpanFactory$Builder spanFactory(org.axonframework.tracing.SpanFactory)","spanFactory","centralityHarmonic",0.0034482758620689655,""
-"org.axonframework.eventhandling.AbstractEventBus$Builder: org.axonframework.eventhandling.AbstractEventBus$Builder messageMonitor(org.axonframework.monitoring.MessageMonitor)","messageMonitor","centralityHarmonic",0.003218390804597701,""
+"org.axonframework.eventhandling.AbstractEventBus$Builder: org.axonframework.eventhandling.AbstractEventBus$Builder messageMonitor(org.axonframework.monitoring.MessageMonitor)","messageMonitor","centralityHarmonic",0.0032183908045977008,""
 "org.axonframework.axonserver.connector.AxonServerConfiguration: java.lang.Integer getNewPermitsThreshold()","getNewPermitsThreshold","centralityHarmonic",0.003103448275862069,""
 "org.axonframework.axonserver.connector.DispatchInterceptors: org.axonframework.messaging.Message intercept(org.axonframework.messaging.Message)","intercept","centralityHarmonic",0.003103448275862069,""
 "org.axonframework.common.Assert: void notNull(java.lang.Object,java.util.function.Supplier)","notNull","centralityHarmonic",0.003103448275862069,""
