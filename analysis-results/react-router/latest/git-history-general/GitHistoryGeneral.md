@@ -15,9 +15,6 @@
 
 ## Git History - Directory Commit Statistics
 
-    Received notification from DBMS server: {severity: WARNING} {code: Neo.ClientNotification.Statement.AggregationSkippedNull} {category: UNRECOGNIZED} {title: The query contains an aggregation function that skips null values.} {description: null value eliminated in set function.} {position: None} for query: "// List git files with commit statistics\n \n  MATCH (git_file:File&Git&!Repository)\n  WHERE git_file.deletedAt IS NULL // filter out deleted files\n   WITH percentileDisc(git_file.createdAtEpoch, 0.5)          AS medianCreatedAtEpoch\n       ,percentileDisc(git_file.lastModificationAtEpoch, 0.5) AS medianLastModificationAtEpoch\n       ,collect(git_file)                                     AS git_files\n UNWIND git_files AS git_file\n   WITH *\n       ,datetime.fromepochMillis(coalesce(git_file.createdAtEpoch, medianCreatedAtEpoch))                                            AS fileCreatedAtTimestamp\n       ,datetime.fromepochMillis(coalesce(git_file.lastModificationAtEpoch, git_file.createdAtEpoch, medianLastModificationAtEpoch)) AS fileLastModificationAtTimestamp\n  MATCH (git_repository:Git&Repository)-[:HAS_FILE]->(git_file)\n  MATCH (git_commit:Git&Commit)-[:CONTAINS_CHANGE]->(git_change:Git&Change)-->(old_files_included:Git&File&!Repository)-[:HAS_NEW_NAME*0..3]->(git_file)\n RETURN git_repository.name + '/' + git_file.relativePath AS filePath\n       ,split(git_commit.author, ' <')[0]                 AS author\n       ,count(DISTINCT git_commit.sha)                    AS commitCount\n       ,collect(DISTINCT git_commit.sha)                  AS commitHashes\n       ,date(max(git_commit.date))                        AS lastCommitDate\n       ,max(date(fileCreatedAtTimestamp))                 AS lastCreationDate\n       ,max(date(fileLastModificationAtTimestamp))        AS lastModificationDate\n       ,duration.inDays(date(max(git_commit.date)), date()).days               AS daysSinceLastCommit\n       ,duration.inDays(max(fileCreatedAtTimestamp), datetime()).days          AS daysSinceLastCreation\n       ,duration.inDays(max(fileLastModificationAtTimestamp), datetime()).days AS daysSinceLastModification\n       ,max(git_commit.sha)                               AS maxCommitSha\n ORDER BY filePath ASCENDING, commitCount DESCENDING"
-
-
 ### Data Preview
 
 
@@ -52,8 +49,8 @@
       <td>19.650602</td>
       <td>129.975904</td>
       <td>491.975904</td>
-      <td>895.722892</td>
-      <td>492.903614</td>
+      <td>895.831325</td>
+      <td>493.060241</td>
     </tr>
     <tr>
       <th>std</th>
@@ -61,8 +58,8 @@
       <td>46.179246</td>
       <td>291.778607</td>
       <td>277.542657</td>
-      <td>386.873122</td>
-      <td>277.920045</td>
+      <td>386.762132</td>
+      <td>277.901998</td>
     </tr>
     <tr>
       <th>min</th>
@@ -79,7 +76,7 @@
       <td>4.000000</td>
       <td>11.000000</td>
       <td>222.000000</td>
-      <td>620.000000</td>
+      <td>620.500000</td>
       <td>221.000000</td>
     </tr>
     <tr>
@@ -337,7 +334,7 @@
       <td>15</td>
       <td>543</td>
       <td>849</td>
-      <td>542</td>
+      <td>543</td>
       <td>2023-11-16</td>
       <td>2023-01-13</td>
       <td>2023-11-16</td>
@@ -556,7 +553,7 @@
       <td>Ayush C</td>
       <td>194</td>
       <td>102</td>
-      <td>205</td>
+      <td>206</td>
       <td>101</td>
       <td>2025-01-30</td>
       <td>2024-10-18</td>
@@ -677,7 +674,7 @@
       <td>25</td>
       <td>543</td>
       <td>976</td>
-      <td>542</td>
+      <td>543</td>
       <td>2023-11-16</td>
       <td>2022-09-08</td>
       <td>2023-11-16</td>
@@ -716,8 +713,8 @@
       <td>Shane Walker</td>
       <td>3</td>
       <td>641</td>
-      <td>662</td>
-      <td>662</td>
+      <td>663</td>
+      <td>663</td>
       <td>2023-08-10</td>
       <td>2023-07-19</td>
       <td>2023-07-19</td>
