@@ -15,9 +15,6 @@
 
 ## Git History - Directory Commit Statistics
 
-    Received notification from DBMS server: {severity: WARNING} {code: Neo.ClientNotification.Statement.AggregationSkippedNull} {category: UNRECOGNIZED} {title: The query contains an aggregation function that skips null values.} {description: null value eliminated in set function.} {position: None} for query: "// List git files with commit statistics\n \n  MATCH (git_file:File&Git&!Repository)\n  WHERE git_file.deletedAt IS NULL // filter out deleted files\n   WITH percentileDisc(git_file.createdAtEpoch, 0.5)          AS medianCreatedAtEpoch\n       ,percentileDisc(git_file.lastModificationAtEpoch, 0.5) AS medianLastModificationAtEpoch\n       ,collect(git_file)                                     AS git_files\n UNWIND git_files AS git_file\n   WITH *\n       ,datetime.fromepochMillis(coalesce(git_file.createdAtEpoch, medianCreatedAtEpoch))                                            AS fileCreatedAtTimestamp\n       ,datetime.fromepochMillis(coalesce(git_file.lastModificationAtEpoch, git_file.createdAtEpoch, medianLastModificationAtEpoch)) AS fileLastModificationAtTimestamp\n  MATCH (git_repository:Git&Repository)-[:HAS_FILE]->(git_file)\n  MATCH (git_commit:Git&Commit)-[:CONTAINS_CHANGE]->(git_change:Git&Change)-->(old_files_included:Git&File&!Repository)-[:HAS_NEW_NAME*0..3]->(git_file)\n RETURN git_repository.name + '/' + git_file.relativePath AS filePath\n       ,split(git_commit.author, ' <')[0]                 AS author\n       ,count(DISTINCT git_commit.sha)                    AS commitCount\n       ,collect(DISTINCT git_commit.sha)                  AS commitHashes\n       ,date(max(git_commit.date))                        AS lastCommitDate\n       ,max(date(fileCreatedAtTimestamp))                 AS lastCreationDate\n       ,max(date(fileLastModificationAtTimestamp))        AS lastModificationDate\n       ,duration.inDays(date(max(git_commit.date)), date()).days               AS daysSinceLastCommit\n       ,duration.inDays(max(fileCreatedAtTimestamp), datetime()).days          AS daysSinceLastCreation\n       ,duration.inDays(max(fileLastModificationAtTimestamp), datetime()).days AS daysSinceLastModification\n       ,max(git_commit.sha)                               AS maxCommitSha\n ORDER BY filePath ASCENDING, commitCount DESCENDING"
-
-
 ### Data Preview
 
 
@@ -52,8 +49,8 @@
       <td>19.548845</td>
       <td>283.804618</td>
       <td>217.602131</td>
-      <td>1084.882771</td>
-      <td>310.534636</td>
+      <td>1085.591474</td>
+      <td>311.449378</td>
     </tr>
     <tr>
       <th>std</th>
@@ -61,8 +58,8 @@
       <td>21.254240</td>
       <td>630.075836</td>
       <td>137.280170</td>
-      <td>968.702100</td>
-      <td>373.632167</td>
+      <td>968.704227</td>
+      <td>373.633442</td>
     </tr>
     <tr>
       <th>min</th>
@@ -71,7 +68,7 @@
       <td>3.000000</td>
       <td>18.000000</td>
       <td>86.000000</td>
-      <td>17.000000</td>
+      <td>18.000000</td>
     </tr>
     <tr>
       <th>25%</th>
@@ -79,8 +76,8 @@
       <td>7.000000</td>
       <td>27.000000</td>
       <td>144.000000</td>
-      <td>326.000000</td>
-      <td>143.000000</td>
+      <td>327.000000</td>
+      <td>144.000000</td>
     </tr>
     <tr>
       <th>50%</th>
@@ -88,8 +85,8 @@
       <td>12.000000</td>
       <td>80.000000</td>
       <td>286.000000</td>
-      <td>845.000000</td>
-      <td>285.000000</td>
+      <td>846.000000</td>
+      <td>286.000000</td>
     </tr>
     <tr>
       <th>75%</th>
@@ -97,8 +94,8 @@
       <td>25.000000</td>
       <td>262.000000</td>
       <td>286.000000</td>
-      <td>1899.000000</td>
-      <td>285.000000</td>
+      <td>1899.500000</td>
+      <td>286.000000</td>
     </tr>
     <tr>
       <th>max</th>
@@ -106,8 +103,8 @@
       <td>212.000000</td>
       <td>9638.000000</td>
       <td>2436.000000</td>
-      <td>5563.000000</td>
-      <td>2914.000000</td>
+      <td>5564.000000</td>
+      <td>2915.000000</td>
     </tr>
   </tbody>
 </table>
@@ -156,8 +153,8 @@
       <td>Frank Versnel</td>
       <td>47</td>
       <td>286</td>
-      <td>5563</td>
-      <td>285</td>
+      <td>5564</td>
+      <td>286</td>
       <td>2024-07-30</td>
       <td>2010-02-16</td>
       <td>2024-07-30</td>
@@ -177,7 +174,7 @@
       <td>31</td>
       <td>286</td>
       <td>2034</td>
-      <td>285</td>
+      <td>286</td>
       <td>2024-07-30</td>
       <td>2019-10-16</td>
       <td>2024-07-30</td>
@@ -196,8 +193,8 @@
       <td>Marc Gathier</td>
       <td>22</td>
       <td>286</td>
-      <td>2403</td>
-      <td>2403</td>
+      <td>2404</td>
+      <td>2404</td>
       <td>2024-07-30</td>
       <td>2018-10-12</td>
       <td>2018-10-12</td>
@@ -216,8 +213,8 @@
       <td>Elin Alexey</td>
       <td>69</td>
       <td>286</td>
-      <td>2427</td>
-      <td>285</td>
+      <td>2428</td>
+      <td>286</td>
       <td>2024-07-30</td>
       <td>2018-09-18</td>
       <td>2024-07-30</td>
@@ -236,8 +233,8 @@
       <td>Marijn van Zelst</td>
       <td>34</td>
       <td>286</td>
-      <td>2405</td>
-      <td>285</td>
+      <td>2406</td>
+      <td>286</td>
       <td>2024-07-30</td>
       <td>2018-10-10</td>
       <td>2024-07-30</td>
@@ -256,8 +253,8 @@
       <td>Christian Vermorken</td>
       <td>167</td>
       <td>80</td>
-      <td>1228</td>
-      <td>79</td>
+      <td>1229</td>
+      <td>80</td>
       <td>2025-02-21</td>
       <td>2021-12-30</td>
       <td>2025-02-21</td>
@@ -276,8 +273,8 @@
       <td>David Gómez G</td>
       <td>10</td>
       <td>286</td>
-      <td>338</td>
-      <td>338</td>
+      <td>339</td>
+      <td>339</td>
       <td>2024-07-30</td>
       <td>2024-06-07</td>
       <td>2024-06-07</td>
@@ -296,8 +293,8 @@
       <td>David Gómez G</td>
       <td>18</td>
       <td>286</td>
-      <td>326</td>
-      <td>326</td>
+      <td>327</td>
+      <td>327</td>
       <td>2024-07-30</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -316,8 +313,8 @@
       <td>David Gómez G</td>
       <td>18</td>
       <td>286</td>
-      <td>326</td>
-      <td>326</td>
+      <td>327</td>
+      <td>327</td>
       <td>2024-07-30</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -336,8 +333,8 @@
       <td>David Gómez G</td>
       <td>19</td>
       <td>286</td>
-      <td>326</td>
-      <td>326</td>
+      <td>327</td>
+      <td>327</td>
       <td>2024-07-30</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -356,8 +353,8 @@
       <td>David Gómez G</td>
       <td>18</td>
       <td>286</td>
-      <td>326</td>
-      <td>326</td>
+      <td>327</td>
+      <td>327</td>
       <td>2024-07-30</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -376,8 +373,8 @@
       <td>David Gómez G</td>
       <td>19</td>
       <td>286</td>
-      <td>326</td>
-      <td>326</td>
+      <td>327</td>
+      <td>327</td>
       <td>2024-07-30</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -396,8 +393,8 @@
       <td>David Gómez G</td>
       <td>18</td>
       <td>286</td>
-      <td>326</td>
-      <td>326</td>
+      <td>327</td>
+      <td>327</td>
       <td>2024-07-30</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -416,8 +413,8 @@
       <td>David Gómez G</td>
       <td>19</td>
       <td>286</td>
-      <td>326</td>
-      <td>326</td>
+      <td>327</td>
+      <td>327</td>
       <td>2024-07-30</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -436,8 +433,8 @@
       <td>David Gómez G</td>
       <td>18</td>
       <td>286</td>
-      <td>326</td>
-      <td>326</td>
+      <td>327</td>
+      <td>327</td>
       <td>2024-07-30</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -456,8 +453,8 @@
       <td>David Gómez G</td>
       <td>20</td>
       <td>286</td>
-      <td>326</td>
-      <td>326</td>
+      <td>327</td>
+      <td>327</td>
       <td>2024-07-30</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -476,8 +473,8 @@
       <td>David Gómez G</td>
       <td>18</td>
       <td>286</td>
-      <td>326</td>
-      <td>326</td>
+      <td>327</td>
+      <td>327</td>
       <td>2024-07-30</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -496,8 +493,8 @@
       <td>David Gómez G</td>
       <td>19</td>
       <td>286</td>
-      <td>326</td>
-      <td>326</td>
+      <td>327</td>
+      <td>327</td>
       <td>2024-07-30</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -516,8 +513,8 @@
       <td>David Gómez G</td>
       <td>18</td>
       <td>286</td>
-      <td>326</td>
-      <td>326</td>
+      <td>327</td>
+      <td>327</td>
       <td>2024-07-30</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -536,8 +533,8 @@
       <td>David Gómez G</td>
       <td>19</td>
       <td>286</td>
-      <td>326</td>
-      <td>326</td>
+      <td>327</td>
+      <td>327</td>
       <td>2024-07-30</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -556,8 +553,8 @@
       <td>David Gómez G</td>
       <td>18</td>
       <td>286</td>
-      <td>326</td>
-      <td>326</td>
+      <td>327</td>
+      <td>327</td>
       <td>2024-07-30</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -576,8 +573,8 @@
       <td>David Gómez G</td>
       <td>19</td>
       <td>286</td>
-      <td>326</td>
-      <td>326</td>
+      <td>327</td>
+      <td>327</td>
       <td>2024-07-30</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -596,8 +593,8 @@
       <td>David Gómez G</td>
       <td>18</td>
       <td>286</td>
-      <td>326</td>
-      <td>326</td>
+      <td>327</td>
+      <td>327</td>
       <td>2024-07-30</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -616,8 +613,8 @@
       <td>David Gómez G</td>
       <td>18</td>
       <td>286</td>
-      <td>326</td>
-      <td>326</td>
+      <td>327</td>
+      <td>327</td>
       <td>2024-07-30</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -636,8 +633,8 @@
       <td>David Gómez G</td>
       <td>19</td>
       <td>286</td>
-      <td>326</td>
-      <td>326</td>
+      <td>327</td>
+      <td>327</td>
       <td>2024-07-30</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -656,8 +653,8 @@
       <td>David Gómez G</td>
       <td>18</td>
       <td>286</td>
-      <td>326</td>
-      <td>326</td>
+      <td>327</td>
+      <td>327</td>
       <td>2024-07-30</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -676,8 +673,8 @@
       <td>David Gómez G</td>
       <td>20</td>
       <td>286</td>
-      <td>326</td>
-      <td>326</td>
+      <td>327</td>
+      <td>327</td>
       <td>2024-07-30</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -696,8 +693,8 @@
       <td>David Gómez G</td>
       <td>18</td>
       <td>286</td>
-      <td>326</td>
-      <td>326</td>
+      <td>327</td>
+      <td>327</td>
       <td>2024-07-30</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -716,8 +713,8 @@
       <td>David Gómez G</td>
       <td>19</td>
       <td>286</td>
-      <td>326</td>
-      <td>326</td>
+      <td>327</td>
+      <td>327</td>
       <td>2024-07-30</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -736,8 +733,8 @@
       <td>David Gómez G</td>
       <td>18</td>
       <td>286</td>
-      <td>326</td>
-      <td>326</td>
+      <td>327</td>
+      <td>327</td>
       <td>2024-07-30</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
