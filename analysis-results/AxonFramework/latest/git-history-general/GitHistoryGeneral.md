@@ -48,9 +48,9 @@
       <td>24.492007</td>
       <td>19.548845</td>
       <td>283.804618</td>
-      <td>217.602131</td>
-      <td>1085.591474</td>
-      <td>311.449378</td>
+      <td>224.602131</td>
+      <td>1091.882771</td>
+      <td>317.534636</td>
     </tr>
     <tr>
       <th>std</th>
@@ -58,53 +58,53 @@
       <td>21.254240</td>
       <td>630.075836</td>
       <td>137.280170</td>
-      <td>968.704227</td>
-      <td>373.633442</td>
+      <td>968.702100</td>
+      <td>373.632167</td>
     </tr>
     <tr>
       <th>min</th>
       <td>1.000000</td>
       <td>2.000000</td>
       <td>3.000000</td>
-      <td>18.000000</td>
-      <td>86.000000</td>
-      <td>18.000000</td>
+      <td>25.000000</td>
+      <td>93.000000</td>
+      <td>24.000000</td>
     </tr>
     <tr>
       <th>25%</th>
       <td>1.000000</td>
       <td>7.000000</td>
       <td>27.000000</td>
-      <td>144.000000</td>
-      <td>327.000000</td>
-      <td>144.000000</td>
+      <td>151.000000</td>
+      <td>333.000000</td>
+      <td>150.000000</td>
     </tr>
     <tr>
       <th>50%</th>
       <td>4.000000</td>
       <td>12.000000</td>
       <td>80.000000</td>
-      <td>286.000000</td>
-      <td>846.000000</td>
-      <td>286.000000</td>
+      <td>293.000000</td>
+      <td>852.000000</td>
+      <td>292.000000</td>
     </tr>
     <tr>
       <th>75%</th>
       <td>10.000000</td>
       <td>25.000000</td>
       <td>262.000000</td>
-      <td>286.000000</td>
-      <td>1899.500000</td>
-      <td>286.000000</td>
+      <td>293.000000</td>
+      <td>1906.000000</td>
+      <td>292.000000</td>
     </tr>
     <tr>
       <th>max</th>
       <td>2250.000000</td>
       <td>212.000000</td>
       <td>9638.000000</td>
-      <td>2436.000000</td>
-      <td>5564.000000</td>
-      <td>2915.000000</td>
+      <td>2443.000000</td>
+      <td>5570.000000</td>
+      <td>2921.000000</td>
     </tr>
   </tbody>
 </table>
@@ -152,9 +152,9 @@
       <td>Allard Buijze</td>
       <td>Frank Versnel</td>
       <td>47</td>
-      <td>286</td>
-      <td>5564</td>
-      <td>286</td>
+      <td>293</td>
+      <td>5570</td>
+      <td>292</td>
       <td>2024-07-30</td>
       <td>2010-02-16</td>
       <td>2024-07-30</td>
@@ -172,9 +172,9 @@
       <td>Allard Buijze</td>
       <td>Elin Alexey</td>
       <td>31</td>
-      <td>286</td>
-      <td>2034</td>
-      <td>286</td>
+      <td>293</td>
+      <td>2041</td>
+      <td>292</td>
       <td>2024-07-30</td>
       <td>2019-10-16</td>
       <td>2024-07-30</td>
@@ -192,9 +192,9 @@
       <td>Allard Buijze</td>
       <td>Marc Gathier</td>
       <td>22</td>
-      <td>286</td>
-      <td>2404</td>
-      <td>2404</td>
+      <td>293</td>
+      <td>2410</td>
+      <td>2410</td>
       <td>2024-07-30</td>
       <td>2018-10-12</td>
       <td>2018-10-12</td>
@@ -212,9 +212,9 @@
       <td>Allard Buijze</td>
       <td>Elin Alexey</td>
       <td>69</td>
-      <td>286</td>
-      <td>2428</td>
-      <td>286</td>
+      <td>293</td>
+      <td>2434</td>
+      <td>292</td>
       <td>2024-07-30</td>
       <td>2018-09-18</td>
       <td>2024-07-30</td>
@@ -232,9 +232,9 @@
       <td>Allard Buijze</td>
       <td>Marijn van Zelst</td>
       <td>34</td>
-      <td>286</td>
-      <td>2406</td>
-      <td>286</td>
+      <td>293</td>
+      <td>2412</td>
+      <td>292</td>
       <td>2024-07-30</td>
       <td>2018-10-10</td>
       <td>2024-07-30</td>
@@ -252,9 +252,9 @@
       <td>Allard Buijze</td>
       <td>Christian Vermorken</td>
       <td>167</td>
-      <td>80</td>
-      <td>1229</td>
-      <td>80</td>
+      <td>87</td>
+      <td>1235</td>
+      <td>86</td>
       <td>2025-02-21</td>
       <td>2021-12-30</td>
       <td>2025-02-21</td>
@@ -272,9 +272,9 @@
       <td>Allard Buijze</td>
       <td>David Gómez G</td>
       <td>10</td>
-      <td>286</td>
-      <td>339</td>
-      <td>339</td>
+      <td>293</td>
+      <td>345</td>
+      <td>345</td>
       <td>2024-07-30</td>
       <td>2024-06-07</td>
       <td>2024-06-07</td>
@@ -292,9 +292,9 @@
       <td>Allard Buijze</td>
       <td>David Gómez G</td>
       <td>18</td>
-      <td>286</td>
-      <td>327</td>
-      <td>327</td>
+      <td>293</td>
+      <td>333</td>
+      <td>333</td>
       <td>2024-07-30</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -312,9 +312,9 @@
       <td>Allard Buijze</td>
       <td>David Gómez G</td>
       <td>18</td>
-      <td>286</td>
-      <td>327</td>
-      <td>327</td>
+      <td>293</td>
+      <td>333</td>
+      <td>333</td>
       <td>2024-07-30</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -332,9 +332,9 @@
       <td>Allard Buijze</td>
       <td>David Gómez G</td>
       <td>19</td>
-      <td>286</td>
-      <td>327</td>
-      <td>327</td>
+      <td>293</td>
+      <td>333</td>
+      <td>333</td>
       <td>2024-07-30</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -352,9 +352,9 @@
       <td>Allard Buijze</td>
       <td>David Gómez G</td>
       <td>18</td>
-      <td>286</td>
-      <td>327</td>
-      <td>327</td>
+      <td>293</td>
+      <td>333</td>
+      <td>333</td>
       <td>2024-07-30</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -372,9 +372,9 @@
       <td>Allard Buijze</td>
       <td>David Gómez G</td>
       <td>19</td>
-      <td>286</td>
-      <td>327</td>
-      <td>327</td>
+      <td>293</td>
+      <td>333</td>
+      <td>333</td>
       <td>2024-07-30</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -392,9 +392,9 @@
       <td>Allard Buijze</td>
       <td>David Gómez G</td>
       <td>18</td>
-      <td>286</td>
-      <td>327</td>
-      <td>327</td>
+      <td>293</td>
+      <td>333</td>
+      <td>333</td>
       <td>2024-07-30</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -412,9 +412,9 @@
       <td>Allard Buijze</td>
       <td>David Gómez G</td>
       <td>19</td>
-      <td>286</td>
-      <td>327</td>
-      <td>327</td>
+      <td>293</td>
+      <td>333</td>
+      <td>333</td>
       <td>2024-07-30</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -432,9 +432,9 @@
       <td>Allard Buijze</td>
       <td>David Gómez G</td>
       <td>18</td>
-      <td>286</td>
-      <td>327</td>
-      <td>327</td>
+      <td>293</td>
+      <td>333</td>
+      <td>333</td>
       <td>2024-07-30</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -452,9 +452,9 @@
       <td>Allard Buijze</td>
       <td>David Gómez G</td>
       <td>20</td>
-      <td>286</td>
-      <td>327</td>
-      <td>327</td>
+      <td>293</td>
+      <td>333</td>
+      <td>333</td>
       <td>2024-07-30</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -472,9 +472,9 @@
       <td>Allard Buijze</td>
       <td>David Gómez G</td>
       <td>18</td>
-      <td>286</td>
-      <td>327</td>
-      <td>327</td>
+      <td>293</td>
+      <td>333</td>
+      <td>333</td>
       <td>2024-07-30</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -492,9 +492,9 @@
       <td>Allard Buijze</td>
       <td>David Gómez G</td>
       <td>19</td>
-      <td>286</td>
-      <td>327</td>
-      <td>327</td>
+      <td>293</td>
+      <td>333</td>
+      <td>333</td>
       <td>2024-07-30</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -512,9 +512,9 @@
       <td>Allard Buijze</td>
       <td>David Gómez G</td>
       <td>18</td>
-      <td>286</td>
-      <td>327</td>
-      <td>327</td>
+      <td>293</td>
+      <td>333</td>
+      <td>333</td>
       <td>2024-07-30</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -532,9 +532,9 @@
       <td>Allard Buijze</td>
       <td>David Gómez G</td>
       <td>19</td>
-      <td>286</td>
-      <td>327</td>
-      <td>327</td>
+      <td>293</td>
+      <td>333</td>
+      <td>333</td>
       <td>2024-07-30</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -552,9 +552,9 @@
       <td>Allard Buijze</td>
       <td>David Gómez G</td>
       <td>18</td>
-      <td>286</td>
-      <td>327</td>
-      <td>327</td>
+      <td>293</td>
+      <td>333</td>
+      <td>333</td>
       <td>2024-07-30</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -572,9 +572,9 @@
       <td>Allard Buijze</td>
       <td>David Gómez G</td>
       <td>19</td>
-      <td>286</td>
-      <td>327</td>
-      <td>327</td>
+      <td>293</td>
+      <td>333</td>
+      <td>333</td>
       <td>2024-07-30</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -592,9 +592,9 @@
       <td>Allard Buijze</td>
       <td>David Gómez G</td>
       <td>18</td>
-      <td>286</td>
-      <td>327</td>
-      <td>327</td>
+      <td>293</td>
+      <td>333</td>
+      <td>333</td>
       <td>2024-07-30</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -612,9 +612,9 @@
       <td>Allard Buijze</td>
       <td>David Gómez G</td>
       <td>18</td>
-      <td>286</td>
-      <td>327</td>
-      <td>327</td>
+      <td>293</td>
+      <td>333</td>
+      <td>333</td>
       <td>2024-07-30</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -632,9 +632,9 @@
       <td>Allard Buijze</td>
       <td>David Gómez G</td>
       <td>19</td>
-      <td>286</td>
-      <td>327</td>
-      <td>327</td>
+      <td>293</td>
+      <td>333</td>
+      <td>333</td>
       <td>2024-07-30</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -652,9 +652,9 @@
       <td>Allard Buijze</td>
       <td>David Gómez G</td>
       <td>18</td>
-      <td>286</td>
-      <td>327</td>
-      <td>327</td>
+      <td>293</td>
+      <td>333</td>
+      <td>333</td>
       <td>2024-07-30</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -672,9 +672,9 @@
       <td>Allard Buijze</td>
       <td>David Gómez G</td>
       <td>20</td>
-      <td>286</td>
-      <td>327</td>
-      <td>327</td>
+      <td>293</td>
+      <td>333</td>
+      <td>333</td>
       <td>2024-07-30</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -692,9 +692,9 @@
       <td>Allard Buijze</td>
       <td>David Gómez G</td>
       <td>18</td>
-      <td>286</td>
-      <td>327</td>
-      <td>327</td>
+      <td>293</td>
+      <td>333</td>
+      <td>333</td>
       <td>2024-07-30</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -712,9 +712,9 @@
       <td>Allard Buijze</td>
       <td>David Gómez G</td>
       <td>19</td>
-      <td>286</td>
-      <td>327</td>
-      <td>327</td>
+      <td>293</td>
+      <td>333</td>
+      <td>333</td>
       <td>2024-07-30</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -732,9 +732,9 @@
       <td>Allard Buijze</td>
       <td>David Gómez G</td>
       <td>18</td>
-      <td>286</td>
-      <td>327</td>
-      <td>327</td>
+      <td>293</td>
+      <td>333</td>
+      <td>333</td>
       <td>2024-07-30</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
