@@ -613,7 +613,7 @@ In this section we'll focus only on pairs of nodes that both belong to the same 
       <td>311</td>
       <td>61</td>
       <td>41</td>
-      <td>[/org/axonframework/commandhandling/distributed -&gt; /org/axonframework/commandhandling, /org/axonframework/commandhandling/callbacks -&gt; /org/axonframework/commandhandling, /org/axonframework/commandhandling/distributed/commandfilter -&gt; /org/axonframework/commandhandling, /org/axonframework/comman...</td>
+      <td>[/org/axonframework/messaging/timeout -&gt; /org/axonframework/commandhandling, /org/axonframework/serialization -&gt; /org/axonframework/commandhandling, /org/axonframework/tracing -&gt; /org/axonframework/commandhandling, /org/axonframework/tracing/attributes -&gt; /org/axonframework/commandhandling]</td>
       <td>[axon-messaging-4.11.2 -&gt; axon-messaging-4.11.2]</td>
       <td>[]</td>
     </tr>
@@ -651,7 +651,7 @@ In this section we'll focus only on pairs of nodes that both belong to the same 
       <td>469</td>
       <td>53</td>
       <td>26</td>
-      <td>[/org/axonframework/common/jdbc -&gt; /org/axonframework/commandhandling, /org/axonframework/deadline/annotation -&gt; /org/axonframework/commandhandling, /org/axonframework/eventhandling/async -&gt; /org/axonframework/commandhandling, /org/axonframework/eventhandling/deadletter -&gt; /org/axonframework/com...</td>
+      <td>[/org/axonframework/messaging/interceptors -&gt; /org/axonframework/commandhandling, /org/axonframework/messaging/interceptors/legacyvalidation -&gt; /org/axonframework/commandhandling, /org/axonframework/messaging/unitofwork -&gt; /org/axonframework/commandhandling, /org/axonframework/monitoring -&gt; /org...</td>
       <td>[axon-messaging-4.11.2 -&gt; axon-messaging-4.11.2]</td>
       <td>[]</td>
     </tr>
@@ -670,7 +670,7 @@ In this section we'll focus only on pairs of nodes that both belong to the same 
       <td>128</td>
       <td>33</td>
       <td>18</td>
-      <td>[/org/axonframework/lifecycle -&gt; /org/axonframework/commandhandling, /org/axonframework/common/jdbc -&gt; /org/axonframework/commandhandling/callbacks, /org/axonframework/deadline/annotation -&gt; /org/axonframework/commandhandling/callbacks, /org/axonframework/eventhandling/async -&gt; /org/axonframewor...</td>
+      <td>[/org/axonframework/messaging/interceptors -&gt; /org/axonframework/commandhandling/callbacks, /org/axonframework/messaging/interceptors/legacyvalidation -&gt; /org/axonframework/commandhandling/callbacks, /org/axonframework/messaging/unitofwork -&gt; /org/axonframework/commandhandling/callbacks, /org/ax...</td>
       <td>[axon-messaging-4.11.2 -&gt; axon-messaging-4.11.2]</td>
       <td>[]</td>
     </tr>
@@ -905,7 +905,7 @@ First, we'll have a look at the overall/total result of the longest path algorit
       <td>0</td>
       <td>1</td>
       <td>13</td>
-      <td>5</td>
+      <td>4</td>
       <td>13</td>
     </tr>
     <tr>
@@ -1007,7 +1007,7 @@ The following table shows the first 10 rows with all details of the query above.
       <td>None</td>
       <td>1</td>
       <td>13</td>
-      <td>5</td>
+      <td>4</td>
       <td>13</td>
       <td>1</td>
       <td>1</td>
@@ -1026,7 +1026,7 @@ The following table shows the first 10 rows with all details of the query above.
       <td>None</td>
       <td>1</td>
       <td>13</td>
-      <td>5</td>
+      <td>4</td>
       <td>13</td>
       <td>1</td>
       <td>1</td>
@@ -1045,7 +1045,7 @@ The following table shows the first 10 rows with all details of the query above.
       <td>None</td>
       <td>1</td>
       <td>13</td>
-      <td>5</td>
+      <td>4</td>
       <td>13</td>
       <td>1</td>
       <td>1</td>
@@ -1083,7 +1083,7 @@ The following table shows the first 10 rows with all details of the query above.
       <td>None</td>
       <td>1</td>
       <td>13</td>
-      <td>5</td>
+      <td>4</td>
       <td>13</td>
       <td>2</td>
       <td>1</td>
@@ -1140,7 +1140,7 @@ The following table shows the first 10 rows with all details of the query above.
       <td>None</td>
       <td>1</td>
       <td>13</td>
-      <td>5</td>
+      <td>4</td>
       <td>13</td>
       <td>4</td>
       <td>1</td>
@@ -1236,7 +1236,7 @@ In this section we'll focus only on pairs of nodes that both belong to the same 
       <td>None</td>
       <td>1</td>
       <td>13</td>
-      <td>5</td>
+      <td>4</td>
       <td>13</td>
       <td>1</td>
       <td>1</td>
@@ -1255,7 +1255,7 @@ In this section we'll focus only on pairs of nodes that both belong to the same 
       <td>None</td>
       <td>1</td>
       <td>13</td>
-      <td>5</td>
+      <td>4</td>
       <td>13</td>
       <td>1</td>
       <td>1</td>
@@ -1293,7 +1293,7 @@ In this section we'll focus only on pairs of nodes that both belong to the same 
       <td>None</td>
       <td>1</td>
       <td>13</td>
-      <td>5</td>
+      <td>4</td>
       <td>13</td>
       <td>2</td>
       <td>1</td>
@@ -1350,9 +1350,23 @@ In this section we'll focus only on pairs of nodes that both belong to the same 
       <td>None</td>
       <td>1</td>
       <td>13</td>
-      <td>5</td>
+      <td>4</td>
       <td>13</td>
       <td>3</td>
+      <td>1</td>
+      <td>3</td>
+      <td>[/org/axonframework/test/saga -&gt; /org/axonframework/test/deadline, /org/axonframework/test/saga -&gt; /org/axonframework/test/eventscheduler, /org/axonframework/test/saga -&gt; /org/axonframework/test/utils]</td>
+      <td>[axon-test-4.11.2 -&gt; axon-test-4.11.2]</td>
+      <td>[]</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>axon-test-4.11.2</td>
+      <td>None</td>
+      <td>None</td>
+      <td>False</td>
+      <td>None</td>
+      <td>None</td>
       <td>2</td>
       <td>3</td>
       <td>[/org/axonframework/test/aggregate -&gt; /org/axonframework/test/deadline, /org/axonframework/test/saga -&gt; /org/axonframework/test/eventscheduler, /org/axonframework/test/saga -&gt; /org/axonframework/test/utils]</td>
@@ -1360,7 +1374,7 @@ In this section we'll focus only on pairs of nodes that both belong to the same 
       <td>[]</td>
     </tr>
     <tr>
-      <th>13</th>
+      <th>14</th>
       <td>axon-test-4.11.2</td>
       <td>None</td>
       <td>None</td>
