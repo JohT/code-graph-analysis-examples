@@ -90,11 +90,11 @@ jobs:
   analyze-code-graph:
     name: Analyze Code Graph
     needs: [prepare-code-to-analyze]
-    uses: JohT/code-graph-analysis-pipeline/.github/workflows/public-analyze-code-graph.yml@1c7457ff9069e6c235633aa46519b2c16c93040b # main
+    uses: JohT/code-graph-analysis-pipeline/.github/workflows/public-analyze-code-graph.yml@371e7010599a3283cd14f518b0f1765556422d31 # main
     with:
       analysis-name: ${{ needs.prepare-code-to-analyze.outputs.analysis-name }}
       sources-upload-name: ${{ needs.prepare-code-to-analyze.outputs.sources-upload-name }}
-      ref: 1c7457ff9069e6c235633aa46519b2c16c93040b # main
+      ref: 371e7010599a3283cd14f518b0f1765556422d31 # main
 
 
   commit-analysis-results:
