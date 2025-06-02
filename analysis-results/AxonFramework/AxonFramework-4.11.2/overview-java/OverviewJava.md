@@ -33,8 +33,8 @@
   <tbody>
     <tr>
       <th>0</th>
-      <td>301165</td>
-      <td>936082</td>
+      <td>301236</td>
+      <td>936008</td>
       <td>9</td>
       <td>124</td>
       <td>2173</td>
@@ -129,15 +129,15 @@ The whole table can be found in the CSV report `Number_of_types_per_artifact`.
       <th>8</th>
       <td>axon-server-connector-4.11.2</td>
       <td>142</td>
-      <td>Class</td>
-      <td>116</td>
+      <td>Interface</td>
+      <td>25</td>
     </tr>
     <tr>
       <th>9</th>
       <td>axon-server-connector-4.11.2</td>
       <td>142</td>
-      <td>Interface</td>
-      <td>25</td>
+      <td>Class</td>
+      <td>116</td>
     </tr>
     <tr>
       <th>10</th>
@@ -192,15 +192,15 @@ The whole table can be found in the CSV report `Number_of_types_per_artifact`.
       <th>17</th>
       <td>axon-spring-boot-autoconfigure-4.11.2</td>
       <td>88</td>
-      <td>Enum</td>
-      <td>2</td>
+      <td>Interface</td>
+      <td>1</td>
     </tr>
     <tr>
       <th>18</th>
       <td>axon-spring-boot-autoconfigure-4.11.2</td>
       <td>88</td>
-      <td>Interface</td>
-      <td>1</td>
+      <td>Enum</td>
+      <td>2</td>
     </tr>
     <tr>
       <th>19</th>
@@ -227,15 +227,15 @@ The whole table can be found in the CSV report `Number_of_types_per_artifact`.
       <th>22</th>
       <td>axon-configuration-4.11.2</td>
       <td>42</td>
-      <td>Enum</td>
-      <td>1</td>
+      <td>Class</td>
+      <td>23</td>
     </tr>
     <tr>
       <th>23</th>
       <td>axon-configuration-4.11.2</td>
       <td>42</td>
-      <td>Class</td>
-      <td>23</td>
+      <td>Enum</td>
+      <td>1</td>
     </tr>
     <tr>
       <th>24</th>
@@ -548,12 +548,12 @@ The whole table can be found in the CSV report `Number_of_packages_per_artifact`
     </tr>
     <tr>
       <th>3</th>
-      <td>axon-spring-boot-autoconfigure-4.11.2</td>
+      <td>axon-eventsourcing-4.11.2</td>
       <td>9</td>
     </tr>
     <tr>
       <th>4</th>
-      <td>axon-eventsourcing-4.11.2</td>
+      <td>axon-spring-boot-autoconfigure-4.11.2</td>
       <td>9</td>
     </tr>
     <tr>
@@ -563,17 +563,17 @@ The whole table can be found in the CSV report `Number_of_packages_per_artifact`
     </tr>
     <tr>
       <th>6</th>
-      <td>axon-configuration-4.11.2</td>
+      <td>axon-tracing-opentelemetry-4.11.2</td>
       <td>1</td>
     </tr>
     <tr>
       <th>7</th>
-      <td>axon-disruptor-4.11.2</td>
+      <td>axon-configuration-4.11.2</td>
       <td>1</td>
     </tr>
     <tr>
       <th>8</th>
-      <td>axon-tracing-opentelemetry-4.11.2</td>
+      <td>axon-disruptor-4.11.2</td>
       <td>1</td>
     </tr>
   </tbody>

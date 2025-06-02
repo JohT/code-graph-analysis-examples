@@ -35,35 +35,35 @@
     </tr>
     <tr>
       <th>2</th>
-      <td>spring</td>
+      <td>server</td>
     </tr>
     <tr>
       <th>3</th>
-      <td>boot</td>
+      <td>connector</td>
     </tr>
     <tr>
       <th>4</th>
-      <td>autoconfigure</td>
+      <td>services</td>
     </tr>
     <tr>
       <th>5</th>
-      <td>spring</td>
-    </tr>
-    <tr>
-      <th>6</th>
       <td>maven</td>
     </tr>
     <tr>
-      <th>7</th>
+      <th>6</th>
       <td>org</td>
     </tr>
     <tr>
-      <th>8</th>
+      <th>7</th>
       <td>axonframework</td>
     </tr>
     <tr>
-      <th>9</th>
+      <th>8</th>
       <td>axon</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>server</td>
     </tr>
   </tbody>
 </table>
