@@ -522,9 +522,6 @@ Image  | Analysis |
 | [VisibilityMetricsJava_23_2.png](./AxonFramework/latest/visibility-metrics-java/VisibilityMetricsJava_files/VisibilityMetricsJava_23_2.png) | latest |
 | [Wordcloud_13_1.png](./AxonFramework/latest/wordcloud/Wordcloud_files/Wordcloud_13_1.png) | latest |
 | [Wordcloud_16_0.png](./AxonFramework/latest/wordcloud/Wordcloud_files/Wordcloud_16_0.png) | latest |
-| [GitHistoryGeneral_56_0.png](./react-router/latest/git-history-general/GitHistoryGeneral_files/GitHistoryGeneral_56_0.png) | latest |
-| [GitHistoryGeneral_62_0.png](./react-router/latest/git-history-general/GitHistoryGeneral_files/GitHistoryGeneral_62_0.png) | latest |
-| [GitHistoryGeneral_68_0.png](./react-router/latest/git-history-general/GitHistoryGeneral_files/GitHistoryGeneral_68_0.png) | latest |
 | [GitHistoryGeneral_69_0.png](./react-router/latest/git-history-general/GitHistoryGeneral_files/GitHistoryGeneral_69_0.png) | latest |
 | [OverviewGeneral_14_1.png](./react-router/latest/overview-general/OverviewGeneral_files/OverviewGeneral_14_1.png) | latest |
 | [OverviewGeneral_18_1.png](./react-router/latest/overview-general/OverviewGeneral_files/OverviewGeneral_18_1.png) | latest |
@@ -802,3 +799,11 @@ Image  | Analysis |
 | [OverviewGeneral_31_1.png](./react-router/react-router-6.30.0/overview-general/OverviewGeneral_files/OverviewGeneral_31_1.png) | react-router-6.30.0 |
 | [Wordcloud_13_1.png](./react-router/react-router-6.30.0/wordcloud/Wordcloud_files/Wordcloud_13_1.png) | react-router-6.30.0 |
 | [Wordcloud_16_0.png](./react-router/react-router-6.30.0/wordcloud/Wordcloud_files/Wordcloud_16_0.png) | react-router-6.30.0 |
+| [GitHistoryGeneral_69_0.png](./react-router/react-router-6.30.1/git-history-general/GitHistoryGeneral_files/GitHistoryGeneral_69_0.png) | react-router-6.30.1 |
+| [OverviewGeneral_14_1.png](./react-router/react-router-6.30.1/overview-general/OverviewGeneral_files/OverviewGeneral_14_1.png) | react-router-6.30.1 |
+| [OverviewGeneral_18_1.png](./react-router/react-router-6.30.1/overview-general/OverviewGeneral_files/OverviewGeneral_18_1.png) | react-router-6.30.1 |
+| [OverviewGeneral_22_1.png](./react-router/react-router-6.30.1/overview-general/OverviewGeneral_files/OverviewGeneral_22_1.png) | react-router-6.30.1 |
+| [OverviewGeneral_27_1.png](./react-router/react-router-6.30.1/overview-general/OverviewGeneral_files/OverviewGeneral_27_1.png) | react-router-6.30.1 |
+| [OverviewGeneral_31_1.png](./react-router/react-router-6.30.1/overview-general/OverviewGeneral_files/OverviewGeneral_31_1.png) | react-router-6.30.1 |
+| [Wordcloud_13_1.png](./react-router/react-router-6.30.1/wordcloud/Wordcloud_files/Wordcloud_13_1.png) | react-router-6.30.1 |
+| [Wordcloud_16_0.png](./react-router/react-router-6.30.1/wordcloud/Wordcloud_files/Wordcloud_16_0.png) | react-router-6.30.1 |
