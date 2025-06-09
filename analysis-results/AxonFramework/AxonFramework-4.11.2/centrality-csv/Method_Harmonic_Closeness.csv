@@ -7,7 +7,7 @@
 "org.axonframework.common.jdbc.JdbcUtils: void closeQuietly(java.sql.Connection)","closeQuietly","centralityHarmonic",0.01814331501831502,""
 "org.axonframework.common.Assert: void isTrue(boolean,java.util.function.Supplier)","isTrue","centralityHarmonic",0.017742673992673992,""
 "org.axonframework.messaging.unitofwork.CurrentUnitOfWork: org.axonframework.messaging.unitofwork.UnitOfWork get()","get","centralityHarmonic",0.015453296703296704,""
-"org.axonframework.common.transaction.TransactionManager: void executeInTransaction(java.lang.Runnable)","executeInTransaction","centralityHarmonic",0.012248168498168498,""
+"org.axonframework.common.transaction.TransactionManager: void executeInTransaction(java.lang.Runnable)","executeInTransaction","centralityHarmonic",0.0122481684981685,""
 "org.axonframework.common.BuilderUtils: void assertStrictPositive(int,java.lang.String)","assertStrictPositive","centralityHarmonic",0.011675824175824176,""
 "org.axonframework.common.ObjectUtils: java.lang.Object getOrDefault(java.lang.Object,java.lang.Object)","getOrDefault","centralityHarmonic",0.01098901098901099,""
 "org.axonframework.config.Component: java.lang.Object get()","get","centralityHarmonic",0.01098901098901099,""
