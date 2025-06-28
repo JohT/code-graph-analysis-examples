@@ -66,19 +66,19 @@
     </tr>
     <tr>
       <th>6</th>
-      <td>examples</td>
+      <td>tutorial</td>
     </tr>
     <tr>
       <th>7</th>
-      <td>auth</td>
+      <td>packages</td>
     </tr>
     <tr>
       <th>8</th>
-      <td>router</td>
+      <td>react</td>
     </tr>
     <tr>
       <th>9</th>
-      <td>provider</td>
+      <td>router</td>
     </tr>
   </tbody>
 </table>
