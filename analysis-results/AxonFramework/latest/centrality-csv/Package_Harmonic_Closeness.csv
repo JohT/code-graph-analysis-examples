@@ -18,7 +18,7 @@
 "org.axonframework.serialization.upcasting.event","event","centralityHarmonic",0.40144927536231884,""
 "org.axonframework.common.annotation","annotation","centralityHarmonic",0.39202898550724635,""
 "org.axonframework.eventhandling.async","async","centralityHarmonic",0.3782608695652174,""
-"org.axonframework.util","util","centralityHarmonic",0.3695652173913043,""
+"org.axonframework.util","util","centralityHarmonic",0.36956521739130427,""
 "org.axonframework.messaging.correlation","correlation","centralityHarmonic",0.3644927536231884,""
 "org.axonframework.messaging.interceptors","interceptors","centralityHarmonic",0.3630434782608696,""
 "org.axonframework.eventhandling.replay","replay","centralityHarmonic",0.3623188405797102,""

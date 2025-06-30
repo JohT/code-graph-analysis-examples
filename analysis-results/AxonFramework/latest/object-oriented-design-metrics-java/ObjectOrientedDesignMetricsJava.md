@@ -3609,8 +3609,8 @@ Read more details on that in [OO Design Quality Metrics](https://api.semanticsch
     <tr>
       <th>27</th>
       <td>axon-tracing-opentelemetry-4.11.2</td>
-      <td>org</td>
-      <td>org</td>
+      <td>org.axonframework</td>
+      <td>axonframework</td>
       <td>NaN</td>
       <td>0.0</td>
       <td>NaN</td>
@@ -3619,8 +3619,8 @@ Read more details on that in [OO Design Quality Metrics](https://api.semanticsch
     <tr>
       <th>28</th>
       <td>axon-tracing-opentelemetry-4.11.2</td>
-      <td>org.axonframework.tracing</td>
-      <td>tracing</td>
+      <td>org</td>
+      <td>org</td>
       <td>NaN</td>
       <td>0.0</td>
       <td>NaN</td>
@@ -3629,8 +3629,8 @@ Read more details on that in [OO Design Quality Metrics](https://api.semanticsch
     <tr>
       <th>29</th>
       <td>axon-tracing-opentelemetry-4.11.2</td>
-      <td>org.axonframework</td>
-      <td>axonframework</td>
+      <td>org.axonframework.tracing</td>
+      <td>tracing</td>
       <td>NaN</td>
       <td>0.0</td>
       <td>NaN</td>
