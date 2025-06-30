@@ -2454,7 +2454,7 @@ The following table shows the top 30 packages with the highest cyclomatic comple
       <td>286</td>
       <td>182</td>
       <td>7</td>
-      <td>equals</td>
+      <td>calculateRoute</td>
     </tr>
     <tr>
       <th>11</th>
@@ -2535,7 +2535,7 @@ The following table shows the top 30 packages with the highest cyclomatic comple
       <td>209</td>
       <td>156</td>
       <td>4</td>
-      <td>equals</td>
+      <td>resolveDetails</td>
     </tr>
     <tr>
       <th>29</th>

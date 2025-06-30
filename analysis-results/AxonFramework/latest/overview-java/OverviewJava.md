@@ -33,8 +33,8 @@
   <tbody>
     <tr>
       <th>0</th>
-      <td>301218</td>
-      <td>936040</td>
+      <td>301208</td>
+      <td>935970</td>
       <td>9</td>
       <td>124</td>
       <td>2173</td>
@@ -73,36 +73,36 @@ The whole table can be found in the CSV report `Number_of_types_per_artifact`.
       <th>0</th>
       <td>axon-messaging-4.11.2</td>
       <td>808</td>
-      <td>Class</td>
-      <td>605</td>
+      <td>Interface</td>
+      <td>157</td>
     </tr>
     <tr>
       <th>1</th>
       <td>axon-messaging-4.11.2</td>
       <td>808</td>
-      <td>Annotation</td>
-      <td>27</td>
+      <td>Class</td>
+      <td>605</td>
     </tr>
     <tr>
       <th>2</th>
-      <td>axon-messaging-4.11.2</td>
-      <td>808</td>
-      <td>Interface</td>
-      <td>157</td>
-    </tr>
-    <tr>
-      <th>3</th>
       <td>axon-messaging-4.11.2</td>
       <td>808</td>
       <td>Enum</td>
       <td>19</td>
     </tr>
     <tr>
+      <th>3</th>
+      <td>axon-messaging-4.11.2</td>
+      <td>808</td>
+      <td>Annotation</td>
+      <td>27</td>
+    </tr>
+    <tr>
       <th>4</th>
       <td>axon-modelling-4.11.2</td>
       <td>158</td>
-      <td>Interface</td>
-      <td>28</td>
+      <td>Annotation</td>
+      <td>12</td>
     </tr>
     <tr>
       <th>5</th>
@@ -115,15 +115,15 @@ The whole table can be found in the CSV report `Number_of_types_per_artifact`.
       <th>6</th>
       <td>axon-modelling-4.11.2</td>
       <td>158</td>
-      <td>Annotation</td>
-      <td>12</td>
+      <td>Enum</td>
+      <td>3</td>
     </tr>
     <tr>
       <th>7</th>
       <td>axon-modelling-4.11.2</td>
       <td>158</td>
-      <td>Enum</td>
-      <td>3</td>
+      <td>Interface</td>
+      <td>28</td>
     </tr>
     <tr>
       <th>8</th>
@@ -185,15 +185,15 @@ The whole table can be found in the CSV report `Number_of_types_per_artifact`.
       <th>16</th>
       <td>axon-spring-boot-autoconfigure-4.11.2</td>
       <td>88</td>
-      <td>Annotation</td>
-      <td>3</td>
+      <td>Enum</td>
+      <td>2</td>
     </tr>
     <tr>
       <th>17</th>
       <td>axon-spring-boot-autoconfigure-4.11.2</td>
       <td>88</td>
-      <td>Enum</td>
-      <td>2</td>
+      <td>Annotation</td>
+      <td>3</td>
     </tr>
     <tr>
       <th>18</th>

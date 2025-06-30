@@ -6,7 +6,7 @@
 1,"axon-configuration-4.11.2",1,"config",""
 1,"axon-eventsourcing-4.11.2",7,"eventstore,inmemory,jdbc,statements,jpa,legacyjpa,snapshotting",""
 1,"axon-messaging-4.11.2",10,"io,stream,transaction,eventhandling,deadletter,async,gateway,pooled,monitoring,util",""
-2,"axon-messaging-4.11.2",11,"replay,java,lifecycle,messaging,correlation,interceptors,legacyvalidation,responsetypes,queryhandling,registration,tracing",""
+2,"axon-messaging-4.11.2",11,"replay,java,messaging,lifecycle,correlation,interceptors,legacyvalidation,responsetypes,queryhandling,registration,tracing",""
 2,"axon-server-connector-4.11.2",11,"connector,processor,util,heartbeat,source,checker,query,subscription,axon,command",""
 2,"axon-tracing-opentelemetry-4.11.2",1,"opentelemetry",""
 4,"axon-modelling-4.11.2",1,"inmemory",""
