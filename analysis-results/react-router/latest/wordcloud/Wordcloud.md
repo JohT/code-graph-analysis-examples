@@ -70,15 +70,15 @@
     </tr>
     <tr>
       <th>7</th>
-      <td>packages</td>
+      <td>examples</td>
     </tr>
     <tr>
       <th>8</th>
-      <td>react</td>
+      <td>navigation</td>
     </tr>
     <tr>
       <th>9</th>
-      <td>router</td>
+      <td>blocking</td>
     </tr>
   </tbody>
 </table>
@@ -86,7 +86,7 @@
 
 
 
-    There are 2475 words in the dataset for the plot titled 'Wordcloud of names in code'.
+    There are 2483 words in the dataset for the plot titled 'Wordcloud of names in code'.
 
 
 
