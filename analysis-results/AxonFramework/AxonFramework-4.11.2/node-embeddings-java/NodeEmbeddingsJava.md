@@ -83,48 +83,48 @@ The following function takes the original node embeddings with a higher dimensio
   <tbody>
     <tr>
       <th>0</th>
-      <td>org.axonframework.eventsourcing</td>
-      <td>eventsourcing</td>
-      <td>axon-eventsourcing-4.11.2</td>
+      <td>org.axonframework.actuator</td>
+      <td>actuator</td>
+      <td>axon-spring-boot-autoconfigure-4.11.2</td>
       <td>0</td>
-      <td>0.215085</td>
-      <td>[-0.16198427975177765, -0.19347916543483734, 0...</td>
+      <td>0.201382</td>
+      <td>[0.23380392789840698, 0.36905425786972046, 0.0...</td>
     </tr>
     <tr>
       <th>1</th>
-      <td>org.axonframework.eventsourcing.conflictresolu...</td>
-      <td>conflictresolution</td>
-      <td>axon-eventsourcing-4.11.2</td>
+      <td>org.axonframework.actuator.axonserver</td>
+      <td>axonserver</td>
+      <td>axon-spring-boot-autoconfigure-4.11.2</td>
       <td>0</td>
-      <td>0.154712</td>
-      <td>[-0.15265756845474243, -0.22714993357658386, 0...</td>
+      <td>0.151124</td>
+      <td>[0.17871297895908356, 0.32047808170318604, 0.1...</td>
     </tr>
     <tr>
       <th>2</th>
-      <td>org.axonframework.disruptor.commandhandling</td>
-      <td>commandhandling</td>
-      <td>axon-disruptor-4.11.2</td>
+      <td>org.axonframework.springboot</td>
+      <td>springboot</td>
+      <td>axon-spring-boot-autoconfigure-4.11.2</td>
       <td>0</td>
-      <td>0.152680</td>
-      <td>[-0.2465260922908783, -0.2163395881652832, 0.0...</td>
+      <td>0.315542</td>
+      <td>[0.1868687868118286, 0.27640625834465027, 0.22...</td>
     </tr>
     <tr>
       <th>3</th>
-      <td>org.axonframework.modelling.command</td>
-      <td>command</td>
-      <td>axon-modelling-4.11.2</td>
+      <td>org.axonframework.springboot.service.connection</td>
+      <td>connection</td>
+      <td>axon-spring-boot-autoconfigure-4.11.2</td>
       <td>0</td>
-      <td>0.415184</td>
-      <td>[-0.323282390832901, -0.16630016267299652, 0.0...</td>
+      <td>0.150642</td>
+      <td>[0.2205153852701187, 0.26197803020477295, 0.14...</td>
     </tr>
     <tr>
       <th>4</th>
-      <td>org.axonframework.modelling.command.inspection</td>
-      <td>inspection</td>
-      <td>axon-modelling-4.11.2</td>
+      <td>org.axonframework.springboot.autoconfig</td>
+      <td>autoconfig</td>
+      <td>axon-spring-boot-autoconfigure-4.11.2</td>
       <td>0</td>
-      <td>0.249377</td>
-      <td>[-0.28761762380599976, -0.18274624645709991, 0...</td>
+      <td>0.163421</td>
+      <td>[0.23186519742012024, 0.3118206262588501, 0.13...</td>
     </tr>
   </tbody>
 </table>
@@ -141,36 +141,32 @@ This step takes the original node embeddings with a higher dimensionality, e.g. 
     ===> Finding 90 nearest neighbors using exact search using euclidean distance...
        --> Time elapsed: 0.02 seconds
     ===> Calculating affinity matrix...
-       --> Time elapsed: 0.00 seconds
+       --> Time elapsed: 0.01 seconds
     ===> Calculating PCA-based initialization...
        --> Time elapsed: 0.00 seconds
     ===> Running optimization with exaggeration=12.00, lr=9.67 for 250 iterations...
-    Iteration   50, KL divergence -0.0519, 50 iterations in 0.0402 sec
-    Iteration  100, KL divergence 1.2365, 50 iterations in 0.0113 sec
-    Iteration  150, KL divergence 1.2365, 50 iterations in 0.0104 sec
-    Iteration  200, KL divergence 1.2365, 50 iterations in 0.0104 sec
-    Iteration  250, KL divergence 1.2365, 50 iterations in 0.0103 sec
-       --> Time elapsed: 0.08 seconds
+    Iteration   50, KL divergence -0.4274, 50 iterations in 0.0421 sec
+    Iteration  100, KL divergence 1.2356, 50 iterations in 0.0117 sec
+    Iteration  150, KL divergence 1.2356, 50 iterations in 0.0104 sec
+    Iteration  200, KL divergence 1.2356, 50 iterations in 0.0105 sec
+    Iteration  250, KL divergence 1.2356, 50 iterations in 0.0106 sec
+       --> Time elapsed: 0.09 seconds
     ===> Running optimization with exaggeration=1.00, lr=116.00 for 500 iterations...
-    Iteration   50, KL divergence 0.1785, 50 iterations in 0.0363 sec
+    Iteration   50, KL divergence 0.2023, 50 iterations in 0.0391 sec
 
 
-    Iteration  100, KL divergence 0.1543, 50 iterations in 0.0489 sec
+    Iteration  100, KL divergence 0.1678, 50 iterations in 0.0511 sec
+    Iteration  150, KL divergence 0.1626, 50 iterations in 0.0478 sec
+    Iteration  200, KL divergence 0.1612, 50 iterations in 0.0483 sec
+    Iteration  250, KL divergence 0.1608, 50 iterations in 0.0484 sec
+    Iteration  300, KL divergence 0.1606, 50 iterations in 0.0483 sec
 
 
-    Iteration  150, KL divergence 0.1493, 50 iterations in 0.0498 sec
-    Iteration  200, KL divergence 0.1470, 50 iterations in 0.0489 sec
-    Iteration  250, KL divergence 0.1471, 50 iterations in 0.0475 sec
-    Iteration  300, KL divergence 0.1472, 50 iterations in 0.0474 sec
-
-
-    Iteration  350, KL divergence 0.1471, 50 iterations in 0.0481 sec
-
-
-    Iteration  400, KL divergence 0.1471, 50 iterations in 0.0487 sec
-    Iteration  450, KL divergence 0.1472, 50 iterations in 0.0479 sec
-    Iteration  500, KL divergence 0.1472, 50 iterations in 0.0478 sec
-       --> Time elapsed: 0.47 seconds
+    Iteration  350, KL divergence 0.1608, 50 iterations in 0.0504 sec
+    Iteration  400, KL divergence 0.1609, 50 iterations in 0.0490 sec
+    Iteration  450, KL divergence 0.1607, 50 iterations in 0.0485 sec
+    Iteration  500, KL divergence 0.1607, 50 iterations in 0.0478 sec
+       --> Time elapsed: 0.48 seconds
 
 
 
@@ -194,48 +190,48 @@ This step takes the original node embeddings with a higher dimensionality, e.g. 
   <tbody>
     <tr>
       <th>0</th>
-      <td>org.axonframework.eventsourcing</td>
-      <td>axon-eventsourcing-4.11.2</td>
+      <td>org.axonframework.actuator</td>
+      <td>axon-spring-boot-autoconfigure-4.11.2</td>
       <td>0</td>
-      <td>0.215085</td>
-      <td>3.957771</td>
-      <td>-0.932831</td>
+      <td>0.201382</td>
+      <td>-8.495718</td>
+      <td>1.313166</td>
     </tr>
     <tr>
       <th>1</th>
-      <td>org.axonframework.eventsourcing.conflictresolu...</td>
-      <td>axon-eventsourcing-4.11.2</td>
+      <td>org.axonframework.actuator.axonserver</td>
+      <td>axon-spring-boot-autoconfigure-4.11.2</td>
       <td>0</td>
-      <td>0.154712</td>
-      <td>3.686600</td>
-      <td>-0.067772</td>
+      <td>0.151124</td>
+      <td>-7.925775</td>
+      <td>1.345398</td>
     </tr>
     <tr>
       <th>2</th>
-      <td>org.axonframework.disruptor.commandhandling</td>
-      <td>axon-disruptor-4.11.2</td>
+      <td>org.axonframework.springboot</td>
+      <td>axon-spring-boot-autoconfigure-4.11.2</td>
       <td>0</td>
-      <td>0.152680</td>
-      <td>4.393888</td>
-      <td>-2.150710</td>
+      <td>0.315542</td>
+      <td>-8.200430</td>
+      <td>2.100125</td>
     </tr>
     <tr>
       <th>3</th>
-      <td>org.axonframework.modelling.command</td>
-      <td>axon-modelling-4.11.2</td>
+      <td>org.axonframework.springboot.service.connection</td>
+      <td>axon-spring-boot-autoconfigure-4.11.2</td>
       <td>0</td>
-      <td>0.415184</td>
-      <td>4.229732</td>
-      <td>-1.776457</td>
+      <td>0.150642</td>
+      <td>-7.113138</td>
+      <td>0.953050</td>
     </tr>
     <tr>
       <th>4</th>
-      <td>org.axonframework.modelling.command.inspection</td>
-      <td>axon-modelling-4.11.2</td>
+      <td>org.axonframework.springboot.autoconfig</td>
+      <td>axon-spring-boot-autoconfigure-4.11.2</td>
       <td>0</td>
-      <td>0.249377</td>
-      <td>4.530210</td>
-      <td>-1.482214</td>
+      <td>0.163421</td>
+      <td>-7.486787</td>
+      <td>2.260874</td>
     </tr>
   </tbody>
 </table>
@@ -277,48 +273,48 @@ This step takes the original node embeddings with a higher dimensionality, e.g. 
   <tbody>
     <tr>
       <th>0</th>
-      <td>org.axonframework.eventsourcing</td>
-      <td>eventsourcing</td>
-      <td>axon-eventsourcing-4.11.2</td>
+      <td>org.axonframework.actuator</td>
+      <td>actuator</td>
+      <td>axon-spring-boot-autoconfigure-4.11.2</td>
       <td>0</td>
-      <td>0.215085</td>
-      <td>[0.0, -0.8660253882408142, -1.2990380823612213...</td>
+      <td>0.201382</td>
+      <td>[0.8660253882408142, -1.0825317353010178, 0.43...</td>
     </tr>
     <tr>
       <th>1</th>
-      <td>org.axonframework.eventsourcing.conflictresolu...</td>
-      <td>conflictresolution</td>
-      <td>axon-eventsourcing-4.11.2</td>
+      <td>org.axonframework.actuator.axonserver</td>
+      <td>axonserver</td>
+      <td>axon-spring-boot-autoconfigure-4.11.2</td>
       <td>0</td>
-      <td>0.154712</td>
-      <td>[0.0, -2.1650634706020355, -0.6495190411806107...</td>
+      <td>0.151124</td>
+      <td>[1.2990380823612213, -0.21650634706020355, 0.4...</td>
     </tr>
     <tr>
       <th>2</th>
-      <td>org.axonframework.disruptor.commandhandling</td>
-      <td>commandhandling</td>
-      <td>axon-disruptor-4.11.2</td>
+      <td>org.axonframework.springboot</td>
+      <td>springboot</td>
+      <td>axon-spring-boot-autoconfigure-4.11.2</td>
       <td>0</td>
-      <td>0.152680</td>
-      <td>[-0.8660253882408142, -0.6495190411806107, -1....</td>
+      <td>0.315542</td>
+      <td>[0.4330126941204071, 0.21650634706020355, -0.8...</td>
     </tr>
     <tr>
       <th>3</th>
-      <td>org.axonframework.modelling.command</td>
-      <td>command</td>
-      <td>axon-modelling-4.11.2</td>
+      <td>org.axonframework.springboot.service.connection</td>
+      <td>connection</td>
+      <td>axon-spring-boot-autoconfigure-4.11.2</td>
       <td>0</td>
-      <td>0.415184</td>
-      <td>[-0.21650634706020355, -0.8660253882408142, -1...</td>
+      <td>0.150642</td>
+      <td>[1.2990380823612213, 0.8660253882408142, 0.433...</td>
     </tr>
     <tr>
       <th>4</th>
-      <td>org.axonframework.modelling.command.inspection</td>
-      <td>inspection</td>
-      <td>axon-modelling-4.11.2</td>
+      <td>org.axonframework.springboot.autoconfig</td>
+      <td>autoconfig</td>
+      <td>axon-spring-boot-autoconfigure-4.11.2</td>
       <td>0</td>
-      <td>0.249377</td>
-      <td>[-0.6495190411806107, -1.948557123541832, -1.5...</td>
+      <td>0.163421</td>
+      <td>[1.7320507764816284, -0.4330126941204071, -0.8...</td>
     </tr>
   </tbody>
 </table>
@@ -333,32 +329,30 @@ This step takes the original node embeddings with a higher dimensionality, e.g. 
     ===> Calculating affinity matrix...
        --> Time elapsed: 0.00 seconds
     ===> Calculating PCA-based initialization...
-       --> Time elapsed: 0.01 seconds
+       --> Time elapsed: 0.00 seconds
     ===> Running optimization with exaggeration=12.00, lr=9.67 for 250 iterations...
-    Iteration   50, KL divergence -1.1026, 50 iterations in 0.0914 sec
-    Iteration  100, KL divergence 1.2406, 50 iterations in 0.0178 sec
-    Iteration  150, KL divergence 1.2406, 50 iterations in 0.0102 sec
-    Iteration  200, KL divergence 1.2406, 50 iterations in 0.0102 sec
-    Iteration  250, KL divergence 1.2406, 50 iterations in 0.0103 sec
-       --> Time elapsed: 0.14 seconds
+    Iteration   50, KL divergence -0.4309, 50 iterations in 0.0715 sec
+    Iteration  100, KL divergence 1.2305, 50 iterations in 0.0181 sec
+    Iteration  150, KL divergence 1.2305, 50 iterations in 0.0153 sec
+    Iteration  200, KL divergence 1.2305, 50 iterations in 0.0116 sec
+    Iteration  250, KL divergence 1.2305, 50 iterations in 0.0102 sec
+       --> Time elapsed: 0.13 seconds
     ===> Running optimization with exaggeration=1.00, lr=116.00 for 500 iterations...
-    Iteration   50, KL divergence 0.5900, 50 iterations in 0.0395 sec
+    Iteration   50, KL divergence 0.5663, 50 iterations in 0.0399 sec
 
 
-    Iteration  100, KL divergence 0.5602, 50 iterations in 0.0534 sec
-    Iteration  150, KL divergence 0.5583, 50 iterations in 0.0526 sec
-    Iteration  200, KL divergence 0.5582, 50 iterations in 0.0534 sec
-    Iteration  250, KL divergence 0.5583, 50 iterations in 0.0536 sec
+    Iteration  100, KL divergence 0.5444, 50 iterations in 0.0535 sec
+    Iteration  150, KL divergence 0.5401, 50 iterations in 0.0505 sec
+    Iteration  200, KL divergence 0.5370, 50 iterations in 0.0493 sec
+    Iteration  250, KL divergence 0.5353, 50 iterations in 0.0486 sec
+    Iteration  300, KL divergence 0.5349, 50 iterations in 0.0490 sec
 
 
-    Iteration  300, KL divergence 0.5575, 50 iterations in 0.0545 sec
-    Iteration  350, KL divergence 0.5574, 50 iterations in 0.0546 sec
-    Iteration  400, KL divergence 0.5575, 50 iterations in 0.0543 sec
-    Iteration  450, KL divergence 0.5576, 50 iterations in 0.0538 sec
-
-
-    Iteration  500, KL divergence 0.5577, 50 iterations in 0.0540 sec
-       --> Time elapsed: 0.52 seconds
+    Iteration  350, KL divergence 0.5352, 50 iterations in 0.0497 sec
+    Iteration  400, KL divergence 0.5348, 50 iterations in 0.0502 sec
+    Iteration  450, KL divergence 0.5350, 50 iterations in 0.0499 sec
+    Iteration  500, KL divergence 0.5351, 50 iterations in 0.0492 sec
+       --> Time elapsed: 0.49 seconds
 
 
 
@@ -382,48 +376,48 @@ This step takes the original node embeddings with a higher dimensionality, e.g. 
   <tbody>
     <tr>
       <th>0</th>
-      <td>org.axonframework.eventsourcing</td>
-      <td>axon-eventsourcing-4.11.2</td>
+      <td>org.axonframework.actuator</td>
+      <td>axon-spring-boot-autoconfigure-4.11.2</td>
       <td>0</td>
-      <td>0.215085</td>
-      <td>2.096190</td>
-      <td>8.012907</td>
+      <td>0.201382</td>
+      <td>-3.936573</td>
+      <td>6.677072</td>
     </tr>
     <tr>
       <th>1</th>
-      <td>org.axonframework.eventsourcing.conflictresolu...</td>
-      <td>axon-eventsourcing-4.11.2</td>
+      <td>org.axonframework.actuator.axonserver</td>
+      <td>axon-spring-boot-autoconfigure-4.11.2</td>
       <td>0</td>
-      <td>0.154712</td>
-      <td>2.625525</td>
-      <td>0.559214</td>
+      <td>0.151124</td>
+      <td>-3.552166</td>
+      <td>6.456547</td>
     </tr>
     <tr>
       <th>2</th>
-      <td>org.axonframework.disruptor.commandhandling</td>
-      <td>axon-disruptor-4.11.2</td>
+      <td>org.axonframework.springboot</td>
+      <td>axon-spring-boot-autoconfigure-4.11.2</td>
       <td>0</td>
-      <td>0.152680</td>
-      <td>4.666791</td>
-      <td>8.429115</td>
+      <td>0.315542</td>
+      <td>-1.906226</td>
+      <td>-5.918128</td>
     </tr>
     <tr>
       <th>3</th>
-      <td>org.axonframework.modelling.command</td>
-      <td>axon-modelling-4.11.2</td>
+      <td>org.axonframework.springboot.service.connection</td>
+      <td>axon-spring-boot-autoconfigure-4.11.2</td>
       <td>0</td>
-      <td>0.415184</td>
-      <td>3.328025</td>
-      <td>8.118217</td>
+      <td>0.150642</td>
+      <td>-2.684055</td>
+      <td>6.109161</td>
     </tr>
     <tr>
       <th>4</th>
-      <td>org.axonframework.modelling.command.inspection</td>
-      <td>axon-modelling-4.11.2</td>
+      <td>org.axonframework.springboot.autoconfig</td>
+      <td>axon-spring-boot-autoconfigure-4.11.2</td>
       <td>0</td>
-      <td>0.249377</td>
-      <td>3.304516</td>
-      <td>8.112345</td>
+      <td>0.163421</td>
+      <td>4.921308</td>
+      <td>5.962278</td>
     </tr>
   </tbody>
 </table>
@@ -432,7 +426,7 @@ This step takes the original node embeddings with a higher dimensionality, e.g. 
 
 
     
-![png](NodeEmbeddingsJava_files/NodeEmbeddingsJava_21_9.png)
+![png](NodeEmbeddingsJava_files/NodeEmbeddingsJava_21_8.png)
     
 
 
@@ -461,48 +455,48 @@ This step takes the original node embeddings with a higher dimensionality, e.g. 
   <tbody>
     <tr>
       <th>0</th>
-      <td>org.axonframework.eventsourcing</td>
-      <td>eventsourcing</td>
-      <td>axon-eventsourcing-4.11.2</td>
+      <td>org.axonframework.actuator</td>
+      <td>actuator</td>
+      <td>axon-spring-boot-autoconfigure-4.11.2</td>
       <td>0</td>
-      <td>0.215085</td>
-      <td>[0.4915933907032013, 0.45673155784606934, -0.4...</td>
+      <td>0.201382</td>
+      <td>[0.6931328177452087, -0.31039559841156006, -0....</td>
     </tr>
     <tr>
       <th>1</th>
-      <td>org.axonframework.eventsourcing.conflictresolu...</td>
-      <td>conflictresolution</td>
-      <td>axon-eventsourcing-4.11.2</td>
+      <td>org.axonframework.actuator.axonserver</td>
+      <td>axonserver</td>
+      <td>axon-spring-boot-autoconfigure-4.11.2</td>
       <td>0</td>
-      <td>0.154712</td>
-      <td>[0.2977370023727417, 0.3300282657146454, -0.30...</td>
+      <td>0.151124</td>
+      <td>[0.668236255645752, -0.21382391452789307, -0.3...</td>
     </tr>
     <tr>
       <th>2</th>
-      <td>org.axonframework.disruptor.commandhandling</td>
-      <td>commandhandling</td>
-      <td>axon-disruptor-4.11.2</td>
+      <td>org.axonframework.springboot</td>
+      <td>springboot</td>
+      <td>axon-spring-boot-autoconfigure-4.11.2</td>
       <td>0</td>
-      <td>0.152680</td>
-      <td>[0.45150187611579895, 0.40339359641075134, -0....</td>
+      <td>0.315542</td>
+      <td>[0.6508525013923645, -0.525368332862854, -0.21...</td>
     </tr>
     <tr>
       <th>3</th>
-      <td>org.axonframework.modelling.command</td>
-      <td>command</td>
-      <td>axon-modelling-4.11.2</td>
+      <td>org.axonframework.springboot.service.connection</td>
+      <td>connection</td>
+      <td>axon-spring-boot-autoconfigure-4.11.2</td>
       <td>0</td>
-      <td>0.415184</td>
-      <td>[0.43193694949150085, 0.4029911160469055, -0.1...</td>
+      <td>0.150642</td>
+      <td>[1.1302825212478638, 0.14127925038337708, -0.3...</td>
     </tr>
     <tr>
       <th>4</th>
-      <td>org.axonframework.modelling.command.inspection</td>
-      <td>inspection</td>
-      <td>axon-modelling-4.11.2</td>
+      <td>org.axonframework.springboot.autoconfig</td>
+      <td>autoconfig</td>
+      <td>axon-spring-boot-autoconfigure-4.11.2</td>
       <td>0</td>
-      <td>0.249377</td>
-      <td>[0.40448322892189026, 0.33430758118629456, -0....</td>
+      <td>0.163421</td>
+      <td>[0.7207937836647034, -0.4932820200920105, -0.2...</td>
     </tr>
   </tbody>
 </table>
@@ -515,32 +509,38 @@ This step takes the original node embeddings with a higher dimensionality, e.g. 
     ===> Finding 90 nearest neighbors using exact search using euclidean distance...
        --> Time elapsed: 0.00 seconds
     ===> Calculating affinity matrix...
-       --> Time elapsed: 0.00 seconds
+       --> Time elapsed: 0.01 seconds
     ===> Calculating PCA-based initialization...
        --> Time elapsed: 0.00 seconds
     ===> Running optimization with exaggeration=12.00, lr=9.67 for 250 iterations...
-    Iteration   50, KL divergence -0.4527, 50 iterations in 0.0465 sec
-    Iteration  100, KL divergence 1.1897, 50 iterations in 0.0119 sec
-    Iteration  150, KL divergence 1.1897, 50 iterations in 0.0119 sec
-    Iteration  200, KL divergence 1.1897, 50 iterations in 0.0107 sec
-    Iteration  250, KL divergence 1.1897, 50 iterations in 0.0105 sec
-       --> Time elapsed: 0.09 seconds
+    Iteration   50, KL divergence -1.0069, 50 iterations in 0.0542 sec
+    Iteration  100, KL divergence 1.1870, 50 iterations in 0.0119 sec
+    Iteration  150, KL divergence 1.1870, 50 iterations in 0.0104 sec
+    Iteration  200, KL divergence 1.1870, 50 iterations in 0.0104 sec
+    Iteration  250, KL divergence 1.1870, 50 iterations in 0.0104 sec
+       --> Time elapsed: 0.10 seconds
     ===> Running optimization with exaggeration=1.00, lr=116.00 for 500 iterations...
-    Iteration   50, KL divergence 0.3791, 50 iterations in 0.0395 sec
-    Iteration  100, KL divergence 0.3449, 50 iterations in 0.0516 sec
+    Iteration   50, KL divergence 0.3037, 50 iterations in 0.0409 sec
 
 
-    Iteration  150, KL divergence 0.3230, 50 iterations in 0.0529 sec
-    Iteration  200, KL divergence 0.3223, 50 iterations in 0.0517 sec
-    Iteration  250, KL divergence 0.3227, 50 iterations in 0.0510 sec
-    Iteration  300, KL divergence 0.3222, 50 iterations in 0.0510 sec
+    Iteration  100, KL divergence 0.2957, 50 iterations in 0.0526 sec
 
 
-    Iteration  350, KL divergence 0.3223, 50 iterations in 0.0516 sec
-    Iteration  400, KL divergence 0.3218, 50 iterations in 0.0512 sec
-    Iteration  450, KL divergence 0.3217, 50 iterations in 0.0507 sec
-    Iteration  500, KL divergence 0.3220, 50 iterations in 0.0512 sec
-       --> Time elapsed: 0.50 seconds
+    Iteration  150, KL divergence 0.2917, 50 iterations in 0.0537 sec
+    Iteration  200, KL divergence 0.2919, 50 iterations in 0.0531 sec
+    Iteration  250, KL divergence 0.2920, 50 iterations in 0.0526 sec
+
+
+    Iteration  300, KL divergence 0.2920, 50 iterations in 0.0535 sec
+
+
+    Iteration  350, KL divergence 0.2920, 50 iterations in 0.0542 sec
+    Iteration  400, KL divergence 0.2919, 50 iterations in 0.0530 sec
+    Iteration  450, KL divergence 0.2918, 50 iterations in 0.0526 sec
+
+
+    Iteration  500, KL divergence 0.2917, 50 iterations in 0.0532 sec
+       --> Time elapsed: 0.52 seconds
 
 
 
@@ -564,48 +564,48 @@ This step takes the original node embeddings with a higher dimensionality, e.g. 
   <tbody>
     <tr>
       <th>0</th>
-      <td>org.axonframework.eventsourcing</td>
-      <td>axon-eventsourcing-4.11.2</td>
+      <td>org.axonframework.actuator</td>
+      <td>axon-spring-boot-autoconfigure-4.11.2</td>
       <td>0</td>
-      <td>0.215085</td>
-      <td>-4.760902</td>
-      <td>0.127959</td>
+      <td>0.201382</td>
+      <td>-9.087070</td>
+      <td>-3.658123</td>
     </tr>
     <tr>
       <th>1</th>
-      <td>org.axonframework.eventsourcing.conflictresolu...</td>
-      <td>axon-eventsourcing-4.11.2</td>
+      <td>org.axonframework.actuator.axonserver</td>
+      <td>axon-spring-boot-autoconfigure-4.11.2</td>
       <td>0</td>
-      <td>0.154712</td>
-      <td>-4.257110</td>
-      <td>-0.343938</td>
+      <td>0.151124</td>
+      <td>-9.086528</td>
+      <td>-3.658936</td>
     </tr>
     <tr>
       <th>2</th>
-      <td>org.axonframework.disruptor.commandhandling</td>
-      <td>axon-disruptor-4.11.2</td>
+      <td>org.axonframework.springboot</td>
+      <td>axon-spring-boot-autoconfigure-4.11.2</td>
       <td>0</td>
-      <td>0.152680</td>
-      <td>-4.984525</td>
-      <td>-0.074274</td>
+      <td>0.315542</td>
+      <td>-7.617862</td>
+      <td>-2.671268</td>
     </tr>
     <tr>
       <th>3</th>
-      <td>org.axonframework.modelling.command</td>
-      <td>axon-modelling-4.11.2</td>
+      <td>org.axonframework.springboot.service.connection</td>
+      <td>axon-spring-boot-autoconfigure-4.11.2</td>
       <td>0</td>
-      <td>0.415184</td>
-      <td>-6.273546</td>
-      <td>0.281226</td>
+      <td>0.150642</td>
+      <td>8.574976</td>
+      <td>6.111350</td>
     </tr>
     <tr>
       <th>4</th>
-      <td>org.axonframework.modelling.command.inspection</td>
-      <td>axon-modelling-4.11.2</td>
+      <td>org.axonframework.springboot.autoconfig</td>
+      <td>axon-spring-boot-autoconfigure-4.11.2</td>
       <td>0</td>
-      <td>0.249377</td>
-      <td>-4.596063</td>
-      <td>0.732510</td>
+      <td>0.163421</td>
+      <td>-6.225632</td>
+      <td>-2.376847</td>
     </tr>
   </tbody>
 </table>
@@ -614,6 +614,6 @@ This step takes the original node embeddings with a higher dimensionality, e.g. 
 
 
     
-![png](NodeEmbeddingsJava_files/NodeEmbeddingsJava_23_8.png)
+![png](NodeEmbeddingsJava_files/NodeEmbeddingsJava_23_11.png)
     
 

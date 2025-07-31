@@ -33,8 +33,8 @@
   <tbody>
     <tr>
       <th>0</th>
-      <td>301208</td>
-      <td>935970</td>
+      <td>301206</td>
+      <td>935709</td>
       <td>9</td>
       <td>124</td>
       <td>2173</td>
@@ -73,15 +73,15 @@ The whole table can be found in the CSV report `Number_of_types_per_artifact`.
       <th>0</th>
       <td>axon-messaging-4.11.2</td>
       <td>808</td>
-      <td>Interface</td>
-      <td>157</td>
+      <td>Class</td>
+      <td>605</td>
     </tr>
     <tr>
       <th>1</th>
       <td>axon-messaging-4.11.2</td>
       <td>808</td>
-      <td>Class</td>
-      <td>605</td>
+      <td>Interface</td>
+      <td>157</td>
     </tr>
     <tr>
       <th>2</th>
@@ -101,15 +101,15 @@ The whole table can be found in the CSV report `Number_of_types_per_artifact`.
       <th>4</th>
       <td>axon-modelling-4.11.2</td>
       <td>158</td>
-      <td>Annotation</td>
-      <td>12</td>
+      <td>Class</td>
+      <td>115</td>
     </tr>
     <tr>
       <th>5</th>
       <td>axon-modelling-4.11.2</td>
       <td>158</td>
-      <td>Class</td>
-      <td>115</td>
+      <td>Interface</td>
+      <td>28</td>
     </tr>
     <tr>
       <th>6</th>
@@ -122,8 +122,8 @@ The whole table can be found in the CSV report `Number_of_types_per_artifact`.
       <th>7</th>
       <td>axon-modelling-4.11.2</td>
       <td>158</td>
-      <td>Interface</td>
-      <td>28</td>
+      <td>Annotation</td>
+      <td>12</td>
     </tr>
     <tr>
       <th>8</th>
@@ -150,15 +150,15 @@ The whole table can be found in the CSV report `Number_of_types_per_artifact`.
       <th>11</th>
       <td>axon-eventsourcing-4.11.2</td>
       <td>133</td>
-      <td>Interface</td>
-      <td>32</td>
+      <td>Class</td>
+      <td>98</td>
     </tr>
     <tr>
       <th>12</th>
       <td>axon-eventsourcing-4.11.2</td>
       <td>133</td>
-      <td>Class</td>
-      <td>98</td>
+      <td>Interface</td>
+      <td>32</td>
     </tr>
     <tr>
       <th>13</th>
@@ -178,15 +178,15 @@ The whole table can be found in the CSV report `Number_of_types_per_artifact`.
       <th>15</th>
       <td>axon-spring-boot-autoconfigure-4.11.2</td>
       <td>88</td>
-      <td>Class</td>
-      <td>82</td>
+      <td>Enum</td>
+      <td>2</td>
     </tr>
     <tr>
       <th>16</th>
       <td>axon-spring-boot-autoconfigure-4.11.2</td>
       <td>88</td>
-      <td>Enum</td>
-      <td>2</td>
+      <td>Class</td>
+      <td>82</td>
     </tr>
     <tr>
       <th>17</th>
@@ -206,29 +206,29 @@ The whole table can be found in the CSV report `Number_of_types_per_artifact`.
       <th>19</th>
       <td>axon-test-4.11.2</td>
       <td>87</td>
-      <td>Class</td>
-      <td>71</td>
+      <td>Interface</td>
+      <td>16</td>
     </tr>
     <tr>
       <th>20</th>
       <td>axon-test-4.11.2</td>
       <td>87</td>
-      <td>Interface</td>
-      <td>16</td>
+      <td>Class</td>
+      <td>71</td>
     </tr>
     <tr>
       <th>21</th>
       <td>axon-configuration-4.11.2</td>
       <td>42</td>
-      <td>Class</td>
-      <td>23</td>
+      <td>Interface</td>
+      <td>17</td>
     </tr>
     <tr>
       <th>22</th>
       <td>axon-configuration-4.11.2</td>
       <td>42</td>
-      <td>Interface</td>
-      <td>17</td>
+      <td>Class</td>
+      <td>23</td>
     </tr>
     <tr>
       <th>23</th>
@@ -548,12 +548,12 @@ The whole table can be found in the CSV report `Number_of_packages_per_artifact`
     </tr>
     <tr>
       <th>3</th>
-      <td>axon-eventsourcing-4.11.2</td>
+      <td>axon-spring-boot-autoconfigure-4.11.2</td>
       <td>9</td>
     </tr>
     <tr>
       <th>4</th>
-      <td>axon-spring-boot-autoconfigure-4.11.2</td>
+      <td>axon-eventsourcing-4.11.2</td>
       <td>9</td>
     </tr>
     <tr>
@@ -563,12 +563,12 @@ The whole table can be found in the CSV report `Number_of_packages_per_artifact`
     </tr>
     <tr>
       <th>6</th>
-      <td>axon-disruptor-4.11.2</td>
+      <td>axon-configuration-4.11.2</td>
       <td>1</td>
     </tr>
     <tr>
       <th>7</th>
-      <td>axon-configuration-4.11.2</td>
+      <td>axon-disruptor-4.11.2</td>
       <td>1</td>
     </tr>
     <tr>
