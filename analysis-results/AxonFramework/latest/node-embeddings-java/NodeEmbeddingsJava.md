@@ -138,6 +138,8 @@ This step takes the original node embeddings with a higher dimensionality, e.g. 
     --------------------------------------------------------------------------------
     TSNE(early_exaggeration=12, random_state=47, verbose=1)
     --------------------------------------------------------------------------------
+
+
     ===> Finding 90 nearest neighbors using exact search using euclidean distance...
        --> Time elapsed: 0.02 seconds
     ===> Calculating affinity matrix...
@@ -145,28 +147,28 @@ This step takes the original node embeddings with a higher dimensionality, e.g. 
     ===> Calculating PCA-based initialization...
        --> Time elapsed: 0.00 seconds
     ===> Running optimization with exaggeration=12.00, lr=9.67 for 250 iterations...
-    Iteration   50, KL divergence -0.4274, 50 iterations in 0.0420 sec
-    Iteration  100, KL divergence 1.2356, 50 iterations in 0.0116 sec
-    Iteration  150, KL divergence 1.2356, 50 iterations in 0.0103 sec
+    Iteration   50, KL divergence -0.5745, 50 iterations in 0.0423 sec
+    Iteration  100, KL divergence 1.2356, 50 iterations in 0.0114 sec
+    Iteration  150, KL divergence 1.2356, 50 iterations in 0.0104 sec
     Iteration  200, KL divergence 1.2356, 50 iterations in 0.0104 sec
-    Iteration  250, KL divergence 1.2356, 50 iterations in 0.0103 sec
-       --> Time elapsed: 0.08 seconds
+    Iteration  250, KL divergence 1.2356, 50 iterations in 0.0105 sec
+       --> Time elapsed: 0.09 seconds
     ===> Running optimization with exaggeration=1.00, lr=116.00 for 500 iterations...
-    Iteration   50, KL divergence 0.2023, 50 iterations in 0.0391 sec
+    Iteration   50, KL divergence 0.2207, 50 iterations in 0.0398 sec
 
 
-    Iteration  100, KL divergence 0.1678, 50 iterations in 0.0511 sec
-    Iteration  150, KL divergence 0.1626, 50 iterations in 0.0495 sec
-    Iteration  200, KL divergence 0.1612, 50 iterations in 0.0497 sec
-    Iteration  250, KL divergence 0.1608, 50 iterations in 0.0500 sec
-    Iteration  300, KL divergence 0.1606, 50 iterations in 0.0500 sec
+    Iteration  100, KL divergence 0.1829, 50 iterations in 0.0518 sec
+    Iteration  150, KL divergence 0.1697, 50 iterations in 0.0507 sec
+    Iteration  200, KL divergence 0.1676, 50 iterations in 0.0479 sec
+    Iteration  250, KL divergence 0.1644, 50 iterations in 0.0489 sec
+    Iteration  300, KL divergence 0.1650, 50 iterations in 0.0490 sec
 
 
-    Iteration  350, KL divergence 0.1608, 50 iterations in 0.0502 sec
-    Iteration  400, KL divergence 0.1609, 50 iterations in 0.0499 sec
-    Iteration  450, KL divergence 0.1607, 50 iterations in 0.0493 sec
-    Iteration  500, KL divergence 0.1607, 50 iterations in 0.0476 sec
-       --> Time elapsed: 0.49 seconds
+    Iteration  350, KL divergence 0.1650, 50 iterations in 0.0491 sec
+    Iteration  400, KL divergence 0.1649, 50 iterations in 0.0481 sec
+    Iteration  450, KL divergence 0.1652, 50 iterations in 0.0486 sec
+    Iteration  500, KL divergence 0.1649, 50 iterations in 0.0489 sec
+       --> Time elapsed: 0.48 seconds
 
 
 
@@ -194,8 +196,8 @@ This step takes the original node embeddings with a higher dimensionality, e.g. 
       <td>axon-spring-boot-autoconfigure-4.11.2</td>
       <td>0</td>
       <td>0.201382</td>
-      <td>-8.495718</td>
-      <td>1.313166</td>
+      <td>-8.545275</td>
+      <td>-0.152555</td>
     </tr>
     <tr>
       <th>1</th>
@@ -203,8 +205,8 @@ This step takes the original node embeddings with a higher dimensionality, e.g. 
       <td>axon-spring-boot-autoconfigure-4.11.2</td>
       <td>0</td>
       <td>0.151124</td>
-      <td>-7.925775</td>
-      <td>1.345398</td>
+      <td>-8.003035</td>
+      <td>-0.285281</td>
     </tr>
     <tr>
       <th>2</th>
@@ -212,8 +214,8 @@ This step takes the original node embeddings with a higher dimensionality, e.g. 
       <td>axon-spring-boot-autoconfigure-4.11.2</td>
       <td>0</td>
       <td>0.315542</td>
-      <td>-8.200430</td>
-      <td>2.100125</td>
+      <td>-8.404497</td>
+      <td>-0.988338</td>
     </tr>
     <tr>
       <th>3</th>
@@ -221,8 +223,8 @@ This step takes the original node embeddings with a higher dimensionality, e.g. 
       <td>axon-spring-boot-autoconfigure-4.11.2</td>
       <td>0</td>
       <td>0.150642</td>
-      <td>-7.113138</td>
-      <td>0.953050</td>
+      <td>-7.104880</td>
+      <td>-0.120401</td>
     </tr>
     <tr>
       <th>4</th>
@@ -230,8 +232,8 @@ This step takes the original node embeddings with a higher dimensionality, e.g. 
       <td>axon-spring-boot-autoconfigure-4.11.2</td>
       <td>0</td>
       <td>0.163421</td>
-      <td>-7.486787</td>
-      <td>2.260874</td>
+      <td>-7.731865</td>
+      <td>-1.271122</td>
     </tr>
   </tbody>
 </table>
@@ -329,29 +331,29 @@ This step takes the original node embeddings with a higher dimensionality, e.g. 
     ===> Calculating affinity matrix...
        --> Time elapsed: 0.00 seconds
     ===> Calculating PCA-based initialization...
-       --> Time elapsed: 0.01 seconds
+       --> Time elapsed: 0.00 seconds
     ===> Running optimization with exaggeration=12.00, lr=9.67 for 250 iterations...
-    Iteration   50, KL divergence -0.4309, 50 iterations in 0.0720 sec
-    Iteration  100, KL divergence 1.2305, 50 iterations in 0.0182 sec
-    Iteration  150, KL divergence 1.2305, 50 iterations in 0.0152 sec
-    Iteration  200, KL divergence 1.2305, 50 iterations in 0.0115 sec
-    Iteration  250, KL divergence 1.2305, 50 iterations in 0.0103 sec
+    Iteration   50, KL divergence -0.4223, 50 iterations in 0.0723 sec
+    Iteration  100, KL divergence 1.2305, 50 iterations in 0.0179 sec
+    Iteration  150, KL divergence 1.2305, 50 iterations in 0.0151 sec
+    Iteration  200, KL divergence 1.2305, 50 iterations in 0.0114 sec
+    Iteration  250, KL divergence 1.2305, 50 iterations in 0.0101 sec
        --> Time elapsed: 0.13 seconds
     ===> Running optimization with exaggeration=1.00, lr=116.00 for 500 iterations...
-    Iteration   50, KL divergence 0.5663, 50 iterations in 0.0397 sec
+    Iteration   50, KL divergence 0.5884, 50 iterations in 0.0380 sec
 
 
-    Iteration  100, KL divergence 0.5444, 50 iterations in 0.0545 sec
-    Iteration  150, KL divergence 0.5401, 50 iterations in 0.0526 sec
-    Iteration  200, KL divergence 0.5370, 50 iterations in 0.0494 sec
-    Iteration  250, KL divergence 0.5353, 50 iterations in 0.0485 sec
-    Iteration  300, KL divergence 0.5349, 50 iterations in 0.0487 sec
+    Iteration  100, KL divergence 0.5738, 50 iterations in 0.0533 sec
+    Iteration  150, KL divergence 0.5686, 50 iterations in 0.0500 sec
+    Iteration  200, KL divergence 0.5686, 50 iterations in 0.0497 sec
+    Iteration  250, KL divergence 0.5682, 50 iterations in 0.0497 sec
+    Iteration  300, KL divergence 0.5684, 50 iterations in 0.0494 sec
 
 
-    Iteration  350, KL divergence 0.5352, 50 iterations in 0.0503 sec
-    Iteration  400, KL divergence 0.5348, 50 iterations in 0.0501 sec
-    Iteration  450, KL divergence 0.5350, 50 iterations in 0.0491 sec
-    Iteration  500, KL divergence 0.5351, 50 iterations in 0.0486 sec
+    Iteration  350, KL divergence 0.5686, 50 iterations in 0.0506 sec
+    Iteration  400, KL divergence 0.5683, 50 iterations in 0.0499 sec
+    Iteration  450, KL divergence 0.5686, 50 iterations in 0.0495 sec
+    Iteration  500, KL divergence 0.5683, 50 iterations in 0.0498 sec
        --> Time elapsed: 0.49 seconds
 
 
@@ -380,8 +382,8 @@ This step takes the original node embeddings with a higher dimensionality, e.g. 
       <td>axon-spring-boot-autoconfigure-4.11.2</td>
       <td>0</td>
       <td>0.201382</td>
-      <td>-3.936573</td>
-      <td>6.677072</td>
+      <td>5.961523</td>
+      <td>7.078203</td>
     </tr>
     <tr>
       <th>1</th>
@@ -389,8 +391,8 @@ This step takes the original node embeddings with a higher dimensionality, e.g. 
       <td>axon-spring-boot-autoconfigure-4.11.2</td>
       <td>0</td>
       <td>0.151124</td>
-      <td>-3.552166</td>
-      <td>6.456547</td>
+      <td>5.725520</td>
+      <td>6.690825</td>
     </tr>
     <tr>
       <th>2</th>
@@ -398,8 +400,8 @@ This step takes the original node embeddings with a higher dimensionality, e.g. 
       <td>axon-spring-boot-autoconfigure-4.11.2</td>
       <td>0</td>
       <td>0.315542</td>
-      <td>-1.906226</td>
-      <td>-5.918128</td>
+      <td>-0.010431</td>
+      <td>-5.180022</td>
     </tr>
     <tr>
       <th>3</th>
@@ -407,8 +409,8 @@ This step takes the original node embeddings with a higher dimensionality, e.g. 
       <td>axon-spring-boot-autoconfigure-4.11.2</td>
       <td>0</td>
       <td>0.150642</td>
-      <td>-2.684055</td>
-      <td>6.109161</td>
+      <td>5.146779</td>
+      <td>5.978597</td>
     </tr>
     <tr>
       <th>4</th>
@@ -416,8 +418,8 @@ This step takes the original node embeddings with a higher dimensionality, e.g. 
       <td>axon-spring-boot-autoconfigure-4.11.2</td>
       <td>0</td>
       <td>0.163421</td>
-      <td>4.921308</td>
-      <td>5.962278</td>
+      <td>0.779600</td>
+      <td>7.943365</td>
     </tr>
   </tbody>
 </table>
@@ -460,7 +462,7 @@ This step takes the original node embeddings with a higher dimensionality, e.g. 
       <td>axon-spring-boot-autoconfigure-4.11.2</td>
       <td>0</td>
       <td>0.201382</td>
-      <td>[0.43671220541000366, -0.027180898934602737, -...</td>
+      <td>[0.5466268062591553, -0.3162016272544861, 0.13...</td>
     </tr>
     <tr>
       <th>1</th>
@@ -469,7 +471,7 @@ This step takes the original node embeddings with a higher dimensionality, e.g. 
       <td>axon-spring-boot-autoconfigure-4.11.2</td>
       <td>0</td>
       <td>0.151124</td>
-      <td>[0.3683949410915375, -0.016646070405840874, -0...</td>
+      <td>[0.49506834149360657, -0.28076979517936707, 0....</td>
     </tr>
     <tr>
       <th>2</th>
@@ -478,7 +480,7 @@ This step takes the original node embeddings with a higher dimensionality, e.g. 
       <td>axon-spring-boot-autoconfigure-4.11.2</td>
       <td>0</td>
       <td>0.315542</td>
-      <td>[0.457503080368042, -0.1935436874628067, -0.25...</td>
+      <td>[0.15438449382781982, -0.5491898655891418, 0.4...</td>
     </tr>
     <tr>
       <th>3</th>
@@ -487,7 +489,7 @@ This step takes the original node embeddings with a higher dimensionality, e.g. 
       <td>axon-spring-boot-autoconfigure-4.11.2</td>
       <td>0</td>
       <td>0.150642</td>
-      <td>[0.5921720862388611, 0.13326285779476166, -0.4...</td>
+      <td>[0.5832979679107666, 0.21572576463222504, -0.0...</td>
     </tr>
     <tr>
       <th>4</th>
@@ -496,7 +498,7 @@ This step takes the original node embeddings with a higher dimensionality, e.g. 
       <td>axon-spring-boot-autoconfigure-4.11.2</td>
       <td>0</td>
       <td>0.163421</td>
-      <td>[0.5786026120185852, -0.24810580909252167, -0....</td>
+      <td>[0.12363628298044205, -0.4197278618812561, 0.3...</td>
     </tr>
   </tbody>
 </table>
@@ -513,27 +515,27 @@ This step takes the original node embeddings with a higher dimensionality, e.g. 
     ===> Calculating PCA-based initialization...
        --> Time elapsed: 0.00 seconds
     ===> Running optimization with exaggeration=12.00, lr=9.67 for 250 iterations...
-    Iteration   50, KL divergence -0.5918, 50 iterations in 0.0475 sec
-    Iteration  100, KL divergence 1.1808, 50 iterations in 0.0120 sec
-    Iteration  150, KL divergence 1.1808, 50 iterations in 0.0104 sec
-    Iteration  200, KL divergence 1.1808, 50 iterations in 0.0104 sec
-    Iteration  250, KL divergence 1.1808, 50 iterations in 0.0105 sec
+    Iteration   50, KL divergence -0.7882, 50 iterations in 0.0465 sec
+    Iteration  100, KL divergence 1.1950, 50 iterations in 0.0117 sec
+    Iteration  150, KL divergence 1.1950, 50 iterations in 0.0104 sec
+    Iteration  200, KL divergence 1.1950, 50 iterations in 0.0104 sec
+    Iteration  250, KL divergence 1.1950, 50 iterations in 0.0103 sec
        --> Time elapsed: 0.09 seconds
     ===> Running optimization with exaggeration=1.00, lr=116.00 for 500 iterations...
-    Iteration   50, KL divergence 0.3082, 50 iterations in 0.0397 sec
-    Iteration  100, KL divergence 0.2793, 50 iterations in 0.0503 sec
+    Iteration   50, KL divergence 0.3042, 50 iterations in 0.0396 sec
+    Iteration  100, KL divergence 0.2948, 50 iterations in 0.0532 sec
 
 
-    Iteration  150, KL divergence 0.2741, 50 iterations in 0.0536 sec
-    Iteration  200, KL divergence 0.2734, 50 iterations in 0.0538 sec
-    Iteration  250, KL divergence 0.2737, 50 iterations in 0.0533 sec
-    Iteration  300, KL divergence 0.2740, 50 iterations in 0.0534 sec
+    Iteration  150, KL divergence 0.2918, 50 iterations in 0.0542 sec
+    Iteration  200, KL divergence 0.2911, 50 iterations in 0.0525 sec
+    Iteration  250, KL divergence 0.2902, 50 iterations in 0.0526 sec
+    Iteration  300, KL divergence 0.2837, 50 iterations in 0.0526 sec
 
 
-    Iteration  350, KL divergence 0.2736, 50 iterations in 0.0542 sec
-    Iteration  400, KL divergence 0.2733, 50 iterations in 0.0526 sec
-    Iteration  450, KL divergence 0.2731, 50 iterations in 0.0515 sec
-    Iteration  500, KL divergence 0.2732, 50 iterations in 0.0524 sec
+    Iteration  350, KL divergence 0.2837, 50 iterations in 0.0542 sec
+    Iteration  400, KL divergence 0.2839, 50 iterations in 0.0537 sec
+    Iteration  450, KL divergence 0.2838, 50 iterations in 0.0529 sec
+    Iteration  500, KL divergence 0.2838, 50 iterations in 0.0530 sec
        --> Time elapsed: 0.52 seconds
 
 
@@ -562,8 +564,8 @@ This step takes the original node embeddings with a higher dimensionality, e.g. 
       <td>axon-spring-boot-autoconfigure-4.11.2</td>
       <td>0</td>
       <td>0.201382</td>
-      <td>-7.577709</td>
-      <td>-2.118664</td>
+      <td>8.555041</td>
+      <td>-0.642031</td>
     </tr>
     <tr>
       <th>1</th>
@@ -571,8 +573,8 @@ This step takes the original node embeddings with a higher dimensionality, e.g. 
       <td>axon-spring-boot-autoconfigure-4.11.2</td>
       <td>0</td>
       <td>0.151124</td>
-      <td>-7.558432</td>
-      <td>-2.118763</td>
+      <td>8.549654</td>
+      <td>-0.663054</td>
     </tr>
     <tr>
       <th>2</th>
@@ -580,8 +582,8 @@ This step takes the original node embeddings with a higher dimensionality, e.g. 
       <td>axon-spring-boot-autoconfigure-4.11.2</td>
       <td>0</td>
       <td>0.315542</td>
-      <td>-5.986194</td>
-      <td>-3.159154</td>
+      <td>6.866339</td>
+      <td>-1.888562</td>
     </tr>
     <tr>
       <th>3</th>
@@ -589,8 +591,8 @@ This step takes the original node embeddings with a higher dimensionality, e.g. 
       <td>axon-spring-boot-autoconfigure-4.11.2</td>
       <td>0</td>
       <td>0.150642</td>
-      <td>-9.569794</td>
-      <td>-4.034490</td>
+      <td>10.403607</td>
+      <td>-3.671457</td>
     </tr>
     <tr>
       <th>4</th>
@@ -598,8 +600,8 @@ This step takes the original node embeddings with a higher dimensionality, e.g. 
       <td>axon-spring-boot-autoconfigure-4.11.2</td>
       <td>0</td>
       <td>0.163421</td>
-      <td>-5.108754</td>
-      <td>-2.328657</td>
+      <td>5.963544</td>
+      <td>-0.899982</td>
     </tr>
   </tbody>
 </table>

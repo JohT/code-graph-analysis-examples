@@ -1,0 +1,4 @@
+"codeUnitName","shortCodeUnitName","projectName","betweenness","pageRank","degree","incomingDependencies","outgoingDependencies","Source Cypher File: /home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/domains/anomaly-detection/queries/AnomalyDetectionHiddenBridgeNodes.cypher"
+"org.axonframework.config.AggregateConfigurer","AggregateConfigurer","axon-configuration-4.11.2",4649.439754689754,0.15392179002585363,42,1,41,""
+"org.axonframework.springboot.autoconfig.EventProcessingAutoConfiguration","EventProcessingAutoConfiguration","axon-spring-boot-autoconfigure-4.11.2",2094.6916666666666,0.1511385097639365,3,1,2,""
+"org.axonframework.config.DefaultConfigurer$1","DefaultConfigurer$1","axon-configuration-4.11.2",600.9785714285712,0.1543690191840353,3,2,1,""
