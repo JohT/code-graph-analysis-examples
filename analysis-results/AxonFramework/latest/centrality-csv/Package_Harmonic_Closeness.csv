@@ -25,7 +25,7 @@
 "org.axonframework.commandhandling.callbacks","callbacks","centralityHarmonic",0.30980392156862746,""
 "org.axonframework.common.property","property","centralityHarmonic",0.3089635854341737,""
 "org.axonframework.messaging.responsetypes","responsetypes","centralityHarmonic",0.2950980392156862,""
-"org.axonframework.queryhandling.registration","registration","centralityHarmonic",0.2747899159663866,""
+"org.axonframework.queryhandling.registration","registration","centralityHarmonic",0.2747899159663865,""
 "org.axonframework.serialization.upcasting","upcasting","centralityHarmonic",0.2662464985994398,""
 "org.axonframework.common.jpa","jpa","centralityHarmonic",0.18207282913165265,""
 "org.axonframework.modelling.command","command","centralityHarmonic",0.1722689075630252,""

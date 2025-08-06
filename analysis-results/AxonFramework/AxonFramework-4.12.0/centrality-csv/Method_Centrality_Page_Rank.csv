@@ -22,7 +22,7 @@
 "org.axonframework.common.AxonNonTransientException: boolean isCauseOf(java.lang.Throwable)","isCauseOf","centralityPageRank",1.0941158170403193,""
 "org.axonframework.common.jdbc.JdbcUtils: void closeQuietly(java.sql.Statement)","closeQuietly","centralityPageRank",1.0807566406250002,""
 "org.axonframework.eventsourcing.eventstore.DomainEventStream: org.axonframework.eventsourcing.eventstore.DomainEventStream of(java.util.stream.Stream,java.util.function.Supplier)","of","centralityPageRank",1.031184375,""
-"org.axonframework.common.io.IOUtils: void closeQuietly(java.lang.AutoCloseable)","closeQuietly","centralityPageRank",1.023375,""
+"org.axonframework.common.io.IOUtils: void closeQuietly(java.lang.AutoCloseable)","closeQuietly","centralityPageRank",1.0233750000000001,""
 "org.axonframework.messaging.MetaData: boolean equals(java.lang.Object)","equals","centralityPageRank",1.0138125000000002,""
 "org.axonframework.common.annotation.AnnotationUtils: boolean isAnnotatedWith(java.lang.Class,java.lang.Class,java.util.Set,java.util.Set)","isAnnotatedWith","centralityPageRank",0.9997042353362876,""
 "org.axonframework.eventhandling.ReplayToken: org.axonframework.eventhandling.TrackingToken createReplayToken(org.axonframework.eventhandling.TrackingToken,org.axonframework.eventhandling.TrackingToken,java.lang.Object)","createReplayToken","centralityPageRank",0.9997042353362876,""

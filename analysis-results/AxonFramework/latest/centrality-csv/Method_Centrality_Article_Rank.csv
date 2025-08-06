@@ -3,7 +3,7 @@
 "org.axonframework.common.BuilderUtils: void assertThat(java.lang.Object,java.util.function.Predicate,java.lang.String)","assertThat","centralityArticleRank",12.313358888905588,""
 "org.axonframework.common.Assert: void assertThat(java.lang.Object,java.util.function.Predicate,java.util.function.Supplier)","assertThat","centralityArticleRank",5.163705432091729,""
 "org.axonframework.common.BuilderUtils: void assertNonEmpty(java.lang.String,java.lang.String)","assertNonEmpty","centralityArticleRank",2.610938639460945,""
-"org.axonframework.common.Assert: void state(boolean,java.util.function.Supplier)","state","centralityArticleRank",1.8856574547436549,""
+"org.axonframework.common.Assert: void state(boolean,java.util.function.Supplier)","state","centralityArticleRank",1.8856574547436546,""
 "org.axonframework.common.jdbc.JdbcUtils: void closeQuietly(java.sql.Connection)","closeQuietly","centralityArticleRank",1.726971678212644,""
 "org.axonframework.config.Component: void update(java.util.function.Function)","update","centralityArticleRank",1.6640971299926202,""
 "org.axonframework.common.Assert: void isTrue(boolean,java.util.function.Supplier)","isTrue","centralityArticleRank",1.5530988551299365,""
