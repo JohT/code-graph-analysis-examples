@@ -374,9 +374,12 @@ Image  | Analysis |
 | [MethodMetricsJava_13_1.png](./AxonFramework/AxonFramework-4.12.0/method-metrics-java/MethodMetricsJava_files/MethodMetricsJava_13_1.png) | AxonFramework-4.12.0 |
 | [MethodMetricsJava_25_1.png](./AxonFramework/AxonFramework-4.12.0/method-metrics-java/MethodMetricsJava_files/MethodMetricsJava_25_1.png) | AxonFramework-4.12.0 |
 | [NodeEmbeddingsJava_19_0.png](./AxonFramework/AxonFramework-4.12.0/node-embeddings-java/NodeEmbeddingsJava_files/NodeEmbeddingsJava_19_0.png) | AxonFramework-4.12.0 |
+| [NodeEmbeddingsJava_21_0.png](./AxonFramework/AxonFramework-4.12.0/node-embeddings-java/NodeEmbeddingsJava_files/NodeEmbeddingsJava_21_0.png) | AxonFramework-4.12.0 |
 | [NodeEmbeddingsJava_21_9.png](./AxonFramework/AxonFramework-4.12.0/node-embeddings-java/NodeEmbeddingsJava_files/NodeEmbeddingsJava_21_9.png) | AxonFramework-4.12.0 |
 | [NodeEmbeddingsJava_23_11.png](./AxonFramework/AxonFramework-4.12.0/node-embeddings-java/NodeEmbeddingsJava_files/NodeEmbeddingsJava_23_11.png) | AxonFramework-4.12.0 |
+| [NodeEmbeddingsJava_23_12.png](./AxonFramework/AxonFramework-4.12.0/node-embeddings-java/NodeEmbeddingsJava_files/NodeEmbeddingsJava_23_12.png) | AxonFramework-4.12.0 |
 | [NodeEmbeddingsJava_23_9.png](./AxonFramework/AxonFramework-4.12.0/node-embeddings-java/NodeEmbeddingsJava_files/NodeEmbeddingsJava_23_9.png) | AxonFramework-4.12.0 |
+| [NodeEmbeddingsJava_25_10.png](./AxonFramework/AxonFramework-4.12.0/node-embeddings-java/NodeEmbeddingsJava_files/NodeEmbeddingsJava_25_10.png) | AxonFramework-4.12.0 |
 | [ObjectOrientedDesignMetricsJava_39_0.png](./AxonFramework/AxonFramework-4.12.0/object-oriented-design-metrics-java/ObjectOrientedDesignMetricsJava_files/ObjectOrientedDesignMetricsJava_39_0.png) | AxonFramework-4.12.0 |
 | [ObjectOrientedDesignMetricsJava_41_0.png](./AxonFramework/AxonFramework-4.12.0/object-oriented-design-metrics-java/ObjectOrientedDesignMetricsJava_files/ObjectOrientedDesignMetricsJava_41_0.png) | AxonFramework-4.12.0 |
 | [OverviewGeneral_14_1.png](./AxonFramework/AxonFramework-4.12.0/overview-general/OverviewGeneral_files/OverviewGeneral_14_1.png) | AxonFramework-4.12.0 |
@@ -544,9 +547,12 @@ Image  | Analysis |
 | [MethodMetricsJava_13_1.png](./AxonFramework/latest/method-metrics-java/MethodMetricsJava_files/MethodMetricsJava_13_1.png) | latest |
 | [MethodMetricsJava_25_1.png](./AxonFramework/latest/method-metrics-java/MethodMetricsJava_files/MethodMetricsJava_25_1.png) | latest |
 | [NodeEmbeddingsJava_19_0.png](./AxonFramework/latest/node-embeddings-java/NodeEmbeddingsJava_files/NodeEmbeddingsJava_19_0.png) | latest |
+| [NodeEmbeddingsJava_21_0.png](./AxonFramework/latest/node-embeddings-java/NodeEmbeddingsJava_files/NodeEmbeddingsJava_21_0.png) | latest |
 | [NodeEmbeddingsJava_21_9.png](./AxonFramework/latest/node-embeddings-java/NodeEmbeddingsJava_files/NodeEmbeddingsJava_21_9.png) | latest |
 | [NodeEmbeddingsJava_23_11.png](./AxonFramework/latest/node-embeddings-java/NodeEmbeddingsJava_files/NodeEmbeddingsJava_23_11.png) | latest |
+| [NodeEmbeddingsJava_23_12.png](./AxonFramework/latest/node-embeddings-java/NodeEmbeddingsJava_files/NodeEmbeddingsJava_23_12.png) | latest |
 | [NodeEmbeddingsJava_23_9.png](./AxonFramework/latest/node-embeddings-java/NodeEmbeddingsJava_files/NodeEmbeddingsJava_23_9.png) | latest |
+| [NodeEmbeddingsJava_25_10.png](./AxonFramework/latest/node-embeddings-java/NodeEmbeddingsJava_files/NodeEmbeddingsJava_25_10.png) | latest |
 | [ObjectOrientedDesignMetricsJava_39_0.png](./AxonFramework/latest/object-oriented-design-metrics-java/ObjectOrientedDesignMetricsJava_files/ObjectOrientedDesignMetricsJava_39_0.png) | latest |
 | [ObjectOrientedDesignMetricsJava_41_0.png](./AxonFramework/latest/object-oriented-design-metrics-java/ObjectOrientedDesignMetricsJava_files/ObjectOrientedDesignMetricsJava_41_0.png) | latest |
 | [OverviewGeneral_14_1.png](./AxonFramework/latest/overview-general/OverviewGeneral_files/OverviewGeneral_14_1.png) | latest |
