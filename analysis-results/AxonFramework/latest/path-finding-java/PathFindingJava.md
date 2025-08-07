@@ -678,7 +678,7 @@ In this section we'll focus only on pairs of nodes that both belong to the same 
       <td>139</td>
       <td>34</td>
       <td>23</td>
-      <td>[/org/axonframework/lifecycle -&gt; /org/axonframework/commandhandling, /org/axonframework/eventhandling/gateway -&gt; /org/axonframework/commandhandling/callbacks, /org/axonframework/eventhandling/interceptors -&gt; /org/axonframework/commandhandling/callbacks, /org/axonframework/eventhandling/replay -&gt;...</td>
+      <td>[/org/axonframework/common/jdbc -&gt; /org/axonframework/commandhandling/callbacks, /org/axonframework/deadline/annotation -&gt; /org/axonframework/commandhandling/callbacks, /org/axonframework/eventhandling/async -&gt; /org/axonframework/commandhandling/callbacks, /org/axonframework/eventhandling/deadle...</td>
       <td>[axon-messaging-4.12.0 -&gt; axon-messaging-4.12.0]</td>
       <td>[]</td>
     </tr>
@@ -697,7 +697,7 @@ In this section we'll focus only on pairs of nodes that both belong to the same 
       <td>13</td>
       <td>4</td>
       <td>9</td>
-      <td>[/org/axonframework/updates -&gt; /org/axonframework/commandhandling, /org/axonframework/lifecycle -&gt; /org/axonframework/commandhandling/callbacks, /org/axonframework/updates -&gt; /org/axonframework/common/property, /org/axonframework/updates -&gt; /org/axonframework/deadline]</td>
+      <td>[/org/axonframework/commandhandling/callbacks -&gt; /org/axonframework/common/property, /org/axonframework/commandhandling/distributed/commandfilter -&gt; /org/axonframework/common/property, /org/axonframework/commandhandling/callbacks -&gt; /org/axonframework/serialization/upcasting, /org/axonframework/...</td>
       <td>[axon-messaging-4.12.0 -&gt; axon-messaging-4.12.0]</td>
       <td>[]</td>
     </tr>

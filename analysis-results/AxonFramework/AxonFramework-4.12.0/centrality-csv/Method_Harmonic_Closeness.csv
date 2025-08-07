@@ -1,6 +1,6 @@
 "codeUnitName","shortCodeUnitName","propertyName","propertyValue","Source Cypher File: Dependencies_Projection/Dependencies_8_Stream_Mutated_Value_Descending.cypher"
 "org.axonframework.common.BuilderUtils: void assertNonNull(java.lang.Object,java.lang.String)","assertNonNull","centralityHarmonic",0.2709735307312696,""
-"org.axonframework.common.BuilderUtils: void assertThat(java.lang.Object,java.util.function.Predicate,java.lang.String)","assertThat","centralityHarmonic",0.1781067743382683,""
+"org.axonframework.common.BuilderUtils: void assertThat(java.lang.Object,java.util.function.Predicate,java.lang.String)","assertThat","centralityHarmonic",0.17810677433826833,""
 "org.axonframework.common.Assert: void assertThat(java.lang.Object,java.util.function.Predicate,java.util.function.Supplier)","assertThat","centralityHarmonic",0.12108568864961863,""
 "org.axonframework.common.BuilderUtils: void assertNonEmpty(java.lang.String,java.lang.String)","assertNonEmpty","centralityHarmonic",0.02860026917900404,""
 "org.axonframework.common.Assert: void state(boolean,java.util.function.Supplier)","state","centralityHarmonic",0.02388963660834455,""
