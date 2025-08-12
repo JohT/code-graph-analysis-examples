@@ -70,15 +70,15 @@
     </tr>
     <tr>
       <th>7</th>
-      <td>examples</td>
+      <td>packages</td>
     </tr>
     <tr>
       <th>8</th>
-      <td>navigation</td>
+      <td>router</td>
     </tr>
     <tr>
       <th>9</th>
-      <td>blocking</td>
+      <td>react</td>
     </tr>
   </tbody>
 </table>
