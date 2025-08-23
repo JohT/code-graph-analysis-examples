@@ -431,6 +431,7 @@ Image  | Analysis |
 | [ExternalDependenciesJava_76_1.png](./AxonFramework/AxonFramework-4.12.1/external-dependencies-java/ExternalDependenciesJava_files/ExternalDependenciesJava_76_1.png) | AxonFramework-4.12.1 |
 | [ExternalDependenciesJava_98_1.png](./AxonFramework/AxonFramework-4.12.1/external-dependencies-java/ExternalDependenciesJava_files/ExternalDependenciesJava_98_1.png) | AxonFramework-4.12.1 |
 | [GitHistoryGeneral_69_0.png](./AxonFramework/AxonFramework-4.12.1/git-history-general/GitHistoryGeneral_files/GitHistoryGeneral_69_0.png) | AxonFramework-4.12.1 |
+| [GitHistoryGeneral_95_0.png](./AxonFramework/AxonFramework-4.12.1/git-history-general/GitHistoryGeneral_files/GitHistoryGeneral_95_0.png) | AxonFramework-4.12.1 |
 | [MethodMetricsJava_13_1.png](./AxonFramework/AxonFramework-4.12.1/method-metrics-java/MethodMetricsJava_files/MethodMetricsJava_13_1.png) | AxonFramework-4.12.1 |
 | [MethodMetricsJava_25_1.png](./AxonFramework/AxonFramework-4.12.1/method-metrics-java/MethodMetricsJava_files/MethodMetricsJava_25_1.png) | AxonFramework-4.12.1 |
 | [NodeEmbeddingsJava_21_0.png](./AxonFramework/AxonFramework-4.12.1/node-embeddings-java/NodeEmbeddingsJava_files/NodeEmbeddingsJava_21_0.png) | AxonFramework-4.12.1 |
@@ -602,6 +603,7 @@ Image  | Analysis |
 | [ExternalDependenciesJava_76_1.png](./AxonFramework/latest/external-dependencies-java/ExternalDependenciesJava_files/ExternalDependenciesJava_76_1.png) | latest |
 | [ExternalDependenciesJava_98_1.png](./AxonFramework/latest/external-dependencies-java/ExternalDependenciesJava_files/ExternalDependenciesJava_98_1.png) | latest |
 | [GitHistoryGeneral_69_0.png](./AxonFramework/latest/git-history-general/GitHistoryGeneral_files/GitHistoryGeneral_69_0.png) | latest |
+| [GitHistoryGeneral_95_0.png](./AxonFramework/latest/git-history-general/GitHistoryGeneral_files/GitHistoryGeneral_95_0.png) | latest |
 | [MethodMetricsJava_13_1.png](./AxonFramework/latest/method-metrics-java/MethodMetricsJava_files/MethodMetricsJava_13_1.png) | latest |
 | [MethodMetricsJava_25_1.png](./AxonFramework/latest/method-metrics-java/MethodMetricsJava_files/MethodMetricsJava_25_1.png) | latest |
 | [NodeEmbeddingsJava_21_0.png](./AxonFramework/latest/node-embeddings-java/NodeEmbeddingsJava_files/NodeEmbeddingsJava_21_0.png) | latest |
