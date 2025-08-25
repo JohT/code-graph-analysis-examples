@@ -48,9 +48,9 @@
       <td>25.313253</td>
       <td>19.686747</td>
       <td>130.457831</td>
-      <td>583.530120</td>
-      <td>997.626506</td>
-      <td>584.445783</td>
+      <td>585.530120</td>
+      <td>999.626506</td>
+      <td>586.445783</td>
     </tr>
     <tr>
       <th>std</th>
@@ -66,45 +66,45 @@
       <td>1.000000</td>
       <td>2.000000</td>
       <td>3.000000</td>
-      <td>95.000000</td>
-      <td>115.000000</td>
-      <td>94.000000</td>
+      <td>97.000000</td>
+      <td>117.000000</td>
+      <td>96.000000</td>
     </tr>
     <tr>
       <th>25%</th>
       <td>4.000000</td>
       <td>4.000000</td>
       <td>11.000000</td>
-      <td>325.000000</td>
-      <td>723.000000</td>
-      <td>324.000000</td>
+      <td>327.000000</td>
+      <td>725.000000</td>
+      <td>326.000000</td>
     </tr>
     <tr>
       <th>50%</th>
       <td>10.000000</td>
       <td>6.000000</td>
       <td>26.000000</td>
-      <td>710.000000</td>
-      <td>1078.000000</td>
-      <td>709.000000</td>
+      <td>712.000000</td>
+      <td>1080.000000</td>
+      <td>711.000000</td>
     </tr>
     <tr>
       <th>75%</th>
       <td>13.000000</td>
       <td>13.500000</td>
       <td>84.000000</td>
-      <td>809.000000</td>
-      <td>1402.000000</td>
-      <td>808.000000</td>
+      <td>811.000000</td>
+      <td>1404.000000</td>
+      <td>810.000000</td>
     </tr>
     <tr>
       <th>max</th>
       <td>634.000000</td>
       <td>344.000000</td>
       <td>2000.000000</td>
-      <td>1443.000000</td>
-      <td>1499.000000</td>
-      <td>1442.000000</td>
+      <td>1445.000000</td>
+      <td>1501.000000</td>
+      <td>1444.000000</td>
     </tr>
   </tbody>
 </table>
@@ -152,9 +152,9 @@
       <td>Logan McAnsh</td>
       <td>Michael Jackson</td>
       <td>4</td>
-      <td>1402</td>
-      <td>1402</td>
-      <td>1402</td>
+      <td>1404</td>
+      <td>1404</td>
+      <td>1404</td>
       <td>2021-10-21</td>
       <td>2021-10-20</td>
       <td>2021-10-20</td>
@@ -172,9 +172,9 @@
       <td>Ayush C</td>
       <td>Brooks Lybrand</td>
       <td>26</td>
-      <td>425</td>
-      <td>1240</td>
-      <td>424</td>
+      <td>427</td>
+      <td>1242</td>
+      <td>426</td>
       <td>2024-06-24</td>
       <td>2022-03-31</td>
       <td>2024-06-24</td>
@@ -192,9 +192,9 @@
       <td>Jon Jensen</td>
       <td>Matt Brophy</td>
       <td>3</td>
-      <td>786</td>
-      <td>800</td>
-      <td>800</td>
+      <td>788</td>
+      <td>802</td>
+      <td>802</td>
       <td>2023-06-29</td>
       <td>2023-06-14</td>
       <td>2023-06-14</td>
@@ -212,9 +212,9 @@
       <td>Chance Strickland</td>
       <td>Michael Jackson</td>
       <td>6</td>
-      <td>1443</td>
-      <td>1499</td>
-      <td>1442</td>
+      <td>1445</td>
+      <td>1501</td>
+      <td>1444</td>
       <td>2021-09-10</td>
       <td>2021-07-15</td>
       <td>2021-09-10</td>
@@ -232,9 +232,9 @@
       <td>Chance Strickland</td>
       <td>Mark Dalgleish</td>
       <td>10</td>
-      <td>487</td>
-      <td>519</td>
-      <td>519</td>
+      <td>489</td>
+      <td>521</td>
+      <td>521</td>
       <td>2024-04-23</td>
       <td>2024-03-21</td>
       <td>2024-03-21</td>
@@ -252,9 +252,9 @@
       <td>Chance Strickland</td>
       <td>Matt Brophy</td>
       <td>10</td>
-      <td>487</td>
-      <td>1165</td>
-      <td>486</td>
+      <td>489</td>
+      <td>1167</td>
+      <td>488</td>
       <td>2024-04-23</td>
       <td>2022-06-14</td>
       <td>2024-04-23</td>
@@ -272,9 +272,9 @@
       <td>Matt Brophy</td>
       <td>Brooks Lybrand</td>
       <td>16</td>
-      <td>261</td>
-      <td>449</td>
-      <td>261</td>
+      <td>263</td>
+      <td>451</td>
+      <td>263</td>
       <td>2024-12-05</td>
       <td>2024-05-30</td>
       <td>2024-12-05</td>
@@ -292,9 +292,9 @@
       <td>Logan McAnsh</td>
       <td>Matt Brophy</td>
       <td>7</td>
-      <td>809</td>
-      <td>1402</td>
-      <td>808</td>
+      <td>811</td>
+      <td>1404</td>
+      <td>810</td>
       <td>2023-06-06</td>
       <td>2021-10-21</td>
       <td>2023-06-06</td>
@@ -312,9 +312,9 @@
       <td>Chance Strickland</td>
       <td>Matt Brophy</td>
       <td>25</td>
-      <td>310</td>
-      <td>954</td>
-      <td>309</td>
+      <td>312</td>
+      <td>956</td>
+      <td>311</td>
       <td>2024-10-17</td>
       <td>2023-01-11</td>
       <td>2024-10-17</td>
@@ -332,9 +332,9 @@
       <td>Chance Strickland</td>
       <td>Matt Brophy</td>
       <td>15</td>
-      <td>646</td>
-      <td>952</td>
-      <td>645</td>
+      <td>648</td>
+      <td>954</td>
+      <td>647</td>
       <td>2023-11-16</td>
       <td>2023-01-13</td>
       <td>2023-11-16</td>
@@ -352,9 +352,9 @@
       <td>Matt Brophy</td>
       <td>Pedro Cattori</td>
       <td>9</td>
-      <td>940</td>
-      <td>946</td>
-      <td>946</td>
+      <td>942</td>
+      <td>948</td>
+      <td>948</td>
       <td>2023-01-26</td>
       <td>2023-01-19</td>
       <td>2023-01-19</td>
@@ -372,9 +372,9 @@
       <td>Matt Brophy</td>
       <td>Jacob Ebey</td>
       <td>9</td>
-      <td>487</td>
-      <td>529</td>
-      <td>529</td>
+      <td>489</td>
+      <td>531</td>
+      <td>531</td>
       <td>2024-04-23</td>
       <td>2024-03-11</td>
       <td>2024-03-11</td>
@@ -392,9 +392,9 @@
       <td>Chance Strickland</td>
       <td>Michael Jackson</td>
       <td>18</td>
-      <td>809</td>
-      <td>1460</td>
-      <td>808</td>
+      <td>811</td>
+      <td>1462</td>
+      <td>810</td>
       <td>2023-06-06</td>
       <td>2021-08-23</td>
       <td>2023-06-06</td>
@@ -412,9 +412,9 @@
       <td>Logan McAnsh</td>
       <td>Matt Brophy</td>
       <td>11</td>
-      <td>809</td>
-      <td>1415</td>
-      <td>808</td>
+      <td>811</td>
+      <td>1417</td>
+      <td>810</td>
       <td>2023-06-06</td>
       <td>2021-10-07</td>
       <td>2023-06-06</td>
@@ -432,9 +432,9 @@
       <td>Logan McAnsh</td>
       <td>Chance Strickland</td>
       <td>18</td>
-      <td>809</td>
-      <td>1402</td>
-      <td>808</td>
+      <td>811</td>
+      <td>1404</td>
+      <td>810</td>
       <td>2023-06-06</td>
       <td>2021-10-20</td>
       <td>2023-06-06</td>
@@ -452,9 +452,9 @@
       <td>Logan McAnsh</td>
       <td>Michael Jackson</td>
       <td>9</td>
-      <td>809</td>
-      <td>1400</td>
-      <td>808</td>
+      <td>811</td>
+      <td>1402</td>
+      <td>810</td>
       <td>2023-06-06</td>
       <td>2021-10-22</td>
       <td>2023-06-06</td>
@@ -472,9 +472,9 @@
       <td>Logan McAnsh</td>
       <td>Michael Jackson</td>
       <td>11</td>
-      <td>809</td>
-      <td>1401</td>
-      <td>808</td>
+      <td>811</td>
+      <td>1403</td>
+      <td>810</td>
       <td>2023-06-06</td>
       <td>2021-10-21</td>
       <td>2023-06-06</td>
@@ -492,9 +492,9 @@
       <td>Matt Brophy</td>
       <td>Pedro Cattori</td>
       <td>12</td>
-      <td>809</td>
-      <td>1079</td>
-      <td>808</td>
+      <td>811</td>
+      <td>1081</td>
+      <td>810</td>
       <td>2023-06-06</td>
       <td>2022-09-08</td>
       <td>2023-06-06</td>
@@ -512,9 +512,9 @@
       <td>Logan McAnsh</td>
       <td>Chance Strickland</td>
       <td>13</td>
-      <td>809</td>
-      <td>1417</td>
-      <td>808</td>
+      <td>811</td>
+      <td>1419</td>
+      <td>810</td>
       <td>2023-06-06</td>
       <td>2021-10-05</td>
       <td>2023-06-06</td>
@@ -532,9 +532,9 @@
       <td>Chance Strickland</td>
       <td>Matt Brophy</td>
       <td>14</td>
-      <td>940</td>
-      <td>1449</td>
-      <td>939</td>
+      <td>942</td>
+      <td>1451</td>
+      <td>941</td>
       <td>2023-01-26</td>
       <td>2021-09-03</td>
       <td>2023-01-26</td>
@@ -552,9 +552,9 @@
       <td>Matt Brophy</td>
       <td>Ayush C</td>
       <td>196</td>
-      <td>99</td>
-      <td>308</td>
-      <td>98</td>
+      <td>101</td>
+      <td>310</td>
+      <td>100</td>
       <td>2025-05-16</td>
       <td>2024-10-18</td>
       <td>2025-05-16</td>
@@ -572,9 +572,9 @@
       <td>Matt Brophy</td>
       <td>Jacob Ebey</td>
       <td>21</td>
-      <td>347</td>
-      <td>529</td>
-      <td>346</td>
+      <td>349</td>
+      <td>531</td>
+      <td>348</td>
       <td>2024-09-10</td>
       <td>2024-03-11</td>
       <td>2024-09-10</td>
@@ -592,9 +592,9 @@
       <td>Chance Strickland</td>
       <td>Chris Chudzicki</td>
       <td>7</td>
-      <td>1272</td>
-      <td>1390</td>
-      <td>1271</td>
+      <td>1274</td>
+      <td>1392</td>
+      <td>1273</td>
       <td>2022-02-28</td>
       <td>2021-11-01</td>
       <td>2022-02-28</td>
@@ -612,9 +612,9 @@
       <td>Matt Brophy</td>
       <td>Ryan Florence</td>
       <td>16</td>
-      <td>387</td>
-      <td>387</td>
-      <td>387</td>
+      <td>389</td>
+      <td>389</td>
+      <td>389</td>
       <td>2024-08-01</td>
       <td>2024-07-31</td>
       <td>2024-07-31</td>
@@ -632,9 +632,9 @@
       <td>Logan McAnsh</td>
       <td>Chance Strickland</td>
       <td>22</td>
-      <td>809</td>
-      <td>1418</td>
-      <td>808</td>
+      <td>811</td>
+      <td>1420</td>
+      <td>810</td>
       <td>2023-06-06</td>
       <td>2021-10-04</td>
       <td>2023-06-06</td>
@@ -652,9 +652,9 @@
       <td>Logan McAnsh</td>
       <td>Chance Strickland</td>
       <td>13</td>
-      <td>809</td>
-      <td>1415</td>
-      <td>808</td>
+      <td>811</td>
+      <td>1417</td>
+      <td>810</td>
       <td>2023-06-06</td>
       <td>2021-10-07</td>
       <td>2023-06-06</td>
@@ -672,9 +672,9 @@
       <td>Matt Brophy</td>
       <td>Chance Strickland</td>
       <td>25</td>
-      <td>646</td>
-      <td>1079</td>
-      <td>645</td>
+      <td>648</td>
+      <td>1081</td>
+      <td>647</td>
       <td>2023-11-16</td>
       <td>2022-09-08</td>
       <td>2023-11-16</td>
@@ -692,9 +692,9 @@
       <td>Matt Brophy</td>
       <td>Pedro Cattori</td>
       <td>8</td>
-      <td>809</td>
-      <td>1079</td>
-      <td>808</td>
+      <td>811</td>
+      <td>1081</td>
+      <td>810</td>
       <td>2023-06-06</td>
       <td>2022-09-08</td>
       <td>2023-06-06</td>
@@ -712,9 +712,9 @@
       <td>Matt Brophy</td>
       <td>Shane Walker</td>
       <td>3</td>
-      <td>744</td>
-      <td>765</td>
-      <td>765</td>
+      <td>746</td>
+      <td>767</td>
+      <td>767</td>
       <td>2023-08-10</td>
       <td>2023-07-19</td>
       <td>2023-07-19</td>
@@ -732,9 +732,9 @@
       <td>Logan McAnsh</td>
       <td>Michael Jackson</td>
       <td>16</td>
-      <td>809</td>
-      <td>1415</td>
-      <td>808</td>
+      <td>811</td>
+      <td>1417</td>
+      <td>810</td>
       <td>2023-06-06</td>
       <td>2021-10-07</td>
       <td>2023-06-06</td>
@@ -1187,7 +1187,7 @@ The following charts show how these metrics are distributed across pairs of file
       <td>184</td>
       <td>6</td>
       <td>package↔package</td>
-      <td>packages/react-router/package.json↔packages/router/package.json</td>
+      <td>packages/react-router-native/package.json↔packages/router/package.json</td>
     </tr>
     <tr>
       <th>6</th>
@@ -1219,7 +1219,7 @@ The following charts show how these metrics are distributed across pairs of file
       <td>18</td>
       <td>10</td>
       <td>package↔package</td>
-      <td>packages/react-router-native/package.json↔examples/custom-filter-link/package.json</td>
+      <td>packages/react-router/package.json↔examples/custom-filter-link/package.json</td>
     </tr>
     <tr>
       <th>10</th>
@@ -1243,7 +1243,7 @@ The following charts show how these metrics are distributed across pairs of file
       <td>181</td>
       <td>3</td>
       <td>CHANGELOG↔package</td>
-      <td>packages/react-router/CHANGELOG.md↔packages/router/package.json</td>
+      <td>packages/react-router-dom/CHANGELOG.md↔packages/router/package.json</td>
     </tr>
     <tr>
       <th>13</th>
@@ -1274,8 +1274,8 @@ The following charts show how these metrics are distributed across pairs of file
       <td>md↔json</td>
       <td>4</td>
       <td>7</td>
-      <td>form↔package</td>
-      <td>docs/components/form.md↔packages/react-router-dom-v5-compat/package.json</td>
+      <td>picking-a-router↔package</td>
+      <td>docs/routers/picking-a-router.md↔packages/react-router-dom-v5-compat/package.json</td>
     </tr>
     <tr>
       <th>17</th>
@@ -1347,7 +1347,7 @@ The following charts show how these metrics are distributed across pairs of file
       <td>10</td>
       <td>8</td>
       <td>CHANGELOG↔DEVELOPMENT</td>
-      <td>packages/react-router-dom-v5-compat/CHANGELOG.md↔DEVELOPMENT.md</td>
+      <td>packages/react-router-native/CHANGELOG.md↔DEVELOPMENT.md</td>
     </tr>
     <tr>
       <th>26</th>
@@ -1516,7 +1516,7 @@ This metric is useful to identify pairs of files that are frequently changed tog
       <td>0.789700</td>
       <td>5</td>
       <td>package↔package</td>
-      <td>packages/react-router/package.json↔packages/router/package.json</td>
+      <td>packages/react-router-native/package.json↔packages/router/package.json</td>
     </tr>
     <tr>
       <th>5</th>
@@ -1548,7 +1548,7 @@ This metric is useful to identify pairs of files that are frequently changed tog
       <td>0.588235</td>
       <td>9</td>
       <td>package↔package</td>
-      <td>examples/auth/package.json↔examples/custom-link/package.json</td>
+      <td>examples/basic/package.json↔examples/custom-link/package.json</td>
     </tr>
     <tr>
       <th>9</th>
@@ -1556,7 +1556,7 @@ This metric is useful to identify pairs of files that are frequently changed tog
       <td>0.571429</td>
       <td>10</td>
       <td>package↔package</td>
-      <td>examples/basic/package.json↔examples/modal/package.json</td>
+      <td>examples/auth/package.json↔examples/modal/package.json</td>
     </tr>
     <tr>
       <th>10</th>
@@ -1588,7 +1588,7 @@ This metric is useful to identify pairs of files that are frequently changed tog
       <td>0.776824</td>
       <td>4</td>
       <td>CHANGELOG↔package</td>
-      <td>packages/react-router/CHANGELOG.md↔packages/router/package.json</td>
+      <td>packages/react-router-dom/CHANGELOG.md↔packages/router/package.json</td>
     </tr>
     <tr>
       <th>14</th>
@@ -1612,7 +1612,7 @@ This metric is useful to identify pairs of files that are frequently changed tog
       <td>0.400000</td>
       <td>7</td>
       <td>README↔package</td>
-      <td>examples/auth/README.md↔packages/react-router-dom/package.json</td>
+      <td>examples/search-params/README.md↔packages/react-router-dom/package.json</td>
     </tr>
     <tr>
       <th>17</th>
@@ -1708,7 +1708,7 @@ This metric is useful to identify pairs of files that are frequently changed tog
       <td>0.750000</td>
       <td>9</td>
       <td>README↔README</td>
-      <td>examples/basic/README.md↔examples/route-objects/README.md</td>
+      <td>examples/custom-filter-link/README.md↔examples/route-objects/README.md</td>
     </tr>
     <tr>
       <th>29</th>
@@ -1874,7 +1874,7 @@ This metric is useful to identify pairs of files that are frequently changed tog
       <td>31.697778</td>
       <td>6</td>
       <td>package↔package</td>
-      <td>examples/error-boundaries/package.json↔examples/scroll-restoration/package.json</td>
+      <td>examples/notes/package.json↔examples/scroll-restoration/package.json</td>
     </tr>
     <tr>
       <th>6</th>
@@ -2304,7 +2304,7 @@ This metric is useful to identify pairs of files that are frequently changed tog
       <td>0.475480</td>
       <td>6</td>
       <td>CHANGELOG↔package</td>
-      <td>packages/react-router-native/CHANGELOG.md↔packages/react-router-native/package.json</td>
+      <td>packages/react-router-dom-v5-compat/CHANGELOG.md↔packages/react-router-native/package.json</td>
     </tr>
     <tr>
       <th>16</th>
@@ -2336,7 +2336,7 @@ This metric is useful to identify pairs of files that are frequently changed tog
       <td>0.439842</td>
       <td>10</td>
       <td>CHANGELOG↔package</td>
-      <td>packages/react-router-native/CHANGELOG.md↔packages/react-router/package.json</td>
+      <td>packages/react-router-dom-v5-compat/CHANGELOG.md↔packages/react-router/package.json</td>
     </tr>
     <tr>
       <th>20</th>
@@ -2376,7 +2376,7 @@ This metric is useful to identify pairs of files that are frequently changed tog
       <td>0.689759</td>
       <td>5</td>
       <td>CHANGELOG↔CHANGELOG</td>
-      <td>packages/react-router-dom-v5-compat/CHANGELOG.md↔packages/react-router/CHANGELOG.md</td>
+      <td>packages/react-router-native/CHANGELOG.md↔packages/react-router/CHANGELOG.md</td>
     </tr>
     <tr>
       <th>25</th>
@@ -2639,7 +2639,7 @@ This is useful to identify pairs of files that score high in most metrics, which
       <td>0.600000</td>
       <td>0.428571</td>
       <td>30.565714</td>
-      <td>examples/auth/package.json↔examples/ssr/package.json</td>
+      <td>examples/search-params/package.json↔examples/ssr/package.json</td>
     </tr>
     <tr>
       <th>7</th>
@@ -2654,7 +2654,7 @@ This is useful to identify pairs of files that score high in most metrics, which
       <td>0.600000</td>
       <td>0.428571</td>
       <td>30.565714</td>
-      <td>examples/search-params/package.json↔examples/ssr/package.json</td>
+      <td>examples/auth/package.json↔examples/ssr/package.json</td>
     </tr>
     <tr>
       <th>8</th>
@@ -2774,7 +2774,7 @@ This is useful to identify pairs of files that score high in most metrics, which
       <td>0.400000</td>
       <td>0.097561</td>
       <td>20.377143</td>
-      <td>examples/auth/README.md↔examples/ssr/package.json</td>
+      <td>examples/search-params/README.md↔examples/ssr/package.json</td>
     </tr>
     <tr>
       <th>16</th>
@@ -2789,7 +2789,7 @@ This is useful to identify pairs of files that score high in most metrics, which
       <td>0.400000</td>
       <td>0.097561</td>
       <td>20.377143</td>
-      <td>examples/search-params/README.md↔examples/ssr/package.json</td>
+      <td>examples/auth/README.md↔examples/ssr/package.json</td>
     </tr>
     <tr>
       <th>17</th>
@@ -3265,7 +3265,7 @@ The frontier = the “best tradeoffs.”
       <td>8</td>
       <td>9</td>
       <td>10</td>
-      <td>examples/auth/package.json↔examples/ssr/package.json</td>
+      <td>examples/search-params/package.json↔examples/ssr/package.json</td>
     </tr>
     <tr>
       <th>7</th>
@@ -3279,7 +3279,7 @@ The frontier = the “best tradeoffs.”
       <td>8</td>
       <td>9</td>
       <td>10</td>
-      <td>examples/search-params/package.json↔examples/ssr/package.json</td>
+      <td>examples/auth/package.json↔examples/ssr/package.json</td>
     </tr>
     <tr>
       <th>8</th>
