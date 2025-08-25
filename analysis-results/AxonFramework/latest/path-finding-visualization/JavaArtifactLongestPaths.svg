@@ -199,7 +199,7 @@
 <text xml:space="preserve" text-anchor="middle" x="825.65" y="-293.49" font-family="Helvetica,Arial,sans-serif" font-size="10.00">24</text>
 </g>
 <!-- axon&#45;server&#45;connector&#45;4.12.1\n(level 1/6)&#45;&gt;axon&#45;configuration&#45;4.12.1\n(level 2/6) -->
-<g id="edge18" class="edge">
+<g id="edge16" class="edge">
 <title>axon&#45;server&#45;connector&#45;4.12.1\n(level 1/6)&#45;&gt;axon&#45;configuration&#45;4.12.1\n(level 2/6)</title>
 <path fill="none" stroke="red" stroke-width="1.25" d="M384.25,-580.88C394.7,-557.23 409.66,-523.35 421.25,-497.12"/>
 <polygon fill="red" stroke="red" stroke-width="1.25" points="424.38,-498.69 425.22,-488.13 417.98,-495.86 424.38,-498.69"/>
@@ -213,14 +213,14 @@
 <text xml:space="preserve" text-anchor="middle" x="641.15" y="-293.49" font-family="Helvetica,Arial,sans-serif" font-size="10.00">756</text>
 </g>
 <!-- axon&#45;server&#45;connector&#45;4.12.1\n(level 1/6)&#45;&gt;axon&#45;modelling&#45;4.12.1\n(level 5/6) -->
-<g id="edge17" class="edge">
+<g id="edge18" class="edge">
 <title>axon&#45;server&#45;connector&#45;4.12.1\n(level 1/6)&#45;&gt;axon&#45;modelling&#45;4.12.1\n(level 5/6)</title>
 <path fill="none" stroke="#1178b2" d="M347.08,-581.36C304.01,-528.59 223.63,-411.67 269.65,-320.49 285.83,-288.43 312.44,-300.71 334.65,-272.49 346.88,-256.96 365.23,-210.55 377.78,-176.41"/>
 <polygon fill="#1178b2" stroke="#1178b2" points="380.99,-177.83 381.12,-167.24 374.41,-175.44 380.99,-177.83"/>
 <text xml:space="preserve" text-anchor="middle" x="272.15" y="-346.91" font-family="Helvetica,Arial,sans-serif" font-size="10.00">2</text>
 </g>
 <!-- axon&#45;server&#45;connector&#45;4.12.1\n(level 1/6)&#45;&gt;axon&#45;eventsourcing&#45;4.12.1\n(level 4/6) -->
-<g id="edge16" class="edge">
+<g id="edge17" class="edge">
 <title>axon&#45;server&#45;connector&#45;4.12.1\n(level 1/6)&#45;&gt;axon&#45;eventsourcing&#45;4.12.1\n(level 4/6)</title>
 <path fill="none" stroke="#1178b2" stroke-width="1.21" d="M283.38,-588.71C270.83,-582.31 259.28,-573.94 250.65,-562.99 186.35,-481.46 193.3,-350.14 201.91,-284.35"/>
 <polygon fill="#1178b2" stroke="#1178b2" stroke-width="1.21" points="205.35,-285.06 203.27,-274.67 198.42,-284.09 205.35,-285.06"/>
