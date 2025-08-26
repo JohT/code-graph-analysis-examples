@@ -48,9 +48,9 @@
       <td>25.313253</td>
       <td>19.686747</td>
       <td>130.457831</td>
-      <td>585.530120</td>
-      <td>999.674699</td>
-      <td>586.518072</td>
+      <td>586.530120</td>
+      <td>1000.903614</td>
+      <td>587.951807</td>
     </tr>
     <tr>
       <th>std</th>
@@ -58,53 +58,53 @@
       <td>46.317549</td>
       <td>293.197024</td>
       <td>294.748025</td>
-      <td>389.239506</td>
-      <td>295.156980</td>
+      <td>389.027544</td>
+      <td>295.154895</td>
     </tr>
     <tr>
       <th>min</th>
       <td>1.000000</td>
       <td>2.000000</td>
       <td>3.000000</td>
+      <td>98.000000</td>
+      <td>118.000000</td>
       <td>97.000000</td>
-      <td>117.000000</td>
-      <td>96.000000</td>
     </tr>
     <tr>
       <th>25%</th>
       <td>4.000000</td>
       <td>4.000000</td>
       <td>11.000000</td>
+      <td>328.000000</td>
+      <td>726.500000</td>
       <td>327.000000</td>
-      <td>725.500000</td>
-      <td>326.000000</td>
     </tr>
     <tr>
       <th>50%</th>
       <td>10.000000</td>
       <td>6.000000</td>
       <td>26.000000</td>
-      <td>712.000000</td>
-      <td>1080.000000</td>
-      <td>711.000000</td>
+      <td>713.000000</td>
+      <td>1081.000000</td>
+      <td>713.000000</td>
     </tr>
     <tr>
       <th>75%</th>
       <td>13.000000</td>
       <td>13.500000</td>
       <td>84.000000</td>
+      <td>812.000000</td>
+      <td>1405.000000</td>
       <td>811.000000</td>
-      <td>1404.000000</td>
-      <td>810.000000</td>
     </tr>
     <tr>
       <th>max</th>
       <td>634.000000</td>
       <td>344.000000</td>
       <td>2000.000000</td>
+      <td>1446.000000</td>
+      <td>1502.000000</td>
       <td>1445.000000</td>
-      <td>1501.000000</td>
-      <td>1444.000000</td>
     </tr>
   </tbody>
 </table>
@@ -152,9 +152,9 @@
       <td>Logan McAnsh</td>
       <td>Michael Jackson</td>
       <td>4</td>
-      <td>1404</td>
-      <td>1404</td>
-      <td>1404</td>
+      <td>1405</td>
+      <td>1405</td>
+      <td>1405</td>
       <td>2021-10-21</td>
       <td>2021-10-20</td>
       <td>2021-10-20</td>
@@ -172,9 +172,9 @@
       <td>Ayush C</td>
       <td>Brooks Lybrand</td>
       <td>26</td>
+      <td>428</td>
+      <td>1243</td>
       <td>427</td>
-      <td>1242</td>
-      <td>426</td>
       <td>2024-06-24</td>
       <td>2022-03-31</td>
       <td>2024-06-24</td>
@@ -192,9 +192,9 @@
       <td>Jon Jensen</td>
       <td>Matt Brophy</td>
       <td>3</td>
-      <td>788</td>
-      <td>802</td>
-      <td>802</td>
+      <td>789</td>
+      <td>803</td>
+      <td>803</td>
       <td>2023-06-29</td>
       <td>2023-06-14</td>
       <td>2023-06-14</td>
@@ -212,9 +212,9 @@
       <td>Chance Strickland</td>
       <td>Michael Jackson</td>
       <td>6</td>
+      <td>1446</td>
+      <td>1502</td>
       <td>1445</td>
-      <td>1501</td>
-      <td>1444</td>
       <td>2021-09-10</td>
       <td>2021-07-15</td>
       <td>2021-09-10</td>
@@ -232,9 +232,9 @@
       <td>Chance Strickland</td>
       <td>Mark Dalgleish</td>
       <td>10</td>
-      <td>489</td>
-      <td>521</td>
-      <td>521</td>
+      <td>490</td>
+      <td>523</td>
+      <td>523</td>
       <td>2024-04-23</td>
       <td>2024-03-21</td>
       <td>2024-03-21</td>
@@ -252,9 +252,9 @@
       <td>Chance Strickland</td>
       <td>Matt Brophy</td>
       <td>10</td>
-      <td>489</td>
-      <td>1167</td>
-      <td>488</td>
+      <td>490</td>
+      <td>1168</td>
+      <td>490</td>
       <td>2024-04-23</td>
       <td>2022-06-14</td>
       <td>2024-04-23</td>
@@ -272,9 +272,9 @@
       <td>Matt Brophy</td>
       <td>Brooks Lybrand</td>
       <td>16</td>
-      <td>263</td>
-      <td>451</td>
-      <td>263</td>
+      <td>264</td>
+      <td>452</td>
+      <td>264</td>
       <td>2024-12-05</td>
       <td>2024-05-30</td>
       <td>2024-12-05</td>
@@ -292,9 +292,9 @@
       <td>Logan McAnsh</td>
       <td>Matt Brophy</td>
       <td>7</td>
+      <td>812</td>
+      <td>1405</td>
       <td>811</td>
-      <td>1404</td>
-      <td>810</td>
       <td>2023-06-06</td>
       <td>2021-10-21</td>
       <td>2023-06-06</td>
@@ -312,9 +312,9 @@
       <td>Chance Strickland</td>
       <td>Matt Brophy</td>
       <td>25</td>
+      <td>313</td>
+      <td>957</td>
       <td>312</td>
-      <td>956</td>
-      <td>311</td>
       <td>2024-10-17</td>
       <td>2023-01-11</td>
       <td>2024-10-17</td>
@@ -332,9 +332,9 @@
       <td>Chance Strickland</td>
       <td>Matt Brophy</td>
       <td>15</td>
-      <td>648</td>
-      <td>954</td>
-      <td>647</td>
+      <td>649</td>
+      <td>955</td>
+      <td>649</td>
       <td>2023-11-16</td>
       <td>2023-01-13</td>
       <td>2023-11-16</td>
@@ -352,9 +352,9 @@
       <td>Matt Brophy</td>
       <td>Pedro Cattori</td>
       <td>9</td>
-      <td>942</td>
-      <td>948</td>
-      <td>948</td>
+      <td>943</td>
+      <td>949</td>
+      <td>949</td>
       <td>2023-01-26</td>
       <td>2023-01-19</td>
       <td>2023-01-19</td>
@@ -372,9 +372,9 @@
       <td>Matt Brophy</td>
       <td>Jacob Ebey</td>
       <td>9</td>
-      <td>489</td>
-      <td>531</td>
-      <td>531</td>
+      <td>490</td>
+      <td>532</td>
+      <td>532</td>
       <td>2024-04-23</td>
       <td>2024-03-11</td>
       <td>2024-03-11</td>
@@ -392,9 +392,9 @@
       <td>Chance Strickland</td>
       <td>Michael Jackson</td>
       <td>18</td>
+      <td>812</td>
+      <td>1463</td>
       <td>811</td>
-      <td>1462</td>
-      <td>810</td>
       <td>2023-06-06</td>
       <td>2021-08-23</td>
       <td>2023-06-06</td>
@@ -412,9 +412,9 @@
       <td>Logan McAnsh</td>
       <td>Matt Brophy</td>
       <td>11</td>
+      <td>812</td>
+      <td>1418</td>
       <td>811</td>
-      <td>1417</td>
-      <td>810</td>
       <td>2023-06-06</td>
       <td>2021-10-07</td>
       <td>2023-06-06</td>
@@ -432,9 +432,9 @@
       <td>Logan McAnsh</td>
       <td>Chance Strickland</td>
       <td>18</td>
+      <td>812</td>
+      <td>1405</td>
       <td>811</td>
-      <td>1404</td>
-      <td>810</td>
       <td>2023-06-06</td>
       <td>2021-10-20</td>
       <td>2023-06-06</td>
@@ -452,9 +452,9 @@
       <td>Logan McAnsh</td>
       <td>Michael Jackson</td>
       <td>9</td>
+      <td>812</td>
+      <td>1403</td>
       <td>811</td>
-      <td>1402</td>
-      <td>810</td>
       <td>2023-06-06</td>
       <td>2021-10-22</td>
       <td>2023-06-06</td>
@@ -472,9 +472,9 @@
       <td>Logan McAnsh</td>
       <td>Michael Jackson</td>
       <td>11</td>
+      <td>812</td>
+      <td>1404</td>
       <td>811</td>
-      <td>1403</td>
-      <td>810</td>
       <td>2023-06-06</td>
       <td>2021-10-21</td>
       <td>2023-06-06</td>
@@ -492,9 +492,9 @@
       <td>Matt Brophy</td>
       <td>Pedro Cattori</td>
       <td>12</td>
+      <td>812</td>
+      <td>1082</td>
       <td>811</td>
-      <td>1081</td>
-      <td>810</td>
       <td>2023-06-06</td>
       <td>2022-09-08</td>
       <td>2023-06-06</td>
@@ -512,9 +512,9 @@
       <td>Logan McAnsh</td>
       <td>Chance Strickland</td>
       <td>13</td>
+      <td>812</td>
+      <td>1420</td>
       <td>811</td>
-      <td>1419</td>
-      <td>810</td>
       <td>2023-06-06</td>
       <td>2021-10-05</td>
       <td>2023-06-06</td>
@@ -532,9 +532,9 @@
       <td>Chance Strickland</td>
       <td>Matt Brophy</td>
       <td>14</td>
+      <td>943</td>
+      <td>1452</td>
       <td>942</td>
-      <td>1451</td>
-      <td>941</td>
       <td>2023-01-26</td>
       <td>2021-09-03</td>
       <td>2023-01-26</td>
@@ -552,9 +552,9 @@
       <td>Matt Brophy</td>
       <td>Ayush C</td>
       <td>196</td>
-      <td>101</td>
-      <td>310</td>
-      <td>100</td>
+      <td>102</td>
+      <td>312</td>
+      <td>102</td>
       <td>2025-05-16</td>
       <td>2024-10-18</td>
       <td>2025-05-16</td>
@@ -572,9 +572,9 @@
       <td>Matt Brophy</td>
       <td>Jacob Ebey</td>
       <td>21</td>
-      <td>349</td>
-      <td>531</td>
-      <td>348</td>
+      <td>350</td>
+      <td>532</td>
+      <td>350</td>
       <td>2024-09-10</td>
       <td>2024-03-11</td>
       <td>2024-09-10</td>
@@ -592,9 +592,9 @@
       <td>Chance Strickland</td>
       <td>Chris Chudzicki</td>
       <td>7</td>
+      <td>1275</td>
+      <td>1393</td>
       <td>1274</td>
-      <td>1392</td>
-      <td>1273</td>
       <td>2022-02-28</td>
       <td>2021-11-01</td>
       <td>2022-02-28</td>
@@ -612,9 +612,9 @@
       <td>Matt Brophy</td>
       <td>Ryan Florence</td>
       <td>16</td>
-      <td>389</td>
-      <td>389</td>
-      <td>389</td>
+      <td>390</td>
+      <td>391</td>
+      <td>391</td>
       <td>2024-08-01</td>
       <td>2024-07-31</td>
       <td>2024-07-31</td>
@@ -632,9 +632,9 @@
       <td>Logan McAnsh</td>
       <td>Chance Strickland</td>
       <td>22</td>
+      <td>812</td>
+      <td>1422</td>
       <td>811</td>
-      <td>1420</td>
-      <td>810</td>
       <td>2023-06-06</td>
       <td>2021-10-04</td>
       <td>2023-06-06</td>
@@ -652,9 +652,9 @@
       <td>Logan McAnsh</td>
       <td>Chance Strickland</td>
       <td>13</td>
+      <td>812</td>
+      <td>1418</td>
       <td>811</td>
-      <td>1417</td>
-      <td>810</td>
       <td>2023-06-06</td>
       <td>2021-10-07</td>
       <td>2023-06-06</td>
@@ -672,9 +672,9 @@
       <td>Matt Brophy</td>
       <td>Chance Strickland</td>
       <td>25</td>
-      <td>648</td>
-      <td>1081</td>
-      <td>647</td>
+      <td>649</td>
+      <td>1082</td>
+      <td>649</td>
       <td>2023-11-16</td>
       <td>2022-09-08</td>
       <td>2023-11-16</td>
@@ -692,9 +692,9 @@
       <td>Matt Brophy</td>
       <td>Pedro Cattori</td>
       <td>8</td>
+      <td>812</td>
+      <td>1082</td>
       <td>811</td>
-      <td>1081</td>
-      <td>810</td>
       <td>2023-06-06</td>
       <td>2022-09-08</td>
       <td>2023-06-06</td>
@@ -712,9 +712,9 @@
       <td>Matt Brophy</td>
       <td>Shane Walker</td>
       <td>3</td>
-      <td>746</td>
-      <td>768</td>
-      <td>768</td>
+      <td>747</td>
+      <td>769</td>
+      <td>769</td>
       <td>2023-08-10</td>
       <td>2023-07-19</td>
       <td>2023-07-19</td>
@@ -732,9 +732,9 @@
       <td>Logan McAnsh</td>
       <td>Michael Jackson</td>
       <td>16</td>
+      <td>812</td>
+      <td>1418</td>
       <td>811</td>
-      <td>1417</td>
-      <td>810</td>
       <td>2023-06-06</td>
       <td>2021-10-07</td>
       <td>2023-06-06</td>
@@ -1123,6 +1123,42 @@ The following charts show how these metrics are distributed across pairs of file
     
 
 
+
+<div>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>fileExtensionPair</th>
+      <th>fileExtensionPairCount</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>md↔md</td>
+      <td>215</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>json↔json</td>
+      <td>192</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>json↔md</td>
+      <td>170</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>md↔ts</td>
+      <td>150</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+
 ### Files changed together by commit count
 
 
@@ -1143,190 +1179,46 @@ The following charts show how these metrics are distributed across pairs of file
   <tbody>
     <tr>
       <th>0</th>
-      <td>json↔json</td>
-      <td>376</td>
-      <td>1</td>
-      <td>package↔package</td>
-      <td>packages/react-router-dom/package.json↔packages/react-router/package.json</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>json↔json</td>
-      <td>332</td>
-      <td>2</td>
-      <td>package↔package</td>
-      <td>packages/react-router-dom/package.json↔packages/react-router-native/package.json</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>json↔json</td>
-      <td>327</td>
-      <td>3</td>
-      <td>package↔package</td>
-      <td>packages/react-router-native/package.json↔packages/react-router/package.json</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>json↔json</td>
-      <td>229</td>
-      <td>4</td>
-      <td>package↔package</td>
-      <td>packages/react-router-dom-v5-compat/package.json↔packages/react-router-dom/package.json</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>json↔json</td>
-      <td>185</td>
-      <td>5</td>
-      <td>package↔package</td>
-      <td>packages/react-router-dom-v5-compat/package.json↔packages/router/package.json</td>
-    </tr>
-    <tr>
-      <th>5</th>
-      <td>json↔json</td>
-      <td>184</td>
-      <td>6</td>
-      <td>package↔package</td>
-      <td>packages/react-router-native/package.json↔packages/router/package.json</td>
-    </tr>
-    <tr>
-      <th>6</th>
-      <td>json↔json</td>
-      <td>21</td>
-      <td>7</td>
-      <td>package↔package</td>
-      <td>examples/auth/package.json↔examples/basic/package.json</td>
-    </tr>
-    <tr>
-      <th>7</th>
-      <td>json↔json</td>
-      <td>20</td>
-      <td>8</td>
-      <td>package↔package</td>
-      <td>examples/auth/package.json↔examples/custom-filter-link/package.json</td>
-    </tr>
-    <tr>
-      <th>8</th>
-      <td>json↔json</td>
-      <td>19</td>
-      <td>9</td>
-      <td>package↔package</td>
-      <td>packages/react-router/package.json↔examples/auth/package.json</td>
-    </tr>
-    <tr>
-      <th>9</th>
-      <td>json↔json</td>
-      <td>18</td>
-      <td>10</td>
-      <td>package↔package</td>
-      <td>packages/react-router/package.json↔examples/custom-filter-link/package.json</td>
-    </tr>
-    <tr>
-      <th>10</th>
-      <td>md↔json</td>
-      <td>224</td>
-      <td>1</td>
-      <td>CHANGELOG↔package</td>
-      <td>packages/react-router-dom/CHANGELOG.md↔packages/react-router-dom/package.json</td>
-    </tr>
-    <tr>
-      <th>11</th>
-      <td>md↔json</td>
-      <td>223</td>
-      <td>2</td>
-      <td>CHANGELOG↔package</td>
-      <td>packages/react-router-dom-v5-compat/CHANGELOG.md↔packages/react-router-dom-v5-compat/package.json</td>
-    </tr>
-    <tr>
-      <th>12</th>
-      <td>md↔json</td>
-      <td>181</td>
-      <td>3</td>
-      <td>CHANGELOG↔package</td>
-      <td>packages/react-router-dom/CHANGELOG.md↔packages/router/package.json</td>
-    </tr>
-    <tr>
-      <th>13</th>
-      <td>md↔json</td>
-      <td>180</td>
-      <td>4</td>
-      <td>CHANGELOG↔package</td>
-      <td>packages/react-router-native/CHANGELOG.md↔packages/router/package.json</td>
-    </tr>
-    <tr>
-      <th>14</th>
-      <td>md↔json</td>
-      <td>10</td>
-      <td>5</td>
-      <td>create-browser-router↔package</td>
-      <td>docs/routers/create-browser-router.md↔packages/react-router-dom-v5-compat/package.json</td>
-    </tr>
-    <tr>
-      <th>15</th>
-      <td>md↔json</td>
-      <td>5</td>
-      <td>6</td>
-      <td>link↔package</td>
-      <td>docs/components/link.md↔packages/react-router-dom-v5-compat/package.json</td>
-    </tr>
-    <tr>
-      <th>16</th>
-      <td>md↔json</td>
-      <td>4</td>
-      <td>7</td>
-      <td>picking-a-router↔package</td>
-      <td>docs/routers/picking-a-router.md↔packages/react-router-dom-v5-compat/package.json</td>
-    </tr>
-    <tr>
-      <th>17</th>
-      <td>md↔json</td>
-      <td>3</td>
-      <td>8</td>
-      <td>use-submit↔package</td>
-      <td>docs/hooks/use-submit.md↔packages/react-router-dom-v5-compat/package.json</td>
-    </tr>
-    <tr>
-      <th>18</th>
       <td>md↔md</td>
-      <td>235</td>
+      <td>121</td>
       <td>1</td>
       <td>CHANGELOG↔CHANGELOG</td>
       <td>packages/react-router-dom/CHANGELOG.md↔packages/react-router/CHANGELOG.md</td>
     </tr>
     <tr>
-      <th>19</th>
+      <th>1</th>
       <td>md↔md</td>
-      <td>229</td>
+      <td>115</td>
       <td>2</td>
       <td>CHANGELOG↔CHANGELOG</td>
       <td>packages/react-router-dom-v5-compat/CHANGELOG.md↔packages/react-router-dom/CHANGELOG.md</td>
     </tr>
     <tr>
-      <th>20</th>
+      <th>2</th>
       <td>md↔md</td>
-      <td>195</td>
+      <td>107</td>
       <td>3</td>
       <td>CHANGELOG↔CHANGELOG</td>
       <td>packages/react-router/CHANGELOG.md↔packages/router/CHANGELOG.md</td>
     </tr>
     <tr>
-      <th>21</th>
+      <th>3</th>
       <td>md↔md</td>
-      <td>193</td>
+      <td>105</td>
       <td>4</td>
       <td>CHANGELOG↔CHANGELOG</td>
       <td>packages/react-router-dom/CHANGELOG.md↔packages/router/CHANGELOG.md</td>
     </tr>
     <tr>
-      <th>22</th>
+      <th>4</th>
       <td>md↔md</td>
-      <td>187</td>
+      <td>99</td>
       <td>5</td>
       <td>CHANGELOG↔CHANGELOG</td>
       <td>packages/react-router-native/CHANGELOG.md↔packages/router/CHANGELOG.md</td>
     </tr>
     <tr>
-      <th>23</th>
+      <th>5</th>
       <td>md↔md</td>
       <td>12</td>
       <td>6</td>
@@ -1334,7 +1226,7 @@ The following charts show how these metrics are distributed across pairs of file
       <td>docs/hooks/use-fetcher.md↔docs/hooks/use-submit.md</td>
     </tr>
     <tr>
-      <th>24</th>
+      <th>6</th>
       <td>md↔md</td>
       <td>11</td>
       <td>7</td>
@@ -1342,23 +1234,23 @@ The following charts show how these metrics are distributed across pairs of file
       <td>docs/components/link.md↔docs/hooks/use-navigate.md</td>
     </tr>
     <tr>
-      <th>25</th>
+      <th>7</th>
       <td>md↔md</td>
       <td>10</td>
       <td>8</td>
-      <td>CHANGELOG↔DEVELOPMENT</td>
-      <td>packages/react-router-native/CHANGELOG.md↔DEVELOPMENT.md</td>
-    </tr>
-    <tr>
-      <th>26</th>
-      <td>md↔md</td>
-      <td>9</td>
-      <td>9</td>
       <td>form↔use-navigate</td>
       <td>docs/components/form.md↔docs/hooks/use-navigate.md</td>
     </tr>
     <tr>
-      <th>27</th>
+      <th>8</th>
+      <td>md↔md</td>
+      <td>9</td>
+      <td>9</td>
+      <td>form↔use-submit</td>
+      <td>docs/components/form.md↔docs/hooks/use-submit.md</td>
+    </tr>
+    <tr>
+      <th>9</th>
       <td>md↔md</td>
       <td>8</td>
       <td>10</td>
@@ -1366,84 +1258,244 @@ The following charts show how these metrics are distributed across pairs of file
       <td>docs/components/form.md↔docs/components/link.md</td>
     </tr>
     <tr>
-      <th>28</th>
-      <td>tsx↔tsx</td>
-      <td>57</td>
+      <th>10</th>
+      <td>json↔json</td>
+      <td>262</td>
       <td>1</td>
-      <td>index↔index</td>
-      <td>packages/react-router-native/index.tsx↔packages/react-router-dom/index.tsx</td>
+      <td>package↔package</td>
+      <td>packages/react-router-dom/package.json↔packages/react-router/package.json</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>json↔json</td>
+      <td>218</td>
+      <td>2</td>
+      <td>package↔package</td>
+      <td>packages/react-router-dom/package.json↔packages/react-router-native/package.json</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>json↔json</td>
+      <td>213</td>
+      <td>3</td>
+      <td>package↔package</td>
+      <td>packages/react-router-native/package.json↔packages/react-router/package.json</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>json↔json</td>
+      <td>115</td>
+      <td>4</td>
+      <td>package↔package</td>
+      <td>packages/react-router-dom-v5-compat/package.json↔packages/react-router-dom/package.json</td>
+    </tr>
+    <tr>
+      <th>14</th>
+      <td>json↔json</td>
+      <td>97</td>
+      <td>5</td>
+      <td>package↔package</td>
+      <td>packages/react-router-dom-v5-compat/package.json↔packages/router/package.json</td>
+    </tr>
+    <tr>
+      <th>15</th>
+      <td>json↔json</td>
+      <td>96</td>
+      <td>6</td>
+      <td>package↔package</td>
+      <td>packages/react-router-native/package.json↔packages/router/package.json</td>
+    </tr>
+    <tr>
+      <th>16</th>
+      <td>json↔json</td>
+      <td>21</td>
+      <td>7</td>
+      <td>package↔package</td>
+      <td>examples/auth/package.json↔examples/basic/package.json</td>
+    </tr>
+    <tr>
+      <th>17</th>
+      <td>json↔json</td>
+      <td>20</td>
+      <td>8</td>
+      <td>package↔package</td>
+      <td>examples/auth/package.json↔examples/custom-filter-link/package.json</td>
+    </tr>
+    <tr>
+      <th>18</th>
+      <td>json↔json</td>
+      <td>19</td>
+      <td>9</td>
+      <td>package↔package</td>
+      <td>packages/react-router/package.json↔examples/auth/package.json</td>
+    </tr>
+    <tr>
+      <th>19</th>
+      <td>json↔json</td>
+      <td>18</td>
+      <td>10</td>
+      <td>package↔package</td>
+      <td>packages/react-router-native/package.json↔examples/custom-filter-link/package.json</td>
+    </tr>
+    <tr>
+      <th>20</th>
+      <td>json↔md</td>
+      <td>110</td>
+      <td>1</td>
+      <td>package↔CHANGELOG</td>
+      <td>packages/react-router-dom-v5-compat/package.json↔packages/react-router-dom/CHANGELOG.md</td>
+    </tr>
+    <tr>
+      <th>21</th>
+      <td>json↔md</td>
+      <td>109</td>
+      <td>2</td>
+      <td>package↔CHANGELOG</td>
+      <td>packages/react-router-dom-v5-compat/package.json↔packages/react-router-dom-v5-compat/CHANGELOG.md</td>
+    </tr>
+    <tr>
+      <th>22</th>
+      <td>json↔md</td>
+      <td>93</td>
+      <td>3</td>
+      <td>package↔CHANGELOG</td>
+      <td>packages/router/package.json↔packages/react-router-dom/CHANGELOG.md</td>
+    </tr>
+    <tr>
+      <th>23</th>
+      <td>json↔md</td>
+      <td>92</td>
+      <td>4</td>
+      <td>package↔CHANGELOG</td>
+      <td>packages/router/package.json↔packages/react-router-dom-v5-compat/CHANGELOG.md</td>
+    </tr>
+    <tr>
+      <th>24</th>
+      <td>json↔md</td>
+      <td>11</td>
+      <td>5</td>
+      <td>package↔DEVELOPMENT</td>
+      <td>packages/react-router-dom/package.json↔DEVELOPMENT.md</td>
+    </tr>
+    <tr>
+      <th>25</th>
+      <td>json↔md</td>
+      <td>9</td>
+      <td>6</td>
+      <td>package↔create-browser-router</td>
+      <td>packages/react-router-native/package.json↔docs/routers/create-browser-router.md</td>
+    </tr>
+    <tr>
+      <th>26</th>
+      <td>json↔md</td>
+      <td>8</td>
+      <td>7</td>
+      <td>package↔tutorial</td>
+      <td>packages/react-router-native/package.json↔docs/start/tutorial.md</td>
+    </tr>
+    <tr>
+      <th>27</th>
+      <td>json↔md</td>
+      <td>6</td>
+      <td>8</td>
+      <td>package↔use-navigate</td>
+      <td>packages/react-router-native/package.json↔docs/hooks/use-navigate.md</td>
+    </tr>
+    <tr>
+      <th>28</th>
+      <td>json↔md</td>
+      <td>5</td>
+      <td>9</td>
+      <td>package↔link</td>
+      <td>packages/react-router-dom/package.json↔docs/components/link.md</td>
     </tr>
     <tr>
       <th>29</th>
-      <td>tsx↔tsx</td>
-      <td>50</td>
-      <td>2</td>
-      <td>data-browser-router-test↔index</td>
-      <td>packages/react-router-dom/__tests__/data-browser-router-test.tsx↔packages/react-router-dom/index.tsx</td>
+      <td>json↔md</td>
+      <td>4</td>
+      <td>10</td>
+      <td>package↔form</td>
+      <td>packages/react-router-dom/package.json↔docs/components/form.md</td>
     </tr>
     <tr>
       <th>30</th>
-      <td>tsx↔tsx</td>
-      <td>47</td>
-      <td>3</td>
-      <td>index↔components</td>
-      <td>packages/react-router-dom/index.tsx↔packages/react-router/lib/components.tsx</td>
+      <td>md↔ts</td>
+      <td>32</td>
+      <td>1</td>
+      <td>CHANGELOG↔router</td>
+      <td>packages/react-router/CHANGELOG.md↔packages/router/router.ts</td>
     </tr>
     <tr>
       <th>31</th>
-      <td>tsx↔tsx</td>
-      <td>42</td>
-      <td>4</td>
-      <td>index↔server</td>
-      <td>packages/react-router-dom/index.tsx↔packages/react-router-dom/server.tsx</td>
+      <td>md↔ts</td>
+      <td>30</td>
+      <td>2</td>
+      <td>CHANGELOG↔router</td>
+      <td>packages/router/CHANGELOG.md↔packages/router/router.ts</td>
     </tr>
     <tr>
       <th>32</th>
-      <td>tsx↔tsx</td>
-      <td>39</td>
-      <td>5</td>
-      <td>hooks↔index</td>
-      <td>packages/react-router/lib/hooks.tsx↔packages/react-router-dom/index.tsx</td>
+      <td>md↔ts</td>
+      <td>29</td>
+      <td>3</td>
+      <td>CHANGELOG↔router</td>
+      <td>packages/react-router-dom-v5-compat/CHANGELOG.md↔packages/router/router.ts</td>
     </tr>
     <tr>
       <th>33</th>
-      <td>tsx↔tsx</td>
-      <td>34</td>
-      <td>6</td>
-      <td>hooks↔components</td>
-      <td>packages/react-router/lib/hooks.tsx↔packages/react-router/lib/components.tsx</td>
+      <td>md↔ts</td>
+      <td>19</td>
+      <td>4</td>
+      <td>CHANGELOG↔utils</td>
+      <td>packages/react-router/CHANGELOG.md↔packages/router/utils.ts</td>
     </tr>
     <tr>
       <th>34</th>
-      <td>tsx↔tsx</td>
-      <td>22</td>
-      <td>7</td>
-      <td>components↔server</td>
-      <td>packages/react-router/lib/components.tsx↔packages/react-router-dom/server.tsx</td>
+      <td>md↔ts</td>
+      <td>18</td>
+      <td>5</td>
+      <td>create-browser-router↔router</td>
+      <td>docs/routers/create-browser-router.md↔packages/router/router.ts</td>
     </tr>
     <tr>
       <th>35</th>
-      <td>tsx↔tsx</td>
-      <td>21</td>
-      <td>8</td>
-      <td>hooks↔server</td>
-      <td>packages/react-router/lib/hooks.tsx↔packages/react-router-dom/server.tsx</td>
+      <td>md↔ts</td>
+      <td>17</td>
+      <td>6</td>
+      <td>CHANGELOG↔utils</td>
+      <td>packages/react-router-dom/CHANGELOG.md↔packages/router/utils.ts</td>
     </tr>
     <tr>
       <th>36</th>
-      <td>tsx↔tsx</td>
-      <td>20</td>
-      <td>9</td>
-      <td>index↔nav-link-active-test</td>
-      <td>packages/react-router-dom/index.tsx↔packages/react-router-dom/__tests__/nav-link-active-test.tsx</td>
+      <td>md↔ts</td>
+      <td>15</td>
+      <td>7</td>
+      <td>form↔router</td>
+      <td>docs/components/form.md↔packages/router/router.ts</td>
     </tr>
     <tr>
       <th>37</th>
-      <td>tsx↔tsx</td>
-      <td>19</td>
+      <td>md↔ts</td>
+      <td>14</td>
+      <td>8</td>
+      <td>use-submit↔router</td>
+      <td>docs/hooks/use-submit.md↔packages/router/router.ts</td>
+    </tr>
+    <tr>
+      <th>38</th>
+      <td>md↔ts</td>
+      <td>13</td>
+      <td>9</td>
+      <td>use-submit↔dom</td>
+      <td>docs/hooks/use-submit.md↔packages/react-router-dom/dom.ts</td>
+    </tr>
+    <tr>
+      <th>39</th>
+      <td>md↔ts</td>
+      <td>12</td>
       <td>10</td>
-      <td>hooks↔data-browser-router-test</td>
-      <td>packages/react-router/lib/hooks.tsx↔packages/react-router-dom/__tests__/data-browser-router-test.tsx</td>
+      <td>tutorial↔router</td>
+      <td>docs/start/tutorial.md↔packages/router/router.ts</td>
     </tr>
   </tbody>
 </table>
@@ -1453,7 +1505,7 @@ The following charts show how these metrics are distributed across pairs of file
 
 
     
-![svg](GitHistoryGeneral_files/GitHistoryGeneral_74_0.svg)
+![svg](GitHistoryGeneral_files/GitHistoryGeneral_73_0.svg)
     
 
 
@@ -1480,166 +1532,6 @@ This metric is useful to identify pairs of files that are frequently changed tog
   <tbody>
     <tr>
       <th>0</th>
-      <td>json↔json</td>
-      <td>0.833703</td>
-      <td>1</td>
-      <td>package↔package</td>
-      <td>packages/react-router-dom/package.json↔packages/react-router/package.json</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>json↔json</td>
-      <td>0.809187</td>
-      <td>2</td>
-      <td>package↔package</td>
-      <td>packages/react-router-dom-v5-compat/package.json↔packages/react-router-dom/package.json</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>json↔json</td>
-      <td>0.794258</td>
-      <td>3</td>
-      <td>package↔package</td>
-      <td>packages/react-router-dom/package.json↔packages/react-router-native/package.json</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>json↔json</td>
-      <td>0.793991</td>
-      <td>4</td>
-      <td>package↔package</td>
-      <td>packages/react-router-dom-v5-compat/package.json↔packages/router/package.json</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>json↔json</td>
-      <td>0.789700</td>
-      <td>5</td>
-      <td>package↔package</td>
-      <td>packages/react-router-native/package.json↔packages/router/package.json</td>
-    </tr>
-    <tr>
-      <th>5</th>
-      <td>json↔json</td>
-      <td>0.782297</td>
-      <td>6</td>
-      <td>package↔package</td>
-      <td>packages/react-router-native/package.json↔packages/react-router/package.json</td>
-    </tr>
-    <tr>
-      <th>6</th>
-      <td>json↔json</td>
-      <td>0.625000</td>
-      <td>7</td>
-      <td>package↔package</td>
-      <td>examples/auth/package.json↔examples/custom-filter-link/package.json</td>
-    </tr>
-    <tr>
-      <th>7</th>
-      <td>json↔json</td>
-      <td>0.600000</td>
-      <td>8</td>
-      <td>package↔package</td>
-      <td>examples/auth/package.json↔examples/basic/package.json</td>
-    </tr>
-    <tr>
-      <th>8</th>
-      <td>json↔json</td>
-      <td>0.588235</td>
-      <td>9</td>
-      <td>package↔package</td>
-      <td>examples/basic/package.json↔examples/custom-link/package.json</td>
-    </tr>
-    <tr>
-      <th>9</th>
-      <td>json↔json</td>
-      <td>0.571429</td>
-      <td>10</td>
-      <td>package↔package</td>
-      <td>examples/auth/package.json↔examples/modal/package.json</td>
-    </tr>
-    <tr>
-      <th>10</th>
-      <td>md↔json</td>
-      <td>0.813869</td>
-      <td>1</td>
-      <td>CHANGELOG↔package</td>
-      <td>packages/react-router-dom-v5-compat/CHANGELOG.md↔packages/react-router-dom-v5-compat/package.json</td>
-    </tr>
-    <tr>
-      <th>11</th>
-      <td>md↔json</td>
-      <td>0.794326</td>
-      <td>2</td>
-      <td>CHANGELOG↔package</td>
-      <td>packages/react-router-dom/CHANGELOG.md↔packages/react-router-dom/package.json</td>
-    </tr>
-    <tr>
-      <th>12</th>
-      <td>md↔json</td>
-      <td>0.780488</td>
-      <td>3</td>
-      <td>CHANGELOG↔package</td>
-      <td>packages/react-router/CHANGELOG.md↔packages/react-router/package.json</td>
-    </tr>
-    <tr>
-      <th>13</th>
-      <td>md↔json</td>
-      <td>0.776824</td>
-      <td>4</td>
-      <td>CHANGELOG↔package</td>
-      <td>packages/react-router-dom/CHANGELOG.md↔packages/router/package.json</td>
-    </tr>
-    <tr>
-      <th>14</th>
-      <td>md↔json</td>
-      <td>0.772532</td>
-      <td>5</td>
-      <td>CHANGELOG↔package</td>
-      <td>packages/react-router-native/CHANGELOG.md↔packages/router/package.json</td>
-    </tr>
-    <tr>
-      <th>15</th>
-      <td>md↔json</td>
-      <td>0.428571</td>
-      <td>6</td>
-      <td>README↔package</td>
-      <td>examples/modal/README.md↔packages/react-router-dom/package.json</td>
-    </tr>
-    <tr>
-      <th>16</th>
-      <td>md↔json</td>
-      <td>0.400000</td>
-      <td>7</td>
-      <td>README↔package</td>
-      <td>examples/search-params/README.md↔packages/react-router-dom/package.json</td>
-    </tr>
-    <tr>
-      <th>17</th>
-      <td>md↔json</td>
-      <td>0.363636</td>
-      <td>8</td>
-      <td>README↔package</td>
-      <td>examples/basic/README.md↔packages/react-router-dom/package.json</td>
-    </tr>
-    <tr>
-      <th>18</th>
-      <td>md↔json</td>
-      <td>0.333333</td>
-      <td>9</td>
-      <td>use-route-loader-data↔package</td>
-      <td>docs/hooks/use-route-loader-data.md↔packages/react-router-dom-v5-compat/package.json</td>
-    </tr>
-    <tr>
-      <th>19</th>
-      <td>md↔json</td>
-      <td>0.300000</td>
-      <td>10</td>
-      <td>README↔package</td>
-      <td>examples/auth/README.md↔examples/custom-filter-link/package.json</td>
-    </tr>
-    <tr>
-      <th>20</th>
       <td>md↔md</td>
       <td>0.888889</td>
       <td>1</td>
@@ -1647,7 +1539,7 @@ This metric is useful to identify pairs of files that are frequently changed tog
       <td>examples/custom-filter-link/README.md↔examples/custom-link/README.md</td>
     </tr>
     <tr>
-      <th>21</th>
+      <th>1</th>
       <td>md↔md</td>
       <td>0.857143</td>
       <td>2</td>
@@ -1655,148 +1547,308 @@ This metric is useful to identify pairs of files that are frequently changed tog
       <td>examples/custom-filter-link/README.md↔examples/modal/README.md</td>
     </tr>
     <tr>
-      <th>22</th>
-      <td>md↔md</td>
-      <td>0.835766</td>
-      <td>3</td>
-      <td>CHANGELOG↔CHANGELOG</td>
-      <td>packages/react-router-dom-v5-compat/CHANGELOG.md↔packages/react-router-dom/CHANGELOG.md</td>
-    </tr>
-    <tr>
-      <th>23</th>
-      <td>md↔md</td>
-      <td>0.833333</td>
-      <td>4</td>
-      <td>CHANGELOG↔CHANGELOG</td>
-      <td>packages/react-router-dom/CHANGELOG.md↔packages/react-router/CHANGELOG.md</td>
-    </tr>
-    <tr>
-      <th>24</th>
-      <td>md↔md</td>
-      <td>0.812500</td>
-      <td>5</td>
-      <td>CHANGELOG↔CHANGELOG</td>
-      <td>packages/react-router/CHANGELOG.md↔packages/router/CHANGELOG.md</td>
-    </tr>
-    <tr>
-      <th>25</th>
-      <td>md↔md</td>
-      <td>0.804167</td>
-      <td>6</td>
-      <td>CHANGELOG↔CHANGELOG</td>
-      <td>packages/react-router-dom/CHANGELOG.md↔packages/router/CHANGELOG.md</td>
-    </tr>
-    <tr>
-      <th>26</th>
+      <th>2</th>
       <td>md↔md</td>
       <td>0.800000</td>
-      <td>7</td>
+      <td>3</td>
       <td>README↔README</td>
       <td>examples/ssr/README.md↔examples/auth/README.md</td>
     </tr>
     <tr>
-      <th>27</th>
-      <td>md↔md</td>
-      <td>0.779167</td>
-      <td>8</td>
-      <td>CHANGELOG↔CHANGELOG</td>
-      <td>packages/react-router-native/CHANGELOG.md↔packages/router/CHANGELOG.md</td>
-    </tr>
-    <tr>
-      <th>28</th>
+      <th>3</th>
       <td>md↔md</td>
       <td>0.750000</td>
-      <td>9</td>
+      <td>4</td>
       <td>README↔README</td>
-      <td>examples/custom-filter-link/README.md↔examples/route-objects/README.md</td>
+      <td>examples/custom-link/README.md↔examples/route-objects/README.md</td>
     </tr>
     <tr>
-      <th>29</th>
+      <th>4</th>
       <td>md↔md</td>
       <td>0.727273</td>
-      <td>10</td>
+      <td>5</td>
       <td>README↔README</td>
       <td>examples/ssr/README.md↔examples/basic/README.md</td>
     </tr>
     <tr>
-      <th>30</th>
-      <td>tsx↔tsx</td>
+      <th>5</th>
+      <td>md↔md</td>
+      <td>0.666667</td>
+      <td>6</td>
+      <td>README↔README</td>
+      <td>examples/auth/README.md↔examples/custom-filter-link/README.md</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>md↔md</td>
       <td>0.600000</td>
+      <td>7</td>
+      <td>link↔use-view-transition-state</td>
+      <td>docs/components/link.md↔docs/hooks/use-view-transition-state.md</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>md↔md</td>
+      <td>0.500000</td>
+      <td>8</td>
+      <td>README↔README</td>
+      <td>examples/basic/README.md↔examples/lazy-loading/README.md</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>md↔md</td>
+      <td>0.445833</td>
+      <td>9</td>
+      <td>CHANGELOG↔CHANGELOG</td>
+      <td>packages/react-router/CHANGELOG.md↔packages/router/CHANGELOG.md</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>md↔md</td>
+      <td>0.444444</td>
+      <td>10</td>
+      <td>use-route-loader-data↔picking-a-router</td>
+      <td>docs/hooks/use-route-loader-data.md↔docs/routers/picking-a-router.md</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>json↔json</td>
+      <td>0.625000</td>
       <td>1</td>
-      <td>index↔index</td>
-      <td>packages/react-router-native/index.tsx↔packages/react-router-dom/index.tsx</td>
+      <td>package↔package</td>
+      <td>examples/auth/package.json↔examples/custom-filter-link/package.json</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>json↔json</td>
+      <td>0.600000</td>
+      <td>2</td>
+      <td>package↔package</td>
+      <td>examples/auth/package.json↔examples/basic/package.json</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>json↔json</td>
+      <td>0.588235</td>
+      <td>3</td>
+      <td>package↔package</td>
+      <td>examples/auth/package.json↔examples/custom-link/package.json</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>json↔json</td>
+      <td>0.580931</td>
+      <td>4</td>
+      <td>package↔package</td>
+      <td>packages/react-router-dom/package.json↔packages/react-router/package.json</td>
+    </tr>
+    <tr>
+      <th>14</th>
+      <td>json↔json</td>
+      <td>0.571429</td>
+      <td>5</td>
+      <td>package↔package</td>
+      <td>examples/basic/package.json↔examples/modal/package.json</td>
+    </tr>
+    <tr>
+      <th>15</th>
+      <td>json↔json</td>
+      <td>0.566667</td>
+      <td>6</td>
+      <td>package↔package</td>
+      <td>examples/basic/package.json↔examples/multi-app/package.json</td>
+    </tr>
+    <tr>
+      <th>16</th>
+      <td>json↔json</td>
+      <td>0.562500</td>
+      <td>7</td>
+      <td>package↔package</td>
+      <td>packages/react-router-native/package.json↔examples/custom-filter-link/package.json</td>
+    </tr>
+    <tr>
+      <th>17</th>
+      <td>json↔json</td>
+      <td>0.548387</td>
+      <td>8</td>
+      <td>package↔package</td>
+      <td>examples/auth/package.json↔examples/custom-query-parsing/package.json</td>
+    </tr>
+    <tr>
+      <th>18</th>
+      <td>json↔json</td>
+      <td>0.542857</td>
+      <td>9</td>
+      <td>package↔package</td>
+      <td>packages/react-router/package.json↔examples/auth/package.json</td>
+    </tr>
+    <tr>
+      <th>19</th>
+      <td>json↔json</td>
+      <td>0.529412</td>
+      <td>10</td>
+      <td>package↔package</td>
+      <td>packages/react-router-native/package.json↔examples/custom-link/package.json</td>
+    </tr>
+    <tr>
+      <th>20</th>
+      <td>json↔md</td>
+      <td>0.428571</td>
+      <td>1</td>
+      <td>package↔README</td>
+      <td>examples/search-params/package.json↔examples/modal/README.md</td>
+    </tr>
+    <tr>
+      <th>21</th>
+      <td>json↔md</td>
+      <td>0.400000</td>
+      <td>2</td>
+      <td>package↔README</td>
+      <td>packages/react-router-dom/package.json↔examples/auth/README.md</td>
+    </tr>
+    <tr>
+      <th>22</th>
+      <td>json↔md</td>
+      <td>0.399142</td>
+      <td>3</td>
+      <td>package↔CHANGELOG</td>
+      <td>packages/router/package.json↔packages/react-router-dom/CHANGELOG.md</td>
+    </tr>
+    <tr>
+      <th>23</th>
+      <td>json↔md</td>
+      <td>0.397810</td>
+      <td>4</td>
+      <td>package↔CHANGELOG</td>
+      <td>packages/react-router-dom-v5-compat/package.json↔packages/react-router-dom-v5-compat/CHANGELOG.md</td>
+    </tr>
+    <tr>
+      <th>24</th>
+      <td>json↔md</td>
+      <td>0.394850</td>
+      <td>5</td>
+      <td>package↔CHANGELOG</td>
+      <td>packages/router/package.json↔packages/react-router-dom-v5-compat/CHANGELOG.md</td>
+    </tr>
+    <tr>
+      <th>25</th>
+      <td>json↔md</td>
+      <td>0.390071</td>
+      <td>6</td>
+      <td>package↔CHANGELOG</td>
+      <td>packages/react-router-dom-v5-compat/package.json↔packages/react-router-dom/CHANGELOG.md</td>
+    </tr>
+    <tr>
+      <th>26</th>
+      <td>json↔md</td>
+      <td>0.388693</td>
+      <td>7</td>
+      <td>package↔CHANGELOG</td>
+      <td>packages/react-router-dom-v5-compat/package.json↔packages/react-router/CHANGELOG.md</td>
+    </tr>
+    <tr>
+      <th>27</th>
+      <td>json↔md</td>
+      <td>0.387500</td>
+      <td>8</td>
+      <td>package↔CHANGELOG</td>
+      <td>packages/react-router-dom/package.json↔packages/router/CHANGELOG.md</td>
+    </tr>
+    <tr>
+      <th>28</th>
+      <td>json↔md</td>
+      <td>0.383275</td>
+      <td>9</td>
+      <td>package↔CHANGELOG</td>
+      <td>packages/react-router-native/package.json↔packages/react-router/CHANGELOG.md</td>
+    </tr>
+    <tr>
+      <th>29</th>
+      <td>json↔md</td>
+      <td>0.363636</td>
+      <td>10</td>
+      <td>package↔README</td>
+      <td>packages/react-router-dom/package.json↔examples/basic/README.md</td>
+    </tr>
+    <tr>
+      <th>30</th>
+      <td>md↔ts</td>
+      <td>0.714286</td>
+      <td>1</td>
+      <td>create-static-handler↔router</td>
+      <td>docs/routers/create-static-handler.md↔packages/router/router.ts</td>
     </tr>
     <tr>
       <th>31</th>
-      <td>tsx↔tsx</td>
-      <td>0.500000</td>
+      <td>md↔ts</td>
+      <td>0.600000</td>
       <td>2</td>
-      <td>partial-hydration-test↔hooks</td>
-      <td>packages/react-router-dom/__tests__/partial-hydration-test.tsx↔packages/react-router/lib/hooks.tsx</td>
+      <td>should-revalidate↔should-revalidate-test</td>
+      <td>docs/route/should-revalidate.md↔packages/router/__tests__/should-revalidate-test.ts</td>
     </tr>
     <tr>
       <th>32</th>
-      <td>tsx↔tsx</td>
-      <td>0.454545</td>
+      <td>md↔ts</td>
+      <td>0.500000</td>
       <td>3</td>
-      <td>data-browser-router-test↔index</td>
-      <td>packages/react-router-dom/__tests__/data-browser-router-test.tsx↔packages/react-router-dom/index.tsx</td>
+      <td>README↔router</td>
+      <td>examples/ssr-data-router/README.md↔packages/router/router.ts</td>
     </tr>
     <tr>
       <th>33</th>
-      <td>tsx↔tsx</td>
-      <td>0.437500</td>
+      <td>md↔ts</td>
+      <td>0.444444</td>
       <td>4</td>
-      <td>exports-test↔exports-test</td>
-      <td>packages/react-router-dom/__tests__/exports-test.tsx↔packages/react-router-native/__tests__/exports-test.tsx</td>
+      <td>use-route-loader-data↔router</td>
+      <td>docs/hooks/use-route-loader-data.md↔packages/router/router.ts</td>
     </tr>
     <tr>
       <th>34</th>
-      <td>tsx↔tsx</td>
-      <td>0.419643</td>
+      <td>md↔ts</td>
+      <td>0.428571</td>
       <td>5</td>
-      <td>index↔components</td>
-      <td>packages/react-router-dom/index.tsx↔packages/react-router/lib/components.tsx</td>
+      <td>create-static-handler↔ssr-test</td>
+      <td>docs/routers/create-static-handler.md↔packages/router/__tests__/ssr-test.ts</td>
     </tr>
     <tr>
       <th>35</th>
-      <td>tsx↔tsx</td>
-      <td>0.407767</td>
+      <td>md↔ts</td>
+      <td>0.409091</td>
       <td>6</td>
-      <td>index↔server</td>
-      <td>packages/react-router-dom/index.tsx↔packages/react-router-dom/server.tsx</td>
+      <td>api-development-strategy↔router</td>
+      <td>docs/guides/api-development-strategy.md↔packages/router/router.ts</td>
     </tr>
     <tr>
       <th>36</th>
-      <td>tsx↔tsx</td>
-      <td>0.400000</td>
+      <td>md↔ts</td>
+      <td>0.388889</td>
       <td>7</td>
-      <td>server↔data-static-router-test</td>
-      <td>packages/react-router-dom/server.tsx↔packages/react-router-dom/__tests__/data-static-router-test.tsx</td>
+      <td>create-browser-router↔lazy-discovery-test</td>
+      <td>docs/routers/create-browser-router.md↔packages/router/__tests__/lazy-discovery-test.ts</td>
     </tr>
     <tr>
       <th>37</th>
-      <td>tsx↔tsx</td>
-      <td>0.388889</td>
+      <td>md↔ts</td>
+      <td>0.384615</td>
       <td>8</td>
-      <td>index↔exports-test</td>
-      <td>packages/react-router-dom/index.tsx↔packages/react-router-dom/__tests__/exports-test.tsx</td>
+      <td>README↔router</td>
+      <td>packages/router/README.md↔packages/router/router.ts</td>
     </tr>
     <tr>
       <th>38</th>
-      <td>tsx↔tsx</td>
+      <td>md↔ts</td>
       <td>0.375000</td>
       <td>9</td>
-      <td>index↔exports-test</td>
-      <td>packages/react-router-dom/index.tsx↔packages/react-router-native/__tests__/exports-test.tsx</td>
+      <td>use-fetcher↔router</td>
+      <td>docs/hooks/use-fetcher.md↔packages/router/router.ts</td>
     </tr>
     <tr>
       <th>39</th>
-      <td>tsx↔tsx</td>
-      <td>0.363636</td>
+      <td>md↔ts</td>
+      <td>0.370370</td>
       <td>10</td>
-      <td>link-push-test↔index</td>
-      <td>packages/react-router-dom/__tests__/link-push-test.tsx↔packages/react-router-dom/index.tsx</td>
+      <td>should-revalidate↔router</td>
+      <td>docs/route/should-revalidate.md↔packages/router/router.ts</td>
     </tr>
   </tbody>
 </table>
@@ -1806,7 +1858,7 @@ This metric is useful to identify pairs of files that are frequently changed tog
 
 
     
-![svg](GitHistoryGeneral_files/GitHistoryGeneral_77_0.svg)
+![svg](GitHistoryGeneral_files/GitHistoryGeneral_76_0.svg)
     
 
 
@@ -1830,323 +1882,323 @@ This metric is useful to identify pairs of files that are frequently changed tog
   <tbody>
     <tr>
       <th>0</th>
-      <td>json↔json</td>
-      <td>39.622222</td>
-      <td>1</td>
-      <td>package↔package</td>
-      <td>examples/error-boundaries/package.json↔examples/notes/package.json</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>json↔json</td>
-      <td>36.020202</td>
-      <td>2</td>
-      <td>package-lock↔package</td>
-      <td>examples/navigation-blocking/package-lock.json↔examples/navigation-blocking/package.json</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>json↔json</td>
-      <td>32.775735</td>
-      <td>3</td>
-      <td>package↔package</td>
-      <td>examples/custom-filter-link/package.json↔examples/custom-link/package.json</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>json↔json</td>
-      <td>32.592473</td>
-      <td>4</td>
-      <td>package↔package</td>
-      <td>examples/lazy-loading/package.json↔examples/multi-app/package.json</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>json↔json</td>
-      <td>31.839286</td>
-      <td>5</td>
-      <td>package↔package</td>
-      <td>examples/auth/package.json↔examples/custom-filter-link/package.json</td>
-    </tr>
-    <tr>
-      <th>5</th>
-      <td>json↔json</td>
-      <td>31.697778</td>
-      <td>6</td>
-      <td>package↔package</td>
-      <td>examples/notes/package.json↔examples/scroll-restoration/package.json</td>
-    </tr>
-    <tr>
-      <th>6</th>
-      <td>json↔json</td>
-      <td>31.573958</td>
-      <td>7</td>
-      <td>package↔package</td>
-      <td>examples/custom-filter-link/package.json↔examples/multi-app/package.json</td>
-    </tr>
-    <tr>
-      <th>7</th>
-      <td>json↔json</td>
-      <td>31.541103</td>
-      <td>8</td>
-      <td>package↔package</td>
-      <td>examples/custom-query-parsing/package.json↔examples/lazy-loading/package.json</td>
-    </tr>
-    <tr>
-      <th>8</th>
-      <td>json↔json</td>
-      <td>30.954861</td>
-      <td>9</td>
-      <td>package↔package</td>
-      <td>examples/basic/package.json↔examples/custom-filter-link/package.json</td>
-    </tr>
-    <tr>
-      <th>9</th>
-      <td>json↔json</td>
-      <td>30.565714</td>
-      <td>10</td>
-      <td>package↔package</td>
-      <td>examples/auth/package.json↔examples/search-params/package.json</td>
-    </tr>
-    <tr>
-      <th>10</th>
-      <td>md↔json</td>
-      <td>23.879464</td>
-      <td>1</td>
-      <td>README↔package</td>
-      <td>examples/modal/README.md↔examples/custom-filter-link/package.json</td>
-    </tr>
-    <tr>
-      <th>11</th>
-      <td>md↔json</td>
-      <td>22.474790</td>
-      <td>2</td>
-      <td>README↔package</td>
-      <td>examples/modal/README.md↔examples/custom-link/package.json</td>
-    </tr>
-    <tr>
-      <th>12</th>
-      <td>md↔json</td>
-      <td>21.832653</td>
-      <td>3</td>
-      <td>README↔package</td>
-      <td>examples/modal/README.md↔examples/auth/package.json</td>
-    </tr>
-    <tr>
-      <th>13</th>
-      <td>md↔json</td>
-      <td>21.226190</td>
-      <td>4</td>
-      <td>README↔package</td>
-      <td>examples/modal/README.md↔examples/basic/package.json</td>
-    </tr>
-    <tr>
-      <th>14</th>
-      <td>md↔json</td>
-      <td>20.377143</td>
-      <td>5</td>
-      <td>README↔package</td>
-      <td>examples/auth/README.md↔examples/auth/package.json</td>
-    </tr>
-    <tr>
-      <th>15</th>
-      <td>md↔json</td>
-      <td>19.811111</td>
-      <td>6</td>
-      <td>README↔package</td>
-      <td>examples/auth/README.md↔examples/basic/package.json</td>
-    </tr>
-    <tr>
-      <th>16</th>
-      <td>md↔json</td>
-      <td>18.572917</td>
-      <td>7</td>
-      <td>README↔package</td>
-      <td>examples/custom-filter-link/README.md↔examples/custom-filter-link/package.json</td>
-    </tr>
-    <tr>
-      <th>17</th>
-      <td>md↔json</td>
-      <td>18.524675</td>
-      <td>8</td>
-      <td>README↔package</td>
-      <td>examples/basic/README.md↔examples/auth/package.json</td>
-    </tr>
-    <tr>
-      <th>18</th>
-      <td>md↔json</td>
-      <td>18.010101</td>
-      <td>9</td>
-      <td>README↔package</td>
-      <td>examples/basic/README.md↔examples/basic/package.json</td>
-    </tr>
-    <tr>
-      <th>19</th>
-      <td>md↔json</td>
-      <td>17.480392</td>
-      <td>10</td>
-      <td>README↔package</td>
-      <td>examples/custom-filter-link/README.md↔examples/custom-link/package.json</td>
-    </tr>
-    <tr>
-      <th>20</th>
       <td>md↔md</td>
-      <td>222.875000</td>
+      <td>195.125000</td>
       <td>1</td>
       <td>README↔README</td>
       <td>examples/lazy-loading/README.md↔examples/route-objects/README.md</td>
     </tr>
     <tr>
-      <th>21</th>
+      <th>1</th>
       <td>md↔md</td>
-      <td>191.035714</td>
+      <td>167.250000</td>
       <td>2</td>
       <td>README↔README</td>
       <td>examples/modal/README.md↔examples/route-objects/README.md</td>
     </tr>
     <tr>
-      <th>22</th>
+      <th>2</th>
       <td>md↔md</td>
-      <td>176.098765</td>
+      <td>154.172840</td>
       <td>3</td>
       <td>README↔README</td>
       <td>examples/custom-filter-link/README.md↔examples/custom-link/README.md</td>
     </tr>
     <tr>
-      <th>23</th>
+      <th>3</th>
       <td>md↔md</td>
-      <td>169.809524</td>
+      <td>148.666667</td>
       <td>4</td>
       <td>README↔README</td>
       <td>examples/custom-filter-link/README.md↔examples/modal/README.md</td>
     </tr>
     <tr>
-      <th>24</th>
+      <th>4</th>
       <td>md↔md</td>
-      <td>167.156250</td>
+      <td>146.343750</td>
       <td>5</td>
       <td>README↔README</td>
       <td>examples/custom-query-parsing/README.md↔examples/route-objects/README.md</td>
     </tr>
     <tr>
-      <th>25</th>
+      <th>5</th>
       <td>md↔md</td>
-      <td>152.828571</td>
+      <td>133.800000</td>
       <td>6</td>
       <td>README↔README</td>
       <td>examples/auth/README.md↔examples/modal/README.md</td>
     </tr>
     <tr>
-      <th>26</th>
+      <th>6</th>
       <td>md↔md</td>
-      <td>148.583333</td>
+      <td>130.083333</td>
       <td>7</td>
       <td>README↔README</td>
-      <td>examples/custom-filter-link/README.md↔examples/route-objects/README.md</td>
+      <td>examples/custom-link/README.md↔examples/route-objects/README.md</td>
     </tr>
     <tr>
-      <th>27</th>
+      <th>7</th>
       <td>md↔md</td>
-      <td>142.640000</td>
+      <td>124.880000</td>
       <td>8</td>
       <td>README↔README</td>
       <td>examples/auth/README.md↔examples/search-params/README.md</td>
     </tr>
     <tr>
-      <th>28</th>
+      <th>8</th>
       <td>md↔md</td>
-      <td>138.935065</td>
+      <td>121.636364</td>
       <td>9</td>
       <td>README↔README</td>
       <td>examples/basic/README.md↔examples/modal/README.md</td>
     </tr>
     <tr>
-      <th>29</th>
+      <th>9</th>
       <td>md↔md</td>
-      <td>133.725000</td>
+      <td>117.075000</td>
       <td>10</td>
       <td>README↔README</td>
       <td>examples/auth/README.md↔examples/route-objects/README.md</td>
     </tr>
     <tr>
-      <th>30</th>
-      <td>tsx↔tsx</td>
-      <td>148.583333</td>
+      <th>10</th>
+      <td>json↔json</td>
+      <td>34.688889</td>
       <td>1</td>
-      <td>App↔App</td>
-      <td>examples/modal/src/App.tsx↔examples/search-params/src/App.tsx</td>
+      <td>package↔package</td>
+      <td>examples/error-boundaries/package.json↔examples/notes/package.json</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>json↔json</td>
+      <td>31.535354</td>
+      <td>2</td>
+      <td>package-lock↔package</td>
+      <td>examples/navigation-blocking/package-lock.json↔examples/navigation-blocking/package.json</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>json↔json</td>
+      <td>28.694853</td>
+      <td>3</td>
+      <td>package↔package</td>
+      <td>examples/custom-filter-link/package.json↔examples/custom-link/package.json</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>json↔json</td>
+      <td>28.534409</td>
+      <td>4</td>
+      <td>package↔package</td>
+      <td>examples/custom-query-parsing/package.json↔examples/multi-app/package.json</td>
+    </tr>
+    <tr>
+      <th>14</th>
+      <td>json↔json</td>
+      <td>27.875000</td>
+      <td>5</td>
+      <td>package↔package</td>
+      <td>examples/auth/package.json↔examples/custom-filter-link/package.json</td>
+    </tr>
+    <tr>
+      <th>15</th>
+      <td>json↔json</td>
+      <td>27.751111</td>
+      <td>6</td>
+      <td>package↔package</td>
+      <td>examples/notes/package.json↔examples/scroll-restoration/package.json</td>
+    </tr>
+    <tr>
+      <th>16</th>
+      <td>json↔json</td>
+      <td>27.642708</td>
+      <td>7</td>
+      <td>package↔package</td>
+      <td>examples/custom-filter-link/package.json↔examples/multi-app/package.json</td>
+    </tr>
+    <tr>
+      <th>17</th>
+      <td>json↔json</td>
+      <td>27.613944</td>
+      <td>8</td>
+      <td>package↔package</td>
+      <td>examples/custom-query-parsing/package.json↔examples/lazy-loading/package.json</td>
+    </tr>
+    <tr>
+      <th>18</th>
+      <td>json↔json</td>
+      <td>27.100694</td>
+      <td>9</td>
+      <td>package↔package</td>
+      <td>examples/basic/package.json↔examples/custom-filter-link/package.json</td>
+    </tr>
+    <tr>
+      <th>19</th>
+      <td>json↔json</td>
+      <td>26.760000</td>
+      <td>10</td>
+      <td>package↔package</td>
+      <td>examples/auth/package.json↔examples/search-params/package.json</td>
+    </tr>
+    <tr>
+      <th>20</th>
+      <td>json↔md</td>
+      <td>20.906250</td>
+      <td>1</td>
+      <td>package↔README</td>
+      <td>examples/custom-filter-link/package.json↔examples/modal/README.md</td>
+    </tr>
+    <tr>
+      <th>21</th>
+      <td>json↔md</td>
+      <td>19.676471</td>
+      <td>2</td>
+      <td>package↔README</td>
+      <td>examples/custom-link/package.json↔examples/modal/README.md</td>
+    </tr>
+    <tr>
+      <th>22</th>
+      <td>json↔md</td>
+      <td>19.114286</td>
+      <td>3</td>
+      <td>package↔README</td>
+      <td>examples/search-params/package.json↔examples/modal/README.md</td>
+    </tr>
+    <tr>
+      <th>23</th>
+      <td>json↔md</td>
+      <td>18.583333</td>
+      <td>4</td>
+      <td>package↔README</td>
+      <td>examples/basic/package.json↔examples/modal/README.md</td>
+    </tr>
+    <tr>
+      <th>24</th>
+      <td>json↔md</td>
+      <td>17.840000</td>
+      <td>5</td>
+      <td>package↔README</td>
+      <td>examples/auth/package.json↔examples/auth/README.md</td>
+    </tr>
+    <tr>
+      <th>25</th>
+      <td>json↔md</td>
+      <td>17.344444</td>
+      <td>6</td>
+      <td>package↔README</td>
+      <td>examples/basic/package.json↔examples/auth/README.md</td>
+    </tr>
+    <tr>
+      <th>26</th>
+      <td>json↔md</td>
+      <td>16.260417</td>
+      <td>7</td>
+      <td>package↔README</td>
+      <td>examples/custom-filter-link/package.json↔examples/custom-filter-link/README.md</td>
+    </tr>
+    <tr>
+      <th>27</th>
+      <td>json↔md</td>
+      <td>16.218182</td>
+      <td>8</td>
+      <td>package↔README</td>
+      <td>examples/auth/package.json↔examples/basic/README.md</td>
+    </tr>
+    <tr>
+      <th>28</th>
+      <td>json↔md</td>
+      <td>15.767677</td>
+      <td>9</td>
+      <td>package↔README</td>
+      <td>examples/basic/package.json↔examples/basic/README.md</td>
+    </tr>
+    <tr>
+      <th>29</th>
+      <td>json↔md</td>
+      <td>15.303922</td>
+      <td>10</td>
+      <td>package↔README</td>
+      <td>examples/custom-link/package.json↔examples/custom-filter-link/README.md</td>
+    </tr>
+    <tr>
+      <th>30</th>
+      <td>md↔ts</td>
+      <td>39.352941</td>
+      <td>1</td>
+      <td>create-static-handler↔ssr-test</td>
+      <td>docs/routers/create-static-handler.md↔packages/router/__tests__/ssr-test.ts</td>
     </tr>
     <tr>
       <th>31</th>
-      <td>tsx↔tsx</td>
-      <td>89.150000</td>
+      <td>md↔ts</td>
+      <td>34.688889</td>
       <td>2</td>
-      <td>App↔App</td>
-      <td>examples/custom-query-parsing/src/App.tsx↔examples/modal/src/App.tsx</td>
+      <td>should-revalidate↔should-revalidate-test</td>
+      <td>docs/route/should-revalidate.md↔packages/router/__tests__/should-revalidate-test.ts</td>
     </tr>
     <tr>
       <th>32</th>
-      <td>tsx↔tsx</td>
-      <td>81.045455</td>
+      <td>md↔ts</td>
+      <td>13.937500</td>
       <td>3</td>
-      <td>App↔App</td>
-      <td>examples/auth/src/App.tsx↔examples/modal/src/App.tsx</td>
+      <td>create-browser-router↔lazy-test</td>
+      <td>docs/routers/create-browser-router.md↔packages/router/__tests__/lazy-test.ts</td>
     </tr>
     <tr>
       <th>33</th>
-      <td>tsx↔tsx</td>
-      <td>74.291667</td>
+      <td>md↔ts</td>
+      <td>12.521390</td>
       <td>4</td>
-      <td>descendant-routes-splat-matching-test↔layout-routes-test</td>
-      <td>packages/react-router/__tests__/descendant-routes-splat-matching-test.tsx↔packages/react-router/__tests__/layout-routes-test.tsx</td>
+      <td>api-development-strategy↔ssr-test</td>
+      <td>docs/guides/api-development-strategy.md↔packages/router/__tests__/ssr-test.ts</td>
     </tr>
     <tr>
       <th>34</th>
-      <td>tsx↔tsx</td>
-      <td>64.836364</td>
+      <td>md↔ts</td>
+      <td>12.100775</td>
       <td>5</td>
-      <td>App↔App</td>
-      <td>examples/auth/src/App.tsx↔examples/custom-query-parsing/src/App.tsx</td>
+      <td>use-route-loader-data↔history</td>
+      <td>docs/hooks/use-route-loader-data.md↔packages/router/history.ts</td>
     </tr>
     <tr>
       <th>35</th>
-      <td>tsx↔tsx</td>
-      <td>43.336806</td>
+      <td>md↔ts</td>
+      <td>10.840278</td>
       <td>6</td>
-      <td>exports-test↔exports-test</td>
-      <td>packages/react-router-dom/__tests__/exports-test.tsx↔packages/react-router-native/__tests__/exports-test.tsx</td>
+      <td>create-browser-router↔lazy-discovery-test</td>
+      <td>docs/routers/create-browser-router.md↔packages/router/__tests__/lazy-discovery-test.ts</td>
     </tr>
     <tr>
       <th>36</th>
-      <td>tsx↔tsx</td>
-      <td>27.859375</td>
+      <td>md↔ts</td>
+      <td>9.338702</td>
       <td>7</td>
-      <td>index-routes-test↔matchRoutes-test</td>
-      <td>packages/react-router/__tests__/index-routes-test.tsx↔packages/react-router/__tests__/matchRoutes-test.tsx</td>
+      <td>use-submit↔dom</td>
+      <td>docs/hooks/use-submit.md↔packages/react-router-dom/dom.ts</td>
     </tr>
     <tr>
       <th>37</th>
-      <td>tsx↔tsx</td>
-      <td>25.716346</td>
+      <td>md↔ts</td>
+      <td>8.283608</td>
       <td>8</td>
-      <td>matchRoutes-test↔useMatch-test</td>
-      <td>packages/react-router/__tests__/matchRoutes-test.tsx↔packages/react-router/__tests__/useMatch-test.tsx</td>
+      <td>use-fetcher↔dom</td>
+      <td>docs/hooks/use-fetcher.md↔packages/react-router-dom/dom.ts</td>
     </tr>
     <tr>
       <th>38</th>
-      <td>tsx↔tsx</td>
-      <td>23.256522</td>
+      <td>md↔ts</td>
+      <td>6.968750</td>
       <td>9</td>
-      <td>components↔static-location-test</td>
-      <td>packages/react-router-dom-v5-compat/lib/components.tsx↔packages/react-router-dom/__tests__/static-location-test.tsx</td>
+      <td>create-browser-router↔fetchers-test</td>
+      <td>docs/routers/create-browser-router.md↔packages/router/__tests__/fetchers-test.ts</td>
     </tr>
     <tr>
       <th>39</th>
-      <td>tsx↔tsx</td>
-      <td>19.380435</td>
+      <td>md↔ts</td>
+      <td>5.522406</td>
       <td>10</td>
-      <td>useRoutes-test↔Routes-test</td>
-      <td>packages/react-router/__tests__/useRoutes-test.tsx↔packages/react-router/__tests__/Routes-test.tsx</td>
+      <td>use-navigation↔dom</td>
+      <td>docs/hooks/use-navigation.md↔packages/react-router-dom/dom.ts</td>
     </tr>
   </tbody>
 </table>
@@ -2156,7 +2208,7 @@ This metric is useful to identify pairs of files that are frequently changed tog
 
 
     
-![svg](GitHistoryGeneral_files/GitHistoryGeneral_80_0.svg)
+![svg](GitHistoryGeneral_files/GitHistoryGeneral_79_0.svg)
     
 
 
@@ -2180,166 +2232,6 @@ This metric is useful to identify pairs of files that are frequently changed tog
   <tbody>
     <tr>
       <th>0</th>
-      <td>json↔json</td>
-      <td>0.708098</td>
-      <td>1</td>
-      <td>package↔package</td>
-      <td>packages/react-router-dom/package.json↔packages/react-router/package.json</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>json↔json</td>
-      <td>0.618250</td>
-      <td>2</td>
-      <td>package↔package</td>
-      <td>packages/react-router-dom/package.json↔packages/react-router-native/package.json</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>json↔json</td>
-      <td>0.597806</td>
-      <td>3</td>
-      <td>package↔package</td>
-      <td>packages/react-router-native/package.json↔packages/react-router/package.json</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>json↔json</td>
-      <td>0.558912</td>
-      <td>4</td>
-      <td>package↔package</td>
-      <td>packages/react-router-dom-v5-compat/package.json↔packages/router/package.json</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>json↔json</td>
-      <td>0.485169</td>
-      <td>5</td>
-      <td>package↔package</td>
-      <td>packages/react-router-dom-v5-compat/package.json↔packages/react-router-native/package.json</td>
-    </tr>
-    <tr>
-      <th>5</th>
-      <td>json↔json</td>
-      <td>0.453465</td>
-      <td>6</td>
-      <td>package↔package</td>
-      <td>packages/react-router-dom-v5-compat/package.json↔packages/react-router-dom/package.json</td>
-    </tr>
-    <tr>
-      <th>6</th>
-      <td>json↔json</td>
-      <td>0.449020</td>
-      <td>7</td>
-      <td>package↔package</td>
-      <td>packages/react-router-dom-v5-compat/package.json↔packages/react-router/package.json</td>
-    </tr>
-    <tr>
-      <th>7</th>
-      <td>json↔json</td>
-      <td>0.434783</td>
-      <td>8</td>
-      <td>package↔package</td>
-      <td>examples/custom-filter-link/package.json↔examples/custom-link/package.json</td>
-    </tr>
-    <tr>
-      <th>8</th>
-      <td>json↔json</td>
-      <td>0.428571</td>
-      <td>9</td>
-      <td>package↔package</td>
-      <td>examples/auth/package.json↔examples/search-params/package.json</td>
-    </tr>
-    <tr>
-      <th>9</th>
-      <td>json↔json</td>
-      <td>0.425532</td>
-      <td>10</td>
-      <td>package↔package</td>
-      <td>examples/auth/package.json↔examples/custom-filter-link/package.json</td>
-    </tr>
-    <tr>
-      <th>10</th>
-      <td>md↔json</td>
-      <td>0.667665</td>
-      <td>1</td>
-      <td>CHANGELOG↔package</td>
-      <td>packages/react-router-dom-v5-compat/CHANGELOG.md↔packages/react-router-dom-v5-compat/package.json</td>
-    </tr>
-    <tr>
-      <th>11</th>
-      <td>md↔json</td>
-      <td>0.614334</td>
-      <td>2</td>
-      <td>CHANGELOG↔package</td>
-      <td>packages/router/CHANGELOG.md↔packages/router/package.json</td>
-    </tr>
-    <tr>
-      <th>12</th>
-      <td>md↔json</td>
-      <td>0.550459</td>
-      <td>3</td>
-      <td>CHANGELOG↔package</td>
-      <td>packages/react-router-native/CHANGELOG.md↔packages/router/package.json</td>
-    </tr>
-    <tr>
-      <th>13</th>
-      <td>md↔json</td>
-      <td>0.541916</td>
-      <td>4</td>
-      <td>CHANGELOG↔package</td>
-      <td>packages/react-router-dom/CHANGELOG.md↔packages/router/package.json</td>
-    </tr>
-    <tr>
-      <th>14</th>
-      <td>md↔json</td>
-      <td>0.533923</td>
-      <td>5</td>
-      <td>CHANGELOG↔package</td>
-      <td>packages/react-router/CHANGELOG.md↔packages/router/package.json</td>
-    </tr>
-    <tr>
-      <th>15</th>
-      <td>md↔json</td>
-      <td>0.475480</td>
-      <td>6</td>
-      <td>CHANGELOG↔package</td>
-      <td>packages/react-router-dom-v5-compat/CHANGELOG.md↔packages/react-router-native/package.json</td>
-    </tr>
-    <tr>
-      <th>16</th>
-      <td>md↔json</td>
-      <td>0.470588</td>
-      <td>7</td>
-      <td>CHANGELOG↔package</td>
-      <td>packages/react-router-dom/CHANGELOG.md↔packages/react-router-native/package.json</td>
-    </tr>
-    <tr>
-      <th>17</th>
-      <td>md↔json</td>
-      <td>0.444223</td>
-      <td>8</td>
-      <td>CHANGELOG↔package</td>
-      <td>packages/react-router-dom-v5-compat/CHANGELOG.md↔packages/react-router-dom/package.json</td>
-    </tr>
-    <tr>
-      <th>18</th>
-      <td>md↔json</td>
-      <td>0.440079</td>
-      <td>9</td>
-      <td>CHANGELOG↔package</td>
-      <td>packages/react-router-dom/CHANGELOG.md↔packages/react-router-dom/package.json</td>
-    </tr>
-    <tr>
-      <th>19</th>
-      <td>md↔json</td>
-      <td>0.439842</td>
-      <td>10</td>
-      <td>CHANGELOG↔package</td>
-      <td>packages/react-router-dom-v5-compat/CHANGELOG.md↔packages/react-router/package.json</td>
-    </tr>
-    <tr>
-      <th>20</th>
       <td>md↔md</td>
       <td>0.800000</td>
       <td>1</td>
@@ -2347,156 +2239,316 @@ This metric is useful to identify pairs of files that are frequently changed tog
       <td>examples/custom-filter-link/README.md↔examples/custom-link/README.md</td>
     </tr>
     <tr>
-      <th>21</th>
-      <td>md↔md</td>
-      <td>0.717868</td>
-      <td>2</td>
-      <td>CHANGELOG↔CHANGELOG</td>
-      <td>packages/react-router-dom-v5-compat/CHANGELOG.md↔packages/react-router-native/CHANGELOG.md</td>
-    </tr>
-    <tr>
-      <th>22</th>
-      <td>md↔md</td>
-      <td>0.703593</td>
-      <td>3</td>
-      <td>CHANGELOG↔CHANGELOG</td>
-      <td>packages/react-router-dom/CHANGELOG.md↔packages/react-router/CHANGELOG.md</td>
-    </tr>
-    <tr>
-      <th>23</th>
-      <td>md↔md</td>
-      <td>0.700306</td>
-      <td>4</td>
-      <td>CHANGELOG↔CHANGELOG</td>
-      <td>packages/react-router-dom-v5-compat/CHANGELOG.md↔packages/react-router-dom/CHANGELOG.md</td>
-    </tr>
-    <tr>
-      <th>24</th>
-      <td>md↔md</td>
-      <td>0.689759</td>
-      <td>5</td>
-      <td>CHANGELOG↔CHANGELOG</td>
-      <td>packages/react-router-native/CHANGELOG.md↔packages/react-router/CHANGELOG.md</td>
-    </tr>
-    <tr>
-      <th>25</th>
+      <th>1</th>
       <td>md↔md</td>
       <td>0.666667</td>
-      <td>6</td>
+      <td>2</td>
       <td>README↔README</td>
       <td>examples/auth/README.md↔examples/search-params/README.md</td>
     </tr>
     <tr>
-      <th>26</th>
+      <th>2</th>
       <td>md↔md</td>
       <td>0.615385</td>
-      <td>7</td>
+      <td>3</td>
       <td>README↔README</td>
       <td>examples/auth/README.md↔examples/basic/README.md</td>
     </tr>
     <tr>
-      <th>27</th>
+      <th>3</th>
       <td>md↔md</td>
       <td>0.600000</td>
-      <td>8</td>
+      <td>4</td>
       <td>README↔README</td>
       <td>examples/custom-filter-link/README.md↔examples/modal/README.md</td>
     </tr>
     <tr>
-      <th>28</th>
+      <th>4</th>
       <td>md↔md</td>
-      <td>0.587349</td>
+      <td>0.545455</td>
+      <td>5</td>
+      <td>README↔README</td>
+      <td>examples/auth/README.md↔examples/modal/README.md</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>md↔md</td>
+      <td>0.500000</td>
+      <td>6</td>
+      <td>README↔README</td>
+      <td>examples/ssr/README.md↔examples/auth/README.md</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>md↔md</td>
+      <td>0.470588</td>
+      <td>7</td>
+      <td>README↔README</td>
+      <td>examples/ssr/README.md↔examples/basic/README.md</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>md↔md</td>
+      <td>0.461538</td>
+      <td>8</td>
+      <td>README↔README</td>
+      <td>examples/auth/README.md↔examples/custom-filter-link/README.md</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>md↔md</td>
+      <td>0.428571</td>
       <td>9</td>
-      <td>CHANGELOG↔CHANGELOG</td>
-      <td>packages/react-router/CHANGELOG.md↔packages/router/CHANGELOG.md</td>
+      <td>README↔README</td>
+      <td>examples/basic/README.md↔examples/custom-filter-link/README.md</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>md↔md</td>
+      <td>0.400000</td>
+      <td>10</td>
+      <td>README↔README</td>
+      <td>examples/ssr/README.md↔examples/modal/README.md</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>json↔json</td>
+      <td>0.434783</td>
+      <td>1</td>
+      <td>package↔package</td>
+      <td>examples/custom-filter-link/package.json↔examples/custom-link/package.json</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>json↔json</td>
+      <td>0.428571</td>
+      <td>2</td>
+      <td>package↔package</td>
+      <td>examples/auth/package.json↔examples/search-params/package.json</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>json↔json</td>
+      <td>0.425532</td>
+      <td>3</td>
+      <td>package↔package</td>
+      <td>examples/auth/package.json↔examples/custom-filter-link/package.json</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>json↔json</td>
+      <td>0.420000</td>
+      <td>4</td>
+      <td>package↔package</td>
+      <td>examples/auth/package.json↔examples/basic/package.json</td>
+    </tr>
+    <tr>
+      <th>14</th>
+      <td>json↔json</td>
+      <td>0.416667</td>
+      <td>5</td>
+      <td>package↔package</td>
+      <td>examples/basic/package.json↔examples/custom-filter-link/package.json</td>
+    </tr>
+    <tr>
+      <th>15</th>
+      <td>json↔json</td>
+      <td>0.408163</td>
+      <td>6</td>
+      <td>package↔package</td>
+      <td>examples/auth/package.json↔examples/custom-link/package.json</td>
+    </tr>
+    <tr>
+      <th>16</th>
+      <td>json↔json</td>
+      <td>0.406202</td>
+      <td>7</td>
+      <td>package↔package</td>
+      <td>packages/react-router-dom/package.json↔packages/react-router/package.json</td>
+    </tr>
+    <tr>
+      <th>17</th>
+      <td>json↔json</td>
+      <td>0.400000</td>
+      <td>8</td>
+      <td>package↔package</td>
+      <td>examples/basic/package.json↔examples/custom-link/package.json</td>
+    </tr>
+    <tr>
+      <th>18</th>
+      <td>json↔json</td>
+      <td>0.392157</td>
+      <td>9</td>
+      <td>package↔package</td>
+      <td>examples/basic/package.json↔examples/modal/package.json</td>
+    </tr>
+    <tr>
+      <th>19</th>
+      <td>json↔json</td>
+      <td>0.386364</td>
+      <td>10</td>
+      <td>package↔package</td>
+      <td>examples/custom-query-parsing/package.json↔examples/multi-app/package.json</td>
+    </tr>
+    <tr>
+      <th>20</th>
+      <td>json↔md</td>
+      <td>0.243304</td>
+      <td>1</td>
+      <td>package↔CHANGELOG</td>
+      <td>packages/react-router-dom-v5-compat/package.json↔packages/react-router-dom-v5-compat/CHANGELOG.md</td>
+    </tr>
+    <tr>
+      <th>21</th>
+      <td>json↔md</td>
+      <td>0.241758</td>
+      <td>2</td>
+      <td>package↔CHANGELOG</td>
+      <td>packages/react-router-dom-v5-compat/package.json↔packages/react-router-dom/CHANGELOG.md</td>
+    </tr>
+    <tr>
+      <th>22</th>
+      <td>json↔md</td>
+      <td>0.241470</td>
+      <td>3</td>
+      <td>package↔CHANGELOG</td>
+      <td>packages/router/package.json↔packages/router/CHANGELOG.md</td>
+    </tr>
+    <tr>
+      <th>23</th>
+      <td>json↔md</td>
+      <td>0.239130</td>
+      <td>4</td>
+      <td>package↔CHANGELOG</td>
+      <td>packages/react-router-dom-v5-compat/package.json↔packages/react-router/CHANGELOG.md</td>
+    </tr>
+    <tr>
+      <th>24</th>
+      <td>json↔md</td>
+      <td>0.221687</td>
+      <td>5</td>
+      <td>package↔CHANGELOG</td>
+      <td>packages/router/package.json↔packages/react-router-dom-v5-compat/CHANGELOG.md</td>
+    </tr>
+    <tr>
+      <th>25</th>
+      <td>json↔md</td>
+      <td>0.220379</td>
+      <td>6</td>
+      <td>package↔CHANGELOG</td>
+      <td>packages/router/package.json↔packages/react-router-dom/CHANGELOG.md</td>
+    </tr>
+    <tr>
+      <th>26</th>
+      <td>json↔md</td>
+      <td>0.217799</td>
+      <td>7</td>
+      <td>package↔CHANGELOG</td>
+      <td>packages/router/package.json↔packages/react-router/CHANGELOG.md</td>
+    </tr>
+    <tr>
+      <th>27</th>
+      <td>json↔md</td>
+      <td>0.216279</td>
+      <td>8</td>
+      <td>package↔CHANGELOG</td>
+      <td>packages/react-router-dom-v5-compat/package.json↔packages/router/CHANGELOG.md</td>
+    </tr>
+    <tr>
+      <th>28</th>
+      <td>json↔md</td>
+      <td>0.186964</td>
+      <td>9</td>
+      <td>package↔CHANGELOG</td>
+      <td>packages/react-router-native/package.json↔packages/react-router-dom-v5-compat/CHANGELOG.md</td>
     </tr>
     <tr>
       <th>29</th>
-      <td>md↔md</td>
-      <td>0.586626</td>
+      <td>json↔md</td>
+      <td>0.186441</td>
       <td>10</td>
-      <td>CHANGELOG↔CHANGELOG</td>
-      <td>packages/react-router-dom/CHANGELOG.md↔packages/router/CHANGELOG.md</td>
+      <td>package↔CHANGELOG</td>
+      <td>packages/react-router-native/package.json↔packages/react-router-dom/CHANGELOG.md</td>
     </tr>
     <tr>
       <th>30</th>
-      <td>tsx↔tsx</td>
-      <td>0.333333</td>
+      <td>md↔ts</td>
+      <td>0.160494</td>
       <td>1</td>
-      <td>App↔App</td>
-      <td>examples/modal/src/App.tsx↔examples/search-params/src/App.tsx</td>
+      <td>use-submit↔dom</td>
+      <td>docs/hooks/use-submit.md↔packages/react-router-dom/dom.ts</td>
     </tr>
     <tr>
       <th>31</th>
-      <td>tsx↔tsx</td>
-      <td>0.259259</td>
+      <td>md↔ts</td>
+      <td>0.142857</td>
       <td>2</td>
-      <td>exports-test↔exports-test</td>
-      <td>packages/react-router-dom/__tests__/exports-test.tsx↔packages/react-router-native/__tests__/exports-test.tsx</td>
+      <td>create-static-handler↔ssr-test</td>
+      <td>docs/routers/create-static-handler.md↔packages/router/__tests__/ssr-test.ts</td>
     </tr>
     <tr>
       <th>32</th>
-      <td>tsx↔tsx</td>
-      <td>0.250000</td>
+      <td>md↔ts</td>
+      <td>0.118421</td>
       <td>3</td>
-      <td>descendant-routes-splat-matching-test↔layout-routes-test</td>
-      <td>packages/react-router/__tests__/descendant-routes-splat-matching-test.tsx↔packages/react-router/__tests__/layout-routes-test.tsx</td>
+      <td>use-fetcher↔dom</td>
+      <td>docs/hooks/use-fetcher.md↔packages/react-router-dom/dom.ts</td>
     </tr>
     <tr>
       <th>33</th>
-      <td>tsx↔tsx</td>
-      <td>0.235294</td>
+      <td>md↔ts</td>
+      <td>0.104478</td>
       <td>4</td>
-      <td>App↔App</td>
-      <td>examples/auth/src/App.tsx↔examples/custom-query-parsing/src/App.tsx</td>
+      <td>create-browser-router↔lazy-discovery-test</td>
+      <td>docs/routers/create-browser-router.md↔packages/router/__tests__/lazy-discovery-test.ts</td>
     </tr>
     <tr>
       <th>34</th>
-      <td>tsx↔tsx</td>
-      <td>0.230769</td>
+      <td>md↔ts</td>
+      <td>0.103448</td>
       <td>5</td>
-      <td>App↔App</td>
-      <td>examples/custom-query-parsing/src/App.tsx↔examples/modal/src/App.tsx</td>
+      <td>should-revalidate↔should-revalidate-test</td>
+      <td>docs/route/should-revalidate.md↔packages/router/__tests__/should-revalidate-test.ts</td>
     </tr>
     <tr>
       <th>35</th>
-      <td>tsx↔tsx</td>
-      <td>0.214286</td>
+      <td>md↔ts</td>
+      <td>0.088889</td>
       <td>6</td>
-      <td>App↔App</td>
-      <td>examples/auth/src/App.tsx↔examples/modal/src/App.tsx</td>
+      <td>form↔dom</td>
+      <td>docs/components/form.md↔packages/react-router-dom/dom.ts</td>
     </tr>
     <tr>
       <th>36</th>
-      <td>tsx↔tsx</td>
-      <td>0.191275</td>
+      <td>md↔ts</td>
+      <td>0.083333</td>
       <td>7</td>
-      <td>index↔index</td>
-      <td>packages/react-router-native/index.tsx↔packages/react-router-dom/index.tsx</td>
+      <td>api-development-strategy↔ssr-test</td>
+      <td>docs/guides/api-development-strategy.md↔packages/router/__tests__/ssr-test.ts</td>
     </tr>
     <tr>
       <th>37</th>
-      <td>tsx↔tsx</td>
-      <td>0.161137</td>
+      <td>md↔ts</td>
+      <td>0.075000</td>
       <td>8</td>
-      <td>hooks↔components</td>
-      <td>packages/react-router/lib/hooks.tsx↔packages/react-router/lib/components.tsx</td>
+      <td>should-revalidate↔fetchers-test</td>
+      <td>docs/route/should-revalidate.md↔packages/router/__tests__/fetchers-test.ts</td>
     </tr>
     <tr>
       <th>38</th>
-      <td>tsx↔tsx</td>
-      <td>0.156250</td>
+      <td>md↔ts</td>
+      <td>0.068376</td>
       <td>9</td>
-      <td>data-browser-router-test↔index</td>
-      <td>packages/react-router-dom/__tests__/data-browser-router-test.tsx↔packages/react-router-dom/index.tsx</td>
+      <td>create-browser-router↔index</td>
+      <td>docs/routers/create-browser-router.md↔packages/router/index.ts</td>
     </tr>
     <tr>
       <th>39</th>
-      <td>tsx↔tsx</td>
-      <td>0.144615</td>
+      <td>md↔ts</td>
+      <td>0.061224</td>
       <td>10</td>
-      <td>index↔components</td>
-      <td>packages/react-router-dom/index.tsx↔packages/react-router/lib/components.tsx</td>
+      <td>use-route-loader-data↔history</td>
+      <td>docs/hooks/use-route-loader-data.md↔packages/router/history.ts</td>
     </tr>
   </tbody>
 </table>
@@ -2506,7 +2558,7 @@ This metric is useful to identify pairs of files that are frequently changed tog
 
 
     
-![svg](GitHistoryGeneral_files/GitHistoryGeneral_83_0.svg)
+![svg](GitHistoryGeneral_files/GitHistoryGeneral_82_0.svg)
     
 
 
@@ -2540,301 +2592,301 @@ This is useful to identify pairs of files that score high in most metrics, which
       <th>0</th>
       <td>json↔json</td>
       <td>package↔package</td>
-      <td>26</td>
+      <td>13</td>
       <td>8</td>
-      <td>7</td>
-      <td>8</td>
+      <td>1</td>
+      <td>1</td>
       <td>3</td>
       <td>20</td>
       <td>0.625000</td>
       <td>0.434783</td>
-      <td>32.775735</td>
+      <td>28.694853</td>
       <td>examples/custom-filter-link/package.json↔examples/custom-link/package.json</td>
     </tr>
     <tr>
       <th>1</th>
       <td>json↔json</td>
       <td>package↔package</td>
-      <td>30</td>
+      <td>17</td>
       <td>8</td>
-      <td>7</td>
-      <td>10</td>
+      <td>1</td>
+      <td>3</td>
       <td>5</td>
       <td>20</td>
       <td>0.625000</td>
       <td>0.425532</td>
-      <td>31.839286</td>
+      <td>27.875000</td>
       <td>examples/auth/package.json↔examples/custom-filter-link/package.json</td>
     </tr>
     <tr>
       <th>2</th>
       <td>json↔json</td>
       <td>package↔package</td>
-      <td>30</td>
+      <td>17</td>
       <td>8</td>
-      <td>7</td>
-      <td>10</td>
+      <td>1</td>
+      <td>3</td>
       <td>5</td>
       <td>20</td>
       <td>0.625000</td>
       <td>0.425532</td>
-      <td>31.839286</td>
+      <td>27.875000</td>
       <td>examples/custom-filter-link/package.json↔examples/modal/package.json</td>
     </tr>
     <tr>
       <th>3</th>
       <td>json↔json</td>
       <td>package↔package</td>
-      <td>30</td>
+      <td>17</td>
       <td>8</td>
-      <td>7</td>
-      <td>10</td>
+      <td>1</td>
+      <td>3</td>
       <td>5</td>
       <td>20</td>
       <td>0.625000</td>
       <td>0.425532</td>
-      <td>31.839286</td>
+      <td>27.875000</td>
       <td>examples/custom-filter-link/package.json↔examples/search-params/package.json</td>
     </tr>
     <tr>
       <th>4</th>
       <td>json↔json</td>
       <td>package↔package</td>
-      <td>30</td>
+      <td>17</td>
       <td>8</td>
-      <td>7</td>
-      <td>10</td>
+      <td>1</td>
+      <td>3</td>
       <td>5</td>
       <td>20</td>
       <td>0.625000</td>
       <td>0.425532</td>
-      <td>31.839286</td>
+      <td>27.875000</td>
       <td>examples/custom-filter-link/package.json↔examples/ssr/package.json</td>
     </tr>
     <tr>
       <th>5</th>
       <td>json↔json</td>
       <td>package↔package</td>
-      <td>34</td>
+      <td>21</td>
       <td>7</td>
-      <td>8</td>
-      <td>9</td>
+      <td>2</td>
+      <td>2</td>
       <td>10</td>
       <td>21</td>
       <td>0.600000</td>
       <td>0.428571</td>
-      <td>30.565714</td>
+      <td>26.760000</td>
       <td>examples/auth/package.json↔examples/search-params/package.json</td>
     </tr>
     <tr>
       <th>6</th>
       <td>json↔json</td>
       <td>package↔package</td>
-      <td>34</td>
+      <td>21</td>
       <td>7</td>
-      <td>8</td>
-      <td>9</td>
+      <td>2</td>
+      <td>2</td>
       <td>10</td>
       <td>21</td>
       <td>0.600000</td>
       <td>0.428571</td>
-      <td>30.565714</td>
+      <td>26.760000</td>
       <td>examples/search-params/package.json↔examples/ssr/package.json</td>
     </tr>
     <tr>
       <th>7</th>
       <td>json↔json</td>
       <td>package↔package</td>
-      <td>34</td>
+      <td>21</td>
       <td>7</td>
-      <td>8</td>
-      <td>9</td>
+      <td>2</td>
+      <td>2</td>
       <td>10</td>
       <td>21</td>
       <td>0.600000</td>
       <td>0.428571</td>
-      <td>30.565714</td>
+      <td>26.760000</td>
       <td>examples/auth/package.json↔examples/ssr/package.json</td>
     </tr>
     <tr>
       <th>8</th>
       <td>json↔json</td>
       <td>package↔package</td>
-      <td>36</td>
+      <td>23</td>
       <td>8</td>
-      <td>7</td>
-      <td>12</td>
+      <td>1</td>
+      <td>5</td>
       <td>9</td>
       <td>20</td>
       <td>0.625000</td>
       <td>0.416667</td>
-      <td>30.954861</td>
+      <td>27.100694</td>
       <td>examples/basic/package.json↔examples/custom-filter-link/package.json</td>
     </tr>
     <tr>
       <th>9</th>
       <td>json↔json</td>
       <td>package↔package</td>
-      <td>39</td>
+      <td>26</td>
       <td>7</td>
-      <td>8</td>
-      <td>11</td>
+      <td>2</td>
+      <td>4</td>
       <td>13</td>
       <td>21</td>
       <td>0.600000</td>
       <td>0.420000</td>
-      <td>29.716667</td>
+      <td>26.016667</td>
       <td>examples/auth/package.json↔examples/basic/package.json</td>
     </tr>
     <tr>
       <th>10</th>
-      <td>md↔json</td>
-      <td>CHANGELOG↔package</td>
-      <td>29</td>
+      <td>json↔md</td>
+      <td>package↔CHANGELOG</td>
+      <td>35</td>
       <td>2</td>
+      <td>4</td>
       <td>1</td>
-      <td>1</td>
-      <td>25</td>
-      <td>223</td>
-      <td>0.813869</td>
-      <td>0.667665</td>
-      <td>5.127660</td>
-      <td>packages/react-router-dom-v5-compat/CHANGELOG.md↔packages/react-router-dom-v5-compat/package.json</td>
+      <td>28</td>
+      <td>109</td>
+      <td>0.397810</td>
+      <td>0.243304</td>
+      <td>2.194282</td>
+      <td>packages/react-router-dom-v5-compat/package.json↔packages/react-router-dom-v5-compat/CHANGELOG.md</td>
     </tr>
     <tr>
       <th>11</th>
-      <td>md↔json</td>
-      <td>README↔package</td>
-      <td>32</td>
-      <td>7</td>
-      <td>7</td>
-      <td>13</td>
-      <td>5</td>
+      <td>json↔md</td>
+      <td>package↔CHANGELOG</td>
+      <td>35</td>
+      <td>2</td>
       <td>4</td>
-      <td>0.400000</td>
-      <td>0.097561</td>
-      <td>20.377143</td>
-      <td>examples/auth/README.md↔examples/auth/package.json</td>
+      <td>1</td>
+      <td>28</td>
+      <td>109</td>
+      <td>0.397810</td>
+      <td>0.243304</td>
+      <td>2.194282</td>
+      <td>packages/react-router-dom-v5-compat/package.json↔packages/react-router-native/CHANGELOG.md</td>
     </tr>
     <tr>
       <th>12</th>
-      <td>md↔json</td>
-      <td>README↔package</td>
-      <td>32</td>
-      <td>7</td>
-      <td>7</td>
-      <td>13</td>
-      <td>5</td>
+      <td>json↔md</td>
+      <td>package↔CHANGELOG</td>
+      <td>36</td>
       <td>4</td>
-      <td>0.400000</td>
-      <td>0.097561</td>
-      <td>20.377143</td>
-      <td>examples/search-params/README.md↔examples/auth/package.json</td>
+      <td>5</td>
+      <td>3</td>
+      <td>24</td>
+      <td>92</td>
+      <td>0.394850</td>
+      <td>0.241470</td>
+      <td>2.568169</td>
+      <td>packages/router/package.json↔packages/router/CHANGELOG.md</td>
     </tr>
     <tr>
       <th>13</th>
-      <td>md↔json</td>
-      <td>README↔package</td>
-      <td>32</td>
-      <td>7</td>
-      <td>7</td>
-      <td>13</td>
+      <td>json↔md</td>
+      <td>package↔README</td>
+      <td>37</td>
+      <td>10</td>
+      <td>2</td>
+      <td>20</td>
       <td>5</td>
       <td>4</td>
       <td>0.400000</td>
       <td>0.097561</td>
-      <td>20.377143</td>
-      <td>examples/auth/README.md↔examples/search-params/package.json</td>
+      <td>17.840000</td>
+      <td>examples/auth/package.json↔examples/auth/README.md</td>
     </tr>
     <tr>
       <th>14</th>
-      <td>md↔json</td>
-      <td>README↔package</td>
-      <td>32</td>
-      <td>7</td>
-      <td>7</td>
-      <td>13</td>
+      <td>json↔md</td>
+      <td>package↔README</td>
+      <td>37</td>
+      <td>10</td>
+      <td>2</td>
+      <td>20</td>
       <td>5</td>
       <td>4</td>
       <td>0.400000</td>
       <td>0.097561</td>
-      <td>20.377143</td>
-      <td>examples/search-params/README.md↔examples/search-params/package.json</td>
+      <td>17.840000</td>
+      <td>examples/ssr/package.json↔examples/auth/README.md</td>
     </tr>
     <tr>
       <th>15</th>
-      <td>md↔json</td>
-      <td>README↔package</td>
-      <td>32</td>
-      <td>7</td>
-      <td>7</td>
-      <td>13</td>
+      <td>json↔md</td>
+      <td>package↔README</td>
+      <td>37</td>
+      <td>10</td>
+      <td>2</td>
+      <td>20</td>
       <td>5</td>
       <td>4</td>
       <td>0.400000</td>
       <td>0.097561</td>
-      <td>20.377143</td>
-      <td>examples/search-params/README.md↔examples/ssr/package.json</td>
+      <td>17.840000</td>
+      <td>examples/search-params/package.json↔examples/auth/README.md</td>
     </tr>
     <tr>
       <th>16</th>
-      <td>md↔json</td>
-      <td>README↔package</td>
-      <td>32</td>
-      <td>7</td>
-      <td>7</td>
-      <td>13</td>
+      <td>json↔md</td>
+      <td>package↔README</td>
+      <td>37</td>
+      <td>10</td>
+      <td>2</td>
+      <td>20</td>
       <td>5</td>
       <td>4</td>
       <td>0.400000</td>
       <td>0.097561</td>
-      <td>20.377143</td>
-      <td>examples/auth/README.md↔examples/ssr/package.json</td>
+      <td>17.840000</td>
+      <td>examples/search-params/package.json↔examples/search-params/README.md</td>
     </tr>
     <tr>
       <th>17</th>
-      <td>md↔json</td>
-      <td>README↔package</td>
-      <td>33</td>
-      <td>8</td>
-      <td>6</td>
-      <td>18</td>
+      <td>json↔md</td>
+      <td>package↔README</td>
+      <td>37</td>
+      <td>10</td>
+      <td>2</td>
+      <td>20</td>
+      <td>5</td>
+      <td>4</td>
+      <td>0.400000</td>
+      <td>0.097561</td>
+      <td>17.840000</td>
+      <td>examples/ssr/package.json↔examples/search-params/README.md</td>
+    </tr>
+    <tr>
+      <th>18</th>
+      <td>json↔md</td>
+      <td>package↔README</td>
+      <td>37</td>
+      <td>10</td>
+      <td>2</td>
+      <td>20</td>
+      <td>5</td>
+      <td>4</td>
+      <td>0.400000</td>
+      <td>0.097561</td>
+      <td>17.840000</td>
+      <td>examples/auth/package.json↔examples/search-params/README.md</td>
+    </tr>
+    <tr>
+      <th>19</th>
+      <td>json↔md</td>
+      <td>package↔README</td>
+      <td>38</td>
+      <td>11</td>
+      <td>1</td>
+      <td>25</td>
       <td>1</td>
       <td>3</td>
       <td>0.428571</td>
       <td>0.083333</td>
-      <td>23.879464</td>
-      <td>examples/modal/README.md↔examples/custom-filter-link/package.json</td>
-    </tr>
-    <tr>
-      <th>18</th>
-      <td>md↔json</td>
-      <td>README↔package</td>
-      <td>34</td>
-      <td>7</td>
-      <td>7</td>
-      <td>14</td>
-      <td>6</td>
-      <td>4</td>
-      <td>0.400000</td>
-      <td>0.095238</td>
-      <td>19.811111</td>
-      <td>examples/auth/README.md↔examples/basic/package.json</td>
-    </tr>
-    <tr>
-      <th>19</th>
-      <td>md↔json</td>
-      <td>README↔package</td>
-      <td>34</td>
-      <td>7</td>
-      <td>7</td>
-      <td>14</td>
-      <td>6</td>
-      <td>4</td>
-      <td>0.400000</td>
-      <td>0.095238</td>
-      <td>19.811111</td>
-      <td>examples/search-params/README.md↔examples/basic/package.json</td>
+      <td>20.906250</td>
+      <td>examples/custom-filter-link/package.json↔examples/modal/README.md</td>
     </tr>
     <tr>
       <th>20</th>
@@ -2848,293 +2900,293 @@ This is useful to identify pairs of files that score high in most metrics, which
       <td>8</td>
       <td>0.888889</td>
       <td>0.800000</td>
-      <td>176.098765</td>
+      <td>154.172840</td>
       <td>examples/custom-filter-link/README.md↔examples/custom-link/README.md</td>
     </tr>
     <tr>
       <th>21</th>
       <td>md↔md</td>
       <td>README↔README</td>
-      <td>26</td>
+      <td>22</td>
       <td>12</td>
       <td>2</td>
-      <td>8</td>
+      <td>4</td>
       <td>4</td>
       <td>6</td>
       <td>0.857143</td>
       <td>0.600000</td>
-      <td>169.809524</td>
+      <td>148.666667</td>
       <td>examples/custom-filter-link/README.md↔examples/modal/README.md</td>
     </tr>
     <tr>
       <th>22</th>
       <td>md↔md</td>
       <td>README↔README</td>
-      <td>26</td>
+      <td>22</td>
       <td>12</td>
       <td>2</td>
-      <td>8</td>
+      <td>4</td>
       <td>4</td>
       <td>6</td>
       <td>0.857143</td>
       <td>0.600000</td>
-      <td>169.809524</td>
+      <td>148.666667</td>
       <td>examples/custom-link/README.md↔examples/modal/README.md</td>
     </tr>
     <tr>
       <th>23</th>
       <td>md↔md</td>
       <td>README↔README</td>
-      <td>31</td>
+      <td>23</td>
       <td>10</td>
-      <td>7</td>
-      <td>6</td>
+      <td>3</td>
+      <td>2</td>
       <td>8</td>
       <td>8</td>
       <td>0.800000</td>
       <td>0.666667</td>
-      <td>142.640000</td>
+      <td>124.880000</td>
       <td>examples/auth/README.md↔examples/search-params/README.md</td>
     </tr>
     <tr>
       <th>24</th>
       <td>md↔md</td>
       <td>README↔README</td>
-      <td>32</td>
+      <td>25</td>
       <td>12</td>
       <td>2</td>
-      <td>12</td>
+      <td>5</td>
       <td>6</td>
       <td>6</td>
       <td>0.857143</td>
       <td>0.545455</td>
-      <td>152.828571</td>
+      <td>133.800000</td>
       <td>examples/auth/README.md↔examples/modal/README.md</td>
     </tr>
     <tr>
       <th>25</th>
       <td>md↔md</td>
       <td>README↔README</td>
-      <td>32</td>
+      <td>25</td>
       <td>12</td>
       <td>2</td>
-      <td>12</td>
+      <td>5</td>
       <td>6</td>
       <td>6</td>
       <td>0.857143</td>
       <td>0.545455</td>
-      <td>152.828571</td>
+      <td>133.800000</td>
       <td>examples/modal/README.md↔examples/search-params/README.md</td>
     </tr>
     <tr>
       <th>26</th>
       <td>md↔md</td>
       <td>README↔README</td>
-      <td>35</td>
+      <td>27</td>
       <td>10</td>
-      <td>7</td>
-      <td>7</td>
+      <td>3</td>
+      <td>3</td>
       <td>11</td>
       <td>8</td>
       <td>0.800000</td>
       <td>0.615385</td>
-      <td>129.672727</td>
+      <td>113.527273</td>
       <td>examples/auth/README.md↔examples/basic/README.md</td>
     </tr>
     <tr>
       <th>27</th>
       <td>md↔md</td>
       <td>README↔README</td>
-      <td>35</td>
+      <td>27</td>
       <td>10</td>
-      <td>7</td>
-      <td>7</td>
+      <td>3</td>
+      <td>3</td>
       <td>11</td>
       <td>8</td>
       <td>0.800000</td>
       <td>0.615385</td>
-      <td>129.672727</td>
+      <td>113.527273</td>
       <td>examples/basic/README.md↔examples/search-params/README.md</td>
     </tr>
     <tr>
       <th>28</th>
       <td>md↔md</td>
       <td>README↔README</td>
-      <td>36</td>
+      <td>29</td>
       <td>12</td>
       <td>2</td>
-      <td>13</td>
+      <td>6</td>
       <td>9</td>
       <td>6</td>
       <td>0.857143</td>
       <td>0.500000</td>
-      <td>138.935065</td>
+      <td>121.636364</td>
       <td>examples/basic/README.md↔examples/modal/README.md</td>
     </tr>
     <tr>
       <th>29</th>
       <td>md↔md</td>
       <td>README↔README</td>
-      <td>41</td>
+      <td>29</td>
       <td>15</td>
+      <td>4</td>
       <td>9</td>
-      <td>16</td>
       <td>1</td>
       <td>3</td>
       <td>0.750000</td>
       <td>0.428571</td>
-      <td>222.875000</td>
+      <td>195.125000</td>
       <td>examples/lazy-loading/README.md↔examples/route-objects/README.md</td>
     </tr>
     <tr>
       <th>30</th>
-      <td>tsx↔tsx</td>
-      <td>App↔App</td>
-      <td>28</td>
-      <td>24</td>
+      <td>md↔ts</td>
+      <td>create-static-handler↔ssr-test</td>
+      <td>26</td>
+      <td>18</td>
+      <td>5</td>
       <td>2</td>
       <td>1</td>
-      <td>1</td>
       <td>3</td>
-      <td>0.500000</td>
-      <td>0.333333</td>
-      <td>148.583333</td>
-      <td>examples/modal/src/App.tsx↔examples/search-params/src/App.tsx</td>
+      <td>0.428571</td>
+      <td>0.142857</td>
+      <td>39.352941</td>
+      <td>docs/routers/create-static-handler.md↔packages/router/__tests__/ssr-test.ts</td>
     </tr>
     <tr>
       <th>31</th>
-      <td>tsx↔tsx</td>
-      <td>exports-test↔exports-test</td>
-      <td>32</td>
-      <td>20</td>
-      <td>4</td>
+      <td>md↔ts</td>
+      <td>should-revalidate↔should-revalidate-test</td>
+      <td>27</td>
+      <td>18</td>
       <td>2</td>
-      <td>6</td>
-      <td>7</td>
-      <td>0.437500</td>
-      <td>0.259259</td>
-      <td>43.336806</td>
-      <td>packages/react-router-dom/__tests__/exports-test.tsx↔packages/react-router-native/__tests__/exports-test.tsx</td>
+      <td>5</td>
+      <td>2</td>
+      <td>3</td>
+      <td>0.600000</td>
+      <td>0.103448</td>
+      <td>34.688889</td>
+      <td>docs/route/should-revalidate.md↔packages/router/__tests__/should-revalidate-test.ts</td>
     </tr>
     <tr>
       <th>32</th>
-      <td>tsx↔tsx</td>
-      <td>descendant-routes-splat-matching-test↔layout-routes-test</td>
-      <td>32</td>
-      <td>23</td>
-      <td>2</td>
-      <td>3</td>
-      <td>4</td>
-      <td>4</td>
-      <td>0.500000</td>
-      <td>0.250000</td>
-      <td>74.291667</td>
-      <td>packages/react-router/__tests__/descendant-routes-splat-matching-test.tsx↔packages/react-router/__tests__/layout-routes-test.tsx</td>
+      <td>md↔ts</td>
+      <td>use-submit↔dom</td>
+      <td>31</td>
+      <td>9</td>
+      <td>14</td>
+      <td>1</td>
+      <td>7</td>
+      <td>13</td>
+      <td>0.317073</td>
+      <td>0.160494</td>
+      <td>9.338702</td>
+      <td>docs/hooks/use-submit.md↔packages/react-router-dom/dom.ts</td>
     </tr>
     <tr>
       <th>33</th>
-      <td>tsx↔tsx</td>
-      <td>App↔App</td>
-      <td>33</td>
-      <td>24</td>
-      <td>2</td>
-      <td>5</td>
-      <td>2</td>
-      <td>3</td>
-      <td>0.500000</td>
-      <td>0.230769</td>
-      <td>89.150000</td>
-      <td>examples/custom-query-parsing/src/App.tsx↔examples/modal/src/App.tsx</td>
+      <td>md↔ts</td>
+      <td>create-browser-router↔lazy-discovery-test</td>
+      <td>31</td>
+      <td>14</td>
+      <td>7</td>
+      <td>4</td>
+      <td>6</td>
+      <td>7</td>
+      <td>0.388889</td>
+      <td>0.104478</td>
+      <td>10.840278</td>
+      <td>docs/routers/create-browser-router.md↔packages/router/__tests__/lazy-discovery-test.ts</td>
     </tr>
     <tr>
       <th>34</th>
-      <td>tsx↔tsx</td>
-      <td>App↔App</td>
-      <td>33</td>
-      <td>24</td>
-      <td>2</td>
-      <td>5</td>
-      <td>2</td>
+      <td>md↔ts</td>
+      <td>use-fetcher↔dom</td>
+      <td>40</td>
+      <td>12</td>
+      <td>17</td>
       <td>3</td>
-      <td>0.500000</td>
-      <td>0.230769</td>
-      <td>89.150000</td>
-      <td>examples/custom-query-parsing/src/App.tsx↔examples/search-params/src/App.tsx</td>
+      <td>8</td>
+      <td>9</td>
+      <td>0.281250</td>
+      <td>0.118421</td>
+      <td>8.283608</td>
+      <td>docs/hooks/use-fetcher.md↔packages/react-router-dom/dom.ts</td>
     </tr>
     <tr>
       <th>35</th>
-      <td>tsx↔tsx</td>
-      <td>App↔App</td>
-      <td>35</td>
-      <td>24</td>
-      <td>2</td>
-      <td>6</td>
+      <td>md↔ts</td>
+      <td>create-browser-router↔lazy-test</td>
+      <td>45</td>
+      <td>18</td>
+      <td>3</td>
+      <td>21</td>
       <td>3</td>
       <td>3</td>
       <td>0.500000</td>
-      <td>0.214286</td>
-      <td>81.045455</td>
-      <td>examples/auth/src/App.tsx↔examples/modal/src/App.tsx</td>
+      <td>0.050847</td>
+      <td>13.937500</td>
+      <td>docs/routers/create-browser-router.md↔packages/router/__tests__/lazy-test.ts</td>
     </tr>
     <tr>
       <th>36</th>
-      <td>tsx↔tsx</td>
-      <td>App↔App</td>
-      <td>35</td>
-      <td>24</td>
-      <td>2</td>
-      <td>6</td>
+      <td>md↔ts</td>
+      <td>use-route-loader-data↔history</td>
+      <td>45</td>
+      <td>18</td>
+      <td>12</td>
+      <td>10</td>
+      <td>5</td>
       <td>3</td>
-      <td>3</td>
-      <td>0.500000</td>
-      <td>0.214286</td>
-      <td>81.045455</td>
-      <td>examples/auth/src/App.tsx↔examples/search-params/src/App.tsx</td>
+      <td>0.333333</td>
+      <td>0.061224</td>
+      <td>12.100775</td>
+      <td>docs/hooks/use-route-loader-data.md↔packages/router/history.ts</td>
     </tr>
     <tr>
       <th>37</th>
-      <td>tsx↔tsx</td>
-      <td>App↔App</td>
-      <td>39</td>
-      <td>23</td>
-      <td>7</td>
+      <td>md↔ts</td>
+      <td>create-browser-router↔fetchers-test</td>
+      <td>59</td>
+      <td>17</td>
+      <td>19</td>
+      <td>14</td>
+      <td>9</td>
       <td>4</td>
-      <td>5</td>
-      <td>4</td>
-      <td>0.400000</td>
-      <td>0.235294</td>
-      <td>64.836364</td>
-      <td>examples/auth/src/App.tsx↔examples/custom-query-parsing/src/App.tsx</td>
+      <td>0.250000</td>
+      <td>0.058824</td>
+      <td>6.968750</td>
+      <td>docs/routers/create-browser-router.md↔packages/router/__tests__/fetchers-test.ts</td>
     </tr>
     <tr>
       <th>38</th>
-      <td>tsx↔tsx</td>
-      <td>index↔index</td>
-      <td>44</td>
-      <td>1</td>
-      <td>1</td>
-      <td>7</td>
-      <td>35</td>
-      <td>57</td>
-      <td>0.600000</td>
-      <td>0.191275</td>
-      <td>4.114615</td>
-      <td>packages/react-router-native/index.tsx↔packages/react-router-dom/index.tsx</td>
+      <td>md↔ts</td>
+      <td>should-revalidate↔fetchers-test</td>
+      <td>60</td>
+      <td>18</td>
+      <td>28</td>
+      <td>8</td>
+      <td>6</td>
+      <td>3</td>
+      <td>0.187500</td>
+      <td>0.075000</td>
+      <td>10.840278</td>
+      <td>docs/route/should-revalidate.md↔packages/router/__tests__/fetchers-test.ts</td>
     </tr>
     <tr>
       <th>39</th>
-      <td>tsx↔tsx</td>
-      <td>server↔data-static-router-test</td>
-      <td>55</td>
+      <td>md↔ts</td>
+      <td>form↔dom</td>
+      <td>61</td>
       <td>13</td>
-      <td>7</td>
-      <td>12</td>
-      <td>23</td>
-      <td>16</td>
-      <td>0.400000</td>
-      <td>0.125984</td>
-      <td>6.924272</td>
-      <td>packages/react-router-dom/server.tsx↔packages/react-router-dom/__tests__/data-static-router-test.tsx</td>
+      <td>31</td>
+      <td>6</td>
+      <td>11</td>
+      <td>8</td>
+      <td>0.177778</td>
+      <td>0.088889</td>
+      <td>5.236059</td>
+      <td>docs/components/form.md↔packages/react-router-dom/dom.ts</td>
     </tr>
   </tbody>
 </table>
@@ -3172,123 +3224,137 @@ The frontier = the “best tradeoffs.”
     <tr>
       <th>0</th>
       <td>CHANGELOG↔CHANGELOG</td>
-      <td>85</td>
-      <td>229</td>
-      <td>0.835766</td>
-      <td>0.717868</td>
-      <td>5.438582</td>
+      <td>130</td>
+      <td>115</td>
+      <td>0.419708</td>
+      <td>0.265589</td>
+      <td>2.391110</td>
       <td>2</td>
-      <td>3</td>
-      <td>2</td>
-      <td>78</td>
+      <td>14</td>
+      <td>18</td>
+      <td>96</td>
       <td>packages/react-router-dom-v5-compat/CHANGELOG.md↔packages/react-router-native/CHANGELOG.md</td>
     </tr>
     <tr>
       <th>1</th>
       <td>CHANGELOG↔CHANGELOG</td>
-      <td>89</td>
-      <td>235</td>
-      <td>0.833333</td>
-      <td>0.703593</td>
-      <td>5.177120</td>
+      <td>129</td>
+      <td>121</td>
+      <td>0.429078</td>
+      <td>0.270089</td>
+      <td>2.333766</td>
       <td>1</td>
-      <td>4</td>
-      <td>3</td>
-      <td>81</td>
+      <td>12</td>
+      <td>17</td>
+      <td>99</td>
       <td>packages/react-router-dom/CHANGELOG.md↔packages/react-router/CHANGELOG.md</td>
     </tr>
     <tr>
       <th>2</th>
       <td>package↔package</td>
-      <td>65</td>
-      <td>376</td>
-      <td>0.833703</td>
-      <td>0.708098</td>
-      <td>3.259851</td>
+      <td>73</td>
+      <td>262</td>
+      <td>0.580931</td>
+      <td>0.406202</td>
+      <td>1.988670</td>
       <td>1</td>
-      <td>1</td>
-      <td>1</td>
-      <td>62</td>
+      <td>4</td>
+      <td>7</td>
+      <td>61</td>
       <td>packages/react-router-dom/package.json↔packages/react-router/package.json</td>
     </tr>
     <tr>
       <th>3</th>
-      <td>CHANGELOG↔package</td>
-      <td>35</td>
-      <td>180</td>
-      <td>0.772532</td>
-      <td>0.614334</td>
-      <td>5.739270</td>
-      <td>4</td>
-      <td>5</td>
-      <td>2</td>
-      <td>24</td>
-      <td>packages/router/CHANGELOG.md↔packages/router/package.json</td>
+      <td>CHANGELOG↔CHANGELOG</td>
+      <td>127</td>
+      <td>107</td>
+      <td>0.445833</td>
+      <td>0.254762</td>
+      <td>2.424898</td>
+      <td>3</td>
+      <td>9</td>
+      <td>21</td>
+      <td>94</td>
+      <td>packages/react-router/CHANGELOG.md↔packages/router/CHANGELOG.md</td>
     </tr>
     <tr>
       <th>4</th>
-      <td>package↔package</td>
-      <td>26</td>
-      <td>20</td>
-      <td>0.625000</td>
-      <td>0.434783</td>
-      <td>32.775735</td>
-      <td>8</td>
-      <td>7</td>
-      <td>8</td>
+      <td>package↔CHANGELOG</td>
+      <td>36</td>
+      <td>92</td>
+      <td>0.394850</td>
+      <td>0.241470</td>
+      <td>2.568169</td>
+      <td>4</td>
+      <td>5</td>
       <td>3</td>
-      <td>examples/custom-filter-link/package.json↔examples/custom-link/package.json</td>
+      <td>24</td>
+      <td>packages/router/package.json↔packages/router/CHANGELOG.md</td>
     </tr>
     <tr>
       <th>5</th>
       <td>package↔package</td>
-      <td>34</td>
-      <td>21</td>
-      <td>0.600000</td>
-      <td>0.428571</td>
-      <td>30.565714</td>
-      <td>7</td>
+      <td>13</td>
+      <td>20</td>
+      <td>0.625000</td>
+      <td>0.434783</td>
+      <td>28.694853</td>
       <td>8</td>
-      <td>9</td>
-      <td>10</td>
-      <td>examples/auth/package.json↔examples/search-params/package.json</td>
+      <td>1</td>
+      <td>1</td>
+      <td>3</td>
+      <td>examples/custom-filter-link/package.json↔examples/custom-link/package.json</td>
     </tr>
     <tr>
       <th>6</th>
       <td>package↔package</td>
-      <td>34</td>
+      <td>21</td>
       <td>21</td>
       <td>0.600000</td>
       <td>0.428571</td>
-      <td>30.565714</td>
+      <td>26.760000</td>
       <td>7</td>
-      <td>8</td>
-      <td>9</td>
+      <td>2</td>
+      <td>2</td>
       <td>10</td>
-      <td>examples/search-params/package.json↔examples/ssr/package.json</td>
+      <td>examples/auth/package.json↔examples/search-params/package.json</td>
     </tr>
     <tr>
       <th>7</th>
       <td>package↔package</td>
-      <td>34</td>
+      <td>21</td>
       <td>21</td>
       <td>0.600000</td>
       <td>0.428571</td>
-      <td>30.565714</td>
+      <td>26.760000</td>
       <td>7</td>
-      <td>8</td>
-      <td>9</td>
+      <td>2</td>
+      <td>2</td>
+      <td>10</td>
+      <td>examples/search-params/package.json↔examples/ssr/package.json</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>package↔package</td>
+      <td>21</td>
+      <td>21</td>
+      <td>0.600000</td>
+      <td>0.428571</td>
+      <td>26.760000</td>
+      <td>7</td>
+      <td>2</td>
+      <td>2</td>
       <td>10</td>
       <td>examples/auth/package.json↔examples/ssr/package.json</td>
     </tr>
     <tr>
-      <th>8</th>
+      <th>9</th>
       <td>README↔README</td>
       <td>15</td>
       <td>8</td>
       <td>0.888889</td>
       <td>0.800000</td>
-      <td>176.098765</td>
+      <td>154.172840</td>
       <td>10</td>
       <td>1</td>
       <td>1</td>
@@ -3296,16 +3362,16 @@ The frontier = the “best tradeoffs.”
       <td>examples/custom-filter-link/README.md↔examples/custom-link/README.md</td>
     </tr>
     <tr>
-      <th>9</th>
+      <th>10</th>
       <td>README↔README</td>
-      <td>41</td>
+      <td>29</td>
       <td>3</td>
       <td>0.750000</td>
       <td>0.428571</td>
-      <td>222.875000</td>
+      <td>195.125000</td>
       <td>15</td>
+      <td>4</td>
       <td>9</td>
-      <td>16</td>
       <td>1</td>
       <td>examples/lazy-loading/README.md↔examples/route-objects/README.md</td>
     </tr>
@@ -3339,108 +3405,78 @@ The frontier = the “best tradeoffs.”
   <tbody>
     <tr>
       <th>0</th>
-      <td>md↔md</td>
-      <td>use-submit↔CHANGELOG</td>
-      <td>404</td>
+      <td>md↔ts</td>
+      <td>CHANGELOG↔context</td>
+      <td>356</td>
       <td>3</td>
-      <td>0.073171</td>
-      <td>0.009231</td>
-      <td>0.454576</td>
-      <td>15</td>
-      <td>65</td>
-      <td>153</td>
-      <td>171</td>
-      <td>docs/hooks/use-submit.md↔packages/react-router/CHANGELOG.md</td>
+      <td>0.053571</td>
+      <td>0.008955</td>
+      <td>0.296543</td>
+      <td>18</td>
+      <td>73</td>
+      <td>132</td>
+      <td>133</td>
+      <td>packages/react-router-dom/CHANGELOG.md↔packages/react-router/lib/context.ts</td>
     </tr>
     <tr>
       <th>1</th>
-      <td>tsx↔tsx</td>
-      <td>index↔data-browser-router-test</td>
-      <td>263</td>
-      <td>6</td>
-      <td>0.063158</td>
-      <td>0.030151</td>
-      <td>1.023732</td>
-      <td>21</td>
-      <td>67</td>
-      <td>72</td>
-      <td>103</td>
-      <td>packages/react-router-native/index.tsx↔packages/react-router-dom/__tests__/data-browser-router-test.tsx</td>
+      <td>md↔md</td>
+      <td>use-submit↔CHANGELOG</td>
+      <td>414</td>
+      <td>3</td>
+      <td>0.073171</td>
+      <td>0.009231</td>
+      <td>0.397977</td>
+      <td>15</td>
+      <td>65</td>
+      <td>159</td>
+      <td>175</td>
+      <td>docs/hooks/use-submit.md↔packages/react-router/CHANGELOG.md</td>
     </tr>
     <tr>
       <th>2</th>
-      <td>tsx↔tsx</td>
-      <td>useOutlet-test↔index</td>
-      <td>253</td>
+      <td>json↔json</td>
+      <td>tsconfig↔package</td>
+      <td>216</td>
       <td>3</td>
-      <td>0.214286</td>
-      <td>0.011070</td>
-      <td>1.469505</td>
-      <td>24</td>
-      <td>33</td>
-      <td>102</td>
-      <td>94</td>
-      <td>packages/react-router/__tests__/useOutlet-test.tsx↔packages/react-router-dom/index.tsx</td>
+      <td>0.250000</td>
+      <td>0.006452</td>
+      <td>0.855811</td>
+      <td>19</td>
+      <td>30</td>
+      <td>76</td>
+      <td>91</td>
+      <td>tsconfig.json↔packages/react-router/package.json</td>
     </tr>
     <tr>
       <th>3</th>
-      <td>md↔md</td>
-      <td>create-browser-router↔tutorial</td>
-      <td>311</td>
-      <td>3</td>
-      <td>0.053571</td>
-      <td>0.022388</td>
-      <td>1.179233</td>
+      <td>md↔ts</td>
+      <td>CHANGELOG↔router-test</td>
+      <td>330</td>
+      <td>6</td>
+      <td>0.033898</td>
+      <td>0.013245</td>
+      <td>0.187643</td>
       <td>15</td>
-      <td>67</td>
-      <td>103</td>
-      <td>126</td>
-      <td>docs/routers/create-browser-router.md↔docs/start/tutorial.md</td>
+      <td>76</td>
+      <td>102</td>
+      <td>137</td>
+      <td>packages/react-router-dom/CHANGELOG.md↔packages/router/__tests__/router-test.ts</td>
     </tr>
     <tr>
       <th>4</th>
-      <td>tsx↔tsx</td>
-      <td>index↔components</td>
-      <td>268</td>
-      <td>4</td>
-      <td>0.173913</td>
-      <td>0.014337</td>
-      <td>1.192642</td>
-      <td>23</td>
-      <td>46</td>
-      <td>100</td>
-      <td>99</td>
-      <td>packages/react-router-dom/index.tsx↔packages/react-router-dom-v5-compat/lib/components.tsx</td>
-    </tr>
-    <tr>
-      <th>5</th>
-      <td>tsx↔tsx</td>
-      <td>data-browser-router-test↔nav-link-active-test</td>
-      <td>285</td>
+      <td>json↔json</td>
+      <td>package-lock↔package-lock</td>
+      <td>166</td>
       <td>3</td>
-      <td>0.068182</td>
-      <td>0.019868</td>
-      <td>1.105165</td>
-      <td>24</td>
-      <td>66</td>
-      <td>93</td>
-      <td>102</td>
-      <td>packages/react-router-dom/__tests__/data-browser-router-test.tsx↔packages/react-router-dom/__tests__/nav-link-active-test.tsx</td>
-    </tr>
-    <tr>
-      <th>6</th>
-      <td>tsx↔tsx</td>
-      <td>index↔navigate-test</td>
-      <td>271</td>
-      <td>5</td>
-      <td>0.161290</td>
-      <td>0.017483</td>
-      <td>1.106079</td>
-      <td>22</td>
+      <td>0.130435</td>
+      <td>0.069767</td>
+      <td>8.852552</td>
+      <td>19</td>
+      <td>38</td>
       <td>52</td>
-      <td>96</td>
-      <td>101</td>
-      <td>packages/react-router-dom/index.tsx↔packages/react-router/__tests__/navigate-test.tsx</td>
+      <td>57</td>
+      <td>examples/custom-query-parsing/package-lock.json↔examples/lazy-loading/package-lock.json</td>
     </tr>
   </tbody>
 </table>
@@ -3520,6 +3556,6 @@ The frontier = the “best tradeoffs.”
 
 
     
-![png](GitHistoryGeneral_files/GitHistoryGeneral_95_0.png)
+![png](GitHistoryGeneral_files/GitHistoryGeneral_94_0.png)
     
 
