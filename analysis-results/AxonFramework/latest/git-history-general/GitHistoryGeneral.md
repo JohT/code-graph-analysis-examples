@@ -48,9 +48,9 @@
       <td>24.898936</td>
       <td>19.664894</td>
       <td>288.570922</td>
-      <td>296.186170</td>
-      <td>1173.088652</td>
-      <td>390.104610</td>
+      <td>297.186170</td>
+      <td>1174.523050</td>
+      <td>391.817376</td>
     </tr>
     <tr>
       <th>std</th>
@@ -58,53 +58,53 @@
       <td>21.297173</td>
       <td>639.823202</td>
       <td>170.624646</td>
-      <td>980.436762</td>
-      <td>392.587886</td>
+      <td>980.405776</td>
+      <td>392.525168</td>
     </tr>
     <tr>
       <th>min</th>
       <td>1.000000</td>
       <td>2.000000</td>
       <td>3.000000</td>
-      <td>18.000000</td>
-      <td>31.000000</td>
-      <td>18.000000</td>
+      <td>19.000000</td>
+      <td>33.000000</td>
+      <td>19.000000</td>
     </tr>
     <tr>
       <th>25%</th>
       <td>1.000000</td>
       <td>7.000000</td>
       <td>27.000000</td>
-      <td>158.000000</td>
-      <td>432.000000</td>
-      <td>248.000000</td>
+      <td>159.000000</td>
+      <td>433.000000</td>
+      <td>250.000000</td>
     </tr>
     <tr>
       <th>50%</th>
       <td>4.000000</td>
       <td>12.000000</td>
       <td>82.500000</td>
-      <td>391.000000</td>
-      <td>951.000000</td>
-      <td>390.000000</td>
+      <td>392.000000</td>
+      <td>952.000000</td>
+      <td>392.000000</td>
     </tr>
     <tr>
       <th>75%</th>
       <td>10.000000</td>
       <td>25.000000</td>
       <td>270.250000</td>
-      <td>391.000000</td>
-      <td>1997.750000</td>
-      <td>390.000000</td>
+      <td>392.000000</td>
+      <td>1999.000000</td>
+      <td>392.000000</td>
     </tr>
     <tr>
       <th>max</th>
       <td>2294.000000</td>
       <td>213.000000</td>
       <td>9815.000000</td>
-      <td>2541.000000</td>
-      <td>5669.000000</td>
-      <td>3020.000000</td>
+      <td>2542.000000</td>
+      <td>5670.000000</td>
+      <td>3021.000000</td>
     </tr>
   </tbody>
 </table>
@@ -152,9 +152,9 @@
       <td>Allard Buijze</td>
       <td>Frank Versnel</td>
       <td>47</td>
-      <td>391</td>
-      <td>5669</td>
-      <td>390</td>
+      <td>392</td>
+      <td>5670</td>
+      <td>392</td>
       <td>2024-07-30</td>
       <td>2010-02-16</td>
       <td>2024-07-30</td>
@@ -172,9 +172,9 @@
       <td>Allard Buijze</td>
       <td>Elin Alexey</td>
       <td>31</td>
-      <td>391</td>
-      <td>2139</td>
-      <td>390</td>
+      <td>392</td>
+      <td>2141</td>
+      <td>392</td>
       <td>2024-07-30</td>
       <td>2019-10-16</td>
       <td>2024-07-30</td>
@@ -192,9 +192,9 @@
       <td>Allard Buijze</td>
       <td>Marc Gathier</td>
       <td>22</td>
-      <td>391</td>
-      <td>2508</td>
-      <td>2508</td>
+      <td>392</td>
+      <td>2510</td>
+      <td>2510</td>
       <td>2024-07-30</td>
       <td>2018-10-12</td>
       <td>2018-10-12</td>
@@ -212,9 +212,9 @@
       <td>Allard Buijze</td>
       <td>Elin Alexey</td>
       <td>69</td>
-      <td>391</td>
-      <td>2533</td>
-      <td>390</td>
+      <td>392</td>
+      <td>2534</td>
+      <td>392</td>
       <td>2024-07-30</td>
       <td>2018-09-18</td>
       <td>2024-07-30</td>
@@ -232,9 +232,9 @@
       <td>Allard Buijze</td>
       <td>Marijn van Zelst</td>
       <td>34</td>
-      <td>391</td>
-      <td>2511</td>
-      <td>390</td>
+      <td>392</td>
+      <td>2512</td>
+      <td>392</td>
       <td>2024-07-30</td>
       <td>2018-10-10</td>
       <td>2024-07-30</td>
@@ -252,9 +252,9 @@
       <td>Allard Buijze</td>
       <td>Christian Vermorken</td>
       <td>178</td>
-      <td>21</td>
-      <td>1334</td>
-      <td>20</td>
+      <td>22</td>
+      <td>1335</td>
+      <td>22</td>
       <td>2025-08-04</td>
       <td>2021-12-30</td>
       <td>2025-08-04</td>
@@ -272,9 +272,9 @@
       <td>Allard Buijze</td>
       <td>David Gómez G</td>
       <td>10</td>
-      <td>391</td>
-      <td>444</td>
-      <td>444</td>
+      <td>392</td>
+      <td>445</td>
+      <td>445</td>
       <td>2024-07-30</td>
       <td>2024-06-07</td>
       <td>2024-06-07</td>
@@ -292,9 +292,9 @@
       <td>Allard Buijze</td>
       <td>David Gómez G</td>
       <td>18</td>
-      <td>391</td>
-      <td>432</td>
-      <td>432</td>
+      <td>392</td>
+      <td>433</td>
+      <td>433</td>
       <td>2024-07-30</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -312,9 +312,9 @@
       <td>Allard Buijze</td>
       <td>David Gómez G</td>
       <td>18</td>
-      <td>391</td>
-      <td>432</td>
-      <td>432</td>
+      <td>392</td>
+      <td>433</td>
+      <td>433</td>
       <td>2024-07-30</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -332,9 +332,9 @@
       <td>Allard Buijze</td>
       <td>David Gómez G</td>
       <td>19</td>
-      <td>391</td>
-      <td>432</td>
-      <td>432</td>
+      <td>392</td>
+      <td>433</td>
+      <td>433</td>
       <td>2024-07-30</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -352,9 +352,9 @@
       <td>Allard Buijze</td>
       <td>David Gómez G</td>
       <td>18</td>
-      <td>391</td>
-      <td>432</td>
-      <td>432</td>
+      <td>392</td>
+      <td>433</td>
+      <td>433</td>
       <td>2024-07-30</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -372,9 +372,9 @@
       <td>Allard Buijze</td>
       <td>David Gómez G</td>
       <td>19</td>
-      <td>391</td>
-      <td>432</td>
-      <td>432</td>
+      <td>392</td>
+      <td>433</td>
+      <td>433</td>
       <td>2024-07-30</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -392,9 +392,9 @@
       <td>Allard Buijze</td>
       <td>David Gómez G</td>
       <td>18</td>
-      <td>391</td>
-      <td>432</td>
-      <td>432</td>
+      <td>392</td>
+      <td>433</td>
+      <td>433</td>
       <td>2024-07-30</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -412,9 +412,9 @@
       <td>Allard Buijze</td>
       <td>David Gómez G</td>
       <td>19</td>
-      <td>391</td>
-      <td>432</td>
-      <td>432</td>
+      <td>392</td>
+      <td>433</td>
+      <td>433</td>
       <td>2024-07-30</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -432,9 +432,9 @@
       <td>Allard Buijze</td>
       <td>David Gómez G</td>
       <td>18</td>
-      <td>391</td>
-      <td>432</td>
-      <td>432</td>
+      <td>392</td>
+      <td>433</td>
+      <td>433</td>
       <td>2024-07-30</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -452,9 +452,9 @@
       <td>Allard Buijze</td>
       <td>David Gómez G</td>
       <td>20</td>
-      <td>391</td>
-      <td>432</td>
-      <td>432</td>
+      <td>392</td>
+      <td>433</td>
+      <td>433</td>
       <td>2024-07-30</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -472,9 +472,9 @@
       <td>Allard Buijze</td>
       <td>David Gómez G</td>
       <td>18</td>
-      <td>391</td>
-      <td>432</td>
-      <td>432</td>
+      <td>392</td>
+      <td>433</td>
+      <td>433</td>
       <td>2024-07-30</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -492,9 +492,9 @@
       <td>Allard Buijze</td>
       <td>David Gómez G</td>
       <td>19</td>
-      <td>391</td>
-      <td>432</td>
-      <td>432</td>
+      <td>392</td>
+      <td>433</td>
+      <td>433</td>
       <td>2024-07-30</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -512,9 +512,9 @@
       <td>Allard Buijze</td>
       <td>David Gómez G</td>
       <td>18</td>
-      <td>391</td>
-      <td>432</td>
-      <td>432</td>
+      <td>392</td>
+      <td>433</td>
+      <td>433</td>
       <td>2024-07-30</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -532,9 +532,9 @@
       <td>Allard Buijze</td>
       <td>David Gómez G</td>
       <td>19</td>
-      <td>391</td>
-      <td>432</td>
-      <td>432</td>
+      <td>392</td>
+      <td>433</td>
+      <td>433</td>
       <td>2024-07-30</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -552,9 +552,9 @@
       <td>Allard Buijze</td>
       <td>David Gómez G</td>
       <td>18</td>
-      <td>391</td>
-      <td>432</td>
-      <td>432</td>
+      <td>392</td>
+      <td>433</td>
+      <td>433</td>
       <td>2024-07-30</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -572,9 +572,9 @@
       <td>Allard Buijze</td>
       <td>David Gómez G</td>
       <td>19</td>
-      <td>391</td>
-      <td>432</td>
-      <td>432</td>
+      <td>392</td>
+      <td>433</td>
+      <td>433</td>
       <td>2024-07-30</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -592,9 +592,9 @@
       <td>Allard Buijze</td>
       <td>David Gómez G</td>
       <td>18</td>
-      <td>391</td>
-      <td>432</td>
-      <td>432</td>
+      <td>392</td>
+      <td>433</td>
+      <td>433</td>
       <td>2024-07-30</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -612,9 +612,9 @@
       <td>Allard Buijze</td>
       <td>David Gómez G</td>
       <td>18</td>
-      <td>391</td>
-      <td>432</td>
-      <td>432</td>
+      <td>392</td>
+      <td>433</td>
+      <td>433</td>
       <td>2024-07-30</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -632,9 +632,9 @@
       <td>Allard Buijze</td>
       <td>David Gómez G</td>
       <td>19</td>
-      <td>391</td>
-      <td>432</td>
-      <td>432</td>
+      <td>392</td>
+      <td>433</td>
+      <td>433</td>
       <td>2024-07-30</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -652,9 +652,9 @@
       <td>Allard Buijze</td>
       <td>David Gómez G</td>
       <td>18</td>
-      <td>391</td>
-      <td>432</td>
-      <td>432</td>
+      <td>392</td>
+      <td>433</td>
+      <td>433</td>
       <td>2024-07-30</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -672,9 +672,9 @@
       <td>Allard Buijze</td>
       <td>David Gómez G</td>
       <td>20</td>
-      <td>391</td>
-      <td>432</td>
-      <td>432</td>
+      <td>392</td>
+      <td>433</td>
+      <td>433</td>
       <td>2024-07-30</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -692,9 +692,9 @@
       <td>Allard Buijze</td>
       <td>David Gómez G</td>
       <td>18</td>
-      <td>391</td>
-      <td>432</td>
-      <td>432</td>
+      <td>392</td>
+      <td>433</td>
+      <td>433</td>
       <td>2024-07-30</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -712,9 +712,9 @@
       <td>Allard Buijze</td>
       <td>David Gómez G</td>
       <td>19</td>
-      <td>391</td>
-      <td>432</td>
-      <td>432</td>
+      <td>392</td>
+      <td>433</td>
+      <td>433</td>
       <td>2024-07-30</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -732,9 +732,9 @@
       <td>Allard Buijze</td>
       <td>David Gómez G</td>
       <td>18</td>
-      <td>391</td>
-      <td>432</td>
-      <td>432</td>
+      <td>392</td>
+      <td>433</td>
+      <td>433</td>
       <td>2024-07-30</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -1123,6 +1123,42 @@ The following charts show how these metrics are distributed across pairs of file
     
 
 
+
+<div>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>fileExtensionPair</th>
+      <th>fileExtensionPairCount</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>java↔java</td>
+      <td>15189</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>java↔xml</td>
+      <td>2637</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>java↔yml</td>
+      <td>408</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>adoc↔xml</td>
+      <td>221</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+
 ### Files changed together by commit count
 
 
@@ -1144,7 +1180,7 @@ The following charts show how these metrics are distributed across pairs of file
     <tr>
       <th>0</th>
       <td>java↔java</td>
-      <td>154</td>
+      <td>163</td>
       <td>1</td>
       <td>AxonServerQueryBus↔AxonServerCommandBus</td>
       <td>axon-server-connector/src/main/java/org/axonframework/axonserver/connector/query/AxonServerQueryBus.java↔axon-server-connector/src/main/java/org/axonframework/axonserver/connector/command/AxonServerCommandBus.java</td>
@@ -1152,7 +1188,7 @@ The following charts show how these metrics are distributed across pairs of file
     <tr>
       <th>1</th>
       <td>java↔java</td>
-      <td>138</td>
+      <td>144</td>
       <td>2</td>
       <td>AxonServerQueryBus↔AxonServerQueryBusTest</td>
       <td>axon-server-connector/src/main/java/org/axonframework/axonserver/connector/query/AxonServerQueryBus.java↔axon-server-connector/src/test/java/org/axonframework/axonserver/connector/query/AxonServerQueryBusTest.java</td>
@@ -1160,7 +1196,7 @@ The following charts show how these metrics are distributed across pairs of file
     <tr>
       <th>2</th>
       <td>java↔java</td>
-      <td>133</td>
+      <td>135</td>
       <td>3</td>
       <td>SpringAxonAutoConfigurerTest↔SpringAxonAutoConfigurer</td>
       <td>spring/src/test/java/org/axonframework/spring/config/SpringAxonAutoConfigurerTest.java↔spring/src/main/java/org/axonframework/spring/config/SpringAxonAutoConfigurer.java</td>
@@ -1168,7 +1204,7 @@ The following charts show how these metrics are distributed across pairs of file
     <tr>
       <th>3</th>
       <td>java↔java</td>
-      <td>115</td>
+      <td>121</td>
       <td>4</td>
       <td>TrackingEventProcessorTest↔TrackingEventProcessor</td>
       <td>integrationtests/src/test/java/org/axonframework/integrationtests/eventhandling/TrackingEventProcessorTest.java↔messaging/src/main/java/org/axonframework/eventhandling/TrackingEventProcessor.java</td>
@@ -1176,7 +1212,7 @@ The following charts show how these metrics are distributed across pairs of file
     <tr>
       <th>4</th>
       <td>java↔java</td>
-      <td>100</td>
+      <td>107</td>
       <td>5</td>
       <td>SpringAxonAutoConfigurer↔AxonConfiguration</td>
       <td>spring/src/main/java/org/axonframework/spring/config/SpringAxonAutoConfigurer.java↔spring/src/main/java/org/axonframework/spring/config/AxonConfiguration.java</td>
@@ -1184,31 +1220,31 @@ The following charts show how these metrics are distributed across pairs of file
     <tr>
       <th>5</th>
       <td>java↔java</td>
-      <td>94</td>
+      <td>100</td>
       <td>6</td>
-      <td>SagaTestFixture↔AggregateTestFixture</td>
-      <td>test/src/main/java/org/axonframework/test/saga/SagaTestFixture.java↔test/src/main/java/org/axonframework/test/aggregate/AggregateTestFixture.java</td>
-    </tr>
-    <tr>
-      <th>6</th>
-      <td>java↔java</td>
-      <td>93</td>
-      <td>7</td>
       <td>EventProcessingModule↔EventProcessingModuleTest</td>
       <td>config/src/main/java/org/axonframework/config/EventProcessingModule.java↔config/src/test/java/org/axonframework/config/EventProcessingModuleTest.java</td>
     </tr>
     <tr>
+      <th>6</th>
+      <td>java↔java</td>
+      <td>96</td>
+      <td>7</td>
+      <td>SagaTestFixture↔AggregateTestFixture</td>
+      <td>test/src/main/java/org/axonframework/test/saga/SagaTestFixture.java↔test/src/main/java/org/axonframework/test/aggregate/AggregateTestFixture.java</td>
+    </tr>
+    <tr>
       <th>7</th>
       <td>java↔java</td>
-      <td>91</td>
+      <td>95</td>
       <td>8</td>
-      <td>ResultValidatorImpl↔ResultValidator</td>
-      <td>test/src/main/java/org/axonframework/test/aggregate/ResultValidatorImpl.java↔test/src/main/java/org/axonframework/test/aggregate/ResultValidator.java</td>
+      <td>AxonServerQueryBusTest↔AxonServerCommandBusTest</td>
+      <td>axon-server-connector/src/test/java/org/axonframework/axonserver/connector/query/AxonServerQueryBusTest.java↔axon-server-connector/src/test/java/org/axonframework/axonserver/connector/command/AxonServerCommandBusTest.java</td>
     </tr>
     <tr>
       <th>8</th>
       <td>java↔java</td>
-      <td>90</td>
+      <td>94</td>
       <td>9</td>
       <td>AggregateTestFixture↔FixtureConfiguration</td>
       <td>test/src/main/java/org/axonframework/test/aggregate/AggregateTestFixture.java↔test/src/main/java/org/axonframework/test/aggregate/FixtureConfiguration.java</td>
@@ -1216,242 +1252,242 @@ The following charts show how these metrics are distributed across pairs of file
     <tr>
       <th>9</th>
       <td>java↔java</td>
-      <td>89</td>
+      <td>92</td>
       <td>10</td>
-      <td>FixtureConfiguration↔SagaTestFixture</td>
-      <td>test/src/main/java/org/axonframework/test/saga/FixtureConfiguration.java↔test/src/main/java/org/axonframework/test/saga/SagaTestFixture.java</td>
+      <td>AggregateTestFixture↔SpringAxonAutoConfigurer</td>
+      <td>test/src/main/java/org/axonframework/test/aggregate/AggregateTestFixture.java↔spring/src/main/java/org/axonframework/spring/config/SpringAxonAutoConfigurer.java</td>
     </tr>
     <tr>
       <th>10</th>
-      <td>xml↔adoc</td>
-      <td>12</td>
+      <td>java↔xml</td>
+      <td>62</td>
       <td>1</td>
-      <td>pom↔minor-releases</td>
-      <td>spring-boot-3-integrationtests/pom.xml↔docs/old-reference-guide/modules/release-notes/pages/minor-releases.adoc</td>
+      <td>AggregateTestFixture↔pom</td>
+      <td>test/src/main/java/org/axonframework/test/aggregate/AggregateTestFixture.java↔spring-boot-autoconfigure/pom.xml</td>
     </tr>
     <tr>
       <th>11</th>
-      <td>xml↔adoc</td>
-      <td>10</td>
+      <td>java↔xml</td>
+      <td>57</td>
       <td>2</td>
-      <td>pom↔rdbms-tuning</td>
-      <td>legacy/pom.xml↔docs/old-reference-guide/modules/tuning/pages/rdbms-tuning.adoc</td>
+      <td>AggregateTestFixture↔pom</td>
+      <td>test/src/main/java/org/axonframework/test/aggregate/AggregateTestFixture.java↔integrationtests/pom.xml</td>
     </tr>
     <tr>
       <th>12</th>
-      <td>xml↔adoc</td>
-      <td>9</td>
+      <td>java↔xml</td>
+      <td>53</td>
       <td>3</td>
-      <td>pom↔rdbms-tuning</td>
-      <td>integrationtests/pom.xml↔docs/old-reference-guide/modules/tuning/pages/rdbms-tuning.adoc</td>
+      <td>AggregateTestFixture↔pom</td>
+      <td>test/src/main/java/org/axonframework/test/aggregate/AggregateTestFixture.java↔metrics/pom.xml</td>
     </tr>
     <tr>
       <th>13</th>
-      <td>xml↔adoc</td>
-      <td>8</td>
+      <td>java↔xml</td>
+      <td>51</td>
       <td>4</td>
-      <td>pom↔minor-releases</td>
-      <td>spring/pom.xml↔docs/old-reference-guide/modules/release-notes/pages/minor-releases.adoc</td>
+      <td>SpringAxonAutoConfigurer↔pom</td>
+      <td>spring/src/main/java/org/axonframework/spring/config/SpringAxonAutoConfigurer.java↔spring-boot-autoconfigure/pom.xml</td>
     </tr>
     <tr>
       <th>14</th>
-      <td>xml↔adoc</td>
-      <td>7</td>
+      <td>java↔xml</td>
+      <td>48</td>
       <td>5</td>
-      <td>pom↔event-snapshots</td>
-      <td>integrationtests/pom.xml↔docs/old-reference-guide/modules/tuning/pages/event-snapshots.adoc</td>
+      <td>SagaTestFixture↔pom</td>
+      <td>test/src/main/java/org/axonframework/test/saga/SagaTestFixture.java↔spring-boot-autoconfigure/pom.xml</td>
     </tr>
     <tr>
       <th>15</th>
-      <td>xml↔adoc</td>
+      <td>java↔xml</td>
+      <td>46</td>
       <td>6</td>
-      <td>6</td>
-      <td>pom↔known-issues-and-workarounds</td>
-      <td>tracing-opentelemetry/pom.xml↔docs/old-reference-guide/modules/ROOT/pages/known-issues-and-workarounds.adoc</td>
+      <td>SpringAxonAutoConfigurer↔pom</td>
+      <td>spring/src/main/java/org/axonframework/spring/config/SpringAxonAutoConfigurer.java↔spring/pom.xml</td>
     </tr>
     <tr>
       <th>16</th>
-      <td>xml↔adoc</td>
-      <td>5</td>
+      <td>java↔xml</td>
+      <td>45</td>
       <td>7</td>
-      <td>pom↔event-versioning</td>
-      <td>tracing-opentelemetry/pom.xml↔docs/old-reference-guide/modules/events/pages/event-versioning.adoc</td>
+      <td>SpringAxonAutoConfigurerTest↔pom</td>
+      <td>spring/src/test/java/org/axonframework/spring/config/SpringAxonAutoConfigurerTest.java↔spring/pom.xml</td>
     </tr>
     <tr>
       <th>17</th>
-      <td>xml↔adoc</td>
-      <td>4</td>
+      <td>java↔xml</td>
+      <td>44</td>
       <td>8</td>
-      <td>pom↔event-snapshots</td>
-      <td>spring-boot3-dummy/pom.xml↔docs/old-reference-guide/modules/tuning/pages/event-snapshots.adoc</td>
+      <td>SpringAxonAutoConfigurerTest↔pom</td>
+      <td>spring/src/test/java/org/axonframework/spring/config/SpringAxonAutoConfigurerTest.java↔spring-boot-autoconfigure/pom.xml</td>
     </tr>
     <tr>
       <th>18</th>
-      <td>xml↔adoc</td>
-      <td>3</td>
+      <td>java↔xml</td>
+      <td>42</td>
       <td>9</td>
-      <td>pom↔known-issues-and-workarounds</td>
-      <td>spring-boot3-dummy/pom.xml↔docs/old-reference-guide/modules/ROOT/pages/known-issues-and-workarounds.adoc</td>
+      <td>AggregateTestFixture↔pom</td>
+      <td>test/src/main/java/org/axonframework/test/aggregate/AggregateTestFixture.java↔legacy/pom.xml</td>
     </tr>
     <tr>
       <th>19</th>
-      <td>xml↔java</td>
-      <td>59</td>
-      <td>1</td>
-      <td>pom↔AggregateTestFixture</td>
-      <td>spring-boot-autoconfigure/pom.xml↔test/src/main/java/org/axonframework/test/aggregate/AggregateTestFixture.java</td>
+      <td>java↔xml</td>
+      <td>41</td>
+      <td>10</td>
+      <td>AxonConfiguration↔pom</td>
+      <td>spring/src/main/java/org/axonframework/spring/config/AxonConfiguration.java↔spring/pom.xml</td>
     </tr>
     <tr>
       <th>20</th>
-      <td>xml↔java</td>
-      <td>58</td>
-      <td>2</td>
-      <td>pom↔AggregateTestFixture</td>
-      <td>spring/pom.xml↔test/src/main/java/org/axonframework/test/aggregate/AggregateTestFixture.java</td>
+      <td>java↔yml</td>
+      <td>16</td>
+      <td>1</td>
+      <td>JobrunrDeadlineManagerTest↔main</td>
+      <td>integrationtests/src/test/java/org/axonframework/integrationtests/deadline/jobrunr/JobrunrDeadlineManagerTest.java↔.github/workflows/main.yml</td>
     </tr>
     <tr>
       <th>21</th>
-      <td>xml↔java</td>
-      <td>52</td>
-      <td>3</td>
-      <td>pom↔AggregateTestFixture</td>
-      <td>integrationtests/pom.xml↔test/src/main/java/org/axonframework/test/aggregate/AggregateTestFixture.java</td>
+      <td>java↔yml</td>
+      <td>15</td>
+      <td>2</td>
+      <td>JobRunrEventSchedulerTest↔main</td>
+      <td>messaging/src/test/java/org/axonframework/eventhandling/scheduling/jobrunr/JobRunrEventSchedulerTest.java↔.github/workflows/main.yml</td>
     </tr>
     <tr>
       <th>22</th>
-      <td>xml↔java</td>
-      <td>51</td>
-      <td>4</td>
-      <td>pom↔SagaTestFixture</td>
-      <td>spring/pom.xml↔test/src/main/java/org/axonframework/test/saga/SagaTestFixture.java</td>
+      <td>java↔yml</td>
+      <td>14</td>
+      <td>3</td>
+      <td>TrackingEventProcessor↔main</td>
+      <td>messaging/src/main/java/org/axonframework/eventhandling/TrackingEventProcessor.java↔.github/workflows/main.yml</td>
     </tr>
     <tr>
       <th>23</th>
-      <td>xml↔java</td>
-      <td>49</td>
-      <td>5</td>
-      <td>pom↔AggregateTestFixture</td>
-      <td>metrics/pom.xml↔test/src/main/java/org/axonframework/test/aggregate/AggregateTestFixture.java</td>
+      <td>java↔yml</td>
+      <td>13</td>
+      <td>4</td>
+      <td>SimpleQueryBus↔main</td>
+      <td>messaging/src/main/java/org/axonframework/queryhandling/SimpleQueryBus.java↔.github/workflows/main.yml</td>
     </tr>
     <tr>
       <th>24</th>
-      <td>xml↔java</td>
-      <td>47</td>
-      <td>6</td>
-      <td>pom↔AggregateTestFixture</td>
-      <td>test/pom.xml↔test/src/main/java/org/axonframework/test/aggregate/AggregateTestFixture.java</td>
+      <td>java↔yml</td>
+      <td>12</td>
+      <td>5</td>
+      <td>SimpleEventHandlerInvokerTest↔main</td>
+      <td>messaging/src/test/java/org/axonframework/eventhandling/SimpleEventHandlerInvokerTest.java↔.github/workflows/main.yml</td>
     </tr>
     <tr>
       <th>25</th>
-      <td>xml↔java</td>
-      <td>46</td>
-      <td>7</td>
-      <td>pom↔SagaTestFixture</td>
-      <td>spring-boot-autoconfigure/pom.xml↔test/src/main/java/org/axonframework/test/saga/SagaTestFixture.java</td>
+      <td>java↔yml</td>
+      <td>11</td>
+      <td>6</td>
+      <td>AxonServerEventStore↔main</td>
+      <td>axon-server-connector/src/main/java/org/axonframework/axonserver/connector/event/axon/AxonServerEventStore.java↔.github/workflows/main.yml</td>
     </tr>
     <tr>
       <th>26</th>
-      <td>xml↔java</td>
-      <td>44</td>
-      <td>8</td>
-      <td>pom↔SpringAxonAutoConfigurer</td>
-      <td>spring/pom.xml↔spring/src/main/java/org/axonframework/spring/config/SpringAxonAutoConfigurer.java</td>
+      <td>java↔yml</td>
+      <td>10</td>
+      <td>7</td>
+      <td>PooledStreamingEventProcessor↔main</td>
+      <td>messaging/src/main/java/org/axonframework/eventhandling/pooled/PooledStreamingEventProcessor.java↔.github/workflows/main.yml</td>
     </tr>
     <tr>
       <th>27</th>
-      <td>xml↔java</td>
-      <td>42</td>
+      <td>java↔yml</td>
       <td>9</td>
-      <td>pom↔SpringAxonAutoConfigurerTest</td>
-      <td>spring/pom.xml↔spring/src/test/java/org/axonframework/spring/config/SpringAxonAutoConfigurerTest.java</td>
+      <td>8</td>
+      <td>AxonServerQueryBusTest↔main</td>
+      <td>axon-server-connector/src/test/java/org/axonframework/axonserver/connector/query/AxonServerQueryBusTest.java↔.github/workflows/main.yml</td>
     </tr>
     <tr>
       <th>28</th>
-      <td>xml↔java</td>
-      <td>40</td>
-      <td>10</td>
-      <td>pom↔SpringAxonAutoConfigurerTest</td>
-      <td>spring-boot-autoconfigure/pom.xml↔spring/src/test/java/org/axonframework/spring/config/SpringAxonAutoConfigurerTest.java</td>
+      <td>java↔yml</td>
+      <td>8</td>
+      <td>9</td>
+      <td>DefaultConfigurer↔main</td>
+      <td>config/src/main/java/org/axonframework/config/DefaultConfigurer.java↔.github/workflows/main.yml</td>
     </tr>
     <tr>
       <th>29</th>
-      <td>yml↔java</td>
-      <td>16</td>
-      <td>1</td>
-      <td>main↔JobrunrDeadlineManagerTest</td>
-      <td>.github/workflows/main.yml↔integrationtests/src/test/java/org/axonframework/integrationtests/deadline/jobrunr/JobrunrDeadlineManagerTest.java</td>
+      <td>java↔yml</td>
+      <td>7</td>
+      <td>10</td>
+      <td>AggregateAnnotationCommandHandler↔main</td>
+      <td>modelling/src/main/java/org/axonframework/modelling/command/AggregateAnnotationCommandHandler.java↔.github/workflows/main.yml</td>
     </tr>
     <tr>
       <th>30</th>
-      <td>yml↔java</td>
-      <td>15</td>
-      <td>2</td>
-      <td>main↔Coordinator</td>
-      <td>.github/workflows/main.yml↔messaging/src/main/java/org/axonframework/eventhandling/pooled/Coordinator.java</td>
+      <td>adoc↔xml</td>
+      <td>12</td>
+      <td>1</td>
+      <td>minor-releases↔pom</td>
+      <td>docs/old-reference-guide/modules/release-notes/pages/minor-releases.adoc↔spring-boot-3-integrationtests/pom.xml</td>
     </tr>
     <tr>
       <th>31</th>
-      <td>yml↔java</td>
-      <td>14</td>
-      <td>3</td>
-      <td>main↔TrackingEventProcessor</td>
-      <td>.github/workflows/main.yml↔messaging/src/main/java/org/axonframework/eventhandling/TrackingEventProcessor.java</td>
+      <td>adoc↔xml</td>
+      <td>10</td>
+      <td>2</td>
+      <td>rdbms-tuning↔pom</td>
+      <td>docs/old-reference-guide/modules/tuning/pages/rdbms-tuning.adoc↔legacy/pom.xml</td>
     </tr>
     <tr>
       <th>32</th>
-      <td>yml↔java</td>
-      <td>13</td>
-      <td>4</td>
-      <td>main↔EventProcessingModuleTest</td>
-      <td>.github/workflows/main.yml↔config/src/test/java/org/axonframework/config/EventProcessingModuleTest.java</td>
+      <td>adoc↔xml</td>
+      <td>9</td>
+      <td>3</td>
+      <td>minor-releases↔pom</td>
+      <td>docs/old-reference-guide/modules/release-notes/pages/minor-releases.adoc↔integrationtests/pom.xml</td>
     </tr>
     <tr>
       <th>33</th>
-      <td>yml↔java</td>
-      <td>12</td>
-      <td>5</td>
-      <td>main↔AxonServerQueryBus</td>
-      <td>.github/workflows/main.yml↔axon-server-connector/src/main/java/org/axonframework/axonserver/connector/query/AxonServerQueryBus.java</td>
+      <td>adoc↔xml</td>
+      <td>8</td>
+      <td>4</td>
+      <td>minor-releases↔pom</td>
+      <td>docs/old-reference-guide/modules/release-notes/pages/minor-releases.adoc↔modelling/pom.xml</td>
     </tr>
     <tr>
       <th>34</th>
-      <td>yml↔java</td>
-      <td>11</td>
-      <td>6</td>
-      <td>antora↔AvroSerializerAutoConfiguration</td>
-      <td>docs/old-reference-guide/antora.yml↔spring-boot-autoconfigure/src/main/java/org/axonframework/springboot/autoconfig/AvroSerializerAutoConfiguration.java</td>
+      <td>adoc↔xml</td>
+      <td>7</td>
+      <td>5</td>
+      <td>minor-releases↔pom</td>
+      <td>docs/old-reference-guide/modules/release-notes/pages/minor-releases.adoc↔axon-server-connector/pom.xml</td>
     </tr>
     <tr>
       <th>35</th>
-      <td>yml↔java</td>
-      <td>10</td>
-      <td>7</td>
-      <td>main↔AxonServerEventStore</td>
-      <td>.github/workflows/main.yml↔axon-server-connector/src/main/java/org/axonframework/axonserver/connector/event/axon/AxonServerEventStore.java</td>
+      <td>adoc↔xml</td>
+      <td>6</td>
+      <td>6</td>
+      <td>nav↔pom</td>
+      <td>docs/old-reference-guide/modules/nav.adoc↔axon-server-connector/pom.xml</td>
     </tr>
     <tr>
       <th>36</th>
-      <td>yml↔java</td>
-      <td>9</td>
-      <td>8</td>
-      <td>pullrequest↔AxonServerEventStore</td>
-      <td>.github/workflows/pullrequest.yml↔axon-server-connector/src/main/java/org/axonframework/axonserver/connector/event/axon/AxonServerEventStore.java</td>
+      <td>adoc↔xml</td>
+      <td>5</td>
+      <td>7</td>
+      <td>event-versioning↔pom</td>
+      <td>docs/old-reference-guide/modules/events/pages/event-versioning.adoc↔integrationtests/pom.xml</td>
     </tr>
     <tr>
       <th>37</th>
-      <td>yml↔java</td>
+      <td>adoc↔xml</td>
+      <td>4</td>
       <td>8</td>
-      <td>9</td>
-      <td>main↔AxonServerAutoConfiguration</td>
-      <td>.github/workflows/main.yml↔spring-boot-autoconfigure/src/main/java/org/axonframework/springboot/autoconfig/AxonServerAutoConfiguration.java</td>
+      <td>rdbms-tuning↔pom</td>
+      <td>docs/old-reference-guide/modules/tuning/pages/rdbms-tuning.adoc↔axon-server-connector/pom.xml</td>
     </tr>
     <tr>
       <th>38</th>
-      <td>yml↔java</td>
-      <td>7</td>
-      <td>10</td>
-      <td>main↔AxonServerConfiguration</td>
-      <td>.github/workflows/main.yml↔axon-server-connector/src/main/java/org/axonframework/axonserver/connector/AxonServerConfiguration.java</td>
+      <td>adoc↔xml</td>
+      <td>3</td>
+      <td>9</td>
+      <td>query-dispatchers↔pom</td>
+      <td>docs/old-reference-guide/modules/queries/pages/query-dispatchers.adoc↔axon-server-connector/pom.xml</td>
     </tr>
   </tbody>
 </table>
@@ -1461,7 +1497,7 @@ The following charts show how these metrics are distributed across pairs of file
 
 
     
-![svg](GitHistoryGeneral_files/GitHistoryGeneral_74_0.svg)
+![svg](GitHistoryGeneral_files/GitHistoryGeneral_73_0.svg)
     
 
 
@@ -1539,8 +1575,8 @@ This metric is useful to identify pairs of files that are frequently changed tog
       <td>java↔java</td>
       <td>0.800000</td>
       <td>7</td>
-      <td>NoOpSpanFactory↔SpanFactory</td>
-      <td>messaging/src/main/java/org/axonframework/tracing/NoOpSpanFactory.java↔messaging/src/main/java/org/axonframework/tracing/SpanFactory.java</td>
+      <td>DeadLetteringEventIntegrationTest↔InMemoryDeadLetteringIntegrationTest</td>
+      <td>messaging/src/test/java/org/axonframework/eventhandling/deadletter/DeadLetteringEventIntegrationTest.java↔messaging/src/test/java/org/axonframework/eventhandling/deadletter/InMemoryDeadLetteringIntegrationTest.java</td>
     </tr>
     <tr>
       <th>7</th>
@@ -1568,243 +1604,243 @@ This metric is useful to identify pairs of files that are frequently changed tog
     </tr>
     <tr>
       <th>10</th>
-      <td>xml↔adoc</td>
-      <td>0.375000</td>
+      <td>java↔xml</td>
+      <td>0.703704</td>
       <td>1</td>
-      <td>pom↔query-handlers</td>
-      <td>integrationtests/pom.xml↔docs/old-reference-guide/modules/queries/pages/query-handlers.adoc</td>
+      <td>JobRunrEventSchedulerTest↔pom</td>
+      <td>messaging/src/test/java/org/axonframework/eventhandling/scheduling/jobrunr/JobRunrEventSchedulerTest.java↔integrationtests/pom.xml</td>
     </tr>
     <tr>
       <th>11</th>
-      <td>xml↔adoc</td>
-      <td>0.352941</td>
+      <td>java↔xml</td>
+      <td>0.666667</td>
       <td>2</td>
-      <td>pom↔minor-releases</td>
-      <td>spring-boot-3-integrationtests/pom.xml↔docs/old-reference-guide/modules/release-notes/pages/minor-releases.adoc</td>
+      <td>JobRunrEventSchedulerTest↔pom</td>
+      <td>messaging/src/test/java/org/axonframework/eventhandling/scheduling/jobrunr/JobRunrEventSchedulerTest.java↔axon-server-connector/pom.xml</td>
     </tr>
     <tr>
       <th>12</th>
-      <td>xml↔adoc</td>
-      <td>0.333333</td>
+      <td>java↔xml</td>
+      <td>0.600000</td>
       <td>3</td>
-      <td>pom↔configuration</td>
-      <td>config/pom.xml↔docs/old-reference-guide/modules/queries/pages/configuration.adoc</td>
+      <td>ChainingConverter↔pom</td>
+      <td>messaging/src/main/java/org/axonframework/serialization/ChainingConverter.java↔integrationtests/pom.xml</td>
     </tr>
     <tr>
       <th>13</th>
-      <td>xml↔adoc</td>
-      <td>0.315789</td>
+      <td>java↔xml</td>
+      <td>0.545455</td>
       <td>4</td>
-      <td>pom↔query-dispatchers</td>
-      <td>integrationtests/pom.xml↔docs/old-reference-guide/modules/queries/pages/query-dispatchers.adoc</td>
+      <td>EventStoreTestUtils↔pom</td>
+      <td>eventsourcing/src/test/java/org/axonframework/eventsourcing/utils/EventStoreTestUtils.java↔eventsourcing/pom.xml</td>
     </tr>
     <tr>
       <th>14</th>
-      <td>xml↔adoc</td>
-      <td>0.312500</td>
+      <td>java↔xml</td>
+      <td>0.512821</td>
       <td>5</td>
-      <td>pom↔rdbms-tuning</td>
-      <td>legacy/pom.xml↔docs/old-reference-guide/modules/tuning/pages/rdbms-tuning.adoc</td>
+      <td>DefaultEventMessageConverter↔pom</td>
+      <td>spring/src/main/java/org/axonframework/spring/messaging/DefaultEventMessageConverter.java↔spring-boot-starter/pom.xml</td>
     </tr>
     <tr>
       <th>15</th>
-      <td>xml↔adoc</td>
-      <td>0.291667</td>
+      <td>java↔xml</td>
+      <td>0.500000</td>
       <td>6</td>
-      <td>pom↔event-snapshots</td>
-      <td>integrationtests/pom.xml↔docs/old-reference-guide/modules/tuning/pages/event-snapshots.adoc</td>
+      <td>ChainingConverter↔pom</td>
+      <td>messaging/src/main/java/org/axonframework/serialization/ChainingConverter.java↔tracing-opentelemetry/pom.xml</td>
     </tr>
     <tr>
       <th>16</th>
-      <td>xml↔adoc</td>
-      <td>0.285714</td>
+      <td>java↔xml</td>
+      <td>0.487179</td>
       <td>7</td>
-      <td>pom↔implementations</td>
-      <td>legacy/pom.xml↔docs/old-reference-guide/modules/queries/pages/implementations.adoc</td>
+      <td>DefaultEventMessageConverter↔pom</td>
+      <td>spring/src/main/java/org/axonframework/spring/messaging/DefaultEventMessageConverter.java↔spring/pom.xml</td>
     </tr>
     <tr>
       <th>17</th>
-      <td>xml↔adoc</td>
-      <td>0.281250</td>
+      <td>java↔xml</td>
+      <td>0.461538</td>
       <td>8</td>
-      <td>pom↔rdbms-tuning</td>
-      <td>integrationtests/pom.xml↔docs/old-reference-guide/modules/tuning/pages/rdbms-tuning.adoc</td>
+      <td>DefaultEventMessageConverter↔pom</td>
+      <td>spring/src/main/java/org/axonframework/spring/messaging/DefaultEventMessageConverter.java↔metrics/pom.xml</td>
     </tr>
     <tr>
       <th>18</th>
-      <td>xml↔adoc</td>
-      <td>0.264706</td>
+      <td>java↔xml</td>
+      <td>0.454545</td>
       <td>9</td>
-      <td>pom↔minor-releases</td>
-      <td>integrationtests/pom.xml↔docs/old-reference-guide/modules/release-notes/pages/minor-releases.adoc</td>
+      <td>JpaEventStoreAutoConfigurationWithoutAxonServerTest↔pom</td>
+      <td>spring-boot-autoconfigure/src/test/java/org/axonframework/springboot/legacyjpa/JpaEventStoreAutoConfigurationWithoutAxonServerTest.java↔messaging/pom.xml</td>
     </tr>
     <tr>
       <th>19</th>
-      <td>xml↔adoc</td>
-      <td>0.263158</td>
+      <td>java↔xml</td>
+      <td>0.448276</td>
       <td>10</td>
-      <td>pom↔event-versioning</td>
-      <td>tracing-opentelemetry/pom.xml↔docs/old-reference-guide/modules/events/pages/event-versioning.adoc</td>
+      <td>JobrunrDeadlineManagerTest↔pom</td>
+      <td>integrationtests/src/test/java/org/axonframework/integrationtests/deadline/jobrunr/JobrunrDeadlineManagerTest.java↔spring-boot-3-integrationtests/pom.xml</td>
     </tr>
     <tr>
       <th>20</th>
-      <td>xml↔java</td>
-      <td>0.703704</td>
+      <td>java↔yml</td>
+      <td>0.555556</td>
       <td>1</td>
-      <td>pom↔JobRunrEventSchedulerTest</td>
-      <td>legacy/pom.xml↔messaging/src/test/java/org/axonframework/eventhandling/scheduling/jobrunr/JobRunrEventSchedulerTest.java</td>
+      <td>JobRunrEventSchedulerTest↔main</td>
+      <td>messaging/src/test/java/org/axonframework/eventhandling/scheduling/jobrunr/JobRunrEventSchedulerTest.java↔.github/workflows/main.yml</td>
     </tr>
     <tr>
       <th>21</th>
-      <td>xml↔java</td>
-      <td>0.666667</td>
+      <td>java↔yml</td>
+      <td>0.481481</td>
       <td>2</td>
-      <td>pom↔JobRunrEventSchedulerTest</td>
-      <td>axon-server-connector/pom.xml↔messaging/src/test/java/org/axonframework/eventhandling/scheduling/jobrunr/JobRunrEventSchedulerTest.java</td>
+      <td>JobRunrEventSchedulerTest↔antora</td>
+      <td>messaging/src/test/java/org/axonframework/eventhandling/scheduling/jobrunr/JobRunrEventSchedulerTest.java↔docs/old-reference-guide/antora.yml</td>
     </tr>
     <tr>
       <th>22</th>
-      <td>xml↔java</td>
-      <td>0.600000</td>
+      <td>java↔yml</td>
+      <td>0.392857</td>
       <td>3</td>
-      <td>pom↔ChainingConverter</td>
-      <td>messaging/pom.xml↔messaging/src/main/java/org/axonframework/serialization/ChainingConverter.java</td>
+      <td>AvroSerializerAutoConfiguration↔antora</td>
+      <td>spring-boot-autoconfigure/src/main/java/org/axonframework/springboot/autoconfig/AvroSerializerAutoConfiguration.java↔docs/old-reference-guide/antora.yml</td>
     </tr>
     <tr>
       <th>23</th>
-      <td>xml↔java</td>
-      <td>0.512821</td>
+      <td>java↔yml</td>
+      <td>0.375000</td>
       <td>4</td>
-      <td>pom↔DefaultEventMessageConverter</td>
-      <td>spring-boot-starter/pom.xml↔spring/src/main/java/org/axonframework/spring/messaging/DefaultEventMessageConverter.java</td>
+      <td>AxonTimeLimitedTaskTest↔main</td>
+      <td>messaging/src/test/java/org/axonframework/messaging/timeout/AxonTimeLimitedTaskTest.java↔.github/workflows/main.yml</td>
     </tr>
     <tr>
       <th>24</th>
-      <td>xml↔java</td>
-      <td>0.500000</td>
+      <td>java↔yml</td>
+      <td>0.357143</td>
       <td>5</td>
-      <td>pom↔ChainingConverter</td>
-      <td>tracing-opentelemetry/pom.xml↔messaging/src/main/java/org/axonframework/serialization/ChainingConverter.java</td>
+      <td>AvroSerializerAutoConfiguration↔main</td>
+      <td>spring-boot-autoconfigure/src/main/java/org/axonframework/springboot/autoconfig/AvroSerializerAutoConfiguration.java↔.github/workflows/main.yml</td>
     </tr>
     <tr>
       <th>25</th>
-      <td>xml↔java</td>
-      <td>0.487179</td>
+      <td>java↔yml</td>
+      <td>0.340909</td>
       <td>6</td>
-      <td>pom↔DefaultEventMessageConverter</td>
-      <td>spring/pom.xml↔spring/src/main/java/org/axonframework/spring/messaging/DefaultEventMessageConverter.java</td>
+      <td>AbstractDeadlineManagerTestSuite↔main</td>
+      <td>spring/src/test/java/org/axonframework/integrationtests/deadline/AbstractDeadlineManagerTestSuite.java↔.github/workflows/main.yml</td>
     </tr>
     <tr>
       <th>26</th>
-      <td>xml↔java</td>
-      <td>0.461538</td>
+      <td>java↔yml</td>
+      <td>0.300000</td>
       <td>7</td>
-      <td>pom↔DefaultEventMessageConverter</td>
-      <td>metrics/pom.xml↔spring/src/main/java/org/axonframework/spring/messaging/DefaultEventMessageConverter.java</td>
+      <td>ChainingConverter↔main</td>
+      <td>messaging/src/main/java/org/axonframework/serialization/ChainingConverter.java↔.github/workflows/main.yml</td>
     </tr>
     <tr>
       <th>27</th>
-      <td>xml↔java</td>
-      <td>0.454545</td>
+      <td>java↔yml</td>
+      <td>0.295455</td>
       <td>8</td>
-      <td>pom↔SpringBootDockerComposeIntegrationTest</td>
-      <td>spring-boot-3-integrationtests/pom.xml↔spring-boot-3-integrationtests/src/test/java/org/axonframework/springboot/service/connection/SpringBootDockerComposeIntegrationTest.java</td>
+      <td>AbstractDeadlineManagerTestSuite↔antora</td>
+      <td>spring/src/test/java/org/axonframework/integrationtests/deadline/AbstractDeadlineManagerTestSuite.java↔docs/old-reference-guide/antora.yml</td>
     </tr>
     <tr>
       <th>28</th>
-      <td>xml↔java</td>
-      <td>0.448276</td>
+      <td>java↔yml</td>
+      <td>0.288889</td>
       <td>9</td>
-      <td>pom↔JobrunrDeadlineManagerTest</td>
-      <td>spring-boot-3-integrationtests/pom.xml↔integrationtests/src/test/java/org/axonframework/integrationtests/deadline/jobrunr/JobrunrDeadlineManagerTest.java</td>
+      <td>JobrunrDeadlineManagerTest↔antora</td>
+      <td>integrationtests/src/test/java/org/axonframework/integrationtests/deadline/jobrunr/JobrunrDeadlineManagerTest.java↔docs/old-reference-guide/antora.yml</td>
     </tr>
     <tr>
       <th>29</th>
-      <td>xml↔java</td>
-      <td>0.435897</td>
+      <td>java↔yml</td>
+      <td>0.277778</td>
       <td>10</td>
-      <td>pom↔DefaultEventMessageConverter</td>
-      <td>integrationtests/pom.xml↔spring/src/main/java/org/axonframework/spring/messaging/DefaultEventMessageConverter.java</td>
+      <td>SpringAxonConfiguration↔main</td>
+      <td>spring/src/main/java/org/axonframework/spring/config/SpringAxonConfiguration.java↔.github/workflows/main.yml</td>
     </tr>
     <tr>
       <th>30</th>
-      <td>yml↔java</td>
-      <td>0.555556</td>
+      <td>adoc↔xml</td>
+      <td>0.375000</td>
       <td>1</td>
-      <td>main↔JobRunrEventSchedulerTest</td>
-      <td>.github/workflows/main.yml↔messaging/src/test/java/org/axonframework/eventhandling/scheduling/jobrunr/JobRunrEventSchedulerTest.java</td>
+      <td>index↔pom</td>
+      <td>docs/old-reference-guide/modules/queries/pages/index.adoc↔axon-server-connector/pom.xml</td>
     </tr>
     <tr>
       <th>31</th>
-      <td>yml↔java</td>
-      <td>0.481481</td>
+      <td>adoc↔xml</td>
+      <td>0.352941</td>
       <td>2</td>
-      <td>antora↔JobRunrEventSchedulerTest</td>
-      <td>docs/old-reference-guide/antora.yml↔messaging/src/test/java/org/axonframework/eventhandling/scheduling/jobrunr/JobRunrEventSchedulerTest.java</td>
+      <td>minor-releases↔pom</td>
+      <td>docs/old-reference-guide/modules/release-notes/pages/minor-releases.adoc↔spring-boot-3-integrationtests/pom.xml</td>
     </tr>
     <tr>
       <th>32</th>
-      <td>yml↔java</td>
-      <td>0.392857</td>
+      <td>adoc↔xml</td>
+      <td>0.333333</td>
       <td>3</td>
-      <td>antora↔AvroSerializerAutoConfiguration</td>
-      <td>docs/old-reference-guide/antora.yml↔spring-boot-autoconfigure/src/main/java/org/axonframework/springboot/autoconfig/AvroSerializerAutoConfiguration.java</td>
+      <td>nav↔pom</td>
+      <td>docs/old-reference-guide/modules/queries/partials/nav.adoc↔axon-server-connector/pom.xml</td>
     </tr>
     <tr>
       <th>33</th>
-      <td>yml↔java</td>
-      <td>0.375000</td>
+      <td>adoc↔xml</td>
+      <td>0.315789</td>
       <td>4</td>
-      <td>antora↔AxonTimeLimitedTaskTest</td>
-      <td>docs/old-reference-guide/antora.yml↔messaging/src/test/java/org/axonframework/messaging/timeout/AxonTimeLimitedTaskTest.java</td>
+      <td>query-dispatchers↔pom</td>
+      <td>docs/old-reference-guide/modules/queries/pages/query-dispatchers.adoc↔integrationtests/pom.xml</td>
     </tr>
     <tr>
       <th>34</th>
-      <td>yml↔java</td>
-      <td>0.357143</td>
+      <td>adoc↔xml</td>
+      <td>0.312500</td>
       <td>5</td>
-      <td>main↔AvroSerializerAutoConfiguration</td>
-      <td>.github/workflows/main.yml↔spring-boot-autoconfigure/src/main/java/org/axonframework/springboot/autoconfig/AvroSerializerAutoConfiguration.java</td>
+      <td>query-handlers↔pom</td>
+      <td>docs/old-reference-guide/modules/queries/pages/query-handlers.adoc↔legacy/pom.xml</td>
     </tr>
     <tr>
       <th>35</th>
-      <td>yml↔java</td>
-      <td>0.340909</td>
+      <td>adoc↔xml</td>
+      <td>0.291667</td>
       <td>6</td>
-      <td>slack-release-notification↔AbstractDeadlineManagerTestSuite</td>
-      <td>.github/workflows/slack-release-notification.yml↔spring/src/test/java/org/axonframework/integrationtests/deadline/AbstractDeadlineManagerTestSuite.java</td>
+      <td>event-snapshots↔pom</td>
+      <td>docs/old-reference-guide/modules/tuning/pages/event-snapshots.adoc↔integrationtests/pom.xml</td>
     </tr>
     <tr>
       <th>36</th>
-      <td>yml↔java</td>
-      <td>0.300000</td>
+      <td>adoc↔xml</td>
+      <td>0.285714</td>
       <td>7</td>
-      <td>main↔ChainingConverter</td>
-      <td>.github/workflows/main.yml↔messaging/src/main/java/org/axonframework/serialization/ChainingConverter.java</td>
+      <td>implementations↔pom</td>
+      <td>docs/old-reference-guide/modules/queries/pages/implementations.adoc↔legacy/pom.xml</td>
     </tr>
     <tr>
       <th>37</th>
-      <td>yml↔java</td>
-      <td>0.295455</td>
+      <td>adoc↔xml</td>
+      <td>0.281250</td>
       <td>8</td>
-      <td>antora↔AbstractDeadlineManagerTestSuite</td>
-      <td>docs/old-reference-guide/antora.yml↔spring/src/test/java/org/axonframework/integrationtests/deadline/AbstractDeadlineManagerTestSuite.java</td>
+      <td>rdbms-tuning↔pom</td>
+      <td>docs/old-reference-guide/modules/tuning/pages/rdbms-tuning.adoc↔integrationtests/pom.xml</td>
     </tr>
     <tr>
       <th>38</th>
-      <td>yml↔java</td>
-      <td>0.288889</td>
+      <td>adoc↔xml</td>
+      <td>0.264706</td>
       <td>9</td>
-      <td>antora↔JobrunrDeadlineManagerTest</td>
-      <td>docs/old-reference-guide/antora.yml↔integrationtests/src/test/java/org/axonframework/integrationtests/deadline/jobrunr/JobrunrDeadlineManagerTest.java</td>
+      <td>minor-releases↔pom</td>
+      <td>docs/old-reference-guide/modules/release-notes/pages/minor-releases.adoc↔integrationtests/pom.xml</td>
     </tr>
     <tr>
       <th>39</th>
-      <td>yml↔java</td>
-      <td>0.277778</td>
+      <td>adoc↔xml</td>
+      <td>0.263158</td>
       <td>10</td>
-      <td>main↔SpringAxonConfiguration</td>
-      <td>.github/workflows/main.yml↔spring/src/main/java/org/axonframework/spring/config/SpringAxonConfiguration.java</td>
+      <td>event-versioning↔pom</td>
+      <td>docs/old-reference-guide/modules/events/pages/event-versioning.adoc↔integrationtests/pom.xml</td>
     </tr>
   </tbody>
 </table>
@@ -1814,7 +1850,7 @@ This metric is useful to identify pairs of files that are frequently changed tog
 
 
     
-![svg](GitHistoryGeneral_files/GitHistoryGeneral_77_0.svg)
+![svg](GitHistoryGeneral_files/GitHistoryGeneral_76_0.svg)
     
 
 
@@ -1839,7 +1875,7 @@ This metric is useful to identify pairs of files that are frequently changed tog
     <tr>
       <th>0</th>
       <td>java↔java</td>
-      <td>2135.333333</td>
+      <td>1942.666667</td>
       <td>1</td>
       <td>AvroSchemaPackages↔AvroSchemaScan</td>
       <td>spring/src/main/java/org/axonframework/spring/serialization/avro/AvroSchemaPackages.java↔spring/src/main/java/org/axonframework/spring/serialization/avro/AvroSchemaScan.java</td>
@@ -1847,7 +1883,7 @@ This metric is useful to identify pairs of files that are frequently changed tog
     <tr>
       <th>1</th>
       <td>java↔java</td>
-      <td>1601.500000</td>
+      <td>1457.000000</td>
       <td>2</td>
       <td>DefaultEventProcessorSpanFactory↔DefaultEventProcessorSpanFactoryTest</td>
       <td>messaging/src/main/java/org/axonframework/eventhandling/DefaultEventProcessorSpanFactory.java↔messaging/src/test/java/org/axonframework/eventhandling/DefaultEventProcessorSpanFactoryTest.java</td>
@@ -1855,7 +1891,7 @@ This metric is useful to identify pairs of files that are frequently changed tog
     <tr>
       <th>2</th>
       <td>java↔java</td>
-      <td>1281.200000</td>
+      <td>1165.600000</td>
       <td>3</td>
       <td>TimeoutWrappedMessageHandlingMemberTest↔UnitOfWorkTimeoutInterceptorTest</td>
       <td>messaging/src/test/java/org/axonframework/messaging/timeout/TimeoutWrappedMessageHandlingMemberTest.java↔messaging/src/test/java/org/axonframework/messaging/timeout/UnitOfWorkTimeoutInterceptorTest.java</td>
@@ -1863,7 +1899,7 @@ This metric is useful to identify pairs of files that are frequently changed tog
     <tr>
       <th>3</th>
       <td>java↔java</td>
-      <td>1201.125000</td>
+      <td>1092.750000</td>
       <td>4</td>
       <td>AxonServerEventStoreFactory↔AxonServerEventStoreFactoryTest</td>
       <td>axon-server-connector/src/main/java/org/axonframework/axonserver/connector/event/axon/AxonServerEventStoreFactory.java↔axon-server-connector/src/test/java/org/axonframework/axonserver/connector/event/axon/AxonServerEventStoreFactoryTest.java</td>
@@ -1871,7 +1907,7 @@ This metric is useful to identify pairs of files that are frequently changed tog
     <tr>
       <th>4</th>
       <td>java↔java</td>
-      <td>1067.666667</td>
+      <td>971.333333</td>
       <td>5</td>
       <td>ClasspathAvroSchemaLoader↔SpecificRecordBaseClasspathAvroSchemaLoader</td>
       <td>spring/src/main/java/org/axonframework/spring/serialization/avro/ClasspathAvroSchemaLoader.java↔spring/src/main/java/org/axonframework/spring/serialization/avro/SpecificRecordBaseClasspathAvroSchemaLoader.java</td>
@@ -1879,7 +1915,7 @@ This metric is useful to identify pairs of files that are frequently changed tog
     <tr>
       <th>5</th>
       <td>java↔java</td>
-      <td>915.142857</td>
+      <td>832.571429</td>
       <td>6</td>
       <td>DeadlineDetailsSerializationTest↔JobRunrDeadlineManagerBuilderTest</td>
       <td>messaging/src/test/java/org/axonframework/deadline/jobrunr/DeadlineDetailsSerializationTest.java↔messaging/src/test/java/org/axonframework/deadline/jobrunr/JobRunrDeadlineManagerBuilderTest.java</td>
@@ -1887,7 +1923,7 @@ This metric is useful to identify pairs of files that are frequently changed tog
     <tr>
       <th>6</th>
       <td>java↔java</td>
-      <td>800.750000</td>
+      <td>728.500000</td>
       <td>7</td>
       <td>EnqueuePolicy↔NoSuchDeadLetterException</td>
       <td>messaging/src/main/java/org/axonframework/messaging/deadletter/EnqueuePolicy.java↔messaging/src/main/java/org/axonframework/messaging/deadletter/NoSuchDeadLetterException.java</td>
@@ -1895,7 +1931,7 @@ This metric is useful to identify pairs of files that are frequently changed tog
     <tr>
       <th>7</th>
       <td>java↔java</td>
-      <td>768.720000</td>
+      <td>699.360000</td>
       <td>8</td>
       <td>AxonServerNonTransientRemoteCommandHandlingException↔AxonServerNonTransientRemoteQueryHandlingException</td>
       <td>axon-server-connector/src/main/java/org/axonframework/axonserver/connector/command/AxonServerNonTransientRemoteCommandHandlingException.java↔axon-server-connector/src/main/java/org/axonframework/axonserver/connector/query/AxonServerNonTransientRemoteQueryHandlingException.java</td>
@@ -1903,7 +1939,7 @@ This metric is useful to identify pairs of files that are frequently changed tog
     <tr>
       <th>8</th>
       <td>java↔java</td>
-      <td>762.619048</td>
+      <td>693.809524</td>
       <td>9</td>
       <td>AvroSerializerStrategy↔ByteArrayToGenericRecordConverter</td>
       <td>messaging/src/main/java/org/axonframework/serialization/avro/AvroSerializerStrategy.java↔messaging/src/main/java/org/axonframework/serialization/avro/ByteArrayToGenericRecordConverter.java</td>
@@ -1911,250 +1947,250 @@ This metric is useful to identify pairs of files that are frequently changed tog
     <tr>
       <th>9</th>
       <td>java↔java</td>
-      <td>711.777778</td>
+      <td>647.555556</td>
       <td>10</td>
-      <td>ShouldEnqueue↔IgnoreTest</td>
-      <td>messaging/src/main/java/org/axonframework/messaging/deadletter/ShouldEnqueue.java↔messaging/src/test/java/org/axonframework/messaging/deadletter/IgnoreTest.java</td>
+      <td>GenericDeadLetterTest↔IgnoreTest</td>
+      <td>messaging/src/test/java/org/axonframework/messaging/deadletter/GenericDeadLetterTest.java↔messaging/src/test/java/org/axonframework/messaging/deadletter/IgnoreTest.java</td>
     </tr>
     <tr>
       <th>10</th>
-      <td>xml↔adoc</td>
-      <td>26.398352</td>
+      <td>java↔xml</td>
+      <td>86.726190</td>
       <td>1</td>
-      <td>pom↔index</td>
-      <td>spring-boot3-dummy/pom.xml↔docs/old-reference-guide/modules/queries/pages/index.adoc</td>
+      <td>ContextAddingInterceptor↔logback</td>
+      <td>axon-server-connector/src/main/java/org/axonframework/axonserver/connector/util/ContextAddingInterceptor.java↔axon-server-connector/src/test/resources/logback.xml</td>
     </tr>
     <tr>
       <th>11</th>
-      <td>xml↔adoc</td>
-      <td>23.465201</td>
+      <td>java↔xml</td>
+      <td>50.590278</td>
       <td>2</td>
-      <td>pom↔configuration</td>
-      <td>spring-boot3-dummy/pom.xml↔docs/old-reference-guide/modules/queries/pages/configuration.adoc</td>
+      <td>UpstreamAwareStreamObserver↔logback</td>
+      <td>axon-server-connector/src/main/java/org/axonframework/axonserver/connector/util/UpstreamAwareStreamObserver.java↔axon-server-connector/src/test/resources/logback.xml</td>
     </tr>
     <tr>
       <th>12</th>
-      <td>xml↔adoc</td>
-      <td>18.622093</td>
+      <td>java↔xml</td>
+      <td>42.695971</td>
       <td>3</td>
-      <td>pom↔index</td>
-      <td>hibernate-6-integrationtests/pom.xml↔docs/old-reference-guide/modules/queries/pages/index.adoc</td>
+      <td>JobRunrEventSchedulerTest↔pom</td>
+      <td>messaging/src/test/java/org/axonframework/eventhandling/scheduling/jobrunr/JobRunrEventSchedulerTest.java↔spring-boot3-dummy/pom.xml</td>
     </tr>
     <tr>
       <th>13</th>
-      <td>xml↔adoc</td>
-      <td>16.552972</td>
+      <td>java↔xml</td>
+      <td>35.321212</td>
       <td>4</td>
-      <td>pom↔configuration</td>
-      <td>hibernate-6-integrationtests/pom.xml↔docs/old-reference-guide/modules/queries/pages/configuration.adoc</td>
+      <td>EventStoreTestUtils↔persistence</td>
+      <td>eventsourcing/src/test/java/org/axonframework/eventsourcing/utils/EventStoreTestUtils.java↔integrationtests/src/test/resources/META-INF/persistence.xml</td>
     </tr>
     <tr>
       <th>14</th>
-      <td>xml↔adoc</td>
-      <td>16.122483</td>
+      <td>java↔xml</td>
+      <td>33.996667</td>
       <td>5</td>
-      <td>pom↔index</td>
-      <td>coverage-report/pom.xml↔docs/old-reference-guide/modules/queries/pages/index.adoc</td>
+      <td>TestAggregateRoot↔benchmark-mongo-context</td>
+      <td>integrationtests/src/test/java/org/axonframework/integrationtests/cache/TestAggregateRoot.java↔integrationtests/src/test/resources/META-INF/spring/benchmark-mongo-context.xml</td>
     </tr>
     <tr>
       <th>15</th>
-      <td>xml↔adoc</td>
-      <td>15.643468</td>
+      <td>java↔xml</td>
+      <td>33.167480</td>
       <td>6</td>
-      <td>pom↔nav</td>
-      <td>spring-boot3-dummy/pom.xml↔docs/old-reference-guide/modules/nav.adoc</td>
+      <td>Message↔benchmark-mongo-context</td>
+      <td>integrationtests/src/test/java/org/axonframework/integrationtests/loopbacktest/Message.java↔integrationtests/src/test/resources/META-INF/spring/benchmark-mongo-context.xml</td>
     </tr>
     <tr>
       <th>16</th>
-      <td>xml↔adoc</td>
-      <td>15.084772</td>
+      <td>java↔xml</td>
+      <td>30.118863</td>
       <td>7</td>
-      <td>pom↔implementations</td>
-      <td>spring-boot3-dummy/pom.xml↔docs/old-reference-guide/modules/queries/pages/implementations.adoc</td>
+      <td>JobRunrEventSchedulerTest↔pom</td>
+      <td>messaging/src/test/java/org/axonframework/eventhandling/scheduling/jobrunr/JobRunrEventSchedulerTest.java↔hibernate-6-integrationtests/pom.xml</td>
     </tr>
     <tr>
       <th>17</th>
-      <td>xml↔adoc</td>
-      <td>14.493213</td>
+      <td>java↔xml</td>
+      <td>27.752381</td>
       <td>8</td>
-      <td>pom↔minor-releases</td>
-      <td>spring-boot3-dummy/pom.xml↔docs/old-reference-guide/modules/release-notes/pages/minor-releases.adoc</td>
+      <td>MessagingCommandHandler↔benchmark-mongo-context</td>
+      <td>integrationtests/src/test/java/org/axonframework/integrationtests/loopbacktest/MessagingCommandHandler.java↔integrationtests/src/test/resources/META-INF/spring/benchmark-mongo-context.xml</td>
     </tr>
     <tr>
       <th>18</th>
-      <td>xml↔adoc</td>
-      <td>14.331096</td>
+      <td>java↔xml</td>
+      <td>26.076063</td>
       <td>9</td>
-      <td>pom↔configuration</td>
-      <td>coverage-report/pom.xml↔docs/old-reference-guide/modules/queries/pages/configuration.adoc</td>
+      <td>JobRunrEventSchedulerTest↔pom</td>
+      <td>messaging/src/test/java/org/axonframework/eventhandling/scheduling/jobrunr/JobRunrEventSchedulerTest.java↔coverage-report/pom.xml</td>
     </tr>
     <tr>
       <th>19</th>
-      <td>xml↔adoc</td>
-      <td>13.199176</td>
+      <td>java↔xml</td>
+      <td>24.283333</td>
       <td>10</td>
-      <td>pom↔rdbms-tuning</td>
-      <td>spring-boot3-dummy/pom.xml↔docs/old-reference-guide/modules/tuning/pages/rdbms-tuning.adoc</td>
+      <td>AbstractResourceInjector↔persistence</td>
+      <td>modelling/src/main/java/org/axonframework/modelling/saga/AbstractResourceInjector.java↔integrationtests/src/test/resources/META-INF/persistence.xml</td>
     </tr>
     <tr>
       <th>20</th>
-      <td>xml↔java</td>
-      <td>46.930403</td>
+      <td>java↔yml</td>
+      <td>62.357202</td>
       <td>1</td>
-      <td>pom↔JobRunrEventSchedulerTest</td>
-      <td>spring-boot3-dummy/pom.xml↔messaging/src/test/java/org/axonframework/eventhandling/scheduling/jobrunr/JobRunrEventSchedulerTest.java</td>
+      <td>JobRunrEventSchedulerTest↔antora</td>
+      <td>messaging/src/test/java/org/axonframework/eventhandling/scheduling/jobrunr/JobRunrEventSchedulerTest.java↔docs/old-reference-guide/antora.yml</td>
     </tr>
     <tr>
       <th>21</th>
-      <td>xml↔java</td>
-      <td>33.105943</td>
+      <td>java↔yml</td>
+      <td>54.637500</td>
       <td>2</td>
-      <td>pom↔JobRunrEventSchedulerTest</td>
-      <td>hibernate-6-integrationtests/pom.xml↔messaging/src/test/java/org/axonframework/eventhandling/scheduling/jobrunr/JobRunrEventSchedulerTest.java</td>
+      <td>AbstractResourceInjector↔add-to-project</td>
+      <td>modelling/src/main/java/org/axonframework/modelling/saga/AbstractResourceInjector.java↔.github/workflows/add-to-project.yml</td>
     </tr>
     <tr>
       <th>22</th>
-      <td>xml↔java</td>
-      <td>31.059394</td>
+      <td>java↔yml</td>
+      <td>50.879365</td>
       <td>3</td>
-      <td>persistence↔EventStoreTestUtils</td>
-      <td>integrationtests/src/test/resources/META-INF/persistence.xml↔eventsourcing/src/test/java/org/axonframework/eventsourcing/utils/EventStoreTestUtils.java</td>
+      <td>AvroSerializerAutoConfiguration↔antora</td>
+      <td>spring-boot-autoconfigure/src/main/java/org/axonframework/springboot/autoconfig/AvroSerializerAutoConfiguration.java↔docs/old-reference-guide/antora.yml</td>
     </tr>
     <tr>
       <th>23</th>
-      <td>xml↔java</td>
-      <td>28.662192</td>
+      <td>java↔yml</td>
+      <td>48.566667</td>
       <td>4</td>
-      <td>pom↔JobRunrEventSchedulerTest</td>
-      <td>coverage-report/pom.xml↔messaging/src/test/java/org/axonframework/eventhandling/scheduling/jobrunr/JobRunrEventSchedulerTest.java</td>
+      <td>AxonTimeLimitedTaskTest↔antora</td>
+      <td>messaging/src/test/java/org/axonframework/messaging/timeout/AxonTimeLimitedTaskTest.java↔docs/old-reference-guide/antora.yml</td>
     </tr>
     <tr>
       <th>24</th>
-      <td>xml↔java</td>
-      <td>25.598402</td>
+      <td>java↔yml</td>
+      <td>43.753754</td>
       <td>5</td>
-      <td>pom↔AbstractDeadlineManagerTestSuite</td>
-      <td>spring-boot3-dummy/pom.xml↔spring/src/test/java/org/axonframework/integrationtests/deadline/AbstractDeadlineManagerTestSuite.java</td>
+      <td>JobRunrEventSchedulerTest↔slack-release-notification</td>
+      <td>messaging/src/test/java/org/axonframework/eventhandling/scheduling/jobrunr/JobRunrEventSchedulerTest.java↔.github/workflows/slack-release-notification.yml</td>
     </tr>
     <tr>
       <th>25</th>
-      <td>xml↔java</td>
-      <td>23.725926</td>
+      <td>java↔yml</td>
+      <td>43.710000</td>
       <td>6</td>
-      <td>benchmark-mongo-context↔StubAggregate</td>
-      <td>integrationtests/src/test/resources/META-INF/spring/benchmark-mongo-context.xml↔spring/src/test/java/org/axonframework/spring/config/annotation/StubAggregate.java</td>
+      <td>ConfigurationScopeAwareProvider↔add-to-project</td>
+      <td>config/src/main/java/org/axonframework/config/ConfigurationScopeAwareProvider.java↔.github/workflows/add-to-project.yml</td>
     </tr>
     <tr>
       <th>26</th>
-      <td>xml↔java</td>
-      <td>23.336976</td>
+      <td>java↔yml</td>
+      <td>38.264646</td>
       <td>7</td>
-      <td>pom↔JobRunrEventSchedulerTest</td>
-      <td>reactorless-test/pom.xml↔messaging/src/test/java/org/axonframework/eventhandling/scheduling/jobrunr/JobRunrEventSchedulerTest.java</td>
+      <td>AbstractDeadlineManagerTestSuite↔antora</td>
+      <td>spring/src/test/java/org/axonframework/integrationtests/deadline/AbstractDeadlineManagerTestSuite.java↔docs/old-reference-guide/antora.yml</td>
     </tr>
     <tr>
       <th>27</th>
-      <td>xml↔java</td>
-      <td>22.572234</td>
+      <td>java↔yml</td>
+      <td>29.028352</td>
       <td>8</td>
-      <td>pom↔JpaEventStoreAutoConfigurationWithoutAxonServerTest</td>
-      <td>hibernate-6-integrationtests/pom.xml↔spring-boot-autoconfigure/src/test/java/org/axonframework/springboot/legacyjpa/JpaEventStoreAutoConfigurationWithoutAxonServerTest.java</td>
+      <td>JobrunrDeadlineManagerTest↔antora</td>
+      <td>integrationtests/src/test/java/org/axonframework/integrationtests/deadline/jobrunr/JobrunrDeadlineManagerTest.java↔docs/old-reference-guide/antora.yml</td>
     </tr>
     <tr>
       <th>28</th>
-      <td>xml↔java</td>
-      <td>21.846912</td>
+      <td>java↔yml</td>
+      <td>26.848894</td>
       <td>9</td>
-      <td>pom↔JobrunrDeadlineManagerTest</td>
-      <td>spring-boot3-dummy/pom.xml↔integrationtests/src/test/java/org/axonframework/integrationtests/deadline/jobrunr/JobrunrDeadlineManagerTest.java</td>
+      <td>AbstractDeadlineManagerTestSuite↔slack-release-notification</td>
+      <td>spring/src/test/java/org/axonframework/integrationtests/deadline/AbstractDeadlineManagerTestSuite.java↔.github/workflows/slack-release-notification.yml</td>
     </tr>
     <tr>
       <th>29</th>
-      <td>xml↔java</td>
-      <td>21.353333</td>
+      <td>java↔yml</td>
+      <td>21.479115</td>
       <td>10</td>
-      <td>persistence↔ConfigurationScopeAwareProvider</td>
-      <td>integrationtests/src/test/resources/META-INF/persistence.xml↔config/src/main/java/org/axonframework/config/ConfigurationScopeAwareProvider.java</td>
+      <td>JpaEventStoreAutoConfigurationWithoutAxonServerTest↔slack-release-notification</td>
+      <td>spring-boot-autoconfigure/src/test/java/org/axonframework/springboot/legacyjpa/JpaEventStoreAutoConfigurationWithoutAxonServerTest.java↔.github/workflows/slack-release-notification.yml</td>
     </tr>
     <tr>
       <th>30</th>
-      <td>yml↔java</td>
-      <td>68.541564</td>
+      <td>adoc↔xml</td>
+      <td>24.016484</td>
       <td>1</td>
-      <td>antora↔JobRunrEventSchedulerTest</td>
-      <td>docs/old-reference-guide/antora.yml↔messaging/src/test/java/org/axonframework/eventhandling/scheduling/jobrunr/JobRunrEventSchedulerTest.java</td>
+      <td>index↔pom</td>
+      <td>docs/old-reference-guide/modules/queries/pages/index.adoc↔spring-boot3-dummy/pom.xml</td>
     </tr>
     <tr>
       <th>31</th>
-      <td>yml↔java</td>
-      <td>55.925397</td>
+      <td>adoc↔xml</td>
+      <td>21.347985</td>
       <td>2</td>
-      <td>antora↔AvroSerializerAutoConfiguration</td>
-      <td>docs/old-reference-guide/antora.yml↔spring-boot-autoconfigure/src/main/java/org/axonframework/springboot/autoconfig/AvroSerializerAutoConfiguration.java</td>
+      <td>nav↔pom</td>
+      <td>docs/old-reference-guide/modules/queries/partials/nav.adoc↔spring-boot3-dummy/pom.xml</td>
     </tr>
     <tr>
       <th>32</th>
-      <td>yml↔java</td>
-      <td>53.383333</td>
+      <td>adoc↔xml</td>
+      <td>16.941860</td>
       <td>3</td>
-      <td>antora↔AxonTimeLimitedTaskTest</td>
-      <td>docs/old-reference-guide/antora.yml↔messaging/src/test/java/org/axonframework/messaging/timeout/AxonTimeLimitedTaskTest.java</td>
+      <td>index↔pom</td>
+      <td>docs/old-reference-guide/modules/queries/pages/index.adoc↔hibernate-6-integrationtests/pom.xml</td>
     </tr>
     <tr>
       <th>33</th>
-      <td>yml↔java</td>
-      <td>48.093093</td>
+      <td>adoc↔xml</td>
+      <td>15.059432</td>
       <td>4</td>
-      <td>slack-release-notification↔JobRunrEventSchedulerTest</td>
-      <td>.github/workflows/slack-release-notification.yml↔messaging/src/test/java/org/axonframework/eventhandling/scheduling/jobrunr/JobRunrEventSchedulerTest.java</td>
+      <td>configuration↔pom</td>
+      <td>docs/old-reference-guide/modules/queries/pages/configuration.adoc↔hibernate-6-integrationtests/pom.xml</td>
     </tr>
     <tr>
       <th>34</th>
-      <td>yml↔java</td>
-      <td>42.059596</td>
+      <td>adoc↔xml</td>
+      <td>14.667785</td>
       <td>5</td>
-      <td>antora↔AbstractDeadlineManagerTestSuite</td>
-      <td>docs/old-reference-guide/antora.yml↔spring/src/test/java/org/axonframework/integrationtests/deadline/AbstractDeadlineManagerTestSuite.java</td>
+      <td>index↔pom</td>
+      <td>docs/old-reference-guide/modules/queries/pages/index.adoc↔coverage-report/pom.xml</td>
     </tr>
     <tr>
       <th>35</th>
-      <td>yml↔java</td>
-      <td>31.907280</td>
+      <td>adoc↔xml</td>
+      <td>14.231990</td>
       <td>6</td>
-      <td>antora↔JobrunrDeadlineManagerTest</td>
-      <td>docs/old-reference-guide/antora.yml↔integrationtests/src/test/java/org/axonframework/integrationtests/deadline/jobrunr/JobrunrDeadlineManagerTest.java</td>
+      <td>nav↔pom</td>
+      <td>docs/old-reference-guide/modules/nav.adoc↔spring-boot3-dummy/pom.xml</td>
     </tr>
     <tr>
       <th>36</th>
-      <td>yml↔java</td>
-      <td>29.511671</td>
+      <td>adoc↔xml</td>
+      <td>13.723705</td>
       <td>7</td>
-      <td>slack-release-notification↔AbstractDeadlineManagerTestSuite</td>
-      <td>.github/workflows/slack-release-notification.yml↔spring/src/test/java/org/axonframework/integrationtests/deadline/AbstractDeadlineManagerTestSuite.java</td>
+      <td>implementations↔pom</td>
+      <td>docs/old-reference-guide/modules/queries/pages/implementations.adoc↔spring-boot3-dummy/pom.xml</td>
     </tr>
     <tr>
       <th>37</th>
-      <td>yml↔java</td>
-      <td>23.609337</td>
+      <td>adoc↔xml</td>
+      <td>13.185520</td>
       <td>8</td>
-      <td>slack-release-notification↔JpaEventStoreAutoConfigurationWithoutAxonServerTest</td>
-      <td>.github/workflows/slack-release-notification.yml↔spring-boot-autoconfigure/src/test/java/org/axonframework/springboot/legacyjpa/JpaEventStoreAutoConfigurationWithoutAxonServerTest.java</td>
+      <td>minor-releases↔pom</td>
+      <td>docs/old-reference-guide/modules/release-notes/pages/minor-releases.adoc↔spring-boot3-dummy/pom.xml</td>
     </tr>
     <tr>
       <th>38</th>
-      <td>yml↔java</td>
-      <td>19.237237</td>
+      <td>adoc↔xml</td>
+      <td>13.038031</td>
       <td>9</td>
-      <td>slack-release-notification↔SpringAxonConfiguration</td>
-      <td>.github/workflows/slack-release-notification.yml↔spring/src/main/java/org/axonframework/spring/config/SpringAxonConfiguration.java</td>
+      <td>configuration↔pom</td>
+      <td>docs/old-reference-guide/modules/queries/pages/configuration.adoc↔coverage-report/pom.xml</td>
     </tr>
     <tr>
       <th>39</th>
-      <td>yml↔java</td>
-      <td>16.857895</td>
+      <td>adoc↔xml</td>
+      <td>12.008242</td>
       <td>10</td>
-      <td>add-to-project↔EventProcessingConfiguration</td>
-      <td>.github/workflows/add-to-project.yml↔config/src/main/java/org/axonframework/config/EventProcessingConfiguration.java</td>
+      <td>query-handlers↔pom</td>
+      <td>docs/old-reference-guide/modules/queries/pages/query-handlers.adoc↔spring-boot3-dummy/pom.xml</td>
     </tr>
   </tbody>
 </table>
@@ -2164,7 +2200,7 @@ This metric is useful to identify pairs of files that are frequently changed tog
 
 
     
-![svg](GitHistoryGeneral_files/GitHistoryGeneral_80_0.svg)
+![svg](GitHistoryGeneral_files/GitHistoryGeneral_79_0.svg)
     
 
 
@@ -2197,34 +2233,34 @@ This metric is useful to identify pairs of files that are frequently changed tog
     <tr>
       <th>1</th>
       <td>java↔java</td>
-      <td>0.750000</td>
+      <td>0.800000</td>
       <td>2</td>
-      <td>DefaultEventProcessorSpanFactory↔DefaultEventProcessorSpanFactoryTest</td>
-      <td>messaging/src/main/java/org/axonframework/eventhandling/DefaultEventProcessorSpanFactory.java↔messaging/src/test/java/org/axonframework/eventhandling/DefaultEventProcessorSpanFactoryTest.java</td>
+      <td>DoNotEnqueueTest↔ShouldEnqueueTest</td>
+      <td>messaging/src/test/java/org/axonframework/messaging/deadletter/DoNotEnqueueTest.java↔messaging/src/test/java/org/axonframework/messaging/deadletter/ShouldEnqueueTest.java</td>
     </tr>
     <tr>
       <th>2</th>
       <td>java↔java</td>
-      <td>0.714286</td>
+      <td>0.750000</td>
       <td>3</td>
-      <td>AvroUtil↔SpecificRecordBaseSerializerStrategy</td>
-      <td>messaging/src/main/java/org/axonframework/serialization/avro/AvroUtil.java↔messaging/src/main/java/org/axonframework/serialization/avro/SpecificRecordBaseSerializerStrategy.java</td>
+      <td>DefaultEventProcessorSpanFactory↔DefaultEventProcessorSpanFactoryTest</td>
+      <td>messaging/src/main/java/org/axonframework/eventhandling/DefaultEventProcessorSpanFactory.java↔messaging/src/test/java/org/axonframework/eventhandling/DefaultEventProcessorSpanFactoryTest.java</td>
     </tr>
     <tr>
       <th>3</th>
       <td>java↔java</td>
-      <td>0.700000</td>
+      <td>0.714286</td>
       <td>4</td>
-      <td>DoNotEnqueue↔ShouldEnqueue</td>
-      <td>messaging/src/main/java/org/axonframework/messaging/deadletter/DoNotEnqueue.java↔messaging/src/main/java/org/axonframework/messaging/deadletter/ShouldEnqueue.java</td>
+      <td>AvroUtil↔SpecificRecordBaseSerializerStrategy</td>
+      <td>messaging/src/main/java/org/axonframework/serialization/avro/AvroUtil.java↔messaging/src/main/java/org/axonframework/serialization/avro/SpecificRecordBaseSerializerStrategy.java</td>
     </tr>
     <tr>
       <th>4</th>
       <td>java↔java</td>
-      <td>0.636364</td>
+      <td>0.700000</td>
       <td>5</td>
-      <td>DoNotEnqueueTest↔ShouldEnqueueTest</td>
-      <td>messaging/src/test/java/org/axonframework/messaging/deadletter/DoNotEnqueueTest.java↔messaging/src/test/java/org/axonframework/messaging/deadletter/ShouldEnqueueTest.java</td>
+      <td>DoNotEnqueue↔ShouldEnqueue</td>
+      <td>messaging/src/main/java/org/axonframework/messaging/deadletter/DoNotEnqueue.java↔messaging/src/main/java/org/axonframework/messaging/deadletter/ShouldEnqueue.java</td>
     </tr>
     <tr>
       <th>5</th>
@@ -2268,243 +2304,243 @@ This metric is useful to identify pairs of files that are frequently changed tog
     </tr>
     <tr>
       <th>10</th>
-      <td>xml↔adoc</td>
-      <td>0.059322</td>
+      <td>java↔xml</td>
+      <td>0.180000</td>
       <td>1</td>
-      <td>pom↔minor-releases</td>
-      <td>spring-boot3-dummy/pom.xml↔docs/old-reference-guide/modules/release-notes/pages/minor-releases.adoc</td>
+      <td>JobRunrEventSchedulerTest↔pom</td>
+      <td>messaging/src/test/java/org/axonframework/eventhandling/scheduling/jobrunr/JobRunrEventSchedulerTest.java↔spring-boot3-dummy/pom.xml</td>
     </tr>
     <tr>
       <th>11</th>
-      <td>xml↔adoc</td>
-      <td>0.053571</td>
+      <td>java↔xml</td>
+      <td>0.156250</td>
       <td>2</td>
-      <td>pom↔nav</td>
-      <td>spring-boot3-dummy/pom.xml↔docs/old-reference-guide/modules/nav.adoc</td>
+      <td>ContextAddingInterceptor↔logback</td>
+      <td>axon-server-connector/src/main/java/org/axonframework/axonserver/connector/util/ContextAddingInterceptor.java↔axon-server-connector/src/test/resources/logback.xml</td>
     </tr>
     <tr>
       <th>12</th>
-      <td>xml↔adoc</td>
-      <td>0.051282</td>
+      <td>java↔xml</td>
+      <td>0.137405</td>
       <td>3</td>
-      <td>pom↔rdbms-tuning</td>
-      <td>spring-boot3-dummy/pom.xml↔docs/old-reference-guide/modules/tuning/pages/rdbms-tuning.adoc</td>
+      <td>JobrunrDeadlineManagerTest↔pom</td>
+      <td>integrationtests/src/test/java/org/axonframework/integrationtests/deadline/jobrunr/JobrunrDeadlineManagerTest.java↔spring-boot3-dummy/pom.xml</td>
     </tr>
     <tr>
       <th>13</th>
-      <td>xml↔adoc</td>
-      <td>0.044872</td>
+      <td>java↔xml</td>
+      <td>0.134454</td>
       <td>4</td>
-      <td>pom↔minor-releases</td>
-      <td>hibernate-6-integrationtests/pom.xml↔docs/old-reference-guide/modules/release-notes/pages/minor-releases.adoc</td>
+      <td>AbstractDeadlineManagerTestSuite↔pom</td>
+      <td>spring/src/test/java/org/axonframework/integrationtests/deadline/AbstractDeadlineManagerTestSuite.java↔spring-boot3-dummy/pom.xml</td>
     </tr>
     <tr>
       <th>14</th>
-      <td>xml↔adoc</td>
-      <td>0.040000</td>
+      <td>java↔xml</td>
+      <td>0.130435</td>
       <td>5</td>
-      <td>pom↔nav</td>
-      <td>hibernate-6-integrationtests/pom.xml↔docs/old-reference-guide/modules/nav.adoc</td>
+      <td>JobRunrEventSchedulerTest↔pom</td>
+      <td>messaging/src/test/java/org/axonframework/eventhandling/scheduling/jobrunr/JobRunrEventSchedulerTest.java↔hibernate-6-integrationtests/pom.xml</td>
     </tr>
     <tr>
       <th>15</th>
-      <td>xml↔adoc</td>
-      <td>0.039773</td>
+      <td>java↔xml</td>
+      <td>0.113924</td>
       <td>6</td>
-      <td>pom↔minor-releases</td>
-      <td>coverage-report/pom.xml↔docs/old-reference-guide/modules/release-notes/pages/minor-releases.adoc</td>
+      <td>JobRunrEventSchedulerTest↔pom</td>
+      <td>messaging/src/test/java/org/axonframework/eventhandling/scheduling/jobrunr/JobRunrEventSchedulerTest.java↔coverage-report/pom.xml</td>
     </tr>
     <tr>
       <th>16</th>
-      <td>xml↔adoc</td>
-      <td>0.036232</td>
+      <td>java↔xml</td>
+      <td>0.111111</td>
       <td>7</td>
-      <td>pom↔rdbms-tuning</td>
-      <td>tracing-opentelemetry/pom.xml↔docs/old-reference-guide/modules/tuning/pages/rdbms-tuning.adoc</td>
+      <td>TestAggregateRoot↔benchmark-mongo-context</td>
+      <td>integrationtests/src/test/java/org/axonframework/integrationtests/cache/TestAggregateRoot.java↔integrationtests/src/test/resources/META-INF/spring/benchmark-mongo-context.xml</td>
     </tr>
     <tr>
       <th>17</th>
-      <td>xml↔adoc</td>
-      <td>0.036036</td>
+      <td>java↔xml</td>
+      <td>0.109375</td>
       <td>8</td>
-      <td>pom↔event-snapshots</td>
-      <td>spring-boot3-dummy/pom.xml↔docs/old-reference-guide/modules/tuning/pages/event-snapshots.adoc</td>
+      <td>Message↔benchmark-mongo-context</td>
+      <td>integrationtests/src/test/java/org/axonframework/integrationtests/loopbacktest/Message.java↔integrationtests/src/test/resources/META-INF/spring/benchmark-mongo-context.xml</td>
     </tr>
     <tr>
       <th>18</th>
-      <td>xml↔adoc</td>
-      <td>0.035294</td>
+      <td>java↔xml</td>
+      <td>0.108974</td>
       <td>9</td>
-      <td>pom↔nav</td>
-      <td>coverage-report/pom.xml↔docs/old-reference-guide/modules/nav.adoc</td>
+      <td>AbstractDeadlineManagerTestSuite↔pom</td>
+      <td>spring/src/test/java/org/axonframework/integrationtests/deadline/AbstractDeadlineManagerTestSuite.java↔hibernate-6-integrationtests/pom.xml</td>
     </tr>
     <tr>
       <th>19</th>
-      <td>xml↔adoc</td>
-      <td>0.033333</td>
+      <td>java↔xml</td>
+      <td>0.106509</td>
       <td>10</td>
-      <td>pom↔minor-releases</td>
-      <td>reactorless-test/pom.xml↔docs/old-reference-guide/modules/release-notes/pages/minor-releases.adoc</td>
+      <td>JobrunrDeadlineManagerTest↔pom</td>
+      <td>integrationtests/src/test/java/org/axonframework/integrationtests/deadline/jobrunr/JobrunrDeadlineManagerTest.java↔hibernate-6-integrationtests/pom.xml</td>
     </tr>
     <tr>
       <th>20</th>
-      <td>xml↔java</td>
-      <td>0.180000</td>
+      <td>java↔yml</td>
+      <td>0.220339</td>
       <td>1</td>
-      <td>pom↔JobRunrEventSchedulerTest</td>
-      <td>spring-boot3-dummy/pom.xml↔messaging/src/test/java/org/axonframework/eventhandling/scheduling/jobrunr/JobRunrEventSchedulerTest.java</td>
+      <td>JobRunrEventSchedulerTest↔antora</td>
+      <td>messaging/src/test/java/org/axonframework/eventhandling/scheduling/jobrunr/JobRunrEventSchedulerTest.java↔docs/old-reference-guide/antora.yml</td>
     </tr>
     <tr>
       <th>21</th>
-      <td>xml↔java</td>
-      <td>0.137405</td>
+      <td>java↔yml</td>
+      <td>0.177419</td>
       <td>2</td>
-      <td>pom↔JobrunrDeadlineManagerTest</td>
-      <td>spring-boot3-dummy/pom.xml↔integrationtests/src/test/java/org/axonframework/integrationtests/deadline/jobrunr/JobrunrDeadlineManagerTest.java</td>
+      <td>AvroSerializerAutoConfiguration↔antora</td>
+      <td>spring-boot-autoconfigure/src/main/java/org/axonframework/springboot/autoconfig/AvroSerializerAutoConfiguration.java↔docs/old-reference-guide/antora.yml</td>
     </tr>
     <tr>
       <th>22</th>
-      <td>xml↔java</td>
-      <td>0.134454</td>
+      <td>java↔yml</td>
+      <td>0.174419</td>
       <td>3</td>
-      <td>pom↔AbstractDeadlineManagerTestSuite</td>
-      <td>spring-boot3-dummy/pom.xml↔spring/src/test/java/org/axonframework/integrationtests/deadline/AbstractDeadlineManagerTestSuite.java</td>
+      <td>JobRunrEventSchedulerTest↔slack-release-notification</td>
+      <td>messaging/src/test/java/org/axonframework/eventhandling/scheduling/jobrunr/JobRunrEventSchedulerTest.java↔.github/workflows/slack-release-notification.yml</td>
     </tr>
     <tr>
       <th>23</th>
-      <td>xml↔java</td>
-      <td>0.130435</td>
+      <td>java↔yml</td>
+      <td>0.171053</td>
       <td>4</td>
-      <td>pom↔JobRunrEventSchedulerTest</td>
-      <td>hibernate-6-integrationtests/pom.xml↔messaging/src/test/java/org/axonframework/eventhandling/scheduling/jobrunr/JobRunrEventSchedulerTest.java</td>
+      <td>AbstractDeadlineManagerTestSuite↔antora</td>
+      <td>spring/src/test/java/org/axonframework/integrationtests/deadline/AbstractDeadlineManagerTestSuite.java↔docs/old-reference-guide/antora.yml</td>
     </tr>
     <tr>
       <th>24</th>
-      <td>xml↔java</td>
-      <td>0.113924</td>
+      <td>java↔yml</td>
+      <td>0.145631</td>
       <td>5</td>
-      <td>pom↔JobRunrEventSchedulerTest</td>
-      <td>coverage-report/pom.xml↔messaging/src/test/java/org/axonframework/eventhandling/scheduling/jobrunr/JobRunrEventSchedulerTest.java</td>
+      <td>AbstractDeadlineManagerTestSuite↔slack-release-notification</td>
+      <td>spring/src/test/java/org/axonframework/integrationtests/deadline/AbstractDeadlineManagerTestSuite.java↔.github/workflows/slack-release-notification.yml</td>
     </tr>
     <tr>
       <th>25</th>
-      <td>xml↔java</td>
-      <td>0.108974</td>
+      <td>java↔yml</td>
+      <td>0.144444</td>
       <td>6</td>
-      <td>pom↔AbstractDeadlineManagerTestSuite</td>
-      <td>hibernate-6-integrationtests/pom.xml↔spring/src/test/java/org/axonframework/integrationtests/deadline/AbstractDeadlineManagerTestSuite.java</td>
+      <td>JobrunrDeadlineManagerTest↔antora</td>
+      <td>integrationtests/src/test/java/org/axonframework/integrationtests/deadline/jobrunr/JobrunrDeadlineManagerTest.java↔docs/old-reference-guide/antora.yml</td>
     </tr>
     <tr>
       <th>26</th>
-      <td>xml↔java</td>
-      <td>0.106509</td>
+      <td>java↔yml</td>
+      <td>0.128205</td>
       <td>7</td>
-      <td>pom↔JobrunrDeadlineManagerTest</td>
-      <td>hibernate-6-integrationtests/pom.xml↔integrationtests/src/test/java/org/axonframework/integrationtests/deadline/jobrunr/JobrunrDeadlineManagerTest.java</td>
+      <td>JobrunrDeadlineManagerTest↔slack-release-notification</td>
+      <td>integrationtests/src/test/java/org/axonframework/integrationtests/deadline/jobrunr/JobrunrDeadlineManagerTest.java↔.github/workflows/slack-release-notification.yml</td>
     </tr>
     <tr>
       <th>27</th>
-      <td>xml↔java</td>
-      <td>0.095238</td>
+      <td>java↔yml</td>
+      <td>0.090909</td>
       <td>8</td>
-      <td>pom↔JobrunrDeadlineManagerTest</td>
-      <td>coverage-report/pom.xml↔integrationtests/src/test/java/org/axonframework/integrationtests/deadline/jobrunr/JobrunrDeadlineManagerTest.java</td>
+      <td>AbstractResourceInjector↔add-to-project</td>
+      <td>modelling/src/main/java/org/axonframework/modelling/saga/AbstractResourceInjector.java↔.github/workflows/add-to-project.yml</td>
     </tr>
     <tr>
       <th>28</th>
-      <td>xml↔java</td>
-      <td>0.093750</td>
+      <td>java↔yml</td>
+      <td>0.081081</td>
       <td>9</td>
-      <td>pom↔JobRunrEventSchedulerTest</td>
-      <td>reactorless-test/pom.xml↔messaging/src/test/java/org/axonframework/eventhandling/scheduling/jobrunr/JobRunrEventSchedulerTest.java</td>
+      <td>ConfigurationScopeAwareProvider↔add-to-project</td>
+      <td>config/src/main/java/org/axonframework/config/ConfigurationScopeAwareProvider.java↔.github/workflows/add-to-project.yml</td>
     </tr>
     <tr>
       <th>29</th>
-      <td>xml↔java</td>
-      <td>0.090395</td>
+      <td>java↔yml</td>
+      <td>0.071429</td>
       <td>10</td>
-      <td>pom↔AbstractDeadlineManagerTestSuite</td>
-      <td>coverage-report/pom.xml↔spring/src/test/java/org/axonframework/integrationtests/deadline/AbstractDeadlineManagerTestSuite.java</td>
+      <td>AnnotatedMessageHandlingMemberTest↔antora</td>
+      <td>messaging/src/test/java/org/axonframework/messaging/annotation/AnnotatedMessageHandlingMemberTest.java↔docs/old-reference-guide/antora.yml</td>
     </tr>
     <tr>
       <th>30</th>
-      <td>yml↔java</td>
-      <td>0.220339</td>
+      <td>adoc↔xml</td>
+      <td>0.059322</td>
       <td>1</td>
-      <td>antora↔JobRunrEventSchedulerTest</td>
-      <td>docs/old-reference-guide/antora.yml↔messaging/src/test/java/org/axonframework/eventhandling/scheduling/jobrunr/JobRunrEventSchedulerTest.java</td>
+      <td>minor-releases↔pom</td>
+      <td>docs/old-reference-guide/modules/release-notes/pages/minor-releases.adoc↔spring-boot3-dummy/pom.xml</td>
     </tr>
     <tr>
       <th>31</th>
-      <td>yml↔java</td>
-      <td>0.177419</td>
+      <td>adoc↔xml</td>
+      <td>0.053571</td>
       <td>2</td>
-      <td>antora↔AvroSerializerAutoConfiguration</td>
-      <td>docs/old-reference-guide/antora.yml↔spring-boot-autoconfigure/src/main/java/org/axonframework/springboot/autoconfig/AvroSerializerAutoConfiguration.java</td>
+      <td>nav↔pom</td>
+      <td>docs/old-reference-guide/modules/nav.adoc↔spring-boot3-dummy/pom.xml</td>
     </tr>
     <tr>
       <th>32</th>
-      <td>yml↔java</td>
-      <td>0.174419</td>
+      <td>adoc↔xml</td>
+      <td>0.051282</td>
       <td>3</td>
-      <td>slack-release-notification↔JobRunrEventSchedulerTest</td>
-      <td>.github/workflows/slack-release-notification.yml↔messaging/src/test/java/org/axonframework/eventhandling/scheduling/jobrunr/JobRunrEventSchedulerTest.java</td>
+      <td>rdbms-tuning↔pom</td>
+      <td>docs/old-reference-guide/modules/tuning/pages/rdbms-tuning.adoc↔spring-boot3-dummy/pom.xml</td>
     </tr>
     <tr>
       <th>33</th>
-      <td>yml↔java</td>
-      <td>0.171053</td>
+      <td>adoc↔xml</td>
+      <td>0.044872</td>
       <td>4</td>
-      <td>antora↔AbstractDeadlineManagerTestSuite</td>
-      <td>docs/old-reference-guide/antora.yml↔spring/src/test/java/org/axonframework/integrationtests/deadline/AbstractDeadlineManagerTestSuite.java</td>
+      <td>minor-releases↔pom</td>
+      <td>docs/old-reference-guide/modules/release-notes/pages/minor-releases.adoc↔hibernate-6-integrationtests/pom.xml</td>
     </tr>
     <tr>
       <th>34</th>
-      <td>yml↔java</td>
-      <td>0.145631</td>
+      <td>adoc↔xml</td>
+      <td>0.040000</td>
       <td>5</td>
-      <td>slack-release-notification↔AbstractDeadlineManagerTestSuite</td>
-      <td>.github/workflows/slack-release-notification.yml↔spring/src/test/java/org/axonframework/integrationtests/deadline/AbstractDeadlineManagerTestSuite.java</td>
+      <td>nav↔pom</td>
+      <td>docs/old-reference-guide/modules/nav.adoc↔hibernate-6-integrationtests/pom.xml</td>
     </tr>
     <tr>
       <th>35</th>
-      <td>yml↔java</td>
-      <td>0.144444</td>
+      <td>adoc↔xml</td>
+      <td>0.039773</td>
       <td>6</td>
-      <td>antora↔JobrunrDeadlineManagerTest</td>
-      <td>docs/old-reference-guide/antora.yml↔integrationtests/src/test/java/org/axonframework/integrationtests/deadline/jobrunr/JobrunrDeadlineManagerTest.java</td>
+      <td>minor-releases↔pom</td>
+      <td>docs/old-reference-guide/modules/release-notes/pages/minor-releases.adoc↔coverage-report/pom.xml</td>
     </tr>
     <tr>
       <th>36</th>
-      <td>yml↔java</td>
-      <td>0.071429</td>
+      <td>adoc↔xml</td>
+      <td>0.038710</td>
       <td>7</td>
-      <td>antora↔AnnotatedMessageHandlingMemberTest</td>
-      <td>docs/old-reference-guide/antora.yml↔messaging/src/test/java/org/axonframework/messaging/annotation/AnnotatedMessageHandlingMemberTest.java</td>
+      <td>rdbms-tuning↔pom</td>
+      <td>docs/old-reference-guide/modules/tuning/pages/rdbms-tuning.adoc↔hibernate-6-integrationtests/pom.xml</td>
     </tr>
     <tr>
       <th>37</th>
-      <td>yml↔java</td>
-      <td>0.060000</td>
+      <td>adoc↔xml</td>
+      <td>0.036232</td>
       <td>8</td>
-      <td>antora↔AxonTimeLimitedTaskTest</td>
-      <td>docs/old-reference-guide/antora.yml↔messaging/src/test/java/org/axonframework/messaging/timeout/AxonTimeLimitedTaskTest.java</td>
+      <td>rdbms-tuning↔pom</td>
+      <td>docs/old-reference-guide/modules/tuning/pages/rdbms-tuning.adoc↔tracing-opentelemetry/pom.xml</td>
     </tr>
     <tr>
       <th>38</th>
-      <td>yml↔java</td>
-      <td>0.055118</td>
+      <td>adoc↔xml</td>
+      <td>0.036036</td>
       <td>9</td>
-      <td>slack-release-notification↔AnnotatedMessageHandlingMemberTest</td>
-      <td>.github/workflows/slack-release-notification.yml↔messaging/src/test/java/org/axonframework/messaging/annotation/AnnotatedMessageHandlingMemberTest.java</td>
+      <td>event-snapshots↔pom</td>
+      <td>docs/old-reference-guide/modules/tuning/pages/event-snapshots.adoc↔spring-boot3-dummy/pom.xml</td>
     </tr>
     <tr>
       <th>39</th>
-      <td>yml↔java</td>
-      <td>0.048387</td>
+      <td>adoc↔xml</td>
+      <td>0.035294</td>
       <td>10</td>
-      <td>pullrequest↔JobRunrEventSchedulerTest</td>
-      <td>.github/workflows/pullrequest.yml↔messaging/src/test/java/org/axonframework/eventhandling/scheduling/jobrunr/JobRunrEventSchedulerTest.java</td>
+      <td>nav↔pom</td>
+      <td>docs/old-reference-guide/modules/nav.adoc↔coverage-report/pom.xml</td>
     </tr>
   </tbody>
 </table>
@@ -2514,7 +2550,7 @@ This metric is useful to identify pairs of files that are frequently changed tog
 
 
     
-![svg](GitHistoryGeneral_files/GitHistoryGeneral_83_0.svg)
+![svg](GitHistoryGeneral_files/GitHistoryGeneral_82_0.svg)
     
 
 
@@ -2546,173 +2582,23 @@ This is useful to identify pairs of files that score high in most metrics, which
   <tbody>
     <tr>
       <th>0</th>
-      <td>java↔java</td>
-      <td>TimeoutWrappedMessageHandlingMemberTest↔UnitOfWorkTimeoutInterceptorTest</td>
-      <td>78</td>
-      <td>73</td>
-      <td>1</td>
-      <td>1</td>
-      <td>3</td>
-      <td>5</td>
-      <td>1.000000</td>
-      <td>1.000000</td>
-      <td>1281.200000</td>
-      <td>messaging/src/test/java/org/axonframework/messaging/timeout/TimeoutWrappedMessageHandlingMemberTest.java↔messaging/src/test/java/org/axonframework/messaging/timeout/UnitOfWorkTimeoutInterceptorTest.java</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>java↔java</td>
-      <td>AvroSchemaPackages↔AvroSchemaScan</td>
-      <td>78</td>
-      <td>75</td>
-      <td>1</td>
-      <td>1</td>
-      <td>1</td>
-      <td>3</td>
-      <td>1.000000</td>
-      <td>1.000000</td>
-      <td>2135.333333</td>
-      <td>spring/src/main/java/org/axonframework/spring/serialization/avro/AvroSchemaPackages.java↔spring/src/main/java/org/axonframework/spring/serialization/avro/AvroSchemaScan.java</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>java↔java</td>
-      <td>AvroSchemaScan↔ClasspathAvroSchemaLoader</td>
-      <td>78</td>
-      <td>75</td>
-      <td>1</td>
-      <td>1</td>
-      <td>1</td>
-      <td>3</td>
-      <td>1.000000</td>
-      <td>1.000000</td>
-      <td>2135.333333</td>
-      <td>spring/src/main/java/org/axonframework/spring/serialization/avro/AvroSchemaScan.java↔spring/src/main/java/org/axonframework/spring/serialization/avro/ClasspathAvroSchemaLoader.java</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>java↔java</td>
-      <td>AvroSchemaPackages↔ClasspathAvroSchemaLoader</td>
-      <td>78</td>
-      <td>75</td>
-      <td>1</td>
-      <td>1</td>
-      <td>1</td>
-      <td>3</td>
-      <td>1.000000</td>
-      <td>1.000000</td>
-      <td>2135.333333</td>
-      <td>spring/src/main/java/org/axonframework/spring/serialization/avro/AvroSchemaPackages.java↔spring/src/main/java/org/axonframework/spring/serialization/avro/ClasspathAvroSchemaLoader.java</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>java↔java</td>
-      <td>DefaultEventProcessorSpanFactory↔DefaultEventProcessorSpanFactoryTest</td>
-      <td>80</td>
-      <td>75</td>
-      <td>1</td>
-      <td>2</td>
-      <td>2</td>
-      <td>3</td>
-      <td>1.000000</td>
-      <td>0.750000</td>
-      <td>1601.500000</td>
-      <td>messaging/src/main/java/org/axonframework/eventhandling/DefaultEventProcessorSpanFactory.java↔messaging/src/test/java/org/axonframework/eventhandling/DefaultEventProcessorSpanFactoryTest.java</td>
-    </tr>
-    <tr>
-      <th>5</th>
-      <td>java↔java</td>
-      <td>NoSuchDeadLetterException↔IgnoreTest</td>
-      <td>80</td>
-      <td>75</td>
-      <td>1</td>
-      <td>2</td>
-      <td>2</td>
-      <td>3</td>
-      <td>1.000000</td>
-      <td>0.750000</td>
-      <td>1601.500000</td>
-      <td>messaging/src/main/java/org/axonframework/messaging/deadletter/NoSuchDeadLetterException.java↔messaging/src/test/java/org/axonframework/messaging/deadletter/IgnoreTest.java</td>
-    </tr>
-    <tr>
-      <th>6</th>
-      <td>java↔java</td>
-      <td>SpanUtils↔SpanUtilsTest</td>
-      <td>80</td>
-      <td>75</td>
-      <td>1</td>
-      <td>2</td>
-      <td>2</td>
-      <td>3</td>
-      <td>1.000000</td>
-      <td>0.750000</td>
-      <td>1601.500000</td>
-      <td>messaging/src/main/java/org/axonframework/tracing/SpanUtils.java↔messaging/src/test/java/org/axonframework/tracing/SpanUtilsTest.java</td>
-    </tr>
-    <tr>
-      <th>7</th>
-      <td>java↔java</td>
-      <td>AxonTimeLimitedTask↔UnitOfWorkTimeoutInterceptor</td>
-      <td>93</td>
-      <td>64</td>
-      <td>1</td>
-      <td>1</td>
-      <td>27</td>
-      <td>14</td>
-      <td>1.000000</td>
-      <td>1.000000</td>
-      <td>457.571429</td>
-      <td>messaging/src/main/java/org/axonframework/messaging/timeout/AxonTimeLimitedTask.java↔messaging/src/main/java/org/axonframework/messaging/timeout/UnitOfWorkTimeoutInterceptor.java</td>
-    </tr>
-    <tr>
-      <th>8</th>
-      <td>java↔java</td>
-      <td>ClasspathAvroSchemaLoader↔SpecificRecordBaseClasspathAvroSchemaLoader</td>
-      <td>93</td>
-      <td>75</td>
-      <td>1</td>
-      <td>12</td>
-      <td>5</td>
-      <td>3</td>
-      <td>1.000000</td>
-      <td>0.500000</td>
-      <td>1067.666667</td>
-      <td>spring/src/main/java/org/axonframework/spring/serialization/avro/ClasspathAvroSchemaLoader.java↔spring/src/main/java/org/axonframework/spring/serialization/avro/SpecificRecordBaseClasspathAvroSchemaLoader.java</td>
-    </tr>
-    <tr>
-      <th>9</th>
-      <td>java↔java</td>
-      <td>AvroSchemaScan↔SpecificRecordBaseClasspathAvroSchemaLoader</td>
-      <td>93</td>
-      <td>75</td>
-      <td>1</td>
-      <td>12</td>
-      <td>5</td>
-      <td>3</td>
-      <td>1.000000</td>
-      <td>0.500000</td>
-      <td>1067.666667</td>
-      <td>spring/src/main/java/org/axonframework/spring/serialization/avro/AvroSchemaScan.java↔spring/src/main/java/org/axonframework/spring/serialization/avro/SpecificRecordBaseClasspathAvroSchemaLoader.java</td>
-    </tr>
-    <tr>
-      <th>10</th>
-      <td>xml↔adoc</td>
-      <td>pom↔index</td>
-      <td>23</td>
+      <td>adoc↔xml</td>
+      <td>index↔pom</td>
+      <td>24</td>
       <td>9</td>
       <td>1</td>
-      <td>12</td>
+      <td>13</td>
       <td>1</td>
       <td>3</td>
       <td>0.375000</td>
       <td>0.031250</td>
-      <td>26.398352</td>
-      <td>spring-boot3-dummy/pom.xml↔docs/old-reference-guide/modules/queries/pages/index.adoc</td>
+      <td>24.016484</td>
+      <td>docs/old-reference-guide/modules/queries/pages/index.adoc↔spring-boot3-dummy/pom.xml</td>
     </tr>
     <tr>
-      <th>11</th>
-      <td>xml↔adoc</td>
-      <td>pom↔nav</td>
+      <th>1</th>
+      <td>adoc↔xml</td>
+      <td>nav↔pom</td>
       <td>27</td>
       <td>6</td>
       <td>13</td>
@@ -2721,43 +2607,43 @@ This is useful to identify pairs of files that score high in most metrics, which
       <td>6</td>
       <td>0.222222</td>
       <td>0.053571</td>
-      <td>15.643468</td>
-      <td>spring-boot3-dummy/pom.xml↔docs/old-reference-guide/modules/nav.adoc</td>
+      <td>14.231990</td>
+      <td>docs/old-reference-guide/modules/nav.adoc↔spring-boot3-dummy/pom.xml</td>
     </tr>
     <tr>
-      <th>12</th>
-      <td>xml↔adoc</td>
-      <td>pom↔configuration</td>
-      <td>27</td>
+      <th>2</th>
+      <td>adoc↔xml</td>
+      <td>nav↔pom</td>
+      <td>28</td>
       <td>9</td>
       <td>3</td>
-      <td>13</td>
+      <td>14</td>
       <td>2</td>
       <td>3</td>
       <td>0.333333</td>
       <td>0.030928</td>
-      <td>23.465201</td>
-      <td>spring-boot3-dummy/pom.xml↔docs/old-reference-guide/modules/queries/pages/configuration.adoc</td>
+      <td>21.347985</td>
+      <td>docs/old-reference-guide/modules/queries/partials/nav.adoc↔spring-boot3-dummy/pom.xml</td>
     </tr>
     <tr>
-      <th>13</th>
-      <td>xml↔adoc</td>
-      <td>pom↔nav</td>
-      <td>27</td>
+      <th>3</th>
+      <td>adoc↔xml</td>
+      <td>configuration↔pom</td>
+      <td>28</td>
       <td>9</td>
       <td>3</td>
-      <td>13</td>
+      <td>14</td>
       <td>2</td>
       <td>3</td>
       <td>0.333333</td>
       <td>0.030928</td>
-      <td>23.465201</td>
-      <td>spring-boot3-dummy/pom.xml↔docs/old-reference-guide/modules/queries/partials/nav.adoc</td>
+      <td>21.347985</td>
+      <td>docs/old-reference-guide/modules/queries/pages/configuration.adoc↔spring-boot3-dummy/pom.xml</td>
     </tr>
     <tr>
-      <th>14</th>
-      <td>xml↔adoc</td>
-      <td>pom↔minor-releases</td>
+      <th>4</th>
+      <td>adoc↔xml</td>
+      <td>minor-releases↔pom</td>
       <td>29</td>
       <td>5</td>
       <td>15</td>
@@ -2766,13 +2652,13 @@ This is useful to identify pairs of files that score high in most metrics, which
       <td>7</td>
       <td>0.205882</td>
       <td>0.059322</td>
-      <td>14.493213</td>
-      <td>spring-boot3-dummy/pom.xml↔docs/old-reference-guide/modules/release-notes/pages/minor-releases.adoc</td>
+      <td>13.185520</td>
+      <td>docs/old-reference-guide/modules/release-notes/pages/minor-releases.adoc↔spring-boot3-dummy/pom.xml</td>
     </tr>
     <tr>
-      <th>15</th>
-      <td>xml↔adoc</td>
-      <td>pom↔rdbms-tuning</td>
+      <th>5</th>
+      <td>adoc↔xml</td>
+      <td>rdbms-tuning↔pom</td>
       <td>35</td>
       <td>6</td>
       <td>16</td>
@@ -2781,43 +2667,28 @@ This is useful to identify pairs of files that score high in most metrics, which
       <td>6</td>
       <td>0.187500</td>
       <td>0.051282</td>
-      <td>13.199176</td>
-      <td>spring-boot3-dummy/pom.xml↔docs/old-reference-guide/modules/tuning/pages/rdbms-tuning.adoc</td>
+      <td>12.008242</td>
+      <td>docs/old-reference-guide/modules/tuning/pages/rdbms-tuning.adoc↔spring-boot3-dummy/pom.xml</td>
     </tr>
     <tr>
-      <th>16</th>
-      <td>xml↔adoc</td>
-      <td>pom↔index</td>
-      <td>35</td>
+      <th>6</th>
+      <td>adoc↔xml</td>
+      <td>index↔pom</td>
+      <td>38</td>
       <td>9</td>
       <td>1</td>
-      <td>22</td>
+      <td>25</td>
       <td>3</td>
       <td>3</td>
       <td>0.375000</td>
       <td>0.022388</td>
-      <td>18.622093</td>
-      <td>hibernate-6-integrationtests/pom.xml↔docs/old-reference-guide/modules/queries/pages/index.adoc</td>
+      <td>16.941860</td>
+      <td>docs/old-reference-guide/modules/queries/pages/index.adoc↔hibernate-6-integrationtests/pom.xml</td>
     </tr>
     <tr>
-      <th>17</th>
-      <td>xml↔adoc</td>
-      <td>pom↔rdbms-tuning</td>
-      <td>39</td>
-      <td>2</td>
-      <td>5</td>
-      <td>7</td>
-      <td>25</td>
-      <td>10</td>
-      <td>0.312500</td>
-      <td>0.036232</td>
-      <td>7.881398</td>
-      <td>tracing-opentelemetry/pom.xml↔docs/old-reference-guide/modules/tuning/pages/rdbms-tuning.adoc</td>
-    </tr>
-    <tr>
-      <th>18</th>
-      <td>xml↔adoc</td>
-      <td>pom↔nav</td>
+      <th>7</th>
+      <td>adoc↔xml</td>
+      <td>nav↔pom</td>
       <td>39</td>
       <td>6</td>
       <td>13</td>
@@ -2826,178 +2697,343 @@ This is useful to identify pairs of files that score high in most metrics, which
       <td>6</td>
       <td>0.222222</td>
       <td>0.040000</td>
-      <td>11.035314</td>
-      <td>hibernate-6-integrationtests/pom.xml↔docs/old-reference-guide/modules/nav.adoc</td>
+      <td>10.039621</td>
+      <td>docs/old-reference-guide/modules/nav.adoc↔hibernate-6-integrationtests/pom.xml</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>adoc↔xml</td>
+      <td>rdbms-tuning↔pom</td>
+      <td>41</td>
+      <td>2</td>
+      <td>5</td>
+      <td>8</td>
+      <td>26</td>
+      <td>10</td>
+      <td>0.312500</td>
+      <td>0.036232</td>
+      <td>7.170276</td>
+      <td>docs/old-reference-guide/modules/tuning/pages/rdbms-tuning.adoc↔tracing-opentelemetry/pom.xml</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>adoc↔xml</td>
+      <td>minor-releases↔pom</td>
+      <td>41</td>
+      <td>5</td>
+      <td>15</td>
+      <td>4</td>
+      <td>17</td>
+      <td>7</td>
+      <td>0.205882</td>
+      <td>0.044872</td>
+      <td>9.301414</td>
+      <td>docs/old-reference-guide/modules/release-notes/pages/minor-releases.adoc↔hibernate-6-integrationtests/pom.xml</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>java↔java</td>
+      <td>TimeoutWrappedMessageHandlingMemberTest↔UnitOfWorkTimeoutInterceptorTest</td>
+      <td>83</td>
+      <td>78</td>
+      <td>1</td>
+      <td>1</td>
+      <td>3</td>
+      <td>5</td>
+      <td>1.000000</td>
+      <td>1.000000</td>
+      <td>1165.600000</td>
+      <td>messaging/src/test/java/org/axonframework/messaging/timeout/TimeoutWrappedMessageHandlingMemberTest.java↔messaging/src/test/java/org/axonframework/messaging/timeout/UnitOfWorkTimeoutInterceptorTest.java</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>java↔java</td>
+      <td>AvroSchemaPackages↔AvroSchemaScan</td>
+      <td>83</td>
+      <td>80</td>
+      <td>1</td>
+      <td>1</td>
+      <td>1</td>
+      <td>3</td>
+      <td>1.000000</td>
+      <td>1.000000</td>
+      <td>1942.666667</td>
+      <td>spring/src/main/java/org/axonframework/spring/serialization/avro/AvroSchemaPackages.java↔spring/src/main/java/org/axonframework/spring/serialization/avro/AvroSchemaScan.java</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>java↔java</td>
+      <td>AvroSchemaScan↔ClasspathAvroSchemaLoader</td>
+      <td>83</td>
+      <td>80</td>
+      <td>1</td>
+      <td>1</td>
+      <td>1</td>
+      <td>3</td>
+      <td>1.000000</td>
+      <td>1.000000</td>
+      <td>1942.666667</td>
+      <td>spring/src/main/java/org/axonframework/spring/serialization/avro/AvroSchemaScan.java↔spring/src/main/java/org/axonframework/spring/serialization/avro/ClasspathAvroSchemaLoader.java</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>java↔java</td>
+      <td>AvroSchemaPackages↔ClasspathAvroSchemaLoader</td>
+      <td>83</td>
+      <td>80</td>
+      <td>1</td>
+      <td>1</td>
+      <td>1</td>
+      <td>3</td>
+      <td>1.000000</td>
+      <td>1.000000</td>
+      <td>1942.666667</td>
+      <td>spring/src/main/java/org/axonframework/spring/serialization/avro/AvroSchemaPackages.java↔spring/src/main/java/org/axonframework/spring/serialization/avro/ClasspathAvroSchemaLoader.java</td>
+    </tr>
+    <tr>
+      <th>14</th>
+      <td>java↔java</td>
+      <td>MetadataContextGetter↔MetadataContextSetter</td>
+      <td>83</td>
+      <td>80</td>
+      <td>1</td>
+      <td>1</td>
+      <td>1</td>
+      <td>3</td>
+      <td>1.000000</td>
+      <td>1.000000</td>
+      <td>1942.666667</td>
+      <td>tracing-opentelemetry/src/main/java/org/axonframework/tracing/opentelemetry/MetadataContextGetter.java↔tracing-opentelemetry/src/main/java/org/axonframework/tracing/opentelemetry/MetadataContextSetter.java</td>
+    </tr>
+    <tr>
+      <th>15</th>
+      <td>java↔java</td>
+      <td>DefaultEventProcessorSpanFactory↔DefaultEventProcessorSpanFactoryTest</td>
+      <td>86</td>
+      <td>80</td>
+      <td>1</td>
+      <td>3</td>
+      <td>2</td>
+      <td>3</td>
+      <td>1.000000</td>
+      <td>0.750000</td>
+      <td>1457.000000</td>
+      <td>messaging/src/main/java/org/axonframework/eventhandling/DefaultEventProcessorSpanFactory.java↔messaging/src/test/java/org/axonframework/eventhandling/DefaultEventProcessorSpanFactoryTest.java</td>
+    </tr>
+    <tr>
+      <th>16</th>
+      <td>java↔java</td>
+      <td>NoSuchDeadLetterException↔IgnoreTest</td>
+      <td>86</td>
+      <td>80</td>
+      <td>1</td>
+      <td>3</td>
+      <td>2</td>
+      <td>3</td>
+      <td>1.000000</td>
+      <td>0.750000</td>
+      <td>1457.000000</td>
+      <td>messaging/src/main/java/org/axonframework/messaging/deadletter/NoSuchDeadLetterException.java↔messaging/src/test/java/org/axonframework/messaging/deadletter/IgnoreTest.java</td>
+    </tr>
+    <tr>
+      <th>17</th>
+      <td>java↔java</td>
+      <td>SpanUtils↔SpanUtilsTest</td>
+      <td>86</td>
+      <td>80</td>
+      <td>1</td>
+      <td>3</td>
+      <td>2</td>
+      <td>3</td>
+      <td>1.000000</td>
+      <td>0.750000</td>
+      <td>1457.000000</td>
+      <td>messaging/src/main/java/org/axonframework/tracing/SpanUtils.java↔messaging/src/test/java/org/axonframework/tracing/SpanUtilsTest.java</td>
+    </tr>
+    <tr>
+      <th>18</th>
+      <td>java↔java</td>
+      <td>DoNotEnqueueTest↔ShouldEnqueueTest</td>
+      <td>92</td>
+      <td>75</td>
+      <td>1</td>
+      <td>2</td>
+      <td>14</td>
+      <td>8</td>
+      <td>1.000000</td>
+      <td>0.800000</td>
+      <td>582.800000</td>
+      <td>messaging/src/test/java/org/axonframework/messaging/deadletter/DoNotEnqueueTest.java↔messaging/src/test/java/org/axonframework/messaging/deadletter/ShouldEnqueueTest.java</td>
     </tr>
     <tr>
       <th>19</th>
-      <td>xml↔adoc</td>
-      <td>pom↔configuration</td>
-      <td>39</td>
+      <td>java↔java</td>
+      <td>AvroSerializerStrategy↔ByteArrayToGenericRecordConverter</td>
+      <td>99</td>
+      <td>78</td>
+      <td>6</td>
+      <td>6</td>
       <td>9</td>
-      <td>3</td>
-      <td>23</td>
-      <td>4</td>
-      <td>3</td>
-      <td>0.333333</td>
-      <td>0.022222</td>
-      <td>16.552972</td>
-      <td>hibernate-6-integrationtests/pom.xml↔docs/old-reference-guide/modules/queries/pages/configuration.adoc</td>
+      <td>5</td>
+      <td>0.833333</td>
+      <td>0.625000</td>
+      <td>693.809524</td>
+      <td>messaging/src/main/java/org/axonframework/serialization/avro/AvroSerializerStrategy.java↔messaging/src/main/java/org/axonframework/serialization/avro/ByteArrayToGenericRecordConverter.java</td>
     </tr>
     <tr>
       <th>20</th>
-      <td>xml↔java</td>
-      <td>pom↔JobRunrEventSchedulerTest</td>
-      <td>33</td>
-      <td>29</td>
+      <td>java↔xml</td>
+      <td>JobRunrEventSchedulerTest↔pom</td>
+      <td>36</td>
+      <td>30</td>
       <td>2</td>
       <td>1</td>
-      <td>1</td>
+      <td>3</td>
       <td>18</td>
       <td>0.666667</td>
       <td>0.180000</td>
-      <td>46.930403</td>
-      <td>spring-boot3-dummy/pom.xml↔messaging/src/test/java/org/axonframework/eventhandling/scheduling/jobrunr/JobRunrEventSchedulerTest.java</td>
+      <td>42.695971</td>
+      <td>messaging/src/test/java/org/axonframework/eventhandling/scheduling/jobrunr/JobRunrEventSchedulerTest.java↔spring-boot3-dummy/pom.xml</td>
     </tr>
     <tr>
       <th>21</th>
-      <td>xml↔java</td>
-      <td>pom↔JobRunrEventSchedulerTest</td>
-      <td>37</td>
-      <td>29</td>
-      <td>2</td>
-      <td>4</td>
-      <td>2</td>
-      <td>18</td>
-      <td>0.666667</td>
-      <td>0.130435</td>
-      <td>33.105943</td>
-      <td>hibernate-6-integrationtests/pom.xml↔messaging/src/test/java/org/axonframework/eventhandling/scheduling/jobrunr/JobRunrEventSchedulerTest.java</td>
-    </tr>
-    <tr>
-      <th>22</th>
-      <td>xml↔java</td>
-      <td>pom↔JobRunrEventSchedulerTest</td>
-      <td>40</td>
-      <td>29</td>
+      <td>java↔xml</td>
+      <td>JobRunrEventSchedulerTest↔pom</td>
+      <td>44</td>
+      <td>30</td>
       <td>2</td>
       <td>5</td>
-      <td>4</td>
-      <td>18</td>
-      <td>0.666667</td>
-      <td>0.113924</td>
-      <td>28.662192</td>
-      <td>coverage-report/pom.xml↔messaging/src/test/java/org/axonframework/eventhandling/scheduling/jobrunr/JobRunrEventSchedulerTest.java</td>
-    </tr>
-    <tr>
-      <th>23</th>
-      <td>xml↔java</td>
-      <td>pom↔JobRunrEventSchedulerTest</td>
-      <td>47</td>
-      <td>29</td>
-      <td>2</td>
-      <td>9</td>
       <td>7</td>
       <td>18</td>
       <td>0.666667</td>
+      <td>0.130435</td>
+      <td>30.118863</td>
+      <td>messaging/src/test/java/org/axonframework/eventhandling/scheduling/jobrunr/JobRunrEventSchedulerTest.java↔hibernate-6-integrationtests/pom.xml</td>
+    </tr>
+    <tr>
+      <th>22</th>
+      <td>java↔xml</td>
+      <td>JobRunrEventSchedulerTest↔pom</td>
+      <td>47</td>
+      <td>30</td>
+      <td>2</td>
+      <td>6</td>
+      <td>9</td>
+      <td>18</td>
+      <td>0.666667</td>
+      <td>0.113924</td>
+      <td>26.076063</td>
+      <td>messaging/src/test/java/org/axonframework/eventhandling/scheduling/jobrunr/JobRunrEventSchedulerTest.java↔coverage-report/pom.xml</td>
+    </tr>
+    <tr>
+      <th>23</th>
+      <td>java↔xml</td>
+      <td>JobRunrEventSchedulerTest↔pom</td>
+      <td>62</td>
+      <td>30</td>
+      <td>2</td>
+      <td>13</td>
+      <td>17</td>
+      <td>18</td>
+      <td>0.666667</td>
       <td>0.093750</td>
-      <td>23.336976</td>
-      <td>reactorless-test/pom.xml↔messaging/src/test/java/org/axonframework/eventhandling/scheduling/jobrunr/JobRunrEventSchedulerTest.java</td>
+      <td>21.231330</td>
+      <td>messaging/src/test/java/org/axonframework/eventhandling/scheduling/jobrunr/JobRunrEventSchedulerTest.java↔reactorless-test/pom.xml</td>
     </tr>
     <tr>
       <th>24</th>
-      <td>xml↔java</td>
-      <td>pom↔JobRunrEventSchedulerTest</td>
-      <td>57</td>
-      <td>28</td>
-      <td>1</td>
-      <td>15</td>
-      <td>13</td>
-      <td>19</td>
-      <td>0.703704</td>
-      <td>0.072519</td>
-      <td>17.747740</td>
-      <td>tracing-opentelemetry/pom.xml↔messaging/src/test/java/org/axonframework/eventhandling/scheduling/jobrunr/JobRunrEventSchedulerTest.java</td>
-    </tr>
-    <tr>
-      <th>25</th>
-      <td>xml↔java</td>
-      <td>pom↔AbstractDeadlineManagerTestSuite</td>
-      <td>60</td>
-      <td>31</td>
-      <td>21</td>
-      <td>3</td>
-      <td>5</td>
+      <td>java↔xml</td>
+      <td>AbstractDeadlineManagerTestSuite↔pom</td>
+      <td>72</td>
+      <td>32</td>
+      <td>22</td>
+      <td>4</td>
+      <td>14</td>
       <td>16</td>
       <td>0.363636</td>
       <td>0.134454</td>
-      <td>25.598402</td>
-      <td>spring-boot3-dummy/pom.xml↔spring/src/test/java/org/axonframework/integrationtests/deadline/AbstractDeadlineManagerTestSuite.java</td>
+      <td>23.288711</td>
+      <td>spring/src/test/java/org/axonframework/integrationtests/deadline/AbstractDeadlineManagerTestSuite.java↔spring-boot3-dummy/pom.xml</td>
+    </tr>
+    <tr>
+      <th>25</th>
+      <td>java↔xml</td>
+      <td>ContextAddingInterceptor↔logback</td>
+      <td>74</td>
+      <td>43</td>
+      <td>28</td>
+      <td>2</td>
+      <td>1</td>
+      <td>5</td>
+      <td>0.312500</td>
+      <td>0.156250</td>
+      <td>86.726190</td>
+      <td>axon-server-connector/src/main/java/org/axonframework/axonserver/connector/util/ContextAddingInterceptor.java↔axon-server-connector/src/test/resources/logback.xml</td>
     </tr>
     <tr>
       <th>26</th>
-      <td>xml↔java</td>
-      <td>pom↔AbstractDeadlineManagerTestSuite</td>
-      <td>66</td>
-      <td>30</td>
-      <td>18</td>
-      <td>6</td>
-      <td>12</td>
-      <td>17</td>
-      <td>0.386364</td>
-      <td>0.108974</td>
-      <td>19.186399</td>
-      <td>hibernate-6-integrationtests/pom.xml↔spring/src/test/java/org/axonframework/integrationtests/deadline/AbstractDeadlineManagerTestSuite.java</td>
+      <td>java↔xml</td>
+      <td>TokenAddingInterceptor↔logback</td>
+      <td>74</td>
+      <td>43</td>
+      <td>28</td>
+      <td>2</td>
+      <td>1</td>
+      <td>5</td>
+      <td>0.312500</td>
+      <td>0.156250</td>
+      <td>86.726190</td>
+      <td>axon-server-connector/src/main/java/org/axonframework/axonserver/connector/util/TokenAddingInterceptor.java↔axon-server-connector/src/test/resources/logback.xml</td>
     </tr>
     <tr>
       <th>27</th>
-      <td>xml↔java</td>
-      <td>pom↔JobrunrDeadlineManagerTest</td>
-      <td>67</td>
+      <td>java↔xml</td>
+      <td>JobRunrEventSchedulerTest↔pom</td>
+      <td>80</td>
       <td>29</td>
-      <td>27</td>
-      <td>2</td>
-      <td>9</td>
-      <td>18</td>
-      <td>0.310345</td>
-      <td>0.137405</td>
-      <td>21.846912</td>
-      <td>spring-boot3-dummy/pom.xml↔integrationtests/src/test/java/org/axonframework/integrationtests/deadline/jobrunr/JobrunrDeadlineManagerTest.java</td>
+      <td>1</td>
+      <td>20</td>
+      <td>30</td>
+      <td>19</td>
+      <td>0.703704</td>
+      <td>0.072519</td>
+      <td>16.146398</td>
+      <td>messaging/src/test/java/org/axonframework/eventhandling/scheduling/jobrunr/JobRunrEventSchedulerTest.java↔tracing-opentelemetry/pom.xml</td>
     </tr>
     <tr>
       <th>28</th>
-      <td>xml↔java</td>
-      <td>pom↔AbstractDeadlineManagerTestSuite</td>
-      <td>78</td>
-      <td>31</td>
-      <td>21</td>
-      <td>10</td>
-      <td>16</td>
-      <td>16</td>
-      <td>0.363636</td>
-      <td>0.090395</td>
-      <td>15.633923</td>
-      <td>coverage-report/pom.xml↔spring/src/test/java/org/axonframework/integrationtests/deadline/AbstractDeadlineManagerTestSuite.java</td>
+      <td>java↔xml</td>
+      <td>JobrunrDeadlineManagerTest↔pom</td>
+      <td>84</td>
+      <td>30</td>
+      <td>29</td>
+      <td>3</td>
+      <td>22</td>
+      <td>18</td>
+      <td>0.310345</td>
+      <td>0.137405</td>
+      <td>19.875710</td>
+      <td>integrationtests/src/test/java/org/axonframework/integrationtests/deadline/jobrunr/JobrunrDeadlineManagerTest.java↔spring-boot3-dummy/pom.xml</td>
     </tr>
     <tr>
       <th>29</th>
-      <td>xml↔java</td>
-      <td>pom↔JobRunrEventSchedulerTest</td>
-      <td>79</td>
+      <td>java↔xml</td>
+      <td>UpstreamAwareStreamObserver↔logback</td>
+      <td>84</td>
+      <td>43</td>
       <td>28</td>
-      <td>1</td>
-      <td>25</td>
-      <td>25</td>
-      <td>19</td>
-      <td>0.703704</td>
-      <td>0.051351</td>
-      <td>12.452834</td>
-      <td>spring-boot-3-integrationtests/pom.xml↔messaging/src/test/java/org/axonframework/eventhandling/scheduling/jobrunr/JobRunrEventSchedulerTest.java</td>
+      <td>11</td>
+      <td>2</td>
+      <td>5</td>
+      <td>0.312500</td>
+      <td>0.106383</td>
+      <td>50.590278</td>
+      <td>axon-server-connector/src/main/java/org/axonframework/axonserver/connector/util/UpstreamAwareStreamObserver.java↔axon-server-connector/src/test/resources/logback.xml</td>
     </tr>
     <tr>
       <th>30</th>
-      <td>yml↔java</td>
-      <td>antora↔JobRunrEventSchedulerTest</td>
+      <td>java↔yml</td>
+      <td>JobRunrEventSchedulerTest↔antora</td>
       <td>8</td>
       <td>4</td>
       <td>2</td>
@@ -3006,143 +3042,143 @@ This is useful to identify pairs of files that score high in most metrics, which
       <td>13</td>
       <td>0.481481</td>
       <td>0.220339</td>
-      <td>68.541564</td>
-      <td>docs/old-reference-guide/antora.yml↔messaging/src/test/java/org/axonframework/eventhandling/scheduling/jobrunr/JobRunrEventSchedulerTest.java</td>
+      <td>62.357202</td>
+      <td>messaging/src/test/java/org/axonframework/eventhandling/scheduling/jobrunr/JobRunrEventSchedulerTest.java↔docs/old-reference-guide/antora.yml</td>
     </tr>
     <tr>
       <th>31</th>
-      <td>yml↔java</td>
-      <td>slack-release-notification↔JobRunrEventSchedulerTest</td>
-      <td>10</td>
+      <td>java↔yml</td>
+      <td>JobRunrEventSchedulerTest↔slack-release-notification</td>
+      <td>11</td>
       <td>2</td>
       <td>1</td>
       <td>3</td>
-      <td>4</td>
+      <td>5</td>
       <td>15</td>
       <td>0.555556</td>
       <td>0.174419</td>
-      <td>48.093093</td>
-      <td>.github/workflows/slack-release-notification.yml↔messaging/src/test/java/org/axonframework/eventhandling/scheduling/jobrunr/JobRunrEventSchedulerTest.java</td>
+      <td>43.753754</td>
+      <td>messaging/src/test/java/org/axonframework/eventhandling/scheduling/jobrunr/JobRunrEventSchedulerTest.java↔.github/workflows/slack-release-notification.yml</td>
     </tr>
     <tr>
       <th>32</th>
-      <td>yml↔java</td>
-      <td>antora↔AvroSerializerAutoConfiguration</td>
-      <td>13</td>
+      <td>java↔yml</td>
+      <td>AvroSerializerAutoConfiguration↔antora</td>
+      <td>14</td>
       <td>6</td>
       <td>3</td>
       <td>2</td>
-      <td>2</td>
+      <td>3</td>
       <td>11</td>
       <td>0.392857</td>
       <td>0.177419</td>
-      <td>55.925397</td>
-      <td>docs/old-reference-guide/antora.yml↔spring-boot-autoconfigure/src/main/java/org/axonframework/springboot/autoconfig/AvroSerializerAutoConfiguration.java</td>
+      <td>50.879365</td>
+      <td>spring-boot-autoconfigure/src/main/java/org/axonframework/springboot/autoconfig/AvroSerializerAutoConfiguration.java↔docs/old-reference-guide/antora.yml</td>
     </tr>
     <tr>
       <th>33</th>
-      <td>yml↔java</td>
-      <td>slack-release-notification↔AbstractDeadlineManagerTestSuite</td>
-      <td>20</td>
+      <td>java↔yml</td>
+      <td>AbstractDeadlineManagerTestSuite↔slack-release-notification</td>
+      <td>22</td>
       <td>2</td>
       <td>6</td>
       <td>5</td>
-      <td>7</td>
+      <td>9</td>
       <td>15</td>
       <td>0.340909</td>
       <td>0.145631</td>
-      <td>29.511671</td>
-      <td>.github/workflows/slack-release-notification.yml↔spring/src/test/java/org/axonframework/integrationtests/deadline/AbstractDeadlineManagerTestSuite.java</td>
+      <td>26.848894</td>
+      <td>spring/src/test/java/org/axonframework/integrationtests/deadline/AbstractDeadlineManagerTestSuite.java↔.github/workflows/slack-release-notification.yml</td>
     </tr>
     <tr>
       <th>34</th>
-      <td>yml↔java</td>
-      <td>antora↔AbstractDeadlineManagerTestSuite</td>
-      <td>21</td>
+      <td>java↔yml</td>
+      <td>AbstractDeadlineManagerTestSuite↔antora</td>
+      <td>23</td>
       <td>4</td>
       <td>8</td>
       <td>4</td>
-      <td>5</td>
+      <td>7</td>
       <td>13</td>
       <td>0.295455</td>
       <td>0.171053</td>
-      <td>42.059596</td>
-      <td>docs/old-reference-guide/antora.yml↔spring/src/test/java/org/axonframework/integrationtests/deadline/AbstractDeadlineManagerTestSuite.java</td>
+      <td>38.264646</td>
+      <td>spring/src/test/java/org/axonframework/integrationtests/deadline/AbstractDeadlineManagerTestSuite.java↔docs/old-reference-guide/antora.yml</td>
     </tr>
     <tr>
       <th>35</th>
-      <td>yml↔java</td>
-      <td>antora↔JobrunrDeadlineManagerTest</td>
-      <td>25</td>
+      <td>java↔yml</td>
+      <td>JobrunrDeadlineManagerTest↔antora</td>
+      <td>27</td>
       <td>4</td>
       <td>9</td>
       <td>6</td>
-      <td>6</td>
+      <td>8</td>
       <td>13</td>
       <td>0.288889</td>
       <td>0.144444</td>
-      <td>31.907280</td>
-      <td>docs/old-reference-guide/antora.yml↔integrationtests/src/test/java/org/axonframework/integrationtests/deadline/jobrunr/JobrunrDeadlineManagerTest.java</td>
+      <td>29.028352</td>
+      <td>integrationtests/src/test/java/org/axonframework/integrationtests/deadline/jobrunr/JobrunrDeadlineManagerTest.java↔docs/old-reference-guide/antora.yml</td>
     </tr>
     <tr>
       <th>36</th>
-      <td>yml↔java</td>
-      <td>pullrequest↔JobRunrEventSchedulerTest</td>
-      <td>26</td>
-      <td>2</td>
-      <td>1</td>
-      <td>10</td>
-      <td>13</td>
-      <td>15</td>
-      <td>0.555556</td>
-      <td>0.048387</td>
-      <td>11.942580</td>
-      <td>.github/workflows/pullrequest.yml↔messaging/src/test/java/org/axonframework/eventhandling/scheduling/jobrunr/JobRunrEventSchedulerTest.java</td>
-    </tr>
-    <tr>
-      <th>37</th>
-      <td>yml↔java</td>
-      <td>main↔JobRunrEventSchedulerTest</td>
-      <td>28</td>
-      <td>2</td>
-      <td>1</td>
-      <td>11</td>
-      <td>14</td>
-      <td>15</td>
-      <td>0.555556</td>
-      <td>0.047923</td>
-      <td>11.823551</td>
-      <td>.github/workflows/main.yml↔messaging/src/test/java/org/axonframework/eventhandling/scheduling/jobrunr/JobRunrEventSchedulerTest.java</td>
-    </tr>
-    <tr>
-      <th>38</th>
-      <td>yml↔java</td>
-      <td>antora↔AxonTimeLimitedTaskTest</td>
-      <td>29</td>
+      <td>java↔yml</td>
+      <td>AxonTimeLimitedTaskTest↔antora</td>
+      <td>33</td>
       <td>14</td>
       <td>4</td>
-      <td>8</td>
-      <td>3</td>
+      <td>11</td>
+      <td>4</td>
       <td>3</td>
       <td>0.375000</td>
       <td>0.060000</td>
-      <td>53.383333</td>
-      <td>docs/old-reference-guide/antora.yml↔messaging/src/test/java/org/axonframework/messaging/timeout/AxonTimeLimitedTaskTest.java</td>
+      <td>48.566667</td>
+      <td>messaging/src/test/java/org/axonframework/messaging/timeout/AxonTimeLimitedTaskTest.java↔docs/old-reference-guide/antora.yml</td>
+    </tr>
+    <tr>
+      <th>37</th>
+      <td>java↔yml</td>
+      <td>JobrunrDeadlineManagerTest↔slack-release-notification</td>
+      <td>33</td>
+      <td>2</td>
+      <td>13</td>
+      <td>7</td>
+      <td>11</td>
+      <td>15</td>
+      <td>0.258621</td>
+      <td>0.128205</td>
+      <td>20.368127</td>
+      <td>integrationtests/src/test/java/org/axonframework/integrationtests/deadline/jobrunr/JobrunrDeadlineManagerTest.java↔.github/workflows/slack-release-notification.yml</td>
+    </tr>
+    <tr>
+      <th>38</th>
+      <td>java↔yml</td>
+      <td>JobRunrEventSchedulerTest↔pullrequest</td>
+      <td>34</td>
+      <td>2</td>
+      <td>1</td>
+      <td>13</td>
+      <td>18</td>
+      <td>15</td>
+      <td>0.555556</td>
+      <td>0.048387</td>
+      <td>10.865026</td>
+      <td>messaging/src/test/java/org/axonframework/eventhandling/scheduling/jobrunr/JobRunrEventSchedulerTest.java↔.github/workflows/pullrequest.yml</td>
     </tr>
     <tr>
       <th>39</th>
-      <td>yml↔java</td>
-      <td>antora↔AnnotatedMessageHandlingMemberTest</td>
-      <td>45</td>
-      <td>10</td>
-      <td>17</td>
-      <td>7</td>
-      <td>11</td>
-      <td>7</td>
-      <td>0.155556</td>
-      <td>0.071429</td>
-      <td>16.608148</td>
-      <td>docs/old-reference-guide/antora.yml↔messaging/src/test/java/org/axonframework/messaging/annotation/AnnotatedMessageHandlingMemberTest.java</td>
+      <td>java↔yml</td>
+      <td>JobRunrEventSchedulerTest↔main</td>
+      <td>36</td>
+      <td>2</td>
+      <td>1</td>
+      <td>14</td>
+      <td>19</td>
+      <td>15</td>
+      <td>0.555556</td>
+      <td>0.047923</td>
+      <td>10.756737</td>
+      <td>messaging/src/test/java/org/axonframework/eventhandling/scheduling/jobrunr/JobRunrEventSchedulerTest.java↔.github/workflows/main.yml</td>
     </tr>
   </tbody>
 </table>
@@ -3180,26 +3216,26 @@ The frontier = the “best tradeoffs.”
     <tr>
       <th>0</th>
       <td>AxonTimeLimitedTask↔UnitOfWorkTimeoutInterceptor</td>
-      <td>93</td>
+      <td>100</td>
       <td>14</td>
       <td>1.000000</td>
       <td>1.000000</td>
-      <td>457.571429</td>
-      <td>64</td>
+      <td>416.285714</td>
+      <td>69</td>
       <td>1</td>
       <td>1</td>
-      <td>27</td>
+      <td>29</td>
       <td>messaging/src/main/java/org/axonframework/messaging/timeout/AxonTimeLimitedTask.java↔messaging/src/main/java/org/axonframework/messaging/timeout/UnitOfWorkTimeoutInterceptor.java</td>
     </tr>
     <tr>
       <th>1</th>
       <td>TimeoutWrappedMessageHandlingMemberTest↔UnitOfWorkTimeoutInterceptorTest</td>
-      <td>78</td>
+      <td>83</td>
       <td>5</td>
       <td>1.000000</td>
       <td>1.000000</td>
-      <td>1281.200000</td>
-      <td>73</td>
+      <td>1165.600000</td>
+      <td>78</td>
       <td>1</td>
       <td>1</td>
       <td>3</td>
@@ -3208,26 +3244,26 @@ The frontier = the “best tradeoffs.”
     <tr>
       <th>2</th>
       <td>EventProcessingModule↔EventProcessingModuleTest</td>
-      <td>2575</td>
-      <td>93</td>
-      <td>0.340659</td>
-      <td>0.186747</td>
-      <td>6.862465</td>
-      <td>7</td>
-      <td>118</td>
-      <td>101</td>
-      <td>2349</td>
+      <td>2786</td>
+      <td>100</td>
+      <td>0.366300</td>
+      <td>0.203666</td>
+      <td>6.713203</td>
+      <td>6</td>
+      <td>106</td>
+      <td>89</td>
+      <td>2585</td>
       <td>config/src/main/java/org/axonframework/config/EventProcessingModule.java↔config/src/test/java/org/axonframework/config/EventProcessingModuleTest.java</td>
     </tr>
     <tr>
       <th>3</th>
       <td>AvroSchemaPackages↔AvroSchemaScan</td>
-      <td>78</td>
+      <td>83</td>
       <td>3</td>
       <td>1.000000</td>
       <td>1.000000</td>
-      <td>2135.333333</td>
-      <td>75</td>
+      <td>1942.666667</td>
+      <td>80</td>
       <td>1</td>
       <td>1</td>
       <td>1</td>
@@ -3236,12 +3272,12 @@ The frontier = the “best tradeoffs.”
     <tr>
       <th>4</th>
       <td>AvroSchemaScan↔ClasspathAvroSchemaLoader</td>
-      <td>78</td>
+      <td>83</td>
       <td>3</td>
       <td>1.000000</td>
       <td>1.000000</td>
-      <td>2135.333333</td>
-      <td>75</td>
+      <td>1942.666667</td>
+      <td>80</td>
       <td>1</td>
       <td>1</td>
       <td>1</td>
@@ -3250,12 +3286,12 @@ The frontier = the “best tradeoffs.”
     <tr>
       <th>5</th>
       <td>AvroSchemaPackages↔ClasspathAvroSchemaLoader</td>
-      <td>78</td>
+      <td>83</td>
       <td>3</td>
       <td>1.000000</td>
       <td>1.000000</td>
-      <td>2135.333333</td>
-      <td>75</td>
+      <td>1942.666667</td>
+      <td>80</td>
       <td>1</td>
       <td>1</td>
       <td>1</td>
@@ -3264,239 +3300,267 @@ The frontier = the “best tradeoffs.”
     <tr>
       <th>6</th>
       <td>JobrunrDeadlineManagerTest↔JobRunrEventSchedulerTest</td>
-      <td>311</td>
+      <td>340</td>
       <td>21</td>
       <td>0.777778</td>
       <td>0.328125</td>
-      <td>85.904215</td>
-      <td>57</td>
+      <td>78.153257</td>
+      <td>62</td>
       <td>9</td>
-      <td>31</td>
-      <td>214</td>
+      <td>34</td>
+      <td>235</td>
       <td>integrationtests/src/test/java/org/axonframework/integrationtests/deadline/jobrunr/JobrunrDeadlineManagerTest.java↔messaging/src/test/java/org/axonframework/eventhandling/scheduling/jobrunr/JobRunrEventSchedulerTest.java</td>
     </tr>
     <tr>
       <th>7</th>
       <td>JobRunrEventSchedulerTest↔AbstractDeadlineManagerTestSuite</td>
-      <td>316</td>
+      <td>345</td>
       <td>17</td>
       <td>0.629630</td>
       <td>0.314815</td>
-      <td>91.668350</td>
-      <td>61</td>
+      <td>83.397306</td>
+      <td>66</td>
       <td>22</td>
-      <td>35</td>
-      <td>198</td>
+      <td>37</td>
+      <td>220</td>
       <td>messaging/src/test/java/org/axonframework/eventhandling/scheduling/jobrunr/JobRunrEventSchedulerTest.java↔spring/src/test/java/org/axonframework/integrationtests/deadline/AbstractDeadlineManagerTestSuite.java</td>
     </tr>
     <tr>
       <th>8</th>
       <td>AxonServerQueryBus↔AxonServerCommandBus</td>
-      <td>3197</td>
-      <td>154</td>
-      <td>0.413978</td>
-      <td>0.209809</td>
-      <td>5.139431</td>
+      <td>3563</td>
+      <td>163</td>
+      <td>0.438172</td>
+      <td>0.224828</td>
+      <td>4.948966</td>
       <td>1</td>
-      <td>70</td>
-      <td>80</td>
-      <td>3046</td>
+      <td>66</td>
+      <td>72</td>
+      <td>3424</td>
       <td>axon-server-connector/src/main/java/org/axonframework/axonserver/connector/query/AxonServerQueryBus.java↔axon-server-connector/src/main/java/org/axonframework/axonserver/connector/command/AxonServerCommandBus.java</td>
     </tr>
     <tr>
       <th>9</th>
       <td>SimpleEventHandlerInvoker↔SimpleEventHandlerInvokerTest</td>
-      <td>812</td>
-      <td>42</td>
-      <td>0.451613</td>
-      <td>0.245614</td>
-      <td>24.108602</td>
-      <td>36</td>
-      <td>56</td>
-      <td>56</td>
-      <td>664</td>
+      <td>888</td>
+      <td>43</td>
+      <td>0.462366</td>
+      <td>0.252941</td>
+      <td>22.455556</td>
+      <td>40</td>
+      <td>54</td>
+      <td>58</td>
+      <td>736</td>
       <td>messaging/src/main/java/org/axonframework/eventhandling/SimpleEventHandlerInvoker.java↔messaging/src/test/java/org/axonframework/eventhandling/SimpleEventHandlerInvokerTest.java</td>
     </tr>
     <tr>
       <th>10</th>
       <td>DeadLetteringEventHandlerInvoker↔DeadLetteringEventHandlerInvokerTest</td>
-      <td>577</td>
+      <td>627</td>
       <td>22</td>
       <td>0.458333</td>
       <td>0.229167</td>
-      <td>41.944048</td>
-      <td>56</td>
-      <td>53</td>
-      <td>63</td>
-      <td>405</td>
+      <td>38.159524</td>
+      <td>61</td>
+      <td>57</td>
+      <td>69</td>
+      <td>440</td>
       <td>messaging/src/main/java/org/axonframework/eventhandling/deadletter/DeadLetteringEventHandlerInvoker.java↔messaging/src/test/java/org/axonframework/eventhandling/deadletter/DeadLetteringEventHandlerInvokerTest.java</td>
     </tr>
     <tr>
       <th>11</th>
       <td>JpaAutoConfiguration↔JpaJavaxAutoConfiguration</td>
-      <td>674</td>
+      <td>736</td>
       <td>22</td>
       <td>0.687500</td>
       <td>0.159420</td>
-      <td>34.407227</td>
-      <td>56</td>
+      <td>31.302734</td>
+      <td>61</td>
       <td>16</td>
-      <td>130</td>
-      <td>472</td>
+      <td>141</td>
+      <td>518</td>
       <td>spring-boot-autoconfigure/src/main/java/org/axonframework/springboot/autoconfig/JpaAutoConfiguration.java↔spring-boot-autoconfigure/src/main/java/org/axonframework/springboot/autoconfig/legacyjpa/JpaJavaxAutoConfiguration.java</td>
     </tr>
     <tr>
       <th>12</th>
       <td>JpaAutoConfigurationTest↔JpaJavaxAutoConfigurationTest</td>
-      <td>278</td>
+      <td>301</td>
       <td>17</td>
       <td>0.548387</td>
       <td>0.369565</td>
-      <td>109.780242</td>
-      <td>61</td>
-      <td>33</td>
-      <td>24</td>
-      <td>160</td>
+      <td>99.875000</td>
+      <td>66</td>
+      <td>34</td>
+      <td>27</td>
+      <td>174</td>
       <td>spring-boot-3-integrationtests/src/test/java/org/axonframework/springboot/JpaAutoConfigurationTest.java↔spring-boot-autoconfigure/src/test/java/org/axonframework/springboot/legacyjpa/JpaJavaxAutoConfigurationTest.java</td>
     </tr>
     <tr>
       <th>13</th>
       <td>EventProcessingModule↔EventProcessingConfiguration</td>
-      <td>2077</td>
-      <td>29</td>
-      <td>0.508772</td>
-      <td>0.083815</td>
-      <td>10.249035</td>
-      <td>49</td>
-      <td>39</td>
-      <td>430</td>
-      <td>1559</td>
+      <td>2323</td>
+      <td>30</td>
+      <td>0.526316</td>
+      <td>0.086957</td>
+      <td>9.645813</td>
+      <td>53</td>
+      <td>40</td>
+      <td>457</td>
+      <td>1773</td>
       <td>config/src/main/java/org/axonframework/config/EventProcessingModule.java↔config/src/main/java/org/axonframework/config/EventProcessingConfiguration.java</td>
     </tr>
     <tr>
       <th>14</th>
       <td>EventPublicationOrderTest↔SynchronousLoopbackTest</td>
-      <td>1441</td>
-      <td>76</td>
-      <td>0.472050</td>
-      <td>0.228228</td>
-      <td>12.193348</td>
+      <td>1574</td>
+      <td>80</td>
+      <td>0.496894</td>
+      <td>0.243161</td>
+      <td>11.677019</td>
       <td>13</td>
-      <td>47</td>
-      <td>66</td>
-      <td>1315</td>
+      <td>43</td>
+      <td>62</td>
+      <td>1456</td>
       <td>integrationtests/src/test/java/org/axonframework/integrationtests/commandhandling/EventPublicationOrderTest.java↔integrationtests/src/test/java/org/axonframework/integrationtests/loopbacktest/synchronous/SynchronousLoopbackTest.java</td>
     </tr>
     <tr>
       <th>15</th>
-      <td>DoNotEnqueue↔ShouldEnqueue</td>
-      <td>94</td>
-      <td>7</td>
-      <td>0.875000</td>
-      <td>0.700000</td>
-      <td>622.805556</td>
-      <td>71</td>
-      <td>4</td>
-      <td>4</td>
-      <td>15</td>
-      <td>messaging/src/main/java/org/axonframework/messaging/deadletter/DoNotEnqueue.java↔messaging/src/main/java/org/axonframework/messaging/deadletter/ShouldEnqueue.java</td>
+      <td>DoNotEnqueueTest↔ShouldEnqueueTest</td>
+      <td>92</td>
+      <td>8</td>
+      <td>1.000000</td>
+      <td>0.800000</td>
+      <td>582.800000</td>
+      <td>75</td>
+      <td>1</td>
+      <td>2</td>
+      <td>14</td>
+      <td>messaging/src/test/java/org/axonframework/messaging/deadletter/DoNotEnqueueTest.java↔messaging/src/test/java/org/axonframework/messaging/deadletter/ShouldEnqueueTest.java</td>
     </tr>
     <tr>
       <th>16</th>
       <td>ReflectionUtilsTest↔ReflectionUtils</td>
-      <td>920</td>
-      <td>26</td>
-      <td>0.337662</td>
-      <td>0.187050</td>
-      <td>24.580283</td>
-      <td>52</td>
-      <td>120</td>
-      <td>100</td>
-      <td>648</td>
+      <td>947</td>
+      <td>28</td>
+      <td>0.363636</td>
+      <td>0.204380</td>
+      <td>24.082645</td>
+      <td>55</td>
+      <td>109</td>
+      <td>88</td>
+      <td>695</td>
       <td>messaging/src/test/java/org/axonframework/common/ReflectionUtilsTest.java↔messaging/src/main/java/org/axonframework/common/ReflectionUtils.java</td>
     </tr>
     <tr>
       <th>17</th>
-      <td>SpringAxonAutoConfigurer↔AxonConfiguration</td>
-      <td>2634</td>
-      <td>100</td>
-      <td>0.462963</td>
-      <td>0.175131</td>
-      <td>6.518112</td>
-      <td>5</td>
-      <td>51</td>
-      <td>112</td>
-      <td>2466</td>
-      <td>spring/src/main/java/org/axonframework/spring/config/SpringAxonAutoConfigurer.java↔spring/src/main/java/org/axonframework/spring/config/AxonConfiguration.java</td>
+      <td>MultiSourceTrackingTokenTest↔MultiSourceTrackingToken</td>
+      <td>951</td>
+      <td>24</td>
+      <td>0.369231</td>
+      <td>0.186047</td>
+      <td>24.453147</td>
+      <td>59</td>
+      <td>103</td>
+      <td>105</td>
+      <td>684</td>
+      <td>messaging/src/test/java/org/axonframework/eventhandling/MultiSourceTrackingTokenTest.java↔messaging/src/main/java/org/axonframework/eventhandling/MultiSourceTrackingToken.java</td>
     </tr>
     <tr>
       <th>18</th>
-      <td>ResultValidatorImpl↔ResultValidator</td>
-      <td>1485</td>
-      <td>91</td>
-      <td>0.484043</td>
-      <td>0.249315</td>
-      <td>11.570062</td>
-      <td>8</td>
-      <td>42</td>
-      <td>54</td>
-      <td>1381</td>
-      <td>test/src/main/java/org/axonframework/test/aggregate/ResultValidatorImpl.java↔test/src/main/java/org/axonframework/test/aggregate/ResultValidator.java</td>
+      <td>SpringAxonAutoConfigurer↔AxonConfiguration</td>
+      <td>2890</td>
+      <td>107</td>
+      <td>0.495370</td>
+      <td>0.189716</td>
+      <td>6.345096</td>
+      <td>5</td>
+      <td>44</td>
+      <td>101</td>
+      <td>2740</td>
+      <td>spring/src/main/java/org/axonframework/spring/config/SpringAxonAutoConfigurer.java↔spring/src/main/java/org/axonframework/spring/config/AxonConfiguration.java</td>
     </tr>
     <tr>
       <th>19</th>
-      <td>FixtureExecutionResultImpl↔FixtureExecutionResult</td>
-      <td>1213</td>
-      <td>57</td>
-      <td>0.445312</td>
-      <td>0.217557</td>
-      <td>14.935455</td>
-      <td>23</td>
-      <td>58</td>
-      <td>73</td>
-      <td>1059</td>
-      <td>test/src/main/java/org/axonframework/test/saga/FixtureExecutionResultImpl.java↔test/src/main/java/org/axonframework/test/saga/FixtureExecutionResult.java</td>
+      <td>ResultValidatorImpl↔ResultValidator</td>
+      <td>1680</td>
+      <td>94</td>
+      <td>0.500000</td>
+      <td>0.259669</td>
+      <td>10.873134</td>
+      <td>9</td>
+      <td>42</td>
+      <td>55</td>
+      <td>1574</td>
+      <td>test/src/main/java/org/axonframework/test/aggregate/ResultValidatorImpl.java↔test/src/main/java/org/axonframework/test/aggregate/ResultValidator.java</td>
     </tr>
     <tr>
       <th>20</th>
-      <td>AggregateMemberAnnotatedChildEntityCollectionDefinition↔AggregateMemberAnnotatedChildEntityDefinition</td>
-      <td>286</td>
-      <td>19</td>
-      <td>0.558824</td>
-      <td>0.380000</td>
-      <td>102.280672</td>
-      <td>59</td>
-      <td>30</td>
-      <td>22</td>
-      <td>175</td>
-      <td>modelling/src/main/java/org/axonframework/modelling/command/inspection/AggregateMemberAnnotatedChildEntityCollectionDefinition.java↔modelling/src/main/java/org/axonframework/modelling/command/inspection/AggregateMemberAnnotatedChildEntityDefinition.java</td>
+      <td>FixtureExecutionResultImpl↔FixtureExecutionResult</td>
+      <td>1316</td>
+      <td>60</td>
+      <td>0.468750</td>
+      <td>0.231660</td>
+      <td>14.303010</td>
+      <td>24</td>
+      <td>52</td>
+      <td>67</td>
+      <td>1173</td>
+      <td>test/src/main/java/org/axonframework/test/saga/FixtureExecutionResultImpl.java↔test/src/main/java/org/axonframework/test/saga/FixtureExecutionResult.java</td>
     </tr>
     <tr>
       <th>21</th>
-      <td>AggregateMemberAnnotatedChildEntityDefinition↔AggregateMemberAnnotatedChildEntityMapDefinition</td>
-      <td>293</td>
-      <td>18</td>
-      <td>0.545455</td>
-      <td>0.367347</td>
-      <td>102.770053</td>
-      <td>60</td>
-      <td>34</td>
-      <td>25</td>
-      <td>174</td>
-      <td>modelling/src/main/java/org/axonframework/modelling/command/inspection/AggregateMemberAnnotatedChildEntityDefinition.java↔modelling/src/main/java/org/axonframework/modelling/command/inspection/AggregateMemberAnnotatedChildEntityMapDefinition.java</td>
+      <td>MetadataContextGetter↔MetadataContextSetter</td>
+      <td>83</td>
+      <td>3</td>
+      <td>1.000000</td>
+      <td>1.000000</td>
+      <td>1942.666667</td>
+      <td>80</td>
+      <td>1</td>
+      <td>1</td>
+      <td>1</td>
+      <td>tracing-opentelemetry/src/main/java/org/axonframework/tracing/opentelemetry/MetadataContextGetter.java↔tracing-opentelemetry/src/main/java/org/axonframework/tracing/opentelemetry/MetadataContextSetter.java</td>
     </tr>
     <tr>
       <th>22</th>
+      <td>AggregateMemberAnnotatedChildEntityCollectionDefinition↔AggregateMemberAnnotatedChildEntityDefinition</td>
+      <td>290</td>
+      <td>20</td>
+      <td>0.588235</td>
+      <td>0.408163</td>
+      <td>97.949580</td>
+      <td>63</td>
+      <td>27</td>
+      <td>20</td>
+      <td>180</td>
+      <td>modelling/src/main/java/org/axonframework/modelling/command/inspection/AggregateMemberAnnotatedChildEntityCollectionDefinition.java↔modelling/src/main/java/org/axonframework/modelling/command/inspection/AggregateMemberAnnotatedChildEntityDefinition.java</td>
+    </tr>
+    <tr>
+      <th>23</th>
+      <td>AggregateMemberAnnotatedChildEntityDefinition↔AggregateMemberAnnotatedChildEntityMapDefinition</td>
+      <td>293</td>
+      <td>19</td>
+      <td>0.575758</td>
+      <td>0.395833</td>
+      <td>98.691622</td>
+      <td>64</td>
+      <td>29</td>
+      <td>22</td>
+      <td>178</td>
+      <td>modelling/src/main/java/org/axonframework/modelling/command/inspection/AggregateMemberAnnotatedChildEntityDefinition.java↔modelling/src/main/java/org/axonframework/modelling/command/inspection/AggregateMemberAnnotatedChildEntityMapDefinition.java</td>
+    </tr>
+    <tr>
+      <th>24</th>
       <td>StubAggregate↔StubAggregate</td>
-      <td>752</td>
+      <td>836</td>
       <td>23</td>
       <td>0.365079</td>
       <td>0.200000</td>
-      <td>31.182646</td>
-      <td>55</td>
-      <td>96</td>
-      <td>86</td>
-      <td>515</td>
+      <td>28.369101</td>
+      <td>60</td>
+      <td>107</td>
+      <td>92</td>
+      <td>577</td>
       <td>integrationtests/src/test/java/org/axonframework/integrationtests/commandhandling/StubAggregate.java↔spring/src/test/java/org/axonframework/spring/config/annotation/StubAggregate.java</td>
     </tr>
   </tbody>
@@ -3530,32 +3594,17 @@ The frontier = the “best tradeoffs.”
     <tr>
       <th>0</th>
       <td>java↔java</td>
-      <td>EventProcessingModule↔SpringAxonAutoConfigurerTest</td>
-      <td>13074</td>
+      <td>AggregateTestFixture↔TrackingEventProcessor</td>
+      <td>14781</td>
       <td>3</td>
-      <td>0.009434</td>
-      <td>0.004380</td>
-      <td>0.163335</td>
-      <td>75</td>
-      <td>1357</td>
-      <td>3146</td>
-      <td>8496</td>
-      <td>config/src/main/java/org/axonframework/config/EventProcessingModule.java↔spring/src/test/java/org/axonframework/spring/config/SpringAxonAutoConfigurerTest.java</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>java↔java</td>
-      <td>SagaTestFixture↔TrackingEventProcessorTest</td>
-      <td>13075</td>
-      <td>3</td>
-      <td>0.010204</td>
-      <td>0.004292</td>
-      <td>0.160214</td>
-      <td>75</td>
-      <td>1356</td>
-      <td>3147</td>
-      <td>8497</td>
-      <td>test/src/main/java/org/axonframework/test/saga/SagaTestFixture.java↔integrationtests/src/test/java/org/axonframework/integrationtests/eventhandling/TrackingEventProcessorTest.java</td>
+      <td>0.007426</td>
+      <td>0.00365</td>
+      <td>0.102796</td>
+      <td>80</td>
+      <td>1455</td>
+      <td>3452</td>
+      <td>9794</td>
+      <td>test/src/main/java/org/axonframework/test/aggregate/AggregateTestFixture.java↔messaging/src/main/java/org/axonframework/eventhandling/TrackingEventProcessor.java</td>
     </tr>
   </tbody>
 </table>
@@ -3635,6 +3684,6 @@ The frontier = the “best tradeoffs.”
 
 
     
-![png](GitHistoryGeneral_files/GitHistoryGeneral_95_0.png)
+![png](GitHistoryGeneral_files/GitHistoryGeneral_94_0.png)
     
 

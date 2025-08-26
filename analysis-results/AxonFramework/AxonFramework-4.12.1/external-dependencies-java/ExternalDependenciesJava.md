@@ -5126,7 +5126,7 @@ Only the last 40 entries are shown. The whole table can be found in the followin
       <td>38</td>
       <td>147</td>
       <td>24</td>
-      <td>[BaseMatcher, Description, TypeSafeMatcher, Ma...</td>
+      <td>[Description, BaseMatcher, TypeSafeMatcher, Ma...</td>
       <td>matchers</td>
     </tr>
     <tr>
