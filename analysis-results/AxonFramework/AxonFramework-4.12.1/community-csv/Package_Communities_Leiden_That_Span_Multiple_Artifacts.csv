@@ -10,7 +10,7 @@
 2,"axon-tracing-opentelemetry-4.12.1",1,"opentelemetry",""
 3,"axon-disruptor-4.12.1",1,"commandhandling",""
 3,"axon-eventsourcing-4.12.1",2,"eventsourcing,conflictresolution",""
-3,"axon-messaging-4.12.1",17,"commandhandling,callbacks,distributed,commandfilter,gateway,annotation,common,caching,digest,lock,property,interceptors,unitofwork,configuration",""
+3,"axon-messaging-4.12.1",16,"commandhandling,callbacks,distributed,commandfilter,gateway,annotation,common,caching,digest,lock,property,interceptors,unitofwork",""
 3,"axon-modelling-4.12.1",3,"command,inspection,legacyjpa",""
 8,"axon-modelling-4.12.1",1,"inmemory",""
 8,"axon-test-4.12.1",7,"test,deadline,eventscheduler,saga,utils,aggregate,matchers",""
