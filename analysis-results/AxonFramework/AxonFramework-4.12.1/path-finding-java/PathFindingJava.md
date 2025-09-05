@@ -1369,9 +1369,9 @@ In this section we'll focus only on pairs of nodes that both belong to the same 
       <td>4</td>
       <td>13</td>
       <td>3</td>
-      <td>1</td>
+      <td>2</td>
       <td>3</td>
-      <td>[/org/axonframework/test/saga -&gt; /org/axonframework/test/deadline, /org/axonframework/test/saga -&gt; /org/axonframework/test/eventscheduler, /org/axonframework/test/saga -&gt; /org/axonframework/test/utils]</td>
+      <td>[/org/axonframework/test/aggregate -&gt; /org/axonframework/test/deadline, /org/axonframework/test/saga -&gt; /org/axonframework/test/eventscheduler, /org/axonframework/test/saga -&gt; /org/axonframework/test/utils]</td>
       <td>[axon-test-4.12.1 -&gt; axon-test-4.12.1]</td>
       <td>[]</td>
     </tr>
@@ -1390,7 +1390,7 @@ In this section we'll focus only on pairs of nodes that both belong to the same 
       <td>1</td>
       <td>1</td>
       <td>1</td>
-      <td>[/org/axonframework/test/saga -&gt; /org/axonframework/test/matchers]</td>
+      <td>[/org/axonframework/test/aggregate -&gt; /org/axonframework/test/matchers]</td>
       <td>[axon-test-4.12.1 -&gt; axon-test-4.12.1]</td>
       <td>[]</td>
     </tr>
@@ -1409,7 +1409,7 @@ In this section we'll focus only on pairs of nodes that both belong to the same 
       <td>1</td>
       <td>1</td>
       <td>1</td>
-      <td>[/org/axonframework/test/saga -&gt; /org/axonframework/test]</td>
+      <td>[/org/axonframework/test/aggregate -&gt; /org/axonframework/test]</td>
       <td>[axon-test-4.12.1 -&gt; axon-test-4.12.1]</td>
       <td>[]</td>
     </tr>
