@@ -1047,7 +1047,7 @@ The following table shows the first 10 rows with all details of the query above.
       <td>1</td>
       <td>1</td>
       <td>1</td>
-      <td>[/org/axonframework/axonserver/connector/heartbeat/connection/checker -&gt; /org/axonframework/axonserver/connector/heartbeat]</td>
+      <td>[/org/axonframework/axonserver/connector/heartbeat/source -&gt; /org/axonframework/axonserver/connector/heartbeat]</td>
       <td>[axon-server-connector-4.12.1 -&gt; axon-server-connector-4.12.1]</td>
       <td>[]</td>
     </tr>
@@ -1066,7 +1066,7 @@ The following table shows the first 10 rows with all details of the query above.
       <td>1</td>
       <td>1</td>
       <td>1</td>
-      <td>[/org/axonframework/axonserver/connector/heartbeat/connection/checker -&gt; /org/axonframework/axonserver/connector/util]</td>
+      <td>[/org/axonframework/axonserver/connector/heartbeat/source -&gt; /org/axonframework/axonserver/connector/util]</td>
       <td>[axon-server-connector-4.12.1 -&gt; axon-server-connector-4.12.1]</td>
       <td>[]</td>
     </tr>
@@ -1257,7 +1257,7 @@ In this section we'll focus only on pairs of nodes that both belong to the same 
       <td>1</td>
       <td>1</td>
       <td>1</td>
-      <td>[/org/axonframework/axonserver/connector/heartbeat/connection/checker -&gt; /org/axonframework/axonserver/connector/heartbeat]</td>
+      <td>[/org/axonframework/axonserver/connector/heartbeat/source -&gt; /org/axonframework/axonserver/connector/heartbeat]</td>
       <td>[axon-server-connector-4.12.1 -&gt; axon-server-connector-4.12.1]</td>
       <td>[]</td>
     </tr>
@@ -1276,7 +1276,7 @@ In this section we'll focus only on pairs of nodes that both belong to the same 
       <td>1</td>
       <td>1</td>
       <td>1</td>
-      <td>[/org/axonframework/axonserver/connector/heartbeat/connection/checker -&gt; /org/axonframework/axonserver/connector/util]</td>
+      <td>[/org/axonframework/axonserver/connector/heartbeat/source -&gt; /org/axonframework/axonserver/connector/util]</td>
       <td>[axon-server-connector-4.12.1 -&gt; axon-server-connector-4.12.1]</td>
       <td>[]</td>
     </tr>

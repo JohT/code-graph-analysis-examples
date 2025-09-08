@@ -38,7 +38,7 @@
 "org.axonframework.config.Configuration: org.axonframework.eventsourcing.snapshotting.SnapshotFilter snapshotFilter()","snapshotFilter","centralityHarmonic",0.0034223134839151265,""
 "org.axonframework.deadline.DefaultDeadlineManagerSpanFactory$Builder: org.axonframework.deadline.DefaultDeadlineManagerSpanFactory$Builder spanFactory(org.axonframework.tracing.SpanFactory)","spanFactory","centralityHarmonic",0.0034223134839151265,""
 "org.axonframework.common.jdbc.JdbcUtils: java.lang.Object executeQuery(java.sql.Connection,org.axonframework.common.jdbc.JdbcUtils$SqlFunction,org.axonframework.common.jdbc.JdbcUtils$SqlResultConverter,java.util.function.Function,boolean)","executeQuery","centralityHarmonic",0.0031941592516541184,""
-"org.axonframework.eventhandling.AbstractEventBus$Builder: org.axonframework.eventhandling.AbstractEventBus$Builder messageMonitor(org.axonframework.monitoring.MessageMonitor)","messageMonitor","centralityHarmonic",0.0031941592516541184,""
+"org.axonframework.eventhandling.AbstractEventBus$Builder: org.axonframework.eventhandling.AbstractEventBus$Builder messageMonitor(org.axonframework.monitoring.MessageMonitor)","messageMonitor","centralityHarmonic",0.003194159251654118,""
 "org.axonframework.axonserver.connector.AxonServerConfiguration: java.lang.Integer getNewPermitsThreshold()","getNewPermitsThreshold","centralityHarmonic",0.003080082135523614,""
 "org.axonframework.axonserver.connector.DispatchInterceptors: org.axonframework.messaging.Message intercept(org.axonframework.messaging.Message)","intercept","centralityHarmonic",0.003080082135523614,""
 "org.axonframework.common.Assert: void notNull(java.lang.Object,java.util.function.Supplier)","notNull","centralityHarmonic",0.003080082135523614,""
