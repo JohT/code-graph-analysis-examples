@@ -48,9 +48,9 @@
       <td>24.898936</td>
       <td>19.664894</td>
       <td>288.570922</td>
-      <td>324.186170</td>
-      <td>1201.170213</td>
-      <td>418.601064</td>
+      <td>331.186170</td>
+      <td>1207.742908</td>
+      <td>424.964539</td>
     </tr>
     <tr>
       <th>std</th>
@@ -58,53 +58,53 @@
       <td>21.297173</td>
       <td>639.823202</td>
       <td>170.624646</td>
-      <td>980.449779</td>
-      <td>392.540985</td>
+      <td>980.400503</td>
+      <td>392.516541</td>
     </tr>
     <tr>
       <th>min</th>
       <td>1.000000</td>
       <td>2.000000</td>
       <td>3.000000</td>
-      <td>46.000000</td>
-      <td>60.000000</td>
-      <td>46.000000</td>
+      <td>53.000000</td>
+      <td>66.000000</td>
+      <td>53.000000</td>
     </tr>
     <tr>
       <th>25%</th>
       <td>1.000000</td>
       <td>7.000000</td>
       <td>27.000000</td>
-      <td>186.000000</td>
-      <td>460.000000</td>
-      <td>276.000000</td>
+      <td>193.000000</td>
+      <td>467.000000</td>
+      <td>283.000000</td>
     </tr>
     <tr>
       <th>50%</th>
       <td>4.000000</td>
       <td>12.000000</td>
       <td>82.500000</td>
-      <td>419.000000</td>
-      <td>979.000000</td>
-      <td>419.000000</td>
+      <td>426.000000</td>
+      <td>985.000000</td>
+      <td>425.000000</td>
     </tr>
     <tr>
       <th>75%</th>
       <td>10.000000</td>
       <td>25.000000</td>
       <td>270.250000</td>
-      <td>419.000000</td>
-      <td>2025.750000</td>
-      <td>419.000000</td>
+      <td>426.000000</td>
+      <td>2032.750000</td>
+      <td>425.000000</td>
     </tr>
     <tr>
       <th>max</th>
       <td>2294.000000</td>
       <td>213.000000</td>
       <td>9815.000000</td>
-      <td>2569.000000</td>
-      <td>5697.000000</td>
-      <td>3048.000000</td>
+      <td>2576.000000</td>
+      <td>5703.000000</td>
+      <td>3055.000000</td>
     </tr>
   </tbody>
 </table>
@@ -152,9 +152,9 @@
       <td>Allard Buijze</td>
       <td>Frank Versnel</td>
       <td>47</td>
-      <td>419</td>
-      <td>5697</td>
-      <td>419</td>
+      <td>426</td>
+      <td>5703</td>
+      <td>425</td>
       <td>2024-07-30</td>
       <td>2010-02-16</td>
       <td>2024-07-30</td>
@@ -172,9 +172,9 @@
       <td>Allard Buijze</td>
       <td>Elin Alexey</td>
       <td>31</td>
-      <td>419</td>
-      <td>2167</td>
-      <td>419</td>
+      <td>426</td>
+      <td>2174</td>
+      <td>425</td>
       <td>2024-07-30</td>
       <td>2019-10-16</td>
       <td>2024-07-30</td>
@@ -192,9 +192,9 @@
       <td>Allard Buijze</td>
       <td>Marc Gathier</td>
       <td>22</td>
-      <td>419</td>
-      <td>2536</td>
-      <td>2536</td>
+      <td>426</td>
+      <td>2543</td>
+      <td>2543</td>
       <td>2024-07-30</td>
       <td>2018-10-12</td>
       <td>2018-10-12</td>
@@ -212,9 +212,9 @@
       <td>Allard Buijze</td>
       <td>Elin Alexey</td>
       <td>69</td>
-      <td>419</td>
-      <td>2561</td>
-      <td>419</td>
+      <td>426</td>
+      <td>2567</td>
+      <td>425</td>
       <td>2024-07-30</td>
       <td>2018-09-18</td>
       <td>2024-07-30</td>
@@ -232,9 +232,9 @@
       <td>Allard Buijze</td>
       <td>Marijn van Zelst</td>
       <td>34</td>
-      <td>419</td>
-      <td>2539</td>
-      <td>419</td>
+      <td>426</td>
+      <td>2545</td>
+      <td>425</td>
       <td>2024-07-30</td>
       <td>2018-10-10</td>
       <td>2024-07-30</td>
@@ -252,9 +252,9 @@
       <td>Allard Buijze</td>
       <td>Christian Vermorken</td>
       <td>178</td>
-      <td>49</td>
-      <td>1362</td>
-      <td>49</td>
+      <td>56</td>
+      <td>1368</td>
+      <td>55</td>
       <td>2025-08-04</td>
       <td>2021-12-30</td>
       <td>2025-08-04</td>
@@ -272,9 +272,9 @@
       <td>Allard Buijze</td>
       <td>David Gómez G</td>
       <td>10</td>
-      <td>419</td>
-      <td>472</td>
-      <td>472</td>
+      <td>426</td>
+      <td>478</td>
+      <td>478</td>
       <td>2024-07-30</td>
       <td>2024-06-07</td>
       <td>2024-06-07</td>
@@ -292,9 +292,9 @@
       <td>Allard Buijze</td>
       <td>David Gómez G</td>
       <td>18</td>
-      <td>419</td>
-      <td>460</td>
-      <td>460</td>
+      <td>426</td>
+      <td>467</td>
+      <td>467</td>
       <td>2024-07-30</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -312,9 +312,9 @@
       <td>Allard Buijze</td>
       <td>David Gómez G</td>
       <td>18</td>
-      <td>419</td>
-      <td>460</td>
-      <td>460</td>
+      <td>426</td>
+      <td>467</td>
+      <td>467</td>
       <td>2024-07-30</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -332,9 +332,9 @@
       <td>Allard Buijze</td>
       <td>David Gómez G</td>
       <td>19</td>
-      <td>419</td>
-      <td>460</td>
-      <td>460</td>
+      <td>426</td>
+      <td>467</td>
+      <td>467</td>
       <td>2024-07-30</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -352,9 +352,9 @@
       <td>Allard Buijze</td>
       <td>David Gómez G</td>
       <td>18</td>
-      <td>419</td>
-      <td>460</td>
-      <td>460</td>
+      <td>426</td>
+      <td>467</td>
+      <td>467</td>
       <td>2024-07-30</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -372,9 +372,9 @@
       <td>Allard Buijze</td>
       <td>David Gómez G</td>
       <td>19</td>
-      <td>419</td>
-      <td>460</td>
-      <td>460</td>
+      <td>426</td>
+      <td>467</td>
+      <td>467</td>
       <td>2024-07-30</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -392,9 +392,9 @@
       <td>Allard Buijze</td>
       <td>David Gómez G</td>
       <td>18</td>
-      <td>419</td>
-      <td>460</td>
-      <td>460</td>
+      <td>426</td>
+      <td>467</td>
+      <td>467</td>
       <td>2024-07-30</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -412,9 +412,9 @@
       <td>Allard Buijze</td>
       <td>David Gómez G</td>
       <td>19</td>
-      <td>419</td>
-      <td>460</td>
-      <td>460</td>
+      <td>426</td>
+      <td>467</td>
+      <td>467</td>
       <td>2024-07-30</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -432,9 +432,9 @@
       <td>Allard Buijze</td>
       <td>David Gómez G</td>
       <td>18</td>
-      <td>419</td>
-      <td>460</td>
-      <td>460</td>
+      <td>426</td>
+      <td>467</td>
+      <td>467</td>
       <td>2024-07-30</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -452,9 +452,9 @@
       <td>Allard Buijze</td>
       <td>David Gómez G</td>
       <td>20</td>
-      <td>419</td>
-      <td>460</td>
-      <td>460</td>
+      <td>426</td>
+      <td>467</td>
+      <td>467</td>
       <td>2024-07-30</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -472,9 +472,9 @@
       <td>Allard Buijze</td>
       <td>David Gómez G</td>
       <td>18</td>
-      <td>419</td>
-      <td>460</td>
-      <td>460</td>
+      <td>426</td>
+      <td>467</td>
+      <td>467</td>
       <td>2024-07-30</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -492,9 +492,9 @@
       <td>Allard Buijze</td>
       <td>David Gómez G</td>
       <td>19</td>
-      <td>419</td>
-      <td>460</td>
-      <td>460</td>
+      <td>426</td>
+      <td>467</td>
+      <td>467</td>
       <td>2024-07-30</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -512,9 +512,9 @@
       <td>Allard Buijze</td>
       <td>David Gómez G</td>
       <td>18</td>
-      <td>419</td>
-      <td>460</td>
-      <td>460</td>
+      <td>426</td>
+      <td>467</td>
+      <td>467</td>
       <td>2024-07-30</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -532,9 +532,9 @@
       <td>Allard Buijze</td>
       <td>David Gómez G</td>
       <td>19</td>
-      <td>419</td>
-      <td>460</td>
-      <td>460</td>
+      <td>426</td>
+      <td>467</td>
+      <td>467</td>
       <td>2024-07-30</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -552,9 +552,9 @@
       <td>Allard Buijze</td>
       <td>David Gómez G</td>
       <td>18</td>
-      <td>419</td>
-      <td>460</td>
-      <td>460</td>
+      <td>426</td>
+      <td>467</td>
+      <td>467</td>
       <td>2024-07-30</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -572,9 +572,9 @@
       <td>Allard Buijze</td>
       <td>David Gómez G</td>
       <td>19</td>
-      <td>419</td>
-      <td>460</td>
-      <td>460</td>
+      <td>426</td>
+      <td>467</td>
+      <td>467</td>
       <td>2024-07-30</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -592,9 +592,9 @@
       <td>Allard Buijze</td>
       <td>David Gómez G</td>
       <td>18</td>
-      <td>419</td>
-      <td>460</td>
-      <td>460</td>
+      <td>426</td>
+      <td>467</td>
+      <td>467</td>
       <td>2024-07-30</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -612,9 +612,9 @@
       <td>Allard Buijze</td>
       <td>David Gómez G</td>
       <td>18</td>
-      <td>419</td>
-      <td>460</td>
-      <td>460</td>
+      <td>426</td>
+      <td>467</td>
+      <td>467</td>
       <td>2024-07-30</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -632,9 +632,9 @@
       <td>Allard Buijze</td>
       <td>David Gómez G</td>
       <td>19</td>
-      <td>419</td>
-      <td>460</td>
-      <td>460</td>
+      <td>426</td>
+      <td>467</td>
+      <td>467</td>
       <td>2024-07-30</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -652,9 +652,9 @@
       <td>Allard Buijze</td>
       <td>David Gómez G</td>
       <td>18</td>
-      <td>419</td>
-      <td>460</td>
-      <td>460</td>
+      <td>426</td>
+      <td>467</td>
+      <td>467</td>
       <td>2024-07-30</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -672,9 +672,9 @@
       <td>Allard Buijze</td>
       <td>David Gómez G</td>
       <td>20</td>
-      <td>419</td>
-      <td>460</td>
-      <td>460</td>
+      <td>426</td>
+      <td>467</td>
+      <td>467</td>
       <td>2024-07-30</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -692,9 +692,9 @@
       <td>Allard Buijze</td>
       <td>David Gómez G</td>
       <td>18</td>
-      <td>419</td>
-      <td>460</td>
-      <td>460</td>
+      <td>426</td>
+      <td>467</td>
+      <td>467</td>
       <td>2024-07-30</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -712,9 +712,9 @@
       <td>Allard Buijze</td>
       <td>David Gómez G</td>
       <td>19</td>
-      <td>419</td>
-      <td>460</td>
-      <td>460</td>
+      <td>426</td>
+      <td>467</td>
+      <td>467</td>
       <td>2024-07-30</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -732,9 +732,9 @@
       <td>Allard Buijze</td>
       <td>David Gómez G</td>
       <td>18</td>
-      <td>419</td>
-      <td>460</td>
-      <td>460</td>
+      <td>426</td>
+      <td>467</td>
+      <td>467</td>
       <td>2024-07-30</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -1350,8 +1350,8 @@ The following charts show how these metrics are distributed across pairs of file
       <td>java↔yml</td>
       <td>15</td>
       <td>2</td>
-      <td>JobRunrEventSchedulerTest↔main</td>
-      <td>messaging/src/test/java/org/axonframework/eventhandling/scheduling/jobrunr/JobRunrEventSchedulerTest.java↔.github/workflows/main.yml</td>
+      <td>AbstractDeadlineManagerTestSuite↔main</td>
+      <td>spring/src/test/java/org/axonframework/integrationtests/deadline/AbstractDeadlineManagerTestSuite.java↔.github/workflows/main.yml</td>
     </tr>
     <tr>
       <th>22</th>
@@ -1486,8 +1486,8 @@ The following charts show how these metrics are distributed across pairs of file
       <td>adoc↔xml</td>
       <td>3</td>
       <td>9</td>
-      <td>configuration↔pom</td>
-      <td>docs/old-reference-guide/modules/queries/pages/configuration.adoc↔axon-server-connector/pom.xml</td>
+      <td>query-dispatchers↔pom</td>
+      <td>docs/old-reference-guide/modules/queries/pages/query-dispatchers.adoc↔axon-server-connector/pom.xml</td>
     </tr>
   </tbody>
 </table>
@@ -1567,8 +1567,8 @@ This metric is useful to identify pairs of files that are frequently changed tog
       <td>java↔java</td>
       <td>0.833333</td>
       <td>6</td>
-      <td>AvroSerializer↔ByteArrayToGenericRecordConverter</td>
-      <td>messaging/src/main/java/org/axonframework/serialization/avro/AvroSerializer.java↔messaging/src/main/java/org/axonframework/serialization/avro/ByteArrayToGenericRecordConverter.java</td>
+      <td>AvroUtil↔ByteArrayToGenericRecordConverter</td>
+      <td>messaging/src/main/java/org/axonframework/serialization/avro/AvroUtil.java↔messaging/src/main/java/org/axonframework/serialization/avro/ByteArrayToGenericRecordConverter.java</td>
     </tr>
     <tr>
       <th>6</th>
@@ -1909,8 +1909,8 @@ This metric is useful to identify pairs of files that are frequently changed tog
       <td>java↔java</td>
       <td>971.333333</td>
       <td>5</td>
-      <td>AvroSchemaScan↔SpecificRecordBaseClasspathAvroSchemaLoader</td>
-      <td>spring/src/main/java/org/axonframework/spring/serialization/avro/AvroSchemaScan.java↔spring/src/main/java/org/axonframework/spring/serialization/avro/SpecificRecordBaseClasspathAvroSchemaLoader.java</td>
+      <td>ClasspathAvroSchemaLoader↔SpecificRecordBaseClasspathAvroSchemaLoader</td>
+      <td>spring/src/main/java/org/axonframework/spring/serialization/avro/ClasspathAvroSchemaLoader.java↔spring/src/main/java/org/axonframework/spring/serialization/avro/SpecificRecordBaseClasspathAvroSchemaLoader.java</td>
     </tr>
     <tr>
       <th>5</th>
@@ -2125,8 +2125,8 @@ This metric is useful to identify pairs of files that are frequently changed tog
       <td>adoc↔xml</td>
       <td>21.347985</td>
       <td>2</td>
-      <td>configuration↔pom</td>
-      <td>docs/old-reference-guide/modules/queries/pages/configuration.adoc↔spring-boot3-dummy/pom.xml</td>
+      <td>nav↔pom</td>
+      <td>docs/old-reference-guide/modules/queries/partials/nav.adoc↔spring-boot3-dummy/pom.xml</td>
     </tr>
     <tr>
       <th>32</th>
@@ -2613,21 +2613,6 @@ This is useful to identify pairs of files that score high in most metrics, which
     <tr>
       <th>2</th>
       <td>adoc↔xml</td>
-      <td>configuration↔pom</td>
-      <td>28</td>
-      <td>9</td>
-      <td>3</td>
-      <td>14</td>
-      <td>2</td>
-      <td>3</td>
-      <td>0.333333</td>
-      <td>0.030928</td>
-      <td>21.347985</td>
-      <td>docs/old-reference-guide/modules/queries/pages/configuration.adoc↔spring-boot3-dummy/pom.xml</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>adoc↔xml</td>
       <td>nav↔pom</td>
       <td>28</td>
       <td>9</td>
@@ -2639,6 +2624,21 @@ This is useful to identify pairs of files that score high in most metrics, which
       <td>0.030928</td>
       <td>21.347985</td>
       <td>docs/old-reference-guide/modules/queries/partials/nav.adoc↔spring-boot3-dummy/pom.xml</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>adoc↔xml</td>
+      <td>configuration↔pom</td>
+      <td>28</td>
+      <td>9</td>
+      <td>3</td>
+      <td>14</td>
+      <td>2</td>
+      <td>3</td>
+      <td>0.333333</td>
+      <td>0.030928</td>
+      <td>21.347985</td>
+      <td>docs/old-reference-guide/modules/queries/pages/configuration.adoc↔spring-boot3-dummy/pom.xml</td>
     </tr>
     <tr>
       <th>4</th>

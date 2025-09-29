@@ -621,7 +621,7 @@ In this section we'll focus only on pairs of nodes that both belong to the same 
       <td>318</td>
       <td>64</td>
       <td>44</td>
-      <td>[/org/axonframework/messaging/timeout -&gt; /org/axonframework/commandhandling, /org/axonframework/serialization -&gt; /org/axonframework/commandhandling, /org/axonframework/tracing -&gt; /org/axonframework/commandhandling, /org/axonframework/tracing/attributes -&gt; /org/axonframework/commandhandling]</td>
+      <td>[/org/axonframework/commandhandling/callbacks -&gt; /org/axonframework/commandhandling, /org/axonframework/commandhandling/distributed -&gt; /org/axonframework/commandhandling, /org/axonframework/commandhandling/distributed/commandfilter -&gt; /org/axonframework/commandhandling, /org/axonframework/comman...</td>
       <td>[axon-messaging-4.12.1 -&gt; axon-messaging-4.12.1]</td>
       <td>[]</td>
     </tr>
@@ -1350,9 +1350,9 @@ In this section we'll focus only on pairs of nodes that both belong to the same 
       <td>5</td>
       <td>13</td>
       <td>3</td>
-      <td>2</td>
+      <td>1</td>
       <td>3</td>
-      <td>[/org/axonframework/test/aggregate -&gt; /org/axonframework/test/deadline, /org/axonframework/test/saga -&gt; /org/axonframework/test/eventscheduler, /org/axonframework/test/saga -&gt; /org/axonframework/test/utils]</td>
+      <td>[/org/axonframework/test/saga -&gt; /org/axonframework/test/deadline, /org/axonframework/test/saga -&gt; /org/axonframework/test/eventscheduler, /org/axonframework/test/saga -&gt; /org/axonframework/test/utils]</td>
       <td>[axon-test-4.12.1 -&gt; axon-test-4.12.1]</td>
       <td>[]</td>
     </tr>
@@ -1371,7 +1371,7 @@ In this section we'll focus only on pairs of nodes that both belong to the same 
       <td>1</td>
       <td>1</td>
       <td>1</td>
-      <td>[/org/axonframework/test/aggregate -&gt; /org/axonframework/test/matchers]</td>
+      <td>[/org/axonframework/test/saga -&gt; /org/axonframework/test/matchers]</td>
       <td>[axon-test-4.12.1 -&gt; axon-test-4.12.1]</td>
       <td>[]</td>
     </tr>
@@ -1390,7 +1390,7 @@ In this section we'll focus only on pairs of nodes that both belong to the same 
       <td>1</td>
       <td>1</td>
       <td>1</td>
-      <td>[/org/axonframework/test/aggregate -&gt; /org/axonframework/test]</td>
+      <td>[/org/axonframework/test/saga -&gt; /org/axonframework/test]</td>
       <td>[axon-test-4.12.1 -&gt; axon-test-4.12.1]</td>
       <td>[]</td>
     </tr>
