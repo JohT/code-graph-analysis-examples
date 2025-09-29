@@ -260,49 +260,49 @@ Lists the 30 label combinations with the lowest number of nodes until they reach
     </tr>
     <tr>
       <th>1</th>
-      <td>[Git, Branch]</td>
-      <td>1</td>
-      <td>0.001840</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>[Repository, File, Git]</td>
-      <td>1</td>
-      <td>0.001840</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>[Value, TS, ObjectMember]</td>
-      <td>1</td>
-      <td>0.001840</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>[TS, Constructor]</td>
-      <td>1</td>
-      <td>0.001840</td>
-    </tr>
-    <tr>
-      <th>5</th>
-      <td>[TS, Class]</td>
-      <td>1</td>
-      <td>0.001840</td>
-    </tr>
-    <tr>
-      <th>6</th>
-      <td>[TS, Method]</td>
-      <td>1</td>
-      <td>0.001840</td>
-    </tr>
-    <tr>
-      <th>7</th>
       <td>[NPM, PublishConfig]</td>
       <td>1</td>
       <td>0.001840</td>
     </tr>
     <tr>
-      <th>8</th>
+      <th>2</th>
       <td>[File, TS, Scan]</td>
+      <td>1</td>
+      <td>0.001840</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>[TS, Method]</td>
+      <td>1</td>
+      <td>0.001840</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>[Git, Branch]</td>
+      <td>1</td>
+      <td>0.001840</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>[TS, Constructor]</td>
+      <td>1</td>
+      <td>0.001840</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>[Value, TS, ObjectMember]</td>
+      <td>1</td>
+      <td>0.001840</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>[Repository, File, Git]</td>
+      <td>1</td>
+      <td>0.001840</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>[TS, Class]</td>
       <td>1</td>
       <td>0.001840</td>
     </tr>
@@ -350,43 +350,43 @@ Lists the 30 label combinations with the lowest number of nodes until they reach
     </tr>
     <tr>
       <th>16</th>
-      <td>[Project, TS]</td>
-      <td>6</td>
-      <td>0.011039</td>
-    </tr>
-    <tr>
-      <th>17</th>
-      <td>[File, TS, Local, Module]</td>
-      <td>6</td>
-      <td>0.011039</td>
-    </tr>
-    <tr>
-      <th>18</th>
-      <td>[Type, TS, TypeParameterReference]</td>
-      <td>6</td>
-      <td>0.011039</td>
-    </tr>
-    <tr>
-      <th>19</th>
-      <td>[Value, TS, Member]</td>
-      <td>6</td>
-      <td>0.011039</td>
-    </tr>
-    <tr>
-      <th>20</th>
       <td>[NPM, Engine]</td>
       <td>6</td>
       <td>0.011039</td>
     </tr>
     <tr>
-      <th>21</th>
+      <th>17</th>
+      <td>[Project, TS]</td>
+      <td>6</td>
+      <td>0.011039</td>
+    </tr>
+    <tr>
+      <th>18</th>
       <td>[File, Local]</td>
       <td>6</td>
       <td>0.011039</td>
     </tr>
     <tr>
-      <th>22</th>
+      <th>19</th>
+      <td>[File, TS, Local, Module]</td>
+      <td>6</td>
+      <td>0.011039</td>
+    </tr>
+    <tr>
+      <th>20</th>
       <td>[Value, TS, Call]</td>
+      <td>6</td>
+      <td>0.011039</td>
+    </tr>
+    <tr>
+      <th>21</th>
+      <td>[Type, TS, TypeParameterReference]</td>
+      <td>6</td>
+      <td>0.011039</td>
+    </tr>
+    <tr>
+      <th>22</th>
+      <td>[Value, TS, Member]</td>
       <td>6</td>
       <td>0.011039</td>
     </tr>
@@ -428,7 +428,7 @@ Lists the 30 label combinations with the lowest number of nodes until they reach
     </tr>
     <tr>
       <th>29</th>
-      <td>[File, Directory, Local]</td>
+      <td>[TS, TypeAlias]</td>
       <td>16</td>
       <td>0.029438</td>
     </tr>
@@ -976,13 +976,13 @@ Lists the 30 relationships type with the lowest number of occurrences up to 0.5%
   <tbody>
     <tr>
       <th>0</th>
-      <td>DECLARES_PUBLISH_CONFIG</td>
+      <td>HAS_BRANCH</td>
       <td>1</td>
       <td>0.000624</td>
     </tr>
     <tr>
       <th>1</th>
-      <td>HAS_BRANCH</td>
+      <td>DECLARES_PUBLISH_CONFIG</td>
       <td>1</td>
       <td>0.000624</td>
     </tr>
@@ -1012,61 +1012,61 @@ Lists the 30 relationships type with the lowest number of occurrences up to 0.5%
     </tr>
     <tr>
       <th>6</th>
-      <td>MEMBER</td>
-      <td>6</td>
-      <td>0.003747</td>
-    </tr>
-    <tr>
-      <th>7</th>
-      <td>CALLS</td>
-      <td>6</td>
-      <td>0.003747</td>
-    </tr>
-    <tr>
-      <th>8</th>
-      <td>HAS_NPM_PACKAGE</td>
-      <td>6</td>
-      <td>0.003747</td>
-    </tr>
-    <tr>
-      <th>9</th>
-      <td>EXTENDS</td>
-      <td>6</td>
-      <td>0.003747</td>
-    </tr>
-    <tr>
-      <th>10</th>
       <td>DECLARES_ENGINE</td>
       <td>6</td>
       <td>0.003747</td>
     </tr>
     <tr>
-      <th>11</th>
-      <td>CONTAINS_PROJECT</td>
+      <th>7</th>
+      <td>EXTENDS</td>
       <td>6</td>
       <td>0.003747</td>
     </tr>
     <tr>
-      <th>12</th>
-      <td>HAS_CONFIG</td>
-      <td>6</td>
-      <td>0.003747</td>
-    </tr>
-    <tr>
-      <th>13</th>
+      <th>8</th>
       <td>HAS_ARGUMENT</td>
       <td>6</td>
       <td>0.003747</td>
     </tr>
     <tr>
+      <th>9</th>
+      <td>CALLS</td>
+      <td>6</td>
+      <td>0.003747</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>HAS_NPM_PACKAGE</td>
+      <td>6</td>
+      <td>0.003747</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>HAS_CONFIG</td>
+      <td>6</td>
+      <td>0.003747</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>PARENT</td>
+      <td>6</td>
+      <td>0.003747</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>CONTAINS_PROJECT</td>
+      <td>6</td>
+      <td>0.003747</td>
+    </tr>
+    <tr>
       <th>14</th>
-      <td>HAS_ROOT</td>
+      <td>MEMBER</td>
       <td>6</td>
       <td>0.003747</td>
     </tr>
     <tr>
       <th>15</th>
-      <td>PARENT</td>
+      <td>HAS_ROOT</td>
       <td>6</td>
       <td>0.003747</td>
     </tr>
