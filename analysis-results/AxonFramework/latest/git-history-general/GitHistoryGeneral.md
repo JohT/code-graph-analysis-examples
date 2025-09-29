@@ -49,8 +49,8 @@
       <td>19.664894</td>
       <td>288.570922</td>
       <td>331.186170</td>
-      <td>1207.742908</td>
-      <td>424.964539</td>
+      <td>1207.907801</td>
+      <td>425.040780</td>
     </tr>
     <tr>
       <th>std</th>
@@ -58,8 +58,8 @@
       <td>21.297173</td>
       <td>639.823202</td>
       <td>170.624646</td>
-      <td>980.400503</td>
-      <td>392.516541</td>
+      <td>980.391506</td>
+      <td>392.552027</td>
     </tr>
     <tr>
       <th>min</th>
@@ -85,7 +85,7 @@
       <td>12.000000</td>
       <td>82.500000</td>
       <td>426.000000</td>
-      <td>985.000000</td>
+      <td>986.000000</td>
       <td>425.000000</td>
     </tr>
     <tr>
@@ -103,7 +103,7 @@
       <td>213.000000</td>
       <td>9815.000000</td>
       <td>2576.000000</td>
-      <td>5703.000000</td>
+      <td>5704.000000</td>
       <td>3055.000000</td>
     </tr>
   </tbody>
@@ -153,7 +153,7 @@
       <td>Frank Versnel</td>
       <td>47</td>
       <td>426</td>
-      <td>5703</td>
+      <td>5704</td>
       <td>425</td>
       <td>2024-07-30</td>
       <td>2010-02-16</td>
@@ -213,7 +213,7 @@
       <td>Elin Alexey</td>
       <td>69</td>
       <td>426</td>
-      <td>2567</td>
+      <td>2568</td>
       <td>425</td>
       <td>2024-07-30</td>
       <td>2018-09-18</td>
@@ -273,8 +273,8 @@
       <td>David Gómez G</td>
       <td>10</td>
       <td>426</td>
-      <td>478</td>
-      <td>478</td>
+      <td>479</td>
+      <td>479</td>
       <td>2024-07-30</td>
       <td>2024-06-07</td>
       <td>2024-06-07</td>
@@ -1350,8 +1350,8 @@ The following charts show how these metrics are distributed across pairs of file
       <td>java↔yml</td>
       <td>15</td>
       <td>2</td>
-      <td>AbstractDeadlineManagerTestSuite↔main</td>
-      <td>spring/src/test/java/org/axonframework/integrationtests/deadline/AbstractDeadlineManagerTestSuite.java↔.github/workflows/main.yml</td>
+      <td>JobRunrEventSchedulerTest↔main</td>
+      <td>messaging/src/test/java/org/axonframework/eventhandling/scheduling/jobrunr/JobRunrEventSchedulerTest.java↔.github/workflows/main.yml</td>
     </tr>
     <tr>
       <th>22</th>
@@ -1567,8 +1567,8 @@ This metric is useful to identify pairs of files that are frequently changed tog
       <td>java↔java</td>
       <td>0.833333</td>
       <td>6</td>
-      <td>AvroUtil↔ByteArrayToGenericRecordConverter</td>
-      <td>messaging/src/main/java/org/axonframework/serialization/avro/AvroUtil.java↔messaging/src/main/java/org/axonframework/serialization/avro/ByteArrayToGenericRecordConverter.java</td>
+      <td>AvroSerializerStrategy↔ByteArrayToGenericRecordConverter</td>
+      <td>messaging/src/main/java/org/axonframework/serialization/avro/AvroSerializerStrategy.java↔messaging/src/main/java/org/axonframework/serialization/avro/ByteArrayToGenericRecordConverter.java</td>
     </tr>
     <tr>
       <th>6</th>
@@ -1783,8 +1783,8 @@ This metric is useful to identify pairs of files that are frequently changed tog
       <td>adoc↔xml</td>
       <td>0.333333</td>
       <td>3</td>
-      <td>configuration↔pom</td>
-      <td>docs/old-reference-guide/modules/queries/pages/configuration.adoc↔axon-server-connector/pom.xml</td>
+      <td>nav↔pom</td>
+      <td>docs/old-reference-guide/modules/queries/partials/nav.adoc↔axon-server-connector/pom.xml</td>
     </tr>
     <tr>
       <th>33</th>
@@ -1957,8 +1957,8 @@ This metric is useful to identify pairs of files that are frequently changed tog
       <td>java↔xml</td>
       <td>86.726190</td>
       <td>1</td>
-      <td>TokenAddingInterceptor↔logback</td>
-      <td>axon-server-connector/src/main/java/org/axonframework/axonserver/connector/util/TokenAddingInterceptor.java↔axon-server-connector/src/test/resources/logback.xml</td>
+      <td>ContextAddingInterceptor↔logback</td>
+      <td>axon-server-connector/src/main/java/org/axonframework/axonserver/connector/util/ContextAddingInterceptor.java↔axon-server-connector/src/test/resources/logback.xml</td>
     </tr>
     <tr>
       <th>11</th>
@@ -2141,8 +2141,8 @@ This metric is useful to identify pairs of files that are frequently changed tog
       <td>adoc↔xml</td>
       <td>15.059432</td>
       <td>4</td>
-      <td>nav↔pom</td>
-      <td>docs/old-reference-guide/modules/queries/partials/nav.adoc↔hibernate-6-integrationtests/pom.xml</td>
+      <td>configuration↔pom</td>
+      <td>docs/old-reference-guide/modules/queries/pages/configuration.adoc↔hibernate-6-integrationtests/pom.xml</td>
     </tr>
     <tr>
       <th>34</th>
@@ -2181,8 +2181,8 @@ This metric is useful to identify pairs of files that are frequently changed tog
       <td>adoc↔xml</td>
       <td>13.038031</td>
       <td>9</td>
-      <td>nav↔pom</td>
-      <td>docs/old-reference-guide/modules/queries/partials/nav.adoc↔coverage-report/pom.xml</td>
+      <td>configuration↔pom</td>
+      <td>docs/old-reference-guide/modules/queries/pages/configuration.adoc↔coverage-report/pom.xml</td>
     </tr>
     <tr>
       <th>39</th>
@@ -2315,8 +2315,8 @@ This metric is useful to identify pairs of files that are frequently changed tog
       <td>java↔xml</td>
       <td>0.156250</td>
       <td>2</td>
-      <td>TokenAddingInterceptor↔logback</td>
-      <td>axon-server-connector/src/main/java/org/axonframework/axonserver/connector/util/TokenAddingInterceptor.java↔axon-server-connector/src/test/resources/logback.xml</td>
+      <td>ContextAddingInterceptor↔logback</td>
+      <td>axon-server-connector/src/main/java/org/axonframework/axonserver/connector/util/ContextAddingInterceptor.java↔axon-server-connector/src/test/resources/logback.xml</td>
     </tr>
     <tr>
       <th>12</th>
@@ -2763,21 +2763,6 @@ This is useful to identify pairs of files that score high in most metrics, which
     <tr>
       <th>12</th>
       <td>java↔java</td>
-      <td>AvroSchemaPackages↔ClasspathAvroSchemaLoader</td>
-      <td>83</td>
-      <td>80</td>
-      <td>1</td>
-      <td>1</td>
-      <td>1</td>
-      <td>3</td>
-      <td>1.000000</td>
-      <td>1.000000</td>
-      <td>1942.666667</td>
-      <td>spring/src/main/java/org/axonframework/spring/serialization/avro/AvroSchemaPackages.java↔spring/src/main/java/org/axonframework/spring/serialization/avro/ClasspathAvroSchemaLoader.java</td>
-    </tr>
-    <tr>
-      <th>13</th>
-      <td>java↔java</td>
       <td>AvroSchemaScan↔ClasspathAvroSchemaLoader</td>
       <td>83</td>
       <td>80</td>
@@ -2789,6 +2774,21 @@ This is useful to identify pairs of files that score high in most metrics, which
       <td>1.000000</td>
       <td>1942.666667</td>
       <td>spring/src/main/java/org/axonframework/spring/serialization/avro/AvroSchemaScan.java↔spring/src/main/java/org/axonframework/spring/serialization/avro/ClasspathAvroSchemaLoader.java</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>java↔java</td>
+      <td>AvroSchemaPackages↔ClasspathAvroSchemaLoader</td>
+      <td>83</td>
+      <td>80</td>
+      <td>1</td>
+      <td>1</td>
+      <td>1</td>
+      <td>3</td>
+      <td>1.000000</td>
+      <td>1.000000</td>
+      <td>1942.666667</td>
+      <td>spring/src/main/java/org/axonframework/spring/serialization/avro/AvroSchemaPackages.java↔spring/src/main/java/org/axonframework/spring/serialization/avro/ClasspathAvroSchemaLoader.java</td>
     </tr>
     <tr>
       <th>14</th>
@@ -2958,21 +2958,6 @@ This is useful to identify pairs of files that score high in most metrics, which
     <tr>
       <th>25</th>
       <td>java↔xml</td>
-      <td>TokenAddingInterceptor↔logback</td>
-      <td>74</td>
-      <td>43</td>
-      <td>28</td>
-      <td>2</td>
-      <td>1</td>
-      <td>5</td>
-      <td>0.312500</td>
-      <td>0.156250</td>
-      <td>86.726190</td>
-      <td>axon-server-connector/src/main/java/org/axonframework/axonserver/connector/util/TokenAddingInterceptor.java↔axon-server-connector/src/test/resources/logback.xml</td>
-    </tr>
-    <tr>
-      <th>26</th>
-      <td>java↔xml</td>
       <td>ContextAddingInterceptor↔logback</td>
       <td>74</td>
       <td>43</td>
@@ -2984,6 +2969,21 @@ This is useful to identify pairs of files that score high in most metrics, which
       <td>0.156250</td>
       <td>86.726190</td>
       <td>axon-server-connector/src/main/java/org/axonframework/axonserver/connector/util/ContextAddingInterceptor.java↔axon-server-connector/src/test/resources/logback.xml</td>
+    </tr>
+    <tr>
+      <th>26</th>
+      <td>java↔xml</td>
+      <td>TokenAddingInterceptor↔logback</td>
+      <td>74</td>
+      <td>43</td>
+      <td>28</td>
+      <td>2</td>
+      <td>1</td>
+      <td>5</td>
+      <td>0.312500</td>
+      <td>0.156250</td>
+      <td>86.726190</td>
+      <td>axon-server-connector/src/main/java/org/axonframework/axonserver/connector/util/TokenAddingInterceptor.java↔axon-server-connector/src/test/resources/logback.xml</td>
     </tr>
     <tr>
       <th>27</th>
@@ -3271,20 +3271,6 @@ The frontier = the “best tradeoffs.”
     </tr>
     <tr>
       <th>4</th>
-      <td>AvroSchemaPackages↔ClasspathAvroSchemaLoader</td>
-      <td>83</td>
-      <td>3</td>
-      <td>1.000000</td>
-      <td>1.000000</td>
-      <td>1942.666667</td>
-      <td>80</td>
-      <td>1</td>
-      <td>1</td>
-      <td>1</td>
-      <td>spring/src/main/java/org/axonframework/spring/serialization/avro/AvroSchemaPackages.java↔spring/src/main/java/org/axonframework/spring/serialization/avro/ClasspathAvroSchemaLoader.java</td>
-    </tr>
-    <tr>
-      <th>5</th>
       <td>AvroSchemaScan↔ClasspathAvroSchemaLoader</td>
       <td>83</td>
       <td>3</td>
@@ -3296,6 +3282,20 @@ The frontier = the “best tradeoffs.”
       <td>1</td>
       <td>1</td>
       <td>spring/src/main/java/org/axonframework/spring/serialization/avro/AvroSchemaScan.java↔spring/src/main/java/org/axonframework/spring/serialization/avro/ClasspathAvroSchemaLoader.java</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>AvroSchemaPackages↔ClasspathAvroSchemaLoader</td>
+      <td>83</td>
+      <td>3</td>
+      <td>1.000000</td>
+      <td>1.000000</td>
+      <td>1942.666667</td>
+      <td>80</td>
+      <td>1</td>
+      <td>1</td>
+      <td>1</td>
+      <td>spring/src/main/java/org/axonframework/spring/serialization/avro/AvroSchemaPackages.java↔spring/src/main/java/org/axonframework/spring/serialization/avro/ClasspathAvroSchemaLoader.java</td>
     </tr>
     <tr>
       <th>6</th>

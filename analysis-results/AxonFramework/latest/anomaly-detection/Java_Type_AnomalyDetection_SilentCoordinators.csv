@@ -1,7 +1,7 @@
 "codeUnitName","shortCodeUnitName","projectName","betweenness","degree","incomingDependencies","outgoingDependencies","Source Cypher File: /home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/domains/anomaly-detection/queries/AnomalyDetectionSilentCoordinators.cypher"
 "org.axonframework.eventhandling.AnnotationEventHandlerAdapter","AnnotationEventHandlerAdapter","axon-messaging-4.12.1",383,14,1,13,""
 "org.axonframework.eventsourcing.conflictresolution.ConflictResolution","ConflictResolution","axon-eventsourcing-4.12.1",307.05,10,1,9,""
-"org.axonframework.axonserver.connector.event.axon.EventBuffer","EventBuffer","axon-server-connector-4.12.1",305.75,15,1,14,""
+"org.axonframework.axonserver.connector.event.axon.EventBuffer","EventBuffer","axon-server-connector-4.12.1",305.74999999999994,15,1,14,""
 "org.axonframework.eventsourcing.conflictresolution.NoConflictResolver","NoConflictResolver","axon-eventsourcing-4.12.1",260.5,5,1,4,""
 "org.axonframework.axonserver.connector.processor.StreamingEventProcessorInfoMessage","StreamingEventProcessorInfoMessage","axon-server-connector-4.12.1",238.06666666666666,7,1,6,""
 "org.axonframework.serialization.GapAwareTrackingTokenConverter","GapAwareTrackingTokenConverter","axon-messaging-4.12.1",211.83333333333334,3,1,2,""
