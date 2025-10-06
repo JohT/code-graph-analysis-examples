@@ -929,8 +929,8 @@ Only the top 40 entries are shown. The whole table can be found in the following
       <td>0.777778</td>
       <td>16</td>
       <td>2</td>
-      <td>[AbstractSnapshotter$CreateSnapshotTask-&gt;EventStore, AbstractSnapshotter$CreateSnapshotTask-&gt;DomainEventStream, AggregateCacheEntry-&gt;EventStore, EventSourcingRepository$Builder-&gt;EventStore, AbstractSnapshotter$Builder-&gt;EventStore, EventSourcedAggregate-&gt;DomainEventStream, CachingEventSourcingRep...</td>
-      <td>[DomainEventStream-&gt;EventStreamUtils, AbstractEventStorageEngine-&gt;EventStreamUtils]</td>
+      <td>[EventStreamUtils-&gt;DomainEventStream, AggregateSnapshotter-&gt;DomainEventStream, CachingEventSourcingRepository-&gt;EventStore, FilteringEventStorageEngine-&gt;DomainEventStream, FilteringEventStorageEngine-&gt;EventStorageEngine, AbstractSnapshotter-&gt;EventStore, AbstractSnapshotter-&gt;DomainEventStream, Agg...</td>
+      <td>[AbstractEventStorageEngine-&gt;EventStreamUtils, DomainEventStream-&gt;EventStreamUtils]</td>
     </tr>
     <tr>
       <th>8</th>
@@ -1073,8 +1073,8 @@ Only the top 40 entries are shown. The whole table can be found in the following
       <td>0.317073</td>
       <td>27</td>
       <td>14</td>
-      <td>[JdbcEventStorageEngine-&gt;CreateHeadTokenStatementBuilder, JdbcEventStorageEngine-&gt;CreateTailTokenStatementBuilder, JdbcEventStorageEngine-&gt;LastSequenceNumberForStatementBuilder, JdbcEventStorageEngine-&gt;ReadSnapshotDataStatementBuilder, JdbcEventStorageEngine-&gt;AppendEventsStatementBuilder, JdbcEv...</td>
-      <td>[DeleteSnapshotsStatementBuilder-&gt;EventSchema, ReadEventDataWithGapsStatementBuilder-&gt;EventSchema, ReadEventDataWithoutGapsStatementBuilder-&gt;EventSchema, ReadSnapshotDataStatementBuilder-&gt;EventSchema, CreateHeadTokenStatementBuilder-&gt;EventSchema, CreateTokenAtStatementBuilder-&gt;EventSchema, Appen...</td>
+      <td>[JdbcEventStorageEngine$Builder-&gt;AppendSnapshotStatementBuilder, JdbcEventStorageEngine$Builder-&gt;DeleteSnapshotsStatementBuilder, JdbcEventStorageEngine$Builder-&gt;ReadEventDataWithoutGapsStatementBuilder, JdbcEventStorageEngine$Builder-&gt;LastSequenceNumberForStatementBuilder, JdbcEventStorageEngin...</td>
+      <td>[ReadEventDataWithoutGapsStatementBuilder-&gt;EventSchema, CleanGapsStatementBuilder-&gt;EventSchema, CreateTokenAtStatementBuilder-&gt;EventSchema, AppendSnapshotStatementBuilder-&gt;EventSchema, ReadEventDataWithGapsStatementBuilder-&gt;EventSchema, JdbcEventStorageEngineStatements-&gt;EventSchema, AppendEvents...</td>
     </tr>
     <tr>
       <th>20</th>
@@ -1795,7 +1795,7 @@ Only the top 40 entries are shown. The whole table can be found in the following
       <td>org.axonframework.eventsourcing</td>
       <td>axon-eventsourcing-4.12.1</td>
       <td>org.axonframework.eventsourcing.eventstore</td>
-      <td>EventStreamUtils&lt;-AbstractEventStorageEngine</td>
+      <td>EventStreamUtils&lt;-DomainEventStream</td>
       <td>0.777778</td>
       <td>16</td>
       <td>2</td>
@@ -1806,7 +1806,7 @@ Only the top 40 entries are shown. The whole table can be found in the following
       <td>org.axonframework.eventsourcing</td>
       <td>axon-eventsourcing-4.12.1</td>
       <td>org.axonframework.eventsourcing.eventstore</td>
-      <td>EventStreamUtils&lt;-DomainEventStream</td>
+      <td>EventStreamUtils&lt;-AbstractEventStorageEngine</td>
       <td>0.777778</td>
       <td>16</td>
       <td>2</td>
@@ -2595,7 +2595,7 @@ This table shows the top 40 packages that are used by the highest number of diff
       <th>11</th>
       <td>org.axonframework.messaging.unitofwork.CurrentUnitOfWork</td>
       <td>CurrentUnitOfWork</td>
-      <td>[Type, File, Java, ByteCode, Class, Mark4TopCentralityBetweenness, Mark4TopCentralityHarmonic, Mark4TopCentralityCloseness, Mark4TypeWeaklyConnectedComponent0, Mark4TypeLabelPropagation0, Mark4TypeLouvainCommunity5, Mark4TypeLeidenCommunity4, Mark4TypeKCoreDecomposition10, Mark4TypeMaximumKCut73...</td>
+      <td>[Type, File, Java, ByteCode, Class, Mark4TopCentralityBetweenness, Mark4TopCentralityHarmonic, Mark4TopCentralityCloseness, Mark4TypeWeaklyConnectedComponent0, Mark4TypeLabelPropagation0, Mark4TypeLouvainCommunity4, Mark4TypeLeidenCommunity9, Mark4TypeKCoreDecomposition10, Mark4TypeMaximumKCut87...</td>
       <td>22</td>
     </tr>
     <tr>
@@ -2616,14 +2616,14 @@ This table shows the top 40 packages that are used by the highest number of diff
       <th>14</th>
       <td>org.axonframework.lifecycle.Lifecycle</td>
       <td>Lifecycle</td>
-      <td>[Type, File, Java, ByteCode, Interface, Mark4TypeWeaklyConnectedComponent0, Mark4TypeLabelPropagation0, Mark4TypeLouvainCommunity1, Mark4TypeLeidenCommunity0, Mark4TypeKCoreDecomposition10, Mark4TypeMaximumKCut62, Mark4TypeHDBSCAN148]</td>
+      <td>[Type, File, Java, ByteCode, Interface, Mark4TypeWeaklyConnectedComponent0, Mark4TypeLabelPropagation0, Mark4TypeLouvainCommunity0, Mark4TypeLeidenCommunity0, Mark4TypeKCoreDecomposition10, Mark4TypeMaximumKCut48, Mark4TypeHDBSCAN120]</td>
       <td>21</td>
     </tr>
     <tr>
       <th>15</th>
       <td>org.axonframework.lifecycle.Lifecycle$LifecycleRegistry</td>
       <td>Lifecycle$LifecycleRegistry</td>
-      <td>[Type, File, Java, ByteCode, Interface, Mark4TypeWeaklyConnectedComponent0, Mark4TypeLabelPropagation0, Mark4TypeLouvainCommunity1, Mark4TypeLeidenCommunity0, Mark4TypeKCoreDecomposition10, Mark4TypeMaximumKCut27, Mark4TypeHDBSCAN148]</td>
+      <td>[Type, File, Java, ByteCode, Interface, Mark4TypeWeaklyConnectedComponent0, Mark4TypeLabelPropagation0, Mark4TypeLouvainCommunity0, Mark4TypeLeidenCommunity0, Mark4TypeKCoreDecomposition10, Mark4TypeMaximumKCut72, Mark4TypeHDBSCAN120]</td>
       <td>21</td>
     </tr>
     <tr>
@@ -2637,7 +2637,7 @@ This table shows the top 40 packages that are used by the highest number of diff
       <th>17</th>
       <td>org.axonframework.common.ObjectUtils</td>
       <td>ObjectUtils</td>
-      <td>[Type, File, Java, ByteCode, Class, Mark4TypeWeaklyConnectedComponent0, Mark4TypeLabelPropagation0, Mark4TypeLouvainCommunity10, Mark4TypeLeidenCommunity11, Mark4TypeKCoreDecomposition10, Mark4TypeMaximumKCut19, Mark4TypeHDBSCAN-1]</td>
+      <td>[Type, File, Java, ByteCode, Class, Mark4TypeWeaklyConnectedComponent0, Mark4TypeLabelPropagation0, Mark4TypeLouvainCommunity11, Mark4TypeLeidenCommunity10, Mark4TypeKCoreDecomposition10, Mark4TypeMaximumKCut55, Mark4TypeHDBSCAN-1]</td>
       <td>20</td>
     </tr>
     <tr>
@@ -2665,28 +2665,28 @@ This table shows the top 40 packages that are used by the highest number of diff
       <th>21</th>
       <td>org.axonframework.messaging.annotation.ParameterResolverFactory</td>
       <td>ParameterResolverFactory</td>
-      <td>[Type, File, Java, ByteCode, Interface, Mark4TopCentralityHyperlinkInducedTopicSearchAuthority, Mark4TopCentralityHyperlinkInducedTopicSearchHub, Mark4TypeWeaklyConnectedComponent0, Mark4TypeLabelPropagation0, Mark4TypeLouvainCommunity6, Mark4TypeLeidenCommunity6, Mark4TypeKCoreDecomposition10, ...</td>
+      <td>[Type, File, Java, ByteCode, Interface, Mark4TopCentralityHyperlinkInducedTopicSearchAuthority, Mark4TopCentralityHyperlinkInducedTopicSearchHub, Mark4TypeWeaklyConnectedComponent0, Mark4TypeLabelPropagation0, Mark4TypeLouvainCommunity7, Mark4TypeLeidenCommunity5, Mark4TypeKCoreDecomposition10, ...</td>
       <td>19</td>
     </tr>
     <tr>
       <th>22</th>
       <td>org.axonframework.serialization.SimpleSerializedObject</td>
       <td>SimpleSerializedObject</td>
-      <td>[Type, File, Java, ByteCode, GenericDeclaration, Class, Mark4TopCentralityHarmonic, Mark4TopCentralityCloseness, Mark4TypeWeaklyConnectedComponent0, Mark4TypeLabelPropagation0, Mark4TypeLouvainCommunity11, Mark4TypeLeidenCommunity7, Mark4TypeKCoreDecomposition10, Mark4TypeMaximumKCut71, Mark4Typ...</td>
+      <td>[Type, File, Java, ByteCode, GenericDeclaration, Class, Mark4TopCentralityHarmonic, Mark4TopCentralityCloseness, Mark4TypeWeaklyConnectedComponent0, Mark4TypeLabelPropagation0, Mark4TypeLouvainCommunity12, Mark4TypeLeidenCommunity6, Mark4TypeKCoreDecomposition10, Mark4TypeMaximumKCut2, Mark4Type...</td>
       <td>19</td>
     </tr>
     <tr>
       <th>23</th>
       <td>org.axonframework.common.AxonNonTransientException</td>
       <td>AxonNonTransientException</td>
-      <td>[Type, File, Java, ByteCode, Class, Mark4TopCentralityPageRank, Mark4TopCentralityArticleRank, Mark4TopCentralityHarmonic, Mark4TopCentralityCloseness, Mark4TypeWeaklyConnectedComponent0, Mark4TypeLabelPropagation0, Mark4TypeLouvainCommunity6, Mark4TypeLeidenCommunity5, Mark4TypeKCoreDecompositi...</td>
+      <td>[Type, File, Java, ByteCode, Class, Mark4TopCentralityPageRank, Mark4TopCentralityArticleRank, Mark4TopCentralityHarmonic, Mark4TopCentralityCloseness, Mark4TypeWeaklyConnectedComponent0, Mark4TypeLabelPropagation0, Mark4TypeLouvainCommunity5, Mark4TypeLeidenCommunity4, Mark4TypeKCoreDecompositi...</td>
       <td>18</td>
     </tr>
     <tr>
       <th>24</th>
       <td>org.axonframework.eventhandling.GenericEventMessage</td>
       <td>GenericEventMessage</td>
-      <td>[Type, File, Java, ByteCode, GenericDeclaration, Class, Mark4TopCentralityHyperlinkInducedTopicSearchAuthority, Mark4TopCentralityHyperlinkInducedTopicSearchHub, Mark4TypeWeaklyConnectedComponent0, Mark4TypeLabelPropagation0, Mark4TypeLouvainCommunity11, Mark4TypeLeidenCommunity7, Mark4TypeKCore...</td>
+      <td>[Type, File, Java, ByteCode, GenericDeclaration, Class, Mark4TopCentralityHyperlinkInducedTopicSearchAuthority, Mark4TopCentralityHyperlinkInducedTopicSearchHub, Mark4TypeWeaklyConnectedComponent0, Mark4TypeLabelPropagation0, Mark4TypeLouvainCommunity12, Mark4TypeLeidenCommunity6, Mark4TypeKCore...</td>
       <td>18</td>
     </tr>
     <tr>
@@ -2700,28 +2700,28 @@ This table shows the top 40 packages that are used by the highest number of diff
       <th>26</th>
       <td>org.axonframework.tracing.NoOpSpanFactory</td>
       <td>NoOpSpanFactory</td>
-      <td>[Type, File, Java, ByteCode, Class, Mark4TypeWeaklyConnectedComponent0, Mark4TypeLabelPropagation0, Mark4TypeLouvainCommunity4, Mark4TypeLeidenCommunity3, Mark4TypeKCoreDecomposition10, Mark4TypeMaximumKCut51, Mark4TypeHDBSCAN-1]</td>
+      <td>[Type, File, Java, ByteCode, Class, Mark4TypeWeaklyConnectedComponent0, Mark4TypeLabelPropagation0, Mark4TypeLouvainCommunity4, Mark4TypeLeidenCommunity3, Mark4TypeKCoreDecomposition10, Mark4TypeMaximumKCut1, Mark4TypeHDBSCAN-1]</td>
       <td>17</td>
     </tr>
     <tr>
       <th>27</th>
       <td>org.axonframework.eventhandling.EventBus</td>
       <td>EventBus</td>
-      <td>[Type, File, Java, ByteCode, Interface, Mark4TopCentralityHyperlinkInducedTopicSearchAuthority, Mark4TopCentralityHyperlinkInducedTopicSearchHub, Mark4TypeWeaklyConnectedComponent0, Mark4TypeLabelPropagation0, Mark4TypeLouvainCommunity5, Mark4TypeLeidenCommunity5, Mark4TypeKCoreDecomposition10, ...</td>
+      <td>[Type, File, Java, ByteCode, Interface, Mark4TopCentralityHyperlinkInducedTopicSearchAuthority, Mark4TopCentralityHyperlinkInducedTopicSearchHub, Mark4TypeWeaklyConnectedComponent0, Mark4TypeLabelPropagation0, Mark4TypeLouvainCommunity5, Mark4TypeLeidenCommunity4, Mark4TypeKCoreDecomposition10, ...</td>
       <td>15</td>
     </tr>
     <tr>
       <th>28</th>
       <td>org.axonframework.messaging.annotation.HandlerDefinition</td>
       <td>HandlerDefinition</td>
-      <td>[Type, File, Java, ByteCode, Interface, Mark4TopCentralityHyperlinkInducedTopicSearchAuthority, Mark4TopCentralityHyperlinkInducedTopicSearchHub, Mark4TypeWeaklyConnectedComponent0, Mark4TypeLabelPropagation0, Mark4TypeLouvainCommunity6, Mark4TypeLeidenCommunity6, Mark4TypeKCoreDecomposition10, ...</td>
+      <td>[Type, File, Java, ByteCode, Interface, Mark4TopCentralityHyperlinkInducedTopicSearchAuthority, Mark4TopCentralityHyperlinkInducedTopicSearchHub, Mark4TypeWeaklyConnectedComponent0, Mark4TypeLabelPropagation0, Mark4TypeLouvainCommunity7, Mark4TypeLeidenCommunity5, Mark4TypeKCoreDecomposition10, ...</td>
       <td>15</td>
     </tr>
     <tr>
       <th>29</th>
       <td>org.axonframework.common.transaction.NoTransactionManager</td>
       <td>NoTransactionManager</td>
-      <td>[Type, File, Java, ByteCode, Enum, Mark4TypeWeaklyConnectedComponent0, Mark4TypeLabelPropagation0, Mark4TypeLouvainCommunity0, Mark4TypeLeidenCommunity11, Mark4TypeKCoreDecomposition10, Mark4TypeMaximumKCut71, Mark4TypeLocalClusteringCoefficient0.14285714285714285, Mark4TypeHDBSCAN75]</td>
+      <td>[Type, File, Java, ByteCode, Enum, Mark4TypeWeaklyConnectedComponent0, Mark4TypeLabelPropagation0, Mark4TypeLouvainCommunity0, Mark4TypeLeidenCommunity10, Mark4TypeKCoreDecomposition10, Mark4TypeMaximumKCut64, Mark4TypeLocalClusteringCoefficient0.14285714285714285, Mark4TypeHDBSCAN89]</td>
       <td>15</td>
     </tr>
     <tr>
@@ -2742,56 +2742,56 @@ This table shows the top 40 packages that are used by the highest number of diff
       <th>32</th>
       <td>org.axonframework.messaging.unitofwork.DefaultUnitOfWork</td>
       <td>DefaultUnitOfWork</td>
-      <td>[Type, File, Java, ByteCode, GenericDeclaration, Class, Mark4TypeWeaklyConnectedComponent0, Mark4TypeLabelPropagation0, Mark4TypeLouvainCommunity5, Mark4TypeLeidenCommunity4, Mark4TypeKCoreDecomposition10, Mark4TypeMaximumKCut1, Mark4TypeHDBSCAN150]</td>
+      <td>[Type, File, Java, ByteCode, GenericDeclaration, Class, Mark4TypeWeaklyConnectedComponent0, Mark4TypeLabelPropagation0, Mark4TypeLouvainCommunity4, Mark4TypeLeidenCommunity9, Mark4TypeKCoreDecomposition10, Mark4TypeMaximumKCut31, Mark4TypeHDBSCAN-1]</td>
       <td>14</td>
     </tr>
     <tr>
       <th>33</th>
       <td>org.axonframework.common.ReflectionUtils</td>
       <td>ReflectionUtils</td>
-      <td>[Type, File, Java, ByteCode, Class, Mark4TypeWeaklyConnectedComponent0, Mark4TypeLabelPropagation0, Mark4TypeLouvainCommunity6, Mark4TypeLeidenCommunity6, Mark4TypeKCoreDecomposition7, Mark4TypeMaximumKCut46, Mark4TypeHDBSCAN19]</td>
+      <td>[Type, File, Java, ByteCode, Class, Mark4TypeWeaklyConnectedComponent0, Mark4TypeLabelPropagation0, Mark4TypeLouvainCommunity7, Mark4TypeLeidenCommunity5, Mark4TypeKCoreDecomposition7, Mark4TypeMaximumKCut1, Mark4TypeHDBSCAN21]</td>
       <td>14</td>
     </tr>
     <tr>
       <th>34</th>
       <td>org.axonframework.messaging.InterceptorChain</td>
       <td>InterceptorChain</td>
-      <td>[Type, File, Java, ByteCode, Interface, Mark4TypeWeaklyConnectedComponent0, Mark4TypeLabelPropagation0, Mark4TypeLouvainCommunity5, Mark4TypeLeidenCommunity4, Mark4TypeKCoreDecomposition10, Mark4TypeMaximumKCut49, Mark4TypeLocalClusteringCoefficient0.1038961038961039, Mark4TypeHDBSCAN-1]</td>
+      <td>[Type, File, Java, ByteCode, Interface, Mark4TypeWeaklyConnectedComponent0, Mark4TypeLabelPropagation0, Mark4TypeLouvainCommunity4, Mark4TypeLeidenCommunity9, Mark4TypeKCoreDecomposition10, Mark4TypeMaximumKCut1, Mark4TypeLocalClusteringCoefficient0.1038961038961039, Mark4TypeHDBSCAN-1]</td>
       <td>13</td>
     </tr>
     <tr>
       <th>35</th>
       <td>org.axonframework.eventhandling.TrackedEventMessage</td>
       <td>TrackedEventMessage</td>
-      <td>[Type, File, Java, ByteCode, GenericDeclaration, Interface, Mark4TopCentralityArticleRank, Mark4TopCentralityHyperlinkInducedTopicSearchAuthority, Mark4TopCentralityHyperlinkInducedTopicSearchHub, Mark4TypeWeaklyConnectedComponent0, Mark4TypeLabelPropagation0, Mark4TypeLouvainCommunity7, Mark4Ty...</td>
+      <td>[Type, File, Java, ByteCode, GenericDeclaration, Interface, Mark4TopCentralityArticleRank, Mark4TopCentralityHyperlinkInducedTopicSearchAuthority, Mark4TopCentralityHyperlinkInducedTopicSearchHub, Mark4TypeWeaklyConnectedComponent0, Mark4TypeLabelPropagation0, Mark4TypeLouvainCommunity8, Mark4Ty...</td>
       <td>13</td>
     </tr>
     <tr>
       <th>36</th>
       <td>org.axonframework.common.AxonException</td>
       <td>AxonException</td>
-      <td>[Type, File, Java, ByteCode, Class, Mark4TopCentralityPageRank, Mark4TopCentralityArticleRank, Mark4TopCentralityHarmonic, Mark4TopCentralityCloseness, Mark4TypeWeaklyConnectedComponent0, Mark4TypeLabelPropagation27, Mark4TypeLouvainCommunity21, Mark4TypeLeidenCommunity18, Mark4TypeKCoreDecompos...</td>
+      <td>[Type, File, Java, ByteCode, Class, Mark4TopCentralityPageRank, Mark4TopCentralityArticleRank, Mark4TopCentralityHarmonic, Mark4TopCentralityCloseness, Mark4TypeWeaklyConnectedComponent0, Mark4TypeLabelPropagation27, Mark4TypeLouvainCommunity20, Mark4TypeLeidenCommunity16, Mark4TypeKCoreDecompos...</td>
       <td>12</td>
     </tr>
     <tr>
       <th>37</th>
       <td>org.axonframework.common.DateTimeUtils</td>
       <td>DateTimeUtils</td>
-      <td>[Type, File, Java, ByteCode, Class, Mark4TypeWeaklyConnectedComponent0, Mark4TypeLabelPropagation0, Mark4TypeLouvainCommunity10, Mark4TypeLeidenCommunity11, Mark4TypeKCoreDecomposition8, Mark4TypeMaximumKCut24, Mark4TypeHDBSCAN33]</td>
+      <td>[Type, File, Java, ByteCode, Class, Mark4TypeWeaklyConnectedComponent0, Mark4TypeLabelPropagation0, Mark4TypeLouvainCommunity11, Mark4TypeLeidenCommunity10, Mark4TypeKCoreDecomposition8, Mark4TypeMaximumKCut18, Mark4TypeHDBSCAN57]</td>
       <td>12</td>
     </tr>
     <tr>
       <th>38</th>
       <td>org.axonframework.messaging.DefaultInterceptorChain</td>
       <td>DefaultInterceptorChain</td>
-      <td>[Type, File, Java, ByteCode, GenericDeclaration, Class, Mark4TypeWeaklyConnectedComponent0, Mark4TypeLabelPropagation0, Mark4TypeLouvainCommunity3, Mark4TypeLeidenCommunity7, Mark4TypeKCoreDecomposition10, Mark4TypeMaximumKCut86, Mark4TypeLocalClusteringCoefficient0.25, Mark4TypeHDBSCAN142]</td>
+      <td>[Type, File, Java, ByteCode, GenericDeclaration, Class, Mark4TypeWeaklyConnectedComponent0, Mark4TypeLabelPropagation0, Mark4TypeLouvainCommunity3, Mark4TypeLeidenCommunity6, Mark4TypeKCoreDecomposition10, Mark4TypeMaximumKCut32, Mark4TypeLocalClusteringCoefficient0.25, Mark4TypeHDBSCAN171]</td>
       <td>12</td>
     </tr>
     <tr>
       <th>39</th>
       <td>org.axonframework.eventhandling.GenericDomainEventMessage</td>
       <td>GenericDomainEventMessage</td>
-      <td>[Type, File, Java, ByteCode, GenericDeclaration, Class, Mark4TypeWeaklyConnectedComponent0, Mark4TypeLabelPropagation0, Mark4TypeLouvainCommunity11, Mark4TypeLeidenCommunity7, Mark4TypeKCoreDecomposition10, Mark4TypeMaximumKCut38, Mark4TypeLocalClusteringCoefficient0.2727272727272727, Mark4TypeH...</td>
+      <td>[Type, File, Java, ByteCode, GenericDeclaration, Class, Mark4TypeWeaklyConnectedComponent0, Mark4TypeLabelPropagation0, Mark4TypeLouvainCommunity12, Mark4TypeLeidenCommunity6, Mark4TypeKCoreDecomposition10, Mark4TypeMaximumKCut52, Mark4TypeLocalClusteringCoefficient0.2727272727272727, Mark4TypeH...</td>
       <td>12</td>
     </tr>
   </tbody>
@@ -2900,8 +2900,8 @@ The whole table can be found in the CSV report `ArtifactPackageUsage`.
       <td>2</td>
       <td>9</td>
       <td>0.222222</td>
-      <td>[org.axonframework.eventsourcing.eventstore, org.axonframework.eventsourcing]</td>
-      <td>[eventstore, eventsourcing]</td>
+      <td>[org.axonframework.eventsourcing, org.axonframework.eventsourcing.eventstore]</td>
+      <td>[eventsourcing, eventstore]</td>
     </tr>
     <tr>
       <th>8</th>
@@ -2910,8 +2910,8 @@ The whole table can be found in the CSV report `ArtifactPackageUsage`.
       <td>2</td>
       <td>9</td>
       <td>0.222222</td>
-      <td>[org.axonframework.eventsourcing.eventstore, org.axonframework.eventsourcing]</td>
-      <td>[eventstore, eventsourcing]</td>
+      <td>[org.axonframework.eventsourcing, org.axonframework.eventsourcing.eventstore]</td>
+      <td>[eventsourcing, eventstore]</td>
     </tr>
     <tr>
       <th>9</th>
@@ -2930,8 +2930,8 @@ The whole table can be found in the CSV report `ArtifactPackageUsage`.
       <td>20</td>
       <td>70</td>
       <td>0.285714</td>
-      <td>[org.axonframework.eventhandling, org.axonframework.serialization, org.axonframework.common, org.axonframework.messaging.unitofwork, org.axonframework.commandhandling, org.axonframework.messaging, org.axonframework.messaging.annotation, org.axonframework.common.stream, org.axonframework.tracing,...</td>
-      <td>[eventhandling, serialization, common, unitofwork, commandhandling, messaging, annotation, stream, tracing, io, xml, event, monitoring, jdbc, lifecycle, lock, caching, transaction, legacyjpa, jpa]</td>
+      <td>[org.axonframework.serialization, org.axonframework.serialization.upcasting.event, org.axonframework.common.transaction, org.axonframework.common.jdbc, org.axonframework.common, org.axonframework.eventhandling, org.axonframework.common.lock, org.axonframework.common.caching, org.axonframework.me...</td>
+      <td>[serialization, event, transaction, jdbc, common, eventhandling, lock, caching, unitofwork, messaging, tracing, annotation, commandhandling, stream, io, legacyjpa, monitoring, jpa, xml, lifecycle]</td>
     </tr>
     <tr>
       <th>11</th>
@@ -2940,8 +2940,8 @@ The whole table can be found in the CSV report `ArtifactPackageUsage`.
       <td>3</td>
       <td>9</td>
       <td>0.333333</td>
-      <td>[org.axonframework.eventsourcing, org.axonframework.eventsourcing.snapshotting, org.axonframework.eventsourcing.eventstore]</td>
-      <td>[eventsourcing, snapshotting, eventstore]</td>
+      <td>[org.axonframework.eventsourcing.eventstore, org.axonframework.eventsourcing, org.axonframework.eventsourcing.snapshotting]</td>
+      <td>[eventstore, eventsourcing, snapshotting]</td>
     </tr>
     <tr>
       <th>12</th>
@@ -2951,7 +2951,7 @@ The whole table can be found in the CSV report `ArtifactPackageUsage`.
       <td>70</td>
       <td>0.357143</td>
       <td>[org.axonframework.lifecycle, org.axonframework.eventhandling.pooled, org.axonframework.eventhandling, org.axonframework.eventhandling.tokenstore, org.axonframework.common.transaction, org.axonframework.eventhandling.scheduling, org.axonframework.common, org.axonframework.eventhandling.schedulin...</td>
-      <td>[lifecycle, pooled, eventhandling, tokenstore, transaction, scheduling, common, java, xml, event, tracing, monitoring, serialization, unitofwork, messaging, jdbc, async, stream, queryhandling, inmemory, distributed, commandhandling, util, responsetypes, callbacks]</td>
+      <td>[lifecycle, pooled, eventhandling, tokenstore, transaction, scheduling, common, java, xml, event, tracing, serialization, unitofwork, messaging, jdbc, async, stream, monitoring, queryhandling, inmemory, distributed, commandhandling, util, responsetypes, callbacks]</td>
     </tr>
     <tr>
       <th>13</th>
@@ -2960,8 +2960,8 @@ The whole table can be found in the CSV report `ArtifactPackageUsage`.
       <td>4</td>
       <td>11</td>
       <td>0.363636</td>
-      <td>[org.axonframework.axonserver.connector, org.axonframework.axonserver.connector.query, org.axonframework.axonserver.connector.command, org.axonframework.axonserver.connector.event.axon]</td>
-      <td>[connector, query, command, axon]</td>
+      <td>[org.axonframework.axonserver.connector.query, org.axonframework.axonserver.connector.command, org.axonframework.axonserver.connector, org.axonframework.axonserver.connector.event.axon]</td>
+      <td>[query, command, connector, axon]</td>
     </tr>
     <tr>
       <th>14</th>
@@ -2970,8 +2970,8 @@ The whole table can be found in the CSV report `ArtifactPackageUsage`.
       <td>4</td>
       <td>9</td>
       <td>0.444444</td>
-      <td>[org.axonframework.eventsourcing.eventstore, org.axonframework.eventsourcing, org.axonframework.eventsourcing.snapshotting, org.axonframework.eventsourcing.eventstore.jpa]</td>
-      <td>[eventstore, eventsourcing, snapshotting, jpa]</td>
+      <td>[org.axonframework.eventsourcing.eventstore, org.axonframework.eventsourcing, org.axonframework.eventsourcing.eventstore.jpa, org.axonframework.eventsourcing.snapshotting]</td>
+      <td>[eventstore, eventsourcing, jpa, snapshotting]</td>
     </tr>
     <tr>
       <th>15</th>
@@ -3000,8 +3000,8 @@ The whole table can be found in the CSV report `ArtifactPackageUsage`.
       <td>5</td>
       <td>9</td>
       <td>0.555556</td>
-      <td>[org.axonframework.eventsourcing.eventstore.legacyjpa, org.axonframework.eventsourcing.eventstore, org.axonframework.eventsourcing.eventstore.jpa, org.axonframework.eventsourcing.eventstore.jdbc, org.axonframework.eventsourcing]</td>
-      <td>[legacyjpa, eventstore, jpa, jdbc, eventsourcing]</td>
+      <td>[org.axonframework.eventsourcing, org.axonframework.eventsourcing.eventstore.jdbc, org.axonframework.eventsourcing.eventstore, org.axonframework.eventsourcing.eventstore.jpa, org.axonframework.eventsourcing.eventstore.legacyjpa]</td>
+      <td>[eventsourcing, jdbc, eventstore, jpa, legacyjpa]</td>
     </tr>
     <tr>
       <th>18</th>
@@ -3020,8 +3020,8 @@ The whole table can be found in the CSV report `ArtifactPackageUsage`.
       <td>6</td>
       <td>10</td>
       <td>0.600000</td>
-      <td>[org.axonframework.modelling.saga.repository.legacyjpa, org.axonframework.modelling.saga.repository, org.axonframework.modelling.saga, org.axonframework.modelling.saga.repository.jdbc, org.axonframework.modelling.saga.repository.jpa, org.axonframework.modelling.command]</td>
-      <td>[legacyjpa, repository, saga, jdbc, jpa, command]</td>
+      <td>[org.axonframework.modelling.saga, org.axonframework.modelling.saga.repository.jdbc, org.axonframework.modelling.saga.repository.jpa, org.axonframework.modelling.saga.repository, org.axonframework.modelling.command, org.axonframework.modelling.saga.repository.legacyjpa]</td>
+      <td>[saga, jdbc, jpa, repository, command, legacyjpa]</td>
     </tr>
     <tr>
       <th>20</th>
@@ -3050,8 +3050,8 @@ The whole table can be found in the CSV report `ArtifactPackageUsage`.
       <td>44</td>
       <td>70</td>
       <td>0.628571</td>
-      <td>[org.axonframework.common.jpa, org.axonframework.messaging.deadletter, org.axonframework.eventhandling, org.axonframework.eventhandling.tokenstore.legacyjpa, org.axonframework.common.jdbc, org.axonframework.serialization, org.axonframework.eventhandling.tokenstore, org.axonframework.common.legac...</td>
-      <td>[jpa, deadletter, eventhandling, legacyjpa, jdbc, serialization, tokenstore, transaction, configuration, gateway, common, commandhandling, annotation, avro, json, jobrunr, pooled, tracing, lifecycle, queryhandling, attributes, deadline, correlation, dbscheduler, timeout, async, xml, event, updat...</td>
+      <td>[org.axonframework.updates.configuration, org.axonframework.commandhandling.gateway, org.axonframework.common, org.axonframework.common.jdbc, org.axonframework.commandhandling, org.axonframework.messaging.annotation, org.axonframework.eventhandling.tokenstore, org.axonframework.serialization.avr...</td>
+      <td>[configuration, gateway, common, jdbc, commandhandling, annotation, tokenstore, avro, transaction, json, jobrunr, pooled, eventhandling, tracing, deadletter, lifecycle, queryhandling, jpa, attributes, deadline, correlation, dbscheduler, timeout, async, xml, serialization, event, updates, interce...</td>
     </tr>
     <tr>
       <th>23</th>
@@ -3070,8 +3070,8 @@ The whole table can be found in the CSV report `ArtifactPackageUsage`.
       <td>7</td>
       <td>9</td>
       <td>0.777778</td>
-      <td>[org.axonframework.eventsourcing.eventstore, org.axonframework.eventsourcing.eventstore.jdbc, org.axonframework.eventsourcing.snapshotting, org.axonframework.eventsourcing, org.axonframework.eventsourcing.conflictresolution, org.axonframework.eventsourcing.eventstore.jpa, org.axonframework.event...</td>
-      <td>[eventstore, jdbc, snapshotting, eventsourcing, conflictresolution, jpa, statements]</td>
+      <td>[org.axonframework.eventsourcing.eventstore.jdbc.statements, org.axonframework.eventsourcing.eventstore, org.axonframework.eventsourcing.snapshotting, org.axonframework.eventsourcing.conflictresolution, org.axonframework.eventsourcing.eventstore.jpa, org.axonframework.eventsourcing.eventstore.jd...</td>
+      <td>[statements, eventstore, snapshotting, conflictresolution, jpa, jdbc, eventsourcing]</td>
     </tr>
     <tr>
       <th>25</th>
@@ -3090,8 +3090,8 @@ The whole table can be found in the CSV report `ArtifactPackageUsage`.
       <td>8</td>
       <td>9</td>
       <td>0.888889</td>
-      <td>[org.axonframework.springboot, org.axonframework.actuator, org.axonframework.springboot.util.legacyjpa, org.axonframework.springboot.autoconfig, org.axonframework.springboot.util, org.axonframework.actuator.axonserver, org.axonframework.springboot.util.jpa, org.axonframework.springboot.service.c...</td>
-      <td>[springboot, actuator, legacyjpa, autoconfig, util, axonserver, jpa, connection]</td>
+      <td>[org.axonframework.springboot, org.axonframework.actuator.axonserver, org.axonframework.springboot.util, org.axonframework.springboot.util.jpa, org.axonframework.springboot.service.connection, org.axonframework.actuator, org.axonframework.springboot.util.legacyjpa, org.axonframework.springboot.a...</td>
+      <td>[springboot, axonserver, util, jpa, connection, actuator, legacyjpa, autoconfig]</td>
     </tr>
     <tr>
       <th>27</th>
@@ -3154,28 +3154,6 @@ This table shows the top 30 types that only use a few (compared to all existing)
   <tbody>
     <tr>
       <th>0</th>
-      <td>axon-modelling-4.12.1</td>
-      <td>axon-messaging-4.12.1</td>
-      <td>org.axonframework.modelling.saga.metamodel</td>
-      <td>org.axonframework.eventhandling</td>
-      <td>1</td>
-      <td>100</td>
-      <td>0.010000</td>
-      <td>[org.axonframework.eventhandling.EventMessage]</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>axon-test-4.12.1</td>
-      <td>axon-messaging-4.12.1</td>
-      <td>org.axonframework.test.matchers</td>
-      <td>org.axonframework.eventhandling</td>
-      <td>1</td>
-      <td>100</td>
-      <td>0.010000</td>
-      <td>[org.axonframework.eventhandling.EventMessage]</td>
-    </tr>
-    <tr>
-      <th>2</th>
       <td>axon-spring-boot-autoconfigure-4.12.1</td>
       <td>axon-messaging-4.12.1</td>
       <td>org.axonframework.springboot.autoconfig.legacyjpa</td>
@@ -3186,7 +3164,18 @@ This table shows the top 30 types that only use a few (compared to all existing)
       <td>[org.axonframework.eventhandling.EventBus]</td>
     </tr>
     <tr>
-      <th>3</th>
+      <th>1</th>
+      <td>axon-server-connector-4.12.1</td>
+      <td>axon-messaging-4.12.1</td>
+      <td>org.axonframework.axonserver.connector</td>
+      <td>org.axonframework.eventhandling</td>
+      <td>1</td>
+      <td>100</td>
+      <td>0.010000</td>
+      <td>[org.axonframework.eventhandling.EventBusSpanFactory]</td>
+    </tr>
+    <tr>
+      <th>2</th>
       <td>axon-spring-boot-autoconfigure-4.12.1</td>
       <td>axon-messaging-4.12.1</td>
       <td>org.axonframework.springboot.util</td>
@@ -3197,15 +3186,26 @@ This table shows the top 30 types that only use a few (compared to all existing)
       <td>[org.axonframework.eventhandling.EventMessage]</td>
     </tr>
     <tr>
-      <th>4</th>
-      <td>axon-server-connector-4.12.1</td>
+      <th>3</th>
+      <td>axon-test-4.12.1</td>
       <td>axon-messaging-4.12.1</td>
-      <td>org.axonframework.axonserver.connector</td>
+      <td>org.axonframework.test.matchers</td>
       <td>org.axonframework.eventhandling</td>
       <td>1</td>
       <td>100</td>
       <td>0.010000</td>
-      <td>[org.axonframework.eventhandling.EventBusSpanFactory]</td>
+      <td>[org.axonframework.eventhandling.EventMessage]</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>axon-modelling-4.12.1</td>
+      <td>axon-messaging-4.12.1</td>
+      <td>org.axonframework.modelling.saga.metamodel</td>
+      <td>org.axonframework.eventhandling</td>
+      <td>1</td>
+      <td>100</td>
+      <td>0.010000</td>
+      <td>[org.axonframework.eventhandling.EventMessage]</td>
     </tr>
     <tr>
       <th>5</th>
@@ -3222,23 +3222,23 @@ This table shows the top 30 types that only use a few (compared to all existing)
       <th>6</th>
       <td>axon-eventsourcing-4.12.1</td>
       <td>axon-modelling-4.12.1</td>
-      <td>org.axonframework.eventsourcing.eventstore.jdbc</td>
-      <td>org.axonframework.modelling.command</td>
-      <td>1</td>
-      <td>56</td>
-      <td>0.017857</td>
-      <td>[org.axonframework.modelling.command.ConcurrencyException]</td>
-    </tr>
-    <tr>
-      <th>7</th>
-      <td>axon-eventsourcing-4.12.1</td>
-      <td>axon-modelling-4.12.1</td>
       <td>org.axonframework.eventsourcing.conflictresolution</td>
       <td>org.axonframework.modelling.command</td>
       <td>1</td>
       <td>56</td>
       <td>0.017857</td>
       <td>[org.axonframework.modelling.command.ConflictingAggregateVersionException]</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>axon-eventsourcing-4.12.1</td>
+      <td>axon-modelling-4.12.1</td>
+      <td>org.axonframework.eventsourcing.eventstore.jdbc</td>
+      <td>org.axonframework.modelling.command</td>
+      <td>1</td>
+      <td>56</td>
+      <td>0.017857</td>
+      <td>[org.axonframework.modelling.command.ConcurrencyException]</td>
     </tr>
     <tr>
       <th>8</th>
@@ -3253,17 +3253,6 @@ This table shows the top 30 types that only use a few (compared to all existing)
     </tr>
     <tr>
       <th>9</th>
-      <td>axon-modelling-4.12.1</td>
-      <td>axon-messaging-4.12.1</td>
-      <td>org.axonframework.modelling.command.legacyjpa</td>
-      <td>org.axonframework.eventhandling</td>
-      <td>2</td>
-      <td>100</td>
-      <td>0.020000</td>
-      <td>[org.axonframework.eventhandling.DomainEventSequenceAware, org.axonframework.eventhandling.EventBus]</td>
-    </tr>
-    <tr>
-      <th>10</th>
       <td>axon-test-4.12.1</td>
       <td>axon-messaging-4.12.1</td>
       <td>org.axonframework.test.eventscheduler</td>
@@ -3272,6 +3261,17 @@ This table shows the top 30 types that only use a few (compared to all existing)
       <td>100</td>
       <td>0.020000</td>
       <td>[org.axonframework.eventhandling.GenericEventMessage, org.axonframework.eventhandling.EventMessage]</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>axon-modelling-4.12.1</td>
+      <td>axon-messaging-4.12.1</td>
+      <td>org.axonframework.modelling.command.legacyjpa</td>
+      <td>org.axonframework.eventhandling</td>
+      <td>2</td>
+      <td>100</td>
+      <td>0.020000</td>
+      <td>[org.axonframework.eventhandling.DomainEventSequenceAware, org.axonframework.eventhandling.EventBus]</td>
     </tr>
     <tr>
       <th>11</th>
@@ -3341,9 +3341,9 @@ This table shows the top 30 types that only use a few (compared to all existing)
     </tr>
     <tr>
       <th>17</th>
-      <td>axon-test-4.12.1</td>
+      <td>axon-eventsourcing-4.12.1</td>
       <td>axon-messaging-4.12.1</td>
-      <td>org.axonframework.test</td>
+      <td>org.axonframework.eventsourcing.conflictresolution</td>
       <td>org.axonframework.messaging</td>
       <td>1</td>
       <td>35</td>
@@ -3352,17 +3352,6 @@ This table shows the top 30 types that only use a few (compared to all existing)
     </tr>
     <tr>
       <th>18</th>
-      <td>axon-eventsourcing-4.12.1</td>
-      <td>axon-messaging-4.12.1</td>
-      <td>org.axonframework.eventsourcing.eventstore</td>
-      <td>org.axonframework.messaging</td>
-      <td>1</td>
-      <td>35</td>
-      <td>0.028571</td>
-      <td>[org.axonframework.messaging.StreamableMessageSource]</td>
-    </tr>
-    <tr>
-      <th>19</th>
       <td>axon-test-4.12.1</td>
       <td>axon-messaging-4.12.1</td>
       <td>org.axonframework.test.matchers</td>
@@ -3373,10 +3362,21 @@ This table shows the top 30 types that only use a few (compared to all existing)
       <td>[org.axonframework.messaging.Message]</td>
     </tr>
     <tr>
-      <th>20</th>
+      <th>19</th>
       <td>axon-eventsourcing-4.12.1</td>
       <td>axon-messaging-4.12.1</td>
-      <td>org.axonframework.eventsourcing.conflictresolution</td>
+      <td>org.axonframework.eventsourcing.eventstore</td>
+      <td>org.axonframework.messaging</td>
+      <td>1</td>
+      <td>35</td>
+      <td>0.028571</td>
+      <td>[org.axonframework.messaging.StreamableMessageSource]</td>
+    </tr>
+    <tr>
+      <th>20</th>
+      <td>axon-test-4.12.1</td>
+      <td>axon-messaging-4.12.1</td>
+      <td>org.axonframework.test</td>
       <td>org.axonframework.messaging</td>
       <td>1</td>
       <td>35</td>
@@ -3398,7 +3398,7 @@ This table shows the top 30 types that only use a few (compared to all existing)
       <th>22</th>
       <td>axon-eventsourcing-4.12.1</td>
       <td>axon-messaging-4.12.1</td>
-      <td>org.axonframework.eventsourcing.eventstore.jpa</td>
+      <td>org.axonframework.eventsourcing.eventstore.legacyjpa</td>
       <td>org.axonframework.serialization</td>
       <td>1</td>
       <td>34</td>
@@ -3420,7 +3420,7 @@ This table shows the top 30 types that only use a few (compared to all existing)
       <th>24</th>
       <td>axon-eventsourcing-4.12.1</td>
       <td>axon-messaging-4.12.1</td>
-      <td>org.axonframework.eventsourcing.eventstore.legacyjpa</td>
+      <td>org.axonframework.eventsourcing.eventstore.jpa</td>
       <td>org.axonframework.serialization</td>
       <td>1</td>
       <td>34</td>
@@ -3778,7 +3778,7 @@ This table shows the file directory distance distribution between dependent file
       <td>2719</td>
       <td>1080</td>
       <td>1216</td>
-      <td>[/axon-spring-boot-autoconfigure-4.12.1.jar uses /axon-configuration-4.12.1.jar, /axon-server-connector-4.12.1.jar uses /axon-configuration-4.12.1.jar, /org/axonframework/config/UpdateCheckerConfigurerModule.class uses /org/axonframework/config/ConfigurerModule.class, /org/axonframework/config/D...</td>
+      <td>[/axon-server-connector-4.12.1.jar uses /axon-configuration-4.12.1.jar, /axon-spring-boot-autoconfigure-4.12.1.jar uses /axon-configuration-4.12.1.jar, /org/axonframework/config/UpdateCheckerConfigurerModule.class uses /org/axonframework/config/ConfigurerModule.class, /org/axonframework/config/D...</td>
     </tr>
     <tr>
       <th>1</th>

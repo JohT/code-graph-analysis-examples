@@ -185,8 +185,8 @@ The whole table can be found in the CSV report `Number_of_types_per_artifact`.
       <th>16</th>
       <td>axon-spring-boot-autoconfigure-4.12.1</td>
       <td>90</td>
-      <td>Interface</td>
-      <td>1</td>
+      <td>Annotation</td>
+      <td>3</td>
     </tr>
     <tr>
       <th>17</th>
@@ -199,8 +199,8 @@ The whole table can be found in the CSV report `Number_of_types_per_artifact`.
       <th>18</th>
       <td>axon-spring-boot-autoconfigure-4.12.1</td>
       <td>90</td>
-      <td>Annotation</td>
-      <td>3</td>
+      <td>Interface</td>
+      <td>1</td>
     </tr>
     <tr>
       <th>19</th>
