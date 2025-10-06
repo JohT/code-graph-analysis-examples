@@ -9,7 +9,7 @@
 "org.axonframework.common.TypeReflectionUtils: java.lang.reflect.Type getExactSuperType(java.lang.reflect.Type,java.lang.Class)","getExactSuperType","centralityPageRank",3.261331656444291,""
 "org.axonframework.common.Assert: void isTrue(boolean,java.util.function.Supplier)","isTrue","centralityPageRank",3.0310898097089516,""
 "org.axonframework.common.jdbc.JdbcUtils: void closeQuietly(java.sql.Connection)","closeQuietly","centralityPageRank",2.704787890625,""
-"org.axonframework.messaging.unitofwork.CurrentUnitOfWork: org.axonframework.messaging.unitofwork.UnitOfWork get()","get","centralityPageRank",2.4402187499999997,""
+"org.axonframework.messaging.unitofwork.CurrentUnitOfWork: org.axonframework.messaging.unitofwork.UnitOfWork get()","get","centralityPageRank",2.440218749999999,""
 "org.axonframework.common.BuilderUtils: void assertStrictPositive(int,java.lang.String)","assertStrictPositive","centralityPageRank",2.1262499999999998,""
 "org.axonframework.config.Component: java.lang.Object get()","get","centralityPageRank",2.0306249999999997,""
 "org.axonframework.config.LifecycleHandlerInspector: void registerLifecycleHandlers(org.axonframework.config.Configuration,java.lang.Object)","registerLifecycleHandlers","centralityPageRank",1.8760312499999996,""
