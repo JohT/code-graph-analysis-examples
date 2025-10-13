@@ -260,13 +260,13 @@ Lists the 30 label combinations with the lowest number of nodes until they reach
     </tr>
     <tr>
       <th>1</th>
-      <td>[Git, Branch]</td>
+      <td>[Repository, File, Git]</td>
       <td>1</td>
       <td>0.000329</td>
     </tr>
     <tr>
       <th>2</th>
-      <td>[Repository, File, Git]</td>
+      <td>[Git, Branch]</td>
       <td>1</td>
       <td>0.000329</td>
     </tr>
@@ -302,31 +302,31 @@ Lists the 30 label combinations with the lowest number of nodes until they reach
     </tr>
     <tr>
       <th>8</th>
-      <td>[Type, File, Java, ByteCode, Void]</td>
-      <td>9</td>
-      <td>0.002963</td>
-    </tr>
-    <tr>
-      <th>9</th>
       <td>[File, Maven, Xml, Pom, Document]</td>
       <td>9</td>
       <td>0.002963</td>
     </tr>
     <tr>
+      <th>9</th>
+      <td>[Type, File, Java, ByteCode, Void]</td>
+      <td>9</td>
+      <td>0.002963</td>
+    </tr>
+    <tr>
       <th>10</th>
-      <td>[Java, ManifestSection]</td>
+      <td>[File, Java, Manifest]</td>
       <td>9</td>
       <td>0.002963</td>
     </tr>
     <tr>
       <th>11</th>
-      <td>[File, Artifact, Jar, Archive, Zip, Java]</td>
+      <td>[Java, ManifestSection]</td>
       <td>9</td>
       <td>0.002963</td>
     </tr>
     <tr>
       <th>12</th>
-      <td>[File, Java, Manifest]</td>
+      <td>[File, Artifact, Jar, Archive, Zip, Java]</td>
       <td>9</td>
       <td>0.002963</td>
     </tr>
@@ -344,13 +344,13 @@ Lists the 30 label combinations with the lowest number of nodes until they reach
     </tr>
     <tr>
       <th>15</th>
-      <td>[Maven, ExecutionGoal]</td>
+      <td>[Maven, PluginExecution]</td>
       <td>16</td>
       <td>0.005268</td>
     </tr>
     <tr>
       <th>16</th>
-      <td>[Maven, PluginExecution]</td>
+      <td>[Maven, ExecutionGoal]</td>
       <td>16</td>
       <td>0.005268</td>
     </tr>
@@ -374,13 +374,13 @@ Lists the 30 label combinations with the lowest number of nodes until they reach
     </tr>
     <tr>
       <th>20</th>
-      <td>[Maven, Configuration]</td>
+      <td>[Type, File, Java, ByteCode, Throwable, Extern...</td>
       <td>21</td>
       <td>0.006914</td>
     </tr>
     <tr>
       <th>21</th>
-      <td>[Type, File, Java, ByteCode, Throwable, Extern...</td>
+      <td>[Maven, Configuration]</td>
       <td>21</td>
       <td>0.006914</td>
     </tr>
@@ -994,13 +994,13 @@ Lists the 30 relationships type with the lowest number of occurrences up to 0.5%
     </tr>
     <tr>
       <th>3</th>
-      <td>THROWS_GENERIC</td>
+      <td>EXCLUDES</td>
       <td>5</td>
       <td>0.000517</td>
     </tr>
     <tr>
       <th>4</th>
-      <td>EXCLUDES</td>
+      <td>THROWS_GENERIC</td>
       <td>5</td>
       <td>0.000517</td>
     </tr>
@@ -1018,25 +1018,25 @@ Lists the 30 relationships type with the lowest number of occurrences up to 0.5%
     </tr>
     <tr>
       <th>7</th>
-      <td>HAS_GOAL</td>
-      <td>16</td>
-      <td>0.001653</td>
-    </tr>
-    <tr>
-      <th>8</th>
       <td>HAS_EXECUTION</td>
       <td>16</td>
       <td>0.001653</td>
     </tr>
     <tr>
+      <th>8</th>
+      <td>HAS_GOAL</td>
+      <td>16</td>
+      <td>0.001653</td>
+    </tr>
+    <tr>
       <th>9</th>
-      <td>OF_NAMESPACE</td>
+      <td>HAS_ATTRIBUTE</td>
       <td>18</td>
       <td>0.001860</td>
     </tr>
     <tr>
       <th>10</th>
-      <td>HAS_ATTRIBUTE</td>
+      <td>OF_NAMESPACE</td>
       <td>18</td>
       <td>0.001860</td>
     </tr>
@@ -1048,19 +1048,19 @@ Lists the 30 relationships type with the lowest number of occurrences up to 0.5%
     </tr>
     <tr>
       <th>12</th>
-      <td>USES_PLUGIN</td>
-      <td>21</td>
-      <td>0.002170</td>
-    </tr>
-    <tr>
-      <th>13</th>
       <td>IS_ARTIFACT</td>
       <td>21</td>
       <td>0.002170</td>
     </tr>
     <tr>
-      <th>14</th>
+      <th>13</th>
       <td>HAS_CONFIGURATION</td>
+      <td>21</td>
+      <td>0.002170</td>
+    </tr>
+    <tr>
+      <th>14</th>
+      <td>USES_PLUGIN</td>
       <td>21</td>
       <td>0.002170</td>
     </tr>
@@ -1108,13 +1108,13 @@ Lists the 30 relationships type with the lowest number of occurrences up to 0.5%
     </tr>
     <tr>
       <th>22</th>
-      <td>DECLARES_DEPENDENCY</td>
+      <td>TO_ARTIFACT</td>
       <td>165</td>
       <td>0.017046</td>
     </tr>
     <tr>
       <th>23</th>
-      <td>TO_ARTIFACT</td>
+      <td>DECLARES_DEPENDENCY</td>
       <td>165</td>
       <td>0.017046</td>
     </tr>

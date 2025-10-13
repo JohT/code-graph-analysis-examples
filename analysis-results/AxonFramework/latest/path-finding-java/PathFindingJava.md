@@ -640,7 +640,7 @@ In this section we'll focus only on pairs of nodes that both belong to the same 
       <td>587</td>
       <td>54</td>
       <td>30</td>
-      <td>[/org/axonframework/deadline -&gt; /org/axonframework/commandhandling, /org/axonframework/deadline/dbscheduler -&gt; /org/axonframework/commandhandling, /org/axonframework/deadline/jobrunr -&gt; /org/axonframework/commandhandling, /org/axonframework/deadline/quartz -&gt; /org/axonframework/commandhandling]</td>
+      <td>[/org/axonframework/eventhandling/scheduling/jobrunr -&gt; /org/axonframework/commandhandling, /org/axonframework/eventhandling/scheduling/quartz -&gt; /org/axonframework/commandhandling, /org/axonframework/eventhandling/tokenstore -&gt; /org/axonframework/commandhandling, /org/axonframework/eventhandlin...</td>
       <td>[axon-messaging-4.12.1 -&gt; axon-messaging-4.12.1]</td>
       <td>[]</td>
     </tr>
@@ -659,7 +659,7 @@ In this section we'll focus only on pairs of nodes that both belong to the same 
       <td>474</td>
       <td>54</td>
       <td>27</td>
-      <td>[/org/axonframework/common/jdbc -&gt; /org/axonframework/commandhandling, /org/axonframework/deadline/annotation -&gt; /org/axonframework/commandhandling, /org/axonframework/eventhandling/async -&gt; /org/axonframework/commandhandling, /org/axonframework/eventhandling/deadletter -&gt; /org/axonframework/com...</td>
+      <td>[/org/axonframework/eventhandling/scheduling/java -&gt; /org/axonframework/commandhandling, /org/axonframework/eventhandling/tokenstore/inmemory -&gt; /org/axonframework/commandhandling, /org/axonframework/messaging/annotation -&gt; /org/axonframework/commandhandling, /org/axonframework/messaging/correla...</td>
       <td>[axon-messaging-4.12.1 -&gt; axon-messaging-4.12.1]</td>
       <td>[]</td>
     </tr>
@@ -678,7 +678,7 @@ In this section we'll focus only on pairs of nodes that both belong to the same 
       <td>139</td>
       <td>34</td>
       <td>23</td>
-      <td>[/org/axonframework/common/jdbc -&gt; /org/axonframework/commandhandling/callbacks, /org/axonframework/deadline/annotation -&gt; /org/axonframework/commandhandling/callbacks, /org/axonframework/eventhandling/async -&gt; /org/axonframework/commandhandling/callbacks, /org/axonframework/eventhandling/deadle...</td>
+      <td>[/org/axonframework/lifecycle -&gt; /org/axonframework/commandhandling, /org/axonframework/eventhandling/scheduling/java -&gt; /org/axonframework/commandhandling/callbacks, /org/axonframework/eventhandling/tokenstore/inmemory -&gt; /org/axonframework/commandhandling/callbacks, /org/axonframework/messagin...</td>
       <td>[axon-messaging-4.12.1 -&gt; axon-messaging-4.12.1]</td>
       <td>[]</td>
     </tr>
@@ -697,7 +697,7 @@ In this section we'll focus only on pairs of nodes that both belong to the same 
       <td>13</td>
       <td>4</td>
       <td>9</td>
-      <td>[/org/axonframework/commandhandling/callbacks -&gt; /org/axonframework/common/property, /org/axonframework/commandhandling/distributed/commandfilter -&gt; /org/axonframework/common/property, /org/axonframework/commandhandling/callbacks -&gt; /org/axonframework/serialization/upcasting, /org/axonframework/...</td>
+      <td>[/org/axonframework/updates -&gt; /org/axonframework/commandhandling, /org/axonframework/lifecycle -&gt; /org/axonframework/commandhandling/callbacks, /org/axonframework/updates -&gt; /org/axonframework/common/property, /org/axonframework/updates -&gt; /org/axonframework/deadline]</td>
       <td>[axon-messaging-4.12.1 -&gt; axon-messaging-4.12.1]</td>
       <td>[]</td>
     </tr>
@@ -1427,8 +1427,8 @@ Shows the top 20 artifacts with their max. longest path.
 
 
     sourceProject
-    axon-spring-boot-autoconfigure-4.12.1    3
     axon-test-4.12.1                         3
+    axon-spring-boot-autoconfigure-4.12.1    3
     axon-server-connector-4.12.1             2
     axon-modelling-4.12.1                    1
     Name: distance, dtype: int64

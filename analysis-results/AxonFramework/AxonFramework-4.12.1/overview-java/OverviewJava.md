@@ -548,12 +548,12 @@ The whole table can be found in the CSV report `Number_of_packages_per_artifact`
     </tr>
     <tr>
       <th>3</th>
-      <td>axon-spring-boot-autoconfigure-4.12.1</td>
+      <td>axon-eventsourcing-4.12.1</td>
       <td>9</td>
     </tr>
     <tr>
       <th>4</th>
-      <td>axon-eventsourcing-4.12.1</td>
+      <td>axon-spring-boot-autoconfigure-4.12.1</td>
       <td>9</td>
     </tr>
     <tr>
