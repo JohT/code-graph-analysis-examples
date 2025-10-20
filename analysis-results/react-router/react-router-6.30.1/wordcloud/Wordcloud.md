@@ -66,19 +66,19 @@
     </tr>
     <tr>
       <th>6</th>
-      <td>tutorial</td>
+      <td>examples</td>
     </tr>
     <tr>
       <th>7</th>
-      <td>packages</td>
+      <td>modal</td>
     </tr>
     <tr>
       <th>8</th>
-      <td>router</td>
+      <td>route</td>
     </tr>
     <tr>
       <th>9</th>
-      <td>react</td>
+      <td>with</td>
     </tr>
   </tbody>
 </table>
@@ -142,22 +142,22 @@
     </tr>
     <tr>
       <th>6</th>
-      <td>Ahmed Abdel-Aziz</td>
+      <td>ChristophP</td>
       <td>1</td>
     </tr>
     <tr>
       <th>7</th>
-      <td>Remix Run Bot</td>
-      <td>68</td>
+      <td>Daniel Grijuela</td>
+      <td>1</td>
     </tr>
     <tr>
       <th>8</th>
-      <td>Marco Spiess</td>
+      <td>mlewando</td>
       <td>1</td>
     </tr>
     <tr>
       <th>9</th>
-      <td>ZeroMask</td>
+      <td>Michael Liendo</td>
       <td>1</td>
     </tr>
   </tbody>
