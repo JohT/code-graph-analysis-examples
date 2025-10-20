@@ -316,8 +316,8 @@ The following table shows the first 10 rows with all details of the query above.
       <td>48</td>
       <td>1</td>
       <td>48</td>
-      <td>[/org/axonframework/config -&gt; /org/axonframework/eventsourcing, /org/axonframework/config -&gt; /org/axonframework/eventsourcing/eventstore, /org/axonframework/config -&gt; /org/axonframework/eventsourcing/eventstore/jpa, /org/axonframework/config -&gt; /org/axonframework/eventsourcing/snapshotting]</td>
-      <td>[axon-configuration-4.12.1 -&gt; axon-eventsourcing-4.12.1, axon-configuration-4.12.1 -&gt; axon-messaging-4.12.1, axon-configuration-4.12.1 -&gt; axon-modelling-4.12.1, axon-configuration-4.12.1 -&gt; axon-disruptor-4.12.1]</td>
+      <td>[/org/axonframework/config -&gt; /org/axonframework/modelling/command, /org/axonframework/config -&gt; /org/axonframework/modelling/command/inspection, /org/axonframework/config -&gt; /org/axonframework/modelling/saga, /org/axonframework/config -&gt; /org/axonframework/modelling/saga/repository]</td>
+      <td>[axon-configuration-4.12.1 -&gt; axon-modelling-4.12.1, axon-configuration-4.12.1 -&gt; axon-eventsourcing-4.12.1, axon-configuration-4.12.1 -&gt; axon-messaging-4.12.1, axon-configuration-4.12.1 -&gt; axon-disruptor-4.12.1]</td>
       <td>[]</td>
     </tr>
     <tr>
@@ -335,8 +335,8 @@ The following table shows the first 10 rows with all details of the query above.
       <td>11</td>
       <td>1</td>
       <td>11</td>
-      <td>[/org/axonframework/config -&gt; /org/axonframework/eventsourcing/conflictresolution, /org/axonframework/config -&gt; /org/axonframework/commandhandling/callbacks, /org/axonframework/config -&gt; /org/axonframework/common/io, /org/axonframework/config -&gt; /org/axonframework/common/stream]</td>
-      <td>[axon-configuration-4.12.1 -&gt; axon-eventsourcing-4.12.1, axon-configuration-4.12.1 -&gt; axon-messaging-4.12.1, axon-configuration-4.12.1 -&gt; axon-modelling-4.12.1]</td>
+      <td>[/org/axonframework/config -&gt; /org/axonframework/modelling/saga/metamodel, /org/axonframework/config -&gt; /org/axonframework/eventsourcing/conflictresolution, /org/axonframework/config -&gt; /org/axonframework/commandhandling/callbacks, /org/axonframework/config -&gt; /org/axonframework/common/io]</td>
+      <td>[axon-configuration-4.12.1 -&gt; axon-modelling-4.12.1, axon-configuration-4.12.1 -&gt; axon-eventsourcing-4.12.1, axon-configuration-4.12.1 -&gt; axon-messaging-4.12.1]</td>
       <td>[]</td>
     </tr>
     <tr>
@@ -354,8 +354,8 @@ The following table shows the first 10 rows with all details of the query above.
       <td>13</td>
       <td>1</td>
       <td>13</td>
-      <td>[/org/axonframework/disruptor/commandhandling -&gt; /org/axonframework/eventsourcing, /org/axonframework/disruptor/commandhandling -&gt; /org/axonframework/eventsourcing/eventstore, /org/axonframework/disruptor/commandhandling -&gt; /org/axonframework/commandhandling, /org/axonframework/disruptor/command...</td>
-      <td>[axon-disruptor-4.12.1 -&gt; axon-eventsourcing-4.12.1, axon-disruptor-4.12.1 -&gt; axon-messaging-4.12.1, axon-disruptor-4.12.1 -&gt; axon-modelling-4.12.1]</td>
+      <td>[/org/axonframework/disruptor/commandhandling -&gt; /org/axonframework/modelling/command, /org/axonframework/disruptor/commandhandling -&gt; /org/axonframework/modelling/command/inspection, /org/axonframework/disruptor/commandhandling -&gt; /org/axonframework/eventsourcing, /org/axonframework/disruptor/c...</td>
+      <td>[axon-disruptor-4.12.1 -&gt; axon-modelling-4.12.1, axon-disruptor-4.12.1 -&gt; axon-eventsourcing-4.12.1, axon-disruptor-4.12.1 -&gt; axon-messaging-4.12.1]</td>
       <td>[]</td>
     </tr>
     <tr>
@@ -449,7 +449,7 @@ The following table shows the first 10 rows with all details of the query above.
       <td>11</td>
       <td>8</td>
       <td>4</td>
-      <td>[/org/axonframework/eventsourcing/conflictresolution -&gt; /org/axonframework/eventsourcing, /org/axonframework/eventsourcing/eventstore/inmemory -&gt; /org/axonframework/eventsourcing, /org/axonframework/eventsourcing/eventstore/jdbc -&gt; /org/axonframework/eventsourcing, /org/axonframework/eventsourci...</td>
+      <td>[/org/axonframework/eventsourcing/conflictresolution -&gt; /org/axonframework/eventsourcing, /org/axonframework/eventsourcing/eventstore/jdbc -&gt; /org/axonframework/eventsourcing, /org/axonframework/eventsourcing/eventstore/inmemory -&gt; /org/axonframework/eventsourcing, /org/axonframework/eventsourci...</td>
       <td>[axon-eventsourcing-4.12.1 -&gt; axon-eventsourcing-4.12.1]</td>
       <td>[]</td>
     </tr>
@@ -468,7 +468,7 @@ The following table shows the first 10 rows with all details of the query above.
       <td>5</td>
       <td>5</td>
       <td>2</td>
-      <td>[/org/axonframework/eventsourcing/eventstore/jdbc/statements -&gt; /org/axonframework/eventsourcing, /org/axonframework/eventsourcing/eventstore/inmemory -&gt; /org/axonframework/eventsourcing/conflictresolution, /org/axonframework/eventsourcing/eventstore/jdbc -&gt; /org/axonframework/eventsourcing/conf...</td>
+      <td>[/org/axonframework/eventsourcing/eventstore/jdbc/statements -&gt; /org/axonframework/eventsourcing, /org/axonframework/eventsourcing/eventstore/jdbc -&gt; /org/axonframework/eventsourcing/conflictresolution, /org/axonframework/eventsourcing/eventstore/inmemory -&gt; /org/axonframework/eventsourcing/conf...</td>
       <td>[axon-eventsourcing-4.12.1 -&gt; axon-eventsourcing-4.12.1]</td>
       <td>[]</td>
     </tr>
@@ -564,7 +564,7 @@ In this section we'll focus only on pairs of nodes that both belong to the same 
       <td>11</td>
       <td>8</td>
       <td>4</td>
-      <td>[/org/axonframework/eventsourcing/conflictresolution -&gt; /org/axonframework/eventsourcing, /org/axonframework/eventsourcing/eventstore/inmemory -&gt; /org/axonframework/eventsourcing, /org/axonframework/eventsourcing/eventstore/jdbc -&gt; /org/axonframework/eventsourcing, /org/axonframework/eventsourci...</td>
+      <td>[/org/axonframework/eventsourcing/conflictresolution -&gt; /org/axonframework/eventsourcing, /org/axonframework/eventsourcing/eventstore/jdbc -&gt; /org/axonframework/eventsourcing, /org/axonframework/eventsourcing/eventstore/inmemory -&gt; /org/axonframework/eventsourcing, /org/axonframework/eventsourci...</td>
       <td>[axon-eventsourcing-4.12.1 -&gt; axon-eventsourcing-4.12.1]</td>
       <td>[]</td>
     </tr>
@@ -583,7 +583,7 @@ In this section we'll focus only on pairs of nodes that both belong to the same 
       <td>5</td>
       <td>5</td>
       <td>2</td>
-      <td>[/org/axonframework/eventsourcing/eventstore/jdbc/statements -&gt; /org/axonframework/eventsourcing, /org/axonframework/eventsourcing/eventstore/inmemory -&gt; /org/axonframework/eventsourcing/conflictresolution, /org/axonframework/eventsourcing/eventstore/jdbc -&gt; /org/axonframework/eventsourcing/conf...</td>
+      <td>[/org/axonframework/eventsourcing/eventstore/jdbc/statements -&gt; /org/axonframework/eventsourcing, /org/axonframework/eventsourcing/eventstore/jdbc -&gt; /org/axonframework/eventsourcing/conflictresolution, /org/axonframework/eventsourcing/eventstore/inmemory -&gt; /org/axonframework/eventsourcing/conf...</td>
       <td>[axon-eventsourcing-4.12.1 -&gt; axon-eventsourcing-4.12.1]</td>
       <td>[]</td>
     </tr>
@@ -640,7 +640,7 @@ In this section we'll focus only on pairs of nodes that both belong to the same 
       <td>587</td>
       <td>54</td>
       <td>30</td>
-      <td>[/org/axonframework/eventhandling/scheduling/jobrunr -&gt; /org/axonframework/commandhandling, /org/axonframework/eventhandling/scheduling/quartz -&gt; /org/axonframework/commandhandling, /org/axonframework/eventhandling/tokenstore -&gt; /org/axonframework/commandhandling, /org/axonframework/eventhandlin...</td>
+      <td>[/org/axonframework/eventhandling/deadletter/jdbc -&gt; /org/axonframework/commandhandling, /org/axonframework/eventhandling/deadletter/jpa -&gt; /org/axonframework/commandhandling, /org/axonframework/eventhandling/deadletter/legacyjpa -&gt; /org/axonframework/commandhandling, /org/axonframework/eventhan...</td>
       <td>[axon-messaging-4.12.1 -&gt; axon-messaging-4.12.1]</td>
       <td>[]</td>
     </tr>
@@ -659,7 +659,7 @@ In this section we'll focus only on pairs of nodes that both belong to the same 
       <td>474</td>
       <td>54</td>
       <td>27</td>
-      <td>[/org/axonframework/eventhandling/scheduling/java -&gt; /org/axonframework/commandhandling, /org/axonframework/eventhandling/tokenstore/inmemory -&gt; /org/axonframework/commandhandling, /org/axonframework/messaging/annotation -&gt; /org/axonframework/commandhandling, /org/axonframework/messaging/correla...</td>
+      <td>[/org/axonframework/eventhandling/gateway -&gt; /org/axonframework/commandhandling, /org/axonframework/eventhandling/interceptors -&gt; /org/axonframework/commandhandling, /org/axonframework/eventhandling/replay -&gt; /org/axonframework/commandhandling, /org/axonframework/eventhandling/scheduling/java -&gt;...</td>
       <td>[axon-messaging-4.12.1 -&gt; axon-messaging-4.12.1]</td>
       <td>[]</td>
     </tr>
@@ -678,7 +678,7 @@ In this section we'll focus only on pairs of nodes that both belong to the same 
       <td>139</td>
       <td>34</td>
       <td>23</td>
-      <td>[/org/axonframework/lifecycle -&gt; /org/axonframework/commandhandling, /org/axonframework/eventhandling/scheduling/java -&gt; /org/axonframework/commandhandling/callbacks, /org/axonframework/eventhandling/tokenstore/inmemory -&gt; /org/axonframework/commandhandling/callbacks, /org/axonframework/messagin...</td>
+      <td>[/org/axonframework/common/jdbc -&gt; /org/axonframework/commandhandling/callbacks, /org/axonframework/deadline/annotation -&gt; /org/axonframework/commandhandling/callbacks, /org/axonframework/eventhandling/async -&gt; /org/axonframework/commandhandling/callbacks, /org/axonframework/eventhandling/deadle...</td>
       <td>[axon-messaging-4.12.1 -&gt; axon-messaging-4.12.1]</td>
       <td>[]</td>
     </tr>
@@ -697,7 +697,7 @@ In this section we'll focus only on pairs of nodes that both belong to the same 
       <td>13</td>
       <td>4</td>
       <td>9</td>
-      <td>[/org/axonframework/updates -&gt; /org/axonframework/commandhandling, /org/axonframework/lifecycle -&gt; /org/axonframework/commandhandling/callbacks, /org/axonframework/updates -&gt; /org/axonframework/common/property, /org/axonframework/updates -&gt; /org/axonframework/deadline]</td>
+      <td>[/org/axonframework/commandhandling/callbacks -&gt; /org/axonframework/common/property, /org/axonframework/commandhandling/distributed/commandfilter -&gt; /org/axonframework/common/property, /org/axonframework/commandhandling/callbacks -&gt; /org/axonframework/serialization/upcasting, /org/axonframework/...</td>
       <td>[axon-messaging-4.12.1 -&gt; axon-messaging-4.12.1]</td>
       <td>[]</td>
     </tr>
@@ -1066,7 +1066,7 @@ The following table shows the first 10 rows with all details of the query above.
       <td>1</td>
       <td>1</td>
       <td>1</td>
-      <td>[/org/axonframework/axonserver/connector/heartbeat/source -&gt; /org/axonframework/axonserver/connector/heartbeat]</td>
+      <td>[/org/axonframework/axonserver/connector/heartbeat/connection/checker -&gt; /org/axonframework/axonserver/connector/heartbeat]</td>
       <td>[axon-server-connector-4.12.1 -&gt; axon-server-connector-4.12.1]</td>
       <td>[]</td>
     </tr>
@@ -1085,7 +1085,7 @@ The following table shows the first 10 rows with all details of the query above.
       <td>1</td>
       <td>1</td>
       <td>1</td>
-      <td>[/org/axonframework/axonserver/connector/heartbeat/source -&gt; /org/axonframework/axonserver/connector/util]</td>
+      <td>[/org/axonframework/axonserver/connector/heartbeat/connection/checker -&gt; /org/axonframework/axonserver/connector/util]</td>
       <td>[axon-server-connector-4.12.1 -&gt; axon-server-connector-4.12.1]</td>
       <td>[]</td>
     </tr>
@@ -1161,8 +1161,8 @@ The following table shows the first 10 rows with all details of the query above.
       <td>4</td>
       <td>1</td>
       <td>4</td>
-      <td>[/org/axonframework/springboot/autoconfig/legacyjpa -&gt; /org/axonframework/eventsourcing/eventstore/legacyjpa, /org/axonframework/springboot/autoconfig/legacyjpa -&gt; /org/axonframework/eventhandling/deadletter/legacyjpa, /org/axonframework/springboot/autoconfig/legacyjpa -&gt; /org/axonframework/even...</td>
-      <td>[axon-spring-boot-autoconfigure-4.12.1 -&gt; axon-eventsourcing-4.12.1, axon-spring-boot-autoconfigure-4.12.1 -&gt; axon-messaging-4.12.1, axon-spring-boot-autoconfigure-4.12.1 -&gt; axon-modelling-4.12.1]</td>
+      <td>[/org/axonframework/springboot/autoconfig/legacyjpa -&gt; /org/axonframework/modelling/saga/repository/legacyjpa, /org/axonframework/springboot/autoconfig/legacyjpa -&gt; /org/axonframework/eventsourcing/eventstore/legacyjpa, /org/axonframework/springboot/autoconfig/legacyjpa -&gt; /org/axonframework/eve...</td>
+      <td>[axon-spring-boot-autoconfigure-4.12.1 -&gt; axon-modelling-4.12.1, axon-spring-boot-autoconfigure-4.12.1 -&gt; axon-eventsourcing-4.12.1, axon-spring-boot-autoconfigure-4.12.1 -&gt; axon-messaging-4.12.1]</td>
       <td>[]</td>
     </tr>
     <tr>
@@ -1180,8 +1180,8 @@ The following table shows the first 10 rows with all details of the query above.
       <td>37</td>
       <td>1</td>
       <td>37</td>
-      <td>[/org/axonframework/springboot/autoconfig/legacyjpa -&gt; /org/axonframework/tracing/opentelemetry, /org/axonframework/springboot/autoconfig/legacyjpa -&gt; /org/axonframework/eventsourcing, /org/axonframework/springboot/autoconfig/legacyjpa -&gt; /org/axonframework/eventsourcing/eventstore, /org/axonfra...</td>
-      <td>[axon-spring-boot-autoconfigure-4.12.1 -&gt; axon-tracing-opentelemetry-4.12.1, axon-spring-boot-autoconfigure-4.12.1 -&gt; axon-eventsourcing-4.12.1, axon-spring-boot-autoconfigure-4.12.1 -&gt; axon-server-connector-4.12.1, axon-spring-boot-autoconfigure-4.12.1 -&gt; axon-messaging-4.12.1]</td>
+      <td>[/org/axonframework/springboot/autoconfig/legacyjpa -&gt; /org/axonframework/axonserver/connector/query, /org/axonframework/springboot/autoconfig/legacyjpa -&gt; /org/axonframework/axonserver/connector/event/axon, /org/axonframework/springboot/autoconfig/legacyjpa -&gt; /org/axonframework/axonserver/conn...</td>
+      <td>[axon-spring-boot-autoconfigure-4.12.1 -&gt; axon-server-connector-4.12.1, axon-spring-boot-autoconfigure-4.12.1 -&gt; axon-modelling-4.12.1, axon-spring-boot-autoconfigure-4.12.1 -&gt; axon-eventsourcing-4.12.1, axon-spring-boot-autoconfigure-4.12.1 -&gt; axon-messaging-4.12.1]</td>
       <td>[]</td>
     </tr>
     <tr>
@@ -1199,8 +1199,8 @@ The following table shows the first 10 rows with all details of the query above.
       <td>12</td>
       <td>1</td>
       <td>12</td>
-      <td>[/org/axonframework/springboot/autoconfig/legacyjpa -&gt; /org/axonframework/axonserver/connector, /org/axonframework/springboot/autoconfig/legacyjpa -&gt; /org/axonframework/common/jdbc, /org/axonframework/springboot/autoconfig/legacyjpa -&gt; /org/axonframework/common/jpa, /org/axonframework/springboot...</td>
-      <td>[axon-spring-boot-autoconfigure-4.12.1 -&gt; axon-server-connector-4.12.1, axon-spring-boot-autoconfigure-4.12.1 -&gt; axon-messaging-4.12.1, axon-spring-boot-autoconfigure-4.12.1 -&gt; axon-modelling-4.12.1, axon-spring-boot-autoconfigure-4.12.1 -&gt; axon-test-4.12.1]</td>
+      <td>[/org/axonframework/springboot/autoconfig/legacyjpa -&gt; /org/axonframework/axonserver/connector, /org/axonframework/springboot/autoconfig/legacyjpa -&gt; /org/axonframework/modelling/saga, /org/axonframework/springboot/autoconfig/legacyjpa -&gt; /org/axonframework/modelling/saga/repository, /org/axonfr...</td>
+      <td>[axon-spring-boot-autoconfigure-4.12.1 -&gt; axon-server-connector-4.12.1, axon-spring-boot-autoconfigure-4.12.1 -&gt; axon-modelling-4.12.1, axon-spring-boot-autoconfigure-4.12.1 -&gt; axon-messaging-4.12.1, axon-spring-boot-autoconfigure-4.12.1 -&gt; axon-test-4.12.1]</td>
       <td>[]</td>
     </tr>
   </tbody>
@@ -1276,7 +1276,7 @@ In this section we'll focus only on pairs of nodes that both belong to the same 
       <td>1</td>
       <td>1</td>
       <td>1</td>
-      <td>[/org/axonframework/axonserver/connector/heartbeat/source -&gt; /org/axonframework/axonserver/connector/heartbeat]</td>
+      <td>[/org/axonframework/axonserver/connector/heartbeat/connection/checker -&gt; /org/axonframework/axonserver/connector/heartbeat]</td>
       <td>[axon-server-connector-4.12.1 -&gt; axon-server-connector-4.12.1]</td>
       <td>[]</td>
     </tr>
@@ -1295,7 +1295,7 @@ In this section we'll focus only on pairs of nodes that both belong to the same 
       <td>1</td>
       <td>1</td>
       <td>1</td>
-      <td>[/org/axonframework/axonserver/connector/heartbeat/source -&gt; /org/axonframework/axonserver/connector/util]</td>
+      <td>[/org/axonframework/axonserver/connector/heartbeat/connection/checker -&gt; /org/axonframework/axonserver/connector/util]</td>
       <td>[axon-server-connector-4.12.1 -&gt; axon-server-connector-4.12.1]</td>
       <td>[]</td>
     </tr>
