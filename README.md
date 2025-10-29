@@ -77,15 +77,15 @@ The second and third jobs are the same as in the TypeScript example.
 
 ## :bookmark_tabs: CSV Report Reference
 
-[CSV_REPORTS.md](./analysis-results/CSV_REPORTS.md) lists all CSV Cypher query result reports inside the [results](./results) directory. It can be generated as described in [Generate CSV Report Reference](./COMMANDS.md#generate-csv-cypher-query-report-reference).
+[CSV_REPORTS.md](./analysis-results/CSV_REPORTS.md) lists all CSV Cypher query result reports inside the [analysis-results](./analysis-results) directory. It can be generated as described in [Generate CSV Report Reference](./COMMANDS.md#generate-csv-cypher-query-report-reference).
 
 ## :notebook: Jupyter Notebook Report Reference
 
-[JUPYTER_REPORTS.md](./analysis-results/JUPYTER_REPORTS.md) lists all Jupyter Notebook reports inside the [results](./results) directory. It can be generated as described in [Generate Jupyter Notebook Report Reference](./COMMANDS.md#generate-jupyter-notebook-report-reference).
+[JUPYTER_REPORTS.md](./analysis-results/JUPYTER_REPORTS.md) lists all Jupyter Notebook reports inside the [analysis-results](./analysis-results) directory. It can be generated as described in [Generate Jupyter Notebook Report Reference](./COMMANDS.md#generate-jupyter-notebook-report-reference).
 
 ## :framed_picture: Image Reference
 
-[IMAGES.md](./analysis-results/IMAGES.md) lists all PNG images inside the [results](./results) directory. It can be generated as described in [Generate Image Reference](./COMMANDS.md#generate-image-reference).
+[IMAGES.md](./analysis-results/IMAGES.md) lists all PNG images inside the [analysis-results](./analysis-results) directory. It can be generated as described in [Generate Image Reference](./COMMANDS.md#generate-image-reference).
 
 ## :recycle: Update Analysis Workflow with Renovate
 
