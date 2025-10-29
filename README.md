@@ -37,6 +37,7 @@ The process involves three steps:
     - [Clustering coefficient vs. Page Rank](#clustering-coefficient-vs-page-rank)
     - [Java Types that are surprisingly central or popular](#java-types-that-are-surprisingly-central-or-popular)
     - [Largest Java Type Clusters](#largest-java-type-clusters)
+    - [Java Type Anomalies](#java-type-anomalies)
     - [Java Type Top 1 Authority](#java-type-top-1-authority)
     - [Java Type Top 1 Bottleneck](#java-type-top-1-bottleneck)
     - [Java Type Top 1 Bridge](#java-type-top-1-bridge)
@@ -167,6 +168,14 @@ The scatter plot below compares the importance of Java types to the density of t
 ### Largest Java Type Clusters
 
 <img src="./analysis-results/AxonFramework/latest/anomaly-detection/Java_Type/Clusters_largest_size.svg" width="600" alt="Largest Java Type Clusters">
+
+### Java Type Anomalies
+
+Based on a fully fledged anomaly detection model combining multiple graph-based features (centrality, clustering, node embeddings), the following visualization highlights various types of anomalous Java types in the codebase in contrast to some "very normal" types.
+
+<img src="./analysis-results/AxonFramework/AxonFramework-4.12.1/anomaly-detection/Java_Type/Anomalies.svg" width="600" alt="Java Type Anomalies">
+
+The full Markdown report describing all detected anomalies readable for humans and large language models can be found here: [Anomaly Detection Report](./analysis-results/AxonFramework/AxonFramework-4.12.1/anomaly-detection/anomaly_detection_report.md).
 
 ### Java Type Top 1 Authority
 
