@@ -1,14 +1,14 @@
 # Code Graph Analysis Pipeline Examples
 
-This repository provides examples of how to analyze TypeScript code and Java artifacts using a fully automated GitHub Workflows pipeline with the [code-graph-analysis-pipeline](https://github.com/JohT/code-graph-analysis-pipeline).
+This repository provides examples of how to analyze TypeScript code and Java artifacts using a fully automated GitHub Actions workflow pipeline with the [code-graph-analysis-pipeline](https://github.com/JohT/code-graph-analysis-pipeline).
 
 The process involves three steps:
 
-1. **Extract**: Upload TypeScript source code and/or Java artifacts, optionally including their git history, using [actions/upload-artifact](https://github.com/actions/upload-artifact).
+1. **Extract**: Upload TypeScript source code and/or Java artifacts, optionally including their Git history, using [actions/upload-artifact](https://github.com/actions/upload-artifact).
 
 1. **Analyze**: Use the shared workflow [JohT/code-graph-analysis-pipeline/.github/workflows/public-analyze-code-graph.yml](https://github.com/JohT/code-graph-analysis-pipeline/blob/main/.github/workflows/public-analyze-code-graph.yml) to analyze the code and artifacts, then upload the results.
 
-1. **Use**: Download the analysis results with [actions/download-artifact](https://github.com/actions/download-artifact) and utilize them as needed.
+1. **Use**: Download the analysis results with [actions/download-artifact](https://github.com/actions/download-artifact) and consume them as needed.
 
 ## Table of Contents
 <!-- TOC -->
@@ -43,11 +43,11 @@ The process involves three steps:
 
 ## :rocket: TypeScript Code Pipeline
 
-This example demonstrates how to analyze TypeScript code in a GitHub Workflows pipeline.
+This example demonstrates how to analyze TypeScript code in a GitHub Actions workflow.
 
-1. The first job, [prepare-code-to-analyze](https://github.com/JohT/code-graph-analysis-examples/blob/23143b34d8fc6e0ab7d80102d8de0b6e6a4ec98e/.github/workflows/typescript-code-analysis.yml#L40), in the GitHub Actions Workflow [typescript-code-analysis.yml](https://github.com/JohT/code-graph-analysis-examples/blob/23143b34d8fc6e0ab7d80102d8de0b6e6a4ec98e/.github/workflows/typescript-code-analysis.yml), shows how to extract TypeScript code from a repository and upload it for analysis.
+1. The first job, [prepare-code-to-analyze](https://github.com/JohT/code-graph-analysis-examples/blob/23143b34d8fc6e0ab7d80102d8de0b6e6a4ec98e/.github/workflows/typescript-code-analysis.yml#L40), in the workflow [typescript-code-analysis.yml](https://github.com/JohT/code-graph-analysis-examples/blob/23143b34d8fc6e0ab7d80102d8de0b6e6a4ec98e/.github/workflows/typescript-code-analysis.yml), shows how to extract TypeScript code from a repository and upload it for analysis.
 
-2. The second job, [analyze-code-graph](https://github.com/JohT/code-graph-analysis-examples/blob/23143b34d8fc6e0ab7d80102d8de0b6e6a4ec98e/.github/workflows/typescript-code-analysis.yml#L89), calls the shared analysis workflows using the uploaded artifacts' names as parameters. Here is a simple example:
+2. The second job, [analyze-code-graph](https://github.com/JohT/code-graph-analysis-examples/blob/23143b34d8fc6e0ab7d80102d8de0b6e6a4ec98e/.github/workflows/typescript-code-analysis.yml#L89), calls the shared analysis workflow using the uploaded artifacts' names as parameters. Example:
 
   ```yaml
   name: Analyze Code Graph
@@ -64,11 +64,11 @@ This example demonstrates how to analyze TypeScript code in a GitHub Workflows p
 
 Java artifacts are analyzed similarly to TypeScript code. The main difference is that Java artifacts are downloaded from a Maven repository instead of being part of the repository.
 
-To include the git history in the analysis, checkout the corresponding source repository and upload it as the source artifact, similar to the TypeScript example. The Java source code isn't used for the analysis, so a bare git clone is sufficient.
+To include Git history in the analysis, checkout the corresponding source repository and upload it as the source artifact, as in the TypeScript example. The Java source code isn't used in the analysis, so a bare git clone is sufficient.
 
-The first job, [prepare-code-to-analyze](https://github.com/JohT/code-graph-analysis-examples/blob/23143b34d8fc6e0ab7d80102d8de0b6e6a4ec98e/.github/workflows/java-code-analysis.yml#L40), in the GitHub Actions Workflow [java-code-analysis.yml](https://github.com/JohT/code-graph-analysis-examples/blob/23143b34d8fc6e0ab7d80102d8de0b6e6a4ec98e/.github/workflows/java-code-analysis.yml), shows how to prepare the Java artifacts and git history for analysis.
+The first job, [prepare-code-to-analyze](https://github.com/JohT/code-graph-analysis-examples/blob/23143b34d8fc6e0ab7d80102d8de0b6e6a4ec98e/.github/workflows/java-code-analysis.yml#L40), in the workflow [java-code-analysis.yml](https://github.com/JohT/code-graph-analysis-examples/blob/23143b34d8fc6e0ab7d80102d8de0b6e6a4ec98e/.github/workflows/java-code-analysis.yml), shows how to prepare the Java artifacts and Git history for analysis.
 
-The second and third jobs are the same as for the TypeScript example.
+The second and third jobs are the same as in the TypeScript example.
 
 ## :bookmark_tabs: CSV Report Reference
 
@@ -100,7 +100,7 @@ This repository is licensed under the Apache License, Version 2.0. See [LICENSE]
 
 ## :bar_chart: Analysis Results
 
-Here are some examples from over a hundred reports generated by the analysis. These examples illustrate the results of analyzing [AxonFramework](https://github.com/AxonFramework/AxonFramework), a Java framework for Evolutionary Message-Driven Microservices on the JVM. For the complete set of reports, visit the [analysis-results](./analysis-results) directory.
+Below are examples drawn from more than a hundred reports produced by the analysis. They illustrate results from analyzing [AxonFramework](https://github.com/AxonFramework/AxonFramework), a Java framework for evolutionary, message-driven microservices on the JVM. For the complete set of reports, see the [analysis-results](./analysis-results) directory.
 
 ### External Dependencies of Java Packages
 
@@ -120,7 +120,7 @@ Here are some examples from over a hundred reports generated by the analysis. Th
 
 ### Object-Oriented Design Metrics for Java Packages
 
-<img src="./analysis-results/AxonFramework/latest/object-oriented-design-metrics-java/ObjectOrientedDesignMetricsJava_files/ObjectOrientedDesignMetricsJava_41_0.png" width="600" alt="Object-Oriented Design Metrics for Java packages">
+<img src="./analysis-results/AxonFramework/latest/object-oriented-design-metrics-java/ObjectOrientedDesignMetricsJava_files/ObjectOrientedDesignMetricsJava_41_0.png" width="600" alt="Object-oriented design metrics for Java packages">
 
 ### Effective Line Count of Java Methods
 
@@ -140,7 +140,7 @@ Here are some examples from over a hundred reports generated by the analysis. Th
 
 ### Word Cloud of Git Authors
 
-<img src="./analysis-results/AxonFramework/latest/wordcloud/Wordcloud_files/Wordcloud_16_0.png" width="600" alt="Word cloud of git authors">
+<img src="./analysis-results/AxonFramework/latest/wordcloud/Wordcloud_files/Wordcloud_16_0.png" width="600" alt="Word cloud of Git authors">
 
 ### Number of distinct commit authors
 
@@ -152,18 +152,18 @@ Here are some examples from over a hundred reports generated by the analysis. Th
 
 ### Clustering coefficient vs. Page Rank
 
-This scatter plot compares the importance of Java types to the density of their connections. The Y axis shows the [PageRank](https://en.wikipedia.org/wiki/PageRank) score. Higher values indicate more important and frequently used types. The X axis shows the [clustering coefficient](https://en.wikipedia.org/wiki/Clustering_coefficient). Higher values mean more densely connected neighborhoods. Important bridge or hub Types can be found on the Top-left. Highly influential nodes in dense, well-connected communities can be found on the Top-Right.
+The scatter plot below compares the importance of Java types to the density of their connections. The Y axis shows the [PageRank](https://en.wikipedia.org/wiki/PageRank) score (higher values indicate more important and frequently used types). The X axis shows the [clustering coefficient](https://en.wikipedia.org/wiki/Clustering_coefficient) (higher values indicate more densely connected neighborhoods). Important bridge or hub types appear toward the top-left; highly influential nodes in dense communities appear toward the top-right.
 
 <img src="./analysis-results/AxonFramework/latest/anomaly-detection/Java_Type_ClusteringCoefficient_versus_PageRank.svg" width="600" alt="Clustering Coefficient vs. PageRank">
 
 ### Java Types that are surprisingly central or popular
 
-<img src="./analysis-results/AxonFramework/latest/anomaly-detection/Java_Type_ClusterNoise_highly_central_and_popular.svg" width="600" alt="">
+<img src="./analysis-results/AxonFramework/latest/anomaly-detection/Java_Type_ClusterNoise_highly_central_and_popular.svg" width="600" alt="Surprisingly central or popular Java types">
 
 ### Largest Java Type Clusters
 
-<img src="./analysis-results/AxonFramework/latest/anomaly-detection/Java_Type_Clusters_largest_size.svg" width="600" alt="">
+<img src="./analysis-results/AxonFramework/latest/anomaly-detection/Java_Type_Clusters_largest_size.svg" width="600" alt="Largest Java type clusters">
 
 ### Java Type Anomalies
 
-<img src="./analysis-results/AxonFramework/latest/anomaly-detection/Java_Type_Anomalies.svg" width="600" alt="">
+<img src="./analysis-results/AxonFramework/latest/anomaly-detection/Java_Type_Anomalies.svg" width="600" alt="Java type anomalies">
