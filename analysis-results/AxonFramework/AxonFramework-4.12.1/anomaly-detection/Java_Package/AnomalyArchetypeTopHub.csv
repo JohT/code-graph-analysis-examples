@@ -1,0 +1,6 @@
+"projectName","shortCodeUnitName","codeUnitName","localClusteringCoefficient","degree","incomingDependencies","outgoingDependencies","rank","Source Cypher File: /home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/domains/anomaly-detection/labels/AnomalyDetectionArchetypeHub.cypher"
+"axon-spring-boot-autoconfigure-4.12.1","autoconfig","org.axonframework.springboot.autoconfig",0.17556848228450556,6541,68,6473,1,""
+"axon-messaging-4.12.1","messaging","org.axonframework.messaging",0.17708333333333334,10184,10051,133,2,""
+"axon-messaging-4.12.1","eventhandling","org.axonframework.eventhandling",0.1864406779661017,7683,6120,1563,3,""
+"axon-messaging-4.12.1","serialization","org.axonframework.serialization",0.19516908212560385,1947,1771,176,4,""
+"axon-configuration-4.12.1","config","org.axonframework.config",0.20584415584415586,10438,428,10010,5,""

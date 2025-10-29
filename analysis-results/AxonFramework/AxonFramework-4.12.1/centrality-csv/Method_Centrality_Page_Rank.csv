@@ -121,7 +121,7 @@
 "org.axonframework.eventsourcing.EventStreamUtils: org.axonframework.eventsourcing.eventstore.DomainEventStream upcastAndDeserializeDomainEvents(java.util.stream.Stream,org.axonframework.serialization.Serializer,org.axonframework.serialization.upcasting.event.EventUpcaster)","upcastAndDeserializeDomainEvents","centralityPageRank",0.4591875,""
 "org.axonframework.test.deadline.StubDeadlineManager: void initializeAt(java.time.temporal.TemporalAccessor)","initializeAt","centralityPageRank",0.44962500000000005,""
 "org.axonframework.deadline.DefaultDeadlineManagerSpanFactory$Builder: org.axonframework.deadline.DefaultDeadlineManagerSpanFactory$Builder spanFactory(org.axonframework.tracing.SpanFactory)","spanFactory","centralityPageRank",0.44750000000000006,""
-"org.axonframework.lifecycle.Lifecycle$LifecycleRegistry: void onStart(int,java.lang.Runnable)","onStart","centralityPageRank",0.4475,""
+"org.axonframework.lifecycle.Lifecycle$LifecycleRegistry: void onStart(int,java.lang.Runnable)","onStart","centralityPageRank",0.44750000000000006,""
 "org.axonframework.common.transaction.TransactionManager: java.lang.Object fetchInTransaction(java.util.function.Supplier)","fetchInTransaction","centralityPageRank",0.4333333333333334,""
 "org.axonframework.config.DefaultConfigurer: org.axonframework.config.Configurer registerModule(org.axonframework.config.ModuleConfiguration)","registerModule","centralityPageRank",0.43209375000000005,""
 "org.axonframework.lifecycle.ShutdownLatch$ActivityHandle: void end()","end","centralityPageRank",0.43050000000000005,""

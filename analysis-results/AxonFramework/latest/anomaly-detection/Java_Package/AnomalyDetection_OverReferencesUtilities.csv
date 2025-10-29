@@ -1,0 +1,7 @@
+"codeUnitName","shortCodeUnitName","projectName","localClusteringCoefficient","pageRank","degree","incomingDependencies","outgoingDependencies","Source Cypher File: /home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/domains/anomaly-detection/queries/AnomalyDetectionOverReferencesUtilities.cypher"
+"org.axonframework.common","common","axon-messaging-4.12.1",0.13074565883554648,9.937387783011388,1089,1066,23,""
+"org.axonframework.messaging","messaging","axon-messaging-4.12.1",0.17708333333333334,5.524090589763232,10184,10051,133,""
+"org.axonframework.serialization","serialization","axon-messaging-4.12.1",0.19516908212560385,3.0355444168676327,1947,1771,176,""
+"org.axonframework.eventhandling","eventhandling","axon-messaging-4.12.1",0.1864406779661017,2.9251823054900754,7683,6120,1563,""
+"org.axonframework.messaging.unitofwork","unitofwork","axon-messaging-4.12.1",0.25,1.6364131129527992,383,260,123,""
+"org.axonframework.common.transaction","transaction","axon-messaging-4.12.1",0.2064516129032258,0.5472615391442559,374,368,6,""

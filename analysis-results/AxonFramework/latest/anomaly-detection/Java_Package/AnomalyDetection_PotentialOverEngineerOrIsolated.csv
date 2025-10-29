@@ -1,0 +1,5 @@
+"codeUnitName","shortCodeUnitName","projectName","localClusteringCoefficient","pageRank","degree","incomingDependencies","outgoingDependencies","Source Cypher File: /home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/domains/anomaly-detection/queries/AnomalyDetectionPotentialOverEngineerOrIsolated.cypher"
+"org.axonframework.axonserver.connector.heartbeat.source","source","axon-server-connector-4.12.1",1,0.15000000000000002,2,0,2,""
+"org.axonframework.axonserver.connector.heartbeat.connection.checker","checker","axon-server-connector-4.12.1",1,0.15000000000000002,6,1,5,""
+"org.axonframework.eventhandling.interceptors","interceptors","axon-messaging-4.12.1",1,0.15000000000000002,28,0,28,""
+"org.axonframework.messaging.interceptors.legacyvalidation","legacyvalidation","axon-messaging-4.12.1",1,0.15000000000000002,28,1,27,""
