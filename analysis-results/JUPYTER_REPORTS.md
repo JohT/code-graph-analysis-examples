@@ -75,6 +75,10 @@ Report | Analysis | Description
 | [PathFindingJava.md](./AxonFramework/AxonFramework-4.12.0/path-finding-java/PathFindingJava.md) | AxonFramework-4.12.0 | Path Finding for Java |
 | [VisibilityMetricsJava.md](./AxonFramework/AxonFramework-4.12.0/visibility-metrics-java/VisibilityMetricsJava.md) | AxonFramework-4.12.0 | Visibility Metrics for Java |
 | [Wordcloud.md](./AxonFramework/AxonFramework-4.12.0/wordcloud/Wordcloud.md) | AxonFramework-4.12.0 | Wordcloud |
+| [GraphVisualizationsReferenceForSummary.md](./AxonFramework/AxonFramework-4.12.1/anomaly-detection/Java_Artifact/GraphVisualizations/GraphVisualizationsReferenceForSummary.md) | AxonFramework-4.12.1 | Graph Visualizations |
+| [GraphVisualizationsReferenceForSummary.md](./AxonFramework/AxonFramework-4.12.1/anomaly-detection/Java_Package/GraphVisualizations/GraphVisualizationsReferenceForSummary.md) | AxonFramework-4.12.1 | Graph Visualizations |
+| [GraphVisualizationsReferenceForSummary.md](./AxonFramework/AxonFramework-4.12.1/anomaly-detection/Java_Type/GraphVisualizations/GraphVisualizationsReferenceForSummary.md) | AxonFramework-4.12.1 | Graph Visualizations |
+| [anomaly_detection_report.md](./AxonFramework/AxonFramework-4.12.1/anomaly-detection/anomaly_detection_report.md) | AxonFramework-4.12.1 | 📊 Anomaly Detection Report |
 | [DependenciesGraphJava.md](./AxonFramework/AxonFramework-4.12.1/dependencies-graph-java/DependenciesGraphJava.md) | AxonFramework-4.12.1 | Artifact Dependencies |
 | [ExternalDependenciesJava.md](./AxonFramework/AxonFramework-4.12.1/external-dependencies-java/ExternalDependenciesJava.md) | AxonFramework-4.12.1 | External Dependencies for Java |
 | [GitHistoryGeneral.md](./AxonFramework/AxonFramework-4.12.1/git-history-general/GitHistoryGeneral.md) | AxonFramework-4.12.1 | git log/history |
@@ -124,6 +128,10 @@ Report | Analysis | Description
 | [OverviewJava.md](./AxonFramework/AxonFramework-4.9.3/overview-java/OverviewJava.md) | AxonFramework-4.9.3 | Overview for Java |
 | [VisibilityMetricsJava.md](./AxonFramework/AxonFramework-4.9.3/visibility-metrics-java/VisibilityMetricsJava.md) | AxonFramework-4.9.3 | Visibility Metrics for Java |
 | [Wordcloud.md](./AxonFramework/AxonFramework-4.9.3/wordcloud/Wordcloud.md) | AxonFramework-4.9.3 | Wordcloud |
+| [GraphVisualizationsReferenceForSummary.md](./AxonFramework/latest/anomaly-detection/Java_Artifact/GraphVisualizations/GraphVisualizationsReferenceForSummary.md) | latest | Graph Visualizations |
+| [GraphVisualizationsReferenceForSummary.md](./AxonFramework/latest/anomaly-detection/Java_Package/GraphVisualizations/GraphVisualizationsReferenceForSummary.md) | latest | Graph Visualizations |
+| [GraphVisualizationsReferenceForSummary.md](./AxonFramework/latest/anomaly-detection/Java_Type/GraphVisualizations/GraphVisualizationsReferenceForSummary.md) | latest | Graph Visualizations |
+| [anomaly_detection_report.md](./AxonFramework/latest/anomaly-detection/anomaly_detection_report.md) | latest | 📊 Anomaly Detection Report |
 | [DependenciesGraphJava.md](./AxonFramework/latest/dependencies-graph-java/DependenciesGraphJava.md) | latest | Artifact Dependencies |
 | [ExternalDependenciesJava.md](./AxonFramework/latest/external-dependencies-java/ExternalDependenciesJava.md) | latest | External Dependencies for Java |
 | [GitHistoryGeneral.md](./AxonFramework/latest/git-history-general/GitHistoryGeneral.md) | latest | git log/history |
