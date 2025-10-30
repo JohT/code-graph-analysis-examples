@@ -24,8 +24,11 @@ echo "generateJupyterReportReference: Generating ${markdown_file}..."
 
 # Loop through all Markdown files in the current directory
 find . -type f -name "*.md" | sort | while read -r report_file; do
-    # Extract the first non-empty line that starts with '#'
-    report_file_header_line=$(grep -m 1 -e '^#\+.*' "${report_file}")
+    # Extract the first non-empty line that starts with one or more '#', allowing leading spaces
+    if ! report_file_header_line=$(grep -m 1 -e '^[[:space:]]*#\+[[:space:]]*.*' "${report_file}"); then
+      echo "generateJupyterReportReference: Warning: No header line found in ${report_file}, skipping."
+      continue
+    fi
 
     # Remove leading '#' characters and trim leading/trailing spaces
     description=$(echo "${report_file_header_line}" | sed -E 's/^#+\s*//')
