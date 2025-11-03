@@ -15,7 +15,7 @@ strict digraph TopOutlier1 {
 	graph   [label="Top Rank #1 Java Type Outlier\norg.axonframework.eventsourcing.eventstore.jdbc.EventSchema$1\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: cluster probability\nlarge circle: < 25% percentile of cluster probability\nthick outline: > 80% percentile of distance to cluster center\n\n"];
 	central [label="🧩 outlier #1\nEventSchema$1"];
 	"EventSchema_18859"  [label = "EventSchema\n(100.0%)"; penwidth = 2; ]; "EventSchema_18859" -> central [label=2; weight=2; penwidth=0.4];
-	"EventSchema$Builder_18861"  [label = "EventSchema$\nBuilder\n(100.0%)"; penwidth = 2; ]; "EventSchema$Builder_18861" -> central [label=1; weight=1; penwidth=0.4];
+	"EventSchema$Builder_18861"  [shape = "circle"; height=1.8; label = "EventSchema$\nBuilder\n(0.0%)"; penwidth = 5; ]; "EventSchema$Builder_18861" -> central [label=1; weight=1; penwidth=0.4];
 	"EventSchema_18859"  [label = "EventSchema\n(100.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "EventSchema_18859" [label=1; weight=1; penwidth=0.4; color = 5];
 	"EventSchema_18859" -> "EventSchema$Builder_18861" [label=20; weight=20; penwidth=0.3; color = 3]
 	"EventSchema$Builder_18861" -> "EventSchema_18859" [label=20; weight=20; penwidth=0.3; color = 3]

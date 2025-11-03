@@ -14,13 +14,13 @@ strict digraph TopOutlier2 {
 
 	graph   [label="Top Rank #2 Java Type Outlier\norg.axonframework.tracing.attributes.MessageNameSpanAttributesProvider\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: cluster probability\nlarge circle: < 25% percentile of cluster probability\nthick outline: > 80% percentile of distance to cluster center\n\n"];
 	central [label="🧩 outlier #2\nMessageNameSpanAttributesProvider"];
-	"AxonTracingAutoConfiguration_21145"  [shape = "circle"; height=1.8; label = "AxonTracingAutoConfiguration\n(1.74%)"; penwidth = 2; ]; "AxonTracingAutoConfiguration_21145" -> central [label=2; weight=2; penwidth=0.4];
-	"CommandMessage_27164"  [label = "CommandMessage\n(53.69%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "CommandMessage_27164" [label=3; weight=3; penwidth=0.4; color = 5];
-	"Message_26672"  [label = "Message\n(78.87%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "Message_26672" [label=2; weight=2; penwidth=0.4; color = 5];
-	"QueryMessage_49073"  [label = "QueryMessage\n(100.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "QueryMessage_49073" [label=2; weight=2; penwidth=0.4; color = 5];
-	"SpanAttributesProvider_55080"  [label = "SpanAttributesProvider\n(83.13%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "SpanAttributesProvider_55080" [label=1; weight=1; penwidth=0.4; color = 5];
+	"AxonTracingAutoConfiguration_21145"  [label = "AxonTracingAutoConfiguration\n(1.73%)"; penwidth = 2; ]; "AxonTracingAutoConfiguration_21145" -> central [label=2; weight=2; penwidth=0.4];
+	"CommandMessage_26823"  [shape = "circle"; height=1.8; label = "CommandMessage\n(0.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "CommandMessage_26823" [label=3; weight=3; penwidth=0.4; color = 5];
+	"Message_26331"  [label = "Message\n(90.95%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "Message_26331" [label=2; weight=2; penwidth=0.4; color = 5];
+	"QueryMessage_48919"  [label = "QueryMessage\n(100.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "QueryMessage_48919" [label=2; weight=2; penwidth=0.4; color = 5];
+	"SpanAttributesProvider_55080"  [label = "SpanAttributesProvider\n(74.41%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "SpanAttributesProvider_55080" [label=1; weight=1; penwidth=0.4; color = 5];
 	"AxonTracingAutoConfiguration_21145" -> "SpanAttributesProvider_55080" [label=7; weight=7; penwidth=0.3; color = 3]
-	"QueryMessage_49073" -> "Message_26672" [label=6; weight=6; penwidth=0.3; color = 3]
-	"CommandMessage_27164" -> "Message_26672" [label=3; weight=3; penwidth=0.3; color = 3]
-	"SpanAttributesProvider_55080" -> "Message_26672" [label=1; weight=1; penwidth=0.3; color = 3]
+	"QueryMessage_48919" -> "Message_26331" [label=6; weight=6; penwidth=0.3; color = 3]
+	"CommandMessage_26823" -> "Message_26331" [label=3; weight=3; penwidth=0.3; color = 3]
+	"SpanAttributesProvider_55080" -> "Message_26331" [label=1; weight=1; penwidth=0.3; color = 3]
 }

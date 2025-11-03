@@ -1,7 +1,7 @@
 "projectName","shortCodeUnitName","codeUnitName","betweenness","rank","Source Cypher File: /home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/domains/anomaly-detection/labels/AnomalyDetectionArchetypeBottleneck.cypher"
 "axon-spring-boot-autoconfigure-4.12.1","AxonAutoConfiguration","org.axonframework.springboot.autoconfig.AxonAutoConfiguration",10295.887012987014,1,""
 "axon-configuration-4.12.1","Configuration","org.axonframework.config.Configuration",7064.165476190477,2,""
-"axon-configuration-4.12.1","Configurer","org.axonframework.config.Configurer",6390.839177489179,3,""
+"axon-configuration-4.12.1","Configurer","org.axonframework.config.Configurer",6390.839177489178,3,""
 "axon-messaging-4.12.1","Message","org.axonframework.messaging.Message",5994.607142857143,4,""
 "axon-configuration-4.12.1","ConfigurerModule","org.axonframework.config.ConfigurerModule",5434.937445887446,5,""
 "axon-messaging-4.12.1","UnitOfWork","org.axonframework.messaging.unitofwork.UnitOfWork",5255.525,6,""

@@ -12,13 +12,34 @@ strict digraph TopBridge2 {
     central [fontsize = 16;];
     central [color = 7; fillcolor = 5; penwidth = 3;];
 
-	graph   [label="Top Rank #2 Java Type Bridge\norg.axonframework.common.caching.JCacheAdapter\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
-	central [label="🌉 bridge #2\nJCacheAdapter"];
-	"Cache$EntryListener_31526" [label = "Cache$\nEntryListener"; color = 5; fillcolor = 1; ]; central -> "Cache$EntryListener_31526" [label=3; weight=3; penwidth=0.4; color = 5];
-	"JCacheAdapter$JCacheListenerAdapter_32166" [label = "JCacheAdapter$\nJCacheListenerAdapter"; color = 5; fillcolor = 1; ]; central -> "JCacheAdapter$JCacheListenerAdapter_32166" [label=3; weight=3; penwidth=0.4; color = 5];
-	"AbstractCacheAdapter_31523" [label = "AbstractCacheAdapter"; color = 5; fillcolor = 1; ]; central -> "AbstractCacheAdapter_31523" [label=2; weight=2; penwidth=0.4; color = 5];
-	"Registration_26659" [label = "Registration"; color = 5; fillcolor = 1; ]; central -> "Registration_26659" [label=2; weight=2; penwidth=0.4; color = 5];
-	"JCacheAdapter$JCacheListenerAdapter_32166" -> "Cache$EntryListener_31526" [label=7; weight=7; penwidth=0.3; color = 3]
-	"AbstractCacheAdapter_31523" -> "Cache$EntryListener_31526" [label=5; weight=5; penwidth=0.3; color = 3]
-	"AbstractCacheAdapter_31523" -> "Registration_26659" [label=4; weight=4; penwidth=0.3; color = 3]
+	graph   [label="Top Rank #2 Java Type Bridge\norg.axonframework.eventhandling.TrackingEventProcessor$TrackingSegmentWorker\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
+	central [label="🌉 bridge #2\nTrackingEventProcessor$TrackingSegmentWorker"];
+	"TrackingEventProcessor$WorkerLauncher_37651" [label = "TrackingEventProcessor$\nWorkerLauncher"; ]; "TrackingEventProcessor$WorkerLauncher_37651" -> central [label=7; weight=7; penwidth=0.5];
+	"TrackingEventProcessor_37644" [label = "TrackingEventProcessor"; ]; "TrackingEventProcessor_37644" -> central [label=1; weight=1; penwidth=0.4];
+	"TrackingEventProcessor_37644" [label = "TrackingEventProcessor"; color = 5; fillcolor = 1; ]; central -> "TrackingEventProcessor_37644" [label=16; weight=16; penwidth=0.6; color = 5];
+	"Segment_35452" [label = "Segment"; color = 5; fillcolor = 1; ]; central -> "Segment_35452" [label=5; weight=5; penwidth=0.5; color = 5];
+	"TrackingEventProcessor$Worker_37822" [label = "TrackingEventProcessor$\nWorker"; color = 5; fillcolor = 1; ]; central -> "TrackingEventProcessor$Worker_37822" [label=4; weight=4; penwidth=0.4; color = 5];
+	"TrackingEventProcessor$State_37820" [label = "TrackingEventProcessor$\nState"; color = 5; fillcolor = 1; ]; central -> "TrackingEventProcessor$State_37820" [label=3; weight=3; penwidth=0.4; color = 5];
+	"TrackingEventProcessor$WorkerLauncher_37651" [label = "TrackingEventProcessor$\nWorkerLauncher"; color = 5; fillcolor = 1; ]; central -> "TrackingEventProcessor$WorkerLauncher_37651" [label=3; weight=3; penwidth=0.4; color = 5];
+	"RemovedTrackerStatus_36768" [label = "RemovedTrackerStatus"; color = 5; fillcolor = 1; ]; central -> "RemovedTrackerStatus_36768" [label=2; weight=2; penwidth=0.4; color = 5];
+	"EventTrackerStatusChangeListener_35649" [label = "EventTrackerStatusChangeListener"; color = 5; fillcolor = 1; ]; central -> "EventTrackerStatusChangeListener_35649" [label=1; weight=1; penwidth=0.4; color = 5];
+	"TrackerStatus_37642" [label = "TrackerStatus"; color = 5; fillcolor = 1; ]; central -> "TrackerStatus_37642" [label=1; weight=1; penwidth=0.4; color = 5];
+	"TrackingEventProcessor$1_37643" [label = "TrackingEventProcessor$\n1"; color = 5; fillcolor = 1; ]; central -> "TrackingEventProcessor$1_37643" [label=1; weight=1; penwidth=0.4; color = 5];
+	"TrackingEventProcessor$WorkerLauncher_37651" -> "TrackingEventProcessor_37644" [label=55; weight=55; penwidth=0.3; color = 3]
+	"TrackingEventProcessor_37644" -> "Segment_35452" [label=43; weight=43; penwidth=0.3; color = 3]
+	"TrackingEventProcessor_37644" -> "TrackerStatus_37642" [label=34; weight=34; penwidth=0.3; color = 3]
+	"TrackingEventProcessor_37644" -> "TrackingEventProcessor$State_37820" [label=21; weight=21; penwidth=0.3; color = 3]
+	"TrackingEventProcessor_37644" -> "EventTrackerStatusChangeListener_35649" [label=9; weight=9; penwidth=0.3; color = 3]
+	"TrackingEventProcessor$WorkerLauncher_37651" -> "TrackerStatus_37642" [label=7; weight=7; penwidth=0.3; color = 3]
+	"TrackerStatus_37642" -> "Segment_35452" [label=6; weight=6; penwidth=0.3; color = 3]
+	"TrackingEventProcessor_37644" -> "TrackingEventProcessor$Worker_37822" [label=4; weight=4; penwidth=0.3; color = 3]
+	"TrackingEventProcessor$WorkerLauncher_37651" -> "TrackingEventProcessor$State_37820" [label=4; weight=4; penwidth=0.3; color = 3]
+	"TrackingEventProcessor$WorkerLauncher_37651" -> "RemovedTrackerStatus_36768" [label=4; weight=4; penwidth=0.3; color = 3]
+	"TrackingEventProcessor_37644" -> "TrackingEventProcessor$WorkerLauncher_37651" [label=3; weight=3; penwidth=0.3; color = 3]
+	"TrackingEventProcessor$WorkerLauncher_37651" -> "EventTrackerStatusChangeListener_35649" [label=3; weight=3; penwidth=0.3; color = 3]
+	"TrackingEventProcessor$WorkerLauncher_37651" -> "Segment_35452" [label=3; weight=3; penwidth=0.3; color = 3]
+	"TrackingEventProcessor$WorkerLauncher_37651" -> "TrackingEventProcessor$1_37643" [label=2; weight=2; penwidth=0.3; color = 3]
+	"TrackingEventProcessor$WorkerLauncher_37651" -> "TrackingEventProcessor$Worker_37822" [label=2; weight=2; penwidth=0.3; color = 3]
+	"TrackingEventProcessor_37644" -> "TrackingEventProcessor$1_37643" [label=1; weight=1; penwidth=0.3; color = 3]
+	"TrackingEventProcessor$1_37643" -> "TrackingEventProcessor_37644" [label=1; weight=1; penwidth=0.3; color = 3]
 }

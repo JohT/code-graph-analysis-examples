@@ -14,58 +14,58 @@ strict digraph TopHub2 {
 
 	graph   [label="Top Rank #2 Java Type Hub\norg.axonframework.common.BuilderUtils\n\nnodes: incoming dependencies (limited max. 40)\nnode value: local clustering coefficient\nthick outline: <1 0% percentile of local clustering coefficient\n\n"];
 	central [label="🎡 hub #2\nBuilderUtils\n(in-degree=114)"];
-	"DeadLetterSchema$Builder_39717"  [label = "DeadLetterSchema$\nBuilder\n(0.0)"; penwidth = 5; ]; "DeadLetterSchema$Builder_39717" -> central [label=23; weight=23; penwidth=0.7];
+	"DeadLetterSchema$Builder_39712"  [label = "DeadLetterSchema$\nBuilder\n(0.0)"; penwidth = 5; ]; "DeadLetterSchema$Builder_39712" -> central [label=23; weight=23; penwidth=0.7];
 	"JdbcEventStorageEngine$Builder_18864"  [label = "JdbcEventStorageEngine$\nBuilder\n(0.14)"; penwidth = 2; ]; "JdbcEventStorageEngine$Builder_18864" -> central [label=21; weight=21; penwidth=0.6];
 	"AxonServerQueryBus$Builder_3068"  [label = "AxonServerQueryBus$\nBuilder\n(0.19)"; penwidth = 2; ]; "AxonServerQueryBus$Builder_3068" -> central [label=20; weight=20; penwidth=0.6];
-	"PooledStreamingEventProcessor$Builder_42540"  [label = "PooledStreamingEventProcessor$\nBuilder\n(0.21)"; penwidth = 2; ]; "PooledStreamingEventProcessor$Builder_42540" -> central [label=20; weight=20; penwidth=0.6];
-	"JdbcSequencedDeadLetterQueue$Builder_39791"  [label = "JdbcSequencedDeadLetterQueue$\nBuilder\n(0.3)"; penwidth = 2; ]; "JdbcSequencedDeadLetterQueue$Builder_39791" -> central [label=19; weight=19; penwidth=0.6];
+	"PooledStreamingEventProcessor$Builder_42537"  [label = "PooledStreamingEventProcessor$\nBuilder\n(0.21)"; penwidth = 2; ]; "PooledStreamingEventProcessor$Builder_42537" -> central [label=20; weight=20; penwidth=0.6];
+	"JdbcSequencedDeadLetterQueue$Builder_39787"  [label = "JdbcSequencedDeadLetterQueue$\nBuilder\n(0.3)"; penwidth = 2; ]; "JdbcSequencedDeadLetterQueue$Builder_39787" -> central [label=19; weight=19; penwidth=0.6];
 	"AxonServerCommandBus$Builder_6286"  [label = "AxonServerCommandBus$\nBuilder\n(0.19)"; penwidth = 2; ]; "AxonServerCommandBus$Builder_6286" -> central [label=17; weight=17; penwidth=0.6];
-	"JpaSequencedDeadLetterQueue$Builder_40933"  [label = "JpaSequencedDeadLetterQueue$\nBuilder\n(0.39)"; penwidth = 2; ]; "JpaSequencedDeadLetterQueue$Builder_40933" -> central [label=16; weight=16; penwidth=0.6];
-	"JpaSequencedDeadLetterQueue$Builder_40586"  [label = "JpaSequencedDeadLetterQueue$\nBuilder\n(0.39)"; penwidth = 2; ]; "JpaSequencedDeadLetterQueue$Builder_40586" -> central [label=16; weight=16; penwidth=0.6];
+	"JpaSequencedDeadLetterQueue$Builder_40929"  [label = "JpaSequencedDeadLetterQueue$\nBuilder\n(0.39)"; penwidth = 2; ]; "JpaSequencedDeadLetterQueue$Builder_40929" -> central [label=16; weight=16; penwidth=0.6];
+	"JpaSequencedDeadLetterQueue$Builder_40581"  [label = "JpaSequencedDeadLetterQueue$\nBuilder\n(0.39)"; penwidth = 2; ]; "JpaSequencedDeadLetterQueue$Builder_40581" -> central [label=16; weight=16; penwidth=0.6];
 	"AvroSerializer$Builder_53448"  [label = "AvroSerializer$\nBuilder\n(0.24)"; penwidth = 2; ]; "AvroSerializer$Builder_53448" -> central [label=11; weight=11; penwidth=0.5];
 	"AxonServerEventStoreFactory$Builder_4906"  [label = "AxonServerEventStoreFactory$\nBuilder\n(0.13)"; penwidth = 2; ]; "AxonServerEventStoreFactory$Builder_4906" -> central [label=11; weight=11; penwidth=0.5];
 	"DisruptorCommandBus$Builder_57735"  [label = "DisruptorCommandBus$\nBuilder\n(0.12)"; penwidth = 2; ]; "DisruptorCommandBus$Builder_57735" -> central [label=11; weight=11; penwidth=0.5];
 	"AxonServerEventStore$Builder_4893"  [label = "AxonServerEventStore$\nBuilder\n(0.17)"; penwidth = 2; ]; "AxonServerEventStore$Builder_4893" -> central [label=10; weight=10; penwidth=0.5];
 	"AbstractEventProcessor$Builder_35640"  [label = "AbstractEventProcessor$\nBuilder\n(0.27)"; penwidth = 2; ]; "AbstractEventProcessor$Builder_35640" -> central [label=9; weight=9; penwidth=0.5];
-	"AbstractRepository$Builder_8415"  [label = "AbstractRepository$\nBuilder\n(0.29)"; penwidth = 2; ]; "AbstractRepository$Builder_8415" -> central [label=9; weight=9; penwidth=0.5];
+	"AbstractRepository$Builder_8139"  [label = "AbstractRepository$\nBuilder\n(0.29)"; penwidth = 2; ]; "AbstractRepository$Builder_8139" -> central [label=9; weight=9; penwidth=0.5];
 	"AbstractRetryScheduler$Builder_29380"  [label = "AbstractRetryScheduler$\nBuilder\n(0.25)"; penwidth = 2; ]; "AbstractRetryScheduler$Builder_29380" -> central [label=9; weight=9; penwidth=0.5];
 	"AbstractSagaManager$Builder_12349"  [label = "AbstractSagaManager$\nBuilder\n(0.2)"; penwidth = 2; ]; "AbstractSagaManager$Builder_12349" -> central [label=9; weight=9; penwidth=0.5];
 	"AggregateAnnotationCommandHandler$Builder_9270"  [label = "AggregateAnnotationCommandHandler$\nBuilder\n(0.3)"; penwidth = 2; ]; "AggregateAnnotationCommandHandler$Builder_9270" -> central [label=9; weight=9; penwidth=0.5];
 	"AnnotatedSagaRepository$Builder_13666"  [label = "AnnotatedSagaRepository$\nBuilder\n(0.2)"; penwidth = 2; ]; "AnnotatedSagaRepository$Builder_13666" -> central [label=9; weight=9; penwidth=0.5];
-	"DbSchedulerDeadlineManager$Builder_33602"  [label = "DbSchedulerDeadlineManager$\nBuilder\n(0.21)"; penwidth = 2; ]; "DbSchedulerDeadlineManager$Builder_33602" -> central [label=9; weight=9; penwidth=0.5];
+	"DbSchedulerDeadlineManager$Builder_33599"  [label = "DbSchedulerDeadlineManager$\nBuilder\n(0.21)"; penwidth = 2; ]; "DbSchedulerDeadlineManager$Builder_33599" -> central [label=9; weight=9; penwidth=0.5];
 	"JobRunrDeadlineManager$Builder_34468"  [label = "JobRunrDeadlineManager$\nBuilder\n(0.21)"; penwidth = 2; ]; "JobRunrDeadlineManager$Builder_34468" -> central [label=9; weight=9; penwidth=0.5];
 	"QuartzDeadlineManager$Builder_34473"  [label = "QuartzDeadlineManager$\nBuilder\n(0.15)"; penwidth = 2; ]; "QuartzDeadlineManager$Builder_34473" -> central [label=9; weight=9; penwidth=0.5];
 	"DistributedCommandBus$Builder_29211"  [label = "DistributedCommandBus$\nBuilder\n(0.23)"; penwidth = 2; ]; "DistributedCommandBus$Builder_29211" -> central [label=8; weight=8; penwidth=0.5];
 	"JdbcTokenStore$Builder_43973"  [label = "JdbcTokenStore$\nBuilder\n(0.38)"; penwidth = 2; ]; "JdbcTokenStore$Builder_43973" -> central [label=8; weight=8; penwidth=0.5];
 	"JobRunrEventScheduler$Builder_43961"  [label = "JobRunrEventScheduler$\nBuilder\n(0.32)"; penwidth = 2; ]; "JobRunrEventScheduler$Builder_43961" -> central [label=8; weight=8; penwidth=0.5];
 	"PropertySequencingPolicy$Builder_38871"  [label = "PropertySequencingPolicy$\nBuilder\n(0.21)"; penwidth = 2; ]; "PropertySequencingPolicy$Builder_38871" -> central [label=8; weight=8; penwidth=0.5];
-	"DbSchedulerEventScheduler$Builder_42550"  [label = "DbSchedulerEventScheduler$\nBuilder\n(0.32)"; penwidth = 2; ]; "DbSchedulerEventScheduler$Builder_42550" -> central [label=7; weight=7; penwidth=0.5];
+	"DbSchedulerEventScheduler$Builder_42547"  [label = "DbSchedulerEventScheduler$\nBuilder\n(0.32)"; penwidth = 2; ]; "DbSchedulerEventScheduler$Builder_42547" -> central [label=7; weight=7; penwidth=0.5];
 	"QuartzEventScheduler$Builder_43965"  [label = "QuartzEventScheduler$\nBuilder\n(0.24)"; penwidth = 2; ]; "QuartzEventScheduler$Builder_43965" -> central [label=7; weight=7; penwidth=0.5];
 	"SimpleQueryBus$Builder_51449"  [label = "SimpleQueryBus$\nBuilder\n(0.24)"; penwidth = 2; ]; "SimpleQueryBus$Builder_51449" -> central [label=7; weight=7; penwidth=0.5];
-	"TrackingEventProcessor$Builder_37646"  [label = "TrackingEventProcessor$\nBuilder\n(0.25)"; penwidth = 2; ]; "TrackingEventProcessor$Builder_37646" -> central [label=7; weight=7; penwidth=0.5];
+	"TrackingEventProcessor$Builder_37645"  [label = "TrackingEventProcessor$\nBuilder\n(0.25)"; penwidth = 2; ]; "TrackingEventProcessor$Builder_37645" -> central [label=7; weight=7; penwidth=0.5];
 	"AbstractSnapshotter$Builder_15756"  [label = "AbstractSnapshotter$\nBuilder\n(0.2)"; penwidth = 2; ]; "AbstractSnapshotter$Builder_15756" -> central [label=6; weight=6; penwidth=0.5];
 	"AbstractXStreamSerializer$Builder_52489"  [label = "AbstractXStreamSerializer$\nBuilder\n(0.36)"; penwidth = 2; ]; "AbstractXStreamSerializer$Builder_52489" -> central [label=6; weight=6; penwidth=0.5];
 	"AxonServerEventStore$AxonIQEventStorageEngine$Builder_4902"  [label = "AxonServerEventStore$\nAxonIQEventStorageEngine$\nBuilder\n(0.31)"; penwidth = 2; ]; "AxonServerEventStore$AxonIQEventStorageEngine$Builder_4902" -> central [label=6; weight=6; penwidth=0.5];
 	"CachingSagaStore$Builder_13670"  [label = "CachingSagaStore$\nBuilder\n(0.3)"; penwidth = 2; ]; "CachingSagaStore$Builder_13670" -> central [label=6; weight=6; penwidth=0.5];
-	"DefaultDeadlineManagerSpanFactory$Builder_33593"  [label = "DefaultDeadlineManagerSpanFactory$\nBuilder\n(0.53)"; penwidth = 2; ]; "DefaultDeadlineManagerSpanFactory$Builder_33593" -> central [label=6; weight=6; penwidth=0.5];
+	"DefaultDeadlineManagerSpanFactory$Builder_33590"  [label = "DefaultDeadlineManagerSpanFactory$\nBuilder\n(0.53)"; penwidth = 2; ]; "DefaultDeadlineManagerSpanFactory$Builder_33590" -> central [label=6; weight=6; penwidth=0.5];
 	"EventSourcingRepository$Builder_16821"  [label = "EventSourcingRepository$\nBuilder\n(0.25)"; penwidth = 2; ]; "EventSourcingRepository$Builder_16821" -> central [label=6; weight=6; penwidth=0.5];
 	"JpaEventStorageEngine$Builder_20866"  [label = "JpaEventStorageEngine$\nBuilder\n(0.32)"; penwidth = 2; ]; "JpaEventStorageEngine$Builder_20866" -> central [label=6; weight=6; penwidth=0.5];
 	"JpaEventStorageEngine$Builder_19963"  [label = "JpaEventStorageEngine$\nBuilder\n(0.35)"; penwidth = 2; ]; "JpaEventStorageEngine$Builder_19963" -> central [label=6; weight=6; penwidth=0.5];
-	"JpaTokenStore$Builder_44878"  [label = "JpaTokenStore$\nBuilder\n(0.52)"; penwidth = 2; ]; "JpaTokenStore$Builder_44878" -> central [label=6; weight=6; penwidth=0.5];
-	"JpaTokenStore$Builder_44882"  [label = "JpaTokenStore$\nBuilder\n(0.4)"; penwidth = 2; ]; "JpaTokenStore$Builder_44882" -> central [label=6; weight=6; penwidth=0.5];
-	"SimpleCommandBus$Builder_26675"  [label = "SimpleCommandBus$\nBuilder\n(0.19)"; penwidth = 2; ]; "SimpleCommandBus$Builder_26675" -> central [label=6; weight=6; penwidth=0.5];
+	"JpaTokenStore$Builder_44781"  [label = "JpaTokenStore$\nBuilder\n(0.4)"; penwidth = 2; ]; "JpaTokenStore$Builder_44781" -> central [label=6; weight=6; penwidth=0.5];
+	"JpaTokenStore$Builder_44777"  [label = "JpaTokenStore$\nBuilder\n(0.52)"; penwidth = 2; ]; "JpaTokenStore$Builder_44777" -> central [label=6; weight=6; penwidth=0.5];
+	"SimpleCommandBus$Builder_26334"  [label = "SimpleCommandBus$\nBuilder\n(0.19)"; penwidth = 2; ]; "SimpleCommandBus$Builder_26334" -> central [label=6; weight=6; penwidth=0.5];
 	"AxonConfigurationException_28369"  [label = "AxonConfigurationException\n(0.04)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "AxonConfigurationException_28369" [label=5; weight=5; penwidth=0.5; color = 5];
-	"StringUtils_31096"  [label = "StringUtils\n(0.1)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "StringUtils_31096" [label=2; weight=2; penwidth=0.4; color = 5];
+	"StringUtils_31095"  [label = "StringUtils\n(0.1)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "StringUtils_31095" [label=2; weight=2; penwidth=0.4; color = 5];
 	"Assert_29287"  [label = "Assert\n(0.02)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "Assert_29287" [label=1; weight=1; penwidth=0.4; color = 5];
-	"TrackingEventProcessor$Builder_37646" -> "AbstractEventProcessor$Builder_35640" [label=19; weight=19; penwidth=0.3; color = 3]
-	"PooledStreamingEventProcessor$Builder_42540" -> "AbstractEventProcessor$Builder_35640" [label=18; weight=18; penwidth=0.3; color = 3]
+	"TrackingEventProcessor$Builder_37645" -> "AbstractEventProcessor$Builder_35640" [label=19; weight=19; penwidth=0.3; color = 3]
+	"PooledStreamingEventProcessor$Builder_42537" -> "AbstractEventProcessor$Builder_35640" [label=18; weight=18; penwidth=0.3; color = 3]
 	"AxonServerEventStore$Builder_4893" -> "AxonServerEventStore$AxonIQEventStorageEngine$Builder_4902" [label=10; weight=10; penwidth=0.3; color = 3]
-	"EventSourcingRepository$Builder_16821" -> "AbstractRepository$Builder_8415" [label=8; weight=8; penwidth=0.3; color = 3]
-	"DbSchedulerDeadlineManager$Builder_33602" -> "DefaultDeadlineManagerSpanFactory$Builder_33593" [label=5; weight=5; penwidth=0.3; color = 3]
-	"JobRunrDeadlineManager$Builder_34468" -> "DefaultDeadlineManagerSpanFactory$Builder_33593" [label=5; weight=5; penwidth=0.3; color = 3]
-	"QuartzDeadlineManager$Builder_34473" -> "DefaultDeadlineManagerSpanFactory$Builder_33593" [label=5; weight=5; penwidth=0.3; color = 3]
+	"EventSourcingRepository$Builder_16821" -> "AbstractRepository$Builder_8139" [label=8; weight=8; penwidth=0.3; color = 3]
+	"DbSchedulerDeadlineManager$Builder_33599" -> "DefaultDeadlineManagerSpanFactory$Builder_33590" [label=5; weight=5; penwidth=0.3; color = 3]
+	"JobRunrDeadlineManager$Builder_34468" -> "DefaultDeadlineManagerSpanFactory$Builder_33590" [label=5; weight=5; penwidth=0.3; color = 3]
+	"QuartzDeadlineManager$Builder_34473" -> "DefaultDeadlineManagerSpanFactory$Builder_33590" [label=5; weight=5; penwidth=0.3; color = 3]
 	"AbstractEventProcessor$Builder_35640" -> "AxonConfigurationException_28369" [label=1; weight=1; penwidth=0.3; color = 3]
-	"AbstractRepository$Builder_8415" -> "AxonConfigurationException_28369" [label=1; weight=1; penwidth=0.3; color = 3]
+	"AbstractRepository$Builder_8139" -> "AxonConfigurationException_28369" [label=1; weight=1; penwidth=0.3; color = 3]
 	"AbstractRetryScheduler$Builder_29380" -> "AxonConfigurationException_28369" [label=1; weight=1; penwidth=0.3; color = 3]
 	"AbstractSagaManager$Builder_12349" -> "AxonConfigurationException_28369" [label=1; weight=1; penwidth=0.3; color = 3]
 	"AbstractSnapshotter$Builder_15756" -> "AxonConfigurationException_28369" [label=1; weight=1; penwidth=0.3; color = 3]
@@ -73,25 +73,25 @@ strict digraph TopHub2 {
 	"AggregateAnnotationCommandHandler$Builder_9270" -> "AxonConfigurationException_28369" [label=1; weight=1; penwidth=0.3; color = 3]
 	"AnnotatedSagaRepository$Builder_13666" -> "AxonConfigurationException_28369" [label=1; weight=1; penwidth=0.3; color = 3]
 	"AvroSerializer$Builder_53448" -> "AxonConfigurationException_28369" [label=1; weight=1; penwidth=0.3; color = 3]
+	"AxonServerCommandBus$Builder_6286" -> "StringUtils_31095" [label=1; weight=1; penwidth=0.3; color = 3]
 	"AxonServerCommandBus$Builder_6286" -> "AxonConfigurationException_28369" [label=1; weight=1; penwidth=0.3; color = 3]
-	"AxonServerCommandBus$Builder_6286" -> "StringUtils_31096" [label=1; weight=1; penwidth=0.3; color = 3]
 	"AxonServerEventStore$AxonIQEventStorageEngine$Builder_4902" -> "AxonConfigurationException_28369" [label=1; weight=1; penwidth=0.3; color = 3]
 	"AxonServerEventStore$Builder_4893" -> "AxonConfigurationException_28369" [label=1; weight=1; penwidth=0.3; color = 3]
 	"AxonServerQueryBus$Builder_3068" -> "AxonConfigurationException_28369" [label=1; weight=1; penwidth=0.3; color = 3]
 	"CachingSagaStore$Builder_13670" -> "AxonConfigurationException_28369" [label=1; weight=1; penwidth=0.3; color = 3]
-	"DbSchedulerDeadlineManager$Builder_33602" -> "AxonConfigurationException_28369" [label=1; weight=1; penwidth=0.3; color = 3]
-	"DbSchedulerEventScheduler$Builder_42550" -> "AxonConfigurationException_28369" [label=1; weight=1; penwidth=0.3; color = 3]
+	"DbSchedulerDeadlineManager$Builder_33599" -> "AxonConfigurationException_28369" [label=1; weight=1; penwidth=0.3; color = 3]
+	"DbSchedulerEventScheduler$Builder_42547" -> "AxonConfigurationException_28369" [label=1; weight=1; penwidth=0.3; color = 3]
 	"JdbcEventStorageEngine$Builder_18864" -> "AxonConfigurationException_28369" [label=1; weight=1; penwidth=0.3; color = 3]
 	"JdbcTokenStore$Builder_43973" -> "AxonConfigurationException_28369" [label=1; weight=1; penwidth=0.3; color = 3]
 	"JobRunrDeadlineManager$Builder_34468" -> "AxonConfigurationException_28369" [label=1; weight=1; penwidth=0.3; color = 3]
 	"JobRunrEventScheduler$Builder_43961" -> "AxonConfigurationException_28369" [label=1; weight=1; penwidth=0.3; color = 3]
 	"JpaEventStorageEngine$Builder_20866" -> "AxonConfigurationException_28369" [label=1; weight=1; penwidth=0.3; color = 3]
 	"JpaEventStorageEngine$Builder_19963" -> "AxonConfigurationException_28369" [label=1; weight=1; penwidth=0.3; color = 3]
-	"JpaTokenStore$Builder_44878" -> "AxonConfigurationException_28369" [label=1; weight=1; penwidth=0.3; color = 3]
-	"JpaTokenStore$Builder_44882" -> "AxonConfigurationException_28369" [label=1; weight=1; penwidth=0.3; color = 3]
-	"PooledStreamingEventProcessor$Builder_42540" -> "AxonConfigurationException_28369" [label=1; weight=1; penwidth=0.3; color = 3]
+	"JpaTokenStore$Builder_44781" -> "AxonConfigurationException_28369" [label=1; weight=1; penwidth=0.3; color = 3]
+	"JpaTokenStore$Builder_44777" -> "AxonConfigurationException_28369" [label=1; weight=1; penwidth=0.3; color = 3]
+	"PooledStreamingEventProcessor$Builder_42537" -> "AxonConfigurationException_28369" [label=1; weight=1; penwidth=0.3; color = 3]
 	"QuartzDeadlineManager$Builder_34473" -> "AxonConfigurationException_28369" [label=1; weight=1; penwidth=0.3; color = 3]
 	"QuartzEventScheduler$Builder_43965" -> "AxonConfigurationException_28369" [label=1; weight=1; penwidth=0.3; color = 3]
 	"SimpleQueryBus$Builder_51449" -> "AxonConfigurationException_28369" [label=1; weight=1; penwidth=0.3; color = 3]
-	"TrackingEventProcessor$Builder_37646" -> "AxonConfigurationException_28369" [label=1; weight=1; penwidth=0.3; color = 3]
+	"TrackingEventProcessor$Builder_37645" -> "AxonConfigurationException_28369" [label=1; weight=1; penwidth=0.3; color = 3]
 }

@@ -49,8 +49,8 @@
       <td>19.664894</td>
       <td>288.570922</td>
       <td>366.186170</td>
-      <td>1242.592199</td>
-      <td>459.828014</td>
+      <td>1243.539007</td>
+      <td>460.822695</td>
     </tr>
     <tr>
       <th>std</th>
@@ -58,8 +58,8 @@
       <td>21.297173</td>
       <td>639.823202</td>
       <td>170.624646</td>
-      <td>980.427773</td>
-      <td>392.532956</td>
+      <td>980.407058</td>
+      <td>392.535607</td>
     </tr>
     <tr>
       <th>min</th>
@@ -67,8 +67,8 @@
       <td>2.000000</td>
       <td>3.000000</td>
       <td>88.000000</td>
-      <td>101.000000</td>
-      <td>87.000000</td>
+      <td>102.000000</td>
+      <td>88.000000</td>
     </tr>
     <tr>
       <th>25%</th>
@@ -76,8 +76,8 @@
       <td>7.000000</td>
       <td>27.000000</td>
       <td>228.000000</td>
-      <td>501.000000</td>
-      <td>318.000000</td>
+      <td>502.000000</td>
+      <td>319.000000</td>
     </tr>
     <tr>
       <th>50%</th>
@@ -85,8 +85,8 @@
       <td>12.000000</td>
       <td>82.500000</td>
       <td>461.000000</td>
-      <td>1020.000000</td>
-      <td>460.000000</td>
+      <td>1021.000000</td>
+      <td>461.000000</td>
     </tr>
     <tr>
       <th>75%</th>
@@ -94,8 +94,8 @@
       <td>25.000000</td>
       <td>270.250000</td>
       <td>461.000000</td>
-      <td>2067.000000</td>
-      <td>460.000000</td>
+      <td>2068.000000</td>
+      <td>461.000000</td>
     </tr>
     <tr>
       <th>max</th>
@@ -103,8 +103,8 @@
       <td>213.000000</td>
       <td>9815.000000</td>
       <td>2611.000000</td>
-      <td>5738.000000</td>
-      <td>3089.000000</td>
+      <td>5739.000000</td>
+      <td>3090.000000</td>
     </tr>
   </tbody>
 </table>
@@ -153,8 +153,8 @@
       <td>Frank Versnel</td>
       <td>47</td>
       <td>461</td>
-      <td>5738</td>
-      <td>460</td>
+      <td>5739</td>
+      <td>461</td>
       <td>2024-07-30</td>
       <td>2010-02-16</td>
       <td>2024-07-30</td>
@@ -173,8 +173,8 @@
       <td>Elin Alexey</td>
       <td>31</td>
       <td>461</td>
-      <td>2209</td>
-      <td>460</td>
+      <td>2210</td>
+      <td>461</td>
       <td>2024-07-30</td>
       <td>2019-10-16</td>
       <td>2024-07-30</td>
@@ -193,8 +193,8 @@
       <td>Marc Gathier</td>
       <td>22</td>
       <td>461</td>
-      <td>2578</td>
-      <td>2578</td>
+      <td>2579</td>
+      <td>2579</td>
       <td>2024-07-30</td>
       <td>2018-10-12</td>
       <td>2018-10-12</td>
@@ -213,8 +213,8 @@
       <td>Elin Alexey</td>
       <td>69</td>
       <td>461</td>
-      <td>2602</td>
-      <td>460</td>
+      <td>2603</td>
+      <td>461</td>
       <td>2024-07-30</td>
       <td>2018-09-18</td>
       <td>2024-07-30</td>
@@ -233,8 +233,8 @@
       <td>Marijn van Zelst</td>
       <td>34</td>
       <td>461</td>
-      <td>2580</td>
-      <td>460</td>
+      <td>2581</td>
+      <td>461</td>
       <td>2024-07-30</td>
       <td>2018-10-10</td>
       <td>2024-07-30</td>
@@ -253,8 +253,8 @@
       <td>Christian Vermorken</td>
       <td>178</td>
       <td>91</td>
-      <td>1403</td>
-      <td>90</td>
+      <td>1404</td>
+      <td>91</td>
       <td>2025-08-04</td>
       <td>2021-12-30</td>
       <td>2025-08-04</td>
@@ -273,8 +273,8 @@
       <td>David Gómez G</td>
       <td>10</td>
       <td>461</td>
-      <td>513</td>
-      <td>513</td>
+      <td>514</td>
+      <td>514</td>
       <td>2024-07-30</td>
       <td>2024-06-07</td>
       <td>2024-06-07</td>
@@ -293,8 +293,8 @@
       <td>David Gómez G</td>
       <td>18</td>
       <td>461</td>
-      <td>501</td>
-      <td>501</td>
+      <td>502</td>
+      <td>502</td>
       <td>2024-07-30</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -313,8 +313,8 @@
       <td>David Gómez G</td>
       <td>18</td>
       <td>461</td>
-      <td>501</td>
-      <td>501</td>
+      <td>502</td>
+      <td>502</td>
       <td>2024-07-30</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -333,8 +333,8 @@
       <td>David Gómez G</td>
       <td>19</td>
       <td>461</td>
-      <td>501</td>
-      <td>501</td>
+      <td>502</td>
+      <td>502</td>
       <td>2024-07-30</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -353,8 +353,8 @@
       <td>David Gómez G</td>
       <td>18</td>
       <td>461</td>
-      <td>501</td>
-      <td>501</td>
+      <td>502</td>
+      <td>502</td>
       <td>2024-07-30</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -373,8 +373,8 @@
       <td>David Gómez G</td>
       <td>19</td>
       <td>461</td>
-      <td>501</td>
-      <td>501</td>
+      <td>502</td>
+      <td>502</td>
       <td>2024-07-30</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -393,8 +393,8 @@
       <td>David Gómez G</td>
       <td>18</td>
       <td>461</td>
-      <td>501</td>
-      <td>501</td>
+      <td>502</td>
+      <td>502</td>
       <td>2024-07-30</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -413,8 +413,8 @@
       <td>David Gómez G</td>
       <td>19</td>
       <td>461</td>
-      <td>501</td>
-      <td>501</td>
+      <td>502</td>
+      <td>502</td>
       <td>2024-07-30</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -433,8 +433,8 @@
       <td>David Gómez G</td>
       <td>18</td>
       <td>461</td>
-      <td>501</td>
-      <td>501</td>
+      <td>502</td>
+      <td>502</td>
       <td>2024-07-30</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -453,8 +453,8 @@
       <td>David Gómez G</td>
       <td>20</td>
       <td>461</td>
-      <td>501</td>
-      <td>501</td>
+      <td>502</td>
+      <td>502</td>
       <td>2024-07-30</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -473,8 +473,8 @@
       <td>David Gómez G</td>
       <td>18</td>
       <td>461</td>
-      <td>501</td>
-      <td>501</td>
+      <td>502</td>
+      <td>502</td>
       <td>2024-07-30</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -493,8 +493,8 @@
       <td>David Gómez G</td>
       <td>19</td>
       <td>461</td>
-      <td>501</td>
-      <td>501</td>
+      <td>502</td>
+      <td>502</td>
       <td>2024-07-30</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -513,8 +513,8 @@
       <td>David Gómez G</td>
       <td>18</td>
       <td>461</td>
-      <td>501</td>
-      <td>501</td>
+      <td>502</td>
+      <td>502</td>
       <td>2024-07-30</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -533,8 +533,8 @@
       <td>David Gómez G</td>
       <td>19</td>
       <td>461</td>
-      <td>501</td>
-      <td>501</td>
+      <td>502</td>
+      <td>502</td>
       <td>2024-07-30</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -553,8 +553,8 @@
       <td>David Gómez G</td>
       <td>18</td>
       <td>461</td>
-      <td>501</td>
-      <td>501</td>
+      <td>502</td>
+      <td>502</td>
       <td>2024-07-30</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -573,8 +573,8 @@
       <td>David Gómez G</td>
       <td>19</td>
       <td>461</td>
-      <td>501</td>
-      <td>501</td>
+      <td>502</td>
+      <td>502</td>
       <td>2024-07-30</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -593,8 +593,8 @@
       <td>David Gómez G</td>
       <td>18</td>
       <td>461</td>
-      <td>501</td>
-      <td>501</td>
+      <td>502</td>
+      <td>502</td>
       <td>2024-07-30</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -613,8 +613,8 @@
       <td>David Gómez G</td>
       <td>18</td>
       <td>461</td>
-      <td>501</td>
-      <td>501</td>
+      <td>502</td>
+      <td>502</td>
       <td>2024-07-30</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -633,8 +633,8 @@
       <td>David Gómez G</td>
       <td>19</td>
       <td>461</td>
-      <td>501</td>
-      <td>501</td>
+      <td>502</td>
+      <td>502</td>
       <td>2024-07-30</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -653,8 +653,8 @@
       <td>David Gómez G</td>
       <td>18</td>
       <td>461</td>
-      <td>501</td>
-      <td>501</td>
+      <td>502</td>
+      <td>502</td>
       <td>2024-07-30</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -673,8 +673,8 @@
       <td>David Gómez G</td>
       <td>20</td>
       <td>461</td>
-      <td>501</td>
-      <td>501</td>
+      <td>502</td>
+      <td>502</td>
       <td>2024-07-30</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -693,8 +693,8 @@
       <td>David Gómez G</td>
       <td>18</td>
       <td>461</td>
-      <td>501</td>
-      <td>501</td>
+      <td>502</td>
+      <td>502</td>
       <td>2024-07-30</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -713,8 +713,8 @@
       <td>David Gómez G</td>
       <td>19</td>
       <td>461</td>
-      <td>501</td>
-      <td>501</td>
+      <td>502</td>
+      <td>502</td>
       <td>2024-07-30</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -733,8 +733,8 @@
       <td>David Gómez G</td>
       <td>18</td>
       <td>461</td>
-      <td>501</td>
-      <td>501</td>
+      <td>502</td>
+      <td>502</td>
       <td>2024-07-30</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -1486,8 +1486,8 @@ The following charts show how these metrics are distributed across pairs of file
       <td>adoc↔xml</td>
       <td>3</td>
       <td>9</td>
-      <td>configuration↔pom</td>
-      <td>docs/old-reference-guide/modules/queries/pages/configuration.adoc↔axon-server-connector/pom.xml</td>
+      <td>nav↔pom</td>
+      <td>docs/old-reference-guide/modules/queries/partials/nav.adoc↔axon-server-connector/pom.xml</td>
     </tr>
   </tbody>
 </table>
@@ -1783,8 +1783,8 @@ This metric is useful to identify pairs of files that are frequently changed tog
       <td>adoc↔xml</td>
       <td>0.333333</td>
       <td>3</td>
-      <td>configuration↔pom</td>
-      <td>docs/old-reference-guide/modules/queries/pages/configuration.adoc↔axon-server-connector/pom.xml</td>
+      <td>nav↔pom</td>
+      <td>docs/old-reference-guide/modules/queries/partials/nav.adoc↔axon-server-connector/pom.xml</td>
     </tr>
     <tr>
       <th>33</th>
@@ -1909,8 +1909,8 @@ This metric is useful to identify pairs of files that are frequently changed tog
       <td>java↔java</td>
       <td>971.333333</td>
       <td>5</td>
-      <td>AvroSchemaScan↔SpecificRecordBaseClasspathAvroSchemaLoader</td>
-      <td>spring/src/main/java/org/axonframework/spring/serialization/avro/AvroSchemaScan.java↔spring/src/main/java/org/axonframework/spring/serialization/avro/SpecificRecordBaseClasspathAvroSchemaLoader.java</td>
+      <td>ClasspathAvroSchemaLoader↔SpecificRecordBaseClasspathAvroSchemaLoader</td>
+      <td>spring/src/main/java/org/axonframework/spring/serialization/avro/ClasspathAvroSchemaLoader.java↔spring/src/main/java/org/axonframework/spring/serialization/avro/SpecificRecordBaseClasspathAvroSchemaLoader.java</td>
     </tr>
     <tr>
       <th>5</th>
@@ -2125,8 +2125,8 @@ This metric is useful to identify pairs of files that are frequently changed tog
       <td>adoc↔xml</td>
       <td>21.347985</td>
       <td>2</td>
-      <td>nav↔pom</td>
-      <td>docs/old-reference-guide/modules/queries/partials/nav.adoc↔spring-boot3-dummy/pom.xml</td>
+      <td>configuration↔pom</td>
+      <td>docs/old-reference-guide/modules/queries/pages/configuration.adoc↔spring-boot3-dummy/pom.xml</td>
     </tr>
     <tr>
       <th>32</th>
@@ -2613,21 +2613,6 @@ This is useful to identify pairs of files that score high in most metrics, which
     <tr>
       <th>2</th>
       <td>adoc↔xml</td>
-      <td>nav↔pom</td>
-      <td>28</td>
-      <td>9</td>
-      <td>3</td>
-      <td>14</td>
-      <td>2</td>
-      <td>3</td>
-      <td>0.333333</td>
-      <td>0.030928</td>
-      <td>21.347985</td>
-      <td>docs/old-reference-guide/modules/queries/partials/nav.adoc↔spring-boot3-dummy/pom.xml</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>adoc↔xml</td>
       <td>configuration↔pom</td>
       <td>28</td>
       <td>9</td>
@@ -2639,6 +2624,21 @@ This is useful to identify pairs of files that score high in most metrics, which
       <td>0.030928</td>
       <td>21.347985</td>
       <td>docs/old-reference-guide/modules/queries/pages/configuration.adoc↔spring-boot3-dummy/pom.xml</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>adoc↔xml</td>
+      <td>nav↔pom</td>
+      <td>28</td>
+      <td>9</td>
+      <td>3</td>
+      <td>14</td>
+      <td>2</td>
+      <td>3</td>
+      <td>0.333333</td>
+      <td>0.030928</td>
+      <td>21.347985</td>
+      <td>docs/old-reference-guide/modules/queries/partials/nav.adoc↔spring-boot3-dummy/pom.xml</td>
     </tr>
     <tr>
       <th>4</th>
@@ -2868,7 +2868,7 @@ This is useful to identify pairs of files that score high in most metrics, which
     <tr>
       <th>19</th>
       <td>java↔java</td>
-      <td>AvroSchemaScan↔SpecificRecordBaseClasspathAvroSchemaLoader</td>
+      <td>ClasspathAvroSchemaLoader↔SpecificRecordBaseClasspathAvroSchemaLoader</td>
       <td>99</td>
       <td>80</td>
       <td>1</td>
@@ -2878,7 +2878,7 @@ This is useful to identify pairs of files that score high in most metrics, which
       <td>1.000000</td>
       <td>0.500000</td>
       <td>971.333333</td>
-      <td>spring/src/main/java/org/axonframework/spring/serialization/avro/AvroSchemaScan.java↔spring/src/main/java/org/axonframework/spring/serialization/avro/SpecificRecordBaseClasspathAvroSchemaLoader.java</td>
+      <td>spring/src/main/java/org/axonframework/spring/serialization/avro/ClasspathAvroSchemaLoader.java↔spring/src/main/java/org/axonframework/spring/serialization/avro/SpecificRecordBaseClasspathAvroSchemaLoader.java</td>
     </tr>
     <tr>
       <th>20</th>
