@@ -142,30 +142,30 @@ This step takes the original node embeddings with a higher dimensionality, e.g. 
 
 
     ===> Finding 3 nearest neighbors using exact search using euclidean distance...
-       --> Time elapsed: 0.02 seconds
+       --> Time elapsed: 0.03 seconds
     ===> Calculating affinity matrix...
        --> Time elapsed: 0.00 seconds
     ===> Calculating PCA-based initialization...
        --> Time elapsed: 0.00 seconds
     ===> Running optimization with exaggeration=12.00, lr=0.33 for 250 iterations...
-    Iteration   50, KL divergence 0.0968, 50 iterations in 0.0050 sec
-    Iteration  100, KL divergence 0.0693, 50 iterations in 0.0052 sec
-    Iteration  150, KL divergence 0.0528, 50 iterations in 0.0054 sec
-    Iteration  200, KL divergence 0.0444, 50 iterations in 0.0054 sec
-    Iteration  250, KL divergence 0.0391, 50 iterations in 0.0054 sec
+    Iteration   50, KL divergence 0.0966, 50 iterations in 0.0057 sec
+    Iteration  100, KL divergence 0.0692, 50 iterations in 0.0058 sec
+    Iteration  150, KL divergence 0.0528, 50 iterations in 0.0058 sec
+    Iteration  200, KL divergence 0.0444, 50 iterations in 0.0058 sec
+    Iteration  250, KL divergence 0.0391, 50 iterations in 0.0059 sec
        --> Time elapsed: 0.03 seconds
     ===> Running optimization with exaggeration=1.00, lr=4.00 for 500 iterations...
-    Iteration   50, KL divergence 0.0119, 50 iterations in 0.0054 sec
-    Iteration  100, KL divergence 0.0065, 50 iterations in 0.0055 sec
-    Iteration  150, KL divergence 0.0044, 50 iterations in 0.0056 sec
-    Iteration  200, KL divergence 0.0034, 50 iterations in 0.0057 sec
-    Iteration  250, KL divergence 0.0027, 50 iterations in 0.0057 sec
-    Iteration  300, KL divergence 0.0023, 50 iterations in 0.0058 sec
-    Iteration  350, KL divergence 0.0020, 50 iterations in 0.0058 sec
-    Iteration  400, KL divergence 0.0017, 50 iterations in 0.0058 sec
-    Iteration  450, KL divergence 0.0015, 50 iterations in 0.0058 sec
-    Iteration  500, KL divergence 0.0014, 50 iterations in 0.0059 sec
-       --> Time elapsed: 0.06 seconds
+    Iteration   50, KL divergence 0.0119, 50 iterations in 0.0057 sec
+    Iteration  100, KL divergence 0.0065, 50 iterations in 0.0059 sec
+    Iteration  150, KL divergence 0.0044, 50 iterations in 0.0059 sec
+    Iteration  200, KL divergence 0.0034, 50 iterations in 0.0059 sec
+    Iteration  250, KL divergence 0.0027, 50 iterations in 0.0061 sec
+    Iteration  300, KL divergence 0.0023, 50 iterations in 0.0062 sec
+    Iteration  350, KL divergence 0.0020, 50 iterations in 0.0061 sec
+    Iteration  400, KL divergence 0.0017, 50 iterations in 0.0061 sec
+    Iteration  450, KL divergence 0.0015, 50 iterations in 0.0071 sec
+    Iteration  500, KL divergence 0.0014, 50 iterations in 0.0113 sec
+       --> Time elapsed: 0.07 seconds
 
 
 
@@ -193,8 +193,8 @@ This step takes the original node embeddings with a higher dimensionality, e.g. 
       <td>react-router-dom</td>
       <td>0</td>
       <td>0.2775</td>
-      <td>-18.988593</td>
-      <td>-0.002609</td>
+      <td>18.988606</td>
+      <td>-0.002392</td>
     </tr>
     <tr>
       <th>1</th>
@@ -202,8 +202,8 @@ This step takes the original node embeddings with a higher dimensionality, e.g. 
       <td>react-router-dom</td>
       <td>0</td>
       <td>0.1500</td>
-      <td>-18.988604</td>
-      <td>-0.002609</td>
+      <td>18.988595</td>
+      <td>-0.002392</td>
     </tr>
     <tr>
       <th>2</th>
@@ -211,8 +211,8 @@ This step takes the original node embeddings with a higher dimensionality, e.g. 
       <td>react-router-native</td>
       <td>1</td>
       <td>0.1500</td>
-      <td>18.988606</td>
-      <td>0.002609</td>
+      <td>-18.988592</td>
+      <td>0.002392</td>
     </tr>
     <tr>
       <th>3</th>
@@ -220,8 +220,8 @@ This step takes the original node embeddings with a higher dimensionality, e.g. 
       <td>react-router</td>
       <td>2</td>
       <td>0.1500</td>
-      <td>18.988590</td>
-      <td>0.002609</td>
+      <td>-18.988608</td>
+      <td>0.002392</td>
     </tr>
   </tbody>
 </table>
@@ -319,22 +319,22 @@ This step takes the original node embeddings with a higher dimensionality, e.g. 
        --> Time elapsed: 0.00 seconds
     ===> Running optimization with exaggeration=12.00, lr=0.33 for 250 iterations...
     Iteration   50, KL divergence 0.5533, 50 iterations in 0.0081 sec
-    Iteration  100, KL divergence 1.0233, 50 iterations in 0.0075 sec
-    Iteration  150, KL divergence 1.0233, 50 iterations in 0.0061 sec
-    Iteration  200, KL divergence 1.0233, 50 iterations in 0.0043 sec
-    Iteration  250, KL divergence 1.0233, 50 iterations in 0.0045 sec
+    Iteration  100, KL divergence 1.0233, 50 iterations in 0.0074 sec
+    Iteration  150, KL divergence 1.0233, 50 iterations in 0.0059 sec
+    Iteration  200, KL divergence 1.0233, 50 iterations in 0.0050 sec
+    Iteration  250, KL divergence 1.0233, 50 iterations in 0.0051 sec
        --> Time elapsed: 0.03 seconds
     ===> Running optimization with exaggeration=1.00, lr=4.00 for 500 iterations...
-    Iteration   50, KL divergence 0.0530, 50 iterations in 0.0047 sec
-    Iteration  100, KL divergence 0.0531, 50 iterations in 0.0047 sec
-    Iteration  150, KL divergence 0.0526, 50 iterations in 0.0046 sec
-    Iteration  200, KL divergence 0.0578, 50 iterations in 0.0046 sec
-    Iteration  250, KL divergence 0.0571, 50 iterations in 0.0046 sec
-    Iteration  300, KL divergence 0.0567, 50 iterations in 0.0046 sec
-    Iteration  350, KL divergence 0.0564, 50 iterations in 0.0045 sec
-    Iteration  400, KL divergence 0.0562, 50 iterations in 0.0046 sec
-    Iteration  450, KL divergence 0.0560, 50 iterations in 0.0045 sec
-    Iteration  500, KL divergence 0.0559, 50 iterations in 0.0046 sec
+    Iteration   50, KL divergence 0.0530, 50 iterations in 0.0051 sec
+    Iteration  100, KL divergence 0.0531, 50 iterations in 0.0054 sec
+    Iteration  150, KL divergence 0.0526, 50 iterations in 0.0051 sec
+    Iteration  200, KL divergence 0.0578, 50 iterations in 0.0051 sec
+    Iteration  250, KL divergence 0.0571, 50 iterations in 0.0050 sec
+    Iteration  300, KL divergence 0.0567, 50 iterations in 0.0050 sec
+    Iteration  350, KL divergence 0.0564, 50 iterations in 0.0049 sec
+    Iteration  400, KL divergence 0.0562, 50 iterations in 0.0050 sec
+    Iteration  450, KL divergence 0.0560, 50 iterations in 0.0050 sec
+    Iteration  500, KL divergence 0.0559, 50 iterations in 0.0050 sec
        --> Time elapsed: 0.05 seconds
 
 
@@ -440,7 +440,7 @@ The [node2vec](https://towardsdatascience.com/complete-guide-to-understanding-no
       <td>react-router-dom</td>
       <td>0</td>
       <td>0.2775</td>
-      <td>[-0.06661535799503326, 0.058144595474004745, -...</td>
+      <td>[-0.06722554564476013, -0.11282958090305328, -...</td>
     </tr>
     <tr>
       <th>1</th>
@@ -449,7 +449,7 @@ The [node2vec](https://towardsdatascience.com/complete-guide-to-understanding-no
       <td>react-router-dom</td>
       <td>0</td>
       <td>0.1500</td>
-      <td>[-0.06575233489274979, 0.05996327102184296, 0....</td>
+      <td>[-0.07233831286430359, -0.11460870504379272, -...</td>
     </tr>
     <tr>
       <th>2</th>
@@ -487,23 +487,23 @@ The [node2vec](https://towardsdatascience.com/complete-guide-to-understanding-no
     ===> Calculating PCA-based initialization...
        --> Time elapsed: 0.00 seconds
     ===> Running optimization with exaggeration=12.00, lr=0.33 for 250 iterations...
-    Iteration   50, KL divergence 0.0819, 50 iterations in 0.0086 sec
-    Iteration  100, KL divergence 0.0591, 50 iterations in 0.0086 sec
-    Iteration  150, KL divergence 0.0481, 50 iterations in 0.0056 sec
-    Iteration  200, KL divergence 0.0415, 50 iterations in 0.0055 sec
-    Iteration  250, KL divergence 0.0371, 50 iterations in 0.0055 sec
+    Iteration   50, KL divergence 0.1176, 50 iterations in 0.0057 sec
+    Iteration  100, KL divergence 0.0758, 50 iterations in 0.0057 sec
+    Iteration  150, KL divergence 0.0568, 50 iterations in 0.0059 sec
+    Iteration  200, KL divergence 0.0467, 50 iterations in 0.0059 sec
+    Iteration  250, KL divergence 0.0406, 50 iterations in 0.0059 sec
        --> Time elapsed: 0.03 seconds
     ===> Running optimization with exaggeration=1.00, lr=4.00 for 500 iterations...
-    Iteration   50, KL divergence 0.0118, 50 iterations in 0.0053 sec
-    Iteration  100, KL divergence 0.0064, 50 iterations in 0.0055 sec
-    Iteration  150, KL divergence 0.0044, 50 iterations in 0.0056 sec
-    Iteration  200, KL divergence 0.0034, 50 iterations in 0.0056 sec
-    Iteration  250, KL divergence 0.0027, 50 iterations in 0.0056 sec
-    Iteration  300, KL divergence 0.0023, 50 iterations in 0.0057 sec
-    Iteration  350, KL divergence 0.0020, 50 iterations in 0.0058 sec
-    Iteration  400, KL divergence 0.0017, 50 iterations in 0.0058 sec
-    Iteration  450, KL divergence 0.0015, 50 iterations in 0.0058 sec
-    Iteration  500, KL divergence 0.0014, 50 iterations in 0.0058 sec
+    Iteration   50, KL divergence 0.0118, 50 iterations in 0.0058 sec
+    Iteration  100, KL divergence 0.0064, 50 iterations in 0.0060 sec
+    Iteration  150, KL divergence 0.0044, 50 iterations in 0.0061 sec
+    Iteration  200, KL divergence 0.0034, 50 iterations in 0.0061 sec
+    Iteration  250, KL divergence 0.0027, 50 iterations in 0.0062 sec
+    Iteration  300, KL divergence 0.0023, 50 iterations in 0.0063 sec
+    Iteration  350, KL divergence 0.0020, 50 iterations in 0.0062 sec
+    Iteration  400, KL divergence 0.0017, 50 iterations in 0.0063 sec
+    Iteration  450, KL divergence 0.0015, 50 iterations in 0.0062 sec
+    Iteration  500, KL divergence 0.0014, 50 iterations in 0.0063 sec
        --> Time elapsed: 0.06 seconds
 
 
@@ -532,8 +532,8 @@ The [node2vec](https://towardsdatascience.com/complete-guide-to-understanding-no
       <td>react-router-dom</td>
       <td>0</td>
       <td>0.2775</td>
-      <td>-18.993596</td>
-      <td>-0.002218</td>
+      <td>18.996433</td>
+      <td>-0.002182</td>
     </tr>
     <tr>
       <th>1</th>
@@ -541,8 +541,8 @@ The [node2vec](https://towardsdatascience.com/complete-guide-to-understanding-no
       <td>react-router-dom</td>
       <td>0</td>
       <td>0.1500</td>
-      <td>-18.993619</td>
-      <td>-0.002218</td>
+      <td>18.996443</td>
+      <td>-0.002182</td>
     </tr>
     <tr>
       <th>2</th>
@@ -550,8 +550,8 @@ The [node2vec](https://towardsdatascience.com/complete-guide-to-understanding-no
       <td>react-router-native</td>
       <td>1</td>
       <td>0.1500</td>
-      <td>18.993645</td>
-      <td>0.002218</td>
+      <td>-18.996450</td>
+      <td>0.002182</td>
     </tr>
     <tr>
       <th>3</th>
@@ -559,8 +559,8 @@ The [node2vec](https://towardsdatascience.com/complete-guide-to-understanding-no
       <td>react-router</td>
       <td>2</td>
       <td>0.1500</td>
-      <td>18.993569</td>
-      <td>0.002218</td>
+      <td>-18.996426</td>
+      <td>0.002182</td>
     </tr>
   </tbody>
 </table>

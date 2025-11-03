@@ -49,8 +49,8 @@
       <td>19.686747</td>
       <td>130.457831</td>
       <td>655.530120</td>
-      <td>1069.626506</td>
-      <td>656.445783</td>
+      <td>1070.036145</td>
+      <td>657.012048</td>
     </tr>
     <tr>
       <th>std</th>
@@ -58,8 +58,8 @@
       <td>46.317549</td>
       <td>293.197024</td>
       <td>294.748025</td>
-      <td>389.268598</td>
-      <td>295.192465</td>
+      <td>389.110005</td>
+      <td>295.101987</td>
     </tr>
     <tr>
       <th>min</th>
@@ -76,7 +76,7 @@
       <td>4.000000</td>
       <td>11.000000</td>
       <td>397.000000</td>
-      <td>795.000000</td>
+      <td>795.500000</td>
       <td>396.000000</td>
     </tr>
     <tr>
@@ -85,8 +85,8 @@
       <td>6.000000</td>
       <td>26.000000</td>
       <td>782.000000</td>
-      <td>1150.000000</td>
-      <td>781.000000</td>
+      <td>1151.000000</td>
+      <td>782.000000</td>
     </tr>
     <tr>
       <th>75%</th>
@@ -103,7 +103,7 @@
       <td>344.000000</td>
       <td>2000.000000</td>
       <td>1515.000000</td>
-      <td>1571.000000</td>
+      <td>1572.000000</td>
       <td>1514.000000</td>
     </tr>
   </tbody>
@@ -213,7 +213,7 @@
       <td>Michael Jackson</td>
       <td>6</td>
       <td>1515</td>
-      <td>1571</td>
+      <td>1572</td>
       <td>1514</td>
       <td>2021-09-10</td>
       <td>2021-07-15</td>
@@ -233,8 +233,8 @@
       <td>Mark Dalgleish</td>
       <td>10</td>
       <td>559</td>
-      <td>591</td>
-      <td>591</td>
+      <td>592</td>
+      <td>592</td>
       <td>2024-04-23</td>
       <td>2024-03-21</td>
       <td>2024-03-21</td>
@@ -254,7 +254,7 @@
       <td>10</td>
       <td>559</td>
       <td>1237</td>
-      <td>558</td>
+      <td>559</td>
       <td>2024-04-23</td>
       <td>2022-06-14</td>
       <td>2024-04-23</td>
@@ -313,8 +313,8 @@
       <td>Matt Brophy</td>
       <td>25</td>
       <td>382</td>
-      <td>1026</td>
-      <td>381</td>
+      <td>1027</td>
+      <td>382</td>
       <td>2024-10-17</td>
       <td>2023-01-11</td>
       <td>2024-10-17</td>
@@ -334,7 +334,7 @@
       <td>15</td>
       <td>718</td>
       <td>1024</td>
-      <td>717</td>
+      <td>718</td>
       <td>2023-11-16</td>
       <td>2023-01-13</td>
       <td>2023-11-16</td>
@@ -473,7 +473,7 @@
       <td>Michael Jackson</td>
       <td>11</td>
       <td>881</td>
-      <td>1473</td>
+      <td>1474</td>
       <td>880</td>
       <td>2023-06-06</td>
       <td>2021-10-21</td>
@@ -533,7 +533,7 @@
       <td>Matt Brophy</td>
       <td>14</td>
       <td>1012</td>
-      <td>1521</td>
+      <td>1522</td>
       <td>1011</td>
       <td>2023-01-26</td>
       <td>2021-09-03</td>
@@ -553,8 +553,8 @@
       <td>Ayush C</td>
       <td>196</td>
       <td>171</td>
-      <td>380</td>
-      <td>170</td>
+      <td>381</td>
+      <td>171</td>
       <td>2025-05-16</td>
       <td>2024-10-18</td>
       <td>2025-05-16</td>
@@ -574,7 +574,7 @@
       <td>21</td>
       <td>419</td>
       <td>601</td>
-      <td>418</td>
+      <td>419</td>
       <td>2024-09-10</td>
       <td>2024-03-11</td>
       <td>2024-09-10</td>
@@ -593,7 +593,7 @@
       <td>Chris Chudzicki</td>
       <td>7</td>
       <td>1344</td>
-      <td>1462</td>
+      <td>1463</td>
       <td>1343</td>
       <td>2022-02-28</td>
       <td>2021-11-01</td>
@@ -613,8 +613,8 @@
       <td>Ryan Florence</td>
       <td>16</td>
       <td>459</td>
-      <td>459</td>
-      <td>459</td>
+      <td>460</td>
+      <td>460</td>
       <td>2024-08-01</td>
       <td>2024-07-31</td>
       <td>2024-07-31</td>
@@ -633,7 +633,7 @@
       <td>Chance Strickland</td>
       <td>22</td>
       <td>881</td>
-      <td>1490</td>
+      <td>1491</td>
       <td>880</td>
       <td>2023-06-06</td>
       <td>2021-10-04</td>
@@ -674,7 +674,7 @@
       <td>25</td>
       <td>718</td>
       <td>1151</td>
-      <td>717</td>
+      <td>718</td>
       <td>2023-11-16</td>
       <td>2022-09-08</td>
       <td>2023-11-16</td>
@@ -713,8 +713,8 @@
       <td>Shane Walker</td>
       <td>3</td>
       <td>816</td>
-      <td>837</td>
-      <td>837</td>
+      <td>838</td>
+      <td>838</td>
       <td>2023-08-10</td>
       <td>2023-07-19</td>
       <td>2023-07-19</td>
@@ -1223,7 +1223,7 @@ The following charts show how these metrics are distributed across pairs of file
       <td>12</td>
       <td>6</td>
       <td>CHANGELOG↔DEVELOPMENT</td>
-      <td>packages/router/CHANGELOG.md↔DEVELOPMENT.md</td>
+      <td>packages/react-router-dom/CHANGELOG.md↔DEVELOPMENT.md</td>
     </tr>
     <tr>
       <th>6</th>
@@ -1239,7 +1239,7 @@ The following charts show how these metrics are distributed across pairs of file
       <td>10</td>
       <td>8</td>
       <td>CHANGELOG↔DEVELOPMENT</td>
-      <td>packages/react-router-dom-v5-compat/CHANGELOG.md↔DEVELOPMENT.md</td>
+      <td>packages/react-router-native/CHANGELOG.md↔DEVELOPMENT.md</td>
     </tr>
     <tr>
       <th>8</th>
@@ -1303,7 +1303,7 @@ The following charts show how these metrics are distributed across pairs of file
       <td>96</td>
       <td>6</td>
       <td>package↔package</td>
-      <td>packages/react-router/package.json↔packages/router/package.json</td>
+      <td>packages/react-router-dom/package.json↔packages/router/package.json</td>
     </tr>
     <tr>
       <th>16</th>
@@ -1319,7 +1319,7 @@ The following charts show how these metrics are distributed across pairs of file
       <td>20</td>
       <td>8</td>
       <td>package↔package</td>
-      <td>examples/auth/package.json↔examples/custom-filter-link/package.json</td>
+      <td>examples/basic/package.json↔examples/custom-filter-link/package.json</td>
     </tr>
     <tr>
       <th>18</th>
@@ -1351,7 +1351,7 @@ The following charts show how these metrics are distributed across pairs of file
       <td>109</td>
       <td>2</td>
       <td>package↔CHANGELOG</td>
-      <td>packages/react-router/package.json↔packages/react-router-dom-v5-compat/CHANGELOG.md</td>
+      <td>packages/react-router-dom/package.json↔packages/react-router-dom-v5-compat/CHANGELOG.md</td>
     </tr>
     <tr>
       <th>22</th>
@@ -1375,7 +1375,7 @@ The following charts show how these metrics are distributed across pairs of file
       <td>11</td>
       <td>5</td>
       <td>package↔DEVELOPMENT</td>
-      <td>packages/react-router/package.json↔DEVELOPMENT.md</td>
+      <td>packages/react-router-dom/package.json↔DEVELOPMENT.md</td>
     </tr>
     <tr>
       <th>25</th>
@@ -1391,7 +1391,7 @@ The following charts show how these metrics are distributed across pairs of file
       <td>8</td>
       <td>7</td>
       <td>package↔tutorial</td>
-      <td>packages/react-router-dom/package.json↔docs/start/tutorial.md</td>
+      <td>packages/react-router/package.json↔docs/start/tutorial.md</td>
     </tr>
     <tr>
       <th>27</th>
@@ -1407,7 +1407,7 @@ The following charts show how these metrics are distributed across pairs of file
       <td>5</td>
       <td>9</td>
       <td>package↔link</td>
-      <td>packages/react-router-dom/package.json↔docs/components/link.md</td>
+      <td>packages/react-router-dom-v5-compat/package.json↔docs/components/link.md</td>
     </tr>
     <tr>
       <th>29</th>
@@ -1415,7 +1415,7 @@ The following charts show how these metrics are distributed across pairs of file
       <td>4</td>
       <td>10</td>
       <td>package↔form</td>
-      <td>packages/react-router/package.json↔docs/components/form.md</td>
+      <td>packages/router/package.json↔docs/components/form.md</td>
     </tr>
     <tr>
       <th>30</th>
@@ -1439,7 +1439,7 @@ The following charts show how these metrics are distributed across pairs of file
       <td>29</td>
       <td>3</td>
       <td>CHANGELOG↔router</td>
-      <td>packages/react-router-dom/CHANGELOG.md↔packages/router/router.ts</td>
+      <td>packages/react-router-native/CHANGELOG.md↔packages/router/router.ts</td>
     </tr>
     <tr>
       <th>33</th>
@@ -1544,7 +1544,7 @@ This metric is useful to identify pairs of files that are frequently changed tog
       <td>0.857143</td>
       <td>2</td>
       <td>README↔README</td>
-      <td>examples/custom-link/README.md↔examples/modal/README.md</td>
+      <td>examples/basic/README.md↔examples/modal/README.md</td>
     </tr>
     <tr>
       <th>2</th>
@@ -1560,7 +1560,7 @@ This metric is useful to identify pairs of files that are frequently changed tog
       <td>0.750000</td>
       <td>4</td>
       <td>README↔README</td>
-      <td>examples/ssr/README.md↔examples/route-objects/README.md</td>
+      <td>examples/auth/README.md↔examples/route-objects/README.md</td>
     </tr>
     <tr>
       <th>4</th>
@@ -1576,7 +1576,7 @@ This metric is useful to identify pairs of files that are frequently changed tog
       <td>0.666667</td>
       <td>6</td>
       <td>README↔README</td>
-      <td>examples/basic/README.md↔examples/custom-filter-link/README.md</td>
+      <td>examples/ssr/README.md↔examples/custom-filter-link/README.md</td>
     </tr>
     <tr>
       <th>6</th>
@@ -1592,7 +1592,7 @@ This metric is useful to identify pairs of files that are frequently changed tog
       <td>0.500000</td>
       <td>8</td>
       <td>README↔README</td>
-      <td>examples/custom-link/README.md↔examples/lazy-loading/README.md</td>
+      <td>examples/ssr/README.md↔examples/lazy-loading/README.md</td>
     </tr>
     <tr>
       <th>8</th>
@@ -1616,7 +1616,7 @@ This metric is useful to identify pairs of files that are frequently changed tog
       <td>0.625000</td>
       <td>1</td>
       <td>package↔package</td>
-      <td>examples/auth/package.json↔examples/custom-filter-link/package.json</td>
+      <td>examples/basic/package.json↔examples/custom-filter-link/package.json</td>
     </tr>
     <tr>
       <th>11</th>
@@ -1656,7 +1656,7 @@ This metric is useful to identify pairs of files that are frequently changed tog
       <td>0.566667</td>
       <td>6</td>
       <td>package↔package</td>
-      <td>examples/modal/package.json↔examples/multi-app/package.json</td>
+      <td>examples/custom-filter-link/package.json↔examples/multi-app/package.json</td>
     </tr>
     <tr>
       <th>16</th>
@@ -1672,7 +1672,7 @@ This metric is useful to identify pairs of files that are frequently changed tog
       <td>0.548387</td>
       <td>8</td>
       <td>package↔package</td>
-      <td>examples/auth/package.json↔examples/custom-query-parsing/package.json</td>
+      <td>examples/custom-filter-link/package.json↔examples/custom-query-parsing/package.json</td>
     </tr>
     <tr>
       <th>18</th>
@@ -1696,7 +1696,7 @@ This metric is useful to identify pairs of files that are frequently changed tog
       <td>0.428571</td>
       <td>1</td>
       <td>package↔README</td>
-      <td>packages/react-router-native/package.json↔examples/modal/README.md</td>
+      <td>examples/modal/package.json↔examples/modal/README.md</td>
     </tr>
     <tr>
       <th>21</th>
@@ -1704,7 +1704,7 @@ This metric is useful to identify pairs of files that are frequently changed tog
       <td>0.400000</td>
       <td>2</td>
       <td>package↔README</td>
-      <td>packages/react-router-dom/package.json↔examples/auth/README.md</td>
+      <td>examples/auth/package.json↔examples/auth/README.md</td>
     </tr>
     <tr>
       <th>22</th>
@@ -1720,7 +1720,7 @@ This metric is useful to identify pairs of files that are frequently changed tog
       <td>0.397810</td>
       <td>4</td>
       <td>package↔CHANGELOG</td>
-      <td>packages/react-router/package.json↔packages/react-router-dom-v5-compat/CHANGELOG.md</td>
+      <td>packages/react-router-dom/package.json↔packages/react-router-dom-v5-compat/CHANGELOG.md</td>
     </tr>
     <tr>
       <th>24</th>
@@ -1752,7 +1752,7 @@ This metric is useful to identify pairs of files that are frequently changed tog
       <td>0.387500</td>
       <td>8</td>
       <td>package↔CHANGELOG</td>
-      <td>packages/react-router-dom/package.json↔packages/router/CHANGELOG.md</td>
+      <td>packages/react-router-dom-v5-compat/package.json↔packages/router/CHANGELOG.md</td>
     </tr>
     <tr>
       <th>28</th>
@@ -1760,7 +1760,7 @@ This metric is useful to identify pairs of files that are frequently changed tog
       <td>0.383275</td>
       <td>9</td>
       <td>package↔CHANGELOG</td>
-      <td>packages/react-router-dom/package.json↔packages/react-router/CHANGELOG.md</td>
+      <td>packages/react-router-native/package.json↔packages/react-router/CHANGELOG.md</td>
     </tr>
     <tr>
       <th>29</th>
@@ -1768,7 +1768,7 @@ This metric is useful to identify pairs of files that are frequently changed tog
       <td>0.363636</td>
       <td>10</td>
       <td>package↔README</td>
-      <td>examples/search-params/package.json↔examples/basic/README.md</td>
+      <td>packages/react-router-dom/package.json↔examples/basic/README.md</td>
     </tr>
     <tr>
       <th>30</th>
@@ -1934,7 +1934,7 @@ This metric is useful to identify pairs of files that are frequently changed tog
       <td>130.083333</td>
       <td>7</td>
       <td>README↔README</td>
-      <td>examples/custom-filter-link/README.md↔examples/route-objects/README.md</td>
+      <td>examples/custom-link/README.md↔examples/route-objects/README.md</td>
     </tr>
     <tr>
       <th>7</th>
@@ -1990,7 +1990,7 @@ This metric is useful to identify pairs of files that are frequently changed tog
       <td>28.534409</td>
       <td>4</td>
       <td>package↔package</td>
-      <td>examples/custom-query-parsing/package.json↔examples/multi-app/package.json</td>
+      <td>examples/lazy-loading/package.json↔examples/multi-app/package.json</td>
     </tr>
     <tr>
       <th>14</th>
@@ -2006,7 +2006,7 @@ This metric is useful to identify pairs of files that are frequently changed tog
       <td>27.751111</td>
       <td>6</td>
       <td>package↔package</td>
-      <td>examples/error-boundaries/package.json↔examples/scroll-restoration/package.json</td>
+      <td>examples/notes/package.json↔examples/scroll-restoration/package.json</td>
     </tr>
     <tr>
       <th>16</th>
@@ -2062,7 +2062,7 @@ This metric is useful to identify pairs of files that are frequently changed tog
       <td>19.114286</td>
       <td>3</td>
       <td>package↔README</td>
-      <td>examples/auth/package.json↔examples/modal/README.md</td>
+      <td>examples/modal/package.json↔examples/modal/README.md</td>
     </tr>
     <tr>
       <th>23</th>
@@ -2078,7 +2078,7 @@ This metric is useful to identify pairs of files that are frequently changed tog
       <td>17.840000</td>
       <td>5</td>
       <td>package↔README</td>
-      <td>examples/search-params/package.json↔examples/auth/README.md</td>
+      <td>examples/auth/package.json↔examples/auth/README.md</td>
     </tr>
     <tr>
       <th>25</th>
@@ -2102,7 +2102,7 @@ This metric is useful to identify pairs of files that are frequently changed tog
       <td>16.218182</td>
       <td>8</td>
       <td>package↔README</td>
-      <td>examples/search-params/package.json↔examples/basic/README.md</td>
+      <td>examples/auth/package.json↔examples/basic/README.md</td>
     </tr>
     <tr>
       <th>28</th>
@@ -2388,7 +2388,7 @@ This metric is useful to identify pairs of files that are frequently changed tog
       <td>0.386364</td>
       <td>10</td>
       <td>package↔package</td>
-      <td>examples/custom-query-parsing/package.json↔examples/multi-app/package.json</td>
+      <td>examples/lazy-loading/package.json↔examples/multi-app/package.json</td>
     </tr>
     <tr>
       <th>20</th>
@@ -2796,7 +2796,7 @@ This is useful to identify pairs of files that score high in most metrics, which
       <td>0.400000</td>
       <td>0.097561</td>
       <td>17.840000</td>
-      <td>examples/search-params/package.json↔examples/auth/README.md</td>
+      <td>examples/auth/package.json↔examples/auth/README.md</td>
     </tr>
     <tr>
       <th>14</th>
@@ -2811,7 +2811,7 @@ This is useful to identify pairs of files that score high in most metrics, which
       <td>0.400000</td>
       <td>0.097561</td>
       <td>17.840000</td>
-      <td>examples/auth/package.json↔examples/auth/README.md</td>
+      <td>examples/ssr/package.json↔examples/auth/README.md</td>
     </tr>
     <tr>
       <th>15</th>
@@ -2826,7 +2826,7 @@ This is useful to identify pairs of files that score high in most metrics, which
       <td>0.400000</td>
       <td>0.097561</td>
       <td>17.840000</td>
-      <td>examples/ssr/package.json↔examples/auth/README.md</td>
+      <td>examples/search-params/package.json↔examples/auth/README.md</td>
     </tr>
     <tr>
       <th>16</th>
@@ -2841,7 +2841,7 @@ This is useful to identify pairs of files that score high in most metrics, which
       <td>0.400000</td>
       <td>0.097561</td>
       <td>17.840000</td>
-      <td>examples/ssr/package.json↔examples/search-params/README.md</td>
+      <td>examples/search-params/package.json↔examples/search-params/README.md</td>
     </tr>
     <tr>
       <th>17</th>
@@ -2856,7 +2856,7 @@ This is useful to identify pairs of files that score high in most metrics, which
       <td>0.400000</td>
       <td>0.097561</td>
       <td>17.840000</td>
-      <td>examples/search-params/package.json↔examples/search-params/README.md</td>
+      <td>examples/auth/package.json↔examples/search-params/README.md</td>
     </tr>
     <tr>
       <th>18</th>
@@ -2871,7 +2871,7 @@ This is useful to identify pairs of files that score high in most metrics, which
       <td>0.400000</td>
       <td>0.097561</td>
       <td>17.840000</td>
-      <td>examples/auth/package.json↔examples/search-params/README.md</td>
+      <td>examples/ssr/package.json↔examples/search-params/README.md</td>
     </tr>
     <tr>
       <th>19</th>
