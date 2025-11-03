@@ -260,13 +260,13 @@ Lists the 30 label combinations with the lowest number of nodes until they reach
     </tr>
     <tr>
       <th>1</th>
-      <td>[Git, Branch]</td>
+      <td>[Repository, File, Git]</td>
       <td>1</td>
       <td>0.000329</td>
     </tr>
     <tr>
       <th>2</th>
-      <td>[Repository, File, Git]</td>
+      <td>[Git, Branch]</td>
       <td>1</td>
       <td>0.000329</td>
     </tr>
@@ -302,31 +302,31 @@ Lists the 30 label combinations with the lowest number of nodes until they reach
     </tr>
     <tr>
       <th>8</th>
-      <td>[File, Maven, Xml, Pom, Document]</td>
-      <td>9</td>
-      <td>0.002963</td>
-    </tr>
-    <tr>
-      <th>9</th>
       <td>[Type, File, Java, ByteCode, Void]</td>
       <td>9</td>
       <td>0.002963</td>
     </tr>
     <tr>
+      <th>9</th>
+      <td>[File, Document, Xml, Pom, Maven]</td>
+      <td>9</td>
+      <td>0.002963</td>
+    </tr>
+    <tr>
       <th>10</th>
-      <td>[Java, ManifestSection]</td>
+      <td>[File, Java, Manifest]</td>
       <td>9</td>
       <td>0.002963</td>
     </tr>
     <tr>
       <th>11</th>
-      <td>[File, Artifact, Jar, Archive, Zip, Java]</td>
+      <td>[Java, ManifestSection]</td>
       <td>9</td>
       <td>0.002963</td>
     </tr>
     <tr>
       <th>12</th>
-      <td>[File, Java, Manifest]</td>
+      <td>[File, Artifact, Jar, Archive, Zip, Java]</td>
       <td>9</td>
       <td>0.002963</td>
     </tr>
@@ -344,13 +344,13 @@ Lists the 30 label combinations with the lowest number of nodes until they reach
     </tr>
     <tr>
       <th>15</th>
-      <td>[Maven, ExecutionGoal]</td>
+      <td>[Maven, PluginExecution]</td>
       <td>16</td>
       <td>0.005268</td>
     </tr>
     <tr>
       <th>16</th>
-      <td>[Maven, PluginExecution]</td>
+      <td>[Maven, ExecutionGoal]</td>
       <td>16</td>
       <td>0.005268</td>
     </tr>
@@ -374,13 +374,13 @@ Lists the 30 label combinations with the lowest number of nodes until they reach
     </tr>
     <tr>
       <th>20</th>
-      <td>[Maven, Plugin]</td>
+      <td>[Maven, Configuration]</td>
       <td>21</td>
       <td>0.006915</td>
     </tr>
     <tr>
       <th>21</th>
-      <td>[Maven, Configuration]</td>
+      <td>[Maven, Plugin]</td>
       <td>21</td>
       <td>0.006915</td>
     </tr>
@@ -739,7 +739,7 @@ Shows the 40 labels with the highest number of nodes.
 Lists the 30 relationship types with the highest number of occurrences.
 The whole table can be found in the CSV report `Relationship_type_count`.
 
-    Total number of relationships: 968016
+    Total number of relationships: 968015
 
 
 
@@ -760,133 +760,133 @@ The whole table can be found in the CSV report `Relationship_type_count`.
       <th>0</th>
       <td>CONTAINS_CHANGE</td>
       <td>215304</td>
-      <td>22.241781</td>
+      <td>22.241804</td>
     </tr>
     <tr>
       <th>1</th>
       <td>MODIFIES</td>
       <td>215304</td>
-      <td>22.241781</td>
+      <td>22.241804</td>
     </tr>
     <tr>
       <th>2</th>
       <td>UPDATES</td>
       <td>139782</td>
-      <td>14.440051</td>
+      <td>14.440065</td>
     </tr>
     <tr>
       <th>3</th>
       <td>CREATES</td>
       <td>52725</td>
-      <td>5.446707</td>
+      <td>5.446713</td>
     </tr>
     <tr>
       <th>4</th>
       <td>INVOKES</td>
       <td>37783</td>
-      <td>3.903138</td>
+      <td>3.903142</td>
     </tr>
     <tr>
       <th>5</th>
       <td>DELETES</td>
       <td>29815</td>
-      <td>3.080011</td>
+      <td>3.080014</td>
     </tr>
     <tr>
       <th>6</th>
       <td>CHANGED_TOGETHER_WITH</td>
       <td>26193</td>
-      <td>2.705844</td>
+      <td>2.705847</td>
     </tr>
     <tr>
       <th>7</th>
       <td>COMMITTED</td>
       <td>23168</td>
-      <td>2.393349</td>
+      <td>2.393351</td>
     </tr>
     <tr>
       <th>8</th>
       <td>DEPENDS_ON</td>
       <td>22889</td>
-      <td>2.364527</td>
+      <td>2.364529</td>
     </tr>
     <tr>
       <th>9</th>
       <td>OF_TYPE</td>
       <td>22204</td>
-      <td>2.293764</td>
+      <td>2.293766</td>
     </tr>
     <tr>
       <th>10</th>
       <td>DECLARES</td>
       <td>21666</td>
-      <td>2.238186</td>
+      <td>2.238188</td>
     </tr>
     <tr>
       <th>11</th>
       <td>OF_RAW_TYPE</td>
       <td>17460</td>
-      <td>1.803689</td>
+      <td>1.803691</td>
     </tr>
     <tr>
       <th>12</th>
       <td>HAS</td>
       <td>14602</td>
-      <td>1.508446</td>
+      <td>1.508448</td>
     </tr>
     <tr>
       <th>13</th>
       <td>HAS_PARENT</td>
       <td>14170</td>
-      <td>1.463819</td>
+      <td>1.463820</td>
     </tr>
     <tr>
       <th>14</th>
       <td>RETURNS</td>
       <td>13073</td>
-      <td>1.350494</td>
+      <td>1.350496</td>
     </tr>
     <tr>
       <th>15</th>
       <td>HAS_COMMIT</td>
       <td>11584</td>
-      <td>1.196674</td>
+      <td>1.196676</td>
     </tr>
     <tr>
       <th>16</th>
       <td>READS</td>
       <td>9677</td>
-      <td>0.999674</td>
+      <td>0.999675</td>
     </tr>
     <tr>
       <th>17</th>
       <td>HAS_ACTUAL_TYPE_ARGUMENT</td>
       <td>8445</td>
-      <td>0.872403</td>
+      <td>0.872404</td>
     </tr>
     <tr>
       <th>18</th>
       <td>HAS_FILE</td>
       <td>8331</td>
-      <td>0.860626</td>
+      <td>0.860627</td>
     </tr>
     <tr>
       <th>19</th>
       <td>RENAMES</td>
       <td>7018</td>
-      <td>0.724988</td>
+      <td>0.724989</td>
     </tr>
     <tr>
       <th>20</th>
       <td>OF_GENERIC_TYPE</td>
       <td>6036</td>
-      <td>0.623543</td>
+      <td>0.623544</td>
     </tr>
     <tr>
       <th>21</th>
       <td>RESOLVES_TO</td>
       <td>4303</td>
-      <td>0.444517</td>
+      <td>0.444518</td>
     </tr>
     <tr>
       <th>22</th>
@@ -898,7 +898,7 @@ The whole table can be found in the CSV report `Relationship_type_count`.
       <th>23</th>
       <td>WRITES</td>
       <td>4042</td>
-      <td>0.417555</td>
+      <td>0.417556</td>
     </tr>
     <tr>
       <th>24</th>
@@ -928,13 +928,13 @@ The whole table can be found in the CSV report `Relationship_type_count`.
       <th>28</th>
       <td>REQUIRES</td>
       <td>2267</td>
-      <td>0.234190</td>
+      <td>0.234191</td>
     </tr>
     <tr>
       <th>29</th>
       <td>HAS_FIRST_CHILD</td>
       <td>2162</td>
-      <td>0.223343</td>
+      <td>0.223344</td>
     </tr>
   </tbody>
 </table>
@@ -994,13 +994,13 @@ Lists the 30 relationships type with the lowest number of occurrences up to 0.5%
     </tr>
     <tr>
       <th>3</th>
-      <td>THROWS_GENERIC</td>
+      <td>EXCLUDES</td>
       <td>5</td>
       <td>0.000517</td>
     </tr>
     <tr>
       <th>4</th>
-      <td>EXCLUDES</td>
+      <td>THROWS_GENERIC</td>
       <td>5</td>
       <td>0.000517</td>
     </tr>
@@ -1013,30 +1013,30 @@ Lists the 30 relationships type with the lowest number of occurrences up to 0.5%
     <tr>
       <th>6</th>
       <td>HAS_ROOT_ELEMENT</td>
-      <td>12</td>
-      <td>0.001240</td>
+      <td>11</td>
+      <td>0.001136</td>
     </tr>
     <tr>
       <th>7</th>
-      <td>HAS_GOAL</td>
-      <td>16</td>
-      <td>0.001653</td>
-    </tr>
-    <tr>
-      <th>8</th>
       <td>HAS_EXECUTION</td>
       <td>16</td>
       <td>0.001653</td>
     </tr>
     <tr>
+      <th>8</th>
+      <td>HAS_GOAL</td>
+      <td>16</td>
+      <td>0.001653</td>
+    </tr>
+    <tr>
       <th>9</th>
-      <td>OF_NAMESPACE</td>
+      <td>HAS_ATTRIBUTE</td>
       <td>18</td>
       <td>0.001859</td>
     </tr>
     <tr>
       <th>10</th>
-      <td>HAS_ATTRIBUTE</td>
+      <td>OF_NAMESPACE</td>
       <td>18</td>
       <td>0.001859</td>
     </tr>
@@ -1048,19 +1048,19 @@ Lists the 30 relationships type with the lowest number of occurrences up to 0.5%
     </tr>
     <tr>
       <th>12</th>
-      <td>USES_PLUGIN</td>
-      <td>21</td>
-      <td>0.002169</td>
-    </tr>
-    <tr>
-      <th>13</th>
       <td>IS_ARTIFACT</td>
       <td>21</td>
       <td>0.002169</td>
     </tr>
     <tr>
-      <th>14</th>
+      <th>13</th>
       <td>HAS_CONFIGURATION</td>
+      <td>21</td>
+      <td>0.002169</td>
+    </tr>
+    <tr>
+      <th>14</th>
+      <td>USES_PLUGIN</td>
       <td>21</td>
       <td>0.002169</td>
     </tr>
@@ -1108,13 +1108,13 @@ Lists the 30 relationships type with the lowest number of occurrences up to 0.5%
     </tr>
     <tr>
       <th>22</th>
-      <td>DECLARES_DEPENDENCY</td>
+      <td>TO_ARTIFACT</td>
       <td>165</td>
       <td>0.017045</td>
     </tr>
     <tr>
       <th>23</th>
-      <td>TO_ARTIFACT</td>
+      <td>DECLARES_DEPENDENCY</td>
       <td>165</td>
       <td>0.017045</td>
     </tr>
@@ -1401,7 +1401,7 @@ Lists the 30 node labels and their relationship types with the highest number of
     <tr>
       <th>20</th>
       <td>[Git, Change, Rename]</td>
-      <td>MODIFIES</td>
+      <td>DELETES</td>
       <td>[File, Git]</td>
       <td>7018</td>
       <td>7018</td>
@@ -1411,7 +1411,7 @@ Lists the 30 node labels and their relationship types with the highest number of
     <tr>
       <th>21</th>
       <td>[Git, Change, Rename]</td>
-      <td>DELETES</td>
+      <td>CREATES</td>
       <td>[File, Git]</td>
       <td>7018</td>
       <td>7018</td>
@@ -1421,7 +1421,7 @@ Lists the 30 node labels and their relationship types with the highest number of
     <tr>
       <th>22</th>
       <td>[Git, Change, Rename]</td>
-      <td>CREATES</td>
+      <td>MODIFIES</td>
       <td>[File, Git]</td>
       <td>7018</td>
       <td>7018</td>
@@ -1507,7 +1507,7 @@ Lists the 30 node labels and their relationship types with the highest number of
 ## Graph Density
 
     total_number_of_nodes (vertices): 303709
-    total_number_of_relationships (edges): 968016
-    -> total directed graph density: 1.0494666496924574e-05
-    -> total directed graph density in percent: 0.0010494666496924574
+    total_number_of_relationships (edges): 968015
+    -> total directed graph density: 1.049465565550615e-05
+    -> total directed graph density in percent: 0.0010494655655506149
 

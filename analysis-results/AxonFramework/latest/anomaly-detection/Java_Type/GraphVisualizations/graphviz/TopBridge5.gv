@@ -12,35 +12,20 @@ strict digraph TopBridge5 {
     central [fontsize = 16;];
     central [color = 7; fillcolor = 5; penwidth = 3;];
 
-	graph   [label="Top Rank #5 Java Type Bridge\norg.axonframework.springboot.autoconfig.AxonTimeoutAutoConfiguration$AxonTimeoutConfigurerModule\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
-	central [label="🌉 bridge #5\nAxonTimeoutAutoConfiguration$AxonTimeoutConfigurerModule"];
-	"AxonTimeoutAutoConfiguration_21664" [label = "AxonTimeoutAutoConfiguration"; ]; "AxonTimeoutAutoConfiguration_21664" -> central [label=3; weight=3; penwidth=0.4];
-	"TaskTimeoutSettings_49195" [label = "TaskTimeoutSettings"; color = 5; fillcolor = 1; ]; central -> "TaskTimeoutSettings_49195" [label=14; weight=14; penwidth=0.6; color = 5];
-	"TimeoutProperties$TransactionTimeoutProperties_24106" [label = "TimeoutProperties$\nTransactionTimeoutProperties"; color = 5; fillcolor = 1; ]; central -> "TimeoutProperties$TransactionTimeoutProperties_24106" [label=13; weight=13; penwidth=0.5; color = 5];
-	"UnitOfWorkTimeoutInterceptor_49197" [label = "UnitOfWorkTimeoutInterceptor"; color = 5; fillcolor = 1; ]; central -> "UnitOfWorkTimeoutInterceptor_49197" [label=8; weight=8; penwidth=0.5; color = 5];
-	"Configuration_58471" [label = "Configuration"; color = 5; fillcolor = 1; ]; central -> "Configuration_58471" [label=7; weight=7; penwidth=0.5; color = 5];
-	"Configurer_59846" [label = "Configurer"; color = 5; fillcolor = 1; ]; central -> "Configurer_59846" [label=5; weight=5; penwidth=0.5; color = 5];
-	"TimeoutProperties_21120" [label = "TimeoutProperties"; color = 5; fillcolor = 1; ]; central -> "TimeoutProperties_21120" [label=2; weight=2; penwidth=0.4; color = 5];
-	"CommandBus_26478" [label = "CommandBus"; color = 5; fillcolor = 1; ]; central -> "CommandBus_26478" [label=1; weight=1; penwidth=0.4; color = 5];
-	"ConfigurerModule_58443" [label = "ConfigurerModule"; color = 5; fillcolor = 1; ]; central -> "ConfigurerModule_58443" [label=1; weight=1; penwidth=0.4; color = 5];
-	"DeadlineManager_32824" [label = "DeadlineManager"; color = 5; fillcolor = 1; ]; central -> "DeadlineManager_32824" [label=1; weight=1; penwidth=0.4; color = 5];
-	"EventProcessingConfigurer_59304" [label = "EventProcessingConfigurer"; color = 5; fillcolor = 1; ]; central -> "EventProcessingConfigurer_59304" [label=1; weight=1; penwidth=0.4; color = 5];
-	"MessageHandlerInterceptor_28038" [label = "MessageHandlerInterceptor"; color = 5; fillcolor = 1; ]; central -> "MessageHandlerInterceptor_28038" [label=1; weight=1; penwidth=0.4; color = 5];
-	"QueryBus_49069" [label = "QueryBus"; color = 5; fillcolor = 1; ]; central -> "QueryBus_49069" [label=1; weight=1; penwidth=0.4; color = 5];
-	"EventProcessingConfigurer_59304" -> "Configuration_58471" [label=36; weight=36; penwidth=0.3; color = 3]
-	"Configurer_59846" -> "Configuration_58471" [label=35; weight=35; penwidth=0.3; color = 3]
-	"TimeoutProperties$TransactionTimeoutProperties_24106" -> "TaskTimeoutSettings_49195" [label=22; weight=22; penwidth=0.3; color = 3]
-	"TimeoutProperties_21120" -> "TimeoutProperties$TransactionTimeoutProperties_24106" [label=6; weight=6; penwidth=0.3; color = 3]
-	"AxonTimeoutAutoConfiguration_21664" -> "TimeoutProperties_21120" [label=4; weight=4; penwidth=0.3; color = 3]
-	"Configuration_58471" -> "QueryBus_49069" [label=3; weight=3; penwidth=0.3; color = 3]
-	"Configuration_58471" -> "DeadlineManager_32824" [label=3; weight=3; penwidth=0.3; color = 3]
-	"Configuration_58471" -> "CommandBus_26478" [label=3; weight=3; penwidth=0.3; color = 3]
-	"Configurer_59846" -> "EventProcessingConfigurer_59304" [label=3; weight=3; penwidth=0.3; color = 3]
-	"Configurer_59846" -> "DeadlineManager_32824" [label=2; weight=2; penwidth=0.3; color = 3]
-	"Configurer_59846" -> "CommandBus_26478" [label=2; weight=2; penwidth=0.3; color = 3]
-	"Configurer_59846" -> "QueryBus_49069" [label=2; weight=2; penwidth=0.3; color = 3]
-	"EventProcessingConfigurer_59304" -> "MessageHandlerInterceptor_28038" [label=2; weight=2; penwidth=0.3; color = 3]
-	"AxonTimeoutAutoConfiguration_21664" -> "ConfigurerModule_58443" [label=1; weight=1; penwidth=0.3; color = 3]
-	"ConfigurerModule_58443" -> "Configurer_59846" [label=1; weight=1; penwidth=0.3; color = 3]
-	"UnitOfWorkTimeoutInterceptor_49197" -> "MessageHandlerInterceptor_28038" [label=1; weight=1; penwidth=0.3; color = 3]
+	graph   [label="Top Rank #5 Java Type Bridge\norg.axonframework.axonserver.connector.event.axon.PersistentStreamConnection$SegmentState\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
+	central [label="🌉 bridge #5\nPersistentStreamConnection$SegmentState"];
+	"PersistentStreamConnection$SegmentConnection_4895" [label = "PersistentStreamConnection$\nSegmentConnection"; ]; "PersistentStreamConnection$SegmentConnection_4895" -> central [label=4; weight=4; penwidth=0.4];
+	"PersistentStreamConnection$SegmentConnection$ProcessingState_4894" [label = "PersistentStreamConnection$\nSegmentConnection$\nProcessingState"; ]; "PersistentStreamConnection$SegmentConnection$ProcessingState_4894" -> central [label=2; weight=2; penwidth=0.4];
+	"PersistentStreamConnection$SegmentConnection$RetryState_4218" [label = "PersistentStreamConnection$\nSegmentConnection$\nRetryState"; ]; "PersistentStreamConnection$SegmentConnection$RetryState_4218" -> central [label=2; weight=2; penwidth=0.4];
+	"PersistentStreamConnection_4897" [label = "PersistentStreamConnection"; ]; "PersistentStreamConnection_4897" -> central [label=1; weight=1; penwidth=0.4];
+	"PersistentStreamConnection$SegmentConnection$ProcessingState_4894" -> "PersistentStreamConnection$SegmentConnection_4895" [label=45; weight=45; penwidth=0.3; color = 3]
+	"PersistentStreamConnection$SegmentConnection$ProcessingState_4894" -> "PersistentStreamConnection_4897" [label=14; weight=14; penwidth=0.3; color = 3]
+	"PersistentStreamConnection$SegmentConnection$RetryState_4218" -> "PersistentStreamConnection$SegmentConnection_4895" [label=12; weight=12; penwidth=0.3; color = 3]
+	"PersistentStreamConnection$SegmentConnection_4895" -> "PersistentStreamConnection_4897" [label=9; weight=9; penwidth=0.3; color = 3]
+	"PersistentStreamConnection_4897" -> "PersistentStreamConnection$SegmentConnection_4895" [label=6; weight=6; penwidth=0.3; color = 3]
+	"PersistentStreamConnection$SegmentConnection$RetryState_4218" -> "PersistentStreamConnection_4897" [label=5; weight=5; penwidth=0.3; color = 3]
+	"PersistentStreamConnection$SegmentConnection_4895" -> "PersistentStreamConnection$SegmentConnection$ProcessingState_4894" [label=3; weight=3; penwidth=0.3; color = 3]
+	"PersistentStreamConnection$SegmentConnection$ProcessingState_4894" -> "PersistentStreamConnection$SegmentConnection$RetryState_4218" [label=3; weight=3; penwidth=0.3; color = 3]
+	"PersistentStreamConnection$SegmentConnection$RetryState_4218" -> "PersistentStreamConnection$SegmentConnection$ProcessingState_4894" [label=3; weight=3; penwidth=0.3; color = 3]
+	"PersistentStreamConnection$SegmentConnection_4895" -> "PersistentStreamConnection$SegmentConnection$RetryState_4218" [label=1; weight=1; penwidth=0.3; color = 3]
 }

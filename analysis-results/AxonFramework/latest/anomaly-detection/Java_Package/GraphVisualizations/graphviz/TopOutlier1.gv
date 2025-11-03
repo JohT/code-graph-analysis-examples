@@ -12,17 +12,24 @@ strict digraph TopOutlier1 {
     central [fontsize = 16;];
     central [color = 7; fillcolor = 5; penwidth = 3;];
 
-	graph   [label="Top Rank #1 Java Package Outlier\norg.axonframework.eventhandling.replay\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: cluster probability\nlarge circle: < 25% percentile of cluster probability\nthick outline: > 80% percentile of distance to cluster center\n\n"];
-	central [label="🧩 outlier #1\nreplay"];
-	"eventhandling_34674"  [label = "eventhandling\n(88.83%)"; penwidth = 2; ]; "eventhandling_34674" -> central [label=1; weight=1; penwidth=0.4];
-	"messaging_45014"  [label = "messaging\n(100.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "messaging_45014" [label=9; weight=9; penwidth=0.5; color = 5];
-	"annotation_46198"  [label = "annotation\n(69.65%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "annotation_46198" [label=7; weight=7; penwidth=0.5; color = 5];
-	"eventhandling_34674"  [label = "eventhandling\n(88.83%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "eventhandling_34674" [label=7; weight=7; penwidth=0.5; color = 5];
-	"annotation_31520"  [label = "annotation\n(84.17%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "annotation_31520" [label=1; weight=1; penwidth=0.4; color = 5];
-	"eventhandling_34674" -> "messaging_45014" [label=48; weight=48; penwidth=0.3; color = 3]
-	"annotation_46198" -> "messaging_45014" [label=38; weight=38; penwidth=0.3; color = 3]
-	"eventhandling_34674" -> "annotation_46198" [label=27; weight=27; penwidth=0.3; color = 3]
-	"annotation_46198" -> "annotation_31520" [label=12; weight=12; penwidth=0.3; color = 3]
-	"messaging_45014" -> "eventhandling_34674" [label=4; weight=4; penwidth=0.3; color = 3]
-	"annotation_46198" -> "eventhandling_34674" [label=2; weight=2; penwidth=0.3; color = 3]
+	graph   [label="Top Rank #1 Java Package Outlier\norg.axonframework.springboot.util\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: cluster probability\nlarge circle: < 25% percentile of cluster probability\nthick outline: > 80% percentile of distance to cluster center\n\n"];
+	central [label="🧩 outlier #1\nutil"];
+	"autoconfig_20892"  [label = "autoconfig\n(100.0%)"; penwidth = 2; ]; "autoconfig_20892" -> central [label=17; weight=17; penwidth=0.6];
+	"legacyjpa_20893"  [shape = "circle"; height=1.8; label = "legacyjpa\n(0.0%)"; penwidth = 2; ]; "legacyjpa_20893" -> central [label=5; weight=5; penwidth=0.5];
+	"springboot_20889"  [label = "springboot\n(100.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "springboot_20889" [label=8; weight=8; penwidth=0.5; color = 5];
+	"config_58498"  [label = "config\n(100.0%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "config_58498" [label=1; weight=1; penwidth=0.4; color = 5];
+	"deadletter_47257"  [label = "deadletter\n(100.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "deadletter_47257" [label=0; weight=0; penwidth=0.4; color = 5];
+	"eventhandling_34674"  [label = "eventhandling\n(96.18%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "eventhandling_34674" [label=0; weight=0; penwidth=0.4; color = 5];
+	"autoconfig_20892" -> "springboot_20889" [label=190; weight=190; penwidth=0.3; color = 3]
+	"config_58498" -> "eventhandling_34674" [label=118; weight=118; penwidth=0.3; color = 3]
+	"autoconfig_20892" -> "config_58498" [label=47; weight=47; penwidth=0.3; color = 3]
+	"autoconfig_20892" -> "eventhandling_34674" [label=29; weight=29; penwidth=0.3; color = 3]
+	"config_58498" -> "deadletter_47257" [label=8; weight=8; penwidth=0.3; color = 3]
+	"legacyjpa_20893" -> "autoconfig_20892" [label=6; weight=6; penwidth=0.3; color = 3]
+	"legacyjpa_20893" -> "springboot_20889" [label=5; weight=5; penwidth=0.3; color = 3]
+	"springboot_20889" -> "config_58498" [label=3; weight=3; penwidth=0.3; color = 3]
+	"legacyjpa_20893" -> "config_58498" [label=1; weight=1; penwidth=0.3; color = 3]
+	"autoconfig_20892" -> "deadletter_47257" [label=0; weight=0; penwidth=0.3; color = 3]
+	"legacyjpa_20893" -> "deadletter_47257" [label=0; weight=0; penwidth=0.3; color = 3]
+	"legacyjpa_20893" -> "eventhandling_34674" [label=0; weight=0; penwidth=0.3; color = 3]
 }

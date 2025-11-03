@@ -12,17 +12,25 @@ strict digraph TopBridge1 {
     central [fontsize = 16;];
     central [color = 7; fillcolor = 5; penwidth = 3;];
 
-	graph   [label="Top Rank #1 Java Type Bridge\norg.axonframework.queryhandling.registration.DuplicateQueryHandlerResolution\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
-	central [label="🌉 bridge #1\nDuplicateQueryHandlerResolution"];
-	"SimpleQueryBus$Builder_51449" [label = "SimpleQueryBus$\nBuilder"; ]; "SimpleQueryBus$Builder_51449" -> central [label=1; weight=1; penwidth=0.4];
-	"DuplicateQueryHandlerResolver_51441" [label = "DuplicateQueryHandlerResolver"; color = 5; fillcolor = 1; ]; central -> "DuplicateQueryHandlerResolver_51441" [label=3; weight=3; penwidth=0.4; color = 5];
-	"FailingDuplicateQueryHandlerResolver_52488" [label = "FailingDuplicateQueryHandlerResolver"; color = 5; fillcolor = 1; ]; central -> "FailingDuplicateQueryHandlerResolver_52488" [label=1; weight=1; penwidth=0.4; color = 5];
-	"LoggingDuplicateQueryHandlerResolver_52487" [label = "LoggingDuplicateQueryHandlerResolver"; color = 5; fillcolor = 1; ]; central -> "LoggingDuplicateQueryHandlerResolver_52487" [label=1; weight=1; penwidth=0.4; color = 5];
-	"QuerySubscription_51404" [label = "QuerySubscription"; color = 5; fillcolor = 1; ]; central -> "QuerySubscription_51404" [label=1; weight=1; penwidth=0.4; color = 5];
-	"FailingDuplicateQueryHandlerResolver_52488" -> "QuerySubscription_51404" [label=4; weight=4; penwidth=0.3; color = 3]
-	"DuplicateQueryHandlerResolver_51441" -> "QuerySubscription_51404" [label=3; weight=3; penwidth=0.3; color = 3]
-	"LoggingDuplicateQueryHandlerResolver_52487" -> "QuerySubscription_51404" [label=3; weight=3; penwidth=0.3; color = 3]
-	"SimpleQueryBus$Builder_51449" -> "DuplicateQueryHandlerResolver_51441" [label=3; weight=3; penwidth=0.3; color = 3]
-	"FailingDuplicateQueryHandlerResolver_52488" -> "DuplicateQueryHandlerResolver_51441" [label=1; weight=1; penwidth=0.3; color = 3]
-	"LoggingDuplicateQueryHandlerResolver_52487" -> "DuplicateQueryHandlerResolver_51441" [label=1; weight=1; penwidth=0.3; color = 3]
+	graph   [label="Top Rank #1 Java Type Bridge\norg.axonframework.axonserver.connector.event.axon.PersistentStreamConnection$SegmentConnection$RetryState\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
+	central [label="🌉 bridge #1\nPersistentStreamConnection$SegmentConnection$RetryState"];
+	"PersistentStreamConnection$SegmentConnection$ProcessingState_4894" [label = "PersistentStreamConnection$\nSegmentConnection$\nProcessingState"; ]; "PersistentStreamConnection$SegmentConnection$ProcessingState_4894" -> central [label=3; weight=3; penwidth=0.4];
+	"PersistentStreamConnection$SegmentConnection_4895" [label = "PersistentStreamConnection$\nSegmentConnection"; ]; "PersistentStreamConnection$SegmentConnection_4895" -> central [label=1; weight=1; penwidth=0.4];
+	"PersistentStreamConnection$SegmentConnection_4895" [label = "PersistentStreamConnection$\nSegmentConnection"; color = 5; fillcolor = 1; ]; central -> "PersistentStreamConnection$SegmentConnection_4895" [label=12; weight=12; penwidth=0.5; color = 5];
+	"PersistentStreamConnection_4897" [label = "PersistentStreamConnection"; color = 5; fillcolor = 1; ]; central -> "PersistentStreamConnection_4897" [label=5; weight=5; penwidth=0.5; color = 5];
+	"PersistentStreamConnection$SegmentConnection$ProcessingState_4894" [label = "PersistentStreamConnection$\nSegmentConnection$\nProcessingState"; color = 5; fillcolor = 1; ]; central -> "PersistentStreamConnection$SegmentConnection$ProcessingState_4894" [label=3; weight=3; penwidth=0.4; color = 5];
+	"PersistentStreamConnection$SegmentState_4217" [label = "PersistentStreamConnection$\nSegmentState"; color = 5; fillcolor = 1; ]; central -> "PersistentStreamConnection$SegmentState_4217" [label=2; weight=2; penwidth=0.4; color = 5];
+	"PersistentStreamConnection$1_4896" [label = "PersistentStreamConnection$\n1"; color = 5; fillcolor = 1; ]; central -> "PersistentStreamConnection$1_4896" [label=1; weight=1; penwidth=0.4; color = 5];
+	"PersistentStreamConnection$SegmentConnection$ProcessingState_4894" -> "PersistentStreamConnection$SegmentConnection_4895" [label=45; weight=45; penwidth=0.3; color = 3]
+	"PersistentStreamConnection$SegmentConnection$ProcessingState_4894" -> "PersistentStreamConnection_4897" [label=14; weight=14; penwidth=0.3; color = 3]
+	"PersistentStreamConnection$SegmentConnection_4895" -> "PersistentStreamConnection_4897" [label=9; weight=9; penwidth=0.3; color = 3]
+	"PersistentStreamConnection_4897" -> "PersistentStreamConnection$SegmentConnection_4895" [label=6; weight=6; penwidth=0.3; color = 3]
+	"PersistentStreamConnection$SegmentConnection_4895" -> "PersistentStreamConnection$SegmentState_4217" [label=4; weight=4; penwidth=0.3; color = 3]
+	"PersistentStreamConnection$SegmentConnection_4895" -> "PersistentStreamConnection$SegmentConnection$ProcessingState_4894" [label=3; weight=3; penwidth=0.3; color = 3]
+	"PersistentStreamConnection$SegmentConnection$ProcessingState_4894" -> "PersistentStreamConnection$SegmentState_4217" [label=2; weight=2; penwidth=0.3; color = 3]
+	"PersistentStreamConnection$SegmentConnection$ProcessingState_4894" -> "PersistentStreamConnection$1_4896" [label=2; weight=2; penwidth=0.3; color = 3]
+	"PersistentStreamConnection_4897" -> "PersistentStreamConnection$1_4896" [label=1; weight=1; penwidth=0.3; color = 3]
+	"PersistentStreamConnection_4897" -> "PersistentStreamConnection$SegmentState_4217" [label=1; weight=1; penwidth=0.3; color = 3]
+	"PersistentStreamConnection$1_4896" -> "PersistentStreamConnection_4897" [label=1; weight=1; penwidth=0.3; color = 3]
+	"PersistentStreamConnection$SegmentConnection_4895" -> "PersistentStreamConnection$1_4896" [label=1; weight=1; penwidth=0.3; color = 3]
 }

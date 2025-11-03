@@ -16,19 +16,19 @@
 <text xml:space="preserve" text-anchor="middle" x="387.03" y="-564.31" font-family="Helvetica,Arial,sans-serif" font-size="14.00">node value: cluster probability</text>
 <text xml:space="preserve" text-anchor="middle" x="387.03" y="-547.51" font-family="Helvetica,Arial,sans-serif" font-size="14.00">large circle: &lt; 25% percentile of cluster probability</text>
 <text xml:space="preserve" text-anchor="middle" x="387.03" y="-530.71" font-family="Helvetica,Arial,sans-serif" font-size="14.00">thick outline: &gt; 80% percentile of distance to cluster center</text>
-<!-- central&#45;&gt;CommandMessage_26823 -->
+<!-- central&#45;&gt;CommandMessage_27164 -->
 <g id="edge2" class="edge">
-<title>central&#45;&gt;CommandMessage_26823</title>
-<path fill="none" stroke="#66c2a4" stroke-width="0.4" d="M315.74,-249.05C295.75,-185.92 272.96,-113.97 259.33,-70.93"/>
-<polygon fill="#66c2a4" stroke="#66c2a4" stroke-width="0.4" points="260.68,-70.56 258.14,-67.17 258.01,-71.41 260.68,-70.56"/>
-<text xml:space="preserve" text-anchor="middle" x="284.14" y="-153.63" font-family="Times,serif" font-size="4.00">3</text>
+<title>central&#45;&gt;CommandMessage_27164</title>
+<path fill="none" stroke="#66c2a4" stroke-width="0.4" d="M315.74,-249.05C295.51,-185.18 272.43,-112.29 258.86,-69.43"/>
+<polygon fill="#66c2a4" stroke="#66c2a4" stroke-width="0.4" points="260.22,-69.09 257.67,-65.7 257.55,-69.93 260.22,-69.09"/>
+<text xml:space="preserve" text-anchor="middle" x="283.8" y="-152.54" font-family="Times,serif" font-size="4.00">3</text>
 </g>
-<!-- central&#45;&gt;Message_26331 -->
+<!-- central&#45;&gt;Message_26672 -->
 <g id="edge3" class="edge">
-<title>central&#45;&gt;Message_26331</title>
-<path fill="none" stroke="#66c2a4" stroke-width="0.4" d="M265.86,-277.74C249.7,-260.2 233.94,-243.1 221.11,-229.17"/>
-<polygon fill="#66c2a4" stroke="#66c2a4" stroke-width="0.4" points="222.4,-228.51 218.66,-226.52 220.34,-230.41 222.4,-228.51"/>
-<text xml:space="preserve" text-anchor="middle" x="240.88" y="-252.92" font-family="Times,serif" font-size="4.00">2</text>
+<title>central&#45;&gt;Message_26672</title>
+<path fill="none" stroke="#66c2a4" stroke-width="0.4" d="M265.86,-277.74C249.28,-259.75 233.12,-242.21 220.12,-228.1"/>
+<polygon fill="#66c2a4" stroke="#66c2a4" stroke-width="0.4" points="221.38,-227.4 217.64,-225.4 219.32,-229.29 221.38,-227.4"/>
+<text xml:space="preserve" text-anchor="middle" x="240.29" y="-252.27" font-family="Times,serif" font-size="4.00">2</text>
 </g>
 <!-- central&#45;&gt;QueryMessage_49073 -->
 <g id="edge4" class="edge">
@@ -58,26 +58,26 @@
 <polygon fill="#ccece6" stroke="#ccece6" stroke-width="0.3" points="497.6,-203.58 493.44,-204.38 497.19,-206.35 497.6,-203.58"/>
 <text xml:space="preserve" text-anchor="middle" x="550.3" y="-214.22" font-family="Times,serif" font-size="4.00">7</text>
 </g>
-<!-- CommandMessage_26823&#45;&gt;Message_26331 -->
+<!-- CommandMessage_27164&#45;&gt;Message_26672 -->
 <g id="edge8" class="edge">
-<title>CommandMessage_26823&#45;&gt;Message_26331</title>
-<path fill="none" stroke="#ccece6" stroke-width="0.3" d="M235.58,-66.49C226.43,-93.49 213.66,-131.18 204.2,-159.11"/>
-<polygon fill="#ccece6" stroke="#ccece6" stroke-width="0.3" points="202.93,-158.49 202.98,-162.73 205.59,-159.39 202.93,-158.49"/>
-<text xml:space="preserve" text-anchor="middle" x="218.23" y="-115.94" font-family="Times,serif" font-size="4.00">3</text>
+<title>CommandMessage_27164&#45;&gt;Message_26672</title>
+<path fill="none" stroke="#ccece6" stroke-width="0.3" d="M236.12,-64.9C226.8,-92.39 213.47,-131.76 203.78,-160.35"/>
+<polygon fill="#ccece6" stroke="#ccece6" stroke-width="0.3" points="202.49,-159.82 202.53,-164.05 205.14,-160.72 202.49,-159.82"/>
+<text xml:space="preserve" text-anchor="middle" x="218.29" y="-115.79" font-family="Times,serif" font-size="4.00">3</text>
 </g>
-<!-- QueryMessage_49073&#45;&gt;Message_26331 -->
+<!-- QueryMessage_49073&#45;&gt;Message_26672 -->
 <g id="edge7" class="edge">
-<title>QueryMessage_49073&#45;&gt;Message_26331</title>
-<path fill="none" stroke="#ccece6" stroke-width="0.3" d="M77.46,-290.83C100.55,-271.8 132.23,-245.69 156.32,-225.83"/>
-<polygon fill="#ccece6" stroke="#ccece6" stroke-width="0.3" points="156.98,-227.1 159.17,-223.48 155.19,-224.94 156.98,-227.1"/>
-<text xml:space="preserve" text-anchor="middle" x="117.46" y="-258.24" font-family="Times,serif" font-size="4.00">6</text>
+<title>QueryMessage_49073&#45;&gt;Message_26672</title>
+<path fill="none" stroke="#ccece6" stroke-width="0.3" d="M77.46,-290.83C100.87,-271.54 133.1,-244.97 157.31,-225.01"/>
+<polygon fill="#ccece6" stroke="#ccece6" stroke-width="0.3" points="157.98,-226.28 160.17,-222.65 156.2,-224.12 157.98,-226.28"/>
+<text xml:space="preserve" text-anchor="middle" x="118.06" y="-257.74" font-family="Times,serif" font-size="4.00">6</text>
 </g>
-<!-- SpanAttributesProvider_55080&#45;&gt;Message_26331 -->
+<!-- SpanAttributesProvider_55080&#45;&gt;Message_26672 -->
 <g id="edge9" class="edge">
-<title>SpanAttributesProvider_55080&#45;&gt;Message_26331</title>
-<path fill="none" stroke="#ccece6" stroke-width="0.3" d="M354.44,-195.02C319.19,-195.43 277.28,-195.92 244.78,-196.3"/>
-<polygon fill="#ccece6" stroke="#ccece6" stroke-width="0.3" points="244.89,-194.9 240.91,-196.34 244.93,-197.7 244.89,-194.9"/>
-<text xml:space="preserve" text-anchor="middle" x="296.69" y="-196.88" font-family="Times,serif" font-size="4.00">1</text>
+<title>SpanAttributesProvider_55080&#45;&gt;Message_26672</title>
+<path fill="none" stroke="#ccece6" stroke-width="0.3" d="M354.44,-195.02C318.68,-195.44 276.05,-195.93 243.36,-196.31"/>
+<polygon fill="#ccece6" stroke="#ccece6" stroke-width="0.3" points="243.45,-194.91 239.47,-196.36 243.49,-197.71 243.45,-194.91"/>
+<text xml:space="preserve" text-anchor="middle" x="295.85" y="-196.89" font-family="Times,serif" font-size="4.00">1</text>
 </g>
 <!-- central -->
 <g id="node1" class="node">
@@ -92,21 +92,21 @@
 <title>AxonTracingAutoConfiguration_21145</title>
 <ellipse fill="#ccece6" stroke="#41ae76" stroke-width="2" cx="691.52" cy="-233.96" rx="82.55" ry="82.55"/>
 <text xml:space="preserve" text-anchor="middle" x="691.52" y="-237.56" font-family="Times,serif" font-size="12.00">AxonTracingAutoConfiguration</text>
-<text xml:space="preserve" text-anchor="middle" x="691.52" y="-223.16" font-family="Times,serif" font-size="12.00">(1.71%)</text>
+<text xml:space="preserve" text-anchor="middle" x="691.52" y="-223.16" font-family="Times,serif" font-size="12.00">(1.74%)</text>
 </g>
-<!-- CommandMessage_26823 -->
+<!-- CommandMessage_27164 -->
 <g id="node3" class="node">
-<title>CommandMessage_26823</title>
-<ellipse fill="#f7fcfd" stroke="#66c2a4" stroke-width="5" cx="247.13" cy="-32.4" rx="56.02" ry="32.4"/>
+<title>CommandMessage_27164</title>
+<ellipse fill="#f7fcfd" stroke="#66c2a4" stroke-width="2" cx="247.13" cy="-32.4" rx="56.02" ry="32.4"/>
 <text xml:space="preserve" text-anchor="middle" x="247.13" y="-36" font-family="Times,serif" font-size="12.00">CommandMessage</text>
-<text xml:space="preserve" text-anchor="middle" x="247.13" y="-21.6" font-family="Times,serif" font-size="12.00">(66.34%)</text>
+<text xml:space="preserve" text-anchor="middle" x="247.13" y="-21.6" font-family="Times,serif" font-size="12.00">(53.69%)</text>
 </g>
-<!-- Message_26331 -->
+<!-- Message_26672 -->
 <g id="node4" class="node">
-<title>Message_26331</title>
-<ellipse fill="#f7fcfd" stroke="#66c2a4" stroke-width="5" cx="191.39" cy="-196.92" rx="46.8" ry="32.4"/>
+<title>Message_26672</title>
+<ellipse fill="#f7fcfd" stroke="#66c2a4" stroke-width="2" cx="191.39" cy="-196.92" rx="46.8" ry="32.4"/>
 <text xml:space="preserve" text-anchor="middle" x="191.39" y="-200.52" font-family="Times,serif" font-size="12.00">Message</text>
-<text xml:space="preserve" text-anchor="middle" x="191.39" y="-186.12" font-family="Times,serif" font-size="12.00">(70.33%)</text>
+<text xml:space="preserve" text-anchor="middle" x="191.39" y="-186.12" font-family="Times,serif" font-size="12.00">(78.87%)</text>
 </g>
 <!-- QueryMessage_49073 -->
 <g id="node5" class="node">
@@ -120,7 +120,7 @@
 <title>SpanAttributesProvider_55080</title>
 <ellipse fill="#f7fcfd" stroke="#66c2a4" stroke-width="5" cx="425.24" cy="-194.19" rx="68.43" ry="32.4"/>
 <text xml:space="preserve" text-anchor="middle" x="425.24" y="-197.79" font-family="Times,serif" font-size="12.00">SpanAttributesProvider</text>
-<text xml:space="preserve" text-anchor="middle" x="425.24" y="-183.39" font-family="Times,serif" font-size="12.00">(80.72%)</text>
+<text xml:space="preserve" text-anchor="middle" x="425.24" y="-183.39" font-family="Times,serif" font-size="12.00">(83.13%)</text>
 </g>
 </g>
 </svg>

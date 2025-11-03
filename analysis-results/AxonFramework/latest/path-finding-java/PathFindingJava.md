@@ -1427,8 +1427,8 @@ Shows the top 20 artifacts with their max. longest path.
 
 
     sourceProject
-    axon-spring-boot-autoconfigure-4.12.1    3
     axon-test-4.12.1                         3
+    axon-spring-boot-autoconfigure-4.12.1    3
     axon-server-connector-4.12.1             2
     axon-modelling-4.12.1                    1
     Name: distance, dtype: int64

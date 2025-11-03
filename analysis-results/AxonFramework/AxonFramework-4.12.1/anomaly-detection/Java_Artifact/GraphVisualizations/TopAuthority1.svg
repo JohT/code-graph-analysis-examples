@@ -129,14 +129,14 @@
 <text xml:space="preserve" text-anchor="middle" x="408.83" y="-710.35" font-family="Times,serif" font-size="4.00">94</text>
 </g>
 <!-- axon&#45;spring&#45;boot&#45;autoconfigure&#45;4.12.1_20869&#45;&gt;axon&#45;test&#45;4.12.1_62549 -->
-<g id="edge22" class="edge">
+<g id="edge23" class="edge">
 <title>axon&#45;spring&#45;boot&#45;autoconfigure&#45;4.12.1_20869&#45;&gt;axon&#45;test&#45;4.12.1_62549</title>
 <path fill="none" stroke="#ccece6" stroke-width="0.3" d="M449.95,-492.87C467.17,-491.39 484.64,-489.04 500.98,-485.41 608.57,-461.5 704.05,-364.37 748.26,-312.98"/>
 <polygon fill="#ccece6" stroke="#ccece6" stroke-width="0.3" points="749.27,-313.96 750.8,-310.01 747.14,-312.14 749.27,-313.96"/>
 <text xml:space="preserve" text-anchor="middle" x="619.26" y="-431.42" font-family="Times,serif" font-size="4.00">4</text>
 </g>
 <!-- axon&#45;spring&#45;boot&#45;autoconfigure&#45;4.12.1_20869&#45;&gt;axon&#45;tracing&#45;opentelemetry&#45;4.12.1_55814 -->
-<g id="edge23" class="edge">
+<g id="edge22" class="edge">
 <title>axon&#45;spring&#45;boot&#45;autoconfigure&#45;4.12.1_20869&#45;&gt;axon&#45;tracing&#45;opentelemetry&#45;4.12.1_55814</title>
 <path fill="none" stroke="#ccece6" stroke-width="0.3" d="M318.77,-458.54C275.36,-374.04 163.39,-156.12 118.67,-69.09"/>
 <polygon fill="#ccece6" stroke="#ccece6" stroke-width="0.3" points="120,-68.62 116.93,-65.7 117.51,-69.9 120,-68.62"/>

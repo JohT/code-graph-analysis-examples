@@ -12,191 +12,157 @@ strict digraph TopBridge2 {
     central [fontsize = 16;];
     central [color = 7; fillcolor = 5; penwidth = 3;];
 
-	graph   [label="Top Rank #2 Java Package Bridge\norg.axonframework.config\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
-	central [label="🌉 bridge #2\nconfig"];
-	"autoconfig_20892" [label = "autoconfig"; ]; "autoconfig_20892" -> central [label=47; weight=47; penwidth=1.0];
-	"connector_18" [label = "connector"; ]; "connector_18" -> central [label=25; weight=25; penwidth=0.7];
-	"axon_29" [label = "axon"; ]; "axon_29" -> central [label=13; weight=13; penwidth=0.6];
-	"springboot_20889" [label = "springboot"; ]; "springboot_20889" -> central [label=3; weight=3; penwidth=0.4];
-	"heartbeat_21" [label = "heartbeat"; ]; "heartbeat_21" -> central [label=2; weight=2; penwidth=0.4];
-	"processor_19" [label = "processor"; ]; "processor_19" -> central [label=2; weight=2; penwidth=0.4];
-	"legacyjpa_20893" [label = "legacyjpa"; ]; "legacyjpa_20893" -> central [label=1; weight=1; penwidth=0.4];
-	"util_20894" [label = "util"; ]; "util_20894" -> central [label=1; weight=1; penwidth=0.4];
-	"eventhandling_34674" [label = "eventhandling"; color = 5; fillcolor = 1; ]; central -> "eventhandling_34674" [label=118; weight=118; penwidth=2.0; color = 5];
-	"common_30475" [label = "common"; color = 5; fillcolor = 1; ]; central -> "common_30475" [label=51; weight=51; penwidth=1.1; color = 5];
-	"command_8435" [label = "command"; color = 5; fillcolor = 1; ]; central -> "command_8435" [label=45; weight=45; penwidth=1.0; color = 5];
-	"queryhandling_49344" [label = "queryhandling"; color = 5; fillcolor = 1; ]; central -> "queryhandling_49344" [label=41; weight=41; penwidth=0.9; color = 5];
-	"eventsourcing_15367" [label = "eventsourcing"; color = 5; fillcolor = 1; ]; central -> "eventsourcing_15367" [label=38; weight=38; penwidth=0.9; color = 5];
-	"saga_12626" [label = "saga"; color = 5; fillcolor = 1; ]; central -> "saga_12626" [label=29; weight=29; penwidth=0.8; color = 5];
-	"pooled_41879" [label = "pooled"; color = 5; fillcolor = 1; ]; central -> "pooled_41879" [label=27; weight=27; penwidth=0.8; color = 5];
-	"deadletter_38868" [label = "deadletter"; color = 5; fillcolor = 1; ]; central -> "deadletter_38868" [label=25; weight=25; penwidth=0.7; color = 5];
-	"commandhandling_26403" [label = "commandhandling"; color = 5; fillcolor = 1; ]; central -> "commandhandling_26403" [label=21; weight=21; penwidth=0.7; color = 5];
-	"messaging_45014" [label = "messaging"; color = 5; fillcolor = 1; ]; central -> "messaging_45014" [label=21; weight=21; penwidth=0.7; color = 5];
-	"annotation_46198" [label = "annotation"; color = 5; fillcolor = 1; ]; central -> "annotation_46198" [label=17; weight=17; penwidth=0.6; color = 5];
-	"repository_13663" [label = "repository"; color = 5; fillcolor = 1; ]; central -> "repository_13663" [label=14; weight=14; penwidth=0.6; color = 5];
-	"deadline_33624" [label = "deadline"; color = 5; fillcolor = 1; ]; central -> "deadline_33624" [label=13; weight=13; penwidth=0.6; color = 5];
-	"updates_55425" [label = "updates"; color = 5; fillcolor = 1; ]; central -> "updates_55425" [label=13; weight=13; penwidth=0.6; color = 5];
-	"lifecycle_45013" [label = "lifecycle"; color = 5; fillcolor = 1; ]; central -> "lifecycle_45013" [label=12; weight=12; penwidth=0.6; color = 5];
-	"transaction_33623" [label = "transaction"; color = 5; fillcolor = 1; ]; central -> "transaction_33623" [label=11; weight=11; penwidth=0.5; color = 5];
-	"eventstore_17765" [label = "eventstore"; color = 5; fillcolor = 1; ]; central -> "eventstore_17765" [label=10; weight=10; penwidth=0.5; color = 5];
-	"jpa_19968" [label = "jpa"; color = 5; fillcolor = 1; ]; central -> "jpa_19968" [label=10; weight=10; penwidth=0.5; color = 5];
-	"deadletter_47257" [label = "deadletter"; color = 5; fillcolor = 1; ]; central -> "deadletter_47257" [label=8; weight=8; penwidth=0.5; color = 5];
-	"event_54558" [label = "event"; color = 5; fillcolor = 1; ]; central -> "event_54558" [label=8; weight=8; penwidth=0.5; color = 5];
-	"serialization_52485" [label = "serialization"; color = 5; fillcolor = 1; ]; central -> "serialization_52485" [label=8; weight=8; penwidth=0.5; color = 5];
-	"monitoring_49343" [label = "monitoring"; color = 5; fillcolor = 1; ]; central -> "monitoring_49343" [label=7; weight=7; penwidth=0.5; color = 5];
-	"snapshotting_20853" [label = "snapshotting"; color = 5; fillcolor = 1; ]; central -> "snapshotting_20853" [label=7; weight=7; penwidth=0.5; color = 5];
-	"commandhandling_56644" [label = "commandhandling"; color = 5; fillcolor = 1; ]; central -> "commandhandling_56644" [label=6; weight=6; penwidth=0.5; color = 5];
-	"gateway_41877" [label = "gateway"; color = 5; fillcolor = 1; ]; central -> "gateway_41877" [label=6; weight=6; penwidth=0.5; color = 5];
-	"gateway_29401" [label = "gateway"; color = 5; fillcolor = 1; ]; central -> "gateway_29401" [label=6; weight=6; penwidth=0.5; color = 5];
-	"interceptors_48279" [label = "interceptors"; color = 5; fillcolor = 1; ]; central -> "interceptors_48279" [label=6; weight=6; penwidth=0.5; color = 5];
-	"util_55752" [label = "util"; color = 5; fillcolor = 1; ]; central -> "util_55752" [label=6; weight=6; penwidth=0.5; color = 5];
-	"inspection_10533" [label = "inspection"; color = 5; fillcolor = 1; ]; central -> "inspection_10533" [label=5; weight=5; penwidth=0.5; color = 5];
-	"jpa_45011" [label = "jpa"; color = 5; fillcolor = 1; ]; central -> "jpa_45011" [label=5; weight=5; penwidth=0.5; color = 5];
-	"jpa_14665" [label = "jpa"; color = 5; fillcolor = 1; ]; central -> "jpa_14665" [label=5; weight=5; penwidth=0.5; color = 5];
-	"lock_32575" [label = "lock"; color = 5; fillcolor = 1; ]; central -> "lock_32575" [label=5; weight=5; penwidth=0.5; color = 5];
-	"async_38867" [label = "async"; color = 5; fillcolor = 1; ]; central -> "async_38867" [label=4; weight=4; penwidth=0.5; color = 5];
-	"jpa_32332" [label = "jpa"; color = 5; fillcolor = 1; ]; central -> "jpa_32332" [label=4; weight=4; penwidth=0.5; color = 5];
-	"tokenstore_43954" [label = "tokenstore"; color = 5; fillcolor = 1; ]; central -> "tokenstore_43954" [label=4; weight=4; penwidth=0.5; color = 5];
-	"unitofwork_49342" [label = "unitofwork"; color = 5; fillcolor = 1; ]; central -> "unitofwork_49342" [label=4; weight=4; penwidth=0.5; color = 5];
-	"xml_54559" [label = "xml"; color = 5; fillcolor = 1; ]; central -> "xml_54559" [label=4; weight=4; penwidth=0.5; color = 5];
-	"annotation_52483" [label = "annotation"; color = 5; fillcolor = 1; ]; central -> "annotation_52483" [label=3; weight=3; penwidth=0.4; color = 5];
-	"annotation_31520" [label = "annotation"; color = 5; fillcolor = 1; ]; central -> "annotation_31520" [label=3; weight=3; penwidth=0.4; color = 5];
-	"caching_31521" [label = "caching"; color = 5; fillcolor = 1; ]; central -> "caching_31521" [label=3; weight=3; penwidth=0.4; color = 5];
-	"autoconfig_20892" -> "springboot_20889" [label=190; weight=190; penwidth=0.3; color = 3]
-	"pooled_41879" -> "eventhandling_34674" [label=189; weight=189; penwidth=0.3; color = 3]
-	"queryhandling_49344" -> "messaging_45014" [label=96; weight=96; penwidth=0.3; color = 3]
-	"eventhandling_34674" -> "common_30475" [label=89; weight=89; penwidth=0.3; color = 3]
+	graph   [label="Top Rank #2 Java Package Bridge\norg.axonframework.commandhandling\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
+	central [label="🌉 bridge #2\ncommandhandling"];
+	"distributed_28382" [label = "distributed"; ]; "distributed_28382" -> central [label=47; weight=47; penwidth=1.0];
+	"gateway_29401" [label = "gateway"; ]; "gateway_29401" -> central [label=42; weight=42; penwidth=1.0];
+	"commandhandling_56644" [label = "commandhandling"; ]; "commandhandling_56644" -> central [label=39; weight=39; penwidth=0.9];
+	"command_30" [label = "command"; ]; "command_30" -> central [label=31; weight=31; penwidth=0.8];
+	"aggregate_62571" [label = "aggregate"; ]; "aggregate_62571" -> central [label=24; weight=24; penwidth=0.7];
+	"config_58498" [label = "config"; ]; "config_58498" -> central [label=21; weight=21; penwidth=0.7];
+	"autoconfig_20892" [label = "autoconfig"; ]; "autoconfig_20892" -> central [label=20; weight=20; penwidth=0.7];
+	"command_8435" [label = "command"; ]; "command_8435" -> central [label=18; weight=18; penwidth=0.6];
+	"connector_18" [label = "connector"; ]; "connector_18" -> central [label=16; weight=16; penwidth=0.6];
+	"inspection_10533" [label = "inspection"; ]; "inspection_10533" -> central [label=16; weight=16; penwidth=0.6];
+	"callbacks_28381" [label = "callbacks"; ]; "callbacks_28381" -> central [label=15; weight=15; penwidth=0.6];
+	"utils_62570" [label = "utils"; ]; "utils_62570" -> central [label=6; weight=6; penwidth=0.5];
+	"saga_62569" [label = "saga"; ]; "saga_62569" -> central [label=5; weight=5; penwidth=0.5];
+	"commandfilter_29400" [label = "commandfilter"; ]; "commandfilter_29400" -> central [label=2; weight=2; penwidth=0.4];
+	"serialization_52485" [label = "serialization"; ]; "serialization_52485" -> central [label=2; weight=2; penwidth=0.4];
+	"attributes_55424" [label = "attributes"; ]; "attributes_55424" -> central [label=1; weight=1; penwidth=0.4];
+	"tracing_54560" [label = "tracing"; ]; "tracing_54560" -> central [label=1; weight=1; penwidth=0.4];
+	"util_55752" [label = "util"; ]; "util_55752" -> central [label=1; weight=1; penwidth=0.4];
+	"conflictresolution_17764" [label = "conflictresolution"; ]; "conflictresolution_17764" -> central [label=0; weight=0; penwidth=0.4];
+	"matchers_62572" [label = "matchers"; ]; "matchers_62572" -> central [label=0; weight=0; penwidth=0.4];
+	"timeout_49341" [label = "timeout"; ]; "timeout_49341" -> central [label=0; weight=0; penwidth=0.4];
+	"messaging_45014" [label = "messaging"; color = 5; fillcolor = 1; ]; central -> "messaging_45014" [label=42; weight=42; penwidth=1.0; color = 5];
+	"common_30475" [label = "common"; color = 5; fillcolor = 1; ]; central -> "common_30475" [label=26; weight=26; penwidth=0.7; color = 5];
+	"annotation_46198" [label = "annotation"; color = 5; fillcolor = 1; ]; central -> "annotation_46198" [label=18; weight=18; penwidth=0.6; color = 5];
+	"tracing_54560" [label = "tracing"; color = 5; fillcolor = 1; ]; central -> "tracing_54560" [label=6; weight=6; penwidth=0.5; color = 5];
+	"unitofwork_49342" [label = "unitofwork"; color = 5; fillcolor = 1; ]; central -> "unitofwork_49342" [label=6; weight=6; penwidth=0.5; color = 5];
+	"monitoring_49343" [label = "monitoring"; color = 5; fillcolor = 1; ]; central -> "monitoring_49343" [label=4; weight=4; penwidth=0.5; color = 5];
+	"callbacks_28381" [label = "callbacks"; color = 5; fillcolor = 1; ]; central -> "callbacks_28381" [label=2; weight=2; penwidth=0.4; color = 5];
+	"transaction_33623" [label = "transaction"; color = 5; fillcolor = 1; ]; central -> "transaction_33623" [label=2; weight=2; penwidth=0.4; color = 5];
 	"autoconfig_20892" -> "connector_18" [label=87; weight=87; penwidth=0.3; color = 3]
-	"axon_29" -> "connector_18" [label=80; weight=80; penwidth=0.3; color = 3]
-	"repository_13663" -> "saga_12626" [label=71; weight=71; penwidth=0.3; color = 3]
-	"eventstore_17765" -> "eventhandling_34674" [label=68; weight=68; penwidth=0.3; color = 3]
 	"command_8435" -> "common_30475" [label=67; weight=67; penwidth=0.3; color = 3]
-	"axon_29" -> "eventhandling_34674" [label=64; weight=64; penwidth=0.3; color = 3]
-	"axon_29" -> "eventstore_17765" [label=60; weight=60; penwidth=0.3; color = 3]
-	"autoconfig_20892" -> "queryhandling_49344" [label=53; weight=53; penwidth=0.3; color = 3]
-	"axon_29" -> "common_30475" [label=48; weight=48; penwidth=0.3; color = 3]
-	"eventhandling_34674" -> "messaging_45014" [label=48; weight=48; penwidth=0.3; color = 3]
-	"eventhandling_34674" -> "unitofwork_49342" [label=48; weight=48; penwidth=0.3; color = 3]
-	"eventsourcing_15367" -> "command_8435" [label=48; weight=48; penwidth=0.3; color = 3]
+	"config_58498" -> "common_30475" [label=51; weight=51; penwidth=0.3; color = 3]
+	"aggregate_62571" -> "matchers_62572" [label=50; weight=50; penwidth=0.3; color = 3]
+	"aggregate_62571" -> "command_8435" [label=49; weight=49; penwidth=0.3; color = 3]
 	"inspection_10533" -> "common_30475" [label=48; weight=48; penwidth=0.3; color = 3]
-	"commandhandling_56644" -> "eventsourcing_15367" [label=46; weight=46; penwidth=0.3; color = 3]
+	"autoconfig_20892" -> "config_58498" [label=47; weight=47; penwidth=0.3; color = 3]
 	"connector_18" -> "common_30475" [label=46; weight=46; penwidth=0.3; color = 3]
 	"inspection_10533" -> "annotation_46198" [label=46; weight=46; penwidth=0.3; color = 3]
-	"autoconfig_20892" -> "axon_29" [label=44; weight=44; penwidth=0.3; color = 3]
-	"commandhandling_26403" -> "messaging_45014" [label=42; weight=42; penwidth=0.3; color = 3]
-	"gateway_29401" -> "commandhandling_26403" [label=42; weight=42; penwidth=0.3; color = 3]
-	"deadletter_38868" -> "eventhandling_34674" [label=40; weight=40; penwidth=0.3; color = 3]
-	"jpa_19968" -> "eventhandling_34674" [label=40; weight=40; penwidth=0.3; color = 3]
-	"commandhandling_56644" -> "commandhandling_26403" [label=39; weight=39; penwidth=0.3; color = 3]
+	"config_58498" -> "command_8435" [label=45; weight=45; penwidth=0.3; color = 3]
+	"saga_62569" -> "matchers_62572" [label=44; weight=44; penwidth=0.3; color = 3]
 	"annotation_46198" -> "messaging_45014" [label=38; weight=38; penwidth=0.3; color = 3]
-	"saga_12626" -> "common_30475" [label=37; weight=37; penwidth=0.3; color = 3]
-	"queryhandling_49344" -> "common_30475" [label=35; weight=35; penwidth=0.3; color = 3]
+	"distributed_28382" -> "common_30475" [label=35; weight=35; penwidth=0.3; color = 3]
 	"unitofwork_49342" -> "messaging_45014" [label=35; weight=35; penwidth=0.3; color = 3]
-	"xml_54559" -> "serialization_52485" [label=35; weight=35; penwidth=0.3; color = 3]
-	"jpa_19968" -> "eventstore_17765" [label=33; weight=33; penwidth=0.3; color = 3]
+	"command_30" -> "connector_18" [label=32; weight=32; penwidth=0.3; color = 3]
 	"commandhandling_56644" -> "command_8435" [label=30; weight=30; penwidth=0.3; color = 3]
 	"inspection_10533" -> "command_8435" [label=30; weight=30; penwidth=0.3; color = 3]
-	"autoconfig_20892" -> "eventhandling_34674" [label=29; weight=29; penwidth=0.3; color = 3]
 	"commandhandling_56644" -> "unitofwork_49342" [label=29; weight=29; penwidth=0.3; color = 3]
-	"connector_18" -> "axon_29" [label=29; weight=29; penwidth=0.3; color = 3]
-	"eventsourcing_15367" -> "eventhandling_34674" [label=29; weight=29; penwidth=0.3; color = 3]
-	"jpa_45011" -> "tokenstore_43954" [label=29; weight=29; penwidth=0.3; color = 3]
-	"saga_12626" -> "eventhandling_34674" [label=28; weight=28; penwidth=0.3; color = 3]
-	"eventhandling_34674" -> "annotation_46198" [label=27; weight=27; penwidth=0.3; color = 3]
-	"commandhandling_26403" -> "common_30475" [label=26; weight=26; penwidth=0.3; color = 3]
-	"eventsourcing_15367" -> "common_30475" [label=26; weight=26; penwidth=0.3; color = 3]
-	"inspection_10533" -> "eventhandling_34674" [label=26; weight=26; penwidth=0.3; color = 3]
 	"serialization_52485" -> "common_30475" [label=26; weight=26; penwidth=0.3; color = 3]
 	"annotation_46198" -> "common_30475" [label=25; weight=25; penwidth=0.3; color = 3]
-	"annotation_52483" -> "annotation_46198" [label=25; weight=25; penwidth=0.3; color = 3]
 	"autoconfig_20892" -> "serialization_52485" [label=25; weight=25; penwidth=0.3; color = 3]
-	"axon_29" -> "serialization_52485" [label=25; weight=25; penwidth=0.3; color = 3]
+	"autoconfig_20892" -> "timeout_49341" [label=25; weight=25; penwidth=0.3; color = 3]
 	"command_8435" -> "inspection_10533" [label=25; weight=25; penwidth=0.3; color = 3]
-	"jpa_14665" -> "saga_12626" [label=25; weight=25; penwidth=0.3; color = 3]
-	"pooled_41879" -> "common_30475" [label=25; weight=25; penwidth=0.3; color = 3]
-	"deadletter_47257" -> "messaging_45014" [label=24; weight=24; penwidth=0.3; color = 3]
-	"event_54558" -> "serialization_52485" [label=24; weight=24; penwidth=0.3; color = 3]
+	"connector_18" -> "config_58498" [label=25; weight=25; penwidth=0.3; color = 3]
+	"command_30" -> "common_30475" [label=24; weight=24; penwidth=0.3; color = 3]
 	"serialization_52485" -> "messaging_45014" [label=24; weight=24; penwidth=0.3; color = 3]
-	"deadline_33624" -> "messaging_45014" [label=23; weight=23; penwidth=0.3; color = 3]
-	"eventstore_17765" -> "common_30475" [label=23; weight=23; penwidth=0.3; color = 3]
-	"repository_13663" -> "common_30475" [label=22; weight=22; penwidth=0.3; color = 3]
+	"connector_18" -> "command_30" [label=22; weight=22; penwidth=0.3; color = 3]
+	"command_30" -> "messaging_45014" [label=21; weight=21; penwidth=0.3; color = 3]
 	"commandhandling_56644" -> "common_30475" [label=21; weight=21; penwidth=0.3; color = 3]
-	"eventsourcing_15367" -> "unitofwork_49342" [label=21; weight=21; penwidth=0.3; color = 3]
-	"autoconfig_20892" -> "commandhandling_26403" [label=20; weight=20; penwidth=0.3; color = 3]
-	"deadletter_38868" -> "deadletter_47257" [label=20; weight=20; penwidth=0.3; color = 3]
-	"eventsourcing_15367" -> "inspection_10533" [label=20; weight=20; penwidth=0.3; color = 3]
+	"config_58498" -> "messaging_45014" [label=21; weight=21; penwidth=0.3; color = 3]
 	"messaging_45014" -> "common_30475" [label=20; weight=20; penwidth=0.3; color = 3]
+	"aggregate_62571" -> "unitofwork_49342" [label=19; weight=19; penwidth=0.3; color = 3]
 	"command_8435" -> "messaging_45014" [label=19; weight=19; penwidth=0.3; color = 3]
-	"connector_18" -> "queryhandling_49344" [label=19; weight=19; penwidth=0.3; color = 3]
 	"gateway_29401" -> "common_30475" [label=19; weight=19; penwidth=0.3; color = 3]
-	"saga_12626" -> "annotation_46198" [label=19; weight=19; penwidth=0.3; color = 3]
 	"command_8435" -> "unitofwork_49342" [label=18; weight=18; penwidth=0.3; color = 3]
-	"command_8435" -> "commandhandling_26403" [label=18; weight=18; penwidth=0.3; color = 3]
-	"commandhandling_26403" -> "annotation_46198" [label=18; weight=18; penwidth=0.3; color = 3]
-	"deadline_33624" -> "common_30475" [label=18; weight=18; penwidth=0.3; color = 3]
-	"autoconfig_20892" -> "util_20894" [label=17; weight=17; penwidth=0.3; color = 3]
 	"commandhandling_56644" -> "messaging_45014" [label=17; weight=17; penwidth=0.3; color = 3]
-	"processor_19" -> "connector_18" [label=17; weight=17; penwidth=0.3; color = 3]
-	"connector_18" -> "commandhandling_26403" [label=16; weight=16; penwidth=0.3; color = 3]
-	"eventhandling_34674" -> "serialization_52485" [label=16; weight=16; penwidth=0.3; color = 3]
-	"inspection_10533" -> "commandhandling_26403" [label=16; weight=16; penwidth=0.3; color = 3]
-	"jpa_19968" -> "common_30475" [label=16; weight=16; penwidth=0.3; color = 3]
-	"event_54558" -> "messaging_45014" [label=15; weight=15; penwidth=0.3; color = 3]
+	"config_58498" -> "annotation_46198" [label=17; weight=17; penwidth=0.3; color = 3]
+	"distributed_28382" -> "serialization_52485" [label=17; weight=17; penwidth=0.3; color = 3]
+	"saga_62569" -> "gateway_29401" [label=17; weight=17; penwidth=0.3; color = 3]
+	"gateway_29401" -> "callbacks_28381" [label=16; weight=16; penwidth=0.3; color = 3]
+	"distributed_28382" -> "messaging_45014" [label=15; weight=15; penwidth=0.3; color = 3]
 	"inspection_10533" -> "messaging_45014" [label=15; weight=15; penwidth=0.3; color = 3]
-	"jpa_45011" -> "common_30475" [label=15; weight=15; penwidth=0.3; color = 3]
-	"processor_19" -> "eventhandling_34674" [label=15; weight=15; penwidth=0.3; color = 3]
+	"tracing_54560" -> "messaging_45014" [label=15; weight=15; penwidth=0.3; color = 3]
+	"autoconfig_20892" -> "command_30" [label=14; weight=14; penwidth=0.3; color = 3]
 	"command_8435" -> "annotation_46198" [label=14; weight=14; penwidth=0.3; color = 3]
-	"connector_18" -> "eventstore_17765" [label=14; weight=14; penwidth=0.3; color = 3]
-	"command_8435" -> "lock_32575" [label=13; weight=13; penwidth=0.3; color = 3]
-	"deadletter_47257" -> "common_30475" [label=13; weight=13; penwidth=0.3; color = 3]
-	"jpa_45011" -> "eventhandling_34674" [label=13; weight=13; penwidth=0.3; color = 3]
+	"command_30" -> "serialization_52485" [label=13; weight=13; penwidth=0.3; color = 3]
 	"messaging_45014" -> "serialization_52485" [label=13; weight=13; penwidth=0.3; color = 3]
-	"queryhandling_49344" -> "unitofwork_49342" [label=13; weight=13; penwidth=0.3; color = 3]
-	"tokenstore_43954" -> "common_30475" [label=13; weight=13; penwidth=0.3; color = 3]
-	"annotation_46198" -> "annotation_31520" [label=12; weight=12; penwidth=0.3; color = 3]
-	"autoconfig_20892" -> "jpa_19968" [label=12; weight=12; penwidth=0.3; color = 3]
-	"eventsourcing_15367" -> "eventstore_17765" [label=12; weight=12; penwidth=0.3; color = 3]
-	"pooled_41879" -> "tokenstore_43954" [label=12; weight=12; penwidth=0.3; color = 3]
-	"autoconfig_20892" -> "eventstore_17765" [label=11; weight=11; penwidth=0.3; color = 3]
-	"inspection_10533" -> "annotation_31520" [label=11; weight=11; penwidth=0.3; color = 3]
-	"jpa_14665" -> "serialization_52485" [label=11; weight=11; penwidth=0.3; color = 3]
-	"queryhandling_49344" -> "monitoring_49343" [label=11; weight=11; penwidth=0.3; color = 3]
-	"async_38867" -> "eventhandling_34674" [label=10; weight=10; penwidth=0.3; color = 3]
-	"deadline_33624" -> "eventhandling_34674" [label=10; weight=10; penwidth=0.3; color = 3]
-	"eventhandling_34674" -> "tokenstore_43954" [label=10; weight=10; penwidth=0.3; color = 3]
-	"eventhandling_34674" -> "monitoring_49343" [label=10; weight=10; penwidth=0.3; color = 3]
+	"aggregate_62571" -> "annotation_46198" [label=12; weight=12; penwidth=0.3; color = 3]
+	"aggregate_62571" -> "messaging_45014" [label=12; weight=12; penwidth=0.3; color = 3]
+	"autoconfig_20892" -> "attributes_55424" [label=12; weight=12; penwidth=0.3; color = 3]
+	"commandfilter_29400" -> "distributed_28382" [label=12; weight=12; penwidth=0.3; color = 3]
+	"distributed_28382" -> "commandfilter_29400" [label=12; weight=12; penwidth=0.3; color = 3]
+	"saga_62569" -> "utils_62570" [label=12; weight=12; penwidth=0.3; color = 3]
+	"aggregate_62571" -> "common_30475" [label=11; weight=11; penwidth=0.3; color = 3]
+	"autoconfig_20892" -> "tracing_54560" [label=11; weight=11; penwidth=0.3; color = 3]
+	"config_58498" -> "transaction_33623" [label=11; weight=11; penwidth=0.3; color = 3]
+	"saga_62569" -> "annotation_46198" [label=11; weight=11; penwidth=0.3; color = 3]
+	"aggregate_62571" -> "inspection_10533" [label=10; weight=10; penwidth=0.3; color = 3]
 	"gateway_29401" -> "messaging_45014" [label=10; weight=10; penwidth=0.3; color = 3]
-	"heartbeat_21" -> "connector_18" [label=10; weight=10; penwidth=0.3; color = 3]
 	"unitofwork_49342" -> "common_30475" [label=10; weight=10; penwidth=0.3; color = 3]
-	"async_38867" -> "common_30475" [label=9; weight=9; penwidth=0.3; color = 3]
-	"autoconfig_20892" -> "updates_55425" [label=9; weight=9; penwidth=0.3; color = 3]
 	"commandhandling_56644" -> "annotation_46198" [label=9; weight=9; penwidth=0.3; color = 3]
-	"jpa_45011" -> "serialization_52485" [label=9; weight=9; penwidth=0.3; color = 3]
-	"tokenstore_43954" -> "eventhandling_34674" [label=9; weight=9; penwidth=0.3; color = 3]
-	"annotation_52483" -> "queryhandling_49344" [label=8; weight=8; penwidth=0.3; color = 3]
-	"autoconfig_20892" -> "deadline_33624" [label=8; weight=8; penwidth=0.3; color = 3]
 	"autoconfig_20892" -> "common_30475" [label=8; weight=8; penwidth=0.3; color = 3]
-	"autoconfig_20892" -> "xml_54559" [label=8; weight=8; penwidth=0.3; color = 3]
+	"config_58498" -> "serialization_52485" [label=8; weight=8; penwidth=0.3; color = 3]
 	"connector_18" -> "messaging_45014" [label=8; weight=8; penwidth=0.3; color = 3]
-	"eventsourcing_15367" -> "event_54558" [label=8; weight=8; penwidth=0.3; color = 3]
-	"interceptors_48279" -> "messaging_45014" [label=8; weight=8; penwidth=0.3; color = 3]
-	"pooled_41879" -> "transaction_33623" [label=8; weight=8; penwidth=0.3; color = 3]
-	"tokenstore_43954" -> "serialization_52485" [label=8; weight=8; penwidth=0.3; color = 3]
-	"util_20894" -> "springboot_20889" [label=8; weight=8; penwidth=0.3; color = 3]
-	"autoconfig_20892" -> "eventsourcing_15367" [label=7; weight=7; penwidth=0.3; color = 3]
+	"tracing_54560" -> "common_30475" [label=8; weight=8; penwidth=0.3; color = 3]
 	"autoconfig_20892" -> "messaging_45014" [label=7; weight=7; penwidth=0.3; color = 3]
-	"autoconfig_20892" -> "pooled_41879" [label=7; weight=7; penwidth=0.3; color = 3]
-	"axon_29" -> "unitofwork_49342" [label=7; weight=7; penwidth=0.3; color = 3]
-	"axon_29" -> "messaging_45014" [label=7; weight=7; penwidth=0.3; color = 3]
-	"deadletter_38868" -> "unitofwork_49342" [label=7; weight=7; penwidth=0.3; color = 3]
-	"deadline_33624" -> "unitofwork_49342" [label=7; weight=7; penwidth=0.3; color = 3]
-	"eventhandling_34674" -> "event_54558" [label=7; weight=7; penwidth=0.3; color = 3]
-	"eventhandling_34674" -> "transaction_33623" [label=7; weight=7; penwidth=0.3; color = 3]
-	"eventstore_17765" -> "serialization_52485" [label=7; weight=7; penwidth=0.3; color = 3]
-	"gateway_41877" -> "eventhandling_34674" [label=7; weight=7; penwidth=0.3; color = 3]
-	"lock_32575" -> "common_30475" [label=7; weight=7; penwidth=0.3; color = 3]
-	"repository_13663" -> "unitofwork_49342" [label=7; weight=7; penwidth=0.3; color = 3]
-	"serialization_52485" -> "eventhandling_34674" [label=7; weight=7; penwidth=0.3; color = 3]
+	"command_8435" -> "tracing_54560" [label=7; weight=7; penwidth=0.3; color = 3]
+	"config_58498" -> "monitoring_49343" [label=7; weight=7; penwidth=0.3; color = 3]
+	"matchers_62572" -> "common_30475" [label=7; weight=7; penwidth=0.3; color = 3]
+	"saga_62569" -> "messaging_45014" [label=7; weight=7; penwidth=0.3; color = 3]
 	"annotation_46198" -> "unitofwork_49342" [label=6; weight=6; penwidth=0.3; color = 3]
-	"autoconfig_20892" -> "jpa_45011" [label=6; weight=6; penwidth=0.3; color = 3]
+	"autoconfig_20892" -> "transaction_33623" [label=6; weight=6; penwidth=0.3; color = 3]
+	"config_58498" -> "commandhandling_56644" [label=6; weight=6; penwidth=0.3; color = 3]
+	"config_58498" -> "util_55752" [label=6; weight=6; penwidth=0.3; color = 3]
+	"config_58498" -> "gateway_29401" [label=6; weight=6; penwidth=0.3; color = 3]
+	"timeout_49341" -> "annotation_46198" [label=6; weight=6; penwidth=0.3; color = 3]
+	"autoconfig_20892" -> "command_8435" [label=5; weight=5; penwidth=0.3; color = 3]
+	"autoconfig_20892" -> "gateway_29401" [label=5; weight=5; penwidth=0.3; color = 3]
+	"command_30" -> "tracing_54560" [label=5; weight=5; penwidth=0.3; color = 3]
+	"config_58498" -> "inspection_10533" [label=5; weight=5; penwidth=0.3; color = 3]
+	"tracing_54560" -> "annotation_46198" [label=5; weight=5; penwidth=0.3; color = 3]
+	"command_30" -> "distributed_28382" [label=4; weight=4; penwidth=0.3; color = 3]
+	"config_58498" -> "unitofwork_49342" [label=4; weight=4; penwidth=0.3; color = 3]
+	"conflictresolution_17764" -> "unitofwork_49342" [label=4; weight=4; penwidth=0.3; color = 3]
+	"connector_18" -> "command_8435" [label=4; weight=4; penwidth=0.3; color = 3]
+	"distributed_28382" -> "tracing_54560" [label=4; weight=4; penwidth=0.3; color = 3]
+	"utils_62570" -> "messaging_45014" [label=4; weight=4; penwidth=0.3; color = 3]
+	"attributes_55424" -> "messaging_45014" [label=3; weight=3; penwidth=0.3; color = 3]
+	"commandhandling_56644" -> "monitoring_49343" [label=3; weight=3; penwidth=0.3; color = 3]
+	"config_58498" -> "tracing_54560" [label=3; weight=3; penwidth=0.3; color = 3]
+	"conflictresolution_17764" -> "command_8435" [label=3; weight=3; penwidth=0.3; color = 3]
+	"connector_18" -> "transaction_33623" [label=3; weight=3; penwidth=0.3; color = 3]
+	"distributed_28382" -> "monitoring_49343" [label=3; weight=3; penwidth=0.3; color = 3]
+	"saga_62569" -> "unitofwork_49342" [label=3; weight=3; penwidth=0.3; color = 3]
+	"saga_62569" -> "common_30475" [label=3; weight=3; penwidth=0.3; color = 3]
+	"serialization_52485" -> "util_55752" [label=3; weight=3; penwidth=0.3; color = 3]
+	"tracing_54560" -> "unitofwork_49342" [label=3; weight=3; penwidth=0.3; color = 3]
+	"autoconfig_20892" -> "annotation_46198" [label=2; weight=2; penwidth=0.3; color = 3]
+	"command_30" -> "callbacks_28381" [label=2; weight=2; penwidth=0.3; color = 3]
+	"commandhandling_56644" -> "transaction_33623" [label=2; weight=2; penwidth=0.3; color = 3]
+	"inspection_10533" -> "unitofwork_49342" [label=2; weight=2; penwidth=0.3; color = 3]
+	"matchers_62572" -> "messaging_45014" [label=2; weight=2; penwidth=0.3; color = 3]
+	"messaging_45014" -> "unitofwork_49342" [label=2; weight=2; penwidth=0.3; color = 3]
+	"monitoring_49343" -> "messaging_45014" [label=2; weight=2; penwidth=0.3; color = 3]
+	"timeout_49341" -> "unitofwork_49342" [label=2; weight=2; penwidth=0.3; color = 3]
+	"timeout_49341" -> "common_30475" [label=2; weight=2; penwidth=0.3; color = 3]
+	"timeout_49341" -> "messaging_45014" [label=2; weight=2; penwidth=0.3; color = 3]
+	"attributes_55424" -> "tracing_54560" [label=1; weight=1; penwidth=0.3; color = 3]
+	"autoconfig_20892" -> "distributed_28382" [label=1; weight=1; penwidth=0.3; color = 3]
+	"commandhandling_56644" -> "inspection_10533" [label=1; weight=1; penwidth=0.3; color = 3]
+	"commandhandling_56644" -> "callbacks_28381" [label=1; weight=1; penwidth=0.3; color = 3]
+	"conflictresolution_17764" -> "annotation_46198" [label=1; weight=1; penwidth=0.3; color = 3]
+	"conflictresolution_17764" -> "common_30475" [label=1; weight=1; penwidth=0.3; color = 3]
+	"conflictresolution_17764" -> "messaging_45014" [label=1; weight=1; penwidth=0.3; color = 3]
+	"connector_18" -> "distributed_28382" [label=1; weight=1; penwidth=0.3; color = 3]
+	"distributed_28382" -> "callbacks_28381" [label=1; weight=1; penwidth=0.3; color = 3]
+	"gateway_29401" -> "unitofwork_49342" [label=1; weight=1; penwidth=0.3; color = 3]
+	"gateway_29401" -> "annotation_46198" [label=1; weight=1; penwidth=0.3; color = 3]
+	"monitoring_49343" -> "common_30475" [label=1; weight=1; penwidth=0.3; color = 3]
+	"unitofwork_49342" -> "transaction_33623" [label=1; weight=1; penwidth=0.3; color = 3]
+	"util_55752" -> "common_30475" [label=1; weight=1; penwidth=0.3; color = 3]
+	"utils_62570" -> "common_30475" [label=1; weight=1; penwidth=0.3; color = 3]
 }

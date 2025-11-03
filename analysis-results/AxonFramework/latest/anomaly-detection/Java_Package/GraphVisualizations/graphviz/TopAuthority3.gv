@@ -25,9 +25,9 @@ strict digraph TopAuthority3 {
 	"legacyjpa_40909"  [label = "legacyjpa\n(0.18%)"; penwidth = 2; ]; "legacyjpa_40909" -> central [label=3; weight=3; penwidth=0.4];
 	"queryhandling_49344"  [label = "queryhandling\n(5.27%)"; penwidth = 2; ]; "queryhandling_49344" -> central [label=3; weight=3; penwidth=0.4];
 	"commandhandling_56644"  [label = "commandhandling\n(0.03%)"; penwidth = 2; ]; "commandhandling_56644" -> central [label=2; weight=2; penwidth=0.4];
-	"commandhandling_26403"  [label = "commandhandling\n(7.56%)"; penwidth = 2; ]; "commandhandling_26403" -> central [label=2; weight=2; penwidth=0.4];
-	"dbscheduler_43055"  [label = "dbscheduler\n(0.02%)"; penwidth = 2; ]; "dbscheduler_43055" -> central [label=2; weight=2; penwidth=0.4];
+	"commandhandling_26744"  [label = "commandhandling\n(7.56%)"; penwidth = 2; ]; "commandhandling_26744" -> central [label=2; weight=2; penwidth=0.4];
 	"dbscheduler_33622"  [label = "dbscheduler\n(0.02%)"; penwidth = 2; ]; "dbscheduler_33622" -> central [label=2; weight=2; penwidth=0.4];
+	"dbscheduler_43055"  [label = "dbscheduler\n(0.02%)"; penwidth = 2; ]; "dbscheduler_43055" -> central [label=2; weight=2; penwidth=0.4];
 	"deadletter_38868"  [label = "deadletter\n(0.12%)"; penwidth = 2; ]; "deadletter_38868" -> central [label=2; weight=2; penwidth=0.4];
 	"deadline_33624"  [label = "deadline\n(2.26%)"; penwidth = 2; ]; "deadline_33624" -> central [label=2; weight=2; penwidth=0.4];
 	"interceptors_48279"  [label = "interceptors\n(0.55%)"; penwidth = 2; ]; "interceptors_48279" -> central [label=2; weight=2; penwidth=0.4];
@@ -37,12 +37,12 @@ strict digraph TopAuthority3 {
 	"jobrunr_34672"  [label = "jobrunr\n(0.05%)"; penwidth = 2; ]; "jobrunr_34672" -> central [label=2; weight=2; penwidth=0.4];
 	"jpa_19968"  [label = "jpa\n(0.13%)"; penwidth = 2; ]; "jpa_19968" -> central [label=2; weight=2; penwidth=0.4];
 	"legacyjpa_20854"  [label = "legacyjpa\n(0.27%)"; penwidth = 2; ]; "legacyjpa_20854" -> central [label=2; weight=2; penwidth=0.4];
-	"quartz_34673"  [label = "quartz\n(0.0%)"; penwidth = 5; ]; "quartz_34673" -> central [label=2; weight=2; penwidth=0.4];
 	"quartz_43953"  [label = "quartz\n(0.0%)"; penwidth = 5; ]; "quartz_43953" -> central [label=2; weight=2; penwidth=0.4];
+	"quartz_34673"  [label = "quartz\n(0.0%)"; penwidth = 5; ]; "quartz_34673" -> central [label=2; weight=2; penwidth=0.4];
 	"jdbc_32196"  [label = "jdbc\n(1.86%)"; penwidth = 2; ]; "jdbc_32196" -> central [label=1; weight=1; penwidth=0.4];
 	"jpa_32332"  [label = "jpa\n(0.38%)"; penwidth = 2; ]; "jpa_32332" -> central [label=1; weight=1; penwidth=0.4];
-	"legacyjpa_32397"  [label = "legacyjpa\n(0.28%)"; penwidth = 2; ]; "legacyjpa_32397" -> central [label=1; weight=1; penwidth=0.4];
 	"legacyjpa_20893"  [label = "legacyjpa\n(0.0%)"; penwidth = 5; ]; "legacyjpa_20893" -> central [label=1; weight=1; penwidth=0.4];
+	"legacyjpa_32397"  [label = "legacyjpa\n(0.28%)"; penwidth = 2; ]; "legacyjpa_32397" -> central [label=1; weight=1; penwidth=0.4];
 	"unitofwork_49342"  [label = "unitofwork\n(15.19%)"; penwidth = 2; ]; "unitofwork_49342" -> central [label=1; weight=1; penwidth=0.4];
 	"processor_19"  [label = "processor\n(0.03%)"; penwidth = 2; ]; "processor_19" -> central [label=0; weight=0; penwidth=0.4];
 	"pooled_41879" -> "eventhandling_34674" [label=189; weight=189; penwidth=0.3; color = 3]
@@ -59,7 +59,7 @@ strict digraph TopAuthority3 {
 	"config_58498" -> "queryhandling_49344" [label=41; weight=41; penwidth=0.3; color = 3]
 	"deadletter_38868" -> "eventhandling_34674" [label=40; weight=40; penwidth=0.3; color = 3]
 	"jpa_19968" -> "eventhandling_34674" [label=40; weight=40; penwidth=0.3; color = 3]
-	"commandhandling_56644" -> "commandhandling_26403" [label=39; weight=39; penwidth=0.3; color = 3]
+	"commandhandling_56644" -> "commandhandling_26744" [label=39; weight=39; penwidth=0.3; color = 3]
 	"config_58498" -> "eventsourcing_15367" [label=38; weight=38; penwidth=0.3; color = 3]
 	"autoconfig_20892" -> "eventhandling_34674" [label=29; weight=29; penwidth=0.3; color = 3]
 	"commandhandling_56644" -> "unitofwork_49342" [label=29; weight=29; penwidth=0.3; color = 3]
@@ -72,19 +72,19 @@ strict digraph TopAuthority3 {
 	"jdbc_18918" -> "jdbc_32196" [label=24; weight=24; penwidth=0.3; color = 3]
 	"jpa_40388" -> "eventhandling_34674" [label=22; weight=22; penwidth=0.3; color = 3]
 	"legacyjpa_40909" -> "eventhandling_34674" [label=22; weight=22; penwidth=0.3; color = 3]
-	"config_58498" -> "commandhandling_26403" [label=21; weight=21; penwidth=0.3; color = 3]
+	"config_58498" -> "commandhandling_26744" [label=21; weight=21; penwidth=0.3; color = 3]
 	"eventsourcing_15367" -> "unitofwork_49342" [label=21; weight=21; penwidth=0.3; color = 3]
-	"autoconfig_20892" -> "commandhandling_26403" [label=20; weight=20; penwidth=0.3; color = 3]
+	"autoconfig_20892" -> "commandhandling_26744" [label=20; weight=20; penwidth=0.3; color = 3]
 	"jobrunr_34672" -> "deadline_33624" [label=20; weight=20; penwidth=0.3; color = 3]
 	"connector_18" -> "queryhandling_49344" [label=19; weight=19; penwidth=0.3; color = 3]
 	"jdbc_39607" -> "eventhandling_34674" [label=19; weight=19; penwidth=0.3; color = 3]
 	"autoconfig_20892" -> "jdbc_18918" [label=18; weight=18; penwidth=0.3; color = 3]
 	"processor_19" -> "connector_18" [label=17; weight=17; penwidth=0.3; color = 3]
-	"connector_18" -> "commandhandling_26403" [label=16; weight=16; penwidth=0.3; color = 3]
+	"connector_18" -> "commandhandling_26744" [label=16; weight=16; penwidth=0.3; color = 3]
 	"autoconfig_20892" -> "dbscheduler_33622" [label=15; weight=15; penwidth=0.3; color = 3]
 	"processor_19" -> "eventhandling_34674" [label=15; weight=15; penwidth=0.3; color = 3]
-	"autoconfig_20892" -> "dbscheduler_43055" [label=14; weight=14; penwidth=0.3; color = 3]
 	"autoconfig_20892" -> "jdbc_39607" [label=14; weight=14; penwidth=0.3; color = 3]
+	"autoconfig_20892" -> "dbscheduler_43055" [label=14; weight=14; penwidth=0.3; color = 3]
 	"quartz_43953" -> "eventhandling_34674" [label=14; weight=14; penwidth=0.3; color = 3]
 	"config_58498" -> "deadline_33624" [label=13; weight=13; penwidth=0.3; color = 3]
 	"jdbc_32196" -> "unitofwork_49342" [label=13; weight=13; penwidth=0.3; color = 3]
@@ -94,31 +94,31 @@ strict digraph TopAuthority3 {
 	"config_58498" -> "jpa_19968" [label=10; weight=10; penwidth=0.3; color = 3]
 	"deadline_33624" -> "eventhandling_34674" [label=10; weight=10; penwidth=0.3; color = 3]
 	"autoconfig_20892" -> "jpa_40388" [label=8; weight=8; penwidth=0.3; color = 3]
-	"autoconfig_20892" -> "deadline_33624" [label=8; weight=8; penwidth=0.3; color = 3]
 	"autoconfig_20892" -> "jobrunr_34672" [label=8; weight=8; penwidth=0.3; color = 3]
+	"autoconfig_20892" -> "deadline_33624" [label=8; weight=8; penwidth=0.3; color = 3]
 	"dbscheduler_43055" -> "eventhandling_34674" [label=8; weight=8; penwidth=0.3; color = 3]
 	"java_43951" -> "eventhandling_34674" [label=8; weight=8; penwidth=0.3; color = 3]
 	"jpa_40388" -> "jpa_32332" [label=8; weight=8; penwidth=0.3; color = 3]
 	"legacyjpa_40909" -> "legacyjpa_32397" [label=8; weight=8; penwidth=0.3; color = 3]
 	"legacyjpa_20893" -> "legacyjpa_40909" [label=8; weight=8; penwidth=0.3; color = 3]
+	"autoconfig_20892" -> "pooled_41879" [label=7; weight=7; penwidth=0.3; color = 3]
 	"autoconfig_20892" -> "eventsourcing_15367" [label=7; weight=7; penwidth=0.3; color = 3]
 	"autoconfig_20892" -> "jobrunr_43952" [label=7; weight=7; penwidth=0.3; color = 3]
-	"autoconfig_20892" -> "pooled_41879" [label=7; weight=7; penwidth=0.3; color = 3]
 	"deadletter_38868" -> "unitofwork_49342" [label=7; weight=7; penwidth=0.3; color = 3]
 	"deadline_33624" -> "unitofwork_49342" [label=7; weight=7; penwidth=0.3; color = 3]
-	"commandhandling_26403" -> "unitofwork_49342" [label=6; weight=6; penwidth=0.3; color = 3]
-	"config_58498" -> "commandhandling_56644" [label=6; weight=6; penwidth=0.3; color = 3]
+	"commandhandling_26744" -> "unitofwork_49342" [label=6; weight=6; penwidth=0.3; color = 3]
 	"config_58498" -> "interceptors_48279" [label=6; weight=6; penwidth=0.3; color = 3]
+	"config_58498" -> "commandhandling_56644" [label=6; weight=6; penwidth=0.3; color = 3]
 	"jobrunr_43952" -> "eventhandling_34674" [label=6; weight=6; penwidth=0.3; color = 3]
 	"legacyjpa_20854" -> "jpa_19968" [label=6; weight=6; penwidth=0.3; color = 3]
 	"legacyjpa_20893" -> "autoconfig_20892" [label=6; weight=6; penwidth=0.3; color = 3]
-	"autoconfig_20892" -> "deadletter_38868" [label=5; weight=5; penwidth=0.3; color = 3]
 	"autoconfig_20892" -> "jdbc_32196" [label=5; weight=5; penwidth=0.3; color = 3]
+	"autoconfig_20892" -> "deadletter_38868" [label=5; weight=5; penwidth=0.3; color = 3]
 	"pooled_41879" -> "unitofwork_49342" [label=5; weight=5; penwidth=0.3; color = 3]
 	"quartz_34673" -> "unitofwork_49342" [label=5; weight=5; penwidth=0.3; color = 3]
 	"autoconfig_20892" -> "interceptors_48279" [label=4; weight=4; penwidth=0.3; color = 3]
-	"config_58498" -> "unitofwork_49342" [label=4; weight=4; penwidth=0.3; color = 3]
 	"config_58498" -> "jpa_32332" [label=4; weight=4; penwidth=0.3; color = 3]
+	"config_58498" -> "unitofwork_49342" [label=4; weight=4; penwidth=0.3; color = 3]
 	"dbscheduler_33622" -> "unitofwork_49342" [label=4; weight=4; penwidth=0.3; color = 3]
 	"jobrunr_34672" -> "unitofwork_49342" [label=4; weight=4; penwidth=0.3; color = 3]
 	"interceptors_48279" -> "unitofwork_49342" [label=3; weight=3; penwidth=0.3; color = 3]
@@ -131,14 +131,14 @@ strict digraph TopAuthority3 {
 	"dbscheduler_43055" -> "unitofwork_49342" [label=1; weight=1; penwidth=0.3; color = 3]
 	"jobrunr_43952" -> "jobrunr_34672" [label=1; weight=1; penwidth=0.3; color = 3]
 	"jobrunr_43952" -> "unitofwork_49342" [label=1; weight=1; penwidth=0.3; color = 3]
-	"jpa_19968" -> "jdbc_32196" [label=1; weight=1; penwidth=0.3; color = 3]
 	"jpa_19968" -> "jpa_32332" [label=1; weight=1; penwidth=0.3; color = 3]
+	"jpa_19968" -> "jdbc_32196" [label=1; weight=1; penwidth=0.3; color = 3]
 	"legacyjpa_20854" -> "legacyjpa_32397" [label=1; weight=1; penwidth=0.3; color = 3]
 	"legacyjpa_20854" -> "jdbc_32196" [label=1; weight=1; penwidth=0.3; color = 3]
 	"legacyjpa_20893" -> "config_58498" [label=1; weight=1; penwidth=0.3; color = 3]
 	"processor_19" -> "pooled_41879" [label=1; weight=1; penwidth=0.3; color = 3]
 	"quartz_43953" -> "unitofwork_49342" [label=1; weight=1; penwidth=0.3; color = 3]
 	"config_58498" -> "jdbc_32196" [label=0; weight=0; penwidth=0.3; color = 3]
-	"legacyjpa_20893" -> "eventhandling_34674" [label=0; weight=0; penwidth=0.3; color = 3]
 	"legacyjpa_20893" -> "jdbc_32196" [label=0; weight=0; penwidth=0.3; color = 3]
+	"legacyjpa_20893" -> "eventhandling_34674" [label=0; weight=0; penwidth=0.3; color = 3]
 }

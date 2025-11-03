@@ -4,7 +4,7 @@
 "org.axonframework.common.IdentifierValidator","IdentifierValidator","axon-messaging-4.12.1",163.33333333333331,2,1,1,""
 "org.axonframework.disruptor.commandhandling.DisruptorCommandBus$1","DisruptorCommandBus$1","axon-disruptor-4.12.1",160.66666666666669,3,2,1,""
 "org.axonframework.common.lock.DeadlockException","DeadlockException","axon-messaging-4.12.1",134,3,2,1,""
-"org.axonframework.eventhandling.deadletter.DeadLetteringEventHandlerInvoker$1","DeadLetteringEventHandlerInvoker$1","axon-messaging-4.12.1",128.66666666666663,3,2,1,""
+"org.axonframework.eventhandling.deadletter.DeadLetteringEventHandlerInvoker$1","DeadLetteringEventHandlerInvoker$1","axon-messaging-4.12.1",128.66666666666666,3,2,1,""
 "org.axonframework.eventsourcing.AggregateSnapshotter$1","AggregateSnapshotter$1","axon-eventsourcing-4.12.1",128.5,3,2,1,""
 "org.axonframework.eventsourcing.eventstore.BatchingEventStorageEngine$1","BatchingEventStorageEngine$1","axon-eventsourcing-4.12.1",121,3,2,1,""
 "org.axonframework.messaging.unitofwork.RollbackConfigurationType$2","RollbackConfigurationType$2","axon-messaging-4.12.1",113.75,3,1,2,""

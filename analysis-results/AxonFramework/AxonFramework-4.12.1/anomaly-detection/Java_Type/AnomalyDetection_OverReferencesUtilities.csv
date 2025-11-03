@@ -15,7 +15,7 @@
 "org.axonframework.springboot.DistributedCommandBusProperties$JGroupsProperties$Gossip","DistributedCommandBusProperties$JGroupsProperties$Gossip","axon-spring-boot-autoconfigure-4.12.1",0,1.196375540802986,2,1,1,""
 "org.axonframework.springboot.autoconfig.AvroSerializerAutoConfiguration$OnMissingDefaultSchemaStoreCondition","AvroSerializerAutoConfiguration$OnMissingDefaultSchemaStoreCondition","axon-spring-boot-autoconfigure-4.12.1",0,1.1309395403611282,3,2,1,""
 "org.axonframework.springboot.autoconfig.AvroSerializerAutoConfiguration$OnMissingDefaultSchemaStoreCondition$SchemaStoreIsMissingCondition","AvroSerializerAutoConfiguration$OnMissingDefaultSchemaStoreCondition$SchemaStoreIsMissingCondition","axon-spring-boot-autoconfigure-4.12.1",0,1.1112415689789572,2,1,1,""
-"org.axonframework.common.ExceptionUtils","ExceptionUtils","axon-messaging-4.12.1",0.03571428571428571,1.0958959598933808,8,7,1,""
+"org.axonframework.common.ExceptionUtils","ExceptionUtils","axon-messaging-4.12.1",0.03571428571428571,1.095895959893381,8,7,1,""
 "org.axonframework.common.TypeReflectionUtils$VarMap$UnresolvedTypeVariableException","TypeReflectionUtils$VarMap$UnresolvedTypeVariableException","axon-messaging-4.12.1",0,1.0701806853071543,2,1,1,""
 "org.axonframework.common.TypeReflectionUtils$VarMap$ParameterizedTypeImpl","TypeReflectionUtils$VarMap$ParameterizedTypeImpl","axon-messaging-4.12.1",0,1.0701806853071543,2,1,1,""
 "org.axonframework.axonserver.connector.util.ContextAddingInterceptor","ContextAddingInterceptor","axon-server-connector-4.12.1",0,0.9997042353362876,2,1,1,""

@@ -29,8 +29,8 @@ strict digraph TopAuthority1 {
 	"DeadlineDetails_34467"  [label = "DeadlineDetails\n(0.02%)"; penwidth = 2; ]; "DeadlineDetails_34467" -> central [label=3; weight=3; penwidth=0.4];
 	"DeadlineJob$DeadlineJobDataBinder_34471"  [label = "DeadlineJob$\nDeadlineJobDataBinder\n(0.02%)"; penwidth = 2; ]; "DeadlineJob$DeadlineJobDataBinder_34471" -> central [label=3; weight=3; penwidth=0.4];
 	"DefaultDeadLetterStatementFactory_39625"  [label = "DefaultDeadLetterStatementFactory\n(0.04%)"; penwidth = 2; ]; "DefaultDeadLetterStatementFactory_39625" -> central [label=3; weight=3; penwidth=0.4];
-	"EventMessageDeadLetterJpaConverter_40391"  [label = "EventMessageDeadLetterJpaConverter\n(0.01%)"; penwidth = 2; ]; "EventMessageDeadLetterJpaConverter_40391" -> central [label=3; weight=3; penwidth=0.4];
 	"EventMessageDeadLetterJpaConverter_40907"  [label = "EventMessageDeadLetterJpaConverter\n(0.01%)"; penwidth = 2; ]; "EventMessageDeadLetterJpaConverter_40907" -> central [label=3; weight=3; penwidth=0.4];
+	"EventMessageDeadLetterJpaConverter_40391"  [label = "EventMessageDeadLetterJpaConverter\n(0.01%)"; penwidth = 2; ]; "EventMessageDeadLetterJpaConverter_40391" -> central [label=3; weight=3; penwidth=0.4];
 	"EventTypeUpcaster_54570"  [label = "EventTypeUpcaster\n(0.16%)"; penwidth = 2; ]; "EventTypeUpcaster_54570" -> central [label=3; weight=3; penwidth=0.4];
 	"GrpcMetaDataConverter_1068"  [label = "GrpcMetaDataConverter\n(0.63%)"; penwidth = 2; ]; "GrpcMetaDataConverter_1068" -> central [label=3; weight=3; penwidth=0.4];
 	"InitialEventRepresentation_35479"  [label = "InitialEventRepresentation\n(0.02%)"; penwidth = 2; ]; "InitialEventRepresentation_35479" -> central [label=3; weight=3; penwidth=0.4];
@@ -71,8 +71,8 @@ strict digraph TopAuthority1 {
 	"AvroSerializer_53452" -> "SimpleSerializedType_35487" [label=4; weight=4; penwidth=0.3; color = 3]
 	"AxonServerEventScheduler_4099" -> "GrpcMetaDataConverter_1068" [label=4; weight=4; penwidth=0.3; color = 3]
 	"AxonServerEventStore$AxonIQEventStorageEngine_4892" -> "GrpcMetaDataAwareSerializer_4904" [label=4; weight=4; penwidth=0.3; color = 3]
-	"JacksonSerializer_54563" -> "SimpleSerializedObject_29292" [label=4; weight=4; penwidth=0.3; color = 3]
 	"JacksonSerializer_54563" -> "SimpleSerializedType_35487" [label=4; weight=4; penwidth=0.3; color = 3]
+	"JacksonSerializer_54563" -> "SimpleSerializedObject_29292" [label=4; weight=4; penwidth=0.3; color = 3]
 	"JobRunrEventScheduler_43962" -> "SimpleSerializedObject_29292" [label=4; weight=4; penwidth=0.3; color = 3]
 	"QuartzEventScheduler$DirectEventJobDataBinder_43966" -> "SimpleSerializedObject_29292" [label=4; weight=4; penwidth=0.3; color = 3]
 	"ReplyMessage_29199" -> "SimpleSerializedObject_29292" [label=4; weight=4; penwidth=0.3; color = 3]
@@ -87,15 +87,15 @@ strict digraph TopAuthority1 {
 	"AbstractXStreamSerializer_52492" -> "SimpleSerializedObject_29292" [label=2; weight=2; penwidth=0.3; color = 3]
 	"AxonServerEventStore$AxonIQEventStorageEngine_4892" -> "GrpcMetaDataConverter_1068" [label=2; weight=2; penwidth=0.3; color = 3]
 	"AxonServerEventStore$AxonIQEventStorageEngine_4892" -> "EventBuffer_4890" [label=2; weight=2; penwidth=0.3; color = 3]
-	"DispatchMessage_29210" -> "SerializedMetaData_29293" [label=2; weight=2; penwidth=0.3; color = 3]
 	"DispatchMessage_29210" -> "SimpleSerializedObject_29292" [label=2; weight=2; penwidth=0.3; color = 3]
+	"DispatchMessage_29210" -> "SerializedMetaData_29293" [label=2; weight=2; penwidth=0.3; color = 3]
 	"EventTypeUpcaster_54570" -> "SimpleSerializedType_35487" [label=2; weight=2; penwidth=0.3; color = 3]
-	"InitialEventRepresentation_35479" -> "UpcastedEventRepresentation_54594" [label=2; weight=2; penwidth=0.3; color = 3]
 	"InitialEventRepresentation_35479" -> "IntermediateEventRepresentation_35476" [label=2; weight=2; penwidth=0.3; color = 3]
+	"InitialEventRepresentation_35479" -> "UpcastedEventRepresentation_54594" [label=2; weight=2; penwidth=0.3; color = 3]
 	"JavaSerializer_53446" -> "SimpleSerializedObject_29292" [label=2; weight=2; penwidth=0.3; color = 3]
 	"ReplyMessage_29199" -> "SerializedMetaData_29293" [label=2; weight=2; penwidth=0.3; color = 3]
 	"SimpleSerializedObject_29292" -> "SimpleSerializedType_35487" [label=2; weight=2; penwidth=0.3; color = 3]
-	"TokenEntry_44881" -> "SimpleSerializedType_35487" [label=2; weight=2; penwidth=0.3; color = 3]
 	"TokenEntry_44881" -> "SimpleSerializedObject_29292" [label=2; weight=2; penwidth=0.3; color = 3]
+	"TokenEntry_44881" -> "SimpleSerializedType_35487" [label=2; weight=2; penwidth=0.3; color = 3]
 	"UpcastedEventRepresentation_54594" -> "SimpleSerializedObject_29292" [label=2; weight=2; penwidth=0.3; color = 3]
 }
