@@ -15,184 +15,184 @@
 <text xml:space="preserve" text-anchor="middle" x="431.48" y="-834.76" font-family="Helvetica,Arial,sans-serif" font-size="14.00">bright nodes: outgoing dependencies (limited max. 40)</text>
 <text xml:space="preserve" text-anchor="middle" x="431.48" y="-817.96" font-family="Helvetica,Arial,sans-serif" font-size="14.00">node value: Betweenness centrality</text>
 <text xml:space="preserve" text-anchor="middle" x="431.48" y="-801.16" font-family="Helvetica,Arial,sans-serif" font-size="14.00">thick outline: &gt; 90% percentile of Betweenness centrality</text>
-<!-- central&#45;&gt;Configurer_59846 -->
+<!-- central&#45;&gt;Configurer_2112 -->
 <g id="edge11" class="edge">
-<title>central&#45;&gt;Configurer_59846</title>
+<title>central&#45;&gt;Configurer_2112</title>
 <path fill="none" stroke="#66c2a4" stroke-width="0.4" d="M410.85,-383.41C401.51,-373.42 392.09,-363.35 383.66,-354.33"/>
 <polygon fill="#66c2a4" stroke="#66c2a4" stroke-width="0.4" points="384.76,-353.47 381.01,-351.5 382.72,-355.38 384.76,-353.47"/>
 <text xml:space="preserve" text-anchor="middle" x="394.63" y="-363.53" font-family="Times,serif" font-size="4.00">1</text>
 </g>
-<!-- InfraConfiguration_24103&#45;&gt;central -->
+<!-- InfraConfiguration_26251&#45;&gt;central -->
 <g id="edge1" class="edge">
-<title>InfraConfiguration_24103&#45;&gt;central</title>
+<title>InfraConfiguration_26251&#45;&gt;central</title>
 <path fill="none" stroke="#238b45" stroke-width="0.5" d="M202.92,-409.92C252.4,-415.6 325.78,-424.02 382.1,-430.49"/>
 <polygon fill="#238b45" stroke="#238b45" stroke-width="0.5" points="381.92,-431.88 386.05,-430.94 382.24,-429.09 381.92,-431.88"/>
 <text xml:space="preserve" text-anchor="middle" x="294.13" y="-421.7" font-family="Times,serif" font-size="4.00">6</text>
 </g>
-<!-- InfraConfiguration_24103&#45;&gt;DefaultConfigurer_59438 -->
+<!-- InfraConfiguration_26251&#45;&gt;DefaultConfigurer_945 -->
 <g id="edge25" class="edge">
-<title>InfraConfiguration_24103&#45;&gt;DefaultConfigurer_59438</title>
+<title>InfraConfiguration_26251&#45;&gt;DefaultConfigurer_945</title>
 <path fill="none" stroke="#ccece6" stroke-width="0.3" d="M150.73,-370.47C153.77,-334.52 158.62,-277.17 161.84,-239.1"/>
 <polygon fill="#ccece6" stroke="#ccece6" stroke-width="0.3" points="163.21,-239.58 162.15,-235.47 160.42,-239.34 163.21,-239.58"/>
 <text xml:space="preserve" text-anchor="middle" x="155.45" y="-304.02" font-family="Times,serif" font-size="4.00">1</text>
 </g>
-<!-- InfraConfiguration_24103&#45;&gt;AxonAutoConfiguration_21661 -->
+<!-- InfraConfiguration_26251&#45;&gt;AxonAutoConfiguration_23665 -->
 <g id="edge26" class="edge">
-<title>InfraConfiguration_24103&#45;&gt;AxonAutoConfiguration_21661</title>
+<title>InfraConfiguration_26251&#45;&gt;AxonAutoConfiguration_23665</title>
 <path fill="none" stroke="#ccece6" stroke-width="0.3" d="M174.43,-432.58C211.55,-473.14 278.91,-546.76 318.75,-590.31"/>
 <polygon fill="#ccece6" stroke="#ccece6" stroke-width="0.3" points="317.53,-591.05 321.27,-593.05 319.6,-589.16 317.53,-591.05"/>
 <text xml:space="preserve" text-anchor="middle" x="246.74" y="-513.9" font-family="Times,serif" font-size="4.00">1</text>
 </g>
-<!-- InfraConfiguration_24103&#45;&gt;Configurer_59846 -->
+<!-- InfraConfiguration_26251&#45;&gt;Configurer_2112 -->
 <g id="edge14" class="edge">
-<title>InfraConfiguration_24103&#45;&gt;Configurer_59846</title>
+<title>InfraConfiguration_26251&#45;&gt;Configurer_2112</title>
 <path fill="none" stroke="#ccece6" stroke-width="0.3" d="M194.58,-385.12C228.06,-371.86 273,-354.06 306.55,-340.76"/>
 <polygon fill="#ccece6" stroke="#ccece6" stroke-width="0.3" points="306.96,-342.11 310.16,-339.33 305.93,-339.5 306.96,-342.11"/>
 <text xml:space="preserve" text-anchor="middle" x="251.84" y="-363.24" font-family="Times,serif" font-size="4.00">9</text>
 </g>
-<!-- DefaultConfigurer_59438&#45;&gt;central -->
+<!-- DefaultConfigurer_945&#45;&gt;central -->
 <g id="edge2" class="edge">
-<title>DefaultConfigurer_59438&#45;&gt;central</title>
+<title>DefaultConfigurer_945&#45;&gt;central</title>
 <path fill="none" stroke="#238b45" stroke-width="0.4" d="M191.57,-230.84C220.04,-262.79 267.59,-313.26 314.6,-350.08 338.4,-368.72 366.36,-386.5 391.6,-401.25"/>
 <polygon fill="#238b45" stroke="#238b45" stroke-width="0.4" points="390.62,-402.3 394.78,-403.1 392.03,-399.88 390.62,-402.3"/>
 <text xml:space="preserve" text-anchor="middle" x="284.5" y="-326.94" font-family="Times,serif" font-size="4.00">4</text>
 </g>
-<!-- DefaultConfigurer_59438&#45;&gt;Configurer_59846 -->
+<!-- DefaultConfigurer_945&#45;&gt;Configurer_2112 -->
 <g id="edge12" class="edge">
-<title>DefaultConfigurer_59438&#45;&gt;Configurer_59846</title>
+<title>DefaultConfigurer_945&#45;&gt;Configurer_2112</title>
 <path fill="none" stroke="#ccece6" stroke-width="0.3" d="M203.72,-225.17C235.82,-245.94 281.34,-275.41 313.77,-296.39"/>
 <polygon fill="#ccece6" stroke="#ccece6" stroke-width="0.3" points="312.76,-297.41 316.88,-298.41 314.28,-295.06 312.76,-297.41"/>
 <text xml:space="preserve" text-anchor="middle" x="258.44" y="-263.08" font-family="Times,serif" font-size="4.00">26</text>
 </g>
-<!-- AxonServerAutoConfiguration_21144&#45;&gt;central -->
+<!-- AxonServerAutoConfiguration_24397&#45;&gt;central -->
 <g id="edge3" class="edge">
-<title>AxonServerAutoConfiguration_21144&#45;&gt;central</title>
+<title>AxonServerAutoConfiguration_24397&#45;&gt;central</title>
 <path fill="none" stroke="#238b45" stroke-width="0.4" d="M218.03,-615.23C265.34,-581.45 342.05,-526.67 397.16,-487.32"/>
 <polygon fill="#238b45" stroke="#238b45" stroke-width="0.4" points="397.82,-488.56 400.26,-485.1 396.19,-486.28 397.82,-488.56"/>
 <text xml:space="preserve" text-anchor="middle" x="308.55" y="-551.08" font-family="Times,serif" font-size="4.00">3</text>
 </g>
-<!-- AxonServerAutoConfiguration_21144&#45;&gt;AxonAutoConfiguration_21661 -->
+<!-- AxonServerAutoConfiguration_24397&#45;&gt;AxonAutoConfiguration_23665 -->
 <g id="edge22" class="edge">
-<title>AxonServerAutoConfiguration_21144&#45;&gt;AxonAutoConfiguration_21661</title>
+<title>AxonServerAutoConfiguration_24397&#45;&gt;AxonAutoConfiguration_23665</title>
 <path fill="none" stroke="#ccece6" stroke-width="0.3" d="M262.68,-635.57C266.78,-635.09 270.88,-634.61 274.95,-634.13"/>
 <polygon fill="#ccece6" stroke="#ccece6" stroke-width="0.3" points="275.08,-635.53 278.89,-633.67 274.76,-632.75 275.08,-635.53"/>
 <text xml:space="preserve" text-anchor="middle" x="270.13" y="-635.78" font-family="Times,serif" font-size="4.00">1</text>
 </g>
-<!-- AxonServerAutoConfiguration_21144&#45;&gt;Configurer_59846 -->
+<!-- AxonServerAutoConfiguration_24397&#45;&gt;Configurer_2112 -->
 <g id="edge15" class="edge">
-<title>AxonServerAutoConfiguration_21144&#45;&gt;Configurer_59846</title>
+<title>AxonServerAutoConfiguration_24397&#45;&gt;Configurer_2112</title>
 <path fill="none" stroke="#ccece6" stroke-width="0.3" d="M193.91,-611.82C227.86,-550.22 299.17,-420.83 333.82,-357.95"/>
 <polygon fill="#ccece6" stroke="#ccece6" stroke-width="0.3" points="334.92,-358.85 335.63,-354.67 332.47,-357.5 334.92,-358.85"/>
 <text xml:space="preserve" text-anchor="middle" x="263.84" y="-484.32" font-family="Times,serif" font-size="4.00">7</text>
 </g>
-<!-- AxonAutoConfiguration_21661&#45;&gt;central -->
+<!-- AxonAutoConfiguration_23665&#45;&gt;central -->
 <g id="edge4" class="edge">
-<title>AxonAutoConfiguration_21661&#45;&gt;central</title>
+<title>AxonAutoConfiguration_23665&#45;&gt;central</title>
 <path fill="none" stroke="#238b45" stroke-width="0.4" d="M370.9,-592.09C384.87,-569.17 403.96,-537.82 421.2,-509.52"/>
 <polygon fill="#238b45" stroke="#238b45" stroke-width="0.4" points="422.31,-510.39 423.19,-506.24 419.91,-508.93 422.31,-510.39"/>
 <text xml:space="preserve" text-anchor="middle" x="396.27" y="-550" font-family="Times,serif" font-size="4.00">1</text>
 </g>
-<!-- AxonAutoConfiguration_21661&#45;&gt;Configurer_59846 -->
+<!-- AxonAutoConfiguration_23665&#45;&gt;Configurer_2112 -->
 <g id="edge18" class="edge">
-<title>AxonAutoConfiguration_21661&#45;&gt;Configurer_59846</title>
+<title>AxonAutoConfiguration_23665&#45;&gt;Configurer_2112</title>
 <path fill="none" stroke="#ccece6" stroke-width="0.3" d="M351.04,-590.47C351.57,-533.53 352.63,-420.77 353.19,-361.17"/>
 <polygon fill="#ccece6" stroke="#ccece6" stroke-width="0.3" points="354.59,-361.44 353.22,-357.43 351.79,-361.41 354.59,-361.44"/>
 <text xml:space="preserve" text-anchor="middle" x="351.13" y="-475.01" font-family="Times,serif" font-size="4.00">4</text>
 </g>
-<!-- AxonTimeoutAutoConfiguration_21664&#45;&gt;central -->
+<!-- AxonTimeoutAutoConfiguration_23607&#45;&gt;central -->
 <g id="edge5" class="edge">
-<title>AxonTimeoutAutoConfiguration_21664&#45;&gt;central</title>
+<title>AxonTimeoutAutoConfiguration_23607&#45;&gt;central</title>
 <path fill="none" stroke="#238b45" stroke-width="0.4" d="M718.48,-712.81C671.41,-662.39 578.8,-563.2 519.13,-499.29"/>
 <polygon fill="#238b45" stroke="#238b45" stroke-width="0.4" points="520.48,-498.69 516.73,-496.72 518.44,-500.6 520.48,-498.69"/>
 <text xml:space="preserve" text-anchor="middle" x="616.53" y="-605.89" font-family="Times,serif" font-size="4.00">1</text>
 </g>
-<!-- AxonTimeoutAutoConfiguration_21664&#45;&gt;AxonTimeoutAutoConfiguration$AxonTimeoutConfigurerModule_21122 -->
+<!-- AxonTimeoutAutoConfiguration_23607&#45;&gt;AxonTimeoutAutoConfiguration$AxonTimeoutConfigurerModule_23701 -->
 <g id="edge19" class="edge">
-<title>AxonTimeoutAutoConfiguration_21664&#45;&gt;AxonTimeoutAutoConfiguration$AxonTimeoutConfigurerModule_21122</title>
+<title>AxonTimeoutAutoConfiguration_23607&#45;&gt;AxonTimeoutAutoConfiguration$AxonTimeoutConfigurerModule_23701</title>
 <path fill="none" stroke="#ccece6" stroke-width="0.3" d="M747.6,-711.41C746.73,-656.07 745,-545.18 744.09,-486.51"/>
 <polygon fill="#ccece6" stroke="#ccece6" stroke-width="0.3" points="745.49,-486.81 744.03,-482.84 742.69,-486.86 745.49,-486.81"/>
 <text xml:space="preserve" text-anchor="middle" x="744.81" y="-597.97" font-family="Times,serif" font-size="4.00">3</text>
 </g>
-<!-- AxonTimeoutAutoConfiguration$AxonTimeoutConfigurerModule_21122&#45;&gt;central -->
+<!-- AxonTimeoutAutoConfiguration$AxonTimeoutConfigurerModule_23701&#45;&gt;central -->
 <g id="edge6" class="edge">
-<title>AxonTimeoutAutoConfiguration$AxonTimeoutConfigurerModule_21122&#45;&gt;central</title>
+<title>AxonTimeoutAutoConfiguration$AxonTimeoutConfigurerModule_23701&#45;&gt;central</title>
 <path fill="none" stroke="#238b45" stroke-width="0.4" d="M623.99,-444.56C597.56,-443.79 570.13,-442.98 545.59,-442.26"/>
 <polygon fill="#238b45" stroke="#238b45" stroke-width="0.4" points="545.69,-440.86 541.65,-442.14 545.61,-443.66 545.69,-440.86"/>
 <text xml:space="preserve" text-anchor="middle" x="581.22" y="-444.54" font-family="Times,serif" font-size="4.00">1</text>
 </g>
-<!-- AxonTimeoutAutoConfiguration$AxonTimeoutConfigurerModule_21122&#45;&gt;Configurer_59846 -->
+<!-- AxonTimeoutAutoConfiguration$AxonTimeoutConfigurerModule_23701&#45;&gt;Configurer_2112 -->
 <g id="edge16" class="edge">
-<title>AxonTimeoutAutoConfiguration$AxonTimeoutConfigurerModule_21122&#45;&gt;Configurer_59846</title>
+<title>AxonTimeoutAutoConfiguration$AxonTimeoutConfigurerModule_23701&#45;&gt;Configurer_2112</title>
 <path fill="none" stroke="#ccece6" stroke-width="0.3" d="M666.84,-421.46C610.75,-402.2 532.7,-375.87 463.63,-354.23 444.03,-348.09 422.34,-341.68 403.44,-336.23"/>
 <polygon fill="#ccece6" stroke="#ccece6" stroke-width="0.3" points="403.87,-334.89 399.64,-335.13 403.09,-337.58 403.87,-334.89"/>
 <text xml:space="preserve" text-anchor="middle" x="532.85" y="-377.97" font-family="Times,serif" font-size="4.00">5</text>
 </g>
-<!-- AxonTracingAutoConfiguration_21145&#45;&gt;central -->
+<!-- AxonTracingAutoConfiguration_25035&#45;&gt;central -->
 <g id="edge7" class="edge">
-<title>AxonTracingAutoConfiguration_21145&#45;&gt;central</title>
+<title>AxonTracingAutoConfiguration_25035&#45;&gt;central</title>
 <path fill="none" stroke="#238b45" stroke-width="0.4" d="M167,-520.76C230.07,-503.56 320.4,-478.92 384.78,-461.36"/>
 <polygon fill="#238b45" stroke="#238b45" stroke-width="0.4" points="384.91,-462.77 388.4,-460.37 384.17,-460.07 384.91,-462.77"/>
 <text xml:space="preserve" text-anchor="middle" x="277.11" y="-491.65" font-family="Times,serif" font-size="4.00">1</text>
 </g>
-<!-- AxonTracingAutoConfiguration_21145&#45;&gt;AxonServerAutoConfiguration_21144 -->
-<g id="edge24" class="edge">
-<title>AxonTracingAutoConfiguration_21145&#45;&gt;AxonServerAutoConfiguration_21144</title>
+<!-- AxonTracingAutoConfiguration_25035&#45;&gt;AxonServerAutoConfiguration_24397 -->
+<g id="edge23" class="edge">
+<title>AxonTracingAutoConfiguration_25035&#45;&gt;AxonServerAutoConfiguration_24397</title>
 <path fill="none" stroke="#ccece6" stroke-width="0.3" d="M118,-573.02C126.98,-584.47 137.18,-597.46 146.45,-609.26"/>
 <polygon fill="#ccece6" stroke="#ccece6" stroke-width="0.3" points="145.18,-609.92 148.75,-612.2 147.38,-608.19 145.18,-609.92"/>
 <text xml:space="preserve" text-anchor="middle" x="132.48" y="-593.94" font-family="Times,serif" font-size="4.00">1</text>
 </g>
-<!-- AxonTracingAutoConfiguration_21145&#45;&gt;AxonAutoConfiguration_21661 -->
-<g id="edge23" class="edge">
-<title>AxonTracingAutoConfiguration_21145&#45;&gt;AxonAutoConfiguration_21661</title>
+<!-- AxonTracingAutoConfiguration_25035&#45;&gt;AxonAutoConfiguration_23665 -->
+<g id="edge24" class="edge">
+<title>AxonTracingAutoConfiguration_25035&#45;&gt;AxonAutoConfiguration_23665</title>
 <path fill="none" stroke="#ccece6" stroke-width="0.3" d="M161.96,-563.57C200.53,-576.17 248.29,-591.77 286.11,-604.13"/>
 <polygon fill="#ccece6" stroke="#ccece6" stroke-width="0.3" points="285.54,-605.42 289.78,-605.33 286.41,-602.76 285.54,-605.42"/>
 <text xml:space="preserve" text-anchor="middle" x="224.83" y="-585.63" font-family="Times,serif" font-size="4.00">1</text>
 </g>
-<!-- AxonTracingAutoConfiguration_21145&#45;&gt;Configurer_59846 -->
+<!-- AxonTracingAutoConfiguration_25035&#45;&gt;Configurer_2112 -->
 <g id="edge20" class="edge">
-<title>AxonTracingAutoConfiguration_21145&#45;&gt;Configurer_59846</title>
+<title>AxonTracingAutoConfiguration_25035&#45;&gt;Configurer_2112</title>
 <path fill="none" stroke="#ccece6" stroke-width="0.3" d="M129.38,-510.33C179.57,-468.2 269.23,-392.93 318.58,-351.5"/>
 <polygon fill="#ccece6" stroke="#ccece6" stroke-width="0.3" points="319.27,-352.76 321.43,-349.11 317.47,-350.61 319.27,-352.76"/>
 <text xml:space="preserve" text-anchor="middle" x="224.52" y="-430.82" font-family="Times,serif" font-size="4.00">2</text>
 </g>
-<!-- DeadLetterQueueProviderConfigurerModule_21111&#45;&gt;central -->
+<!-- DeadLetterQueueProviderConfigurerModule_23690&#45;&gt;central -->
 <g id="edge8" class="edge">
-<title>DeadLetterQueueProviderConfigurerModule_21111&#45;&gt;central</title>
+<title>DeadLetterQueueProviderConfigurerModule_23690&#45;&gt;central</title>
 <path fill="none" stroke="#238b45" stroke-width="0.4" d="M564.59,-65.4C547.37,-129.27 509.05,-271.39 484.89,-361.01"/>
 <polygon fill="#238b45" stroke="#238b45" stroke-width="0.4" points="483.59,-360.43 483.91,-364.65 486.3,-361.15 483.59,-360.43"/>
 <text xml:space="preserve" text-anchor="middle" x="523.13" y="-216.66" font-family="Times,serif" font-size="4.00">1</text>
 </g>
-<!-- DeadLetterQueueProviderConfigurerModule_21111&#45;&gt;Configurer_59846 -->
+<!-- DeadLetterQueueProviderConfigurerModule_23690&#45;&gt;Configurer_2112 -->
 <g id="edge21" class="edge">
-<title>DeadLetterQueueProviderConfigurerModule_21111&#45;&gt;Configurer_59846</title>
+<title>DeadLetterQueueProviderConfigurerModule_23690&#45;&gt;Configurer_2112</title>
 <path fill="none" stroke="#ccece6" stroke-width="0.3" d="M548.69,-65.07C506.61,-120.51 421.68,-232.4 379.1,-288.49"/>
 <polygon fill="#ccece6" stroke="#ccece6" stroke-width="0.3" points="378.18,-287.38 376.88,-291.41 380.42,-289.07 378.18,-287.38"/>
 <text xml:space="preserve" text-anchor="middle" x="461.59" y="-179.7" font-family="Times,serif" font-size="4.00">2</text>
 </g>
-<!-- ServerConnectorConfigurerModule_6285&#45;&gt;central -->
+<!-- ServerConnectorConfigurerModule_15747&#45;&gt;central -->
 <g id="edge9" class="edge">
-<title>ServerConnectorConfigurerModule_6285&#45;&gt;central</title>
+<title>ServerConnectorConfigurerModule_15747&#45;&gt;central</title>
 <path fill="none" stroke="#238b45" stroke-width="0.4" d="M332.26,-67.74C354.86,-131.76 405.03,-273.86 436.42,-362.76"/>
 <polygon fill="#238b45" stroke="#238b45" stroke-width="0.4" points="435.04,-363.08 437.69,-366.38 437.68,-362.14 435.04,-363.08"/>
 <text xml:space="preserve" text-anchor="middle" x="384.13" y="-218.69" font-family="Times,serif" font-size="4.00">1</text>
 </g>
-<!-- ServerConnectorConfigurerModule_6285&#45;&gt;Configurer_59846 -->
+<!-- ServerConnectorConfigurerModule_15747&#45;&gt;Configurer_2112 -->
 <g id="edge13" class="edge">
-<title>ServerConnectorConfigurerModule_6285&#45;&gt;Configurer_59846</title>
+<title>ServerConnectorConfigurerModule_15747&#45;&gt;Configurer_2112</title>
 <path fill="none" stroke="#ccece6" stroke-width="0.3" d="M324.37,-67.85C330.51,-121.3 342.53,-226.08 349.07,-283.04"/>
 <polygon fill="#ccece6" stroke="#ccece6" stroke-width="0.3" points="347.67,-283.12 349.51,-286.94 350.45,-282.8 347.67,-283.12"/>
 <text xml:space="preserve" text-anchor="middle" x="334.95" y="-178.61" font-family="Times,serif" font-size="4.00">12</text>
 </g>
-<!-- UpdateCheckerConfigurerModule_58444&#45;&gt;central -->
+<!-- UpdateCheckerConfigurerModule_884&#45;&gt;central -->
 <g id="edge10" class="edge">
-<title>UpdateCheckerConfigurerModule_58444&#45;&gt;central</title>
+<title>UpdateCheckerConfigurerModule_884&#45;&gt;central</title>
 <path fill="none" stroke="#238b45" stroke-width="0.4" d="M659.64,-236.73C624.02,-273.65 564.4,-335.43 520.25,-381.18"/>
 <polygon fill="#238b45" stroke="#238b45" stroke-width="0.4" points="519.29,-380.16 517.52,-384.01 521.3,-382.1 519.29,-380.16"/>
 <text xml:space="preserve" text-anchor="middle" x="587.18" y="-311.99" font-family="Times,serif" font-size="4.00">1</text>
 </g>
-<!-- UpdateCheckerConfigurerModule_58444&#45;&gt;Configurer_59846 -->
+<!-- UpdateCheckerConfigurerModule_884&#45;&gt;Configurer_2112 -->
 <g id="edge17" class="edge">
-<title>UpdateCheckerConfigurerModule_58444&#45;&gt;Configurer_59846</title>
+<title>UpdateCheckerConfigurerModule_884&#45;&gt;Configurer_2112</title>
 <path fill="none" stroke="#ccece6" stroke-width="0.3" d="M621.26,-229.04C555.89,-251.78 459.35,-285.35 401.83,-305.36"/>
 <polygon fill="#ccece6" stroke="#ccece6" stroke-width="0.3" points="401.5,-303.99 398.18,-306.62 402.42,-306.63 401.5,-303.99"/>
 <text xml:space="preserve" text-anchor="middle" x="507.49" y="-269.46" font-family="Times,serif" font-size="4.00">5</text>
@@ -205,80 +205,80 @@
 <text xml:space="preserve" text-anchor="middle" x="463.63" y="-444.65" font-family="Times,serif" font-size="16.00">🔒 bottleneck #5</text>
 <text xml:space="preserve" text-anchor="middle" x="463.63" y="-425.45" font-family="Times,serif" font-size="16.00">ConfigurerModule</text>
 </g>
-<!-- InfraConfiguration_24103 -->
+<!-- InfraConfiguration_26251 -->
 <g id="node2" class="node">
-<title>InfraConfiguration_24103</title>
+<title>InfraConfiguration_26251</title>
 <ellipse fill="#ccece6" stroke="#41ae76" stroke-width="2" cx="147.92" cy="-403.6" rx="55.24" ry="32.4"/>
 <text xml:space="preserve" text-anchor="middle" x="147.92" y="-407.2" font-family="Times,serif" font-size="12.00">InfraConfiguration</text>
 <text xml:space="preserve" text-anchor="middle" x="147.92" y="-392.8" font-family="Times,serif" font-size="12.00">(0.0)</text>
 </g>
-<!-- DefaultConfigurer_59438 -->
+<!-- DefaultConfigurer_945 -->
 <g id="node3" class="node">
-<title>DefaultConfigurer_59438</title>
+<title>DefaultConfigurer_945</title>
 <ellipse fill="#ccece6" stroke="#41ae76" stroke-width="5" cx="165.14" cy="-200.2" rx="54.07" ry="32.4"/>
 <text xml:space="preserve" text-anchor="middle" x="165.14" y="-203.8" font-family="Times,serif" font-size="12.00">DefaultConfigurer</text>
 <text xml:space="preserve" text-anchor="middle" x="165.14" y="-189.4" font-family="Times,serif" font-size="12.00">(2252.94)</text>
 </g>
-<!-- AxonServerAutoConfiguration_21144 -->
+<!-- AxonServerAutoConfiguration_24397 -->
 <g id="node4" class="node">
-<title>AxonServerAutoConfiguration_21144</title>
+<title>AxonServerAutoConfiguration_24397</title>
 <ellipse fill="#ccece6" stroke="#41ae76" stroke-width="5" cx="175.16" cy="-645.85" rx="89.37" ry="32.4"/>
 <text xml:space="preserve" text-anchor="middle" x="175.16" y="-649.45" font-family="Times,serif" font-size="12.00">AxonServerAutoConfiguration</text>
 <text xml:space="preserve" text-anchor="middle" x="175.16" y="-635.05" font-family="Times,serif" font-size="12.00">(2082.54)</text>
 </g>
-<!-- AxonAutoConfiguration_21661 -->
+<!-- AxonAutoConfiguration_23665 -->
 <g id="node5" class="node">
-<title>AxonAutoConfiguration_21661</title>
+<title>AxonAutoConfiguration_23665</title>
 <ellipse fill="#ccece6" stroke="#41ae76" stroke-width="5" cx="350.72" cy="-625.24" rx="71.15" ry="32.4"/>
 <text xml:space="preserve" text-anchor="middle" x="350.72" y="-628.84" font-family="Times,serif" font-size="12.00">AxonAutoConfiguration</text>
 <text xml:space="preserve" text-anchor="middle" x="350.72" y="-614.44" font-family="Times,serif" font-size="12.00">(10295.89)</text>
 </g>
-<!-- AxonTimeoutAutoConfiguration_21664 -->
+<!-- AxonTimeoutAutoConfiguration_23607 -->
 <g id="node6" class="node">
-<title>AxonTimeoutAutoConfiguration_21664</title>
+<title>AxonTimeoutAutoConfiguration_23607</title>
 <ellipse fill="#ccece6" stroke="#41ae76" stroke-width="2" cx="748.12" cy="-744.56" rx="94.8" ry="32.4"/>
 <text xml:space="preserve" text-anchor="middle" x="748.12" y="-748.16" font-family="Times,serif" font-size="12.00">AxonTimeoutAutoConfiguration</text>
 <text xml:space="preserve" text-anchor="middle" x="748.12" y="-733.76" font-family="Times,serif" font-size="12.00">(0.0)</text>
 </g>
-<!-- AxonTimeoutAutoConfiguration$AxonTimeoutConfigurerModule_21122 -->
+<!-- AxonTimeoutAutoConfiguration$AxonTimeoutConfigurerModule_23701 -->
 <g id="node7" class="node">
-<title>AxonTimeoutAutoConfiguration$AxonTimeoutConfigurerModule_21122</title>
+<title>AxonTimeoutAutoConfiguration$AxonTimeoutConfigurerModule_23701</title>
 <ellipse fill="#ccece6" stroke="#41ae76" stroke-width="2" cx="743.49" cy="-448.08" rx="119.48" ry="33.6"/>
 <text xml:space="preserve" text-anchor="middle" x="743.49" y="-458.88" font-family="Times,serif" font-size="12.00">AxonTimeoutAutoConfiguration$</text>
 <text xml:space="preserve" text-anchor="middle" x="743.49" y="-444.48" font-family="Times,serif" font-size="12.00">AxonTimeoutConfigurerModule</text>
 <text xml:space="preserve" text-anchor="middle" x="743.49" y="-430.08" font-family="Times,serif" font-size="12.00">(164.66)</text>
 </g>
-<!-- AxonTracingAutoConfiguration_21145 -->
+<!-- AxonTracingAutoConfiguration_25035 -->
 <g id="node8" class="node">
-<title>AxonTracingAutoConfiguration_21145</title>
+<title>AxonTracingAutoConfiguration_25035</title>
 <ellipse fill="#ccece6" stroke="#41ae76" stroke-width="2" cx="92.86" cy="-540.99" rx="92.86" ry="32.4"/>
 <text xml:space="preserve" text-anchor="middle" x="92.86" y="-544.59" font-family="Times,serif" font-size="12.00">AxonTracingAutoConfiguration</text>
 <text xml:space="preserve" text-anchor="middle" x="92.86" y="-530.19" font-family="Times,serif" font-size="12.00">(1014.05)</text>
 </g>
-<!-- DeadLetterQueueProviderConfigurerModule_21111 -->
+<!-- DeadLetterQueueProviderConfigurerModule_23690 -->
 <g id="node9" class="node">
-<title>DeadLetterQueueProviderConfigurerModule_21111</title>
+<title>DeadLetterQueueProviderConfigurerModule_23690</title>
 <ellipse fill="#ccece6" stroke="#41ae76" stroke-width="2" cx="573.49" cy="-32.4" rx="128.51" ry="32.4"/>
 <text xml:space="preserve" text-anchor="middle" x="573.49" y="-36" font-family="Times,serif" font-size="12.00">DeadLetterQueueProviderConfigurerModule</text>
 <text xml:space="preserve" text-anchor="middle" x="573.49" y="-21.6" font-family="Times,serif" font-size="12.00">(461.77)</text>
 </g>
-<!-- ServerConnectorConfigurerModule_6285 -->
+<!-- ServerConnectorConfigurerModule_15747 -->
 <g id="node10" class="node">
-<title>ServerConnectorConfigurerModule_6285</title>
+<title>ServerConnectorConfigurerModule_15747</title>
 <ellipse fill="#ccece6" stroke="#41ae76" stroke-width="2" cx="320.55" cy="-34.58" rx="102.15" ry="32.4"/>
 <text xml:space="preserve" text-anchor="middle" x="320.55" y="-38.18" font-family="Times,serif" font-size="12.00">ServerConnectorConfigurerModule</text>
 <text xml:space="preserve" text-anchor="middle" x="320.55" y="-23.78" font-family="Times,serif" font-size="12.00">(0.0)</text>
 </g>
-<!-- UpdateCheckerConfigurerModule_58444 -->
+<!-- UpdateCheckerConfigurerModule_884 -->
 <g id="node11" class="node">
-<title>UpdateCheckerConfigurerModule_58444</title>
+<title>UpdateCheckerConfigurerModule_884</title>
 <ellipse fill="#ccece6" stroke="#41ae76" stroke-width="2" cx="690.2" cy="-205.07" rx="98.27" ry="32.4"/>
 <text xml:space="preserve" text-anchor="middle" x="690.2" y="-208.67" font-family="Times,serif" font-size="12.00">UpdateCheckerConfigurerModule</text>
 <text xml:space="preserve" text-anchor="middle" x="690.2" y="-194.27" font-family="Times,serif" font-size="12.00">(0.0)</text>
 </g>
-<!-- Configurer_59846 -->
+<!-- Configurer_2112 -->
 <g id="node12" class="node">
-<title>Configurer_59846</title>
+<title>Configurer_2112</title>
 <ellipse fill="#f7fcfd" stroke="#66c2a4" stroke-width="5" cx="353.56" cy="-322.14" rx="46.8" ry="32.4"/>
 <text xml:space="preserve" text-anchor="middle" x="353.56" y="-325.74" font-family="Times,serif" font-size="12.00">Configurer</text>
 <text xml:space="preserve" text-anchor="middle" x="353.56" y="-311.34" font-family="Times,serif" font-size="12.00">(6390.84)</text>

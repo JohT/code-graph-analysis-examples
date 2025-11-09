@@ -12,113 +12,52 @@ strict digraph TopBridge1 {
     central [fontsize = 16;];
     central [color = 7; fillcolor = 5; penwidth = 3;];
 
-	graph   [label="Top Rank #1 Java Package Bridge\norg.axonframework.queryhandling\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
-	central [label="🌉 bridge #1\nqueryhandling"];
-	"query_25" [label = "query"; ]; "query_25" -> central [label=56; weight=56; penwidth=1.1];
-	"autoconfig_20892" [label = "autoconfig"; ]; "autoconfig_20892" -> central [label=53; weight=53; penwidth=1.1];
-	"config_58498" [label = "config"; ]; "config_58498" -> central [label=41; weight=41; penwidth=0.9];
-	"subscription_26" [label = "subscription"; ]; "subscription_26" -> central [label=22; weight=22; penwidth=0.7];
-	"connector_18" [label = "connector"; ]; "connector_18" -> central [label=19; weight=19; penwidth=0.7];
-	"registration_52484" [label = "registration"; ]; "registration_52484" -> central [label=15; weight=15; penwidth=0.6];
-	"annotation_52483" [label = "annotation"; ]; "annotation_52483" -> central [label=8; weight=8; penwidth=0.5];
-	"responsetypes_48281" [label = "responsetypes"; ]; "responsetypes_48281" -> central [label=4; weight=4; penwidth=0.5];
-	"serialization_52485" [label = "serialization"; ]; "serialization_52485" -> central [label=3; weight=3; penwidth=0.4];
-	"tracing_54560" [label = "tracing"; ]; "tracing_54560" -> central [label=1; weight=1; penwidth=0.4];
-	"util_55752" [label = "util"; ]; "util_55752" -> central [label=1; weight=1; penwidth=0.4];
-	"attributes_55424" [label = "attributes"; ]; "attributes_55424" -> central [label=0; weight=0; penwidth=0.4];
-	"timeout_49341" [label = "timeout"; ]; "timeout_49341" -> central [label=0; weight=0; penwidth=0.4];
-	"messaging_45032" [label = "messaging"; color = 5; fillcolor = 1; ]; central -> "messaging_45032" [label=96; weight=96; penwidth=1.7; color = 5];
-	"common_30475" [label = "common"; color = 5; fillcolor = 1; ]; central -> "common_30475" [label=35; weight=35; penwidth=0.9; color = 5];
-	"responsetypes_48281" [label = "responsetypes"; color = 5; fillcolor = 1; ]; central -> "responsetypes_48281" [label=27; weight=27; penwidth=0.8; color = 5];
-	"tracing_54560" [label = "tracing"; color = 5; fillcolor = 1; ]; central -> "tracing_54560" [label=22; weight=22; penwidth=0.7; color = 5];
-	"unitofwork_49342" [label = "unitofwork"; color = 5; fillcolor = 1; ]; central -> "unitofwork_49342" [label=13; weight=13; penwidth=0.6; color = 5];
-	"monitoring_49343" [label = "monitoring"; color = 5; fillcolor = 1; ]; central -> "monitoring_49343" [label=11; weight=11; penwidth=0.5; color = 5];
-	"transaction_33623" [label = "transaction"; color = 5; fillcolor = 1; ]; central -> "transaction_33623" [label=3; weight=3; penwidth=0.4; color = 5];
-	"interceptors_48279" [label = "interceptors"; color = 5; fillcolor = 1; ]; central -> "interceptors_48279" [label=2; weight=2; penwidth=0.4; color = 5];
-	"registration_52484" [label = "registration"; color = 5; fillcolor = 1; ]; central -> "registration_52484" [label=2; weight=2; penwidth=0.4; color = 5];
-	"annotation_46198" [label = "annotation"; color = 5; fillcolor = 1; ]; central -> "annotation_46198" [label=1; weight=1; penwidth=0.4; color = 5];
-	"autoconfig_20892" -> "connector_18" [label=87; weight=87; penwidth=0.3; color = 3]
-	"query_25" -> "connector_18" [label=65; weight=65; penwidth=0.3; color = 3]
-	"config_58498" -> "common_30475" [label=51; weight=51; penwidth=0.3; color = 3]
-	"autoconfig_20892" -> "config_58498" [label=47; weight=47; penwidth=0.3; color = 3]
-	"connector_18" -> "common_30475" [label=46; weight=46; penwidth=0.3; color = 3]
-	"annotation_46198" -> "messaging_45032" [label=38; weight=38; penwidth=0.3; color = 3]
-	"unitofwork_49342" -> "messaging_45032" [label=35; weight=35; penwidth=0.3; color = 3]
-	"query_25" -> "messaging_45032" [label=34; weight=34; penwidth=0.3; color = 3]
-	"query_25" -> "common_30475" [label=30; weight=30; penwidth=0.3; color = 3]
-	"serialization_52485" -> "common_30475" [label=26; weight=26; penwidth=0.3; color = 3]
-	"subscription_26" -> "connector_18" [label=26; weight=26; penwidth=0.3; color = 3]
-	"annotation_52483" -> "annotation_46198" [label=25; weight=25; penwidth=0.3; color = 3]
-	"annotation_46198" -> "common_30475" [label=25; weight=25; penwidth=0.3; color = 3]
-	"autoconfig_20892" -> "timeout_49341" [label=25; weight=25; penwidth=0.3; color = 3]
-	"autoconfig_20892" -> "serialization_52485" [label=25; weight=25; penwidth=0.3; color = 3]
-	"connector_18" -> "config_58498" [label=25; weight=25; penwidth=0.3; color = 3]
-	"serialization_52485" -> "messaging_45032" [label=24; weight=24; penwidth=0.3; color = 3]
-	"config_58498" -> "messaging_45032" [label=21; weight=21; penwidth=0.3; color = 3]
-	"query_25" -> "serialization_52485" [label=21; weight=21; penwidth=0.3; color = 3]
-	"messaging_45032" -> "common_30475" [label=20; weight=20; penwidth=0.3; color = 3]
-	"connector_18" -> "query_25" [label=19; weight=19; penwidth=0.3; color = 3]
-	"config_58498" -> "annotation_46198" [label=17; weight=17; penwidth=0.3; color = 3]
-	"query_25" -> "responsetypes_48281" [label=16; weight=16; penwidth=0.3; color = 3]
-	"autoconfig_20892" -> "query_25" [label=15; weight=15; penwidth=0.3; color = 3]
-	"tracing_54560" -> "messaging_45032" [label=15; weight=15; penwidth=0.3; color = 3]
-	"subscription_26" -> "serialization_52485" [label=14; weight=14; penwidth=0.3; color = 3]
-	"messaging_45032" -> "serialization_52485" [label=13; weight=13; penwidth=0.3; color = 3]
-	"autoconfig_20892" -> "attributes_55424" [label=12; weight=12; penwidth=0.3; color = 3]
-	"query_25" -> "tracing_54560" [label=12; weight=12; penwidth=0.3; color = 3]
-	"subscription_26" -> "messaging_45032" [label=12; weight=12; penwidth=0.3; color = 3]
-	"subscription_26" -> "query_25" [label=12; weight=12; penwidth=0.3; color = 3]
-	"autoconfig_20892" -> "tracing_54560" [label=11; weight=11; penwidth=0.3; color = 3]
-	"config_58498" -> "transaction_33623" [label=11; weight=11; penwidth=0.3; color = 3]
-	"query_25" -> "subscription_26" [label=11; weight=11; penwidth=0.3; color = 3]
-	"unitofwork_49342" -> "common_30475" [label=10; weight=10; penwidth=0.3; color = 3]
-	"responsetypes_48281" -> "common_30475" [label=9; weight=9; penwidth=0.3; color = 3]
-	"autoconfig_20892" -> "common_30475" [label=8; weight=8; penwidth=0.3; color = 3]
-	"config_58498" -> "serialization_52485" [label=8; weight=8; penwidth=0.3; color = 3]
-	"connector_18" -> "messaging_45032" [label=8; weight=8; penwidth=0.3; color = 3]
-	"interceptors_48279" -> "messaging_45032" [label=8; weight=8; penwidth=0.3; color = 3]
-	"tracing_54560" -> "common_30475" [label=8; weight=8; penwidth=0.3; color = 3]
-	"autoconfig_20892" -> "messaging_45032" [label=7; weight=7; penwidth=0.3; color = 3]
-	"config_58498" -> "monitoring_49343" [label=7; weight=7; penwidth=0.3; color = 3]
-	"annotation_46198" -> "unitofwork_49342" [label=6; weight=6; penwidth=0.3; color = 3]
-	"autoconfig_20892" -> "transaction_33623" [label=6; weight=6; penwidth=0.3; color = 3]
-	"config_58498" -> "util_55752" [label=6; weight=6; penwidth=0.3; color = 3]
-	"config_58498" -> "interceptors_48279" [label=6; weight=6; penwidth=0.3; color = 3]
-	"timeout_49341" -> "annotation_46198" [label=6; weight=6; penwidth=0.3; color = 3]
-	"subscription_26" -> "tracing_54560" [label=5; weight=5; penwidth=0.3; color = 3]
-	"tracing_54560" -> "annotation_46198" [label=5; weight=5; penwidth=0.3; color = 3]
-	"autoconfig_20892" -> "interceptors_48279" [label=4; weight=4; penwidth=0.3; color = 3]
-	"config_58498" -> "unitofwork_49342" [label=4; weight=4; penwidth=0.3; color = 3]
-	"responsetypes_48281" -> "messaging_45032" [label=4; weight=4; penwidth=0.3; color = 3]
-	"annotation_52483" -> "common_30475" [label=3; weight=3; penwidth=0.3; color = 3]
-	"annotation_46198" -> "interceptors_48279" [label=3; weight=3; penwidth=0.3; color = 3]
-	"attributes_55424" -> "messaging_45032" [label=3; weight=3; penwidth=0.3; color = 3]
-	"config_58498" -> "tracing_54560" [label=3; weight=3; penwidth=0.3; color = 3]
-	"config_58498" -> "annotation_52483" [label=3; weight=3; penwidth=0.3; color = 3]
-	"connector_18" -> "transaction_33623" [label=3; weight=3; penwidth=0.3; color = 3]
-	"interceptors_48279" -> "unitofwork_49342" [label=3; weight=3; penwidth=0.3; color = 3]
-	"serialization_52485" -> "util_55752" [label=3; weight=3; penwidth=0.3; color = 3]
-	"tracing_54560" -> "unitofwork_49342" [label=3; weight=3; penwidth=0.3; color = 3]
-	"autoconfig_20892" -> "annotation_46198" [label=2; weight=2; penwidth=0.3; color = 3]
-	"interceptors_48279" -> "transaction_33623" [label=2; weight=2; penwidth=0.3; color = 3]
-	"interceptors_48279" -> "common_30475" [label=2; weight=2; penwidth=0.3; color = 3]
-	"interceptors_48279" -> "annotation_46198" [label=2; weight=2; penwidth=0.3; color = 3]
-	"messaging_45032" -> "unitofwork_49342" [label=2; weight=2; penwidth=0.3; color = 3]
-	"monitoring_49343" -> "messaging_45032" [label=2; weight=2; penwidth=0.3; color = 3]
-	"registration_52484" -> "common_30475" [label=2; weight=2; penwidth=0.3; color = 3]
-	"timeout_49341" -> "common_30475" [label=2; weight=2; penwidth=0.3; color = 3]
-	"timeout_49341" -> "unitofwork_49342" [label=2; weight=2; penwidth=0.3; color = 3]
-	"timeout_49341" -> "messaging_45032" [label=2; weight=2; penwidth=0.3; color = 3]
-	"annotation_52483" -> "messaging_45032" [label=1; weight=1; penwidth=0.3; color = 3]
-	"attributes_55424" -> "tracing_54560" [label=1; weight=1; penwidth=0.3; color = 3]
-	"monitoring_49343" -> "common_30475" [label=1; weight=1; penwidth=0.3; color = 3]
-	"query_25" -> "util_55752" [label=1; weight=1; penwidth=0.3; color = 3]
-	"responsetypes_48281" -> "util_55752" [label=1; weight=1; penwidth=0.3; color = 3]
-	"responsetypes_48281" -> "serialization_52485" [label=1; weight=1; penwidth=0.3; color = 3]
-	"subscription_26" -> "responsetypes_48281" [label=1; weight=1; penwidth=0.3; color = 3]
-	"subscription_26" -> "common_30475" [label=1; weight=1; penwidth=0.3; color = 3]
-	"unitofwork_49342" -> "transaction_33623" [label=1; weight=1; penwidth=0.3; color = 3]
-	"util_55752" -> "common_30475" [label=1; weight=1; penwidth=0.3; color = 3]
-	"annotation_52483" -> "responsetypes_48281" [label=0; weight=0; penwidth=0.3; color = 3]
-	"registration_52484" -> "messaging_45032" [label=0; weight=0; penwidth=0.3; color = 3]
+	graph   [label="Top Rank #1 Java Package Bridge\norg.axonframework.eventsourcing.eventstore.jdbc\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
+	central [label="🌉 bridge #1\njdbc"];
+	"statements_23112" [label = "statements"; ]; "statements_23112" -> central [label=72; weight=72; penwidth=1.3];
+	"autoconfig_23581" [label = "autoconfig"; ]; "autoconfig_23581" -> central [label=18; weight=18; penwidth=0.6];
+	"eventstore_19970" [label = "eventstore"; color = 5; fillcolor = 1; ]; central -> "eventstore_19970" [label=52; weight=52; penwidth=1.1; color = 5];
+	"eventhandling_37818" [label = "eventhandling"; color = 5; fillcolor = 1; ]; central -> "eventhandling_37818" [label=45; weight=45; penwidth=1.0; color = 5];
+	"statements_23112" [label = "statements"; color = 5; fillcolor = 1; ]; central -> "statements_23112" [label=29; weight=29; penwidth=0.8; color = 5];
+	"common_34598" [label = "common"; color = 5; fillcolor = 1; ]; central -> "common_34598" [label=26; weight=26; penwidth=0.7; color = 5];
+	"jdbc_35498" [label = "jdbc"; color = 5; fillcolor = 1; ]; central -> "jdbc_35498" [label=24; weight=24; penwidth=0.7; color = 5];
+	"serialization_55545" [label = "serialization"; color = 5; fillcolor = 1; ]; central -> "serialization_55545" [label=3; weight=3; penwidth=0.4; color = 5];
+	"transaction_36589" [label = "transaction"; color = 5; fillcolor = 1; ]; central -> "transaction_36589" [label=3; weight=3; penwidth=0.4; color = 5];
+	"command_59777" [label = "command"; color = 5; fillcolor = 1; ]; central -> "command_59777" [label=1; weight=1; penwidth=0.4; color = 5];
+	"event_57638" [label = "event"; color = 5; fillcolor = 1; ]; central -> "event_57638" [label=1; weight=1; penwidth=0.4; color = 5];
+	"snapshotting_23559" [label = "snapshotting"; color = 5; fillcolor = 1; ]; central -> "snapshotting_23559" [label=1; weight=1; penwidth=0.4; color = 5];
+	"eventhandling_37818" -> "common_34598" [label=89; weight=89; penwidth=0.3; color = 3]
+	"eventstore_19970" -> "eventhandling_37818" [label=68; weight=68; penwidth=0.3; color = 3]
+	"command_59777" -> "common_34598" [label=67; weight=67; penwidth=0.3; color = 3]
+	"autoconfig_23581" -> "eventhandling_37818" [label=29; weight=29; penwidth=0.3; color = 3]
+	"serialization_55545" -> "common_34598" [label=26; weight=26; penwidth=0.3; color = 3]
+	"autoconfig_23581" -> "serialization_55545" [label=25; weight=25; penwidth=0.3; color = 3]
+	"event_57638" -> "serialization_55545" [label=24; weight=24; penwidth=0.3; color = 3]
+	"eventstore_19970" -> "common_34598" [label=23; weight=23; penwidth=0.3; color = 3]
+	"eventhandling_37818" -> "serialization_55545" [label=16; weight=16; penwidth=0.3; color = 3]
+	"autoconfig_23581" -> "eventstore_19970" [label=11; weight=11; penwidth=0.3; color = 3]
+	"autoconfig_23581" -> "common_34598" [label=8; weight=8; penwidth=0.3; color = 3]
+	"statements_23112" -> "eventhandling_37818" [label=8; weight=8; penwidth=0.3; color = 3]
+	"eventhandling_37818" -> "transaction_36589" [label=7; weight=7; penwidth=0.3; color = 3]
+	"eventhandling_37818" -> "event_57638" [label=7; weight=7; penwidth=0.3; color = 3]
+	"eventstore_19970" -> "serialization_55545" [label=7; weight=7; penwidth=0.3; color = 3]
+	"serialization_55545" -> "eventhandling_37818" [label=7; weight=7; penwidth=0.3; color = 3]
+	"autoconfig_23581" -> "transaction_36589" [label=6; weight=6; penwidth=0.3; color = 3]
+	"autoconfig_23581" -> "command_59777" [label=5; weight=5; penwidth=0.3; color = 3]
+	"autoconfig_23581" -> "jdbc_35498" [label=5; weight=5; penwidth=0.3; color = 3]
+	"event_57638" -> "common_34598" [label=4; weight=4; penwidth=0.3; color = 3]
+	"event_57638" -> "eventhandling_37818" [label=4; weight=4; penwidth=0.3; color = 3]
+	"eventstore_19970" -> "command_59777" [label=4; weight=4; penwidth=0.3; color = 3]
+	"snapshotting_23559" -> "common_34598" [label=4; weight=4; penwidth=0.3; color = 3]
+	"statements_23112" -> "serialization_55545" [label=4; weight=4; penwidth=0.3; color = 3]
+	"command_59777" -> "eventhandling_37818" [label=2; weight=2; penwidth=0.3; color = 3]
+	"eventstore_19970" -> "event_57638" [label=2; weight=2; penwidth=0.3; color = 3]
+	"eventstore_19970" -> "jdbc_35498" [label=2; weight=2; penwidth=0.3; color = 3]
+	"eventstore_19970" -> "snapshotting_23559" [label=2; weight=2; penwidth=0.3; color = 3]
+	"jdbc_35498" -> "common_34598" [label=2; weight=2; penwidth=0.3; color = 3]
+	"snapshotting_23559" -> "eventhandling_37818" [label=2; weight=2; penwidth=0.3; color = 3]
+	"autoconfig_23581" -> "event_57638" [label=1; weight=1; penwidth=0.3; color = 3]
+	"jdbc_35498" -> "transaction_36589" [label=1; weight=1; penwidth=0.3; color = 3]
+	"statements_23112" -> "common_34598" [label=1; weight=1; penwidth=0.3; color = 3]
+	"snapshotting_23559" -> "serialization_55545" [label=0; weight=0; penwidth=0.3; color = 3]
 }

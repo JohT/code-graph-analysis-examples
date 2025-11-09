@@ -48,9 +48,9 @@
       <td>24.898936</td>
       <td>19.664894</td>
       <td>288.570922</td>
-      <td>366.186170</td>
-      <td>1243.539007</td>
-      <td>460.822695</td>
+      <td>372.186170</td>
+      <td>1248.602837</td>
+      <td>465.828014</td>
     </tr>
     <tr>
       <th>std</th>
@@ -58,53 +58,53 @@
       <td>21.297173</td>
       <td>639.823202</td>
       <td>170.624646</td>
-      <td>980.407058</td>
-      <td>392.535607</td>
+      <td>980.427830</td>
+      <td>392.532956</td>
     </tr>
     <tr>
       <th>min</th>
       <td>1.000000</td>
       <td>2.000000</td>
       <td>3.000000</td>
-      <td>88.000000</td>
-      <td>102.000000</td>
-      <td>88.000000</td>
+      <td>94.000000</td>
+      <td>107.000000</td>
+      <td>93.000000</td>
     </tr>
     <tr>
       <th>25%</th>
       <td>1.000000</td>
       <td>7.000000</td>
       <td>27.000000</td>
-      <td>228.000000</td>
-      <td>502.000000</td>
-      <td>319.000000</td>
+      <td>234.000000</td>
+      <td>507.000000</td>
+      <td>324.000000</td>
     </tr>
     <tr>
       <th>50%</th>
       <td>4.000000</td>
       <td>12.000000</td>
       <td>82.500000</td>
-      <td>461.000000</td>
-      <td>1021.000000</td>
-      <td>461.000000</td>
+      <td>467.000000</td>
+      <td>1026.000000</td>
+      <td>466.000000</td>
     </tr>
     <tr>
       <th>75%</th>
       <td>10.000000</td>
       <td>25.000000</td>
       <td>270.250000</td>
-      <td>461.000000</td>
-      <td>2068.000000</td>
-      <td>461.000000</td>
+      <td>467.000000</td>
+      <td>2073.000000</td>
+      <td>466.000000</td>
     </tr>
     <tr>
       <th>max</th>
       <td>2294.000000</td>
       <td>213.000000</td>
       <td>9815.000000</td>
-      <td>2611.000000</td>
-      <td>5739.000000</td>
-      <td>3090.000000</td>
+      <td>2617.000000</td>
+      <td>5744.000000</td>
+      <td>3095.000000</td>
     </tr>
   </tbody>
 </table>
@@ -152,9 +152,9 @@
       <td>Allard Buijze</td>
       <td>Frank Versnel</td>
       <td>47</td>
-      <td>461</td>
-      <td>5739</td>
-      <td>461</td>
+      <td>467</td>
+      <td>5744</td>
+      <td>466</td>
       <td>2024-07-30</td>
       <td>2010-02-16</td>
       <td>2024-07-30</td>
@@ -172,9 +172,9 @@
       <td>Allard Buijze</td>
       <td>Elin Alexey</td>
       <td>31</td>
-      <td>461</td>
-      <td>2210</td>
-      <td>461</td>
+      <td>467</td>
+      <td>2215</td>
+      <td>466</td>
       <td>2024-07-30</td>
       <td>2019-10-16</td>
       <td>2024-07-30</td>
@@ -192,9 +192,9 @@
       <td>Allard Buijze</td>
       <td>Marc Gathier</td>
       <td>22</td>
-      <td>461</td>
-      <td>2579</td>
-      <td>2579</td>
+      <td>467</td>
+      <td>2584</td>
+      <td>2584</td>
       <td>2024-07-30</td>
       <td>2018-10-12</td>
       <td>2018-10-12</td>
@@ -212,9 +212,9 @@
       <td>Allard Buijze</td>
       <td>Elin Alexey</td>
       <td>69</td>
-      <td>461</td>
-      <td>2603</td>
-      <td>461</td>
+      <td>467</td>
+      <td>2608</td>
+      <td>466</td>
       <td>2024-07-30</td>
       <td>2018-09-18</td>
       <td>2024-07-30</td>
@@ -232,9 +232,9 @@
       <td>Allard Buijze</td>
       <td>Marijn van Zelst</td>
       <td>34</td>
-      <td>461</td>
-      <td>2581</td>
-      <td>461</td>
+      <td>467</td>
+      <td>2586</td>
+      <td>466</td>
       <td>2024-07-30</td>
       <td>2018-10-10</td>
       <td>2024-07-30</td>
@@ -252,9 +252,9 @@
       <td>Allard Buijze</td>
       <td>Christian Vermorken</td>
       <td>178</td>
-      <td>91</td>
-      <td>1404</td>
-      <td>91</td>
+      <td>97</td>
+      <td>1409</td>
+      <td>96</td>
       <td>2025-08-04</td>
       <td>2021-12-30</td>
       <td>2025-08-04</td>
@@ -272,9 +272,9 @@
       <td>Allard Buijze</td>
       <td>David Gómez G</td>
       <td>10</td>
-      <td>461</td>
-      <td>514</td>
-      <td>514</td>
+      <td>467</td>
+      <td>519</td>
+      <td>519</td>
       <td>2024-07-30</td>
       <td>2024-06-07</td>
       <td>2024-06-07</td>
@@ -292,9 +292,9 @@
       <td>Allard Buijze</td>
       <td>David Gómez G</td>
       <td>18</td>
-      <td>461</td>
-      <td>502</td>
-      <td>502</td>
+      <td>467</td>
+      <td>507</td>
+      <td>507</td>
       <td>2024-07-30</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -312,9 +312,9 @@
       <td>Allard Buijze</td>
       <td>David Gómez G</td>
       <td>18</td>
-      <td>461</td>
-      <td>502</td>
-      <td>502</td>
+      <td>467</td>
+      <td>507</td>
+      <td>507</td>
       <td>2024-07-30</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -332,9 +332,9 @@
       <td>Allard Buijze</td>
       <td>David Gómez G</td>
       <td>19</td>
-      <td>461</td>
-      <td>502</td>
-      <td>502</td>
+      <td>467</td>
+      <td>507</td>
+      <td>507</td>
       <td>2024-07-30</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -352,9 +352,9 @@
       <td>Allard Buijze</td>
       <td>David Gómez G</td>
       <td>18</td>
-      <td>461</td>
-      <td>502</td>
-      <td>502</td>
+      <td>467</td>
+      <td>507</td>
+      <td>507</td>
       <td>2024-07-30</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -372,9 +372,9 @@
       <td>Allard Buijze</td>
       <td>David Gómez G</td>
       <td>19</td>
-      <td>461</td>
-      <td>502</td>
-      <td>502</td>
+      <td>467</td>
+      <td>507</td>
+      <td>507</td>
       <td>2024-07-30</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -392,9 +392,9 @@
       <td>Allard Buijze</td>
       <td>David Gómez G</td>
       <td>18</td>
-      <td>461</td>
-      <td>502</td>
-      <td>502</td>
+      <td>467</td>
+      <td>507</td>
+      <td>507</td>
       <td>2024-07-30</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -412,9 +412,9 @@
       <td>Allard Buijze</td>
       <td>David Gómez G</td>
       <td>19</td>
-      <td>461</td>
-      <td>502</td>
-      <td>502</td>
+      <td>467</td>
+      <td>507</td>
+      <td>507</td>
       <td>2024-07-30</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -432,9 +432,9 @@
       <td>Allard Buijze</td>
       <td>David Gómez G</td>
       <td>18</td>
-      <td>461</td>
-      <td>502</td>
-      <td>502</td>
+      <td>467</td>
+      <td>507</td>
+      <td>507</td>
       <td>2024-07-30</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -452,9 +452,9 @@
       <td>Allard Buijze</td>
       <td>David Gómez G</td>
       <td>20</td>
-      <td>461</td>
-      <td>502</td>
-      <td>502</td>
+      <td>467</td>
+      <td>507</td>
+      <td>507</td>
       <td>2024-07-30</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -472,9 +472,9 @@
       <td>Allard Buijze</td>
       <td>David Gómez G</td>
       <td>18</td>
-      <td>461</td>
-      <td>502</td>
-      <td>502</td>
+      <td>467</td>
+      <td>507</td>
+      <td>507</td>
       <td>2024-07-30</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -492,9 +492,9 @@
       <td>Allard Buijze</td>
       <td>David Gómez G</td>
       <td>19</td>
-      <td>461</td>
-      <td>502</td>
-      <td>502</td>
+      <td>467</td>
+      <td>507</td>
+      <td>507</td>
       <td>2024-07-30</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -512,9 +512,9 @@
       <td>Allard Buijze</td>
       <td>David Gómez G</td>
       <td>18</td>
-      <td>461</td>
-      <td>502</td>
-      <td>502</td>
+      <td>467</td>
+      <td>507</td>
+      <td>507</td>
       <td>2024-07-30</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -532,9 +532,9 @@
       <td>Allard Buijze</td>
       <td>David Gómez G</td>
       <td>19</td>
-      <td>461</td>
-      <td>502</td>
-      <td>502</td>
+      <td>467</td>
+      <td>507</td>
+      <td>507</td>
       <td>2024-07-30</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -552,9 +552,9 @@
       <td>Allard Buijze</td>
       <td>David Gómez G</td>
       <td>18</td>
-      <td>461</td>
-      <td>502</td>
-      <td>502</td>
+      <td>467</td>
+      <td>507</td>
+      <td>507</td>
       <td>2024-07-30</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -572,9 +572,9 @@
       <td>Allard Buijze</td>
       <td>David Gómez G</td>
       <td>19</td>
-      <td>461</td>
-      <td>502</td>
-      <td>502</td>
+      <td>467</td>
+      <td>507</td>
+      <td>507</td>
       <td>2024-07-30</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -592,9 +592,9 @@
       <td>Allard Buijze</td>
       <td>David Gómez G</td>
       <td>18</td>
-      <td>461</td>
-      <td>502</td>
-      <td>502</td>
+      <td>467</td>
+      <td>507</td>
+      <td>507</td>
       <td>2024-07-30</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -612,9 +612,9 @@
       <td>Allard Buijze</td>
       <td>David Gómez G</td>
       <td>18</td>
-      <td>461</td>
-      <td>502</td>
-      <td>502</td>
+      <td>467</td>
+      <td>507</td>
+      <td>507</td>
       <td>2024-07-30</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -632,9 +632,9 @@
       <td>Allard Buijze</td>
       <td>David Gómez G</td>
       <td>19</td>
-      <td>461</td>
-      <td>502</td>
-      <td>502</td>
+      <td>467</td>
+      <td>507</td>
+      <td>507</td>
       <td>2024-07-30</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -652,9 +652,9 @@
       <td>Allard Buijze</td>
       <td>David Gómez G</td>
       <td>18</td>
-      <td>461</td>
-      <td>502</td>
-      <td>502</td>
+      <td>467</td>
+      <td>507</td>
+      <td>507</td>
       <td>2024-07-30</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -672,9 +672,9 @@
       <td>Allard Buijze</td>
       <td>David Gómez G</td>
       <td>20</td>
-      <td>461</td>
-      <td>502</td>
-      <td>502</td>
+      <td>467</td>
+      <td>507</td>
+      <td>507</td>
       <td>2024-07-30</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -692,9 +692,9 @@
       <td>Allard Buijze</td>
       <td>David Gómez G</td>
       <td>18</td>
-      <td>461</td>
-      <td>502</td>
-      <td>502</td>
+      <td>467</td>
+      <td>507</td>
+      <td>507</td>
       <td>2024-07-30</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -712,9 +712,9 @@
       <td>Allard Buijze</td>
       <td>David Gómez G</td>
       <td>19</td>
-      <td>461</td>
-      <td>502</td>
-      <td>502</td>
+      <td>467</td>
+      <td>507</td>
+      <td>507</td>
       <td>2024-07-30</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -732,9 +732,9 @@
       <td>Allard Buijze</td>
       <td>David Gómez G</td>
       <td>18</td>
-      <td>461</td>
-      <td>502</td>
-      <td>502</td>
+      <td>467</td>
+      <td>507</td>
+      <td>507</td>
       <td>2024-07-30</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -1350,8 +1350,8 @@ The following charts show how these metrics are distributed across pairs of file
       <td>java↔yml</td>
       <td>15</td>
       <td>2</td>
-      <td>AbstractDeadlineManagerTestSuite↔main</td>
-      <td>spring/src/test/java/org/axonframework/integrationtests/deadline/AbstractDeadlineManagerTestSuite.java↔.github/workflows/main.yml</td>
+      <td>JobRunrEventSchedulerTest↔main</td>
+      <td>messaging/src/test/java/org/axonframework/eventhandling/scheduling/jobrunr/JobRunrEventSchedulerTest.java↔.github/workflows/main.yml</td>
     </tr>
     <tr>
       <th>22</th>
@@ -1486,8 +1486,8 @@ The following charts show how these metrics are distributed across pairs of file
       <td>adoc↔xml</td>
       <td>3</td>
       <td>9</td>
-      <td>nav↔pom</td>
-      <td>docs/old-reference-guide/modules/queries/partials/nav.adoc↔axon-server-connector/pom.xml</td>
+      <td>implementations↔pom</td>
+      <td>docs/old-reference-guide/modules/queries/pages/implementations.adoc↔axon-server-connector/pom.xml</td>
     </tr>
   </tbody>
 </table>
@@ -1527,8 +1527,8 @@ This metric is useful to identify pairs of files that are frequently changed tog
       <td>java↔java</td>
       <td>1.000000</td>
       <td>1</td>
-      <td>AvroSerializerAutoConfiguration↔AvroSchemaPackages</td>
-      <td>spring-boot-autoconfigure/src/main/java/org/axonframework/springboot/autoconfig/AvroSerializerAutoConfiguration.java↔spring/src/main/java/org/axonframework/spring/serialization/avro/AvroSchemaPackages.java</td>
+      <td>AxonTimeLimitedTask↔UnitOfWorkTimeoutInterceptor</td>
+      <td>messaging/src/main/java/org/axonframework/messaging/timeout/AxonTimeLimitedTask.java↔messaging/src/main/java/org/axonframework/messaging/timeout/UnitOfWorkTimeoutInterceptor.java</td>
     </tr>
     <tr>
       <th>1</th>
@@ -1543,8 +1543,8 @@ This metric is useful to identify pairs of files that are frequently changed tog
       <td>java↔java</td>
       <td>0.900000</td>
       <td>3</td>
-      <td>UnitOfWorkTimeoutInterceptor↔TimeoutWrappedMessageHandlingMember</td>
-      <td>messaging/src/main/java/org/axonframework/messaging/timeout/UnitOfWorkTimeoutInterceptor.java↔messaging/src/main/java/org/axonframework/messaging/timeout/TimeoutWrappedMessageHandlingMember.java</td>
+      <td>AxonTimeLimitedTask↔TimeoutWrappedMessageHandlingMember</td>
+      <td>messaging/src/main/java/org/axonframework/messaging/timeout/AxonTimeLimitedTask.java↔messaging/src/main/java/org/axonframework/messaging/timeout/TimeoutWrappedMessageHandlingMember.java</td>
     </tr>
     <tr>
       <th>3</th>
@@ -1559,16 +1559,16 @@ This metric is useful to identify pairs of files that are frequently changed tog
       <td>java↔java</td>
       <td>0.857143</td>
       <td>5</td>
-      <td>AvroSerializerAutoConfiguration↔AvroSerializerAutoConfigurationTest</td>
-      <td>spring-boot-autoconfigure/src/main/java/org/axonframework/springboot/autoconfig/AvroSerializerAutoConfiguration.java↔spring-boot-autoconfigure/src/test/java/org/axonframework/springboot/autoconfig/AvroSerializerAutoConfigurationTest.java</td>
+      <td>AvroSerializer↔AvroSerializerStrategy</td>
+      <td>messaging/src/main/java/org/axonframework/serialization/avro/AvroSerializer.java↔messaging/src/main/java/org/axonframework/serialization/avro/AvroSerializerStrategy.java</td>
     </tr>
     <tr>
       <th>5</th>
       <td>java↔java</td>
       <td>0.833333</td>
       <td>6</td>
-      <td>SpecificRecordBaseClasspathAvroSchemaLoader↔AvroUtil</td>
-      <td>spring/src/main/java/org/axonframework/spring/serialization/avro/SpecificRecordBaseClasspathAvroSchemaLoader.java↔messaging/src/main/java/org/axonframework/serialization/avro/AvroUtil.java</td>
+      <td>AvroSerializerStrategy↔ByteArrayToGenericRecordConverter</td>
+      <td>messaging/src/main/java/org/axonframework/serialization/avro/AvroSerializerStrategy.java↔messaging/src/main/java/org/axonframework/serialization/avro/ByteArrayToGenericRecordConverter.java</td>
     </tr>
     <tr>
       <th>6</th>
@@ -1783,8 +1783,8 @@ This metric is useful to identify pairs of files that are frequently changed tog
       <td>adoc↔xml</td>
       <td>0.333333</td>
       <td>3</td>
-      <td>nav↔pom</td>
-      <td>docs/old-reference-guide/modules/queries/partials/nav.adoc↔axon-server-connector/pom.xml</td>
+      <td>configuration↔pom</td>
+      <td>docs/old-reference-guide/modules/queries/pages/configuration.adoc↔axon-server-connector/pom.xml</td>
     </tr>
     <tr>
       <th>33</th>
@@ -1909,8 +1909,8 @@ This metric is useful to identify pairs of files that are frequently changed tog
       <td>java↔java</td>
       <td>971.333333</td>
       <td>5</td>
-      <td>ClasspathAvroSchemaLoader↔SpecificRecordBaseClasspathAvroSchemaLoader</td>
-      <td>spring/src/main/java/org/axonframework/spring/serialization/avro/ClasspathAvroSchemaLoader.java↔spring/src/main/java/org/axonframework/spring/serialization/avro/SpecificRecordBaseClasspathAvroSchemaLoader.java</td>
+      <td>AvroSchemaPackages↔SpecificRecordBaseClasspathAvroSchemaLoader</td>
+      <td>spring/src/main/java/org/axonframework/spring/serialization/avro/AvroSchemaPackages.java↔spring/src/main/java/org/axonframework/spring/serialization/avro/SpecificRecordBaseClasspathAvroSchemaLoader.java</td>
     </tr>
     <tr>
       <th>5</th>
@@ -1949,8 +1949,8 @@ This metric is useful to identify pairs of files that are frequently changed tog
       <td>java↔java</td>
       <td>647.555556</td>
       <td>10</td>
-      <td>GenericDeadLetterTest↔IgnoreTest</td>
-      <td>messaging/src/test/java/org/axonframework/messaging/deadletter/GenericDeadLetterTest.java↔messaging/src/test/java/org/axonframework/messaging/deadletter/IgnoreTest.java</td>
+      <td>ShouldEnqueue↔IgnoreTest</td>
+      <td>messaging/src/main/java/org/axonframework/messaging/deadletter/ShouldEnqueue.java↔messaging/src/test/java/org/axonframework/messaging/deadletter/IgnoreTest.java</td>
     </tr>
     <tr>
       <th>10</th>
@@ -2141,8 +2141,8 @@ This metric is useful to identify pairs of files that are frequently changed tog
       <td>adoc↔xml</td>
       <td>15.059432</td>
       <td>4</td>
-      <td>nav↔pom</td>
-      <td>docs/old-reference-guide/modules/queries/partials/nav.adoc↔hibernate-6-integrationtests/pom.xml</td>
+      <td>configuration↔pom</td>
+      <td>docs/old-reference-guide/modules/queries/pages/configuration.adoc↔hibernate-6-integrationtests/pom.xml</td>
     </tr>
     <tr>
       <th>34</th>
@@ -2227,8 +2227,8 @@ This metric is useful to identify pairs of files that are frequently changed tog
       <td>java↔java</td>
       <td>1.000000</td>
       <td>1</td>
-      <td>AvroSchemaPackages↔AvroSchemaScan</td>
-      <td>spring/src/main/java/org/axonframework/spring/serialization/avro/AvroSchemaPackages.java↔spring/src/main/java/org/axonframework/spring/serialization/avro/AvroSchemaScan.java</td>
+      <td>AxonTimeLimitedTask↔UnitOfWorkTimeoutInterceptor</td>
+      <td>messaging/src/main/java/org/axonframework/messaging/timeout/AxonTimeLimitedTask.java↔messaging/src/main/java/org/axonframework/messaging/timeout/UnitOfWorkTimeoutInterceptor.java</td>
     </tr>
     <tr>
       <th>1</th>
@@ -2275,8 +2275,8 @@ This metric is useful to identify pairs of files that are frequently changed tog
       <td>java↔java</td>
       <td>0.600000</td>
       <td>7</td>
-      <td>UnitOfWorkTimeoutInterceptor↔TimeoutWrappedMessageHandlingMember</td>
-      <td>messaging/src/main/java/org/axonframework/messaging/timeout/UnitOfWorkTimeoutInterceptor.java↔messaging/src/main/java/org/axonframework/messaging/timeout/TimeoutWrappedMessageHandlingMember.java</td>
+      <td>AxonTimeLimitedTask↔TimeoutWrappedMessageHandlingMember</td>
+      <td>messaging/src/main/java/org/axonframework/messaging/timeout/AxonTimeLimitedTask.java↔messaging/src/main/java/org/axonframework/messaging/timeout/TimeoutWrappedMessageHandlingMember.java</td>
     </tr>
     <tr>
       <th>7</th>
@@ -2733,6 +2733,21 @@ This is useful to identify pairs of files that score high in most metrics, which
     <tr>
       <th>10</th>
       <td>java↔java</td>
+      <td>TimeoutWrappedMessageHandlingMemberTest↔UnitOfWorkTimeoutInterceptorTest</td>
+      <td>83</td>
+      <td>78</td>
+      <td>1</td>
+      <td>1</td>
+      <td>3</td>
+      <td>5</td>
+      <td>1.000000</td>
+      <td>1.000000</td>
+      <td>1165.600000</td>
+      <td>messaging/src/test/java/org/axonframework/messaging/timeout/TimeoutWrappedMessageHandlingMemberTest.java↔messaging/src/test/java/org/axonframework/messaging/timeout/UnitOfWorkTimeoutInterceptorTest.java</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>java↔java</td>
       <td>AvroSchemaPackages↔AvroSchemaScan</td>
       <td>83</td>
       <td>80</td>
@@ -2744,21 +2759,6 @@ This is useful to identify pairs of files that score high in most metrics, which
       <td>1.000000</td>
       <td>1942.666667</td>
       <td>spring/src/main/java/org/axonframework/spring/serialization/avro/AvroSchemaPackages.java↔spring/src/main/java/org/axonframework/spring/serialization/avro/AvroSchemaScan.java</td>
-    </tr>
-    <tr>
-      <th>11</th>
-      <td>java↔java</td>
-      <td>AvroSchemaScan↔ClasspathAvroSchemaLoader</td>
-      <td>83</td>
-      <td>80</td>
-      <td>1</td>
-      <td>1</td>
-      <td>1</td>
-      <td>3</td>
-      <td>1.000000</td>
-      <td>1.000000</td>
-      <td>1942.666667</td>
-      <td>spring/src/main/java/org/axonframework/spring/serialization/avro/AvroSchemaScan.java↔spring/src/main/java/org/axonframework/spring/serialization/avro/ClasspathAvroSchemaLoader.java</td>
     </tr>
     <tr>
       <th>12</th>
@@ -2778,17 +2778,17 @@ This is useful to identify pairs of files that score high in most metrics, which
     <tr>
       <th>13</th>
       <td>java↔java</td>
-      <td>TimeoutWrappedMessageHandlingMemberTest↔UnitOfWorkTimeoutInterceptorTest</td>
+      <td>AvroSchemaScan↔ClasspathAvroSchemaLoader</td>
       <td>83</td>
-      <td>78</td>
+      <td>80</td>
+      <td>1</td>
       <td>1</td>
       <td>1</td>
       <td>3</td>
-      <td>5</td>
       <td>1.000000</td>
       <td>1.000000</td>
-      <td>1165.600000</td>
-      <td>messaging/src/test/java/org/axonframework/messaging/timeout/TimeoutWrappedMessageHandlingMemberTest.java↔messaging/src/test/java/org/axonframework/messaging/timeout/UnitOfWorkTimeoutInterceptorTest.java</td>
+      <td>1942.666667</td>
+      <td>spring/src/main/java/org/axonframework/spring/serialization/avro/AvroSchemaScan.java↔spring/src/main/java/org/axonframework/spring/serialization/avro/ClasspathAvroSchemaLoader.java</td>
     </tr>
     <tr>
       <th>14</th>
@@ -2868,17 +2868,17 @@ This is useful to identify pairs of files that score high in most metrics, which
     <tr>
       <th>19</th>
       <td>java↔java</td>
-      <td>ClasspathAvroSchemaLoader↔SpecificRecordBaseClasspathAvroSchemaLoader</td>
+      <td>AvroSerializerStrategy↔ByteArrayToGenericRecordConverter</td>
       <td>99</td>
-      <td>80</td>
-      <td>1</td>
-      <td>13</td>
+      <td>78</td>
+      <td>6</td>
+      <td>6</td>
+      <td>9</td>
       <td>5</td>
-      <td>3</td>
-      <td>1.000000</td>
-      <td>0.500000</td>
-      <td>971.333333</td>
-      <td>spring/src/main/java/org/axonframework/spring/serialization/avro/ClasspathAvroSchemaLoader.java↔spring/src/main/java/org/axonframework/spring/serialization/avro/SpecificRecordBaseClasspathAvroSchemaLoader.java</td>
+      <td>0.833333</td>
+      <td>0.625000</td>
+      <td>693.809524</td>
+      <td>messaging/src/main/java/org/axonframework/serialization/avro/AvroSerializerStrategy.java↔messaging/src/main/java/org/axonframework/serialization/avro/ByteArrayToGenericRecordConverter.java</td>
     </tr>
     <tr>
       <th>20</th>
@@ -3215,48 +3215,6 @@ The frontier = the “best tradeoffs.”
   <tbody>
     <tr>
       <th>0</th>
-      <td>AvroSchemaPackages↔AvroSchemaScan</td>
-      <td>83</td>
-      <td>3</td>
-      <td>1.000000</td>
-      <td>1.000000</td>
-      <td>1942.666667</td>
-      <td>80</td>
-      <td>1</td>
-      <td>1</td>
-      <td>1</td>
-      <td>spring/src/main/java/org/axonframework/spring/serialization/avro/AvroSchemaPackages.java↔spring/src/main/java/org/axonframework/spring/serialization/avro/AvroSchemaScan.java</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>AvroSchemaScan↔ClasspathAvroSchemaLoader</td>
-      <td>83</td>
-      <td>3</td>
-      <td>1.000000</td>
-      <td>1.000000</td>
-      <td>1942.666667</td>
-      <td>80</td>
-      <td>1</td>
-      <td>1</td>
-      <td>1</td>
-      <td>spring/src/main/java/org/axonframework/spring/serialization/avro/AvroSchemaScan.java↔spring/src/main/java/org/axonframework/spring/serialization/avro/ClasspathAvroSchemaLoader.java</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>AvroSchemaPackages↔ClasspathAvroSchemaLoader</td>
-      <td>83</td>
-      <td>3</td>
-      <td>1.000000</td>
-      <td>1.000000</td>
-      <td>1942.666667</td>
-      <td>80</td>
-      <td>1</td>
-      <td>1</td>
-      <td>1</td>
-      <td>spring/src/main/java/org/axonframework/spring/serialization/avro/AvroSchemaPackages.java↔spring/src/main/java/org/axonframework/spring/serialization/avro/ClasspathAvroSchemaLoader.java</td>
-    </tr>
-    <tr>
-      <th>3</th>
       <td>AxonTimeLimitedTask↔UnitOfWorkTimeoutInterceptor</td>
       <td>100</td>
       <td>14</td>
@@ -3270,7 +3228,7 @@ The frontier = the “best tradeoffs.”
       <td>messaging/src/main/java/org/axonframework/messaging/timeout/AxonTimeLimitedTask.java↔messaging/src/main/java/org/axonframework/messaging/timeout/UnitOfWorkTimeoutInterceptor.java</td>
     </tr>
     <tr>
-      <th>4</th>
+      <th>1</th>
       <td>TimeoutWrappedMessageHandlingMemberTest↔UnitOfWorkTimeoutInterceptorTest</td>
       <td>83</td>
       <td>5</td>
@@ -3284,7 +3242,7 @@ The frontier = the “best tradeoffs.”
       <td>messaging/src/test/java/org/axonframework/messaging/timeout/TimeoutWrappedMessageHandlingMemberTest.java↔messaging/src/test/java/org/axonframework/messaging/timeout/UnitOfWorkTimeoutInterceptorTest.java</td>
     </tr>
     <tr>
-      <th>5</th>
+      <th>2</th>
       <td>EventProcessingModule↔EventProcessingModuleTest</td>
       <td>2786</td>
       <td>100</td>
@@ -3296,6 +3254,48 @@ The frontier = the “best tradeoffs.”
       <td>89</td>
       <td>2585</td>
       <td>config/src/main/java/org/axonframework/config/EventProcessingModule.java↔config/src/test/java/org/axonframework/config/EventProcessingModuleTest.java</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>AvroSchemaPackages↔AvroSchemaScan</td>
+      <td>83</td>
+      <td>3</td>
+      <td>1.000000</td>
+      <td>1.000000</td>
+      <td>1942.666667</td>
+      <td>80</td>
+      <td>1</td>
+      <td>1</td>
+      <td>1</td>
+      <td>spring/src/main/java/org/axonframework/spring/serialization/avro/AvroSchemaPackages.java↔spring/src/main/java/org/axonframework/spring/serialization/avro/AvroSchemaScan.java</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>AvroSchemaPackages↔ClasspathAvroSchemaLoader</td>
+      <td>83</td>
+      <td>3</td>
+      <td>1.000000</td>
+      <td>1.000000</td>
+      <td>1942.666667</td>
+      <td>80</td>
+      <td>1</td>
+      <td>1</td>
+      <td>1</td>
+      <td>spring/src/main/java/org/axonframework/spring/serialization/avro/AvroSchemaPackages.java↔spring/src/main/java/org/axonframework/spring/serialization/avro/ClasspathAvroSchemaLoader.java</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>AvroSchemaScan↔ClasspathAvroSchemaLoader</td>
+      <td>83</td>
+      <td>3</td>
+      <td>1.000000</td>
+      <td>1.000000</td>
+      <td>1942.666667</td>
+      <td>80</td>
+      <td>1</td>
+      <td>1</td>
+      <td>1</td>
+      <td>spring/src/main/java/org/axonframework/spring/serialization/avro/AvroSchemaScan.java↔spring/src/main/java/org/axonframework/spring/serialization/avro/ClasspathAvroSchemaLoader.java</td>
     </tr>
     <tr>
       <th>6</th>
@@ -3425,62 +3425,6 @@ The frontier = the “best tradeoffs.”
     </tr>
     <tr>
       <th>15</th>
-      <td>FixtureExecutionResultImpl↔FixtureExecutionResult</td>
-      <td>1316</td>
-      <td>60</td>
-      <td>0.468750</td>
-      <td>0.231660</td>
-      <td>14.303010</td>
-      <td>24</td>
-      <td>52</td>
-      <td>67</td>
-      <td>1173</td>
-      <td>test/src/main/java/org/axonframework/test/saga/FixtureExecutionResultImpl.java↔test/src/main/java/org/axonframework/test/saga/FixtureExecutionResult.java</td>
-    </tr>
-    <tr>
-      <th>16</th>
-      <td>MetadataContextGetter↔MetadataContextSetter</td>
-      <td>83</td>
-      <td>3</td>
-      <td>1.000000</td>
-      <td>1.000000</td>
-      <td>1942.666667</td>
-      <td>80</td>
-      <td>1</td>
-      <td>1</td>
-      <td>1</td>
-      <td>tracing-opentelemetry/src/main/java/org/axonframework/tracing/opentelemetry/MetadataContextGetter.java↔tracing-opentelemetry/src/main/java/org/axonframework/tracing/opentelemetry/MetadataContextSetter.java</td>
-    </tr>
-    <tr>
-      <th>17</th>
-      <td>ReflectionUtilsTest↔ReflectionUtils</td>
-      <td>947</td>
-      <td>28</td>
-      <td>0.363636</td>
-      <td>0.204380</td>
-      <td>24.082645</td>
-      <td>55</td>
-      <td>109</td>
-      <td>88</td>
-      <td>695</td>
-      <td>messaging/src/test/java/org/axonframework/common/ReflectionUtilsTest.java↔messaging/src/main/java/org/axonframework/common/ReflectionUtils.java</td>
-    </tr>
-    <tr>
-      <th>18</th>
-      <td>MultiSourceTrackingTokenTest↔MultiSourceTrackingToken</td>
-      <td>951</td>
-      <td>24</td>
-      <td>0.369231</td>
-      <td>0.186047</td>
-      <td>24.453147</td>
-      <td>59</td>
-      <td>103</td>
-      <td>105</td>
-      <td>684</td>
-      <td>messaging/src/test/java/org/axonframework/eventhandling/MultiSourceTrackingTokenTest.java↔messaging/src/main/java/org/axonframework/eventhandling/MultiSourceTrackingToken.java</td>
-    </tr>
-    <tr>
-      <th>19</th>
       <td>DoNotEnqueueTest↔ShouldEnqueueTest</td>
       <td>92</td>
       <td>8</td>
@@ -3494,7 +3438,35 @@ The frontier = the “best tradeoffs.”
       <td>messaging/src/test/java/org/axonframework/messaging/deadletter/DoNotEnqueueTest.java↔messaging/src/test/java/org/axonframework/messaging/deadletter/ShouldEnqueueTest.java</td>
     </tr>
     <tr>
-      <th>20</th>
+      <th>16</th>
+      <td>ReflectionUtilsTest↔ReflectionUtils</td>
+      <td>947</td>
+      <td>28</td>
+      <td>0.363636</td>
+      <td>0.204380</td>
+      <td>24.082645</td>
+      <td>55</td>
+      <td>109</td>
+      <td>88</td>
+      <td>695</td>
+      <td>messaging/src/test/java/org/axonframework/common/ReflectionUtilsTest.java↔messaging/src/main/java/org/axonframework/common/ReflectionUtils.java</td>
+    </tr>
+    <tr>
+      <th>17</th>
+      <td>MultiSourceTrackingTokenTest↔MultiSourceTrackingToken</td>
+      <td>951</td>
+      <td>24</td>
+      <td>0.369231</td>
+      <td>0.186047</td>
+      <td>24.453147</td>
+      <td>59</td>
+      <td>103</td>
+      <td>105</td>
+      <td>684</td>
+      <td>messaging/src/test/java/org/axonframework/eventhandling/MultiSourceTrackingTokenTest.java↔messaging/src/main/java/org/axonframework/eventhandling/MultiSourceTrackingToken.java</td>
+    </tr>
+    <tr>
+      <th>18</th>
       <td>SpringAxonAutoConfigurer↔AxonConfiguration</td>
       <td>2890</td>
       <td>107</td>
@@ -3508,7 +3480,7 @@ The frontier = the “best tradeoffs.”
       <td>spring/src/main/java/org/axonframework/spring/config/SpringAxonAutoConfigurer.java↔spring/src/main/java/org/axonframework/spring/config/AxonConfiguration.java</td>
     </tr>
     <tr>
-      <th>21</th>
+      <th>19</th>
       <td>ResultValidatorImpl↔ResultValidator</td>
       <td>1680</td>
       <td>94</td>
@@ -3520,6 +3492,34 @@ The frontier = the “best tradeoffs.”
       <td>55</td>
       <td>1574</td>
       <td>test/src/main/java/org/axonframework/test/aggregate/ResultValidatorImpl.java↔test/src/main/java/org/axonframework/test/aggregate/ResultValidator.java</td>
+    </tr>
+    <tr>
+      <th>20</th>
+      <td>FixtureExecutionResultImpl↔FixtureExecutionResult</td>
+      <td>1316</td>
+      <td>60</td>
+      <td>0.468750</td>
+      <td>0.231660</td>
+      <td>14.303010</td>
+      <td>24</td>
+      <td>52</td>
+      <td>67</td>
+      <td>1173</td>
+      <td>test/src/main/java/org/axonframework/test/saga/FixtureExecutionResultImpl.java↔test/src/main/java/org/axonframework/test/saga/FixtureExecutionResult.java</td>
+    </tr>
+    <tr>
+      <th>21</th>
+      <td>MetadataContextGetter↔MetadataContextSetter</td>
+      <td>83</td>
+      <td>3</td>
+      <td>1.000000</td>
+      <td>1.000000</td>
+      <td>1942.666667</td>
+      <td>80</td>
+      <td>1</td>
+      <td>1</td>
+      <td>1</td>
+      <td>tracing-opentelemetry/src/main/java/org/axonframework/tracing/opentelemetry/MetadataContextGetter.java↔tracing-opentelemetry/src/main/java/org/axonframework/tracing/opentelemetry/MetadataContextSetter.java</td>
     </tr>
     <tr>
       <th>22</th>

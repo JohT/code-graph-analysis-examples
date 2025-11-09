@@ -15,72 +15,72 @@
 <text xml:space="preserve" text-anchor="middle" x="213.77" y="-341.01" font-family="Helvetica,Arial,sans-serif" font-size="14.00">bright nodes: outgoing dependencies (limited max. 40)</text>
 <text xml:space="preserve" text-anchor="middle" x="213.77" y="-324.21" font-family="Helvetica,Arial,sans-serif" font-size="14.00">node value: Betweenness centrality</text>
 <text xml:space="preserve" text-anchor="middle" x="213.77" y="-307.41" font-family="Helvetica,Arial,sans-serif" font-size="14.00">thick outline: &gt; 90% percentile of Betweenness centrality</text>
-<!-- central&#45;&gt;axon&#45;messaging&#45;4.12.1_25876 -->
+<!-- central&#45;&gt;axon&#45;messaging&#45;4.12.1_29184 -->
 <g id="edge2" class="edge">
-<title>central&#45;&gt;axon&#45;messaging&#45;4.12.1_25876</title>
+<title>central&#45;&gt;axon&#45;messaging&#45;4.12.1_29184</title>
 <path fill="none" stroke="#66c2a4" d="M283.75,-87.52C267.81,-78.37 251.12,-68.79 236.22,-60.23"/>
 <polygon fill="#66c2a4" stroke="#66c2a4" points="237.13,-59.14 232.96,-58.37 235.73,-61.57 237.13,-59.14"/>
 <text xml:space="preserve" text-anchor="middle" x="254.72" y="-73.78" font-family="Times,serif" font-size="4.00">188</text>
 </g>
-<!-- central&#45;&gt;axon&#45;modelling&#45;4.12.1_7555 -->
+<!-- central&#45;&gt;axon&#45;modelling&#45;4.12.1_59106 -->
 <g id="edge3" class="edge">
-<title>central&#45;&gt;axon&#45;modelling&#45;4.12.1_7555</title>
+<title>central&#45;&gt;axon&#45;modelling&#45;4.12.1_59106</title>
 <path fill="none" stroke="#66c2a4" stroke-width="0.5" d="M282.55,-162.72C246.41,-181.94 202.92,-205.07 170.07,-222.54"/>
 <polygon fill="#66c2a4" stroke="#66c2a4" stroke-width="0.5" points="169.66,-221.17 166.79,-224.29 170.98,-223.64 169.66,-221.17"/>
 <text xml:space="preserve" text-anchor="middle" x="222.16" y="-194.97" font-family="Times,serif" font-size="4.00">42</text>
 </g>
-<!-- central&#45;&gt;axon&#45;eventsourcing&#45;4.12.1_14680 -->
+<!-- central&#45;&gt;axon&#45;eventsourcing&#45;4.12.1_17354 -->
 <g id="edge4" class="edge">
-<title>central&#45;&gt;axon&#45;eventsourcing&#45;4.12.1_14680</title>
+<title>central&#45;&gt;axon&#45;eventsourcing&#45;4.12.1_17354</title>
 <path fill="none" stroke="#66c2a4" stroke-width="0.5" d="M320.9,-197.98C318.59,-203.47 316.31,-208.86 314.15,-213.98"/>
 <polygon fill="#66c2a4" stroke="#66c2a4" stroke-width="0.5" points="312.93,-213.28 312.66,-217.51 315.51,-214.37 312.93,-213.28"/>
 <text xml:space="preserve" text-anchor="middle" x="314.63" y="-209.32" font-family="Times,serif" font-size="4.00">30</text>
 </g>
-<!-- axon&#45;configuration&#45;4.12.1_57996&#45;&gt;central -->
+<!-- axon&#45;configuration&#45;4.12.1_1&#45;&gt;central -->
 <g id="edge1" class="edge">
-<title>axon&#45;configuration&#45;4.12.1_57996&#45;&gt;central</title>
+<title>axon&#45;configuration&#45;4.12.1_1&#45;&gt;central</title>
 <path fill="none" stroke="#238b45" stroke-width="0.4" d="M147.42,-159.67C185.09,-153.49 231.41,-145.88 270.36,-139.49"/>
 <polygon fill="#238b45" stroke="#238b45" stroke-width="0.4" points="270.26,-140.92 273.98,-138.89 269.81,-138.16 270.26,-140.92"/>
 <text xml:space="preserve" text-anchor="middle" x="209.89" y="-150.45" font-family="Times,serif" font-size="4.00">2</text>
 </g>
-<!-- axon&#45;configuration&#45;4.12.1_57996&#45;&gt;axon&#45;messaging&#45;4.12.1_25876 -->
+<!-- axon&#45;configuration&#45;4.12.1_1&#45;&gt;axon&#45;messaging&#45;4.12.1_29184 -->
 <g id="edge7" class="edge">
-<title>axon&#45;configuration&#45;4.12.1_57996&#45;&gt;axon&#45;messaging&#45;4.12.1_25876</title>
+<title>axon&#45;configuration&#45;4.12.1_1&#45;&gt;axon&#45;messaging&#45;4.12.1_29184</title>
 <path fill="none" stroke="#ccece6" stroke-width="0.3" d="M100.91,-140.23C118.48,-118.4 141.96,-89.25 160.06,-66.76"/>
 <polygon fill="#ccece6" stroke="#ccece6" stroke-width="0.3" points="160.99,-67.84 162.41,-63.85 158.81,-66.09 160.99,-67.84"/>
 <text xml:space="preserve" text-anchor="middle" x="128.74" y="-103.14" font-family="Times,serif" font-size="4.00">544</text>
 </g>
-<!-- axon&#45;configuration&#45;4.12.1_57996&#45;&gt;axon&#45;modelling&#45;4.12.1_7555 -->
+<!-- axon&#45;configuration&#45;4.12.1_1&#45;&gt;axon&#45;modelling&#45;4.12.1_59106 -->
 <g id="edge8" class="edge">
-<title>axon&#45;configuration&#45;4.12.1_57996&#45;&gt;axon&#45;modelling&#45;4.12.1_7555</title>
+<title>axon&#45;configuration&#45;4.12.1_1&#45;&gt;axon&#45;modelling&#45;4.12.1_59106</title>
 <path fill="none" stroke="#ccece6" stroke-width="0.3" d="M94.19,-203.41C96.05,-206.65 97.95,-209.95 99.83,-213.23"/>
 <polygon fill="#ccece6" stroke="#ccece6" stroke-width="0.3" points="98.6,-213.89 101.81,-216.66 101.02,-212.5 98.6,-213.89"/>
 <text xml:space="preserve" text-anchor="middle" x="96.06" y="-211.35" font-family="Times,serif" font-size="4.00">98</text>
 </g>
-<!-- axon&#45;configuration&#45;4.12.1_57996&#45;&gt;axon&#45;eventsourcing&#45;4.12.1_14680 -->
+<!-- axon&#45;configuration&#45;4.12.1_1&#45;&gt;axon&#45;eventsourcing&#45;4.12.1_17354 -->
 <g id="edge10" class="edge">
-<title>axon&#45;configuration&#45;4.12.1_57996&#45;&gt;axon&#45;eventsourcing&#45;4.12.1_14680</title>
+<title>axon&#45;configuration&#45;4.12.1_1&#45;&gt;axon&#45;eventsourcing&#45;4.12.1_17354</title>
 <path fill="none" stroke="#ccece6" stroke-width="0.3" d="M134.92,-192.49C165.64,-203.44 203.23,-216.83 234.64,-228.02"/>
 <polygon fill="#ccece6" stroke="#ccece6" stroke-width="0.3" points="234.16,-229.33 238.4,-229.36 235.1,-226.7 234.16,-229.33"/>
 <text xml:space="preserve" text-anchor="middle" x="184.94" y="-212.22" font-family="Times,serif" font-size="4.00">62</text>
 </g>
-<!-- axon&#45;modelling&#45;4.12.1_7555&#45;&gt;axon&#45;messaging&#45;4.12.1_25876 -->
+<!-- axon&#45;modelling&#45;4.12.1_59106&#45;&gt;axon&#45;messaging&#45;4.12.1_29184 -->
 <g id="edge5" class="edge">
-<title>axon&#45;modelling&#45;4.12.1_7555&#45;&gt;axon&#45;messaging&#45;4.12.1_25876</title>
+<title>axon&#45;modelling&#45;4.12.1_59106&#45;&gt;axon&#45;messaging&#45;4.12.1_29184</title>
 <path fill="none" stroke="#ccece6" stroke-width="0.3" d="M139.57,-217.07C147.09,-203.41 155.19,-187.04 160.64,-171.43 172.3,-138.01 179.41,-98.23 183.4,-69.8"/>
 <polygon fill="#ccece6" stroke="#ccece6" stroke-width="0.3" points="184.75,-70.29 183.91,-66.13 181.98,-69.91 184.75,-70.29"/>
 <text xml:space="preserve" text-anchor="middle" x="166.1" y="-144.57" font-family="Times,serif" font-size="4.00">746</text>
 </g>
-<!-- axon&#45;eventsourcing&#45;4.12.1_14680&#45;&gt;axon&#45;messaging&#45;4.12.1_25876 -->
+<!-- axon&#45;eventsourcing&#45;4.12.1_17354&#45;&gt;axon&#45;messaging&#45;4.12.1_29184 -->
 <g id="edge6" class="edge">
-<title>axon&#45;eventsourcing&#45;4.12.1_14680&#45;&gt;axon&#45;messaging&#45;4.12.1_25876</title>
+<title>axon&#45;eventsourcing&#45;4.12.1_17354&#45;&gt;axon&#45;messaging&#45;4.12.1_29184</title>
 <path fill="none" stroke="#ccece6" stroke-width="0.3" d="M282.26,-218.58C261.95,-178.58 227.4,-110.54 206.17,-68.72"/>
 <polygon fill="#ccece6" stroke="#ccece6" stroke-width="0.3" points="207.43,-68.1 204.37,-65.16 204.93,-69.36 207.43,-68.1"/>
 <text xml:space="preserve" text-anchor="middle" x="240.1" y="-142.66" font-family="Times,serif" font-size="4.00">650</text>
 </g>
-<!-- axon&#45;eventsourcing&#45;4.12.1_14680&#45;&gt;axon&#45;modelling&#45;4.12.1_7555 -->
+<!-- axon&#45;eventsourcing&#45;4.12.1_17354&#45;&gt;axon&#45;modelling&#45;4.12.1_59106 -->
 <g id="edge9" class="edge">
-<title>axon&#45;eventsourcing&#45;4.12.1_14680&#45;&gt;axon&#45;modelling&#45;4.12.1_7555</title>
+<title>axon&#45;eventsourcing&#45;4.12.1_17354&#45;&gt;axon&#45;modelling&#45;4.12.1_59106</title>
 <path fill="none" stroke="#ccece6" stroke-width="0.3" d="M220.44,-250C210.95,-249.9 201.3,-249.8 191.91,-249.71"/>
 <polygon fill="#ccece6" stroke="#ccece6" stroke-width="0.3" points="192.09,-248.31 188.07,-249.67 192.06,-251.11 192.09,-248.31"/>
 <text xml:space="preserve" text-anchor="middle" x="201.9" y="-251.03" font-family="Times,serif" font-size="4.00">80</text>
@@ -93,30 +93,30 @@
 <text xml:space="preserve" text-anchor="middle" x="351.16" y="-131.03" font-family="Times,serif" font-size="16.00">🔒 bottleneck #1</text>
 <text xml:space="preserve" text-anchor="middle" x="351.16" y="-111.83" font-family="Times,serif" font-size="16.00">axon&#45;disruptor&#45;4.12.1</text>
 </g>
-<!-- axon&#45;configuration&#45;4.12.1_57996 -->
+<!-- axon&#45;configuration&#45;4.12.1_1 -->
 <g id="node2" class="node">
-<title>axon&#45;configuration&#45;4.12.1_57996</title>
+<title>axon&#45;configuration&#45;4.12.1_1</title>
 <ellipse fill="#ccece6" stroke="#41ae76" stroke-width="2" cx="75.79" cy="-171.43" rx="75.79" ry="32.4"/>
 <text xml:space="preserve" text-anchor="middle" x="75.79" y="-175.03" font-family="Times,serif" font-size="12.00">axon&#45;configuration&#45;4.12.1</text>
 <text xml:space="preserve" text-anchor="middle" x="75.79" y="-160.63" font-family="Times,serif" font-size="12.00">(3.0)</text>
 </g>
-<!-- axon&#45;messaging&#45;4.12.1_25876 -->
+<!-- axon&#45;messaging&#45;4.12.1_29184 -->
 <g id="node3" class="node">
-<title>axon&#45;messaging&#45;4.12.1_25876</title>
+<title>axon&#45;messaging&#45;4.12.1_29184</title>
 <ellipse fill="#f7fcfd" stroke="#66c2a4" stroke-width="2" cx="187.73" cy="-32.4" rx="67.65" ry="32.4"/>
 <text xml:space="preserve" text-anchor="middle" x="187.73" y="-36" font-family="Times,serif" font-size="12.00">axon&#45;messaging&#45;4.12.1</text>
 <text xml:space="preserve" text-anchor="middle" x="187.73" y="-21.6" font-family="Times,serif" font-size="12.00">(0.0)</text>
 </g>
-<!-- axon&#45;modelling&#45;4.12.1_7555 -->
+<!-- axon&#45;modelling&#45;4.12.1_59106 -->
 <g id="node4" class="node">
-<title>axon&#45;modelling&#45;4.12.1_7555</title>
+<title>axon&#45;modelling&#45;4.12.1_59106</title>
 <ellipse fill="#f7fcfd" stroke="#66c2a4" stroke-width="2" cx="120.39" cy="-248.97" rx="66.49" ry="32.4"/>
 <text xml:space="preserve" text-anchor="middle" x="120.39" y="-252.57" font-family="Times,serif" font-size="12.00">axon&#45;modelling&#45;4.12.1</text>
 <text xml:space="preserve" text-anchor="middle" x="120.39" y="-238.17" font-family="Times,serif" font-size="12.00">(0.0)</text>
 </g>
-<!-- axon&#45;eventsourcing&#45;4.12.1_14680 -->
+<!-- axon&#45;eventsourcing&#45;4.12.1_17354 -->
 <g id="node5" class="node">
-<title>axon&#45;eventsourcing&#45;4.12.1_14680</title>
+<title>axon&#45;eventsourcing&#45;4.12.1_17354</title>
 <ellipse fill="#f7fcfd" stroke="#66c2a4" stroke-width="2" cx="298.62" cy="-250.81" rx="77.34" ry="32.4"/>
 <text xml:space="preserve" text-anchor="middle" x="298.62" y="-254.41" font-family="Times,serif" font-size="12.00">axon&#45;eventsourcing&#45;4.12.1</text>
 <text xml:space="preserve" text-anchor="middle" x="298.62" y="-240.01" font-family="Times,serif" font-size="12.00">(0.0)</text>

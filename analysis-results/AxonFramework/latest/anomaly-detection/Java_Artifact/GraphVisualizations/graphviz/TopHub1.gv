@@ -14,29 +14,29 @@ strict digraph TopHub1 {
 
 	graph   [label="Top Rank #1 Java Artifact Hub\n/axon-messaging-4.12.1.jar\n\nnodes: incoming dependencies (limited max. 40)\nnode value: local clustering coefficient\nthick outline: <1 0% percentile of local clustering coefficient\n\n"];
 	central [label="🎡 hub #1\naxon-messaging-4.12.1\n(in-degree=8)"];
-	"axon-server-connector-4.12.1_1"  [label = "axon-server-connector-4.12.1\n(1.0)"; penwidth = 2; ]; "axon-server-connector-4.12.1_1" -> central [label=756; weight=756; penwidth=2.9];
-	"axon-modelling-4.12.1_7555"  [label = "axon-modelling-4.12.1\n(0.76)"; penwidth = 2; ]; "axon-modelling-4.12.1_7555" -> central [label=746; weight=746; penwidth=2.9];
-	"axon-eventsourcing-4.12.1_14680"  [label = "axon-eventsourcing-4.12.1\n(0.76)"; penwidth = 2; ]; "axon-eventsourcing-4.12.1_14680" -> central [label=650; weight=650; penwidth=2.5];
-	"axon-configuration-4.12.1_57996"  [label = "axon-configuration-4.12.1\n(0.87)"; penwidth = 2; ]; "axon-configuration-4.12.1_57996" -> central [label=544; weight=544; penwidth=2.2];
-	"axon-spring-boot-autoconfigure-4.12.1_20869"  [label = "axon-spring-boot-autoconfigure-4.12.1\n(0.67)"; penwidth = 5; ]; "axon-spring-boot-autoconfigure-4.12.1_20869" -> central [label=448; weight=448; penwidth=1.9];
-	"axon-test-4.12.1_62549"  [label = "axon-test-4.12.1\n(1.0)"; penwidth = 2; ]; "axon-test-4.12.1_62549" -> central [label=420; weight=420; penwidth=1.8];
-	"axon-disruptor-4.12.1_56433"  [label = "axon-disruptor-4.12.1\n(1.0)"; penwidth = 2; ]; "axon-disruptor-4.12.1_56433" -> central [label=188; weight=188; penwidth=1.0];
-	"axon-tracing-opentelemetry-4.12.1_55814"  [label = "axon-tracing-opentelemetry-4.12.1\n(1.0)"; penwidth = 2; ]; "axon-tracing-opentelemetry-4.12.1_55814" -> central [label=24; weight=24; penwidth=0.5];
-	"axon-configuration-4.12.1_57996" -> "axon-modelling-4.12.1_7555" [label=98; weight=98; penwidth=0.3; color = 3]
-	"axon-test-4.12.1_62549" -> "axon-modelling-4.12.1_7555" [label=98; weight=98; penwidth=0.3; color = 3]
-	"axon-spring-boot-autoconfigure-4.12.1_20869" -> "axon-configuration-4.12.1_57996" [label=94; weight=94; penwidth=0.3; color = 3]
-	"axon-spring-boot-autoconfigure-4.12.1_20869" -> "axon-server-connector-4.12.1_1" [label=92; weight=92; penwidth=0.3; color = 3]
-	"axon-eventsourcing-4.12.1_14680" -> "axon-modelling-4.12.1_7555" [label=80; weight=80; penwidth=0.3; color = 3]
-	"axon-configuration-4.12.1_57996" -> "axon-eventsourcing-4.12.1_14680" [label=62; weight=62; penwidth=0.3; color = 3]
-	"axon-spring-boot-autoconfigure-4.12.1_20869" -> "axon-eventsourcing-4.12.1_14680" [label=52; weight=52; penwidth=0.3; color = 3]
-	"axon-disruptor-4.12.1_56433" -> "axon-modelling-4.12.1_7555" [label=42; weight=42; penwidth=0.3; color = 3]
-	"axon-server-connector-4.12.1_1" -> "axon-configuration-4.12.1_57996" [label=40; weight=40; penwidth=0.3; color = 3]
-	"axon-spring-boot-autoconfigure-4.12.1_20869" -> "axon-modelling-4.12.1_7555" [label=36; weight=36; penwidth=0.3; color = 3]
-	"axon-server-connector-4.12.1_1" -> "axon-eventsourcing-4.12.1_14680" [label=34; weight=34; penwidth=0.3; color = 3]
-	"axon-disruptor-4.12.1_56433" -> "axon-eventsourcing-4.12.1_14680" [label=30; weight=30; penwidth=0.3; color = 3]
-	"axon-test-4.12.1_62549" -> "axon-eventsourcing-4.12.1_14680" [label=22; weight=22; penwidth=0.3; color = 3]
-	"axon-spring-boot-autoconfigure-4.12.1_20869" -> "axon-tracing-opentelemetry-4.12.1_55814" [label=4; weight=4; penwidth=0.3; color = 3]
-	"axon-spring-boot-autoconfigure-4.12.1_20869" -> "axon-test-4.12.1_62549" [label=4; weight=4; penwidth=0.3; color = 3]
-	"axon-configuration-4.12.1_57996" -> "axon-disruptor-4.12.1_56433" [label=2; weight=2; penwidth=0.3; color = 3]
-	"axon-server-connector-4.12.1_1" -> "axon-modelling-4.12.1_7555" [label=2; weight=2; penwidth=0.3; color = 3]
+	"axon-server-connector-4.12.1_9805"  [label = "axon-server-connector-4.12.1\n(1.0)"; penwidth = 2; ]; "axon-server-connector-4.12.1_9805" -> central [label=756; weight=756; penwidth=2.9];
+	"axon-modelling-4.12.1_59106"  [label = "axon-modelling-4.12.1\n(0.76)"; penwidth = 2; ]; "axon-modelling-4.12.1_59106" -> central [label=746; weight=746; penwidth=2.9];
+	"axon-eventsourcing-4.12.1_17354"  [label = "axon-eventsourcing-4.12.1\n(0.76)"; penwidth = 2; ]; "axon-eventsourcing-4.12.1_17354" -> central [label=650; weight=650; penwidth=2.5];
+	"axon-configuration-4.12.1_1"  [label = "axon-configuration-4.12.1\n(0.87)"; penwidth = 2; ]; "axon-configuration-4.12.1_1" -> central [label=544; weight=544; penwidth=2.2];
+	"axon-spring-boot-autoconfigure-4.12.1_23560"  [label = "axon-spring-boot-autoconfigure-4.12.1\n(0.67)"; penwidth = 5; ]; "axon-spring-boot-autoconfigure-4.12.1_23560" -> central [label=448; weight=448; penwidth=1.9];
+	"axon-test-4.12.1_4566"  [label = "axon-test-4.12.1\n(1.0)"; penwidth = 2; ]; "axon-test-4.12.1_4566" -> central [label=420; weight=420; penwidth=1.8];
+	"axon-disruptor-4.12.1_66218"  [label = "axon-disruptor-4.12.1\n(1.0)"; penwidth = 2; ]; "axon-disruptor-4.12.1_66218" -> central [label=188; weight=188; penwidth=1.0];
+	"axon-tracing-opentelemetry-4.12.1_28564"  [label = "axon-tracing-opentelemetry-4.12.1\n(1.0)"; penwidth = 2; ]; "axon-tracing-opentelemetry-4.12.1_28564" -> central [label=24; weight=24; penwidth=0.5];
+	"axon-configuration-4.12.1_1" -> "axon-modelling-4.12.1_59106" [label=98; weight=98; penwidth=0.3; color = 3]
+	"axon-test-4.12.1_4566" -> "axon-modelling-4.12.1_59106" [label=98; weight=98; penwidth=0.3; color = 3]
+	"axon-spring-boot-autoconfigure-4.12.1_23560" -> "axon-configuration-4.12.1_1" [label=94; weight=94; penwidth=0.3; color = 3]
+	"axon-spring-boot-autoconfigure-4.12.1_23560" -> "axon-server-connector-4.12.1_9805" [label=92; weight=92; penwidth=0.3; color = 3]
+	"axon-eventsourcing-4.12.1_17354" -> "axon-modelling-4.12.1_59106" [label=80; weight=80; penwidth=0.3; color = 3]
+	"axon-configuration-4.12.1_1" -> "axon-eventsourcing-4.12.1_17354" [label=62; weight=62; penwidth=0.3; color = 3]
+	"axon-spring-boot-autoconfigure-4.12.1_23560" -> "axon-eventsourcing-4.12.1_17354" [label=52; weight=52; penwidth=0.3; color = 3]
+	"axon-disruptor-4.12.1_66218" -> "axon-modelling-4.12.1_59106" [label=42; weight=42; penwidth=0.3; color = 3]
+	"axon-server-connector-4.12.1_9805" -> "axon-configuration-4.12.1_1" [label=40; weight=40; penwidth=0.3; color = 3]
+	"axon-spring-boot-autoconfigure-4.12.1_23560" -> "axon-modelling-4.12.1_59106" [label=36; weight=36; penwidth=0.3; color = 3]
+	"axon-server-connector-4.12.1_9805" -> "axon-eventsourcing-4.12.1_17354" [label=34; weight=34; penwidth=0.3; color = 3]
+	"axon-disruptor-4.12.1_66218" -> "axon-eventsourcing-4.12.1_17354" [label=30; weight=30; penwidth=0.3; color = 3]
+	"axon-test-4.12.1_4566" -> "axon-eventsourcing-4.12.1_17354" [label=22; weight=22; penwidth=0.3; color = 3]
+	"axon-spring-boot-autoconfigure-4.12.1_23560" -> "axon-test-4.12.1_4566" [label=4; weight=4; penwidth=0.3; color = 3]
+	"axon-spring-boot-autoconfigure-4.12.1_23560" -> "axon-tracing-opentelemetry-4.12.1_28564" [label=4; weight=4; penwidth=0.3; color = 3]
+	"axon-configuration-4.12.1_1" -> "axon-disruptor-4.12.1_66218" [label=2; weight=2; penwidth=0.3; color = 3]
+	"axon-server-connector-4.12.1_9805" -> "axon-modelling-4.12.1_59106" [label=2; weight=2; penwidth=0.3; color = 3]
 }

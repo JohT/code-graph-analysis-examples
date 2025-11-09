@@ -12,50 +12,11 @@ strict digraph TopOutlier2 {
     central [fontsize = 16;];
     central [color = 7; fillcolor = 5; penwidth = 3;];
 
-	graph   [label="Top Rank #2 Java Package Outlier\norg.axonframework.eventsourcing.conflictresolution\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: cluster probability\nlarge circle: < 25% percentile of cluster probability\nthick outline: > 80% percentile of distance to cluster center\n\n"];
-	central [label="🧩 outlier #2\nconflictresolution"];
-	"eventsourcing_15367"  [label = "eventsourcing\n(100.0%)"; penwidth = 5; ]; "eventsourcing_15367" -> central [label=5; weight=5; penwidth=0.5];
-	"eventhandling_34674"  [label = "eventhandling\n(70.91%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "eventhandling_34674" [label=6; weight=6; penwidth=0.5; color = 5];
-	"unitofwork_49342"  [shape = "circle"; height=1.8; label = "unitofwork\n(61.53%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "unitofwork_49342" [label=4; weight=4; penwidth=0.5; color = 5];
-	"command_8435"  [label = "command\n(100.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "command_8435" [label=3; weight=3; penwidth=0.4; color = 5];
-	"annotation_46198"  [label = "annotation\n(70.83%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "annotation_46198" [label=1; weight=1; penwidth=0.4; color = 5];
-	"common_30475"  [label = "common\n(91.14%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "common_30475" [label=1; weight=1; penwidth=0.4; color = 5];
-	"eventstore_17765"  [shape = "circle"; height=1.8; label = "eventstore\n(0.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "eventstore_17765" [label=1; weight=1; penwidth=0.4; color = 5];
-	"messaging_45032"  [label = "messaging\n(100.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "messaging_45032" [label=1; weight=1; penwidth=0.4; color = 5];
-	"commandhandling_26403"  [label = "commandhandling\n(100.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "commandhandling_26403" [label=0; weight=0; penwidth=0.4; color = 5];
-	"eventhandling_34674" -> "common_30475" [label=89; weight=89; penwidth=0.3; color = 3]
-	"eventstore_17765" -> "eventhandling_34674" [label=68; weight=68; penwidth=0.3; color = 3]
-	"command_8435" -> "common_30475" [label=67; weight=67; penwidth=0.3; color = 3]
-	"eventhandling_34674" -> "unitofwork_49342" [label=48; weight=48; penwidth=0.3; color = 3]
-	"eventhandling_34674" -> "messaging_45032" [label=48; weight=48; penwidth=0.3; color = 3]
-	"eventsourcing_15367" -> "command_8435" [label=48; weight=48; penwidth=0.3; color = 3]
-	"commandhandling_26403" -> "messaging_45032" [label=42; weight=42; penwidth=0.3; color = 3]
-	"annotation_46198" -> "messaging_45032" [label=38; weight=38; penwidth=0.3; color = 3]
-	"unitofwork_49342" -> "messaging_45032" [label=35; weight=35; penwidth=0.3; color = 3]
-	"eventsourcing_15367" -> "eventhandling_34674" [label=29; weight=29; penwidth=0.3; color = 3]
-	"eventhandling_34674" -> "annotation_46198" [label=27; weight=27; penwidth=0.3; color = 3]
-	"commandhandling_26403" -> "common_30475" [label=26; weight=26; penwidth=0.3; color = 3]
-	"eventsourcing_15367" -> "common_30475" [label=26; weight=26; penwidth=0.3; color = 3]
-	"annotation_46198" -> "common_30475" [label=25; weight=25; penwidth=0.3; color = 3]
-	"eventstore_17765" -> "common_30475" [label=23; weight=23; penwidth=0.3; color = 3]
-	"eventsourcing_15367" -> "unitofwork_49342" [label=21; weight=21; penwidth=0.3; color = 3]
-	"messaging_45032" -> "common_30475" [label=20; weight=20; penwidth=0.3; color = 3]
-	"command_8435" -> "messaging_45032" [label=19; weight=19; penwidth=0.3; color = 3]
-	"command_8435" -> "commandhandling_26403" [label=18; weight=18; penwidth=0.3; color = 3]
-	"command_8435" -> "unitofwork_49342" [label=18; weight=18; penwidth=0.3; color = 3]
-	"commandhandling_26403" -> "annotation_46198" [label=18; weight=18; penwidth=0.3; color = 3]
-	"command_8435" -> "annotation_46198" [label=14; weight=14; penwidth=0.3; color = 3]
-	"eventsourcing_15367" -> "eventstore_17765" [label=12; weight=12; penwidth=0.3; color = 3]
-	"unitofwork_49342" -> "common_30475" [label=10; weight=10; penwidth=0.3; color = 3]
-	"annotation_46198" -> "unitofwork_49342" [label=6; weight=6; penwidth=0.3; color = 3]
-	"commandhandling_26403" -> "unitofwork_49342" [label=6; weight=6; penwidth=0.3; color = 3]
-	"eventsourcing_15367" -> "annotation_46198" [label=5; weight=5; penwidth=0.3; color = 3]
-	"eventstore_17765" -> "command_8435" [label=4; weight=4; penwidth=0.3; color = 3]
-	"messaging_45032" -> "eventhandling_34674" [label=4; weight=4; penwidth=0.3; color = 3]
-	"eventstore_17765" -> "eventsourcing_15367" [label=3; weight=3; penwidth=0.3; color = 3]
-	"annotation_46198" -> "eventhandling_34674" [label=2; weight=2; penwidth=0.3; color = 3]
-	"command_8435" -> "eventhandling_34674" [label=2; weight=2; penwidth=0.3; color = 3]
-	"eventsourcing_15367" -> "messaging_45032" [label=2; weight=2; penwidth=0.3; color = 3]
-	"messaging_45032" -> "unitofwork_49342" [label=2; weight=2; penwidth=0.3; color = 3]
-	"eventstore_17765" -> "messaging_45032" [label=0; weight=0; penwidth=0.3; color = 3]
+	graph   [label="Top Rank #2 Java Package Outlier\norg.axonframework.deadline.annotation\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: cluster probability\nlarge circle: < 25% percentile of cluster probability\nthick outline: > 80% percentile of distance to cluster center\n\n"];
+	central [label="🧩 outlier #2\nannotation"];
+	"annotation_49358"  [label = "annotation\n(76.51%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "annotation_49358" [label=8; weight=8; penwidth=0.5; color = 5];
+	"deadline_36590"  [shape = "circle"; height=1.8; label = "deadline\n(0.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "deadline_36590" [label=1; weight=1; penwidth=0.4; color = 5];
+	"messaging_48253"  [label = "messaging\n(86.84%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "messaging_48253" [label=0; weight=0; penwidth=0.4; color = 5];
+	"annotation_49358" -> "messaging_48253" [label=38; weight=38; penwidth=0.3; color = 3]
+	"deadline_36590" -> "messaging_48253" [label=23; weight=23; penwidth=0.3; color = 3]
 }

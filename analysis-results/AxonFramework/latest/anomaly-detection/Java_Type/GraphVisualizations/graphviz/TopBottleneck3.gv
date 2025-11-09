@@ -14,163 +14,163 @@ strict digraph TopBottleneck3 {
 
 	graph   [label="Top Rank #3 Java Type Bottleneck\norg.axonframework.config.Configurer\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: Betweenness centrality\nthick outline: > 90% percentile of Betweenness centrality\n\n"];
 	central [label="🔒 bottleneck #3\nConfigurer"];
-	"DefaultConfigurer_59438"  [label = "DefaultConfigurer\n(2252.94)"; penwidth = 5; ]; "DefaultConfigurer_59438" -> central [label=26; weight=26; penwidth=0.7];
-	"ServerConnectorConfigurerModule_6285"  [label = "ServerConnectorConfigurerModule\n(0.0)"; penwidth = 2; ]; "ServerConnectorConfigurerModule_6285" -> central [label=12; weight=12; penwidth=0.5];
-	"InfraConfiguration_24103"  [label = "InfraConfiguration\n(0.0)"; penwidth = 2; ]; "InfraConfiguration_24103" -> central [label=9; weight=9; penwidth=0.5];
-	"AxonServerAutoConfiguration_21144"  [label = "AxonServerAutoConfiguration\n(2082.54)"; penwidth = 5; ]; "AxonServerAutoConfiguration_21144" -> central [label=7; weight=7; penwidth=0.5];
-	"AxonTimeoutAutoConfiguration$AxonTimeoutConfigurerModule_21122"  [label = "AxonTimeoutAutoConfiguration$\nAxonTimeoutConfigurerModule\n(164.66)"; penwidth = 2; ]; "AxonTimeoutAutoConfiguration$AxonTimeoutConfigurerModule_21122" -> central [label=5; weight=5; penwidth=0.5];
-	"UpdateCheckerConfigurerModule_58444"  [label = "UpdateCheckerConfigurerModule\n(0.0)"; penwidth = 2; ]; "UpdateCheckerConfigurerModule_58444" -> central [label=5; weight=5; penwidth=0.5];
-	"AxonAutoConfiguration_21661"  [label = "AxonAutoConfiguration\n(10295.89)"; penwidth = 5; ]; "AxonAutoConfiguration_21661" -> central [label=4; weight=4; penwidth=0.4];
-	"AxonTracingAutoConfiguration_21145"  [label = "AxonTracingAutoConfiguration\n(1014.05)"; penwidth = 2; ]; "AxonTracingAutoConfiguration_21145" -> central [label=2; weight=2; penwidth=0.4];
-	"DeadLetterQueueProviderConfigurerModule_21111"  [label = "DeadLetterQueueProviderConfigurerModule\n(461.77)"; penwidth = 2; ]; "DeadLetterQueueProviderConfigurerModule_21111" -> central [label=2; weight=2; penwidth=0.4];
-	"ConfigurerModule_58443"  [label = "ConfigurerModule\n(5434.94)"; penwidth = 5; ]; "ConfigurerModule_58443" -> central [label=1; weight=1; penwidth=0.4];
-	"Configuration_58471"  [label = "Configuration\n(7064.17)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "Configuration_58471" [label=35; weight=35; penwidth=0.8; color = 5];
-	"MessageMonitor_26341"  [label = "MessageMonitor\n(78.83)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "MessageMonitor_26341" [label=7; weight=7; penwidth=0.5; color = 5];
-	"Serializer_29289"  [label = "Serializer\n(1761.67)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "Serializer_29289" [label=4; weight=4; penwidth=0.4; color = 5];
-	"EventBus_34245"  [label = "EventBus\n(493.02)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "EventBus_34245" [label=3; weight=3; penwidth=0.4; color = 5];
-	"EventProcessingConfigurer_59304"  [label = "EventProcessingConfigurer\n(1878.48)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "EventProcessingConfigurer_59304" [label=3; weight=3; penwidth=0.4; color = 5];
-	"Message_26331"  [label = "Message\n(5994.61)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "Message_26331" [label=3; weight=3; penwidth=0.4; color = 5];
-	"AxonConfigurationException_28369"  [label = "AxonConfigurationException\n(563.87)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "AxonConfigurationException_28369" [label=2; weight=2; penwidth=0.4; color = 5];
-	"CommandBus_26478"  [label = "CommandBus\n(1523.03)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "CommandBus_26478" [label=2; weight=2; penwidth=0.4; color = 5];
-	"DeadlineManager_33618"  [label = "DeadlineManager\n(433.11)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "DeadlineManager_33618" [label=2; weight=2; penwidth=0.4; color = 5];
-	"MessageMonitorFactory_59299"  [label = "MessageMonitorFactory\n(149.42)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "MessageMonitorFactory_59299" [label=2; weight=2; penwidth=0.4; color = 5];
-	"QueryBus_48915"  [label = "QueryBus\n(1020.61)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "QueryBus_48915" [label=2; weight=2; penwidth=0.4; color = 5];
-	"QueryUpdateEmitter_50397"  [label = "QueryUpdateEmitter\n(502.08)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "QueryUpdateEmitter_50397" [label=2; weight=2; penwidth=0.4; color = 5];
-	"ResourceInjector_12394"  [label = "ResourceInjector\n(0.0)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "ResourceInjector_12394" [label=2; weight=2; penwidth=0.4; color = 5];
-	"Snapshotter_15325"  [label = "Snapshotter\n(0.0)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "Snapshotter_15325" [label=2; weight=2; penwidth=0.4; color = 5];
-	"SpanFactory_26343"  [label = "SpanFactory\n(416.78)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "SpanFactory_26343" [label=2; weight=2; penwidth=0.4; color = 5];
-	"TagsConfiguration_59270"  [label = "TagsConfiguration\n(0.0)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "TagsConfiguration_59270" [label=2; weight=2; penwidth=0.4; color = 5];
-	"TransactionManager_26339"  [label = "TransactionManager\n(75.67)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "TransactionManager_26339" [label=2; weight=2; penwidth=0.4; color = 5];
-	"AggregateConfiguration_58499"  [label = "AggregateConfiguration\n(275.0)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "AggregateConfiguration_58499" [label=1; weight=1; penwidth=0.4; color = 5];
-	"AggregateConfigurer_58721"  [label = "AggregateConfigurer\n(4839.56)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "AggregateConfigurer_58721" [label=1; weight=1; penwidth=0.4; color = 5];
-	"CorrelationDataProvider_47258"  [label = "CorrelationDataProvider\n(86.81)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "CorrelationDataProvider_47258" [label=1; weight=1; penwidth=0.4; color = 5];
-	"EventStorageEngine_16591"  [label = "EventStorageEngine\n(928.7)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "EventStorageEngine_16591" [label=1; weight=1; penwidth=0.4; color = 5];
-	"EventStore_15334"  [label = "EventStore\n(1719.74)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "EventStore_15334" [label=1; weight=1; penwidth=0.4; color = 5];
-	"EventUpcaster_35438"  [label = "EventUpcaster\n(363.52)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "EventUpcaster_35438" [label=1; weight=1; penwidth=0.4; color = 5];
-	"HandlerDefinition_26380"  [label = "HandlerDefinition\n(245.67)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "HandlerDefinition_26380" [label=1; weight=1; penwidth=0.4; color = 5];
-	"HandlerEnhancerDefinition_26382"  [label = "HandlerEnhancerDefinition\n(61.5)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "HandlerEnhancerDefinition_26382" [label=1; weight=1; penwidth=0.4; color = 5];
-	"LifecycleOperations_59259"  [label = "LifecycleOperations\n(76.0)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "LifecycleOperations_59259" [label=1; weight=1; penwidth=0.4; color = 5];
-	"ModuleConfiguration_58446"  [label = "ModuleConfiguration\n(1121.7)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "ModuleConfiguration_58446" [label=1; weight=1; penwidth=0.4; color = 5];
-	"DefaultConfigurer_59438" -> "Configuration_58471" [label=154; weight=154; penwidth=0.3; color = 3]
-	"AggregateConfigurer_58721" -> "Configuration_58471" [label=67; weight=67; penwidth=0.3; color = 3]
-	"ServerConnectorConfigurerModule_6285" -> "Configuration_58471" [label=57; weight=57; penwidth=0.3; color = 3]
-	"EventProcessingConfigurer_59304" -> "Configuration_58471" [label=36; weight=36; penwidth=0.3; color = 3]
-	"AxonAutoConfiguration_21661" -> "Configuration_58471" [label=34; weight=34; penwidth=0.3; color = 3]
-	"AxonAutoConfiguration_21661" -> "Serializer_29289" [label=23; weight=23; penwidth=0.3; color = 3]
-	"AxonTracingAutoConfiguration_21145" -> "SpanFactory_26343" [label=13; weight=13; penwidth=0.3; color = 3]
-	"DefaultConfigurer_59438" -> "TransactionManager_26339" [label=13; weight=13; penwidth=0.3; color = 3]
-	"Configuration_58471" -> "ModuleConfiguration_58446" [label=11; weight=11; penwidth=0.3; color = 3]
-	"Configuration_58471" -> "AggregateConfiguration_58499" [label=11; weight=11; penwidth=0.3; color = 3]
-	"SpanFactory_26343" -> "Message_26331" [label=10; weight=10; penwidth=0.3; color = 3]
-	"DefaultConfigurer_59438" -> "HandlerDefinition_26380" [label=9; weight=9; penwidth=0.3; color = 3]
-	"DefaultConfigurer_59438" -> "Serializer_29289" [label=9; weight=9; penwidth=0.3; color = 3]
-	"DefaultConfigurer_59438" -> "AggregateConfiguration_58499" [label=9; weight=9; penwidth=0.3; color = 3]
-	"DefaultConfigurer_59438" -> "ModuleConfiguration_58446" [label=9; weight=9; penwidth=0.3; color = 3]
-	"AxonAutoConfiguration_21661" -> "EventProcessingConfigurer_59304" [label=8; weight=8; penwidth=0.3; color = 3]
-	"DefaultConfigurer_59438" -> "QueryUpdateEmitter_50397" [label=8; weight=8; penwidth=0.3; color = 3]
-	"AxonTimeoutAutoConfiguration$AxonTimeoutConfigurerModule_21122" -> "Configuration_58471" [label=7; weight=7; penwidth=0.3; color = 3]
-	"UpdateCheckerConfigurerModule_58444" -> "Configuration_58471" [label=7; weight=7; penwidth=0.3; color = 3]
-	"AxonAutoConfiguration_21661" -> "AxonConfigurationException_28369" [label=6; weight=6; penwidth=0.3; color = 3]
-	"DefaultConfigurer_59438" -> "CommandBus_26478" [label=6; weight=6; penwidth=0.3; color = 3]
-	"DefaultConfigurer_59438" -> "EventBus_34245" [label=6; weight=6; penwidth=0.3; color = 3]
-	"DefaultConfigurer_59438" -> "QueryBus_48915" [label=6; weight=6; penwidth=0.3; color = 3]
-	"DefaultConfigurer_59438" -> "EventProcessingConfigurer_59304" [label=6; weight=6; penwidth=0.3; color = 3]
-	"InfraConfiguration_24103" -> "ConfigurerModule_58443" [label=6; weight=6; penwidth=0.3; color = 3]
-	"AggregateConfigurer_58721" -> "AxonConfigurationException_28369" [label=5; weight=5; penwidth=0.3; color = 3]
-	"AxonServerAutoConfiguration_21144" -> "Configuration_58471" [label=5; weight=5; penwidth=0.3; color = 3]
-	"Configuration_58471" -> "AxonConfigurationException_28369" [label=5; weight=5; penwidth=0.3; color = 3]
-	"Configuration_58471" -> "Serializer_29289" [label=5; weight=5; penwidth=0.3; color = 3]
-	"DefaultConfigurer_59438" -> "Snapshotter_15325" [label=5; weight=5; penwidth=0.3; color = 3]
-	"DefaultConfigurer_59438" -> "MessageMonitor_26341" [label=5; weight=5; penwidth=0.3; color = 3]
-	"DefaultConfigurer_59438" -> "DeadlineManager_33618" [label=5; weight=5; penwidth=0.3; color = 3]
-	"DefaultConfigurer_59438" -> "ResourceInjector_12394" [label=5; weight=5; penwidth=0.3; color = 3]
-	"InfraConfiguration_24103" -> "EventUpcaster_35438" [label=5; weight=5; penwidth=0.3; color = 3]
-	"InfraConfiguration_24103" -> "Configuration_58471" [label=5; weight=5; penwidth=0.3; color = 3]
-	"AxonAutoConfiguration_21661" -> "EventStore_15334" [label=4; weight=4; penwidth=0.3; color = 3]
-	"AxonAutoConfiguration_21661" -> "QueryUpdateEmitter_50397" [label=4; weight=4; penwidth=0.3; color = 3]
-	"AxonServerAutoConfiguration_21144" -> "EventProcessingConfigurer_59304" [label=4; weight=4; penwidth=0.3; color = 3]
-	"Configuration_58471" -> "ResourceInjector_12394" [label=4; weight=4; penwidth=0.3; color = 3]
-	"DefaultConfigurer_59438" -> "SpanFactory_26343" [label=4; weight=4; penwidth=0.3; color = 3]
-	"DefaultConfigurer_59438" -> "TagsConfiguration_59270" [label=4; weight=4; penwidth=0.3; color = 3]
-	"DefaultConfigurer_59438" -> "ConfigurerModule_58443" [label=4; weight=4; penwidth=0.3; color = 3]
-	"EventProcessingConfigurer_59304" -> "AxonConfigurationException_28369" [label=4; weight=4; penwidth=0.3; color = 3]
-	"Message_26331" -> "Serializer_29289" [label=4; weight=4; penwidth=0.3; color = 3]
-	"ServerConnectorConfigurerModule_6285" -> "TransactionManager_26339" [label=4; weight=4; penwidth=0.3; color = 3]
-	"AxonAutoConfiguration_21661" -> "EventBus_34245" [label=3; weight=3; penwidth=0.3; color = 3]
-	"AxonAutoConfiguration_21661" -> "QueryBus_48915" [label=3; weight=3; penwidth=0.3; color = 3]
-	"AxonAutoConfiguration_21661" -> "EventStorageEngine_16591" [label=3; weight=3; penwidth=0.3; color = 3]
-	"AxonAutoConfiguration_21661" -> "TransactionManager_26339" [label=3; weight=3; penwidth=0.3; color = 3]
-	"AxonAutoConfiguration_21661" -> "CommandBus_26478" [label=3; weight=3; penwidth=0.3; color = 3]
-	"AxonServerAutoConfiguration_21144" -> "ConfigurerModule_58443" [label=3; weight=3; penwidth=0.3; color = 3]
-	"Configuration_58471" -> "EventStore_15334" [label=3; weight=3; penwidth=0.3; color = 3]
-	"Configuration_58471" -> "CommandBus_26478" [label=3; weight=3; penwidth=0.3; color = 3]
-	"Configuration_58471" -> "QueryBus_48915" [label=3; weight=3; penwidth=0.3; color = 3]
-	"Configuration_58471" -> "DeadlineManager_33618" [label=3; weight=3; penwidth=0.3; color = 3]
-	"Configuration_58471" -> "QueryUpdateEmitter_50397" [label=3; weight=3; penwidth=0.3; color = 3]
-	"Configuration_58471" -> "Snapshotter_15325" [label=3; weight=3; penwidth=0.3; color = 3]
-	"Configuration_58471" -> "SpanFactory_26343" [label=3; weight=3; penwidth=0.3; color = 3]
-	"Configuration_58471" -> "EventBus_34245" [label=3; weight=3; penwidth=0.3; color = 3]
-	"Configuration_58471" -> "TagsConfiguration_59270" [label=3; weight=3; penwidth=0.3; color = 3]
-	"DefaultConfigurer_59438" -> "EventUpcaster_35438" [label=3; weight=3; penwidth=0.3; color = 3]
-	"DefaultConfigurer_59438" -> "EventStorageEngine_16591" [label=3; weight=3; penwidth=0.3; color = 3]
-	"EventProcessingConfigurer_59304" -> "MessageMonitor_26341" [label=3; weight=3; penwidth=0.3; color = 3]
-	"MessageMonitor_26341" -> "Message_26331" [label=3; weight=3; penwidth=0.3; color = 3]
-	"ServerConnectorConfigurerModule_6285" -> "TagsConfiguration_59270" [label=3; weight=3; penwidth=0.3; color = 3]
-	"AxonTracingAutoConfiguration_21145" -> "Configuration_58471" [label=2; weight=2; penwidth=0.3; color = 3]
-	"DeadLetterQueueProviderConfigurerModule_21111" -> "Configuration_58471" [label=2; weight=2; penwidth=0.3; color = 3]
-	"DefaultConfigurer_59438" -> "Message_26331" [label=2; weight=2; penwidth=0.3; color = 3]
-	"DefaultConfigurer_59438" -> "HandlerEnhancerDefinition_26382" [label=2; weight=2; penwidth=0.3; color = 3]
-	"DefaultConfigurer_59438" -> "AxonConfigurationException_28369" [label=2; weight=2; penwidth=0.3; color = 3]
-	"DefaultConfigurer_59438" -> "EventStore_15334" [label=2; weight=2; penwidth=0.3; color = 3]
-	"DefaultConfigurer_59438" -> "CorrelationDataProvider_47258" [label=2; weight=2; penwidth=0.3; color = 3]
-	"DefaultConfigurer_59438" -> "MessageMonitorFactory_59299" [label=2; weight=2; penwidth=0.3; color = 3]
-	"EventProcessingConfigurer_59304" -> "TransactionManager_26339" [label=2; weight=2; penwidth=0.3; color = 3]
-	"InfraConfiguration_24103" -> "CorrelationDataProvider_47258" [label=2; weight=2; penwidth=0.3; color = 3]
-	"ServerConnectorConfigurerModule_6285" -> "QueryBus_48915" [label=2; weight=2; penwidth=0.3; color = 3]
-	"AggregateConfiguration_58499" -> "ModuleConfiguration_58446" [label=1; weight=1; penwidth=0.3; color = 3]
-	"AggregateConfigurer_58721" -> "EventStore_15334" [label=1; weight=1; penwidth=0.3; color = 3]
-	"AggregateConfigurer_58721" -> "CommandBus_26478" [label=1; weight=1; penwidth=0.3; color = 3]
-	"AggregateConfigurer_58721" -> "AggregateConfiguration_58499" [label=1; weight=1; penwidth=0.3; color = 3]
-	"AxonAutoConfiguration_21661" -> "TagsConfiguration_59270" [label=1; weight=1; penwidth=0.3; color = 3]
-	"AxonAutoConfiguration_21661" -> "HandlerDefinition_26380" [label=1; weight=1; penwidth=0.3; color = 3]
-	"AxonAutoConfiguration_21661" -> "Snapshotter_15325" [label=1; weight=1; penwidth=0.3; color = 3]
-	"AxonAutoConfiguration_21661" -> "ConfigurerModule_58443" [label=1; weight=1; penwidth=0.3; color = 3]
-	"AxonAutoConfiguration_21661" -> "CorrelationDataProvider_47258" [label=1; weight=1; penwidth=0.3; color = 3]
-	"AxonServerAutoConfiguration_21144" -> "Serializer_29289" [label=1; weight=1; penwidth=0.3; color = 3]
-	"AxonServerAutoConfiguration_21144" -> "Message_26331" [label=1; weight=1; penwidth=0.3; color = 3]
-	"AxonServerAutoConfiguration_21144" -> "AxonAutoConfiguration_21661" [label=1; weight=1; penwidth=0.3; color = 3]
-	"AxonTimeoutAutoConfiguration$AxonTimeoutConfigurerModule_21122" -> "ConfigurerModule_58443" [label=1; weight=1; penwidth=0.3; color = 3]
-	"AxonTimeoutAutoConfiguration$AxonTimeoutConfigurerModule_21122" -> "EventProcessingConfigurer_59304" [label=1; weight=1; penwidth=0.3; color = 3]
-	"AxonTimeoutAutoConfiguration$AxonTimeoutConfigurerModule_21122" -> "QueryBus_48915" [label=1; weight=1; penwidth=0.3; color = 3]
-	"AxonTimeoutAutoConfiguration$AxonTimeoutConfigurerModule_21122" -> "DeadlineManager_33618" [label=1; weight=1; penwidth=0.3; color = 3]
-	"AxonTimeoutAutoConfiguration$AxonTimeoutConfigurerModule_21122" -> "CommandBus_26478" [label=1; weight=1; penwidth=0.3; color = 3]
-	"AxonTracingAutoConfiguration_21145" -> "HandlerEnhancerDefinition_26382" [label=1; weight=1; penwidth=0.3; color = 3]
-	"AxonTracingAutoConfiguration_21145" -> "ConfigurerModule_58443" [label=1; weight=1; penwidth=0.3; color = 3]
-	"AxonTracingAutoConfiguration_21145" -> "AxonAutoConfiguration_21661" [label=1; weight=1; penwidth=0.3; color = 3]
-	"AxonTracingAutoConfiguration_21145" -> "AxonServerAutoConfiguration_21144" [label=1; weight=1; penwidth=0.3; color = 3]
-	"Configuration_58471" -> "Message_26331" [label=1; weight=1; penwidth=0.3; color = 3]
-	"Configuration_58471" -> "HandlerDefinition_26380" [label=1; weight=1; penwidth=0.3; color = 3]
-	"Configuration_58471" -> "MessageMonitor_26341" [label=1; weight=1; penwidth=0.3; color = 3]
-	"Configuration_58471" -> "CorrelationDataProvider_47258" [label=1; weight=1; penwidth=0.3; color = 3]
-	"Configuration_58471" -> "LifecycleOperations_59259" [label=1; weight=1; penwidth=0.3; color = 3]
-	"CorrelationDataProvider_47258" -> "Message_26331" [label=1; weight=1; penwidth=0.3; color = 3]
-	"DeadLetterQueueProviderConfigurerModule_21111" -> "ConfigurerModule_58443" [label=1; weight=1; penwidth=0.3; color = 3]
-	"DeadLetterQueueProviderConfigurerModule_21111" -> "EventProcessingConfigurer_59304" [label=1; weight=1; penwidth=0.3; color = 3]
-	"EventProcessingConfigurer_59304" -> "Message_26331" [label=1; weight=1; penwidth=0.3; color = 3]
-	"EventProcessingConfigurer_59304" -> "MessageMonitorFactory_59299" [label=1; weight=1; penwidth=0.3; color = 3]
-	"EventStore_15334" -> "EventBus_34245" [label=1; weight=1; penwidth=0.3; color = 3]
-	"InfraConfiguration_24103" -> "DefaultConfigurer_59438" [label=1; weight=1; penwidth=0.3; color = 3]
-	"InfraConfiguration_24103" -> "HandlerDefinition_26380" [label=1; weight=1; penwidth=0.3; color = 3]
-	"InfraConfiguration_24103" -> "HandlerEnhancerDefinition_26382" [label=1; weight=1; penwidth=0.3; color = 3]
-	"InfraConfiguration_24103" -> "ResourceInjector_12394" [label=1; weight=1; penwidth=0.3; color = 3]
-	"InfraConfiguration_24103" -> "ModuleConfiguration_58446" [label=1; weight=1; penwidth=0.3; color = 3]
-	"InfraConfiguration_24103" -> "AxonAutoConfiguration_21661" [label=1; weight=1; penwidth=0.3; color = 3]
-	"MessageMonitorFactory_59299" -> "MessageMonitor_26341" [label=1; weight=1; penwidth=0.3; color = 3]
-	"MessageMonitorFactory_59299" -> "Message_26331" [label=1; weight=1; penwidth=0.3; color = 3]
-	"MessageMonitorFactory_59299" -> "Configuration_58471" [label=1; weight=1; penwidth=0.3; color = 3]
-	"ModuleConfiguration_58446" -> "Configuration_58471" [label=1; weight=1; penwidth=0.3; color = 3]
-	"QueryBus_48915" -> "QueryUpdateEmitter_50397" [label=1; weight=1; penwidth=0.3; color = 3]
-	"ServerConnectorConfigurerModule_6285" -> "CommandBus_26478" [label=1; weight=1; penwidth=0.3; color = 3]
-	"ServerConnectorConfigurerModule_6285" -> "ConfigurerModule_58443" [label=1; weight=1; penwidth=0.3; color = 3]
-	"UpdateCheckerConfigurerModule_58444" -> "ConfigurerModule_58443" [label=1; weight=1; penwidth=0.3; color = 3]
+	"DefaultConfigurer_945"  [label = "DefaultConfigurer\n(2252.94)"; penwidth = 5; ]; "DefaultConfigurer_945" -> central [label=26; weight=26; penwidth=0.7];
+	"ServerConnectorConfigurerModule_15747"  [label = "ServerConnectorConfigurerModule\n(0.0)"; penwidth = 2; ]; "ServerConnectorConfigurerModule_15747" -> central [label=12; weight=12; penwidth=0.5];
+	"InfraConfiguration_26251"  [label = "InfraConfiguration\n(0.0)"; penwidth = 2; ]; "InfraConfiguration_26251" -> central [label=9; weight=9; penwidth=0.5];
+	"AxonServerAutoConfiguration_24397"  [label = "AxonServerAutoConfiguration\n(2082.54)"; penwidth = 5; ]; "AxonServerAutoConfiguration_24397" -> central [label=7; weight=7; penwidth=0.5];
+	"AxonTimeoutAutoConfiguration$AxonTimeoutConfigurerModule_23701"  [label = "AxonTimeoutAutoConfiguration$\nAxonTimeoutConfigurerModule\n(164.66)"; penwidth = 2; ]; "AxonTimeoutAutoConfiguration$AxonTimeoutConfigurerModule_23701" -> central [label=5; weight=5; penwidth=0.5];
+	"UpdateCheckerConfigurerModule_884"  [label = "UpdateCheckerConfigurerModule\n(0.0)"; penwidth = 2; ]; "UpdateCheckerConfigurerModule_884" -> central [label=5; weight=5; penwidth=0.5];
+	"AxonAutoConfiguration_23665"  [label = "AxonAutoConfiguration\n(10295.89)"; penwidth = 5; ]; "AxonAutoConfiguration_23665" -> central [label=4; weight=4; penwidth=0.4];
+	"AxonTracingAutoConfiguration_25035"  [label = "AxonTracingAutoConfiguration\n(1014.05)"; penwidth = 2; ]; "AxonTracingAutoConfiguration_25035" -> central [label=2; weight=2; penwidth=0.4];
+	"DeadLetterQueueProviderConfigurerModule_23690"  [label = "DeadLetterQueueProviderConfigurerModule\n(461.77)"; penwidth = 2; ]; "DeadLetterQueueProviderConfigurerModule_23690" -> central [label=2; weight=2; penwidth=0.4];
+	"ConfigurerModule_883"  [label = "ConfigurerModule\n(5434.94)"; penwidth = 5; ]; "ConfigurerModule_883" -> central [label=1; weight=1; penwidth=0.4];
+	"Configuration_1026"  [label = "Configuration\n(7064.17)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "Configuration_1026" [label=35; weight=35; penwidth=0.8; color = 5];
+	"MessageMonitor_30079"  [label = "MessageMonitor\n(78.83)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "MessageMonitor_30079" [label=7; weight=7; penwidth=0.5; color = 5];
+	"Serializer_32371"  [label = "Serializer\n(1761.67)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "Serializer_32371" [label=4; weight=4; penwidth=0.4; color = 5];
+	"EventBus_36910"  [label = "EventBus\n(493.02)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "EventBus_36910" [label=3; weight=3; penwidth=0.4; color = 5];
+	"EventProcessingConfigurer_1864"  [label = "EventProcessingConfigurer\n(1878.48)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "EventProcessingConfigurer_1864" [label=3; weight=3; penwidth=0.4; color = 5];
+	"Message_30069"  [label = "Message\n(5994.61)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "Message_30069" [label=3; weight=3; penwidth=0.4; color = 5];
+	"AxonConfigurationException_31506"  [label = "AxonConfigurationException\n(563.87)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "AxonConfigurationException_31506" [label=2; weight=2; penwidth=0.4; color = 5];
+	"CommandBus_30171"  [label = "CommandBus\n(1523.03)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "CommandBus_30171" [label=2; weight=2; penwidth=0.4; color = 5];
+	"DeadlineManager_36603"  [label = "DeadlineManager\n(433.11)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "DeadlineManager_36603" [label=2; weight=2; penwidth=0.4; color = 5];
+	"MessageMonitorFactory_1859"  [label = "MessageMonitorFactory\n(149.42)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "MessageMonitorFactory_1859" [label=2; weight=2; penwidth=0.4; color = 5];
+	"QueryBus_52883"  [label = "QueryBus\n(1020.61)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "QueryBus_52883" [label=2; weight=2; penwidth=0.4; color = 5];
+	"QueryUpdateEmitter_53555"  [label = "QueryUpdateEmitter\n(502.08)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "QueryUpdateEmitter_53555" [label=2; weight=2; penwidth=0.4; color = 5];
+	"ResourceInjector_63975"  [label = "ResourceInjector\n(0.0)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "ResourceInjector_63975" [label=2; weight=2; penwidth=0.4; color = 5];
+	"Snapshotter_18447"  [label = "Snapshotter\n(0.0)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "Snapshotter_18447" [label=2; weight=2; penwidth=0.4; color = 5];
+	"SpanFactory_30082"  [label = "SpanFactory\n(416.78)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "SpanFactory_30082" [label=2; weight=2; penwidth=0.4; color = 5];
+	"TagsConfiguration_966"  [label = "TagsConfiguration\n(0.0)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "TagsConfiguration_966" [label=2; weight=2; penwidth=0.4; color = 5];
+	"TransactionManager_30077"  [label = "TransactionManager\n(75.67)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "TransactionManager_30077" [label=2; weight=2; penwidth=0.4; color = 5];
+	"AggregateConfiguration_995"  [label = "AggregateConfiguration\n(275.0)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "AggregateConfiguration_995" [label=1; weight=1; penwidth=0.4; color = 5];
+	"AggregateConfigurer_996"  [label = "AggregateConfigurer\n(4839.56)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "AggregateConfigurer_996" [label=1; weight=1; penwidth=0.4; color = 5];
+	"CorrelationDataProvider_50410"  [label = "CorrelationDataProvider\n(86.81)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "CorrelationDataProvider_50410" [label=1; weight=1; penwidth=0.4; color = 5];
+	"EventStorageEngine_19828"  [label = "EventStorageEngine\n(928.7)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "EventStorageEngine_19828" [label=1; weight=1; penwidth=0.4; color = 5];
+	"EventStore_18455"  [label = "EventStore\n(1719.74)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "EventStore_18455" [label=1; weight=1; penwidth=0.4; color = 5];
+	"EventUpcaster_39903"  [label = "EventUpcaster\n(363.52)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "EventUpcaster_39903" [label=1; weight=1; penwidth=0.4; color = 5];
+	"HandlerDefinition_30019"  [label = "HandlerDefinition\n(245.67)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "HandlerDefinition_30019" [label=1; weight=1; penwidth=0.4; color = 5];
+	"HandlerEnhancerDefinition_30021"  [label = "HandlerEnhancerDefinition\n(61.5)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "HandlerEnhancerDefinition_30021" [label=1; weight=1; penwidth=0.4; color = 5];
+	"LifecycleOperations_955"  [label = "LifecycleOperations\n(76.0)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "LifecycleOperations_955" [label=1; weight=1; penwidth=0.4; color = 5];
+	"ModuleConfiguration_886"  [label = "ModuleConfiguration\n(1121.7)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "ModuleConfiguration_886" [label=1; weight=1; penwidth=0.4; color = 5];
+	"DefaultConfigurer_945" -> "Configuration_1026" [label=154; weight=154; penwidth=0.3; color = 3]
+	"AggregateConfigurer_996" -> "Configuration_1026" [label=67; weight=67; penwidth=0.3; color = 3]
+	"ServerConnectorConfigurerModule_15747" -> "Configuration_1026" [label=57; weight=57; penwidth=0.3; color = 3]
+	"EventProcessingConfigurer_1864" -> "Configuration_1026" [label=36; weight=36; penwidth=0.3; color = 3]
+	"AxonAutoConfiguration_23665" -> "Configuration_1026" [label=34; weight=34; penwidth=0.3; color = 3]
+	"AxonAutoConfiguration_23665" -> "Serializer_32371" [label=23; weight=23; penwidth=0.3; color = 3]
+	"AxonTracingAutoConfiguration_25035" -> "SpanFactory_30082" [label=13; weight=13; penwidth=0.3; color = 3]
+	"DefaultConfigurer_945" -> "TransactionManager_30077" [label=13; weight=13; penwidth=0.3; color = 3]
+	"Configuration_1026" -> "ModuleConfiguration_886" [label=11; weight=11; penwidth=0.3; color = 3]
+	"Configuration_1026" -> "AggregateConfiguration_995" [label=11; weight=11; penwidth=0.3; color = 3]
+	"SpanFactory_30082" -> "Message_30069" [label=10; weight=10; penwidth=0.3; color = 3]
+	"DefaultConfigurer_945" -> "Serializer_32371" [label=9; weight=9; penwidth=0.3; color = 3]
+	"DefaultConfigurer_945" -> "HandlerDefinition_30019" [label=9; weight=9; penwidth=0.3; color = 3]
+	"DefaultConfigurer_945" -> "AggregateConfiguration_995" [label=9; weight=9; penwidth=0.3; color = 3]
+	"DefaultConfigurer_945" -> "ModuleConfiguration_886" [label=9; weight=9; penwidth=0.3; color = 3]
+	"AxonAutoConfiguration_23665" -> "EventProcessingConfigurer_1864" [label=8; weight=8; penwidth=0.3; color = 3]
+	"DefaultConfigurer_945" -> "QueryUpdateEmitter_53555" [label=8; weight=8; penwidth=0.3; color = 3]
+	"AxonTimeoutAutoConfiguration$AxonTimeoutConfigurerModule_23701" -> "Configuration_1026" [label=7; weight=7; penwidth=0.3; color = 3]
+	"UpdateCheckerConfigurerModule_884" -> "Configuration_1026" [label=7; weight=7; penwidth=0.3; color = 3]
+	"AxonAutoConfiguration_23665" -> "AxonConfigurationException_31506" [label=6; weight=6; penwidth=0.3; color = 3]
+	"DefaultConfigurer_945" -> "CommandBus_30171" [label=6; weight=6; penwidth=0.3; color = 3]
+	"DefaultConfigurer_945" -> "EventBus_36910" [label=6; weight=6; penwidth=0.3; color = 3]
+	"DefaultConfigurer_945" -> "QueryBus_52883" [label=6; weight=6; penwidth=0.3; color = 3]
+	"DefaultConfigurer_945" -> "EventProcessingConfigurer_1864" [label=6; weight=6; penwidth=0.3; color = 3]
+	"InfraConfiguration_26251" -> "ConfigurerModule_883" [label=6; weight=6; penwidth=0.3; color = 3]
+	"AggregateConfigurer_996" -> "AxonConfigurationException_31506" [label=5; weight=5; penwidth=0.3; color = 3]
+	"AxonServerAutoConfiguration_24397" -> "Configuration_1026" [label=5; weight=5; penwidth=0.3; color = 3]
+	"Configuration_1026" -> "Serializer_32371" [label=5; weight=5; penwidth=0.3; color = 3]
+	"Configuration_1026" -> "AxonConfigurationException_31506" [label=5; weight=5; penwidth=0.3; color = 3]
+	"DefaultConfigurer_945" -> "MessageMonitor_30079" [label=5; weight=5; penwidth=0.3; color = 3]
+	"DefaultConfigurer_945" -> "DeadlineManager_36603" [label=5; weight=5; penwidth=0.3; color = 3]
+	"DefaultConfigurer_945" -> "ResourceInjector_63975" [label=5; weight=5; penwidth=0.3; color = 3]
+	"DefaultConfigurer_945" -> "Snapshotter_18447" [label=5; weight=5; penwidth=0.3; color = 3]
+	"InfraConfiguration_26251" -> "EventUpcaster_39903" [label=5; weight=5; penwidth=0.3; color = 3]
+	"InfraConfiguration_26251" -> "Configuration_1026" [label=5; weight=5; penwidth=0.3; color = 3]
+	"AxonAutoConfiguration_23665" -> "EventStore_18455" [label=4; weight=4; penwidth=0.3; color = 3]
+	"AxonAutoConfiguration_23665" -> "QueryUpdateEmitter_53555" [label=4; weight=4; penwidth=0.3; color = 3]
+	"AxonServerAutoConfiguration_24397" -> "EventProcessingConfigurer_1864" [label=4; weight=4; penwidth=0.3; color = 3]
+	"Configuration_1026" -> "ResourceInjector_63975" [label=4; weight=4; penwidth=0.3; color = 3]
+	"DefaultConfigurer_945" -> "SpanFactory_30082" [label=4; weight=4; penwidth=0.3; color = 3]
+	"DefaultConfigurer_945" -> "TagsConfiguration_966" [label=4; weight=4; penwidth=0.3; color = 3]
+	"DefaultConfigurer_945" -> "ConfigurerModule_883" [label=4; weight=4; penwidth=0.3; color = 3]
+	"EventProcessingConfigurer_1864" -> "AxonConfigurationException_31506" [label=4; weight=4; penwidth=0.3; color = 3]
+	"Message_30069" -> "Serializer_32371" [label=4; weight=4; penwidth=0.3; color = 3]
+	"ServerConnectorConfigurerModule_15747" -> "TransactionManager_30077" [label=4; weight=4; penwidth=0.3; color = 3]
+	"AxonAutoConfiguration_23665" -> "CommandBus_30171" [label=3; weight=3; penwidth=0.3; color = 3]
+	"AxonAutoConfiguration_23665" -> "EventBus_36910" [label=3; weight=3; penwidth=0.3; color = 3]
+	"AxonAutoConfiguration_23665" -> "EventStorageEngine_19828" [label=3; weight=3; penwidth=0.3; color = 3]
+	"AxonAutoConfiguration_23665" -> "QueryBus_52883" [label=3; weight=3; penwidth=0.3; color = 3]
+	"AxonAutoConfiguration_23665" -> "TransactionManager_30077" [label=3; weight=3; penwidth=0.3; color = 3]
+	"AxonServerAutoConfiguration_24397" -> "ConfigurerModule_883" [label=3; weight=3; penwidth=0.3; color = 3]
+	"Configuration_1026" -> "EventStore_18455" [label=3; weight=3; penwidth=0.3; color = 3]
+	"Configuration_1026" -> "QueryUpdateEmitter_53555" [label=3; weight=3; penwidth=0.3; color = 3]
+	"Configuration_1026" -> "Snapshotter_18447" [label=3; weight=3; penwidth=0.3; color = 3]
+	"Configuration_1026" -> "SpanFactory_30082" [label=3; weight=3; penwidth=0.3; color = 3]
+	"Configuration_1026" -> "CommandBus_30171" [label=3; weight=3; penwidth=0.3; color = 3]
+	"Configuration_1026" -> "DeadlineManager_36603" [label=3; weight=3; penwidth=0.3; color = 3]
+	"Configuration_1026" -> "EventBus_36910" [label=3; weight=3; penwidth=0.3; color = 3]
+	"Configuration_1026" -> "QueryBus_52883" [label=3; weight=3; penwidth=0.3; color = 3]
+	"Configuration_1026" -> "TagsConfiguration_966" [label=3; weight=3; penwidth=0.3; color = 3]
+	"DefaultConfigurer_945" -> "EventUpcaster_39903" [label=3; weight=3; penwidth=0.3; color = 3]
+	"DefaultConfigurer_945" -> "EventStorageEngine_19828" [label=3; weight=3; penwidth=0.3; color = 3]
+	"EventProcessingConfigurer_1864" -> "MessageMonitor_30079" [label=3; weight=3; penwidth=0.3; color = 3]
+	"MessageMonitor_30079" -> "Message_30069" [label=3; weight=3; penwidth=0.3; color = 3]
+	"ServerConnectorConfigurerModule_15747" -> "TagsConfiguration_966" [label=3; weight=3; penwidth=0.3; color = 3]
+	"AxonTracingAutoConfiguration_25035" -> "Configuration_1026" [label=2; weight=2; penwidth=0.3; color = 3]
+	"DeadLetterQueueProviderConfigurerModule_23690" -> "Configuration_1026" [label=2; weight=2; penwidth=0.3; color = 3]
+	"DefaultConfigurer_945" -> "Message_30069" [label=2; weight=2; penwidth=0.3; color = 3]
+	"DefaultConfigurer_945" -> "CorrelationDataProvider_50410" [label=2; weight=2; penwidth=0.3; color = 3]
+	"DefaultConfigurer_945" -> "HandlerEnhancerDefinition_30021" [label=2; weight=2; penwidth=0.3; color = 3]
+	"DefaultConfigurer_945" -> "EventStore_18455" [label=2; weight=2; penwidth=0.3; color = 3]
+	"DefaultConfigurer_945" -> "AxonConfigurationException_31506" [label=2; weight=2; penwidth=0.3; color = 3]
+	"DefaultConfigurer_945" -> "MessageMonitorFactory_1859" [label=2; weight=2; penwidth=0.3; color = 3]
+	"EventProcessingConfigurer_1864" -> "TransactionManager_30077" [label=2; weight=2; penwidth=0.3; color = 3]
+	"InfraConfiguration_26251" -> "CorrelationDataProvider_50410" [label=2; weight=2; penwidth=0.3; color = 3]
+	"ServerConnectorConfigurerModule_15747" -> "QueryBus_52883" [label=2; weight=2; penwidth=0.3; color = 3]
+	"AggregateConfiguration_995" -> "ModuleConfiguration_886" [label=1; weight=1; penwidth=0.3; color = 3]
+	"AggregateConfigurer_996" -> "EventStore_18455" [label=1; weight=1; penwidth=0.3; color = 3]
+	"AggregateConfigurer_996" -> "CommandBus_30171" [label=1; weight=1; penwidth=0.3; color = 3]
+	"AggregateConfigurer_996" -> "AggregateConfiguration_995" [label=1; weight=1; penwidth=0.3; color = 3]
+	"AxonAutoConfiguration_23665" -> "HandlerDefinition_30019" [label=1; weight=1; penwidth=0.3; color = 3]
+	"AxonAutoConfiguration_23665" -> "Snapshotter_18447" [label=1; weight=1; penwidth=0.3; color = 3]
+	"AxonAutoConfiguration_23665" -> "TagsConfiguration_966" [label=1; weight=1; penwidth=0.3; color = 3]
+	"AxonAutoConfiguration_23665" -> "CorrelationDataProvider_50410" [label=1; weight=1; penwidth=0.3; color = 3]
+	"AxonAutoConfiguration_23665" -> "ConfigurerModule_883" [label=1; weight=1; penwidth=0.3; color = 3]
+	"AxonServerAutoConfiguration_24397" -> "Serializer_32371" [label=1; weight=1; penwidth=0.3; color = 3]
+	"AxonServerAutoConfiguration_24397" -> "Message_30069" [label=1; weight=1; penwidth=0.3; color = 3]
+	"AxonServerAutoConfiguration_24397" -> "AxonAutoConfiguration_23665" [label=1; weight=1; penwidth=0.3; color = 3]
+	"AxonTimeoutAutoConfiguration$AxonTimeoutConfigurerModule_23701" -> "CommandBus_30171" [label=1; weight=1; penwidth=0.3; color = 3]
+	"AxonTimeoutAutoConfiguration$AxonTimeoutConfigurerModule_23701" -> "EventProcessingConfigurer_1864" [label=1; weight=1; penwidth=0.3; color = 3]
+	"AxonTimeoutAutoConfiguration$AxonTimeoutConfigurerModule_23701" -> "QueryBus_52883" [label=1; weight=1; penwidth=0.3; color = 3]
+	"AxonTimeoutAutoConfiguration$AxonTimeoutConfigurerModule_23701" -> "DeadlineManager_36603" [label=1; weight=1; penwidth=0.3; color = 3]
+	"AxonTimeoutAutoConfiguration$AxonTimeoutConfigurerModule_23701" -> "ConfigurerModule_883" [label=1; weight=1; penwidth=0.3; color = 3]
+	"AxonTracingAutoConfiguration_25035" -> "ConfigurerModule_883" [label=1; weight=1; penwidth=0.3; color = 3]
+	"AxonTracingAutoConfiguration_25035" -> "HandlerEnhancerDefinition_30021" [label=1; weight=1; penwidth=0.3; color = 3]
+	"AxonTracingAutoConfiguration_25035" -> "AxonServerAutoConfiguration_24397" [label=1; weight=1; penwidth=0.3; color = 3]
+	"AxonTracingAutoConfiguration_25035" -> "AxonAutoConfiguration_23665" [label=1; weight=1; penwidth=0.3; color = 3]
+	"Configuration_1026" -> "MessageMonitor_30079" [label=1; weight=1; penwidth=0.3; color = 3]
+	"Configuration_1026" -> "HandlerDefinition_30019" [label=1; weight=1; penwidth=0.3; color = 3]
+	"Configuration_1026" -> "CorrelationDataProvider_50410" [label=1; weight=1; penwidth=0.3; color = 3]
+	"Configuration_1026" -> "Message_30069" [label=1; weight=1; penwidth=0.3; color = 3]
+	"Configuration_1026" -> "LifecycleOperations_955" [label=1; weight=1; penwidth=0.3; color = 3]
+	"CorrelationDataProvider_50410" -> "Message_30069" [label=1; weight=1; penwidth=0.3; color = 3]
+	"DeadLetterQueueProviderConfigurerModule_23690" -> "EventProcessingConfigurer_1864" [label=1; weight=1; penwidth=0.3; color = 3]
+	"DeadLetterQueueProviderConfigurerModule_23690" -> "ConfigurerModule_883" [label=1; weight=1; penwidth=0.3; color = 3]
+	"EventProcessingConfigurer_1864" -> "Message_30069" [label=1; weight=1; penwidth=0.3; color = 3]
+	"EventProcessingConfigurer_1864" -> "MessageMonitorFactory_1859" [label=1; weight=1; penwidth=0.3; color = 3]
+	"EventStore_18455" -> "EventBus_36910" [label=1; weight=1; penwidth=0.3; color = 3]
+	"InfraConfiguration_26251" -> "HandlerDefinition_30019" [label=1; weight=1; penwidth=0.3; color = 3]
+	"InfraConfiguration_26251" -> "DefaultConfigurer_945" [label=1; weight=1; penwidth=0.3; color = 3]
+	"InfraConfiguration_26251" -> "HandlerEnhancerDefinition_30021" [label=1; weight=1; penwidth=0.3; color = 3]
+	"InfraConfiguration_26251" -> "ModuleConfiguration_886" [label=1; weight=1; penwidth=0.3; color = 3]
+	"InfraConfiguration_26251" -> "ResourceInjector_63975" [label=1; weight=1; penwidth=0.3; color = 3]
+	"InfraConfiguration_26251" -> "AxonAutoConfiguration_23665" [label=1; weight=1; penwidth=0.3; color = 3]
+	"MessageMonitorFactory_1859" -> "MessageMonitor_30079" [label=1; weight=1; penwidth=0.3; color = 3]
+	"MessageMonitorFactory_1859" -> "Message_30069" [label=1; weight=1; penwidth=0.3; color = 3]
+	"MessageMonitorFactory_1859" -> "Configuration_1026" [label=1; weight=1; penwidth=0.3; color = 3]
+	"ModuleConfiguration_886" -> "Configuration_1026" [label=1; weight=1; penwidth=0.3; color = 3]
+	"QueryBus_52883" -> "QueryUpdateEmitter_53555" [label=1; weight=1; penwidth=0.3; color = 3]
+	"ServerConnectorConfigurerModule_15747" -> "CommandBus_30171" [label=1; weight=1; penwidth=0.3; color = 3]
+	"ServerConnectorConfigurerModule_15747" -> "ConfigurerModule_883" [label=1; weight=1; penwidth=0.3; color = 3]
+	"UpdateCheckerConfigurerModule_884" -> "ConfigurerModule_883" [label=1; weight=1; penwidth=0.3; color = 3]
 }

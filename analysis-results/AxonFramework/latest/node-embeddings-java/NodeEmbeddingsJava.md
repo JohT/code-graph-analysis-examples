@@ -87,48 +87,48 @@ The following function takes the original node embeddings with a higher dimensio
   <tbody>
     <tr>
       <th>0</th>
-      <td>org.axonframework.axonserver.connector</td>
-      <td>connector</td>
-      <td>axon-server-connector-4.12.1</td>
+      <td>org.axonframework.config</td>
+      <td>config</td>
+      <td>axon-configuration-4.12.1</td>
       <td>0</td>
-      <td>1.113846</td>
-      <td>[-0.5750198364257812, -0.18252640962600708, 0....</td>
+      <td>0.334206</td>
+      <td>[-0.30584990978240967, -0.43597477674484253, -...</td>
     </tr>
     <tr>
       <th>1</th>
-      <td>org.axonframework.axonserver.connector.processor</td>
-      <td>processor</td>
-      <td>axon-server-connector-4.12.1</td>
+      <td>org.axonframework.eventsourcing.eventstore</td>
+      <td>eventstore</td>
+      <td>axon-eventsourcing-4.12.1</td>
       <td>0</td>
-      <td>0.153313</td>
-      <td>[-0.39966559410095215, 0.010545305907726288, 0...</td>
+      <td>0.448080</td>
+      <td>[0.07857677340507507, -0.20759813487529755, -0...</td>
     </tr>
     <tr>
       <th>2</th>
-      <td>org.axonframework.axonserver.connector.util</td>
-      <td>util</td>
-      <td>axon-server-connector-4.12.1</td>
+      <td>org.axonframework.eventsourcing.eventstore.inm...</td>
+      <td>inmemory</td>
+      <td>axon-eventsourcing-4.12.1</td>
       <td>0</td>
-      <td>0.295966</td>
-      <td>[-0.6393557786941528, -0.260164737701416, 0.54...</td>
+      <td>0.150000</td>
+      <td>[-0.21419624984264374, -0.12717197835445404, -...</td>
     </tr>
     <tr>
       <th>3</th>
-      <td>org.axonframework.axonserver.connector.heartbeat</td>
-      <td>heartbeat</td>
-      <td>axon-server-connector-4.12.1</td>
+      <td>org.axonframework.eventsourcing.eventstore.jdbc</td>
+      <td>jdbc</td>
+      <td>axon-eventsourcing-4.12.1</td>
       <td>0</td>
-      <td>0.175500</td>
-      <td>[-0.548539400100708, -0.26515570282936096, 0.4...</td>
+      <td>0.288513</td>
+      <td>[0.3756486177444458, -0.20795024931430817, -0....</td>
     </tr>
     <tr>
       <th>4</th>
-      <td>org.axonframework.axonserver.connector.heartbe...</td>
-      <td>source</td>
-      <td>axon-server-connector-4.12.1</td>
+      <td>org.axonframework.eventsourcing.eventstore.leg...</td>
+      <td>legacyjpa</td>
+      <td>axon-eventsourcing-4.12.1</td>
       <td>0</td>
-      <td>0.150000</td>
-      <td>[-0.5007942914962769, -0.30809512734413147, 0....</td>
+      <td>0.176842</td>
+      <td>[-0.1648130863904953, -0.14586476981639862, -0...</td>
     </tr>
   </tbody>
 </table>
@@ -151,28 +151,30 @@ This step takes the original node embeddings with a higher dimensionality, e.g. 
     ===> Calculating PCA-based initialization...
        --> Time elapsed: 0.00 seconds
     ===> Running optimization with exaggeration=12.00, lr=10.00 for 250 iterations...
-    Iteration   50, KL divergence -0.3887, 50 iterations in 0.0418 sec
-    Iteration  100, KL divergence 1.2633, 50 iterations in 0.0114 sec
-    Iteration  150, KL divergence 1.2633, 50 iterations in 0.0107 sec
-    Iteration  200, KL divergence 1.2633, 50 iterations in 0.0107 sec
-    Iteration  250, KL divergence 1.2633, 50 iterations in 0.0107 sec
+    Iteration   50, KL divergence -1.5888, 50 iterations in 0.0441 sec
+    Iteration  100, KL divergence 1.2540, 50 iterations in 0.0119 sec
+    Iteration  150, KL divergence 1.2540, 50 iterations in 0.0107 sec
+    Iteration  200, KL divergence 1.2540, 50 iterations in 0.0106 sec
+    Iteration  250, KL divergence 1.2540, 50 iterations in 0.0105 sec
        --> Time elapsed: 0.09 seconds
     ===> Running optimization with exaggeration=1.00, lr=120.00 for 500 iterations...
-    Iteration   50, KL divergence 0.1936, 50 iterations in 0.0390 sec
-    Iteration  100, KL divergence 0.1691, 50 iterations in 0.0490 sec
+    Iteration   50, KL divergence 0.2101, 50 iterations in 0.0408 sec
 
 
-    Iteration  150, KL divergence 0.1615, 50 iterations in 0.0484 sec
-    Iteration  200, KL divergence 0.1605, 50 iterations in 0.0476 sec
-    Iteration  250, KL divergence 0.1603, 50 iterations in 0.0469 sec
-    Iteration  300, KL divergence 0.1608, 50 iterations in 0.0464 sec
-    Iteration  350, KL divergence 0.1609, 50 iterations in 0.0459 sec
+    Iteration  100, KL divergence 0.1795, 50 iterations in 0.0521 sec
+    Iteration  150, KL divergence 0.1720, 50 iterations in 0.0509 sec
+    Iteration  200, KL divergence 0.1723, 50 iterations in 0.0502 sec
+    Iteration  250, KL divergence 0.1726, 50 iterations in 0.0503 sec
 
 
-    Iteration  400, KL divergence 0.1606, 50 iterations in 0.0475 sec
-    Iteration  450, KL divergence 0.1602, 50 iterations in 0.0464 sec
-    Iteration  500, KL divergence 0.1602, 50 iterations in 0.0464 sec
-       --> Time elapsed: 0.46 seconds
+    Iteration  300, KL divergence 0.1727, 50 iterations in 0.0505 sec
+    Iteration  350, KL divergence 0.1727, 50 iterations in 0.0503 sec
+    Iteration  400, KL divergence 0.1727, 50 iterations in 0.0502 sec
+    Iteration  450, KL divergence 0.1726, 50 iterations in 0.0503 sec
+
+
+    Iteration  500, KL divergence 0.1726, 50 iterations in 0.0512 sec
+       --> Time elapsed: 0.50 seconds
 
 
 
@@ -196,48 +198,48 @@ This step takes the original node embeddings with a higher dimensionality, e.g. 
   <tbody>
     <tr>
       <th>0</th>
-      <td>org.axonframework.axonserver.connector</td>
-      <td>axon-server-connector-4.12.1</td>
+      <td>org.axonframework.config</td>
+      <td>axon-configuration-4.12.1</td>
       <td>0</td>
-      <td>1.113846</td>
-      <td>5.881495</td>
-      <td>-0.742827</td>
+      <td>0.334206</td>
+      <td>-0.766347</td>
+      <td>-0.172598</td>
     </tr>
     <tr>
       <th>1</th>
-      <td>org.axonframework.axonserver.connector.processor</td>
-      <td>axon-server-connector-4.12.1</td>
+      <td>org.axonframework.eventsourcing.eventstore</td>
+      <td>axon-eventsourcing-4.12.1</td>
       <td>0</td>
-      <td>0.153313</td>
-      <td>5.730129</td>
-      <td>-2.146909</td>
+      <td>0.448080</td>
+      <td>-0.223496</td>
+      <td>-3.410651</td>
     </tr>
     <tr>
       <th>2</th>
-      <td>org.axonframework.axonserver.connector.util</td>
-      <td>axon-server-connector-4.12.1</td>
+      <td>org.axonframework.eventsourcing.eventstore.inm...</td>
+      <td>axon-eventsourcing-4.12.1</td>
       <td>0</td>
-      <td>0.295966</td>
-      <td>6.566615</td>
-      <td>-0.645798</td>
+      <td>0.150000</td>
+      <td>-3.134751</td>
+      <td>-2.677253</td>
     </tr>
     <tr>
       <th>3</th>
-      <td>org.axonframework.axonserver.connector.heartbeat</td>
-      <td>axon-server-connector-4.12.1</td>
+      <td>org.axonframework.eventsourcing.eventstore.jdbc</td>
+      <td>axon-eventsourcing-4.12.1</td>
       <td>0</td>
-      <td>0.175500</td>
-      <td>7.038410</td>
-      <td>-1.289757</td>
+      <td>0.288513</td>
+      <td>1.491382</td>
+      <td>-4.818634</td>
     </tr>
     <tr>
       <th>4</th>
-      <td>org.axonframework.axonserver.connector.heartbe...</td>
-      <td>axon-server-connector-4.12.1</td>
+      <td>org.axonframework.eventsourcing.eventstore.leg...</td>
+      <td>axon-eventsourcing-4.12.1</td>
       <td>0</td>
-      <td>0.150000</td>
-      <td>7.411040</td>
-      <td>-0.865073</td>
+      <td>0.176842</td>
+      <td>-1.558761</td>
+      <td>-2.840001</td>
     </tr>
   </tbody>
 </table>
@@ -279,48 +281,48 @@ This step takes the original node embeddings with a higher dimensionality, e.g. 
   <tbody>
     <tr>
       <th>0</th>
-      <td>org.axonframework.axonserver.connector</td>
-      <td>connector</td>
-      <td>axon-server-connector-4.12.1</td>
+      <td>org.axonframework.config</td>
+      <td>config</td>
+      <td>axon-configuration-4.12.1</td>
       <td>0</td>
-      <td>1.113846</td>
-      <td>[-0.4330126941204071, -0.21650634706020355, -0...</td>
+      <td>0.334206</td>
+      <td>[0.0, -1.0825317353010178, -2.1650634706020355...</td>
     </tr>
     <tr>
       <th>1</th>
-      <td>org.axonframework.axonserver.connector.processor</td>
-      <td>processor</td>
-      <td>axon-server-connector-4.12.1</td>
+      <td>org.axonframework.eventsourcing.eventstore</td>
+      <td>eventstore</td>
+      <td>axon-eventsourcing-4.12.1</td>
       <td>0</td>
-      <td>0.153313</td>
-      <td>[-0.8660253882408142, -1.0825317353010178, -0....</td>
+      <td>0.448080</td>
+      <td>[0.8660253882408142, -0.4330126941204071, -2.1...</td>
     </tr>
     <tr>
       <th>2</th>
-      <td>org.axonframework.axonserver.connector.util</td>
-      <td>util</td>
-      <td>axon-server-connector-4.12.1</td>
+      <td>org.axonframework.eventsourcing.eventstore.inm...</td>
+      <td>inmemory</td>
+      <td>axon-eventsourcing-4.12.1</td>
       <td>0</td>
-      <td>0.295966</td>
-      <td>[-0.6495190411806107, -0.8660253882408142, -0....</td>
+      <td>0.150000</td>
+      <td>[0.21650634706020355, -1.2990380823612213, -1....</td>
     </tr>
     <tr>
       <th>3</th>
-      <td>org.axonframework.axonserver.connector.heartbeat</td>
-      <td>heartbeat</td>
-      <td>axon-server-connector-4.12.1</td>
+      <td>org.axonframework.eventsourcing.eventstore.jdbc</td>
+      <td>jdbc</td>
+      <td>axon-eventsourcing-4.12.1</td>
       <td>0</td>
-      <td>0.175500</td>
-      <td>[-1.0825317353010178, -0.4330126941204071, -0....</td>
+      <td>0.288513</td>
+      <td>[-0.4330126941204071, 0.6495190411806107, -0.8...</td>
     </tr>
     <tr>
       <th>4</th>
-      <td>org.axonframework.axonserver.connector.heartbe...</td>
-      <td>source</td>
-      <td>axon-server-connector-4.12.1</td>
+      <td>org.axonframework.eventsourcing.eventstore.leg...</td>
+      <td>legacyjpa</td>
+      <td>axon-eventsourcing-4.12.1</td>
       <td>0</td>
-      <td>0.150000</td>
-      <td>[-0.8660253882408142, -0.6495190411806107, 0.0...</td>
+      <td>0.176842</td>
+      <td>[-0.4330126941204071, 0.0, -0.4330126941204071...</td>
     </tr>
   </tbody>
 </table>
@@ -335,32 +337,32 @@ This step takes the original node embeddings with a higher dimensionality, e.g. 
     ===> Calculating affinity matrix...
        --> Time elapsed: 0.00 seconds
     ===> Calculating PCA-based initialization...
-       --> Time elapsed: 0.01 seconds
+       --> Time elapsed: 0.00 seconds
     ===> Running optimization with exaggeration=12.00, lr=10.00 for 250 iterations...
-    Iteration   50, KL divergence -0.3186, 50 iterations in 0.0733 sec
-    Iteration  100, KL divergence 1.2788, 50 iterations in 0.0180 sec
-    Iteration  150, KL divergence 1.2788, 50 iterations in 0.0157 sec
-    Iteration  200, KL divergence 1.2788, 50 iterations in 0.0112 sec
-    Iteration  250, KL divergence 1.2788, 50 iterations in 0.0105 sec
+    Iteration   50, KL divergence -0.5267, 50 iterations in 0.0756 sec
+    Iteration  100, KL divergence 1.2667, 50 iterations in 0.0186 sec
+    Iteration  150, KL divergence 1.2667, 50 iterations in 0.0154 sec
+    Iteration  200, KL divergence 1.2667, 50 iterations in 0.0105 sec
+    Iteration  250, KL divergence 1.2667, 50 iterations in 0.0105 sec
        --> Time elapsed: 0.13 seconds
     ===> Running optimization with exaggeration=1.00, lr=120.00 for 500 iterations...
-    Iteration   50, KL divergence 0.7155, 50 iterations in 0.0405 sec
+    Iteration   50, KL divergence 0.6522, 50 iterations in 0.0394 sec
 
 
-    Iteration  100, KL divergence 0.6984, 50 iterations in 0.0549 sec
-    Iteration  150, KL divergence 0.6814, 50 iterations in 0.0551 sec
-    Iteration  200, KL divergence 0.6815, 50 iterations in 0.0532 sec
-    Iteration  250, KL divergence 0.6810, 50 iterations in 0.0535 sec
+    Iteration  100, KL divergence 0.6316, 50 iterations in 0.0532 sec
+    Iteration  150, KL divergence 0.6271, 50 iterations in 0.0526 sec
+    Iteration  200, KL divergence 0.6182, 50 iterations in 0.0521 sec
+    Iteration  250, KL divergence 0.6145, 50 iterations in 0.0511 sec
 
 
-    Iteration  300, KL divergence 0.6811, 50 iterations in 0.0537 sec
-    Iteration  350, KL divergence 0.6817, 50 iterations in 0.0533 sec
-    Iteration  400, KL divergence 0.6814, 50 iterations in 0.0532 sec
-    Iteration  450, KL divergence 0.6810, 50 iterations in 0.0533 sec
+    Iteration  300, KL divergence 0.6146, 50 iterations in 0.0532 sec
+    Iteration  350, KL divergence 0.6145, 50 iterations in 0.0534 sec
+    Iteration  400, KL divergence 0.6143, 50 iterations in 0.0526 sec
+    Iteration  450, KL divergence 0.6142, 50 iterations in 0.0526 sec
 
 
-    Iteration  500, KL divergence 0.6810, 50 iterations in 0.0541 sec
-       --> Time elapsed: 0.53 seconds
+    Iteration  500, KL divergence 0.6139, 50 iterations in 0.0532 sec
+       --> Time elapsed: 0.51 seconds
 
 
 
@@ -384,48 +386,48 @@ This step takes the original node embeddings with a higher dimensionality, e.g. 
   <tbody>
     <tr>
       <th>0</th>
-      <td>org.axonframework.axonserver.connector</td>
-      <td>axon-server-connector-4.12.1</td>
+      <td>org.axonframework.config</td>
+      <td>axon-configuration-4.12.1</td>
       <td>0</td>
-      <td>1.113846</td>
-      <td>4.526756</td>
-      <td>6.034692</td>
+      <td>0.334206</td>
+      <td>4.782391</td>
+      <td>7.311389</td>
     </tr>
     <tr>
       <th>1</th>
-      <td>org.axonframework.axonserver.connector.processor</td>
-      <td>axon-server-connector-4.12.1</td>
+      <td>org.axonframework.eventsourcing.eventstore</td>
+      <td>axon-eventsourcing-4.12.1</td>
       <td>0</td>
-      <td>0.153313</td>
-      <td>5.455003</td>
-      <td>-0.731939</td>
+      <td>0.448080</td>
+      <td>4.284111</td>
+      <td>5.161964</td>
     </tr>
     <tr>
       <th>2</th>
-      <td>org.axonframework.axonserver.connector.util</td>
-      <td>axon-server-connector-4.12.1</td>
+      <td>org.axonframework.eventsourcing.eventstore.inm...</td>
+      <td>axon-eventsourcing-4.12.1</td>
       <td>0</td>
-      <td>0.295966</td>
-      <td>-1.746614</td>
-      <td>1.059358</td>
+      <td>0.150000</td>
+      <td>-2.088771</td>
+      <td>3.318194</td>
     </tr>
     <tr>
       <th>3</th>
-      <td>org.axonframework.axonserver.connector.heartbeat</td>
-      <td>axon-server-connector-4.12.1</td>
+      <td>org.axonframework.eventsourcing.eventstore.jdbc</td>
+      <td>axon-eventsourcing-4.12.1</td>
       <td>0</td>
-      <td>0.175500</td>
-      <td>-2.650791</td>
-      <td>9.109907</td>
+      <td>0.288513</td>
+      <td>2.726944</td>
+      <td>-3.155121</td>
     </tr>
     <tr>
       <th>4</th>
-      <td>org.axonframework.axonserver.connector.heartbe...</td>
-      <td>axon-server-connector-4.12.1</td>
+      <td>org.axonframework.eventsourcing.eventstore.leg...</td>
+      <td>axon-eventsourcing-4.12.1</td>
       <td>0</td>
-      <td>0.150000</td>
-      <td>-2.948768</td>
-      <td>8.899287</td>
+      <td>0.176842</td>
+      <td>3.272036</td>
+      <td>-4.285026</td>
     </tr>
   </tbody>
 </table>
@@ -463,48 +465,48 @@ This step takes the original node embeddings with a higher dimensionality, e.g. 
   <tbody>
     <tr>
       <th>0</th>
-      <td>org.axonframework.axonserver.connector</td>
-      <td>connector</td>
-      <td>axon-server-connector-4.12.1</td>
+      <td>org.axonframework.config</td>
+      <td>config</td>
+      <td>axon-configuration-4.12.1</td>
       <td>0</td>
-      <td>1.113846</td>
-      <td>[-0.39396071434020996, 0.07275523990392685, 0....</td>
+      <td>0.334206</td>
+      <td>[0.2226441502571106, 0.14867573976516724, 0.14...</td>
     </tr>
     <tr>
       <th>1</th>
-      <td>org.axonframework.axonserver.connector.processor</td>
-      <td>processor</td>
-      <td>axon-server-connector-4.12.1</td>
+      <td>org.axonframework.eventsourcing.eventstore</td>
+      <td>eventstore</td>
+      <td>axon-eventsourcing-4.12.1</td>
       <td>0</td>
-      <td>0.153313</td>
-      <td>[-0.3243345618247986, 0.03811899200081825, 0.1...</td>
+      <td>0.448080</td>
+      <td>[0.36232540011405945, 0.24155129492282867, 0.0...</td>
     </tr>
     <tr>
       <th>2</th>
-      <td>org.axonframework.axonserver.connector.util</td>
-      <td>util</td>
-      <td>axon-server-connector-4.12.1</td>
+      <td>org.axonframework.eventsourcing.eventstore.inm...</td>
+      <td>inmemory</td>
+      <td>axon-eventsourcing-4.12.1</td>
       <td>0</td>
-      <td>0.295966</td>
-      <td>[-0.2179000824689865, 0.07832255214452744, 0.2...</td>
+      <td>0.150000</td>
+      <td>[0.23767440021038055, 0.415610134601593, 0.109...</td>
     </tr>
     <tr>
       <th>3</th>
-      <td>org.axonframework.axonserver.connector.heartbeat</td>
-      <td>heartbeat</td>
-      <td>axon-server-connector-4.12.1</td>
+      <td>org.axonframework.eventsourcing.eventstore.jdbc</td>
+      <td>jdbc</td>
+      <td>axon-eventsourcing-4.12.1</td>
       <td>0</td>
-      <td>0.175500</td>
-      <td>[-0.16102249920368195, 0.1522900015115738, 0.2...</td>
+      <td>0.288513</td>
+      <td>[0.2834625840187073, 0.5544245839118958, -0.23...</td>
     </tr>
     <tr>
       <th>4</th>
-      <td>org.axonframework.axonserver.connector.heartbe...</td>
-      <td>source</td>
-      <td>axon-server-connector-4.12.1</td>
+      <td>org.axonframework.eventsourcing.eventstore.leg...</td>
+      <td>legacyjpa</td>
+      <td>axon-eventsourcing-4.12.1</td>
       <td>0</td>
-      <td>0.150000</td>
-      <td>[-0.3052321672439575, -0.08087433874607086, 0....</td>
+      <td>0.176842</td>
+      <td>[0.43255606293678284, 0.23510006070137024, -0....</td>
     </tr>
   </tbody>
 </table>
@@ -521,29 +523,27 @@ This step takes the original node embeddings with a higher dimensionality, e.g. 
     ===> Calculating PCA-based initialization...
        --> Time elapsed: 0.00 seconds
     ===> Running optimization with exaggeration=12.00, lr=10.00 for 250 iterations...
-    Iteration   50, KL divergence -0.8652, 50 iterations in 0.0500 sec
-    Iteration  100, KL divergence 1.2170, 50 iterations in 0.0124 sec
-    Iteration  150, KL divergence 1.2170, 50 iterations in 0.0110 sec
-    Iteration  200, KL divergence 1.2170, 50 iterations in 0.0108 sec
-    Iteration  250, KL divergence 1.2170, 50 iterations in 0.0108 sec
-       --> Time elapsed: 0.10 seconds
+    Iteration   50, KL divergence -0.7496, 50 iterations in 0.0480 sec
+    Iteration  100, KL divergence 1.2086, 50 iterations in 0.0125 sec
+    Iteration  150, KL divergence 1.2086, 50 iterations in 0.0110 sec
+    Iteration  200, KL divergence 1.2086, 50 iterations in 0.0111 sec
+    Iteration  250, KL divergence 1.2086, 50 iterations in 0.0110 sec
+       --> Time elapsed: 0.09 seconds
     ===> Running optimization with exaggeration=1.00, lr=120.00 for 500 iterations...
-    Iteration   50, KL divergence 0.3389, 50 iterations in 0.0421 sec
+    Iteration   50, KL divergence 0.3017, 50 iterations in 0.0413 sec
+    Iteration  100, KL divergence 0.2813, 50 iterations in 0.0539 sec
 
 
-    Iteration  100, KL divergence 0.3001, 50 iterations in 0.0549 sec
-    Iteration  150, KL divergence 0.2718, 50 iterations in 0.0556 sec
-    Iteration  200, KL divergence 0.2680, 50 iterations in 0.0540 sec
-    Iteration  250, KL divergence 0.2674, 50 iterations in 0.0535 sec
+    Iteration  150, KL divergence 0.2771, 50 iterations in 0.0559 sec
+    Iteration  200, KL divergence 0.2772, 50 iterations in 0.0545 sec
+    Iteration  250, KL divergence 0.2772, 50 iterations in 0.0544 sec
+    Iteration  300, KL divergence 0.2775, 50 iterations in 0.0548 sec
 
 
-    Iteration  300, KL divergence 0.2646, 50 iterations in 0.0541 sec
-    Iteration  350, KL divergence 0.2647, 50 iterations in 0.0531 sec
-    Iteration  400, KL divergence 0.2645, 50 iterations in 0.0527 sec
-    Iteration  450, KL divergence 0.2643, 50 iterations in 0.0536 sec
-
-
-    Iteration  500, KL divergence 0.2643, 50 iterations in 0.0543 sec
+    Iteration  350, KL divergence 0.2775, 50 iterations in 0.0553 sec
+    Iteration  400, KL divergence 0.2776, 50 iterations in 0.0546 sec
+    Iteration  450, KL divergence 0.2776, 50 iterations in 0.0545 sec
+    Iteration  500, KL divergence 0.2775, 50 iterations in 0.0549 sec
        --> Time elapsed: 0.53 seconds
 
 
@@ -568,48 +568,48 @@ This step takes the original node embeddings with a higher dimensionality, e.g. 
   <tbody>
     <tr>
       <th>0</th>
-      <td>org.axonframework.axonserver.connector</td>
-      <td>axon-server-connector-4.12.1</td>
+      <td>org.axonframework.config</td>
+      <td>axon-configuration-4.12.1</td>
       <td>0</td>
-      <td>1.113846</td>
-      <td>1.724860</td>
-      <td>4.489148</td>
+      <td>0.334206</td>
+      <td>0.095971</td>
+      <td>0.386140</td>
     </tr>
     <tr>
       <th>1</th>
-      <td>org.axonframework.axonserver.connector.processor</td>
-      <td>axon-server-connector-4.12.1</td>
+      <td>org.axonframework.eventsourcing.eventstore</td>
+      <td>axon-eventsourcing-4.12.1</td>
       <td>0</td>
-      <td>0.153313</td>
-      <td>1.130380</td>
-      <td>4.005236</td>
+      <td>0.448080</td>
+      <td>-2.471196</td>
+      <td>2.014595</td>
     </tr>
     <tr>
       <th>2</th>
-      <td>org.axonframework.axonserver.connector.util</td>
-      <td>axon-server-connector-4.12.1</td>
+      <td>org.axonframework.eventsourcing.eventstore.inm...</td>
+      <td>axon-eventsourcing-4.12.1</td>
       <td>0</td>
-      <td>0.295966</td>
-      <td>1.535235</td>
-      <td>5.880334</td>
+      <td>0.150000</td>
+      <td>-2.333395</td>
+      <td>-0.752742</td>
     </tr>
     <tr>
       <th>3</th>
-      <td>org.axonframework.axonserver.connector.heartbeat</td>
-      <td>axon-server-connector-4.12.1</td>
+      <td>org.axonframework.eventsourcing.eventstore.jdbc</td>
+      <td>axon-eventsourcing-4.12.1</td>
       <td>0</td>
-      <td>0.175500</td>
-      <td>2.395984</td>
-      <td>5.486019</td>
+      <td>0.288513</td>
+      <td>-4.594117</td>
+      <td>4.599850</td>
     </tr>
     <tr>
       <th>4</th>
-      <td>org.axonframework.axonserver.connector.heartbe...</td>
-      <td>axon-server-connector-4.12.1</td>
+      <td>org.axonframework.eventsourcing.eventstore.leg...</td>
+      <td>axon-eventsourcing-4.12.1</td>
       <td>0</td>
-      <td>0.150000</td>
-      <td>0.373389</td>
-      <td>1.293488</td>
+      <td>0.176842</td>
+      <td>-3.614905</td>
+      <td>2.021970</td>
     </tr>
   </tbody>
 </table>
@@ -618,6 +618,6 @@ This step takes the original node embeddings with a higher dimensionality, e.g. 
 
 
     
-![png](NodeEmbeddingsJava_files/NodeEmbeddingsJava_25_9.png)
+![png](NodeEmbeddingsJava_files/NodeEmbeddingsJava_25_8.png)
     
 

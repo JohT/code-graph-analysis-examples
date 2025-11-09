@@ -14,33 +14,33 @@ strict digraph TopHub1 {
 
 	graph   [label="Top Rank #1 Java Type Hub\norg.axonframework.common.AxonNonTransientException\n\nnodes: incoming dependencies (limited max. 40)\nnode value: local clustering coefficient\nthick outline: <1 0% percentile of local clustering coefficient\n\n"];
 	central [label="🎡 hub #1\nAxonNonTransientException\n(in-degree=26)"];
-	"AggregateEntityNotFoundException_9281"  [label = "AggregateEntityNotFoundException\n(0.0)"; penwidth = 5; ]; "AggregateEntityNotFoundException_9281" -> central [label=3; weight=3; penwidth=0.4];
-	"AggregateNotFoundException_8592"  [label = "AggregateNotFoundException\n(0.14)"; penwidth = 2; ]; "AggregateNotFoundException_8592" -> central [label=3; weight=3; penwidth=0.4];
-	"AxonConfigurationException_28369"  [label = "AxonConfigurationException\n(0.04)"; penwidth = 5; ]; "AxonConfigurationException_28369" -> central [label=3; weight=3; penwidth=0.4];
-	"ConflictingModificationException_9285"  [label = "ConflictingModificationException\n(0.0)"; penwidth = 5; ]; "ConflictingModificationException_9285" -> central [label=3; weight=3; penwidth=0.4];
-	"EventStoreException_17852"  [label = "EventStoreException\n(0.1)"; penwidth = 2; ]; "EventStoreException_17852" -> central [label=3; weight=3; penwidth=0.4];
-	"FixtureExecutionException_62990"  [label = "FixtureExecutionException\n(0.25)"; penwidth = 2; ]; "FixtureExecutionException_62990" -> central [label=3; weight=3; penwidth=0.4];
-	"IllegalPayloadAccessException_45123"  [label = "IllegalPayloadAccessException\n(0.0)"; penwidth = 5; ]; "IllegalPayloadAccessException_45123" -> central [label=3; weight=3; penwidth=0.4];
-	"IncompatibleAggregateException_16823"  [label = "IncompatibleAggregateException\n(0.0)"; penwidth = 5; ]; "IncompatibleAggregateException_16823" -> central [label=3; weight=3; penwidth=0.4];
-	"LifecycleHandlerInvocationException_44783"  [label = "LifecycleHandlerInvocationException\n(0.0)"; penwidth = 5; ]; "LifecycleHandlerInvocationException_44783" -> central [label=3; weight=3; penwidth=0.4];
-	"MatcherExecutionException_67177"  [label = "MatcherExecutionException\n(0.0)"; penwidth = 5; ]; "MatcherExecutionException_67177" -> central [label=3; weight=3; penwidth=0.4];
-	"NoHandlerForQueryException_50107"  [label = "NoHandlerForQueryException\n(0.2)"; penwidth = 2; ]; "NoHandlerForQueryException_50107" -> central [label=3; weight=3; penwidth=0.4];
-	"ResetNotSupportedException_35722"  [label = "ResetNotSupportedException\n(0.17)"; penwidth = 2; ]; "ResetNotSupportedException_35722" -> central [label=3; weight=3; penwidth=0.4];
-	"SerializationException_53543"  [label = "SerializationException\n(0.1)"; penwidth = 2; ]; "SerializationException_53543" -> central [label=3; weight=3; penwidth=0.4];
-	"CompletedEmitterException_49198"  [label = "CompletedEmitterException\n(0.0)"; penwidth = 5; ]; "CompletedEmitterException_49198" -> central [label=2; weight=2; penwidth=0.4];
-	"DuplicateCommandHandlerSubscriptionException_26400"  [label = "DuplicateCommandHandlerSubscriptionException\n(0.33)"; penwidth = 2; ]; "DuplicateCommandHandlerSubscriptionException_26400" -> central [label=2; weight=2; penwidth=0.4];
-	"DuplicateQueryHandlerSubscriptionException_52497"  [label = "DuplicateQueryHandlerSubscriptionException\n(0.33)"; penwidth = 2; ]; "DuplicateQueryHandlerSubscriptionException_52497" -> central [label=2; weight=2; penwidth=0.4];
-	"JSR303ViolationException_48283"  [label = "JSR303ViolationException\n(0.0)"; penwidth = 5; ]; "JSR303ViolationException_48283" -> central [label=2; weight=2; penwidth=0.4];
-	"JSR303ViolationException_48282"  [label = "JSR303ViolationException\n(0.0)"; penwidth = 5; ]; "JSR303ViolationException_48282" -> central [label=2; weight=2; penwidth=0.4];
-	"RemoteNonTransientHandlingException_29263"  [label = "RemoteNonTransientHandlingException\n(0.3)"; penwidth = 2; ]; "RemoteNonTransientHandlingException_29263" -> central [label=2; weight=2; penwidth=0.4];
-	"SagaCreationException_13677"  [label = "SagaCreationException\n(0.0)"; penwidth = 5; ]; "SagaCreationException_13677" -> central [label=2; weight=2; penwidth=0.4];
-	"SagaInstantiationException_12627"  [label = "SagaInstantiationException\n(0.0)"; penwidth = 5; ]; "SagaInstantiationException_12627" -> central [label=2; weight=2; penwidth=0.4];
-	"ShutdownInProgressException_45122"  [label = "ShutdownInProgressException\n(0.0)"; penwidth = 5; ]; "ShutdownInProgressException_45122" -> central [label=2; weight=2; penwidth=0.4];
-	"AxonNonTransientExceptionClassesPredicate_29276"  [label = "AxonNonTransientExceptionClassesPredicate\n(0.0)"; penwidth = 5; ]; "AxonNonTransientExceptionClassesPredicate_29276" -> central [label=1; weight=1; penwidth=0.4];
-	"ExceptionUtils_31101"  [label = "ExceptionUtils\n(0.04)"; penwidth = 5; ]; "ExceptionUtils_31101" -> central [label=1; weight=1; penwidth=0.4];
-	"QuartzDeadlineManager$Builder_34473"  [label = "QuartzDeadlineManager$\nBuilder\n(0.15)"; penwidth = 2; ]; "QuartzDeadlineManager$Builder_34473" -> central [label=1; weight=1; penwidth=0.4];
-	"TrackingEventProcessor$WorkerLauncher_37651"  [label = "TrackingEventProcessor$\nWorkerLauncher\n(0.22)"; penwidth = 2; ]; "TrackingEventProcessor$WorkerLauncher_37651" -> central [label=1; weight=1; penwidth=0.4];
-	"AxonException_28056"  [label = "AxonException\n(0.02)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "AxonException_28056" [label=3; weight=3; penwidth=0.4; color = 5];
-	"QuartzDeadlineManager$Builder_34473" -> "AxonConfigurationException_28369" [label=1; weight=1; penwidth=0.3; color = 3]
-	"QuartzDeadlineManager$Builder_34473" -> "ExceptionUtils_31101" [label=1; weight=1; penwidth=0.3; color = 3]
+	"AggregateEntityNotFoundException_60736"  [label = "AggregateEntityNotFoundException\n(0.0)"; penwidth = 5; ]; "AggregateEntityNotFoundException_60736" -> central [label=3; weight=3; penwidth=0.4];
+	"AggregateNotFoundException_59944"  [label = "AggregateNotFoundException\n(0.14)"; penwidth = 2; ]; "AggregateNotFoundException_59944" -> central [label=3; weight=3; penwidth=0.4];
+	"AxonConfigurationException_31506"  [label = "AxonConfigurationException\n(0.04)"; penwidth = 5; ]; "AxonConfigurationException_31506" -> central [label=3; weight=3; penwidth=0.4];
+	"ConflictingModificationException_61739"  [label = "ConflictingModificationException\n(0.0)"; penwidth = 5; ]; "ConflictingModificationException_61739" -> central [label=3; weight=3; penwidth=0.4];
+	"EventStoreException_19967"  [label = "EventStoreException\n(0.1)"; penwidth = 2; ]; "EventStoreException_19967" -> central [label=3; weight=3; penwidth=0.4];
+	"FixtureExecutionException_5238"  [label = "FixtureExecutionException\n(0.25)"; penwidth = 2; ]; "FixtureExecutionException_5238" -> central [label=3; weight=3; penwidth=0.4];
+	"IllegalPayloadAccessException_48313"  [label = "IllegalPayloadAccessException\n(0.0)"; penwidth = 5; ]; "IllegalPayloadAccessException_48313" -> central [label=3; weight=3; penwidth=0.4];
+	"IncompatibleAggregateException_19712"  [label = "IncompatibleAggregateException\n(0.0)"; penwidth = 5; ]; "IncompatibleAggregateException_19712" -> central [label=3; weight=3; penwidth=0.4];
+	"LifecycleHandlerInvocationException_48105"  [label = "LifecycleHandlerInvocationException\n(0.0)"; penwidth = 5; ]; "LifecycleHandlerInvocationException_48105" -> central [label=3; weight=3; penwidth=0.4];
+	"MatcherExecutionException_9431"  [label = "MatcherExecutionException\n(0.0)"; penwidth = 5; ]; "MatcherExecutionException_9431" -> central [label=3; weight=3; penwidth=0.4];
+	"NoHandlerForQueryException_53360"  [label = "NoHandlerForQueryException\n(0.2)"; penwidth = 2; ]; "NoHandlerForQueryException_53360" -> central [label=3; weight=3; penwidth=0.4];
+	"ResetNotSupportedException_38875"  [label = "ResetNotSupportedException\n(0.17)"; penwidth = 2; ]; "ResetNotSupportedException_38875" -> central [label=3; weight=3; penwidth=0.4];
+	"SerializationException_56622"  [label = "SerializationException\n(0.1)"; penwidth = 2; ]; "SerializationException_56622" -> central [label=3; weight=3; penwidth=0.4];
+	"CompletedEmitterException_52506"  [label = "CompletedEmitterException\n(0.0)"; penwidth = 5; ]; "CompletedEmitterException_52506" -> central [label=2; weight=2; penwidth=0.4];
+	"DuplicateCommandHandlerSubscriptionException_31536"  [label = "DuplicateCommandHandlerSubscriptionException\n(0.33)"; penwidth = 2; ]; "DuplicateCommandHandlerSubscriptionException_31536" -> central [label=2; weight=2; penwidth=0.4];
+	"DuplicateQueryHandlerSubscriptionException_55479"  [label = "DuplicateQueryHandlerSubscriptionException\n(0.33)"; penwidth = 2; ]; "DuplicateQueryHandlerSubscriptionException_55479" -> central [label=2; weight=2; penwidth=0.4];
+	"JSR303ViolationException_51439"  [label = "JSR303ViolationException\n(0.0)"; penwidth = 5; ]; "JSR303ViolationException_51439" -> central [label=2; weight=2; penwidth=0.4];
+	"JSR303ViolationException_51438"  [label = "JSR303ViolationException\n(0.0)"; penwidth = 5; ]; "JSR303ViolationException_51438" -> central [label=2; weight=2; penwidth=0.4];
+	"RemoteNonTransientHandlingException_32385"  [label = "RemoteNonTransientHandlingException\n(0.3)"; penwidth = 2; ]; "RemoteNonTransientHandlingException_32385" -> central [label=2; weight=2; penwidth=0.4];
+	"SagaCreationException_65086"  [label = "SagaCreationException\n(0.0)"; penwidth = 5; ]; "SagaCreationException_65086" -> central [label=2; weight=2; penwidth=0.4];
+	"SagaInstantiationException_64035"  [label = "SagaInstantiationException\n(0.0)"; penwidth = 5; ]; "SagaInstantiationException_64035" -> central [label=2; weight=2; penwidth=0.4];
+	"ShutdownInProgressException_48311"  [label = "ShutdownInProgressException\n(0.0)"; penwidth = 5; ]; "ShutdownInProgressException_48311" -> central [label=2; weight=2; penwidth=0.4];
+	"AxonNonTransientExceptionClassesPredicate_33560"  [label = "AxonNonTransientExceptionClassesPredicate\n(0.0)"; penwidth = 5; ]; "AxonNonTransientExceptionClassesPredicate_33560" -> central [label=1; weight=1; penwidth=0.4];
+	"ExceptionUtils_34670"  [label = "ExceptionUtils\n(0.04)"; penwidth = 5; ]; "ExceptionUtils_34670" -> central [label=1; weight=1; penwidth=0.4];
+	"QuartzDeadlineManager$Builder_37657"  [label = "QuartzDeadlineManager$\nBuilder\n(0.15)"; penwidth = 2; ]; "QuartzDeadlineManager$Builder_37657" -> central [label=1; weight=1; penwidth=0.4];
+	"TrackingEventProcessor$WorkerLauncher_41489"  [label = "TrackingEventProcessor$\nWorkerLauncher\n(0.22)"; penwidth = 2; ]; "TrackingEventProcessor$WorkerLauncher_41489" -> central [label=1; weight=1; penwidth=0.4];
+	"AxonException_32357"  [label = "AxonException\n(0.02)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "AxonException_32357" [label=3; weight=3; penwidth=0.4; color = 5];
+	"QuartzDeadlineManager$Builder_37657" -> "ExceptionUtils_34670" [label=1; weight=1; penwidth=0.3; color = 3]
+	"QuartzDeadlineManager$Builder_37657" -> "AxonConfigurationException_31506" [label=1; weight=1; penwidth=0.3; color = 3]
 }

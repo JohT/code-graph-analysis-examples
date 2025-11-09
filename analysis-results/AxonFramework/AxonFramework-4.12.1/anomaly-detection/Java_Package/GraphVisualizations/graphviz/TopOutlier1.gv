@@ -12,15 +12,24 @@ strict digraph TopOutlier1 {
     central [fontsize = 16;];
     central [color = 7; fillcolor = 5; penwidth = 3;];
 
-	graph   [label="Top Rank #1 Java Package Outlier\norg.axonframework.modelling.saga.repository.inmemory\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: cluster probability\nlarge circle: < 25% percentile of cluster probability\nthick outline: > 80% percentile of distance to cluster center\n\n"];
-	central [label="🧩 outlier #1\ninmemory"];
-	"saga_62569"  [label = "saga\n(100.0%)"; penwidth = 2; ]; "saga_62569" -> central [label=10; weight=10; penwidth=0.5];
-	"config_58498"  [shape = "circle"; height=1.8; label = "config\n(0.0%)"; penwidth = 2; ]; "config_58498" -> central [label=1; weight=1; penwidth=0.4];
-	"saga_12626"  [label = "saga\n(100.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "saga_12626" [label=7; weight=7; penwidth=0.5; color = 5];
-	"repository_13663"  [label = "repository\n(100.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "repository_13663" [label=1; weight=1; penwidth=0.4; color = 5];
-	"repository_13663" -> "saga_12626" [label=71; weight=71; penwidth=0.3; color = 3]
-	"config_58498" -> "saga_12626" [label=29; weight=29; penwidth=0.3; color = 3]
-	"saga_62569" -> "saga_12626" [label=20; weight=20; penwidth=0.3; color = 3]
-	"config_58498" -> "repository_13663" [label=14; weight=14; penwidth=0.3; color = 3]
-	"saga_62569" -> "repository_13663" [label=8; weight=8; penwidth=0.3; color = 3]
+	graph   [label="Top Rank #1 Java Package Outlier\norg.axonframework.springboot.util\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: cluster probability\nlarge circle: < 25% percentile of cluster probability\nthick outline: > 80% percentile of distance to cluster center\n\n"];
+	central [label="🧩 outlier #1\nutil"];
+	"autoconfig_23581"  [shape = "circle"; height=1.8; label = "autoconfig\n(63.07%)"; penwidth = 2; ]; "autoconfig_23581" -> central [label=17; weight=17; penwidth=0.6];
+	"legacyjpa_23582"  [shape = "circle"; height=1.8; label = "legacyjpa\n(54.02%)"; penwidth = 5; ]; "legacyjpa_23582" -> central [label=5; weight=5; penwidth=0.5];
+	"springboot_23578"  [label = "springboot\n(100.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "springboot_23578" [label=8; weight=8; penwidth=0.5; color = 5];
+	"config_994"  [label = "config\n(86.14%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "config_994" [label=1; weight=1; penwidth=0.4; color = 5];
+	"deadletter_51124"  [label = "deadletter\n(100.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "deadletter_51124" [label=0; weight=0; penwidth=0.4; color = 5];
+	"eventhandling_37818"  [label = "eventhandling\n(76.44%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "eventhandling_37818" [label=0; weight=0; penwidth=0.4; color = 5];
+	"autoconfig_23581" -> "springboot_23578" [label=190; weight=190; penwidth=0.3; color = 3]
+	"config_994" -> "eventhandling_37818" [label=118; weight=118; penwidth=0.3; color = 3]
+	"autoconfig_23581" -> "config_994" [label=47; weight=47; penwidth=0.3; color = 3]
+	"autoconfig_23581" -> "eventhandling_37818" [label=29; weight=29; penwidth=0.3; color = 3]
+	"config_994" -> "deadletter_51124" [label=8; weight=8; penwidth=0.3; color = 3]
+	"legacyjpa_23582" -> "autoconfig_23581" [label=6; weight=6; penwidth=0.3; color = 3]
+	"legacyjpa_23582" -> "springboot_23578" [label=5; weight=5; penwidth=0.3; color = 3]
+	"springboot_23578" -> "config_994" [label=3; weight=3; penwidth=0.3; color = 3]
+	"legacyjpa_23582" -> "config_994" [label=1; weight=1; penwidth=0.3; color = 3]
+	"autoconfig_23581" -> "deadletter_51124" [label=0; weight=0; penwidth=0.3; color = 3]
+	"legacyjpa_23582" -> "eventhandling_37818" [label=0; weight=0; penwidth=0.3; color = 3]
+	"legacyjpa_23582" -> "deadletter_51124" [label=0; weight=0; penwidth=0.3; color = 3]
 }
