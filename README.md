@@ -171,7 +171,7 @@ Based on a fully fledged anomaly detection model combining multiple graph-based 
 
 <img src="./analysis-results/AxonFramework/latest/anomaly-detection/Java_Type/Anomalies.svg" width="600" alt="Java Type Anomalies">
 
-The following treemap shows the distribution of different anomaly types across the codebase:
+The following treemap shows the distribution of anomaly scores across the codebase:
 
 <img src="./analysis-results/AxonFramework/latest/anomaly-detection/JavaTreemap1AverageAnomalyScorePerDirectory.svg" width="600" alt="Java Type Anomalies Treemap">
 
