@@ -23,8 +23,7 @@ The process involves three steps:
 - [:page_facing_up: License](#page_facing_up-license)
 - [:bar_chart: Analysis Results](#bar_chart-analysis-results)
     - [External Dependencies of Java Packages](#external-dependencies-of-java-packages)
-    - [Dependencies Graph of Java Artifacts](#dependencies-graph-of-java-artifacts)
-    - [Longest Paths of Java Artifacts](#longest-paths-of-java-artifacts)
+    - [Java Artifact Dependencies including Longest Paths](#java-artifact-dependencies-including-longest-paths)
     - [All Pairs Shortest Paths of Java Packages per Artifact](#all-pairs-shortest-paths-of-java-packages-per-artifact)
     - [Object-Oriented Design Metrics for Java Packages](#object-oriented-design-metrics-for-java-packages)
     - [Effective Line Count of Java Methods](#effective-line-count-of-java-methods)
@@ -112,11 +111,7 @@ Below are examples drawn from more than a hundred reports produced by the analys
 
 <img src="./analysis-results/AxonFramework/latest/external-dependencies-java/ExternalDependenciesJava_files/ExternalDependenciesJava_19_1.png" width="600" alt="External dependencies of Java packages">
 
-### Dependencies Graph of Java Artifacts
-
-<img src="./analysis-results/AxonFramework/latest/internal-dependencies-visualization/JavaArtifactBuildLevels.svg" width="600" alt="Dependencies graph of Java artifacts">
-
-### Longest Path(s) of Java Artifacts
+### Java Artifact Dependencies including Longest Path(s)
 
 <img src="./analysis-results/AxonFramework/latest/path-finding-visualization/JavaArtifactLongestPaths.svg" width="600" alt="Longest path of Java artifacts">
 
