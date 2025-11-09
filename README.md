@@ -38,6 +38,7 @@ The process involves three steps:
     - [Java Types that are surprisingly central or popular](#java-types-that-are-surprisingly-central-or-popular)
     - [Largest Java Type Clusters](#largest-java-type-clusters)
     - [Java Type Anomalies](#java-type-anomalies)
+    - [Java Archetypes Treemap](#java-archetypes-treemap)
     - [Java Type Top 1 Authority](#java-type-top-1-authority)
     - [Java Type Top 1 Bottleneck](#java-type-top-1-bottleneck)
     - [Java Type Top 1 Bridge](#java-type-top-1-bridge)
@@ -173,36 +174,46 @@ The scatter plot below compares the importance of Java types to the density of t
 
 Based on a fully fledged anomaly detection model combining multiple graph-based features (centrality, clustering, node embeddings), the following visualization highlights various types of anomalous Java types in the codebase in contrast to some "very normal" types.
 
-<img src="./analysis-results/AxonFramework/AxonFramework-4.12.1/anomaly-detection/Java_Type/Anomalies.svg" width="600" alt="Java Type Anomalies">
+<img src="./analysis-results/AxonFramework/latest/anomaly-detection/Java_Type/Anomalies.svg" width="600" alt="Java Type Anomalies">
+
+The following treemap shows the distribution of different anomaly types across the codebase:
+
+<img src="./analysis-results/AxonFramework/latest/anomaly-detection/JavaTreemap1AverageAnomalyScorePerDirectory.svg" width="600" alt="Java Type Anomalies Treemap">
 
 The full Markdown report describing all detected anomalies readable for humans and large language models can be found here: [Anomaly Detection Report](./analysis-results/AxonFramework/AxonFramework-4.12.1/anomaly-detection/anomaly_detection_report.md).
+
+### Java Archetypes Treemap
+
+The following treemap visualizes the distribution of Java archetypes (Authority, Bottleneck, Bridge, Hub, Outlier)  across different directories in the codebase. Each rectangle represents a directory. The color coding indicates the type and the strength of archetype, allowing for quick identification of architectural patterns and potential areas of concern within the project's structure.
+
+<img src="./analysis-results/AxonFramework/latest/anomaly-detection/JavaTreemap2ArchetypesOverviewPerDirectory.svg" width="600" alt="Java Archetypes Treemap">
 
 ### Java Type Top 1 Authority
 
 An "Authority" is a code unit many important parts depend on: it has high global importance (PageRank) but low local support (ArticleRank). A large PageRank − ArticleRank gap flags widely used utilities or entry points that are central but not well supported locally.
 
-<img src="./analysis-results/AxonFramework/AxonFramework-4.12.1/anomaly-detection/Java_Type/GraphVisualizations/TopAuthority1.svg" width="600" alt="Top 1 Java Type Authority Graph Visualization">
+<img src="./analysis-results/AxonFramework/latest/anomaly-detection/Java_Type/GraphVisualizations/TopAuthority1.svg" width="600" alt="Top 1 Java Type Authority Graph Visualization">
 
 ### Java Type Top 1 Bottleneck
 
 A "Bottleneck" is a code unit with exceptionally high Betweenness centrality — it lies on many shortest paths between other nodes, so it mediates a large fraction of dependency flows and is a potential single point of failure or architectural hotspot. Potentially an unintended dependency concentration: if removed, communication between modules breaks.
 
-<img src="./analysis-results/AxonFramework/AxonFramework-4.12.1/anomaly-detection/Java_Type/GraphVisualizations/TopBottleneck1.svg" width="600" alt="Top 1 Java Type Bottleneck Graph Visualization">
+<img src="./analysis-results/AxonFramework/latest/anomaly-detection/Java_Type/GraphVisualizations/TopBottleneck1.svg" width="600" alt="Top 1 Java Type Bottleneck Graph Visualization">
 
 ### Java Type Top 1 Bridge
 
 A "Bridge" is a code unit that connects different parts of the codebase. It is detected as an anomaly with a high contribution of node embedding features, which encode the structural position in the graph. It shows code that might integrate various layers or boundaries (e.g., API facades) or violates architecture (tangled dependencies).
 
-<img src="./analysis-results/AxonFramework/AxonFramework-4.12.1/anomaly-detection/Java_Type/GraphVisualizations/TopBridge1.svg" width="600" alt="Top 1 Java Type Bridge Graph Visualization">
+<img src="./analysis-results/AxonFramework/latest/anomaly-detection/Java_Type/GraphVisualizations/TopBridge1.svg" width="600" alt="Top 1 Java Type Bridge Graph Visualization">
 
 ### Java Type Top 1 Hub
 
 A "Hub" is a code unit with a high out-degree (many dependencies) but low clustering coefficient (its neighbors are not well connected). Hubs are central dependencies that many other parts rely on, making them potential fragile hotspots in the architecture. The low clustering coefficient indicates that these hubs may not be well integrated into the surrounding code, increasing the risk of failure if the hub encounters issues.
 
-<img src="./analysis-results/AxonFramework/AxonFramework-4.12.1/anomaly-detection/Java_Type/GraphVisualizations/TopHub1.svg" width="600" alt="Top 1 Java Type Hub Graph Visualization">
+<img src="./analysis-results/AxonFramework/latest/anomaly-detection/Java_Type/GraphVisualizations/TopHub1.svg" width="600" alt="Top 1 Java Type Hub Graph Visualization">
 
 ### Java Type Top 1 Outlier
 
 A "Outlier" is a code unit that significantly deviates from typical patterns in the codebase. It has a low clustering probability and a high distance to the nearest cluster centroid in the node embedding space. This indicates that the outlier has a unique structural position in the dependency graph, potentially representing specialized functionality or an architectural anomaly.
 
-<img src="./analysis-results/AxonFramework/AxonFramework-4.12.1/anomaly-detection/Java_Type/GraphVisualizations/TopOutlier1.svg" width="600" alt="Top 1 Java Type Outlier Graph Visualization">
+<img src="./analysis-results/AxonFramework/latest/anomaly-detection/Java_Type/GraphVisualizations/TopOutlier1.svg" width="600" alt="Top 1 Java Type Outlier Graph Visualization">
