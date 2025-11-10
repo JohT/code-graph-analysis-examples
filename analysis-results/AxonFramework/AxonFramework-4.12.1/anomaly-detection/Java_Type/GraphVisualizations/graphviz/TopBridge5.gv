@@ -12,12 +12,36 @@ strict digraph TopBridge5 {
     central [fontsize = 16;];
     central [color = 7; fillcolor = 5; penwidth = 3;];
 
-	graph   [label="Top Rank #5 Java Type Bridge\norg.axonframework.updates.api.DetectedVulnerabilitySeverity\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
-	central [label="🌉 bridge #5\nDetectedVulnerabilitySeverity"];
-	"DetectedVulnerability_58675" [label = "DetectedVulnerability"; ]; "DetectedVulnerability_58675" -> central [label=3; weight=3; penwidth=0.4];
-	"UpdateCheckResponse_58783" [label = "UpdateCheckResponse"; ]; "UpdateCheckResponse_58783" -> central [label=3; weight=3; penwidth=0.4];
-	"LoggingUpdateCheckerReporter_58672" [label = "LoggingUpdateCheckerReporter"; ]; "LoggingUpdateCheckerReporter_58672" -> central [label=2; weight=2; penwidth=0.4];
-	"LoggingUpdateCheckerReporter_58672" -> "DetectedVulnerability_58675" [label=12; weight=12; penwidth=0.3; color = 3]
-	"LoggingUpdateCheckerReporter_58672" -> "UpdateCheckResponse_58783" [label=10; weight=10; penwidth=0.3; color = 3]
-	"UpdateCheckResponse_58783" -> "DetectedVulnerability_58675" [label=7; weight=7; penwidth=0.3; color = 3]
+	graph   [label="Top Rank #5 Java Type Bridge\norg.axonframework.axonserver.connector.event.axon.PersistentStreamConnection\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
+	central [label="🌉 bridge #5\nPersistentStreamConnection"];
+	"PersistentStreamConnection$SegmentConnection$ProcessingState_14690" [label = "PersistentStreamConnection$\nSegmentConnection$\nProcessingState"; ]; "PersistentStreamConnection$SegmentConnection$ProcessingState_14690" -> central [label=14; weight=14; penwidth=0.6];
+	"PersistentStreamConnection$SegmentConnection_14368" [label = "PersistentStreamConnection$\nSegmentConnection"; ]; "PersistentStreamConnection$SegmentConnection_14368" -> central [label=9; weight=9; penwidth=0.5];
+	"PersistentStreamConnection$SegmentConnection$RetryState_14369" [label = "PersistentStreamConnection$\nSegmentConnection$\nRetryState"; ]; "PersistentStreamConnection$SegmentConnection$RetryState_14369" -> central [label=5; weight=5; penwidth=0.5];
+	"PersistentStreamMessageSource_14379" [label = "PersistentStreamMessageSource"; ]; "PersistentStreamMessageSource_14379" -> central [label=5; weight=5; penwidth=0.5];
+	"PersistentStreamConnection$1_14691" [label = "PersistentStreamConnection$\n1"; ]; "PersistentStreamConnection$1_14691" -> central [label=1; weight=1; penwidth=0.4];
+	"Configuration_925" [label = "Configuration"; color = 5; fillcolor = 1; ]; central -> "Configuration_925" [label=6; weight=6; penwidth=0.5; color = 5];
+	"PersistentStreamConnection$SegmentConnection_14368" [label = "PersistentStreamConnection$\nSegmentConnection"; color = 5; fillcolor = 1; ]; central -> "PersistentStreamConnection$SegmentConnection_14368" [label=6; weight=6; penwidth=0.5; color = 5];
+	"AxonServerConfiguration_9843" [label = "AxonServerConfiguration"; color = 5; fillcolor = 1; ]; central -> "AxonServerConfiguration_9843" [label=5; weight=5; penwidth=0.5; color = 5];
+	"AxonServerConfiguration$FlowControlConfiguration_9839" [label = "AxonServerConfiguration$\nFlowControlConfiguration"; color = 5; fillcolor = 1; ]; central -> "AxonServerConfiguration$FlowControlConfiguration_9839" [label=3; weight=3; penwidth=0.4; color = 5];
+	"AxonServerConnectionManager_9851" [label = "AxonServerConnectionManager"; color = 5; fillcolor = 1; ]; central -> "AxonServerConnectionManager_9851" [label=3; weight=3; penwidth=0.4; color = 5];
+	"EventMessage_36772" [label = "EventMessage"; color = 5; fillcolor = 1; ]; central -> "EventMessage_36772" [label=3; weight=3; penwidth=0.4; color = 5];
+	"PersistentStreamConnection$1_14691" [label = "PersistentStreamConnection$\n1"; color = 5; fillcolor = 1; ]; central -> "PersistentStreamConnection$1_14691" [label=1; weight=1; penwidth=0.4; color = 5];
+	"PersistentStreamConnection$SegmentState_14367" [label = "PersistentStreamConnection$\nSegmentState"; color = 5; fillcolor = 1; ]; central -> "PersistentStreamConnection$SegmentState_14367" [label=1; weight=1; penwidth=0.4; color = 5];
+	"PersistentStreamConnection$SegmentConnection$ProcessingState_14690" -> "PersistentStreamConnection$SegmentConnection_14368" [label=45; weight=45; penwidth=0.3; color = 3]
+	"AxonServerConfiguration_9843" -> "AxonServerConfiguration$FlowControlConfiguration_9839" [label=19; weight=19; penwidth=0.3; color = 3]
+	"PersistentStreamConnection$SegmentConnection$RetryState_14369" -> "PersistentStreamConnection$SegmentConnection_14368" [label=12; weight=12; penwidth=0.3; color = 3]
+	"PersistentStreamConnection$SegmentConnection_14368" -> "PersistentStreamConnection$SegmentState_14367" [label=4; weight=4; penwidth=0.3; color = 3]
+	"PersistentStreamMessageSource_14379" -> "EventMessage_36772" [label=4; weight=4; penwidth=0.3; color = 3]
+	"PersistentStreamConnection$SegmentConnection_14368" -> "PersistentStreamConnection$SegmentConnection$ProcessingState_14690" [label=3; weight=3; penwidth=0.3; color = 3]
+	"PersistentStreamConnection$SegmentConnection$ProcessingState_14690" -> "PersistentStreamConnection$SegmentConnection$RetryState_14369" [label=3; weight=3; penwidth=0.3; color = 3]
+	"PersistentStreamConnection$SegmentConnection$RetryState_14369" -> "PersistentStreamConnection$SegmentConnection$ProcessingState_14690" [label=3; weight=3; penwidth=0.3; color = 3]
+	"AxonServerConnectionManager_9851" -> "AxonServerConfiguration_9843" [label=2; weight=2; penwidth=0.3; color = 3]
+	"PersistentStreamConnection$SegmentConnection_14368" -> "Configuration_925" [label=2; weight=2; penwidth=0.3; color = 3]
+	"PersistentStreamConnection$SegmentConnection$ProcessingState_14690" -> "PersistentStreamConnection$SegmentState_14367" [label=2; weight=2; penwidth=0.3; color = 3]
+	"PersistentStreamConnection$SegmentConnection$ProcessingState_14690" -> "PersistentStreamConnection$1_14691" [label=2; weight=2; penwidth=0.3; color = 3]
+	"PersistentStreamConnection$SegmentConnection$RetryState_14369" -> "PersistentStreamConnection$SegmentState_14367" [label=2; weight=2; penwidth=0.3; color = 3]
+	"PersistentStreamMessageSource_14379" -> "Configuration_925" [label=2; weight=2; penwidth=0.3; color = 3]
+	"PersistentStreamConnection$SegmentConnection_14368" -> "PersistentStreamConnection$SegmentConnection$RetryState_14369" [label=1; weight=1; penwidth=0.3; color = 3]
+	"PersistentStreamConnection$SegmentConnection_14368" -> "PersistentStreamConnection$1_14691" [label=1; weight=1; penwidth=0.3; color = 3]
+	"PersistentStreamConnection$SegmentConnection$RetryState_14369" -> "PersistentStreamConnection$1_14691" [label=1; weight=1; penwidth=0.3; color = 3]
 }

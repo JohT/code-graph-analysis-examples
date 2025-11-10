@@ -12,11 +12,17 @@ strict digraph TopOutlier2 {
     central [fontsize = 16;];
     central [color = 7; fillcolor = 5; penwidth = 3;];
 
-	graph   [label="Top Rank #2 Java Package Outlier\norg.axonframework.deadline.annotation\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: cluster probability\nlarge circle: < 25% percentile of cluster probability\nthick outline: > 80% percentile of distance to cluster center\n\n"];
-	central [label="🧩 outlier #2\nannotation"];
-	"annotation_49358"  [label = "annotation\n(76.51%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "annotation_49358" [label=8; weight=8; penwidth=0.5; color = 5];
-	"deadline_36590"  [shape = "circle"; height=1.8; label = "deadline\n(0.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "deadline_36590" [label=1; weight=1; penwidth=0.4; color = 5];
-	"messaging_48253"  [label = "messaging\n(86.84%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "messaging_48253" [label=0; weight=0; penwidth=0.4; color = 5];
-	"annotation_49358" -> "messaging_48253" [label=38; weight=38; penwidth=0.3; color = 3]
-	"deadline_36590" -> "messaging_48253" [label=23; weight=23; penwidth=0.3; color = 3]
+	graph   [label="Top Rank #2 Java Package Outlier\norg.axonframework.eventhandling.replay\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: cluster probability\nlarge circle: < 25% percentile of cluster probability\nthick outline: > 80% percentile of distance to cluster center\n\n"];
+	central [label="🧩 outlier #2\nreplay"];
+	"eventhandling_37818"  [label = "eventhandling\n(73.02%)"; penwidth = 2; ]; "eventhandling_37818" -> central [label=1; weight=1; penwidth=0.4];
+	"messaging_48252"  [label = "messaging\n(100.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "messaging_48252" [label=9; weight=9; penwidth=0.5; color = 5];
+	"annotation_49358"  [label = "annotation\n(75.84%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "annotation_49358" [label=7; weight=7; penwidth=0.5; color = 5];
+	"eventhandling_37818"  [label = "eventhandling\n(73.02%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "eventhandling_37818" [label=7; weight=7; penwidth=0.5; color = 5];
+	"annotation_34599"  [label = "annotation\n(100.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "annotation_34599" [label=1; weight=1; penwidth=0.4; color = 5];
+	"eventhandling_37818" -> "messaging_48252" [label=48; weight=48; penwidth=0.3; color = 3]
+	"annotation_49358" -> "messaging_48252" [label=38; weight=38; penwidth=0.3; color = 3]
+	"eventhandling_37818" -> "annotation_49358" [label=27; weight=27; penwidth=0.3; color = 3]
+	"annotation_49358" -> "annotation_34599" [label=12; weight=12; penwidth=0.3; color = 3]
+	"messaging_48252" -> "eventhandling_37818" [label=4; weight=4; penwidth=0.3; color = 3]
+	"annotation_49358" -> "eventhandling_37818" [label=2; weight=2; penwidth=0.3; color = 3]
 }

@@ -15,51 +15,51 @@ strict digraph TopHub5 {
 	graph   [label="Top Rank #5 Java Type Hub\norg.axonframework.common.ReflectionUtils\n\nnodes: incoming dependencies (limited max. 40)\nnode value: local clustering coefficient\nthick outline: <1 0% percentile of local clustering coefficient\n\n"];
 	central [label="🎡 hub #5\nReflectionUtils\n(in-degree=27)"];
 	"AggregateTestFixture_7257"  [label = "AggregateTestFixture\n(0.1)"; penwidth = 2; ]; "AggregateTestFixture_7257" -> central [label=7; weight=7; penwidth=0.5];
-	"AggregateMemberAnnotatedChildEntityCollectionDefinition_59755"  [label = "AggregateMemberAnnotatedChildEntityCollectionDefinition\n(0.32)"; penwidth = 2; ]; "AggregateMemberAnnotatedChildEntityCollectionDefinition_59755" -> central [label=5; weight=5; penwidth=0.5];
-	"AggregateMemberAnnotatedChildEntityMapDefinition_59754"  [label = "AggregateMemberAnnotatedChildEntityMapDefinition\n(0.32)"; penwidth = 2; ]; "AggregateMemberAnnotatedChildEntityMapDefinition_59754" -> central [label=5; weight=5; penwidth=0.5];
+	"AggregateMemberAnnotatedChildEntityCollectionDefinition_59753"  [label = "AggregateMemberAnnotatedChildEntityCollectionDefinition\n(0.32)"; penwidth = 2; ]; "AggregateMemberAnnotatedChildEntityCollectionDefinition_59753" -> central [label=5; weight=5; penwidth=0.5];
+	"AggregateMemberAnnotatedChildEntityMapDefinition_59752"  [label = "AggregateMemberAnnotatedChildEntityMapDefinition\n(0.32)"; penwidth = 2; ]; "AggregateMemberAnnotatedChildEntityMapDefinition_59752" -> central [label=5; weight=5; penwidth=0.5];
 	"AnnotatedAggregateMetaModelFactory$AnnotatedAggregateModel_62981"  [label = "AnnotatedAggregateMetaModelFactory$\nAnnotatedAggregateModel\n(0.09)"; penwidth = 2; ]; "AnnotatedAggregateMetaModelFactory$AnnotatedAggregateModel_62981" -> central [label=5; weight=5; penwidth=0.5];
 	"AbstractResourceInjector_64010"  [label = "AbstractResourceInjector\n(0.0)"; penwidth = 5; ]; "AbstractResourceInjector_64010" -> central [label=4; weight=4; penwidth=0.4];
-	"AggregateMemberAnnotatedChildEntityDefinition_59753"  [label = "AggregateMemberAnnotatedChildEntityDefinition\n(0.38)"; penwidth = 2; ]; "AggregateMemberAnnotatedChildEntityDefinition_59753" -> central [label=4; weight=4; penwidth=0.4];
-	"AnnotationCommandTargetResolver_60735"  [label = "AnnotationCommandTargetResolver\n(0.21)"; penwidth = 2; ]; "AnnotationCommandTargetResolver_60735" -> central [label=4; weight=4; penwidth=0.4];
+	"AggregateMemberAnnotatedChildEntityDefinition_59751"  [label = "AggregateMemberAnnotatedChildEntityDefinition\n(0.38)"; penwidth = 2; ]; "AggregateMemberAnnotatedChildEntityDefinition_59751" -> central [label=4; weight=4; penwidth=0.4];
+	"AnnotationCommandTargetResolver_60734"  [label = "AnnotationCommandTargetResolver\n(0.21)"; penwidth = 2; ]; "AnnotationCommandTargetResolver_60734" -> central [label=4; weight=4; penwidth=0.4];
 	"AnnotationRoutingStrategy_31459"  [label = "AnnotationRoutingStrategy\n(0.13)"; penwidth = 2; ]; "AnnotationRoutingStrategy_31459" -> central [label=3; weight=3; penwidth=0.4];
 	"AbstractResponseType_51127"  [label = "AbstractResponseType\n(0.29)"; penwidth = 2; ]; "AbstractResponseType_51127" -> central [label=2; weight=2; penwidth=0.4];
-	"InstanceResponseType_51948"  [label = "InstanceResponseType\n(0.5)"; penwidth = 2; ]; "InstanceResponseType_51948" -> central [label=2; weight=2; penwidth=0.4];
-	"LifecycleHandlerInspector_951"  [label = "LifecycleHandlerInspector\n(0.12)"; penwidth = 2; ]; "LifecycleHandlerInspector_951" -> central [label=2; weight=2; penwidth=0.4];
+	"InstanceResponseType_51947"  [label = "InstanceResponseType\n(0.5)"; penwidth = 2; ]; "InstanceResponseType_51947" -> central [label=2; weight=2; penwidth=0.4];
+	"LifecycleHandlerInspector_530"  [label = "LifecycleHandlerInspector\n(0.12)"; penwidth = 2; ]; "LifecycleHandlerInspector_530" -> central [label=2; weight=2; penwidth=0.4];
 	"MethodQueryMessageHandlerDefinition$MethodQueryMessageHandlingMember_55651"  [label = "MethodQueryMessageHandlerDefinition$\nMethodQueryMessageHandlingMember\n(0.19)"; penwidth = 2; ]; "MethodQueryMessageHandlerDefinition$MethodQueryMessageHandlingMember_55651" -> central [label=2; weight=2; penwidth=0.4];
 	"SagaTestFixture$TransienceValidatingResourceInjector_6279"  [label = "SagaTestFixture$\nTransienceValidatingResourceInjector\n(0.17)"; penwidth = 2; ]; "SagaTestFixture$TransienceValidatingResourceInjector_6279" -> central [label=2; weight=2; penwidth=0.4];
-	"AbstractAnnotatedParameterResolverFactory_38793"  [label = "AbstractAnnotatedParameterResolverFactory\n(0.15)"; penwidth = 2; ]; "AbstractAnnotatedParameterResolverFactory_38793" -> central [label=1; weight=1; penwidth=0.4];
+	"AbstractAnnotatedParameterResolverFactory_38792"  [label = "AbstractAnnotatedParameterResolverFactory\n(0.15)"; penwidth = 2; ]; "AbstractAnnotatedParameterResolverFactory_38792" -> central [label=1; weight=1; penwidth=0.4];
 	"AbstractChildEntityDefinition_61738"  [label = "AbstractChildEntityDefinition\n(0.22)"; penwidth = 2; ]; "AbstractChildEntityDefinition_61738" -> central [label=1; weight=1; penwidth=0.4];
-	"AggregateAnnotationCommandHandler_60097"  [label = "AggregateAnnotationCommandHandler\n(0.17)"; penwidth = 2; ]; "AggregateAnnotationCommandHandler_60097" -> central [label=1; weight=1; penwidth=0.4];
-	"AnnotatedMessageHandlingMember_48990"  [label = "AnnotatedMessageHandlingMember\n(0.16)"; penwidth = 2; ]; "AnnotatedMessageHandlingMember_48990" -> central [label=1; weight=1; penwidth=0.4];
+	"AggregateAnnotationCommandHandler_60095"  [label = "AggregateAnnotationCommandHandler\n(0.17)"; penwidth = 2; ]; "AggregateAnnotationCommandHandler_60095" -> central [label=1; weight=1; penwidth=0.4];
+	"AnnotatedMessageHandlingMember_48803"  [label = "AnnotatedMessageHandlingMember\n(0.16)"; penwidth = 2; ]; "AnnotatedMessageHandlingMember_48803" -> central [label=1; weight=1; penwidth=0.4];
 	"AnnotationRoutingStrategy$RoutingKeyResolver_31460"  [label = "AnnotationRoutingStrategy$\nRoutingKeyResolver\n(1.0)"; penwidth = 2; ]; "AnnotationRoutingStrategy$RoutingKeyResolver_31460" -> central [label=1; weight=1; penwidth=0.4];
 	"DeepEqualsMatcher_9373"  [label = "DeepEqualsMatcher\n(0.2)"; penwidth = 2; ]; "DeepEqualsMatcher_9373" -> central [label=1; weight=1; penwidth=0.4];
 	"GenericAggregateFactory_19948"  [label = "GenericAggregateFactory\n(0.38)"; penwidth = 2; ]; "GenericAggregateFactory_19948" -> central [label=1; weight=1; penwidth=0.4];
-	"HandlerTypeResolver_59091"  [label = "HandlerTypeResolver\n(0.0)"; penwidth = 5; ]; "HandlerTypeResolver_59091" -> central [label=1; weight=1; penwidth=0.4];
+	"HandlerTypeResolver_59089"  [label = "HandlerTypeResolver\n(0.0)"; penwidth = 5; ]; "HandlerTypeResolver_59089" -> central [label=1; weight=1; penwidth=0.4];
 	"IdentifierValidator_34671"  [label = "IdentifierValidator\n(1.0)"; penwidth = 2; ]; "IdentifierValidator_34671" -> central [label=1; weight=1; penwidth=0.4];
-	"MethodAccessedProperty_36117"  [label = "MethodAccessedProperty\n(0.17)"; penwidth = 2; ]; "MethodAccessedProperty_36117" -> central [label=1; weight=1; penwidth=0.4];
-	"MultipleInstancesResponseType_51949"  [label = "MultipleInstancesResponseType\n(0.29)"; penwidth = 2; ]; "MultipleInstancesResponseType_51949" -> central [label=1; weight=1; penwidth=0.4];
-	"NoArgumentConstructorCreationPolicyAggregateFactory_60778"  [label = "NoArgumentConstructorCreationPolicyAggregateFactory\n(0.67)"; penwidth = 2; ]; "NoArgumentConstructorCreationPolicyAggregateFactory_60778" -> central [label=1; weight=1; penwidth=0.4];
+	"MethodAccessedProperty_36115"  [label = "MethodAccessedProperty\n(0.17)"; penwidth = 2; ]; "MethodAccessedProperty_36115" -> central [label=1; weight=1; penwidth=0.4];
+	"MultipleInstancesResponseType_51948"  [label = "MultipleInstancesResponseType\n(0.29)"; penwidth = 2; ]; "MultipleInstancesResponseType_51948" -> central [label=1; weight=1; penwidth=0.4];
+	"NoArgumentConstructorCreationPolicyAggregateFactory_60777"  [label = "NoArgumentConstructorCreationPolicyAggregateFactory\n(0.67)"; penwidth = 2; ]; "NoArgumentConstructorCreationPolicyAggregateFactory_60777" -> central [label=1; weight=1; penwidth=0.4];
 	"NonTransientFieldsFilter_9411"  [label = "NonTransientFieldsFilter\n(0.0)"; penwidth = 5; ]; "NonTransientFieldsFilter_9411" -> central [label=1; weight=1; penwidth=0.4];
-	"OptionalResponseType_51950"  [label = "OptionalResponseType\n(0.4)"; penwidth = 2; ]; "OptionalResponseType_51950" -> central [label=1; weight=1; penwidth=0.4];
-	"Assert_32369"  [label = "Assert\n(0.02)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "Assert_32369" [label=4; weight=4; penwidth=0.4; color = 5];
+	"OptionalResponseType_51949"  [label = "OptionalResponseType\n(0.4)"; penwidth = 2; ]; "OptionalResponseType_51949" -> central [label=1; weight=1; penwidth=0.4];
+	"Assert_32361"  [label = "Assert\n(0.02)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "Assert_32361" [label=4; weight=4; penwidth=0.4; color = 5];
 	"MemberAccessibilityCallback_34673"  [label = "MemberAccessibilityCallback\n(0.0)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "MemberAccessibilityCallback_34673" [label=2; weight=2; penwidth=0.4; color = 5];
-	"ObjectUtils_31360"  [label = "ObjectUtils\n(0.03)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "ObjectUtils_31360" [label=1; weight=1; penwidth=0.4; color = 5];
+	"ObjectUtils_31155"  [label = "ObjectUtils\n(0.03)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "ObjectUtils_31155" [label=1; weight=1; penwidth=0.4; color = 5];
 	"TypeReflectionUtils_34675"  [label = "TypeReflectionUtils\n(0.33)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "TypeReflectionUtils_34675" [label=1; weight=1; penwidth=0.4; color = 5];
 	"AnnotationRoutingStrategy_31459" -> "AnnotationRoutingStrategy$RoutingKeyResolver_31460" [label=12; weight=12; penwidth=0.3; color = 3]
-	"MultipleInstancesResponseType_51949" -> "InstanceResponseType_51948" [label=6; weight=6; penwidth=0.3; color = 3]
+	"MultipleInstancesResponseType_51948" -> "InstanceResponseType_51947" [label=6; weight=6; penwidth=0.3; color = 3]
 	"AbstractResponseType_51127" -> "TypeReflectionUtils_34675" [label=3; weight=3; penwidth=0.3; color = 3]
-	"InstanceResponseType_51948" -> "AbstractResponseType_51127" [label=3; weight=3; penwidth=0.3; color = 3]
-	"AbstractAnnotatedParameterResolverFactory_38793" -> "Assert_32369" [label=2; weight=2; penwidth=0.3; color = 3]
-	"AggregateAnnotationCommandHandler_60097" -> "NoArgumentConstructorCreationPolicyAggregateFactory_60778" [label=2; weight=2; penwidth=0.3; color = 3]
-	"AggregateMemberAnnotatedChildEntityCollectionDefinition_59755" -> "AbstractChildEntityDefinition_61738" [label=2; weight=2; penwidth=0.3; color = 3]
-	"AggregateMemberAnnotatedChildEntityDefinition_59753" -> "AbstractChildEntityDefinition_61738" [label=2; weight=2; penwidth=0.3; color = 3]
-	"AggregateMemberAnnotatedChildEntityMapDefinition_59754" -> "AbstractChildEntityDefinition_61738" [label=2; weight=2; penwidth=0.3; color = 3]
-	"AggregateTestFixture_7257" -> "AggregateAnnotationCommandHandler_60097" [label=2; weight=2; penwidth=0.3; color = 3]
+	"InstanceResponseType_51947" -> "AbstractResponseType_51127" [label=3; weight=3; penwidth=0.3; color = 3]
+	"AbstractAnnotatedParameterResolverFactory_38792" -> "Assert_32361" [label=2; weight=2; penwidth=0.3; color = 3]
+	"AggregateAnnotationCommandHandler_60095" -> "NoArgumentConstructorCreationPolicyAggregateFactory_60777" [label=2; weight=2; penwidth=0.3; color = 3]
+	"AggregateMemberAnnotatedChildEntityCollectionDefinition_59753" -> "AbstractChildEntityDefinition_61738" [label=2; weight=2; penwidth=0.3; color = 3]
+	"AggregateMemberAnnotatedChildEntityDefinition_59751" -> "AbstractChildEntityDefinition_61738" [label=2; weight=2; penwidth=0.3; color = 3]
+	"AggregateMemberAnnotatedChildEntityMapDefinition_59752" -> "AbstractChildEntityDefinition_61738" [label=2; weight=2; penwidth=0.3; color = 3]
+	"AggregateTestFixture_7257" -> "AggregateAnnotationCommandHandler_60095" [label=2; weight=2; penwidth=0.3; color = 3]
 	"AggregateTestFixture_7257" -> "GenericAggregateFactory_19948" [label=2; weight=2; penwidth=0.3; color = 3]
 	"AnnotatedAggregateMetaModelFactory$AnnotatedAggregateModel_62981" -> "IdentifierValidator_34671" [label=2; weight=2; penwidth=0.3; color = 3]
 	"AnnotationRoutingStrategy$RoutingKeyResolver_31460" -> "AnnotationRoutingStrategy_31459" [label=2; weight=2; penwidth=0.3; color = 3]
-	"MultipleInstancesResponseType_51949" -> "AbstractResponseType_51127" [label=2; weight=2; penwidth=0.3; color = 3]
-	"OptionalResponseType_51950" -> "AbstractResponseType_51127" [label=2; weight=2; penwidth=0.3; color = 3]
-	"AbstractChildEntityDefinition_61738" -> "ObjectUtils_31360" [label=1; weight=1; penwidth=0.3; color = 3]
-	"GenericAggregateFactory_19948" -> "Assert_32369" [label=1; weight=1; penwidth=0.3; color = 3]
+	"MultipleInstancesResponseType_51948" -> "AbstractResponseType_51127" [label=2; weight=2; penwidth=0.3; color = 3]
+	"OptionalResponseType_51949" -> "AbstractResponseType_51127" [label=2; weight=2; penwidth=0.3; color = 3]
+	"AbstractChildEntityDefinition_61738" -> "ObjectUtils_31155" [label=1; weight=1; penwidth=0.3; color = 3]
+	"GenericAggregateFactory_19948" -> "Assert_32361" [label=1; weight=1; penwidth=0.3; color = 3]
 }

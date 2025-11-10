@@ -17,31 +17,31 @@ strict digraph TopAuthority2 {
 	"JavaSerializer_56643"  [label = "JavaSerializer\n(0.07%)"; penwidth = 2; ]; "JavaSerializer_56643" -> central [label=5; weight=5; penwidth=0.5];
 	"AvroSerializer_56648"  [label = "AvroSerializer\n(0.02%)"; penwidth = 2; ]; "AvroSerializer_56648" -> central [label=4; weight=4; penwidth=0.4];
 	"JacksonSerializer_57645"  [label = "JacksonSerializer\n(0.04%)"; penwidth = 2; ]; "JacksonSerializer_57645" -> central [label=4; weight=4; penwidth=0.4];
-	"AbstractXStreamSerializer_55550"  [label = "AbstractXStreamSerializer\n(0.02%)"; penwidth = 2; ]; "AbstractXStreamSerializer_55550" -> central [label=3; weight=3; penwidth=0.4];
-	"AbstractEventEntry_36900"  [label = "AbstractEventEntry\n(0.28%)"; penwidth = 2; ]; "AbstractEventEntry_36900" -> central [label=2; weight=2; penwidth=0.4];
+	"AbstractXStreamSerializer_55551"  [label = "AbstractXStreamSerializer\n(0.02%)"; penwidth = 2; ]; "AbstractXStreamSerializer_55551" -> central [label=3; weight=3; penwidth=0.4];
+	"AbstractEventEntry_37663"  [label = "AbstractEventEntry\n(0.28%)"; penwidth = 2; ]; "AbstractEventEntry_37663" -> central [label=2; weight=2; penwidth=0.4];
 	"AbstractTokenEntry_47257"  [label = "AbstractTokenEntry\n(0.11%)"; penwidth = 2; ]; "AbstractTokenEntry_47257" -> central [label=2; weight=2; penwidth=0.4];
 	"EventTypeUpcaster_57652"  [label = "EventTypeUpcaster\n(0.16%)"; penwidth = 2; ]; "EventTypeUpcaster_57652" -> central [label=2; weight=2; penwidth=0.4];
-	"SimpleSerializedObject_32374"  [label = "SimpleSerializedObject\n(2.66%)"; penwidth = 2; ]; "SimpleSerializedObject_32374" -> central [label=2; weight=2; penwidth=0.4];
+	"SimpleSerializedObject_32366"  [label = "SimpleSerializedObject\n(2.66%)"; penwidth = 2; ]; "SimpleSerializedObject_32366" -> central [label=2; weight=2; penwidth=0.4];
 	"SpecificRecordBaseSerializerStrategy_56598"  [label = "SpecificRecordBaseSerializerStrategy\n(0.01%)"; penwidth = 2; ]; "SpecificRecordBaseSerializerStrategy_56598" -> central [label=2; weight=2; penwidth=0.4];
-	"TokenEntry_48102"  [label = "TokenEntry\n(0.13%)"; penwidth = 2; ]; "TokenEntry_48102" -> central [label=2; weight=2; penwidth=0.4];
-	"SerializedType_32373"  [shape = "circle"; height=2; label = "SerializedType\n(100.0%)"; penwidth = 5; ]; "SerializedType_32373" -> central [label=1; weight=1; penwidth=0.4];
-	"SerializedType_32373"  [shape = "circle"; height=2; label = "SerializedType\n(100.0%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "SerializedType_32373" [label=3; weight=3; penwidth=0.4; color = 5];
-	"Assert_32369"  [shape = "circle"; height=2; label = "Assert\n(29.25%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "Assert_32369" [label=1; weight=1; penwidth=0.4; color = 5];
-	"JavaSerializer_56643" -> "SerializedType_32373" [label=6; weight=6; penwidth=0.3; color = 3]
-	"AbstractXStreamSerializer_55550" -> "SerializedType_32373" [label=5; weight=5; penwidth=0.3; color = 3]
-	"AvroSerializer_56648" -> "SerializedType_32373" [label=5; weight=5; penwidth=0.3; color = 3]
-	"JacksonSerializer_57645" -> "SerializedType_32373" [label=5; weight=5; penwidth=0.3; color = 3]
-	"JacksonSerializer_57645" -> "SimpleSerializedObject_32374" [label=4; weight=4; penwidth=0.3; color = 3]
-	"AbstractTokenEntry_47257" -> "SerializedType_32373" [label=3; weight=3; penwidth=0.3; color = 3]
-	"EventTypeUpcaster_57652" -> "SerializedType_32373" [label=3; weight=3; penwidth=0.3; color = 3]
-	"SimpleSerializedObject_32374" -> "SerializedType_32373" [label=3; weight=3; penwidth=0.3; color = 3]
-	"TokenEntry_48102" -> "SerializedType_32373" [label=3; weight=3; penwidth=0.3; color = 3]
-	"AbstractEventEntry_36900" -> "SerializedType_32373" [label=2; weight=2; penwidth=0.3; color = 3]
-	"AbstractEventEntry_36900" -> "SimpleSerializedObject_32374" [label=2; weight=2; penwidth=0.3; color = 3]
-	"AbstractTokenEntry_47257" -> "SimpleSerializedObject_32374" [label=2; weight=2; penwidth=0.3; color = 3]
-	"AbstractXStreamSerializer_55550" -> "SimpleSerializedObject_32374" [label=2; weight=2; penwidth=0.3; color = 3]
-	"JavaSerializer_56643" -> "SimpleSerializedObject_32374" [label=2; weight=2; penwidth=0.3; color = 3]
-	"SimpleSerializedObject_32374" -> "Assert_32369" [label=2; weight=2; penwidth=0.3; color = 3]
-	"SpecificRecordBaseSerializerStrategy_56598" -> "SimpleSerializedObject_32374" [label=2; weight=2; penwidth=0.3; color = 3]
-	"TokenEntry_48102" -> "SimpleSerializedObject_32374" [label=2; weight=2; penwidth=0.3; color = 3]
+	"TokenEntry_48027"  [label = "TokenEntry\n(0.13%)"; penwidth = 2; ]; "TokenEntry_48027" -> central [label=2; weight=2; penwidth=0.4];
+	"SerializedType_32365"  [shape = "circle"; height=2; label = "SerializedType\n(100.0%)"; penwidth = 5; ]; "SerializedType_32365" -> central [label=1; weight=1; penwidth=0.4];
+	"SerializedType_32365"  [shape = "circle"; height=2; label = "SerializedType\n(100.0%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "SerializedType_32365" [label=3; weight=3; penwidth=0.4; color = 5];
+	"Assert_32361"  [shape = "circle"; height=2; label = "Assert\n(29.25%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "Assert_32361" [label=1; weight=1; penwidth=0.4; color = 5];
+	"JavaSerializer_56643" -> "SerializedType_32365" [label=6; weight=6; penwidth=0.3; color = 3]
+	"AbstractXStreamSerializer_55551" -> "SerializedType_32365" [label=5; weight=5; penwidth=0.3; color = 3]
+	"AvroSerializer_56648" -> "SerializedType_32365" [label=5; weight=5; penwidth=0.3; color = 3]
+	"JacksonSerializer_57645" -> "SerializedType_32365" [label=5; weight=5; penwidth=0.3; color = 3]
+	"JacksonSerializer_57645" -> "SimpleSerializedObject_32366" [label=4; weight=4; penwidth=0.3; color = 3]
+	"AbstractTokenEntry_47257" -> "SerializedType_32365" [label=3; weight=3; penwidth=0.3; color = 3]
+	"EventTypeUpcaster_57652" -> "SerializedType_32365" [label=3; weight=3; penwidth=0.3; color = 3]
+	"SimpleSerializedObject_32366" -> "SerializedType_32365" [label=3; weight=3; penwidth=0.3; color = 3]
+	"TokenEntry_48027" -> "SerializedType_32365" [label=3; weight=3; penwidth=0.3; color = 3]
+	"AbstractEventEntry_37663" -> "SimpleSerializedObject_32366" [label=2; weight=2; penwidth=0.3; color = 3]
+	"AbstractEventEntry_37663" -> "SerializedType_32365" [label=2; weight=2; penwidth=0.3; color = 3]
+	"AbstractTokenEntry_47257" -> "SimpleSerializedObject_32366" [label=2; weight=2; penwidth=0.3; color = 3]
+	"AbstractXStreamSerializer_55551" -> "SimpleSerializedObject_32366" [label=2; weight=2; penwidth=0.3; color = 3]
+	"JavaSerializer_56643" -> "SimpleSerializedObject_32366" [label=2; weight=2; penwidth=0.3; color = 3]
+	"SimpleSerializedObject_32366" -> "Assert_32361" [label=2; weight=2; penwidth=0.3; color = 3]
+	"SpecificRecordBaseSerializerStrategy_56598" -> "SimpleSerializedObject_32366" [label=2; weight=2; penwidth=0.3; color = 3]
+	"TokenEntry_48027" -> "SimpleSerializedObject_32366" [label=2; weight=2; penwidth=0.3; color = 3]
 }
