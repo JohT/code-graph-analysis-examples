@@ -33,8 +33,8 @@
   <tbody>
     <tr>
       <th>0</th>
-      <td>303699</td>
-      <td>967956</td>
+      <td>303701</td>
+      <td>967958</td>
       <td>9</td>
       <td>128</td>
       <td>2218</td>
@@ -73,22 +73,22 @@ The whole table can be found in the CSV report `Number_of_types_per_artifact`.
       <th>0</th>
       <td>axon-messaging-4.12.1</td>
       <td>830</td>
-      <td>Interface</td>
-      <td>160</td>
+      <td>Class</td>
+      <td>623</td>
     </tr>
     <tr>
       <th>1</th>
       <td>axon-messaging-4.12.1</td>
       <td>830</td>
-      <td>Enum</td>
-      <td>20</td>
+      <td>Interface</td>
+      <td>160</td>
     </tr>
     <tr>
       <th>2</th>
       <td>axon-messaging-4.12.1</td>
       <td>830</td>
-      <td>Class</td>
-      <td>623</td>
+      <td>Enum</td>
+      <td>20</td>
     </tr>
     <tr>
       <th>3</th>
@@ -164,15 +164,15 @@ The whole table can be found in the CSV report `Number_of_types_per_artifact`.
       <th>13</th>
       <td>axon-eventsourcing-4.12.1</td>
       <td>133</td>
-      <td>Enum</td>
-      <td>2</td>
+      <td>Annotation</td>
+      <td>1</td>
     </tr>
     <tr>
       <th>14</th>
       <td>axon-eventsourcing-4.12.1</td>
       <td>133</td>
-      <td>Annotation</td>
-      <td>1</td>
+      <td>Enum</td>
+      <td>2</td>
     </tr>
     <tr>
       <th>15</th>
@@ -185,22 +185,22 @@ The whole table can be found in the CSV report `Number_of_types_per_artifact`.
       <th>16</th>
       <td>axon-spring-boot-autoconfigure-4.12.1</td>
       <td>90</td>
-      <td>Annotation</td>
-      <td>3</td>
+      <td>Interface</td>
+      <td>1</td>
     </tr>
     <tr>
       <th>17</th>
       <td>axon-spring-boot-autoconfigure-4.12.1</td>
       <td>90</td>
-      <td>Enum</td>
-      <td>2</td>
+      <td>Annotation</td>
+      <td>3</td>
     </tr>
     <tr>
       <th>18</th>
       <td>axon-spring-boot-autoconfigure-4.12.1</td>
       <td>90</td>
-      <td>Interface</td>
-      <td>1</td>
+      <td>Enum</td>
+      <td>2</td>
     </tr>
     <tr>
       <th>19</th>

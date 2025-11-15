@@ -15,64 +15,64 @@ strict digraph TopAuthority5 {
 	graph   [label="Top Rank #5 Java Package Authority\norg.axonframework.axonserver.connector.command\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: Page Rank (normalized)\nlarge circle: > 80% percentile of Page Rank\nthick outline: > 80% percentile of Page Rank to Article Rank Difference\n\n"];
 	central [label="🏛️ authority #5\ncommand"];
 	"connector_10488"  [label = "connector\n(9.85%)"; penwidth = 5; ]; "connector_10488" -> central [label=22; weight=22; penwidth=0.7];
-	"autoconfig_23579"  [label = "autoconfig\n(0.14%)"; penwidth = 2; ]; "autoconfig_23579" -> central [label=14; weight=14; penwidth=0.6];
+	"autoconfig_23581"  [label = "autoconfig\n(0.14%)"; penwidth = 2; ]; "autoconfig_23581" -> central [label=14; weight=14; penwidth=0.6];
 	"query_10495"  [label = "query\n(0.98%)"; penwidth = 2; ]; "query_10495" -> central [label=2; weight=2; penwidth=0.4];
 	"connector_10488"  [label = "connector\n(9.85%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "connector_10488" [label=32; weight=32; penwidth=0.8; color = 5];
-	"commandhandling_30105"  [label = "commandhandling\n(7.56%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "commandhandling_30105" [label=31; weight=31; penwidth=0.8; color = 5];
+	"commandhandling_30107"  [label = "commandhandling\n(7.56%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "commandhandling_30107" [label=31; weight=31; penwidth=0.8; color = 5];
 	"util_10490"  [label = "util\n(1.49%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "util_10490" [label=30; weight=30; penwidth=0.8; color = 5];
 	"common_34598"  [shape = "circle"; height=2; label = "common\n(100.0%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "common_34598" [label=24; weight=24; penwidth=0.7; color = 5];
-	"messaging_48252"  [shape = "circle"; height=2; label = "messaging\n(54.91%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "messaging_48252" [label=21; weight=21; penwidth=0.7; color = 5];
-	"lifecycle_48251"  [label = "lifecycle\n(1.16%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "lifecycle_48251" [label=13; weight=13; penwidth=0.6; color = 5];
-	"serialization_55546"  [shape = "circle"; height=2; label = "serialization\n(29.48%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "serialization_55546" [label=13; weight=13; penwidth=0.6; color = 5];
-	"tracing_58334"  [label = "tracing\n(4.79%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "tracing_58334" [label=5; weight=5; penwidth=0.5; color = 5];
+	"messaging_48253"  [shape = "circle"; height=2; label = "messaging\n(54.91%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "messaging_48253" [label=21; weight=21; penwidth=0.7; color = 5];
+	"lifecycle_48252"  [label = "lifecycle\n(1.16%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "lifecycle_48252" [label=13; weight=13; penwidth=0.6; color = 5];
+	"serialization_55545"  [shape = "circle"; height=2; label = "serialization\n(29.48%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "serialization_55545" [label=13; weight=13; penwidth=0.6; color = 5];
+	"tracing_58336"  [label = "tracing\n(4.79%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "tracing_58336" [label=5; weight=5; penwidth=0.5; color = 5];
 	"distributed_31534"  [label = "distributed\n(1.37%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "distributed_31534" [label=4; weight=4; penwidth=0.5; color = 5];
 	"callbacks_31533"  [label = "callbacks\n(0.43%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "callbacks_31533" [label=2; weight=2; penwidth=0.4; color = 5];
-	"autoconfig_23579" -> "connector_10488" [label=87; weight=87; penwidth=0.3; color = 3]
+	"autoconfig_23581" -> "connector_10488" [label=87; weight=87; penwidth=0.3; color = 3]
 	"query_10495" -> "connector_10488" [label=65; weight=65; penwidth=0.3; color = 3]
-	"distributed_31534" -> "commandhandling_30105" [label=47; weight=47; penwidth=0.3; color = 3]
+	"distributed_31534" -> "commandhandling_30107" [label=47; weight=47; penwidth=0.3; color = 3]
 	"connector_10488" -> "common_34598" [label=46; weight=46; penwidth=0.3; color = 3]
 	"query_10495" -> "util_10490" [label=43; weight=43; penwidth=0.3; color = 3]
-	"commandhandling_30105" -> "messaging_48252" [label=42; weight=42; penwidth=0.3; color = 3]
+	"commandhandling_30107" -> "messaging_48253" [label=42; weight=42; penwidth=0.3; color = 3]
 	"distributed_31534" -> "common_34598" [label=35; weight=35; penwidth=0.3; color = 3]
-	"query_10495" -> "messaging_48252" [label=34; weight=34; penwidth=0.3; color = 3]
+	"query_10495" -> "messaging_48253" [label=34; weight=34; penwidth=0.3; color = 3]
 	"query_10495" -> "common_34598" [label=30; weight=30; penwidth=0.3; color = 3]
 	"util_10490" -> "connector_10488" [label=29; weight=29; penwidth=0.3; color = 3]
-	"query_10495" -> "lifecycle_48251" [label=27; weight=27; penwidth=0.3; color = 3]
-	"commandhandling_30105" -> "common_34598" [label=26; weight=26; penwidth=0.3; color = 3]
-	"serialization_55546" -> "common_34598" [label=26; weight=26; penwidth=0.3; color = 3]
-	"autoconfig_23579" -> "serialization_55546" [label=25; weight=25; penwidth=0.3; color = 3]
-	"serialization_55546" -> "messaging_48252" [label=24; weight=24; penwidth=0.3; color = 3]
-	"query_10495" -> "serialization_55546" [label=21; weight=21; penwidth=0.3; color = 3]
-	"autoconfig_23579" -> "commandhandling_30105" [label=20; weight=20; penwidth=0.3; color = 3]
-	"messaging_48252" -> "common_34598" [label=20; weight=20; penwidth=0.3; color = 3]
+	"query_10495" -> "lifecycle_48252" [label=27; weight=27; penwidth=0.3; color = 3]
+	"commandhandling_30107" -> "common_34598" [label=26; weight=26; penwidth=0.3; color = 3]
+	"serialization_55545" -> "common_34598" [label=26; weight=26; penwidth=0.3; color = 3]
+	"autoconfig_23581" -> "serialization_55545" [label=25; weight=25; penwidth=0.3; color = 3]
+	"serialization_55545" -> "messaging_48253" [label=24; weight=24; penwidth=0.3; color = 3]
+	"query_10495" -> "serialization_55545" [label=21; weight=21; penwidth=0.3; color = 3]
+	"autoconfig_23581" -> "commandhandling_30107" [label=20; weight=20; penwidth=0.3; color = 3]
+	"messaging_48253" -> "common_34598" [label=20; weight=20; penwidth=0.3; color = 3]
 	"connector_10488" -> "query_10495" [label=19; weight=19; penwidth=0.3; color = 3]
-	"distributed_31534" -> "serialization_55546" [label=17; weight=17; penwidth=0.3; color = 3]
-	"connector_10488" -> "commandhandling_30105" [label=16; weight=16; penwidth=0.3; color = 3]
-	"autoconfig_23579" -> "query_10495" [label=15; weight=15; penwidth=0.3; color = 3]
-	"callbacks_31533" -> "commandhandling_30105" [label=15; weight=15; penwidth=0.3; color = 3]
-	"distributed_31534" -> "messaging_48252" [label=15; weight=15; penwidth=0.3; color = 3]
-	"tracing_58334" -> "messaging_48252" [label=15; weight=15; penwidth=0.3; color = 3]
-	"messaging_48252" -> "serialization_55546" [label=13; weight=13; penwidth=0.3; color = 3]
-	"query_10495" -> "tracing_58334" [label=12; weight=12; penwidth=0.3; color = 3]
-	"util_10490" -> "messaging_48252" [label=12; weight=12; penwidth=0.3; color = 3]
-	"autoconfig_23579" -> "tracing_58334" [label=11; weight=11; penwidth=0.3; color = 3]
+	"distributed_31534" -> "serialization_55545" [label=17; weight=17; penwidth=0.3; color = 3]
+	"connector_10488" -> "commandhandling_30107" [label=16; weight=16; penwidth=0.3; color = 3]
+	"autoconfig_23581" -> "query_10495" [label=15; weight=15; penwidth=0.3; color = 3]
+	"callbacks_31533" -> "commandhandling_30107" [label=15; weight=15; penwidth=0.3; color = 3]
+	"distributed_31534" -> "messaging_48253" [label=15; weight=15; penwidth=0.3; color = 3]
+	"tracing_58336" -> "messaging_48253" [label=15; weight=15; penwidth=0.3; color = 3]
+	"messaging_48253" -> "serialization_55545" [label=13; weight=13; penwidth=0.3; color = 3]
+	"query_10495" -> "tracing_58336" [label=12; weight=12; penwidth=0.3; color = 3]
+	"util_10490" -> "messaging_48253" [label=12; weight=12; penwidth=0.3; color = 3]
+	"autoconfig_23581" -> "tracing_58336" [label=11; weight=11; penwidth=0.3; color = 3]
 	"util_10490" -> "common_34598" [label=9; weight=9; penwidth=0.3; color = 3]
-	"autoconfig_23579" -> "common_34598" [label=8; weight=8; penwidth=0.3; color = 3]
-	"connector_10488" -> "messaging_48252" [label=8; weight=8; penwidth=0.3; color = 3]
-	"tracing_58334" -> "common_34598" [label=8; weight=8; penwidth=0.3; color = 3]
-	"autoconfig_23579" -> "messaging_48252" [label=7; weight=7; penwidth=0.3; color = 3]
-	"commandhandling_30105" -> "tracing_58334" [label=6; weight=6; penwidth=0.3; color = 3]
-	"util_10490" -> "serialization_55546" [label=6; weight=6; penwidth=0.3; color = 3]
-	"lifecycle_48251" -> "common_34598" [label=5; weight=5; penwidth=0.3; color = 3]
-	"distributed_31534" -> "tracing_58334" [label=4; weight=4; penwidth=0.3; color = 3]
+	"autoconfig_23581" -> "common_34598" [label=8; weight=8; penwidth=0.3; color = 3]
+	"connector_10488" -> "messaging_48253" [label=8; weight=8; penwidth=0.3; color = 3]
+	"tracing_58336" -> "common_34598" [label=8; weight=8; penwidth=0.3; color = 3]
+	"autoconfig_23581" -> "messaging_48253" [label=7; weight=7; penwidth=0.3; color = 3]
+	"commandhandling_30107" -> "tracing_58336" [label=6; weight=6; penwidth=0.3; color = 3]
+	"util_10490" -> "serialization_55545" [label=6; weight=6; penwidth=0.3; color = 3]
+	"lifecycle_48252" -> "common_34598" [label=5; weight=5; penwidth=0.3; color = 3]
+	"distributed_31534" -> "tracing_58336" [label=4; weight=4; penwidth=0.3; color = 3]
 	"connector_10488" -> "util_10490" [label=3; weight=3; penwidth=0.3; color = 3]
-	"commandhandling_30105" -> "callbacks_31533" [label=2; weight=2; penwidth=0.3; color = 3]
-	"serialization_55546" -> "commandhandling_30105" [label=2; weight=2; penwidth=0.3; color = 3]
-	"autoconfig_23579" -> "distributed_31534" [label=1; weight=1; penwidth=0.3; color = 3]
-	"autoconfig_23579" -> "lifecycle_48251" [label=1; weight=1; penwidth=0.3; color = 3]
+	"commandhandling_30107" -> "callbacks_31533" [label=2; weight=2; penwidth=0.3; color = 3]
+	"serialization_55545" -> "commandhandling_30107" [label=2; weight=2; penwidth=0.3; color = 3]
+	"autoconfig_23581" -> "lifecycle_48252" [label=1; weight=1; penwidth=0.3; color = 3]
+	"autoconfig_23581" -> "distributed_31534" [label=1; weight=1; penwidth=0.3; color = 3]
 	"connector_10488" -> "distributed_31534" [label=1; weight=1; penwidth=0.3; color = 3]
-	"connector_10488" -> "lifecycle_48251" [label=1; weight=1; penwidth=0.3; color = 3]
+	"connector_10488" -> "lifecycle_48252" [label=1; weight=1; penwidth=0.3; color = 3]
 	"distributed_31534" -> "callbacks_31533" [label=1; weight=1; penwidth=0.3; color = 3]
-	"distributed_31534" -> "lifecycle_48251" [label=1; weight=1; penwidth=0.3; color = 3]
-	"tracing_58334" -> "commandhandling_30105" [label=1; weight=1; penwidth=0.3; color = 3]
+	"distributed_31534" -> "lifecycle_48252" [label=1; weight=1; penwidth=0.3; color = 3]
+	"tracing_58336" -> "commandhandling_30107" [label=1; weight=1; penwidth=0.3; color = 3]
 }

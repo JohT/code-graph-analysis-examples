@@ -12,21 +12,20 @@ strict digraph TopBridge1 {
     central [fontsize = 16;];
     central [color = 7; fillcolor = 5; penwidth = 3;];
 
-	graph   [label="Top Rank #1 Java Type Bridge\norg.axonframework.axonserver.connector.event.axon.PersistentStreamConnection$1\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
-	central [label="🌉 bridge #1\nPersistentStreamConnection$1"];
-	"PersistentStreamConnection$SegmentConnection$ProcessingState_14690" [label = "PersistentStreamConnection$\nSegmentConnection$\nProcessingState"; ]; "PersistentStreamConnection$SegmentConnection$ProcessingState_14690" -> central [label=2; weight=2; penwidth=0.4];
-	"PersistentStreamConnection_14370" [label = "PersistentStreamConnection"; ]; "PersistentStreamConnection_14370" -> central [label=1; weight=1; penwidth=0.4];
-	"PersistentStreamConnection$SegmentConnection_14368" [label = "PersistentStreamConnection$\nSegmentConnection"; ]; "PersistentStreamConnection$SegmentConnection_14368" -> central [label=1; weight=1; penwidth=0.4];
-	"PersistentStreamConnection$SegmentConnection$RetryState_14369" [label = "PersistentStreamConnection$\nSegmentConnection$\nRetryState"; ]; "PersistentStreamConnection$SegmentConnection$RetryState_14369" -> central [label=1; weight=1; penwidth=0.4];
-	"PersistentStreamConnection_14370" [label = "PersistentStreamConnection"; color = 5; fillcolor = 1; ]; central -> "PersistentStreamConnection_14370" [label=1; weight=1; penwidth=0.4; color = 5];
-	"PersistentStreamConnection$SegmentConnection$ProcessingState_14690" -> "PersistentStreamConnection$SegmentConnection_14368" [label=45; weight=45; penwidth=0.3; color = 3]
-	"PersistentStreamConnection$SegmentConnection$ProcessingState_14690" -> "PersistentStreamConnection_14370" [label=14; weight=14; penwidth=0.3; color = 3]
-	"PersistentStreamConnection$SegmentConnection$RetryState_14369" -> "PersistentStreamConnection$SegmentConnection_14368" [label=12; weight=12; penwidth=0.3; color = 3]
-	"PersistentStreamConnection$SegmentConnection_14368" -> "PersistentStreamConnection_14370" [label=9; weight=9; penwidth=0.3; color = 3]
-	"PersistentStreamConnection_14370" -> "PersistentStreamConnection$SegmentConnection_14368" [label=6; weight=6; penwidth=0.3; color = 3]
-	"PersistentStreamConnection$SegmentConnection$RetryState_14369" -> "PersistentStreamConnection_14370" [label=5; weight=5; penwidth=0.3; color = 3]
-	"PersistentStreamConnection$SegmentConnection_14368" -> "PersistentStreamConnection$SegmentConnection$ProcessingState_14690" [label=3; weight=3; penwidth=0.3; color = 3]
-	"PersistentStreamConnection$SegmentConnection$ProcessingState_14690" -> "PersistentStreamConnection$SegmentConnection$RetryState_14369" [label=3; weight=3; penwidth=0.3; color = 3]
-	"PersistentStreamConnection$SegmentConnection$RetryState_14369" -> "PersistentStreamConnection$SegmentConnection$ProcessingState_14690" [label=3; weight=3; penwidth=0.3; color = 3]
-	"PersistentStreamConnection$SegmentConnection_14368" -> "PersistentStreamConnection$SegmentConnection$RetryState_14369" [label=1; weight=1; penwidth=0.3; color = 3]
+	graph   [label="Top Rank #1 Java Type Bridge\norg.axonframework.messaging.timeout.HandlerTimeoutHandlerEnhancerDefinition\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
+	central [label="🌉 bridge #1\nHandlerTimeoutHandlerEnhancerDefinition"];
+	"AxonTimeoutAutoConfiguration_23607" [label = "AxonTimeoutAutoConfiguration"; ]; "AxonTimeoutAutoConfiguration_23607" -> central [label=3; weight=3; penwidth=0.4];
+	"MessageHandlingMember_30063" [label = "MessageHandlingMember"; color = 5; fillcolor = 1; ]; central -> "MessageHandlingMember_30063" [label=9; weight=9; penwidth=0.5; color = 5];
+	"HandlerTimeoutConfiguration_52465" [label = "HandlerTimeoutConfiguration"; color = 5; fillcolor = 1; ]; central -> "HandlerTimeoutConfiguration_52465" [label=6; weight=6; penwidth=0.5; color = 5];
+	"TaskTimeoutSettings_52466" [label = "TaskTimeoutSettings"; color = 5; fillcolor = 1; ]; central -> "TaskTimeoutSettings_52466" [label=4; weight=4; penwidth=0.4; color = 5];
+	"TimeoutWrappedMessageHandlingMember_51952" [label = "TimeoutWrappedMessageHandlingMember"; color = 5; fillcolor = 1; ]; central -> "TimeoutWrappedMessageHandlingMember_51952" [label=2; weight=2; penwidth=0.4; color = 5];
+	"CommandMessage_30411" [label = "CommandMessage"; color = 5; fillcolor = 1; ]; central -> "CommandMessage_30411" [label=1; weight=1; penwidth=0.4; color = 5];
+	"DeadlineMessage_36670" [label = "DeadlineMessage"; color = 5; fillcolor = 1; ]; central -> "DeadlineMessage_36670" [label=1; weight=1; penwidth=0.4; color = 5];
+	"EventMessage_36772" [label = "EventMessage"; color = 5; fillcolor = 1; ]; central -> "EventMessage_36772" [label=1; weight=1; penwidth=0.4; color = 5];
+	"HandlerEnhancerDefinition_30021" [label = "HandlerEnhancerDefinition"; color = 5; fillcolor = 1; ]; central -> "HandlerEnhancerDefinition_30021" [label=1; weight=1; penwidth=0.4; color = 5];
+	"QueryMessage_52326" [label = "QueryMessage"; color = 5; fillcolor = 1; ]; central -> "QueryMessage_52326" [label=1; weight=1; penwidth=0.4; color = 5];
+	"HandlerTimeoutConfiguration_52465" -> "TaskTimeoutSettings_52466" [label=20; weight=20; penwidth=0.3; color = 3]
+	"DeadlineMessage_36670" -> "EventMessage_36772" [label=3; weight=3; penwidth=0.3; color = 3]
+	"HandlerEnhancerDefinition_30021" -> "MessageHandlingMember_30063" [label=2; weight=2; penwidth=0.3; color = 3]
+	"TimeoutWrappedMessageHandlingMember_51952" -> "MessageHandlingMember_30063" [label=1; weight=1; penwidth=0.3; color = 3]
 }

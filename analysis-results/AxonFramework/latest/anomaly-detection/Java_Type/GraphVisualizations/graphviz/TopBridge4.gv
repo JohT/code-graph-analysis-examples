@@ -12,13 +12,35 @@ strict digraph TopBridge4 {
     central [fontsize = 16;];
     central [color = 7; fillcolor = 5; penwidth = 3;];
 
-	graph   [label="Top Rank #4 Java Type Bridge\norg.axonframework.common.caching.EhCacheAdapter\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
-	central [label="🌉 bridge #4\nEhCacheAdapter"];
-	"EhCacheAdapter$CacheEventListenerAdapter_35481" [label = "EhCacheAdapter$\nCacheEventListenerAdapter"; color = 5; fillcolor = 1; ]; central -> "EhCacheAdapter$CacheEventListenerAdapter_35481" [label=4; weight=4; penwidth=0.4; color = 5];
-	"Cache$EntryListener_34586" [label = "Cache$\nEntryListener"; color = 5; fillcolor = 1; ]; central -> "Cache$EntryListener_34586" [label=3; weight=3; penwidth=0.4; color = 5];
-	"AbstractCacheAdapter_34681" [label = "AbstractCacheAdapter"; color = 5; fillcolor = 1; ]; central -> "AbstractCacheAdapter_34681" [label=2; weight=2; penwidth=0.4; color = 5];
-	"Registration_30054" [label = "Registration"; color = 5; fillcolor = 1; ]; central -> "Registration_30054" [label=2; weight=2; penwidth=0.4; color = 5];
-	"EhCacheAdapter$CacheEventListenerAdapter_35481" -> "Cache$EntryListener_34586" [label=10; weight=10; penwidth=0.3; color = 3]
-	"AbstractCacheAdapter_34681" -> "Cache$EntryListener_34586" [label=5; weight=5; penwidth=0.3; color = 3]
-	"AbstractCacheAdapter_34681" -> "Registration_30054" [label=4; weight=4; penwidth=0.3; color = 3]
+	graph   [label="Top Rank #4 Java Type Bridge\norg.axonframework.springboot.autoconfig.AxonTimeoutAutoConfiguration$AxonTimeoutConfigurerModule\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
+	central [label="🌉 bridge #4\nAxonTimeoutAutoConfiguration$AxonTimeoutConfigurerModule"];
+	"AxonTimeoutAutoConfiguration_23607" [label = "AxonTimeoutAutoConfiguration"; ]; "AxonTimeoutAutoConfiguration_23607" -> central [label=3; weight=3; penwidth=0.4];
+	"TaskTimeoutSettings_52466" [label = "TaskTimeoutSettings"; color = 5; fillcolor = 1; ]; central -> "TaskTimeoutSettings_52466" [label=14; weight=14; penwidth=0.6; color = 5];
+	"TimeoutProperties$TransactionTimeoutProperties_26769" [label = "TimeoutProperties$\nTransactionTimeoutProperties"; color = 5; fillcolor = 1; ]; central -> "TimeoutProperties$TransactionTimeoutProperties_26769" [label=13; weight=13; penwidth=0.5; color = 5];
+	"UnitOfWorkTimeoutInterceptor_52468" [label = "UnitOfWorkTimeoutInterceptor"; color = 5; fillcolor = 1; ]; central -> "UnitOfWorkTimeoutInterceptor_52468" [label=8; weight=8; penwidth=0.5; color = 5];
+	"Configuration_1026" [label = "Configuration"; color = 5; fillcolor = 1; ]; central -> "Configuration_1026" [label=7; weight=7; penwidth=0.5; color = 5];
+	"Configurer_2112" [label = "Configurer"; color = 5; fillcolor = 1; ]; central -> "Configurer_2112" [label=5; weight=5; penwidth=0.5; color = 5];
+	"TimeoutProperties_23699" [label = "TimeoutProperties"; color = 5; fillcolor = 1; ]; central -> "TimeoutProperties_23699" [label=2; weight=2; penwidth=0.4; color = 5];
+	"CommandBus_30171" [label = "CommandBus"; color = 5; fillcolor = 1; ]; central -> "CommandBus_30171" [label=1; weight=1; penwidth=0.4; color = 5];
+	"ConfigurerModule_883" [label = "ConfigurerModule"; color = 5; fillcolor = 1; ]; central -> "ConfigurerModule_883" [label=1; weight=1; penwidth=0.4; color = 5];
+	"DeadlineManager_36603" [label = "DeadlineManager"; color = 5; fillcolor = 1; ]; central -> "DeadlineManager_36603" [label=1; weight=1; penwidth=0.4; color = 5];
+	"EventProcessingConfigurer_1864" [label = "EventProcessingConfigurer"; color = 5; fillcolor = 1; ]; central -> "EventProcessingConfigurer_1864" [label=1; weight=1; penwidth=0.4; color = 5];
+	"MessageHandlerInterceptor_31364" [label = "MessageHandlerInterceptor"; color = 5; fillcolor = 1; ]; central -> "MessageHandlerInterceptor_31364" [label=1; weight=1; penwidth=0.4; color = 5];
+	"QueryBus_52883" [label = "QueryBus"; color = 5; fillcolor = 1; ]; central -> "QueryBus_52883" [label=1; weight=1; penwidth=0.4; color = 5];
+	"EventProcessingConfigurer_1864" -> "Configuration_1026" [label=36; weight=36; penwidth=0.3; color = 3]
+	"Configurer_2112" -> "Configuration_1026" [label=35; weight=35; penwidth=0.3; color = 3]
+	"TimeoutProperties$TransactionTimeoutProperties_26769" -> "TaskTimeoutSettings_52466" [label=22; weight=22; penwidth=0.3; color = 3]
+	"TimeoutProperties_23699" -> "TimeoutProperties$TransactionTimeoutProperties_26769" [label=6; weight=6; penwidth=0.3; color = 3]
+	"AxonTimeoutAutoConfiguration_23607" -> "TimeoutProperties_23699" [label=4; weight=4; penwidth=0.3; color = 3]
+	"Configuration_1026" -> "CommandBus_30171" [label=3; weight=3; penwidth=0.3; color = 3]
+	"Configuration_1026" -> "DeadlineManager_36603" [label=3; weight=3; penwidth=0.3; color = 3]
+	"Configuration_1026" -> "QueryBus_52883" [label=3; weight=3; penwidth=0.3; color = 3]
+	"Configurer_2112" -> "EventProcessingConfigurer_1864" [label=3; weight=3; penwidth=0.3; color = 3]
+	"Configurer_2112" -> "CommandBus_30171" [label=2; weight=2; penwidth=0.3; color = 3]
+	"Configurer_2112" -> "DeadlineManager_36603" [label=2; weight=2; penwidth=0.3; color = 3]
+	"Configurer_2112" -> "QueryBus_52883" [label=2; weight=2; penwidth=0.3; color = 3]
+	"EventProcessingConfigurer_1864" -> "MessageHandlerInterceptor_31364" [label=2; weight=2; penwidth=0.3; color = 3]
+	"AxonTimeoutAutoConfiguration_23607" -> "ConfigurerModule_883" [label=1; weight=1; penwidth=0.3; color = 3]
+	"ConfigurerModule_883" -> "Configurer_2112" [label=1; weight=1; penwidth=0.3; color = 3]
+	"UnitOfWorkTimeoutInterceptor_52468" -> "MessageHandlerInterceptor_31364" [label=1; weight=1; penwidth=0.3; color = 3]
 }

@@ -12,25 +12,14 @@ strict digraph TopBridge3 {
     central [fontsize = 16;];
     central [color = 7; fillcolor = 5; penwidth = 3;];
 
-	graph   [label="Top Rank #3 Java Type Bridge\norg.axonframework.axonserver.connector.event.axon.PersistentStreamConnection$SegmentConnection$RetryState\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
-	central [label="🌉 bridge #3\nPersistentStreamConnection$SegmentConnection$RetryState"];
-	"PersistentStreamConnection$SegmentConnection$ProcessingState_14690" [label = "PersistentStreamConnection$\nSegmentConnection$\nProcessingState"; ]; "PersistentStreamConnection$SegmentConnection$ProcessingState_14690" -> central [label=3; weight=3; penwidth=0.4];
-	"PersistentStreamConnection$SegmentConnection_14368" [label = "PersistentStreamConnection$\nSegmentConnection"; ]; "PersistentStreamConnection$SegmentConnection_14368" -> central [label=1; weight=1; penwidth=0.4];
-	"PersistentStreamConnection$SegmentConnection_14368" [label = "PersistentStreamConnection$\nSegmentConnection"; color = 5; fillcolor = 1; ]; central -> "PersistentStreamConnection$SegmentConnection_14368" [label=12; weight=12; penwidth=0.5; color = 5];
-	"PersistentStreamConnection_14370" [label = "PersistentStreamConnection"; color = 5; fillcolor = 1; ]; central -> "PersistentStreamConnection_14370" [label=5; weight=5; penwidth=0.5; color = 5];
-	"PersistentStreamConnection$SegmentConnection$ProcessingState_14690" [label = "PersistentStreamConnection$\nSegmentConnection$\nProcessingState"; color = 5; fillcolor = 1; ]; central -> "PersistentStreamConnection$SegmentConnection$ProcessingState_14690" [label=3; weight=3; penwidth=0.4; color = 5];
-	"PersistentStreamConnection$SegmentState_14367" [label = "PersistentStreamConnection$\nSegmentState"; color = 5; fillcolor = 1; ]; central -> "PersistentStreamConnection$SegmentState_14367" [label=2; weight=2; penwidth=0.4; color = 5];
-	"PersistentStreamConnection$1_14691" [label = "PersistentStreamConnection$\n1"; color = 5; fillcolor = 1; ]; central -> "PersistentStreamConnection$1_14691" [label=1; weight=1; penwidth=0.4; color = 5];
-	"PersistentStreamConnection$SegmentConnection$ProcessingState_14690" -> "PersistentStreamConnection$SegmentConnection_14368" [label=45; weight=45; penwidth=0.3; color = 3]
-	"PersistentStreamConnection$SegmentConnection$ProcessingState_14690" -> "PersistentStreamConnection_14370" [label=14; weight=14; penwidth=0.3; color = 3]
-	"PersistentStreamConnection$SegmentConnection_14368" -> "PersistentStreamConnection_14370" [label=9; weight=9; penwidth=0.3; color = 3]
-	"PersistentStreamConnection_14370" -> "PersistentStreamConnection$SegmentConnection_14368" [label=6; weight=6; penwidth=0.3; color = 3]
-	"PersistentStreamConnection$SegmentConnection_14368" -> "PersistentStreamConnection$SegmentState_14367" [label=4; weight=4; penwidth=0.3; color = 3]
-	"PersistentStreamConnection$SegmentConnection_14368" -> "PersistentStreamConnection$SegmentConnection$ProcessingState_14690" [label=3; weight=3; penwidth=0.3; color = 3]
-	"PersistentStreamConnection$SegmentConnection$ProcessingState_14690" -> "PersistentStreamConnection$SegmentState_14367" [label=2; weight=2; penwidth=0.3; color = 3]
-	"PersistentStreamConnection$SegmentConnection$ProcessingState_14690" -> "PersistentStreamConnection$1_14691" [label=2; weight=2; penwidth=0.3; color = 3]
-	"PersistentStreamConnection_14370" -> "PersistentStreamConnection$SegmentState_14367" [label=1; weight=1; penwidth=0.3; color = 3]
-	"PersistentStreamConnection_14370" -> "PersistentStreamConnection$1_14691" [label=1; weight=1; penwidth=0.3; color = 3]
-	"PersistentStreamConnection$1_14691" -> "PersistentStreamConnection_14370" [label=1; weight=1; penwidth=0.3; color = 3]
-	"PersistentStreamConnection$SegmentConnection_14368" -> "PersistentStreamConnection$1_14691" [label=1; weight=1; penwidth=0.3; color = 3]
+	graph   [label="Top Rank #3 Java Type Bridge\norg.axonframework.springboot.autoconfig.AxonTimeoutAutoConfiguration\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
+	central [label="🌉 bridge #3\nAxonTimeoutAutoConfiguration"];
+	"TimeoutProperties_23699" [label = "TimeoutProperties"; color = 5; fillcolor = 1; ]; central -> "TimeoutProperties_23699" [label=4; weight=4; penwidth=0.4; color = 5];
+	"AxonTimeoutAutoConfiguration$AxonTimeoutConfigurerModule_23701" [label = "AxonTimeoutAutoConfiguration$\nAxonTimeoutConfigurerModule"; color = 5; fillcolor = 1; ]; central -> "AxonTimeoutAutoConfiguration$AxonTimeoutConfigurerModule_23701" [label=3; weight=3; penwidth=0.4; color = 5];
+	"HandlerTimeoutHandlerEnhancerDefinition_52467" [label = "HandlerTimeoutHandlerEnhancerDefinition"; color = 5; fillcolor = 1; ]; central -> "HandlerTimeoutHandlerEnhancerDefinition_52467" [label=3; weight=3; penwidth=0.4; color = 5];
+	"TimeoutProperties$MessageHandlerTimeoutProperties_23600" [label = "TimeoutProperties$\nMessageHandlerTimeoutProperties"; color = 5; fillcolor = 1; ]; central -> "TimeoutProperties$MessageHandlerTimeoutProperties_23600" [label=2; weight=2; penwidth=0.4; color = 5];
+	"ConfigurerModule_883" [label = "ConfigurerModule"; color = 5; fillcolor = 1; ]; central -> "ConfigurerModule_883" [label=1; weight=1; penwidth=0.4; color = 5];
+	"TimeoutProperties_23699" -> "TimeoutProperties$MessageHandlerTimeoutProperties_23600" [label=6; weight=6; penwidth=0.3; color = 3]
+	"AxonTimeoutAutoConfiguration$AxonTimeoutConfigurerModule_23701" -> "TimeoutProperties_23699" [label=2; weight=2; penwidth=0.3; color = 3]
+	"AxonTimeoutAutoConfiguration$AxonTimeoutConfigurerModule_23701" -> "ConfigurerModule_883" [label=1; weight=1; penwidth=0.3; color = 3]
 }

@@ -15,13 +15,13 @@ strict digraph TopBottleneck1 {
 	graph   [label="Top Rank #1 Java Artifact Bottleneck\n/axon-disruptor-4.12.1.jar\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: Betweenness centrality\nthick outline: > 90% percentile of Betweenness centrality\n\n"];
 	central [label="🔒 bottleneck #1\naxon-disruptor-4.12.1"];
 	"axon-configuration-4.12.1_1"  [label = "axon-configuration-4.12.1\n(3.0)"; penwidth = 2; ]; "axon-configuration-4.12.1_1" -> central [label=2; weight=2; penwidth=0.4];
-	"axon-messaging-4.12.1_29150"  [label = "axon-messaging-4.12.1\n(0.0)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "axon-messaging-4.12.1_29150" [label=188; weight=188; penwidth=1.0; color = 5];
-	"axon-modelling-4.12.1_59104"  [label = "axon-modelling-4.12.1\n(0.0)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "axon-modelling-4.12.1_59104" [label=42; weight=42; penwidth=0.5; color = 5];
-	"axon-eventsourcing-4.12.1_17352"  [label = "axon-eventsourcing-4.12.1\n(0.0)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "axon-eventsourcing-4.12.1_17352" [label=30; weight=30; penwidth=0.5; color = 5];
-	"axon-modelling-4.12.1_59104" -> "axon-messaging-4.12.1_29150" [label=746; weight=746; penwidth=0.3; color = 3]
-	"axon-eventsourcing-4.12.1_17352" -> "axon-messaging-4.12.1_29150" [label=650; weight=650; penwidth=0.3; color = 3]
-	"axon-configuration-4.12.1_1" -> "axon-messaging-4.12.1_29150" [label=544; weight=544; penwidth=0.3; color = 3]
-	"axon-configuration-4.12.1_1" -> "axon-modelling-4.12.1_59104" [label=98; weight=98; penwidth=0.3; color = 3]
-	"axon-eventsourcing-4.12.1_17352" -> "axon-modelling-4.12.1_59104" [label=80; weight=80; penwidth=0.3; color = 3]
-	"axon-configuration-4.12.1_1" -> "axon-eventsourcing-4.12.1_17352" [label=62; weight=62; penwidth=0.3; color = 3]
+	"axon-messaging-4.12.1_29184"  [label = "axon-messaging-4.12.1\n(0.0)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "axon-messaging-4.12.1_29184" [label=188; weight=188; penwidth=1.0; color = 5];
+	"axon-modelling-4.12.1_59106"  [label = "axon-modelling-4.12.1\n(0.0)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "axon-modelling-4.12.1_59106" [label=42; weight=42; penwidth=0.5; color = 5];
+	"axon-eventsourcing-4.12.1_17354"  [label = "axon-eventsourcing-4.12.1\n(0.0)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "axon-eventsourcing-4.12.1_17354" [label=30; weight=30; penwidth=0.5; color = 5];
+	"axon-modelling-4.12.1_59106" -> "axon-messaging-4.12.1_29184" [label=746; weight=746; penwidth=0.3; color = 3]
+	"axon-eventsourcing-4.12.1_17354" -> "axon-messaging-4.12.1_29184" [label=650; weight=650; penwidth=0.3; color = 3]
+	"axon-configuration-4.12.1_1" -> "axon-messaging-4.12.1_29184" [label=544; weight=544; penwidth=0.3; color = 3]
+	"axon-configuration-4.12.1_1" -> "axon-modelling-4.12.1_59106" [label=98; weight=98; penwidth=0.3; color = 3]
+	"axon-eventsourcing-4.12.1_17354" -> "axon-modelling-4.12.1_59106" [label=80; weight=80; penwidth=0.3; color = 3]
+	"axon-configuration-4.12.1_1" -> "axon-eventsourcing-4.12.1_17354" [label=62; weight=62; penwidth=0.3; color = 3]
 }

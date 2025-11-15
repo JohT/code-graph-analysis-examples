@@ -12,15 +12,21 @@ strict digraph TopOutlier2 {
     central [fontsize = 16;];
     central [color = 7; fillcolor = 5; penwidth = 3;];
 
-	graph   [label="Top Rank #2 Java Type Outlier\norg.axonframework.tracing.attributes.MessageNameSpanAttributesProvider\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: cluster probability\nlarge circle: < 25% percentile of cluster probability\nthick outline: > 80% percentile of distance to cluster center\n\n"];
-	central [label="🧩 outlier #2\nMessageNameSpanAttributesProvider"];
-	"AxonTracingAutoConfiguration_25035"  [shape = "circle"; height=1.8; label = "AxonTracingAutoConfiguration\n(1.86%)"; penwidth = 2; ]; "AxonTracingAutoConfiguration_25035" -> central [label=2; weight=2; penwidth=0.4];
-	"CommandMessage_30411"  [shape = "circle"; height=1.8; label = "CommandMessage\n(0.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "CommandMessage_30411" [label=3; weight=3; penwidth=0.4; color = 5];
-	"Message_30069"  [label = "Message\n(83.46%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "Message_30069" [label=2; weight=2; penwidth=0.4; color = 5];
-	"QueryMessage_52326"  [label = "QueryMessage\n(100.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "QueryMessage_52326" [label=2; weight=2; penwidth=0.4; color = 5];
-	"SpanAttributesProvider_58338"  [label = "SpanAttributesProvider\n(78.13%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "SpanAttributesProvider_58338" [label=1; weight=1; penwidth=0.4; color = 5];
-	"AxonTracingAutoConfiguration_25035" -> "SpanAttributesProvider_58338" [label=7; weight=7; penwidth=0.3; color = 3]
-	"QueryMessage_52326" -> "Message_30069" [label=6; weight=6; penwidth=0.3; color = 3]
-	"CommandMessage_30411" -> "Message_30069" [label=3; weight=3; penwidth=0.3; color = 3]
-	"SpanAttributesProvider_58338" -> "Message_30069" [label=1; weight=1; penwidth=0.3; color = 3]
+	graph   [label="Top Rank #2 Java Type Outlier\norg.axonframework.springboot.TracingProperties\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: cluster probability\nlarge circle: < 25% percentile of cluster probability\nthick outline: > 80% percentile of distance to cluster center\n\n"];
+	central [label="🧩 outlier #2\nTracingProperties"];
+	"AxonTracingAutoConfiguration_25035"  [label = "AxonTracingAutoConfiguration\n(100.0%)"; penwidth = 5; ]; "AxonTracingAutoConfiguration_25035" -> central [label=17; weight=17; penwidth=0.6];
+	"TracingProperties$EventProcessorProperties_23602"  [label = "TracingProperties$\nEventProcessorProperties\n(100.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "TracingProperties$EventProcessorProperties_23602" [label=10; weight=10; penwidth=0.5; color = 5];
+	"TracingProperties$CommandBusProperties_23595"  [label = "TracingProperties$\nCommandBusProperties\n(100.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "TracingProperties$CommandBusProperties_23595" [label=6; weight=6; penwidth=0.5; color = 5];
+	"TracingProperties$DeadlineManagerProperties_24374"  [label = "TracingProperties$\nDeadlineManagerProperties\n(61.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "TracingProperties$DeadlineManagerProperties_24374" [label=6; weight=6; penwidth=0.5; color = 5];
+	"TracingProperties$QueryBusProperties_24373"  [label = "TracingProperties$\nQueryBusProperties\n(100.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "TracingProperties$QueryBusProperties_24373" [label=6; weight=6; penwidth=0.5; color = 5];
+	"TracingProperties$RepositoryProperties_26772"  [label = "TracingProperties$\nRepositoryProperties\n(29.03%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "TracingProperties$RepositoryProperties_26772" [label=6; weight=6; penwidth=0.5; color = 5];
+	"TracingProperties$SagaManagerProperties_23601"  [label = "TracingProperties$\nSagaManagerProperties\n(100.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "TracingProperties$SagaManagerProperties_23601" [label=6; weight=6; penwidth=0.5; color = 5];
+	"TracingProperties$SnapshotterProperties_24372"  [label = "TracingProperties$\nSnapshotterProperties\n(100.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "TracingProperties$SnapshotterProperties_24372" [label=6; weight=6; penwidth=0.5; color = 5];
+	"TracingProperties$AttributeProviders_26771"  [label = "TracingProperties$\nAttributeProviders\n(29.03%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "TracingProperties$AttributeProviders_26771" [label=4; weight=4; penwidth=0.4; color = 5];
+	"AxonTracingAutoConfiguration_25035" -> "TracingProperties$EventProcessorProperties_23602" [label=4; weight=4; penwidth=0.3; color = 3]
+	"AxonTracingAutoConfiguration_25035" -> "TracingProperties$DeadlineManagerProperties_24374" [label=4; weight=4; penwidth=0.3; color = 3]
+	"AxonTracingAutoConfiguration_25035" -> "TracingProperties$SnapshotterProperties_24372" [label=3; weight=3; penwidth=0.3; color = 3]
+	"AxonTracingAutoConfiguration_25035" -> "TracingProperties$SagaManagerProperties_23601" [label=2; weight=2; penwidth=0.3; color = 3]
+	"AxonTracingAutoConfiguration_25035" -> "TracingProperties$CommandBusProperties_23595" [label=2; weight=2; penwidth=0.3; color = 3]
+	"AxonTracingAutoConfiguration_25035" -> "TracingProperties$QueryBusProperties_24373" [label=2; weight=2; penwidth=0.3; color = 3]
 }

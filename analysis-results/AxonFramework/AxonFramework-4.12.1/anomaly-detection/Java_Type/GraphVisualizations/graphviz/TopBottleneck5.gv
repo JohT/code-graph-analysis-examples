@@ -15,29 +15,29 @@ strict digraph TopBottleneck5 {
 	graph   [label="Top Rank #5 Java Type Bottleneck\norg.axonframework.config.ConfigurerModule\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: Betweenness centrality\nthick outline: > 90% percentile of Betweenness centrality\n\n"];
 	central [label="🔒 bottleneck #5\nConfigurerModule"];
 	"InfraConfiguration_26251"  [label = "InfraConfiguration\n(0.0)"; penwidth = 2; ]; "InfraConfiguration_26251" -> central [label=6; weight=6; penwidth=0.5];
-	"DefaultConfigurer_524"  [label = "DefaultConfigurer\n(2252.94)"; penwidth = 5; ]; "DefaultConfigurer_524" -> central [label=4; weight=4; penwidth=0.4];
-	"AxonServerAutoConfiguration_24280"  [label = "AxonServerAutoConfiguration\n(2082.54)"; penwidth = 5; ]; "AxonServerAutoConfiguration_24280" -> central [label=3; weight=3; penwidth=0.4];
-	"AxonAutoConfiguration_23663"  [label = "AxonAutoConfiguration\n(10295.89)"; penwidth = 5; ]; "AxonAutoConfiguration_23663" -> central [label=1; weight=1; penwidth=0.4];
-	"AxonTimeoutAutoConfiguration_23605"  [label = "AxonTimeoutAutoConfiguration\n(0.0)"; penwidth = 2; ]; "AxonTimeoutAutoConfiguration_23605" -> central [label=1; weight=1; penwidth=0.4];
-	"AxonTimeoutAutoConfiguration$AxonTimeoutConfigurerModule_23699"  [label = "AxonTimeoutAutoConfiguration$\nAxonTimeoutConfigurerModule\n(164.66)"; penwidth = 2; ]; "AxonTimeoutAutoConfiguration$AxonTimeoutConfigurerModule_23699" -> central [label=1; weight=1; penwidth=0.4];
-	"AxonTracingAutoConfiguration_25036"  [label = "AxonTracingAutoConfiguration\n(1014.05)"; penwidth = 2; ]; "AxonTracingAutoConfiguration_25036" -> central [label=1; weight=1; penwidth=0.4];
-	"DeadLetterQueueProviderConfigurerModule_23688"  [label = "DeadLetterQueueProviderConfigurerModule\n(461.77)"; penwidth = 2; ]; "DeadLetterQueueProviderConfigurerModule_23688" -> central [label=1; weight=1; penwidth=0.4];
+	"DefaultConfigurer_945"  [label = "DefaultConfigurer\n(2252.94)"; penwidth = 5; ]; "DefaultConfigurer_945" -> central [label=4; weight=4; penwidth=0.4];
+	"AxonServerAutoConfiguration_24397"  [label = "AxonServerAutoConfiguration\n(2082.54)"; penwidth = 5; ]; "AxonServerAutoConfiguration_24397" -> central [label=3; weight=3; penwidth=0.4];
+	"AxonAutoConfiguration_23665"  [label = "AxonAutoConfiguration\n(10295.89)"; penwidth = 5; ]; "AxonAutoConfiguration_23665" -> central [label=1; weight=1; penwidth=0.4];
+	"AxonTimeoutAutoConfiguration_23607"  [label = "AxonTimeoutAutoConfiguration\n(0.0)"; penwidth = 2; ]; "AxonTimeoutAutoConfiguration_23607" -> central [label=1; weight=1; penwidth=0.4];
+	"AxonTimeoutAutoConfiguration$AxonTimeoutConfigurerModule_23701"  [label = "AxonTimeoutAutoConfiguration$\nAxonTimeoutConfigurerModule\n(164.66)"; penwidth = 2; ]; "AxonTimeoutAutoConfiguration$AxonTimeoutConfigurerModule_23701" -> central [label=1; weight=1; penwidth=0.4];
+	"AxonTracingAutoConfiguration_25035"  [label = "AxonTracingAutoConfiguration\n(1014.05)"; penwidth = 2; ]; "AxonTracingAutoConfiguration_25035" -> central [label=1; weight=1; penwidth=0.4];
+	"DeadLetterQueueProviderConfigurerModule_23690"  [label = "DeadLetterQueueProviderConfigurerModule\n(461.77)"; penwidth = 2; ]; "DeadLetterQueueProviderConfigurerModule_23690" -> central [label=1; weight=1; penwidth=0.4];
 	"ServerConnectorConfigurerModule_15747"  [label = "ServerConnectorConfigurerModule\n(0.0)"; penwidth = 2; ]; "ServerConnectorConfigurerModule_15747" -> central [label=1; weight=1; penwidth=0.4];
-	"UpdateCheckerConfigurerModule_463"  [label = "UpdateCheckerConfigurerModule\n(0.0)"; penwidth = 2; ]; "UpdateCheckerConfigurerModule_463" -> central [label=1; weight=1; penwidth=0.4];
+	"UpdateCheckerConfigurerModule_884"  [label = "UpdateCheckerConfigurerModule\n(0.0)"; penwidth = 2; ]; "UpdateCheckerConfigurerModule_884" -> central [label=1; weight=1; penwidth=0.4];
 	"Configurer_2112"  [label = "Configurer\n(6390.84)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "Configurer_2112" [label=1; weight=1; penwidth=0.4; color = 5];
-	"DefaultConfigurer_524" -> "Configurer_2112" [label=26; weight=26; penwidth=0.3; color = 3]
+	"DefaultConfigurer_945" -> "Configurer_2112" [label=26; weight=26; penwidth=0.3; color = 3]
 	"ServerConnectorConfigurerModule_15747" -> "Configurer_2112" [label=12; weight=12; penwidth=0.3; color = 3]
 	"InfraConfiguration_26251" -> "Configurer_2112" [label=9; weight=9; penwidth=0.3; color = 3]
-	"AxonServerAutoConfiguration_24280" -> "Configurer_2112" [label=7; weight=7; penwidth=0.3; color = 3]
-	"AxonTimeoutAutoConfiguration$AxonTimeoutConfigurerModule_23699" -> "Configurer_2112" [label=5; weight=5; penwidth=0.3; color = 3]
-	"UpdateCheckerConfigurerModule_463" -> "Configurer_2112" [label=5; weight=5; penwidth=0.3; color = 3]
-	"AxonAutoConfiguration_23663" -> "Configurer_2112" [label=4; weight=4; penwidth=0.3; color = 3]
-	"AxonTimeoutAutoConfiguration_23605" -> "AxonTimeoutAutoConfiguration$AxonTimeoutConfigurerModule_23699" [label=3; weight=3; penwidth=0.3; color = 3]
-	"AxonTracingAutoConfiguration_25036" -> "Configurer_2112" [label=2; weight=2; penwidth=0.3; color = 3]
-	"DeadLetterQueueProviderConfigurerModule_23688" -> "Configurer_2112" [label=2; weight=2; penwidth=0.3; color = 3]
-	"AxonServerAutoConfiguration_24280" -> "AxonAutoConfiguration_23663" [label=1; weight=1; penwidth=0.3; color = 3]
-	"AxonTracingAutoConfiguration_25036" -> "AxonAutoConfiguration_23663" [label=1; weight=1; penwidth=0.3; color = 3]
-	"AxonTracingAutoConfiguration_25036" -> "AxonServerAutoConfiguration_24280" [label=1; weight=1; penwidth=0.3; color = 3]
-	"InfraConfiguration_26251" -> "DefaultConfigurer_524" [label=1; weight=1; penwidth=0.3; color = 3]
-	"InfraConfiguration_26251" -> "AxonAutoConfiguration_23663" [label=1; weight=1; penwidth=0.3; color = 3]
+	"AxonServerAutoConfiguration_24397" -> "Configurer_2112" [label=7; weight=7; penwidth=0.3; color = 3]
+	"AxonTimeoutAutoConfiguration$AxonTimeoutConfigurerModule_23701" -> "Configurer_2112" [label=5; weight=5; penwidth=0.3; color = 3]
+	"UpdateCheckerConfigurerModule_884" -> "Configurer_2112" [label=5; weight=5; penwidth=0.3; color = 3]
+	"AxonAutoConfiguration_23665" -> "Configurer_2112" [label=4; weight=4; penwidth=0.3; color = 3]
+	"AxonTimeoutAutoConfiguration_23607" -> "AxonTimeoutAutoConfiguration$AxonTimeoutConfigurerModule_23701" [label=3; weight=3; penwidth=0.3; color = 3]
+	"AxonTracingAutoConfiguration_25035" -> "Configurer_2112" [label=2; weight=2; penwidth=0.3; color = 3]
+	"DeadLetterQueueProviderConfigurerModule_23690" -> "Configurer_2112" [label=2; weight=2; penwidth=0.3; color = 3]
+	"AxonServerAutoConfiguration_24397" -> "AxonAutoConfiguration_23665" [label=1; weight=1; penwidth=0.3; color = 3]
+	"AxonTracingAutoConfiguration_25035" -> "AxonServerAutoConfiguration_24397" [label=1; weight=1; penwidth=0.3; color = 3]
+	"AxonTracingAutoConfiguration_25035" -> "AxonAutoConfiguration_23665" [label=1; weight=1; penwidth=0.3; color = 3]
+	"InfraConfiguration_26251" -> "DefaultConfigurer_945" [label=1; weight=1; penwidth=0.3; color = 3]
+	"InfraConfiguration_26251" -> "AxonAutoConfiguration_23665" [label=1; weight=1; penwidth=0.3; color = 3]
 }
