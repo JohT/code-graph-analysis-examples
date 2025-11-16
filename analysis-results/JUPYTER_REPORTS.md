@@ -91,6 +91,22 @@ Report | Analysis | Description
 | [PathFindingJava.md](./AxonFramework/AxonFramework-4.12.1/path-finding-java/PathFindingJava.md) | AxonFramework-4.12.1 | Path Finding for Java |
 | [VisibilityMetricsJava.md](./AxonFramework/AxonFramework-4.12.1/visibility-metrics-java/VisibilityMetricsJava.md) | AxonFramework-4.12.1 | Visibility Metrics for Java |
 | [Wordcloud.md](./AxonFramework/AxonFramework-4.12.1/wordcloud/Wordcloud.md) | AxonFramework-4.12.1 | Wordcloud |
+| [GraphVisualizationsReferenceForSummary.md](./AxonFramework/AxonFramework-4.12.2/anomaly-detection/Java_Artifact/GraphVisualizations/GraphVisualizationsReferenceForSummary.md) | AxonFramework-4.12.2 | Graph Visualizations |
+| [GraphVisualizationsReferenceForSummary.md](./AxonFramework/AxonFramework-4.12.2/anomaly-detection/Java_Package/GraphVisualizations/GraphVisualizationsReferenceForSummary.md) | AxonFramework-4.12.2 | Graph Visualizations |
+| [GraphVisualizationsReferenceForSummary.md](./AxonFramework/AxonFramework-4.12.2/anomaly-detection/Java_Type/GraphVisualizations/GraphVisualizationsReferenceForSummary.md) | AxonFramework-4.12.2 | Graph Visualizations |
+| [anomaly_detection_report.md](./AxonFramework/AxonFramework-4.12.2/anomaly-detection/anomaly_detection_report.md) | AxonFramework-4.12.2 | 📊 Anomaly Detection Report |
+| [DependenciesGraphJava.md](./AxonFramework/AxonFramework-4.12.2/dependencies-graph-java/DependenciesGraphJava.md) | AxonFramework-4.12.2 | Artifact Dependencies |
+| [ExternalDependenciesJava.md](./AxonFramework/AxonFramework-4.12.2/external-dependencies-java/ExternalDependenciesJava.md) | AxonFramework-4.12.2 | External Dependencies for Java |
+| [GitHistoryGeneral.md](./AxonFramework/AxonFramework-4.12.2/git-history-general/GitHistoryGeneral.md) | AxonFramework-4.12.2 | git log/history |
+| [InternalDependenciesJava.md](./AxonFramework/AxonFramework-4.12.2/internal-dependencies-java/InternalDependenciesJava.md) | AxonFramework-4.12.2 | Internal Dependencies |
+| [MethodMetricsJava.md](./AxonFramework/AxonFramework-4.12.2/method-metrics-java/MethodMetricsJava.md) | AxonFramework-4.12.2 | Method Metrics |
+| [NodeEmbeddingsJava.md](./AxonFramework/AxonFramework-4.12.2/node-embeddings-java/NodeEmbeddingsJava.md) | AxonFramework-4.12.2 | Node Embeddings |
+| [ObjectOrientedDesignMetricsJava.md](./AxonFramework/AxonFramework-4.12.2/object-oriented-design-metrics-java/ObjectOrientedDesignMetricsJava.md) | AxonFramework-4.12.2 | Object Oriented Design Quality Metrics |
+| [OverviewGeneral.md](./AxonFramework/AxonFramework-4.12.2/overview-general/OverviewGeneral.md) | AxonFramework-4.12.2 | Overview in General |
+| [OverviewJava.md](./AxonFramework/AxonFramework-4.12.2/overview-java/OverviewJava.md) | AxonFramework-4.12.2 | Overview for Java |
+| [PathFindingJava.md](./AxonFramework/AxonFramework-4.12.2/path-finding-java/PathFindingJava.md) | AxonFramework-4.12.2 | Path Finding for Java |
+| [VisibilityMetricsJava.md](./AxonFramework/AxonFramework-4.12.2/visibility-metrics-java/VisibilityMetricsJava.md) | AxonFramework-4.12.2 | Visibility Metrics for Java |
+| [Wordcloud.md](./AxonFramework/AxonFramework-4.12.2/wordcloud/Wordcloud.md) | AxonFramework-4.12.2 | Wordcloud |
 | [ArtifactDependencies.md](./AxonFramework/AxonFramework-4.6.8/artifact-dependencies/ArtifactDependencies.md) | AxonFramework-4.6.8 | Artifact Dependencies |
 | [ExternalDependencies.md](./AxonFramework/AxonFramework-4.6.8/external-dependencies/ExternalDependencies.md) | AxonFramework-4.6.8 | External Dependencies |
 | [InternalDependencies.md](./AxonFramework/AxonFramework-4.6.8/internal-dependencies/InternalDependencies.md) | AxonFramework-4.6.8 | Internal Dependencies |
