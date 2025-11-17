@@ -12,24 +12,33 @@ strict digraph TopBridge5 {
     central [fontsize = 16;];
     central [color = 7; fillcolor = 5; penwidth = 3;];
 
-	graph   [label="Top Rank #5 Java Type Bridge\norg.axonframework.updates.LoggingUpdateCheckerReporter\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
-	central [label="🌉 bridge #5\nLoggingUpdateCheckerReporter"];
-	"UpdateCheckerAutoConfiguration_49278" [label = "UpdateCheckerAutoConfiguration"; ]; "UpdateCheckerAutoConfiguration_49278" -> central [label=2; weight=2; penwidth=0.4];
-	"UpdateCheckerConfigurerModule_14043" [label = "UpdateCheckerConfigurerModule"; ]; "UpdateCheckerConfigurerModule_14043" -> central [label=2; weight=2; penwidth=0.4];
-	"DetectedVulnerability_47987" [label = "DetectedVulnerability"; color = 5; fillcolor = 1; ]; central -> "DetectedVulnerability_47987" [label=12; weight=12; penwidth=0.5; color = 5];
-	"UpdateCheckResponse_47985" [label = "UpdateCheckResponse"; color = 5; fillcolor = 1; ]; central -> "UpdateCheckResponse_47985" [label=10; weight=10; penwidth=0.5; color = 5];
-	"Artifact_47986" [label = "Artifact"; color = 5; fillcolor = 1; ]; central -> "Artifact_47986" [label=8; weight=8; penwidth=0.5; color = 5];
-	"UpdateCheckRequest_47984" [label = "UpdateCheckRequest"; color = 5; fillcolor = 1; ]; central -> "UpdateCheckRequest_47984" [label=7; weight=7; penwidth=0.5; color = 5];
-	"ArtifactAvailableUpgrade_47988" [label = "ArtifactAvailableUpgrade"; color = 5; fillcolor = 1; ]; central -> "ArtifactAvailableUpgrade_47988" [label=6; weight=6; penwidth=0.5; color = 5];
-	"DetectedVulnerabilitySeverity_48196" [label = "DetectedVulnerabilitySeverity"; color = 5; fillcolor = 1; ]; central -> "DetectedVulnerabilitySeverity_48196" [label=2; weight=2; penwidth=0.4; color = 5];
-	"UpdateCheckerReporter_48182" [label = "UpdateCheckerReporter"; color = 5; fillcolor = 1; ]; central -> "UpdateCheckerReporter_48182" [label=1; weight=1; penwidth=0.4; color = 5];
-	"UpdateCheckRequest_47984" -> "Artifact_47986" [label=12; weight=12; penwidth=0.3; color = 3]
-	"UpdateCheckResponse_47985" -> "DetectedVulnerability_47987" [label=7; weight=7; penwidth=0.3; color = 3]
-	"UpdateCheckResponse_47985" -> "ArtifactAvailableUpgrade_47988" [label=6; weight=6; penwidth=0.3; color = 3]
-	"UpdateCheckerConfigurerModule_14043" -> "UpdateCheckerReporter_48182" [label=4; weight=4; penwidth=0.3; color = 3]
-	"DetectedVulnerability_47987" -> "DetectedVulnerabilitySeverity_48196" [label=3; weight=3; penwidth=0.3; color = 3]
-	"UpdateCheckResponse_47985" -> "DetectedVulnerabilitySeverity_48196" [label=3; weight=3; penwidth=0.3; color = 3]
-	"UpdateCheckerAutoConfiguration_49278" -> "UpdateCheckerReporter_48182" [label=2; weight=2; penwidth=0.3; color = 3]
-	"UpdateCheckerReporter_48182" -> "UpdateCheckResponse_47985" [label=1; weight=1; penwidth=0.3; color = 3]
-	"UpdateCheckerReporter_48182" -> "UpdateCheckRequest_47984" [label=1; weight=1; penwidth=0.3; color = 3]
+	graph   [label="Top Rank #5 Java Type Bridge\norg.axonframework.eventsourcing.eventstore.legacyjpa.EmbeddedEventStore$Node\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
+	central [label="🌉 bridge #5\nEmbeddedEventStore$Node"];
+	"EmbeddedEventStore$EventConsumer_12524" [label = "EmbeddedEventStore$\nEventConsumer"; ]; "EmbeddedEventStore$EventConsumer_12524" -> central [label=13; weight=13; penwidth=0.5];
+	"EmbeddedEventStore$EventProducer_12525" [label = "EmbeddedEventStore$\nEventProducer"; ]; "EmbeddedEventStore$EventProducer_12525" -> central [label=10; weight=10; penwidth=0.5];
+	"EmbeddedEventStore_12536" [label = "EmbeddedEventStore"; ]; "EmbeddedEventStore_12536" -> central [label=9; weight=9; penwidth=0.5];
+	"EmbeddedEventStore$Cleaner_12522" [label = "EmbeddedEventStore$\nCleaner"; ]; "EmbeddedEventStore$Cleaner_12522" -> central [label=2; weight=2; penwidth=0.4];
+	"TrackedEventMessage_28185" [label = "TrackedEventMessage"; color = 5; fillcolor = 1; ]; central -> "TrackedEventMessage_28185" [label=4; weight=4; penwidth=0.4; color = 5];
+	"TrackingToken_28184" [label = "TrackingToken"; color = 5; fillcolor = 1; ]; central -> "TrackingToken_28184" [label=4; weight=4; penwidth=0.4; color = 5];
+	"EmbeddedEventStore$1_12535" [label = "EmbeddedEventStore$\n1"; color = 5; fillcolor = 1; ]; central -> "EmbeddedEventStore$1_12535" [label=2; weight=2; penwidth=0.4; color = 5];
+	"EmbeddedEventStore$EventConsumer_12524" -> "EmbeddedEventStore_12536" [label=25; weight=25; penwidth=0.3; color = 3]
+	"EmbeddedEventStore$EventProducer_12525" -> "EmbeddedEventStore_12536" [label=15; weight=15; penwidth=0.3; color = 3]
+	"EmbeddedEventStore$EventConsumer_12524" -> "TrackedEventMessage_28185" [label=14; weight=14; penwidth=0.3; color = 3]
+	"EmbeddedEventStore_12536" -> "EmbeddedEventStore$EventConsumer_12524" [label=6; weight=6; penwidth=0.3; color = 3]
+	"EmbeddedEventStore_12536" -> "EmbeddedEventStore$EventProducer_12525" [label=6; weight=6; penwidth=0.3; color = 3]
+	"EmbeddedEventStore$Cleaner_12522" -> "EmbeddedEventStore_12536" [label=6; weight=6; penwidth=0.3; color = 3]
+	"EmbeddedEventStore$Cleaner_12522" -> "EmbeddedEventStore$EventConsumer_12524" [label=5; weight=5; penwidth=0.3; color = 3]
+	"EmbeddedEventStore$EventConsumer_12524" -> "TrackingToken_28184" [label=5; weight=5; penwidth=0.3; color = 3]
+	"EmbeddedEventStore_12536" -> "TrackingToken_28184" [label=4; weight=4; penwidth=0.3; color = 3]
+	"EmbeddedEventStore_12536" -> "EmbeddedEventStore$Cleaner_12522" [label=3; weight=3; penwidth=0.3; color = 3]
+	"EmbeddedEventStore$EventConsumer_12524" -> "EmbeddedEventStore$1_12535" [label=3; weight=3; penwidth=0.3; color = 3]
+	"EmbeddedEventStore$EventProducer_12525" -> "TrackingToken_28184" [label=3; weight=3; penwidth=0.3; color = 3]
+	"EmbeddedEventStore$EventProducer_12525" -> "TrackedEventMessage_28185" [label=3; weight=3; penwidth=0.3; color = 3]
+	"EmbeddedEventStore$EventProducer_12525" -> "EmbeddedEventStore$EventConsumer_12524" [label=3; weight=3; penwidth=0.3; color = 3]
+	"EmbeddedEventStore$Cleaner_12522" -> "EmbeddedEventStore$1_12535" [label=2; weight=2; penwidth=0.3; color = 3]
+	"EmbeddedEventStore$EventProducer_12525" -> "EmbeddedEventStore$1_12535" [label=2; weight=2; penwidth=0.3; color = 3]
+	"TrackedEventMessage_28185" -> "TrackingToken_28184" [label=2; weight=2; penwidth=0.3; color = 3]
+	"EmbeddedEventStore_12536" -> "TrackedEventMessage_28185" [label=1; weight=1; penwidth=0.3; color = 3]
+	"EmbeddedEventStore_12536" -> "EmbeddedEventStore$1_12535" [label=1; weight=1; penwidth=0.3; color = 3]
+	"EmbeddedEventStore$1_12535" -> "EmbeddedEventStore_12536" [label=1; weight=1; penwidth=0.3; color = 3]
 }

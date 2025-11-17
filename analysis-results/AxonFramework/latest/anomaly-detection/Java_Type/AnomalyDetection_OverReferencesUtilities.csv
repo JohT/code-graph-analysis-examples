@@ -2,7 +2,7 @@
 "org.axonframework.messaging.Message","Message","axon-messaging-4.12.2",0.028206880838459784,41.0430716658494,210,207,3,""
 "org.axonframework.eventhandling.EventMessage","EventMessage","axon-messaging-4.12.2",0.029785661492978566,11.737180228146737,165,164,1,""
 "org.axonframework.common.AxonNonTransientException","AxonNonTransientException","axon-messaging-4.12.2",0.005698005698005698,10.691747162094591,27,26,1,""
-"org.axonframework.common.BuilderUtils","BuilderUtils","axon-messaging-4.12.2",0.022841143530798705,5.495770827211881,117,114,3,""
+"org.axonframework.common.BuilderUtils","BuilderUtils","axon-messaging-4.12.2",0.022841143530798705,5.495770827211879,117,114,3,""
 "org.axonframework.common.TypeReflectionUtils$VarMap","TypeReflectionUtils$VarMap","axon-messaging-4.12.2",0,2.8870897996565215,6,3,3,""
 "org.axonframework.common.AxonTransientException","AxonTransientException","axon-messaging-4.12.2",0,2.599560566338509,14,13,1,""
 "org.axonframework.springboot.autoconfig.XStreamAutoConfiguration$XStreamConfiguredCondition","XStreamAutoConfiguration$XStreamConfiguredCondition","axon-spring-boot-autoconfigure-4.12.2",0,2.508910243121957,9,5,4,""
