@@ -1,6 +1,6 @@
 "codeUnitName","shortCodeUnitName","projectName","betweenness","degree","incomingDependencies","outgoingDependencies","Source Cypher File: /home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/domains/anomaly-detection/queries/AnomalyDetectionUnexpectedCentralNodes.cypher"
 "org.axonframework.test.saga.SagaTestFixture$1","SagaTestFixture$1","axon-test-4.12.2",278.0000000000001,3,2,1,""
-"org.axonframework.serialization.GapAwareTrackingTokenConverter","GapAwareTrackingTokenConverter","axon-messaging-4.12.2",211.83333333333334,3,1,2,""
+"org.axonframework.serialization.GapAwareTrackingTokenConverter","GapAwareTrackingTokenConverter","axon-messaging-4.12.2",211.83333333333331,3,1,2,""
 "org.axonframework.common.IdentifierValidator","IdentifierValidator","axon-messaging-4.12.2",163.33333333333334,2,1,1,""
 "org.axonframework.disruptor.commandhandling.DisruptorCommandBus$1","DisruptorCommandBus$1","axon-disruptor-4.12.2",160.66666666666669,3,2,1,""
 "org.axonframework.common.lock.DeadlockException","DeadlockException","axon-messaging-4.12.2",134,3,2,1,""

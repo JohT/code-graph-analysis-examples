@@ -1414,16 +1414,6 @@ The following table shows the top 30 methods with the highest effective lines of
     </tr>
     <tr>
       <th>2</th>
-      <td>1</td>
-      <td>axon-configuration-4.12.2</td>
-      <td>org.axonframework.config</td>
-      <td>DefaultConfigurer</td>
-      <td>&lt;init&gt;</td>
-      <td>50</td>
-      <td>1615</td>
-    </tr>
-    <tr>
-      <th>3</th>
       <td>23</td>
       <td>axon-messaging-4.12.2</td>
       <td>org.axonframework.commandhandling.gateway</td>
@@ -1431,6 +1421,16 @@ The following table shows the top 30 methods with the highest effective lines of
       <td>createGateway</td>
       <td>50</td>
       <td>488</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>1</td>
+      <td>axon-configuration-4.12.2</td>
+      <td>org.axonframework.config</td>
+      <td>DefaultConfigurer</td>
+      <td>&lt;init&gt;</td>
+      <td>50</td>
+      <td>1615</td>
     </tr>
     <tr>
       <th>4</th>
@@ -1524,16 +1524,6 @@ The following table shows the top 30 methods with the highest effective lines of
     </tr>
     <tr>
       <th>13</th>
-      <td>29</td>
-      <td>axon-messaging-4.12.2</td>
-      <td>org.axonframework.messaging.unitofwork</td>
-      <td>BatchingUnitOfWork</td>
-      <td>executeWithResult</td>
-      <td>32</td>
-      <td>363</td>
-    </tr>
-    <tr>
-      <th>14</th>
       <td>15</td>
       <td>axon-disruptor-4.12.2</td>
       <td>org.axonframework.disruptor.commandhandling</td>
@@ -1541,6 +1531,16 @@ The following table shows the top 30 methods with the highest effective lines of
       <td>&lt;init&gt;</td>
       <td>32</td>
       <td>605</td>
+    </tr>
+    <tr>
+      <th>14</th>
+      <td>29</td>
+      <td>axon-messaging-4.12.2</td>
+      <td>org.axonframework.messaging.unitofwork</td>
+      <td>BatchingUnitOfWork</td>
+      <td>executeWithResult</td>
+      <td>32</td>
+      <td>363</td>
     </tr>
     <tr>
       <th>15</th>
@@ -1634,26 +1634,16 @@ The following table shows the top 30 methods with the highest effective lines of
     </tr>
     <tr>
       <th>24</th>
-      <td>34</td>
-      <td>axon-server-connector-4.12.2</td>
-      <td>org.axonframework.axonserver.connector.command</td>
-      <td>AxonServerCommandBus</td>
-      <td>doDispatch</td>
+      <td>20</td>
+      <td>axon-messaging-4.12.2</td>
+      <td>org.axonframework.common</td>
+      <td>TypeReflectionUtils</td>
+      <td>getExactDirectSuperTypesOfParameterizedTypeOrC...</td>
       <td>24</td>
-      <td>327</td>
+      <td>498</td>
     </tr>
     <tr>
       <th>25</th>
-      <td>17</td>
-      <td>axon-eventsourcing-4.12.2</td>
-      <td>org.axonframework.eventsourcing.eventstore.jdbc</td>
-      <td>JdbcEventStorageEngine</td>
-      <td>&lt;init&gt;</td>
-      <td>24</td>
-      <td>568</td>
-    </tr>
-    <tr>
-      <th>26</th>
       <td>18</td>
       <td>axon-messaging-4.12.2</td>
       <td>org.axonframework.serialization</td>
@@ -1663,14 +1653,24 @@ The following table shows the top 30 methods with the highest effective lines of
       <td>548</td>
     </tr>
     <tr>
-      <th>27</th>
-      <td>20</td>
-      <td>axon-messaging-4.12.2</td>
-      <td>org.axonframework.common</td>
-      <td>TypeReflectionUtils</td>
-      <td>getExactDirectSuperTypesOfParameterizedTypeOrC...</td>
+      <th>26</th>
+      <td>17</td>
+      <td>axon-eventsourcing-4.12.2</td>
+      <td>org.axonframework.eventsourcing.eventstore.jdbc</td>
+      <td>JdbcEventStorageEngine</td>
+      <td>&lt;init&gt;</td>
       <td>24</td>
-      <td>498</td>
+      <td>568</td>
+    </tr>
+    <tr>
+      <th>27</th>
+      <td>34</td>
+      <td>axon-server-connector-4.12.2</td>
+      <td>org.axonframework.axonserver.connector.command</td>
+      <td>AxonServerCommandBus</td>
+      <td>doDispatch</td>
+      <td>24</td>
+      <td>327</td>
     </tr>
     <tr>
       <th>28</th>
@@ -1684,13 +1684,13 @@ The following table shows the top 30 methods with the highest effective lines of
     </tr>
     <tr>
       <th>29</th>
-      <td>58</td>
-      <td>axon-messaging-4.12.2</td>
-      <td>org.axonframework.deadline.jobrunr</td>
-      <td>JobRunrDeadlineManager</td>
-      <td>execute</td>
+      <td>36</td>
+      <td>axon-eventsourcing-4.12.2</td>
+      <td>org.axonframework.eventsourcing.eventstore.jpa</td>
+      <td>JpaEventStorageEngine</td>
+      <td>fetchTrackedEvents</td>
       <td>23</td>
-      <td>171</td>
+      <td>318</td>
     </tr>
   </tbody>
 </table>
@@ -2580,15 +2580,6 @@ The following table shows the top 30 packages with the highest cyclomatic comple
       <td>&lt;init&gt;</td>
     </tr>
     <tr>
-      <th>31</th>
-      <td>axon-test-4.12.2</td>
-      <td>org.axonframework.test.matchers</td>
-      <td>191</td>
-      <td>108</td>
-      <td>8</td>
-      <td>matchesList</td>
-    </tr>
-    <tr>
       <th>33</th>
       <td>axon-spring-boot-autoconfigure-4.12.2</td>
       <td>org.axonframework.springboot</td>
@@ -2596,6 +2587,15 @@ The following table shows the top 30 packages with the highest cyclomatic comple
       <td>186</td>
       <td>6</td>
       <td>getThreadCount</td>
+    </tr>
+    <tr>
+      <th>31</th>
+      <td>axon-test-4.12.2</td>
+      <td>org.axonframework.test.matchers</td>
+      <td>191</td>
+      <td>108</td>
+      <td>8</td>
+      <td>matchesList</td>
     </tr>
   </tbody>
 </table>
@@ -2680,15 +2680,6 @@ The following table shows the top 30 packages containing the methods with the hi
     </tr>
     <tr>
       <th>6</th>
-      <td>5</td>
-      <td>axon-server-connector-4.12.2</td>
-      <td>org.axonframework.axonserver.connector.event.axon</td>
-      <td>PersistentStreamConnection$SegmentConnection$P...</td>
-      <td>readMessages</td>
-      <td>15</td>
-    </tr>
-    <tr>
-      <th>7</th>
       <td>19</td>
       <td>axon-messaging-4.12.2</td>
       <td>org.axonframework.eventhandling.deadletter.jpa</td>
@@ -2697,16 +2688,16 @@ The following table shows the top 30 packages containing the methods with the hi
       <td>15</td>
     </tr>
     <tr>
-      <th>8</th>
-      <td>11</td>
-      <td>axon-spring-boot-autoconfigure-4.12.2</td>
-      <td>org.axonframework.springboot.autoconfig</td>
-      <td>AxonAutoConfiguration</td>
-      <td>buildSerializer</td>
-      <td>14</td>
+      <th>7</th>
+      <td>5</td>
+      <td>axon-server-connector-4.12.2</td>
+      <td>org.axonframework.axonserver.connector.event.axon</td>
+      <td>PersistentStreamConnection$SegmentConnection$P...</td>
+      <td>readMessages</td>
+      <td>15</td>
     </tr>
     <tr>
-      <th>9</th>
+      <th>8</th>
       <td>12</td>
       <td>axon-messaging-4.12.2</td>
       <td>org.axonframework.messaging.annotation</td>
@@ -2715,25 +2706,16 @@ The following table shows the top 30 packages containing the methods with the hi
       <td>14</td>
     </tr>
     <tr>
+      <th>9</th>
+      <td>11</td>
+      <td>axon-spring-boot-autoconfigure-4.12.2</td>
+      <td>org.axonframework.springboot.autoconfig</td>
+      <td>AxonAutoConfiguration</td>
+      <td>buildSerializer</td>
+      <td>14</td>
+    </tr>
+    <tr>
       <th>10</th>
-      <td>58</td>
-      <td>axon-messaging-4.12.2</td>
-      <td>org.axonframework.deadline.jobrunr</td>
-      <td>JobRunrDeadlineManager</td>
-      <td>$deserializeLambda$</td>
-      <td>13</td>
-    </tr>
-    <tr>
-      <th>11</th>
-      <td>67</td>
-      <td>axon-messaging-4.12.2</td>
-      <td>org.axonframework.commandhandling.distributed....</td>
-      <td>CommandNameFilter</td>
-      <td>$deserializeLambda$</td>
-      <td>13</td>
-    </tr>
-    <tr>
-      <th>12</th>
       <td>10</td>
       <td>axon-eventsourcing-4.12.2</td>
       <td>org.axonframework.eventsourcing.eventstore</td>
@@ -2742,7 +2724,7 @@ The following table shows the top 30 packages containing the methods with the hi
       <td>13</td>
     </tr>
     <tr>
-      <th>13</th>
+      <th>11</th>
       <td>3</td>
       <td>axon-test-4.12.2</td>
       <td>org.axonframework.test.aggregate</td>
@@ -2751,43 +2733,25 @@ The following table shows the top 30 packages containing the methods with the hi
       <td>13</td>
     </tr>
     <tr>
+      <th>12</th>
+      <td>58</td>
+      <td>axon-messaging-4.12.2</td>
+      <td>org.axonframework.deadline.jobrunr</td>
+      <td>JobRunrDeadlineManager</td>
+      <td>$deserializeLambda$</td>
+      <td>13</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>67</td>
+      <td>axon-messaging-4.12.2</td>
+      <td>org.axonframework.commandhandling.distributed....</td>
+      <td>CommandNameFilter</td>
+      <td>$deserializeLambda$</td>
+      <td>13</td>
+    </tr>
+    <tr>
       <th>14</th>
-      <td>23</td>
-      <td>axon-messaging-4.12.2</td>
-      <td>org.axonframework.commandhandling.gateway</td>
-      <td>CommandGatewayFactory</td>
-      <td>createGateway</td>
-      <td>12</td>
-    </tr>
-    <tr>
-      <th>15</th>
-      <td>6</td>
-      <td>axon-messaging-4.12.2</td>
-      <td>org.axonframework.eventhandling.deadletter.jdbc</td>
-      <td>JdbcDeadLetter</td>
-      <td>equals</td>
-      <td>12</td>
-    </tr>
-    <tr>
-      <th>16</th>
-      <td>48</td>
-      <td>axon-messaging-4.12.2</td>
-      <td>org.axonframework.common.jdbc</td>
-      <td>ConnectionWrapperFactory</td>
-      <td>lambda$wrap$0</td>
-      <td>12</td>
-    </tr>
-    <tr>
-      <th>17</th>
-      <td>47</td>
-      <td>axon-test-4.12.2</td>
-      <td>org.axonframework.test.server</td>
-      <td>AxonServerContainer</td>
-      <td>equals</td>
-      <td>12</td>
-    </tr>
-    <tr>
-      <th>18</th>
       <td>24</td>
       <td>axon-messaging-4.12.2</td>
       <td>org.axonframework.commandhandling.distributed</td>
@@ -2796,7 +2760,25 @@ The following table shows the top 30 packages containing the methods with the hi
       <td>12</td>
     </tr>
     <tr>
-      <th>19</th>
+      <th>15</th>
+      <td>23</td>
+      <td>axon-messaging-4.12.2</td>
+      <td>org.axonframework.commandhandling.gateway</td>
+      <td>CommandGatewayFactory</td>
+      <td>createGateway</td>
+      <td>12</td>
+    </tr>
+    <tr>
+      <th>16</th>
+      <td>6</td>
+      <td>axon-messaging-4.12.2</td>
+      <td>org.axonframework.eventhandling.deadletter.jdbc</td>
+      <td>JdbcDeadLetter</td>
+      <td>equals</td>
+      <td>12</td>
+    </tr>
+    <tr>
+      <th>17</th>
       <td>8</td>
       <td>axon-server-connector-4.12.2</td>
       <td>org.axonframework.axonserver.connector</td>
@@ -2805,16 +2787,25 @@ The following table shows the top 30 packages containing the methods with the hi
       <td>12</td>
     </tr>
     <tr>
-      <th>20</th>
-      <td>35</td>
+      <th>18</th>
+      <td>48</td>
       <td>axon-messaging-4.12.2</td>
-      <td>org.axonframework.deadline.dbscheduler</td>
-      <td>DbSchedulerBinaryDeadlineDetails</td>
-      <td>equals</td>
-      <td>11</td>
+      <td>org.axonframework.common.jdbc</td>
+      <td>ConnectionWrapperFactory</td>
+      <td>lambda$wrap$0</td>
+      <td>12</td>
     </tr>
     <tr>
-      <th>21</th>
+      <th>19</th>
+      <td>47</td>
+      <td>axon-test-4.12.2</td>
+      <td>org.axonframework.test.server</td>
+      <td>AxonServerContainer</td>
+      <td>equals</td>
+      <td>12</td>
+    </tr>
+    <tr>
+      <th>20</th>
       <td>26</td>
       <td>axon-messaging-4.12.2</td>
       <td>org.axonframework.eventhandling.deadletter.leg...</td>
@@ -2823,12 +2814,21 @@ The following table shows the top 30 packages containing the methods with the hi
       <td>11</td>
     </tr>
     <tr>
-      <th>22</th>
+      <th>21</th>
       <td>29</td>
       <td>axon-messaging-4.12.2</td>
       <td>org.axonframework.messaging.unitofwork</td>
       <td>BatchingUnitOfWork</td>
       <td>executeWithResult</td>
+      <td>11</td>
+    </tr>
+    <tr>
+      <th>22</th>
+      <td>35</td>
+      <td>axon-messaging-4.12.2</td>
+      <td>org.axonframework.deadline.dbscheduler</td>
+      <td>DbSchedulerBinaryDeadlineDetails</td>
+      <td>equals</td>
       <td>11</td>
     </tr>
     <tr>
@@ -2851,6 +2851,15 @@ The following table shows the top 30 packages containing the methods with the hi
     </tr>
     <tr>
       <th>25</th>
+      <td>52</td>
+      <td>axon-messaging-4.12.2</td>
+      <td>org.axonframework.messaging.responsetypes</td>
+      <td>MultipleInstancesResponseType</td>
+      <td>convert</td>
+      <td>10</td>
+    </tr>
+    <tr>
+      <th>26</th>
       <td>39</td>
       <td>axon-messaging-4.12.2</td>
       <td>org.axonframework.serialization.avro</td>
@@ -2859,21 +2868,12 @@ The following table shows the top 30 packages containing the methods with the hi
       <td>10</td>
     </tr>
     <tr>
-      <th>26</th>
+      <th>27</th>
       <td>65</td>
       <td>axon-messaging-4.12.2</td>
       <td>org.axonframework.common.lock</td>
       <td>PessimisticLockFactory$DisposableLock</td>
       <td>lock</td>
-      <td>10</td>
-    </tr>
-    <tr>
-      <th>27</th>
-      <td>37</td>
-      <td>axon-messaging-4.12.2</td>
-      <td>org.axonframework.messaging.deadletter</td>
-      <td>GenericDeadLetter</td>
-      <td>equals</td>
       <td>10</td>
     </tr>
     <tr>

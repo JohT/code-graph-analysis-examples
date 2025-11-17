@@ -12,33 +12,24 @@ strict digraph TopBridge4 {
     central [fontsize = 16;];
     central [color = 7; fillcolor = 5; penwidth = 3;];
 
-	graph   [label="Top Rank #4 Java Type Bridge\norg.axonframework.eventsourcing.eventstore.legacyjpa.EmbeddedEventStore$EventProducer\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
-	central [label="🌉 bridge #4\nEmbeddedEventStore$EventProducer"];
-	"EmbeddedEventStore_12536" [label = "EmbeddedEventStore"; ]; "EmbeddedEventStore_12536" -> central [label=6; weight=6; penwidth=0.5];
-	"EmbeddedEventStore_12536" [label = "EmbeddedEventStore"; color = 5; fillcolor = 1; ]; central -> "EmbeddedEventStore_12536" [label=15; weight=15; penwidth=0.6; color = 5];
-	"EmbeddedEventStore$Node_12523" [label = "EmbeddedEventStore$\nNode"; color = 5; fillcolor = 1; ]; central -> "EmbeddedEventStore$Node_12523" [label=10; weight=10; penwidth=0.5; color = 5];
-	"EmbeddedEventStore$EventConsumer_12524" [label = "EmbeddedEventStore$\nEventConsumer"; color = 5; fillcolor = 1; ]; central -> "EmbeddedEventStore$EventConsumer_12524" [label=3; weight=3; penwidth=0.4; color = 5];
-	"TrackedEventMessage_28185" [label = "TrackedEventMessage"; color = 5; fillcolor = 1; ]; central -> "TrackedEventMessage_28185" [label=3; weight=3; penwidth=0.4; color = 5];
-	"TrackingToken_28184" [label = "TrackingToken"; color = 5; fillcolor = 1; ]; central -> "TrackingToken_28184" [label=3; weight=3; penwidth=0.4; color = 5];
-	"EmbeddedEventStore$1_12535" [label = "EmbeddedEventStore$\n1"; color = 5; fillcolor = 1; ]; central -> "EmbeddedEventStore$1_12535" [label=2; weight=2; penwidth=0.4; color = 5];
-	"EventStorageEngine_9290" [label = "EventStorageEngine"; color = 5; fillcolor = 1; ]; central -> "EventStorageEngine_9290" [label=1; weight=1; penwidth=0.4; color = 5];
+	graph   [label="Top Rank #4 Java Type Bridge\norg.axonframework.eventsourcing.eventstore.legacyjpa.EmbeddedEventStore$1\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
+	central [label="🌉 bridge #4\nEmbeddedEventStore$1"];
+	"EmbeddedEventStore$EventConsumer_12524" [label = "EmbeddedEventStore$\nEventConsumer"; ]; "EmbeddedEventStore$EventConsumer_12524" -> central [label=3; weight=3; penwidth=0.4];
+	"EmbeddedEventStore$Cleaner_12522" [label = "EmbeddedEventStore$\nCleaner"; ]; "EmbeddedEventStore$Cleaner_12522" -> central [label=2; weight=2; penwidth=0.4];
+	"EmbeddedEventStore$EventProducer_12525" [label = "EmbeddedEventStore$\nEventProducer"; ]; "EmbeddedEventStore$EventProducer_12525" -> central [label=2; weight=2; penwidth=0.4];
+	"EmbeddedEventStore$Node_12523" [label = "EmbeddedEventStore$\nNode"; ]; "EmbeddedEventStore$Node_12523" -> central [label=2; weight=2; penwidth=0.4];
+	"EmbeddedEventStore_12536" [label = "EmbeddedEventStore"; ]; "EmbeddedEventStore_12536" -> central [label=1; weight=1; penwidth=0.4];
+	"EmbeddedEventStore_12536" [label = "EmbeddedEventStore"; color = 5; fillcolor = 1; ]; central -> "EmbeddedEventStore_12536" [label=1; weight=1; penwidth=0.4; color = 5];
 	"EmbeddedEventStore$EventConsumer_12524" -> "EmbeddedEventStore_12536" [label=25; weight=25; penwidth=0.3; color = 3]
-	"EmbeddedEventStore$EventConsumer_12524" -> "TrackedEventMessage_28185" [label=14; weight=14; penwidth=0.3; color = 3]
+	"EmbeddedEventStore$EventProducer_12525" -> "EmbeddedEventStore_12536" [label=15; weight=15; penwidth=0.3; color = 3]
 	"EmbeddedEventStore$EventConsumer_12524" -> "EmbeddedEventStore$Node_12523" [label=13; weight=13; penwidth=0.3; color = 3]
+	"EmbeddedEventStore$EventProducer_12525" -> "EmbeddedEventStore$Node_12523" [label=10; weight=10; penwidth=0.3; color = 3]
 	"EmbeddedEventStore_12536" -> "EmbeddedEventStore$Node_12523" [label=9; weight=9; penwidth=0.3; color = 3]
 	"EmbeddedEventStore_12536" -> "EmbeddedEventStore$EventConsumer_12524" [label=6; weight=6; penwidth=0.3; color = 3]
-	"EmbeddedEventStore$EventConsumer_12524" -> "TrackingToken_28184" [label=5; weight=5; penwidth=0.3; color = 3]
-	"EmbeddedEventStore_12536" -> "TrackingToken_28184" [label=4; weight=4; penwidth=0.3; color = 3]
-	"EmbeddedEventStore$Node_12523" -> "TrackingToken_28184" [label=4; weight=4; penwidth=0.3; color = 3]
-	"EmbeddedEventStore$Node_12523" -> "TrackedEventMessage_28185" [label=4; weight=4; penwidth=0.3; color = 3]
-	"EventStorageEngine_9290" -> "TrackingToken_28184" [label=4; weight=4; penwidth=0.3; color = 3]
-	"EmbeddedEventStore$EventConsumer_12524" -> "EmbeddedEventStore$1_12535" [label=3; weight=3; penwidth=0.3; color = 3]
-	"EmbeddedEventStore_12536" -> "EventStorageEngine_9290" [label=2; weight=2; penwidth=0.3; color = 3]
-	"EmbeddedEventStore$Node_12523" -> "EmbeddedEventStore$1_12535" [label=2; weight=2; penwidth=0.3; color = 3]
-	"TrackedEventMessage_28185" -> "TrackingToken_28184" [label=2; weight=2; penwidth=0.3; color = 3]
-	"EmbeddedEventStore_12536" -> "TrackedEventMessage_28185" [label=1; weight=1; penwidth=0.3; color = 3]
-	"EmbeddedEventStore_12536" -> "EmbeddedEventStore$1_12535" [label=1; weight=1; penwidth=0.3; color = 3]
-	"EmbeddedEventStore$1_12535" -> "EmbeddedEventStore_12536" [label=1; weight=1; penwidth=0.3; color = 3]
-	"EmbeddedEventStore$EventConsumer_12524" -> "EventStorageEngine_9290" [label=1; weight=1; penwidth=0.3; color = 3]
-	"EventStorageEngine_9290" -> "TrackedEventMessage_28185" [label=1; weight=1; penwidth=0.3; color = 3]
+	"EmbeddedEventStore_12536" -> "EmbeddedEventStore$EventProducer_12525" [label=6; weight=6; penwidth=0.3; color = 3]
+	"EmbeddedEventStore$Cleaner_12522" -> "EmbeddedEventStore_12536" [label=6; weight=6; penwidth=0.3; color = 3]
+	"EmbeddedEventStore$Cleaner_12522" -> "EmbeddedEventStore$EventConsumer_12524" [label=5; weight=5; penwidth=0.3; color = 3]
+	"EmbeddedEventStore_12536" -> "EmbeddedEventStore$Cleaner_12522" [label=3; weight=3; penwidth=0.3; color = 3]
+	"EmbeddedEventStore$EventProducer_12525" -> "EmbeddedEventStore$EventConsumer_12524" [label=3; weight=3; penwidth=0.3; color = 3]
+	"EmbeddedEventStore$Cleaner_12522" -> "EmbeddedEventStore$Node_12523" [label=2; weight=2; penwidth=0.3; color = 3]
 }
