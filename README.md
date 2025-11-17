@@ -117,7 +117,7 @@ Below are examples drawn from more than a hundred reports produced by the analys
 
 ### All Pairs Shortest Paths of Java Packages per Artifact
 
-<img src="./analysis-results/AxonFramework/latest/path-finding-java/PathFindingJava_files/PathFindingJava_46_1.png" width="600" alt="All pairs shortest paths of Java packages per artifact">
+<img src="./analysis-results/AxonFramework/latest/path-finding-java/PathFindingJava_files/PathFindingJava_47_1.png" width="600" alt="All pairs shortest paths of Java packages per artifact">
 
 ### Object-Oriented Design Metrics for Java Packages
 
