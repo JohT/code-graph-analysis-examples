@@ -12,7 +12,7 @@ on:
     - cron: "50 7 * * 1" # Every week at 07:50 AM on Monday 
 
 jobs:
-  analysis-results:
+  check-links-in-documentation:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout GIT Repository
