@@ -513,6 +513,7 @@ Image  | Analysis |
 | [MethodMetricsJava_25_1.png](./AxonFramework/AxonFramework-4.12.2/method-metrics-java/MethodMetricsJava_files/MethodMetricsJava_25_1.png) | AxonFramework-4.12.2 |
 | [NodeEmbeddingsJava_21_0.png](./AxonFramework/AxonFramework-4.12.2/node-embeddings-java/NodeEmbeddingsJava_files/NodeEmbeddingsJava_21_0.png) | AxonFramework-4.12.2 |
 | [NodeEmbeddingsJava_23_7.png](./AxonFramework/AxonFramework-4.12.2/node-embeddings-java/NodeEmbeddingsJava_files/NodeEmbeddingsJava_23_7.png) | AxonFramework-4.12.2 |
+| [NodeEmbeddingsJava_23_8.png](./AxonFramework/AxonFramework-4.12.2/node-embeddings-java/NodeEmbeddingsJava_files/NodeEmbeddingsJava_23_8.png) | AxonFramework-4.12.2 |
 | [NodeEmbeddingsJava_25_7.png](./AxonFramework/AxonFramework-4.12.2/node-embeddings-java/NodeEmbeddingsJava_files/NodeEmbeddingsJava_25_7.png) | AxonFramework-4.12.2 |
 | [ObjectOrientedDesignMetricsJava_39_0.png](./AxonFramework/AxonFramework-4.12.2/object-oriented-design-metrics-java/ObjectOrientedDesignMetricsJava_files/ObjectOrientedDesignMetricsJava_39_0.png) | AxonFramework-4.12.2 |
 | [ObjectOrientedDesignMetricsJava_41_0.png](./AxonFramework/AxonFramework-4.12.2/object-oriented-design-metrics-java/ObjectOrientedDesignMetricsJava_files/ObjectOrientedDesignMetricsJava_41_0.png) | AxonFramework-4.12.2 |
@@ -682,6 +683,7 @@ Image  | Analysis |
 | [MethodMetricsJava_25_1.png](./AxonFramework/latest/method-metrics-java/MethodMetricsJava_files/MethodMetricsJava_25_1.png) | latest |
 | [NodeEmbeddingsJava_21_0.png](./AxonFramework/latest/node-embeddings-java/NodeEmbeddingsJava_files/NodeEmbeddingsJava_21_0.png) | latest |
 | [NodeEmbeddingsJava_23_7.png](./AxonFramework/latest/node-embeddings-java/NodeEmbeddingsJava_files/NodeEmbeddingsJava_23_7.png) | latest |
+| [NodeEmbeddingsJava_23_8.png](./AxonFramework/latest/node-embeddings-java/NodeEmbeddingsJava_files/NodeEmbeddingsJava_23_8.png) | latest |
 | [NodeEmbeddingsJava_25_7.png](./AxonFramework/latest/node-embeddings-java/NodeEmbeddingsJava_files/NodeEmbeddingsJava_25_7.png) | latest |
 | [ObjectOrientedDesignMetricsJava_39_0.png](./AxonFramework/latest/object-oriented-design-metrics-java/ObjectOrientedDesignMetricsJava_files/ObjectOrientedDesignMetricsJava_39_0.png) | latest |
 | [ObjectOrientedDesignMetricsJava_41_0.png](./AxonFramework/latest/object-oriented-design-metrics-java/ObjectOrientedDesignMetricsJava_files/ObjectOrientedDesignMetricsJava_41_0.png) | latest |
