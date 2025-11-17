@@ -57,7 +57,7 @@ jobs:
 
       - name: Archive generated report references documents
         if: steps.set-generated_documents_changed.outputs.generated_documents_changed == 'true'
-        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        uses: actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4 # v5
         with:
           name: ${{ steps.set-documentation-upload-name.outputs.documentation-upload-name }}
           path: ./analysis-results/*.md
