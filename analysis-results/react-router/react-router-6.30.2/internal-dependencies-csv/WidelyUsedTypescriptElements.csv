@@ -1,0 +1,3 @@
+"fullQualifiedDependentElementName","dependentElementModuleName","dependentElementName","dependentElementLabels","numberOfUsingModules","Source Cypher File: Internal_Dependencies/List_elements_that_are_used_by_many_different_modules_for_Typescript.cypher"
+"""@remix-run/router"".RouteObject","router","RouteObject","ExternalDeclaration",1,""
+"""@remix-run/router"".Router","router","Router","ExternalDeclaration",1,""
