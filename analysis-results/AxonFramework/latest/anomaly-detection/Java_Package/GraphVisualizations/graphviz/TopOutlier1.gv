@@ -14,24 +14,24 @@ strict digraph TopOutlier1 {
 
 	graph   [label="Top Rank #1 Java Package Outlier\norg.axonframework.springboot.autoconfig.legacyjpa\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: cluster probability\nlarge circle: < 25% percentile of cluster probability\nthick outline: > 80% percentile of distance to cluster center\n\n"];
 	central [label="🧩 outlier #1\nlegacyjpa"];
-	"legacyjpa_12585"  [label = "legacyjpa\n(90.36%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "legacyjpa_12585" [label=12; weight=12; penwidth=0.6; color = 5];
+	"legacyjpa_12585"  [label = "legacyjpa\n(100.0%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "legacyjpa_12585" [label=12; weight=12; penwidth=0.6; color = 5];
 	"legacyjpa_33284"  [label = "legacyjpa\n(100.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "legacyjpa_33284" [label=8; weight=8; penwidth=0.5; color = 5];
-	"autoconfig_48231"  [label = "autoconfig\n(69.34%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "autoconfig_48231" [label=6; weight=6; penwidth=0.5; color = 5];
+	"autoconfig_48231"  [shape = "circle"; height=1.8; label = "autoconfig\n(50.97%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "autoconfig_48231" [label=6; weight=6; penwidth=0.5; color = 5];
 	"legacyjpa_37598"  [label = "legacyjpa\n(100.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "legacyjpa_37598" [label=6; weight=6; penwidth=0.5; color = 5];
 	"legacyjpa_60337"  [label = "legacyjpa\n(100.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "legacyjpa_60337" [label=6; weight=6; penwidth=0.5; color = 5];
 	"springboot_48229"  [label = "springboot\n(100.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "springboot_48229" [label=5; weight=5; penwidth=0.5; color = 5];
-	"util_48235"  [label = "util\n(77.41%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "util_48235" [label=5; weight=5; penwidth=0.5; color = 5];
-	"legacyjpa_48236"  [shape = "circle"; height=1.8; label = "legacyjpa\n(43.86%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "legacyjpa_48236" [label=2; weight=2; penwidth=0.4; color = 5];
+	"util_48235"  [label = "util\n(90.38%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "util_48235" [label=5; weight=5; penwidth=0.5; color = 5];
+	"legacyjpa_48236"  [shape = "circle"; height=1.8; label = "legacyjpa\n(41.57%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "legacyjpa_48236" [label=2; weight=2; penwidth=0.4; color = 5];
 	"legacyjpa_24755"  [label = "legacyjpa\n(100.0%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "legacyjpa_24755" [label=2; weight=2; penwidth=0.4; color = 5];
-	"serialization_45112"  [label = "serialization\n(84.69%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "serialization_45112" [label=2; weight=2; penwidth=0.4; color = 5];
+	"serialization_45112"  [label = "serialization\n(79.02%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "serialization_45112" [label=2; weight=2; penwidth=0.4; color = 5];
 	"config_14721"  [shape = "circle"; height=1.8; label = "config\n(0.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "config_14721" [label=1; weight=1; penwidth=0.4; color = 5];
 	"eventstore_9469"  [shape = "circle"; height=1.8; label = "eventstore\n(0.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "eventstore_9469" [label=1; weight=1; penwidth=0.4; color = 5];
 	"transaction_25217"  [shape = "circle"; height=1.8; label = "transaction\n(0.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "transaction_25217" [label=1; weight=1; penwidth=0.4; color = 5];
-	"deadletter_39891"  [label = "deadletter\n(100.0%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "deadletter_39891" [label=0; weight=0; penwidth=0.4; color = 5];
-	"eventhandling_26974"  [label = "eventhandling\n(98.51%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "eventhandling_26974" [label=0; weight=0; penwidth=0.4; color = 5];
-	"jdbc_24546"  [label = "jdbc\n(92.68%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "jdbc_24546" [label=0; weight=0; penwidth=0.4; color = 5];
+	"deadletter_39891"  [label = "deadletter\n(100.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "deadletter_39891" [label=0; weight=0; penwidth=0.4; color = 5];
+	"eventhandling_26974"  [label = "eventhandling\n(100.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "eventhandling_26974" [label=0; weight=0; penwidth=0.4; color = 5];
+	"jdbc_24546"  [label = "jdbc\n(92.06%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "jdbc_24546" [label=0; weight=0; penwidth=0.4; color = 5];
 	"repository_58791"  [label = "repository\n(100.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "repository_58791" [label=0; weight=0; penwidth=0.4; color = 5];
-	"tokenstore_36610"  [label = "tokenstore\n(100.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "tokenstore_36610" [label=0; weight=0; penwidth=0.4; color = 5];
+	"tokenstore_36610"  [label = "tokenstore\n(92.06%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "tokenstore_36610" [label=0; weight=0; penwidth=0.4; color = 5];
 	"autoconfig_48231" -> "springboot_48229" [label=190; weight=190; penwidth=0.3; color = 3]
 	"config_14721" -> "eventhandling_26974" [label=118; weight=118; penwidth=0.3; color = 3]
 	"eventstore_9469" -> "eventhandling_26974" [label=68; weight=68; penwidth=0.3; color = 3]
@@ -84,6 +84,6 @@ strict digraph TopOutlier1 {
 	"autoconfig_48231" -> "deadletter_39891" [label=0; weight=0; penwidth=0.3; color = 3]
 	"config_14721" -> "jdbc_24546" [label=0; weight=0; penwidth=0.3; color = 3]
 	"legacyjpa_48236" -> "legacyjpa_24755" [label=0; weight=0; penwidth=0.3; color = 3]
-	"util_48235" -> "eventhandling_26974" [label=0; weight=0; penwidth=0.3; color = 3]
 	"util_48235" -> "deadletter_39891" [label=0; weight=0; penwidth=0.3; color = 3]
+	"util_48235" -> "eventhandling_26974" [label=0; weight=0; penwidth=0.3; color = 3]
 }

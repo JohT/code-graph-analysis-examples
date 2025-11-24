@@ -85,16 +85,16 @@
 <polygon fill="#66c2a4" stroke="#66c2a4" stroke-width="0.5" points="859.36,-494.56 858.57,-490.4 856.59,-494.15 859.36,-494.56"/>
 <text xml:space="preserve" text-anchor="middle" x="848.48" y="-552.99" font-family="Times,serif" font-size="4.00">6</text>
 </g>
-<!-- central&#45;&gt;AxonConfigurationException_19875 -->
+<!-- central&#45;&gt;AxonConfigurationException_19876 -->
 <g id="edge28" class="edge">
-<title>central&#45;&gt;AxonConfigurationException_19875</title>
+<title>central&#45;&gt;AxonConfigurationException_19876</title>
 <path fill="none" stroke="#66c2a4" stroke-width="0.5" d="M891.06,-761.05C903.38,-772.44 915.9,-784 926.98,-794.25"/>
 <polygon fill="#66c2a4" stroke="#66c2a4" stroke-width="0.5" points="925.93,-795.19 929.82,-796.88 927.84,-793.13 925.93,-795.19"/>
 <text xml:space="preserve" text-anchor="middle" x="909.62" y="-780.33" font-family="Times,serif" font-size="4.00">6</text>
 </g>
-<!-- central&#45;&gt;SimpleCommandBus$Builder_19108 -->
+<!-- central&#45;&gt;SimpleCommandBus$Builder_19109 -->
 <g id="edge29" class="edge">
-<title>central&#45;&gt;SimpleCommandBus$Builder_19108</title>
+<title>central&#45;&gt;SimpleCommandBus$Builder_19109</title>
 <path fill="none" stroke="#66c2a4" stroke-width="0.5" d="M801.16,-619.25C760.23,-489.23 682.46,-242.24 652.57,-147.29"/>
 <polygon fill="#66c2a4" stroke="#66c2a4" stroke-width="0.5" points="653.94,-147 651.41,-143.6 651.27,-147.84 653.94,-147"/>
 <text xml:space="preserve" text-anchor="middle" x="721.72" y="-371.3" font-family="Times,serif" font-size="4.00">6</text>
@@ -169,9 +169,9 @@
 <polygon fill="#66c2a4" stroke="#66c2a4" stroke-width="0.4" points="1055.18,-695.51 1059.12,-693.97 1055.08,-692.71 1055.18,-695.51"/>
 <text xml:space="preserve" text-anchor="middle" x="985.83" y="-697.69" font-family="Times,serif" font-size="4.00">4</text>
 </g>
-<!-- central&#45;&gt;EventStore_8258 -->
+<!-- central&#45;&gt;EventStore_8296 -->
 <g id="edge40" class="edge">
-<title>central&#45;&gt;EventStore_8258</title>
+<title>central&#45;&gt;EventStore_8296</title>
 <path fill="none" stroke="#66c2a4" stroke-width="0.4" d="M765.03,-762.87C699.63,-826.81 599.28,-924.92 548.3,-974.76"/>
 <polygon fill="#66c2a4" stroke="#66c2a4" stroke-width="0.4" points="547.32,-973.75 545.44,-977.55 549.28,-975.75 547.32,-973.75"/>
 <text xml:space="preserve" text-anchor="middle" x="650.23" y="-875.33" font-family="Times,serif" font-size="4.00">4</text>
@@ -211,9 +211,9 @@
 <polygon fill="#66c2a4" stroke="#66c2a4" stroke-width="0.4" points="1297.34,-895.63 1301.58,-895.85 1298.4,-893.04 1297.34,-895.63"/>
 <text xml:space="preserve" text-anchor="middle" x="1105.76" y="-817.46" font-family="Times,serif" font-size="4.00">4</text>
 </g>
-<!-- central&#45;&gt;CommandBus_19298 -->
+<!-- central&#45;&gt;CommandBus_19299 -->
 <g id="edge46" class="edge">
-<title>central&#45;&gt;CommandBus_19298</title>
+<title>central&#45;&gt;CommandBus_19299</title>
 <path fill="none" stroke="#66c2a4" stroke-width="0.4" d="M797.24,-783.83C754.2,-901.19 676.62,-1112.69 645.07,-1198.72"/>
 <polygon fill="#66c2a4" stroke="#66c2a4" stroke-width="0.4" points="643.78,-1198.16 643.72,-1202.4 646.41,-1199.12 643.78,-1198.16"/>
 <text xml:space="preserve" text-anchor="middle" x="715.84" y="-1004.24" font-family="Times,serif" font-size="4.00">3</text>
@@ -435,9 +435,9 @@
 <polygon fill="#ccece6" stroke="#ccece6" stroke-width="0.3" points="562.84,-1171.97 559.81,-1174.94 564.03,-1174.51 562.84,-1171.97"/>
 <text xml:space="preserve" text-anchor="middle" x="629.48" y="-1143.06" font-family="Times,serif" font-size="4.00">4</text>
 </g>
-<!-- AxonServerBusAutoConfiguration_49284&#45;&gt;EventStore_8258 -->
+<!-- AxonServerBusAutoConfiguration_49284&#45;&gt;EventStore_8296 -->
 <g id="edge138" class="edge">
-<title>AxonServerBusAutoConfiguration_49284&#45;&gt;EventStore_8258</title>
+<title>AxonServerBusAutoConfiguration_49284&#45;&gt;EventStore_8296</title>
 <path fill="none" stroke="#ccece6" stroke-width="0.3" d="M685.08,-1057.22C645.99,-1045.4 599.61,-1031.39 565.35,-1021.03"/>
 <polygon fill="#ccece6" stroke="#ccece6" stroke-width="0.3" points="565.9,-1019.74 561.67,-1019.92 565.09,-1022.42 565.9,-1019.74"/>
 <text xml:space="preserve" text-anchor="middle" x="621.92" y="-1039.63" font-family="Times,serif" font-size="4.00">1</text>
@@ -449,9 +449,9 @@
 <polygon fill="#ccece6" stroke="#ccece6" stroke-width="0.3" points="758.18,-1198.58 759.51,-1202.6 760.98,-1198.63 758.18,-1198.58"/>
 <text xml:space="preserve" text-anchor="middle" x="759.33" y="-1159.87" font-family="Times,serif" font-size="4.00">2</text>
 </g>
-<!-- AxonServerBusAutoConfiguration_49284&#45;&gt;CommandBus_19298 -->
+<!-- AxonServerBusAutoConfiguration_49284&#45;&gt;CommandBus_19299 -->
 <g id="edge111" class="edge">
-<title>AxonServerBusAutoConfiguration_49284&#45;&gt;CommandBus_19298</title>
+<title>AxonServerBusAutoConfiguration_49284&#45;&gt;CommandBus_19299</title>
 <path fill="none" stroke="#ccece6" stroke-width="0.3" d="M733.76,-1113.92C711.64,-1140.37 680.95,-1177.09 658.9,-1203.46"/>
 <polygon fill="#ccece6" stroke="#ccece6" stroke-width="0.3" points="658.04,-1202.31 656.55,-1206.27 660.19,-1204.1 658.04,-1202.31"/>
 <text xml:space="preserve" text-anchor="middle" x="694.07" y="-1161.4" font-family="Times,serif" font-size="4.00">2</text>
@@ -589,9 +589,9 @@
 <polygon fill="#ccece6" stroke="#ccece6" stroke-width="0.3" points="692.8,-928.37 695.81,-925.39 691.6,-925.84 692.8,-928.37"/>
 <text xml:space="preserve" text-anchor="middle" x="551.69" y="-994.44" font-family="Times,serif" font-size="4.00">5</text>
 </g>
-<!-- InterceptorAutoConfiguration_50378&#45;&gt;CommandBus_19298 -->
+<!-- InterceptorAutoConfiguration_50378&#45;&gt;CommandBus_19299 -->
 <g id="edge100" class="edge">
-<title>InterceptorAutoConfiguration_50378&#45;&gt;CommandBus_19298</title>
+<title>InterceptorAutoConfiguration_50378&#45;&gt;CommandBus_19299</title>
 <path fill="none" stroke="#ccece6" stroke-width="0.3" d="M404.98,-1114.42C457.52,-1142.82 538.96,-1186.83 588.44,-1213.57"/>
 <polygon fill="#ccece6" stroke="#ccece6" stroke-width="0.3" points="587.66,-1214.74 591.85,-1215.41 588.99,-1212.28 587.66,-1214.74"/>
 <text xml:space="preserve" text-anchor="middle" x="497.63" y="-1166.24" font-family="Times,serif" font-size="4.00">3</text>
@@ -638,9 +638,9 @@
 <polygon fill="#ccece6" stroke="#ccece6" stroke-width="0.3" points="1065.13,-710 1068.68,-707.67 1064.46,-707.28 1065.13,-710"/>
 <text xml:space="preserve" text-anchor="middle" x="896.75" y="-751.23" font-family="Times,serif" font-size="4.00">1</text>
 </g>
-<!-- JdbcAutoConfiguration_49282&#45;&gt;EventStore_8258 -->
+<!-- JdbcAutoConfiguration_49282&#45;&gt;EventStore_8296 -->
 <g id="edge104" class="edge">
-<title>JdbcAutoConfiguration_49282&#45;&gt;EventStore_8258</title>
+<title>JdbcAutoConfiguration_49282&#45;&gt;EventStore_8296</title>
 <path fill="none" stroke="#ccece6" stroke-width="0.3" d="M642.05,-838.63C614.9,-874.77 570.18,-934.29 541.99,-971.8"/>
 <polygon fill="#ccece6" stroke="#ccece6" stroke-width="0.3" points="540.87,-970.96 539.59,-975 543.11,-972.64 540.87,-970.96"/>
 <text xml:space="preserve" text-anchor="middle" x="589.71" y="-908.16" font-family="Times,serif" font-size="4.00">3</text>
@@ -687,9 +687,9 @@
 <polygon fill="#ccece6" stroke="#ccece6" stroke-width="0.3" points="626.99,-752.02 630.29,-749.37 626.05,-749.38 626.99,-752.02"/>
 <text xml:space="preserve" text-anchor="middle" x="507.04" y="-793.79" font-family="Times,serif" font-size="4.00">2</text>
 </g>
-<!-- JpaEventStoreAutoConfiguration_48522&#45;&gt;EventStore_8258 -->
+<!-- JpaEventStoreAutoConfiguration_48522&#45;&gt;EventStore_8296 -->
 <g id="edge162" class="edge">
-<title>JpaEventStoreAutoConfiguration_48522&#45;&gt;EventStore_8258</title>
+<title>JpaEventStoreAutoConfiguration_48522&#45;&gt;EventStore_8296</title>
 <path fill="none" stroke="#ccece6" stroke-width="0.3" d="M356.89,-890.87C392.74,-916.82 444.03,-953.95 478.64,-979"/>
 <polygon fill="#ccece6" stroke="#ccece6" stroke-width="0.3" points="477.51,-979.91 481.57,-981.12 479.15,-977.64 477.51,-979.91"/>
 <text xml:space="preserve" text-anchor="middle" x="418.5" y="-937.39" font-family="Times,serif" font-size="4.00">1</text>
@@ -750,9 +750,9 @@
 <polygon fill="#ccece6" stroke="#ccece6" stroke-width="0.3" points="641.97,-764.65 644.04,-760.95 640.11,-762.56 641.97,-764.65"/>
 <text xml:space="preserve" text-anchor="middle" x="563.96" y="-832.33" font-family="Times,serif" font-size="4.00">2</text>
 </g>
-<!-- JpaJavaxEventStoreAutoConfiguration_50380&#45;&gt;EventStore_8258 -->
+<!-- JpaJavaxEventStoreAutoConfiguration_50380&#45;&gt;EventStore_8296 -->
 <g id="edge168" class="edge">
-<title>JpaJavaxEventStoreAutoConfiguration_50380&#45;&gt;EventStore_8258</title>
+<title>JpaJavaxEventStoreAutoConfiguration_50380&#45;&gt;EventStore_8296</title>
 <path fill="none" stroke="#ccece6" stroke-width="0.3" d="M479.08,-965.52C481.58,-968.26 484.1,-971.03 486.6,-973.77"/>
 <polygon fill="#ccece6" stroke="#ccece6" stroke-width="0.3" points="485.49,-974.62 489.22,-976.63 487.55,-972.73 485.49,-974.62"/>
 <text xml:space="preserve" text-anchor="middle" x="483.25" y="-972.39" font-family="Times,serif" font-size="4.00">1</text>
@@ -848,43 +848,43 @@
 <polygon fill="#ccece6" stroke="#ccece6" stroke-width="0.3" points="668.32,-772.72 667.74,-768.52 665.58,-772.16 668.32,-772.72"/>
 <text xml:space="preserve" text-anchor="middle" x="646.84" y="-867.89" font-family="Times,serif" font-size="4.00">5</text>
 </g>
-<!-- Configuration_14725&#45;&gt;AxonConfigurationException_19875 -->
+<!-- Configuration_14725&#45;&gt;AxonConfigurationException_19876 -->
 <g id="edge76" class="edge">
-<title>Configuration_14725&#45;&gt;AxonConfigurationException_19875</title>
+<title>Configuration_14725&#45;&gt;AxonConfigurationException_19876</title>
 <path fill="none" stroke="#ccece6" stroke-width="0.3" d="M660.88,-979.66C721.78,-949.19 838,-891.05 907.4,-856.33"/>
 <polygon fill="#ccece6" stroke="#ccece6" stroke-width="0.3" points="907.72,-857.73 910.67,-854.69 906.47,-855.23 907.72,-857.73"/>
 <text xml:space="preserve" text-anchor="middle" x="784.74" y="-918.39" font-family="Times,serif" font-size="4.00">5</text>
 </g>
-<!-- Configuration_14725&#45;&gt;EventStore_8258 -->
-<g id="edge92" class="edge">
-<title>Configuration_14725&#45;&gt;EventStore_8258</title>
+<!-- Configuration_14725&#45;&gt;EventStore_8296 -->
+<g id="edge89" class="edge">
+<title>Configuration_14725&#45;&gt;EventStore_8296</title>
 <path fill="none" stroke="#ccece6" stroke-width="0.3" d="M571.9,-1002.71C571.06,-1002.76 570.22,-1002.81 569.38,-1002.86"/>
 <polygon fill="#ccece6" stroke="#ccece6" stroke-width="0.3" points="569.54,-1001.45 565.64,-1003.1 569.72,-1004.24 569.54,-1001.45"/>
 <text xml:space="preserve" text-anchor="middle" x="568.54" y="-1004.05" font-family="Times,serif" font-size="4.00">3</text>
 </g>
 <!-- Configuration_14725&#45;&gt;QueryUpdateEmitter_43035 -->
-<g id="edge90" class="edge">
+<g id="edge92" class="edge">
 <title>Configuration_14725&#45;&gt;QueryUpdateEmitter_43035</title>
 <path fill="none" stroke="#ccece6" stroke-width="0.3" d="M639.49,-1031.57C665.18,-1075.6 711.36,-1154.75 738.13,-1200.64"/>
 <polygon fill="#ccece6" stroke="#ccece6" stroke-width="0.3" points="736.89,-1201.29 740.12,-1204.04 739.31,-1199.88 736.89,-1201.29"/>
 <text xml:space="preserve" text-anchor="middle" x="688.89" y="-1119.15" font-family="Times,serif" font-size="4.00">3</text>
 </g>
-<!-- Configuration_14725&#45;&gt;CommandBus_19298 -->
+<!-- Configuration_14725&#45;&gt;CommandBus_19299 -->
 <g id="edge91" class="edge">
-<title>Configuration_14725&#45;&gt;CommandBus_19298</title>
+<title>Configuration_14725&#45;&gt;CommandBus_19299</title>
 <path fill="none" stroke="#ccece6" stroke-width="0.3" d="M622.39,-1034.38C624.27,-1077.85 627.49,-1152.11 629.46,-1197.54"/>
 <polygon fill="#ccece6" stroke="#ccece6" stroke-width="0.3" points="628.05,-1197.46 629.63,-1201.39 630.85,-1197.34 628.05,-1197.46"/>
 <text xml:space="preserve" text-anchor="middle" x="625.03" y="-1119.55" font-family="Times,serif" font-size="4.00">3</text>
 </g>
 <!-- Configuration_14725&#45;&gt;EventBus_26917 -->
-<g id="edge89" class="edge">
+<g id="edge93" class="edge">
 <title>Configuration_14725&#45;&gt;EventBus_26917</title>
 <path fill="none" stroke="#ccece6" stroke-width="0.3" d="M602.23,-967.56C570.81,-913.5 507.61,-804.76 475.36,-749.27"/>
 <polygon fill="#ccece6" stroke="#ccece6" stroke-width="0.3" points="476.73,-748.84 473.51,-746.09 474.31,-750.25 476.73,-748.84"/>
 <text xml:space="preserve" text-anchor="middle" x="536.71" y="-857.76" font-family="Times,serif" font-size="4.00">3</text>
 </g>
 <!-- Configuration_14725&#45;&gt;QueryBus_41975 -->
-<g id="edge93" class="edge">
+<g id="edge90" class="edge">
 <title>Configuration_14725&#45;&gt;QueryBus_41975</title>
 <path fill="none" stroke="#ccece6" stroke-width="0.3" d="M635.87,-1032.76C648.37,-1060.37 666.14,-1099.6 678.93,-1127.83"/>
 <polygon fill="#ccece6" stroke="#ccece6" stroke-width="0.3" points="677.5,-1128.08 680.43,-1131.15 680.05,-1126.93 677.5,-1128.08"/>
@@ -911,9 +911,9 @@
 <polygon fill="#ccece6" stroke="#ccece6" stroke-width="0.3" points="980.04,-136.83 977.43,-133.48 977.39,-137.72 980.04,-136.83"/>
 <text xml:space="preserve" text-anchor="middle" x="979.51" y="-146.75" font-family="Times,serif" font-size="4.00">13</text>
 </g>
-<!-- JacksonSerializer$Builder_45567&#45;&gt;AxonConfigurationException_19875 -->
+<!-- JacksonSerializer$Builder_45567&#45;&gt;AxonConfigurationException_19876 -->
 <g id="edge157" class="edge">
-<title>JacksonSerializer$Builder_45567&#45;&gt;AxonConfigurationException_19875</title>
+<title>JacksonSerializer$Builder_45567&#45;&gt;AxonConfigurationException_19876</title>
 <path fill="none" stroke="#ccece6" stroke-width="0.3" d="M996.84,-434.44C990.18,-513.57 973.77,-708.36 966.85,-790.58"/>
 <polygon fill="#ccece6" stroke="#ccece6" stroke-width="0.3" points="965.47,-790.33 966.53,-794.44 968.26,-790.57 965.47,-790.33"/>
 <text xml:space="preserve" text-anchor="middle" x="980.64" y="-616.18" font-family="Times,serif" font-size="4.00">1</text>
@@ -939,9 +939,9 @@
 <polygon fill="#ccece6" stroke="#ccece6" stroke-width="0.3" points="656.67,-970.27 654.36,-973.82 658.38,-972.48 656.67,-970.27"/>
 <text xml:space="preserve" text-anchor="middle" x="681.04" y="-952.89" font-family="Times,serif" font-size="4.00">36</text>
 </g>
-<!-- EventProcessingConfigurer_14755&#45;&gt;AxonConfigurationException_19875 -->
+<!-- EventProcessingConfigurer_14755&#45;&gt;AxonConfigurationException_19876 -->
 <g id="edge84" class="edge">
-<title>EventProcessingConfigurer_14755&#45;&gt;AxonConfigurationException_19875</title>
+<title>EventProcessingConfigurer_14755&#45;&gt;AxonConfigurationException_19876</title>
 <path fill="none" stroke="#ccece6" stroke-width="0.3" d="M815.39,-877.71C840.34,-869.38 868.96,-859.81 894.36,-851.33"/>
 <polygon fill="#ccece6" stroke="#ccece6" stroke-width="0.3" points="894.63,-852.72 897.98,-850.12 893.74,-850.06 894.63,-852.72"/>
 <text xml:space="preserve" text-anchor="middle" x="855.6" y="-865.14" font-family="Times,serif" font-size="4.00">4</text>
@@ -967,9 +967,9 @@
 <polygon fill="#ccece6" stroke="#ccece6" stroke-width="0.3" points="864.87,-1117.26 867.98,-1120.14 867.34,-1115.95 864.87,-1117.26"/>
 <text xml:space="preserve" text-anchor="middle" x="816.61" y="-1028.11" font-family="Times,serif" font-size="4.00">11</text>
 </g>
-<!-- PooledStreamingEventProcessor$Builder_34631&#45;&gt;AxonConfigurationException_19875 -->
+<!-- PooledStreamingEventProcessor$Builder_34631&#45;&gt;AxonConfigurationException_19876 -->
 <g id="edge174" class="edge">
-<title>PooledStreamingEventProcessor$Builder_34631&#45;&gt;AxonConfigurationException_19875</title>
+<title>PooledStreamingEventProcessor$Builder_34631&#45;&gt;AxonConfigurationException_19876</title>
 <path fill="none" stroke="#ccece6" stroke-width="0.3" d="M1231.87,-1087.95C1173.93,-1031.83 1056.84,-918.41 998.44,-861.84"/>
 <polygon fill="#ccece6" stroke="#ccece6" stroke-width="0.3" points="999.54,-860.95 995.69,-859.18 997.59,-862.97 999.54,-860.95"/>
 <text xml:space="preserve" text-anchor="middle" x="1112.79" y="-974.77" font-family="Times,serif" font-size="4.00">1</text>
@@ -981,9 +981,9 @@
 <polygon fill="#ccece6" stroke="#ccece6" stroke-width="0.3" points="966.88,-1144.83 963.01,-1146.56 967.11,-1147.62 966.88,-1144.83"/>
 <text xml:space="preserve" text-anchor="middle" x="1055.47" y="-1139.87" font-family="Times,serif" font-size="4.00">7</text>
 </g>
-<!-- SimpleQueryBus$Builder_44045&#45;&gt;AxonConfigurationException_19875 -->
+<!-- SimpleQueryBus$Builder_44045&#45;&gt;AxonConfigurationException_19876 -->
 <g id="edge177" class="edge">
-<title>SimpleQueryBus$Builder_44045&#45;&gt;AxonConfigurationException_19875</title>
+<title>SimpleQueryBus$Builder_44045&#45;&gt;AxonConfigurationException_19876</title>
 <path fill="none" stroke="#ccece6" stroke-width="0.3" d="M1042.41,-1158.68C1026.07,-1090.07 989.49,-936.5 972.57,-865.49"/>
 <polygon fill="#ccece6" stroke="#ccece6" stroke-width="0.3" points="973.98,-865.35 971.69,-861.79 971.26,-866 973.98,-865.35"/>
 <text xml:space="preserve" text-anchor="middle" x="1005.93" y="-1010.91" font-family="Times,serif" font-size="4.00">1</text>
@@ -1009,9 +1009,9 @@
 <polygon fill="#ccece6" stroke="#ccece6" stroke-width="0.3" points="697.29,-698.04 696.2,-702.14 699.61,-699.61 697.29,-698.04"/>
 <text xml:space="preserve" text-anchor="middle" x="768.07" y="-596.03" font-family="Times,serif" font-size="4.00">3</text>
 </g>
-<!-- AvroSerializer$Builder_45557&#45;&gt;AxonConfigurationException_19875 -->
+<!-- AvroSerializer$Builder_45557&#45;&gt;AxonConfigurationException_19876 -->
 <g id="edge134" class="edge">
-<title>AvroSerializer$Builder_45557&#45;&gt;AxonConfigurationException_19875</title>
+<title>AvroSerializer$Builder_45557&#45;&gt;AxonConfigurationException_19876</title>
 <path fill="none" stroke="#ccece6" stroke-width="0.3" d="M872.88,-489.47C891.61,-559.34 934.25,-718.38 953.69,-790.89"/>
 <polygon fill="#ccece6" stroke="#ccece6" stroke-width="0.3" points="952.32,-791.18 954.71,-794.68 955.02,-790.45 952.32,-791.18"/>
 <text xml:space="preserve" text-anchor="middle" x="912.92" y="-643.76" font-family="Times,serif" font-size="4.00">1</text>
@@ -1037,9 +1037,9 @@
 <polygon fill="#ccece6" stroke="#ccece6" stroke-width="0.3" points="946.1,-1127.35 942.9,-1130.13 947.14,-1129.95 946.1,-1127.35"/>
 <text xml:space="preserve" text-anchor="middle" x="1024.21" y="-1098.42" font-family="Times,serif" font-size="4.00">5</text>
 </g>
-<!-- EmbeddedEventStore$Builder_10406&#45;&gt;AxonConfigurationException_19875 -->
+<!-- EmbeddedEventStore$Builder_10406&#45;&gt;AxonConfigurationException_19876 -->
 <g id="edge146" class="edge">
-<title>EmbeddedEventStore$Builder_10406&#45;&gt;AxonConfigurationException_19875</title>
+<title>EmbeddedEventStore$Builder_10406&#45;&gt;AxonConfigurationException_19876</title>
 <path fill="none" stroke="#ccece6" stroke-width="0.3" d="M589.38,-844.23C669.34,-840.8 790.8,-835.59 873.51,-832.04"/>
 <polygon fill="#ccece6" stroke="#ccece6" stroke-width="0.3" points="873.52,-833.44 877.46,-831.87 873.4,-830.65 873.52,-833.44"/>
 <text xml:space="preserve" text-anchor="middle" x="732.38" y="-839.25" font-family="Times,serif" font-size="4.00">1</text>
@@ -1058,9 +1058,9 @@
 <polygon fill="#ccece6" stroke="#ccece6" stroke-width="0.3" points="411.52,-807.74 407.28,-807.55 410.48,-810.34 411.52,-807.74"/>
 <text xml:space="preserve" text-anchor="middle" x="426.64" y="-816.91" font-family="Times,serif" font-size="4.00">2</text>
 </g>
-<!-- XStreamSerializer$Builder_46871&#45;&gt;AxonConfigurationException_19875 -->
+<!-- XStreamSerializer$Builder_46871&#45;&gt;AxonConfigurationException_19876 -->
 <g id="edge132" class="edge">
-<title>XStreamSerializer$Builder_46871&#45;&gt;AxonConfigurationException_19875</title>
+<title>XStreamSerializer$Builder_46871&#45;&gt;AxonConfigurationException_19876</title>
 <path fill="none" stroke="#ccece6" stroke-width="0.3" d="M1222.8,-576.25C1167.85,-629.67 1055.27,-739.12 998.32,-794.5"/>
 <polygon fill="#ccece6" stroke="#ccece6" stroke-width="0.3" points="997.54,-793.31 995.64,-797.1 999.49,-795.31 997.54,-793.31"/>
 <text xml:space="preserve" text-anchor="middle" x="1107.84" y="-688.24" font-family="Times,serif" font-size="4.00">2</text>
@@ -1093,30 +1093,30 @@
 <polygon fill="#ccece6" stroke="#ccece6" stroke-width="0.3" points="673.41,-916.65 677.05,-914.47 672.85,-913.91 673.41,-916.65"/>
 <text xml:space="preserve" text-anchor="middle" x="669.37" y="-917.05" font-family="Times,serif" font-size="4.00">3</text>
 </g>
-<!-- Configurer_15772&#45;&gt;AxonConfigurationException_19875 -->
-<g id="edge120" class="edge">
-<title>Configurer_15772&#45;&gt;AxonConfigurationException_19875</title>
+<!-- Configurer_15772&#45;&gt;AxonConfigurationException_19876 -->
+<g id="edge118" class="edge">
+<title>Configurer_15772&#45;&gt;AxonConfigurationException_19876</title>
 <path fill="none" stroke="#ccece6" stroke-width="0.3" d="M661.89,-914.04C719.92,-897.53 821.13,-868.73 890.21,-849.08"/>
 <polygon fill="#ccece6" stroke="#ccece6" stroke-width="0.3" points="890.4,-850.48 893.86,-848.04 889.63,-847.79 890.4,-850.48"/>
 <text xml:space="preserve" text-anchor="middle" x="777.19" y="-882.15" font-family="Times,serif" font-size="4.00">2</text>
 </g>
-<!-- Configurer_15772&#45;&gt;EventStore_8258 -->
-<g id="edge143" class="edge">
-<title>Configurer_15772&#45;&gt;EventStore_8258</title>
+<!-- Configurer_15772&#45;&gt;EventStore_8296 -->
+<g id="edge144" class="edge">
+<title>Configurer_15772&#45;&gt;EventStore_8296</title>
 <path fill="none" stroke="#ccece6" stroke-width="0.3" d="M583.65,-952.89C573.58,-960.84 562.46,-969.62 552.2,-977.72"/>
 <polygon fill="#ccece6" stroke="#ccece6" stroke-width="0.3" points="551.38,-976.58 549.11,-980.16 553.12,-978.78 551.38,-976.58"/>
 <text xml:space="preserve" text-anchor="middle" x="565.5" y="-967.63" font-family="Times,serif" font-size="4.00">1</text>
 </g>
 <!-- Configurer_15772&#45;&gt;QueryUpdateEmitter_43035 -->
-<g id="edge119" class="edge">
+<g id="edge117" class="edge">
 <title>Configurer_15772&#45;&gt;QueryUpdateEmitter_43035</title>
 <path fill="none" stroke="#ccece6" stroke-width="0.3" d="M631.74,-960.05C658.62,-1018.44 714.27,-1139.31 742.17,-1199.91"/>
 <polygon fill="#ccece6" stroke="#ccece6" stroke-width="0.3" points="740.83,-1200.35 743.78,-1203.4 743.38,-1199.18 740.83,-1200.35"/>
 <text xml:space="preserve" text-anchor="middle" x="686.79" y="-1082.99" font-family="Times,serif" font-size="4.00">2</text>
 </g>
-<!-- Configurer_15772&#45;&gt;CommandBus_19298 -->
-<g id="edge118" class="edge">
-<title>Configurer_15772&#45;&gt;CommandBus_19298</title>
+<!-- Configurer_15772&#45;&gt;CommandBus_19299 -->
+<g id="edge119" class="edge">
+<title>Configurer_15772&#45;&gt;CommandBus_19299</title>
 <path fill="none" stroke="#ccece6" stroke-width="0.3" d="M618.14,-961.58C620.89,-1019.69 626.41,-1136.46 629.3,-1197.48"/>
 <polygon fill="#ccece6" stroke="#ccece6" stroke-width="0.3" points="627.89,-1197.4 629.48,-1201.32 630.69,-1197.26 627.89,-1197.4"/>
 <text xml:space="preserve" text-anchor="middle" x="622.81" y="-1082.74" font-family="Times,serif" font-size="4.00">2</text>
@@ -1129,14 +1129,14 @@
 <text xml:space="preserve" text-anchor="middle" x="534.7" y="-821.81" font-family="Times,serif" font-size="4.00">3</text>
 </g>
 <!-- Configurer_15772&#45;&gt;EventStorageEngine_9290 -->
-<g id="edge144" class="edge">
+<g id="edge143" class="edge">
 <title>Configurer_15772&#45;&gt;EventStorageEngine_9290</title>
 <path fill="none" stroke="#ccece6" stroke-width="0.3" d="M577.26,-905.83C531.03,-880.94 454.3,-839.63 404.99,-813.08"/>
 <polygon fill="#ccece6" stroke="#ccece6" stroke-width="0.3" points="405.78,-811.92 401.59,-811.25 404.45,-814.38 405.78,-811.92"/>
 <text xml:space="preserve" text-anchor="middle" x="487.99" y="-859.51" font-family="Times,serif" font-size="4.00">1</text>
 </g>
 <!-- Configurer_15772&#45;&gt;QueryBus_41975 -->
-<g id="edge117" class="edge">
+<g id="edge120" class="edge">
 <title>Configurer_15772&#45;&gt;QueryBus_41975</title>
 <path fill="none" stroke="#ccece6" stroke-width="0.3" d="M627.74,-960.8C642.38,-1004.9 667.88,-1081.68 682.91,-1126.94"/>
 <polygon fill="#ccece6" stroke="#ccece6" stroke-width="0.3" points="681.51,-1127.16 684.1,-1130.52 684.16,-1126.28 681.51,-1127.16"/>
@@ -1170,23 +1170,23 @@
 <polygon fill="#ccece6" stroke="#ccece6" stroke-width="0.3" points="1299.98,-790.31 1304.13,-791.14 1301.4,-787.9 1299.98,-790.31"/>
 <text xml:space="preserve" text-anchor="middle" x="1241.21" y="-755.87" font-family="Times,serif" font-size="4.00">1</text>
 </g>
-<!-- EventStore_8258&#45;&gt;StreamableMessageSource_29247 -->
+<!-- EventStore_8296&#45;&gt;StreamableMessageSource_29247 -->
 <g id="edge151" class="edge">
-<title>EventStore_8258&#45;&gt;StreamableMessageSource_29247</title>
+<title>EventStore_8296&#45;&gt;StreamableMessageSource_29247</title>
 <path fill="none" stroke="#ccece6" stroke-width="0.3" d="M558.89,-1023.17C624.26,-1049.18 749.4,-1098.98 824.35,-1128.81"/>
 <polygon fill="#ccece6" stroke="#ccece6" stroke-width="0.3" points="823.67,-1130.04 827.9,-1130.22 824.7,-1127.44 823.67,-1130.04"/>
 <text xml:space="preserve" text-anchor="middle" x="692.76" y="-1078.04" font-family="Times,serif" font-size="4.00">1</text>
 </g>
-<!-- EventStore_8258&#45;&gt;EventBus_26917 -->
+<!-- EventStore_8296&#45;&gt;EventBus_26917 -->
 <g id="edge150" class="edge">
-<title>EventStore_8258&#45;&gt;EventBus_26917</title>
+<title>EventStore_8296&#45;&gt;EventBus_26917</title>
 <path fill="none" stroke="#ccece6" stroke-width="0.3" d="M509.03,-971.91C497.54,-916.82 475.05,-808.99 463.19,-752.13"/>
 <polygon fill="#ccece6" stroke="#ccece6" stroke-width="0.3" points="464.57,-751.87 462.38,-748.24 461.83,-752.44 464.57,-751.87"/>
 <text xml:space="preserve" text-anchor="middle" x="484.65" y="-861.01" font-family="Times,serif" font-size="4.00">1</text>
 </g>
-<!-- SimpleEventBus$Builder_29294&#45;&gt;AxonConfigurationException_19875 -->
+<!-- SimpleEventBus$Builder_29294&#45;&gt;AxonConfigurationException_19876 -->
 <g id="edge176" class="edge">
-<title>SimpleEventBus$Builder_29294&#45;&gt;AxonConfigurationException_19875</title>
+<title>SimpleEventBus$Builder_29294&#45;&gt;AxonConfigurationException_19876</title>
 <path fill="none" stroke="#ccece6" stroke-width="0.3" d="M898.41,-1196.04C911.72,-1121.03 943.33,-942.86 957.1,-865.31"/>
 <polygon fill="#ccece6" stroke="#ccece6" stroke-width="0.3" points="958.42,-865.87 957.74,-861.69 955.66,-865.38 958.42,-865.87"/>
 <text xml:space="preserve" text-anchor="middle" x="927.11" y="-1029.85" font-family="Times,serif" font-size="4.00">1</text>
@@ -1198,9 +1198,9 @@
 <polygon fill="#ccece6" stroke="#ccece6" stroke-width="0.3" points="580.67,-1202.17 576.57,-1203.23 580.44,-1204.96 580.67,-1202.17"/>
 <text xml:space="preserve" text-anchor="middle" x="701.26" y="-1215.22" font-family="Times,serif" font-size="4.00">2</text>
 </g>
-<!-- DefaultCommandGateway$Builder_22085&#45;&gt;CommandBus_19298 -->
+<!-- DefaultCommandGateway$Builder_22085&#45;&gt;CommandBus_19299 -->
 <g id="edge121" class="edge">
-<title>DefaultCommandGateway$Builder_22085&#45;&gt;CommandBus_19298</title>
+<title>DefaultCommandGateway$Builder_22085&#45;&gt;CommandBus_19299</title>
 <path fill="none" stroke="#ccece6" stroke-width="0.3" d="M821.55,-1355.54C777.43,-1327.99 712.94,-1287.72 671.5,-1261.85"/>
 <polygon fill="#ccece6" stroke="#ccece6" stroke-width="0.3" points="672.58,-1260.87 668.45,-1259.94 671.1,-1263.25 672.58,-1260.87"/>
 <text xml:space="preserve" text-anchor="middle" x="743.89" y="-1308.87" font-family="Times,serif" font-size="4.00">2</text>
@@ -1212,9 +1212,9 @@
 <polygon fill="#ccece6" stroke="#ccece6" stroke-width="0.3" points="449.41,-677.53 451.29,-681.33 452.19,-677.19 449.41,-677.53"/>
 <text xml:space="preserve" text-anchor="middle" x="434.91" y="-558" font-family="Times,serif" font-size="4.00">2</text>
 </g>
-<!-- DefaultQueryGateway$Builder_41997&#45;&gt;AxonConfigurationException_19875 -->
+<!-- DefaultQueryGateway$Builder_41997&#45;&gt;AxonConfigurationException_19876 -->
 <g id="edge145" class="edge">
-<title>DefaultQueryGateway$Builder_41997&#45;&gt;AxonConfigurationException_19875</title>
+<title>DefaultQueryGateway$Builder_41997&#45;&gt;AxonConfigurationException_19876</title>
 <path fill="none" stroke="#ccece6" stroke-width="0.3" d="M1044.54,-1083.73C1027.22,-1028.97 993.31,-921.8 975.4,-865.21"/>
 <polygon fill="#ccece6" stroke="#ccece6" stroke-width="0.3" points="976.82,-865.05 974.28,-861.66 974.15,-865.9 976.82,-865.05"/>
 <text xml:space="preserve" text-anchor="middle" x="1008.29" y="-973.5" font-family="Times,serif" font-size="4.00">1</text>
@@ -1233,9 +1233,9 @@
 <polygon fill="#ccece6" stroke="#ccece6" stroke-width="0.3" points="1349.52,-441.77 1348.28,-437.72 1346.72,-441.66 1349.52,-441.77"/>
 <text xml:space="preserve" text-anchor="middle" x="1343.17" y="-537.83" font-family="Times,serif" font-size="4.00">6</text>
 </g>
-<!-- JavaSerializer$Builder_44552&#45;&gt;AxonConfigurationException_19875 -->
+<!-- JavaSerializer$Builder_44552&#45;&gt;AxonConfigurationException_19876 -->
 <g id="edge158" class="edge">
-<title>JavaSerializer$Builder_44552&#45;&gt;AxonConfigurationException_19875</title>
+<title>JavaSerializer$Builder_44552&#45;&gt;AxonConfigurationException_19876</title>
 <path fill="none" stroke="#ccece6" stroke-width="0.3" d="M1106.33,-518.98C1076.65,-583.31 1011.45,-724.65 980.55,-791.61"/>
 <polygon fill="#ccece6" stroke="#ccece6" stroke-width="0.3" points="979.34,-790.89 978.94,-795.11 981.89,-792.06 979.34,-790.89"/>
 <text xml:space="preserve" text-anchor="middle" x="1041.5" y="-658.54" font-family="Times,serif" font-size="4.00">1</text>
@@ -1458,16 +1458,16 @@
 <text xml:space="preserve" text-anchor="middle" x="863.75" y="-451.8" font-family="Times,serif" font-size="12.00">Builder</text>
 <text xml:space="preserve" text-anchor="middle" x="863.75" y="-437.4" font-family="Times,serif" font-size="12.00">(74.0)</text>
 </g>
-<!-- AxonConfigurationException_19875 -->
+<!-- AxonConfigurationException_19876 -->
 <g id="node29" class="node">
-<title>AxonConfigurationException_19875</title>
+<title>AxonConfigurationException_19876</title>
 <ellipse fill="#f7fcfd" stroke="#66c2a4" stroke-width="2" cx="963.68" cy="-828.17" rx="85.49" ry="32.4"/>
 <text xml:space="preserve" text-anchor="middle" x="963.68" y="-831.77" font-family="Times,serif" font-size="12.00">AxonConfigurationException</text>
 <text xml:space="preserve" text-anchor="middle" x="963.68" y="-817.37" font-family="Times,serif" font-size="12.00">(565.87)</text>
 </g>
-<!-- SimpleCommandBus$Builder_19108 -->
+<!-- SimpleCommandBus$Builder_19109 -->
 <g id="node30" class="node">
-<title>SimpleCommandBus$Builder_19108</title>
+<title>SimpleCommandBus$Builder_19109</title>
 <ellipse fill="#f7fcfd" stroke="#66c2a4" stroke-width="2" cx="640.44" cy="-108.76" rx="79.9" ry="33.6"/>
 <text xml:space="preserve" text-anchor="middle" x="640.44" y="-119.56" font-family="Times,serif" font-size="12.00">SimpleCommandBus$</text>
 <text xml:space="preserve" text-anchor="middle" x="640.44" y="-105.16" font-family="Times,serif" font-size="12.00">Builder</text>
@@ -1546,9 +1546,9 @@
 <text xml:space="preserve" text-anchor="middle" x="1134.63" y="-694.93" font-family="Times,serif" font-size="12.00">EventProcessorProperties</text>
 <text xml:space="preserve" text-anchor="middle" x="1134.63" y="-680.53" font-family="Times,serif" font-size="12.00">(43.0)</text>
 </g>
-<!-- EventStore_8258 -->
+<!-- EventStore_8296 -->
 <g id="node41" class="node">
-<title>EventStore_8258</title>
+<title>EventStore_8296</title>
 <ellipse fill="#f7fcfd" stroke="#66c2a4" stroke-width="5" cx="516.17" cy="-1006.17" rx="46.8" ry="32.4"/>
 <text xml:space="preserve" text-anchor="middle" x="516.17" y="-1009.77" font-family="Times,serif" font-size="12.00">EventStore</text>
 <text xml:space="preserve" text-anchor="middle" x="516.17" y="-995.37" font-family="Times,serif" font-size="12.00">(1719.74)</text>
@@ -1590,9 +1590,9 @@
 <text xml:space="preserve" text-anchor="middle" x="1360.54" y="-923.53" font-family="Times,serif" font-size="12.00">TagsConfigurationProperties</text>
 <text xml:space="preserve" text-anchor="middle" x="1360.54" y="-909.13" font-family="Times,serif" font-size="12.00">(2.0)</text>
 </g>
-<!-- CommandBus_19298 -->
+<!-- CommandBus_19299 -->
 <g id="node47" class="node">
-<title>CommandBus_19298</title>
+<title>CommandBus_19299</title>
 <ellipse fill="#f7fcfd" stroke="#66c2a4" stroke-width="5" cx="631.15" cy="-1236.65" rx="46.8" ry="32.4"/>
 <text xml:space="preserve" text-anchor="middle" x="631.15" y="-1240.25" font-family="Times,serif" font-size="12.00">CommandBus</text>
 <text xml:space="preserve" text-anchor="middle" x="631.15" y="-1225.85" font-family="Times,serif" font-size="12.00">(1523.03)</text>

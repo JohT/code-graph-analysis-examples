@@ -15,7 +15,7 @@ strict digraph TopBottleneck5 {
 	graph   [label="Top Rank #5 Java Type Bottleneck\norg.axonframework.config.ConfigurerModule\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: Betweenness centrality\nthick outline: > 90% percentile of Betweenness centrality\n\n"];
 	central [label="🔒 bottleneck #5\nConfigurerModule"];
 	"InfraConfiguration_50383"  [label = "InfraConfiguration\n(0.0)"; penwidth = 2; ]; "InfraConfiguration_50383" -> central [label=6; weight=6; penwidth=0.5];
-	"DefaultConfigurer_14017"  [label = "DefaultConfigurer\n(2252.94)"; penwidth = 5; ]; "DefaultConfigurer_14017" -> central [label=4; weight=4; penwidth=0.4];
+	"DefaultConfigurer_14202"  [label = "DefaultConfigurer\n(2252.94)"; penwidth = 5; ]; "DefaultConfigurer_14202" -> central [label=4; weight=4; penwidth=0.4];
 	"AxonServerAutoConfiguration_48481"  [label = "AxonServerAutoConfiguration\n(2082.54)"; penwidth = 5; ]; "AxonServerAutoConfiguration_48481" -> central [label=3; weight=3; penwidth=0.4];
 	"AxonAutoConfiguration_49276"  [label = "AxonAutoConfiguration\n(10295.89)"; penwidth = 5; ]; "AxonAutoConfiguration_49276" -> central [label=1; weight=1; penwidth=0.4];
 	"AxonTimeoutAutoConfiguration_51133"  [label = "AxonTimeoutAutoConfiguration\n(0.0)"; penwidth = 2; ]; "AxonTimeoutAutoConfiguration_51133" -> central [label=1; weight=1; penwidth=0.4];
@@ -23,14 +23,14 @@ strict digraph TopBottleneck5 {
 	"AxonTracingAutoConfiguration_48484"  [label = "AxonTracingAutoConfiguration\n(1014.05)"; penwidth = 2; ]; "AxonTracingAutoConfiguration_48484" -> central [label=1; weight=1; penwidth=0.4];
 	"DeadLetterQueueProviderConfigurerModule_48544"  [label = "DeadLetterQueueProviderConfigurerModule\n(461.77)"; penwidth = 2; ]; "DeadLetterQueueProviderConfigurerModule_48544" -> central [label=1; weight=1; penwidth=0.4];
 	"ServerConnectorConfigurerModule_65763"  [label = "ServerConnectorConfigurerModule\n(0.0)"; penwidth = 2; ]; "ServerConnectorConfigurerModule_65763" -> central [label=1; weight=1; penwidth=0.4];
-	"UpdateCheckerConfigurerModule_14043"  [label = "UpdateCheckerConfigurerModule\n(0.0)"; penwidth = 2; ]; "UpdateCheckerConfigurerModule_14043" -> central [label=1; weight=1; penwidth=0.4];
+	"UpdateCheckerConfigurerModule_14228"  [label = "UpdateCheckerConfigurerModule\n(0.0)"; penwidth = 2; ]; "UpdateCheckerConfigurerModule_14228" -> central [label=1; weight=1; penwidth=0.4];
 	"Configurer_15772"  [label = "Configurer\n(6390.84)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "Configurer_15772" [label=1; weight=1; penwidth=0.4; color = 5];
-	"DefaultConfigurer_14017" -> "Configurer_15772" [label=26; weight=26; penwidth=0.3; color = 3]
+	"DefaultConfigurer_14202" -> "Configurer_15772" [label=26; weight=26; penwidth=0.3; color = 3]
 	"ServerConnectorConfigurerModule_65763" -> "Configurer_15772" [label=12; weight=12; penwidth=0.3; color = 3]
 	"InfraConfiguration_50383" -> "Configurer_15772" [label=9; weight=9; penwidth=0.3; color = 3]
 	"AxonServerAutoConfiguration_48481" -> "Configurer_15772" [label=7; weight=7; penwidth=0.3; color = 3]
 	"AxonTimeoutAutoConfiguration$AxonTimeoutConfigurerModule_51131" -> "Configurer_15772" [label=5; weight=5; penwidth=0.3; color = 3]
-	"UpdateCheckerConfigurerModule_14043" -> "Configurer_15772" [label=5; weight=5; penwidth=0.3; color = 3]
+	"UpdateCheckerConfigurerModule_14228" -> "Configurer_15772" [label=5; weight=5; penwidth=0.3; color = 3]
 	"AxonAutoConfiguration_49276" -> "Configurer_15772" [label=4; weight=4; penwidth=0.3; color = 3]
 	"AxonTimeoutAutoConfiguration_51133" -> "AxonTimeoutAutoConfiguration$AxonTimeoutConfigurerModule_51131" [label=3; weight=3; penwidth=0.3; color = 3]
 	"AxonTracingAutoConfiguration_48484" -> "Configurer_15772" [label=2; weight=2; penwidth=0.3; color = 3]
@@ -38,6 +38,6 @@ strict digraph TopBottleneck5 {
 	"AxonServerAutoConfiguration_48481" -> "AxonAutoConfiguration_49276" [label=1; weight=1; penwidth=0.3; color = 3]
 	"AxonTracingAutoConfiguration_48484" -> "AxonServerAutoConfiguration_48481" [label=1; weight=1; penwidth=0.3; color = 3]
 	"AxonTracingAutoConfiguration_48484" -> "AxonAutoConfiguration_49276" [label=1; weight=1; penwidth=0.3; color = 3]
-	"InfraConfiguration_50383" -> "DefaultConfigurer_14017" [label=1; weight=1; penwidth=0.3; color = 3]
+	"InfraConfiguration_50383" -> "DefaultConfigurer_14202" [label=1; weight=1; penwidth=0.3; color = 3]
 	"InfraConfiguration_50383" -> "AxonAutoConfiguration_49276" [label=1; weight=1; penwidth=0.3; color = 3]
 }

@@ -12,12 +12,20 @@ strict digraph TopBridge5 {
     central [fontsize = 16;];
     central [color = 7; fillcolor = 5; penwidth = 3;];
 
-	graph   [label="Top Rank #5 Java Type Bridge\norg.axonframework.axonserver.connector.util.GrpcMessageSizeInterceptor\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
-	central [label="🌉 bridge #5\nGrpcMessageSizeInterceptor"];
-	"GrpcMessageSizeInterceptor$1_65776" [label = "GrpcMessageSizeInterceptor$\n1"; ]; "GrpcMessageSizeInterceptor$1_65776" -> central [label=11; weight=11; penwidth=0.5];
-	"GrpcMessageSizeInterceptor$1$1_65760" [label = "GrpcMessageSizeInterceptor$\n1$\n1"; ]; "GrpcMessageSizeInterceptor$1$1_65760" -> central [label=6; weight=6; penwidth=0.5];
-	"AxonServerConnectionManager$Builder_60874" [label = "AxonServerConnectionManager$\nBuilder"; ]; "AxonServerConnectionManager$Builder_60874" -> central [label=2; weight=2; penwidth=0.4];
-	"GrpcMessageSizeInterceptor$1_65776" [label = "GrpcMessageSizeInterceptor$\n1"; color = 5; fillcolor = 1; ]; central -> "GrpcMessageSizeInterceptor$1_65776" [label=3; weight=3; penwidth=0.4; color = 5];
-	"GrpcMessageSizeInterceptor$1$1_65760" -> "GrpcMessageSizeInterceptor$1_65776" [label=10; weight=10; penwidth=0.3; color = 3]
-	"GrpcMessageSizeInterceptor$1_65776" -> "GrpcMessageSizeInterceptor$1$1_65760" [label=3; weight=3; penwidth=0.3; color = 3]
+	graph   [label="Top Rank #5 Java Type Bridge\norg.axonframework.axonserver.connector.event.axon.PersistentStreamConnection$SegmentState\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
+	central [label="🌉 bridge #5\nPersistentStreamConnection$SegmentState"];
+	"PersistentStreamConnection$SegmentConnection_61710" [label = "PersistentStreamConnection$\nSegmentConnection"; ]; "PersistentStreamConnection$SegmentConnection_61710" -> central [label=4; weight=4; penwidth=0.4];
+	"PersistentStreamConnection$SegmentConnection$ProcessingState_61669" [label = "PersistentStreamConnection$\nSegmentConnection$\nProcessingState"; ]; "PersistentStreamConnection$SegmentConnection$ProcessingState_61669" -> central [label=2; weight=2; penwidth=0.4];
+	"PersistentStreamConnection$SegmentConnection$RetryState_61709" [label = "PersistentStreamConnection$\nSegmentConnection$\nRetryState"; ]; "PersistentStreamConnection$SegmentConnection$RetryState_61709" -> central [label=2; weight=2; penwidth=0.4];
+	"PersistentStreamConnection_61712" [label = "PersistentStreamConnection"; ]; "PersistentStreamConnection_61712" -> central [label=1; weight=1; penwidth=0.4];
+	"PersistentStreamConnection$SegmentConnection$ProcessingState_61669" -> "PersistentStreamConnection$SegmentConnection_61710" [label=45; weight=45; penwidth=0.3; color = 3]
+	"PersistentStreamConnection$SegmentConnection$ProcessingState_61669" -> "PersistentStreamConnection_61712" [label=14; weight=14; penwidth=0.3; color = 3]
+	"PersistentStreamConnection$SegmentConnection$RetryState_61709" -> "PersistentStreamConnection$SegmentConnection_61710" [label=12; weight=12; penwidth=0.3; color = 3]
+	"PersistentStreamConnection$SegmentConnection_61710" -> "PersistentStreamConnection_61712" [label=9; weight=9; penwidth=0.3; color = 3]
+	"PersistentStreamConnection_61712" -> "PersistentStreamConnection$SegmentConnection_61710" [label=6; weight=6; penwidth=0.3; color = 3]
+	"PersistentStreamConnection$SegmentConnection$RetryState_61709" -> "PersistentStreamConnection_61712" [label=5; weight=5; penwidth=0.3; color = 3]
+	"PersistentStreamConnection$SegmentConnection_61710" -> "PersistentStreamConnection$SegmentConnection$ProcessingState_61669" [label=3; weight=3; penwidth=0.3; color = 3]
+	"PersistentStreamConnection$SegmentConnection$ProcessingState_61669" -> "PersistentStreamConnection$SegmentConnection$RetryState_61709" [label=3; weight=3; penwidth=0.3; color = 3]
+	"PersistentStreamConnection$SegmentConnection$RetryState_61709" -> "PersistentStreamConnection$SegmentConnection$ProcessingState_61669" [label=3; weight=3; penwidth=0.3; color = 3]
+	"PersistentStreamConnection$SegmentConnection_61710" -> "PersistentStreamConnection$SegmentConnection$RetryState_61709" [label=1; weight=1; penwidth=0.3; color = 3]
 }

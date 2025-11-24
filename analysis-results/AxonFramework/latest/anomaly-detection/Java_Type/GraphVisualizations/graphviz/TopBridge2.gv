@@ -12,19 +12,21 @@ strict digraph TopBridge2 {
     central [fontsize = 16;];
     central [color = 7; fillcolor = 5; penwidth = 3;];
 
-	graph   [label="Top Rank #2 Java Type Bridge\norg.axonframework.eventsourcing.eventstore.EmbeddedEventStore$Cleaner\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
-	central [label="🌉 bridge #2\nEmbeddedEventStore$Cleaner"];
-	"EmbeddedEventStore_10405" [label = "EmbeddedEventStore"; ]; "EmbeddedEventStore_10405" -> central [label=3; weight=3; penwidth=0.4];
-	"EmbeddedEventStore_10405" [label = "EmbeddedEventStore"; color = 5; fillcolor = 1; ]; central -> "EmbeddedEventStore_10405" [label=6; weight=6; penwidth=0.5; color = 5];
-	"EmbeddedEventStore$EventConsumer_10409" [label = "EmbeddedEventStore$\nEventConsumer"; color = 5; fillcolor = 1; ]; central -> "EmbeddedEventStore$EventConsumer_10409" [label=5; weight=5; penwidth=0.5; color = 5];
-	"EmbeddedEventStore$1_10404" [label = "EmbeddedEventStore$\n1"; color = 5; fillcolor = 1; ]; central -> "EmbeddedEventStore$1_10404" [label=2; weight=2; penwidth=0.4; color = 5];
-	"EmbeddedEventStore$Node_10408" [label = "EmbeddedEventStore$\nNode"; color = 5; fillcolor = 1; ]; central -> "EmbeddedEventStore$Node_10408" [label=2; weight=2; penwidth=0.4; color = 5];
-	"EmbeddedEventStore$EventConsumer_10409" -> "EmbeddedEventStore_10405" [label=25; weight=25; penwidth=0.3; color = 3]
-	"EmbeddedEventStore$EventConsumer_10409" -> "EmbeddedEventStore$Node_10408" [label=13; weight=13; penwidth=0.3; color = 3]
-	"EmbeddedEventStore_10405" -> "EmbeddedEventStore$Node_10408" [label=9; weight=9; penwidth=0.3; color = 3]
-	"EmbeddedEventStore_10405" -> "EmbeddedEventStore$EventConsumer_10409" [label=6; weight=6; penwidth=0.3; color = 3]
-	"EmbeddedEventStore$EventConsumer_10409" -> "EmbeddedEventStore$1_10404" [label=3; weight=3; penwidth=0.3; color = 3]
-	"EmbeddedEventStore$Node_10408" -> "EmbeddedEventStore$1_10404" [label=2; weight=2; penwidth=0.3; color = 3]
-	"EmbeddedEventStore_10405" -> "EmbeddedEventStore$1_10404" [label=1; weight=1; penwidth=0.3; color = 3]
-	"EmbeddedEventStore$1_10404" -> "EmbeddedEventStore_10405" [label=1; weight=1; penwidth=0.3; color = 3]
+	graph   [label="Top Rank #2 Java Type Bridge\norg.axonframework.eventhandling.pooled.Coordinator$EventFilter\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
+	central [label="🌉 bridge #2\nCoordinator$EventFilter"];
+	"Coordinator$Builder_34626" [label = "Coordinator$\nBuilder"; ]; "Coordinator$Builder_34626" -> central [label=4; weight=4; penwidth=0.4];
+	"Coordinator_34625" [label = "Coordinator"; ]; "Coordinator_34625" -> central [label=3; weight=3; penwidth=0.4];
+	"Coordinator$CoordinationTask_34627" [label = "Coordinator$\nCoordinationTask"; ]; "Coordinator$CoordinationTask_34627" -> central [label=3; weight=3; penwidth=0.4];
+	"PooledStreamingEventProcessor_34632" [label = "PooledStreamingEventProcessor"; ]; "PooledStreamingEventProcessor_34632" -> central [label=1; weight=1; penwidth=0.4];
+	"TrackedEventMessage_28185" [label = "TrackedEventMessage"; color = 5; fillcolor = 1; ]; central -> "TrackedEventMessage_28185" [label=1; weight=1; penwidth=0.4; color = 5];
+	"Coordinator$CoordinationTask_34627" -> "Coordinator_34625" [label=129; weight=129; penwidth=0.3; color = 3]
+	"Coordinator_34625" -> "Coordinator$Builder_34626" [label=24; weight=24; penwidth=0.3; color = 3]
+	"PooledStreamingEventProcessor_34632" -> "Coordinator$Builder_34626" [label=19; weight=19; penwidth=0.3; color = 3]
+	"PooledStreamingEventProcessor_34632" -> "Coordinator_34625" [label=10; weight=10; penwidth=0.3; color = 3]
+	"Coordinator_34625" -> "Coordinator$CoordinationTask_34627" [label=8; weight=8; penwidth=0.3; color = 3]
+	"Coordinator$CoordinationTask_34627" -> "TrackedEventMessage_28185" [label=8; weight=8; penwidth=0.3; color = 3]
+	"Coordinator$Builder_34626" -> "TrackedEventMessage_28185" [label=7; weight=7; penwidth=0.3; color = 3]
+	"PooledStreamingEventProcessor_34632" -> "TrackedEventMessage_28185" [label=6; weight=6; penwidth=0.3; color = 3]
+	"Coordinator_34625" -> "TrackedEventMessage_28185" [label=3; weight=3; penwidth=0.3; color = 3]
+	"Coordinator$Builder_34626" -> "Coordinator_34625" [label=3; weight=3; penwidth=0.3; color = 3]
 }

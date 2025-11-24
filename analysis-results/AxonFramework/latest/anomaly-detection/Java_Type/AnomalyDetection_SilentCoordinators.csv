@@ -4,7 +4,7 @@
 "org.axonframework.axonserver.connector.event.axon.EventBuffer","EventBuffer","axon-server-connector-4.12.2",305.74999999999994,15,1,14,""
 "org.axonframework.eventsourcing.conflictresolution.NoConflictResolver","NoConflictResolver","axon-eventsourcing-4.12.2",260.5,5,1,4,""
 "org.axonframework.axonserver.connector.processor.StreamingEventProcessorInfoMessage","StreamingEventProcessorInfoMessage","axon-server-connector-4.12.2",238.06666666666666,7,1,6,""
-"org.axonframework.serialization.GapAwareTrackingTokenConverter","GapAwareTrackingTokenConverter","axon-messaging-4.12.2",211.83333333333334,3,1,2,""
+"org.axonframework.serialization.GapAwareTrackingTokenConverter","GapAwareTrackingTokenConverter","axon-messaging-4.12.2",211.83333333333331,3,1,2,""
 "org.axonframework.springboot.autoconfig.AxonTimeoutAutoConfiguration$AxonTimeoutConfigurerModule","AxonTimeoutAutoConfiguration$AxonTimeoutConfigurerModule","axon-spring-boot-autoconfigure-4.12.2",164.66190476190476,13,1,12,""
 "org.axonframework.common.IdentifierValidator","IdentifierValidator","axon-messaging-4.12.2",163.33333333333334,2,1,1,""
 "org.axonframework.modelling.saga.AnnotatedSaga","AnnotatedSaga","axon-modelling-4.12.2",156,14,1,13,""

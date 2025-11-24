@@ -14,9 +14,9 @@
 <text xml:space="preserve" text-anchor="middle" x="720.1" y="-1222.49" font-family="Helvetica,Arial,sans-serif" font-size="14.00">nodes: incoming dependencies (limited max. 40)</text>
 <text xml:space="preserve" text-anchor="middle" x="720.1" y="-1205.69" font-family="Helvetica,Arial,sans-serif" font-size="14.00">node value: local clustering coefficient</text>
 <text xml:space="preserve" text-anchor="middle" x="720.1" y="-1188.89" font-family="Helvetica,Arial,sans-serif" font-size="14.00">thick outline: &lt;1 0% percentile of local clustering coefficient</text>
-<!-- central&#45;&gt;Message_19105 -->
+<!-- central&#45;&gt;Message_19106 -->
 <g id="edge41" class="edge">
-<title>central&#45;&gt;Message_19105</title>
+<title>central&#45;&gt;Message_19106</title>
 <path fill="none" stroke="#66c2a4" stroke-width="0.4" d="M633.33,-544.93C618.64,-517.89 602.33,-487.88 589.97,-465.14"/>
 <polygon fill="#66c2a4" stroke="#66c2a4" stroke-width="0.4" points="591.3,-464.64 588.16,-461.8 588.84,-465.98 591.3,-464.64"/>
 <text xml:space="preserve" text-anchor="middle" x="609.6" y="-504.3" font-family="Times,serif" font-size="4.00">3</text>
@@ -49,9 +49,9 @@
 <polygon fill="#ccece6" stroke="#ccece6" stroke-width="0.3" points="1070.46,-602.12 1074.12,-604.25 1072.59,-600.3 1070.46,-602.12"/>
 <text xml:space="preserve" text-anchor="middle" x="1015.27" y="-537.81" font-family="Times,serif" font-size="4.00">2</text>
 </g>
-<!-- EventProcessingModule_14810&#45;&gt;Message_19105 -->
+<!-- EventProcessingModule_14810&#45;&gt;Message_19106 -->
 <g id="edge68" class="edge">
-<title>EventProcessingModule_14810&#45;&gt;Message_19105</title>
+<title>EventProcessingModule_14810&#45;&gt;Message_19106</title>
 <path fill="none" stroke="#ccece6" stroke-width="0.3" d="M860.41,-436.11C790.76,-434.35 686.41,-431.7 623.66,-430.11"/>
 <polygon fill="#ccece6" stroke="#ccece6" stroke-width="0.3" points="623.7,-428.71 619.67,-430.01 623.63,-431.51 623.7,-428.71"/>
 <text xml:space="preserve" text-anchor="middle" x="738.2" y="-434.24" font-family="Times,serif" font-size="4.00">1</text>
@@ -147,9 +147,9 @@
 <polygon fill="#238b45" stroke="#238b45" stroke-width="0.5" points="611.42,-555.86 615.24,-557.71 613.41,-553.88 611.42,-555.86"/>
 <text xml:space="preserve" text-anchor="middle" x="503.35" y="-448.56" font-family="Times,serif" font-size="4.00">11</text>
 </g>
-<!-- AnnotatedSaga_58720&#45;&gt;Message_19105 -->
+<!-- AnnotatedSaga_58720&#45;&gt;Message_19106 -->
 <g id="edge59" class="edge">
-<title>AnnotatedSaga_58720&#45;&gt;Message_19105</title>
+<title>AnnotatedSaga_58720&#45;&gt;Message_19106</title>
 <path fill="none" stroke="#ccece6" stroke-width="0.3" d="M403.86,-330.48C439.02,-351.26 492.34,-382.76 529.09,-404.46"/>
 <polygon fill="#ccece6" stroke="#ccece6" stroke-width="0.3" points="528.04,-405.47 532.2,-406.3 529.47,-403.06 528.04,-405.47"/>
 <text xml:space="preserve" text-anchor="middle" x="467.5" y="-369.87" font-family="Times,serif" font-size="4.00">2</text>
@@ -189,9 +189,9 @@
 <polygon fill="#238b45" stroke="#238b45" stroke-width="0.5" points="744,-576.64 740.99,-579.62 745.2,-579.17 744,-576.64"/>
 <text xml:space="preserve" text-anchor="middle" x="784.92" y="-559.11" font-family="Times,serif" font-size="4.00">10</text>
 </g>
-<!-- EventProcessingConfigurer_14755&#45;&gt;Message_19105 -->
+<!-- EventProcessingConfigurer_14755&#45;&gt;Message_19106 -->
 <g id="edge67" class="edge">
-<title>EventProcessingConfigurer_14755&#45;&gt;Message_19105</title>
+<title>EventProcessingConfigurer_14755&#45;&gt;Message_19106</title>
 <path fill="none" stroke="#ccece6" stroke-width="0.3" d="M818.47,-493.03C758.95,-477.62 674.01,-455.63 620.51,-441.78"/>
 <polygon fill="#ccece6" stroke="#ccece6" stroke-width="0.3" points="621.06,-440.48 616.83,-440.83 620.36,-443.19 621.06,-440.48"/>
 <text xml:space="preserve" text-anchor="middle" x="716.02" y="-467.97" font-family="Times,serif" font-size="4.00">1</text>
@@ -203,9 +203,9 @@
 <polygon fill="#238b45" stroke="#238b45" stroke-width="0.5" points="588.27,-610.67 592.33,-609.45 588.39,-607.87 588.27,-610.67"/>
 <text xml:space="preserve" text-anchor="middle" x="496.91" y="-606.38" font-family="Times,serif" font-size="4.00">10</text>
 </g>
-<!-- ResultValidatorImpl_2091&#45;&gt;Message_19105 -->
+<!-- ResultValidatorImpl_2091&#45;&gt;Message_19106 -->
 <g id="edge72" class="edge">
-<title>ResultValidatorImpl_2091&#45;&gt;Message_19105</title>
+<title>ResultValidatorImpl_2091&#45;&gt;Message_19106</title>
 <path fill="none" stroke="#ccece6" stroke-width="0.3" d="M380.03,-571.28C421.79,-539.98 490.5,-488.49 532.9,-456.71"/>
 <polygon fill="#ccece6" stroke="#ccece6" stroke-width="0.3" points="533.69,-457.87 536.05,-454.35 532.01,-455.63 533.69,-457.87"/>
 <text xml:space="preserve" text-anchor="middle" x="457.17" y="-513.92" font-family="Times,serif" font-size="4.00">1</text>
@@ -266,9 +266,9 @@
 <polygon fill="#238b45" stroke="#238b45" stroke-width="0.5" points="648.93,-533.83 651.26,-537.37 651.64,-533.15 648.93,-533.83"/>
 <text xml:space="preserve" text-anchor="middle" x="607.68" y="-369.57" font-family="Times,serif" font-size="4.00">8</text>
 </g>
-<!-- AbstractSagaManager_57742&#45;&gt;Message_19105 -->
+<!-- AbstractSagaManager_57742&#45;&gt;Message_19106 -->
 <g id="edge65" class="edge">
-<title>AbstractSagaManager_57742&#45;&gt;Message_19105</title>
+<title>AbstractSagaManager_57742&#45;&gt;Message_19106</title>
 <path fill="none" stroke="#ccece6" stroke-width="0.3" d="M559.17,-198.9C561.51,-247.6 565.85,-338.03 568.33,-389.75"/>
 <polygon fill="#ccece6" stroke="#ccece6" stroke-width="0.3" points="566.93,-389.64 568.52,-393.57 569.72,-389.51 566.93,-389.64"/>
 <text xml:space="preserve" text-anchor="middle" x="562.86" y="-297.69" font-family="Times,serif" font-size="4.00">1</text>
@@ -280,9 +280,9 @@
 <polygon fill="#238b45" stroke="#238b45" stroke-width="0.5" points="694.76,-534.61 694.84,-538.85 697.42,-535.49 694.76,-534.61"/>
 <text xml:space="preserve" text-anchor="middle" x="739.1" y="-403.13" font-family="Times,serif" font-size="4.00">8</text>
 </g>
-<!-- EventLoggingInterceptor_34621&#45;&gt;Message_19105 -->
+<!-- EventLoggingInterceptor_34621&#45;&gt;Message_19106 -->
 <g id="edge66" class="edge">
-<title>EventLoggingInterceptor_34621&#45;&gt;Message_19105</title>
+<title>EventLoggingInterceptor_34621&#45;&gt;Message_19106</title>
 <path fill="none" stroke="#ccece6" stroke-width="0.3" d="M762.68,-260.7C720.01,-297.96 647.11,-361.6 604.33,-398.96"/>
 <polygon fill="#ccece6" stroke="#ccece6" stroke-width="0.3" points="603.48,-397.84 601.39,-401.53 605.33,-399.95 603.48,-397.84"/>
 <text xml:space="preserve" text-anchor="middle" x="680.85" y="-332.47" font-family="Times,serif" font-size="4.00">1</text>
@@ -329,9 +329,9 @@
 <polygon fill="#ccece6" stroke="#ccece6" stroke-width="0.3" points="432.95,-698.52 436.24,-701.19 435.33,-697.05 432.95,-698.52"/>
 <text xml:space="preserve" text-anchor="middle" x="383.46" y="-618.31" font-family="Times,serif" font-size="4.00">2</text>
 </g>
-<!-- AnnotatedAggregate_55333&#45;&gt;Message_19105 -->
+<!-- AnnotatedAggregate_55333&#45;&gt;Message_19106 -->
 <g id="edge45" class="edge">
-<title>AnnotatedAggregate_55333&#45;&gt;Message_19105</title>
+<title>AnnotatedAggregate_55333&#45;&gt;Message_19106</title>
 <path fill="none" stroke="#ccece6" stroke-width="0.3" d="M367.9,-486.31C413.11,-473.45 476.86,-455.31 520.66,-442.85"/>
 <polygon fill="#ccece6" stroke="#ccece6" stroke-width="0.3" points="520.93,-444.23 524.39,-441.79 520.16,-441.54 520.93,-444.23"/>
 <text xml:space="preserve" text-anchor="middle" x="445.71" y="-465.09" font-family="Times,serif" font-size="4.00">7</text>
@@ -343,9 +343,9 @@
 <polygon fill="#238b45" stroke="#238b45" stroke-width="0.5" points="596.12,-578.42 600.33,-578.92 597.35,-575.91 596.12,-578.42"/>
 <text xml:space="preserve" text-anchor="middle" x="442.73" y="-503.83" font-family="Times,serif" font-size="4.00">7</text>
 </g>
-<!-- AnnotationEventHandlerAdapter_28300&#45;&gt;Message_19105 -->
+<!-- AnnotationEventHandlerAdapter_28300&#45;&gt;Message_19106 -->
 <g id="edge61" class="edge">
-<title>AnnotationEventHandlerAdapter_28300&#45;&gt;Message_19105</title>
+<title>AnnotationEventHandlerAdapter_28300&#45;&gt;Message_19106</title>
 <path fill="none" stroke="#ccece6" stroke-width="0.3" d="M323.95,-407.07C386.19,-412.55 465.79,-419.56 517.37,-424.1"/>
 <polygon fill="#ccece6" stroke="#ccece6" stroke-width="0.3" points="517.1,-425.49 521.2,-424.44 517.34,-422.7 517.1,-425.49"/>
 <text xml:space="preserve" text-anchor="middle" x="423.76" y="-417.15" font-family="Times,serif" font-size="4.00">2</text>
@@ -427,9 +427,9 @@
 <polygon fill="#238b45" stroke="#238b45" stroke-width="0.5" points="634.28,-539.14 637.24,-542.17 636.82,-537.95 634.28,-539.14"/>
 <text xml:space="preserve" text-anchor="middle" x="572.86" y="-407.65" font-family="Times,serif" font-size="4.00">6</text>
 </g>
-<!-- EventValidator_4947&#45;&gt;Message_19105 -->
+<!-- EventValidator_4947&#45;&gt;Message_19106 -->
 <g id="edge69" class="edge">
-<title>EventValidator_4947&#45;&gt;Message_19105</title>
+<title>EventValidator_4947&#45;&gt;Message_19106</title>
 <path fill="none" stroke="#ccece6" stroke-width="0.3" d="M507.94,-270.33C521.06,-303.71 541.65,-356.11 555.53,-391.41"/>
 <polygon fill="#ccece6" stroke="#ccece6" stroke-width="0.3" points="554.09,-391.57 556.85,-394.78 556.69,-390.55 554.09,-391.57"/>
 <text xml:space="preserve" text-anchor="middle" x="531.45" y="-333.89" font-family="Times,serif" font-size="4.00">1</text>
@@ -441,9 +441,9 @@
 <polygon fill="#238b45" stroke="#238b45" stroke-width="0.5" points="599.57,-654.39 602.37,-651.21 598.2,-651.95 599.57,-654.39"/>
 <text xml:space="preserve" text-anchor="middle" x="550.68" y="-680.9" font-family="Times,serif" font-size="4.00">6</text>
 </g>
-<!-- GenericEventMessage_26235&#45;&gt;Message_19105 -->
+<!-- GenericEventMessage_26235&#45;&gt;Message_19106 -->
 <g id="edge44" class="edge">
-<title>GenericEventMessage_26235&#45;&gt;Message_19105</title>
+<title>GenericEventMessage_26235&#45;&gt;Message_19106</title>
 <path fill="none" stroke="#ccece6" stroke-width="0.3" d="M468.3,-700.83C489.68,-643.75 533.76,-526.08 556.28,-465.93"/>
 <polygon fill="#ccece6" stroke="#ccece6" stroke-width="0.3" points="557.48,-466.71 557.58,-462.48 554.86,-465.73 557.48,-466.71"/>
 <text xml:space="preserve" text-anchor="middle" x="512.02" y="-582.63" font-family="Times,serif" font-size="4.00">8</text>
@@ -497,9 +497,9 @@
 <polygon fill="#238b45" stroke="#238b45" stroke-width="0.5" points="660.07,-531.64 661.89,-535.47 662.85,-531.34 660.07,-531.64"/>
 <text xml:space="preserve" text-anchor="middle" x="635.5" y="-303.13" font-family="Times,serif" font-size="4.00">5</text>
 </g>
-<!-- AnnotatedAggregateMetaModelFactory$AnnotatedAggregateModel_56695&#45;&gt;Message_19105 -->
+<!-- AnnotatedAggregateMetaModelFactory$AnnotatedAggregateModel_56695&#45;&gt;Message_19106 -->
 <g id="edge58" class="edge">
-<title>AnnotatedAggregateMetaModelFactory$AnnotatedAggregateModel_56695&#45;&gt;Message_19105</title>
+<title>AnnotatedAggregateMetaModelFactory$AnnotatedAggregateModel_56695&#45;&gt;Message_19106</title>
 <path fill="none" stroke="#ccece6" stroke-width="0.3" d="M604.09,-67.98C597.2,-141.4 581.07,-313.09 573.83,-390.13"/>
 <polygon fill="#ccece6" stroke="#ccece6" stroke-width="0.3" points="572.48,-389.61 573.5,-393.73 575.26,-389.87 572.48,-389.61"/>
 <text xml:space="preserve" text-anchor="middle" x="587.75" y="-232.51" font-family="Times,serif" font-size="4.00">2</text>
@@ -812,9 +812,9 @@
 <text xml:space="preserve" text-anchor="middle" x="700.1" y="-161.92" font-family="Times,serif" font-size="12.00">AnnotatedSagaManager</text>
 <text xml:space="preserve" text-anchor="middle" x="700.1" y="-147.52" font-family="Times,serif" font-size="12.00">(0.28)</text>
 </g>
-<!-- Message_19105 -->
+<!-- Message_19106 -->
 <g id="node42" class="node">
-<title>Message_19105</title>
+<title>Message_19106</title>
 <ellipse fill="#f7fcfd" stroke="#66c2a4" stroke-width="5" cx="570.21" cy="-428.76" rx="46.8" ry="32.4"/>
 <text xml:space="preserve" text-anchor="middle" x="570.21" y="-432.36" font-family="Times,serif" font-size="12.00">Message</text>
 <text xml:space="preserve" text-anchor="middle" x="570.21" y="-417.96" font-family="Times,serif" font-size="12.00">(0.03)</text>
