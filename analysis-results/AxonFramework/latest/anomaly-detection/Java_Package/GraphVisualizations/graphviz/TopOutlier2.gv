@@ -14,11 +14,11 @@ strict digraph TopOutlier2 {
 
 	graph   [label="Top Rank #2 Java Package Outlier\norg.axonframework.axonserver.connector.processor\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: cluster probability\nlarge circle: < 25% percentile of cluster probability\nthick outline: > 80% percentile of distance to cluster center\n\n"];
 	central [label="🧩 outlier #2\nprocessor"];
-	"axon_60358"  [shape = "circle"; height=1.8; label = "axon\n(50.15%)"; penwidth = 5; ]; "axon_60358" -> central [label=5; weight=5; penwidth=0.5];
-	"connector_60355"  [label = "connector\n(83.86%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "connector_60355" [label=17; weight=17; penwidth=0.6; color = 5];
-	"eventhandling_26974"  [label = "eventhandling\n(97.7%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "eventhandling_26974" [label=15; weight=15; penwidth=0.6; color = 5];
+	"axon_60358"  [shape = "circle"; height=1.8; label = "axon\n(44.47%)"; penwidth = 5; ]; "axon_60358" -> central [label=5; weight=5; penwidth=0.5];
+	"connector_60355"  [label = "connector\n(77.15%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "connector_60355" [label=17; weight=17; penwidth=0.6; color = 5];
+	"eventhandling_26974"  [label = "eventhandling\n(98.51%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "eventhandling_26974" [label=15; weight=15; penwidth=0.6; color = 5];
 	"config_14721"  [shape = "circle"; height=1.8; label = "config\n(0.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "config_14721" [label=2; weight=2; penwidth=0.4; color = 5];
-	"lifecycle_37596"  [label = "lifecycle\n(66.89%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "lifecycle_37596" [label=1; weight=1; penwidth=0.4; color = 5];
+	"lifecycle_37596"  [label = "lifecycle\n(64.65%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "lifecycle_37596" [label=1; weight=1; penwidth=0.4; color = 5];
 	"pooled_34639"  [label = "pooled\n(100.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "pooled_34639" [label=1; weight=1; penwidth=0.4; color = 5];
 	"tokenstore_36610"  [label = "tokenstore\n(100.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "tokenstore_36610" [label=0; weight=0; penwidth=0.4; color = 5];
 	"transaction_25217"  [shape = "circle"; height=1.8; label = "transaction\n(0.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "transaction_25217" [label=0; weight=0; penwidth=0.4; color = 5];

@@ -12,20 +12,24 @@ strict digraph TopBridge1 {
     central [fontsize = 16;];
     central [color = 7; fillcolor = 5; penwidth = 3;];
 
-	graph   [label="Top Rank #1 Java Type Bridge\norg.axonframework.updates.api.UpdateCheckResponse\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
-	central [label="🌉 bridge #1\nUpdateCheckResponse"];
-	"LoggingUpdateCheckerReporter_47983" [label = "LoggingUpdateCheckerReporter"; ]; "LoggingUpdateCheckerReporter_47983" -> central [label=10; weight=10; penwidth=0.5];
-	"UpdateChecker_47989" [label = "UpdateChecker"; ]; "UpdateChecker_47989" -> central [label=2; weight=2; penwidth=0.4];
-	"UpdateCheckerHttpClient_47990" [label = "UpdateCheckerHttpClient"; ]; "UpdateCheckerHttpClient_47990" -> central [label=2; weight=2; penwidth=0.4];
-	"UpdateCheckerReporter_48182" [label = "UpdateCheckerReporter"; ]; "UpdateCheckerReporter_48182" -> central [label=1; weight=1; penwidth=0.4];
-	"DetectedVulnerability_47987" [label = "DetectedVulnerability"; color = 5; fillcolor = 1; ]; central -> "DetectedVulnerability_47987" [label=7; weight=7; penwidth=0.5; color = 5];
-	"ArtifactAvailableUpgrade_47988" [label = "ArtifactAvailableUpgrade"; color = 5; fillcolor = 1; ]; central -> "ArtifactAvailableUpgrade_47988" [label=6; weight=6; penwidth=0.5; color = 5];
-	"DetectedVulnerabilitySeverity_48196" [label = "DetectedVulnerabilitySeverity"; color = 5; fillcolor = 1; ]; central -> "DetectedVulnerabilitySeverity_48196" [label=3; weight=3; penwidth=0.4; color = 5];
-	"LoggingUpdateCheckerReporter_47983" -> "DetectedVulnerability_47987" [label=12; weight=12; penwidth=0.3; color = 3]
-	"LoggingUpdateCheckerReporter_47983" -> "ArtifactAvailableUpgrade_47988" [label=6; weight=6; penwidth=0.3; color = 3]
-	"UpdateChecker_47989" -> "UpdateCheckerHttpClient_47990" [label=4; weight=4; penwidth=0.3; color = 3]
-	"UpdateChecker_47989" -> "UpdateCheckerReporter_48182" [label=4; weight=4; penwidth=0.3; color = 3]
-	"DetectedVulnerability_47987" -> "DetectedVulnerabilitySeverity_48196" [label=3; weight=3; penwidth=0.3; color = 3]
-	"LoggingUpdateCheckerReporter_47983" -> "DetectedVulnerabilitySeverity_48196" [label=2; weight=2; penwidth=0.3; color = 3]
-	"LoggingUpdateCheckerReporter_47983" -> "UpdateCheckerReporter_48182" [label=1; weight=1; penwidth=0.3; color = 3]
+	graph   [label="Top Rank #1 Java Type Bridge\norg.axonframework.eventsourcing.eventstore.EmbeddedEventStore$1\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
+	central [label="🌉 bridge #1\nEmbeddedEventStore$1"];
+	"EmbeddedEventStore$EventConsumer_10409" [label = "EmbeddedEventStore$\nEventConsumer"; ]; "EmbeddedEventStore$EventConsumer_10409" -> central [label=3; weight=3; penwidth=0.4];
+	"EmbeddedEventStore$Cleaner_10407" [label = "EmbeddedEventStore$\nCleaner"; ]; "EmbeddedEventStore$Cleaner_10407" -> central [label=2; weight=2; penwidth=0.4];
+	"EmbeddedEventStore$EventProducer_10410" [label = "EmbeddedEventStore$\nEventProducer"; ]; "EmbeddedEventStore$EventProducer_10410" -> central [label=2; weight=2; penwidth=0.4];
+	"EmbeddedEventStore$Node_10408" [label = "EmbeddedEventStore$\nNode"; ]; "EmbeddedEventStore$Node_10408" -> central [label=2; weight=2; penwidth=0.4];
+	"EmbeddedEventStore_10405" [label = "EmbeddedEventStore"; ]; "EmbeddedEventStore_10405" -> central [label=1; weight=1; penwidth=0.4];
+	"EmbeddedEventStore_10405" [label = "EmbeddedEventStore"; color = 5; fillcolor = 1; ]; central -> "EmbeddedEventStore_10405" [label=1; weight=1; penwidth=0.4; color = 5];
+	"EmbeddedEventStore$EventConsumer_10409" -> "EmbeddedEventStore_10405" [label=25; weight=25; penwidth=0.3; color = 3]
+	"EmbeddedEventStore$EventProducer_10410" -> "EmbeddedEventStore_10405" [label=15; weight=15; penwidth=0.3; color = 3]
+	"EmbeddedEventStore$EventConsumer_10409" -> "EmbeddedEventStore$Node_10408" [label=13; weight=13; penwidth=0.3; color = 3]
+	"EmbeddedEventStore$EventProducer_10410" -> "EmbeddedEventStore$Node_10408" [label=10; weight=10; penwidth=0.3; color = 3]
+	"EmbeddedEventStore_10405" -> "EmbeddedEventStore$Node_10408" [label=9; weight=9; penwidth=0.3; color = 3]
+	"EmbeddedEventStore_10405" -> "EmbeddedEventStore$EventProducer_10410" [label=6; weight=6; penwidth=0.3; color = 3]
+	"EmbeddedEventStore_10405" -> "EmbeddedEventStore$EventConsumer_10409" [label=6; weight=6; penwidth=0.3; color = 3]
+	"EmbeddedEventStore$Cleaner_10407" -> "EmbeddedEventStore_10405" [label=6; weight=6; penwidth=0.3; color = 3]
+	"EmbeddedEventStore$Cleaner_10407" -> "EmbeddedEventStore$EventConsumer_10409" [label=5; weight=5; penwidth=0.3; color = 3]
+	"EmbeddedEventStore_10405" -> "EmbeddedEventStore$Cleaner_10407" [label=3; weight=3; penwidth=0.3; color = 3]
+	"EmbeddedEventStore$EventProducer_10410" -> "EmbeddedEventStore$EventConsumer_10409" [label=3; weight=3; penwidth=0.3; color = 3]
+	"EmbeddedEventStore$Cleaner_10407" -> "EmbeddedEventStore$Node_10408" [label=2; weight=2; penwidth=0.3; color = 3]
 }

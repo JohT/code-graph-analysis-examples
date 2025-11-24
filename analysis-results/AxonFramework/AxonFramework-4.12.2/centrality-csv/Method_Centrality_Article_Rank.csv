@@ -24,7 +24,7 @@
 "org.axonframework.eventsourcing.eventstore.DomainEventStream: org.axonframework.eventsourcing.eventstore.DomainEventStream of(java.util.stream.Stream,java.util.function.Supplier)","of","centralityArticleRank",0.5028471805090138,""
 "org.axonframework.axonserver.connector.AxonServerConfiguration: java.lang.String getComponentName()","getComponentName","centralityArticleRank",0.5000189262090505,""
 "org.axonframework.common.BuilderUtils: void assertStrictPositive(long,java.lang.String)","assertStrictPositive","centralityArticleRank",0.49410491344579327,""
-"org.axonframework.modelling.command.AggregateScopeDescriptor: java.lang.Object getIdentifier()","getIdentifier","centralityArticleRank",0.466595071355999,""
+"org.axonframework.modelling.command.AggregateScopeDescriptor: java.lang.Object getIdentifier()","getIdentifier","centralityArticleRank",0.4665950713559989,""
 "org.axonframework.messaging.unitofwork.UnitOfWork: void attachTransaction(org.axonframework.common.transaction.TransactionManager)","attachTransaction","centralityArticleRank",0.45212346984036433,""
 "org.axonframework.common.TypeReflectionUtils: java.lang.reflect.Type getExactSuperType(java.lang.reflect.Type,java.lang.Class)","getExactSuperType","centralityArticleRank",0.4511998545014589,""
 "org.axonframework.axonserver.connector.AxonServerConfiguration: java.lang.Integer getNewPermitsThreshold()","getNewPermitsThreshold","centralityArticleRank",0.44788347740111406,""

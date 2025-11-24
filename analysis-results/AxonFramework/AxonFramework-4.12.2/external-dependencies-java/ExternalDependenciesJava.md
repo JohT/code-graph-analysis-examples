@@ -2552,12 +2552,12 @@ Only the last 20 entries are shown. The whole table can be found in the followin
     </tr>
     <tr>
       <th>1</th>
-      <td>org.axonframework.spring.eventsourcing</td>
+      <td>org.springframework.boot.docker.compose.servic...</td>
       <td>2</td>
     </tr>
     <tr>
       <th>2</th>
-      <td>org.axonframework.spring.config.annotation</td>
+      <td>org.springframework.boot.docker.compose.core</td>
       <td>2</td>
     </tr>
     <tr>
@@ -2567,32 +2567,32 @@ Only the last 20 entries are shown. The whole table can be found in the followin
     </tr>
     <tr>
       <th>4</th>
-      <td>org.springframework.boot.docker.compose.core</td>
+      <td>org.axonframework.spring.config.annotation</td>
       <td>2</td>
     </tr>
     <tr>
       <th>5</th>
-      <td>org.springframework.boot.docker.compose.servic...</td>
-      <td>2</td>
-    </tr>
-    <tr>
-      <th>6</th>
       <td>org.jobrunr.jobs.states</td>
       <td>2</td>
     </tr>
     <tr>
+      <th>6</th>
+      <td>org.axonframework.spring.eventsourcing</td>
+      <td>2</td>
+    </tr>
+    <tr>
       <th>7</th>
-      <td>javax.cache.configuration</td>
+      <td>com.fasterxml.jackson.databind.node</td>
       <td>3</td>
     </tr>
     <tr>
       <th>8</th>
-      <td>org.axonframework.spring.serialization.avro</td>
+      <td>net.sf.ehcache.event</td>
       <td>3</td>
     </tr>
     <tr>
       <th>9</th>
-      <td>reactor.core.scheduler</td>
+      <td>org.axonframework.spring.serialization.avro</td>
       <td>3</td>
     </tr>
     <tr>
@@ -2607,17 +2607,17 @@ Only the last 20 entries are shown. The whole table can be found in the followin
     </tr>
     <tr>
       <th>12</th>
-      <td>com.fasterxml.jackson.databind.node</td>
+      <td>reactor.core.scheduler</td>
       <td>3</td>
     </tr>
     <tr>
       <th>13</th>
-      <td>net.sf.ehcache.event</td>
+      <td>javax.cache.configuration</td>
       <td>3</td>
     </tr>
     <tr>
       <th>14</th>
-      <td>org.testcontainers.containers</td>
+      <td>com.fasterxml.jackson.core</td>
       <td>4</td>
     </tr>
     <tr>
@@ -2627,12 +2627,12 @@ Only the last 20 entries are shown. The whole table can be found in the followin
     </tr>
     <tr>
       <th>16</th>
-      <td>com.fasterxml.jackson.core</td>
+      <td>com.google.gson</td>
       <td>4</td>
     </tr>
     <tr>
       <th>17</th>
-      <td>org.springframework.beans.factory.support</td>
+      <td>com.thoughtworks.xstream.io.xml</td>
       <td>4</td>
     </tr>
     <tr>
@@ -2642,7 +2642,7 @@ Only the last 20 entries are shown. The whole table can be found in the followin
     </tr>
     <tr>
       <th>19</th>
-      <td>com.thoughtworks.xstream.io.xml</td>
+      <td>org.springframework.beans.factory.support</td>
       <td>4</td>
     </tr>
   </tbody>
@@ -4416,8 +4416,8 @@ The following table uses pivot to show the artifacts in columns, the external pa
       <th>axon-server-connector-4.12.2</th>
       <th>axon-spring-boot-autoconfigure-4.12.2</th>
       <th>axon-modelling-4.12.2</th>
-      <th>axon-test-4.12.2</th>
       <th>axon-eventsourcing-4.12.2</th>
+      <th>axon-test-4.12.2</th>
       <th>axon-disruptor-4.12.2</th>
       <th>axon-configuration-4.12.2</th>
       <th>axon-tracing-opentelemetry-4.12.2</th>
@@ -4442,8 +4442,8 @@ The following table uses pivot to show the artifacts in columns, the external pa
       <td>0</td>
       <td>0</td>
       <td>0</td>
-      <td>1</td>
       <td>0</td>
+      <td>1</td>
       <td>0</td>
       <td>0</td>
       <td>0</td>
@@ -4502,8 +4502,8 @@ The following table uses pivot to show the artifacts in columns, the external pa
       <td>3</td>
       <td>0</td>
       <td>0</td>
-      <td>1</td>
       <td>0</td>
+      <td>1</td>
       <td>0</td>
       <td>0</td>
       <td>0</td>
@@ -4598,8 +4598,8 @@ The following table uses pivot to show the artifacts in columns, the external pa
       <td>0</td>
       <td>2</td>
       <td>2</td>
-      <td>0</td>
       <td>2</td>
+      <td>0</td>
       <td>0</td>
       <td>0</td>
       <td>0</td>
@@ -4622,8 +4622,8 @@ The following table uses pivot to show the artifacts in columns, the external pa
       <td>8</td>
       <td>4</td>
       <td>4</td>
-      <td>4</td>
       <td>6</td>
+      <td>4</td>
       <td>1</td>
       <td>1</td>
       <td>1</td>
@@ -4646,8 +4646,8 @@ The following table uses pivot to show the artifacts in columns, the external pa
       <td>0</td>
       <td>2</td>
       <td>3</td>
-      <td>0</td>
       <td>3</td>
+      <td>0</td>
       <td>0</td>
       <td>0</td>
       <td>0</td>
@@ -4742,8 +4742,8 @@ The following table uses pivot to show the artifacts in columns, the external pa
       <td>0</td>
       <td>0</td>
       <td>0</td>
-      <td>5</td>
       <td>0</td>
+      <td>5</td>
       <td>0</td>
       <td>0</td>
       <td>0</td>
@@ -4778,8 +4778,8 @@ The following table uses pivot to show the artifacts in columns, the external pa
       <td>0</td>
       <td>0</td>
       <td>0</td>
-      <td>2</td>
       <td>0</td>
+      <td>2</td>
       <td>0</td>
       <td>0</td>
       <td>0</td>
@@ -4814,8 +4814,8 @@ The following table uses pivot to show the artifacts in columns, the external pa
       <td>9</td>
       <td>3</td>
       <td>6</td>
-      <td>2</td>
       <td>5</td>
+      <td>2</td>
       <td>1</td>
       <td>1</td>
       <td>1</td>
@@ -4838,8 +4838,8 @@ The following table uses pivot to show the artifacts in columns, the external pa
       <td>0</td>
       <td>0</td>
       <td>0</td>
-      <td>1</td>
       <td>0</td>
+      <td>1</td>
       <td>0</td>
       <td>0</td>
       <td>0</td>

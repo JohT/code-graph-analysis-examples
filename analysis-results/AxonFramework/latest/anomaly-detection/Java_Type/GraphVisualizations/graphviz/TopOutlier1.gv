@@ -12,11 +12,100 @@ strict digraph TopOutlier1 {
     central [fontsize = 16;];
     central [color = 7; fillcolor = 5; penwidth = 3;];
 
-	graph   [label="Top Rank #1 Java Type Outlier\norg.axonframework.eventsourcing.eventstore.jdbc.EventTableFactory\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: cluster probability\nlarge circle: < 25% percentile of cluster probability\nthick outline: > 80% percentile of distance to cluster center\n\n"];
-	central [label="🧩 outlier #1\nEventTableFactory"];
-	"JdbcEventStorageEngine_10984"  [shape = "circle"; height=1.8; label = "JdbcEventStorageEngine\n(0.0%)"; penwidth = 2; ]; "JdbcEventStorageEngine_10984" -> central [label=5; weight=5; penwidth=0.5];
-	"AbstractEventTableFactory_10978"  [label = "AbstractEventTableFactory\n(43.83%)"; penwidth = 5; ]; "AbstractEventTableFactory_10978" -> central [label=1; weight=1; penwidth=0.4];
-	"EventSchema_10979"  [label = "EventSchema\n(100.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "EventSchema_10979" [label=2; weight=2; penwidth=0.4; color = 5];
+	graph   [label="Top Rank #1 Java Type Outlier\norg.axonframework.eventsourcing.eventstore.jdbc.JdbcEventStorageEngine$Builder\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: cluster probability\nlarge circle: < 25% percentile of cluster probability\nthick outline: > 80% percentile of distance to cluster center\n\n"];
+	central [label="🧩 outlier #1\nJdbcEventStorageEngine$Builder"];
+	"JdbcEventStorageEngine_10984"  [shape = "circle"; height=1.8; label = "JdbcEventStorageEngine\n(0.0%)"; penwidth = 2; ]; "JdbcEventStorageEngine_10984" -> central [label=27; weight=27; penwidth=0.7];
+	"JdbcAutoConfiguration_49282"  [shape = "circle"; height=1.8; label = "JdbcAutoConfiguration\n(4.12%)"; penwidth = 2; ]; "JdbcAutoConfiguration_49282" -> central [label=10; weight=10; penwidth=0.5];
+	"BuilderUtils_19091"  [label = "BuilderUtils\n(10.08%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "BuilderUtils_19091" [label=21; weight=21; penwidth=0.6; color = 5];
+	"BatchingEventStorageEngine$Builder_10398"  [label = "BatchingEventStorageEngine$\nBuilder\n(100.0%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "BatchingEventStorageEngine$Builder_10398" [label=20; weight=20; penwidth=0.6; color = 5];
+	"JdbcEventStorageEngineStatements_11105"  [label = "JdbcEventStorageEngineStatements\n(100.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "JdbcEventStorageEngineStatements_11105" [label=13; weight=13; penwidth=0.5; color = 5];
+	"AbstractEventStorageEngine$Builder_9457"  [label = "AbstractEventStorageEngine$\nBuilder\n(100.0%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "AbstractEventStorageEngine$Builder_9457" [label=7; weight=7; penwidth=0.5; color = 5];
+	"Serializer_20359"  [shape = "circle"; height=1.8; label = "Serializer\n(3.39%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "Serializer_20359" [label=6; weight=6; penwidth=0.5; color = 5];
+	"EventSchema_10979"  [label = "EventSchema\n(100.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "EventSchema_10979" [label=5; weight=5; penwidth=0.5; color = 5];
+	"AppendEventsStatementBuilder_11092"  [shape = "circle"; height=1.8; label = "AppendEventsStatementBuilder\n(0.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "AppendEventsStatementBuilder_11092" [label=3; weight=3; penwidth=0.4; color = 5];
+	"AppendSnapshotStatementBuilder_11096"  [shape = "circle"; height=1.8; label = "AppendSnapshotStatementBuilder\n(0.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "AppendSnapshotStatementBuilder_11096" [label=3; weight=3; penwidth=0.4; color = 5];
+	"CleanGapsStatementBuilder_11099"  [label = "CleanGapsStatementBuilder\n(100.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "CleanGapsStatementBuilder_11099" [label=3; weight=3; penwidth=0.4; color = 5];
+	"ConnectionProvider_24541"  [label = "ConnectionProvider\n(100.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "ConnectionProvider_24541" [label=3; weight=3; penwidth=0.4; color = 5];
+	"CreateHeadTokenStatementBuilder_11095"  [label = "CreateHeadTokenStatementBuilder\n(100.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "CreateHeadTokenStatementBuilder_11095" [label=3; weight=3; penwidth=0.4; color = 5];
+	"CreateTailTokenStatementBuilder_11094"  [label = "CreateTailTokenStatementBuilder\n(100.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "CreateTailTokenStatementBuilder_11094" [label=3; weight=3; penwidth=0.4; color = 5];
+	"CreateTokenAtStatementBuilder_11091"  [label = "CreateTokenAtStatementBuilder\n(100.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "CreateTokenAtStatementBuilder_11091" [label=3; weight=3; penwidth=0.4; color = 5];
+	"DeleteSnapshotsStatementBuilder_11097"  [label = "DeleteSnapshotsStatementBuilder\n(100.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "DeleteSnapshotsStatementBuilder_11097" [label=3; weight=3; penwidth=0.4; color = 5];
+	"EventUpcaster_28188"  [label = "EventUpcaster\n(85.56%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "EventUpcaster_28188" [label=3; weight=3; penwidth=0.4; color = 5];
+	"FetchTrackedEventsStatementBuilder_11098"  [label = "FetchTrackedEventsStatementBuilder\n(100.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "FetchTrackedEventsStatementBuilder_11098" [label=3; weight=3; penwidth=0.4; color = 5];
+	"JdbcEventStorageEngine_10984"  [shape = "circle"; height=1.8; label = "JdbcEventStorageEngine\n(0.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "JdbcEventStorageEngine_10984" [label=3; weight=3; penwidth=0.4; color = 5];
+	"LastSequenceNumberForStatementBuilder_11093"  [label = "LastSequenceNumberForStatementBuilder\n(100.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "LastSequenceNumberForStatementBuilder_11093" [label=3; weight=3; penwidth=0.4; color = 5];
+	"PersistenceExceptionResolver_24661"  [label = "PersistenceExceptionResolver\n(100.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "PersistenceExceptionResolver_24661" [label=3; weight=3; penwidth=0.4; color = 5];
+	"ReadEventDataForAggregateStatementBuilder_11100"  [label = "ReadEventDataForAggregateStatementBuilder\n(100.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "ReadEventDataForAggregateStatementBuilder_11100" [label=3; weight=3; penwidth=0.4; color = 5];
+	"ReadEventDataWithGapsStatementBuilder_11103"  [label = "ReadEventDataWithGapsStatementBuilder\n(100.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "ReadEventDataWithGapsStatementBuilder_11103" [label=3; weight=3; penwidth=0.4; color = 5];
+	"ReadEventDataWithoutGapsStatementBuilder_11102"  [label = "ReadEventDataWithoutGapsStatementBuilder\n(100.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "ReadEventDataWithoutGapsStatementBuilder_11102" [label=3; weight=3; penwidth=0.4; color = 5];
+	"ReadSnapshotDataStatementBuilder_11101"  [label = "ReadSnapshotDataStatementBuilder\n(100.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "ReadSnapshotDataStatementBuilder_11101" [label=3; weight=3; penwidth=0.4; color = 5];
+	"SnapshotFilter_9307"  [label = "SnapshotFilter\n(97.86%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "SnapshotFilter_9307" [label=3; weight=3; penwidth=0.4; color = 5];
+	"TransactionManager_19113"  [shape = "circle"; height=1.8; label = "TransactionManager\n(0.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "TransactionManager_19113" [label=3; weight=3; penwidth=0.4; color = 5];
+	"DomainEventData_26908"  [shape = "circle"; height=1.8; label = "DomainEventData\n(0.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "DomainEventData_26908" [label=2; weight=2; penwidth=0.4; color = 5];
+	"JdbcEventStorageEngine$1_10983"  [shape = "circle"; height=1.8; label = "JdbcEventStorageEngine$\n1\n(0.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "JdbcEventStorageEngine$1_10983" [label=2; weight=2; penwidth=0.4; color = 5];
+	"JdbcSQLErrorCodesResolver_11106"  [shape = "circle"; height=1.8; label = "JdbcSQLErrorCodesResolver\n(0.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "JdbcSQLErrorCodesResolver_11106" [label=2; weight=2; penwidth=0.4; color = 5];
+	"AxonConfigurationException_19875"  [label = "AxonConfigurationException\n(33.5%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "AxonConfigurationException_19875" [label=1; weight=1; penwidth=0.4; color = 5];
+	"JdbcEventStorageEngineStatements_11105" -> "EventSchema_10979" [label=59; weight=59; penwidth=0.3; color = 3]
 	"JdbcEventStorageEngine_10984" -> "EventSchema_10979" [label=34; weight=34; penwidth=0.3; color = 3]
-	"AbstractEventTableFactory_10978" -> "EventSchema_10979" [label=30; weight=30; penwidth=0.3; color = 3]
+	"BatchingEventStorageEngine$Builder_10398" -> "AbstractEventStorageEngine$Builder_9457" [label=16; weight=16; penwidth=0.3; color = 3]
+	"JdbcAutoConfiguration_49282" -> "Serializer_20359" [label=11; weight=11; penwidth=0.3; color = 3]
+	"JdbcEventStorageEngine_10984" -> "TransactionManager_19113" [label=10; weight=10; penwidth=0.3; color = 3]
+	"AbstractEventStorageEngine$Builder_9457" -> "Serializer_20359" [label=8; weight=8; penwidth=0.3; color = 3]
+	"JdbcAutoConfiguration_49282" -> "ConnectionProvider_24541" [label=8; weight=8; penwidth=0.3; color = 3]
+	"JdbcEventStorageEngine_10984" -> "Serializer_20359" [label=8; weight=8; penwidth=0.3; color = 3]
+	"BuilderUtils_19091" -> "AxonConfigurationException_19875" [label=5; weight=5; penwidth=0.3; color = 3]
+	"JdbcAutoConfiguration_49282" -> "EventSchema_10979" [label=5; weight=5; penwidth=0.3; color = 3]
+	"SnapshotFilter_9307" -> "DomainEventData_26908" [label=5; weight=5; penwidth=0.3; color = 3]
+	"AbstractEventStorageEngine$Builder_9457" -> "SnapshotFilter_9307" [label=4; weight=4; penwidth=0.3; color = 3]
+	"AbstractEventStorageEngine$Builder_9457" -> "BuilderUtils_19091" [label=4; weight=4; penwidth=0.3; color = 3]
+	"BatchingEventStorageEngine$Builder_10398" -> "Serializer_20359" [label=4; weight=4; penwidth=0.3; color = 3]
+	"JdbcAutoConfiguration_49282" -> "TransactionManager_19113" [label=4; weight=4; penwidth=0.3; color = 3]
+	"JdbcEventStorageEngine_10984" -> "DomainEventData_26908" [label=4; weight=4; penwidth=0.3; color = 3]
+	"AbstractEventStorageEngine$Builder_9457" -> "PersistenceExceptionResolver_24661" [label=3; weight=3; penwidth=0.3; color = 3]
+	"BatchingEventStorageEngine$Builder_10398" -> "DomainEventData_26908" [label=3; weight=3; penwidth=0.3; color = 3]
+	"JdbcAutoConfiguration_49282" -> "PersistenceExceptionResolver_24661" [label=3; weight=3; penwidth=0.3; color = 3]
+	"AbstractEventStorageEngine$Builder_9457" -> "EventUpcaster_28188" [label=2; weight=2; penwidth=0.3; color = 3]
+	"BatchingEventStorageEngine$Builder_10398" -> "BuilderUtils_19091" [label=2; weight=2; penwidth=0.3; color = 3]
+	"BatchingEventStorageEngine$Builder_10398" -> "EventUpcaster_28188" [label=2; weight=2; penwidth=0.3; color = 3]
+	"BatchingEventStorageEngine$Builder_10398" -> "PersistenceExceptionResolver_24661" [label=2; weight=2; penwidth=0.3; color = 3]
+	"BatchingEventStorageEngine$Builder_10398" -> "SnapshotFilter_9307" [label=2; weight=2; penwidth=0.3; color = 3]
+	"JdbcAutoConfiguration_49282" -> "JdbcSQLErrorCodesResolver_11106" [label=2; weight=2; penwidth=0.3; color = 3]
+	"JdbcEventStorageEngine_10984" -> "ConnectionProvider_24541" [label=2; weight=2; penwidth=0.3; color = 3]
+	"JdbcEventStorageEngine_10984" -> "AppendSnapshotStatementBuilder_11096" [label=2; weight=2; penwidth=0.3; color = 3]
+	"JdbcEventStorageEngine_10984" -> "ReadEventDataWithoutGapsStatementBuilder_11102" [label=2; weight=2; penwidth=0.3; color = 3]
+	"JdbcEventStorageEngine_10984" -> "CreateTailTokenStatementBuilder_11094" [label=2; weight=2; penwidth=0.3; color = 3]
+	"JdbcEventStorageEngine_10984" -> "CreateTokenAtStatementBuilder_11091" [label=2; weight=2; penwidth=0.3; color = 3]
+	"JdbcEventStorageEngine_10984" -> "ReadEventDataForAggregateStatementBuilder_11100" [label=2; weight=2; penwidth=0.3; color = 3]
+	"JdbcEventStorageEngine_10984" -> "CreateHeadTokenStatementBuilder_11095" [label=2; weight=2; penwidth=0.3; color = 3]
+	"JdbcEventStorageEngine_10984" -> "FetchTrackedEventsStatementBuilder_11098" [label=2; weight=2; penwidth=0.3; color = 3]
+	"JdbcEventStorageEngine_10984" -> "ReadEventDataWithGapsStatementBuilder_11103" [label=2; weight=2; penwidth=0.3; color = 3]
+	"JdbcEventStorageEngine_10984" -> "ReadSnapshotDataStatementBuilder_11101" [label=2; weight=2; penwidth=0.3; color = 3]
+	"JdbcEventStorageEngine_10984" -> "AppendEventsStatementBuilder_11092" [label=2; weight=2; penwidth=0.3; color = 3]
+	"JdbcEventStorageEngine_10984" -> "DeleteSnapshotsStatementBuilder_11097" [label=2; weight=2; penwidth=0.3; color = 3]
+	"JdbcEventStorageEngine_10984" -> "CleanGapsStatementBuilder_11099" [label=2; weight=2; penwidth=0.3; color = 3]
+	"JdbcEventStorageEngine_10984" -> "LastSequenceNumberForStatementBuilder_11093" [label=2; weight=2; penwidth=0.3; color = 3]
+	"JdbcEventStorageEngineStatements_11105" -> "Serializer_20359" [label=2; weight=2; penwidth=0.3; color = 3]
+	"AbstractEventStorageEngine$Builder_9457" -> "DomainEventData_26908" [label=1; weight=1; penwidth=0.3; color = 3]
+	"AbstractEventStorageEngine$Builder_9457" -> "AxonConfigurationException_19875" [label=1; weight=1; penwidth=0.3; color = 3]
+	"AppendEventsStatementBuilder_11092" -> "Serializer_20359" [label=1; weight=1; penwidth=0.3; color = 3]
+	"AppendEventsStatementBuilder_11092" -> "EventSchema_10979" [label=1; weight=1; penwidth=0.3; color = 3]
+	"AppendSnapshotStatementBuilder_11096" -> "Serializer_20359" [label=1; weight=1; penwidth=0.3; color = 3]
+	"AppendSnapshotStatementBuilder_11096" -> "EventSchema_10979" [label=1; weight=1; penwidth=0.3; color = 3]
+	"BatchingEventStorageEngine$Builder_10398" -> "AxonConfigurationException_19875" [label=1; weight=1; penwidth=0.3; color = 3]
+	"CleanGapsStatementBuilder_11099" -> "EventSchema_10979" [label=1; weight=1; penwidth=0.3; color = 3]
+	"CreateHeadTokenStatementBuilder_11095" -> "EventSchema_10979" [label=1; weight=1; penwidth=0.3; color = 3]
+	"CreateTailTokenStatementBuilder_11094" -> "EventSchema_10979" [label=1; weight=1; penwidth=0.3; color = 3]
+	"CreateTokenAtStatementBuilder_11091" -> "EventSchema_10979" [label=1; weight=1; penwidth=0.3; color = 3]
+	"DeleteSnapshotsStatementBuilder_11097" -> "EventSchema_10979" [label=1; weight=1; penwidth=0.3; color = 3]
+	"FetchTrackedEventsStatementBuilder_11098" -> "EventSchema_10979" [label=1; weight=1; penwidth=0.3; color = 3]
+	"JdbcAutoConfiguration_49282" -> "JdbcEventStorageEngine_10984" [label=1; weight=1; penwidth=0.3; color = 3]
+	"JdbcEventStorageEngine_10984" -> "BatchingEventStorageEngine$Builder_10398" [label=1; weight=1; penwidth=0.3; color = 3]
+	"JdbcEventStorageEngine_10984" -> "JdbcEventStorageEngine$1_10983" [label=1; weight=1; penwidth=0.3; color = 3]
+	"JdbcEventStorageEngine$1_10983" -> "JdbcEventStorageEngine_10984" [label=1; weight=1; penwidth=0.3; color = 3]
+	"JdbcSQLErrorCodesResolver_11106" -> "PersistenceExceptionResolver_24661" [label=1; weight=1; penwidth=0.3; color = 3]
+	"LastSequenceNumberForStatementBuilder_11093" -> "EventSchema_10979" [label=1; weight=1; penwidth=0.3; color = 3]
+	"ReadEventDataForAggregateStatementBuilder_11100" -> "EventSchema_10979" [label=1; weight=1; penwidth=0.3; color = 3]
+	"ReadEventDataWithGapsStatementBuilder_11103" -> "EventSchema_10979" [label=1; weight=1; penwidth=0.3; color = 3]
+	"ReadEventDataWithoutGapsStatementBuilder_11102" -> "EventSchema_10979" [label=1; weight=1; penwidth=0.3; color = 3]
+	"ReadSnapshotDataStatementBuilder_11101" -> "EventSchema_10979" [label=1; weight=1; penwidth=0.3; color = 3]
 }

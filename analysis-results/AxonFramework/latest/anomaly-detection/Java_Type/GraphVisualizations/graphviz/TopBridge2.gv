@@ -12,24 +12,19 @@ strict digraph TopBridge2 {
     central [fontsize = 16;];
     central [color = 7; fillcolor = 5; penwidth = 3;];
 
-	graph   [label="Top Rank #2 Java Type Bridge\norg.axonframework.eventsourcing.eventstore.EmbeddedEventStore$1\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
-	central [label="🌉 bridge #2\nEmbeddedEventStore$1"];
-	"EmbeddedEventStore$EventConsumer_10409" [label = "EmbeddedEventStore$\nEventConsumer"; ]; "EmbeddedEventStore$EventConsumer_10409" -> central [label=3; weight=3; penwidth=0.4];
-	"EmbeddedEventStore$Cleaner_10407" [label = "EmbeddedEventStore$\nCleaner"; ]; "EmbeddedEventStore$Cleaner_10407" -> central [label=2; weight=2; penwidth=0.4];
-	"EmbeddedEventStore$EventProducer_10410" [label = "EmbeddedEventStore$\nEventProducer"; ]; "EmbeddedEventStore$EventProducer_10410" -> central [label=2; weight=2; penwidth=0.4];
-	"EmbeddedEventStore$Node_10408" [label = "EmbeddedEventStore$\nNode"; ]; "EmbeddedEventStore$Node_10408" -> central [label=2; weight=2; penwidth=0.4];
-	"EmbeddedEventStore_10405" [label = "EmbeddedEventStore"; ]; "EmbeddedEventStore_10405" -> central [label=1; weight=1; penwidth=0.4];
-	"EmbeddedEventStore_10405" [label = "EmbeddedEventStore"; color = 5; fillcolor = 1; ]; central -> "EmbeddedEventStore_10405" [label=1; weight=1; penwidth=0.4; color = 5];
+	graph   [label="Top Rank #2 Java Type Bridge\norg.axonframework.eventsourcing.eventstore.EmbeddedEventStore$Cleaner\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
+	central [label="🌉 bridge #2\nEmbeddedEventStore$Cleaner"];
+	"EmbeddedEventStore_10405" [label = "EmbeddedEventStore"; ]; "EmbeddedEventStore_10405" -> central [label=3; weight=3; penwidth=0.4];
+	"EmbeddedEventStore_10405" [label = "EmbeddedEventStore"; color = 5; fillcolor = 1; ]; central -> "EmbeddedEventStore_10405" [label=6; weight=6; penwidth=0.5; color = 5];
+	"EmbeddedEventStore$EventConsumer_10409" [label = "EmbeddedEventStore$\nEventConsumer"; color = 5; fillcolor = 1; ]; central -> "EmbeddedEventStore$EventConsumer_10409" [label=5; weight=5; penwidth=0.5; color = 5];
+	"EmbeddedEventStore$1_10404" [label = "EmbeddedEventStore$\n1"; color = 5; fillcolor = 1; ]; central -> "EmbeddedEventStore$1_10404" [label=2; weight=2; penwidth=0.4; color = 5];
+	"EmbeddedEventStore$Node_10408" [label = "EmbeddedEventStore$\nNode"; color = 5; fillcolor = 1; ]; central -> "EmbeddedEventStore$Node_10408" [label=2; weight=2; penwidth=0.4; color = 5];
 	"EmbeddedEventStore$EventConsumer_10409" -> "EmbeddedEventStore_10405" [label=25; weight=25; penwidth=0.3; color = 3]
-	"EmbeddedEventStore$EventProducer_10410" -> "EmbeddedEventStore_10405" [label=15; weight=15; penwidth=0.3; color = 3]
 	"EmbeddedEventStore$EventConsumer_10409" -> "EmbeddedEventStore$Node_10408" [label=13; weight=13; penwidth=0.3; color = 3]
-	"EmbeddedEventStore$EventProducer_10410" -> "EmbeddedEventStore$Node_10408" [label=10; weight=10; penwidth=0.3; color = 3]
 	"EmbeddedEventStore_10405" -> "EmbeddedEventStore$Node_10408" [label=9; weight=9; penwidth=0.3; color = 3]
-	"EmbeddedEventStore_10405" -> "EmbeddedEventStore$EventProducer_10410" [label=6; weight=6; penwidth=0.3; color = 3]
 	"EmbeddedEventStore_10405" -> "EmbeddedEventStore$EventConsumer_10409" [label=6; weight=6; penwidth=0.3; color = 3]
-	"EmbeddedEventStore$Cleaner_10407" -> "EmbeddedEventStore_10405" [label=6; weight=6; penwidth=0.3; color = 3]
-	"EmbeddedEventStore$Cleaner_10407" -> "EmbeddedEventStore$EventConsumer_10409" [label=5; weight=5; penwidth=0.3; color = 3]
-	"EmbeddedEventStore_10405" -> "EmbeddedEventStore$Cleaner_10407" [label=3; weight=3; penwidth=0.3; color = 3]
-	"EmbeddedEventStore$EventProducer_10410" -> "EmbeddedEventStore$EventConsumer_10409" [label=3; weight=3; penwidth=0.3; color = 3]
-	"EmbeddedEventStore$Cleaner_10407" -> "EmbeddedEventStore$Node_10408" [label=2; weight=2; penwidth=0.3; color = 3]
+	"EmbeddedEventStore$EventConsumer_10409" -> "EmbeddedEventStore$1_10404" [label=3; weight=3; penwidth=0.3; color = 3]
+	"EmbeddedEventStore$Node_10408" -> "EmbeddedEventStore$1_10404" [label=2; weight=2; penwidth=0.3; color = 3]
+	"EmbeddedEventStore_10405" -> "EmbeddedEventStore$1_10404" [label=1; weight=1; penwidth=0.3; color = 3]
+	"EmbeddedEventStore$1_10404" -> "EmbeddedEventStore_10405" [label=1; weight=1; penwidth=0.3; color = 3]
 }
