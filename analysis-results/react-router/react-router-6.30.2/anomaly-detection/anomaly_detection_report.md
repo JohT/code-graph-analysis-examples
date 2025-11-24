@@ -280,3 +280,7 @@ archetypes:
 * Cluster Radius (avg, max)
 * Cluster Size
 * Node Embedding (PCA 20–35 dims)
+
+### 6.3 Architecture Diagram
+
+![Anomaly Detection Architecture](./AnomalyDetectionArchitecture.svg)
