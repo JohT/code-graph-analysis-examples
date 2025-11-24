@@ -260,43 +260,43 @@ Lists the 30 label combinations with the lowest number of nodes until they reach
     </tr>
     <tr>
       <th>1</th>
-      <td>[NPM, PublishConfig]</td>
-      <td>1</td>
-      <td>0.001837</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>[TS, Class]</td>
-      <td>1</td>
-      <td>0.001837</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>[TS, Constructor]</td>
-      <td>1</td>
-      <td>0.001837</td>
-    </tr>
-    <tr>
-      <th>4</th>
       <td>[Git, Branch]</td>
       <td>1</td>
       <td>0.001837</td>
     </tr>
     <tr>
-      <th>5</th>
-      <td>[Value, TS, ObjectMember]</td>
-      <td>1</td>
-      <td>0.001837</td>
-    </tr>
-    <tr>
-      <th>6</th>
+      <th>2</th>
       <td>[Repository, File, Git]</td>
       <td>1</td>
       <td>0.001837</td>
     </tr>
     <tr>
-      <th>7</th>
+      <th>3</th>
+      <td>[Value, TS, ObjectMember]</td>
+      <td>1</td>
+      <td>0.001837</td>
+    </tr>
+    <tr>
+      <th>4</th>
       <td>[TS, Method]</td>
+      <td>1</td>
+      <td>0.001837</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>[TS, Constructor]</td>
+      <td>1</td>
+      <td>0.001837</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>[TS, Class]</td>
+      <td>1</td>
+      <td>0.001837</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>[NPM, PublishConfig]</td>
       <td>1</td>
       <td>0.001837</td>
     </tr>
@@ -308,25 +308,25 @@ Lists the 30 label combinations with the lowest number of nodes until they reach
     </tr>
     <tr>
       <th>9</th>
-      <td>[Value, Object, TS]</td>
-      <td>3</td>
-      <td>0.005512</td>
-    </tr>
-    <tr>
-      <th>10</th>
       <td>[Type, TS, Tuple]</td>
       <td>3</td>
       <td>0.005512</td>
     </tr>
     <tr>
+      <th>10</th>
+      <td>[Value, Object, TS]</td>
+      <td>3</td>
+      <td>0.005512</td>
+    </tr>
+    <tr>
       <th>11</th>
-      <td>[Value, TS, Function]</td>
+      <td>[TS, TypeParameter]</td>
       <td>4</td>
       <td>0.007350</td>
     </tr>
     <tr>
       <th>12</th>
-      <td>[TS, TypeParameter]</td>
+      <td>[Value, TS, Function]</td>
       <td>4</td>
       <td>0.007350</td>
     </tr>
@@ -350,37 +350,37 @@ Lists the 30 label combinations with the lowest number of nodes until they reach
     </tr>
     <tr>
       <th>16</th>
-      <td>[Value, TS, Complex]</td>
-      <td>5</td>
-      <td>0.009187</td>
-    </tr>
-    <tr>
-      <th>17</th>
       <td>[Project, TS]</td>
       <td>5</td>
       <td>0.009187</td>
     </tr>
     <tr>
-      <th>18</th>
-      <td>[Value, TS, Call]</td>
-      <td>6</td>
-      <td>0.011025</td>
+      <th>17</th>
+      <td>[Value, TS, Complex]</td>
+      <td>5</td>
+      <td>0.009187</td>
     </tr>
     <tr>
-      <th>19</th>
+      <th>18</th>
       <td>[Value, TS, Member]</td>
       <td>6</td>
       <td>0.011025</td>
     </tr>
     <tr>
-      <th>20</th>
+      <th>19</th>
       <td>[Type, TS, TypeParameterReference]</td>
       <td>6</td>
       <td>0.011025</td>
     </tr>
     <tr>
-      <th>21</th>
+      <th>20</th>
       <td>[File, TS, Local, Module]</td>
+      <td>6</td>
+      <td>0.011025</td>
+    </tr>
+    <tr>
+      <th>21</th>
+      <td>[Value, TS, Call]</td>
       <td>6</td>
       <td>0.011025</td>
     </tr>
@@ -428,7 +428,7 @@ Lists the 30 label combinations with the lowest number of nodes until they reach
     </tr>
     <tr>
       <th>29</th>
-      <td>[TS, TypeAlias]</td>
+      <td>[File, Directory, Local]</td>
       <td>16</td>
       <td>0.029399</td>
     </tr>
@@ -976,13 +976,13 @@ Lists the 30 relationships type with the lowest number of occurrences up to 0.5%
   <tbody>
     <tr>
       <th>0</th>
-      <td>HAS_BRANCH</td>
+      <td>DECLARES_PUBLISH_CONFIG</td>
       <td>1</td>
       <td>0.000624</td>
     </tr>
     <tr>
       <th>1</th>
-      <td>DECLARES_PUBLISH_CONFIG</td>
+      <td>HAS_BRANCH</td>
       <td>1</td>
       <td>0.000624</td>
     </tr>
@@ -1018,19 +1018,19 @@ Lists the 30 relationships type with the lowest number of occurrences up to 0.5%
     </tr>
     <tr>
       <th>7</th>
-      <td>HAS_CONFIG</td>
-      <td>5</td>
-      <td>0.003118</td>
-    </tr>
-    <tr>
-      <th>8</th>
       <td>CONTAINS_PROJECT</td>
       <td>5</td>
       <td>0.003118</td>
     </tr>
     <tr>
+      <th>8</th>
+      <td>HAS_CONFIG</td>
+      <td>5</td>
+      <td>0.003118</td>
+    </tr>
+    <tr>
       <th>9</th>
-      <td>DECLARES_ENGINE</td>
+      <td>PARENT</td>
       <td>6</td>
       <td>0.003742</td>
     </tr>
@@ -1042,25 +1042,25 @@ Lists the 30 relationships type with the lowest number of occurrences up to 0.5%
     </tr>
     <tr>
       <th>11</th>
-      <td>CALLS</td>
-      <td>6</td>
-      <td>0.003742</td>
-    </tr>
-    <tr>
-      <th>12</th>
       <td>MEMBER</td>
       <td>6</td>
       <td>0.003742</td>
     </tr>
     <tr>
+      <th>12</th>
+      <td>DECLARES_ENGINE</td>
+      <td>6</td>
+      <td>0.003742</td>
+    </tr>
+    <tr>
       <th>13</th>
-      <td>PARENT</td>
+      <td>HAS_ARGUMENT</td>
       <td>6</td>
       <td>0.003742</td>
     </tr>
     <tr>
       <th>14</th>
-      <td>HAS_ARGUMENT</td>
+      <td>CALLS</td>
       <td>6</td>
       <td>0.003742</td>
     </tr>
