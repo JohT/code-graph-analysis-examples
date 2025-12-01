@@ -41,8 +41,8 @@ strict digraph TopBottleneck1 {
 	"PooledStreamingEventProcessor$Builder_34631"  [label = "PooledStreamingEventProcessor$\nBuilder\n(372.5)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "PooledStreamingEventProcessor$Builder_34631" [label=7; weight=7; penwidth=0.5; color = 5];
 	"SimpleQueryBus$Builder_44045"  [label = "SimpleQueryBus$\nBuilder\n(369.0)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "SimpleQueryBus$Builder_44045" [label=7; weight=7; penwidth=0.5; color = 5];
 	"AvroSerializer$Builder_45557"  [label = "AvroSerializer$\nBuilder\n(74.0)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "AvroSerializer$Builder_45557" [label=6; weight=6; penwidth=0.5; color = 5];
-	"AxonConfigurationException_19876"  [label = "AxonConfigurationException\n(565.87)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "AxonConfigurationException_19876" [label=6; weight=6; penwidth=0.5; color = 5];
-	"SimpleCommandBus$Builder_19109"  [label = "SimpleCommandBus$\nBuilder\n(439.67)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "SimpleCommandBus$Builder_19109" [label=6; weight=6; penwidth=0.5; color = 5];
+	"AxonConfigurationException_19875"  [label = "AxonConfigurationException\n(565.87)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "AxonConfigurationException_19875" [label=6; weight=6; penwidth=0.5; color = 5];
+	"SimpleCommandBus$Builder_19108"  [label = "SimpleCommandBus$\nBuilder\n(439.67)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "SimpleCommandBus$Builder_19108" [label=6; weight=6; penwidth=0.5; color = 5];
 	"TrackingEventProcessorConfiguration_30426"  [label = "TrackingEventProcessorConfiguration\n(69.0)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "TrackingEventProcessorConfiguration_30426" [label=6; weight=6; penwidth=0.5; color = 5];
 	"DeadLetteringEventHandlerInvoker$Builder_31339"  [label = "DeadLetteringEventHandlerInvoker$\nBuilder\n(483.92)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "DeadLetteringEventHandlerInvoker$Builder_31339" [label=5; weight=5; penwidth=0.5; color = 5];
 	"EmbeddedEventStore$Builder_10406"  [label = "EmbeddedEventStore$\nBuilder\n(6.0)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "EmbeddedEventStore$Builder_10406" [label=5; weight=5; penwidth=0.5; color = 5];
@@ -53,13 +53,13 @@ strict digraph TopBottleneck1 {
 	"Configurer_15772"  [label = "Configurer\n(6390.84)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "Configurer_15772" [label=4; weight=4; penwidth=0.4; color = 5];
 	"EventBusSpanFactory_26915"  [label = "EventBusSpanFactory\n(16.0)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "EventBusSpanFactory_26915" [label=4; weight=4; penwidth=0.4; color = 5];
 	"EventProcessorProperties_48291"  [label = "EventProcessorProperties\n(43.0)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "EventProcessorProperties_48291" [label=4; weight=4; penwidth=0.4; color = 5];
-	"EventStore_8296"  [label = "EventStore\n(1719.74)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "EventStore_8296" [label=4; weight=4; penwidth=0.4; color = 5];
+	"EventStore_8258"  [label = "EventStore\n(1719.74)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "EventStore_8258" [label=4; weight=4; penwidth=0.4; color = 5];
 	"QueryUpdateEmitter_43035"  [label = "QueryUpdateEmitter\n(502.08)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "QueryUpdateEmitter_43035" [label=4; weight=4; penwidth=0.4; color = 5];
 	"SimpleEventBus$Builder_29294"  [label = "SimpleEventBus$\nBuilder\n(9.33)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "SimpleEventBus$Builder_29294" [label=4; weight=4; penwidth=0.4; color = 5];
 	"SimpleQueryUpdateEmitter$Builder_44046"  [label = "SimpleQueryUpdateEmitter$\nBuilder\n(45.5)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "SimpleQueryUpdateEmitter$Builder_44046" [label=4; weight=4; penwidth=0.4; color = 5];
 	"StreamableMessageSource_29247"  [label = "StreamableMessageSource\n(512.6)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "StreamableMessageSource_29247" [label=4; weight=4; penwidth=0.4; color = 5];
 	"TagsConfigurationProperties_48477"  [label = "TagsConfigurationProperties\n(2.0)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "TagsConfigurationProperties_48477" [label=4; weight=4; penwidth=0.4; color = 5];
-	"CommandBus_19299"  [label = "CommandBus\n(1523.03)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "CommandBus_19299" [label=3; weight=3; penwidth=0.4; color = 5];
+	"CommandBus_19298"  [label = "CommandBus\n(1523.03)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "CommandBus_19298" [label=3; weight=3; penwidth=0.4; color = 5];
 	"ConditionalOnMissingQualifiedBean_48509"  [label = "ConditionalOnMissingQualifiedBean\n(41.17)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "ConditionalOnMissingQualifiedBean_48509" [label=3; weight=3; penwidth=0.4; color = 5];
 	"DefaultCommandGateway$Builder_22085"  [label = "DefaultCommandGateway$\nBuilder\n(44.0)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "DefaultCommandGateway$Builder_22085" [label=3; weight=3; penwidth=0.4; color = 5];
 	"DefaultEventGateway$Builder_34619"  [label = "DefaultEventGateway$\nBuilder\n(0.0)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "DefaultEventGateway$Builder_34619" [label=3; weight=3; penwidth=0.4; color = 5];
@@ -89,7 +89,7 @@ strict digraph TopBottleneck1 {
 	"EventProcessorProperties$ProcessorSettings_48450" -> "EventProcessorProperties$Dlq_48449" [label=6; weight=6; penwidth=0.3; color = 3]
 	"AxonServerAutoConfiguration_48481" -> "Configuration_14725" [label=5; weight=5; penwidth=0.3; color = 3]
 	"Configuration_14725" -> "Serializer_20359" [label=5; weight=5; penwidth=0.3; color = 3]
-	"Configuration_14725" -> "AxonConfigurationException_19876" [label=5; weight=5; penwidth=0.3; color = 3]
+	"Configuration_14725" -> "AxonConfigurationException_19875" [label=5; weight=5; penwidth=0.3; color = 3]
 	"InfraConfiguration_50383" -> "Configuration_14725" [label=5; weight=5; penwidth=0.3; color = 3]
 	"InterceptorAutoConfiguration_50378" -> "EventProcessingConfigurer_14755" [label=5; weight=5; penwidth=0.3; color = 3]
 	"TrackingEventProcessorConfiguration_30426" -> "StreamableMessageSource_29247" [label=5; weight=5; penwidth=0.3; color = 3]
@@ -97,44 +97,44 @@ strict digraph TopBottleneck1 {
 	"AxonServerAutoConfiguration_48481" -> "EventProcessorProperties_48291" [label=4; weight=4; penwidth=0.3; color = 3]
 	"AxonServerBusAutoConfiguration_49284" -> "EventBusSpanFactory_26915" [label=4; weight=4; penwidth=0.3; color = 3]
 	"Configurer_15772" -> "Serializer_20359" [label=4; weight=4; penwidth=0.3; color = 3]
-	"EventProcessingConfigurer_14755" -> "AxonConfigurationException_19876" [label=4; weight=4; penwidth=0.3; color = 3]
+	"EventProcessingConfigurer_14755" -> "AxonConfigurationException_19875" [label=4; weight=4; penwidth=0.3; color = 3]
 	"JdbcAutoConfiguration_49282" -> "Configuration_14725" [label=4; weight=4; penwidth=0.3; color = 3]
 	"AvroSerializer$Builder_45557" -> "RevisionResolver_44660" [label=3; weight=3; penwidth=0.3; color = 3]
 	"AvroSerializer$Builder_45557" -> "Serializer_20359" [label=3; weight=3; penwidth=0.3; color = 3]
 	"AxonServerAutoConfiguration_48481" -> "EventProcessorProperties$Mode_48451" [label=3; weight=3; penwidth=0.3; color = 3]
-	"Configuration_14725" -> "EventStore_8296" [label=3; weight=3; penwidth=0.3; color = 3]
-	"Configuration_14725" -> "QueryBus_41975" [label=3; weight=3; penwidth=0.3; color = 3]
-	"Configuration_14725" -> "CommandBus_19299" [label=3; weight=3; penwidth=0.3; color = 3]
-	"Configuration_14725" -> "QueryUpdateEmitter_43035" [label=3; weight=3; penwidth=0.3; color = 3]
 	"Configuration_14725" -> "EventBus_26917" [label=3; weight=3; penwidth=0.3; color = 3]
+	"Configuration_14725" -> "QueryUpdateEmitter_43035" [label=3; weight=3; penwidth=0.3; color = 3]
+	"Configuration_14725" -> "CommandBus_19298" [label=3; weight=3; penwidth=0.3; color = 3]
+	"Configuration_14725" -> "EventStore_8258" [label=3; weight=3; penwidth=0.3; color = 3]
+	"Configuration_14725" -> "QueryBus_41975" [label=3; weight=3; penwidth=0.3; color = 3]
 	"Configurer_15772" -> "EventBus_26917" [label=3; weight=3; penwidth=0.3; color = 3]
 	"Configurer_15772" -> "EventProcessingConfigurer_14755" [label=3; weight=3; penwidth=0.3; color = 3]
 	"DefaultQueryGateway$Builder_41997" -> "QueryBus_41975" [label=3; weight=3; penwidth=0.3; color = 3]
 	"EventProcessingConfigurer_14755" -> "TrackingEventProcessorConfiguration_30426" [label=3; weight=3; penwidth=0.3; color = 3]
 	"EventProcessorProperties_48291" -> "EventProcessorProperties$ProcessorSettings_48450" [label=3; weight=3; penwidth=0.3; color = 3]
 	"InterceptorAutoConfiguration_50378" -> "QueryBus_41975" [label=3; weight=3; penwidth=0.3; color = 3]
-	"InterceptorAutoConfiguration_50378" -> "CommandBus_19299" [label=3; weight=3; penwidth=0.3; color = 3]
+	"InterceptorAutoConfiguration_50378" -> "CommandBus_19298" [label=3; weight=3; penwidth=0.3; color = 3]
 	"JacksonSerializer$Builder_45567" -> "RevisionResolver_44660" [label=3; weight=3; penwidth=0.3; color = 3]
 	"JavaSerializer$Builder_44552" -> "RevisionResolver_44660" [label=3; weight=3; penwidth=0.3; color = 3]
 	"JdbcAutoConfiguration_49282" -> "EventStorageEngine_9290" [label=3; weight=3; penwidth=0.3; color = 3]
-	"JdbcAutoConfiguration_49282" -> "EventStore_8296" [label=3; weight=3; penwidth=0.3; color = 3]
+	"JdbcAutoConfiguration_49282" -> "EventStore_8258" [label=3; weight=3; penwidth=0.3; color = 3]
 	"JpaEventStoreAutoConfiguration_48522" -> "Configuration_14725" [label=3; weight=3; penwidth=0.3; color = 3]
 	"JpaJavaxEventStoreAutoConfiguration_50380" -> "Configuration_14725" [label=3; weight=3; penwidth=0.3; color = 3]
 	"SimpleQueryBus$Builder_44045" -> "SimpleQueryUpdateEmitter$Builder_44046" [label=3; weight=3; penwidth=0.3; color = 3]
 	"SimpleQueryBus$Builder_44045" -> "QueryUpdateEmitter_43035" [label=3; weight=3; penwidth=0.3; color = 3]
 	"AvroSerializer$Builder_45557" -> "ChainingConverter_44557" [label=2; weight=2; penwidth=0.3; color = 3]
 	"AxonServerAutoConfiguration_48481" -> "EventProcessorProperties$Dlq_48449" [label=2; weight=2; penwidth=0.3; color = 3]
-	"AxonServerBusAutoConfiguration_49284" -> "CommandBus_19299" [label=2; weight=2; penwidth=0.3; color = 3]
+	"AxonServerBusAutoConfiguration_49284" -> "CommandBus_19298" [label=2; weight=2; penwidth=0.3; color = 3]
 	"AxonServerBusAutoConfiguration_49284" -> "QueryBus_41975" [label=2; weight=2; penwidth=0.3; color = 3]
 	"AxonServerBusAutoConfiguration_49284" -> "QueryUpdateEmitter_43035" [label=2; weight=2; penwidth=0.3; color = 3]
 	"AxonTracingAutoConfiguration_48484" -> "Configurer_15772" [label=2; weight=2; penwidth=0.3; color = 3]
 	"AxonTracingAutoConfiguration_48484" -> "Configuration_14725" [label=2; weight=2; penwidth=0.3; color = 3]
 	"AxonTracingAutoConfiguration_48484" -> "EventBusSpanFactory_26915" [label=2; weight=2; penwidth=0.3; color = 3]
-	"Configurer_15772" -> "QueryUpdateEmitter_43035" [label=2; weight=2; penwidth=0.3; color = 3]
-	"Configurer_15772" -> "AxonConfigurationException_19876" [label=2; weight=2; penwidth=0.3; color = 3]
-	"Configurer_15772" -> "CommandBus_19299" [label=2; weight=2; penwidth=0.3; color = 3]
 	"Configurer_15772" -> "QueryBus_41975" [label=2; weight=2; penwidth=0.3; color = 3]
-	"DefaultCommandGateway$Builder_22085" -> "CommandBus_19299" [label=2; weight=2; penwidth=0.3; color = 3]
+	"Configurer_15772" -> "CommandBus_19298" [label=2; weight=2; penwidth=0.3; color = 3]
+	"Configurer_15772" -> "QueryUpdateEmitter_43035" [label=2; weight=2; penwidth=0.3; color = 3]
+	"Configurer_15772" -> "AxonConfigurationException_19875" [label=2; weight=2; penwidth=0.3; color = 3]
+	"DefaultCommandGateway$Builder_22085" -> "CommandBus_19298" [label=2; weight=2; penwidth=0.3; color = 3]
 	"DefaultEventGateway$Builder_34619" -> "EventBus_26917" [label=2; weight=2; penwidth=0.3; color = 3]
 	"EmbeddedEventStore$Builder_10406" -> "EventBusSpanFactory_26915" [label=2; weight=2; penwidth=0.3; color = 3]
 	"EmbeddedEventStore$Builder_10406" -> "EventStorageEngine_9290" [label=2; weight=2; penwidth=0.3; color = 3]
@@ -145,50 +145,50 @@ strict digraph TopBottleneck1 {
 	"JpaJavaxEventStoreAutoConfiguration_50380" -> "EventStorageEngine_9290" [label=2; weight=2; penwidth=0.3; color = 3]
 	"JpaJavaxEventStoreAutoConfiguration_50380" -> "Serializer_20359" [label=2; weight=2; penwidth=0.3; color = 3]
 	"SimpleEventBus$Builder_29294" -> "EventBusSpanFactory_26915" [label=2; weight=2; penwidth=0.3; color = 3]
-	"XStreamSerializer$Builder_46871" -> "AxonConfigurationException_19876" [label=2; weight=2; penwidth=0.3; color = 3]
+	"XStreamSerializer$Builder_46871" -> "AxonConfigurationException_19875" [label=2; weight=2; penwidth=0.3; color = 3]
 	"XStreamSerializer$Builder_46871" -> "RevisionResolver_44660" [label=2; weight=2; penwidth=0.3; color = 3]
-	"AvroSerializer$Builder_45557" -> "AxonConfigurationException_19876" [label=1; weight=1; penwidth=0.3; color = 3]
+	"AvroSerializer$Builder_45557" -> "AxonConfigurationException_19875" [label=1; weight=1; penwidth=0.3; color = 3]
 	"AxonServerAutoConfiguration_48481" -> "Serializer_20359" [label=1; weight=1; penwidth=0.3; color = 3]
 	"AxonServerAutoConfiguration_48481" -> "TagsConfigurationProperties_48477" [label=1; weight=1; penwidth=0.3; color = 3]
 	"AxonServerAutoConfiguration_48481" -> "ConditionalOnMissingQualifiedBean_48509" [label=1; weight=1; penwidth=0.3; color = 3]
-	"AxonServerBusAutoConfiguration_49284" -> "EventStore_8296" [label=1; weight=1; penwidth=0.3; color = 3]
+	"AxonServerBusAutoConfiguration_49284" -> "EventStore_8258" [label=1; weight=1; penwidth=0.3; color = 3]
 	"AxonServerBusAutoConfiguration_49284" -> "AxonServerAutoConfiguration_48481" [label=1; weight=1; penwidth=0.3; color = 3]
 	"AxonServerBusAutoConfiguration_49284" -> "ConditionalOnMissingQualifiedBean_48509" [label=1; weight=1; penwidth=0.3; color = 3]
 	"AxonTracingAutoConfiguration_48484" -> "AxonServerAutoConfiguration_48481" [label=1; weight=1; penwidth=0.3; color = 3]
 	"CBORMapperAutoConfiguration_50374" -> "SerializerProperties_49267" [label=1; weight=1; penwidth=0.3; color = 3]
+	"Configurer_15772" -> "EventStore_8258" [label=1; weight=1; penwidth=0.3; color = 3]
 	"Configurer_15772" -> "EventStorageEngine_9290" [label=1; weight=1; penwidth=0.3; color = 3]
-	"Configurer_15772" -> "EventStore_8296" [label=1; weight=1; penwidth=0.3; color = 3]
-	"DefaultQueryGateway$Builder_41997" -> "AxonConfigurationException_19876" [label=1; weight=1; penwidth=0.3; color = 3]
-	"EmbeddedEventStore$Builder_10406" -> "AxonConfigurationException_19876" [label=1; weight=1; penwidth=0.3; color = 3]
+	"DefaultQueryGateway$Builder_41997" -> "AxonConfigurationException_19875" [label=1; weight=1; penwidth=0.3; color = 3]
+	"EmbeddedEventStore$Builder_10406" -> "AxonConfigurationException_19875" [label=1; weight=1; penwidth=0.3; color = 3]
 	"EventProcessorProperties_48291" -> "EventProcessorProperties$Mode_48451" [label=1; weight=1; penwidth=0.3; color = 3]
 	"EventProcessorProperties_48291" -> "EventProcessorProperties$Dlq_48449" [label=1; weight=1; penwidth=0.3; color = 3]
 	"EventProcessorProperties_48291" -> "EventProcessorProperties$DlqCache_48448" [label=1; weight=1; penwidth=0.3; color = 3]
-	"EventStore_8296" -> "EventBus_26917" [label=1; weight=1; penwidth=0.3; color = 3]
-	"EventStore_8296" -> "StreamableMessageSource_29247" [label=1; weight=1; penwidth=0.3; color = 3]
+	"EventStore_8258" -> "EventBus_26917" [label=1; weight=1; penwidth=0.3; color = 3]
+	"EventStore_8258" -> "StreamableMessageSource_29247" [label=1; weight=1; penwidth=0.3; color = 3]
 	"InfraConfiguration_50383" -> "JpaEventStoreAutoConfiguration_48522" [label=1; weight=1; penwidth=0.3; color = 3]
 	"InfraConfiguration_50383" -> "NoOpTransactionAutoConfiguration_49279" [label=1; weight=1; penwidth=0.3; color = 3]
 	"InterceptorAutoConfiguration_50378" -> "Configuration_14725" [label=1; weight=1; penwidth=0.3; color = 3]
 	"InterceptorAutoConfiguration_50378" -> "NoOpTransactionAutoConfiguration_49279" [label=1; weight=1; penwidth=0.3; color = 3]
 	"InterceptorAutoConfiguration_50378" -> "JpaEventStoreAutoConfiguration_48522" [label=1; weight=1; penwidth=0.3; color = 3]
-	"JacksonSerializer$Builder_45567" -> "AxonConfigurationException_19876" [label=1; weight=1; penwidth=0.3; color = 3]
-	"JavaSerializer$Builder_44552" -> "AxonConfigurationException_19876" [label=1; weight=1; penwidth=0.3; color = 3]
+	"JacksonSerializer$Builder_45567" -> "AxonConfigurationException_19875" [label=1; weight=1; penwidth=0.3; color = 3]
+	"JavaSerializer$Builder_44552" -> "AxonConfigurationException_19875" [label=1; weight=1; penwidth=0.3; color = 3]
 	"JdbcAutoConfiguration_49282" -> "EventBus_26917" [label=1; weight=1; penwidth=0.3; color = 3]
 	"JdbcAutoConfiguration_49282" -> "JpaEventStoreAutoConfiguration_48522" [label=1; weight=1; penwidth=0.3; color = 3]
 	"JdbcAutoConfiguration_49282" -> "EventProcessorProperties_48291" [label=1; weight=1; penwidth=0.3; color = 3]
-	"JpaEventStoreAutoConfiguration_48522" -> "EventStore_8296" [label=1; weight=1; penwidth=0.3; color = 3]
+	"JpaEventStoreAutoConfiguration_48522" -> "EventStore_8258" [label=1; weight=1; penwidth=0.3; color = 3]
 	"JpaEventStoreAutoConfiguration_48522" -> "AxonServerBusAutoConfiguration_49284" [label=1; weight=1; penwidth=0.3; color = 3]
 	"JpaEventStoreAutoConfiguration_48522" -> "EventBus_26917" [label=1; weight=1; penwidth=0.3; color = 3]
 	"JpaJavaxEventStoreAutoConfiguration_50380" -> "AxonServerBusAutoConfiguration_49284" [label=1; weight=1; penwidth=0.3; color = 3]
 	"JpaJavaxEventStoreAutoConfiguration_50380" -> "JdbcAutoConfiguration_49282" [label=1; weight=1; penwidth=0.3; color = 3]
 	"JpaJavaxEventStoreAutoConfiguration_50380" -> "JpaEventStoreAutoConfiguration_48522" [label=1; weight=1; penwidth=0.3; color = 3]
-	"JpaJavaxEventStoreAutoConfiguration_50380" -> "EventStore_8296" [label=1; weight=1; penwidth=0.3; color = 3]
+	"JpaJavaxEventStoreAutoConfiguration_50380" -> "EventStore_8258" [label=1; weight=1; penwidth=0.3; color = 3]
 	"JpaJavaxEventStoreAutoConfiguration_50380" -> "EventBus_26917" [label=1; weight=1; penwidth=0.3; color = 3]
 	"MetricsAutoConfiguration_50381" -> "MicrometerMetricsAutoConfiguration_49676" [label=1; weight=1; penwidth=0.3; color = 3]
 	"MicrometerMetricsAutoConfiguration_49676" -> "MetricsAutoConfiguration_50381" [label=1; weight=1; penwidth=0.3; color = 3]
 	"ObjectMapperAutoConfiguration_50377" -> "SerializerProperties_49267" [label=1; weight=1; penwidth=0.3; color = 3]
 	"OpenTelemetryAutoConfiguration_49275" -> "AxonTracingAutoConfiguration_48484" [label=1; weight=1; penwidth=0.3; color = 3]
-	"PooledStreamingEventProcessor$Builder_34631" -> "AxonConfigurationException_19876" [label=1; weight=1; penwidth=0.3; color = 3]
+	"PooledStreamingEventProcessor$Builder_34631" -> "AxonConfigurationException_19875" [label=1; weight=1; penwidth=0.3; color = 3]
 	"QueryBus_41975" -> "QueryUpdateEmitter_43035" [label=1; weight=1; penwidth=0.3; color = 3]
-	"SimpleEventBus$Builder_29294" -> "AxonConfigurationException_19876" [label=1; weight=1; penwidth=0.3; color = 3]
-	"SimpleQueryBus$Builder_44045" -> "AxonConfigurationException_19876" [label=1; weight=1; penwidth=0.3; color = 3]
+	"SimpleEventBus$Builder_29294" -> "AxonConfigurationException_19875" [label=1; weight=1; penwidth=0.3; color = 3]
+	"SimpleQueryBus$Builder_44045" -> "AxonConfigurationException_19875" [label=1; weight=1; penwidth=0.3; color = 3]
 }

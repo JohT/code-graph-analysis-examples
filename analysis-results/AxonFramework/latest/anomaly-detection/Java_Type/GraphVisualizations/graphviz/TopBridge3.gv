@@ -12,9 +12,33 @@ strict digraph TopBridge3 {
     central [fontsize = 16;];
     central [color = 7; fillcolor = 5; penwidth = 3;];
 
-	graph   [label="Top Rank #3 Java Type Bridge\norg.axonframework.springboot.autoconfig.CBORMapperAutoConfiguration\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
-	central [label="🌉 bridge #3\nCBORMapperAutoConfiguration"];
-	"AxonAutoConfiguration_49276" [label = "AxonAutoConfiguration"; color = 5; fillcolor = 1; ]; central -> "AxonAutoConfiguration_49276" [label=1; weight=1; penwidth=0.4; color = 5];
-	"SerializerProperties_49267" [label = "SerializerProperties"; color = 5; fillcolor = 1; ]; central -> "SerializerProperties_49267" [label=1; weight=1; penwidth=0.4; color = 5];
-	"AxonAutoConfiguration_49276" -> "SerializerProperties_49267" [label=16; weight=16; penwidth=0.3; color = 3]
+	graph   [label="Top Rank #3 Java Type Bridge\norg.axonframework.eventsourcing.eventstore.legacyjpa.EmbeddedEventStore$Node\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
+	central [label="🌉 bridge #3\nEmbeddedEventStore$Node"];
+	"EmbeddedEventStore$EventConsumer_12524" [label = "EmbeddedEventStore$\nEventConsumer"; ]; "EmbeddedEventStore$EventConsumer_12524" -> central [label=13; weight=13; penwidth=0.5];
+	"EmbeddedEventStore$EventProducer_12525" [label = "EmbeddedEventStore$\nEventProducer"; ]; "EmbeddedEventStore$EventProducer_12525" -> central [label=10; weight=10; penwidth=0.5];
+	"EmbeddedEventStore_12536" [label = "EmbeddedEventStore"; ]; "EmbeddedEventStore_12536" -> central [label=9; weight=9; penwidth=0.5];
+	"EmbeddedEventStore$Cleaner_12522" [label = "EmbeddedEventStore$\nCleaner"; ]; "EmbeddedEventStore$Cleaner_12522" -> central [label=2; weight=2; penwidth=0.4];
+	"TrackedEventMessage_28185" [label = "TrackedEventMessage"; color = 5; fillcolor = 1; ]; central -> "TrackedEventMessage_28185" [label=4; weight=4; penwidth=0.4; color = 5];
+	"TrackingToken_28184" [label = "TrackingToken"; color = 5; fillcolor = 1; ]; central -> "TrackingToken_28184" [label=4; weight=4; penwidth=0.4; color = 5];
+	"EmbeddedEventStore$1_12535" [label = "EmbeddedEventStore$\n1"; color = 5; fillcolor = 1; ]; central -> "EmbeddedEventStore$1_12535" [label=2; weight=2; penwidth=0.4; color = 5];
+	"EmbeddedEventStore$EventConsumer_12524" -> "EmbeddedEventStore_12536" [label=25; weight=25; penwidth=0.3; color = 3]
+	"EmbeddedEventStore$EventProducer_12525" -> "EmbeddedEventStore_12536" [label=15; weight=15; penwidth=0.3; color = 3]
+	"EmbeddedEventStore$EventConsumer_12524" -> "TrackedEventMessage_28185" [label=14; weight=14; penwidth=0.3; color = 3]
+	"EmbeddedEventStore_12536" -> "EmbeddedEventStore$EventConsumer_12524" [label=6; weight=6; penwidth=0.3; color = 3]
+	"EmbeddedEventStore_12536" -> "EmbeddedEventStore$EventProducer_12525" [label=6; weight=6; penwidth=0.3; color = 3]
+	"EmbeddedEventStore$Cleaner_12522" -> "EmbeddedEventStore_12536" [label=6; weight=6; penwidth=0.3; color = 3]
+	"EmbeddedEventStore$Cleaner_12522" -> "EmbeddedEventStore$EventConsumer_12524" [label=5; weight=5; penwidth=0.3; color = 3]
+	"EmbeddedEventStore$EventConsumer_12524" -> "TrackingToken_28184" [label=5; weight=5; penwidth=0.3; color = 3]
+	"EmbeddedEventStore_12536" -> "TrackingToken_28184" [label=4; weight=4; penwidth=0.3; color = 3]
+	"EmbeddedEventStore_12536" -> "EmbeddedEventStore$Cleaner_12522" [label=3; weight=3; penwidth=0.3; color = 3]
+	"EmbeddedEventStore$EventConsumer_12524" -> "EmbeddedEventStore$1_12535" [label=3; weight=3; penwidth=0.3; color = 3]
+	"EmbeddedEventStore$EventProducer_12525" -> "TrackingToken_28184" [label=3; weight=3; penwidth=0.3; color = 3]
+	"EmbeddedEventStore$EventProducer_12525" -> "TrackedEventMessage_28185" [label=3; weight=3; penwidth=0.3; color = 3]
+	"EmbeddedEventStore$EventProducer_12525" -> "EmbeddedEventStore$EventConsumer_12524" [label=3; weight=3; penwidth=0.3; color = 3]
+	"EmbeddedEventStore$Cleaner_12522" -> "EmbeddedEventStore$1_12535" [label=2; weight=2; penwidth=0.3; color = 3]
+	"EmbeddedEventStore$EventProducer_12525" -> "EmbeddedEventStore$1_12535" [label=2; weight=2; penwidth=0.3; color = 3]
+	"TrackedEventMessage_28185" -> "TrackingToken_28184" [label=2; weight=2; penwidth=0.3; color = 3]
+	"EmbeddedEventStore_12536" -> "TrackedEventMessage_28185" [label=1; weight=1; penwidth=0.3; color = 3]
+	"EmbeddedEventStore_12536" -> "EmbeddedEventStore$1_12535" [label=1; weight=1; penwidth=0.3; color = 3]
+	"EmbeddedEventStore$1_12535" -> "EmbeddedEventStore_12536" [label=1; weight=1; penwidth=0.3; color = 3]
 }
