@@ -1,6 +1,6 @@
 ---
 title: "Anomaly Detection Report"
-generated: "2025-11-24"
+generated: "2025-12-01"
 model_version: ""
 dataset: "react-router-6.30.2"
 authors: ["JohT/code-graph-analysis-pipeline"]
