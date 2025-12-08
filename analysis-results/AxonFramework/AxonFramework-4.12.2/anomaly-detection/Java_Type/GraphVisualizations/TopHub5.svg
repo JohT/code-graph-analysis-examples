@@ -50,14 +50,14 @@
 <text xml:space="preserve" text-anchor="middle" x="668.58" y="-367.59" font-family="Times,serif" font-size="4.00">7</text>
 </g>
 <!-- AggregateTestFixture_40&#45;&gt;AggregateAnnotationCommandHandler_53944 -->
-<g id="edge42" class="edge">
+<g id="edge41" class="edge">
 <title>AggregateTestFixture_40&#45;&gt;AggregateAnnotationCommandHandler_53944</title>
 <path fill="none" stroke="#ccece6" stroke-width="0.3" d="M513.74,-263.44C473.84,-277.33 418.76,-296.52 374.01,-312.1"/>
 <polygon fill="#ccece6" stroke="#ccece6" stroke-width="0.3" points="373.74,-310.72 370.42,-313.35 374.66,-313.36 373.74,-310.72"/>
 <text xml:space="preserve" text-anchor="middle" x="440.69" y="-289.73" font-family="Times,serif" font-size="4.00">2</text>
 </g>
 <!-- AggregateTestFixture_40&#45;&gt;GenericAggregateFactory_9447 -->
-<g id="edge41" class="edge">
+<g id="edge42" class="edge">
 <title>AggregateTestFixture_40&#45;&gt;GenericAggregateFactory_9447</title>
 <path fill="none" stroke="#ccece6" stroke-width="0.3" d="M590.09,-213.93C618.36,-175.68 666.4,-110.67 696.01,-70.61"/>
 <polygon fill="#ccece6" stroke="#ccece6" stroke-width="0.3" points="696.94,-71.7 698.2,-67.65 694.69,-70.04 696.94,-71.7"/>
@@ -175,9 +175,9 @@
 <polygon fill="#ccece6" stroke="#ccece6" stroke-width="0.3" points="1131.75,-765.19 1135.63,-766.9 1133.66,-763.14 1131.75,-765.19"/>
 <text xml:space="preserve" text-anchor="middle" x="1127.07" y="-761.03" font-family="Times,serif" font-size="4.00">3</text>
 </g>
-<!-- LifecycleHandlerInspector_14208&#45;&gt;central -->
+<!-- LifecycleHandlerInspector_14023&#45;&gt;central -->
 <g id="edge11" class="edge">
-<title>LifecycleHandlerInspector_14208&#45;&gt;central</title>
+<title>LifecycleHandlerInspector_14023&#45;&gt;central</title>
 <path fill="none" stroke="#238b45" stroke-width="0.4" d="M518.43,-650.43C573.27,-623.95 660.29,-581.92 722.24,-552"/>
 <polygon fill="#238b45" stroke="#238b45" stroke-width="0.4" points="722.74,-553.31 725.74,-550.31 721.52,-550.79 722.74,-553.31"/>
 <text xml:space="preserve" text-anchor="middle" x="621.36" y="-601.44" font-family="Times,serif" font-size="4.00">2</text>
@@ -430,9 +430,9 @@
 <text xml:space="preserve" text-anchor="middle" x="1089.36" y="-727.22" font-family="Times,serif" font-size="12.00">InstanceResponseType</text>
 <text xml:space="preserve" text-anchor="middle" x="1089.36" y="-712.82" font-family="Times,serif" font-size="12.00">(0.5)</text>
 </g>
-<!-- LifecycleHandlerInspector_14208 -->
+<!-- LifecycleHandlerInspector_14023 -->
 <g id="node12" class="node">
-<title>LifecycleHandlerInspector_14208</title>
+<title>LifecycleHandlerInspector_14023</title>
 <ellipse fill="#ccece6" stroke="#41ae76" stroke-width="2" cx="466.63" cy="-675.45" rx="77.32" ry="32.4"/>
 <text xml:space="preserve" text-anchor="middle" x="466.63" y="-679.05" font-family="Times,serif" font-size="12.00">LifecycleHandlerInspector</text>
 <text xml:space="preserve" text-anchor="middle" x="466.63" y="-664.65" font-family="Times,serif" font-size="12.00">(0.12)</text>

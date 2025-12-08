@@ -19,15 +19,15 @@ strict digraph TopHub3 {
 	"OpenTelemetrySpanFactory_13336"  [label = "OpenTelemetrySpanFactory\n(0.36)"; penwidth = 2; ]; "OpenTelemetrySpanFactory_13336" -> central [label=12; weight=12; penwidth=0.5];
 	"AnnotatedMessageHandlingMember_38850"  [label = "AnnotatedMessageHandlingMember\n(0.16)"; penwidth = 2; ]; "AnnotatedMessageHandlingMember_38850" -> central [label=11; weight=11; penwidth=0.5];
 	"MultiSpanFactory_46878"  [label = "MultiSpanFactory\n(0.5)"; penwidth = 2; ]; "MultiSpanFactory_46878" -> central [label=11; weight=11; penwidth=0.5];
-	"GenericCommandMessage_19178"  [label = "GenericCommandMessage\n(0.35)"; penwidth = 2; ]; "GenericCommandMessage_19178" -> central [label=10; weight=10; penwidth=0.5];
-	"MessageDecorator_19150"  [label = "MessageDecorator\n(0.44)"; penwidth = 2; ]; "MessageDecorator_19150" -> central [label=10; weight=10; penwidth=0.5];
-	"SpanFactory_19118"  [label = "SpanFactory\n(0.08)"; penwidth = 2; ]; "SpanFactory_19118" -> central [label=10; weight=10; penwidth=0.5];
-	"GenericResultMessage_19154"  [label = "GenericResultMessage\n(0.34)"; penwidth = 2; ]; "GenericResultMessage_19154" -> central [label=9; weight=9; penwidth=0.5];
+	"GenericCommandMessage_19177"  [label = "GenericCommandMessage\n(0.35)"; penwidth = 2; ]; "GenericCommandMessage_19177" -> central [label=10; weight=10; penwidth=0.5];
+	"MessageDecorator_19149"  [label = "MessageDecorator\n(0.44)"; penwidth = 2; ]; "MessageDecorator_19149" -> central [label=10; weight=10; penwidth=0.5];
+	"SpanFactory_19117"  [label = "SpanFactory\n(0.08)"; penwidth = 2; ]; "SpanFactory_19117" -> central [label=10; weight=10; penwidth=0.5];
+	"GenericResultMessage_19153"  [label = "GenericResultMessage\n(0.34)"; penwidth = 2; ]; "GenericResultMessage_19153" -> central [label=9; weight=9; penwidth=0.5];
 	"InMemorySequencedDeadLetterQueue_39897"  [label = "InMemorySequencedDeadLetterQueue\n(0.29)"; penwidth = 2; ]; "InMemorySequencedDeadLetterQueue_39897" -> central [label=9; weight=9; penwidth=0.5];
 	"BatchingUnitOfWork_28180"  [label = "BatchingUnitOfWork\n(0.27)"; penwidth = 2; ]; "BatchingUnitOfWork_28180" -> central [label=8; weight=8; penwidth=0.5];
 	"Decisions_31502"  [label = "Decisions\n(0.36)"; penwidth = 2; ]; "Decisions_31502" -> central [label=8; weight=8; penwidth=0.5];
 	"DefaultQueryBusSpanFactory_41996"  [label = "DefaultQueryBusSpanFactory\n(0.42)"; penwidth = 2; ]; "DefaultQueryBusSpanFactory_41996" -> central [label=8; weight=8; penwidth=0.5];
-	"GenericCommandResultMessage_19179"  [label = "GenericCommandResultMessage\n(0.12)"; penwidth = 2; ]; "GenericCommandResultMessage_19179" -> central [label=8; weight=8; penwidth=0.5];
+	"GenericCommandResultMessage_19178"  [label = "GenericCommandResultMessage\n(0.12)"; penwidth = 2; ]; "GenericCommandResultMessage_19178" -> central [label=8; weight=8; penwidth=0.5];
 	"GenericEventMessage_26235"  [label = "GenericEventMessage\n(0.11)"; penwidth = 2; ]; "GenericEventMessage_26235" -> central [label=8; weight=8; penwidth=0.5];
 	"AnnotatedAggregate_55333"  [label = "AnnotatedAggregate\n(0.13)"; penwidth = 2; ]; "AnnotatedAggregate_55333" -> central [label=7; weight=7; penwidth=0.5];
 	"AnnotationCommandTargetResolver_54572"  [label = "AnnotationCommandTargetResolver\n(0.21)"; penwidth = 2; ]; "AnnotationCommandTargetResolver_54572" -> central [label=7; weight=7; penwidth=0.5];
@@ -56,64 +56,64 @@ strict digraph TopHub3 {
 	"AbstractMessage_37717"  [label = "AbstractMessage\n(1.0)"; penwidth = 2; ]; "AbstractMessage_37717" -> central [label=4; weight=4; penwidth=0.4];
 	"Serializer_20359"  [label = "Serializer\n(0.04)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "Serializer_20359" [label=4; weight=4; penwidth=0.4; color = 5];
 	"SerializedObject_20360"  [label = "SerializedObject\n(0.08)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "SerializedObject_20360" [label=2; weight=2; penwidth=0.4; color = 5];
-	"MetaData_19151"  [label = "MetaData\n(0.04)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "MetaData_19151" [label=1; weight=1; penwidth=0.4; color = 5];
-	"MultiSpanFactory_46878" -> "SpanFactory_19118" [label=17; weight=17; penwidth=0.3; color = 3]
-	"DefaultQueryBusSpanFactory_41996" -> "SpanFactory_19118" [label=15; weight=15; penwidth=0.3; color = 3]
-	"BatchingUnitOfWork_28180" -> "GenericResultMessage_19154" [label=11; weight=11; penwidth=0.3; color = 3]
-	"NestingSpanFactory_46857" -> "SpanFactory_19118" [label=10; weight=10; penwidth=0.3; color = 3]
-	"GenericCommandResultMessage_19179" -> "GenericResultMessage_19154" [label=9; weight=9; penwidth=0.3; color = 3]
+	"MetaData_19150"  [label = "MetaData\n(0.04)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "MetaData_19150" [label=1; weight=1; penwidth=0.4; color = 5];
+	"MultiSpanFactory_46878" -> "SpanFactory_19117" [label=17; weight=17; penwidth=0.3; color = 3]
+	"DefaultQueryBusSpanFactory_41996" -> "SpanFactory_19117" [label=15; weight=15; penwidth=0.3; color = 3]
+	"BatchingUnitOfWork_28180" -> "GenericResultMessage_19153" [label=11; weight=11; penwidth=0.3; color = 3]
+	"NestingSpanFactory_46857" -> "SpanFactory_19117" [label=10; weight=10; penwidth=0.3; color = 3]
+	"GenericCommandResultMessage_19178" -> "GenericResultMessage_19153" [label=9; weight=9; penwidth=0.3; color = 3]
 	"SerializedObjectHolder_37784" -> "Serializer_20359" [label=9; weight=9; penwidth=0.3; color = 3]
 	"DefaultQueryBusSpanFactory_41996" -> "QueryMessage_40755" [label=8; weight=8; penwidth=0.3; color = 3]
-	"DefaultUnitOfWork_20380" -> "GenericResultMessage_19154" [label=8; weight=8; penwidth=0.3; color = 3]
+	"DefaultUnitOfWork_20380" -> "GenericResultMessage_19153" [label=8; weight=8; penwidth=0.3; color = 3]
 	"GenericDeadlineMessage_26264" -> "GenericEventMessage_26235" [label=8; weight=8; penwidth=0.3; color = 3]
-	"GenericQueryResponseMessage_41983" -> "GenericResultMessage_19154" [label=8; weight=8; penwidth=0.3; color = 3]
+	"GenericQueryResponseMessage_41983" -> "GenericResultMessage_19153" [label=8; weight=8; penwidth=0.3; color = 3]
 	"SerializedObjectHolder_37784" -> "SerializedObject_20360" [label=8; weight=8; penwidth=0.3; color = 3]
 	"AggregateTestFixture_40" -> "DefaultUnitOfWork_20380" [label=7; weight=7; penwidth=0.3; color = 3]
 	"GenericDomainEventMessage_27791" -> "GenericEventMessage_26235" [label=6; weight=6; penwidth=0.3; color = 3]
-	"GenericSubscriptionQueryUpdateMessage_42170" -> "GenericResultMessage_19154" [label=6; weight=6; penwidth=0.3; color = 3]
+	"GenericSubscriptionQueryUpdateMessage_42170" -> "GenericResultMessage_19153" [label=6; weight=6; penwidth=0.3; color = 3]
 	"GenericTrackedDomainEventMessage_27790" -> "GenericDomainEventMessage_27791" [label=6; weight=6; penwidth=0.3; color = 3]
-	"AbstractMessage_37717" -> "MetaData_19151" [label=4; weight=4; penwidth=0.3; color = 3]
+	"AbstractMessage_37717" -> "MetaData_19150" [label=4; weight=4; penwidth=0.3; color = 3]
 	"AggregateTestFixture_40" -> "GenericEventMessage_26235" [label=4; weight=4; penwidth=0.3; color = 3]
-	"AnnotatedAggregate_55333" -> "MetaData_19151" [label=4; weight=4; penwidth=0.3; color = 3]
-	"GenericResultMessage_19154" -> "MessageDecorator_19150" [label=4; weight=4; penwidth=0.3; color = 3]
-	"DefaultParameterResolverFactory$AnnotatedMetaDataParameterResolver_38823" -> "MetaData_19151" [label=3; weight=3; penwidth=0.3; color = 3]
-	"GenericCommandMessage_19178" -> "MessageDecorator_19150" [label=3; weight=3; penwidth=0.3; color = 3]
-	"GenericDomainEventMessage_27791" -> "MetaData_19151" [label=3; weight=3; penwidth=0.3; color = 3]
-	"GenericEventMessage_26235" -> "MessageDecorator_19150" [label=3; weight=3; penwidth=0.3; color = 3]
-	"GenericEventMessage_26235" -> "MetaData_19151" [label=3; weight=3; penwidth=0.3; color = 3]
-	"GenericQueryMessage_41977" -> "MessageDecorator_19150" [label=3; weight=3; penwidth=0.3; color = 3]
+	"AnnotatedAggregate_55333" -> "MetaData_19150" [label=4; weight=4; penwidth=0.3; color = 3]
+	"GenericResultMessage_19153" -> "MessageDecorator_19149" [label=4; weight=4; penwidth=0.3; color = 3]
+	"DefaultParameterResolverFactory$AnnotatedMetaDataParameterResolver_38823" -> "MetaData_19150" [label=3; weight=3; penwidth=0.3; color = 3]
+	"GenericCommandMessage_19177" -> "MessageDecorator_19149" [label=3; weight=3; penwidth=0.3; color = 3]
+	"GenericDomainEventMessage_27791" -> "MetaData_19150" [label=3; weight=3; penwidth=0.3; color = 3]
+	"GenericEventMessage_26235" -> "MessageDecorator_19149" [label=3; weight=3; penwidth=0.3; color = 3]
+	"GenericEventMessage_26235" -> "MetaData_19150" [label=3; weight=3; penwidth=0.3; color = 3]
+	"GenericQueryMessage_41977" -> "MessageDecorator_19149" [label=3; weight=3; penwidth=0.3; color = 3]
 	"GenericQueryMessage_41977" -> "QueryMessage_40755" [label=3; weight=3; penwidth=0.3; color = 3]
-	"GenericQueryResponseMessage_41983" -> "MetaData_19151" [label=3; weight=3; penwidth=0.3; color = 3]
+	"GenericQueryResponseMessage_41983" -> "MetaData_19150" [label=3; weight=3; penwidth=0.3; color = 3]
 	"GenericStreamingQueryMessage_41981" -> "GenericQueryMessage_41977" [label=3; weight=3; penwidth=0.3; color = 3]
 	"GenericSubscriptionQueryMessage_41980" -> "GenericQueryMessage_41977" [label=3; weight=3; penwidth=0.3; color = 3]
-	"GenericSubscriptionQueryUpdateMessage_42170" -> "MetaData_19151" [label=3; weight=3; penwidth=0.3; color = 3]
+	"GenericSubscriptionQueryUpdateMessage_42170" -> "MetaData_19150" [label=3; weight=3; penwidth=0.3; color = 3]
 	"SpanUtils_47517" -> "QueryMessage_40755" [label=3; weight=3; penwidth=0.3; color = 3]
-	"AggregateTestFixture_40" -> "GenericCommandMessage_19178" [label=2; weight=2; penwidth=0.3; color = 3]
+	"AggregateTestFixture_40" -> "GenericCommandMessage_19177" [label=2; weight=2; penwidth=0.3; color = 3]
 	"AggregateTestFixture_40" -> "GenericDomainEventMessage_27791" [label=2; weight=2; penwidth=0.3; color = 3]
 	"AnnotatedAggregate_55333" -> "GenericDomainEventMessage_27791" [label=2; weight=2; penwidth=0.3; color = 3]
 	"AnnotatedAggregate_55333" -> "GenericEventMessage_26235" [label=2; weight=2; penwidth=0.3; color = 3]
-	"Decisions_31502" -> "MetaData_19151" [label=2; weight=2; penwidth=0.3; color = 3]
-	"GenericCommandMessage_19178" -> "MetaData_19151" [label=2; weight=2; penwidth=0.3; color = 3]
-	"GenericResetContext_28177" -> "MessageDecorator_19150" [label=2; weight=2; penwidth=0.3; color = 3]
-	"GenericResultMessage_19154" -> "Serializer_20359" [label=2; weight=2; penwidth=0.3; color = 3]
-	"GenericResultMessage_19154" -> "MetaData_19151" [label=2; weight=2; penwidth=0.3; color = 3]
+	"Decisions_31502" -> "MetaData_19150" [label=2; weight=2; penwidth=0.3; color = 3]
+	"GenericCommandMessage_19177" -> "MetaData_19150" [label=2; weight=2; penwidth=0.3; color = 3]
+	"GenericResetContext_28177" -> "MessageDecorator_19149" [label=2; weight=2; penwidth=0.3; color = 3]
+	"GenericResultMessage_19153" -> "Serializer_20359" [label=2; weight=2; penwidth=0.3; color = 3]
+	"GenericResultMessage_19153" -> "MetaData_19150" [label=2; weight=2; penwidth=0.3; color = 3]
 	"GenericStreamingQueryMessage_41981" -> "QueryMessage_40755" [label=2; weight=2; penwidth=0.3; color = 3]
 	"GenericSubscriptionQueryMessage_41980" -> "QueryMessage_40755" [label=2; weight=2; penwidth=0.3; color = 3]
 	"GenericTrackedDomainEventMessage_27790" -> "GenericEventMessage_26235" [label=2; weight=2; penwidth=0.3; color = 3]
-	"MessageDecorator_19150" -> "SerializedObject_20360" [label=2; weight=2; penwidth=0.3; color = 3]
-	"MessageDecorator_19150" -> "Serializer_20359" [label=2; weight=2; penwidth=0.3; color = 3]
-	"MetadataContextGetter_13332" -> "MetaData_19151" [label=2; weight=2; penwidth=0.3; color = 3]
+	"MessageDecorator_19149" -> "SerializedObject_20360" [label=2; weight=2; penwidth=0.3; color = 3]
+	"MessageDecorator_19149" -> "Serializer_20359" [label=2; weight=2; penwidth=0.3; color = 3]
+	"MetadataContextGetter_13332" -> "MetaData_19150" [label=2; weight=2; penwidth=0.3; color = 3]
 	"Serializer_20359" -> "SerializedObject_20360" [label=2; weight=2; penwidth=0.3; color = 3]
-	"AggregateTestFixture_40" -> "MetaData_19151" [label=1; weight=1; penwidth=0.3; color = 3]
-	"GenericDeadlineMessage_26264" -> "MetaData_19151" [label=1; weight=1; penwidth=0.3; color = 3]
-	"GenericQueryMessage_41977" -> "MetaData_19151" [label=1; weight=1; penwidth=0.3; color = 3]
-	"GenericResetContext_28177" -> "MetaData_19151" [label=1; weight=1; penwidth=0.3; color = 3]
-	"GenericResultMessage_19154" -> "SerializedObject_20360" [label=1; weight=1; penwidth=0.3; color = 3]
-	"GenericStreamingQueryMessage_41981" -> "MetaData_19151" [label=1; weight=1; penwidth=0.3; color = 3]
+	"AggregateTestFixture_40" -> "MetaData_19150" [label=1; weight=1; penwidth=0.3; color = 3]
+	"GenericDeadlineMessage_26264" -> "MetaData_19150" [label=1; weight=1; penwidth=0.3; color = 3]
+	"GenericQueryMessage_41977" -> "MetaData_19150" [label=1; weight=1; penwidth=0.3; color = 3]
+	"GenericResetContext_28177" -> "MetaData_19150" [label=1; weight=1; penwidth=0.3; color = 3]
+	"GenericResultMessage_19153" -> "SerializedObject_20360" [label=1; weight=1; penwidth=0.3; color = 3]
+	"GenericStreamingQueryMessage_41981" -> "MetaData_19150" [label=1; weight=1; penwidth=0.3; color = 3]
 	"GrpcPayloadSerializer_62718" -> "Serializer_20359" [label=1; weight=1; penwidth=0.3; color = 3]
-	"LoggingSpanFactory_46874" -> "SpanFactory_19118" [label=1; weight=1; penwidth=0.3; color = 3]
-	"MessageDecorator_19150" -> "MetaData_19151" [label=1; weight=1; penwidth=0.3; color = 3]
-	"NoOpSpanFactory_20370" -> "SpanFactory_19118" [label=1; weight=1; penwidth=0.3; color = 3]
+	"LoggingSpanFactory_46874" -> "SpanFactory_19117" [label=1; weight=1; penwidth=0.3; color = 3]
+	"MessageDecorator_19149" -> "MetaData_19150" [label=1; weight=1; penwidth=0.3; color = 3]
+	"NoOpSpanFactory_20370" -> "SpanFactory_19117" [label=1; weight=1; penwidth=0.3; color = 3]
+	"OpenTelemetrySpanFactory_13336" -> "SpanFactory_19117" [label=1; weight=1; penwidth=0.3; color = 3]
 	"OpenTelemetrySpanFactory_13336" -> "SpanUtils_47517" [label=1; weight=1; penwidth=0.3; color = 3]
-	"OpenTelemetrySpanFactory_13336" -> "SpanFactory_19118" [label=1; weight=1; penwidth=0.3; color = 3]
 }

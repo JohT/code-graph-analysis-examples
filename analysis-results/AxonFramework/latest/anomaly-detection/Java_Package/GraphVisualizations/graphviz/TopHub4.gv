@@ -46,8 +46,8 @@ strict digraph TopHub4 {
 	"eventsourcing_8414"  [label = "eventsourcing\n(0.56)"; penwidth = 2; ]; "eventsourcing_8414" -> central [label=5; weight=5; penwidth=0.5];
 	"jdbc_59819"  [label = "jdbc\n(0.68)"; penwidth = 2; ]; "jdbc_59819" -> central [label=5; weight=5; penwidth=0.5];
 	"statements_12583"  [label = "statements\n(1.0)"; penwidth = 2; ]; "statements_12583" -> central [label=4; weight=4; penwidth=0.5];
-	"jdbc_36612"  [label = "jdbc\n(0.8)"; penwidth = 2; ]; "jdbc_36612" -> central [label=3; weight=3; penwidth=0.4];
 	"jdbc_11530"  [label = "jdbc\n(0.58)"; penwidth = 2; ]; "jdbc_11530" -> central [label=3; weight=3; penwidth=0.4];
+	"jdbc_36612"  [label = "jdbc\n(0.8)"; penwidth = 2; ]; "jdbc_36612" -> central [label=3; weight=3; penwidth=0.4];
 	"jpa_12584"  [label = "jpa\n(0.64)"; penwidth = 2; ]; "jpa_12584" -> central [label=3; weight=3; penwidth=0.4];
 	"legacyjpa_12585"  [label = "legacyjpa\n(0.44)"; penwidth = 2; ]; "legacyjpa_12585" -> central [label=3; weight=3; penwidth=0.4];
 	"legacyjpa_37598"  [label = "legacyjpa\n(0.71)"; penwidth = 2; ]; "legacyjpa_37598" -> central [label=2; weight=2; penwidth=0.4];
@@ -59,7 +59,7 @@ strict digraph TopHub4 {
 	"eventhandling_26974"  [label = "eventhandling\n(0.19)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "eventhandling_26974" [label=7; weight=7; penwidth=0.5; color = 5];
 	"queryhandling_41991"  [label = "queryhandling\n(0.42)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "queryhandling_41991" [label=3; weight=3; penwidth=0.4; color = 5];
 	"util_48181"  [label = "util\n(0.51)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "util_48181" [label=3; weight=3; penwidth=0.4; color = 5];
-	"commandhandling_19176"  [label = "commandhandling\n(0.33)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "commandhandling_19176" [label=2; weight=2; penwidth=0.4; color = 5];
+	"commandhandling_19175"  [label = "commandhandling\n(0.33)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "commandhandling_19175" [label=2; weight=2; penwidth=0.4; color = 5];
 	"io_24545"  [label = "io\n(0.54)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "io_24545" [label=2; weight=2; penwidth=0.4; color = 5];
 	"deadline_25218"  [label = "deadline\n(0.49)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "deadline_25218" [label=1; weight=1; penwidth=0.4; color = 5];
 	"config_14721" -> "eventhandling_26974" [label=118; weight=118; penwidth=0.3; color = 3]
@@ -80,13 +80,13 @@ strict digraph TopHub4 {
 	"axon_60358" -> "common_23092" [label=48; weight=48; penwidth=0.3; color = 3]
 	"eventhandling_26974" -> "messaging_37597" [label=48; weight=48; penwidth=0.3; color = 3]
 	"autoconfig_48231" -> "config_14721" [label=47; weight=47; penwidth=0.3; color = 3]
-	"distributed_21026" -> "commandhandling_19176" [label=47; weight=47; penwidth=0.3; color = 3]
+	"distributed_21026" -> "commandhandling_19175" [label=47; weight=47; penwidth=0.3; color = 3]
 	"jdbc_11530" -> "eventhandling_26974" [label=45; weight=45; penwidth=0.3; color = 3]
 	"autoconfig_48231" -> "axon_60358" [label=44; weight=44; penwidth=0.3; color = 3]
 	"legacyjpa_12585" -> "eventstore_9469" [label=44; weight=44; penwidth=0.3; color = 3]
 	"legacyjpa_37598" -> "jpa_36613" [label=43; weight=43; penwidth=0.3; color = 3]
 	"query_60364" -> "util_60367" [label=43; weight=43; penwidth=0.3; color = 3]
-	"commandhandling_19176" -> "messaging_37597" [label=42; weight=42; penwidth=0.3; color = 3]
+	"commandhandling_19175" -> "messaging_37597" [label=42; weight=42; penwidth=0.3; color = 3]
 	"config_14721" -> "queryhandling_41991" [label=41; weight=41; penwidth=0.3; color = 3]
 	"jpa_12584" -> "eventhandling_26974" [label=40; weight=40; penwidth=0.3; color = 3]
 	"config_14721" -> "eventsourcing_8414" [label=38; weight=38; penwidth=0.3; color = 3]
@@ -95,7 +95,7 @@ strict digraph TopHub4 {
 	"queryhandling_41991" -> "common_23092" [label=35; weight=35; penwidth=0.3; color = 3]
 	"query_60364" -> "messaging_37597" [label=34; weight=34; penwidth=0.3; color = 3]
 	"jpa_12584" -> "eventstore_9469" [label=33; weight=33; penwidth=0.3; color = 3]
-	"command_60363" -> "commandhandling_19176" [label=31; weight=31; penwidth=0.3; color = 3]
+	"command_60363" -> "commandhandling_19175" [label=31; weight=31; penwidth=0.3; color = 3]
 	"command_60363" -> "util_60367" [label=30; weight=30; penwidth=0.3; color = 3]
 	"legacyjpa_37598" -> "tokenstore_36610" [label=30; weight=30; penwidth=0.3; color = 3]
 	"query_60364" -> "common_23092" [label=30; weight=30; penwidth=0.3; color = 3]
@@ -105,7 +105,7 @@ strict digraph TopHub4 {
 	"jpa_36613" -> "tokenstore_36610" [label=29; weight=29; penwidth=0.3; color = 3]
 	"quartz_26976" -> "deadline_25218" [label=29; weight=29; penwidth=0.3; color = 3]
 	"queryhandling_41991" -> "responsetypes_40898" [label=27; weight=27; penwidth=0.3; color = 3]
-	"commandhandling_19176" -> "common_23092" [label=26; weight=26; penwidth=0.3; color = 3]
+	"commandhandling_19175" -> "common_23092" [label=26; weight=26; penwidth=0.3; color = 3]
 	"eventsourcing_8414" -> "common_23092" [label=26; weight=26; penwidth=0.3; color = 3]
 	"jdbc_11530" -> "common_23092" [label=26; weight=26; penwidth=0.3; color = 3]
 	"command_60363" -> "common_23092" [label=25; weight=25; penwidth=0.3; color = 3]
@@ -118,9 +118,9 @@ strict digraph TopHub4 {
 	"legacyjpa_33284" -> "eventhandling_26974" [label=22; weight=22; penwidth=0.3; color = 3]
 	"subscription_60365" -> "queryhandling_41991" [label=22; weight=22; penwidth=0.3; color = 3]
 	"command_60363" -> "messaging_37597" [label=21; weight=21; penwidth=0.3; color = 3]
-	"config_14721" -> "commandhandling_19176" [label=21; weight=21; penwidth=0.3; color = 3]
 	"config_14721" -> "messaging_37597" [label=21; weight=21; penwidth=0.3; color = 3]
-	"autoconfig_48231" -> "commandhandling_19176" [label=20; weight=20; penwidth=0.3; color = 3]
+	"config_14721" -> "commandhandling_19175" [label=21; weight=21; penwidth=0.3; color = 3]
+	"autoconfig_48231" -> "commandhandling_19175" [label=20; weight=20; penwidth=0.3; color = 3]
 	"jobrunr_26975" -> "deadline_25218" [label=20; weight=20; penwidth=0.3; color = 3]
 	"jpa_32554" -> "common_23092" [label=20; weight=20; penwidth=0.3; color = 3]
 	"messaging_37597" -> "common_23092" [label=20; weight=20; penwidth=0.3; color = 3]
@@ -138,9 +138,9 @@ strict digraph TopHub4 {
 	"distributed_21026" -> "messaging_37597" [label=15; weight=15; penwidth=0.3; color = 3]
 	"event_47230" -> "messaging_37597" [label=15; weight=15; penwidth=0.3; color = 3]
 	"jpa_36613" -> "common_23092" [label=15; weight=15; penwidth=0.3; color = 3]
+	"autoconfig_48231" -> "command_60363" [label=14; weight=14; penwidth=0.3; color = 3]
 	"autoconfig_48231" -> "dbscheduler_35679" [label=14; weight=14; penwidth=0.3; color = 3]
 	"autoconfig_48231" -> "jdbc_31497" [label=14; weight=14; penwidth=0.3; color = 3]
-	"autoconfig_48231" -> "command_60363" [label=14; weight=14; penwidth=0.3; color = 3]
 	"dbscheduler_26267" -> "common_23092" [label=14; weight=14; penwidth=0.3; color = 3]
 	"jdbc_59819" -> "jpa_59820" [label=14; weight=14; penwidth=0.3; color = 3]
 	"legacyjpa_60337" -> "jpa_59820" [label=14; weight=14; penwidth=0.3; color = 3]
@@ -161,8 +161,8 @@ strict digraph TopHub4 {
 	"legacyjpa_37598" -> "eventhandling_26974" [label=12; weight=12; penwidth=0.3; color = 3]
 	"legacyjpa_48232" -> "legacyjpa_12585" [label=12; weight=12; penwidth=0.3; color = 3]
 	"quartz_36609" -> "common_23092" [label=12; weight=12; penwidth=0.3; color = 3]
-	"subscription_60365" -> "query_60364" [label=12; weight=12; penwidth=0.3; color = 3]
 	"subscription_60365" -> "messaging_37597" [label=12; weight=12; penwidth=0.3; color = 3]
+	"subscription_60365" -> "query_60364" [label=12; weight=12; penwidth=0.3; color = 3]
 	"util_60367" -> "messaging_37597" [label=12; weight=12; penwidth=0.3; color = 3]
 	"autoconfig_48231" -> "eventstore_9469" [label=11; weight=11; penwidth=0.3; color = 3]
 	"autoconfig_48231" -> "json_46174" [label=11; weight=11; penwidth=0.3; color = 3]
@@ -179,20 +179,20 @@ strict digraph TopHub4 {
 	"responsetypes_40898" -> "common_23092" [label=9; weight=9; penwidth=0.3; color = 3]
 	"tokenstore_36610" -> "eventhandling_26974" [label=9; weight=9; penwidth=0.3; color = 3]
 	"util_60367" -> "common_23092" [label=9; weight=9; penwidth=0.3; color = 3]
-	"autoconfig_48231" -> "xml_47231" [label=8; weight=8; penwidth=0.3; color = 3]
+	"autoconfig_48231" -> "jpa_32554" [label=8; weight=8; penwidth=0.3; color = 3]
 	"autoconfig_48231" -> "common_23092" [label=8; weight=8; penwidth=0.3; color = 3]
 	"autoconfig_48231" -> "jobrunr_26975" [label=8; weight=8; penwidth=0.3; color = 3]
+	"autoconfig_48231" -> "xml_47231" [label=8; weight=8; penwidth=0.3; color = 3]
 	"autoconfig_48231" -> "deadline_25218" [label=8; weight=8; penwidth=0.3; color = 3]
-	"autoconfig_48231" -> "jpa_32554" [label=8; weight=8; penwidth=0.3; color = 3]
 	"config_14721" -> "event_47230" [label=8; weight=8; penwidth=0.3; color = 3]
 	"dbscheduler_35679" -> "eventhandling_26974" [label=8; weight=8; penwidth=0.3; color = 3]
 	"eventsourcing_8414" -> "event_47230" [label=8; weight=8; penwidth=0.3; color = 3]
 	"legacyjpa_48232" -> "legacyjpa_33284" [label=8; weight=8; penwidth=0.3; color = 3]
 	"statements_12583" -> "eventhandling_26974" [label=8; weight=8; penwidth=0.3; color = 3]
-	"autoconfig_48231" -> "jobrunr_35681" [label=7; weight=7; penwidth=0.3; color = 3]
-	"autoconfig_48231" -> "messaging_37597" [label=7; weight=7; penwidth=0.3; color = 3]
-	"autoconfig_48231" -> "avro_46172" [label=7; weight=7; penwidth=0.3; color = 3]
 	"autoconfig_48231" -> "eventsourcing_8414" [label=7; weight=7; penwidth=0.3; color = 3]
+	"autoconfig_48231" -> "avro_46172" [label=7; weight=7; penwidth=0.3; color = 3]
+	"autoconfig_48231" -> "messaging_37597" [label=7; weight=7; penwidth=0.3; color = 3]
+	"autoconfig_48231" -> "jobrunr_35681" [label=7; weight=7; penwidth=0.3; color = 3]
 	"axon_60358" -> "messaging_37597" [label=7; weight=7; penwidth=0.3; color = 3]
 	"config_14721" -> "snapshotting_13042" [label=7; weight=7; penwidth=0.3; color = 3]
 	"eventhandling_26974" -> "event_47230" [label=7; weight=7; penwidth=0.3; color = 3]

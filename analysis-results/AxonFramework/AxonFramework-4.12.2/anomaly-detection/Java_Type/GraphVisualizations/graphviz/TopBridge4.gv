@@ -12,14 +12,19 @@ strict digraph TopBridge4 {
     central [fontsize = 16;];
     central [color = 7; fillcolor = 5; penwidth = 3;];
 
-	graph   [label="Top Rank #4 Java Type Bridge\norg.axonframework.deadline.SimpleDeadlineManager$1\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
-	central [label="🌉 bridge #4\nSimpleDeadlineManager$1"];
-	"SimpleDeadlineManager$DeadlineId_26255" [label = "SimpleDeadlineManager$\nDeadlineId"; ]; "SimpleDeadlineManager$DeadlineId_26255" -> central [label=2; weight=2; penwidth=0.4];
-	"SimpleDeadlineManager$DeadlineTask_26256" [label = "SimpleDeadlineManager$\nDeadlineTask"; ]; "SimpleDeadlineManager$DeadlineTask_26256" -> central [label=2; weight=2; penwidth=0.4];
-	"SimpleDeadlineManager_26253" [label = "SimpleDeadlineManager"; ]; "SimpleDeadlineManager_26253" -> central [label=1; weight=1; penwidth=0.4];
-	"SimpleDeadlineManager_26253" [label = "SimpleDeadlineManager"; color = 5; fillcolor = 1; ]; central -> "SimpleDeadlineManager_26253" [label=1; weight=1; penwidth=0.4; color = 5];
-	"SimpleDeadlineManager_26253" -> "SimpleDeadlineManager$DeadlineId_26255" [label=14; weight=14; penwidth=0.3; color = 3]
-	"SimpleDeadlineManager$DeadlineTask_26256" -> "SimpleDeadlineManager_26253" [label=13; weight=13; penwidth=0.3; color = 3]
-	"SimpleDeadlineManager$DeadlineTask_26256" -> "SimpleDeadlineManager$DeadlineId_26255" [label=12; weight=12; penwidth=0.3; color = 3]
-	"SimpleDeadlineManager_26253" -> "SimpleDeadlineManager$DeadlineTask_26256" [label=3; weight=3; penwidth=0.3; color = 3]
+	graph   [label="Top Rank #4 Java Type Bridge\norg.axonframework.eventsourcing.eventstore.EmbeddedEventStore$Cleaner\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
+	central [label="🌉 bridge #4\nEmbeddedEventStore$Cleaner"];
+	"EmbeddedEventStore_10405" [label = "EmbeddedEventStore"; ]; "EmbeddedEventStore_10405" -> central [label=3; weight=3; penwidth=0.4];
+	"EmbeddedEventStore_10405" [label = "EmbeddedEventStore"; color = 5; fillcolor = 1; ]; central -> "EmbeddedEventStore_10405" [label=6; weight=6; penwidth=0.5; color = 5];
+	"EmbeddedEventStore$EventConsumer_10409" [label = "EmbeddedEventStore$\nEventConsumer"; color = 5; fillcolor = 1; ]; central -> "EmbeddedEventStore$EventConsumer_10409" [label=5; weight=5; penwidth=0.5; color = 5];
+	"EmbeddedEventStore$1_10404" [label = "EmbeddedEventStore$\n1"; color = 5; fillcolor = 1; ]; central -> "EmbeddedEventStore$1_10404" [label=2; weight=2; penwidth=0.4; color = 5];
+	"EmbeddedEventStore$Node_10408" [label = "EmbeddedEventStore$\nNode"; color = 5; fillcolor = 1; ]; central -> "EmbeddedEventStore$Node_10408" [label=2; weight=2; penwidth=0.4; color = 5];
+	"EmbeddedEventStore$EventConsumer_10409" -> "EmbeddedEventStore_10405" [label=25; weight=25; penwidth=0.3; color = 3]
+	"EmbeddedEventStore$EventConsumer_10409" -> "EmbeddedEventStore$Node_10408" [label=13; weight=13; penwidth=0.3; color = 3]
+	"EmbeddedEventStore_10405" -> "EmbeddedEventStore$Node_10408" [label=9; weight=9; penwidth=0.3; color = 3]
+	"EmbeddedEventStore_10405" -> "EmbeddedEventStore$EventConsumer_10409" [label=6; weight=6; penwidth=0.3; color = 3]
+	"EmbeddedEventStore$EventConsumer_10409" -> "EmbeddedEventStore$1_10404" [label=3; weight=3; penwidth=0.3; color = 3]
+	"EmbeddedEventStore$Node_10408" -> "EmbeddedEventStore$1_10404" [label=2; weight=2; penwidth=0.3; color = 3]
+	"EmbeddedEventStore_10405" -> "EmbeddedEventStore$1_10404" [label=1; weight=1; penwidth=0.3; color = 3]
+	"EmbeddedEventStore$1_10404" -> "EmbeddedEventStore_10405" [label=1; weight=1; penwidth=0.3; color = 3]
 }

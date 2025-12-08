@@ -621,7 +621,7 @@ In this section we'll focus only on pairs of nodes that both belong to the same 
       <td>318</td>
       <td>64</td>
       <td>44</td>
-      <td>[/org/axonframework/messaging/timeout -&gt; /org/axonframework/commandhandling, /org/axonframework/serialization -&gt; /org/axonframework/commandhandling, /org/axonframework/tracing -&gt; /org/axonframework/commandhandling, /org/axonframework/tracing/attributes -&gt; /org/axonframework/commandhandling]</td>
+      <td>[/org/axonframework/commandhandling/callbacks -&gt; /org/axonframework/commandhandling, /org/axonframework/commandhandling/distributed -&gt; /org/axonframework/commandhandling, /org/axonframework/commandhandling/distributed/commandfilter -&gt; /org/axonframework/commandhandling, /org/axonframework/comman...</td>
       <td>[axon-messaging-4.12.2 -&gt; axon-messaging-4.12.2]</td>
       <td>[]</td>
     </tr>
@@ -640,7 +640,7 @@ In this section we'll focus only on pairs of nodes that both belong to the same 
       <td>587</td>
       <td>54</td>
       <td>30</td>
-      <td>[/org/axonframework/messaging/responsetypes -&gt; /org/axonframework/commandhandling, /org/axonframework/queryhandling -&gt; /org/axonframework/commandhandling, /org/axonframework/serialization/avro -&gt; /org/axonframework/commandhandling, /org/axonframework/serialization/converters -&gt; /org/axonframewor...</td>
+      <td>[/org/axonframework/deadline -&gt; /org/axonframework/commandhandling, /org/axonframework/deadline/dbscheduler -&gt; /org/axonframework/commandhandling, /org/axonframework/eventhandling -&gt; /org/axonframework/commandhandling, /org/axonframework/deadline/jobrunr -&gt; /org/axonframework/commandhandling]</td>
       <td>[axon-messaging-4.12.2 -&gt; axon-messaging-4.12.2]</td>
       <td>[]</td>
     </tr>

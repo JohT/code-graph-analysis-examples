@@ -12,32 +12,21 @@ strict digraph TopOutlier2 {
     central [fontsize = 16;];
     central [color = 7; fillcolor = 5; penwidth = 3;];
 
-	graph   [label="Top Rank #2 Java Type Outlier\norg.axonframework.config.ConfigurerModule\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: cluster probability\nlarge circle: < 25% percentile of cluster probability\nthick outline: > 80% percentile of distance to cluster center\n\n"];
-	central [label="🧩 outlier #2\nConfigurerModule"];
-	"InfraConfiguration_50383"  [label = "InfraConfiguration\n(62.36%)"; penwidth = 2; ]; "InfraConfiguration_50383" -> central [label=6; weight=6; penwidth=0.5];
-	"DefaultConfigurer_14202"  [label = "DefaultConfigurer\n(100.0%)"; penwidth = 2; ]; "DefaultConfigurer_14202" -> central [label=4; weight=4; penwidth=0.4];
-	"AxonServerAutoConfiguration_48481"  [label = "AxonServerAutoConfiguration\n(77.12%)"; penwidth = 5; ]; "AxonServerAutoConfiguration_48481" -> central [label=3; weight=3; penwidth=0.4];
-	"AxonAutoConfiguration_49276"  [label = "AxonAutoConfiguration\n(16.15%)"; penwidth = 5; ]; "AxonAutoConfiguration_49276" -> central [label=1; weight=1; penwidth=0.4];
-	"AxonTimeoutAutoConfiguration_51133"  [label = "AxonTimeoutAutoConfiguration\n(13.44%)"; penwidth = 2; ]; "AxonTimeoutAutoConfiguration_51133" -> central [label=1; weight=1; penwidth=0.4];
-	"AxonTimeoutAutoConfiguration$AxonTimeoutConfigurerModule_51131"  [label = "AxonTimeoutAutoConfiguration$\nAxonTimeoutConfigurerModule\n(13.44%)"; penwidth = 2; ]; "AxonTimeoutAutoConfiguration$AxonTimeoutConfigurerModule_51131" -> central [label=1; weight=1; penwidth=0.4];
-	"AxonTracingAutoConfiguration_48484"  [label = "AxonTracingAutoConfiguration\n(100.0%)"; penwidth = 5; ]; "AxonTracingAutoConfiguration_48484" -> central [label=1; weight=1; penwidth=0.4];
-	"DeadLetterQueueProviderConfigurerModule_48544"  [label = "DeadLetterQueueProviderConfigurerModule\n(52.52%)"; penwidth = 5; ]; "DeadLetterQueueProviderConfigurerModule_48544" -> central [label=1; weight=1; penwidth=0.4];
-	"ServerConnectorConfigurerModule_65763"  [shape = "circle"; height=1.8; label = "ServerConnectorConfigurerModule\n(0.0%)"; penwidth = 2; ]; "ServerConnectorConfigurerModule_65763" -> central [label=1; weight=1; penwidth=0.4];
-	"UpdateCheckerConfigurerModule_14228"  [label = "UpdateCheckerConfigurerModule\n(43.97%)"; penwidth = 2; ]; "UpdateCheckerConfigurerModule_14228" -> central [label=1; weight=1; penwidth=0.4];
-	"Configurer_15772"  [label = "Configurer\n(51.51%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "Configurer_15772" [label=1; weight=1; penwidth=0.4; color = 5];
-	"DefaultConfigurer_14202" -> "Configurer_15772" [label=26; weight=26; penwidth=0.3; color = 3]
-	"ServerConnectorConfigurerModule_65763" -> "Configurer_15772" [label=12; weight=12; penwidth=0.3; color = 3]
-	"InfraConfiguration_50383" -> "Configurer_15772" [label=9; weight=9; penwidth=0.3; color = 3]
-	"AxonServerAutoConfiguration_48481" -> "Configurer_15772" [label=7; weight=7; penwidth=0.3; color = 3]
-	"AxonTimeoutAutoConfiguration$AxonTimeoutConfigurerModule_51131" -> "Configurer_15772" [label=5; weight=5; penwidth=0.3; color = 3]
-	"UpdateCheckerConfigurerModule_14228" -> "Configurer_15772" [label=5; weight=5; penwidth=0.3; color = 3]
-	"AxonAutoConfiguration_49276" -> "Configurer_15772" [label=4; weight=4; penwidth=0.3; color = 3]
-	"AxonTimeoutAutoConfiguration_51133" -> "AxonTimeoutAutoConfiguration$AxonTimeoutConfigurerModule_51131" [label=3; weight=3; penwidth=0.3; color = 3]
-	"AxonTracingAutoConfiguration_48484" -> "Configurer_15772" [label=2; weight=2; penwidth=0.3; color = 3]
-	"DeadLetterQueueProviderConfigurerModule_48544" -> "Configurer_15772" [label=2; weight=2; penwidth=0.3; color = 3]
-	"AxonServerAutoConfiguration_48481" -> "AxonAutoConfiguration_49276" [label=1; weight=1; penwidth=0.3; color = 3]
-	"AxonTracingAutoConfiguration_48484" -> "AxonServerAutoConfiguration_48481" [label=1; weight=1; penwidth=0.3; color = 3]
-	"AxonTracingAutoConfiguration_48484" -> "AxonAutoConfiguration_49276" [label=1; weight=1; penwidth=0.3; color = 3]
-	"InfraConfiguration_50383" -> "DefaultConfigurer_14202" [label=1; weight=1; penwidth=0.3; color = 3]
-	"InfraConfiguration_50383" -> "AxonAutoConfiguration_49276" [label=1; weight=1; penwidth=0.3; color = 3]
+	graph   [label="Top Rank #2 Java Type Outlier\norg.axonframework.springboot.TracingProperties\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: cluster probability\nlarge circle: < 25% percentile of cluster probability\nthick outline: > 80% percentile of distance to cluster center\n\n"];
+	central [label="🧩 outlier #2\nTracingProperties"];
+	"AxonTracingAutoConfiguration_48484"  [label = "AxonTracingAutoConfiguration\n(100.0%)"; penwidth = 5; ]; "AxonTracingAutoConfiguration_48484" -> central [label=17; weight=17; penwidth=0.6];
+	"TracingProperties$EventProcessorProperties_48454"  [label = "TracingProperties$\nEventProcessorProperties\n(100.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "TracingProperties$EventProcessorProperties_48454" [label=10; weight=10; penwidth=0.5; color = 5];
+	"TracingProperties$CommandBusProperties_48459"  [label = "TracingProperties$\nCommandBusProperties\n(100.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "TracingProperties$CommandBusProperties_48459" [label=6; weight=6; penwidth=0.5; color = 5];
+	"TracingProperties$DeadlineManagerProperties_48457"  [label = "TracingProperties$\nDeadlineManagerProperties\n(61.45%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "TracingProperties$DeadlineManagerProperties_48457" [label=6; weight=6; penwidth=0.5; color = 5];
+	"TracingProperties$QueryBusProperties_48458"  [label = "TracingProperties$\nQueryBusProperties\n(100.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "TracingProperties$QueryBusProperties_48458" [label=6; weight=6; penwidth=0.5; color = 5];
+	"TracingProperties$RepositoryProperties_48456"  [label = "TracingProperties$\nRepositoryProperties\n(28.53%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "TracingProperties$RepositoryProperties_48456" [label=6; weight=6; penwidth=0.5; color = 5];
+	"TracingProperties$SagaManagerProperties_48455"  [label = "TracingProperties$\nSagaManagerProperties\n(100.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "TracingProperties$SagaManagerProperties_48455" [label=6; weight=6; penwidth=0.5; color = 5];
+	"TracingProperties$SnapshotterProperties_48460"  [label = "TracingProperties$\nSnapshotterProperties\n(100.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "TracingProperties$SnapshotterProperties_48460" [label=6; weight=6; penwidth=0.5; color = 5];
+	"TracingProperties$AttributeProviders_49265"  [label = "TracingProperties$\nAttributeProviders\n(28.53%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "TracingProperties$AttributeProviders_49265" [label=4; weight=4; penwidth=0.4; color = 5];
+	"AxonTracingAutoConfiguration_48484" -> "TracingProperties$EventProcessorProperties_48454" [label=4; weight=4; penwidth=0.3; color = 3]
+	"AxonTracingAutoConfiguration_48484" -> "TracingProperties$DeadlineManagerProperties_48457" [label=4; weight=4; penwidth=0.3; color = 3]
+	"AxonTracingAutoConfiguration_48484" -> "TracingProperties$SnapshotterProperties_48460" [label=3; weight=3; penwidth=0.3; color = 3]
+	"AxonTracingAutoConfiguration_48484" -> "TracingProperties$QueryBusProperties_48458" [label=2; weight=2; penwidth=0.3; color = 3]
+	"AxonTracingAutoConfiguration_48484" -> "TracingProperties$SagaManagerProperties_48455" [label=2; weight=2; penwidth=0.3; color = 3]
+	"AxonTracingAutoConfiguration_48484" -> "TracingProperties$CommandBusProperties_48459" [label=2; weight=2; penwidth=0.3; color = 3]
 }

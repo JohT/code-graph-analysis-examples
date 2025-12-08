@@ -16,12 +16,12 @@ strict digraph TopHub1 {
 	central [label="🎡 hub #1\nAxonNonTransientException\n(in-degree=26)"];
 	"AggregateEntityNotFoundException_55500"  [label = "AggregateEntityNotFoundException\n(0.0)"; penwidth = 5; ]; "AggregateEntityNotFoundException_55500" -> central [label=3; weight=3; penwidth=0.4];
 	"AggregateNotFoundException_54278"  [label = "AggregateNotFoundException\n(0.14)"; penwidth = 2; ]; "AggregateNotFoundException_54278" -> central [label=3; weight=3; penwidth=0.4];
-	"AxonConfigurationException_19876"  [label = "AxonConfigurationException\n(0.04)"; penwidth = 5; ]; "AxonConfigurationException_19876" -> central [label=3; weight=3; penwidth=0.4];
+	"AxonConfigurationException_19875"  [label = "AxonConfigurationException\n(0.04)"; penwidth = 5; ]; "AxonConfigurationException_19875" -> central [label=3; weight=3; penwidth=0.4];
 	"ConflictingModificationException_55504"  [label = "ConflictingModificationException\n(0.0)"; penwidth = 5; ]; "ConflictingModificationException_55504" -> central [label=3; weight=3; penwidth=0.4];
 	"EventStoreException_9466"  [label = "EventStoreException\n(0.1)"; penwidth = 2; ]; "EventStoreException_9466" -> central [label=3; weight=3; penwidth=0.4];
 	"FixtureExecutionException_1008"  [label = "FixtureExecutionException\n(0.25)"; penwidth = 2; ]; "FixtureExecutionException_1008" -> central [label=3; weight=3; penwidth=0.4];
 	"IllegalPayloadAccessException_37716"  [label = "IllegalPayloadAccessException\n(0.0)"; penwidth = 5; ]; "IllegalPayloadAccessException_37716" -> central [label=3; weight=3; penwidth=0.4];
-	"IncompatibleAggregateException_8349"  [label = "IncompatibleAggregateException\n(0.0)"; penwidth = 5; ]; "IncompatibleAggregateException_8349" -> central [label=3; weight=3; penwidth=0.4];
+	"IncompatibleAggregateException_8311"  [label = "IncompatibleAggregateException\n(0.0)"; penwidth = 5; ]; "IncompatibleAggregateException_8311" -> central [label=3; weight=3; penwidth=0.4];
 	"LifecycleHandlerInvocationException_37599"  [label = "LifecycleHandlerInvocationException\n(0.0)"; penwidth = 5; ]; "LifecycleHandlerInvocationException_37599" -> central [label=3; weight=3; penwidth=0.4];
 	"MatcherExecutionException_1007"  [label = "MatcherExecutionException\n(0.0)"; penwidth = 5; ]; "MatcherExecutionException_1007" -> central [label=3; weight=3; penwidth=0.4];
 	"NoHandlerForQueryException_42510"  [label = "NoHandlerForQueryException\n(0.2)"; penwidth = 2; ]; "NoHandlerForQueryException_42510" -> central [label=3; weight=3; penwidth=0.4];
@@ -42,5 +42,5 @@ strict digraph TopHub1 {
 	"TrackingEventProcessor$WorkerLauncher_30443"  [label = "TrackingEventProcessor$\nWorkerLauncher\n(0.22)"; penwidth = 2; ]; "TrackingEventProcessor$WorkerLauncher_30443" -> central [label=1; weight=1; penwidth=0.4];
 	"AxonException_20342"  [label = "AxonException\n(0.02)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "AxonException_20342" [label=3; weight=3; penwidth=0.4; color = 5];
 	"QuartzDeadlineManager$Builder_27305" -> "ExceptionUtils_23124" [label=1; weight=1; penwidth=0.3; color = 3]
-	"QuartzDeadlineManager$Builder_27305" -> "AxonConfigurationException_19876" [label=1; weight=1; penwidth=0.3; color = 3]
+	"QuartzDeadlineManager$Builder_27305" -> "AxonConfigurationException_19875" [label=1; weight=1; penwidth=0.3; color = 3]
 }

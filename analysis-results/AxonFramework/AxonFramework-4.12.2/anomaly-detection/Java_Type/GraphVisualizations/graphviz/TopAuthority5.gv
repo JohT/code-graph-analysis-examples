@@ -14,9 +14,9 @@ strict digraph TopAuthority5 {
 
 	graph   [label="Top Rank #5 Java Type Authority\norg.axonframework.messaging.MetaData$MetaDataCollector\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: Page Rank (normalized)\nlarge circle: > 80% percentile of Page Rank\nthick outline: > 80% percentile of Page Rank to Article Rank Difference\n\n"];
 	central [label="🏛️ authority #5\nMetaData$MetaDataCollector"];
-	"MetaData_19151"  [shape = "circle"; height=2; label = "MetaData\n(41.73%)"; penwidth = 5; ]; "MetaData_19151" -> central [label=3; weight=3; penwidth=0.4];
-	"MetaData_19151"  [shape = "circle"; height=2; label = "MetaData\n(41.73%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "MetaData_19151" [label=3; weight=3; penwidth=0.4; color = 5];
+	"MetaData_19150"  [shape = "circle"; height=2; label = "MetaData\n(41.73%)"; penwidth = 5; ]; "MetaData_19150" -> central [label=3; weight=3; penwidth=0.4];
+	"MetaData_19150"  [shape = "circle"; height=2; label = "MetaData\n(41.73%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "MetaData_19150" [label=3; weight=3; penwidth=0.4; color = 5];
 	"MetaData$1_37605"  [shape = "circle"; height=2; label = "MetaData$\n1\n(18.08%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "MetaData$1_37605" [label=2; weight=2; penwidth=0.4; color = 5];
-	"MetaData_19151" -> "MetaData$1_37605" [label=1; weight=1; penwidth=0.3; color = 3]
-	"MetaData$1_37605" -> "MetaData_19151" [label=1; weight=1; penwidth=0.3; color = 3]
+	"MetaData_19150" -> "MetaData$1_37605" [label=1; weight=1; penwidth=0.3; color = 3]
+	"MetaData$1_37605" -> "MetaData_19150" [label=1; weight=1; penwidth=0.3; color = 3]
 }
