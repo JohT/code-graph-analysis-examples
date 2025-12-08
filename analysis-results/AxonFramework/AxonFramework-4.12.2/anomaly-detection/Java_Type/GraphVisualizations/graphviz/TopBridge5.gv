@@ -12,24 +12,35 @@ strict digraph TopBridge5 {
     central [fontsize = 16;];
     central [color = 7; fillcolor = 5; penwidth = 3;];
 
-	graph   [label="Top Rank #5 Java Type Bridge\norg.axonframework.eventsourcing.eventstore.EmbeddedEventStore$1\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
-	central [label="🌉 bridge #5\nEmbeddedEventStore$1"];
-	"EmbeddedEventStore$EventConsumer_10409" [label = "EmbeddedEventStore$\nEventConsumer"; ]; "EmbeddedEventStore$EventConsumer_10409" -> central [label=3; weight=3; penwidth=0.4];
-	"EmbeddedEventStore$Cleaner_10407" [label = "EmbeddedEventStore$\nCleaner"; ]; "EmbeddedEventStore$Cleaner_10407" -> central [label=2; weight=2; penwidth=0.4];
-	"EmbeddedEventStore$EventProducer_10410" [label = "EmbeddedEventStore$\nEventProducer"; ]; "EmbeddedEventStore$EventProducer_10410" -> central [label=2; weight=2; penwidth=0.4];
-	"EmbeddedEventStore$Node_10408" [label = "EmbeddedEventStore$\nNode"; ]; "EmbeddedEventStore$Node_10408" -> central [label=2; weight=2; penwidth=0.4];
-	"EmbeddedEventStore_10405" [label = "EmbeddedEventStore"; ]; "EmbeddedEventStore_10405" -> central [label=1; weight=1; penwidth=0.4];
-	"EmbeddedEventStore_10405" [label = "EmbeddedEventStore"; color = 5; fillcolor = 1; ]; central -> "EmbeddedEventStore_10405" [label=1; weight=1; penwidth=0.4; color = 5];
-	"EmbeddedEventStore$EventConsumer_10409" -> "EmbeddedEventStore_10405" [label=25; weight=25; penwidth=0.3; color = 3]
-	"EmbeddedEventStore$EventProducer_10410" -> "EmbeddedEventStore_10405" [label=15; weight=15; penwidth=0.3; color = 3]
-	"EmbeddedEventStore$EventConsumer_10409" -> "EmbeddedEventStore$Node_10408" [label=13; weight=13; penwidth=0.3; color = 3]
-	"EmbeddedEventStore$EventProducer_10410" -> "EmbeddedEventStore$Node_10408" [label=10; weight=10; penwidth=0.3; color = 3]
-	"EmbeddedEventStore_10405" -> "EmbeddedEventStore$Node_10408" [label=9; weight=9; penwidth=0.3; color = 3]
-	"EmbeddedEventStore_10405" -> "EmbeddedEventStore$EventProducer_10410" [label=6; weight=6; penwidth=0.3; color = 3]
-	"EmbeddedEventStore_10405" -> "EmbeddedEventStore$EventConsumer_10409" [label=6; weight=6; penwidth=0.3; color = 3]
-	"EmbeddedEventStore$Cleaner_10407" -> "EmbeddedEventStore_10405" [label=6; weight=6; penwidth=0.3; color = 3]
-	"EmbeddedEventStore$Cleaner_10407" -> "EmbeddedEventStore$EventConsumer_10409" [label=5; weight=5; penwidth=0.3; color = 3]
-	"EmbeddedEventStore_10405" -> "EmbeddedEventStore$Cleaner_10407" [label=3; weight=3; penwidth=0.3; color = 3]
-	"EmbeddedEventStore$EventProducer_10410" -> "EmbeddedEventStore$EventConsumer_10409" [label=3; weight=3; penwidth=0.3; color = 3]
-	"EmbeddedEventStore$Cleaner_10407" -> "EmbeddedEventStore$Node_10408" [label=2; weight=2; penwidth=0.3; color = 3]
+	graph   [label="Top Rank #5 Java Type Bridge\norg.axonframework.springboot.autoconfig.AxonTimeoutAutoConfiguration$AxonTimeoutConfigurerModule\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
+	central [label="🌉 bridge #5\nAxonTimeoutAutoConfiguration$AxonTimeoutConfigurerModule"];
+	"AxonTimeoutAutoConfiguration_51133" [label = "AxonTimeoutAutoConfiguration"; ]; "AxonTimeoutAutoConfiguration_51133" -> central [label=3; weight=3; penwidth=0.4];
+	"TaskTimeoutSettings_40950" [label = "TaskTimeoutSettings"; color = 5; fillcolor = 1; ]; central -> "TaskTimeoutSettings_40950" [label=14; weight=14; penwidth=0.6; color = 5];
+	"TimeoutProperties$TransactionTimeoutProperties_48464" [label = "TimeoutProperties$\nTransactionTimeoutProperties"; color = 5; fillcolor = 1; ]; central -> "TimeoutProperties$TransactionTimeoutProperties_48464" [label=13; weight=13; penwidth=0.5; color = 5];
+	"UnitOfWorkTimeoutInterceptor_40952" [label = "UnitOfWorkTimeoutInterceptor"; color = 5; fillcolor = 1; ]; central -> "UnitOfWorkTimeoutInterceptor_40952" [label=8; weight=8; penwidth=0.5; color = 5];
+	"Configuration_14725" [label = "Configuration"; color = 5; fillcolor = 1; ]; central -> "Configuration_14725" [label=7; weight=7; penwidth=0.5; color = 5];
+	"Configurer_15772" [label = "Configurer"; color = 5; fillcolor = 1; ]; central -> "Configurer_15772" [label=5; weight=5; penwidth=0.5; color = 5];
+	"TimeoutProperties_49269" [label = "TimeoutProperties"; color = 5; fillcolor = 1; ]; central -> "TimeoutProperties_49269" [label=2; weight=2; penwidth=0.4; color = 5];
+	"CommandBus_19299" [label = "CommandBus"; color = 5; fillcolor = 1; ]; central -> "CommandBus_19299" [label=1; weight=1; penwidth=0.4; color = 5];
+	"ConfigurerModule_14227" [label = "ConfigurerModule"; color = 5; fillcolor = 1; ]; central -> "ConfigurerModule_14227" [label=1; weight=1; penwidth=0.4; color = 5];
+	"DeadlineManager_25226" [label = "DeadlineManager"; color = 5; fillcolor = 1; ]; central -> "DeadlineManager_25226" [label=1; weight=1; penwidth=0.4; color = 5];
+	"EventProcessingConfigurer_14755" [label = "EventProcessingConfigurer"; color = 5; fillcolor = 1; ]; central -> "EventProcessingConfigurer_14755" [label=1; weight=1; penwidth=0.4; color = 5];
+	"MessageHandlerInterceptor_20375" [label = "MessageHandlerInterceptor"; color = 5; fillcolor = 1; ]; central -> "MessageHandlerInterceptor_20375" [label=1; weight=1; penwidth=0.4; color = 5];
+	"QueryBus_41975" [label = "QueryBus"; color = 5; fillcolor = 1; ]; central -> "QueryBus_41975" [label=1; weight=1; penwidth=0.4; color = 5];
+	"EventProcessingConfigurer_14755" -> "Configuration_14725" [label=36; weight=36; penwidth=0.3; color = 3]
+	"Configurer_15772" -> "Configuration_14725" [label=35; weight=35; penwidth=0.3; color = 3]
+	"TimeoutProperties$TransactionTimeoutProperties_48464" -> "TaskTimeoutSettings_40950" [label=22; weight=22; penwidth=0.3; color = 3]
+	"TimeoutProperties_49269" -> "TimeoutProperties$TransactionTimeoutProperties_48464" [label=6; weight=6; penwidth=0.3; color = 3]
+	"AxonTimeoutAutoConfiguration_51133" -> "TimeoutProperties_49269" [label=4; weight=4; penwidth=0.3; color = 3]
+	"Configuration_14725" -> "QueryBus_41975" [label=3; weight=3; penwidth=0.3; color = 3]
+	"Configuration_14725" -> "CommandBus_19299" [label=3; weight=3; penwidth=0.3; color = 3]
+	"Configuration_14725" -> "DeadlineManager_25226" [label=3; weight=3; penwidth=0.3; color = 3]
+	"Configurer_15772" -> "EventProcessingConfigurer_14755" [label=3; weight=3; penwidth=0.3; color = 3]
+	"Configurer_15772" -> "CommandBus_19299" [label=2; weight=2; penwidth=0.3; color = 3]
+	"Configurer_15772" -> "QueryBus_41975" [label=2; weight=2; penwidth=0.3; color = 3]
+	"Configurer_15772" -> "DeadlineManager_25226" [label=2; weight=2; penwidth=0.3; color = 3]
+	"EventProcessingConfigurer_14755" -> "MessageHandlerInterceptor_20375" [label=2; weight=2; penwidth=0.3; color = 3]
+	"AxonTimeoutAutoConfiguration_51133" -> "ConfigurerModule_14227" [label=1; weight=1; penwidth=0.3; color = 3]
+	"ConfigurerModule_14227" -> "Configurer_15772" [label=1; weight=1; penwidth=0.3; color = 3]
+	"UnitOfWorkTimeoutInterceptor_40952" -> "MessageHandlerInterceptor_20375" [label=1; weight=1; penwidth=0.3; color = 3]
 }

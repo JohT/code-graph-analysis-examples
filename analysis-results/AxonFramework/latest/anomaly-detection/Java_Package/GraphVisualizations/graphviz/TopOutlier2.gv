@@ -12,37 +12,113 @@ strict digraph TopOutlier2 {
     central [fontsize = 16;];
     central [color = 7; fillcolor = 5; penwidth = 3;];
 
-	graph   [label="Top Rank #2 Java Package Outlier\norg.axonframework.axonserver.connector.processor\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: cluster probability\nlarge circle: < 25% percentile of cluster probability\nthick outline: > 80% percentile of distance to cluster center\n\n"];
-	central [label="🧩 outlier #2\nprocessor"];
-	"axon_60358"  [shape = "circle"; height=1.8; label = "axon\n(50.15%)"; penwidth = 5; ]; "axon_60358" -> central [label=5; weight=5; penwidth=0.5];
-	"connector_60355"  [label = "connector\n(83.86%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "connector_60355" [label=17; weight=17; penwidth=0.6; color = 5];
-	"eventhandling_26974"  [label = "eventhandling\n(97.7%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "eventhandling_26974" [label=15; weight=15; penwidth=0.6; color = 5];
-	"config_14721"  [shape = "circle"; height=1.8; label = "config\n(0.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "config_14721" [label=2; weight=2; penwidth=0.4; color = 5];
-	"lifecycle_37596"  [label = "lifecycle\n(66.89%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "lifecycle_37596" [label=1; weight=1; penwidth=0.4; color = 5];
-	"pooled_34639"  [label = "pooled\n(100.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "pooled_34639" [label=1; weight=1; penwidth=0.4; color = 5];
-	"tokenstore_36610"  [label = "tokenstore\n(100.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "tokenstore_36610" [label=0; weight=0; penwidth=0.4; color = 5];
-	"transaction_25217"  [shape = "circle"; height=1.8; label = "transaction\n(0.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "transaction_25217" [label=0; weight=0; penwidth=0.4; color = 5];
-	"pooled_34639" -> "eventhandling_26974" [label=195; weight=195; penwidth=0.3; color = 3]
-	"config_14721" -> "eventhandling_26974" [label=118; weight=118; penwidth=0.3; color = 3]
-	"axon_60358" -> "connector_60355" [label=80; weight=80; penwidth=0.3; color = 3]
-	"axon_60358" -> "eventhandling_26974" [label=64; weight=64; penwidth=0.3; color = 3]
-	"connector_60355" -> "axon_60358" [label=29; weight=29; penwidth=0.3; color = 3]
-	"config_14721" -> "pooled_34639" [label=27; weight=27; penwidth=0.3; color = 3]
+	graph   [label="Top Rank #2 Java Package Outlier\norg.axonframework.queryhandling\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: cluster probability\nlarge circle: < 25% percentile of cluster probability\nthick outline: > 80% percentile of distance to cluster center\n\n"];
+	central [label="🧩 outlier #2\nqueryhandling"];
+	"query_60364"  [label = "query\n(96.05%)"; penwidth = 2; ]; "query_60364" -> central [label=56; weight=56; penwidth=1.1];
+	"autoconfig_48231"  [shape = "circle"; height=1.8; label = "autoconfig\n(51.29%)"; penwidth = 2; ]; "autoconfig_48231" -> central [label=53; weight=53; penwidth=1.1];
+	"config_14721"  [shape = "circle"; height=1.8; label = "config\n(0.0%)"; penwidth = 2; ]; "config_14721" -> central [label=41; weight=41; penwidth=0.9];
+	"subscription_60365"  [label = "subscription\n(100.0%)"; penwidth = 2; ]; "subscription_60365" -> central [label=22; weight=22; penwidth=0.7];
+	"connector_60355"  [label = "connector\n(61.42%)"; penwidth = 5; ]; "connector_60355" -> central [label=19; weight=19; penwidth=0.6];
+	"registration_45111"  [label = "registration\n(89.04%)"; penwidth = 2; ]; "registration_45111" -> central [label=15; weight=15; penwidth=0.6];
+	"annotation_45110"  [shape = "circle"; height=1.8; label = "annotation\n(54.38%)"; penwidth = 5; ]; "annotation_45110" -> central [label=8; weight=8; penwidth=0.5];
+	"responsetypes_40898"  [label = "responsetypes\n(90.66%)"; penwidth = 2; ]; "responsetypes_40898" -> central [label=4; weight=4; penwidth=0.5];
+	"serialization_45112"  [label = "serialization\n(78.77%)"; penwidth = 2; ]; "serialization_45112" -> central [label=3; weight=3; penwidth=0.4];
+	"tracing_47232"  [label = "tracing\n(100.0%)"; penwidth = 5; ]; "tracing_47232" -> central [label=1; weight=1; penwidth=0.4];
+	"util_48181"  [label = "util\n(100.0%)"; penwidth = 2; ]; "util_48181" -> central [label=1; weight=1; penwidth=0.4];
+	"attributes_48176"  [label = "attributes\n(100.0%)"; penwidth = 2; ]; "attributes_48176" -> central [label=0; weight=0; penwidth=0.4];
+	"timeout_40899"  [label = "timeout\n(77.88%)"; penwidth = 2; ]; "timeout_40899" -> central [label=0; weight=0; penwidth=0.4];
+	"messaging_37597"  [label = "messaging\n(100.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "messaging_37597" [label=96; weight=96; penwidth=1.6; color = 5];
+	"common_23092"  [label = "common\n(100.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "common_23092" [label=35; weight=35; penwidth=0.8; color = 5];
+	"responsetypes_40898"  [label = "responsetypes\n(90.66%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "responsetypes_40898" [label=27; weight=27; penwidth=0.7; color = 5];
+	"tracing_47232"  [label = "tracing\n(100.0%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "tracing_47232" [label=22; weight=22; penwidth=0.7; color = 5];
+	"unitofwork_41992"  [label = "unitofwork\n(64.48%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "unitofwork_41992" [label=13; weight=13; penwidth=0.6; color = 5];
+	"monitoring_41990"  [label = "monitoring\n(100.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "monitoring_41990" [label=11; weight=11; penwidth=0.5; color = 5];
+	"transaction_25217"  [label = "transaction\n(91.29%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "transaction_25217" [label=3; weight=3; penwidth=0.4; color = 5];
+	"interceptors_40896"  [label = "interceptors\n(91.63%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "interceptors_40896" [label=2; weight=2; penwidth=0.4; color = 5];
+	"registration_45111"  [label = "registration\n(89.04%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "registration_45111" [label=2; weight=2; penwidth=0.4; color = 5];
+	"annotation_38826"  [label = "annotation\n(85.04%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "annotation_38826" [label=1; weight=1; penwidth=0.4; color = 5];
+	"autoconfig_48231" -> "connector_60355" [label=87; weight=87; penwidth=0.3; color = 3]
+	"query_60364" -> "connector_60355" [label=65; weight=65; penwidth=0.3; color = 3]
+	"config_14721" -> "common_23092" [label=51; weight=51; penwidth=0.3; color = 3]
+	"autoconfig_48231" -> "config_14721" [label=47; weight=47; penwidth=0.3; color = 3]
+	"connector_60355" -> "common_23092" [label=46; weight=46; penwidth=0.3; color = 3]
+	"annotation_38826" -> "messaging_37597" [label=38; weight=38; penwidth=0.3; color = 3]
+	"unitofwork_41992" -> "messaging_37597" [label=35; weight=35; penwidth=0.3; color = 3]
+	"query_60364" -> "messaging_37597" [label=34; weight=34; penwidth=0.3; color = 3]
+	"query_60364" -> "common_23092" [label=30; weight=30; penwidth=0.3; color = 3]
+	"serialization_45112" -> "common_23092" [label=26; weight=26; penwidth=0.3; color = 3]
+	"subscription_60365" -> "connector_60355" [label=26; weight=26; penwidth=0.3; color = 3]
+	"annotation_45110" -> "annotation_38826" [label=25; weight=25; penwidth=0.3; color = 3]
+	"annotation_38826" -> "common_23092" [label=25; weight=25; penwidth=0.3; color = 3]
+	"autoconfig_48231" -> "serialization_45112" [label=25; weight=25; penwidth=0.3; color = 3]
+	"autoconfig_48231" -> "timeout_40899" [label=25; weight=25; penwidth=0.3; color = 3]
 	"connector_60355" -> "config_14721" [label=25; weight=25; penwidth=0.3; color = 3]
-	"axon_60358" -> "config_14721" [label=13; weight=13; penwidth=0.3; color = 3]
-	"config_14721" -> "lifecycle_37596" [label=12; weight=12; penwidth=0.3; color = 3]
-	"pooled_34639" -> "tokenstore_36610" [label=12; weight=12; penwidth=0.3; color = 3]
+	"serialization_45112" -> "messaging_37597" [label=24; weight=24; penwidth=0.3; color = 3]
+	"config_14721" -> "messaging_37597" [label=21; weight=21; penwidth=0.3; color = 3]
+	"query_60364" -> "serialization_45112" [label=21; weight=21; penwidth=0.3; color = 3]
+	"messaging_37597" -> "common_23092" [label=20; weight=20; penwidth=0.3; color = 3]
+	"connector_60355" -> "query_60364" [label=19; weight=19; penwidth=0.3; color = 3]
+	"config_14721" -> "annotation_38826" [label=17; weight=17; penwidth=0.3; color = 3]
+	"query_60364" -> "responsetypes_40898" [label=16; weight=16; penwidth=0.3; color = 3]
+	"autoconfig_48231" -> "query_60364" [label=15; weight=15; penwidth=0.3; color = 3]
+	"tracing_47232" -> "messaging_37597" [label=15; weight=15; penwidth=0.3; color = 3]
+	"subscription_60365" -> "serialization_45112" [label=14; weight=14; penwidth=0.3; color = 3]
+	"messaging_37597" -> "serialization_45112" [label=13; weight=13; penwidth=0.3; color = 3]
+	"autoconfig_48231" -> "attributes_48176" [label=12; weight=12; penwidth=0.3; color = 3]
+	"query_60364" -> "tracing_47232" [label=12; weight=12; penwidth=0.3; color = 3]
+	"subscription_60365" -> "query_60364" [label=12; weight=12; penwidth=0.3; color = 3]
+	"subscription_60365" -> "messaging_37597" [label=12; weight=12; penwidth=0.3; color = 3]
+	"autoconfig_48231" -> "tracing_47232" [label=11; weight=11; penwidth=0.3; color = 3]
 	"config_14721" -> "transaction_25217" [label=11; weight=11; penwidth=0.3; color = 3]
-	"eventhandling_26974" -> "tokenstore_36610" [label=10; weight=10; penwidth=0.3; color = 3]
-	"tokenstore_36610" -> "eventhandling_26974" [label=9; weight=9; penwidth=0.3; color = 3]
-	"pooled_34639" -> "transaction_25217" [label=8; weight=8; penwidth=0.3; color = 3]
-	"eventhandling_26974" -> "transaction_25217" [label=7; weight=7; penwidth=0.3; color = 3]
-	"config_14721" -> "tokenstore_36610" [label=4; weight=4; penwidth=0.3; color = 3]
+	"query_60364" -> "subscription_60365" [label=11; weight=11; penwidth=0.3; color = 3]
+	"unitofwork_41992" -> "common_23092" [label=10; weight=10; penwidth=0.3; color = 3]
+	"responsetypes_40898" -> "common_23092" [label=9; weight=9; penwidth=0.3; color = 3]
+	"autoconfig_48231" -> "common_23092" [label=8; weight=8; penwidth=0.3; color = 3]
+	"config_14721" -> "serialization_45112" [label=8; weight=8; penwidth=0.3; color = 3]
+	"connector_60355" -> "messaging_37597" [label=8; weight=8; penwidth=0.3; color = 3]
+	"interceptors_40896" -> "messaging_37597" [label=8; weight=8; penwidth=0.3; color = 3]
+	"tracing_47232" -> "common_23092" [label=8; weight=8; penwidth=0.3; color = 3]
+	"autoconfig_48231" -> "messaging_37597" [label=7; weight=7; penwidth=0.3; color = 3]
+	"config_14721" -> "monitoring_41990" [label=7; weight=7; penwidth=0.3; color = 3]
+	"annotation_38826" -> "unitofwork_41992" [label=6; weight=6; penwidth=0.3; color = 3]
+	"autoconfig_48231" -> "transaction_25217" [label=6; weight=6; penwidth=0.3; color = 3]
+	"config_14721" -> "util_48181" [label=6; weight=6; penwidth=0.3; color = 3]
+	"config_14721" -> "interceptors_40896" [label=6; weight=6; penwidth=0.3; color = 3]
+	"timeout_40899" -> "annotation_38826" [label=6; weight=6; penwidth=0.3; color = 3]
+	"subscription_60365" -> "tracing_47232" [label=5; weight=5; penwidth=0.3; color = 3]
+	"tracing_47232" -> "annotation_38826" [label=5; weight=5; penwidth=0.3; color = 3]
+	"autoconfig_48231" -> "interceptors_40896" [label=4; weight=4; penwidth=0.3; color = 3]
+	"config_14721" -> "unitofwork_41992" [label=4; weight=4; penwidth=0.3; color = 3]
+	"responsetypes_40898" -> "messaging_37597" [label=4; weight=4; penwidth=0.3; color = 3]
+	"annotation_45110" -> "common_23092" [label=3; weight=3; penwidth=0.3; color = 3]
+	"annotation_38826" -> "interceptors_40896" [label=3; weight=3; penwidth=0.3; color = 3]
+	"attributes_48176" -> "messaging_37597" [label=3; weight=3; penwidth=0.3; color = 3]
+	"config_14721" -> "tracing_47232" [label=3; weight=3; penwidth=0.3; color = 3]
+	"config_14721" -> "annotation_45110" [label=3; weight=3; penwidth=0.3; color = 3]
 	"connector_60355" -> "transaction_25217" [label=3; weight=3; penwidth=0.3; color = 3]
-	"eventhandling_26974" -> "lifecycle_37596" [label=3; weight=3; penwidth=0.3; color = 3]
-	"axon_60358" -> "lifecycle_37596" [label=1; weight=1; penwidth=0.3; color = 3]
-	"connector_60355" -> "eventhandling_26974" [label=1; weight=1; penwidth=0.3; color = 3]
-	"connector_60355" -> "lifecycle_37596" [label=1; weight=1; penwidth=0.3; color = 3]
-	"pooled_34639" -> "lifecycle_37596" [label=1; weight=1; penwidth=0.3; color = 3]
-	"connector_60355" -> "tokenstore_36610" [label=0; weight=0; penwidth=0.3; color = 3]
+	"interceptors_40896" -> "unitofwork_41992" [label=3; weight=3; penwidth=0.3; color = 3]
+	"serialization_45112" -> "util_48181" [label=3; weight=3; penwidth=0.3; color = 3]
+	"tracing_47232" -> "unitofwork_41992" [label=3; weight=3; penwidth=0.3; color = 3]
+	"autoconfig_48231" -> "annotation_38826" [label=2; weight=2; penwidth=0.3; color = 3]
+	"interceptors_40896" -> "annotation_38826" [label=2; weight=2; penwidth=0.3; color = 3]
+	"interceptors_40896" -> "common_23092" [label=2; weight=2; penwidth=0.3; color = 3]
+	"interceptors_40896" -> "transaction_25217" [label=2; weight=2; penwidth=0.3; color = 3]
+	"messaging_37597" -> "unitofwork_41992" [label=2; weight=2; penwidth=0.3; color = 3]
+	"monitoring_41990" -> "messaging_37597" [label=2; weight=2; penwidth=0.3; color = 3]
+	"registration_45111" -> "common_23092" [label=2; weight=2; penwidth=0.3; color = 3]
+	"timeout_40899" -> "messaging_37597" [label=2; weight=2; penwidth=0.3; color = 3]
+	"timeout_40899" -> "unitofwork_41992" [label=2; weight=2; penwidth=0.3; color = 3]
+	"timeout_40899" -> "common_23092" [label=2; weight=2; penwidth=0.3; color = 3]
+	"annotation_45110" -> "messaging_37597" [label=1; weight=1; penwidth=0.3; color = 3]
+	"attributes_48176" -> "tracing_47232" [label=1; weight=1; penwidth=0.3; color = 3]
+	"monitoring_41990" -> "common_23092" [label=1; weight=1; penwidth=0.3; color = 3]
+	"query_60364" -> "util_48181" [label=1; weight=1; penwidth=0.3; color = 3]
+	"responsetypes_40898" -> "util_48181" [label=1; weight=1; penwidth=0.3; color = 3]
+	"responsetypes_40898" -> "serialization_45112" [label=1; weight=1; penwidth=0.3; color = 3]
+	"subscription_60365" -> "common_23092" [label=1; weight=1; penwidth=0.3; color = 3]
+	"subscription_60365" -> "responsetypes_40898" [label=1; weight=1; penwidth=0.3; color = 3]
+	"unitofwork_41992" -> "transaction_25217" [label=1; weight=1; penwidth=0.3; color = 3]
+	"util_48181" -> "common_23092" [label=1; weight=1; penwidth=0.3; color = 3]
+	"annotation_45110" -> "responsetypes_40898" [label=0; weight=0; penwidth=0.3; color = 3]
+	"registration_45111" -> "messaging_37597" [label=0; weight=0; penwidth=0.3; color = 3]
 }

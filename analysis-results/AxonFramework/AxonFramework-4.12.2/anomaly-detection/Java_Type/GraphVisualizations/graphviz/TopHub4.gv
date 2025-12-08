@@ -54,11 +54,11 @@ strict digraph TopHub4 {
 	"AggregateTestFixture$RecordingEventStore_297"  [label = "AggregateTestFixture$\nRecordingEventStore\n(0.13)"; penwidth = 2; ]; "AggregateTestFixture$RecordingEventStore_297" -> central [label=5; weight=5; penwidth=0.5];
 	"AnnotatedAggregateMetaModelFactory$AnnotatedAggregateModel_56695"  [label = "AnnotatedAggregateMetaModelFactory$\nAnnotatedAggregateModel\n(0.09)"; penwidth = 2; ]; "AnnotatedAggregateMetaModelFactory$AnnotatedAggregateModel_56695" -> central [label=5; weight=5; penwidth=0.5];
 	"AnnotatedSagaManager_58723"  [label = "AnnotatedSagaManager\n(0.28)"; penwidth = 2; ]; "AnnotatedSagaManager_58723" -> central [label=5; weight=5; penwidth=0.5];
-	"Message_19105"  [label = "Message\n(0.03)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "Message_19105" [label=3; weight=3; penwidth=0.4; color = 5];
+	"Message_19106"  [label = "Message\n(0.03)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "Message_19106" [label=3; weight=3; penwidth=0.4; color = 5];
 	"EventProcessingModule_14810" -> "EventProcessingConfigurer_14755" [label=45; weight=45; penwidth=0.3; color = 3]
 	"DeadLetteringEventHandlerInvoker_31338" -> "SimpleEventHandlerInvoker_30430" [label=9; weight=9; penwidth=0.3; color = 3]
-	"GenericEventMessage_26235" -> "Message_19105" [label=8; weight=8; penwidth=0.3; color = 3]
-	"AnnotatedAggregate_55333" -> "Message_19105" [label=7; weight=7; penwidth=0.3; color = 3]
+	"GenericEventMessage_26235" -> "Message_19106" [label=8; weight=8; penwidth=0.3; color = 3]
+	"AnnotatedAggregate_55333" -> "Message_19106" [label=7; weight=7; penwidth=0.3; color = 3]
 	"SagaTestFixture_4191" -> "GenericEventMessage_26235" [label=6; weight=6; penwidth=0.3; color = 3]
 	"EventMessageDeadLetterJpaConverter_32631" -> "GenericEventMessage_26235" [label=5; weight=5; penwidth=0.3; color = 3]
 	"EventMessageDeadLetterJpaConverter_33282" -> "GenericEventMessage_26235" [label=5; weight=5; penwidth=0.3; color = 3]
@@ -71,19 +71,19 @@ strict digraph TopHub4 {
 	"EventProcessingModule_14810" -> "DeadLetteringEventHandlerInvoker_31338" [label=3; weight=3; penwidth=0.3; color = 3]
 	"AbstractEventGateway_33615" -> "GenericEventMessage_26235" [label=2; weight=2; penwidth=0.3; color = 3]
 	"AnnotatedAggregate_55333" -> "GenericEventMessage_26235" [label=2; weight=2; penwidth=0.3; color = 3]
-	"AnnotatedAggregateMetaModelFactory$AnnotatedAggregateModel_56695" -> "Message_19105" [label=2; weight=2; penwidth=0.3; color = 3]
-	"AnnotatedSaga_58720" -> "Message_19105" [label=2; weight=2; penwidth=0.3; color = 3]
+	"AnnotatedAggregateMetaModelFactory$AnnotatedAggregateModel_56695" -> "Message_19106" [label=2; weight=2; penwidth=0.3; color = 3]
+	"AnnotatedSaga_58720" -> "Message_19106" [label=2; weight=2; penwidth=0.3; color = 3]
 	"AnnotatedSagaManager_58723" -> "AbstractSagaManager_57742" [label=2; weight=2; penwidth=0.3; color = 3]
-	"AnnotationEventHandlerAdapter_28300" -> "Message_19105" [label=2; weight=2; penwidth=0.3; color = 3]
+	"AnnotationEventHandlerAdapter_28300" -> "Message_19106" [label=2; weight=2; penwidth=0.3; color = 3]
 	"EventProcessingModule_14810" -> "SimpleEventHandlerInvoker_30430" [label=2; weight=2; penwidth=0.3; color = 3]
 	"JobRunrEventScheduler_35580" -> "GenericEventMessage_26235" [label=2; weight=2; penwidth=0.3; color = 3]
 	"QuartzEventScheduler$DirectEventJobDataBinder_36618" -> "GenericEventMessage_26235" [label=2; weight=2; penwidth=0.3; color = 3]
-	"AbstractSagaManager_57742" -> "Message_19105" [label=1; weight=1; penwidth=0.3; color = 3]
-	"EventLoggingInterceptor_34621" -> "Message_19105" [label=1; weight=1; penwidth=0.3; color = 3]
-	"EventProcessingConfigurer_14755" -> "Message_19105" [label=1; weight=1; penwidth=0.3; color = 3]
-	"EventProcessingModule_14810" -> "Message_19105" [label=1; weight=1; penwidth=0.3; color = 3]
-	"EventValidator_4947" -> "Message_19105" [label=1; weight=1; penwidth=0.3; color = 3]
+	"AbstractSagaManager_57742" -> "Message_19106" [label=1; weight=1; penwidth=0.3; color = 3]
+	"EventLoggingInterceptor_34621" -> "Message_19106" [label=1; weight=1; penwidth=0.3; color = 3]
+	"EventProcessingConfigurer_14755" -> "Message_19106" [label=1; weight=1; penwidth=0.3; color = 3]
+	"EventProcessingModule_14810" -> "Message_19106" [label=1; weight=1; penwidth=0.3; color = 3]
+	"EventValidator_4947" -> "Message_19106" [label=1; weight=1; penwidth=0.3; color = 3]
 	"JpaEventStorageEngine_12532" -> "GenericEventMessage_26235" [label=1; weight=1; penwidth=0.3; color = 3]
 	"JpaEventStorageEngine_12852" -> "GenericEventMessage_26235" [label=1; weight=1; penwidth=0.3; color = 3]
-	"ResultValidatorImpl_2091" -> "Message_19105" [label=1; weight=1; penwidth=0.3; color = 3]
+	"ResultValidatorImpl_2091" -> "Message_19106" [label=1; weight=1; penwidth=0.3; color = 3]
 }
