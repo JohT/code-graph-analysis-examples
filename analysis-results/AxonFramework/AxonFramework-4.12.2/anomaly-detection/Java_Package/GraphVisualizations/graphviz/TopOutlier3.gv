@@ -15,11 +15,11 @@ strict digraph TopOutlier3 {
 	graph   [label="Top Rank #3 Java Package Outlier\norg.axonframework.queryhandling.annotation\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: cluster probability\nlarge circle: < 25% percentile of cluster probability\nthick outline: > 80% percentile of distance to cluster center\n\n"];
 	central [label="🧩 outlier #3\nannotation"];
 	"config_14721"  [shape = "circle"; height=1.8; label = "config\n(0.0%)"; penwidth = 2; ]; "config_14721" -> central [label=3; weight=3; penwidth=0.4];
-	"annotation_38826"  [label = "annotation\n(84.71%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "annotation_38826" [label=25; weight=25; penwidth=0.7; color = 5];
-	"queryhandling_41991"  [label = "queryhandling\n(77.15%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "queryhandling_41991" [label=8; weight=8; penwidth=0.5; color = 5];
-	"common_23092"  [label = "common\n(86.94%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "common_23092" [label=3; weight=3; penwidth=0.4; color = 5];
+	"annotation_38826"  [label = "annotation\n(87.49%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "annotation_38826" [label=25; weight=25; penwidth=0.7; color = 5];
+	"queryhandling_41991"  [label = "queryhandling\n(83.86%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "queryhandling_41991" [label=8; weight=8; penwidth=0.5; color = 5];
+	"common_23092"  [label = "common\n(95.23%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "common_23092" [label=3; weight=3; penwidth=0.4; color = 5];
 	"messaging_37597"  [label = "messaging\n(100.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "messaging_37597" [label=1; weight=1; penwidth=0.4; color = 5];
-	"responsetypes_40898"  [label = "responsetypes\n(97.22%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "responsetypes_40898" [label=0; weight=0; penwidth=0.4; color = 5];
+	"responsetypes_40898"  [label = "responsetypes\n(100.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "responsetypes_40898" [label=0; weight=0; penwidth=0.4; color = 5];
 	"queryhandling_41991" -> "messaging_37597" [label=96; weight=96; penwidth=0.3; color = 3]
 	"config_14721" -> "common_23092" [label=51; weight=51; penwidth=0.3; color = 3]
 	"config_14721" -> "queryhandling_41991" [label=41; weight=41; penwidth=0.3; color = 3]

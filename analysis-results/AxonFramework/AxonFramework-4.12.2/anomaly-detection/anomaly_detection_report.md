@@ -1,6 +1,6 @@
 ---
 title: "Anomaly Detection Report"
-generated: "2025-12-01"
+generated: "2025-12-08"
 model_version: ""
 dataset: "AxonFramework-4.12.2"
 authors: ["JohT/code-graph-analysis-pipeline"]
@@ -28,15 +28,15 @@ The goal is to detect potential **software quality, design, and architecture iss
 
 | Analyzed Units | Anomalies | Authorities | Bottlenecks | Bridges | Hubs | Outliers |
 | --- | --- | --- | --- | --- | --- | --- |
-| 1650 | 81 | 22 | 21 | 16 | 11 | 12 |
+| 1650 | 81 | 22 | 21 | 16 | 11 | 17 |
 
 ### 1.2 Overview of Analyzed Structures
 
 | Abstraction Level | Units | Anomalies | Authorities | Bottlenecks | Bridges | Hubs | Outliers |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| Type,Java,Class | 1101 | 41 | 9 | 4 | 9 | 3 | 4 |
-| Type,Java,Interface | 264 | 32 | 1 | 6 | 1 | 2 | 3 |
-| Package,Java | 146 | 6 | 10 | 10 | 6 | 5 | 5 |
+| Type,Java,Class | 1101 | 41 | 9 | 4 | 9 | 3 | 6 |
+| Type,Java,Interface | 264 | 32 | 1 | 6 | 1 | 2 | 4 |
+| Package,Java | 146 | 6 | 10 | 10 | 6 | 5 | 7 |
 | Type,Java,Class,Throwable | 56 | 1 | 0 | 0 | 0 | 0 | 0 |
 | Type,Java,Enum | 30 | 1 | 0 | 0 | 0 | 0 | 0 |
 | Type,Java,Annotation | 44 | 0 | 0 | 0 | 0 | 0 | 0 |
@@ -136,47 +136,47 @@ See [Plot Interpretation Guide](#3-plot-interpretation-guide) on how to read the
 
 | Anomalies | Authorities | Bottlenecks | Bridges | Hubs | Outliers |
 | --- | --- | --- | --- | --- | --- |
-| 6 | 10 | 10 | 6 | 5 | 5 |
+| 6 | 10 | 10 | 6 | 5 | 7 |
 
 ##### Top global contributing features (via SHAP)
 
 | Feature | Mean absolute SHAP value |
 | --- | --- |
-| *Node embeddings aggregated* | 0.028100 |
-| incomingDependencies | 0.011595 |
-| betweenness | 0.011367 |
-| articleRank | 0.010441 |
-| pageRank | 0.008942 |
-| pageToArticleRankDifference | 0.008760 |
-| degree | 0.008735 |
-| localClusteringCoefficient | 0.008245 |
-| outgoingDependencies | 0.004923 |
-| nodeEmbeddingPCA_14 | 0.004132 |
-| nodeEmbeddingPCA_12 | 0.002856 |
+| *Node embeddings aggregated* | 0.031674 |
+| betweenness | 0.016335 |
+| incomingDependencies | 0.015197 |
+| articleRank | 0.008969 |
+| degree | 0.008001 |
+| pageToArticleRankDifference | 0.007811 |
+| pageRank | 0.007810 |
+| localClusteringCoefficient | 0.007450 |
+| outgoingDependencies | 0.004854 |
+| nodeEmbeddingPCA_12 | 0.004121 |
+| nodeEmbeddingPCA_14 | 0.003720 |
 
 #### Archetype Distribution
 
 | Archetype | Count | Max. Score | Model Status | Examples |
 | --- | --- | --- | --- | --- |
-| Authority | 1 | 0.0007 | Anomalous | org.axonframework.common |
-| Bottleneck | 4 | 0.0479 | Anomalous | org.axonframework.serialization, org.axonframework.messaging, org.axonframework.config |
-| Bridge | 6 | 0.0479 | Anomalous | org.axonframework.serialization, org.axonframework.messaging, org.axonframework.eventsourcing.eventstore.jdbc |
-| Hub | 4 | 0.0479 | Anomalous | org.axonframework.serialization, org.axonframework.messaging, org.axonframework.config |
-| Authority | 9 | -0.0038 | Typical | org.axonframework.axonserver.connector, org.axonframework.common.transaction, org.axonframework.deadline.annotation |
-| Bottleneck | 6 | 0 | Typical | org.axonframework.commandhandling, org.axonframework.axonserver.connector, org.axonframework.messaging.annotation |
-| Hub | 1 | -0.0427 | Typical | org.axonframework.springboot.autoconfig |
-| Outlier | 5 | -0.0645 | Typical | org.axonframework.springboot.autoconfig.legacyjpa, org.axonframework.queryhandling.annotation, org.axonframework.modelling.saga.repository.inmemory |
+| Authority | 1 | 0.0023 | Anomalous | org.axonframework.common |
+| Bottleneck | 4 | 0.0526 | Anomalous | org.axonframework.messaging, org.axonframework.eventhandling, org.axonframework.serialization |
+| Bridge | 6 | 0.0526 | Anomalous | org.axonframework.messaging, org.axonframework.eventhandling, org.axonframework.eventsourcing.eventstore.jdbc |
+| Hub | 4 | 0.0526 | Anomalous | org.axonframework.messaging, org.axonframework.eventhandling, org.axonframework.serialization |
+| Authority | 9 | -0.017 | Typical | org.axonframework.axonserver.connector, org.axonframework.common.transaction, org.axonframework.deadline.annotation |
+| Bottleneck | 6 | -0.0057 | Typical | org.axonframework.commandhandling, org.axonframework.eventsourcing.eventstore, org.axonframework.messaging.annotation |
+| Hub | 1 | -0.0701 | Typical | org.axonframework.springboot.autoconfig |
+| Outlier | 7 | -0.0418 | Typical | org.axonframework.eventhandling.deadletter.jdbc, org.axonframework.springboot.autoconfig.legacyjpa, org.axonframework.queryhandling.annotation |
 
 #### Top anomalies with their local contributing features (via SHAP)
 
 | Name | Contained in | Anomaly Score | Archetypes | Top Feature 1 | Top Feature 1 SHAP | Top Feature 2 | Top Feature 2 SHAP | Top Feature 3 | Top Feature 3 SHAP | Model Status |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| org.axonframework.serialization | axon-messaging-4.12.2 | 0.0479 | Bottleneck, Bridge, Hub | betweenness | -0.1707 | articleRank | -0.1343 | pageRank | -0.113 | Anomalous |
-| org.axonframework.messaging | axon-messaging-4.12.2 | 0.0437 | Bottleneck, Hub, Bridge | betweenness | -0.1526 | articleRank | -0.143 | pageRank | -0.1206 | Anomalous |
-| org.axonframework.eventsourcing.eventstore.jdbc | axon-eventsourcing-4.12.2 | 0.0416 | Bridge | nodeEmbeddingPCA_10 | -0.0721 | nodeEmbeddingPCA_14 | -0.0686 | outgoingDependencies | -0.061 | Anomalous |
-| org.axonframework.config | axon-configuration-4.12.2 | 0.04 | Bridge, Bottleneck, Hub | betweenness | -0.1428 | degree | -0.1282 | outgoingDependencies | -0.0898 | Anomalous |
-| org.axonframework.eventhandling | axon-messaging-4.12.2 | 0.0399 | Bottleneck, Hub, Bridge | betweenness | -0.1645 | articleRank | -0.1284 | pageRank | -0.1144 | Anomalous |
-| org.axonframework.common | axon-messaging-4.12.2 | 0.0007 | Authority, Bridge | articleRank | -0.1667 | pageRank | -0.152 | pageToArticleRankDifference | -0.1472 | Anomalous |
+| org.axonframework.messaging | axon-messaging-4.12.2 | 0.0526 | Bottleneck, Hub, Bridge | betweenness | -0.2102 | incomingDependencies | -0.1386 | pageToArticleRankDifference | -0.1092 | Anomalous |
+| org.axonframework.eventhandling | axon-messaging-4.12.2 | 0.0331 | Bottleneck, Hub, Bridge | betweenness | -0.2221 | incomingDependencies | -0.1388 | articleRank | -0.0996 | Anomalous |
+| org.axonframework.eventsourcing.eventstore.jdbc | axon-eventsourcing-4.12.2 | 0.0266 | Bridge | nodeEmbeddingPCA_10 | -0.0789 | outgoingDependencies | -0.0701 | nodeEmbeddingPCA_14 | -0.0698 | Anomalous |
+| org.axonframework.serialization | axon-messaging-4.12.2 | 0.0252 | Bottleneck, Hub, Bridge | betweenness | -0.2233 | incomingDependencies | -0.1307 | articleRank | -0.1049 | Anomalous |
+| org.axonframework.config | axon-configuration-4.12.2 | 0.0148 | Bridge, Bottleneck, Hub | betweenness | -0.1958 | degree | -0.1331 | outgoingDependencies | -0.0717 | Anomalous |
+| org.axonframework.common | axon-messaging-4.12.2 | 0.0023 | Authority, Bridge | pageToArticleRankDifference | -0.154 | articleRank | -0.1294 | incomingDependencies | -0.1255 | Anomalous |
 
 #### Visualizations
 
@@ -323,61 +323,61 @@ See [Plot Interpretation Guide](#3-plot-interpretation-guide) on how to read the
 
 | Anomalies | Authorities | Bottlenecks | Bridges | Hubs | Outliers |
 | --- | --- | --- | --- | --- | --- |
-| 75 | 10 | 10 | 10 | 5 | 7 |
+| 75 | 10 | 10 | 10 | 5 | 10 |
 
 ##### Top global contributing features (via SHAP)
 
 | Feature | Mean absolute SHAP value |
 | --- | --- |
-| *Node embeddings aggregated* | 0.037799 |
-| articleRank | 0.019121 |
-| pageRank | 0.011391 |
-| degree | 0.009656 |
-| pageToArticleRankDifference | 0.008833 |
-| betweenness | 0.006404 |
-| incomingDependencies | 0.006380 |
-| nodeEmbeddingPCA_17 | 0.003683 |
-| nodeEmbeddingPCA_20 | 0.002745 |
-| nodeEmbeddingPCA_24 | 0.002489 |
-| nodeEmbeddingPCA_31 | 0.002215 |
+| *Node embeddings aggregated* | 0.039424 |
+| articleRank | 0.019558 |
+| pageRank | 0.010395 |
+| degree | 0.008853 |
+| pageToArticleRankDifference | 0.007406 |
+| incomingDependencies | 0.007158 |
+| betweenness | 0.003838 |
+| nodeEmbeddingPCA_17 | 0.003779 |
+| nodeEmbeddingPCA_20 | 0.003238 |
+| nodeEmbeddingPCA_24 | 0.002682 |
+| nodeEmbeddingPCA_30 | 0.002625 |
 
 #### Archetype Distribution
 
 | Archetype | Count | Max. Score | Model Status | Examples |
 | --- | --- | --- | --- | --- |
-| Authority | 7 | 0.0886 | Anomalous | org.axonframework.messaging.MetaData, org.axonframework.serialization.SerializedType, org.axonframework.common.Assert |
-| Bottleneck | 5 | 0.1128 | Anomalous | org.axonframework.messaging.Message, org.axonframework.messaging.unitofwork.UnitOfWork, org.axonframework.springboot.autoconfig.AxonAutoConfiguration |
-| Bridge | 10 | 0.0353 | Anomalous | org.axonframework.commandhandling.gateway.CommandGatewayFactory, org.axonframework.eventsourcing.eventstore.legacyjpa.EmbeddedEventStore, org.axonframework.eventsourcing.eventstore.legacyjpa.EmbeddedEventStore$1 |
-| Hub | 5 | 0.1128 | Anomalous | org.axonframework.messaging.Message, org.axonframework.common.BuilderUtils, org.axonframework.eventhandling.EventMessage |
-| Outlier | 2 | 0.0785 | Anomalous | org.axonframework.serialization.SerializedType, org.axonframework.eventhandling.scheduling.ScheduleToken |
-| Authority | 3 | -0.0025 | Typical | org.axonframework.eventhandling.tokenstore.jdbc.TokenSchema, org.axonframework.eventsourcing.eventstore.jdbc.EventSchema$Builder, org.axonframework.common.TypeReflectionUtils$VarMap |
-| Bottleneck | 5 | -0.0022 | Typical | org.axonframework.messaging.GenericMessage, org.axonframework.config.EventProcessingModule, org.axonframework.config.Configurer |
-| Outlier | 5 | -0.0046 | Typical | org.axonframework.springboot.autoconfig.AxonDbSchedulerAutoConfiguration, org.axonframework.commandhandling.distributed.CommandBusConnector, org.axonframework.eventsourcing.eventstore.jdbc.JdbcEventStorageEngine$Builder |
+| Authority | 8 | 0.0935 | Anomalous | org.axonframework.messaging.MetaData, org.axonframework.serialization.SerializedType, org.axonframework.common.Assert |
+| Bottleneck | 6 | 0.1143 | Anomalous | org.axonframework.messaging.Message, org.axonframework.messaging.unitofwork.UnitOfWork, org.axonframework.springboot.autoconfig.AxonAutoConfiguration |
+| Bridge | 10 | 0.0368 | Anomalous | org.axonframework.commandhandling.gateway.CommandGatewayFactory, org.axonframework.eventsourcing.eventstore.legacyjpa.EmbeddedEventStore, org.axonframework.eventsourcing.eventstore.EmbeddedEventStore$1 |
+| Hub | 5 | 0.1143 | Anomalous | org.axonframework.messaging.Message, org.axonframework.common.BuilderUtils, org.axonframework.eventhandling.EventMessage |
+| Outlier | 2 | 0.078 | Anomalous | org.axonframework.serialization.SerializedType, org.axonframework.eventhandling.scheduling.ScheduleToken |
+| Authority | 2 | -0.0046 | Typical | org.axonframework.eventhandling.tokenstore.jdbc.TokenSchema, org.axonframework.common.TypeReflectionUtils$VarMap |
+| Bottleneck | 4 | -0.0247 | Typical | org.axonframework.config.EventProcessingModule, org.axonframework.config.Configurer, org.axonframework.config.AggregateConfigurer |
+| Outlier | 8 | -0.012 | Typical | org.axonframework.eventhandling.TrackingEventStream, org.axonframework.commandhandling.distributed.DistributedCommandBus, org.axonframework.eventsourcing.eventstore.jdbc.JdbcEventStorageEngine$Builder |
 
 #### Top anomalies with their local contributing features (via SHAP)
 
 | Name | Contained in | Anomaly Score | Archetypes | Top Feature 1 | Top Feature 1 SHAP | Top Feature 2 | Top Feature 2 SHAP | Top Feature 3 | Top Feature 3 SHAP | Model Status |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| org.axonframework.messaging.Message | axon-messaging-4.12.2 | 0.1128 | Hub, Bottleneck | articleRank | -0.2597 | degree | -0.1727 | pageRank | -0.1707 | Anomalous |
-| org.axonframework.messaging.MetaData | axon-messaging-4.12.2 | 0.0886 | Authority | articleRank | -0.2453 | degree | -0.1727 | pageRank | -0.1688 | Anomalous |
-| org.axonframework.serialization.SerializedType | axon-messaging-4.12.2 | 0.0785 | Authority, Outlier | articleRank | -0.246 | pageRank | -0.1769 | degree | -0.1635 | Anomalous |
-| org.axonframework.common.BuilderUtils | axon-messaging-4.12.2 | 0.0745 | Hub | articleRank | -0.2663 | degree | -0.2014 | pageRank | -0.155 | Anomalous |
-| org.axonframework.messaging.unitofwork.UnitOfWork | axon-messaging-4.12.2 | 0.0732 | Bottleneck | articleRank | -0.2656 | degree | -0.2035 | incomingDependencies | -0.13 | Anomalous |
-| org.axonframework.serialization.SerializedObject | axon-messaging-4.12.2 | 0.0712 |  | articleRank | -0.2377 | degree | -0.1821 | pageRank | -0.1734 | Anomalous |
-| org.axonframework.serialization.Serializer | axon-messaging-4.12.2 | 0.0682 |  | articleRank | -0.2509 | degree | -0.1845 | pageRank | -0.1655 | Anomalous |
-| org.axonframework.eventhandling.EventMessage | axon-messaging-4.12.2 | 0.0674 | Hub | articleRank | -0.264 | degree | -0.1855 | pageRank | -0.1613 | Anomalous |
-| org.axonframework.springboot.autoconfig.AxonAutoConfiguration | axon-spring-boot-autoconfigure-4.12.2 | 0.0623 | Bottleneck | degree | -0.3177 | outgoingDependencies | -0.1641 | betweenness | -0.1184 | Anomalous |
-| org.axonframework.commandhandling.CommandMessage | axon-messaging-4.12.2 | 0.0597 |  | articleRank | -0.275 | degree | -0.1865 | pageRank | -0.1559 | Anomalous |
-| org.axonframework.common.Assert | axon-messaging-4.12.2 | 0.0573 | Authority | articleRank | -0.2733 | degree | -0.1809 | pageRank | -0.1672 | Anomalous |
-| org.axonframework.common.AxonException | axon-messaging-4.12.2 | 0.0468 | Authority | articleRank | -0.3318 | pageRank | -0.2083 | pageToArticleRankDifference | -0.1651 | Anomalous |
-| org.axonframework.tracing.Span | axon-messaging-4.12.2 | 0.0447 |  | articleRank | -0.2896 | degree | -0.1899 | pageRank | -0.1578 | Anomalous |
-| org.axonframework.messaging.ScopeDescriptor | axon-messaging-4.12.2 | 0.0443 |  | articleRank | -0.2875 | pageRank | -0.1454 | incomingDependencies | -0.1179 | Anomalous |
-| org.axonframework.messaging.annotation.ParameterResolver | axon-messaging-4.12.2 | 0.044 |  | articleRank | -0.2552 | pageRank | -0.149 | incomingDependencies | -0.1065 | Anomalous |
-| org.axonframework.eventhandling.DomainEventMessage | axon-messaging-4.12.2 | 0.0417 |  | articleRank | -0.2872 | degree | -0.1906 | pageRank | -0.1548 | Anomalous |
-| org.axonframework.springboot.autoconfig.AxonTracingAutoConfiguration | axon-spring-boot-autoconfigure-4.12.2 | 0.0414 |  | degree | -0.3064 | outgoingDependencies | -0.1719 | betweenness | -0.0989 | Anomalous |
-| org.axonframework.test.aggregate.AggregateTestFixture | axon-test-4.12.2 | 0.0404 |  | degree | -0.3202 | outgoingDependencies | -0.1707 | betweenness | -0.1088 | Anomalous |
-| org.axonframework.modelling.saga.AssociationValue | axon-modelling-4.12.2 | 0.0399 |  | articleRank | -0.3531 | pageRank | -0.1819 | pageToArticleRankDifference | -0.0969 | Anomalous |
-| org.axonframework.messaging.MetaData$1 | axon-messaging-4.12.2 | 0.0396 | Authority | pageRank | -0.2257 | pageToArticleRankDifference | -0.1775 | nodeEmbeddingPCA_10 | -0.1406 | Anomalous |
+| org.axonframework.messaging.Message | axon-messaging-4.12.2 | 0.1143 | Hub, Bottleneck | articleRank | -0.2657 | pageRank | -0.1798 | pageToArticleRankDifference | -0.146 | Anomalous |
+| org.axonframework.messaging.MetaData | axon-messaging-4.12.2 | 0.0935 | Authority | articleRank | -0.2651 | pageRank | -0.1776 | pageToArticleRankDifference | -0.1545 | Anomalous |
+| org.axonframework.serialization.SerializedType | axon-messaging-4.12.2 | 0.078 | Authority, Outlier | articleRank | -0.2773 | pageRank | -0.194 | pageToArticleRankDifference | -0.1614 | Anomalous |
+| org.axonframework.common.BuilderUtils | axon-messaging-4.12.2 | 0.0753 | Hub | articleRank | -0.3001 | pageRank | -0.1753 | degree | -0.1673 | Anomalous |
+| org.axonframework.eventhandling.EventMessage | axon-messaging-4.12.2 | 0.0715 | Hub | articleRank | -0.2924 | pageRank | -0.1874 | degree | -0.144 | Anomalous |
+| org.axonframework.messaging.unitofwork.UnitOfWork | axon-messaging-4.12.2 | 0.0679 | Bottleneck | articleRank | -0.2693 | degree | -0.1724 | incomingDependencies | -0.1438 | Anomalous |
+| org.axonframework.serialization.Serializer | axon-messaging-4.12.2 | 0.0665 |  | articleRank | -0.2575 | pageRank | -0.1819 | pageToArticleRankDifference | -0.1526 | Anomalous |
+| org.axonframework.serialization.SerializedObject | axon-messaging-4.12.2 | 0.0656 |  | articleRank | -0.2651 | pageRank | -0.1869 | pageToArticleRankDifference | -0.1544 | Anomalous |
+| org.axonframework.common.Assert | axon-messaging-4.12.2 | 0.0625 | Authority | articleRank | -0.2818 | pageRank | -0.1886 | pageToArticleRankDifference | -0.1576 | Anomalous |
+| org.axonframework.springboot.autoconfig.AxonAutoConfiguration | axon-spring-boot-autoconfigure-4.12.2 | 0.0563 | Bottleneck | degree | -0.2792 | outgoingDependencies | -0.1581 | betweenness | -0.1043 | Anomalous |
+| org.axonframework.commandhandling.CommandMessage | axon-messaging-4.12.2 | 0.0556 |  | articleRank | -0.3033 | pageRank | -0.1794 | degree | -0.1612 | Anomalous |
+| org.axonframework.messaging.ScopeDescriptor | axon-messaging-4.12.2 | 0.0524 |  | articleRank | -0.2875 | pageRank | -0.1333 | incomingDependencies | -0.1259 | Anomalous |
+| org.axonframework.messaging.MetaData$1 | axon-messaging-4.12.2 | 0.0485 | Authority | pageRank | -0.2504 | pageToArticleRankDifference | -0.2146 | nodeEmbeddingPCA_10 | -0.1252 | Anomalous |
+| org.axonframework.eventhandling.DomainEventMessage | axon-messaging-4.12.2 | 0.0474 |  | articleRank | -0.3111 | pageRank | -0.1805 | degree | -0.164 | Anomalous |
+| org.axonframework.springboot.autoconfig.AxonTracingAutoConfiguration | axon-spring-boot-autoconfigure-4.12.2 | 0.0468 |  | degree | -0.2407 | outgoingDependencies | -0.1419 | nodeEmbeddingPCA_28 | -0.0729 | Anomalous |
+| org.axonframework.messaging.MetaData$MetaDataCollector | axon-messaging-4.12.2 | 0.0461 | Authority | articleRank | -0.2994 | pageRank | -0.235 | pageToArticleRankDifference | -0.1901 | Anomalous |
+| org.axonframework.tracing.Span | axon-messaging-4.12.2 | 0.0455 |  | articleRank | -0.3167 | pageRank | -0.1679 | degree | -0.157 | Anomalous |
+| org.axonframework.modelling.saga.AssociationValue | axon-modelling-4.12.2 | 0.0428 |  | articleRank | -0.3515 | pageRank | -0.169 | pageToArticleRankDifference | -0.0683 | Anomalous |
+| org.axonframework.common.AxonException | axon-messaging-4.12.2 | 0.0396 | Authority | articleRank | -0.3423 | pageRank | -0.237 | pageToArticleRankDifference | -0.1918 | Anomalous |
+| org.axonframework.serialization.ContentTypeConverter | axon-messaging-4.12.2 | 0.0389 |  | articleRank | -0.311 | pageRank | -0.1219 | nodeEmbeddingPCA_24 | -0.0492 | Anomalous |
 
 #### Visualizations
 
@@ -509,10 +509,6 @@ See [Plot Interpretation Guide](#3-plot-interpretation-guide) on how to read the
 ![TopOutlier 1](./Java_Type/GraphVisualizations/TopOutlier1.svg)
 
 ![TopOutlier 2](./Java_Type/GraphVisualizations/TopOutlier2.svg)
-
-![TopOutlier 3](./Java_Type/GraphVisualizations/TopOutlier3.svg)
-
-![TopOutlier 4](./Java_Type/GraphVisualizations/TopOutlier4.svg)
 
 --
 
