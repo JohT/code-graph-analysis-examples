@@ -144,6 +144,22 @@ Report | Analysis | Description
 | [OverviewJava.md](./AxonFramework/AxonFramework-4.9.3/overview-java/OverviewJava.md) | AxonFramework-4.9.3 | Overview for Java |
 | [VisibilityMetricsJava.md](./AxonFramework/AxonFramework-4.9.3/visibility-metrics-java/VisibilityMetricsJava.md) | AxonFramework-4.9.3 | Visibility Metrics for Java |
 | [Wordcloud.md](./AxonFramework/AxonFramework-4.9.3/wordcloud/Wordcloud.md) | AxonFramework-4.9.3 | Wordcloud |
+| [GraphVisualizationsReferenceForSummary.md](./AxonFramework/AxonFramework-5.0.0/anomaly-detection/Java_Artifact/GraphVisualizations/GraphVisualizationsReferenceForSummary.md) | AxonFramework-5.0.0 | Graph Visualizations |
+| [GraphVisualizationsReferenceForSummary.md](./AxonFramework/AxonFramework-5.0.0/anomaly-detection/Java_Package/GraphVisualizations/GraphVisualizationsReferenceForSummary.md) | AxonFramework-5.0.0 | Graph Visualizations |
+| [GraphVisualizationsReferenceForSummary.md](./AxonFramework/AxonFramework-5.0.0/anomaly-detection/Java_Type/GraphVisualizations/GraphVisualizationsReferenceForSummary.md) | AxonFramework-5.0.0 | Graph Visualizations |
+| [anomaly_detection_report.md](./AxonFramework/AxonFramework-5.0.0/anomaly-detection/anomaly_detection_report.md) | AxonFramework-5.0.0 | 📊 Anomaly Detection Report |
+| [DependenciesGraphJava.md](./AxonFramework/AxonFramework-5.0.0/dependencies-graph-java/DependenciesGraphJava.md) | AxonFramework-5.0.0 | Artifact Dependencies |
+| [ExternalDependenciesJava.md](./AxonFramework/AxonFramework-5.0.0/external-dependencies-java/ExternalDependenciesJava.md) | AxonFramework-5.0.0 | External Dependencies for Java |
+| [GitHistoryGeneral.md](./AxonFramework/AxonFramework-5.0.0/git-history-general/GitHistoryGeneral.md) | AxonFramework-5.0.0 | git log/history |
+| [InternalDependenciesJava.md](./AxonFramework/AxonFramework-5.0.0/internal-dependencies-java/InternalDependenciesJava.md) | AxonFramework-5.0.0 | Internal Dependencies |
+| [MethodMetricsJava.md](./AxonFramework/AxonFramework-5.0.0/method-metrics-java/MethodMetricsJava.md) | AxonFramework-5.0.0 | Method Metrics |
+| [NodeEmbeddingsJava.md](./AxonFramework/AxonFramework-5.0.0/node-embeddings-java/NodeEmbeddingsJava.md) | AxonFramework-5.0.0 | Node Embeddings |
+| [ObjectOrientedDesignMetricsJava.md](./AxonFramework/AxonFramework-5.0.0/object-oriented-design-metrics-java/ObjectOrientedDesignMetricsJava.md) | AxonFramework-5.0.0 | Object Oriented Design Quality Metrics |
+| [OverviewGeneral.md](./AxonFramework/AxonFramework-5.0.0/overview-general/OverviewGeneral.md) | AxonFramework-5.0.0 | Overview in General |
+| [OverviewJava.md](./AxonFramework/AxonFramework-5.0.0/overview-java/OverviewJava.md) | AxonFramework-5.0.0 | Overview for Java |
+| [PathFindingJava.md](./AxonFramework/AxonFramework-5.0.0/path-finding-java/PathFindingJava.md) | AxonFramework-5.0.0 | Path Finding for Java |
+| [VisibilityMetricsJava.md](./AxonFramework/AxonFramework-5.0.0/visibility-metrics-java/VisibilityMetricsJava.md) | AxonFramework-5.0.0 | Visibility Metrics for Java |
+| [Wordcloud.md](./AxonFramework/AxonFramework-5.0.0/wordcloud/Wordcloud.md) | AxonFramework-5.0.0 | Wordcloud |
 | [GraphVisualizationsReferenceForSummary.md](./AxonFramework/latest/anomaly-detection/Java_Artifact/GraphVisualizations/GraphVisualizationsReferenceForSummary.md) | latest | Graph Visualizations |
 | [GraphVisualizationsReferenceForSummary.md](./AxonFramework/latest/anomaly-detection/Java_Package/GraphVisualizations/GraphVisualizationsReferenceForSummary.md) | latest | Graph Visualizations |
 | [GraphVisualizationsReferenceForSummary.md](./AxonFramework/latest/anomaly-detection/Java_Type/GraphVisualizations/GraphVisualizationsReferenceForSummary.md) | latest | Graph Visualizations |
