@@ -12,19 +12,17 @@ strict digraph TopBridge4 {
     central [fontsize = 16;];
     central [color = 7; fillcolor = 5; penwidth = 3;];
 
-	graph   [label="Top Rank #4 Java Type Bridge\norg.axonframework.eventsourcing.eventstore.EmbeddedEventStore$Cleaner\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
-	central [label="🌉 bridge #4\nEmbeddedEventStore$Cleaner"];
-	"EmbeddedEventStore_10405" [label = "EmbeddedEventStore"; ]; "EmbeddedEventStore_10405" -> central [label=3; weight=3; penwidth=0.4];
-	"EmbeddedEventStore_10405" [label = "EmbeddedEventStore"; color = 5; fillcolor = 1; ]; central -> "EmbeddedEventStore_10405" [label=6; weight=6; penwidth=0.5; color = 5];
-	"EmbeddedEventStore$EventConsumer_10409" [label = "EmbeddedEventStore$\nEventConsumer"; color = 5; fillcolor = 1; ]; central -> "EmbeddedEventStore$EventConsumer_10409" [label=5; weight=5; penwidth=0.5; color = 5];
-	"EmbeddedEventStore$1_10404" [label = "EmbeddedEventStore$\n1"; color = 5; fillcolor = 1; ]; central -> "EmbeddedEventStore$1_10404" [label=2; weight=2; penwidth=0.4; color = 5];
-	"EmbeddedEventStore$Node_10408" [label = "EmbeddedEventStore$\nNode"; color = 5; fillcolor = 1; ]; central -> "EmbeddedEventStore$Node_10408" [label=2; weight=2; penwidth=0.4; color = 5];
-	"EmbeddedEventStore$EventConsumer_10409" -> "EmbeddedEventStore_10405" [label=25; weight=25; penwidth=0.3; color = 3]
-	"EmbeddedEventStore$EventConsumer_10409" -> "EmbeddedEventStore$Node_10408" [label=13; weight=13; penwidth=0.3; color = 3]
-	"EmbeddedEventStore_10405" -> "EmbeddedEventStore$Node_10408" [label=9; weight=9; penwidth=0.3; color = 3]
-	"EmbeddedEventStore_10405" -> "EmbeddedEventStore$EventConsumer_10409" [label=6; weight=6; penwidth=0.3; color = 3]
-	"EmbeddedEventStore$EventConsumer_10409" -> "EmbeddedEventStore$1_10404" [label=3; weight=3; penwidth=0.3; color = 3]
-	"EmbeddedEventStore$Node_10408" -> "EmbeddedEventStore$1_10404" [label=2; weight=2; penwidth=0.3; color = 3]
-	"EmbeddedEventStore_10405" -> "EmbeddedEventStore$1_10404" [label=1; weight=1; penwidth=0.3; color = 3]
-	"EmbeddedEventStore$1_10404" -> "EmbeddedEventStore_10405" [label=1; weight=1; penwidth=0.3; color = 3]
+	graph   [label="Top Rank #4 Java Type Bridge\norg.axonframework.commandhandling.distributed.commandfilter.OrCommandMessageFilter\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
+	central [label="🌉 bridge #4\nOrCommandMessageFilter"];
+	"CommandMessageFilter_20389" [label = "CommandMessageFilter"; ]; "CommandMessageFilter_20389" -> central [label=2; weight=2; penwidth=0.4];
+	"CommandNameFilter_22038" [label = "CommandNameFilter"; ]; "CommandNameFilter_22038" -> central [label=2; weight=2; penwidth=0.4];
+	"DenyCommandNameFilter_22039" [label = "DenyCommandNameFilter"; ]; "DenyCommandNameFilter_22039" -> central [label=2; weight=2; penwidth=0.4];
+	"CommandMessageFilter_20389" [label = "CommandMessageFilter"; color = 5; fillcolor = 1; ]; central -> "CommandMessageFilter_20389" [label=9; weight=9; penwidth=0.5; color = 5];
+	"CommandMessage_19813" [label = "CommandMessage"; color = 5; fillcolor = 1; ]; central -> "CommandMessage_19813" [label=1; weight=1; penwidth=0.4; color = 5];
+	"CommandNameFilter_22038" -> "CommandMessageFilter_20389" [label=9; weight=9; penwidth=0.3; color = 3]
+	"DenyCommandNameFilter_22039" -> "CommandMessageFilter_20389" [label=5; weight=5; penwidth=0.3; color = 3]
+	"CommandNameFilter_22038" -> "CommandMessage_19813" [label=3; weight=3; penwidth=0.3; color = 3]
+	"CommandNameFilter_22038" -> "DenyCommandNameFilter_22039" [label=2; weight=2; penwidth=0.3; color = 3]
+	"DenyCommandNameFilter_22039" -> "CommandMessage_19813" [label=2; weight=2; penwidth=0.3; color = 3]
+	"CommandMessageFilter_20389" -> "CommandMessage_19813" [label=1; weight=1; penwidth=0.3; color = 3]
 }

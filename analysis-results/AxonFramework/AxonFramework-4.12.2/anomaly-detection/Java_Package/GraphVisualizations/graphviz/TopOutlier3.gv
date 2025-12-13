@@ -31,7 +31,7 @@ strict digraph TopOutlier3 {
 	"messaging_37597" -> "common_23092" [label=20; weight=20; penwidth=0.3; color = 3]
 	"config_14721" -> "annotation_38826" [label=17; weight=17; penwidth=0.3; color = 3]
 	"responsetypes_40898" -> "common_23092" [label=9; weight=9; penwidth=0.3; color = 3]
-	"responsetypes_40898" -> "messaging_37597" [label=4; weight=4; penwidth=0.3; color = 3]
 	"responsetypes_40898" -> "queryhandling_41991" [label=4; weight=4; penwidth=0.3; color = 3]
+	"responsetypes_40898" -> "messaging_37597" [label=4; weight=4; penwidth=0.3; color = 3]
 	"queryhandling_41991" -> "annotation_38826" [label=1; weight=1; penwidth=0.3; color = 3]
 }

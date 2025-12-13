@@ -41,8 +41,8 @@ strict digraph TopOutlier2 {
 	"connector_60355" -> "transaction_25217" [label=3; weight=3; penwidth=0.3; color = 3]
 	"eventhandling_26974" -> "lifecycle_37596" [label=3; weight=3; penwidth=0.3; color = 3]
 	"axon_60358" -> "lifecycle_37596" [label=1; weight=1; penwidth=0.3; color = 3]
-	"connector_60355" -> "lifecycle_37596" [label=1; weight=1; penwidth=0.3; color = 3]
 	"connector_60355" -> "eventhandling_26974" [label=1; weight=1; penwidth=0.3; color = 3]
+	"connector_60355" -> "lifecycle_37596" [label=1; weight=1; penwidth=0.3; color = 3]
 	"pooled_34639" -> "lifecycle_37596" [label=1; weight=1; penwidth=0.3; color = 3]
 	"connector_60355" -> "tokenstore_36610" [label=0; weight=0; penwidth=0.3; color = 3]
 }

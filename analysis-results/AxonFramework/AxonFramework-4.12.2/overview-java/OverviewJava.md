@@ -33,8 +33,8 @@
   <tbody>
     <tr>
       <th>0</th>
-      <td>304000</td>
-      <td>968646</td>
+      <td>304011</td>
+      <td>968664</td>
       <td>9</td>
       <td>129</td>
       <td>2219</td>
@@ -136,15 +136,15 @@ The whole table can be found in the CSV report `Number_of_types_per_artifact`.
       <th>9</th>
       <td>axon-server-connector-4.12.2</td>
       <td>147</td>
-      <td>Enum</td>
-      <td>2</td>
+      <td>Interface</td>
+      <td>26</td>
     </tr>
     <tr>
       <th>10</th>
       <td>axon-server-connector-4.12.2</td>
       <td>147</td>
-      <td>Interface</td>
-      <td>26</td>
+      <td>Enum</td>
+      <td>2</td>
     </tr>
     <tr>
       <th>11</th>

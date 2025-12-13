@@ -114,6 +114,6 @@ strict digraph TopBottleneck4 {
 	"LoggingSpanFactory_46874" -> "SpanFactory_19117" [label=1; weight=1; penwidth=0.3; color = 3]
 	"MessageDecorator_19149" -> "MetaData_19150" [label=1; weight=1; penwidth=0.3; color = 3]
 	"NoOpSpanFactory_20370" -> "SpanFactory_19117" [label=1; weight=1; penwidth=0.3; color = 3]
-	"OpenTelemetrySpanFactory_13336" -> "SpanFactory_19117" [label=1; weight=1; penwidth=0.3; color = 3]
 	"OpenTelemetrySpanFactory_13336" -> "SpanUtils_47517" [label=1; weight=1; penwidth=0.3; color = 3]
+	"OpenTelemetrySpanFactory_13336" -> "SpanFactory_19117" [label=1; weight=1; penwidth=0.3; color = 3]
 }

@@ -131,7 +131,7 @@ Only the top 20 entries are shown. The whole table can be found in the following
       <td>273</td>
       <td>121</td>
       <td>1516</td>
-      <td>[ErrorMessage$Builder, ErrorMessage, Instructi...</td>
+      <td>[ErrorMessage, ErrorMessage$Builder, Instructi...</td>
     </tr>
     <tr>
       <th>7</th>
@@ -153,7 +153,7 @@ Only the top 20 entries are shown. The whole table can be found in the following
       <td>119</td>
       <td>121</td>
       <td>1516</td>
-      <td>[Channel, ManagedChannelBuilder, ClientInterce...</td>
+      <td>[ManagedChannelBuilder, ClientInterceptor, Cha...</td>
     </tr>
     <tr>
       <th>9</th>
@@ -464,7 +464,7 @@ Only the top 20 entries are shown. The whole table can be found in the following
       <td>151</td>
       <td>121</td>
       <td>1516</td>
-      <td>[Channel, StreamObserver, GrpcSslContexts, Man...</td>
+      <td>[StreamObserver, GrpcSslContexts, ManagedChann...</td>
     </tr>
     <tr>
       <th>8</th>
@@ -4185,7 +4185,7 @@ The following table groups the external packages by their first two levels. For 
       <td>72.727273</td>
       <td>14.285714</td>
       <td>[org.axonframework.axonserver.connector, org.a...</td>
-      <td>[org.axonframework.axonserver.connector.AxonSe...</td>
+      <td>[org.axonframework.axonserver.connector.Server...</td>
     </tr>
     <tr>
       <th>28</th>
@@ -4201,7 +4201,7 @@ The following table groups the external packages by their first two levels. For 
       <td>45.454545</td>
       <td>14.285714</td>
       <td>[org.axonframework.axonserver.connector, org.a...</td>
-      <td>[org.axonframework.axonserver.connector.AxonSe...</td>
+      <td>[org.axonframework.axonserver.connector.Instru...</td>
     </tr>
     <tr>
       <th>29</th>
@@ -4985,7 +4985,7 @@ Only the last 40 entries are shown. The whole table can be found in the followin
       <td>1494</td>
       <td>26</td>
       <td>[io.grpc, io.axoniq.axonserver.grpc, io.axoniq...</td>
-      <td>[ForwardingClientCallListener$SimpleForwarding...</td>
+      <td>[Metadata, StatusRuntimeException, Metadata$As...</td>
     </tr>
     <tr>
       <th>3</th>
@@ -5115,7 +5115,7 @@ Only the last 40 entries are shown. The whole table can be found in the followin
       <td>50</td>
       <td>90</td>
       <td>31</td>
-      <td>[Metadata, ClientCall$Listener, ClientCall, Fo...</td>
+      <td>[ForwardingClientCallListener$SimpleForwarding...</td>
       <td>util</td>
     </tr>
     <tr>
@@ -5148,7 +5148,7 @@ Only the last 40 entries are shown. The whole table can be found in the followin
       <td>25</td>
       <td>124</td>
       <td>21</td>
-      <td>[QueryRequest, QueryResponse, QueryResponse$Bu...</td>
+      <td>[QueryResponse, QueryRequest, QueryResponse$Bu...</td>
       <td>query</td>
     </tr>
     <tr>
@@ -5159,7 +5159,7 @@ Only the last 40 entries are shown. The whole table can be found in the followin
       <td>21</td>
       <td>98</td>
       <td>32</td>
-      <td>[PersistentStreamSegment, PersistentStreamProp...</td>
+      <td>[PersistentStreamProperties, AggregateEventStr...</td>
       <td>axon</td>
     </tr>
     <tr>
@@ -5170,7 +5170,7 @@ Only the last 40 entries are shown. The whole table can be found in the followin
       <td>21</td>
       <td>113</td>
       <td>6</td>
-      <td>[QueryUpdate, SubscriptionQueryResponse$Builde...</td>
+      <td>[SubscriptionQuery, QueryResponse, QueryUpdate...</td>
       <td>subscription</td>
     </tr>
     <tr>
@@ -5181,7 +5181,7 @@ Only the last 40 entries are shown. The whole table can be found in the followin
       <td>20</td>
       <td>106</td>
       <td>31</td>
-      <td>[SerializedObject, ErrorMessage$Builder, Error...</td>
+      <td>[MetaDataValue, SerializedObject, MetaDataValu...</td>
       <td>util</td>
     </tr>
     <tr>
@@ -5214,7 +5214,7 @@ Only the last 40 entries are shown. The whole table can be found in the followin
       <td>17</td>
       <td>53</td>
       <td>21</td>
-      <td>[ReplyChannel, FlowControl, ResultStream, Regi...</td>
+      <td>[FlowControl, ReplyChannel, Registration, Resu...</td>
       <td>query</td>
     </tr>
     <tr>
@@ -5291,7 +5291,7 @@ Only the last 40 entries are shown. The whole table can be found in the followin
       <td>12</td>
       <td>29</td>
       <td>32</td>
-      <td>[Logger, LoggerFactory]</td>
+      <td>[LoggerFactory, Logger]</td>
       <td>axon</td>
     </tr>
     <tr>
@@ -5302,7 +5302,7 @@ Only the last 40 entries are shown. The whole table can be found in the followin
       <td>10</td>
       <td>55</td>
       <td>32</td>
-      <td>[CommandSubscription, TopologyChange, QuerySub...</td>
+      <td>[TopologyChange, NodeInfo$Builder, NodeInfo, U...</td>
       <td>connector</td>
     </tr>
     <tr>
@@ -5335,7 +5335,7 @@ Only the last 40 entries are shown. The whole table can be found in the followin
       <td>9</td>
       <td>56</td>
       <td>11</td>
-      <td>[Command, CommandResponse, CommandResponse$Bui...</td>
+      <td>[Command, CommandResponse$Builder, CommandResp...</td>
       <td>command</td>
     </tr>
     <tr>
@@ -5346,7 +5346,7 @@ Only the last 40 entries are shown. The whole table can be found in the followin
       <td>9</td>
       <td>46</td>
       <td>21</td>
-      <td>[SerializedObject, ErrorMessage, ProcessingKey...</td>
+      <td>[ErrorMessage, SerializedObject, ProcessingKey...</td>
       <td>query</td>
     </tr>
     <tr>
@@ -5423,7 +5423,7 @@ Only the last 40 entries are shown. The whole table can be found in the followin
       <td>8</td>
       <td>68</td>
       <td>32</td>
-      <td>[ErrorMessage$Builder, ErrorMessage, Instructi...</td>
+      <td>[ErrorMessage, ErrorMessage$Builder, Instructi...</td>
       <td>connector</td>
     </tr>
     <tr>
@@ -5445,7 +5445,7 @@ Only the last 40 entries are shown. The whole table can be found in the followin
       <td>8</td>
       <td>43</td>
       <td>32</td>
-      <td>[EventWithToken, Event, Event$Builder, Confirm...</td>
+      <td>[Event, Event$Builder, Confirmation, EventWith...</td>
       <td>axon</td>
     </tr>
     <tr>
@@ -5456,7 +5456,7 @@ Only the last 40 entries are shown. The whole table can be found in the followin
       <td>8</td>
       <td>19</td>
       <td>31</td>
-      <td>[LoggerFactory, Logger]</td>
+      <td>[Logger, LoggerFactory]</td>
       <td>util</td>
     </tr>
     <tr>
@@ -5522,7 +5522,7 @@ Only the last 40 entries are shown. The whole table can be found in the followin
       <td>7</td>
       <td>18</td>
       <td>32</td>
-      <td>[SerializedObject, SerializedObject$Builder, E...</td>
+      <td>[SerializedObject$Builder, SerializedObject, E...</td>
       <td>axon</td>
     </tr>
     <tr>
@@ -5533,7 +5533,7 @@ Only the last 40 entries are shown. The whole table can be found in the followin
       <td>7</td>
       <td>27</td>
       <td>21</td>
-      <td>[Flux, SignalType, Mono, BaseSubscriber]</td>
+      <td>[SignalType, Flux, Mono, BaseSubscriber]</td>
       <td>query</td>
     </tr>
     <tr>

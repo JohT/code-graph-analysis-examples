@@ -50,8 +50,8 @@ strict digraph TopHub1 {
 	"jobrunr_35681"  [label = "jobrunr\n(0.62)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "jobrunr_35681" [label=7; weight=7; penwidth=0.5; color = 5];
 	"messaging_37597"  [label = "messaging\n(0.18)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "messaging_37597" [label=7; weight=7; penwidth=0.5; color = 5];
 	"pooled_34639"  [label = "pooled\n(0.48)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "pooled_34639" [label=7; weight=7; penwidth=0.5; color = 5];
-	"jpa_36613"  [label = "jpa\n(0.79)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "jpa_36613" [label=6; weight=6; penwidth=0.5; color = 5];
 	"jpa_59820"  [label = "jpa\n(0.69)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "jpa_59820" [label=6; weight=6; penwidth=0.5; color = 5];
+	"jpa_36613"  [label = "jpa\n(0.79)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "jpa_36613" [label=6; weight=6; penwidth=0.5; color = 5];
 	"saga_57721"  [label = "saga\n(0.4)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "saga_57721" [label=6; weight=6; penwidth=0.5; color = 5];
 	"transaction_25217"  [label = "transaction\n(0.21)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "transaction_25217" [label=6; weight=6; penwidth=0.5; color = 5];
 	"command_53952"  [label = "command\n(0.46)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "command_53952" [label=5; weight=5; penwidth=0.5; color = 5];
@@ -116,16 +116,16 @@ strict digraph TopHub1 {
 	"jpa_32554" -> "eventhandling_26974" [label=22; weight=22; penwidth=0.3; color = 3]
 	"queryhandling_41991" -> "tracing_47232" [label=22; weight=22; penwidth=0.3; color = 3]
 	"command_60363" -> "messaging_37597" [label=21; weight=21; penwidth=0.3; color = 3]
-	"config_14721" -> "messaging_37597" [label=21; weight=21; penwidth=0.3; color = 3]
 	"config_14721" -> "commandhandling_19175" [label=21; weight=21; penwidth=0.3; color = 3]
+	"config_14721" -> "messaging_37597" [label=21; weight=21; penwidth=0.3; color = 3]
 	"query_60364" -> "serialization_45112" [label=21; weight=21; penwidth=0.3; color = 3]
 	"jdbc_31497" -> "serialization_45112" [label=20; weight=20; penwidth=0.3; color = 3]
 	"jobrunr_26975" -> "deadline_25218" [label=20; weight=20; penwidth=0.3; color = 3]
 	"jpa_32554" -> "common_23092" [label=20; weight=20; penwidth=0.3; color = 3]
 	"messaging_37597" -> "common_23092" [label=20; weight=20; penwidth=0.3; color = 3]
 	"command_53952" -> "messaging_37597" [label=19; weight=19; penwidth=0.3; color = 3]
-	"connector_60355" -> "queryhandling_41991" [label=19; weight=19; penwidth=0.3; color = 3]
 	"connector_60355" -> "query_60364" [label=19; weight=19; penwidth=0.3; color = 3]
+	"connector_60355" -> "queryhandling_41991" [label=19; weight=19; penwidth=0.3; color = 3]
 	"jdbc_31497" -> "eventhandling_26974" [label=19; weight=19; penwidth=0.3; color = 3]
 	"command_53952" -> "commandhandling_19175" [label=18; weight=18; penwidth=0.3; color = 3]
 	"dbscheduler_26267" -> "messaging_37597" [label=18; weight=18; penwidth=0.3; color = 3]
@@ -144,8 +144,8 @@ strict digraph TopHub1 {
 	"avro_46172" -> "common_23092" [label=13; weight=13; penwidth=0.3; color = 3]
 	"axon_60358" -> "config_14721" [label=13; weight=13; penwidth=0.3; color = 3]
 	"command_60363" -> "serialization_45112" [label=13; weight=13; penwidth=0.3; color = 3]
-	"config_14721" -> "updates_48177" [label=13; weight=13; penwidth=0.3; color = 3]
 	"config_14721" -> "deadline_25218" [label=13; weight=13; penwidth=0.3; color = 3]
+	"config_14721" -> "updates_48177" [label=13; weight=13; penwidth=0.3; color = 3]
 	"jobrunr_26975" -> "messaging_37597" [label=13; weight=13; penwidth=0.3; color = 3]
 	"jpa_36613" -> "eventhandling_26974" [label=13; weight=13; penwidth=0.3; color = 3]
 	"messaging_37597" -> "serialization_45112" [label=13; weight=13; penwidth=0.3; color = 3]
@@ -162,8 +162,8 @@ strict digraph TopHub1 {
 	"config_14721" -> "jpa_12584" [label=10; weight=10; penwidth=0.3; color = 3]
 	"deadline_25218" -> "eventhandling_26974" [label=10; weight=10; penwidth=0.3; color = 3]
 	"jobrunr_26975" -> "common_23092" [label=10; weight=10; penwidth=0.3; color = 3]
-	"jobrunr_35681" -> "serialization_45112" [label=9; weight=9; penwidth=0.3; color = 3]
 	"jobrunr_35681" -> "common_23092" [label=9; weight=9; penwidth=0.3; color = 3]
+	"jobrunr_35681" -> "serialization_45112" [label=9; weight=9; penwidth=0.3; color = 3]
 	"jpa_36613" -> "serialization_45112" [label=9; weight=9; penwidth=0.3; color = 3]
 	"config_14721" -> "serialization_45112" [label=8; weight=8; penwidth=0.3; color = 3]
 	"connector_60355" -> "messaging_37597" [label=8; weight=8; penwidth=0.3; color = 3]
@@ -184,13 +184,13 @@ strict digraph TopHub1 {
 	"jobrunr_35681" -> "eventhandling_26974" [label=6; weight=6; penwidth=0.3; color = 3]
 	"saga_57721" -> "messaging_37597" [label=6; weight=6; penwidth=0.3; color = 3]
 	"command_60363" -> "tracing_47232" [label=5; weight=5; penwidth=0.3; color = 3]
-	"config_14721" -> "jpa_59820" [label=5; weight=5; penwidth=0.3; color = 3]
 	"config_14721" -> "jpa_36613" [label=5; weight=5; penwidth=0.3; color = 3]
+	"config_14721" -> "jpa_59820" [label=5; weight=5; penwidth=0.3; color = 3]
 	"dbscheduler_26267" -> "tracing_47232" [label=5; weight=5; penwidth=0.3; color = 3]
 	"eventsourcing_8414" -> "serialization_45112" [label=5; weight=5; penwidth=0.3; color = 3]
 	"jdbc_59819" -> "serialization_45112" [label=5; weight=5; penwidth=0.3; color = 3]
-	"legacyjpa_48232" -> "springboot_48229" [label=5; weight=5; penwidth=0.3; color = 3]
 	"legacyjpa_48232" -> "util_48235" [label=5; weight=5; penwidth=0.3; color = 3]
+	"legacyjpa_48232" -> "springboot_48229" [label=5; weight=5; penwidth=0.3; color = 3]
 	"pooled_34639" -> "messaging_37597" [label=5; weight=5; penwidth=0.3; color = 3]
 	"config_14721" -> "xml_47231" [label=4; weight=4; penwidth=0.3; color = 3]
 }

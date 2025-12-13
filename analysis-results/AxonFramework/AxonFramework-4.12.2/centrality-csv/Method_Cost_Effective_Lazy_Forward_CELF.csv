@@ -33,7 +33,6 @@
 "org.axonframework.axonserver.connector.AxonServerConnectionManager$Builder: org.axonframework.axonserver.connector.AxonServerConnectionManager$Builder channelCustomizer(java.util.function.UnaryOperator)","channelCustomizer","centralityCostEffectiveLazyForward",0,""
 "org.axonframework.axonserver.connector.AxonServerConnectionManager$Builder: org.axonframework.axonserver.connector.AxonServerConnectionManager$Builder routingServers(java.lang.String)","routingServers","centralityCostEffectiveLazyForward",0,""
 "org.axonframework.axonserver.connector.AxonServerConnectionManager$Builder: org.axonframework.axonserver.connector.AxonServerConnectionManager$Builder tagsConfiguration(org.axonframework.config.TagsConfiguration)","tagsConfiguration","centralityCostEffectiveLazyForward",0,""
-"org.axonframework.axonserver.connector.AxonServerConnectionManager: boolean isConnected(java.lang.String)","isConnected","centralityCostEffectiveLazyForward",0,""
 "org.axonframework.axonserver.connector.AxonServerConnectionManager: void disconnect()","disconnect","centralityCostEffectiveLazyForward",0,""
 "org.axonframework.axonserver.connector.AxonServerConnectionManager: void registerLifecycleHandlers(org.axonframework.lifecycle.Lifecycle$LifecycleRegistry)","registerLifecycleHandlers","centralityCostEffectiveLazyForward",0,""
 "org.axonframework.axonserver.connector.AxonServerConnectionManager: void shutdown()","shutdown","centralityCostEffectiveLazyForward",0,""
