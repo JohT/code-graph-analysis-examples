@@ -24,5 +24,5 @@
 "TS,Variable","TS,Variable",3,0.01,""
 "TS,Constructor","TS,Property",2,0,""
 "TS,TypeAlias","TS,Interface",2,0,""
-"TS,Function","TS,Class,Method",1,0,""
+"TS,Function","TS,Method,Class",1,0,""
 "TS,Interface","TS,TypeAlias",1,0,""
