@@ -91,23 +91,23 @@
 <polygon fill="#238b45" stroke="#238b45" stroke-width="0.5" points="614.64,-624.02 614.84,-619.79 612.04,-622.97 614.64,-624.02"/>
 <text xml:space="preserve" text-anchor="middle" x="534.83" y="-816.2" font-family="Times,serif" font-size="4.00">6</text>
 </g>
-<!-- AggregateBasedJpaEventStorageEngineConfiguration_48929&#45;&gt;central -->
+<!-- AggregateBasedJpaEventStorageEngineConfiguration_49216&#45;&gt;central -->
 <g id="edge5" class="edge">
-<title>AggregateBasedJpaEventStorageEngineConfiguration_48929&#45;&gt;central</title>
+<title>AggregateBasedJpaEventStorageEngineConfiguration_49216&#45;&gt;central</title>
 <path fill="none" stroke="#238b45" stroke-width="0.5" d="M274.2,-140.4C340.86,-213.81 503.25,-392.6 588.97,-486.98"/>
 <polygon fill="#238b45" stroke="#238b45" stroke-width="0.5" points="587.75,-487.72 591.48,-489.74 589.82,-485.84 587.75,-487.72"/>
 <text xml:space="preserve" text-anchor="middle" x="432.19" y="-316.66" font-family="Times,serif" font-size="4.00">5</text>
 </g>
-<!-- AxonServerConnectionManager$Builder_39118&#45;&gt;central -->
+<!-- AxonServerConnectionManager$Builder_39124&#45;&gt;central -->
 <g id="edge6" class="edge">
-<title>AxonServerConnectionManager$Builder_39118&#45;&gt;central</title>
+<title>AxonServerConnectionManager$Builder_39124&#45;&gt;central</title>
 <path fill="none" stroke="#238b45" stroke-width="0.5" d="M1142.16,-683.4C1028.97,-652.55 832.31,-598.94 723.02,-569.15"/>
 <polygon fill="#238b45" stroke="#238b45" stroke-width="0.5" points="723.48,-567.83 719.25,-568.12 722.74,-570.53 723.48,-567.83"/>
 <text xml:space="preserve" text-anchor="middle" x="929.22" y="-626.83" font-family="Times,serif" font-size="4.00">4</text>
 </g>
-<!-- AxonServerConnectionManager$Builder_39118&#45;&gt;AxonConfigurationException_5246 -->
+<!-- AxonServerConnectionManager$Builder_39124&#45;&gt;AxonConfigurationException_5246 -->
 <g id="edge45" class="edge">
-<title>AxonServerConnectionManager$Builder_39118&#45;&gt;AxonConfigurationException_5246</title>
+<title>AxonServerConnectionManager$Builder_39124&#45;&gt;AxonConfigurationException_5246</title>
 <path fill="none" stroke="#ccece6" stroke-width="0.3" d="M1175.03,-676.3C1125.11,-647.76 1051.23,-605.52 1001.93,-577.34"/>
 <polygon fill="#ccece6" stroke="#ccece6" stroke-width="0.3" points="1002.69,-576.16 998.53,-575.4 1001.3,-578.6 1002.69,-576.16"/>
 <text xml:space="preserve" text-anchor="middle" x="1085.44" y="-626.85" font-family="Times,serif" font-size="4.00">3</text>
@@ -133,9 +133,9 @@
 <polygon fill="#238b45" stroke="#238b45" stroke-width="0.5" points="595.92,-614.33 597.2,-610.28 593.68,-612.65 595.92,-614.33"/>
 <text xml:space="preserve" text-anchor="middle" x="514.63" y="-720.59" font-family="Times,serif" font-size="4.00">4</text>
 </g>
-<!-- OpenTelemetrySpanFactory$Builder_38663&#45;&gt;central -->
+<!-- OpenTelemetrySpanFactory$Builder_38669&#45;&gt;central -->
 <g id="edge10" class="edge">
-<title>OpenTelemetrySpanFactory$Builder_38663&#45;&gt;central</title>
+<title>OpenTelemetrySpanFactory$Builder_38669&#45;&gt;central</title>
 <path fill="none" stroke="#238b45" stroke-width="0.5" d="M1007.75,-615C924.89,-599.65 803.66,-577.19 724.31,-562.49"/>
 <polygon fill="#238b45" stroke="#238b45" stroke-width="0.5" points="725.02,-561.2 720.84,-561.85 724.51,-563.96 725.02,-561.2"/>
 <text xml:space="preserve" text-anchor="middle" x="863.12" y="-589.59" font-family="Times,serif" font-size="4.00">4</text>
@@ -329,30 +329,30 @@
 <polygon fill="#ccece6" stroke="#ccece6" stroke-width="0.3" points="1143.14,-566.48 1143.85,-562.3 1140.69,-565.12 1143.14,-566.48"/>
 <text xml:space="preserve" text-anchor="middle" x="1091.97" y="-655.38" font-family="Times,serif" font-size="4.00">6</text>
 </g>
-<!-- TracingHandlerEnhancerDefinition_33905&#45;&gt;central -->
+<!-- TracingHandlerEnhancerDefinition_33911&#45;&gt;central -->
 <g id="edge31" class="edge">
-<title>TracingHandlerEnhancerDefinition_33905&#45;&gt;central</title>
+<title>TracingHandlerEnhancerDefinition_33911&#45;&gt;central</title>
 <path fill="none" stroke="#238b45" stroke-width="0.4" d="M307.49,-902.53C368.83,-837.85 509.44,-689.57 588.12,-606.6"/>
 <polygon fill="#238b45" stroke="#238b45" stroke-width="0.4" points="588.74,-607.98 590.48,-604.11 586.71,-606.05 588.74,-607.98"/>
 <text xml:space="preserve" text-anchor="middle" x="448.34" y="-754.15" font-family="Times,serif" font-size="4.00">1</text>
 </g>
-<!-- TracingHandlerEnhancerDefinition_33905&#45;&gt;TracingHandlerEnhancerDefinition$Builder_33906 -->
+<!-- TracingHandlerEnhancerDefinition_33911&#45;&gt;TracingHandlerEnhancerDefinition$Builder_33912 -->
 <g id="edge40" class="edge">
-<title>TracingHandlerEnhancerDefinition_33905&#45;&gt;TracingHandlerEnhancerDefinition$Builder_33906</title>
+<title>TracingHandlerEnhancerDefinition_33911&#45;&gt;TracingHandlerEnhancerDefinition$Builder_33912</title>
 <path fill="none" stroke="#ccece6" stroke-width="0.3" d="M249.54,-902.04C246.87,-899.65 244.1,-897.23 241.29,-894.83"/>
 <polygon fill="#ccece6" stroke="#ccece6" stroke-width="0.3" points="242.28,-893.83 238.33,-892.3 240.47,-895.96 242.28,-893.83"/>
 <text xml:space="preserve" text-anchor="middle" x="242.91" y="-898.28" font-family="Times,serif" font-size="4.00">8</text>
 </g>
-<!-- TracingHandlerEnhancerDefinition$Builder_33906&#45;&gt;central -->
+<!-- TracingHandlerEnhancerDefinition$Builder_33912&#45;&gt;central -->
 <g id="edge32" class="edge">
-<title>TracingHandlerEnhancerDefinition$Builder_33906&#45;&gt;central</title>
+<title>TracingHandlerEnhancerDefinition$Builder_33912&#45;&gt;central</title>
 <path fill="none" stroke="#238b45" stroke-width="0.4" d="M236.25,-828.2C316.96,-772.67 483.31,-658.22 576.68,-593.97"/>
 <polygon fill="#238b45" stroke="#238b45" stroke-width="0.4" points="577.24,-595.29 579.75,-591.86 575.66,-592.98 577.24,-595.29"/>
 <text xml:space="preserve" text-anchor="middle" x="407.4" y="-710.95" font-family="Times,serif" font-size="4.00">1</text>
 </g>
-<!-- TracingHandlerEnhancerDefinition$Builder_33906&#45;&gt;TracingHandlerEnhancerDefinition_33905 -->
+<!-- TracingHandlerEnhancerDefinition$Builder_33912&#45;&gt;TracingHandlerEnhancerDefinition_33911 -->
 <g id="edge46" class="edge">
-<title>TracingHandlerEnhancerDefinition$Builder_33906&#45;&gt;TracingHandlerEnhancerDefinition_33905</title>
+<title>TracingHandlerEnhancerDefinition$Builder_33912&#45;&gt;TracingHandlerEnhancerDefinition_33911</title>
 <path fill="none" stroke="#ccece6" stroke-width="0.3" d="M219.19,-893.61C222.24,-896.31 225.4,-899.04 228.59,-901.74"/>
 <polygon fill="#ccece6" stroke="#ccece6" stroke-width="0.3" points="227.47,-902.64 231.44,-904.14 229.27,-900.49 227.47,-902.64"/>
 <text xml:space="preserve" text-anchor="middle" x="224.61" y="-900.41" font-family="Times,serif" font-size="4.00">3</text>
@@ -403,16 +403,16 @@
 <text xml:space="preserve" text-anchor="middle" x="442.77" y="-1041.35" font-family="Times,serif" font-size="12.00">Builder</text>
 <text xml:space="preserve" text-anchor="middle" x="442.77" y="-1026.95" font-family="Times,serif" font-size="12.00">(0.5)</text>
 </g>
-<!-- AggregateBasedJpaEventStorageEngineConfiguration_48929 -->
+<!-- AggregateBasedJpaEventStorageEngineConfiguration_49216 -->
 <g id="node6" class="node">
-<title>AggregateBasedJpaEventStorageEngineConfiguration_48929</title>
+<title>AggregateBasedJpaEventStorageEngineConfiguration_49216</title>
 <ellipse fill="#ccece6" stroke="#41ae76" stroke-width="2" cx="244.49" cy="-107.7" rx="154.49" ry="32.4"/>
 <text xml:space="preserve" text-anchor="middle" x="244.49" y="-111.3" font-family="Times,serif" font-size="12.00">AggregateBasedJpaEventStorageEngineConfiguration</text>
 <text xml:space="preserve" text-anchor="middle" x="244.49" y="-96.9" font-family="Times,serif" font-size="12.00">(0.4)</text>
 </g>
-<!-- AxonServerConnectionManager$Builder_39118 -->
+<!-- AxonServerConnectionManager$Builder_39124 -->
 <g id="node7" class="node">
-<title>AxonServerConnectionManager$Builder_39118</title>
+<title>AxonServerConnectionManager$Builder_39124</title>
 <ellipse fill="#ccece6" stroke="#41ae76" stroke-width="2" cx="1228.75" cy="-707" rx="117.57" ry="33.6"/>
 <text xml:space="preserve" text-anchor="middle" x="1228.75" y="-717.8" font-family="Times,serif" font-size="12.00">AxonServerConnectionManager$</text>
 <text xml:space="preserve" text-anchor="middle" x="1228.75" y="-703.4" font-family="Times,serif" font-size="12.00">Builder</text>
@@ -440,9 +440,9 @@
 <text xml:space="preserve" text-anchor="middle" x="409.49" y="-864.94" font-family="Times,serif" font-size="12.00">JpaTokenStoreConfiguration</text>
 <text xml:space="preserve" text-anchor="middle" x="409.49" y="-850.54" font-family="Times,serif" font-size="12.00">(0.67)</text>
 </g>
-<!-- OpenTelemetrySpanFactory$Builder_38663 -->
+<!-- OpenTelemetrySpanFactory$Builder_38669 -->
 <g id="node11" class="node">
-<title>OpenTelemetrySpanFactory$Builder_38663</title>
+<title>OpenTelemetrySpanFactory$Builder_38669</title>
 <ellipse fill="#ccece6" stroke="#41ae76" stroke-width="2" cx="1098.66" cy="-631.84" rx="103.43" ry="33.6"/>
 <text xml:space="preserve" text-anchor="middle" x="1098.66" y="-642.64" font-family="Times,serif" font-size="12.00">OpenTelemetrySpanFactory$</text>
 <text xml:space="preserve" text-anchor="middle" x="1098.66" y="-628.24" font-family="Times,serif" font-size="12.00">Builder</text>
@@ -594,16 +594,16 @@
 <text xml:space="preserve" text-anchor="middle" x="1023.85" y="-782.57" font-family="Times,serif" font-size="12.00">SubscribingEventProcessor</text>
 <text xml:space="preserve" text-anchor="middle" x="1023.85" y="-768.17" font-family="Times,serif" font-size="12.00">(0.16)</text>
 </g>
-<!-- TracingHandlerEnhancerDefinition_33905 -->
+<!-- TracingHandlerEnhancerDefinition_33911 -->
 <g id="node32" class="node">
-<title>TracingHandlerEnhancerDefinition_33905</title>
+<title>TracingHandlerEnhancerDefinition_33911</title>
 <ellipse fill="#ccece6" stroke="#41ae76" stroke-width="2" cx="277.5" cy="-934.17" rx="101.75" ry="32.4"/>
 <text xml:space="preserve" text-anchor="middle" x="277.5" y="-937.77" font-family="Times,serif" font-size="12.00">TracingHandlerEnhancerDefinition</text>
 <text xml:space="preserve" text-anchor="middle" x="277.5" y="-923.37" font-family="Times,serif" font-size="12.00">(0.33)</text>
 </g>
-<!-- TracingHandlerEnhancerDefinition$Builder_33906 -->
+<!-- TracingHandlerEnhancerDefinition$Builder_33912 -->
 <g id="node33" class="node">
-<title>TracingHandlerEnhancerDefinition$Builder_33906</title>
+<title>TracingHandlerEnhancerDefinition$Builder_33912</title>
 <ellipse fill="#ccece6" stroke="#41ae76" stroke-width="2" cx="189.77" cy="-860.18" rx="127.92" ry="33.6"/>
 <text xml:space="preserve" text-anchor="middle" x="189.77" y="-870.98" font-family="Times,serif" font-size="12.00">TracingHandlerEnhancerDefinition$</text>
 <text xml:space="preserve" text-anchor="middle" x="189.77" y="-856.58" font-family="Times,serif" font-size="12.00">Builder</text>

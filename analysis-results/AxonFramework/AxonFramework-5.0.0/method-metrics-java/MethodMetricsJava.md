@@ -2507,7 +2507,7 @@ The following table shows the top 30 packages with the highest cyclomatic comple
       <td>217</td>
       <td>115</td>
       <td>7</td>
-      <td>covers</td>
+      <td>unwrap</td>
     </tr>
     <tr>
       <th>8</th>
@@ -2516,7 +2516,7 @@ The following table shows the top 30 packages with the highest cyclomatic comple
       <td>215</td>
       <td>161</td>
       <td>4</td>
-      <td>releaseSegment</td>
+      <td>lambda$appendEvents$0</td>
     </tr>
     <tr>
       <th>11</th>
@@ -2534,7 +2534,7 @@ The following table shows the top 30 packages with the highest cyclomatic comple
       <td>212</td>
       <td>138</td>
       <td>8</td>
-      <td>loadKeyViolationCodes</td>
+      <td>withGapsCleaned</td>
     </tr>
     <tr>
       <th>10</th>
@@ -2561,7 +2561,7 @@ The following table shows the top 30 packages with the highest cyclomatic comple
       <td>164</td>
       <td>121</td>
       <td>9</td>
-      <td>registerHandlerInterceptors</td>
+      <td>buildConverter</td>
     </tr>
     <tr>
       <th>17</th>
@@ -2588,7 +2588,7 @@ The following table shows the top 30 packages with the highest cyclomatic comple
       <td>149</td>
       <td>96</td>
       <td>8</td>
-      <td>isDifferent</td>
+      <td>equals</td>
     </tr>
     <tr>
       <th>24</th>
@@ -2606,7 +2606,7 @@ The following table shows the top 30 packages with the highest cyclomatic comple
       <td>137</td>
       <td>134</td>
       <td>2</td>
-      <td>batchSize</td>
+      <td>threadCount</td>
     </tr>
     <tr>
       <th>21</th>
@@ -2633,7 +2633,7 @@ The following table shows the top 30 packages with the highest cyclomatic comple
       <td>127</td>
       <td>90</td>
       <td>6</td>
-      <td>responseSendingLoop</td>
+      <td>sendResponses</td>
     </tr>
     <tr>
       <th>26</th>
@@ -2651,7 +2651,7 @@ The following table shows the top 30 packages with the highest cyclomatic comple
       <td>119</td>
       <td>92</td>
       <td>4</td>
-      <td>havingTags</td>
+      <td>or</td>
     </tr>
     <tr>
       <th>20</th>
@@ -2856,8 +2856,8 @@ The following table shows the top 30 packages containing the methods with the hi
       <td>18</td>
       <td>axon-spring-boot-autoconfigure-5.0.0</td>
       <td>org.axonframework.extension.springboot.autoconfig</td>
-      <td>InterceptorAutoConfiguration</td>
-      <td>registerHandlerInterceptors</td>
+      <td>ConverterAutoConfiguration</td>
+      <td>buildConverter</td>
       <td>9</td>
     </tr>
     <tr>
@@ -2874,8 +2874,8 @@ The following table shows the top 30 packages containing the methods with the hi
       <td>9</td>
       <td>axon-eventsourcing-5.0.0</td>
       <td>org.axonframework.eventsourcing.eventstore.jpa</td>
-      <td>SQLErrorCodesResolver</td>
-      <td>loadKeyViolationCodes</td>
+      <td>GapAwareTrackingTokenOperations</td>
+      <td>withGapsCleaned</td>
       <td>8</td>
     </tr>
     <tr>
@@ -2937,8 +2937,8 @@ The following table shows the top 30 packages containing the methods with the hi
       <td>22</td>
       <td>axon-messaging-5.0.0</td>
       <td>org.axonframework.messaging.eventhandling.proc...</td>
-      <td>EventTrackerStatus</td>
-      <td>isDifferent</td>
+      <td>TrackerStatus</td>
+      <td>equals</td>
       <td>8</td>
     </tr>
     <tr>

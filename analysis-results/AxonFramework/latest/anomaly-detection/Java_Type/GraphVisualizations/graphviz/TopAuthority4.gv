@@ -19,7 +19,7 @@ strict digraph TopAuthority4 {
 	"AccessSerializingRepository_3841"  [label = "AccessSerializingRepository\n(0.0%)"; penwidth = 5; ]; "AccessSerializingRepository_3841" -> central [label=1; weight=1; penwidth=0.4];
 	"AnnotatedEntityIdResolver_257"  [label = "AnnotatedEntityIdResolver\n(0.08%)"; penwidth = 2; ]; "AnnotatedEntityIdResolver_257" -> central [label=1; weight=1; penwidth=0.4];
 	"AnnotatedEntityMetamodel_977"  [label = "AnnotatedEntityMetamodel\n(1.62%)"; penwidth = 2; ]; "AnnotatedEntityMetamodel_977" -> central [label=1; weight=1; penwidth=0.4];
-	"AnnotationBasedEventCriteriaResolver_48265"  [label = "AnnotationBasedEventCriteriaResolver\n(0.3%)"; penwidth = 2; ]; "AnnotationBasedEventCriteriaResolver_48265" -> central [label=1; weight=1; penwidth=0.4];
+	"AnnotationBasedEventCriteriaResolver_48267"  [label = "AnnotationBasedEventCriteriaResolver\n(0.3%)"; penwidth = 2; ]; "AnnotationBasedEventCriteriaResolver_48267" -> central [label=1; weight=1; penwidth=0.4];
 	"AsyncRetryScheduler_31409"  [label = "AsyncRetryScheduler\n(0.04%)"; penwidth = 2; ]; "AsyncRetryScheduler_31409" -> central [label=1; weight=1; penwidth=0.4];
 	"AvroConverterStrategy_10665"  [label = "AvroConverterStrategy\n(0.24%)"; penwidth = 2; ]; "AvroConverterStrategy_10665" -> central [label=1; weight=1; penwidth=0.4];
 	"CommandBus_13488"  [label = "CommandBus\n(0.74%)"; penwidth = 2; ]; "CommandBus_13488" -> central [label=1; weight=1; penwidth=0.4];
@@ -41,8 +41,8 @@ strict digraph TopAuthority4 {
 	"EventProcessor_17856"  [label = "EventProcessor\n(0.25%)"; penwidth = 2; ]; "EventProcessor_17856" -> central [label=1; weight=1; penwidth=0.4];
 	"EventProcessorConfiguration_19818"  [label = "EventProcessorConfiguration\n(1.27%)"; penwidth = 2; ]; "EventProcessorConfiguration_19818" -> central [label=1; weight=1; penwidth=0.4];
 	"EventSink_16340"  [label = "EventSink\n(1.06%)"; penwidth = 2; ]; "EventSink_16340" -> central [label=1; weight=1; penwidth=0.4];
-	"EventStorageEngine_48310"  [label = "EventStorageEngine\n(0.18%)"; penwidth = 2; ]; "EventStorageEngine_48310" -> central [label=1; weight=1; penwidth=0.4];
-	"EventStore_46658"  [label = "EventStore\n(0.36%)"; penwidth = 2; ]; "EventStore_46658" -> central [label=1; weight=1; penwidth=0.4];
+	"EventStorageEngine_48065"  [label = "EventStorageEngine\n(0.18%)"; penwidth = 2; ]; "EventStorageEngine_48065" -> central [label=1; weight=1; penwidth=0.4];
+	"EventStore_46663"  [label = "EventStore\n(0.36%)"; penwidth = 2; ]; "EventStore_46663" -> central [label=1; weight=1; penwidth=0.4];
 	"EventSubscribers_16748"  [label = "EventSubscribers\n(0.07%)"; penwidth = 2; ]; "EventSubscribers_16748" -> central [label=1; weight=1; penwidth=0.4];
 	"FieldChildEntityFieldDefinition_2005"  [label = "FieldChildEntityFieldDefinition\n(1.03%)"; penwidth = 5; ]; "FieldChildEntityFieldDefinition_2005" -> central [label=1; weight=1; penwidth=0.4];
 	"HandlerInterceptorRegistry_22024"  [label = "HandlerInterceptorRegistry\n(0.23%)"; penwidth = 2; ]; "HandlerInterceptorRegistry_22024" -> central [label=1; weight=1; penwidth=0.4];
@@ -63,7 +63,7 @@ strict digraph TopAuthority4 {
 	"EventProcessorConfiguration_19818" -> "ComponentDescriptor_7355" [label=6; weight=6; penwidth=0.3; color = 3]
 	"FieldChildEntityFieldDefinition_2005" -> "ComponentDescriptor_7355" [label=6; weight=6; penwidth=0.3; color = 3]
 	"AnnotatedEntityIdResolver_257" -> "ComponentDescriptor_7355" [label=5; weight=5; penwidth=0.3; color = 3]
-	"AnnotationBasedEventCriteriaResolver_48265" -> "ComponentDescriptor_7355" [label=5; weight=5; penwidth=0.3; color = 3]
+	"AnnotationBasedEventCriteriaResolver_48267" -> "ComponentDescriptor_7355" [label=5; weight=5; penwidth=0.3; color = 3]
 	"EntityCommandHandlingComponent_979" -> "Repository_243" [label=5; weight=5; penwidth=0.3; color = 3]
 	"AnnotatedEntityIdResolver_257" -> "AnnotatedEntityMetamodel_977" [label=4; weight=4; penwidth=0.3; color = 3]
 	"DispatchInterceptorRegistry_22021" -> "Configuration_6958" [label=4; weight=4; penwidth=0.3; color = 3]
@@ -72,7 +72,7 @@ strict digraph TopAuthority4 {
 	"MessageMonitorRegistry_13646" -> "Configuration_6958" [label=4; weight=4; penwidth=0.3; color = 3]
 	"PolymorphicEntityMetamodel_1982" -> "ComponentDescriptor_7355" [label=4; weight=4; penwidth=0.3; color = 3]
 	"AnnotatedEntityMetamodel_977" -> "ComponentDescriptor_7355" [label=3; weight=3; penwidth=0.3; color = 3]
-	"AnnotationBasedEventCriteriaResolver_48265" -> "Configuration_6958" [label=3; weight=3; penwidth=0.3; color = 3]
+	"AnnotationBasedEventCriteriaResolver_48267" -> "Configuration_6958" [label=3; weight=3; penwidth=0.3; color = 3]
 	"AsyncRetryScheduler_31409" -> "ComponentDescriptor_7355" [label=3; weight=3; penwidth=0.3; color = 3]
 	"AsyncRetryScheduler_31409" -> "RetryPolicy_31494" [label=3; weight=3; penwidth=0.3; color = 3]
 	"EventProcessorConfiguration_19818" -> "Configuration_6958" [label=3; weight=3; penwidth=0.3; color = 3]
@@ -96,6 +96,6 @@ strict digraph TopAuthority4 {
 	"EntityMetamodel_249" -> "PolymorphicEntityMetamodel_1982" [label=1; weight=1; penwidth=0.3; color = 3]
 	"EntityMetamodel_249" -> "ConcreteEntityMetamodel_1995" [label=1; weight=1; penwidth=0.3; color = 3]
 	"EventBus_16342" -> "EventSink_16340" [label=1; weight=1; penwidth=0.3; color = 3]
-	"EventStore_46658" -> "EventBus_16342" [label=1; weight=1; penwidth=0.3; color = 3]
+	"EventStore_46663" -> "EventBus_16342" [label=1; weight=1; penwidth=0.3; color = 3]
 	"JacksonComponentDescriptor_6702" -> "ComponentDescriptor_7355" [label=1; weight=1; penwidth=0.3; color = 3]
 }

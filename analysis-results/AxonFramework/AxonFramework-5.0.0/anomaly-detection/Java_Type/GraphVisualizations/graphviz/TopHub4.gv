@@ -19,14 +19,14 @@ strict digraph TopHub4 {
 	"CommandResult_14397"  [label = "CommandResult\n(0.22)"; penwidth = 2; ]; "CommandResult_14397" -> central [label=13; weight=13; penwidth=0.6];
 	"MethodInvokingMessageHandlingMember_26203"  [label = "MethodInvokingMessageHandlingMember\n(0.22)"; penwidth = 2; ]; "MethodInvokingMessageHandlingMember_26203" -> central [label=13; weight=13; penwidth=0.6];
 	"MessageDecorator_15108"  [label = "MessageDecorator\n(0.64)"; penwidth = 2; ]; "MessageDecorator_15108" -> central [label=12; weight=12; penwidth=0.6];
-	"OpenTelemetrySpanFactory_38657"  [label = "OpenTelemetrySpanFactory\n(0.38)"; penwidth = 2; ]; "OpenTelemetrySpanFactory_38657" -> central [label=12; weight=12; penwidth=0.6];
+	"OpenTelemetrySpanFactory_38663"  [label = "OpenTelemetrySpanFactory\n(0.38)"; penwidth = 2; ]; "OpenTelemetrySpanFactory_38663" -> central [label=12; weight=12; penwidth=0.6];
 	"GenericResultMessage_15105"  [label = "GenericResultMessage\n(0.62)"; penwidth = 2; ]; "GenericResultMessage_15105" -> central [label=11; weight=11; penwidth=0.6];
-	"MultiSpanFactory_33903"  [label = "MultiSpanFactory\n(0.5)"; penwidth = 2; ]; "MultiSpanFactory_33903" -> central [label=11; weight=11; penwidth=0.6];
+	"MultiSpanFactory_33909"  [label = "MultiSpanFactory\n(0.5)"; penwidth = 2; ]; "MultiSpanFactory_33909" -> central [label=11; weight=11; penwidth=0.6];
 	"GenericCommandMessage_14361"  [label = "GenericCommandMessage\n(0.39)"; penwidth = 2; ]; "GenericCommandMessage_14361" -> central [label=10; weight=10; penwidth=0.6];
 	"GenericEventMessage_15125"  [label = "GenericEventMessage\n(0.19)"; penwidth = 2; ]; "GenericEventMessage_15125" -> central [label=10; weight=10; penwidth=0.6];
 	"GenericQueryMessage_24072"  [label = "GenericQueryMessage\n(0.44)"; penwidth = 2; ]; "GenericQueryMessage_24072" -> central [label=10; weight=10; penwidth=0.6];
 	"SpanFactory_15111"  [label = "SpanFactory\n(0.17)"; penwidth = 2; ]; "SpanFactory_15111" -> central [label=10; weight=10; penwidth=0.6];
-	"AxonTestThenCommand_43768"  [label = "AxonTestThenCommand\n(0.24)"; penwidth = 2; ]; "AxonTestThenCommand_43768" -> central [label=9; weight=9; penwidth=0.5];
+	"AxonTestThenCommand_43774"  [label = "AxonTestThenCommand\n(0.24)"; penwidth = 2; ]; "AxonTestThenCommand_43774" -> central [label=9; weight=9; penwidth=0.5];
 	"EmptyMessageStream_28072"  [label = "EmptyMessageStream\n(0.67)"; penwidth = 2; ]; "EmptyMessageStream_28072" -> central [label=9; weight=9; penwidth=0.5];
 	"GenericCommandResultMessage_14375"  [label = "GenericCommandResultMessage\n(0.45)"; penwidth = 2; ]; "GenericCommandResultMessage_14375" -> central [label=9; weight=9; penwidth=0.5];
 	"GenericQueryResponseMessage_23711"  [label = "GenericQueryResponseMessage\n(0.45)"; penwidth = 2; ]; "GenericQueryResponseMessage_23711" -> central [label=9; weight=9; penwidth=0.5];
@@ -37,7 +37,7 @@ strict digraph TopHub4 {
 	"DefaultDispatchInterceptorRegistry_29318"  [label = "DefaultDispatchInterceptorRegistry\n(0.17)"; penwidth = 2; ]; "DefaultDispatchInterceptorRegistry_29318" -> central [label=7; weight=7; penwidth=0.5];
 	"DefaultQueryBusSpanFactory_25783"  [label = "DefaultQueryBusSpanFactory\n(0.38)"; penwidth = 2; ]; "DefaultQueryBusSpanFactory_25783" -> central [label=7; weight=7; penwidth=0.5];
 	"MessageHandlerInterceptorDefinition$ResultHandlingInterceptorMember_29378"  [label = "MessageHandlerInterceptorDefinition$\nResultHandlingInterceptorMember\n(0.31)"; penwidth = 2; ]; "MessageHandlerInterceptorDefinition$ResultHandlingInterceptorMember_29378" -> central [label=7; weight=7; penwidth=0.5];
-	"MetadataContextGetter_38660"  [label = "MetadataContextGetter\n(0.67)"; penwidth = 2; ]; "MetadataContextGetter_38660" -> central [label=7; weight=7; penwidth=0.5];
+	"MetadataContextGetter_38666"  [label = "MetadataContextGetter\n(0.67)"; penwidth = 2; ]; "MetadataContextGetter_38666" -> central [label=7; weight=7; penwidth=0.5];
 	"CommandMessage_12317"  [label = "CommandMessage\n(0.05)"; penwidth = 5; ]; "CommandMessage_12317" -> central [label=6; weight=6; penwidth=0.5];
 	"ConvertingCommandGateway$ConvertingCommandResult_14726"  [label = "ConvertingCommandGateway$\nConvertingCommandResult\n(0.67)"; penwidth = 2; ]; "ConvertingCommandGateway$ConvertingCommandResult_14726" -> central [label=6; weight=6; penwidth=0.5];
 	"DefaultHandlerInterceptorRegistry_29316"  [label = "DefaultHandlerInterceptorRegistry\n(0.18)"; penwidth = 2; ]; "DefaultHandlerInterceptorRegistry_29316" -> central [label=6; weight=6; penwidth=0.5];
@@ -60,7 +60,7 @@ strict digraph TopHub4 {
 	"Context$ResourceKey_14392"  [label = "Context$\nResourceKey\n(0.09)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "Context$ResourceKey_14392" [label=3; weight=3; penwidth=0.4; color = 5];
 	"MessageType_14378"  [label = "MessageType\n(0.07)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "MessageType_14378" [label=1; weight=1; penwidth=0.4; color = 5];
 	"Metadata_14360"  [label = "Metadata\n(0.08)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "Metadata_14360" [label=1; weight=1; penwidth=0.4; color = 5];
-	"MultiSpanFactory_33903" -> "SpanFactory_15111" [label=17; weight=17; penwidth=0.3; color = 3]
+	"MultiSpanFactory_33909" -> "SpanFactory_15111" [label=17; weight=17; penwidth=0.3; color = 3]
 	"DefaultQueryBusSpanFactory_25783" -> "SpanFactory_15111" [label=12; weight=12; penwidth=0.3; color = 3]
 	"MethodInvokingMessageHandlingMember_26203" -> "MessageStream_12311" [label=10; weight=10; penwidth=0.3; color = 3]
 	"CommandResultMessage_12325" -> "Converter_11556" [label=9; weight=9; penwidth=0.3; color = 3]
@@ -115,7 +115,7 @@ strict digraph TopHub4 {
 	"GlobalMetricRegistry_10452" -> "TagsUtil_10459" [label=4; weight=4; penwidth=0.3; color = 3]
 	"GlobalMetricRegistry_10452" -> "CapacityMonitor_10457" [label=4; weight=4; penwidth=0.3; color = 3]
 	"LoggingInterceptor_28349" -> "MessageType_14378" [label=4; weight=4; penwidth=0.3; color = 3]
-	"AxonTestThenCommand_43768" -> "CommandResultMessage_12325" [label=3; weight=3; penwidth=0.3; color = 3]
+	"AxonTestThenCommand_43774" -> "CommandResultMessage_12325" [label=3; weight=3; penwidth=0.3; color = 3]
 	"CommandMessage_12317" -> "TypeReference_6202" [label=3; weight=3; penwidth=0.3; color = 3]
 	"DefaultParameterResolverFactory$AnnotatedMetadataParameterResolver_27221" -> "Metadata_14360" [label=3; weight=3; penwidth=0.3; color = 3]
 	"EventMessage_12306" -> "TypeReference_6202" [label=3; weight=3; penwidth=0.3; color = 3]
@@ -147,11 +147,11 @@ strict digraph TopHub4 {
 	"GenericResultMessage_15105" -> "MessageDecorator_15108" [label=2; weight=2; penwidth=0.3; color = 3]
 	"GenericResultMessage_15105" -> "Converter_11556" [label=2; weight=2; penwidth=0.3; color = 3]
 	"GenericSubscriptionQueryUpdateMessage_25146" -> "Metadata_14360" [label=2; weight=2; penwidth=0.3; color = 3]
-	"GlobalMetricRegistry_10452" -> "CommandMessage_12317" [label=2; weight=2; penwidth=0.3; color = 3]
 	"GlobalMetricRegistry_10452" -> "QueryMessage_12312" [label=2; weight=2; penwidth=0.3; color = 3]
+	"GlobalMetricRegistry_10452" -> "CommandMessage_12317" [label=2; weight=2; penwidth=0.3; color = 3]
 	"LoggingInterceptor_28349" -> "ProcessingContext_12309" [label=2; weight=2; penwidth=0.3; color = 3]
 	"MessageDecorator_15108" -> "Converter_11556" [label=2; weight=2; penwidth=0.3; color = 3]
-	"MetadataContextGetter_38660" -> "Metadata_14360" [label=2; weight=2; penwidth=0.3; color = 3]
+	"MetadataContextGetter_38666" -> "Metadata_14360" [label=2; weight=2; penwidth=0.3; color = 3]
 	"DefaultCommandGateway_14612" -> "ProcessingContext_12309" [label=1; weight=1; penwidth=0.3; color = 3]
 	"DefaultCommandGateway_14612" -> "CommandResult_14397" [label=1; weight=1; penwidth=0.3; color = 3]
 	"GenericCommandMessage_14361" -> "Metadata_14360" [label=1; weight=1; penwidth=0.3; color = 3]
@@ -163,6 +163,6 @@ strict digraph TopHub4 {
 	"MessageDecorator_15108" -> "Metadata_14360" [label=1; weight=1; penwidth=0.3; color = 3]
 	"MessageStream_12311" -> "EmptyMessageStream_28072" [label=1; weight=1; penwidth=0.3; color = 3]
 	"NoOpSpanFactory_22022" -> "SpanFactory_15111" [label=1; weight=1; penwidth=0.3; color = 3]
-	"OpenTelemetrySpanFactory_38657" -> "SpanFactory_15111" [label=1; weight=1; penwidth=0.3; color = 3]
+	"OpenTelemetrySpanFactory_38663" -> "SpanFactory_15111" [label=1; weight=1; penwidth=0.3; color = 3]
 	"TagsUtil_10459" -> "Metadata_14360" [label=1; weight=1; penwidth=0.3; color = 3]
 }

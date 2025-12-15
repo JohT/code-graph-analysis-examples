@@ -12,16 +12,18 @@ strict digraph TopBridge3 {
     central [fontsize = 16;];
     central [color = 7; fillcolor = 5; penwidth = 3;];
 
-	graph   [label="Top Rank #3 Java Type Bridge\norg.axonframework.extension.springboot.autoconfig.AxonTimeoutAutoConfiguration\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
-	central [label="🌉 bridge #3\nAxonTimeoutAutoConfiguration"];
-	"TimeoutProperties_35727" [label = "TimeoutProperties"; color = 5; fillcolor = 1; ]; central -> "TimeoutProperties_35727" [label=5; weight=5; penwidth=0.5; color = 5];
-	"AxonTimeoutAutoConfiguration$AxonTimeoutConfigurerModule_36729" [label = "AxonTimeoutAutoConfiguration$\nAxonTimeoutConfigurerModule"; color = 5; fillcolor = 1; ]; central -> "AxonTimeoutAutoConfiguration$AxonTimeoutConfigurerModule_36729" [label=3; weight=3; penwidth=0.4; color = 5];
-	"HandlerTimeoutHandlerEnhancerDefinition_32539" [label = "HandlerTimeoutHandlerEnhancerDefinition"; color = 5; fillcolor = 1; ]; central -> "HandlerTimeoutHandlerEnhancerDefinition_32539" [label=3; weight=3; penwidth=0.4; color = 5];
-	"TimeoutProperties$MessageHandlerTimeoutProperties_36328" [label = "TimeoutProperties$\nMessageHandlerTimeoutProperties"; color = 5; fillcolor = 1; ]; central -> "TimeoutProperties$MessageHandlerTimeoutProperties_36328" [label=2; weight=2; penwidth=0.4; color = 5];
-	"ConfigurationEnhancer_8376" [label = "ConfigurationEnhancer"; color = 5; fillcolor = 1; ]; central -> "ConfigurationEnhancer_8376" [label=1; weight=1; penwidth=0.4; color = 5];
-	"TimeoutProperties$TransactionTimeoutProperties_35729" [label = "TimeoutProperties$\nTransactionTimeoutProperties"; color = 5; fillcolor = 1; ]; central -> "TimeoutProperties$TransactionTimeoutProperties_35729" [label=1; weight=1; penwidth=0.4; color = 5];
-	"AxonTimeoutAutoConfiguration$AxonTimeoutConfigurerModule_36729" -> "TimeoutProperties$TransactionTimeoutProperties_35729" [label=12; weight=12; penwidth=0.3; color = 3]
-	"TimeoutProperties_35727" -> "TimeoutProperties$TransactionTimeoutProperties_35729" [label=6; weight=6; penwidth=0.3; color = 3]
-	"TimeoutProperties_35727" -> "TimeoutProperties$MessageHandlerTimeoutProperties_36328" [label=6; weight=6; penwidth=0.3; color = 3]
-	"AxonTimeoutAutoConfiguration$AxonTimeoutConfigurerModule_36729" -> "ConfigurationEnhancer_8376" [label=1; weight=1; penwidth=0.3; color = 3]
+	graph   [label="Top Rank #3 Java Type Bridge\norg.axonframework.messaging.core.timeout.HandlerTimeoutHandlerEnhancerDefinition\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
+	central [label="🌉 bridge #3\nHandlerTimeoutHandlerEnhancerDefinition"];
+	"AxonTimeoutAutoConfiguration_35850" [label = "AxonTimeoutAutoConfiguration"; ]; "AxonTimeoutAutoConfiguration_35850" -> central [label=3; weight=3; penwidth=0.4];
+	"MessageHandlingMember_13528" [label = "MessageHandlingMember"; color = 5; fillcolor = 1; ]; central -> "MessageHandlingMember_13528" [label=8; weight=8; penwidth=0.5; color = 5];
+	"HandlerTimeoutConfiguration_32534" [label = "HandlerTimeoutConfiguration"; color = 5; fillcolor = 1; ]; central -> "HandlerTimeoutConfiguration_32534" [label=5; weight=5; penwidth=0.5; color = 5];
+	"TaskTimeoutSettings_32535" [label = "TaskTimeoutSettings"; color = 5; fillcolor = 1; ]; central -> "TaskTimeoutSettings_32535" [label=4; weight=4; penwidth=0.5; color = 5];
+	"TimeoutWrappedMessageHandlingMember_32543" [label = "TimeoutWrappedMessageHandlingMember"; color = 5; fillcolor = 1; ]; central -> "TimeoutWrappedMessageHandlingMember_32543" [label=2; weight=2; penwidth=0.4; color = 5];
+	"CommandMessage_12317" [label = "CommandMessage"; color = 5; fillcolor = 1; ]; central -> "CommandMessage_12317" [label=1; weight=1; penwidth=0.4; color = 5];
+	"EventMessage_12306" [label = "EventMessage"; color = 5; fillcolor = 1; ]; central -> "EventMessage_12306" [label=1; weight=1; penwidth=0.4; color = 5];
+	"HandlerEnhancerDefinition_13527" [label = "HandlerEnhancerDefinition"; color = 5; fillcolor = 1; ]; central -> "HandlerEnhancerDefinition_13527" [label=1; weight=1; penwidth=0.4; color = 5];
+	"QueryMessage_12312" [label = "QueryMessage"; color = 5; fillcolor = 1; ]; central -> "QueryMessage_12312" [label=1; weight=1; penwidth=0.4; color = 5];
+	"HandlerTimeoutConfiguration_32534" -> "TaskTimeoutSettings_32535" [label=20; weight=20; penwidth=0.3; color = 3]
+	"HandlerEnhancerDefinition_13527" -> "MessageHandlingMember_13528" [label=2; weight=2; penwidth=0.3; color = 3]
+	"TimeoutWrappedMessageHandlingMember_32543" -> "MessageHandlingMember_13528" [label=1; weight=1; penwidth=0.3; color = 3]
 }

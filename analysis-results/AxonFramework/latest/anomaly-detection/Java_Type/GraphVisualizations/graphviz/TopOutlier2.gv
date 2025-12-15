@@ -12,30 +12,24 @@ strict digraph TopOutlier2 {
     central [fontsize = 16;];
     central [color = 7; fillcolor = 5; penwidth = 3;];
 
-	graph   [label="Top Rank #2 Java Type Outlier\norg.axonframework.axonserver.connector.query.AxonServerQueryBusConnector$LocalSegmentAdapter\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: cluster probability\nlarge circle: < 25% percentile of cluster probability\nthick outline: > 80% percentile of distance to cluster center\n\n"];
-	central [label="🧩 outlier #2\nAxonServerQueryBusConnector$LocalSegmentAdapter"];
-	"AxonServerQueryBusConnector_40780"  [label = "AxonServerQueryBusConnector\n(11.13%)"; penwidth = 2; ]; "AxonServerQueryBusConnector_40780" -> central [label=6; weight=6; penwidth=0.5];
-	"AxonServerQueryBusConnector_40780"  [label = "AxonServerQueryBusConnector\n(11.13%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "AxonServerQueryBusConnector_40780" [label=5; weight=5; penwidth=0.5; color = 5];
-	"AxonServerQueryBusConnector$AxonServerUpdateCallback_40785"  [label = "AxonServerQueryBusConnector$\nAxonServerUpdateCallback\n(10.42%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "AxonServerQueryBusConnector$AxonServerUpdateCallback_40785" [label=3; weight=3; penwidth=0.4; color = 5];
-	"QueryBusConnector$Handler_23100"  [shape = "circle"; height=1.8; label = "QueryBusConnector$\nHandler\n(0.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "QueryBusConnector$Handler_23100" [label=3; weight=3; penwidth=0.4; color = 5];
-	"FlowControlledResponseSender_40786"  [shape = "circle"; height=1.8; label = "FlowControlledResponseSender\n(0.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "FlowControlledResponseSender_40786" [label=2; weight=2; penwidth=0.4; color = 5];
-	"MessageStream_12311"  [label = "MessageStream\n(49.13%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "MessageStream_12311" [label=2; weight=2; penwidth=0.4; color = 5];
-	"QueryConverter_40782"  [label = "QueryConverter\n(100.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "QueryConverter_40782" [label=2; weight=2; penwidth=0.4; color = 5];
-	"Registration_6267"  [label = "Registration\n(11.73%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "Registration_6267" [label=2; weight=2; penwidth=0.4; color = 5];
-	"FutureUtils_6699"  [label = "FutureUtils\n(88.39%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "FutureUtils_6699" [label=1; weight=1; penwidth=0.4; color = 5];
-	"QueryBusConnector$UpdateCallback_22733"  [shape = "circle"; height=1.8; label = "QueryBusConnector$\nUpdateCallback\n(0.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "QueryBusConnector$UpdateCallback_22733" [label=1; weight=1; penwidth=0.4; color = 5];
-	"FlowControlledResponseSender_40786" -> "MessageStream_12311" [label=10; weight=10; penwidth=0.3; color = 3]
-	"AxonServerQueryBusConnector_40780" -> "QueryBusConnector$Handler_23100" [label=4; weight=4; penwidth=0.3; color = 3]
-	"AxonServerQueryBusConnector_40780" -> "MessageStream_12311" [label=3; weight=3; penwidth=0.3; color = 3]
-	"AxonServerQueryBusConnector$AxonServerUpdateCallback_40785" -> "FutureUtils_6699" [label=3; weight=3; penwidth=0.3; color = 3]
-	"AxonServerQueryBusConnector$AxonServerUpdateCallback_40785" -> "AxonServerQueryBusConnector_40780" [label=3; weight=3; penwidth=0.3; color = 3]
+	graph   [label="Top Rank #2 Java Type Outlier\norg.axonframework.axonserver.connector.query.AxonServerQueryBusConnector$AxonServerUpdateCallback\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: cluster probability\nlarge circle: < 25% percentile of cluster probability\nthick outline: > 80% percentile of distance to cluster center\n\n"];
+	central [label="🧩 outlier #2\nAxonServerQueryBusConnector$AxonServerUpdateCallback"];
+	"AxonServerQueryBusConnector$LocalSegmentAdapter_40784"  [shape = "circle"; height=1.8; label = "AxonServerQueryBusConnector$\nLocalSegmentAdapter\n(0.0%)"; penwidth = 2; ]; "AxonServerQueryBusConnector$LocalSegmentAdapter_40784" -> central [label=3; weight=3; penwidth=0.4];
+	"AxonServerQueryBusConnector_40780"  [label = "AxonServerQueryBusConnector\n(16.46%)"; penwidth = 2; ]; "AxonServerQueryBusConnector_40780" -> central [label=1; weight=1; penwidth=0.4];
+	"AxonServerQueryBusConnector_40780"  [label = "AxonServerQueryBusConnector\n(16.46%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "AxonServerQueryBusConnector_40780" [label=3; weight=3; penwidth=0.4; color = 5];
+	"FutureUtils_6699"  [label = "FutureUtils\n(82.35%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "FutureUtils_6699" [label=3; weight=3; penwidth=0.4; color = 5];
+	"QueryBusConnector$UpdateCallback_22733"  [shape = "circle"; height=1.8; label = "QueryBusConnector$\nUpdateCallback\n(0.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "QueryBusConnector$UpdateCallback_22733" [label=2; weight=2; penwidth=0.4; color = 5];
+	"QueryConverter_40782"  [shape = "circle"; height=1.8; label = "QueryConverter\n(0.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "QueryConverter_40782" [label=2; weight=2; penwidth=0.4; color = 5];
+	"ErrorCode_39699"  [label = "ErrorCode\n(32.45%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "ErrorCode_39699" [label=1; weight=1; penwidth=0.4; color = 5];
+	"SubscriptionQueryUpdateMessage_12314"  [shape = "circle"; height=1.8; label = "SubscriptionQueryUpdateMessage\n(0.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "SubscriptionQueryUpdateMessage_12314" [label=1; weight=1; penwidth=0.4; color = 5];
+	"QueryConverter_40782" -> "SubscriptionQueryUpdateMessage_12314" [label=7; weight=7; penwidth=0.3; color = 3]
+	"AxonServerQueryBusConnector_40780" -> "AxonServerQueryBusConnector$LocalSegmentAdapter_40784" [label=6; weight=6; penwidth=0.3; color = 3]
+	"AxonServerQueryBusConnector$LocalSegmentAdapter_40784" -> "AxonServerQueryBusConnector_40780" [label=5; weight=5; penwidth=0.3; color = 3]
 	"AxonServerQueryBusConnector_40780" -> "QueryConverter_40782" [label=2; weight=2; penwidth=0.3; color = 3]
-	"AxonServerQueryBusConnector$AxonServerUpdateCallback_40785" -> "QueryBusConnector$UpdateCallback_22733" [label=2; weight=2; penwidth=0.3; color = 3]
-	"AxonServerQueryBusConnector$AxonServerUpdateCallback_40785" -> "QueryConverter_40782" [label=2; weight=2; penwidth=0.3; color = 3]
-	"QueryBusConnector$Handler_23100" -> "QueryBusConnector$UpdateCallback_22733" [label=2; weight=2; penwidth=0.3; color = 3]
+	"AxonServerQueryBusConnector$LocalSegmentAdapter_40784" -> "QueryConverter_40782" [label=2; weight=2; penwidth=0.3; color = 3]
+	"QueryConverter_40782" -> "ErrorCode_39699" [label=2; weight=2; penwidth=0.3; color = 3]
 	"AxonServerQueryBusConnector_40780" -> "FutureUtils_6699" [label=1; weight=1; penwidth=0.3; color = 3]
-	"AxonServerQueryBusConnector_40780" -> "AxonServerQueryBusConnector$AxonServerUpdateCallback_40785" [label=1; weight=1; penwidth=0.3; color = 3]
-	"FlowControlledResponseSender_40786" -> "QueryConverter_40782" [label=1; weight=1; penwidth=0.3; color = 3]
-	"QueryBusConnector$Handler_23100" -> "Registration_6267" [label=1; weight=1; penwidth=0.3; color = 3]
-	"QueryBusConnector$Handler_23100" -> "MessageStream_12311" [label=1; weight=1; penwidth=0.3; color = 3]
+	"AxonServerQueryBusConnector$LocalSegmentAdapter_40784" -> "QueryBusConnector$UpdateCallback_22733" [label=1; weight=1; penwidth=0.3; color = 3]
+	"AxonServerQueryBusConnector$LocalSegmentAdapter_40784" -> "FutureUtils_6699" [label=1; weight=1; penwidth=0.3; color = 3]
+	"QueryBusConnector$UpdateCallback_22733" -> "SubscriptionQueryUpdateMessage_12314" [label=1; weight=1; penwidth=0.3; color = 3]
 }

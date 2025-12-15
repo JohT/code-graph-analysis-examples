@@ -659,7 +659,7 @@ In this section we'll focus only on pairs of nodes that both belong to the same 
       <td>256</td>
       <td>57</td>
       <td>44</td>
-      <td>[/org/axonframework/messaging/core/configuration -&gt; /org/axonframework/messaging/monitoring, /org/axonframework/messaging/core/configuration -&gt; /org/axonframework/messaging/monitoring/interception, /org/axonframework/messaging/core/configuration -&gt; /org/axonframework/messaging/monitoring/configu...</td>
+      <td>[/org/axonframework/messaging/monitoring/interception -&gt; /org/axonframework/messaging/monitoring, /org/axonframework/messaging/monitoring/configuration -&gt; /org/axonframework/messaging/monitoring, /org/axonframework/messaging/eventhandling/processing/streaming/pooled -&gt; /org/axonframework/messagi...</td>
       <td>[axon-messaging-5.0.0 -&gt; axon-messaging-5.0.0]</td>
       <td>[]</td>
     </tr>
@@ -1075,9 +1075,9 @@ The following table shows the first 10 rows with all details of the query above.
       <td>32</td>
       <td>9</td>
       <td>32</td>
-      <td>6</td>
+      <td>4</td>
       <td>1</td>
-      <td>6</td>
+      <td>4</td>
       <td>[/org/axonframework/eventsourcing/configuration -&gt; /org/axonframework/modelling/annotation, /org/axonframework/eventsourcing/configuration -&gt; /org/axonframework/modelling/entity/annotation, /org/axonframework/eventsourcing/configuration -&gt; /org/axonframework/modelling/configuration, /org/axonfra...</td>
       <td>[axon-eventsourcing-5.0.0 -&gt; axon-modelling-5.0.0, axon-eventsourcing-5.0.0 -&gt; axon-messaging-5.0.0]</td>
       <td>[]</td>
@@ -1094,9 +1094,9 @@ The following table shows the first 10 rows with all details of the query above.
       <td>26</td>
       <td>4</td>
       <td>26</td>
-      <td>10</td>
+      <td>9</td>
       <td>1</td>
-      <td>10</td>
+      <td>9</td>
       <td>[/org/axonframework/eventsourcing/configuration -&gt; /org/axonframework/modelling, /org/axonframework/eventsourcing/configuration -&gt; /org/axonframework/modelling/entity, /org/axonframework/eventsourcing/configuration -&gt; /org/axonframework/modelling/repository, /org/axonframework/eventsourcing/conf...</td>
       <td>[axon-eventsourcing-5.0.0 -&gt; axon-modelling-5.0.0, axon-eventsourcing-5.0.0 -&gt; axon-common-5.0.0, axon-eventsourcing-5.0.0 -&gt; axon-messaging-5.0.0]</td>
       <td>[]</td>
@@ -1208,9 +1208,9 @@ The following table shows the first 10 rows with all details of the query above.
       <td>32</td>
       <td>9</td>
       <td>32</td>
-      <td>7</td>
+      <td>9</td>
       <td>1</td>
-      <td>7</td>
+      <td>9</td>
       <td>[/org/axonframework/extension/springboot/autoconfig -&gt; /org/axonframework/conversion/avro, /org/axonframework/extension/springboot/autoconfig -&gt; /org/axonframework/conversion/json, /org/axonframework/extension/springboot/autoconfig -&gt; /org/axonframework/messaging/commandhandling/distributed, /or...</td>
       <td>[axon-spring-boot-autoconfigure-5.0.0 -&gt; axon-conversion-5.0.0, axon-spring-boot-autoconfigure-5.0.0 -&gt; axon-messaging-5.0.0, axon-spring-boot-autoconfigure-5.0.0 -&gt; axon-eventsourcing-5.0.0]</td>
       <td>[]</td>

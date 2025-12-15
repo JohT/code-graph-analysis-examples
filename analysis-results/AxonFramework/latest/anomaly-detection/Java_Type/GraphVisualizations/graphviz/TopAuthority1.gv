@@ -47,11 +47,11 @@ strict digraph TopAuthority1 {
 	"DefaultMessageMonitorRegistry$3_13446"  [label = "DefaultMessageMonitorRegistry$\n3\n(0.02%)"; penwidth = 2; ]; "DefaultMessageMonitorRegistry$3_13446" -> central [label=2; weight=2; penwidth=0.4];
 	"DefaultMessageMonitorRegistry$4_13447"  [label = "DefaultMessageMonitorRegistry$\n4\n(0.02%)"; penwidth = 2; ]; "DefaultMessageMonitorRegistry$4_13447" -> central [label=2; weight=2; penwidth=0.4];
 	"DefaultMessageMonitorRegistry$5_13448"  [label = "DefaultMessageMonitorRegistry$\n5\n(0.02%)"; penwidth = 2; ]; "DefaultMessageMonitorRegistry$5_13448" -> central [label=2; weight=2; penwidth=0.4];
-	"SimpleEventSourcedEntityModule$1_50190"  [label = "SimpleEventSourcedEntityModule$\n1\n(0.03%)"; penwidth = 2; ]; "SimpleEventSourcedEntityModule$1_50190" -> central [label=2; weight=2; penwidth=0.4];
-	"SimpleEventSourcedEntityModule$2_50192"  [label = "SimpleEventSourcedEntityModule$\n2\n(0.03%)"; penwidth = 2; ]; "SimpleEventSourcedEntityModule$2_50192" -> central [label=2; weight=2; penwidth=0.4];
-	"SimpleEventSourcedEntityModule$3_50193"  [label = "SimpleEventSourcedEntityModule$\n3\n(0.03%)"; penwidth = 2; ]; "SimpleEventSourcedEntityModule$3_50193" -> central [label=2; weight=2; penwidth=0.4];
-	"SimpleEventSourcedEntityModule$4_50194"  [label = "SimpleEventSourcedEntityModule$\n4\n(0.03%)"; penwidth = 2; ]; "SimpleEventSourcedEntityModule$4_50194" -> central [label=2; weight=2; penwidth=0.4];
-	"SimpleEventSourcedEntityModule$5_50195"  [label = "SimpleEventSourcedEntityModule$\n5\n(0.03%)"; penwidth = 2; ]; "SimpleEventSourcedEntityModule$5_50195" -> central [label=2; weight=2; penwidth=0.4];
+	"SimpleEventSourcedEntityModule$1_50192"  [label = "SimpleEventSourcedEntityModule$\n1\n(0.03%)"; penwidth = 2; ]; "SimpleEventSourcedEntityModule$1_50192" -> central [label=2; weight=2; penwidth=0.4];
+	"SimpleEventSourcedEntityModule$2_50194"  [label = "SimpleEventSourcedEntityModule$\n2\n(0.03%)"; penwidth = 2; ]; "SimpleEventSourcedEntityModule$2_50194" -> central [label=2; weight=2; penwidth=0.4];
+	"SimpleEventSourcedEntityModule$3_50195"  [label = "SimpleEventSourcedEntityModule$\n3\n(0.03%)"; penwidth = 2; ]; "SimpleEventSourcedEntityModule$3_50195" -> central [label=2; weight=2; penwidth=0.4];
+	"SimpleEventSourcedEntityModule$4_50196"  [label = "SimpleEventSourcedEntityModule$\n4\n(0.03%)"; penwidth = 2; ]; "SimpleEventSourcedEntityModule$4_50196" -> central [label=2; weight=2; penwidth=0.4];
+	"SimpleEventSourcedEntityModule$5_50197"  [label = "SimpleEventSourcedEntityModule$\n5\n(0.03%)"; penwidth = 2; ]; "SimpleEventSourcedEntityModule$5_50197" -> central [label=2; weight=2; penwidth=0.4];
 	"SimpleStateBasedEntityModule$1_3103"  [label = "SimpleStateBasedEntityModule$\n1\n(0.02%)"; penwidth = 2; ]; "SimpleStateBasedEntityModule$1_3103" -> central [label=2; weight=2; penwidth=0.4];
 	"SimpleStateBasedEntityModule$2_3102"  [label = "SimpleStateBasedEntityModule$\n2\n(0.02%)"; penwidth = 2; ]; "SimpleStateBasedEntityModule$2_3102" -> central [label=2; weight=2; penwidth=0.4];
 	"TypeReference$1_6149"  [shape = "circle"; height=2; label = "TypeReference$\n1\n(42.68%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "TypeReference$1_6149" [label=3; weight=3; penwidth=0.4; color = 5];

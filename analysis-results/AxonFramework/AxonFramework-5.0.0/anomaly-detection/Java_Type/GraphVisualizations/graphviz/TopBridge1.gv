@@ -12,13 +12,10 @@ strict digraph TopBridge1 {
     central [fontsize = 16;];
     central [color = 7; fillcolor = 5; penwidth = 3;];
 
-	graph   [label="Top Rank #1 Java Type Bridge\norg.axonframework.common.caching.JCacheAdapter\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
-	central [label="🌉 bridge #1\nJCacheAdapter"];
-	"Cache$EntryListener_6268" [label = "Cache$\nEntryListener"; color = 5; fillcolor = 1; ]; central -> "Cache$EntryListener_6268" [label=3; weight=3; penwidth=0.4; color = 5];
-	"JCacheAdapter$JCacheListenerAdapter_6207" [label = "JCacheAdapter$\nJCacheListenerAdapter"; color = 5; fillcolor = 1; ]; central -> "JCacheAdapter$JCacheListenerAdapter_6207" [label=3; weight=3; penwidth=0.4; color = 5];
-	"AbstractCacheAdapter_6206" [label = "AbstractCacheAdapter"; color = 5; fillcolor = 1; ]; central -> "AbstractCacheAdapter_6206" [label=2; weight=2; penwidth=0.4; color = 5];
-	"Registration_6267" [label = "Registration"; color = 5; fillcolor = 1; ]; central -> "Registration_6267" [label=2; weight=2; penwidth=0.4; color = 5];
-	"JCacheAdapter$JCacheListenerAdapter_6207" -> "Cache$EntryListener_6268" [label=7; weight=7; penwidth=0.3; color = 3]
-	"AbstractCacheAdapter_6206" -> "Cache$EntryListener_6268" [label=5; weight=5; penwidth=0.3; color = 3]
-	"AbstractCacheAdapter_6206" -> "Registration_6267" [label=4; weight=4; penwidth=0.3; color = 3]
+	graph   [label="Top Rank #1 Java Type Bridge\norg.axonframework.extension.springboot.autoconfig.AvroSchemaStoreAutoConfiguration$AvroConfiguredCondition$EventsAvroCondition\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
+	central [label="🌉 bridge #1\nAvroSchemaStoreAutoConfiguration$AvroConfiguredCondition$EventsAvroCondition"];
+	"AvroSchemaStoreAutoConfiguration_35856" [label = "AvroSchemaStoreAutoConfiguration"; ]; "AvroSchemaStoreAutoConfiguration_35856" -> central [label=1; weight=1; penwidth=0.4];
+	"AvroSchemaStoreAutoConfiguration$AvroConfiguredCondition_35853" [label = "AvroSchemaStoreAutoConfiguration$\nAvroConfiguredCondition"; ]; "AvroSchemaStoreAutoConfiguration$AvroConfiguredCondition_35853" -> central [label=1; weight=1; penwidth=0.4];
+	"AvroSchemaStoreAutoConfiguration$AvroConfiguredCondition_35853" [label = "AvroSchemaStoreAutoConfiguration$\nAvroConfiguredCondition"; color = 5; fillcolor = 1; ]; central -> "AvroSchemaStoreAutoConfiguration$AvroConfiguredCondition_35853" [label=1; weight=1; penwidth=0.4; color = 5];
+	"AvroSchemaStoreAutoConfiguration_35856" -> "AvroSchemaStoreAutoConfiguration$AvroConfiguredCondition_35853" [label=4; weight=4; penwidth=0.3; color = 3]
 }

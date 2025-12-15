@@ -12,23 +12,26 @@ strict digraph TopOutlier3 {
     central [fontsize = 16;];
     central [color = 7; fillcolor = 5; penwidth = 3;];
 
-	graph   [label="Top Rank #3 Java Type Outlier\norg.axonframework.messaging.commandhandling.distributed.DistributedCommandBus$DistributedHandler\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: cluster probability\nlarge circle: < 25% percentile of cluster probability\nthick outline: > 80% percentile of distance to cluster center\n\n"];
-	central [label="🧩 outlier #3\nDistributedCommandBus$DistributedHandler"];
-	"DistributedCommandBus_13449"  [label = "DistributedCommandBus\n(9.82%)"; penwidth = 5; ]; "DistributedCommandBus_13449" -> central [label=3; weight=3; penwidth=0.4];
-	"CommandMessage_12317"  [shape = "circle"; height=1.8; label = "CommandMessage\n(0.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "CommandMessage_12317" [label=16; weight=16; penwidth=0.7; color = 5];
-	"DistributedCommandBus_13449"  [label = "DistributedCommandBus\n(9.82%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "DistributedCommandBus_13449" [label=11; weight=11; penwidth=0.6; color = 5];
-	"CommandBusConnector$ResultCallback_13650"  [label = "CommandBusConnector$\nResultCallback\n(9.82%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "CommandBusConnector$ResultCallback_13650" [label=9; weight=9; penwidth=0.5; color = 5];
-	"CommandBusConnector$Handler_13647"  [label = "CommandBusConnector$\nHandler\n(10.13%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "CommandBusConnector$Handler_13647" [label=2; weight=2; penwidth=0.4; color = 5];
-	"CommandResultMessage_12325"  [label = "CommandResultMessage\n(94.47%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "CommandResultMessage_12325" [label=2; weight=2; penwidth=0.4; color = 5];
-	"PriorityRunnable_6044"  [label = "PriorityRunnable\n(100.0%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "PriorityRunnable_6044" [label=2; weight=2; penwidth=0.4; color = 5];
-	"CommandBus_13488"  [shape = "circle"; height=1.8; label = "CommandBus\n(0.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "CommandBus_13488" [label=1; weight=1; penwidth=0.4; color = 5];
-	"DistributedCommandBus_13449" -> "CommandBus_13488" [label=5; weight=5; penwidth=0.3; color = 3]
-	"CommandBusConnector$Handler_13647" -> "CommandBusConnector$ResultCallback_13650" [label=2; weight=2; penwidth=0.3; color = 3]
-	"CommandBus_13488" -> "CommandMessage_12317" [label=1; weight=1; penwidth=0.3; color = 3]
-	"CommandBus_13488" -> "CommandResultMessage_12325" [label=1; weight=1; penwidth=0.3; color = 3]
+	graph   [label="Top Rank #3 Java Type Outlier\norg.axonframework.messaging.commandhandling.distributed.DelegatingCommandBusConnector\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: cluster probability\nlarge circle: < 25% percentile of cluster probability\nthick outline: > 80% percentile of distance to cluster center\n\n"];
+	central [label="🧩 outlier #3\nDelegatingCommandBusConnector"];
+	"PayloadConvertingCommandBusConnector_13453"  [label = "PayloadConvertingCommandBusConnector\n(16.04%)"; penwidth = 5; ]; "PayloadConvertingCommandBusConnector_13453" -> central [label=2; weight=2; penwidth=0.4];
+	"CommandBusConnector_13648"  [label = "CommandBusConnector\n(20.97%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "CommandBusConnector_13648" [label=8; weight=8; penwidth=0.5; color = 5];
+	"CommandBusConnector$Handler_13647"  [shape = "circle"; height=1.8; label = "CommandBusConnector$\nHandler\n(0.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "CommandBusConnector$Handler_13647" [label=2; weight=2; penwidth=0.4; color = 5];
+	"ComponentDescriptor_7355"  [shape = "circle"; height=1.8; label = "ComponentDescriptor\n(0.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "ComponentDescriptor_7355" [label=2; weight=2; penwidth=0.4; color = 5];
+	"QualifiedName_13491"  [shape = "circle"; height=1.8; label = "QualifiedName\n(0.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "QualifiedName_13491" [label=2; weight=2; penwidth=0.4; color = 5];
+	"CommandMessage_12317"  [label = "CommandMessage\n(38.89%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "CommandMessage_12317" [label=1; weight=1; penwidth=0.4; color = 5];
+	"CommandResultMessage_12325"  [shape = "circle"; height=1.8; label = "CommandResultMessage\n(0.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "CommandResultMessage_12325" [label=1; weight=1; penwidth=0.4; color = 5];
+	"ProcessingContext_12309"  [label = "ProcessingContext\n(96.99%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "ProcessingContext_12309" [label=1; weight=1; penwidth=0.4; color = 5];
+	"PayloadConvertingCommandBusConnector_13453" -> "ComponentDescriptor_7355" [label=4; weight=4; penwidth=0.3; color = 3]
+	"PayloadConvertingCommandBusConnector_13453" -> "CommandBusConnector$Handler_13647" [label=4; weight=4; penwidth=0.3; color = 3]
+	"PayloadConvertingCommandBusConnector_13453" -> "CommandBusConnector_13648" [label=3; weight=3; penwidth=0.3; color = 3]
+	"PayloadConvertingCommandBusConnector_13453" -> "CommandMessage_12317" [label=3; weight=3; penwidth=0.3; color = 3]
+	"CommandBusConnector_13648" -> "CommandBusConnector$Handler_13647" [label=2; weight=2; penwidth=0.3; color = 3]
+	"CommandBusConnector_13648" -> "QualifiedName_13491" [label=2; weight=2; penwidth=0.3; color = 3]
+	"CommandBusConnector_13648" -> "ProcessingContext_12309" [label=1; weight=1; penwidth=0.3; color = 3]
+	"CommandBusConnector_13648" -> "CommandResultMessage_12325" [label=1; weight=1; penwidth=0.3; color = 3]
+	"CommandBusConnector_13648" -> "CommandMessage_12317" [label=1; weight=1; penwidth=0.3; color = 3]
 	"CommandBusConnector$Handler_13647" -> "CommandMessage_12317" [label=1; weight=1; penwidth=0.3; color = 3]
-	"CommandBusConnector$ResultCallback_13650" -> "CommandResultMessage_12325" [label=1; weight=1; penwidth=0.3; color = 3]
-	"DistributedCommandBus_13449" -> "CommandMessage_12317" [label=1; weight=1; penwidth=0.3; color = 3]
-	"DistributedCommandBus_13449" -> "CommandResultMessage_12325" [label=1; weight=1; penwidth=0.3; color = 3]
-	"DistributedCommandBus_13449" -> "CommandBusConnector$Handler_13647" [label=1; weight=1; penwidth=0.3; color = 3]
+	"PayloadConvertingCommandBusConnector_13453" -> "CommandResultMessage_12325" [label=1; weight=1; penwidth=0.3; color = 3]
+	"PayloadConvertingCommandBusConnector_13453" -> "ProcessingContext_12309" [label=1; weight=1; penwidth=0.3; color = 3]
 }

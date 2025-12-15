@@ -12,25 +12,17 @@ strict digraph TopBridge5 {
     central [fontsize = 16;];
     central [color = 7; fillcolor = 5; penwidth = 3;];
 
-	graph   [label="Top Rank #5 Java Type Bridge\norg.axonframework.extension.springboot.autoconfig.AxonTimeoutAutoConfiguration$AxonTimeoutConfigurerModule\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
-	central [label="🌉 bridge #5\nAxonTimeoutAutoConfiguration$AxonTimeoutConfigurerModule"];
-	"AxonTimeoutAutoConfiguration_36329" [label = "AxonTimeoutAutoConfiguration"; ]; "AxonTimeoutAutoConfiguration_36329" -> central [label=3; weight=3; penwidth=0.4];
-	"TimeoutProperties$TransactionTimeoutProperties_35729" [label = "TimeoutProperties$\nTransactionTimeoutProperties"; color = 5; fillcolor = 1; ]; central -> "TimeoutProperties$TransactionTimeoutProperties_35729" [label=12; weight=12; penwidth=0.6; color = 5];
-	"TaskTimeoutSettings_32535" [label = "TaskTimeoutSettings"; color = 5; fillcolor = 1; ]; central -> "TaskTimeoutSettings_32535" [label=11; weight=11; penwidth=0.6; color = 5];
-	"UnitOfWorkTimeoutInterceptorBuilder_32536" [label = "UnitOfWorkTimeoutInterceptorBuilder"; color = 5; fillcolor = 1; ]; central -> "UnitOfWorkTimeoutInterceptorBuilder_32536" [label=9; weight=9; penwidth=0.5; color = 5];
-	"Configuration_6958" [label = "Configuration"; color = 5; fillcolor = 1; ]; central -> "Configuration_6958" [label=6; weight=6; penwidth=0.5; color = 5];
-	"HandlerInterceptorRegistry_22024" [label = "HandlerInterceptorRegistry"; color = 5; fillcolor = 1; ]; central -> "HandlerInterceptorRegistry_22024" [label=6; weight=6; penwidth=0.5; color = 5];
-	"CommandBus_13488" [label = "CommandBus"; color = 5; fillcolor = 1; ]; central -> "CommandBus_13488" [label=3; weight=3; penwidth=0.4; color = 5];
-	"MessageHandlerInterceptor_12305" [label = "MessageHandlerInterceptor"; color = 5; fillcolor = 1; ]; central -> "MessageHandlerInterceptor_12305" [label=3; weight=3; penwidth=0.4; color = 5];
-	"QueryBus_23101" [label = "QueryBus"; color = 5; fillcolor = 1; ]; central -> "QueryBus_23101" [label=3; weight=3; penwidth=0.4; color = 5];
-	"ComponentRegistry_6956" [label = "ComponentRegistry"; color = 5; fillcolor = 1; ]; central -> "ComponentRegistry_6956" [label=2; weight=2; penwidth=0.4; color = 5];
-	"ConfigurationEnhancer_8376" [label = "ConfigurationEnhancer"; color = 5; fillcolor = 1; ]; central -> "ConfigurationEnhancer_8376" [label=1; weight=1; penwidth=0.4; color = 5];
-	"TimeoutProperties$TransactionTimeoutProperties_35729" -> "TaskTimeoutSettings_32535" [label=22; weight=22; penwidth=0.3; color = 3]
-	"HandlerInterceptorRegistry_22024" -> "MessageHandlerInterceptor_12305" [label=7; weight=7; penwidth=0.3; color = 3]
-	"UnitOfWorkTimeoutInterceptorBuilder_32536" -> "MessageHandlerInterceptor_12305" [label=4; weight=4; penwidth=0.3; color = 3]
-	"HandlerInterceptorRegistry_22024" -> "Configuration_6958" [label=3; weight=3; penwidth=0.3; color = 3]
-	"ComponentRegistry_6956" -> "ConfigurationEnhancer_8376" [label=2; weight=2; penwidth=0.3; color = 3]
-	"AxonTimeoutAutoConfiguration_36329" -> "ConfigurationEnhancer_8376" [label=1; weight=1; penwidth=0.3; color = 3]
-	"AxonTimeoutAutoConfiguration_36329" -> "TimeoutProperties$TransactionTimeoutProperties_35729" [label=1; weight=1; penwidth=0.3; color = 3]
-	"ConfigurationEnhancer_8376" -> "ComponentRegistry_6956" [label=1; weight=1; penwidth=0.3; color = 3]
+	graph   [label="Top Rank #5 Java Type Bridge\norg.axonframework.common.property.PropertyAccessStrategy\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
+	central [label="🌉 bridge #5\nPropertyAccessStrategy"];
+	"AbstractMethodPropertyAccessStrategy_6050" [label = "AbstractMethodPropertyAccessStrategy"; ]; "AbstractMethodPropertyAccessStrategy_6050" -> central [label=2; weight=2; penwidth=0.4];
+	"AnnotatedEntityModelRoutingKeyMatcher_272" [label = "AnnotatedEntityModelRoutingKeyMatcher"; ]; "AnnotatedEntityModelRoutingKeyMatcher_272" -> central [label=2; weight=2; penwidth=0.4];
+	"DirectPropertyAccessStrategy_6052" [label = "DirectPropertyAccessStrategy"; ]; "DirectPropertyAccessStrategy_6052" -> central [label=2; weight=2; penwidth=0.4];
+	"PropertyBasedEntityIdResolver_26" [label = "PropertyBasedEntityIdResolver"; ]; "PropertyBasedEntityIdResolver_26" -> central [label=1; weight=1; penwidth=0.4];
+	"PropertySequencingPolicy_17809" [label = "PropertySequencingPolicy"; ]; "PropertySequencingPolicy_17809" -> central [label=1; weight=1; penwidth=0.4];
+	"Property_6317" [label = "Property"; color = 5; fillcolor = 1; ]; central -> "Property_6317" [label=2; weight=2; penwidth=0.4; color = 5];
+	"AnnotatedEntityModelRoutingKeyMatcher_272" -> "Property_6317" [label=9; weight=9; penwidth=0.3; color = 3]
+	"PropertyBasedEntityIdResolver_26" -> "Property_6317" [label=4; weight=4; penwidth=0.3; color = 3]
+	"PropertySequencingPolicy_17809" -> "Property_6317" [label=2; weight=2; penwidth=0.3; color = 3]
+	"AbstractMethodPropertyAccessStrategy_6050" -> "Property_6317" [label=1; weight=1; penwidth=0.3; color = 3]
+	"DirectPropertyAccessStrategy_6052" -> "Property_6317" [label=1; weight=1; penwidth=0.3; color = 3]
 }

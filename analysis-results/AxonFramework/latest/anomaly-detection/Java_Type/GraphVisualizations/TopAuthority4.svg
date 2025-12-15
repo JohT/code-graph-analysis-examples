@@ -128,23 +128,23 @@
 <polygon fill="#ccece6" stroke="#ccece6" stroke-width="0.3" points="403.84,-426.56 405.95,-430.23 406.59,-426.04 403.84,-426.56"/>
 <text xml:space="preserve" text-anchor="middle" x="378.57" y="-291.31" font-family="Times,serif" font-size="4.00">3</text>
 </g>
-<!-- AnnotationBasedEventCriteriaResolver_48265&#45;&gt;central -->
+<!-- AnnotationBasedEventCriteriaResolver_48267&#45;&gt;central -->
 <g id="edge6" class="edge">
-<title>AnnotationBasedEventCriteriaResolver_48265&#45;&gt;central</title>
+<title>AnnotationBasedEventCriteriaResolver_48267&#45;&gt;central</title>
 <path fill="none" stroke="#238b45" stroke-width="0.4" d="M601.48,-837.95C610.39,-790.7 627.02,-702.48 639.56,-635.93"/>
 <polygon fill="#238b45" stroke="#238b45" stroke-width="0.4" points="640.91,-636.36 640.27,-632.17 638.15,-635.84 640.91,-636.36"/>
 <text xml:space="preserve" text-anchor="middle" x="619.93" y="-735.97" font-family="Times,serif" font-size="4.00">1</text>
 </g>
-<!-- AnnotationBasedEventCriteriaResolver_48265&#45;&gt;Configuration_6958 -->
+<!-- AnnotationBasedEventCriteriaResolver_48267&#45;&gt;Configuration_6958 -->
 <g id="edge59" class="edge">
-<title>AnnotationBasedEventCriteriaResolver_48265&#45;&gt;Configuration_6958</title>
+<title>AnnotationBasedEventCriteriaResolver_48267&#45;&gt;Configuration_6958</title>
 <path fill="none" stroke="#ccece6" stroke-width="0.3" d="M649.1,-900.65C688.54,-922.2 742.33,-951.6 784.66,-974.72"/>
 <polygon fill="#ccece6" stroke="#ccece6" stroke-width="0.3" points="783.88,-975.89 788.06,-976.58 785.22,-973.44 783.88,-975.89"/>
 <text xml:space="preserve" text-anchor="middle" x="717.57" y="-939.81" font-family="Times,serif" font-size="4.00">3</text>
 </g>
-<!-- AnnotationBasedEventCriteriaResolver_48265&#45;&gt;ComponentDescriptor_7355 -->
+<!-- AnnotationBasedEventCriteriaResolver_48267&#45;&gt;ComponentDescriptor_7355 -->
 <g id="edge50" class="edge">
-<title>AnnotationBasedEventCriteriaResolver_48265&#45;&gt;ComponentDescriptor_7355</title>
+<title>AnnotationBasedEventCriteriaResolver_48267&#45;&gt;ComponentDescriptor_7355</title>
 <path fill="none" stroke="#ccece6" stroke-width="0.3" d="M579.49,-838.27C551.26,-779.13 491.41,-653.74 453.53,-574.39"/>
 <polygon fill="#ccece6" stroke="#ccece6" stroke-width="0.3" points="454.92,-574.06 451.94,-571.06 452.4,-575.27 454.92,-574.06"/>
 <text xml:space="preserve" text-anchor="middle" x="514.49" y="-705.39" font-family="Times,serif" font-size="4.00">5</text>
@@ -457,23 +457,23 @@
 <polygon fill="#238b45" stroke="#238b45" stroke-width="0.4" points="736.98,-514.11 733.82,-516.93 738.05,-516.7 736.98,-514.11"/>
 <text xml:space="preserve" text-anchor="middle" x="867.08" y="-462.56" font-family="Times,serif" font-size="4.00">1</text>
 </g>
-<!-- EventStorageEngine_48310&#45;&gt;central -->
+<!-- EventStorageEngine_48065&#45;&gt;central -->
 <g id="edge28" class="edge">
-<title>EventStorageEngine_48310&#45;&gt;central</title>
+<title>EventStorageEngine_48065&#45;&gt;central</title>
 <path fill="none" stroke="#238b45" stroke-width="0.4" d="M429.75,-850.07C468.89,-798 549.4,-690.88 603.04,-619.53"/>
 <polygon fill="#238b45" stroke="#238b45" stroke-width="0.4" points="603.92,-620.68 605.21,-616.64 601.68,-619 603.92,-620.68"/>
 <text xml:space="preserve" text-anchor="middle" x="516.67" y="-734.3" font-family="Times,serif" font-size="4.00">1</text>
 </g>
-<!-- EventStore_46658&#45;&gt;central -->
+<!-- EventStore_46663&#45;&gt;central -->
 <g id="edge29" class="edge">
-<title>EventStore_46658&#45;&gt;central</title>
+<title>EventStore_46663&#45;&gt;central</title>
 <path fill="none" stroke="#238b45" stroke-width="0.4" d="M949.38,-161.47C899.85,-226.91 779.14,-386.38 708.93,-479.13"/>
 <polygon fill="#238b45" stroke="#238b45" stroke-width="0.4" points="707.91,-478.16 706.62,-482.2 710.15,-479.85 707.91,-478.16"/>
 <text xml:space="preserve" text-anchor="middle" x="826.89" y="-323.18" font-family="Times,serif" font-size="4.00">1</text>
 </g>
-<!-- EventStore_46658&#45;&gt;EventBus_16342 -->
+<!-- EventStore_46663&#45;&gt;EventBus_16342 -->
 <g id="edge83" class="edge">
-<title>EventStore_46658&#45;&gt;EventBus_16342</title>
+<title>EventStore_46663&#45;&gt;EventBus_16342</title>
 <path fill="none" stroke="#ccece6" stroke-width="0.3" d="M996.16,-160.63C1009.76,-176.39 1026.7,-196.01 1040.71,-212.25"/>
 <polygon fill="#ccece6" stroke="#ccece6" stroke-width="0.3" points="1039.5,-212.99 1043.17,-215.11 1041.62,-211.16 1039.5,-212.99"/>
 <text xml:space="preserve" text-anchor="middle" x="1019.08" y="-189.55" font-family="Times,serif" font-size="4.00">1</text>
@@ -647,9 +647,9 @@
 <text xml:space="preserve" text-anchor="middle" x="346.96" y="-120.53" font-family="Times,serif" font-size="12.00">AnnotatedEntityMetamodel</text>
 <text xml:space="preserve" text-anchor="middle" x="346.96" y="-106.13" font-family="Times,serif" font-size="12.00">(1.62%)</text>
 </g>
-<!-- AnnotationBasedEventCriteriaResolver_48265 -->
+<!-- AnnotationBasedEventCriteriaResolver_48267 -->
 <g id="node7" class="node">
-<title>AnnotationBasedEventCriteriaResolver_48265</title>
+<title>AnnotationBasedEventCriteriaResolver_48267</title>
 <ellipse fill="#ccece6" stroke="#41ae76" stroke-width="2" cx="595.22" cy="-871.2" rx="113.4" ry="32.4"/>
 <text xml:space="preserve" text-anchor="middle" x="595.22" y="-874.8" font-family="Times,serif" font-size="12.00">AnnotationBasedEventCriteriaResolver</text>
 <text xml:space="preserve" text-anchor="middle" x="595.22" y="-860.4" font-family="Times,serif" font-size="12.00">(0.3%)</text>
@@ -801,16 +801,16 @@
 <text xml:space="preserve" text-anchor="middle" x="1043.6" y="-392.3" font-family="Times,serif" font-size="12.00">EventSink</text>
 <text xml:space="preserve" text-anchor="middle" x="1043.6" y="-377.9" font-family="Times,serif" font-size="12.00">(1.06%)</text>
 </g>
-<!-- EventStorageEngine_48310 -->
+<!-- EventStorageEngine_48065 -->
 <g id="node29" class="node">
-<title>EventStorageEngine_48310</title>
+<title>EventStorageEngine_48065</title>
 <ellipse fill="#ccece6" stroke="#41ae76" stroke-width="2" cx="406.76" cy="-880.66" rx="59.89" ry="32.4"/>
 <text xml:space="preserve" text-anchor="middle" x="406.76" y="-884.26" font-family="Times,serif" font-size="12.00">EventStorageEngine</text>
 <text xml:space="preserve" text-anchor="middle" x="406.76" y="-869.86" font-family="Times,serif" font-size="12.00">(0.18%)</text>
 </g>
-<!-- EventStore_46658 -->
+<!-- EventStore_46663 -->
 <g id="node30" class="node">
-<title>EventStore_46658</title>
+<title>EventStore_46663</title>
 <ellipse fill="#ccece6" stroke="#41ae76" stroke-width="2" cx="971.58" cy="-132.14" rx="46.8" ry="32.4"/>
 <text xml:space="preserve" text-anchor="middle" x="971.58" y="-135.74" font-family="Times,serif" font-size="12.00">EventStore</text>
 <text xml:space="preserve" text-anchor="middle" x="971.58" y="-121.34" font-family="Times,serif" font-size="12.00">(0.36%)</text>

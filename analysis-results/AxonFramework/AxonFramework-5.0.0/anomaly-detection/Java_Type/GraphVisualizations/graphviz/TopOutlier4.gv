@@ -12,10 +12,24 @@ strict digraph TopOutlier4 {
     central [fontsize = 16;];
     central [color = 7; fillcolor = 5; penwidth = 3;];
 
-	graph   [label="Top Rank #4 Java Type Outlier\norg.axonframework.messaging.core.timeout.AxonTaskJanitor\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: cluster probability\nlarge circle: < 25% percentile of cluster probability\nthick outline: > 80% percentile of distance to cluster center\n\n"];
-	central [label="🧩 outlier #4\nAxonTaskJanitor"];
-	"AxonTimeLimitedTask_32537"  [label = "AxonTimeLimitedTask\n(12.12%)"; penwidth = 5; ]; "AxonTimeLimitedTask_32537" -> central [label=3; weight=3; penwidth=0.4];
-	"UnitOfWorkTimeoutInterceptorBuilder_32536"  [label = "UnitOfWorkTimeoutInterceptorBuilder\n(12.23%)"; penwidth = 2; ]; "UnitOfWorkTimeoutInterceptorBuilder_32536" -> central [label=2; weight=2; penwidth=0.4];
-	"AxonThreadFactory_4413"  [label = "AxonThreadFactory\n(9.78%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "AxonThreadFactory_4413" [label=2; weight=2; penwidth=0.4; color = 5];
-	"UnitOfWorkTimeoutInterceptorBuilder_32536" -> "AxonTimeLimitedTask_32537" [label=11; weight=11; penwidth=0.3; color = 3]
+	graph   [label="Top Rank #4 Java Type Outlier\norg.axonframework.messaging.core.retry.RetryScheduler\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: cluster probability\nlarge circle: < 25% percentile of cluster probability\nthick outline: > 80% percentile of distance to cluster center\n\n"];
+	central [label="🧩 outlier #4\nRetryScheduler"];
+	"RetryingCommandBus_15443"  [label = "RetryingCommandBus\n(100.0%)"; penwidth = 5; ]; "RetryingCommandBus_15443" -> central [label=4; weight=4; penwidth=0.5];
+	"AsyncRetryScheduler_31409"  [label = "AsyncRetryScheduler\n(26.81%)"; penwidth = 5; ]; "AsyncRetryScheduler_31409" -> central [label=1; weight=1; penwidth=0.4];
+	"Message_12299"  [label = "Message\n(55.18%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "Message_12299" [label=2; weight=2; penwidth=0.4; color = 5];
+	"RetryScheduler$Dispatcher_15101"  [label = "RetryScheduler$\nDispatcher\n(26.81%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "RetryScheduler$Dispatcher_15101" [label=2; weight=2; penwidth=0.4; color = 5];
+	"MessageStream_12311"  [label = "MessageStream\n(44.35%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "MessageStream_12311" [label=1; weight=1; penwidth=0.4; color = 5];
+	"ProcessingContext_12309"  [label = "ProcessingContext\n(96.99%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "ProcessingContext_12309" [label=1; weight=1; penwidth=0.4; color = 5];
+	"MessageStream_12311" -> "Message_12299" [label=25; weight=25; penwidth=0.3; color = 3]
+	"Message_12299" -> "ProcessingContext_12309" [label=5; weight=5; penwidth=0.3; color = 3]
+	"RetryingCommandBus_15443" -> "ProcessingContext_12309" [label=5; weight=5; penwidth=0.3; color = 3]
+	"AsyncRetryScheduler_31409" -> "RetryScheduler$Dispatcher_15101" [label=4; weight=4; penwidth=0.3; color = 3]
+	"AsyncRetryScheduler_31409" -> "MessageStream_12311" [label=3; weight=3; penwidth=0.3; color = 3]
+	"AsyncRetryScheduler_31409" -> "Message_12299" [label=3; weight=3; penwidth=0.3; color = 3]
+	"RetryingCommandBus_15443" -> "MessageStream_12311" [label=3; weight=3; penwidth=0.3; color = 3]
+	"AsyncRetryScheduler_31409" -> "ProcessingContext_12309" [label=2; weight=2; penwidth=0.3; color = 3]
+	"RetryScheduler$Dispatcher_15101" -> "Message_12299" [label=2; weight=2; penwidth=0.3; color = 3]
+	"RetryScheduler$Dispatcher_15101" -> "MessageStream_12311" [label=1; weight=1; penwidth=0.3; color = 3]
+	"RetryScheduler$Dispatcher_15101" -> "ProcessingContext_12309" [label=1; weight=1; penwidth=0.3; color = 3]
+	"RetryingCommandBus_15443" -> "RetryScheduler$Dispatcher_15101" [label=1; weight=1; penwidth=0.3; color = 3]
 }

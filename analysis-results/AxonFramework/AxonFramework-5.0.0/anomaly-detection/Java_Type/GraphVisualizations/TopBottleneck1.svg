@@ -86,7 +86,7 @@
 <text xml:space="preserve" text-anchor="middle" x="900.5" y="-141.5" font-family="Times,serif" font-size="4.00">4</text>
 </g>
 <!-- GlobalMetricRegistry_10452&#45;&gt;CommandMessage_12317 -->
-<g id="edge134" class="edge">
+<g id="edge135" class="edge">
 <title>GlobalMetricRegistry_10452&#45;&gt;CommandMessage_12317</title>
 <path fill="none" stroke="#ccece6" stroke-width="0.3" d="M924.5,-259.96C925.37,-323.88 927.26,-463.37 928.19,-531.69"/>
 <polygon fill="#ccece6" stroke="#ccece6" stroke-width="0.3" points="926.79,-531.65 928.25,-535.63 929.59,-531.61 926.79,-531.65"/>
@@ -107,7 +107,7 @@
 <text xml:space="preserve" text-anchor="middle" x="814.12" y="-131.35" font-family="Times,serif" font-size="4.00">6</text>
 </g>
 <!-- GlobalMetricRegistry_10452&#45;&gt;QueryMessage_12312 -->
-<g id="edge135" class="edge">
+<g id="edge134" class="edge">
 <title>GlobalMetricRegistry_10452&#45;&gt;QueryMessage_12312</title>
 <path fill="none" stroke="#ccece6" stroke-width="0.3" d="M924.31,-259.82C924.66,-303.49 925.26,-380.06 925.63,-425.86"/>
 <polygon fill="#ccece6" stroke="#ccece6" stroke-width="0.3" points="924.23,-425.75 925.66,-429.74 927.03,-425.72 924.23,-425.75"/>
@@ -176,16 +176,16 @@
 <polygon fill="#ccece6" stroke="#ccece6" stroke-width="0.3" points="1009.67,-925.09 1005.56,-924.06 1008.13,-927.43 1009.67,-925.09"/>
 <text xml:space="preserve" text-anchor="middle" x="1049.52" y="-954.93" font-family="Times,serif" font-size="4.00">1</text>
 </g>
-<!-- OpenTelemetrySpanFactory_38657&#45;&gt;central -->
+<!-- OpenTelemetrySpanFactory_38663&#45;&gt;central -->
 <g id="edge6" class="edge">
-<title>OpenTelemetrySpanFactory_38657&#45;&gt;central</title>
+<title>OpenTelemetrySpanFactory_38663&#45;&gt;central</title>
 <path fill="none" stroke="#238b45" stroke-width="0.6" d="M249.82,-870.91C355.49,-824.96 584.31,-725.46 703.02,-673.83"/>
 <polygon fill="#238b45" stroke="#238b45" stroke-width="0.6" points="703.26,-675.26 706.37,-672.38 702.14,-672.69 703.26,-675.26"/>
 <text xml:space="preserve" text-anchor="middle" x="476.53" y="-772.66" font-family="Times,serif" font-size="4.00">12</text>
 </g>
-<!-- OpenTelemetrySpanFactory_38657&#45;&gt;SpanFactory_15111 -->
+<!-- OpenTelemetrySpanFactory_38663&#45;&gt;SpanFactory_15111 -->
 <g id="edge150" class="edge">
-<title>OpenTelemetrySpanFactory_38657&#45;&gt;SpanFactory_15111</title>
+<title>OpenTelemetrySpanFactory_38663&#45;&gt;SpanFactory_15111</title>
 <path fill="none" stroke="#ccece6" stroke-width="0.3" d="M271.28,-906.66C278.93,-907.79 286.56,-908.91 293.84,-909.98"/>
 <polygon fill="#ccece6" stroke="#ccece6" stroke-width="0.3" points="293.24,-911.31 297.4,-910.5 293.64,-908.54 293.24,-911.31"/>
 <text xml:space="preserve" text-anchor="middle" x="283.82" y="-909.85" font-family="Times,serif" font-size="4.00">1</text>
@@ -232,16 +232,16 @@
 <polygon fill="#ccece6" stroke="#ccece6" stroke-width="0.3" points="1019.27,-885.84 1015.74,-888.19 1019.96,-888.56 1019.27,-885.84"/>
 <text xml:space="preserve" text-anchor="middle" x="1132.84" y="-859.37" font-family="Times,serif" font-size="4.00">1</text>
 </g>
-<!-- MultiSpanFactory_33903&#45;&gt;central -->
+<!-- MultiSpanFactory_33909&#45;&gt;central -->
 <g id="edge8" class="edge">
-<title>MultiSpanFactory_33903&#45;&gt;central</title>
+<title>MultiSpanFactory_33909&#45;&gt;central</title>
 <path fill="none" stroke="#238b45" stroke-width="0.6" d="M548.86,-1127.78C587.14,-1046.47 688.82,-830.44 742.9,-715.56"/>
 <polygon fill="#238b45" stroke="#238b45" stroke-width="0.6" points="744.14,-716.22 744.57,-712 741.6,-715.02 744.14,-716.22"/>
 <text xml:space="preserve" text-anchor="middle" x="644.8" y="-920.92" font-family="Times,serif" font-size="4.00">11</text>
 </g>
-<!-- MultiSpanFactory_33903&#45;&gt;SpanFactory_15111 -->
+<!-- MultiSpanFactory_33909&#45;&gt;SpanFactory_15111 -->
 <g id="edge47" class="edge">
-<title>MultiSpanFactory_33903&#45;&gt;SpanFactory_15111</title>
+<title>MultiSpanFactory_33909&#45;&gt;SpanFactory_15111</title>
 <path fill="none" stroke="#ccece6" stroke-width="0.3" d="M510.55,-1130.1C474.84,-1084.42 406.75,-997.28 369.76,-949.96"/>
 <polygon fill="#ccece6" stroke="#ccece6" stroke-width="0.3" points="371,-949.27 367.43,-946.98 368.79,-950.99 371,-949.27"/>
 <text xml:space="preserve" text-anchor="middle" x="436.8" y="-1039.5" font-family="Times,serif" font-size="4.00">17</text>
@@ -379,16 +379,16 @@
 <polygon fill="#238b45" stroke="#238b45" stroke-width="0.6" points="709.16,-686.7 711.78,-683.37 707.66,-684.34 709.16,-686.7"/>
 <text xml:space="preserve" text-anchor="middle" x="544.05" y="-790.13" font-family="Times,serif" font-size="4.00">10</text>
 </g>
-<!-- AxonTestThenCommand_43768&#45;&gt;central -->
+<!-- AxonTestThenCommand_43774&#45;&gt;central -->
 <g id="edge13" class="edge">
-<title>AxonTestThenCommand_43768&#45;&gt;central</title>
+<title>AxonTestThenCommand_43774&#45;&gt;central</title>
 <path fill="none" stroke="#238b45" stroke-width="0.5" d="M1125.29,-166.86C1065.79,-248.1 906.75,-465.28 826.13,-575.37"/>
 <polygon fill="#238b45" stroke="#238b45" stroke-width="0.5" points="825.22,-574.25 823.98,-578.3 827.48,-575.9 825.22,-574.25"/>
 <text xml:space="preserve" text-anchor="middle" x="973.55" y="-373.89" font-family="Times,serif" font-size="4.00">9</text>
 </g>
-<!-- AxonTestThenCommand_43768&#45;&gt;CommandResultMessage_12325 -->
+<!-- AxonTestThenCommand_43774&#45;&gt;CommandResultMessage_12325 -->
 <g id="edge102" class="edge">
-<title>AxonTestThenCommand_43768&#45;&gt;CommandResultMessage_12325</title>
+<title>AxonTestThenCommand_43774&#45;&gt;CommandResultMessage_12325</title>
 <path fill="none" stroke="#ccece6" stroke-width="0.3" d="M1169.38,-166.78C1198.41,-210.62 1250.81,-289.76 1281.58,-336.22"/>
 <polygon fill="#ccece6" stroke="#ccece6" stroke-width="0.3" points="1280.31,-336.85 1283.69,-339.41 1282.65,-335.3 1280.31,-336.85"/>
 <text xml:space="preserve" text-anchor="middle" x="1225.52" y="-254.27" font-family="Times,serif" font-size="4.00">3</text>
@@ -701,16 +701,16 @@
 <polygon fill="#ccece6" stroke="#ccece6" stroke-width="0.3" points="418.55,-513.12 422.76,-513.61 419.78,-510.6 418.55,-513.12"/>
 <text xml:space="preserve" text-anchor="middle" x="311.11" y="-460.89" font-family="Times,serif" font-size="4.00">7</text>
 </g>
-<!-- MetadataContextGetter_38660&#45;&gt;central -->
+<!-- MetadataContextGetter_38666&#45;&gt;central -->
 <g id="edge24" class="edge">
-<title>MetadataContextGetter_38660&#45;&gt;central</title>
+<title>MetadataContextGetter_38666&#45;&gt;central</title>
 <path fill="none" stroke="#238b45" stroke-width="0.5" d="M757.84,-1156.27C761.12,-1071.73 769.91,-845.67 774.68,-723.07"/>
 <polygon fill="#238b45" stroke="#238b45" stroke-width="0.5" points="776.07,-723.2 774.83,-719.15 773.28,-723.09 776.07,-723.2"/>
 <text xml:space="preserve" text-anchor="middle" x="765.34" y="-938.67" font-family="Times,serif" font-size="4.00">7</text>
 </g>
-<!-- MetadataContextGetter_38660&#45;&gt;Metadata_14360 -->
+<!-- MetadataContextGetter_38666&#45;&gt;Metadata_14360 -->
 <g id="edge138" class="edge">
-<title>MetadataContextGetter_38660&#45;&gt;Metadata_14360</title>
+<title>MetadataContextGetter_38666&#45;&gt;Metadata_14360</title>
 <path fill="none" stroke="#ccece6" stroke-width="0.3" d="M779.5,-1158.08C819.72,-1103.36 902.58,-990.61 944.18,-934.01"/>
 <polygon fill="#ccece6" stroke="#ccece6" stroke-width="0.3" points="945.1,-935.11 946.34,-931.06 942.85,-933.46 945.1,-935.11"/>
 <text xml:space="preserve" text-anchor="middle" x="862.14" y="-1045.48" font-family="Times,serif" font-size="4.00">2</text>
@@ -1115,9 +1115,9 @@
 <text xml:space="preserve" text-anchor="middle" x="1133.58" y="-1012.14" font-family="Times,serif" font-size="12.00">MessageDecorator</text>
 <text xml:space="preserve" text-anchor="middle" x="1133.58" y="-997.74" font-family="Times,serif" font-size="12.00">(10.0)</text>
 </g>
-<!-- OpenTelemetrySpanFactory_38657 -->
+<!-- OpenTelemetrySpanFactory_38663 -->
 <g id="node7" class="node">
-<title>OpenTelemetrySpanFactory_38657</title>
+<title>OpenTelemetrySpanFactory_38663</title>
 <ellipse fill="#ccece6" stroke="#41ae76" stroke-width="2" cx="193.82" cy="-895.26" rx="81.6" ry="32.4"/>
 <text xml:space="preserve" text-anchor="middle" x="193.82" y="-898.86" font-family="Times,serif" font-size="12.00">OpenTelemetrySpanFactory</text>
 <text xml:space="preserve" text-anchor="middle" x="193.82" y="-884.46" font-family="Times,serif" font-size="12.00">(5.5)</text>
@@ -1129,9 +1129,9 @@
 <text xml:space="preserve" text-anchor="middle" x="1312.86" y="-816.26" font-family="Times,serif" font-size="12.00">GenericResultMessage</text>
 <text xml:space="preserve" text-anchor="middle" x="1312.86" y="-801.86" font-family="Times,serif" font-size="12.00">(61.0)</text>
 </g>
-<!-- MultiSpanFactory_33903 -->
+<!-- MultiSpanFactory_33909 -->
 <g id="node9" class="node">
-<title>MultiSpanFactory_33903</title>
+<title>MultiSpanFactory_33909</title>
 <ellipse fill="#ccece6" stroke="#41ae76" stroke-width="2" cx="533.78" cy="-1159.83" rx="53.31" ry="32.4"/>
 <text xml:space="preserve" text-anchor="middle" x="533.78" y="-1163.43" font-family="Times,serif" font-size="12.00">MultiSpanFactory</text>
 <text xml:space="preserve" text-anchor="middle" x="533.78" y="-1149.03" font-family="Times,serif" font-size="12.00">(0.0)</text>
@@ -1164,9 +1164,9 @@
 <text xml:space="preserve" text-anchor="middle" x="344.32" y="-921.01" font-family="Times,serif" font-size="12.00">SpanFactory</text>
 <text xml:space="preserve" text-anchor="middle" x="344.32" y="-906.61" font-family="Times,serif" font-size="12.00">(171.25)</text>
 </g>
-<!-- AxonTestThenCommand_43768 -->
+<!-- AxonTestThenCommand_43774 -->
 <g id="node14" class="node">
-<title>AxonTestThenCommand_43768</title>
+<title>AxonTestThenCommand_43774</title>
 <ellipse fill="#ccece6" stroke="#41ae76" stroke-width="2" cx="1148.47" cy="-135.2" rx="73.47" ry="32.4"/>
 <text xml:space="preserve" text-anchor="middle" x="1148.47" y="-138.8" font-family="Times,serif" font-size="12.00">AxonTestThenCommand</text>
 <text xml:space="preserve" text-anchor="middle" x="1148.47" y="-124.4" font-family="Times,serif" font-size="12.00">(164.0)</text>
@@ -1242,9 +1242,9 @@
 <text xml:space="preserve" text-anchor="middle" x="137" y="-370.77" font-family="Times,serif" font-size="12.00">ResultHandlingInterceptorMember</text>
 <text xml:space="preserve" text-anchor="middle" x="137" y="-356.37" font-family="Times,serif" font-size="12.00">(13.58)</text>
 </g>
-<!-- MetadataContextGetter_38660 -->
+<!-- MetadataContextGetter_38666 -->
 <g id="node25" class="node">
-<title>MetadataContextGetter_38660</title>
+<title>MetadataContextGetter_38666</title>
 <ellipse fill="#ccece6" stroke="#41ae76" stroke-width="2" cx="756.55" cy="-1189.31" rx="68.03" ry="32.4"/>
 <text xml:space="preserve" text-anchor="middle" x="756.55" y="-1192.91" font-family="Times,serif" font-size="12.00">MetadataContextGetter</text>
 <text xml:space="preserve" text-anchor="middle" x="756.55" y="-1178.51" font-family="Times,serif" font-size="12.00">(1.0)</text>
