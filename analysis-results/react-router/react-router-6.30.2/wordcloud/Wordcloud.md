@@ -66,19 +66,19 @@
     </tr>
     <tr>
       <th>6</th>
-      <td>packages</td>
+      <td>tutorial</td>
     </tr>
     <tr>
       <th>7</th>
-      <td>react</td>
+      <td>packages</td>
     </tr>
     <tr>
       <th>8</th>
-      <td>router</td>
+      <td>react</td>
     </tr>
     <tr>
       <th>9</th>
-      <td>react</td>
+      <td>router</td>
     </tr>
   </tbody>
 </table>

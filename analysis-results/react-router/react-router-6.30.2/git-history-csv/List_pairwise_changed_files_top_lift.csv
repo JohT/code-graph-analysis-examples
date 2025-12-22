@@ -77,5 +77,5 @@
 "md↔ts","picking-a-router","dom",3,0.0967741935483871,2.8374923919659167,0.037037037037037035,0.0019305019305019305,"docs/routers/picking-a-router.md","packages/react-router-dom/dom.ts",""
 "md↔ts","README","router",3,0.5,2.6979166666666665,0.010309278350515464,0.0019305019305019305,"examples/ssr-data-router/README.md","packages/router/router.ts",""
 "md↔ts","use-fetchers","utils",3,0.3,2.694797687861272,0.016666666666666666,0.0019305019305019305,"docs/hooks/use-fetchers.md","packages/router/utils.ts",""
+"md↔ts","create-browser-router","index",8,0.14285714285714285,2.611764705882353,0.06015037593984962,0.005148005148005148,"docs/routers/create-browser-router.md","packages/react-router/index.ts",""
 "md↔ts","use-fetcher","context",3,0.09375,2.6015625,0.03529411764705882,0.0019305019305019305,"docs/hooks/use-fetcher.md","packages/react-router/lib/context.ts",""
-"md↔ts","form","context",4,0.08888888888888889,2.4666666666666663,0.041237113402061855,0.002574002574002574,"docs/components/form.md","packages/react-router/lib/context.ts",""

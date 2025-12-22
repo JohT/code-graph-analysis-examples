@@ -1,6 +1,6 @@
 ---
 title: "Anomaly Detection Report"
-generated: "2025-12-15"
+generated: "2025-12-22"
 model_version: "v3.1.1"
 dataset: "react-router-6.30.2"
 authors: ["JohT/code-graph-analysis-pipeline"]
@@ -28,13 +28,13 @@ The goal is to detect potential **software quality, design, and architecture iss
 
 | Analyzed Units | Anomalies | Authorities | Bottlenecks | Bridges | Hubs | Outliers |
 | --- | --- | --- | --- | --- | --- | --- |
-| 6 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 6 | 0 | 4 | 4 | 0 | 1 | 0 |
 
 ### 1.2 Overview of Analyzed Structures
 
 | Abstraction Level | Units | Anomalies | Authorities | Bottlenecks | Bridges | Hubs | Outliers |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| TS,Local,Module | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
+| TS,Local,Module | 6 | 0 | 4 | 4 | 0 | 1 | 0 |
 
 ### 1.3 Overview Charts
 
@@ -46,7 +46,70 @@ The goal is to detect potential **software quality, design, and architecture iss
 
 Each abstraction level includes anomaly statistics, SHAP feature importance, archetype distribution, and example anomalies.
 
-⚠️ _No dependent code units found to analyze._
+### 2.1 Typescript Module
+
+#### Anomaly Results
+
+##### Total anomalies
+
+| Anomalies | Authorities | Bottlenecks | Bridges | Hubs | Outliers |
+| --- | --- | --- | --- | --- | --- |
+| 0 | 4 | 4 | 0 | 1 | 0 |
+
+##### Top global contributing features (via SHAP)
+
+⚠️ _No anomaly detection and SHAP data available for this level (model skipped or insufficient samples)._
+
+#### Archetype Distribution
+
+| Archetype | Count | Max. Score | Model Status | Examples |
+| --- | --- | --- | --- | --- |
+| Authority | 4 | null | Undetermined | /home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-6.30.2/source/react-router-6.30.2/packages/react-router-dom/index.tsx, /home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-6.30.2/source/react-router-6.30.2/packages/react-router-dom/server.tsx, /home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-6.30.2/source/react-router-6.30.2/packages/react-router-native/index.tsx |
+| Bottleneck | 4 | null | Undetermined | /home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-6.30.2/source/react-router-6.30.2/packages/react-router-dom/index.tsx, /home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-6.30.2/source/react-router-6.30.2/packages/react-router-dom/server.tsx, /home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-6.30.2/source/react-router-6.30.2/packages/react-router-native/index.tsx |
+| Hub | 1 | null | Undetermined | /home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-6.30.2/source/react-router-6.30.2/packages/react-router-dom/index.tsx |
+
+#### Top anomalies with their local contributing features (via SHAP)
+
+⚠️ _No anomaly detection and SHAP data available for this level (model skipped or insufficient samples)._
+
+#### Visualizations
+
+See [Plot Interpretation Guide](#3-plot-interpretation-guide) on how to read the plots in detail.
+
+
+
+
+
+
+
+
+
+⚠️ _No anomaly detection and SHAP data available for this level (model skipped or insufficient samples)._
+
+#### Graph Visualizations
+
+##### TopHub Graph Visualizations
+
+![TopHub 1](./Typescript_Module/GraphVisualizations/TopHub1.svg)
+
+---
+
+##### TopBottleneck Graph Visualizations
+
+![TopBottleneck 1](./Typescript_Module/GraphVisualizations/TopBottleneck1.svg)
+
+![TopBottleneck 2](./Typescript_Module/GraphVisualizations/TopBottleneck2.svg)
+
+---
+
+##### TopAuthority Graph Visualizations
+
+![TopAuthority 1](./Typescript_Module/GraphVisualizations/TopAuthority1.svg)
+
+![TopAuthority 2](./Typescript_Module/GraphVisualizations/TopAuthority2.svg)
+
+--
+
 
 ## 3. Plot Interpretation Guide
 

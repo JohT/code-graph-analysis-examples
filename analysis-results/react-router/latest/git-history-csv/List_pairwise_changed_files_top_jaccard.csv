@@ -66,6 +66,7 @@
 "md↔ts","form","dom",8,0.17777777777777778,5.212578616352202,0.08888888888888889,0.005148005148005148,"docs/components/form.md","packages/react-router-dom/dom.ts",""
 "md↔ts","create-browser-router","index",8,0.14285714285714285,3.217391304347826,0.06837606837606838,0.005148005148005148,"docs/routers/create-browser-router.md","packages/router/index.ts",""
 "md↔ts","use-route-loader-data","history",3,0.3333333333333333,12.046511627906977,0.061224489795918366,0.0019305019305019305,"docs/hooks/use-route-loader-data.md","packages/router/history.ts",""
+"md↔ts","create-browser-router","index",8,0.14285714285714285,2.611764705882353,0.06015037593984962,0.005148005148005148,"docs/routers/create-browser-router.md","packages/react-router/index.ts",""
 "md↔ts","CHANGELOG","router",30,0.12396694214876033,0.6689049586776861,0.06,0.019305019305019305,"packages/router/CHANGELOG.md","packages/router/router.ts",""
 "md↔ts","create-browser-router","fetchers-test",4,0.25,6.9375,0.058823529411764705,0.002574002574002574,"docs/routers/create-browser-router.md","packages/router/__tests__/fetchers-test.ts",""
 "md↔ts","CHANGELOG","router",32,0.1111111111111111,0.5954022988505747,0.05860805860805861,0.02059202059202059,"packages/react-router/CHANGELOG.md","packages/router/router.ts",""
@@ -78,4 +79,3 @@
 "md↔ts","create-browser-router","lazy-test",3,0.5,13.875,0.05084745762711865,0.0019305019305019305,"docs/routers/create-browser-router.md","packages/router/__tests__/lazy-test.ts",""
 "md↔ts","CHANGELOG","utils",19,0.10982658959537572,0.7052500836000573,0.047979797979797977,0.012226512226512226,"packages/router/CHANGELOG.md","packages/router/utils.ts",""
 "md↔ts","form","router",15,0.3333333333333333,1.798611111111111,0.04716981132075472,0.009652509652509652,"docs/components/form.md","packages/router/router.ts",""
-"md↔ts","CHANGELOG","utils",20,0.11560693641618497,0.6194937213474189,0.045146726862302484,0.01287001287001287,"packages/react-router/CHANGELOG.md","packages/router/utils.ts",""

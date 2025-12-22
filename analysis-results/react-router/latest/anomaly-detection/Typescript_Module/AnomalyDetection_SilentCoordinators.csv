@@ -1,0 +1,4 @@
+"codeUnitName","shortCodeUnitName","projectName","betweenness","degree","incomingDependencies","outgoingDependencies","Source Cypher File: /home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/domains/anomaly-detection/queries/AnomalyDetectionSilentCoordinators.cypher"
+"/home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-6.30.2/source/react-router-6.30.2/packages/react-router-dom/server.tsx","server","react-router-dom",0,39,0,39,""
+"/home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-6.30.2/source/react-router-6.30.2/packages/react-router-native/index.tsx","react-router-native","react-router-native",0,24,0,24,""
+"/home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-6.30.2/source/react-router-6.30.2/packages/react-router/index.ts","react-router","react-router",0,17,0,17,""
