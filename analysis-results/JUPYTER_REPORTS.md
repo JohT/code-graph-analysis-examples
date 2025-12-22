@@ -178,9 +178,18 @@ Report | Analysis | Description
 | [Wordcloud.md](./AxonFramework/latest/wordcloud/Wordcloud.md) | latest | Wordcloud |
 | [CSV_REPORTS.md](./CSV_REPORTS.md) |  | CSV Cypher Query Result Reports Reference |
 | [IMAGES.md](./IMAGES.md) |  | Image Reference |
+| [GraphVisualizationsReferenceForSummary.md](./react-router/latest/anomaly-detection/Typescript_Module/GraphVisualizations/GraphVisualizationsReferenceForSummary.md) | latest | Graph Visualizations |
 | [anomaly_detection_report.md](./react-router/latest/anomaly-detection/anomaly_detection_report.md) | latest | 📊 Anomaly Detection Report |
+| [DependenciesGraphTypescript.md](./react-router/latest/dependencies-graph-typescript/DependenciesGraphTypescript.md) | latest | Artifact Dependencies |
+| [ExternalDependenciesTypescript.md](./react-router/latest/external-dependencies-typescript/ExternalDependenciesTypescript.md) | latest | External Dependencies for Typescript |
 | [GitHistoryGeneral.md](./react-router/latest/git-history-general/GitHistoryGeneral.md) | latest | git log/history |
+| [InternalDependenciesTypescript.md](./react-router/latest/internal-dependencies-typescript/InternalDependenciesTypescript.md) | latest | Internal Dependencies |
+| [NodeEmbeddingsTypescript.md](./react-router/latest/node-embeddings-typescript/NodeEmbeddingsTypescript.md) | latest | Node Embeddings |
+| [ObjectOrientedDesignMetricsTypescript.md](./react-router/latest/object-oriented-design-metrics-typescript/ObjectOrientedDesignMetricsTypescript.md) | latest | Object Oriented Design Quality Metrics |
 | [OverviewGeneral.md](./react-router/latest/overview-general/OverviewGeneral.md) | latest | Overview in General |
+| [OverviewTypescript.md](./react-router/latest/overview-typescript/OverviewTypescript.md) | latest | Overview for Typescript |
+| [PathFindingTypescript.md](./react-router/latest/path-finding-typescript/PathFindingTypescript.md) | latest | Path Finding for Typescript |
+| [VisibilityMetricsTypescript.md](./react-router/latest/visibility-metrics-typescript/VisibilityMetricsTypescript.md) | latest | Visibility Metrics for Typescript |
 | [Wordcloud.md](./react-router/latest/wordcloud/Wordcloud.md) | latest | Wordcloud |
 | [ArtifactDependencies.md](./react-router/react-router-6.22.0/artifact-dependencies/ArtifactDependencies.md) | react-router-6.22.0 | Artifact Dependencies |
 | [ExternalDependencies.md](./react-router/react-router-6.22.0/external-dependencies/ExternalDependencies.md) | react-router-6.22.0 | External Dependencies |
@@ -267,7 +276,16 @@ Report | Analysis | Description
 | [PathFindingTypescript.md](./react-router/react-router-6.30.1/path-finding-typescript/PathFindingTypescript.md) | react-router-6.30.1 | Path Finding for Typescript |
 | [VisibilityMetricsTypescript.md](./react-router/react-router-6.30.1/visibility-metrics-typescript/VisibilityMetricsTypescript.md) | react-router-6.30.1 | Visibility Metrics for Typescript |
 | [Wordcloud.md](./react-router/react-router-6.30.1/wordcloud/Wordcloud.md) | react-router-6.30.1 | Wordcloud |
+| [GraphVisualizationsReferenceForSummary.md](./react-router/react-router-6.30.2/anomaly-detection/Typescript_Module/GraphVisualizations/GraphVisualizationsReferenceForSummary.md) | react-router-6.30.2 | Graph Visualizations |
 | [anomaly_detection_report.md](./react-router/react-router-6.30.2/anomaly-detection/anomaly_detection_report.md) | react-router-6.30.2 | 📊 Anomaly Detection Report |
+| [DependenciesGraphTypescript.md](./react-router/react-router-6.30.2/dependencies-graph-typescript/DependenciesGraphTypescript.md) | react-router-6.30.2 | Artifact Dependencies |
+| [ExternalDependenciesTypescript.md](./react-router/react-router-6.30.2/external-dependencies-typescript/ExternalDependenciesTypescript.md) | react-router-6.30.2 | External Dependencies for Typescript |
 | [GitHistoryGeneral.md](./react-router/react-router-6.30.2/git-history-general/GitHistoryGeneral.md) | react-router-6.30.2 | git log/history |
+| [InternalDependenciesTypescript.md](./react-router/react-router-6.30.2/internal-dependencies-typescript/InternalDependenciesTypescript.md) | react-router-6.30.2 | Internal Dependencies |
+| [NodeEmbeddingsTypescript.md](./react-router/react-router-6.30.2/node-embeddings-typescript/NodeEmbeddingsTypescript.md) | react-router-6.30.2 | Node Embeddings |
+| [ObjectOrientedDesignMetricsTypescript.md](./react-router/react-router-6.30.2/object-oriented-design-metrics-typescript/ObjectOrientedDesignMetricsTypescript.md) | react-router-6.30.2 | Object Oriented Design Quality Metrics |
 | [OverviewGeneral.md](./react-router/react-router-6.30.2/overview-general/OverviewGeneral.md) | react-router-6.30.2 | Overview in General |
+| [OverviewTypescript.md](./react-router/react-router-6.30.2/overview-typescript/OverviewTypescript.md) | react-router-6.30.2 | Overview for Typescript |
+| [PathFindingTypescript.md](./react-router/react-router-6.30.2/path-finding-typescript/PathFindingTypescript.md) | react-router-6.30.2 | Path Finding for Typescript |
+| [VisibilityMetricsTypescript.md](./react-router/react-router-6.30.2/visibility-metrics-typescript/VisibilityMetricsTypescript.md) | react-router-6.30.2 | Visibility Metrics for Typescript |
 | [Wordcloud.md](./react-router/react-router-6.30.2/wordcloud/Wordcloud.md) | react-router-6.30.2 | Wordcloud |
