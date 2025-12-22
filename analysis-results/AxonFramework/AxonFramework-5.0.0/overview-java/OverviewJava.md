@@ -33,8 +33,8 @@
   <tbody>
     <tr>
       <th>0</th>
-      <td>483554</td>
-      <td>1501861</td>
+      <td>483536</td>
+      <td>1501814</td>
       <td>11</td>
       <td>121</td>
       <td>1758</td>
@@ -87,57 +87,57 @@ The whole table can be found in the CSV report `Number_of_types_per_artifact`.
       <th>2</th>
       <td>axon-messaging-5.0.0</td>
       <td>570</td>
-      <td>Annotation</td>
-      <td>27</td>
+      <td>Enum</td>
+      <td>8</td>
     </tr>
     <tr>
       <th>3</th>
       <td>axon-messaging-5.0.0</td>
       <td>570</td>
-      <td>Enum</td>
-      <td>8</td>
+      <td>Annotation</td>
+      <td>27</td>
     </tr>
     <tr>
       <th>4</th>
-      <td>axon-common-5.0.0</td>
-      <td>150</td>
-      <td>Interface</td>
-      <td>39</td>
-    </tr>
-    <tr>
-      <th>5</th>
       <td>axon-common-5.0.0</td>
       <td>150</td>
       <td>Class</td>
       <td>101</td>
     </tr>
     <tr>
-      <th>6</th>
+      <th>5</th>
       <td>axon-common-5.0.0</td>
       <td>150</td>
-      <td>Annotation</td>
-      <td>2</td>
+      <td>Interface</td>
+      <td>39</td>
     </tr>
     <tr>
-      <th>7</th>
+      <th>6</th>
       <td>axon-common-5.0.0</td>
       <td>150</td>
       <td>Enum</td>
       <td>4</td>
     </tr>
     <tr>
+      <th>7</th>
+      <td>axon-common-5.0.0</td>
+      <td>150</td>
+      <td>Annotation</td>
+      <td>2</td>
+    </tr>
+    <tr>
       <th>8</th>
       <td>axon-eventsourcing-5.0.0</td>
       <td>100</td>
-      <td>Class</td>
-      <td>61</td>
+      <td>Interface</td>
+      <td>24</td>
     </tr>
     <tr>
       <th>9</th>
       <td>axon-eventsourcing-5.0.0</td>
       <td>100</td>
-      <td>Interface</td>
-      <td>24</td>
+      <td>Class</td>
+      <td>61</td>
     </tr>
     <tr>
       <th>10</th>
@@ -150,57 +150,57 @@ The whole table can be found in the CSV report `Number_of_types_per_artifact`.
       <th>11</th>
       <td>axon-modelling-5.0.0</td>
       <td>93</td>
+      <td>Class</td>
+      <td>61</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>axon-modelling-5.0.0</td>
+      <td>93</td>
       <td>Interface</td>
       <td>29</td>
     </tr>
     <tr>
-      <th>12</th>
+      <th>13</th>
       <td>axon-modelling-5.0.0</td>
       <td>93</td>
       <td>Annotation</td>
       <td>3</td>
     </tr>
     <tr>
-      <th>13</th>
-      <td>axon-modelling-5.0.0</td>
-      <td>93</td>
-      <td>Class</td>
-      <td>61</td>
-    </tr>
-    <tr>
       <th>14</th>
-      <td>axon-test-5.0.0</td>
-      <td>73</td>
-      <td>Interface</td>
-      <td>18</td>
-    </tr>
-    <tr>
-      <th>15</th>
       <td>axon-test-5.0.0</td>
       <td>73</td>
       <td>Class</td>
       <td>50</td>
     </tr>
     <tr>
+      <th>15</th>
+      <td>axon-test-5.0.0</td>
+      <td>73</td>
+      <td>Interface</td>
+      <td>18</td>
+    </tr>
+    <tr>
       <th>16</th>
+      <td>axon-server-connector-5.0.0</td>
+      <td>72</td>
+      <td>Interface</td>
+      <td>10</td>
+    </tr>
+    <tr>
+      <th>17</th>
       <td>axon-server-connector-5.0.0</td>
       <td>72</td>
       <td>Class</td>
       <td>56</td>
     </tr>
     <tr>
-      <th>17</th>
+      <th>18</th>
       <td>axon-server-connector-5.0.0</td>
       <td>72</td>
       <td>Enum</td>
       <td>2</td>
-    </tr>
-    <tr>
-      <th>18</th>
-      <td>axon-server-connector-5.0.0</td>
-      <td>72</td>
-      <td>Interface</td>
-      <td>10</td>
     </tr>
     <tr>
       <th>19</th>
@@ -248,15 +248,15 @@ The whole table can be found in the CSV report `Number_of_types_per_artifact`.
       <th>25</th>
       <td>axon-update-5.0.0</td>
       <td>23</td>
-      <td>Interface</td>
-      <td>3</td>
+      <td>Class</td>
+      <td>14</td>
     </tr>
     <tr>
       <th>26</th>
       <td>axon-update-5.0.0</td>
       <td>23</td>
-      <td>Class</td>
-      <td>14</td>
+      <td>Interface</td>
+      <td>3</td>
     </tr>
     <tr>
       <th>27</th>
@@ -592,22 +592,22 @@ The whole table can be found in the CSV report `Number_of_packages_per_artifact`
     </tr>
     <tr>
       <th>2</th>
-      <td>axon-modelling-5.0.0</td>
-      <td>7</td>
-    </tr>
-    <tr>
-      <th>3</th>
       <td>axon-spring-boot-autoconfigure-5.0.0</td>
       <td>7</td>
     </tr>
     <tr>
-      <th>4</th>
+      <th>3</th>
       <td>axon-eventsourcing-5.0.0</td>
       <td>7</td>
     </tr>
     <tr>
+      <th>4</th>
+      <td>axon-modelling-5.0.0</td>
+      <td>7</td>
+    </tr>
+    <tr>
       <th>5</th>
-      <td>axon-update-5.0.0</td>
+      <td>axon-test-5.0.0</td>
       <td>5</td>
     </tr>
     <tr>
@@ -617,7 +617,7 @@ The whole table can be found in the CSV report `Number_of_packages_per_artifact`
     </tr>
     <tr>
       <th>7</th>
-      <td>axon-test-5.0.0</td>
+      <td>axon-update-5.0.0</td>
       <td>5</td>
     </tr>
     <tr>

@@ -12,26 +12,10 @@ strict digraph TopOutlier3 {
     central [fontsize = 16;];
     central [color = 7; fillcolor = 5; penwidth = 3;];
 
-	graph   [label="Top Rank #3 Java Type Outlier\norg.axonframework.messaging.commandhandling.distributed.DelegatingCommandBusConnector\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: cluster probability\nlarge circle: < 25% percentile of cluster probability\nthick outline: > 80% percentile of distance to cluster center\n\n"];
-	central [label="🧩 outlier #3\nDelegatingCommandBusConnector"];
-	"PayloadConvertingCommandBusConnector_13453"  [label = "PayloadConvertingCommandBusConnector\n(16.04%)"; penwidth = 5; ]; "PayloadConvertingCommandBusConnector_13453" -> central [label=2; weight=2; penwidth=0.4];
-	"CommandBusConnector_13648"  [label = "CommandBusConnector\n(20.97%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "CommandBusConnector_13648" [label=8; weight=8; penwidth=0.5; color = 5];
-	"CommandBusConnector$Handler_13647"  [shape = "circle"; height=1.8; label = "CommandBusConnector$\nHandler\n(0.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "CommandBusConnector$Handler_13647" [label=2; weight=2; penwidth=0.4; color = 5];
-	"ComponentDescriptor_7355"  [shape = "circle"; height=1.8; label = "ComponentDescriptor\n(0.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "ComponentDescriptor_7355" [label=2; weight=2; penwidth=0.4; color = 5];
-	"QualifiedName_13491"  [shape = "circle"; height=1.8; label = "QualifiedName\n(0.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "QualifiedName_13491" [label=2; weight=2; penwidth=0.4; color = 5];
-	"CommandMessage_12317"  [label = "CommandMessage\n(38.89%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "CommandMessage_12317" [label=1; weight=1; penwidth=0.4; color = 5];
-	"CommandResultMessage_12325"  [shape = "circle"; height=1.8; label = "CommandResultMessage\n(0.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "CommandResultMessage_12325" [label=1; weight=1; penwidth=0.4; color = 5];
-	"ProcessingContext_12309"  [label = "ProcessingContext\n(96.99%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "ProcessingContext_12309" [label=1; weight=1; penwidth=0.4; color = 5];
-	"PayloadConvertingCommandBusConnector_13453" -> "ComponentDescriptor_7355" [label=4; weight=4; penwidth=0.3; color = 3]
-	"PayloadConvertingCommandBusConnector_13453" -> "CommandBusConnector$Handler_13647" [label=4; weight=4; penwidth=0.3; color = 3]
-	"PayloadConvertingCommandBusConnector_13453" -> "CommandBusConnector_13648" [label=3; weight=3; penwidth=0.3; color = 3]
-	"PayloadConvertingCommandBusConnector_13453" -> "CommandMessage_12317" [label=3; weight=3; penwidth=0.3; color = 3]
-	"CommandBusConnector_13648" -> "CommandBusConnector$Handler_13647" [label=2; weight=2; penwidth=0.3; color = 3]
-	"CommandBusConnector_13648" -> "QualifiedName_13491" [label=2; weight=2; penwidth=0.3; color = 3]
-	"CommandBusConnector_13648" -> "ProcessingContext_12309" [label=1; weight=1; penwidth=0.3; color = 3]
-	"CommandBusConnector_13648" -> "CommandResultMessage_12325" [label=1; weight=1; penwidth=0.3; color = 3]
-	"CommandBusConnector_13648" -> "CommandMessage_12317" [label=1; weight=1; penwidth=0.3; color = 3]
-	"CommandBusConnector$Handler_13647" -> "CommandMessage_12317" [label=1; weight=1; penwidth=0.3; color = 3]
-	"PayloadConvertingCommandBusConnector_13453" -> "CommandResultMessage_12325" [label=1; weight=1; penwidth=0.3; color = 3]
-	"PayloadConvertingCommandBusConnector_13453" -> "ProcessingContext_12309" [label=1; weight=1; penwidth=0.3; color = 3]
+	graph   [label="Top Rank #3 Java Type Outlier\norg.axonframework.messaging.core.timeout.AxonTaskJanitor\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: cluster probability\nlarge circle: < 25% percentile of cluster probability\nthick outline: > 80% percentile of distance to cluster center\n\n"];
+	central [label="🧩 outlier #3\nAxonTaskJanitor"];
+	"AxonTimeLimitedTask_37170"  [label = "AxonTimeLimitedTask\n(8.8%)"; penwidth = 5; ]; "AxonTimeLimitedTask_37170" -> central [label=3; weight=3; penwidth=0.4];
+	"UnitOfWorkTimeoutInterceptorBuilder_37169"  [label = "UnitOfWorkTimeoutInterceptorBuilder\n(10.12%)"; penwidth = 2; ]; "UnitOfWorkTimeoutInterceptorBuilder_37169" -> central [label=2; weight=2; penwidth=0.4];
+	"AxonThreadFactory_4197"  [shape = "circle"; height=1.8; label = "AxonThreadFactory\n(8.46%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "AxonThreadFactory_4197" [label=2; weight=2; penwidth=0.4; color = 5];
+	"UnitOfWorkTimeoutInterceptorBuilder_37169" -> "AxonTimeLimitedTask_37170" [label=11; weight=11; penwidth=0.3; color = 3]
 }

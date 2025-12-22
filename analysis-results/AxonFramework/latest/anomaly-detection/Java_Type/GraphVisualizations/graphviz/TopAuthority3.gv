@@ -12,8 +12,8 @@ strict digraph TopAuthority3 {
     central [fontsize = 16;];
     central [color = 7; fillcolor = 5; penwidth = 3;];
 
-	graph   [label="Top Rank #3 Java Type Authority\norg.axonframework.common.TypeReference$1\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: Page Rank (normalized)\nlarge circle: > 80% percentile of Page Rank\nthick outline: > 80% percentile of Page Rank to Article Rank Difference\n\n"];
-	central [label="🏛️ authority #3\nTypeReference$1"];
-	"TypeReference_6202"  [shape = "circle"; height=2; label = "TypeReference\n(100.0%)"; penwidth = 5; ]; "TypeReference_6202" -> central [label=3; weight=3; penwidth=0.4];
-	"TypeReference_6202"  [shape = "circle"; height=2; label = "TypeReference\n(100.0%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "TypeReference_6202" [label=3; weight=3; penwidth=0.4; color = 5];
+	graph   [label="Top Rank #3 Java Type Authority\norg.axonframework.common.TypeReference$2\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: Page Rank (normalized)\nlarge circle: > 80% percentile of Page Rank\nthick outline: > 80% percentile of Page Rank to Article Rank Difference\n\n"];
+	central [label="🏛️ authority #3\nTypeReference$2"];
+	"TypeReference_5949"  [shape = "circle"; height=2; label = "TypeReference\n(100.0%)"; penwidth = 5; ]; "TypeReference_5949" -> central [label=3; weight=3; penwidth=0.4];
+	"TypeReference_5949"  [shape = "circle"; height=2; label = "TypeReference\n(100.0%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "TypeReference_5949" [label=3; weight=3; penwidth=0.4; color = 5];
 }

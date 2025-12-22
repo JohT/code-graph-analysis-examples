@@ -87,48 +87,48 @@ The following function takes the original node embeddings with a higher dimensio
   <tbody>
     <tr>
       <th>0</th>
-      <td>org.axonframework.modelling</td>
-      <td>modelling</td>
-      <td>axon-modelling-5.0.0</td>
+      <td>org.axonframework.extension.metrics.micrometer</td>
+      <td>micrometer</td>
+      <td>axon-metrics-micrometer-5.0.0</td>
       <td>0</td>
-      <td>0.225594</td>
-      <td>[-0.18517041206359863, -0.19453135132789612, -...</td>
+      <td>0.150000</td>
+      <td>[0.06471307575702667, -0.2933361530303955, 0.6...</td>
     </tr>
     <tr>
       <th>1</th>
-      <td>org.axonframework.modelling.annotation</td>
-      <td>annotation</td>
-      <td>axon-modelling-5.0.0</td>
+      <td>org.axonframework.extension.metrics.micrometer...</td>
+      <td>reservoir</td>
+      <td>axon-metrics-micrometer-5.0.0</td>
       <td>0</td>
-      <td>0.167480</td>
-      <td>[-0.25651735067367554, -0.3252694606781006, -0...</td>
+      <td>0.173182</td>
+      <td>[0.045119013637304306, -0.38521111011505127, 0...</td>
     </tr>
     <tr>
       <th>2</th>
-      <td>org.axonframework.modelling.configuration</td>
-      <td>configuration</td>
-      <td>axon-modelling-5.0.0</td>
-      <td>0</td>
-      <td>0.171795</td>
-      <td>[-0.28743916749954224, -0.10028918087482452, -...</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>org.axonframework.modelling.repository</td>
-      <td>repository</td>
-      <td>axon-modelling-5.0.0</td>
-      <td>0</td>
-      <td>0.277381</td>
-      <td>[-0.25944310426712036, -0.27486568689346313, -...</td>
-    </tr>
-    <tr>
-      <th>4</th>
       <td>org.axonframework.common.infra</td>
       <td>infra</td>
       <td>axon-common-5.0.0</td>
       <td>0</td>
       <td>0.822416</td>
-      <td>[-0.14152909815311432, -0.22061559557914734, -...</td>
+      <td>[0.13393719494342804, -0.3714454770088196, 0.2...</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>org.axonframework.common.configuration</td>
+      <td>configuration</td>
+      <td>axon-common-5.0.0</td>
+      <td>0</td>
+      <td>1.374842</td>
+      <td>[0.07136408984661102, -0.29010772705078125, 0....</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>org.axonframework.messaging.monitoring</td>
+      <td>monitoring</td>
+      <td>axon-messaging-5.0.0</td>
+      <td>0</td>
+      <td>0.281048</td>
+      <td>[0.09050509333610535, -0.4365323781967163, 0.5...</td>
     </tr>
   </tbody>
 </table>
@@ -151,25 +151,25 @@ This step takes the original node embeddings with a higher dimensionality, e.g. 
     ===> Calculating PCA-based initialization...
        --> Time elapsed: 0.00 seconds
     ===> Running optimization with exaggeration=12.00, lr=9.42 for 250 iterations...
-    Iteration   50, KL divergence -0.0873, 50 iterations in 0.0145 sec
-    Iteration  100, KL divergence 1.1747, 50 iterations in 0.0097 sec
-    Iteration  150, KL divergence 1.1747, 50 iterations in 0.0097 sec
-    Iteration  200, KL divergence 1.1747, 50 iterations in 0.0096 sec
-    Iteration  250, KL divergence 1.1747, 50 iterations in 0.0095 sec
+    Iteration   50, KL divergence -0.7165, 50 iterations in 0.0147 sec
+    Iteration  100, KL divergence 1.1787, 50 iterations in 0.0098 sec
+    Iteration  150, KL divergence 1.1787, 50 iterations in 0.0098 sec
+    Iteration  200, KL divergence 1.1787, 50 iterations in 0.0097 sec
+    Iteration  250, KL divergence 1.1787, 50 iterations in 0.0097 sec
        --> Time elapsed: 0.05 seconds
     ===> Running optimization with exaggeration=1.00, lr=113.00 for 500 iterations...
-    Iteration   50, KL divergence 0.2143, 50 iterations in 0.0141 sec
-    Iteration  100, KL divergence 0.1896, 50 iterations in 0.0155 sec
-    Iteration  150, KL divergence 0.1879, 50 iterations in 0.0157 sec
-    Iteration  200, KL divergence 0.1843, 50 iterations in 0.0156 sec
-    Iteration  250, KL divergence 0.1867, 50 iterations in 0.0157 sec
-    Iteration  300, KL divergence 0.1871, 50 iterations in 0.0154 sec
-    Iteration  350, KL divergence 0.1875, 50 iterations in 0.0154 sec
+    Iteration   50, KL divergence 0.2424, 50 iterations in 0.0143 sec
+    Iteration  100, KL divergence 0.2257, 50 iterations in 0.0159 sec
+    Iteration  150, KL divergence 0.2241, 50 iterations in 0.0166 sec
+    Iteration  200, KL divergence 0.2242, 50 iterations in 0.0162 sec
+    Iteration  250, KL divergence 0.2240, 50 iterations in 0.0161 sec
+    Iteration  300, KL divergence 0.2242, 50 iterations in 0.0163 sec
+    Iteration  350, KL divergence 0.2243, 50 iterations in 0.0161 sec
 
 
-    Iteration  400, KL divergence 0.1869, 50 iterations in 0.0163 sec
-    Iteration  450, KL divergence 0.1871, 50 iterations in 0.0157 sec
-    Iteration  500, KL divergence 0.1868, 50 iterations in 0.0157 sec
+    Iteration  400, KL divergence 0.2243, 50 iterations in 0.0171 sec
+    Iteration  450, KL divergence 0.2264, 50 iterations in 0.0164 sec
+    Iteration  500, KL divergence 0.2269, 50 iterations in 0.0161 sec
        --> Time elapsed: 0.16 seconds
 
 
@@ -194,48 +194,48 @@ This step takes the original node embeddings with a higher dimensionality, e.g. 
   <tbody>
     <tr>
       <th>0</th>
-      <td>org.axonframework.modelling</td>
-      <td>axon-modelling-5.0.0</td>
+      <td>org.axonframework.extension.metrics.micrometer</td>
+      <td>axon-metrics-micrometer-5.0.0</td>
       <td>0</td>
-      <td>0.225594</td>
-      <td>-2.994593</td>
-      <td>-4.164392</td>
+      <td>0.150000</td>
+      <td>-4.239730</td>
+      <td>6.861290</td>
     </tr>
     <tr>
       <th>1</th>
-      <td>org.axonframework.modelling.annotation</td>
-      <td>axon-modelling-5.0.0</td>
+      <td>org.axonframework.extension.metrics.micrometer...</td>
+      <td>axon-metrics-micrometer-5.0.0</td>
       <td>0</td>
-      <td>0.167480</td>
-      <td>-3.043135</td>
-      <td>-3.055810</td>
+      <td>0.173182</td>
+      <td>-4.290205</td>
+      <td>6.928121</td>
     </tr>
     <tr>
       <th>2</th>
-      <td>org.axonframework.modelling.configuration</td>
-      <td>axon-modelling-5.0.0</td>
-      <td>0</td>
-      <td>0.171795</td>
-      <td>1.332320</td>
-      <td>-3.367482</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>org.axonframework.modelling.repository</td>
-      <td>axon-modelling-5.0.0</td>
-      <td>0</td>
-      <td>0.277381</td>
-      <td>-1.932583</td>
-      <td>-3.743586</td>
-    </tr>
-    <tr>
-      <th>4</th>
       <td>org.axonframework.common.infra</td>
       <td>axon-common-5.0.0</td>
       <td>0</td>
       <td>0.822416</td>
-      <td>-0.845201</td>
-      <td>-1.291120</td>
+      <td>2.539156</td>
+      <td>0.622459</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>org.axonframework.common.configuration</td>
+      <td>axon-common-5.0.0</td>
+      <td>0</td>
+      <td>1.374842</td>
+      <td>-3.003625</td>
+      <td>3.899563</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>org.axonframework.messaging.monitoring</td>
+      <td>axon-messaging-5.0.0</td>
+      <td>0</td>
+      <td>0.281048</td>
+      <td>-4.147937</td>
+      <td>6.729405</td>
     </tr>
   </tbody>
 </table>
@@ -277,48 +277,48 @@ This step takes the original node embeddings with a higher dimensionality, e.g. 
   <tbody>
     <tr>
       <th>0</th>
-      <td>org.axonframework.modelling</td>
-      <td>modelling</td>
-      <td>axon-modelling-5.0.0</td>
+      <td>org.axonframework.extension.metrics.micrometer</td>
+      <td>micrometer</td>
+      <td>axon-metrics-micrometer-5.0.0</td>
       <td>0</td>
-      <td>0.225594</td>
-      <td>[0.4330126941204071, -1.5155444294214249, 0.21...</td>
+      <td>0.150000</td>
+      <td>[-0.21650634706020355, -0.6495190411806107, 0....</td>
     </tr>
     <tr>
       <th>1</th>
-      <td>org.axonframework.modelling.annotation</td>
-      <td>annotation</td>
-      <td>axon-modelling-5.0.0</td>
+      <td>org.axonframework.extension.metrics.micrometer...</td>
+      <td>reservoir</td>
+      <td>axon-metrics-micrometer-5.0.0</td>
       <td>0</td>
-      <td>0.167480</td>
-      <td>[0.6495190411806107, -0.6495190411806107, -0.6...</td>
+      <td>0.173182</td>
+      <td>[0.0, -1.2990380823612213, 0.0, -0.43301269412...</td>
     </tr>
     <tr>
       <th>2</th>
-      <td>org.axonframework.modelling.configuration</td>
-      <td>configuration</td>
-      <td>axon-modelling-5.0.0</td>
-      <td>0</td>
-      <td>0.171795</td>
-      <td>[-0.21650634706020355, -0.4330126941204071, -0...</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>org.axonframework.modelling.repository</td>
-      <td>repository</td>
-      <td>axon-modelling-5.0.0</td>
-      <td>0</td>
-      <td>0.277381</td>
-      <td>[0.0, -2.5980761647224426, -0.6495190411806107...</td>
-    </tr>
-    <tr>
-      <th>4</th>
       <td>org.axonframework.common.infra</td>
       <td>infra</td>
       <td>axon-common-5.0.0</td>
       <td>0</td>
       <td>0.822416</td>
-      <td>[-0.21650634706020355, -1.948557123541832, -2....</td>
+      <td>[0.21650634706020355, -0.6495190411806107, -1....</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>org.axonframework.common.configuration</td>
+      <td>configuration</td>
+      <td>axon-common-5.0.0</td>
+      <td>0</td>
+      <td>1.374842</td>
+      <td>[0.6495190411806107, -1.0825317353010178, 0.43...</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>org.axonframework.messaging.monitoring</td>
+      <td>monitoring</td>
+      <td>axon-messaging-5.0.0</td>
+      <td>0</td>
+      <td>0.281048</td>
+      <td>[0.8660253882408142, -1.0825317353010178, 0.43...</td>
     </tr>
   </tbody>
 </table>
@@ -335,25 +335,25 @@ This step takes the original node embeddings with a higher dimensionality, e.g. 
     ===> Calculating PCA-based initialization...
        --> Time elapsed: 0.01 seconds
     ===> Running optimization with exaggeration=12.00, lr=9.42 for 250 iterations...
-    Iteration   50, KL divergence -0.2482, 50 iterations in 0.0229 sec
-    Iteration  100, KL divergence 1.1999, 50 iterations in 0.0151 sec
-    Iteration  150, KL divergence 1.1999, 50 iterations in 0.0144 sec
-    Iteration  200, KL divergence 1.1999, 50 iterations in 0.0145 sec
-    Iteration  250, KL divergence 1.1999, 50 iterations in 0.0144 sec
+    Iteration   50, KL divergence -1.1974, 50 iterations in 0.0226 sec
+    Iteration  100, KL divergence 1.2309, 50 iterations in 0.0146 sec
+    Iteration  150, KL divergence 1.2309, 50 iterations in 0.0142 sec
+    Iteration  200, KL divergence 1.2309, 50 iterations in 0.0142 sec
+    Iteration  250, KL divergence 1.2309, 50 iterations in 0.0142 sec
        --> Time elapsed: 0.08 seconds
     ===> Running optimization with exaggeration=1.00, lr=113.00 for 500 iterations...
-    Iteration   50, KL divergence 0.5786, 50 iterations in 0.0221 sec
-    Iteration  100, KL divergence 0.5447, 50 iterations in 0.0180 sec
-    Iteration  150, KL divergence 0.5370, 50 iterations in 0.0159 sec
-    Iteration  200, KL divergence 0.5193, 50 iterations in 0.0159 sec
-    Iteration  250, KL divergence 0.5032, 50 iterations in 0.0157 sec
-    Iteration  300, KL divergence 0.5021, 50 iterations in 0.0157 sec
+    Iteration   50, KL divergence 0.5444, 50 iterations in 0.0206 sec
+    Iteration  100, KL divergence 0.5251, 50 iterations in 0.0188 sec
+    Iteration  150, KL divergence 0.5232, 50 iterations in 0.0159 sec
+    Iteration  200, KL divergence 0.5234, 50 iterations in 0.0158 sec
+    Iteration  250, KL divergence 0.5235, 50 iterations in 0.0158 sec
+    Iteration  300, KL divergence 0.5234, 50 iterations in 0.0158 sec
 
 
-    Iteration  350, KL divergence 0.5020, 50 iterations in 0.0161 sec
-    Iteration  400, KL divergence 0.5021, 50 iterations in 0.0156 sec
-    Iteration  450, KL divergence 0.5018, 50 iterations in 0.0156 sec
-    Iteration  500, KL divergence 0.4929, 50 iterations in 0.0160 sec
+    Iteration  350, KL divergence 0.5237, 50 iterations in 0.0166 sec
+    Iteration  400, KL divergence 0.5236, 50 iterations in 0.0162 sec
+    Iteration  450, KL divergence 0.5236, 50 iterations in 0.0158 sec
+    Iteration  500, KL divergence 0.5236, 50 iterations in 0.0159 sec
        --> Time elapsed: 0.17 seconds
 
 
@@ -378,48 +378,48 @@ This step takes the original node embeddings with a higher dimensionality, e.g. 
   <tbody>
     <tr>
       <th>0</th>
-      <td>org.axonframework.modelling</td>
-      <td>axon-modelling-5.0.0</td>
+      <td>org.axonframework.extension.metrics.micrometer</td>
+      <td>axon-metrics-micrometer-5.0.0</td>
       <td>0</td>
-      <td>0.225594</td>
-      <td>-1.984251</td>
-      <td>-3.540982</td>
+      <td>0.150000</td>
+      <td>-0.663008</td>
+      <td>3.067239</td>
     </tr>
     <tr>
       <th>1</th>
-      <td>org.axonframework.modelling.annotation</td>
-      <td>axon-modelling-5.0.0</td>
+      <td>org.axonframework.extension.metrics.micrometer...</td>
+      <td>axon-metrics-micrometer-5.0.0</td>
       <td>0</td>
-      <td>0.167480</td>
-      <td>-1.442872</td>
-      <td>-2.399408</td>
+      <td>0.173182</td>
+      <td>5.196152</td>
+      <td>4.278796</td>
     </tr>
     <tr>
       <th>2</th>
-      <td>org.axonframework.modelling.configuration</td>
-      <td>axon-modelling-5.0.0</td>
-      <td>0</td>
-      <td>0.171795</td>
-      <td>-5.314712</td>
-      <td>4.591742</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>org.axonframework.modelling.repository</td>
-      <td>axon-modelling-5.0.0</td>
-      <td>0</td>
-      <td>0.277381</td>
-      <td>-0.213674</td>
-      <td>-3.971510</td>
-    </tr>
-    <tr>
-      <th>4</th>
       <td>org.axonframework.common.infra</td>
       <td>axon-common-5.0.0</td>
       <td>0</td>
       <td>0.822416</td>
-      <td>-5.799531</td>
-      <td>-5.083165</td>
+      <td>-10.057174</td>
+      <td>-0.258686</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>org.axonframework.common.configuration</td>
+      <td>axon-common-5.0.0</td>
+      <td>0</td>
+      <td>1.374842</td>
+      <td>-6.772098</td>
+      <td>-0.562087</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>org.axonframework.messaging.monitoring</td>
+      <td>axon-messaging-5.0.0</td>
+      <td>0</td>
+      <td>0.281048</td>
+      <td>0.773923</td>
+      <td>3.775277</td>
     </tr>
   </tbody>
 </table>
@@ -457,48 +457,48 @@ This step takes the original node embeddings with a higher dimensionality, e.g. 
   <tbody>
     <tr>
       <th>0</th>
-      <td>org.axonframework.modelling</td>
-      <td>modelling</td>
-      <td>axon-modelling-5.0.0</td>
+      <td>org.axonframework.extension.metrics.micrometer</td>
+      <td>micrometer</td>
+      <td>axon-metrics-micrometer-5.0.0</td>
       <td>0</td>
-      <td>0.225594</td>
-      <td>[0.340716689825058, -0.7679421901702881, -0.11...</td>
+      <td>0.150000</td>
+      <td>[-0.6167477369308472, 0.6386266350746155, 0.77...</td>
     </tr>
     <tr>
       <th>1</th>
-      <td>org.axonframework.modelling.annotation</td>
-      <td>annotation</td>
-      <td>axon-modelling-5.0.0</td>
+      <td>org.axonframework.extension.metrics.micrometer...</td>
+      <td>reservoir</td>
+      <td>axon-metrics-micrometer-5.0.0</td>
       <td>0</td>
-      <td>0.167480</td>
-      <td>[0.3664795458316803, -0.7054729461669922, -0.1...</td>
+      <td>0.173182</td>
+      <td>[-0.6470420956611633, 0.8579778075218201, 0.74...</td>
     </tr>
     <tr>
       <th>2</th>
-      <td>org.axonframework.modelling.configuration</td>
-      <td>configuration</td>
-      <td>axon-modelling-5.0.0</td>
-      <td>0</td>
-      <td>0.171795</td>
-      <td>[0.09089288860559464, -0.8119312524795532, 0.0...</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>org.axonframework.modelling.repository</td>
-      <td>repository</td>
-      <td>axon-modelling-5.0.0</td>
-      <td>0</td>
-      <td>0.277381</td>
-      <td>[0.2791661024093628, -0.6690201163291931, -0.1...</td>
-    </tr>
-    <tr>
-      <th>4</th>
       <td>org.axonframework.common.infra</td>
       <td>infra</td>
       <td>axon-common-5.0.0</td>
       <td>0</td>
       <td>0.822416</td>
-      <td>[-0.018120750784873962, -0.4988015294075012, 0...</td>
+      <td>[-0.3565714657306671, 0.3427692949771881, 0.21...</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>org.axonframework.common.configuration</td>
+      <td>configuration</td>
+      <td>axon-common-5.0.0</td>
+      <td>0</td>
+      <td>1.374842</td>
+      <td>[-0.30609458684921265, 0.5671186447143555, 0.1...</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>org.axonframework.messaging.monitoring</td>
+      <td>monitoring</td>
+      <td>axon-messaging-5.0.0</td>
+      <td>0</td>
+      <td>0.281048</td>
+      <td>[-0.5385095477104187, 0.7670970559120178, 0.61...</td>
     </tr>
   </tbody>
 </table>
@@ -515,25 +515,25 @@ This step takes the original node embeddings with a higher dimensionality, e.g. 
     ===> Calculating PCA-based initialization...
        --> Time elapsed: 0.00 seconds
     ===> Running optimization with exaggeration=12.00, lr=9.42 for 250 iterations...
-    Iteration   50, KL divergence -0.9456, 50 iterations in 0.0153 sec
-    Iteration  100, KL divergence -2.4894, 50 iterations in 0.0101 sec
-    Iteration  150, KL divergence -2.4894, 50 iterations in 0.0099 sec
-    Iteration  200, KL divergence -2.4894, 50 iterations in 0.0099 sec
-    Iteration  250, KL divergence -2.8934, 50 iterations in 0.0098 sec
-       --> Time elapsed: 0.06 seconds
+    Iteration   50, KL divergence -0.4632, 50 iterations in 0.0153 sec
+    Iteration  100, KL divergence 1.1699, 50 iterations in 0.0100 sec
+    Iteration  150, KL divergence 1.1699, 50 iterations in 0.0099 sec
+    Iteration  200, KL divergence 1.1699, 50 iterations in 0.0098 sec
+    Iteration  250, KL divergence 1.1699, 50 iterations in 0.0098 sec
+       --> Time elapsed: 0.05 seconds
     ===> Running optimization with exaggeration=1.00, lr=113.00 for 500 iterations...
-    Iteration   50, KL divergence 0.3246, 50 iterations in 0.0155 sec
-    Iteration  100, KL divergence 0.2678, 50 iterations in 0.0167 sec
-    Iteration  150, KL divergence 0.2569, 50 iterations in 0.0163 sec
-    Iteration  200, KL divergence 0.2561, 50 iterations in 0.0157 sec
-    Iteration  250, KL divergence 0.2565, 50 iterations in 0.0157 sec
-    Iteration  300, KL divergence 0.2565, 50 iterations in 0.0157 sec
-    Iteration  350, KL divergence 0.2565, 50 iterations in 0.0157 sec
-    Iteration  400, KL divergence 0.2565, 50 iterations in 0.0160 sec
+    Iteration   50, KL divergence 0.3125, 50 iterations in 0.0146 sec
+    Iteration  100, KL divergence 0.2830, 50 iterations in 0.0166 sec
+    Iteration  150, KL divergence 0.2786, 50 iterations in 0.0165 sec
+    Iteration  200, KL divergence 0.2724, 50 iterations in 0.0162 sec
+    Iteration  250, KL divergence 0.2723, 50 iterations in 0.0161 sec
+    Iteration  300, KL divergence 0.2708, 50 iterations in 0.0162 sec
+    Iteration  350, KL divergence 0.2698, 50 iterations in 0.0159 sec
+    Iteration  400, KL divergence 0.2698, 50 iterations in 0.0160 sec
 
 
-    Iteration  450, KL divergence 0.2565, 50 iterations in 0.0166 sec
-    Iteration  500, KL divergence 0.2564, 50 iterations in 0.0164 sec
+    Iteration  450, KL divergence 0.2695, 50 iterations in 0.0169 sec
+    Iteration  500, KL divergence 0.2696, 50 iterations in 0.0163 sec
        --> Time elapsed: 0.16 seconds
 
 
@@ -558,48 +558,48 @@ This step takes the original node embeddings with a higher dimensionality, e.g. 
   <tbody>
     <tr>
       <th>0</th>
-      <td>org.axonframework.modelling</td>
-      <td>axon-modelling-5.0.0</td>
+      <td>org.axonframework.extension.metrics.micrometer</td>
+      <td>axon-metrics-micrometer-5.0.0</td>
       <td>0</td>
-      <td>0.225594</td>
-      <td>-4.168436</td>
-      <td>-3.421235</td>
+      <td>0.150000</td>
+      <td>-6.844645</td>
+      <td>-4.090009</td>
     </tr>
     <tr>
       <th>1</th>
-      <td>org.axonframework.modelling.annotation</td>
-      <td>axon-modelling-5.0.0</td>
+      <td>org.axonframework.extension.metrics.micrometer...</td>
+      <td>axon-metrics-micrometer-5.0.0</td>
       <td>0</td>
-      <td>0.167480</td>
-      <td>-3.911342</td>
-      <td>-3.566050</td>
+      <td>0.173182</td>
+      <td>-6.941323</td>
+      <td>-4.265116</td>
     </tr>
     <tr>
       <th>2</th>
-      <td>org.axonframework.modelling.configuration</td>
-      <td>axon-modelling-5.0.0</td>
-      <td>0</td>
-      <td>0.171795</td>
-      <td>-4.070087</td>
-      <td>-0.916247</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>org.axonframework.modelling.repository</td>
-      <td>axon-modelling-5.0.0</td>
-      <td>0</td>
-      <td>0.277381</td>
-      <td>-4.276452</td>
-      <td>-2.831575</td>
-    </tr>
-    <tr>
-      <th>4</th>
       <td>org.axonframework.common.infra</td>
       <td>axon-common-5.0.0</td>
       <td>0</td>
       <td>0.822416</td>
-      <td>0.205060</td>
-      <td>-1.736481</td>
+      <td>0.974028</td>
+      <td>1.416065</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>org.axonframework.common.configuration</td>
+      <td>axon-common-5.0.0</td>
+      <td>0</td>
+      <td>1.374842</td>
+      <td>-3.210026</td>
+      <td>2.546618</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>org.axonframework.messaging.monitoring</td>
+      <td>axon-messaging-5.0.0</td>
+      <td>0</td>
+      <td>0.281048</td>
+      <td>-6.609096</td>
+      <td>-3.714524</td>
     </tr>
   </tbody>
 </table>

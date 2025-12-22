@@ -131,7 +131,7 @@ Creates a in-memory projection of "Java:Package" nodes and their "DEPENDS_ON" re
       <td>113</td>
       <td>706</td>
       <td>0.055784</td>
-      <td>2728685</td>
+      <td>2761469</td>
       <td>0</td>
       <td>6.247788</td>
       <td>30</td>
@@ -659,7 +659,7 @@ In this section we'll focus only on pairs of nodes that both belong to the same 
       <td>256</td>
       <td>57</td>
       <td>44</td>
-      <td>[/org/axonframework/messaging/monitoring/interception -&gt; /org/axonframework/messaging/monitoring, /org/axonframework/messaging/monitoring/configuration -&gt; /org/axonframework/messaging/monitoring, /org/axonframework/messaging/eventhandling/processing/streaming/pooled -&gt; /org/axonframework/messagi...</td>
+      <td>[/org/axonframework/messaging/eventhandling/configuration -&gt; /org/axonframework/messaging/monitoring, /org/axonframework/messaging/core/configuration -&gt; /org/axonframework/messaging/monitoring, /org/axonframework/messaging/core/configuration -&gt; /org/axonframework/messaging/monitoring/interceptio...</td>
       <td>[axon-messaging-5.0.0 -&gt; axon-messaging-5.0.0]</td>
       <td>[]</td>
     </tr>
@@ -716,7 +716,7 @@ In this section we'll focus only on pairs of nodes that both belong to the same 
       <td>200</td>
       <td>37</td>
       <td>12</td>
-      <td>[/org/axonframework/messaging/eventhandling -&gt; /org/axonframework/messaging/commandhandling, /org/axonframework/messaging/eventhandling/replay -&gt; /org/axonframework/messaging/commandhandling, /org/axonframework/messaging/eventhandling/interception -&gt; /org/axonframework/messaging/commandhandling,...</td>
+      <td>[/org/axonframework/messaging/eventstreaming -&gt; /org/axonframework/messaging/commandhandling, /org/axonframework/messaging/queryhandling/distributed -&gt; /org/axonframework/messaging/commandhandling, /org/axonframework/messaging/queryhandling/interception -&gt; /org/axonframework/messaging/commandhan...</td>
       <td>[axon-messaging-5.0.0 -&gt; axon-messaging-5.0.0]</td>
       <td>[]</td>
     </tr>
@@ -954,10 +954,10 @@ First, we'll have a look at the overall/total result of the longest path algorit
     </tr>
     <tr>
       <th>1</th>
-      <td>1</td>
+      <td>2</td>
       <td>2</td>
       <td>26</td>
-      <td>4</td>
+      <td>5</td>
       <td>26</td>
     </tr>
     <tr>
@@ -1049,18 +1049,18 @@ The following table shows the first 10 rows with all details of the query above.
       <td>axon-eventsourcing-5.0.0</td>
       <td>None</td>
       <td>None</td>
-      <td>False</td>
+      <td>True</td>
       <td>None</td>
       <td>None</td>
-      <td>2</td>
-      <td>26</td>
+      <td>1</td>
+      <td>32</td>
+      <td>9</td>
+      <td>32</td>
       <td>4</td>
-      <td>26</td>
       <td>1</td>
-      <td>1</td>
-      <td>1</td>
-      <td>[/org/axonframework/eventsourcing/configuration -&gt; /org/axonframework/eventsourcing/eventstore]</td>
-      <td>[axon-eventsourcing-5.0.0 -&gt; axon-eventsourcing-5.0.0]</td>
+      <td>4</td>
+      <td>[/org/axonframework/eventsourcing/configuration -&gt; /org/axonframework/messaging/eventhandling/configuration, /org/axonframework/eventsourcing/configuration -&gt; /org/axonframework/modelling/annotation, /org/axonframework/eventsourcing/configuration -&gt; /org/axonframework/modelling/entity/annotation...</td>
+      <td>[axon-eventsourcing-5.0.0 -&gt; axon-messaging-5.0.0, axon-eventsourcing-5.0.0 -&gt; axon-modelling-5.0.0]</td>
       <td>[]</td>
     </tr>
     <tr>
@@ -1071,38 +1071,19 @@ The following table shows the first 10 rows with all details of the query above.
       <td>True</td>
       <td>None</td>
       <td>None</td>
+      <td>2</td>
+      <td>26</td>
+      <td>5</td>
+      <td>26</td>
+      <td>7</td>
       <td>1</td>
-      <td>32</td>
-      <td>9</td>
-      <td>32</td>
-      <td>4</td>
-      <td>1</td>
-      <td>4</td>
-      <td>[/org/axonframework/eventsourcing/configuration -&gt; /org/axonframework/modelling/annotation, /org/axonframework/eventsourcing/configuration -&gt; /org/axonframework/modelling/entity/annotation, /org/axonframework/eventsourcing/configuration -&gt; /org/axonframework/modelling/configuration, /org/axonfra...</td>
-      <td>[axon-eventsourcing-5.0.0 -&gt; axon-modelling-5.0.0, axon-eventsourcing-5.0.0 -&gt; axon-messaging-5.0.0]</td>
+      <td>7</td>
+      <td>[/org/axonframework/eventsourcing/configuration -&gt; /org/axonframework/common/configuration, /org/axonframework/eventsourcing/configuration -&gt; /org/axonframework/messaging/commandhandling/configuration, /org/axonframework/eventsourcing/configuration -&gt; /org/axonframework/messaging/queryhandling/c...</td>
+      <td>[axon-eventsourcing-5.0.0 -&gt; axon-common-5.0.0, axon-eventsourcing-5.0.0 -&gt; axon-messaging-5.0.0, axon-eventsourcing-5.0.0 -&gt; axon-modelling-5.0.0]</td>
       <td>[]</td>
     </tr>
     <tr>
       <th>3</th>
-      <td>axon-eventsourcing-5.0.0</td>
-      <td>None</td>
-      <td>None</td>
-      <td>True</td>
-      <td>None</td>
-      <td>None</td>
-      <td>2</td>
-      <td>26</td>
-      <td>4</td>
-      <td>26</td>
-      <td>9</td>
-      <td>1</td>
-      <td>9</td>
-      <td>[/org/axonframework/eventsourcing/configuration -&gt; /org/axonframework/modelling, /org/axonframework/eventsourcing/configuration -&gt; /org/axonframework/modelling/entity, /org/axonframework/eventsourcing/configuration -&gt; /org/axonframework/modelling/repository, /org/axonframework/eventsourcing/conf...</td>
-      <td>[axon-eventsourcing-5.0.0 -&gt; axon-modelling-5.0.0, axon-eventsourcing-5.0.0 -&gt; axon-common-5.0.0, axon-eventsourcing-5.0.0 -&gt; axon-messaging-5.0.0]</td>
-      <td>[]</td>
-    </tr>
-    <tr>
-      <th>4</th>
       <td>axon-messaging-5.0.0</td>
       <td>None</td>
       <td>None</td>
@@ -1118,6 +1099,25 @@ The following table shows the first 10 rows with all details of the query above.
       <td>4</td>
       <td>[/org/axonframework/messaging/eventhandling/replay/annotation -&gt; /org/axonframework/messaging/eventhandling/replay, /org/axonframework/messaging/commandhandling/retry -&gt; /org/axonframework/messaging/core/retry, /org/axonframework/messaging/core/reflection -&gt; /org/axonframework/messaging/core/con...</td>
       <td>[axon-messaging-5.0.0 -&gt; axon-messaging-5.0.0]</td>
+      <td>[]</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>axon-messaging-5.0.0</td>
+      <td>None</td>
+      <td>None</td>
+      <td>True</td>
+      <td>None</td>
+      <td>None</td>
+      <td>2</td>
+      <td>26</td>
+      <td>5</td>
+      <td>26</td>
+      <td>1</td>
+      <td>1</td>
+      <td>1</td>
+      <td>[/org/axonframework/messaging/commandhandling/retry -&gt; /org/axonframework/common/infra]</td>
+      <td>[axon-messaging-5.0.0 -&gt; axon-common-5.0.0]</td>
       <td>[]</td>
     </tr>
     <tr>
@@ -1187,7 +1187,7 @@ The following table shows the first 10 rows with all details of the query above.
       <td>None</td>
       <td>2</td>
       <td>26</td>
-      <td>4</td>
+      <td>5</td>
       <td>26</td>
       <td>1</td>
       <td>1</td>
@@ -1211,8 +1211,8 @@ The following table shows the first 10 rows with all details of the query above.
       <td>9</td>
       <td>1</td>
       <td>9</td>
-      <td>[/org/axonframework/extension/springboot/autoconfig -&gt; /org/axonframework/conversion/avro, /org/axonframework/extension/springboot/autoconfig -&gt; /org/axonframework/conversion/json, /org/axonframework/extension/springboot/autoconfig -&gt; /org/axonframework/messaging/commandhandling/distributed, /or...</td>
-      <td>[axon-spring-boot-autoconfigure-5.0.0 -&gt; axon-conversion-5.0.0, axon-spring-boot-autoconfigure-5.0.0 -&gt; axon-messaging-5.0.0, axon-spring-boot-autoconfigure-5.0.0 -&gt; axon-eventsourcing-5.0.0]</td>
+      <td>[/org/axonframework/extension/springboot/autoconfig -&gt; /org/axonframework/messaging/commandhandling/distributed, /org/axonframework/extension/springboot/autoconfig -&gt; /org/axonframework/messaging/eventhandling/processing/streaming/token/store/jpa, /org/axonframework/extension/springboot/autoconf...</td>
+      <td>[axon-spring-boot-autoconfigure-5.0.0 -&gt; axon-messaging-5.0.0, axon-spring-boot-autoconfigure-5.0.0 -&gt; axon-eventsourcing-5.0.0, axon-spring-boot-autoconfigure-5.0.0 -&gt; axon-conversion-5.0.0]</td>
       <td>[]</td>
     </tr>
   </tbody>
@@ -1274,26 +1274,7 @@ In this section we'll focus only on pairs of nodes that both belong to the same 
       <td>[]</td>
     </tr>
     <tr>
-      <th>1</th>
-      <td>axon-eventsourcing-5.0.0</td>
-      <td>None</td>
-      <td>None</td>
-      <td>False</td>
-      <td>None</td>
-      <td>None</td>
-      <td>2</td>
-      <td>26</td>
-      <td>4</td>
-      <td>26</td>
-      <td>1</td>
-      <td>1</td>
-      <td>1</td>
-      <td>[/org/axonframework/eventsourcing/configuration -&gt; /org/axonframework/eventsourcing/eventstore]</td>
-      <td>[axon-eventsourcing-5.0.0 -&gt; axon-eventsourcing-5.0.0]</td>
-      <td>[]</td>
-    </tr>
-    <tr>
-      <th>4</th>
+      <th>3</th>
       <td>axon-messaging-5.0.0</td>
       <td>None</td>
       <td>None</td>
@@ -1359,7 +1340,7 @@ In this section we'll focus only on pairs of nodes that both belong to the same 
       <td>None</td>
       <td>2</td>
       <td>26</td>
-      <td>4</td>
+      <td>5</td>
       <td>26</td>
       <td>1</td>
       <td>1</td>
@@ -1397,7 +1378,7 @@ In this section we'll focus only on pairs of nodes that both belong to the same 
       <td>None</td>
       <td>2</td>
       <td>26</td>
-      <td>4</td>
+      <td>5</td>
       <td>26</td>
       <td>1</td>
       <td>1</td>
@@ -1435,7 +1416,7 @@ In this section we'll focus only on pairs of nodes that both belong to the same 
       <td>None</td>
       <td>2</td>
       <td>26</td>
-      <td>4</td>
+      <td>5</td>
       <td>26</td>
       <td>1</td>
       <td>1</td>
@@ -1458,10 +1439,10 @@ Shows the top 20 artifacts with their max. longest path.
 
 
     sourceProject
-    axon-eventsourcing-5.0.0                2
     axon-spring-boot-autoconfigure-5.0.0    2
     axon-test-5.0.0                         2
     axon-update-5.0.0                       2
+    axon-eventsourcing-5.0.0                1
     axon-messaging-5.0.0                    1
     axon-metrics-micrometer-5.0.0           1
     Name: distance, dtype: int64
@@ -1514,11 +1495,6 @@ Shows the top 50 artifacts with the highest number of dependency paths stacked b
       <td>16.666667</td>
     </tr>
     <tr>
-      <th>axon-eventsourcing-5.0.0</th>
-      <td>75.000000</td>
-      <td>25.000000</td>
-    </tr>
-    <tr>
       <th>axon-messaging-5.0.0</th>
       <td>100.000000</td>
       <td>0.000000</td>
@@ -1527,6 +1503,11 @@ Shows the top 50 artifacts with the highest number of dependency paths stacked b
       <th>axon-update-5.0.0</th>
       <td>75.000000</td>
       <td>25.000000</td>
+    </tr>
+    <tr>
+      <th>axon-eventsourcing-5.0.0</th>
+      <td>100.000000</td>
+      <td>0.000000</td>
     </tr>
     <tr>
       <th>axon-test-5.0.0</th>

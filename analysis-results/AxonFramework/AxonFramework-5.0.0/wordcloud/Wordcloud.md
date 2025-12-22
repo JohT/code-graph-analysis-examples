@@ -35,11 +35,11 @@
     </tr>
     <tr>
       <th>2</th>
-      <td>modelling</td>
+      <td>metrics</td>
     </tr>
     <tr>
       <th>3</th>
-      <td>services</td>
+      <td>micrometer</td>
     </tr>
     <tr>
       <th>4</th>
@@ -55,15 +55,15 @@
     </tr>
     <tr>
       <th>7</th>
-      <td>axon</td>
+      <td>extensions</td>
     </tr>
     <tr>
       <th>8</th>
-      <td>modelling</td>
+      <td>metrics</td>
     </tr>
     <tr>
       <th>9</th>
-      <td>main</td>
+      <td>axon</td>
     </tr>
   </tbody>
 </table>

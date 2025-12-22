@@ -2480,7 +2480,7 @@ The following table shows the top 30 packages with the highest cyclomatic comple
       <td>357</td>
       <td>261</td>
       <td>8</td>
-      <td>registerComponent</td>
+      <td>hasComponent</td>
     </tr>
     <tr>
       <th>2</th>
@@ -2498,7 +2498,7 @@ The following table shows the top 30 packages with the highest cyclomatic comple
       <td>228</td>
       <td>172</td>
       <td>6</td>
-      <td>commit</td>
+      <td>runNextPhase</td>
     </tr>
     <tr>
       <th>16</th>
@@ -2507,7 +2507,7 @@ The following table shows the top 30 packages with the highest cyclomatic comple
       <td>217</td>
       <td>115</td>
       <td>7</td>
-      <td>unwrap</td>
+      <td>covers</td>
     </tr>
     <tr>
       <th>8</th>
@@ -2516,7 +2516,7 @@ The following table shows the top 30 packages with the highest cyclomatic comple
       <td>215</td>
       <td>161</td>
       <td>4</td>
-      <td>lambda$appendEvents$0</td>
+      <td>releaseSegment</td>
     </tr>
     <tr>
       <th>11</th>
@@ -2525,7 +2525,7 @@ The following table shows the top 30 packages with the highest cyclomatic comple
       <td>213</td>
       <td>171</td>
       <td>4</td>
-      <td>subscribeToUpdates</td>
+      <td>subscribe</td>
     </tr>
     <tr>
       <th>9</th>
@@ -2552,7 +2552,7 @@ The following table shows the top 30 packages with the highest cyclomatic comple
       <td>173</td>
       <td>101</td>
       <td>8</td>
-      <td>matchesList</td>
+      <td>matchingFields</td>
     </tr>
     <tr>
       <th>18</th>
@@ -2561,7 +2561,7 @@ The following table shows the top 30 packages with the highest cyclomatic comple
       <td>164</td>
       <td>121</td>
       <td>9</td>
-      <td>buildConverter</td>
+      <td>registerHandlerInterceptors</td>
     </tr>
     <tr>
       <th>17</th>
@@ -2624,7 +2624,7 @@ The following table shows the top 30 packages with the highest cyclomatic comple
       <td>130</td>
       <td>75</td>
       <td>6</td>
-      <td>createCommandTargetResolver</td>
+      <td>getExpectedRepresentation</td>
     </tr>
     <tr>
       <th>13</th>
@@ -2633,7 +2633,7 @@ The following table shows the top 30 packages with the highest cyclomatic comple
       <td>127</td>
       <td>90</td>
       <td>6</td>
-      <td>sendResponses</td>
+      <td>responseSendingLoop</td>
     </tr>
     <tr>
       <th>26</th>
@@ -2651,7 +2651,7 @@ The following table shows the top 30 packages with the highest cyclomatic comple
       <td>119</td>
       <td>92</td>
       <td>4</td>
-      <td>or</td>
+      <td>havingTags</td>
     </tr>
     <tr>
       <th>20</th>
@@ -2669,7 +2669,7 @@ The following table shows the top 30 packages with the highest cyclomatic comple
       <td>104</td>
       <td>84</td>
       <td>4</td>
-      <td>andMetadata</td>
+      <td>handle</td>
     </tr>
     <tr>
       <th>19</th>
@@ -2856,8 +2856,8 @@ The following table shows the top 30 packages containing the methods with the hi
       <td>18</td>
       <td>axon-spring-boot-autoconfigure-5.0.0</td>
       <td>org.axonframework.extension.springboot.autoconfig</td>
-      <td>ConverterAutoConfiguration</td>
-      <td>buildConverter</td>
+      <td>InterceptorAutoConfiguration</td>
+      <td>registerHandlerInterceptors</td>
       <td>9</td>
     </tr>
     <tr>
@@ -2893,7 +2893,7 @@ The following table shows the top 30 packages containing the methods with the hi
       <td>axon-common-5.0.0</td>
       <td>org.axonframework.common.configuration</td>
       <td>DefaultComponentRegistry</td>
-      <td>registerComponent</td>
+      <td>hasComponent</td>
       <td>8</td>
     </tr>
     <tr>
@@ -2910,8 +2910,8 @@ The following table shows the top 30 packages containing the methods with the hi
       <td>15</td>
       <td>axon-test-5.0.0</td>
       <td>org.axonframework.test.matchers</td>
-      <td>SequenceMatcher</td>
-      <td>matchesList</td>
+      <td>DeepEqualsMatcher</td>
+      <td>matchingFields</td>
       <td>8</td>
     </tr>
     <tr>

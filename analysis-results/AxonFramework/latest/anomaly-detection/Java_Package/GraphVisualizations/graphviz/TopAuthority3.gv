@@ -14,68 +14,68 @@ strict digraph TopAuthority3 {
 
 	graph   [label="Top Rank #3 Java Package Authority\norg.axonframework.messaging.eventhandling.processing\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: Page Rank (normalized)\nlarge circle: > 80% percentile of Page Rank\nthick outline: > 80% percentile of Page Rank to Article Rank Difference\n\n"];
 	central [label="🏛️ authority #3\nprocessing"];
-	"pooled_12600"  [label = "pooled\n(0.16%)"; penwidth = 2; ]; "pooled_12600" -> central [label=12; weight=12; penwidth=0.6];
-	"subscribing_12602"  [label = "subscribing\n(0.19%)"; penwidth = 2; ]; "subscribing_12602" -> central [label=8; weight=8; penwidth=0.5];
-	"event_39122"  [label = "event\n(0.15%)"; penwidth = 2; ]; "event_39122" -> central [label=3; weight=3; penwidth=0.5];
-	"errorhandling_12603"  [label = "errorhandling\n(0.14%)"; penwidth = 2; ]; "errorhandling_12603" -> central [label=2; weight=2; penwidth=0.4];
-	"micrometer_10449"  [label = "micrometer\n(0.0%)"; penwidth = 5; ]; "micrometer_10449" -> central [label=0; weight=0; penwidth=0.4];
-	"streaming_12593"  [label = "streaming\n(0.03%)"; penwidth = 2; ]; "streaming_12593" -> central [label=0; weight=0; penwidth=0.4];
-	"core_12614"  [shape = "circle"; height=2; label = "core\n(53.87%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "core_12614" [label=8; weight=8; penwidth=0.5; color = 5];
-	"eventhandling_12584"  [label = "eventhandling\n(5.6%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "eventhandling_12584" [label=5; weight=5; penwidth=0.5; color = 5];
-	"segmenting_12601"  [label = "segmenting\n(3.22%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "segmenting_12601" [label=3; weight=3; penwidth=0.5; color = 5];
-	"common_4398"  [shape = "circle"; height=2; label = "common\n(100.0%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "common_4398" [label=2; weight=2; penwidth=0.4; color = 5];
-	"annotation_4400"  [label = "annotation\n(15.92%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "annotation_4400" [label=1; weight=1; penwidth=0.4; color = 5];
-	"unitofwork_12622"  [label = "unitofwork\n(14.2%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "unitofwork_12622" [label=1; weight=1; penwidth=0.4; color = 5];
-	"infra_4406"  [label = "infra\n(6.34%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "infra_4406" [label=0; weight=0; penwidth=0.4; color = 5];
-	"pooled_12600" -> "segmenting_12601" [label=140; weight=140; penwidth=0.3; color = 3]
-	"eventhandling_12584" -> "core_12614" [label=55; weight=55; penwidth=0.3; color = 3]
-	"unitofwork_12622" -> "core_12614" [label=55; weight=55; penwidth=0.3; color = 3]
-	"pooled_12600" -> "common_4398" [label=52; weight=52; penwidth=0.3; color = 3]
-	"event_39122" -> "core_12614" [label=49; weight=49; penwidth=0.3; color = 3]
-	"core_12614" -> "common_4398" [label=43; weight=43; penwidth=0.3; color = 3]
-	"pooled_12600" -> "unitofwork_12622" [label=43; weight=43; penwidth=0.3; color = 3]
-	"pooled_12600" -> "core_12614" [label=37; weight=37; penwidth=0.3; color = 3]
-	"pooled_12600" -> "eventhandling_12584" [label=20; weight=20; penwidth=0.3; color = 3]
-	"segmenting_12601" -> "core_12614" [label=17; weight=17; penwidth=0.3; color = 3]
-	"event_39122" -> "eventhandling_12584" [label=16; weight=16; penwidth=0.3; color = 3]
-	"micrometer_10449" -> "common_4398" [label=13; weight=13; penwidth=0.3; color = 3]
-	"micrometer_10449" -> "core_12614" [label=13; weight=13; penwidth=0.3; color = 3]
-	"segmenting_12601" -> "eventhandling_12584" [label=13; weight=13; penwidth=0.3; color = 3]
-	"unitofwork_12622" -> "common_4398" [label=11; weight=11; penwidth=0.3; color = 3]
-	"eventhandling_12584" -> "unitofwork_12622" [label=9; weight=9; penwidth=0.3; color = 3]
-	"eventhandling_12584" -> "common_4398" [label=9; weight=9; penwidth=0.3; color = 3]
-	"subscribing_12602" -> "common_4398" [label=9; weight=9; penwidth=0.3; color = 3]
-	"event_39122" -> "unitofwork_12622" [label=7; weight=7; penwidth=0.3; color = 3]
-	"eventhandling_12584" -> "annotation_4400" [label=7; weight=7; penwidth=0.3; color = 3]
-	"pooled_12600" -> "annotation_4400" [label=7; weight=7; penwidth=0.3; color = 3]
-	"event_39122" -> "annotation_4400" [label=6; weight=6; penwidth=0.3; color = 3]
-	"pooled_12600" -> "errorhandling_12603" [label=6; weight=6; penwidth=0.3; color = 3]
-	"segmenting_12601" -> "annotation_4400" [label=6; weight=6; penwidth=0.3; color = 3]
-	"core_12614" -> "annotation_4400" [label=5; weight=5; penwidth=0.3; color = 3]
-	"core_12614" -> "unitofwork_12622" [label=5; weight=5; penwidth=0.3; color = 3]
-	"event_39122" -> "streaming_12593" [label=5; weight=5; penwidth=0.3; color = 3]
-	"event_39122" -> "subscribing_12602" [label=5; weight=5; penwidth=0.3; color = 3]
-	"pooled_12600" -> "infra_4406" [label=5; weight=5; penwidth=0.3; color = 3]
-	"subscribing_12602" -> "annotation_4400" [label=5; weight=5; penwidth=0.3; color = 3]
-	"subscribing_12602" -> "core_12614" [label=5; weight=5; penwidth=0.3; color = 3]
-	"event_39122" -> "segmenting_12601" [label=4; weight=4; penwidth=0.3; color = 3]
-	"eventhandling_12584" -> "infra_4406" [label=4; weight=4; penwidth=0.3; color = 3]
-	"subscribing_12602" -> "eventhandling_12584" [label=4; weight=4; penwidth=0.3; color = 3]
-	"subscribing_12602" -> "unitofwork_12622" [label=4; weight=4; penwidth=0.3; color = 3]
-	"annotation_4400" -> "common_4398" [label=3; weight=3; penwidth=0.3; color = 3]
-	"event_39122" -> "infra_4406" [label=3; weight=3; penwidth=0.3; color = 3]
-	"infra_4406" -> "common_4398" [label=3; weight=3; penwidth=0.3; color = 3]
-	"segmenting_12601" -> "unitofwork_12622" [label=3; weight=3; penwidth=0.3; color = 3]
-	"subscribing_12602" -> "errorhandling_12603" [label=3; weight=3; penwidth=0.3; color = 3]
-	"event_39122" -> "common_4398" [label=2; weight=2; penwidth=0.3; color = 3]
-	"micrometer_10449" -> "eventhandling_12584" [label=2; weight=2; penwidth=0.3; color = 3]
-	"segmenting_12601" -> "common_4398" [label=2; weight=2; penwidth=0.3; color = 3]
-	"subscribing_12602" -> "segmenting_12601" [label=2; weight=2; penwidth=0.3; color = 3]
-	"subscribing_12602" -> "infra_4406" [label=2; weight=2; penwidth=0.3; color = 3]
-	"errorhandling_12603" -> "eventhandling_12584" [label=1; weight=1; penwidth=0.3; color = 3]
-	"errorhandling_12603" -> "core_12614" [label=1; weight=1; penwidth=0.3; color = 3]
-	"streaming_12593" -> "segmenting_12601" [label=1; weight=1; penwidth=0.3; color = 3]
-	"unitofwork_12622" -> "annotation_4400" [label=1; weight=1; penwidth=0.3; color = 3]
-	"core_12614" -> "eventhandling_12584" [label=0; weight=0; penwidth=0.3; color = 3]
-	"pooled_12600" -> "streaming_12593" [label=0; weight=0; penwidth=0.3; color = 3]
+	"pooled_16795"  [label = "pooled\n(0.16%)"; penwidth = 2; ]; "pooled_16795" -> central [label=12; weight=12; penwidth=0.6];
+	"subscribing_16797"  [label = "subscribing\n(0.19%)"; penwidth = 2; ]; "subscribing_16797" -> central [label=8; weight=8; penwidth=0.5];
+	"event_12643"  [label = "event\n(0.15%)"; penwidth = 2; ]; "event_12643" -> central [label=3; weight=3; penwidth=0.5];
+	"errorhandling_16798"  [label = "errorhandling\n(0.14%)"; penwidth = 2; ]; "errorhandling_16798" -> central [label=2; weight=2; penwidth=0.4];
+	"micrometer_20"  [label = "micrometer\n(0.0%)"; penwidth = 5; ]; "micrometer_20" -> central [label=0; weight=0; penwidth=0.4];
+	"streaming_16788"  [label = "streaming\n(0.03%)"; penwidth = 2; ]; "streaming_16788" -> central [label=0; weight=0; penwidth=0.4];
+	"core_16809"  [shape = "circle"; height=2; label = "core\n(53.87%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "core_16809" [label=8; weight=8; penwidth=0.5; color = 5];
+	"eventhandling_16779"  [label = "eventhandling\n(5.6%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "eventhandling_16779" [label=5; weight=5; penwidth=0.5; color = 5];
+	"segmenting_16796"  [label = "segmenting\n(3.22%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "segmenting_16796" [label=3; weight=3; penwidth=0.5; color = 5];
+	"common_4217"  [shape = "circle"; height=2; label = "common\n(100.0%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "common_4217" [label=2; weight=2; penwidth=0.4; color = 5];
+	"annotation_4219"  [label = "annotation\n(15.92%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "annotation_4219" [label=1; weight=1; penwidth=0.4; color = 5];
+	"unitofwork_16817"  [label = "unitofwork\n(14.2%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "unitofwork_16817" [label=1; weight=1; penwidth=0.4; color = 5];
+	"infra_4225"  [label = "infra\n(6.34%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "infra_4225" [label=0; weight=0; penwidth=0.4; color = 5];
+	"pooled_16795" -> "segmenting_16796" [label=140; weight=140; penwidth=0.3; color = 3]
+	"eventhandling_16779" -> "core_16809" [label=55; weight=55; penwidth=0.3; color = 3]
+	"unitofwork_16817" -> "core_16809" [label=55; weight=55; penwidth=0.3; color = 3]
+	"pooled_16795" -> "common_4217" [label=52; weight=52; penwidth=0.3; color = 3]
+	"event_12643" -> "core_16809" [label=49; weight=49; penwidth=0.3; color = 3]
+	"core_16809" -> "common_4217" [label=43; weight=43; penwidth=0.3; color = 3]
+	"pooled_16795" -> "unitofwork_16817" [label=43; weight=43; penwidth=0.3; color = 3]
+	"pooled_16795" -> "core_16809" [label=37; weight=37; penwidth=0.3; color = 3]
+	"pooled_16795" -> "eventhandling_16779" [label=20; weight=20; penwidth=0.3; color = 3]
+	"segmenting_16796" -> "core_16809" [label=17; weight=17; penwidth=0.3; color = 3]
+	"event_12643" -> "eventhandling_16779" [label=16; weight=16; penwidth=0.3; color = 3]
+	"micrometer_20" -> "core_16809" [label=13; weight=13; penwidth=0.3; color = 3]
+	"micrometer_20" -> "common_4217" [label=13; weight=13; penwidth=0.3; color = 3]
+	"segmenting_16796" -> "eventhandling_16779" [label=13; weight=13; penwidth=0.3; color = 3]
+	"unitofwork_16817" -> "common_4217" [label=11; weight=11; penwidth=0.3; color = 3]
+	"eventhandling_16779" -> "common_4217" [label=9; weight=9; penwidth=0.3; color = 3]
+	"eventhandling_16779" -> "unitofwork_16817" [label=9; weight=9; penwidth=0.3; color = 3]
+	"subscribing_16797" -> "common_4217" [label=9; weight=9; penwidth=0.3; color = 3]
+	"event_12643" -> "unitofwork_16817" [label=7; weight=7; penwidth=0.3; color = 3]
+	"eventhandling_16779" -> "annotation_4219" [label=7; weight=7; penwidth=0.3; color = 3]
+	"pooled_16795" -> "annotation_4219" [label=7; weight=7; penwidth=0.3; color = 3]
+	"event_12643" -> "annotation_4219" [label=6; weight=6; penwidth=0.3; color = 3]
+	"pooled_16795" -> "errorhandling_16798" [label=6; weight=6; penwidth=0.3; color = 3]
+	"segmenting_16796" -> "annotation_4219" [label=6; weight=6; penwidth=0.3; color = 3]
+	"core_16809" -> "unitofwork_16817" [label=5; weight=5; penwidth=0.3; color = 3]
+	"core_16809" -> "annotation_4219" [label=5; weight=5; penwidth=0.3; color = 3]
+	"event_12643" -> "subscribing_16797" [label=5; weight=5; penwidth=0.3; color = 3]
+	"event_12643" -> "streaming_16788" [label=5; weight=5; penwidth=0.3; color = 3]
+	"pooled_16795" -> "infra_4225" [label=5; weight=5; penwidth=0.3; color = 3]
+	"subscribing_16797" -> "core_16809" [label=5; weight=5; penwidth=0.3; color = 3]
+	"subscribing_16797" -> "annotation_4219" [label=5; weight=5; penwidth=0.3; color = 3]
+	"event_12643" -> "segmenting_16796" [label=4; weight=4; penwidth=0.3; color = 3]
+	"eventhandling_16779" -> "infra_4225" [label=4; weight=4; penwidth=0.3; color = 3]
+	"subscribing_16797" -> "eventhandling_16779" [label=4; weight=4; penwidth=0.3; color = 3]
+	"subscribing_16797" -> "unitofwork_16817" [label=4; weight=4; penwidth=0.3; color = 3]
+	"annotation_4219" -> "common_4217" [label=3; weight=3; penwidth=0.3; color = 3]
+	"event_12643" -> "infra_4225" [label=3; weight=3; penwidth=0.3; color = 3]
+	"infra_4225" -> "common_4217" [label=3; weight=3; penwidth=0.3; color = 3]
+	"segmenting_16796" -> "unitofwork_16817" [label=3; weight=3; penwidth=0.3; color = 3]
+	"subscribing_16797" -> "errorhandling_16798" [label=3; weight=3; penwidth=0.3; color = 3]
+	"event_12643" -> "common_4217" [label=2; weight=2; penwidth=0.3; color = 3]
+	"micrometer_20" -> "eventhandling_16779" [label=2; weight=2; penwidth=0.3; color = 3]
+	"segmenting_16796" -> "common_4217" [label=2; weight=2; penwidth=0.3; color = 3]
+	"subscribing_16797" -> "infra_4225" [label=2; weight=2; penwidth=0.3; color = 3]
+	"subscribing_16797" -> "segmenting_16796" [label=2; weight=2; penwidth=0.3; color = 3]
+	"errorhandling_16798" -> "core_16809" [label=1; weight=1; penwidth=0.3; color = 3]
+	"errorhandling_16798" -> "eventhandling_16779" [label=1; weight=1; penwidth=0.3; color = 3]
+	"streaming_16788" -> "segmenting_16796" [label=1; weight=1; penwidth=0.3; color = 3]
+	"unitofwork_16817" -> "annotation_4219" [label=1; weight=1; penwidth=0.3; color = 3]
+	"core_16809" -> "eventhandling_16779" [label=0; weight=0; penwidth=0.3; color = 3]
+	"pooled_16795" -> "streaming_16788" [label=0; weight=0; penwidth=0.3; color = 3]
 }

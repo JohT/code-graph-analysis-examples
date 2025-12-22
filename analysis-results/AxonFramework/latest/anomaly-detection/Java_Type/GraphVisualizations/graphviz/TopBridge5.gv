@@ -12,17 +12,16 @@ strict digraph TopBridge5 {
     central [fontsize = 16;];
     central [color = 7; fillcolor = 5; penwidth = 3;];
 
-	graph   [label="Top Rank #5 Java Type Bridge\norg.axonframework.common.property.PropertyAccessStrategy\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
-	central [label="🌉 bridge #5\nPropertyAccessStrategy"];
-	"AbstractMethodPropertyAccessStrategy_6050" [label = "AbstractMethodPropertyAccessStrategy"; ]; "AbstractMethodPropertyAccessStrategy_6050" -> central [label=2; weight=2; penwidth=0.4];
-	"AnnotatedEntityModelRoutingKeyMatcher_272" [label = "AnnotatedEntityModelRoutingKeyMatcher"; ]; "AnnotatedEntityModelRoutingKeyMatcher_272" -> central [label=2; weight=2; penwidth=0.4];
-	"DirectPropertyAccessStrategy_6052" [label = "DirectPropertyAccessStrategy"; ]; "DirectPropertyAccessStrategy_6052" -> central [label=2; weight=2; penwidth=0.4];
-	"PropertyBasedEntityIdResolver_26" [label = "PropertyBasedEntityIdResolver"; ]; "PropertyBasedEntityIdResolver_26" -> central [label=1; weight=1; penwidth=0.4];
-	"PropertySequencingPolicy_17809" [label = "PropertySequencingPolicy"; ]; "PropertySequencingPolicy_17809" -> central [label=1; weight=1; penwidth=0.4];
-	"Property_6317" [label = "Property"; color = 5; fillcolor = 1; ]; central -> "Property_6317" [label=2; weight=2; penwidth=0.4; color = 5];
-	"AnnotatedEntityModelRoutingKeyMatcher_272" -> "Property_6317" [label=9; weight=9; penwidth=0.3; color = 3]
-	"PropertyBasedEntityIdResolver_26" -> "Property_6317" [label=4; weight=4; penwidth=0.3; color = 3]
-	"PropertySequencingPolicy_17809" -> "Property_6317" [label=2; weight=2; penwidth=0.3; color = 3]
-	"AbstractMethodPropertyAccessStrategy_6050" -> "Property_6317" [label=1; weight=1; penwidth=0.3; color = 3]
-	"DirectPropertyAccessStrategy_6052" -> "Property_6317" [label=1; weight=1; penwidth=0.3; color = 3]
+	graph   [label="Top Rank #5 Java Type Bridge\norg.axonframework.extension.springboot.autoconfig.AxonTimeoutAutoConfiguration\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
+	central [label="🌉 bridge #5\nAxonTimeoutAutoConfiguration"];
+	"TimeoutProperties_1559" [label = "TimeoutProperties"; color = 5; fillcolor = 1; ]; central -> "TimeoutProperties_1559" [label=5; weight=5; penwidth=0.5; color = 5];
+	"AxonTimeoutAutoConfiguration$AxonTimeoutConfigurerModule_2086" [label = "AxonTimeoutAutoConfiguration$\nAxonTimeoutConfigurerModule"; color = 5; fillcolor = 1; ]; central -> "AxonTimeoutAutoConfiguration$AxonTimeoutConfigurerModule_2086" [label=3; weight=3; penwidth=0.4; color = 5];
+	"HandlerTimeoutHandlerEnhancerDefinition_37163" [label = "HandlerTimeoutHandlerEnhancerDefinition"; color = 5; fillcolor = 1; ]; central -> "HandlerTimeoutHandlerEnhancerDefinition_37163" [label=3; weight=3; penwidth=0.4; color = 5];
+	"TimeoutProperties$MessageHandlerTimeoutProperties_1772" [label = "TimeoutProperties$\nMessageHandlerTimeoutProperties"; color = 5; fillcolor = 1; ]; central -> "TimeoutProperties$MessageHandlerTimeoutProperties_1772" [label=2; weight=2; penwidth=0.4; color = 5];
+	"ConfigurationEnhancer_8017" [label = "ConfigurationEnhancer"; color = 5; fillcolor = 1; ]; central -> "ConfigurationEnhancer_8017" [label=1; weight=1; penwidth=0.4; color = 5];
+	"TimeoutProperties$TransactionTimeoutProperties_1561" [label = "TimeoutProperties$\nTransactionTimeoutProperties"; color = 5; fillcolor = 1; ]; central -> "TimeoutProperties$TransactionTimeoutProperties_1561" [label=1; weight=1; penwidth=0.4; color = 5];
+	"AxonTimeoutAutoConfiguration$AxonTimeoutConfigurerModule_2086" -> "TimeoutProperties$TransactionTimeoutProperties_1561" [label=12; weight=12; penwidth=0.3; color = 3]
+	"TimeoutProperties_1559" -> "TimeoutProperties$TransactionTimeoutProperties_1561" [label=6; weight=6; penwidth=0.3; color = 3]
+	"TimeoutProperties_1559" -> "TimeoutProperties$MessageHandlerTimeoutProperties_1772" [label=6; weight=6; penwidth=0.3; color = 3]
+	"AxonTimeoutAutoConfiguration$AxonTimeoutConfigurerModule_2086" -> "ConfigurationEnhancer_8017" [label=1; weight=1; penwidth=0.3; color = 3]
 }
