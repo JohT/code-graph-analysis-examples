@@ -659,7 +659,7 @@ In this section we'll focus only on pairs of nodes that both belong to the same 
       <td>256</td>
       <td>57</td>
       <td>44</td>
-      <td>[/org/axonframework/messaging/monitoring/interception -&gt; /org/axonframework/messaging/monitoring, /org/axonframework/messaging/monitoring/configuration -&gt; /org/axonframework/messaging/monitoring, /org/axonframework/messaging/monitoring -&gt; /org/axonframework/messaging/commandhandling, /org/axonfr...</td>
+      <td>[/org/axonframework/messaging/eventhandling/processing/streaming/pooled -&gt; /org/axonframework/messaging/monitoring, /org/axonframework/messaging/eventhandling/processing/subscribing -&gt; /org/axonframework/messaging/monitoring, /org/axonframework/messaging/eventhandling/configuration -&gt; /org/axonf...</td>
       <td>[axon-messaging-5.0.1 -&gt; axon-messaging-5.0.1]</td>
       <td>[]</td>
     </tr>
@@ -738,8 +738,8 @@ Shows the top 20 artifacts with the longest shortest path (=Graph Diameter).
     axon-eventsourcing-5.0.1                3
     axon-modelling-5.0.1                    3
     axon-common-5.0.1                       2
-    axon-spring-boot-autoconfigure-5.0.1    2
     axon-server-connector-5.0.1             2
+    axon-spring-boot-autoconfigure-5.0.1    2
     axon-conversion-5.0.1                   1
     axon-metrics-micrometer-5.0.1           1
     axon-test-5.0.1                         1
@@ -957,12 +957,12 @@ First, we'll have a look at the overall/total result of the longest path algorit
       <td>1</td>
       <td>2</td>
       <td>28</td>
-      <td>3</td>
+      <td>4</td>
       <td>28</td>
     </tr>
     <tr>
       <th>2</th>
-      <td>11</td>
+      <td>12</td>
       <td>3</td>
       <td>8</td>
       <td>2</td>
@@ -970,7 +970,7 @@ First, we'll have a look at the overall/total result of the longest path algorit
     </tr>
     <tr>
       <th>3</th>
-      <td>12</td>
+      <td>13</td>
       <td>4</td>
       <td>1</td>
       <td>1</td>
@@ -1062,7 +1062,7 @@ The following table shows the first 10 rows with all details of the query above.
       <td>None</td>
       <td>2</td>
       <td>28</td>
-      <td>3</td>
+      <td>4</td>
       <td>28</td>
       <td>1</td>
       <td>1</td>
@@ -1083,9 +1083,9 @@ The following table shows the first 10 rows with all details of the query above.
       <td>30</td>
       <td>8</td>
       <td>30</td>
-      <td>4</td>
+      <td>6</td>
       <td>1</td>
-      <td>4</td>
+      <td>6</td>
       <td>[/org/axonframework/eventsourcing/configuration -&gt; /org/axonframework/modelling/annotation, /org/axonframework/eventsourcing/configuration -&gt; /org/axonframework/modelling/entity/annotation, /org/axonframework/eventsourcing/configuration -&gt; /org/axonframework/modelling/configuration, /org/axonfra...</td>
       <td>[axon-eventsourcing-5.0.1 -&gt; axon-modelling-5.0.1, axon-eventsourcing-5.0.1 -&gt; axon-messaging-5.0.1]</td>
       <td>[]</td>
@@ -1100,13 +1100,13 @@ The following table shows the first 10 rows with all details of the query above.
       <td>None</td>
       <td>2</td>
       <td>28</td>
-      <td>3</td>
+      <td>4</td>
       <td>28</td>
-      <td>7</td>
+      <td>9</td>
       <td>1</td>
-      <td>7</td>
-      <td>[/org/axonframework/eventsourcing/configuration -&gt; /org/axonframework/modelling, /org/axonframework/eventsourcing/configuration -&gt; /org/axonframework/modelling/entity, /org/axonframework/eventsourcing/configuration -&gt; /org/axonframework/modelling/repository, /org/axonframework/eventsourcing/conf...</td>
-      <td>[axon-eventsourcing-5.0.1 -&gt; axon-modelling-5.0.1, axon-eventsourcing-5.0.1 -&gt; axon-messaging-5.0.1]</td>
+      <td>9</td>
+      <td>[/org/axonframework/eventsourcing/configuration -&gt; /org/axonframework/common/configuration, /org/axonframework/eventsourcing/configuration -&gt; /org/axonframework/modelling, /org/axonframework/eventsourcing/configuration -&gt; /org/axonframework/modelling/entity, /org/axonframework/eventsourcing/conf...</td>
+      <td>[axon-eventsourcing-5.0.1 -&gt; axon-common-5.0.1, axon-eventsourcing-5.0.1 -&gt; axon-modelling-5.0.1, axon-eventsourcing-5.0.1 -&gt; axon-messaging-5.0.1]</td>
       <td>[]</td>
     </tr>
     <tr>
@@ -1130,6 +1130,25 @@ The following table shows the first 10 rows with all details of the query above.
     </tr>
     <tr>
       <th>5</th>
+      <td>axon-messaging-5.0.1</td>
+      <td>None</td>
+      <td>None</td>
+      <td>True</td>
+      <td>None</td>
+      <td>None</td>
+      <td>2</td>
+      <td>28</td>
+      <td>4</td>
+      <td>28</td>
+      <td>1</td>
+      <td>1</td>
+      <td>1</td>
+      <td>[/org/axonframework/messaging/commandhandling/retry -&gt; /org/axonframework/common/infra]</td>
+      <td>[axon-messaging-5.0.1 -&gt; axon-common-5.0.1]</td>
+      <td>[]</td>
+    </tr>
+    <tr>
+      <th>6</th>
       <td>axon-metrics-micrometer-5.0.1</td>
       <td>None</td>
       <td>None</td>
@@ -1148,7 +1167,7 @@ The following table shows the first 10 rows with all details of the query above.
       <td>[]</td>
     </tr>
     <tr>
-      <th>6</th>
+      <th>7</th>
       <td>axon-metrics-micrometer-5.0.1</td>
       <td>None</td>
       <td>None</td>
@@ -1167,7 +1186,7 @@ The following table shows the first 10 rows with all details of the query above.
       <td>[]</td>
     </tr>
     <tr>
-      <th>7</th>
+      <th>8</th>
       <td>axon-spring-boot-autoconfigure-5.0.1</td>
       <td>None</td>
       <td>None</td>
@@ -1186,7 +1205,7 @@ The following table shows the first 10 rows with all details of the query above.
       <td>[]</td>
     </tr>
     <tr>
-      <th>8</th>
+      <th>9</th>
       <td>axon-spring-boot-autoconfigure-5.0.1</td>
       <td>None</td>
       <td>None</td>
@@ -1195,32 +1214,13 @@ The following table shows the first 10 rows with all details of the query above.
       <td>None</td>
       <td>2</td>
       <td>28</td>
-      <td>3</td>
+      <td>4</td>
       <td>28</td>
       <td>1</td>
       <td>1</td>
       <td>1</td>
       <td>[/org/axonframework/extension/springboot/autoconfig -&gt; /org/axonframework/extension/springboot/actuator]</td>
       <td>[axon-spring-boot-autoconfigure-5.0.1 -&gt; axon-spring-boot-autoconfigure-5.0.1]</td>
-      <td>[]</td>
-    </tr>
-    <tr>
-      <th>9</th>
-      <td>axon-spring-boot-autoconfigure-5.0.1</td>
-      <td>None</td>
-      <td>None</td>
-      <td>True</td>
-      <td>None</td>
-      <td>None</td>
-      <td>1</td>
-      <td>30</td>
-      <td>8</td>
-      <td>30</td>
-      <td>10</td>
-      <td>1</td>
-      <td>10</td>
-      <td>[/org/axonframework/extension/springboot/autoconfig -&gt; /org/axonframework/eventsourcing/eventstore/jpa, /org/axonframework/extension/springboot/autoconfig -&gt; /org/axonframework/messaging/commandhandling/distributed, /org/axonframework/extension/springboot/autoconfig -&gt; /org/axonframework/messagi...</td>
-      <td>[axon-spring-boot-autoconfigure-5.0.1 -&gt; axon-eventsourcing-5.0.1, axon-spring-boot-autoconfigure-5.0.1 -&gt; axon-messaging-5.0.1, axon-spring-boot-autoconfigure-5.0.1 -&gt; axon-conversion-5.0.1, axon-spring-boot-autoconfigure-5.0.1 -&gt; axon-update-5.0.1]</td>
       <td>[]</td>
     </tr>
   </tbody>
@@ -1291,7 +1291,7 @@ In this section we'll focus only on pairs of nodes that both belong to the same 
       <td>None</td>
       <td>2</td>
       <td>28</td>
-      <td>3</td>
+      <td>4</td>
       <td>28</td>
       <td>1</td>
       <td>1</td>
@@ -1320,7 +1320,7 @@ In this section we'll focus only on pairs of nodes that both belong to the same 
       <td>[]</td>
     </tr>
     <tr>
-      <th>5</th>
+      <th>6</th>
       <td>axon-metrics-micrometer-5.0.1</td>
       <td>None</td>
       <td>None</td>
@@ -1339,7 +1339,7 @@ In this section we'll focus only on pairs of nodes that both belong to the same 
       <td>[]</td>
     </tr>
     <tr>
-      <th>7</th>
+      <th>8</th>
       <td>axon-spring-boot-autoconfigure-5.0.1</td>
       <td>None</td>
       <td>None</td>
@@ -1358,7 +1358,7 @@ In this section we'll focus only on pairs of nodes that both belong to the same 
       <td>[]</td>
     </tr>
     <tr>
-      <th>8</th>
+      <th>9</th>
       <td>axon-spring-boot-autoconfigure-5.0.1</td>
       <td>None</td>
       <td>None</td>
@@ -1367,7 +1367,7 @@ In this section we'll focus only on pairs of nodes that both belong to the same 
       <td>None</td>
       <td>2</td>
       <td>28</td>
-      <td>3</td>
+      <td>4</td>
       <td>28</td>
       <td>1</td>
       <td>1</td>
@@ -1377,7 +1377,7 @@ In this section we'll focus only on pairs of nodes that both belong to the same 
       <td>[]</td>
     </tr>
     <tr>
-      <th>13</th>
+      <th>14</th>
       <td>axon-test-5.0.1</td>
       <td>None</td>
       <td>None</td>
@@ -1396,7 +1396,7 @@ In this section we'll focus only on pairs of nodes that both belong to the same 
       <td>[]</td>
     </tr>
     <tr>
-      <th>14</th>
+      <th>15</th>
       <td>axon-test-5.0.1</td>
       <td>None</td>
       <td>None</td>
@@ -1405,7 +1405,7 @@ In this section we'll focus only on pairs of nodes that both belong to the same 
       <td>None</td>
       <td>2</td>
       <td>28</td>
-      <td>3</td>
+      <td>4</td>
       <td>28</td>
       <td>1</td>
       <td>1</td>
@@ -1429,10 +1429,10 @@ Shows the top 20 artifacts with their max. longest path.
 
     sourceProject
     axon-eventsourcing-5.0.1                2
-    axon-test-5.0.1                         2
     axon-spring-boot-autoconfigure-5.0.1    2
-    axon-metrics-micrometer-5.0.1           1
+    axon-test-5.0.1                         2
     axon-messaging-5.0.1                    1
+    axon-metrics-micrometer-5.0.1           1
     Name: distance, dtype: int64
 
 

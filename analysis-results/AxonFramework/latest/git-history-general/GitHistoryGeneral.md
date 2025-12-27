@@ -49,8 +49,8 @@
       <td>11.548295</td>
       <td>171.423295</td>
       <td>77.127841</td>
-      <td>134.769886</td>
-      <td>97.701705</td>
+      <td>134.924716</td>
+      <td>97.963068</td>
     </tr>
     <tr>
       <th>std</th>
@@ -58,8 +58,8 @@
       <td>12.461968</td>
       <td>362.848141</td>
       <td>145.355171</td>
-      <td>200.550575</td>
-      <td>154.803704</td>
+      <td>200.546058</td>
+      <td>154.748091</td>
     </tr>
     <tr>
       <th>min</th>
@@ -67,8 +67,8 @@
       <td>2.000000</td>
       <td>4.000000</td>
       <td>24.000000</td>
-      <td>25.000000</td>
-      <td>23.000000</td>
+      <td>26.000000</td>
+      <td>24.000000</td>
     </tr>
     <tr>
       <th>25%</th>
@@ -95,7 +95,7 @@
       <td>162.250000</td>
       <td>24.000000</td>
       <td>68.000000</td>
-      <td>50.000000</td>
+      <td>51.000000</td>
     </tr>
     <tr>
       <th>max</th>
@@ -194,7 +194,7 @@
       <td>19</td>
       <td>24</td>
       <td>39</td>
-      <td>23</td>
+      <td>24</td>
       <td>2025-12-03</td>
       <td>2025-11-17</td>
       <td>2025-12-03</td>
@@ -213,8 +213,8 @@
       <td>Jan Galinski</td>
       <td>81</td>
       <td>24</td>
-      <td>52</td>
-      <td>52</td>
+      <td>53</td>
+      <td>53</td>
       <td>2025-12-03</td>
       <td>2025-11-04</td>
       <td>2025-11-04</td>
@@ -294,7 +294,7 @@
       <td>40</td>
       <td>24</td>
       <td>39</td>
-      <td>23</td>
+      <td>24</td>
       <td>2025-12-03</td>
       <td>2025-11-17</td>
       <td>2025-12-03</td>
@@ -1311,7 +1311,7 @@ The following charts show how these metrics are distributed across pairs of file
       <td>8</td>
       <td>7</td>
       <td>pom↔pom</td>
-      <td>extensions/metrics/metrics-micrometer/pom.xml↔extensions/metrics/pom.xml</td>
+      <td>extensions/metrics/metrics-dropwizard/pom.xml↔extensions/metrics/pom.xml</td>
     </tr>
     <tr>
       <th>17</th>
@@ -1390,8 +1390,8 @@ The following charts show how these metrics are distributed across pairs of file
       <td>adoc↔adoc</td>
       <td>13</td>
       <td>7</td>
-      <td>implement-command-create-course↔index</td>
-      <td>docs/af5-getting-started/modules/ROOT/pages/implement-command-create-course.adoc↔docs/af5-getting-started/modules/ROOT/pages/index.adoc</td>
+      <td>implement-command-subscribe-student↔index</td>
+      <td>docs/af5-getting-started/modules/ROOT/pages/implement-command-subscribe-student.adoc↔docs/af5-getting-started/modules/ROOT/pages/index.adoc</td>
     </tr>
     <tr>
       <th>27</th>
@@ -1422,8 +1422,8 @@ The following charts show how these metrics are distributed across pairs of file
       <td>java↔md</td>
       <td>84</td>
       <td>1</td>
-      <td>AggregateBasedStorageEngineTestSuite↔api-changes</td>
-      <td>eventsourcing/src/test/java/org/axonframework/eventsourcing/eventstore/AggregateBasedStorageEngineTestSuite.java↔axon-5/api-changes.md</td>
+      <td>AggregateBasedAxonServerEventStorageEngine↔api-changes</td>
+      <td>axon-server-connector/src/main/java/org/axonframework/axonserver/connector/event/AggregateBasedAxonServerEventStorageEngine.java↔axon-5/api-changes.md</td>
     </tr>
     <tr>
       <th>31</th>
@@ -1575,8 +1575,8 @@ This metric is useful to identify pairs of files that are frequently changed tog
       <td>java↔java</td>
       <td>0.750000</td>
       <td>6</td>
-      <td>UpdateCheckerConfigurationEnhancer↔UpdateCheckerTest</td>
-      <td>update/src/main/java/org/axonframework/update/UpdateCheckerConfigurationEnhancer.java↔update/src/test/java/org/axonframework/update/UpdateCheckerTest.java</td>
+      <td>PropertyFileUsagePropertyProvider↔UpdateCheckerTest</td>
+      <td>update/src/main/java/org/axonframework/update/configuration/PropertyFileUsagePropertyProvider.java↔update/src/test/java/org/axonframework/update/UpdateCheckerTest.java</td>
     </tr>
     <tr>
       <th>6</th>
@@ -1640,7 +1640,7 @@ This metric is useful to identify pairs of files that are frequently changed tog
       <td>0.500000</td>
       <td>4</td>
       <td>pom↔pom</td>
-      <td>extensions/tracing/pom.xml↔stash/legacy-aggregate/pom.xml</td>
+      <td>extensions/spring/pom.xml↔stash/legacy-aggregate/pom.xml</td>
     </tr>
     <tr>
       <th>14</th>
@@ -1719,8 +1719,8 @@ This metric is useful to identify pairs of files that are frequently changed tog
       <td>adoc↔adoc</td>
       <td>0.650000</td>
       <td>4</td>
-      <td>implement-command-create-course↔index</td>
-      <td>docs/af5-getting-started/modules/ROOT/pages/implement-command-create-course.adoc↔docs/af5-getting-started/modules/ROOT/pages/index.adoc</td>
+      <td>implement-command-subscribe-student↔index</td>
+      <td>docs/af5-getting-started/modules/ROOT/pages/implement-command-subscribe-student.adoc↔docs/af5-getting-started/modules/ROOT/pages/index.adoc</td>
     </tr>
     <tr>
       <th>24</th>
@@ -1751,8 +1751,8 @@ This metric is useful to identify pairs of files that are frequently changed tog
       <td>adoc↔adoc</td>
       <td>0.611111</td>
       <td>8</td>
-      <td>implement-command-create-course↔project-structure</td>
-      <td>docs/af5-getting-started/modules/ROOT/pages/implement-command-create-course.adoc↔docs/af5-getting-started/modules/ROOT/pages/project-structure.adoc</td>
+      <td>implement-command-subscribe-student↔project-structure</td>
+      <td>docs/af5-getting-started/modules/ROOT/pages/implement-command-subscribe-student.adoc↔docs/af5-getting-started/modules/ROOT/pages/project-structure.adoc</td>
     </tr>
     <tr>
       <th>28</th>
@@ -1799,8 +1799,8 @@ This metric is useful to identify pairs of files that are frequently changed tog
       <td>java↔md</td>
       <td>0.571429</td>
       <td>4</td>
-      <td>ExceptionHandlerTest↔api-changes</td>
-      <td>messaging/src/test/java/org/axonframework/messaging/core/interception/ExceptionHandlerTest.java↔axon-5/api-changes.md</td>
+      <td>AnnotationBasedEntityEvolvingComponent↔api-changes</td>
+      <td>modelling/src/main/java/org/axonframework/modelling/annotation/AnnotationBasedEntityEvolvingComponent.java↔axon-5/api-changes.md</td>
     </tr>
     <tr>
       <th>34</th>
@@ -1847,8 +1847,8 @@ This metric is useful to identify pairs of files that are frequently changed tog
       <td>java↔md</td>
       <td>0.375000</td>
       <td>10</td>
-      <td>FieldChildEntityFieldDefinition↔api-changes</td>
-      <td>modelling/src/main/java/org/axonframework/modelling/entity/child/FieldChildEntityFieldDefinition.java↔axon-5/api-changes.md</td>
+      <td>GetterEvolverChildEntityFieldDefinition↔api-changes</td>
+      <td>modelling/src/main/java/org/axonframework/modelling/entity/child/GetterEvolverChildEntityFieldDefinition.java↔axon-5/api-changes.md</td>
     </tr>
   </tbody>
 </table>
@@ -1909,8 +1909,8 @@ This metric is useful to identify pairs of files that are frequently changed tog
       <td>java↔java</td>
       <td>325.142857</td>
       <td>4</td>
-      <td>AnnotationBasedEntityEvolvingComponent↔AnnotationSagaMetaModelFactory</td>
-      <td>modelling/src/main/java/org/axonframework/modelling/annotation/AnnotationBasedEntityEvolvingComponent.java↔stash/legacy-saga/src/main/java/org/axonframework/modelling/saga/metamodel/AnnotationSagaMetaModelFactory.java</td>
+      <td>ExceptionHandlerTest↔AnnotationSagaMetaModelFactory</td>
+      <td>messaging/src/test/java/org/axonframework/messaging/core/interception/ExceptionHandlerTest.java↔stash/legacy-saga/src/main/java/org/axonframework/modelling/saga/metamodel/AnnotationSagaMetaModelFactory.java</td>
     </tr>
     <tr>
       <th>4</th>
@@ -1957,8 +1957,8 @@ This metric is useful to identify pairs of files that are frequently changed tog
       <td>java↔java</td>
       <td>227.600000</td>
       <td>10</td>
-      <td>FieldChildEntityFieldDefinition↔GetterSetterChildEntityFieldDefinition</td>
-      <td>modelling/src/main/java/org/axonframework/modelling/entity/child/FieldChildEntityFieldDefinition.java↔modelling/src/main/java/org/axonframework/modelling/entity/child/GetterSetterChildEntityFieldDefinition.java</td>
+      <td>GetterEvolverChildEntityFieldDefinition↔GetterSetterChildEntityFieldDefinition</td>
+      <td>modelling/src/main/java/org/axonframework/modelling/entity/child/GetterEvolverChildEntityFieldDefinition.java↔modelling/src/main/java/org/axonframework/modelling/entity/child/GetterSetterChildEntityFieldDefinition.java</td>
     </tr>
     <tr>
       <th>10</th>
@@ -1982,7 +1982,7 @@ This metric is useful to identify pairs of files that are frequently changed tog
       <td>71.125000</td>
       <td>3</td>
       <td>pom↔pom</td>
-      <td>stash/legacy-aggregate/pom.xml↔stash/migration/pom.xml</td>
+      <td>stash/legacy-saga/pom.xml↔stash/migration/pom.xml</td>
     </tr>
     <tr>
       <th>13</th>
@@ -2014,7 +2014,7 @@ This metric is useful to identify pairs of files that are frequently changed tog
       <td>49.478261</td>
       <td>7</td>
       <td>pom↔pom</td>
-      <td>extensions/tracing/pom.xml↔stash/legacy-aggregate/pom.xml</td>
+      <td>extensions/pom.xml↔stash/legacy-aggregate/pom.xml</td>
     </tr>
     <tr>
       <th>17</th>
@@ -2251,8 +2251,8 @@ This metric is useful to identify pairs of files that are frequently changed tog
       <td>java↔java</td>
       <td>0.800000</td>
       <td>3</td>
-      <td>FieldChildEntityFieldDefinition↔GetterSetterChildEntityFieldDefinition</td>
-      <td>modelling/src/main/java/org/axonframework/modelling/entity/child/FieldChildEntityFieldDefinition.java↔modelling/src/main/java/org/axonframework/modelling/entity/child/GetterSetterChildEntityFieldDefinition.java</td>
+      <td>GetterEvolverChildEntityFieldDefinition↔GetterSetterChildEntityFieldDefinition</td>
+      <td>modelling/src/main/java/org/axonframework/modelling/entity/child/GetterEvolverChildEntityFieldDefinition.java↔modelling/src/main/java/org/axonframework/modelling/entity/child/GetterSetterChildEntityFieldDefinition.java</td>
     </tr>
     <tr>
       <th>3</th>
@@ -2283,8 +2283,8 @@ This metric is useful to identify pairs of files that are frequently changed tog
       <td>java↔java</td>
       <td>0.571429</td>
       <td>7</td>
-      <td>AnnotationBasedEntityEvolvingComponent↔AnnotationSagaMetaModelFactory</td>
-      <td>modelling/src/main/java/org/axonframework/modelling/annotation/AnnotationBasedEntityEvolvingComponent.java↔stash/legacy-saga/src/main/java/org/axonframework/modelling/saga/metamodel/AnnotationSagaMetaModelFactory.java</td>
+      <td>ExceptionHandlerTest↔AnnotationSagaMetaModelFactory</td>
+      <td>messaging/src/test/java/org/axonframework/messaging/core/interception/ExceptionHandlerTest.java↔stash/legacy-saga/src/main/java/org/axonframework/modelling/saga/metamodel/AnnotationSagaMetaModelFactory.java</td>
     </tr>
     <tr>
       <th>7</th>
@@ -2380,7 +2380,7 @@ This metric is useful to identify pairs of files that are frequently changed tog
       <td>0.238095</td>
       <td>9</td>
       <td>pom↔pom</td>
-      <td>stash/legacy-aggregate/pom.xml↔stash/migration/pom.xml</td>
+      <td>stash/legacy-saga/pom.xml↔stash/migration/pom.xml</td>
     </tr>
     <tr>
       <th>19</th>
@@ -2756,21 +2756,6 @@ This is useful to identify pairs of files that score high in most metrics, which
     <tr>
       <th>11</th>
       <td>java↔java</td>
-      <td>Event↔Query</td>
-      <td>54</td>
-      <td>50</td>
-      <td>1</td>
-      <td>1</td>
-      <td>2</td>
-      <td>4</td>
-      <td>1.000000</td>
-      <td>1.000000</td>
-      <td>569.000000</td>
-      <td>messaging/src/main/java/org/axonframework/messaging/eventhandling/annotation/Event.java↔messaging/src/main/java/org/axonframework/messaging/queryhandling/annotation/Query.java</td>
-    </tr>
-    <tr>
-      <th>12</th>
-      <td>java↔java</td>
       <td>Command↔Query</td>
       <td>54</td>
       <td>50</td>
@@ -2784,7 +2769,37 @@ This is useful to identify pairs of files that score high in most metrics, which
       <td>messaging/src/main/java/org/axonframework/messaging/commandhandling/annotation/Command.java↔messaging/src/main/java/org/axonframework/messaging/queryhandling/annotation/Query.java</td>
     </tr>
     <tr>
+      <th>12</th>
+      <td>java↔java</td>
+      <td>Event↔Query</td>
+      <td>54</td>
+      <td>50</td>
+      <td>1</td>
+      <td>1</td>
+      <td>2</td>
+      <td>4</td>
+      <td>1.000000</td>
+      <td>1.000000</td>
+      <td>569.000000</td>
+      <td>messaging/src/main/java/org/axonframework/messaging/eventhandling/annotation/Event.java↔messaging/src/main/java/org/axonframework/messaging/queryhandling/annotation/Query.java</td>
+    </tr>
+    <tr>
       <th>13</th>
+      <td>java↔java</td>
+      <td>Query↔QueryResponse</td>
+      <td>54</td>
+      <td>50</td>
+      <td>1</td>
+      <td>1</td>
+      <td>2</td>
+      <td>4</td>
+      <td>1.000000</td>
+      <td>1.000000</td>
+      <td>569.000000</td>
+      <td>messaging/src/main/java/org/axonframework/messaging/queryhandling/annotation/Query.java↔messaging/src/main/java/org/axonframework/messaging/queryhandling/annotation/QueryResponse.java</td>
+    </tr>
+    <tr>
+      <th>14</th>
       <td>java↔java</td>
       <td>Event↔QueryResponse</td>
       <td>54</td>
@@ -2799,7 +2814,7 @@ This is useful to identify pairs of files that score high in most metrics, which
       <td>messaging/src/main/java/org/axonframework/messaging/eventhandling/annotation/Event.java↔messaging/src/main/java/org/axonframework/messaging/queryhandling/annotation/QueryResponse.java</td>
     </tr>
     <tr>
-      <th>14</th>
+      <th>15</th>
       <td>java↔java</td>
       <td>Command↔QueryResponse</td>
       <td>54</td>
@@ -2812,21 +2827,6 @@ This is useful to identify pairs of files that score high in most metrics, which
       <td>1.000000</td>
       <td>569.000000</td>
       <td>messaging/src/main/java/org/axonframework/messaging/commandhandling/annotation/Command.java↔messaging/src/main/java/org/axonframework/messaging/queryhandling/annotation/QueryResponse.java</td>
-    </tr>
-    <tr>
-      <th>15</th>
-      <td>java↔java</td>
-      <td>Query↔QueryResponse</td>
-      <td>54</td>
-      <td>50</td>
-      <td>1</td>
-      <td>1</td>
-      <td>2</td>
-      <td>4</td>
-      <td>1.000000</td>
-      <td>1.000000</td>
-      <td>569.000000</td>
-      <td>messaging/src/main/java/org/axonframework/messaging/queryhandling/annotation/Query.java↔messaging/src/main/java/org/axonframework/messaging/queryhandling/annotation/QueryResponse.java</td>
     </tr>
     <tr>
       <th>16</th>
@@ -2861,21 +2861,6 @@ This is useful to identify pairs of files that score high in most metrics, which
     <tr>
       <th>18</th>
       <td>java↔java</td>
-      <td>GetterEvolverChildEntityFieldDefinitionTest↔GetterSetterChildEntityFieldDefinitionTest</td>
-      <td>54</td>
-      <td>51</td>
-      <td>1</td>
-      <td>1</td>
-      <td>1</td>
-      <td>3</td>
-      <td>1.000000</td>
-      <td>1.000000</td>
-      <td>758.666667</td>
-      <td>modelling/src/test/java/org/axonframework/modelling/entity/child/GetterEvolverChildEntityFieldDefinitionTest.java↔modelling/src/test/java/org/axonframework/modelling/entity/child/GetterSetterChildEntityFieldDefinitionTest.java</td>
-    </tr>
-    <tr>
-      <th>19</th>
-      <td>java↔java</td>
       <td>FieldChildEntityFieldDefinitionTest↔GetterSetterChildEntityFieldDefinitionTest</td>
       <td>54</td>
       <td>51</td>
@@ -2887,6 +2872,21 @@ This is useful to identify pairs of files that score high in most metrics, which
       <td>1.000000</td>
       <td>758.666667</td>
       <td>modelling/src/test/java/org/axonframework/modelling/entity/child/FieldChildEntityFieldDefinitionTest.java↔modelling/src/test/java/org/axonframework/modelling/entity/child/GetterSetterChildEntityFieldDefinitionTest.java</td>
+    </tr>
+    <tr>
+      <th>19</th>
+      <td>java↔java</td>
+      <td>GetterEvolverChildEntityFieldDefinitionTest↔GetterSetterChildEntityFieldDefinitionTest</td>
+      <td>54</td>
+      <td>51</td>
+      <td>1</td>
+      <td>1</td>
+      <td>1</td>
+      <td>3</td>
+      <td>1.000000</td>
+      <td>1.000000</td>
+      <td>758.666667</td>
+      <td>modelling/src/test/java/org/axonframework/modelling/entity/child/GetterEvolverChildEntityFieldDefinitionTest.java↔modelling/src/test/java/org/axonframework/modelling/entity/child/GetterSetterChildEntityFieldDefinitionTest.java</td>
     </tr>
     <tr>
       <th>20</th>
@@ -2996,21 +2996,6 @@ This is useful to identify pairs of files that score high in most metrics, which
     <tr>
       <th>27</th>
       <td>java↔md</td>
-      <td>AxonServerEventStorageEngine↔api-changes</td>
-      <td>68</td>
-      <td>9</td>
-      <td>16</td>
-      <td>15</td>
-      <td>28</td>
-      <td>34</td>
-      <td>0.350515</td>
-      <td>0.051750</td>
-      <td>1.343053</td>
-      <td>axon-server-connector/src/main/java/org/axonframework/axonserver/connector/event/AxonServerEventStorageEngine.java↔axon-5/api-changes.md</td>
-    </tr>
-    <tr>
-      <th>28</th>
-      <td>java↔md</td>
       <td>StorageEngineTestSuite↔api-changes</td>
       <td>68</td>
       <td>3</td>
@@ -3022,6 +3007,21 @@ This is useful to identify pairs of files that score high in most metrics, which
       <td>0.090305</td>
       <td>1.147807</td>
       <td>eventsourcing/src/test/java/org/axonframework/eventsourcing/eventstore/StorageEngineTestSuite.java↔axon-5/api-changes.md</td>
+    </tr>
+    <tr>
+      <th>28</th>
+      <td>java↔md</td>
+      <td>AxonServerEventStorageEngine↔api-changes</td>
+      <td>68</td>
+      <td>9</td>
+      <td>16</td>
+      <td>15</td>
+      <td>28</td>
+      <td>34</td>
+      <td>0.350515</td>
+      <td>0.051750</td>
+      <td>1.343053</td>
+      <td>axon-server-connector/src/main/java/org/axonframework/axonserver/connector/event/AxonServerEventStorageEngine.java↔axon-5/api-changes.md</td>
     </tr>
     <tr>
       <th>29</th>
@@ -3349,20 +3349,6 @@ The frontier = the “best tradeoffs.”
     </tr>
     <tr>
       <th>9</th>
-      <td>Event↔Query</td>
-      <td>54</td>
-      <td>4</td>
-      <td>1.000000</td>
-      <td>1.000000</td>
-      <td>569.000000</td>
-      <td>50</td>
-      <td>1</td>
-      <td>1</td>
-      <td>2</td>
-      <td>messaging/src/main/java/org/axonframework/messaging/eventhandling/annotation/Event.java↔messaging/src/main/java/org/axonframework/messaging/queryhandling/annotation/Query.java</td>
-    </tr>
-    <tr>
-      <th>10</th>
       <td>Command↔Query</td>
       <td>54</td>
       <td>4</td>
@@ -3376,7 +3362,35 @@ The frontier = the “best tradeoffs.”
       <td>messaging/src/main/java/org/axonframework/messaging/commandhandling/annotation/Command.java↔messaging/src/main/java/org/axonframework/messaging/queryhandling/annotation/Query.java</td>
     </tr>
     <tr>
+      <th>10</th>
+      <td>Event↔Query</td>
+      <td>54</td>
+      <td>4</td>
+      <td>1.000000</td>
+      <td>1.000000</td>
+      <td>569.000000</td>
+      <td>50</td>
+      <td>1</td>
+      <td>1</td>
+      <td>2</td>
+      <td>messaging/src/main/java/org/axonframework/messaging/eventhandling/annotation/Event.java↔messaging/src/main/java/org/axonframework/messaging/queryhandling/annotation/Query.java</td>
+    </tr>
+    <tr>
       <th>11</th>
+      <td>Query↔QueryResponse</td>
+      <td>54</td>
+      <td>4</td>
+      <td>1.000000</td>
+      <td>1.000000</td>
+      <td>569.000000</td>
+      <td>50</td>
+      <td>1</td>
+      <td>1</td>
+      <td>2</td>
+      <td>messaging/src/main/java/org/axonframework/messaging/queryhandling/annotation/Query.java↔messaging/src/main/java/org/axonframework/messaging/queryhandling/annotation/QueryResponse.java</td>
+    </tr>
+    <tr>
+      <th>12</th>
       <td>Event↔QueryResponse</td>
       <td>54</td>
       <td>4</td>
@@ -3390,7 +3404,7 @@ The frontier = the “best tradeoffs.”
       <td>messaging/src/main/java/org/axonframework/messaging/eventhandling/annotation/Event.java↔messaging/src/main/java/org/axonframework/messaging/queryhandling/annotation/QueryResponse.java</td>
     </tr>
     <tr>
-      <th>12</th>
+      <th>13</th>
       <td>Command↔QueryResponse</td>
       <td>54</td>
       <td>4</td>
@@ -3402,20 +3416,6 @@ The frontier = the “best tradeoffs.”
       <td>1</td>
       <td>2</td>
       <td>messaging/src/main/java/org/axonframework/messaging/commandhandling/annotation/Command.java↔messaging/src/main/java/org/axonframework/messaging/queryhandling/annotation/QueryResponse.java</td>
-    </tr>
-    <tr>
-      <th>13</th>
-      <td>Query↔QueryResponse</td>
-      <td>54</td>
-      <td>4</td>
-      <td>1.000000</td>
-      <td>1.000000</td>
-      <td>569.000000</td>
-      <td>50</td>
-      <td>1</td>
-      <td>1</td>
-      <td>2</td>
-      <td>messaging/src/main/java/org/axonframework/messaging/queryhandling/annotation/Query.java↔messaging/src/main/java/org/axonframework/messaging/queryhandling/annotation/QueryResponse.java</td>
     </tr>
     <tr>
       <th>14</th>
@@ -3461,20 +3461,6 @@ The frontier = the “best tradeoffs.”
     </tr>
     <tr>
       <th>17</th>
-      <td>GetterEvolverChildEntityFieldDefinitionTest↔GetterSetterChildEntityFieldDefinitionTest</td>
-      <td>54</td>
-      <td>3</td>
-      <td>1.000000</td>
-      <td>1.000000</td>
-      <td>758.666667</td>
-      <td>51</td>
-      <td>1</td>
-      <td>1</td>
-      <td>1</td>
-      <td>modelling/src/test/java/org/axonframework/modelling/entity/child/GetterEvolverChildEntityFieldDefinitionTest.java↔modelling/src/test/java/org/axonframework/modelling/entity/child/GetterSetterChildEntityFieldDefinitionTest.java</td>
-    </tr>
-    <tr>
-      <th>18</th>
       <td>FieldChildEntityFieldDefinitionTest↔GetterSetterChildEntityFieldDefinitionTest</td>
       <td>54</td>
       <td>3</td>
@@ -3486,6 +3472,20 @@ The frontier = the “best tradeoffs.”
       <td>1</td>
       <td>1</td>
       <td>modelling/src/test/java/org/axonframework/modelling/entity/child/FieldChildEntityFieldDefinitionTest.java↔modelling/src/test/java/org/axonframework/modelling/entity/child/GetterSetterChildEntityFieldDefinitionTest.java</td>
+    </tr>
+    <tr>
+      <th>18</th>
+      <td>GetterEvolverChildEntityFieldDefinitionTest↔GetterSetterChildEntityFieldDefinitionTest</td>
+      <td>54</td>
+      <td>3</td>
+      <td>1.000000</td>
+      <td>1.000000</td>
+      <td>758.666667</td>
+      <td>51</td>
+      <td>1</td>
+      <td>1</td>
+      <td>1</td>
+      <td>modelling/src/test/java/org/axonframework/modelling/entity/child/GetterEvolverChildEntityFieldDefinitionTest.java↔modelling/src/test/java/org/axonframework/modelling/entity/child/GetterSetterChildEntityFieldDefinitionTest.java</td>
     </tr>
     <tr>
       <th>19</th>

@@ -51,7 +51,7 @@ strict digraph TopBottleneck2 {
 	"PooledStreamingEventProcessor_33411"  [label = "PooledStreamingEventProcessor\n(300.0)"; penwidth = 2; ]; "PooledStreamingEventProcessor_33411" -> central [label=5; weight=5; penwidth=0.5];
 	"SubscribingEventProcessor_34676"  [label = "SubscribingEventProcessor\n(514.07)"; penwidth = 5; ]; "SubscribingEventProcessor_34676" -> central [label=5; weight=5; penwidth=0.5];
 	"AnnotatedEntityMetamodel_11459"  [label = "AnnotatedEntityMetamodel\n(3168.92)"; penwidth = 5; ]; "AnnotatedEntityMetamodel_11459" -> central [label=4; weight=4; penwidth=0.5];
-	"DefaultEventStoreTransaction_16413"  [label = "DefaultEventStoreTransaction\n(4.83)"; penwidth = 2; ]; "DefaultEventStoreTransaction_16413" -> central [label=4; weight=4; penwidth=0.5];
+	"DefaultEventStoreTransaction_16414"  [label = "DefaultEventStoreTransaction\n(4.83)"; penwidth = 2; ]; "DefaultEventStoreTransaction_16414" -> central [label=4; weight=4; penwidth=0.5];
 	"EmptyMessageStream_41983"  [label = "EmptyMessageStream\n(334.35)"; penwidth = 2; ]; "EmptyMessageStream_41983" -> central [label=4; weight=4; penwidth=0.5];
 	"FailedMessageStream_43639"  [label = "FailedMessageStream\n(0.0)"; penwidth = 2; ]; "FailedMessageStream_43639" -> central [label=4; weight=4; penwidth=0.5];
 	"Message_25595"  [label = "Message\n(9904.7)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "Message_25595" [label=25; weight=25; penwidth=0.8; color = 5];
@@ -104,7 +104,7 @@ strict digraph TopBottleneck2 {
 	"AnnotatedEntityMetamodel_11459" -> "MessageStream$Single_26541" [label=5; weight=5; penwidth=0.3; color = 3]
 	"BeanValidationInterceptor_42686" -> "Message_25595" [label=5; weight=5; penwidth=0.3; color = 3]
 	"CloseCallbackMessageStream_41996" -> "DelegatingMessageStream_38872" [label=5; weight=5; penwidth=0.3; color = 3]
-	"DefaultEventStoreTransaction_16413" -> "MessageStream$Entry_26505" [label=5; weight=5; penwidth=0.3; color = 3]
+	"DefaultEventStoreTransaction_16414" -> "MessageStream$Entry_26505" [label=5; weight=5; penwidth=0.3; color = 3]
 	"DelayedMessageStream_36742" -> "DelayedMessageStream$Single_39715" [label=5; weight=5; penwidth=0.3; color = 3]
 	"EmptyMessageStream_41983" -> "MessageStream$Entry_26505" [label=5; weight=5; penwidth=0.3; color = 3]
 	"IgnoredEntriesMessageStream_43640" -> "Message_25595" [label=5; weight=5; penwidth=0.3; color = 3]
@@ -151,9 +151,9 @@ strict digraph TopBottleneck2 {
 	"SingleValueMessageStream_43642" -> "MessageStream$Single_26541" [label=3; weight=3; penwidth=0.3; color = 3]
 	"TruncateFirstMessageStream_39871" -> "MessageStream$Entry_26505" [label=3; weight=3; penwidth=0.3; color = 3]
 	"AggregateBasedAxonServerEventStorageEngine_8418" -> "MessageStream$Empty_26508" [label=2; weight=2; penwidth=0.3; color = 3]
-	"AggregateBasedJpaEventStorageEngine_17760" -> "MessageStream$Entry_26505" [label=2; weight=2; penwidth=0.3; color = 3]
-	"AggregateBasedJpaEventStorageEngine_17760" -> "SimpleEntry_41522" [label=2; weight=2; penwidth=0.3; color = 3]
 	"AggregateBasedJpaEventStorageEngine_17760" -> "MessageStream$Empty_26508" [label=2; weight=2; penwidth=0.3; color = 3]
+	"AggregateBasedJpaEventStorageEngine_17760" -> "SimpleEntry_41522" [label=2; weight=2; penwidth=0.3; color = 3]
+	"AggregateBasedJpaEventStorageEngine_17760" -> "MessageStream$Entry_26505" [label=2; weight=2; penwidth=0.3; color = 3]
 	"AsyncRetryScheduler$RetryTask_45026" -> "MessageStream$Entry_26505" [label=2; weight=2; penwidth=0.3; color = 3]
 	"CompletionCallbackMessageStream_42712" -> "DelegatingMessageStream_38872" [label=2; weight=2; penwidth=0.3; color = 3]
 	"DefaultMessageDispatchInterceptorChain_26506" -> "Message_25595" [label=2; weight=2; penwidth=0.3; color = 3]

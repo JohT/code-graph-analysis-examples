@@ -14,6 +14,6 @@ strict digraph TopBridge1 {
 
 	graph   [label="Top Rank #1 Java Package Bridge\norg.axonframework.common.io\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
 	central [label="🌉 bridge #1\nio"];
-	"jpa_14820" [label = "jpa"; ]; "jpa_14820" -> central [label=2; weight=2; penwidth=0.4];
+	"jpa_14819" [label = "jpa"; ]; "jpa_14819" -> central [label=2; weight=2; penwidth=0.4];
 	"util_837" [label = "util"; ]; "util_837" -> central [label=2; weight=2; penwidth=0.4];
 }

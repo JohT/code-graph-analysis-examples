@@ -12,43 +12,19 @@ strict digraph TopBridge1 {
     central [fontsize = 16;];
     central [color = 7; fillcolor = 5; penwidth = 3;];
 
-	graph   [label="Top Rank #1 Java Type Bridge\norg.axonframework.messaging.eventstreaming.AnyEvent\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
-	central [label="🌉 bridge #1\nAnyEvent"];
-	"EventCriteria_32196" [label = "EventCriteria"; ]; "EventCriteria_32196" -> central [label=2; weight=2; penwidth=0.4];
-	"OrEventCriteria_35708" [label = "OrEventCriteria"; ]; "OrEventCriteria_35708" -> central [label=1; weight=1; penwidth=0.4];
-	"TagAndTypeFilteredEventCriteria_35735" [label = "TagAndTypeFilteredEventCriteria"; ]; "TagAndTypeFilteredEventCriteria_35735" -> central [label=1; weight=1; penwidth=0.4];
-	"TagFilteredEventCriteria_35724" [label = "TagFilteredEventCriteria"; ]; "TagFilteredEventCriteria_35724" -> central [label=1; weight=1; penwidth=0.4];
-	"EventCriteria_32196" [label = "EventCriteria"; color = 5; fillcolor = 1; ]; central -> "EventCriteria_32196" [label=4; weight=4; penwidth=0.5; color = 5];
-	"QualifiedName_26517" [label = "QualifiedName"; color = 5; fillcolor = 1; ]; central -> "QualifiedName_26517" [label=2; weight=2; penwidth=0.4; color = 5];
-	"TagAndTypeFilteredEventCriteria_35735" [label = "TagAndTypeFilteredEventCriteria"; color = 5; fillcolor = 1; ]; central -> "TagAndTypeFilteredEventCriteria_35735" [label=2; weight=2; penwidth=0.4; color = 5];
-	"EventCriterion_35714" [label = "EventCriterion"; color = 5; fillcolor = 1; ]; central -> "EventCriterion_35714" [label=1; weight=1; penwidth=0.4; color = 5];
-	"EventTypeRestrictableEventCriteria_32202" [label = "EventTypeRestrictableEventCriteria"; color = 5; fillcolor = 1; ]; central -> "EventTypeRestrictableEventCriteria_32202" [label=1; weight=1; penwidth=0.4; color = 5];
-	"Tag_35723" [label = "Tag"; color = 5; fillcolor = 1; ]; central -> "Tag_35723" [label=1; weight=1; penwidth=0.4; color = 5];
-	"OrEventCriteria_35708" -> "EventCriteria_32196" [label=12; weight=12; penwidth=0.3; color = 3]
-	"EventTypeRestrictableEventCriteria_32202" -> "EventCriteria_32196" [label=6; weight=6; penwidth=0.3; color = 3]
-	"EventCriteria_32196" -> "Tag_35723" [label=5; weight=5; penwidth=0.3; color = 3]
-	"TagAndTypeFilteredEventCriteria_35735" -> "Tag_35723" [label=5; weight=5; penwidth=0.3; color = 3]
-	"TagAndTypeFilteredEventCriteria_35735" -> "OrEventCriteria_35708" [label=5; weight=5; penwidth=0.3; color = 3]
-	"TagAndTypeFilteredEventCriteria_35735" -> "QualifiedName_26517" [label=5; weight=5; penwidth=0.3; color = 3]
-	"TagFilteredEventCriteria_35724" -> "Tag_35723" [label=5; weight=5; penwidth=0.3; color = 3]
-	"TagFilteredEventCriteria_35724" -> "EventCriteria_32196" [label=5; weight=5; penwidth=0.3; color = 3]
-	"TagFilteredEventCriteria_35724" -> "OrEventCriteria_35708" [label=5; weight=5; penwidth=0.3; color = 3]
-	"EventCriteria_32196" -> "EventTypeRestrictableEventCriteria_32202" [label=4; weight=4; penwidth=0.3; color = 3]
-	"EventCriteria_32196" -> "OrEventCriteria_35708" [label=4; weight=4; penwidth=0.3; color = 3]
-	"TagAndTypeFilteredEventCriteria_35735" -> "EventCriteria_32196" [label=4; weight=4; penwidth=0.3; color = 3]
-	"EventTypeRestrictableEventCriteria_32202" -> "QualifiedName_26517" [label=3; weight=3; penwidth=0.3; color = 3]
-	"TagFilteredEventCriteria_35724" -> "QualifiedName_26517" [label=3; weight=3; penwidth=0.3; color = 3]
-	"EventCriteria_32196" -> "TagFilteredEventCriteria_35724" [label=2; weight=2; penwidth=0.3; color = 3]
-	"OrEventCriteria_35708" -> "QualifiedName_26517" [label=2; weight=2; penwidth=0.3; color = 3]
-	"TagAndTypeFilteredEventCriteria_35735" -> "EventCriterion_35714" [label=2; weight=2; penwidth=0.3; color = 3]
-	"TagFilteredEventCriteria_35724" -> "EventCriterion_35714" [label=2; weight=2; penwidth=0.3; color = 3]
-	"TagFilteredEventCriteria_35724" -> "TagAndTypeFilteredEventCriteria_35735" [label=2; weight=2; penwidth=0.3; color = 3]
-	"EventCriteria_32196" -> "EventCriterion_35714" [label=1; weight=1; penwidth=0.3; color = 3]
-	"EventCriteria_32196" -> "QualifiedName_26517" [label=1; weight=1; penwidth=0.3; color = 3]
-	"EventCriterion_35714" -> "EventCriteria_32196" [label=1; weight=1; penwidth=0.3; color = 3]
-	"EventCriterion_35714" -> "QualifiedName_26517" [label=1; weight=1; penwidth=0.3; color = 3]
-	"EventCriterion_35714" -> "Tag_35723" [label=1; weight=1; penwidth=0.3; color = 3]
-	"OrEventCriteria_35708" -> "EventCriterion_35714" [label=1; weight=1; penwidth=0.3; color = 3]
-	"OrEventCriteria_35708" -> "Tag_35723" [label=1; weight=1; penwidth=0.3; color = 3]
-	"TagFilteredEventCriteria_35724" -> "EventTypeRestrictableEventCriteria_32202" [label=1; weight=1; penwidth=0.3; color = 3]
+	graph   [label="Top Rank #1 Java Type Bridge\norg.axonframework.common.caching.Cache\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
+	central [label="🌉 bridge #1\nCache"];
+	"AbstractCacheAdapter_1649" [label = "AbstractCacheAdapter"; ]; "AbstractCacheAdapter_1649" -> central [label=1; weight=1; penwidth=0.4];
+	"NoCache_2501" [label = "NoCache"; ]; "NoCache_2501" -> central [label=1; weight=1; penwidth=0.4];
+	"WeakReferenceCache_2499" [label = "WeakReferenceCache"; ]; "WeakReferenceCache_2499" -> central [label=1; weight=1; penwidth=0.4];
+	"Cache$EntryListener_2092" [label = "Cache$\nEntryListener"; color = 5; fillcolor = 1; ]; central -> "Cache$EntryListener_2092" [label=2; weight=2; penwidth=0.4; color = 5];
+	"Cache$EntryListenerAdapter_1605" [label = "Cache$\nEntryListenerAdapter"; color = 5; fillcolor = 1; ]; central -> "Cache$EntryListenerAdapter_1605" [label=1; weight=1; penwidth=0.4; color = 5];
+	"Registration_2091" [label = "Registration"; color = 5; fillcolor = 1; ]; central -> "Registration_2091" [label=1; weight=1; penwidth=0.4; color = 5];
+	"WeakReferenceCache_2499" -> "Cache$EntryListener_2092" [label=24; weight=24; penwidth=0.3; color = 3]
+	"AbstractCacheAdapter_1649" -> "Cache$EntryListener_2092" [label=5; weight=5; penwidth=0.3; color = 3]
+	"AbstractCacheAdapter_1649" -> "Registration_2091" [label=4; weight=4; penwidth=0.3; color = 3]
+	"Cache$EntryListenerAdapter_1605" -> "Cache$EntryListener_2092" [label=2; weight=2; penwidth=0.3; color = 3]
+	"NoCache_2501" -> "Cache$EntryListener_2092" [label=2; weight=2; penwidth=0.3; color = 3]
+	"NoCache_2501" -> "Registration_2091" [label=1; weight=1; penwidth=0.3; color = 3]
+	"WeakReferenceCache_2499" -> "Registration_2091" [label=1; weight=1; penwidth=0.3; color = 3]
 }

@@ -16,7 +16,7 @@ strict digraph TopAuthority4 {
 	central [label="🏛️ authority #4\nDescribableComponent"];
 	"FilesystemStyleComponentDescriptor_2714"  [label = "FilesystemStyleComponentDescriptor\n(0.27%)"; penwidth = 2; ]; "FilesystemStyleComponentDescriptor_2714" -> central [label=12; weight=12; penwidth=0.6];
 	"JacksonComponentDescriptor_2715"  [label = "JacksonComponentDescriptor\n(0.0%)"; penwidth = 5; ]; "JacksonComponentDescriptor_2715" -> central [label=9; weight=9; penwidth=0.5];
-	"AccessSerializingRepository_14723"  [label = "AccessSerializingRepository\n(0.0%)"; penwidth = 5; ]; "AccessSerializingRepository_14723" -> central [label=1; weight=1; penwidth=0.4];
+	"AccessSerializingRepository_14506"  [label = "AccessSerializingRepository\n(0.0%)"; penwidth = 5; ]; "AccessSerializingRepository_14506" -> central [label=1; weight=1; penwidth=0.4];
 	"AnnotatedEntityIdResolver_10882"  [label = "AnnotatedEntityIdResolver\n(0.08%)"; penwidth = 2; ]; "AnnotatedEntityIdResolver_10882" -> central [label=1; weight=1; penwidth=0.4];
 	"AnnotatedEntityMetamodel_11459"  [label = "AnnotatedEntityMetamodel\n(1.62%)"; penwidth = 2; ]; "AnnotatedEntityMetamodel_11459" -> central [label=1; weight=1; penwidth=0.4];
 	"AnnotationBasedEventCriteriaResolver_15763"  [label = "AnnotationBasedEventCriteriaResolver\n(0.3%)"; penwidth = 2; ]; "AnnotationBasedEventCriteriaResolver_15763" -> central [label=1; weight=1; penwidth=0.4];
@@ -42,7 +42,7 @@ strict digraph TopAuthority4 {
 	"EventProcessorConfiguration_32192"  [label = "EventProcessorConfiguration\n(1.27%)"; penwidth = 2; ]; "EventProcessorConfiguration_32192" -> central [label=1; weight=1; penwidth=0.4];
 	"EventSink_29323"  [label = "EventSink\n(1.06%)"; penwidth = 2; ]; "EventSink_29323" -> central [label=1; weight=1; penwidth=0.4];
 	"EventStorageEngine_16825"  [label = "EventStorageEngine\n(0.18%)"; penwidth = 2; ]; "EventStorageEngine_16825" -> central [label=1; weight=1; penwidth=0.4];
-	"EventStore_14870"  [label = "EventStore\n(0.36%)"; penwidth = 2; ]; "EventStore_14870" -> central [label=1; weight=1; penwidth=0.4];
+	"EventStore_14869"  [label = "EventStore\n(0.36%)"; penwidth = 2; ]; "EventStore_14869" -> central [label=1; weight=1; penwidth=0.4];
 	"EventSubscribers_29399"  [label = "EventSubscribers\n(0.07%)"; penwidth = 2; ]; "EventSubscribers_29399" -> central [label=1; weight=1; penwidth=0.4];
 	"FieldChildEntityFieldDefinition_12555"  [label = "FieldChildEntityFieldDefinition\n(1.03%)"; penwidth = 5; ]; "FieldChildEntityFieldDefinition_12555" -> central [label=1; weight=1; penwidth=0.4];
 	"HandlerInterceptorRegistry_35721"  [label = "HandlerInterceptorRegistry\n(0.23%)"; penwidth = 2; ]; "HandlerInterceptorRegistry_35721" -> central [label=1; weight=1; penwidth=0.4];
@@ -81,7 +81,7 @@ strict digraph TopAuthority4 {
 	"FilesystemStyleComponentDescriptor_2714" -> "Component_2876" [label=3; weight=3; penwidth=0.3; color = 3]
 	"HandlerInterceptorRegistry_35721" -> "Configuration_3285" [label=3; weight=3; penwidth=0.3; color = 3]
 	"JacksonComponentDescriptor_2715" -> "Component_2876" [label=3; weight=3; penwidth=0.3; color = 3]
-	"AccessSerializingRepository_14723" -> "ComponentDescriptor_3148" [label=2; weight=2; penwidth=0.3; color = 3]
+	"AccessSerializingRepository_14506" -> "ComponentDescriptor_3148" [label=2; weight=2; penwidth=0.3; color = 3]
 	"CommandDispatcher_26543" -> "CommandGateway_28370" [label=2; weight=2; penwidth=0.3; color = 3]
 	"Component_2876" -> "Configuration_3285" [label=2; weight=2; penwidth=0.3; color = 3]
 	"Components_3729" -> "ComponentDescriptor_3148" [label=2; weight=2; penwidth=0.3; color = 3]
@@ -93,9 +93,9 @@ strict digraph TopAuthority4 {
 	"ComponentFactory_3730" -> "Configuration_3285" [label=1; weight=1; penwidth=0.3; color = 3]
 	"ComponentRegistry_3283" -> "ComponentFactory_3730" [label=1; weight=1; penwidth=0.3; color = 3]
 	"ConcreteEntityMetamodel_12586" -> "EntityMetamodel_10874" [label=1; weight=1; penwidth=0.3; color = 3]
-	"EntityMetamodel_10874" -> "ConcreteEntityMetamodel_12586" [label=1; weight=1; penwidth=0.3; color = 3]
 	"EntityMetamodel_10874" -> "PolymorphicEntityMetamodel_10900" [label=1; weight=1; penwidth=0.3; color = 3]
+	"EntityMetamodel_10874" -> "ConcreteEntityMetamodel_12586" [label=1; weight=1; penwidth=0.3; color = 3]
 	"EventBus_30415" -> "EventSink_29323" [label=1; weight=1; penwidth=0.3; color = 3]
-	"EventStore_14870" -> "EventBus_30415" [label=1; weight=1; penwidth=0.3; color = 3]
+	"EventStore_14869" -> "EventBus_30415" [label=1; weight=1; penwidth=0.3; color = 3]
 	"JacksonComponentDescriptor_2715" -> "ComponentDescriptor_3148" [label=1; weight=1; penwidth=0.3; color = 3]
 }

@@ -12,13 +12,10 @@ strict digraph TopBridge5 {
     central [fontsize = 16;];
     central [color = 7; fillcolor = 5; penwidth = 3;];
 
-	graph   [label="Top Rank #5 Java Type Bridge\norg.axonframework.common.lifecycle.ShutdownLatch\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
-	central [label="🌉 bridge #5\nShutdownLatch"];
-	"AxonServerQueryBusConnector_7232" [label = "AxonServerQueryBusConnector"; ]; "AxonServerQueryBusConnector_7232" -> central [label=9; weight=9; penwidth=0.5];
-	"AxonServerCommandBusConnector_7261" [label = "AxonServerCommandBusConnector"; ]; "AxonServerCommandBusConnector_7261" -> central [label=7; weight=7; penwidth=0.5];
-	"ShutdownLatch$ActivityHandle_2718" [label = "ShutdownLatch$\nActivityHandle"; ]; "ShutdownLatch$ActivityHandle_2718" -> central [label=4; weight=4; penwidth=0.5];
-	"ShutdownInProgressException_3151" [label = "ShutdownInProgressException"; color = 5; fillcolor = 1; ]; central -> "ShutdownInProgressException_3151" [label=5; weight=5; penwidth=0.5; color = 5];
-	"ShutdownLatch$ActivityHandle_2718" [label = "ShutdownLatch$\nActivityHandle"; color = 5; fillcolor = 1; ]; central -> "ShutdownLatch$ActivityHandle_2718" [label=4; weight=4; penwidth=0.5; color = 5];
-	"AxonServerQueryBusConnector_7232" -> "ShutdownLatch$ActivityHandle_2718" [label=7; weight=7; penwidth=0.3; color = 3]
-	"AxonServerCommandBusConnector_7261" -> "ShutdownLatch$ActivityHandle_2718" [label=5; weight=5; penwidth=0.3; color = 3]
+	graph   [label="Top Rank #5 Java Type Bridge\norg.axonframework.extension.springboot.autoconfig.AvroSchemaStoreAutoConfiguration$AvroConfiguredCondition$EventsAvroCondition\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
+	central [label="🌉 bridge #5\nAvroSchemaStoreAutoConfiguration$AvroConfiguredCondition$EventsAvroCondition"];
+	"AvroSchemaStoreAutoConfiguration_23016" [label = "AvroSchemaStoreAutoConfiguration"; ]; "AvroSchemaStoreAutoConfiguration_23016" -> central [label=1; weight=1; penwidth=0.4];
+	"AvroSchemaStoreAutoConfiguration$AvroConfiguredCondition_22803" [label = "AvroSchemaStoreAutoConfiguration$\nAvroConfiguredCondition"; ]; "AvroSchemaStoreAutoConfiguration$AvroConfiguredCondition_22803" -> central [label=1; weight=1; penwidth=0.4];
+	"AvroSchemaStoreAutoConfiguration$AvroConfiguredCondition_22803" [label = "AvroSchemaStoreAutoConfiguration$\nAvroConfiguredCondition"; color = 5; fillcolor = 1; ]; central -> "AvroSchemaStoreAutoConfiguration$AvroConfiguredCondition_22803" [label=1; weight=1; penwidth=0.4; color = 5];
+	"AvroSchemaStoreAutoConfiguration_23016" -> "AvroSchemaStoreAutoConfiguration$AvroConfiguredCondition_22803" [label=4; weight=4; penwidth=0.3; color = 3]
 }
