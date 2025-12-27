@@ -1,0 +1,7 @@
+"projectName","shortCodeUnitName","codeUnitName","nodeEmbeddingTop3SHAPValueSum","rank","Source Cypher File: /home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/domains/anomaly-detection/labels/AnomalyDetectionArchetypeBridge.cypher"
+"axon-common-5.0.1","io","org.axonframework.common.io",-0.38850903108579704,1,""
+"axon-common-5.0.1","annotation","org.axonframework.common.annotation",-0.17585892435565953,2,""
+"axon-common-5.0.1","common","org.axonframework.common",-0.15010882346593982,3,""
+"axon-common-5.0.1","configuration","org.axonframework.common.configuration",-0.07969988238861796,4,""
+"axon-messaging-5.0.1","core","org.axonframework.messaging.core",-0.07100009893265816,5,""
+"axon-messaging-5.0.1","unitofwork","org.axonframework.messaging.core.unitofwork",-0.05404610263811067,6,""
