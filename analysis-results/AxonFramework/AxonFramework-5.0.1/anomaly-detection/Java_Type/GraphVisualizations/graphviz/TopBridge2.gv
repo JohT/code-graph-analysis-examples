@@ -12,26 +12,16 @@ strict digraph TopBridge2 {
     central [fontsize = 16;];
     central [color = 7; fillcolor = 5; penwidth = 3;];
 
-	graph   [label="Top Rank #2 Java Type Bridge\norg.axonframework.update.api.UpdateCheckResponse\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
-	central [label="🌉 bridge #2\nUpdateCheckResponse"];
-	"LoggingUpdateCheckerReporter_50587" [label = "LoggingUpdateCheckerReporter"; ]; "LoggingUpdateCheckerReporter_50587" -> central [label=10; weight=10; penwidth=0.6];
-	"UpdateChecker_50579" [label = "UpdateChecker"; ]; "UpdateChecker_50579" -> central [label=2; weight=2; penwidth=0.4];
-	"UpdateCheckerHttpClient_50580" [label = "UpdateCheckerHttpClient"; ]; "UpdateCheckerHttpClient_50580" -> central [label=2; weight=2; penwidth=0.4];
-	"UpdateCheckerReporter_50844" [label = "UpdateCheckerReporter"; ]; "UpdateCheckerReporter_50844" -> central [label=1; weight=1; penwidth=0.4];
-	"DetectedVulnerability_51276" [label = "DetectedVulnerability"; color = 5; fillcolor = 1; ]; central -> "DetectedVulnerability_51276" [label=7; weight=7; penwidth=0.5; color = 5];
-	"ArtifactAvailableUpgrade_51277" [label = "ArtifactAvailableUpgrade"; color = 5; fillcolor = 1; ]; central -> "ArtifactAvailableUpgrade_51277" [label=6; weight=6; penwidth=0.5; color = 5];
-	"DetectedVulnerabilitySeverity_51378" [label = "DetectedVulnerabilitySeverity"; color = 5; fillcolor = 1; ]; central -> "DetectedVulnerabilitySeverity_51378" [label=3; weight=3; penwidth=0.4; color = 5];
-	"Internal_1045" [label = "Internal"; color = 5; fillcolor = 1; ]; central -> "Internal_1045" [label=1; weight=1; penwidth=0.4; color = 5];
-	"LoggingUpdateCheckerReporter_50587" -> "DetectedVulnerability_51276" [label=12; weight=12; penwidth=0.3; color = 3]
-	"LoggingUpdateCheckerReporter_50587" -> "ArtifactAvailableUpgrade_51277" [label=6; weight=6; penwidth=0.3; color = 3]
-	"UpdateChecker_50579" -> "UpdateCheckerReporter_50844" [label=4; weight=4; penwidth=0.3; color = 3]
-	"UpdateChecker_50579" -> "UpdateCheckerHttpClient_50580" [label=4; weight=4; penwidth=0.3; color = 3]
-	"DetectedVulnerability_51276" -> "DetectedVulnerabilitySeverity_51378" [label=3; weight=3; penwidth=0.3; color = 3]
-	"LoggingUpdateCheckerReporter_50587" -> "DetectedVulnerabilitySeverity_51378" [label=2; weight=2; penwidth=0.3; color = 3]
-	"ArtifactAvailableUpgrade_51277" -> "Internal_1045" [label=1; weight=1; penwidth=0.3; color = 3]
-	"DetectedVulnerability_51276" -> "Internal_1045" [label=1; weight=1; penwidth=0.3; color = 3]
-	"DetectedVulnerabilitySeverity_51378" -> "Internal_1045" [label=1; weight=1; penwidth=0.3; color = 3]
-	"LoggingUpdateCheckerReporter_50587" -> "UpdateCheckerReporter_50844" [label=1; weight=1; penwidth=0.3; color = 3]
-	"UpdateChecker_50579" -> "Internal_1045" [label=1; weight=1; penwidth=0.3; color = 3]
-	"UpdateCheckerHttpClient_50580" -> "Internal_1045" [label=1; weight=1; penwidth=0.3; color = 3]
+	graph   [label="Top Rank #2 Java Type Bridge\norg.axonframework.extension.springboot.autoconfig.AxonTimeoutAutoConfiguration\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
+	central [label="🌉 bridge #2\nAxonTimeoutAutoConfiguration"];
+	"TimeoutProperties_22795" [label = "TimeoutProperties"; color = 5; fillcolor = 1; ]; central -> "TimeoutProperties_22795" [label=5; weight=5; penwidth=0.5; color = 5];
+	"AxonTimeoutAutoConfiguration$AxonTimeoutConfigurerModule_22797" [label = "AxonTimeoutAutoConfiguration$\nAxonTimeoutConfigurerModule"; color = 5; fillcolor = 1; ]; central -> "AxonTimeoutAutoConfiguration$AxonTimeoutConfigurerModule_22797" [label=3; weight=3; penwidth=0.4; color = 5];
+	"HandlerTimeoutHandlerEnhancerDefinition_46201" [label = "HandlerTimeoutHandlerEnhancerDefinition"; color = 5; fillcolor = 1; ]; central -> "HandlerTimeoutHandlerEnhancerDefinition_46201" [label=3; weight=3; penwidth=0.4; color = 5];
+	"TimeoutProperties$MessageHandlerTimeoutProperties_23034" [label = "TimeoutProperties$\nMessageHandlerTimeoutProperties"; color = 5; fillcolor = 1; ]; central -> "TimeoutProperties$MessageHandlerTimeoutProperties_23034" [label=2; weight=2; penwidth=0.4; color = 5];
+	"ConfigurationEnhancer_4582" [label = "ConfigurationEnhancer"; color = 5; fillcolor = 1; ]; central -> "ConfigurationEnhancer_4582" [label=1; weight=1; penwidth=0.4; color = 5];
+	"TimeoutProperties$TransactionTimeoutProperties_22798" [label = "TimeoutProperties$\nTransactionTimeoutProperties"; color = 5; fillcolor = 1; ]; central -> "TimeoutProperties$TransactionTimeoutProperties_22798" [label=1; weight=1; penwidth=0.4; color = 5];
+	"AxonTimeoutAutoConfiguration$AxonTimeoutConfigurerModule_22797" -> "TimeoutProperties$TransactionTimeoutProperties_22798" [label=12; weight=12; penwidth=0.3; color = 3]
+	"TimeoutProperties_22795" -> "TimeoutProperties$MessageHandlerTimeoutProperties_23034" [label=6; weight=6; penwidth=0.3; color = 3]
+	"TimeoutProperties_22795" -> "TimeoutProperties$TransactionTimeoutProperties_22798" [label=6; weight=6; penwidth=0.3; color = 3]
+	"AxonTimeoutAutoConfiguration$AxonTimeoutConfigurerModule_22797" -> "ConfigurationEnhancer_4582" [label=1; weight=1; penwidth=0.3; color = 3]
 }
