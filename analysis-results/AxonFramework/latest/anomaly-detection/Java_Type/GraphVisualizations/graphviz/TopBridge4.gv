@@ -12,10 +12,15 @@ strict digraph TopBridge4 {
     central [fontsize = 16;];
     central [color = 7; fillcolor = 5; penwidth = 3;];
 
-	graph   [label="Top Rank #4 Java Type Bridge\norg.axonframework.extension.springboot.autoconfig.AvroSchemaStoreAutoConfiguration$AvroConfiguredCondition$MessagesAvroCondition\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
-	central [label="🌉 bridge #4\nAvroSchemaStoreAutoConfiguration$AvroConfiguredCondition$MessagesAvroCondition"];
-	"AvroSchemaStoreAutoConfiguration_23016" [label = "AvroSchemaStoreAutoConfiguration"; ]; "AvroSchemaStoreAutoConfiguration_23016" -> central [label=1; weight=1; penwidth=0.4];
-	"AvroSchemaStoreAutoConfiguration$AvroConfiguredCondition_22803" [label = "AvroSchemaStoreAutoConfiguration$\nAvroConfiguredCondition"; ]; "AvroSchemaStoreAutoConfiguration$AvroConfiguredCondition_22803" -> central [label=1; weight=1; penwidth=0.4];
-	"AvroSchemaStoreAutoConfiguration$AvroConfiguredCondition_22803" [label = "AvroSchemaStoreAutoConfiguration$\nAvroConfiguredCondition"; color = 5; fillcolor = 1; ]; central -> "AvroSchemaStoreAutoConfiguration$AvroConfiguredCondition_22803" [label=1; weight=1; penwidth=0.4; color = 5];
-	"AvroSchemaStoreAutoConfiguration_23016" -> "AvroSchemaStoreAutoConfiguration$AvroConfiguredCondition_22803" [label=4; weight=4; penwidth=0.3; color = 3]
+	graph   [label="Top Rank #4 Java Type Bridge\norg.axonframework.update.api.DetectedVulnerability\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
+	central [label="🌉 bridge #4\nDetectedVulnerability"];
+	"LoggingUpdateCheckerReporter_50587" [label = "LoggingUpdateCheckerReporter"; ]; "LoggingUpdateCheckerReporter_50587" -> central [label=12; weight=12; penwidth=0.6];
+	"UpdateCheckResponse_51273" [label = "UpdateCheckResponse"; ]; "UpdateCheckResponse_51273" -> central [label=7; weight=7; penwidth=0.5];
+	"DetectedVulnerabilitySeverity_51378" [label = "DetectedVulnerabilitySeverity"; color = 5; fillcolor = 1; ]; central -> "DetectedVulnerabilitySeverity_51378" [label=3; weight=3; penwidth=0.4; color = 5];
+	"Internal_1045" [label = "Internal"; color = 5; fillcolor = 1; ]; central -> "Internal_1045" [label=1; weight=1; penwidth=0.4; color = 5];
+	"LoggingUpdateCheckerReporter_50587" -> "UpdateCheckResponse_51273" [label=10; weight=10; penwidth=0.3; color = 3]
+	"UpdateCheckResponse_51273" -> "DetectedVulnerabilitySeverity_51378" [label=3; weight=3; penwidth=0.3; color = 3]
+	"LoggingUpdateCheckerReporter_50587" -> "DetectedVulnerabilitySeverity_51378" [label=2; weight=2; penwidth=0.3; color = 3]
+	"DetectedVulnerabilitySeverity_51378" -> "Internal_1045" [label=1; weight=1; penwidth=0.3; color = 3]
+	"UpdateCheckResponse_51273" -> "Internal_1045" [label=1; weight=1; penwidth=0.3; color = 3]
 }

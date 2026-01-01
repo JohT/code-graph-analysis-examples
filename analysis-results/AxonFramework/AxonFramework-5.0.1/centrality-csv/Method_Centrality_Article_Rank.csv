@@ -13,7 +13,7 @@
 "org.axonframework.axonserver.connector.MetadataConverter: java.util.Map convertMetadataValuesToGrpc(java.util.Map)","convertMetadataValuesToGrpc","centralityArticleRank",0.5922649587447866,""
 "org.axonframework.common.BuilderUtils: void assertNonEmpty(java.lang.String,java.lang.String)","assertNonEmpty","centralityArticleRank",0.5664394727592194,""
 "org.axonframework.axonserver.connector.MetadataConverter: java.util.Map convertGrpcToMetadataValues(java.util.Map)","convertGrpcToMetadataValues","centralityArticleRank",0.524017967913272,""
-"org.axonframework.common.ObjectUtils: java.lang.Object getOrDefault(java.lang.Object,java.lang.Object)","getOrDefault","centralityArticleRank",0.5085362737093384,""
+"org.axonframework.common.ObjectUtils: java.lang.Object getOrDefault(java.lang.Object,java.lang.Object)","getOrDefault","centralityArticleRank",0.5085362737093385,""
 "org.axonframework.modelling.configuration.ModellingConfigurer: org.axonframework.modelling.configuration.ModellingConfigurer componentRegistry(java.util.function.Consumer)","componentRegistry","centralityArticleRank",0.5034801925199693,""
 "org.axonframework.messaging.core.configuration.MessagingConfigurer: org.axonframework.messaging.core.configuration.MessagingConfigurer componentRegistry(java.util.function.Consumer)","componentRegistry","centralityArticleRank",0.498460996133312,""
 "org.axonframework.common.jdbc.JdbcUtils: void closeQuietly(java.sql.Connection)","closeQuietly","centralityArticleRank",0.4853593619070239,""

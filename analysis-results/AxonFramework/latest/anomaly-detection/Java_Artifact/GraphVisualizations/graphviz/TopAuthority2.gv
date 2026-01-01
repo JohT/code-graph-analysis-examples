@@ -14,7 +14,7 @@ strict digraph TopAuthority2 {
 
 	graph   [label="Top Rank #2 Java Artifact Authority\n/axon-tracing-opentelemetry-5.0.1.jar\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: Page Rank (normalized)\nlarge circle: > 80% percentile of Page Rank\nthick outline: > 80% percentile of Page Rank to Article Rank Difference\n\n"];
 	central [label="🏛️ authority #2\naxon-tracing-opentelemetry-5.0.1"];
-	"axon-messaging-5.0.1_25511"  [label = "axon-messaging-5.0.1\n(53.7%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "axon-messaging-5.0.1_25511" [label=22; weight=22; penwidth=0.5; color = 5];
+	"axon-messaging-5.0.1_25510"  [label = "axon-messaging-5.0.1\n(53.7%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "axon-messaging-5.0.1_25510" [label=22; weight=22; penwidth=0.5; color = 5];
 	"axon-common-5.0.1_456"  [shape = "circle"; height=2; label = "axon-common-5.0.1\n(100.0%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "axon-common-5.0.1_456" [label=2; weight=2; penwidth=0.4; color = 5];
-	"axon-messaging-5.0.1_25511" -> "axon-common-5.0.1_456" [label=942; weight=942; penwidth=0.3; color = 3]
+	"axon-messaging-5.0.1_25510" -> "axon-common-5.0.1_456" [label=942; weight=942; penwidth=0.3; color = 3]
 }

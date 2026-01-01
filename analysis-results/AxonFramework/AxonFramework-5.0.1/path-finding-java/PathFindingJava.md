@@ -678,7 +678,7 @@ In this section we'll focus only on pairs of nodes that both belong to the same 
       <td>272</td>
       <td>57</td>
       <td>41</td>
-      <td>[/org/axonframework/messaging/eventhandling/annotation -&gt; /org/axonframework/messaging/commandhandling/annotation, /org/axonframework/messaging/eventhandling/replay/annotation -&gt; /org/axonframework/messaging/commandhandling/annotation, /org/axonframework/messaging/commandhandling/configuration -...</td>
+      <td>[/org/axonframework/messaging/eventhandling/configuration -&gt; /org/axonframework/messaging/monitoring/interception, /org/axonframework/messaging/eventhandling/processing/streaming/pooled -&gt; /org/axonframework/messaging/monitoring/configuration, /org/axonframework/messaging/eventhandling/processin...</td>
       <td>[axon-messaging-5.0.1 -&gt; axon-messaging-5.0.1]</td>
       <td>[]</td>
     </tr>
@@ -697,7 +697,7 @@ In this section we'll focus only on pairs of nodes that both belong to the same 
       <td>320</td>
       <td>55</td>
       <td>31</td>
-      <td>[/org/axonframework/messaging/eventhandling/annotation -&gt; /org/axonframework/messaging/commandhandling, /org/axonframework/messaging/eventhandling/replay/annotation -&gt; /org/axonframework/messaging/commandhandling, /org/axonframework/messaging/monitoring -&gt; /org/axonframework/messaging/commandhan...</td>
+      <td>[/org/axonframework/messaging/eventhandling/processing/streaming/pooled -&gt; /org/axonframework/messaging/monitoring/interception, /org/axonframework/messaging/eventhandling/processing/subscribing -&gt; /org/axonframework/messaging/monitoring/interception, /org/axonframework/messaging/eventhandling/p...</td>
       <td>[axon-messaging-5.0.1 -&gt; axon-messaging-5.0.1]</td>
       <td>[]</td>
     </tr>
@@ -716,7 +716,7 @@ In this section we'll focus only on pairs of nodes that both belong to the same 
       <td>200</td>
       <td>37</td>
       <td>12</td>
-      <td>[/org/axonframework/messaging/eventhandling -&gt; /org/axonframework/messaging/commandhandling, /org/axonframework/messaging/eventhandling/replay -&gt; /org/axonframework/messaging/commandhandling, /org/axonframework/messaging/eventhandling/interception -&gt; /org/axonframework/messaging/commandhandling,...</td>
+      <td>[/org/axonframework/messaging/eventhandling/processing -&gt; /org/axonframework/messaging/commandhandling, /org/axonframework/messaging/eventhandling/processing/streaming/token -&gt; /org/axonframework/messaging/commandhandling, /org/axonframework/messaging/eventhandling/processing/streaming/segmentin...</td>
       <td>[axon-messaging-5.0.1 -&gt; axon-messaging-5.0.1]</td>
       <td>[]</td>
     </tr>

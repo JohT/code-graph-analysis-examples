@@ -14,16 +14,16 @@ strict digraph TopHub5 {
 
 	graph   [label="Top Rank #5 Java Type Hub\norg.axonframework.common.Assert\n\nnodes: incoming dependencies (limited max. 40)\nnode value: local clustering coefficient\nthick outline: <1 0% percentile of local clustering coefficient\n\n"];
 	central [label="🎡 hub #5\nAssert\n(in-degree=31)"];
-	"GapAwareTrackingToken_29713"  [label = "GapAwareTrackingToken\n(0.33)"; penwidth = 2; ]; "GapAwareTrackingToken_29713" -> central [label=4; weight=4; penwidth=0.5];
+	"GapAwareTrackingToken_29712"  [label = "GapAwareTrackingToken\n(0.33)"; penwidth = 2; ]; "GapAwareTrackingToken_29712" -> central [label=4; weight=4; penwidth=0.5];
 	"ReflectionUtils_1599"  [label = "ReflectionUtils\n(0.05)"; penwidth = 5; ]; "ReflectionUtils_1599" -> central [label=4; weight=4; penwidth=0.5];
-	"AxonServerContainerUtils_21645"  [label = "AxonServerContainerUtils\n(0.0)"; penwidth = 5; ]; "AxonServerContainerUtils_21645" -> central [label=3; weight=3; penwidth=0.4];
+	"AxonServerContainerUtils_21644"  [label = "AxonServerContainerUtils\n(0.0)"; penwidth = 5; ]; "AxonServerContainerUtils_21644" -> central [label=3; weight=3; penwidth=0.4];
 	"GlobalSequenceTrackingToken_31463"  [label = "GlobalSequenceTrackingToken\n(0.27)"; penwidth = 2; ]; "GlobalSequenceTrackingToken_31463" -> central [label=3; weight=3; penwidth=0.4];
 	"PessimisticLockFactory$Builder_3440"  [label = "PessimisticLockFactory$\nBuilder\n(1.0)"; penwidth = 2; ]; "PessimisticLockFactory$Builder_3440" -> central [label=3; weight=3; penwidth=0.4];
 	"AbstractAnnotatedParameterResolverFactory_29346"  [label = "AbstractAnnotatedParameterResolverFactory\n(0.16)"; penwidth = 2; ]; "AbstractAnnotatedParameterResolverFactory_29346" -> central [label=2; weight=2; penwidth=0.4];
 	"ChainedConverter_49361"  [label = "ChainedConverter\n(0.4)"; penwidth = 2; ]; "ChainedConverter_49361" -> central [label=2; weight=2; penwidth=0.4];
 	"GenericTaggedEventMessage_16816"  [label = "GenericTaggedEventMessage\n(0.5)"; penwidth = 2; ]; "GenericTaggedEventMessage_16816" -> central [label=2; weight=2; penwidth=0.4];
-	"MessageType_26501"  [label = "MessageType\n(0.07)"; penwidth = 2; ]; "MessageType_26501" -> central [label=2; weight=2; penwidth=0.4];
-	"QualifiedName_26517"  [label = "QualifiedName\n(0.06)"; penwidth = 2; ]; "QualifiedName_26517" -> central [label=2; weight=2; penwidth=0.4];
+	"MessageType_26345"  [label = "MessageType\n(0.07)"; penwidth = 2; ]; "MessageType_26345" -> central [label=2; weight=2; penwidth=0.4];
+	"QualifiedName_26361"  [label = "QualifiedName\n(0.06)"; penwidth = 2; ]; "QualifiedName_26361" -> central [label=2; weight=2; penwidth=0.4];
 	"Segment_31461"  [label = "Segment\n(0.17)"; penwidth = 2; ]; "Segment_31461" -> central [label=2; weight=2; penwidth=0.4];
 	"Tag_35723"  [label = "Tag\n(0.12)"; penwidth = 2; ]; "Tag_35723" -> central [label=2; weight=2; penwidth=0.4];
 	"WeakReferenceCache_2499"  [label = "WeakReferenceCache\n(0.13)"; penwidth = 2; ]; "WeakReferenceCache_2499" -> central [label=2; weight=2; penwidth=0.4];
@@ -33,7 +33,7 @@ strict digraph TopHub5 {
 	"AxonThreadFactory_460"  [label = "AxonThreadFactory\n(0.0)"; penwidth = 5; ]; "AxonThreadFactory_460" -> central [label=1; weight=1; penwidth=0.4];
 	"BaseModule_4200"  [label = "BaseModule\n(0.38)"; penwidth = 2; ]; "BaseModule_4200" -> central [label=1; weight=1; penwidth=0.4];
 	"BuilderUtils_5228"  [label = "BuilderUtils\n(0.02)"; penwidth = 5; ]; "BuilderUtils_5228" -> central [label=1; weight=1; penwidth=0.4];
-	"ChainedConverter$Route_49180"  [label = "ChainedConverter$\nRoute\n(0.67)"; penwidth = 2; ]; "ChainedConverter$Route_49180" -> central [label=1; weight=1; penwidth=0.4];
+	"ChainedConverter$Route_49179"  [label = "ChainedConverter$\nRoute\n(0.67)"; penwidth = 2; ]; "ChainedConverter$Route_49179" -> central [label=1; weight=1; penwidth=0.4];
 	"Component$Identifier_2873"  [label = "Component$\nIdentifier\n(0.13)"; penwidth = 2; ]; "Component$Identifier_2873" -> central [label=1; weight=1; penwidth=0.4];
 	"DecoratorDefinition_3732"  [label = "DecoratorDefinition\n(0.23)"; penwidth = 2; ]; "DecoratorDefinition_3732" -> central [label=1; weight=1; penwidth=0.4];
 	"DefaultAxonApplication_3443"  [label = "DefaultAxonApplication\n(0.29)"; penwidth = 2; ]; "DefaultAxonApplication_3443" -> central [label=1; weight=1; penwidth=0.4];
@@ -41,31 +41,31 @@ strict digraph TopHub5 {
 	"MultiMessageMonitor_26299"  [label = "MultiMessageMonitor\n(0.33)"; penwidth = 2; ]; "MultiMessageMonitor_26299" -> central [label=1; weight=1; penwidth=0.4];
 	"PessimisticLockFactory_2893"  [label = "PessimisticLockFactory\n(0.27)"; penwidth = 2; ]; "PessimisticLockFactory_2893" -> central [label=1; weight=1; penwidth=0.4];
 	"PropertyBasedEntityIdResolver_10469"  [label = "PropertyBasedEntityIdResolver\n(0.17)"; penwidth = 2; ]; "PropertyBasedEntityIdResolver_10469" -> central [label=1; weight=1; penwidth=0.4];
-	"SimpleCommandHandlingComponent_26491"  [label = "SimpleCommandHandlingComponent\n(0.2)"; penwidth = 2; ]; "SimpleCommandHandlingComponent_26491" -> central [label=1; weight=1; penwidth=0.4];
+	"SimpleCommandHandlingComponent_26335"  [label = "SimpleCommandHandlingComponent\n(0.2)"; penwidth = 2; ]; "SimpleCommandHandlingComponent_26335" -> central [label=1; weight=1; penwidth=0.4];
 	"SimpleEntityManagerProvider_3442"  [label = "SimpleEntityManagerProvider\n(0.0)"; penwidth = 5; ]; "SimpleEntityManagerProvider_3442" -> central [label=1; weight=1; penwidth=0.4];
 	"SimpleQueryHandlingComponent_36735"  [label = "SimpleQueryHandlingComponent\n(0.21)"; penwidth = 2; ]; "SimpleQueryHandlingComponent_36735" -> central [label=1; weight=1; penwidth=0.4];
-	"WorkPackage_32209"  [label = "WorkPackage\n(0.29)"; penwidth = 2; ]; "WorkPackage_32209" -> central [label=1; weight=1; penwidth=0.4];
+	"WorkPackage_32208"  [label = "WorkPackage\n(0.29)"; penwidth = 2; ]; "WorkPackage_32208" -> central [label=1; weight=1; penwidth=0.4];
 	"StringUtils_468"  [label = "StringUtils\n(0.27)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "StringUtils_468" [label=1; weight=1; penwidth=0.4; color = 5];
-	"AggregateBasedJpaEventStorageEngine_17760" -> "GapAwareTrackingToken_29713" [label=24; weight=24; penwidth=0.3; color = 3]
-	"WorkPackage_32209" -> "Segment_31461" [label=17; weight=17; penwidth=0.3; color = 3]
-	"MessageType_26501" -> "QualifiedName_26517" [label=15; weight=15; penwidth=0.3; color = 3]
-	"AnnotatedEntityMetamodel_11459" -> "QualifiedName_26517" [label=11; weight=11; penwidth=0.3; color = 3]
+	"AggregateBasedJpaEventStorageEngine_17760" -> "GapAwareTrackingToken_29712" [label=24; weight=24; penwidth=0.3; color = 3]
+	"WorkPackage_32208" -> "Segment_31461" [label=17; weight=17; penwidth=0.3; color = 3]
+	"MessageType_26345" -> "QualifiedName_26361" [label=15; weight=15; penwidth=0.3; color = 3]
+	"AnnotatedEntityMetamodel_11459" -> "QualifiedName_26361" [label=11; weight=11; penwidth=0.3; color = 3]
 	"DefaultComponentRegistry$LocalConfiguration_3971" -> "Component$Identifier_2873" [label=11; weight=11; penwidth=0.3; color = 3]
 	"PessimisticLockFactory_2893" -> "PessimisticLockFactory$Builder_3440" [label=9; weight=9; penwidth=0.3; color = 3]
-	"SimpleCommandHandlingComponent_26491" -> "QualifiedName_26517" [label=7; weight=7; penwidth=0.3; color = 3]
-	"SimpleQueryHandlingComponent_36735" -> "QualifiedName_26517" [label=6; weight=6; penwidth=0.3; color = 3]
+	"SimpleCommandHandlingComponent_26335" -> "QualifiedName_26361" [label=7; weight=7; penwidth=0.3; color = 3]
+	"SimpleQueryHandlingComponent_36735" -> "QualifiedName_26361" [label=6; weight=6; penwidth=0.3; color = 3]
 	"GenericTaggedEventMessage_16816" -> "Tag_35723" [label=5; weight=5; penwidth=0.3; color = 3]
-	"AggregateBasedJpaEventStorageEngine_17760" -> "MessageType_26501" [label=4; weight=4; penwidth=0.3; color = 3]
-	"AxonServerCommandBusConnector_7261" -> "QualifiedName_26517" [label=4; weight=4; penwidth=0.3; color = 3]
-	"AnnotatedEntityMetamodel_11459" -> "MessageType_26501" [label=3; weight=3; penwidth=0.3; color = 3]
-	"ChainedConverter_49361" -> "ChainedConverter$Route_49180" [label=3; weight=3; penwidth=0.3; color = 3]
+	"AggregateBasedJpaEventStorageEngine_17760" -> "MessageType_26345" [label=4; weight=4; penwidth=0.3; color = 3]
+	"AxonServerCommandBusConnector_7261" -> "QualifiedName_26361" [label=4; weight=4; penwidth=0.3; color = 3]
+	"AnnotatedEntityMetamodel_11459" -> "MessageType_26345" [label=3; weight=3; penwidth=0.3; color = 3]
+	"ChainedConverter_49361" -> "ChainedConverter$Route_49179" [label=3; weight=3; penwidth=0.3; color = 3]
 	"PessimisticLockFactory$Builder_3440" -> "PessimisticLockFactory_2893" [label=3; weight=3; penwidth=0.3; color = 3]
-	"QualifiedName_26517" -> "StringUtils_468" [label=3; weight=3; penwidth=0.3; color = 3]
+	"QualifiedName_26361" -> "StringUtils_468" [label=3; weight=3; penwidth=0.3; color = 3]
 	"AnnotatedEntityMetamodel_11459" -> "ReflectionUtils_1599" [label=2; weight=2; penwidth=0.3; color = 3]
 	"AbstractAnnotatedParameterResolverFactory_29346" -> "ReflectionUtils_1599" [label=1; weight=1; penwidth=0.3; color = 3]
 	"BuilderUtils_5228" -> "StringUtils_468" [label=1; weight=1; penwidth=0.3; color = 3]
-	"MessageType_26501" -> "StringUtils_468" [label=1; weight=1; penwidth=0.3; color = 3]
-	"QualifiedName_26517" -> "ReflectionUtils_1599" [label=1; weight=1; penwidth=0.3; color = 3]
-	"SimpleCommandHandlingComponent_26491" -> "MessageType_26501" [label=1; weight=1; penwidth=0.3; color = 3]
-	"SimpleQueryHandlingComponent_36735" -> "MessageType_26501" [label=1; weight=1; penwidth=0.3; color = 3]
+	"MessageType_26345" -> "StringUtils_468" [label=1; weight=1; penwidth=0.3; color = 3]
+	"QualifiedName_26361" -> "ReflectionUtils_1599" [label=1; weight=1; penwidth=0.3; color = 3]
+	"SimpleCommandHandlingComponent_26335" -> "MessageType_26345" [label=1; weight=1; penwidth=0.3; color = 3]
+	"SimpleQueryHandlingComponent_36735" -> "MessageType_26345" [label=1; weight=1; penwidth=0.3; color = 3]
 }

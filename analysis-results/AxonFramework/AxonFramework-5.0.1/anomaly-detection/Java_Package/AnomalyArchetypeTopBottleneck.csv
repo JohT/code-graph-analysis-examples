@@ -1,5 +1,5 @@
 "projectName","shortCodeUnitName","codeUnitName","betweenness","rank","Source Cypher File: /home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/domains/anomaly-detection/labels/AnomalyDetectionArchetypeBottleneck.cypher"
-"axon-messaging-5.0.1","annotation","org.axonframework.messaging.core.annotation",1070.5000000000002,1,""
+"axon-messaging-5.0.1","annotation","org.axonframework.messaging.core.annotation",1070.5,1,""
 "axon-messaging-5.0.1","core","org.axonframework.messaging.core",944.5666666666666,2,""
 "axon-server-connector-5.0.1","connector","org.axonframework.axonserver.connector",324.5,3,""
 "axon-messaging-5.0.1","annotation","org.axonframework.messaging.commandhandling.annotation",303.90000000000003,4,""
