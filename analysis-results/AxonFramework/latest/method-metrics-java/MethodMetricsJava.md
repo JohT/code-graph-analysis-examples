@@ -2498,7 +2498,7 @@ The following table shows the top 30 packages with the highest cyclomatic comple
       <td>228</td>
       <td>172</td>
       <td>6</td>
-      <td>commit</td>
+      <td>runNextPhase</td>
     </tr>
     <tr>
       <th>17</th>
@@ -2507,7 +2507,7 @@ The following table shows the top 30 packages with the highest cyclomatic comple
       <td>217</td>
       <td>115</td>
       <td>7</td>
-      <td>advancedTo</td>
+      <td>covers</td>
     </tr>
     <tr>
       <th>11</th>
@@ -2534,7 +2534,7 @@ The following table shows the top 30 packages with the highest cyclomatic comple
       <td>212</td>
       <td>138</td>
       <td>8</td>
-      <td>withGapsCleaned</td>
+      <td>loadKeyViolationCodes</td>
     </tr>
     <tr>
       <th>10</th>
@@ -2597,7 +2597,7 @@ The following table shows the top 30 packages with the highest cyclomatic comple
       <td>143</td>
       <td>140</td>
       <td>2</td>
-      <td>processorMode</td>
+      <td>threadCount</td>
     </tr>
     <tr>
       <th>40</th>
@@ -2642,7 +2642,7 @@ The following table shows the top 30 packages with the highest cyclomatic comple
       <td>120</td>
       <td>101</td>
       <td>4</td>
-      <td>subscribe</td>
+      <td>handle</td>
     </tr>
     <tr>
       <th>43</th>
@@ -2651,7 +2651,7 @@ The following table shows the top 30 packages with the highest cyclomatic comple
       <td>119</td>
       <td>92</td>
       <td>4</td>
-      <td>or</td>
+      <td>havingTags</td>
     </tr>
     <tr>
       <th>20</th>
@@ -2669,7 +2669,7 @@ The following table shows the top 30 packages with the highest cyclomatic comple
       <td>104</td>
       <td>84</td>
       <td>4</td>
-      <td>andMetadata</td>
+      <td>handle</td>
     </tr>
     <tr>
       <th>19</th>
@@ -2892,8 +2892,8 @@ The following table shows the top 30 packages containing the methods with the hi
       <td>9</td>
       <td>axon-eventsourcing-5.0.1</td>
       <td>org.axonframework.eventsourcing.eventstore.jpa</td>
-      <td>GapAwareTrackingTokenOperations</td>
-      <td>withGapsCleaned</td>
+      <td>SQLErrorCodesResolver</td>
+      <td>loadKeyViolationCodes</td>
       <td>8</td>
     </tr>
     <tr>
@@ -2982,8 +2982,8 @@ The following table shows the top 30 packages containing the methods with the hi
       <td>17</td>
       <td>axon-messaging-5.0.1</td>
       <td>org.axonframework.messaging.eventhandling.proc...</td>
-      <td>ReplayToken</td>
-      <td>advancedTo</td>
+      <td>GapAwareTrackingToken</td>
+      <td>covers</td>
       <td>7</td>
     </tr>
   </tbody>

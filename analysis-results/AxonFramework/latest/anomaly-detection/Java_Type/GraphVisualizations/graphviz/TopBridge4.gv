@@ -12,18 +12,10 @@ strict digraph TopBridge4 {
     central [fontsize = 16;];
     central [color = 7; fillcolor = 5; penwidth = 3;];
 
-	graph   [label="Top Rank #4 Java Type Bridge\norg.axonframework.messaging.core.timeout.HandlerTimeoutHandlerEnhancerDefinition\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
-	central [label="🌉 bridge #4\nHandlerTimeoutHandlerEnhancerDefinition"];
-	"AxonTimeoutAutoConfiguration_23012" [label = "AxonTimeoutAutoConfiguration"; ]; "AxonTimeoutAutoConfiguration_23012" -> central [label=3; weight=3; penwidth=0.4];
-	"MessageHandlingMember_26318" [label = "MessageHandlingMember"; color = 5; fillcolor = 1; ]; central -> "MessageHandlingMember_26318" [label=8; weight=8; penwidth=0.5; color = 5];
-	"HandlerTimeoutConfiguration_46196" [label = "HandlerTimeoutConfiguration"; color = 5; fillcolor = 1; ]; central -> "HandlerTimeoutConfiguration_46196" [label=5; weight=5; penwidth=0.5; color = 5];
-	"TaskTimeoutSettings_46197" [label = "TaskTimeoutSettings"; color = 5; fillcolor = 1; ]; central -> "TaskTimeoutSettings_46197" [label=4; weight=4; penwidth=0.5; color = 5];
-	"TimeoutWrappedMessageHandlingMember_46217" [label = "TimeoutWrappedMessageHandlingMember"; color = 5; fillcolor = 1; ]; central -> "TimeoutWrappedMessageHandlingMember_46217" [label=2; weight=2; penwidth=0.4; color = 5];
-	"CommandMessage_25612" [label = "CommandMessage"; color = 5; fillcolor = 1; ]; central -> "CommandMessage_25612" [label=1; weight=1; penwidth=0.4; color = 5];
-	"EventMessage_25601" [label = "EventMessage"; color = 5; fillcolor = 1; ]; central -> "EventMessage_25601" [label=1; weight=1; penwidth=0.4; color = 5];
-	"HandlerEnhancerDefinition_26317" [label = "HandlerEnhancerDefinition"; color = 5; fillcolor = 1; ]; central -> "HandlerEnhancerDefinition_26317" [label=1; weight=1; penwidth=0.4; color = 5];
-	"QueryMessage_25607" [label = "QueryMessage"; color = 5; fillcolor = 1; ]; central -> "QueryMessage_25607" [label=1; weight=1; penwidth=0.4; color = 5];
-	"HandlerTimeoutConfiguration_46196" -> "TaskTimeoutSettings_46197" [label=20; weight=20; penwidth=0.3; color = 3]
-	"HandlerEnhancerDefinition_26317" -> "MessageHandlingMember_26318" [label=2; weight=2; penwidth=0.3; color = 3]
-	"TimeoutWrappedMessageHandlingMember_46217" -> "MessageHandlingMember_26318" [label=1; weight=1; penwidth=0.3; color = 3]
+	graph   [label="Top Rank #4 Java Type Bridge\norg.axonframework.extension.springboot.autoconfig.AvroSchemaStoreAutoConfiguration$AvroConfiguredCondition$MessagesAvroCondition\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
+	central [label="🌉 bridge #4\nAvroSchemaStoreAutoConfiguration$AvroConfiguredCondition$MessagesAvroCondition"];
+	"AvroSchemaStoreAutoConfiguration_23016" [label = "AvroSchemaStoreAutoConfiguration"; ]; "AvroSchemaStoreAutoConfiguration_23016" -> central [label=1; weight=1; penwidth=0.4];
+	"AvroSchemaStoreAutoConfiguration$AvroConfiguredCondition_22803" [label = "AvroSchemaStoreAutoConfiguration$\nAvroConfiguredCondition"; ]; "AvroSchemaStoreAutoConfiguration$AvroConfiguredCondition_22803" -> central [label=1; weight=1; penwidth=0.4];
+	"AvroSchemaStoreAutoConfiguration$AvroConfiguredCondition_22803" [label = "AvroSchemaStoreAutoConfiguration$\nAvroConfiguredCondition"; color = 5; fillcolor = 1; ]; central -> "AvroSchemaStoreAutoConfiguration$AvroConfiguredCondition_22803" [label=1; weight=1; penwidth=0.4; color = 5];
+	"AvroSchemaStoreAutoConfiguration_23016" -> "AvroSchemaStoreAutoConfiguration$AvroConfiguredCondition_22803" [label=4; weight=4; penwidth=0.3; color = 3]
 }

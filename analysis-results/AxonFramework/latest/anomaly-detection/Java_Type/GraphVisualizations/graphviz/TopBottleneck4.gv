@@ -14,19 +14,19 @@ strict digraph TopBottleneck4 {
 
 	graph   [label="Top Rank #4 Java Type Bottleneck\norg.axonframework.messaging.core.QualifiedName\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: Betweenness centrality\nthick outline: > 90% percentile of Betweenness centrality\n\n"];
 	central [label="🔒 bottleneck #4\nQualifiedName"];
-	"MessageType_26345"  [label = "MessageType\n(4157.45)"; penwidth = 5; ]; "MessageType_26345" -> central [label=15; weight=15; penwidth=0.6];
+	"MessageType_26501"  [label = "MessageType\n(4157.45)"; penwidth = 5; ]; "MessageType_26501" -> central [label=15; weight=15; penwidth=0.6];
 	"AnnotatedEntityMetamodel_11459"  [label = "AnnotatedEntityMetamodel\n(3168.92)"; penwidth = 5; ]; "AnnotatedEntityMetamodel_11459" -> central [label=11; weight=11; penwidth=0.6];
 	"ConcreteEntityMetamodel_12586"  [label = "ConcreteEntityMetamodel\n(379.81)"; penwidth = 2; ]; "ConcreteEntityMetamodel_12586" -> central [label=10; weight=10; penwidth=0.6];
-	"AnnotatedEventHandlingComponent_29253"  [label = "AnnotatedEventHandlingComponent\n(867.0)"; penwidth = 5; ]; "AnnotatedEventHandlingComponent_29253" -> central [label=7; weight=7; penwidth=0.5];
-	"SimpleCommandHandlingComponent_26335"  [label = "SimpleCommandHandlingComponent\n(24.0)"; penwidth = 2; ]; "SimpleCommandHandlingComponent_26335" -> central [label=7; weight=7; penwidth=0.5];
+	"AnnotatedEventHandlingComponent_29252"  [label = "AnnotatedEventHandlingComponent\n(867.0)"; penwidth = 5; ]; "AnnotatedEventHandlingComponent_29252" -> central [label=7; weight=7; penwidth=0.5];
+	"SimpleCommandHandlingComponent_26491"  [label = "SimpleCommandHandlingComponent\n(24.0)"; penwidth = 2; ]; "SimpleCommandHandlingComponent_26491" -> central [label=7; weight=7; penwidth=0.5];
 	"SimpleEventHandlingComponent_29407"  [label = "SimpleEventHandlingComponent\n(85.0)"; penwidth = 2; ]; "SimpleEventHandlingComponent_29407" -> central [label=7; weight=7; penwidth=0.5];
 	"SimpleQueryUpdateEmitter_38830"  [label = "SimpleQueryUpdateEmitter\n(86.0)"; penwidth = 2; ]; "SimpleQueryUpdateEmitter_38830" -> central [label=7; weight=7; penwidth=0.5];
 	"PolymorphicEntityMetamodel_10900"  [label = "PolymorphicEntityMetamodel\n(956.44)"; penwidth = 5; ]; "PolymorphicEntityMetamodel_10900" -> central [label=6; weight=6; penwidth=0.5];
 	"PolymorphicEntityMetamodel$Builder_13617"  [label = "PolymorphicEntityMetamodel$\nBuilder\n(0.0)"; penwidth = 2; ]; "PolymorphicEntityMetamodel$Builder_13617" -> central [label=6; weight=6; penwidth=0.5];
 	"SimpleQueryHandlingComponent_36735"  [label = "SimpleQueryHandlingComponent\n(21.5)"; penwidth = 2; ]; "SimpleQueryHandlingComponent_36735" -> central [label=6; weight=6; penwidth=0.5];
 	"ConcreteEntityMetamodel$Builder_12560"  [label = "ConcreteEntityMetamodel$\nBuilder\n(59.0)"; penwidth = 2; ]; "ConcreteEntityMetamodel$Builder_12560" -> central [label=5; weight=5; penwidth=0.5];
-	"RecordingCommandBus_19546"  [label = "RecordingCommandBus\n(105.0)"; penwidth = 2; ]; "RecordingCommandBus_19546" -> central [label=5; weight=5; penwidth=0.5];
-	"TagAndTypeFilteredEventCriteria_35734"  [label = "TagAndTypeFilteredEventCriteria\n(0.0)"; penwidth = 2; ]; "TagAndTypeFilteredEventCriteria_35734" -> central [label=5; weight=5; penwidth=0.5];
+	"RecordingCommandBus_19547"  [label = "RecordingCommandBus\n(105.0)"; penwidth = 2; ]; "RecordingCommandBus_19547" -> central [label=5; weight=5; penwidth=0.5];
+	"TagAndTypeFilteredEventCriteria_35735"  [label = "TagAndTypeFilteredEventCriteria\n(0.0)"; penwidth = 2; ]; "TagAndTypeFilteredEventCriteria_35735" -> central [label=5; weight=5; penwidth=0.5];
 	"AnnotatedCommandHandlingComponent_26940"  [label = "AnnotatedCommandHandlingComponent\n(414.42)"; penwidth = 2; ]; "AnnotatedCommandHandlingComponent_26940" -> central [label=4; weight=4; penwidth=0.5];
 	"AxonServerCommandBusConnector_7261"  [label = "AxonServerCommandBusConnector\n(113.5)"; penwidth = 2; ]; "AxonServerCommandBusConnector_7261" -> central [label=4; weight=4; penwidth=0.5];
 	"AxonServerQueryBusConnector_7232"  [label = "AxonServerQueryBusConnector\n(283.3)"; penwidth = 2; ]; "AxonServerQueryBusConnector_7232" -> central [label=4; weight=4; penwidth=0.5];
@@ -42,13 +42,13 @@ strict digraph TopBottleneck4 {
 	"DelegatingEventHandlingComponent_30420"  [label = "DelegatingEventHandlingComponent\n(27.03)"; penwidth = 2; ]; "DelegatingEventHandlingComponent_30420" -> central [label=3; weight=3; penwidth=0.4];
 	"EntityMetamodel_10874"  [label = "EntityMetamodel\n(1187.78)"; penwidth = 5; ]; "EntityMetamodel_10874" -> central [label=3; weight=3; penwidth=0.4];
 	"EventHandlerRegistry_29340"  [label = "EventHandlerRegistry\n(14.0)"; penwidth = 2; ]; "EventHandlerRegistry_29340" -> central [label=3; weight=3; penwidth=0.4];
-	"EventTypeRestrictableEventCriteria_32201"  [label = "EventTypeRestrictableEventCriteria\n(562.27)"; penwidth = 5; ]; "EventTypeRestrictableEventCriteria_32201" -> central [label=3; weight=3; penwidth=0.4];
+	"EventTypeRestrictableEventCriteria_32202"  [label = "EventTypeRestrictableEventCriteria\n(562.27)"; penwidth = 5; ]; "EventTypeRestrictableEventCriteria_32202" -> central [label=3; weight=3; penwidth=0.4];
 	"PooledStreamingEventProcessorConfiguration_32548"  [label = "PooledStreamingEventProcessorConfiguration\n(588.13)"; penwidth = 5; ]; "PooledStreamingEventProcessorConfiguration_32548" -> central [label=3; weight=3; penwidth=0.4];
 	"ProcessorEventHandlingComponents_33429"  [label = "ProcessorEventHandlingComponents\n(81.0)"; penwidth = 2; ]; "ProcessorEventHandlingComponents_33429" -> central [label=3; weight=3; penwidth=0.4];
 	"QueryHandlerRegistry_36745"  [label = "QueryHandlerRegistry\n(143.03)"; penwidth = 2; ]; "QueryHandlerRegistry_36745" -> central [label=3; weight=3; penwidth=0.4];
 	"SimpleEntityEvolvingComponent_10531"  [label = "SimpleEntityEvolvingComponent\n(0.0)"; penwidth = 2; ]; "SimpleEntityEvolvingComponent_10531" -> central [label=3; weight=3; penwidth=0.4];
 	"SimpleQueryBus_38832"  [label = "SimpleQueryBus\n(63.67)"; penwidth = 2; ]; "SimpleQueryBus_38832" -> central [label=3; weight=3; penwidth=0.4];
-	"TagFilteredEventCriteria_35735"  [label = "TagFilteredEventCriteria\n(314.53)"; penwidth = 2; ]; "TagFilteredEventCriteria_35735" -> central [label=3; weight=3; penwidth=0.4];
+	"TagFilteredEventCriteria_35724"  [label = "TagFilteredEventCriteria\n(314.53)"; penwidth = 2; ]; "TagFilteredEventCriteria_35724" -> central [label=3; weight=3; penwidth=0.4];
 	"AnnotationBasedEntityEvolvingComponent_11458"  [label = "AnnotationBasedEntityEvolvingComponent\n(351.0)"; penwidth = 2; ]; "AnnotationBasedEntityEvolvingComponent_11458" -> central [label=2; weight=2; penwidth=0.4];
 	"AnyEvent_35707"  [label = "AnyEvent\n(375.43)"; penwidth = 2; ]; "AnyEvent_35707" -> central [label=2; weight=2; penwidth=0.4];
 	"CommandBusConnector_27349"  [label = "CommandBusConnector\n(41.03)"; penwidth = 2; ]; "CommandBusConnector_27349" -> central [label=2; weight=2; penwidth=0.4];
@@ -60,72 +60,72 @@ strict digraph TopBottleneck4 {
 	"PolymorphicEntityMetamodel_10900" -> "EntityMetamodel_10874" [label=33; weight=33; penwidth=0.3; color = 3]
 	"PolymorphicEntityMetamodel$Builder_13617" -> "EntityMetamodel_10874" [label=14; weight=14; penwidth=0.3; color = 3]
 	"AnnotatedEntityMetamodel_11459" -> "EntityMetamodel_10874" [label=12; weight=12; penwidth=0.3; color = 3]
-	"PolymorphicEntityMetamodel_10900" -> "MessageType_26345" [label=7; weight=7; penwidth=0.3; color = 3]
+	"PolymorphicEntityMetamodel_10900" -> "MessageType_26501" [label=7; weight=7; penwidth=0.3; color = 3]
 	"PolymorphicEntityMetamodel$Builder_13617" -> "PolymorphicEntityMetamodelBuilder_10810" [label=6; weight=6; penwidth=0.3; color = 3]
-	"AnnotatedCommandHandlingComponent_26940" -> "SimpleCommandHandlingComponent_26335" [label=5; weight=5; penwidth=0.3; color = 3]
-	"AnnotatedEventHandlingComponent_29253" -> "SimpleEventHandlingComponent_29407" [label=5; weight=5; penwidth=0.3; color = 3]
+	"AnnotatedCommandHandlingComponent_26940" -> "SimpleCommandHandlingComponent_26491" [label=5; weight=5; penwidth=0.3; color = 3]
+	"AnnotatedEventHandlingComponent_29252" -> "SimpleEventHandlingComponent_29407" [label=5; weight=5; penwidth=0.3; color = 3]
 	"AnnotatedQueryHandlingComponent_36776" -> "SimpleQueryHandlingComponent_36735" [label=5; weight=5; penwidth=0.3; color = 3]
-	"ConcreteEntityMetamodel_12586" -> "MessageType_26345" [label=5; weight=5; penwidth=0.3; color = 3]
+	"ConcreteEntityMetamodel_12586" -> "MessageType_26501" [label=5; weight=5; penwidth=0.3; color = 3]
 	"SimpleCommandHandlingModule_29406" -> "CommandHandlingModule$CommandHandlerPhase_29448" [label=5; weight=5; penwidth=0.3; color = 3]
-	"SimpleCommandHandlingModule_29406" -> "SimpleCommandHandlingComponent_26335" [label=5; weight=5; penwidth=0.3; color = 3]
+	"SimpleCommandHandlingModule_29406" -> "SimpleCommandHandlingComponent_26491" [label=5; weight=5; penwidth=0.3; color = 3]
 	"SimpleQueryHandlingModule_38838" -> "SimpleQueryHandlingComponent_36735" [label=5; weight=5; penwidth=0.3; color = 3]
-	"AnnotatedCommandHandlingComponent_26940" -> "MessageType_26345" [label=4; weight=4; penwidth=0.3; color = 3]
+	"AnnotatedCommandHandlingComponent_26940" -> "MessageType_26501" [label=4; weight=4; penwidth=0.3; color = 3]
 	"AnnotatedEntityMetamodel_11459" -> "AnnotationBasedEntityEvolvingComponent_11458" [label=4; weight=4; penwidth=0.3; color = 3]
 	"AnnotatedEntityMetamodel_11459" -> "PolymorphicEntityMetamodelBuilder_10810" [label=4; weight=4; penwidth=0.3; color = 3]
 	"ReflectionUtils_1599" -> "Assert_461" [label=4; weight=4; penwidth=0.3; color = 3]
-	"AnnotatedEntityMetamodel_11459" -> "MessageType_26345" [label=3; weight=3; penwidth=0.3; color = 3]
+	"AnnotatedEntityMetamodel_11459" -> "MessageType_26501" [label=3; weight=3; penwidth=0.3; color = 3]
 	"ConcreteEntityMetamodel_12586" -> "ConcreteEntityMetamodel$Builder_12560" [label=3; weight=3; penwidth=0.3; color = 3]
 	"PolymorphicEntityMetamodel_10900" -> "PolymorphicEntityMetamodel$Builder_13617" [label=3; weight=3; penwidth=0.3; color = 3]
 	"SequenceOverridingEventHandlingComponent_34684" -> "EventHandlerRegistry_29340" [label=3; weight=3; penwidth=0.3; color = 3]
-	"SimpleCommandHandlingComponent_26335" -> "CommandHandlerRegistry_27344" [label=3; weight=3; penwidth=0.3; color = 3]
+	"SimpleCommandHandlingComponent_26491" -> "CommandHandlerRegistry_27344" [label=3; weight=3; penwidth=0.3; color = 3]
 	"SimpleQueryHandlingComponent_36735" -> "QueryHandlerRegistry_36745" [label=3; weight=3; penwidth=0.3; color = 3]
-	"SimpleQueryUpdateEmitter_38830" -> "MessageType_26345" [label=3; weight=3; penwidth=0.3; color = 3]
+	"SimpleQueryUpdateEmitter_38830" -> "MessageType_26501" [label=3; weight=3; penwidth=0.3; color = 3]
 	"AnnotatedEntityMetamodel_11459" -> "ReflectionUtils_1599" [label=2; weight=2; penwidth=0.3; color = 3]
-	"AnnotationBasedEntityEvolvingComponent_11458" -> "MessageType_26345" [label=2; weight=2; penwidth=0.3; color = 3]
+	"AnnotationBasedEntityEvolvingComponent_11458" -> "MessageType_26501" [label=2; weight=2; penwidth=0.3; color = 3]
 	"AnnotationBasedEventSourcedEntityFactory$ScannedEntityCreator_15418" -> "ReflectionUtils_1599" [label=2; weight=2; penwidth=0.3; color = 3]
-	"AnyEvent_35707" -> "TagAndTypeFilteredEventCriteria_35734" [label=2; weight=2; penwidth=0.3; color = 3]
+	"AnyEvent_35707" -> "TagAndTypeFilteredEventCriteria_35735" [label=2; weight=2; penwidth=0.3; color = 3]
 	"CommandHandlingModule$CommandHandlerPhase_29448" -> "AnnotatedCommandHandlingComponent_26940" [label=2; weight=2; penwidth=0.3; color = 3]
 	"ConcreteEntityMetamodel$Builder_12560" -> "ConcreteEntityMetamodel_12586" [label=2; weight=2; penwidth=0.3; color = 3]
 	"ConcreteEntityMetamodel$Builder_12560" -> "EntityMetamodel_10874" [label=2; weight=2; penwidth=0.3; color = 3]
-	"MessageType_26345" -> "Assert_461" [label=2; weight=2; penwidth=0.3; color = 3]
+	"MessageType_26501" -> "Assert_461" [label=2; weight=2; penwidth=0.3; color = 3]
 	"PolymorphicEntityMetamodel$Builder_13617" -> "PolymorphicEntityMetamodel_10900" [label=2; weight=2; penwidth=0.3; color = 3]
 	"QueryUpdateEmitter_36748" -> "SimpleQueryUpdateEmitter_38830" [label=2; weight=2; penwidth=0.3; color = 3]
-	"RecordingCommandBus_19546" -> "MessageType_26345" [label=2; weight=2; penwidth=0.3; color = 3]
+	"RecordingCommandBus_19547" -> "MessageType_26501" [label=2; weight=2; penwidth=0.3; color = 3]
 	"SimpleEventHandlingComponent_29407" -> "EventHandlerRegistry_29340" [label=2; weight=2; penwidth=0.3; color = 3]
-	"SimpleEventHandlingComponent_29407" -> "MessageType_26345" [label=2; weight=2; penwidth=0.3; color = 3]
-	"SimpleQueryBus_38832" -> "MessageType_26345" [label=2; weight=2; penwidth=0.3; color = 3]
-	"TagFilteredEventCriteria_35735" -> "TagAndTypeFilteredEventCriteria_35734" [label=2; weight=2; penwidth=0.3; color = 3]
+	"SimpleEventHandlingComponent_29407" -> "MessageType_26501" [label=2; weight=2; penwidth=0.3; color = 3]
+	"SimpleQueryBus_38832" -> "MessageType_26501" [label=2; weight=2; penwidth=0.3; color = 3]
+	"TagFilteredEventCriteria_35724" -> "TagAndTypeFilteredEventCriteria_35735" [label=2; weight=2; penwidth=0.3; color = 3]
 	"AnnotatedEntityMetamodel_11459" -> "Assert_461" [label=1; weight=1; penwidth=0.3; color = 3]
 	"AnnotatedEntityMetamodel_11459" -> "PolymorphicEntityMetamodel_10900" [label=1; weight=1; penwidth=0.3; color = 3]
-	"AnnotatedEventHandlingComponent_29253" -> "EventHandlerRegistry_29340" [label=1; weight=1; penwidth=0.3; color = 3]
-	"AnnotatedEventHandlingComponent_29253" -> "MessageType_26345" [label=1; weight=1; penwidth=0.3; color = 3]
-	"AnyEvent_35707" -> "EventTypeRestrictableEventCriteria_32201" [label=1; weight=1; penwidth=0.3; color = 3]
+	"AnnotatedEventHandlingComponent_29252" -> "MessageType_26501" [label=1; weight=1; penwidth=0.3; color = 3]
+	"AnnotatedEventHandlingComponent_29252" -> "EventHandlerRegistry_29340" [label=1; weight=1; penwidth=0.3; color = 3]
+	"AnyEvent_35707" -> "EventTypeRestrictableEventCriteria_32202" [label=1; weight=1; penwidth=0.3; color = 3]
 	"Assert_461" -> "StringUtils_468" [label=1; weight=1; penwidth=0.3; color = 3]
-	"AxonServerCommandBusConnector_7261" -> "Assert_461" [label=1; weight=1; penwidth=0.3; color = 3]
 	"AxonServerCommandBusConnector_7261" -> "CommandBusConnector_27349" [label=1; weight=1; penwidth=0.3; color = 3]
+	"AxonServerCommandBusConnector_7261" -> "Assert_461" [label=1; weight=1; penwidth=0.3; color = 3]
 	"ConcreteEntityMetamodel_12586" -> "EntityMetamodel_10874" [label=1; weight=1; penwidth=0.3; color = 3]
 	"DelegatingEventHandlingComponent_30420" -> "EventHandlerRegistry_29340" [label=1; weight=1; penwidth=0.3; color = 3]
 	"EntityMetamodel_10874" -> "PolymorphicEntityMetamodel_10900" [label=1; weight=1; penwidth=0.3; color = 3]
 	"EntityMetamodel_10874" -> "PolymorphicEntityMetamodelBuilder_10810" [label=1; weight=1; penwidth=0.3; color = 3]
 	"EntityMetamodel_10874" -> "ConcreteEntityMetamodel_12586" [label=1; weight=1; penwidth=0.3; color = 3]
-	"EventTypeRestrictableEventCriteria_32201" -> "MessageType_26345" [label=1; weight=1; penwidth=0.3; color = 3]
-	"MessageType_26345" -> "StringUtils_468" [label=1; weight=1; penwidth=0.3; color = 3]
+	"EventTypeRestrictableEventCriteria_32202" -> "MessageType_26501" [label=1; weight=1; penwidth=0.3; color = 3]
+	"MessageType_26501" -> "StringUtils_468" [label=1; weight=1; penwidth=0.3; color = 3]
 	"PolymorphicEntityMetamodel_10900" -> "PolymorphicEntityMetamodelBuilder_10810" [label=1; weight=1; penwidth=0.3; color = 3]
 	"PolymorphicEntityMetamodel$Builder_13617" -> "ConcreteEntityMetamodel_12586" [label=1; weight=1; penwidth=0.3; color = 3]
 	"PolymorphicEntityMetamodelBuilder_10810" -> "EntityMetamodel_10874" [label=1; weight=1; penwidth=0.3; color = 3]
-	"PooledStreamingEventProcessorConfiguration_32548" -> "EventTypeRestrictableEventCriteria_32201" [label=1; weight=1; penwidth=0.3; color = 3]
-	"ProcessorEventHandlingComponents_33429" -> "MessageType_26345" [label=1; weight=1; penwidth=0.3; color = 3]
-	"RecordingCommandBus_19546" -> "CommandHandlerRegistry_27344" [label=1; weight=1; penwidth=0.3; color = 3]
+	"PooledStreamingEventProcessorConfiguration_32548" -> "EventTypeRestrictableEventCriteria_32202" [label=1; weight=1; penwidth=0.3; color = 3]
+	"ProcessorEventHandlingComponents_33429" -> "MessageType_26501" [label=1; weight=1; penwidth=0.3; color = 3]
+	"RecordingCommandBus_19547" -> "CommandHandlerRegistry_27344" [label=1; weight=1; penwidth=0.3; color = 3]
+	"SimpleCommandBus_28362" -> "MessageType_26501" [label=1; weight=1; penwidth=0.3; color = 3]
 	"SimpleCommandBus_28362" -> "CommandHandlerRegistry_27344" [label=1; weight=1; penwidth=0.3; color = 3]
-	"SimpleCommandBus_28362" -> "MessageType_26345" [label=1; weight=1; penwidth=0.3; color = 3]
-	"SimpleCommandHandlingComponent_26335" -> "Assert_461" [label=1; weight=1; penwidth=0.3; color = 3]
-	"SimpleCommandHandlingComponent_26335" -> "MessageType_26345" [label=1; weight=1; penwidth=0.3; color = 3]
-	"SimpleEntityEvolvingComponent_10531" -> "MessageType_26345" [label=1; weight=1; penwidth=0.3; color = 3]
+	"SimpleCommandHandlingComponent_26491" -> "Assert_461" [label=1; weight=1; penwidth=0.3; color = 3]
+	"SimpleCommandHandlingComponent_26491" -> "MessageType_26501" [label=1; weight=1; penwidth=0.3; color = 3]
+	"SimpleEntityEvolvingComponent_10531" -> "MessageType_26501" [label=1; weight=1; penwidth=0.3; color = 3]
 	"SimpleQueryBus_38832" -> "QueryHandlerRegistry_36745" [label=1; weight=1; penwidth=0.3; color = 3]
 	"SimpleQueryHandlingComponent_36735" -> "Assert_461" [label=1; weight=1; penwidth=0.3; color = 3]
-	"SimpleQueryHandlingComponent_36735" -> "MessageType_26345" [label=1; weight=1; penwidth=0.3; color = 3]
+	"SimpleQueryHandlingComponent_36735" -> "MessageType_26501" [label=1; weight=1; penwidth=0.3; color = 3]
 	"SimpleQueryUpdateEmitter_38830" -> "QueryUpdateEmitter_36748" [label=1; weight=1; penwidth=0.3; color = 3]
-	"TagAndTypeFilteredEventCriteria_35734" -> "AnyEvent_35707" [label=1; weight=1; penwidth=0.3; color = 3]
-	"TagFilteredEventCriteria_35735" -> "AnyEvent_35707" [label=1; weight=1; penwidth=0.3; color = 3]
-	"TagFilteredEventCriteria_35735" -> "EventTypeRestrictableEventCriteria_32201" [label=1; weight=1; penwidth=0.3; color = 3]
+	"TagAndTypeFilteredEventCriteria_35735" -> "AnyEvent_35707" [label=1; weight=1; penwidth=0.3; color = 3]
+	"TagFilteredEventCriteria_35724" -> "AnyEvent_35707" [label=1; weight=1; penwidth=0.3; color = 3]
+	"TagFilteredEventCriteria_35724" -> "EventTypeRestrictableEventCriteria_32202" [label=1; weight=1; penwidth=0.3; color = 3]
 }

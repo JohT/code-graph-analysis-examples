@@ -48,9 +48,9 @@
       <td>22.691761</td>
       <td>11.548295</td>
       <td>171.423295</td>
-      <td>82.127841</td>
-      <td>140.268466</td>
-      <td>103.268466</td>
+      <td>86.127841</td>
+      <td>143.301136</td>
+      <td>106.274148</td>
     </tr>
     <tr>
       <th>std</th>
@@ -58,53 +58,53 @@
       <td>12.461968</td>
       <td>362.848141</td>
       <td>145.355171</td>
-      <td>200.447409</td>
-      <td>154.671847</td>
+      <td>200.434316</td>
+      <td>154.670163</td>
     </tr>
     <tr>
       <th>min</th>
       <td>1.000000</td>
       <td>2.000000</td>
       <td>4.000000</td>
-      <td>29.000000</td>
-      <td>31.000000</td>
-      <td>29.000000</td>
+      <td>33.000000</td>
+      <td>34.000000</td>
+      <td>32.000000</td>
     </tr>
     <tr>
       <th>25%</th>
       <td>2.000000</td>
       <td>4.000000</td>
       <td>20.000000</td>
-      <td>29.000000</td>
-      <td>45.000000</td>
-      <td>34.000000</td>
+      <td>33.000000</td>
+      <td>48.000000</td>
+      <td>37.000000</td>
     </tr>
     <tr>
       <th>50%</th>
       <td>4.000000</td>
       <td>7.000000</td>
       <td>40.000000</td>
-      <td>29.000000</td>
-      <td>56.000000</td>
-      <td>45.000000</td>
+      <td>33.000000</td>
+      <td>59.000000</td>
+      <td>48.000000</td>
     </tr>
     <tr>
       <th>75%</th>
       <td>12.000000</td>
       <td>14.000000</td>
       <td>162.250000</td>
-      <td>29.000000</td>
-      <td>73.000000</td>
-      <td>56.000000</td>
+      <td>33.000000</td>
+      <td>76.000000</td>
+      <td>59.000000</td>
     </tr>
     <tr>
       <th>max</th>
       <td>2594.000000</td>
       <td>115.000000</td>
       <td>5942.000000</td>
-      <td>519.000000</td>
-      <td>2727.000000</td>
-      <td>573.000000</td>
+      <td>523.000000</td>
+      <td>2730.000000</td>
+      <td>576.000000</td>
     </tr>
   </tbody>
 </table>
@@ -152,9 +152,9 @@
       <td>Allard Buijze</td>
       <td>Steven van Beelen</td>
       <td>22</td>
-      <td>29</td>
-      <td>357</td>
-      <td>357</td>
+      <td>33</td>
+      <td>360</td>
+      <td>360</td>
       <td>2025-12-03</td>
       <td>2025-01-09</td>
       <td>2025-01-09</td>
@@ -172,9 +172,9 @@
       <td>Allard Buijze</td>
       <td>Mateusz Nowak</td>
       <td>47</td>
-      <td>29</td>
-      <td>357</td>
-      <td>132</td>
+      <td>33</td>
+      <td>360</td>
+      <td>135</td>
       <td>2025-12-03</td>
       <td>2025-01-09</td>
       <td>2025-08-22</td>
@@ -192,9 +192,9 @@
       <td>Allard Buijze</td>
       <td>Jan Galinski</td>
       <td>19</td>
-      <td>29</td>
-      <td>45</td>
-      <td>29</td>
+      <td>33</td>
+      <td>48</td>
+      <td>32</td>
       <td>2025-12-03</td>
       <td>2025-11-17</td>
       <td>2025-12-03</td>
@@ -212,9 +212,9 @@
       <td>Allard Buijze</td>
       <td>Jan Galinski</td>
       <td>81</td>
-      <td>29</td>
-      <td>58</td>
-      <td>58</td>
+      <td>33</td>
+      <td>61</td>
+      <td>61</td>
       <td>2025-12-03</td>
       <td>2025-11-04</td>
       <td>2025-11-04</td>
@@ -232,9 +232,9 @@
       <td>Allard Buijze</td>
       <td>Jan Galinski</td>
       <td>70</td>
-      <td>29</td>
-      <td>148</td>
-      <td>31</td>
+      <td>33</td>
+      <td>151</td>
+      <td>34</td>
       <td>2025-12-03</td>
       <td>2025-08-06</td>
       <td>2025-12-01</td>
@@ -252,9 +252,9 @@
       <td>Allard Buijze</td>
       <td>Jan Galinski</td>
       <td>9</td>
-      <td>29</td>
-      <td>56</td>
-      <td>56</td>
+      <td>33</td>
+      <td>59</td>
+      <td>59</td>
       <td>2025-12-03</td>
       <td>2025-11-06</td>
       <td>2025-11-06</td>
@@ -272,9 +272,9 @@
       <td>Allard Buijze</td>
       <td>John Hendrikx</td>
       <td>14</td>
-      <td>29</td>
-      <td>45</td>
-      <td>34</td>
+      <td>33</td>
+      <td>48</td>
+      <td>37</td>
       <td>2025-12-03</td>
       <td>2025-11-17</td>
       <td>2025-11-28</td>
@@ -292,9 +292,9 @@
       <td>Allard Buijze</td>
       <td>Jan Galinski</td>
       <td>40</td>
-      <td>29</td>
-      <td>45</td>
-      <td>29</td>
+      <td>33</td>
+      <td>48</td>
+      <td>32</td>
       <td>2025-12-03</td>
       <td>2025-11-17</td>
       <td>2025-12-03</td>
@@ -312,9 +312,9 @@
       <td>Allard Buijze</td>
       <td>Frank Versnel</td>
       <td>73</td>
-      <td>29</td>
-      <td>57</td>
-      <td>45</td>
+      <td>33</td>
+      <td>61</td>
+      <td>48</td>
       <td>2025-12-03</td>
       <td>2025-11-04</td>
       <td>2025-11-17</td>
@@ -332,9 +332,9 @@
       <td>Allard Buijze</td>
       <td>Frank Versnel</td>
       <td>91</td>
-      <td>29</td>
-      <td>57</td>
-      <td>45</td>
+      <td>33</td>
+      <td>61</td>
+      <td>48</td>
       <td>2025-12-03</td>
       <td>2025-11-04</td>
       <td>2025-11-17</td>
@@ -352,9 +352,9 @@
       <td>Allard Buijze</td>
       <td>Jan Galinski</td>
       <td>67</td>
-      <td>29</td>
-      <td>57</td>
-      <td>45</td>
+      <td>33</td>
+      <td>61</td>
+      <td>48</td>
       <td>2025-12-03</td>
       <td>2025-11-04</td>
       <td>2025-11-17</td>
@@ -372,9 +372,9 @@
       <td>Allard Buijze</td>
       <td>Jan Galinski</td>
       <td>11</td>
-      <td>29</td>
-      <td>57</td>
-      <td>57</td>
+      <td>33</td>
+      <td>61</td>
+      <td>61</td>
       <td>2025-12-03</td>
       <td>2025-11-04</td>
       <td>2025-11-04</td>
@@ -392,9 +392,9 @@
       <td>Allard Buijze</td>
       <td>Jan Galinski</td>
       <td>29</td>
-      <td>29</td>
-      <td>57</td>
-      <td>57</td>
+      <td>33</td>
+      <td>60</td>
+      <td>60</td>
       <td>2025-12-03</td>
       <td>2025-11-05</td>
       <td>2025-11-05</td>
@@ -412,9 +412,9 @@
       <td>Allard Buijze</td>
       <td>Christophe Bouhier</td>
       <td>93</td>
-      <td>29</td>
-      <td>57</td>
-      <td>45</td>
+      <td>33</td>
+      <td>60</td>
+      <td>48</td>
       <td>2025-12-03</td>
       <td>2025-11-05</td>
       <td>2025-11-17</td>
@@ -432,9 +432,9 @@
       <td>Allard Buijze</td>
       <td>David Gómez G</td>
       <td>12</td>
-      <td>519</td>
-      <td>573</td>
-      <td>573</td>
+      <td>523</td>
+      <td>576</td>
+      <td>576</td>
       <td>2024-07-31</td>
       <td>2024-06-07</td>
       <td>2024-06-07</td>
@@ -452,9 +452,9 @@
       <td>Allard Buijze</td>
       <td>David Gómez G</td>
       <td>21</td>
-      <td>519</td>
-      <td>561</td>
-      <td>561</td>
+      <td>523</td>
+      <td>564</td>
+      <td>564</td>
       <td>2024-07-31</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -472,9 +472,9 @@
       <td>Allard Buijze</td>
       <td>David Gómez G</td>
       <td>21</td>
-      <td>519</td>
-      <td>561</td>
-      <td>561</td>
+      <td>523</td>
+      <td>564</td>
+      <td>564</td>
       <td>2024-07-31</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -492,9 +492,9 @@
       <td>Allard Buijze</td>
       <td>David Gómez G</td>
       <td>22</td>
-      <td>519</td>
-      <td>561</td>
-      <td>561</td>
+      <td>523</td>
+      <td>564</td>
+      <td>564</td>
       <td>2024-07-31</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -512,9 +512,9 @@
       <td>Allard Buijze</td>
       <td>David Gómez G</td>
       <td>21</td>
-      <td>519</td>
-      <td>561</td>
-      <td>561</td>
+      <td>523</td>
+      <td>564</td>
+      <td>564</td>
       <td>2024-07-31</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -532,9 +532,9 @@
       <td>Allard Buijze</td>
       <td>David Gómez G</td>
       <td>22</td>
-      <td>519</td>
-      <td>561</td>
-      <td>561</td>
+      <td>523</td>
+      <td>564</td>
+      <td>564</td>
       <td>2024-07-31</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -552,9 +552,9 @@
       <td>Allard Buijze</td>
       <td>David Gómez G</td>
       <td>21</td>
-      <td>519</td>
-      <td>561</td>
-      <td>561</td>
+      <td>523</td>
+      <td>564</td>
+      <td>564</td>
       <td>2024-07-31</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -572,9 +572,9 @@
       <td>Allard Buijze</td>
       <td>David Gómez G</td>
       <td>22</td>
-      <td>519</td>
-      <td>561</td>
-      <td>561</td>
+      <td>523</td>
+      <td>564</td>
+      <td>564</td>
       <td>2024-07-31</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -592,9 +592,9 @@
       <td>Allard Buijze</td>
       <td>David Gómez G</td>
       <td>21</td>
-      <td>519</td>
-      <td>561</td>
-      <td>561</td>
+      <td>523</td>
+      <td>564</td>
+      <td>564</td>
       <td>2024-07-31</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -612,9 +612,9 @@
       <td>Allard Buijze</td>
       <td>David Gómez G</td>
       <td>23</td>
-      <td>519</td>
-      <td>561</td>
-      <td>561</td>
+      <td>523</td>
+      <td>564</td>
+      <td>564</td>
       <td>2024-07-31</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -632,9 +632,9 @@
       <td>Allard Buijze</td>
       <td>David Gómez G</td>
       <td>21</td>
-      <td>519</td>
-      <td>561</td>
-      <td>561</td>
+      <td>523</td>
+      <td>564</td>
+      <td>564</td>
       <td>2024-07-31</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -652,9 +652,9 @@
       <td>Allard Buijze</td>
       <td>David Gómez G</td>
       <td>22</td>
-      <td>519</td>
-      <td>561</td>
-      <td>561</td>
+      <td>523</td>
+      <td>564</td>
+      <td>564</td>
       <td>2024-07-31</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -672,9 +672,9 @@
       <td>Allard Buijze</td>
       <td>David Gómez G</td>
       <td>21</td>
-      <td>519</td>
-      <td>561</td>
-      <td>561</td>
+      <td>523</td>
+      <td>564</td>
+      <td>564</td>
       <td>2024-07-31</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -692,9 +692,9 @@
       <td>Allard Buijze</td>
       <td>David Gómez G</td>
       <td>22</td>
-      <td>519</td>
-      <td>561</td>
-      <td>561</td>
+      <td>523</td>
+      <td>564</td>
+      <td>564</td>
       <td>2024-07-31</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -712,9 +712,9 @@
       <td>Allard Buijze</td>
       <td>David Gómez G</td>
       <td>21</td>
-      <td>519</td>
-      <td>561</td>
-      <td>561</td>
+      <td>523</td>
+      <td>564</td>
+      <td>564</td>
       <td>2024-07-31</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -732,9 +732,9 @@
       <td>Allard Buijze</td>
       <td>David Gómez G</td>
       <td>22</td>
-      <td>519</td>
-      <td>561</td>
-      <td>561</td>
+      <td>523</td>
+      <td>564</td>
+      <td>564</td>
       <td>2024-07-31</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -1206,8 +1206,8 @@ The following charts show how these metrics are distributed across pairs of file
       <td>java↔java</td>
       <td>79</td>
       <td>4</td>
-      <td>AggregateBasedJpaEventStorageEngine↔StorageEngineTestSuite</td>
-      <td>eventsourcing/src/main/java/org/axonframework/eventsourcing/eventstore/jpa/AggregateBasedJpaEventStorageEngine.java↔eventsourcing/src/test/java/org/axonframework/eventsourcing/eventstore/StorageEngineTestSuite.java</td>
+      <td>AggregateBasedAxonServerEventStorageEngine↔StorageEngineTestSuite</td>
+      <td>axon-server-connector/src/main/java/org/axonframework/axonserver/connector/event/AggregateBasedAxonServerEventStorageEngine.java↔eventsourcing/src/test/java/org/axonframework/eventsourcing/eventstore/StorageEngineTestSuite.java</td>
     </tr>
     <tr>
       <th>4</th>
@@ -1559,24 +1559,24 @@ This metric is useful to identify pairs of files that are frequently changed tog
       <td>java↔java</td>
       <td>0.833333</td>
       <td>4</td>
-      <td>AnnotatedHandlerInspector↔AnnotationEventHandlerAdapter</td>
-      <td>messaging/src/main/java/org/axonframework/messaging/core/annotation/AnnotatedHandlerInspector.java↔stash/todo/src/main/java/org/axonframework/messaging/eventhandling/annotation/AnnotationEventHandlerAdapter.java</td>
+      <td>AnnotatedEventHandlingComponent↔AnnotationEventHandlerAdapter</td>
+      <td>messaging/src/main/java/org/axonframework/messaging/eventhandling/annotation/AnnotatedEventHandlingComponent.java↔stash/todo/src/main/java/org/axonframework/messaging/eventhandling/annotation/AnnotationEventHandlerAdapter.java</td>
     </tr>
     <tr>
       <th>4</th>
       <td>java↔java</td>
       <td>0.800000</td>
       <td>5</td>
-      <td>EventProcessorInfoUtils↔SpringUtils</td>
-      <td>axon-server-connector/src/main/java/org/axonframework/axonserver/connector/event/EventProcessorInfoUtils.java↔extensions/spring/spring/src/main/java/org/axonframework/extension/spring/SpringUtils.java</td>
+      <td>ConditionConverter↔SpringUtils</td>
+      <td>axon-server-connector/src/main/java/org/axonframework/axonserver/connector/event/ConditionConverter.java↔extensions/spring/spring/src/main/java/org/axonframework/extension/spring/SpringUtils.java</td>
     </tr>
     <tr>
       <th>5</th>
       <td>java↔java</td>
       <td>0.750000</td>
       <td>6</td>
-      <td>UpdateCheckerAutoConfiguration↔UpdateCheckerTest</td>
-      <td>extensions/spring/spring-boot-autoconfigure/src/main/java/org/axonframework/extension/springboot/autoconfig/UpdateCheckerAutoConfiguration.java↔update/src/test/java/org/axonframework/update/UpdateCheckerTest.java</td>
+      <td>PropertyFileUsagePropertyProvider↔UpdateCheckerTest</td>
+      <td>update/src/main/java/org/axonframework/update/configuration/PropertyFileUsagePropertyProvider.java↔update/src/test/java/org/axonframework/update/UpdateCheckerTest.java</td>
     </tr>
     <tr>
       <th>6</th>
@@ -1616,7 +1616,7 @@ This metric is useful to identify pairs of files that are frequently changed tog
       <td>0.600000</td>
       <td>1</td>
       <td>pom↔pom</td>
-      <td>extensions/tracing/tracing-opentelemetry/pom.xml↔stash/legacy-aggregate/pom.xml</td>
+      <td>extensions/spring/spring/pom.xml↔stash/legacy-aggregate/pom.xml</td>
     </tr>
     <tr>
       <th>11</th>
@@ -1640,7 +1640,7 @@ This metric is useful to identify pairs of files that are frequently changed tog
       <td>0.500000</td>
       <td>4</td>
       <td>pom↔pom</td>
-      <td>axon-framework-bom/pom.xml↔stash/legacy-aggregate/pom.xml</td>
+      <td>extensions/spring/pom.xml↔stash/legacy-aggregate/pom.xml</td>
     </tr>
     <tr>
       <th>14</th>
@@ -1751,8 +1751,8 @@ This metric is useful to identify pairs of files that are frequently changed tog
       <td>adoc↔adoc</td>
       <td>0.611111</td>
       <td>8</td>
-      <td>implement-command-create-course↔project-structure</td>
-      <td>docs/af5-getting-started/modules/ROOT/pages/implement-command-create-course.adoc↔docs/af5-getting-started/modules/ROOT/pages/project-structure.adoc</td>
+      <td>implement-command-subscribe-student↔project-structure</td>
+      <td>docs/af5-getting-started/modules/ROOT/pages/implement-command-subscribe-student.adoc↔docs/af5-getting-started/modules/ROOT/pages/project-structure.adoc</td>
     </tr>
     <tr>
       <th>28</th>
@@ -1799,16 +1799,16 @@ This metric is useful to identify pairs of files that are frequently changed tog
       <td>java↔md</td>
       <td>0.571429</td>
       <td>4</td>
-      <td>ExceptionHandlerTest↔api-changes</td>
-      <td>messaging/src/test/java/org/axonframework/messaging/core/interception/ExceptionHandlerTest.java↔axon-5/api-changes.md</td>
+      <td>AnnotationBasedEntityEvolvingComponent↔api-changes</td>
+      <td>modelling/src/main/java/org/axonframework/modelling/annotation/AnnotationBasedEntityEvolvingComponent.java↔axon-5/api-changes.md</td>
     </tr>
     <tr>
       <th>34</th>
       <td>java↔md</td>
       <td>0.500000</td>
       <td>5</td>
-      <td>SimpleCommandHandlingComponentTest↔api-changes</td>
-      <td>messaging/src/test/java/org/axonframework/messaging/commandhandling/SimpleCommandHandlingComponentTest.java↔axon-5/api-changes.md</td>
+      <td>AnnotatedEventHandlingComponentTest↔api-changes</td>
+      <td>messaging/src/test/java/org/axonframework/messaging/eventhandling/annotation/AnnotatedEventHandlingComponentTest.java↔axon-5/api-changes.md</td>
     </tr>
     <tr>
       <th>35</th>
@@ -1982,7 +1982,7 @@ This metric is useful to identify pairs of files that are frequently changed tog
       <td>71.125000</td>
       <td>3</td>
       <td>pom↔pom</td>
-      <td>stash/legacy-aggregate/pom.xml↔stash/migration/pom.xml</td>
+      <td>stash/legacy-saga/pom.xml↔stash/migration/pom.xml</td>
     </tr>
     <tr>
       <th>13</th>
@@ -2014,7 +2014,7 @@ This metric is useful to identify pairs of files that are frequently changed tog
       <td>49.478261</td>
       <td>7</td>
       <td>pom↔pom</td>
-      <td>extensions/metrics/pom.xml↔stash/legacy-aggregate/pom.xml</td>
+      <td>extensions/pom.xml↔stash/legacy-aggregate/pom.xml</td>
     </tr>
     <tr>
       <th>17</th>
@@ -2356,7 +2356,7 @@ This metric is useful to identify pairs of files that are frequently changed tog
       <td>0.272727</td>
       <td>6</td>
       <td>pom↔pom</td>
-      <td>extensions/metrics/metrics-dropwizard/pom.xml↔extensions/tracing/tracing-opentelemetry/pom.xml</td>
+      <td>extensions/metrics/metrics-micrometer/pom.xml↔extensions/tracing/tracing-opentelemetry/pom.xml</td>
     </tr>
     <tr>
       <th>16</th>
@@ -2380,7 +2380,7 @@ This metric is useful to identify pairs of files that are frequently changed tog
       <td>0.238095</td>
       <td>9</td>
       <td>pom↔pom</td>
-      <td>stash/legacy-aggregate/pom.xml↔stash/migration/pom.xml</td>
+      <td>stash/legacy-saga/pom.xml↔stash/migration/pom.xml</td>
     </tr>
     <tr>
       <th>19</th>
@@ -2451,8 +2451,8 @@ This metric is useful to identify pairs of files that are frequently changed tog
       <td>adoc↔adoc</td>
       <td>0.300000</td>
       <td>8</td>
-      <td>nav↔index</td>
-      <td>docs/old-reference-guide/modules/tuning/partials/nav.adoc↔docs/old-reference-guide/modules/tuning/pages/index.adoc</td>
+      <td>index↔nav</td>
+      <td>docs/old-reference-guide/modules/tuning/pages/index.adoc↔docs/old-reference-guide/modules/tuning/partials/nav.adoc</td>
     </tr>
     <tr>
       <th>28</th>
@@ -2726,7 +2726,7 @@ This is useful to identify pairs of files that score high in most metrics, which
     <tr>
       <th>9</th>
       <td>adoc↔adoc</td>
-      <td>nav↔index</td>
+      <td>index↔nav</td>
       <td>45</td>
       <td>11</td>
       <td>14</td>
@@ -2736,7 +2736,7 @@ This is useful to identify pairs of files that score high in most metrics, which
       <td>0.473684</td>
       <td>0.300000</td>
       <td>53.905263</td>
-      <td>docs/old-reference-guide/modules/tuning/partials/nav.adoc↔docs/old-reference-guide/modules/tuning/pages/index.adoc</td>
+      <td>docs/old-reference-guide/modules/tuning/pages/index.adoc↔docs/old-reference-guide/modules/tuning/partials/nav.adoc</td>
     </tr>
     <tr>
       <th>10</th>
@@ -2756,21 +2756,6 @@ This is useful to identify pairs of files that score high in most metrics, which
     <tr>
       <th>11</th>
       <td>java↔java</td>
-      <td>Event↔Query</td>
-      <td>54</td>
-      <td>50</td>
-      <td>1</td>
-      <td>1</td>
-      <td>2</td>
-      <td>4</td>
-      <td>1.000000</td>
-      <td>1.000000</td>
-      <td>569.000000</td>
-      <td>messaging/src/main/java/org/axonframework/messaging/eventhandling/annotation/Event.java↔messaging/src/main/java/org/axonframework/messaging/queryhandling/annotation/Query.java</td>
-    </tr>
-    <tr>
-      <th>12</th>
-      <td>java↔java</td>
       <td>Command↔Query</td>
       <td>54</td>
       <td>50</td>
@@ -2784,9 +2769,9 @@ This is useful to identify pairs of files that score high in most metrics, which
       <td>messaging/src/main/java/org/axonframework/messaging/commandhandling/annotation/Command.java↔messaging/src/main/java/org/axonframework/messaging/queryhandling/annotation/Query.java</td>
     </tr>
     <tr>
-      <th>13</th>
+      <th>12</th>
       <td>java↔java</td>
-      <td>Command↔QueryResponse</td>
+      <td>Event↔Query</td>
       <td>54</td>
       <td>50</td>
       <td>1</td>
@@ -2796,10 +2781,10 @@ This is useful to identify pairs of files that score high in most metrics, which
       <td>1.000000</td>
       <td>1.000000</td>
       <td>569.000000</td>
-      <td>messaging/src/main/java/org/axonframework/messaging/commandhandling/annotation/Command.java↔messaging/src/main/java/org/axonframework/messaging/queryhandling/annotation/QueryResponse.java</td>
+      <td>messaging/src/main/java/org/axonframework/messaging/eventhandling/annotation/Event.java↔messaging/src/main/java/org/axonframework/messaging/queryhandling/annotation/Query.java</td>
     </tr>
     <tr>
-      <th>14</th>
+      <th>13</th>
       <td>java↔java</td>
       <td>Query↔QueryResponse</td>
       <td>54</td>
@@ -2814,7 +2799,7 @@ This is useful to identify pairs of files that score high in most metrics, which
       <td>messaging/src/main/java/org/axonframework/messaging/queryhandling/annotation/Query.java↔messaging/src/main/java/org/axonframework/messaging/queryhandling/annotation/QueryResponse.java</td>
     </tr>
     <tr>
-      <th>15</th>
+      <th>14</th>
       <td>java↔java</td>
       <td>Event↔QueryResponse</td>
       <td>54</td>
@@ -2827,6 +2812,21 @@ This is useful to identify pairs of files that score high in most metrics, which
       <td>1.000000</td>
       <td>569.000000</td>
       <td>messaging/src/main/java/org/axonframework/messaging/eventhandling/annotation/Event.java↔messaging/src/main/java/org/axonframework/messaging/queryhandling/annotation/QueryResponse.java</td>
+    </tr>
+    <tr>
+      <th>15</th>
+      <td>java↔java</td>
+      <td>Command↔QueryResponse</td>
+      <td>54</td>
+      <td>50</td>
+      <td>1</td>
+      <td>1</td>
+      <td>2</td>
+      <td>4</td>
+      <td>1.000000</td>
+      <td>1.000000</td>
+      <td>569.000000</td>
+      <td>messaging/src/main/java/org/axonframework/messaging/commandhandling/annotation/Command.java↔messaging/src/main/java/org/axonframework/messaging/queryhandling/annotation/QueryResponse.java</td>
     </tr>
     <tr>
       <th>16</th>
@@ -2861,21 +2861,6 @@ This is useful to identify pairs of files that score high in most metrics, which
     <tr>
       <th>18</th>
       <td>java↔java</td>
-      <td>GetterEvolverChildEntityFieldDefinitionTest↔GetterSetterChildEntityFieldDefinitionTest</td>
-      <td>54</td>
-      <td>51</td>
-      <td>1</td>
-      <td>1</td>
-      <td>1</td>
-      <td>3</td>
-      <td>1.000000</td>
-      <td>1.000000</td>
-      <td>758.666667</td>
-      <td>modelling/src/test/java/org/axonframework/modelling/entity/child/GetterEvolverChildEntityFieldDefinitionTest.java↔modelling/src/test/java/org/axonframework/modelling/entity/child/GetterSetterChildEntityFieldDefinitionTest.java</td>
-    </tr>
-    <tr>
-      <th>19</th>
-      <td>java↔java</td>
       <td>FieldChildEntityFieldDefinitionTest↔GetterSetterChildEntityFieldDefinitionTest</td>
       <td>54</td>
       <td>51</td>
@@ -2887,6 +2872,21 @@ This is useful to identify pairs of files that score high in most metrics, which
       <td>1.000000</td>
       <td>758.666667</td>
       <td>modelling/src/test/java/org/axonframework/modelling/entity/child/FieldChildEntityFieldDefinitionTest.java↔modelling/src/test/java/org/axonframework/modelling/entity/child/GetterSetterChildEntityFieldDefinitionTest.java</td>
+    </tr>
+    <tr>
+      <th>19</th>
+      <td>java↔java</td>
+      <td>GetterEvolverChildEntityFieldDefinitionTest↔GetterSetterChildEntityFieldDefinitionTest</td>
+      <td>54</td>
+      <td>51</td>
+      <td>1</td>
+      <td>1</td>
+      <td>1</td>
+      <td>3</td>
+      <td>1.000000</td>
+      <td>1.000000</td>
+      <td>758.666667</td>
+      <td>modelling/src/test/java/org/axonframework/modelling/entity/child/GetterEvolverChildEntityFieldDefinitionTest.java↔modelling/src/test/java/org/axonframework/modelling/entity/child/GetterSetterChildEntityFieldDefinitionTest.java</td>
     </tr>
     <tr>
       <th>20</th>
@@ -2996,21 +2996,6 @@ This is useful to identify pairs of files that score high in most metrics, which
     <tr>
       <th>27</th>
       <td>java↔md</td>
-      <td>AxonServerEventStorageEngine↔api-changes</td>
-      <td>68</td>
-      <td>9</td>
-      <td>16</td>
-      <td>15</td>
-      <td>28</td>
-      <td>34</td>
-      <td>0.350515</td>
-      <td>0.051750</td>
-      <td>1.343053</td>
-      <td>axon-server-connector/src/main/java/org/axonframework/axonserver/connector/event/AxonServerEventStorageEngine.java↔axon-5/api-changes.md</td>
-    </tr>
-    <tr>
-      <th>28</th>
-      <td>java↔md</td>
       <td>StorageEngineTestSuite↔api-changes</td>
       <td>68</td>
       <td>3</td>
@@ -3022,6 +3007,21 @@ This is useful to identify pairs of files that score high in most metrics, which
       <td>0.090305</td>
       <td>1.147807</td>
       <td>eventsourcing/src/test/java/org/axonframework/eventsourcing/eventstore/StorageEngineTestSuite.java↔axon-5/api-changes.md</td>
+    </tr>
+    <tr>
+      <th>28</th>
+      <td>java↔md</td>
+      <td>AxonServerEventStorageEngine↔api-changes</td>
+      <td>68</td>
+      <td>9</td>
+      <td>16</td>
+      <td>15</td>
+      <td>28</td>
+      <td>34</td>
+      <td>0.350515</td>
+      <td>0.051750</td>
+      <td>1.343053</td>
+      <td>axon-server-connector/src/main/java/org/axonframework/axonserver/connector/event/AxonServerEventStorageEngine.java↔axon-5/api-changes.md</td>
     </tr>
     <tr>
       <th>29</th>
@@ -3066,7 +3066,7 @@ This is useful to identify pairs of files that score high in most metrics, which
       <td>0.600000</td>
       <td>0.428571</td>
       <td>136.560000</td>
-      <td>stash/legacy-aggregate/pom.xml↔stash/legacy/pom.xml</td>
+      <td>stash/legacy-saga/pom.xml↔stash/legacy/pom.xml</td>
     </tr>
     <tr>
       <th>32</th>
@@ -3081,7 +3081,7 @@ This is useful to identify pairs of files that score high in most metrics, which
       <td>0.600000</td>
       <td>0.428571</td>
       <td>136.560000</td>
-      <td>stash/legacy-saga/pom.xml↔stash/legacy/pom.xml</td>
+      <td>stash/legacy-aggregate/pom.xml↔stash/legacy/pom.xml</td>
     </tr>
     <tr>
       <th>33</th>
@@ -3096,7 +3096,7 @@ This is useful to identify pairs of files that score high in most metrics, which
       <td>0.600000</td>
       <td>0.428571</td>
       <td>136.560000</td>
-      <td>stash/legacy/pom.xml↔stash/todo/pom.xml</td>
+      <td>stash/legacy-saga/pom.xml↔stash/todo/pom.xml</td>
     </tr>
     <tr>
       <th>34</th>
@@ -3111,7 +3111,7 @@ This is useful to identify pairs of files that score high in most metrics, which
       <td>0.600000</td>
       <td>0.428571</td>
       <td>136.560000</td>
-      <td>stash/legacy-aggregate/pom.xml↔stash/todo/pom.xml</td>
+      <td>stash/legacy/pom.xml↔stash/todo/pom.xml</td>
     </tr>
     <tr>
       <th>35</th>
@@ -3126,7 +3126,7 @@ This is useful to identify pairs of files that score high in most metrics, which
       <td>0.600000</td>
       <td>0.428571</td>
       <td>136.560000</td>
-      <td>stash/legacy-saga/pom.xml↔stash/todo/pom.xml</td>
+      <td>stash/legacy-aggregate/pom.xml↔stash/todo/pom.xml</td>
     </tr>
     <tr>
       <th>36</th>
@@ -3279,20 +3279,6 @@ The frontier = the “best tradeoffs.”
     </tr>
     <tr>
       <th>4</th>
-      <td>DefaultAppendConditionTest↔NoAppendConditionTest</td>
-      <td>163</td>
-      <td>35</td>
-      <td>0.648148</td>
-      <td>0.448718</td>
-      <td>25.003139</td>
-      <td>20</td>
-      <td>10</td>
-      <td>12</td>
-      <td>121</td>
-      <td>eventsourcing/src/test/java/org/axonframework/eventsourcing/eventstore/DefaultAppendConditionTest.java↔eventsourcing/src/test/java/org/axonframework/eventsourcing/eventstore/NoAppendConditionTest.java</td>
-    </tr>
-    <tr>
-      <th>5</th>
       <td>NoAppendCondition↔NoAppendConditionTest</td>
       <td>183</td>
       <td>37</td>
@@ -3304,6 +3290,20 @@ The frontier = the “best tradeoffs.”
       <td>14</td>
       <td>137</td>
       <td>eventsourcing/src/main/java/org/axonframework/eventsourcing/eventstore/NoAppendCondition.java↔eventsourcing/src/test/java/org/axonframework/eventsourcing/eventstore/NoAppendConditionTest.java</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>DefaultAppendConditionTest↔NoAppendConditionTest</td>
+      <td>163</td>
+      <td>35</td>
+      <td>0.648148</td>
+      <td>0.448718</td>
+      <td>25.003139</td>
+      <td>20</td>
+      <td>10</td>
+      <td>12</td>
+      <td>121</td>
+      <td>eventsourcing/src/test/java/org/axonframework/eventsourcing/eventstore/DefaultAppendConditionTest.java↔eventsourcing/src/test/java/org/axonframework/eventsourcing/eventstore/NoAppendConditionTest.java</td>
     </tr>
     <tr>
       <th>6</th>
@@ -3349,20 +3349,6 @@ The frontier = the “best tradeoffs.”
     </tr>
     <tr>
       <th>9</th>
-      <td>Event↔Query</td>
-      <td>54</td>
-      <td>4</td>
-      <td>1.000000</td>
-      <td>1.000000</td>
-      <td>569.000000</td>
-      <td>50</td>
-      <td>1</td>
-      <td>1</td>
-      <td>2</td>
-      <td>messaging/src/main/java/org/axonframework/messaging/eventhandling/annotation/Event.java↔messaging/src/main/java/org/axonframework/messaging/queryhandling/annotation/Query.java</td>
-    </tr>
-    <tr>
-      <th>10</th>
       <td>Command↔Query</td>
       <td>54</td>
       <td>4</td>
@@ -3376,8 +3362,8 @@ The frontier = the “best tradeoffs.”
       <td>messaging/src/main/java/org/axonframework/messaging/commandhandling/annotation/Command.java↔messaging/src/main/java/org/axonframework/messaging/queryhandling/annotation/Query.java</td>
     </tr>
     <tr>
-      <th>11</th>
-      <td>Command↔QueryResponse</td>
+      <th>10</th>
+      <td>Event↔Query</td>
       <td>54</td>
       <td>4</td>
       <td>1.000000</td>
@@ -3387,10 +3373,10 @@ The frontier = the “best tradeoffs.”
       <td>1</td>
       <td>1</td>
       <td>2</td>
-      <td>messaging/src/main/java/org/axonframework/messaging/commandhandling/annotation/Command.java↔messaging/src/main/java/org/axonframework/messaging/queryhandling/annotation/QueryResponse.java</td>
+      <td>messaging/src/main/java/org/axonframework/messaging/eventhandling/annotation/Event.java↔messaging/src/main/java/org/axonframework/messaging/queryhandling/annotation/Query.java</td>
     </tr>
     <tr>
-      <th>12</th>
+      <th>11</th>
       <td>Query↔QueryResponse</td>
       <td>54</td>
       <td>4</td>
@@ -3404,7 +3390,7 @@ The frontier = the “best tradeoffs.”
       <td>messaging/src/main/java/org/axonframework/messaging/queryhandling/annotation/Query.java↔messaging/src/main/java/org/axonframework/messaging/queryhandling/annotation/QueryResponse.java</td>
     </tr>
     <tr>
-      <th>13</th>
+      <th>12</th>
       <td>Event↔QueryResponse</td>
       <td>54</td>
       <td>4</td>
@@ -3416,6 +3402,20 @@ The frontier = the “best tradeoffs.”
       <td>1</td>
       <td>2</td>
       <td>messaging/src/main/java/org/axonframework/messaging/eventhandling/annotation/Event.java↔messaging/src/main/java/org/axonframework/messaging/queryhandling/annotation/QueryResponse.java</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>Command↔QueryResponse</td>
+      <td>54</td>
+      <td>4</td>
+      <td>1.000000</td>
+      <td>1.000000</td>
+      <td>569.000000</td>
+      <td>50</td>
+      <td>1</td>
+      <td>1</td>
+      <td>2</td>
+      <td>messaging/src/main/java/org/axonframework/messaging/commandhandling/annotation/Command.java↔messaging/src/main/java/org/axonframework/messaging/queryhandling/annotation/QueryResponse.java</td>
     </tr>
     <tr>
       <th>14</th>
@@ -3461,20 +3461,6 @@ The frontier = the “best tradeoffs.”
     </tr>
     <tr>
       <th>17</th>
-      <td>GetterEvolverChildEntityFieldDefinitionTest↔GetterSetterChildEntityFieldDefinitionTest</td>
-      <td>54</td>
-      <td>3</td>
-      <td>1.000000</td>
-      <td>1.000000</td>
-      <td>758.666667</td>
-      <td>51</td>
-      <td>1</td>
-      <td>1</td>
-      <td>1</td>
-      <td>modelling/src/test/java/org/axonframework/modelling/entity/child/GetterEvolverChildEntityFieldDefinitionTest.java↔modelling/src/test/java/org/axonframework/modelling/entity/child/GetterSetterChildEntityFieldDefinitionTest.java</td>
-    </tr>
-    <tr>
-      <th>18</th>
       <td>FieldChildEntityFieldDefinitionTest↔GetterSetterChildEntityFieldDefinitionTest</td>
       <td>54</td>
       <td>3</td>
@@ -3486,6 +3472,20 @@ The frontier = the “best tradeoffs.”
       <td>1</td>
       <td>1</td>
       <td>modelling/src/test/java/org/axonframework/modelling/entity/child/FieldChildEntityFieldDefinitionTest.java↔modelling/src/test/java/org/axonframework/modelling/entity/child/GetterSetterChildEntityFieldDefinitionTest.java</td>
+    </tr>
+    <tr>
+      <th>18</th>
+      <td>GetterEvolverChildEntityFieldDefinitionTest↔GetterSetterChildEntityFieldDefinitionTest</td>
+      <td>54</td>
+      <td>3</td>
+      <td>1.000000</td>
+      <td>1.000000</td>
+      <td>758.666667</td>
+      <td>51</td>
+      <td>1</td>
+      <td>1</td>
+      <td>1</td>
+      <td>modelling/src/test/java/org/axonframework/modelling/entity/child/GetterEvolverChildEntityFieldDefinitionTest.java↔modelling/src/test/java/org/axonframework/modelling/entity/child/GetterSetterChildEntityFieldDefinitionTest.java</td>
     </tr>
     <tr>
       <th>19</th>

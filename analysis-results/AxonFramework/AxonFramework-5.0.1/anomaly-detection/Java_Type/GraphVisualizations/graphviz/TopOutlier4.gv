@@ -12,65 +12,61 @@ strict digraph TopOutlier4 {
     central [fontsize = 16;];
     central [color = 7; fillcolor = 5; penwidth = 3;];
 
-	graph   [label="Top Rank #4 Java Type Outlier\norg.axonframework.axonserver.connector.event.AxonServerEventStorageEngine\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: cluster probability\nlarge circle: < 25% percentile of cluster probability\nthick outline: > 80% percentile of distance to cluster center\n\n"];
-	central [label="🧩 outlier #4\nAxonServerEventStorageEngine"];
-	"AxonServerEventStorageEngineFactory_7246"  [shape = "circle"; height=1.8; label = "AxonServerEventStorageEngineFactory\n(0.0%)"; penwidth = 2; ]; "AxonServerEventStorageEngineFactory_7246" -> central [label=9; weight=9; penwidth=0.5];
-	"AxonServerEventStorageEngine$AxonServerAppendTransaction_9405"  [label = "AxonServerEventStorageEngine$\nAxonServerAppendTransaction\n(54.9%)"; penwidth = 5; ]; "AxonServerEventStorageEngine$AxonServerAppendTransaction_9405" -> central [label=3; weight=3; penwidth=0.4];
-	"GlobalSequenceTrackingToken_31463"  [shape = "circle"; height=1.8; label = "GlobalSequenceTrackingToken\n(0.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "GlobalSequenceTrackingToken_31463" [label=6; weight=6; penwidth=0.5; color = 5];
-	"ProcessingContext_25604"  [shape = "circle"; height=1.8; label = "ProcessingContext\n(0.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "ProcessingContext_25604" [label=6; weight=6; penwidth=0.5; color = 5];
-	"TrackingToken_29328"  [label = "TrackingToken\n(31.19%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "TrackingToken_29328" [label=6; weight=6; penwidth=0.5; color = 5];
-	"TaggedEventConverter_8414"  [label = "TaggedEventConverter\n(44.79%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "TaggedEventConverter_8414" [label=4; weight=4; penwidth=0.5; color = 5];
-	"AxonServerEventStorageEngine$AxonServerAppendTransaction_9405"  [label = "AxonServerEventStorageEngine$\nAxonServerAppendTransaction\n(54.9%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "AxonServerEventStorageEngine$AxonServerAppendTransaction_9405" [label=3; weight=3; penwidth=0.4; color = 5];
-	"ComponentDescriptor_3148"  [shape = "circle"; height=1.8; label = "ComponentDescriptor\n(0.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "ComponentDescriptor_3148" [label=3; weight=3; penwidth=0.4; color = 5];
-	"ConditionConverter_8419"  [shape = "circle"; height=1.8; label = "ConditionConverter\n(0.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "ConditionConverter_8419" [label=3; weight=3; penwidth=0.4; color = 5];
-	"EventMessage_25601"  [shape = "circle"; height=1.8; label = "EventMessage\n(0.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "EventMessage_25601" [label=2; weight=2; penwidth=0.4; color = 5];
-	"EventStorageEngine$AppendTransaction_16427"  [label = "EventStorageEngine$\nAppendTransaction\n(91.97%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "EventStorageEngine$AppendTransaction_16427" [label=2; weight=2; penwidth=0.4; color = 5];
-	"MessageStream_25606"  [label = "MessageStream\n(36.94%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "MessageStream_25606" [label=2; weight=2; penwidth=0.4; color = 5];
-	"SourcingEventMessageStream_8416"  [label = "SourcingEventMessageStream\n(100.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "SourcingEventMessageStream_8416" [label=2; weight=2; penwidth=0.4; color = 5];
-	"StreamingEventMessageStream_9243"  [label = "StreamingEventMessageStream\n(100.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "StreamingEventMessageStream_9243" [label=2; weight=2; penwidth=0.4; color = 5];
-	"AppendCondition_16826"  [label = "AppendCondition\n(91.97%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "AppendCondition_16826" [label=1; weight=1; penwidth=0.4; color = 5];
-	"EmptyAppendTransaction_16830"  [label = "EmptyAppendTransaction\n(74.59%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "EmptyAppendTransaction_16830" [label=1; weight=1; penwidth=0.4; color = 5];
-	"EventConverter_29314"  [shape = "circle"; height=1.8; label = "EventConverter\n(0.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "EventConverter_29314" [label=1; weight=1; penwidth=0.4; color = 5];
-	"EventStorageEngine_16825"  [shape = "circle"; height=1.8; label = "EventStorageEngine\n(0.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "EventStorageEngine_16825" [label=1; weight=1; penwidth=0.4; color = 5];
-	"SourcingCondition_14880"  [label = "SourcingCondition\n(79.23%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "SourcingCondition_14880" [label=1; weight=1; penwidth=0.4; color = 5];
-	"StreamingCondition_33437"  [shape = "circle"; height=1.8; label = "StreamingCondition\n(0.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "StreamingCondition_33437" [label=1; weight=1; penwidth=0.4; color = 5];
-	"TaggedEventMessage_16420"  [shape = "circle"; height=1.8; label = "TaggedEventMessage\n(0.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "TaggedEventMessage_16420" [label=1; weight=1; penwidth=0.4; color = 5];
-	"GlobalSequenceTrackingToken_31463" -> "TrackingToken_29328" [label=12; weight=12; penwidth=0.3; color = 3]
-	"TaggedEventConverter_8414" -> "EventMessage_25601" [label=9; weight=9; penwidth=0.3; color = 3]
-	"EventStorageEngine_16825" -> "ProcessingContext_25604" [label=7; weight=7; penwidth=0.3; color = 3]
-	"SourcingEventMessageStream_8416" -> "EventMessage_25601" [label=5; weight=5; penwidth=0.3; color = 3]
-	"AxonServerEventStorageEngine$AxonServerAppendTransaction_9405" -> "ProcessingContext_25604" [label=4; weight=4; penwidth=0.3; color = 3]
-	"EmptyAppendTransaction_16830" -> "ProcessingContext_25604" [label=4; weight=4; penwidth=0.3; color = 3]
-	"EventConverter_29314" -> "EventMessage_25601" [label=4; weight=4; penwidth=0.3; color = 3]
-	"SourcingEventMessageStream_8416" -> "TaggedEventConverter_8414" [label=4; weight=4; penwidth=0.3; color = 3]
-	"StreamingEventMessageStream_9243" -> "TaggedEventConverter_8414" [label=4; weight=4; penwidth=0.3; color = 3]
-	"StreamingEventMessageStream_9243" -> "EventMessage_25601" [label=4; weight=4; penwidth=0.3; color = 3]
-	"AxonServerEventStorageEngineFactory_7246" -> "ComponentDescriptor_3148" [label=3; weight=3; penwidth=0.3; color = 3]
-	"ConditionConverter_8419" -> "AppendCondition_16826" [label=3; weight=3; penwidth=0.3; color = 3]
-	"ConditionConverter_8419" -> "StreamingCondition_33437" [label=3; weight=3; penwidth=0.3; color = 3]
-	"ConditionConverter_8419" -> "SourcingCondition_14880" [label=3; weight=3; penwidth=0.3; color = 3]
-	"EmptyAppendTransaction_16830" -> "EventStorageEngine$AppendTransaction_16427" [label=3; weight=3; penwidth=0.3; color = 3]
-	"EventStorageEngine_16825" -> "TrackingToken_29328" [label=3; weight=3; penwidth=0.3; color = 3]
-	"EventStorageEngine_16825" -> "EventStorageEngine$AppendTransaction_16427" [label=3; weight=3; penwidth=0.3; color = 3]
-	"EventStorageEngine$AppendTransaction_16427" -> "ProcessingContext_25604" [label=3; weight=3; penwidth=0.3; color = 3]
-	"StreamingCondition_33437" -> "TrackingToken_29328" [label=3; weight=3; penwidth=0.3; color = 3]
-	"TaggedEventConverter_8414" -> "EventConverter_29314" [label=3; weight=3; penwidth=0.3; color = 3]
-	"TaggedEventConverter_8414" -> "TaggedEventMessage_16420" [label=3; weight=3; penwidth=0.3; color = 3]
-	"AxonServerEventStorageEngine$AxonServerAppendTransaction_9405" -> "EventStorageEngine$AppendTransaction_16427" [label=2; weight=2; penwidth=0.3; color = 3]
-	"AxonServerEventStorageEngineFactory_7246" -> "EventConverter_29314" [label=2; weight=2; penwidth=0.3; color = 3]
-	"EventStorageEngine_16825" -> "EventMessage_25601" [label=2; weight=2; penwidth=0.3; color = 3]
-	"EventStorageEngine_16825" -> "MessageStream_25606" [label=2; weight=2; penwidth=0.3; color = 3]
-	"EventStorageEngine_16825" -> "AppendCondition_16826" [label=2; weight=2; penwidth=0.3; color = 3]
-	"EventStorageEngine_16825" -> "TaggedEventMessage_16420" [label=2; weight=2; penwidth=0.3; color = 3]
-	"SourcingEventMessageStream_8416" -> "GlobalSequenceTrackingToken_31463" [label=2; weight=2; penwidth=0.3; color = 3]
-	"StreamingEventMessageStream_9243" -> "GlobalSequenceTrackingToken_31463" [label=2; weight=2; penwidth=0.3; color = 3]
-	"TaggedEventConverter_8414" -> "ComponentDescriptor_3148" [label=2; weight=2; penwidth=0.3; color = 3]
-	"ConditionConverter_8419" -> "TrackingToken_29328" [label=1; weight=1; penwidth=0.3; color = 3]
-	"EventStorageEngine_16825" -> "StreamingCondition_33437" [label=1; weight=1; penwidth=0.3; color = 3]
-	"EventStorageEngine_16825" -> "SourcingCondition_14880" [label=1; weight=1; penwidth=0.3; color = 3]
-	"SourcingEventMessageStream_8416" -> "MessageStream_25606" [label=1; weight=1; penwidth=0.3; color = 3]
-	"SourcingEventMessageStream_8416" -> "TrackingToken_29328" [label=1; weight=1; penwidth=0.3; color = 3]
-	"StreamingEventMessageStream_9243" -> "TrackingToken_29328" [label=1; weight=1; penwidth=0.3; color = 3]
-	"StreamingEventMessageStream_9243" -> "MessageStream_25606" [label=1; weight=1; penwidth=0.3; color = 3]
-	"TaggedEventMessage_16420" -> "EventMessage_25601" [label=1; weight=1; penwidth=0.3; color = 3]
+	graph   [label="Top Rank #4 Java Type Outlier\norg.axonframework.messaging.core.conversion.MessageConverter\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: cluster probability\nlarge circle: < 25% percentile of cluster probability\nthick outline: > 80% percentile of distance to cluster center\n\n"];
+	central [label="🧩 outlier #4\nMessageConverter"];
+	"DelegatingEventConverter_29711"  [label = "DelegatingEventConverter\n(58.23%)"; penwidth = 2; ]; "DelegatingEventConverter_29711" -> central [label=10; weight=10; penwidth=0.6];
+	"AnnotatedEntityMetamodel_11459"  [label = "AnnotatedEntityMetamodel\n(100.0%)"; penwidth = 5; ]; "AnnotatedEntityMetamodel_11459" -> central [label=6; weight=6; penwidth=0.5];
+	"MessagingConfigurationDefaults_46392"  [label = "MessagingConfigurationDefaults\n(71.17%)"; penwidth = 5; ]; "MessagingConfigurationDefaults_46392" -> central [label=6; weight=6; penwidth=0.5];
+	"AnnotatedCommandHandlingComponent_26940"  [shape = "circle"; height=1.8; label = "AnnotatedCommandHandlingComponent\n(0.0%)"; penwidth = 2; ]; "AnnotatedCommandHandlingComponent_26940" -> central [label=5; weight=5; penwidth=0.5];
+	"AnnotatedQueryHandlingComponent_36776"  [shape = "circle"; height=1.8; label = "AnnotatedQueryHandlingComponent\n(0.0%)"; penwidth = 2; ]; "AnnotatedQueryHandlingComponent_36776" -> central [label=5; weight=5; penwidth=0.5];
+	"AnnotatedEventSourcedEntityModule_18208"  [label = "AnnotatedEventSourcedEntityModule\n(85.05%)"; penwidth = 2; ]; "AnnotatedEventSourcedEntityModule_18208" -> central [label=4; weight=4; penwidth=0.5];
+	"AxonServerConfigurationEnhancer_7231"  [label = "AxonServerConfigurationEnhancer\n(39.37%)"; penwidth = 2; ]; "AxonServerConfigurationEnhancer_7231" -> central [label=4; weight=4; penwidth=0.5];
+	"AnnotatedEntityIdResolver_10882"  [shape = "circle"; height=1.8; label = "AnnotatedEntityIdResolver\n(0.0%)"; penwidth = 2; ]; "AnnotatedEntityIdResolver_10882" -> central [label=3; weight=3; penwidth=0.4];
+	"ConvertingCommandGateway_28358"  [label = "ConvertingCommandGateway\n(100.0%)"; penwidth = 2; ]; "ConvertingCommandGateway_28358" -> central [label=3; weight=3; penwidth=0.4];
+	"ConvertingCommandGateway$ConvertingCommandResult_28372"  [label = "ConvertingCommandGateway$\nConvertingCommandResult\n(100.0%)"; penwidth = 2; ]; "ConvertingCommandGateway$ConvertingCommandResult_28372" -> central [label=3; weight=3; penwidth=0.4];
+	"DefaultQueryGateway_37712"  [label = "DefaultQueryGateway\n(81.11%)"; penwidth = 2; ]; "DefaultQueryGateway_37712" -> central [label=3; weight=3; penwidth=0.4];
+	"PayloadConvertingCommandBusConnector_26935"  [label = "PayloadConvertingCommandBusConnector\n(100.0%)"; penwidth = 2; ]; "PayloadConvertingCommandBusConnector_26935" -> central [label=3; weight=3; penwidth=0.4];
+	"PayloadConvertingQueryBusConnector_36728"  [shape = "circle"; height=1.8; label = "PayloadConvertingQueryBusConnector\n(15.32%)"; penwidth = 2; ]; "PayloadConvertingQueryBusConnector_36728" -> central [label=3; weight=3; penwidth=0.4];
+	"SimpleQueryUpdateEmitter_38830"  [label = "SimpleQueryUpdateEmitter\n(80.67%)"; penwidth = 2; ]; "SimpleQueryUpdateEmitter_38830" -> central [label=3; weight=3; penwidth=0.4];
+	"AnnotatedEntityIdResolverDefinition_11542"  [label = "AnnotatedEntityIdResolverDefinition\n(80.9%)"; penwidth = 5; ]; "AnnotatedEntityIdResolverDefinition_11542" -> central [label=2; weight=2; penwidth=0.4];
+	"CommandHandlingModule$CommandHandlerPhase_29448"  [label = "CommandHandlingModule$\nCommandHandlerPhase\n(100.0%)"; penwidth = 2; ]; "CommandHandlingModule$CommandHandlerPhase_29448" -> central [label=2; weight=2; penwidth=0.4];
+	"ConverterAutoConfiguration_22801"  [label = "ConverterAutoConfiguration\n(73.08%)"; penwidth = 2; ]; "ConverterAutoConfiguration_22801" -> central [label=2; weight=2; penwidth=0.4];
+	"QueryHandlingModule$QueryHandlerPhase_38878"  [label = "QueryHandlingModule$\nQueryHandlerPhase\n(81.19%)"; penwidth = 5; ]; "QueryHandlingModule$QueryHandlerPhase_38878" -> central [label=2; weight=2; penwidth=0.4];
+	"QueryUpdateEmitter_36748"  [label = "QueryUpdateEmitter\n(44.55%)"; penwidth = 5; ]; "QueryUpdateEmitter_36748" -> central [label=2; weight=2; penwidth=0.4];
+	"AnnotatedEntityModelRoutingKeyMatcher_10897"  [label = "AnnotatedEntityModelRoutingKeyMatcher\n(100.0%)"; penwidth = 2; ]; "AnnotatedEntityModelRoutingKeyMatcher_10897" -> central [label=1; weight=1; penwidth=0.4];
+	"DelegatingMessageConverter_30426"  [label = "DelegatingMessageConverter\n(58.23%)"; penwidth = 2; ]; "DelegatingMessageConverter_30426" -> central [label=1; weight=1; penwidth=0.4];
+	"Message_25595"  [shape = "circle"; height=1.8; label = "Message\n(0.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "Message_25595" [label=4; weight=4; penwidth=0.5; color = 5];
+	"Converter_49363"  [label = "Converter\n(57.09%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "Converter_49363" [label=1; weight=1; penwidth=0.4; color = 5];
+	"AnnotatedEntityModelRoutingKeyMatcher_10897" -> "AnnotatedEntityMetamodel_11459" [label=7; weight=7; penwidth=0.3; color = 3]
+	"ConverterAutoConfiguration_22801" -> "DelegatingEventConverter_29711" [label=6; weight=6; penwidth=0.3; color = 3]
+	"ConvertingCommandGateway$ConvertingCommandResult_28372" -> "Message_25595" [label=6; weight=6; penwidth=0.3; color = 3]
+	"DelegatingMessageConverter_30426" -> "Converter_49363" [label=6; weight=6; penwidth=0.3; color = 3]
+	"Message_25595" -> "Converter_49363" [label=6; weight=6; penwidth=0.3; color = 3]
+	"MessagingConfigurationDefaults_46392" -> "Converter_49363" [label=6; weight=6; penwidth=0.3; color = 3]
+	"MessagingConfigurationDefaults_46392" -> "DelegatingEventConverter_29711" [label=5; weight=5; penwidth=0.3; color = 3]
+	"AnnotatedEntityIdResolver_10882" -> "Message_25595" [label=4; weight=4; penwidth=0.3; color = 3]
+	"AnnotatedEntityIdResolver_10882" -> "AnnotatedEntityMetamodel_11459" [label=4; weight=4; penwidth=0.3; color = 3]
+	"AnnotatedEntityModelRoutingKeyMatcher_10897" -> "Message_25595" [label=4; weight=4; penwidth=0.3; color = 3]
+	"AnnotatedEventSourcedEntityModule_18208" -> "AnnotatedEntityMetamodel_11459" [label=4; weight=4; penwidth=0.3; color = 3]
+	"AxonServerConfigurationEnhancer_7231" -> "PayloadConvertingCommandBusConnector_26935" [label=4; weight=4; penwidth=0.3; color = 3]
+	"AxonServerConfigurationEnhancer_7231" -> "PayloadConvertingQueryBusConnector_36728" [label=4; weight=4; penwidth=0.3; color = 3]
+	"ConverterAutoConfiguration_22801" -> "DelegatingMessageConverter_30426" [label=4; weight=4; penwidth=0.3; color = 3]
+	"ConverterAutoConfiguration_22801" -> "Converter_49363" [label=4; weight=4; penwidth=0.3; color = 3]
+	"DelegatingMessageConverter_30426" -> "Message_25595" [label=4; weight=4; penwidth=0.3; color = 3]
+	"ConvertingCommandGateway_28358" -> "ConvertingCommandGateway$ConvertingCommandResult_28372" [label=3; weight=3; penwidth=0.3; color = 3]
+	"MessagingConfigurationDefaults_46392" -> "DelegatingMessageConverter_30426" [label=3; weight=3; penwidth=0.3; color = 3]
+	"AnnotatedEntityIdResolverDefinition_11542" -> "AnnotatedEntityIdResolver_10882" [label=2; weight=2; penwidth=0.3; color = 3]
+	"CommandHandlingModule$CommandHandlerPhase_29448" -> "AnnotatedCommandHandlingComponent_26940" [label=2; weight=2; penwidth=0.3; color = 3]
+	"DefaultQueryGateway_37712" -> "Message_25595" [label=2; weight=2; penwidth=0.3; color = 3]
+	"DelegatingEventConverter_29711" -> "DelegatingMessageConverter_30426" [label=2; weight=2; penwidth=0.3; color = 3]
+	"MessagingConfigurationDefaults_46392" -> "DefaultQueryGateway_37712" [label=2; weight=2; penwidth=0.3; color = 3]
+	"MessagingConfigurationDefaults_46392" -> "ConvertingCommandGateway_28358" [label=2; weight=2; penwidth=0.3; color = 3]
+	"QueryHandlingModule$QueryHandlerPhase_38878" -> "AnnotatedQueryHandlingComponent_36776" [label=2; weight=2; penwidth=0.3; color = 3]
+	"QueryUpdateEmitter_36748" -> "SimpleQueryUpdateEmitter_38830" [label=2; weight=2; penwidth=0.3; color = 3]
+	"SimpleQueryUpdateEmitter_38830" -> "Message_25595" [label=2; weight=2; penwidth=0.3; color = 3]
+	"AnnotatedCommandHandlingComponent_26940" -> "Message_25595" [label=1; weight=1; penwidth=0.3; color = 3]
+	"AnnotatedEntityIdResolverDefinition_11542" -> "AnnotatedEntityMetamodel_11459" [label=1; weight=1; penwidth=0.3; color = 3]
+	"AnnotatedQueryHandlingComponent_36776" -> "Message_25595" [label=1; weight=1; penwidth=0.3; color = 3]
+	"DelegatingEventConverter_29711" -> "Converter_49363" [label=1; weight=1; penwidth=0.3; color = 3]
+	"SimpleQueryUpdateEmitter_38830" -> "QueryUpdateEmitter_36748" [label=1; weight=1; penwidth=0.3; color = 3]
 }

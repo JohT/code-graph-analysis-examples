@@ -12,26 +12,19 @@ strict digraph TopBridge1 {
     central [fontsize = 16;];
     central [color = 7; fillcolor = 5; penwidth = 3;];
 
-	graph   [label="Top Rank #1 Java Type Bridge\norg.axonframework.update.api.UpdateCheckResponse\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
-	central [label="🌉 bridge #1\nUpdateCheckResponse"];
-	"LoggingUpdateCheckerReporter_50587" [label = "LoggingUpdateCheckerReporter"; ]; "LoggingUpdateCheckerReporter_50587" -> central [label=10; weight=10; penwidth=0.6];
-	"UpdateChecker_50579" [label = "UpdateChecker"; ]; "UpdateChecker_50579" -> central [label=2; weight=2; penwidth=0.4];
-	"UpdateCheckerHttpClient_50580" [label = "UpdateCheckerHttpClient"; ]; "UpdateCheckerHttpClient_50580" -> central [label=2; weight=2; penwidth=0.4];
-	"UpdateCheckerReporter_50844" [label = "UpdateCheckerReporter"; ]; "UpdateCheckerReporter_50844" -> central [label=1; weight=1; penwidth=0.4];
-	"DetectedVulnerability_51276" [label = "DetectedVulnerability"; color = 5; fillcolor = 1; ]; central -> "DetectedVulnerability_51276" [label=7; weight=7; penwidth=0.5; color = 5];
-	"ArtifactAvailableUpgrade_51277" [label = "ArtifactAvailableUpgrade"; color = 5; fillcolor = 1; ]; central -> "ArtifactAvailableUpgrade_51277" [label=6; weight=6; penwidth=0.5; color = 5];
-	"DetectedVulnerabilitySeverity_51378" [label = "DetectedVulnerabilitySeverity"; color = 5; fillcolor = 1; ]; central -> "DetectedVulnerabilitySeverity_51378" [label=3; weight=3; penwidth=0.4; color = 5];
-	"Internal_1045" [label = "Internal"; color = 5; fillcolor = 1; ]; central -> "Internal_1045" [label=1; weight=1; penwidth=0.4; color = 5];
-	"LoggingUpdateCheckerReporter_50587" -> "DetectedVulnerability_51276" [label=12; weight=12; penwidth=0.3; color = 3]
-	"LoggingUpdateCheckerReporter_50587" -> "ArtifactAvailableUpgrade_51277" [label=6; weight=6; penwidth=0.3; color = 3]
-	"UpdateChecker_50579" -> "UpdateCheckerReporter_50844" [label=4; weight=4; penwidth=0.3; color = 3]
-	"UpdateChecker_50579" -> "UpdateCheckerHttpClient_50580" [label=4; weight=4; penwidth=0.3; color = 3]
-	"DetectedVulnerability_51276" -> "DetectedVulnerabilitySeverity_51378" [label=3; weight=3; penwidth=0.3; color = 3]
-	"LoggingUpdateCheckerReporter_50587" -> "DetectedVulnerabilitySeverity_51378" [label=2; weight=2; penwidth=0.3; color = 3]
-	"ArtifactAvailableUpgrade_51277" -> "Internal_1045" [label=1; weight=1; penwidth=0.3; color = 3]
-	"DetectedVulnerability_51276" -> "Internal_1045" [label=1; weight=1; penwidth=0.3; color = 3]
-	"DetectedVulnerabilitySeverity_51378" -> "Internal_1045" [label=1; weight=1; penwidth=0.3; color = 3]
-	"LoggingUpdateCheckerReporter_50587" -> "UpdateCheckerReporter_50844" [label=1; weight=1; penwidth=0.3; color = 3]
-	"UpdateChecker_50579" -> "Internal_1045" [label=1; weight=1; penwidth=0.3; color = 3]
-	"UpdateCheckerHttpClient_50580" -> "Internal_1045" [label=1; weight=1; penwidth=0.3; color = 3]
+	graph   [label="Top Rank #1 Java Type Bridge\norg.axonframework.common.caching.Cache\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
+	central [label="🌉 bridge #1\nCache"];
+	"AbstractCacheAdapter_1649" [label = "AbstractCacheAdapter"; ]; "AbstractCacheAdapter_1649" -> central [label=1; weight=1; penwidth=0.4];
+	"NoCache_2501" [label = "NoCache"; ]; "NoCache_2501" -> central [label=1; weight=1; penwidth=0.4];
+	"WeakReferenceCache_2499" [label = "WeakReferenceCache"; ]; "WeakReferenceCache_2499" -> central [label=1; weight=1; penwidth=0.4];
+	"Cache$EntryListener_2092" [label = "Cache$\nEntryListener"; color = 5; fillcolor = 1; ]; central -> "Cache$EntryListener_2092" [label=2; weight=2; penwidth=0.4; color = 5];
+	"Cache$EntryListenerAdapter_1605" [label = "Cache$\nEntryListenerAdapter"; color = 5; fillcolor = 1; ]; central -> "Cache$EntryListenerAdapter_1605" [label=1; weight=1; penwidth=0.4; color = 5];
+	"Registration_2091" [label = "Registration"; color = 5; fillcolor = 1; ]; central -> "Registration_2091" [label=1; weight=1; penwidth=0.4; color = 5];
+	"WeakReferenceCache_2499" -> "Cache$EntryListener_2092" [label=24; weight=24; penwidth=0.3; color = 3]
+	"AbstractCacheAdapter_1649" -> "Cache$EntryListener_2092" [label=5; weight=5; penwidth=0.3; color = 3]
+	"AbstractCacheAdapter_1649" -> "Registration_2091" [label=4; weight=4; penwidth=0.3; color = 3]
+	"Cache$EntryListenerAdapter_1605" -> "Cache$EntryListener_2092" [label=2; weight=2; penwidth=0.3; color = 3]
+	"NoCache_2501" -> "Cache$EntryListener_2092" [label=2; weight=2; penwidth=0.3; color = 3]
+	"NoCache_2501" -> "Registration_2091" [label=1; weight=1; penwidth=0.3; color = 3]
+	"WeakReferenceCache_2499" -> "Registration_2091" [label=1; weight=1; penwidth=0.3; color = 3]
 }

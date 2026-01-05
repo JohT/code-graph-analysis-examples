@@ -92,43 +92,43 @@ The following function takes the original node embeddings with a higher dimensio
       <td>axon-tracing-opentelemetry-5.0.1</td>
       <td>0</td>
       <td>0.150000</td>
-      <td>[0.1337575763463974, 0.1442030668258667, 0.205...</td>
+      <td>[0.08114231377840042, -0.11478951573371887, -0...</td>
     </tr>
     <tr>
       <th>1</th>
+      <td>org.axonframework.common</td>
+      <td>common</td>
+      <td>axon-common-5.0.1</td>
+      <td>0</td>
+      <td>10.756631</td>
+      <td>[0.055511027574539185, -0.08918918669223785, 0...</td>
+    </tr>
+    <tr>
+      <th>2</th>
       <td>org.axonframework.common.io</td>
       <td>io</td>
       <td>axon-common-5.0.1</td>
       <td>0</td>
       <td>0.377311</td>
-      <td>[0.20984505116939545, 0.08760502934455872, -0....</td>
+      <td>[-0.05571554973721504, -0.18395081162452698, 0...</td>
     </tr>
     <tr>
-      <th>2</th>
+      <th>3</th>
       <td>org.axonframework.common.util</td>
       <td>util</td>
       <td>axon-common-5.0.1</td>
       <td>0</td>
       <td>0.265252</td>
-      <td>[-0.10188078135251999, 0.11513500660657883, 0....</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>org.axonframework.common.lifecycle</td>
-      <td>lifecycle</td>
-      <td>axon-common-5.0.1</td>
-      <td>0</td>
-      <td>0.258173</td>
-      <td>[0.0944896712899208, 0.22446702420711517, 0.14...</td>
+      <td>[-0.35514405369758606, -0.04358514025807381, -...</td>
     </tr>
     <tr>
       <th>4</th>
-      <td>org.axonframework.axonserver.connector.util</td>
-      <td>util</td>
-      <td>axon-server-connector-5.0.1</td>
+      <td>org.axonframework.common.caching</td>
+      <td>caching</td>
+      <td>axon-common-5.0.1</td>
       <td>0</td>
-      <td>0.176990</td>
-      <td>[0.0869443267583847, 0.268654465675354, 0.1593...</td>
+      <td>0.150000</td>
+      <td>[-0.036703236401081085, -0.13547953963279724, ...</td>
     </tr>
   </tbody>
 </table>
@@ -151,26 +151,26 @@ This step takes the original node embeddings with a higher dimensionality, e.g. 
     ===> Calculating PCA-based initialization...
        --> Time elapsed: 0.00 seconds
     ===> Running optimization with exaggeration=12.00, lr=9.42 for 250 iterations...
-    Iteration   50, KL divergence -1.3678, 50 iterations in 0.0147 sec
-    Iteration  100, KL divergence 1.1643, 50 iterations in 0.0098 sec
-    Iteration  150, KL divergence 1.1643, 50 iterations in 0.0096 sec
-    Iteration  200, KL divergence 1.1643, 50 iterations in 0.0096 sec
-    Iteration  250, KL divergence 1.1643, 50 iterations in 0.0096 sec
+    Iteration   50, KL divergence -0.2514, 50 iterations in 0.0143 sec
+    Iteration  100, KL divergence 1.1815, 50 iterations in 0.0098 sec
+    Iteration  150, KL divergence 1.1815, 50 iterations in 0.0096 sec
+    Iteration  200, KL divergence 1.1815, 50 iterations in 0.0096 sec
+    Iteration  250, KL divergence 1.1815, 50 iterations in 0.0096 sec
        --> Time elapsed: 0.05 seconds
     ===> Running optimization with exaggeration=1.00, lr=113.00 for 500 iterations...
-    Iteration   50, KL divergence 0.2173, 50 iterations in 0.0141 sec
-    Iteration  100, KL divergence 0.1824, 50 iterations in 0.0153 sec
-    Iteration  150, KL divergence 0.1705, 50 iterations in 0.0155 sec
-    Iteration  200, KL divergence 0.1693, 50 iterations in 0.0155 sec
-    Iteration  250, KL divergence 0.1697, 50 iterations in 0.0157 sec
-    Iteration  300, KL divergence 0.1695, 50 iterations in 0.0157 sec
-    Iteration  350, KL divergence 0.1721, 50 iterations in 0.0156 sec
+    Iteration   50, KL divergence 0.2085, 50 iterations in 0.0145 sec
+    Iteration  100, KL divergence 0.1887, 50 iterations in 0.0159 sec
+    Iteration  150, KL divergence 0.1844, 50 iterations in 0.0158 sec
+    Iteration  200, KL divergence 0.1830, 50 iterations in 0.0157 sec
+    Iteration  250, KL divergence 0.1856, 50 iterations in 0.0158 sec
+    Iteration  300, KL divergence 0.1832, 50 iterations in 0.0155 sec
+    Iteration  350, KL divergence 0.1835, 50 iterations in 0.0155 sec
 
 
-    Iteration  400, KL divergence 0.1719, 50 iterations in 0.0161 sec
-    Iteration  450, KL divergence 0.1721, 50 iterations in 0.0157 sec
-    Iteration  500, KL divergence 0.1721, 50 iterations in 0.0154 sec
-       --> Time elapsed: 0.15 seconds
+    Iteration  400, KL divergence 0.1834, 50 iterations in 0.0162 sec
+    Iteration  450, KL divergence 0.1801, 50 iterations in 0.0159 sec
+    Iteration  500, KL divergence 0.1809, 50 iterations in 0.0159 sec
+       --> Time elapsed: 0.16 seconds
 
 
 
@@ -198,44 +198,44 @@ This step takes the original node embeddings with a higher dimensionality, e.g. 
       <td>axon-tracing-opentelemetry-5.0.1</td>
       <td>0</td>
       <td>0.150000</td>
-      <td>-2.161232</td>
-      <td>1.999413</td>
+      <td>-2.823058</td>
+      <td>1.625296</td>
     </tr>
     <tr>
       <th>1</th>
+      <td>org.axonframework.common</td>
+      <td>axon-common-5.0.1</td>
+      <td>0</td>
+      <td>10.756631</td>
+      <td>1.623513</td>
+      <td>1.430177</td>
+    </tr>
+    <tr>
+      <th>2</th>
       <td>org.axonframework.common.io</td>
       <td>axon-common-5.0.1</td>
       <td>0</td>
       <td>0.377311</td>
-      <td>2.729018</td>
-      <td>7.252400</td>
+      <td>2.215003</td>
+      <td>5.173244</td>
     </tr>
     <tr>
-      <th>2</th>
+      <th>3</th>
       <td>org.axonframework.common.util</td>
       <td>axon-common-5.0.1</td>
       <td>0</td>
       <td>0.265252</td>
-      <td>-5.682568</td>
-      <td>3.985398</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>org.axonframework.common.lifecycle</td>
-      <td>axon-common-5.0.1</td>
-      <td>0</td>
-      <td>0.258173</td>
-      <td>-5.148649</td>
-      <td>3.635585</td>
+      <td>-7.173917</td>
+      <td>3.585099</td>
     </tr>
     <tr>
       <th>4</th>
-      <td>org.axonframework.axonserver.connector.util</td>
-      <td>axon-server-connector-5.0.1</td>
+      <td>org.axonframework.common.caching</td>
+      <td>axon-common-5.0.1</td>
       <td>0</td>
-      <td>0.176990</td>
-      <td>-5.306196</td>
-      <td>3.749065</td>
+      <td>0.150000</td>
+      <td>0.680542</td>
+      <td>-0.042901</td>
     </tr>
   </tbody>
 </table>
@@ -282,43 +282,43 @@ This step takes the original node embeddings with a higher dimensionality, e.g. 
       <td>axon-tracing-opentelemetry-5.0.1</td>
       <td>0</td>
       <td>0.150000</td>
-      <td>[-0.6495190411806107, 0.8660253882408142, -1.0...</td>
+      <td>[0.4330126941204071, -0.8660253882408142, 0.43...</td>
     </tr>
     <tr>
       <th>1</th>
+      <td>org.axonframework.common</td>
+      <td>common</td>
+      <td>axon-common-5.0.1</td>
+      <td>0</td>
+      <td>10.756631</td>
+      <td>[-1.2990380823612213, -0.4330126941204071, 0.2...</td>
+    </tr>
+    <tr>
+      <th>2</th>
       <td>org.axonframework.common.io</td>
       <td>io</td>
       <td>axon-common-5.0.1</td>
       <td>0</td>
       <td>0.377311</td>
-      <td>[-0.6495190411806107, 0.4330126941204071, 0.43...</td>
+      <td>[-1.948557123541832, -0.4330126941204071, 1.29...</td>
     </tr>
     <tr>
-      <th>2</th>
+      <th>3</th>
       <td>org.axonframework.common.util</td>
       <td>util</td>
       <td>axon-common-5.0.1</td>
       <td>0</td>
       <td>0.265252</td>
-      <td>[0.21650634706020355, 0.21650634706020355, 0.4...</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>org.axonframework.common.lifecycle</td>
-      <td>lifecycle</td>
-      <td>axon-common-5.0.1</td>
-      <td>0</td>
-      <td>0.258173</td>
-      <td>[-0.8660253882408142, 0.4330126941204071, -0.2...</td>
+      <td>[-0.8660253882408142, -0.6495190411806107, 1.0...</td>
     </tr>
     <tr>
       <th>4</th>
-      <td>org.axonframework.axonserver.connector.util</td>
-      <td>util</td>
-      <td>axon-server-connector-5.0.1</td>
+      <td>org.axonframework.common.caching</td>
+      <td>caching</td>
+      <td>axon-common-5.0.1</td>
       <td>0</td>
-      <td>0.176990</td>
-      <td>[0.4330126941204071, -0.21650634706020355, 0.2...</td>
+      <td>0.150000</td>
+      <td>[0.8660253882408142, -0.4330126941204071, 0.21...</td>
     </tr>
   </tbody>
 </table>
@@ -335,25 +335,25 @@ This step takes the original node embeddings with a higher dimensionality, e.g. 
     ===> Calculating PCA-based initialization...
        --> Time elapsed: 0.01 seconds
     ===> Running optimization with exaggeration=12.00, lr=9.42 for 250 iterations...
-    Iteration   50, KL divergence -0.4010, 50 iterations in 0.0231 sec
-    Iteration  100, KL divergence -2.8021, 50 iterations in 0.0150 sec
-    Iteration  150, KL divergence 1.2366, 50 iterations in 0.0143 sec
-    Iteration  200, KL divergence 1.2366, 50 iterations in 0.0142 sec
-    Iteration  250, KL divergence 1.2366, 50 iterations in 0.0141 sec
+    Iteration   50, KL divergence -1.0172, 50 iterations in 0.0226 sec
+    Iteration  100, KL divergence 1.2290, 50 iterations in 0.0145 sec
+    Iteration  150, KL divergence 1.2290, 50 iterations in 0.0143 sec
+    Iteration  200, KL divergence 1.2290, 50 iterations in 0.0142 sec
+    Iteration  250, KL divergence 1.2290, 50 iterations in 0.0142 sec
        --> Time elapsed: 0.08 seconds
     ===> Running optimization with exaggeration=1.00, lr=113.00 for 500 iterations...
-    Iteration   50, KL divergence 0.6061, 50 iterations in 0.0206 sec
-    Iteration  100, KL divergence 0.5392, 50 iterations in 0.0186 sec
-    Iteration  150, KL divergence 0.5337, 50 iterations in 0.0157 sec
-    Iteration  200, KL divergence 0.5340, 50 iterations in 0.0155 sec
-    Iteration  250, KL divergence 0.5300, 50 iterations in 0.0157 sec
-    Iteration  300, KL divergence 0.5302, 50 iterations in 0.0159 sec
+    Iteration   50, KL divergence 0.5147, 50 iterations in 0.0208 sec
+    Iteration  100, KL divergence 0.5023, 50 iterations in 0.0186 sec
+    Iteration  150, KL divergence 0.4970, 50 iterations in 0.0163 sec
+    Iteration  200, KL divergence 0.4951, 50 iterations in 0.0163 sec
+    Iteration  250, KL divergence 0.4945, 50 iterations in 0.0158 sec
+    Iteration  300, KL divergence 0.4855, 50 iterations in 0.0162 sec
 
 
-    Iteration  350, KL divergence 0.5276, 50 iterations in 0.0165 sec
-    Iteration  400, KL divergence 0.5268, 50 iterations in 0.0159 sec
-    Iteration  450, KL divergence 0.5272, 50 iterations in 0.0158 sec
-    Iteration  500, KL divergence 0.5275, 50 iterations in 0.0158 sec
+    Iteration  350, KL divergence 0.4854, 50 iterations in 0.0173 sec
+    Iteration  400, KL divergence 0.4853, 50 iterations in 0.0159 sec
+    Iteration  450, KL divergence 0.4849, 50 iterations in 0.0157 sec
+    Iteration  500, KL divergence 0.4849, 50 iterations in 0.0158 sec
        --> Time elapsed: 0.17 seconds
 
 
@@ -382,44 +382,44 @@ This step takes the original node embeddings with a higher dimensionality, e.g. 
       <td>axon-tracing-opentelemetry-5.0.1</td>
       <td>0</td>
       <td>0.150000</td>
-      <td>-5.144702</td>
-      <td>4.578728</td>
+      <td>7.227666</td>
+      <td>2.285362</td>
     </tr>
     <tr>
       <th>1</th>
+      <td>org.axonframework.common</td>
+      <td>axon-common-5.0.1</td>
+      <td>0</td>
+      <td>10.756631</td>
+      <td>-3.367519</td>
+      <td>7.488701</td>
+    </tr>
+    <tr>
+      <th>2</th>
       <td>org.axonframework.common.io</td>
       <td>axon-common-5.0.1</td>
       <td>0</td>
       <td>0.377311</td>
-      <td>-7.816902</td>
-      <td>2.696225</td>
+      <td>2.285834</td>
+      <td>-5.959559</td>
     </tr>
     <tr>
-      <th>2</th>
+      <th>3</th>
       <td>org.axonframework.common.util</td>
       <td>axon-common-5.0.1</td>
       <td>0</td>
       <td>0.265252</td>
-      <td>-2.760308</td>
-      <td>-3.193230</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>org.axonframework.common.lifecycle</td>
-      <td>axon-common-5.0.1</td>
-      <td>0</td>
-      <td>0.258173</td>
-      <td>-3.869910</td>
-      <td>-4.290168</td>
+      <td>2.410287</td>
+      <td>-5.618156</td>
     </tr>
     <tr>
       <th>4</th>
-      <td>org.axonframework.axonserver.connector.util</td>
-      <td>axon-server-connector-5.0.1</td>
+      <td>org.axonframework.common.caching</td>
+      <td>axon-common-5.0.1</td>
       <td>0</td>
-      <td>0.176990</td>
-      <td>-3.402879</td>
-      <td>-3.936032</td>
+      <td>0.150000</td>
+      <td>-2.329601</td>
+      <td>-7.420950</td>
     </tr>
   </tbody>
 </table>
@@ -462,43 +462,43 @@ This step takes the original node embeddings with a higher dimensionality, e.g. 
       <td>axon-tracing-opentelemetry-5.0.1</td>
       <td>0</td>
       <td>0.150000</td>
-      <td>[-0.11319497972726822, -0.20911745727062225, -...</td>
+      <td>[0.034903768450021744, -0.12047020345926285, -...</td>
     </tr>
     <tr>
       <th>1</th>
+      <td>org.axonframework.common</td>
+      <td>common</td>
+      <td>axon-common-5.0.1</td>
+      <td>0</td>
+      <td>10.756631</td>
+      <td>[-0.07240773737430573, -0.10200564563274384, 0...</td>
+    </tr>
+    <tr>
+      <th>2</th>
       <td>org.axonframework.common.io</td>
       <td>io</td>
       <td>axon-common-5.0.1</td>
       <td>0</td>
       <td>0.377311</td>
-      <td>[0.3755985200405121, -0.4150378704071045, -0.2...</td>
+      <td>[0.01763494871556759, -0.019864285364747047, -...</td>
     </tr>
     <tr>
-      <th>2</th>
+      <th>3</th>
       <td>org.axonframework.common.util</td>
       <td>util</td>
       <td>axon-common-5.0.1</td>
       <td>0</td>
       <td>0.265252</td>
-      <td>[0.26531553268432617, -0.41420435905456543, -0...</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>org.axonframework.common.lifecycle</td>
-      <td>lifecycle</td>
-      <td>axon-common-5.0.1</td>
-      <td>0</td>
-      <td>0.258173</td>
-      <td>[0.22852371633052826, -0.5454846024513245, -0....</td>
+      <td>[-0.0763632282614708, -0.00281192222610116, -0...</td>
     </tr>
     <tr>
       <th>4</th>
-      <td>org.axonframework.axonserver.connector.util</td>
-      <td>util</td>
-      <td>axon-server-connector-5.0.1</td>
+      <td>org.axonframework.common.caching</td>
+      <td>caching</td>
+      <td>axon-common-5.0.1</td>
       <td>0</td>
-      <td>0.176990</td>
-      <td>[0.3232279419898987, -0.386302649974823, -0.27...</td>
+      <td>0.150000</td>
+      <td>[0.0974206030368805, 0.06951572000980377, 0.14...</td>
     </tr>
   </tbody>
 </table>
@@ -515,25 +515,25 @@ This step takes the original node embeddings with a higher dimensionality, e.g. 
     ===> Calculating PCA-based initialization...
        --> Time elapsed: 0.00 seconds
     ===> Running optimization with exaggeration=12.00, lr=9.42 for 250 iterations...
-    Iteration   50, KL divergence -0.5288, 50 iterations in 0.0160 sec
-    Iteration  100, KL divergence 1.1554, 50 iterations in 0.0101 sec
-    Iteration  150, KL divergence 1.1554, 50 iterations in 0.0096 sec
-    Iteration  200, KL divergence 1.1554, 50 iterations in 0.0096 sec
-    Iteration  250, KL divergence 1.1554, 50 iterations in 0.0096 sec
+    Iteration   50, KL divergence -1.0099, 50 iterations in 0.0160 sec
+    Iteration  100, KL divergence 1.1552, 50 iterations in 0.0099 sec
+    Iteration  150, KL divergence 1.1552, 50 iterations in 0.0097 sec
+    Iteration  200, KL divergence 1.1552, 50 iterations in 0.0099 sec
+    Iteration  250, KL divergence 1.1552, 50 iterations in 0.0097 sec
        --> Time elapsed: 0.06 seconds
     ===> Running optimization with exaggeration=1.00, lr=113.00 for 500 iterations...
-    Iteration   50, KL divergence 0.3313, 50 iterations in 0.0145 sec
-    Iteration  100, KL divergence 0.3109, 50 iterations in 0.0162 sec
-    Iteration  150, KL divergence 0.3076, 50 iterations in 0.0167 sec
-    Iteration  200, KL divergence 0.3048, 50 iterations in 0.0174 sec
-    Iteration  250, KL divergence 0.3050, 50 iterations in 0.0157 sec
-    Iteration  300, KL divergence 0.3051, 50 iterations in 0.0154 sec
-    Iteration  350, KL divergence 0.3049, 50 iterations in 0.0153 sec
-    Iteration  400, KL divergence 0.3049, 50 iterations in 0.0155 sec
+    Iteration   50, KL divergence 0.3816, 50 iterations in 0.0145 sec
+    Iteration  100, KL divergence 0.3481, 50 iterations in 0.0165 sec
+    Iteration  150, KL divergence 0.3341, 50 iterations in 0.0166 sec
+    Iteration  200, KL divergence 0.3180, 50 iterations in 0.0165 sec
+    Iteration  250, KL divergence 0.3027, 50 iterations in 0.0162 sec
+    Iteration  300, KL divergence 0.3014, 50 iterations in 0.0158 sec
+    Iteration  350, KL divergence 0.2969, 50 iterations in 0.0161 sec
+    Iteration  400, KL divergence 0.2925, 50 iterations in 0.0162 sec
 
 
-    Iteration  450, KL divergence 0.3050, 50 iterations in 0.0163 sec
-    Iteration  500, KL divergence 0.3050, 50 iterations in 0.0156 sec
+    Iteration  450, KL divergence 0.2926, 50 iterations in 0.0167 sec
+    Iteration  500, KL divergence 0.2917, 50 iterations in 0.0162 sec
        --> Time elapsed: 0.16 seconds
 
 
@@ -562,44 +562,44 @@ This step takes the original node embeddings with a higher dimensionality, e.g. 
       <td>axon-tracing-opentelemetry-5.0.1</td>
       <td>0</td>
       <td>0.150000</td>
-      <td>-4.907336</td>
-      <td>-3.676782</td>
+      <td>3.247383</td>
+      <td>4.490531</td>
     </tr>
     <tr>
       <th>1</th>
+      <td>org.axonframework.common</td>
+      <td>axon-common-5.0.1</td>
+      <td>0</td>
+      <td>10.756631</td>
+      <td>-0.407094</td>
+      <td>1.158011</td>
+    </tr>
+    <tr>
+      <th>2</th>
       <td>org.axonframework.common.io</td>
       <td>axon-common-5.0.1</td>
       <td>0</td>
       <td>0.377311</td>
-      <td>1.971036</td>
-      <td>6.036171</td>
+      <td>-0.296900</td>
+      <td>7.804810</td>
     </tr>
     <tr>
-      <th>2</th>
+      <th>3</th>
       <td>org.axonframework.common.util</td>
       <td>axon-common-5.0.1</td>
       <td>0</td>
       <td>0.265252</td>
-      <td>2.019244</td>
-      <td>6.208951</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>org.axonframework.common.lifecycle</td>
-      <td>axon-common-5.0.1</td>
-      <td>0</td>
-      <td>0.258173</td>
-      <td>2.822232</td>
-      <td>4.860547</td>
+      <td>-0.360326</td>
+      <td>7.914413</td>
     </tr>
     <tr>
       <th>4</th>
-      <td>org.axonframework.axonserver.connector.util</td>
-      <td>axon-server-connector-5.0.1</td>
+      <td>org.axonframework.common.caching</td>
+      <td>axon-common-5.0.1</td>
       <td>0</td>
-      <td>0.176990</td>
-      <td>2.067661</td>
-      <td>5.984243</td>
+      <td>0.150000</td>
+      <td>-1.737161</td>
+      <td>1.359283</td>
     </tr>
   </tbody>
 </table>

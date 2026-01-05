@@ -170,9 +170,9 @@
 <polygon fill="#ccece6" stroke="#ccece6" stroke-width="0.3" points="476.37,-449.12 474.39,-452.87 478.28,-451.17 476.37,-449.12"/>
 <text xml:space="preserve" text-anchor="middle" x="561.96" y="-371.58" font-family="Times,serif" font-size="4.00">3</text>
 </g>
-<!-- AvroConverterStrategy_50144&#45;&gt;central -->
+<!-- AvroConverterStrategy_50146&#45;&gt;central -->
 <g id="edge8" class="edge">
-<title>AvroConverterStrategy_50144&#45;&gt;central</title>
+<title>AvroConverterStrategy_50146&#45;&gt;central</title>
 <path fill="none" stroke="#238b45" stroke-width="0.4" d="M195.67,-414.01C287.55,-441 465.61,-493.29 571.29,-524.32"/>
 <polygon fill="#238b45" stroke="#238b45" stroke-width="0.4" points="570.83,-525.65 575.06,-525.43 571.62,-522.96 570.83,-525.65"/>
 <text xml:space="preserve" text-anchor="middle" x="384.61" y="-470.99" font-family="Times,serif" font-size="4.00">1</text>
@@ -191,16 +191,16 @@
 <polygon fill="#238b45" stroke="#238b45" stroke-width="0.4" points="651.62,-637.45 650.48,-633.36 648.82,-637.27 651.62,-637.45"/>
 <text xml:space="preserve" text-anchor="middle" x="635.38" y="-853.01" font-family="Times,serif" font-size="4.00">1</text>
 </g>
-<!-- CommandDispatcher_26387&#45;&gt;central -->
+<!-- CommandDispatcher_26543&#45;&gt;central -->
 <g id="edge11" class="edge">
-<title>CommandDispatcher_26387&#45;&gt;central</title>
+<title>CommandDispatcher_26543&#45;&gt;central</title>
 <path fill="none" stroke="#238b45" stroke-width="0.4" d="M196.44,-649.15C287.48,-629.34 464.21,-590.89 569.98,-567.87"/>
 <polygon fill="#238b45" stroke="#238b45" stroke-width="0.4" points="570.13,-569.27 573.74,-567.06 569.54,-566.54 570.13,-569.27"/>
 <text xml:space="preserve" text-anchor="middle" x="384.35" y="-609.24" font-family="Times,serif" font-size="4.00">1</text>
 </g>
-<!-- CommandDispatcher_26387&#45;&gt;CommandGateway_28370 -->
+<!-- CommandDispatcher_26543&#45;&gt;CommandGateway_28370 -->
 <g id="edge69" class="edge">
-<title>CommandDispatcher_26387&#45;&gt;CommandGateway_28370</title>
+<title>CommandDispatcher_26543&#45;&gt;CommandGateway_28370</title>
 <path fill="none" stroke="#ccece6" stroke-width="0.3" d="M179.82,-686.84C191.42,-693.84 204.06,-701.47 215.76,-708.53"/>
 <polygon fill="#ccece6" stroke="#ccece6" stroke-width="0.3" points="214.82,-709.6 218.97,-710.47 216.27,-707.2 214.82,-709.6"/>
 <text xml:space="preserve" text-anchor="middle" x="198.46" y="-699.89" font-family="Times,serif" font-size="4.00">2</text>
@@ -387,9 +387,9 @@
 <polygon fill="#238b45" stroke="#238b45" stroke-width="0.4" points="744.06,-545.24 740.1,-546.76 744.14,-548.04 744.06,-545.24"/>
 <text xml:space="preserve" text-anchor="middle" x="880.33" y="-543.9" font-family="Times,serif" font-size="4.00">1</text>
 </g>
-<!-- EventAppender_29349&#45;&gt;EventSink_29324 -->
+<!-- EventAppender_29349&#45;&gt;EventSink_29323 -->
 <g id="edge55" class="edge">
-<title>EventAppender_29349&#45;&gt;EventSink_29324</title>
+<title>EventAppender_29349&#45;&gt;EventSink_29323</title>
 <path fill="none" stroke="#ccece6" stroke-width="0.3" d="M1065.03,-504.28C1060.72,-481.01 1054.93,-449.81 1050.46,-425.69"/>
 <polygon fill="#ccece6" stroke="#ccece6" stroke-width="0.3" points="1051.89,-425.7 1049.78,-422.02 1049.13,-426.21 1051.89,-425.7"/>
 <text xml:space="preserve" text-anchor="middle" x="1056.39" y="-464.25" font-family="Times,serif" font-size="4.00">4</text>
@@ -401,9 +401,9 @@
 <polygon fill="#238b45" stroke="#238b45" stroke-width="0.4" points="726,-495.51 723.62,-499.02 727.67,-497.76 726,-495.51"/>
 <text xml:space="preserve" text-anchor="middle" x="878.35" y="-384.85" font-family="Times,serif" font-size="4.00">1</text>
 </g>
-<!-- EventBus_30415&#45;&gt;EventSink_29324 -->
+<!-- EventBus_30415&#45;&gt;EventSink_29323 -->
 <g id="edge82" class="edge">
-<title>EventBus_30415&#45;&gt;EventSink_29324</title>
+<title>EventBus_30415&#45;&gt;EventSink_29323</title>
 <path fill="none" stroke="#ccece6" stroke-width="0.3" d="M1062.47,-276.74C1058.72,-298.98 1053.77,-328.39 1049.87,-351.48"/>
 <polygon fill="#ccece6" stroke="#ccece6" stroke-width="0.3" points="1048.52,-351.09 1049.24,-355.27 1051.28,-351.56 1048.52,-351.09"/>
 <text xml:space="preserve" text-anchor="middle" x="1054.81" y="-317.43" font-family="Times,serif" font-size="4.00">1</text>
@@ -415,44 +415,44 @@
 <polygon fill="#238b45" stroke="#238b45" stroke-width="0.4" points="689.33,-467.47 689.05,-471.7 691.91,-468.57 689.33,-467.47"/>
 <text xml:space="preserve" text-anchor="middle" x="763.68" y="-296.06" font-family="Times,serif" font-size="4.00">1</text>
 </g>
-<!-- EventProcessorConfiguration_32191&#45;&gt;central -->
+<!-- EventProcessorConfiguration_32192&#45;&gt;central -->
 <g id="edge26" class="edge">
-<title>EventProcessorConfiguration_32191&#45;&gt;central</title>
+<title>EventProcessorConfiguration_32192&#45;&gt;central</title>
 <path fill="none" stroke="#238b45" stroke-width="0.4" d="M762.09,-716.67C746.12,-691.48 723.23,-655.38 702.8,-623.14"/>
 <polygon fill="#238b45" stroke="#238b45" stroke-width="0.4" points="704.22,-622.77 700.9,-620.14 701.86,-624.27 704.22,-622.77"/>
 <text xml:space="preserve" text-anchor="middle" x="730.46" y="-669.55" font-family="Times,serif" font-size="4.00">1</text>
 </g>
-<!-- EventProcessorConfiguration_32191&#45;&gt;Configuration_3285 -->
+<!-- EventProcessorConfiguration_32192&#45;&gt;Configuration_3285 -->
 <g id="edge62" class="edge">
-<title>EventProcessorConfiguration_32191&#45;&gt;Configuration_3285</title>
+<title>EventProcessorConfiguration_32192&#45;&gt;Configuration_3285</title>
 <path fill="none" stroke="#ccece6" stroke-width="0.3" d="M791.19,-781.77C801.47,-820.47 818.82,-885.81 832.41,-936.96"/>
 <polygon fill="#ccece6" stroke="#ccece6" stroke-width="0.3" points="831.05,-937.29 833.43,-940.8 833.76,-936.57 831.05,-937.29"/>
 <text xml:space="preserve" text-anchor="middle" x="811.46" y="-863.04" font-family="Times,serif" font-size="4.00">3</text>
 </g>
-<!-- EventProcessorConfiguration_32191&#45;&gt;HandlerInterceptorRegistry_35721 -->
+<!-- EventProcessorConfiguration_32192&#45;&gt;HandlerInterceptorRegistry_35721 -->
 <g id="edge64" class="edge">
-<title>EventProcessorConfiguration_32191&#45;&gt;HandlerInterceptorRegistry_35721</title>
+<title>EventProcessorConfiguration_32192&#45;&gt;HandlerInterceptorRegistry_35721</title>
 <path fill="none" stroke="#ccece6" stroke-width="0.3" d="M806.31,-780.65C824.61,-805.09 849.83,-838.78 868.72,-864.01"/>
 <polygon fill="#ccece6" stroke="#ccece6" stroke-width="0.3" points="867.43,-864.62 870.95,-866.99 869.67,-862.95 867.43,-864.62"/>
 <text xml:space="preserve" text-anchor="middle" x="837.83" y="-825.29" font-family="Times,serif" font-size="4.00">3</text>
 </g>
-<!-- EventProcessorConfiguration_32191&#45;&gt;MessageMonitorRegistry_25587 -->
+<!-- EventProcessorConfiguration_32192&#45;&gt;MessageMonitorRegistry_25588 -->
 <g id="edge63" class="edge">
-<title>EventProcessorConfiguration_32191&#45;&gt;MessageMonitorRegistry_25587</title>
+<title>EventProcessorConfiguration_32192&#45;&gt;MessageMonitorRegistry_25588</title>
 <path fill="none" stroke="#ccece6" stroke-width="0.3" d="M826.35,-777.43C876.78,-810.36 959.09,-864.11 1010.23,-897.5"/>
 <polygon fill="#ccece6" stroke="#ccece6" stroke-width="0.3" points="1009.36,-898.61 1013.48,-899.62 1010.89,-896.26 1009.36,-898.61"/>
 <text xml:space="preserve" text-anchor="middle" x="918.97" y="-839.76" font-family="Times,serif" font-size="4.00">3</text>
 </g>
-<!-- EventProcessorConfiguration_32191&#45;&gt;ComponentDescriptor_3148 -->
+<!-- EventProcessorConfiguration_32192&#45;&gt;ComponentDescriptor_3148 -->
 <g id="edge47" class="edge">
-<title>EventProcessorConfiguration_32191&#45;&gt;ComponentDescriptor_3148</title>
+<title>EventProcessorConfiguration_32192&#45;&gt;ComponentDescriptor_3148</title>
 <path fill="none" stroke="#ccece6" stroke-width="0.3" d="M739.75,-719.91C676.81,-677.39 558.59,-597.51 484.82,-547.66"/>
 <polygon fill="#ccece6" stroke="#ccece6" stroke-width="0.3" points="485.81,-546.64 481.71,-545.56 484.24,-548.96 485.81,-546.64"/>
 <text xml:space="preserve" text-anchor="middle" x="609.33" y="-633.67" font-family="Times,serif" font-size="4.00">6</text>
 </g>
-<!-- EventSink_29324&#45;&gt;central -->
+<!-- EventSink_29323&#45;&gt;central -->
 <g id="edge27" class="edge">
-<title>EventSink_29324&#45;&gt;central</title>
+<title>EventSink_29323&#45;&gt;central</title>
 <path fill="none" stroke="#238b45" stroke-width="0.4" d="M1002.48,-405.72C939.56,-431.77 818.18,-482.01 737.09,-515.58"/>
 <polygon fill="#238b45" stroke="#238b45" stroke-width="0.4" points="736.98,-514.11 733.82,-516.93 738.05,-516.7 736.98,-514.11"/>
 <text xml:space="preserve" text-anchor="middle" x="867.08" y="-462.56" font-family="Times,serif" font-size="4.00">1</text>
@@ -520,16 +520,16 @@
 <polygon fill="#ccece6" stroke="#ccece6" stroke-width="0.3" points="878.4,-939.09 878.29,-943.32 881.02,-940.08 878.4,-939.09"/>
 <text xml:space="preserve" text-anchor="middle" x="879.24" y="-939.39" font-family="Times,serif" font-size="4.00">3</text>
 </g>
-<!-- MessageMonitorRegistry_25587&#45;&gt;central -->
+<!-- MessageMonitorRegistry_25588&#45;&gt;central -->
 <g id="edge33" class="edge">
-<title>MessageMonitorRegistry_25587&#45;&gt;central</title>
+<title>MessageMonitorRegistry_25588&#45;&gt;central</title>
 <path fill="none" stroke="#238b45" stroke-width="0.4" d="M1024.17,-897.33C958.59,-835.33 806.96,-691.98 720.1,-609.86"/>
 <polygon fill="#238b45" stroke="#238b45" stroke-width="0.4" points="721.09,-608.87 717.22,-607.14 719.17,-610.9 721.09,-608.87"/>
 <text xml:space="preserve" text-anchor="middle" x="869.41" y="-753.17" font-family="Times,serif" font-size="4.00">1</text>
 </g>
-<!-- MessageMonitorRegistry_25587&#45;&gt;Configuration_3285 -->
+<!-- MessageMonitorRegistry_25588&#45;&gt;Configuration_3285 -->
 <g id="edge56" class="edge">
-<title>MessageMonitorRegistry_25587&#45;&gt;Configuration_3285</title>
+<title>MessageMonitorRegistry_25588&#45;&gt;Configuration_3285</title>
 <path fill="none" stroke="#ccece6" stroke-width="0.3" d="M1001.32,-949.92C977.39,-959.83 948.99,-971.6 923.42,-982.19"/>
 <polygon fill="#ccece6" stroke="#ccece6" stroke-width="0.3" points="922.93,-980.88 919.77,-983.7 924,-983.47 922.93,-980.88"/>
 <text xml:space="preserve" text-anchor="middle" x="959.18" y="-968.16" font-family="Times,serif" font-size="4.00">4</text>
@@ -661,9 +661,9 @@
 <text xml:space="preserve" text-anchor="middle" x="683.03" y="-262.15" font-family="Times,serif" font-size="12.00">AsyncRetryScheduler</text>
 <text xml:space="preserve" text-anchor="middle" x="683.03" y="-247.75" font-family="Times,serif" font-size="12.00">(0.04%)</text>
 </g>
-<!-- AvroConverterStrategy_50144 -->
+<!-- AvroConverterStrategy_50146 -->
 <g id="node9" class="node">
-<title>AvroConverterStrategy_50144</title>
+<title>AvroConverterStrategy_50146</title>
 <ellipse fill="#ccece6" stroke="#41ae76" stroke-width="2" cx="136.89" cy="-396.75" rx="68.04" ry="32.4"/>
 <text xml:space="preserve" text-anchor="middle" x="136.89" y="-400.35" font-family="Times,serif" font-size="12.00">AvroConverterStrategy</text>
 <text xml:space="preserve" text-anchor="middle" x="136.89" y="-385.95" font-family="Times,serif" font-size="12.00">(0.24%)</text>
@@ -682,9 +682,9 @@
 <text xml:space="preserve" text-anchor="middle" x="620.07" y="-1107.92" font-family="Times,serif" font-size="12.00">CommandBusConnector</text>
 <text xml:space="preserve" text-anchor="middle" x="620.07" y="-1093.52" font-family="Times,serif" font-size="12.00">(0.4%)</text>
 </g>
-<!-- CommandDispatcher_26387 -->
+<!-- CommandDispatcher_26543 -->
 <g id="node12" class="node">
-<title>CommandDispatcher_26387</title>
+<title>CommandDispatcher_26543</title>
 <ellipse fill="#ccece6" stroke="#41ae76" stroke-width="2" cx="138.32" cy="-661.79" rx="61.84" ry="32.4"/>
 <text xml:space="preserve" text-anchor="middle" x="138.32" y="-665.39" font-family="Times,serif" font-size="12.00">CommandDispatcher</text>
 <text xml:space="preserve" text-anchor="middle" x="138.32" y="-650.99" font-family="Times,serif" font-size="12.00">(0.38%)</text>
@@ -787,16 +787,16 @@
 <text xml:space="preserve" text-anchor="middle" x="854.38" y="-88.7" font-family="Times,serif" font-size="12.00">EventProcessor</text>
 <text xml:space="preserve" text-anchor="middle" x="854.38" y="-74.3" font-family="Times,serif" font-size="12.00">(0.25%)</text>
 </g>
-<!-- EventProcessorConfiguration_32191 -->
+<!-- EventProcessorConfiguration_32192 -->
 <g id="node27" class="node">
-<title>EventProcessorConfiguration_32191</title>
+<title>EventProcessorConfiguration_32192</title>
 <ellipse fill="#ccece6" stroke="#41ae76" stroke-width="2" cx="782.41" cy="-748.74" rx="85.1" ry="32.4"/>
 <text xml:space="preserve" text-anchor="middle" x="782.41" y="-752.34" font-family="Times,serif" font-size="12.00">EventProcessorConfiguration</text>
 <text xml:space="preserve" text-anchor="middle" x="782.41" y="-737.94" font-family="Times,serif" font-size="12.00">(1.27%)</text>
 </g>
-<!-- EventSink_29324 -->
+<!-- EventSink_29323 -->
 <g id="node28" class="node">
-<title>EventSink_29324</title>
+<title>EventSink_29323</title>
 <ellipse fill="#ccece6" stroke="#41ae76" stroke-width="2" cx="1043.6" cy="-388.7" rx="46.8" ry="32.4"/>
 <text xml:space="preserve" text-anchor="middle" x="1043.6" y="-392.3" font-family="Times,serif" font-size="12.00">EventSink</text>
 <text xml:space="preserve" text-anchor="middle" x="1043.6" y="-377.9" font-family="Times,serif" font-size="12.00">(1.06%)</text>
@@ -836,9 +836,9 @@
 <text xml:space="preserve" text-anchor="middle" x="895.08" y="-902.82" font-family="Times,serif" font-size="12.00">HandlerInterceptorRegistry</text>
 <text xml:space="preserve" text-anchor="middle" x="895.08" y="-888.42" font-family="Times,serif" font-size="12.00">(0.23%)</text>
 </g>
-<!-- MessageMonitorRegistry_25587 -->
+<!-- MessageMonitorRegistry_25588 -->
 <g id="node34" class="node">
-<title>MessageMonitorRegistry_25587</title>
+<title>MessageMonitorRegistry_25588</title>
 <ellipse fill="#ccece6" stroke="#41ae76" stroke-width="2" cx="1055.89" cy="-927.32" rx="73.48" ry="32.4"/>
 <text xml:space="preserve" text-anchor="middle" x="1055.89" y="-930.92" font-family="Times,serif" font-size="12.00">MessageMonitorRegistry</text>
 <text xml:space="preserve" text-anchor="middle" x="1055.89" y="-916.52" font-family="Times,serif" font-size="12.00">(0.16%)</text>
