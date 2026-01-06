@@ -45,7 +45,7 @@ jobs:
     outputs:
       project-name: ${{ env.PROJECT_NAME }}
       analysis-name: ${{ steps.set-analysis-name.outputs.analysis-name }}
-      sources-upload-name: ${{ steps.set-sources-upload-name.outputs.sources-upload-name }}
+      project-version: ${{ env.REACT_ROUTER_VERSION }}
 
     env: 
       PROJECT_NAME: react-router
@@ -53,39 +53,9 @@ jobs:
       REACT_ROUTER_VERSION: 6.30.2
 
     steps:
-    - name: (Prepare Code to Analyze) Checkout react-router repository
-      run: |
-        git clone https://github.com/remix-run/react-router.git --branch "react-router@${{ env.REACT_ROUTER_VERSION }}" --single-branch .
-        
-
-    - name: (Prepare Code to Analyze) Setup pnpm for react-router
-      uses: pnpm/action-setup@41ff72655975bd51cab0327fa583b6e92b6d3061 # v4.2.0
-          
-    - name: (Prepare Code to Analyze) Install dependencies with pnpm
-      run: pnpm install --frozen-lockfile --strict-peer-dependencies
-
     - name: (Prepare Code to Analyze) Set analysis-name
       id: set-analysis-name
       run: echo "analysis-name=${{ env.PROJECT_NAME }}-${{ env.REACT_ROUTER_VERSION }}" >> "$GITHUB_OUTPUT"
- 
-    - name: (Prepare Code to Analyze) Generate ARTIFACT_UPLOAD_ID
-      shell: bash
-      run: echo "ARTIFACT_UPLOAD_ID=$(LC_ALL=C tr -dc 'A-Za-z0-9' < /dev/urandom | head -c 10)" >> $GITHUB_ENV
- 
-    - name: (Prepare Code to Analyze) Set sources-upload-name
-      id: set-sources-upload-name
-      run: echo "sources-upload-name=${{ steps.set-analysis-name.outputs.analysis-name }}-analysis-sources_input-${{ env.ARTIFACT_UPLOAD_ID }}" >> "$GITHUB_OUTPUT"
-    
-    - name: (Prepare Code to Analyze) Upload code to analyze
-      if: success()
-      uses: actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f # v6
-      with:
-        name: ${{ steps.set-sources-upload-name.outputs.sources-upload-name }}
-        path: .
-        include-hidden-files: true
-        if-no-files-found: error
-        retention-days: 1
-    
 
   analyze-code-graph:
     name: Analyze Code Graph
@@ -93,7 +63,9 @@ jobs:
     uses: JohT/code-graph-analysis-pipeline/.github/workflows/public-analyze-code-graph.yml@v3.2.0
     with:
       analysis-name: ${{ needs.prepare-code-to-analyze.outputs.analysis-name }}
-      sources-upload-name: ${{ needs.prepare-code-to-analyze.outputs.sources-upload-name }}
+      source-repository: https://github.com/remix-run/react-router.git
+      source-repository-branch: react-router@${{ needs.prepare-code-to-analyze.outputs.project-version }}
+      jupyter-pdf: "false"
       ref: v3.2.0
 
   commit-analysis-results:
