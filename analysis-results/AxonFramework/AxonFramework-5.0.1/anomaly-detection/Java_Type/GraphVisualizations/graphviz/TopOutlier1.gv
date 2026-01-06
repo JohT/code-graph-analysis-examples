@@ -12,60 +12,12 @@ strict digraph TopOutlier1 {
     central [fontsize = 16;];
     central [color = 7; fillcolor = 5; penwidth = 3;];
 
-	graph   [label="Top Rank #1 Java Type Outlier\norg.axonframework.common.Assert\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: cluster probability\nlarge circle: < 25% percentile of cluster probability\nthick outline: > 80% percentile of distance to cluster center\n\n"];
-	central [label="🧩 outlier #1\nAssert"];
-	"GapAwareTrackingToken_29713"  [label = "GapAwareTrackingToken\n(84.09%)"; penwidth = 2; ]; "GapAwareTrackingToken_29713" -> central [label=4; weight=4; penwidth=0.5];
-	"ReflectionUtils_1599"  [label = "ReflectionUtils\n(100.0%)"; penwidth = 2; ]; "ReflectionUtils_1599" -> central [label=4; weight=4; penwidth=0.5];
-	"AxonServerContainerUtils_21645"  [shape = "circle"; height=1.8; label = "AxonServerContainerUtils\n(0.0%)"; penwidth = 2; ]; "AxonServerContainerUtils_21645" -> central [label=3; weight=3; penwidth=0.4];
-	"GlobalSequenceTrackingToken_31463"  [shape = "circle"; height=1.8; label = "GlobalSequenceTrackingToken\n(0.0%)"; penwidth = 2; ]; "GlobalSequenceTrackingToken_31463" -> central [label=3; weight=3; penwidth=0.4];
-	"PessimisticLockFactory$Builder_3440"  [label = "PessimisticLockFactory$\nBuilder\n(89.39%)"; penwidth = 2; ]; "PessimisticLockFactory$Builder_3440" -> central [label=3; weight=3; penwidth=0.4];
-	"AbstractAnnotatedParameterResolverFactory_29346"  [label = "AbstractAnnotatedParameterResolverFactory\n(96.98%)"; penwidth = 2; ]; "AbstractAnnotatedParameterResolverFactory_29346" -> central [label=2; weight=2; penwidth=0.4];
-	"ChainedConverter_49361"  [label = "ChainedConverter\n(100.0%)"; penwidth = 2; ]; "ChainedConverter_49361" -> central [label=2; weight=2; penwidth=0.4];
-	"GenericTaggedEventMessage_16816"  [label = "GenericTaggedEventMessage\n(100.0%)"; penwidth = 2; ]; "GenericTaggedEventMessage_16816" -> central [label=2; weight=2; penwidth=0.4];
-	"MessageType_26501"  [shape = "circle"; height=1.8; label = "MessageType\n(0.0%)"; penwidth = 2; ]; "MessageType_26501" -> central [label=2; weight=2; penwidth=0.4];
-	"QualifiedName_26517"  [shape = "circle"; height=1.8; label = "QualifiedName\n(0.0%)"; penwidth = 2; ]; "QualifiedName_26517" -> central [label=2; weight=2; penwidth=0.4];
-	"Segment_31461"  [label = "Segment\n(70.7%)"; penwidth = 2; ]; "Segment_31461" -> central [label=2; weight=2; penwidth=0.4];
-	"Tag_35723"  [label = "Tag\n(100.0%)"; penwidth = 2; ]; "Tag_35723" -> central [label=2; weight=2; penwidth=0.4];
-	"WeakReferenceCache_2499"  [label = "WeakReferenceCache\n(31.13%)"; penwidth = 2; ]; "WeakReferenceCache_2499" -> central [label=2; weight=2; penwidth=0.4];
-	"AggregateBasedJpaEventStorageEngine_17760"  [label = "AggregateBasedJpaEventStorageEngine\n(100.0%)"; penwidth = 2; ]; "AggregateBasedJpaEventStorageEngine_17760" -> central [label=1; weight=1; penwidth=0.4];
-	"AnnotatedEntityMetamodel_11459"  [label = "AnnotatedEntityMetamodel\n(100.0%)"; penwidth = 5; ]; "AnnotatedEntityMetamodel_11459" -> central [label=1; weight=1; penwidth=0.4];
-	"AxonServerCommandBusConnector_7261"  [shape = "circle"; height=1.8; label = "AxonServerCommandBusConnector\n(13.45%)"; penwidth = 2; ]; "AxonServerCommandBusConnector_7261" -> central [label=1; weight=1; penwidth=0.4];
-	"AxonThreadFactory_460"  [label = "AxonThreadFactory\n(100.0%)"; penwidth = 2; ]; "AxonThreadFactory_460" -> central [label=1; weight=1; penwidth=0.4];
-	"BaseModule_4200"  [label = "BaseModule\n(54.24%)"; penwidth = 5; ]; "BaseModule_4200" -> central [label=1; weight=1; penwidth=0.4];
-	"BuilderUtils_5228"  [shape = "circle"; height=1.8; label = "BuilderUtils\n(0.0%)"; penwidth = 2; ]; "BuilderUtils_5228" -> central [label=1; weight=1; penwidth=0.4];
-	"ChainedConverter$Route_49180"  [label = "ChainedConverter$\nRoute\n(76.24%)"; penwidth = 5; ]; "ChainedConverter$Route_49180" -> central [label=1; weight=1; penwidth=0.4];
-	"Component$Identifier_2873"  [label = "Component$\nIdentifier\n(81.1%)"; penwidth = 2; ]; "Component$Identifier_2873" -> central [label=1; weight=1; penwidth=0.4];
-	"DecoratorDefinition_3732"  [shape = "circle"; height=1.8; label = "DecoratorDefinition\n(12.3%)"; penwidth = 2; ]; "DecoratorDefinition_3732" -> central [label=1; weight=1; penwidth=0.4];
-	"DefaultAxonApplication_3443"  [label = "DefaultAxonApplication\n(100.0%)"; penwidth = 2; ]; "DefaultAxonApplication_3443" -> central [label=1; weight=1; penwidth=0.4];
-	"DefaultComponentRegistry$LocalConfiguration_3971"  [label = "DefaultComponentRegistry$\nLocalConfiguration\n(100.0%)"; penwidth = 2; ]; "DefaultComponentRegistry$LocalConfiguration_3971" -> central [label=1; weight=1; penwidth=0.4];
-	"MultiMessageMonitor_26299"  [label = "MultiMessageMonitor\n(100.0%)"; penwidth = 2; ]; "MultiMessageMonitor_26299" -> central [label=1; weight=1; penwidth=0.4];
-	"PessimisticLockFactory_2893"  [label = "PessimisticLockFactory\n(100.0%)"; penwidth = 2; ]; "PessimisticLockFactory_2893" -> central [label=1; weight=1; penwidth=0.4];
-	"PropertyBasedEntityIdResolver_10469"  [label = "PropertyBasedEntityIdResolver\n(60.3%)"; penwidth = 2; ]; "PropertyBasedEntityIdResolver_10469" -> central [label=1; weight=1; penwidth=0.4];
-	"SimpleCommandHandlingComponent_26491"  [shape = "circle"; height=1.8; label = "SimpleCommandHandlingComponent\n(0.0%)"; penwidth = 2; ]; "SimpleCommandHandlingComponent_26491" -> central [label=1; weight=1; penwidth=0.4];
-	"SimpleEntityManagerProvider_3442"  [label = "SimpleEntityManagerProvider\n(92.56%)"; penwidth = 2; ]; "SimpleEntityManagerProvider_3442" -> central [label=1; weight=1; penwidth=0.4];
-	"SimpleQueryHandlingComponent_36735"  [label = "SimpleQueryHandlingComponent\n(100.0%)"; penwidth = 2; ]; "SimpleQueryHandlingComponent_36735" -> central [label=1; weight=1; penwidth=0.4];
-	"WorkPackage_32209"  [label = "WorkPackage\n(100.0%)"; penwidth = 2; ]; "WorkPackage_32209" -> central [label=1; weight=1; penwidth=0.4];
-	"StringUtils_468"  [shape = "circle"; height=1.8; label = "StringUtils\n(0.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "StringUtils_468" [label=1; weight=1; penwidth=0.4; color = 5];
-	"AggregateBasedJpaEventStorageEngine_17760" -> "GapAwareTrackingToken_29713" [label=24; weight=24; penwidth=0.3; color = 3]
-	"WorkPackage_32209" -> "Segment_31461" [label=17; weight=17; penwidth=0.3; color = 3]
-	"MessageType_26501" -> "QualifiedName_26517" [label=15; weight=15; penwidth=0.3; color = 3]
-	"AnnotatedEntityMetamodel_11459" -> "QualifiedName_26517" [label=11; weight=11; penwidth=0.3; color = 3]
-	"DefaultComponentRegistry$LocalConfiguration_3971" -> "Component$Identifier_2873" [label=11; weight=11; penwidth=0.3; color = 3]
-	"PessimisticLockFactory_2893" -> "PessimisticLockFactory$Builder_3440" [label=9; weight=9; penwidth=0.3; color = 3]
-	"SimpleCommandHandlingComponent_26491" -> "QualifiedName_26517" [label=7; weight=7; penwidth=0.3; color = 3]
-	"SimpleQueryHandlingComponent_36735" -> "QualifiedName_26517" [label=6; weight=6; penwidth=0.3; color = 3]
-	"GenericTaggedEventMessage_16816" -> "Tag_35723" [label=5; weight=5; penwidth=0.3; color = 3]
-	"AggregateBasedJpaEventStorageEngine_17760" -> "MessageType_26501" [label=4; weight=4; penwidth=0.3; color = 3]
-	"AxonServerCommandBusConnector_7261" -> "QualifiedName_26517" [label=4; weight=4; penwidth=0.3; color = 3]
-	"AnnotatedEntityMetamodel_11459" -> "MessageType_26501" [label=3; weight=3; penwidth=0.3; color = 3]
-	"ChainedConverter_49361" -> "ChainedConverter$Route_49180" [label=3; weight=3; penwidth=0.3; color = 3]
-	"PessimisticLockFactory$Builder_3440" -> "PessimisticLockFactory_2893" [label=3; weight=3; penwidth=0.3; color = 3]
-	"QualifiedName_26517" -> "StringUtils_468" [label=3; weight=3; penwidth=0.3; color = 3]
-	"AnnotatedEntityMetamodel_11459" -> "ReflectionUtils_1599" [label=2; weight=2; penwidth=0.3; color = 3]
-	"AbstractAnnotatedParameterResolverFactory_29346" -> "ReflectionUtils_1599" [label=1; weight=1; penwidth=0.3; color = 3]
-	"BuilderUtils_5228" -> "StringUtils_468" [label=1; weight=1; penwidth=0.3; color = 3]
-	"MessageType_26501" -> "StringUtils_468" [label=1; weight=1; penwidth=0.3; color = 3]
-	"QualifiedName_26517" -> "ReflectionUtils_1599" [label=1; weight=1; penwidth=0.3; color = 3]
-	"SimpleCommandHandlingComponent_26491" -> "MessageType_26501" [label=1; weight=1; penwidth=0.3; color = 3]
-	"SimpleQueryHandlingComponent_36735" -> "MessageType_26501" [label=1; weight=1; penwidth=0.3; color = 3]
+	graph   [label="Top Rank #1 Java Type Outlier\norg.axonframework.common.lifecycle.ShutdownLatch$ActivityHandle\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: cluster probability\nlarge circle: < 25% percentile of cluster probability\nthick outline: > 80% percentile of distance to cluster center\n\n"];
+	central [label="🧩 outlier #1\nShutdownLatch$ActivityHandle"];
+	"AxonServerQueryBusConnector_7232"  [shape = "circle"; height=1.8; label = "AxonServerQueryBusConnector\n(13.0%)"; penwidth = 2; ]; "AxonServerQueryBusConnector_7232" -> central [label=7; weight=7; penwidth=0.5];
+	"AxonServerCommandBusConnector_7261"  [shape = "circle"; height=1.8; label = "AxonServerCommandBusConnector\n(13.0%)"; penwidth = 2; ]; "AxonServerCommandBusConnector_7261" -> central [label=5; weight=5; penwidth=0.5];
+	"ShutdownLatch_2717"  [shape = "circle"; height=1.8; label = "ShutdownLatch\n(4.92%)"; penwidth = 5; ]; "ShutdownLatch_2717" -> central [label=4; weight=4; penwidth=0.5];
+	"ShutdownLatch_2717"  [shape = "circle"; height=1.8; label = "ShutdownLatch\n(4.92%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "ShutdownLatch_2717" [label=4; weight=4; penwidth=0.5; color = 5];
+	"AxonServerQueryBusConnector_7232" -> "ShutdownLatch_2717" [label=9; weight=9; penwidth=0.3; color = 3]
+	"AxonServerCommandBusConnector_7261" -> "ShutdownLatch_2717" [label=7; weight=7; penwidth=0.3; color = 3]
 }

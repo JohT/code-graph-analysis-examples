@@ -12,70 +12,43 @@ strict digraph TopOutlier5 {
     central [fontsize = 16;];
     central [color = 7; fillcolor = 5; penwidth = 3;];
 
-	graph   [label="Top Rank #5 Java Package Outlier\norg.axonframework.messaging.eventhandling.processing\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: cluster probability\nlarge circle: < 25% percentile of cluster probability\nthick outline: > 80% percentile of distance to cluster center\n\n"];
-	central [label="🧩 outlier #5\nprocessing"];
-	"pooled_25557"  [label = "pooled\n(100.0%)"; penwidth = 2; ]; "pooled_25557" -> central [label=12; weight=12; penwidth=0.6];
-	"subscribing_25559"  [shape = "circle"; height=1.8; label = "subscribing\n(0.0%)"; penwidth = 2; ]; "subscribing_25559" -> central [label=8; weight=8; penwidth=0.5];
-	"event_6270"  [label = "event\n(100.0%)"; penwidth = 5; ]; "event_6270" -> central [label=3; weight=3; penwidth=0.5];
-	"errorhandling_25560"  [shape = "circle"; height=1.8; label = "errorhandling\n(62.34%)"; penwidth = 2; ]; "errorhandling_25560" -> central [label=2; weight=2; penwidth=0.4];
-	"micrometer_47982"  [shape = "circle"; height=1.8; label = "micrometer\n(0.0%)"; penwidth = 2; ]; "micrometer_47982" -> central [label=0; weight=0; penwidth=0.4];
-	"streaming_25550"  [shape = "circle"; height=1.8; label = "streaming\n(62.42%)"; penwidth = 5; ]; "streaming_25550" -> central [label=0; weight=0; penwidth=0.4];
-	"core_25571"  [label = "core\n(97.11%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "core_25571" [label=8; weight=8; penwidth=0.5; color = 5];
-	"eventhandling_25541"  [label = "eventhandling\n(92.18%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "eventhandling_25541" [label=5; weight=5; penwidth=0.5; color = 5];
-	"segmenting_25558"  [label = "segmenting\n(100.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "segmenting_25558" [label=3; weight=3; penwidth=0.5; color = 5];
-	"common_833"  [label = "common\n(100.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "common_833" [label=2; weight=2; penwidth=0.4; color = 5];
-	"annotation_835"  [shape = "circle"; height=1.8; label = "annotation\n(14.56%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "annotation_835" [label=1; weight=1; penwidth=0.4; color = 5];
-	"unitofwork_25579"  [label = "unitofwork\n(100.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "unitofwork_25579" [label=1; weight=1; penwidth=0.4; color = 5];
-	"infra_841"  [label = "infra\n(78.36%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "infra_841" [label=0; weight=0; penwidth=0.4; color = 5];
-	"pooled_25557" -> "segmenting_25558" [label=146; weight=146; penwidth=0.3; color = 3]
-	"eventhandling_25541" -> "core_25571" [label=55; weight=55; penwidth=0.3; color = 3]
-	"unitofwork_25579" -> "core_25571" [label=55; weight=55; penwidth=0.3; color = 3]
-	"pooled_25557" -> "common_833" [label=52; weight=52; penwidth=0.3; color = 3]
-	"event_6270" -> "core_25571" [label=49; weight=49; penwidth=0.3; color = 3]
-	"pooled_25557" -> "unitofwork_25579" [label=44; weight=44; penwidth=0.3; color = 3]
-	"core_25571" -> "common_833" [label=43; weight=43; penwidth=0.3; color = 3]
-	"pooled_25557" -> "core_25571" [label=37; weight=37; penwidth=0.3; color = 3]
-	"pooled_25557" -> "eventhandling_25541" [label=20; weight=20; penwidth=0.3; color = 3]
-	"segmenting_25558" -> "core_25571" [label=17; weight=17; penwidth=0.3; color = 3]
-	"event_6270" -> "eventhandling_25541" [label=16; weight=16; penwidth=0.3; color = 3]
-	"micrometer_47982" -> "core_25571" [label=13; weight=13; penwidth=0.3; color = 3]
-	"micrometer_47982" -> "common_833" [label=13; weight=13; penwidth=0.3; color = 3]
-	"segmenting_25558" -> "eventhandling_25541" [label=13; weight=13; penwidth=0.3; color = 3]
-	"unitofwork_25579" -> "common_833" [label=11; weight=11; penwidth=0.3; color = 3]
-	"eventhandling_25541" -> "unitofwork_25579" [label=9; weight=9; penwidth=0.3; color = 3]
-	"eventhandling_25541" -> "common_833" [label=9; weight=9; penwidth=0.3; color = 3]
-	"subscribing_25559" -> "common_833" [label=9; weight=9; penwidth=0.3; color = 3]
-	"event_6270" -> "unitofwork_25579" [label=7; weight=7; penwidth=0.3; color = 3]
-	"eventhandling_25541" -> "annotation_835" [label=7; weight=7; penwidth=0.3; color = 3]
-	"pooled_25557" -> "annotation_835" [label=7; weight=7; penwidth=0.3; color = 3]
-	"event_6270" -> "annotation_835" [label=6; weight=6; penwidth=0.3; color = 3]
-	"pooled_25557" -> "errorhandling_25560" [label=6; weight=6; penwidth=0.3; color = 3]
-	"segmenting_25558" -> "annotation_835" [label=6; weight=6; penwidth=0.3; color = 3]
-	"core_25571" -> "annotation_835" [label=5; weight=5; penwidth=0.3; color = 3]
-	"core_25571" -> "unitofwork_25579" [label=5; weight=5; penwidth=0.3; color = 3]
-	"event_6270" -> "subscribing_25559" [label=5; weight=5; penwidth=0.3; color = 3]
-	"event_6270" -> "streaming_25550" [label=5; weight=5; penwidth=0.3; color = 3]
-	"pooled_25557" -> "infra_841" [label=5; weight=5; penwidth=0.3; color = 3]
-	"subscribing_25559" -> "core_25571" [label=5; weight=5; penwidth=0.3; color = 3]
-	"subscribing_25559" -> "annotation_835" [label=5; weight=5; penwidth=0.3; color = 3]
-	"event_6270" -> "segmenting_25558" [label=4; weight=4; penwidth=0.3; color = 3]
-	"eventhandling_25541" -> "infra_841" [label=4; weight=4; penwidth=0.3; color = 3]
-	"subscribing_25559" -> "eventhandling_25541" [label=4; weight=4; penwidth=0.3; color = 3]
-	"subscribing_25559" -> "unitofwork_25579" [label=4; weight=4; penwidth=0.3; color = 3]
-	"annotation_835" -> "common_833" [label=3; weight=3; penwidth=0.3; color = 3]
-	"event_6270" -> "infra_841" [label=3; weight=3; penwidth=0.3; color = 3]
-	"infra_841" -> "common_833" [label=3; weight=3; penwidth=0.3; color = 3]
-	"segmenting_25558" -> "unitofwork_25579" [label=3; weight=3; penwidth=0.3; color = 3]
-	"subscribing_25559" -> "errorhandling_25560" [label=3; weight=3; penwidth=0.3; color = 3]
-	"event_6270" -> "common_833" [label=2; weight=2; penwidth=0.3; color = 3]
-	"micrometer_47982" -> "eventhandling_25541" [label=2; weight=2; penwidth=0.3; color = 3]
-	"segmenting_25558" -> "common_833" [label=2; weight=2; penwidth=0.3; color = 3]
-	"subscribing_25559" -> "infra_841" [label=2; weight=2; penwidth=0.3; color = 3]
-	"subscribing_25559" -> "segmenting_25558" [label=2; weight=2; penwidth=0.3; color = 3]
-	"errorhandling_25560" -> "eventhandling_25541" [label=1; weight=1; penwidth=0.3; color = 3]
-	"errorhandling_25560" -> "core_25571" [label=1; weight=1; penwidth=0.3; color = 3]
-	"streaming_25550" -> "segmenting_25558" [label=1; weight=1; penwidth=0.3; color = 3]
-	"unitofwork_25579" -> "annotation_835" [label=1; weight=1; penwidth=0.3; color = 3]
-	"core_25571" -> "eventhandling_25541" [label=0; weight=0; penwidth=0.3; color = 3]
-	"pooled_25557" -> "streaming_25550" [label=0; weight=0; penwidth=0.3; color = 3]
+	graph   [label="Top Rank #5 Java Package Outlier\norg.axonframework.modelling.configuration\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: cluster probability\nlarge circle: < 25% percentile of cluster probability\nthick outline: > 80% percentile of distance to cluster center\n\n"];
+	central [label="🧩 outlier #5\nconfiguration"];
+	"configuration_14821"  [shape = "circle"; height=1.8; label = "configuration\n(0.0%)"; penwidth = 2; ]; "configuration_14821" -> central [label=20; weight=20; penwidth=0.7];
+	"configuration_845"  [shape = "circle"; height=1.8; label = "configuration\n(0.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "configuration_845" [label=22; weight=22; penwidth=0.8; color = 5];
+	"configuration_25583"  [shape = "circle"; height=1.8; label = "configuration\n(64.69%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "configuration_25583" [label=13; weight=13; penwidth=0.6; color = 5];
+	"common_833"  [label = "common\n(100.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "common_833" [label=8; weight=8; penwidth=0.5; color = 5];
+	"repository_10469"  [label = "repository\n(71.97%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "repository_10469" [label=6; weight=6; penwidth=0.5; color = 5];
+	"entity_10465"  [label = "entity\n(100.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "entity_10465" [label=4; weight=4; penwidth=0.5; color = 5];
+	"modelling_10463"  [label = "modelling\n(90.92%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "modelling_10463" [label=4; weight=4; penwidth=0.5; color = 5];
+	"commandhandling_25533"  [label = "commandhandling\n(69.22%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "commandhandling_25533" [label=1; weight=1; penwidth=0.4; color = 5];
+	"configuration_25540"  [label = "configuration\n(74.16%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "configuration_25540" [label=0; weight=0; penwidth=0.4; color = 5];
+	"configuration_25570"  [label = "configuration\n(88.7%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "configuration_25570" [label=0; weight=0; penwidth=0.4; color = 5];
+	"configuration_25583" -> "configuration_845" [label=61; weight=61; penwidth=0.3; color = 3]
+	"configuration_14821" -> "configuration_845" [label=34; weight=34; penwidth=0.3; color = 3]
+	"entity_10465" -> "commandhandling_25533" [label=27; weight=27; penwidth=0.3; color = 3]
+	"configuration_845" -> "common_833" [label=24; weight=24; penwidth=0.3; color = 3]
+	"modelling_10463" -> "repository_10469" [label=17; weight=17; penwidth=0.3; color = 3]
+	"commandhandling_25533" -> "common_833" [label=15; weight=15; penwidth=0.3; color = 3]
+	"configuration_14821" -> "common_833" [label=15; weight=15; penwidth=0.3; color = 3]
+	"configuration_25540" -> "configuration_845" [label=11; weight=11; penwidth=0.3; color = 3]
+	"configuration_25570" -> "configuration_845" [label=11; weight=11; penwidth=0.3; color = 3]
+	"configuration_25540" -> "commandhandling_25533" [label=10; weight=10; penwidth=0.3; color = 3]
+	"configuration_25583" -> "commandhandling_25533" [label=7; weight=7; penwidth=0.3; color = 3]
+	"configuration_14821" -> "entity_10465" [label=5; weight=5; penwidth=0.3; color = 3]
+	"modelling_10463" -> "common_833" [label=5; weight=5; penwidth=0.3; color = 3]
+	"entity_10465" -> "modelling_10463" [label=4; weight=4; penwidth=0.3; color = 3]
+	"configuration_14821" -> "modelling_10463" [label=3; weight=3; penwidth=0.3; color = 3]
+	"configuration_14821" -> "commandhandling_25533" [label=2; weight=2; penwidth=0.3; color = 3]
+	"entity_10465" -> "repository_10469" [label=2; weight=2; penwidth=0.3; color = 3]
+	"modelling_10463" -> "configuration_845" [label=2; weight=2; penwidth=0.3; color = 3]
+	"repository_10469" -> "common_833" [label=2; weight=2; penwidth=0.3; color = 3]
+	"configuration_14821" -> "configuration_25583" [label=1; weight=1; penwidth=0.3; color = 3]
+	"configuration_14821" -> "repository_10469" [label=1; weight=1; penwidth=0.3; color = 3]
+	"configuration_25540" -> "common_833" [label=1; weight=1; penwidth=0.3; color = 3]
+	"configuration_25570" -> "common_833" [label=1; weight=1; penwidth=0.3; color = 3]
+	"configuration_14821" -> "configuration_25540" [label=0; weight=0; penwidth=0.3; color = 3]
+	"configuration_14821" -> "configuration_25570" [label=0; weight=0; penwidth=0.3; color = 3]
+	"configuration_25583" -> "configuration_25540" [label=0; weight=0; penwidth=0.3; color = 3]
+	"configuration_25583" -> "configuration_25570" [label=0; weight=0; penwidth=0.3; color = 3]
 }

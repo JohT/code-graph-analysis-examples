@@ -6,7 +6,7 @@
 "org.axonframework.messaging.eventhandling.processing.streaming.pooled.PooledStreamingEventProcessor","PooledStreamingEventProcessor","axon-messaging-5.0.1",300,36,1,35,""
 "org.axonframework.messaging.eventhandling.processing.streaming.pooled.PooledStreamingEventProcessorsConfigurer","PooledStreamingEventProcessorsConfigurer","axon-messaging-5.0.1",294.0785714285714,17,1,16,""
 "org.axonframework.messaging.core.annotation.MultiHandlerDefinition","MultiHandlerDefinition","axon-messaging-5.0.1",201,9,1,8,""
-"org.axonframework.common.configuration.DecoratedComponent","DecoratedComponent","axon-common-5.0.1",193.83333333333343,9,1,8,""
+"org.axonframework.common.configuration.DecoratedComponent","DecoratedComponent","axon-common-5.0.1",193.83333333333346,9,1,8,""
 "org.axonframework.messaging.eventhandling.processing.subscribing.SubscribingEventProcessorsConfigurer","SubscribingEventProcessorsConfigurer","axon-messaging-5.0.1",177.57857142857142,15,1,14,""
 "org.axonframework.common.configuration.DecoratorDefinition$1","DecoratorDefinition$1","axon-common-5.0.1",166.33333333333334,6,1,5,""
 "org.axonframework.common.configuration.DecoratorDefinition$2","DecoratorDefinition$2","axon-common-5.0.1",166.33333333333334,6,1,5,""

@@ -40,7 +40,7 @@ strict digraph TopHub5 {
 	"DefaultComponentRegistry$LocalConfiguration_3971"  [label = "DefaultComponentRegistry$\nLocalConfiguration\n(0.47)"; penwidth = 2; ]; "DefaultComponentRegistry$LocalConfiguration_3971" -> central [label=1; weight=1; penwidth=0.4];
 	"MultiMessageMonitor_26299"  [label = "MultiMessageMonitor\n(0.33)"; penwidth = 2; ]; "MultiMessageMonitor_26299" -> central [label=1; weight=1; penwidth=0.4];
 	"PessimisticLockFactory_2893"  [label = "PessimisticLockFactory\n(0.27)"; penwidth = 2; ]; "PessimisticLockFactory_2893" -> central [label=1; weight=1; penwidth=0.4];
-	"PropertyBasedEntityIdResolver_10469"  [label = "PropertyBasedEntityIdResolver\n(0.17)"; penwidth = 2; ]; "PropertyBasedEntityIdResolver_10469" -> central [label=1; weight=1; penwidth=0.4];
+	"PropertyBasedEntityIdResolver_10470"  [label = "PropertyBasedEntityIdResolver\n(0.17)"; penwidth = 2; ]; "PropertyBasedEntityIdResolver_10470" -> central [label=1; weight=1; penwidth=0.4];
 	"SimpleCommandHandlingComponent_26491"  [label = "SimpleCommandHandlingComponent\n(0.2)"; penwidth = 2; ]; "SimpleCommandHandlingComponent_26491" -> central [label=1; weight=1; penwidth=0.4];
 	"SimpleEntityManagerProvider_3442"  [label = "SimpleEntityManagerProvider\n(0.0)"; penwidth = 5; ]; "SimpleEntityManagerProvider_3442" -> central [label=1; weight=1; penwidth=0.4];
 	"SimpleQueryHandlingComponent_36735"  [label = "SimpleQueryHandlingComponent\n(0.21)"; penwidth = 2; ]; "SimpleQueryHandlingComponent_36735" -> central [label=1; weight=1; penwidth=0.4];

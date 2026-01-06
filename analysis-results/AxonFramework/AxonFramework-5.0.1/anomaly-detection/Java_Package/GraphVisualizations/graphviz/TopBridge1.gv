@@ -12,8 +12,8 @@ strict digraph TopBridge1 {
     central [fontsize = 16;];
     central [color = 7; fillcolor = 5; penwidth = 3;];
 
-	graph   [label="Top Rank #1 Java Package Bridge\norg.axonframework.common.io\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
-	central [label="🌉 bridge #1\nio"];
-	"jpa_14819" [label = "jpa"; ]; "jpa_14819" -> central [label=2; weight=2; penwidth=0.4];
-	"util_837" [label = "util"; ]; "util_837" -> central [label=2; weight=2; penwidth=0.4];
+	graph   [label="Top Rank #1 Java Package Bridge\norg.axonframework.test.server\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
+	central [label="🌉 bridge #1\nserver"];
+	"connection_23134" [label = "connection"; ]; "connection_23134" -> central [label=8; weight=8; penwidth=0.5];
+	"common_833" [label = "common"; color = 5; fillcolor = 1; ]; central -> "common_833" [label=3; weight=3; penwidth=0.5; color = 5];
 }

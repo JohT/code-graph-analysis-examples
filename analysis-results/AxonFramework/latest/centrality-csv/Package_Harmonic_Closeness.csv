@@ -15,7 +15,7 @@
 "org.axonframework.messaging.eventhandling.sequencing","sequencing","centralityHarmonic",0.3251488095238095,""
 "org.axonframework.messaging.queryhandling","queryhandling","centralityHarmonic",0.31755952380952385,""
 "org.axonframework.common.util","util","centralityHarmonic",0.31473214285714285,""
-"org.axonframework.messaging.eventhandling.conversion","conversion","centralityHarmonic",0.30461309523809516,""
+"org.axonframework.messaging.eventhandling.conversion","conversion","centralityHarmonic",0.30461309523809527,""
 "org.axonframework.messaging.commandhandling.annotation","annotation","centralityHarmonic",0.30431547619047616,""
 "org.axonframework.messaging.core.interception.annotation","annotation","centralityHarmonic",0.30282738095238093,""
 "org.axonframework.messaging.eventhandling.annotation","annotation","centralityHarmonic",0.296875,""

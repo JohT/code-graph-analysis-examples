@@ -2444,7 +2444,7 @@ The following table shows the top 30 packages with the highest cyclomatic comple
       <td>383</td>
       <td>182</td>
       <td>9</td>
-      <td>getExactDirectSuperTypesOfParameterizedTypeOrC...</td>
+      <td>fieldNameFromMember</td>
     </tr>
     <tr>
       <th>3</th>
@@ -2507,7 +2507,7 @@ The following table shows the top 30 packages with the highest cyclomatic comple
       <td>217</td>
       <td>115</td>
       <td>7</td>
-      <td>covers</td>
+      <td>equals</td>
     </tr>
     <tr>
       <th>11</th>
@@ -2516,7 +2516,7 @@ The following table shows the top 30 packages with the highest cyclomatic comple
       <td>216</td>
       <td>172</td>
       <td>4</td>
-      <td>subscribe</td>
+      <td>subscribeToUpdates</td>
     </tr>
     <tr>
       <th>8</th>
@@ -2525,7 +2525,7 @@ The following table shows the top 30 packages with the highest cyclomatic comple
       <td>215</td>
       <td>161</td>
       <td>4</td>
-      <td>lambda$appendEvents$0</td>
+      <td>appendEvents</td>
     </tr>
     <tr>
       <th>9</th>
@@ -2534,7 +2534,7 @@ The following table shows the top 30 packages with the highest cyclomatic comple
       <td>212</td>
       <td>138</td>
       <td>8</td>
-      <td>loadKeyViolationCodes</td>
+      <td>withGapsCleaned</td>
     </tr>
     <tr>
       <th>10</th>
@@ -2651,7 +2651,7 @@ The following table shows the top 30 packages with the highest cyclomatic comple
       <td>119</td>
       <td>92</td>
       <td>4</td>
-      <td>havingTags</td>
+      <td>or</td>
     </tr>
     <tr>
       <th>20</th>
@@ -2669,7 +2669,7 @@ The following table shows the top 30 packages with the highest cyclomatic comple
       <td>104</td>
       <td>84</td>
       <td>4</td>
-      <td>handle</td>
+      <td>andMetadata</td>
     </tr>
     <tr>
       <th>19</th>
@@ -2856,8 +2856,8 @@ The following table shows the top 30 packages containing the methods with the hi
       <td>6</td>
       <td>axon-common-5.0.1</td>
       <td>org.axonframework.common</td>
-      <td>TypeReflectionUtils</td>
-      <td>getExactDirectSuperTypesOfParameterizedTypeOrC...</td>
+      <td>ReflectionUtils</td>
+      <td>fieldNameFromMember</td>
       <td>9</td>
     </tr>
     <tr>
@@ -2892,8 +2892,8 @@ The following table shows the top 30 packages containing the methods with the hi
       <td>9</td>
       <td>axon-eventsourcing-5.0.1</td>
       <td>org.axonframework.eventsourcing.eventstore.jpa</td>
-      <td>SQLErrorCodesResolver</td>
-      <td>loadKeyViolationCodes</td>
+      <td>GapAwareTrackingTokenOperations</td>
+      <td>withGapsCleaned</td>
       <td>8</td>
     </tr>
     <tr>
@@ -2982,8 +2982,8 @@ The following table shows the top 30 packages containing the methods with the hi
       <td>17</td>
       <td>axon-messaging-5.0.1</td>
       <td>org.axonframework.messaging.eventhandling.proc...</td>
-      <td>GapAwareTrackingToken</td>
-      <td>covers</td>
+      <td>ReplayToken</td>
+      <td>equals</td>
       <td>7</td>
     </tr>
   </tbody>

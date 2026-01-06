@@ -14,8 +14,8 @@ strict digraph TopOutlier5 {
 
 	graph   [label="Top Rank #5 Java Type Outlier\norg.axonframework.messaging.core.timeout.AxonTaskJanitor\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: cluster probability\nlarge circle: < 25% percentile of cluster probability\nthick outline: > 80% percentile of distance to cluster center\n\n"];
 	central [label="🧩 outlier #5\nAxonTaskJanitor"];
-	"AxonTimeLimitedTask_46199"  [label = "AxonTimeLimitedTask\n(27.95%)"; penwidth = 5; ]; "AxonTimeLimitedTask_46199" -> central [label=3; weight=3; penwidth=0.4];
-	"UnitOfWorkTimeoutInterceptorBuilder_46198"  [label = "UnitOfWorkTimeoutInterceptorBuilder\n(31.74%)"; penwidth = 2; ]; "UnitOfWorkTimeoutInterceptorBuilder_46198" -> central [label=2; weight=2; penwidth=0.4];
-	"AxonThreadFactory_460"  [label = "AxonThreadFactory\n(100.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "AxonThreadFactory_460" [label=2; weight=2; penwidth=0.4; color = 5];
+	"AxonTimeLimitedTask_46199"  [label = "AxonTimeLimitedTask\n(28.42%)"; penwidth = 5; ]; "AxonTimeLimitedTask_46199" -> central [label=3; weight=3; penwidth=0.4];
+	"UnitOfWorkTimeoutInterceptorBuilder_46198"  [label = "UnitOfWorkTimeoutInterceptorBuilder\n(31.7%)"; penwidth = 2; ]; "UnitOfWorkTimeoutInterceptorBuilder_46198" -> central [label=2; weight=2; penwidth=0.4];
+	"AxonThreadFactory_460"  [label = "AxonThreadFactory\n(100.0%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "AxonThreadFactory_460" [label=2; weight=2; penwidth=0.4; color = 5];
 	"UnitOfWorkTimeoutInterceptorBuilder_46198" -> "AxonTimeLimitedTask_46199" [label=11; weight=11; penwidth=0.3; color = 3]
 }

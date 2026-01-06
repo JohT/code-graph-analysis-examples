@@ -12,16 +12,26 @@ strict digraph TopBridge2 {
     central [fontsize = 16;];
     central [color = 7; fillcolor = 5; penwidth = 3;];
 
-	graph   [label="Top Rank #2 Java Type Bridge\norg.axonframework.common.caching.EhCacheAdapter\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
-	central [label="🌉 bridge #2\nEhCacheAdapter"];
-	"EhCacheAdapter$1_1609" [label = "EhCacheAdapter$\n1"; ]; "EhCacheAdapter$1_1609" -> central [label=1; weight=1; penwidth=0.4];
-	"Cache$EntryListener_2092" [label = "Cache$\nEntryListener"; color = 5; fillcolor = 1; ]; central -> "Cache$EntryListener_2092" [label=3; weight=3; penwidth=0.4; color = 5];
-	"EhCacheAdapter$CacheEventListenerAdapter_1608" [label = "EhCacheAdapter$\nCacheEventListenerAdapter"; color = 5; fillcolor = 1; ]; central -> "EhCacheAdapter$CacheEventListenerAdapter_1608" [label=3; weight=3; penwidth=0.4; color = 5];
-	"AbstractCacheAdapter_1649" [label = "AbstractCacheAdapter"; color = 5; fillcolor = 1; ]; central -> "AbstractCacheAdapter_1649" [label=2; weight=2; penwidth=0.4; color = 5];
-	"Registration_2091" [label = "Registration"; color = 5; fillcolor = 1; ]; central -> "Registration_2091" [label=2; weight=2; penwidth=0.4; color = 5];
-	"EhCacheAdapter$1_1609" [label = "EhCacheAdapter$\n1"; color = 5; fillcolor = 1; ]; central -> "EhCacheAdapter$1_1609" [label=1; weight=1; penwidth=0.4; color = 5];
-	"EhCacheAdapter$CacheEventListenerAdapter_1608" -> "Cache$EntryListener_2092" [label=7; weight=7; penwidth=0.3; color = 3]
-	"AbstractCacheAdapter_1649" -> "Cache$EntryListener_2092" [label=5; weight=5; penwidth=0.3; color = 3]
-	"AbstractCacheAdapter_1649" -> "Registration_2091" [label=4; weight=4; penwidth=0.3; color = 3]
-	"EhCacheAdapter$CacheEventListenerAdapter_1608" -> "EhCacheAdapter$1_1609" [label=2; weight=2; penwidth=0.3; color = 3]
+	graph   [label="Top Rank #2 Java Type Bridge\norg.axonframework.update.api.UpdateCheckResponse\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
+	central [label="🌉 bridge #2\nUpdateCheckResponse"];
+	"LoggingUpdateCheckerReporter_50678" [label = "LoggingUpdateCheckerReporter"; ]; "LoggingUpdateCheckerReporter_50678" -> central [label=10; weight=10; penwidth=0.6];
+	"UpdateChecker_50670" [label = "UpdateChecker"; ]; "UpdateChecker_50670" -> central [label=2; weight=2; penwidth=0.4];
+	"UpdateCheckerHttpClient_50671" [label = "UpdateCheckerHttpClient"; ]; "UpdateCheckerHttpClient_50671" -> central [label=2; weight=2; penwidth=0.4];
+	"UpdateCheckerReporter_50935" [label = "UpdateCheckerReporter"; ]; "UpdateCheckerReporter_50935" -> central [label=1; weight=1; penwidth=0.4];
+	"DetectedVulnerability_51367" [label = "DetectedVulnerability"; color = 5; fillcolor = 1; ]; central -> "DetectedVulnerability_51367" [label=7; weight=7; penwidth=0.5; color = 5];
+	"ArtifactAvailableUpgrade_51368" [label = "ArtifactAvailableUpgrade"; color = 5; fillcolor = 1; ]; central -> "ArtifactAvailableUpgrade_51368" [label=6; weight=6; penwidth=0.5; color = 5];
+	"DetectedVulnerabilitySeverity_51469" [label = "DetectedVulnerabilitySeverity"; color = 5; fillcolor = 1; ]; central -> "DetectedVulnerabilitySeverity_51469" [label=3; weight=3; penwidth=0.4; color = 5];
+	"Internal_1045" [label = "Internal"; color = 5; fillcolor = 1; ]; central -> "Internal_1045" [label=1; weight=1; penwidth=0.4; color = 5];
+	"LoggingUpdateCheckerReporter_50678" -> "DetectedVulnerability_51367" [label=12; weight=12; penwidth=0.3; color = 3]
+	"LoggingUpdateCheckerReporter_50678" -> "ArtifactAvailableUpgrade_51368" [label=6; weight=6; penwidth=0.3; color = 3]
+	"UpdateChecker_50670" -> "UpdateCheckerReporter_50935" [label=4; weight=4; penwidth=0.3; color = 3]
+	"UpdateChecker_50670" -> "UpdateCheckerHttpClient_50671" [label=4; weight=4; penwidth=0.3; color = 3]
+	"DetectedVulnerability_51367" -> "DetectedVulnerabilitySeverity_51469" [label=3; weight=3; penwidth=0.3; color = 3]
+	"LoggingUpdateCheckerReporter_50678" -> "DetectedVulnerabilitySeverity_51469" [label=2; weight=2; penwidth=0.3; color = 3]
+	"ArtifactAvailableUpgrade_51368" -> "Internal_1045" [label=1; weight=1; penwidth=0.3; color = 3]
+	"DetectedVulnerability_51367" -> "Internal_1045" [label=1; weight=1; penwidth=0.3; color = 3]
+	"DetectedVulnerabilitySeverity_51469" -> "Internal_1045" [label=1; weight=1; penwidth=0.3; color = 3]
+	"LoggingUpdateCheckerReporter_50678" -> "UpdateCheckerReporter_50935" [label=1; weight=1; penwidth=0.3; color = 3]
+	"UpdateChecker_50670" -> "Internal_1045" [label=1; weight=1; penwidth=0.3; color = 3]
+	"UpdateCheckerHttpClient_50671" -> "Internal_1045" [label=1; weight=1; penwidth=0.3; color = 3]
 }

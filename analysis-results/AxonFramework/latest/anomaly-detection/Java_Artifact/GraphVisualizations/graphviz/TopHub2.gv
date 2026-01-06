@@ -14,31 +14,31 @@ strict digraph TopHub2 {
 
 	graph   [label="Top Rank #2 Java Artifact Hub\n/axon-messaging-5.0.1.jar\n\nnodes: incoming dependencies (limited max. 40)\nnode value: local clustering coefficient\nthick outline: <1 0% percentile of local clustering coefficient\n\n"];
 	central [label="🎡 hub #2\naxon-messaging-5.0.1\n(in-degree=7)"];
-	"axon-eventsourcing-5.0.1_14796"  [label = "axon-eventsourcing-5.0.1\n(0.76)"; penwidth = 2; ]; "axon-eventsourcing-5.0.1_14796" -> central [label=362; weight=362; penwidth=1.4];
-	"axon-modelling-5.0.1_10439"  [label = "axon-modelling-5.0.1\n(0.9)"; penwidth = 2; ]; "axon-modelling-5.0.1_10439" -> central [label=316; weight=316; penwidth=1.2];
-	"axon-server-connector-5.0.1_5823"  [label = "axon-server-connector-5.0.1\n(0.9)"; penwidth = 2; ]; "axon-server-connector-5.0.1_5823" -> central [label=298; weight=298; penwidth=1.2];
+	"axon-eventsourcing-5.0.1_14797"  [label = "axon-eventsourcing-5.0.1\n(0.76)"; penwidth = 2; ]; "axon-eventsourcing-5.0.1_14797" -> central [label=362; weight=362; penwidth=1.4];
+	"axon-modelling-5.0.1_10445"  [label = "axon-modelling-5.0.1\n(0.9)"; penwidth = 2; ]; "axon-modelling-5.0.1_10445" -> central [label=316; weight=316; penwidth=1.2];
+	"axon-server-connector-5.0.1_5827"  [label = "axon-server-connector-5.0.1\n(0.9)"; penwidth = 2; ]; "axon-server-connector-5.0.1_5827" -> central [label=298; weight=298; penwidth=1.2];
 	"axon-test-5.0.1_19454"  [label = "axon-test-5.0.1\n(1.0)"; penwidth = 2; ]; "axon-test-5.0.1_19454" -> central [label=190; weight=190; penwidth=0.9];
 	"axon-spring-boot-autoconfigure-5.0.1_22377"  [label = "axon-spring-boot-autoconfigure-5.0.1\n(0.62)"; penwidth = 5; ]; "axon-spring-boot-autoconfigure-5.0.1_22377" -> central [label=70; weight=70; penwidth=0.6];
 	"axon-metrics-micrometer-5.0.1_47963"  [label = "axon-metrics-micrometer-5.0.1\n(1.0)"; penwidth = 2; ]; "axon-metrics-micrometer-5.0.1_47963" -> central [label=66; weight=66; penwidth=0.6];
 	"axon-tracing-opentelemetry-5.0.1_1"  [label = "axon-tracing-opentelemetry-5.0.1\n(1.0)"; penwidth = 2; ]; "axon-tracing-opentelemetry-5.0.1_1" -> central [label=22; weight=22; penwidth=0.5];
 	"axon-common-5.0.1_456"  [label = "axon-common-5.0.1\n(0.42)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "axon-common-5.0.1_456" [label=942; weight=942; penwidth=2.9; color = 5];
 	"axon-conversion-5.0.1_48825"  [label = "axon-conversion-5.0.1\n(0.9)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "axon-conversion-5.0.1_48825" [label=70; weight=70; penwidth=0.6; color = 5];
-	"axon-modelling-5.0.1_10439" -> "axon-common-5.0.1_456" [label=188; weight=188; penwidth=0.3; color = 3]
-	"axon-eventsourcing-5.0.1_14796" -> "axon-common-5.0.1_456" [label=182; weight=182; penwidth=0.3; color = 3]
-	"axon-server-connector-5.0.1_5823" -> "axon-common-5.0.1_456" [label=134; weight=134; penwidth=0.3; color = 3]
+	"axon-modelling-5.0.1_10445" -> "axon-common-5.0.1_456" [label=188; weight=188; penwidth=0.3; color = 3]
+	"axon-eventsourcing-5.0.1_14797" -> "axon-common-5.0.1_456" [label=182; weight=182; penwidth=0.3; color = 3]
+	"axon-server-connector-5.0.1_5827" -> "axon-common-5.0.1_456" [label=134; weight=134; penwidth=0.3; color = 3]
 	"axon-spring-boot-autoconfigure-5.0.1_22377" -> "axon-common-5.0.1_456" [label=76; weight=76; penwidth=0.3; color = 3]
 	"axon-test-5.0.1_19454" -> "axon-common-5.0.1_456" [label=74; weight=74; penwidth=0.3; color = 3]
-	"axon-server-connector-5.0.1_5823" -> "axon-eventsourcing-5.0.1_14796" [label=72; weight=72; penwidth=0.3; color = 3]
-	"axon-eventsourcing-5.0.1_14796" -> "axon-modelling-5.0.1_10439" [label=54; weight=54; penwidth=0.3; color = 3]
+	"axon-server-connector-5.0.1_5827" -> "axon-eventsourcing-5.0.1_14797" [label=72; weight=72; penwidth=0.3; color = 3]
+	"axon-eventsourcing-5.0.1_14797" -> "axon-modelling-5.0.1_10445" [label=54; weight=54; penwidth=0.3; color = 3]
 	"axon-conversion-5.0.1_48825" -> "axon-common-5.0.1_456" [label=26; weight=26; penwidth=0.3; color = 3]
-	"axon-spring-boot-autoconfigure-5.0.1_22377" -> "axon-eventsourcing-5.0.1_14796" [label=16; weight=16; penwidth=0.3; color = 3]
+	"axon-spring-boot-autoconfigure-5.0.1_22377" -> "axon-eventsourcing-5.0.1_14797" [label=16; weight=16; penwidth=0.3; color = 3]
 	"axon-spring-boot-autoconfigure-5.0.1_22377" -> "axon-conversion-5.0.1_48825" [label=14; weight=14; penwidth=0.3; color = 3]
-	"axon-spring-boot-autoconfigure-5.0.1_22377" -> "axon-server-connector-5.0.1_5823" [label=14; weight=14; penwidth=0.3; color = 3]
+	"axon-spring-boot-autoconfigure-5.0.1_22377" -> "axon-server-connector-5.0.1_5827" [label=14; weight=14; penwidth=0.3; color = 3]
 	"axon-metrics-micrometer-5.0.1_47963" -> "axon-common-5.0.1_456" [label=8; weight=8; penwidth=0.3; color = 3]
-	"axon-test-5.0.1_19454" -> "axon-eventsourcing-5.0.1_14796" [label=6; weight=6; penwidth=0.3; color = 3]
+	"axon-test-5.0.1_19454" -> "axon-eventsourcing-5.0.1_14797" [label=6; weight=6; penwidth=0.3; color = 3]
 	"axon-spring-boot-autoconfigure-5.0.1_22377" -> "axon-test-5.0.1_19454" [label=4; weight=4; penwidth=0.3; color = 3]
-	"axon-eventsourcing-5.0.1_14796" -> "axon-conversion-5.0.1_48825" [label=2; weight=2; penwidth=0.3; color = 3]
-	"axon-modelling-5.0.1_10439" -> "axon-conversion-5.0.1_48825" [label=2; weight=2; penwidth=0.3; color = 3]
-	"axon-server-connector-5.0.1_5823" -> "axon-modelling-5.0.1_10439" [label=2; weight=2; penwidth=0.3; color = 3]
+	"axon-eventsourcing-5.0.1_14797" -> "axon-conversion-5.0.1_48825" [label=2; weight=2; penwidth=0.3; color = 3]
+	"axon-modelling-5.0.1_10445" -> "axon-conversion-5.0.1_48825" [label=2; weight=2; penwidth=0.3; color = 3]
+	"axon-server-connector-5.0.1_5827" -> "axon-modelling-5.0.1_10445" [label=2; weight=2; penwidth=0.3; color = 3]
 	"axon-tracing-opentelemetry-5.0.1_1" -> "axon-common-5.0.1_456" [label=2; weight=2; penwidth=0.3; color = 3]
 }
