@@ -258,8 +258,11 @@ Image  | Analysis |
 | [NodeEmbeddingsTypescript_25_8.png](./react-router/latest/node-embeddings-typescript/NodeEmbeddingsTypescript_files/NodeEmbeddingsTypescript_25_8.png) | latest |
 | [NodeEmbeddingsTypescript_30_0.png](./react-router/latest/node-embeddings-typescript/NodeEmbeddingsTypescript_files/NodeEmbeddingsTypescript_30_0.png) | latest |
 | [NodeEmbeddingsTypescript_32_5.png](./react-router/latest/node-embeddings-typescript/NodeEmbeddingsTypescript_files/NodeEmbeddingsTypescript_32_5.png) | latest |
+| [NodeEmbeddingsTypescript_32_6.png](./react-router/latest/node-embeddings-typescript/NodeEmbeddingsTypescript_files/NodeEmbeddingsTypescript_32_6.png) | latest |
 | [NodeEmbeddingsTypescript_34_5.png](./react-router/latest/node-embeddings-typescript/NodeEmbeddingsTypescript_files/NodeEmbeddingsTypescript_34_5.png) | latest |
+| [NodeEmbeddingsTypescript_34_6.png](./react-router/latest/node-embeddings-typescript/NodeEmbeddingsTypescript_files/NodeEmbeddingsTypescript_34_6.png) | latest |
 | [NodeEmbeddingsTypescript_36_5.png](./react-router/latest/node-embeddings-typescript/NodeEmbeddingsTypescript_files/NodeEmbeddingsTypescript_36_5.png) | latest |
+| [NodeEmbeddingsTypescript_36_6.png](./react-router/latest/node-embeddings-typescript/NodeEmbeddingsTypescript_files/NodeEmbeddingsTypescript_36_6.png) | latest |
 | [NodeEmbeddingsTypescript_38_0.png](./react-router/latest/node-embeddings-typescript/NodeEmbeddingsTypescript_files/NodeEmbeddingsTypescript_38_0.png) | latest |
 | [ObjectOrientedDesignMetricsTypescript_26_0.png](./react-router/latest/object-oriented-design-metrics-typescript/ObjectOrientedDesignMetricsTypescript_files/ObjectOrientedDesignMetricsTypescript_26_0.png) | latest |
 | [OverviewGeneral_14_1.png](./react-router/latest/overview-general/OverviewGeneral_files/OverviewGeneral_14_1.png) | latest |
@@ -311,8 +314,11 @@ Image  | Analysis |
 | [NodeEmbeddingsTypescript_25_8.png](./react-router/react-router-6.30.2/node-embeddings-typescript/NodeEmbeddingsTypescript_files/NodeEmbeddingsTypescript_25_8.png) | react-router-6.30.2 |
 | [NodeEmbeddingsTypescript_30_0.png](./react-router/react-router-6.30.2/node-embeddings-typescript/NodeEmbeddingsTypescript_files/NodeEmbeddingsTypescript_30_0.png) | react-router-6.30.2 |
 | [NodeEmbeddingsTypescript_32_5.png](./react-router/react-router-6.30.2/node-embeddings-typescript/NodeEmbeddingsTypescript_files/NodeEmbeddingsTypescript_32_5.png) | react-router-6.30.2 |
+| [NodeEmbeddingsTypescript_32_6.png](./react-router/react-router-6.30.2/node-embeddings-typescript/NodeEmbeddingsTypescript_files/NodeEmbeddingsTypescript_32_6.png) | react-router-6.30.2 |
 | [NodeEmbeddingsTypescript_34_5.png](./react-router/react-router-6.30.2/node-embeddings-typescript/NodeEmbeddingsTypescript_files/NodeEmbeddingsTypescript_34_5.png) | react-router-6.30.2 |
+| [NodeEmbeddingsTypescript_34_6.png](./react-router/react-router-6.30.2/node-embeddings-typescript/NodeEmbeddingsTypescript_files/NodeEmbeddingsTypescript_34_6.png) | react-router-6.30.2 |
 | [NodeEmbeddingsTypescript_36_5.png](./react-router/react-router-6.30.2/node-embeddings-typescript/NodeEmbeddingsTypescript_files/NodeEmbeddingsTypescript_36_5.png) | react-router-6.30.2 |
+| [NodeEmbeddingsTypescript_36_6.png](./react-router/react-router-6.30.2/node-embeddings-typescript/NodeEmbeddingsTypescript_files/NodeEmbeddingsTypescript_36_6.png) | react-router-6.30.2 |
 | [NodeEmbeddingsTypescript_38_0.png](./react-router/react-router-6.30.2/node-embeddings-typescript/NodeEmbeddingsTypescript_files/NodeEmbeddingsTypescript_38_0.png) | react-router-6.30.2 |
 | [ObjectOrientedDesignMetricsTypescript_26_0.png](./react-router/react-router-6.30.2/object-oriented-design-metrics-typescript/ObjectOrientedDesignMetricsTypescript_files/ObjectOrientedDesignMetricsTypescript_26_0.png) | react-router-6.30.2 |
 | [OverviewGeneral_14_1.png](./react-router/react-router-6.30.2/overview-general/OverviewGeneral_files/OverviewGeneral_14_1.png) | react-router-6.30.2 |
