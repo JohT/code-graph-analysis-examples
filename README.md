@@ -137,7 +137,7 @@ Below are examples drawn from more than a hundred reports produced by the analys
 
 ### Communities and Node Embeddings of Java Packages
 
-<img src="./analysis-results/AxonFramework/latest/node-embeddings-java/NodeEmbeddingsJava_files/NodeEmbeddingsJava_21_0.png" width="600" alt="Communities and node embeddings of Java packages">
+<img src="./analysis-results/AxonFramework/latest/node-embeddings-java/NodeEmbeddingsJava_files/NodeEmbeddingsJava_30_0.png" width="600" alt="Communities and node embeddings of Java packages">
 
 ### Word Cloud of Git Authors
 
