@@ -88,7 +88,7 @@ Only the top 20 entries are shown. The whole table can be found in the following
       <td>21</td>
       <td>4</td>
       <td>89</td>
-      <td>[&lt;useHardwareBackButton&gt; of module &lt;react-rout...</td>
+      <td>[&lt;LinkProps&gt; of module &lt;react-router-native&gt; i...</td>
     </tr>
     <tr>
       <th>3</th>
@@ -99,7 +99,7 @@ Only the top 20 entries are shown. The whole table can be found in the following
       <td>4</td>
       <td>4</td>
       <td>89</td>
-      <td>[&lt;createSearchParams&gt; of module &lt;react-router-...</td>
+      <td>[&lt;useSearchParams&gt; of module &lt;react-router-nat...</td>
     </tr>
   </tbody>
 </table>
@@ -223,7 +223,7 @@ Only the top 20 entries are shown. The whole table can be found in the following
       <td>4</td>
       <td>4</td>
       <td>89</td>
-      <td>[&lt;createSearchParams&gt; of module &lt;react-router-...</td>
+      <td>[&lt;useSearchParams&gt; of module &lt;react-router-nat...</td>
     </tr>
   </tbody>
 </table>
@@ -1119,7 +1119,7 @@ Only the first 40 entries are shown. The whole table can be found in the followi
       <td>24</td>
       <td>4</td>
       <td>141.176471</td>
-      <td>[BackHandlerStatic.addEventListener, BackHandl...</td>
+      <td>[GestureResponderEvent, TouchableHighlightProp...</td>
     </tr>
     <tr>
       <th>5</th>
@@ -1131,7 +1131,7 @@ Only the first 40 entries are shown. The whole table can be found in the followi
       <td>24</td>
       <td>4</td>
       <td>141.176471</td>
-      <td>[MemoryRouterProps, NavigateOptions, useNaviga...</td>
+      <td>[To, Location.search, useLocation, useNavigate...</td>
     </tr>
     <tr>
       <th>6</th>
@@ -1143,7 +1143,7 @@ Only the first 40 entries are shown. The whole table can be found in the followi
       <td>24</td>
       <td>4</td>
       <td>141.176471</td>
-      <td>[React.JSX.Element, React.useEffect, React.Rea...</td>
+      <td>[React.ReactNode, React.useEffect, React.JSX.E...</td>
     </tr>
     <tr>
       <th>7</th>
@@ -1167,7 +1167,7 @@ Only the first 40 entries are shown. The whole table can be found in the followi
       <td>9</td>
       <td>2</td>
       <td>128.571429</td>
-      <td>[AgnosticPatchRoutesOnNavigationFunctionArgs, ...</td>
+      <td>[UNSAFE_warning, InitialEntry, createRouter, c...</td>
     </tr>
     <tr>
       <th>9</th>
@@ -1270,7 +1270,7 @@ Only the first 40 entries are shown. The whole table can be found in the followi
       <td>24</td>
       <td>4</td>
       <td>141.176471</td>
-      <td>[React.JSX.Element, BackHandlerStatic.addEvent...</td>
+      <td>[React.ReactNode, GestureResponderEvent, Touch...</td>
     </tr>
     <tr>
       <th>5</th>
@@ -1282,7 +1282,7 @@ Only the first 40 entries are shown. The whole table can be found in the followi
       <td>24</td>
       <td>4</td>
       <td>141.176471</td>
-      <td>[MemoryRouterProps, NavigateOptions, useNaviga...</td>
+      <td>[To, Location.search, useLocation, useNavigate...</td>
     </tr>
     <tr>
       <th>6</th>
@@ -1306,7 +1306,7 @@ Only the first 40 entries are shown. The whole table can be found in the followi
       <td>9</td>
       <td>2</td>
       <td>128.571429</td>
-      <td>[AgnosticPatchRoutesOnNavigationFunctionArgs, ...</td>
+      <td>[UNSAFE_warning, InitialEntry, createRouter, c...</td>
     </tr>
     <tr>
       <th>8</th>
