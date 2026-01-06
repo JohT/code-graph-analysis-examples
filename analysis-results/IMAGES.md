@@ -739,6 +739,11 @@ Image  | Analysis |
 | [NodeEmbeddingsJava_21_0.png](./AxonFramework/AxonFramework-5.0.1/node-embeddings-java/NodeEmbeddingsJava_files/NodeEmbeddingsJava_21_0.png) | AxonFramework-5.0.1 |
 | [NodeEmbeddingsJava_23_7.png](./AxonFramework/AxonFramework-5.0.1/node-embeddings-java/NodeEmbeddingsJava_files/NodeEmbeddingsJava_23_7.png) | AxonFramework-5.0.1 |
 | [NodeEmbeddingsJava_25_7.png](./AxonFramework/AxonFramework-5.0.1/node-embeddings-java/NodeEmbeddingsJava_files/NodeEmbeddingsJava_25_7.png) | AxonFramework-5.0.1 |
+| [NodeEmbeddingsJava_30_0.png](./AxonFramework/AxonFramework-5.0.1/node-embeddings-java/NodeEmbeddingsJava_files/NodeEmbeddingsJava_30_0.png) | AxonFramework-5.0.1 |
+| [NodeEmbeddingsJava_32_3.png](./AxonFramework/AxonFramework-5.0.1/node-embeddings-java/NodeEmbeddingsJava_files/NodeEmbeddingsJava_32_3.png) | AxonFramework-5.0.1 |
+| [NodeEmbeddingsJava_34_3.png](./AxonFramework/AxonFramework-5.0.1/node-embeddings-java/NodeEmbeddingsJava_files/NodeEmbeddingsJava_34_3.png) | AxonFramework-5.0.1 |
+| [NodeEmbeddingsJava_36_3.png](./AxonFramework/AxonFramework-5.0.1/node-embeddings-java/NodeEmbeddingsJava_files/NodeEmbeddingsJava_36_3.png) | AxonFramework-5.0.1 |
+| [NodeEmbeddingsJava_38_0.png](./AxonFramework/AxonFramework-5.0.1/node-embeddings-java/NodeEmbeddingsJava_files/NodeEmbeddingsJava_38_0.png) | AxonFramework-5.0.1 |
 | [ObjectOrientedDesignMetricsJava_39_0.png](./AxonFramework/AxonFramework-5.0.1/object-oriented-design-metrics-java/ObjectOrientedDesignMetricsJava_files/ObjectOrientedDesignMetricsJava_39_0.png) | AxonFramework-5.0.1 |
 | [ObjectOrientedDesignMetricsJava_41_0.png](./AxonFramework/AxonFramework-5.0.1/object-oriented-design-metrics-java/ObjectOrientedDesignMetricsJava_files/ObjectOrientedDesignMetricsJava_41_0.png) | AxonFramework-5.0.1 |
 | [OverviewGeneral_14_1.png](./AxonFramework/AxonFramework-5.0.1/overview-general/OverviewGeneral_files/OverviewGeneral_14_1.png) | AxonFramework-5.0.1 |
@@ -794,6 +799,11 @@ Image  | Analysis |
 | [NodeEmbeddingsJava_21_0.png](./AxonFramework/latest/node-embeddings-java/NodeEmbeddingsJava_files/NodeEmbeddingsJava_21_0.png) | latest |
 | [NodeEmbeddingsJava_23_7.png](./AxonFramework/latest/node-embeddings-java/NodeEmbeddingsJava_files/NodeEmbeddingsJava_23_7.png) | latest |
 | [NodeEmbeddingsJava_25_7.png](./AxonFramework/latest/node-embeddings-java/NodeEmbeddingsJava_files/NodeEmbeddingsJava_25_7.png) | latest |
+| [NodeEmbeddingsJava_30_0.png](./AxonFramework/latest/node-embeddings-java/NodeEmbeddingsJava_files/NodeEmbeddingsJava_30_0.png) | latest |
+| [NodeEmbeddingsJava_32_3.png](./AxonFramework/latest/node-embeddings-java/NodeEmbeddingsJava_files/NodeEmbeddingsJava_32_3.png) | latest |
+| [NodeEmbeddingsJava_34_3.png](./AxonFramework/latest/node-embeddings-java/NodeEmbeddingsJava_files/NodeEmbeddingsJava_34_3.png) | latest |
+| [NodeEmbeddingsJava_36_3.png](./AxonFramework/latest/node-embeddings-java/NodeEmbeddingsJava_files/NodeEmbeddingsJava_36_3.png) | latest |
+| [NodeEmbeddingsJava_38_0.png](./AxonFramework/latest/node-embeddings-java/NodeEmbeddingsJava_files/NodeEmbeddingsJava_38_0.png) | latest |
 | [ObjectOrientedDesignMetricsJava_39_0.png](./AxonFramework/latest/object-oriented-design-metrics-java/ObjectOrientedDesignMetricsJava_files/ObjectOrientedDesignMetricsJava_39_0.png) | latest |
 | [ObjectOrientedDesignMetricsJava_41_0.png](./AxonFramework/latest/object-oriented-design-metrics-java/ObjectOrientedDesignMetricsJava_files/ObjectOrientedDesignMetricsJava_41_0.png) | latest |
 | [OverviewGeneral_14_1.png](./AxonFramework/latest/overview-general/OverviewGeneral_files/OverviewGeneral_14_1.png) | latest |
@@ -842,6 +852,11 @@ Image  | Analysis |
 | [NodeEmbeddingsTypescript_21_0.png](./react-router/latest/node-embeddings-typescript/NodeEmbeddingsTypescript_files/NodeEmbeddingsTypescript_21_0.png) | latest |
 | [NodeEmbeddingsTypescript_23_8.png](./react-router/latest/node-embeddings-typescript/NodeEmbeddingsTypescript_files/NodeEmbeddingsTypescript_23_8.png) | latest |
 | [NodeEmbeddingsTypescript_25_8.png](./react-router/latest/node-embeddings-typescript/NodeEmbeddingsTypescript_files/NodeEmbeddingsTypescript_25_8.png) | latest |
+| [NodeEmbeddingsTypescript_30_0.png](./react-router/latest/node-embeddings-typescript/NodeEmbeddingsTypescript_files/NodeEmbeddingsTypescript_30_0.png) | latest |
+| [NodeEmbeddingsTypescript_32_5.png](./react-router/latest/node-embeddings-typescript/NodeEmbeddingsTypescript_files/NodeEmbeddingsTypescript_32_5.png) | latest |
+| [NodeEmbeddingsTypescript_34_5.png](./react-router/latest/node-embeddings-typescript/NodeEmbeddingsTypescript_files/NodeEmbeddingsTypescript_34_5.png) | latest |
+| [NodeEmbeddingsTypescript_36_5.png](./react-router/latest/node-embeddings-typescript/NodeEmbeddingsTypescript_files/NodeEmbeddingsTypescript_36_5.png) | latest |
+| [NodeEmbeddingsTypescript_38_0.png](./react-router/latest/node-embeddings-typescript/NodeEmbeddingsTypescript_files/NodeEmbeddingsTypescript_38_0.png) | latest |
 | [ObjectOrientedDesignMetricsTypescript_26_0.png](./react-router/latest/object-oriented-design-metrics-typescript/ObjectOrientedDesignMetricsTypescript_files/ObjectOrientedDesignMetricsTypescript_26_0.png) | latest |
 | [OverviewGeneral_14_1.png](./react-router/latest/overview-general/OverviewGeneral_files/OverviewGeneral_14_1.png) | latest |
 | [OverviewGeneral_18_1.png](./react-router/latest/overview-general/OverviewGeneral_files/OverviewGeneral_18_1.png) | latest |
@@ -1209,6 +1224,11 @@ Image  | Analysis |
 | [NodeEmbeddingsTypescript_21_0.png](./react-router/react-router-6.30.2/node-embeddings-typescript/NodeEmbeddingsTypescript_files/NodeEmbeddingsTypescript_21_0.png) | react-router-6.30.2 |
 | [NodeEmbeddingsTypescript_23_8.png](./react-router/react-router-6.30.2/node-embeddings-typescript/NodeEmbeddingsTypescript_files/NodeEmbeddingsTypescript_23_8.png) | react-router-6.30.2 |
 | [NodeEmbeddingsTypescript_25_8.png](./react-router/react-router-6.30.2/node-embeddings-typescript/NodeEmbeddingsTypescript_files/NodeEmbeddingsTypescript_25_8.png) | react-router-6.30.2 |
+| [NodeEmbeddingsTypescript_30_0.png](./react-router/react-router-6.30.2/node-embeddings-typescript/NodeEmbeddingsTypescript_files/NodeEmbeddingsTypescript_30_0.png) | react-router-6.30.2 |
+| [NodeEmbeddingsTypescript_32_5.png](./react-router/react-router-6.30.2/node-embeddings-typescript/NodeEmbeddingsTypescript_files/NodeEmbeddingsTypescript_32_5.png) | react-router-6.30.2 |
+| [NodeEmbeddingsTypescript_34_5.png](./react-router/react-router-6.30.2/node-embeddings-typescript/NodeEmbeddingsTypescript_files/NodeEmbeddingsTypescript_34_5.png) | react-router-6.30.2 |
+| [NodeEmbeddingsTypescript_36_5.png](./react-router/react-router-6.30.2/node-embeddings-typescript/NodeEmbeddingsTypescript_files/NodeEmbeddingsTypescript_36_5.png) | react-router-6.30.2 |
+| [NodeEmbeddingsTypescript_38_0.png](./react-router/react-router-6.30.2/node-embeddings-typescript/NodeEmbeddingsTypescript_files/NodeEmbeddingsTypescript_38_0.png) | react-router-6.30.2 |
 | [ObjectOrientedDesignMetricsTypescript_26_0.png](./react-router/react-router-6.30.2/object-oriented-design-metrics-typescript/ObjectOrientedDesignMetricsTypescript_files/ObjectOrientedDesignMetricsTypescript_26_0.png) | react-router-6.30.2 |
 | [OverviewGeneral_14_1.png](./react-router/react-router-6.30.2/overview-general/OverviewGeneral_files/OverviewGeneral_14_1.png) | react-router-6.30.2 |
 | [OverviewGeneral_18_1.png](./react-router/react-router-6.30.2/overview-general/OverviewGeneral_files/OverviewGeneral_18_1.png) | react-router-6.30.2 |

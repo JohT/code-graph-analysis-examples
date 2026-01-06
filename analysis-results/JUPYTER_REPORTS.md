@@ -169,7 +169,7 @@ Report | Analysis | Description
 | [GitHistoryGeneral.md](./AxonFramework/AxonFramework-5.0.1/git-history-general/GitHistoryGeneral.md) | AxonFramework-5.0.1 | git log/history |
 | [InternalDependenciesJava.md](./AxonFramework/AxonFramework-5.0.1/internal-dependencies-java/InternalDependenciesJava.md) | AxonFramework-5.0.1 | Internal Dependencies |
 | [MethodMetricsJava.md](./AxonFramework/AxonFramework-5.0.1/method-metrics-java/MethodMetricsJava.md) | AxonFramework-5.0.1 | Method Metrics |
-| [NodeEmbeddingsJava.md](./AxonFramework/AxonFramework-5.0.1/node-embeddings-java/NodeEmbeddingsJava.md) | AxonFramework-5.0.1 | Node Embeddings |
+| [NodeEmbeddingsJava.md](./AxonFramework/AxonFramework-5.0.1/node-embeddings-java/NodeEmbeddingsJava.md) | AxonFramework-5.0.1 | Node Embeddings for Java |
 | [ObjectOrientedDesignMetricsJava.md](./AxonFramework/AxonFramework-5.0.1/object-oriented-design-metrics-java/ObjectOrientedDesignMetricsJava.md) | AxonFramework-5.0.1 | Object Oriented Design Quality Metrics |
 | [OverviewGeneral.md](./AxonFramework/AxonFramework-5.0.1/overview-general/OverviewGeneral.md) | AxonFramework-5.0.1 | Overview in General |
 | [OverviewJava.md](./AxonFramework/AxonFramework-5.0.1/overview-java/OverviewJava.md) | AxonFramework-5.0.1 | Overview for Java |
@@ -185,7 +185,7 @@ Report | Analysis | Description
 | [GitHistoryGeneral.md](./AxonFramework/latest/git-history-general/GitHistoryGeneral.md) | latest | git log/history |
 | [InternalDependenciesJava.md](./AxonFramework/latest/internal-dependencies-java/InternalDependenciesJava.md) | latest | Internal Dependencies |
 | [MethodMetricsJava.md](./AxonFramework/latest/method-metrics-java/MethodMetricsJava.md) | latest | Method Metrics |
-| [NodeEmbeddingsJava.md](./AxonFramework/latest/node-embeddings-java/NodeEmbeddingsJava.md) | latest | Node Embeddings |
+| [NodeEmbeddingsJava.md](./AxonFramework/latest/node-embeddings-java/NodeEmbeddingsJava.md) | latest | Node Embeddings for Java |
 | [ObjectOrientedDesignMetricsJava.md](./AxonFramework/latest/object-oriented-design-metrics-java/ObjectOrientedDesignMetricsJava.md) | latest | Object Oriented Design Quality Metrics |
 | [OverviewGeneral.md](./AxonFramework/latest/overview-general/OverviewGeneral.md) | latest | Overview in General |
 | [OverviewJava.md](./AxonFramework/latest/overview-java/OverviewJava.md) | latest | Overview for Java |
@@ -200,7 +200,7 @@ Report | Analysis | Description
 | [ExternalDependenciesTypescript.md](./react-router/latest/external-dependencies-typescript/ExternalDependenciesTypescript.md) | latest | External Dependencies for Typescript |
 | [GitHistoryGeneral.md](./react-router/latest/git-history-general/GitHistoryGeneral.md) | latest | git log/history |
 | [InternalDependenciesTypescript.md](./react-router/latest/internal-dependencies-typescript/InternalDependenciesTypescript.md) | latest | Internal Dependencies |
-| [NodeEmbeddingsTypescript.md](./react-router/latest/node-embeddings-typescript/NodeEmbeddingsTypescript.md) | latest | Node Embeddings |
+| [NodeEmbeddingsTypescript.md](./react-router/latest/node-embeddings-typescript/NodeEmbeddingsTypescript.md) | latest | Node Embeddings for TypeScript |
 | [ObjectOrientedDesignMetricsTypescript.md](./react-router/latest/object-oriented-design-metrics-typescript/ObjectOrientedDesignMetricsTypescript.md) | latest | Object Oriented Design Quality Metrics |
 | [OverviewGeneral.md](./react-router/latest/overview-general/OverviewGeneral.md) | latest | Overview in General |
 | [OverviewTypescript.md](./react-router/latest/overview-typescript/OverviewTypescript.md) | latest | Overview for Typescript |
@@ -298,7 +298,7 @@ Report | Analysis | Description
 | [ExternalDependenciesTypescript.md](./react-router/react-router-6.30.2/external-dependencies-typescript/ExternalDependenciesTypescript.md) | react-router-6.30.2 | External Dependencies for Typescript |
 | [GitHistoryGeneral.md](./react-router/react-router-6.30.2/git-history-general/GitHistoryGeneral.md) | react-router-6.30.2 | git log/history |
 | [InternalDependenciesTypescript.md](./react-router/react-router-6.30.2/internal-dependencies-typescript/InternalDependenciesTypescript.md) | react-router-6.30.2 | Internal Dependencies |
-| [NodeEmbeddingsTypescript.md](./react-router/react-router-6.30.2/node-embeddings-typescript/NodeEmbeddingsTypescript.md) | react-router-6.30.2 | Node Embeddings |
+| [NodeEmbeddingsTypescript.md](./react-router/react-router-6.30.2/node-embeddings-typescript/NodeEmbeddingsTypescript.md) | react-router-6.30.2 | Node Embeddings for TypeScript |
 | [ObjectOrientedDesignMetricsTypescript.md](./react-router/react-router-6.30.2/object-oriented-design-metrics-typescript/ObjectOrientedDesignMetricsTypescript.md) | react-router-6.30.2 | Object Oriented Design Quality Metrics |
 | [OverviewGeneral.md](./react-router/react-router-6.30.2/overview-general/OverviewGeneral.md) | react-router-6.30.2 | Overview in General |
 | [OverviewTypescript.md](./react-router/react-router-6.30.2/overview-typescript/OverviewTypescript.md) | react-router-6.30.2 | Overview for Typescript |
