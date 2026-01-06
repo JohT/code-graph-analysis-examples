@@ -1,4 +1,0 @@
-"communityId","conductance","modularity","memberCount","someMemberNamesShort","someMemberNames","Source Cypher File: Community_Detection/Community_Detection_9_Community_Metrics.cypher"
-0,0.0020994475138121547,0.00873301681149036,115,"config,test,deadline,eventscheduler,saga,utils,aggregate,matchers,connector","org.axonframework.config,org.axonframework.test,org.axonframework.test.deadline,org.axonframework.test.eventscheduler,org.axonframework.test.saga,org.axonframework.test.utils,org.axonframework.test.aggregate,org.axonframework.test.matchers,org.axonframework.axonserver.connector",""
-1,0.3333333333333333,0.0008725969721401057,2,"server,connection","org.axonframework.test.server,org.axonframework.springboot.service.connection",""
-2,0.17045454545454544,0.00788564603302577,3,"updates,api,detection","org.axonframework.updates,org.axonframework.updates.api,org.axonframework.updates.detection",""
