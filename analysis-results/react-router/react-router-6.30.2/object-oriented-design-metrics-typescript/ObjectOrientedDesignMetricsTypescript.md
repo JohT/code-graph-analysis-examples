@@ -49,13 +49,13 @@ Since Java Packages are organized hierarchically, incoming dependencies can be c
     <tr>
       <th>0</th>
       <td>/home/runner/work/code-graph-analysis-examples...</td>
-      <td>react-router-dom</td>
-      <td>7</td>
-      <td>280</td>
-      <td>0</td>
-      <td>0</td>
+      <td>react-router</td>
+      <td>22</td>
+      <td>1214</td>
       <td>1</td>
-      <td>1</td>
+      <td>15</td>
+      <td>3</td>
+      <td>2</td>
     </tr>
     <tr>
       <th>1</th>
@@ -71,7 +71,7 @@ Since Java Packages are organized hierarchically, incoming dependencies can be c
     <tr>
       <th>2</th>
       <td>/home/runner/work/code-graph-analysis-examples...</td>
-      <td>server</td>
+      <td>react-router-dom</td>
       <td>0</td>
       <td>0</td>
       <td>0</td>
@@ -82,7 +82,7 @@ Since Java Packages are organized hierarchically, incoming dependencies can be c
     <tr>
       <th>3</th>
       <td>/home/runner/work/code-graph-analysis-examples...</td>
-      <td>react-router-native</td>
+      <td>server</td>
       <td>0</td>
       <td>0</td>
       <td>0</td>
@@ -93,7 +93,7 @@ Since Java Packages are organized hierarchically, incoming dependencies can be c
     <tr>
       <th>4</th>
       <td>/home/runner/work/code-graph-analysis-examples...</td>
-      <td>react-router</td>
+      <td>react-router-native</td>
       <td>0</td>
       <td>0</td>
       <td>0</td>
@@ -155,12 +155,12 @@ Since Java Packages are organized hierarchically, outgoing dependencies can be c
       <th>0</th>
       <td>/home/runner/work/code-graph-analysis-examples...</td>
       <td>react-router-dom</td>
-      <td>156</td>
-      <td>10765</td>
-      <td>0</td>
-      <td>0</td>
-      <td>4</td>
-      <td>0</td>
+      <td>157</td>
+      <td>10625</td>
+      <td>1</td>
+      <td>15</td>
+      <td>10</td>
+      <td>1</td>
     </tr>
     <tr>
       <th>1</th>
@@ -170,19 +170,19 @@ Since Java Packages are organized hierarchically, outgoing dependencies can be c
       <td>1650</td>
       <td>0</td>
       <td>0</td>
-      <td>2</td>
-      <td>0</td>
+      <td>7</td>
+      <td>1</td>
     </tr>
     <tr>
       <th>2</th>
       <td>/home/runner/work/code-graph-analysis-examples...</td>
       <td>react-router-native</td>
       <td>24</td>
-      <td>764</td>
+      <td>744</td>
       <td>0</td>
       <td>0</td>
-      <td>4</td>
-      <td>0</td>
+      <td>7</td>
+      <td>1</td>
     </tr>
     <tr>
       <th>3</th>
@@ -192,7 +192,7 @@ Since Java Packages are organized hierarchically, outgoing dependencies can be c
       <td>29</td>
       <td>0</td>
       <td>0</td>
-      <td>3</td>
+      <td>6</td>
       <td>0</td>
     </tr>
     <tr>
@@ -273,7 +273,7 @@ Since Java Packages are organized hierarchically, *Instability* can be calculate
       <td>react-router-dom-v5-compat</td>
       <td>0.000000</td>
       <td>0.0</td>
-      <td>0.0</td>
+      <td>0.000000</td>
       <td>0.0</td>
       <td>0</td>
       <td>0</td>
@@ -291,7 +291,7 @@ Since Java Packages are organized hierarchically, *Instability* can be calculate
       <td>router</td>
       <td>0.000000</td>
       <td>0.0</td>
-      <td>0.0</td>
+      <td>0.000000</td>
       <td>0.0</td>
       <td>0</td>
       <td>0</td>
@@ -304,74 +304,74 @@ Since Java Packages are organized hierarchically, *Instability* can be calculate
     </tr>
     <tr>
       <th>2</th>
-      <td>react-router-dom</td>
+      <td>react-router</td>
       <td>/home/runner/work/code-graph-analysis-examples...</td>
-      <td>react-router-dom</td>
-      <td>0.957055</td>
+      <td>react-router</td>
+      <td>0.435897</td>
       <td>0.0</td>
-      <td>0.8</td>
+      <td>0.666667</td>
       <td>0.0</td>
-      <td>156</td>
-      <td>7</td>
-      <td>0</td>
-      <td>0</td>
-      <td>4</td>
-      <td>1</td>
+      <td>17</td>
+      <td>22</td>
       <td>0</td>
       <td>1</td>
+      <td>6</td>
+      <td>3</td>
+      <td>0</td>
+      <td>2</td>
     </tr>
     <tr>
       <th>3</th>
       <td>react-router-dom</td>
       <td>/home/runner/work/code-graph-analysis-examples...</td>
-      <td>server</td>
+      <td>react-router-dom</td>
       <td>1.000000</td>
-      <td>0.0</td>
       <td>1.0</td>
-      <td>0.0</td>
-      <td>39</td>
+      <td>1.000000</td>
+      <td>1.0</td>
+      <td>157</td>
       <td>0</td>
+      <td>1</td>
       <td>0</td>
+      <td>10</td>
       <td>0</td>
-      <td>2</td>
-      <td>0</td>
-      <td>0</td>
+      <td>1</td>
       <td>0</td>
     </tr>
     <tr>
       <th>4</th>
-      <td>react-router-native</td>
+      <td>react-router-dom</td>
       <td>/home/runner/work/code-graph-analysis-examples...</td>
-      <td>react-router-native</td>
+      <td>server</td>
       <td>1.000000</td>
       <td>0.0</td>
+      <td>1.000000</td>
       <td>1.0</td>
-      <td>0.0</td>
-      <td>24</td>
+      <td>39</td>
       <td>0</td>
       <td>0</td>
       <td>0</td>
-      <td>4</td>
+      <td>7</td>
       <td>0</td>
-      <td>0</td>
+      <td>1</td>
       <td>0</td>
     </tr>
     <tr>
       <th>5</th>
-      <td>react-router</td>
+      <td>react-router-native</td>
       <td>/home/runner/work/code-graph-analysis-examples...</td>
-      <td>react-router</td>
+      <td>react-router-native</td>
       <td>1.000000</td>
       <td>0.0</td>
+      <td>1.000000</td>
       <td>1.0</td>
-      <td>0.0</td>
-      <td>17</td>
+      <td>24</td>
       <td>0</td>
       <td>0</td>
       <td>0</td>
-      <td>3</td>
+      <td>7</td>
       <td>0</td>
-      <td>0</td>
+      <td>1</td>
       <td>0</td>
     </tr>
   </tbody>
@@ -440,26 +440,26 @@ Since Java Packages are organized hierarchically, *Abstractness* can be calculat
       <th>2</th>
       <td>react-router-dom</td>
       <td>/home/runner/work/code-graph-analysis-examples...</td>
-      <td>react-router-dom</td>
-      <td>0.206349</td>
+      <td>server</td>
+      <td>0.333333</td>
       <td>None</td>
       <td>None</td>
     </tr>
     <tr>
       <th>3</th>
-      <td>react-router-native</td>
+      <td>react-router-dom</td>
       <td>/home/runner/work/code-graph-analysis-examples...</td>
-      <td>react-router-native</td>
-      <td>0.277778</td>
+      <td>react-router-dom</td>
+      <td>0.371429</td>
       <td>None</td>
       <td>None</td>
     </tr>
     <tr>
       <th>4</th>
-      <td>react-router-dom</td>
+      <td>react-router-native</td>
       <td>/home/runner/work/code-graph-analysis-examples...</td>
-      <td>server</td>
-      <td>0.333333</td>
+      <td>react-router-native</td>
+      <td>0.384615</td>
       <td>None</td>
       <td>None</td>
     </tr>
@@ -528,16 +528,26 @@ Read more details on that in [OO Design Quality Metrics](https://api.semanticsch
     </tr>
     <tr>
       <th>2</th>
-      <td>react-router</td>
+      <td>react-router-native</td>
       <td>/home/runner/work/code-graph-analysis-examples...</td>
-      <td>./index.ts</td>
-      <td>0.714286</td>
-      <td>0.714286</td>
+      <td>./index.tsx</td>
+      <td>0.384615</td>
+      <td>0.384615</td>
       <td>1.000000</td>
-      <td>7</td>
+      <td>13</td>
     </tr>
     <tr>
       <th>3</th>
+      <td>react-router-dom</td>
+      <td>/home/runner/work/code-graph-analysis-examples...</td>
+      <td>./index.tsx</td>
+      <td>0.371429</td>
+      <td>0.371429</td>
+      <td>1.000000</td>
+      <td>35</td>
+    </tr>
+    <tr>
+      <th>4</th>
       <td>react-router-dom</td>
       <td>/home/runner/work/code-graph-analysis-examples...</td>
       <td>./server.tsx</td>
@@ -547,24 +557,14 @@ Read more details on that in [OO Design Quality Metrics](https://api.semanticsch
       <td>6</td>
     </tr>
     <tr>
-      <th>4</th>
-      <td>react-router-native</td>
-      <td>/home/runner/work/code-graph-analysis-examples...</td>
-      <td>./index.tsx</td>
-      <td>0.277778</td>
-      <td>0.277778</td>
-      <td>1.000000</td>
-      <td>18</td>
-    </tr>
-    <tr>
       <th>5</th>
-      <td>react-router-dom</td>
+      <td>react-router</td>
       <td>/home/runner/work/code-graph-analysis-examples...</td>
-      <td>./index.tsx</td>
-      <td>0.163404</td>
-      <td>0.206349</td>
-      <td>0.957055</td>
-      <td>63</td>
+      <td>./index.ts</td>
+      <td>0.150183</td>
+      <td>0.714286</td>
+      <td>0.435897</td>
+      <td>7</td>
     </tr>
   </tbody>
 </table>

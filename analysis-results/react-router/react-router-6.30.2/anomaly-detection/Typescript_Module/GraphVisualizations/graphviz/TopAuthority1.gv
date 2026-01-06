@@ -12,7 +12,9 @@ strict digraph TopAuthority1 {
     central [fontsize = 16;];
     central [color = 7; fillcolor = 5; penwidth = 3;];
 
-	graph   [label="Top Rank #1 Typescript Module Authority\n/home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-6.30.2/source/react-router-6.30.2/packages/react-router-dom/index.tsx\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: Page Rank (normalized)\nlarge circle: > 80% percentile of Page Rank\nthick outline: > 80% percentile of Page Rank to Article Rank Difference\n\n"];
-	central [label="🏛️ authority #1\nreact-router-dom"];
-	"server_3162"  [label = "server\n(0.0%)"; penwidth = 5; ]; "server_3162" -> central [label=70; weight=70; penwidth=2.9];
+	graph   [label="Top Rank #1 Typescript Module Authority\n/home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-6.30.2/source/react-router-6.30.2/packages/react-router/index.ts\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: Page Rank (normalized)\nlarge circle: > 80% percentile of Page Rank\nthick outline: > 80% percentile of Page Rank to Article Rank Difference\n\n"];
+	central [label="🏛️ authority #1\nreact-router"];
+	"react-router-dom_3161"  [label = "react-router-dom\n(0.0%)"; penwidth = 5; ]; "react-router-dom_3161" -> central [label=1039; weight=1039; penwidth=2.9];
+	"server_3162"  [label = "server\n(0.0%)"; penwidth = 5; ]; "server_3162" -> central [label=100; weight=100; penwidth=0.6];
+	"react-router-native_3435"  [label = "react-router-native\n(0.0%)"; penwidth = 5; ]; "react-router-native_3435" -> central [label=64; weight=64; penwidth=0.6];
 }

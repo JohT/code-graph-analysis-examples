@@ -43,16 +43,16 @@ Only the top 30 entries are shown. The whole table can be found in the following
       <th>0</th>
       <td>react-router-6.30.2</td>
       <td>react-router-dom</td>
-      <td>63</td>
+      <td>35</td>
       <td>0</td>
-      <td>7</td>
-      <td>156</td>
+      <td>0</td>
+      <td>157</td>
     </tr>
     <tr>
       <th>1</th>
       <td>react-router-6.30.2</td>
       <td>react-router-native</td>
-      <td>17</td>
+      <td>12</td>
       <td>0</td>
       <td>0</td>
       <td>24</td>
@@ -63,7 +63,7 @@ Only the top 30 entries are shown. The whole table can be found in the following
       <td>react-router</td>
       <td>7</td>
       <td>0</td>
-      <td>0</td>
+      <td>22</td>
       <td>17</td>
     </tr>
     <tr>
@@ -105,26 +105,26 @@ The following table lists the top 30 internal modules that are used the most by 
     <tr>
       <th>0</th>
       <td>react-router-6.30.2</td>
-      <td>react-router-dom</td>
-      <td>63</td>
-      <td>0</td>
+      <td>react-router</td>
       <td>7</td>
-      <td>156</td>
+      <td>0</td>
+      <td>22</td>
+      <td>17</td>
     </tr>
     <tr>
       <th>1</th>
       <td>react-router-6.30.2</td>
-      <td>react-router</td>
-      <td>7</td>
+      <td>react-router-dom</td>
+      <td>35</td>
       <td>0</td>
       <td>0</td>
-      <td>17</td>
+      <td>157</td>
     </tr>
     <tr>
       <th>2</th>
       <td>react-router-6.30.2</td>
       <td>react-router-native</td>
-      <td>17</td>
+      <td>12</td>
       <td>0</td>
       <td>0</td>
       <td>24</td>
@@ -169,10 +169,10 @@ The following table lists the top 30 internal modules that are depending on the 
       <th>0</th>
       <td>react-router-6.30.2</td>
       <td>react-router-dom</td>
-      <td>63</td>
+      <td>35</td>
       <td>0</td>
-      <td>7</td>
-      <td>156</td>
+      <td>0</td>
+      <td>157</td>
     </tr>
     <tr>
       <th>1</th>
@@ -187,7 +187,7 @@ The following table lists the top 30 internal modules that are depending on the 
       <th>2</th>
       <td>react-router-6.30.2</td>
       <td>react-router-native</td>
-      <td>17</td>
+      <td>12</td>
       <td>0</td>
       <td>0</td>
       <td>24</td>
@@ -198,7 +198,7 @@ The following table lists the top 30 internal modules that are depending on the 
       <td>react-router</td>
       <td>7</td>
       <td>0</td>
-      <td>0</td>
+      <td>22</td>
       <td>17</td>
     </tr>
   </tbody>
@@ -241,14 +241,14 @@ The following table lists the top 30 internal modules that are depending on the 
       <td>react-router</td>
       <td>7</td>
       <td>0</td>
-      <td>0</td>
+      <td>22</td>
       <td>17</td>
     </tr>
     <tr>
       <th>2</th>
       <td>react-router-6.30.2</td>
       <td>react-router-native</td>
-      <td>17</td>
+      <td>12</td>
       <td>0</td>
       <td>0</td>
       <td>24</td>
@@ -257,10 +257,10 @@ The following table lists the top 30 internal modules that are depending on the 
       <th>3</th>
       <td>react-router-6.30.2</td>
       <td>react-router-dom</td>
-      <td>63</td>
+      <td>35</td>
       <td>0</td>
-      <td>7</td>
-      <td>156</td>
+      <td>0</td>
+      <td>157</td>
     </tr>
   </tbody>
 </table>
@@ -292,17 +292,17 @@ The following table lists the top 30 internal modules that are used the least by
     <tr>
       <th>0</th>
       <td>react-router-6.30.2</td>
-      <td>react-router</td>
-      <td>7</td>
+      <td>react-router-dom</td>
+      <td>35</td>
       <td>0</td>
       <td>0</td>
-      <td>17</td>
+      <td>157</td>
     </tr>
     <tr>
       <th>1</th>
       <td>react-router-6.30.2</td>
       <td>react-router-native</td>
-      <td>17</td>
+      <td>12</td>
       <td>0</td>
       <td>0</td>
       <td>24</td>
@@ -319,11 +319,11 @@ The following table lists the top 30 internal modules that are used the least by
     <tr>
       <th>3</th>
       <td>react-router-6.30.2</td>
-      <td>react-router-dom</td>
-      <td>63</td>
-      <td>0</td>
+      <td>react-router</td>
       <td>7</td>
-      <td>156</td>
+      <td>0</td>
+      <td>22</td>
+      <td>17</td>
     </tr>
   </tbody>
 </table>
@@ -358,14 +358,14 @@ The following table lists the top 30 internal modules that are depending on the 
       <td>react-router</td>
       <td>7</td>
       <td>0</td>
-      <td>0</td>
+      <td>22</td>
       <td>17</td>
     </tr>
     <tr>
       <th>1</th>
       <td>react-router-6.30.2</td>
       <td>react-router-native</td>
-      <td>17</td>
+      <td>12</td>
       <td>0</td>
       <td>0</td>
       <td>24</td>
@@ -383,10 +383,10 @@ The following table lists the top 30 internal modules that are depending on the 
       <th>3</th>
       <td>react-router-6.30.2</td>
       <td>react-router-dom</td>
-      <td>63</td>
+      <td>35</td>
       <td>0</td>
-      <td>7</td>
-      <td>156</td>
+      <td>0</td>
+      <td>157</td>
     </tr>
   </tbody>
 </table>
@@ -539,22 +539,6 @@ This table shows the top 40 modules that are used by the highest number of diffe
     </tr>
   </thead>
   <tbody>
-    <tr>
-      <th>0</th>
-      <td>"@remix-run/router".RouteObject</td>
-      <td>router</td>
-      <td>RouteObject</td>
-      <td>ExternalDeclaration</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>"@remix-run/router".Router</td>
-      <td>router</td>
-      <td>Router</td>
-      <td>ExternalDeclaration</td>
-      <td>1</td>
-    </tr>
   </tbody>
 </table>
 </div>
@@ -590,16 +574,6 @@ The whole table can be found in the CSV report `ModuleElementsUsageTypescript`.
     </tr>
   </thead>
   <tbody>
-    <tr>
-      <th>0</th>
-      <td>server</td>
-      <td>react-router-dom</td>
-      <td>2</td>
-      <td>63</td>
-      <td>0.031746</td>
-      <td>["@remix-run/router".Router, "@remix-run/router".RouteObject]</td>
-      <td>[Router, RouteObject]</td>
-    </tr>
   </tbody>
 </table>
 </div>
@@ -628,11 +602,11 @@ This table shows the file directory distance distribution between dependent file
   <tbody>
     <tr>
       <th>0</th>
-      <td>0</td>
+      <td>4</td>
+      <td>3</td>
+      <td>3</td>
       <td>1</td>
-      <td>1</td>
-      <td>1</td>
-      <td>[./server.tsx uses ./index.tsx]</td>
+      <td>[./server.tsx uses ./index.ts, ./index.tsx uses ./index.ts, ./index.tsx uses ./index.ts]</td>
     </tr>
   </tbody>
 </table>

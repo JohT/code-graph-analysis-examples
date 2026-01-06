@@ -14,5 +14,5 @@ strict digraph TopBottleneck2 {
 
 	graph   [label="Top Rank #2 Typescript Module Bottleneck\n/home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-6.30.2/source/react-router-6.30.2/packages/react-router-dom/server.tsx\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: Betweenness centrality\nthick outline: > 90% percentile of Betweenness centrality\n\n"];
 	central [label="🔒 bottleneck #2\nserver"];
-	"react-router-dom_3161"  [label = "react-router-dom\n(0.0)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "react-router-dom_3161" [label=70; weight=70; penwidth=2.9; color = 5];
+	"react-router_3572"  [label = "react-router\n(0.0)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "react-router_3572" [label=100; weight=100; penwidth=0.6; color = 5];
 }

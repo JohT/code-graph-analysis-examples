@@ -64,7 +64,7 @@ Each abstraction level includes anomaly statistics, SHAP feature importance, arc
 
 | Archetype | Count | Max. Score | Model Status | Examples |
 | --- | --- | --- | --- | --- |
-| Authority | 4 | null | Undetermined | /home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-6.30.2/source/react-router-6.30.2/packages/react-router-dom/index.tsx, /home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-6.30.2/source/react-router-6.30.2/packages/react-router-dom/server.tsx, /home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-6.30.2/source/react-router-6.30.2/packages/react-router-native/index.tsx |
+| Authority | 4 | null | Undetermined | /home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-6.30.2/source/react-router-6.30.2/packages/react-router/index.ts, /home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-6.30.2/source/react-router-6.30.2/packages/react-router-dom/index.tsx, /home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-6.30.2/source/react-router-6.30.2/packages/react-router-dom/server.tsx |
 | Bottleneck | 4 | null | Undetermined | /home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-6.30.2/source/react-router-6.30.2/packages/react-router-dom/index.tsx, /home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-6.30.2/source/react-router-6.30.2/packages/react-router-dom/server.tsx, /home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-6.30.2/source/react-router-6.30.2/packages/react-router-native/index.tsx |
 | Hub | 1 | null | Undetermined | /home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-6.30.2/source/react-router-6.30.2/packages/react-router-dom/index.tsx |
 
@@ -100,6 +100,10 @@ See [Plot Interpretation Guide](#3-plot-interpretation-guide) on how to read the
 
 ![TopBottleneck 2](./Typescript_Module/GraphVisualizations/TopBottleneck2.svg)
 
+![TopBottleneck 3](./Typescript_Module/GraphVisualizations/TopBottleneck3.svg)
+
+![TopBottleneck 4](./Typescript_Module/GraphVisualizations/TopBottleneck4.svg)
+
 ---
 
 ##### TopAuthority Graph Visualizations
@@ -107,6 +111,10 @@ See [Plot Interpretation Guide](#3-plot-interpretation-guide) on how to read the
 ![TopAuthority 1](./Typescript_Module/GraphVisualizations/TopAuthority1.svg)
 
 ![TopAuthority 2](./Typescript_Module/GraphVisualizations/TopAuthority2.svg)
+
+![TopAuthority 3](./Typescript_Module/GraphVisualizations/TopAuthority3.svg)
+
+![TopAuthority 4](./Typescript_Module/GraphVisualizations/TopAuthority4.svg)
 
 --
 

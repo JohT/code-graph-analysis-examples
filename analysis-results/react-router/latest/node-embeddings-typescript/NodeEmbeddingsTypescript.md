@@ -82,18 +82,18 @@ The projection and related common parameters are shared across all embedding alg
     <tr>
       <th>0</th>
       <td>4</td>
-      <td>2</td>
-      <td>0.166667</td>
-      <td>2495582</td>
-      <td>0</td>
+      <td>6</td>
       <td>0.5</td>
+      <td>2495582</td>
       <td>1</td>
-      <td>0</td>
+      <td>1.5</td>
+      <td>3</td>
       <td>1</td>
       <td>1</td>
-      <td>1</td>
-      <td>1</td>
-      <td>1</td>
+      <td>3</td>
+      <td>3</td>
+      <td>3</td>
+      <td>3</td>
     </tr>
   </tbody>
 </table>
@@ -136,8 +136,8 @@ The projection and related common parameters are shared across all embedding alg
       <td>react-router-dom</td>
       <td>react-router-dom</td>
       <td>0</td>
-      <td>0.2775</td>
-      <td>[0.5345224738121033, -0.26726123690605164, 0.0...</td>
+      <td>0.1500</td>
+      <td>[0.5944348573684692, 0.27579373121261597, 0.01...</td>
     </tr>
     <tr>
       <th>1</th>
@@ -146,25 +146,25 @@ The projection and related common parameters are shared across all embedding alg
       <td>react-router-dom</td>
       <td>0</td>
       <td>0.1500</td>
-      <td>[0.5345224738121033, -0.26726123690605164, 0.0...</td>
+      <td>[0.5944348573684692, 0.27579373121261597, 0.01...</td>
     </tr>
     <tr>
       <th>2</th>
       <td>/home/runner/work/code-graph-analysis-examples...</td>
       <td>react-router-native</td>
       <td>react-router-native</td>
-      <td>1</td>
+      <td>0</td>
       <td>0.1500</td>
-      <td>[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, ...</td>
+      <td>[0.5944348573684692, 0.2757937014102936, 0.016...</td>
     </tr>
     <tr>
       <th>3</th>
       <td>/home/runner/work/code-graph-analysis-examples...</td>
       <td>react-router</td>
       <td>react-router</td>
-      <td>2</td>
-      <td>0.1500</td>
-      <td>[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, ...</td>
+      <td>0</td>
+      <td>0.5325</td>
+      <td>[0.5944348573684692, 0.2757937014102936, 0.016...</td>
     </tr>
   </tbody>
 </table>
@@ -183,6 +183,9 @@ This step takes the original node embeddings in their high dimensionality, e.g. 
 
     /home/runner/miniconda3/envs/codegraph/lib/python3.12/site-packages/umap/umap_.py:2462: UserWarning: n_neighbors is larger than the dataset size; truncating to X.shape[0] - 1
       warn(
+
+
+    Community scores require at least 2 communities
 
 
 ### 1.4 Plot the node embeddings reduced to two dimensions for Typescript
@@ -227,8 +230,8 @@ This step takes the original node embeddings in their high dimensionality, e.g. 
       <td>react-router-dom</td>
       <td>react-router-dom</td>
       <td>0</td>
-      <td>0.2775</td>
-      <td>[0.0, 0.0, -0.3061862289905548, 0.306186228990...</td>
+      <td>0.1500</td>
+      <td>[0.0, 0.3061862289905548, -0.3061862289905548,...</td>
     </tr>
     <tr>
       <th>1</th>
@@ -237,29 +240,32 @@ This step takes the original node embeddings in their high dimensionality, e.g. 
       <td>react-router-dom</td>
       <td>0</td>
       <td>0.1500</td>
-      <td>[0.0, 0.0, -0.3061862289905548, 0.306186228990...</td>
+      <td>[0.0, 0.3061862289905548, -0.3061862289905548,...</td>
     </tr>
     <tr>
       <th>2</th>
       <td>/home/runner/work/code-graph-analysis-examples...</td>
       <td>react-router-native</td>
       <td>react-router-native</td>
-      <td>1</td>
+      <td>0</td>
       <td>0.1500</td>
-      <td>[0.0, 0.3061862289905548, 0.0, 0.0, 0.61237245...</td>
+      <td>[0.0, 0.3061862289905548, -0.3061862289905548,...</td>
     </tr>
     <tr>
       <th>3</th>
       <td>/home/runner/work/code-graph-analysis-examples...</td>
       <td>react-router</td>
       <td>react-router</td>
-      <td>2</td>
-      <td>0.1500</td>
-      <td>[0.3061862289905548, -0.3061862289905548, 0.0,...</td>
+      <td>0</td>
+      <td>0.5325</td>
+      <td>[0.0, 0.3061862289905548, -0.3061862289905548,...</td>
     </tr>
   </tbody>
 </table>
 </div>
+
+
+    Community scores require at least 2 communities
 
 
     /home/runner/miniconda3/envs/codegraph/lib/python3.12/site-packages/umap/umap_.py:2462: UserWarning: n_neighbors is larger than the dataset size; truncating to X.shape[0] - 1
@@ -268,7 +274,7 @@ This step takes the original node embeddings in their high dimensionality, e.g. 
 
 
     
-![png](NodeEmbeddingsTypescript_files/NodeEmbeddingsTypescript_32_5.png)
+![png](NodeEmbeddingsTypescript_files/NodeEmbeddingsTypescript_32_6.png)
     
 
 
@@ -307,8 +313,8 @@ The [node2vec](https://towardsdatascience.com/complete-guide-to-understanding-no
       <td>react-router-dom</td>
       <td>react-router-dom</td>
       <td>0</td>
-      <td>0.2775</td>
-      <td>[-0.001122929505072534, -0.09298358112573624, ...</td>
+      <td>0.1500</td>
+      <td>[0.13252443075180054, -0.09177608788013458, -0...</td>
     </tr>
     <tr>
       <th>1</th>
@@ -317,25 +323,25 @@ The [node2vec](https://towardsdatascience.com/complete-guide-to-understanding-no
       <td>react-router-dom</td>
       <td>0</td>
       <td>0.1500</td>
-      <td>[-0.002874446101486683, -0.0978042334318161, -...</td>
+      <td>[0.12999823689460754, -0.17087101936340332, -0...</td>
     </tr>
     <tr>
       <th>2</th>
       <td>/home/runner/work/code-graph-analysis-examples...</td>
       <td>react-router-native</td>
       <td>react-router-native</td>
-      <td>1</td>
+      <td>0</td>
       <td>0.1500</td>
-      <td>[0.0111593222245574, 0.0006883268360979855, 0....</td>
+      <td>[0.13230657577514648, -0.18910150229930878, -0...</td>
     </tr>
     <tr>
       <th>3</th>
       <td>/home/runner/work/code-graph-analysis-examples...</td>
       <td>react-router</td>
       <td>react-router</td>
-      <td>2</td>
-      <td>0.1500</td>
-      <td>[0.008645446039736271, 0.008527947589755058, 0...</td>
+      <td>0</td>
+      <td>0.5325</td>
+      <td>[0.12192793190479279, -0.179914191365242, -0.0...</td>
     </tr>
   </tbody>
 </table>
@@ -346,9 +352,12 @@ The [node2vec](https://towardsdatascience.com/complete-guide-to-understanding-no
       warn(
 
 
+    Community scores require at least 2 communities
+
+
 
     
-![png](NodeEmbeddingsTypescript_files/NodeEmbeddingsTypescript_34_5.png)
+![png](NodeEmbeddingsTypescript_files/NodeEmbeddingsTypescript_34_6.png)
     
 
 
@@ -373,8 +382,8 @@ The [node2vec](https://towardsdatascience.com/complete-guide-to-understanding-no
       <td>typescript-module-embeddings-notebook-graphSAGE</td>
       <td>True</td>
       <td>1</td>
-      <td>[25.97105722451011]</td>
-      <td>46</td>
+      <td>[194.09518283825224]</td>
+      <td>48</td>
     </tr>
   </tbody>
 </table>
@@ -407,41 +416,41 @@ The [node2vec](https://towardsdatascience.com/complete-guide-to-understanding-no
       <th>0</th>
       <td>/home/runner/work/code-graph-analysis-examples...</td>
       <td>react-router-dom</td>
-      <td>4:bc3bf93c-7b2e-4146-9cff-45c8424196af:3161</td>
+      <td>4:6efe7ee2-b758-4c18-93e3-665bd76424cf:3161</td>
       <td>react-router-dom</td>
       <td>0</td>
-      <td>0.2775</td>
-      <td>[-0.004854696865937064, 0.03805142570562965, 0...</td>
+      <td>0.1500</td>
+      <td>[-0.004854693047429441, 0.03805121095933398, 0...</td>
     </tr>
     <tr>
       <th>1</th>
       <td>/home/runner/work/code-graph-analysis-examples...</td>
       <td>server</td>
-      <td>4:bc3bf93c-7b2e-4146-9cff-45c8424196af:3162</td>
+      <td>4:6efe7ee2-b758-4c18-93e3-665bd76424cf:3162</td>
       <td>react-router-dom</td>
       <td>0</td>
       <td>0.1500</td>
-      <td>[-0.004854696865937064, 0.03805142570562965, 0...</td>
+      <td>[-0.004854693047429439, 0.038051210959334024, ...</td>
     </tr>
     <tr>
       <th>2</th>
       <td>/home/runner/work/code-graph-analysis-examples...</td>
       <td>react-router-native</td>
-      <td>4:bc3bf93c-7b2e-4146-9cff-45c8424196af:3426</td>
+      <td>4:6efe7ee2-b758-4c18-93e3-665bd76424cf:3435</td>
       <td>react-router-native</td>
-      <td>1</td>
+      <td>0</td>
       <td>0.1500</td>
-      <td>[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, ...</td>
+      <td>[-0.004854693047429439, 0.038051210959334, 0.1...</td>
     </tr>
     <tr>
       <th>3</th>
       <td>/home/runner/work/code-graph-analysis-examples...</td>
       <td>react-router</td>
-      <td>4:bc3bf93c-7b2e-4146-9cff-45c8424196af:3560</td>
+      <td>4:6efe7ee2-b758-4c18-93e3-665bd76424cf:3572</td>
       <td>react-router</td>
-      <td>2</td>
-      <td>0.1500</td>
-      <td>[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, ...</td>
+      <td>0</td>
+      <td>0.5325</td>
+      <td>[-0.004854693047429439, 0.03805121095933401, 0...</td>
     </tr>
   </tbody>
 </table>
@@ -452,9 +461,12 @@ The [node2vec](https://towardsdatascience.com/complete-guide-to-understanding-no
       warn(
 
 
+    Community scores require at least 2 communities
+
+
 
     
-![png](NodeEmbeddingsTypescript_files/NodeEmbeddingsTypescript_36_5.png)
+![png](NodeEmbeddingsTypescript_files/NodeEmbeddingsTypescript_36_6.png)
     
 
 

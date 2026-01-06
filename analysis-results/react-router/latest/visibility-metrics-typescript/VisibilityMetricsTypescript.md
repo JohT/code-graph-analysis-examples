@@ -64,47 +64,47 @@ Only the top 40 entries are shown. The whole table can be found in the following
     <tr>
       <th>0</th>
       <td>/home/runner/work/code-graph-analysis-examples...</td>
-      <td>15</td>
-      <td>17</td>
-      <td>1.133333</td>
-      <td>1.133333</td>
-      <td>1.133333</td>
-      <td>1.133333</td>
-      <td>1.133333</td>
-      <td>1.133333</td>
-      <td>1.133333</td>
-      <td>1.133333</td>
-      <td>1.133333</td>
+      <td>7</td>
+      <td>7</td>
+      <td>1.000</td>
+      <td>1.000000</td>
+      <td>1.000000</td>
+      <td>1.000000</td>
+      <td>1.000000</td>
+      <td>1.000000</td>
+      <td>1.000000</td>
+      <td>1.000000</td>
+      <td>1.000000</td>
     </tr>
     <tr>
       <th>1</th>
       <td>/home/runner/work/code-graph-analysis-examples...</td>
-      <td>7</td>
-      <td>7</td>
-      <td>1.000000</td>
-      <td>1.000000</td>
-      <td>1.000000</td>
-      <td>1.000000</td>
-      <td>1.000000</td>
-      <td>1.000000</td>
-      <td>1.000000</td>
-      <td>1.000000</td>
-      <td>1.000000</td>
+      <td>15</td>
+      <td>12</td>
+      <td>0.800</td>
+      <td>0.800000</td>
+      <td>0.800000</td>
+      <td>0.800000</td>
+      <td>0.800000</td>
+      <td>0.800000</td>
+      <td>0.800000</td>
+      <td>0.800000</td>
+      <td>0.800000</td>
     </tr>
     <tr>
       <th>2</th>
       <td>/home/runner/work/code-graph-analysis-examples...</td>
       <td>85</td>
-      <td>69</td>
-      <td>0.375000</td>
-      <td>0.913043</td>
-      <td>0.644022</td>
-      <td>0.509511</td>
-      <td>0.644022</td>
-      <td>0.778533</td>
-      <td>0.859239</td>
-      <td>0.886141</td>
-      <td>0.907663</td>
+      <td>41</td>
+      <td>0.375</td>
+      <td>0.507246</td>
+      <td>0.441123</td>
+      <td>0.408062</td>
+      <td>0.441123</td>
+      <td>0.474185</td>
+      <td>0.494022</td>
+      <td>0.500634</td>
+      <td>0.505924</td>
     </tr>
   </tbody>
 </table>
@@ -146,46 +146,46 @@ Only the top 40 entries are shown. The whole table can be found in the following
       <th>0</th>
       <td>/home/runner/work/code-graph-analysis-examples...</td>
       <td>85</td>
-      <td>69</td>
-      <td>0.375000</td>
-      <td>0.913043</td>
-      <td>0.644022</td>
-      <td>0.509511</td>
-      <td>0.644022</td>
-      <td>0.778533</td>
-      <td>0.859239</td>
-      <td>0.886141</td>
-      <td>0.907663</td>
+      <td>41</td>
+      <td>0.375</td>
+      <td>0.507246</td>
+      <td>0.441123</td>
+      <td>0.408062</td>
+      <td>0.441123</td>
+      <td>0.474185</td>
+      <td>0.494022</td>
+      <td>0.500634</td>
+      <td>0.505924</td>
     </tr>
     <tr>
       <th>1</th>
       <td>/home/runner/work/code-graph-analysis-examples...</td>
-      <td>7</td>
-      <td>7</td>
-      <td>1.000000</td>
-      <td>1.000000</td>
-      <td>1.000000</td>
-      <td>1.000000</td>
-      <td>1.000000</td>
-      <td>1.000000</td>
-      <td>1.000000</td>
-      <td>1.000000</td>
-      <td>1.000000</td>
+      <td>15</td>
+      <td>12</td>
+      <td>0.800</td>
+      <td>0.800000</td>
+      <td>0.800000</td>
+      <td>0.800000</td>
+      <td>0.800000</td>
+      <td>0.800000</td>
+      <td>0.800000</td>
+      <td>0.800000</td>
+      <td>0.800000</td>
     </tr>
     <tr>
       <th>2</th>
       <td>/home/runner/work/code-graph-analysis-examples...</td>
-      <td>15</td>
-      <td>17</td>
-      <td>1.133333</td>
-      <td>1.133333</td>
-      <td>1.133333</td>
-      <td>1.133333</td>
-      <td>1.133333</td>
-      <td>1.133333</td>
-      <td>1.133333</td>
-      <td>1.133333</td>
-      <td>1.133333</td>
+      <td>7</td>
+      <td>7</td>
+      <td>1.000</td>
+      <td>1.000000</td>
+      <td>1.000000</td>
+      <td>1.000000</td>
+      <td>1.000000</td>
+      <td>1.000000</td>
+      <td>1.000000</td>
+      <td>1.000000</td>
+      <td>1.000000</td>
     </tr>
   </tbody>
 </table>
