@@ -95,3 +95,6 @@ coverage/
 
 # Python environments
 .conda
+
+# Keep zip files in archive folder
+!archive/**/*.zip
