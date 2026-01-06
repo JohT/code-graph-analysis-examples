@@ -46,7 +46,7 @@ jobs:
   analyze-code-graph:
     name: Analyze Code Graph
     needs: [prepare-code-to-analyze]
-    uses: JohT/code-graph-analysis-pipeline/.github/workflows/public-analyze-code-graph.yml@v3.1.2
+    uses: JohT/code-graph-analysis-pipeline/.github/workflows/public-analyze-code-graph.yml@v3.2.0
     with:
       analysis-name: ${{ needs.prepare-code-to-analyze.outputs.analysis-name }}
       maven-artifacts: >
@@ -64,7 +64,7 @@ jobs:
       source-repository: https://github.com/AxonFramework/AxonFramework.git
       source-repository-branch: axon-${{ needs.prepare-code-to-analyze.outputs.project-version }}
       source-repository-history-only: true
-      ref: v3.1.2
+      ref: v3.2.0
 
 
   commit-analysis-results:
