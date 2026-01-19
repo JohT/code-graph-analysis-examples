@@ -14,103 +14,103 @@ strict digraph TopHub3 {
 
 	graph   [label="Top Rank #3 Java Type Hub\norg.axonframework.messaging.eventhandling.EventMessage\n\nnodes: incoming dependencies (limited max. 40)\nnode value: local clustering coefficient\nthick outline: <1 0% percentile of local clustering coefficient\n\n"];
 	central [label="🎡 hub #3\nEventMessage\n(in-degree=136)"];
-	"AxonTestWhen_19532"  [label = "AxonTestWhen\n(0.2)"; penwidth = 2; ]; "AxonTestWhen_19532" -> central [label=14; weight=14; penwidth=0.6];
-	"AxonTestGiven_19542"  [label = "AxonTestGiven\n(0.24)"; penwidth = 2; ]; "AxonTestGiven_19542" -> central [label=13; weight=13; penwidth=0.6];
-	"WorkPackage_32209"  [label = "WorkPackage\n(0.29)"; penwidth = 2; ]; "WorkPackage_32209" -> central [label=12; weight=12; penwidth=0.6];
-	"AggregateBasedAxonServerEventStorageEngine_8418"  [label = "AggregateBasedAxonServerEventStorageEngine\n(0.11)"; penwidth = 2; ]; "AggregateBasedAxonServerEventStorageEngine_8418" -> central [label=11; weight=11; penwidth=0.6];
-	"AggregateBasedJpaEventStorageEngine_17760"  [label = "AggregateBasedJpaEventStorageEngine\n(0.08)"; penwidth = 2; ]; "AggregateBasedJpaEventStorageEngine_17760" -> central [label=10; weight=10; penwidth=0.6];
-	"AxonTestThenMessage_19552"  [label = "AxonTestThenMessage\n(0.21)"; penwidth = 2; ]; "AxonTestThenMessage_19552" -> central [label=10; weight=10; penwidth=0.6];
-	"StorageEngineBackedEventStore_16391"  [label = "StorageEngineBackedEventStore\n(0.17)"; penwidth = 2; ]; "StorageEngineBackedEventStore_16391" -> central [label=10; weight=10; penwidth=0.6];
-	"TaggedEventConverter_8414"  [label = "TaggedEventConverter\n(0.23)"; penwidth = 2; ]; "TaggedEventConverter_8414" -> central [label=9; weight=9; penwidth=0.5];
-	"AxonServerMessageStream_8415"  [label = "AxonServerMessageStream\n(0.36)"; penwidth = 2; ]; "AxonServerMessageStream_8415" -> central [label=7; weight=7; penwidth=0.5];
-	"DefaultEventStoreTransaction_16413"  [label = "DefaultEventStoreTransaction\n(0.25)"; penwidth = 2; ]; "DefaultEventStoreTransaction_16413" -> central [label=7; weight=7; penwidth=0.5];
-	"EventMessageHandlerInterceptorChain$InterceptingHandler_30467"  [label = "EventMessageHandlerInterceptorChain$\nInterceptingHandler\n(0.67)"; penwidth = 2; ]; "EventMessageHandlerInterceptorChain$InterceptingHandler_30467" -> central [label=7; weight=7; penwidth=0.5];
-	"ContinuousMessageStream_17825"  [label = "ContinuousMessageStream\n(0.33)"; penwidth = 2; ]; "ContinuousMessageStream_17825" -> central [label=6; weight=6; penwidth=0.5];
-	"Coordinator$CoordinationTask_32549"  [label = "Coordinator$\nCoordinationTask\n(0.19)"; penwidth = 2; ]; "Coordinator$CoordinationTask_32549" -> central [label=6; weight=6; penwidth=0.5];
-	"DefaultDispatchInterceptorRegistry_41519"  [label = "DefaultDispatchInterceptorRegistry\n(0.17)"; penwidth = 2; ]; "DefaultDispatchInterceptorRegistry_41519" -> central [label=6; weight=6; penwidth=0.5];
-	"DefaultHandlerInterceptorRegistry_41518"  [label = "DefaultHandlerInterceptorRegistry\n(0.18)"; penwidth = 2; ]; "DefaultHandlerInterceptorRegistry_41518" -> central [label=6; weight=6; penwidth=0.5];
-	"InMemoryEventStorageEngine_16397"  [label = "InMemoryEventStorageEngine\n(0.18)"; penwidth = 2; ]; "InMemoryEventStorageEngine_16397" -> central [label=6; weight=6; penwidth=0.5];
-	"MonitoringEventDispatchInterceptor_26235"  [label = "MonitoringEventDispatchInterceptor\n(0.29)"; penwidth = 2; ]; "MonitoringEventDispatchInterceptor_26235" -> central [label=6; weight=6; penwidth=0.5];
-	"MonitoringEventHandlerInterceptor_26231"  [label = "MonitoringEventHandlerInterceptor\n(0.29)"; penwidth = 2; ]; "MonitoringEventHandlerInterceptor_26231" -> central [label=6; weight=6; penwidth=0.5];
-	"PooledStreamingEventProcessorConfiguration_32548"  [label = "PooledStreamingEventProcessorConfiguration\n(0.13)"; penwidth = 2; ]; "PooledStreamingEventProcessorConfiguration_32548" -> central [label=6; weight=6; penwidth=0.5];
-	"ProcessorEventHandlingComponents_33429"  [label = "ProcessorEventHandlingComponents\n(0.44)"; penwidth = 2; ]; "ProcessorEventHandlingComponents_33429" -> central [label=6; weight=6; penwidth=0.5];
-	"SimpleEventBus_29703"  [label = "SimpleEventBus\n(0.16)"; penwidth = 2; ]; "SimpleEventBus_29703" -> central [label=6; weight=6; penwidth=0.5];
-	"AnnotatedEventHandlingComponent_29252"  [label = "AnnotatedEventHandlingComponent\n(0.22)"; penwidth = 2; ]; "AnnotatedEventHandlingComponent_29252" -> central [label=5; weight=5; penwidth=0.5];
-	"AnnotationBasedEventSourcedEntityFactory_14902"  [label = "AnnotationBasedEventSourcedEntityFactory\n(0.17)"; penwidth = 2; ]; "AnnotationBasedEventSourcedEntityFactory_14902" -> central [label=5; weight=5; penwidth=0.5];
-	"EventProcessorConfiguration_32192"  [label = "EventProcessorConfiguration\n(0.15)"; penwidth = 2; ]; "EventProcessorConfiguration_32192" -> central [label=5; weight=5; penwidth=0.5];
-	"EventSourcedEntityFactory_14873"  [label = "EventSourcedEntityFactory\n(0.24)"; penwidth = 2; ]; "EventSourcedEntityFactory_14873" -> central [label=5; weight=5; penwidth=0.5];
-	"InterceptingEventSink_29398"  [label = "InterceptingEventSink\n(0.35)"; penwidth = 2; ]; "InterceptingEventSink_29398" -> central [label=5; weight=5; penwidth=0.5];
-	"InterceptingEventSink$InterceptingPublisher_29324"  [label = "InterceptingEventSink$\nInterceptingPublisher\n(0.46)"; penwidth = 2; ]; "InterceptingEventSink$InterceptingPublisher_29324" -> central [label=5; weight=5; penwidth=0.5];
-	"InterceptingEventStore_17755"  [label = "InterceptingEventStore\n(0.22)"; penwidth = 2; ]; "InterceptingEventStore_17755" -> central [label=5; weight=5; penwidth=0.5];
-	"SimpleEventHandlingComponent_29407"  [label = "SimpleEventHandlingComponent\n(0.34)"; penwidth = 2; ]; "SimpleEventHandlingComponent_29407" -> central [label=5; weight=5; penwidth=0.5];
-	"SourcingEventMessageStream_8416"  [label = "SourcingEventMessageStream\n(0.27)"; penwidth = 2; ]; "SourcingEventMessageStream_8416" -> central [label=5; weight=5; penwidth=0.5];
-	"AnnotationBasedEntityEvolvingComponent_11458"  [label = "AnnotationBasedEntityEvolvingComponent\n(0.25)"; penwidth = 2; ]; "AnnotationBasedEntityEvolvingComponent_11458" -> central [label=4; weight=4; penwidth=0.5];
-	"AxonTestPhase$Then$MessageAssertions_19484"  [label = "AxonTestPhase$\nThen$\nMessageAssertions\n(0.39)"; penwidth = 2; ]; "AxonTestPhase$Then$MessageAssertions_19484" -> central [label=4; weight=4; penwidth=0.5];
-	"DefaultEventBusSpanFactory_35700"  [label = "DefaultEventBusSpanFactory\n(0.4)"; penwidth = 2; ]; "DefaultEventBusSpanFactory_35700" -> central [label=4; weight=4; penwidth=0.5];
-	"DefaultMessageMonitorRegistry_26237"  [label = "DefaultMessageMonitorRegistry\n(0.19)"; penwidth = 2; ]; "DefaultMessageMonitorRegistry_26237" -> central [label=4; weight=4; penwidth=0.5];
-	"DefaultWorkPackageEventFilter_33413"  [label = "DefaultWorkPackageEventFilter\n(0.38)"; penwidth = 2; ]; "DefaultWorkPackageEventFilter_33413" -> central [label=4; weight=4; penwidth=0.5];
-	"EventConverter_29313"  [label = "EventConverter\n(0.16)"; penwidth = 2; ]; "EventConverter_29313" -> central [label=4; weight=4; penwidth=0.5];
-	"EventMessageHandlerInterceptorChain_29702"  [label = "EventMessageHandlerInterceptorChain\n(0.56)"; penwidth = 2; ]; "EventMessageHandlerInterceptorChain_29702" -> central [label=4; weight=4; penwidth=0.5];
-	"EventProcessorLatencyMonitor_48014"  [label = "EventProcessorLatencyMonitor\n(0.43)"; penwidth = 2; ]; "EventProcessorLatencyMonitor_48014" -> central [label=4; weight=4; penwidth=0.5];
-	"EventSourcingRepository_14822"  [label = "EventSourcingRepository\n(0.17)"; penwidth = 2; ]; "EventSourcingRepository_14822" -> central [label=4; weight=4; penwidth=0.5];
-	"GenericEventMessage_29345"  [label = "GenericEventMessage\n(0.19)"; penwidth = 2; ]; "GenericEventMessage_29345" -> central [label=4; weight=4; penwidth=0.5];
-	"Converter_49363"  [label = "Converter\n(0.12)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "Converter_49363" [label=6; weight=6; penwidth=0.5; color = 5];
-	"Message_25595"  [label = "Message\n(0.03)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "Message_25595" [label=6; weight=6; penwidth=0.5; color = 5];
-	"TypeReference_2512"  [label = "TypeReference\n(0.07)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "TypeReference_2512" [label=3; weight=3; penwidth=0.4; color = 5];
-	"Coordinator$CoordinationTask_32549" -> "WorkPackage_32209" [label=35; weight=35; penwidth=0.3; color = 3]
-	"PooledStreamingEventProcessorConfiguration_32548" -> "EventProcessorConfiguration_32192" [label=16; weight=16; penwidth=0.3; color = 3]
-	"AxonTestThenMessage_19552" -> "AxonTestPhase$Then$MessageAssertions_19484" [label=15; weight=15; penwidth=0.3; color = 3]
-	"GenericEventMessage_29345" -> "Message_25595" [label=10; weight=10; penwidth=0.3; color = 3]
-	"DefaultDispatchInterceptorRegistry_41519" -> "Message_25595" [label=7; weight=7; penwidth=0.3; color = 3]
-	"DefaultHandlerInterceptorRegistry_41518" -> "Message_25595" [label=6; weight=6; penwidth=0.3; color = 3]
-	"EventSourcingRepository_14822" -> "EventSourcedEntityFactory_14873" [label=6; weight=6; penwidth=0.3; color = 3]
-	"Message_25595" -> "Converter_49363" [label=6; weight=6; penwidth=0.3; color = 3]
-	"Message_25595" -> "TypeReference_2512" [label=6; weight=6; penwidth=0.3; color = 3]
-	"AnnotatedEventHandlingComponent_29252" -> "SimpleEventHandlingComponent_29407" [label=5; weight=5; penwidth=0.3; color = 3]
-	"DefaultDispatchInterceptorRegistry_41519" -> "TypeReference_2512" [label=5; weight=5; penwidth=0.3; color = 3]
-	"DefaultMessageMonitorRegistry_26237" -> "TypeReference_2512" [label=5; weight=5; penwidth=0.3; color = 3]
-	"DefaultWorkPackageEventFilter_33413" -> "ProcessorEventHandlingComponents_33429" [label=5; weight=5; penwidth=0.3; color = 3]
-	"InterceptingEventSink_29398" -> "InterceptingEventSink$InterceptingPublisher_29324" [label=5; weight=5; penwidth=0.3; color = 3]
-	"AggregateBasedJpaEventStorageEngine_17760" -> "EventConverter_29313" [label=4; weight=4; penwidth=0.3; color = 3]
-	"AggregateBasedJpaEventStorageEngine_17760" -> "ContinuousMessageStream_17825" [label=4; weight=4; penwidth=0.3; color = 3]
-	"AnnotationBasedEntityEvolvingComponent_11458" -> "EventConverter_29313" [label=4; weight=4; penwidth=0.3; color = 3]
-	"AnnotationBasedEventSourcedEntityFactory_14902" -> "EventConverter_29313" [label=4; weight=4; penwidth=0.3; color = 3]
-	"DefaultHandlerInterceptorRegistry_41518" -> "TypeReference_2512" [label=4; weight=4; penwidth=0.3; color = 3]
-	"SourcingEventMessageStream_8416" -> "TaggedEventConverter_8414" [label=4; weight=4; penwidth=0.3; color = 3]
-	"AggregateBasedAxonServerEventStorageEngine_8418" -> "EventConverter_29313" [label=3; weight=3; penwidth=0.3; color = 3]
-	"AggregateBasedJpaEventStorageEngine_17760" -> "GenericEventMessage_29345" [label=3; weight=3; penwidth=0.3; color = 3]
-	"AxonTestGiven_19542" -> "GenericEventMessage_29345" [label=3; weight=3; penwidth=0.3; color = 3]
-	"AxonTestWhen_19532" -> "GenericEventMessage_29345" [label=3; weight=3; penwidth=0.3; color = 3]
-	"DefaultMessageMonitorRegistry_26237" -> "Message_25595" [label=3; weight=3; penwidth=0.3; color = 3]
-	"EventMessageHandlerInterceptorChain_29702" -> "EventMessageHandlerInterceptorChain$InterceptingHandler_30467" [label=3; weight=3; penwidth=0.3; color = 3]
-	"PooledStreamingEventProcessorConfiguration_32548" -> "GenericEventMessage_29345" [label=3; weight=3; penwidth=0.3; color = 3]
-	"StorageEngineBackedEventStore_16391" -> "DefaultEventStoreTransaction_16413" [label=3; weight=3; penwidth=0.3; color = 3]
-	"TaggedEventConverter_8414" -> "EventConverter_29313" [label=3; weight=3; penwidth=0.3; color = 3]
-	"AggregateBasedAxonServerEventStorageEngine_8418" -> "GenericEventMessage_29345" [label=2; weight=2; penwidth=0.3; color = 3]
-	"AggregateBasedAxonServerEventStorageEngine_8418" -> "AxonServerMessageStream_8415" [label=2; weight=2; penwidth=0.3; color = 3]
-	"AggregateBasedJpaEventStorageEngine_17760" -> "Converter_49363" [label=2; weight=2; penwidth=0.3; color = 3]
-	"AggregateBasedJpaEventStorageEngine_17760" -> "TypeReference_2512" [label=2; weight=2; penwidth=0.3; color = 3]
-	"AnnotationBasedEventSourcedEntityFactory_14902" -> "Message_25595" [label=2; weight=2; penwidth=0.3; color = 3]
-	"AxonTestGiven_19542" -> "AxonTestWhen_19532" [label=2; weight=2; penwidth=0.3; color = 3]
-	"EventMessageHandlerInterceptorChain$InterceptingHandler_30467" -> "Message_25595" [label=2; weight=2; penwidth=0.3; color = 3]
-	"EventProcessorLatencyMonitor_48014" -> "Message_25595" [label=2; weight=2; penwidth=0.3; color = 3]
-	"GenericEventMessage_29345" -> "Converter_49363" [label=2; weight=2; penwidth=0.3; color = 3]
-	"InterceptingEventSink_29398" -> "Message_25595" [label=2; weight=2; penwidth=0.3; color = 3]
-	"ProcessorEventHandlingComponents_33429" -> "Message_25595" [label=2; weight=2; penwidth=0.3; color = 3]
-	"TaggedEventConverter_8414" -> "GenericEventMessage_29345" [label=2; weight=2; penwidth=0.3; color = 3]
-	"AnnotatedEventHandlingComponent_29252" -> "Converter_49363" [label=1; weight=1; penwidth=0.3; color = 3]
-	"AnnotatedEventHandlingComponent_29252" -> "EventConverter_29313" [label=1; weight=1; penwidth=0.3; color = 3]
-	"AnnotatedEventHandlingComponent_29252" -> "Message_25595" [label=1; weight=1; penwidth=0.3; color = 3]
-	"AnnotationBasedEntityEvolvingComponent_11458" -> "Message_25595" [label=1; weight=1; penwidth=0.3; color = 3]
-	"AnnotationBasedEventSourcedEntityFactory_14902" -> "EventSourcedEntityFactory_14873" [label=1; weight=1; penwidth=0.3; color = 3]
-	"AxonTestThenMessage_19552" -> "Message_25595" [label=1; weight=1; penwidth=0.3; color = 3]
-	"AxonTestWhen_19532" -> "Message_25595" [label=1; weight=1; penwidth=0.3; color = 3]
-	"Coordinator$CoordinationTask_32549" -> "GenericEventMessage_29345" [label=1; weight=1; penwidth=0.3; color = 3]
-	"DefaultEventBusSpanFactory_35700" -> "Message_25595" [label=1; weight=1; penwidth=0.3; color = 3]
-	"EventConverter_29313" -> "Converter_49363" [label=1; weight=1; penwidth=0.3; color = 3]
-	"EventMessageHandlerInterceptorChain_29702" -> "Message_25595" [label=1; weight=1; penwidth=0.3; color = 3]
-	"MonitoringEventDispatchInterceptor_26235" -> "Message_25595" [label=1; weight=1; penwidth=0.3; color = 3]
-	"MonitoringEventHandlerInterceptor_26231" -> "Message_25595" [label=1; weight=1; penwidth=0.3; color = 3]
-	"SimpleEventHandlingComponent_29407" -> "Message_25595" [label=1; weight=1; penwidth=0.3; color = 3]
-	"WorkPackage_32209" -> "Message_25595" [label=1; weight=1; penwidth=0.3; color = 3]
+	"AxonTestWhen_4684"  [label = "AxonTestWhen\n(0.2)"; penwidth = 2; ]; "AxonTestWhen_4684" -> central [label=14; weight=14; penwidth=0.6];
+	"AxonTestGiven_4694"  [label = "AxonTestGiven\n(0.24)"; penwidth = 2; ]; "AxonTestGiven_4694" -> central [label=13; weight=13; penwidth=0.6];
+	"WorkPackage_23021"  [label = "WorkPackage\n(0.29)"; penwidth = 2; ]; "WorkPackage_23021" -> central [label=12; weight=12; penwidth=0.6];
+	"AggregateBasedAxonServerEventStorageEngine_3095"  [label = "AggregateBasedAxonServerEventStorageEngine\n(0.11)"; penwidth = 2; ]; "AggregateBasedAxonServerEventStorageEngine_3095" -> central [label=11; weight=11; penwidth=0.6];
+	"AggregateBasedJpaEventStorageEngine_48854"  [label = "AggregateBasedJpaEventStorageEngine\n(0.08)"; penwidth = 2; ]; "AggregateBasedJpaEventStorageEngine_48854" -> central [label=10; weight=10; penwidth=0.6];
+	"AxonTestThenMessage_4703"  [label = "AxonTestThenMessage\n(0.21)"; penwidth = 2; ]; "AxonTestThenMessage_4703" -> central [label=10; weight=10; penwidth=0.6];
+	"StorageEngineBackedEventStore_48862"  [label = "StorageEngineBackedEventStore\n(0.17)"; penwidth = 2; ]; "StorageEngineBackedEventStore_48862" -> central [label=10; weight=10; penwidth=0.6];
+	"TaggedEventConverter_1919"  [label = "TaggedEventConverter\n(0.23)"; penwidth = 2; ]; "TaggedEventConverter_1919" -> central [label=9; weight=9; penwidth=0.5];
+	"AxonServerMessageStream_1911"  [label = "AxonServerMessageStream\n(0.36)"; penwidth = 2; ]; "AxonServerMessageStream_1911" -> central [label=7; weight=7; penwidth=0.5];
+	"DefaultEventStoreTransaction_48647"  [label = "DefaultEventStoreTransaction\n(0.25)"; penwidth = 2; ]; "DefaultEventStoreTransaction_48647" -> central [label=7; weight=7; penwidth=0.5];
+	"EventMessageHandlerInterceptorChain$InterceptingHandler_19993"  [label = "EventMessageHandlerInterceptorChain$\nInterceptingHandler\n(0.67)"; penwidth = 2; ]; "EventMessageHandlerInterceptorChain$InterceptingHandler_19993" -> central [label=7; weight=7; penwidth=0.5];
+	"ContinuousMessageStream_49358"  [label = "ContinuousMessageStream\n(0.33)"; penwidth = 2; ]; "ContinuousMessageStream_49358" -> central [label=6; weight=6; penwidth=0.5];
+	"Coordinator$CoordinationTask_23063"  [label = "Coordinator$\nCoordinationTask\n(0.19)"; penwidth = 2; ]; "Coordinator$CoordinationTask_23063" -> central [label=6; weight=6; penwidth=0.5];
+	"DefaultDispatchInterceptorRegistry_32482"  [label = "DefaultDispatchInterceptorRegistry\n(0.17)"; penwidth = 2; ]; "DefaultDispatchInterceptorRegistry_32482" -> central [label=6; weight=6; penwidth=0.5];
+	"DefaultHandlerInterceptorRegistry_32480"  [label = "DefaultHandlerInterceptorRegistry\n(0.18)"; penwidth = 2; ]; "DefaultHandlerInterceptorRegistry_32480" -> central [label=6; weight=6; penwidth=0.5];
+	"InMemoryEventStorageEngine_48300"  [label = "InMemoryEventStorageEngine\n(0.18)"; penwidth = 2; ]; "InMemoryEventStorageEngine_48300" -> central [label=6; weight=6; penwidth=0.5];
+	"MonitoringEventDispatchInterceptor_16795"  [label = "MonitoringEventDispatchInterceptor\n(0.29)"; penwidth = 2; ]; "MonitoringEventDispatchInterceptor_16795" -> central [label=6; weight=6; penwidth=0.5];
+	"MonitoringEventHandlerInterceptor_15789"  [label = "MonitoringEventHandlerInterceptor\n(0.29)"; penwidth = 2; ]; "MonitoringEventHandlerInterceptor_15789" -> central [label=6; weight=6; penwidth=0.5];
+	"PooledStreamingEventProcessorConfiguration_23062"  [label = "PooledStreamingEventProcessorConfiguration\n(0.13)"; penwidth = 2; ]; "PooledStreamingEventProcessorConfiguration_23062" -> central [label=6; weight=6; penwidth=0.5];
+	"ProcessorEventHandlingComponents_24116"  [label = "ProcessorEventHandlingComponents\n(0.44)"; penwidth = 2; ]; "ProcessorEventHandlingComponents_24116" -> central [label=6; weight=6; penwidth=0.5];
+	"SimpleEventBus_19951"  [label = "SimpleEventBus\n(0.16)"; penwidth = 2; ]; "SimpleEventBus_19951" -> central [label=6; weight=6; penwidth=0.5];
+	"AnnotatedEventHandlingComponent_18940"  [label = "AnnotatedEventHandlingComponent\n(0.22)"; penwidth = 2; ]; "AnnotatedEventHandlingComponent_18940" -> central [label=5; weight=5; penwidth=0.5];
+	"AnnotationBasedEventSourcedEntityFactory_46907"  [label = "AnnotationBasedEventSourcedEntityFactory\n(0.17)"; penwidth = 2; ]; "AnnotationBasedEventSourcedEntityFactory_46907" -> central [label=5; weight=5; penwidth=0.5];
+	"EventProcessorConfiguration_23004"  [label = "EventProcessorConfiguration\n(0.15)"; penwidth = 2; ]; "EventProcessorConfiguration_23004" -> central [label=5; weight=5; penwidth=0.5];
+	"EventSourcedEntityFactory_46878"  [label = "EventSourcedEntityFactory\n(0.24)"; penwidth = 2; ]; "EventSourcedEntityFactory_46878" -> central [label=5; weight=5; penwidth=0.5];
+	"InterceptingEventSink_19939"  [label = "InterceptingEventSink\n(0.35)"; penwidth = 2; ]; "InterceptingEventSink_19939" -> central [label=5; weight=5; penwidth=0.5];
+	"InterceptingEventSink$InterceptingPublisher_19940"  [label = "InterceptingEventSink$\nInterceptingPublisher\n(0.46)"; penwidth = 2; ]; "InterceptingEventSink$InterceptingPublisher_19940" -> central [label=5; weight=5; penwidth=0.5];
+	"InterceptingEventStore_48867"  [label = "InterceptingEventStore\n(0.22)"; penwidth = 2; ]; "InterceptingEventStore_48867" -> central [label=5; weight=5; penwidth=0.5];
+	"SimpleEventHandlingComponent_18747"  [label = "SimpleEventHandlingComponent\n(0.34)"; penwidth = 2; ]; "SimpleEventHandlingComponent_18747" -> central [label=5; weight=5; penwidth=0.5];
+	"SourcingEventMessageStream_3093"  [label = "SourcingEventMessageStream\n(0.27)"; penwidth = 2; ]; "SourcingEventMessageStream_3093" -> central [label=5; weight=5; penwidth=0.5];
+	"AnnotationBasedEntityEvolvingComponent_11567"  [label = "AnnotationBasedEntityEvolvingComponent\n(0.25)"; penwidth = 2; ]; "AnnotationBasedEntityEvolvingComponent_11567" -> central [label=4; weight=4; penwidth=0.5];
+	"AxonTestPhase$Then$MessageAssertions_4636"  [label = "AxonTestPhase$\nThen$\nMessageAssertions\n(0.39)"; penwidth = 2; ]; "AxonTestPhase$Then$MessageAssertions_4636" -> central [label=4; weight=4; penwidth=0.5];
+	"DefaultEventBusSpanFactory_25208"  [label = "DefaultEventBusSpanFactory\n(0.4)"; penwidth = 2; ]; "DefaultEventBusSpanFactory_25208" -> central [label=4; weight=4; penwidth=0.5];
+	"DefaultMessageMonitorRegistry_16797"  [label = "DefaultMessageMonitorRegistry\n(0.19)"; penwidth = 2; ]; "DefaultMessageMonitorRegistry_16797" -> central [label=4; weight=4; penwidth=0.5];
+	"DefaultWorkPackageEventFilter_24017"  [label = "DefaultWorkPackageEventFilter\n(0.38)"; penwidth = 2; ]; "DefaultWorkPackageEventFilter_24017" -> central [label=4; weight=4; penwidth=0.5];
+	"EventConverter_18785"  [label = "EventConverter\n(0.16)"; penwidth = 2; ]; "EventConverter_18785" -> central [label=4; weight=4; penwidth=0.5];
+	"EventMessageHandlerInterceptorChain_19950"  [label = "EventMessageHandlerInterceptorChain\n(0.56)"; penwidth = 2; ]; "EventMessageHandlerInterceptorChain_19950" -> central [label=4; weight=4; penwidth=0.5];
+	"EventProcessorLatencyMonitor_40641"  [label = "EventProcessorLatencyMonitor\n(0.43)"; penwidth = 2; ]; "EventProcessorLatencyMonitor_40641" -> central [label=4; weight=4; penwidth=0.5];
+	"EventSourcingRepository_46827"  [label = "EventSourcingRepository\n(0.17)"; penwidth = 2; ]; "EventSourcingRepository_46827" -> central [label=4; weight=4; penwidth=0.5];
+	"GenericEventMessage_18774"  [label = "GenericEventMessage\n(0.19)"; penwidth = 2; ]; "GenericEventMessage_18774" -> central [label=4; weight=4; penwidth=0.5];
+	"Converter_38848"  [label = "Converter\n(0.12)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "Converter_38848" [label=6; weight=6; penwidth=0.5; color = 5];
+	"Message_15590"  [label = "Message\n(0.03)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "Message_15590" [label=6; weight=6; penwidth=0.5; color = 5];
+	"TypeReference_43508"  [label = "TypeReference\n(0.07)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "TypeReference_43508" [label=3; weight=3; penwidth=0.4; color = 5];
+	"Coordinator$CoordinationTask_23063" -> "WorkPackage_23021" [label=35; weight=35; penwidth=0.3; color = 3]
+	"PooledStreamingEventProcessorConfiguration_23062" -> "EventProcessorConfiguration_23004" [label=16; weight=16; penwidth=0.3; color = 3]
+	"AxonTestThenMessage_4703" -> "AxonTestPhase$Then$MessageAssertions_4636" [label=15; weight=15; penwidth=0.3; color = 3]
+	"GenericEventMessage_18774" -> "Message_15590" [label=10; weight=10; penwidth=0.3; color = 3]
+	"DefaultDispatchInterceptorRegistry_32482" -> "Message_15590" [label=7; weight=7; penwidth=0.3; color = 3]
+	"DefaultHandlerInterceptorRegistry_32480" -> "Message_15590" [label=6; weight=6; penwidth=0.3; color = 3]
+	"EventSourcingRepository_46827" -> "EventSourcedEntityFactory_46878" [label=6; weight=6; penwidth=0.3; color = 3]
+	"Message_15590" -> "TypeReference_43508" [label=6; weight=6; penwidth=0.3; color = 3]
+	"Message_15590" -> "Converter_38848" [label=6; weight=6; penwidth=0.3; color = 3]
+	"AnnotatedEventHandlingComponent_18940" -> "SimpleEventHandlingComponent_18747" [label=5; weight=5; penwidth=0.3; color = 3]
+	"DefaultDispatchInterceptorRegistry_32482" -> "TypeReference_43508" [label=5; weight=5; penwidth=0.3; color = 3]
+	"DefaultMessageMonitorRegistry_16797" -> "TypeReference_43508" [label=5; weight=5; penwidth=0.3; color = 3]
+	"DefaultWorkPackageEventFilter_24017" -> "ProcessorEventHandlingComponents_24116" [label=5; weight=5; penwidth=0.3; color = 3]
+	"InterceptingEventSink_19939" -> "InterceptingEventSink$InterceptingPublisher_19940" [label=5; weight=5; penwidth=0.3; color = 3]
+	"AggregateBasedJpaEventStorageEngine_48854" -> "EventConverter_18785" [label=4; weight=4; penwidth=0.3; color = 3]
+	"AggregateBasedJpaEventStorageEngine_48854" -> "ContinuousMessageStream_49358" [label=4; weight=4; penwidth=0.3; color = 3]
+	"AnnotationBasedEntityEvolvingComponent_11567" -> "EventConverter_18785" [label=4; weight=4; penwidth=0.3; color = 3]
+	"AnnotationBasedEventSourcedEntityFactory_46907" -> "EventConverter_18785" [label=4; weight=4; penwidth=0.3; color = 3]
+	"DefaultHandlerInterceptorRegistry_32480" -> "TypeReference_43508" [label=4; weight=4; penwidth=0.3; color = 3]
+	"SourcingEventMessageStream_3093" -> "TaggedEventConverter_1919" [label=4; weight=4; penwidth=0.3; color = 3]
+	"AggregateBasedAxonServerEventStorageEngine_3095" -> "EventConverter_18785" [label=3; weight=3; penwidth=0.3; color = 3]
+	"AggregateBasedJpaEventStorageEngine_48854" -> "GenericEventMessage_18774" [label=3; weight=3; penwidth=0.3; color = 3]
+	"AxonTestGiven_4694" -> "GenericEventMessage_18774" [label=3; weight=3; penwidth=0.3; color = 3]
+	"AxonTestWhen_4684" -> "GenericEventMessage_18774" [label=3; weight=3; penwidth=0.3; color = 3]
+	"DefaultMessageMonitorRegistry_16797" -> "Message_15590" [label=3; weight=3; penwidth=0.3; color = 3]
+	"EventMessageHandlerInterceptorChain_19950" -> "EventMessageHandlerInterceptorChain$InterceptingHandler_19993" [label=3; weight=3; penwidth=0.3; color = 3]
+	"PooledStreamingEventProcessorConfiguration_23062" -> "GenericEventMessage_18774" [label=3; weight=3; penwidth=0.3; color = 3]
+	"StorageEngineBackedEventStore_48862" -> "DefaultEventStoreTransaction_48647" [label=3; weight=3; penwidth=0.3; color = 3]
+	"TaggedEventConverter_1919" -> "EventConverter_18785" [label=3; weight=3; penwidth=0.3; color = 3]
+	"AggregateBasedAxonServerEventStorageEngine_3095" -> "GenericEventMessage_18774" [label=2; weight=2; penwidth=0.3; color = 3]
+	"AggregateBasedAxonServerEventStorageEngine_3095" -> "AxonServerMessageStream_1911" [label=2; weight=2; penwidth=0.3; color = 3]
+	"AggregateBasedJpaEventStorageEngine_48854" -> "Converter_38848" [label=2; weight=2; penwidth=0.3; color = 3]
+	"AggregateBasedJpaEventStorageEngine_48854" -> "TypeReference_43508" [label=2; weight=2; penwidth=0.3; color = 3]
+	"AnnotationBasedEventSourcedEntityFactory_46907" -> "Message_15590" [label=2; weight=2; penwidth=0.3; color = 3]
+	"AxonTestGiven_4694" -> "AxonTestWhen_4684" [label=2; weight=2; penwidth=0.3; color = 3]
+	"EventMessageHandlerInterceptorChain$InterceptingHandler_19993" -> "Message_15590" [label=2; weight=2; penwidth=0.3; color = 3]
+	"EventProcessorLatencyMonitor_40641" -> "Message_15590" [label=2; weight=2; penwidth=0.3; color = 3]
+	"GenericEventMessage_18774" -> "Converter_38848" [label=2; weight=2; penwidth=0.3; color = 3]
+	"InterceptingEventSink_19939" -> "Message_15590" [label=2; weight=2; penwidth=0.3; color = 3]
+	"ProcessorEventHandlingComponents_24116" -> "Message_15590" [label=2; weight=2; penwidth=0.3; color = 3]
+	"TaggedEventConverter_1919" -> "GenericEventMessage_18774" [label=2; weight=2; penwidth=0.3; color = 3]
+	"AnnotatedEventHandlingComponent_18940" -> "Converter_38848" [label=1; weight=1; penwidth=0.3; color = 3]
+	"AnnotatedEventHandlingComponent_18940" -> "EventConverter_18785" [label=1; weight=1; penwidth=0.3; color = 3]
+	"AnnotatedEventHandlingComponent_18940" -> "Message_15590" [label=1; weight=1; penwidth=0.3; color = 3]
+	"AnnotationBasedEntityEvolvingComponent_11567" -> "Message_15590" [label=1; weight=1; penwidth=0.3; color = 3]
+	"AnnotationBasedEventSourcedEntityFactory_46907" -> "EventSourcedEntityFactory_46878" [label=1; weight=1; penwidth=0.3; color = 3]
+	"AxonTestThenMessage_4703" -> "Message_15590" [label=1; weight=1; penwidth=0.3; color = 3]
+	"AxonTestWhen_4684" -> "Message_15590" [label=1; weight=1; penwidth=0.3; color = 3]
+	"Coordinator$CoordinationTask_23063" -> "GenericEventMessage_18774" [label=1; weight=1; penwidth=0.3; color = 3]
+	"DefaultEventBusSpanFactory_25208" -> "Message_15590" [label=1; weight=1; penwidth=0.3; color = 3]
+	"EventConverter_18785" -> "Converter_38848" [label=1; weight=1; penwidth=0.3; color = 3]
+	"EventMessageHandlerInterceptorChain_19950" -> "Message_15590" [label=1; weight=1; penwidth=0.3; color = 3]
+	"MonitoringEventDispatchInterceptor_16795" -> "Message_15590" [label=1; weight=1; penwidth=0.3; color = 3]
+	"MonitoringEventHandlerInterceptor_15789" -> "Message_15590" [label=1; weight=1; penwidth=0.3; color = 3]
+	"SimpleEventHandlingComponent_18747" -> "Message_15590" [label=1; weight=1; penwidth=0.3; color = 3]
+	"WorkPackage_23021" -> "Message_15590" [label=1; weight=1; penwidth=0.3; color = 3]
 }

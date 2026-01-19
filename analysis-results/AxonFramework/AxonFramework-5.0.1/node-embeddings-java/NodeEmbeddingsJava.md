@@ -84,7 +84,7 @@ The projection and related common parameters are shared across all embedding alg
       <td>113</td>
       <td>1422</td>
       <td>0.112358</td>
-      <td>2761559</td>
+      <td>2695991</td>
       <td>1</td>
       <td>12.584071</td>
       <td>76</td>
@@ -129,48 +129,48 @@ The projection and related common parameters are shared across all embedding alg
   <tbody>
     <tr>
       <th>0</th>
-      <td>org.axonframework.extension.tracing.opentelemetry</td>
-      <td>opentelemetry</td>
-      <td>axon-tracing-opentelemetry-5.0.1</td>
+      <td>org.axonframework.axonserver.connector</td>
+      <td>connector</td>
+      <td>axon-server-connector-5.0.1</td>
       <td>0</td>
-      <td>0.150000</td>
-      <td>[0.14061221480369568, -0.08217788487672806, -0...</td>
+      <td>0.346423</td>
+      <td>[0.028300240635871887, -0.5775253176689148, 0....</td>
     </tr>
     <tr>
       <th>1</th>
-      <td>org.axonframework.common.io</td>
-      <td>io</td>
-      <td>axon-common-5.0.1</td>
-      <td>0</td>
-      <td>0.377311</td>
-      <td>[0.16760286688804626, -0.16856589913368225, 0....</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>org.axonframework.common.util</td>
-      <td>util</td>
-      <td>axon-common-5.0.1</td>
-      <td>0</td>
-      <td>0.265252</td>
-      <td>[-0.32020461559295654, -0.037977006286382675, ...</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>org.axonframework.common.lifecycle</td>
-      <td>lifecycle</td>
-      <td>axon-common-5.0.1</td>
-      <td>0</td>
-      <td>0.258173</td>
-      <td>[-0.10425117611885071, 0.1267700046300888, -0....</td>
-    </tr>
-    <tr>
-      <th>4</th>
       <td>org.axonframework.axonserver.connector.util</td>
       <td>util</td>
       <td>axon-server-connector-5.0.1</td>
       <td>0</td>
       <td>0.176990</td>
-      <td>[-0.13293056190013885, 0.10449616611003876, -0...</td>
+      <td>[0.1989820897579193, -0.5291988849639893, 0.83...</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>org.axonframework.axonserver.connector.query</td>
+      <td>query</td>
+      <td>axon-server-connector-5.0.1</td>
+      <td>0</td>
+      <td>0.174984</td>
+      <td>[0.1412316858768463, -0.5865614414215088, 0.77...</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>org.axonframework.axonserver.connector.command</td>
+      <td>command</td>
+      <td>axon-server-connector-5.0.1</td>
+      <td>0</td>
+      <td>0.178554</td>
+      <td>[0.1801149845123291, -0.5749047994613647, 0.69...</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>org.axonframework.test.server</td>
+      <td>server</td>
+      <td>axon-test-5.0.1</td>
+      <td>0</td>
+      <td>0.277923</td>
+      <td>[0.2969857454299927, -0.20729310810565948, 0.2...</td>
     </tr>
   </tbody>
 </table>
@@ -222,48 +222,48 @@ This step takes the original node embeddings in their high dimensionality, e.g. 
   <tbody>
     <tr>
       <th>0</th>
-      <td>org.axonframework.extension.tracing.opentelemetry</td>
-      <td>opentelemetry</td>
-      <td>axon-tracing-opentelemetry-5.0.1</td>
+      <td>org.axonframework.axonserver.connector</td>
+      <td>connector</td>
+      <td>axon-server-connector-5.0.1</td>
       <td>0</td>
-      <td>0.150000</td>
-      <td>[0.6495190411806107, 0.0, 0.21650634706020355,...</td>
+      <td>0.346423</td>
+      <td>[1.0825317353010178, -0.6495190411806107, -1.5...</td>
     </tr>
     <tr>
       <th>1</th>
-      <td>org.axonframework.common.io</td>
-      <td>io</td>
-      <td>axon-common-5.0.1</td>
-      <td>0</td>
-      <td>0.377311</td>
-      <td>[-1.948557123541832, -0.4330126941204071, 1.29...</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>org.axonframework.common.util</td>
-      <td>util</td>
-      <td>axon-common-5.0.1</td>
-      <td>0</td>
-      <td>0.265252</td>
-      <td>[-1.948557123541832, -0.4330126941204071, 1.08...</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>org.axonframework.common.lifecycle</td>
-      <td>lifecycle</td>
-      <td>axon-common-5.0.1</td>
-      <td>0</td>
-      <td>0.258173</td>
-      <td>[-1.2990380823612213, -0.8660253882408142, 0.6...</td>
-    </tr>
-    <tr>
-      <th>4</th>
       <td>org.axonframework.axonserver.connector.util</td>
       <td>util</td>
       <td>axon-server-connector-5.0.1</td>
       <td>0</td>
       <td>0.176990</td>
-      <td>[-0.8660253882408142, -1.0825317353010178, 1.0...</td>
+      <td>[1.2990380823612213, -1.0825317353010178, -0.6...</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>org.axonframework.axonserver.connector.query</td>
+      <td>query</td>
+      <td>axon-server-connector-5.0.1</td>
+      <td>0</td>
+      <td>0.174984</td>
+      <td>[0.8660253882408142, -1.5155444294214249, -0.6...</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>org.axonframework.axonserver.connector.command</td>
+      <td>command</td>
+      <td>axon-server-connector-5.0.1</td>
+      <td>0</td>
+      <td>0.178554</td>
+      <td>[0.6495190411806107, -0.6495190411806107, -0.8...</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>org.axonframework.test.server</td>
+      <td>server</td>
+      <td>axon-test-5.0.1</td>
+      <td>0</td>
+      <td>0.277923</td>
+      <td>[1.7320507764816284, -1.2990380823612213, 0.0,...</td>
     </tr>
   </tbody>
 </table>
@@ -301,48 +301,48 @@ This step takes the original node embeddings in their high dimensionality, e.g. 
   <tbody>
     <tr>
       <th>0</th>
-      <td>org.axonframework.extension.tracing.opentelemetry</td>
-      <td>opentelemetry</td>
-      <td>axon-tracing-opentelemetry-5.0.1</td>
+      <td>org.axonframework.axonserver.connector</td>
+      <td>connector</td>
+      <td>axon-server-connector-5.0.1</td>
       <td>0</td>
-      <td>0.150000</td>
-      <td>[-0.37555521726608276, -0.11380736529827118, -...</td>
+      <td>0.346423</td>
+      <td>[-0.08438222110271454, 0.10841617733240128, 0....</td>
     </tr>
     <tr>
       <th>1</th>
-      <td>org.axonframework.common.io</td>
-      <td>io</td>
-      <td>axon-common-5.0.1</td>
-      <td>0</td>
-      <td>0.377311</td>
-      <td>[-0.10680210590362549, 0.1453893780708313, 0.1...</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>org.axonframework.common.util</td>
-      <td>util</td>
-      <td>axon-common-5.0.1</td>
-      <td>0</td>
-      <td>0.265252</td>
-      <td>[-0.16432613134384155, 0.06687327474355698, 0....</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>org.axonframework.common.lifecycle</td>
-      <td>lifecycle</td>
-      <td>axon-common-5.0.1</td>
-      <td>0</td>
-      <td>0.258173</td>
-      <td>[-0.24288973212242126, 0.09195151180028915, 0....</td>
-    </tr>
-    <tr>
-      <th>4</th>
       <td>org.axonframework.axonserver.connector.util</td>
       <td>util</td>
       <td>axon-server-connector-5.0.1</td>
       <td>0</td>
       <td>0.176990</td>
-      <td>[-0.14572913944721222, 0.17362968623638153, 0....</td>
+      <td>[0.18758009374141693, -0.06366463750600815, -0...</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>org.axonframework.axonserver.connector.query</td>
+      <td>query</td>
+      <td>axon-server-connector-5.0.1</td>
+      <td>0</td>
+      <td>0.174984</td>
+      <td>[0.06941812485456467, 0.2213919460773468, -0.0...</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>org.axonframework.axonserver.connector.command</td>
+      <td>command</td>
+      <td>axon-server-connector-5.0.1</td>
+      <td>0</td>
+      <td>0.178554</td>
+      <td>[-0.13935530185699463, 0.3805035352706909, 0.1...</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>org.axonframework.test.server</td>
+      <td>server</td>
+      <td>axon-test-5.0.1</td>
+      <td>0</td>
+      <td>0.277923</td>
+      <td>[-1.3199759721755981, 0.43440359830856323, 0.0...</td>
     </tr>
   </tbody>
 </table>
@@ -376,8 +376,8 @@ This step takes the original node embeddings in their high dimensionality, e.g. 
       <td>java-package-embeddings-notebook-graphSAGE</td>
       <td>True</td>
       <td>1</td>
-      <td>[27.65763000748069]</td>
-      <td>171</td>
+      <td>[28.252237850258823]</td>
+      <td>147</td>
     </tr>
   </tbody>
 </table>
@@ -405,53 +405,53 @@ This step takes the original node embeddings in their high dimensionality, e.g. 
   <tbody>
     <tr>
       <th>0</th>
-      <td>org.axonframework.extension.tracing.opentelemetry</td>
-      <td>opentelemetry</td>
-      <td>4:c5921133-5158-4576-8c36-de257c634101:20</td>
-      <td>axon-tracing-opentelemetry-5.0.1</td>
+      <td>org.axonframework.axonserver.connector</td>
+      <td>connector</td>
+      <td>4:094de2d3-0d67-4a2d-b0f6-4937c556cce0:20</td>
+      <td>axon-server-connector-5.0.1</td>
       <td>0</td>
-      <td>0.150000</td>
-      <td>[-0.004854696675227963, 0.03805141449260556, 0...</td>
+      <td>0.346423</td>
+      <td>[-0.004854696869585478, 0.03805140530083541, 0...</td>
     </tr>
     <tr>
       <th>1</th>
-      <td>org.axonframework.common</td>
-      <td>common</td>
-      <td>4:c5921133-5158-4576-8c36-de257c634101:833</td>
-      <td>axon-common-5.0.1</td>
-      <td>1</td>
-      <td>10.756631</td>
-      <td>[-0.004854696675227965, 0.038051414492605524, ...</td>
+      <td>org.axonframework.axonserver.connector.util</td>
+      <td>util</td>
+      <td>4:094de2d3-0d67-4a2d-b0f6-4937c556cce0:21</td>
+      <td>axon-server-connector-5.0.1</td>
+      <td>0</td>
+      <td>0.176990</td>
+      <td>[-0.004854696869585478, 0.03805140530083536, 0...</td>
     </tr>
     <tr>
       <th>2</th>
-      <td>org.axonframework.common.io</td>
-      <td>io</td>
-      <td>4:c5921133-5158-4576-8c36-de257c634101:834</td>
-      <td>axon-common-5.0.1</td>
+      <td>org.axonframework.axonserver.connector.query</td>
+      <td>query</td>
+      <td>4:094de2d3-0d67-4a2d-b0f6-4937c556cce0:22</td>
+      <td>axon-server-connector-5.0.1</td>
       <td>0</td>
-      <td>0.377311</td>
-      <td>[-0.004854696675227963, 0.03805141449260548, 0...</td>
+      <td>0.174984</td>
+      <td>[-0.004854696869585477, 0.03805140530083532, 0...</td>
     </tr>
     <tr>
       <th>3</th>
-      <td>org.axonframework.common.annotation</td>
-      <td>annotation</td>
-      <td>4:c5921133-5158-4576-8c36-de257c634101:835</td>
-      <td>axon-common-5.0.1</td>
-      <td>2</td>
-      <td>1.843873</td>
-      <td>[-0.0048546966752279624, 0.03805141449260548, ...</td>
+      <td>org.axonframework.axonserver.connector.event</td>
+      <td>event</td>
+      <td>4:094de2d3-0d67-4a2d-b0f6-4937c556cce0:23</td>
+      <td>axon-server-connector-5.0.1</td>
+      <td>1</td>
+      <td>0.166061</td>
+      <td>[-0.004854696869585476, 0.0380514053008354, 0....</td>
     </tr>
     <tr>
       <th>4</th>
-      <td>org.axonframework.common.jdbc</td>
-      <td>jdbc</td>
-      <td>4:c5921133-5158-4576-8c36-de257c634101:836</td>
-      <td>axon-common-5.0.1</td>
-      <td>3</td>
-      <td>0.193144</td>
-      <td>[-0.004854696675227963, 0.03805141449260557, 0...</td>
+      <td>org.axonframework.axonserver.connector.command</td>
+      <td>command</td>
+      <td>4:094de2d3-0d67-4a2d-b0f6-4937c556cce0:24</td>
+      <td>axon-server-connector-5.0.1</td>
+      <td>0</td>
+      <td>0.178554</td>
+      <td>[-0.004854696869585477, 0.03805140530083542, 0...</td>
     </tr>
   </tbody>
 </table>

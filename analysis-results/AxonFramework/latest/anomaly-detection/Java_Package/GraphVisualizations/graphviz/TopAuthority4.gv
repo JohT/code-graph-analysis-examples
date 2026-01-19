@@ -14,5 +14,5 @@ strict digraph TopAuthority4 {
 
 	graph   [label="Top Rank #4 Java Package Authority\norg.axonframework.extension.springboot.actuator\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: Page Rank (normalized)\nlarge circle: > 80% percentile of Page Rank\nthick outline: > 80% percentile of Page Rank to Article Rank Difference\n\n"];
 	central [label="🏛️ authority #4\nactuator"];
-	"axonserver_23136"  [label = "axonserver\n(0.03%)"; penwidth = 2; ]; "axonserver_23136" -> central [label=2; weight=2; penwidth=0.4];
+	"axonserver_8419"  [label = "axonserver\n(0.03%)"; penwidth = 2; ]; "axonserver_8419" -> central [label=2; weight=2; penwidth=0.4];
 }

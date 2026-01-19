@@ -12,15 +12,10 @@ strict digraph TopBridge5 {
     central [fontsize = 16;];
     central [color = 7; fillcolor = 5; penwidth = 3;];
 
-	graph   [label="Top Rank #5 Java Type Bridge\norg.axonframework.update.api.DetectedVulnerability\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
-	central [label="🌉 bridge #5\nDetectedVulnerability"];
-	"LoggingUpdateCheckerReporter_50678" [label = "LoggingUpdateCheckerReporter"; ]; "LoggingUpdateCheckerReporter_50678" -> central [label=12; weight=12; penwidth=0.6];
-	"UpdateCheckResponse_51364" [label = "UpdateCheckResponse"; ]; "UpdateCheckResponse_51364" -> central [label=7; weight=7; penwidth=0.5];
-	"DetectedVulnerabilitySeverity_51469" [label = "DetectedVulnerabilitySeverity"; color = 5; fillcolor = 1; ]; central -> "DetectedVulnerabilitySeverity_51469" [label=3; weight=3; penwidth=0.4; color = 5];
-	"Internal_1045" [label = "Internal"; color = 5; fillcolor = 1; ]; central -> "Internal_1045" [label=1; weight=1; penwidth=0.4; color = 5];
-	"LoggingUpdateCheckerReporter_50678" -> "UpdateCheckResponse_51364" [label=10; weight=10; penwidth=0.3; color = 3]
-	"UpdateCheckResponse_51364" -> "DetectedVulnerabilitySeverity_51469" [label=3; weight=3; penwidth=0.3; color = 3]
-	"LoggingUpdateCheckerReporter_50678" -> "DetectedVulnerabilitySeverity_51469" [label=2; weight=2; penwidth=0.3; color = 3]
-	"DetectedVulnerabilitySeverity_51469" -> "Internal_1045" [label=1; weight=1; penwidth=0.3; color = 3]
-	"UpdateCheckResponse_51364" -> "Internal_1045" [label=1; weight=1; penwidth=0.3; color = 3]
+	graph   [label="Top Rank #5 Java Type Bridge\norg.axonframework.axonserver.connector.util.GrpcMessageSizeWarningThresholdReachedException\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
+	central [label="🌉 bridge #5\nGrpcMessageSizeWarningThresholdReachedException"];
+	"GrpcMessageSizeInterceptor$1_31" [label = "GrpcMessageSizeInterceptor$\n1"; ]; "GrpcMessageSizeInterceptor$1_31" -> central [label=2; weight=2; penwidth=0.4];
+	"GrpcMessageSizeInterceptor$1$1_609" [label = "GrpcMessageSizeInterceptor$\n1$\n1"; ]; "GrpcMessageSizeInterceptor$1$1_609" -> central [label=2; weight=2; penwidth=0.4];
+	"GrpcMessageSizeInterceptor$1$1_609" -> "GrpcMessageSizeInterceptor$1_31" [label=10; weight=10; penwidth=0.3; color = 3]
+	"GrpcMessageSizeInterceptor$1_31" -> "GrpcMessageSizeInterceptor$1$1_609" [label=3; weight=3; penwidth=0.3; color = 3]
 }

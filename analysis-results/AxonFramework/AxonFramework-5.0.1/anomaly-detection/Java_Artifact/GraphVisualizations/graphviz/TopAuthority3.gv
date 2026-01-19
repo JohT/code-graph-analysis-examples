@@ -14,24 +14,24 @@ strict digraph TopAuthority3 {
 
 	graph   [label="Top Rank #3 Java Artifact Authority\n/axon-spring-boot-autoconfigure-5.0.1.jar\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: Page Rank (normalized)\nlarge circle: > 80% percentile of Page Rank\nthick outline: > 80% percentile of Page Rank to Article Rank Difference\n\n"];
 	central [label="🏛️ authority #3\naxon-spring-boot-autoconfigure-5.0.1"];
-	"axon-common-5.0.1_456"  [shape = "circle"; height=2; label = "axon-common-5.0.1\n(100.0%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "axon-common-5.0.1_456" [label=76; weight=76; penwidth=0.6; color = 5];
-	"axon-messaging-5.0.1_25511"  [label = "axon-messaging-5.0.1\n(53.7%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "axon-messaging-5.0.1_25511" [label=70; weight=70; penwidth=0.6; color = 5];
-	"axon-eventsourcing-5.0.1_14797"  [label = "axon-eventsourcing-5.0.1\n(2.74%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "axon-eventsourcing-5.0.1_14797" [label=16; weight=16; penwidth=0.4; color = 5];
-	"axon-conversion-5.0.1_48825"  [label = "axon-conversion-5.0.1\n(4.75%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "axon-conversion-5.0.1_48825" [label=14; weight=14; penwidth=0.4; color = 5];
-	"axon-server-connector-5.0.1_5827"  [label = "axon-server-connector-5.0.1\n(0.74%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "axon-server-connector-5.0.1_5827" [label=14; weight=14; penwidth=0.4; color = 5];
-	"axon-update-5.0.1_50475"  [label = "axon-update-5.0.1\n(0.74%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "axon-update-5.0.1_50475" [label=14; weight=14; penwidth=0.4; color = 5];
-	"axon-test-5.0.1_19454"  [label = "axon-test-5.0.1\n(0.21%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "axon-test-5.0.1_19454" [label=4; weight=4; penwidth=0.4; color = 5];
-	"axon-messaging-5.0.1_25511" -> "axon-common-5.0.1_456" [label=942; weight=942; penwidth=0.3; color = 3]
-	"axon-eventsourcing-5.0.1_14797" -> "axon-messaging-5.0.1_25511" [label=362; weight=362; penwidth=0.3; color = 3]
-	"axon-server-connector-5.0.1_5827" -> "axon-messaging-5.0.1_25511" [label=298; weight=298; penwidth=0.3; color = 3]
-	"axon-test-5.0.1_19454" -> "axon-messaging-5.0.1_25511" [label=190; weight=190; penwidth=0.3; color = 3]
-	"axon-eventsourcing-5.0.1_14797" -> "axon-common-5.0.1_456" [label=182; weight=182; penwidth=0.3; color = 3]
-	"axon-server-connector-5.0.1_5827" -> "axon-common-5.0.1_456" [label=134; weight=134; penwidth=0.3; color = 3]
-	"axon-test-5.0.1_19454" -> "axon-common-5.0.1_456" [label=74; weight=74; penwidth=0.3; color = 3]
-	"axon-server-connector-5.0.1_5827" -> "axon-eventsourcing-5.0.1_14797" [label=72; weight=72; penwidth=0.3; color = 3]
-	"axon-messaging-5.0.1_25511" -> "axon-conversion-5.0.1_48825" [label=70; weight=70; penwidth=0.3; color = 3]
-	"axon-update-5.0.1_50475" -> "axon-common-5.0.1_456" [label=52; weight=52; penwidth=0.3; color = 3]
-	"axon-conversion-5.0.1_48825" -> "axon-common-5.0.1_456" [label=26; weight=26; penwidth=0.3; color = 3]
-	"axon-test-5.0.1_19454" -> "axon-eventsourcing-5.0.1_14797" [label=6; weight=6; penwidth=0.3; color = 3]
-	"axon-eventsourcing-5.0.1_14797" -> "axon-conversion-5.0.1_48825" [label=2; weight=2; penwidth=0.3; color = 3]
+	"axon-common-5.0.1_41452"  [shape = "circle"; height=2; label = "axon-common-5.0.1\n(100.0%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "axon-common-5.0.1_41452" [label=76; weight=76; penwidth=0.6; color = 5];
+	"axon-messaging-5.0.1_15507"  [label = "axon-messaging-5.0.1\n(53.7%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "axon-messaging-5.0.1_15507" [label=70; weight=70; penwidth=0.6; color = 5];
+	"axon-eventsourcing-5.0.1_46802"  [label = "axon-eventsourcing-5.0.1\n(2.74%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "axon-eventsourcing-5.0.1_46802" [label=16; weight=16; penwidth=0.4; color = 5];
+	"axon-conversion-5.0.1_37904"  [label = "axon-conversion-5.0.1\n(4.75%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "axon-conversion-5.0.1_37904" [label=14; weight=14; penwidth=0.4; color = 5];
+	"axon-server-connector-5.0.1_1"  [label = "axon-server-connector-5.0.1\n(0.74%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "axon-server-connector-5.0.1_1" [label=14; weight=14; penwidth=0.4; color = 5];
+	"axon-update-5.0.1_39559"  [label = "axon-update-5.0.1\n(0.74%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "axon-update-5.0.1_39559" [label=14; weight=14; penwidth=0.4; color = 5];
+	"axon-test-5.0.1_4606"  [label = "axon-test-5.0.1\n(0.21%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "axon-test-5.0.1_4606" [label=4; weight=4; penwidth=0.4; color = 5];
+	"axon-messaging-5.0.1_15507" -> "axon-common-5.0.1_41452" [label=942; weight=942; penwidth=0.3; color = 3]
+	"axon-eventsourcing-5.0.1_46802" -> "axon-messaging-5.0.1_15507" [label=362; weight=362; penwidth=0.3; color = 3]
+	"axon-server-connector-5.0.1_1" -> "axon-messaging-5.0.1_15507" [label=298; weight=298; penwidth=0.3; color = 3]
+	"axon-test-5.0.1_4606" -> "axon-messaging-5.0.1_15507" [label=190; weight=190; penwidth=0.3; color = 3]
+	"axon-eventsourcing-5.0.1_46802" -> "axon-common-5.0.1_41452" [label=182; weight=182; penwidth=0.3; color = 3]
+	"axon-server-connector-5.0.1_1" -> "axon-common-5.0.1_41452" [label=134; weight=134; penwidth=0.3; color = 3]
+	"axon-test-5.0.1_4606" -> "axon-common-5.0.1_41452" [label=74; weight=74; penwidth=0.3; color = 3]
+	"axon-server-connector-5.0.1_1" -> "axon-eventsourcing-5.0.1_46802" [label=72; weight=72; penwidth=0.3; color = 3]
+	"axon-messaging-5.0.1_15507" -> "axon-conversion-5.0.1_37904" [label=70; weight=70; penwidth=0.3; color = 3]
+	"axon-update-5.0.1_39559" -> "axon-common-5.0.1_41452" [label=52; weight=52; penwidth=0.3; color = 3]
+	"axon-conversion-5.0.1_37904" -> "axon-common-5.0.1_41452" [label=26; weight=26; penwidth=0.3; color = 3]
+	"axon-test-5.0.1_4606" -> "axon-eventsourcing-5.0.1_46802" [label=6; weight=6; penwidth=0.3; color = 3]
+	"axon-eventsourcing-5.0.1_46802" -> "axon-conversion-5.0.1_37904" [label=2; weight=2; penwidth=0.3; color = 3]
 }

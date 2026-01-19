@@ -2507,7 +2507,7 @@ The following table shows the top 30 packages with the highest cyclomatic comple
       <td>217</td>
       <td>115</td>
       <td>7</td>
-      <td>equals</td>
+      <td>covers</td>
     </tr>
     <tr>
       <th>11</th>
@@ -2516,7 +2516,7 @@ The following table shows the top 30 packages with the highest cyclomatic comple
       <td>216</td>
       <td>172</td>
       <td>4</td>
-      <td>subscribeToUpdates</td>
+      <td>query</td>
     </tr>
     <tr>
       <th>8</th>
@@ -2525,7 +2525,7 @@ The following table shows the top 30 packages with the highest cyclomatic comple
       <td>215</td>
       <td>161</td>
       <td>4</td>
-      <td>appendEvents</td>
+      <td>mergeSegment</td>
     </tr>
     <tr>
       <th>9</th>
@@ -2534,7 +2534,7 @@ The following table shows the top 30 packages with the highest cyclomatic comple
       <td>212</td>
       <td>138</td>
       <td>8</td>
-      <td>withGapsCleaned</td>
+      <td>loadKeyViolationCodes</td>
     </tr>
     <tr>
       <th>10</th>
@@ -2579,7 +2579,7 @@ The following table shows the top 30 packages with the highest cyclomatic comple
       <td>149</td>
       <td>96</td>
       <td>8</td>
-      <td>isDifferent</td>
+      <td>equals</td>
     </tr>
     <tr>
       <th>24</th>
@@ -2597,7 +2597,7 @@ The following table shows the top 30 packages with the highest cyclomatic comple
       <td>143</td>
       <td>140</td>
       <td>2</td>
-      <td>threadCount</td>
+      <td>processorMode</td>
     </tr>
     <tr>
       <th>40</th>
@@ -2624,7 +2624,7 @@ The following table shows the top 30 packages with the highest cyclomatic comple
       <td>130</td>
       <td>75</td>
       <td>6</td>
-      <td>getExpectedRepresentation</td>
+      <td>createChildEntityMatcher</td>
     </tr>
     <tr>
       <th>13</th>
@@ -2642,7 +2642,7 @@ The following table shows the top 30 packages with the highest cyclomatic comple
       <td>120</td>
       <td>101</td>
       <td>4</td>
-      <td>handle</td>
+      <td>subscribe</td>
     </tr>
     <tr>
       <th>43</th>
@@ -2892,8 +2892,8 @@ The following table shows the top 30 packages containing the methods with the hi
       <td>9</td>
       <td>axon-eventsourcing-5.0.1</td>
       <td>org.axonframework.eventsourcing.eventstore.jpa</td>
-      <td>GapAwareTrackingTokenOperations</td>
-      <td>withGapsCleaned</td>
+      <td>SQLErrorCodesResolver</td>
+      <td>loadKeyViolationCodes</td>
       <td>8</td>
     </tr>
     <tr>
@@ -2928,8 +2928,8 @@ The following table shows the top 30 packages containing the methods with the hi
       <td>23</td>
       <td>axon-messaging-5.0.1</td>
       <td>org.axonframework.messaging.eventhandling.proc...</td>
-      <td>EventTrackerStatus</td>
-      <td>isDifferent</td>
+      <td>TrackerStatus</td>
+      <td>equals</td>
       <td>8</td>
     </tr>
     <tr>
@@ -2982,8 +2982,8 @@ The following table shows the top 30 packages containing the methods with the hi
       <td>17</td>
       <td>axon-messaging-5.0.1</td>
       <td>org.axonframework.messaging.eventhandling.proc...</td>
-      <td>ReplayToken</td>
-      <td>equals</td>
+      <td>GapAwareTrackingToken</td>
+      <td>covers</td>
       <td>7</td>
     </tr>
   </tbody>

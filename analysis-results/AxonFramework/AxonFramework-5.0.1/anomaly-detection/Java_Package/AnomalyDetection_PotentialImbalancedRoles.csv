@@ -1,3 +1,3 @@
 "codeUnitName","shortCodeUnitName","projectName","pageToArticleRankSign","pageToArticleRankDifferenceZScore","pageToArticleRankDifference","pageRank","articleRank","Source Cypher File: /home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/domains/anomaly-detection/queries/AnomalyDetectionPotentialImbalancedRoles.cypher"
-"org.axonframework.common","common","axon-common-5.0.1",1,9.847542161251814,5.033993075949199,10.756630701583958,5.72263762563476,""
-"org.axonframework.messaging.core","core","axon-messaging-5.0.1",1,2.943157996794764,1.569650239014063,5.849344817581209,4.279694578567146,""
+"org.axonframework.common","common","axon-common-5.0.1",1,9.84754216125182,5.033993075949197,10.756630701583955,5.722637625634758,""
+"org.axonframework.messaging.core","core","axon-messaging-5.0.1",1,2.9431579967947683,1.5696502390140639,5.849344817581209,4.279694578567145,""

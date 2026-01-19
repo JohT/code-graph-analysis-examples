@@ -2170,15 +2170,6 @@ Since Java Packages are organized hierarchically, *Abstractness* can be calculat
     </tr>
     <tr>
       <th>10</th>
-      <td>axon-common-5.0.1</td>
-      <td>org.axonframework.common.lifecycle</td>
-      <td>lifecycle</td>
-      <td>0.0</td>
-      <td>0</td>
-      <td>5</td>
-    </tr>
-    <tr>
-      <th>11</th>
       <td>axon-messaging-5.0.1</td>
       <td>org.axonframework.messaging.monitoring.interce...</td>
       <td>interception</td>
@@ -2187,7 +2178,7 @@ Since Java Packages are organized hierarchically, *Abstractness* can be calculat
       <td>5</td>
     </tr>
     <tr>
-      <th>12</th>
+      <th>11</th>
       <td>axon-messaging-5.0.1</td>
       <td>org.axonframework.messaging.commandhandling.in...</td>
       <td>interception</td>
@@ -2196,7 +2187,7 @@ Since Java Packages are organized hierarchically, *Abstractness* can be calculat
       <td>5</td>
     </tr>
     <tr>
-      <th>13</th>
+      <th>12</th>
       <td>axon-conversion-5.0.1</td>
       <td>org.axonframework.conversion.converter</td>
       <td>converter</td>
@@ -2205,10 +2196,19 @@ Since Java Packages are organized hierarchically, *Abstractness* can be calculat
       <td>5</td>
     </tr>
     <tr>
-      <th>14</th>
+      <th>13</th>
       <td>axon-conversion-5.0.1</td>
       <td>org.axonframework.conversion.json</td>
       <td>json</td>
+      <td>0.0</td>
+      <td>0</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>14</th>
+      <td>axon-common-5.0.1</td>
+      <td>org.axonframework.common.lifecycle</td>
+      <td>lifecycle</td>
       <td>0.0</td>
       <td>0</td>
       <td>5</td>
@@ -2314,24 +2314,6 @@ Since Java Packages are organized hierarchically, *Abstractness* can be calculat
     </tr>
     <tr>
       <th>26</th>
-      <td>axon-common-5.0.1</td>
-      <td>org.axonframework.common.io</td>
-      <td>io</td>
-      <td>0.0</td>
-      <td>0</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <th>27</th>
-      <td>axon-common-5.0.1</td>
-      <td>org.axonframework.common.digest</td>
-      <td>digest</td>
-      <td>0.0</td>
-      <td>0</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <th>28</th>
       <td>axon-spring-boot-autoconfigure-5.0.1</td>
       <td>org.axonframework.extension.springboot.util.jpa</td>
       <td>jpa</td>
@@ -2340,10 +2322,28 @@ Since Java Packages are organized hierarchically, *Abstractness* can be calculat
       <td>1</td>
     </tr>
     <tr>
-      <th>29</th>
+      <th>27</th>
       <td>axon-messaging-5.0.1</td>
       <td>org.axonframework.messaging.commandhandling.retry</td>
       <td>retry</td>
+      <td>0.0</td>
+      <td>0</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>28</th>
+      <td>axon-update-5.0.1</td>
+      <td>org.axonframework.update.common</td>
+      <td>common</td>
+      <td>0.0</td>
+      <td>0</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>29</th>
+      <td>axon-metrics-micrometer-5.0.1</td>
+      <td>org.axonframework.extension.metrics.micrometer...</td>
+      <td>reservoir</td>
       <td>0.0</td>
       <td>0</td>
       <td>1</td>
@@ -2476,15 +2476,6 @@ Since Java Packages are organized hierarchically, *Abstractness* can be calculat
     </tr>
     <tr>
       <th>126</th>
-      <td>axon-common-5.0.1</td>
-      <td>org.axonframework.common.annotation</td>
-      <td>annotation</td>
-      <td>0.500000</td>
-      <td>2</td>
-      <td>4</td>
-    </tr>
-    <tr>
-      <th>127</th>
       <td>axon-messaging-5.0.1</td>
       <td>org.axonframework.messaging.core.unitofwork.tr...</td>
       <td>transaction</td>
@@ -2493,16 +2484,16 @@ Since Java Packages are organized hierarchically, *Abstractness* can be calculat
       <td>4</td>
     </tr>
     <tr>
-      <th>128</th>
+      <th>127</th>
       <td>axon-common-5.0.1</td>
-      <td>org.axonframework.common.jpa</td>
-      <td>jpa</td>
+      <td>org.axonframework.common.annotation</td>
+      <td>annotation</td>
       <td>0.500000</td>
-      <td>1</td>
       <td>2</td>
+      <td>4</td>
     </tr>
     <tr>
-      <th>129</th>
+      <th>128</th>
       <td>axon-messaging-5.0.1</td>
       <td>org.axonframework.messaging.eventhandling.conv...</td>
       <td>conversion</td>
@@ -2511,7 +2502,7 @@ Since Java Packages are organized hierarchically, *Abstractness* can be calculat
       <td>2</td>
     </tr>
     <tr>
-      <th>130</th>
+      <th>129</th>
       <td>axon-messaging-5.0.1</td>
       <td>org.axonframework.messaging.queryhandling.gateway</td>
       <td>gateway</td>
@@ -2520,10 +2511,19 @@ Since Java Packages are organized hierarchically, *Abstractness* can be calculat
       <td>2</td>
     </tr>
     <tr>
-      <th>131</th>
+      <th>130</th>
       <td>axon-messaging-5.0.1</td>
       <td>org.axonframework.messaging.core.conversion</td>
       <td>conversion</td>
+      <td>0.500000</td>
+      <td>1</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>131</th>
+      <td>axon-common-5.0.1</td>
+      <td>org.axonframework.common.jpa</td>
+      <td>jpa</td>
       <td>0.500000</td>
       <td>1</td>
       <td>2</td>
@@ -2776,16 +2776,6 @@ Since Java Packages are organized hierarchically, *Abstractness* can be calculat
     </tr>
     <tr>
       <th>10</th>
-      <td>axon-common-5.0.1</td>
-      <td>org.axonframework.common.lifecycle</td>
-      <td>lifecycle</td>
-      <td>0.0</td>
-      <td>0</td>
-      <td>5</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>11</th>
       <td>axon-messaging-5.0.1</td>
       <td>org.axonframework.messaging.monitoring.interce...</td>
       <td>interception</td>
@@ -2795,7 +2785,7 @@ Since Java Packages are organized hierarchically, *Abstractness* can be calculat
       <td>0</td>
     </tr>
     <tr>
-      <th>12</th>
+      <th>11</th>
       <td>axon-messaging-5.0.1</td>
       <td>org.axonframework.messaging.commandhandling.in...</td>
       <td>interception</td>
@@ -2805,7 +2795,7 @@ Since Java Packages are organized hierarchically, *Abstractness* can be calculat
       <td>0</td>
     </tr>
     <tr>
-      <th>13</th>
+      <th>12</th>
       <td>axon-conversion-5.0.1</td>
       <td>org.axonframework.conversion.converter</td>
       <td>converter</td>
@@ -2815,10 +2805,20 @@ Since Java Packages are organized hierarchically, *Abstractness* can be calculat
       <td>0</td>
     </tr>
     <tr>
-      <th>14</th>
+      <th>13</th>
       <td>axon-conversion-5.0.1</td>
       <td>org.axonframework.conversion.json</td>
       <td>json</td>
+      <td>0.0</td>
+      <td>0</td>
+      <td>5</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>14</th>
+      <td>axon-common-5.0.1</td>
+      <td>org.axonframework.common.lifecycle</td>
+      <td>lifecycle</td>
       <td>0.0</td>
       <td>0</td>
       <td>5</td>
@@ -2926,26 +2926,6 @@ Since Java Packages are organized hierarchically, *Abstractness* can be calculat
     </tr>
     <tr>
       <th>25</th>
-      <td>axon-common-5.0.1</td>
-      <td>org.axonframework.common.io</td>
-      <td>io</td>
-      <td>0.0</td>
-      <td>0</td>
-      <td>1</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>26</th>
-      <td>axon-common-5.0.1</td>
-      <td>org.axonframework.common.digest</td>
-      <td>digest</td>
-      <td>0.0</td>
-      <td>0</td>
-      <td>1</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>27</th>
       <td>axon-spring-boot-autoconfigure-5.0.1</td>
       <td>org.axonframework.extension.springboot.util.jpa</td>
       <td>jpa</td>
@@ -2955,7 +2935,7 @@ Since Java Packages are organized hierarchically, *Abstractness* can be calculat
       <td>0</td>
     </tr>
     <tr>
-      <th>28</th>
+      <th>26</th>
       <td>axon-messaging-5.0.1</td>
       <td>org.axonframework.messaging.commandhandling.retry</td>
       <td>retry</td>
@@ -2965,10 +2945,30 @@ Since Java Packages are organized hierarchically, *Abstractness* can be calculat
       <td>0</td>
     </tr>
     <tr>
-      <th>29</th>
+      <th>27</th>
+      <td>axon-update-5.0.1</td>
+      <td>org.axonframework.update.common</td>
+      <td>common</td>
+      <td>0.0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>28</th>
       <td>axon-metrics-micrometer-5.0.1</td>
       <td>org.axonframework.extension.metrics.micrometer...</td>
       <td>reservoir</td>
+      <td>0.0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>29</th>
+      <td>axon-common-5.0.1</td>
+      <td>org.axonframework.common.io</td>
+      <td>io</td>
       <td>0.0</td>
       <td>0</td>
       <td>1</td>
@@ -3094,16 +3094,6 @@ Since Java Packages are organized hierarchically, *Abstractness* can be calculat
     </tr>
     <tr>
       <th>100</th>
-      <td>axon-common-5.0.1</td>
-      <td>org.axonframework.common.annotation</td>
-      <td>annotation</td>
-      <td>0.500000</td>
-      <td>2</td>
-      <td>4</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>101</th>
       <td>axon-messaging-5.0.1</td>
       <td>org.axonframework.messaging.core.unitofwork.tr...</td>
       <td>transaction</td>
@@ -3113,17 +3103,17 @@ Since Java Packages are organized hierarchically, *Abstractness* can be calculat
       <td>0</td>
     </tr>
     <tr>
-      <th>102</th>
+      <th>101</th>
       <td>axon-common-5.0.1</td>
-      <td>org.axonframework.common.jpa</td>
-      <td>jpa</td>
+      <td>org.axonframework.common.annotation</td>
+      <td>annotation</td>
       <td>0.500000</td>
-      <td>1</td>
       <td>2</td>
+      <td>4</td>
       <td>0</td>
     </tr>
     <tr>
-      <th>103</th>
+      <th>102</th>
       <td>axon-messaging-5.0.1</td>
       <td>org.axonframework.messaging.eventhandling.conv...</td>
       <td>conversion</td>
@@ -3133,7 +3123,7 @@ Since Java Packages are organized hierarchically, *Abstractness* can be calculat
       <td>0</td>
     </tr>
     <tr>
-      <th>104</th>
+      <th>103</th>
       <td>axon-messaging-5.0.1</td>
       <td>org.axonframework.messaging.queryhandling.gateway</td>
       <td>gateway</td>
@@ -3143,10 +3133,20 @@ Since Java Packages are organized hierarchically, *Abstractness* can be calculat
       <td>0</td>
     </tr>
     <tr>
-      <th>105</th>
+      <th>104</th>
       <td>axon-messaging-5.0.1</td>
       <td>org.axonframework.messaging.core.conversion</td>
       <td>conversion</td>
+      <td>0.500000</td>
+      <td>1</td>
+      <td>2</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>105</th>
+      <td>axon-common-5.0.1</td>
+      <td>org.axonframework.common.jpa</td>
+      <td>jpa</td>
       <td>0.500000</td>
       <td>1</td>
       <td>2</td>
@@ -3368,26 +3368,6 @@ Read more details on that in [OO Design Quality Metrics](https://api.semanticsch
     </tr>
     <tr>
       <th>3</th>
-      <td>axon-common-5.0.1</td>
-      <td>org.axonframework.common.io</td>
-      <td>io</td>
-      <td>NaN</td>
-      <td>0.0</td>
-      <td>NaN</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>axon-common-5.0.1</td>
-      <td>org.axonframework.common.digest</td>
-      <td>digest</td>
-      <td>NaN</td>
-      <td>0.0</td>
-      <td>NaN</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <th>5</th>
       <td>axon-spring-boot-autoconfigure-5.0.1</td>
       <td>org.axonframework.extension.springboot.actuator</td>
       <td>actuator</td>
@@ -3397,7 +3377,7 @@ Read more details on that in [OO Design Quality Metrics](https://api.semanticsch
       <td>1</td>
     </tr>
     <tr>
-      <th>6</th>
+      <th>4</th>
       <td>axon-messaging-5.0.1</td>
       <td>org.axonframework.messaging.commandhandling.retry</td>
       <td>retry</td>
@@ -3407,7 +3387,7 @@ Read more details on that in [OO Design Quality Metrics](https://api.semanticsch
       <td>1</td>
     </tr>
     <tr>
-      <th>7</th>
+      <th>5</th>
       <td>axon-metrics-micrometer-5.0.1</td>
       <td>org.axonframework.extension.metrics.micrometer...</td>
       <td>reservoir</td>
@@ -3417,8 +3397,28 @@ Read more details on that in [OO Design Quality Metrics](https://api.semanticsch
       <td>1</td>
     </tr>
     <tr>
+      <th>6</th>
+      <td>axon-common-5.0.1</td>
+      <td>org.axonframework.common.io</td>
+      <td>io</td>
+      <td>NaN</td>
+      <td>0.0</td>
+      <td>NaN</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>axon-common-5.0.1</td>
+      <td>org.axonframework.common.digest</td>
+      <td>digest</td>
+      <td>NaN</td>
+      <td>0.0</td>
+      <td>NaN</td>
+      <td>1</td>
+    </tr>
+    <tr>
       <th>8</th>
-      <td>axon-tracing-opentelemetry-5.0.1</td>
+      <td>axon-server-connector-5.0.1</td>
       <td>org</td>
       <td>org</td>
       <td>NaN</td>
@@ -3428,7 +3428,7 @@ Read more details on that in [OO Design Quality Metrics](https://api.semanticsch
     </tr>
     <tr>
       <th>9</th>
-      <td>axon-tracing-opentelemetry-5.0.1</td>
+      <td>axon-server-connector-5.0.1</td>
       <td>org.axonframework</td>
       <td>axonframework</td>
       <td>NaN</td>
@@ -3438,66 +3438,6 @@ Read more details on that in [OO Design Quality Metrics](https://api.semanticsch
     </tr>
     <tr>
       <th>10</th>
-      <td>axon-tracing-opentelemetry-5.0.1</td>
-      <td>org.axonframework.extension</td>
-      <td>extension</td>
-      <td>NaN</td>
-      <td>0.0</td>
-      <td>NaN</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>11</th>
-      <td>axon-tracing-opentelemetry-5.0.1</td>
-      <td>org.axonframework.extension.tracing</td>
-      <td>tracing</td>
-      <td>NaN</td>
-      <td>0.0</td>
-      <td>NaN</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>12</th>
-      <td>axon-common-5.0.1</td>
-      <td>org</td>
-      <td>org</td>
-      <td>NaN</td>
-      <td>0.0</td>
-      <td>NaN</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>13</th>
-      <td>axon-common-5.0.1</td>
-      <td>org.axonframework</td>
-      <td>axonframework</td>
-      <td>NaN</td>
-      <td>0.0</td>
-      <td>NaN</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>14</th>
-      <td>axon-server-connector-5.0.1</td>
-      <td>org</td>
-      <td>org</td>
-      <td>NaN</td>
-      <td>0.0</td>
-      <td>NaN</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>15</th>
-      <td>axon-server-connector-5.0.1</td>
-      <td>org.axonframework</td>
-      <td>axonframework</td>
-      <td>NaN</td>
-      <td>0.0</td>
-      <td>NaN</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>16</th>
       <td>axon-server-connector-5.0.1</td>
       <td>org.axonframework.axonserver</td>
       <td>axonserver</td>
@@ -3507,8 +3447,68 @@ Read more details on that in [OO Design Quality Metrics](https://api.semanticsch
       <td>0</td>
     </tr>
     <tr>
+      <th>11</th>
+      <td>axon-test-5.0.1</td>
+      <td>org</td>
+      <td>org</td>
+      <td>NaN</td>
+      <td>0.0</td>
+      <td>NaN</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>axon-test-5.0.1</td>
+      <td>org.axonframework</td>
+      <td>axonframework</td>
+      <td>NaN</td>
+      <td>0.0</td>
+      <td>NaN</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>axon-tracing-opentelemetry-5.0.1</td>
+      <td>org</td>
+      <td>org</td>
+      <td>NaN</td>
+      <td>0.0</td>
+      <td>NaN</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>14</th>
+      <td>axon-tracing-opentelemetry-5.0.1</td>
+      <td>org.axonframework</td>
+      <td>axonframework</td>
+      <td>NaN</td>
+      <td>0.0</td>
+      <td>NaN</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>15</th>
+      <td>axon-tracing-opentelemetry-5.0.1</td>
+      <td>org.axonframework.extension</td>
+      <td>extension</td>
+      <td>NaN</td>
+      <td>0.0</td>
+      <td>NaN</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>16</th>
+      <td>axon-tracing-opentelemetry-5.0.1</td>
+      <td>org.axonframework.extension.tracing</td>
+      <td>tracing</td>
+      <td>NaN</td>
+      <td>0.0</td>
+      <td>NaN</td>
+      <td>0</td>
+    </tr>
+    <tr>
       <th>17</th>
-      <td>axon-modelling-5.0.1</td>
+      <td>axon-spring-boot-autoconfigure-5.0.1</td>
       <td>org</td>
       <td>org</td>
       <td>NaN</td>
@@ -3518,7 +3518,7 @@ Read more details on that in [OO Design Quality Metrics](https://api.semanticsch
     </tr>
     <tr>
       <th>18</th>
-      <td>axon-modelling-5.0.1</td>
+      <td>axon-spring-boot-autoconfigure-5.0.1</td>
       <td>org.axonframework</td>
       <td>axonframework</td>
       <td>NaN</td>
@@ -3528,66 +3528,6 @@ Read more details on that in [OO Design Quality Metrics](https://api.semanticsch
     </tr>
     <tr>
       <th>19</th>
-      <td>axon-eventsourcing-5.0.1</td>
-      <td>org</td>
-      <td>org</td>
-      <td>NaN</td>
-      <td>0.0</td>
-      <td>NaN</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>20</th>
-      <td>axon-eventsourcing-5.0.1</td>
-      <td>org.axonframework</td>
-      <td>axonframework</td>
-      <td>NaN</td>
-      <td>0.0</td>
-      <td>NaN</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>21</th>
-      <td>axon-test-5.0.1</td>
-      <td>org</td>
-      <td>org</td>
-      <td>NaN</td>
-      <td>0.0</td>
-      <td>NaN</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>22</th>
-      <td>axon-test-5.0.1</td>
-      <td>org.axonframework</td>
-      <td>axonframework</td>
-      <td>NaN</td>
-      <td>0.0</td>
-      <td>NaN</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>23</th>
-      <td>axon-spring-boot-autoconfigure-5.0.1</td>
-      <td>org</td>
-      <td>org</td>
-      <td>NaN</td>
-      <td>0.0</td>
-      <td>NaN</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>24</th>
-      <td>axon-spring-boot-autoconfigure-5.0.1</td>
-      <td>org.axonframework</td>
-      <td>axonframework</td>
-      <td>NaN</td>
-      <td>0.0</td>
-      <td>NaN</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>25</th>
       <td>axon-spring-boot-autoconfigure-5.0.1</td>
       <td>org.axonframework.extension</td>
       <td>extension</td>
@@ -3597,7 +3537,7 @@ Read more details on that in [OO Design Quality Metrics](https://api.semanticsch
       <td>0</td>
     </tr>
     <tr>
-      <th>26</th>
+      <th>20</th>
       <td>axon-spring-boot-autoconfigure-5.0.1</td>
       <td>org.axonframework.extension.springboot.service</td>
       <td>service</td>
@@ -3607,7 +3547,27 @@ Read more details on that in [OO Design Quality Metrics](https://api.semanticsch
       <td>0</td>
     </tr>
     <tr>
-      <th>27</th>
+      <th>21</th>
+      <td>axon-modelling-5.0.1</td>
+      <td>org</td>
+      <td>org</td>
+      <td>NaN</td>
+      <td>0.0</td>
+      <td>NaN</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>22</th>
+      <td>axon-modelling-5.0.1</td>
+      <td>org.axonframework</td>
+      <td>axonframework</td>
+      <td>NaN</td>
+      <td>0.0</td>
+      <td>NaN</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>23</th>
       <td>axon-messaging-5.0.1</td>
       <td>org</td>
       <td>org</td>
@@ -3617,7 +3577,7 @@ Read more details on that in [OO Design Quality Metrics](https://api.semanticsch
       <td>0</td>
     </tr>
     <tr>
-      <th>28</th>
+      <th>24</th>
       <td>axon-messaging-5.0.1</td>
       <td>org.axonframework</td>
       <td>axonframework</td>
@@ -3627,10 +3587,50 @@ Read more details on that in [OO Design Quality Metrics](https://api.semanticsch
       <td>0</td>
     </tr>
     <tr>
-      <th>29</th>
+      <th>25</th>
       <td>axon-messaging-5.0.1</td>
       <td>org.axonframework.messaging</td>
       <td>messaging</td>
+      <td>NaN</td>
+      <td>0.0</td>
+      <td>NaN</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>26</th>
+      <td>axon-conversion-5.0.1</td>
+      <td>org</td>
+      <td>org</td>
+      <td>NaN</td>
+      <td>0.0</td>
+      <td>NaN</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>27</th>
+      <td>axon-conversion-5.0.1</td>
+      <td>org.axonframework</td>
+      <td>axonframework</td>
+      <td>NaN</td>
+      <td>0.0</td>
+      <td>NaN</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>28</th>
+      <td>axon-update-5.0.1</td>
+      <td>org</td>
+      <td>org</td>
+      <td>NaN</td>
+      <td>0.0</td>
+      <td>NaN</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>29</th>
+      <td>axon-update-5.0.1</td>
+      <td>org.axonframework</td>
+      <td>axonframework</td>
       <td>NaN</td>
       <td>0.0</td>
       <td>NaN</td>

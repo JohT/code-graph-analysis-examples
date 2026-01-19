@@ -35,35 +35,35 @@
     </tr>
     <tr>
       <th>2</th>
-      <td>tracing</td>
+      <td>server</td>
     </tr>
     <tr>
       <th>3</th>
-      <td>opentelemetry</td>
+      <td>connector</td>
     </tr>
     <tr>
       <th>4</th>
-      <td>maven</td>
+      <td>services</td>
     </tr>
     <tr>
       <th>5</th>
-      <td>org</td>
+      <td>maven</td>
     </tr>
     <tr>
       <th>6</th>
-      <td>axonframework</td>
+      <td>org</td>
     </tr>
     <tr>
       <th>7</th>
-      <td>extensions</td>
+      <td>axonframework</td>
     </tr>
     <tr>
       <th>8</th>
-      <td>tracing</td>
+      <td>axon</td>
     </tr>
     <tr>
       <th>9</th>
-      <td>axon</td>
+      <td>server</td>
     </tr>
   </tbody>
 </table>

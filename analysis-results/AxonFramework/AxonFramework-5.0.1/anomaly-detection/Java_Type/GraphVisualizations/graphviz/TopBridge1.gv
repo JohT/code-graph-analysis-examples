@@ -12,15 +12,21 @@ strict digraph TopBridge1 {
     central [fontsize = 16;];
     central [color = 7; fillcolor = 5; penwidth = 3;];
 
-	graph   [label="Top Rank #1 Java Type Bridge\norg.axonframework.update.api.DetectedVulnerabilitySeverity\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
-	central [label="🌉 bridge #1\nDetectedVulnerabilitySeverity"];
-	"DetectedVulnerability_51367" [label = "DetectedVulnerability"; ]; "DetectedVulnerability_51367" -> central [label=3; weight=3; penwidth=0.4];
-	"UpdateCheckResponse_51364" [label = "UpdateCheckResponse"; ]; "UpdateCheckResponse_51364" -> central [label=3; weight=3; penwidth=0.4];
-	"LoggingUpdateCheckerReporter_50678" [label = "LoggingUpdateCheckerReporter"; ]; "LoggingUpdateCheckerReporter_50678" -> central [label=2; weight=2; penwidth=0.4];
-	"Internal_1045" [label = "Internal"; color = 5; fillcolor = 1; ]; central -> "Internal_1045" [label=1; weight=1; penwidth=0.4; color = 5];
-	"LoggingUpdateCheckerReporter_50678" -> "DetectedVulnerability_51367" [label=12; weight=12; penwidth=0.3; color = 3]
-	"LoggingUpdateCheckerReporter_50678" -> "UpdateCheckResponse_51364" [label=10; weight=10; penwidth=0.3; color = 3]
-	"UpdateCheckResponse_51364" -> "DetectedVulnerability_51367" [label=7; weight=7; penwidth=0.3; color = 3]
-	"DetectedVulnerability_51367" -> "Internal_1045" [label=1; weight=1; penwidth=0.3; color = 3]
-	"UpdateCheckResponse_51364" -> "Internal_1045" [label=1; weight=1; penwidth=0.3; color = 3]
+	graph   [label="Top Rank #1 Java Type Bridge\norg.axonframework.messaging.eventstreaming.EventTypeRestrictableOrEventCriteria\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
+	central [label="🌉 bridge #1\nEventTypeRestrictableOrEventCriteria"];
+	"OrEventCriteriaBuilder_25428" [label = "OrEventCriteriaBuilder"; ]; "OrEventCriteriaBuilder_25428" -> central [label=2; weight=2; penwidth=0.4];
+	"EventCriteria_23008" [label = "EventCriteria"; color = 5; fillcolor = 1; ]; central -> "EventCriteria_23008" [label=4; weight=4; penwidth=0.5; color = 5];
+	"EventTypeRestrictableEventCriteria_23014" [label = "EventTypeRestrictableEventCriteria"; color = 5; fillcolor = 1; ]; central -> "EventTypeRestrictableEventCriteria_23014" [label=4; weight=4; penwidth=0.5; color = 5];
+	"OrEventCriteria_25427" [label = "OrEventCriteria"; color = 5; fillcolor = 1; ]; central -> "OrEventCriteria_25427" [label=2; weight=2; penwidth=0.4; color = 5];
+	"QualifiedName_16251" [label = "QualifiedName"; color = 5; fillcolor = 1; ]; central -> "QualifiedName_16251" [label=1; weight=1; penwidth=0.4; color = 5];
+	"OrEventCriteria_25427" -> "EventCriteria_23008" [label=12; weight=12; penwidth=0.3; color = 3]
+	"EventTypeRestrictableEventCriteria_23014" -> "EventCriteria_23008" [label=6; weight=6; penwidth=0.3; color = 3]
+	"OrEventCriteriaBuilder_25428" -> "EventTypeRestrictableEventCriteria_23014" [label=6; weight=6; penwidth=0.3; color = 3]
+	"OrEventCriteriaBuilder_25428" -> "EventCriteria_23008" [label=6; weight=6; penwidth=0.3; color = 3]
+	"EventCriteria_23008" -> "EventTypeRestrictableEventCriteria_23014" [label=4; weight=4; penwidth=0.3; color = 3]
+	"EventCriteria_23008" -> "OrEventCriteria_25427" [label=4; weight=4; penwidth=0.3; color = 3]
+	"EventCriteria_23008" -> "OrEventCriteriaBuilder_25428" [label=3; weight=3; penwidth=0.3; color = 3]
+	"EventTypeRestrictableEventCriteria_23014" -> "QualifiedName_16251" [label=3; weight=3; penwidth=0.3; color = 3]
+	"OrEventCriteria_25427" -> "QualifiedName_16251" [label=2; weight=2; penwidth=0.3; color = 3]
+	"EventCriteria_23008" -> "QualifiedName_16251" [label=1; weight=1; penwidth=0.3; color = 3]
 }
