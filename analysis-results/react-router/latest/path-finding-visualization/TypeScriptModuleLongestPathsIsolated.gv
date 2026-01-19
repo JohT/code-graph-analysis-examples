@@ -32,7 +32,7 @@ strict digraph TypeScriptModuleLongestPathsIsolated {
 	"commands\n(level 1/5)" -> "dev\n(level 2/5)" [label=33; penwidth=1.02; ];
 	"dev\n(level 2/5)" -> "profiler\n(level 3/5)" [label=33; penwidth=1.02; ];
 	"run\n(level 0/5)" -> "commands\n(level 1/5)" [label=66; penwidth=1.03; ];
-	"commands\n(level 1/5)" -> "build\n(level 2/5)" [label=33; penwidth=1.02; ];
+	"commands\n(level 1/5)" -> "dev\n(level 2/5)" [label=33; penwidth=1.02; ];
 	
 	"create-react-router\n(level 0/5)" -> "prompt\n(level 1/5)" [label=3; penwidth=1.0; ];
 	"prompt\n(level 1/5)" -> "prompts-multi-select\n(level 2/5)" [label=3; penwidth=1.0; ];
