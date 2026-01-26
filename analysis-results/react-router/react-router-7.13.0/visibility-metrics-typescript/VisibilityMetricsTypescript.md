@@ -1,0 +1,1220 @@
+# Visibility Metrics for Typescript
+<br>  
+
+### References
+- [Visibility Metrics and the Importance of Hiding Things](https://dzone.com/articles/visibility-metrics-and-the-importance-of-hiding-th)
+- [Calculate metrics](https://101.jqassistant.org/calculate-metrics/index.html)
+- [Controlling Access to Members of a Class](https://docs.oracle.com/javase/tutorial/java/javaOO/accesscontrol.html)
+- [Neo4j Python Driver](https://neo4j.com/docs/api/python-driver/current)
+
+
+
+
+
+
+
+
+
+## Relative Visibility Of Elements
+
+A Typescript element (variable, function, class, ...) may be exported in which case it is visible and can be imported everywhere (if there are no other rules defined). If there is no "export" keyword and the element (variable, function, class, ...) is only declared, then it is only visible within the file or module.
+
+The relative visibility is the number of inner components that are visible outside (exported) divided by the number of all components:
+
+$$ relative visibility = \frac{exported\:elements}{all\:declared\:elements} $$
+
+Using directories with an index file as a module and exporting only the elements (variables, function, classes, ...) that the caller of the module should use is a good way to improve encapsulation and implementation detail hiding.
+
+### How to apply the results
+
+The relative visibility is between zero (no element is exported) and one (all elements are exported). A value lower than one means that there are elements that are not exported. The lower the value is, the better the encapsulation and the better the implementation details are hidden. 
+
+Non exported elements can't be accessed from another modules so they can be changed without affecting code in other modules. They clearly indicate functionality that only belongs to one modules. This also motivates to split up code into smaller pieces with a dedicated reason to change (single responsibility).
+
+### Table 1a - Top 40 projects with lowest median of module encapsulation
+
+This table shows the relative visibility statistics aggregated for all modules per project and focusses on projects with many modules and hardly any non-exported elements (lowest median, high visibility). Module directories with an index file and intentional exporting helps to improve encapsulation.
+
+Only the top 40 entries are shown. The whole table can be found in the following CSV report:  
+`Global_relative_visibility_statistics_for_elements_for_Typescript`
+
+
+
+
+<div>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>projectPath</th>
+      <th>all</th>
+      <th>exported</th>
+      <th>min</th>
+      <th>max</th>
+      <th>average</th>
+      <th>percentile25</th>
+      <th>percentile50</th>
+      <th>percentile75</th>
+      <th>percentile90</th>
+      <th>percentile95</th>
+      <th>percentile99</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>/home/runner/work/code-graph-analysis-examples...</td>
+      <td>26</td>
+      <td>18</td>
+      <td>0.0</td>
+      <td>1.000000</td>
+      <td>0.730000</td>
+      <td>0.650000</td>
+      <td>1.000000</td>
+      <td>1.000000</td>
+      <td>1.000000</td>
+      <td>1.000000</td>
+      <td>1.000000</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>/home/runner/work/code-graph-analysis-examples...</td>
+      <td>13</td>
+      <td>8</td>
+      <td>0.0</td>
+      <td>1.000000</td>
+      <td>0.685714</td>
+      <td>0.428571</td>
+      <td>1.000000</td>
+      <td>1.000000</td>
+      <td>1.000000</td>
+      <td>1.000000</td>
+      <td>1.000000</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>/home/runner/work/code-graph-analysis-examples...</td>
+      <td>370</td>
+      <td>126</td>
+      <td>0.0</td>
+      <td>1.000000</td>
+      <td>0.676782</td>
+      <td>0.351190</td>
+      <td>0.775000</td>
+      <td>1.000000</td>
+      <td>1.000000</td>
+      <td>1.000000</td>
+      <td>1.000000</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>/home/runner/work/code-graph-analysis-examples...</td>
+      <td>12</td>
+      <td>8</td>
+      <td>0.0</td>
+      <td>0.800000</td>
+      <td>0.533333</td>
+      <td>0.500000</td>
+      <td>0.666667</td>
+      <td>0.700000</td>
+      <td>0.760000</td>
+      <td>0.780000</td>
+      <td>0.796000</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>/home/runner/work/code-graph-analysis-examples...</td>
+      <td>723</td>
+      <td>557</td>
+      <td>0.0</td>
+      <td>169.000000</td>
+      <td>3.530379</td>
+      <td>0.402941</td>
+      <td>0.554945</td>
+      <td>0.975000</td>
+      <td>1.000000</td>
+      <td>1.000000</td>
+      <td>73.810000</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>/home/runner/work/code-graph-analysis-examples...</td>
+      <td>14</td>
+      <td>8</td>
+      <td>0.0</td>
+      <td>0.857143</td>
+      <td>0.371429</td>
+      <td>0.000000</td>
+      <td>0.500000</td>
+      <td>0.500000</td>
+      <td>0.714286</td>
+      <td>0.785714</td>
+      <td>0.842857</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>/home/runner/work/code-graph-analysis-examples...</td>
+      <td>10</td>
+      <td>6</td>
+      <td>0.0</td>
+      <td>0.714286</td>
+      <td>0.404762</td>
+      <td>0.250000</td>
+      <td>0.500000</td>
+      <td>0.607143</td>
+      <td>0.671429</td>
+      <td>0.692857</td>
+      <td>0.710000</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>/home/runner/work/code-graph-analysis-examples...</td>
+      <td>124</td>
+      <td>46</td>
+      <td>0.0</td>
+      <td>1.000000</td>
+      <td>0.513557</td>
+      <td>0.068391</td>
+      <td>0.471861</td>
+      <td>1.000000</td>
+      <td>1.000000</td>
+      <td>1.000000</td>
+      <td>1.000000</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>/home/runner/work/code-graph-analysis-examples...</td>
+      <td>8</td>
+      <td>6</td>
+      <td>0.0</td>
+      <td>0.857143</td>
+      <td>0.428571</td>
+      <td>0.214286</td>
+      <td>0.428571</td>
+      <td>0.642857</td>
+      <td>0.771429</td>
+      <td>0.814286</td>
+      <td>0.848571</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>/home/runner/work/code-graph-analysis-examples...</td>
+      <td>6</td>
+      <td>0</td>
+      <td>0.0</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+
+
+### Table 1b - Top 40 projects with highest median of module encapsulation
+
+This table shows the relative visibility statistics aggregated for all modules per project and focusses on project with many modules and the highest median of non-exported elements (variables, functions, classes, ...) (low visibility). Module directories with an index file and intentional exporting helps to improve encapsulation.
+
+Only the top 40 entries are shown. The whole table can be found in the following CSV report:  
+`Global_relative_visibility_statistics_for_elements_for_Typescript`
+
+
+
+
+<div>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>projectPath</th>
+      <th>all</th>
+      <th>exported</th>
+      <th>min</th>
+      <th>max</th>
+      <th>average</th>
+      <th>percentile25</th>
+      <th>percentile50</th>
+      <th>percentile75</th>
+      <th>percentile90</th>
+      <th>percentile95</th>
+      <th>percentile99</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>/home/runner/work/code-graph-analysis-examples...</td>
+      <td>6</td>
+      <td>0</td>
+      <td>0.0</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>/home/runner/work/code-graph-analysis-examples...</td>
+      <td>8</td>
+      <td>6</td>
+      <td>0.0</td>
+      <td>0.857143</td>
+      <td>0.428571</td>
+      <td>0.214286</td>
+      <td>0.428571</td>
+      <td>0.642857</td>
+      <td>0.771429</td>
+      <td>0.814286</td>
+      <td>0.848571</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>/home/runner/work/code-graph-analysis-examples...</td>
+      <td>124</td>
+      <td>46</td>
+      <td>0.0</td>
+      <td>1.000000</td>
+      <td>0.513557</td>
+      <td>0.068391</td>
+      <td>0.471861</td>
+      <td>1.000000</td>
+      <td>1.000000</td>
+      <td>1.000000</td>
+      <td>1.000000</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>/home/runner/work/code-graph-analysis-examples...</td>
+      <td>14</td>
+      <td>8</td>
+      <td>0.0</td>
+      <td>0.857143</td>
+      <td>0.371429</td>
+      <td>0.000000</td>
+      <td>0.500000</td>
+      <td>0.500000</td>
+      <td>0.714286</td>
+      <td>0.785714</td>
+      <td>0.842857</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>/home/runner/work/code-graph-analysis-examples...</td>
+      <td>10</td>
+      <td>6</td>
+      <td>0.0</td>
+      <td>0.714286</td>
+      <td>0.404762</td>
+      <td>0.250000</td>
+      <td>0.500000</td>
+      <td>0.607143</td>
+      <td>0.671429</td>
+      <td>0.692857</td>
+      <td>0.710000</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>/home/runner/work/code-graph-analysis-examples...</td>
+      <td>723</td>
+      <td>557</td>
+      <td>0.0</td>
+      <td>169.000000</td>
+      <td>3.530379</td>
+      <td>0.402941</td>
+      <td>0.554945</td>
+      <td>0.975000</td>
+      <td>1.000000</td>
+      <td>1.000000</td>
+      <td>73.810000</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>/home/runner/work/code-graph-analysis-examples...</td>
+      <td>12</td>
+      <td>8</td>
+      <td>0.0</td>
+      <td>0.800000</td>
+      <td>0.533333</td>
+      <td>0.500000</td>
+      <td>0.666667</td>
+      <td>0.700000</td>
+      <td>0.760000</td>
+      <td>0.780000</td>
+      <td>0.796000</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>/home/runner/work/code-graph-analysis-examples...</td>
+      <td>370</td>
+      <td>126</td>
+      <td>0.0</td>
+      <td>1.000000</td>
+      <td>0.676782</td>
+      <td>0.351190</td>
+      <td>0.775000</td>
+      <td>1.000000</td>
+      <td>1.000000</td>
+      <td>1.000000</td>
+      <td>1.000000</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>/home/runner/work/code-graph-analysis-examples...</td>
+      <td>26</td>
+      <td>18</td>
+      <td>0.0</td>
+      <td>1.000000</td>
+      <td>0.730000</td>
+      <td>0.650000</td>
+      <td>1.000000</td>
+      <td>1.000000</td>
+      <td>1.000000</td>
+      <td>1.000000</td>
+      <td>1.000000</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>/home/runner/work/code-graph-analysis-examples...</td>
+      <td>13</td>
+      <td>8</td>
+      <td>0.0</td>
+      <td>1.000000</td>
+      <td>0.685714</td>
+      <td>0.428571</td>
+      <td>1.000000</td>
+      <td>1.000000</td>
+      <td>1.000000</td>
+      <td>1.000000</td>
+      <td>1.000000</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+
+
+### Table 1 Chart 1 - Relative visibility in projects
+
+    /home/runner/miniconda3/envs/codegraph/lib/python3.12/site-packages/pandas/plotting/_matplotlib/core.py:1351: UserWarning: No data for colormapping provided via 'c'. Parameters 'cmap' will be ignored
+      scatter = ax.scatter(
+    /home/runner/miniconda3/envs/codegraph/lib/python3.12/site-packages/pandas/plotting/_matplotlib/core.py:1351: UserWarning: No data for colormapping provided via 'c'. Parameters 'cmap' will be ignored
+      scatter = ax.scatter(
+    /home/runner/miniconda3/envs/codegraph/lib/python3.12/site-packages/pandas/plotting/_matplotlib/core.py:1351: UserWarning: No data for colormapping provided via 'c'. Parameters 'cmap' will be ignored
+      scatter = ax.scatter(
+
+
+
+    <Figure size 640x480 with 0 Axes>
+
+
+
+    
+![png](VisibilityMetricsTypescript_files/VisibilityMetricsTypescript_17_2.png)
+    
+
+
+### Table 2a - Top 40 modules with the highest visibility and lowest encapsulation
+
+This table shows the relative visibility statistics per module and project and focusses on modules with many elements (variables, functions, classes, ...), hardly any non-exported ones and therefore the highest relative visibility (lowest encapsulation). Module directories with an index file and intentional exporting helps to improve encapsulation.
+
+Only the top 40 entries are shown. The whole table can be found in the following CSV report:  
+`Relative_visibility_exported_elements_to_all_elements_per_module_for_Typescript`
+
+
+
+
+<div>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>projectPath</th>
+      <th>modulePath</th>
+      <th>moduleName</th>
+      <th>exportedElements</th>
+      <th>allElements</th>
+      <th>relativeVisibility</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>/home/runner/work/code-graph-analysis-examples...</td>
+      <td>vendor/turbo-stream-v2/utils.ts</td>
+      <td>utils</td>
+      <td>24</td>
+      <td>24</td>
+      <td>1.0</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>/home/runner/work/code-graph-analysis-examples...</td>
+      <td>lib/server-runtime/errors.ts</td>
+      <td>errors</td>
+      <td>5</td>
+      <td>5</td>
+      <td>1.0</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>/home/runner/work/code-graph-analysis-examples...</td>
+      <td>prompts-confirm.ts</td>
+      <td>prompts-confirm</td>
+      <td>3</td>
+      <td>3</td>
+      <td>1.0</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>/home/runner/work/code-graph-analysis-examples...</td>
+      <td>prompts-select.ts</td>
+      <td>prompts-select</td>
+      <td>3</td>
+      <td>3</td>
+      <td>1.0</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>/home/runner/work/code-graph-analysis-examples...</td>
+      <td>lib/dom/ssr/invariant.ts</td>
+      <td>invariant</td>
+      <td>3</td>
+      <td>3</td>
+      <td>1.0</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>/home/runner/work/code-graph-analysis-examples...</td>
+      <td>lib/server-runtime/invariant.ts</td>
+      <td>invariant</td>
+      <td>3</td>
+      <td>3</td>
+      <td>1.0</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>/home/runner/work/code-graph-analysis-examples...</td>
+      <td>invariant.ts</td>
+      <td>invariant</td>
+      <td>3</td>
+      <td>3</td>
+      <td>1.0</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>/home/runner/work/code-graph-analysis-examples...</td>
+      <td>manifest.ts</td>
+      <td>manifest</td>
+      <td>3</td>
+      <td>3</td>
+      <td>1.0</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>/home/runner/work/code-graph-analysis-examples...</td>
+      <td>manifest.ts</td>
+      <td>manifest</td>
+      <td>3</td>
+      <td>3</td>
+      <td>1.0</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>/home/runner/work/code-graph-analysis-examples...</td>
+      <td>prompts-multi-select.ts</td>
+      <td>prompts-multi-select</td>
+      <td>2</td>
+      <td>2</td>
+      <td>1.0</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>/home/runner/work/code-graph-analysis-examples...</td>
+      <td>prompts-prompt-base.ts</td>
+      <td>prompts-prompt-base</td>
+      <td>2</td>
+      <td>2</td>
+      <td>1.0</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>/home/runner/work/code-graph-analysis-examples...</td>
+      <td>prompts-text.ts</td>
+      <td>prompts-text</td>
+      <td>2</td>
+      <td>2</td>
+      <td>1.0</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>/home/runner/work/code-graph-analysis-examples...</td>
+      <td>lib/types/future.ts</td>
+      <td>future</td>
+      <td>2</td>
+      <td>2</td>
+      <td>1.0</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>/home/runner/work/code-graph-analysis-examples...</td>
+      <td>lib/dom/global.ts</td>
+      <td>global</td>
+      <td>2</td>
+      <td>2</td>
+      <td>1.0</td>
+    </tr>
+    <tr>
+      <th>14</th>
+      <td>/home/runner/work/code-graph-analysis-examples...</td>
+      <td>lib/server-runtime/mode.ts</td>
+      <td>mode</td>
+      <td>2</td>
+      <td>2</td>
+      <td>1.0</td>
+    </tr>
+    <tr>
+      <th>15</th>
+      <td>/home/runner/work/code-graph-analysis-examples...</td>
+      <td>lib/server-runtime/routeMatching.ts</td>
+      <td>routeMatching</td>
+      <td>2</td>
+      <td>2</td>
+      <td>1.0</td>
+    </tr>
+    <tr>
+      <th>16</th>
+      <td>/home/runner/work/code-graph-analysis-examples...</td>
+      <td>lib/server-runtime/serverHandoff.ts</td>
+      <td>serverHandoff</td>
+      <td>2</td>
+      <td>2</td>
+      <td>1.0</td>
+    </tr>
+    <tr>
+      <th>17</th>
+      <td>/home/runner/work/code-graph-analysis-examples...</td>
+      <td>vite/babel.ts</td>
+      <td>babel</td>
+      <td>2</td>
+      <td>2</td>
+      <td>1.0</td>
+    </tr>
+    <tr>
+      <th>18</th>
+      <td>/home/runner/work/code-graph-analysis-examples...</td>
+      <td>typegen/context.ts</td>
+      <td>context</td>
+      <td>2</td>
+      <td>2</td>
+      <td>1.0</td>
+    </tr>
+    <tr>
+      <th>19</th>
+      <td>/home/runner/work/code-graph-analysis-examples...</td>
+      <td>vite/dev.ts</td>
+      <td>dev</td>
+      <td>2</td>
+      <td>2</td>
+      <td>1.0</td>
+    </tr>
+    <tr>
+      <th>20</th>
+      <td>/home/runner/work/code-graph-analysis-examples...</td>
+      <td>manifest.ts</td>
+      <td>manifest</td>
+      <td>2</td>
+      <td>2</td>
+      <td>1.0</td>
+    </tr>
+    <tr>
+      <th>21</th>
+      <td>/home/runner/work/code-graph-analysis-examples...</td>
+      <td>vite/node-adapter.ts</td>
+      <td>node-adapter</td>
+      <td>2</td>
+      <td>2</td>
+      <td>1.0</td>
+    </tr>
+    <tr>
+      <th>22</th>
+      <td>/home/runner/work/code-graph-analysis-examples...</td>
+      <td>typegen/route.ts</td>
+      <td>route</td>
+      <td>2</td>
+      <td>2</td>
+      <td>1.0</td>
+    </tr>
+    <tr>
+      <th>23</th>
+      <td>/home/runner/work/code-graph-analysis-examples...</td>
+      <td>vite/vite-node.ts</td>
+      <td>vite-node</td>
+      <td>2</td>
+      <td>2</td>
+      <td>1.0</td>
+    </tr>
+    <tr>
+      <th>24</th>
+      <td>/home/runner/work/code-graph-analysis-examples...</td>
+      <td>lib/rsc/html-stream/browser.ts</td>
+      <td>browser</td>
+      <td>1</td>
+      <td>1</td>
+      <td>1.0</td>
+    </tr>
+    <tr>
+      <th>25</th>
+      <td>/home/runner/work/code-graph-analysis-examples...</td>
+      <td>lib/dom/ssr/data.ts</td>
+      <td>data</td>
+      <td>1</td>
+      <td>1</td>
+      <td>1.0</td>
+    </tr>
+    <tr>
+      <th>26</th>
+      <td>/home/runner/work/code-graph-analysis-examples...</td>
+      <td>lib/server-runtime/entry.ts</td>
+      <td>entry</td>
+      <td>1</td>
+      <td>1</td>
+      <td>1.0</td>
+    </tr>
+    <tr>
+      <th>27</th>
+      <td>/home/runner/work/code-graph-analysis-examples...</td>
+      <td>lib/dom/ssr/errors.ts</td>
+      <td>errors</td>
+      <td>1</td>
+      <td>1</td>
+      <td>1.0</td>
+    </tr>
+    <tr>
+      <th>28</th>
+      <td>/home/runner/work/code-graph-analysis-examples...</td>
+      <td>lib/types/internal.ts</td>
+      <td>internal</td>
+      <td>1</td>
+      <td>1</td>
+      <td>1.0</td>
+    </tr>
+    <tr>
+      <th>29</th>
+      <td>/home/runner/work/code-graph-analysis-examples...</td>
+      <td>lib/types/params.ts</td>
+      <td>params</td>
+      <td>1</td>
+      <td>1</td>
+      <td>1.0</td>
+    </tr>
+    <tr>
+      <th>30</th>
+      <td>/home/runner/work/code-graph-analysis-examples...</td>
+      <td>index.ts</td>
+      <td>react-router</td>
+      <td>1</td>
+      <td>1</td>
+      <td>1.0</td>
+    </tr>
+    <tr>
+      <th>31</th>
+      <td>/home/runner/work/code-graph-analysis-examples...</td>
+      <td>lib/types/route-module.ts</td>
+      <td>route-module</td>
+      <td>1</td>
+      <td>1</td>
+      <td>1.0</td>
+    </tr>
+    <tr>
+      <th>32</th>
+      <td>/home/runner/work/code-graph-analysis-examples...</td>
+      <td>vite/combine-urls.ts</td>
+      <td>combine-urls</td>
+      <td>1</td>
+      <td>1</td>
+      <td>1.0</td>
+    </tr>
+    <tr>
+      <th>33</th>
+      <td>/home/runner/work/code-graph-analysis-examples...</td>
+      <td>vite/has-dependency.ts</td>
+      <td>has-dependency</td>
+      <td>1</td>
+      <td>1</td>
+      <td>1.0</td>
+    </tr>
+    <tr>
+      <th>34</th>
+      <td>/home/runner/work/code-graph-analysis-examples...</td>
+      <td>vite/has-rsc-plugin.ts</td>
+      <td>has-rsc-plugin</td>
+      <td>1</td>
+      <td>1</td>
+      <td>1.0</td>
+    </tr>
+    <tr>
+      <th>35</th>
+      <td>/home/runner/work/code-graph-analysis-examples...</td>
+      <td>config/is-react-router-repo.ts</td>
+      <td>is-react-router-repo</td>
+      <td>1</td>
+      <td>1</td>
+      <td>1.0</td>
+    </tr>
+    <tr>
+      <th>36</th>
+      <td>/home/runner/work/code-graph-analysis-examples...</td>
+      <td>vite/load-dotenv.ts</td>
+      <td>load-dotenv</td>
+      <td>1</td>
+      <td>1</td>
+      <td>1.0</td>
+    </tr>
+    <tr>
+      <th>37</th>
+      <td>/home/runner/work/code-graph-analysis-examples...</td>
+      <td>vite/optimize-deps-entries.ts</td>
+      <td>optimize-deps-entries</td>
+      <td>1</td>
+      <td>1</td>
+      <td>1.0</td>
+    </tr>
+    <tr>
+      <th>38</th>
+      <td>/home/runner/work/code-graph-analysis-examples...</td>
+      <td>typegen/params.ts</td>
+      <td>params</td>
+      <td>1</td>
+      <td>1</td>
+      <td>1.0</td>
+    </tr>
+    <tr>
+      <th>39</th>
+      <td>/home/runner/work/code-graph-analysis-examples...</td>
+      <td>vite/resolve-file-url.ts</td>
+      <td>resolve-file-url</td>
+      <td>1</td>
+      <td>1</td>
+      <td>1.0</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+
+
+### Table 2b - Top 40 modules with the lowest visibility and highest encapsulation
+
+This table shows the relative visibility statistics per modules and project and focusses on modules with many elements (variables, functions, classes, ...), many non-exported ones and therefore the lowest relative visibility (highest encapsulation). Non-exported elements help to improve encapsulation. Zero percent visibility and therefore modules with no exported elements are suspicious to contain dead code.
+
+Only the top 40 entries are shown. The whole table can be found in the following CSV report:  
+`Relative_visibility_public_types_to_all_types_per_package`
+
+
+
+
+<div>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>projectPath</th>
+      <th>modulePath</th>
+      <th>moduleName</th>
+      <th>exportedElements</th>
+      <th>allElements</th>
+      <th>relativeVisibility</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>/home/runner/work/code-graph-analysis-examples...</td>
+      <td>cli.ts</td>
+      <td>cli</td>
+      <td>0</td>
+      <td>5</td>
+      <td>0.000000</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>/home/runner/work/code-graph-analysis-examples...</td>
+      <td>tsup.config.rsc.ts</td>
+      <td>tsup</td>
+      <td>0</td>
+      <td>3</td>
+      <td>0.000000</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>/home/runner/work/code-graph-analysis-examples...</td>
+      <td>tsup.config.ts</td>
+      <td>tsup</td>
+      <td>0</td>
+      <td>2</td>
+      <td>0.000000</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>/home/runner/work/code-graph-analysis-examples...</td>
+      <td>__tests__/server-test.ts</td>
+      <td>server-test</td>
+      <td>0</td>
+      <td>2</td>
+      <td>0.000000</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>/home/runner/work/code-graph-analysis-examples...</td>
+      <td>tsup.config.ts</td>
+      <td>tsup</td>
+      <td>0</td>
+      <td>2</td>
+      <td>0.000000</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>/home/runner/work/code-graph-analysis-examples...</td>
+      <td>cli.ts</td>
+      <td>cli</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0.000000</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>/home/runner/work/code-graph-analysis-examples...</td>
+      <td>tsup.config.ts</td>
+      <td>tsup</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0.000000</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>/home/runner/work/code-graph-analysis-examples...</td>
+      <td>tsup.config.ts</td>
+      <td>tsup</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0.000000</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>/home/runner/work/code-graph-analysis-examples...</td>
+      <td>tsup.config.ts</td>
+      <td>tsup</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0.000000</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>/home/runner/work/code-graph-analysis-examples...</td>
+      <td>tsup.config.ts</td>
+      <td>tsup</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0.000000</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>/home/runner/work/code-graph-analysis-examples...</td>
+      <td>tsup.config.ts</td>
+      <td>tsup</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0.000000</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>/home/runner/work/code-graph-analysis-examples...</td>
+      <td>tsup.config.ts</td>
+      <td>tsup</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0.000000</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>/home/runner/work/code-graph-analysis-examples...</td>
+      <td>tsup.config.ts</td>
+      <td>tsup</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0.000000</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>/home/runner/work/code-graph-analysis-examples...</td>
+      <td>tsup.config.ts</td>
+      <td>tsup</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0.000000</td>
+    </tr>
+    <tr>
+      <th>14</th>
+      <td>/home/runner/work/code-graph-analysis-examples...</td>
+      <td>lib/types/route-module-annotations.ts</td>
+      <td>route-module-annotations</td>
+      <td>1</td>
+      <td>24</td>
+      <td>0.041667</td>
+    </tr>
+    <tr>
+      <th>15</th>
+      <td>/home/runner/work/code-graph-analysis-examples...</td>
+      <td>prompt.ts</td>
+      <td>prompt</td>
+      <td>1</td>
+      <td>15</td>
+      <td>0.066667</td>
+    </tr>
+    <tr>
+      <th>16</th>
+      <td>/home/runner/work/code-graph-analysis-examples...</td>
+      <td>copy-template.ts</td>
+      <td>copy-template</td>
+      <td>2</td>
+      <td>29</td>
+      <td>0.068966</td>
+    </tr>
+    <tr>
+      <th>17</th>
+      <td>/home/runner/work/code-graph-analysis-examples...</td>
+      <td>loading-indicator.ts</td>
+      <td>loading-indicator</td>
+      <td>1</td>
+      <td>12</td>
+      <td>0.083333</td>
+    </tr>
+    <tr>
+      <th>18</th>
+      <td>/home/runner/work/code-graph-analysis-examples...</td>
+      <td>index.ts</td>
+      <td>create-react-router</td>
+      <td>2</td>
+      <td>21</td>
+      <td>0.095238</td>
+    </tr>
+    <tr>
+      <th>19</th>
+      <td>/home/runner/work/code-graph-analysis-examples...</td>
+      <td>vite/rsc/virtual-route-modules.ts</td>
+      <td>virtual-route-modules</td>
+      <td>4</td>
+      <td>37</td>
+      <td>0.108108</td>
+    </tr>
+    <tr>
+      <th>20</th>
+      <td>/home/runner/work/code-graph-analysis-examples...</td>
+      <td>vite/cloudflare-dev-proxy.ts</td>
+      <td>cloudflare-dev-proxy</td>
+      <td>1</td>
+      <td>8</td>
+      <td>0.125000</td>
+    </tr>
+    <tr>
+      <th>21</th>
+      <td>/home/runner/work/code-graph-analysis-examples...</td>
+      <td>vite/rsc/plugin.ts</td>
+      <td>plugin</td>
+      <td>1</td>
+      <td>8</td>
+      <td>0.125000</td>
+    </tr>
+    <tr>
+      <th>22</th>
+      <td>/home/runner/work/code-graph-analysis-examples...</td>
+      <td>lib/rsc/html-stream/server.ts</td>
+      <td>server</td>
+      <td>1</td>
+      <td>6</td>
+      <td>0.166667</td>
+    </tr>
+    <tr>
+      <th>23</th>
+      <td>/home/runner/work/code-graph-analysis-examples...</td>
+      <td>vite/with-props.ts</td>
+      <td>with-props</td>
+      <td>1</td>
+      <td>6</td>
+      <td>0.166667</td>
+    </tr>
+    <tr>
+      <th>24</th>
+      <td>/home/runner/work/code-graph-analysis-examples...</td>
+      <td>vite/plugin.ts</td>
+      <td>plugin</td>
+      <td>17</td>
+      <td>99</td>
+      <td>0.171717</td>
+    </tr>
+    <tr>
+      <th>25</th>
+      <td>/home/runner/work/code-graph-analysis-examples...</td>
+      <td>lib/actions.ts</td>
+      <td>actions</td>
+      <td>1</td>
+      <td>4</td>
+      <td>0.250000</td>
+    </tr>
+    <tr>
+      <th>26</th>
+      <td>/home/runner/work/code-graph-analysis-examples...</td>
+      <td>vendor/turbo-stream-v2/flatten.ts</td>
+      <td>flatten</td>
+      <td>1</td>
+      <td>4</td>
+      <td>0.250000</td>
+    </tr>
+    <tr>
+      <th>27</th>
+      <td>/home/runner/work/code-graph-analysis-examples...</td>
+      <td>lib/href.ts</td>
+      <td>href</td>
+      <td>1</td>
+      <td>4</td>
+      <td>0.250000</td>
+    </tr>
+    <tr>
+      <th>28</th>
+      <td>/home/runner/work/code-graph-analysis-examples...</td>
+      <td>lib/router/instrumentation.ts</td>
+      <td>instrumentation</td>
+      <td>9</td>
+      <td>34</td>
+      <td>0.264706</td>
+    </tr>
+    <tr>
+      <th>29</th>
+      <td>/home/runner/work/code-graph-analysis-examples...</td>
+      <td>lib/router/router.ts</td>
+      <td>router</td>
+      <td>33</td>
+      <td>123</td>
+      <td>0.268293</td>
+    </tr>
+    <tr>
+      <th>30</th>
+      <td>/home/runner/work/code-graph-analysis-examples...</td>
+      <td>lib/server-runtime/server.ts</td>
+      <td>server</td>
+      <td>3</td>
+      <td>11</td>
+      <td>0.272727</td>
+    </tr>
+    <tr>
+      <th>31</th>
+      <td>/home/runner/work/code-graph-analysis-examples...</td>
+      <td>vite/styles.ts</td>
+      <td>styles</td>
+      <td>4</td>
+      <td>13</td>
+      <td>0.307692</td>
+    </tr>
+    <tr>
+      <th>32</th>
+      <td>/home/runner/work/code-graph-analysis-examples...</td>
+      <td>config/config.ts</td>
+      <td>config</td>
+      <td>12</td>
+      <td>38</td>
+      <td>0.315789</td>
+    </tr>
+    <tr>
+      <th>33</th>
+      <td>/home/runner/work/code-graph-analysis-examples...</td>
+      <td>vite/route-chunks.ts</td>
+      <td>route-chunks</td>
+      <td>12</td>
+      <td>36</td>
+      <td>0.333333</td>
+    </tr>
+    <tr>
+      <th>34</th>
+      <td>/home/runner/work/code-graph-analysis-examples...</td>
+      <td>lib/dom/ssr/markup.ts</td>
+      <td>markup</td>
+      <td>1</td>
+      <td>3</td>
+      <td>0.333333</td>
+    </tr>
+    <tr>
+      <th>35</th>
+      <td>/home/runner/work/code-graph-analysis-examples...</td>
+      <td>vendor/turbo-stream-v2/unflatten.ts</td>
+      <td>unflatten</td>
+      <td>1</td>
+      <td>3</td>
+      <td>0.333333</td>
+    </tr>
+    <tr>
+      <th>36</th>
+      <td>/home/runner/work/code-graph-analysis-examples...</td>
+      <td>vite/remove-exports.ts</td>
+      <td>remove-exports</td>
+      <td>1</td>
+      <td>3</td>
+      <td>0.333333</td>
+    </tr>
+    <tr>
+      <th>37</th>
+      <td>/home/runner/work/code-graph-analysis-examples...</td>
+      <td>typegen/generate.ts</td>
+      <td>generate</td>
+      <td>5</td>
+      <td>14</td>
+      <td>0.357143</td>
+    </tr>
+    <tr>
+      <th>38</th>
+      <td>/home/runner/work/code-graph-analysis-examples...</td>
+      <td>cli/commands.ts</td>
+      <td>commands</td>
+      <td>5</td>
+      <td>13</td>
+      <td>0.384615</td>
+    </tr>
+    <tr>
+      <th>39</th>
+      <td>/home/runner/work/code-graph-analysis-examples...</td>
+      <td>lib/server-runtime/crypto.ts</td>
+      <td>crypto</td>
+      <td>2</td>
+      <td>5</td>
+      <td>0.400000</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+
+
+### Table 2 Chart 1 - Relative visibility of modules
+
+    /home/runner/miniconda3/envs/codegraph/lib/python3.12/site-packages/pandas/plotting/_matplotlib/core.py:1351: UserWarning: No data for colormapping provided via 'c'. Parameters 'cmap' will be ignored
+      scatter = ax.scatter(
+
+
+
+    <Figure size 640x480 with 0 Axes>
+
+
+
+    
+![png](VisibilityMetricsTypescript_files/VisibilityMetricsTypescript_24_2.png)
+    
+
