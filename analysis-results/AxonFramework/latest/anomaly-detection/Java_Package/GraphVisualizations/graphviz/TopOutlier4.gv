@@ -12,23 +12,123 @@ strict digraph TopOutlier4 {
     central [fontsize = 16;];
     central [color = 7; fillcolor = 5; penwidth = 3;];
 
-	graph   [label="Top Rank #4 Java Package Outlier\norg.axonframework.messaging.eventhandling.processing.streaming\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: cluster probability\nlarge circle: < 25% percentile of cluster probability\nthick outline: > 80% percentile of distance to cluster center\n\n"];
-	central [label="🧩 outlier #4\nstreaming"];
-	"event_23"  [label = "event\n(87.92%)"; penwidth = 2; ]; "event_23" -> central [label=5; weight=5; penwidth=0.5];
-	"pooled_15553"  [label = "pooled\n(100.0%)"; penwidth = 2; ]; "pooled_15553" -> central [label=0; weight=0; penwidth=0.4];
-	"segmenting_15554"  [label = "segmenting\n(100.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "segmenting_15554" [label=1; weight=1; penwidth=0.4; color = 5];
-	"token_15547"  [label = "token\n(100.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "token_15547" [label=1; weight=1; penwidth=0.4; color = 5];
-	"eventstreaming_15559"  [label = "eventstreaming\n(100.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "eventstreaming_15559" [label=0; weight=0; penwidth=0.4; color = 5];
-	"processing_15545"  [label = "processing\n(100.0%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "processing_15545" [label=0; weight=0; penwidth=0.4; color = 5];
-	"pooled_15553" -> "segmenting_15554" [label=146; weight=146; penwidth=0.3; color = 3]
-	"pooled_15553" -> "token_15547" [label=23; weight=23; penwidth=0.3; color = 3]
-	"segmenting_15554" -> "token_15547" [label=23; weight=23; penwidth=0.3; color = 3]
-	"event_23" -> "token_15547" [label=22; weight=22; penwidth=0.3; color = 3]
-	"event_23" -> "eventstreaming_15559" [label=12; weight=12; penwidth=0.3; color = 3]
-	"pooled_15553" -> "processing_15545" [label=12; weight=12; penwidth=0.3; color = 3]
-	"pooled_15553" -> "eventstreaming_15559" [label=8; weight=8; penwidth=0.3; color = 3]
-	"event_23" -> "segmenting_15554" [label=4; weight=4; penwidth=0.3; color = 3]
-	"event_23" -> "processing_15545" [label=3; weight=3; penwidth=0.3; color = 3]
-	"eventstreaming_15559" -> "token_15547" [label=3; weight=3; penwidth=0.3; color = 3]
-	"processing_15545" -> "segmenting_15554" [label=3; weight=3; penwidth=0.3; color = 3]
+	graph   [label="Top Rank #4 Java Package Outlier\norg.axonframework.messaging.eventhandling.configuration\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: cluster probability\nlarge circle: < 25% percentile of cluster probability\nthick outline: > 80% percentile of distance to cluster center\n\n"];
+	central [label="🧩 outlier #4\nconfiguration"];
+	"pooled_15553"  [label = "pooled\n(100.0%)"; penwidth = 2; ]; "pooled_15553" -> central [label=31; weight=31; penwidth=0.9];
+	"subscribing_15555"  [shape = "circle"; height=1.8; label = "subscribing\n(0.0%)"; penwidth = 2; ]; "subscribing_15555" -> central [label=31; weight=31; penwidth=0.9];
+	"configuration_15579"  [shape = "circle"; height=1.8; label = "configuration\n(63.1%)"; penwidth = 2; ]; "configuration_15579" -> central [label=7; weight=7; penwidth=0.5];
+	"configuration_46822"  [shape = "circle"; height=1.8; label = "configuration\n(0.0%)"; penwidth = 2; ]; "configuration_46822" -> central [label=1; weight=1; penwidth=0.4];
+	"configuration_41482"  [shape = "circle"; height=1.8; label = "configuration\n(0.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "configuration_41482" [label=12; weight=12; penwidth=0.6; color = 5];
+	"tracing_15557"  [label = "tracing\n(73.13%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "tracing_15557" [label=11; weight=11; penwidth=0.6; color = 5];
+	"eventhandling_15537"  [label = "eventhandling\n(100.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "eventhandling_15537" [label=10; weight=10; penwidth=0.6; color = 5];
+	"pooled_15553"  [label = "pooled\n(100.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "pooled_15553" [label=9; weight=9; penwidth=0.6; color = 5];
+	"subscribing_15555"  [shape = "circle"; height=1.8; label = "subscribing\n(0.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "subscribing_15555" [label=9; weight=9; penwidth=0.6; color = 5];
+	"common_41470"  [label = "common\n(96.38%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "common_41470" [label=7; weight=7; penwidth=0.5; color = 5];
+	"unitofwork_15575"  [label = "unitofwork\n(100.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "unitofwork_15575" [label=7; weight=7; penwidth=0.5; color = 5];
+	"annotation_41472"  [shape = "circle"; height=1.8; label = "annotation\n(40.45%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "annotation_41472" [label=5; weight=5; penwidth=0.5; color = 5];
+	"configuration_15579"  [shape = "circle"; height=1.8; label = "configuration\n(63.1%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "configuration_15579" [label=4; weight=4; penwidth=0.5; color = 5];
+	"core_15567"  [label = "core\n(100.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "core_15567" [label=4; weight=4; penwidth=0.5; color = 5];
+	"errorhandling_15556"  [label = "errorhandling\n(67.14%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "errorhandling_15556" [label=4; weight=4; penwidth=0.5; color = 5];
+	"monitoring_15526"  [shape = "circle"; height=1.8; label = "monitoring\n(0.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "monitoring_15526" [label=4; weight=4; penwidth=0.5; color = 5];
+	"tracing_15581"  [shape = "circle"; height=1.8; label = "tracing\n(60.73%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "tracing_15581" [label=3; weight=3; penwidth=0.5; color = 5];
+	"annotation_15538"  [label = "annotation\n(100.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "annotation_15538" [label=2; weight=2; penwidth=0.4; color = 5];
+	"infra_41478"  [label = "infra\n(73.35%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "infra_41478" [label=2; weight=2; penwidth=0.4; color = 5];
+	"configuration_15528"  [shape = "circle"; height=1.8; label = "configuration\n(0.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "configuration_15528" [label=1; weight=1; penwidth=0.4; color = 5];
+	"interception_15570"  [shape = "circle"; height=1.8; label = "interception\n(64.44%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "interception_15570" [label=1; weight=1; penwidth=0.4; color = 5];
+	"annotation_15568"  [label = "annotation\n(73.66%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "annotation_15568" [label=0; weight=0; penwidth=0.4; color = 5];
+	"annotation_15568" -> "core_15567" [label=83; weight=83; penwidth=0.3; color = 3]
+	"interception_15570" -> "core_15567" [label=62; weight=62; penwidth=0.3; color = 3]
+	"configuration_15579" -> "configuration_41482" [label=61; weight=61; penwidth=0.3; color = 3]
+	"eventhandling_15537" -> "core_15567" [label=55; weight=55; penwidth=0.3; color = 3]
+	"unitofwork_15575" -> "core_15567" [label=55; weight=55; penwidth=0.3; color = 3]
+	"pooled_15553" -> "common_41470" [label=52; weight=52; penwidth=0.3; color = 3]
+	"pooled_15553" -> "unitofwork_15575" [label=44; weight=44; penwidth=0.3; color = 3]
+	"annotation_15538" -> "annotation_15568" [label=43; weight=43; penwidth=0.3; color = 3]
+	"core_15567" -> "common_41470" [label=43; weight=43; penwidth=0.3; color = 3]
+	"pooled_15553" -> "core_15567" [label=37; weight=37; penwidth=0.3; color = 3]
+	"configuration_46822" -> "configuration_41482" [label=34; weight=34; penwidth=0.3; color = 3]
+	"interception_15570" -> "configuration_41482" [label=32; weight=32; penwidth=0.3; color = 3]
+	"interception_15570" -> "common_41470" [label=29; weight=29; penwidth=0.3; color = 3]
+	"configuration_15579" -> "interception_15570" [label=26; weight=26; penwidth=0.3; color = 3]
+	"configuration_41482" -> "common_41470" [label=24; weight=24; penwidth=0.3; color = 3]
+	"pooled_15553" -> "configuration_41482" [label=23; weight=23; penwidth=0.3; color = 3]
+	"pooled_15553" -> "eventhandling_15537" [label=20; weight=20; penwidth=0.3; color = 3]
+	"annotation_15568" -> "common_41470" [label=19; weight=19; penwidth=0.3; color = 3]
+	"configuration_15528" -> "configuration_41482" [label=19; weight=19; penwidth=0.3; color = 3]
+	"subscribing_15555" -> "configuration_41482" [label=18; weight=18; penwidth=0.3; color = 3]
+	"annotation_15568" -> "annotation_41472" [label=16; weight=16; penwidth=0.3; color = 3]
+	"annotation_15538" -> "core_15567" [label=15; weight=15; penwidth=0.3; color = 3]
+	"configuration_46822" -> "common_41470" [label=15; weight=15; penwidth=0.3; color = 3]
+	"configuration_15528" -> "common_41470" [label=15; weight=15; penwidth=0.3; color = 3]
+	"annotation_15568" -> "unitofwork_15575" [label=14; weight=14; penwidth=0.3; color = 3]
+	"annotation_15538" -> "eventhandling_15537" [label=12; weight=12; penwidth=0.3; color = 3]
+	"configuration_15528" -> "monitoring_15526" [label=12; weight=12; penwidth=0.3; color = 3]
+	"tracing_15557" -> "tracing_15581" [label=11; weight=11; penwidth=0.3; color = 3]
+	"unitofwork_15575" -> "common_41470" [label=11; weight=11; penwidth=0.3; color = 3]
+	"configuration_15579" -> "configuration_15528" [label=10; weight=10; penwidth=0.3; color = 3]
+	"configuration_15579" -> "core_15567" [label=9; weight=9; penwidth=0.3; color = 3]
+	"eventhandling_15537" -> "unitofwork_15575" [label=9; weight=9; penwidth=0.3; color = 3]
+	"eventhandling_15537" -> "common_41470" [label=9; weight=9; penwidth=0.3; color = 3]
+	"subscribing_15555" -> "common_41470" [label=9; weight=9; penwidth=0.3; color = 3]
+	"tracing_15581" -> "core_15567" [label=9; weight=9; penwidth=0.3; color = 3]
+	"configuration_41482" -> "infra_41478" [label=8; weight=8; penwidth=0.3; color = 3]
+	"configuration_15579" -> "monitoring_15526" [label=7; weight=7; penwidth=0.3; color = 3]
+	"eventhandling_15537" -> "annotation_41472" [label=7; weight=7; penwidth=0.3; color = 3]
+	"pooled_15553" -> "annotation_41472" [label=7; weight=7; penwidth=0.3; color = 3]
+	"configuration_15579" -> "unitofwork_15575" [label=6; weight=6; penwidth=0.3; color = 3]
+	"interception_15570" -> "unitofwork_15575" [label=6; weight=6; penwidth=0.3; color = 3]
+	"pooled_15553" -> "errorhandling_15556" [label=6; weight=6; penwidth=0.3; color = 3]
+	"tracing_15557" -> "eventhandling_15537" [label=6; weight=6; penwidth=0.3; color = 3]
+	"tracing_15557" -> "common_41470" [label=6; weight=6; penwidth=0.3; color = 3]
+	"core_15567" -> "unitofwork_15575" [label=5; weight=5; penwidth=0.3; color = 3]
+	"core_15567" -> "annotation_41472" [label=5; weight=5; penwidth=0.3; color = 3]
+	"infra_41478" -> "configuration_41482" [label=5; weight=5; penwidth=0.3; color = 3]
+	"interception_15570" -> "annotation_41472" [label=5; weight=5; penwidth=0.3; color = 3]
+	"pooled_15553" -> "infra_41478" [label=5; weight=5; penwidth=0.3; color = 3]
+	"subscribing_15555" -> "annotation_41472" [label=5; weight=5; penwidth=0.3; color = 3]
+	"subscribing_15555" -> "core_15567" [label=5; weight=5; penwidth=0.3; color = 3]
+	"tracing_15581" -> "annotation_15568" [label=5; weight=5; penwidth=0.3; color = 3]
+	"eventhandling_15537" -> "infra_41478" [label=4; weight=4; penwidth=0.3; color = 3]
+	"interception_15570" -> "eventhandling_15537" [label=4; weight=4; penwidth=0.3; color = 3]
+	"subscribing_15555" -> "unitofwork_15575" [label=4; weight=4; penwidth=0.3; color = 3]
+	"subscribing_15555" -> "eventhandling_15537" [label=4; weight=4; penwidth=0.3; color = 3]
+	"tracing_15557" -> "core_15567" [label=4; weight=4; penwidth=0.3; color = 3]
+	"annotation_41472" -> "common_41470" [label=3; weight=3; penwidth=0.3; color = 3]
+	"annotation_15538" -> "annotation_41472" [label=3; weight=3; penwidth=0.3; color = 3]
+	"annotation_15538" -> "unitofwork_15575" [label=3; weight=3; penwidth=0.3; color = 3]
+	"annotation_15538" -> "common_41470" [label=3; weight=3; penwidth=0.3; color = 3]
+	"configuration_41482" -> "annotation_41472" [label=3; weight=3; penwidth=0.3; color = 3]
+	"infra_41478" -> "common_41470" [label=3; weight=3; penwidth=0.3; color = 3]
+	"interception_15570" -> "infra_41478" [label=3; weight=3; penwidth=0.3; color = 3]
+	"subscribing_15555" -> "errorhandling_15556" [label=3; weight=3; penwidth=0.3; color = 3]
+	"tracing_15581" -> "common_41470" [label=3; weight=3; penwidth=0.3; color = 3]
+	"configuration_15579" -> "eventhandling_15537" [label=2; weight=2; penwidth=0.3; color = 3]
+	"configuration_15579" -> "annotation_15568" [label=2; weight=2; penwidth=0.3; color = 3]
+	"configuration_46822" -> "eventhandling_15537" [label=2; weight=2; penwidth=0.3; color = 3]
+	"configuration_15528" -> "core_15567" [label=2; weight=2; penwidth=0.3; color = 3]
+	"configuration_15528" -> "eventhandling_15537" [label=2; weight=2; penwidth=0.3; color = 3]
+	"monitoring_15526" -> "core_15567" [label=2; weight=2; penwidth=0.3; color = 3]
+	"subscribing_15555" -> "infra_41478" [label=2; weight=2; penwidth=0.3; color = 3]
+	"unitofwork_15575" -> "configuration_41482" [label=2; weight=2; penwidth=0.3; color = 3]
+	"annotation_15538" -> "configuration_41482" [label=1; weight=1; penwidth=0.3; color = 3]
+	"annotation_15568" -> "annotation_15538" [label=1; weight=1; penwidth=0.3; color = 3]
+	"configuration_46822" -> "annotation_15568" [label=1; weight=1; penwidth=0.3; color = 3]
+	"configuration_46822" -> "configuration_15579" [label=1; weight=1; penwidth=0.3; color = 3]
+	"configuration_46822" -> "core_15567" [label=1; weight=1; penwidth=0.3; color = 3]
+	"configuration_46822" -> "interception_15570" [label=1; weight=1; penwidth=0.3; color = 3]
+	"configuration_46822" -> "annotation_41472" [label=1; weight=1; penwidth=0.3; color = 3]
+	"configuration_15528" -> "infra_41478" [label=1; weight=1; penwidth=0.3; color = 3]
+	"core_15567" -> "annotation_15568" [label=1; weight=1; penwidth=0.3; color = 3]
+	"core_15567" -> "configuration_41482" [label=1; weight=1; penwidth=0.3; color = 3]
+	"errorhandling_15556" -> "eventhandling_15537" [label=1; weight=1; penwidth=0.3; color = 3]
+	"errorhandling_15556" -> "core_15567" [label=1; weight=1; penwidth=0.3; color = 3]
+	"monitoring_15526" -> "common_41470" [label=1; weight=1; penwidth=0.3; color = 3]
+	"pooled_15553" -> "monitoring_15526" [label=1; weight=1; penwidth=0.3; color = 3]
+	"unitofwork_15575" -> "annotation_41472" [label=1; weight=1; penwidth=0.3; color = 3]
+	"core_15567" -> "eventhandling_15537" [label=0; weight=0; penwidth=0.3; color = 3]
+	"pooled_15553" -> "tracing_15557" [label=0; weight=0; penwidth=0.3; color = 3]
+	"subscribing_15555" -> "monitoring_15526" [label=0; weight=0; penwidth=0.3; color = 3]
+	"subscribing_15555" -> "tracing_15557" [label=0; weight=0; penwidth=0.3; color = 3]
+	"tracing_15557" -> "unitofwork_15575" [label=0; weight=0; penwidth=0.3; color = 3]
+	"tracing_15581" -> "unitofwork_15575" [label=0; weight=0; penwidth=0.3; color = 3]
 }

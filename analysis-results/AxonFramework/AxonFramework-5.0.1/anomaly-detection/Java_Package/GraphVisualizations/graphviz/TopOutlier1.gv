@@ -12,65 +12,14 @@ strict digraph TopOutlier1 {
     central [fontsize = 16;];
     central [color = 7; fillcolor = 5; penwidth = 3;];
 
-	graph   [label="Top Rank #1 Java Package Outlier\norg.axonframework.messaging.eventhandling.conversion\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: cluster probability\nlarge circle: < 25% percentile of cluster probability\nthick outline: > 80% percentile of distance to cluster center\n\n"];
-	central [label="🧩 outlier #1\nconversion"];
-	"autoconfig_8420"  [label = "autoconfig\n(82.31%)"; penwidth = 2; ]; "autoconfig_8420" -> central [label=7; weight=7; penwidth=0.5];
-	"configuration_15579"  [label = "configuration\n(100.0%)"; penwidth = 2; ]; "configuration_15579" -> central [label=5; weight=5; penwidth=0.5];
-	"event_23"  [label = "event\n(87.92%)"; penwidth = 2; ]; "event_23" -> central [label=2; weight=2; penwidth=0.4];
-	"annotation_11154"  [label = "annotation\n(100.0%)"; penwidth = 2; ]; "annotation_11154" -> central [label=1; weight=1; penwidth=0.4];
-	"annotation_11152"  [label = "annotation\n(100.0%)"; penwidth = 2; ]; "annotation_11152" -> central [label=1; weight=1; penwidth=0.4];
-	"configuration_46826"  [shape = "circle"; height=1.8; label = "configuration\n(0.0%)"; penwidth = 2; ]; "configuration_46826" -> central [label=1; weight=1; penwidth=0.4];
-	"jpa_46825"  [shape = "circle"; height=1.8; label = "jpa\n(57.7%)"; penwidth = 5; ]; "jpa_46825" -> central [label=1; weight=1; penwidth=0.4];
-	"reflection_46822"  [label = "reflection\n(100.0%)"; penwidth = 2; ]; "reflection_46822" -> central [label=1; weight=1; penwidth=0.4];
-	"annotation_15538"  [label = "annotation\n(100.0%)"; penwidth = 2; ]; "annotation_15538" -> central [label=0; weight=0; penwidth=0.4];
-	"sequencing_15543"  [label = "sequencing\n(88.65%)"; penwidth = 2; ]; "sequencing_15543" -> central [label=0; weight=0; penwidth=0.4];
-	"conversion_15573"  [shape = "circle"; height=1.8; label = "conversion\n(0.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "conversion_15573" [label=4; weight=4; penwidth=0.5; color = 5];
-	"eventhandling_15537"  [label = "eventhandling\n(100.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "eventhandling_15537" [label=2; weight=2; penwidth=0.4; color = 5];
-	"annotation_41472"  [shape = "circle"; height=1.8; label = "annotation\n(0.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "annotation_41472" [label=1; weight=1; penwidth=0.4; color = 5];
-	"conversion_37922"  [label = "conversion\n(100.0%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "conversion_37922" [label=0; weight=0; penwidth=0.4; color = 5];
-	"infra_41478"  [label = "infra\n(84.4%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "infra_41478" [label=0; weight=0; penwidth=0.4; color = 5];
-	"event_23" -> "eventhandling_15537" [label=16; weight=16; penwidth=0.3; color = 3]
-	"autoconfig_8420" -> "jpa_46825" [label=15; weight=15; penwidth=0.3; color = 3]
-	"annotation_15538" -> "eventhandling_15537" [label=12; weight=12; penwidth=0.3; color = 3]
-	"jpa_46825" -> "eventhandling_15537" [label=8; weight=8; penwidth=0.3; color = 3]
-	"annotation_11154" -> "annotation_41472" [label=7; weight=7; penwidth=0.3; color = 3]
-	"autoconfig_8420" -> "conversion_37922" [label=7; weight=7; penwidth=0.3; color = 3]
-	"eventhandling_15537" -> "annotation_41472" [label=7; weight=7; penwidth=0.3; color = 3]
-	"annotation_11154" -> "annotation_11152" [label=6; weight=6; penwidth=0.3; color = 3]
-	"event_23" -> "annotation_41472" [label=6; weight=6; penwidth=0.3; color = 3]
-	"eventhandling_15537" -> "sequencing_15543" [label=5; weight=5; penwidth=0.3; color = 3]
-	"annotation_11154" -> "conversion_37922" [label=4; weight=4; penwidth=0.3; color = 3]
-	"annotation_15538" -> "sequencing_15543" [label=4; weight=4; penwidth=0.3; color = 3]
-	"autoconfig_8420" -> "conversion_15573" [label=4; weight=4; penwidth=0.3; color = 3]
-	"configuration_15579" -> "conversion_15573" [label=4; weight=4; penwidth=0.3; color = 3]
-	"configuration_46826" -> "annotation_11154" [label=4; weight=4; penwidth=0.3; color = 3]
-	"eventhandling_15537" -> "infra_41478" [label=4; weight=4; penwidth=0.3; color = 3]
-	"eventhandling_15537" -> "conversion_37922" [label=4; weight=4; penwidth=0.3; color = 3]
-	"reflection_46822" -> "annotation_41472" [label=4; weight=4; penwidth=0.3; color = 3]
-	"annotation_11154" -> "conversion_15573" [label=3; weight=3; penwidth=0.3; color = 3]
-	"annotation_15538" -> "annotation_41472" [label=3; weight=3; penwidth=0.3; color = 3]
-	"event_23" -> "infra_41478" [label=3; weight=3; penwidth=0.3; color = 3]
-	"sequencing_15543" -> "eventhandling_15537" [label=3; weight=3; penwidth=0.3; color = 3]
-	"annotation_11154" -> "infra_41478" [label=2; weight=2; penwidth=0.3; color = 3]
-	"annotation_11152" -> "annotation_11154" [label=2; weight=2; penwidth=0.3; color = 3]
-	"configuration_15579" -> "eventhandling_15537" [label=2; weight=2; penwidth=0.3; color = 3]
-	"configuration_46826" -> "eventhandling_15537" [label=2; weight=2; penwidth=0.3; color = 3]
-	"conversion_15573" -> "conversion_37922" [label=2; weight=2; penwidth=0.3; color = 3]
-	"annotation_11154" -> "eventhandling_15537" [label=1; weight=1; penwidth=0.3; color = 3]
-	"annotation_11152" -> "eventhandling_15537" [label=1; weight=1; penwidth=0.3; color = 3]
-	"autoconfig_8420" -> "eventhandling_15537" [label=1; weight=1; penwidth=0.3; color = 3]
-	"configuration_15579" -> "conversion_37922" [label=1; weight=1; penwidth=0.3; color = 3]
-	"configuration_46826" -> "annotation_41472" [label=1; weight=1; penwidth=0.3; color = 3]
-	"configuration_46826" -> "conversion_15573" [label=1; weight=1; penwidth=0.3; color = 3]
-	"configuration_46826" -> "configuration_15579" [label=1; weight=1; penwidth=0.3; color = 3]
-	"configuration_46826" -> "annotation_11152" [label=1; weight=1; penwidth=0.3; color = 3]
-	"conversion_15573" -> "annotation_41472" [label=1; weight=1; penwidth=0.3; color = 3]
-	"conversion_37922" -> "infra_41478" [label=1; weight=1; penwidth=0.3; color = 3]
-	"jpa_46825" -> "infra_41478" [label=1; weight=1; penwidth=0.3; color = 3]
-	"jpa_46825" -> "annotation_41472" [label=1; weight=1; penwidth=0.3; color = 3]
-	"reflection_46822" -> "eventhandling_15537" [label=1; weight=1; penwidth=0.3; color = 3]
-	"sequencing_15543" -> "annotation_41472" [label=1; weight=1; penwidth=0.3; color = 3]
-	"annotation_15538" -> "conversion_37922" [label=0; weight=0; penwidth=0.3; color = 3]
-	"conversion_15573" -> "infra_41478" [label=0; weight=0; penwidth=0.3; color = 3]
-	"jpa_46825" -> "conversion_37922" [label=0; weight=0; penwidth=0.3; color = 3]
+	graph   [label="Top Rank #1 Java Package Outlier\norg.axonframework.messaging.core.unitofwork.transaction\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: cluster probability\nlarge circle: < 25% percentile of cluster probability\nthick outline: > 80% percentile of distance to cluster center\n\n"];
+	central [label="🧩 outlier #1\ntransaction"];
+	"autoconfig_8420"  [label = "autoconfig\n(70.1%)"; penwidth = 2; ]; "autoconfig_8420" -> central [label=2; weight=2; penwidth=0.4];
+	"configuration_15579"  [shape = "circle"; height=1.8; label = "configuration\n(63.1%)"; penwidth = 2; ]; "configuration_15579" -> central [label=2; weight=2; penwidth=0.4];
+	"jpa_46821"  [shape = "circle"; height=1.8; label = "jpa\n(0.0%)"; penwidth = 2; ]; "jpa_46821" -> central [label=2; weight=2; penwidth=0.4];
+	"unitofwork_15575"  [label = "unitofwork\n(100.0%)"; penwidth = 2; ]; "unitofwork_15575" -> central [label=2; weight=2; penwidth=0.4];
+	"unitofwork_15575"  [label = "unitofwork\n(100.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "unitofwork_15575" [label=5; weight=5; penwidth=0.5; color = 5];
+	"autoconfig_8420" -> "jpa_46821" [label=15; weight=15; penwidth=0.3; color = 3]
+	"configuration_15579" -> "unitofwork_15575" [label=6; weight=6; penwidth=0.3; color = 3]
+	"jpa_46821" -> "unitofwork_15575" [label=2; weight=2; penwidth=0.3; color = 3]
 }

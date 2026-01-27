@@ -31,7 +31,7 @@
 "io.opentelemetry.api.trace",1,3,9,46,113,1199,"SpanBuilder,Span,SpanContext,StatusCode,Tracer,SpanKind",""
 "io.opentelemetry.context.propagation",1,4,9,15,113,1199,"TextMapSetter,TextMapGetter,TextMapPropagator,ContextPropagators",""
 "jakarta.validation",1,2,5,16,113,1199,"Validation,ConstraintViolation,Validator,ValidatorFactory",""
-"javax.cache.configuration",1,2,3,9,113,1199,"Factory,CacheEntryListenerConfiguration",""
+"javax.cache.configuration",1,2,3,9,113,1199,"CacheEntryListenerConfiguration,Factory",""
 "javax.cache.event",1,1,8,26,113,1199,"CacheEntryEventFilter,CacheEntryListenerException,CacheEntryExpiredListener,CacheEntryListener,CacheEntryEvent,CacheEntryCreatedListener,CacheEntryUpdatedListener,CacheEntryRemovedListener",""
 "org.apache.avro.generic",1,6,7,30,113,1199,"GenericRecord,GenericData,GenericDatumReader",""
 "org.apache.avro.specific",1,2,4,14,113,1199,"SpecificData,SpecificRecordBase",""

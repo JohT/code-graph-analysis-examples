@@ -563,7 +563,7 @@ Only the top 20 entries are shown. The whole table can be found in the following
       <td>48</td>
       <td>113</td>
       <td>1199</td>
-      <td>[CacheEntryRemovedListener, CacheEntryListener...</td>
+      <td>[CacheEntryListenerConfiguration, Cache, Cache...</td>
     </tr>
     <tr>
       <th>17</th>
@@ -3408,7 +3408,7 @@ Only the last 30 entries are shown. The whole table can be found in the followin
       <td>100.000000</td>
       <td>62.000000</td>
       <td>[org.axonframework.eventsourcing, org.axonfram...</td>
-      <td>[org.axonframework.eventsourcing.EventSourcing...</td>
+      <td>[org.axonframework.eventsourcing.EventSourcedE...</td>
     </tr>
     <tr>
       <th>12</th>
@@ -3810,7 +3810,7 @@ The following table groups the external packages by their first two levels. For 
       <td>100.000000</td>
       <td>62.000000</td>
       <td>[org.axonframework.eventsourcing, org.axonfram...</td>
-      <td>[org.axonframework.eventsourcing.EventSourcing...</td>
+      <td>[org.axonframework.eventsourcing.EventSourcedE...</td>
     </tr>
     <tr>
       <th>5</th>
@@ -5006,7 +5006,7 @@ Only the last 40 entries are shown. The whole table can be found in the followin
       <td>419</td>
       <td>6</td>
       <td>[jakarta.annotation, jakarta.persistence, org....</td>
-      <td>[Nonnull, Nullable, TypedQuery, EntityManager,...</td>
+      <td>[Nonnull, Nullable, GeneratedValue, Column, Lo...</td>
     </tr>
     <tr>
       <th>7</th>
@@ -5018,8 +5018,8 @@ Only the last 40 entries are shown. The whole table can be found in the followin
       <td>109</td>
       <td>524</td>
       <td>11</td>
-      <td>[jakarta.annotation, org.slf4j, org.ehcache.ev...</td>
-      <td>[Nonnull, Nullable, LoggerFactory, Logger, Eve...</td>
+      <td>[jakarta.annotation, org.slf4j, javax.cache.ev...</td>
+      <td>[Nonnull, Nullable, Logger, LoggerFactory, Cac...</td>
     </tr>
     <tr>
       <th>8</th>
@@ -5249,22 +5249,22 @@ Only the last 40 entries are shown. The whole table can be found in the followin
       <th>13</th>
       <td>axon-common-5.0.1</td>
       <td>org.axonframework.common.caching</td>
-      <td>javax.cache.event</td>
+      <td>org.ehcache.event</td>
       <td>8</td>
-      <td>26</td>
+      <td>30</td>
       <td>13</td>
-      <td>[CacheEntryRemovedListener, CacheEntryUpdatedL...</td>
+      <td>[EventType, CacheEventListener, CacheEvent, Ev...</td>
       <td>caching</td>
     </tr>
     <tr>
       <th>14</th>
       <td>axon-common-5.0.1</td>
       <td>org.axonframework.common.caching</td>
-      <td>org.ehcache.event</td>
+      <td>javax.cache.event</td>
       <td>8</td>
-      <td>30</td>
+      <td>26</td>
       <td>13</td>
-      <td>[EventType, CacheEventListener, CacheEvent, Ev...</td>
+      <td>[CacheEntryRemovedListener, CacheEntryUpdatedL...</td>
       <td>caching</td>
     </tr>
     <tr>
@@ -5370,22 +5370,22 @@ Only the last 40 entries are shown. The whole table can be found in the followin
       <th>24</th>
       <td>axon-eventsourcing-5.0.1</td>
       <td>org.axonframework.eventsourcing.eventstore.jpa</td>
-      <td>org.slf4j</td>
+      <td>jakarta.persistence</td>
       <td>7</td>
-      <td>16</td>
+      <td>41</td>
       <td>13</td>
-      <td>[Logger, LoggerFactory]</td>
+      <td>[EntityExistsException, GenerationType, Index,...</td>
       <td>jpa</td>
     </tr>
     <tr>
       <th>25</th>
       <td>axon-eventsourcing-5.0.1</td>
       <td>org.axonframework.eventsourcing.eventstore.jpa</td>
-      <td>jakarta.persistence</td>
+      <td>org.slf4j</td>
       <td>7</td>
-      <td>41</td>
+      <td>16</td>
       <td>13</td>
-      <td>[EntityExistsException, TypedQuery, EntityMana...</td>
+      <td>[Logger, LoggerFactory]</td>
       <td>jpa</td>
     </tr>
     <tr>
@@ -6864,46 +6864,46 @@ If Maven is used as for package and dependency management and a ".pom" file is i
       <th>0</th>
       <td>axon-common</td>
       <td>Axon Framework - Common</td>
-      <td>default</td>
-      <td>True</td>
-      <td>jakarta.persistence</td>
-      <td>jakarta.persistence-api</td>
+      <td>test</td>
+      <td>False</td>
+      <td>org.springframework</td>
+      <td>spring-test</td>
     </tr>
     <tr>
       <th>1</th>
       <td>axon-common</td>
       <td>Axon Framework - Common</td>
-      <td>default</td>
+      <td>test</td>
       <td>False</td>
-      <td>org.slf4j</td>
-      <td>slf4j-api</td>
+      <td>org.springframework</td>
+      <td>spring-context-support</td>
     </tr>
     <tr>
       <th>2</th>
       <td>axon-common</td>
       <td>Axon Framework - Common</td>
-      <td>default</td>
+      <td>test</td>
       <td>False</td>
-      <td>com.fasterxml.jackson.core</td>
-      <td>jackson-core</td>
+      <td>org.glassfish.expressly</td>
+      <td>expressly</td>
     </tr>
     <tr>
       <th>3</th>
       <td>axon-common</td>
       <td>Axon Framework - Common</td>
-      <td>default</td>
-      <td>True</td>
-      <td>org.hibernate.orm</td>
-      <td>hibernate-core</td>
+      <td>test</td>
+      <td>False</td>
+      <td>org.springframework.security</td>
+      <td>spring-security-config</td>
     </tr>
     <tr>
       <th>4</th>
       <td>axon-common</td>
       <td>Axon Framework - Common</td>
-      <td>provided</td>
+      <td>test</td>
       <td>False</td>
-      <td>com.google.code.findbugs</td>
-      <td>jsr305</td>
+      <td>com.tngtech.archunit</td>
+      <td>archunit-junit5</td>
     </tr>
     <tr>
       <th>...</th>

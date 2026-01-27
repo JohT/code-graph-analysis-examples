@@ -42,7 +42,7 @@ strict digraph TopAuthority4 {
 	"EventProcessorConfiguration_23004"  [label = "EventProcessorConfiguration\n(1.27%)"; penwidth = 2; ]; "EventProcessorConfiguration_23004" -> central [label=1; weight=1; penwidth=0.4];
 	"EventSink_19979"  [label = "EventSink\n(1.06%)"; penwidth = 2; ]; "EventSink_19979" -> central [label=1; weight=1; penwidth=0.4];
 	"EventStorageEngine_48120"  [label = "EventStorageEngine\n(0.18%)"; penwidth = 2; ]; "EventStorageEngine_48120" -> central [label=1; weight=1; penwidth=0.4];
-	"EventStore_46875"  [label = "EventStore\n(0.36%)"; penwidth = 2; ]; "EventStore_46875" -> central [label=1; weight=1; penwidth=0.4];
+	"EventStore_46871"  [label = "EventStore\n(0.36%)"; penwidth = 2; ]; "EventStore_46871" -> central [label=1; weight=1; penwidth=0.4];
 	"EventSubscribers_19941"  [label = "EventSubscribers\n(0.07%)"; penwidth = 2; ]; "EventSubscribers_19941" -> central [label=1; weight=1; penwidth=0.4];
 	"FieldChildEntityFieldDefinition_13682"  [label = "FieldChildEntityFieldDefinition\n(1.03%)"; penwidth = 5; ]; "FieldChildEntityFieldDefinition_13682" -> central [label=1; weight=1; penwidth=0.4];
 	"HandlerInterceptorRegistry_25964"  [label = "HandlerInterceptorRegistry\n(0.23%)"; penwidth = 2; ]; "HandlerInterceptorRegistry_25964" -> central [label=1; weight=1; penwidth=0.4];
@@ -96,6 +96,6 @@ strict digraph TopAuthority4 {
 	"EntityMetamodel_12489" -> "PolymorphicEntityMetamodel_12512" [label=1; weight=1; penwidth=0.3; color = 3]
 	"EntityMetamodel_12489" -> "ConcreteEntityMetamodel_13656" [label=1; weight=1; penwidth=0.3; color = 3]
 	"EventBus_19981" -> "EventSink_19979" [label=1; weight=1; penwidth=0.3; color = 3]
-	"EventStore_46875" -> "EventBus_19981" [label=1; weight=1; penwidth=0.3; color = 3]
+	"EventStore_46871" -> "EventBus_19981" [label=1; weight=1; penwidth=0.3; color = 3]
 	"JacksonComponentDescriptor_43708" -> "ComponentDescriptor_44113" [label=1; weight=1; penwidth=0.3; color = 3]
 }

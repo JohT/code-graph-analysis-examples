@@ -12,137 +12,24 @@ strict digraph TopOutlier4 {
     central [fontsize = 16;];
     central [color = 7; fillcolor = 5; penwidth = 3;];
 
-	graph   [label="Top Rank #4 Java Type Outlier\norg.axonframework.messaging.eventhandling.processing.streaming.token.TrackingToken\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: cluster probability\nlarge circle: < 25% percentile of cluster probability\nthick outline: > 80% percentile of distance to cluster center\n\n"];
-	central [label="🧩 outlier #4\nTrackingToken"];
-	"MergedTrackingToken_32547"  [label = "MergedTrackingToken\n(100.0%)"; penwidth = 2; ]; "MergedTrackingToken_32547" -> central [label=44; weight=44; penwidth=1.1];
-	"ReplayToken_29328"  [label = "ReplayToken\n(100.0%)"; penwidth = 2; ]; "ReplayToken_29328" -> central [label=41; weight=41; penwidth=1.1];
-	"JdbcTokenStore_31522"  [label = "JdbcTokenStore\n(100.0%)"; penwidth = 2; ]; "JdbcTokenStore_31522" -> central [label=24; weight=24; penwidth=0.8];
-	"WorkPackage_32209"  [label = "WorkPackage\n(100.0%)"; penwidth = 2; ]; "WorkPackage_32209" -> central [label=23; weight=23; penwidth=0.8];
-	"WrappedToken_31460"  [label = "WrappedToken\n(53.71%)"; penwidth = 2; ]; "WrappedToken_31460" -> central [label=16; weight=16; penwidth=0.7];
-	"Coordinator$CoordinationTask_32549"  [label = "Coordinator$\nCoordinationTask\n(100.0%)"; penwidth = 2; ]; "Coordinator$CoordinationTask_32549" -> central [label=15; weight=15; penwidth=0.6];
-	"GlobalSequenceTrackingToken_31463"  [shape = "circle"; height=1.8; label = "GlobalSequenceTrackingToken\n(0.0%)"; penwidth = 2; ]; "GlobalSequenceTrackingToken_31463" -> central [label=12; weight=12; penwidth=0.6];
-	"InMemoryTokenStore_31527"  [shape = "circle"; height=1.8; label = "InMemoryTokenStore\n(0.0%)"; penwidth = 2; ]; "InMemoryTokenStore_31527" -> central [label=9; weight=9; penwidth=0.5];
-	"TrackerStatus_33438"  [label = "TrackerStatus\n(33.57%)"; penwidth = 5; ]; "TrackerStatus_33438" -> central [label=9; weight=9; penwidth=0.5];
-	"MergeTask_34677"  [label = "MergeTask\n(85.78%)"; penwidth = 5; ]; "MergeTask_34677" -> central [label=8; weight=8; penwidth=0.5];
-	"AggregateBasedJpaEventStorageEngine_17760"  [label = "AggregateBasedJpaEventStorageEngine\n(100.0%)"; penwidth = 2; ]; "AggregateBasedJpaEventStorageEngine_17760" -> central [label=7; weight=7; penwidth=0.5];
-	"Coordinator$NoToken_32204"  [label = "Coordinator$\nNoToken\n(100.0%)"; penwidth = 2; ]; "Coordinator$NoToken_32204" -> central [label=7; weight=7; penwidth=0.5];
-	"GapAwareTrackingToken_29713"  [label = "GapAwareTrackingToken\n(74.2%)"; penwidth = 2; ]; "GapAwareTrackingToken_29713" -> central [label=7; weight=7; penwidth=0.5];
-	"JpaTokenStore_32545"  [label = "JpaTokenStore\n(100.0%)"; penwidth = 2; ]; "JpaTokenStore_32545" -> central [label=7; weight=7; penwidth=0.5];
-	"TrackingTokenParameterResolverFactory$TrackingTokenParameterResolver_31525"  [label = "TrackingTokenParameterResolverFactory$\nTrackingTokenParameterResolver\n(100.0%)"; penwidth = 2; ]; "TrackingTokenParameterResolverFactory$TrackingTokenParameterResolver_31525" -> central [label=7; weight=7; penwidth=0.5];
-	"AxonServerEventStorageEngine_9290"  [label = "AxonServerEventStorageEngine\n(26.05%)"; penwidth = 5; ]; "AxonServerEventStorageEngine_9290" -> central [label=6; weight=6; penwidth=0.5];
-	"ConfigToken_31449"  [label = "ConfigToken\n(96.4%)"; penwidth = 2; ]; "ConfigToken_31449" -> central [label=6; weight=6; penwidth=0.5];
-	"FirstTrackingToken_32546"  [label = "FirstTrackingToken\n(100.0%)"; penwidth = 2; ]; "FirstTrackingToken_32546" -> central [label=6; weight=6; penwidth=0.5];
-	"LatestTrackingToken_31524"  [label = "LatestTrackingToken\n(100.0%)"; penwidth = 2; ]; "LatestTrackingToken_31524" -> central [label=6; weight=6; penwidth=0.5];
-	"PooledStreamingEventProcessor_33411"  [label = "PooledStreamingEventProcessor\n(99.01%)"; penwidth = 2; ]; "PooledStreamingEventProcessor_33411" -> central [label=6; weight=6; penwidth=0.5];
-	"TokenEntry_32544"  [label = "TokenEntry\n(100.0%)"; penwidth = 2; ]; "TokenEntry_32544" -> central [label=6; weight=6; penwidth=0.5];
-	"InMemoryEventStorageEngine_16397"  [label = "InMemoryEventStorageEngine\n(100.0%)"; penwidth = 5; ]; "InMemoryEventStorageEngine_16397" -> central [label=5; weight=5; penwidth=0.5];
-	"JdbcTokenEntry_31450"  [label = "JdbcTokenEntry\n(100.0%)"; penwidth = 2; ]; "JdbcTokenEntry_31450" -> central [label=5; weight=5; penwidth=0.5];
-	"TokenStore_31529"  [label = "TokenStore\n(96.14%)"; penwidth = 2; ]; "TokenStore_31529" -> central [label=5; weight=5; penwidth=0.5];
-	"AggregateBasedAxonServerEventStorageEngine_8418"  [shape = "circle"; height=1.8; label = "AggregateBasedAxonServerEventStorageEngine\n(0.0%)"; penwidth = 2; ]; "AggregateBasedAxonServerEventStorageEngine_8418" -> central [label=4; weight=4; penwidth=0.5];
-	"Coordinator$Builder_33417"  [label = "Coordinator$\nBuilder\n(100.0%)"; penwidth = 2; ]; "Coordinator$Builder_33417" -> central [label=4; weight=4; penwidth=0.5];
-	"StreamingEventProcessor_32587"  [label = "StreamingEventProcessor\n(61.18%)"; penwidth = 2; ]; "StreamingEventProcessor_32587" -> central [label=4; weight=4; penwidth=0.5];
-	"Coordinator_32207"  [label = "Coordinator\n(100.0%)"; penwidth = 2; ]; "Coordinator_32207" -> central [label=3; weight=3; penwidth=0.4];
-	"DefaultStreamingCondition_35726"  [label = "DefaultStreamingCondition\n(59.87%)"; penwidth = 5; ]; "DefaultStreamingCondition_35726" -> central [label=3; weight=3; penwidth=0.4];
-	"EventStorageEngine_16825"  [shape = "circle"; height=1.8; label = "EventStorageEngine\n(0.0%)"; penwidth = 2; ]; "EventStorageEngine_16825" -> central [label=3; weight=3; penwidth=0.4];
-	"InMemoryTokenStore$SegmentAndToken_31540"  [shape = "circle"; height=1.8; label = "InMemoryTokenStore$\nSegmentAndToken\n(0.0%)"; penwidth = 2; ]; "InMemoryTokenStore$SegmentAndToken_31540" -> central [label=3; weight=3; penwidth=0.4];
-	"InterceptingEventStore_17755"  [shape = "circle"; height=1.8; label = "InterceptingEventStore\n(0.0%)"; penwidth = 2; ]; "InterceptingEventStore_17755" -> central [label=3; weight=3; penwidth=0.4];
-	"PooledStreamingEventProcessorConfiguration_32548"  [shape = "circle"; height=1.8; label = "PooledStreamingEventProcessorConfiguration\n(0.0%)"; penwidth = 2; ]; "PooledStreamingEventProcessorConfiguration_32548" -> central [label=3; weight=3; penwidth=0.4];
-	"RecordingEventStore_20986"  [shape = "circle"; height=1.8; label = "RecordingEventStore\n(0.0%)"; penwidth = 2; ]; "RecordingEventStore_20986" -> central [label=3; weight=3; penwidth=0.4];
-	"StartingFrom_35736"  [label = "StartingFrom\n(59.87%)"; penwidth = 2; ]; "StartingFrom_35736" -> central [label=3; weight=3; penwidth=0.4];
-	"StorageEngineBackedEventStore_16391"  [shape = "circle"; height=1.8; label = "StorageEngineBackedEventStore\n(0.0%)"; penwidth = 2; ]; "StorageEngineBackedEventStore_16391" -> central [label=3; weight=3; penwidth=0.4];
-	"StreamingCondition_33437"  [shape = "circle"; height=1.8; label = "StreamingCondition\n(0.0%)"; penwidth = 2; ]; "StreamingCondition_33437" -> central [label=3; weight=3; penwidth=0.4];
-	"TrackingTokenSource_32190"  [label = "TrackingTokenSource\n(99.01%)"; penwidth = 2; ]; "TrackingTokenSource_32190" -> central [label=3; weight=3; penwidth=0.4];
-	"WorkPackage$DefaultProcessingEntry_34678"  [label = "WorkPackage$\nDefaultProcessingEntry\n(96.9%)"; penwidth = 2; ]; "WorkPackage$DefaultProcessingEntry_34678" -> central [label=3; weight=3; penwidth=0.4];
-	"EventProcessorInfoUtils_9289"  [label = "EventProcessorInfoUtils\n(61.18%)"; penwidth = 2; ]; "EventProcessorInfoUtils_9289" -> central [label=2; weight=2; penwidth=0.4];
-	"Context_32187"  [label = "Context\n(93.84%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "Context_32187" [label=5; weight=5; penwidth=0.5; color = 5];
-	"Context$ResourceKey_28318"  [label = "Context$\nResourceKey\n(81.78%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "Context$ResourceKey_28318" [label=3; weight=3; penwidth=0.4; color = 5];
-	"FirstTrackingToken_32546"  [label = "FirstTrackingToken\n(100.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "FirstTrackingToken_32546" [label=1; weight=1; penwidth=0.4; color = 5];
-	"LatestTrackingToken_31524"  [label = "LatestTrackingToken\n(100.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "LatestTrackingToken_31524" [label=1; weight=1; penwidth=0.4; color = 5];
-	"Coordinator$CoordinationTask_32549" -> "Coordinator_32207" [label=131; weight=131; penwidth=0.3; color = 3]
-	"JdbcTokenStore_31522" -> "JdbcTokenEntry_31450" [label=41; weight=41; penwidth=0.3; color = 3]
-	"Coordinator$CoordinationTask_32549" -> "WorkPackage_32209" [label=35; weight=35; penwidth=0.3; color = 3]
-	"JpaTokenStore_32545" -> "TokenEntry_32544" [label=34; weight=34; penwidth=0.3; color = 3]
-	"PooledStreamingEventProcessor_33411" -> "PooledStreamingEventProcessorConfiguration_32548" [label=28; weight=28; penwidth=0.3; color = 3]
-	"AggregateBasedJpaEventStorageEngine_17760" -> "GapAwareTrackingToken_29713" [label=24; weight=24; penwidth=0.3; color = 3]
-	"Coordinator_32207" -> "Coordinator$Builder_33417" [label=23; weight=23; penwidth=0.3; color = 3]
-	"InMemoryTokenStore_31527" -> "InMemoryTokenStore$SegmentAndToken_31540" [label=20; weight=20; penwidth=0.3; color = 3]
-	"PooledStreamingEventProcessor_33411" -> "Coordinator$Builder_33417" [label=18; weight=18; penwidth=0.3; color = 3]
-	"ReplayToken_29328" -> "WrappedToken_31460" [label=17; weight=17; penwidth=0.3; color = 3]
-	"PooledStreamingEventProcessor_33411" -> "TrackerStatus_33438" [label=14; weight=14; penwidth=0.3; color = 3]
-	"WorkPackage_32209" -> "TrackerStatus_33438" [label=13; weight=13; penwidth=0.3; color = 3]
-	"MergedTrackingToken_32547" -> "WrappedToken_31460" [label=12; weight=12; penwidth=0.3; color = 3]
-	"TrackerStatus_33438" -> "ReplayToken_29328" [label=11; weight=11; penwidth=0.3; color = 3]
-	"AggregateBasedJpaEventStorageEngine_17760" -> "Context_32187" [label=10; weight=10; penwidth=0.3; color = 3]
-	"InMemoryEventStorageEngine_16397" -> "GlobalSequenceTrackingToken_31463" [label=10; weight=10; penwidth=0.3; color = 3]
-	"PooledStreamingEventProcessor_33411" -> "Coordinator_32207" [label=10; weight=10; penwidth=0.3; color = 3]
-	"EventProcessorInfoUtils_9289" -> "StreamingEventProcessor_32587" [label=9; weight=9; penwidth=0.3; color = 3]
-	"MergeTask_34677" -> "TokenStore_31529" [label=9; weight=9; penwidth=0.3; color = 3]
-	"TrackerStatus_33438" -> "MergedTrackingToken_32547" [label=9; weight=9; penwidth=0.3; color = 3]
-	"Coordinator_32207" -> "Coordinator$CoordinationTask_32549" [label=8; weight=8; penwidth=0.3; color = 3]
-	"AggregateBasedAxonServerEventStorageEngine_8418" -> "Context_32187" [label=7; weight=7; penwidth=0.3; color = 3]
-	"StorageEngineBackedEventStore_16391" -> "EventStorageEngine_16825" [label=7; weight=7; penwidth=0.3; color = 3]
-	"AggregateBasedAxonServerEventStorageEngine_8418" -> "GlobalSequenceTrackingToken_31463" [label=6; weight=6; penwidth=0.3; color = 3]
-	"AxonServerEventStorageEngine_9290" -> "GlobalSequenceTrackingToken_31463" [label=6; weight=6; penwidth=0.3; color = 3]
-	"Context_32187" -> "Context$ResourceKey_28318" [label=6; weight=6; penwidth=0.3; color = 3]
-	"Coordinator$CoordinationTask_32549" -> "TrackerStatus_33438" [label=5; weight=5; penwidth=0.3; color = 3]
-	"Coordinator$CoordinationTask_32549" -> "Coordinator$NoToken_32204" [label=5; weight=5; penwidth=0.3; color = 3]
-	"InterceptingEventStore_17755" -> "Context$ResourceKey_28318" [label=5; weight=5; penwidth=0.3; color = 3]
-	"JdbcTokenStore_31522" -> "ConfigToken_31449" [label=5; weight=5; penwidth=0.3; color = 3]
-	"JpaTokenStore_32545" -> "ConfigToken_31449" [label=5; weight=5; penwidth=0.3; color = 3]
-	"PooledStreamingEventProcessorConfiguration_32548" -> "TrackingTokenSource_32190" [label=5; weight=5; penwidth=0.3; color = 3]
-	"WorkPackage_32209" -> "WorkPackage$DefaultProcessingEntry_34678" [label=5; weight=5; penwidth=0.3; color = 3]
-	"MergeTask_34677" -> "WorkPackage_32209" [label=4; weight=4; penwidth=0.3; color = 3]
-	"Coordinator_32207" -> "TokenStore_31529" [label=3; weight=3; penwidth=0.3; color = 3]
-	"Coordinator$Builder_33417" -> "Coordinator_32207" [label=3; weight=3; penwidth=0.3; color = 3]
-	"Coordinator$CoordinationTask_32549" -> "TokenStore_31529" [label=3; weight=3; penwidth=0.3; color = 3]
-	"InMemoryTokenStore_31527" -> "GlobalSequenceTrackingToken_31463" [label=3; weight=3; penwidth=0.3; color = 3]
-	"PooledStreamingEventProcessorConfiguration_32548" -> "TokenStore_31529" [label=3; weight=3; penwidth=0.3; color = 3]
-	"StorageEngineBackedEventStore_16391" -> "Context$ResourceKey_28318" [label=3; weight=3; penwidth=0.3; color = 3]
-	"TrackerStatus_33438" -> "WrappedToken_31460" [label=3; weight=3; penwidth=0.3; color = 3]
-	"WorkPackage_32209" -> "TokenStore_31529" [label=3; weight=3; penwidth=0.3; color = 3]
-	"WorkPackage_32209" -> "Context_32187" [label=3; weight=3; penwidth=0.3; color = 3]
-	"AggregateBasedAxonServerEventStorageEngine_8418" -> "StreamingCondition_33437" [label=2; weight=2; penwidth=0.3; color = 3]
-	"AggregateBasedJpaEventStorageEngine_17760" -> "StreamingCondition_33437" [label=2; weight=2; penwidth=0.3; color = 3]
-	"Coordinator_32207" -> "WorkPackage_32209" [label=2; weight=2; penwidth=0.3; color = 3]
-	"Coordinator_32207" -> "MergeTask_34677" [label=2; weight=2; penwidth=0.3; color = 3]
-	"Coordinator$Builder_33417" -> "TrackerStatus_33438" [label=2; weight=2; penwidth=0.3; color = 3]
-	"Coordinator$Builder_33417" -> "WorkPackage_32209" [label=2; weight=2; penwidth=0.3; color = 3]
-	"Coordinator$Builder_33417" -> "TokenStore_31529" [label=2; weight=2; penwidth=0.3; color = 3]
-	"Coordinator$Builder_33417" -> "TrackingTokenSource_32190" [label=2; weight=2; penwidth=0.3; color = 3]
-	"DefaultStreamingCondition_35726" -> "StreamingCondition_33437" [label=2; weight=2; penwidth=0.3; color = 3]
-	"InMemoryEventStorageEngine_16397" -> "StreamingCondition_33437" [label=2; weight=2; penwidth=0.3; color = 3]
-	"MergeTask_34677" -> "MergedTrackingToken_32547" [label=2; weight=2; penwidth=0.3; color = 3]
-	"PooledStreamingEventProcessor_33411" -> "TokenStore_31529" [label=2; weight=2; penwidth=0.3; color = 3]
-	"PooledStreamingEventProcessor_33411" -> "TrackingTokenSource_32190" [label=2; weight=2; penwidth=0.3; color = 3]
-	"PooledStreamingEventProcessor_33411" -> "WorkPackage_32209" [label=2; weight=2; penwidth=0.3; color = 3]
-	"StartingFrom_35736" -> "StreamingCondition_33437" [label=2; weight=2; penwidth=0.3; color = 3]
-	"StartingFrom_35736" -> "DefaultStreamingCondition_35726" [label=2; weight=2; penwidth=0.3; color = 3]
-	"StreamingCondition_33437" -> "StartingFrom_35736" [label=2; weight=2; penwidth=0.3; color = 3]
-	"StreamingCondition_33437" -> "DefaultStreamingCondition_35726" [label=2; weight=2; penwidth=0.3; color = 3]
-	"StreamingEventProcessor_32587" -> "TrackingTokenSource_32190" [label=2; weight=2; penwidth=0.3; color = 3]
-	"WorkPackage_32209" -> "Context$ResourceKey_28318" [label=2; weight=2; penwidth=0.3; color = 3]
-	"AggregateBasedAxonServerEventStorageEngine_8418" -> "Context$ResourceKey_28318" [label=1; weight=1; penwidth=0.3; color = 3]
-	"AggregateBasedAxonServerEventStorageEngine_8418" -> "EventStorageEngine_16825" [label=1; weight=1; penwidth=0.3; color = 3]
-	"AggregateBasedJpaEventStorageEngine_17760" -> "Context$ResourceKey_28318" [label=1; weight=1; penwidth=0.3; color = 3]
-	"AggregateBasedJpaEventStorageEngine_17760" -> "EventStorageEngine_16825" [label=1; weight=1; penwidth=0.3; color = 3]
-	"AxonServerEventStorageEngine_9290" -> "EventStorageEngine_16825" [label=1; weight=1; penwidth=0.3; color = 3]
-	"AxonServerEventStorageEngine_9290" -> "StreamingCondition_33437" [label=1; weight=1; penwidth=0.3; color = 3]
-	"Coordinator_32207" -> "TrackerStatus_33438" [label=1; weight=1; penwidth=0.3; color = 3]
-	"Coordinator_32207" -> "TrackingTokenSource_32190" [label=1; weight=1; penwidth=0.3; color = 3]
-	"Coordinator_32207" -> "Coordinator$NoToken_32204" [label=1; weight=1; penwidth=0.3; color = 3]
-	"Coordinator$CoordinationTask_32549" -> "WrappedToken_31460" [label=1; weight=1; penwidth=0.3; color = 3]
-	"Coordinator$CoordinationTask_32549" -> "StreamingCondition_33437" [label=1; weight=1; penwidth=0.3; color = 3]
-	"EventStorageEngine_16825" -> "StreamingCondition_33437" [label=1; weight=1; penwidth=0.3; color = 3]
-	"InMemoryEventStorageEngine_16397" -> "EventStorageEngine_16825" [label=1; weight=1; penwidth=0.3; color = 3]
-	"InMemoryTokenStore_31527" -> "TokenStore_31529" [label=1; weight=1; penwidth=0.3; color = 3]
-	"InterceptingEventStore_17755" -> "StreamingCondition_33437" [label=1; weight=1; penwidth=0.3; color = 3]
-	"JdbcTokenStore_31522" -> "TokenStore_31529" [label=1; weight=1; penwidth=0.3; color = 3]
-	"JpaTokenStore_32545" -> "TokenStore_31529" [label=1; weight=1; penwidth=0.3; color = 3]
-	"PooledStreamingEventProcessor_33411" -> "StreamingEventProcessor_32587" [label=1; weight=1; penwidth=0.3; color = 3]
-	"PooledStreamingEventProcessorConfiguration_32548" -> "ReplayToken_29328" [label=1; weight=1; penwidth=0.3; color = 3]
-	"RecordingEventStore_20986" -> "StreamingCondition_33437" [label=1; weight=1; penwidth=0.3; color = 3]
-	"StorageEngineBackedEventStore_16391" -> "StreamingCondition_33437" [label=1; weight=1; penwidth=0.3; color = 3]
-	"TrackingTokenParameterResolverFactory$TrackingTokenParameterResolver_31525" -> "WrappedToken_31460" [label=1; weight=1; penwidth=0.3; color = 3]
-	"TrackingTokenParameterResolverFactory$TrackingTokenParameterResolver_31525" -> "Context$ResourceKey_28318" [label=1; weight=1; penwidth=0.3; color = 3]
-	"WorkPackage_32209" -> "WrappedToken_31460" [label=1; weight=1; penwidth=0.3; color = 3]
+	graph   [label="Top Rank #4 Java Type Outlier\norg.axonframework.test.fixture.AxonTestPhase$When$Nothing\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: cluster probability\nlarge circle: < 25% percentile of cluster probability\nthick outline: > 80% percentile of distance to cluster center\n\n"];
+	central [label="🧩 outlier #4\nAxonTestPhase$When$Nothing"];
+	"AxonTestPhase$When_4633"  [shape = "circle"; height=1.8; label = "AxonTestPhase$\nWhen\n(12.87%)"; penwidth = 5; ]; "AxonTestPhase$When_4633" -> central [label=2; weight=2; penwidth=0.4];
+	"AxonTestWhen_4684"  [shape = "circle"; height=1.8; label = "AxonTestWhen\n(12.45%)"; penwidth = 5; ]; "AxonTestWhen_4684" -> central [label=2; weight=2; penwidth=0.4];
+	"AxonTestWhen$Nothing_6259"  [shape = "circle"; height=1.8; label = "AxonTestWhen$\nNothing\n(12.87%)"; penwidth = 5; ]; "AxonTestWhen$Nothing_6259" -> central [label=2; weight=2; penwidth=0.4];
+	"AxonTestPhase_6249"  [label = "AxonTestPhase\n(14.09%)"; penwidth = 2; ]; "AxonTestPhase_6249" -> central [label=1; weight=1; penwidth=0.4];
+	"AxonTestPhase$Then$Nothing_4630"  [shape = "circle"; height=1.8; label = "AxonTestPhase$\nThen$\nNothing\n(12.4%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "AxonTestPhase$Then$Nothing_4630" [label=2; weight=2; penwidth=0.4; color = 5];
+	"AxonTestPhase$Then_4629"  [label = "AxonTestPhase$\nThen\n(25.94%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "AxonTestPhase$Then_4629" [label=1; weight=1; penwidth=0.4; color = 5];
+	"AxonTestPhase$When_4633"  [shape = "circle"; height=1.8; label = "AxonTestPhase$\nWhen\n(12.87%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "AxonTestPhase$When_4633" [label=1; weight=1; penwidth=0.4; color = 5];
+	"AxonTestWhen$Nothing_6259" -> "AxonTestWhen_4684" [label=7; weight=7; penwidth=0.3; color = 3]
+	"AxonTestWhen_4684" -> "AxonTestWhen$Nothing_6259" [label=3; weight=3; penwidth=0.3; color = 3]
+	"AxonTestWhen_4684" -> "AxonTestPhase$When_4633" [label=2; weight=2; penwidth=0.3; color = 3]
+	"AxonTestWhen$Nothing_6259" -> "AxonTestPhase$Then$Nothing_4630" [label=2; weight=2; penwidth=0.3; color = 3]
+	"AxonTestPhase_6249" -> "AxonTestPhase$Then$Nothing_4630" [label=1; weight=1; penwidth=0.3; color = 3]
+	"AxonTestPhase_6249" -> "AxonTestPhase$When_4633" [label=1; weight=1; penwidth=0.3; color = 3]
+	"AxonTestPhase_6249" -> "AxonTestPhase$Then_4629" [label=1; weight=1; penwidth=0.3; color = 3]
+	"AxonTestPhase$Then_4629" -> "AxonTestPhase$Then$Nothing_4630" [label=1; weight=1; penwidth=0.3; color = 3]
+	"AxonTestPhase$Then$Nothing_4630" -> "AxonTestPhase$Then_4629" [label=1; weight=1; penwidth=0.3; color = 3]
+	"AxonTestWhen$Nothing_6259" -> "AxonTestPhase$Then_4629" [label=1; weight=1; penwidth=0.3; color = 3]
+	"AxonTestWhen$Nothing_6259" -> "AxonTestPhase$When_4633" [label=1; weight=1; penwidth=0.3; color = 3]
 }

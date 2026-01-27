@@ -15,14 +15,14 @@ strict digraph TopHub1 {
 	graph   [label="Top Rank #1 Java Type Hub\norg.axonframework.messaging.core.unitofwork.ProcessingContext\n\nnodes: incoming dependencies (limited max. 40)\nnode value: local clustering coefficient\nthick outline: <1 0% percentile of local clustering coefficient\n\n"];
 	central [label="🎡 hub #1\nProcessingContext\n(in-degree=229)"];
 	"ResourceOverridingProcessingContext_30447"  [label = "ResourceOverridingProcessingContext\n(0.48)"; penwidth = 2; ]; "ResourceOverridingProcessingContext_30447" -> central [label=51; weight=51; penwidth=1.2];
-	"EventSourcingRepository_46827"  [label = "EventSourcingRepository\n(0.17)"; penwidth = 2; ]; "EventSourcingRepository_46827" -> central [label=23; weight=23; penwidth=0.8];
+	"EventSourcingRepository_46823"  [label = "EventSourcingRepository\n(0.17)"; penwidth = 2; ]; "EventSourcingRepository_46823" -> central [label=23; weight=23; penwidth=0.8];
 	"AccessSerializingRepository_14739"  [label = "AccessSerializingRepository\n(0.17)"; penwidth = 2; ]; "AccessSerializingRepository_14739" -> central [label=22; weight=22; penwidth=0.8];
-	"DefaultEventStoreTransaction_48647"  [label = "DefaultEventStoreTransaction\n(0.25)"; penwidth = 2; ]; "DefaultEventStoreTransaction_48647" -> central [label=21; weight=21; penwidth=0.7];
+	"DefaultEventStoreTransaction_48644"  [label = "DefaultEventStoreTransaction\n(0.25)"; penwidth = 2; ]; "DefaultEventStoreTransaction_48644" -> central [label=21; weight=21; penwidth=0.7];
 	"ProcessingLifecycle_24121"  [label = "ProcessingLifecycle\n(0.33)"; penwidth = 2; ]; "ProcessingLifecycle_24121" -> central [label=18; weight=18; penwidth=0.7];
 	"WorkPackage_23021"  [label = "WorkPackage\n(0.29)"; penwidth = 2; ]; "WorkPackage_23021" -> central [label=16; weight=16; penwidth=0.7];
-	"InterceptingEventStore_48867"  [label = "InterceptingEventStore\n(0.22)"; penwidth = 2; ]; "InterceptingEventStore_48867" -> central [label=15; weight=15; penwidth=0.6];
+	"InterceptingEventStore_48863"  [label = "InterceptingEventStore\n(0.22)"; penwidth = 2; ]; "InterceptingEventStore_48863" -> central [label=15; weight=15; penwidth=0.6];
 	"SimpleEventBus_19951"  [label = "SimpleEventBus\n(0.16)"; penwidth = 2; ]; "SimpleEventBus_19951" -> central [label=14; weight=14; penwidth=0.6];
-	"StorageEngineBackedEventStore_48862"  [label = "StorageEngineBackedEventStore\n(0.17)"; penwidth = 2; ]; "StorageEngineBackedEventStore_48862" -> central [label=14; weight=14; penwidth=0.6];
+	"StorageEngineBackedEventStore_48858"  [label = "StorageEngineBackedEventStore\n(0.17)"; penwidth = 2; ]; "StorageEngineBackedEventStore_48858" -> central [label=14; weight=14; penwidth=0.6];
 	"InMemoryTokenStore_20746"  [label = "InMemoryTokenStore\n(0.11)"; penwidth = 2; ]; "InMemoryTokenStore_20746" -> central [label=13; weight=13; penwidth=0.6];
 	"SimpleRepository_14350"  [label = "SimpleRepository\n(0.31)"; penwidth = 2; ]; "SimpleRepository_14350" -> central [label=13; weight=13; penwidth=0.6];
 	"JpaTokenStore_21716"  [label = "JpaTokenStore\n(0.1)"; penwidth = 2; ]; "JpaTokenStore_21716" -> central [label=12; weight=12; penwidth=0.6];
@@ -30,7 +30,7 @@ strict digraph TopHub1 {
 	"UnitOfWork$UnitOfWorkProcessingContext_34576"  [label = "UnitOfWork$\nUnitOfWorkProcessingContext\n(0.38)"; penwidth = 2; ]; "UnitOfWork$UnitOfWorkProcessingContext_34576" -> central [label=12; weight=12; penwidth=0.6];
 	"JdbcTokenStore_21710"  [label = "JdbcTokenStore\n(0.08)"; penwidth = 2; ]; "JdbcTokenStore_21710" -> central [label=11; weight=11; penwidth=0.6];
 	"SimpleQueryBus_28298"  [label = "SimpleQueryBus\n(0.11)"; penwidth = 2; ]; "SimpleQueryBus_28298" -> central [label=11; weight=11; penwidth=0.6];
-	"AnnotationBasedEventSourcedEntityFactory$ScannedEntityCreator_47213"  [label = "AnnotationBasedEventSourcedEntityFactory$\nScannedEntityCreator\n(0.46)"; penwidth = 2; ]; "AnnotationBasedEventSourcedEntityFactory$ScannedEntityCreator_47213" -> central [label=10; weight=10; penwidth=0.6];
+	"AnnotationBasedEventSourcedEntityFactory$ScannedEntityCreator_47247"  [label = "AnnotationBasedEventSourcedEntityFactory$\nScannedEntityCreator\n(0.46)"; penwidth = 2; ]; "AnnotationBasedEventSourcedEntityFactory$ScannedEntityCreator_47247" -> central [label=10; weight=10; penwidth=0.6];
 	"TransactionManager_34572"  [label = "TransactionManager\n(0.24)"; penwidth = 2; ]; "TransactionManager_34572" -> central [label=10; weight=10; penwidth=0.6];
 	"QueryGateway_28299"  [label = "QueryGateway\n(0.3)"; penwidth = 2; ]; "QueryGateway_28299" -> central [label=9; weight=9; penwidth=0.5];
 	"UnitOfWorkTimeoutInterceptorBuilder_35709"  [label = "UnitOfWorkTimeoutInterceptorBuilder\n(0.19)"; penwidth = 2; ]; "UnitOfWorkTimeoutInterceptorBuilder_35709" -> central [label=9; weight=9; penwidth=0.5];
@@ -48,7 +48,7 @@ strict digraph TopHub1 {
 	"MonitoringSubscriptionQueryUpdateDispatchInterceptor_15791"  [label = "MonitoringSubscriptionQueryUpdateDispatchInterceptor\n(0.29)"; penwidth = 2; ]; "MonitoringSubscriptionQueryUpdateDispatchInterceptor_15791" -> central [label=7; weight=7; penwidth=0.5];
 	"SplitTask_23059"  [label = "SplitTask\n(0.47)"; penwidth = 2; ]; "SplitTask_23059" -> central [label=7; weight=7; penwidth=0.5];
 	"AggregateBasedAxonServerEventStorageEngine_3095"  [label = "AggregateBasedAxonServerEventStorageEngine\n(0.11)"; penwidth = 2; ]; "AggregateBasedAxonServerEventStorageEngine_3095" -> central [label=6; weight=6; penwidth=0.5];
-	"AggregateBasedJpaEventStorageEngine_48854"  [label = "AggregateBasedJpaEventStorageEngine\n(0.08)"; penwidth = 2; ]; "AggregateBasedJpaEventStorageEngine_48854" -> central [label=6; weight=6; penwidth=0.5];
+	"AggregateBasedJpaEventStorageEngine_48850"  [label = "AggregateBasedJpaEventStorageEngine\n(0.08)"; penwidth = 2; ]; "AggregateBasedJpaEventStorageEngine_48850" -> central [label=6; weight=6; penwidth=0.5];
 	"AxonServerEventStorageEngine_3098"  [label = "AxonServerEventStorageEngine\n(0.2)"; penwidth = 2; ]; "AxonServerEventStorageEngine_3098" -> central [label=6; weight=6; penwidth=0.5];
 	"DefaultHandlerInterceptorRegistry_32480"  [label = "DefaultHandlerInterceptorRegistry\n(0.18)"; penwidth = 2; ]; "DefaultHandlerInterceptorRegistry_32480" -> central [label=6; weight=6; penwidth=0.5];
 	"DefaultMessageDispatchInterceptorChain$InterceptingDispatcher_33059"  [label = "DefaultMessageDispatchInterceptorChain$\nInterceptingDispatcher\n(0.76)"; penwidth = 2; ]; "DefaultMessageDispatchInterceptorChain$InterceptingDispatcher_33059" -> central [label=6; weight=6; penwidth=0.5];
@@ -62,29 +62,29 @@ strict digraph TopHub1 {
 	"ResourceOverridingProcessingContext_30447" -> "ProcessingLifecycle_24121" [label=17; weight=17; penwidth=0.3; color = 3]
 	"UnitOfWork$UnitOfWorkProcessingContext_34576" -> "Context$ResourceKey_17821" [label=13; weight=13; penwidth=0.3; color = 3]
 	"ResourceOverridingProcessingContext_30447" -> "Context$ResourceKey_17821" [label=12; weight=12; penwidth=0.3; color = 3]
-	"AggregateBasedJpaEventStorageEngine_48854" -> "Context_22999" [label=10; weight=10; penwidth=0.3; color = 3]
+	"AggregateBasedJpaEventStorageEngine_48850" -> "Context_22999" [label=10; weight=10; penwidth=0.3; color = 3]
 	"MergeTask_24022" -> "TokenStore_20997" [label=9; weight=9; penwidth=0.3; color = 3]
 	"SplitTask_23059" -> "TokenStore_20997" [label=8; weight=8; penwidth=0.3; color = 3]
 	"AggregateBasedAxonServerEventStorageEngine_3095" -> "Context_22999" [label=7; weight=7; penwidth=0.3; color = 3]
-	"DefaultEventStoreTransaction_48647" -> "Context$ResourceKey_17821" [label=7; weight=7; penwidth=0.3; color = 3]
+	"DefaultEventStoreTransaction_48644" -> "Context$ResourceKey_17821" [label=7; weight=7; penwidth=0.3; color = 3]
 	"SplitTask_23059" -> "WorkPackage_23021" [label=7; weight=7; penwidth=0.3; color = 3]
-	"StorageEngineBackedEventStore_48862" -> "EventStorageEngine_48120" [label=7; weight=7; penwidth=0.3; color = 3]
-	"AggregateBasedJpaEventStorageEngine_48854" -> "TransactionManager_34572" [label=6; weight=6; penwidth=0.3; color = 3]
+	"StorageEngineBackedEventStore_48858" -> "EventStorageEngine_48120" [label=7; weight=7; penwidth=0.3; color = 3]
+	"AggregateBasedJpaEventStorageEngine_48850" -> "TransactionManager_34572" [label=6; weight=6; penwidth=0.3; color = 3]
 	"Context_22999" -> "Context$ResourceKey_17821" [label=6; weight=6; penwidth=0.3; color = 3]
-	"InterceptingEventStore_48867" -> "Context$ResourceKey_17821" [label=5; weight=5; penwidth=0.3; color = 3]
-	"DefaultEventStoreTransaction_48647" -> "EventStorageEngine_48120" [label=4; weight=4; penwidth=0.3; color = 3]
+	"InterceptingEventStore_48863" -> "Context$ResourceKey_17821" [label=5; weight=5; penwidth=0.3; color = 3]
+	"DefaultEventStoreTransaction_48644" -> "EventStorageEngine_48120" [label=4; weight=4; penwidth=0.3; color = 3]
 	"MergeTask_24022" -> "WorkPackage_23021" [label=4; weight=4; penwidth=0.3; color = 3]
 	"TransactionManager_34572" -> "ProcessingLifecycle_24121" [label=4; weight=4; penwidth=0.3; color = 3]
 	"UnitOfWork$UnitOfWorkProcessingContext_34576" -> "ApplicationContext_24120" [label=4; weight=4; penwidth=0.3; color = 3]
 	"AccessSerializingRepository_14739" -> "Context$ResourceKey_17821" [label=3; weight=3; penwidth=0.3; color = 3]
 	"EventAppender_18778" -> "Context$ResourceKey_17821" [label=3; weight=3; penwidth=0.3; color = 3]
-	"EventSourcingRepository_46827" -> "Context$ResourceKey_17821" [label=3; weight=3; penwidth=0.3; color = 3]
+	"EventSourcingRepository_46823" -> "Context$ResourceKey_17821" [label=3; weight=3; penwidth=0.3; color = 3]
 	"InterceptorChainParameterResolverFactory_29859" -> "Context$ResourceKey_17821" [label=3; weight=3; penwidth=0.3; color = 3]
 	"SimpleEventBus_19951" -> "Context$ResourceKey_17821" [label=3; weight=3; penwidth=0.3; color = 3]
 	"SimpleQueryBus_28298" -> "Context$ResourceKey_17821" [label=3; weight=3; penwidth=0.3; color = 3]
 	"SimpleRepository_14350" -> "Context$ResourceKey_17821" [label=3; weight=3; penwidth=0.3; color = 3]
-	"StorageEngineBackedEventStore_48862" -> "Context$ResourceKey_17821" [label=3; weight=3; penwidth=0.3; color = 3]
-	"StorageEngineBackedEventStore_48862" -> "DefaultEventStoreTransaction_48647" [label=3; weight=3; penwidth=0.3; color = 3]
+	"StorageEngineBackedEventStore_48858" -> "Context$ResourceKey_17821" [label=3; weight=3; penwidth=0.3; color = 3]
+	"StorageEngineBackedEventStore_48858" -> "DefaultEventStoreTransaction_48644" [label=3; weight=3; penwidth=0.3; color = 3]
 	"UnitOfWork$UnitOfWorkProcessingContext_34576" -> "ProcessingLifecycle_24121" [label=3; weight=3; penwidth=0.3; color = 3]
 	"UnitOfWorkTimeoutInterceptorBuilder_35709" -> "Context$ResourceKey_17821" [label=3; weight=3; penwidth=0.3; color = 3]
 	"WorkPackage_23021" -> "Context_22999" [label=3; weight=3; penwidth=0.3; color = 3]
@@ -93,9 +93,9 @@ strict digraph TopHub1 {
 	"WorkPackage_23021" -> "Context$ResourceKey_17821" [label=2; weight=2; penwidth=0.3; color = 3]
 	"AggregateBasedAxonServerEventStorageEngine_3095" -> "EventStorageEngine_48120" [label=1; weight=1; penwidth=0.3; color = 3]
 	"AggregateBasedAxonServerEventStorageEngine_3095" -> "Context$ResourceKey_17821" [label=1; weight=1; penwidth=0.3; color = 3]
-	"AggregateBasedJpaEventStorageEngine_48854" -> "Context$ResourceKey_17821" [label=1; weight=1; penwidth=0.3; color = 3]
-	"AggregateBasedJpaEventStorageEngine_48854" -> "EventStorageEngine_48120" [label=1; weight=1; penwidth=0.3; color = 3]
-	"AnnotationBasedEventSourcedEntityFactory$ScannedEntityCreator_47213" -> "Context$ResourceKey_17821" [label=1; weight=1; penwidth=0.3; color = 3]
+	"AggregateBasedJpaEventStorageEngine_48850" -> "Context$ResourceKey_17821" [label=1; weight=1; penwidth=0.3; color = 3]
+	"AggregateBasedJpaEventStorageEngine_48850" -> "EventStorageEngine_48120" [label=1; weight=1; penwidth=0.3; color = 3]
+	"AnnotationBasedEventSourcedEntityFactory$ScannedEntityCreator_47247" -> "Context$ResourceKey_17821" [label=1; weight=1; penwidth=0.3; color = 3]
 	"AxonServerEventStorageEngine_3098" -> "EventStorageEngine_48120" [label=1; weight=1; penwidth=0.3; color = 3]
 	"DefaultQueryGateway_28295" -> "QueryGateway_28299" [label=1; weight=1; penwidth=0.3; color = 3]
 	"InMemoryEventStorageEngine_48300" -> "EventStorageEngine_48120" [label=1; weight=1; penwidth=0.3; color = 3]

@@ -17,10 +17,10 @@ strict digraph JavaArtifactLongestPaths {
 	"axon-tracing-opentelemetry-5.0.1\n(level 0/6)" -> "axon-messaging-5.0.1\n(level 4/6)" [label=22; penwidth=1.11; ];
 	"axon-tracing-opentelemetry-5.0.1\n(level 0/6)" -> "axon-common-5.0.1\n(level 6/6)" [label=2; penwidth=1.0; ];
 	"axon-spring-boot-autoconfigure-5.0.1\n(level 0/6)" -> "axon-server-connector-5.0.1\n(level 1/6)" [label=14; penwidth=1.06; color="red"; ];
-	"axon-spring-boot-autoconfigure-5.0.1\n(level 0/6)" -> "axon-messaging-5.0.1\n(level 4/6)" [label=70; penwidth=1.36; ];
 	"axon-spring-boot-autoconfigure-5.0.1\n(level 0/6)" -> "axon-common-5.0.1\n(level 6/6)" [label=76; penwidth=1.39; ];
-	"axon-spring-boot-autoconfigure-5.0.1\n(level 0/6)" -> "axon-conversion-5.0.1\n(level 5/6)" [label=14; penwidth=1.06; ];
+	"axon-spring-boot-autoconfigure-5.0.1\n(level 0/6)" -> "axon-messaging-5.0.1\n(level 4/6)" [label=70; penwidth=1.36; ];
 	"axon-spring-boot-autoconfigure-5.0.1\n(level 0/6)" -> "axon-eventsourcing-5.0.1\n(level 2/6)" [label=16; penwidth=1.07; ];
+	"axon-spring-boot-autoconfigure-5.0.1\n(level 0/6)" -> "axon-conversion-5.0.1\n(level 5/6)" [label=14; penwidth=1.06; ];
 	"axon-spring-boot-autoconfigure-5.0.1\n(level 0/6)" -> "axon-update-5.0.1\n(level 1/6)" [label=14; penwidth=1.06; ];
 	"axon-spring-boot-autoconfigure-5.0.1\n(level 0/6)" -> "axon-test-5.0.1\n(level 1/6)" [label=4; penwidth=1.01; ];
 	"axon-modelling-5.0.1\n(level 3/6)" -> "axon-messaging-5.0.1\n(level 4/6)" [label=316; penwidth=2.67; color="red"; ];
@@ -33,8 +33,8 @@ strict digraph JavaArtifactLongestPaths {
 	"axon-metrics-micrometer-5.0.1\n(level 0/6)" -> "axon-messaging-5.0.1\n(level 4/6)" [label=66; penwidth=1.34; ];
 	"axon-metrics-micrometer-5.0.1\n(level 0/6)" -> "axon-common-5.0.1\n(level 6/6)" [label=8; penwidth=1.03; ];
 	"axon-eventsourcing-5.0.1\n(level 2/6)" -> "axon-messaging-5.0.1\n(level 4/6)" [label=362; penwidth=2.91; ];
-	"axon-eventsourcing-5.0.1\n(level 2/6)" -> "axon-conversion-5.0.1\n(level 5/6)" [label=2; penwidth=1.0; ];
 	"axon-eventsourcing-5.0.1\n(level 2/6)" -> "axon-common-5.0.1\n(level 6/6)" [label=182; penwidth=1.96; ];
+	"axon-eventsourcing-5.0.1\n(level 2/6)" -> "axon-conversion-5.0.1\n(level 5/6)" [label=2; penwidth=1.0; ];
 	"axon-eventsourcing-5.0.1\n(level 2/6)" -> "axon-modelling-5.0.1\n(level 3/6)" [label=54; penwidth=1.28; color="red"; ];
 	"axon-spring-boot-autoconfigure-5.0.1\n(level 0/6)" -> "axon-test-5.0.1\n(level 1/6)" [label=4; penwidth=1.01; color="darkorange"; ];
 	"axon-spring-boot-autoconfigure-5.0.1\n(level 0/6)" -> "axon-update-5.0.1\n(level 1/6)" [label=14; penwidth=1.06; color="darkorange"; ];

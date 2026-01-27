@@ -80,5 +80,5 @@
 "java.lang.annotation.Repeatable","Annotation",1,"org.axonframework.eventsourcing.annotation.EventTag",""
 "org.axonframework.messaging.eventhandling.annotation.EventHandler","Annotation",1,"org.axonframework.eventsourcing.annotation.EventSourcingHandler",""
 "jakarta.persistence.Table","Class",1,"org.axonframework.eventsourcing.eventstore.jpa.AggregateEventEntry",""
-"jakarta.persistence.SequenceGenerator","Field",1,"org.axonframework.eventsourcing.eventstore.jpa.AggregateEventEntry.globalIndex",""
 "jakarta.persistence.GeneratedValue","Field",1,"org.axonframework.eventsourcing.eventstore.jpa.AggregateEventEntry.globalIndex",""
+"jakarta.persistence.SequenceGenerator","Field",1,"org.axonframework.eventsourcing.eventstore.jpa.AggregateEventEntry.globalIndex",""

@@ -12,32 +12,22 @@ strict digraph TopOutlier3 {
     central [fontsize = 16;];
     central [color = 7; fillcolor = 5; penwidth = 3;];
 
-	graph   [label="Top Rank #3 Java Type Outlier\norg.axonframework.messaging.queryhandling.distributed.DistributedQueryBus$DistributedHandler\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: cluster probability\nlarge circle: < 25% percentile of cluster probability\nthick outline: > 80% percentile of distance to cluster center\n\n"];
-	central [label="🧩 outlier #3\nDistributedQueryBus$DistributedHandler"];
-	"DistributedQueryBus_36733"  [label = "DistributedQueryBus\n(13.28%)"; penwidth = 5; ]; "DistributedQueryBus_36733" -> central [label=3; weight=3; penwidth=0.4];
-	"DistributedQueryBus_36733"  [label = "DistributedQueryBus\n(13.28%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "DistributedQueryBus_36733" [label=8; weight=8; penwidth=0.5; color = 5];
-	"QueryMessage_25608"  [shape = "circle"; height=1.8; label = "QueryMessage\n(0.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "QueryMessage_25608" [label=6; weight=6; penwidth=0.5; color = 5];
-	"QueryBusConnector$UpdateCallback_36715"  [shape = "circle"; height=1.8; label = "QueryBusConnector$\nUpdateCallback\n(0.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "QueryBusConnector$UpdateCallback_36715" [label=3; weight=3; penwidth=0.4; color = 5];
-	"PriorityRunnable_1596"  [label = "PriorityRunnable\n(100.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "PriorityRunnable_1596" [label=2; weight=2; penwidth=0.4; color = 5];
-	"QueryBusConnector$Handler_36713"  [shape = "circle"; height=1.8; label = "QueryBusConnector$\nHandler\n(11.99%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "QueryBusConnector$Handler_36713" [label=2; weight=2; penwidth=0.4; color = 5];
-	"DelayedMessageStream_36742"  [label = "DelayedMessageStream\n(68.15%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "DelayedMessageStream_36742" [label=1; weight=1; penwidth=0.4; color = 5];
-	"MessageStream_25607"  [label = "MessageStream\n(35.19%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "MessageStream_25607" [label=1; weight=1; penwidth=0.4; color = 5];
-	"QueryBus_36741"  [shape = "circle"; height=1.8; label = "QueryBus\n(0.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "QueryBus_36741" [label=1; weight=1; penwidth=0.4; color = 5];
-	"QueryResponseMessage_36712"  [shape = "circle"; height=1.8; label = "QueryResponseMessage\n(0.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "QueryResponseMessage_36712" [label=1; weight=1; penwidth=0.4; color = 5];
-	"Registration_2091"  [label = "Registration\n(14.77%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "Registration_2091" [label=1; weight=1; penwidth=0.4; color = 5];
-	"DelayedMessageStream_36742" -> "MessageStream_25607" [label=29; weight=29; penwidth=0.3; color = 3]
-	"DistributedQueryBus_36733" -> "QueryMessage_25608" [label=10; weight=10; penwidth=0.3; color = 3]
-	"DistributedQueryBus_36733" -> "QueryBusConnector$UpdateCallback_36715" [label=8; weight=8; penwidth=0.3; color = 3]
-	"QueryBus_36741" -> "QueryMessage_25608" [label=6; weight=6; penwidth=0.3; color = 3]
-	"DistributedQueryBus_36733" -> "MessageStream_25607" [label=5; weight=5; penwidth=0.3; color = 3]
-	"DistributedQueryBus_36733" -> "QueryBus_36741" [label=5; weight=5; penwidth=0.3; color = 3]
-	"QueryBus_36741" -> "MessageStream_25607" [label=3; weight=3; penwidth=0.3; color = 3]
-	"DistributedQueryBus_36733" -> "QueryResponseMessage_36712" [label=2; weight=2; penwidth=0.3; color = 3]
-	"QueryBus_36741" -> "QueryResponseMessage_36712" [label=2; weight=2; penwidth=0.3; color = 3]
-	"QueryBusConnector$Handler_36713" -> "QueryMessage_25608" [label=2; weight=2; penwidth=0.3; color = 3]
-	"QueryBusConnector$Handler_36713" -> "QueryBusConnector$UpdateCallback_36715" [label=2; weight=2; penwidth=0.3; color = 3]
-	"DistributedQueryBus_36733" -> "QueryBusConnector$Handler_36713" [label=1; weight=1; penwidth=0.3; color = 3]
-	"QueryBusConnector$Handler_36713" -> "Registration_2091" [label=1; weight=1; penwidth=0.3; color = 3]
-	"QueryBusConnector$Handler_36713" -> "MessageStream_25607" [label=1; weight=1; penwidth=0.3; color = 3]
-	"QueryBusConnector$Handler_36713" -> "QueryResponseMessage_36712" [label=1; weight=1; penwidth=0.3; color = 3]
+	graph   [label="Top Rank #3 Java Type Outlier\norg.axonframework.axonserver.connector.query.QueryResponseMessageStream\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: cluster probability\nlarge circle: < 25% percentile of cluster probability\nthick outline: > 80% percentile of distance to cluster center\n\n"];
+	central [label="🧩 outlier #3\nQueryResponseMessageStream"];
+	"AxonServerQueryBusConnector_1912"  [label = "AxonServerQueryBusConnector\n(13.73%)"; penwidth = 2; ]; "AxonServerQueryBusConnector_1912" -> central [label=6; weight=6; penwidth=0.5];
+	"AbstractQueryResponseMessageStream_2094"  [shape = "circle"; height=1.8; label = "AbstractQueryResponseMessageStream\n(0.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "AbstractQueryResponseMessageStream_2094" [label=2; weight=2; penwidth=0.4; color = 5];
+	"AxonException_41484"  [label = "AxonException\n(33.45%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "AxonException_41484" [label=2; weight=2; penwidth=0.4; color = 5];
+	"QueryResponseMessage_26272"  [shape = "circle"; height=1.8; label = "QueryResponseMessage\n(0.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "QueryResponseMessage_26272" [label=2; weight=2; penwidth=0.4; color = 5];
+	"ExceptionConverter_82"  [label = "ExceptionConverter\n(67.66%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "ExceptionConverter_82" [label=1; weight=1; penwidth=0.4; color = 5];
+	"Internal_42010"  [shape = "circle"; height=1.8; label = "Internal\n(0.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "Internal_42010" [label=1; weight=1; penwidth=0.4; color = 5];
+	"QueryConverter_1914"  [label = "QueryConverter\n(100.0%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "QueryConverter_1914" [label=1; weight=1; penwidth=0.4; color = 5];
+	"QueryConverter_1914" -> "QueryResponseMessage_26272" [label=7; weight=7; penwidth=0.3; color = 3]
+	"AbstractQueryResponseMessageStream_2094" -> "QueryResponseMessage_26272" [label=5; weight=5; penwidth=0.3; color = 3]
+	"AxonServerQueryBusConnector_1912" -> "QueryResponseMessage_26272" [label=2; weight=2; penwidth=0.3; color = 3]
+	"AxonServerQueryBusConnector_1912" -> "QueryConverter_1914" [label=2; weight=2; penwidth=0.3; color = 3]
+	"AbstractQueryResponseMessageStream_2094" -> "AxonException_41484" [label=1; weight=1; penwidth=0.3; color = 3]
+	"AbstractQueryResponseMessageStream_2094" -> "Internal_42010" [label=1; weight=1; penwidth=0.3; color = 3]
+	"ExceptionConverter_82" -> "AxonException_41484" [label=1; weight=1; penwidth=0.3; color = 3]
+	"QueryConverter_1914" -> "Internal_42010" [label=1; weight=1; penwidth=0.3; color = 3]
+	"QueryConverter_1914" -> "ExceptionConverter_82" [label=1; weight=1; penwidth=0.3; color = 3]
 }

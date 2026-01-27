@@ -33,8 +33,8 @@
   <tbody>
     <tr>
       <th>0</th>
-      <td>500124</td>
-      <td>1553341</td>
+      <td>500120</td>
+      <td>1553324</td>
       <td>11</td>
       <td>121</td>
       <td>1764</td>
@@ -101,29 +101,29 @@ The whole table can be found in the CSV report `Number_of_types_per_artifact`.
       <th>4</th>
       <td>axon-common-5.0.1</td>
       <td>150</td>
-      <td>Class</td>
-      <td>101</td>
+      <td>Interface</td>
+      <td>39</td>
     </tr>
     <tr>
       <th>5</th>
       <td>axon-common-5.0.1</td>
       <td>150</td>
-      <td>Interface</td>
-      <td>39</td>
+      <td>Class</td>
+      <td>101</td>
     </tr>
     <tr>
       <th>6</th>
       <td>axon-common-5.0.1</td>
       <td>150</td>
-      <td>Enum</td>
-      <td>4</td>
+      <td>Annotation</td>
+      <td>2</td>
     </tr>
     <tr>
       <th>7</th>
       <td>axon-common-5.0.1</td>
       <td>150</td>
-      <td>Annotation</td>
-      <td>2</td>
+      <td>Enum</td>
+      <td>4</td>
     </tr>
     <tr>
       <th>8</th>

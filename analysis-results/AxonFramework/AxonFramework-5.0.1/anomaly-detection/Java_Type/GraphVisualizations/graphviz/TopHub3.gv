@@ -18,12 +18,12 @@ strict digraph TopHub3 {
 	"AxonTestGiven_4694"  [label = "AxonTestGiven\n(0.24)"; penwidth = 2; ]; "AxonTestGiven_4694" -> central [label=13; weight=13; penwidth=0.6];
 	"WorkPackage_23021"  [label = "WorkPackage\n(0.29)"; penwidth = 2; ]; "WorkPackage_23021" -> central [label=12; weight=12; penwidth=0.6];
 	"AggregateBasedAxonServerEventStorageEngine_3095"  [label = "AggregateBasedAxonServerEventStorageEngine\n(0.11)"; penwidth = 2; ]; "AggregateBasedAxonServerEventStorageEngine_3095" -> central [label=11; weight=11; penwidth=0.6];
-	"AggregateBasedJpaEventStorageEngine_48854"  [label = "AggregateBasedJpaEventStorageEngine\n(0.08)"; penwidth = 2; ]; "AggregateBasedJpaEventStorageEngine_48854" -> central [label=10; weight=10; penwidth=0.6];
+	"AggregateBasedJpaEventStorageEngine_48850"  [label = "AggregateBasedJpaEventStorageEngine\n(0.08)"; penwidth = 2; ]; "AggregateBasedJpaEventStorageEngine_48850" -> central [label=10; weight=10; penwidth=0.6];
 	"AxonTestThenMessage_4703"  [label = "AxonTestThenMessage\n(0.21)"; penwidth = 2; ]; "AxonTestThenMessage_4703" -> central [label=10; weight=10; penwidth=0.6];
-	"StorageEngineBackedEventStore_48862"  [label = "StorageEngineBackedEventStore\n(0.17)"; penwidth = 2; ]; "StorageEngineBackedEventStore_48862" -> central [label=10; weight=10; penwidth=0.6];
+	"StorageEngineBackedEventStore_48858"  [label = "StorageEngineBackedEventStore\n(0.17)"; penwidth = 2; ]; "StorageEngineBackedEventStore_48858" -> central [label=10; weight=10; penwidth=0.6];
 	"TaggedEventConverter_1919"  [label = "TaggedEventConverter\n(0.23)"; penwidth = 2; ]; "TaggedEventConverter_1919" -> central [label=9; weight=9; penwidth=0.5];
 	"AxonServerMessageStream_1911"  [label = "AxonServerMessageStream\n(0.36)"; penwidth = 2; ]; "AxonServerMessageStream_1911" -> central [label=7; weight=7; penwidth=0.5];
-	"DefaultEventStoreTransaction_48647"  [label = "DefaultEventStoreTransaction\n(0.25)"; penwidth = 2; ]; "DefaultEventStoreTransaction_48647" -> central [label=7; weight=7; penwidth=0.5];
+	"DefaultEventStoreTransaction_48644"  [label = "DefaultEventStoreTransaction\n(0.25)"; penwidth = 2; ]; "DefaultEventStoreTransaction_48644" -> central [label=7; weight=7; penwidth=0.5];
 	"EventMessageHandlerInterceptorChain$InterceptingHandler_19993"  [label = "EventMessageHandlerInterceptorChain$\nInterceptingHandler\n(0.67)"; penwidth = 2; ]; "EventMessageHandlerInterceptorChain$InterceptingHandler_19993" -> central [label=7; weight=7; penwidth=0.5];
 	"ContinuousMessageStream_49358"  [label = "ContinuousMessageStream\n(0.33)"; penwidth = 2; ]; "ContinuousMessageStream_49358" -> central [label=6; weight=6; penwidth=0.5];
 	"Coordinator$CoordinationTask_23063"  [label = "Coordinator$\nCoordinationTask\n(0.19)"; penwidth = 2; ]; "Coordinator$CoordinationTask_23063" -> central [label=6; weight=6; penwidth=0.5];
@@ -36,12 +36,12 @@ strict digraph TopHub3 {
 	"ProcessorEventHandlingComponents_24116"  [label = "ProcessorEventHandlingComponents\n(0.44)"; penwidth = 2; ]; "ProcessorEventHandlingComponents_24116" -> central [label=6; weight=6; penwidth=0.5];
 	"SimpleEventBus_19951"  [label = "SimpleEventBus\n(0.16)"; penwidth = 2; ]; "SimpleEventBus_19951" -> central [label=6; weight=6; penwidth=0.5];
 	"AnnotatedEventHandlingComponent_18940"  [label = "AnnotatedEventHandlingComponent\n(0.22)"; penwidth = 2; ]; "AnnotatedEventHandlingComponent_18940" -> central [label=5; weight=5; penwidth=0.5];
-	"AnnotationBasedEventSourcedEntityFactory_46907"  [label = "AnnotationBasedEventSourcedEntityFactory\n(0.17)"; penwidth = 2; ]; "AnnotationBasedEventSourcedEntityFactory_46907" -> central [label=5; weight=5; penwidth=0.5];
+	"AnnotationBasedEventSourcedEntityFactory_46903"  [label = "AnnotationBasedEventSourcedEntityFactory\n(0.17)"; penwidth = 2; ]; "AnnotationBasedEventSourcedEntityFactory_46903" -> central [label=5; weight=5; penwidth=0.5];
 	"EventProcessorConfiguration_23004"  [label = "EventProcessorConfiguration\n(0.15)"; penwidth = 2; ]; "EventProcessorConfiguration_23004" -> central [label=5; weight=5; penwidth=0.5];
-	"EventSourcedEntityFactory_46878"  [label = "EventSourcedEntityFactory\n(0.24)"; penwidth = 2; ]; "EventSourcedEntityFactory_46878" -> central [label=5; weight=5; penwidth=0.5];
+	"EventSourcedEntityFactory_46874"  [label = "EventSourcedEntityFactory\n(0.24)"; penwidth = 2; ]; "EventSourcedEntityFactory_46874" -> central [label=5; weight=5; penwidth=0.5];
 	"InterceptingEventSink_19939"  [label = "InterceptingEventSink\n(0.35)"; penwidth = 2; ]; "InterceptingEventSink_19939" -> central [label=5; weight=5; penwidth=0.5];
 	"InterceptingEventSink$InterceptingPublisher_19940"  [label = "InterceptingEventSink$\nInterceptingPublisher\n(0.46)"; penwidth = 2; ]; "InterceptingEventSink$InterceptingPublisher_19940" -> central [label=5; weight=5; penwidth=0.5];
-	"InterceptingEventStore_48867"  [label = "InterceptingEventStore\n(0.22)"; penwidth = 2; ]; "InterceptingEventStore_48867" -> central [label=5; weight=5; penwidth=0.5];
+	"InterceptingEventStore_48863"  [label = "InterceptingEventStore\n(0.22)"; penwidth = 2; ]; "InterceptingEventStore_48863" -> central [label=5; weight=5; penwidth=0.5];
 	"SimpleEventHandlingComponent_18747"  [label = "SimpleEventHandlingComponent\n(0.34)"; penwidth = 2; ]; "SimpleEventHandlingComponent_18747" -> central [label=5; weight=5; penwidth=0.5];
 	"SourcingEventMessageStream_3093"  [label = "SourcingEventMessageStream\n(0.27)"; penwidth = 2; ]; "SourcingEventMessageStream_3093" -> central [label=5; weight=5; penwidth=0.5];
 	"AnnotationBasedEntityEvolvingComponent_11567"  [label = "AnnotationBasedEntityEvolvingComponent\n(0.25)"; penwidth = 2; ]; "AnnotationBasedEntityEvolvingComponent_11567" -> central [label=4; weight=4; penwidth=0.5];
@@ -52,7 +52,7 @@ strict digraph TopHub3 {
 	"EventConverter_18785"  [label = "EventConverter\n(0.16)"; penwidth = 2; ]; "EventConverter_18785" -> central [label=4; weight=4; penwidth=0.5];
 	"EventMessageHandlerInterceptorChain_19950"  [label = "EventMessageHandlerInterceptorChain\n(0.56)"; penwidth = 2; ]; "EventMessageHandlerInterceptorChain_19950" -> central [label=4; weight=4; penwidth=0.5];
 	"EventProcessorLatencyMonitor_40641"  [label = "EventProcessorLatencyMonitor\n(0.43)"; penwidth = 2; ]; "EventProcessorLatencyMonitor_40641" -> central [label=4; weight=4; penwidth=0.5];
-	"EventSourcingRepository_46827"  [label = "EventSourcingRepository\n(0.17)"; penwidth = 2; ]; "EventSourcingRepository_46827" -> central [label=4; weight=4; penwidth=0.5];
+	"EventSourcingRepository_46823"  [label = "EventSourcingRepository\n(0.17)"; penwidth = 2; ]; "EventSourcingRepository_46823" -> central [label=4; weight=4; penwidth=0.5];
 	"GenericEventMessage_18774"  [label = "GenericEventMessage\n(0.19)"; penwidth = 2; ]; "GenericEventMessage_18774" -> central [label=4; weight=4; penwidth=0.5];
 	"Converter_38848"  [label = "Converter\n(0.12)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "Converter_38848" [label=6; weight=6; penwidth=0.5; color = 5];
 	"Message_15590"  [label = "Message\n(0.03)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "Message_15590" [label=6; weight=6; penwidth=0.5; color = 5];
@@ -63,34 +63,34 @@ strict digraph TopHub3 {
 	"GenericEventMessage_18774" -> "Message_15590" [label=10; weight=10; penwidth=0.3; color = 3]
 	"DefaultDispatchInterceptorRegistry_32482" -> "Message_15590" [label=7; weight=7; penwidth=0.3; color = 3]
 	"DefaultHandlerInterceptorRegistry_32480" -> "Message_15590" [label=6; weight=6; penwidth=0.3; color = 3]
-	"EventSourcingRepository_46827" -> "EventSourcedEntityFactory_46878" [label=6; weight=6; penwidth=0.3; color = 3]
-	"Message_15590" -> "TypeReference_43508" [label=6; weight=6; penwidth=0.3; color = 3]
+	"EventSourcingRepository_46823" -> "EventSourcedEntityFactory_46874" [label=6; weight=6; penwidth=0.3; color = 3]
 	"Message_15590" -> "Converter_38848" [label=6; weight=6; penwidth=0.3; color = 3]
+	"Message_15590" -> "TypeReference_43508" [label=6; weight=6; penwidth=0.3; color = 3]
 	"AnnotatedEventHandlingComponent_18940" -> "SimpleEventHandlingComponent_18747" [label=5; weight=5; penwidth=0.3; color = 3]
 	"DefaultDispatchInterceptorRegistry_32482" -> "TypeReference_43508" [label=5; weight=5; penwidth=0.3; color = 3]
 	"DefaultMessageMonitorRegistry_16797" -> "TypeReference_43508" [label=5; weight=5; penwidth=0.3; color = 3]
 	"DefaultWorkPackageEventFilter_24017" -> "ProcessorEventHandlingComponents_24116" [label=5; weight=5; penwidth=0.3; color = 3]
 	"InterceptingEventSink_19939" -> "InterceptingEventSink$InterceptingPublisher_19940" [label=5; weight=5; penwidth=0.3; color = 3]
-	"AggregateBasedJpaEventStorageEngine_48854" -> "EventConverter_18785" [label=4; weight=4; penwidth=0.3; color = 3]
-	"AggregateBasedJpaEventStorageEngine_48854" -> "ContinuousMessageStream_49358" [label=4; weight=4; penwidth=0.3; color = 3]
+	"AggregateBasedJpaEventStorageEngine_48850" -> "EventConverter_18785" [label=4; weight=4; penwidth=0.3; color = 3]
+	"AggregateBasedJpaEventStorageEngine_48850" -> "ContinuousMessageStream_49358" [label=4; weight=4; penwidth=0.3; color = 3]
 	"AnnotationBasedEntityEvolvingComponent_11567" -> "EventConverter_18785" [label=4; weight=4; penwidth=0.3; color = 3]
-	"AnnotationBasedEventSourcedEntityFactory_46907" -> "EventConverter_18785" [label=4; weight=4; penwidth=0.3; color = 3]
+	"AnnotationBasedEventSourcedEntityFactory_46903" -> "EventConverter_18785" [label=4; weight=4; penwidth=0.3; color = 3]
 	"DefaultHandlerInterceptorRegistry_32480" -> "TypeReference_43508" [label=4; weight=4; penwidth=0.3; color = 3]
 	"SourcingEventMessageStream_3093" -> "TaggedEventConverter_1919" [label=4; weight=4; penwidth=0.3; color = 3]
 	"AggregateBasedAxonServerEventStorageEngine_3095" -> "EventConverter_18785" [label=3; weight=3; penwidth=0.3; color = 3]
-	"AggregateBasedJpaEventStorageEngine_48854" -> "GenericEventMessage_18774" [label=3; weight=3; penwidth=0.3; color = 3]
+	"AggregateBasedJpaEventStorageEngine_48850" -> "GenericEventMessage_18774" [label=3; weight=3; penwidth=0.3; color = 3]
 	"AxonTestGiven_4694" -> "GenericEventMessage_18774" [label=3; weight=3; penwidth=0.3; color = 3]
 	"AxonTestWhen_4684" -> "GenericEventMessage_18774" [label=3; weight=3; penwidth=0.3; color = 3]
 	"DefaultMessageMonitorRegistry_16797" -> "Message_15590" [label=3; weight=3; penwidth=0.3; color = 3]
 	"EventMessageHandlerInterceptorChain_19950" -> "EventMessageHandlerInterceptorChain$InterceptingHandler_19993" [label=3; weight=3; penwidth=0.3; color = 3]
 	"PooledStreamingEventProcessorConfiguration_23062" -> "GenericEventMessage_18774" [label=3; weight=3; penwidth=0.3; color = 3]
-	"StorageEngineBackedEventStore_48862" -> "DefaultEventStoreTransaction_48647" [label=3; weight=3; penwidth=0.3; color = 3]
+	"StorageEngineBackedEventStore_48858" -> "DefaultEventStoreTransaction_48644" [label=3; weight=3; penwidth=0.3; color = 3]
 	"TaggedEventConverter_1919" -> "EventConverter_18785" [label=3; weight=3; penwidth=0.3; color = 3]
 	"AggregateBasedAxonServerEventStorageEngine_3095" -> "GenericEventMessage_18774" [label=2; weight=2; penwidth=0.3; color = 3]
 	"AggregateBasedAxonServerEventStorageEngine_3095" -> "AxonServerMessageStream_1911" [label=2; weight=2; penwidth=0.3; color = 3]
-	"AggregateBasedJpaEventStorageEngine_48854" -> "Converter_38848" [label=2; weight=2; penwidth=0.3; color = 3]
-	"AggregateBasedJpaEventStorageEngine_48854" -> "TypeReference_43508" [label=2; weight=2; penwidth=0.3; color = 3]
-	"AnnotationBasedEventSourcedEntityFactory_46907" -> "Message_15590" [label=2; weight=2; penwidth=0.3; color = 3]
+	"AggregateBasedJpaEventStorageEngine_48850" -> "TypeReference_43508" [label=2; weight=2; penwidth=0.3; color = 3]
+	"AggregateBasedJpaEventStorageEngine_48850" -> "Converter_38848" [label=2; weight=2; penwidth=0.3; color = 3]
+	"AnnotationBasedEventSourcedEntityFactory_46903" -> "Message_15590" [label=2; weight=2; penwidth=0.3; color = 3]
 	"AxonTestGiven_4694" -> "AxonTestWhen_4684" [label=2; weight=2; penwidth=0.3; color = 3]
 	"EventMessageHandlerInterceptorChain$InterceptingHandler_19993" -> "Message_15590" [label=2; weight=2; penwidth=0.3; color = 3]
 	"EventProcessorLatencyMonitor_40641" -> "Message_15590" [label=2; weight=2; penwidth=0.3; color = 3]
@@ -102,7 +102,7 @@ strict digraph TopHub3 {
 	"AnnotatedEventHandlingComponent_18940" -> "EventConverter_18785" [label=1; weight=1; penwidth=0.3; color = 3]
 	"AnnotatedEventHandlingComponent_18940" -> "Message_15590" [label=1; weight=1; penwidth=0.3; color = 3]
 	"AnnotationBasedEntityEvolvingComponent_11567" -> "Message_15590" [label=1; weight=1; penwidth=0.3; color = 3]
-	"AnnotationBasedEventSourcedEntityFactory_46907" -> "EventSourcedEntityFactory_46878" [label=1; weight=1; penwidth=0.3; color = 3]
+	"AnnotationBasedEventSourcedEntityFactory_46903" -> "EventSourcedEntityFactory_46874" [label=1; weight=1; penwidth=0.3; color = 3]
 	"AxonTestThenMessage_4703" -> "Message_15590" [label=1; weight=1; penwidth=0.3; color = 3]
 	"AxonTestWhen_4684" -> "Message_15590" [label=1; weight=1; penwidth=0.3; color = 3]
 	"Coordinator$CoordinationTask_23063" -> "GenericEventMessage_18774" [label=1; weight=1; penwidth=0.3; color = 3]
