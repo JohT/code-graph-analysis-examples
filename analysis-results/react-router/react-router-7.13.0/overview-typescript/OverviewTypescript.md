@@ -250,16 +250,16 @@ The whole table can be found in the CSV report `Number_of_elements_per_module_fo
       <td>utils</td>
       <td>utils.ts</td>
       <td>28</td>
-      <td>Function</td>
-      <td>24</td>
+      <td>Variable</td>
+      <td>4</td>
     </tr>
     <tr>
       <th>22</th>
       <td>utils</td>
       <td>utils.ts</td>
       <td>28</td>
-      <td>Variable</td>
-      <td>4</td>
+      <td>Function</td>
+      <td>24</td>
     </tr>
     <tr>
       <th>23</th>

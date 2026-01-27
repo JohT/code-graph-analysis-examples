@@ -1910,7 +1910,7 @@ Only the top 40 entries are shown. The whole table can be found in the following
       <td>0.600000</td>
       <td>12</td>
       <td>3</td>
-      <td>[SessionIdStorageStrategy-&gt;CookieSignatureOptions, createSessionStorage-&gt;isCookie, createSessionStorage-&gt;createCookie, createSessionStorage-&gt;SessionStorage, createSessionStorage-&gt;Cookie, warnOnceAboutSigningSessionCookie-&gt;Cookie, SessionIdStorageStrategy-&gt;Cookie, isSession-&gt;IsSessionFunction, Se...</td>
+      <td>[SessionIdStorageStrategy-&gt;CookieSignatureOptions, createSessionStorage-&gt;isCookie, createSessionStorage-&gt;createCookie, createSessionStorage-&gt;SessionStorage, SessionIdStorageStrategy-&gt;Cookie, warnOnceAboutSigningSessionCookie-&gt;Cookie, createSessionStorage-&gt;Cookie, isSession-&gt;IsSessionFunction, Se...</td>
       <td>[createSession&lt;-createCookieSessionStorage, warnOnceAboutSigningSessionCookie&lt;-createCookieSessionStorage, createSessionStorage&lt;-createMemorySessionStorage]</td>
     </tr>
     <tr>
@@ -1922,7 +1922,7 @@ Only the top 40 entries are shown. The whole table can be found in the following
       <td>0.600000</td>
       <td>12</td>
       <td>3</td>
-      <td>[createSessionStorage-&gt;createCookie, SessionStorage-&gt;Session, CreateSessionFunction-&gt;Session, createSession-&gt;Session, createSessionStorage-&gt;isCookie, isSession-&gt;IsSessionFunction, createSessionStorage-&gt;Cookie, warnOnceAboutSigningSessionCookie-&gt;Cookie, SessionIdStorageStrategy-&gt;Cookie]</td>
+      <td>[createSessionStorage-&gt;createCookie, SessionStorage-&gt;Session, CreateSessionFunction-&gt;Session, createSession-&gt;Session, createSessionStorage-&gt;isCookie, isSession-&gt;IsSessionFunction, SessionIdStorageStrategy-&gt;Cookie, warnOnceAboutSigningSessionCookie-&gt;Cookie, createSessionStorage-&gt;Cookie]</td>
       <td>[createSession&lt;-createCookieSessionStorage, warnOnceAboutSigningSessionCookie&lt;-createCookieSessionStorage, createSessionStorage&lt;-createMemorySessionStorage]</td>
     </tr>
     <tr>
@@ -1934,7 +1934,7 @@ Only the top 40 entries are shown. The whole table can be found in the following
       <td>0.555556</td>
       <td>14</td>
       <td>4</td>
-      <td>[useFogOFWarDiscovery-&gt;Router, getPartialManifest-&gt;Router, fetchAndApplyManifestPatches-&gt;Router, getPartialManifest-&gt;matchRoutes, fetchAndApplyManifestPatches-&gt;createClientRoutes, fetchAndApplyManifestPatches-&gt;AssetsManifest, useFogOFWarDiscovery-&gt;AssetsManifest, getPartialManifest-&gt;AssetsManife...</td>
+      <td>[fetchAndApplyManifestPatches-&gt;Router, useFogOFWarDiscovery-&gt;Router, getPartialManifest-&gt;Router, getPartialManifest-&gt;matchRoutes, fetchAndApplyManifestPatches-&gt;createClientRoutes, useFogOFWarDiscovery-&gt;AssetsManifest, getPartialManifest-&gt;AssetsManifest, getPatchRoutesOnNavigationFunction-&gt;Assets...</td>
       <td>[fetchAndApplyManifestPatches&lt;-useFogOFWarDiscovery, isFogOfWarEnabled&lt;-useFogOFWarDiscovery, fetchAndApplyManifestPatches&lt;-getPatchRoutesOnNavigationFunction, isFogOfWarEnabled&lt;-getPatchRoutesOnNavigationFunction]</td>
     </tr>
     <tr>
@@ -2006,7 +2006,7 @@ Only the top 40 entries are shown. The whole table can be found in the following
       <td>0.375000</td>
       <td>44</td>
       <td>20</td>
-      <td>[createHashHistory-&gt;HashHistory, createMemoryHistory-&gt;MemoryHistory, createHashHistory-&gt;createLocation, createRouter-&gt;createLocation, createBrowserHistory-&gt;createLocation, createMemoryHistory-&gt;createLocation, Navigation-&gt;Location, MetaArgs-&gt;Location, Router-&gt;Location]</td>
+      <td>[createMemoryHistory-&gt;MemoryHistory, createHashHistory-&gt;createLocation, createRouter-&gt;createLocation, createBrowserHistory-&gt;createLocation, createMemoryHistory-&gt;createLocation, Navigation-&gt;Location, RouterState-&gt;Location, MetaArgs-&gt;Location, createRouter-&gt;Location]</td>
       <td>[To&lt;-createLocation, Location&lt;-createLocation, parsePath&lt;-createLocation, Path&lt;-Location, To&lt;-History, Action&lt;-History, Path&lt;-History, Location&lt;-History, Action&lt;-Update]</td>
     </tr>
     <tr>
@@ -2019,7 +2019,7 @@ Only the top 40 entries are shown. The whole table can be found in the following
       <td>24</td>
       <td>11</td>
       <td>[RouteModule-&gt;LinksFunction, RouteModule-&gt;ClientActionFunction, RouteModule-&gt;ClientLoaderFunction, MetaArgs-&gt;ClientLoaderFunction, MetaFunction-&gt;ClientLoaderFunction, MetaMatch-&gt;ClientLoaderFunction, RouteModule-&gt;ShouldRevalidateFunction, ClientLoaderFunction-&gt;ClientLoaderFunctionArgs, ServerRou...</td>
-      <td>[ClientActionFunctionArgs&lt;-ClientActionFunction, ClientLoaderFunction&lt;-MetaArgs, MetaMatches&lt;-MetaArgs, RouteModules&lt;-useFogOFWarDiscovery, ClientLoaderFunctionArgs&lt;-ClientLoaderFunction, ClientLoaderFunction&lt;-MetaFunction, RouteModules&lt;-getPatchRoutesOnNavigationFunction, LinksFunction&lt;-RSCRout...</td>
+      <td>[ClientActionFunctionArgs&lt;-ClientActionFunction, RouteModules&lt;-useFogOFWarDiscovery, ClientLoaderFunctionArgs&lt;-ClientLoaderFunction, ClientLoaderFunction&lt;-MetaFunction, RouteModules&lt;-getPatchRoutesOnNavigationFunction, LinksFunction&lt;-RSCRouteManifest, ClientLoaderFunction&lt;-RSCRouteManifest, Meta...</td>
     </tr>
     <tr>
       <th>15</th>
@@ -2030,7 +2030,7 @@ Only the top 40 entries are shown. The whole table can be found in the following
       <td>0.355372</td>
       <td>82</td>
       <td>39</td>
-      <td>[createRouter-&gt;DataStrategyResult, DataStrategyMatch-&gt;DataStrategyResult, createRouter-&gt;isRouteErrorResponse, createRouter-&gt;convertRoutesToDataRoutes, createRouter-&gt;SuccessResult, ErrorResponseImpl-&gt;ErrorResponse, resolvePath-&gt;normalizeSearch, createRouter-&gt;ResultType, matchPath-&gt;PathMatch]</td>
+      <td>[DataStrategyMatch-&gt;DataStrategyResult, createRouter-&gt;DataStrategyResult, createRouter-&gt;isRouteErrorResponse, createRouter-&gt;convertRoutesToDataRoutes, createRouter-&gt;SuccessResult, ErrorResponseImpl-&gt;ErrorResponse, resolvePath-&gt;normalizeSearch, createRouter-&gt;ResultType, matchPath-&gt;PathMatch]</td>
       <td>[To&lt;-resolveTo, resolvePath&lt;-resolveTo, Path&lt;-resolveTo, invariant&lt;-resolveTo, parsePath&lt;-resolveTo, To&lt;-resolvePath, Path&lt;-resolvePath, parsePath&lt;-resolvePath, RedirectFunction&lt;-replace]</td>
     </tr>
     <tr>
@@ -2090,7 +2090,7 @@ Only the top 40 entries are shown. The whole table can be found in the following
       <td>0.333333</td>
       <td>4</td>
       <td>2</td>
-      <td>[createRequestHandler-&gt;sendRemixResponse, createRequestHandler-&gt;createRemixRequest, createRequestHandler-&gt;RequestHandler, createRequestHandler-&gt;GetLoadContextFunction]</td>
+      <td>[createRequestHandler-&gt;sendRemixResponse, createRequestHandler-&gt;createRemixRequest, createRequestHandler-&gt;GetLoadContextFunction, createRequestHandler-&gt;RequestHandler]</td>
       <td>[GetLoadContextFunction&lt;-createRequestHandler, RequestHandler&lt;-createRequestHandler]</td>
     </tr>
     <tr>
@@ -2150,7 +2150,7 @@ Only the top 40 entries are shown. The whole table can be found in the following
       <td>0.259259</td>
       <td>17</td>
       <td>10</td>
-      <td>[relative-&gt;prefix, validateRouteConfig-&gt;RouteConfigEntry, resolvedRouteConfigSchema-&gt;RouteConfigEntry, layout-&gt;RouteConfigEntry, route-&gt;RouteConfigEntry, configRoutesToRouteManifest-&gt;RouteConfigEntry, prefix-&gt;RouteConfigEntry, index-&gt;RouteConfigEntry, RouteConfig-&gt;RouteConfigEntry]</td>
+      <td>[relative-&gt;prefix, validateRouteConfig-&gt;RouteConfigEntry, resolvedRouteConfigSchema-&gt;RouteConfigEntry, layout-&gt;RouteConfigEntry, route-&gt;RouteConfigEntry, prefix-&gt;RouteConfigEntry, configRoutesToRouteManifest-&gt;RouteConfigEntry, index-&gt;RouteConfigEntry, RouteConfig-&gt;RouteConfigEntry]</td>
       <td>[index&lt;-relative, layout&lt;-relative, route&lt;-relative, prefix&lt;-relative, route&lt;-prefix, RouteConfigEntry&lt;-prefix, RouteConfigEntry&lt;-layout, RouteConfigEntry&lt;-RouteConfig, RouteConfigEntry&lt;-index]</td>
     </tr>
     <tr>
@@ -2162,7 +2162,7 @@ Only the top 40 entries are shown. The whole table can be found in the following
       <td>0.250000</td>
       <td>5</td>
       <td>3</td>
-      <td>[ServerBuild-&gt;FutureConfig, EntryContext-&gt;FrameworkContextObject, ServerBuild-&gt;AssetsManifest, useFogOFWarDiscovery-&gt;AssetsManifest, getPatchRoutesOnNavigationFunction-&gt;AssetsManifest]</td>
+      <td>[ServerBuild-&gt;FutureConfig, EntryContext-&gt;FrameworkContextObject, useFogOFWarDiscovery-&gt;AssetsManifest, getPatchRoutesOnNavigationFunction-&gt;AssetsManifest, ServerBuild-&gt;AssetsManifest]</td>
       <td>[AssetsManifest&lt;-FrameworkContextObject, RouteModules&lt;-FrameworkContextObject, StaticHandlerContext&lt;-EntryContext]</td>
     </tr>
     <tr>
@@ -2437,7 +2437,7 @@ Only the top 40 entries are shown. The whole table can be found in the following
       <td>./index-react-server.ts</td>
       <td>react-router</td>
       <td>./lib/router/utils.ts</td>
-      <td>createStaticHandler-&gt;AgnosticRouteMatch</td>
+      <td>matchRoutes-&gt;AgnosticRouteMatch</td>
       <td>0.794872</td>
       <td>35</td>
       <td>4</td>
@@ -2536,7 +2536,7 @@ Only the top 40 entries are shown. The whole table can be found in the following
       <td>./index-react-server.ts</td>
       <td>react-router</td>
       <td>./lib/router/utils.ts</td>
-      <td>matchRSCServerRequest-&gt;AgnosticRouteMatch</td>
+      <td>createStaticHandler-&gt;AgnosticRouteMatch</td>
       <td>0.794872</td>
       <td>35</td>
       <td>4</td>
@@ -2668,7 +2668,7 @@ Only the top 40 entries are shown. The whole table can be found in the following
       <td>./index-react-server.ts</td>
       <td>react-router</td>
       <td>./lib/router/utils.ts</td>
-      <td>matchRoutes-&gt;AgnosticRouteMatch</td>
+      <td>matchRSCServerRequest-&gt;AgnosticRouteMatch</td>
       <td>0.794872</td>
       <td>35</td>
       <td>4</td>
@@ -3894,16 +3894,6 @@ The whole table can be found in the CSV report `ModuleElementsUsageTypescript`.
     </tr>
     <tr>
       <th>27</th>
-      <td>router</td>
-      <td>context</td>
-      <td>1</td>
-      <td>27</td>
-      <td>0.037037</td>
-      <td>["/home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.13.0/source/react-router-7.13.0/packages/react-router/lib/context.ts".RouteObject]</td>
-      <td>[RouteObject]</td>
-    </tr>
-    <tr>
-      <th>28</th>
       <td>fog-of-war</td>
       <td>context</td>
       <td>1</td>
@@ -3913,7 +3903,7 @@ The whole table can be found in the CSV report `ModuleElementsUsageTypescript`.
       <td>[PatchRoutesOnNavigationFunction]</td>
     </tr>
     <tr>
-      <th>29</th>
+      <th>28</th>
       <td>headers</td>
       <td>context</td>
       <td>1</td>
@@ -3921,6 +3911,16 @@ The whole table can be found in the CSV report `ModuleElementsUsageTypescript`.
       <td>0.037037</td>
       <td>["/home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.13.0/source/react-router-7.13.0/packages/react-router/lib/context.ts".DataRouteMatch]</td>
       <td>[DataRouteMatch]</td>
+    </tr>
+    <tr>
+      <th>29</th>
+      <td>router</td>
+      <td>context</td>
+      <td>1</td>
+      <td>27</td>
+      <td>0.037037</td>
+      <td>["/home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.13.0/source/react-router-7.13.0/packages/react-router/lib/context.ts".RouteObject]</td>
+      <td>[RouteObject]</td>
     </tr>
   </tbody>
 </table>
@@ -3954,7 +3954,7 @@ This table shows the file directory distance distribution between dependent file
       <td>148</td>
       <td>69</td>
       <td>86</td>
-      <td>[./cli/run.ts uses ./cli/commands.ts, ./cli/commands.ts uses ./cli/useJavascript.ts, ./config/format.ts uses ./config/routes.ts, ./config/config.ts uses ./config/routes.ts]</td>
+      <td>[./cli/run.ts uses ./cli/commands.ts, ./cli/commands.ts uses ./cli/useJavascript.ts, ./config/config.ts uses ./config/routes.ts, ./config/format.ts uses ./config/routes.ts]</td>
     </tr>
     <tr>
       <th>1</th>
@@ -3962,7 +3962,7 @@ This table shows the file directory distance distribution between dependent file
       <td>41</td>
       <td>24</td>
       <td>29</td>
-      <td>[./config/config.ts uses ./config.ts, ./vite/plugin.ts uses ./config.ts, ./vite/plugin.ts uses ./manifest.ts, ./config/routes.ts uses ./routes.ts]</td>
+      <td>[./vite/plugin.ts uses ./config.ts, ./config/config.ts uses ./config.ts, ./vite/plugin.ts uses ./manifest.ts, ./config/routes.ts uses ./routes.ts]</td>
     </tr>
     <tr>
       <th>2</th>
@@ -3970,7 +3970,7 @@ This table shows the file directory distance distribution between dependent file
       <td>116</td>
       <td>43</td>
       <td>40</td>
-      <td>[./vite/rsc/virtual-route-config.ts uses ./routes.ts, ./config/config.ts uses ./cli/detectPackageManager.ts, ./vite/cloudflare-dev-proxy.ts uses ./config/config.ts, ./typegen/generate.ts uses ./config/config.ts]</td>
+      <td>[./vite/rsc/virtual-route-config.ts uses ./routes.ts, ./config/config.ts uses ./cli/detectPackageManager.ts, ./vite/optimize-deps-entries.ts uses ./config/config.ts, ./typegen/generate.ts uses ./config/config.ts]</td>
     </tr>
     <tr>
       <th>3</th>
