@@ -46,7 +46,7 @@ jobs:
   analyze-code-graph:
     name: Analyze Code Graph
     needs: [prepare-code-to-analyze]
-    uses: JohT/code-graph-analysis-pipeline/.github/workflows/public-analyze-code-graph.yml@v3.2.0
+    uses: JohT/code-graph-analysis-pipeline/.github/workflows/public-analyze-code-graph.yml@58a1ce7375af459127e6576370ac0a836cdce682 # v3.3.0
     with:
       analysis-name: ${{ needs.prepare-code-to-analyze.outputs.analysis-name }}
       maven-artifacts: >
