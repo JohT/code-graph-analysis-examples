@@ -175,7 +175,7 @@ The following treemap shows the distribution of anomaly scores across the codeba
 
 <img src="./analysis-results/AxonFramework/latest/anomaly-detection/JavaTreemap1AverageAnomalyScorePerDirectory.svg" width="600" alt="Java Type Anomalies Treemap">
 
-The full Markdown report describing all detected anomalies readable for humans and large language models can be found here: [Anomaly Detection Report](./analysis-results/AxonFramework/AxonFramework-4.12.1/anomaly-detection/anomaly_detection_report.md).
+The full Markdown report describing all detected anomalies readable for humans and large language models can be found here: [Anomaly Detection Report](./analysis-results/AxonFramework/latest/anomaly-detection/anomaly_detection_report.md).
 
 ### Java Archetypes Treemap
 
