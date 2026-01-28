@@ -260,19 +260,19 @@ Lists the 30 label combinations with the lowest number of nodes until they reach
     </tr>
     <tr>
       <th>1</th>
-      <td>[Repository, File, Git]</td>
-      <td>1</td>
-      <td>0.000490</td>
-    </tr>
-    <tr>
-      <th>2</th>
       <td>[TS, Setter]</td>
       <td>1</td>
       <td>0.000490</td>
     </tr>
     <tr>
-      <th>3</th>
+      <th>2</th>
       <td>[Git, Branch]</td>
+      <td>1</td>
+      <td>0.000490</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>[Repository, File, Git]</td>
       <td>1</td>
       <td>0.000490</td>
     </tr>
@@ -290,13 +290,13 @@ Lists the 30 label combinations with the lowest number of nodes until they reach
     </tr>
     <tr>
       <th>6</th>
-      <td>[TS, Enum]</td>
+      <td>[NPM, Binary]</td>
       <td>3</td>
       <td>0.001471</td>
     </tr>
     <tr>
       <th>7</th>
-      <td>[NPM, Binary]</td>
+      <td>[TS, Enum]</td>
       <td>3</td>
       <td>0.001471</td>
     </tr>
@@ -308,49 +308,49 @@ Lists the 30 label combinations with the lowest number of nodes until they reach
     </tr>
     <tr>
       <th>9</th>
-      <td>[TS, EnumMember]</td>
-      <td>9</td>
-      <td>0.004414</td>
-    </tr>
-    <tr>
-      <th>10</th>
       <td>[NPM, BugTracker]</td>
       <td>9</td>
       <td>0.004414</td>
     </tr>
     <tr>
+      <th>10</th>
+      <td>[TS, EnumMember]</td>
+      <td>9</td>
+      <td>0.004414</td>
+    </tr>
+    <tr>
       <th>11</th>
-      <td>[TS, Getter]</td>
-      <td>11</td>
-      <td>0.005395</td>
-    </tr>
-    <tr>
-      <th>12</th>
-      <td>[TS, AccessorProperty]</td>
-      <td>11</td>
-      <td>0.005395</td>
-    </tr>
-    <tr>
-      <th>13</th>
-      <td>[TS, Constructor]</td>
-      <td>11</td>
-      <td>0.005395</td>
-    </tr>
-    <tr>
-      <th>14</th>
-      <td>[File, Local]</td>
-      <td>11</td>
-      <td>0.005395</td>
-    </tr>
-    <tr>
-      <th>15</th>
       <td>[Project, TS]</td>
       <td>11</td>
       <td>0.005395</td>
     </tr>
     <tr>
-      <th>16</th>
+      <th>12</th>
+      <td>[TS, Constructor]</td>
+      <td>11</td>
+      <td>0.005395</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>[File, Local]</td>
+      <td>11</td>
+      <td>0.005395</td>
+    </tr>
+    <tr>
+      <th>14</th>
+      <td>[TS, Getter]</td>
+      <td>11</td>
+      <td>0.005395</td>
+    </tr>
+    <tr>
+      <th>15</th>
       <td>[Repository, NPM]</td>
+      <td>11</td>
+      <td>0.005395</td>
+    </tr>
+    <tr>
+      <th>16</th>
+      <td>[TS, AccessorProperty]</td>
       <td>11</td>
       <td>0.005395</td>
     </tr>
@@ -982,25 +982,25 @@ Lists the 30 relationships type with the lowest number of occurrences up to 0.5%
     </tr>
     <tr>
       <th>1</th>
-      <td>HAS_BRANCH</td>
-      <td>1</td>
-      <td>0.000230</td>
-    </tr>
-    <tr>
-      <th>2</th>
       <td>DESCRIBED_BY_SETTER</td>
       <td>1</td>
       <td>0.000230</td>
     </tr>
     <tr>
+      <th>2</th>
+      <td>HAS_BRANCH</td>
+      <td>1</td>
+      <td>0.000230</td>
+    </tr>
+    <tr>
       <th>3</th>
-      <td>HAS_OVERRIDES</td>
+      <td>HAS_HEAD</td>
       <td>2</td>
       <td>0.000461</td>
     </tr>
     <tr>
       <th>4</th>
-      <td>HAS_HEAD</td>
+      <td>HAS_OVERRIDES</td>
       <td>2</td>
       <td>0.000461</td>
     </tr>
@@ -1024,37 +1024,37 @@ Lists the 30 relationships type with the lowest number of occurrences up to 0.5%
     </tr>
     <tr>
       <th>8</th>
-      <td>IN_REPOSITORY</td>
-      <td>11</td>
-      <td>0.002533</td>
-    </tr>
-    <tr>
-      <th>9</th>
-      <td>HAS_ROOT</td>
-      <td>11</td>
-      <td>0.002533</td>
-    </tr>
-    <tr>
-      <th>10</th>
       <td>HAS_NPM_PACKAGE</td>
       <td>11</td>
       <td>0.002533</td>
     </tr>
     <tr>
-      <th>11</th>
-      <td>HAS_CONFIG</td>
+      <th>9</th>
+      <td>IN_REPOSITORY</td>
       <td>11</td>
       <td>0.002533</td>
     </tr>
     <tr>
-      <th>12</th>
+      <th>10</th>
       <td>DESCRIBED_BY_GETTER</td>
       <td>11</td>
       <td>0.002533</td>
     </tr>
     <tr>
-      <th>13</th>
+      <th>11</th>
       <td>CONTAINS_PROJECT</td>
+      <td>11</td>
+      <td>0.002533</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>HAS_ROOT</td>
+      <td>11</td>
+      <td>0.002533</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>HAS_CONFIG</td>
       <td>11</td>
       <td>0.002533</td>
     </tr>

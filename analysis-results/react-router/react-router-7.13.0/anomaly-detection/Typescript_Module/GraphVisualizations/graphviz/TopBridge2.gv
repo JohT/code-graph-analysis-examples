@@ -12,8 +12,9 @@ strict digraph TopBridge2 {
     central [fontsize = 16;];
     central [color = 7; fillcolor = 5; penwidth = 3;];
 
-	graph   [label="Top Rank #2 Typescript Module Bridge\n/home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.13.0/source/react-router-7.13.0/packages/react-router-express/index.ts\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
-	central [label="🌉 bridge #2\nreact-router-express"];
-	"server_118599" [label = "server"; ]; "server_118599" -> central [label=20; weight=20; penwidth=0.4];
-	"server_118599" [label = "server"; color = 5; fillcolor = 1; ]; central -> "server_118599" [label=1; weight=1; penwidth=0.4; color = 5];
+	graph   [label="Top Rank #2 Typescript Module Bridge\n/home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.13.0/source/react-router-7.13.0/packages/react-router-cloudflare/index.ts\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
+	central [label="🌉 bridge #2\nreact-router-cloudflare"];
+	"worker_11766" [label = "worker"; ]; "worker_11766" -> central [label=510; weight=510; penwidth=0.5];
+	"worker_11766" [label = "worker"; color = 5; fillcolor = 1; ]; central -> "worker_11766" [label=3; weight=3; penwidth=0.4; color = 5];
+	"workersKVStorage_11767" [label = "workersKVStorage"; color = 5; fillcolor = 1; ]; central -> "workersKVStorage_11767" [label=1; weight=1; penwidth=0.4; color = 5];
 }
