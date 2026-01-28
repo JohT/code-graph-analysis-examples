@@ -659,7 +659,7 @@ In this section we'll focus only on pairs of nodes that both belong to the same 
       <td>253</td>
       <td>57</td>
       <td>43</td>
-      <td>[/org/axonframework/messaging/monitoring/interception -&gt; /org/axonframework/messaging/monitoring, /org/axonframework/messaging/monitoring/configuration -&gt; /org/axonframework/messaging/monitoring, /org/axonframework/messaging/monitoring -&gt; /org/axonframework/messaging/commandhandling, /org/axonfr...</td>
+      <td>[/org/axonframework/messaging/eventhandling/processing/streaming/pooled -&gt; /org/axonframework/messaging/monitoring, /org/axonframework/messaging/eventhandling/processing/subscribing -&gt; /org/axonframework/messaging/monitoring, /org/axonframework/messaging/eventhandling/configuration -&gt; /org/axonf...</td>
       <td>[axon-messaging-5.0.2 -&gt; axon-messaging-5.0.2]</td>
       <td>[]</td>
     </tr>
@@ -678,7 +678,7 @@ In this section we'll focus only on pairs of nodes that both belong to the same 
       <td>269</td>
       <td>57</td>
       <td>39</td>
-      <td>[/org/axonframework/messaging/monitoring -&gt; /org/axonframework/messaging/eventhandling, /org/axonframework/messaging/commandhandling -&gt; /org/axonframework/messaging/eventhandling, /org/axonframework/messaging/commandhandling/distributed -&gt; /org/axonframework/messaging/eventhandling, /org/axonfra...</td>
+      <td>[/org/axonframework/messaging/eventhandling/configuration -&gt; /org/axonframework/messaging/monitoring/interception, /org/axonframework/messaging/eventhandling/processing/streaming/pooled -&gt; /org/axonframework/messaging/monitoring/configuration, /org/axonframework/messaging/eventhandling/processin...</td>
       <td>[axon-messaging-5.0.2 -&gt; axon-messaging-5.0.2]</td>
       <td>[]</td>
     </tr>
@@ -697,7 +697,7 @@ In this section we'll focus only on pairs of nodes that both belong to the same 
       <td>318</td>
       <td>55</td>
       <td>31</td>
-      <td>[/org/axonframework/messaging/monitoring -&gt; /org/axonframework/messaging/commandhandling/annotation, /org/axonframework/messaging/monitoring/interception -&gt; /org/axonframework/messaging/commandhandling/annotation, /org/axonframework/messaging/monitoring/configuration -&gt; /org/axonframework/messag...</td>
+      <td>[/org/axonframework/messaging/eventhandling/processing/streaming/pooled -&gt; /org/axonframework/messaging/monitoring/interception, /org/axonframework/messaging/eventhandling/processing/subscribing -&gt; /org/axonframework/messaging/monitoring/interception, /org/axonframework/messaging/eventhandling/a...</td>
       <td>[axon-messaging-5.0.2 -&gt; axon-messaging-5.0.2]</td>
       <td>[]</td>
     </tr>
@@ -1083,9 +1083,9 @@ The following table shows the first 10 rows with all details of the query above.
       <td>30</td>
       <td>8</td>
       <td>30</td>
-      <td>4</td>
+      <td>6</td>
       <td>1</td>
-      <td>4</td>
+      <td>6</td>
       <td>[/org/axonframework/eventsourcing/configuration -&gt; /org/axonframework/modelling/annotation, /org/axonframework/eventsourcing/configuration -&gt; /org/axonframework/modelling/entity/annotation, /org/axonframework/eventsourcing/configuration -&gt; /org/axonframework/modelling/configuration, /org/axonfra...</td>
       <td>[axon-eventsourcing-5.0.2 -&gt; axon-modelling-5.0.2, axon-eventsourcing-5.0.2 -&gt; axon-messaging-5.0.2]</td>
       <td>[]</td>

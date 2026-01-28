@@ -1,4 +1,4 @@
 "codeUnitName","shortCodeUnitName","projectName","betweenness","pageRank","degree","incomingDependencies","outgoingDependencies","Source Cypher File: /home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/domains/anomaly-detection/queries/AnomalyDetectionPopularBottlenecks.cypher"
 "org.axonframework.messaging.core","core","axon-messaging-5.0.2",979.5714285714284,5.838212905747758,11459,11118,341,""
-"org.axonframework.messaging.core.unitofwork","unitofwork","axon-messaging-5.0.2",372.7666666666667,1.5647151923903642,11634,11526,108,""
+"org.axonframework.messaging.core.unitofwork","unitofwork","axon-messaging-5.0.2",372.76666666666677,1.5647151923903642,11634,11526,108,""
 "org.axonframework.messaging.core.annotation","annotation","axon-messaging-5.0.2",1119.5690476190475,0.9518101600866615,951,487,464,""

@@ -20,7 +20,7 @@
 "org.axonframework.common.ObjectUtils: java.lang.Object getOrDefault(java.lang.Object,java.lang.Object)","getOrDefault","centralityArticleRank",0.46524560083284366,""
 "org.axonframework.test.fixture.Reporter: void reportUnexpectedReturnValue(java.lang.Object,org.hamcrest.Description)","reportUnexpectedReturnValue","centralityArticleRank",0.40835325762104013,""
 "org.axonframework.axonserver.connector.AxonServerConfiguration: java.lang.Integer getNewPermitsThreshold()","getNewPermitsThreshold","centralityArticleRank",0.40018256381616285,""
-"org.axonframework.conversion.ChainingContentTypeConverter: boolean canConvert(java.lang.reflect.Type,java.lang.reflect.Type)","canConvert","centralityArticleRank",0.392424460491981,""
+"org.axonframework.conversion.ChainingContentTypeConverter: boolean canConvert(java.lang.reflect.Type,java.lang.reflect.Type)","canConvert","centralityArticleRank",0.39242446049198093,""
 "org.axonframework.test.fixture.Reporter: void reportUnexpectedException(java.lang.Throwable,org.hamcrest.Description)","reportUnexpectedException","centralityArticleRank",0.3872512993045201,""
 "org.axonframework.common.FutureUtils: java.lang.Object joinAndUnwrap(java.util.concurrent.CompletableFuture)","joinAndUnwrap","centralityArticleRank",0.37723572047308873,""
 "org.axonframework.common.jdbc.JdbcUtils: void closeQuietly(java.sql.Statement)","closeQuietly","centralityArticleRank",0.3650253673712447,""

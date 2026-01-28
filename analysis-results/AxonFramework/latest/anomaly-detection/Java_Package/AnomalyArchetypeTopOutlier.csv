@@ -1,6 +1,2 @@
 "projectName","shortCodeUnitName","codeUnitName","clusteringNormalizedDistanceToMedoid","clusterApproximateOutlierScore","rank","Source Cypher File: /home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/domains/anomaly-detection/labels/AnomalyDetectionArchetypeOutlier.cypher"
-"axon-common-5.0.2","jpa","org.axonframework.common.jpa",1,0.6716826911004463,1,""
-"axon-common-5.0.2","io","org.axonframework.common.io",1,0.5443549276844356,2,""
-"axon-common-5.0.2","annotation","org.axonframework.common.annotation",1,0.45412225017592833,3,""
-"axon-modelling-5.0.2","configuration","org.axonframework.modelling.configuration",1,0.3566863833701427,4,""
-"axon-messaging-5.0.2","conversion","org.axonframework.messaging.core.conversion",0.9352816000065672,0.6412807590718643,5,""
+"axon-messaging-5.0.2","transaction","org.axonframework.messaging.core.unitofwork.transaction",1,0.6542561722762268,1,""

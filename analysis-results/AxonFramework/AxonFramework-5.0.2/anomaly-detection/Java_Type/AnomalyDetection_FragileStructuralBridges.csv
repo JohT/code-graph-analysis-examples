@@ -1,5 +1,5 @@
 "codeUnitName","shortCodeUnitName","projectName","betweenness","localClusteringCoefficient","degree","incomingDependencies","outgoingDependencies","Source Cypher File: /home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/domains/anomaly-detection/queries/AnomalyDetectionFragileStructuralBridges.cypher"
-"org.axonframework.messaging.core.Message","Message","axon-messaging-5.0.2",9877.165223665219,0.03266145619086796,221,215,6,""
+"org.axonframework.messaging.core.Message","Message","axon-messaging-5.0.2",9877.16522366522,0.03266145619086796,221,215,6,""
 "org.axonframework.messaging.core.MessageStream","MessageStream","axon-messaging-5.0.2",9538.26960735343,0.047230571060541,153,132,21,""
 "org.axonframework.messaging.core.unitofwork.ProcessingContext","ProcessingContext","axon-messaging-5.0.2",6728.058730158729,0.021794574542082078,230,225,5,""
 "org.axonframework.messaging.core.QualifiedName","QualifiedName","axon-messaging-5.0.2",4734.209574738985,0.05868544600938967,72,69,3,""

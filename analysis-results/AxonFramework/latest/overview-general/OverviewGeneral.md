@@ -38,79 +38,79 @@ The whole table can be found in the CSV report `Node_label_combination_count`.
       <th>0</th>
       <td>[Git, Update, Change]</td>
       <td>261498</td>
-      <td>50.032813</td>
+      <td>50.032909</td>
     </tr>
     <tr>
       <th>1</th>
       <td>[Git, Change, Create]</td>
       <td>92826</td>
-      <td>17.760541</td>
+      <td>17.760575</td>
     </tr>
     <tr>
       <th>2</th>
       <td>[Git, Change, Delete]</td>
       <td>58957</td>
-      <td>11.280333</td>
+      <td>11.280355</td>
     </tr>
     <tr>
       <th>3</th>
       <td>[Git, Change, Rename]</td>
       <td>24301</td>
-      <td>4.649548</td>
+      <td>4.649556</td>
     </tr>
     <tr>
       <th>4</th>
       <td>[File, Git]</td>
       <td>16199</td>
-      <td>3.099380</td>
+      <td>3.099385</td>
     </tr>
     <tr>
       <th>5</th>
       <td>[Git, Commit]</td>
       <td>15955</td>
-      <td>3.052695</td>
+      <td>3.052700</td>
     </tr>
     <tr>
       <th>6</th>
       <td>[Java, ByteCode, Parameter]</td>
       <td>9236</td>
-      <td>1.767138</td>
+      <td>1.767141</td>
     </tr>
     <tr>
       <th>7</th>
       <td>[Java, ByteCode, Member, Method]</td>
       <td>8981</td>
-      <td>1.718349</td>
+      <td>1.718352</td>
     </tr>
     <tr>
       <th>8</th>
       <td>[Java, ByteCode, Bound]</td>
       <td>6321</td>
-      <td>1.209407</td>
+      <td>1.209409</td>
     </tr>
     <tr>
       <th>9</th>
       <td>[Java, Value, ByteCode, Annotation]</td>
       <td>5389</td>
-      <td>1.031086</td>
+      <td>1.031088</td>
     </tr>
     <tr>
       <th>10</th>
       <td>[Java, ByteCode, ParameterizedType, Bound]</td>
       <td>4895</td>
-      <td>0.936568</td>
+      <td>0.936570</td>
     </tr>
     <tr>
       <th>11</th>
       <td>[Xml, Element]</td>
       <td>2416</td>
-      <td>0.462257</td>
+      <td>0.462258</td>
     </tr>
     <tr>
       <th>12</th>
       <td>[Java, ByteCode, Member, Field]</td>
       <td>2208</td>
-      <td>0.422460</td>
+      <td>0.422461</td>
     </tr>
     <tr>
       <th>13</th>
@@ -121,8 +121,8 @@ The whole table can be found in the CSV report `Node_label_combination_count`.
     <tr>
       <th>14</th>
       <td>[Java, ByteCode, Member, Constructor, Method]</td>
-      <td>1596</td>
-      <td>0.305365</td>
+      <td>1595</td>
+      <td>0.305174</td>
     </tr>
     <tr>
       <th>15</th>
@@ -158,7 +158,7 @@ The whole table can be found in the CSV report `Node_label_combination_count`.
       <th>20</th>
       <td>[Json, Key]</td>
       <td>544</td>
-      <td>0.104084</td>
+      <td>0.104085</td>
     </tr>
     <tr>
       <th>21</th>
@@ -170,7 +170,7 @@ The whole table can be found in the CSV report `Node_label_combination_count`.
       <th>22</th>
       <td>[Git, Change, Copy]</td>
       <td>481</td>
-      <td>0.092030</td>
+      <td>0.092031</td>
     </tr>
     <tr>
       <th>23</th>
@@ -182,7 +182,7 @@ The whole table can be found in the CSV report `Node_label_combination_count`.
       <th>24</th>
       <td>[Java, ByteCode, Member, Method, GenericDeclar...</td>
       <td>466</td>
-      <td>0.089160</td>
+      <td>0.089161</td>
     </tr>
     <tr>
       <th>25</th>
@@ -476,127 +476,127 @@ Helps to identify commonly used labels.
       <th>0</th>
       <td>Git</td>
       <td>470915</td>
-      <td>90.100889</td>
+      <td>90.101062</td>
     </tr>
     <tr>
       <th>1</th>
       <td>Change</td>
       <td>438063</td>
-      <td>83.815266</td>
+      <td>83.815426</td>
     </tr>
     <tr>
       <th>2</th>
       <td>Update</td>
       <td>261498</td>
-      <td>50.032813</td>
+      <td>50.032909</td>
     </tr>
     <tr>
       <th>3</th>
       <td>Create</td>
       <td>92826</td>
-      <td>17.760541</td>
+      <td>17.760575</td>
     </tr>
     <tr>
       <th>4</th>
       <td>Delete</td>
       <td>58957</td>
-      <td>11.280333</td>
+      <td>11.280355</td>
     </tr>
     <tr>
       <th>5</th>
       <td>Java</td>
-      <td>45554</td>
-      <td>8.715917</td>
+      <td>45553</td>
+      <td>8.715742</td>
     </tr>
     <tr>
       <th>6</th>
       <td>ByteCode</td>
-      <td>45350</td>
-      <td>8.676885</td>
+      <td>45349</td>
+      <td>8.676710</td>
     </tr>
     <tr>
       <th>7</th>
       <td>Rename</td>
       <td>24301</td>
-      <td>4.649548</td>
+      <td>4.649556</td>
     </tr>
     <tr>
       <th>8</th>
       <td>File</td>
       <td>19387</td>
-      <td>3.709344</td>
+      <td>3.709352</td>
     </tr>
     <tr>
       <th>9</th>
       <td>Commit</td>
       <td>15955</td>
-      <td>3.052695</td>
+      <td>3.052700</td>
     </tr>
     <tr>
       <th>10</th>
       <td>Member</td>
-      <td>14111</td>
-      <td>2.699879</td>
+      <td>14110</td>
+      <td>2.699693</td>
     </tr>
     <tr>
       <th>11</th>
       <td>Bound</td>
       <td>13137</td>
-      <td>2.513522</td>
+      <td>2.513527</td>
     </tr>
     <tr>
       <th>12</th>
       <td>Method</td>
-      <td>11903</td>
-      <td>2.277419</td>
+      <td>11902</td>
+      <td>2.277232</td>
     </tr>
     <tr>
       <th>13</th>
       <td>Parameter</td>
       <td>9236</td>
-      <td>1.767138</td>
+      <td>1.767141</td>
     </tr>
     <tr>
       <th>14</th>
       <td>Value</td>
       <td>7016</td>
-      <td>1.342382</td>
+      <td>1.342385</td>
     </tr>
     <tr>
       <th>15</th>
       <td>Annotation</td>
       <td>5431</td>
-      <td>1.039122</td>
+      <td>1.039124</td>
     </tr>
     <tr>
       <th>16</th>
       <td>ParameterizedType</td>
       <td>4895</td>
-      <td>0.936568</td>
+      <td>0.936570</td>
     </tr>
     <tr>
       <th>17</th>
       <td>Xml</td>
       <td>4115</td>
-      <td>0.787329</td>
+      <td>0.787331</td>
     </tr>
     <tr>
       <th>18</th>
       <td>Type</td>
       <td>2923</td>
-      <td>0.559262</td>
+      <td>0.559263</td>
     </tr>
     <tr>
       <th>19</th>
       <td>Element</td>
       <td>2416</td>
-      <td>0.462257</td>
+      <td>0.462258</td>
     </tr>
     <tr>
       <th>20</th>
       <td>Field</td>
       <td>2208</td>
-      <td>0.422460</td>
+      <td>0.422461</td>
     </tr>
     <tr>
       <th>21</th>
@@ -607,14 +607,14 @@ Helps to identify commonly used labels.
     <tr>
       <th>22</th>
       <td>Constructor</td>
-      <td>1605</td>
-      <td>0.307087</td>
+      <td>1604</td>
+      <td>0.306896</td>
     </tr>
     <tr>
       <th>23</th>
       <td>Json</td>
       <td>1223</td>
-      <td>0.233998</td>
+      <td>0.233999</td>
     </tr>
     <tr>
       <th>24</th>
@@ -626,7 +626,7 @@ Helps to identify commonly used labels.
       <th>25</th>
       <td>Class</td>
       <td>912</td>
-      <td>0.174494</td>
+      <td>0.174495</td>
     </tr>
     <tr>
       <th>26</th>
@@ -650,7 +650,7 @@ Helps to identify commonly used labels.
       <th>29</th>
       <td>GenericDeclaration</td>
       <td>686</td>
-      <td>0.131253</td>
+      <td>0.131254</td>
     </tr>
     <tr>
       <th>30</th>
@@ -662,7 +662,7 @@ Helps to identify commonly used labels.
       <th>31</th>
       <td>Key</td>
       <td>544</td>
-      <td>0.104084</td>
+      <td>0.104085</td>
     </tr>
     <tr>
       <th>32</th>
@@ -680,7 +680,7 @@ Helps to identify commonly used labels.
       <th>34</th>
       <td>Copy</td>
       <td>481</td>
-      <td>0.092030</td>
+      <td>0.092031</td>
     </tr>
     <tr>
       <th>35</th>
@@ -739,7 +739,7 @@ Shows the 40 labels with the highest number of nodes.
 Lists the 30 relationship types with the highest number of occurrences.
 The whole table can be found in the CSV report `Relationship_type_count`.
 
-    Total number of relationships: 1622122
+    Total number of relationships: 1622121
 
 
 
@@ -760,85 +760,85 @@ The whole table can be found in the CSV report `Relationship_type_count`.
       <th>0</th>
       <td>CONTAINS_CHANGE</td>
       <td>438063</td>
-      <td>27.005552</td>
+      <td>27.005569</td>
     </tr>
     <tr>
       <th>1</th>
       <td>MODIFIES</td>
       <td>438063</td>
-      <td>27.005552</td>
+      <td>27.005569</td>
     </tr>
     <tr>
       <th>2</th>
       <td>UPDATES</td>
       <td>261498</td>
-      <td>16.120736</td>
+      <td>16.120746</td>
     </tr>
     <tr>
       <th>3</th>
       <td>CREATES</td>
       <td>117608</td>
-      <td>7.250256</td>
+      <td>7.250261</td>
     </tr>
     <tr>
       <th>4</th>
       <td>DELETES</td>
       <td>83258</td>
-      <td>5.132660</td>
+      <td>5.132663</td>
     </tr>
     <tr>
       <th>5</th>
       <td>COMMITTED</td>
       <td>31910</td>
-      <td>1.967176</td>
+      <td>1.967178</td>
     </tr>
     <tr>
       <th>6</th>
       <td>RENAMES</td>
       <td>24301</td>
-      <td>1.498099</td>
+      <td>1.498100</td>
     </tr>
     <tr>
       <th>7</th>
       <td>INVOKES</td>
       <td>22722</td>
-      <td>1.400758</td>
+      <td>1.400759</td>
     </tr>
     <tr>
       <th>8</th>
       <td>HAS_PARENT</td>
       <td>19403</td>
-      <td>1.196149</td>
+      <td>1.196150</td>
     </tr>
     <tr>
       <th>9</th>
       <td>OF_TYPE</td>
       <td>18564</td>
-      <td>1.144427</td>
+      <td>1.144428</td>
     </tr>
     <tr>
       <th>10</th>
       <td>DEPENDS_ON</td>
       <td>17816</td>
-      <td>1.098314</td>
+      <td>1.098315</td>
     </tr>
     <tr>
       <th>11</th>
       <td>HAS_FILE</td>
       <td>16199</td>
-      <td>0.998630</td>
+      <td>0.998631</td>
     </tr>
     <tr>
       <th>12</th>
       <td>HAS_COMMIT</td>
       <td>15955</td>
-      <td>0.983588</td>
+      <td>0.983589</td>
     </tr>
     <tr>
       <th>13</th>
       <td>DECLARES</td>
-      <td>14459</td>
-      <td>0.891363</td>
+      <td>14458</td>
+      <td>0.891302</td>
     </tr>
     <tr>
       <th>14</th>
@@ -862,19 +862,19 @@ The whole table can be found in the CSV report `Relationship_type_count`.
       <th>17</th>
       <td>RETURNS</td>
       <td>8167</td>
-      <td>0.503476</td>
+      <td>0.503477</td>
     </tr>
     <tr>
       <th>18</th>
       <td>READS</td>
       <td>6081</td>
-      <td>0.374879</td>
+      <td>0.374880</td>
     </tr>
     <tr>
       <th>19</th>
       <td>HAS_ACTUAL_TYPE_ARGUMENT</td>
       <td>5811</td>
-      <td>0.358234</td>
+      <td>0.358235</td>
     </tr>
     <tr>
       <th>20</th>
@@ -934,7 +934,7 @@ The whole table can be found in the CSV report `Relationship_type_count`.
       <th>29</th>
       <td>HAS_ELEMENT</td>
       <td>2394</td>
-      <td>0.147584</td>
+      <td>0.147585</td>
     </tr>
   </tbody>
 </table>
@@ -1241,7 +1241,7 @@ Lists the 30 node labels and their relationship types with the highest number of
     <tr>
       <th>4</th>
       <td>[Git, Change, Create]</td>
-      <td>CREATES</td>
+      <td>MODIFIES</td>
       <td>[File, Git]</td>
       <td>92826</td>
       <td>92826</td>
@@ -1251,7 +1251,7 @@ Lists the 30 node labels and their relationship types with the highest number of
     <tr>
       <th>5</th>
       <td>[Git, Change, Create]</td>
-      <td>MODIFIES</td>
+      <td>CREATES</td>
       <td>[File, Git]</td>
       <td>92826</td>
       <td>92826</td>
@@ -1271,7 +1271,7 @@ Lists the 30 node labels and their relationship types with the highest number of
     <tr>
       <th>7</th>
       <td>[Git, Change, Delete]</td>
-      <td>MODIFIES</td>
+      <td>DELETES</td>
       <td>[File, Git]</td>
       <td>58957</td>
       <td>58957</td>
@@ -1281,7 +1281,7 @@ Lists the 30 node labels and their relationship types with the highest number of
     <tr>
       <th>8</th>
       <td>[Git, Change, Delete]</td>
-      <td>DELETES</td>
+      <td>MODIFIES</td>
       <td>[File, Git]</td>
       <td>58957</td>
       <td>58957</td>
@@ -1301,7 +1301,7 @@ Lists the 30 node labels and their relationship types with the highest number of
     <tr>
       <th>10</th>
       <td>[Git, Change, Rename]</td>
-      <td>DELETES</td>
+      <td>RENAMES</td>
       <td>[File, Git]</td>
       <td>24301</td>
       <td>24301</td>
@@ -1311,7 +1311,7 @@ Lists the 30 node labels and their relationship types with the highest number of
     <tr>
       <th>11</th>
       <td>[Git, Change, Rename]</td>
-      <td>CREATES</td>
+      <td>MODIFIES</td>
       <td>[File, Git]</td>
       <td>24301</td>
       <td>24301</td>
@@ -1321,7 +1321,7 @@ Lists the 30 node labels and their relationship types with the highest number of
     <tr>
       <th>12</th>
       <td>[Git, Change, Rename]</td>
-      <td>MODIFIES</td>
+      <td>DELETES</td>
       <td>[File, Git]</td>
       <td>24301</td>
       <td>24301</td>
@@ -1331,7 +1331,7 @@ Lists the 30 node labels and their relationship types with the highest number of
     <tr>
       <th>13</th>
       <td>[Git, Change, Rename]</td>
-      <td>RENAMES</td>
+      <td>CREATES</td>
       <td>[File, Git]</td>
       <td>24301</td>
       <td>24301</td>
@@ -1506,8 +1506,8 @@ Lists the 30 node labels and their relationship types with the highest number of
 
 ## Graph Density
 
-    total_number_of_nodes (vertices): 522653
-    total_number_of_relationships (edges): 1622122
-    -> total directed graph density: 5.9382359553048965e-06
-    -> total directed graph density in percent: 0.0005938235955304897
+    total_number_of_nodes (vertices): 522652
+    total_number_of_relationships (edges): 1622121
+    -> total directed graph density: 5.938255018031103e-06
+    -> total directed graph density in percent: 0.0005938255018031102
 

@@ -1,5 +1,5 @@
 "codeUnitName","shortCodeUnitName","projectName","betweenness","degree","incomingDependencies","outgoingDependencies","Source Cypher File: /home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/domains/anomaly-detection/queries/AnomalyDetectionSilentCoordinators.cypher"
-"org.axonframework.messaging.queryhandling.annotation.AnnotatedQueryHandlingComponent","AnnotatedQueryHandlingComponent","axon-messaging-5.0.2",385.54761904761904,24,1,23,""
+"org.axonframework.messaging.queryhandling.annotation.AnnotatedQueryHandlingComponent","AnnotatedQueryHandlingComponent","axon-messaging-5.0.2",385.5476190476191,24,1,23,""
 "org.axonframework.modelling.annotation.AnnotationBasedEntityEvolvingComponent","AnnotationBasedEntityEvolvingComponent","axon-modelling-5.0.2",351,18,1,17,""
 "org.axonframework.eventsourcing.EventSourcingRepository","EventSourcingRepository","axon-eventsourcing-5.0.2",348,17,1,16,""
 "org.axonframework.messaging.core.EmptyMessageStream","EmptyMessageStream","axon-messaging-5.0.2",323.7136904761905,7,1,6,""

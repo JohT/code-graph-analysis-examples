@@ -1320,7 +1320,7 @@ The following table shows the top 30 packages with the highest effective lines o
       <td>320</td>
       <td>121</td>
       <td>11</td>
-      <td>unwrap</td>
+      <td>advanceTo</td>
     </tr>
     <tr>
       <th>16</th>
@@ -2498,7 +2498,7 @@ The following table shows the top 30 packages with the highest cyclomatic comple
       <td>249</td>
       <td>121</td>
       <td>7</td>
-      <td>unwrap</td>
+      <td>covers</td>
     </tr>
     <tr>
       <th>12</th>
@@ -2597,7 +2597,7 @@ The following table shows the top 30 packages with the highest cyclomatic comple
       <td>147</td>
       <td>94</td>
       <td>8</td>
-      <td>equals</td>
+      <td>isDifferent</td>
     </tr>
     <tr>
       <th>37</th>
@@ -2669,7 +2669,7 @@ The following table shows the top 30 packages with the highest cyclomatic comple
       <td>106</td>
       <td>86</td>
       <td>4</td>
-      <td>handle</td>
+      <td>andMetadata</td>
     </tr>
     <tr>
       <th>19</th>
@@ -2687,7 +2687,7 @@ The following table shows the top 30 packages with the highest cyclomatic comple
       <td>99</td>
       <td>50</td>
       <td>6</td>
-      <td>equals</td>
+      <td>validateSegment</td>
     </tr>
   </tbody>
 </table>
@@ -2892,8 +2892,8 @@ The following table shows the top 30 packages containing the methods with the hi
       <td>23</td>
       <td>axon-messaging-5.0.2</td>
       <td>org.axonframework.messaging.eventhandling.proc...</td>
-      <td>TrackerStatus</td>
-      <td>equals</td>
+      <td>EventTrackerStatus</td>
+      <td>isDifferent</td>
       <td>8</td>
     </tr>
     <tr>
@@ -2982,8 +2982,8 @@ The following table shows the top 30 packages containing the methods with the hi
       <td>15</td>
       <td>axon-messaging-5.0.2</td>
       <td>org.axonframework.messaging.eventhandling.proc...</td>
-      <td>MergedTrackingToken</td>
-      <td>unwrap</td>
+      <td>GapAwareTrackingToken</td>
+      <td>covers</td>
       <td>7</td>
     </tr>
   </tbody>

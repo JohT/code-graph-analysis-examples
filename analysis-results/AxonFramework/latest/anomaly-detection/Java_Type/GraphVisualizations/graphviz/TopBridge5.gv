@@ -12,14 +12,18 @@ strict digraph TopBridge5 {
     central [fontsize = 16;];
     central [color = 7; fillcolor = 5; penwidth = 3;];
 
-	graph   [label="Top Rank #5 Java Type Bridge\norg.axonframework.axonserver.connector.util.GrpcMessageSizeInterceptor$1$1\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
-	central [label="🌉 bridge #5\nGrpcMessageSizeInterceptor$1$1"];
-	"GrpcMessageSizeInterceptor$1_10908" [label = "GrpcMessageSizeInterceptor$\n1"; ]; "GrpcMessageSizeInterceptor$1_10908" -> central [label=3; weight=3; penwidth=0.4];
-	"GrpcMessageSizeInterceptor_10363" [label = "GrpcMessageSizeInterceptor"; ]; "GrpcMessageSizeInterceptor_10363" -> central [label=1; weight=1; penwidth=0.4];
-	"GrpcMessageSizeInterceptor$1_10908" [label = "GrpcMessageSizeInterceptor$\n1"; color = 5; fillcolor = 1; ]; central -> "GrpcMessageSizeInterceptor$1_10908" [label=10; weight=10; penwidth=0.6; color = 5];
-	"GrpcMessageSizeInterceptor_10363" [label = "GrpcMessageSizeInterceptor"; color = 5; fillcolor = 1; ]; central -> "GrpcMessageSizeInterceptor_10363" [label=6; weight=6; penwidth=0.5; color = 5];
-	"GrpcMessageSizeWarningThresholdReachedException_10929" [label = "GrpcMessageSizeWarningThresholdReachedException"; color = 5; fillcolor = 1; ]; central -> "GrpcMessageSizeWarningThresholdReachedException_10929" [label=2; weight=2; penwidth=0.4; color = 5];
-	"GrpcMessageSizeInterceptor$1_10908" -> "GrpcMessageSizeInterceptor_10363" [label=11; weight=11; penwidth=0.3; color = 3]
-	"GrpcMessageSizeInterceptor_10363" -> "GrpcMessageSizeInterceptor$1_10908" [label=3; weight=3; penwidth=0.3; color = 3]
-	"GrpcMessageSizeInterceptor$1_10908" -> "GrpcMessageSizeWarningThresholdReachedException_10929" [label=2; weight=2; penwidth=0.3; color = 3]
+	graph   [label="Top Rank #5 Java Type Bridge\norg.axonframework.messaging.core.timeout.HandlerTimeoutHandlerEnhancerDefinition\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
+	central [label="🌉 bridge #5\nHandlerTimeoutHandlerEnhancerDefinition"];
+	"AxonTimeoutAutoConfiguration_19270" [label = "AxonTimeoutAutoConfiguration"; ]; "AxonTimeoutAutoConfiguration_19270" -> central [label=3; weight=3; penwidth=0.4];
+	"MessageHandlingMember_30290" [label = "MessageHandlingMember"; color = 5; fillcolor = 1; ]; central -> "MessageHandlingMember_30290" [label=8; weight=8; penwidth=0.5; color = 5];
+	"HandlerTimeoutConfiguration_49353" [label = "HandlerTimeoutConfiguration"; color = 5; fillcolor = 1; ]; central -> "HandlerTimeoutConfiguration_49353" [label=5; weight=5; penwidth=0.5; color = 5];
+	"TaskTimeoutSettings_49354" [label = "TaskTimeoutSettings"; color = 5; fillcolor = 1; ]; central -> "TaskTimeoutSettings_49354" [label=4; weight=4; penwidth=0.5; color = 5];
+	"TimeoutWrappedMessageHandlingMember_49367" [label = "TimeoutWrappedMessageHandlingMember"; color = 5; fillcolor = 1; ]; central -> "TimeoutWrappedMessageHandlingMember_49367" [label=2; weight=2; penwidth=0.4; color = 5];
+	"CommandMessage_28910" [label = "CommandMessage"; color = 5; fillcolor = 1; ]; central -> "CommandMessage_28910" [label=1; weight=1; penwidth=0.4; color = 5];
+	"EventMessage_28899" [label = "EventMessage"; color = 5; fillcolor = 1; ]; central -> "EventMessage_28899" [label=1; weight=1; penwidth=0.4; color = 5];
+	"HandlerEnhancerDefinition_30289" [label = "HandlerEnhancerDefinition"; color = 5; fillcolor = 1; ]; central -> "HandlerEnhancerDefinition_30289" [label=1; weight=1; penwidth=0.4; color = 5];
+	"QueryMessage_28905" [label = "QueryMessage"; color = 5; fillcolor = 1; ]; central -> "QueryMessage_28905" [label=1; weight=1; penwidth=0.4; color = 5];
+	"HandlerTimeoutConfiguration_49353" -> "TaskTimeoutSettings_49354" [label=20; weight=20; penwidth=0.3; color = 3]
+	"HandlerEnhancerDefinition_30289" -> "MessageHandlingMember_30290" [label=2; weight=2; penwidth=0.3; color = 3]
+	"TimeoutWrappedMessageHandlingMember_49367" -> "MessageHandlingMember_30290" [label=1; weight=1; penwidth=0.3; color = 3]
 }
