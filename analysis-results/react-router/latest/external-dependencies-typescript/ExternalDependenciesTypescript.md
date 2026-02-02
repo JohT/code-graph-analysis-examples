@@ -2934,7 +2934,7 @@ Only the first 40 entries are shown. The whole table can be found in the followi
       <td>14</td>
       <td>6</td>
       <td>700.000000</td>
-      <td>[.emitKeypressEvents, node:process, Interface....</td>
+      <td>[beep, Interface.close, .emitKeypressEvents, c...</td>
     </tr>
     <tr>
       <th>17</th>
@@ -2946,7 +2946,7 @@ Only the first 40 entries are shown. The whole table can be found in the followi
       <td>14</td>
       <td>6</td>
       <td>700.000000</td>
-      <td>[global.NodeJS.Process.stdin, global.NodeJS.Pr...</td>
+      <td>[global.NodeJS.Process.stdout, EventEmitter, g...</td>
     </tr>
     <tr>
       <th>18</th>
@@ -3138,7 +3138,7 @@ Only the first 40 entries are shown. The whole table can be found in the followi
       <td>8</td>
       <td>2</td>
       <td>400.000000</td>
-      <td>[cursor.down, cursor.save, Key, erase.line, cu...</td>
+      <td>[erase.line, Key, cursor.to, cursor.move, curs...</td>
     </tr>
     <tr>
       <th>34</th>
