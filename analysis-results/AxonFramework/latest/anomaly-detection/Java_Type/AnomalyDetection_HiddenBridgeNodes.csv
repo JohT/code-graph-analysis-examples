@@ -1,5 +1,5 @@
 "codeUnitName","shortCodeUnitName","projectName","betweenness","pageRank","degree","incomingDependencies","outgoingDependencies","Source Cypher File: /home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/domains/anomaly-detection/queries/AnomalyDetectionHiddenBridgeNodes.cypher"
-"org.axonframework.test.fixture.AxonTestFixture","AxonTestFixture","axon-test-5.0.2",813.1000000000001,0.15342486498681254,18,1,17,""
+"org.axonframework.test.fixture.AxonTestFixture","AxonTestFixture","axon-test-5.0.2",813.0999999999999,0.15342486498681254,18,1,17,""
 "org.axonframework.messaging.core.configuration.MessagingConfigurationDefaults","MessagingConfigurationDefaults","axon-messaging-5.0.2",694.2888888888889,0.15147694955411475,59,1,58,""
 "org.axonframework.test.fixture.MessagesRecordingConfigurationEnhancer","MessagesRecordingConfigurationEnhancer","axon-test-5.0.2",579.6,0.15434703713934017,10,1,9,""
 "org.axonframework.messaging.core.annotation.MessageStreamResolverUtils","MessageStreamResolverUtils","axon-messaging-5.0.2",445.2666666666667,0.15326667053615348,10,1,9,""

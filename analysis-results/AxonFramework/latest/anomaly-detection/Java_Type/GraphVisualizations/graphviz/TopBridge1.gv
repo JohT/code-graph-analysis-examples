@@ -12,17 +12,18 @@ strict digraph TopBridge1 {
     central [fontsize = 16;];
     central [color = 7; fillcolor = 5; penwidth = 3;];
 
-	graph   [label="Top Rank #1 Java Type Bridge\norg.axonframework.test.util.MessageMonitorReport$Report$Success\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
-	central [label="🌉 bridge #1\nMessageMonitorReport$Report$Success"];
-	"MessageMonitorReport_8048" [label = "MessageMonitorReport"; ]; "MessageMonitorReport_8048" -> central [label=7; weight=7; penwidth=0.5];
-	"MessageMonitorReport$Report_8414" [label = "MessageMonitorReport$\nReport"; ]; "MessageMonitorReport$Report_8414" -> central [label=1; weight=1; penwidth=0.4];
-	"RecordingMessageMonitor$1_8050" [label = "RecordingMessageMonitor$\n1"; ]; "RecordingMessageMonitor$1_8050" -> central [label=1; weight=1; penwidth=0.4];
-	"Message_28893" [label = "Message"; color = 5; fillcolor = 1; ]; central -> "Message_28893" [label=3; weight=3; penwidth=0.4; color = 5];
-	"MessageMonitorReport$Report_8414" [label = "MessageMonitorReport$\nReport"; color = 5; fillcolor = 1; ]; central -> "MessageMonitorReport$Report_8414" [label=2; weight=2; penwidth=0.4; color = 5];
-	"MessageMonitorReport_8048" -> "MessageMonitorReport$Report_8414" [label=8; weight=8; penwidth=0.3; color = 3]
-	"RecordingMessageMonitor$1_8050" -> "MessageMonitorReport_8048" [label=6; weight=6; penwidth=0.3; color = 3]
-	"MessageMonitorReport_8048" -> "Message_28893" [label=3; weight=3; penwidth=0.3; color = 3]
-	"MessageMonitorReport$Report_8414" -> "Message_28893" [label=1; weight=1; penwidth=0.3; color = 3]
-	"RecordingMessageMonitor$1_8050" -> "Message_28893" [label=1; weight=1; penwidth=0.3; color = 3]
-	"RecordingMessageMonitor$1_8050" -> "MessageMonitorReport$Report_8414" [label=1; weight=1; penwidth=0.3; color = 3]
+	graph   [label="Top Rank #1 Java Type Bridge\norg.axonframework.messaging.core.timeout.HandlerTimeoutHandlerEnhancerDefinition\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
+	central [label="🌉 bridge #1\nHandlerTimeoutHandlerEnhancerDefinition"];
+	"AxonTimeoutAutoConfiguration_19270" [label = "AxonTimeoutAutoConfiguration"; ]; "AxonTimeoutAutoConfiguration_19270" -> central [label=3; weight=3; penwidth=0.4];
+	"MessageHandlingMember_30290" [label = "MessageHandlingMember"; color = 5; fillcolor = 1; ]; central -> "MessageHandlingMember_30290" [label=8; weight=8; penwidth=0.5; color = 5];
+	"HandlerTimeoutConfiguration_49353" [label = "HandlerTimeoutConfiguration"; color = 5; fillcolor = 1; ]; central -> "HandlerTimeoutConfiguration_49353" [label=5; weight=5; penwidth=0.5; color = 5];
+	"TaskTimeoutSettings_49354" [label = "TaskTimeoutSettings"; color = 5; fillcolor = 1; ]; central -> "TaskTimeoutSettings_49354" [label=4; weight=4; penwidth=0.5; color = 5];
+	"TimeoutWrappedMessageHandlingMember_49367" [label = "TimeoutWrappedMessageHandlingMember"; color = 5; fillcolor = 1; ]; central -> "TimeoutWrappedMessageHandlingMember_49367" [label=2; weight=2; penwidth=0.4; color = 5];
+	"CommandMessage_28910" [label = "CommandMessage"; color = 5; fillcolor = 1; ]; central -> "CommandMessage_28910" [label=1; weight=1; penwidth=0.4; color = 5];
+	"EventMessage_28899" [label = "EventMessage"; color = 5; fillcolor = 1; ]; central -> "EventMessage_28899" [label=1; weight=1; penwidth=0.4; color = 5];
+	"HandlerEnhancerDefinition_30289" [label = "HandlerEnhancerDefinition"; color = 5; fillcolor = 1; ]; central -> "HandlerEnhancerDefinition_30289" [label=1; weight=1; penwidth=0.4; color = 5];
+	"QueryMessage_28905" [label = "QueryMessage"; color = 5; fillcolor = 1; ]; central -> "QueryMessage_28905" [label=1; weight=1; penwidth=0.4; color = 5];
+	"HandlerTimeoutConfiguration_49353" -> "TaskTimeoutSettings_49354" [label=20; weight=20; penwidth=0.3; color = 3]
+	"HandlerEnhancerDefinition_30289" -> "MessageHandlingMember_30290" [label=2; weight=2; penwidth=0.3; color = 3]
+	"TimeoutWrappedMessageHandlingMember_49367" -> "MessageHandlingMember_30290" [label=1; weight=1; penwidth=0.3; color = 3]
 }

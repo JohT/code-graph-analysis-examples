@@ -2,7 +2,7 @@
 "org.axonframework.messaging.queryhandling.annotation.AnnotatedQueryHandlingComponent","AnnotatedQueryHandlingComponent","axon-messaging-5.0.2",385.5476190476191,24,1,23,""
 "org.axonframework.modelling.annotation.AnnotationBasedEntityEvolvingComponent","AnnotationBasedEntityEvolvingComponent","axon-modelling-5.0.2",351,18,1,17,""
 "org.axonframework.eventsourcing.EventSourcingRepository","EventSourcingRepository","axon-eventsourcing-5.0.2",348,17,1,16,""
-"org.axonframework.messaging.core.EmptyMessageStream","EmptyMessageStream","axon-messaging-5.0.2",323.7136904761905,7,1,6,""
+"org.axonframework.messaging.core.EmptyMessageStream","EmptyMessageStream","axon-messaging-5.0.2",323.71369047619044,7,1,6,""
 "org.axonframework.messaging.eventhandling.processing.streaming.pooled.PooledStreamingEventProcessor","PooledStreamingEventProcessor","axon-messaging-5.0.2",309,36,1,35,""
 "org.axonframework.messaging.eventhandling.processing.streaming.pooled.PooledStreamingEventProcessorsConfigurer","PooledStreamingEventProcessorsConfigurer","axon-messaging-5.0.2",281.41190476190474,17,1,16,""
 "org.axonframework.messaging.core.annotation.MultiHandlerDefinition","MultiHandlerDefinition","axon-messaging-5.0.2",201,9,1,8,""

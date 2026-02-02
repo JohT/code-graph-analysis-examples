@@ -12,16 +12,30 @@ strict digraph TopBridge4 {
     central [fontsize = 16;];
     central [color = 7; fillcolor = 5; penwidth = 3;];
 
-	graph   [label="Top Rank #4 Java Type Bridge\norg.axonframework.extension.springboot.autoconfig.AxonTimeoutAutoConfiguration\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
-	central [label="🌉 bridge #4\nAxonTimeoutAutoConfiguration"];
-	"TimeoutProperties_19339" [label = "TimeoutProperties"; color = 5; fillcolor = 1; ]; central -> "TimeoutProperties_19339" [label=5; weight=5; penwidth=0.5; color = 5];
-	"AxonTimeoutAutoConfiguration$AxonTimeoutConfigurerModule_19341" [label = "AxonTimeoutAutoConfiguration$\nAxonTimeoutConfigurerModule"; color = 5; fillcolor = 1; ]; central -> "AxonTimeoutAutoConfiguration$AxonTimeoutConfigurerModule_19341" [label=3; weight=3; penwidth=0.4; color = 5];
-	"HandlerTimeoutHandlerEnhancerDefinition_49358" [label = "HandlerTimeoutHandlerEnhancerDefinition"; color = 5; fillcolor = 1; ]; central -> "HandlerTimeoutHandlerEnhancerDefinition_49358" [label=3; weight=3; penwidth=0.4; color = 5];
-	"TimeoutProperties$MessageHandlerTimeoutProperties_19267" [label = "TimeoutProperties$\nMessageHandlerTimeoutProperties"; color = 5; fillcolor = 1; ]; central -> "TimeoutProperties$MessageHandlerTimeoutProperties_19267" [label=2; weight=2; penwidth=0.4; color = 5];
-	"ConfigurationEnhancer_5245" [label = "ConfigurationEnhancer"; color = 5; fillcolor = 1; ]; central -> "ConfigurationEnhancer_5245" [label=1; weight=1; penwidth=0.4; color = 5];
-	"TimeoutProperties$TransactionTimeoutProperties_19342" [label = "TimeoutProperties$\nTransactionTimeoutProperties"; color = 5; fillcolor = 1; ]; central -> "TimeoutProperties$TransactionTimeoutProperties_19342" [label=1; weight=1; penwidth=0.4; color = 5];
-	"AxonTimeoutAutoConfiguration$AxonTimeoutConfigurerModule_19341" -> "TimeoutProperties$TransactionTimeoutProperties_19342" [label=12; weight=12; penwidth=0.3; color = 3]
-	"TimeoutProperties_19339" -> "TimeoutProperties$TransactionTimeoutProperties_19342" [label=6; weight=6; penwidth=0.3; color = 3]
-	"TimeoutProperties_19339" -> "TimeoutProperties$MessageHandlerTimeoutProperties_19267" [label=6; weight=6; penwidth=0.3; color = 3]
-	"AxonTimeoutAutoConfiguration$AxonTimeoutConfigurerModule_19341" -> "ConfigurationEnhancer_5245" [label=1; weight=1; penwidth=0.3; color = 3]
+	graph   [label="Top Rank #4 Java Type Bridge\norg.axonframework.eventsourcing.eventstore.GlobalIndexConsistencyMarker\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
+	central [label="🌉 bridge #4\nGlobalIndexConsistencyMarker"];
+	"AxonServerEventStorageEngine$AxonServerAppendTransaction_13506" [label = "AxonServerEventStorageEngine$\nAxonServerAppendTransaction"; ]; "AxonServerEventStorageEngine$AxonServerAppendTransaction_13506" -> central [label=2; weight=2; penwidth=0.4];
+	"InMemoryEventStorageEngine$1_24120" [label = "InMemoryEventStorageEngine$\n1"; ]; "InMemoryEventStorageEngine$1_24120" -> central [label=2; weight=2; penwidth=0.4];
+	"InMemoryEventStorageEngine$MapBackedSourcingEventMessageStream_24116" [label = "InMemoryEventStorageEngine$\nMapBackedSourcingEventMessageStream"; ]; "InMemoryEventStorageEngine$MapBackedSourcingEventMessageStream_24116" -> central [label=2; weight=2; penwidth=0.4];
+	"SourcingEventMessageStream_12602" [label = "SourcingEventMessageStream"; ]; "SourcingEventMessageStream_12602" -> central [label=2; weight=2; penwidth=0.4];
+	"ConditionConverter_12604" [label = "ConditionConverter"; ]; "ConditionConverter_12604" -> central [label=1; weight=1; penwidth=0.4];
+	"InMemoryEventStorageEngine_24118" [label = "InMemoryEventStorageEngine"; ]; "InMemoryEventStorageEngine_24118" -> central [label=1; weight=1; penwidth=0.4];
+	"ConsistencyMarker_24195" [label = "ConsistencyMarker"; color = 5; fillcolor = 1; ]; central -> "ConsistencyMarker_24195" [label=9; weight=9; penwidth=0.5; color = 5];
+	"AbstractConsistencyMarker_23841" [label = "AbstractConsistencyMarker"; color = 5; fillcolor = 1; ]; central -> "AbstractConsistencyMarker_23841" [label=2; weight=2; penwidth=0.4; color = 5];
+	"GlobalIndexPosition_23810" [label = "GlobalIndexPosition"; color = 5; fillcolor = 1; ]; central -> "GlobalIndexPosition_23810" [label=2; weight=2; penwidth=0.4; color = 5];
+	"Position_24196" [label = "Position"; color = 5; fillcolor = 1; ]; central -> "Position_24196" [label=1; weight=1; penwidth=0.4; color = 5];
+	"AbstractConsistencyMarker_23841" -> "ConsistencyMarker_24195" [label=14; weight=14; penwidth=0.3; color = 3]
+	"InMemoryEventStorageEngine$1_24120" -> "InMemoryEventStorageEngine_24118" [label=12; weight=12; penwidth=0.3; color = 3]
+	"InMemoryEventStorageEngine$1_24120" -> "ConsistencyMarker_24195" [label=9; weight=9; penwidth=0.3; color = 3]
+	"GlobalIndexPosition_23810" -> "Position_24196" [label=7; weight=7; penwidth=0.3; color = 3]
+	"InMemoryEventStorageEngine_24118" -> "InMemoryEventStorageEngine$1_24120" [label=3; weight=3; penwidth=0.3; color = 3]
+	"InMemoryEventStorageEngine_24118" -> "InMemoryEventStorageEngine$MapBackedSourcingEventMessageStream_24116" [label=3; weight=3; penwidth=0.3; color = 3]
+	"AxonServerEventStorageEngine$AxonServerAppendTransaction_13506" -> "ConsistencyMarker_24195" [label=1; weight=1; penwidth=0.3; color = 3]
+	"ConditionConverter_12604" -> "GlobalIndexPosition_23810" [label=1; weight=1; penwidth=0.3; color = 3]
+	"ConsistencyMarker_24195" -> "Position_24196" [label=1; weight=1; penwidth=0.3; color = 3]
+	"InMemoryEventStorageEngine_24118" -> "ConsistencyMarker_24195" [label=1; weight=1; penwidth=0.3; color = 3]
+	"InMemoryEventStorageEngine_24118" -> "GlobalIndexPosition_23810" [label=1; weight=1; penwidth=0.3; color = 3]
+	"InMemoryEventStorageEngine$MapBackedSourcingEventMessageStream_24116" -> "ConsistencyMarker_24195" [label=1; weight=1; penwidth=0.3; color = 3]
+	"InMemoryEventStorageEngine$MapBackedSourcingEventMessageStream_24116" -> "InMemoryEventStorageEngine_24118" [label=1; weight=1; penwidth=0.3; color = 3]
+	"SourcingEventMessageStream_12602" -> "ConsistencyMarker_24195" [label=1; weight=1; penwidth=0.3; color = 3]
 }

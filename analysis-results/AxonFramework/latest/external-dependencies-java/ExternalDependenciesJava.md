@@ -131,7 +131,7 @@ Only the top 20 entries are shown. The whole table can be found in the following
       <td>34</td>
       <td>116</td>
       <td>1211</td>
-      <td>[JsonCreator, JsonGetter, JsonProperty, JsonIg...</td>
+      <td>[JsonProperty, JsonCreator, JsonTypeInfo$Id, J...</td>
     </tr>
     <tr>
       <th>7</th>
@@ -541,7 +541,7 @@ Only the top 20 entries are shown. The whole table can be found in the following
       <td>70</td>
       <td>116</td>
       <td>1211</td>
-      <td>[StatusCode, Span, SpanBuilder, SpanContext, S...</td>
+      <td>[TextMapPropagator, Span, Tracer, SpanKind, Te...</td>
     </tr>
     <tr>
       <th>15</th>
@@ -552,7 +552,7 @@ Only the top 20 entries are shown. The whole table can be found in the following
       <td>16</td>
       <td>116</td>
       <td>1211</td>
-      <td>[ConstraintViolation, Validation, Validator, V...</td>
+      <td>[Validator, ValidatorFactory, ConstraintViolat...</td>
     </tr>
     <tr>
       <th>16</th>
@@ -2694,7 +2694,7 @@ Only the last 40 entries are shown. The whole table can be found in the followin
       <td>16</td>
       <td>6</td>
       <td>320.000000</td>
-      <td>[Tracer, SpanKind, SpanBuilder, Span, StatusCo...</td>
+      <td>[Tracer, SpanContext, StatusCode, SpanBuilder,...</td>
     </tr>
     <tr>
       <th>1</th>
@@ -2706,7 +2706,7 @@ Only the last 40 entries are shown. The whole table can be found in the followin
       <td>16</td>
       <td>6</td>
       <td>320.000000</td>
-      <td>[TextMapGetter, ContextPropagators, TextMapPro...</td>
+      <td>[TextMapSetter, TextMapPropagator, ContextProp...</td>
     </tr>
     <tr>
       <th>2</th>
@@ -2730,7 +2730,7 @@ Only the last 40 entries are shown. The whole table can be found in the followin
       <td>16</td>
       <td>6</td>
       <td>320.000000</td>
-      <td>[Context, Scope]</td>
+      <td>[Scope, Context]</td>
     </tr>
     <tr>
       <th>4</th>
@@ -3232,7 +3232,7 @@ Only the last 30 entries are shown. The whole table can be found in the followin
       <td>100.000000</td>
       <td>83.333333</td>
       <td>[org.axonframework.conversion, org.axonframewo...</td>
-      <td>[org.axonframework.conversion.ChainingContentT...</td>
+      <td>[org.axonframework.conversion.PassThroughConve...</td>
     </tr>
     <tr>
       <th>1</th>
@@ -3280,7 +3280,7 @@ Only the last 30 entries are shown. The whole table can be found in the followin
       <td>25.000000</td>
       <td>16.666667</td>
       <td>[org.axonframework.conversion.json]</td>
-      <td>[org.axonframework.conversion.json.JacksonConv...</td>
+      <td>[org.axonframework.conversion.json.JsonNodeToO...</td>
     </tr>
     <tr>
       <th>4</th>
@@ -3312,7 +3312,7 @@ Only the last 30 entries are shown. The whole table can be found in the followin
       <td>25.000000</td>
       <td>13.333333</td>
       <td>[org.axonframework.conversion.avro]</td>
-      <td>[org.axonframework.conversion.avro.SchemaIncom...</td>
+      <td>[org.axonframework.conversion.avro.AvroUtil, o...</td>
     </tr>
     <tr>
       <th>6</th>
@@ -3408,7 +3408,7 @@ Only the last 30 entries are shown. The whole table can be found in the followin
       <td>100.000000</td>
       <td>61.538462</td>
       <td>[org.axonframework.eventsourcing, org.axonfram...</td>
-      <td>[org.axonframework.eventsourcing.EventSourcedE...</td>
+      <td>[org.axonframework.eventsourcing.EventSourcing...</td>
     </tr>
     <tr>
       <th>12</th>
@@ -3746,7 +3746,7 @@ The following table groups the external packages by their first two levels. For 
       <td>100.000000</td>
       <td>83.333333</td>
       <td>[org.axonframework.conversion, org.axonframewo...</td>
-      <td>[org.axonframework.conversion.ChainingContentT...</td>
+      <td>[org.axonframework.conversion.PassThroughConve...</td>
     </tr>
     <tr>
       <th>1</th>
@@ -3778,7 +3778,7 @@ The following table groups the external packages by their first two levels. For 
       <td>25.000000</td>
       <td>16.666667</td>
       <td>[org.axonframework.conversion.json]</td>
-      <td>[org.axonframework.conversion.json.JacksonConv...</td>
+      <td>[org.axonframework.conversion.json.JsonNodeToO...</td>
     </tr>
     <tr>
       <th>3</th>
@@ -3810,7 +3810,7 @@ The following table groups the external packages by their first two levels. For 
       <td>100.000000</td>
       <td>61.538462</td>
       <td>[org.axonframework.eventsourcing, org.axonfram...</td>
-      <td>[org.axonframework.eventsourcing.EventSourcedE...</td>
+      <td>[org.axonframework.eventsourcing.EventSourcing...</td>
     </tr>
     <tr>
       <th>5</th>
@@ -4928,7 +4928,7 @@ Only the last 40 entries are shown. The whole table can be found in the followin
       <td>85</td>
       <td>6</td>
       <td>[io.opentelemetry.context.propagation, io.open...</td>
-      <td>[TextMapGetter, ContextPropagators, TextMapPro...</td>
+      <td>[TextMapSetter, TextMapPropagator, ContextProp...</td>
     </tr>
     <tr>
       <th>1</th>
@@ -4966,8 +4966,8 @@ Only the last 40 entries are shown. The whole table can be found in the followin
       <td>99</td>
       <td>421</td>
       <td>11</td>
-      <td>[jakarta.annotation, org.apache.avro, com.fast...</td>
-      <td>[Nullable, Nonnull, Schema, SchemaCompatibilit...</td>
+      <td>[jakarta.annotation, org.apache.avro, org.apac...</td>
+      <td>[Nullable, Nonnull, AvroRuntimeException, Sche...</td>
     </tr>
     <tr>
       <th>4</th>
@@ -5006,7 +5006,7 @@ Only the last 40 entries are shown. The whole table can be found in the followin
       <td>407</td>
       <td>6</td>
       <td>[jakarta.annotation, jakarta.persistence, org....</td>
-      <td>[Nullable, Nonnull, EntityManagerFactory, Enti...</td>
+      <td>[Nonnull, Nullable, TypedQuery, EntityManager,...</td>
     </tr>
     <tr>
       <th>7</th>
@@ -5154,7 +5154,7 @@ Only the last 40 entries are shown. The whole table can be found in the followin
       <td>16</td>
       <td>54</td>
       <td>10</td>
-      <td>[SchemaCompatibility$Incompatibility, Schema, ...</td>
+      <td>[SchemaCompatibility$Incompatibility, InvalidA...</td>
       <td>avro</td>
     </tr>
     <tr>
@@ -5187,7 +5187,7 @@ Only the last 40 entries are shown. The whole table can be found in the followin
       <td>12</td>
       <td>56</td>
       <td>15</td>
-      <td>[EntityManager, TypedQuery, GenerationType, In...</td>
+      <td>[GenerationType, Index, TypedQuery, EntityMana...</td>
       <td>jpa</td>
     </tr>
     <tr>
@@ -5249,22 +5249,22 @@ Only the last 40 entries are shown. The whole table can be found in the followin
       <th>13</th>
       <td>axon-tracing-opentelemetry-5.0.2</td>
       <td>org.axonframework.extension.tracing.opentelemetry</td>
-      <td>io.opentelemetry.api.trace</td>
+      <td>io.opentelemetry.context.propagation</td>
       <td>9</td>
-      <td>46</td>
+      <td>15</td>
       <td>5</td>
-      <td>[StatusCode, Span, SpanBuilder, SpanContext, T...</td>
+      <td>[TextMapPropagator, TextMapGetter, TextMapSett...</td>
       <td>opentelemetry</td>
     </tr>
     <tr>
       <th>14</th>
       <td>axon-tracing-opentelemetry-5.0.2</td>
       <td>org.axonframework.extension.tracing.opentelemetry</td>
-      <td>io.opentelemetry.context.propagation</td>
+      <td>io.opentelemetry.api.trace</td>
       <td>9</td>
-      <td>15</td>
+      <td>46</td>
       <td>5</td>
-      <td>[TextMapPropagator, TextMapGetter, TextMapSett...</td>
+      <td>[Span, Tracer, SpanKind, SpanBuilder, SpanCont...</td>
       <td>opentelemetry</td>
     </tr>
     <tr>
@@ -5308,7 +5308,7 @@ Only the last 40 entries are shown. The whole table can be found in the followin
       <td>8</td>
       <td>42</td>
       <td>5</td>
-      <td>[ObjectMapper, JavaType, JsonNode]</td>
+      <td>[JsonNode, ObjectMapper, JavaType]</td>
       <td>json</td>
     </tr>
     <tr>
@@ -5385,7 +5385,7 @@ Only the last 40 entries are shown. The whole table can be found in the followin
       <td>7</td>
       <td>30</td>
       <td>10</td>
-      <td>[GenericRecord, GenericDatumReader, GenericData]</td>
+      <td>[GenericDatumReader, GenericRecord, GenericData]</td>
       <td>avro</td>
     </tr>
     <tr>
@@ -5407,7 +5407,7 @@ Only the last 40 entries are shown. The whole table can be found in the followin
       <td>7</td>
       <td>30</td>
       <td>80</td>
-      <td>[FluxSink, Mono, Flux]</td>
+      <td>[Mono, FluxSink, Flux]</td>
       <td>core</td>
     </tr>
     <tr>
@@ -5495,7 +5495,7 @@ Only the last 40 entries are shown. The whole table can be found in the followin
       <td>5</td>
       <td>16</td>
       <td>19</td>
-      <td>[ConstraintViolation, Validation, Validator, V...</td>
+      <td>[Validator, ValidatorFactory, ConstraintViolat...</td>
       <td>interception</td>
     </tr>
     <tr>
@@ -5506,7 +5506,7 @@ Only the last 40 entries are shown. The whole table can be found in the followin
       <td>5</td>
       <td>60</td>
       <td>4</td>
-      <td>[EntityManager, Query, LockModeType, TypedQuery]</td>
+      <td>[LockModeType, Query, TypedQuery, EntityManager]</td>
       <td>jpa</td>
     </tr>
     <tr>
@@ -6931,10 +6931,10 @@ If Maven is used as for package and dependency management and a ".pom" file is i
       <th>190</th>
       <td>axon-tracing-opentelemetry</td>
       <td>Axon Extension - Tracing - OpenTelemetry</td>
-      <td>default</td>
+      <td>provided</td>
       <td>False</td>
-      <td>jakarta.annotation</td>
-      <td>jakarta.annotation-api</td>
+      <td>com.google.code.findbugs</td>
+      <td>jsr305</td>
     </tr>
     <tr>
       <th>191</th>
@@ -6942,8 +6942,8 @@ If Maven is used as for package and dependency management and a ".pom" file is i
       <td>Axon Extension - Tracing - OpenTelemetry</td>
       <td>default</td>
       <td>False</td>
-      <td>org.axonframework</td>
-      <td>axon-messaging</td>
+      <td>jakarta.annotation</td>
+      <td>jakarta.annotation-api</td>
     </tr>
     <tr>
       <th>192</th>

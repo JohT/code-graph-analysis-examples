@@ -134,7 +134,7 @@ The projection and related common parameters are shared across all embedding alg
       <td>axon-update-5.0.2</td>
       <td>0</td>
       <td>0.155862</td>
-      <td>[0.38317325711250305, 0.007602878846228123, 0....</td>
+      <td>[0.3862416446208954, -0.0036093471571803093, 0...</td>
     </tr>
     <tr>
       <th>1</th>
@@ -143,7 +143,7 @@ The projection and related common parameters are shared across all embedding alg
       <td>axon-update-5.0.2</td>
       <td>0</td>
       <td>0.161399</td>
-      <td>[0.3799697458744049, 0.0051147425547242165, 0....</td>
+      <td>[0.38302767276763916, -0.00465570529922843, 0....</td>
     </tr>
     <tr>
       <th>2</th>
@@ -152,7 +152,7 @@ The projection and related common parameters are shared across all embedding alg
       <td>axon-update-5.0.2</td>
       <td>0</td>
       <td>0.157793</td>
-      <td>[0.37348201870918274, 0.0057981666177511215, 0...</td>
+      <td>[0.38187527656555176, -0.004720853175967932, 0...</td>
     </tr>
     <tr>
       <th>3</th>
@@ -161,7 +161,7 @@ The projection and related common parameters are shared across all embedding alg
       <td>axon-update-5.0.2</td>
       <td>0</td>
       <td>0.333418</td>
-      <td>[0.37890902161598206, 0.004293080419301987, 0....</td>
+      <td>[0.38603371381759644, -0.003224647371098399, 0...</td>
     </tr>
     <tr>
       <th>4</th>
@@ -170,7 +170,7 @@ The projection and related common parameters are shared across all embedding alg
       <td>axon-update-5.0.2</td>
       <td>0</td>
       <td>0.160359</td>
-      <td>[0.500958263874054, 0.014101027511060238, 0.53...</td>
+      <td>[0.43578654527664185, -0.01690436340868473, 0....</td>
     </tr>
   </tbody>
 </table>
@@ -227,7 +227,7 @@ This step takes the original node embeddings in their high dimensionality, e.g. 
       <td>axon-update-5.0.2</td>
       <td>0</td>
       <td>0.155862</td>
-      <td>[0.4330126941204071, -1.948557123541832, 0.216...</td>
+      <td>[0.0, 0.0, -0.4330126941204071, -0.64951904118...</td>
     </tr>
     <tr>
       <th>1</th>
@@ -236,7 +236,7 @@ This step takes the original node embeddings in their high dimensionality, e.g. 
       <td>axon-update-5.0.2</td>
       <td>0</td>
       <td>0.161399</td>
-      <td>[0.4330126941204071, -1.0825317353010178, 0.0,...</td>
+      <td>[-0.4330126941204071, 0.6495190411806107, 0.0,...</td>
     </tr>
     <tr>
       <th>2</th>
@@ -245,7 +245,7 @@ This step takes the original node embeddings in their high dimensionality, e.g. 
       <td>axon-update-5.0.2</td>
       <td>0</td>
       <td>0.157793</td>
-      <td>[0.6495190411806107, -1.0825317353010178, -0.4...</td>
+      <td>[-0.4330126941204071, 0.0, 0.4330126941204071,...</td>
     </tr>
     <tr>
       <th>3</th>
@@ -254,7 +254,7 @@ This step takes the original node embeddings in their high dimensionality, e.g. 
       <td>axon-update-5.0.2</td>
       <td>0</td>
       <td>0.333418</td>
-      <td>[0.4330126941204071, -1.2990380823612213, -0.6...</td>
+      <td>[-0.6495190411806107, -0.21650634706020355, 0....</td>
     </tr>
     <tr>
       <th>4</th>
@@ -263,7 +263,7 @@ This step takes the original node embeddings in their high dimensionality, e.g. 
       <td>axon-update-5.0.2</td>
       <td>0</td>
       <td>0.160359</td>
-      <td>[0.4330126941204071, -0.6495190411806107, -0.4...</td>
+      <td>[0.21650634706020355, 1.2990380823612213, 0.43...</td>
     </tr>
   </tbody>
 </table>
@@ -306,7 +306,7 @@ This step takes the original node embeddings in their high dimensionality, e.g. 
       <td>axon-update-5.0.2</td>
       <td>0</td>
       <td>0.155862</td>
-      <td>[0.0697060376405716, -0.5945477485656738, -0.5...</td>
+      <td>[0.2565348744392395, -0.11189279705286026, -0....</td>
     </tr>
     <tr>
       <th>1</th>
@@ -315,7 +315,7 @@ This step takes the original node embeddings in their high dimensionality, e.g. 
       <td>axon-update-5.0.2</td>
       <td>0</td>
       <td>0.161399</td>
-      <td>[0.17192389070987701, -0.3912027180194855, -0....</td>
+      <td>[0.2922505736351013, 0.001989659620448947, -0....</td>
     </tr>
     <tr>
       <th>2</th>
@@ -324,7 +324,7 @@ This step takes the original node embeddings in their high dimensionality, e.g. 
       <td>axon-update-5.0.2</td>
       <td>0</td>
       <td>0.157793</td>
-      <td>[0.009963242337107658, -0.43341657519340515, -...</td>
+      <td>[0.10746358335018158, -0.008088313974440098, -...</td>
     </tr>
     <tr>
       <th>3</th>
@@ -333,7 +333,7 @@ This step takes the original node embeddings in their high dimensionality, e.g. 
       <td>axon-update-5.0.2</td>
       <td>0</td>
       <td>0.333418</td>
-      <td>[0.07995708286762238, -0.4625887870788574, -0....</td>
+      <td>[0.23340782523155212, -0.12072036415338516, -0...</td>
     </tr>
     <tr>
       <th>4</th>
@@ -342,7 +342,7 @@ This step takes the original node embeddings in their high dimensionality, e.g. 
       <td>axon-update-5.0.2</td>
       <td>0</td>
       <td>0.160359</td>
-      <td>[0.09201847016811371, -0.48544949293136597, -0...</td>
+      <td>[0.11589553952217102, -0.08196156471967697, -0...</td>
     </tr>
   </tbody>
 </table>
@@ -377,7 +377,7 @@ This step takes the original node embeddings in their high dimensionality, e.g. 
       <td>True</td>
       <td>1</td>
       <td>[27.333410922827433]</td>
-      <td>190</td>
+      <td>145</td>
     </tr>
   </tbody>
 </table>
@@ -407,7 +407,7 @@ This step takes the original node embeddings in their high dimensionality, e.g. 
       <th>0</th>
       <td>org.axonframework.update</td>
       <td>update</td>
-      <td>4:37543b81-3898-4183-ae73-03d7f12c2038:19</td>
+      <td>4:11131b40-22bc-4e81-b6b4-de7fbe96d73d:19</td>
       <td>axon-update-5.0.2</td>
       <td>0</td>
       <td>0.155862</td>
@@ -417,7 +417,7 @@ This step takes the original node embeddings in their high dimensionality, e.g. 
       <th>1</th>
       <td>org.axonframework.update.detection</td>
       <td>detection</td>
-      <td>4:37543b81-3898-4183-ae73-03d7f12c2038:20</td>
+      <td>4:11131b40-22bc-4e81-b6b4-de7fbe96d73d:20</td>
       <td>axon-update-5.0.2</td>
       <td>0</td>
       <td>0.161399</td>
@@ -427,7 +427,7 @@ This step takes the original node embeddings in their high dimensionality, e.g. 
       <th>2</th>
       <td>org.axonframework.update.common</td>
       <td>common</td>
-      <td>4:37543b81-3898-4183-ae73-03d7f12c2038:21</td>
+      <td>4:11131b40-22bc-4e81-b6b4-de7fbe96d73d:21</td>
       <td>axon-update-5.0.2</td>
       <td>0</td>
       <td>0.157793</td>
@@ -437,7 +437,7 @@ This step takes the original node embeddings in their high dimensionality, e.g. 
       <th>3</th>
       <td>org.axonframework.update.api</td>
       <td>api</td>
-      <td>4:37543b81-3898-4183-ae73-03d7f12c2038:22</td>
+      <td>4:11131b40-22bc-4e81-b6b4-de7fbe96d73d:22</td>
       <td>axon-update-5.0.2</td>
       <td>0</td>
       <td>0.333418</td>
@@ -447,7 +447,7 @@ This step takes the original node embeddings in their high dimensionality, e.g. 
       <th>4</th>
       <td>org.axonframework.update.configuration</td>
       <td>configuration</td>
-      <td>4:37543b81-3898-4183-ae73-03d7f12c2038:23</td>
+      <td>4:11131b40-22bc-4e81-b6b4-de7fbe96d73d:23</td>
       <td>axon-update-5.0.2</td>
       <td>0</td>
       <td>0.160359</td>
