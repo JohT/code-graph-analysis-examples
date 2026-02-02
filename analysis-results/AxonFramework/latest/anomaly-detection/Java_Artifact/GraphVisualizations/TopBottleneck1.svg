@@ -22,16 +22,16 @@
 <polygon fill="#66c2a4" stroke="#66c2a4" stroke-width="0.5" points="308.96,-370.05 311.29,-366.51 307.26,-367.82 308.96,-370.05"/>
 <text xml:space="preserve" text-anchor="middle" x="284.62" y="-386.52" font-family="Times,serif" font-size="4.00">26</text>
 </g>
-<!-- axon&#45;messaging&#45;5.0.2_28780&#45;&gt;central -->
+<!-- axon&#45;messaging&#45;5.0.2_28781&#45;&gt;central -->
 <g id="edge1" class="edge">
-<title>axon&#45;messaging&#45;5.0.2_28780&#45;&gt;central</title>
+<title>axon&#45;messaging&#45;5.0.2_28781&#45;&gt;central</title>
 <path fill="none" stroke="#238b45" stroke-width="0.6" d="M429.55,-153.27C398.22,-190.38 344.13,-255.22 299.79,-312.46 290.77,-324.12 288.9,-327.33 280.23,-339.25 269.57,-353.9 258.16,-369.63 247.32,-384.57"/>
 <polygon fill="#238b45" stroke="#238b45" stroke-width="0.6" points="246.33,-383.56 245.12,-387.62 248.6,-385.2 246.33,-383.56"/>
 <text xml:space="preserve" text-anchor="middle" x="332.37" y="-269.86" font-family="Times,serif" font-size="4.00">68</text>
 </g>
-<!-- axon&#45;messaging&#45;5.0.2_28780&#45;&gt;axon&#45;common&#45;5.0.2_1031 -->
+<!-- axon&#45;messaging&#45;5.0.2_28781&#45;&gt;axon&#45;common&#45;5.0.2_1031 -->
 <g id="edge6" class="edge">
-<title>axon&#45;messaging&#45;5.0.2_28780&#45;&gt;axon&#45;common&#45;5.0.2_1031</title>
+<title>axon&#45;messaging&#45;5.0.2_28781&#45;&gt;axon&#45;common&#45;5.0.2_1031</title>
 <path fill="none" stroke="#ccece6" stroke-width="0.3" d="M439.44,-154.76C419.58,-194.4 385.81,-261.82 365.06,-303.26"/>
 <polygon fill="#ccece6" stroke="#ccece6" stroke-width="0.3" points="363.84,-302.58 363.3,-306.78 366.34,-303.83 363.84,-302.58"/>
 <text xml:space="preserve" text-anchor="middle" x="398.16" y="-232.38" font-family="Times,serif" font-size="4.00">974</text>
@@ -43,9 +43,9 @@
 <polygon fill="#238b45" stroke="#238b45" stroke-width="0.4" points="279.8,-432.4 276.22,-434.68 280.44,-435.13 279.8,-432.4"/>
 <text xml:space="preserve" text-anchor="middle" x="413.13" y="-403.25" font-family="Times,serif" font-size="4.00">14</text>
 </g>
-<!-- axon&#45;spring&#45;boot&#45;autoconfigure&#45;5.0.2_19229&#45;&gt;axon&#45;messaging&#45;5.0.2_28780 -->
+<!-- axon&#45;spring&#45;boot&#45;autoconfigure&#45;5.0.2_19229&#45;&gt;axon&#45;messaging&#45;5.0.2_28781 -->
 <g id="edge12" class="edge">
-<title>axon&#45;spring&#45;boot&#45;autoconfigure&#45;5.0.2_19229&#45;&gt;axon&#45;messaging&#45;5.0.2_28780</title>
+<title>axon&#45;spring&#45;boot&#45;autoconfigure&#45;5.0.2_19229&#45;&gt;axon&#45;messaging&#45;5.0.2_28781</title>
 <path fill="none" stroke="#ccece6" stroke-width="0.3" d="M615.02,-317.02C580.22,-274.67 519.02,-200.2 483.37,-156.82"/>
 <polygon fill="#ccece6" stroke="#ccece6" stroke-width="0.3" points="484.55,-156.04 480.92,-153.84 482.38,-157.82 484.55,-156.04"/>
 <text xml:space="preserve" text-anchor="middle" x="545.82" y="-236.44" font-family="Times,serif" font-size="4.00">70</text>
@@ -71,9 +71,9 @@
 <polygon fill="#238b45" stroke="#238b45" stroke-width="0.4" points="216.38,-370.62 216.79,-374.84 219.1,-371.29 216.38,-370.62"/>
 <text xml:space="preserve" text-anchor="middle" x="253.2" y="-222.48" font-family="Times,serif" font-size="4.00">2</text>
 </g>
-<!-- axon&#45;eventsourcing&#45;5.0.2_22453&#45;&gt;axon&#45;messaging&#45;5.0.2_28780 -->
+<!-- axon&#45;eventsourcing&#45;5.0.2_22453&#45;&gt;axon&#45;messaging&#45;5.0.2_28781 -->
 <g id="edge7" class="edge">
-<title>axon&#45;eventsourcing&#45;5.0.2_22453&#45;&gt;axon&#45;messaging&#45;5.0.2_28780</title>
+<title>axon&#45;eventsourcing&#45;5.0.2_22453&#45;&gt;axon&#45;messaging&#45;5.0.2_28781</title>
 <path fill="none" stroke="#ccece6" stroke-width="0.3" d="M347.21,-59.78C366.86,-71.22 389.63,-84.49 409.2,-95.89"/>
 <polygon fill="#ccece6" stroke="#ccece6" stroke-width="0.3" points="408.01,-96.82 412.18,-97.62 409.42,-94.4 408.01,-96.82"/>
 <text xml:space="preserve" text-anchor="middle" x="376.73" y="-79.92" font-family="Times,serif" font-size="4.00">366</text>
@@ -99,9 +99,9 @@
 <polygon fill="#238b45" stroke="#238b45" stroke-width="0.4" points="162.47,-376.19 165.36,-379.29 165.04,-375.07 162.47,-376.19"/>
 <text xml:space="preserve" text-anchor="middle" x="120.49" y="-280.42" font-family="Times,serif" font-size="4.00">2</text>
 </g>
-<!-- axon&#45;modelling&#45;5.0.2_14880&#45;&gt;axon&#45;messaging&#45;5.0.2_28780 -->
+<!-- axon&#45;modelling&#45;5.0.2_14880&#45;&gt;axon&#45;messaging&#45;5.0.2_28781 -->
 <g id="edge8" class="edge">
-<title>axon&#45;modelling&#45;5.0.2_14880&#45;&gt;axon&#45;messaging&#45;5.0.2_28780</title>
+<title>axon&#45;modelling&#45;5.0.2_14880&#45;&gt;axon&#45;messaging&#45;5.0.2_28781</title>
 <path fill="none" stroke="#ccece6" stroke-width="0.3" d="M126.49,-142.08C197.74,-137.91 312.95,-131.17 386.39,-126.87"/>
 <polygon fill="#ccece6" stroke="#ccece6" stroke-width="0.3" points="386.37,-128.27 390.28,-126.64 386.2,-125.47 386.37,-128.27"/>
 <text xml:space="preserve" text-anchor="middle" x="255.37" y="-135.56" font-family="Times,serif" font-size="4.00">316</text>
@@ -121,9 +121,9 @@
 <text xml:space="preserve" text-anchor="middle" x="197.72" y="-457.91" font-family="Times,serif" font-size="16.00">🔒 bottleneck #1</text>
 <text xml:space="preserve" text-anchor="middle" x="197.72" y="-438.71" font-family="Times,serif" font-size="16.00">axon&#45;conversion&#45;5.0.2</text>
 </g>
-<!-- axon&#45;messaging&#45;5.0.2_28780 -->
+<!-- axon&#45;messaging&#45;5.0.2_28781 -->
 <g id="node2" class="node">
-<title>axon&#45;messaging&#45;5.0.2_28780</title>
+<title>axon&#45;messaging&#45;5.0.2_28781</title>
 <ellipse fill="#ccece6" stroke="#41ae76" stroke-width="2" cx="455.43" cy="-122.82" rx="64.16" ry="32.4"/>
 <text xml:space="preserve" text-anchor="middle" x="455.43" y="-126.42" font-family="Times,serif" font-size="12.00">axon&#45;messaging&#45;5.0.2</text>
 <text xml:space="preserve" text-anchor="middle" x="455.43" y="-112.02" font-family="Times,serif" font-size="12.00">(2.0)</text>

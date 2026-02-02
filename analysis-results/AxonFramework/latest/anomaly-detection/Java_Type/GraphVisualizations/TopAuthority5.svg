@@ -16,16 +16,16 @@
 <text xml:space="preserve" text-anchor="middle" x="700.75" y="-1155.94" font-family="Helvetica,Arial,sans-serif" font-size="14.00">node value: Page Rank (normalized)</text>
 <text xml:space="preserve" text-anchor="middle" x="700.75" y="-1139.14" font-family="Helvetica,Arial,sans-serif" font-size="14.00">large circle: &gt; 80% percentile of Page Rank</text>
 <text xml:space="preserve" text-anchor="middle" x="700.75" y="-1122.34" font-family="Helvetica,Arial,sans-serif" font-size="14.00">thick outline: &gt; 80% percentile of Page Rank to Article Rank Difference</text>
-<!-- PooledStreamingEventProcessorConfiguration_35021&#45;&gt;central -->
+<!-- PooledStreamingEventProcessorConfiguration_35022&#45;&gt;central -->
 <g id="edge1" class="edge">
-<title>PooledStreamingEventProcessorConfiguration_35021&#45;&gt;central</title>
+<title>PooledStreamingEventProcessorConfiguration_35022&#45;&gt;central</title>
 <path fill="none" stroke="#238b45" stroke-width="0.6" d="M547.87,-1032.55C578.04,-950.57 656.73,-736.69 699.61,-620.12"/>
 <polygon fill="#238b45" stroke="#238b45" stroke-width="0.6" points="700.87,-620.76 700.94,-616.52 698.24,-619.79 700.87,-620.76"/>
 <text xml:space="preserve" text-anchor="middle" x="622.56" y="-825.32" font-family="Times,serif" font-size="4.00">14</text>
 </g>
-<!-- PooledStreamingEventProcessorConfiguration_35021&#45;&gt;EventProcessorConfiguration_35353 -->
+<!-- PooledStreamingEventProcessorConfiguration_35022&#45;&gt;EventProcessorConfiguration_35353 -->
 <g id="edge42" class="edge">
-<title>PooledStreamingEventProcessorConfiguration_35021&#45;&gt;EventProcessorConfiguration_35353</title>
+<title>PooledStreamingEventProcessorConfiguration_35022&#45;&gt;EventProcessorConfiguration_35353</title>
 <path fill="none" stroke="#ccece6" stroke-width="0.3" d="M581.88,-1034.43C586.87,-1031.05 591.95,-1027.61 596.95,-1024.22"/>
 <polygon fill="#ccece6" stroke="#ccece6" stroke-width="0.3" points="597.49,-1025.55 600.01,-1022.15 595.92,-1023.23 597.49,-1025.55"/>
 <text xml:space="preserve" text-anchor="middle" x="588.83" y="-1029.57" font-family="Times,serif" font-size="4.00">12</text>
@@ -58,9 +58,9 @@
 <polygon fill="#238b45" stroke="#238b45" stroke-width="0.5" points="746.44,-623.38 744.28,-619.74 743.7,-623.93 746.44,-623.38"/>
 <text xml:space="preserve" text-anchor="middle" x="783.03" y="-817.84" font-family="Times,serif" font-size="4.00">7</text>
 </g>
-<!-- PooledStreamingEventProcessor_36742&#45;&gt;PooledStreamingEventProcessorConfiguration_35021 -->
+<!-- PooledStreamingEventProcessor_36742&#45;&gt;PooledStreamingEventProcessorConfiguration_35022 -->
 <g id="edge41" class="edge">
-<title>PooledStreamingEventProcessor_36742&#45;&gt;PooledStreamingEventProcessorConfiguration_35021</title>
+<title>PooledStreamingEventProcessor_36742&#45;&gt;PooledStreamingEventProcessorConfiguration_35022</title>
 <path fill="none" stroke="#ccece6" stroke-width="0.3" d="M737.25,-1052.99C715.81,-1054.35 692.59,-1055.82 669.8,-1057.26"/>
 <polygon fill="#ccece6" stroke="#ccece6" stroke-width="0.3" points="669.9,-1055.85 666,-1057.5 670.08,-1058.64 669.9,-1055.85"/>
 <text xml:space="preserve" text-anchor="middle" x="699.37" y="-1056.46" font-family="Times,serif" font-size="4.00">28</text>
@@ -72,9 +72,9 @@
 <polygon fill="#238b45" stroke="#238b45" stroke-width="0.5" points="796.18,-591.03 792.14,-589.73 794.49,-593.26 796.18,-591.03"/>
 <text xml:space="preserve" text-anchor="middle" x="908.28" y="-679.51" font-family="Times,serif" font-size="4.00">6</text>
 </g>
-<!-- AggregateBasedJpaEventStorageEngine_24757&#45;&gt;central -->
+<!-- AggregateBasedJpaEventStorageEngine_24756&#45;&gt;central -->
 <g id="edge7" class="edge">
-<title>AggregateBasedJpaEventStorageEngine_24757&#45;&gt;central</title>
+<title>AggregateBasedJpaEventStorageEngine_24756&#45;&gt;central</title>
 <path fill="none" stroke="#238b45" stroke-width="0.5" d="M1176.69,-442.24C1073.83,-465.04 908.73,-501.64 810.22,-523.48"/>
 <polygon fill="#238b45" stroke="#238b45" stroke-width="0.5" points="809.92,-522.12 806.32,-524.35 810.53,-524.85 809.92,-522.12"/>
 <text xml:space="preserve" text-anchor="middle" x="990.04" y="-484.59" font-family="Times,serif" font-size="4.00">5</text>
@@ -114,23 +114,23 @@
 <polygon fill="#ccece6" stroke="#ccece6" stroke-width="0.3" points="309.35,-815.23 312.19,-818.38 311.93,-814.15 309.35,-815.23"/>
 <text xml:space="preserve" text-anchor="middle" x="272.71" y="-730.23" font-family="Times,serif" font-size="4.00">10</text>
 </g>
-<!-- AnnotatedQueryHandlingComponent_39927&#45;&gt;central -->
+<!-- AnnotatedQueryHandlingComponent_39928&#45;&gt;central -->
 <g id="edge11" class="edge">
-<title>AnnotatedQueryHandlingComponent_39927&#45;&gt;central</title>
+<title>AnnotatedQueryHandlingComponent_39928&#45;&gt;central</title>
 <path fill="none" stroke="#238b45" stroke-width="0.5" d="M1100.22,-840.98C1029.87,-784.32 880.11,-663.71 793.69,-594.11"/>
 <polygon fill="#238b45" stroke="#238b45" stroke-width="0.5" points="794.72,-593.13 790.72,-591.72 792.96,-595.31 794.72,-593.13"/>
 <text xml:space="preserve" text-anchor="middle" x="944.29" y="-717.4" font-family="Times,serif" font-size="4.00">5</text>
 </g>
-<!-- AnnotatedQueryHandlingComponent_39927&#45;&gt;SimpleQueryHandlingComponent_39900 -->
+<!-- AnnotatedQueryHandlingComponent_39928&#45;&gt;SimpleQueryHandlingComponent_39901 -->
 <g id="edge46" class="edge">
-<title>AnnotatedQueryHandlingComponent_39927&#45;&gt;SimpleQueryHandlingComponent_39900</title>
+<title>AnnotatedQueryHandlingComponent_39928&#45;&gt;SimpleQueryHandlingComponent_39901</title>
 <path fill="none" stroke="#ccece6" stroke-width="0.3" d="M1133.18,-838.95C1127.48,-805.52 1118.7,-753.98 1112.77,-719.16"/>
 <polygon fill="#ccece6" stroke="#ccece6" stroke-width="0.3" points="1114.19,-719.15 1112.14,-715.44 1111.43,-719.62 1114.19,-719.15"/>
 <text xml:space="preserve" text-anchor="middle" x="1121.63" y="-778.27" font-family="Times,serif" font-size="4.00">5</text>
 </g>
-<!-- AnnotationBasedEventCriteriaResolver_24092&#45;&gt;central -->
+<!-- AnnotationBasedEventCriteriaResolver_24091&#45;&gt;central -->
 <g id="edge12" class="edge">
-<title>AnnotationBasedEventCriteriaResolver_24092&#45;&gt;central</title>
+<title>AnnotationBasedEventCriteriaResolver_24091&#45;&gt;central</title>
 <path fill="none" stroke="#238b45" stroke-width="0.5" d="M221.95,-492.55C342.88,-504.26 535.75,-522.94 645.31,-533.55"/>
 <polygon fill="#238b45" stroke="#238b45" stroke-width="0.5" points="644.95,-534.92 649.07,-533.91 645.22,-532.13 644.95,-534.92"/>
 <text xml:space="preserve" text-anchor="middle" x="437.01" y="-514.67" font-family="Times,serif" font-size="4.00">5</text>
@@ -142,9 +142,9 @@
 <polygon fill="#238b45" stroke="#238b45" stroke-width="0.5" points="655.64,-500.48 659.8,-501.29 657.05,-498.06 655.64,-500.48"/>
 <text xml:space="preserve" text-anchor="middle" x="507.78" y="-413.9" font-family="Times,serif" font-size="4.00">5</text>
 </g>
-<!-- DefaultDispatchInterceptorRegistry_45282&#45;&gt;central -->
+<!-- DefaultDispatchInterceptorRegistry_45459&#45;&gt;central -->
 <g id="edge14" class="edge">
-<title>DefaultDispatchInterceptorRegistry_45282&#45;&gt;central</title>
+<title>DefaultDispatchInterceptorRegistry_45459&#45;&gt;central</title>
 <path fill="none" stroke="#238b45" stroke-width="0.5" d="M320.22,-706.95C406.16,-672.15 558.43,-610.48 650.76,-573.09"/>
 <polygon fill="#238b45" stroke="#238b45" stroke-width="0.5" points="651.23,-574.41 654.41,-571.61 650.18,-571.81 651.23,-574.41"/>
 <text xml:space="preserve" text-anchor="middle" x="486.69" y="-640.33" font-family="Times,serif" font-size="4.00">5</text>
@@ -219,9 +219,9 @@
 <polygon fill="#ccece6" stroke="#ccece6" stroke-width="0.3" points="606.29,-170.16 608.46,-166.52 604.49,-168.01 606.29,-170.16"/>
 <text xml:space="preserve" text-anchor="middle" x="584.9" y="-186.55" font-family="Times,serif" font-size="4.00">4</text>
 </g>
-<!-- DefaultHandlerInterceptorRegistry_45280&#45;&gt;central -->
+<!-- DefaultHandlerInterceptorRegistry_45457&#45;&gt;central -->
 <g id="edge24" class="edge">
-<title>DefaultHandlerInterceptorRegistry_45280&#45;&gt;central</title>
+<title>DefaultHandlerInterceptorRegistry_45457&#45;&gt;central</title>
 <path fill="none" stroke="#238b45" stroke-width="0.5" d="M964.35,-483.34C916.97,-495.05 857.27,-509.79 809.79,-521.52"/>
 <polygon fill="#238b45" stroke="#238b45" stroke-width="0.5" points="809.52,-520.15 805.97,-522.47 810.19,-522.87 809.52,-520.15"/>
 <text xml:space="preserve" text-anchor="middle" x="883.91" y="-504.17" font-family="Times,serif" font-size="4.00">4</text>
@@ -275,16 +275,16 @@
 <polygon fill="#238b45" stroke="#238b45" stroke-width="0.5" points="679.16,-609.22 680.46,-605.18 676.93,-607.53 679.16,-609.22"/>
 <text xml:space="preserve" text-anchor="middle" x="569.85" y="-751.45" font-family="Times,serif" font-size="4.00">4</text>
 </g>
-<!-- InterceptingEventStore_24751&#45;&gt;central -->
+<!-- InterceptingEventStore_24750&#45;&gt;central -->
 <g id="edge31" class="edge">
-<title>InterceptingEventStore_24751&#45;&gt;central</title>
+<title>InterceptingEventStore_24750&#45;&gt;central</title>
 <path fill="none" stroke="#238b45" stroke-width="0.5" d="M797.65,-925.88C786.02,-861.23 759.96,-716.42 743.36,-624.19"/>
 <polygon fill="#238b45" stroke="#238b45" stroke-width="0.5" points="744.75,-624 742.66,-620.31 742,-624.49 744.75,-624"/>
 <text xml:space="preserve" text-anchor="middle" x="769.12" y="-774.1" font-family="Times,serif" font-size="4.00">4</text>
 </g>
-<!-- InterceptingEventStore_24751&#45;&gt;InterceptingEventBus_38784 -->
+<!-- InterceptingEventStore_24750&#45;&gt;InterceptingEventBus_38784 -->
 <g id="edge48" class="edge">
-<title>InterceptingEventStore_24751&#45;&gt;InterceptingEventBus_38784</title>
+<title>InterceptingEventStore_24750&#45;&gt;InterceptingEventBus_38784</title>
 <path fill="none" stroke="#ccece6" stroke-width="0.3" d="M736.52,-952.99C670.82,-947.13 571.26,-938.24 505.4,-932.36"/>
 <polygon fill="#ccece6" stroke="#ccece6" stroke-width="0.3" points="505.67,-930.98 501.56,-932.02 505.42,-933.77 505.67,-930.98"/>
 <text xml:space="preserve" text-anchor="middle" x="617.6" y="-943.67" font-family="Times,serif" font-size="4.00">4</text>
@@ -296,9 +296,9 @@
 <polygon fill="#238b45" stroke="#238b45" stroke-width="0.5" points="812.44,-539.32 808.46,-540.76 812.47,-542.12 812.44,-539.32"/>
 <text xml:space="preserve" text-anchor="middle" x="948.15" y="-540.48" font-family="Times,serif" font-size="4.00">4</text>
 </g>
-<!-- PayloadConvertingQueryBusConnector_39893&#45;&gt;central -->
+<!-- PayloadConvertingQueryBusConnector_39894&#45;&gt;central -->
 <g id="edge33" class="edge">
-<title>PayloadConvertingQueryBusConnector_39893&#45;&gt;central</title>
+<title>PayloadConvertingQueryBusConnector_39894&#45;&gt;central</title>
 <path fill="none" stroke="#238b45" stroke-width="0.5" d="M1216.9,-728.16C1112.5,-688.28 915.86,-613.17 806.64,-571.45"/>
 <polygon fill="#238b45" stroke="#238b45" stroke-width="0.5" points="807.41,-570.25 803.18,-570.13 806.41,-572.86 807.41,-570.25"/>
 <text xml:space="preserve" text-anchor="middle" x="1008.58" y="-650.17" font-family="Times,serif" font-size="4.00">4</text>
@@ -345,9 +345,9 @@
 <polygon fill="#238b45" stroke="#238b45" stroke-width="0.5" points="755.54,-462.17 755.5,-466.41 758.17,-463.12 755.54,-462.17"/>
 <text xml:space="preserve" text-anchor="middle" x="807.23" y="-320.77" font-family="Times,serif" font-size="4.00">4</text>
 </g>
-<!-- SimpleQueryHandlingComponent_39900&#45;&gt;central -->
+<!-- SimpleQueryHandlingComponent_39901&#45;&gt;central -->
 <g id="edge40" class="edge">
-<title>SimpleQueryHandlingComponent_39900&#45;&gt;central</title>
+<title>SimpleQueryHandlingComponent_39901&#45;&gt;central</title>
 <path fill="none" stroke="#238b45" stroke-width="0.5" d="M1040.17,-657.33C975.1,-633.17 875.83,-596.31 806.87,-570.7"/>
 <polygon fill="#238b45" stroke="#238b45" stroke-width="0.5" points="807.74,-569.53 803.5,-569.45 806.76,-572.16 807.74,-569.53"/>
 <text xml:space="preserve" text-anchor="middle" x="920.56" y="-614.49" font-family="Times,serif" font-size="4.00">4</text>
@@ -360,9 +360,9 @@
 <text xml:space="preserve" text-anchor="middle" x="728.5" y="-546.4" font-family="Times,serif" font-size="16.00">🏛️ authority #5</text>
 <text xml:space="preserve" text-anchor="middle" x="728.5" y="-527.2" font-family="Times,serif" font-size="16.00">ComponentDescriptor</text>
 </g>
-<!-- PooledStreamingEventProcessorConfiguration_35021 -->
+<!-- PooledStreamingEventProcessorConfiguration_35022 -->
 <g id="node2" class="node">
-<title>PooledStreamingEventProcessorConfiguration_35021</title>
+<title>PooledStreamingEventProcessorConfiguration_35022</title>
 <ellipse fill="#ccece6" stroke="#41ae76" stroke-width="2" cx="535.67" cy="-1065.74" rx="133.19" ry="32.4"/>
 <text xml:space="preserve" text-anchor="middle" x="535.67" y="-1069.34" font-family="Times,serif" font-size="12.00">PooledStreamingEventProcessorConfiguration</text>
 <text xml:space="preserve" text-anchor="middle" x="535.67" y="-1054.94" font-family="Times,serif" font-size="12.00">(0.61%)</text>
@@ -402,9 +402,9 @@
 <text xml:space="preserve" text-anchor="middle" x="1068.72" y="-802.49" font-family="Times,serif" font-size="12.00">FieldChildEntityFieldDefinition</text>
 <text xml:space="preserve" text-anchor="middle" x="1068.72" y="-788.09" font-family="Times,serif" font-size="12.00">(1.03%)</text>
 </g>
-<!-- AggregateBasedJpaEventStorageEngine_24757 -->
+<!-- AggregateBasedJpaEventStorageEngine_24756 -->
 <g id="node8" class="node">
-<title>AggregateBasedJpaEventStorageEngine_24757</title>
+<title>AggregateBasedJpaEventStorageEngine_24756</title>
 <ellipse fill="#ccece6" stroke="#41ae76" stroke-width="2" cx="1268.62" cy="-421.86" rx="115.33" ry="32.4"/>
 <text xml:space="preserve" text-anchor="middle" x="1268.62" y="-425.46" font-family="Times,serif" font-size="12.00">AggregateBasedJpaEventStorageEngine</text>
 <text xml:space="preserve" text-anchor="middle" x="1268.62" y="-411.06" font-family="Times,serif" font-size="12.00">(0.22%)</text>
@@ -430,16 +430,16 @@
 <text xml:space="preserve" text-anchor="middle" x="223.19" y="-609.84" font-family="Times,serif" font-size="12.00">AnnotatedEventHandlingComponent</text>
 <text xml:space="preserve" text-anchor="middle" x="223.19" y="-595.44" font-family="Times,serif" font-size="12.00">(0.11%)</text>
 </g>
-<!-- AnnotatedQueryHandlingComponent_39927 -->
+<!-- AnnotatedQueryHandlingComponent_39928 -->
 <g id="node12" class="node">
-<title>AnnotatedQueryHandlingComponent_39927</title>
+<title>AnnotatedQueryHandlingComponent_39928</title>
 <ellipse fill="#ccece6" stroke="#41ae76" stroke-width="2" cx="1138.82" cy="-872.07" rx="107.59" ry="32.4"/>
 <text xml:space="preserve" text-anchor="middle" x="1138.82" y="-875.67" font-family="Times,serif" font-size="12.00">AnnotatedQueryHandlingComponent</text>
 <text xml:space="preserve" text-anchor="middle" x="1138.82" y="-861.27" font-family="Times,serif" font-size="12.00">(0.06%)</text>
 </g>
-<!-- AnnotationBasedEventCriteriaResolver_24092 -->
+<!-- AnnotationBasedEventCriteriaResolver_24091 -->
 <g id="node13" class="node">
-<title>AnnotationBasedEventCriteriaResolver_24092</title>
+<title>AnnotationBasedEventCriteriaResolver_24091</title>
 <ellipse fill="#ccece6" stroke="#41ae76" stroke-width="2" cx="113.4" cy="-482.04" rx="113.4" ry="32.4"/>
 <text xml:space="preserve" text-anchor="middle" x="113.4" y="-485.64" font-family="Times,serif" font-size="12.00">AnnotationBasedEventCriteriaResolver</text>
 <text xml:space="preserve" text-anchor="middle" x="113.4" y="-471.24" font-family="Times,serif" font-size="12.00">(0.3%)</text>
@@ -451,9 +451,9 @@
 <text xml:space="preserve" text-anchor="middle" x="309.29" y="-299.26" font-family="Times,serif" font-size="12.00">DefaultCommandGateway</text>
 <text xml:space="preserve" text-anchor="middle" x="309.29" y="-284.86" font-family="Times,serif" font-size="12.00">(0.0%)</text>
 </g>
-<!-- DefaultDispatchInterceptorRegistry_45282 -->
+<!-- DefaultDispatchInterceptorRegistry_45459 -->
 <g id="node15" class="node">
-<title>DefaultDispatchInterceptorRegistry_45282</title>
+<title>DefaultDispatchInterceptorRegistry_45459</title>
 <ellipse fill="#ccece6" stroke="#41ae76" stroke-width="2" cx="256" cy="-732.96" rx="102.53" ry="32.4"/>
 <text xml:space="preserve" text-anchor="middle" x="256" y="-736.56" font-family="Times,serif" font-size="12.00">DefaultDispatchInterceptorRegistry</text>
 <text xml:space="preserve" text-anchor="middle" x="256" y="-722.16" font-family="Times,serif" font-size="12.00">(0.42%)</text>
@@ -521,9 +521,9 @@
 <text xml:space="preserve" text-anchor="middle" x="528.91" y="-236.52" font-family="Times,serif" font-size="12.00">DecoratedComponent</text>
 <text xml:space="preserve" text-anchor="middle" x="528.91" y="-222.12" font-family="Times,serif" font-size="12.00">(0.05%)</text>
 </g>
-<!-- DefaultHandlerInterceptorRegistry_45280 -->
+<!-- DefaultHandlerInterceptorRegistry_45457 -->
 <g id="node25" class="node">
-<title>DefaultHandlerInterceptorRegistry_45280</title>
+<title>DefaultHandlerInterceptorRegistry_45457</title>
 <ellipse fill="#ccece6" stroke="#41ae76" stroke-width="2" cx="1045.05" cy="-463.41" rx="100.2" ry="32.4"/>
 <text xml:space="preserve" text-anchor="middle" x="1045.05" y="-467.01" font-family="Times,serif" font-size="12.00">DefaultHandlerInterceptorRegistry</text>
 <text xml:space="preserve" text-anchor="middle" x="1045.05" y="-452.61" font-family="Times,serif" font-size="12.00">(0.34%)</text>
@@ -570,9 +570,9 @@
 <text xml:space="preserve" text-anchor="middle" x="437.8" y="-929.93" font-family="Times,serif" font-size="12.00">InterceptingEventBus</text>
 <text xml:space="preserve" text-anchor="middle" x="437.8" y="-915.53" font-family="Times,serif" font-size="12.00">(0.06%)</text>
 </g>
-<!-- InterceptingEventStore_24751 -->
+<!-- InterceptingEventStore_24750 -->
 <g id="node32" class="node">
-<title>InterceptingEventStore_24751</title>
+<title>InterceptingEventStore_24750</title>
 <ellipse fill="#ccece6" stroke="#41ae76" stroke-width="2" cx="803.61" cy="-958.98" rx="67.25" ry="32.4"/>
 <text xml:space="preserve" text-anchor="middle" x="803.61" y="-962.58" font-family="Times,serif" font-size="12.00">InterceptingEventStore</text>
 <text xml:space="preserve" text-anchor="middle" x="803.61" y="-948.18" font-family="Times,serif" font-size="12.00">(0.08%)</text>
@@ -584,9 +584,9 @@
 <text xml:space="preserve" text-anchor="middle" x="1220.69" y="-540.02" font-family="Times,serif" font-size="12.00">PayloadConvertingCommandBusConnector</text>
 <text xml:space="preserve" text-anchor="middle" x="1220.69" y="-525.62" font-family="Times,serif" font-size="12.00">(0.13%)</text>
 </g>
-<!-- PayloadConvertingQueryBusConnector_39893 -->
+<!-- PayloadConvertingQueryBusConnector_39894 -->
 <g id="node34" class="node">
-<title>PayloadConvertingQueryBusConnector_39893</title>
+<title>PayloadConvertingQueryBusConnector_39894</title>
 <ellipse fill="#ccece6" stroke="#41ae76" stroke-width="2" cx="1286.43" cy="-754.72" rx="113.8" ry="32.4"/>
 <text xml:space="preserve" text-anchor="middle" x="1286.43" y="-758.32" font-family="Times,serif" font-size="12.00">PayloadConvertingQueryBusConnector</text>
 <text xml:space="preserve" text-anchor="middle" x="1286.43" y="-743.92" font-family="Times,serif" font-size="12.00">(0.16%)</text>
@@ -633,9 +633,9 @@
 <text xml:space="preserve" text-anchor="middle" x="873.19" y="-142.25" font-family="Times,serif" font-size="12.00">SimpleQueryBus</text>
 <text xml:space="preserve" text-anchor="middle" x="873.19" y="-127.85" font-family="Times,serif" font-size="12.00">(0.0%)</text>
 </g>
-<!-- SimpleQueryHandlingComponent_39900 -->
+<!-- SimpleQueryHandlingComponent_39901 -->
 <g id="node41" class="node">
-<title>SimpleQueryHandlingComponent_39900</title>
+<title>SimpleQueryHandlingComponent_39901</title>
 <ellipse fill="#ccece6" stroke="#41ae76" stroke-width="2" cx="1106.43" cy="-681.94" rx="98.29" ry="32.4"/>
 <text xml:space="preserve" text-anchor="middle" x="1106.43" y="-685.54" font-family="Times,serif" font-size="12.00">SimpleQueryHandlingComponent</text>
 <text xml:space="preserve" text-anchor="middle" x="1106.43" y="-671.14" font-family="Times,serif" font-size="12.00">(0.07%)</text>

@@ -14,7 +14,7 @@ strict digraph TopHub2 {
 
 	graph   [label="Top Rank #2 Java Type Hub\norg.axonframework.common.BuilderUtils\n\nnodes: incoming dependencies (limited max. 40)\nnode value: local clustering coefficient\nthick outline: <1 0% percentile of local clustering coefficient\n\n"];
 	central [label="🎡 hub #2\nBuilderUtils\n(in-degree=32)"];
-	"PooledStreamingEventProcessorConfiguration_35021"  [label = "PooledStreamingEventProcessorConfiguration\n(0.12)"; penwidth = 2; ]; "PooledStreamingEventProcessorConfiguration_35021" -> central [label=20; weight=20; penwidth=0.7];
+	"PooledStreamingEventProcessorConfiguration_35022"  [label = "PooledStreamingEventProcessorConfiguration\n(0.12)"; penwidth = 2; ]; "PooledStreamingEventProcessorConfiguration_35022" -> central [label=20; weight=20; penwidth=0.7];
 	"MessageTimerMonitor$Builder_9893"  [label = "MessageTimerMonitor$\nBuilder\n(0.5)"; penwidth = 2; ]; "MessageTimerMonitor$Builder_9893" -> central [label=7; weight=7; penwidth=0.5];
 	"EventProcessorLatencyMonitor$Builder_9894"  [label = "EventProcessorLatencyMonitor$\nBuilder\n(0.5)"; penwidth = 2; ]; "EventProcessorLatencyMonitor$Builder_9894" -> central [label=6; weight=6; penwidth=0.5];
 	"AggregateBasedJpaEventStorageEngineConfiguration_25213"  [label = "AggregateBasedJpaEventStorageEngineConfiguration\n(0.4)"; penwidth = 2; ]; "AggregateBasedJpaEventStorageEngineConfiguration_25213" -> central [label=5; weight=5; penwidth=0.5];
@@ -23,16 +23,16 @@ strict digraph TopHub2 {
 	"EventProcessorConfiguration_35353"  [label = "EventProcessorConfiguration\n(0.18)"; penwidth = 2; ]; "EventProcessorConfiguration_35353" -> central [label=4; weight=4; penwidth=0.5];
 	"JdbcTokenStoreConfiguration_34668"  [label = "JdbcTokenStoreConfiguration\n(0.67)"; penwidth = 2; ]; "JdbcTokenStoreConfiguration_34668" -> central [label=4; weight=4; penwidth=0.5];
 	"JpaTokenStoreConfiguration_35333"  [label = "JpaTokenStoreConfiguration\n(0.67)"; penwidth = 2; ]; "JpaTokenStoreConfiguration_35333" -> central [label=4; weight=4; penwidth=0.5];
-	"OpenTelemetrySpanFactory$Builder_51313"  [label = "OpenTelemetrySpanFactory$\nBuilder\n(0.27)"; penwidth = 2; ]; "OpenTelemetrySpanFactory$Builder_51313" -> central [label=4; weight=4; penwidth=0.5];
+	"OpenTelemetrySpanFactory$Builder_51346"  [label = "OpenTelemetrySpanFactory$\nBuilder\n(0.27)"; penwidth = 2; ]; "OpenTelemetrySpanFactory$Builder_51346" -> central [label=4; weight=4; penwidth=0.5];
 	"JdbcTokenStore_34574"  [label = "JdbcTokenStore\n(0.08)"; penwidth = 2; ]; "JdbcTokenStore_34574" -> central [label=3; weight=3; penwidth=0.4];
-	"JpaTokenStore_35018"  [label = "JpaTokenStore\n(0.1)"; penwidth = 2; ]; "JpaTokenStore_35018" -> central [label=3; weight=3; penwidth=0.4];
+	"JpaTokenStore_35019"  [label = "JpaTokenStore\n(0.1)"; penwidth = 2; ]; "JpaTokenStore_35019" -> central [label=3; weight=3; penwidth=0.4];
 	"AbstractEntityChildMetamodel$Builder_15115"  [label = "AbstractEntityChildMetamodel$\nBuilder\n(0.47)"; penwidth = 2; ]; "AbstractEntityChildMetamodel$Builder_15115" -> central [label=2; weight=2; penwidth=0.4];
 	"DefaultCommandBusSpanFactory$Builder_32383"  [label = "DefaultCommandBusSpanFactory$\nBuilder\n(0.33)"; penwidth = 2; ]; "DefaultCommandBusSpanFactory$Builder_32383" -> central [label=2; weight=2; penwidth=0.4];
 	"DefaultEventBusSpanFactory$Builder_38780"  [label = "DefaultEventBusSpanFactory$\nBuilder\n(0.33)"; penwidth = 2; ]; "DefaultEventBusSpanFactory$Builder_38780" -> central [label=2; weight=2; penwidth=0.4];
 	"DefaultQueryBusSpanFactory$Builder_41973"  [label = "DefaultQueryBusSpanFactory$\nBuilder\n(0.33)"; penwidth = 2; ]; "DefaultQueryBusSpanFactory$Builder_41973" -> central [label=2; weight=2; penwidth=0.4];
 	"DefaultQueryUpdateEmitterSpanFactory$Builder_41976"  [label = "DefaultQueryUpdateEmitterSpanFactory$\nBuilder\n(0.33)"; penwidth = 2; ]; "DefaultQueryUpdateEmitterSpanFactory$Builder_41976" -> central [label=2; weight=2; penwidth=0.4];
 	"DistributedCommandBusConfiguration_30446"  [label = "DistributedCommandBusConfiguration\n(0.13)"; penwidth = 2; ]; "DistributedCommandBusConfiguration_30446" -> central [label=2; weight=2; penwidth=0.4];
-	"DistributedQueryBusConfiguration_39885"  [label = "DistributedQueryBusConfiguration\n(0.13)"; penwidth = 2; ]; "DistributedQueryBusConfiguration_39885" -> central [label=2; weight=2; penwidth=0.4];
+	"DistributedQueryBusConfiguration_39886"  [label = "DistributedQueryBusConfiguration\n(0.13)"; penwidth = 2; ]; "DistributedQueryBusConfiguration_39886" -> central [label=2; weight=2; penwidth=0.4];
 	"SubscribingEventProcessorConfiguration_37814"  [label = "SubscribingEventProcessorConfiguration\n(0.2)"; penwidth = 2; ]; "SubscribingEventProcessorConfiguration_37814" -> central [label=2; weight=2; penwidth=0.4];
 	"Coordinator$Builder_36716"  [label = "Coordinator$\nBuilder\n(0.37)"; penwidth = 2; ]; "Coordinator$Builder_36716" -> central [label=1; weight=1; penwidth=0.4];
 	"DeepEqualsMatcher_9023"  [label = "DeepEqualsMatcher\n(0.2)"; penwidth = 2; ]; "DeepEqualsMatcher_9023" -> central [label=1; weight=1; penwidth=0.4];
@@ -49,18 +49,18 @@ strict digraph TopHub2 {
 	"AxonConfigurationException_2081"  [label = "AxonConfigurationException\n(0.07)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "AxonConfigurationException_2081" [label=5; weight=5; penwidth=0.5; color = 5];
 	"Assert_1680"  [label = "Assert\n(0.05)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "Assert_1680" [label=1; weight=1; penwidth=0.4; color = 5];
 	"StringUtils_1687"  [label = "StringUtils\n(0.28)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "StringUtils_1687" [label=1; weight=1; penwidth=0.4; color = 5];
-	"PooledStreamingEventProcessor_36742" -> "PooledStreamingEventProcessorConfiguration_35021" [label=28; weight=28; penwidth=0.3; color = 3]
+	"PooledStreamingEventProcessor_36742" -> "PooledStreamingEventProcessorConfiguration_35022" [label=28; weight=28; penwidth=0.3; color = 3]
 	"PooledStreamingEventProcessor_36742" -> "Coordinator$Builder_36716" [label=18; weight=18; penwidth=0.3; color = 3]
-	"PooledStreamingEventProcessorConfiguration_35021" -> "EventProcessorConfiguration_35353" [label=12; weight=12; penwidth=0.3; color = 3]
+	"PooledStreamingEventProcessorConfiguration_35022" -> "EventProcessorConfiguration_35353" [label=12; weight=12; penwidth=0.3; color = 3]
 	"SubscribingEventProcessorConfiguration_37814" -> "EventProcessorConfiguration_35353" [label=12; weight=12; penwidth=0.3; color = 3]
 	"TracingHandlerEnhancerDefinition_50407" -> "TracingHandlerEnhancerDefinition$Builder_50388" [label=8; weight=8; penwidth=0.3; color = 3]
 	"SubscribingEventProcessor_37816" -> "SubscribingEventProcessorConfiguration_37814" [label=7; weight=7; penwidth=0.3; color = 3]
 	"JdbcTokenStore_34574" -> "JdbcTokenStoreConfiguration_34668" [label=4; weight=4; penwidth=0.3; color = 3]
-	"JpaTokenStore_35018" -> "JpaTokenStoreConfiguration_35333" [label=4; weight=4; penwidth=0.3; color = 3]
+	"JpaTokenStore_35019" -> "JpaTokenStoreConfiguration_35333" [label=4; weight=4; penwidth=0.3; color = 3]
 	"AxonServerConnectionManager$Builder_10331" -> "AxonConfigurationException_2081" [label=3; weight=3; penwidth=0.3; color = 3]
 	"TracingHandlerEnhancerDefinition$Builder_50388" -> "TracingHandlerEnhancerDefinition_50407" [label=3; weight=3; penwidth=0.3; color = 3]
 	"Assert_1680" -> "StringUtils_1687" [label=1; weight=1; penwidth=0.3; color = 3]
 	"EventProcessorConfiguration_35353" -> "AxonConfigurationException_2081" [label=1; weight=1; penwidth=0.3; color = 3]
-	"PooledStreamingEventProcessorConfiguration_35021" -> "AxonConfigurationException_2081" [label=1; weight=1; penwidth=0.3; color = 3]
+	"PooledStreamingEventProcessorConfiguration_35022" -> "AxonConfigurationException_2081" [label=1; weight=1; penwidth=0.3; color = 3]
 	"SubscribingEventProcessorConfiguration_37814" -> "AxonConfigurationException_2081" [label=1; weight=1; penwidth=0.3; color = 3]
 }

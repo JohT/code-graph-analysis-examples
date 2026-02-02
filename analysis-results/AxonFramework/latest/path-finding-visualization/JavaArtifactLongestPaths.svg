@@ -157,14 +157,14 @@
 <text xml:space="preserve" text-anchor="middle" x="1153.34" y="-597.8" font-family="Helvetica,Arial,sans-serif" font-size="14.00">(level 1/6)</text>
 </g>
 <!-- axon&#45;server&#45;connector&#45;5.0.2\n(level 1/6)&#45;&gt;axon&#45;common&#45;5.0.2\n(level 6/6) -->
-<g id="edge8" class="edge">
+<g id="edge7" class="edge">
 <title>axon&#45;server&#45;connector&#45;5.0.2\n(level 1/6)&#45;&gt;axon&#45;common&#45;5.0.2\n(level 6/6)</title>
 <path fill="none" stroke="#1178b2" stroke-width="1.68" d="M1190.96,-582.03C1223.84,-554.65 1266.34,-509.29 1266.34,-457.74 1266.34,-457.74 1266.34,-457.74 1266.34,-135.25 1266.34,-56.59 1022.76,-36.72 878.38,-31.86"/>
 <polygon fill="#1178b2" stroke="#1178b2" stroke-width="1.68" points="878.66,-28.36 868.55,-31.55 878.44,-35.36 878.66,-28.36"/>
 <text xml:space="preserve" text-anchor="middle" x="1273.84" y="-293.49" font-family="Helvetica,Arial,sans-serif" font-size="10.00">134</text>
 </g>
 <!-- axon&#45;server&#45;connector&#45;5.0.2\n(level 1/6)&#45;&gt;axon&#45;messaging&#45;5.0.2\n(level 4/6) -->
-<g id="edge7" class="edge">
+<g id="edge8" class="edge">
 <title>axon&#45;server&#45;connector&#45;5.0.2\n(level 1/6)&#45;&gt;axon&#45;messaging&#45;5.0.2\n(level 4/6)</title>
 <path fill="none" stroke="#1178b2" stroke-width="2.52" d="M1152.37,-580.53C1150.24,-534.91 1143.58,-449.08 1123.34,-427.33 1099.99,-402.23 1078.08,-426.36 1048.34,-409.33 1044.53,-407.14 970.43,-329.46 924.75,-281.4"/>
 <polygon fill="#1178b2" stroke="#1178b2" stroke-width="2.52" points="927.52,-279.23 918.1,-274.4 922.45,-284.06 927.52,-279.23"/>
@@ -227,7 +227,7 @@
 <text xml:space="preserve" text-anchor="middle" x="699.71" y="-660.82" font-family="Helvetica,Arial,sans-serif" font-size="10.00">16</text>
 </g>
 <!-- axon&#45;spring&#45;boot&#45;autoconfigure&#45;5.0.2\n(level 0/6)&#45;&gt;axon&#45;common&#45;5.0.2\n(level 6/6) -->
-<g id="edge15" class="edge">
+<g id="edge14" class="edge">
 <title>axon&#45;spring&#45;boot&#45;autoconfigure&#45;5.0.2\n(level 0/6)&#45;&gt;axon&#45;common&#45;5.0.2\n(level 6/6)</title>
 <path fill="none" stroke="#1178b2" stroke-width="1.43" d="M1136.88,-700.78C1234.81,-685.65 1350.34,-657.94 1350.34,-611.4 1350.34,-611.4 1350.34,-611.4 1350.34,-135.25 1350.34,-75.13 1286.21,-93.11 1228.34,-76.83 1111.25,-43.89 971.32,-33.77 878.06,-30.94"/>
 <polygon fill="#1178b2" stroke="#1178b2" stroke-width="1.43" points="878.32,-27.45 868.23,-30.67 878.13,-34.44 878.32,-27.45"/>
@@ -255,7 +255,7 @@
 <text xml:space="preserve" text-anchor="middle" x="1007.34" y="-607.4" font-family="Helvetica,Arial,sans-serif" font-size="10.00">18</text>
 </g>
 <!-- axon&#45;spring&#45;boot&#45;autoconfigure&#45;5.0.2\n(level 0/6)&#45;&gt;axon&#45;server&#45;connector&#45;5.0.2\n(level 1/6) -->
-<g id="edge14" class="edge">
+<g id="edge15" class="edge">
 <title>axon&#45;spring&#45;boot&#45;autoconfigure&#45;5.0.2\n(level 0/6)&#45;&gt;axon&#45;server&#45;connector&#45;5.0.2\n(level 1/6)</title>
 <path fill="none" stroke="red" stroke-width="1.06" d="M1042.41,-688.42C1061.56,-675.12 1084.66,-659.08 1104.8,-645.1"/>
 <polygon fill="red" stroke="red" stroke-width="1.06" points="1106.59,-648.12 1112.81,-639.54 1102.6,-642.37 1106.59,-648.12"/>
@@ -276,14 +276,14 @@
 <text xml:space="preserve" text-anchor="middle" x="391.34" y="-337.31" font-family="Helvetica,Arial,sans-serif" font-size="14.00">(level 0/6)</text>
 </g>
 <!-- axon&#45;tracing&#45;opentelemetry&#45;5.0.2\n(level 0/6)&#45;&gt;axon&#45;common&#45;5.0.2\n(level 6/6) -->
-<g id="edge29" class="edge">
+<g id="edge28" class="edge">
 <title>axon&#45;tracing&#45;opentelemetry&#45;5.0.2\n(level 0/6)&#45;&gt;axon&#45;common&#45;5.0.2\n(level 6/6)</title>
 <path fill="none" stroke="#1178b2" d="M424.99,-320.92C495.29,-262.46 657.52,-127.56 733.58,-64.31"/>
 <polygon fill="#1178b2" stroke="#1178b2" points="735.37,-67.37 740.82,-58.29 730.89,-61.99 735.37,-67.37"/>
 <text xml:space="preserve" text-anchor="middle" x="589.76" y="-186.66" font-family="Helvetica,Arial,sans-serif" font-size="10.00">2</text>
 </g>
 <!-- axon&#45;tracing&#45;opentelemetry&#45;5.0.2\n(level 0/6)&#45;&gt;axon&#45;messaging&#45;5.0.2\n(level 4/6) -->
-<g id="edge28" class="edge">
+<g id="edge29" class="edge">
 <title>axon&#45;tracing&#45;opentelemetry&#45;5.0.2\n(level 0/6)&#45;&gt;axon&#45;messaging&#45;5.0.2\n(level 4/6)</title>
 <path fill="none" stroke="#1178b2" stroke-width="1.1" d="M490.32,-328.07C580.13,-309.17 711.46,-281.52 798.6,-263.18"/>
 <polygon fill="#1178b2" stroke="#1178b2" stroke-width="1.1" points="799.11,-266.65 808.17,-261.16 797.67,-259.8 799.11,-266.65"/>
