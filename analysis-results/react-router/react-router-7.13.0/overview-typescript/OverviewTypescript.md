@@ -438,23 +438,23 @@ The source data for this aggregated table can be found in the CSV report `Number
     </tr>
     <tr>
       <th>8</th>
-      <td>lib/dom/ssr/routeModules.ts</td>
-      <td>routeModules</td>
-      <td>1</td>
-      <td>12</td>
-      <td>8</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>9</th>
       <td>lib/rsc/server.rsc.ts</td>
       <td>server</td>
       <td>3</td>
       <td>14</td>
       <td>0</td>
       <td>4</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>lib/dom/ssr/routeModules.ts</td>
+      <td>routeModules</td>
+      <td>1</td>
+      <td>12</td>
+      <td>8</td>
+      <td>0</td>
       <td>0</td>
       <td>0</td>
     </tr>
@@ -548,28 +548,6 @@ The source data for this aggregated table can be found in the CSV report `Number
     </tr>
     <tr>
       <th>18</th>
-      <td>routes.ts</td>
-      <td>routes</td>
-      <td>6</td>
-      <td>1</td>
-      <td>1</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>19</th>
-      <td>lib/server-runtime/single-fetch.ts</td>
-      <td>single-fetch</td>
-      <td>6</td>
-      <td>1</td>
-      <td>0</td>
-      <td>1</td>
-      <td>0</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>20</th>
       <td>lib/dom/ssr/links.ts</td>
       <td>links</td>
       <td>7</td>
@@ -580,29 +558,29 @@ The source data for this aggregated table can be found in the CSV report `Number
       <td>0</td>
     </tr>
     <tr>
+      <th>19</th>
+      <td>routes.ts</td>
+      <td>routes</td>
+      <td>6</td>
+      <td>1</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>20</th>
+      <td>lib/server-runtime/single-fetch.ts</td>
+      <td>single-fetch</td>
+      <td>6</td>
+      <td>1</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
       <th>21</th>
-      <td>lib/types/route-data.ts</td>
-      <td>route-data</td>
-      <td>0</td>
-      <td>7</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>22</th>
-      <td>index.ts</td>
-      <td>react-router-node</td>
-      <td>5</td>
-      <td>0</td>
-      <td>1</td>
-      <td>1</td>
-      <td>0</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>23</th>
       <td>dom-export.ts</td>
       <td>dom-export</td>
       <td>1</td>
@@ -613,11 +591,33 @@ The source data for this aggregated table can be found in the CSV report `Number
       <td>0</td>
     </tr>
     <tr>
+      <th>22</th>
+      <td>lib/types/route-data.ts</td>
+      <td>route-data</td>
+      <td>0</td>
+      <td>7</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>23</th>
+      <td>index.ts</td>
+      <td>react-router-node</td>
+      <td>5</td>
+      <td>0</td>
+      <td>1</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
       <th>24</th>
-      <td>server.ts</td>
-      <td>server</td>
-      <td>4</td>
-      <td>2</td>
+      <td>lib/types/utils.ts</td>
+      <td>utils</td>
+      <td>0</td>
+      <td>6</td>
       <td>0</td>
       <td>0</td>
       <td>0</td>
@@ -625,11 +625,11 @@ The source data for this aggregated table can be found in the CSV report `Number
     </tr>
     <tr>
       <th>25</th>
-      <td>lib/types/utils.ts</td>
-      <td>utils</td>
-      <td>0</td>
-      <td>6</td>
-      <td>0</td>
+      <td>index.ts</td>
+      <td>react-router-cloudflare</td>
+      <td>3</td>
+      <td>2</td>
+      <td>1</td>
       <td>0</td>
       <td>0</td>
       <td>0</td>
@@ -658,11 +658,11 @@ The source data for this aggregated table can be found in the CSV report `Number
     </tr>
     <tr>
       <th>28</th>
-      <td>index.ts</td>
-      <td>react-router-cloudflare</td>
-      <td>3</td>
+      <td>server.ts</td>
+      <td>server</td>
+      <td>4</td>
       <td>2</td>
-      <td>1</td>
+      <td>0</td>
       <td>0</td>
       <td>0</td>
       <td>0</td>
@@ -807,23 +807,23 @@ The source data for this aggregated table can be found in the CSV report `Number
     </tr>
     <tr>
       <th>8</th>
-      <td>lib/dom/ssr/routeModules.ts</td>
-      <td>routeModules</td>
-      <td>4.761905</td>
-      <td>57.142857</td>
-      <td>38.095238</td>
-      <td>0.000000</td>
-      <td>0.000000</td>
-      <td>0.000000</td>
-    </tr>
-    <tr>
-      <th>9</th>
       <td>lib/rsc/server.rsc.ts</td>
       <td>server</td>
       <td>14.285714</td>
       <td>66.666667</td>
       <td>0.000000</td>
       <td>19.047619</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>lib/dom/ssr/routeModules.ts</td>
+      <td>routeModules</td>
+      <td>4.761905</td>
+      <td>57.142857</td>
+      <td>38.095238</td>
+      <td>0.000000</td>
       <td>0.000000</td>
       <td>0.000000</td>
     </tr>
@@ -917,28 +917,6 @@ The source data for this aggregated table can be found in the CSV report `Number
     </tr>
     <tr>
       <th>18</th>
-      <td>routes.ts</td>
-      <td>routes</td>
-      <td>75.000000</td>
-      <td>12.500000</td>
-      <td>12.500000</td>
-      <td>0.000000</td>
-      <td>0.000000</td>
-      <td>0.000000</td>
-    </tr>
-    <tr>
-      <th>19</th>
-      <td>lib/server-runtime/single-fetch.ts</td>
-      <td>single-fetch</td>
-      <td>75.000000</td>
-      <td>12.500000</td>
-      <td>0.000000</td>
-      <td>12.500000</td>
-      <td>0.000000</td>
-      <td>0.000000</td>
-    </tr>
-    <tr>
-      <th>20</th>
       <td>lib/dom/ssr/links.ts</td>
       <td>links</td>
       <td>87.500000</td>
@@ -949,29 +927,29 @@ The source data for this aggregated table can be found in the CSV report `Number
       <td>0.000000</td>
     </tr>
     <tr>
+      <th>19</th>
+      <td>routes.ts</td>
+      <td>routes</td>
+      <td>75.000000</td>
+      <td>12.500000</td>
+      <td>12.500000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+    </tr>
+    <tr>
+      <th>20</th>
+      <td>lib/server-runtime/single-fetch.ts</td>
+      <td>single-fetch</td>
+      <td>75.000000</td>
+      <td>12.500000</td>
+      <td>0.000000</td>
+      <td>12.500000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+    </tr>
+    <tr>
       <th>21</th>
-      <td>lib/types/route-data.ts</td>
-      <td>route-data</td>
-      <td>0.000000</td>
-      <td>100.000000</td>
-      <td>0.000000</td>
-      <td>0.000000</td>
-      <td>0.000000</td>
-      <td>0.000000</td>
-    </tr>
-    <tr>
-      <th>22</th>
-      <td>index.ts</td>
-      <td>react-router-node</td>
-      <td>71.428571</td>
-      <td>0.000000</td>
-      <td>14.285714</td>
-      <td>14.285714</td>
-      <td>0.000000</td>
-      <td>0.000000</td>
-    </tr>
-    <tr>
-      <th>23</th>
       <td>dom-export.ts</td>
       <td>dom-export</td>
       <td>14.285714</td>
@@ -982,11 +960,33 @@ The source data for this aggregated table can be found in the CSV report `Number
       <td>0.000000</td>
     </tr>
     <tr>
+      <th>22</th>
+      <td>lib/types/route-data.ts</td>
+      <td>route-data</td>
+      <td>0.000000</td>
+      <td>100.000000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+    </tr>
+    <tr>
+      <th>23</th>
+      <td>index.ts</td>
+      <td>react-router-node</td>
+      <td>71.428571</td>
+      <td>0.000000</td>
+      <td>14.285714</td>
+      <td>14.285714</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+    </tr>
+    <tr>
       <th>24</th>
-      <td>server.ts</td>
-      <td>server</td>
-      <td>66.666667</td>
-      <td>33.333333</td>
+      <td>lib/types/utils.ts</td>
+      <td>utils</td>
+      <td>0.000000</td>
+      <td>100.000000</td>
       <td>0.000000</td>
       <td>0.000000</td>
       <td>0.000000</td>
@@ -994,11 +994,11 @@ The source data for this aggregated table can be found in the CSV report `Number
     </tr>
     <tr>
       <th>25</th>
-      <td>lib/types/utils.ts</td>
-      <td>utils</td>
-      <td>0.000000</td>
-      <td>100.000000</td>
-      <td>0.000000</td>
+      <td>index.ts</td>
+      <td>react-router-cloudflare</td>
+      <td>50.000000</td>
+      <td>33.333333</td>
+      <td>16.666667</td>
       <td>0.000000</td>
       <td>0.000000</td>
       <td>0.000000</td>
@@ -1027,11 +1027,11 @@ The source data for this aggregated table can be found in the CSV report `Number
     </tr>
     <tr>
       <th>28</th>
-      <td>index.ts</td>
-      <td>react-router-cloudflare</td>
-      <td>50.000000</td>
+      <td>server.ts</td>
+      <td>server</td>
+      <td>66.666667</td>
       <td>33.333333</td>
-      <td>16.666667</td>
+      <td>0.000000</td>
       <td>0.000000</td>
       <td>0.000000</td>
       <td>0.000000</td>

@@ -2078,102 +2078,102 @@ Only the last 20 entries are shown. The whole table can be found in the followin
   <tbody>
     <tr>
       <th>0</th>
-      <td>@types/timers</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>arg.Result."--no-typescript</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>node:child_process</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>@types/APIGatewayProxyEventHeaders."content-type</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>@types/kebabCase</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <th>5</th>
       <td>@types/isEqual</td>
       <td>1</td>
     </tr>
     <tr>
-      <th>6</th>
-      <td>@types/events</td>
+      <th>1</th>
+      <td>@types/kebabCase</td>
       <td>1</td>
     </tr>
     <tr>
-      <th>7</th>
+      <th>2</th>
+      <td>@types/timers</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>arg.Result."--no-typescript</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>4</th>
       <td>exit-hook</td>
       <td>1</td>
     </tr>
     <tr>
-      <th>8</th>
+      <th>5</th>
+      <td>@types/events</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>6</th>
       <td>@types/APIGatewayProxyEventHeaders."x-forwarde...</td>
       <td>1</td>
     </tr>
     <tr>
+      <th>7</th>
+      <td>node:child_process</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>@types/APIGatewayProxyEventHeaders."content-type</td>
+      <td>1</td>
+    </tr>
+    <tr>
       <th>9</th>
-      <td>cli</td>
-      <td>2</td>
-    </tr>
-    <tr>
-      <th>10</th>
-      <td>@types/jsesc</td>
-      <td>2</td>
-    </tr>
-    <tr>
-      <th>11</th>
       <td>url</td>
       <td>2</td>
     </tr>
     <tr>
-      <th>12</th>
-      <td>arg</td>
-      <td>2</td>
-    </tr>
-    <tr>
-      <th>13</th>
+      <th>10</th>
       <td>@types/semver</td>
       <td>2</td>
     </tr>
     <tr>
-      <th>14</th>
-      <td>node:crypto</td>
-      <td>2</td>
-    </tr>
-    <tr>
-      <th>15</th>
-      <td>module-runner</td>
-      <td>2</td>
-    </tr>
-    <tr>
-      <th>16</th>
+      <th>11</th>
       <td>prettier</td>
       <td>2</td>
     </tr>
     <tr>
-      <th>17</th>
+      <th>12</th>
+      <td>@types/jsesc</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>arg</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>14</th>
+      <td>module-runner</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>15</th>
+      <td>node:crypto</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>16</th>
       <td>chalk</td>
       <td>2</td>
     </tr>
     <tr>
+      <th>17</th>
+      <td>cli</td>
+      <td>2</td>
+    </tr>
+    <tr>
       <th>18</th>
-      <td>@babel/babel-parser</td>
+      <td>node:readline</td>
       <td>3</td>
     </tr>
     <tr>
       <th>19</th>
-      <td>node:readline</td>
+      <td>@babel/babel-parser</td>
       <td>3</td>
     </tr>
   </tbody>
@@ -2934,7 +2934,7 @@ Only the first 40 entries are shown. The whole table can be found in the followi
       <td>14</td>
       <td>6</td>
       <td>700.000000</td>
-      <td>[cursor, node:process, Key, .createInterface, ...</td>
+      <td>[.emitKeypressEvents, node:process, Interface....</td>
     </tr>
     <tr>
       <th>17</th>
@@ -2946,7 +2946,7 @@ Only the first 40 entries are shown. The whole table can be found in the followi
       <td>14</td>
       <td>6</td>
       <td>700.000000</td>
-      <td>[global.NodeJS.Process.stdout, global.NodeJS.P...</td>
+      <td>[global.NodeJS.Process.stdin, global.NodeJS.Pr...</td>
     </tr>
     <tr>
       <th>18</th>
@@ -3138,7 +3138,7 @@ Only the first 40 entries are shown. The whole table can be found in the followi
       <td>8</td>
       <td>2</td>
       <td>400.000000</td>
-      <td>[cursor.save, Key, cursor.to, cursor.down, cur...</td>
+      <td>[cursor.down, cursor.save, Key, erase.line, cu...</td>
     </tr>
     <tr>
       <th>34</th>
@@ -3236,8 +3236,8 @@ The following table uses pivot to show the internal modules in columns, the exte
       <th>react-router</th>
       <th>utils</th>
       <th>route-chunks</th>
-      <th>context</th>
       <th>routes</th>
+      <th>context</th>
       <th>config</th>
       <th>react-router-cloudflare</th>
       <th>remove-exports</th>
@@ -3670,8 +3670,8 @@ The following table uses pivot to show the internal modules in columns, the exte
       <td>0</td>
       <td>0</td>
       <td>0</td>
-      <td>0</td>
       <td>3</td>
+      <td>0</td>
       <td>1</td>
       <td>0</td>
       <td>0</td>
@@ -3724,8 +3724,8 @@ The following table uses pivot to show the internal modules in columns, the exte
       <td>31</td>
       <td>0</td>
       <td>0</td>
-      <td>33</td>
       <td>0</td>
+      <td>33</td>
       <td>0</td>
       <td>0</td>
       <td>0</td>
@@ -3904,8 +3904,8 @@ The following table uses pivot to show the internal modules in columns, the exte
       <td>6</td>
       <td>0</td>
       <td>0</td>
-      <td>0</td>
       <td>30</td>
+      <td>0</td>
       <td>14</td>
       <td>0</td>
       <td>2</td>
@@ -4352,8 +4352,8 @@ The following table uses pivot to show the internal modules in columns, the exte
       <th>react-router</th>
       <th>utils</th>
       <th>route-chunks</th>
-      <th>context</th>
       <th>routes</th>
+      <th>context</th>
       <th>config</th>
       <th>react-router-cloudflare</th>
       <th>remove-exports</th>
@@ -4462,8 +4462,8 @@ The following table uses pivot to show the internal modules in columns, the exte
       <td>31</td>
       <td>9</td>
       <td>5</td>
-      <td>33</td>
       <td>3</td>
+      <td>33</td>
       <td>7</td>
       <td>0</td>
       <td>4</td>
@@ -4480,8 +4480,8 @@ The following table uses pivot to show the internal modules in columns, the exte
       <td>9</td>
       <td>30</td>
       <td>0</td>
-      <td>0</td>
       <td>30</td>
+      <td>0</td>
       <td>25</td>
       <td>0</td>
       <td>2</td>
