@@ -12,10 +12,25 @@ strict digraph TopAuthority4 {
     central [fontsize = 16;];
     central [color = 7; fillcolor = 5; penwidth = 3;];
 
-	graph   [label="Top Rank #4 Typescript Module Authority\n/home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.13.0/source/react-router-7.13.0/packages/react-router-dev/config.ts\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: Page Rank (normalized)\nlarge circle: > 80% percentile of Page Rank\nthick outline: > 80% percentile of Page Rank to Article Rank Difference\n\n"];
+	graph   [label="Top Rank #4 Typescript Module Authority\n/home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.13.0/source/react-router-7.13.0/packages/react-router-dev/config/config.ts\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: Page Rank (normalized)\nlarge circle: > 80% percentile of Page Rank\nthick outline: > 80% percentile of Page Rank to Article Rank Difference\n\n"];
 	central [label="🏛️ authority #4\nconfig"];
-	"config_10890"  [label = "config\n(24.04%)"; penwidth = 5; ]; "config_10890" -> central [label=440; weight=440; penwidth=0.5];
-	"plugin_10914"  [label = "plugin\n(1.14%)"; penwidth = 2; ]; "plugin_10914" -> central [label=5; weight=5; penwidth=0.4];
-	"config_10890"  [label = "config\n(24.04%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "config_10890" [label=1; weight=1; penwidth=0.4; color = 5];
-	"plugin_10914" -> "config_10890" [label=41; weight=41; penwidth=0.3; color = 3]
+	"generate_204071"  [label = "generate\n(1.72%)"; penwidth = 2; ]; "generate_204071" -> central [label=40; weight=40; penwidth=0.4];
+	"optimize-deps-entries_204087"  [label = "optimize-deps-entries\n(0.09%)"; penwidth = 2; ]; "optimize-deps-entries_204087" -> central [label=40; weight=40; penwidth=0.4];
+	"plugin_204088"  [label = "plugin\n(1.22%)"; penwidth = 2; ]; "plugin_204088" -> central [label=15; weight=15; penwidth=0.4];
+	"commands_204058"  [label = "commands\n(1.66%)"; penwidth = 2; ]; "commands_204058" -> central [label=8; weight=8; penwidth=0.4];
+	"plugin_204103"  [label = "plugin\n(0.0%)"; penwidth = 2; ]; "plugin_204103" -> central [label=8; weight=8; penwidth=0.4];
+	"build_204077"  [label = "build\n(0.23%)"; penwidth = 2; ]; "build_204077" -> central [label=4; weight=4; penwidth=0.4];
+	"cloudflare-dev-proxy_204079"  [label = "cloudflare-dev-proxy\n(0.0%)"; penwidth = 2; ]; "cloudflare-dev-proxy_204079" -> central [label=4; weight=4; penwidth=0.4];
+	"config_204051"  [label = "config\n(9.99%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "config_204051" [label=48; weight=48; penwidth=0.4; color = 5];
+	"routes_204068"  [shape = "circle"; height=2; label = "routes\n(58.46%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "routes_204068" [label=17; weight=17; penwidth=0.4; color = 5];
+	"vite-node_204097"  [label = "vite-node\n(1.04%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "vite-node_204097" [label=5; weight=5; penwidth=0.4; color = 5];
+	"detectPackageManager_204060"  [label = "detectPackageManager\n(0.83%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "detectPackageManager_204060" [label=4; weight=4; penwidth=0.4; color = 5];
+	"plugin_204088" -> "routes_204068" [label=233; weight=233; penwidth=0.3; color = 3]
+	"generate_204071" -> "routes_204068" [label=38; weight=38; penwidth=0.3; color = 3]
+	"build_204077" -> "plugin_204088" [label=28; weight=28; penwidth=0.3; color = 3]
+	"commands_204058" -> "build_204077" [label=5; weight=5; penwidth=0.3; color = 3]
+	"plugin_204088" -> "optimize-deps-entries_204087" [label=4; weight=4; penwidth=0.3; color = 3]
+	"plugin_204103" -> "routes_204068" [label=4; weight=4; penwidth=0.3; color = 3]
+	"plugin_204103" -> "optimize-deps-entries_204087" [label=4; weight=4; penwidth=0.3; color = 3]
+	"plugin_204088" -> "config_204051" [label=2; weight=2; penwidth=0.3; color = 3]
 }

@@ -84,7 +84,7 @@ The projection and related common parameters are shared across all embedding alg
       <td>129</td>
       <td>680</td>
       <td>0.041182</td>
-      <td>2597818</td>
+      <td>2630602</td>
       <td>0</td>
       <td>5.271318</td>
       <td>60</td>
@@ -133,47 +133,47 @@ The projection and related common parameters are shared across all embedding alg
     <tr>
       <th>0</th>
       <td>/home/runner/work/code-graph-analysis-examples...</td>
-      <td>config</td>
-      <td>react-router-dev</td>
+      <td>binaryTypes</td>
+      <td>react-router-architect</td>
       <td>0</td>
-      <td>1.705838</td>
-      <td>[-0.5952500700950623, -0.3340594470500946, 0.1...</td>
+      <td>0.170968</td>
+      <td>[-0.37559303641319275, 0.30066922307014465, -0...</td>
     </tr>
     <tr>
       <th>1</th>
       <td>/home/runner/work/code-graph-analysis-examples...</td>
-      <td>detectPackageManager</td>
-      <td>react-router-dev</td>
+      <td>react-router-architect</td>
+      <td>react-router-architect</td>
       <td>0</td>
-      <td>0.188886</td>
-      <td>[-0.6000653505325317, -0.32334285974502563, 0....</td>
+      <td>0.401616</td>
+      <td>[-0.37559306621551514, 0.3006693720817566, -0....</td>
     </tr>
     <tr>
       <th>2</th>
       <td>/home/runner/work/code-graph-analysis-examples...</td>
-      <td>config</td>
-      <td>react-router-dev</td>
+      <td>server</td>
+      <td>react-router-architect</td>
       <td>0</td>
-      <td>2.129389</td>
-      <td>[-0.5498749613761902, -0.38851770758628845, 0....</td>
+      <td>0.320687</td>
+      <td>[-0.37559306621551514, 0.3006693720817566, -0....</td>
     </tr>
     <tr>
       <th>3</th>
       <td>/home/runner/work/code-graph-analysis-examples...</td>
-      <td>context</td>
-      <td>react-router-dev</td>
+      <td>arcTableSessionStorage</td>
+      <td>react-router-architect</td>
       <td>0</td>
-      <td>0.180345</td>
-      <td>[-0.3691451847553253, -0.6460049152374268, 0.3...</td>
+      <td>0.320687</td>
+      <td>[-0.375544011592865, 0.3006693720817566, -0.02...</td>
     </tr>
     <tr>
       <th>4</th>
       <td>/home/runner/work/code-graph-analysis-examples...</td>
-      <td>generate</td>
-      <td>react-router-dev</td>
-      <td>0</td>
-      <td>0.277201</td>
-      <td>[-0.10859015583992004, -0.2827555537223816, -0...</td>
+      <td>cli</td>
+      <td>create-react-router</td>
+      <td>1</td>
+      <td>0.150000</td>
+      <td>[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, ...</td>
     </tr>
   </tbody>
 </table>
@@ -229,47 +229,47 @@ This step takes the original node embeddings in their high dimensionality, e.g. 
     <tr>
       <th>0</th>
       <td>/home/runner/work/code-graph-analysis-examples...</td>
-      <td>config</td>
-      <td>react-router-dev</td>
+      <td>binaryTypes</td>
+      <td>react-router-architect</td>
       <td>0</td>
-      <td>1.705838</td>
-      <td>[1.8371173739433289, 1.530931144952774, 0.6123...</td>
+      <td>0.170968</td>
+      <td>[-0.6123724579811096, 1.2247449159622192, 0.30...</td>
     </tr>
     <tr>
       <th>1</th>
       <td>/home/runner/work/code-graph-analysis-examples...</td>
-      <td>detectPackageManager</td>
-      <td>react-router-dev</td>
+      <td>react-router-architect</td>
+      <td>react-router-architect</td>
       <td>0</td>
-      <td>0.188886</td>
-      <td>[1.530931144952774, 0.3061862289905548, 0.6123...</td>
+      <td>0.401616</td>
+      <td>[-0.9185586869716644, 1.2247449159622192, 0.30...</td>
     </tr>
     <tr>
       <th>2</th>
       <td>/home/runner/work/code-graph-analysis-examples...</td>
-      <td>config</td>
-      <td>react-router-dev</td>
+      <td>server</td>
+      <td>react-router-architect</td>
       <td>0</td>
-      <td>2.129389</td>
-      <td>[2.1433036029338837, 1.2247449159622192, 0.612...</td>
+      <td>0.320687</td>
+      <td>[-0.9185586869716644, 1.2247449159622192, 0.30...</td>
     </tr>
     <tr>
       <th>3</th>
       <td>/home/runner/work/code-graph-analysis-examples...</td>
-      <td>context</td>
-      <td>react-router-dev</td>
+      <td>arcTableSessionStorage</td>
+      <td>react-router-architect</td>
       <td>0</td>
-      <td>0.180345</td>
-      <td>[1.2247449159622192, 0.6123724579811096, 1.224...</td>
+      <td>0.320687</td>
+      <td>[-0.9185586869716644, 1.2247449159622192, 0.30...</td>
     </tr>
     <tr>
       <th>4</th>
       <td>/home/runner/work/code-graph-analysis-examples...</td>
-      <td>generate</td>
-      <td>react-router-dev</td>
-      <td>0</td>
-      <td>0.277201</td>
-      <td>[1.2247449159622192, 0.3061862289905548, 0.918...</td>
+      <td>cli</td>
+      <td>create-react-router</td>
+      <td>1</td>
+      <td>0.150000</td>
+      <td>[0.0, 0.3061862289905548, -0.6123724579811096,...</td>
     </tr>
   </tbody>
 </table>
@@ -314,47 +314,47 @@ The [node2vec](https://towardsdatascience.com/complete-guide-to-understanding-no
     <tr>
       <th>0</th>
       <td>/home/runner/work/code-graph-analysis-examples...</td>
-      <td>config</td>
-      <td>react-router-dev</td>
+      <td>binaryTypes</td>
+      <td>react-router-architect</td>
       <td>0</td>
-      <td>1.705838</td>
-      <td>[-0.704065203666687, 0.5551963448524475, -0.25...</td>
+      <td>0.170968</td>
+      <td>[-1.159227728843689, 1.557414174079895, -0.720...</td>
     </tr>
     <tr>
       <th>1</th>
       <td>/home/runner/work/code-graph-analysis-examples...</td>
-      <td>detectPackageManager</td>
-      <td>react-router-dev</td>
+      <td>react-router-architect</td>
+      <td>react-router-architect</td>
       <td>0</td>
-      <td>0.188886</td>
-      <td>[-0.5521023869514465, 0.41638463735580444, -0....</td>
+      <td>0.401616</td>
+      <td>[-1.3245822191238403, 1.6636598110198975, -0.8...</td>
     </tr>
     <tr>
       <th>2</th>
       <td>/home/runner/work/code-graph-analysis-examples...</td>
-      <td>config</td>
-      <td>react-router-dev</td>
+      <td>server</td>
+      <td>react-router-architect</td>
       <td>0</td>
-      <td>2.129389</td>
-      <td>[-0.7731789946556091, 0.7228706479072571, -0.2...</td>
+      <td>0.320687</td>
+      <td>[-1.4231714010238647, 1.7559224367141724, -0.7...</td>
     </tr>
     <tr>
       <th>3</th>
       <td>/home/runner/work/code-graph-analysis-examples...</td>
-      <td>context</td>
-      <td>react-router-dev</td>
+      <td>arcTableSessionStorage</td>
+      <td>react-router-architect</td>
       <td>0</td>
-      <td>0.180345</td>
-      <td>[-0.8361615538597107, 0.5804913640022278, -0.2...</td>
+      <td>0.320687</td>
+      <td>[-0.6852351427078247, 0.951055109500885, -0.42...</td>
     </tr>
     <tr>
       <th>4</th>
       <td>/home/runner/work/code-graph-analysis-examples...</td>
-      <td>generate</td>
-      <td>react-router-dev</td>
-      <td>0</td>
-      <td>0.277201</td>
-      <td>[-0.7893180251121521, 0.6188632249832153, -0.2...</td>
+      <td>cli</td>
+      <td>create-react-router</td>
+      <td>1</td>
+      <td>0.150000</td>
+      <td>[0.012867077253758907, 0.007001262158155441, -...</td>
     </tr>
   </tbody>
 </table>
@@ -388,8 +388,8 @@ The [node2vec](https://towardsdatascience.com/complete-guide-to-understanding-no
       <td>typescript-module-embeddings-notebook-graphSAGE</td>
       <td>False</td>
       <td>1</td>
-      <td>[33.89941588827657]</td>
-      <td>450</td>
+      <td>[38.52998397266688]</td>
+      <td>566</td>
     </tr>
   </tbody>
 </table>
@@ -421,52 +421,52 @@ The [node2vec](https://towardsdatascience.com/complete-guide-to-understanding-no
     <tr>
       <th>0</th>
       <td>/home/runner/work/code-graph-analysis-examples...</td>
-      <td>config</td>
-      <td>4:b6e03a9a-c027-4d21-9ad6-d1978bb461ac:10877</td>
-      <td>react-router-dev</td>
+      <td>binaryTypes</td>
+      <td>4:acf1114c-0fc1-4c20-9fb4-9d8c6c311276:5525</td>
+      <td>react-router-architect</td>
       <td>0</td>
-      <td>1.705838</td>
-      <td>[-0.004854696200530722, 0.0380514686146112, 0....</td>
+      <td>0.170968</td>
+      <td>[-0.004854695743580813, 0.03805150021884127, 0...</td>
     </tr>
     <tr>
       <th>1</th>
       <td>/home/runner/work/code-graph-analysis-examples...</td>
-      <td>manifest</td>
-      <td>4:b6e03a9a-c027-4d21-9ad6-d1978bb461ac:10879</td>
-      <td>react-router-dev</td>
-      <td>1</td>
-      <td>0.150390</td>
-      <td>[-0.0048546962005307235, 0.03805146861461116, ...</td>
+      <td>react-router-architect</td>
+      <td>4:acf1114c-0fc1-4c20-9fb4-9d8c6c311276:5526</td>
+      <td>react-router-architect</td>
+      <td>0</td>
+      <td>0.401616</td>
+      <td>[-0.004854695743580814, 0.038051500218841273, ...</td>
     </tr>
     <tr>
       <th>2</th>
       <td>/home/runner/work/code-graph-analysis-examples...</td>
-      <td>routes</td>
-      <td>4:b6e03a9a-c027-4d21-9ad6-d1978bb461ac:10880</td>
-      <td>react-router-dev</td>
-      <td>1</td>
-      <td>4.035645</td>
-      <td>[-0.004854696200530722, 0.038051468614611214, ...</td>
+      <td>server</td>
+      <td>4:acf1114c-0fc1-4c20-9fb4-9d8c6c311276:5527</td>
+      <td>react-router-architect</td>
+      <td>0</td>
+      <td>0.320687</td>
+      <td>[-0.004854695743580818, 0.03805150021884128, 0...</td>
     </tr>
     <tr>
       <th>3</th>
       <td>/home/runner/work/code-graph-analysis-examples...</td>
-      <td>commands</td>
-      <td>4:b6e03a9a-c027-4d21-9ad6-d1978bb461ac:10884</td>
-      <td>react-router-dev</td>
-      <td>2</td>
-      <td>0.277500</td>
-      <td>[-0.004854696200530722, 0.03805146861461115, 0...</td>
+      <td>arcTableSessionStorage</td>
+      <td>4:acf1114c-0fc1-4c20-9fb4-9d8c6c311276:5532</td>
+      <td>react-router-architect</td>
+      <td>0</td>
+      <td>0.320687</td>
+      <td>[-0.004854695743580765, 0.03805150021884081, 0...</td>
     </tr>
     <tr>
       <th>4</th>
       <td>/home/runner/work/code-graph-analysis-examples...</td>
-      <td>detectPackageManager</td>
-      <td>4:b6e03a9a-c027-4d21-9ad6-d1978bb461ac:10886</td>
-      <td>react-router-dev</td>
-      <td>0</td>
-      <td>0.188886</td>
-      <td>[-0.0048546962005307235, 0.03805146861461118, ...</td>
+      <td>cli</td>
+      <td>4:acf1114c-0fc1-4c20-9fb4-9d8c6c311276:9403</td>
+      <td>create-react-router</td>
+      <td>1</td>
+      <td>0.150000</td>
+      <td>[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, ...</td>
     </tr>
   </tbody>
 </table>

@@ -12,25 +12,60 @@ strict digraph TopAuthority3 {
     central [fontsize = 16;];
     central [color = 7; fillcolor = 5; penwidth = 3;];
 
-	graph   [label="Top Rank #3 Typescript Module Authority\n/home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.13.0/source/react-router-7.13.0/packages/react-router-dev/config/config.ts\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: Page Rank (normalized)\nlarge circle: > 80% percentile of Page Rank\nthick outline: > 80% percentile of Page Rank to Article Rank Difference\n\n"];
-	central [label="🏛️ authority #3\nconfig"];
-	"generate_10897"  [label = "generate\n(1.54%)"; penwidth = 2; ]; "generate_10897" -> central [label=726; weight=726; penwidth=0.6];
-	"optimize-deps-entries_10913"  [label = "optimize-deps-entries\n(0.08%)"; penwidth = 2; ]; "optimize-deps-entries_10913" -> central [label=726; weight=726; penwidth=0.6];
-	"plugin_10914"  [label = "plugin\n(1.14%)"; penwidth = 2; ]; "plugin_10914" -> central [label=41; weight=41; penwidth=0.4];
-	"commands_10884"  [label = "commands\n(1.55%)"; penwidth = 2; ]; "commands_10884" -> central [label=22; weight=22; penwidth=0.4];
-	"plugin_10929"  [label = "plugin\n(0.0%)"; penwidth = 2; ]; "plugin_10929" -> central [label=22; weight=22; penwidth=0.4];
-	"build_10903"  [label = "build\n(0.43%)"; penwidth = 2; ]; "build_10903" -> central [label=11; weight=11; penwidth=0.4];
-	"cloudflare-dev-proxy_10905"  [label = "cloudflare-dev-proxy\n(0.0%)"; penwidth = 2; ]; "cloudflare-dev-proxy_10905" -> central [label=11; weight=11; penwidth=0.4];
-	"config_10877"  [label = "config\n(18.89%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "config_10877" [label=440; weight=440; penwidth=0.5; color = 5];
-	"routes_10894"  [shape = "circle"; height=2; label = "routes\n(52.75%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "routes_10894" [label=47; weight=47; penwidth=0.4; color = 5];
-	"vite-node_10923"  [label = "vite-node\n(0.6%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "vite-node_10923" [label=14; weight=14; penwidth=0.4; color = 5];
-	"detectPackageManager_10886"  [label = "detectPackageManager\n(0.47%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "detectPackageManager_10886" [label=11; weight=11; penwidth=0.4; color = 5];
-	"plugin_10914" -> "routes_10894" [label=1719; weight=1719; penwidth=0.3; color = 3]
-	"generate_10897" -> "routes_10894" [label=278; weight=278; penwidth=0.3; color = 3]
-	"build_10903" -> "plugin_10914" [label=77; weight=77; penwidth=0.3; color = 3]
-	"commands_10884" -> "build_10903" [label=33; weight=33; penwidth=0.3; color = 3]
-	"plugin_10929" -> "routes_10894" [label=30; weight=30; penwidth=0.3; color = 3]
-	"plugin_10914" -> "optimize-deps-entries_10913" [label=11; weight=11; penwidth=0.3; color = 3]
-	"plugin_10929" -> "optimize-deps-entries_10913" [label=11; weight=11; penwidth=0.3; color = 3]
-	"plugin_10914" -> "config_10877" [label=5; weight=5; penwidth=0.3; color = 3]
+	graph   [label="Top Rank #3 Typescript Module Authority\n/home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.13.0/source/react-router-7.13.0/packages/react-router/lib/rsc/server.rsc.ts\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: Page Rank (normalized)\nlarge circle: > 80% percentile of Page Rank\nthick outline: > 80% percentile of Page Rank to Article Rank Difference\n\n"];
+	central [label="🏛️ authority #3\nserver"];
+	"react-router_197555"  [shape = "circle"; height=2; label = "react-router\n(100.0%)"; penwidth = 2; ]; "react-router_197555" -> central [label=12; weight=12; penwidth=0.4];
+	"react-router_197554"  [shape = "circle"; height=2; label = "react-router\n(70.72%)"; penwidth = 5; ]; "react-router_197554" -> central [label=8; weight=8; penwidth=0.4];
+	"react-router_197555"  [shape = "circle"; height=2; label = "react-router\n(100.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "react-router_197555" [label=776; weight=776; penwidth=0.7; color = 5];
+	"router_197579"  [label = "router\n(18.28%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "router_197579" [label=709; weight=709; penwidth=0.6; color = 5];
+	"dom-export_197552"  [label = "dom-export\n(6.34%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "dom-export_197552" [label=468; weight=468; penwidth=0.6; color = 5];
+	"utils_197580"  [shape = "circle"; height=2; label = "utils\n(48.65%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "utils_197580" [label=367; weight=367; penwidth=0.5; color = 5];
+	"react-router_197554"  [shape = "circle"; height=2; label = "react-router\n(70.72%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "react-router_197554" [label=90; weight=90; penwidth=0.4; color = 5];
+	"react-router_197553"  [label = "react-router\n(4.18%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "react-router_197553" [label=36; weight=36; penwidth=0.4; color = 5];
+	"routeModules_197574"  [label = "routeModules\n(6.01%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "routeModules_197574" [label=20; weight=20; penwidth=0.4; color = 5];
+	"errors_197561"  [label = "errors\n(0.15%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "errors_197561" [label=18; weight=18; penwidth=0.4; color = 5];
+	"actions_197558"  [label = "actions\n(0.09%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "actions_197558" [label=9; weight=9; penwidth=0.4; color = 5];
+	"headers_197595"  [label = "headers\n(0.1%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "headers_197595" [label=9; weight=9; penwidth=0.4; color = 5];
+	"context_197560"  [label = "context\n(8.68%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "context_197560" [label=4; weight=4; penwidth=0.4; color = 5];
+	"history_197575"  [label = "history\n(17.71%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "history_197575" [label=2; weight=2; penwidth=0.4; color = 5];
+	"router_197579" -> "utils_197580" [label=7333; weight=7333; penwidth=0.3; color = 3]
+	"history_197575" -> "react-router_197555" [label=5088; weight=5088; penwidth=0.3; color = 3]
+	"router_197579" -> "react-router_197555" [label=4572; weight=4572; penwidth=0.3; color = 3]
+	"utils_197580" -> "react-router_197554" [label=3564; weight=3564; penwidth=0.3; color = 3]
+	"router_197579" -> "history_197575" [label=2891; weight=2891; penwidth=0.3; color = 3]
+	"utils_197580" -> "history_197575" [label=340; weight=340; penwidth=0.3; color = 3]
+	"router_197579" -> "react-router_197554" [label=292; weight=292; penwidth=0.3; color = 3]
+	"errors_197561" -> "react-router_197555" [label=270; weight=270; penwidth=0.3; color = 3]
+	"errors_197561" -> "utils_197580" [label=270; weight=270; penwidth=0.3; color = 3]
+	"headers_197595" -> "react-router_197555" [label=193; weight=193; penwidth=0.3; color = 3]
+	"context_197560" -> "react-router_197555" [label=182; weight=182; penwidth=0.3; color = 3]
+	"headers_197595" -> "router_197579" [label=166; weight=166; penwidth=0.3; color = 3]
+	"utils_197580" -> "react-router_197555" [label=160; weight=160; penwidth=0.3; color = 3]
+	"routeModules_197574" -> "react-router_197555" [label=94; weight=94; penwidth=0.3; color = 3]
+	"context_197560" -> "utils_197580" [label=92; weight=92; penwidth=0.3; color = 3]
+	"context_197560" -> "history_197575" [label=83; weight=83; penwidth=0.3; color = 3]
+	"routeModules_197574" -> "utils_197580" [label=83; weight=83; penwidth=0.3; color = 3]
+	"context_197560" -> "router_197579" [label=31; weight=31; penwidth=0.3; color = 3]
+	"react-router_197555" -> "react-router_197554" [label=27; weight=27; penwidth=0.3; color = 3]
+	"headers_197595" -> "routeModules_197574" [label=22; weight=22; penwidth=0.3; color = 3]
+	"routeModules_197574" -> "react-router_197554" [label=22; weight=22; penwidth=0.3; color = 3]
+	"react-router_197555" -> "utils_197580" [label=19; weight=19; penwidth=0.3; color = 3]
+	"react-router_197554" -> "react-router_197555" [label=18; weight=18; penwidth=0.3; color = 3]
+	"router_197579" -> "context_197560" [label=16; weight=16; penwidth=0.3; color = 3]
+	"routeModules_197574" -> "history_197575" [label=11; weight=11; penwidth=0.3; color = 3]
+	"react-router_197555" -> "history_197575" [label=10; weight=10; penwidth=0.3; color = 3]
+	"react-router_197555" -> "context_197560" [label=10; weight=10; penwidth=0.3; color = 3]
+	"errors_197561" -> "router_197579" [label=9; weight=9; penwidth=0.3; color = 3]
+	"react-router_197555" -> "router_197579" [label=8; weight=8; penwidth=0.3; color = 3]
+	"react-router_197554" -> "utils_197580" [label=6; weight=6; penwidth=0.3; color = 3]
+	"react-router_197555" -> "react-router_197553" [label=5; weight=5; penwidth=0.3; color = 3]
+	"react-router_197553" -> "react-router_197555" [label=5; weight=5; penwidth=0.3; color = 3]
+	"react-router_197555" -> "routeModules_197574" [label=3; weight=3; penwidth=0.3; color = 3]
+	"headers_197595" -> "context_197560" [label=2; weight=2; penwidth=0.3; color = 3]
+	"dom-export_197552" -> "react-router_197554" [label=1; weight=1; penwidth=0.3; color = 3]
+	"dom-export_197552" -> "react-router_197555" [label=1; weight=1; penwidth=0.3; color = 3]
+	"react-router_197555" -> "dom-export_197552" [label=1; weight=1; penwidth=0.3; color = 3]
+	"react-router_197554" -> "router_197579" [label=1; weight=1; penwidth=0.3; color = 3]
+	"react-router_197554" -> "dom-export_197552" [label=1; weight=1; penwidth=0.3; color = 3]
+	"react-router_197553" -> "context_197560" [label=1; weight=1; penwidth=0.3; color = 3]
 }

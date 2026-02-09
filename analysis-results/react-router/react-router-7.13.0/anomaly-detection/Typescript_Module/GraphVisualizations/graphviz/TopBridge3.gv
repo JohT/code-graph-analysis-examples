@@ -12,7 +12,7 @@ strict digraph TopBridge3 {
     central [fontsize = 16;];
     central [color = 7; fillcolor = 5; penwidth = 3;];
 
-	graph   [label="Top Rank #3 Typescript Module Bridge\n/home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.13.0/source/react-router-7.13.0/packages/react-router/lib/types/register.ts\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
-	central [label="🌉 bridge #3\nregister"];
-	"react-router_200762" [label = "react-router"; ]; "react-router_200762" -> central [label=0; weight=0; penwidth=0.4];
+	graph   [label="Top Rank #3 Typescript Module Bridge\n/home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.13.0/source/react-router-7.13.0/packages/react-router-express/server.ts\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
+	central [label="🌉 bridge #3\nserver"];
+	"react-router-express_197801" [label = "react-router-express"; color = 5; fillcolor = 1; ]; central -> "react-router-express_197801" [label=56; weight=56; penwidth=0.4; color = 5];
 }

@@ -51,9 +51,9 @@ Since Java Packages are organized hierarchically, incoming dependencies can be c
       <td>/home/runner/work/code-graph-analysis-examples...</td>
       <td>react-router</td>
       <td>364</td>
-      <td>21525</td>
+      <td>204500</td>
       <td>241</td>
-      <td>4864</td>
+      <td>21669</td>
       <td>34</td>
       <td>1</td>
     </tr>
@@ -62,9 +62,9 @@ Since Java Packages are organized hierarchically, incoming dependencies can be c
       <td>/home/runner/work/code-graph-analysis-examples...</td>
       <td>utils</td>
       <td>166</td>
-      <td>27203</td>
+      <td>227088</td>
       <td>99</td>
-      <td>3135</td>
+      <td>12960</td>
       <td>20</td>
       <td>1</td>
     </tr>
@@ -73,9 +73,9 @@ Since Java Packages are organized hierarchically, incoming dependencies can be c
       <td>/home/runner/work/code-graph-analysis-examples...</td>
       <td>react-router</td>
       <td>110</td>
-      <td>2262</td>
+      <td>18412</td>
       <td>53</td>
-      <td>248</td>
+      <td>1023</td>
       <td>19</td>
       <td>1</td>
     </tr>
@@ -84,9 +84,9 @@ Since Java Packages are organized hierarchically, incoming dependencies can be c
       <td>/home/runner/work/code-graph-analysis-examples...</td>
       <td>router</td>
       <td>52</td>
-      <td>9207</td>
+      <td>87997</td>
       <td>33</td>
-      <td>1680</td>
+      <td>8145</td>
       <td>12</td>
       <td>1</td>
     </tr>
@@ -95,9 +95,9 @@ Since Java Packages are organized hierarchically, incoming dependencies can be c
       <td>/home/runner/work/code-graph-analysis-examples...</td>
       <td>utils</td>
       <td>46</td>
-      <td>3640</td>
+      <td>30690</td>
       <td>5</td>
-      <td>332</td>
+      <td>1647</td>
       <td>3</td>
       <td>1</td>
     </tr>
@@ -106,9 +106,9 @@ Since Java Packages are organized hierarchically, incoming dependencies can be c
       <td>/home/runner/work/code-graph-analysis-examples...</td>
       <td>server</td>
       <td>38</td>
-      <td>357</td>
+      <td>1207</td>
       <td>32</td>
-      <td>42</td>
+      <td>57</td>
       <td>4</td>
       <td>1</td>
     </tr>
@@ -117,9 +117,9 @@ Since Java Packages are organized hierarchically, incoming dependencies can be c
       <td>/home/runner/work/code-graph-analysis-examples...</td>
       <td>history</td>
       <td>37</td>
-      <td>8897</td>
+      <td>74552</td>
       <td>16</td>
-      <td>918</td>
+      <td>4153</td>
       <td>10</td>
       <td>1</td>
     </tr>
@@ -128,7 +128,7 @@ Since Java Packages are organized hierarchically, incoming dependencies can be c
       <td>/home/runner/work/code-graph-analysis-examples...</td>
       <td>utils</td>
       <td>36</td>
-      <td>167</td>
+      <td>63365</td>
       <td>0</td>
       <td>0</td>
       <td>9</td>
@@ -139,9 +139,9 @@ Since Java Packages are organized hierarchically, incoming dependencies can be c
       <td>/home/runner/work/code-graph-analysis-examples...</td>
       <td>routeModules</td>
       <td>27</td>
-      <td>1725</td>
+      <td>14200</td>
       <td>26</td>
-      <td>299</td>
+      <td>1199</td>
       <td>10</td>
       <td>1</td>
     </tr>
@@ -150,9 +150,9 @@ Since Java Packages are organized hierarchically, incoming dependencies can be c
       <td>/home/runner/work/code-graph-analysis-examples...</td>
       <td>routes</td>
       <td>25</td>
-      <td>150219</td>
+      <td>8476</td>
       <td>16</td>
-      <td>12300</td>
+      <td>1702</td>
       <td>10</td>
       <td>1</td>
     </tr>
@@ -161,9 +161,9 @@ Since Java Packages are organized hierarchically, incoming dependencies can be c
       <td>/home/runner/work/code-graph-analysis-examples...</td>
       <td>context</td>
       <td>25</td>
-      <td>441</td>
+      <td>2006</td>
       <td>16</td>
-      <td>54</td>
+      <td>109</td>
       <td>6</td>
       <td>1</td>
     </tr>
@@ -172,9 +172,9 @@ Since Java Packages are organized hierarchically, incoming dependencies can be c
       <td>/home/runner/work/code-graph-analysis-examples...</td>
       <td>dom-export</td>
       <td>19</td>
-      <td>126</td>
+      <td>636</td>
       <td>19</td>
-      <td>16</td>
+      <td>21</td>
       <td>4</td>
       <td>1</td>
     </tr>
@@ -183,9 +183,9 @@ Since Java Packages are organized hierarchically, incoming dependencies can be c
       <td>/home/runner/work/code-graph-analysis-examples...</td>
       <td>cookies</td>
       <td>19</td>
-      <td>1048</td>
+      <td>9708</td>
       <td>11</td>
-      <td>176</td>
+      <td>836</td>
       <td>4</td>
       <td>1</td>
     </tr>
@@ -194,9 +194,9 @@ Since Java Packages are organized hierarchically, incoming dependencies can be c
       <td>/home/runner/work/code-graph-analysis-examples...</td>
       <td>config</td>
       <td>16</td>
-      <td>23888</td>
+      <td>1572</td>
       <td>7</td>
-      <td>48</td>
+      <td>20</td>
       <td>9</td>
       <td>1</td>
     </tr>
@@ -205,7 +205,7 @@ Since Java Packages are organized hierarchically, incoming dependencies can be c
       <td>/home/runner/work/code-graph-analysis-examples...</td>
       <td>vite</td>
       <td>15</td>
-      <td>6468</td>
+      <td>784</td>
       <td>0</td>
       <td>0</td>
       <td>10</td>
@@ -216,9 +216,9 @@ Since Java Packages are organized hierarchically, incoming dependencies can be c
       <td>/home/runner/work/code-graph-analysis-examples...</td>
       <td>instrumentation</td>
       <td>14</td>
-      <td>406</td>
+      <td>2856</td>
       <td>11</td>
-      <td>42</td>
+      <td>132</td>
       <td>4</td>
       <td>1</td>
     </tr>
@@ -227,9 +227,9 @@ Since Java Packages are organized hierarchically, incoming dependencies can be c
       <td>/home/runner/work/code-graph-analysis-examples...</td>
       <td>entry</td>
       <td>11</td>
-      <td>1754</td>
+      <td>16864</td>
       <td>11</td>
-      <td>338</td>
+      <td>1568</td>
       <td>8</td>
       <td>1</td>
     </tr>
@@ -238,9 +238,9 @@ Since Java Packages are organized hierarchically, incoming dependencies can be c
       <td>/home/runner/work/code-graph-analysis-examples...</td>
       <td>build</td>
       <td>11</td>
-      <td>4919</td>
+      <td>49144</td>
       <td>11</td>
-      <td>1001</td>
+      <td>4856</td>
       <td>4</td>
       <td>1</td>
     </tr>
@@ -249,9 +249,9 @@ Since Java Packages are organized hierarchically, incoming dependencies can be c
       <td>/home/runner/work/code-graph-analysis-examples...</td>
       <td>routes</td>
       <td>9</td>
-      <td>16060</td>
+      <td>1122</td>
       <td>3</td>
-      <td>1100</td>
+      <td>148</td>
       <td>2</td>
       <td>1</td>
     </tr>
@@ -260,9 +260,9 @@ Since Java Packages are organized hierarchically, incoming dependencies can be c
       <td>/home/runner/work/code-graph-analysis-examples...</td>
       <td>plugin</td>
       <td>9</td>
-      <td>2562</td>
+      <td>315</td>
       <td>1</td>
-      <td>44</td>
+      <td>16</td>
       <td>3</td>
       <td>1</td>
     </tr>
@@ -310,7 +310,7 @@ Since Java Packages are organized hierarchically, outgoing dependencies can be c
       <td>/home/runner/work/code-graph-analysis-examples...</td>
       <td>route-chunks</td>
       <td>310</td>
-      <td>100914</td>
+      <td>13344</td>
       <td>0</td>
       <td>0</td>
       <td>4</td>
@@ -321,7 +321,7 @@ Since Java Packages are organized hierarchically, outgoing dependencies can be c
       <td>/home/runner/work/code-graph-analysis-examples...</td>
       <td>plugin</td>
       <td>150</td>
-      <td>48884</td>
+      <td>6464</td>
       <td>0</td>
       <td>0</td>
       <td>25</td>
@@ -332,7 +332,7 @@ Since Java Packages are organized hierarchically, outgoing dependencies can be c
       <td>/home/runner/work/code-graph-analysis-examples...</td>
       <td>plugin</td>
       <td>54</td>
-      <td>9438</td>
+      <td>1248</td>
       <td>0</td>
       <td>0</td>
       <td>11</td>
@@ -343,7 +343,7 @@ Since Java Packages are organized hierarchically, outgoing dependencies can be c
       <td>/home/runner/work/code-graph-analysis-examples...</td>
       <td>config</td>
       <td>37</td>
-      <td>13673</td>
+      <td>1808</td>
       <td>0</td>
       <td>0</td>
       <td>16</td>
@@ -354,7 +354,7 @@ Since Java Packages are organized hierarchically, outgoing dependencies can be c
       <td>/home/runner/work/code-graph-analysis-examples...</td>
       <td>copy-template</td>
       <td>33</td>
-      <td>88</td>
+      <td>8800</td>
       <td>0</td>
       <td>0</td>
       <td>16</td>
@@ -365,7 +365,7 @@ Since Java Packages are organized hierarchically, outgoing dependencies can be c
       <td>/home/runner/work/code-graph-analysis-examples...</td>
       <td>remove-exports</td>
       <td>30</td>
-      <td>13431</td>
+      <td>1776</td>
       <td>0</td>
       <td>0</td>
       <td>4</td>
@@ -376,7 +376,7 @@ Since Java Packages are organized hierarchically, outgoing dependencies can be c
       <td>/home/runner/work/code-graph-analysis-examples...</td>
       <td>utils</td>
       <td>29</td>
-      <td>241</td>
+      <td>24100</td>
       <td>0</td>
       <td>0</td>
       <td>11</td>
@@ -387,7 +387,7 @@ Since Java Packages are organized hierarchically, outgoing dependencies can be c
       <td>/home/runner/work/code-graph-analysis-examples...</td>
       <td>with-props</td>
       <td>29</td>
-      <td>5445</td>
+      <td>720</td>
       <td>0</td>
       <td>0</td>
       <td>4</td>
@@ -398,7 +398,7 @@ Since Java Packages are organized hierarchically, outgoing dependencies can be c
       <td>/home/runner/work/code-graph-analysis-examples...</td>
       <td>create-react-router</td>
       <td>28</td>
-      <td>57</td>
+      <td>8400</td>
       <td>0</td>
       <td>0</td>
       <td>14</td>
@@ -409,7 +409,7 @@ Since Java Packages are organized hierarchically, outgoing dependencies can be c
       <td>/home/runner/work/code-graph-analysis-examples...</td>
       <td>routes</td>
       <td>28</td>
-      <td>12100</td>
+      <td>1600</td>
       <td>0</td>
       <td>0</td>
       <td>4</td>
@@ -420,7 +420,7 @@ Since Java Packages are organized hierarchically, outgoing dependencies can be c
       <td>/home/runner/work/code-graph-analysis-examples...</td>
       <td>cli</td>
       <td>27</td>
-      <td>188</td>
+      <td>2303</td>
       <td>0</td>
       <td>0</td>
       <td>13</td>
@@ -431,7 +431,7 @@ Since Java Packages are organized hierarchically, outgoing dependencies can be c
       <td>/home/runner/work/code-graph-analysis-examples...</td>
       <td>generate</td>
       <td>24</td>
-      <td>10890</td>
+      <td>1440</td>
       <td>0</td>
       <td>0</td>
       <td>5</td>
@@ -442,7 +442,7 @@ Since Java Packages are organized hierarchically, outgoing dependencies can be c
       <td>/home/runner/work/code-graph-analysis-examples...</td>
       <td>server</td>
       <td>22</td>
-      <td>2176</td>
+      <td>5746</td>
       <td>0</td>
       <td>0</td>
       <td>6</td>
@@ -453,7 +453,7 @@ Since Java Packages are organized hierarchically, outgoing dependencies can be c
       <td>/home/runner/work/code-graph-analysis-examples...</td>
       <td>styles</td>
       <td>22</td>
-      <td>5324</td>
+      <td>704</td>
       <td>0</td>
       <td>0</td>
       <td>5</td>
@@ -464,7 +464,7 @@ Since Java Packages are organized hierarchically, outgoing dependencies can be c
       <td>/home/runner/work/code-graph-analysis-examples...</td>
       <td>server</td>
       <td>19</td>
-      <td>1344</td>
+      <td>6804</td>
       <td>0</td>
       <td>0</td>
       <td>5</td>
@@ -475,7 +475,7 @@ Since Java Packages are organized hierarchically, outgoing dependencies can be c
       <td>/home/runner/work/code-graph-analysis-examples...</td>
       <td>worker</td>
       <td>18</td>
-      <td>2800</td>
+      <td>252</td>
       <td>0</td>
       <td>0</td>
       <td>2</td>
@@ -486,7 +486,7 @@ Since Java Packages are organized hierarchically, outgoing dependencies can be c
       <td>/home/runner/work/code-graph-analysis-examples...</td>
       <td>server</td>
       <td>18</td>
-      <td>775</td>
+      <td>1984</td>
       <td>0</td>
       <td>0</td>
       <td>4</td>
@@ -497,7 +497,7 @@ Since Java Packages are organized hierarchically, outgoing dependencies can be c
       <td>/home/runner/work/code-graph-analysis-examples...</td>
       <td>commands</td>
       <td>15</td>
-      <td>3993</td>
+      <td>528</td>
       <td>0</td>
       <td>0</td>
       <td>9</td>
@@ -508,7 +508,7 @@ Since Java Packages are organized hierarchically, outgoing dependencies can be c
       <td>/home/runner/work/code-graph-analysis-examples...</td>
       <td>cloudflare-dev-proxy</td>
       <td>15</td>
-      <td>2541</td>
+      <td>336</td>
       <td>0</td>
       <td>0</td>
       <td>3</td>
@@ -519,7 +519,7 @@ Since Java Packages are organized hierarchically, outgoing dependencies can be c
       <td>/home/runner/work/code-graph-analysis-examples...</td>
       <td>flatRoutes</td>
       <td>15</td>
-      <td>1764</td>
+      <td>1225</td>
       <td>0</td>
       <td>0</td>
       <td>5</td>
@@ -980,25 +980,16 @@ Since Java Packages are organized hierarchically, *Abstractness* can be calculat
   <tbody>
     <tr>
       <th>0</th>
-      <td>react-router-dev</td>
+      <td>react-router-architect</td>
       <td>/home/runner/work/code-graph-analysis-examples...</td>
-      <td>invariant</td>
+      <td>binaryTypes</td>
       <td>0.0</td>
       <td>None</td>
       <td>None</td>
     </tr>
     <tr>
       <th>1</th>
-      <td>react-router-dev</td>
-      <td>/home/runner/work/code-graph-analysis-examples...</td>
-      <td>rsc-types</td>
-      <td>0.0</td>
-      <td>None</td>
-      <td>None</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>react-router-dev</td>
+      <td>react-router-architect</td>
       <td>/home/runner/work/code-graph-analysis-examples...</td>
       <td>tsup</td>
       <td>0.0</td>
@@ -1006,35 +997,35 @@ Since Java Packages are organized hierarchically, *Abstractness* can be calculat
       <td>None</td>
     </tr>
     <tr>
-      <th>3</th>
-      <td>react-router-dev</td>
+      <th>2</th>
+      <td>react-router-architect</td>
       <td>/home/runner/work/code-graph-analysis-examples...</td>
-      <td>vite</td>
+      <td>binaryTypes-test</td>
+      <td>0.0</td>
+      <td>None</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>react-router-architect</td>
+      <td>/home/runner/work/code-graph-analysis-examples...</td>
+      <td>server-test</td>
       <td>0.0</td>
       <td>None</td>
       <td>None</td>
     </tr>
     <tr>
       <th>4</th>
-      <td>react-router-dev</td>
+      <td>react-router-architect</td>
       <td>/home/runner/work/code-graph-analysis-examples...</td>
-      <td>commands</td>
+      <td>arcTableSessionStorage</td>
       <td>0.0</td>
       <td>None</td>
       <td>None</td>
     </tr>
     <tr>
       <th>5</th>
-      <td>react-router-dev</td>
-      <td>/home/runner/work/code-graph-analysis-examples...</td>
-      <td>detectPackageManager</td>
-      <td>0.0</td>
-      <td>None</td>
-      <td>None</td>
-    </tr>
-    <tr>
-      <th>6</th>
-      <td>react-router-dev</td>
+      <td>create-react-router</td>
       <td>/home/runner/work/code-graph-analysis-examples...</td>
       <td>cli</td>
       <td>0.0</td>
@@ -1042,118 +1033,127 @@ Since Java Packages are organized hierarchically, *Abstractness* can be calculat
       <td>None</td>
     </tr>
     <tr>
-      <th>7</th>
-      <td>react-router-dev</td>
+      <th>6</th>
+      <td>create-react-router</td>
       <td>/home/runner/work/code-graph-analysis-examples...</td>
-      <td>run</td>
+      <td>copy-template</td>
+      <td>0.0</td>
+      <td>None</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>create-react-router</td>
+      <td>/home/runner/work/code-graph-analysis-examples...</td>
+      <td>loading-indicator</td>
       <td>0.0</td>
       <td>None</td>
       <td>None</td>
     </tr>
     <tr>
       <th>8</th>
-      <td>react-router-dev</td>
+      <td>create-react-router</td>
       <td>/home/runner/work/code-graph-analysis-examples...</td>
-      <td>useJavascript</td>
+      <td>prompt</td>
       <td>0.0</td>
       <td>None</td>
       <td>None</td>
     </tr>
     <tr>
       <th>9</th>
-      <td>react-router-dev</td>
+      <td>create-react-router</td>
       <td>/home/runner/work/code-graph-analysis-examples...</td>
-      <td>is-react-router-repo</td>
+      <td>tsup</td>
       <td>0.0</td>
       <td>None</td>
       <td>None</td>
     </tr>
     <tr>
       <th>10</th>
-      <td>react-router-dev</td>
+      <td>create-react-router</td>
       <td>/home/runner/work/code-graph-analysis-examples...</td>
-      <td>params</td>
+      <td>utils</td>
       <td>0.0</td>
       <td>None</td>
       <td>None</td>
     </tr>
     <tr>
       <th>11</th>
-      <td>react-router-dev</td>
+      <td>create-react-router</td>
       <td>/home/runner/work/code-graph-analysis-examples...</td>
-      <td>route</td>
+      <td>package</td>
       <td>0.0</td>
       <td>None</td>
       <td>None</td>
     </tr>
     <tr>
       <th>12</th>
-      <td>react-router-dev</td>
+      <td>react-router</td>
       <td>/home/runner/work/code-graph-analysis-examples...</td>
-      <td>babel</td>
+      <td>react-router</td>
       <td>0.0</td>
       <td>None</td>
       <td>None</td>
     </tr>
     <tr>
       <th>13</th>
-      <td>react-router-dev</td>
+      <td>react-router</td>
       <td>/home/runner/work/code-graph-analysis-examples...</td>
-      <td>cloudflare-dev-proxy</td>
+      <td>tsup</td>
       <td>0.0</td>
       <td>None</td>
       <td>None</td>
     </tr>
     <tr>
       <th>14</th>
-      <td>react-router-dev</td>
+      <td>react-router</td>
       <td>/home/runner/work/code-graph-analysis-examples...</td>
-      <td>cloudflare</td>
+      <td>tsup</td>
       <td>0.0</td>
       <td>None</td>
       <td>None</td>
     </tr>
     <tr>
       <th>15</th>
-      <td>react-router-dev</td>
+      <td>react-router</td>
       <td>/home/runner/work/code-graph-analysis-examples...</td>
-      <td>combine-urls</td>
+      <td>actions</td>
       <td>0.0</td>
       <td>None</td>
       <td>None</td>
     </tr>
     <tr>
       <th>16</th>
-      <td>react-router-dev</td>
+      <td>react-router</td>
       <td>/home/runner/work/code-graph-analysis-examples...</td>
-      <td>has-dependency</td>
+      <td>errors</td>
       <td>0.0</td>
       <td>None</td>
       <td>None</td>
     </tr>
     <tr>
       <th>17</th>
-      <td>react-router-dev</td>
+      <td>react-router</td>
       <td>/home/runner/work/code-graph-analysis-examples...</td>
-      <td>has-rsc-plugin</td>
+      <td>href</td>
       <td>0.0</td>
       <td>None</td>
       <td>None</td>
     </tr>
     <tr>
       <th>18</th>
-      <td>react-router-dev</td>
+      <td>react-router</td>
       <td>/home/runner/work/code-graph-analysis-examples...</td>
-      <td>load-dotenv</td>
+      <td>data</td>
       <td>0.0</td>
       <td>None</td>
       <td>None</td>
     </tr>
     <tr>
       <th>19</th>
-      <td>react-router-dev</td>
+      <td>react-router</td>
       <td>/home/runner/work/code-graph-analysis-examples...</td>
-      <td>optimize-deps-entries</td>
+      <td>errors</td>
       <td>0.0</td>
       <td>None</td>
       <td>None</td>
@@ -1204,16 +1204,6 @@ Read more details on that in [OO Design Quality Metrics](https://api.semanticsch
     </tr>
     <tr>
       <th>1</th>
-      <td>react-router-dev</td>
-      <td>/home/runner/work/code-graph-analysis-examples...</td>
-      <td>./invariant.ts</td>
-      <td>1.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>3</td>
-    </tr>
-    <tr>
-      <th>2</th>
       <td>react-router</td>
       <td>/home/runner/work/code-graph-analysis-examples...</td>
       <td>./lib/dom/ssr/invariant.ts</td>
@@ -1223,7 +1213,7 @@ Read more details on that in [OO Design Quality Metrics](https://api.semanticsch
       <td>3</td>
     </tr>
     <tr>
-      <th>3</th>
+      <th>2</th>
       <td>react-router</td>
       <td>/home/runner/work/code-graph-analysis-examples...</td>
       <td>./lib/server-runtime/invariant.ts</td>
@@ -1233,27 +1223,17 @@ Read more details on that in [OO Design Quality Metrics](https://api.semanticsch
       <td>3</td>
     </tr>
     <tr>
+      <th>3</th>
+      <td>react-router-dev</td>
+      <td>/home/runner/work/code-graph-analysis-examples...</td>
+      <td>./invariant.ts</td>
+      <td>1.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>3</td>
+    </tr>
+    <tr>
       <th>4</th>
-      <td>react-router-dev</td>
-      <td>/home/runner/work/code-graph-analysis-examples...</td>
-      <td>./vite.ts</td>
-      <td>1.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>2</td>
-    </tr>
-    <tr>
-      <th>5</th>
-      <td>react-router-dev</td>
-      <td>/home/runner/work/code-graph-analysis-examples...</td>
-      <td>./typegen/route.ts</td>
-      <td>1.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>2</td>
-    </tr>
-    <tr>
-      <th>6</th>
       <td>react-router</td>
       <td>/home/runner/work/code-graph-analysis-examples...</td>
       <td>./lib/rsc/route-modules.ts</td>
@@ -1263,7 +1243,7 @@ Read more details on that in [OO Design Quality Metrics](https://api.semanticsch
       <td>2</td>
     </tr>
     <tr>
-      <th>7</th>
+      <th>5</th>
       <td>react-router</td>
       <td>/home/runner/work/code-graph-analysis-examples...</td>
       <td>./lib/server-runtime/crypto.ts</td>
@@ -1273,7 +1253,7 @@ Read more details on that in [OO Design Quality Metrics](https://api.semanticsch
       <td>2</td>
     </tr>
     <tr>
-      <th>8</th>
+      <th>6</th>
       <td>react-router</td>
       <td>/home/runner/work/code-graph-analysis-examples...</td>
       <td>./lib/server-runtime/mode.ts</td>
@@ -1283,7 +1263,7 @@ Read more details on that in [OO Design Quality Metrics](https://api.semanticsch
       <td>2</td>
     </tr>
     <tr>
-      <th>9</th>
+      <th>7</th>
       <td>react-router</td>
       <td>/home/runner/work/code-graph-analysis-examples...</td>
       <td>./vendor/turbo-stream-v2/turbo-stream.ts</td>
@@ -1293,57 +1273,27 @@ Read more details on that in [OO Design Quality Metrics](https://api.semanticsch
       <td>2</td>
     </tr>
     <tr>
+      <th>8</th>
+      <td>react-router-dev</td>
+      <td>/home/runner/work/code-graph-analysis-examples...</td>
+      <td>./vite.ts</td>
+      <td>1.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>react-router-dev</td>
+      <td>/home/runner/work/code-graph-analysis-examples...</td>
+      <td>./typegen/route.ts</td>
+      <td>1.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>2</td>
+    </tr>
+    <tr>
       <th>10</th>
-      <td>react-router-dev</td>
-      <td>/home/runner/work/code-graph-analysis-examples...</td>
-      <td>./typegen/params.ts</td>
-      <td>1.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <th>11</th>
-      <td>react-router-dev</td>
-      <td>/home/runner/work/code-graph-analysis-examples...</td>
-      <td>./vite/cloudflare.ts</td>
-      <td>1.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <th>12</th>
-      <td>react-router-dev</td>
-      <td>/home/runner/work/code-graph-analysis-examples...</td>
-      <td>./vite/combine-urls.ts</td>
-      <td>1.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <th>13</th>
-      <td>react-router-dev</td>
-      <td>/home/runner/work/code-graph-analysis-examples...</td>
-      <td>./vite/ssr-externals.ts</td>
-      <td>1.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <th>14</th>
-      <td>react-router-dev</td>
-      <td>/home/runner/work/code-graph-analysis-examples...</td>
-      <td>./vite/virtual-module.ts</td>
-      <td>1.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <th>15</th>
       <td>react-router-architect</td>
       <td>/home/runner/work/code-graph-analysis-examples...</td>
       <td>./binaryTypes.ts</td>
@@ -1353,7 +1303,7 @@ Read more details on that in [OO Design Quality Metrics](https://api.semanticsch
       <td>1</td>
     </tr>
     <tr>
-      <th>16</th>
+      <th>11</th>
       <td>react-router</td>
       <td>/home/runner/work/code-graph-analysis-examples...</td>
       <td>./lib/actions.ts</td>
@@ -1363,7 +1313,7 @@ Read more details on that in [OO Design Quality Metrics](https://api.semanticsch
       <td>1</td>
     </tr>
     <tr>
-      <th>17</th>
+      <th>12</th>
       <td>react-router</td>
       <td>/home/runner/work/code-graph-analysis-examples...</td>
       <td>./lib/href.ts</td>
@@ -1373,7 +1323,7 @@ Read more details on that in [OO Design Quality Metrics](https://api.semanticsch
       <td>1</td>
     </tr>
     <tr>
-      <th>18</th>
+      <th>13</th>
       <td>react-router</td>
       <td>/home/runner/work/code-graph-analysis-examples...</td>
       <td>./lib/dom/ssr/data.ts</td>
@@ -1383,7 +1333,7 @@ Read more details on that in [OO Design Quality Metrics](https://api.semanticsch
       <td>1</td>
     </tr>
     <tr>
-      <th>19</th>
+      <th>14</th>
       <td>react-router</td>
       <td>/home/runner/work/code-graph-analysis-examples...</td>
       <td>./lib/dom/ssr/errors.ts</td>
@@ -1393,7 +1343,7 @@ Read more details on that in [OO Design Quality Metrics](https://api.semanticsch
       <td>1</td>
     </tr>
     <tr>
-      <th>20</th>
+      <th>15</th>
       <td>react-router</td>
       <td>/home/runner/work/code-graph-analysis-examples...</td>
       <td>./lib/dom/ssr/markup.ts</td>
@@ -1403,7 +1353,7 @@ Read more details on that in [OO Design Quality Metrics](https://api.semanticsch
       <td>1</td>
     </tr>
     <tr>
-      <th>21</th>
+      <th>16</th>
       <td>react-router</td>
       <td>/home/runner/work/code-graph-analysis-examples...</td>
       <td>./lib/rsc/html-stream/browser.ts</td>
@@ -1413,7 +1363,7 @@ Read more details on that in [OO Design Quality Metrics](https://api.semanticsch
       <td>1</td>
     </tr>
     <tr>
-      <th>22</th>
+      <th>17</th>
       <td>react-router</td>
       <td>/home/runner/work/code-graph-analysis-examples...</td>
       <td>./lib/rsc/html-stream/server.ts</td>
@@ -1423,7 +1373,7 @@ Read more details on that in [OO Design Quality Metrics](https://api.semanticsch
       <td>1</td>
     </tr>
     <tr>
-      <th>23</th>
+      <th>18</th>
       <td>react-router</td>
       <td>/home/runner/work/code-graph-analysis-examples...</td>
       <td>./lib/server-runtime/entry.ts</td>
@@ -1433,7 +1383,7 @@ Read more details on that in [OO Design Quality Metrics](https://api.semanticsch
       <td>1</td>
     </tr>
     <tr>
-      <th>24</th>
+      <th>19</th>
       <td>react-router</td>
       <td>/home/runner/work/code-graph-analysis-examples...</td>
       <td>./lib/server-runtime/warnings.ts</td>
@@ -1443,7 +1393,7 @@ Read more details on that in [OO Design Quality Metrics](https://api.semanticsch
       <td>1</td>
     </tr>
     <tr>
-      <th>25</th>
+      <th>20</th>
       <td>react-router</td>
       <td>/home/runner/work/code-graph-analysis-examples...</td>
       <td>./vendor/turbo-stream-v2/flatten.ts</td>
@@ -1453,10 +1403,60 @@ Read more details on that in [OO Design Quality Metrics](https://api.semanticsch
       <td>1</td>
     </tr>
     <tr>
-      <th>26</th>
+      <th>21</th>
       <td>react-router</td>
       <td>/home/runner/work/code-graph-analysis-examples...</td>
       <td>./vendor/turbo-stream-v2/unflatten.ts</td>
+      <td>1.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>22</th>
+      <td>react-router-dev</td>
+      <td>/home/runner/work/code-graph-analysis-examples...</td>
+      <td>./typegen/params.ts</td>
+      <td>1.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>23</th>
+      <td>react-router-dev</td>
+      <td>/home/runner/work/code-graph-analysis-examples...</td>
+      <td>./vite/cloudflare.ts</td>
+      <td>1.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>24</th>
+      <td>react-router-dev</td>
+      <td>/home/runner/work/code-graph-analysis-examples...</td>
+      <td>./vite/combine-urls.ts</td>
+      <td>1.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>25</th>
+      <td>react-router-dev</td>
+      <td>/home/runner/work/code-graph-analysis-examples...</td>
+      <td>./vite/ssr-externals.ts</td>
+      <td>1.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>26</th>
+      <td>react-router-dev</td>
+      <td>/home/runner/work/code-graph-analysis-examples...</td>
+      <td>./vite/virtual-module.ts</td>
       <td>1.0</td>
       <td>0.0</td>
       <td>0.0</td>
@@ -1474,9 +1474,9 @@ Read more details on that in [OO Design Quality Metrics](https://api.semanticsch
     </tr>
     <tr>
       <th>28</th>
-      <td>react-router-dev</td>
+      <td>react-router-architect</td>
       <td>/home/runner/work/code-graph-analysis-examples...</td>
-      <td>./rsc-types.d.ts</td>
+      <td>./tsup.config.ts</td>
       <td>1.0</td>
       <td>0.0</td>
       <td>0.0</td>
@@ -1484,9 +1484,9 @@ Read more details on that in [OO Design Quality Metrics](https://api.semanticsch
     </tr>
     <tr>
       <th>29</th>
-      <td>react-router-dev</td>
+      <td>react-router-architect</td>
       <td>/home/runner/work/code-graph-analysis-examples...</td>
-      <td>./tsup.config.ts</td>
+      <td>./__tests__/binaryTypes-test.ts</td>
       <td>1.0</td>
       <td>0.0</td>
       <td>0.0</td>

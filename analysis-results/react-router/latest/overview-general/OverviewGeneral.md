@@ -260,19 +260,19 @@ Lists the 30 label combinations with the lowest number of nodes until they reach
     </tr>
     <tr>
       <th>1</th>
-      <td>[Repository, File, Git]</td>
-      <td>1</td>
-      <td>0.000490</td>
-    </tr>
-    <tr>
-      <th>2</th>
       <td>[TS, Setter]</td>
       <td>1</td>
       <td>0.000490</td>
     </tr>
     <tr>
-      <th>3</th>
+      <th>2</th>
       <td>[Git, Branch]</td>
+      <td>1</td>
+      <td>0.000490</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>[Repository, File, Git]</td>
       <td>1</td>
       <td>0.000490</td>
     </tr>
@@ -1240,13 +1240,13 @@ Lists the 30 node labels and their relationship types with the highest number of
     </tr>
     <tr>
       <th>4</th>
-      <td>[Git, Commit]</td>
-      <td>CONTAINS_CHANGE</td>
       <td>[Git, Change, Create]</td>
+      <td>CREATES</td>
+      <td>[File, Git]</td>
       <td>16884</td>
-      <td>10639</td>
       <td>16884</td>
-      <td>0.009399</td>
+      <td>6162</td>
+      <td>0.016228</td>
     </tr>
     <tr>
       <th>5</th>
@@ -1260,13 +1260,13 @@ Lists the 30 node labels and their relationship types with the highest number of
     </tr>
     <tr>
       <th>6</th>
+      <td>[Git, Commit]</td>
+      <td>CONTAINS_CHANGE</td>
       <td>[Git, Change, Create]</td>
-      <td>CREATES</td>
-      <td>[File, Git]</td>
       <td>16884</td>
+      <td>10639</td>
       <td>16884</td>
-      <td>6162</td>
-      <td>0.016228</td>
+      <td>0.009399</td>
     </tr>
     <tr>
       <th>7</th>
@@ -1310,13 +1310,13 @@ Lists the 30 node labels and their relationship types with the highest number of
     </tr>
     <tr>
       <th>11</th>
-      <td>[Git, Commit]</td>
-      <td>CONTAINS_CHANGE</td>
       <td>[Git, Change, Delete]</td>
+      <td>DELETES</td>
+      <td>[File, Git]</td>
       <td>8904</td>
-      <td>10639</td>
       <td>8904</td>
-      <td>0.009399</td>
+      <td>6162</td>
+      <td>0.016228</td>
     </tr>
     <tr>
       <th>12</th>
@@ -1330,13 +1330,13 @@ Lists the 30 node labels and their relationship types with the highest number of
     </tr>
     <tr>
       <th>13</th>
+      <td>[Git, Commit]</td>
+      <td>CONTAINS_CHANGE</td>
       <td>[Git, Change, Delete]</td>
-      <td>DELETES</td>
-      <td>[File, Git]</td>
       <td>8904</td>
+      <td>10639</td>
       <td>8904</td>
-      <td>6162</td>
-      <td>0.016228</td>
+      <td>0.009399</td>
     </tr>
     <tr>
       <th>14</th>
@@ -1421,7 +1421,7 @@ Lists the 30 node labels and their relationship types with the highest number of
     <tr>
       <th>22</th>
       <td>[Git, Change, Rename]</td>
-      <td>DELETES</td>
+      <td>CREATES</td>
       <td>[File, Git]</td>
       <td>2850</td>
       <td>2850</td>
@@ -1431,7 +1431,7 @@ Lists the 30 node labels and their relationship types with the highest number of
     <tr>
       <th>23</th>
       <td>[Git, Change, Rename]</td>
-      <td>CREATES</td>
+      <td>MODIFIES</td>
       <td>[File, Git]</td>
       <td>2850</td>
       <td>2850</td>
@@ -1441,7 +1441,7 @@ Lists the 30 node labels and their relationship types with the highest number of
     <tr>
       <th>24</th>
       <td>[Git, Change, Rename]</td>
-      <td>MODIFIES</td>
+      <td>DELETES</td>
       <td>[File, Git]</td>
       <td>2850</td>
       <td>2850</td>

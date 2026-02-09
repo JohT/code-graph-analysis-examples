@@ -14,6 +14,6 @@ strict digraph TopBridge2 {
 
 	graph   [label="Top Rank #2 Typescript Module Bridge\n/home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.13.0/source/react-router-7.13.0/packages/react-router-express/index.ts\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
 	central [label="🌉 bridge #2\nreact-router-express"];
-	"server_118599" [label = "server"; ]; "server_118599" -> central [label=20; weight=20; penwidth=0.4];
-	"server_118599" [label = "server"; color = 5; fillcolor = 1; ]; central -> "server_118599" [label=1; weight=1; penwidth=0.4; color = 5];
+	"server_197802" [label = "server"; ]; "server_197802" -> central [label=56; weight=56; penwidth=0.4];
+	"server_197802" [label = "server"; color = 5; fillcolor = 1; ]; central -> "server_197802" [label=1; weight=1; penwidth=0.4; color = 5];
 }

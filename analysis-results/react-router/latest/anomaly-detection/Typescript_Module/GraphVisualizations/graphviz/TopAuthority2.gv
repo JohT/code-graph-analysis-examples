@@ -14,8 +14,8 @@ strict digraph TopAuthority2 {
 
 	graph   [label="Top Rank #2 Typescript Module Authority\n/home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.13.0/source/react-router-7.13.0/packages/react-router-dev/routes.ts\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: Page Rank (normalized)\nlarge circle: > 80% percentile of Page Rank\nthick outline: > 80% percentile of Page Rank to Article Rank Difference\n\n"];
 	central [label="🏛️ authority #2\nroutes"];
-	"routes_10894"  [shape = "circle"; height=2; label = "routes\n(52.75%)"; penwidth = 5; ]; "routes_10894" -> central [label=9515; weight=9515; penwidth=2.9];
-	"virtual-route-config_10931"  [label = "virtual-route-config\n(0.07%)"; penwidth = 2; ]; "virtual-route-config_10931" -> central [label=275; weight=275; penwidth=0.5];
-	"routes_10894"  [shape = "circle"; height=2; label = "routes\n(52.75%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "routes_10894" [label=6; weight=6; penwidth=0.4; color = 5];
-	"virtual-route-config_10931" -> "routes_10894" [label=275; weight=275; penwidth=0.3; color = 3]
+	"routes_204068"  [shape = "circle"; height=2; label = "routes\n(58.46%)"; penwidth = 5; ]; "routes_204068" -> central [label=786; weight=786; penwidth=0.7];
+	"virtual-route-config_204105"  [label = "virtual-route-config\n(0.08%)"; penwidth = 2; ]; "virtual-route-config_204105" -> central [label=37; weight=37; penwidth=0.4];
+	"routes_204068"  [shape = "circle"; height=2; label = "routes\n(58.46%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "routes_204068" [label=6; weight=6; penwidth=0.4; color = 5];
+	"virtual-route-config_204105" -> "routes_204068" [label=37; weight=37; penwidth=0.3; color = 3]
 }

@@ -131,7 +131,7 @@ Creates a in-memory projection of "TS:Module" nodes and their "DEPENDS_ON" relat
       <td>129</td>
       <td>340</td>
       <td>0.020591</td>
-      <td>2597744</td>
+      <td>2630528</td>
       <td>0</td>
       <td>2.635659</td>
       <td>27</td>
@@ -352,7 +352,7 @@ The following table shows the first 10 rows with all details of the query above.
       <td>205</td>
       <td>40</td>
       <td>49</td>
-      <td>[./index.ts -&gt; ./dom-export.ts, ./lib/rsc/server.rsc.ts -&gt; ./dom-export.ts, ./index.ts -&gt; ./index-react-server-client.ts, ./lib/rsc/server.rsc.ts -&gt; ./index-react-server-client.ts]</td>
+      <td>[./vendor/turbo-stream-v2/turbo-stream.ts -&gt; ./vendor/turbo-stream-v2/flatten.ts, ./vendor/turbo-stream-v2/turbo-stream.ts -&gt; ./vendor/turbo-stream-v2/unflatten.ts, ./vendor/turbo-stream-v2/flatten.ts -&gt; ./vendor/turbo-stream-v2/utils.ts, ./vendor/turbo-stream-v2/turbo-stream.ts -&gt; ./vendor/turb...</td>
       <td>[react-router -&gt; react-router]</td>
       <td>[react-router -&gt; react-router]</td>
     </tr>
@@ -371,7 +371,7 @@ The following table shows the first 10 rows with all details of the query above.
       <td>819</td>
       <td>35</td>
       <td>49</td>
-      <td>[./lib/context.ts -&gt; ./dom-export.ts, ./lib/errors.ts -&gt; ./dom-export.ts, ./lib/dom/dom.ts -&gt; ./dom-export.ts, ./lib/dom/ssr/entry.ts -&gt; ./dom-export.ts]</td>
+      <td>[./index-react-server-client.ts -&gt; ./dom-export.ts, ./lib/context.ts -&gt; ./dom-export.ts, ./lib/errors.ts -&gt; ./dom-export.ts, ./lib/dom/dom.ts -&gt; ./dom-export.ts]</td>
       <td>[react-router -&gt; react-router]</td>
       <td>[react-router -&gt; react-router]</td>
     </tr>
@@ -390,7 +390,7 @@ The following table shows the first 10 rows with all details of the query above.
       <td>436</td>
       <td>35</td>
       <td>44</td>
-      <td>[./index-react-server-client.ts -&gt; ./lib/actions.ts, ./index-react-server-client.ts -&gt; ./lib/errors.ts, ./index-react-server-client.ts -&gt; ./lib/rsc/html-stream/browser.ts, ./dom-export.ts -&gt; ./lib/server-runtime/crypto.ts]</td>
+      <td>[./lib/server-runtime/serverHandoff.ts -&gt; ./dom-export.ts, ./lib/server-runtime/serverHandoff.ts -&gt; ./index-react-server-client.ts, ./lib/server-runtime/serverHandoff.ts -&gt; ./index-react-server.ts, ./index-react-server-client.ts -&gt; ./lib/actions.ts]</td>
       <td>[react-router -&gt; react-router]</td>
       <td>[react-router -&gt; react-router]</td>
     </tr>
@@ -409,7 +409,7 @@ The following table shows the first 10 rows with all details of the query above.
       <td>111</td>
       <td>35</td>
       <td>19</td>
-      <td>[./dom-export.ts -&gt; ./lib/dom/ssr/markup.ts, ./index-react-server-client.ts -&gt; ./lib/dom/ssr/markup.ts, ./index-react-server.ts -&gt; ./lib/dom/ssr/markup.ts, ./dom-export.ts -&gt; ./lib/types/route-module.ts]</td>
+      <td>[./lib/server-runtime/serverHandoff.ts -&gt; ./lib/actions.ts, ./lib/server-runtime/serverHandoff.ts -&gt; ./lib/errors.ts, ./dom-export.ts -&gt; ./lib/dom/ssr/markup.ts, ./index-react-server-client.ts -&gt; ./lib/dom/ssr/markup.ts]</td>
       <td>[react-router -&gt; react-router]</td>
       <td>[react-router -&gt; react-router]</td>
     </tr>
@@ -428,7 +428,7 @@ The following table shows the first 10 rows with all details of the query above.
       <td>115</td>
       <td>34</td>
       <td>5</td>
-      <td>[./dom-export.ts -&gt; ./lib/types/utils.ts, ./index-react-server-client.ts -&gt; ./lib/types/utils.ts, ./index-react-server.ts -&gt; ./lib/types/utils.ts, ./dom-export.ts -&gt; ./vendor/turbo-stream-v2/flatten.ts]</td>
+      <td>[./dom-export.ts -&gt; ./lib/types/utils.ts, ./index-react-server-client.ts -&gt; ./lib/types/utils.ts, ./index-react-server.ts -&gt; ./lib/types/utils.ts, ./lib/context.ts -&gt; ./lib/types/utils.ts]</td>
       <td>[react-router -&gt; react-router]</td>
       <td>[react-router -&gt; react-router]</td>
     </tr>
@@ -581,7 +581,7 @@ In this section we'll focus only on pairs of nodes that both belong to the same 
       <td>205</td>
       <td>40</td>
       <td>49</td>
-      <td>[./index.ts -&gt; ./dom-export.ts, ./lib/rsc/server.rsc.ts -&gt; ./dom-export.ts, ./index.ts -&gt; ./index-react-server-client.ts, ./lib/rsc/server.rsc.ts -&gt; ./index-react-server-client.ts]</td>
+      <td>[./vendor/turbo-stream-v2/turbo-stream.ts -&gt; ./vendor/turbo-stream-v2/flatten.ts, ./vendor/turbo-stream-v2/turbo-stream.ts -&gt; ./vendor/turbo-stream-v2/unflatten.ts, ./vendor/turbo-stream-v2/flatten.ts -&gt; ./vendor/turbo-stream-v2/utils.ts, ./vendor/turbo-stream-v2/turbo-stream.ts -&gt; ./vendor/turb...</td>
       <td>[react-router -&gt; react-router]</td>
       <td>[react-router -&gt; react-router]</td>
     </tr>
@@ -600,7 +600,7 @@ In this section we'll focus only on pairs of nodes that both belong to the same 
       <td>819</td>
       <td>35</td>
       <td>49</td>
-      <td>[./lib/context.ts -&gt; ./dom-export.ts, ./lib/errors.ts -&gt; ./dom-export.ts, ./lib/dom/dom.ts -&gt; ./dom-export.ts, ./lib/dom/ssr/entry.ts -&gt; ./dom-export.ts]</td>
+      <td>[./index-react-server-client.ts -&gt; ./dom-export.ts, ./lib/context.ts -&gt; ./dom-export.ts, ./lib/errors.ts -&gt; ./dom-export.ts, ./lib/dom/dom.ts -&gt; ./dom-export.ts]</td>
       <td>[react-router -&gt; react-router]</td>
       <td>[react-router -&gt; react-router]</td>
     </tr>
@@ -619,7 +619,7 @@ In this section we'll focus only on pairs of nodes that both belong to the same 
       <td>436</td>
       <td>35</td>
       <td>44</td>
-      <td>[./index-react-server-client.ts -&gt; ./lib/actions.ts, ./index-react-server-client.ts -&gt; ./lib/errors.ts, ./index-react-server-client.ts -&gt; ./lib/rsc/html-stream/browser.ts, ./dom-export.ts -&gt; ./lib/server-runtime/crypto.ts]</td>
+      <td>[./lib/server-runtime/serverHandoff.ts -&gt; ./dom-export.ts, ./lib/server-runtime/serverHandoff.ts -&gt; ./index-react-server-client.ts, ./lib/server-runtime/serverHandoff.ts -&gt; ./index-react-server.ts, ./index-react-server-client.ts -&gt; ./lib/actions.ts]</td>
       <td>[react-router -&gt; react-router]</td>
       <td>[react-router -&gt; react-router]</td>
     </tr>
@@ -638,7 +638,7 @@ In this section we'll focus only on pairs of nodes that both belong to the same 
       <td>111</td>
       <td>35</td>
       <td>19</td>
-      <td>[./dom-export.ts -&gt; ./lib/dom/ssr/markup.ts, ./index-react-server-client.ts -&gt; ./lib/dom/ssr/markup.ts, ./index-react-server.ts -&gt; ./lib/dom/ssr/markup.ts, ./dom-export.ts -&gt; ./lib/types/route-module.ts]</td>
+      <td>[./lib/server-runtime/serverHandoff.ts -&gt; ./lib/actions.ts, ./lib/server-runtime/serverHandoff.ts -&gt; ./lib/errors.ts, ./dom-export.ts -&gt; ./lib/dom/ssr/markup.ts, ./index-react-server-client.ts -&gt; ./lib/dom/ssr/markup.ts]</td>
       <td>[react-router -&gt; react-router]</td>
       <td>[react-router -&gt; react-router]</td>
     </tr>
@@ -657,7 +657,7 @@ In this section we'll focus only on pairs of nodes that both belong to the same 
       <td>115</td>
       <td>34</td>
       <td>5</td>
-      <td>[./dom-export.ts -&gt; ./lib/types/utils.ts, ./index-react-server-client.ts -&gt; ./lib/types/utils.ts, ./index-react-server.ts -&gt; ./lib/types/utils.ts, ./dom-export.ts -&gt; ./vendor/turbo-stream-v2/flatten.ts]</td>
+      <td>[./dom-export.ts -&gt; ./lib/types/utils.ts, ./index-react-server-client.ts -&gt; ./lib/types/utils.ts, ./index-react-server.ts -&gt; ./lib/types/utils.ts, ./lib/context.ts -&gt; ./lib/types/utils.ts]</td>
       <td>[react-router -&gt; react-router]</td>
       <td>[react-router -&gt; react-router]</td>
     </tr>
@@ -734,7 +734,7 @@ Shows the top 20 projects with the longest shortest path (=Graph Diameter).
 
 #### All pairs shortest path for each project - Bar chart (absolute)
 
-    /tmp/ipykernel_29294/2329962485.py:20: FutureWarning: The provided callable <built-in function sum> is currently using np.sum. In a future version of pandas, the provided callable will be used directly. To keep current behavior pass the string np.sum instead.
+    /tmp/ipykernel_29203/2329962485.py:20: FutureWarning: The provided callable <built-in function sum> is currently using np.sum. In a future version of pandas, the provided callable will be used directly. To keep current behavior pass the string np.sum instead.
       data_frame = data_frame.groupby([column, "distance"], as_index=False)["pairCount"].apply(sum)
 
 
@@ -881,7 +881,7 @@ In this section we'll focus only on pairs of nodes that both belong to the same 
 
 **Note:** It is possible that a (shortest) path could have nodes in between that belong to different root projects. Therefore, the data of each root project isn't perfectly isolated. However, it shows how the dependencies interact across root projects "in real life" while still providing a decent isolation of each root project.
 
-    /tmp/ipykernel_29294/4070276133.py:8: FutureWarning: The provided callable <built-in function max> is currently using np.maximum.reduce. In a future version of pandas, the provided callable will be used directly. To keep current behavior pass the string np.maximum.reduce instead.
+    /tmp/ipykernel_29203/4070276133.py:8: FutureWarning: The provided callable <built-in function max> is currently using np.maximum.reduce. In a future version of pandas, the provided callable will be used directly. To keep current behavior pass the string np.maximum.reduce instead.
       apply(max).head(20))
 
 
@@ -973,7 +973,7 @@ Shows the top 20 root projects with the longest shortest path (=Graph Diameter).
 
 #### All pairs shortest path for each root project - Bar chart (absolute)
 
-    /tmp/ipykernel_29294/2329962485.py:20: FutureWarning: The provided callable <built-in function sum> is currently using np.sum. In a future version of pandas, the provided callable will be used directly. To keep current behavior pass the string np.sum instead.
+    /tmp/ipykernel_29203/2329962485.py:20: FutureWarning: The provided callable <built-in function sum> is currently using np.sum. In a future version of pandas, the provided callable will be used directly. To keep current behavior pass the string np.sum instead.
       data_frame = data_frame.groupby([column, "distance"], as_index=False)["pairCount"].apply(sum)
 
 
@@ -1354,7 +1354,7 @@ The following table shows the first 10 rows with all details of the query above.
       <td>10</td>
       <td>2</td>
       <td>10</td>
-      <td>[./lib/types/route-module-annotations.ts -&gt; ./index-react-server.ts, ./lib/types/route-module-annotations.ts -&gt; ./index.ts, ./lib/dom/ssr/links.ts -&gt; ./lib/dom/ssr/entry.ts, ./lib/types/route-module-annotations.ts -&gt; ./lib/dom/ssr/routeModules.ts]</td>
+      <td>[./lib/types/route-module-annotations.ts -&gt; ./index-react-server.ts, ./lib/dom/ssr/links.ts -&gt; ./index.ts, ./lib/dom/ssr/links.ts -&gt; ./lib/dom/ssr/entry.ts, ./lib/dom/ssr/links.ts -&gt; ./lib/dom/ssr/routeModules.ts]</td>
       <td>[react-router -&gt; react-router]</td>
       <td>[react-router -&gt; react-router]</td>
     </tr>
@@ -1583,7 +1583,7 @@ In this section we'll focus only on pairs of nodes that both belong to the same 
       <td>10</td>
       <td>2</td>
       <td>10</td>
-      <td>[./lib/types/route-module-annotations.ts -&gt; ./index-react-server.ts, ./lib/types/route-module-annotations.ts -&gt; ./index.ts, ./lib/dom/ssr/links.ts -&gt; ./lib/dom/ssr/entry.ts, ./lib/types/route-module-annotations.ts -&gt; ./lib/dom/ssr/routeModules.ts]</td>
+      <td>[./lib/types/route-module-annotations.ts -&gt; ./index-react-server.ts, ./lib/dom/ssr/links.ts -&gt; ./index.ts, ./lib/dom/ssr/links.ts -&gt; ./lib/dom/ssr/entry.ts, ./lib/dom/ssr/links.ts -&gt; ./lib/dom/ssr/routeModules.ts]</td>
       <td>[react-router -&gt; react-router]</td>
       <td>[react-router -&gt; react-router]</td>
     </tr>
@@ -1694,7 +1694,7 @@ Shows the top 20 projects with their max. longest path.
 
 #### Longest path for each project - Bar chart (absolute)
 
-    /tmp/ipykernel_29294/2329962485.py:20: FutureWarning: The provided callable <built-in function sum> is currently using np.sum. In a future version of pandas, the provided callable will be used directly. To keep current behavior pass the string np.sum instead.
+    /tmp/ipykernel_29203/2329962485.py:20: FutureWarning: The provided callable <built-in function sum> is currently using np.sum. In a future version of pandas, the provided callable will be used directly. To keep current behavior pass the string np.sum instead.
       data_frame = data_frame.groupby([column, "distance"], as_index=False)["pairCount"].apply(sum)
 
 
@@ -1935,7 +1935,7 @@ In this section we'll focus only on pairs of nodes that both belong to the same 
       <td>10</td>
       <td>2</td>
       <td>10</td>
-      <td>[./lib/types/route-module-annotations.ts -&gt; ./index-react-server.ts, ./lib/types/route-module-annotations.ts -&gt; ./index.ts, ./lib/dom/ssr/links.ts -&gt; ./lib/dom/ssr/entry.ts, ./lib/types/route-module-annotations.ts -&gt; ./lib/dom/ssr/routeModules.ts]</td>
+      <td>[./lib/types/route-module-annotations.ts -&gt; ./index-react-server.ts, ./lib/dom/ssr/links.ts -&gt; ./index.ts, ./lib/dom/ssr/links.ts -&gt; ./lib/dom/ssr/entry.ts, ./lib/dom/ssr/links.ts -&gt; ./lib/dom/ssr/routeModules.ts]</td>
       <td>[react-router -&gt; react-router]</td>
       <td>[react-router -&gt; react-router]</td>
     </tr>
@@ -2042,7 +2042,7 @@ Shows the top 20 root projects with their max. longest path.
 
 #### Longest path for each root project - Bar chart (absolute)
 
-    /tmp/ipykernel_29294/2329962485.py:20: FutureWarning: The provided callable <built-in function sum> is currently using np.sum. In a future version of pandas, the provided callable will be used directly. To keep current behavior pass the string np.sum instead.
+    /tmp/ipykernel_29203/2329962485.py:20: FutureWarning: The provided callable <built-in function sum> is currently using np.sum. In a future version of pandas, the provided callable will be used directly. To keep current behavior pass the string np.sum instead.
       data_frame = data_frame.groupby([column, "distance"], as_index=False)["pairCount"].apply(sum)
 
 
