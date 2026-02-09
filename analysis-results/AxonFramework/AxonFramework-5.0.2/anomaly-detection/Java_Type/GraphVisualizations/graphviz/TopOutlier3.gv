@@ -12,47 +12,23 @@ strict digraph TopOutlier3 {
     central [fontsize = 16;];
     central [color = 7; fillcolor = 5; penwidth = 3;];
 
-	graph   [label="Top Rank #3 Java Type Outlier\norg.axonframework.messaging.commandhandling.distributed.CommandBusConnector\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: cluster probability\nlarge circle: < 25% percentile of cluster probability\nthick outline: > 80% percentile of distance to cluster center\n\n"];
-	central [label="🧩 outlier #3\nCommandBusConnector"];
-	"AxonServerConfigurationEnhancer_42888"  [label = "AxonServerConfigurationEnhancer\n(37.91%)"; penwidth = 2; ]; "AxonServerConfigurationEnhancer_42888" -> central [label=9; weight=9; penwidth=0.5];
-	"DelegatingCommandBusConnector_8400"  [label = "DelegatingCommandBusConnector\n(100.0%)"; penwidth = 5; ]; "DelegatingCommandBusConnector_8400" -> central [label=8; weight=8; penwidth=0.5];
-	"DistributedCommandBus_8398"  [shape = "circle"; height=1.8; label = "DistributedCommandBus\n(0.0%)"; penwidth = 2; ]; "DistributedCommandBus_8398" -> central [label=6; weight=6; penwidth=0.5];
-	"DistributedCommandBusConfigurationEnhancer_8403"  [shape = "circle"; height=1.8; label = "DistributedCommandBusConfigurationEnhancer\n(0.0%)"; penwidth = 2; ]; "DistributedCommandBusConfigurationEnhancer_8403" -> central [label=3; weight=3; penwidth=0.4];
-	"PayloadConvertingCommandBusConnector_8402"  [label = "PayloadConvertingCommandBusConnector\n(97.51%)"; penwidth = 5; ]; "PayloadConvertingCommandBusConnector_8402" -> central [label=3; weight=3; penwidth=0.4];
-	"AxonServerCommandBusConnector_42919"  [shape = "circle"; height=1.8; label = "AxonServerCommandBusConnector\n(0.0%)"; penwidth = 2; ]; "AxonServerCommandBusConnector_42919" -> central [label=1; weight=1; penwidth=0.4];
-	"CommandBusConnector$Handler_8429"  [label = "CommandBusConnector$\nHandler\n(100.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "CommandBusConnector$Handler_8429" [label=2; weight=2; penwidth=0.4; color = 5];
-	"QualifiedName_8274"  [shape = "circle"; height=1.8; label = "QualifiedName\n(0.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "QualifiedName_8274" [label=2; weight=2; penwidth=0.4; color = 5];
-	"CommandBusConnector$ResultCallback_8432"  [label = "CommandBusConnector$\nResultCallback\n(100.0%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "CommandBusConnector$ResultCallback_8432" [label=1; weight=1; penwidth=0.4; color = 5];
-	"CommandMessage_8239"  [label = "CommandMessage\n(42.69%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "CommandMessage_8239" [label=1; weight=1; penwidth=0.4; color = 5];
-	"CommandResultMessage_7314"  [shape = "circle"; height=1.8; label = "CommandResultMessage\n(0.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "CommandResultMessage_7314" [label=1; weight=1; penwidth=0.4; color = 5];
-	"DescribableComponent_48165"  [label = "DescribableComponent\n(77.16%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "DescribableComponent_48165" [label=1; weight=1; penwidth=0.4; color = 5];
-	"ProcessingContext_7325"  [shape = "circle"; height=1.8; label = "ProcessingContext\n(0.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "ProcessingContext_7325" [label=1; weight=1; penwidth=0.4; color = 5];
-	"AxonServerConfigurationEnhancer_42888" -> "AxonServerCommandBusConnector_42919" [label=8; weight=8; penwidth=0.3; color = 3]
-	"AxonServerCommandBusConnector_42919" -> "CommandBusConnector$Handler_8429" [label=4; weight=4; penwidth=0.3; color = 3]
-	"AxonServerCommandBusConnector_42919" -> "QualifiedName_8274" [label=4; weight=4; penwidth=0.3; color = 3]
-	"AxonServerConfigurationEnhancer_42888" -> "PayloadConvertingCommandBusConnector_8402" [label=4; weight=4; penwidth=0.3; color = 3]
-	"PayloadConvertingCommandBusConnector_8402" -> "CommandBusConnector$Handler_8429" [label=4; weight=4; penwidth=0.3; color = 3]
-	"DistributedCommandBusConfigurationEnhancer_8403" -> "DistributedCommandBus_8398" [label=3; weight=3; penwidth=0.3; color = 3]
-	"PayloadConvertingCommandBusConnector_8402" -> "CommandMessage_8239" [label=3; weight=3; penwidth=0.3; color = 3]
-	"AxonServerCommandBusConnector_42919" -> "CommandResultMessage_7314" [label=2; weight=2; penwidth=0.3; color = 3]
+	graph   [label="Top Rank #3 Java Type Outlier\norg.axonframework.messaging.commandhandling.distributed.DistributedCommandBus$DistributedHandler\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: cluster probability\nlarge circle: < 25% percentile of cluster probability\nthick outline: > 80% percentile of distance to cluster center\n\n"];
+	central [label="🧩 outlier #3\nDistributedCommandBus$DistributedHandler"];
+	"DistributedCommandBus_8398"  [label = "DistributedCommandBus\n(10.63%)"; penwidth = 5; ]; "DistributedCommandBus_8398" -> central [label=3; weight=3; penwidth=0.4];
+	"CommandMessage_8239"  [label = "CommandMessage\n(75.94%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "CommandMessage_8239" [label=16; weight=16; penwidth=0.6; color = 5];
+	"DistributedCommandBus_8398"  [label = "DistributedCommandBus\n(10.63%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "DistributedCommandBus_8398" [label=11; weight=11; penwidth=0.6; color = 5];
+	"CommandBusConnector$ResultCallback_8432"  [label = "CommandBusConnector$\nResultCallback\n(10.63%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "CommandBusConnector$ResultCallback_8432" [label=9; weight=9; penwidth=0.5; color = 5];
+	"CommandBusConnector$Handler_8429"  [label = "CommandBusConnector$\nHandler\n(11.17%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "CommandBusConnector$Handler_8429" [label=2; weight=2; penwidth=0.4; color = 5];
+	"CommandResultMessage_7314"  [label = "CommandResultMessage\n(35.55%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "CommandResultMessage_7314" [label=2; weight=2; penwidth=0.4; color = 5];
+	"PriorityRunnable_47135"  [label = "PriorityRunnable\n(100.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "PriorityRunnable_47135" [label=2; weight=2; penwidth=0.4; color = 5];
+	"CommandBus_8271"  [shape = "circle"; height=1.8; label = "CommandBus\n(0.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "CommandBus_8271" [label=1; weight=1; penwidth=0.4; color = 5];
+	"DistributedCommandBus_8398" -> "CommandBus_8271" [label=5; weight=5; penwidth=0.3; color = 3]
 	"CommandBusConnector$Handler_8429" -> "CommandBusConnector$ResultCallback_8432" [label=2; weight=2; penwidth=0.3; color = 3]
-	"DelegatingCommandBusConnector_8400" -> "CommandBusConnector$Handler_8429" [label=2; weight=2; penwidth=0.3; color = 3]
-	"DelegatingCommandBusConnector_8400" -> "QualifiedName_8274" [label=2; weight=2; penwidth=0.3; color = 3]
-	"DistributedCommandBus_8398" -> "QualifiedName_8274" [label=2; weight=2; penwidth=0.3; color = 3]
-	"PayloadConvertingCommandBusConnector_8402" -> "CommandBusConnector$ResultCallback_8432" [label=2; weight=2; penwidth=0.3; color = 3]
-	"PayloadConvertingCommandBusConnector_8402" -> "DelegatingCommandBusConnector_8400" [label=2; weight=2; penwidth=0.3; color = 3]
-	"AxonServerCommandBusConnector_42919" -> "CommandBusConnector$ResultCallback_8432" [label=1; weight=1; penwidth=0.3; color = 3]
-	"AxonServerCommandBusConnector_42919" -> "CommandMessage_8239" [label=1; weight=1; penwidth=0.3; color = 3]
-	"AxonServerCommandBusConnector_42919" -> "ProcessingContext_7325" [label=1; weight=1; penwidth=0.3; color = 3]
+	"CommandBus_8271" -> "CommandMessage_8239" [label=1; weight=1; penwidth=0.3; color = 3]
+	"CommandBus_8271" -> "CommandResultMessage_7314" [label=1; weight=1; penwidth=0.3; color = 3]
 	"CommandBusConnector$Handler_8429" -> "CommandMessage_8239" [label=1; weight=1; penwidth=0.3; color = 3]
 	"CommandBusConnector$ResultCallback_8432" -> "CommandResultMessage_7314" [label=1; weight=1; penwidth=0.3; color = 3]
-	"DelegatingCommandBusConnector_8400" -> "ProcessingContext_7325" [label=1; weight=1; penwidth=0.3; color = 3]
-	"DelegatingCommandBusConnector_8400" -> "CommandMessage_8239" [label=1; weight=1; penwidth=0.3; color = 3]
-	"DelegatingCommandBusConnector_8400" -> "CommandResultMessage_7314" [label=1; weight=1; penwidth=0.3; color = 3]
 	"DistributedCommandBus_8398" -> "CommandResultMessage_7314" [label=1; weight=1; penwidth=0.3; color = 3]
 	"DistributedCommandBus_8398" -> "CommandMessage_8239" [label=1; weight=1; penwidth=0.3; color = 3]
-	"DistributedCommandBus_8398" -> "ProcessingContext_7325" [label=1; weight=1; penwidth=0.3; color = 3]
 	"DistributedCommandBus_8398" -> "CommandBusConnector$Handler_8429" [label=1; weight=1; penwidth=0.3; color = 3]
-	"PayloadConvertingCommandBusConnector_8402" -> "ProcessingContext_7325" [label=1; weight=1; penwidth=0.3; color = 3]
-	"PayloadConvertingCommandBusConnector_8402" -> "CommandResultMessage_7314" [label=1; weight=1; penwidth=0.3; color = 3]
 }

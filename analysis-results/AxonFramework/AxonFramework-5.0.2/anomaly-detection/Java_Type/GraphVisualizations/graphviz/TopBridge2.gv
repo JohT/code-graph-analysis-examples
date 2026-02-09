@@ -12,10 +12,9 @@ strict digraph TopBridge2 {
     central [fontsize = 16;];
     central [color = 7; fillcolor = 5; penwidth = 3;];
 
-	graph   [label="Top Rank #2 Java Type Bridge\norg.axonframework.extension.springboot.autoconfig.ObjectMapperAutoConfiguration$JacksonConfiguredCondition$MessagesJacksonCondition\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
-	central [label="🌉 bridge #2\nObjectMapperAutoConfiguration$JacksonConfiguredCondition$MessagesJacksonCondition"];
-	"ObjectMapperAutoConfiguration_4877" [label = "ObjectMapperAutoConfiguration"; ]; "ObjectMapperAutoConfiguration_4877" -> central [label=1; weight=1; penwidth=0.4];
-	"ObjectMapperAutoConfiguration$JacksonConfiguredCondition_4865" [label = "ObjectMapperAutoConfiguration$\nJacksonConfiguredCondition"; ]; "ObjectMapperAutoConfiguration$JacksonConfiguredCondition_4865" -> central [label=1; weight=1; penwidth=0.4];
-	"ObjectMapperAutoConfiguration$JacksonConfiguredCondition_4865" [label = "ObjectMapperAutoConfiguration$\nJacksonConfiguredCondition"; color = 5; fillcolor = 1; ]; central -> "ObjectMapperAutoConfiguration$JacksonConfiguredCondition_4865" [label=1; weight=1; penwidth=0.4; color = 5];
-	"ObjectMapperAutoConfiguration_4877" -> "ObjectMapperAutoConfiguration$JacksonConfiguredCondition_4865" [label=2; weight=2; penwidth=0.3; color = 3]
+	graph   [label="Top Rank #2 Java Type Bridge\norg.axonframework.messaging.eventhandling.processing.streaming.segmenting.RemovedTrackerStatus\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
+	central [label="🌉 bridge #2\nRemovedTrackerStatus"];
+	"WrappedTrackerStatus_16806" [label = "WrappedTrackerStatus"; color = 5; fillcolor = 1; ]; central -> "WrappedTrackerStatus_16806" [label=2; weight=2; penwidth=0.4; color = 5];
+	"EventTrackerStatus_14612" [label = "EventTrackerStatus"; color = 5; fillcolor = 1; ]; central -> "EventTrackerStatus_14612" [label=1; weight=1; penwidth=0.4; color = 5];
+	"WrappedTrackerStatus_16806" -> "EventTrackerStatus_14612" [label=15; weight=15; penwidth=0.3; color = 3]
 }

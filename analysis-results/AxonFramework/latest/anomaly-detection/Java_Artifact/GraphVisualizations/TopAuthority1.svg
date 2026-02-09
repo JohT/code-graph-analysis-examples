@@ -129,7 +129,7 @@
 <text xml:space="preserve" text-anchor="middle" x="605.76" y="-229.95" font-family="Times,serif" font-size="4.00">18</text>
 </g>
 <!-- axon&#45;spring&#45;boot&#45;autoconfigure&#45;5.0.2_3994&#45;&gt;axon&#45;server&#45;connector&#45;5.0.2_41217 -->
-<g id="edge24" class="edge">
+<g id="edge23" class="edge">
 <title>axon&#45;spring&#45;boot&#45;autoconfigure&#45;5.0.2_3994&#45;&gt;axon&#45;server&#45;connector&#45;5.0.2_41217</title>
 <path fill="none" stroke="#ccece6" stroke-width="0.3" d="M632.61,-270.16C632.47,-269.55 632.33,-268.95 632.19,-268.34"/>
 <polygon fill="#ccece6" stroke="#ccece6" stroke-width="0.3" points="633.63,-268.38 631.36,-264.8 630.91,-269.01 633.63,-268.38"/>
@@ -150,7 +150,7 @@
 <text xml:space="preserve" text-anchor="middle" x="580.68" y="-435.55" font-family="Times,serif" font-size="4.00">16</text>
 </g>
 <!-- axon&#45;spring&#45;boot&#45;autoconfigure&#45;5.0.2_3994&#45;&gt;axon&#45;conversion&#45;5.0.2_29670 -->
-<g id="edge23" class="edge">
+<g id="edge24" class="edge">
 <title>axon&#45;spring&#45;boot&#45;autoconfigure&#45;5.0.2_3994&#45;&gt;axon&#45;conversion&#45;5.0.2_29670</title>
 <path fill="none" stroke="#ccece6" stroke-width="0.3" d="M627.14,-270.13C608.92,-223.43 576.57,-140.55 557.93,-92.82"/>
 <polygon fill="#ccece6" stroke="#ccece6" stroke-width="0.3" points="559.32,-92.52 556.56,-89.3 556.71,-93.54 559.32,-92.52"/>
@@ -205,16 +205,16 @@
 <polygon fill="#ccece6" stroke="#ccece6" stroke-width="0.3" points="315.85,-223.6 318.69,-220.45 314.51,-221.15 315.85,-223.6"/>
 <text xml:space="preserve" text-anchor="middle" x="232.27" y="-267.99" font-family="Times,serif" font-size="4.00">66</text>
 </g>
-<!-- axon&#45;tracing&#45;opentelemetry&#45;5.0.2_51205&#45;&gt;central -->
+<!-- axon&#45;tracing&#45;opentelemetry&#45;5.0.2_51207&#45;&gt;central -->
 <g id="edge10" class="edge">
-<title>axon&#45;tracing&#45;opentelemetry&#45;5.0.2_51205&#45;&gt;central</title>
+<title>axon&#45;tracing&#45;opentelemetry&#45;5.0.2_51207&#45;&gt;central</title>
 <path fill="none" stroke="#238b45" stroke-width="0.4" d="M140.45,-155.22C183.4,-185.45 249.23,-231.78 298.6,-266.52"/>
 <polygon fill="#238b45" stroke="#238b45" stroke-width="0.4" points="297.55,-267.5 301.63,-268.66 299.16,-265.21 297.55,-267.5"/>
 <text xml:space="preserve" text-anchor="middle" x="220.39" y="-213.38" font-family="Times,serif" font-size="4.00">2</text>
 </g>
-<!-- axon&#45;tracing&#45;opentelemetry&#45;5.0.2_51205&#45;&gt;axon&#45;messaging&#45;5.0.2_7232 -->
+<!-- axon&#45;tracing&#45;opentelemetry&#45;5.0.2_51207&#45;&gt;axon&#45;messaging&#45;5.0.2_7232 -->
 <g id="edge20" class="edge">
-<title>axon&#45;tracing&#45;opentelemetry&#45;5.0.2_51205&#45;&gt;axon&#45;messaging&#45;5.0.2_7232</title>
+<title>axon&#45;tracing&#45;opentelemetry&#45;5.0.2_51207&#45;&gt;axon&#45;messaging&#45;5.0.2_7232</title>
 <path fill="none" stroke="#ccece6" stroke-width="0.3" d="M174.61,-145.22C215.13,-156.13 263.89,-169.25 301.68,-179.42"/>
 <polygon fill="#ccece6" stroke="#ccece6" stroke-width="0.3" points="301.1,-180.71 305.33,-180.4 301.83,-178.01 301.1,-180.71"/>
 <text xml:space="preserve" text-anchor="middle" x="238.2" y="-164.07" font-family="Times,serif" font-size="4.00">22</text>
@@ -290,9 +290,9 @@
 <text xml:space="preserve" text-anchor="middle" x="97.31" y="-345.58" font-family="Times,serif" font-size="12.00">axon&#45;metrics&#45;micrometer&#45;5.0.2</text>
 <text xml:space="preserve" text-anchor="middle" x="97.31" y="-331.18" font-family="Times,serif" font-size="12.00">(0.0%)</text>
 </g>
-<!-- axon&#45;tracing&#45;opentelemetry&#45;5.0.2_51205 -->
+<!-- axon&#45;tracing&#45;opentelemetry&#45;5.0.2_51207 -->
 <g id="node11" class="node">
-<title>axon&#45;tracing&#45;opentelemetry&#45;5.0.2_51205</title>
+<title>axon&#45;tracing&#45;opentelemetry&#45;5.0.2_51207</title>
 <ellipse fill="#ccece6" stroke="#41ae76" stroke-width="5" cx="96.33" cy="-124.16" rx="96.33" ry="32.4"/>
 <text xml:space="preserve" text-anchor="middle" x="96.33" y="-127.76" font-family="Times,serif" font-size="12.00">axon&#45;tracing&#45;opentelemetry&#45;5.0.2</text>
 <text xml:space="preserve" text-anchor="middle" x="96.33" y="-113.36" font-family="Times,serif" font-size="12.00">(0.0%)</text>

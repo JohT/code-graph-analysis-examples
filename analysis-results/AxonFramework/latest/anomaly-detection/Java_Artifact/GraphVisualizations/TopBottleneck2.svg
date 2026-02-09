@@ -79,7 +79,7 @@
 <text xml:space="preserve" text-anchor="middle" x="326.07" y="-75.32" font-family="Times,serif" font-size="4.00">18</text>
 </g>
 <!-- axon&#45;spring&#45;boot&#45;autoconfigure&#45;5.0.2_3994&#45;&gt;axon&#45;server&#45;connector&#45;5.0.2_41217 -->
-<g id="edge20" class="edge">
+<g id="edge19" class="edge">
 <title>axon&#45;spring&#45;boot&#45;autoconfigure&#45;5.0.2_3994&#45;&gt;axon&#45;server&#45;connector&#45;5.0.2_41217</title>
 <path fill="none" stroke="#ccece6" stroke-width="0.3" d="M451.28,-64.25C503.74,-119.79 611.49,-233.89 665.29,-290.86"/>
 <polygon fill="#ccece6" stroke="#ccece6" stroke-width="0.3" points="664.05,-291.58 667.81,-293.53 666.09,-289.66 664.05,-291.58"/>
@@ -107,7 +107,7 @@
 <text xml:space="preserve" text-anchor="middle" x="486.86" y="-274.95" font-family="Times,serif" font-size="4.00">86</text>
 </g>
 <!-- axon&#45;spring&#45;boot&#45;autoconfigure&#45;5.0.2_3994&#45;&gt;axon&#45;conversion&#45;5.0.2_29670 -->
-<g id="edge19" class="edge">
+<g id="edge20" class="edge">
 <title>axon&#45;spring&#45;boot&#45;autoconfigure&#45;5.0.2_3994&#45;&gt;axon&#45;conversion&#45;5.0.2_29670</title>
 <path fill="none" stroke="#ccece6" stroke-width="0.3" d="M400.42,-64.99C376.14,-100.93 332.99,-158.58 284.02,-195.73 236.3,-231.93 173.27,-258.74 127.13,-275.29"/>
 <polygon fill="#ccece6" stroke="#ccece6" stroke-width="0.3" points="126.73,-273.95 123.43,-276.61 127.67,-276.59 126.73,-273.95"/>

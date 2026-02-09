@@ -541,7 +541,7 @@ Only the top 20 entries are shown. The whole table can be found in the following
       <td>70</td>
       <td>116</td>
       <td>1211</td>
-      <td>[Span, StatusCode, SpanBuilder, Scope, SpanCon...</td>
+      <td>[Context, TextMapGetter, SpanBuilder, SpanKind...</td>
     </tr>
     <tr>
       <th>15</th>
@@ -563,7 +563,7 @@ Only the top 20 entries are shown. The whole table can be found in the following
       <td>48</td>
       <td>116</td>
       <td>1211</td>
-      <td>[CacheEntryEventFilter, CacheEntryListenerExce...</td>
+      <td>[Cache, CacheEntryListenerConfiguration, Cache...</td>
     </tr>
     <tr>
       <th>17</th>
@@ -585,7 +585,7 @@ Only the top 20 entries are shown. The whole table can be found in the following
       <td>45</td>
       <td>116</td>
       <td>1211</td>
-      <td>[CacheEvent, CacheEventListener, EventType, Ca...</td>
+      <td>[EventType, CacheEvent, CacheEventListener, Ca...</td>
     </tr>
     <tr>
       <th>19</th>
@@ -2694,7 +2694,7 @@ Only the last 40 entries are shown. The whole table can be found in the followin
       <td>16</td>
       <td>6</td>
       <td>320.000000</td>
-      <td>[Span, StatusCode, SpanBuilder, SpanContext, S...</td>
+      <td>[SpanBuilder, SpanKind, Span, Tracer, StatusCo...</td>
     </tr>
     <tr>
       <th>1</th>
@@ -2730,7 +2730,7 @@ Only the last 40 entries are shown. The whole table can be found in the followin
       <td>16</td>
       <td>6</td>
       <td>320.000000</td>
-      <td>[Scope, Context]</td>
+      <td>[Context, Scope]</td>
     </tr>
     <tr>
       <th>4</th>
@@ -2742,7 +2742,7 @@ Only the last 40 entries are shown. The whole table can be found in the followin
       <td>16</td>
       <td>6</td>
       <td>320.000000</td>
-      <td>[LoggerFactory, Logger]</td>
+      <td>[Logger, LoggerFactory]</td>
     </tr>
     <tr>
       <th>5</th>
@@ -5018,7 +5018,7 @@ Only the last 40 entries are shown. The whole table can be found in the followin
       <td>116</td>
       <td>540</td>
       <td>11</td>
-      <td>[jakarta.annotation, org.slf4j, javax.cache.ev...</td>
+      <td>[jakarta.annotation, org.slf4j, org.ehcache.ev...</td>
       <td>[Nonnull, Nullable, LoggerFactory, Logger, Cac...</td>
     </tr>
     <tr>
@@ -5249,22 +5249,22 @@ Only the last 40 entries are shown. The whole table can be found in the followin
       <th>13</th>
       <td>axon-tracing-opentelemetry-5.0.2</td>
       <td>org.axonframework.extension.tracing.opentelemetry</td>
-      <td>io.opentelemetry.api.trace</td>
+      <td>io.opentelemetry.context.propagation</td>
       <td>9</td>
-      <td>46</td>
+      <td>15</td>
       <td>5</td>
-      <td>[Span, StatusCode, SpanBuilder, SpanContext, T...</td>
+      <td>[TextMapGetter, TextMapSetter, TextMapPropagat...</td>
       <td>opentelemetry</td>
     </tr>
     <tr>
       <th>14</th>
       <td>axon-tracing-opentelemetry-5.0.2</td>
       <td>org.axonframework.extension.tracing.opentelemetry</td>
-      <td>io.opentelemetry.context.propagation</td>
+      <td>io.opentelemetry.api.trace</td>
       <td>9</td>
-      <td>15</td>
+      <td>46</td>
       <td>5</td>
-      <td>[TextMapGetter, TextMapSetter, TextMapPropagat...</td>
+      <td>[SpanBuilder, SpanKind, Span, Tracer, StatusCo...</td>
       <td>opentelemetry</td>
     </tr>
     <tr>
@@ -5275,7 +5275,7 @@ Only the last 40 entries are shown. The whole table can be found in the followin
       <td>8</td>
       <td>30</td>
       <td>13</td>
-      <td>[CacheEvent, CacheEventListener, EventType, Ev...</td>
+      <td>[EventType, CacheEvent, CacheEventListener, Ev...</td>
       <td>caching</td>
     </tr>
     <tr>
@@ -5451,7 +5451,7 @@ Only the last 40 entries are shown. The whole table can be found in the followin
       <td>5</td>
       <td>14</td>
       <td>34</td>
-      <td>[Logger, LoggerFactory]</td>
+      <td>[LoggerFactory, Logger]</td>
       <td>common</td>
     </tr>
     <tr>
@@ -6879,8 +6879,8 @@ If Maven is used as for package and dependency management and a ".pom" file is i
       <td>Axon Framework - Common</td>
       <td>default</td>
       <td>True</td>
-      <td>jakarta.annotation</td>
-      <td>jakarta.annotation-api</td>
+      <td>org.ehcache</td>
+      <td>ehcache</td>
     </tr>
     <tr>
       <th>1</th>
@@ -6897,8 +6897,8 @@ If Maven is used as for package and dependency management and a ".pom" file is i
       <td>Axon Framework - Common</td>
       <td>default</td>
       <td>True</td>
-      <td>io.projectreactor</td>
-      <td>reactor-core</td>
+      <td>javax.cache</td>
+      <td>cache-api</td>
     </tr>
     <tr>
       <th>3</th>
@@ -6906,17 +6906,17 @@ If Maven is used as for package and dependency management and a ".pom" file is i
       <td>Axon Framework - Common</td>
       <td>default</td>
       <td>True</td>
-      <td>org.hibernate.orm</td>
-      <td>hibernate-core</td>
+      <td>jakarta.validation</td>
+      <td>jakarta.validation-api</td>
     </tr>
     <tr>
       <th>4</th>
       <td>axon-common</td>
       <td>Axon Framework - Common</td>
-      <td>provided</td>
+      <td>default</td>
       <td>False</td>
-      <td>com.google.code.findbugs</td>
-      <td>jsr305</td>
+      <td>com.fasterxml.jackson.core</td>
+      <td>jackson-databind</td>
     </tr>
     <tr>
       <th>...</th>
@@ -6933,8 +6933,8 @@ If Maven is used as for package and dependency management and a ".pom" file is i
       <td>Axon Extension - Tracing - OpenTelemetry</td>
       <td>default</td>
       <td>False</td>
-      <td>io.opentelemetry</td>
-      <td>opentelemetry-api</td>
+      <td>jakarta.annotation</td>
+      <td>jakarta.annotation-api</td>
     </tr>
     <tr>
       <th>191</th>
@@ -6942,8 +6942,8 @@ If Maven is used as for package and dependency management and a ".pom" file is i
       <td>Axon Extension - Tracing - OpenTelemetry</td>
       <td>default</td>
       <td>False</td>
-      <td>jakarta.annotation</td>
-      <td>jakarta.annotation-api</td>
+      <td>io.opentelemetry</td>
+      <td>opentelemetry-api</td>
     </tr>
     <tr>
       <th>192</th>

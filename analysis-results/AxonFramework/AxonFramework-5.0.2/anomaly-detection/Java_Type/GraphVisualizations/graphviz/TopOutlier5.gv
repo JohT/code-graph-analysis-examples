@@ -12,61 +12,42 @@ strict digraph TopOutlier5 {
     central [fontsize = 16;];
     central [color = 7; fillcolor = 5; penwidth = 3;];
 
-	graph   [label="Top Rank #5 Java Type Outlier\norg.axonframework.messaging.core.DefaultMessageDispatchInterceptorChain\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: cluster probability\nlarge circle: < 25% percentile of cluster probability\nthick outline: > 80% percentile of distance to cluster center\n\n"];
-	central [label="🧩 outlier #5\nDefaultMessageDispatchInterceptorChain"];
-	"InterceptingCommandBus$InterceptingDispatcher_9384"  [label = "InterceptingCommandBus$\nInterceptingDispatcher\n(98.74%)"; penwidth = 5; ]; "InterceptingCommandBus$InterceptingDispatcher_9384" -> central [label=4; weight=4; penwidth=0.5];
-	"InterceptingEventSink$InterceptingPublisher_11478"  [label = "InterceptingEventSink$\nInterceptingPublisher\n(31.63%)"; penwidth = 2; ]; "InterceptingEventSink$InterceptingPublisher_11478" -> central [label=4; weight=4; penwidth=0.5];
-	"InterceptingEventStore$InterceptingAppender_38820"  [label = "InterceptingEventStore$\nInterceptingAppender\n(100.0%)"; penwidth = 2; ]; "InterceptingEventStore$InterceptingAppender_38820" -> central [label=4; weight=4; penwidth=0.5];
-	"InterceptingQueryBus$InterceptingResponseUpdateDispatcher_18782"  [label = "InterceptingQueryBus$\nInterceptingResponseUpdateDispatcher\n(100.0%)"; penwidth = 2; ]; "InterceptingQueryBus$InterceptingResponseUpdateDispatcher_18782" -> central [label=4; weight=4; penwidth=0.5];
-	"InterceptingQueryBus$QueryInterceptingDispatcher_18791"  [label = "InterceptingQueryBus$\nQueryInterceptingDispatcher\n(100.0%)"; penwidth = 2; ]; "InterceptingQueryBus$QueryInterceptingDispatcher_18791" -> central [label=4; weight=4; penwidth=0.5];
-	"InterceptingQueryBus$SubscribeToUpdatesInterceptingDispatcher_18793"  [label = "InterceptingQueryBus$\nSubscribeToUpdatesInterceptingDispatcher\n(100.0%)"; penwidth = 2; ]; "InterceptingQueryBus$SubscribeToUpdatesInterceptingDispatcher_18793" -> central [label=3; weight=3; penwidth=0.4];
-	"InterceptingQueryBus$SubscriptionQueryInterceptingDispatcher_18792"  [label = "InterceptingQueryBus$\nSubscriptionQueryInterceptingDispatcher\n(100.0%)"; penwidth = 2; ]; "InterceptingQueryBus$SubscriptionQueryInterceptingDispatcher_18792" -> central [label=3; weight=3; penwidth=0.4];
-	"MessageStream_7327"  [label = "MessageStream\n(23.54%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "MessageStream_7327" [label=6; weight=6; penwidth=0.5; color = 5];
-	"ProcessingContext_7325"  [shape = "circle"; height=1.8; label = "ProcessingContext\n(0.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "ProcessingContext_7325" [label=4; weight=4; penwidth=0.5; color = 5];
-	"DefaultMessageDispatchInterceptorChain$InterceptingDispatcher_25171"  [label = "DefaultMessageDispatchInterceptorChain$\nInterceptingDispatcher\n(36.14%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "DefaultMessageDispatchInterceptorChain$InterceptingDispatcher_25171" [label=3; weight=3; penwidth=0.4; color = 5];
-	"MessageDispatchInterceptor_8235"  [label = "MessageDispatchInterceptor\n(33.0%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "MessageDispatchInterceptor_8235" [label=3; weight=3; penwidth=0.4; color = 5];
-	"Message_7315"  [label = "Message\n(45.57%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "Message_7315" [label=2; weight=2; penwidth=0.4; color = 5];
-	"MessageStream$Single_8230"  [label = "MessageStream$\nSingle\n(26.23%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "MessageStream$Single_8230" [label=2; weight=2; penwidth=0.4; color = 5];
-	"Internal_46215"  [shape = "circle"; height=1.8; label = "Internal\n(0.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "Internal_46215" [label=1; weight=1; penwidth=0.4; color = 5];
-	"MessageDispatchInterceptorChain_8237"  [label = "MessageDispatchInterceptorChain\n(40.08%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "MessageDispatchInterceptorChain_8237" [label=1; weight=1; penwidth=0.4; color = 5];
+	graph   [label="Top Rank #5 Java Type Outlier\norg.axonframework.messaging.core.timeout.UnitOfWorkTimeoutInterceptorBuilder\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: cluster probability\nlarge circle: < 25% percentile of cluster probability\nthick outline: > 80% percentile of distance to cluster center\n\n"];
+	central [label="🧩 outlier #5\nUnitOfWorkTimeoutInterceptorBuilder"];
+	"AxonTimeoutAutoConfiguration$AxonTimeoutConfigurerModule_5244"  [label = "AxonTimeoutAutoConfiguration$\nAxonTimeoutConfigurerModule\n(74.02%)"; penwidth = 2; ]; "AxonTimeoutAutoConfiguration$AxonTimeoutConfigurerModule_5244" -> central [label=9; weight=9; penwidth=0.5];
+	"AxonTimeLimitedTask_28015"  [shape = "circle"; height=1.8; label = "AxonTimeLimitedTask\n(0.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "AxonTimeLimitedTask_28015" [label=11; weight=11; penwidth=0.6; color = 5];
+	"ProcessingContext_7325"  [shape = "circle"; height=1.8; label = "ProcessingContext\n(0.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "ProcessingContext_7325" [label=9; weight=9; penwidth=0.5; color = 5];
+	"MessageHandlerInterceptor_7321"  [shape = "circle"; height=1.8; label = "MessageHandlerInterceptor\n(0.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "MessageHandlerInterceptor_7321" [label=4; weight=4; penwidth=0.5; color = 5];
+	"Context$ResourceKey_9279"  [label = "Context$\nResourceKey\n(75.45%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "Context$ResourceKey_9279" [label=3; weight=3; penwidth=0.4; color = 5];
+	"AxonTaskJanitor_28016"  [shape = "circle"; height=1.8; label = "AxonTaskJanitor\n(0.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "AxonTaskJanitor_28016" [label=2; weight=2; penwidth=0.4; color = 5];
+	"Message_7315"  [shape = "circle"; height=1.8; label = "Message\n(0.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "Message_7315" [label=2; weight=2; penwidth=0.4; color = 5];
+	"MessageHandlerInterceptorChain_7326"  [shape = "circle"; height=1.8; label = "MessageHandlerInterceptorChain\n(0.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "MessageHandlerInterceptorChain_7326" [label=2; weight=2; penwidth=0.4; color = 5];
+	"MessageStream_7327"  [label = "MessageStream\n(31.32%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "MessageStream_7327" [label=2; weight=2; penwidth=0.4; color = 5];
+	"ProcessingLifecycle$Phase_7324"  [label = "ProcessingLifecycle$\nPhase\n(100.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "ProcessingLifecycle$Phase_7324" [label=2; weight=2; penwidth=0.4; color = 5];
+	"CommandMessage_8239"  [label = "CommandMessage\n(75.94%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "CommandMessage_8239" [label=1; weight=1; penwidth=0.4; color = 5];
+	"EventMessage_7322"  [shape = "circle"; height=1.8; label = "EventMessage\n(0.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "EventMessage_7322" [label=1; weight=1; penwidth=0.4; color = 5];
+	"MessageStream$Empty_9272"  [shape = "circle"; height=1.8; label = "MessageStream$\nEmpty\n(0.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "MessageStream$Empty_9272" [label=1; weight=1; penwidth=0.4; color = 5];
+	"ProcessingLifecycle$ErrorHandler_7323"  [label = "ProcessingLifecycle$\nErrorHandler\n(100.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "ProcessingLifecycle$ErrorHandler_7323" [label=1; weight=1; penwidth=0.4; color = 5];
+	"QueryMessage_8234"  [label = "QueryMessage\n(79.86%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "QueryMessage_8234" [label=1; weight=1; penwidth=0.4; color = 5];
 	"MessageStream_7327" -> "Message_7315" [label=25; weight=25; penwidth=0.3; color = 3]
-	"DefaultMessageDispatchInterceptorChain$InterceptingDispatcher_25171" -> "MessageStream_7327" [label=7; weight=7; penwidth=0.3; color = 3]
-	"MessageStream_7327" -> "MessageStream$Single_8230" [label=7; weight=7; penwidth=0.3; color = 3]
-	"MessageStream$Single_8230" -> "MessageStream_7327" [label=7; weight=7; penwidth=0.3; color = 3]
-	"DefaultMessageDispatchInterceptorChain$InterceptingDispatcher_25171" -> "ProcessingContext_7325" [label=6; weight=6; penwidth=0.3; color = 3]
-	"InterceptingEventSink$InterceptingPublisher_11478" -> "MessageStream_7327" [label=5; weight=5; penwidth=0.3; color = 3]
+	"ProcessingContext_7325" -> "Context$ResourceKey_9279" [label=9; weight=9; penwidth=0.3; color = 3]
+	"MessageStream$Empty_9272" -> "MessageStream_7327" [label=7; weight=7; penwidth=0.3; color = 3]
+	"CommandMessage_8239" -> "Message_7315" [label=6; weight=6; penwidth=0.3; color = 3]
+	"EventMessage_7322" -> "Message_7315" [label=6; weight=6; penwidth=0.3; color = 3]
+	"QueryMessage_8234" -> "Message_7315" [label=6; weight=6; penwidth=0.3; color = 3]
 	"Message_7315" -> "ProcessingContext_7325" [label=5; weight=5; penwidth=0.3; color = 3]
-	"MessageStream$Single_8230" -> "Message_7315" [label=4; weight=4; penwidth=0.3; color = 3]
-	"DefaultMessageDispatchInterceptorChain$InterceptingDispatcher_25171" -> "MessageDispatchInterceptor_8235" [label=3; weight=3; penwidth=0.3; color = 3]
-	"InterceptingCommandBus$InterceptingDispatcher_9384" -> "MessageStream$Single_8230" [label=3; weight=3; penwidth=0.3; color = 3]
-	"InterceptingEventStore$InterceptingAppender_38820" -> "MessageStream_7327" [label=3; weight=3; penwidth=0.3; color = 3]
-	"InterceptingEventStore$InterceptingAppender_38820" -> "ProcessingContext_7325" [label=3; weight=3; penwidth=0.3; color = 3]
-	"InterceptingQueryBus$InterceptingResponseUpdateDispatcher_18782" -> "MessageStream_7327" [label=3; weight=3; penwidth=0.3; color = 3]
-	"InterceptingQueryBus$InterceptingResponseUpdateDispatcher_18782" -> "MessageStream$Single_8230" [label=3; weight=3; penwidth=0.3; color = 3]
-	"InterceptingQueryBus$QueryInterceptingDispatcher_18791" -> "MessageStream_7327" [label=3; weight=3; penwidth=0.3; color = 3]
-	"InterceptingQueryBus$SubscribeToUpdatesInterceptingDispatcher_18793" -> "MessageStream_7327" [label=3; weight=3; penwidth=0.3; color = 3]
-	"InterceptingQueryBus$SubscriptionQueryInterceptingDispatcher_18792" -> "MessageStream_7327" [label=3; weight=3; penwidth=0.3; color = 3]
-	"InterceptingCommandBus$InterceptingDispatcher_9384" -> "MessageStream_7327" [label=2; weight=2; penwidth=0.3; color = 3]
-	"InterceptingCommandBus$InterceptingDispatcher_9384" -> "ProcessingContext_7325" [label=2; weight=2; penwidth=0.3; color = 3]
-	"InterceptingEventSink$InterceptingPublisher_11478" -> "ProcessingContext_7325" [label=2; weight=2; penwidth=0.3; color = 3]
-	"InterceptingQueryBus$InterceptingResponseUpdateDispatcher_18782" -> "ProcessingContext_7325" [label=2; weight=2; penwidth=0.3; color = 3]
-	"InterceptingQueryBus$QueryInterceptingDispatcher_18791" -> "ProcessingContext_7325" [label=2; weight=2; penwidth=0.3; color = 3]
-	"InterceptingQueryBus$SubscribeToUpdatesInterceptingDispatcher_18793" -> "MessageDispatchInterceptor_8235" [label=2; weight=2; penwidth=0.3; color = 3]
-	"InterceptingQueryBus$SubscriptionQueryInterceptingDispatcher_18792" -> "MessageDispatchInterceptor_8235" [label=2; weight=2; penwidth=0.3; color = 3]
-	"InterceptingQueryBus$SubscriptionQueryInterceptingDispatcher_18792" -> "ProcessingContext_7325" [label=2; weight=2; penwidth=0.3; color = 3]
-	"DefaultMessageDispatchInterceptorChain$InterceptingDispatcher_25171" -> "MessageDispatchInterceptorChain_8237" [label=1; weight=1; penwidth=0.3; color = 3]
-	"DefaultMessageDispatchInterceptorChain$InterceptingDispatcher_25171" -> "Message_7315" [label=1; weight=1; penwidth=0.3; color = 3]
-	"InterceptingCommandBus$InterceptingDispatcher_9384" -> "MessageDispatchInterceptor_8235" [label=1; weight=1; penwidth=0.3; color = 3]
-	"InterceptingEventSink$InterceptingPublisher_11478" -> "MessageDispatchInterceptor_8235" [label=1; weight=1; penwidth=0.3; color = 3]
-	"InterceptingEventStore$InterceptingAppender_38820" -> "MessageDispatchInterceptor_8235" [label=1; weight=1; penwidth=0.3; color = 3]
-	"InterceptingQueryBus$InterceptingResponseUpdateDispatcher_18782" -> "MessageDispatchInterceptor_8235" [label=1; weight=1; penwidth=0.3; color = 3]
-	"InterceptingQueryBus$QueryInterceptingDispatcher_18791" -> "MessageDispatchInterceptor_8235" [label=1; weight=1; penwidth=0.3; color = 3]
-	"InterceptingQueryBus$SubscribeToUpdatesInterceptingDispatcher_18793" -> "ProcessingContext_7325" [label=1; weight=1; penwidth=0.3; color = 3]
-	"MessageDispatchInterceptor_8235" -> "MessageDispatchInterceptorChain_8237" [label=1; weight=1; penwidth=0.3; color = 3]
-	"MessageDispatchInterceptor_8235" -> "ProcessingContext_7325" [label=1; weight=1; penwidth=0.3; color = 3]
-	"MessageDispatchInterceptor_8235" -> "Message_7315" [label=1; weight=1; penwidth=0.3; color = 3]
-	"MessageDispatchInterceptor_8235" -> "MessageStream_7327" [label=1; weight=1; penwidth=0.3; color = 3]
-	"MessageDispatchInterceptorChain_8237" -> "MessageStream_7327" [label=1; weight=1; penwidth=0.3; color = 3]
-	"MessageDispatchInterceptorChain_8237" -> "ProcessingContext_7325" [label=1; weight=1; penwidth=0.3; color = 3]
-	"MessageDispatchInterceptorChain_8237" -> "Message_7315" [label=1; weight=1; penwidth=0.3; color = 3]
+	"MessageStream_7327" -> "MessageStream$Empty_9272" [label=5; weight=5; penwidth=0.3; color = 3]
+	"MessageStream$Empty_9272" -> "Message_7315" [label=4; weight=4; penwidth=0.3; color = 3]
+	"AxonTimeLimitedTask_28015" -> "AxonTaskJanitor_28016" [label=3; weight=3; penwidth=0.3; color = 3]
+	"AxonTimeoutAutoConfiguration$AxonTimeoutConfigurerModule_5244" -> "MessageHandlerInterceptor_7321" [label=3; weight=3; penwidth=0.3; color = 3]
+	"Message_7315" -> "Context$ResourceKey_9279" [label=3; weight=3; penwidth=0.3; color = 3]
+	"ProcessingLifecycle$ErrorHandler_7323" -> "ProcessingLifecycle$Phase_7324" [label=2; weight=2; penwidth=0.3; color = 3]
+	"MessageHandlerInterceptor_7321" -> "MessageHandlerInterceptorChain_7326" [label=1; weight=1; penwidth=0.3; color = 3]
+	"MessageHandlerInterceptor_7321" -> "ProcessingContext_7325" [label=1; weight=1; penwidth=0.3; color = 3]
+	"MessageHandlerInterceptor_7321" -> "Message_7315" [label=1; weight=1; penwidth=0.3; color = 3]
+	"MessageHandlerInterceptor_7321" -> "MessageStream_7327" [label=1; weight=1; penwidth=0.3; color = 3]
+	"MessageHandlerInterceptorChain_7326" -> "Message_7315" [label=1; weight=1; penwidth=0.3; color = 3]
+	"MessageHandlerInterceptorChain_7326" -> "ProcessingContext_7325" [label=1; weight=1; penwidth=0.3; color = 3]
+	"MessageHandlerInterceptorChain_7326" -> "MessageStream_7327" [label=1; weight=1; penwidth=0.3; color = 3]
+	"ProcessingLifecycle$ErrorHandler_7323" -> "ProcessingContext_7325" [label=1; weight=1; penwidth=0.3; color = 3]
 }

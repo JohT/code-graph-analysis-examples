@@ -15,8 +15,8 @@ strict digraph TopBottleneck5 {
 	graph   [label="Top Rank #5 Java Package Bottleneck\norg.axonframework.messaging.eventhandling.annotation\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: Betweenness centrality\nthick outline: > 90% percentile of Betweenness centrality\n\n"];
 	central [label="🔒 bottleneck #5\nannotation"];
 	"configuration_7283"  [label = "configuration\n(179.0)"; penwidth = 5; ]; "configuration_7283" -> central [label=2; weight=2; penwidth=0.4];
-	"annotation_36572"  [label = "annotation\n(95.5)"; penwidth = 2; ]; "annotation_36572" -> central [label=1; weight=1; penwidth=0.4];
 	"annotation_7293"  [label = "annotation\n(1120.07)"; penwidth = 5; ]; "annotation_7293" -> central [label=1; weight=1; penwidth=0.4];
+	"annotation_36572"  [label = "annotation\n(95.5)"; penwidth = 2; ]; "annotation_36572" -> central [label=1; weight=1; penwidth=0.4];
 	"annotation_7293"  [label = "annotation\n(1120.07)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "annotation_7293" [label=35; weight=35; penwidth=1.0; color = 5];
 	"eventhandling_7262"  [label = "eventhandling\n(71.33)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "eventhandling_7262" [label=14; weight=14; penwidth=0.6; color = 5];
 	"core_7292"  [label = "core\n(980.48)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "core_7292" [label=13; weight=13; penwidth=0.6; color = 5];
@@ -69,23 +69,23 @@ strict digraph TopBottleneck5 {
 	"configuration_45803" -> "annotation_45792" [label=3; weight=3; penwidth=0.3; color = 3]
 	"gateway_7267" -> "unitofwork_7300" [label=3; weight=3; penwidth=0.3; color = 3]
 	"infra_45799" -> "common_45790" [label=3; weight=3; penwidth=0.3; color = 3]
-	"sequencing_7268" -> "core_7292" [label=3; weight=3; penwidth=0.3; color = 3]
 	"sequencing_7268" -> "eventhandling_7262" [label=3; weight=3; penwidth=0.3; color = 3]
 	"sequencing_7268" -> "unitofwork_7300" [label=3; weight=3; penwidth=0.3; color = 3]
+	"sequencing_7268" -> "core_7292" [label=3; weight=3; penwidth=0.3; color = 3]
 	"annotation_36572" -> "configuration_45803" [label=2; weight=2; penwidth=0.3; color = 3]
 	"conversion_7269" -> "eventhandling_7262" [label=2; weight=2; penwidth=0.3; color = 3]
 	"sequencing_7268" -> "common_45790" [label=2; weight=2; penwidth=0.3; color = 3]
 	"unitofwork_7300" -> "configuration_45803" [label=2; weight=2; penwidth=0.3; color = 3]
-	"annotation_36572" -> "infra_45799" [label=1; weight=1; penwidth=0.3; color = 3]
 	"annotation_36572" -> "annotation_45792" [label=1; weight=1; penwidth=0.3; color = 3]
-	"configuration_7283" -> "infra_45799" [label=1; weight=1; penwidth=0.3; color = 3]
+	"annotation_36572" -> "infra_45799" [label=1; weight=1; penwidth=0.3; color = 3]
 	"configuration_7283" -> "annotation_7293" [label=1; weight=1; penwidth=0.3; color = 3]
+	"configuration_7283" -> "infra_45799" [label=1; weight=1; penwidth=0.3; color = 3]
 	"conversion_7269" -> "annotation_45792" [label=1; weight=1; penwidth=0.3; color = 3]
-	"core_7292" -> "configuration_45803" [label=1; weight=1; penwidth=0.3; color = 3]
 	"core_7292" -> "annotation_7293" [label=1; weight=1; penwidth=0.3; color = 3]
-	"gateway_7267" -> "common_45790" [label=1; weight=1; penwidth=0.3; color = 3]
-	"gateway_7267" -> "infra_45799" [label=1; weight=1; penwidth=0.3; color = 3]
+	"core_7292" -> "configuration_45803" [label=1; weight=1; penwidth=0.3; color = 3]
 	"gateway_7267" -> "annotation_45792" [label=1; weight=1; penwidth=0.3; color = 3]
+	"gateway_7267" -> "infra_45799" [label=1; weight=1; penwidth=0.3; color = 3]
+	"gateway_7267" -> "common_45790" [label=1; weight=1; penwidth=0.3; color = 3]
 	"reflection_7305" -> "common_45790" [label=1; weight=1; penwidth=0.3; color = 3]
 	"sequencing_7268" -> "annotation_45792" [label=1; weight=1; penwidth=0.3; color = 3]
 	"unitofwork_7300" -> "annotation_45792" [label=1; weight=1; penwidth=0.3; color = 3]
