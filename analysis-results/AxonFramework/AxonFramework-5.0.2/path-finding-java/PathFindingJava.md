@@ -131,7 +131,7 @@ Creates a in-memory projection of "Java:Package" nodes and their "DEPENDS_ON" re
       <td>116</td>
       <td>732</td>
       <td>0.054873</td>
-      <td>2761589</td>
+      <td>2696021</td>
       <td>0</td>
       <td>6.310345</td>
       <td>33</td>
@@ -316,7 +316,7 @@ The following table shows the first 10 rows with all details of the query above.
       <td>23</td>
       <td>12</td>
       <td>8</td>
-      <td>[/org/axonframework/common/configuration -&gt; /org/axonframework/common/infra, /org/axonframework/common/infra -&gt; /org/axonframework/common, /org/axonframework/common/annotation -&gt; /org/axonframework/common, /org/axonframework/common/jdbc -&gt; /org/axonframework/common]</td>
+      <td>[/org/axonframework/common/annotation -&gt; /org/axonframework/common, /org/axonframework/common/jdbc -&gt; /org/axonframework/common, /org/axonframework/common/property -&gt; /org/axonframework/common, /org/axonframework/common/caching -&gt; /org/axonframework/common]</td>
       <td>[axon-common-5.0.2 -&gt; axon-common-5.0.2]</td>
       <td>[]</td>
     </tr>
@@ -373,7 +373,7 @@ The following table shows the first 10 rows with all details of the query above.
       <td>7</td>
       <td>3</td>
       <td>3</td>
-      <td>[/org/axonframework/conversion -&gt; /org/axonframework/common/infra, /org/axonframework/conversion/avro -&gt; /org/axonframework/common/infra, /org/axonframework/conversion/json -&gt; /org/axonframework/common/infra, /org/axonframework/conversion -&gt; /org/axonframework/common]</td>
+      <td>[/org/axonframework/conversion -&gt; /org/axonframework/common, /org/axonframework/conversion/avro -&gt; /org/axonframework/common, /org/axonframework/conversion/avro -&gt; /org/axonframework/common/annotation, /org/axonframework/conversion/json -&gt; /org/axonframework/common/annotation]</td>
       <td>[axon-conversion-5.0.2 -&gt; axon-common-5.0.2]</td>
       <td>[]</td>
     </tr>
@@ -392,7 +392,7 @@ The following table shows the first 10 rows with all details of the query above.
       <td>6</td>
       <td>4</td>
       <td>3</td>
-      <td>[/org/axonframework/conversion/converter -&gt; /org/axonframework/common/infra, /org/axonframework/conversion/converter -&gt; /org/axonframework/common, /org/axonframework/conversion/json -&gt; /org/axonframework/common, /org/axonframework/conversion -&gt; /org/axonframework/common/configuration]</td>
+      <td>[/org/axonframework/conversion/converter -&gt; /org/axonframework/common, /org/axonframework/conversion/json -&gt; /org/axonframework/common, /org/axonframework/conversion/converter -&gt; /org/axonframework/common/infra, /org/axonframework/conversion -&gt; /org/axonframework/common/configuration]</td>
       <td>[axon-conversion-5.0.2 -&gt; axon-common-5.0.2]</td>
       <td>[]</td>
     </tr>
@@ -545,7 +545,7 @@ In this section we'll focus only on pairs of nodes that both belong to the same 
       <td>23</td>
       <td>12</td>
       <td>8</td>
-      <td>[/org/axonframework/common/configuration -&gt; /org/axonframework/common/infra, /org/axonframework/common/infra -&gt; /org/axonframework/common, /org/axonframework/common/annotation -&gt; /org/axonframework/common, /org/axonframework/common/jdbc -&gt; /org/axonframework/common]</td>
+      <td>[/org/axonframework/common/annotation -&gt; /org/axonframework/common, /org/axonframework/common/jdbc -&gt; /org/axonframework/common, /org/axonframework/common/property -&gt; /org/axonframework/common, /org/axonframework/common/caching -&gt; /org/axonframework/common]</td>
       <td>[axon-common-5.0.2 -&gt; axon-common-5.0.2]</td>
       <td>[]</td>
     </tr>
@@ -659,7 +659,7 @@ In this section we'll focus only on pairs of nodes that both belong to the same 
       <td>253</td>
       <td>57</td>
       <td>43</td>
-      <td>[/org/axonframework/messaging/eventhandling/processing/streaming/pooled -&gt; /org/axonframework/messaging/monitoring, /org/axonframework/messaging/eventhandling/processing/subscribing -&gt; /org/axonframework/messaging/monitoring, /org/axonframework/messaging/eventhandling/configuration -&gt; /org/axonf...</td>
+      <td>[/org/axonframework/messaging/monitoring/interception -&gt; /org/axonframework/messaging/monitoring, /org/axonframework/messaging/monitoring/configuration -&gt; /org/axonframework/messaging/monitoring, /org/axonframework/messaging/eventhandling/processing/streaming/pooled -&gt; /org/axonframework/messagi...</td>
       <td>[axon-messaging-5.0.2 -&gt; axon-messaging-5.0.2]</td>
       <td>[]</td>
     </tr>
@@ -954,23 +954,23 @@ First, we'll have a look at the overall/total result of the longest path algorit
     </tr>
     <tr>
       <th>1</th>
-      <td>2</td>
+      <td>1</td>
       <td>2</td>
       <td>28</td>
-      <td>3</td>
+      <td>4</td>
       <td>28</td>
     </tr>
     <tr>
       <th>2</th>
-      <td>10</td>
+      <td>12</td>
       <td>3</td>
       <td>10</td>
-      <td>1</td>
+      <td>2</td>
       <td>10</td>
     </tr>
     <tr>
       <th>3</th>
-      <td>11</td>
+      <td>13</td>
       <td>4</td>
       <td>1</td>
       <td>1</td>
@@ -1057,18 +1057,18 @@ The following table shows the first 10 rows with all details of the query above.
       <td>axon-eventsourcing-5.0.2</td>
       <td>None</td>
       <td>None</td>
-      <td>True</td>
+      <td>False</td>
       <td>None</td>
       <td>None</td>
-      <td>1</td>
-      <td>30</td>
-      <td>8</td>
-      <td>30</td>
+      <td>2</td>
+      <td>28</td>
       <td>4</td>
+      <td>28</td>
       <td>1</td>
-      <td>4</td>
-      <td>[/org/axonframework/eventsourcing/configuration -&gt; /org/axonframework/modelling/annotation, /org/axonframework/eventsourcing/configuration -&gt; /org/axonframework/modelling/entity/annotation, /org/axonframework/eventsourcing/configuration -&gt; /org/axonframework/modelling/configuration, /org/axonfra...</td>
-      <td>[axon-eventsourcing-5.0.2 -&gt; axon-modelling-5.0.2, axon-eventsourcing-5.0.2 -&gt; axon-messaging-5.0.2]</td>
+      <td>1</td>
+      <td>1</td>
+      <td>[/org/axonframework/eventsourcing/configuration -&gt; /org/axonframework/eventsourcing/eventstore]</td>
+      <td>[axon-eventsourcing-5.0.2 -&gt; axon-eventsourcing-5.0.2]</td>
       <td>[]</td>
     </tr>
     <tr>
@@ -1079,19 +1079,38 @@ The following table shows the first 10 rows with all details of the query above.
       <td>True</td>
       <td>None</td>
       <td>None</td>
-      <td>2</td>
-      <td>28</td>
-      <td>3</td>
-      <td>28</td>
+      <td>1</td>
+      <td>30</td>
+      <td>8</td>
+      <td>30</td>
       <td>6</td>
       <td>1</td>
       <td>6</td>
-      <td>[/org/axonframework/eventsourcing/configuration -&gt; /org/axonframework/modelling, /org/axonframework/eventsourcing/configuration -&gt; /org/axonframework/modelling/entity, /org/axonframework/eventsourcing/configuration -&gt; /org/axonframework/modelling/repository, /org/axonframework/eventsourcing/conf...</td>
-      <td>[axon-eventsourcing-5.0.2 -&gt; axon-modelling-5.0.2, axon-eventsourcing-5.0.2 -&gt; axon-messaging-5.0.2]</td>
+      <td>[/org/axonframework/eventsourcing/configuration -&gt; /org/axonframework/messaging/eventhandling/configuration, /org/axonframework/eventsourcing/configuration -&gt; /org/axonframework/messaging/core/interception, /org/axonframework/eventsourcing/configuration -&gt; /org/axonframework/messaging/core/conve...</td>
+      <td>[axon-eventsourcing-5.0.2 -&gt; axon-messaging-5.0.2, axon-eventsourcing-5.0.2 -&gt; axon-modelling-5.0.2]</td>
       <td>[]</td>
     </tr>
     <tr>
       <th>3</th>
+      <td>axon-eventsourcing-5.0.2</td>
+      <td>None</td>
+      <td>None</td>
+      <td>True</td>
+      <td>None</td>
+      <td>None</td>
+      <td>2</td>
+      <td>28</td>
+      <td>4</td>
+      <td>28</td>
+      <td>9</td>
+      <td>1</td>
+      <td>9</td>
+      <td>[/org/axonframework/eventsourcing/configuration -&gt; /org/axonframework/messaging/commandhandling/configuration, /org/axonframework/eventsourcing/configuration -&gt; /org/axonframework/messaging/eventhandling/processing/streaming/token, /org/axonframework/eventsourcing/configuration -&gt; /org/axonframe...</td>
+      <td>[axon-eventsourcing-5.0.2 -&gt; axon-messaging-5.0.2, axon-eventsourcing-5.0.2 -&gt; axon-modelling-5.0.2, axon-eventsourcing-5.0.2 -&gt; axon-common-5.0.2]</td>
+      <td>[]</td>
+    </tr>
+    <tr>
+      <th>4</th>
       <td>axon-messaging-5.0.2</td>
       <td>None</td>
       <td>None</td>
@@ -1110,7 +1129,26 @@ The following table shows the first 10 rows with all details of the query above.
       <td>[]</td>
     </tr>
     <tr>
-      <th>4</th>
+      <th>5</th>
+      <td>axon-messaging-5.0.2</td>
+      <td>None</td>
+      <td>None</td>
+      <td>True</td>
+      <td>None</td>
+      <td>None</td>
+      <td>2</td>
+      <td>28</td>
+      <td>4</td>
+      <td>28</td>
+      <td>1</td>
+      <td>1</td>
+      <td>1</td>
+      <td>[/org/axonframework/messaging/commandhandling/retry -&gt; /org/axonframework/common/infra]</td>
+      <td>[axon-messaging-5.0.2 -&gt; axon-common-5.0.2]</td>
+      <td>[]</td>
+    </tr>
+    <tr>
+      <th>6</th>
       <td>axon-metrics-micrometer-5.0.2</td>
       <td>None</td>
       <td>None</td>
@@ -1129,7 +1167,7 @@ The following table shows the first 10 rows with all details of the query above.
       <td>[]</td>
     </tr>
     <tr>
-      <th>5</th>
+      <th>7</th>
       <td>axon-metrics-micrometer-5.0.2</td>
       <td>None</td>
       <td>None</td>
@@ -1148,7 +1186,7 @@ The following table shows the first 10 rows with all details of the query above.
       <td>[]</td>
     </tr>
     <tr>
-      <th>6</th>
+      <th>8</th>
       <td>axon-spring-boot-autoconfigure-5.0.2</td>
       <td>None</td>
       <td>None</td>
@@ -1167,7 +1205,7 @@ The following table shows the first 10 rows with all details of the query above.
       <td>[]</td>
     </tr>
     <tr>
-      <th>7</th>
+      <th>9</th>
       <td>axon-spring-boot-autoconfigure-5.0.2</td>
       <td>None</td>
       <td>None</td>
@@ -1176,51 +1214,13 @@ The following table shows the first 10 rows with all details of the query above.
       <td>None</td>
       <td>2</td>
       <td>28</td>
-      <td>3</td>
+      <td>4</td>
       <td>28</td>
       <td>1</td>
       <td>1</td>
       <td>1</td>
       <td>[/org/axonframework/extension/springboot/autoconfig -&gt; /org/axonframework/extension/springboot/actuator]</td>
       <td>[axon-spring-boot-autoconfigure-5.0.2 -&gt; axon-spring-boot-autoconfigure-5.0.2]</td>
-      <td>[]</td>
-    </tr>
-    <tr>
-      <th>8</th>
-      <td>axon-spring-boot-autoconfigure-5.0.2</td>
-      <td>None</td>
-      <td>None</td>
-      <td>True</td>
-      <td>None</td>
-      <td>None</td>
-      <td>1</td>
-      <td>30</td>
-      <td>8</td>
-      <td>30</td>
-      <td>10</td>
-      <td>1</td>
-      <td>10</td>
-      <td>[/org/axonframework/extension/springboot/autoconfig -&gt; /org/axonframework/update, /org/axonframework/extension/springboot/autoconfig -&gt; /org/axonframework/eventsourcing/eventstore/jpa, /org/axonframework/extension/springboot/autoconfig -&gt; /org/axonframework/conversion/avro, /org/axonframework/ex...</td>
-      <td>[axon-spring-boot-autoconfigure-5.0.2 -&gt; axon-update-5.0.2, axon-spring-boot-autoconfigure-5.0.2 -&gt; axon-eventsourcing-5.0.2, axon-spring-boot-autoconfigure-5.0.2 -&gt; axon-conversion-5.0.2, axon-spring-boot-autoconfigure-5.0.2 -&gt; axon-messaging-5.0.2]</td>
-      <td>[]</td>
-    </tr>
-    <tr>
-      <th>9</th>
-      <td>axon-spring-boot-autoconfigure-5.0.2</td>
-      <td>None</td>
-      <td>None</td>
-      <td>True</td>
-      <td>None</td>
-      <td>None</td>
-      <td>2</td>
-      <td>28</td>
-      <td>3</td>
-      <td>28</td>
-      <td>19</td>
-      <td>1</td>
-      <td>19</td>
-      <td>[/org/axonframework/extension/springboot/autoconfig -&gt; /org/axonframework/update/detection, /org/axonframework/extension/springboot/autoconfig -&gt; /org/axonframework/update/common, /org/axonframework/extension/springboot/autoconfig -&gt; /org/axonframework/update/configuration, /org/axonframework/ex...</td>
-      <td>[axon-spring-boot-autoconfigure-5.0.2 -&gt; axon-update-5.0.2, axon-spring-boot-autoconfigure-5.0.2 -&gt; axon-common-5.0.2, axon-spring-boot-autoconfigure-5.0.2 -&gt; axon-test-5.0.2, axon-spring-boot-autoconfigure-5.0.2 -&gt; axon-server-connector-5.0.2]</td>
       <td>[]</td>
     </tr>
   </tbody>
@@ -1282,7 +1282,26 @@ In this section we'll focus only on pairs of nodes that both belong to the same 
       <td>[]</td>
     </tr>
     <tr>
-      <th>3</th>
+      <th>1</th>
+      <td>axon-eventsourcing-5.0.2</td>
+      <td>None</td>
+      <td>None</td>
+      <td>False</td>
+      <td>None</td>
+      <td>None</td>
+      <td>2</td>
+      <td>28</td>
+      <td>4</td>
+      <td>28</td>
+      <td>1</td>
+      <td>1</td>
+      <td>1</td>
+      <td>[/org/axonframework/eventsourcing/configuration -&gt; /org/axonframework/eventsourcing/eventstore]</td>
+      <td>[axon-eventsourcing-5.0.2 -&gt; axon-eventsourcing-5.0.2]</td>
+      <td>[]</td>
+    </tr>
+    <tr>
+      <th>4</th>
       <td>axon-messaging-5.0.2</td>
       <td>None</td>
       <td>None</td>
@@ -1301,7 +1320,7 @@ In this section we'll focus only on pairs of nodes that both belong to the same 
       <td>[]</td>
     </tr>
     <tr>
-      <th>4</th>
+      <th>6</th>
       <td>axon-metrics-micrometer-5.0.2</td>
       <td>None</td>
       <td>None</td>
@@ -1320,7 +1339,7 @@ In this section we'll focus only on pairs of nodes that both belong to the same 
       <td>[]</td>
     </tr>
     <tr>
-      <th>6</th>
+      <th>8</th>
       <td>axon-spring-boot-autoconfigure-5.0.2</td>
       <td>None</td>
       <td>None</td>
@@ -1339,7 +1358,7 @@ In this section we'll focus only on pairs of nodes that both belong to the same 
       <td>[]</td>
     </tr>
     <tr>
-      <th>7</th>
+      <th>9</th>
       <td>axon-spring-boot-autoconfigure-5.0.2</td>
       <td>None</td>
       <td>None</td>
@@ -1348,7 +1367,7 @@ In this section we'll focus only on pairs of nodes that both belong to the same 
       <td>None</td>
       <td>2</td>
       <td>28</td>
-      <td>3</td>
+      <td>4</td>
       <td>28</td>
       <td>1</td>
       <td>1</td>
@@ -1358,7 +1377,7 @@ In this section we'll focus only on pairs of nodes that both belong to the same 
       <td>[]</td>
     </tr>
     <tr>
-      <th>12</th>
+      <th>14</th>
       <td>axon-test-5.0.2</td>
       <td>None</td>
       <td>None</td>
@@ -1377,7 +1396,7 @@ In this section we'll focus only on pairs of nodes that both belong to the same 
       <td>[]</td>
     </tr>
     <tr>
-      <th>13</th>
+      <th>15</th>
       <td>axon-test-5.0.2</td>
       <td>None</td>
       <td>None</td>
@@ -1386,7 +1405,7 @@ In this section we'll focus only on pairs of nodes that both belong to the same 
       <td>None</td>
       <td>2</td>
       <td>28</td>
-      <td>3</td>
+      <td>4</td>
       <td>28</td>
       <td>1</td>
       <td>1</td>
@@ -1409,9 +1428,9 @@ Shows the top 20 artifacts with their max. longest path.
 
 
     sourceProject
+    axon-eventsourcing-5.0.2                2
     axon-spring-boot-autoconfigure-5.0.2    2
     axon-test-5.0.2                         2
-    axon-eventsourcing-5.0.2                1
     axon-messaging-5.0.2                    1
     axon-metrics-micrometer-5.0.2           1
     Name: distance, dtype: int64
@@ -1464,12 +1483,12 @@ Shows the top 50 artifacts with the highest number of dependency paths stacked b
       <td>16.666667</td>
     </tr>
     <tr>
-      <th>axon-messaging-5.0.2</th>
-      <td>100.000000</td>
-      <td>0.000000</td>
+      <th>axon-eventsourcing-5.0.2</th>
+      <td>75.000000</td>
+      <td>25.000000</td>
     </tr>
     <tr>
-      <th>axon-eventsourcing-5.0.2</th>
+      <th>axon-messaging-5.0.2</th>
       <td>100.000000</td>
       <td>0.000000</td>
     </tr>
@@ -1543,7 +1562,7 @@ Creates a in-memory projection of "Java:Artifact" nodes and their "DEPENDS_ON" r
       <td>11</td>
       <td>29</td>
       <td>0.263636</td>
-      <td>2759159</td>
+      <td>2693591</td>
       <td>0</td>
       <td>2.636364</td>
       <td>7</td>

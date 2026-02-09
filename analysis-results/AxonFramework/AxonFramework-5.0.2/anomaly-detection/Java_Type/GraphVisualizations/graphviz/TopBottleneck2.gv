@@ -14,203 +14,203 @@ strict digraph TopBottleneck2 {
 
 	graph   [label="Top Rank #2 Java Type Bottleneck\norg.axonframework.messaging.core.MessageStream\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: Betweenness centrality\nthick outline: > 90% percentile of Betweenness centrality\n\n"];
 	central [label="🔒 bottleneck #2\nMessageStream"];
-	"ConcatenatingMessageStream_42939"  [label = "ConcatenatingMessageStream\n(95.01)"; penwidth = 2; ]; "ConcatenatingMessageStream_42939" -> central [label=38; weight=38; penwidth=1.0];
-	"DelayedMessageStream_39904"  [label = "DelayedMessageStream\n(409.69)"; penwidth = 2; ]; "DelayedMessageStream_39904" -> central [label=29; weight=29; penwidth=0.8];
-	"OnErrorContinueMessageStream_46863"  [label = "OnErrorContinueMessageStream\n(95.01)"; penwidth = 2; ]; "OnErrorContinueMessageStream_46863" -> central [label=23; weight=23; penwidth=0.8];
-	"SimpleQueryBus_41972"  [label = "SimpleQueryBus\n(53.17)"; penwidth = 2; ]; "SimpleQueryBus_41972" -> central [label=13; weight=13; penwidth=0.6];
-	"AsyncRetryScheduler$RetryTask_48248"  [label = "AsyncRetryScheduler$\nRetryTask\n(0.0)"; penwidth = 2; ]; "AsyncRetryScheduler$RetryTask_48248" -> central [label=12; weight=12; penwidth=0.6];
-	"CompletionCallbackMessageStream_46208"  [label = "CompletionCallbackMessageStream\n(762.89)"; penwidth = 5; ]; "CompletionCallbackMessageStream_46208" -> central [label=12; weight=12; penwidth=0.6];
-	"AggregateBasedAxonServerEventStorageEngine_12352"  [label = "AggregateBasedAxonServerEventStorageEngine\n(110.0)"; penwidth = 2; ]; "AggregateBasedAxonServerEventStorageEngine_12352" -> central [label=11; weight=11; penwidth=0.6];
-	"AggregateBasedJpaEventStorageEngine_24757"  [label = "AggregateBasedJpaEventStorageEngine\n(377.31)"; penwidth = 2; ]; "AggregateBasedJpaEventStorageEngine_24757" -> central [label=11; weight=11; penwidth=0.6];
-	"DefaultQueryGateway_40321"  [label = "DefaultQueryGateway\n(41.92)"; penwidth = 2; ]; "DefaultQueryGateway_40321" -> central [label=11; weight=11; penwidth=0.6];
-	"FilteringMessageStream_45145"  [label = "FilteringMessageStream\n(352.16)"; penwidth = 2; ]; "FilteringMessageStream_45145" -> central [label=11; weight=11; penwidth=0.6];
-	"FlowControlledResponseSender_12607"  [label = "FlowControlledResponseSender\n(14.46)"; penwidth = 2; ]; "FlowControlledResponseSender_12607" -> central [label=10; weight=10; penwidth=0.6];
-	"MethodInvokingMessageHandlingMember_42950"  [label = "MethodInvokingMessageHandlingMember\n(16.5)"; penwidth = 2; ]; "MethodInvokingMessageHandlingMember_42950" -> central [label=10; weight=10; penwidth=0.6];
-	"DelegatingMessageStream_42942"  [label = "DelegatingMessageStream\n(26.5)"; penwidth = 2; ]; "DelegatingMessageStream_42942" -> central [label=9; weight=9; penwidth=0.5];
-	"MessageHandlerInterceptorDefinition$ResultHandlingInterceptorMember_45170"  [label = "MessageHandlerInterceptorDefinition$\nResultHandlingInterceptorMember\n(13.58)"; penwidth = 2; ]; "MessageHandlerInterceptorDefinition$ResultHandlingInterceptorMember_45170" -> central [label=9; weight=9; penwidth=0.5];
-	"MessageStreamResolverUtils_42955"  [label = "MessageStreamResolverUtils\n(445.27)"; penwidth = 2; ]; "MessageStreamResolverUtils_42955" -> central [label=9; weight=9; penwidth=0.5];
-	"MessageStreamUtils$Reducer_46879"  [label = "MessageStreamUtils$\nReducer\n(0.0)"; penwidth = 2; ]; "MessageStreamUtils$Reducer_46879" -> central [label=9; weight=9; penwidth=0.5];
-	"BeanValidationInterceptor_45782"  [label = "BeanValidationInterceptor\n(0.0)"; penwidth = 2; ]; "BeanValidationInterceptor_45782" -> central [label=8; weight=8; penwidth=0.5];
-	"ConcreteEntityMetamodel_16729"  [label = "ConcreteEntityMetamodel\n(379.81)"; penwidth = 2; ]; "ConcreteEntityMetamodel_16729" -> central [label=8; weight=8; penwidth=0.5];
-	"DefaultDispatchInterceptorRegistry_45282"  [label = "DefaultDispatchInterceptorRegistry\n(229.85)"; penwidth = 2; ]; "DefaultDispatchInterceptorRegistry_45282" -> central [label=8; weight=8; penwidth=0.5];
-	"Coordinator$CoordinationTask_36715"  [label = "Coordinator$\nCoordinationTask\n(40.0)"; penwidth = 2; ]; "Coordinator$CoordinationTask_36715" -> central [label=7; weight=7; penwidth=0.5];
-	"DefaultMessageDispatchInterceptorChain$InterceptingDispatcher_46848"  [label = "DefaultMessageDispatchInterceptorChain$\nInterceptingDispatcher\n(3.0)"; penwidth = 2; ]; "DefaultMessageDispatchInterceptorChain$InterceptingDispatcher_46848" -> central [label=7; weight=7; penwidth=0.5];
-	"FluxUtils_40966"  [label = "FluxUtils\n(307.6)"; penwidth = 2; ]; "FluxUtils_40966" -> central [label=7; weight=7; penwidth=0.5];
-	"FluxUtils$FluxStreamAdapter_47101"  [label = "FluxUtils$\nFluxStreamAdapter\n(0.0)"; penwidth = 2; ]; "FluxUtils$FluxStreamAdapter_47101" -> central [label=7; weight=7; penwidth=0.5];
-	"MessageStream$Empty_31324"  [label = "MessageStream$\nEmpty\n(676.45)"; penwidth = 5; ]; "MessageStream$Empty_31324" -> central [label=7; weight=7; penwidth=0.5];
-	"MessageStream$Single_30278"  [label = "MessageStream$\nSingle\n(1359.04)"; penwidth = 5; ]; "MessageStream$Single_30278" -> central [label=7; weight=7; penwidth=0.5];
-	"DefaultHandlerInterceptorRegistry_45280"  [label = "DefaultHandlerInterceptorRegistry\n(177.6)"; penwidth = 2; ]; "DefaultHandlerInterceptorRegistry_45280" -> central [label=6; weight=6; penwidth=0.5];
-	"DefaultMessageDispatchInterceptorChain_30320"  [label = "DefaultMessageDispatchInterceptorChain\n(29.25)"; penwidth = 2; ]; "DefaultMessageDispatchInterceptorChain_30320" -> central [label=6; weight=6; penwidth=0.5];
-	"LoggingInterceptor_45168"  [label = "LoggingInterceptor\n(0.0)"; penwidth = 2; ]; "LoggingInterceptor_45168" -> central [label=6; weight=6; penwidth=0.5];
-	"MessageStreamUtils$FirstResult_45167"  [label = "MessageStreamUtils$\nFirstResult\n(0.0)"; penwidth = 2; ]; "MessageStreamUtils$FirstResult_45167" -> central [label=6; weight=6; penwidth=0.5];
-	"ProcessorEventHandlingComponents_36749"  [label = "ProcessorEventHandlingComponents\n(80.0)"; penwidth = 2; ]; "ProcessorEventHandlingComponents_36749" -> central [label=6; weight=6; penwidth=0.5];
-	"AnnotatedQueryHandlingComponent_39927"  [label = "AnnotatedQueryHandlingComponent\n(385.55)"; penwidth = 2; ]; "AnnotatedQueryHandlingComponent_39927" -> central [label=5; weight=5; penwidth=0.5];
-	"DistributedQueryBus_39898"  [label = "DistributedQueryBus\n(74.9)"; penwidth = 2; ]; "DistributedQueryBus_39898" -> central [label=5; weight=5; penwidth=0.5];
-	"FluxMessageStream_45165"  [label = "FluxMessageStream\n(142.0)"; penwidth = 2; ]; "FluxMessageStream_45165" -> central [label=5; weight=5; penwidth=0.5];
-	"InterceptingEventSink$InterceptingPublisher_32373"  [label = "InterceptingEventSink$\nInterceptingPublisher\n(6.0)"; penwidth = 2; ]; "InterceptingEventSink$InterceptingPublisher_32373" -> central [label=5; weight=5; penwidth=0.5];
-	"PooledStreamingEventProcessor_36742"  [label = "PooledStreamingEventProcessor\n(309.0)"; penwidth = 2; ]; "PooledStreamingEventProcessor_36742" -> central [label=5; weight=5; penwidth=0.5];
-	"SubscribingEventProcessor_37816"  [label = "SubscribingEventProcessor\n(423.4)"; penwidth = 2; ]; "SubscribingEventProcessor_37816" -> central [label=5; weight=5; penwidth=0.5];
-	"AnnotatedEntityMetamodel_15084"  [label = "AnnotatedEntityMetamodel\n(3168.35)"; penwidth = 5; ]; "AnnotatedEntityMetamodel_15084" -> central [label=4; weight=4; penwidth=0.5];
-	"DefaultEventStoreTransaction_25225"  [label = "DefaultEventStoreTransaction\n(3.08)"; penwidth = 2; ]; "DefaultEventStoreTransaction_25225" -> central [label=4; weight=4; penwidth=0.5];
-	"EmptyMessageStream_44984"  [label = "EmptyMessageStream\n(323.71)"; penwidth = 2; ]; "EmptyMessageStream_44984" -> central [label=4; weight=4; penwidth=0.5];
-	"FailedMessageStream_46861"  [label = "FailedMessageStream\n(0.0)"; penwidth = 2; ]; "FailedMessageStream_46861" -> central [label=4; weight=4; penwidth=0.5];
-	"Message_28892"  [label = "Message\n(9877.17)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "Message_28892" [label=25; weight=25; penwidth=0.8; color = 5];
-	"Context_35348"  [label = "Context\n(2032.43)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "Context_35348" [label=19; weight=19; penwidth=0.7; color = 5];
-	"MessageStream$Entry_30319"  [label = "MessageStream$\nEntry\n(254.12)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "MessageStream$Entry_30319" [label=13; weight=13; penwidth=0.6; color = 5];
-	"SimpleEntry_45137"  [label = "SimpleEntry\n(534.59)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "SimpleEntry_45137" [label=9; weight=9; penwidth=0.5; color = 5];
-	"MessageStream$Single_30278"  [label = "MessageStream$\nSingle\n(1359.04)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "MessageStream$Single_30278" [label=7; weight=7; penwidth=0.5; color = 5];
-	"IteratorMessageStream_46860"  [label = "IteratorMessageStream\n(0.0)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "IteratorMessageStream_46860" [label=6; weight=6; penwidth=0.5; color = 5];
-	"MessageStream$Empty_31324"  [label = "MessageStream$\nEmpty\n(676.45)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "MessageStream$Empty_31324" [label=5; weight=5; penwidth=0.5; color = 5];
-	"DelayedMessageStream$Single_42947"  [label = "DelayedMessageStream$\nSingle\n(634.0)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "DelayedMessageStream$Single_42947" [label=3; weight=3; penwidth=0.4; color = 5];
-	"IgnoredEntriesMessageStream_46862"  [label = "IgnoredEntriesMessageStream\n(39.51)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "IgnoredEntriesMessageStream_46862" [label=3; weight=3; penwidth=0.4; color = 5];
-	"CloseCallbackMessageStream_45166"  [label = "CloseCallbackMessageStream\n(39.51)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "CloseCallbackMessageStream_45166" [label=2; weight=2; penwidth=0.4; color = 5];
-	"CompletionCallbackMessageStream_46208"  [label = "CompletionCallbackMessageStream\n(762.89)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "CompletionCallbackMessageStream_46208" [label=2; weight=2; penwidth=0.4; color = 5];
-	"ConcatenatingMessageStream_42939"  [label = "ConcatenatingMessageStream\n(95.01)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "ConcatenatingMessageStream_42939" [label=2; weight=2; penwidth=0.4; color = 5];
-	"FailedMessageStream_46861"  [label = "FailedMessageStream\n(0.0)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "FailedMessageStream_46861" [label=2; weight=2; penwidth=0.4; color = 5];
-	"FilteringMessageStream_45145"  [label = "FilteringMessageStream\n(352.16)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "FilteringMessageStream_45145" [label=2; weight=2; penwidth=0.4; color = 5];
-	"MappedMessageStream_42940"  [label = "MappedMessageStream\n(382.08)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "MappedMessageStream_42940" [label=2; weight=2; penwidth=0.4; color = 5];
-	"OnErrorContinueMessageStream_46863"  [label = "OnErrorContinueMessageStream\n(95.01)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "OnErrorContinueMessageStream_46863" [label=2; weight=2; penwidth=0.4; color = 5];
-	"OnNextMessageStream_42938"  [label = "OnNextMessageStream\n(475.09)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "OnNextMessageStream_42938" [label=2; weight=2; penwidth=0.4; color = 5];
-	"SingleValueMessageStream_46878"  [label = "SingleValueMessageStream\n(0.0)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "SingleValueMessageStream_46878" [label=2; weight=2; penwidth=0.4; color = 5];
-	"TruncateFirstMessageStream_42941"  [label = "TruncateFirstMessageStream\n(95.01)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "TruncateFirstMessageStream_42941" [label=2; weight=2; penwidth=0.4; color = 5];
-	"EmptyMessageStream_44984"  [label = "EmptyMessageStream\n(323.71)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "EmptyMessageStream_44984" [label=1; weight=1; penwidth=0.4; color = 5];
-	"MessageStreamUtils_45142"  [label = "MessageStreamUtils\n(1573.81)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "MessageStreamUtils_45142" [label=1; weight=1; penwidth=0.4; color = 5];
-	"MethodInvokingMessageHandlingMember_42950" -> "Message_28892" [label=16; weight=16; penwidth=0.3; color = 3]
-	"SingleValueMessageStream_46878" -> "MessageStream$Entry_30319" [label=14; weight=14; penwidth=0.3; color = 3]
-	"FluxMessageStream_45165" -> "MessageStream$Entry_30319" [label=11; weight=11; penwidth=0.3; color = 3]
-	"AggregateBasedJpaEventStorageEngine_24757" -> "Context_35348" [label=10; weight=10; penwidth=0.3; color = 3]
-	"Coordinator$CoordinationTask_36715" -> "MessageStream$Entry_30319" [label=9; weight=9; penwidth=0.3; color = 3]
-	"EmptyMessageStream_44984" -> "Message_28892" [label=9; weight=9; penwidth=0.3; color = 3]
-	"FilteringMessageStream_45145" -> "MessageStream$Entry_30319" [label=9; weight=9; penwidth=0.3; color = 3]
-	"MessageStream$Single_30278" -> "MessageStream$Entry_30319" [label=9; weight=9; penwidth=0.3; color = 3]
-	"SimpleEntry_45137" -> "Context_35348" [label=9; weight=9; penwidth=0.3; color = 3]
-	"DefaultQueryGateway_40321" -> "MessageStream$Entry_30319" [label=8; weight=8; penwidth=0.3; color = 3]
-	"IteratorMessageStream_46860" -> "MessageStream$Entry_30319" [label=8; weight=8; penwidth=0.3; color = 3]
-	"LoggingInterceptor_45168" -> "Message_28892" [label=8; weight=8; penwidth=0.3; color = 3]
-	"MessageStream$Empty_31324" -> "MessageStream$Single_30278" [label=8; weight=8; penwidth=0.3; color = 3]
-	"AggregateBasedAxonServerEventStorageEngine_12352" -> "Context_35348" [label=7; weight=7; penwidth=0.3; color = 3]
-	"DefaultDispatchInterceptorRegistry_45282" -> "Message_28892" [label=7; weight=7; penwidth=0.3; color = 3]
-	"DelayedMessageStream_39904" -> "MessageStream$Single_30278" [label=7; weight=7; penwidth=0.3; color = 3]
-	"FailedMessageStream_46861" -> "MessageStream$Entry_30319" [label=7; weight=7; penwidth=0.3; color = 3]
-	"MappedMessageStream_42940" -> "MessageStream$Entry_30319" [label=7; weight=7; penwidth=0.3; color = 3]
-	"MessageHandlerInterceptorDefinition$ResultHandlingInterceptorMember_45170" -> "Message_28892" [label=7; weight=7; penwidth=0.3; color = 3]
-	"ProcessorEventHandlingComponents_36749" -> "MessageStream$Empty_31324" [label=7; weight=7; penwidth=0.3; color = 3]
-	"SubscribingEventProcessor_37816" -> "MessageStream$Empty_31324" [label=7; weight=7; penwidth=0.3; color = 3]
-	"DefaultHandlerInterceptorRegistry_45280" -> "Message_28892" [label=6; weight=6; penwidth=0.3; color = 3]
-	"FluxUtils_40966" -> "Message_28892" [label=6; weight=6; penwidth=0.3; color = 3]
-	"FluxUtils_40966" -> "FluxUtils$FluxStreamAdapter_47101" [label=6; weight=6; penwidth=0.3; color = 3]
-	"PooledStreamingEventProcessor_36742" -> "MessageStream$Empty_31324" [label=6; weight=6; penwidth=0.3; color = 3]
-	"TruncateFirstMessageStream_42941" -> "DelegatingMessageStream_42942" [label=6; weight=6; penwidth=0.3; color = 3]
-	"AggregateBasedAxonServerEventStorageEngine_12352" -> "MessageStream$Entry_30319" [label=5; weight=5; penwidth=0.3; color = 3]
-	"AnnotatedEntityMetamodel_15084" -> "MessageStream$Single_30278" [label=5; weight=5; penwidth=0.3; color = 3]
-	"BeanValidationInterceptor_45782" -> "Message_28892" [label=5; weight=5; penwidth=0.3; color = 3]
-	"CloseCallbackMessageStream_45166" -> "DelegatingMessageStream_42942" [label=5; weight=5; penwidth=0.3; color = 3]
-	"DefaultEventStoreTransaction_25225" -> "MessageStream$Entry_30319" [label=5; weight=5; penwidth=0.3; color = 3]
-	"DelayedMessageStream_39904" -> "DelayedMessageStream$Single_42947" [label=5; weight=5; penwidth=0.3; color = 3]
-	"EmptyMessageStream_44984" -> "MessageStream$Entry_30319" [label=5; weight=5; penwidth=0.3; color = 3]
-	"IgnoredEntriesMessageStream_46862" -> "Message_28892" [label=5; weight=5; penwidth=0.3; color = 3]
-	"MessageStreamUtils_45142" -> "MessageStreamUtils$Reducer_46879" [label=5; weight=5; penwidth=0.3; color = 3]
-	"MessageStreamUtils_45142" -> "MessageStreamUtils$FirstResult_45167" [label=5; weight=5; penwidth=0.3; color = 3]
-	"MessageStreamUtils$Reducer_46879" -> "MessageStream$Entry_30319" [label=5; weight=5; penwidth=0.3; color = 3]
-	"OnNextMessageStream_42938" -> "MessageStream$Entry_30319" [label=5; weight=5; penwidth=0.3; color = 3]
-	"PooledStreamingEventProcessor_36742" -> "ProcessorEventHandlingComponents_36749" [label=5; weight=5; penwidth=0.3; color = 3]
-	"SubscribingEventProcessor_37816" -> "ProcessorEventHandlingComponents_36749" [label=5; weight=5; penwidth=0.3; color = 3]
-	"CompletionCallbackMessageStream_46208" -> "MessageStream$Entry_30319" [label=4; weight=4; penwidth=0.3; color = 3]
-	"ConcatenatingMessageStream_42939" -> "MessageStream$Entry_30319" [label=4; weight=4; penwidth=0.3; color = 3]
-	"ConcreteEntityMetamodel_16729" -> "MessageStream$Single_30278" [label=4; weight=4; penwidth=0.3; color = 3]
-	"DelayedMessageStream_39904" -> "MessageStream$Entry_30319" [label=4; weight=4; penwidth=0.3; color = 3]
-	"EmptyMessageStream_44984" -> "MessageStream$Empty_31324" [label=4; weight=4; penwidth=0.3; color = 3]
-	"FailedMessageStream_46861" -> "MessageStream$Empty_31324" [label=4; weight=4; penwidth=0.3; color = 3]
-	"FluxUtils_40966" -> "Context_35348" [label=4; weight=4; penwidth=0.3; color = 3]
-	"FluxUtils_40966" -> "MessageStream$Entry_30319" [label=4; weight=4; penwidth=0.3; color = 3]
-	"IgnoredEntriesMessageStream_46862" -> "MessageStream$Entry_30319" [label=4; weight=4; penwidth=0.3; color = 3]
-	"InterceptingEventSink$InterceptingPublisher_32373" -> "DefaultMessageDispatchInterceptorChain_30320" [label=4; weight=4; penwidth=0.3; color = 3]
-	"LoggingInterceptor_45168" -> "MessageStream$Entry_30319" [label=4; weight=4; penwidth=0.3; color = 3]
-	"MessageStream$Empty_31324" -> "MessageStream$Entry_30319" [label=4; weight=4; penwidth=0.3; color = 3]
-	"MessageStream$Empty_31324" -> "Message_28892" [label=4; weight=4; penwidth=0.3; color = 3]
-	"MessageStream$Single_30278" -> "Message_28892" [label=4; weight=4; penwidth=0.3; color = 3]
-	"SimpleEntry_45137" -> "MessageStream$Entry_30319" [label=4; weight=4; penwidth=0.3; color = 3]
-	"AsyncRetryScheduler$RetryTask_48248" -> "Message_28892" [label=3; weight=3; penwidth=0.3; color = 3]
-	"CloseCallbackMessageStream_45166" -> "MessageStream$Entry_30319" [label=3; weight=3; penwidth=0.3; color = 3]
-	"CloseCallbackMessageStream_45166" -> "MessageStream$Single_30278" [label=3; weight=3; penwidth=0.3; color = 3]
-	"CloseCallbackMessageStream_45166" -> "Message_28892" [label=3; weight=3; penwidth=0.3; color = 3]
-	"CloseCallbackMessageStream_45166" -> "MessageStream$Empty_31324" [label=3; weight=3; penwidth=0.3; color = 3]
-	"DefaultMessageDispatchInterceptorChain_30320" -> "DefaultMessageDispatchInterceptorChain$InterceptingDispatcher_46848" [label=3; weight=3; penwidth=0.3; color = 3]
-	"DelayedMessageStream_39904" -> "Message_28892" [label=3; weight=3; penwidth=0.3; color = 3]
-	"DelayedMessageStream_39904" -> "MessageStream$Empty_31324" [label=3; weight=3; penwidth=0.3; color = 3]
-	"DelayedMessageStream$Single_42947" -> "MessageStream$Single_30278" [label=3; weight=3; penwidth=0.3; color = 3]
-	"DistributedQueryBus_39898" -> "MessageStream$Entry_30319" [label=3; weight=3; penwidth=0.3; color = 3]
-	"FailedMessageStream_46861" -> "MessageStream$Single_30278" [label=3; weight=3; penwidth=0.3; color = 3]
-	"FlowControlledResponseSender_12607" -> "MessageStream$Entry_30319" [label=3; weight=3; penwidth=0.3; color = 3]
-	"FluxUtils$FluxStreamAdapter_47101" -> "MessageStream$Entry_30319" [label=3; weight=3; penwidth=0.3; color = 3]
-	"MessageHandlerInterceptorDefinition$ResultHandlingInterceptorMember_45170" -> "MessageStream$Entry_30319" [label=3; weight=3; penwidth=0.3; color = 3]
-	"MessageStreamUtils_45142" -> "MessageStream$Entry_30319" [label=3; weight=3; penwidth=0.3; color = 3]
-	"MessageStreamUtils$FirstResult_45167" -> "MessageStream$Entry_30319" [label=3; weight=3; penwidth=0.3; color = 3]
-	"MethodInvokingMessageHandlingMember_42950" -> "MessageStream$Entry_30319" [label=3; weight=3; penwidth=0.3; color = 3]
-	"OnErrorContinueMessageStream_46863" -> "MessageStream$Entry_30319" [label=3; weight=3; penwidth=0.3; color = 3]
-	"SimpleEntry_45137" -> "Message_28892" [label=3; weight=3; penwidth=0.3; color = 3]
-	"SingleValueMessageStream_46878" -> "MessageStream$Single_30278" [label=3; weight=3; penwidth=0.3; color = 3]
-	"TruncateFirstMessageStream_42941" -> "MessageStream$Entry_30319" [label=3; weight=3; penwidth=0.3; color = 3]
-	"AggregateBasedAxonServerEventStorageEngine_12352" -> "MessageStream$Empty_31324" [label=2; weight=2; penwidth=0.3; color = 3]
-	"AggregateBasedJpaEventStorageEngine_24757" -> "MessageStream$Empty_31324" [label=2; weight=2; penwidth=0.3; color = 3]
-	"AggregateBasedJpaEventStorageEngine_24757" -> "SimpleEntry_45137" [label=2; weight=2; penwidth=0.3; color = 3]
-	"AggregateBasedJpaEventStorageEngine_24757" -> "MessageStream$Entry_30319" [label=2; weight=2; penwidth=0.3; color = 3]
-	"AsyncRetryScheduler$RetryTask_48248" -> "MessageStream$Entry_30319" [label=2; weight=2; penwidth=0.3; color = 3]
-	"CompletionCallbackMessageStream_46208" -> "DelegatingMessageStream_42942" [label=2; weight=2; penwidth=0.3; color = 3]
-	"DefaultMessageDispatchInterceptorChain_30320" -> "Message_28892" [label=2; weight=2; penwidth=0.3; color = 3]
-	"DefaultMessageDispatchInterceptorChain_30320" -> "MessageStream$Single_30278" [label=2; weight=2; penwidth=0.3; color = 3]
-	"DefaultQueryGateway_40321" -> "Message_28892" [label=2; weight=2; penwidth=0.3; color = 3]
-	"DefaultQueryGateway_40321" -> "FluxUtils_40966" [label=2; weight=2; penwidth=0.3; color = 3]
-	"DefaultQueryGateway_40321" -> "MessageStream$Single_30278" [label=2; weight=2; penwidth=0.3; color = 3]
-	"DelayedMessageStream$Single_42947" -> "DelayedMessageStream_39904" [label=2; weight=2; penwidth=0.3; color = 3]
-	"DelegatingMessageStream_42942" -> "Message_28892" [label=2; weight=2; penwidth=0.3; color = 3]
-	"EmptyMessageStream_44984" -> "MessageStream$Single_30278" [label=2; weight=2; penwidth=0.3; color = 3]
-	"FailedMessageStream_46861" -> "Message_28892" [label=2; weight=2; penwidth=0.3; color = 3]
-	"FluxMessageStream_45165" -> "Message_28892" [label=2; weight=2; penwidth=0.3; color = 3]
-	"FluxUtils_40966" -> "FluxMessageStream_45165" [label=2; weight=2; penwidth=0.3; color = 3]
-	"FluxUtils_40966" -> "SimpleEntry_45137" [label=2; weight=2; penwidth=0.3; color = 3]
-	"IgnoredEntriesMessageStream_46862" -> "MessageStream$Empty_31324" [label=2; weight=2; penwidth=0.3; color = 3]
-	"IgnoredEntriesMessageStream_46862" -> "DelegatingMessageStream_42942" [label=2; weight=2; penwidth=0.3; color = 3]
-	"InterceptingEventSink$InterceptingPublisher_32373" -> "MessageStream$Entry_30319" [label=2; weight=2; penwidth=0.3; color = 3]
-	"InterceptingEventSink$InterceptingPublisher_32373" -> "MessageStream$Empty_31324" [label=2; weight=2; penwidth=0.3; color = 3]
-	"MappedMessageStream_42940" -> "Message_28892" [label=2; weight=2; penwidth=0.3; color = 3]
-	"MappedMessageStream_42940" -> "DelegatingMessageStream_42942" [label=2; weight=2; penwidth=0.3; color = 3]
-	"MessageStream$Entry_30319" -> "Message_28892" [label=2; weight=2; penwidth=0.3; color = 3]
-	"MessageStream$Entry_30319" -> "Context_35348" [label=2; weight=2; penwidth=0.3; color = 3]
-	"MessageStreamUtils_45142" -> "Message_28892" [label=2; weight=2; penwidth=0.3; color = 3]
-	"MethodInvokingMessageHandlingMember_42950" -> "MessageStream$Single_30278" [label=2; weight=2; penwidth=0.3; color = 3]
-	"OnNextMessageStream_42938" -> "DelegatingMessageStream_42942" [label=2; weight=2; penwidth=0.3; color = 3]
-	"ProcessorEventHandlingComponents_36749" -> "Message_28892" [label=2; weight=2; penwidth=0.3; color = 3]
-	"SimpleQueryBus_41972" -> "MessageStream$Empty_31324" [label=2; weight=2; penwidth=0.3; color = 3]
-	"SingleValueMessageStream_46878" -> "Message_28892" [label=2; weight=2; penwidth=0.3; color = 3]
-	"TruncateFirstMessageStream_42941" -> "MessageStream$Single_30278" [label=2; weight=2; penwidth=0.3; color = 3]
-	"AggregateBasedAxonServerEventStorageEngine_12352" -> "MessageStream$Single_30278" [label=1; weight=1; penwidth=0.3; color = 3]
-	"AggregateBasedJpaEventStorageEngine_24757" -> "MessageStream$Single_30278" [label=1; weight=1; penwidth=0.3; color = 3]
-	"AnnotatedQueryHandlingComponent_39927" -> "MessageStream$Empty_31324" [label=1; weight=1; penwidth=0.3; color = 3]
-	"AnnotatedQueryHandlingComponent_39927" -> "Message_28892" [label=1; weight=1; penwidth=0.3; color = 3]
-	"AsyncRetryScheduler$RetryTask_48248" -> "DelayedMessageStream_39904" [label=1; weight=1; penwidth=0.3; color = 3]
-	"AsyncRetryScheduler$RetryTask_48248" -> "MessageStream$Empty_31324" [label=1; weight=1; penwidth=0.3; color = 3]
-	"BeanValidationInterceptor_45782" -> "MessageStream$Single_30278" [label=1; weight=1; penwidth=0.3; color = 3]
-	"CompletionCallbackMessageStream_46208" -> "Message_28892" [label=1; weight=1; penwidth=0.3; color = 3]
-	"ConcatenatingMessageStream_42939" -> "Message_28892" [label=1; weight=1; penwidth=0.3; color = 3]
-	"ConcreteEntityMetamodel_16729" -> "MessageStream$Empty_31324" [label=1; weight=1; penwidth=0.3; color = 3]
-	"DefaultMessageDispatchInterceptorChain$InterceptingDispatcher_46848" -> "Message_28892" [label=1; weight=1; penwidth=0.3; color = 3]
-	"DefaultMessageDispatchInterceptorChain$InterceptingDispatcher_46848" -> "MessageStream$Empty_31324" [label=1; weight=1; penwidth=0.3; color = 3]
-	"DelayedMessageStream$Single_42947" -> "Message_28892" [label=1; weight=1; penwidth=0.3; color = 3]
-	"FilteringMessageStream_45145" -> "Message_28892" [label=1; weight=1; penwidth=0.3; color = 3]
-	"FluxMessageStream_45165" -> "FluxUtils_40966" [label=1; weight=1; penwidth=0.3; color = 3]
-	"FluxUtils$FluxStreamAdapter_47101" -> "Message_28892" [label=1; weight=1; penwidth=0.3; color = 3]
-	"IteratorMessageStream_46860" -> "Message_28892" [label=1; weight=1; penwidth=0.3; color = 3]
-	"LoggingInterceptor_45168" -> "MessageStream$Empty_31324" [label=1; weight=1; penwidth=0.3; color = 3]
-	"MessageHandlerInterceptorDefinition$ResultHandlingInterceptorMember_45170" -> "MessageStream$Empty_31324" [label=1; weight=1; penwidth=0.3; color = 3]
-	"MessageStream$Single_30278" -> "MessageStreamUtils_45142" [label=1; weight=1; penwidth=0.3; color = 3]
-	"MessageStreamResolverUtils_42955" -> "FluxUtils_40966" [label=1; weight=1; penwidth=0.3; color = 3]
-	"MessageStreamResolverUtils_42955" -> "MessageStream$Single_30278" [label=1; weight=1; penwidth=0.3; color = 3]
-	"MessageStreamResolverUtils_42955" -> "MessageStream$Empty_31324" [label=1; weight=1; penwidth=0.3; color = 3]
-	"MessageStreamUtils$FirstResult_45167" -> "Message_28892" [label=1; weight=1; penwidth=0.3; color = 3]
-	"MessageStreamUtils$Reducer_46879" -> "Message_28892" [label=1; weight=1; penwidth=0.3; color = 3]
-	"MethodInvokingMessageHandlingMember_42950" -> "DelayedMessageStream_39904" [label=1; weight=1; penwidth=0.3; color = 3]
-	"MethodInvokingMessageHandlingMember_42950" -> "MessageStream$Empty_31324" [label=1; weight=1; penwidth=0.3; color = 3]
-	"OnErrorContinueMessageStream_46863" -> "Message_28892" [label=1; weight=1; penwidth=0.3; color = 3]
-	"OnNextMessageStream_42938" -> "Message_28892" [label=1; weight=1; penwidth=0.3; color = 3]
+	"ConcatenatingMessageStream_20924"  [label = "ConcatenatingMessageStream\n(95.01)"; penwidth = 2; ]; "ConcatenatingMessageStream_20924" -> central [label=38; weight=38; penwidth=1.0];
+	"DelayedMessageStream_18795"  [label = "DelayedMessageStream\n(409.69)"; penwidth = 2; ]; "DelayedMessageStream_18795" -> central [label=29; weight=29; penwidth=0.8];
+	"OnErrorContinueMessageStream_25176"  [label = "OnErrorContinueMessageStream\n(95.01)"; penwidth = 2; ]; "OnErrorContinueMessageStream_25176" -> central [label=23; weight=23; penwidth=0.8];
+	"SimpleQueryBus_19922"  [label = "SimpleQueryBus\n(53.17)"; penwidth = 2; ]; "SimpleQueryBus_19922" -> central [label=13; weight=13; penwidth=0.6];
+	"AsyncRetryScheduler$RetryTask_26252"  [label = "AsyncRetryScheduler$\nRetryTask\n(0.0)"; penwidth = 2; ]; "AsyncRetryScheduler$RetryTask_26252" -> central [label=12; weight=12; penwidth=0.6];
+	"CompletionCallbackMessageStream_25177"  [label = "CompletionCallbackMessageStream\n(762.89)"; penwidth = 5; ]; "CompletionCallbackMessageStream_25177" -> central [label=12; weight=12; penwidth=0.6];
+	"AggregateBasedAxonServerEventStorageEngine_44007"  [label = "AggregateBasedAxonServerEventStorageEngine\n(110.0)"; penwidth = 2; ]; "AggregateBasedAxonServerEventStorageEngine_44007" -> central [label=11; weight=11; penwidth=0.6];
+	"AggregateBasedJpaEventStorageEngine_39619"  [label = "AggregateBasedJpaEventStorageEngine\n(377.31)"; penwidth = 2; ]; "AggregateBasedJpaEventStorageEngine_39619" -> central [label=11; weight=11; penwidth=0.6];
+	"DefaultQueryGateway_19920"  [label = "DefaultQueryGateway\n(41.92)"; penwidth = 2; ]; "DefaultQueryGateway_19920" -> central [label=11; weight=11; penwidth=0.6];
+	"FilteringMessageStream_23075"  [label = "FilteringMessageStream\n(352.16)"; penwidth = 2; ]; "FilteringMessageStream_23075" -> central [label=11; weight=11; penwidth=0.6];
+	"FlowControlledResponseSender_42895"  [label = "FlowControlledResponseSender\n(14.46)"; penwidth = 2; ]; "FlowControlledResponseSender_42895" -> central [label=10; weight=10; penwidth=0.6];
+	"MethodInvokingMessageHandlingMember_20384"  [label = "MethodInvokingMessageHandlingMember\n(16.5)"; penwidth = 2; ]; "MethodInvokingMessageHandlingMember_20384" -> central [label=10; weight=10; penwidth=0.6];
+	"DelegatingMessageStream_20387"  [label = "DelegatingMessageStream\n(26.5)"; penwidth = 2; ]; "DelegatingMessageStream_20387" -> central [label=9; weight=9; penwidth=0.5];
+	"MessageHandlerInterceptorDefinition$ResultHandlingInterceptorMember_23849"  [label = "MessageHandlerInterceptorDefinition$\nResultHandlingInterceptorMember\n(13.58)"; penwidth = 2; ]; "MessageHandlerInterceptorDefinition$ResultHandlingInterceptorMember_23849" -> central [label=9; weight=9; penwidth=0.5];
+	"MessageStreamResolverUtils_21830"  [label = "MessageStreamResolverUtils\n(445.27)"; penwidth = 2; ]; "MessageStreamResolverUtils_21830" -> central [label=9; weight=9; penwidth=0.5];
+	"MessageStreamUtils$Reducer_25202"  [label = "MessageStreamUtils$\nReducer\n(0.0)"; penwidth = 2; ]; "MessageStreamUtils$Reducer_25202" -> central [label=9; weight=9; penwidth=0.5];
+	"BeanValidationInterceptor_23851"  [label = "BeanValidationInterceptor\n(0.0)"; penwidth = 2; ]; "BeanValidationInterceptor_23851" -> central [label=8; weight=8; penwidth=0.5];
+	"ConcreteEntityMetamodel_34650"  [label = "ConcreteEntityMetamodel\n(379.81)"; penwidth = 2; ]; "ConcreteEntityMetamodel_34650" -> central [label=8; weight=8; penwidth=0.5];
+	"DefaultDispatchInterceptorRegistry_24030"  [label = "DefaultDispatchInterceptorRegistry\n(229.85)"; penwidth = 2; ]; "DefaultDispatchInterceptorRegistry_24030" -> central [label=8; weight=8; penwidth=0.5];
+	"Coordinator$CoordinationTask_14638"  [label = "Coordinator$\nCoordinationTask\n(40.0)"; penwidth = 2; ]; "Coordinator$CoordinationTask_14638" -> central [label=7; weight=7; penwidth=0.5];
+	"DefaultMessageDispatchInterceptorChain$InterceptingDispatcher_25171"  [label = "DefaultMessageDispatchInterceptorChain$\nInterceptingDispatcher\n(3.0)"; penwidth = 2; ]; "DefaultMessageDispatchInterceptorChain$InterceptingDispatcher_25171" -> central [label=7; weight=7; penwidth=0.5];
+	"FluxUtils_19915"  [label = "FluxUtils\n(307.6)"; penwidth = 2; ]; "FluxUtils_19915" -> central [label=7; weight=7; penwidth=0.5];
+	"FluxUtils$FluxStreamAdapter_26186"  [label = "FluxUtils$\nFluxStreamAdapter\n(0.0)"; penwidth = 2; ]; "FluxUtils$FluxStreamAdapter_26186" -> central [label=7; weight=7; penwidth=0.5];
+	"MessageStream$Empty_9272"  [label = "MessageStream$\nEmpty\n(676.45)"; penwidth = 5; ]; "MessageStream$Empty_9272" -> central [label=7; weight=7; penwidth=0.5];
+	"MessageStream$Single_8230"  [label = "MessageStream$\nSingle\n(1359.04)"; penwidth = 5; ]; "MessageStream$Single_8230" -> central [label=7; weight=7; penwidth=0.5];
+	"DefaultHandlerInterceptorRegistry_24112"  [label = "DefaultHandlerInterceptorRegistry\n(177.6)"; penwidth = 2; ]; "DefaultHandlerInterceptorRegistry_24112" -> central [label=6; weight=6; penwidth=0.5];
+	"DefaultMessageDispatchInterceptorChain_9270"  [label = "DefaultMessageDispatchInterceptorChain\n(29.25)"; penwidth = 2; ]; "DefaultMessageDispatchInterceptorChain_9270" -> central [label=6; weight=6; penwidth=0.5];
+	"LoggingInterceptor_23847"  [label = "LoggingInterceptor\n(0.0)"; penwidth = 2; ]; "LoggingInterceptor_23847" -> central [label=6; weight=6; penwidth=0.5];
+	"MessageStreamUtils$FirstResult_23846"  [label = "MessageStreamUtils$\nFirstResult\n(0.0)"; penwidth = 2; ]; "MessageStreamUtils$FirstResult_23846" -> central [label=6; weight=6; penwidth=0.5];
+	"ProcessorEventHandlingComponents_15206"  [label = "ProcessorEventHandlingComponents\n(80.0)"; penwidth = 2; ]; "ProcessorEventHandlingComponents_15206" -> central [label=6; weight=6; penwidth=0.5];
+	"AnnotatedQueryHandlingComponent_18909"  [label = "AnnotatedQueryHandlingComponent\n(385.55)"; penwidth = 2; ]; "AnnotatedQueryHandlingComponent_18909" -> central [label=5; weight=5; penwidth=0.5];
+	"DistributedQueryBus_17859"  [label = "DistributedQueryBus\n(74.9)"; penwidth = 2; ]; "DistributedQueryBus_17859" -> central [label=5; weight=5; penwidth=0.5];
+	"FluxMessageStream_23093"  [label = "FluxMessageStream\n(142.0)"; penwidth = 2; ]; "FluxMessageStream_23093" -> central [label=5; weight=5; penwidth=0.5];
+	"InterceptingEventSink$InterceptingPublisher_11478"  [label = "InterceptingEventSink$\nInterceptingPublisher\n(6.0)"; penwidth = 2; ]; "InterceptingEventSink$InterceptingPublisher_11478" -> central [label=5; weight=5; penwidth=0.5];
+	"PooledStreamingEventProcessor_14602"  [label = "PooledStreamingEventProcessor\n(309.0)"; penwidth = 2; ]; "PooledStreamingEventProcessor_14602" -> central [label=5; weight=5; penwidth=0.5];
+	"SubscribingEventProcessor_16813"  [label = "SubscribingEventProcessor\n(423.4)"; penwidth = 2; ]; "SubscribingEventProcessor_16813" -> central [label=5; weight=5; penwidth=0.5];
+	"AnnotatedEntityMetamodel_32793"  [label = "AnnotatedEntityMetamodel\n(3168.35)"; penwidth = 5; ]; "AnnotatedEntityMetamodel_32793" -> central [label=4; weight=4; penwidth=0.5];
+	"DefaultEventStoreTransaction_38810"  [label = "DefaultEventStoreTransaction\n(3.08)"; penwidth = 2; ]; "DefaultEventStoreTransaction_38810" -> central [label=4; weight=4; penwidth=0.5];
+	"EmptyMessageStream_22833"  [label = "EmptyMessageStream\n(323.71)"; penwidth = 2; ]; "EmptyMessageStream_22833" -> central [label=4; weight=4; penwidth=0.5];
+	"FailedMessageStream_25174"  [label = "FailedMessageStream\n(0.0)"; penwidth = 2; ]; "FailedMessageStream_25174" -> central [label=4; weight=4; penwidth=0.5];
+	"Message_7315"  [label = "Message\n(9877.17)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "Message_7315" [label=25; weight=25; penwidth=0.8; color = 5];
+	"Context_14608"  [label = "Context\n(2032.43)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "Context_14608" [label=19; weight=19; penwidth=0.7; color = 5];
+	"MessageStream$Entry_9269"  [label = "MessageStream$\nEntry\n(254.12)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "MessageStream$Entry_9269" [label=13; weight=13; penwidth=0.6; color = 5];
+	"SimpleEntry_23067"  [label = "SimpleEntry\n(534.59)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "SimpleEntry_23067" [label=9; weight=9; penwidth=0.5; color = 5];
+	"MessageStream$Single_8230"  [label = "MessageStream$\nSingle\n(1359.04)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "MessageStream$Single_8230" [label=7; weight=7; penwidth=0.5; color = 5];
+	"IteratorMessageStream_25172"  [label = "IteratorMessageStream\n(0.0)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "IteratorMessageStream_25172" [label=6; weight=6; penwidth=0.5; color = 5];
+	"MessageStream$Empty_9272"  [label = "MessageStream$\nEmpty\n(676.45)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "MessageStream$Empty_9272" [label=5; weight=5; penwidth=0.5; color = 5];
+	"DelayedMessageStream$Single_20381"  [label = "DelayedMessageStream$\nSingle\n(634.0)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "DelayedMessageStream$Single_20381" [label=3; weight=3; penwidth=0.4; color = 5];
+	"IgnoredEntriesMessageStream_25175"  [label = "IgnoredEntriesMessageStream\n(39.51)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "IgnoredEntriesMessageStream_25175" [label=3; weight=3; penwidth=0.4; color = 5];
+	"CloseCallbackMessageStream_23845"  [label = "CloseCallbackMessageStream\n(39.51)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "CloseCallbackMessageStream_23845" [label=2; weight=2; penwidth=0.4; color = 5];
+	"CompletionCallbackMessageStream_25177"  [label = "CompletionCallbackMessageStream\n(762.89)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "CompletionCallbackMessageStream_25177" [label=2; weight=2; penwidth=0.4; color = 5];
+	"ConcatenatingMessageStream_20924"  [label = "ConcatenatingMessageStream\n(95.01)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "ConcatenatingMessageStream_20924" [label=2; weight=2; penwidth=0.4; color = 5];
+	"FailedMessageStream_25174"  [label = "FailedMessageStream\n(0.0)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "FailedMessageStream_25174" [label=2; weight=2; penwidth=0.4; color = 5];
+	"FilteringMessageStream_23075"  [label = "FilteringMessageStream\n(352.16)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "FilteringMessageStream_23075" [label=2; weight=2; penwidth=0.4; color = 5];
+	"MappedMessageStream_20925"  [label = "MappedMessageStream\n(382.08)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "MappedMessageStream_20925" [label=2; weight=2; penwidth=0.4; color = 5];
+	"OnErrorContinueMessageStream_25176"  [label = "OnErrorContinueMessageStream\n(95.01)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "OnErrorContinueMessageStream_25176" [label=2; weight=2; penwidth=0.4; color = 5];
+	"OnNextMessageStream_20927"  [label = "OnNextMessageStream\n(475.09)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "OnNextMessageStream_20927" [label=2; weight=2; penwidth=0.4; color = 5];
+	"SingleValueMessageStream_25173"  [label = "SingleValueMessageStream\n(0.0)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "SingleValueMessageStream_25173" [label=2; weight=2; penwidth=0.4; color = 5];
+	"TruncateFirstMessageStream_20926"  [label = "TruncateFirstMessageStream\n(95.01)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "TruncateFirstMessageStream_20926" [label=2; weight=2; penwidth=0.4; color = 5];
+	"EmptyMessageStream_22833"  [label = "EmptyMessageStream\n(323.71)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "EmptyMessageStream_22833" [label=1; weight=1; penwidth=0.4; color = 5];
+	"MessageStreamUtils_23072"  [label = "MessageStreamUtils\n(1573.81)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "MessageStreamUtils_23072" [label=1; weight=1; penwidth=0.4; color = 5];
+	"MethodInvokingMessageHandlingMember_20384" -> "Message_7315" [label=16; weight=16; penwidth=0.3; color = 3]
+	"SingleValueMessageStream_25173" -> "MessageStream$Entry_9269" [label=14; weight=14; penwidth=0.3; color = 3]
+	"FluxMessageStream_23093" -> "MessageStream$Entry_9269" [label=11; weight=11; penwidth=0.3; color = 3]
+	"AggregateBasedJpaEventStorageEngine_39619" -> "Context_14608" [label=10; weight=10; penwidth=0.3; color = 3]
+	"Coordinator$CoordinationTask_14638" -> "MessageStream$Entry_9269" [label=9; weight=9; penwidth=0.3; color = 3]
+	"EmptyMessageStream_22833" -> "Message_7315" [label=9; weight=9; penwidth=0.3; color = 3]
+	"FilteringMessageStream_23075" -> "MessageStream$Entry_9269" [label=9; weight=9; penwidth=0.3; color = 3]
+	"MessageStream$Single_8230" -> "MessageStream$Entry_9269" [label=9; weight=9; penwidth=0.3; color = 3]
+	"SimpleEntry_23067" -> "Context_14608" [label=9; weight=9; penwidth=0.3; color = 3]
+	"DefaultQueryGateway_19920" -> "MessageStream$Entry_9269" [label=8; weight=8; penwidth=0.3; color = 3]
+	"IteratorMessageStream_25172" -> "MessageStream$Entry_9269" [label=8; weight=8; penwidth=0.3; color = 3]
+	"LoggingInterceptor_23847" -> "Message_7315" [label=8; weight=8; penwidth=0.3; color = 3]
+	"MessageStream$Empty_9272" -> "MessageStream$Single_8230" [label=8; weight=8; penwidth=0.3; color = 3]
+	"AggregateBasedAxonServerEventStorageEngine_44007" -> "Context_14608" [label=7; weight=7; penwidth=0.3; color = 3]
+	"DefaultDispatchInterceptorRegistry_24030" -> "Message_7315" [label=7; weight=7; penwidth=0.3; color = 3]
+	"DelayedMessageStream_18795" -> "MessageStream$Single_8230" [label=7; weight=7; penwidth=0.3; color = 3]
+	"FailedMessageStream_25174" -> "MessageStream$Entry_9269" [label=7; weight=7; penwidth=0.3; color = 3]
+	"MappedMessageStream_20925" -> "MessageStream$Entry_9269" [label=7; weight=7; penwidth=0.3; color = 3]
+	"MessageHandlerInterceptorDefinition$ResultHandlingInterceptorMember_23849" -> "Message_7315" [label=7; weight=7; penwidth=0.3; color = 3]
+	"ProcessorEventHandlingComponents_15206" -> "MessageStream$Empty_9272" [label=7; weight=7; penwidth=0.3; color = 3]
+	"SubscribingEventProcessor_16813" -> "MessageStream$Empty_9272" [label=7; weight=7; penwidth=0.3; color = 3]
+	"DefaultHandlerInterceptorRegistry_24112" -> "Message_7315" [label=6; weight=6; penwidth=0.3; color = 3]
+	"FluxUtils_19915" -> "Message_7315" [label=6; weight=6; penwidth=0.3; color = 3]
+	"FluxUtils_19915" -> "FluxUtils$FluxStreamAdapter_26186" [label=6; weight=6; penwidth=0.3; color = 3]
+	"PooledStreamingEventProcessor_14602" -> "MessageStream$Empty_9272" [label=6; weight=6; penwidth=0.3; color = 3]
+	"TruncateFirstMessageStream_20926" -> "DelegatingMessageStream_20387" [label=6; weight=6; penwidth=0.3; color = 3]
+	"AggregateBasedAxonServerEventStorageEngine_44007" -> "MessageStream$Entry_9269" [label=5; weight=5; penwidth=0.3; color = 3]
+	"AnnotatedEntityMetamodel_32793" -> "MessageStream$Single_8230" [label=5; weight=5; penwidth=0.3; color = 3]
+	"BeanValidationInterceptor_23851" -> "Message_7315" [label=5; weight=5; penwidth=0.3; color = 3]
+	"CloseCallbackMessageStream_23845" -> "DelegatingMessageStream_20387" [label=5; weight=5; penwidth=0.3; color = 3]
+	"DefaultEventStoreTransaction_38810" -> "MessageStream$Entry_9269" [label=5; weight=5; penwidth=0.3; color = 3]
+	"DelayedMessageStream_18795" -> "DelayedMessageStream$Single_20381" [label=5; weight=5; penwidth=0.3; color = 3]
+	"EmptyMessageStream_22833" -> "MessageStream$Entry_9269" [label=5; weight=5; penwidth=0.3; color = 3]
+	"IgnoredEntriesMessageStream_25175" -> "Message_7315" [label=5; weight=5; penwidth=0.3; color = 3]
+	"MessageStreamUtils_23072" -> "MessageStreamUtils$FirstResult_23846" [label=5; weight=5; penwidth=0.3; color = 3]
+	"MessageStreamUtils_23072" -> "MessageStreamUtils$Reducer_25202" [label=5; weight=5; penwidth=0.3; color = 3]
+	"MessageStreamUtils$Reducer_25202" -> "MessageStream$Entry_9269" [label=5; weight=5; penwidth=0.3; color = 3]
+	"OnNextMessageStream_20927" -> "MessageStream$Entry_9269" [label=5; weight=5; penwidth=0.3; color = 3]
+	"PooledStreamingEventProcessor_14602" -> "ProcessorEventHandlingComponents_15206" [label=5; weight=5; penwidth=0.3; color = 3]
+	"SubscribingEventProcessor_16813" -> "ProcessorEventHandlingComponents_15206" [label=5; weight=5; penwidth=0.3; color = 3]
+	"CompletionCallbackMessageStream_25177" -> "MessageStream$Entry_9269" [label=4; weight=4; penwidth=0.3; color = 3]
+	"ConcatenatingMessageStream_20924" -> "MessageStream$Entry_9269" [label=4; weight=4; penwidth=0.3; color = 3]
+	"ConcreteEntityMetamodel_34650" -> "MessageStream$Single_8230" [label=4; weight=4; penwidth=0.3; color = 3]
+	"DelayedMessageStream_18795" -> "MessageStream$Entry_9269" [label=4; weight=4; penwidth=0.3; color = 3]
+	"EmptyMessageStream_22833" -> "MessageStream$Empty_9272" [label=4; weight=4; penwidth=0.3; color = 3]
+	"FailedMessageStream_25174" -> "MessageStream$Empty_9272" [label=4; weight=4; penwidth=0.3; color = 3]
+	"FluxUtils_19915" -> "MessageStream$Entry_9269" [label=4; weight=4; penwidth=0.3; color = 3]
+	"FluxUtils_19915" -> "Context_14608" [label=4; weight=4; penwidth=0.3; color = 3]
+	"IgnoredEntriesMessageStream_25175" -> "MessageStream$Entry_9269" [label=4; weight=4; penwidth=0.3; color = 3]
+	"InterceptingEventSink$InterceptingPublisher_11478" -> "DefaultMessageDispatchInterceptorChain_9270" [label=4; weight=4; penwidth=0.3; color = 3]
+	"LoggingInterceptor_23847" -> "MessageStream$Entry_9269" [label=4; weight=4; penwidth=0.3; color = 3]
+	"MessageStream$Empty_9272" -> "MessageStream$Entry_9269" [label=4; weight=4; penwidth=0.3; color = 3]
+	"MessageStream$Empty_9272" -> "Message_7315" [label=4; weight=4; penwidth=0.3; color = 3]
+	"MessageStream$Single_8230" -> "Message_7315" [label=4; weight=4; penwidth=0.3; color = 3]
+	"SimpleEntry_23067" -> "MessageStream$Entry_9269" [label=4; weight=4; penwidth=0.3; color = 3]
+	"AsyncRetryScheduler$RetryTask_26252" -> "Message_7315" [label=3; weight=3; penwidth=0.3; color = 3]
+	"CloseCallbackMessageStream_23845" -> "Message_7315" [label=3; weight=3; penwidth=0.3; color = 3]
+	"CloseCallbackMessageStream_23845" -> "MessageStream$Entry_9269" [label=3; weight=3; penwidth=0.3; color = 3]
+	"CloseCallbackMessageStream_23845" -> "MessageStream$Single_8230" [label=3; weight=3; penwidth=0.3; color = 3]
+	"CloseCallbackMessageStream_23845" -> "MessageStream$Empty_9272" [label=3; weight=3; penwidth=0.3; color = 3]
+	"DefaultMessageDispatchInterceptorChain_9270" -> "DefaultMessageDispatchInterceptorChain$InterceptingDispatcher_25171" [label=3; weight=3; penwidth=0.3; color = 3]
+	"DelayedMessageStream_18795" -> "Message_7315" [label=3; weight=3; penwidth=0.3; color = 3]
+	"DelayedMessageStream_18795" -> "MessageStream$Empty_9272" [label=3; weight=3; penwidth=0.3; color = 3]
+	"DelayedMessageStream$Single_20381" -> "MessageStream$Single_8230" [label=3; weight=3; penwidth=0.3; color = 3]
+	"DistributedQueryBus_17859" -> "MessageStream$Entry_9269" [label=3; weight=3; penwidth=0.3; color = 3]
+	"FailedMessageStream_25174" -> "MessageStream$Single_8230" [label=3; weight=3; penwidth=0.3; color = 3]
+	"FlowControlledResponseSender_42895" -> "MessageStream$Entry_9269" [label=3; weight=3; penwidth=0.3; color = 3]
+	"FluxUtils$FluxStreamAdapter_26186" -> "MessageStream$Entry_9269" [label=3; weight=3; penwidth=0.3; color = 3]
+	"MessageHandlerInterceptorDefinition$ResultHandlingInterceptorMember_23849" -> "MessageStream$Entry_9269" [label=3; weight=3; penwidth=0.3; color = 3]
+	"MessageStreamUtils_23072" -> "MessageStream$Entry_9269" [label=3; weight=3; penwidth=0.3; color = 3]
+	"MessageStreamUtils$FirstResult_23846" -> "MessageStream$Entry_9269" [label=3; weight=3; penwidth=0.3; color = 3]
+	"MethodInvokingMessageHandlingMember_20384" -> "MessageStream$Entry_9269" [label=3; weight=3; penwidth=0.3; color = 3]
+	"OnErrorContinueMessageStream_25176" -> "MessageStream$Entry_9269" [label=3; weight=3; penwidth=0.3; color = 3]
+	"SimpleEntry_23067" -> "Message_7315" [label=3; weight=3; penwidth=0.3; color = 3]
+	"SingleValueMessageStream_25173" -> "MessageStream$Single_8230" [label=3; weight=3; penwidth=0.3; color = 3]
+	"TruncateFirstMessageStream_20926" -> "MessageStream$Entry_9269" [label=3; weight=3; penwidth=0.3; color = 3]
+	"AggregateBasedAxonServerEventStorageEngine_44007" -> "MessageStream$Empty_9272" [label=2; weight=2; penwidth=0.3; color = 3]
+	"AggregateBasedJpaEventStorageEngine_39619" -> "SimpleEntry_23067" [label=2; weight=2; penwidth=0.3; color = 3]
+	"AggregateBasedJpaEventStorageEngine_39619" -> "MessageStream$Empty_9272" [label=2; weight=2; penwidth=0.3; color = 3]
+	"AggregateBasedJpaEventStorageEngine_39619" -> "MessageStream$Entry_9269" [label=2; weight=2; penwidth=0.3; color = 3]
+	"AsyncRetryScheduler$RetryTask_26252" -> "MessageStream$Entry_9269" [label=2; weight=2; penwidth=0.3; color = 3]
+	"CompletionCallbackMessageStream_25177" -> "DelegatingMessageStream_20387" [label=2; weight=2; penwidth=0.3; color = 3]
+	"DefaultMessageDispatchInterceptorChain_9270" -> "MessageStream$Single_8230" [label=2; weight=2; penwidth=0.3; color = 3]
+	"DefaultMessageDispatchInterceptorChain_9270" -> "Message_7315" [label=2; weight=2; penwidth=0.3; color = 3]
+	"DefaultQueryGateway_19920" -> "Message_7315" [label=2; weight=2; penwidth=0.3; color = 3]
+	"DefaultQueryGateway_19920" -> "FluxUtils_19915" [label=2; weight=2; penwidth=0.3; color = 3]
+	"DefaultQueryGateway_19920" -> "MessageStream$Single_8230" [label=2; weight=2; penwidth=0.3; color = 3]
+	"DelayedMessageStream$Single_20381" -> "DelayedMessageStream_18795" [label=2; weight=2; penwidth=0.3; color = 3]
+	"DelegatingMessageStream_20387" -> "Message_7315" [label=2; weight=2; penwidth=0.3; color = 3]
+	"EmptyMessageStream_22833" -> "MessageStream$Single_8230" [label=2; weight=2; penwidth=0.3; color = 3]
+	"FailedMessageStream_25174" -> "Message_7315" [label=2; weight=2; penwidth=0.3; color = 3]
+	"FluxMessageStream_23093" -> "Message_7315" [label=2; weight=2; penwidth=0.3; color = 3]
+	"FluxUtils_19915" -> "SimpleEntry_23067" [label=2; weight=2; penwidth=0.3; color = 3]
+	"FluxUtils_19915" -> "FluxMessageStream_23093" [label=2; weight=2; penwidth=0.3; color = 3]
+	"IgnoredEntriesMessageStream_25175" -> "MessageStream$Empty_9272" [label=2; weight=2; penwidth=0.3; color = 3]
+	"IgnoredEntriesMessageStream_25175" -> "DelegatingMessageStream_20387" [label=2; weight=2; penwidth=0.3; color = 3]
+	"InterceptingEventSink$InterceptingPublisher_11478" -> "MessageStream$Entry_9269" [label=2; weight=2; penwidth=0.3; color = 3]
+	"InterceptingEventSink$InterceptingPublisher_11478" -> "MessageStream$Empty_9272" [label=2; weight=2; penwidth=0.3; color = 3]
+	"MappedMessageStream_20925" -> "DelegatingMessageStream_20387" [label=2; weight=2; penwidth=0.3; color = 3]
+	"MappedMessageStream_20925" -> "Message_7315" [label=2; weight=2; penwidth=0.3; color = 3]
+	"MessageStream$Entry_9269" -> "Context_14608" [label=2; weight=2; penwidth=0.3; color = 3]
+	"MessageStream$Entry_9269" -> "Message_7315" [label=2; weight=2; penwidth=0.3; color = 3]
+	"MessageStreamUtils_23072" -> "Message_7315" [label=2; weight=2; penwidth=0.3; color = 3]
+	"MethodInvokingMessageHandlingMember_20384" -> "MessageStream$Single_8230" [label=2; weight=2; penwidth=0.3; color = 3]
+	"OnNextMessageStream_20927" -> "DelegatingMessageStream_20387" [label=2; weight=2; penwidth=0.3; color = 3]
+	"ProcessorEventHandlingComponents_15206" -> "Message_7315" [label=2; weight=2; penwidth=0.3; color = 3]
+	"SimpleQueryBus_19922" -> "MessageStream$Empty_9272" [label=2; weight=2; penwidth=0.3; color = 3]
+	"SingleValueMessageStream_25173" -> "Message_7315" [label=2; weight=2; penwidth=0.3; color = 3]
+	"TruncateFirstMessageStream_20926" -> "MessageStream$Single_8230" [label=2; weight=2; penwidth=0.3; color = 3]
+	"AggregateBasedAxonServerEventStorageEngine_44007" -> "MessageStream$Single_8230" [label=1; weight=1; penwidth=0.3; color = 3]
+	"AggregateBasedJpaEventStorageEngine_39619" -> "MessageStream$Single_8230" [label=1; weight=1; penwidth=0.3; color = 3]
+	"AnnotatedQueryHandlingComponent_18909" -> "Message_7315" [label=1; weight=1; penwidth=0.3; color = 3]
+	"AnnotatedQueryHandlingComponent_18909" -> "MessageStream$Empty_9272" [label=1; weight=1; penwidth=0.3; color = 3]
+	"AsyncRetryScheduler$RetryTask_26252" -> "MessageStream$Empty_9272" [label=1; weight=1; penwidth=0.3; color = 3]
+	"AsyncRetryScheduler$RetryTask_26252" -> "DelayedMessageStream_18795" [label=1; weight=1; penwidth=0.3; color = 3]
+	"BeanValidationInterceptor_23851" -> "MessageStream$Single_8230" [label=1; weight=1; penwidth=0.3; color = 3]
+	"CompletionCallbackMessageStream_25177" -> "Message_7315" [label=1; weight=1; penwidth=0.3; color = 3]
+	"ConcatenatingMessageStream_20924" -> "Message_7315" [label=1; weight=1; penwidth=0.3; color = 3]
+	"ConcreteEntityMetamodel_34650" -> "MessageStream$Empty_9272" [label=1; weight=1; penwidth=0.3; color = 3]
+	"DefaultMessageDispatchInterceptorChain$InterceptingDispatcher_25171" -> "MessageStream$Empty_9272" [label=1; weight=1; penwidth=0.3; color = 3]
+	"DefaultMessageDispatchInterceptorChain$InterceptingDispatcher_25171" -> "Message_7315" [label=1; weight=1; penwidth=0.3; color = 3]
+	"DelayedMessageStream$Single_20381" -> "Message_7315" [label=1; weight=1; penwidth=0.3; color = 3]
+	"FilteringMessageStream_23075" -> "Message_7315" [label=1; weight=1; penwidth=0.3; color = 3]
+	"FluxMessageStream_23093" -> "FluxUtils_19915" [label=1; weight=1; penwidth=0.3; color = 3]
+	"FluxUtils$FluxStreamAdapter_26186" -> "Message_7315" [label=1; weight=1; penwidth=0.3; color = 3]
+	"IteratorMessageStream_25172" -> "Message_7315" [label=1; weight=1; penwidth=0.3; color = 3]
+	"LoggingInterceptor_23847" -> "MessageStream$Empty_9272" [label=1; weight=1; penwidth=0.3; color = 3]
+	"MessageHandlerInterceptorDefinition$ResultHandlingInterceptorMember_23849" -> "MessageStream$Empty_9272" [label=1; weight=1; penwidth=0.3; color = 3]
+	"MessageStream$Single_8230" -> "MessageStreamUtils_23072" [label=1; weight=1; penwidth=0.3; color = 3]
+	"MessageStreamResolverUtils_21830" -> "FluxUtils_19915" [label=1; weight=1; penwidth=0.3; color = 3]
+	"MessageStreamResolverUtils_21830" -> "MessageStream$Single_8230" [label=1; weight=1; penwidth=0.3; color = 3]
+	"MessageStreamResolverUtils_21830" -> "MessageStream$Empty_9272" [label=1; weight=1; penwidth=0.3; color = 3]
+	"MessageStreamUtils$FirstResult_23846" -> "Message_7315" [label=1; weight=1; penwidth=0.3; color = 3]
+	"MessageStreamUtils$Reducer_25202" -> "Message_7315" [label=1; weight=1; penwidth=0.3; color = 3]
+	"MethodInvokingMessageHandlingMember_20384" -> "DelayedMessageStream_18795" [label=1; weight=1; penwidth=0.3; color = 3]
+	"MethodInvokingMessageHandlingMember_20384" -> "MessageStream$Empty_9272" [label=1; weight=1; penwidth=0.3; color = 3]
+	"OnErrorContinueMessageStream_25176" -> "Message_7315" [label=1; weight=1; penwidth=0.3; color = 3]
+	"OnNextMessageStream_20927" -> "Message_7315" [label=1; weight=1; penwidth=0.3; color = 3]
 }

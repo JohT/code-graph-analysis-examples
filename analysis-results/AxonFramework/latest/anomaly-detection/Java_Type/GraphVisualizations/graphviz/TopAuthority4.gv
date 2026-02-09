@@ -14,86 +14,86 @@ strict digraph TopAuthority4 {
 
 	graph   [label="Top Rank #4 Java Type Authority\norg.axonframework.common.infra.DescribableComponent\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: Page Rank (normalized)\nlarge circle: > 80% percentile of Page Rank\nthick outline: > 80% percentile of Page Rank to Article Rank Difference\n\n"];
 	central [label="🏛️ authority #4\nDescribableComponent"];
-	"FilesystemStyleComponentDescriptor_4074"  [label = "FilesystemStyleComponentDescriptor\n(0.27%)"; penwidth = 2; ]; "FilesystemStyleComponentDescriptor_4074" -> central [label=12; weight=12; penwidth=0.6];
-	"JacksonComponentDescriptor_4075"  [label = "JacksonComponentDescriptor\n(0.0%)"; penwidth = 5; ]; "JacksonComponentDescriptor_4075" -> central [label=9; weight=9; penwidth=0.5];
-	"AccessSerializingRepository_18931"  [label = "AccessSerializingRepository\n(0.0%)"; penwidth = 5; ]; "AccessSerializingRepository_18931" -> central [label=1; weight=1; penwidth=0.4];
-	"AnnotatedEntityIdResolver_15111"  [label = "AnnotatedEntityIdResolver\n(0.08%)"; penwidth = 2; ]; "AnnotatedEntityIdResolver_15111" -> central [label=1; weight=1; penwidth=0.4];
-	"AnnotatedEntityMetamodel_15084"  [label = "AnnotatedEntityMetamodel\n(1.62%)"; penwidth = 2; ]; "AnnotatedEntityMetamodel_15084" -> central [label=1; weight=1; penwidth=0.4];
-	"AnnotationBasedEventCriteriaResolver_24092"  [label = "AnnotationBasedEventCriteriaResolver\n(0.3%)"; penwidth = 2; ]; "AnnotationBasedEventCriteriaResolver_24092" -> central [label=1; weight=1; penwidth=0.4];
-	"AsyncRetryScheduler_48176"  [label = "AsyncRetryScheduler\n(0.04%)"; penwidth = 2; ]; "AsyncRetryScheduler_48176" -> central [label=1; weight=1; penwidth=0.4];
-	"AvroConverterStrategy_28221"  [label = "AvroConverterStrategy\n(0.24%)"; penwidth = 2; ]; "AvroConverterStrategy_28221" -> central [label=1; weight=1; penwidth=0.4];
-	"CommandBus_30471"  [label = "CommandBus\n(0.74%)"; penwidth = 2; ]; "CommandBus_30471" -> central [label=1; weight=1; penwidth=0.4];
-	"CommandBusConnector_30473"  [label = "CommandBusConnector\n(0.4%)"; penwidth = 2; ]; "CommandBusConnector_30473" -> central [label=1; weight=1; penwidth=0.4];
-	"CommandDispatcher_30280"  [label = "CommandDispatcher\n(0.38%)"; penwidth = 2; ]; "CommandDispatcher_30280" -> central [label=1; weight=1; penwidth=0.4];
-	"CommandGateway_30653"  [label = "CommandGateway\n(0.36%)"; penwidth = 2; ]; "CommandGateway_30653" -> central [label=1; weight=1; penwidth=0.4];
-	"CommandHandlingComponent_30306"  [label = "CommandHandlingComponent\n(0.46%)"; penwidth = 2; ]; "CommandHandlingComponent_30306" -> central [label=1; weight=1; penwidth=0.4];
-	"Component_3697"  [label = "Component\n(1.33%)"; penwidth = 2; ]; "Component_3697" -> central [label=1; weight=1; penwidth=0.4];
-	"ComponentFactory_4601"  [label = "ComponentFactory\n(0.13%)"; penwidth = 2; ]; "ComponentFactory_4601" -> central [label=1; weight=1; penwidth=0.4];
-	"ComponentRegistry_3723"  [label = "ComponentRegistry\n(3.53%)"; penwidth = 2; ]; "ComponentRegistry_3723" -> central [label=1; weight=1; penwidth=0.4];
-	"Components_4600"  [label = "Components\n(0.08%)"; penwidth = 2; ]; "Components_4600" -> central [label=1; weight=1; penwidth=0.4];
-	"ConcreteEntityMetamodel_16729"  [label = "ConcreteEntityMetamodel\n(0.15%)"; penwidth = 2; ]; "ConcreteEntityMetamodel_16729" -> central [label=1; weight=1; penwidth=0.4];
-	"Configuration_3725"  [shape = "circle"; height=2; label = "Configuration\n(21.36%)"; penwidth = 2; ]; "Configuration_3725" -> central [label=1; weight=1; penwidth=0.4];
-	"Converter_27357"  [shape = "circle"; height=2; label = "Converter\n(30.26%)"; penwidth = 2; ]; "Converter_27357" -> central [label=1; weight=1; penwidth=0.4];
-	"DispatchInterceptorRegistry_38870"  [label = "DispatchInterceptorRegistry\n(0.21%)"; penwidth = 2; ]; "DispatchInterceptorRegistry_38870" -> central [label=1; weight=1; penwidth=0.4];
-	"EntityCommandHandlingComponent_15732"  [label = "EntityCommandHandlingComponent\n(0.03%)"; penwidth = 2; ]; "EntityCommandHandlingComponent_15732" -> central [label=1; weight=1; penwidth=0.4];
-	"EntityMetamodel_15103"  [label = "EntityMetamodel\n(2.06%)"; penwidth = 2; ]; "EntityMetamodel_15103" -> central [label=1; weight=1; penwidth=0.4];
-	"EventAppender_32359"  [label = "EventAppender\n(0.41%)"; penwidth = 2; ]; "EventAppender_32359" -> central [label=1; weight=1; penwidth=0.4];
-	"EventBus_33163"  [label = "EventBus\n(0.72%)"; penwidth = 2; ]; "EventBus_33163" -> central [label=1; weight=1; penwidth=0.4];
-	"EventHandlingComponent_32346"  [label = "EventHandlingComponent\n(1.49%)"; penwidth = 2; ]; "EventHandlingComponent_32346" -> central [label=1; weight=1; penwidth=0.4];
-	"EventProcessor_34561"  [label = "EventProcessor\n(0.25%)"; penwidth = 2; ]; "EventProcessor_34561" -> central [label=1; weight=1; penwidth=0.4];
-	"EventProcessorConfiguration_35353"  [label = "EventProcessorConfiguration\n(1.17%)"; penwidth = 2; ]; "EventProcessorConfiguration_35353" -> central [label=1; weight=1; penwidth=0.4];
-	"EventSink_32372"  [label = "EventSink\n(1.05%)"; penwidth = 2; ]; "EventSink_32372" -> central [label=1; weight=1; penwidth=0.4];
-	"EventStorageEngine_23798"  [label = "EventStorageEngine\n(0.19%)"; penwidth = 2; ]; "EventStorageEngine_23798" -> central [label=1; weight=1; penwidth=0.4];
-	"EventStore_22692"  [label = "EventStore\n(0.36%)"; penwidth = 2; ]; "EventStore_22692" -> central [label=1; weight=1; penwidth=0.4];
-	"EventSubscribers_32398"  [label = "EventSubscribers\n(0.07%)"; penwidth = 2; ]; "EventSubscribers_32398" -> central [label=1; weight=1; penwidth=0.4];
-	"FieldChildEntityFieldDefinition_17589"  [label = "FieldChildEntityFieldDefinition\n(1.03%)"; penwidth = 5; ]; "FieldChildEntityFieldDefinition_17589" -> central [label=1; weight=1; penwidth=0.4];
-	"HandlerInterceptorRegistry_38872"  [label = "HandlerInterceptorRegistry\n(0.26%)"; penwidth = 2; ]; "HandlerInterceptorRegistry_38872" -> central [label=1; weight=1; penwidth=0.4];
-	"MessageMonitorRegistry_28885"  [label = "MessageMonitorRegistry\n(0.18%)"; penwidth = 2; ]; "MessageMonitorRegistry_28885" -> central [label=1; weight=1; penwidth=0.4];
-	"PolymorphicEntityMetamodel_16736"  [label = "PolymorphicEntityMetamodel\n(0.15%)"; penwidth = 2; ]; "PolymorphicEntityMetamodel_16736" -> central [label=1; weight=1; penwidth=0.4];
-	"QueryBus_39903"  [label = "QueryBus\n(0.57%)"; penwidth = 2; ]; "QueryBus_39903" -> central [label=1; weight=1; penwidth=0.4];
-	"QueryBusConnector_39883"  [label = "QueryBusConnector\n(0.34%)"; penwidth = 2; ]; "QueryBusConnector_39883" -> central [label=1; weight=1; penwidth=0.4];
-	"QueryGateway_40967"  [label = "QueryGateway\n(0.01%)"; penwidth = 5; ]; "QueryGateway_40967" -> central [label=1; weight=1; penwidth=0.4];
-	"QueryHandlingComponent_39908"  [label = "QueryHandlingComponent\n(0.36%)"; penwidth = 2; ]; "QueryHandlingComponent_39908" -> central [label=1; weight=1; penwidth=0.4];
-	"ComponentDescriptor_4147"  [shape = "circle"; height=2; label = "ComponentDescriptor\n(35.04%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "ComponentDescriptor_4147" [label=1; weight=1; penwidth=0.4; color = 5];
-	"PolymorphicEntityMetamodel_16736" -> "EntityMetamodel_15103" [label=33; weight=33; penwidth=0.3; color = 3]
-	"Components_4600" -> "Component_3697" [label=22; weight=22; penwidth=0.3; color = 3]
-	"AnnotatedEntityMetamodel_15084" -> "EntityMetamodel_15103" [label=12; weight=12; penwidth=0.3; color = 3]
-	"EntityCommandHandlingComponent_15732" -> "EntityMetamodel_15103" [label=9; weight=9; penwidth=0.3; color = 3]
-	"ConcreteEntityMetamodel_16729" -> "ComponentDescriptor_4147" [label=8; weight=8; penwidth=0.3; color = 3]
-	"FieldChildEntityFieldDefinition_17589" -> "ComponentDescriptor_4147" [label=6; weight=6; penwidth=0.3; color = 3]
-	"AnnotatedEntityIdResolver_15111" -> "ComponentDescriptor_4147" [label=5; weight=5; penwidth=0.3; color = 3]
-	"AnnotationBasedEventCriteriaResolver_24092" -> "ComponentDescriptor_4147" [label=5; weight=5; penwidth=0.3; color = 3]
-	"AnnotatedEntityIdResolver_15111" -> "AnnotatedEntityMetamodel_15084" [label=4; weight=4; penwidth=0.3; color = 3]
-	"DispatchInterceptorRegistry_38870" -> "Configuration_3725" [label=4; weight=4; penwidth=0.3; color = 3]
-	"EntityCommandHandlingComponent_15732" -> "ComponentDescriptor_4147" [label=4; weight=4; penwidth=0.3; color = 3]
-	"EventAppender_32359" -> "EventSink_32372" [label=4; weight=4; penwidth=0.3; color = 3]
-	"EventProcessorConfiguration_35353" -> "ComponentDescriptor_4147" [label=4; weight=4; penwidth=0.3; color = 3]
-	"MessageMonitorRegistry_28885" -> "Configuration_3725" [label=4; weight=4; penwidth=0.3; color = 3]
-	"PolymorphicEntityMetamodel_16736" -> "ComponentDescriptor_4147" [label=4; weight=4; penwidth=0.3; color = 3]
-	"AnnotatedEntityMetamodel_15084" -> "ComponentDescriptor_4147" [label=3; weight=3; penwidth=0.3; color = 3]
-	"AnnotationBasedEventCriteriaResolver_24092" -> "Configuration_3725" [label=3; weight=3; penwidth=0.3; color = 3]
-	"AsyncRetryScheduler_48176" -> "ComponentDescriptor_4147" [label=3; weight=3; penwidth=0.3; color = 3]
-	"EventProcessorConfiguration_35353" -> "Configuration_3725" [label=3; weight=3; penwidth=0.3; color = 3]
-	"EventProcessorConfiguration_35353" -> "HandlerInterceptorRegistry_38872" [label=3; weight=3; penwidth=0.3; color = 3]
-	"EventProcessorConfiguration_35353" -> "MessageMonitorRegistry_28885" [label=3; weight=3; penwidth=0.3; color = 3]
-	"FilesystemStyleComponentDescriptor_4074" -> "Component_3697" [label=3; weight=3; penwidth=0.3; color = 3]
-	"HandlerInterceptorRegistry_38872" -> "Configuration_3725" [label=3; weight=3; penwidth=0.3; color = 3]
-	"JacksonComponentDescriptor_4075" -> "Component_3697" [label=3; weight=3; penwidth=0.3; color = 3]
-	"AccessSerializingRepository_18931" -> "ComponentDescriptor_4147" [label=2; weight=2; penwidth=0.3; color = 3]
-	"CommandDispatcher_30280" -> "CommandGateway_30653" [label=2; weight=2; penwidth=0.3; color = 3]
-	"Component_3697" -> "Configuration_3725" [label=2; weight=2; penwidth=0.3; color = 3]
-	"Components_4600" -> "ComponentDescriptor_4147" [label=2; weight=2; penwidth=0.3; color = 3]
-	"EventSubscribers_32398" -> "ComponentDescriptor_4147" [label=2; weight=2; penwidth=0.3; color = 3]
-	"FilesystemStyleComponentDescriptor_4074" -> "ComponentDescriptor_4147" [label=2; weight=2; penwidth=0.3; color = 3]
-	"AnnotatedEntityMetamodel_15084" -> "PolymorphicEntityMetamodel_16736" [label=1; weight=1; penwidth=0.3; color = 3]
-	"ComponentFactory_4601" -> "Configuration_3725" [label=1; weight=1; penwidth=0.3; color = 3]
-	"ComponentFactory_4601" -> "Component_3697" [label=1; weight=1; penwidth=0.3; color = 3]
-	"ComponentRegistry_3723" -> "ComponentFactory_4601" [label=1; weight=1; penwidth=0.3; color = 3]
-	"ConcreteEntityMetamodel_16729" -> "EntityMetamodel_15103" [label=1; weight=1; penwidth=0.3; color = 3]
-	"EntityCommandHandlingComponent_15732" -> "CommandHandlingComponent_30306" [label=1; weight=1; penwidth=0.3; color = 3]
-	"EntityMetamodel_15103" -> "PolymorphicEntityMetamodel_16736" [label=1; weight=1; penwidth=0.3; color = 3]
-	"EntityMetamodel_15103" -> "ConcreteEntityMetamodel_16729" [label=1; weight=1; penwidth=0.3; color = 3]
-	"EventBus_33163" -> "EventSink_32372" [label=1; weight=1; penwidth=0.3; color = 3]
-	"EventStore_22692" -> "EventBus_33163" [label=1; weight=1; penwidth=0.3; color = 3]
-	"JacksonComponentDescriptor_4075" -> "ComponentDescriptor_4147" [label=1; weight=1; penwidth=0.3; color = 3]
+	"FilesystemStyleComponentDescriptor_48055"  [label = "FilesystemStyleComponentDescriptor\n(0.27%)"; penwidth = 2; ]; "FilesystemStyleComponentDescriptor_48055" -> central [label=12; weight=12; penwidth=0.6];
+	"JacksonComponentDescriptor_48056"  [label = "JacksonComponentDescriptor\n(0.0%)"; penwidth = 5; ]; "JacksonComponentDescriptor_48056" -> central [label=9; weight=9; penwidth=0.5];
+	"AccessSerializingRepository_35719"  [label = "AccessSerializingRepository\n(0.0%)"; penwidth = 5; ]; "AccessSerializingRepository_35719" -> central [label=1; weight=1; penwidth=0.4];
+	"AnnotatedEntityIdResolver_32791"  [label = "AnnotatedEntityIdResolver\n(0.08%)"; penwidth = 2; ]; "AnnotatedEntityIdResolver_32791" -> central [label=1; weight=1; penwidth=0.4];
+	"AnnotatedEntityMetamodel_32793"  [label = "AnnotatedEntityMetamodel\n(1.62%)"; penwidth = 2; ]; "AnnotatedEntityMetamodel_32793" -> central [label=1; weight=1; penwidth=0.4];
+	"AnnotationBasedEventCriteriaResolver_37786"  [label = "AnnotationBasedEventCriteriaResolver\n(0.3%)"; penwidth = 2; ]; "AnnotationBasedEventCriteriaResolver_37786" -> central [label=1; weight=1; penwidth=0.4];
+	"AsyncRetryScheduler_26232"  [label = "AsyncRetryScheduler\n(0.04%)"; penwidth = 2; ]; "AsyncRetryScheduler_26232" -> central [label=1; weight=1; penwidth=0.4];
+	"AvroConverterStrategy_29756"  [label = "AvroConverterStrategy\n(0.24%)"; penwidth = 2; ]; "AvroConverterStrategy_29756" -> central [label=1; weight=1; penwidth=0.4];
+	"CommandBus_8271"  [label = "CommandBus\n(0.74%)"; penwidth = 2; ]; "CommandBus_8271" -> central [label=1; weight=1; penwidth=0.4];
+	"CommandBusConnector_8430"  [label = "CommandBusConnector\n(0.4%)"; penwidth = 2; ]; "CommandBusConnector_8430" -> central [label=1; weight=1; penwidth=0.4];
+	"CommandDispatcher_8232"  [label = "CommandDispatcher\n(0.38%)"; penwidth = 2; ]; "CommandDispatcher_8232" -> central [label=1; weight=1; penwidth=0.4];
+	"CommandGateway_9483"  [label = "CommandGateway\n(0.36%)"; penwidth = 2; ]; "CommandGateway_9483" -> central [label=1; weight=1; penwidth=0.4];
+	"CommandHandlingComponent_9480"  [label = "CommandHandlingComponent\n(0.46%)"; penwidth = 2; ]; "CommandHandlingComponent_9480" -> central [label=1; weight=1; penwidth=0.4];
+	"Component_48166"  [label = "Component\n(1.33%)"; penwidth = 2; ]; "Component_48166" -> central [label=1; weight=1; penwidth=0.4];
+	"ComponentFactory_49338"  [label = "ComponentFactory\n(0.13%)"; penwidth = 2; ]; "ComponentFactory_49338" -> central [label=1; weight=1; penwidth=0.4];
+	"ComponentRegistry_48797"  [label = "ComponentRegistry\n(3.53%)"; penwidth = 2; ]; "ComponentRegistry_48797" -> central [label=1; weight=1; penwidth=0.4];
+	"Components_49337"  [label = "Components\n(0.08%)"; penwidth = 2; ]; "Components_49337" -> central [label=1; weight=1; penwidth=0.4];
+	"ConcreteEntityMetamodel_34650"  [label = "ConcreteEntityMetamodel\n(0.15%)"; penwidth = 2; ]; "ConcreteEntityMetamodel_34650" -> central [label=1; weight=1; penwidth=0.4];
+	"Configuration_48799"  [shape = "circle"; height=2; label = "Configuration\n(21.36%)"; penwidth = 2; ]; "Configuration_48799" -> central [label=1; weight=1; penwidth=0.4];
+	"Converter_30453"  [shape = "circle"; height=2; label = "Converter\n(30.26%)"; penwidth = 2; ]; "Converter_30453" -> central [label=1; weight=1; penwidth=0.4];
+	"DispatchInterceptorRegistry_17850"  [label = "DispatchInterceptorRegistry\n(0.21%)"; penwidth = 2; ]; "DispatchInterceptorRegistry_17850" -> central [label=1; weight=1; penwidth=0.4];
+	"EntityCommandHandlingComponent_32790"  [label = "EntityCommandHandlingComponent\n(0.03%)"; penwidth = 2; ]; "EntityCommandHandlingComponent_32790" -> central [label=1; weight=1; penwidth=0.4];
+	"EntityMetamodel_32975"  [label = "EntityMetamodel\n(2.06%)"; penwidth = 2; ]; "EntityMetamodel_32975" -> central [label=1; weight=1; penwidth=0.4];
+	"EventAppender_10348"  [label = "EventAppender\n(0.41%)"; penwidth = 2; ]; "EventAppender_10348" -> central [label=1; weight=1; penwidth=0.4];
+	"EventBus_11578"  [label = "EventBus\n(0.72%)"; penwidth = 2; ]; "EventBus_11578" -> central [label=1; weight=1; penwidth=0.4];
+	"EventHandlingComponent_10377"  [label = "EventHandlingComponent\n(1.49%)"; penwidth = 2; ]; "EventHandlingComponent_10377" -> central [label=1; weight=1; penwidth=0.4];
+	"EventProcessor_12578"  [label = "EventProcessor\n(0.25%)"; penwidth = 2; ]; "EventProcessor_12578" -> central [label=1; weight=1; penwidth=0.4];
+	"EventProcessorConfiguration_14613"  [label = "EventProcessorConfiguration\n(1.17%)"; penwidth = 2; ]; "EventProcessorConfiguration_14613" -> central [label=1; weight=1; penwidth=0.4];
+	"EventSink_11576"  [label = "EventSink\n(1.05%)"; penwidth = 2; ]; "EventSink_11576" -> central [label=1; weight=1; penwidth=0.4];
+	"EventStorageEngine_37666"  [label = "EventStorageEngine\n(0.19%)"; penwidth = 2; ]; "EventStorageEngine_37666" -> central [label=1; weight=1; penwidth=0.4];
+	"EventStore_36607"  [label = "EventStore\n(0.36%)"; penwidth = 2; ]; "EventStore_36607" -> central [label=1; weight=1; penwidth=0.4];
+	"EventSubscribers_11479"  [label = "EventSubscribers\n(0.07%)"; penwidth = 2; ]; "EventSubscribers_11479" -> central [label=1; weight=1; penwidth=0.4];
+	"FieldChildEntityFieldDefinition_34169"  [label = "FieldChildEntityFieldDefinition\n(1.03%)"; penwidth = 5; ]; "FieldChildEntityFieldDefinition_34169" -> central [label=1; weight=1; penwidth=0.4];
+	"HandlerInterceptorRegistry_17852"  [label = "HandlerInterceptorRegistry\n(0.26%)"; penwidth = 2; ]; "HandlerInterceptorRegistry_17852" -> central [label=1; weight=1; penwidth=0.4];
+	"MessageMonitorRegistry_8428"  [label = "MessageMonitorRegistry\n(0.18%)"; penwidth = 2; ]; "MessageMonitorRegistry_8428" -> central [label=1; weight=1; penwidth=0.4];
+	"PolymorphicEntityMetamodel_32998"  [label = "PolymorphicEntityMetamodel\n(0.15%)"; penwidth = 2; ]; "PolymorphicEntityMetamodel_32998" -> central [label=1; weight=1; penwidth=0.4];
+	"QueryBus_17858"  [label = "QueryBus\n(0.57%)"; penwidth = 2; ]; "QueryBus_17858" -> central [label=1; weight=1; penwidth=0.4];
+	"QueryBusConnector_17856"  [label = "QueryBusConnector\n(0.34%)"; penwidth = 2; ]; "QueryBusConnector_17856" -> central [label=1; weight=1; penwidth=0.4];
+	"QueryGateway_19923"  [label = "QueryGateway\n(0.01%)"; penwidth = 5; ]; "QueryGateway_19923" -> central [label=1; weight=1; penwidth=0.4];
+	"QueryHandlingComponent_18799"  [label = "QueryHandlingComponent\n(0.36%)"; penwidth = 2; ]; "QueryHandlingComponent_18799" -> central [label=1; weight=1; penwidth=0.4];
+	"ComponentDescriptor_48320"  [shape = "circle"; height=2; label = "ComponentDescriptor\n(35.04%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "ComponentDescriptor_48320" [label=1; weight=1; penwidth=0.4; color = 5];
+	"PolymorphicEntityMetamodel_32998" -> "EntityMetamodel_32975" [label=33; weight=33; penwidth=0.3; color = 3]
+	"Components_49337" -> "Component_48166" [label=22; weight=22; penwidth=0.3; color = 3]
+	"AnnotatedEntityMetamodel_32793" -> "EntityMetamodel_32975" [label=12; weight=12; penwidth=0.3; color = 3]
+	"EntityCommandHandlingComponent_32790" -> "EntityMetamodel_32975" [label=9; weight=9; penwidth=0.3; color = 3]
+	"ConcreteEntityMetamodel_34650" -> "ComponentDescriptor_48320" [label=8; weight=8; penwidth=0.3; color = 3]
+	"FieldChildEntityFieldDefinition_34169" -> "ComponentDescriptor_48320" [label=6; weight=6; penwidth=0.3; color = 3]
+	"AnnotatedEntityIdResolver_32791" -> "ComponentDescriptor_48320" [label=5; weight=5; penwidth=0.3; color = 3]
+	"AnnotationBasedEventCriteriaResolver_37786" -> "ComponentDescriptor_48320" [label=5; weight=5; penwidth=0.3; color = 3]
+	"AnnotatedEntityIdResolver_32791" -> "AnnotatedEntityMetamodel_32793" [label=4; weight=4; penwidth=0.3; color = 3]
+	"DispatchInterceptorRegistry_17850" -> "Configuration_48799" [label=4; weight=4; penwidth=0.3; color = 3]
+	"EntityCommandHandlingComponent_32790" -> "ComponentDescriptor_48320" [label=4; weight=4; penwidth=0.3; color = 3]
+	"EventAppender_10348" -> "EventSink_11576" [label=4; weight=4; penwidth=0.3; color = 3]
+	"EventProcessorConfiguration_14613" -> "ComponentDescriptor_48320" [label=4; weight=4; penwidth=0.3; color = 3]
+	"MessageMonitorRegistry_8428" -> "Configuration_48799" [label=4; weight=4; penwidth=0.3; color = 3]
+	"PolymorphicEntityMetamodel_32998" -> "ComponentDescriptor_48320" [label=4; weight=4; penwidth=0.3; color = 3]
+	"AnnotatedEntityMetamodel_32793" -> "ComponentDescriptor_48320" [label=3; weight=3; penwidth=0.3; color = 3]
+	"AnnotationBasedEventCriteriaResolver_37786" -> "Configuration_48799" [label=3; weight=3; penwidth=0.3; color = 3]
+	"AsyncRetryScheduler_26232" -> "ComponentDescriptor_48320" [label=3; weight=3; penwidth=0.3; color = 3]
+	"EventProcessorConfiguration_14613" -> "Configuration_48799" [label=3; weight=3; penwidth=0.3; color = 3]
+	"EventProcessorConfiguration_14613" -> "MessageMonitorRegistry_8428" [label=3; weight=3; penwidth=0.3; color = 3]
+	"EventProcessorConfiguration_14613" -> "HandlerInterceptorRegistry_17852" [label=3; weight=3; penwidth=0.3; color = 3]
+	"FilesystemStyleComponentDescriptor_48055" -> "Component_48166" [label=3; weight=3; penwidth=0.3; color = 3]
+	"HandlerInterceptorRegistry_17852" -> "Configuration_48799" [label=3; weight=3; penwidth=0.3; color = 3]
+	"JacksonComponentDescriptor_48056" -> "Component_48166" [label=3; weight=3; penwidth=0.3; color = 3]
+	"AccessSerializingRepository_35719" -> "ComponentDescriptor_48320" [label=2; weight=2; penwidth=0.3; color = 3]
+	"CommandDispatcher_8232" -> "CommandGateway_9483" [label=2; weight=2; penwidth=0.3; color = 3]
+	"Component_48166" -> "Configuration_48799" [label=2; weight=2; penwidth=0.3; color = 3]
+	"Components_49337" -> "ComponentDescriptor_48320" [label=2; weight=2; penwidth=0.3; color = 3]
+	"EventSubscribers_11479" -> "ComponentDescriptor_48320" [label=2; weight=2; penwidth=0.3; color = 3]
+	"FilesystemStyleComponentDescriptor_48055" -> "ComponentDescriptor_48320" [label=2; weight=2; penwidth=0.3; color = 3]
+	"AnnotatedEntityMetamodel_32793" -> "PolymorphicEntityMetamodel_32998" [label=1; weight=1; penwidth=0.3; color = 3]
+	"ComponentFactory_49338" -> "Configuration_48799" [label=1; weight=1; penwidth=0.3; color = 3]
+	"ComponentFactory_49338" -> "Component_48166" [label=1; weight=1; penwidth=0.3; color = 3]
+	"ComponentRegistry_48797" -> "ComponentFactory_49338" [label=1; weight=1; penwidth=0.3; color = 3]
+	"ConcreteEntityMetamodel_34650" -> "EntityMetamodel_32975" [label=1; weight=1; penwidth=0.3; color = 3]
+	"EntityCommandHandlingComponent_32790" -> "CommandHandlingComponent_9480" [label=1; weight=1; penwidth=0.3; color = 3]
+	"EntityMetamodel_32975" -> "ConcreteEntityMetamodel_34650" [label=1; weight=1; penwidth=0.3; color = 3]
+	"EntityMetamodel_32975" -> "PolymorphicEntityMetamodel_32998" [label=1; weight=1; penwidth=0.3; color = 3]
+	"EventBus_11578" -> "EventSink_11576" [label=1; weight=1; penwidth=0.3; color = 3]
+	"EventStore_36607" -> "EventBus_11578" [label=1; weight=1; penwidth=0.3; color = 3]
+	"JacksonComponentDescriptor_48056" -> "ComponentDescriptor_48320" [label=1; weight=1; penwidth=0.3; color = 3]
 }

@@ -1,4 +1,4 @@
 "codeUnitName","shortCodeUnitName","projectName","betweenness","degree","incomingDependencies","outgoingDependencies","Source Cypher File: /home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/domains/anomaly-detection/queries/AnomalyDetectionSilentCoordinators.cypher"
-"/axon-metrics-micrometer-5.0.2.jar","axon-metrics-micrometer-5.0.2",,0,2,0,2,""
 "/axon-spring-boot-autoconfigure-5.0.2.jar","axon-spring-boot-autoconfigure-5.0.2",,0,7,0,7,""
+"/axon-metrics-micrometer-5.0.2.jar","axon-metrics-micrometer-5.0.2",,0,2,0,2,""
 "/axon-tracing-opentelemetry-5.0.2.jar","axon-tracing-opentelemetry-5.0.2",,0,2,0,2,""

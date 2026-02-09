@@ -33,8 +33,8 @@
   <tbody>
     <tr>
       <th>0</th>
-      <td>522652</td>
-      <td>1622121</td>
+      <td>522598</td>
+      <td>1621741</td>
       <td>11</td>
       <td>124</td>
       <td>1784</td>
@@ -80,15 +80,15 @@ The whole table can be found in the CSV report `Number_of_types_per_artifact`.
       <th>1</th>
       <td>axon-messaging-5.0.2</td>
       <td>570</td>
-      <td>Interface</td>
-      <td>137</td>
+      <td>Annotation</td>
+      <td>27</td>
     </tr>
     <tr>
       <th>2</th>
       <td>axon-messaging-5.0.2</td>
       <td>570</td>
-      <td>Annotation</td>
-      <td>27</td>
+      <td>Interface</td>
+      <td>137</td>
     </tr>
     <tr>
       <th>3</th>
@@ -213,22 +213,22 @@ The whole table can be found in the CSV report `Number_of_types_per_artifact`.
       <th>20</th>
       <td>axon-spring-boot-autoconfigure-5.0.2</td>
       <td>72</td>
-      <td>Enum</td>
-      <td>2</td>
+      <td>Annotation</td>
+      <td>3</td>
     </tr>
     <tr>
       <th>21</th>
       <td>axon-spring-boot-autoconfigure-5.0.2</td>
       <td>72</td>
-      <td>Annotation</td>
-      <td>3</td>
+      <td>Interface</td>
+      <td>1</td>
     </tr>
     <tr>
       <th>22</th>
       <td>axon-spring-boot-autoconfigure-5.0.2</td>
       <td>72</td>
-      <td>Interface</td>
-      <td>1</td>
+      <td>Enum</td>
+      <td>2</td>
     </tr>
     <tr>
       <th>23</th>
@@ -597,22 +597,22 @@ The whole table can be found in the CSV report `Number_of_packages_per_artifact`
     </tr>
     <tr>
       <th>3</th>
-      <td>axon-modelling-5.0.2</td>
-      <td>7</td>
-    </tr>
-    <tr>
-      <th>4</th>
       <td>axon-spring-boot-autoconfigure-5.0.2</td>
       <td>7</td>
     </tr>
     <tr>
+      <th>4</th>
+      <td>axon-modelling-5.0.2</td>
+      <td>7</td>
+    </tr>
+    <tr>
       <th>5</th>
-      <td>axon-update-5.0.2</td>
+      <td>axon-test-5.0.2</td>
       <td>5</td>
     </tr>
     <tr>
       <th>6</th>
-      <td>axon-test-5.0.2</td>
+      <td>axon-update-5.0.2</td>
       <td>5</td>
     </tr>
     <tr>

@@ -1401,7 +1401,7 @@ The following table shows the top 30 packages with the highest effective lines o
       <td>234</td>
       <td>85</td>
       <td>13</td>
-      <td>computeIfAbsent</td>
+      <td>lambda$computeIfPresent$4</td>
     </tr>
     <tr>
       <th>25</th>
@@ -2444,7 +2444,7 @@ The following table shows the top 30 packages with the highest cyclomatic comple
       <td>383</td>
       <td>182</td>
       <td>9</td>
-      <td>getExactDirectSuperTypesOfParameterizedTypeOrC...</td>
+      <td>fieldNameFromMember</td>
     </tr>
     <tr>
       <th>7</th>
@@ -2471,7 +2471,7 @@ The following table shows the top 30 packages with the highest cyclomatic comple
       <td>358</td>
       <td>262</td>
       <td>8</td>
-      <td>registerComponent</td>
+      <td>hasComponent</td>
     </tr>
     <tr>
       <th>4</th>
@@ -2498,7 +2498,7 @@ The following table shows the top 30 packages with the highest cyclomatic comple
       <td>249</td>
       <td>121</td>
       <td>7</td>
-      <td>covers</td>
+      <td>equals</td>
     </tr>
     <tr>
       <th>12</th>
@@ -2516,7 +2516,7 @@ The following table shows the top 30 packages with the highest cyclomatic comple
       <td>218</td>
       <td>162</td>
       <td>4</td>
-      <td>lambda$appendEvents$0</td>
+      <td>splitSegment</td>
     </tr>
     <tr>
       <th>9</th>
@@ -2525,7 +2525,7 @@ The following table shows the top 30 packages with the highest cyclomatic comple
       <td>217</td>
       <td>141</td>
       <td>8</td>
-      <td>withGapsCleaned</td>
+      <td>loadKeyViolationCodes</td>
     </tr>
     <tr>
       <th>11</th>
@@ -2534,7 +2534,7 @@ The following table shows the top 30 packages with the highest cyclomatic comple
       <td>216</td>
       <td>172</td>
       <td>4</td>
-      <td>subscribe</td>
+      <td>subscribeToUpdates</td>
     </tr>
     <tr>
       <th>10</th>
@@ -2552,7 +2552,7 @@ The following table shows the top 30 packages with the highest cyclomatic comple
       <td>177</td>
       <td>134</td>
       <td>9</td>
-      <td>buildConverter</td>
+      <td>registerHandlerInterceptors</td>
     </tr>
     <tr>
       <th>16</th>
@@ -2561,7 +2561,7 @@ The following table shows the top 30 packages with the highest cyclomatic comple
       <td>173</td>
       <td>101</td>
       <td>8</td>
-      <td>matchingFields</td>
+      <td>matchesList</td>
     </tr>
     <tr>
       <th>18</th>
@@ -2579,7 +2579,7 @@ The following table shows the top 30 packages with the highest cyclomatic comple
       <td>150</td>
       <td>147</td>
       <td>2</td>
-      <td>batchSize</td>
+      <td>threadCount</td>
     </tr>
     <tr>
       <th>24</th>
@@ -2624,7 +2624,7 @@ The following table shows the top 30 packages with the highest cyclomatic comple
       <td>130</td>
       <td>75</td>
       <td>6</td>
-      <td>createChildEntityMatcher</td>
+      <td>createCommandTargetResolver</td>
     </tr>
     <tr>
       <th>13</th>
@@ -2633,7 +2633,7 @@ The following table shows the top 30 packages with the highest cyclomatic comple
       <td>127</td>
       <td>90</td>
       <td>6</td>
-      <td>sendResponses</td>
+      <td>responseSendingLoop</td>
     </tr>
     <tr>
       <th>20</th>
@@ -2651,7 +2651,7 @@ The following table shows the top 30 packages with the highest cyclomatic comple
       <td>119</td>
       <td>92</td>
       <td>4</td>
-      <td>havingTags</td>
+      <td>or</td>
     </tr>
     <tr>
       <th>28</th>
@@ -2687,7 +2687,7 @@ The following table shows the top 30 packages with the highest cyclomatic comple
       <td>99</td>
       <td>50</td>
       <td>6</td>
-      <td>validateSegment</td>
+      <td>equals</td>
     </tr>
   </tbody>
 </table>
@@ -2847,8 +2847,8 @@ The following table shows the top 30 packages containing the methods with the hi
       <td>6</td>
       <td>axon-common-5.0.2</td>
       <td>org.axonframework.common</td>
-      <td>TypeReflectionUtils</td>
-      <td>getExactDirectSuperTypesOfParameterizedTypeOrC...</td>
+      <td>ReflectionUtils</td>
+      <td>fieldNameFromMember</td>
       <td>9</td>
     </tr>
     <tr>
@@ -2865,8 +2865,8 @@ The following table shows the top 30 packages containing the methods with the hi
       <td>17</td>
       <td>axon-spring-boot-autoconfigure-5.0.2</td>
       <td>org.axonframework.extension.springboot.autoconfig</td>
-      <td>ConverterAutoConfiguration</td>
-      <td>buildConverter</td>
+      <td>InterceptorAutoConfiguration</td>
+      <td>registerHandlerInterceptors</td>
       <td>9</td>
     </tr>
     <tr>
@@ -2874,8 +2874,8 @@ The following table shows the top 30 packages containing the methods with the hi
       <td>9</td>
       <td>axon-eventsourcing-5.0.2</td>
       <td>org.axonframework.eventsourcing.eventstore.jpa</td>
-      <td>GapAwareTrackingTokenOperations</td>
-      <td>withGapsCleaned</td>
+      <td>SQLErrorCodesResolver</td>
+      <td>loadKeyViolationCodes</td>
       <td>8</td>
     </tr>
     <tr>
@@ -2902,7 +2902,7 @@ The following table shows the top 30 packages containing the methods with the hi
       <td>axon-common-5.0.2</td>
       <td>org.axonframework.common.configuration</td>
       <td>DefaultComponentRegistry</td>
-      <td>registerComponent</td>
+      <td>hasComponent</td>
       <td>8</td>
     </tr>
     <tr>
@@ -2928,8 +2928,8 @@ The following table shows the top 30 packages containing the methods with the hi
       <td>16</td>
       <td>axon-test-5.0.2</td>
       <td>org.axonframework.test.matchers</td>
-      <td>DeepEqualsMatcher</td>
-      <td>matchingFields</td>
+      <td>SequenceMatcher</td>
+      <td>matchesList</td>
       <td>8</td>
     </tr>
     <tr>
@@ -2982,8 +2982,8 @@ The following table shows the top 30 packages containing the methods with the hi
       <td>15</td>
       <td>axon-messaging-5.0.2</td>
       <td>org.axonframework.messaging.eventhandling.proc...</td>
-      <td>GapAwareTrackingToken</td>
-      <td>covers</td>
+      <td>ReplayToken</td>
+      <td>equals</td>
       <td>7</td>
     </tr>
   </tbody>

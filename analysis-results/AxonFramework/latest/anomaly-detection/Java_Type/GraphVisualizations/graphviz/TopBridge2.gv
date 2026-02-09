@@ -12,25 +12,10 @@ strict digraph TopBridge2 {
     central [fontsize = 16;];
     central [color = 7; fillcolor = 5; penwidth = 3;];
 
-	graph   [label="Top Rank #2 Java Type Bridge\norg.axonframework.extension.springboot.autoconfig.AxonTimeoutAutoConfiguration$AxonTimeoutConfigurerModule\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
-	central [label="🌉 bridge #2\nAxonTimeoutAutoConfiguration$AxonTimeoutConfigurerModule"];
-	"AxonTimeoutAutoConfiguration_19270" [label = "AxonTimeoutAutoConfiguration"; ]; "AxonTimeoutAutoConfiguration_19270" -> central [label=3; weight=3; penwidth=0.4];
-	"TimeoutProperties$TransactionTimeoutProperties_19342" [label = "TimeoutProperties$\nTransactionTimeoutProperties"; color = 5; fillcolor = 1; ]; central -> "TimeoutProperties$TransactionTimeoutProperties_19342" [label=12; weight=12; penwidth=0.6; color = 5];
-	"TaskTimeoutSettings_49354" [label = "TaskTimeoutSettings"; color = 5; fillcolor = 1; ]; central -> "TaskTimeoutSettings_49354" [label=11; weight=11; penwidth=0.6; color = 5];
-	"UnitOfWorkTimeoutInterceptorBuilder_49355" [label = "UnitOfWorkTimeoutInterceptorBuilder"; color = 5; fillcolor = 1; ]; central -> "UnitOfWorkTimeoutInterceptorBuilder_49355" [label=9; weight=9; penwidth=0.5; color = 5];
-	"Configuration_3725" [label = "Configuration"; color = 5; fillcolor = 1; ]; central -> "Configuration_3725" [label=6; weight=6; penwidth=0.5; color = 5];
-	"HandlerInterceptorRegistry_38872" [label = "HandlerInterceptorRegistry"; color = 5; fillcolor = 1; ]; central -> "HandlerInterceptorRegistry_38872" [label=6; weight=6; penwidth=0.5; color = 5];
-	"CommandBus_30471" [label = "CommandBus"; color = 5; fillcolor = 1; ]; central -> "CommandBus_30471" [label=3; weight=3; penwidth=0.4; color = 5];
-	"MessageHandlerInterceptor_28898" [label = "MessageHandlerInterceptor"; color = 5; fillcolor = 1; ]; central -> "MessageHandlerInterceptor_28898" [label=3; weight=3; penwidth=0.4; color = 5];
-	"QueryBus_39903" [label = "QueryBus"; color = 5; fillcolor = 1; ]; central -> "QueryBus_39903" [label=3; weight=3; penwidth=0.4; color = 5];
-	"ComponentRegistry_3723" [label = "ComponentRegistry"; color = 5; fillcolor = 1; ]; central -> "ComponentRegistry_3723" [label=2; weight=2; penwidth=0.4; color = 5];
-	"ConfigurationEnhancer_5245" [label = "ConfigurationEnhancer"; color = 5; fillcolor = 1; ]; central -> "ConfigurationEnhancer_5245" [label=1; weight=1; penwidth=0.4; color = 5];
-	"TimeoutProperties$TransactionTimeoutProperties_19342" -> "TaskTimeoutSettings_49354" [label=22; weight=22; penwidth=0.3; color = 3]
-	"HandlerInterceptorRegistry_38872" -> "MessageHandlerInterceptor_28898" [label=7; weight=7; penwidth=0.3; color = 3]
-	"UnitOfWorkTimeoutInterceptorBuilder_49355" -> "MessageHandlerInterceptor_28898" [label=4; weight=4; penwidth=0.3; color = 3]
-	"HandlerInterceptorRegistry_38872" -> "Configuration_3725" [label=3; weight=3; penwidth=0.3; color = 3]
-	"ComponentRegistry_3723" -> "ConfigurationEnhancer_5245" [label=2; weight=2; penwidth=0.3; color = 3]
-	"AxonTimeoutAutoConfiguration_19270" -> "ConfigurationEnhancer_5245" [label=1; weight=1; penwidth=0.3; color = 3]
-	"AxonTimeoutAutoConfiguration_19270" -> "TimeoutProperties$TransactionTimeoutProperties_19342" [label=1; weight=1; penwidth=0.3; color = 3]
-	"ConfigurationEnhancer_5245" -> "ComponentRegistry_3723" [label=1; weight=1; penwidth=0.3; color = 3]
+	graph   [label="Top Rank #2 Java Type Bridge\norg.axonframework.extension.springboot.autoconfig.ObjectMapperAutoConfiguration$JacksonConfiguredCondition$MessagesJacksonCondition\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
+	central [label="🌉 bridge #2\nObjectMapperAutoConfiguration$JacksonConfiguredCondition$MessagesJacksonCondition"];
+	"ObjectMapperAutoConfiguration_4877" [label = "ObjectMapperAutoConfiguration"; ]; "ObjectMapperAutoConfiguration_4877" -> central [label=1; weight=1; penwidth=0.4];
+	"ObjectMapperAutoConfiguration$JacksonConfiguredCondition_4865" [label = "ObjectMapperAutoConfiguration$\nJacksonConfiguredCondition"; ]; "ObjectMapperAutoConfiguration$JacksonConfiguredCondition_4865" -> central [label=1; weight=1; penwidth=0.4];
+	"ObjectMapperAutoConfiguration$JacksonConfiguredCondition_4865" [label = "ObjectMapperAutoConfiguration$\nJacksonConfiguredCondition"; color = 5; fillcolor = 1; ]; central -> "ObjectMapperAutoConfiguration$JacksonConfiguredCondition_4865" [label=1; weight=1; penwidth=0.4; color = 5];
+	"ObjectMapperAutoConfiguration_4877" -> "ObjectMapperAutoConfiguration$JacksonConfiguredCondition_4865" [label=2; weight=2; penwidth=0.3; color = 3]
 }

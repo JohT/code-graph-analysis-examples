@@ -84,7 +84,7 @@ The projection and related common parameters are shared across all embedding alg
       <td>116</td>
       <td>1464</td>
       <td>0.109745</td>
-      <td>2761663</td>
+      <td>2696095</td>
       <td>1</td>
       <td>12.62069</td>
       <td>77</td>
@@ -129,48 +129,48 @@ The projection and related common parameters are shared across all embedding alg
   <tbody>
     <tr>
       <th>0</th>
-      <td>org.axonframework.update</td>
-      <td>update</td>
-      <td>axon-update-5.0.2</td>
+      <td>org.axonframework.test</td>
+      <td>test</td>
+      <td>axon-test-5.0.2</td>
       <td>0</td>
-      <td>0.155862</td>
-      <td>[0.3862416446208954, -0.0036093471571803093, 0...</td>
+      <td>0.213802</td>
+      <td>[0.1249225065112114, -0.21532128751277924, 0.6...</td>
     </tr>
     <tr>
       <th>1</th>
-      <td>org.axonframework.update.detection</td>
-      <td>detection</td>
-      <td>axon-update-5.0.2</td>
+      <td>org.axonframework.test.fixture</td>
+      <td>fixture</td>
+      <td>axon-test-5.0.2</td>
       <td>0</td>
-      <td>0.161399</td>
-      <td>[0.38302767276763916, -0.00465570529922843, 0....</td>
+      <td>0.150000</td>
+      <td>[0.18445917963981628, -0.2606947124004364, 0.5...</td>
     </tr>
     <tr>
       <th>2</th>
-      <td>org.axonframework.update.common</td>
-      <td>common</td>
-      <td>axon-update-5.0.2</td>
+      <td>org.axonframework.test.matchers</td>
+      <td>matchers</td>
+      <td>axon-test-5.0.2</td>
       <td>0</td>
-      <td>0.157793</td>
-      <td>[0.38187527656555176, -0.004720853175967932, 0...</td>
+      <td>0.164095</td>
+      <td>[0.15407398343086243, -0.25172293186187744, 0....</td>
     </tr>
     <tr>
       <th>3</th>
-      <td>org.axonframework.update.api</td>
-      <td>api</td>
-      <td>axon-update-5.0.2</td>
+      <td>org.axonframework.messaging.eventhandling</td>
+      <td>eventhandling</td>
+      <td>axon-messaging-5.0.2</td>
       <td>0</td>
-      <td>0.333418</td>
-      <td>[0.38603371381759644, -0.003224647371098399, 0...</td>
+      <td>0.747640</td>
+      <td>[-0.04218064993619919, -0.42090272903442383, -...</td>
     </tr>
     <tr>
       <th>4</th>
-      <td>org.axonframework.update.configuration</td>
-      <td>configuration</td>
-      <td>axon-update-5.0.2</td>
+      <td>org.axonframework.messaging.eventhandling.inte...</td>
+      <td>interception</td>
+      <td>axon-messaging-5.0.2</td>
       <td>0</td>
-      <td>0.160359</td>
-      <td>[0.43578654527664185, -0.01690436340868473, 0....</td>
+      <td>0.153804</td>
+      <td>[0.1134166568517685, -0.23861253261566162, -0....</td>
     </tr>
   </tbody>
 </table>
@@ -222,48 +222,48 @@ This step takes the original node embeddings in their high dimensionality, e.g. 
   <tbody>
     <tr>
       <th>0</th>
-      <td>org.axonframework.update</td>
-      <td>update</td>
-      <td>axon-update-5.0.2</td>
+      <td>org.axonframework.test</td>
+      <td>test</td>
+      <td>axon-test-5.0.2</td>
       <td>0</td>
-      <td>0.155862</td>
-      <td>[0.0, 0.0, -0.4330126941204071, -0.64951904118...</td>
+      <td>0.213802</td>
+      <td>[-1.0825317353010178, -0.8660253882408142, 0.2...</td>
     </tr>
     <tr>
       <th>1</th>
-      <td>org.axonframework.update.detection</td>
-      <td>detection</td>
-      <td>axon-update-5.0.2</td>
+      <td>org.axonframework.test.fixture</td>
+      <td>fixture</td>
+      <td>axon-test-5.0.2</td>
       <td>0</td>
-      <td>0.161399</td>
-      <td>[-0.4330126941204071, 0.6495190411806107, 0.0,...</td>
+      <td>0.150000</td>
+      <td>[-0.4330126941204071, -1.5155444294214249, 0.0...</td>
     </tr>
     <tr>
       <th>2</th>
-      <td>org.axonframework.update.common</td>
-      <td>common</td>
-      <td>axon-update-5.0.2</td>
+      <td>org.axonframework.test.matchers</td>
+      <td>matchers</td>
+      <td>axon-test-5.0.2</td>
       <td>0</td>
-      <td>0.157793</td>
-      <td>[-0.4330126941204071, 0.0, 0.4330126941204071,...</td>
+      <td>0.164095</td>
+      <td>[-0.6495190411806107, -0.4330126941204071, 0.2...</td>
     </tr>
     <tr>
       <th>3</th>
-      <td>org.axonframework.update.api</td>
-      <td>api</td>
-      <td>axon-update-5.0.2</td>
+      <td>org.axonframework.messaging.eventhandling</td>
+      <td>eventhandling</td>
+      <td>axon-messaging-5.0.2</td>
       <td>0</td>
-      <td>0.333418</td>
-      <td>[-0.6495190411806107, -0.21650634706020355, 0....</td>
+      <td>0.747640</td>
+      <td>[0.8660253882408142, -2.1650634706020355, 0.43...</td>
     </tr>
     <tr>
       <th>4</th>
-      <td>org.axonframework.update.configuration</td>
-      <td>configuration</td>
-      <td>axon-update-5.0.2</td>
+      <td>org.axonframework.messaging.eventhandling.inte...</td>
+      <td>interception</td>
+      <td>axon-messaging-5.0.2</td>
       <td>0</td>
-      <td>0.160359</td>
-      <td>[0.21650634706020355, 1.2990380823612213, 0.43...</td>
+      <td>0.153804</td>
+      <td>[1.2990380823612213, -1.7320507764816284, -0.2...</td>
     </tr>
   </tbody>
 </table>
@@ -301,48 +301,48 @@ This step takes the original node embeddings in their high dimensionality, e.g. 
   <tbody>
     <tr>
       <th>0</th>
-      <td>org.axonframework.update</td>
-      <td>update</td>
-      <td>axon-update-5.0.2</td>
+      <td>org.axonframework.test</td>
+      <td>test</td>
+      <td>axon-test-5.0.2</td>
       <td>0</td>
-      <td>0.155862</td>
-      <td>[0.2565348744392395, -0.11189279705286026, -0....</td>
+      <td>0.213802</td>
+      <td>[0.3826170563697815, -0.5034387707710266, 0.20...</td>
     </tr>
     <tr>
       <th>1</th>
-      <td>org.axonframework.update.detection</td>
-      <td>detection</td>
-      <td>axon-update-5.0.2</td>
+      <td>org.axonframework.test.fixture</td>
+      <td>fixture</td>
+      <td>axon-test-5.0.2</td>
       <td>0</td>
-      <td>0.161399</td>
-      <td>[0.2922505736351013, 0.001989659620448947, -0....</td>
+      <td>0.150000</td>
+      <td>[0.024618113413453102, -0.6036202907562256, 0....</td>
     </tr>
     <tr>
       <th>2</th>
-      <td>org.axonframework.update.common</td>
-      <td>common</td>
-      <td>axon-update-5.0.2</td>
+      <td>org.axonframework.test.matchers</td>
+      <td>matchers</td>
+      <td>axon-test-5.0.2</td>
       <td>0</td>
-      <td>0.157793</td>
-      <td>[0.10746358335018158, -0.008088313974440098, -...</td>
+      <td>0.164095</td>
+      <td>[0.027481559664011, -0.6380680799484253, 0.413...</td>
     </tr>
     <tr>
       <th>3</th>
-      <td>org.axonframework.update.api</td>
-      <td>api</td>
-      <td>axon-update-5.0.2</td>
+      <td>org.axonframework.messaging.eventhandling</td>
+      <td>eventhandling</td>
+      <td>axon-messaging-5.0.2</td>
       <td>0</td>
-      <td>0.333418</td>
-      <td>[0.23340782523155212, -0.12072036415338516, -0...</td>
+      <td>0.747640</td>
+      <td>[0.021317530423402786, -0.2561981976032257, 0....</td>
     </tr>
     <tr>
       <th>4</th>
-      <td>org.axonframework.update.configuration</td>
-      <td>configuration</td>
-      <td>axon-update-5.0.2</td>
+      <td>org.axonframework.messaging.eventhandling.inte...</td>
+      <td>interception</td>
+      <td>axon-messaging-5.0.2</td>
       <td>0</td>
-      <td>0.160359</td>
-      <td>[0.11589553952217102, -0.08196156471967697, -0...</td>
+      <td>0.153804</td>
+      <td>[0.24743688106536865, -0.14833155274391174, 0....</td>
     </tr>
   </tbody>
 </table>
@@ -376,8 +376,8 @@ This step takes the original node embeddings in their high dimensionality, e.g. 
       <td>java-package-embeddings-notebook-graphSAGE</td>
       <td>True</td>
       <td>1</td>
-      <td>[27.333410922827433]</td>
-      <td>145</td>
+      <td>[27.199182807923293]</td>
+      <td>167</td>
     </tr>
   </tbody>
 </table>
@@ -405,53 +405,53 @@ This step takes the original node embeddings in their high dimensionality, e.g. 
   <tbody>
     <tr>
       <th>0</th>
-      <td>org.axonframework.update</td>
-      <td>update</td>
-      <td>4:11131b40-22bc-4e81-b6b4-de7fbe96d73d:19</td>
-      <td>axon-update-5.0.2</td>
+      <td>org.axonframework.test</td>
+      <td>test</td>
+      <td>4:14a26c2a-fa4d-4421-98ca-aa8bfb2ed989:19</td>
+      <td>axon-test-5.0.2</td>
       <td>0</td>
-      <td>0.155862</td>
-      <td>[-0.004854696819666798, 0.038051406250655555, ...</td>
+      <td>0.213802</td>
+      <td>[-0.004854696765339093, 0.038051411669090866, ...</td>
     </tr>
     <tr>
       <th>1</th>
-      <td>org.axonframework.update.detection</td>
-      <td>detection</td>
-      <td>4:11131b40-22bc-4e81-b6b4-de7fbe96d73d:20</td>
-      <td>axon-update-5.0.2</td>
+      <td>org.axonframework.test.fixture</td>
+      <td>fixture</td>
+      <td>4:14a26c2a-fa4d-4421-98ca-aa8bfb2ed989:20</td>
+      <td>axon-test-5.0.2</td>
       <td>0</td>
-      <td>0.161399</td>
-      <td>[-0.004854696819666798, 0.03805140625065552, 0...</td>
+      <td>0.150000</td>
+      <td>[-0.004854696765339092, 0.03805141166909085, 0...</td>
     </tr>
     <tr>
       <th>2</th>
-      <td>org.axonframework.update.common</td>
-      <td>common</td>
-      <td>4:11131b40-22bc-4e81-b6b4-de7fbe96d73d:21</td>
-      <td>axon-update-5.0.2</td>
-      <td>0</td>
-      <td>0.157793</td>
-      <td>[-0.004854696819666798, 0.038051406250655465, ...</td>
+      <td>org.axonframework.test.util</td>
+      <td>util</td>
+      <td>4:14a26c2a-fa4d-4421-98ca-aa8bfb2ed989:21</td>
+      <td>axon-test-5.0.2</td>
+      <td>1</td>
+      <td>0.152563</td>
+      <td>[-0.004854696765339091, 0.03805141166909087, 0...</td>
     </tr>
     <tr>
       <th>3</th>
-      <td>org.axonframework.update.api</td>
-      <td>api</td>
-      <td>4:11131b40-22bc-4e81-b6b4-de7fbe96d73d:22</td>
-      <td>axon-update-5.0.2</td>
-      <td>0</td>
-      <td>0.333418</td>
-      <td>[-0.004854696819666799, 0.03805140625065545, 0...</td>
+      <td>org.axonframework.test.server</td>
+      <td>server</td>
+      <td>4:14a26c2a-fa4d-4421-98ca-aa8bfb2ed989:22</td>
+      <td>axon-test-5.0.2</td>
+      <td>1</td>
+      <td>0.277915</td>
+      <td>[-0.004854696765339091, 0.03805141166909086, 0...</td>
     </tr>
     <tr>
       <th>4</th>
-      <td>org.axonframework.update.configuration</td>
-      <td>configuration</td>
-      <td>4:11131b40-22bc-4e81-b6b4-de7fbe96d73d:23</td>
-      <td>axon-update-5.0.2</td>
+      <td>org.axonframework.test.matchers</td>
+      <td>matchers</td>
+      <td>4:14a26c2a-fa4d-4421-98ca-aa8bfb2ed989:23</td>
+      <td>axon-test-5.0.2</td>
       <td>0</td>
-      <td>0.160359</td>
-      <td>[-0.004854696819666798, 0.038051406250655555, ...</td>
+      <td>0.164095</td>
+      <td>[-0.004854696765339091, 0.03805141166909087, 0...</td>
     </tr>
   </tbody>
 </table>

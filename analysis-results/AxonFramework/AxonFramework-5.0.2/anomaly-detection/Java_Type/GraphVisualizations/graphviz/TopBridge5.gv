@@ -12,10 +12,9 @@ strict digraph TopBridge5 {
     central [fontsize = 16;];
     central [color = 7; fillcolor = 5; penwidth = 3;];
 
-	graph   [label="Top Rank #5 Java Type Bridge\norg.axonframework.eventsourcing.annotation.EventTags\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
-	central [label="🌉 bridge #5\nEventTags"];
-	"AnnotationBasedTagResolver_24124" [label = "AnnotationBasedTagResolver"; ]; "AnnotationBasedTagResolver_24124" -> central [label=2; weight=2; penwidth=0.4];
-	"EventTag_22740" [label = "EventTag"; ]; "EventTag_22740" -> central [label=1; weight=1; penwidth=0.4];
-	"EventTag_22740" [label = "EventTag"; color = 5; fillcolor = 1; ]; central -> "EventTag_22740" [label=1; weight=1; penwidth=0.4; color = 5];
-	"AnnotationBasedTagResolver_24124" -> "EventTag_22740" [label=6; weight=6; penwidth=0.3; color = 3]
+	graph   [label="Top Rank #5 Java Type Bridge\norg.axonframework.messaging.eventhandling.processing.streaming.segmenting.AddedTrackerStatus\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
+	central [label="🌉 bridge #5\nAddedTrackerStatus"];
+	"WrappedTrackerStatus_16806" [label = "WrappedTrackerStatus"; color = 5; fillcolor = 1; ]; central -> "WrappedTrackerStatus_16806" [label=2; weight=2; penwidth=0.4; color = 5];
+	"EventTrackerStatus_14612" [label = "EventTrackerStatus"; color = 5; fillcolor = 1; ]; central -> "EventTrackerStatus_14612" [label=1; weight=1; penwidth=0.4; color = 5];
+	"WrappedTrackerStatus_16806" -> "EventTrackerStatus_14612" [label=15; weight=15; penwidth=0.3; color = 3]
 }
