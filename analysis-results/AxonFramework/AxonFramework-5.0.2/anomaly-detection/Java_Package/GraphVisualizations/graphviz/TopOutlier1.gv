@@ -12,27 +12,24 @@ strict digraph TopOutlier1 {
     central [fontsize = 16;];
     central [color = 7; fillcolor = 5; penwidth = 3;];
 
-	graph   [label="Top Rank #1 Java Package Outlier\norg.axonframework.messaging.eventhandling.replay.annotation\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: cluster probability\nlarge circle: < 25% percentile of cluster probability\nthick outline: > 80% percentile of distance to cluster center\n\n"];
-	central [label="🧩 outlier #1\nannotation"];
-	"annotation_7293"  [label = "annotation\n(50.24%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "annotation_7293" [label=9; weight=9; penwidth=0.6; color = 5];
-	"replay_7264"  [shape = "circle"; height=1.8; label = "replay\n(32.96%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "replay_7264" [label=7; weight=7; penwidth=0.5; color = 5];
-	"token_7272"  [label = "token\n(68.7%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "token_7272" [label=4; weight=4; penwidth=0.5; color = 5];
-	"annotation_45792"  [shape = "circle"; height=1.8; label = "annotation\n(0.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "annotation_45792" [label=1; weight=1; penwidth=0.4; color = 5];
-	"core_7292"  [label = "core\n(41.88%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "core_7292" [label=1; weight=1; penwidth=0.4; color = 5];
-	"eventhandling_7262"  [label = "eventhandling\n(99.45%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "eventhandling_7262" [label=1; weight=1; penwidth=0.4; color = 5];
-	"unitofwork_7300"  [label = "unitofwork\n(100.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "unitofwork_7300" [label=1; weight=1; penwidth=0.4; color = 5];
-	"annotation_7293" -> "core_7292" [label=83; weight=83; penwidth=0.3; color = 3]
-	"eventhandling_7262" -> "core_7292" [label=54; weight=54; penwidth=0.3; color = 3]
-	"unitofwork_7300" -> "core_7292" [label=50; weight=50; penwidth=0.3; color = 3]
-	"annotation_7293" -> "annotation_45792" [label=16; weight=16; penwidth=0.3; color = 3]
-	"annotation_7293" -> "unitofwork_7300" [label=14; weight=14; penwidth=0.3; color = 3]
-	"replay_7264" -> "core_7292" [label=13; weight=13; penwidth=0.3; color = 3]
-	"eventhandling_7262" -> "unitofwork_7300" [label=9; weight=9; penwidth=0.3; color = 3]
-	"eventhandling_7262" -> "annotation_45792" [label=7; weight=7; penwidth=0.3; color = 3]
-	"core_7292" -> "annotation_45792" [label=5; weight=5; penwidth=0.3; color = 3]
-	"core_7292" -> "unitofwork_7300" [label=5; weight=5; penwidth=0.3; color = 3]
-	"token_7272" -> "core_7292" [label=4; weight=4; penwidth=0.3; color = 3]
-	"core_7292" -> "annotation_7293" [label=1; weight=1; penwidth=0.3; color = 3]
+	graph   [label="Top Rank #1 Java Package Outlier\norg.axonframework.messaging.core.unitofwork.transaction\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: cluster probability\nlarge circle: < 25% percentile of cluster probability\nthick outline: > 80% percentile of distance to cluster center\n\n"];
+	central [label="🧩 outlier #1\ntransaction"];
+	"autoconfig_4209"  [shape = "circle"; height=1.8; label = "autoconfig\n(65.3%)"; penwidth = 2; ]; "autoconfig_4209" -> central [label=2; weight=2; penwidth=0.4];
+	"configuration_7304"  [label = "configuration\n(100.0%)"; penwidth = 2; ]; "configuration_7304" -> central [label=1; weight=1; penwidth=0.4];
+	"jpa_36577"  [shape = "circle"; height=1.8; label = "jpa\n(59.16%)"; penwidth = 5; ]; "jpa_36577" -> central [label=1; weight=1; penwidth=0.4];
+	"unitofwork_7300"  [label = "unitofwork\n(100.0%)"; penwidth = 2; ]; "unitofwork_7300" -> central [label=1; weight=1; penwidth=0.4];
+	"jdbc_36576"  [shape = "circle"; height=1.8; label = "jdbc\n(0.0%)"; penwidth = 2; ]; "jdbc_36576" -> central [label=0; weight=0; penwidth=0.4];
+	"unitofwork_7300"  [label = "unitofwork\n(100.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "unitofwork_7300" [label=3; weight=3; penwidth=0.5; color = 5];
+	"annotation_45792"  [shape = "circle"; height=1.8; label = "annotation\n(46.75%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "annotation_45792" [label=1; weight=1; penwidth=0.4; color = 5];
+	"tx_45797"  [shape = "circle"; height=1.8; label = "tx\n(0.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "tx_45797" [label=0; weight=0; penwidth=0.4; color = 5];
+	"autoconfig_4209" -> "jpa_36577" [label=17; weight=17; penwidth=0.3; color = 3]
+	"configuration_7304" -> "unitofwork_7300" [label=6; weight=6; penwidth=0.3; color = 3]
+	"jpa_36577" -> "tx_45797" [label=2; weight=2; penwidth=0.3; color = 3]
+	"jpa_36577" -> "annotation_45792" [label=2; weight=2; penwidth=0.3; color = 3]
+	"jdbc_36576" -> "annotation_45792" [label=1; weight=1; penwidth=0.3; color = 3]
+	"jdbc_36576" -> "tx_45797" [label=1; weight=1; penwidth=0.3; color = 3]
+	"jpa_36577" -> "unitofwork_7300" [label=1; weight=1; penwidth=0.3; color = 3]
+	"tx_45797" -> "annotation_45792" [label=1; weight=1; penwidth=0.3; color = 3]
 	"unitofwork_7300" -> "annotation_45792" [label=1; weight=1; penwidth=0.3; color = 3]
-	"core_7292" -> "eventhandling_7262" [label=0; weight=0; penwidth=0.3; color = 3]
+	"jdbc_36576" -> "unitofwork_7300" [label=0; weight=0; penwidth=0.3; color = 3]
 }

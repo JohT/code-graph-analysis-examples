@@ -14,21 +14,21 @@ strict digraph TopOutlier3 {
 
 	graph   [label="Top Rank #3 Java Package Outlier\norg.axonframework.eventsourcing.eventstore.jpa\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: cluster probability\nlarge circle: < 25% percentile of cluster probability\nthick outline: > 80% percentile of distance to cluster center\n\n"];
 	central [label="🧩 outlier #3\njpa"];
-	"autoconfig_4209"  [shape = "circle"; height=1.8; label = "autoconfig\n(60.19%)"; penwidth = 2; ]; "autoconfig_4209" -> central [label=17; weight=17; penwidth=0.7];
+	"autoconfig_4209"  [shape = "circle"; height=1.8; label = "autoconfig\n(65.3%)"; penwidth = 2; ]; "autoconfig_4209" -> central [label=17; weight=17; penwidth=0.7];
 	"eventstore_36574"  [label = "eventstore\n(100.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "eventstore_36574" [label=46; weight=46; penwidth=1.2; color = 5];
-	"token_7272"  [label = "token\n(77.59%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "token_7272" [label=36; weight=36; penwidth=1.0; color = 5];
-	"core_7292"  [label = "core\n(95.15%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "core_7292" [label=22; weight=22; penwidth=0.8; color = 5];
+	"token_7272"  [label = "token\n(100.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "token_7272" [label=36; weight=36; penwidth=1.0; color = 5];
+	"core_7292"  [label = "core\n(91.04%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "core_7292" [label=22; weight=22; penwidth=0.8; color = 5];
 	"common_45790"  [label = "common\n(100.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "common_45790" [label=20; weight=20; penwidth=0.7; color = 5];
-	"eventhandling_7262"  [label = "eventhandling\n(90.25%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "eventhandling_7262" [label=8; weight=8; penwidth=0.5; color = 5];
+	"eventhandling_7262"  [label = "eventhandling\n(100.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "eventhandling_7262" [label=8; weight=8; penwidth=0.5; color = 5];
 	"eventstreaming_7284"  [label = "eventstreaming\n(100.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "eventstreaming_7284" [label=4; weight=4; penwidth=0.5; color = 5];
 	"jpa_45802"  [shape = "circle"; height=1.8; label = "jpa\n(0.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "jpa_45802" [label=3; weight=3; penwidth=0.5; color = 5];
-	"annotation_45792"  [shape = "circle"; height=1.8; label = "annotation\n(39.7%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "annotation_45792" [label=2; weight=2; penwidth=0.4; color = 5];
+	"annotation_45792"  [shape = "circle"; height=1.8; label = "annotation\n(46.75%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "annotation_45792" [label=2; weight=2; penwidth=0.4; color = 5];
 	"io_45791"  [shape = "circle"; height=1.8; label = "io\n(0.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "io_45791" [label=2; weight=2; penwidth=0.4; color = 5];
-	"jdbc_45793"  [label = "jdbc\n(75.58%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "jdbc_45793" [label=2; weight=2; penwidth=0.4; color = 5];
+	"jdbc_45793"  [label = "jdbc\n(82.38%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "jdbc_45793" [label=2; weight=2; penwidth=0.4; color = 5];
 	"tx_45797"  [shape = "circle"; height=1.8; label = "tx\n(0.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "tx_45797" [label=2; weight=2; penwidth=0.4; color = 5];
-	"conversion_7269"  [shape = "circle"; height=1.8; label = "conversion\n(42.57%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "conversion_7269" [label=1; weight=1; penwidth=0.4; color = 5];
-	"infra_45799"  [label = "infra\n(74.46%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "infra_45799" [label=1; weight=1; penwidth=0.4; color = 5];
-	"transaction_7302"  [shape = "circle"; height=1.8; label = "transaction\n(42.57%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "transaction_7302" [label=1; weight=1; penwidth=0.4; color = 5];
+	"conversion_7269"  [shape = "circle"; height=1.8; label = "conversion\n(41.52%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "conversion_7269" [label=1; weight=1; penwidth=0.4; color = 5];
+	"infra_45799"  [label = "infra\n(65.35%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "infra_45799" [label=1; weight=1; penwidth=0.4; color = 5];
+	"transaction_7302"  [shape = "circle"; height=1.8; label = "transaction\n(41.52%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "transaction_7302" [label=1; weight=1; penwidth=0.4; color = 5];
 	"unitofwork_7300"  [label = "unitofwork\n(100.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "unitofwork_7300" [label=1; weight=1; penwidth=0.4; color = 5];
 	"conversion_29688"  [label = "conversion\n(100.0%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "conversion_29688" [label=0; weight=0; penwidth=0.4; color = 5];
 	"function_45804"  [shape = "circle"; height=1.8; label = "function\n(0.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "function_45804" [label=0; weight=0; penwidth=0.4; color = 5];
@@ -63,24 +63,24 @@ strict digraph TopOutlier3 {
 	"infra_45799" -> "common_45790" [label=3; weight=3; penwidth=0.3; color = 3]
 	"transaction_7302" -> "unitofwork_7300" [label=3; weight=3; penwidth=0.3; color = 3]
 	"autoconfig_4209" -> "common_45790" [label=2; weight=2; penwidth=0.3; color = 3]
-	"autoconfig_4209" -> "transaction_7302" [label=2; weight=2; penwidth=0.3; color = 3]
 	"autoconfig_4209" -> "jdbc_45793" [label=2; weight=2; penwidth=0.3; color = 3]
+	"autoconfig_4209" -> "transaction_7302" [label=2; weight=2; penwidth=0.3; color = 3]
 	"conversion_7269" -> "eventhandling_7262" [label=2; weight=2; penwidth=0.3; color = 3]
-	"eventstore_36574" -> "infra_45799" [label=2; weight=2; penwidth=0.3; color = 3]
 	"eventstore_36574" -> "token_7272" [label=2; weight=2; penwidth=0.3; color = 3]
+	"eventstore_36574" -> "infra_45799" [label=2; weight=2; penwidth=0.3; color = 3]
 	"eventstreaming_7284" -> "common_45790" [label=2; weight=2; penwidth=0.3; color = 3]
 	"jdbc_45793" -> "common_45790" [label=2; weight=2; penwidth=0.3; color = 3]
 	"jdbc_45793" -> "annotation_45792" [label=2; weight=2; penwidth=0.3; color = 3]
 	"jpa_45802" -> "annotation_45792" [label=2; weight=2; penwidth=0.3; color = 3]
-	"autoconfig_4209" -> "eventstore_36574" [label=1; weight=1; penwidth=0.3; color = 3]
 	"autoconfig_4209" -> "eventhandling_7262" [label=1; weight=1; penwidth=0.3; color = 3]
+	"autoconfig_4209" -> "eventstore_36574" [label=1; weight=1; penwidth=0.3; color = 3]
 	"conversion_7269" -> "annotation_45792" [label=1; weight=1; penwidth=0.3; color = 3]
 	"conversion_29688" -> "infra_45799" [label=1; weight=1; penwidth=0.3; color = 3]
 	"eventstreaming_7284" -> "unitofwork_7300" [label=1; weight=1; penwidth=0.3; color = 3]
 	"jpa_45802" -> "common_45790" [label=1; weight=1; penwidth=0.3; color = 3]
 	"transaction_7302" -> "annotation_45792" [label=1; weight=1; penwidth=0.3; color = 3]
-	"tx_45797" -> "function_45804" [label=1; weight=1; penwidth=0.3; color = 3]
 	"tx_45797" -> "annotation_45792" [label=1; weight=1; penwidth=0.3; color = 3]
+	"tx_45797" -> "function_45804" [label=1; weight=1; penwidth=0.3; color = 3]
 	"unitofwork_7300" -> "annotation_45792" [label=1; weight=1; penwidth=0.3; color = 3]
 	"unitofwork_7300" -> "transaction_7302" [label=1; weight=1; penwidth=0.3; color = 3]
 	"conversion_7269" -> "conversion_29688" [label=0; weight=0; penwidth=0.3; color = 3]

@@ -14,19 +14,19 @@ strict digraph TopOutlier2 {
 
 	graph   [label="Top Rank #2 Java Type Outlier\norg.axonframework.axonserver.connector.query.QueryResponseMessageStream\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: cluster probability\nlarge circle: < 25% percentile of cluster probability\nthick outline: > 80% percentile of distance to cluster center\n\n"];
 	central [label="🧩 outlier #2\nQueryResponseMessageStream"];
-	"AxonServerQueryBusConnector_42889"  [label = "AxonServerQueryBusConnector\n(10.32%)"; penwidth = 2; ]; "AxonServerQueryBusConnector_42889" -> central [label=6; weight=6; penwidth=0.5];
+	"AxonServerQueryBusConnector_42889"  [shape = "circle"; height=1.8; label = "AxonServerQueryBusConnector\n(0.0%)"; penwidth = 2; ]; "AxonServerQueryBusConnector_42889" -> central [label=6; weight=6; penwidth=0.5];
 	"AbstractQueryResponseMessageStream_43074"  [shape = "circle"; height=1.8; label = "AbstractQueryResponseMessageStream\n(0.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "AbstractQueryResponseMessageStream_43074" [label=2; weight=2; penwidth=0.4; color = 5];
-	"AxonException_45806"  [label = "AxonException\n(32.11%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "AxonException_45806" [label=2; weight=2; penwidth=0.4; color = 5];
-	"QueryResponseMessage_17831"  [label = "QueryResponseMessage\n(59.79%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "QueryResponseMessage_17831" [label=2; weight=2; penwidth=0.4; color = 5];
-	"ExceptionConverter_41298"  [label = "ExceptionConverter\n(69.44%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "ExceptionConverter_41298" [label=1; weight=1; penwidth=0.4; color = 5];
-	"Internal_46215"  [label = "Internal\n(52.73%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "Internal_46215" [label=1; weight=1; penwidth=0.4; color = 5];
+	"AxonException_45806"  [label = "AxonException\n(43.14%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "AxonException_45806" [label=2; weight=2; penwidth=0.4; color = 5];
+	"QueryResponseMessage_17831"  [shape = "circle"; height=1.8; label = "QueryResponseMessage\n(0.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "QueryResponseMessage_17831" [label=2; weight=2; penwidth=0.4; color = 5];
+	"ExceptionConverter_41298"  [label = "ExceptionConverter\n(100.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "ExceptionConverter_41298" [label=1; weight=1; penwidth=0.4; color = 5];
+	"Internal_46215"  [label = "Internal\n(64.97%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "Internal_46215" [label=1; weight=1; penwidth=0.4; color = 5];
 	"QueryConverter_42891"  [label = "QueryConverter\n(100.0%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "QueryConverter_42891" [label=1; weight=1; penwidth=0.4; color = 5];
 	"QueryConverter_42891" -> "QueryResponseMessage_17831" [label=7; weight=7; penwidth=0.3; color = 3]
 	"AbstractQueryResponseMessageStream_43074" -> "QueryResponseMessage_17831" [label=5; weight=5; penwidth=0.3; color = 3]
 	"AxonServerQueryBusConnector_42889" -> "QueryResponseMessage_17831" [label=2; weight=2; penwidth=0.3; color = 3]
 	"AxonServerQueryBusConnector_42889" -> "QueryConverter_42891" [label=2; weight=2; penwidth=0.3; color = 3]
-	"AbstractQueryResponseMessageStream_43074" -> "AxonException_45806" [label=1; weight=1; penwidth=0.3; color = 3]
 	"AbstractQueryResponseMessageStream_43074" -> "Internal_46215" [label=1; weight=1; penwidth=0.3; color = 3]
+	"AbstractQueryResponseMessageStream_43074" -> "AxonException_45806" [label=1; weight=1; penwidth=0.3; color = 3]
 	"ExceptionConverter_41298" -> "AxonException_45806" [label=1; weight=1; penwidth=0.3; color = 3]
 	"QueryConverter_42891" -> "Internal_46215" [label=1; weight=1; penwidth=0.3; color = 3]
 	"QueryConverter_42891" -> "ExceptionConverter_41298" [label=1; weight=1; penwidth=0.3; color = 3]

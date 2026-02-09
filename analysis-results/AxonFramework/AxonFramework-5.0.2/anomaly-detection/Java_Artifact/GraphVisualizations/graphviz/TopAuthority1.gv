@@ -23,7 +23,7 @@ strict digraph TopAuthority1 {
 	"axon-update-5.0.2_2965"  [label = "axon-update-5.0.2\n(0.79%)"; penwidth = 2; ]; "axon-update-5.0.2_2965" -> central [label=52; weight=52; penwidth=0.5];
 	"axon-conversion-5.0.2_29670"  [label = "axon-conversion-5.0.2\n(4.44%)"; penwidth = 2; ]; "axon-conversion-5.0.2_29670" -> central [label=26; weight=26; penwidth=0.5];
 	"axon-metrics-micrometer-5.0.2_31326"  [label = "axon-metrics-micrometer-5.0.2\n(0.0%)"; penwidth = 5; ]; "axon-metrics-micrometer-5.0.2_31326" -> central [label=8; weight=8; penwidth=0.4];
-	"axon-tracing-opentelemetry-5.0.2_51207"  [label = "axon-tracing-opentelemetry-5.0.2\n(0.0%)"; penwidth = 5; ]; "axon-tracing-opentelemetry-5.0.2_51207" -> central [label=2; weight=2; penwidth=0.4];
+	"axon-tracing-opentelemetry-5.0.2_51205"  [label = "axon-tracing-opentelemetry-5.0.2\n(0.0%)"; penwidth = 5; ]; "axon-tracing-opentelemetry-5.0.2_51205" -> central [label=2; weight=2; penwidth=0.4];
 	"axon-eventsourcing-5.0.2_36553" -> "axon-messaging-5.0.2_7232" [label=366; weight=366; penwidth=0.3; color = 3]
 	"axon-modelling-5.0.2_32188" -> "axon-messaging-5.0.2_7232" [label=316; weight=316; penwidth=0.3; color = 3]
 	"axon-server-connector-5.0.2_41217" -> "axon-messaging-5.0.2_7232" [label=298; weight=298; penwidth=0.3; color = 3]
@@ -33,7 +33,7 @@ strict digraph TopAuthority1 {
 	"axon-messaging-5.0.2_7232" -> "axon-conversion-5.0.2_29670" [label=68; weight=68; penwidth=0.3; color = 3]
 	"axon-metrics-micrometer-5.0.2_31326" -> "axon-messaging-5.0.2_7232" [label=66; weight=66; penwidth=0.3; color = 3]
 	"axon-eventsourcing-5.0.2_36553" -> "axon-modelling-5.0.2_32188" [label=54; weight=54; penwidth=0.3; color = 3]
-	"axon-tracing-opentelemetry-5.0.2_51207" -> "axon-messaging-5.0.2_7232" [label=22; weight=22; penwidth=0.3; color = 3]
+	"axon-tracing-opentelemetry-5.0.2_51205" -> "axon-messaging-5.0.2_7232" [label=22; weight=22; penwidth=0.3; color = 3]
 	"axon-spring-boot-autoconfigure-5.0.2_3994" -> "axon-eventsourcing-5.0.2_36553" [label=18; weight=18; penwidth=0.3; color = 3]
 	"axon-spring-boot-autoconfigure-5.0.2_3994" -> "axon-update-5.0.2_2965" [label=16; weight=16; penwidth=0.3; color = 3]
 	"axon-spring-boot-autoconfigure-5.0.2_3994" -> "axon-server-connector-5.0.2_41217" [label=14; weight=14; penwidth=0.3; color = 3]

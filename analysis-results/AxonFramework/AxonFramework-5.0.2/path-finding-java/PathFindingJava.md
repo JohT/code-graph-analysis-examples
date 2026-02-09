@@ -659,7 +659,7 @@ In this section we'll focus only on pairs of nodes that both belong to the same 
       <td>253</td>
       <td>57</td>
       <td>43</td>
-      <td>[/org/axonframework/messaging/monitoring/interception -&gt; /org/axonframework/messaging/monitoring, /org/axonframework/messaging/monitoring/configuration -&gt; /org/axonframework/messaging/monitoring, /org/axonframework/messaging/eventhandling/processing/streaming/pooled -&gt; /org/axonframework/messagi...</td>
+      <td>[/org/axonframework/messaging/core/configuration -&gt; /org/axonframework/messaging/monitoring, /org/axonframework/messaging/core/configuration -&gt; /org/axonframework/messaging/monitoring/interception, /org/axonframework/messaging/core/configuration -&gt; /org/axonframework/messaging/monitoring/configu...</td>
       <td>[axon-messaging-5.0.2 -&gt; axon-messaging-5.0.2]</td>
       <td>[]</td>
     </tr>
@@ -738,8 +738,8 @@ Shows the top 20 artifacts with the longest shortest path (=Graph Diameter).
     axon-eventsourcing-5.0.2                3
     axon-modelling-5.0.2                    3
     axon-common-5.0.2                       2
-    axon-server-connector-5.0.2             2
     axon-spring-boot-autoconfigure-5.0.2    2
+    axon-server-connector-5.0.2             2
     axon-conversion-5.0.2                   1
     axon-metrics-micrometer-5.0.2           1
     axon-test-5.0.2                         1
@@ -1102,9 +1102,9 @@ The following table shows the first 10 rows with all details of the query above.
       <td>28</td>
       <td>3</td>
       <td>28</td>
-      <td>10</td>
+      <td>9</td>
       <td>1</td>
-      <td>10</td>
+      <td>9</td>
       <td>[/org/axonframework/eventsourcing/configuration -&gt; /org/axonframework/messaging/commandhandling/configuration, /org/axonframework/eventsourcing/configuration -&gt; /org/axonframework/messaging/eventhandling/processing/streaming/token, /org/axonframework/eventsourcing/configuration -&gt; /org/axonframe...</td>
       <td>[axon-eventsourcing-5.0.2 -&gt; axon-messaging-5.0.2, axon-eventsourcing-5.0.2 -&gt; axon-modelling-5.0.2, axon-eventsourcing-5.0.2 -&gt; axon-common-5.0.2]</td>
       <td>[]</td>
@@ -1121,9 +1121,9 @@ The following table shows the first 10 rows with all details of the query above.
       <td>30</td>
       <td>8</td>
       <td>30</td>
-      <td>3</td>
-      <td>3</td>
-      <td>3</td>
+      <td>4</td>
+      <td>4</td>
+      <td>4</td>
       <td>[/org/axonframework/messaging/eventhandling/replay/annotation -&gt; /org/axonframework/messaging/eventhandling/replay, /org/axonframework/messaging/commandhandling/retry -&gt; /org/axonframework/messaging/core/retry, /org/axonframework/messaging/core/reflection -&gt; /org/axonframework/messaging/core/con...</td>
       <td>[axon-messaging-5.0.2 -&gt; axon-messaging-5.0.2]</td>
       <td>[]</td>
@@ -1312,9 +1312,9 @@ In this section we'll focus only on pairs of nodes that both belong to the same 
       <td>30</td>
       <td>8</td>
       <td>30</td>
-      <td>3</td>
-      <td>3</td>
-      <td>3</td>
+      <td>4</td>
+      <td>4</td>
+      <td>4</td>
       <td>[/org/axonframework/messaging/eventhandling/replay/annotation -&gt; /org/axonframework/messaging/eventhandling/replay, /org/axonframework/messaging/commandhandling/retry -&gt; /org/axonframework/messaging/core/retry, /org/axonframework/messaging/core/reflection -&gt; /org/axonframework/messaging/core/con...</td>
       <td>[axon-messaging-5.0.2 -&gt; axon-messaging-5.0.2]</td>
       <td>[]</td>
@@ -1429,10 +1429,10 @@ Shows the top 20 artifacts with their max. longest path.
 
     sourceProject
     axon-eventsourcing-5.0.2                2
-    axon-spring-boot-autoconfigure-5.0.2    2
     axon-test-5.0.2                         2
-    axon-messaging-5.0.2                    1
+    axon-spring-boot-autoconfigure-5.0.2    2
     axon-metrics-micrometer-5.0.2           1
+    axon-messaging-5.0.2                    1
     Name: distance, dtype: int64
 
 

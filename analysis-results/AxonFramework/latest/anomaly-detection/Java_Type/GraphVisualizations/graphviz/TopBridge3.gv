@@ -12,10 +12,10 @@ strict digraph TopBridge3 {
     central [fontsize = 16;];
     central [color = 7; fillcolor = 5; penwidth = 3;];
 
-	graph   [label="Top Rank #3 Java Type Bridge\norg.axonframework.axonserver.connector.util.GrpcMessageSizeWarningThresholdReachedException\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
-	central [label="🌉 bridge #3\nGrpcMessageSizeWarningThresholdReachedException"];
-	"GrpcMessageSizeInterceptor$1_41247" [label = "GrpcMessageSizeInterceptor$\n1"; ]; "GrpcMessageSizeInterceptor$1_41247" -> central [label=2; weight=2; penwidth=0.4];
-	"GrpcMessageSizeInterceptor$1$1_41825" [label = "GrpcMessageSizeInterceptor$\n1$\n1"; ]; "GrpcMessageSizeInterceptor$1$1_41825" -> central [label=2; weight=2; penwidth=0.4];
-	"GrpcMessageSizeInterceptor$1$1_41825" -> "GrpcMessageSizeInterceptor$1_41247" [label=10; weight=10; penwidth=0.3; color = 3]
-	"GrpcMessageSizeInterceptor$1_41247" -> "GrpcMessageSizeInterceptor$1$1_41825" [label=3; weight=3; penwidth=0.3; color = 3]
+	graph   [label="Top Rank #3 Java Type Bridge\norg.axonframework.extension.springboot.autoconfig.ObjectMapperAutoConfiguration$JacksonConfiguredCondition$GeneralJacksonCondition\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
+	central [label="🌉 bridge #3\nObjectMapperAutoConfiguration$JacksonConfiguredCondition$GeneralJacksonCondition"];
+	"ObjectMapperAutoConfiguration_4877" [label = "ObjectMapperAutoConfiguration"; ]; "ObjectMapperAutoConfiguration_4877" -> central [label=1; weight=1; penwidth=0.4];
+	"ObjectMapperAutoConfiguration$JacksonConfiguredCondition_4865" [label = "ObjectMapperAutoConfiguration$\nJacksonConfiguredCondition"; ]; "ObjectMapperAutoConfiguration$JacksonConfiguredCondition_4865" -> central [label=1; weight=1; penwidth=0.4];
+	"ObjectMapperAutoConfiguration$JacksonConfiguredCondition_4865" [label = "ObjectMapperAutoConfiguration$\nJacksonConfiguredCondition"; color = 5; fillcolor = 1; ]; central -> "ObjectMapperAutoConfiguration$JacksonConfiguredCondition_4865" [label=1; weight=1; penwidth=0.4; color = 5];
+	"ObjectMapperAutoConfiguration_4877" -> "ObjectMapperAutoConfiguration$JacksonConfiguredCondition_4865" [label=2; weight=2; penwidth=0.3; color = 3]
 }
