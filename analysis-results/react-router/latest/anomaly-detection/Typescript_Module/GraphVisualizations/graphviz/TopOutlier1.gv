@@ -14,7 +14,7 @@ strict digraph TopOutlier1 {
 
 	graph   [label="Top Rank #1 Typescript Module Outlier\n/home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.13.0/source/react-router-7.13.0/packages/react-router-dev/vite/profiler.ts\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: cluster probability\nlarge circle: < 25% percentile of cluster probability\nthick outline: > 80% percentile of distance to cluster center\n\n"];
 	central [label="🧩 outlier #1\nprofiler"];
-	"commands_204058"  [shape = "circle"; height=1.8; label = "commands\n(11.3%)"; penwidth = 2; ]; "commands_204058" -> central [label=16; weight=16; penwidth=0.4];
-	"dev_204082"  [shape = "circle"; height=1.8; label = "dev\n(4.79%)"; penwidth = 5; ]; "dev_204082" -> central [label=12; weight=12; penwidth=0.4];
+	"commands_204058"  [label = "commands\n(13.45%)"; penwidth = 2; ]; "commands_204058" -> central [label=16; weight=16; penwidth=0.4];
+	"dev_204082"  [shape = "circle"; height=1.8; label = "dev\n(4.78%)"; penwidth = 5; ]; "dev_204082" -> central [label=12; weight=12; penwidth=0.4];
 	"commands_204058" -> "dev_204082" [label=5; weight=5; penwidth=0.3; color = 3]
 }

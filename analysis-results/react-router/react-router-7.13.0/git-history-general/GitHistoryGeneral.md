@@ -49,8 +49,8 @@
       <td>12.776892</td>
       <td>125.561753</td>
       <td>174.159363</td>
-      <td>508.565737</td>
-      <td>194.151394</td>
+      <td>508.613546</td>
+      <td>194.183267</td>
     </tr>
     <tr>
       <th>std</th>
@@ -58,8 +58,8 @@
       <td>42.242609</td>
       <td>429.580557</td>
       <td>148.746410</td>
-      <td>466.991073</td>
-      <td>226.175775</td>
+      <td>466.981325</td>
+      <td>226.176635</td>
     </tr>
     <tr>
       <th>min</th>
@@ -94,7 +94,7 @@
       <td>9.000000</td>
       <td>66.000000</td>
       <td>208.000000</td>
-      <td>585.000000</td>
+      <td>585.500000</td>
       <td>227.000000</td>
     </tr>
     <tr>
@@ -573,7 +573,7 @@
       <td>Matt Brophy</td>
       <td>10</td>
       <td>200</td>
-      <td>572</td>
+      <td>573</td>
       <td>199</td>
       <td>2025-07-24</td>
       <td>2024-07-16</td>
@@ -593,7 +593,7 @@
       <td>Matt Brophy</td>
       <td>10</td>
       <td>200</td>
-      <td>573</td>
+      <td>574</td>
       <td>199</td>
       <td>2025-07-24</td>
       <td>2024-07-15</td>
@@ -674,7 +674,7 @@
       <td>36</td>
       <td>103</td>
       <td>597</td>
-      <td>102</td>
+      <td>103</td>
       <td>2025-10-29</td>
       <td>2024-06-21</td>
       <td>2025-10-29</td>
@@ -694,7 +694,7 @@
       <td>53</td>
       <td>103</td>
       <td>597</td>
-      <td>102</td>
+      <td>103</td>
       <td>2025-10-29</td>
       <td>2024-06-21</td>
       <td>2025-10-29</td>
@@ -1494,8 +1494,8 @@ The following charts show how these metrics are distributed across pairs of file
       <td>tsx↔tsx</td>
       <td>13</td>
       <td>10</td>
-      <td>hydrated-router↔lib</td>
-      <td>packages/react-router/lib/dom-export/hydrated-router.tsx↔packages/react-router/lib/dom/lib.tsx</td>
+      <td>data-browser-router-test↔lib</td>
+      <td>packages/react-router/__tests__/dom/data-browser-router-test.tsx↔packages/react-router/lib/dom/lib.tsx</td>
     </tr>
   </tbody>
 </table>
@@ -1632,7 +1632,7 @@ This metric is useful to identify pairs of files that are frequently changed tog
       <td>0.694444</td>
       <td>3</td>
       <td>package↔package</td>
-      <td>examples/auth/package.json↔examples/custom-link/package.json</td>
+      <td>examples/basic/package.json↔examples/custom-link/package.json</td>
     </tr>
     <tr>
       <th>13</th>
@@ -1640,7 +1640,7 @@ This metric is useful to identify pairs of files that are frequently changed tog
       <td>0.676471</td>
       <td>4</td>
       <td>package↔package</td>
-      <td>examples/auth/package.json↔examples/custom-filter-link/package.json</td>
+      <td>examples/basic/package.json↔examples/custom-filter-link/package.json</td>
     </tr>
     <tr>
       <th>14</th>
@@ -1648,7 +1648,7 @@ This metric is useful to identify pairs of files that are frequently changed tog
       <td>0.666667</td>
       <td>5</td>
       <td>package↔package</td>
-      <td>examples/custom-link/package.json↔examples/custom-query-parsing/package.json</td>
+      <td>examples/basic/package.json↔examples/custom-query-parsing/package.json</td>
     </tr>
     <tr>
       <th>15</th>
@@ -1656,7 +1656,7 @@ This metric is useful to identify pairs of files that are frequently changed tog
       <td>0.656250</td>
       <td>6</td>
       <td>package↔package</td>
-      <td>examples/basic/package.json↔examples/multi-app/package.json</td>
+      <td>examples/custom-link/package.json↔examples/multi-app/package.json</td>
     </tr>
     <tr>
       <th>16</th>
@@ -1727,8 +1727,8 @@ This metric is useful to identify pairs of files that are frequently changed tog
       <td>ts↔tsx</td>
       <td>0.384615</td>
       <td>5</td>
-      <td>context↔entry.client</td>
-      <td>packages/react-router/lib/context.ts↔examples/ssr-data-router/src/entry.client.tsx</td>
+      <td>index↔entry.client</td>
+      <td>packages/react-router/index.ts↔examples/ssr-data-router/src/entry.client.tsx</td>
     </tr>
     <tr>
       <th>25</th>
@@ -1823,8 +1823,8 @@ This metric is useful to identify pairs of files that are frequently changed tog
       <td>tsx↔tsx</td>
       <td>0.409091</td>
       <td>7</td>
-      <td>data-memory-router-test↔entry.server</td>
-      <td>packages/react-router/__tests__/data-memory-router-test.tsx↔examples/ssr-data-router/src/entry.server.tsx</td>
+      <td>hooks↔entry.server</td>
+      <td>packages/react-router/lib/hooks.tsx↔examples/ssr-data-router/src/entry.server.tsx</td>
     </tr>
     <tr>
       <th>37</th>
@@ -2631,7 +2631,7 @@ This is useful to identify pairs of files that score high in most metrics, which
       <td>0.702703</td>
       <td>0.541667</td>
       <td>56.918919</td>
-      <td>examples/auth/package.json↔examples/ssr/package.json</td>
+      <td>examples/search-params/package.json↔examples/ssr/package.json</td>
     </tr>
     <tr>
       <th>3</th>
@@ -2646,7 +2646,7 @@ This is useful to identify pairs of files that score high in most metrics, which
       <td>0.702703</td>
       <td>0.541667</td>
       <td>56.918919</td>
-      <td>examples/search-params/package.json↔examples/ssr/package.json</td>
+      <td>examples/auth/package.json↔examples/ssr/package.json</td>
     </tr>
     <tr>
       <th>4</th>
@@ -3131,21 +3131,6 @@ This is useful to identify pairs of files that score high in most metrics, which
     <tr>
       <th>36</th>
       <td>ts↔tsx</td>
-      <td>rsc-nojs-test↔server.ssr</td>
-      <td>64</td>
-      <td>22</td>
-      <td>9</td>
-      <td>30</td>
-      <td>3</td>
-      <td>3</td>
-      <td>0.333333</td>
-      <td>0.066667</td>
-      <td>25.615385</td>
-      <td>integration/rsc/rsc-nojs-test.ts↔packages/react-router/lib/rsc/server.ssr.tsx</td>
-    </tr>
-    <tr>
-      <th>37</th>
-      <td>ts↔tsx</td>
       <td>server.rsc↔server.ssr</td>
       <td>64</td>
       <td>15</td>
@@ -3157,6 +3142,21 @@ This is useful to identify pairs of files that score high in most metrics, which
       <td>0.119048</td>
       <td>13.972028</td>
       <td>packages/react-router/lib/rsc/server.rsc.ts↔packages/react-router/lib/rsc/server.ssr.tsx</td>
+    </tr>
+    <tr>
+      <th>37</th>
+      <td>ts↔tsx</td>
+      <td>rsc-nojs-test↔server.ssr</td>
+      <td>64</td>
+      <td>22</td>
+      <td>9</td>
+      <td>30</td>
+      <td>3</td>
+      <td>3</td>
+      <td>0.333333</td>
+      <td>0.066667</td>
+      <td>25.615385</td>
+      <td>integration/rsc/rsc-nojs-test.ts↔packages/react-router/lib/rsc/server.ssr.tsx</td>
     </tr>
     <tr>
       <th>38</th>
@@ -3331,7 +3331,7 @@ The frontier = the “best tradeoffs.”
       <td>2</td>
       <td>1</td>
       <td>40</td>
-      <td>examples/auth/package.json↔examples/ssr/package.json</td>
+      <td>examples/search-params/package.json↔examples/ssr/package.json</td>
     </tr>
     <tr>
       <th>8</th>
@@ -3345,7 +3345,7 @@ The frontier = the “best tradeoffs.”
       <td>2</td>
       <td>1</td>
       <td>40</td>
-      <td>examples/search-params/package.json↔examples/ssr/package.json</td>
+      <td>examples/auth/package.json↔examples/ssr/package.json</td>
     </tr>
     <tr>
       <th>9</th>
