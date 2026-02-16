@@ -66,6 +66,6 @@ strict digraph TopBottleneck5 {
 	"RoutingKeyEventTargetMatcherDefinition_33569" -> "AnnotatedEntityMetamodel_32793" [label=2; weight=2; penwidth=0.3; color = 3]
 	"SingleEntityChildModelDefinition_34160" -> "AbstractEntityChildModelDefinition_33568" [label=2; weight=2; penwidth=0.3; color = 3]
 	"AnnotatedEntityMetamodel_32793" -> "Assert_45808" [label=1; weight=1; penwidth=0.3; color = 3]
-	"AnnotationBasedEventSourcedEntityFactory_36831" -> "QualifiedName_8274" [label=1; weight=1; penwidth=0.3; color = 3]
 	"AnnotationBasedEventSourcedEntityFactory_36831" -> "ObjectUtils_46968" [label=1; weight=1; penwidth=0.3; color = 3]
+	"AnnotationBasedEventSourcedEntityFactory_36831" -> "QualifiedName_8274" [label=1; weight=1; penwidth=0.3; color = 3]
 }

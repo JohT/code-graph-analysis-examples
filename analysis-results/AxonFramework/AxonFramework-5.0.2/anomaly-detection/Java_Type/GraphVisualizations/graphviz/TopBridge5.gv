@@ -12,11 +12,10 @@ strict digraph TopBridge5 {
     central [fontsize = 16;];
     central [color = 7; fillcolor = 5; penwidth = 3;];
 
-	graph   [label="Top Rank #5 Java Type Bridge\norg.axonframework.common.TypeReflectionUtils$VarMap$UnresolvedTypeVariableException\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
-	central [label="🌉 bridge #5\nTypeReflectionUtils$VarMap$UnresolvedTypeVariableException"];
-	"TypeReflectionUtils$VarMap_45885" [label = "TypeReflectionUtils$\nVarMap"; ]; "TypeReflectionUtils$VarMap_45885" -> central [label=3; weight=3; penwidth=0.4];
-	"TypeReflectionUtils_46952" [label = "TypeReflectionUtils"; ]; "TypeReflectionUtils_46952" -> central [label=1; weight=1; penwidth=0.4];
-	"TypeReflectionUtils$VarMap_45885" [label = "TypeReflectionUtils$\nVarMap"; color = 5; fillcolor = 1; ]; central -> "TypeReflectionUtils$VarMap_45885" [label=1; weight=1; penwidth=0.4; color = 5];
-	"TypeReflectionUtils_46952" -> "TypeReflectionUtils$VarMap_45885" [label=5; weight=5; penwidth=0.3; color = 3]
-	"TypeReflectionUtils$VarMap_45885" -> "TypeReflectionUtils_46952" [label=2; weight=2; penwidth=0.3; color = 3]
+	graph   [label="Top Rank #5 Java Type Bridge\norg.axonframework.extension.springboot.autoconfig.AvroSchemaStoreAutoConfiguration$AvroConfiguredCondition$MessagesAvroCondition\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
+	central [label="🌉 bridge #5\nAvroSchemaStoreAutoConfiguration$AvroConfiguredCondition$MessagesAvroCondition"];
+	"AvroSchemaStoreAutoConfiguration_4860" [label = "AvroSchemaStoreAutoConfiguration"; ]; "AvroSchemaStoreAutoConfiguration_4860" -> central [label=1; weight=1; penwidth=0.4];
+	"AvroSchemaStoreAutoConfiguration$AvroConfiguredCondition_4857" [label = "AvroSchemaStoreAutoConfiguration$\nAvroConfiguredCondition"; ]; "AvroSchemaStoreAutoConfiguration$AvroConfiguredCondition_4857" -> central [label=1; weight=1; penwidth=0.4];
+	"AvroSchemaStoreAutoConfiguration$AvroConfiguredCondition_4857" [label = "AvroSchemaStoreAutoConfiguration$\nAvroConfiguredCondition"; color = 5; fillcolor = 1; ]; central -> "AvroSchemaStoreAutoConfiguration$AvroConfiguredCondition_4857" [label=1; weight=1; penwidth=0.4; color = 5];
+	"AvroSchemaStoreAutoConfiguration_4860" -> "AvroSchemaStoreAutoConfiguration$AvroConfiguredCondition_4857" [label=4; weight=4; penwidth=0.3; color = 3]
 }

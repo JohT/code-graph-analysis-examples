@@ -12,24 +12,90 @@ strict digraph TopOutlier1 {
     central [fontsize = 16;];
     central [color = 7; fillcolor = 5; penwidth = 3;];
 
-	graph   [label="Top Rank #1 Java Package Outlier\norg.axonframework.messaging.core.unitofwork.transaction\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: cluster probability\nlarge circle: < 25% percentile of cluster probability\nthick outline: > 80% percentile of distance to cluster center\n\n"];
-	central [label="🧩 outlier #1\ntransaction"];
-	"autoconfig_4209"  [shape = "circle"; height=1.8; label = "autoconfig\n(65.3%)"; penwidth = 2; ]; "autoconfig_4209" -> central [label=2; weight=2; penwidth=0.4];
-	"configuration_7304"  [label = "configuration\n(100.0%)"; penwidth = 2; ]; "configuration_7304" -> central [label=1; weight=1; penwidth=0.4];
-	"jpa_36577"  [shape = "circle"; height=1.8; label = "jpa\n(59.16%)"; penwidth = 5; ]; "jpa_36577" -> central [label=1; weight=1; penwidth=0.4];
-	"unitofwork_7300"  [label = "unitofwork\n(100.0%)"; penwidth = 2; ]; "unitofwork_7300" -> central [label=1; weight=1; penwidth=0.4];
-	"jdbc_36576"  [shape = "circle"; height=1.8; label = "jdbc\n(0.0%)"; penwidth = 2; ]; "jdbc_36576" -> central [label=0; weight=0; penwidth=0.4];
-	"unitofwork_7300"  [label = "unitofwork\n(100.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "unitofwork_7300" [label=3; weight=3; penwidth=0.5; color = 5];
-	"annotation_45792"  [shape = "circle"; height=1.8; label = "annotation\n(46.75%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "annotation_45792" [label=1; weight=1; penwidth=0.4; color = 5];
-	"tx_45797"  [shape = "circle"; height=1.8; label = "tx\n(0.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "tx_45797" [label=0; weight=0; penwidth=0.4; color = 5];
-	"autoconfig_4209" -> "jpa_36577" [label=17; weight=17; penwidth=0.3; color = 3]
-	"configuration_7304" -> "unitofwork_7300" [label=6; weight=6; penwidth=0.3; color = 3]
-	"jpa_36577" -> "tx_45797" [label=2; weight=2; penwidth=0.3; color = 3]
-	"jpa_36577" -> "annotation_45792" [label=2; weight=2; penwidth=0.3; color = 3]
-	"jdbc_36576" -> "annotation_45792" [label=1; weight=1; penwidth=0.3; color = 3]
-	"jdbc_36576" -> "tx_45797" [label=1; weight=1; penwidth=0.3; color = 3]
-	"jpa_36577" -> "unitofwork_7300" [label=1; weight=1; penwidth=0.3; color = 3]
-	"tx_45797" -> "annotation_45792" [label=1; weight=1; penwidth=0.3; color = 3]
-	"unitofwork_7300" -> "annotation_45792" [label=1; weight=1; penwidth=0.3; color = 3]
-	"jdbc_36576" -> "unitofwork_7300" [label=0; weight=0; penwidth=0.3; color = 3]
+	graph   [label="Top Rank #1 Java Package Outlier\norg.axonframework.axonserver.connector\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: cluster probability\nlarge circle: < 25% percentile of cluster probability\nthick outline: > 80% percentile of distance to cluster center\n\n"];
+	central [label="🧩 outlier #1\nconnector"];
+	"autoconfig_4209"  [label = "autoconfig\n(98.73%)"; penwidth = 2; ]; "autoconfig_4209" -> central [label=24; weight=24; penwidth=0.8];
+	"query_41238"  [label = "query\n(79.43%)"; penwidth = 2; ]; "query_41238" -> central [label=17; weight=17; penwidth=0.7];
+	"event_41239"  [label = "event\n(100.0%)"; penwidth = 2; ]; "event_41239" -> central [label=16; weight=16; penwidth=0.7];
+	"command_41240"  [label = "command\n(79.43%)"; penwidth = 2; ]; "command_41240" -> central [label=7; weight=7; penwidth=0.5];
+	"util_41237"  [shape = "circle"; height=1.8; label = "util\n(0.0%)"; penwidth = 2; ]; "util_41237" -> central [label=6; weight=6; penwidth=0.5];
+	"axonserver_4208"  [label = "axonserver\n(100.0%)"; penwidth = 2; ]; "axonserver_4208" -> central [label=3; weight=3; penwidth=0.5];
+	"springboot_4204"  [label = "springboot\n(100.0%)"; penwidth = 2; ]; "springboot_4204" -> central [label=3; weight=3; penwidth=0.5];
+	"common_45790"  [label = "common\n(100.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "common_45790" [label=48; weight=48; penwidth=1.2; color = 5];
+	"configuration_45803"  [shape = "circle"; height=1.8; label = "configuration\n(0.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "configuration_45803" [label=24; weight=24; penwidth=0.8; color = 5];
+	"command_41240"  [label = "command\n(79.43%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "command_41240" [label=16; weight=16; penwidth=0.7; color = 5];
+	"eventstore_36574"  [label = "eventstore\n(100.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "eventstore_36574" [label=15; weight=15; penwidth=0.7; color = 5];
+	"query_41238"  [label = "query\n(79.43%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "query_41238" [label=14; weight=14; penwidth=0.6; color = 5];
+	"event_41239"  [label = "event\n(100.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "event_41239" [label=9; weight=9; penwidth=0.6; color = 5];
+	"commandhandling_7254"  [label = "commandhandling\n(81.29%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "commandhandling_7254" [label=6; weight=6; penwidth=0.5; color = 5];
+	"core_7292"  [label = "core\n(88.62%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "core_7292" [label=6; weight=6; penwidth=0.5; color = 5];
+	"distributed_7286"  [shape = "circle"; height=1.8; label = "distributed\n(68.45%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "distributed_7286" [label=6; weight=6; penwidth=0.5; color = 5];
+	"distributed_7255"  [shape = "circle"; height=1.8; label = "distributed\n(66.83%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "distributed_7255" [label=6; weight=6; penwidth=0.5; color = 5];
+	"queryhandling_7285"  [label = "queryhandling\n(99.3%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "queryhandling_7285" [label=6; weight=6; penwidth=0.5; color = 5];
+	"modelling_32206"  [label = "modelling\n(86.55%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "modelling_32206" [label=4; weight=4; penwidth=0.5; color = 5];
+	"util_41237"  [shape = "circle"; height=1.8; label = "util\n(0.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "util_41237" [label=3; weight=3; penwidth=0.5; color = 5];
+	"annotation_45792"  [shape = "circle"; height=1.8; label = "annotation\n(0.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "annotation_45792" [label=1; weight=1; penwidth=0.4; color = 5];
+	"conversion_7298"  [shape = "circle"; height=1.8; label = "conversion\n(0.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "conversion_7298" [label=1; weight=1; penwidth=0.4; color = 5];
+	"queryhandling_7285" -> "core_7292" [label=121; weight=121; penwidth=0.3; color = 3]
+	"autoconfig_4209" -> "springboot_4204" [label=72; weight=72; penwidth=0.3; color = 3]
+	"commandhandling_7254" -> "core_7292" [label=62; weight=62; penwidth=0.3; color = 3]
+	"event_41239" -> "core_7292" [label=53; weight=53; penwidth=0.3; color = 3]
+	"event_41239" -> "eventstore_36574" [label=50; weight=50; penwidth=0.3; color = 3]
+	"core_7292" -> "common_45790" [label=43; weight=43; penwidth=0.3; color = 3]
+	"query_41238" -> "core_7292" [label=43; weight=43; penwidth=0.3; color = 3]
+	"eventstore_36574" -> "core_7292" [label=31; weight=31; penwidth=0.3; color = 3]
+	"command_41240" -> "core_7292" [label=25; weight=25; penwidth=0.3; color = 3]
+	"configuration_45803" -> "common_45790" [label=24; weight=24; penwidth=0.3; color = 3]
+	"autoconfig_4209" -> "configuration_45803" [label=22; weight=22; penwidth=0.3; color = 3]
+	"queryhandling_7285" -> "common_45790" [label=22; weight=22; penwidth=0.3; color = 3]
+	"query_41238" -> "queryhandling_7285" [label=19; weight=19; penwidth=0.3; color = 3]
+	"distributed_7286" -> "queryhandling_7285" [label=17; weight=17; penwidth=0.3; color = 3]
+	"eventstore_36574" -> "common_45790" [label=17; weight=17; penwidth=0.3; color = 3]
+	"commandhandling_7254" -> "common_45790" [label=15; weight=15; penwidth=0.3; color = 3]
+	"command_41240" -> "commandhandling_7254" [label=13; weight=13; penwidth=0.3; color = 3]
+	"distributed_7255" -> "commandhandling_7254" [label=13; weight=13; penwidth=0.3; color = 3]
+	"query_41238" -> "common_45790" [label=12; weight=12; penwidth=0.3; color = 3]
+	"distributed_7286" -> "core_7292" [label=11; weight=11; penwidth=0.3; color = 3]
+	"autoconfig_4209" -> "core_7292" [label=10; weight=10; penwidth=0.3; color = 3]
+	"event_41239" -> "configuration_45803" [label=10; weight=10; penwidth=0.3; color = 3]
+	"query_41238" -> "util_41237" [label=9; weight=9; penwidth=0.3; color = 3]
+	"distributed_7286" -> "common_45790" [label=8; weight=8; penwidth=0.3; color = 3]
+	"autoconfig_4209" -> "axonserver_4208" [label=7; weight=7; penwidth=0.3; color = 3]
+	"distributed_7255" -> "core_7292" [label=6; weight=6; penwidth=0.3; color = 3]
+	"event_41239" -> "annotation_45792" [label=6; weight=6; penwidth=0.3; color = 3]
+	"eventstore_36574" -> "annotation_45792" [label=6; weight=6; penwidth=0.3; color = 3]
+	"modelling_32206" -> "core_7292" [label=6; weight=6; penwidth=0.3; color = 3]
+	"autoconfig_4209" -> "distributed_7286" [label=5; weight=5; penwidth=0.3; color = 3]
+	"command_41240" -> "util_41237" [label=5; weight=5; penwidth=0.3; color = 3]
+	"core_7292" -> "annotation_45792" [label=5; weight=5; penwidth=0.3; color = 3]
+	"distributed_7255" -> "common_45790" [label=5; weight=5; penwidth=0.3; color = 3]
+	"modelling_32206" -> "common_45790" [label=5; weight=5; penwidth=0.3; color = 3]
+	"autoconfig_4209" -> "conversion_7298" [label=4; weight=4; penwidth=0.3; color = 3]
+	"autoconfig_4209" -> "distributed_7255" [label=4; weight=4; penwidth=0.3; color = 3]
+	"command_41240" -> "common_45790" [label=4; weight=4; penwidth=0.3; color = 3]
+	"distributed_7286" -> "configuration_45803" [label=4; weight=4; penwidth=0.3; color = 3]
+	"distributed_7255" -> "configuration_45803" [label=4; weight=4; penwidth=0.3; color = 3]
+	"query_41238" -> "annotation_45792" [label=4; weight=4; penwidth=0.3; color = 3]
+	"annotation_45792" -> "common_45790" [label=3; weight=3; penwidth=0.3; color = 3]
+	"configuration_45803" -> "annotation_45792" [label=3; weight=3; penwidth=0.3; color = 3]
+	"query_41238" -> "distributed_7286" [label=3; weight=3; penwidth=0.3; color = 3]
+	"autoconfig_4209" -> "queryhandling_7285" [label=2; weight=2; penwidth=0.3; color = 3]
+	"autoconfig_4209" -> "common_45790" [label=2; weight=2; penwidth=0.3; color = 3]
+	"autoconfig_4209" -> "commandhandling_7254" [label=2; weight=2; penwidth=0.3; color = 3]
+	"command_41240" -> "distributed_7255" [label=2; weight=2; penwidth=0.3; color = 3]
+	"conversion_7298" -> "core_7292" [label=2; weight=2; penwidth=0.3; color = 3]
+	"event_41239" -> "common_45790" [label=2; weight=2; penwidth=0.3; color = 3]
+	"modelling_32206" -> "configuration_45803" [label=2; weight=2; penwidth=0.3; color = 3]
+	"util_41237" -> "common_45790" [label=2; weight=2; penwidth=0.3; color = 3]
+	"autoconfig_4209" -> "eventstore_36574" [label=1; weight=1; penwidth=0.3; color = 3]
+	"command_41240" -> "annotation_45792" [label=1; weight=1; penwidth=0.3; color = 3]
+	"conversion_7298" -> "annotation_45792" [label=1; weight=1; penwidth=0.3; color = 3]
+	"core_7292" -> "configuration_45803" [label=1; weight=1; penwidth=0.3; color = 3]
+	"distributed_7286" -> "conversion_7298" [label=1; weight=1; penwidth=0.3; color = 3]
+	"distributed_7286" -> "annotation_45792" [label=1; weight=1; penwidth=0.3; color = 3]
+	"distributed_7255" -> "conversion_7298" [label=1; weight=1; penwidth=0.3; color = 3]
+	"distributed_7255" -> "annotation_45792" [label=1; weight=1; penwidth=0.3; color = 3]
+	"queryhandling_7285" -> "conversion_7298" [label=1; weight=1; penwidth=0.3; color = 3]
+	"queryhandling_7285" -> "annotation_45792" [label=1; weight=1; penwidth=0.3; color = 3]
+	"springboot_4204" -> "annotation_45792" [label=1; weight=1; penwidth=0.3; color = 3]
 }
