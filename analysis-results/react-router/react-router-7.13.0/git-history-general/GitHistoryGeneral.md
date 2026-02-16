@@ -49,8 +49,8 @@
       <td>12.776892</td>
       <td>125.561753</td>
       <td>181.159363</td>
-      <td>515.565737</td>
-      <td>201.151394</td>
+      <td>515.593625</td>
+      <td>201.155378</td>
     </tr>
     <tr>
       <th>std</th>
@@ -58,8 +58,8 @@
       <td>42.242609</td>
       <td>429.580557</td>
       <td>148.746410</td>
-      <td>466.991073</td>
-      <td>226.175775</td>
+      <td>466.978717</td>
+      <td>226.180184</td>
     </tr>
     <tr>
       <th>min</th>
@@ -94,7 +94,7 @@
       <td>9.000000</td>
       <td>66.000000</td>
       <td>215.000000</td>
-      <td>592.000000</td>
+      <td>592.500000</td>
       <td>234.000000</td>
     </tr>
     <tr>
@@ -573,7 +573,7 @@
       <td>Matt Brophy</td>
       <td>10</td>
       <td>207</td>
-      <td>579</td>
+      <td>580</td>
       <td>206</td>
       <td>2025-07-24</td>
       <td>2024-07-16</td>
@@ -593,7 +593,7 @@
       <td>Matt Brophy</td>
       <td>10</td>
       <td>207</td>
-      <td>580</td>
+      <td>581</td>
       <td>206</td>
       <td>2025-07-24</td>
       <td>2024-07-15</td>
@@ -1494,8 +1494,8 @@ The following charts show how these metrics are distributed across pairs of file
       <td>tsx↔tsx</td>
       <td>13</td>
       <td>10</td>
-      <td>data-browser-router-test↔lib</td>
-      <td>packages/react-router/__tests__/dom/data-browser-router-test.tsx↔packages/react-router/lib/dom/lib.tsx</td>
+      <td>hydrated-router↔lib</td>
+      <td>packages/react-router/lib/dom-export/hydrated-router.tsx↔packages/react-router/lib/dom/lib.tsx</td>
     </tr>
   </tbody>
 </table>
@@ -1543,8 +1543,8 @@ This metric is useful to identify pairs of files that are frequently changed tog
       <td>ts↔ts</td>
       <td>0.800000</td>
       <td>2</td>
-      <td>vite-loader-context-test↔vite-node-env-test</td>
-      <td>integration/vite-loader-context-test.ts↔integration/vite-node-env-test.ts</td>
+      <td>vite-dotenv-test↔vite-node-env-test</td>
+      <td>integration/vite-dotenv-test.ts↔integration/vite-node-env-test.ts</td>
     </tr>
     <tr>
       <th>2</th>
@@ -1648,7 +1648,7 @@ This metric is useful to identify pairs of files that are frequently changed tog
       <td>0.666667</td>
       <td>5</td>
       <td>package↔package</td>
-      <td>examples/basic/package.json↔examples/custom-query-parsing/package.json</td>
+      <td>examples/auth/package.json↔examples/custom-query-parsing/package.json</td>
     </tr>
     <tr>
       <th>15</th>
@@ -1656,7 +1656,7 @@ This metric is useful to identify pairs of files that are frequently changed tog
       <td>0.656250</td>
       <td>6</td>
       <td>package↔package</td>
-      <td>examples/basic/package.json↔examples/multi-app/package.json</td>
+      <td>examples/lazy-loading/package.json↔examples/multi-app/package.json</td>
     </tr>
     <tr>
       <th>16</th>
@@ -1727,8 +1727,8 @@ This metric is useful to identify pairs of files that are frequently changed tog
       <td>ts↔tsx</td>
       <td>0.384615</td>
       <td>5</td>
-      <td>index↔entry.client</td>
-      <td>packages/react-router/index.ts↔examples/ssr-data-router/src/entry.client.tsx</td>
+      <td>context↔entry.client</td>
+      <td>packages/react-router/lib/context.ts↔examples/ssr-data-router/src/entry.client.tsx</td>
     </tr>
     <tr>
       <th>25</th>
@@ -2631,7 +2631,7 @@ This is useful to identify pairs of files that score high in most metrics, which
       <td>0.702703</td>
       <td>0.541667</td>
       <td>56.918919</td>
-      <td>examples/search-params/package.json↔examples/ssr/package.json</td>
+      <td>examples/auth/package.json↔examples/ssr/package.json</td>
     </tr>
     <tr>
       <th>3</th>
@@ -2646,7 +2646,7 @@ This is useful to identify pairs of files that score high in most metrics, which
       <td>0.702703</td>
       <td>0.541667</td>
       <td>56.918919</td>
-      <td>examples/auth/package.json↔examples/ssr/package.json</td>
+      <td>examples/search-params/package.json↔examples/ssr/package.json</td>
     </tr>
     <tr>
       <th>4</th>
@@ -2691,7 +2691,7 @@ This is useful to identify pairs of files that score high in most metrics, which
       <td>0.666667</td>
       <td>0.500000</td>
       <td>60.545455</td>
-      <td>examples/custom-query-parsing/package.json↔examples/route-objects/package.json</td>
+      <td>examples/lazy-loading/package.json↔examples/route-objects/package.json</td>
     </tr>
     <tr>
       <th>7</th>
@@ -2706,7 +2706,7 @@ This is useful to identify pairs of files that score high in most metrics, which
       <td>0.666667</td>
       <td>0.500000</td>
       <td>60.545455</td>
-      <td>examples/lazy-loading/package.json↔examples/route-objects/package.json</td>
+      <td>examples/custom-query-parsing/package.json↔examples/route-objects/package.json</td>
     </tr>
     <tr>
       <th>8</th>
@@ -3289,7 +3289,7 @@ The frontier = the “best tradeoffs.”
       <td>5</td>
       <td>5</td>
       <td>31</td>
-      <td>examples/custom-query-parsing/package.json↔examples/route-objects/package.json</td>
+      <td>examples/lazy-loading/package.json↔examples/route-objects/package.json</td>
     </tr>
     <tr>
       <th>5</th>
@@ -3303,7 +3303,7 @@ The frontier = the “best tradeoffs.”
       <td>5</td>
       <td>5</td>
       <td>31</td>
-      <td>examples/lazy-loading/package.json↔examples/route-objects/package.json</td>
+      <td>examples/custom-query-parsing/package.json↔examples/route-objects/package.json</td>
     </tr>
     <tr>
       <th>6</th>
@@ -3331,7 +3331,7 @@ The frontier = the “best tradeoffs.”
       <td>2</td>
       <td>1</td>
       <td>40</td>
-      <td>examples/search-params/package.json↔examples/ssr/package.json</td>
+      <td>examples/auth/package.json↔examples/ssr/package.json</td>
     </tr>
     <tr>
       <th>8</th>
@@ -3345,7 +3345,7 @@ The frontier = the “best tradeoffs.”
       <td>2</td>
       <td>1</td>
       <td>40</td>
-      <td>examples/auth/package.json↔examples/ssr/package.json</td>
+      <td>examples/search-params/package.json↔examples/ssr/package.json</td>
     </tr>
     <tr>
       <th>9</th>
@@ -3377,20 +3377,6 @@ The frontier = the “best tradeoffs.”
     </tr>
     <tr>
       <th>11</th>
-      <td>vite-loader-context-test↔vite-node-env-test</td>
-      <td>30</td>
-      <td>4</td>
-      <td>0.800000</td>
-      <td>0.222222</td>
-      <td>141.035294</td>
-      <td>23</td>
-      <td>2</td>
-      <td>3</td>
-      <td>2</td>
-      <td>integration/vite-loader-context-test.ts↔integration/vite-node-env-test.ts</td>
-    </tr>
-    <tr>
-      <th>12</th>
       <td>vite-server-bundles-test↔vite-node-env-test</td>
       <td>77</td>
       <td>5</td>
@@ -3402,6 +3388,20 @@ The frontier = the “best tradeoffs.”
       <td>46</td>
       <td>8</td>
       <td>integration/vite-server-bundles-test.ts↔integration/vite-node-env-test.ts</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>vite-loader-context-test↔vite-node-env-test</td>
+      <td>30</td>
+      <td>4</td>
+      <td>0.800000</td>
+      <td>0.222222</td>
+      <td>141.035294</td>
+      <td>23</td>
+      <td>2</td>
+      <td>3</td>
+      <td>2</td>
+      <td>integration/vite-loader-context-test.ts↔integration/vite-node-env-test.ts</td>
     </tr>
     <tr>
       <th>13</th>
