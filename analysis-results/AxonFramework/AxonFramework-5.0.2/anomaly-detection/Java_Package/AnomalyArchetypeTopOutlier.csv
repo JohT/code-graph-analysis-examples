@@ -1,2 +1,2 @@
 "projectName","shortCodeUnitName","codeUnitName","clusteringNormalizedDistanceToMedoid","clusterApproximateOutlierScore","rank","Source Cypher File: /home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/domains/anomaly-detection/labels/AnomalyDetectionArchetypeOutlier.cypher"
-"axon-server-connector-5.0.2","connector","org.axonframework.axonserver.connector",1,0.3904581034475261,1,""
+"axon-messaging-5.0.2","transaction","org.axonframework.messaging.core.unitofwork.transaction",1,0.6399362267003109,1,""
