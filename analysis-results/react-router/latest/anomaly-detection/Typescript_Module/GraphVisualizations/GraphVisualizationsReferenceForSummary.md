@@ -46,5 +46,3 @@
 
 ![TopOutlier 1](./Typescript_Module/GraphVisualizations/TopOutlier1.svg)
 
-![TopOutlier 2](./Typescript_Module/GraphVisualizations/TopOutlier2.svg)
-
