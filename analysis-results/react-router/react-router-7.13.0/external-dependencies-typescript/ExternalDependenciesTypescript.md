@@ -5,6 +5,18 @@
 - [jqassistant](https://jqassistant.org)
 - [Neo4j Python Driver](https://neo4j.com/docs/api/python-driver/current)
 
+    Unable to revert mtime: /usr/share/fonts
+    Unable to revert mtime: /usr/share/fonts/truetype
+    Unable to revert mtime: /usr/share/fonts/truetype/dejavu
+
+
+    Unable to revert mtime: /usr/share/fonts/truetype/lato
+
+
+    Unable to revert mtime: /usr/share/fonts/truetype/liberation
+    Unable to revert mtime: /usr/share/fonts/truetype/noto
+
+
 
 
 
@@ -63,7 +75,7 @@ Only the top 20 entries are shown. The whole table can be found in the following
       <td>404</td>
       <td>137</td>
       <td>627</td>
-      <td>[&lt;reactRouterVitePlugin&gt; of module &lt;vite&gt; impo...</td>
+      <td>[&lt;reactRouterVitePlugin&gt; of module &lt;plugin&gt; im...</td>
     </tr>
     <tr>
       <th>1</th>
@@ -107,7 +119,7 @@ Only the top 20 entries are shown. The whole table can be found in the following
       <td>15</td>
       <td>137</td>
       <td>627</td>
-      <td>[&lt;reactRouterVitePlugin&gt; of module &lt;vite&gt; impo...</td>
+      <td>[&lt;reactRouterVitePlugin&gt; of module &lt;plugin&gt; im...</td>
     </tr>
     <tr>
       <th>5</th>
@@ -129,7 +141,7 @@ Only the top 20 entries are shown. The whole table can be found in the following
       <td>35</td>
       <td>137</td>
       <td>627</td>
-      <td>[&lt;reactRouterVitePlugin&gt; of module &lt;vite&gt; impo...</td>
+      <td>[&lt;reactRouterVitePlugin&gt; of module &lt;plugin&gt; im...</td>
     </tr>
     <tr>
       <th>7</th>
@@ -162,7 +174,7 @@ Only the top 20 entries are shown. The whole table can be found in the following
       <td>14</td>
       <td>137</td>
       <td>627</td>
-      <td>[&lt;reactRouterVitePlugin&gt; of module &lt;vite&gt; impo...</td>
+      <td>[&lt;reactRouterVitePlugin&gt; of module &lt;plugin&gt; im...</td>
     </tr>
     <tr>
       <th>10</th>
@@ -250,7 +262,7 @@ Only the top 20 entries are shown. The whole table can be found in the following
       <td>15</td>
       <td>137</td>
       <td>627</td>
-      <td>[&lt;reactRouterVitePlugin&gt; of module &lt;vite&gt; impo...</td>
+      <td>[&lt;reactRouterVitePlugin&gt; of module &lt;plugin&gt; im...</td>
     </tr>
     <tr>
       <th>18</th>
@@ -272,7 +284,7 @@ Only the top 20 entries are shown. The whole table can be found in the following
       <td>5</td>
       <td>137</td>
       <td>627</td>
-      <td>[&lt;reactRouterVitePlugin&gt; of module &lt;vite&gt; impo...</td>
+      <td>[&lt;reactRouterVitePlugin&gt; of module &lt;plugin&gt; im...</td>
     </tr>
   </tbody>
 </table>
@@ -575,7 +587,7 @@ external package.
       <td>0.729927</td>
       <td>1.131387</td>
       <td>1.171599</td>
-      <td>[@react-router/vite, @react-router/plugin, @re...</td>
+      <td>[@react-router/plugin, @react-router/vite, @re...</td>
     </tr>
     <tr>
       <th>1</th>
@@ -690,7 +702,7 @@ external package.
       <td>0.729927</td>
       <td>1.147028</td>
       <td>0.574303</td>
-      <td>[@react-router/vite, @react-router/plugin, @re...</td>
+      <td>[@react-router/plugin, @react-router/vite, @re...</td>
     </tr>
     <tr>
       <th>6</th>
@@ -713,7 +725,7 @@ external package.
       <td>0.729927</td>
       <td>1.147028</td>
       <td>0.574303</td>
-      <td>[@react-router/vite, @react-router/plugin, @re...</td>
+      <td>[@react-router/plugin, @react-router/vite, @re...</td>
     </tr>
     <tr>
       <th>7</th>
@@ -759,7 +771,7 @@ external package.
       <td>0.729927</td>
       <td>0.973236</td>
       <td>0.595983</td>
-      <td>[@react-router/vite, @react-router/plugin, @re...</td>
+      <td>[@react-router/plugin, @react-router/vite, @re...</td>
     </tr>
     <tr>
       <th>9</th>
@@ -2234,7 +2246,7 @@ Only the first 40 entries are shown. The whole table can be found in the followi
       <td>131</td>
       <td>25</td>
       <td>3275.0</td>
-      <td>[ConfigEnv.isSsrBuild, ViteDevServer.middlewar...</td>
+      <td>[Logger.error, Environment.name, defaultClient...</td>
     </tr>
     <tr>
       <th>1</th>
@@ -2258,7 +2270,7 @@ Only the first 40 entries are shown. The whole table can be found in the followi
       <td>131</td>
       <td>25</td>
       <td>3275.0</td>
-      <td>[mkdir, rm, readdir, rename, readFile, cp]</td>
+      <td>[mkdir, readdir, readFile, rename, rm, cp]</td>
     </tr>
     <tr>
       <th>3</th>
@@ -2270,7 +2282,7 @@ Only the first 40 entries are shown. The whole table can be found in the followi
       <td>131</td>
       <td>25</td>
       <td>3275.0</td>
-      <td>[BabelFileResult.code, BabelFileResult.map, tr...</td>
+      <td>[transformAsync, BabelFileResult.map, BabelFil...</td>
     </tr>
     <tr>
       <th>4</th>
@@ -2282,7 +2294,7 @@ Only the first 40 entries are shown. The whole table can be found in the followi
       <td>131</td>
       <td>25</td>
       <td>3275.0</td>
-      <td>[path.PlatformPath.posix, path.PlatformPath.ba...</td>
+      <td>[path.PlatformPath.join, path.PlatformPath.dir...</td>
     </tr>
     <tr>
       <th>5</th>
@@ -2294,7 +2306,7 @@ Only the first 40 entries are shown. The whole table can be found in the followi
       <td>131</td>
       <td>25</td>
       <td>3275.0</td>
-      <td>[resolve, path.normalize, dist, path.dirname, ...</td>
+      <td>[path.normalize, path.dirname, relative, resol...</td>
     </tr>
     <tr>
       <th>6</th>
@@ -2306,7 +2318,7 @@ Only the first 40 entries are shown. The whole table can be found in the followi
       <td>131</td>
       <td>25</td>
       <td>3275.0</td>
-      <td>[global.NodeJS.ProcessEnv.IS_RR_BUILD_REQUEST,...</td>
+      <td>[global.NodeJS.Process.cwd, global.NodeJS.Proc...</td>
     </tr>
     <tr>
       <th>7</th>
@@ -2318,7 +2330,7 @@ Only the first 40 entries are shown. The whole table can be found in the followi
       <td>131</td>
       <td>25</td>
       <td>3275.0</td>
-      <td>[Dirent.name, Dirent.isFile, Dirent.path]</td>
+      <td>[Dirent.isFile, Dirent.path, Dirent.name]</td>
     </tr>
     <tr>
       <th>8</th>
@@ -2330,7 +2342,7 @@ Only the first 40 entries are shown. The whole table can be found in the followi
       <td>131</td>
       <td>25</td>
       <td>3275.0</td>
-      <td>[readdirSync, rmSync, existsSync]</td>
+      <td>[existsSync, rmSync, readdirSync]</td>
     </tr>
     <tr>
       <th>9</th>
@@ -2342,7 +2354,7 @@ Only the first 40 entries are shown. The whole table can be found in the followi
       <td>131</td>
       <td>25</td>
       <td>3275.0</td>
-      <td>[GeneratorResult, GeneratorResult.code]</td>
+      <td>[GeneratorResult.code, GeneratorResult]</td>
     </tr>
     <tr>
       <th>10</th>
@@ -2498,7 +2510,7 @@ Only the first 40 entries are shown. The whole table can be found in the followi
       <td>23</td>
       <td>4</td>
       <td>2300.0</td>
-      <td>[ExportNamedDeclaration.declaration, ExportDef...</td>
+      <td>[ExportSpecifier.exported, MemberExpression.ob...</td>
     </tr>
     <tr>
       <th>23</th>
@@ -2510,7 +2522,7 @@ Only the first 40 entries are shown. The whole table can be found in the followi
       <td>23</td>
       <td>4</td>
       <td>2300.0</td>
-      <td>[NodePath.parentPath, NodePath.node, NodePath....</td>
+      <td>[NodePath.node, NodePath.remove, NodePath.isPr...</td>
     </tr>
     <tr>
       <th>24</th>
@@ -2522,7 +2534,7 @@ Only the first 40 entries are shown. The whole table can be found in the followi
       <td>23</td>
       <td>4</td>
       <td>2300.0</td>
-      <td>[deadCodeElimination, findReferencedIdentifiers]</td>
+      <td>[findReferencedIdentifiers, deadCodeElimination]</td>
     </tr>
     <tr>
       <th>25</th>
@@ -2546,7 +2558,7 @@ Only the first 40 entries are shown. The whole table can be found in the followi
       <td>21</td>
       <td>4</td>
       <td>2100.0</td>
-      <td>[NodePath.get, NodePath.scope, NodePath.isExpr...</td>
+      <td>[NodePath.isFunctionDeclaration, NodePath.isId...</td>
     </tr>
     <tr>
       <th>27</th>
@@ -2558,7 +2570,7 @@ Only the first 40 entries are shown. The whole table can be found in the followi
       <td>21</td>
       <td>4</td>
       <td>2100.0</td>
-      <td>[Program.body, importDeclaration, variableDecl...</td>
+      <td>[importDeclaration, variableDeclaration, ident...</td>
     </tr>
     <tr>
       <th>28</th>
@@ -2570,7 +2582,7 @@ Only the first 40 entries are shown. The whole table can be found in the followi
       <td>21</td>
       <td>4</td>
       <td>2100.0</td>
-      <td>[ParseResult.program, ParseResult]</td>
+      <td>[ParseResult, ParseResult.program]</td>
     </tr>
     <tr>
       <th>29</th>
@@ -2582,7 +2594,7 @@ Only the first 40 entries are shown. The whole table can be found in the followi
       <td>15</td>
       <td>3</td>
       <td>1500.0</td>
-      <td>[ResolvedServerOptions.middlewareMode, ConfigE...</td>
+      <td>[UserConfig.root, EnvironmentOptions.resolve, ...</td>
     </tr>
     <tr>
       <th>30</th>
@@ -2618,7 +2630,7 @@ Only the first 40 entries are shown. The whole table can be found in the followi
       <td>15</td>
       <td>3</td>
       <td>1500.0</td>
-      <td>[ResolvedServerOptions.middlewareMode, ConfigE...</td>
+      <td>[UserConfig.root, EnvironmentOptions.resolve, ...</td>
     </tr>
     <tr>
       <th>33</th>
@@ -2654,7 +2666,7 @@ Only the first 40 entries are shown. The whole table can be found in the followi
       <td>12</td>
       <td>2</td>
       <td>1200.0</td>
-      <td>[Plugin, ResolvedConfig.logger, ConfigEnv.comm...</td>
+      <td>[Logger.warn, ResolvedConfig.logger, Plugin, R...</td>
     </tr>
     <tr>
       <th>36</th>
@@ -2690,7 +2702,7 @@ Only the first 40 entries are shown. The whole table can be found in the followi
       <td>8</td>
       <td>5</td>
       <td>800.0</td>
-      <td>[semver, major]</td>
+      <td>[major, semver]</td>
     </tr>
     <tr>
       <th>39</th>
@@ -2702,7 +2714,7 @@ Only the first 40 entries are shown. The whole table can be found in the followi
       <td>8</td>
       <td>5</td>
       <td>800.0</td>
-      <td>[arg, arg.Result._]</td>
+      <td>[arg.Result._, arg]</td>
     </tr>
   </tbody>
 </table>
@@ -2742,7 +2754,7 @@ Only the first 40 entries are shown. The whole table can be found in the followi
       <td>131</td>
       <td>25</td>
       <td>3275.000000</td>
-      <td>[readdirSync, ConfigEnv.isSsrBuild, ViteDevSer...</td>
+      <td>[Logger.error, Environment.name, defaultClient...</td>
     </tr>
     <tr>
       <th>1</th>
@@ -2754,7 +2766,7 @@ Only the first 40 entries are shown. The whole table can be found in the followi
       <td>131</td>
       <td>25</td>
       <td>3275.000000</td>
-      <td>[global.NodeJS.ProcessEnv.IS_RR_BUILD_REQUEST,...</td>
+      <td>[global.NodeJS.Process.cwd, global.Buffer.toSt...</td>
     </tr>
     <tr>
       <th>2</th>
@@ -2766,7 +2778,7 @@ Only the first 40 entries are shown. The whole table can be found in the followi
       <td>23</td>
       <td>4</td>
       <td>2300.000000</td>
-      <td>[ExportNamedDeclaration.declaration, ExportDef...</td>
+      <td>[ExportSpecifier.exported, MemberExpression.ob...</td>
     </tr>
     <tr>
       <th>3</th>
@@ -2778,7 +2790,7 @@ Only the first 40 entries are shown. The whole table can be found in the followi
       <td>23</td>
       <td>4</td>
       <td>2300.000000</td>
-      <td>[NodePath.parentPath, NodePath.node, NodePath....</td>
+      <td>[NodePath.node, NodePath.remove, NodePath.isPr...</td>
     </tr>
     <tr>
       <th>4</th>
@@ -2790,7 +2802,7 @@ Only the first 40 entries are shown. The whole table can be found in the followi
       <td>23</td>
       <td>4</td>
       <td>2300.000000</td>
-      <td>[deadCodeElimination, findReferencedIdentifiers]</td>
+      <td>[findReferencedIdentifiers, deadCodeElimination]</td>
     </tr>
     <tr>
       <th>5</th>
@@ -2802,7 +2814,7 @@ Only the first 40 entries are shown. The whole table can be found in the followi
       <td>21</td>
       <td>4</td>
       <td>2100.000000</td>
-      <td>[NodePath.get, NodePath.scope, NodePath.isExpr...</td>
+      <td>[NodePath.isFunctionDeclaration, NodePath.isId...</td>
     </tr>
     <tr>
       <th>6</th>
@@ -2814,7 +2826,7 @@ Only the first 40 entries are shown. The whole table can be found in the followi
       <td>21</td>
       <td>4</td>
       <td>2100.000000</td>
-      <td>[Program.body, importDeclaration, ParseResult....</td>
+      <td>[ParseResult, importDeclaration, variableDecla...</td>
     </tr>
     <tr>
       <th>7</th>
@@ -2826,7 +2838,7 @@ Only the first 40 entries are shown. The whole table can be found in the followi
       <td>15</td>
       <td>3</td>
       <td>1500.000000</td>
-      <td>[ResolvedServerOptions.middlewareMode, ConfigE...</td>
+      <td>[UserConfig.root, EnvironmentOptions.resolve, ...</td>
     </tr>
     <tr>
       <th>8</th>
@@ -2850,7 +2862,7 @@ Only the first 40 entries are shown. The whole table can be found in the followi
       <td>15</td>
       <td>3</td>
       <td>1500.000000</td>
-      <td>[ResolvedServerOptions.middlewareMode, ConfigE...</td>
+      <td>[UserConfig.root, EnvironmentOptions.resolve, ...</td>
     </tr>
     <tr>
       <th>10</th>
@@ -2874,7 +2886,7 @@ Only the first 40 entries are shown. The whole table can be found in the followi
       <td>12</td>
       <td>2</td>
       <td>1200.000000</td>
-      <td>[Plugin, ResolvedConfig.logger, ConfigEnv.comm...</td>
+      <td>[Logger.warn, ResolvedConfig.logger, Plugin, R...</td>
     </tr>
     <tr>
       <th>12</th>
@@ -2886,7 +2898,7 @@ Only the first 40 entries are shown. The whole table can be found in the followi
       <td>8</td>
       <td>5</td>
       <td>800.000000</td>
-      <td>[global.NodeJS.ProcessVersions.node, global.No...</td>
+      <td>[major, global.NodeJS.ProcessVersions.node, gl...</td>
     </tr>
     <tr>
       <th>13</th>
@@ -2898,7 +2910,7 @@ Only the first 40 entries are shown. The whole table can be found in the followi
       <td>8</td>
       <td>5</td>
       <td>800.000000</td>
-      <td>[arg, arg.Result."--no-typescript", arg.Result._]</td>
+      <td>[arg.Result._, arg.Result."--no-typescript", arg]</td>
     </tr>
     <tr>
       <th>14</th>
@@ -2922,7 +2934,7 @@ Only the first 40 entries are shown. The whole table can be found in the followi
       <td>139</td>
       <td>26</td>
       <td>772.222222</td>
-      <td>[path.PlatformPath.dirname, path.PlatformPath....</td>
+      <td>[global.NodeJS.Process.cwd, global.Buffer.toSt...</td>
     </tr>
     <tr>
       <th>16</th>
@@ -2934,7 +2946,7 @@ Only the first 40 entries are shown. The whole table can be found in the followi
       <td>14</td>
       <td>6</td>
       <td>700.000000</td>
-      <td>[node:process, .createInterface, Interface.clo...</td>
+      <td>[node:process, beep, node:readline, cursor, Ke...</td>
     </tr>
     <tr>
       <th>17</th>
@@ -2958,7 +2970,7 @@ Only the first 40 entries are shown. The whole table can be found in the followi
       <td>13</td>
       <td>4</td>
       <td>650.000000</td>
-      <td>[ViteNodeServer, ViteDevServer, ViteNodeRunner...</td>
+      <td>[ViteNodeRunner, ViteNodeServer, ViteDevServer...</td>
     </tr>
     <tr>
       <th>19</th>
@@ -2994,7 +3006,7 @@ Only the first 40 entries are shown. The whole table can be found in the followi
       <td>6</td>
       <td>5</td>
       <td>600.000000</td>
-      <td>[format, prettier]</td>
+      <td>[prettier, format]</td>
     </tr>
     <tr>
       <th>22</th>
@@ -3018,7 +3030,7 @@ Only the first 40 entries are shown. The whole table can be found in the followi
       <td>5</td>
       <td>2</td>
       <td>500.000000</td>
-      <td>[path.basename, path.dirname, path.resolve, dist]</td>
+      <td>[path.dirname, path.basename, dist, path.resolve]</td>
     </tr>
     <tr>
       <th>24</th>
@@ -3042,7 +3054,7 @@ Only the first 40 entries are shown. The whole table can be found in the followi
       <td>5</td>
       <td>3</td>
       <td>500.000000</td>
-      <td>[node:fs, .existsSync, node:path]</td>
+      <td>[.existsSync, node:path, node:fs]</td>
     </tr>
     <tr>
       <th>26</th>
@@ -3054,7 +3066,7 @@ Only the first 40 entries are shown. The whole table can be found in the followi
       <td>5</td>
       <td>3</td>
       <td>500.000000</td>
-      <td>[path.PlatformPath.relative, path.PlatformPath...</td>
+      <td>[path.PlatformPath.resolve, path.PlatformPath....</td>
     </tr>
     <tr>
       <th>27</th>
@@ -3066,7 +3078,7 @@ Only the first 40 entries are shown. The whole table can be found in the followi
       <td>5</td>
       <td>2</td>
       <td>500.000000</td>
-      <td>[path.PlatformPath.join, path.PlatformPath.rel...</td>
+      <td>[path.PlatformPath.join, path.PlatformPath.isA...</td>
     </tr>
     <tr>
       <th>28</th>
@@ -3090,7 +3102,7 @@ Only the first 40 entries are shown. The whole table can be found in the followi
       <td>9</td>
       <td>5</td>
       <td>450.000000</td>
-      <td>[.mkdir, promises, .unlink, .writeFile, .readF...</td>
+      <td>[.unlink, .readFile, .mkdir, promises, .writeF...</td>
     </tr>
     <tr>
       <th>30</th>
@@ -3102,7 +3114,7 @@ Only the first 40 entries are shown. The whole table can be found in the followi
       <td>9</td>
       <td>5</td>
       <td>450.000000</td>
-      <td>[path.PlatformPath.dirname, global.Buffer.toSt...</td>
+      <td>[global.BufferConstructor.from, path.PlatformP...</td>
     </tr>
     <tr>
       <th>31</th>
@@ -3138,7 +3150,7 @@ Only the first 40 entries are shown. The whole table can be found in the followi
       <td>8</td>
       <td>2</td>
       <td>400.000000</td>
-      <td>[cursor.restore, cursor.save, erase, cursor.do...</td>
+      <td>[cursor.save, cursor.restore, Key, erase, curs...</td>
     </tr>
     <tr>
       <th>34</th>
@@ -3162,7 +3174,7 @@ Only the first 40 entries are shown. The whole table can be found in the followi
       <td>22</td>
       <td>2</td>
       <td>366.666667</td>
-      <td>[CfProperties, EventContext, Request, CacheSto...</td>
+      <td>[EventContext, CacheStorage, Request, CfProper...</td>
     </tr>
     <tr>
       <th>36</th>
@@ -3174,7 +3186,7 @@ Only the first 40 entries are shown. The whole table can be found in the followi
       <td>18</td>
       <td>2</td>
       <td>360.000000</td>
-      <td>[CfProperties, EventContext, Request, CacheSto...</td>
+      <td>[EventContext, CacheStorage, Request, CfProper...</td>
     </tr>
     <tr>
       <th>37</th>
@@ -3186,7 +3198,7 @@ Only the first 40 entries are shown. The whole table can be found in the followi
       <td>3</td>
       <td>2</td>
       <td>300.000000</td>
-      <td>[resolveConfig, ResolvedConfig.plugins, Plugin...</td>
+      <td>[Plugin.name, ResolvedConfig.plugins, resolveC...</td>
     </tr>
     <tr>
       <th>38</th>
@@ -3198,7 +3210,7 @@ Only the first 40 entries are shown. The whole table can be found in the followi
       <td>3</td>
       <td>2</td>
       <td>300.000000</td>
-      <td>[escapePath, version, normalizePath]</td>
+      <td>[version, normalizePath, escapePath]</td>
     </tr>
     <tr>
       <th>39</th>
@@ -3210,7 +3222,7 @@ Only the first 40 entries are shown. The whole table can be found in the followi
       <td>9</td>
       <td>5</td>
       <td>300.000000</td>
-      <td>[picocolors, .writeFileSync, node:fs, Session....</td>
+      <td>[.writeFileSync, node:fs, Session.post, node:p...</td>
     </tr>
   </tbody>
 </table>

@@ -1910,7 +1910,7 @@ Only the top 40 entries are shown. The whole table can be found in the following
       <td>0.600000</td>
       <td>12</td>
       <td>3</td>
-      <td>[warnOnceAboutSigningSessionCookie-&gt;Cookie, createSessionStorage-&gt;Cookie, SessionIdStorageStrategy-&gt;Cookie, createSessionStorage-&gt;SessionIdStorageStrategy, createSessionStorage-&gt;isCookie, SessionIdStorageStrategy-&gt;CookieSignatureOptions, SessionStorage-&gt;Session, CreateSessionFunction-&gt;Session, c...</td>
+      <td>[SessionIdStorageStrategy-&gt;Cookie, warnOnceAboutSigningSessionCookie-&gt;Cookie, createSessionStorage-&gt;Cookie, createSessionStorage-&gt;SessionIdStorageStrategy, createSessionStorage-&gt;isCookie, SessionIdStorageStrategy-&gt;CookieSignatureOptions, SessionStorage-&gt;Session, CreateSessionFunction-&gt;Session, c...</td>
       <td>[createSessionStorage&lt;-createMemorySessionStorage, warnOnceAboutSigningSessionCookie&lt;-createCookieSessionStorage, createSession&lt;-createCookieSessionStorage]</td>
     </tr>
     <tr>
@@ -1922,7 +1922,7 @@ Only the top 40 entries are shown. The whole table can be found in the following
       <td>0.600000</td>
       <td>12</td>
       <td>3</td>
-      <td>[createSessionStorage-&gt;isCookie, createSessionStorage-&gt;SessionStorage, isSession-&gt;IsSessionFunction, SessionStorage-&gt;Session, CreateSessionFunction-&gt;Session, createSession-&gt;Session, SessionIdStorageStrategy-&gt;CookieSignatureOptions, warnOnceAboutSigningSessionCookie-&gt;Cookie, createSessionStorage-...</td>
+      <td>[createSessionStorage-&gt;isCookie, createSessionStorage-&gt;SessionStorage, isSession-&gt;IsSessionFunction, SessionStorage-&gt;Session, CreateSessionFunction-&gt;Session, createSession-&gt;Session, SessionIdStorageStrategy-&gt;CookieSignatureOptions, SessionIdStorageStrategy-&gt;Cookie, warnOnceAboutSigningSessionCoo...</td>
       <td>[warnOnceAboutSigningSessionCookie&lt;-createCookieSessionStorage, createSession&lt;-createCookieSessionStorage, createSessionStorage&lt;-createMemorySessionStorage]</td>
     </tr>
     <tr>
@@ -1946,7 +1946,7 @@ Only the top 40 entries are shown. The whole table can be found in the following
       <td>0.500000</td>
       <td>3</td>
       <td>1</td>
-      <td>[reactRouterVitePlugin-&gt;getCssStringFromViteDevModuleCode, reactRouterVitePlugin-&gt;isCssModulesFile, reactRouterVitePlugin-&gt;getStylesForPathname]</td>
+      <td>[reactRouterVitePlugin-&gt;isCssModulesFile, reactRouterVitePlugin-&gt;getStylesForPathname, reactRouterVitePlugin-&gt;getCssStringFromViteDevModuleCode]</td>
       <td>[LoadCssContents&lt;-getStylesForPathname]</td>
     </tr>
     <tr>
@@ -2006,7 +2006,7 @@ Only the top 40 entries are shown. The whole table can be found in the following
       <td>0.375000</td>
       <td>44</td>
       <td>20</td>
-      <td>[Router-&gt;To, Navigator-&gt;To, resolvePath-&gt;To, RouterState-&gt;Action, createRouter-&gt;Action, createMemoryHistory-&gt;Action, BlockerFunction-&gt;Action, NavigationStates-&gt;Location, RSCRenderPayload-&gt;Location]</td>
+      <td>[Router-&gt;To, Navigator-&gt;To, resolvePath-&gt;To, createMemoryHistory-&gt;Action, createRouter-&gt;Action, RouterState-&gt;Action, BlockerFunction-&gt;Action, NavigationStates-&gt;Location, RSCRenderPayload-&gt;Location]</td>
       <td>[Path&lt;-Location, InitialEntry&lt;-MemoryHistoryOptions, Location&lt;-History, Action&lt;-History, Path&lt;-History, To&lt;-History, To&lt;-createBrowserURLImpl, invariant&lt;-createBrowserURLImpl, createPath&lt;-createBrowserURLImpl]</td>
     </tr>
     <tr>
@@ -2030,7 +2030,7 @@ Only the top 40 entries are shown. The whole table can be found in the following
       <td>0.355372</td>
       <td>82</td>
       <td>39</td>
-      <td>[createRouter-&gt;ResultType, createRouter-&gt;matchRoutes, resolvePath-&gt;normalizeHash, RouterState-&gt;AgnosticDataRouteMatch, StaticHandler-&gt;AgnosticDataRouteMatch, MiddlewareFunction-&gt;MiddlewareNextFunction, DataStrategyMatch-&gt;ShouldRevalidateFunctionArgs, DataStrategyFunctionArgs-&gt;DataStrategyFunctio...</td>
+      <td>[createRouter-&gt;ResultType, createRouter-&gt;matchRoutes, resolvePath-&gt;normalizeHash, StaticHandler-&gt;AgnosticDataRouteMatch, RouterState-&gt;AgnosticDataRouteMatch, MiddlewareFunction-&gt;MiddlewareNextFunction, DataStrategyMatch-&gt;ShouldRevalidateFunctionArgs, DataStrategyFunctionArgs-&gt;DataStrategyFunctio...</td>
       <td>[RouterContext&lt;-createContext, To&lt;-ParsedLocationInfo, ErrorResponse&lt;-ErrorResponseImpl, PathMatch&lt;-matchPath, Params&lt;-matchPath, PathPattern&lt;-matchPath, To&lt;-parseToInfo, Params&lt;-AgnosticRouteMatch, DataStrategyFunction&lt;-DataStrategyFunctionArgs]</td>
     </tr>
     <tr>
@@ -2150,8 +2150,8 @@ Only the top 40 entries are shown. The whole table can be found in the following
       <td>0.259259</td>
       <td>17</td>
       <td>10</td>
-      <td>[relative-&gt;layout, relative-&gt;index, routeConfigEntrySchema-&gt;index, configRoutesToRouteManifest-&gt;index, relative-&gt;prefix, configRoutesToRouteManifest-&gt;RouteConfigEntry, prefix-&gt;RouteConfigEntry, validateRouteConfig-&gt;RouteConfigEntry, index-&gt;RouteConfigEntry]</td>
-      <td>[RouteConfigEntry&lt;-layout, RouteConfigEntry&lt;-RouteConfig, RouteConfigEntry&lt;-index, RouteConfigEntry&lt;-prefix, route&lt;-prefix, prefix&lt;-relative, route&lt;-relative, index&lt;-relative, layout&lt;-relative]</td>
+      <td>[relative-&gt;layout, configRoutesToRouteManifest-&gt;route, relative-&gt;route, prefix-&gt;route, routeConfigEntrySchema-&gt;index, relative-&gt;index, configRoutesToRouteManifest-&gt;index, relative-&gt;prefix, index-&gt;RouteConfigEntry]</td>
+      <td>[RouteConfigEntry&lt;-layout, index&lt;-relative, route&lt;-relative, layout&lt;-relative, prefix&lt;-relative, RouteConfigEntry&lt;-route, RouteConfigEntry&lt;-index, RouteConfigEntry&lt;-prefix, route&lt;-prefix]</td>
     </tr>
     <tr>
       <th>26</th>
@@ -2174,7 +2174,7 @@ Only the top 40 entries are shown. The whole table can be found in the following
       <td>0.142857</td>
       <td>4</td>
       <td>3</td>
-      <td>[ReactRouterConfig-&gt;ServerBundlesFunction, ReactRouterConfig-&gt;Preset, Preset-&gt;ReactRouterConfig, ReactRouterConfig-&gt;PrerenderPaths]</td>
+      <td>[ReactRouterConfig-&gt;PrerenderPaths, ReactRouterConfig-&gt;ServerBundlesFunction, ReactRouterConfig-&gt;Preset, Preset-&gt;ReactRouterConfig]</td>
       <td>[ReactRouterConfig&lt;-Preset, ServerBundlesFunction&lt;-ReactRouterConfig, Preset&lt;-ReactRouterConfig]</td>
     </tr>
     <tr>
@@ -2679,7 +2679,7 @@ Only the top 40 entries are shown. The whole table can be found in the following
       <td>./index-react-server.ts</td>
       <td>react-router</td>
       <td>./lib/router/utils.ts</td>
-      <td>matchRSCServerRequest-&gt;AgnosticRouteMatch</td>
+      <td>createStaticHandler-&gt;AgnosticRouteMatch</td>
       <td>0.794872</td>
       <td>35</td>
       <td>4</td>
@@ -2712,7 +2712,7 @@ Only the top 40 entries are shown. The whole table can be found in the following
       <td>./index-react-server.ts</td>
       <td>react-router</td>
       <td>./lib/router/utils.ts</td>
-      <td>createStaticHandler-&gt;AgnosticRouteMatch</td>
+      <td>matchRSCServerRequest-&gt;AgnosticRouteMatch</td>
       <td>0.794872</td>
       <td>35</td>
       <td>4</td>
@@ -3634,16 +3634,6 @@ The whole table can be found in the CSV report `ModuleElementsUsageTypescript`.
     </tr>
     <tr>
       <th>1</th>
-      <td>route-data</td>
-      <td>react-router</td>
-      <td>1</td>
-      <td>169</td>
-      <td>0.005917</td>
-      <td>["/home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.13.0/source/react-router-7.13.0/packages/react-router/lib/server-runtime/data.ts".AppLoadContext]</td>
-      <td>[AppLoadContext]</td>
-    </tr>
-    <tr>
-      <th>2</th>
       <td>mode</td>
       <td>react-router</td>
       <td>1</td>
@@ -3651,6 +3641,16 @@ The whole table can be found in the CSV report `ModuleElementsUsageTypescript`.
       <td>0.005917</td>
       <td>["/home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.13.0/source/react-router-7.13.0/packages/react-router/lib/server-runtime/mode.ts".ServerMode]</td>
       <td>[ServerMode]</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>route-data</td>
+      <td>react-router</td>
+      <td>1</td>
+      <td>169</td>
+      <td>0.005917</td>
+      <td>["/home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.13.0/source/react-router-7.13.0/packages/react-router/lib/server-runtime/data.ts".AppLoadContext]</td>
+      <td>[AppLoadContext]</td>
     </tr>
     <tr>
       <th>3</th>
@@ -3684,7 +3684,7 @@ The whole table can be found in the CSV report `ModuleElementsUsageTypescript`.
     </tr>
     <tr>
       <th>6</th>
-      <td>route-module-annotations</td>
+      <td>internal</td>
       <td>react-router</td>
       <td>2</td>
       <td>169</td>
@@ -3694,7 +3694,7 @@ The whole table can be found in the CSV report `ModuleElementsUsageTypescript`.
     </tr>
     <tr>
       <th>7</th>
-      <td>internal</td>
+      <td>route-module-annotations</td>
       <td>react-router</td>
       <td>2</td>
       <td>169</td>
@@ -3804,13 +3804,13 @@ The whole table can be found in the CSV report `ModuleElementsUsageTypescript`.
     </tr>
     <tr>
       <th>18</th>
-      <td>instrumentation</td>
+      <td>headers</td>
       <td>router</td>
       <td>1</td>
       <td>33</td>
       <td>0.030303</td>
-      <td>["/home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.13.0/source/react-router-7.13.0/packages/react-router/lib/router/router.ts".Router]</td>
-      <td>[Router]</td>
+      <td>["/home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.13.0/source/react-router-7.13.0/packages/react-router/lib/router/router.ts".StaticHandlerContext]</td>
+      <td>[StaticHandlerContext]</td>
     </tr>
     <tr>
       <th>19</th>
@@ -3824,13 +3824,13 @@ The whole table can be found in the CSV report `ModuleElementsUsageTypescript`.
     </tr>
     <tr>
       <th>20</th>
-      <td>headers</td>
+      <td>instrumentation</td>
       <td>router</td>
       <td>1</td>
       <td>33</td>
       <td>0.030303</td>
-      <td>["/home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.13.0/source/react-router-7.13.0/packages/react-router/lib/router/router.ts".StaticHandlerContext]</td>
-      <td>[StaticHandlerContext]</td>
+      <td>["/home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.13.0/source/react-router-7.13.0/packages/react-router/lib/router/router.ts".Router]</td>
+      <td>[Router]</td>
     </tr>
     <tr>
       <th>21</th>
@@ -3970,7 +3970,7 @@ This table shows the file directory distance distribution between dependent file
       <td>116</td>
       <td>43</td>
       <td>40</td>
-      <td>[./lib/rsc/route-modules.ts uses ./dom-export.ts, ./lib/rsc/server.rsc.ts uses ./dom-export.ts, ./lib/rsc/server.rsc.ts uses ./index-react-server-client.ts, ./lib/rsc/route-modules.ts uses ./index-react-server.ts]</td>
+      <td>[./lib/rsc/route-modules.ts uses ./dom-export.ts, ./lib/rsc/server.rsc.ts uses ./dom-export.ts, ./lib/rsc/server.rsc.ts uses ./index-react-server-client.ts, ./lib/server-runtime/routes.ts uses ./index-react-server.ts]</td>
     </tr>
     <tr>
       <th>3</th>
@@ -3978,7 +3978,7 @@ This table shows the file directory distance distribution between dependent file
       <td>48</td>
       <td>22</td>
       <td>18</td>
-      <td>[./lib/dom/ssr/fog-of-war.ts uses ./index-react-server.ts, ./lib/server-runtime/sessions/memoryStorage.ts uses ./index-react-server.ts, ./lib/dom/ssr/routeModules.ts uses ./index-react-server.ts, ./lib/server-runtime/sessions/cookieStorage.ts uses ./index-react-server.ts]</td>
+      <td>[./lib/dom/ssr/fog-of-war.ts uses ./index-react-server.ts, ./lib/server-runtime/sessions/memoryStorage.ts uses ./index-react-server.ts, ./lib/server-runtime/sessions/cookieStorage.ts uses ./index-react-server.ts, ./lib/dom/ssr/routeModules.ts uses ./index-react-server.ts]</td>
     </tr>
     <tr>
       <th>4</th>
