@@ -182,16 +182,16 @@
 <polygon fill="#ccece6" stroke="#ccece6" stroke-width="0.3" points="350.14,-442.49 346.14,-441.09 348.4,-444.68 350.14,-442.49"/>
 <text xml:space="preserve" text-anchor="middle" x="478.21" y="-548.5" font-family="Times,serif" font-size="4.00">8</text>
 </g>
-<!-- axon&#45;tracing&#45;opentelemetry&#45;5.0.2_51207&#45;&gt;central -->
+<!-- axon&#45;tracing&#45;opentelemetry&#45;5.0.2_51205&#45;&gt;central -->
 <g id="edge7" class="edge">
-<title>axon&#45;tracing&#45;opentelemetry&#45;5.0.2_51207&#45;&gt;central</title>
+<title>axon&#45;tracing&#45;opentelemetry&#45;5.0.2_51205&#45;&gt;central</title>
 <path fill="none" stroke="#238b45" stroke-width="0.5" d="M322.58,-771.66C346.03,-710.95 396.62,-580.02 429.71,-494.37"/>
 <polygon fill="#238b45" stroke="#238b45" stroke-width="0.5" points="430.96,-495.01 431.1,-490.77 428.35,-494 430.96,-495.01"/>
 <text xml:space="preserve" text-anchor="middle" x="374.94" y="-632.16" font-family="Times,serif" font-size="4.00">22</text>
 </g>
-<!-- axon&#45;tracing&#45;opentelemetry&#45;5.0.2_51207&#45;&gt;axon&#45;common&#45;5.0.2_45772 -->
+<!-- axon&#45;tracing&#45;opentelemetry&#45;5.0.2_51205&#45;&gt;axon&#45;common&#45;5.0.2_45772 -->
 <g id="edge27" class="edge">
-<title>axon&#45;tracing&#45;opentelemetry&#45;5.0.2_51207&#45;&gt;axon&#45;common&#45;5.0.2_45772</title>
+<title>axon&#45;tracing&#45;opentelemetry&#45;5.0.2_51205&#45;&gt;axon&#45;common&#45;5.0.2_45772</title>
 <path fill="none" stroke="#ccece6" stroke-width="0.3" d="M309.85,-771.58C309.93,-699.45 310.12,-528.43 310.2,-451.33"/>
 <polygon fill="#ccece6" stroke="#ccece6" stroke-width="0.3" points="311.6,-451.73 310.21,-447.73 308.8,-451.73 311.6,-451.73"/>
 <text xml:space="preserve" text-anchor="middle" x="309.03" y="-610.92" font-family="Times,serif" font-size="4.00">2</text>
@@ -254,9 +254,9 @@
 <text xml:space="preserve" text-anchor="middle" x="650.22" y="-687.38" font-family="Times,serif" font-size="12.00">axon&#45;metrics&#45;micrometer&#45;5.0.2</text>
 <text xml:space="preserve" text-anchor="middle" x="650.22" y="-672.98" font-family="Times,serif" font-size="12.00">(1.0)</text>
 </g>
-<!-- axon&#45;tracing&#45;opentelemetry&#45;5.0.2_51207 -->
+<!-- axon&#45;tracing&#45;opentelemetry&#45;5.0.2_51205 -->
 <g id="node8" class="node">
-<title>axon&#45;tracing&#45;opentelemetry&#45;5.0.2_51207</title>
+<title>axon&#45;tracing&#45;opentelemetry&#45;5.0.2_51205</title>
 <ellipse fill="#ccece6" stroke="#41ae76" stroke-width="2" cx="309.82" cy="-804.68" rx="96.33" ry="32.4"/>
 <text xml:space="preserve" text-anchor="middle" x="309.82" y="-808.28" font-family="Times,serif" font-size="12.00">axon&#45;tracing&#45;opentelemetry&#45;5.0.2</text>
 <text xml:space="preserve" text-anchor="middle" x="309.82" y="-793.88" font-family="Times,serif" font-size="12.00">(1.0)</text>
