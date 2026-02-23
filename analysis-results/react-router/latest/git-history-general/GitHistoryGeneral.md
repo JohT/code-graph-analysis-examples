@@ -48,9 +48,9 @@
       <td>20.318725</td>
       <td>12.776892</td>
       <td>125.561753</td>
-      <td>185.159363</td>
-      <td>519.745020</td>
-      <td>205.390438</td>
+      <td>188.159363</td>
+      <td>522.593625</td>
+      <td>208.155378</td>
     </tr>
     <tr>
       <th>std</th>
@@ -58,53 +58,53 @@
       <td>42.242609</td>
       <td>429.580557</td>
       <td>148.746410</td>
-      <td>466.956322</td>
-      <td>226.072145</td>
+      <td>466.978717</td>
+      <td>226.180184</td>
     </tr>
     <tr>
       <th>min</th>
       <td>1.000000</td>
       <td>2.000000</td>
       <td>2.000000</td>
-      <td>28.000000</td>
-      <td>36.000000</td>
-      <td>27.000000</td>
+      <td>31.000000</td>
+      <td>38.000000</td>
+      <td>30.000000</td>
     </tr>
     <tr>
       <th>25%</th>
       <td>2.000000</td>
       <td>2.000000</td>
       <td>5.000000</td>
-      <td>65.000000</td>
-      <td>207.000000</td>
-      <td>65.000000</td>
+      <td>68.000000</td>
+      <td>210.000000</td>
+      <td>67.000000</td>
     </tr>
     <tr>
       <th>50%</th>
       <td>4.000000</td>
       <td>4.000000</td>
       <td>23.000000</td>
-      <td>182.000000</td>
-      <td>360.000000</td>
-      <td>189.000000</td>
+      <td>185.000000</td>
+      <td>363.000000</td>
+      <td>192.000000</td>
     </tr>
     <tr>
       <th>75%</th>
       <td>12.000000</td>
       <td>9.000000</td>
       <td>66.000000</td>
-      <td>219.000000</td>
-      <td>597.000000</td>
-      <td>238.000000</td>
+      <td>222.000000</td>
+      <td>599.500000</td>
+      <td>241.000000</td>
     </tr>
     <tr>
       <th>max</th>
       <td>1369.000000</td>
       <td>570.000000</td>
       <td>4807.000000</td>
-      <td>695.000000</td>
-      <td>1681.000000</td>
-      <td>1623.000000</td>
+      <td>698.000000</td>
+      <td>1683.000000</td>
+      <td>1626.000000</td>
     </tr>
   </tbody>
 </table>
@@ -152,9 +152,9 @@
       <td>Logan McAnsh</td>
       <td>Matt Brophy</td>
       <td>5</td>
-      <td>695</td>
-      <td>1583</td>
-      <td>1583</td>
+      <td>698</td>
+      <td>1586</td>
+      <td>1586</td>
       <td>2024-03-27</td>
       <td>2021-10-20</td>
       <td>2021-10-20</td>
@@ -172,9 +172,9 @@
       <td>Jacob Ebey</td>
       <td>Mark Dalgleish</td>
       <td>19</td>
-      <td>351</td>
-      <td>360</td>
-      <td>360</td>
+      <td>354</td>
+      <td>363</td>
+      <td>363</td>
       <td>2025-03-06</td>
       <td>2025-02-24</td>
       <td>2025-02-24</td>
@@ -192,9 +192,9 @@
       <td>Mark Dalgleish</td>
       <td>Matt Brophy</td>
       <td>3</td>
-      <td>351</td>
-      <td>360</td>
-      <td>360</td>
+      <td>354</td>
+      <td>363</td>
+      <td>363</td>
       <td>2025-03-06</td>
       <td>2025-02-24</td>
       <td>2025-02-24</td>
@@ -212,9 +212,9 @@
       <td>Mark Dalgleish</td>
       <td>Matt Brophy</td>
       <td>3</td>
-      <td>197</td>
-      <td>207</td>
-      <td>207</td>
+      <td>200</td>
+      <td>210</td>
+      <td>210</td>
       <td>2025-08-07</td>
       <td>2025-07-28</td>
       <td>2025-07-28</td>
@@ -232,9 +232,9 @@
       <td>Mark Dalgleish</td>
       <td>Matt Brophy</td>
       <td>3</td>
-      <td>197</td>
-      <td>207</td>
-      <td>207</td>
+      <td>200</td>
+      <td>210</td>
+      <td>210</td>
       <td>2025-08-07</td>
       <td>2025-07-28</td>
       <td>2025-07-28</td>
@@ -252,9 +252,9 @@
       <td>Jacob Ebey</td>
       <td>Matt Brophy</td>
       <td>4</td>
-      <td>219</td>
-      <td>238</td>
-      <td>238</td>
+      <td>222</td>
+      <td>241</td>
+      <td>241</td>
       <td>2025-07-16</td>
       <td>2025-06-26</td>
       <td>2025-06-26</td>
@@ -272,9 +272,9 @@
       <td>Jacob Ebey</td>
       <td>Mark Dalgleish</td>
       <td>21</td>
-      <td>427</td>
       <td>430</td>
-      <td>430</td>
+      <td>433</td>
+      <td>433</td>
       <td>2024-12-20</td>
       <td>2024-12-17</td>
       <td>2024-12-17</td>
@@ -292,9 +292,9 @@
       <td>Mark Dalgleish</td>
       <td>Matt Brophy</td>
       <td>3</td>
-      <td>427</td>
       <td>430</td>
-      <td>430</td>
+      <td>433</td>
+      <td>433</td>
       <td>2024-12-20</td>
       <td>2024-12-17</td>
       <td>2024-12-17</td>
@@ -312,9 +312,9 @@
       <td>Mark Dalgleish</td>
       <td>Matt Brophy</td>
       <td>3</td>
-      <td>427</td>
       <td>430</td>
-      <td>430</td>
+      <td>433</td>
+      <td>433</td>
       <td>2024-12-20</td>
       <td>2024-12-17</td>
       <td>2024-12-17</td>
@@ -332,9 +332,9 @@
       <td>Mark Dalgleish</td>
       <td>Matt Brophy</td>
       <td>3</td>
-      <td>427</td>
       <td>430</td>
-      <td>430</td>
+      <td>433</td>
+      <td>433</td>
       <td>2024-12-20</td>
       <td>2024-12-17</td>
       <td>2024-12-17</td>
@@ -352,9 +352,9 @@
       <td>Mark Dalgleish</td>
       <td>Matt Brophy</td>
       <td>3</td>
-      <td>238</td>
-      <td>259</td>
-      <td>259</td>
+      <td>241</td>
+      <td>262</td>
+      <td>262</td>
       <td>2025-06-27</td>
       <td>2025-06-05</td>
       <td>2025-06-05</td>
@@ -372,9 +372,9 @@
       <td>Mark Dalgleish</td>
       <td>Matt Brophy</td>
       <td>3</td>
-      <td>238</td>
-      <td>259</td>
-      <td>259</td>
+      <td>241</td>
+      <td>262</td>
+      <td>262</td>
       <td>2025-06-27</td>
       <td>2025-06-05</td>
       <td>2025-06-05</td>
@@ -392,9 +392,9 @@
       <td>Mark Dalgleish</td>
       <td>Matt Brophy</td>
       <td>3</td>
-      <td>351</td>
-      <td>360</td>
-      <td>360</td>
+      <td>354</td>
+      <td>363</td>
+      <td>363</td>
       <td>2025-03-06</td>
       <td>2025-02-24</td>
       <td>2025-02-24</td>
@@ -412,9 +412,9 @@
       <td>Jacob Ebey</td>
       <td>Mark Dalgleish</td>
       <td>18</td>
-      <td>351</td>
-      <td>360</td>
-      <td>360</td>
+      <td>354</td>
+      <td>363</td>
+      <td>363</td>
       <td>2025-03-06</td>
       <td>2025-02-24</td>
       <td>2025-02-24</td>
@@ -432,9 +432,9 @@
       <td>Mark Dalgleish</td>
       <td>Matt Brophy</td>
       <td>12</td>
-      <td>211</td>
-      <td>360</td>
-      <td>210</td>
+      <td>214</td>
+      <td>363</td>
+      <td>213</td>
       <td>2025-07-24</td>
       <td>2025-02-24</td>
       <td>2025-07-24</td>
@@ -452,9 +452,9 @@
       <td>Mark Dalgleish</td>
       <td>Matt Brophy</td>
       <td>3</td>
-      <td>309</td>
-      <td>315</td>
-      <td>315</td>
+      <td>312</td>
+      <td>318</td>
+      <td>318</td>
       <td>2025-04-17</td>
       <td>2025-04-11</td>
       <td>2025-04-11</td>
@@ -472,9 +472,9 @@
       <td>Mark Dalgleish</td>
       <td>Matt Brophy</td>
       <td>3</td>
-      <td>309</td>
-      <td>315</td>
-      <td>315</td>
+      <td>312</td>
+      <td>318</td>
+      <td>318</td>
       <td>2025-04-17</td>
       <td>2025-04-11</td>
       <td>2025-04-11</td>
@@ -492,9 +492,9 @@
       <td>Mark Dalgleish</td>
       <td>Michael Jackson</td>
       <td>3</td>
-      <td>455</td>
-      <td>477</td>
-      <td>477</td>
+      <td>458</td>
+      <td>480</td>
+      <td>480</td>
       <td>2024-11-22</td>
       <td>2024-10-31</td>
       <td>2024-10-31</td>
@@ -512,9 +512,9 @@
       <td>Mark Dalgleish</td>
       <td>Michael Jackson</td>
       <td>3</td>
-      <td>455</td>
-      <td>477</td>
-      <td>477</td>
+      <td>458</td>
+      <td>480</td>
+      <td>480</td>
       <td>2024-11-22</td>
       <td>2024-10-31</td>
       <td>2024-10-31</td>
@@ -532,9 +532,9 @@
       <td>Mark Dalgleish</td>
       <td>Michael Jackson</td>
       <td>3</td>
-      <td>455</td>
-      <td>477</td>
-      <td>477</td>
+      <td>458</td>
+      <td>480</td>
+      <td>480</td>
       <td>2024-11-22</td>
       <td>2024-10-31</td>
       <td>2024-10-31</td>
@@ -552,9 +552,9 @@
       <td>Mark Dalgleish</td>
       <td>Michael Jackson</td>
       <td>3</td>
-      <td>455</td>
-      <td>477</td>
-      <td>477</td>
+      <td>458</td>
+      <td>480</td>
+      <td>480</td>
       <td>2024-11-22</td>
       <td>2024-10-31</td>
       <td>2024-10-31</td>
@@ -572,9 +572,9 @@
       <td>Mark Dalgleish</td>
       <td>Matt Brophy</td>
       <td>10</td>
-      <td>211</td>
-      <td>584</td>
-      <td>210</td>
+      <td>214</td>
+      <td>587</td>
+      <td>213</td>
       <td>2025-07-24</td>
       <td>2024-07-16</td>
       <td>2025-07-24</td>
@@ -592,9 +592,9 @@
       <td>Mark Dalgleish</td>
       <td>Matt Brophy</td>
       <td>10</td>
-      <td>211</td>
-      <td>585</td>
-      <td>210</td>
+      <td>214</td>
+      <td>588</td>
+      <td>213</td>
       <td>2025-07-24</td>
       <td>2024-07-15</td>
       <td>2025-07-24</td>
@@ -612,9 +612,9 @@
       <td>Jacob Ebey</td>
       <td>Mark Dalgleish</td>
       <td>25</td>
-      <td>399</td>
-      <td>400</td>
-      <td>400</td>
+      <td>402</td>
+      <td>403</td>
+      <td>403</td>
       <td>2025-01-17</td>
       <td>2025-01-16</td>
       <td>2025-01-16</td>
@@ -632,9 +632,9 @@
       <td>Mark Dalgleish</td>
       <td>Matt Brophy</td>
       <td>4</td>
-      <td>399</td>
-      <td>400</td>
-      <td>400</td>
+      <td>402</td>
+      <td>403</td>
+      <td>403</td>
       <td>2025-01-17</td>
       <td>2025-01-16</td>
       <td>2025-01-16</td>
@@ -652,9 +652,9 @@
       <td>Chance Strickland</td>
       <td>Hiroshi Ogawa</td>
       <td>72</td>
-      <td>211</td>
-      <td>609</td>
-      <td>210</td>
+      <td>214</td>
+      <td>611</td>
+      <td>213</td>
       <td>2025-07-24</td>
       <td>2024-06-21</td>
       <td>2025-07-24</td>
@@ -672,9 +672,9 @@
       <td>Alexandru Bereghici</td>
       <td>Chance Strickland</td>
       <td>36</td>
-      <td>114</td>
-      <td>609</td>
-      <td>114</td>
+      <td>117</td>
+      <td>611</td>
+      <td>116</td>
       <td>2025-10-29</td>
       <td>2024-06-21</td>
       <td>2025-10-29</td>
@@ -692,9 +692,9 @@
       <td>Alex Anderson</td>
       <td>Alexandru Bereghici</td>
       <td>53</td>
-      <td>114</td>
-      <td>609</td>
-      <td>114</td>
+      <td>117</td>
+      <td>611</td>
+      <td>116</td>
       <td>2025-10-29</td>
       <td>2024-06-21</td>
       <td>2025-10-29</td>
@@ -712,9 +712,9 @@
       <td>Chance Strickland</td>
       <td>Matt Brophy</td>
       <td>7</td>
-      <td>695</td>
-      <td>1681</td>
-      <td>1623</td>
+      <td>698</td>
+      <td>1683</td>
+      <td>1626</td>
       <td>2024-03-27</td>
       <td>2021-07-15</td>
       <td>2021-09-10</td>
@@ -732,9 +732,9 @@
       <td>Matt Brophy</td>
       <td>Michael Jackson</td>
       <td>14</td>
-      <td>455</td>
-      <td>660</td>
-      <td>660</td>
+      <td>458</td>
+      <td>663</td>
+      <td>663</td>
       <td>2024-11-22</td>
       <td>2024-04-30</td>
       <td>2024-04-30</td>
@@ -1494,8 +1494,8 @@ The following charts show how these metrics are distributed across pairs of file
       <td>tsx↔tsx</td>
       <td>13</td>
       <td>10</td>
-      <td>hydrated-router↔lib</td>
-      <td>packages/react-router/lib/dom-export/hydrated-router.tsx↔packages/react-router/lib/dom/lib.tsx</td>
+      <td>data-browser-router-test↔lib</td>
+      <td>packages/react-router/__tests__/dom/data-browser-router-test.tsx↔packages/react-router/lib/dom/lib.tsx</td>
     </tr>
   </tbody>
 </table>
@@ -1632,7 +1632,7 @@ This metric is useful to identify pairs of files that are frequently changed tog
       <td>0.694444</td>
       <td>3</td>
       <td>package↔package</td>
-      <td>examples/auth/package.json↔examples/custom-link/package.json</td>
+      <td>examples/basic/package.json↔examples/custom-link/package.json</td>
     </tr>
     <tr>
       <th>13</th>
@@ -1648,7 +1648,7 @@ This metric is useful to identify pairs of files that are frequently changed tog
       <td>0.666667</td>
       <td>5</td>
       <td>package↔package</td>
-      <td>examples/auth/package.json↔examples/custom-query-parsing/package.json</td>
+      <td>examples/custom-link/package.json↔examples/custom-query-parsing/package.json</td>
     </tr>
     <tr>
       <th>15</th>
@@ -1656,7 +1656,7 @@ This metric is useful to identify pairs of files that are frequently changed tog
       <td>0.656250</td>
       <td>6</td>
       <td>package↔package</td>
-      <td>examples/custom-link/package.json↔examples/multi-app/package.json</td>
+      <td>examples/lazy-loading/package.json↔examples/multi-app/package.json</td>
     </tr>
     <tr>
       <th>16</th>
@@ -1823,8 +1823,8 @@ This metric is useful to identify pairs of files that are frequently changed tog
       <td>tsx↔tsx</td>
       <td>0.409091</td>
       <td>7</td>
-      <td>hooks↔entry.server</td>
-      <td>packages/react-router/lib/hooks.tsx↔examples/ssr-data-router/src/entry.server.tsx</td>
+      <td>data-memory-router-test↔entry.server</td>
+      <td>packages/react-router/__tests__/data-memory-router-test.tsx↔examples/ssr-data-router/src/entry.server.tsx</td>
     </tr>
     <tr>
       <th>37</th>
@@ -2372,7 +2372,7 @@ This metric is useful to identify pairs of files that are frequently changed tog
       <td>0.477273</td>
       <td>8</td>
       <td>package↔package</td>
-      <td>examples/custom-query-parsing/package.json↔examples/multi-app/package.json</td>
+      <td>examples/lazy-loading/package.json↔examples/multi-app/package.json</td>
     </tr>
     <tr>
       <th>18</th>
@@ -3131,21 +3131,6 @@ This is useful to identify pairs of files that score high in most metrics, which
     <tr>
       <th>36</th>
       <td>ts↔tsx</td>
-      <td>rsc-nojs-test↔server.ssr</td>
-      <td>64</td>
-      <td>22</td>
-      <td>9</td>
-      <td>30</td>
-      <td>3</td>
-      <td>3</td>
-      <td>0.333333</td>
-      <td>0.066667</td>
-      <td>25.615385</td>
-      <td>integration/rsc/rsc-nojs-test.ts↔packages/react-router/lib/rsc/server.ssr.tsx</td>
-    </tr>
-    <tr>
-      <th>37</th>
-      <td>ts↔tsx</td>
       <td>server.rsc↔server.ssr</td>
       <td>64</td>
       <td>15</td>
@@ -3157,6 +3142,21 @@ This is useful to identify pairs of files that score high in most metrics, which
       <td>0.119048</td>
       <td>13.972028</td>
       <td>packages/react-router/lib/rsc/server.rsc.ts↔packages/react-router/lib/rsc/server.ssr.tsx</td>
+    </tr>
+    <tr>
+      <th>37</th>
+      <td>ts↔tsx</td>
+      <td>rsc-nojs-test↔server.ssr</td>
+      <td>64</td>
+      <td>22</td>
+      <td>9</td>
+      <td>30</td>
+      <td>3</td>
+      <td>3</td>
+      <td>0.333333</td>
+      <td>0.066667</td>
+      <td>25.615385</td>
+      <td>integration/rsc/rsc-nojs-test.ts↔packages/react-router/lib/rsc/server.ssr.tsx</td>
     </tr>
     <tr>
       <th>38</th>
@@ -3377,20 +3377,6 @@ The frontier = the “best tradeoffs.”
     </tr>
     <tr>
       <th>11</th>
-      <td>vite-server-bundles-test↔vite-node-env-test</td>
-      <td>77</td>
-      <td>5</td>
-      <td>1.000000</td>
-      <td>0.131579</td>
-      <td>78.868421</td>
-      <td>22</td>
-      <td>1</td>
-      <td>46</td>
-      <td>8</td>
-      <td>integration/vite-server-bundles-test.ts↔integration/vite-node-env-test.ts</td>
-    </tr>
-    <tr>
-      <th>12</th>
       <td>vite-loader-context-test↔vite-node-env-test</td>
       <td>30</td>
       <td>4</td>
@@ -3402,6 +3388,20 @@ The frontier = the “best tradeoffs.”
       <td>3</td>
       <td>2</td>
       <td>integration/vite-loader-context-test.ts↔integration/vite-node-env-test.ts</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>vite-server-bundles-test↔vite-node-env-test</td>
+      <td>77</td>
+      <td>5</td>
+      <td>1.000000</td>
+      <td>0.131579</td>
+      <td>78.868421</td>
+      <td>22</td>
+      <td>1</td>
+      <td>46</td>
+      <td>8</td>
+      <td>integration/vite-server-bundles-test.ts↔integration/vite-node-env-test.ts</td>
     </tr>
     <tr>
       <th>13</th>

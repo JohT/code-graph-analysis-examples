@@ -65,7 +65,7 @@ strict digraph TopAuthority3 {
 	"dom-export_197552" -> "react-router_197555" [label=1; weight=1; penwidth=0.3; color = 3]
 	"dom-export_197552" -> "react-router_197554" [label=1; weight=1; penwidth=0.3; color = 3]
 	"react-router_197555" -> "dom-export_197552" [label=1; weight=1; penwidth=0.3; color = 3]
-	"react-router_197554" -> "router_197579" [label=1; weight=1; penwidth=0.3; color = 3]
 	"react-router_197554" -> "dom-export_197552" [label=1; weight=1; penwidth=0.3; color = 3]
+	"react-router_197554" -> "router_197579" [label=1; weight=1; penwidth=0.3; color = 3]
 	"react-router_197553" -> "context_197560" [label=1; weight=1; penwidth=0.3; color = 3]
 }
