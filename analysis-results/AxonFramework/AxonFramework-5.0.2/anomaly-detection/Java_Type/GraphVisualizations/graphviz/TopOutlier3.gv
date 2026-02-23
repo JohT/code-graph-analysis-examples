@@ -12,23 +12,12 @@ strict digraph TopOutlier3 {
     central [fontsize = 16;];
     central [color = 7; fillcolor = 5; penwidth = 3;];
 
-	graph   [label="Top Rank #3 Java Type Outlier\norg.axonframework.messaging.commandhandling.distributed.DistributedCommandBus$DistributedHandler\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: cluster probability\nlarge circle: < 25% percentile of cluster probability\nthick outline: > 80% percentile of distance to cluster center\n\n"];
-	central [label="🧩 outlier #3\nDistributedCommandBus$DistributedHandler"];
-	"DistributedCommandBus_8398"  [label = "DistributedCommandBus\n(10.63%)"; penwidth = 5; ]; "DistributedCommandBus_8398" -> central [label=3; weight=3; penwidth=0.4];
-	"CommandMessage_8239"  [label = "CommandMessage\n(75.94%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "CommandMessage_8239" [label=16; weight=16; penwidth=0.6; color = 5];
-	"DistributedCommandBus_8398"  [label = "DistributedCommandBus\n(10.63%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "DistributedCommandBus_8398" [label=11; weight=11; penwidth=0.6; color = 5];
-	"CommandBusConnector$ResultCallback_8432"  [label = "CommandBusConnector$\nResultCallback\n(10.63%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "CommandBusConnector$ResultCallback_8432" [label=9; weight=9; penwidth=0.5; color = 5];
-	"CommandBusConnector$Handler_8429"  [label = "CommandBusConnector$\nHandler\n(11.17%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "CommandBusConnector$Handler_8429" [label=2; weight=2; penwidth=0.4; color = 5];
-	"CommandResultMessage_7314"  [label = "CommandResultMessage\n(35.55%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "CommandResultMessage_7314" [label=2; weight=2; penwidth=0.4; color = 5];
-	"PriorityRunnable_47135"  [label = "PriorityRunnable\n(100.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "PriorityRunnable_47135" [label=2; weight=2; penwidth=0.4; color = 5];
-	"CommandBus_8271"  [shape = "circle"; height=1.8; label = "CommandBus\n(0.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "CommandBus_8271" [label=1; weight=1; penwidth=0.4; color = 5];
-	"DistributedCommandBus_8398" -> "CommandBus_8271" [label=5; weight=5; penwidth=0.3; color = 3]
-	"CommandBusConnector$Handler_8429" -> "CommandBusConnector$ResultCallback_8432" [label=2; weight=2; penwidth=0.3; color = 3]
-	"CommandBus_8271" -> "CommandMessage_8239" [label=1; weight=1; penwidth=0.3; color = 3]
-	"CommandBus_8271" -> "CommandResultMessage_7314" [label=1; weight=1; penwidth=0.3; color = 3]
-	"CommandBusConnector$Handler_8429" -> "CommandMessage_8239" [label=1; weight=1; penwidth=0.3; color = 3]
-	"CommandBusConnector$ResultCallback_8432" -> "CommandResultMessage_7314" [label=1; weight=1; penwidth=0.3; color = 3]
-	"DistributedCommandBus_8398" -> "CommandResultMessage_7314" [label=1; weight=1; penwidth=0.3; color = 3]
-	"DistributedCommandBus_8398" -> "CommandMessage_8239" [label=1; weight=1; penwidth=0.3; color = 3]
-	"DistributedCommandBus_8398" -> "CommandBusConnector$Handler_8429" [label=1; weight=1; penwidth=0.3; color = 3]
+	graph   [label="Top Rank #3 Java Type Outlier\norg.axonframework.messaging.core.RemoteNonTransientHandlingException\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: cluster probability\nlarge circle: < 25% percentile of cluster probability\nthick outline: > 80% percentile of distance to cluster center\n\n"];
+	central [label="🧩 outlier #3\nRemoteNonTransientHandlingException"];
+	"AxonServerNonTransientRemoteCommandHandlingException_41310"  [label = "AxonServerNonTransientRemoteCommandHandlingException\n(36.68%)"; penwidth = 2; ]; "AxonServerNonTransientRemoteCommandHandlingException_41310" -> central [label=2; weight=2; penwidth=0.4];
+	"AxonServerNonTransientRemoteQueryHandlingException_41305"  [label = "AxonServerNonTransientRemoteQueryHandlingException\n(36.68%)"; penwidth = 2; ]; "AxonServerNonTransientRemoteQueryHandlingException_41305" -> central [label=2; weight=2; penwidth=0.4];
+	"RemoteExceptionDescription_20967"  [shape = "circle"; height=1.8; label = "RemoteExceptionDescription\n(12.93%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "RemoteExceptionDescription_20967" [label=3; weight=3; penwidth=0.4; color = 5];
+	"AxonNonTransientException_45884"  [label = "AxonNonTransientException\n(100.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "AxonNonTransientException_45884" [label=2; weight=2; penwidth=0.4; color = 5];
+	"AxonServerNonTransientRemoteCommandHandlingException_41310" -> "RemoteExceptionDescription_20967" [label=2; weight=2; penwidth=0.3; color = 3]
+	"AxonServerNonTransientRemoteQueryHandlingException_41305" -> "RemoteExceptionDescription_20967" [label=2; weight=2; penwidth=0.3; color = 3]
 }

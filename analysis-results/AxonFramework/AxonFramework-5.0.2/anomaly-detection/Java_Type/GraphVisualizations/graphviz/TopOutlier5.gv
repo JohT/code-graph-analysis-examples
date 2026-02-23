@@ -12,42 +12,49 @@ strict digraph TopOutlier5 {
     central [fontsize = 16;];
     central [color = 7; fillcolor = 5; penwidth = 3;];
 
-	graph   [label="Top Rank #5 Java Type Outlier\norg.axonframework.messaging.core.timeout.UnitOfWorkTimeoutInterceptorBuilder\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: cluster probability\nlarge circle: < 25% percentile of cluster probability\nthick outline: > 80% percentile of distance to cluster center\n\n"];
-	central [label="🧩 outlier #5\nUnitOfWorkTimeoutInterceptorBuilder"];
-	"AxonTimeoutAutoConfiguration$AxonTimeoutConfigurerModule_5244"  [label = "AxonTimeoutAutoConfiguration$\nAxonTimeoutConfigurerModule\n(74.02%)"; penwidth = 2; ]; "AxonTimeoutAutoConfiguration$AxonTimeoutConfigurerModule_5244" -> central [label=9; weight=9; penwidth=0.5];
-	"AxonTimeLimitedTask_28015"  [shape = "circle"; height=1.8; label = "AxonTimeLimitedTask\n(0.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "AxonTimeLimitedTask_28015" [label=11; weight=11; penwidth=0.6; color = 5];
-	"ProcessingContext_7325"  [shape = "circle"; height=1.8; label = "ProcessingContext\n(0.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "ProcessingContext_7325" [label=9; weight=9; penwidth=0.5; color = 5];
-	"MessageHandlerInterceptor_7321"  [shape = "circle"; height=1.8; label = "MessageHandlerInterceptor\n(0.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "MessageHandlerInterceptor_7321" [label=4; weight=4; penwidth=0.5; color = 5];
-	"Context$ResourceKey_9279"  [label = "Context$\nResourceKey\n(75.45%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "Context$ResourceKey_9279" [label=3; weight=3; penwidth=0.4; color = 5];
-	"AxonTaskJanitor_28016"  [shape = "circle"; height=1.8; label = "AxonTaskJanitor\n(0.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "AxonTaskJanitor_28016" [label=2; weight=2; penwidth=0.4; color = 5];
-	"Message_7315"  [shape = "circle"; height=1.8; label = "Message\n(0.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "Message_7315" [label=2; weight=2; penwidth=0.4; color = 5];
-	"MessageHandlerInterceptorChain_7326"  [shape = "circle"; height=1.8; label = "MessageHandlerInterceptorChain\n(0.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "MessageHandlerInterceptorChain_7326" [label=2; weight=2; penwidth=0.4; color = 5];
-	"MessageStream_7327"  [label = "MessageStream\n(31.32%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "MessageStream_7327" [label=2; weight=2; penwidth=0.4; color = 5];
-	"ProcessingLifecycle$Phase_7324"  [label = "ProcessingLifecycle$\nPhase\n(100.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "ProcessingLifecycle$Phase_7324" [label=2; weight=2; penwidth=0.4; color = 5];
-	"CommandMessage_8239"  [label = "CommandMessage\n(75.94%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "CommandMessage_8239" [label=1; weight=1; penwidth=0.4; color = 5];
-	"EventMessage_7322"  [shape = "circle"; height=1.8; label = "EventMessage\n(0.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "EventMessage_7322" [label=1; weight=1; penwidth=0.4; color = 5];
-	"MessageStream$Empty_9272"  [shape = "circle"; height=1.8; label = "MessageStream$\nEmpty\n(0.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "MessageStream$Empty_9272" [label=1; weight=1; penwidth=0.4; color = 5];
-	"ProcessingLifecycle$ErrorHandler_7323"  [label = "ProcessingLifecycle$\nErrorHandler\n(100.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "ProcessingLifecycle$ErrorHandler_7323" [label=1; weight=1; penwidth=0.4; color = 5];
-	"QueryMessage_8234"  [label = "QueryMessage\n(79.86%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "QueryMessage_8234" [label=1; weight=1; penwidth=0.4; color = 5];
-	"MessageStream_7327" -> "Message_7315" [label=25; weight=25; penwidth=0.3; color = 3]
-	"ProcessingContext_7325" -> "Context$ResourceKey_9279" [label=9; weight=9; penwidth=0.3; color = 3]
-	"MessageStream$Empty_9272" -> "MessageStream_7327" [label=7; weight=7; penwidth=0.3; color = 3]
-	"CommandMessage_8239" -> "Message_7315" [label=6; weight=6; penwidth=0.3; color = 3]
-	"EventMessage_7322" -> "Message_7315" [label=6; weight=6; penwidth=0.3; color = 3]
-	"QueryMessage_8234" -> "Message_7315" [label=6; weight=6; penwidth=0.3; color = 3]
-	"Message_7315" -> "ProcessingContext_7325" [label=5; weight=5; penwidth=0.3; color = 3]
-	"MessageStream_7327" -> "MessageStream$Empty_9272" [label=5; weight=5; penwidth=0.3; color = 3]
-	"MessageStream$Empty_9272" -> "Message_7315" [label=4; weight=4; penwidth=0.3; color = 3]
-	"AxonTimeLimitedTask_28015" -> "AxonTaskJanitor_28016" [label=3; weight=3; penwidth=0.3; color = 3]
-	"AxonTimeoutAutoConfiguration$AxonTimeoutConfigurerModule_5244" -> "MessageHandlerInterceptor_7321" [label=3; weight=3; penwidth=0.3; color = 3]
-	"Message_7315" -> "Context$ResourceKey_9279" [label=3; weight=3; penwidth=0.3; color = 3]
-	"ProcessingLifecycle$ErrorHandler_7323" -> "ProcessingLifecycle$Phase_7324" [label=2; weight=2; penwidth=0.3; color = 3]
-	"MessageHandlerInterceptor_7321" -> "MessageHandlerInterceptorChain_7326" [label=1; weight=1; penwidth=0.3; color = 3]
-	"MessageHandlerInterceptor_7321" -> "ProcessingContext_7325" [label=1; weight=1; penwidth=0.3; color = 3]
-	"MessageHandlerInterceptor_7321" -> "Message_7315" [label=1; weight=1; penwidth=0.3; color = 3]
-	"MessageHandlerInterceptor_7321" -> "MessageStream_7327" [label=1; weight=1; penwidth=0.3; color = 3]
-	"MessageHandlerInterceptorChain_7326" -> "Message_7315" [label=1; weight=1; penwidth=0.3; color = 3]
-	"MessageHandlerInterceptorChain_7326" -> "ProcessingContext_7325" [label=1; weight=1; penwidth=0.3; color = 3]
-	"MessageHandlerInterceptorChain_7326" -> "MessageStream_7327" [label=1; weight=1; penwidth=0.3; color = 3]
-	"ProcessingLifecycle$ErrorHandler_7323" -> "ProcessingContext_7325" [label=1; weight=1; penwidth=0.3; color = 3]
+	graph   [label="Top Rank #5 Java Type Outlier\norg.axonframework.messaging.eventstreaming.EventCriterion\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: cluster probability\nlarge circle: < 25% percentile of cluster probability\nthick outline: > 80% percentile of distance to cluster center\n\n"];
+	central [label="🧩 outlier #5\nEventCriterion"];
+	"ConditionConverter_44008"  [shape = "circle"; height=1.8; label = "ConditionConverter\n(0.0%)"; penwidth = 2; ]; "ConditionConverter_44008" -> central [label=4; weight=4; penwidth=0.5];
+	"AggregateBasedAxonServerEventStorageEngine_44007"  [shape = "circle"; height=1.8; label = "AggregateBasedAxonServerEventStorageEngine\n(0.0%)"; penwidth = 2; ]; "AggregateBasedAxonServerEventStorageEngine_44007" -> central [label=3; weight=3; penwidth=0.4];
+	"AggregateBasedJpaEventStorageEngine_39619"  [label = "AggregateBasedJpaEventStorageEngine\n(98.17%)"; penwidth = 2; ]; "AggregateBasedJpaEventStorageEngine_39619" -> central [label=3; weight=3; penwidth=0.4];
+	"TagAndTypeFilteredEventCriteria_17865"  [label = "TagAndTypeFilteredEventCriteria\n(86.86%)"; penwidth = 5; ]; "TagAndTypeFilteredEventCriteria_17865" -> central [label=2; weight=2; penwidth=0.4];
+	"TagFilteredEventCriteria_17866"  [label = "TagFilteredEventCriteria\n(86.86%)"; penwidth = 2; ]; "TagFilteredEventCriteria_17866" -> central [label=2; weight=2; penwidth=0.4];
+	"AnyEvent_17559"  [label = "AnyEvent\n(100.0%)"; penwidth = 2; ]; "AnyEvent_17559" -> central [label=1; weight=1; penwidth=0.4];
+	"EventCriteria_14617"  [label = "EventCriteria\n(43.28%)"; penwidth = 5; ]; "EventCriteria_14617" -> central [label=1; weight=1; penwidth=0.4];
+	"OrEventCriteria_17560"  [label = "OrEventCriteria\n(100.0%)"; penwidth = 2; ]; "OrEventCriteria_17560" -> central [label=1; weight=1; penwidth=0.4];
+	"EventCriteria_14617"  [label = "EventCriteria\n(43.28%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "EventCriteria_14617" [label=1; weight=1; penwidth=0.4; color = 5];
+	"QualifiedName_8274"  [shape = "circle"; height=1.8; label = "QualifiedName\n(0.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "QualifiedName_8274" [label=1; weight=1; penwidth=0.4; color = 5];
+	"Tag_17864"  [label = "Tag\n(100.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "Tag_17864" [label=1; weight=1; penwidth=0.4; color = 5];
+	"OrEventCriteria_17560" -> "EventCriteria_14617" [label=12; weight=12; penwidth=0.3; color = 3]
+	"EventCriteria_14617" -> "Tag_17864" [label=5; weight=5; penwidth=0.3; color = 3]
+	"TagAndTypeFilteredEventCriteria_17865" -> "QualifiedName_8274" [label=5; weight=5; penwidth=0.3; color = 3]
+	"TagAndTypeFilteredEventCriteria_17865" -> "Tag_17864" [label=5; weight=5; penwidth=0.3; color = 3]
+	"TagAndTypeFilteredEventCriteria_17865" -> "OrEventCriteria_17560" [label=5; weight=5; penwidth=0.3; color = 3]
+	"TagFilteredEventCriteria_17866" -> "EventCriteria_14617" [label=5; weight=5; penwidth=0.3; color = 3]
+	"TagFilteredEventCriteria_17866" -> "OrEventCriteria_17560" [label=5; weight=5; penwidth=0.3; color = 3]
+	"TagFilteredEventCriteria_17866" -> "Tag_17864" [label=5; weight=5; penwidth=0.3; color = 3]
+	"AnyEvent_17559" -> "EventCriteria_14617" [label=4; weight=4; penwidth=0.3; color = 3]
+	"ConditionConverter_44008" -> "Tag_17864" [label=4; weight=4; penwidth=0.3; color = 3]
+	"EventCriteria_14617" -> "OrEventCriteria_17560" [label=4; weight=4; penwidth=0.3; color = 3]
+	"TagAndTypeFilteredEventCriteria_17865" -> "EventCriteria_14617" [label=4; weight=4; penwidth=0.3; color = 3]
+	"ConditionConverter_44008" -> "EventCriteria_14617" [label=3; weight=3; penwidth=0.3; color = 3]
+	"TagFilteredEventCriteria_17866" -> "QualifiedName_8274" [label=3; weight=3; penwidth=0.3; color = 3]
+	"AggregateBasedAxonServerEventStorageEngine_44007" -> "Tag_17864" [label=2; weight=2; penwidth=0.3; color = 3]
+	"AggregateBasedJpaEventStorageEngine_39619" -> "Tag_17864" [label=2; weight=2; penwidth=0.3; color = 3]
+	"AggregateBasedJpaEventStorageEngine_39619" -> "QualifiedName_8274" [label=2; weight=2; penwidth=0.3; color = 3]
+	"AnyEvent_17559" -> "TagAndTypeFilteredEventCriteria_17865" [label=2; weight=2; penwidth=0.3; color = 3]
+	"AnyEvent_17559" -> "QualifiedName_8274" [label=2; weight=2; penwidth=0.3; color = 3]
+	"ConditionConverter_44008" -> "QualifiedName_8274" [label=2; weight=2; penwidth=0.3; color = 3]
+	"EventCriteria_14617" -> "TagFilteredEventCriteria_17866" [label=2; weight=2; penwidth=0.3; color = 3]
+	"EventCriteria_14617" -> "AnyEvent_17559" [label=2; weight=2; penwidth=0.3; color = 3]
+	"OrEventCriteria_17560" -> "QualifiedName_8274" [label=2; weight=2; penwidth=0.3; color = 3]
+	"TagFilteredEventCriteria_17866" -> "TagAndTypeFilteredEventCriteria_17865" [label=2; weight=2; penwidth=0.3; color = 3]
+	"AggregateBasedAxonServerEventStorageEngine_44007" -> "EventCriteria_14617" [label=1; weight=1; penwidth=0.3; color = 3]
+	"AggregateBasedJpaEventStorageEngine_39619" -> "EventCriteria_14617" [label=1; weight=1; penwidth=0.3; color = 3]
+	"AnyEvent_17559" -> "Tag_17864" [label=1; weight=1; penwidth=0.3; color = 3]
+	"EventCriteria_14617" -> "QualifiedName_8274" [label=1; weight=1; penwidth=0.3; color = 3]
+	"OrEventCriteria_17560" -> "Tag_17864" [label=1; weight=1; penwidth=0.3; color = 3]
+	"OrEventCriteria_17560" -> "AnyEvent_17559" [label=1; weight=1; penwidth=0.3; color = 3]
+	"TagAndTypeFilteredEventCriteria_17865" -> "AnyEvent_17559" [label=1; weight=1; penwidth=0.3; color = 3]
+	"TagFilteredEventCriteria_17866" -> "AnyEvent_17559" [label=1; weight=1; penwidth=0.3; color = 3]
 }

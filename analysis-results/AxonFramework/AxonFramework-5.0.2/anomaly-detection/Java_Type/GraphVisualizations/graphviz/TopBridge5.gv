@@ -12,18 +12,10 @@ strict digraph TopBridge5 {
     central [fontsize = 16;];
     central [color = 7; fillcolor = 5; penwidth = 3;];
 
-	graph   [label="Top Rank #5 Java Type Bridge\norg.axonframework.conversion.ChainedConverter\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
-	central [label="🌉 bridge #5\nChainedConverter"];
-	"ChainingContentTypeConverter_29699" [label = "ChainingContentTypeConverter"; ]; "ChainingContentTypeConverter_29699" -> central [label=3; weight=3; penwidth=0.4];
-	"ContentTypeConverter_29885" [label = "ContentTypeConverter"; color = 5; fillcolor = 1; ]; central -> "ContentTypeConverter_29885" [label=16; weight=16; penwidth=0.6; color = 5];
-	"ChainedConverter$RouteCalculator_29692" [label = "ChainedConverter$\nRouteCalculator"; color = 5; fillcolor = 1; ]; central -> "ChainedConverter$RouteCalculator_29692" [label=4; weight=4; penwidth=0.5; color = 5];
-	"ChainedConverter$Route_29693" [label = "ChainedConverter$\nRoute"; color = 5; fillcolor = 1; ]; central -> "ChainedConverter$Route_29693" [label=3; weight=3; penwidth=0.4; color = 5];
-	"Assert_45808" [label = "Assert"; color = 5; fillcolor = 1; ]; central -> "Assert_45808" [label=2; weight=2; penwidth=0.4; color = 5];
-	"ConversionException_30442" [label = "ConversionException"; color = 5; fillcolor = 1; ]; central -> "ConversionException_30442" [label=2; weight=2; penwidth=0.4; color = 5];
-	"ChainingContentTypeConverter_29699" -> "ContentTypeConverter_29885" [label=17; weight=17; penwidth=0.3; color = 3]
-	"ChainedConverter$RouteCalculator_29692" -> "ChainedConverter$Route_29693" [label=12; weight=12; penwidth=0.3; color = 3]
-	"ChainedConverter$Route_29693" -> "ContentTypeConverter_29885" [label=11; weight=11; penwidth=0.3; color = 3]
-	"ChainedConverter$RouteCalculator_29692" -> "ContentTypeConverter_29885" [label=6; weight=6; penwidth=0.3; color = 3]
-	"ChainingContentTypeConverter_29699" -> "ConversionException_30442" [label=2; weight=2; penwidth=0.3; color = 3]
-	"ChainedConverter$Route_29693" -> "Assert_45808" [label=1; weight=1; penwidth=0.3; color = 3]
+	graph   [label="Top Rank #5 Java Type Bridge\norg.axonframework.extension.springboot.autoconfig.ConverterAutoConfiguration$1\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
+	central [label="🌉 bridge #5\nConverterAutoConfiguration$1"];
+	"ConverterAutoConfiguration_4855" [label = "ConverterAutoConfiguration"; ]; "ConverterAutoConfiguration_4855" -> central [label=2; weight=2; penwidth=0.4];
+	"ConverterProperties$ConverterType_4677" [label = "ConverterProperties$\nConverterType"; color = 5; fillcolor = 1; ]; central -> "ConverterProperties$ConverterType_4677" [label=10; weight=10; penwidth=0.6; color = 5];
+	"ConverterAutoConfiguration_4855" [label = "ConverterAutoConfiguration"; color = 5; fillcolor = 1; ]; central -> "ConverterAutoConfiguration_4855" [label=1; weight=1; penwidth=0.4; color = 5];
+	"ConverterAutoConfiguration_4855" -> "ConverterProperties$ConverterType_4677" [label=7; weight=7; penwidth=0.3; color = 3]
 }

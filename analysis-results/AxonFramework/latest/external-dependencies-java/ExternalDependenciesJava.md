@@ -2540,57 +2540,57 @@ Only the last 20 entries are shown. The whole table can be found in the followin
   <tbody>
     <tr>
       <th>0</th>
-      <td>org.testcontainers.utility</td>
-      <td>2</td>
-    </tr>
-    <tr>
-      <th>1</th>
       <td>reactor.core.scheduler</td>
       <td>2</td>
     </tr>
     <tr>
-      <th>2</th>
+      <th>1</th>
       <td>org.springframework.boot.docker.compose.core</td>
       <td>2</td>
     </tr>
     <tr>
-      <th>3</th>
+      <th>2</th>
       <td>org.springframework.boot.docker.compose.servic...</td>
       <td>2</td>
     </tr>
     <tr>
-      <th>4</th>
-      <td>org.testcontainers.containers.wait.strategy</td>
+      <th>3</th>
+      <td>org.testcontainers.utility</td>
       <td>2</td>
     </tr>
     <tr>
-      <th>5</th>
+      <th>4</th>
       <td>org.testcontainers.containers</td>
       <td>2</td>
     </tr>
     <tr>
-      <th>6</th>
-      <td>org.axonframework.extension.spring.conversion....</td>
-      <td>3</td>
+      <th>5</th>
+      <td>org.testcontainers.containers.wait.strategy</td>
+      <td>2</td>
     </tr>
     <tr>
-      <th>7</th>
+      <th>6</th>
       <td>javax.cache.configuration</td>
       <td>3</td>
     </tr>
     <tr>
+      <th>7</th>
+      <td>org.axonframework.extension.spring.conversion....</td>
+      <td>3</td>
+    </tr>
+    <tr>
       <th>8</th>
-      <td>io.grpc.stub</td>
+      <td>org.springframework.boot.testcontainers.servic...</td>
       <td>4</td>
     </tr>
     <tr>
       <th>9</th>
-      <td>com.google.gson</td>
+      <td>io.grpc.stub</td>
       <td>4</td>
     </tr>
     <tr>
       <th>10</th>
-      <td>org.springframework.beans.factory</td>
+      <td>com.google.gson</td>
       <td>4</td>
     </tr>
     <tr>
@@ -2600,32 +2600,32 @@ Only the last 20 entries are shown. The whole table can be found in the followin
     </tr>
     <tr>
       <th>12</th>
-      <td>org.springframework.boot.testcontainers.servic...</td>
+      <td>org.springframework.beans.factory</td>
       <td>4</td>
     </tr>
     <tr>
       <th>13</th>
-      <td>jakarta.validation</td>
-      <td>5</td>
-    </tr>
-    <tr>
-      <th>14</th>
-      <td>io.axoniq.axonserver.grpc.event</td>
-      <td>5</td>
-    </tr>
-    <tr>
-      <th>15</th>
       <td>com.fasterxml.jackson.databind.node</td>
       <td>5</td>
     </tr>
     <tr>
-      <th>16</th>
+      <th>14</th>
+      <td>org.springframework.context</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>15</th>
       <td>org.springframework.boot.context.properties.bind</td>
       <td>5</td>
     </tr>
     <tr>
+      <th>16</th>
+      <td>jakarta.validation</td>
+      <td>5</td>
+    </tr>
+    <tr>
       <th>17</th>
-      <td>org.springframework.context</td>
+      <td>io.axoniq.axonserver.grpc.event</td>
       <td>5</td>
     </tr>
     <tr>

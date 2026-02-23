@@ -12,10 +12,12 @@ strict digraph TopBridge2 {
     central [fontsize = 16;];
     central [color = 7; fillcolor = 5; penwidth = 3;];
 
-	graph   [label="Top Rank #2 Java Type Bridge\norg.axonframework.extension.springboot.autoconfig.ObjectMapperAutoConfiguration$JacksonConfiguredCondition$MessagesJacksonCondition\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
-	central [label="🌉 bridge #2\nObjectMapperAutoConfiguration$JacksonConfiguredCondition$MessagesJacksonCondition"];
-	"ObjectMapperAutoConfiguration_4877" [label = "ObjectMapperAutoConfiguration"; ]; "ObjectMapperAutoConfiguration_4877" -> central [label=1; weight=1; penwidth=0.4];
-	"ObjectMapperAutoConfiguration$JacksonConfiguredCondition_4865" [label = "ObjectMapperAutoConfiguration$\nJacksonConfiguredCondition"; ]; "ObjectMapperAutoConfiguration$JacksonConfiguredCondition_4865" -> central [label=1; weight=1; penwidth=0.4];
-	"ObjectMapperAutoConfiguration$JacksonConfiguredCondition_4865" [label = "ObjectMapperAutoConfiguration$\nJacksonConfiguredCondition"; color = 5; fillcolor = 1; ]; central -> "ObjectMapperAutoConfiguration$JacksonConfiguredCondition_4865" [label=1; weight=1; penwidth=0.4; color = 5];
-	"ObjectMapperAutoConfiguration_4877" -> "ObjectMapperAutoConfiguration$JacksonConfiguredCondition_4865" [label=2; weight=2; penwidth=0.3; color = 3]
+	graph   [label="Top Rank #2 Java Type Bridge\norg.axonframework.extension.springboot.ConverterProperties$ConverterType\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
+	central [label="🌉 bridge #2\nConverterProperties$ConverterType"];
+	"ConverterProperties_4749" [label = "ConverterProperties"; ]; "ConverterProperties_4749" -> central [label=13; weight=13; penwidth=0.6];
+	"ConverterAutoConfiguration$1_4854" [label = "ConverterAutoConfiguration$\n1"; ]; "ConverterAutoConfiguration$1_4854" -> central [label=10; weight=10; penwidth=0.6];
+	"ConverterAutoConfiguration_4855" [label = "ConverterAutoConfiguration"; ]; "ConverterAutoConfiguration_4855" -> central [label=7; weight=7; penwidth=0.5];
+	"ConverterAutoConfiguration_4855" -> "ConverterProperties_4749" [label=10; weight=10; penwidth=0.3; color = 3]
+	"ConverterAutoConfiguration_4855" -> "ConverterAutoConfiguration$1_4854" [label=2; weight=2; penwidth=0.3; color = 3]
+	"ConverterAutoConfiguration$1_4854" -> "ConverterAutoConfiguration_4855" [label=1; weight=1; penwidth=0.3; color = 3]
 }

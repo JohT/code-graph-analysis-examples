@@ -349,18 +349,18 @@ The source data for this aggregated table can be found in the CSV report `Number
       <td>2</td>
     </tr>
     <tr>
-      <th>axon-test-5.0.2</th>
-      <td>50</td>
-      <td>18</td>
-      <td>0</td>
-      <td>0</td>
-    </tr>
-    <tr>
       <th>axon-server-connector-5.0.2</th>
       <td>56</td>
       <td>10</td>
       <td>0</td>
       <td>2</td>
+    </tr>
+    <tr>
+      <th>axon-test-5.0.2</th>
+      <td>50</td>
+      <td>18</td>
+      <td>0</td>
+      <td>0</td>
     </tr>
     <tr>
       <th>axon-conversion-5.0.2</th>
@@ -468,18 +468,18 @@ The source data for this aggregated table can be found in the CSV report `Number
       <td>2.857143</td>
     </tr>
     <tr>
-      <th>axon-test-5.0.2</th>
-      <td>73.529412</td>
-      <td>26.470588</td>
-      <td>0.000000</td>
-      <td>0.000000</td>
-    </tr>
-    <tr>
       <th>axon-server-connector-5.0.2</th>
       <td>82.352941</td>
       <td>14.705882</td>
       <td>0.000000</td>
       <td>2.941176</td>
+    </tr>
+    <tr>
+      <th>axon-test-5.0.2</th>
+      <td>73.529412</td>
+      <td>26.470588</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
     </tr>
     <tr>
       <th>axon-conversion-5.0.2</th>
@@ -607,12 +607,12 @@ The whole table can be found in the CSV report `Number_of_packages_per_artifact`
     </tr>
     <tr>
       <th>5</th>
-      <td>axon-update-5.0.2</td>
+      <td>axon-test-5.0.2</td>
       <td>5</td>
     </tr>
     <tr>
       <th>6</th>
-      <td>axon-test-5.0.2</td>
+      <td>axon-update-5.0.2</td>
       <td>5</td>
     </tr>
     <tr>

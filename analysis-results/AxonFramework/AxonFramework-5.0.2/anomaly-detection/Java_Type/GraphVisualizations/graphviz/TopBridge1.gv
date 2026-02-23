@@ -12,10 +12,13 @@ strict digraph TopBridge1 {
     central [fontsize = 16;];
     central [color = 7; fillcolor = 5; penwidth = 3;];
 
-	graph   [label="Top Rank #1 Java Type Bridge\norg.axonframework.extension.springboot.autoconfig.ObjectMapperAutoConfiguration$JacksonConfiguredCondition$EventsJacksonCondition\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
-	central [label="🌉 bridge #1\nObjectMapperAutoConfiguration$JacksonConfiguredCondition$EventsJacksonCondition"];
+	graph   [label="Top Rank #1 Java Type Bridge\norg.axonframework.extension.springboot.ConverterProperties\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
+	central [label="🌉 bridge #1\nConverterProperties"];
+	"ConverterAutoConfiguration_4855" [label = "ConverterAutoConfiguration"; ]; "ConverterAutoConfiguration_4855" -> central [label=10; weight=10; penwidth=0.6];
+	"CBORMapperAutoConfiguration_4878" [label = "CBORMapperAutoConfiguration"; ]; "CBORMapperAutoConfiguration_4878" -> central [label=1; weight=1; penwidth=0.4];
 	"ObjectMapperAutoConfiguration_4877" [label = "ObjectMapperAutoConfiguration"; ]; "ObjectMapperAutoConfiguration_4877" -> central [label=1; weight=1; penwidth=0.4];
-	"ObjectMapperAutoConfiguration$JacksonConfiguredCondition_4865" [label = "ObjectMapperAutoConfiguration$\nJacksonConfiguredCondition"; ]; "ObjectMapperAutoConfiguration$JacksonConfiguredCondition_4865" -> central [label=1; weight=1; penwidth=0.4];
-	"ObjectMapperAutoConfiguration$JacksonConfiguredCondition_4865" [label = "ObjectMapperAutoConfiguration$\nJacksonConfiguredCondition"; color = 5; fillcolor = 1; ]; central -> "ObjectMapperAutoConfiguration$JacksonConfiguredCondition_4865" [label=1; weight=1; penwidth=0.4; color = 5];
-	"ObjectMapperAutoConfiguration_4877" -> "ObjectMapperAutoConfiguration$JacksonConfiguredCondition_4865" [label=2; weight=2; penwidth=0.3; color = 3]
+	"ConverterProperties$ConverterType_4677" [label = "ConverterProperties$\nConverterType"; color = 5; fillcolor = 1; ]; central -> "ConverterProperties$ConverterType_4677" [label=13; weight=13; penwidth=0.6; color = 5];
+	"ConverterAutoConfiguration_4855" -> "ConverterProperties$ConverterType_4677" [label=7; weight=7; penwidth=0.3; color = 3]
+	"CBORMapperAutoConfiguration_4878" -> "ConverterAutoConfiguration_4855" [label=1; weight=1; penwidth=0.3; color = 3]
+	"ObjectMapperAutoConfiguration_4877" -> "CBORMapperAutoConfiguration_4878" [label=1; weight=1; penwidth=0.3; color = 3]
 }
