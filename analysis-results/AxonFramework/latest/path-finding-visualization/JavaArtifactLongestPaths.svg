@@ -54,8 +54,8 @@
 <!-- axon&#45;test&#45;5.0.2\n(level 1/6)&#45;&gt;axon&#45;eventsourcing&#45;5.0.2\n(level 2/6) -->
 <g id="edge3" class="edge">
 <title>axon&#45;test&#45;5.0.2\n(level 1/6)&#45;&gt;axon&#45;eventsourcing&#45;5.0.2\n(level 2/6)</title>
-<path fill="none" stroke="#1178b2" stroke-width="1.02" d="M437.46,-581.94C455.56,-557.66 482.11,-522.02 502.14,-495.14"/>
-<polygon fill="#1178b2" stroke="#1178b2" stroke-width="1.02" points="504.83,-497.38 508,-487.27 499.22,-493.2 504.83,-497.38"/>
+<path fill="none" stroke="red" stroke-width="1.02" d="M437.46,-581.94C455.56,-557.66 482.11,-522.02 502.14,-495.14"/>
+<polygon fill="red" stroke="red" stroke-width="1.02" points="504.83,-497.38 508,-487.27 499.22,-493.2 504.83,-497.38"/>
 <text xml:space="preserve" text-anchor="middle" x="495.95" y="-530.57" font-family="Helvetica,Arial,sans-serif" font-size="10.00">6</text>
 </g>
 <!-- axon&#45;messaging&#45;5.0.2\n(level 4/6)&#45;&gt;axon&#45;common&#45;5.0.2\n(level 6/6) -->
@@ -138,8 +138,8 @@
 <!-- axon&#45;spring&#45;boot&#45;autoconfigure&#45;5.0.2\n(level 0/6)&#45;&gt;axon&#45;test&#45;5.0.2\n(level 1/6) -->
 <g id="edge11" class="edge">
 <title>axon&#45;spring&#45;boot&#45;autoconfigure&#45;5.0.2\n(level 0/6)&#45;&gt;axon&#45;test&#45;5.0.2\n(level 1/6)</title>
-<path fill="none" stroke="darkorange" stroke-width="1.01" d="M900.73,-708.67C773.04,-701.25 602.27,-688.36 536,-669.82 512,-663.11 487.01,-651.62 466.17,-640.6"/>
-<polygon fill="darkorange" stroke="darkorange" stroke-width="1.01" points="468.09,-637.66 457.63,-635.98 464.76,-643.82 468.09,-637.66"/>
+<path fill="none" stroke="red" stroke-width="1.01" d="M900.73,-708.67C773.04,-701.25 602.27,-688.36 536,-669.82 512,-663.11 487.01,-651.62 466.17,-640.6"/>
+<polygon fill="red" stroke="red" stroke-width="1.01" points="468.09,-637.66 457.63,-635.98 464.76,-643.82 468.09,-637.66"/>
 <text xml:space="preserve" text-anchor="middle" x="538.5" y="-660.82" font-family="Helvetica,Arial,sans-serif" font-size="10.00">4</text>
 </g>
 <!-- axon&#45;spring&#45;boot&#45;autoconfigure&#45;5.0.2\n(level 0/6)&#45;&gt;axon&#45;messaging&#45;5.0.2\n(level 4/6) -->
@@ -180,8 +180,8 @@
 <!-- axon&#45;spring&#45;boot&#45;autoconfigure&#45;5.0.2\n(level 0/6)&#45;&gt;axon&#45;server&#45;connector&#45;5.0.2\n(level 1/6) -->
 <g id="edge5" class="edge">
 <title>axon&#45;spring&#45;boot&#45;autoconfigure&#45;5.0.2\n(level 0/6)&#45;&gt;axon&#45;server&#45;connector&#45;5.0.2\n(level 1/6)</title>
-<path fill="none" stroke="red" stroke-width="1.06" d="M973.91,-691.52C920.58,-675.27 850.88,-654.03 796.65,-637.5"/>
-<polygon fill="red" stroke="red" stroke-width="1.06" points="797.79,-634.19 787.2,-634.63 795.75,-640.89 797.79,-634.19"/>
+<path fill="none" stroke="darkorange" stroke-width="1.06" d="M973.91,-691.52C920.58,-675.27 850.88,-654.03 796.65,-637.5"/>
+<polygon fill="darkorange" stroke="darkorange" stroke-width="1.06" points="797.79,-634.19 787.2,-634.63 795.75,-640.89 797.79,-634.19"/>
 <text xml:space="preserve" text-anchor="middle" x="898.31" y="-660.82" font-family="Helvetica,Arial,sans-serif" font-size="10.00">14</text>
 </g>
 <!-- axon&#45;spring&#45;boot&#45;autoconfigure&#45;5.0.2\n(level 0/6)&#45;&gt;axon&#45;conversion&#45;5.0.2\n(level 5/6) -->
@@ -208,8 +208,8 @@
 <!-- axon&#45;server&#45;connector&#45;5.0.2\n(level 1/6)&#45;&gt;axon&#45;eventsourcing&#45;5.0.2\n(level 2/6) -->
 <g id="edge26" class="edge">
 <title>axon&#45;server&#45;connector&#45;5.0.2\n(level 1/6)&#45;&gt;axon&#45;eventsourcing&#45;5.0.2\n(level 2/6)</title>
-<path fill="none" stroke="red" stroke-width="1.36" d="M676.85,-581.78C669.3,-575.62 661.36,-569.11 654,-562.99 626.18,-539.86 595.14,-513.52 571.08,-492.97"/>
-<polygon fill="red" stroke="red" stroke-width="1.36" points="573.66,-490.57 563.79,-486.74 569.12,-495.9 573.66,-490.57"/>
+<path fill="none" stroke="#1178b2" stroke-width="1.36" d="M676.85,-581.78C669.3,-575.62 661.36,-569.11 654,-562.99 626.18,-539.86 595.14,-513.52 571.08,-492.97"/>
+<polygon fill="#1178b2" stroke="#1178b2" stroke-width="1.36" points="573.66,-490.57 563.79,-486.74 569.12,-495.9 573.66,-490.57"/>
 <text xml:space="preserve" text-anchor="middle" x="659" y="-530.57" font-family="Helvetica,Arial,sans-serif" font-size="10.00">72</text>
 </g>
 <!-- axon&#45;server&#45;connector&#45;5.0.2\n(level 1/6)&#45;&gt;axon&#45;modelling&#45;5.0.2\n(level 3/6) -->
@@ -276,14 +276,14 @@
 <text xml:space="preserve" text-anchor="middle" x="883" y="-337.31" font-family="Helvetica,Arial,sans-serif" font-size="14.00">(level 0/6)</text>
 </g>
 <!-- axon&#45;tracing&#45;opentelemetry&#45;5.0.2\n(level 0/6)&#45;&gt;axon&#45;messaging&#45;5.0.2\n(level 4/6) -->
-<g id="edge28" class="edge">
+<g id="edge29" class="edge">
 <title>axon&#45;tracing&#45;opentelemetry&#45;5.0.2\n(level 0/6)&#45;&gt;axon&#45;messaging&#45;5.0.2\n(level 4/6)</title>
 <path fill="none" stroke="#1178b2" stroke-width="1.1" d="M828.47,-322.32C798.07,-307.5 760.13,-289 728.78,-273.71"/>
 <polygon fill="#1178b2" stroke="#1178b2" stroke-width="1.1" points="730.44,-270.63 719.91,-269.39 727.37,-276.92 730.44,-270.63"/>
 <text xml:space="preserve" text-anchor="middle" x="786.95" y="-293.49" font-family="Helvetica,Arial,sans-serif" font-size="10.00">22</text>
 </g>
 <!-- axon&#45;tracing&#45;opentelemetry&#45;5.0.2\n(level 0/6)&#45;&gt;axon&#45;common&#45;5.0.2\n(level 6/6) -->
-<g id="edge29" class="edge">
+<g id="edge28" class="edge">
 <title>axon&#45;tracing&#45;opentelemetry&#45;5.0.2\n(level 0/6)&#45;&gt;axon&#45;common&#45;5.0.2\n(level 6/6)</title>
 <path fill="none" stroke="#1178b2" d="M880.85,-320.14C875.69,-270.55 858.45,-168.41 802,-106.83 777.73,-80.36 742.69,-62.63 710.25,-50.98"/>
 <polygon fill="#1178b2" stroke="#1178b2" points="711.39,-47.67 700.8,-47.74 709.13,-54.29 711.39,-47.67"/>

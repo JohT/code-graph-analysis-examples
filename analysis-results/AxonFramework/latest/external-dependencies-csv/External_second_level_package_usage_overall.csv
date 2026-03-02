@@ -13,7 +13,7 @@
 "org.reactivestreams",3,6,8,27,116,1211,"Publisher,Subscription,Subscriber",""
 "io.micrometer",2,12,39,142,116,1211,"Tags,Clock,Gauge$Builder,Tag,MeterRegistry,Gauge,Counter,Timer,Timer$Builder",""
 "org.apache",2,12,42,145,116,1211,"SchemaStore,Schema,SchemaStore$Cache,GenericRecord,DecoderFactory,GenericDatumReader,BadHeaderException,GenericData,SchemaCompatibility$SchemaCompatibilityType",""
-"io.opentelemetry",1,5,21,70,116,1211,"Span,StatusCode,SpanBuilder,Scope,SpanContext,TextMapGetter,TextMapSetter,TextMapPropagator,GlobalOpenTelemetry",""
+"io.opentelemetry",1,5,21,70,116,1211,"SpanContext,Scope,SpanBuilder,StatusCode,Span,TextMapGetter,SpanKind,TextMapPropagator,TextMapSetter",""
 "jakarta.validation",1,2,5,16,116,1211,"ConstraintViolation,Validator,ValidatorFactory,Validation",""
 "javax.cache",1,2,12,48,116,1211,"CacheEntryUpdatedListener,CacheEntryEvent,CacheEntryCreatedListener,CacheEntryListener,CacheEntryListenerConfiguration,CacheEntryExpiredListener,CacheEntryRemovedListener,Factory,CacheEntryListenerException",""
 "org.awaitility",1,1,2,3,116,1211,"Awaitility,ConditionFactory",""
