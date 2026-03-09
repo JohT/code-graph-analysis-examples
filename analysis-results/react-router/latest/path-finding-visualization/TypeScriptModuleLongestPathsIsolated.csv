@@ -27,7 +27,7 @@
 """commands\n(level 1/5)"" -> ""dev\n(level 2/5)"" [label=5; penwidth=1.0; ];",""
 """dev\n(level 2/5)"" -> ""profiler\n(level 3/5)"" [label=12; penwidth=1.01; ];",""
 """run\n(level 0/5)"" -> ""commands\n(level 1/5)"" [label=24; penwidth=1.02; ];",""
-"""commands\n(level 1/5)"" -> ""build\n(level 2/5)"" [label=5; penwidth=1.0; ];",""
+"""commands\n(level 1/5)"" -> ""dev\n(level 2/5)"" [label=5; penwidth=1.0; ];",""
 ,""
 """create-react-router\n(level 0/5)"" -> ""prompt\n(level 1/5)"" [label=75; penwidth=1.05; ];",""
 """prompt\n(level 1/5)"" -> ""prompts-confirm\n(level 2/5)"" [label=40; penwidth=1.03; ];",""
