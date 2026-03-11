@@ -1850,8 +1850,8 @@ Only the top 40 entries are shown. The whole table can be found in the following
       <td>0.794872</td>
       <td>35</td>
       <td>4</td>
-      <td>[redirectDocument-&gt;RedirectFunction, replace-&gt;RedirectFunction, redirect-&gt;RedirectFunction, matchRoutes-&gt;matchRoutesImpl, matchRSCServerRequest-&gt;stripBasename, replace-&gt;replace, createStaticHandler-&gt;getRoutePattern, matchRSCServerRequest-&gt;matchRoutes, createStaticHandler-&gt;matchRoutes]</td>
-      <td>[RouterContext&lt;-createContext, MiddlewareNextFunction&lt;-MiddlewareFunction, RouterContext&lt;-RouterContextProvider, data&lt;-convertRouteMatchToUiMatch]</td>
+      <td>[createStaticHandler-&gt;convertRoutesToDataRoutes, RouterContextProvider-&gt;RouterContext, createContext-&gt;RouterContext, data-&gt;DataWithResponseInit, createStaticHandler-&gt;ResultType, MiddlewareFunction-&gt;MiddlewareNextFunction, createStaticHandler-&gt;RouterContextProvider, matchRSCServerRequest-&gt;RouterC...</td>
+      <td>[RouterContext&lt;-RouterContextProvider, MiddlewareNextFunction&lt;-MiddlewareFunction, RouterContext&lt;-createContext, data&lt;-convertRouteMatchToUiMatch]</td>
     </tr>
     <tr>
       <th>1</th>
@@ -1862,7 +1862,7 @@ Only the top 40 entries are shown. The whole table can be found in the following
       <td>0.750000</td>
       <td>7</td>
       <td>1</td>
-      <td>[createRouter-&gt;instrumentClientSideRouter, createStaticHandler-&gt;unstable_InstrumentRouteFunction, createRouter-&gt;unstable_InstrumentRouteFunction, RouterInit-&gt;unstable_ClientInstrumentation, createRouter-&gt;unstable_InstrumentRouterFunction, createRouter-&gt;getRouteInstrumentationUpdates, createStati...</td>
+      <td>[createRouter-&gt;instrumentClientSideRouter, createRouter-&gt;getRouteInstrumentationUpdates, createStaticHandler-&gt;getRouteInstrumentationUpdates, createRouter-&gt;unstable_InstrumentRouteFunction, createStaticHandler-&gt;unstable_InstrumentRouteFunction, RouterInit-&gt;unstable_ClientInstrumentation, createR...</td>
       <td>[Router&lt;-instrumentClientSideRouter]</td>
     </tr>
     <tr>
@@ -1874,7 +1874,7 @@ Only the top 40 entries are shown. The whole table can be found in the following
       <td>0.714286</td>
       <td>6</td>
       <td>1</td>
-      <td>[createStaticHandlerDataRoutes-&gt;redirectDocument, createStaticHandlerDataRoutes-&gt;redirect, createStaticHandlerDataRoutes-&gt;decodeViaTurboStream, createStaticHandlerDataRoutes-&gt;MiddlewareFunction, createStaticHandlerDataRoutes-&gt;replace, createStaticHandlerDataRoutes-&gt;SingleFetchRedirectSymbol]</td>
+      <td>[createStaticHandlerDataRoutes-&gt;replace, createStaticHandlerDataRoutes-&gt;redirectDocument, createStaticHandlerDataRoutes-&gt;SingleFetchRedirectSymbol, createStaticHandlerDataRoutes-&gt;redirect, createStaticHandlerDataRoutes-&gt;MiddlewareFunction, createStaticHandlerDataRoutes-&gt;decodeViaTurboStream]</td>
       <td>[ServerRouteManifest&lt;-ServerBuild]</td>
     </tr>
     <tr>
@@ -1886,7 +1886,7 @@ Only the top 40 entries are shown. The whole table can be found in the following
       <td>0.666667</td>
       <td>5</td>
       <td>1</td>
-      <td>[callRouteHandler-&gt;LoaderFunctionArgs, callRouteHandler-&gt;ActionFunctionArgs, callRouteHandler-&gt;ActionFunction, callRouteHandler-&gt;LoaderFunction, callRouteHandler-&gt;DataWithResponseInit]</td>
+      <td>[callRouteHandler-&gt;DataWithResponseInit, callRouteHandler-&gt;LoaderFunction, callRouteHandler-&gt;ActionFunction, callRouteHandler-&gt;ActionFunctionArgs, callRouteHandler-&gt;LoaderFunctionArgs]</td>
       <td>[AppLoadContext&lt;-RequestHandler]</td>
     </tr>
     <tr>
@@ -1898,8 +1898,8 @@ Only the top 40 entries are shown. The whole table can be found in the following
       <td>0.619048</td>
       <td>17</td>
       <td>4</td>
-      <td>[getPartialManifest-&gt;matchRoutes, getPatchRoutesOnNavigationFunction-&gt;createPath, getPatchRoutesOnNavigationFunction-&gt;Router, fetchAndApplyManifestPatches-&gt;Router, getPartialManifest-&gt;Router, useFogOFWarDiscovery-&gt;Router, fetchAndApplyManifestPatches-&gt;createClientRoutes, getPartialManifest-&gt;Rout...</td>
-      <td>[isFogOfWarEnabled&lt;-useFogOFWarDiscovery, fetchAndApplyManifestPatches&lt;-useFogOFWarDiscovery, isFogOfWarEnabled&lt;-getPatchRoutesOnNavigationFunction, fetchAndApplyManifestPatches&lt;-getPatchRoutesOnNavigationFunction]</td>
+      <td>[getPatchRoutesOnNavigationFunction-&gt;Router, fetchAndApplyManifestPatches-&gt;Router, getPartialManifest-&gt;Router, useFogOFWarDiscovery-&gt;Router, getPartialManifest-&gt;matchRoutes, fetchAndApplyManifestPatches-&gt;AssetsManifest, getPartialManifest-&gt;AssetsManifest, getPatchRoutesOnNavigationFunction-&gt;Asse...</td>
+      <td>[isFogOfWarEnabled&lt;-getPatchRoutesOnNavigationFunction, fetchAndApplyManifestPatches&lt;-getPatchRoutesOnNavigationFunction, isFogOfWarEnabled&lt;-useFogOFWarDiscovery, fetchAndApplyManifestPatches&lt;-useFogOFWarDiscovery]</td>
     </tr>
     <tr>
       <th>5</th>
@@ -1910,7 +1910,7 @@ Only the top 40 entries are shown. The whole table can be found in the following
       <td>0.600000</td>
       <td>4</td>
       <td>1</td>
-      <td>[DataRouterStateContext-&gt;RouterState, DataRouterStateContext-&gt;Router, DataRouterContextObject-&gt;Router, DataRouterContextObject-&gt;StaticHandlerContext]</td>
+      <td>[DataRouterStateContext-&gt;Router, DataRouterContextObject-&gt;Router, DataRouterStateContext-&gt;RouterState, DataRouterContextObject-&gt;StaticHandlerContext]</td>
       <td>[RouteObject&lt;-createRouter]</td>
     </tr>
     <tr>
@@ -1922,8 +1922,8 @@ Only the top 40 entries are shown. The whole table can be found in the following
       <td>0.600000</td>
       <td>12</td>
       <td>3</td>
-      <td>[SessionIdStorageStrategy-&gt;CookieSignatureOptions, SessionStorage-&gt;Session, createSession-&gt;Session, CreateSessionFunction-&gt;Session, createSessionStorage-&gt;createCookie, warnOnceAboutSigningSessionCookie-&gt;Cookie, SessionIdStorageStrategy-&gt;Cookie, createSessionStorage-&gt;Cookie, createSessionStorage-...</td>
-      <td>[createSessionStorage&lt;-createMemorySessionStorage, createSession&lt;-createCookieSessionStorage, warnOnceAboutSigningSessionCookie&lt;-createCookieSessionStorage]</td>
+      <td>[warnOnceAboutSigningSessionCookie-&gt;Cookie, createSessionStorage-&gt;Cookie, SessionIdStorageStrategy-&gt;Cookie, createSessionStorage-&gt;SessionStorage, createSessionStorage-&gt;SessionIdStorageStrategy, SessionStorage-&gt;Session, CreateSessionFunction-&gt;Session, createSession-&gt;Session, createSessionStorage-...</td>
+      <td>[warnOnceAboutSigningSessionCookie&lt;-createCookieSessionStorage, createSession&lt;-createCookieSessionStorage, createSessionStorage&lt;-createMemorySessionStorage]</td>
     </tr>
     <tr>
       <th>7</th>
@@ -1934,8 +1934,8 @@ Only the top 40 entries are shown. The whole table can be found in the following
       <td>0.600000</td>
       <td>12</td>
       <td>3</td>
-      <td>[warnOnceAboutSigningSessionCookie-&gt;Cookie, SessionIdStorageStrategy-&gt;Cookie, createSessionStorage-&gt;Cookie, SessionStorage-&gt;Session, createSession-&gt;Session, CreateSessionFunction-&gt;Session, isSession-&gt;IsSessionFunction, createSessionStorage-&gt;SessionStorage, createSessionStorage-&gt;SessionIdStorageS...</td>
-      <td>[createSessionStorage&lt;-createMemorySessionStorage, createSession&lt;-createCookieSessionStorage, warnOnceAboutSigningSessionCookie&lt;-createCookieSessionStorage]</td>
+      <td>[createSessionStorage-&gt;isCookie, createSessionStorage-&gt;SessionStorage, isSession-&gt;IsSessionFunction, SessionStorage-&gt;Session, CreateSessionFunction-&gt;Session, createSession-&gt;Session, createSessionStorage-&gt;createCookie, createSessionStorage-&gt;SessionIdStorageStrategy, warnOnceAboutSigningSessionCoo...</td>
+      <td>[warnOnceAboutSigningSessionCookie&lt;-createCookieSessionStorage, createSession&lt;-createCookieSessionStorage, createSessionStorage&lt;-createMemorySessionStorage]</td>
     </tr>
     <tr>
       <th>8</th>
@@ -1946,7 +1946,7 @@ Only the top 40 entries are shown. The whole table can be found in the following
       <td>0.500000</td>
       <td>3</td>
       <td>1</td>
-      <td>[reactRouterVitePlugin-&gt;getCssStringFromViteDevModuleCode, reactRouterVitePlugin-&gt;isCssModulesFile, reactRouterVitePlugin-&gt;getStylesForPathname]</td>
+      <td>[reactRouterVitePlugin-&gt;getStylesForPathname, reactRouterVitePlugin-&gt;isCssModulesFile, reactRouterVitePlugin-&gt;getCssStringFromViteDevModuleCode]</td>
       <td>[LoadCssContents&lt;-getStylesForPathname]</td>
     </tr>
     <tr>
@@ -1958,8 +1958,8 @@ Only the top 40 entries are shown. The whole table can be found in the following
       <td>0.441860</td>
       <td>31</td>
       <td>12</td>
-      <td>[matchRSCServerRequest-&gt;matchRoutes, RSCRouteConfig-&gt;RSCRouteConfigEntry, matchRSCServerRequest-&gt;RSCRouteConfigEntry, RSCRouteManifest-&gt;ShouldRevalidateFunction, RSCManifestPayload-&gt;RSCRouteManifest, RSCRouteMatch-&gt;RSCRouteManifest, RSCRenderPayload-&gt;RSCRouteManifest, redirectDocument-&gt;redirectD...</td>
-      <td>[matchRSCServerRequest&lt;-unstable_matchRSCServerRequest, RSCPayload&lt;-RSCMatch, RSCRenderPayload&lt;-RSCPayload, RSCActionPayload&lt;-RSCPayload, RSCManifestPayload&lt;-RSCPayload, RSCRedirectPayload&lt;-RSCPayload, RSCRouteMatch&lt;-RSCRenderPayload, RSCRouteManifest&lt;-RSCRenderPayload, RSCRouteManifest&lt;-RSCRout...</td>
+      <td>[matchRSCServerRequest-&gt;DecodeActionFunction, RSCRouteManifest-&gt;MetaFunction, RSCPayload-&gt;RSCManifestPayload, replace-&gt;replace, redirectDocument-&gt;redirectDocument, RSCRenderPayload-&gt;RSCRouteMatch, RSCMatch-&gt;RSCPayload, matchRSCServerRequest-&gt;matchRoutes, matchRSCServerRequest-&gt;LoadServerActionFu...</td>
+      <td>[RSCRouteManifest&lt;-RSCManifestPayload, RSCRouteManifest&lt;-RSCRouteMatch, RSCRedirectPayload&lt;-RSCPayload, RSCRenderPayload&lt;-RSCPayload, RSCActionPayload&lt;-RSCPayload, RSCManifestPayload&lt;-RSCPayload, RSCRouteConfigEntry&lt;-RSCRouteConfig, RSCRouteManifest&lt;-RSCRenderPayload, RSCRouteMatch&lt;-RSCRenderPay...</td>
     </tr>
     <tr>
       <th>10</th>
@@ -1970,8 +1970,8 @@ Only the top 40 entries are shown. The whole table can be found in the following
       <td>0.428571</td>
       <td>5</td>
       <td>2</td>
-      <td>[createRequestHandler-&gt;CreateRequestHandlerFunction, RequestHandler-&gt;AppLoadContext, CreateRequestHandlerFunction-&gt;RequestHandler, createRequestHandler-&gt;ServerBuild, CreateRequestHandlerFunction-&gt;ServerBuild]</td>
-      <td>[RequestHandler&lt;-CreateRequestHandlerFunction, CreateRequestHandlerFunction&lt;-createRequestHandler]</td>
+      <td>[CreateRequestHandlerFunction-&gt;ServerBuild, createRequestHandler-&gt;ServerBuild, createRequestHandler-&gt;CreateRequestHandlerFunction, RequestHandler-&gt;AppLoadContext, CreateRequestHandlerFunction-&gt;RequestHandler]</td>
+      <td>[CreateRequestHandlerFunction&lt;-createRequestHandler, RequestHandler&lt;-CreateRequestHandlerFunction]</td>
     </tr>
     <tr>
       <th>11</th>
@@ -1982,8 +1982,8 @@ Only the top 40 entries are shown. The whole table can be found in the following
       <td>0.384615</td>
       <td>63</td>
       <td>28</td>
-      <td>[createRouter-&gt;matchRoutes, createStaticHandler-&gt;matchRoutes, createStaticHandler-&gt;StaticHandler, Router-&gt;GetScrollRestorationKeyFunction, RouterInit-&gt;DataStrategyFunction, StaticHandler-&gt;DataStrategyFunction, createRouter-&gt;DataStrategyFunction, createStaticHandler-&gt;DataStrategyResult, createRou...</td>
-      <td>[isMutationMethod&lt;-createRouter, RouterState&lt;-createRouter, IDLE_BLOCKER&lt;-createRouter, Router&lt;-createRouter, IDLE_NAVIGATION&lt;-createRouter, IDLE_FETCHER&lt;-createRouter, BlockerFunction&lt;-createRouter, RouterInit&lt;-createRouter, RouterSubscriber&lt;-createRouter]</td>
+      <td>[createRouter-&gt;unstable_InstrumentRouterFunction, createRouter-&gt;Router, createRouter-&gt;Action, RouterState-&gt;Action, BlockerFunction-&gt;Action, createRouter-&gt;DataStrategyResult, createStaticHandler-&gt;DataStrategyResult, createRouter-&gt;matchRoutes, createStaticHandler-&gt;matchRoutes]</td>
+      <td>[RouterSubscriber&lt;-Router, Blocker&lt;-Router, GetScrollPositionFunction&lt;-Router, RouterState&lt;-Router, BlockerFunction&lt;-Router, GetScrollRestorationKeyFunction&lt;-Router, FutureConfig&lt;-Router, Fetcher&lt;-Router, Router&lt;-getPatchRoutesOnNavigationFunction]</td>
     </tr>
     <tr>
       <th>12</th>
@@ -1994,8 +1994,8 @@ Only the top 40 entries are shown. The whole table can be found in the following
       <td>0.373134</td>
       <td>46</td>
       <td>21</td>
-      <td>[createMemoryHistory-&gt;createPath, getPatchRoutesOnNavigationFunction-&gt;createPath, createBrowserHistory-&gt;createPath, createHashHistory-&gt;createPath, createBrowserHistory-&gt;BrowserHistory, MetaArgs-&gt;Location, createRouter-&gt;Location, Router-&gt;Location, RouterState-&gt;Location]</td>
-      <td>[Path&lt;-Location, createPath&lt;-createHashHistory, parsePath&lt;-createHashHistory, InitialEntry&lt;-MemoryHistoryOptions, createPath&lt;-createBrowserURLImpl, To&lt;-createBrowserURLImpl, invariant&lt;-createBrowserURLImpl, createPath&lt;-createBrowserHistory, createPath&lt;-createMemoryHistory]</td>
+      <td>[createRouter-&gt;invariant, generatePath-&gt;invariant, createBrowserHistory-&gt;UrlHistoryOptions, createHashHistory-&gt;UrlHistoryOptions, createRouter-&gt;Action, createMemoryHistory-&gt;Action, RouterState-&gt;Action, BlockerFunction-&gt;Action, createHashHistory-&gt;HashHistory]</td>
+      <td>[Action&lt;-Update, Location&lt;-Update, parsePath&lt;-createHashHistory, createPath&lt;-createHashHistory, InitialEntry&lt;-MemoryHistoryOptions, Path&lt;-Location, To&lt;-createBrowserURLImpl, invariant&lt;-createBrowserURLImpl, createPath&lt;-createBrowserURLImpl]</td>
     </tr>
     <tr>
       <th>13</th>
@@ -2006,8 +2006,8 @@ Only the top 40 entries are shown. The whole table can be found in the following
       <td>0.371429</td>
       <td>24</td>
       <td>11</td>
-      <td>[ServerRouteModule-&gt;HeadersFunction, RouteModule-&gt;ShouldRevalidateFunction, ClientLoaderFunctionArgs-&gt;LoaderFunctionArgs, ClientLoaderFunction-&gt;ClientLoaderFunctionArgs, MetaArgs-&gt;Params, ClientActionFunctionArgs-&gt;ActionFunctionArgs, RouteModule-&gt;MiddlewareFunction, ServerRouteModule-&gt;Middleware...</td>
-      <td>[ClientLoaderFunction&lt;-MetaArgs, MetaMatches&lt;-MetaArgs, MetaFunction&lt;-RSCRouteManifest, LinksFunction&lt;-RSCRouteManifest, ClientLoaderFunction&lt;-RSCRouteManifest, ClientActionFunction&lt;-RSCRouteManifest, RouteModules&lt;-useFogOFWarDiscovery, ClientActionFunctionArgs&lt;-ClientActionFunction, ClientLoade...</td>
+      <td>[ClientActionFunction-&gt;ClientActionFunctionArgs, RouteModule-&gt;MetaFunction, RouteModule-&gt;ClientLoaderFunction, MetaArgs-&gt;ClientLoaderFunction, MetaFunction-&gt;ClientLoaderFunction, MetaMatch-&gt;ClientLoaderFunction, ServerRouteModule-&gt;LoaderFunction, MetaFunction-&gt;LoaderFunction, MetaArgs-&gt;LoaderFun...</td>
+      <td>[ClientLoaderFunction&lt;-MetaFunction, ClientLoaderFunctionArgs&lt;-ClientLoaderFunction, MetaFunction&lt;-RSCRouteManifest, ClientLoaderFunction&lt;-RSCRouteManifest, LinksFunction&lt;-RSCRouteManifest, ClientActionFunction&lt;-RSCRouteManifest, RouteModules&lt;-getPatchRoutesOnNavigationFunction, MetaMatches&lt;-Met...</td>
     </tr>
     <tr>
       <th>14</th>
@@ -2018,8 +2018,8 @@ Only the top 40 entries are shown. The whole table can be found in the following
       <td>0.367089</td>
       <td>54</td>
       <td>25</td>
-      <td>[matchRSCServerRequest-&gt;matchRoutes, createStaticHandler-&gt;matchRoutes, createStaticHandler-&gt;StaticHandler, createCookieSessionStorage-&gt;Cookie, createCookie-&gt;Cookie, RSCRouteConfig-&gt;RSCRouteConfigEntry, matchRSCServerRequest-&gt;RSCRouteConfigEntry, RouterContextProvider-&gt;RouterContext, createContex...</td>
-      <td>[RouterContextProvider&lt;-createRouter, matchRoutes&lt;-createRouter, isRouteErrorResponse&lt;-createRouter, matchRSCServerRequest&lt;-unstable_matchRSCServerRequest, CookieSignatureOptions&lt;-CookieOptions, RSCPayload&lt;-RSCMatch, MiddlewareNextFunction&lt;-MiddlewareFunction, RSCManifestPayload&lt;-RSCPayload, RSC...</td>
+      <td>[matchRSCServerRequest-&gt;DecodeActionFunction, RSCRouteManifest-&gt;MetaFunction, RSCPayload-&gt;RSCManifestPayload, replace-&gt;replace, createCookie-&gt;CookieOptions, redirectDocument-&gt;redirectDocument, RSCRenderPayload-&gt;RSCRouteMatch, isCookie-&gt;IsCookieFunction, createStaticHandler-&gt;DataStrategyResult]</td>
+      <td>[RSCRouteManifest&lt;-RSCManifestPayload, CookieSignatureOptions&lt;-CookieOptions, RSCRouteManifest&lt;-RSCRouteMatch, IsCookieFunction&lt;-isCookie, RSCRenderPayload&lt;-RSCPayload, RSCManifestPayload&lt;-RSCPayload, RSCRouteConfigEntry&lt;-RSCRouteConfig, RSCRouteManifest&lt;-RSCRenderPayload, RSCRouteMatch&lt;-RSCRend...</td>
     </tr>
     <tr>
       <th>15</th>
@@ -2030,8 +2030,8 @@ Only the top 40 entries are shown. The whole table can be found in the following
       <td>0.355372</td>
       <td>82</td>
       <td>39</td>
-      <td>[replace-&gt;RedirectFunction, redirectDocument-&gt;RedirectFunction, redirect-&gt;RedirectFunction, createRouter-&gt;matchRoutesImpl, matchRoutes-&gt;matchRoutesImpl, IndexRouteObject-&gt;LazyRouteFunction, NonIndexRouteObject-&gt;LazyRouteFunction, ErrorResponseImpl-&gt;ErrorResponse, createRouter-&gt;stripBasename]</td>
-      <td>[parsePath&lt;-matchRoutesImpl, To&lt;-parseToInfo, RouterContext&lt;-createContext, redirect&lt;-replace, RedirectFunction&lt;-replace, invariant&lt;-convertRoutesToDataRoutes, FormEncType&lt;-Submission, Params&lt;-AgnosticRouteMatch, DataWithResponseInit&lt;-data]</td>
+      <td>[matchPath-&gt;compilePath, NonIndexRouteObject-&gt;LazyRouteFunction, IndexRouteObject-&gt;LazyRouteFunction, matchPath-&gt;PathMatch, ClientLoaderFunctionArgs-&gt;LoaderFunctionArgs, LoaderFunction-&gt;LoaderFunctionArgs, RouterState-&gt;RouteData, deserializeErrors-&gt;RouteData, createRouter-&gt;isAbsoluteUrl]</td>
+      <td>[PathPattern&lt;-PathMatch, Params&lt;-PathMatch, DataWithResponseInit&lt;-data, invariant&lt;-convertRoutesToDataRoutes, FormEncType&lt;-Submission, To&lt;-parseToInfo, RouterContext&lt;-RouterContextProvider, parsePath&lt;-resolveTo, Path&lt;-resolveTo]</td>
     </tr>
     <tr>
       <th>16</th>
@@ -2042,8 +2042,8 @@ Only the top 40 entries are shown. The whole table can be found in the following
       <td>0.333333</td>
       <td>6</td>
       <td>3</td>
-      <td>[RSCManifestPayload-&gt;RSCRouteManifest, RSCRenderPayload-&gt;RSCRouteManifest, RSCPayload-&gt;RSCRenderPayload, RSCRenderPayload-&gt;RSCRouteMatch, RSCRenderPayload-&gt;Location, RSCPayload-&gt;RSCManifestPayload]</td>
-      <td>[RSCPayload&lt;-RSCMatch, RSCManifestPayload&lt;-RSCPayload, RSCRenderPayload&lt;-RSCPayload]</td>
+      <td>[RSCPayload-&gt;RSCManifestPayload, RSCRenderPayload-&gt;RSCRouteMatch, RSCManifestPayload-&gt;RSCRouteManifest, RSCRenderPayload-&gt;RSCRouteManifest, RSCPayload-&gt;RSCRenderPayload, RSCRenderPayload-&gt;Location]</td>
+      <td>[RSCManifestPayload&lt;-RSCPayload, RSCRenderPayload&lt;-RSCPayload, RSCPayload&lt;-RSCMatch]</td>
     </tr>
     <tr>
       <th>17</th>
@@ -2054,8 +2054,8 @@ Only the top 40 entries are shown. The whole table can be found in the following
       <td>0.333333</td>
       <td>4</td>
       <td>2</td>
-      <td>[RSCRouteManifest-&gt;MetaFunction, RSCRouteManifest-&gt;LinksFunction, RSCRouteManifest-&gt;ClientLoaderFunction, RSCRouteManifest-&gt;ClientActionFunction]</td>
-      <td>[MiddlewareFunction&lt;-ServerRouteModule, MiddlewareFunction&lt;-RouteModule]</td>
+      <td>[RSCRouteManifest-&gt;MetaFunction, RSCRouteManifest-&gt;ClientLoaderFunction, RSCRouteManifest-&gt;LinksFunction, RSCRouteManifest-&gt;ClientActionFunction]</td>
+      <td>[MiddlewareFunction&lt;-RouteModule, MiddlewareFunction&lt;-ServerRouteModule]</td>
     </tr>
     <tr>
       <th>18</th>
@@ -2066,7 +2066,7 @@ Only the top 40 entries are shown. The whole table can be found in the following
       <td>0.333333</td>
       <td>2</td>
       <td>1</td>
-      <td>[createStaticHandler-&gt;unstable_InstrumentRouteFunction, createStaticHandler-&gt;getRouteInstrumentationUpdates]</td>
+      <td>[createStaticHandler-&gt;getRouteInstrumentationUpdates, createStaticHandler-&gt;unstable_InstrumentRouteFunction]</td>
       <td>[MiddlewareFunction&lt;-getRouteInstrumentationUpdates]</td>
     </tr>
     <tr>
@@ -2090,7 +2090,7 @@ Only the top 40 entries are shown. The whole table can be found in the following
       <td>0.333333</td>
       <td>2</td>
       <td>1</td>
-      <td>[ClientLoaderFunctionArgs-&gt;SerializeFrom, ClientActionFunctionArgs-&gt;SerializeFrom]</td>
+      <td>[ClientActionFunctionArgs-&gt;SerializeFrom, ClientLoaderFunctionArgs-&gt;SerializeFrom]</td>
       <td>[AppLoadContext&lt;-ServerDataFunctionArgs]</td>
     </tr>
     <tr>
@@ -2102,8 +2102,8 @@ Only the top 40 entries are shown. The whole table can be found in the following
       <td>0.333333</td>
       <td>4</td>
       <td>2</td>
-      <td>[createRequestHandler-&gt;sendRemixResponse, createRequestHandler-&gt;RequestHandler, createRequestHandler-&gt;GetLoadContextFunction, createRequestHandler-&gt;createRemixRequest]</td>
-      <td>[RequestHandler&lt;-createRequestHandler, GetLoadContextFunction&lt;-createRequestHandler]</td>
+      <td>[createRequestHandler-&gt;createRemixRequest, createRequestHandler-&gt;RequestHandler, createRequestHandler-&gt;GetLoadContextFunction, createRequestHandler-&gt;sendRemixResponse]</td>
+      <td>[GetLoadContextFunction&lt;-createRequestHandler, RequestHandler&lt;-createRequestHandler]</td>
     </tr>
     <tr>
       <th>22</th>
@@ -2114,8 +2114,8 @@ Only the top 40 entries are shown. The whole table can be found in the following
       <td>0.272727</td>
       <td>7</td>
       <td>4</td>
-      <td>[CookieOptions-&gt;CookieSignatureOptions, createCookieSessionStorage-&gt;isCookie, createCookieSessionStorage-&gt;createCookie, createCookie-&gt;CookieOptions, isCookie-&gt;IsCookieFunction, createCookieSessionStorage-&gt;Cookie, createCookie-&gt;Cookie]</td>
-      <td>[IsCookieFunction&lt;-isCookie, Cookie&lt;-createCookie, CookieOptions&lt;-createCookie, CookieSignatureOptions&lt;-CookieOptions]</td>
+      <td>[createCookie-&gt;CookieOptions, createCookieSessionStorage-&gt;Cookie, createCookie-&gt;Cookie, createCookieSessionStorage-&gt;createCookie, createCookieSessionStorage-&gt;isCookie, CookieOptions-&gt;CookieSignatureOptions, isCookie-&gt;IsCookieFunction]</td>
+      <td>[CookieSignatureOptions&lt;-CookieOptions, Cookie&lt;-createCookie, CookieOptions&lt;-createCookie, IsCookieFunction&lt;-isCookie]</td>
     </tr>
     <tr>
       <th>23</th>
@@ -2126,8 +2126,8 @@ Only the top 40 entries are shown. The whole table can be found in the following
       <td>0.272727</td>
       <td>7</td>
       <td>4</td>
-      <td>[CookieOptions-&gt;CookieSignatureOptions, createCookieSessionStorage-&gt;isCookie, createCookieSessionStorage-&gt;createCookie, createCookie-&gt;CookieOptions, isCookie-&gt;IsCookieFunction, createCookieSessionStorage-&gt;Cookie, createCookie-&gt;Cookie]</td>
-      <td>[IsCookieFunction&lt;-isCookie, Cookie&lt;-createCookie, CookieOptions&lt;-createCookie, CookieSignatureOptions&lt;-CookieOptions]</td>
+      <td>[createCookie-&gt;CookieOptions, createCookieSessionStorage-&gt;Cookie, createCookie-&gt;Cookie, createCookieSessionStorage-&gt;createCookie, createCookieSessionStorage-&gt;isCookie, CookieOptions-&gt;CookieSignatureOptions, isCookie-&gt;IsCookieFunction]</td>
+      <td>[CookieSignatureOptions&lt;-CookieOptions, CookieOptions&lt;-createCookie, Cookie&lt;-createCookie, IsCookieFunction&lt;-isCookie]</td>
     </tr>
     <tr>
       <th>24</th>
@@ -2138,8 +2138,8 @@ Only the top 40 entries are shown. The whole table can be found in the following
       <td>0.272727</td>
       <td>7</td>
       <td>4</td>
-      <td>[SubmitOptions-&gt;FetcherSubmitOptions, getFormSubmissionInfo-&gt;SubmitTarget, getSearchParamsForLocation-&gt;createSearchParams, URLSearchParamsInit-&gt;ParamKeyValuePair, createSearchParams-&gt;ParamKeyValuePair, createSearchParams-&gt;URLSearchParamsInit, defaultMethod-&gt;HTMLFormMethod]</td>
-      <td>[FetcherSubmitOptions&lt;-SubmitOptions, URLSearchParamsInit&lt;-createSearchParams, ParamKeyValuePair&lt;-createSearchParams, ParamKeyValuePair&lt;-URLSearchParamsInit]</td>
+      <td>[SubmitOptions-&gt;FetcherSubmitOptions, URLSearchParamsInit-&gt;ParamKeyValuePair, createSearchParams-&gt;ParamKeyValuePair, createSearchParams-&gt;URLSearchParamsInit, defaultMethod-&gt;HTMLFormMethod, getFormSubmissionInfo-&gt;SubmitTarget, getSearchParamsForLocation-&gt;createSearchParams]</td>
+      <td>[FetcherSubmitOptions&lt;-SubmitOptions, ParamKeyValuePair&lt;-URLSearchParamsInit, ParamKeyValuePair&lt;-createSearchParams, URLSearchParamsInit&lt;-createSearchParams]</td>
     </tr>
     <tr>
       <th>25</th>
@@ -2150,8 +2150,8 @@ Only the top 40 entries are shown. The whole table can be found in the following
       <td>0.259259</td>
       <td>17</td>
       <td>10</td>
-      <td>[prefix-&gt;route, relative-&gt;route, configRoutesToRouteManifest-&gt;route, relative-&gt;layout, relative-&gt;prefix, routeConfigEntrySchema-&gt;index, relative-&gt;index, configRoutesToRouteManifest-&gt;index, RouteConfig-&gt;RouteConfigEntry]</td>
-      <td>[RouteConfigEntry&lt;-route, RouteConfigEntry&lt;-layout, RouteConfigEntry&lt;-RouteConfig, route&lt;-prefix, RouteConfigEntry&lt;-prefix, RouteConfigEntry&lt;-index, prefix&lt;-relative, route&lt;-relative, index&lt;-relative]</td>
+      <td>[relative-&gt;layout, validateRouteConfig-&gt;RouteConfigEntry, layout-&gt;RouteConfigEntry, route-&gt;RouteConfigEntry, resolvedRouteConfigSchema-&gt;RouteConfigEntry, index-&gt;RouteConfigEntry, prefix-&gt;RouteConfigEntry, configRoutesToRouteManifest-&gt;RouteConfigEntry, RouteConfig-&gt;RouteConfigEntry]</td>
+      <td>[RouteConfigEntry&lt;-layout, RouteConfigEntry&lt;-RouteConfig, RouteConfigEntry&lt;-index, layout&lt;-relative, index&lt;-relative, prefix&lt;-relative, route&lt;-relative, RouteConfigEntry&lt;-route, route&lt;-prefix]</td>
     </tr>
     <tr>
       <th>26</th>
@@ -2162,7 +2162,7 @@ Only the top 40 entries are shown. The whole table can be found in the following
       <td>0.250000</td>
       <td>5</td>
       <td>3</td>
-      <td>[EntryContext-&gt;FrameworkContextObject, ServerBuild-&gt;FutureConfig, useFogOFWarDiscovery-&gt;AssetsManifest, getPatchRoutesOnNavigationFunction-&gt;AssetsManifest, ServerBuild-&gt;AssetsManifest]</td>
+      <td>[EntryContext-&gt;FrameworkContextObject, ServerBuild-&gt;FutureConfig, ServerBuild-&gt;AssetsManifest, getPatchRoutesOnNavigationFunction-&gt;AssetsManifest, useFogOFWarDiscovery-&gt;AssetsManifest]</td>
       <td>[AssetsManifest&lt;-FrameworkContextObject, RouteModules&lt;-FrameworkContextObject, StaticHandlerContext&lt;-EntryContext]</td>
     </tr>
     <tr>
@@ -2174,8 +2174,8 @@ Only the top 40 entries are shown. The whole table can be found in the following
       <td>0.142857</td>
       <td>4</td>
       <td>3</td>
-      <td>[ReactRouterConfig-&gt;Preset, ReactRouterConfig-&gt;ServerBundlesFunction, ReactRouterConfig-&gt;PrerenderPaths, Preset-&gt;ReactRouterConfig]</td>
-      <td>[ReactRouterConfig&lt;-Preset, Preset&lt;-ReactRouterConfig, ServerBundlesFunction&lt;-ReactRouterConfig]</td>
+      <td>[ReactRouterConfig-&gt;ServerBundlesFunction, Preset-&gt;ReactRouterConfig, ReactRouterConfig-&gt;Preset, ReactRouterConfig-&gt;PrerenderPaths]</td>
+      <td>[Preset&lt;-ReactRouterConfig, ServerBundlesFunction&lt;-ReactRouterConfig, ReactRouterConfig&lt;-Preset]</td>
     </tr>
     <tr>
       <th>28</th>
@@ -2186,8 +2186,8 @@ Only the top 40 entries are shown. The whole table can be found in the following
       <td>0.130435</td>
       <td>13</td>
       <td>10</td>
-      <td>[getRouteInstrumentationUpdates-&gt;LoaderFunctionArgs, unstable_ClientInstrumentation-&gt;unstable_InstrumentRouterFunction, instrumentClientSideRouter-&gt;unstable_InstrumentRouterFunction, getRouteInstrumentationUpdates-&gt;ActionFunctionArgs, unstable_ServerInstrumentation-&gt;unstable_InstrumentRouteFunct...</td>
-      <td>[instrumentClientSideRouter&lt;-createRouter, unstable_InstrumentRouteFunction&lt;-createRouter, unstable_InstrumentRouterFunction&lt;-createRouter, getRouteInstrumentationUpdates&lt;-createRouter, unstable_InstrumentRequestHandlerFunction&lt;-unstable_ServerInstrumentation, unstable_InstrumentRouteFunction&lt;-u...</td>
+      <td>[unstable_ClientInstrumentation-&gt;unstable_InstrumentRouterFunction, instrumentClientSideRouter-&gt;unstable_InstrumentRouterFunction, instrumentClientSideRouter-&gt;Router, getRouteInstrumentationUpdates-&gt;LoaderFunction, getRouteInstrumentationUpdates-&gt;ActionFunctionArgs, getRouteInstrumentationUpdate...</td>
+      <td>[unstable_InstrumentRouteFunction&lt;-unstable_ServerInstrumentation, unstable_InstrumentRequestHandlerFunction&lt;-unstable_ServerInstrumentation, instrumentClientSideRouter&lt;-createRouter, getRouteInstrumentationUpdates&lt;-createRouter, unstable_InstrumentRouteFunction&lt;-createRouter, unstable_Instrumen...</td>
     </tr>
     <tr>
       <th>29</th>
@@ -2198,8 +2198,8 @@ Only the top 40 entries are shown. The whole table can be found in the following
       <td>0.095238</td>
       <td>23</td>
       <td>19</td>
-      <td>[DataRouteMatch-&gt;DataRouteObject, DataRouterContextObject-&gt;ClientOnErrorFunction, RouteContextObject-&gt;RouteMatch, DataRouteMatch-&gt;RouteMatch, PatchRoutesOnNavigationFunctionArgs-&gt;RouteMatch, DataRouterStateContext-&gt;Router, DataRouterContextObject-&gt;Router, Navigator-&gt;To, IndexRouteObject-&gt;LazyRou...</td>
-      <td>[NonIndexRouteObject&lt;-DataRouteObject, IndexRouteObject&lt;-DataRouteObject, RouteObject&lt;-createRouter, ViewTransitionContextObject&lt;-ViewTransitionContext, AwaitContext&lt;-AwaitContextProvider, RouteObject&lt;-RouteMatch, RouteContextObject&lt;-RouteContext, NavigateOptions&lt;-Navigator, RouteObject&lt;-IndexRo...</td>
+      <td>[NonIndexRouteObject-&gt;LazyRouteFunction, IndexRouteObject-&gt;LazyRouteFunction, DataRouterStateContext-&gt;Router, DataRouterContextObject-&gt;Router, DataRouterContextObject-&gt;StaticHandlerContext, RouteContextObject-&gt;RouteMatch, DataRouteMatch-&gt;RouteMatch, PatchRoutesOnNavigationFunctionArgs-&gt;RouteMatc...</td>
+      <td>[NavigateOptions&lt;-Navigator, AwaitContext&lt;-AwaitContextProvider, RouteMatch&lt;-DataRouteMatch, DataRouteObject&lt;-DataRouteMatch, ViewTransitionContextObject&lt;-ViewTransitionContext, RouteObject&lt;-RouteMatch, RouteObject&lt;-IndexRouteObject, FetchersContextObject&lt;-FetchersContext, PatchRoutesOnNavigatio...</td>
     </tr>
     <tr>
       <th>30</th>
@@ -2210,8 +2210,8 @@ Only the top 40 entries are shown. The whole table can be found in the following
       <td>0.090909</td>
       <td>6</td>
       <td>5</td>
-      <td>[matchRSCServerRequest-&gt;DecodeFormStateFunction, matchRSCServerRequest-&gt;DecodeReplyFunction, matchRSCServerRequest-&gt;DecodeActionFunction, RSCPayload-&gt;RSCManifestPayload, RSCPayload-&gt;RSCRenderPayload, RSCMatch-&gt;RSCPayload]</td>
-      <td>[RSCRouteManifest&lt;-RSCManifestPayload, RSCRouteMatch&lt;-RSCRenderPayload, RSCRouteManifest&lt;-RSCRenderPayload, RSCManifestPayload&lt;-RSCPayload, RSCRenderPayload&lt;-RSCPayload]</td>
+      <td>[matchRSCServerRequest-&gt;DecodeReplyFunction, matchRSCServerRequest-&gt;DecodeFormStateFunction, RSCPayload-&gt;RSCManifestPayload, RSCMatch-&gt;RSCPayload, RSCPayload-&gt;RSCRenderPayload, matchRSCServerRequest-&gt;DecodeActionFunction]</td>
+      <td>[RSCRouteManifest&lt;-RSCManifestPayload, RSCRenderPayload&lt;-RSCPayload, RSCManifestPayload&lt;-RSCPayload, RSCRouteManifest&lt;-RSCRenderPayload, RSCRouteMatch&lt;-RSCRenderPayload]</td>
     </tr>
     <tr>
       <th>31</th>
@@ -2222,8 +2222,8 @@ Only the top 40 entries are shown. The whole table can be found in the following
       <td>0.066667</td>
       <td>8</td>
       <td>7</td>
-      <td>[createStaticHandler-&gt;isMutationMethod, createStaticHandler-&gt;isDataWithResponseInit, createStaticHandler-&gt;getStaticContextFromError, createStaticHandler-&gt;CreateStaticHandlerOptions, createStaticHandler-&gt;StaticHandlerContext, createStaticHandler-&gt;StaticHandler, createStaticHandler-&gt;isResponse, cr...</td>
-      <td>[RouterContextProvider&lt;-createStaticHandler, matchRoutes&lt;-createStaticHandler, isRouteErrorResponse&lt;-createStaticHandler, isRouteErrorResponse&lt;-getStaticContextFromError, RouterContextProvider&lt;-createRouter, matchRoutes&lt;-createRouter, isRouteErrorResponse&lt;-createRouter]</td>
+      <td>[createStaticHandler-&gt;CreateStaticHandlerOptions, createStaticHandler-&gt;isDataWithResponseInit, createStaticHandler-&gt;isResponse, createStaticHandler-&gt;isMutationMethod, createStaticHandler-&gt;getStaticContextFromError, createStaticHandler-&gt;StaticHandlerContext, createStaticHandler-&gt;StaticHandler, cr...</td>
+      <td>[matchRoutes&lt;-createStaticHandler, isRouteErrorResponse&lt;-createStaticHandler, RouterContextProvider&lt;-createStaticHandler, isRouteErrorResponse&lt;-getStaticContextFromError, matchRoutes&lt;-createRouter, isRouteErrorResponse&lt;-createRouter, RouterContextProvider&lt;-createRouter]</td>
     </tr>
     <tr>
       <th>32</th>
@@ -2234,8 +2234,8 @@ Only the top 40 entries are shown. The whole table can be found in the following
       <td>0.028571</td>
       <td>18</td>
       <td>17</td>
-      <td>[matchRSCServerRequest-&gt;RSCMatch, matchRSCServerRequest-&gt;isReactServerRequest, matchRSCServerRequest-&gt;DecodeReplyFunction, RSCRenderPayload-&gt;RSCRouteMatch, matchRSCServerRequest-&gt;DecodeFormStateFunction, matchRSCServerRequest-&gt;DecodeActionFunction, matchRSCServerRequest-&gt;isManifestRequest, RSCMa...</td>
-      <td>[RSCPayload&lt;-RSCMatch, RSCRouteConfigEntry&lt;-RSCRouteConfig, RSCRouteManifest&lt;-RSCRouteMatch, RSCManifestPayload&lt;-RSCPayload, RSCRenderPayload&lt;-RSCPayload, RSCRouteMatch&lt;-RSCRenderPayload, RSCRouteManifest&lt;-RSCRenderPayload, DecodeActionFunction&lt;-matchRSCServerRequest, RouterContextProvider&lt;-matc...</td>
+      <td>[RSCRouteConfig-&gt;RSCRouteConfigEntry, matchRSCServerRequest-&gt;RSCRouteConfigEntry, RSCPayload-&gt;RSCRedirectPayload, matchRSCServerRequest-&gt;RSCMatch, matchRSCServerRequest-&gt;isManifestRequest, RSCManifestPayload-&gt;RSCRouteManifest, RSCRouteMatch-&gt;RSCRouteManifest, RSCRenderPayload-&gt;RSCRouteManifest, ...</td>
+      <td>[RSCPayload&lt;-RSCMatch, RSCRouteManifest&lt;-RSCRouteMatch, RSCRouteManifest&lt;-RSCRenderPayload, RSCRouteMatch&lt;-RSCRenderPayload, RSCRenderPayload&lt;-RSCActionPayload, RSCRouteConfigEntry&lt;-RSCRouteConfig, RSCRouteManifest&lt;-RSCManifestPayload, matchRoutes&lt;-matchRSCServerRequest, RSCMatch&lt;-matchRSCServer...</td>
     </tr>
     <tr>
       <th>33</th>
@@ -2258,8 +2258,8 @@ Only the top 40 entries are shown. The whole table can be found in the following
       <td>0.000000</td>
       <td>7</td>
       <td>7</td>
-      <td>[matchRSCServerRequest-&gt;DecodeFormStateFunction, matchRSCServerRequest-&gt;DecodeReplyFunction, matchRSCServerRequest-&gt;DecodeActionFunction, RSCPayload-&gt;RSCManifestPayload, RSCPayload-&gt;RSCRenderPayload, RSCActionPayload-&gt;RSCRenderPayload, RSCMatch-&gt;RSCPayload]</td>
-      <td>[RSCRouteManifest&lt;-RSCManifestPayload, RSCRouteMatch&lt;-RSCRenderPayload, RSCRouteManifest&lt;-RSCRenderPayload, RSCRenderPayload&lt;-RSCPayload, RSCActionPayload&lt;-RSCPayload, RSCManifestPayload&lt;-RSCPayload, RSCRedirectPayload&lt;-RSCPayload]</td>
+      <td>[matchRSCServerRequest-&gt;DecodeReplyFunction, matchRSCServerRequest-&gt;DecodeFormStateFunction, RSCPayload-&gt;RSCManifestPayload, RSCMatch-&gt;RSCPayload, RSCPayload-&gt;RSCRenderPayload, RSCActionPayload-&gt;RSCRenderPayload, matchRSCServerRequest-&gt;DecodeActionFunction]</td>
+      <td>[RSCRouteManifest&lt;-RSCManifestPayload, RSCRedirectPayload&lt;-RSCPayload, RSCRenderPayload&lt;-RSCPayload, RSCActionPayload&lt;-RSCPayload, RSCManifestPayload&lt;-RSCPayload, RSCRouteManifest&lt;-RSCRenderPayload, RSCRouteMatch&lt;-RSCRenderPayload]</td>
     </tr>
     <tr>
       <th>35</th>
@@ -2270,8 +2270,8 @@ Only the top 40 entries are shown. The whole table can be found in the following
       <td>0.000000</td>
       <td>6</td>
       <td>6</td>
-      <td>[ServerEntryModule-&gt;HandleErrorFunction, ServerEntryModule-&gt;HandleDataRequestFunction, ServerEntryModule-&gt;unstable_ServerInstrumentation, ServerBuild-&gt;ServerEntryModule, ServerEntryModule-&gt;HandleDocumentRequestFunction, ServerBuild-&gt;AssetsManifest]</td>
-      <td>[ServerBuild&lt;-CreateRequestHandlerFunction, HandleErrorFunction&lt;-ServerEntryModule, HandleDocumentRequestFunction&lt;-ServerEntryModule, HandleDataRequestFunction&lt;-ServerEntryModule, ServerBuild&lt;-createRequestHandler, ServerEntryModule&lt;-ServerBuild]</td>
+      <td>[ServerEntryModule-&gt;HandleDataRequestFunction, ServerBuild-&gt;AssetsManifest, ServerEntryModule-&gt;unstable_ServerInstrumentation, ServerBuild-&gt;ServerEntryModule, ServerEntryModule-&gt;HandleErrorFunction, ServerEntryModule-&gt;HandleDocumentRequestFunction]</td>
+      <td>[ServerBuild&lt;-createRequestHandler, ServerEntryModule&lt;-ServerBuild, ServerBuild&lt;-CreateRequestHandlerFunction, HandleErrorFunction&lt;-ServerEntryModule, HandleDataRequestFunction&lt;-ServerEntryModule, HandleDocumentRequestFunction&lt;-ServerEntryModule]</td>
     </tr>
     <tr>
       <th>36</th>
@@ -2294,8 +2294,8 @@ Only the top 40 entries are shown. The whole table can be found in the following
       <td>0.000000</td>
       <td>5</td>
       <td>5</td>
-      <td>[createRequestHandler-&gt;RequestHandler, createPagesFunctionHandler-&gt;createPagesFunctionHandlerParams, createRequestHandler-&gt;createPagesFunctionHandlerParams, createPagesFunctionHandlerParams-&gt;GetLoadContextFunction, createPagesFunctionHandler-&gt;createRequestHandler]</td>
-      <td>[GetLoadContextFunction&lt;-createPagesFunctionHandlerParams, createPagesFunctionHandlerParams&lt;-createPagesFunctionHandler, createRequestHandler&lt;-createPagesFunctionHandler, createPagesFunctionHandlerParams&lt;-createRequestHandler, RequestHandler&lt;-createRequestHandler]</td>
+      <td>[createPagesFunctionHandler-&gt;createRequestHandler, createRequestHandler-&gt;RequestHandler, createPagesFunctionHandlerParams-&gt;GetLoadContextFunction, createPagesFunctionHandler-&gt;createPagesFunctionHandlerParams, createRequestHandler-&gt;createPagesFunctionHandlerParams]</td>
+      <td>[RequestHandler&lt;-createRequestHandler, createPagesFunctionHandlerParams&lt;-createRequestHandler, GetLoadContextFunction&lt;-createPagesFunctionHandlerParams, createRequestHandler&lt;-createPagesFunctionHandler, createPagesFunctionHandlerParams&lt;-createPagesFunctionHandler]</td>
     </tr>
   </tbody>
 </table>
@@ -2338,7 +2338,7 @@ Only the top 40 entries are shown. The whole table can be found in the following
       <td>./index-react-server.ts</td>
       <td>react-router</td>
       <td>./lib/router/utils.ts</td>
-      <td>data-&gt;DataWithResponseInit</td>
+      <td>redirect-&gt;redirect</td>
       <td>0.794872</td>
       <td>35</td>
       <td>4</td>
@@ -2349,7 +2349,7 @@ Only the top 40 entries are shown. The whole table can be found in the following
       <td>./index-react-server.ts</td>
       <td>react-router</td>
       <td>./lib/router/utils.ts</td>
-      <td>createContext-&gt;RouterContext</td>
+      <td>createStaticHandler-&gt;RedirectResult</td>
       <td>0.794872</td>
       <td>35</td>
       <td>4</td>
@@ -2360,7 +2360,7 @@ Only the top 40 entries are shown. The whole table can be found in the following
       <td>./index-react-server.ts</td>
       <td>react-router</td>
       <td>./lib/router/utils.ts</td>
-      <td>createStaticHandler-&gt;ErrorResponseImpl</td>
+      <td>redirectDocument-&gt;RedirectFunction</td>
       <td>0.794872</td>
       <td>35</td>
       <td>4</td>
@@ -2371,7 +2371,7 @@ Only the top 40 entries are shown. The whole table can be found in the following
       <td>./index-react-server.ts</td>
       <td>react-router</td>
       <td>./lib/router/utils.ts</td>
-      <td>createStaticHandler-&gt;SuccessResult</td>
+      <td>createStaticHandler-&gt;matchRoutes</td>
       <td>0.794872</td>
       <td>35</td>
       <td>4</td>
@@ -2382,7 +2382,7 @@ Only the top 40 entries are shown. The whole table can be found in the following
       <td>./index-react-server.ts</td>
       <td>react-router</td>
       <td>./lib/router/utils.ts</td>
-      <td>matchRSCServerRequest-&gt;AgnosticRouteMatch</td>
+      <td>createStaticHandler-&gt;AgnosticRouteMatch</td>
       <td>0.794872</td>
       <td>35</td>
       <td>4</td>
@@ -2393,7 +2393,7 @@ Only the top 40 entries are shown. The whole table can be found in the following
       <td>./index-react-server.ts</td>
       <td>react-router</td>
       <td>./lib/router/utils.ts</td>
-      <td>RouterContextProvider-&gt;RouterContext</td>
+      <td>matchRSCServerRequest-&gt;AgnosticRouteMatch</td>
       <td>0.794872</td>
       <td>35</td>
       <td>4</td>
@@ -2404,7 +2404,7 @@ Only the top 40 entries are shown. The whole table can be found in the following
       <td>./index-react-server.ts</td>
       <td>react-router</td>
       <td>./lib/router/utils.ts</td>
-      <td>redirectDocument-&gt;redirectDocument</td>
+      <td>replace-&gt;RedirectFunction</td>
       <td>0.794872</td>
       <td>35</td>
       <td>4</td>
@@ -2415,7 +2415,7 @@ Only the top 40 entries are shown. The whole table can be found in the following
       <td>./index-react-server.ts</td>
       <td>react-router</td>
       <td>./lib/router/utils.ts</td>
-      <td>createStaticHandler-&gt;isRouteErrorResponse</td>
+      <td>redirect-&gt;RedirectFunction</td>
       <td>0.794872</td>
       <td>35</td>
       <td>4</td>
@@ -2426,7 +2426,7 @@ Only the top 40 entries are shown. The whole table can be found in the following
       <td>./index-react-server.ts</td>
       <td>react-router</td>
       <td>./lib/router/utils.ts</td>
-      <td>matchRSCServerRequest-&gt;RouterContextProvider</td>
+      <td>Await-&gt;TrackedPromise</td>
       <td>0.794872</td>
       <td>35</td>
       <td>4</td>
@@ -2437,7 +2437,7 @@ Only the top 40 entries are shown. The whole table can be found in the following
       <td>./index-react-server.ts</td>
       <td>react-router</td>
       <td>./lib/router/utils.ts</td>
-      <td>createStaticHandler-&gt;RouterContextProvider</td>
+      <td>matchRSCServerRequest-&gt;matchRoutes</td>
       <td>0.794872</td>
       <td>35</td>
       <td>4</td>
@@ -2448,7 +2448,7 @@ Only the top 40 entries are shown. The whole table can be found in the following
       <td>./index-react-server.ts</td>
       <td>react-router</td>
       <td>./lib/router/utils.ts</td>
-      <td>matchRSCServerRequest-&gt;matchRoutes</td>
+      <td>MiddlewareFunction-&gt;MiddlewareNextFunction</td>
       <td>0.794872</td>
       <td>35</td>
       <td>4</td>
@@ -2459,7 +2459,7 @@ Only the top 40 entries are shown. The whole table can be found in the following
       <td>./index-react-server.ts</td>
       <td>react-router</td>
       <td>./lib/router/utils.ts</td>
-      <td>createStaticHandler-&gt;getRoutePattern</td>
+      <td>createStaticHandler-&gt;ResultType</td>
       <td>0.794872</td>
       <td>35</td>
       <td>4</td>
@@ -2470,7 +2470,7 @@ Only the top 40 entries are shown. The whole table can be found in the following
       <td>./index-react-server.ts</td>
       <td>react-router</td>
       <td>./lib/router/utils.ts</td>
-      <td>RSCRouteManifest-&gt;ShouldRevalidateFunction</td>
+      <td>createStaticHandler-&gt;isRouteErrorResponse</td>
       <td>0.794872</td>
       <td>35</td>
       <td>4</td>
@@ -2481,7 +2481,7 @@ Only the top 40 entries are shown. The whole table can be found in the following
       <td>./index-react-server.ts</td>
       <td>react-router</td>
       <td>./lib/router/utils.ts</td>
-      <td>MiddlewareFunction-&gt;MiddlewareNextFunction</td>
+      <td>createStaticHandler-&gt;DataStrategyMatch</td>
       <td>0.794872</td>
       <td>35</td>
       <td>4</td>
@@ -2492,7 +2492,7 @@ Only the top 40 entries are shown. The whole table can be found in the following
       <td>./index-react-server.ts</td>
       <td>react-router</td>
       <td>./lib/router/utils.ts</td>
-      <td>createStaticHandler-&gt;ErrorResult</td>
+      <td>createStaticHandler-&gt;AgnosticRouteObject</td>
       <td>0.794872</td>
       <td>35</td>
       <td>4</td>
@@ -2503,7 +2503,7 @@ Only the top 40 entries are shown. The whole table can be found in the following
       <td>./index-react-server.ts</td>
       <td>react-router</td>
       <td>./lib/router/utils.ts</td>
-      <td>createStaticHandler-&gt;DataStrategyResult</td>
+      <td>redirectDocument-&gt;redirectDocument</td>
       <td>0.794872</td>
       <td>35</td>
       <td>4</td>
@@ -2514,7 +2514,7 @@ Only the top 40 entries are shown. The whole table can be found in the following
       <td>./index-react-server.ts</td>
       <td>react-router</td>
       <td>./lib/router/utils.ts</td>
-      <td>redirect-&gt;redirect</td>
+      <td>matchRSCServerRequest-&gt;stripBasename</td>
       <td>0.794872</td>
       <td>35</td>
       <td>4</td>
@@ -2525,7 +2525,7 @@ Only the top 40 entries are shown. The whole table can be found in the following
       <td>./index-react-server.ts</td>
       <td>react-router</td>
       <td>./lib/router/utils.ts</td>
-      <td>createStaticHandler-&gt;AgnosticRouteObject</td>
+      <td>createStaticHandler-&gt;getRoutePattern</td>
       <td>0.794872</td>
       <td>35</td>
       <td>4</td>
@@ -2536,7 +2536,7 @@ Only the top 40 entries are shown. The whole table can be found in the following
       <td>./index-react-server.ts</td>
       <td>react-router</td>
       <td>./lib/router/utils.ts</td>
-      <td>redirectDocument-&gt;RedirectFunction</td>
+      <td>matchRoutes-&gt;AgnosticRouteObject</td>
       <td>0.794872</td>
       <td>35</td>
       <td>4</td>
@@ -2558,7 +2558,7 @@ Only the top 40 entries are shown. The whole table can be found in the following
       <td>./index-react-server.ts</td>
       <td>react-router</td>
       <td>./lib/router/utils.ts</td>
-      <td>data&lt;-convertRouteMatchToUiMatch</td>
+      <td>MiddlewareNextFunction&lt;-MiddlewareFunction</td>
       <td>0.794872</td>
       <td>35</td>
       <td>4</td>
@@ -2569,7 +2569,7 @@ Only the top 40 entries are shown. The whole table can be found in the following
       <td>./index-react-server.ts</td>
       <td>react-router</td>
       <td>./lib/router/utils.ts</td>
-      <td>RouterContext&lt;-RouterContextProvider</td>
+      <td>createStaticHandler-&gt;DataStrategyResult</td>
       <td>0.794872</td>
       <td>35</td>
       <td>4</td>
@@ -2580,7 +2580,7 @@ Only the top 40 entries are shown. The whole table can be found in the following
       <td>./index-react-server.ts</td>
       <td>react-router</td>
       <td>./lib/router/utils.ts</td>
-      <td>matchRoutes-&gt;matchRoutesImpl</td>
+      <td>RouterContextProvider-&gt;RouterContext</td>
       <td>0.794872</td>
       <td>35</td>
       <td>4</td>
@@ -2591,7 +2591,7 @@ Only the top 40 entries are shown. The whole table can be found in the following
       <td>./index-react-server.ts</td>
       <td>react-router</td>
       <td>./lib/router/utils.ts</td>
-      <td>redirect-&gt;RedirectFunction</td>
+      <td>createStaticHandler-&gt;convertRoutesToDataRoutes</td>
       <td>0.794872</td>
       <td>35</td>
       <td>4</td>
@@ -2602,7 +2602,7 @@ Only the top 40 entries are shown. The whole table can be found in the following
       <td>./index-react-server.ts</td>
       <td>react-router</td>
       <td>./lib/router/utils.ts</td>
-      <td>matchRSCServerRequest-&gt;stripBasename</td>
+      <td>createContext-&gt;RouterContext</td>
       <td>0.794872</td>
       <td>35</td>
       <td>4</td>
@@ -2613,7 +2613,7 @@ Only the top 40 entries are shown. The whole table can be found in the following
       <td>./index-react-server.ts</td>
       <td>react-router</td>
       <td>./lib/router/utils.ts</td>
-      <td>replace-&gt;replace</td>
+      <td>data-&gt;DataWithResponseInit</td>
       <td>0.794872</td>
       <td>35</td>
       <td>4</td>
@@ -2624,7 +2624,7 @@ Only the top 40 entries are shown. The whole table can be found in the following
       <td>./index-react-server.ts</td>
       <td>react-router</td>
       <td>./lib/router/utils.ts</td>
-      <td>MiddlewareFunction-&gt;MaybePromise</td>
+      <td>createStaticHandler-&gt;RouterContextProvider</td>
       <td>0.794872</td>
       <td>35</td>
       <td>4</td>
@@ -2635,7 +2635,7 @@ Only the top 40 entries are shown. The whole table can be found in the following
       <td>./index-react-server.ts</td>
       <td>react-router</td>
       <td>./lib/router/utils.ts</td>
-      <td>createStaticHandler-&gt;matchRoutes</td>
+      <td>matchRSCServerRequest-&gt;RouterContextProvider</td>
       <td>0.794872</td>
       <td>35</td>
       <td>4</td>
@@ -2646,7 +2646,7 @@ Only the top 40 entries are shown. The whole table can be found in the following
       <td>./index-react-server.ts</td>
       <td>react-router</td>
       <td>./lib/router/utils.ts</td>
-      <td>RSCRouteMatch-&gt;Params</td>
+      <td>createStaticHandler-&gt;ErrorResponseImpl</td>
       <td>0.794872</td>
       <td>35</td>
       <td>4</td>
@@ -2657,7 +2657,7 @@ Only the top 40 entries are shown. The whole table can be found in the following
       <td>./index-react-server.ts</td>
       <td>react-router</td>
       <td>./lib/router/utils.ts</td>
-      <td>createStaticHandler-&gt;convertRoutesToDataRoutes</td>
+      <td>RSCRouteManifest-&gt;ShouldRevalidateFunction</td>
       <td>0.794872</td>
       <td>35</td>
       <td>4</td>
@@ -2668,7 +2668,7 @@ Only the top 40 entries are shown. The whole table can be found in the following
       <td>./index-react-server.ts</td>
       <td>react-router</td>
       <td>./lib/router/utils.ts</td>
-      <td>createStaticHandler-&gt;AgnosticRouteMatch</td>
+      <td>RouterContext&lt;-RouterContextProvider</td>
       <td>0.794872</td>
       <td>35</td>
       <td>4</td>
@@ -2679,7 +2679,7 @@ Only the top 40 entries are shown. The whole table can be found in the following
       <td>./index-react-server.ts</td>
       <td>react-router</td>
       <td>./lib/router/utils.ts</td>
-      <td>Await-&gt;TrackedPromise</td>
+      <td>MiddlewareFunction-&gt;MaybePromise</td>
       <td>0.794872</td>
       <td>35</td>
       <td>4</td>
@@ -2690,7 +2690,7 @@ Only the top 40 entries are shown. The whole table can be found in the following
       <td>./index-react-server.ts</td>
       <td>react-router</td>
       <td>./lib/router/utils.ts</td>
-      <td>replace-&gt;RedirectFunction</td>
+      <td>createStaticHandler-&gt;ErrorResult</td>
       <td>0.794872</td>
       <td>35</td>
       <td>4</td>
@@ -2701,7 +2701,7 @@ Only the top 40 entries are shown. The whole table can be found in the following
       <td>./index-react-server.ts</td>
       <td>react-router</td>
       <td>./lib/router/utils.ts</td>
-      <td>createStaticHandler-&gt;DataStrategyMatch</td>
+      <td>matchRoutes-&gt;matchRoutesImpl</td>
       <td>0.794872</td>
       <td>35</td>
       <td>4</td>
@@ -2712,7 +2712,7 @@ Only the top 40 entries are shown. The whole table can be found in the following
       <td>./index-react-server.ts</td>
       <td>react-router</td>
       <td>./lib/router/utils.ts</td>
-      <td>createStaticHandler-&gt;ResultType</td>
+      <td>replace-&gt;replace</td>
       <td>0.794872</td>
       <td>35</td>
       <td>4</td>
@@ -2723,7 +2723,7 @@ Only the top 40 entries are shown. The whole table can be found in the following
       <td>./index-react-server.ts</td>
       <td>react-router</td>
       <td>./lib/router/utils.ts</td>
-      <td>matchRoutes-&gt;AgnosticRouteMatch</td>
+      <td>RSCRouteMatch-&gt;Params</td>
       <td>0.794872</td>
       <td>35</td>
       <td>4</td>
@@ -2734,7 +2734,7 @@ Only the top 40 entries are shown. The whole table can be found in the following
       <td>./index-react-server.ts</td>
       <td>react-router</td>
       <td>./lib/router/utils.ts</td>
-      <td>createStaticHandler-&gt;RedirectResult</td>
+      <td>matchRoutes-&gt;AgnosticRouteMatch</td>
       <td>0.794872</td>
       <td>35</td>
       <td>4</td>
@@ -2745,7 +2745,7 @@ Only the top 40 entries are shown. The whole table can be found in the following
       <td>./index-react-server.ts</td>
       <td>react-router</td>
       <td>./lib/router/utils.ts</td>
-      <td>matchRoutes-&gt;AgnosticRouteObject</td>
+      <td>data&lt;-convertRouteMatchToUiMatch</td>
       <td>0.794872</td>
       <td>35</td>
       <td>4</td>
@@ -2756,7 +2756,7 @@ Only the top 40 entries are shown. The whole table can be found in the following
       <td>./index-react-server.ts</td>
       <td>react-router</td>
       <td>./lib/router/utils.ts</td>
-      <td>MiddlewareNextFunction&lt;-MiddlewareFunction</td>
+      <td>createStaticHandler-&gt;SuccessResult</td>
       <td>0.794872</td>
       <td>35</td>
       <td>4</td>
@@ -2767,7 +2767,7 @@ Only the top 40 entries are shown. The whole table can be found in the following
       <td>./lib/router/router.ts</td>
       <td>react-router</td>
       <td>./lib/router/instrumentation.ts</td>
-      <td>createStaticHandler-&gt;unstable_InstrumentRouteFunction</td>
+      <td>createRouter-&gt;unstable_InstrumentRouteFunction</td>
       <td>0.750000</td>
       <td>7</td>
       <td>1</td>
@@ -2810,7 +2810,7 @@ Only the top 40 entries are shown. The whole table can be found in the following
       <td>./index-react-server.ts</td>
       <td>react-router</td>
       <td>./lib/router/utils.ts</td>
-      <td>MiddlewareNextFunction&lt;-MiddlewareFunction</td>
+      <td>data&lt;-convertRouteMatchToUiMatch</td>
       <td>0.794872</td>
       <td>35</td>
       <td>4</td>
@@ -2821,7 +2821,7 @@ Only the top 40 entries are shown. The whole table can be found in the following
       <td>./index-react-server.ts</td>
       <td>react-router</td>
       <td>./lib/router/utils.ts</td>
-      <td>RouterContext&lt;-RouterContextProvider</td>
+      <td>MiddlewareNextFunction&lt;-MiddlewareFunction</td>
       <td>0.794872</td>
       <td>35</td>
       <td>4</td>
@@ -2832,7 +2832,7 @@ Only the top 40 entries are shown. The whole table can be found in the following
       <td>./index-react-server.ts</td>
       <td>react-router</td>
       <td>./lib/router/utils.ts</td>
-      <td>data&lt;-convertRouteMatchToUiMatch</td>
+      <td>RouterContext&lt;-RouterContextProvider</td>
       <td>0.794872</td>
       <td>35</td>
       <td>4</td>
@@ -2898,7 +2898,7 @@ Only the top 40 entries are shown. The whole table can be found in the following
       <td>./lib/dom/ssr/fog-of-war.ts</td>
       <td>react-router</td>
       <td>./index.ts</td>
-      <td>isFogOfWarEnabled&lt;-useFogOFWarDiscovery</td>
+      <td>fetchAndApplyManifestPatches&lt;-getPatchRoutesOnNavigationFunction</td>
       <td>0.619048</td>
       <td>17</td>
       <td>4</td>
@@ -2920,7 +2920,7 @@ Only the top 40 entries are shown. The whole table can be found in the following
       <td>./lib/dom/ssr/fog-of-war.ts</td>
       <td>react-router</td>
       <td>./index.ts</td>
-      <td>fetchAndApplyManifestPatches&lt;-getPatchRoutesOnNavigationFunction</td>
+      <td>isFogOfWarEnabled&lt;-useFogOFWarDiscovery</td>
       <td>0.619048</td>
       <td>17</td>
       <td>4</td>
@@ -2942,7 +2942,7 @@ Only the top 40 entries are shown. The whole table can be found in the following
       <td>./lib/server-runtime/sessions.ts</td>
       <td>react-router</td>
       <td>./index.ts</td>
-      <td>createSession&lt;-createCookieSessionStorage</td>
+      <td>warnOnceAboutSigningSessionCookie&lt;-createCookieSessionStorage</td>
       <td>0.600000</td>
       <td>12</td>
       <td>3</td>
@@ -2953,7 +2953,7 @@ Only the top 40 entries are shown. The whole table can be found in the following
       <td>./lib/server-runtime/sessions.ts</td>
       <td>react-router</td>
       <td>./index.ts</td>
-      <td>createSessionStorage&lt;-createMemorySessionStorage</td>
+      <td>createSession&lt;-createCookieSessionStorage</td>
       <td>0.600000</td>
       <td>12</td>
       <td>3</td>
@@ -2964,7 +2964,7 @@ Only the top 40 entries are shown. The whole table can be found in the following
       <td>./lib/server-runtime/sessions.ts</td>
       <td>react-router</td>
       <td>./index.ts</td>
-      <td>warnOnceAboutSigningSessionCookie&lt;-createCookieSessionStorage</td>
+      <td>createSessionStorage&lt;-createMemorySessionStorage</td>
       <td>0.600000</td>
       <td>12</td>
       <td>3</td>
@@ -2986,7 +2986,7 @@ Only the top 40 entries are shown. The whole table can be found in the following
       <td>./lib/server-runtime/sessions.ts</td>
       <td>react-router</td>
       <td>./index-react-server.ts</td>
-      <td>warnOnceAboutSigningSessionCookie&lt;-createCookieSessionStorage</td>
+      <td>createSessionStorage&lt;-createMemorySessionStorage</td>
       <td>0.600000</td>
       <td>12</td>
       <td>3</td>
@@ -2997,7 +2997,7 @@ Only the top 40 entries are shown. The whole table can be found in the following
       <td>./lib/server-runtime/sessions.ts</td>
       <td>react-router</td>
       <td>./index-react-server.ts</td>
-      <td>createSessionStorage&lt;-createMemorySessionStorage</td>
+      <td>warnOnceAboutSigningSessionCookie&lt;-createCookieSessionStorage</td>
       <td>0.600000</td>
       <td>12</td>
       <td>3</td>
@@ -3019,7 +3019,7 @@ Only the top 40 entries are shown. The whole table can be found in the following
       <td>./lib/rsc/server.rsc.ts</td>
       <td>react-router</td>
       <td>./index.ts</td>
-      <td>RSCActionPayload&lt;-RSCPayload</td>
+      <td>RSCManifestPayload&lt;-RSCPayload</td>
       <td>0.441860</td>
       <td>31</td>
       <td>12</td>
@@ -3030,7 +3030,7 @@ Only the top 40 entries are shown. The whole table can be found in the following
       <td>./lib/rsc/server.rsc.ts</td>
       <td>react-router</td>
       <td>./index.ts</td>
-      <td>RSCManifestPayload&lt;-RSCPayload</td>
+      <td>RSCRouteManifest&lt;-RSCRenderPayload</td>
       <td>0.441860</td>
       <td>31</td>
       <td>12</td>
@@ -3052,7 +3052,7 @@ Only the top 40 entries are shown. The whole table can be found in the following
       <td>./lib/rsc/server.rsc.ts</td>
       <td>react-router</td>
       <td>./index.ts</td>
-      <td>RSCRouteManifest&lt;-RSCRenderPayload</td>
+      <td>getRequest&lt;-unstable_getRequest</td>
       <td>0.441860</td>
       <td>31</td>
       <td>12</td>
@@ -3085,7 +3085,7 @@ Only the top 40 entries are shown. The whole table can be found in the following
       <td>./lib/rsc/server.rsc.ts</td>
       <td>react-router</td>
       <td>./index.ts</td>
-      <td>RSCRouteManifest&lt;-RSCManifestPayload</td>
+      <td>RSCPayload&lt;-RSCMatch</td>
       <td>0.441860</td>
       <td>31</td>
       <td>12</td>
@@ -3096,7 +3096,7 @@ Only the top 40 entries are shown. The whole table can be found in the following
       <td>./lib/rsc/server.rsc.ts</td>
       <td>react-router</td>
       <td>./index.ts</td>
-      <td>RSCRouteManifest&lt;-RSCRouteMatch</td>
+      <td>RSCRenderPayload&lt;-RSCPayload</td>
       <td>0.441860</td>
       <td>31</td>
       <td>12</td>
@@ -3107,7 +3107,7 @@ Only the top 40 entries are shown. The whole table can be found in the following
       <td>./lib/rsc/server.rsc.ts</td>
       <td>react-router</td>
       <td>./index.ts</td>
-      <td>RSCPayload&lt;-RSCMatch</td>
+      <td>RSCRouteManifest&lt;-RSCManifestPayload</td>
       <td>0.441860</td>
       <td>31</td>
       <td>12</td>
@@ -3118,7 +3118,7 @@ Only the top 40 entries are shown. The whole table can be found in the following
       <td>./lib/rsc/server.rsc.ts</td>
       <td>react-router</td>
       <td>./index.ts</td>
-      <td>RSCRouteMatch&lt;-RSCRenderPayload</td>
+      <td>RSCRouteManifest&lt;-RSCRouteMatch</td>
       <td>0.441860</td>
       <td>31</td>
       <td>12</td>
@@ -3129,7 +3129,7 @@ Only the top 40 entries are shown. The whole table can be found in the following
       <td>./lib/rsc/server.rsc.ts</td>
       <td>react-router</td>
       <td>./index.ts</td>
-      <td>RSCRenderPayload&lt;-RSCPayload</td>
+      <td>RSCRouteMatch&lt;-RSCRenderPayload</td>
       <td>0.441860</td>
       <td>31</td>
       <td>12</td>
@@ -3140,7 +3140,7 @@ Only the top 40 entries are shown. The whole table can be found in the following
       <td>./lib/rsc/server.rsc.ts</td>
       <td>react-router</td>
       <td>./index.ts</td>
-      <td>getRequest&lt;-unstable_getRequest</td>
+      <td>RSCActionPayload&lt;-RSCPayload</td>
       <td>0.441860</td>
       <td>31</td>
       <td>12</td>
@@ -3173,7 +3173,7 @@ Only the top 40 entries are shown. The whole table can be found in the following
       <td>./lib/router/router.ts</td>
       <td>react-router</td>
       <td>./index.ts</td>
-      <td>Router&lt;-DataRouterStateContext</td>
+      <td>RouterState&lt;-getPatchRoutesOnNavigationFunction</td>
       <td>0.384615</td>
       <td>63</td>
       <td>28</td>
@@ -3184,7 +3184,7 @@ Only the top 40 entries are shown. The whole table can be found in the following
       <td>./lib/router/router.ts</td>
       <td>react-router</td>
       <td>./index.ts</td>
-      <td>BlockerFunction&lt;-createRouter</td>
+      <td>StaticHandlerContext&lt;-StaticHandler</td>
       <td>0.384615</td>
       <td>63</td>
       <td>28</td>
@@ -3195,7 +3195,7 @@ Only the top 40 entries are shown. The whole table can be found in the following
       <td>./lib/router/router.ts</td>
       <td>react-router</td>
       <td>./index.ts</td>
-      <td>Blocker&lt;-RouterState</td>
+      <td>Fetcher&lt;-Router</td>
       <td>0.384615</td>
       <td>63</td>
       <td>28</td>
@@ -3206,7 +3206,7 @@ Only the top 40 entries are shown. The whole table can be found in the following
       <td>./lib/router/router.ts</td>
       <td>react-router</td>
       <td>./index.ts</td>
-      <td>RouterState&lt;-Router</td>
+      <td>Router&lt;-getPatchRoutesOnNavigationFunction</td>
       <td>0.384615</td>
       <td>63</td>
       <td>28</td>
@@ -3217,7 +3217,7 @@ Only the top 40 entries are shown. The whole table can be found in the following
       <td>./lib/router/router.ts</td>
       <td>react-router</td>
       <td>./index.ts</td>
-      <td>RouterInit&lt;-createRouter</td>
+      <td>StaticHandlerContext&lt;-EntryContext</td>
       <td>0.384615</td>
       <td>63</td>
       <td>28</td>
@@ -3228,7 +3228,7 @@ Only the top 40 entries are shown. The whole table can be found in the following
       <td>./lib/router/router.ts</td>
       <td>react-router</td>
       <td>./index.ts</td>
-      <td>RevalidationState&lt;-RouterState</td>
+      <td>Router&lt;-DataRouterStateContext</td>
       <td>0.384615</td>
       <td>63</td>
       <td>28</td>
@@ -3239,7 +3239,7 @@ Only the top 40 entries are shown. The whole table can be found in the following
       <td>./lib/router/router.ts</td>
       <td>react-router</td>
       <td>./index.ts</td>
-      <td>IDLE_FETCHER&lt;-createRouter</td>
+      <td>IDLE_BLOCKER&lt;-createRouter</td>
       <td>0.384615</td>
       <td>63</td>
       <td>28</td>
@@ -3674,16 +3674,6 @@ The whole table can be found in the CSV report `ModuleElementsUsageTypescript`.
     </tr>
     <tr>
       <th>5</th>
-      <td>links</td>
-      <td>utils</td>
-      <td>1</td>
-      <td>85</td>
-      <td>0.011765</td>
-      <td>["/home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.13.1/source/react-router-7.13.1/packages/react-router/lib/router/utils.ts".AgnosticDataRouteMatch]</td>
-      <td>[AgnosticDataRouteMatch]</td>
-    </tr>
-    <tr>
-      <th>6</th>
       <td>route-module-annotations</td>
       <td>react-router</td>
       <td>2</td>
@@ -3691,6 +3681,16 @@ The whole table can be found in the CSV report `ModuleElementsUsageTypescript`.
       <td>0.011765</td>
       <td>["/home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.13.1/source/react-router-7.13.1/packages/react-router/lib/dom/ssr/routeModules.ts".MetaDescriptor, "/home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.13...</td>
       <td>[MetaDescriptor, LinkDescriptor]</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>links</td>
+      <td>utils</td>
+      <td>1</td>
+      <td>85</td>
+      <td>0.011765</td>
+      <td>["/home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.13.1/source/react-router-7.13.1/packages/react-router/lib/router/utils.ts".AgnosticDataRouteMatch]</td>
+      <td>[AgnosticDataRouteMatch]</td>
     </tr>
     <tr>
       <th>7</th>
@@ -3709,8 +3709,8 @@ The whole table can be found in the CSV report `ModuleElementsUsageTypescript`.
       <td>3</td>
       <td>178</td>
       <td>0.016854</td>
-      <td>["/home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.13.1/source/react-router-7.13.1/packages/react-router/lib/rsc/server.rsc.ts".RSCRouteManifest, "/home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.13.1/s...</td>
-      <td>[RSCRouteManifest, RSCRenderPayload, RouteModules]</td>
+      <td>["/home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.13.1/source/react-router-7.13.1/packages/react-router/lib/rsc/server.rsc.ts".RSCRenderPayload, "/home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.13.1/s...</td>
+      <td>[RSCRenderPayload, RSCRouteManifest, RouteModules]</td>
     </tr>
     <tr>
       <th>9</th>
@@ -3724,13 +3724,13 @@ The whole table can be found in the CSV report `ModuleElementsUsageTypescript`.
     </tr>
     <tr>
       <th>10</th>
-      <td>cookieStorage</td>
+      <td>errors</td>
       <td>react-router</td>
       <td>4</td>
       <td>178</td>
       <td>0.022472</td>
-      <td>["/home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.13.1/source/react-router-7.13.1/packages/react-router/lib/server-runtime/cookies.ts".createCookie, "/home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.13...</td>
-      <td>[createCookie, Cookie, SessionStorage, isCookie]</td>
+      <td>["/home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.13.1/source/react-router-7.13.1/packages/react-router/lib/router/utils.ts".isRouteErrorResponse, "/home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.13.1...</td>
+      <td>[isRouteErrorResponse, DataWithResponseInit, ServerMode, ErrorResponseImpl]</td>
     </tr>
     <tr>
       <th>11</th>
@@ -3739,38 +3739,38 @@ The whole table can be found in the CSV report `ModuleElementsUsageTypescript`.
       <td>4</td>
       <td>178</td>
       <td>0.022472</td>
-      <td>["/home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.13.1/source/react-router-7.13.1/packages/react-router/lib/server-runtime/cookies.ts".CookieSignatureOptions, "/home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-r...</td>
-      <td>[CookieSignatureOptions, IsCookieFunction, Cookie, CookieOptions]</td>
+      <td>["/home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.13.1/source/react-router-7.13.1/packages/react-router/lib/server-runtime/cookies.ts".IsCookieFunction, "/home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-...</td>
+      <td>[IsCookieFunction, Cookie, CookieOptions, CookieSignatureOptions]</td>
     </tr>
     <tr>
       <th>12</th>
-      <td>errors</td>
+      <td>cookieStorage</td>
       <td>react-router</td>
       <td>4</td>
       <td>178</td>
       <td>0.022472</td>
-      <td>["/home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.13.1/source/react-router-7.13.1/packages/react-router/lib/router/utils.ts".isRouteErrorResponse, "/home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.13.1...</td>
-      <td>[isRouteErrorResponse, ServerMode, ErrorResponseImpl, DataWithResponseInit]</td>
+      <td>["/home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.13.1/source/react-router-7.13.1/packages/react-router/lib/server-runtime/cookies.ts".Cookie, "/home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.13.1/sou...</td>
+      <td>[Cookie, SessionStorage, isCookie, createCookie]</td>
     </tr>
     <tr>
       <th>13</th>
-      <td>dom</td>
-      <td>utils</td>
-      <td>2</td>
-      <td>85</td>
-      <td>0.023529</td>
-      <td>["/home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.13.1/source/react-router-7.13.1/packages/react-router/lib/router/utils.ts".stripBasename, "/home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.13.1/source...</td>
-      <td>[stripBasename, HTMLFormMethod]</td>
-    </tr>
-    <tr>
-      <th>14</th>
       <td>headers</td>
       <td>react-router</td>
       <td>4</td>
       <td>170</td>
       <td>0.023529</td>
-      <td>["/home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.13.1/source/react-router-7.13.1/packages/react-router/lib/dom/ssr/routeModules.ts".HeadersFunction, "/home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.1...</td>
-      <td>[HeadersFunction, StaticHandlerContext, DataRouteMatch, ServerBuild]</td>
+      <td>["/home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.13.1/source/react-router-7.13.1/packages/react-router/lib/context.ts".DataRouteMatch, "/home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.13.1/source/rea...</td>
+      <td>[DataRouteMatch, ServerBuild, StaticHandlerContext, HeadersFunction]</td>
+    </tr>
+    <tr>
+      <th>14</th>
+      <td>dom</td>
+      <td>utils</td>
+      <td>2</td>
+      <td>85</td>
+      <td>0.023529</td>
+      <td>["/home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.13.1/source/react-router-7.13.1/packages/react-router/lib/router/utils.ts".HTMLFormMethod, "/home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.13.1/sourc...</td>
+      <td>[HTMLFormMethod, stripBasename]</td>
     </tr>
     <tr>
       <th>15</th>
@@ -3779,8 +3779,8 @@ The whole table can be found in the CSV report `ModuleElementsUsageTypescript`.
       <td>5</td>
       <td>178</td>
       <td>0.028090</td>
-      <td>["/home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.13.1/source/react-router-7.13.1/packages/react-router/lib/rsc/server.rsc.ts".RSCRouteMatch, "/home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.13.1/sour...</td>
-      <td>[RSCRouteMatch, RSCRouteManifest, RSCManifestPayload, RSCRenderPayload]</td>
+      <td>["/home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.13.1/source/react-router-7.13.1/packages/react-router/lib/rsc/server.rsc.ts".RSCRenderPayload, "/home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.13.1/s...</td>
+      <td>[RSCRenderPayload, RSCRouteManifest, RSCManifestPayload, RSCRouteMatch]</td>
     </tr>
     <tr>
       <th>16</th>
@@ -3789,8 +3789,8 @@ The whole table can be found in the CSV report `ModuleElementsUsageTypescript`.
       <td>5</td>
       <td>170</td>
       <td>0.029412</td>
-      <td>["/home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.13.1/source/react-router-7.13.1/packages/react-router/lib/router/links.ts".PageLinkDescriptor, "/home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.13.1/s...</td>
-      <td>[PageLinkDescriptor, HtmlLinkDescriptor, Location, AssetsManifest]</td>
+      <td>["/home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.13.1/source/react-router-7.13.1/packages/react-router/lib/dom/ssr/entry.ts".AssetsManifest, "/home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.13.1/sour...</td>
+      <td>[AssetsManifest, PageLinkDescriptor, Location, RouteModules]</td>
     </tr>
     <tr>
       <th>17</th>
@@ -3799,21 +3799,11 @@ The whole table can be found in the CSV report `ModuleElementsUsageTypescript`.
       <td>5</td>
       <td>170</td>
       <td>0.029412</td>
-      <td>["/home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.13.1/source/react-router-7.13.1/packages/react-router/lib/router/utils.ts".LoaderFunctionArgs, "/home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.13.1/s...</td>
-      <td>[LoaderFunctionArgs, ActionFunctionArgs, ActionFunction, LoaderFunction]</td>
+      <td>["/home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.13.1/source/react-router-7.13.1/packages/react-router/lib/router/utils.ts".DataWithResponseInit, "/home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.13.1...</td>
+      <td>[DataWithResponseInit, LoaderFunction, ActionFunction, ActionFunctionArgs]</td>
     </tr>
     <tr>
       <th>18</th>
-      <td>instrumentation</td>
-      <td>router</td>
-      <td>1</td>
-      <td>33</td>
-      <td>0.030303</td>
-      <td>["/home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.13.1/source/react-router-7.13.1/packages/react-router/lib/router/router.ts".Router]</td>
-      <td>[Router]</td>
-    </tr>
-    <tr>
-      <th>19</th>
       <td>errors</td>
       <td>router</td>
       <td>1</td>
@@ -3823,7 +3813,7 @@ The whole table can be found in the CSV report `ModuleElementsUsageTypescript`.
       <td>[isDataWithResponseInit]</td>
     </tr>
     <tr>
-      <th>20</th>
+      <th>19</th>
       <td>entry</td>
       <td>router</td>
       <td>1</td>
@@ -3831,6 +3821,16 @@ The whole table can be found in the CSV report `ModuleElementsUsageTypescript`.
       <td>0.030303</td>
       <td>["/home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.13.1/source/react-router-7.13.1/packages/react-router/lib/router/router.ts".StaticHandlerContext]</td>
       <td>[StaticHandlerContext]</td>
+    </tr>
+    <tr>
+      <th>20</th>
+      <td>instrumentation</td>
+      <td>router</td>
+      <td>1</td>
+      <td>33</td>
+      <td>0.030303</td>
+      <td>["/home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.13.1/source/react-router-7.13.1/packages/react-router/lib/router/router.ts".Router]</td>
+      <td>[Router]</td>
     </tr>
     <tr>
       <th>21</th>
@@ -3850,37 +3850,37 @@ The whole table can be found in the CSV report `ModuleElementsUsageTypescript`.
       <td>178</td>
       <td>0.033708</td>
       <td>["/home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.13.1/source/react-router-7.13.1/packages/react-router/lib/router/utils.ts".MiddlewareFunction, "/home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.13.1/s...</td>
-      <td>[MiddlewareFunction, redirectDocument, redirect, decodeViaTurboStream]</td>
+      <td>[MiddlewareFunction, replace, redirectDocument, SingleFetchRedirectSymbol]</td>
     </tr>
     <tr>
       <th>23</th>
-      <td>fog-of-war</td>
-      <td>utils</td>
-      <td>3</td>
-      <td>85</td>
-      <td>0.035294</td>
-      <td>["/home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.13.1/source/react-router-7.13.1/packages/react-router/lib/router/utils.ts".matchRoutes, "/home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.13.1/source/r...</td>
-      <td>[matchRoutes, AgnosticRouteMatch, RouteManifest]</td>
-    </tr>
-    <tr>
-      <th>24</th>
-      <td>build</td>
-      <td>react-router</td>
-      <td>6</td>
-      <td>170</td>
-      <td>0.035294</td>
-      <td>["/home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.13.1/source/react-router-7.13.1/packages/react-router/lib/server-runtime/build.ts".HandleErrorFunction, "/home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router...</td>
-      <td>[HandleErrorFunction, HandleDataRequestFunction, unstable_ServerInstrumentation, ServerEntryModule]</td>
-    </tr>
-    <tr>
-      <th>25</th>
       <td>dom</td>
       <td>react-router</td>
       <td>6</td>
       <td>170</td>
       <td>0.035294</td>
       <td>["/home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.13.1/source/react-router-7.13.1/packages/react-router/lib/dom/dom.ts".FetcherSubmitOptions, "/home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.13.1/sour...</td>
-      <td>[FetcherSubmitOptions, SubmitTarget, createSearchParams, ParamKeyValuePair]</td>
+      <td>[FetcherSubmitOptions, ParamKeyValuePair, URLSearchParamsInit, HTMLFormMethod]</td>
+    </tr>
+    <tr>
+      <th>24</th>
+      <td>fog-of-war</td>
+      <td>utils</td>
+      <td>3</td>
+      <td>85</td>
+      <td>0.035294</td>
+      <td>["/home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.13.1/source/react-router-7.13.1/packages/react-router/lib/router/utils.ts".RouteManifest, "/home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.13.1/source...</td>
+      <td>[RouteManifest, AgnosticRouteMatch, matchRoutes]</td>
+    </tr>
+    <tr>
+      <th>25</th>
+      <td>build</td>
+      <td>react-router</td>
+      <td>6</td>
+      <td>170</td>
+      <td>0.035294</td>
+      <td>["/home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.13.1/source/react-router-7.13.1/packages/react-router/lib/server-runtime/build.ts".HandleDataRequestFunction, "/home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-...</td>
+      <td>[HandleDataRequestFunction, AssetsManifest, unstable_ServerInstrumentation, ServerEntryModule]</td>
     </tr>
     <tr>
       <th>26</th>
@@ -3894,6 +3894,16 @@ The whole table can be found in the CSV report `ModuleElementsUsageTypescript`.
     </tr>
     <tr>
       <th>27</th>
+      <td>router</td>
+      <td>context</td>
+      <td>1</td>
+      <td>27</td>
+      <td>0.037037</td>
+      <td>["/home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.13.1/source/react-router-7.13.1/packages/react-router/lib/context.ts".RouteObject]</td>
+      <td>[RouteObject]</td>
+    </tr>
+    <tr>
+      <th>28</th>
       <td>fog-of-war</td>
       <td>context</td>
       <td>1</td>
@@ -3903,7 +3913,7 @@ The whole table can be found in the CSV report `ModuleElementsUsageTypescript`.
       <td>[PatchRoutesOnNavigationFunction]</td>
     </tr>
     <tr>
-      <th>28</th>
+      <th>29</th>
       <td>headers</td>
       <td>context</td>
       <td>1</td>
@@ -3911,16 +3921,6 @@ The whole table can be found in the CSV report `ModuleElementsUsageTypescript`.
       <td>0.037037</td>
       <td>["/home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.13.1/source/react-router-7.13.1/packages/react-router/lib/context.ts".DataRouteMatch]</td>
       <td>[DataRouteMatch]</td>
-    </tr>
-    <tr>
-      <th>29</th>
-      <td>router</td>
-      <td>context</td>
-      <td>1</td>
-      <td>27</td>
-      <td>0.037037</td>
-      <td>["/home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.13.1/source/react-router-7.13.1/packages/react-router/lib/context.ts".RouteObject]</td>
-      <td>[RouteObject]</td>
     </tr>
   </tbody>
 </table>
@@ -3962,7 +3962,7 @@ This table shows the file directory distance distribution between dependent file
       <td>42</td>
       <td>24</td>
       <td>30</td>
-      <td>[./index.ts uses ./sessions/arcTableSessionStorage.ts, ./lib/errors.ts uses ./index.ts, ./lib/context.ts uses ./index.ts, ./lib/rsc/server.rsc.ts uses ./lib/actions.ts]</td>
+      <td>[./index.ts uses ./sessions/arcTableSessionStorage.ts, ./lib/errors.ts uses ./index.ts, ./lib/context.ts uses ./index.ts, ./lib/server-runtime/server.ts uses ./lib/actions.ts]</td>
     </tr>
     <tr>
       <th>2</th>
@@ -3970,7 +3970,7 @@ This table shows the file directory distance distribution between dependent file
       <td>116</td>
       <td>43</td>
       <td>40</td>
-      <td>[./lib/rsc/server.rsc.ts uses ./dom-export.ts, ./lib/rsc/route-modules.ts uses ./dom-export.ts, ./lib/rsc/server.rsc.ts uses ./index-react-server-client.ts, ./lib/router/instrumentation.ts uses ./index-react-server.ts]</td>
+      <td>[./lib/rsc/route-modules.ts uses ./dom-export.ts, ./lib/rsc/server.rsc.ts uses ./dom-export.ts, ./lib/rsc/server.rsc.ts uses ./index-react-server-client.ts, ./lib/rsc/route-modules.ts uses ./index-react-server.ts]</td>
     </tr>
     <tr>
       <th>3</th>
@@ -3978,7 +3978,7 @@ This table shows the file directory distance distribution between dependent file
       <td>49</td>
       <td>22</td>
       <td>18</td>
-      <td>[./lib/server-runtime/sessions/memoryStorage.ts uses ./index-react-server.ts, ./lib/dom/ssr/routeModules.ts uses ./index-react-server.ts, ./lib/dom/ssr/fog-of-war.ts uses ./index-react-server.ts, ./lib/server-runtime/sessions/cookieStorage.ts uses ./index-react-server.ts]</td>
+      <td>[./lib/dom/ssr/fog-of-war.ts uses ./index-react-server.ts, ./lib/server-runtime/sessions/memoryStorage.ts uses ./index-react-server.ts, ./lib/dom/ssr/routeModules.ts uses ./index-react-server.ts, ./lib/server-runtime/sessions/cookieStorage.ts uses ./index-react-server.ts]</td>
     </tr>
     <tr>
       <th>4</th>
