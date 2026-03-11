@@ -2973,7 +2973,7 @@ The following table shows the top 30 packages containing the methods with the hi
       <td>72</td>
       <td>axon-common-5.0.2</td>
       <td>org.axonframework.common.util</td>
-      <td>PriorityCallable</td>
+      <td>PriorityRunnable</td>
       <td>equals</td>
       <td>7</td>
     </tr>

@@ -12,42 +12,36 @@ strict digraph TopOutlier4 {
     central [fontsize = 16;];
     central [color = 7; fillcolor = 5; penwidth = 3;];
 
-	graph   [label="Top Rank #4 Java Type Outlier\norg.axonframework.messaging.core.timeout.UnitOfWorkTimeoutInterceptorBuilder\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: cluster probability\nlarge circle: < 25% percentile of cluster probability\nthick outline: > 80% percentile of distance to cluster center\n\n"];
-	central [label="🧩 outlier #4\nUnitOfWorkTimeoutInterceptorBuilder"];
-	"AxonTimeoutAutoConfiguration$AxonTimeoutConfigurerModule_5244"  [label = "AxonTimeoutAutoConfiguration$\nAxonTimeoutConfigurerModule\n(42.64%)"; penwidth = 2; ]; "AxonTimeoutAutoConfiguration$AxonTimeoutConfigurerModule_5244" -> central [label=9; weight=9; penwidth=0.5];
-	"AxonTimeLimitedTask_28015"  [shape = "circle"; height=1.8; label = "AxonTimeLimitedTask\n(0.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "AxonTimeLimitedTask_28015" [label=11; weight=11; penwidth=0.6; color = 5];
-	"ProcessingContext_7325"  [shape = "circle"; height=1.8; label = "ProcessingContext\n(0.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "ProcessingContext_7325" [label=9; weight=9; penwidth=0.5; color = 5];
-	"MessageHandlerInterceptor_7321"  [shape = "circle"; height=1.8; label = "MessageHandlerInterceptor\n(0.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "MessageHandlerInterceptor_7321" [label=4; weight=4; penwidth=0.5; color = 5];
-	"Context$ResourceKey_9279"  [label = "Context$\nResourceKey\n(75.79%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "Context$ResourceKey_9279" [label=3; weight=3; penwidth=0.4; color = 5];
-	"AxonTaskJanitor_28016"  [shape = "circle"; height=1.8; label = "AxonTaskJanitor\n(0.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "AxonTaskJanitor_28016" [label=2; weight=2; penwidth=0.4; color = 5];
-	"Message_7315"  [shape = "circle"; height=1.8; label = "Message\n(0.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "Message_7315" [label=2; weight=2; penwidth=0.4; color = 5];
-	"MessageHandlerInterceptorChain_7326"  [shape = "circle"; height=1.8; label = "MessageHandlerInterceptorChain\n(0.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "MessageHandlerInterceptorChain_7326" [label=2; weight=2; penwidth=0.4; color = 5];
-	"MessageStream_7327"  [label = "MessageStream\n(34.18%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "MessageStream_7327" [label=2; weight=2; penwidth=0.4; color = 5];
-	"ProcessingLifecycle$Phase_7324"  [label = "ProcessingLifecycle$\nPhase\n(100.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "ProcessingLifecycle$Phase_7324" [label=2; weight=2; penwidth=0.4; color = 5];
-	"CommandMessage_8239"  [label = "CommandMessage\n(80.86%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "CommandMessage_8239" [label=1; weight=1; penwidth=0.4; color = 5];
-	"EventMessage_7322"  [label = "EventMessage\n(35.26%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "EventMessage_7322" [label=1; weight=1; penwidth=0.4; color = 5];
-	"MessageStream$Empty_9272"  [shape = "circle"; height=1.8; label = "MessageStream$\nEmpty\n(0.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "MessageStream$Empty_9272" [label=1; weight=1; penwidth=0.4; color = 5];
-	"ProcessingLifecycle$ErrorHandler_7323"  [label = "ProcessingLifecycle$\nErrorHandler\n(100.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "ProcessingLifecycle$ErrorHandler_7323" [label=1; weight=1; penwidth=0.4; color = 5];
-	"QueryMessage_8234"  [label = "QueryMessage\n(81.05%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "QueryMessage_8234" [label=1; weight=1; penwidth=0.4; color = 5];
-	"MessageStream_7327" -> "Message_7315" [label=25; weight=25; penwidth=0.3; color = 3]
-	"ProcessingContext_7325" -> "Context$ResourceKey_9279" [label=9; weight=9; penwidth=0.3; color = 3]
-	"MessageStream$Empty_9272" -> "MessageStream_7327" [label=7; weight=7; penwidth=0.3; color = 3]
-	"CommandMessage_8239" -> "Message_7315" [label=6; weight=6; penwidth=0.3; color = 3]
-	"EventMessage_7322" -> "Message_7315" [label=6; weight=6; penwidth=0.3; color = 3]
-	"QueryMessage_8234" -> "Message_7315" [label=6; weight=6; penwidth=0.3; color = 3]
-	"Message_7315" -> "ProcessingContext_7325" [label=5; weight=5; penwidth=0.3; color = 3]
-	"MessageStream_7327" -> "MessageStream$Empty_9272" [label=5; weight=5; penwidth=0.3; color = 3]
-	"MessageStream$Empty_9272" -> "Message_7315" [label=4; weight=4; penwidth=0.3; color = 3]
-	"AxonTimeLimitedTask_28015" -> "AxonTaskJanitor_28016" [label=3; weight=3; penwidth=0.3; color = 3]
-	"AxonTimeoutAutoConfiguration$AxonTimeoutConfigurerModule_5244" -> "MessageHandlerInterceptor_7321" [label=3; weight=3; penwidth=0.3; color = 3]
-	"Message_7315" -> "Context$ResourceKey_9279" [label=3; weight=3; penwidth=0.3; color = 3]
-	"ProcessingLifecycle$ErrorHandler_7323" -> "ProcessingLifecycle$Phase_7324" [label=2; weight=2; penwidth=0.3; color = 3]
-	"MessageHandlerInterceptor_7321" -> "MessageHandlerInterceptorChain_7326" [label=1; weight=1; penwidth=0.3; color = 3]
-	"MessageHandlerInterceptor_7321" -> "ProcessingContext_7325" [label=1; weight=1; penwidth=0.3; color = 3]
-	"MessageHandlerInterceptor_7321" -> "Message_7315" [label=1; weight=1; penwidth=0.3; color = 3]
-	"MessageHandlerInterceptor_7321" -> "MessageStream_7327" [label=1; weight=1; penwidth=0.3; color = 3]
-	"MessageHandlerInterceptorChain_7326" -> "Message_7315" [label=1; weight=1; penwidth=0.3; color = 3]
-	"MessageHandlerInterceptorChain_7326" -> "ProcessingContext_7325" [label=1; weight=1; penwidth=0.3; color = 3]
-	"MessageHandlerInterceptorChain_7326" -> "MessageStream_7327" [label=1; weight=1; penwidth=0.3; color = 3]
-	"ProcessingLifecycle$ErrorHandler_7323" -> "ProcessingContext_7325" [label=1; weight=1; penwidth=0.3; color = 3]
+	graph   [label="Top Rank #4 Java Type Outlier\norg.axonframework.messaging.commandhandling.distributed.PayloadConvertingCommandBusConnector\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: cluster probability\nlarge circle: < 25% percentile of cluster probability\nthick outline: > 80% percentile of distance to cluster center\n\n"];
+	central [label="🧩 outlier #4\nPayloadConvertingCommandBusConnector"];
+	"AxonServerConfigurationEnhancer_42888"  [label = "AxonServerConfigurationEnhancer\n(28.12%)"; penwidth = 2; ]; "AxonServerConfigurationEnhancer_42888" -> central [label=4; weight=4; penwidth=0.5];
+	"PayloadConvertingCommandBusConnector$ConvertingResultMessageCallback_8401"  [label = "PayloadConvertingCommandBusConnector$\nConvertingResultMessageCallback\n(100.0%)"; penwidth = 2; ]; "PayloadConvertingCommandBusConnector$ConvertingResultMessageCallback_8401" -> central [label=4; weight=4; penwidth=0.5];
+	"CommandBusConnector$Handler_8429"  [label = "CommandBusConnector$\nHandler\n(100.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "CommandBusConnector$Handler_8429" [label=4; weight=4; penwidth=0.5; color = 5];
+	"ComponentDescriptor_48320"  [shape = "circle"; height=1.8; label = "ComponentDescriptor\n(0.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "ComponentDescriptor_48320" [label=4; weight=4; penwidth=0.5; color = 5];
+	"CommandBusConnector_8430"  [label = "CommandBusConnector\n(13.06%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "CommandBusConnector_8430" [label=3; weight=3; penwidth=0.4; color = 5];
+	"CommandMessage_8239"  [shape = "circle"; height=1.8; label = "CommandMessage\n(0.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "CommandMessage_8239" [label=3; weight=3; penwidth=0.4; color = 5];
+	"MessageConverter_8224"  [shape = "circle"; height=1.8; label = "MessageConverter\n(0.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "MessageConverter_8224" [label=3; weight=3; penwidth=0.4; color = 5];
+	"PayloadConvertingCommandBusConnector$ConvertingResultMessageCallback_8401"  [label = "PayloadConvertingCommandBusConnector$\nConvertingResultMessageCallback\n(100.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "PayloadConvertingCommandBusConnector$ConvertingResultMessageCallback_8401" [label=3; weight=3; penwidth=0.4; color = 5];
+	"CommandBusConnector$ResultCallback_8432"  [label = "CommandBusConnector$\nResultCallback\n(100.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "CommandBusConnector$ResultCallback_8432" [label=2; weight=2; penwidth=0.4; color = 5];
+	"DelegatingCommandBusConnector_8400"  [shape = "circle"; height=1.8; label = "DelegatingCommandBusConnector\n(0.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "DelegatingCommandBusConnector_8400" [label=2; weight=2; penwidth=0.4; color = 5];
+	"CommandResultMessage_7314"  [shape = "circle"; height=1.8; label = "CommandResultMessage\n(0.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "CommandResultMessage_7314" [label=1; weight=1; penwidth=0.4; color = 5];
+	"ProcessingContext_7325"  [shape = "circle"; height=1.8; label = "ProcessingContext\n(0.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "ProcessingContext_7325" [label=1; weight=1; penwidth=0.4; color = 5];
+	"AxonServerConfigurationEnhancer_42888" -> "CommandBusConnector_8430" [label=9; weight=9; penwidth=0.3; color = 3]
+	"DelegatingCommandBusConnector_8400" -> "CommandBusConnector_8430" [label=8; weight=8; penwidth=0.3; color = 3]
+	"PayloadConvertingCommandBusConnector$ConvertingResultMessageCallback_8401" -> "CommandBusConnector$ResultCallback_8432" [label=7; weight=7; penwidth=0.3; color = 3]
+	"AxonServerConfigurationEnhancer_42888" -> "MessageConverter_8224" [label=4; weight=4; penwidth=0.3; color = 3]
+	"PayloadConvertingCommandBusConnector$ConvertingResultMessageCallback_8401" -> "CommandResultMessage_7314" [label=3; weight=3; penwidth=0.3; color = 3]
+	"CommandBusConnector_8430" -> "CommandBusConnector$Handler_8429" [label=2; weight=2; penwidth=0.3; color = 3]
+	"CommandBusConnector$Handler_8429" -> "CommandBusConnector$ResultCallback_8432" [label=2; weight=2; penwidth=0.3; color = 3]
+	"DelegatingCommandBusConnector_8400" -> "ComponentDescriptor_48320" [label=2; weight=2; penwidth=0.3; color = 3]
+	"DelegatingCommandBusConnector_8400" -> "CommandBusConnector$Handler_8429" [label=2; weight=2; penwidth=0.3; color = 3]
+	"CommandBusConnector_8430" -> "CommandBusConnector$ResultCallback_8432" [label=1; weight=1; penwidth=0.3; color = 3]
+	"CommandBusConnector_8430" -> "CommandMessage_8239" [label=1; weight=1; penwidth=0.3; color = 3]
+	"CommandBusConnector_8430" -> "CommandResultMessage_7314" [label=1; weight=1; penwidth=0.3; color = 3]
+	"CommandBusConnector_8430" -> "ProcessingContext_7325" [label=1; weight=1; penwidth=0.3; color = 3]
+	"CommandBusConnector$Handler_8429" -> "CommandMessage_8239" [label=1; weight=1; penwidth=0.3; color = 3]
+	"CommandBusConnector$ResultCallback_8432" -> "CommandResultMessage_7314" [label=1; weight=1; penwidth=0.3; color = 3]
+	"DelegatingCommandBusConnector_8400" -> "ProcessingContext_7325" [label=1; weight=1; penwidth=0.3; color = 3]
+	"DelegatingCommandBusConnector_8400" -> "CommandMessage_8239" [label=1; weight=1; penwidth=0.3; color = 3]
+	"DelegatingCommandBusConnector_8400" -> "CommandResultMessage_7314" [label=1; weight=1; penwidth=0.3; color = 3]
 }

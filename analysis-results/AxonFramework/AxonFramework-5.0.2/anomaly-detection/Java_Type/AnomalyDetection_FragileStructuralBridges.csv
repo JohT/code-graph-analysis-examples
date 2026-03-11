@@ -4,7 +4,7 @@
 "org.axonframework.messaging.core.unitofwork.ProcessingContext","ProcessingContext","axon-messaging-5.0.2",6728.058730158731,0.021794574542082078,230,225,5,""
 "org.axonframework.messaging.core.QualifiedName","QualifiedName","axon-messaging-5.0.2",4734.209574738986,0.05868544600938967,72,69,3,""
 "org.axonframework.common.ReflectionUtils","ReflectionUtils","axon-common-5.0.2",4368.883333333334,0.054187192118226604,29,25,4,""
-"org.axonframework.messaging.core.MessageType","MessageType","axon-messaging-5.0.2",4144.367697988286,0.0780399274047187,58,55,3,""
+"org.axonframework.messaging.core.MessageType","MessageType","axon-messaging-5.0.2",4144.367697988287,0.0780399274047187,58,55,3,""
 "org.axonframework.messaging.eventhandling.EventMessage","EventMessage","axon-messaging-5.0.2",1994.3698412698411,0.027213012198936504,139,136,3,""
 "org.axonframework.common.TypeReference","TypeReference","axon-common-5.0.2",1366,0.07439024390243902,43,41,2,""
 "org.axonframework.common.AxonConfigurationException","AxonConfigurationException","axon-common-5.0.2",1107.3666666666663,0.06884057971014493,24,23,1,""

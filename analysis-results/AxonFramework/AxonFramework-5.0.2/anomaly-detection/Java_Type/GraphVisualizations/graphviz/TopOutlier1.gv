@@ -12,27 +12,10 @@ strict digraph TopOutlier1 {
     central [fontsize = 16;];
     central [color = 7; fillcolor = 5; penwidth = 3;];
 
-	graph   [label="Top Rank #1 Java Type Outlier\norg.axonframework.axonserver.connector.query.AbstractQueryResponseMessageStream\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: cluster probability\nlarge circle: < 25% percentile of cluster probability\nthick outline: > 80% percentile of distance to cluster center\n\n"];
-	central [label="🧩 outlier #1\nAbstractQueryResponseMessageStream"];
-	"QueryResponseMessageStream_42892"  [label = "QueryResponseMessageStream\n(6.16%)"; penwidth = 5; ]; "QueryResponseMessageStream_42892" -> central [label=2; weight=2; penwidth=0.4];
-	"QueryUpdateMessageStream_42890"  [label = "QueryUpdateMessageStream\n(6.16%)"; penwidth = 2; ]; "QueryUpdateMessageStream_42890" -> central [label=2; weight=2; penwidth=0.4];
-	"QueryResponseMessage_17831"  [shape = "circle"; height=1.8; label = "QueryResponseMessage\n(0.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "QueryResponseMessage_17831" [label=5; weight=5; penwidth=0.5; color = 5];
-	"MessageStream$Entry_9269"  [shape = "circle"; height=1.8; label = "MessageStream$\nEntry\n(0.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "MessageStream$Entry_9269" [label=4; weight=4; penwidth=0.5; color = 5];
-	"SimpleEntry_23067"  [shape = "circle"; height=1.8; label = "SimpleEntry\n(0.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "SimpleEntry_23067" [label=2; weight=2; penwidth=0.4; color = 5];
-	"AxonException_45806"  [label = "AxonException\n(35.16%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "AxonException_45806" [label=1; weight=1; penwidth=0.4; color = 5];
-	"Context_14608"  [shape = "circle"; height=1.8; label = "Context\n(0.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "Context_14608" [label=1; weight=1; penwidth=0.4; color = 5];
-	"Internal_46215"  [label = "Internal\n(49.73%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "Internal_46215" [label=1; weight=1; penwidth=0.4; color = 5];
-	"MessageStream_7327"  [label = "MessageStream\n(27.15%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "MessageStream_7327" [label=1; weight=1; penwidth=0.4; color = 5];
-	"MessageStream_7327" -> "Context_14608" [label=19; weight=19; penwidth=0.3; color = 3]
-	"MessageStream_7327" -> "MessageStream$Entry_9269" [label=13; weight=13; penwidth=0.3; color = 3]
-	"MessageStream_7327" -> "SimpleEntry_23067" [label=9; weight=9; penwidth=0.3; color = 3]
-	"SimpleEntry_23067" -> "Context_14608" [label=9; weight=9; penwidth=0.3; color = 3]
-	"SimpleEntry_23067" -> "MessageStream$Entry_9269" [label=4; weight=4; penwidth=0.3; color = 3]
-	"MessageStream$Entry_9269" -> "Context_14608" [label=2; weight=2; penwidth=0.3; color = 3]
-	"QueryResponseMessageStream_42892" -> "QueryResponseMessage_17831" [label=2; weight=2; penwidth=0.3; color = 3]
-	"QueryResponseMessageStream_42892" -> "AxonException_45806" [label=2; weight=2; penwidth=0.3; color = 3]
-	"QueryUpdateMessageStream_42890" -> "QueryResponseMessage_17831" [label=2; weight=2; penwidth=0.3; color = 3]
-	"QueryUpdateMessageStream_42890" -> "AxonException_45806" [label=2; weight=2; penwidth=0.3; color = 3]
-	"Context_14608" -> "Internal_46215" [label=1; weight=1; penwidth=0.3; color = 3]
-	"QueryResponseMessageStream_42892" -> "Internal_46215" [label=1; weight=1; penwidth=0.3; color = 3]
+	graph   [label="Top Rank #1 Java Type Outlier\norg.axonframework.messaging.core.timeout.AxonTaskJanitor\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: cluster probability\nlarge circle: < 25% percentile of cluster probability\nthick outline: > 80% percentile of distance to cluster center\n\n"];
+	central [label="🧩 outlier #1\nAxonTaskJanitor"];
+	"AxonTimeLimitedTask_28015"  [label = "AxonTimeLimitedTask\n(4.88%)"; penwidth = 5; ]; "AxonTimeLimitedTask_28015" -> central [label=3; weight=3; penwidth=0.4];
+	"UnitOfWorkTimeoutInterceptorBuilder_28014"  [label = "UnitOfWorkTimeoutInterceptorBuilder\n(5.5%)"; penwidth = 2; ]; "UnitOfWorkTimeoutInterceptorBuilder_28014" -> central [label=2; weight=2; penwidth=0.4];
+	"AxonThreadFactory_45807"  [shape = "circle"; height=1.8; label = "AxonThreadFactory\n(0.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "AxonThreadFactory_45807" [label=2; weight=2; penwidth=0.4; color = 5];
+	"UnitOfWorkTimeoutInterceptorBuilder_28014" -> "AxonTimeLimitedTask_28015" [label=11; weight=11; penwidth=0.3; color = 3]
 }

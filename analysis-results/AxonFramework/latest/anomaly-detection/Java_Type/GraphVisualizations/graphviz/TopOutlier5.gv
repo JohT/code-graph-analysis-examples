@@ -12,49 +12,27 @@ strict digraph TopOutlier5 {
     central [fontsize = 16;];
     central [color = 7; fillcolor = 5; penwidth = 3;];
 
-	graph   [label="Top Rank #5 Java Type Outlier\norg.axonframework.messaging.eventstreaming.EventCriterion\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: cluster probability\nlarge circle: < 25% percentile of cluster probability\nthick outline: > 80% percentile of distance to cluster center\n\n"];
-	central [label="🧩 outlier #5\nEventCriterion"];
-	"ConditionConverter_44008"  [shape = "circle"; height=1.8; label = "ConditionConverter\n(0.0%)"; penwidth = 2; ]; "ConditionConverter_44008" -> central [label=4; weight=4; penwidth=0.5];
-	"AggregateBasedAxonServerEventStorageEngine_44007"  [shape = "circle"; height=1.8; label = "AggregateBasedAxonServerEventStorageEngine\n(0.0%)"; penwidth = 2; ]; "AggregateBasedAxonServerEventStorageEngine_44007" -> central [label=3; weight=3; penwidth=0.4];
-	"AggregateBasedJpaEventStorageEngine_39619"  [label = "AggregateBasedJpaEventStorageEngine\n(98.17%)"; penwidth = 2; ]; "AggregateBasedJpaEventStorageEngine_39619" -> central [label=3; weight=3; penwidth=0.4];
-	"TagAndTypeFilteredEventCriteria_17865"  [label = "TagAndTypeFilteredEventCriteria\n(86.86%)"; penwidth = 5; ]; "TagAndTypeFilteredEventCriteria_17865" -> central [label=2; weight=2; penwidth=0.4];
-	"TagFilteredEventCriteria_17866"  [label = "TagFilteredEventCriteria\n(86.86%)"; penwidth = 2; ]; "TagFilteredEventCriteria_17866" -> central [label=2; weight=2; penwidth=0.4];
-	"AnyEvent_17559"  [label = "AnyEvent\n(100.0%)"; penwidth = 2; ]; "AnyEvent_17559" -> central [label=1; weight=1; penwidth=0.4];
-	"EventCriteria_14617"  [label = "EventCriteria\n(43.28%)"; penwidth = 5; ]; "EventCriteria_14617" -> central [label=1; weight=1; penwidth=0.4];
-	"OrEventCriteria_17560"  [label = "OrEventCriteria\n(100.0%)"; penwidth = 2; ]; "OrEventCriteria_17560" -> central [label=1; weight=1; penwidth=0.4];
-	"EventCriteria_14617"  [label = "EventCriteria\n(43.28%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "EventCriteria_14617" [label=1; weight=1; penwidth=0.4; color = 5];
-	"QualifiedName_8274"  [shape = "circle"; height=1.8; label = "QualifiedName\n(0.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "QualifiedName_8274" [label=1; weight=1; penwidth=0.4; color = 5];
-	"Tag_17864"  [label = "Tag\n(100.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "Tag_17864" [label=1; weight=1; penwidth=0.4; color = 5];
-	"OrEventCriteria_17560" -> "EventCriteria_14617" [label=12; weight=12; penwidth=0.3; color = 3]
-	"EventCriteria_14617" -> "Tag_17864" [label=5; weight=5; penwidth=0.3; color = 3]
-	"TagAndTypeFilteredEventCriteria_17865" -> "QualifiedName_8274" [label=5; weight=5; penwidth=0.3; color = 3]
-	"TagAndTypeFilteredEventCriteria_17865" -> "Tag_17864" [label=5; weight=5; penwidth=0.3; color = 3]
-	"TagAndTypeFilteredEventCriteria_17865" -> "OrEventCriteria_17560" [label=5; weight=5; penwidth=0.3; color = 3]
-	"TagFilteredEventCriteria_17866" -> "EventCriteria_14617" [label=5; weight=5; penwidth=0.3; color = 3]
-	"TagFilteredEventCriteria_17866" -> "OrEventCriteria_17560" [label=5; weight=5; penwidth=0.3; color = 3]
-	"TagFilteredEventCriteria_17866" -> "Tag_17864" [label=5; weight=5; penwidth=0.3; color = 3]
-	"AnyEvent_17559" -> "EventCriteria_14617" [label=4; weight=4; penwidth=0.3; color = 3]
-	"ConditionConverter_44008" -> "Tag_17864" [label=4; weight=4; penwidth=0.3; color = 3]
-	"EventCriteria_14617" -> "OrEventCriteria_17560" [label=4; weight=4; penwidth=0.3; color = 3]
-	"TagAndTypeFilteredEventCriteria_17865" -> "EventCriteria_14617" [label=4; weight=4; penwidth=0.3; color = 3]
-	"ConditionConverter_44008" -> "EventCriteria_14617" [label=3; weight=3; penwidth=0.3; color = 3]
-	"TagFilteredEventCriteria_17866" -> "QualifiedName_8274" [label=3; weight=3; penwidth=0.3; color = 3]
-	"AggregateBasedAxonServerEventStorageEngine_44007" -> "Tag_17864" [label=2; weight=2; penwidth=0.3; color = 3]
-	"AggregateBasedJpaEventStorageEngine_39619" -> "Tag_17864" [label=2; weight=2; penwidth=0.3; color = 3]
-	"AggregateBasedJpaEventStorageEngine_39619" -> "QualifiedName_8274" [label=2; weight=2; penwidth=0.3; color = 3]
-	"AnyEvent_17559" -> "TagAndTypeFilteredEventCriteria_17865" [label=2; weight=2; penwidth=0.3; color = 3]
-	"AnyEvent_17559" -> "QualifiedName_8274" [label=2; weight=2; penwidth=0.3; color = 3]
-	"ConditionConverter_44008" -> "QualifiedName_8274" [label=2; weight=2; penwidth=0.3; color = 3]
-	"EventCriteria_14617" -> "TagFilteredEventCriteria_17866" [label=2; weight=2; penwidth=0.3; color = 3]
-	"EventCriteria_14617" -> "AnyEvent_17559" [label=2; weight=2; penwidth=0.3; color = 3]
-	"OrEventCriteria_17560" -> "QualifiedName_8274" [label=2; weight=2; penwidth=0.3; color = 3]
-	"TagFilteredEventCriteria_17866" -> "TagAndTypeFilteredEventCriteria_17865" [label=2; weight=2; penwidth=0.3; color = 3]
-	"AggregateBasedAxonServerEventStorageEngine_44007" -> "EventCriteria_14617" [label=1; weight=1; penwidth=0.3; color = 3]
-	"AggregateBasedJpaEventStorageEngine_39619" -> "EventCriteria_14617" [label=1; weight=1; penwidth=0.3; color = 3]
-	"AnyEvent_17559" -> "Tag_17864" [label=1; weight=1; penwidth=0.3; color = 3]
-	"EventCriteria_14617" -> "QualifiedName_8274" [label=1; weight=1; penwidth=0.3; color = 3]
-	"OrEventCriteria_17560" -> "Tag_17864" [label=1; weight=1; penwidth=0.3; color = 3]
-	"OrEventCriteria_17560" -> "AnyEvent_17559" [label=1; weight=1; penwidth=0.3; color = 3]
-	"TagAndTypeFilteredEventCriteria_17865" -> "AnyEvent_17559" [label=1; weight=1; penwidth=0.3; color = 3]
-	"TagFilteredEventCriteria_17866" -> "AnyEvent_17559" [label=1; weight=1; penwidth=0.3; color = 3]
+	graph   [label="Top Rank #5 Java Type Outlier\norg.axonframework.messaging.core.conversion.DelegatingMessageConverter\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: cluster probability\nlarge circle: < 25% percentile of cluster probability\nthick outline: > 80% percentile of distance to cluster center\n\n"];
+	central [label="🧩 outlier #5\nDelegatingMessageConverter"];
+	"ConverterAutoConfiguration_4855"  [label = "ConverterAutoConfiguration\n(37.06%)"; penwidth = 2; ]; "ConverterAutoConfiguration_4855" -> central [label=4; weight=4; penwidth=0.5];
+	"MessagingConfigurationDefaults_28020"  [label = "MessagingConfigurationDefaults\n(64.35%)"; penwidth = 2; ]; "MessagingConfigurationDefaults_28020" -> central [label=3; weight=3; penwidth=0.4];
+	"DelegatingEventConverter_12570"  [label = "DelegatingEventConverter\n(16.29%)"; penwidth = 5; ]; "DelegatingEventConverter_12570" -> central [label=2; weight=2; penwidth=0.4];
+	"Converter_30453"  [label = "Converter\n(18.89%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "Converter_30453" [label=6; weight=6; penwidth=0.5; color = 5];
+	"Message_7315"  [label = "Message\n(54.02%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "Message_7315" [label=4; weight=4; penwidth=0.5; color = 5];
+	"ComponentDescriptor_48320"  [shape = "circle"; height=1.8; label = "ComponentDescriptor\n(0.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "ComponentDescriptor_48320" [label=2; weight=2; penwidth=0.4; color = 5];
+	"Internal_46215"  [shape = "circle"; height=1.8; label = "Internal\n(0.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "Internal_46215" [label=1; weight=1; penwidth=0.4; color = 5];
+	"MessageConverter_8224"  [shape = "circle"; height=1.8; label = "MessageConverter\n(0.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "MessageConverter_8224" [label=1; weight=1; penwidth=0.4; color = 5];
+	"DelegatingEventConverter_12570" -> "MessageConverter_8224" [label=10; weight=10; penwidth=0.3; color = 3]
+	"ConverterAutoConfiguration_4855" -> "DelegatingEventConverter_12570" [label=6; weight=6; penwidth=0.3; color = 3]
+	"Message_7315" -> "Converter_30453" [label=6; weight=6; penwidth=0.3; color = 3]
+	"MessagingConfigurationDefaults_28020" -> "Converter_30453" [label=6; weight=6; penwidth=0.3; color = 3]
+	"MessagingConfigurationDefaults_28020" -> "MessageConverter_8224" [label=6; weight=6; penwidth=0.3; color = 3]
+	"MessagingConfigurationDefaults_28020" -> "DelegatingEventConverter_12570" [label=5; weight=5; penwidth=0.3; color = 3]
+	"ConverterAutoConfiguration_4855" -> "Converter_30453" [label=4; weight=4; penwidth=0.3; color = 3]
+	"MessageConverter_8224" -> "Message_7315" [label=4; weight=4; penwidth=0.3; color = 3]
+	"ConverterAutoConfiguration_4855" -> "MessageConverter_8224" [label=2; weight=2; penwidth=0.3; color = 3]
+	"DelegatingEventConverter_12570" -> "ComponentDescriptor_48320" [label=2; weight=2; penwidth=0.3; color = 3]
+	"DelegatingEventConverter_12570" -> "Converter_30453" [label=1; weight=1; penwidth=0.3; color = 3]
+	"DelegatingEventConverter_12570" -> "Internal_46215" [label=1; weight=1; penwidth=0.3; color = 3]
+	"MessageConverter_8224" -> "Converter_30453" [label=1; weight=1; penwidth=0.3; color = 3]
 }

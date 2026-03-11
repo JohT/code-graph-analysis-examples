@@ -17,12 +17,12 @@ strict digraph TopAuthority4 {
 	"jdbc_36576"  [label = "jdbc\n(0.0%)"; penwidth = 5; ]; "jdbc_36576" -> central [label=1; weight=1; penwidth=0.4];
 	"tx_45797"  [label = "tx\n(0.16%)"; penwidth = 2; ]; "tx_45797" -> central [label=1; weight=1; penwidth=0.4];
 	"jdbc_45793"  [label = "jdbc\n(0.7%)"; penwidth = 2; ]; "jdbc_45793" -> central [label=0; weight=0; penwidth=0.4];
-	"jpa_45802"  [label = "jpa\n(0.08%)"; penwidth = 2; ]; "jpa_45802" -> central [label=0; weight=0; penwidth=0.4];
 	"jpa_36577"  [label = "jpa\n(0.08%)"; penwidth = 2; ]; "jpa_36577" -> central [label=0; weight=0; penwidth=0.4];
+	"jpa_45802"  [label = "jpa\n(0.08%)"; penwidth = 2; ]; "jpa_45802" -> central [label=0; weight=0; penwidth=0.4];
 	"jpa_36577" -> "jpa_45802" [label=3; weight=3; penwidth=0.3; color = 3]
 	"jdbc_36576" -> "jdbc_45793" [label=2; weight=2; penwidth=0.3; color = 3]
-	"jpa_36577" -> "tx_45797" [label=2; weight=2; penwidth=0.3; color = 3]
 	"jpa_36577" -> "jdbc_45793" [label=2; weight=2; penwidth=0.3; color = 3]
+	"jpa_36577" -> "tx_45797" [label=2; weight=2; penwidth=0.3; color = 3]
 	"jdbc_36576" -> "tx_45797" [label=1; weight=1; penwidth=0.3; color = 3]
 	"jdbc_45793" -> "tx_45797" [label=0; weight=0; penwidth=0.3; color = 3]
 	"jpa_45802" -> "tx_45797" [label=0; weight=0; penwidth=0.3; color = 3]

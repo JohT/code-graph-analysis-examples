@@ -63,7 +63,6 @@
 "org.axonframework.messaging.eventhandling.processing.streaming.token.MergedTrackingToken",17,"merged",1,1,""
 "org.axonframework.messaging.eventhandling.processing.streaming.token.ReplayToken",17,"createReplayToken",1,1,""
 "org.axonframework.common.configuration.Configuration",16,"getComponent,getOptionalComponent",3,1,""
-"org.axonframework.common.configuration.AxonConfiguration",15,"start",1,1,""
 "org.axonframework.common.configuration.AxonConfiguration",15,"shutdown",1,1,""
 "org.axonframework.messaging.core.annotation.WrappedMessageHandlingMember",15,"handleSync,handle,canHandle",3,1,""
 "org.axonframework.messaging.eventhandling.SimpleEventHandlingComponent",15,"create,handle,subscribe,supportedEvents,sequenceIdentifierFor",6,1,""

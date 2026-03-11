@@ -18,18 +18,18 @@ strict digraph TopBottleneck4 {
 	"configuration_7304"  [label = "configuration\n(106.25)"; penwidth = 2; ]; "configuration_7304" -> central [label=4; weight=4; penwidth=0.5];
 	"conversion_7269"  [label = "conversion\n(101.08)"; penwidth = 2; ]; "conversion_7269" -> central [label=4; weight=4; penwidth=0.5];
 	"annotation_32209"  [label = "annotation\n(45.0)"; penwidth = 2; ]; "annotation_32209" -> central [label=3; weight=3; penwidth=0.5];
-	"annotation_7256"  [label = "annotation\n(313.99)"; penwidth = 5; ]; "annotation_7256" -> central [label=1; weight=1; penwidth=0.4];
 	"annotation_7287"  [label = "annotation\n(166.55)"; penwidth = 2; ]; "annotation_7287" -> central [label=1; weight=1; penwidth=0.4];
+	"annotation_7256"  [label = "annotation\n(313.99)"; penwidth = 5; ]; "annotation_7256" -> central [label=1; weight=1; penwidth=0.4];
 	"configuration_36578"  [label = "configuration\n(0.0)"; penwidth = 2; ]; "configuration_36578" -> central [label=1; weight=1; penwidth=0.4];
 	"connector_41236"  [label = "connector\n(316.5)"; penwidth = 5; ]; "connector_41236" -> central [label=1; weight=1; penwidth=0.4];
-	"distributed_7255"  [label = "distributed\n(17.0)"; penwidth = 2; ]; "distributed_7255" -> central [label=1; weight=1; penwidth=0.4];
 	"distributed_7286"  [label = "distributed\n(18.0)"; penwidth = 2; ]; "distributed_7286" -> central [label=1; weight=1; penwidth=0.4];
+	"distributed_7255"  [label = "distributed\n(17.0)"; penwidth = 2; ]; "distributed_7255" -> central [label=1; weight=1; penwidth=0.4];
 	"fixture_20"  [label = "fixture\n(0.0)"; penwidth = 2; ]; "fixture_20" -> central [label=1; weight=1; penwidth=0.4];
 	"gateway_7258"  [label = "gateway\n(0.83)"; penwidth = 2; ]; "gateway_7258" -> central [label=1; weight=1; penwidth=0.4];
 	"gateway_7289"  [label = "gateway\n(0.0)"; penwidth = 2; ]; "gateway_7289" -> central [label=1; weight=1; penwidth=0.4];
 	"queryhandling_7285"  [label = "queryhandling\n(72.83)"; penwidth = 2; ]; "queryhandling_7285" -> central [label=1; weight=1; penwidth=0.4];
-	"configuration_7261"  [label = "configuration\n(26.92)"; penwidth = 2; ]; "configuration_7261" -> central [label=0; weight=0; penwidth=0.4];
 	"configuration_7291"  [label = "configuration\n(26.53)"; penwidth = 2; ]; "configuration_7291" -> central [label=0; weight=0; penwidth=0.4];
+	"configuration_7261"  [label = "configuration\n(26.92)"; penwidth = 2; ]; "configuration_7261" -> central [label=0; weight=0; penwidth=0.4];
 	"conversion_29688"  [label = "conversion\n(16.37)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "conversion_29688" [label=2; weight=2; penwidth=0.4; color = 5];
 	"core_7292"  [label = "core\n(980.48)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "core_7292" [label=2; weight=2; penwidth=0.4; color = 5];
 	"annotation_45792"  [label = "annotation\n(21.2)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "annotation_45792" [label=1; weight=1; penwidth=0.4; color = 5];
@@ -48,19 +48,19 @@ strict digraph TopBottleneck4 {
 	"gateway_7289" -> "core_7292" [label=10; weight=10; penwidth=0.3; color = 3]
 	"configuration_7304" -> "core_7292" [label=9; weight=9; penwidth=0.3; color = 3]
 	"queryhandling_7285" -> "conversion_29688" [label=9; weight=9; penwidth=0.3; color = 3]
-	"annotation_7256" -> "core_7292" [label=8; weight=8; penwidth=0.3; color = 3]
 	"annotation_7287" -> "core_7292" [label=8; weight=8; penwidth=0.3; color = 3]
+	"annotation_7256" -> "core_7292" [label=8; weight=8; penwidth=0.3; color = 3]
 	"configuration_7304" -> "queryhandling_7285" [label=8; weight=8; penwidth=0.3; color = 3]
 	"core_7292" -> "conversion_29688" [label=8; weight=8; penwidth=0.3; color = 3]
 	"annotation_32209" -> "annotation_45792" [label=7; weight=7; penwidth=0.3; color = 3]
-	"autoconfig_4209" -> "conversion_7269" [label=7; weight=7; penwidth=0.3; color = 3]
 	"autoconfig_4209" -> "conversion_29688" [label=7; weight=7; penwidth=0.3; color = 3]
-	"configuration_7261" -> "core_7292" [label=6; weight=6; penwidth=0.3; color = 3]
+	"autoconfig_4209" -> "conversion_7269" [label=7; weight=7; penwidth=0.3; color = 3]
 	"configuration_7291" -> "core_7292" [label=6; weight=6; penwidth=0.3; color = 3]
+	"configuration_7261" -> "core_7292" [label=6; weight=6; penwidth=0.3; color = 3]
 	"connector_41236" -> "queryhandling_7285" [label=6; weight=6; penwidth=0.3; color = 3]
 	"connector_41236" -> "core_7292" [label=6; weight=6; penwidth=0.3; color = 3]
-	"connector_41236" -> "distributed_7255" [label=6; weight=6; penwidth=0.3; color = 3]
 	"connector_41236" -> "distributed_7286" [label=6; weight=6; penwidth=0.3; color = 3]
+	"connector_41236" -> "distributed_7255" [label=6; weight=6; penwidth=0.3; color = 3]
 	"distributed_7255" -> "core_7292" [label=6; weight=6; penwidth=0.3; color = 3]
 	"annotation_7256" -> "annotation_45792" [label=5; weight=5; penwidth=0.3; color = 3]
 	"autoconfig_4209" -> "distributed_7286" [label=5; weight=5; penwidth=0.3; color = 3]
@@ -73,39 +73,39 @@ strict digraph TopBottleneck4 {
 	"fixture_20" -> "annotation_45792" [label=4; weight=4; penwidth=0.3; color = 3]
 	"queryhandling_7285" -> "infra_45799" [label=4; weight=4; penwidth=0.3; color = 3]
 	"gateway_7258" -> "infra_45799" [label=3; weight=3; penwidth=0.3; color = 3]
-	"annotation_32209" -> "annotation_7256" [label=2; weight=2; penwidth=0.3; color = 3]
 	"annotation_32209" -> "infra_45799" [label=2; weight=2; penwidth=0.3; color = 3]
+	"annotation_32209" -> "annotation_7256" [label=2; weight=2; penwidth=0.3; color = 3]
 	"autoconfig_4209" -> "queryhandling_7285" [label=2; weight=2; penwidth=0.3; color = 3]
 	"configuration_7304" -> "annotation_7256" [label=2; weight=2; penwidth=0.3; color = 3]
 	"configuration_7304" -> "gateway_7289" [label=2; weight=2; penwidth=0.3; color = 3]
-	"configuration_7261" -> "annotation_7256" [label=2; weight=2; penwidth=0.3; color = 3]
 	"configuration_7291" -> "annotation_7287" [label=2; weight=2; penwidth=0.3; color = 3]
-	"distributed_7255" -> "infra_45799" [label=2; weight=2; penwidth=0.3; color = 3]
+	"configuration_7261" -> "annotation_7256" [label=2; weight=2; penwidth=0.3; color = 3]
 	"distributed_7286" -> "infra_45799" [label=2; weight=2; penwidth=0.3; color = 3]
+	"distributed_7255" -> "infra_45799" [label=2; weight=2; penwidth=0.3; color = 3]
 	"fixture_20" -> "infra_45799" [label=2; weight=2; penwidth=0.3; color = 3]
 	"gateway_7258" -> "conversion_29688" [label=2; weight=2; penwidth=0.3; color = 3]
 	"annotation_32209" -> "conversion_7269" [label=1; weight=1; penwidth=0.3; color = 3]
-	"annotation_7256" -> "gateway_7258" [label=1; weight=1; penwidth=0.3; color = 3]
-	"annotation_7256" -> "infra_45799" [label=1; weight=1; penwidth=0.3; color = 3]
 	"annotation_7287" -> "annotation_45792" [label=1; weight=1; penwidth=0.3; color = 3]
 	"annotation_7287" -> "infra_45799" [label=1; weight=1; penwidth=0.3; color = 3]
+	"annotation_7256" -> "infra_45799" [label=1; weight=1; penwidth=0.3; color = 3]
+	"annotation_7256" -> "gateway_7258" [label=1; weight=1; penwidth=0.3; color = 3]
 	"configuration_7304" -> "conversion_29688" [label=1; weight=1; penwidth=0.3; color = 3]
-	"configuration_36578" -> "configuration_7304" [label=1; weight=1; penwidth=0.3; color = 3]
 	"configuration_36578" -> "annotation_45792" [label=1; weight=1; penwidth=0.3; color = 3]
-	"configuration_36578" -> "conversion_7269" [label=1; weight=1; penwidth=0.3; color = 3]
 	"configuration_36578" -> "core_7292" [label=1; weight=1; penwidth=0.3; color = 3]
+	"configuration_36578" -> "conversion_7269" [label=1; weight=1; penwidth=0.3; color = 3]
+	"configuration_36578" -> "configuration_7304" [label=1; weight=1; penwidth=0.3; color = 3]
 	"connector_41236" -> "annotation_45792" [label=1; weight=1; penwidth=0.3; color = 3]
 	"conversion_7269" -> "annotation_45792" [label=1; weight=1; penwidth=0.3; color = 3]
 	"conversion_29688" -> "infra_45799" [label=1; weight=1; penwidth=0.3; color = 3]
-	"distributed_7255" -> "annotation_45792" [label=1; weight=1; penwidth=0.3; color = 3]
 	"distributed_7286" -> "annotation_45792" [label=1; weight=1; penwidth=0.3; color = 3]
+	"distributed_7255" -> "annotation_45792" [label=1; weight=1; penwidth=0.3; color = 3]
 	"gateway_7258" -> "annotation_45792" [label=1; weight=1; penwidth=0.3; color = 3]
 	"gateway_7289" -> "infra_45799" [label=1; weight=1; penwidth=0.3; color = 3]
 	"queryhandling_7285" -> "annotation_45792" [label=1; weight=1; penwidth=0.3; color = 3]
 	"configuration_7304" -> "configuration_7261" [label=0; weight=0; penwidth=0.3; color = 3]
 	"configuration_7304" -> "configuration_7291" [label=0; weight=0; penwidth=0.3; color = 3]
-	"configuration_36578" -> "configuration_7261" [label=0; weight=0; penwidth=0.3; color = 3]
 	"configuration_36578" -> "configuration_7291" [label=0; weight=0; penwidth=0.3; color = 3]
+	"configuration_36578" -> "configuration_7261" [label=0; weight=0; penwidth=0.3; color = 3]
 	"conversion_7269" -> "conversion_29688" [label=0; weight=0; penwidth=0.3; color = 3]
 	"conversion_7269" -> "infra_45799" [label=0; weight=0; penwidth=0.3; color = 3]
 }

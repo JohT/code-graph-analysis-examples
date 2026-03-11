@@ -23,7 +23,7 @@ strict digraph TopHub2 {
 	"EventProcessorConfiguration_14613"  [label = "EventProcessorConfiguration\n(0.18)"; penwidth = 2; ]; "EventProcessorConfiguration_14613" -> central [label=4; weight=4; penwidth=0.5];
 	"JdbcTokenStoreConfiguration_13670"  [label = "JdbcTokenStoreConfiguration\n(0.67)"; penwidth = 2; ]; "JdbcTokenStoreConfiguration_13670" -> central [label=4; weight=4; penwidth=0.5];
 	"JpaTokenStoreConfiguration_13671"  [label = "JpaTokenStoreConfiguration\n(0.67)"; penwidth = 2; ]; "JpaTokenStoreConfiguration_13671" -> central [label=4; weight=4; penwidth=0.5];
-	"OpenTelemetrySpanFactory$Builder_51408"  [label = "OpenTelemetrySpanFactory$\nBuilder\n(0.27)"; penwidth = 2; ]; "OpenTelemetrySpanFactory$Builder_51408" -> central [label=4; weight=4; penwidth=0.5];
+	"OpenTelemetrySpanFactory$Builder_51407"  [label = "OpenTelemetrySpanFactory$\nBuilder\n(0.27)"; penwidth = 2; ]; "OpenTelemetrySpanFactory$Builder_51407" -> central [label=4; weight=4; penwidth=0.5];
 	"JdbcTokenStore_13521"  [label = "JdbcTokenStore\n(0.08)"; penwidth = 2; ]; "JdbcTokenStore_13521" -> central [label=3; weight=3; penwidth=0.4];
 	"JpaTokenStore_13527"  [label = "JpaTokenStore\n(0.1)"; penwidth = 2; ]; "JpaTokenStore_13527" -> central [label=3; weight=3; penwidth=0.4];
 	"AbstractEntityChildMetamodel$Builder_32985"  [label = "AbstractEntityChildMetamodel$\nBuilder\n(0.47)"; penwidth = 2; ]; "AbstractEntityChildMetamodel$Builder_32985" -> central [label=2; weight=2; penwidth=0.4];

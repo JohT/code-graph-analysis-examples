@@ -71,7 +71,7 @@
 "axon-messaging-5.0.2","org.axonframework.messaging.eventhandling.tracing",74,38,28,11,"TracingEventHandlingComponent","handle",5,"DefaultEventProcessorSpanFactory","createProcessEventSpan","tracing",""
 "axon-messaging-5.0.2","org.axonframework.messaging.queryhandling.gateway",71,37,32,8,"DefaultQueryGateway","query",3,"DefaultQueryGateway","asQueryMessage","gateway",""
 "axon-messaging-5.0.2","org.axonframework.messaging.eventhandling.processing.streaming.token.store.inmemory",66,43,30,8,"InMemoryTokenStore","lambda$initializeTokenSegments$0",4,"InMemoryTokenStore","initializeSegment","inmemory",""
-"axon-common-5.0.2","org.axonframework.common.util",61,36,21,8,"MavenArtifactVersionResolver","get",7,"PriorityCallable","equals","util",""
+"axon-common-5.0.2","org.axonframework.common.util",61,36,21,8,"MavenArtifactVersionResolver","get",7,"PriorityRunnable","equals","util",""
 "axon-messaging-5.0.2","org.axonframework.messaging.queryhandling.tracing",59,40,36,5,"DefaultQueryBusSpanFactory","<init>",2,"DefaultQueryBusSpanFactory","createQueryProcessingSpan","tracing",""
 "axon-messaging-5.0.2","org.axonframework.messaging.commandhandling.interception",56,28,23,8,"CommandMessageHandlerInterceptorChain","<init>",3,"InterceptingCommandBus","dispatchCommand","interception",""
 "axon-messaging-5.0.2","org.axonframework.messaging.monitoring.interception",55,32,25,5,"MonitoringSubscriptionQueryUpdateDispatchInterceptor","interceptOnDispatch",3,"MonitoringSubscriptionQueryUpdateDispatchInterceptor","interceptOnDispatch","interception",""
