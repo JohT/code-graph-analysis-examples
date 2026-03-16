@@ -35,8 +35,8 @@ strict digraph TopAuthority3 {
 	"router_198333" -> "history_198329" [label=2920; weight=2920; penwidth=0.3; color = 3]
 	"utils_198334" -> "history_198329" [label=340; weight=340; penwidth=0.3; color = 3]
 	"router_198333" -> "react-router_198308" [label=292; weight=292; penwidth=0.3; color = 3]
-	"errors_198315" -> "react-router_198309" [label=270; weight=270; penwidth=0.3; color = 3]
 	"errors_198315" -> "utils_198334" [label=270; weight=270; penwidth=0.3; color = 3]
+	"errors_198315" -> "react-router_198309" [label=270; weight=270; penwidth=0.3; color = 3]
 	"headers_198349" -> "react-router_198309" [label=193; weight=193; penwidth=0.3; color = 3]
 	"context_198314" -> "react-router_198309" [label=182; weight=182; penwidth=0.3; color = 3]
 	"headers_198349" -> "router_198333" [label=166; weight=166; penwidth=0.3; color = 3]
@@ -65,7 +65,7 @@ strict digraph TopAuthority3 {
 	"dom-export_198306" -> "react-router_198309" [label=1; weight=1; penwidth=0.3; color = 3]
 	"dom-export_198306" -> "react-router_198308" [label=1; weight=1; penwidth=0.3; color = 3]
 	"react-router_198309" -> "dom-export_198306" [label=1; weight=1; penwidth=0.3; color = 3]
-	"react-router_198308" -> "router_198333" [label=1; weight=1; penwidth=0.3; color = 3]
 	"react-router_198308" -> "dom-export_198306" [label=1; weight=1; penwidth=0.3; color = 3]
+	"react-router_198308" -> "router_198333" [label=1; weight=1; penwidth=0.3; color = 3]
 	"react-router_198307" -> "context_198314" [label=1; weight=1; penwidth=0.3; color = 3]
 }
