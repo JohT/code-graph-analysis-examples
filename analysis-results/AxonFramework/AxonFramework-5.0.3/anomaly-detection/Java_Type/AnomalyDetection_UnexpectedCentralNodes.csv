@@ -2,7 +2,7 @@
 "org.axonframework.common.TypeReflectionUtils$VarMap$UnresolvedTypeVariableException","TypeReflectionUtils$VarMap$UnresolvedTypeVariableException","axon-common-5.0.3",337.5,3,2,1,""
 "org.axonframework.common.TypeReflectionUtils$VarMap$ParameterizedTypeImpl","TypeReflectionUtils$VarMap$ParameterizedTypeImpl","axon-common-5.0.3",337.5,3,2,1,""
 "org.axonframework.test.extension.ProvidedAxonTestFixture","ProvidedAxonTestFixture","axon-test-5.0.3",210.49999999999997,2,1,1,""
-"org.axonframework.messaging.core.MessageTypeNotResolvedException","MessageTypeNotResolvedException","axon-messaging-5.0.3",66.99999999999999,2,1,1,""
+"org.axonframework.messaging.core.MessageTypeNotResolvedException","MessageTypeNotResolvedException","axon-messaging-5.0.3",67,2,1,1,""
 "org.axonframework.messaging.core.annotation.ClasspathHandlerEnhancerDefinition","ClasspathHandlerEnhancerDefinition","axon-messaging-5.0.3",66,3,1,2,""
 "org.axonframework.axonserver.connector.InstructionAckSource","InstructionAckSource","axon-server-connector-5.0.3",61,2,1,1,""
 "org.axonframework.messaging.core.annotation.AnnotationMessageTypeResolver$AnnotationSpecification","AnnotationMessageTypeResolver$AnnotationSpecification","axon-messaging-5.0.3",60,2,1,1,""

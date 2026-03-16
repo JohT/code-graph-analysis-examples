@@ -12,19 +12,11 @@ strict digraph TopBridge1 {
     central [fontsize = 16;];
     central [color = 7; fillcolor = 5; penwidth = 3;];
 
-	graph   [label="Top Rank #1 Java Type Bridge\norg.axonframework.common.caching.Cache\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
-	central [label="🌉 bridge #1\nCache"];
-	"AbstractCacheAdapter_49300" [label = "AbstractCacheAdapter"; ]; "AbstractCacheAdapter_49300" -> central [label=1; weight=1; penwidth=0.4];
-	"NoCache_49318" [label = "NoCache"; ]; "NoCache_49318" -> central [label=1; weight=1; penwidth=0.4];
-	"WeakReferenceCache_49316" [label = "WeakReferenceCache"; ]; "WeakReferenceCache_49316" -> central [label=1; weight=1; penwidth=0.4];
-	"Cache$EntryListener_49368" [label = "Cache$\nEntryListener"; color = 5; fillcolor = 1; ]; central -> "Cache$EntryListener_49368" [label=2; weight=2; penwidth=0.4; color = 5];
-	"Cache$EntryListenerAdapter_49311" [label = "Cache$\nEntryListenerAdapter"; color = 5; fillcolor = 1; ]; central -> "Cache$EntryListenerAdapter_49311" [label=1; weight=1; penwidth=0.4; color = 5];
-	"Registration_49367" [label = "Registration"; color = 5; fillcolor = 1; ]; central -> "Registration_49367" [label=1; weight=1; penwidth=0.4; color = 5];
-	"WeakReferenceCache_49316" -> "Cache$EntryListener_49368" [label=24; weight=24; penwidth=0.3; color = 3]
-	"AbstractCacheAdapter_49300" -> "Cache$EntryListener_49368" [label=5; weight=5; penwidth=0.3; color = 3]
-	"AbstractCacheAdapter_49300" -> "Registration_49367" [label=4; weight=4; penwidth=0.3; color = 3]
-	"Cache$EntryListenerAdapter_49311" -> "Cache$EntryListener_49368" [label=2; weight=2; penwidth=0.3; color = 3]
-	"NoCache_49318" -> "Cache$EntryListener_49368" [label=2; weight=2; penwidth=0.3; color = 3]
-	"NoCache_49318" -> "Registration_49367" [label=1; weight=1; penwidth=0.3; color = 3]
-	"WeakReferenceCache_49316" -> "Registration_49367" [label=1; weight=1; penwidth=0.3; color = 3]
+	graph   [label="Top Rank #1 Java Type Bridge\norg.axonframework.eventsourcing.eventstore.jpa.AggregateBasedJpaEventStorageEngine$TokenAndEvent\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
+	central [label="🌉 bridge #1\nAggregateBasedJpaEventStorageEngine$TokenAndEvent"];
+	"AggregateBasedJpaEventStorageEngine_35416" [label = "AggregateBasedJpaEventStorageEngine"; ]; "AggregateBasedJpaEventStorageEngine_35416" -> central [label=11; weight=11; penwidth=0.6];
+	"AggregateEventEntry_35420" [label = "AggregateEventEntry"; color = 5; fillcolor = 1; ]; central -> "AggregateEventEntry_35420" [label=3; weight=3; penwidth=0.4; color = 5];
+	"GapAwareTrackingToken_7315" [label = "GapAwareTrackingToken"; color = 5; fillcolor = 1; ]; central -> "GapAwareTrackingToken_7315" [label=3; weight=3; penwidth=0.4; color = 5];
+	"AggregateBasedJpaEventStorageEngine_35416" -> "AggregateEventEntry_35420" [label=36; weight=36; penwidth=0.3; color = 3]
+	"AggregateBasedJpaEventStorageEngine_35416" -> "GapAwareTrackingToken_7315" [label=22; weight=22; penwidth=0.3; color = 3]
 }

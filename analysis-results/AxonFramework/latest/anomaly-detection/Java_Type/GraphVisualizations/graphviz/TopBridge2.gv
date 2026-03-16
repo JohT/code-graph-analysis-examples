@@ -12,13 +12,18 @@ strict digraph TopBridge2 {
     central [fontsize = 16;];
     central [color = 7; fillcolor = 5; penwidth = 3;];
 
-	graph   [label="Top Rank #2 Java Type Bridge\norg.axonframework.common.caching.JCacheAdapter\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
-	central [label="🌉 bridge #2\nJCacheAdapter"];
-	"Cache$EntryListener_49368" [label = "Cache$\nEntryListener"; color = 5; fillcolor = 1; ]; central -> "Cache$EntryListener_49368" [label=3; weight=3; penwidth=0.4; color = 5];
-	"JCacheAdapter$JCacheListenerAdapter_49301" [label = "JCacheAdapter$\nJCacheListenerAdapter"; color = 5; fillcolor = 1; ]; central -> "JCacheAdapter$JCacheListenerAdapter_49301" [label=3; weight=3; penwidth=0.4; color = 5];
-	"AbstractCacheAdapter_49300" [label = "AbstractCacheAdapter"; color = 5; fillcolor = 1; ]; central -> "AbstractCacheAdapter_49300" [label=2; weight=2; penwidth=0.4; color = 5];
-	"Registration_49367" [label = "Registration"; color = 5; fillcolor = 1; ]; central -> "Registration_49367" [label=2; weight=2; penwidth=0.4; color = 5];
-	"JCacheAdapter$JCacheListenerAdapter_49301" -> "Cache$EntryListener_49368" [label=7; weight=7; penwidth=0.3; color = 3]
-	"AbstractCacheAdapter_49300" -> "Cache$EntryListener_49368" [label=5; weight=5; penwidth=0.3; color = 3]
-	"AbstractCacheAdapter_49300" -> "Registration_49367" [label=4; weight=4; penwidth=0.3; color = 3]
+	graph   [label="Top Rank #2 Java Type Bridge\norg.axonframework.eventsourcing.eventstore.jpa.AggregateBasedJpaEventStorageEngineConfiguration\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
+	central [label="🌉 bridge #2\nAggregateBasedJpaEventStorageEngineConfiguration"];
+	"AggregateBasedJpaEventStorageEngine_35416" [label = "AggregateBasedJpaEventStorageEngine"; ]; "AggregateBasedJpaEventStorageEngine_35416" -> central [label=11; weight=11; penwidth=0.6];
+	"JpaEventStoreAutoConfiguration$AggregateBasedJpaEventStorageEngineConfigurationEnhancer_26232" [label = "JpaEventStoreAutoConfiguration$\nAggregateBasedJpaEventStorageEngineConfigurationEnhancer"; ]; "JpaEventStoreAutoConfiguration$AggregateBasedJpaEventStorageEngineConfigurationEnhancer_26232" -> central [label=9; weight=9; penwidth=0.5];
+	"EventCoordinator_33620" [label = "EventCoordinator"; color = 5; fillcolor = 1; ]; central -> "EventCoordinator_33620" [label=6; weight=6; penwidth=0.5; color = 5];
+	"AggregateEventEntry_35420" [label = "AggregateEventEntry"; color = 5; fillcolor = 1; ]; central -> "AggregateEventEntry_35420" [label=5; weight=5; penwidth=0.5; color = 5];
+	"BuilderUtils_52449" [label = "BuilderUtils"; color = 5; fillcolor = 1; ]; central -> "BuilderUtils_52449" [label=5; weight=5; penwidth=0.5; color = 5];
+	"PersistenceExceptionResolver_48302" [label = "PersistenceExceptionResolver"; color = 5; fillcolor = 1; ]; central -> "PersistenceExceptionResolver_48302" [label=4; weight=4; penwidth=0.5; color = 5];
+	"AggregateBasedJpaEventStorageEngine_35416" -> "AggregateEventEntry_35420" [label=36; weight=36; penwidth=0.3; color = 3]
+	"JpaEventStoreAutoConfiguration$AggregateBasedJpaEventStorageEngineConfigurationEnhancer_26232" -> "PersistenceExceptionResolver_48302" [label=3; weight=3; penwidth=0.3; color = 3]
+	"AggregateBasedJpaEventStorageEngine_35416" -> "PersistenceExceptionResolver_48302" [label=2; weight=2; penwidth=0.3; color = 3]
+	"JpaEventStoreAutoConfiguration$AggregateBasedJpaEventStorageEngineConfigurationEnhancer_26232" -> "AggregateBasedJpaEventStorageEngine_35416" [label=2; weight=2; penwidth=0.3; color = 3]
+	"AggregateBasedJpaEventStorageEngine_35416" -> "EventCoordinator_33620" [label=1; weight=1; penwidth=0.3; color = 3]
+	"JpaEventStoreAutoConfiguration$AggregateBasedJpaEventStorageEngineConfigurationEnhancer_26232" -> "EventCoordinator_33620" [label=1; weight=1; penwidth=0.3; color = 3]
 }

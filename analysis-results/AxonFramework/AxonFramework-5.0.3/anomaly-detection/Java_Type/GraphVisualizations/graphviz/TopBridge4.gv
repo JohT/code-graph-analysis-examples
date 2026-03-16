@@ -12,17 +12,27 @@ strict digraph TopBridge4 {
     central [fontsize = 16;];
     central [color = 7; fillcolor = 5; penwidth = 3;];
 
-	graph   [label="Top Rank #4 Java Type Bridge\norg.axonframework.common.property.PropertyAccessStrategy\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
-	central [label="🌉 bridge #4\nPropertyAccessStrategy"];
-	"AbstractMethodPropertyAccessStrategy_49308" [label = "AbstractMethodPropertyAccessStrategy"; ]; "AbstractMethodPropertyAccessStrategy_49308" -> central [label=2; weight=2; penwidth=0.4];
-	"AnnotatedEntityModelRoutingKeyMatcher_43492" [label = "AnnotatedEntityModelRoutingKeyMatcher"; ]; "AnnotatedEntityModelRoutingKeyMatcher_43492" -> central [label=2; weight=2; penwidth=0.4];
-	"DirectPropertyAccessStrategy_49310" [label = "DirectPropertyAccessStrategy"; ]; "DirectPropertyAccessStrategy_49310" -> central [label=2; weight=2; penwidth=0.4];
-	"PropertyBasedEntityIdResolver_42204" [label = "PropertyBasedEntityIdResolver"; ]; "PropertyBasedEntityIdResolver_42204" -> central [label=1; weight=1; penwidth=0.4];
-	"PropertySequencingPolicy_20945" [label = "PropertySequencingPolicy"; ]; "PropertySequencingPolicy_20945" -> central [label=1; weight=1; penwidth=0.4];
-	"Property_49365" [label = "Property"; color = 5; fillcolor = 1; ]; central -> "Property_49365" [label=2; weight=2; penwidth=0.4; color = 5];
-	"AnnotatedEntityModelRoutingKeyMatcher_43492" -> "Property_49365" [label=9; weight=9; penwidth=0.3; color = 3]
-	"PropertyBasedEntityIdResolver_42204" -> "Property_49365" [label=4; weight=4; penwidth=0.3; color = 3]
-	"PropertySequencingPolicy_20945" -> "Property_49365" [label=2; weight=2; penwidth=0.3; color = 3]
-	"AbstractMethodPropertyAccessStrategy_49308" -> "Property_49365" [label=1; weight=1; penwidth=0.3; color = 3]
-	"DirectPropertyAccessStrategy_49310" -> "Property_49365" [label=1; weight=1; penwidth=0.3; color = 3]
+	graph   [label="Top Rank #4 Java Type Bridge\norg.axonframework.test.util.MessageMonitorReport$Report\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
+	central [label="🌉 bridge #4\nMessageMonitorReport$Report"];
+	"MessageMonitorReport_31473" [label = "MessageMonitorReport"; ]; "MessageMonitorReport_31473" -> central [label=8; weight=8; penwidth=0.5];
+	"MessageMonitorReport$Report$Failure_31512" [label = "MessageMonitorReport$\nReport$\nFailure"; ]; "MessageMonitorReport$Report$Failure_31512" -> central [label=2; weight=2; penwidth=0.4];
+	"MessageMonitorReport$Report$Ignored_31511" [label = "MessageMonitorReport$\nReport$\nIgnored"; ]; "MessageMonitorReport$Report$Ignored_31511" -> central [label=2; weight=2; penwidth=0.4];
+	"MessageMonitorReport$Report$Success_31510" [label = "MessageMonitorReport$\nReport$\nSuccess"; ]; "MessageMonitorReport$Report$Success_31510" -> central [label=2; weight=2; penwidth=0.4];
+	"RecordingMessageMonitor$1_31475" [label = "RecordingMessageMonitor$\n1"; ]; "RecordingMessageMonitor$1_31475" -> central [label=1; weight=1; penwidth=0.4];
+	"Message_1930" [label = "Message"; color = 5; fillcolor = 1; ]; central -> "Message_1930" [label=1; weight=1; penwidth=0.4; color = 5];
+	"MessageMonitorReport$Report$Failure_31512" [label = "MessageMonitorReport$\nReport$\nFailure"; color = 5; fillcolor = 1; ]; central -> "MessageMonitorReport$Report$Failure_31512" [label=1; weight=1; penwidth=0.4; color = 5];
+	"MessageMonitorReport$Report$Ignored_31511" [label = "MessageMonitorReport$\nReport$\nIgnored"; color = 5; fillcolor = 1; ]; central -> "MessageMonitorReport$Report$Ignored_31511" [label=1; weight=1; penwidth=0.4; color = 5];
+	"MessageMonitorReport$Report$Success_31510" [label = "MessageMonitorReport$\nReport$\nSuccess"; color = 5; fillcolor = 1; ]; central -> "MessageMonitorReport$Report$Success_31510" [label=1; weight=1; penwidth=0.4; color = 5];
+	"MessageMonitorReport_31473" -> "MessageMonitorReport$Report$Failure_31512" [label=7; weight=7; penwidth=0.3; color = 3]
+	"MessageMonitorReport_31473" -> "MessageMonitorReport$Report$Success_31510" [label=7; weight=7; penwidth=0.3; color = 3]
+	"MessageMonitorReport_31473" -> "MessageMonitorReport$Report$Ignored_31511" [label=7; weight=7; penwidth=0.3; color = 3]
+	"RecordingMessageMonitor$1_31475" -> "MessageMonitorReport_31473" [label=6; weight=6; penwidth=0.3; color = 3]
+	"MessageMonitorReport_31473" -> "Message_1930" [label=3; weight=3; penwidth=0.3; color = 3]
+	"MessageMonitorReport$Report$Failure_31512" -> "Message_1930" [label=3; weight=3; penwidth=0.3; color = 3]
+	"MessageMonitorReport$Report$Ignored_31511" -> "Message_1930" [label=3; weight=3; penwidth=0.3; color = 3]
+	"MessageMonitorReport$Report$Success_31510" -> "Message_1930" [label=3; weight=3; penwidth=0.3; color = 3]
+	"RecordingMessageMonitor$1_31475" -> "Message_1930" [label=1; weight=1; penwidth=0.3; color = 3]
+	"RecordingMessageMonitor$1_31475" -> "MessageMonitorReport$Report$Failure_31512" [label=1; weight=1; penwidth=0.3; color = 3]
+	"RecordingMessageMonitor$1_31475" -> "MessageMonitorReport$Report$Ignored_31511" [label=1; weight=1; penwidth=0.3; color = 3]
+	"RecordingMessageMonitor$1_31475" -> "MessageMonitorReport$Report$Success_31510" [label=1; weight=1; penwidth=0.3; color = 3]
 }

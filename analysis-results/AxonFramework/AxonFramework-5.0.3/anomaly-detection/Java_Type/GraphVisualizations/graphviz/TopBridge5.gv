@@ -12,11 +12,10 @@ strict digraph TopBridge5 {
     central [fontsize = 16;];
     central [color = 7; fillcolor = 5; penwidth = 3;];
 
-	graph   [label="Top Rank #5 Java Type Bridge\norg.axonframework.eventsourcing.eventstore.jpa.AggregateBasedJpaEventStorageEngine$TokenAndEvent\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
-	central [label="🌉 bridge #5\nAggregateBasedJpaEventStorageEngine$TokenAndEvent"];
-	"AggregateBasedJpaEventStorageEngine_35416" [label = "AggregateBasedJpaEventStorageEngine"; ]; "AggregateBasedJpaEventStorageEngine_35416" -> central [label=11; weight=11; penwidth=0.6];
-	"AggregateEventEntry_35420" [label = "AggregateEventEntry"; color = 5; fillcolor = 1; ]; central -> "AggregateEventEntry_35420" [label=3; weight=3; penwidth=0.4; color = 5];
-	"GapAwareTrackingToken_7315" [label = "GapAwareTrackingToken"; color = 5; fillcolor = 1; ]; central -> "GapAwareTrackingToken_7315" [label=3; weight=3; penwidth=0.4; color = 5];
-	"AggregateBasedJpaEventStorageEngine_35416" -> "AggregateEventEntry_35420" [label=36; weight=36; penwidth=0.3; color = 3]
-	"AggregateBasedJpaEventStorageEngine_35416" -> "GapAwareTrackingToken_7315" [label=22; weight=22; penwidth=0.3; color = 3]
+	graph   [label="Top Rank #5 Java Type Bridge\norg.axonframework.extension.springboot.autoconfig.AvroSchemaStoreAutoConfiguration$OnMissingDefaultSchemaStoreCondition$SchemaStoreIsMissingCondition\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
+	central [label="🌉 bridge #5\nAvroSchemaStoreAutoConfiguration$OnMissingDefaultSchemaStoreCondition$SchemaStoreIsMissingCondition"];
+	"AvroSchemaStoreAutoConfiguration_25694" [label = "AvroSchemaStoreAutoConfiguration"; ]; "AvroSchemaStoreAutoConfiguration_25694" -> central [label=1; weight=1; penwidth=0.4];
+	"AvroSchemaStoreAutoConfiguration$OnMissingDefaultSchemaStoreCondition_25464" [label = "AvroSchemaStoreAutoConfiguration$\nOnMissingDefaultSchemaStoreCondition"; ]; "AvroSchemaStoreAutoConfiguration$OnMissingDefaultSchemaStoreCondition_25464" -> central [label=1; weight=1; penwidth=0.4];
+	"AvroSchemaStoreAutoConfiguration$OnMissingDefaultSchemaStoreCondition_25464" [label = "AvroSchemaStoreAutoConfiguration$\nOnMissingDefaultSchemaStoreCondition"; color = 5; fillcolor = 1; ]; central -> "AvroSchemaStoreAutoConfiguration$OnMissingDefaultSchemaStoreCondition_25464" [label=1; weight=1; penwidth=0.4; color = 5];
+	"AvroSchemaStoreAutoConfiguration_25694" -> "AvroSchemaStoreAutoConfiguration$OnMissingDefaultSchemaStoreCondition_25464" [label=2; weight=2; penwidth=0.3; color = 3]
 }
