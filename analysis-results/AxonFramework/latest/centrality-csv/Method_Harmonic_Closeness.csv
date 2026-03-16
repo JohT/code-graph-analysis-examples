@@ -9,7 +9,7 @@
 "org.axonframework.common.configuration.ComponentRegistry: org.axonframework.common.configuration.ComponentRegistry registerDecorator(java.lang.Class,int,org.axonframework.common.configuration.ComponentDecorator)","registerDecorator","centralityHarmonic",0.01613849765258216,""
 "org.axonframework.axonserver.connector.MetadataConverter: java.util.Map convertMetadataValuesToGrpc(java.util.Map)","convertMetadataValuesToGrpc","centralityHarmonic",0.013791079812206572,""
 "org.axonframework.axonserver.connector.MetadataConverter: java.util.Map convertGrpcToMetadataValues(java.util.Map)","convertGrpcToMetadataValues","centralityHarmonic",0.013204225352112676,""
-"org.axonframework.common.ObjectUtils: java.lang.Object getOrDefault(java.lang.Object,java.lang.Object)","getOrDefault","centralityHarmonic",0.011150234741784039,""
+"org.axonframework.common.ObjectUtils: java.lang.Object getOrDefault(java.lang.Object,java.lang.Object)","getOrDefault","centralityHarmonic",0.011150234741784037,""
 "org.axonframework.test.fixture.Reporter: void reportUnexpectedReturnValue(java.lang.Object,org.hamcrest.Description)","reportUnexpectedReturnValue","centralityHarmonic",0.01056338028169014,""
 "org.axonframework.messaging.core.configuration.MessagingConfigurer: org.axonframework.messaging.core.configuration.MessagingConfigurer componentRegistry(java.util.function.Consumer)","componentRegistry","centralityHarmonic",0.010269953051643193,""
 "org.axonframework.modelling.configuration.ModellingConfigurer: org.axonframework.modelling.configuration.ModellingConfigurer componentRegistry(java.util.function.Consumer)","componentRegistry","centralityHarmonic",0.009683098591549295,""

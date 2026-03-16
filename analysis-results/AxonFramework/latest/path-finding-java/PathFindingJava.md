@@ -1194,9 +1194,9 @@ The following table shows the first 10 rows with all details of the query above.
       <td>28</td>
       <td>3</td>
       <td>28</td>
-      <td>18</td>
+      <td>19</td>
       <td>1</td>
-      <td>18</td>
+      <td>19</td>
       <td>[/org/axonframework/extension/metrics/micrometer/springboot -&gt; /org/axonframework/conversion/jackson, /org/axonframework/extension/metrics/micrometer/springboot -&gt; /org/axonframework/conversion/jackson2, /org/axonframework/extension/metrics/micrometer/springboot -&gt; /org/axonframework/conversion/...</td>
       <td>[axon-metrics-micrometer-5.0.3 -&gt; axon-conversion-5.0.3, axon-metrics-micrometer-5.0.3 -&gt; axon-messaging-5.0.3, axon-metrics-micrometer-5.0.3 -&gt; axon-spring-boot-autoconfigure-5.0.3, axon-metrics-micrometer-5.0.3 -&gt; axon-eventsourcing-5.0.3]</td>
       <td>[]</td>
