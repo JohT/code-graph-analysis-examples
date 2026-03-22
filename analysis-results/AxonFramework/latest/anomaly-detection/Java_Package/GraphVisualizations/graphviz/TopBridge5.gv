@@ -12,190 +12,192 @@ strict digraph TopBridge5 {
     central [fontsize = 16;];
     central [color = 7; fillcolor = 5; penwidth = 3;];
 
-	graph   [label="Top Rank #5 Java Package Bridge\norg.axonframework.messaging.core.unitofwork\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
-	central [label="🌉 bridge #5\nunitofwork"];
-	"pooled_2076" [label = "pooled"; ]; "pooled_2076" -> central [label=44; weight=44; penwidth=1.2];
-	"eventstore_32557" [label = "eventstore"; ]; "eventstore_32557" -> central [label=15; weight=15; penwidth=0.7];
-	"annotation_2091" [label = "annotation"; ]; "annotation_2091" -> central [label=14; weight=14; penwidth=0.6];
-	"interception_2051" [label = "interception"; ]; "interception_2051" -> central [label=12; weight=12; penwidth=0.6];
-	"annotation_2094" [label = "annotation"; ]; "annotation_2094" -> central [label=10; weight=10; penwidth=0.6];
-	"fixture_29398" [label = "fixture"; ]; "fixture_29398" -> central [label=10; weight=10; penwidth=0.6];
-	"eventhandling_2061" [label = "eventhandling"; ]; "eventhandling_2061" -> central [label=9; weight=9; penwidth=0.6];
-	"queryhandling_2083" [label = "queryhandling"; ]; "queryhandling_2083" -> central [label=9; weight=9; penwidth=0.6];
-	"eventsourcing_32554" [label = "eventsourcing"; ]; "eventsourcing_32554" -> central [label=7; weight=7; penwidth=0.5];
-	"configuration_2105" [label = "configuration"; ]; "configuration_2105" -> central [label=6; weight=6; penwidth=0.5];
-	"interception_2093" [label = "interception"; ]; "interception_2093" -> central [label=6; weight=6; penwidth=0.5];
-	"repository_42203" [label = "repository"; ]; "repository_42203" -> central [label=6; weight=6; penwidth=0.5];
-	"configuration_2081" [label = "configuration"; ]; "configuration_2081" -> central [label=5; weight=5; penwidth=0.5];
-	"core_2090" [label = "core"; ]; "core_2090" -> central [label=5; weight=5; penwidth=0.5];
-	"interception_2086" [label = "interception"; ]; "interception_2086" -> central [label=5; weight=5; penwidth=0.5];
-	"gateway_2087" [label = "gateway"; ]; "gateway_2087" -> central [label=4; weight=4; penwidth=0.5];
-	"interception_2056" [label = "interception"; ]; "interception_2056" -> central [label=4; weight=4; penwidth=0.5];
-	"reflection_32556" [label = "reflection"; ]; "reflection_32556" -> central [label=4; weight=4; penwidth=0.5];
-	"sequencing_2096" [label = "sequencing"; ]; "sequencing_2096" -> central [label=4; weight=4; penwidth=0.5];
-	"subscribing_2078" [label = "subscribing"; ]; "subscribing_2078" -> central [label=4; weight=4; penwidth=0.5];
-	"annotation_2062" [label = "annotation"; ]; "annotation_2062" -> central [label=3; weight=3; penwidth=0.5];
-	"commandhandling_2053" [label = "commandhandling"; ]; "commandhandling_2053" -> central [label=3; weight=3; penwidth=0.5];
-	"distributed_2084" [label = "distributed"; ]; "distributed_2084" -> central [label=3; weight=3; penwidth=0.5];
-	"entity_42199" [label = "entity"; ]; "entity_42199" -> central [label=3; weight=3; penwidth=0.5];
-	"event_37159" [label = "event"; ]; "event_37159" -> central [label=3; weight=3; penwidth=0.5];
-	"gateway_2057" [label = "gateway"; ]; "gateway_2057" -> central [label=3; weight=3; penwidth=0.5];
-	"gateway_2066" [label = "gateway"; ]; "gateway_2066" -> central [label=3; weight=3; penwidth=0.5];
-	"inmemory_2073" [label = "inmemory"; ]; "inmemory_2073" -> central [label=3; weight=3; penwidth=0.5];
-	"jdbc_2074" [label = "jdbc"; ]; "jdbc_2074" -> central [label=3; weight=3; penwidth=0.5];
-	"jpa_2075" [label = "jpa"; ]; "jpa_2075" -> central [label=3; weight=3; penwidth=0.5];
-	"segmenting_2077" [label = "segmenting"; ]; "segmenting_2077" -> central [label=3; weight=3; penwidth=0.5];
-	"store_2072" [label = "store"; ]; "store_2072" -> central [label=3; weight=3; penwidth=0.5];
-	"timeout_2104" [label = "timeout"; ]; "timeout_2104" -> central [label=3; weight=3; penwidth=0.5];
-	"transaction_2101" [label = "transaction"; ]; "transaction_2101" -> central [label=3; weight=3; penwidth=0.5];
-	"annotation_42200" [label = "annotation"; ]; "annotation_42200" -> central [label=2; weight=2; penwidth=0.4];
-	"child_42201" [label = "child"; ]; "child_42201" -> central [label=2; weight=2; penwidth=0.4];
-	"modelling_42197" [label = "modelling"; ]; "modelling_42197" -> central [label=2; weight=2; penwidth=0.4];
-	"annotation_2071" [label = "annotation"; ]; "annotation_2071" -> central [label=1; weight=1; penwidth=0.4];
-	"annotation_2055" [label = "annotation"; ]; "annotation_2055" -> central [label=1; weight=1; penwidth=0.4];
-	"annotation_42198" [label = "annotation"; ]; "annotation_42198" -> central [label=1; weight=1; penwidth=0.4];
-	"core_2090" [label = "core"; color = 5; fillcolor = 1; ]; central -> "core_2090" [label=50; weight=50; penwidth=1.3; color = 5];
-	"common_47401" [label = "common"; color = 5; fillcolor = 1; ]; central -> "common_47401" [label=11; weight=11; penwidth=0.6; color = 5];
-	"configuration_47414" [label = "configuration"; color = 5; fillcolor = 1; ]; central -> "configuration_47414" [label=2; weight=2; penwidth=0.4; color = 5];
-	"annotation_47403" [label = "annotation"; color = 5; fillcolor = 1; ]; central -> "annotation_47403" [label=1; weight=1; penwidth=0.4; color = 5];
-	"transaction_2101" [label = "transaction"; color = 5; fillcolor = 1; ]; central -> "transaction_2101" [label=1; weight=1; penwidth=0.4; color = 5];
+	graph   [label="Top Rank #5 Java Package Bridge\norg.axonframework.messaging.core\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
+	central [label="🌉 bridge #5\ncore"];
+	"queryhandling_2083" [label = "queryhandling"; ]; "queryhandling_2083" -> central [label=121; weight=121; penwidth=2.5];
+	"annotation_2091" [label = "annotation"; ]; "annotation_2091" -> central [label=83; weight=83; penwidth=1.8];
+	"commandhandling_2053" [label = "commandhandling"; ]; "commandhandling_2053" -> central [label=62; weight=62; penwidth=1.5];
+	"interception_2093" [label = "interception"; ]; "interception_2093" -> central [label=62; weight=62; penwidth=1.5];
+	"entity_42199" [label = "entity"; ]; "entity_42199" -> central [label=61; weight=61; penwidth=1.4];
+	"eventhandling_2061" [label = "eventhandling"; ]; "eventhandling_2061" -> central [label=54; weight=54; penwidth=1.3];
+	"event_37159" [label = "event"; ]; "event_37159" -> central [label=53; weight=53; penwidth=1.3];
+	"unitofwork_2099" [label = "unitofwork"; ]; "unitofwork_2099" -> central [label=50; weight=50; penwidth=1.3];
+	"query_37158" [label = "query"; ]; "query_37158" -> central [label=43; weight=43; penwidth=1.1];
+	"pooled_2076" [label = "pooled"; ]; "pooled_2076" -> central [label=38; weight=38; penwidth=1.1];
+	"fixture_29398" [label = "fixture"; ]; "fixture_29398" -> central [label=34; weight=34; penwidth=1.0];
+	"eventstore_32557" [label = "eventstore"; ]; "eventstore_32557" -> central [label=32; weight=32; penwidth=0.9];
+	"interception_2086" [label = "interception"; ]; "interception_2086" -> central [label=30; weight=30; penwidth=0.9];
+	"annotation_42200" [label = "annotation"; ]; "annotation_42200" -> central [label=25; weight=25; penwidth=0.8];
+	"command_37160" [label = "command"; ]; "command_37160" -> central [label=25; weight=25; penwidth=0.8];
+	"eventstreaming_2082" [label = "eventstreaming"; ]; "eventstreaming_2082" -> central [label=25; weight=25; penwidth=0.8];
+	"gateway_2057" [label = "gateway"; ]; "gateway_2057" -> central [label=20; weight=20; penwidth=0.7];
+	"interception_2056" [label = "interception"; ]; "interception_2056" -> central [label=20; weight=20; penwidth=0.7];
+	"jpa_32559" [label = "jpa"; ]; "jpa_32559" -> central [label=19; weight=19; penwidth=0.7];
+	"annotation_2094" [label = "annotation"; ]; "annotation_2094" -> central [label=17; weight=17; penwidth=0.7];
+	"reflection_32556" [label = "reflection"; ]; "reflection_32556" -> central [label=16; weight=16; penwidth=0.7];
+	"segmenting_2077" [label = "segmenting"; ]; "segmenting_2077" -> central [label=15; weight=15; penwidth=0.7];
+	"gateway_2066" [label = "gateway"; ]; "gateway_2066" -> central [label=14; weight=14; penwidth=0.6];
+	"util_29400" [label = "util"; ]; "util_29400" -> central [label=14; weight=14; penwidth=0.6];
+	"annotation_2062" [label = "annotation"; ]; "annotation_2062" -> central [label=13; weight=13; penwidth=0.6];
+	"replay_2063" [label = "replay"; ]; "replay_2063" -> central [label=13; weight=13; penwidth=0.6];
+	"inmemory_32558" [label = "inmemory"; ]; "inmemory_32558" -> central [label=12; weight=12; penwidth=0.6];
+	"distributed_2084" [label = "distributed"; ]; "distributed_2084" -> central [label=11; weight=11; penwidth=0.6];
+	"micrometer_29227" [label = "micrometer"; ]; "micrometer_29227" -> central [label=11; weight=11; penwidth=0.6];
+	"retry_2098" [label = "retry"; ]; "retry_2098" -> central [label=11; weight=11; penwidth=0.6];
+	"autoconfig_25145" [label = "autoconfig"; ]; "autoconfig_25145" -> central [label=10; weight=10; penwidth=0.6];
+	"gateway_2087" [label = "gateway"; ]; "gateway_2087" -> central [label=10; weight=10; penwidth=0.6];
+	"configuration_2105" [label = "configuration"; ]; "configuration_2105" -> central [label=9; weight=9; penwidth=0.6];
+	"interception_2051" [label = "interception"; ]; "interception_2051" -> central [label=9; weight=9; penwidth=0.6];
+	"tracing_2107" [label = "tracing"; ]; "tracing_2107" -> central [label=9; weight=9; penwidth=0.6];
+	"annotation_42198" [label = "annotation"; ]; "annotation_42198" -> central [label=8; weight=8; penwidth=0.5];
+	"annotation_2085" [label = "annotation"; ]; "annotation_2085" -> central [label=8; weight=8; penwidth=0.5];
+	"annotation_2055" [label = "annotation"; ]; "annotation_2055" -> central [label=8; weight=8; penwidth=0.5];
+	"processing_2068" [label = "processing"; ]; "processing_2068" -> central [label=8; weight=8; penwidth=0.5];
+	"sequencing_2096" [label = "sequencing"; ]; "sequencing_2096" -> central [label=8; weight=8; penwidth=0.5];
+	"common_47401" [label = "common"; color = 5; fillcolor = 1; ]; central -> "common_47401" [label=43; weight=43; penwidth=1.1; color = 5];
+	"conversion_19" [label = "conversion"; color = 5; fillcolor = 1; ]; central -> "conversion_19" [label=8; weight=8; penwidth=0.5; color = 5];
+	"annotation_47403" [label = "annotation"; color = 5; fillcolor = 1; ]; central -> "annotation_47403" [label=5; weight=5; penwidth=0.5; color = 5];
+	"unitofwork_2099" [label = "unitofwork"; color = 5; fillcolor = 1; ]; central -> "unitofwork_2099" [label=5; weight=5; penwidth=0.5; color = 5];
+	"annotation_2091" [label = "annotation"; color = 5; fillcolor = 1; ]; central -> "annotation_2091" [label=1; weight=1; penwidth=0.4; color = 5];
+	"configuration_47414" [label = "configuration"; color = 5; fillcolor = 1; ]; central -> "configuration_47414" [label=1; weight=1; penwidth=0.4; color = 5];
+	"eventhandling_2061" [label = "eventhandling"; color = 5; fillcolor = 1; ]; central -> "eventhandling_2061" [label=0; weight=0; penwidth=0.4; color = 5];
 	"pooled_2076" -> "segmenting_2077" [label=146; weight=146; penwidth=0.3; color = 3]
-	"queryhandling_2083" -> "core_2090" [label=121; weight=121; penwidth=0.3; color = 3]
-	"annotation_2091" -> "core_2090" [label=83; weight=83; penwidth=0.3; color = 3]
-	"commandhandling_2053" -> "core_2090" [label=62; weight=62; penwidth=0.3; color = 3]
-	"interception_2093" -> "core_2090" [label=62; weight=62; penwidth=0.3; color = 3]
-	"entity_42199" -> "core_2090" [label=61; weight=61; penwidth=0.3; color = 3]
 	"configuration_2105" -> "configuration_47414" [label=57; weight=57; penwidth=0.3; color = 3]
 	"pooled_2076" -> "common_47401" [label=56; weight=56; penwidth=0.3; color = 3]
-	"eventhandling_2061" -> "core_2090" [label=54; weight=54; penwidth=0.3; color = 3]
-	"event_37159" -> "core_2090" [label=53; weight=53; penwidth=0.3; color = 3]
+	"eventstore_32557" -> "eventstreaming_2082" [label=53; weight=53; penwidth=0.3; color = 3]
 	"event_37159" -> "eventstore_32557" [label=50; weight=50; penwidth=0.3; color = 3]
+	"jpa_32559" -> "eventstore_32557" [label=46; weight=46; penwidth=0.3; color = 3]
 	"annotation_2062" -> "annotation_2091" [label=44; weight=44; penwidth=0.3; color = 3]
-	"core_2090" -> "common_47401" [label=43; weight=43; penwidth=0.3; color = 3]
+	"pooled_2076" -> "unitofwork_2099" [label=44; weight=44; penwidth=0.3; color = 3]
 	"configuration_47414" -> "common_47401" [label=41; weight=41; penwidth=0.3; color = 3]
-	"pooled_2076" -> "core_2090" [label=38; weight=38; penwidth=0.3; color = 3]
-	"jdbc_2074" -> "store_2072" [label=37; weight=37; penwidth=0.3; color = 3]
-	"jdbc_2074" -> "segmenting_2077" [label=36; weight=36; penwidth=0.3; color = 3]
-	"fixture_29398" -> "core_2090" [label=34; weight=34; penwidth=0.3; color = 3]
-	"eventstore_32557" -> "core_2090" [label=32; weight=32; penwidth=0.3; color = 3]
-	"jpa_2075" -> "segmenting_2077" [label=31; weight=31; penwidth=0.3; color = 3]
-	"interception_2086" -> "core_2090" [label=30; weight=30; penwidth=0.3; color = 3]
 	"interception_2093" -> "common_47401" [label=29; weight=29; penwidth=0.3; color = 3]
 	"interception_2093" -> "configuration_47414" [label=29; weight=29; penwidth=0.3; color = 3]
-	"pooled_2076" -> "configuration_2081" [label=28; weight=28; penwidth=0.3; color = 3]
-	"subscribing_2078" -> "configuration_2081" [label=28; weight=28; penwidth=0.3; color = 3]
 	"entity_42199" -> "commandhandling_2053" [label=27; weight=27; penwidth=0.3; color = 3]
-	"annotation_42200" -> "child_42201" [label=26; weight=26; penwidth=0.3; color = 3]
-	"annotation_42200" -> "core_2090" [label=25; weight=25; penwidth=0.3; color = 3]
 	"configuration_2105" -> "interception_2093" [label=25; weight=25; penwidth=0.3; color = 3]
 	"fixture_29398" -> "eventhandling_2061" [label=25; weight=25; penwidth=0.3; color = 3]
 	"fixture_29398" -> "commandhandling_2053" [label=24; weight=24; penwidth=0.3; color = 3]
-	"jpa_2075" -> "store_2072" [label=24; weight=24; penwidth=0.3; color = 3]
 	"annotation_42200" -> "common_47401" [label=23; weight=23; penwidth=0.3; color = 3]
 	"pooled_2076" -> "configuration_47414" [label=23; weight=23; penwidth=0.3; color = 3]
+	"annotation_2085" -> "annotation_2091" [label=22; weight=22; penwidth=0.3; color = 3]
+	"autoconfig_25145" -> "configuration_47414" [label=22; weight=22; penwidth=0.3; color = 3]
 	"interception_2086" -> "queryhandling_2083" [label=22; weight=22; penwidth=0.3; color = 3]
 	"queryhandling_2083" -> "common_47401" [label=22; weight=22; penwidth=0.3; color = 3]
 	"reflection_32556" -> "common_47401" [label=22; weight=22; penwidth=0.3; color = 3]
-	"gateway_2057" -> "core_2090" [label=20; weight=20; penwidth=0.3; color = 3]
-	"interception_2056" -> "core_2090" [label=20; weight=20; penwidth=0.3; color = 3]
+	"jpa_32559" -> "common_47401" [label=20; weight=20; penwidth=0.3; color = 3]
 	"annotation_2091" -> "common_47401" [label=19; weight=19; penwidth=0.3; color = 3]
 	"annotation_2094" -> "annotation_2091" [label=19; weight=19; penwidth=0.3; color = 3]
 	"eventstore_32557" -> "eventhandling_2061" [label=19; weight=19; penwidth=0.3; color = 3]
+	"inmemory_32558" -> "eventstore_32557" [label=19; weight=19; penwidth=0.3; color = 3]
 	"pooled_2076" -> "eventhandling_2061" [label=19; weight=19; penwidth=0.3; color = 3]
-	"subscribing_2078" -> "configuration_47414" [label=18; weight=18; penwidth=0.3; color = 3]
-	"annotation_2094" -> "core_2090" [label=17; weight=17; penwidth=0.3; color = 3]
+	"query_37158" -> "queryhandling_2083" [label=19; weight=19; penwidth=0.3; color = 3]
 	"distributed_2084" -> "queryhandling_2083" [label=17; weight=17; penwidth=0.3; color = 3]
 	"event_37159" -> "eventhandling_2061" [label=17; weight=17; penwidth=0.3; color = 3]
 	"eventstore_32557" -> "common_47401" [label=17; weight=17; penwidth=0.3; color = 3]
-	"modelling_42197" -> "repository_42203" [label=17; weight=17; penwidth=0.3; color = 3]
 	"annotation_2091" -> "annotation_47403" [label=16; weight=16; penwidth=0.3; color = 3]
 	"annotation_2062" -> "eventhandling_2061" [label=16; weight=16; penwidth=0.3; color = 3]
 	"gateway_2066" -> "eventhandling_2061" [label=16; weight=16; penwidth=0.3; color = 3]
-	"reflection_32556" -> "core_2090" [label=16; weight=16; penwidth=0.3; color = 3]
+	"autoconfig_25145" -> "jpa_32559" [label=15; weight=15; penwidth=0.3; color = 3]
 	"commandhandling_2053" -> "common_47401" [label=15; weight=15; penwidth=0.3; color = 3]
-	"jpa_2075" -> "common_47401" [label=15; weight=15; penwidth=0.3; color = 3]
-	"segmenting_2077" -> "core_2090" [label=15; weight=15; penwidth=0.3; color = 3]
+	"event_37159" -> "eventstreaming_2082" [label=15; weight=15; penwidth=0.3; color = 3]
+	"eventstore_32557" -> "unitofwork_2099" [label=15; weight=15; penwidth=0.3; color = 3]
+	"annotation_2091" -> "unitofwork_2099" [label=14; weight=14; penwidth=0.3; color = 3]
+	"annotation_2085" -> "queryhandling_2083" [label=14; weight=14; penwidth=0.3; color = 3]
 	"annotation_2055" -> "common_47401" [label=14; weight=14; penwidth=0.3; color = 3]
 	"gateway_2057" -> "commandhandling_2053" [label=14; weight=14; penwidth=0.3; color = 3]
-	"gateway_2066" -> "core_2090" [label=14; weight=14; penwidth=0.3; color = 3]
-	"inmemory_2073" -> "segmenting_2077" [label=14; weight=14; penwidth=0.3; color = 3]
 	"interception_2056" -> "commandhandling_2053" [label=14; weight=14; penwidth=0.3; color = 3]
-	"annotation_2062" -> "core_2090" [label=13; weight=13; penwidth=0.3; color = 3]
+	"micrometer_29227" -> "common_47401" [label=14; weight=14; penwidth=0.3; color = 3]
 	"annotation_2055" -> "annotation_2091" [label=13; weight=13; penwidth=0.3; color = 3]
-	"annotation_42198" -> "modelling_42197" [label=13; weight=13; penwidth=0.3; color = 3]
-	"configuration_2081" -> "configuration_47414" [label=13; weight=13; penwidth=0.3; color = 3]
-	"jdbc_2074" -> "common_47401" [label=13; weight=13; penwidth=0.3; color = 3]
+	"command_37160" -> "commandhandling_2053" [label=13; weight=13; penwidth=0.3; color = 3]
 	"fixture_29398" -> "configuration_47414" [label=12; weight=12; penwidth=0.3; color = 3]
 	"gateway_2087" -> "queryhandling_2083" [label=12; weight=12; penwidth=0.3; color = 3]
-	"pooled_2076" -> "store_2072" [label=12; weight=12; penwidth=0.3; color = 3]
+	"interception_2051" -> "unitofwork_2099" [label=12; weight=12; penwidth=0.3; color = 3]
+	"pooled_2076" -> "processing_2068" [label=12; weight=12; penwidth=0.3; color = 3]
+	"query_37158" -> "common_47401" [label=12; weight=12; penwidth=0.3; color = 3]
 	"segmenting_2077" -> "eventhandling_2061" [label=12; weight=12; penwidth=0.3; color = 3]
-	"annotation_2055" -> "commandhandling_2053" [label=11; weight=11; penwidth=0.3; color = 3]
 	"annotation_42198" -> "annotation_2091" [label=11; weight=11; penwidth=0.3; color = 3]
-	"child_42201" -> "common_47401" [label=11; weight=11; penwidth=0.3; color = 3]
-	"distributed_2084" -> "core_2090" [label=11; weight=11; penwidth=0.3; color = 3]
-	"inmemory_2073" -> "store_2072" [label=11; weight=11; penwidth=0.3; color = 3]
+	"annotation_2055" -> "commandhandling_2053" [label=11; weight=11; penwidth=0.3; color = 3]
+	"unitofwork_2099" -> "common_47401" [label=11; weight=11; penwidth=0.3; color = 3]
 	"annotation_2094" -> "common_47401" [label=10; weight=10; penwidth=0.3; color = 3]
+	"annotation_2094" -> "unitofwork_2099" [label=10; weight=10; penwidth=0.3; color = 3]
 	"configuration_2105" -> "interception_2051" [label=10; weight=10; penwidth=0.3; color = 3]
 	"configuration_2105" -> "queryhandling_2083" [label=10; weight=10; penwidth=0.3; color = 3]
-	"configuration_2081" -> "eventhandling_2061" [label=10; weight=10; penwidth=0.3; color = 3]
 	"event_37159" -> "configuration_47414" [label=10; weight=10; penwidth=0.3; color = 3]
 	"eventhandling_2061" -> "common_47401" [label=10; weight=10; penwidth=0.3; color = 3]
-	"gateway_2087" -> "core_2090" [label=10; weight=10; penwidth=0.3; color = 3]
+	"fixture_29398" -> "unitofwork_2099" [label=10; weight=10; penwidth=0.3; color = 3]
 	"annotation_42200" -> "annotation_2091" [label=9; weight=9; penwidth=0.3; color = 3]
 	"annotation_42200" -> "entity_42199" [label=9; weight=9; penwidth=0.3; color = 3]
-	"configuration_2105" -> "core_2090" [label=9; weight=9; penwidth=0.3; color = 3]
-	"configuration_2081" -> "subscribing_2078" [label=9; weight=9; penwidth=0.3; color = 3]
-	"configuration_2081" -> "pooled_2076" [label=9; weight=9; penwidth=0.3; color = 3]
-	"interception_2051" -> "core_2090" [label=9; weight=9; penwidth=0.3; color = 3]
+	"autoconfig_25145" -> "conversion_19" [label=9; weight=9; penwidth=0.3; color = 3]
+	"eventhandling_2061" -> "unitofwork_2099" [label=9; weight=9; penwidth=0.3; color = 3]
+	"queryhandling_2083" -> "unitofwork_2099" [label=9; weight=9; penwidth=0.3; color = 3]
+	"queryhandling_2083" -> "conversion_19" [label=9; weight=9; penwidth=0.3; color = 3]
 	"reflection_32556" -> "annotation_2091" [label=9; weight=9; penwidth=0.3; color = 3]
-	"subscribing_2078" -> "common_47401" [label=9; weight=9; penwidth=0.3; color = 3]
-	"annotation_2055" -> "core_2090" [label=8; weight=8; penwidth=0.3; color = 3]
-	"annotation_42198" -> "core_2090" [label=8; weight=8; penwidth=0.3; color = 3]
+	"util_29400" -> "commandhandling_2053" [label=9; weight=9; penwidth=0.3; color = 3]
 	"configuration_2105" -> "commandhandling_2053" [label=8; weight=8; penwidth=0.3; color = 3]
 	"distributed_2084" -> "common_47401" [label=8; weight=8; penwidth=0.3; color = 3]
-	"entity_42199" -> "child_42201" [label=8; weight=8; penwidth=0.3; color = 3]
 	"interception_2093" -> "queryhandling_2083" [label=8; weight=8; penwidth=0.3; color = 3]
-	"sequencing_2096" -> "core_2090" [label=8; weight=8; penwidth=0.3; color = 3]
-	"store_2072" -> "common_47401" [label=8; weight=8; penwidth=0.3; color = 3]
-	"child_42201" -> "entity_42199" [label=7; weight=7; penwidth=0.3; color = 3]
-	"configuration_2105" -> "configuration_2081" [label=7; weight=7; penwidth=0.3; color = 3]
+	"jpa_32559" -> "eventhandling_2061" [label=8; weight=8; penwidth=0.3; color = 3]
+	"pooled_2076" -> "eventstreaming_2082" [label=8; weight=8; penwidth=0.3; color = 3]
+	"autoconfig_25145" -> "interception_2093" [label=7; weight=7; penwidth=0.3; color = 3]
 	"eventhandling_2061" -> "annotation_47403" [label=7; weight=7; penwidth=0.3; color = 3]
-	"store_2072" -> "segmenting_2077" [label=7; weight=7; penwidth=0.3; color = 3]
-	"timeout_2104" -> "core_2090" [label=7; weight=7; penwidth=0.3; color = 3]
+	"replay_2063" -> "common_47401" [label=7; weight=7; penwidth=0.3; color = 3]
 	"annotation_42200" -> "annotation_47403" [label=6; weight=6; penwidth=0.3; color = 3]
 	"annotation_42200" -> "annotation_42198" [label=6; weight=6; penwidth=0.3; color = 3]
+	"configuration_2105" -> "unitofwork_2099" [label=6; weight=6; penwidth=0.3; color = 3]
+	"conversion_19" -> "common_47401" [label=6; weight=6; penwidth=0.3; color = 3]
 	"event_37159" -> "annotation_47403" [label=6; weight=6; penwidth=0.3; color = 3]
 	"eventhandling_2061" -> "sequencing_2096" [label=6; weight=6; penwidth=0.3; color = 3]
 	"eventstore_32557" -> "annotation_47403" [label=6; weight=6; penwidth=0.3; color = 3]
 	"fixture_29398" -> "annotation_47403" [label=6; weight=6; penwidth=0.3; color = 3]
-	"modelling_42197" -> "core_2090" [label=6; weight=6; penwidth=0.3; color = 3]
+	"interception_2093" -> "unitofwork_2099" [label=6; weight=6; penwidth=0.3; color = 3]
 	"pooled_2076" -> "annotation_47403" [label=6; weight=6; penwidth=0.3; color = 3]
 	"segmenting_2077" -> "annotation_47403" [label=6; weight=6; penwidth=0.3; color = 3]
-	"subscribing_2078" -> "eventhandling_2061" [label=6; weight=6; penwidth=0.3; color = 3]
-	"subscribing_2078" -> "core_2090" [label=6; weight=6; penwidth=0.3; color = 3]
 	"annotation_42200" -> "commandhandling_2053" [label=5; weight=5; penwidth=0.3; color = 3]
+	"autoconfig_25145" -> "distributed_2084" [label=5; weight=5; penwidth=0.3; color = 3]
+	"commandhandling_2053" -> "conversion_19" [label=5; weight=5; penwidth=0.3; color = 3]
 	"configuration_2105" -> "gateway_2057" [label=5; weight=5; penwidth=0.3; color = 3]
-	"configuration_2081" -> "common_47401" [label=5; weight=5; penwidth=0.3; color = 3]
-	"core_2090" -> "annotation_47403" [label=5; weight=5; penwidth=0.3; color = 3]
-	"event_37159" -> "subscribing_2078" [label=5; weight=5; penwidth=0.3; color = 3]
-	"inmemory_2073" -> "common_47401" [label=5; weight=5; penwidth=0.3; color = 3]
 	"interception_2093" -> "eventhandling_2061" [label=5; weight=5; penwidth=0.3; color = 3]
 	"interception_2093" -> "annotation_47403" [label=5; weight=5; penwidth=0.3; color = 3]
 	"interception_2093" -> "commandhandling_2053" [label=5; weight=5; penwidth=0.3; color = 3]
-	"modelling_42197" -> "common_47401" [label=5; weight=5; penwidth=0.3; color = 3]
-	"timeout_2104" -> "annotation_2091" [label=5; weight=5; penwidth=0.3; color = 3]
+	"interception_2086" -> "unitofwork_2099" [label=5; weight=5; penwidth=0.3; color = 3]
+	"processing_2068" -> "eventhandling_2061" [label=5; weight=5; penwidth=0.3; color = 3]
+	"tracing_2107" -> "annotation_2091" [label=5; weight=5; penwidth=0.3; color = 3]
 	"annotation_2091" -> "annotation_2094" [label=4; weight=4; penwidth=0.3; color = 3]
+	"annotation_42200" -> "conversion_19" [label=4; weight=4; penwidth=0.3; color = 3]
 	"annotation_2094" -> "annotation_47403" [label=4; weight=4; penwidth=0.3; color = 3]
 	"annotation_2062" -> "common_47401" [label=4; weight=4; penwidth=0.3; color = 3]
 	"annotation_42198" -> "common_47401" [label=4; weight=4; penwidth=0.3; color = 3]
-	"child_42201" -> "core_2090" [label=4; weight=4; penwidth=0.3; color = 3]
+	"command_37160" -> "common_47401" [label=4; weight=4; penwidth=0.3; color = 3]
 	"configuration_2105" -> "interception_2056" [label=4; weight=4; penwidth=0.3; color = 3]
-	"configuration_2081" -> "annotation_47403" [label=4; weight=4; penwidth=0.3; color = 3]
-	"configuration_2081" -> "configuration_2105" [label=4; weight=4; penwidth=0.3; color = 3]
 	"configuration_47414" -> "annotation_47403" [label=4; weight=4; penwidth=0.3; color = 3]
 	"distributed_2084" -> "configuration_47414" [label=4; weight=4; penwidth=0.3; color = 3]
-	"entity_42199" -> "modelling_42197" [label=4; weight=4; penwidth=0.3; color = 3]
 	"event_37159" -> "segmenting_2077" [label=4; weight=4; penwidth=0.3; color = 3]
-	"eventsourcing_32554" -> "core_2090" [label=4; weight=4; penwidth=0.3; color = 3]
-	"eventsourcing_32554" -> "repository_42203" [label=4; weight=4; penwidth=0.3; color = 3]
+	"eventhandling_2061" -> "conversion_19" [label=4; weight=4; penwidth=0.3; color = 3]
+	"fixture_29398" -> "util_29400" [label=4; weight=4; penwidth=0.3; color = 3]
+	"gateway_2087" -> "unitofwork_2099" [label=4; weight=4; penwidth=0.3; color = 3]
+	"inmemory_32558" -> "eventhandling_2061" [label=4; weight=4; penwidth=0.3; color = 3]
+	"interception_2056" -> "unitofwork_2099" [label=4; weight=4; penwidth=0.3; color = 3]
+	"jpa_32559" -> "eventstreaming_2082" [label=4; weight=4; penwidth=0.3; color = 3]
+	"micrometer_29227" -> "configuration_47414" [label=4; weight=4; penwidth=0.3; color = 3]
+	"query_37158" -> "annotation_47403" [label=4; weight=4; penwidth=0.3; color = 3]
+	"reflection_32556" -> "unitofwork_2099" [label=4; weight=4; penwidth=0.3; color = 3]
+	"reflection_32556" -> "annotation_47403" [label=4; weight=4; penwidth=0.3; color = 3]
+	"sequencing_2096" -> "unitofwork_2099" [label=4; weight=4; penwidth=0.3; color = 3]
+	"annotation_2062" -> "annotation_47403" [label=3; weight=3; penwidth=0.3; color = 3]
+	"annotation_2062" -> "unitofwork_2099" [label=3; weight=3; penwidth=0.3; color = 3]
+	"annotation_2062" -> "sequencing_2096" [label=3; weight=3; penwidth=0.3; color = 3]
+	"annotation_42198" -> "configuration_47414" [label=3; weight=3; penwidth=0.3; color = 3]
+	"annotation_2085" -> "common_47401" [label=3; weight=3; penwidth=0.3; color = 3]
+	"annotation_2055" -> "annotation_47403" [label=3; weight=3; penwidth=0.3; color = 3]
+	"annotation_47403" -> "common_47401" [label=3; weight=3; penwidth=0.3; color = 3]
+	"commandhandling_2053" -> "unitofwork_2099" [label=3; weight=3; penwidth=0.3; color = 3]
+	"configuration_2105" -> "sequencing_2096" [label=3; weight=3; penwidth=0.3; color = 3]
+	"distributed_2084" -> "unitofwork_2099" [label=3; weight=3; penwidth=0.3; color = 3]
+	"entity_42199" -> "unitofwork_2099" [label=3; weight=3; penwidth=0.3; color = 3]
+	"event_37159" -> "unitofwork_2099" [label=3; weight=3; penwidth=0.3; color = 3]
+	"event_37159" -> "processing_2068" [label=3; weight=3; penwidth=0.3; color = 3]
+	"fixture_29398" -> "eventstore_32557" [label=3; weight=3; penwidth=0.3; color = 3]
+	"gateway_2057" -> "unitofwork_2099" [label=3; weight=3; penwidth=0.3; color = 3]
+	"gateway_2066" -> "unitofwork_2099" [label=3; weight=3; penwidth=0.3; color = 3]
+	"interception_2051" -> "queryhandling_2083" [label=3; weight=3; penwidth=0.3; color = 3]
+	"interception_2051" -> "eventhandling_2061" [label=3; weight=3; penwidth=0.3; color = 3]
 }
