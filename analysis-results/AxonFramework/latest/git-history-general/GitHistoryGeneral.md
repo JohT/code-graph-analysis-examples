@@ -48,9 +48,9 @@
       <td>21.870886</td>
       <td>11.225316</td>
       <td>166.854430</td>
-      <td>27.267089</td>
-      <td>164.116456</td>
-      <td>122.767089</td>
+      <td>28.267089</td>
+      <td>164.165823</td>
+      <td>122.824051</td>
     </tr>
     <tr>
       <th>std</th>
@@ -58,15 +58,15 @@
       <td>12.024368</td>
       <td>359.925155</td>
       <td>6.964935</td>
-      <td>185.137346</td>
-      <td>159.974662</td>
+      <td>185.118026</td>
+      <td>159.946983</td>
     </tr>
     <tr>
       <th>min</th>
       <td>1.000000</td>
       <td>2.000000</td>
       <td>4.000000</td>
-      <td>16.000000</td>
+      <td>17.000000</td>
       <td>20.000000</td>
       <td>16.000000</td>
     </tr>
@@ -75,7 +75,7 @@
       <td>2.000000</td>
       <td>4.000000</td>
       <td>23.000000</td>
-      <td>25.000000</td>
+      <td>26.000000</td>
       <td>72.000000</td>
       <td>25.000000</td>
     </tr>
@@ -84,7 +84,7 @@
       <td>4.000000</td>
       <td>7.000000</td>
       <td>46.000000</td>
-      <td>27.000000</td>
+      <td>28.000000</td>
       <td>125.000000</td>
       <td>76.000000</td>
     </tr>
@@ -93,7 +93,7 @@
       <td>11.000000</td>
       <td>12.000000</td>
       <td>155.000000</td>
-      <td>27.000000</td>
+      <td>28.000000</td>
       <td>137.000000</td>
       <td>125.000000</td>
     </tr>
@@ -102,7 +102,7 @@
       <td>2771.000000</td>
       <td>117.000000</td>
       <td>6350.000000</td>
-      <td>46.000000</td>
+      <td>47.000000</td>
       <td>2807.000000</td>
       <td>653.000000</td>
     </tr>
@@ -152,7 +152,7 @@
       <td>Allard Buijze</td>
       <td>Jan Galinski</td>
       <td>28</td>
-      <td>27</td>
+      <td>28</td>
       <td>437</td>
       <td>437</td>
       <td>2026-02-23</td>
@@ -172,7 +172,7 @@
       <td>Allard Buijze</td>
       <td>Jan Galinski</td>
       <td>53</td>
-      <td>27</td>
+      <td>28</td>
       <td>437</td>
       <td>212</td>
       <td>2026-02-23</td>
@@ -192,7 +192,7 @@
       <td>Allard Buijze</td>
       <td>Jan Galinski</td>
       <td>29</td>
-      <td>16</td>
+      <td>17</td>
       <td>125</td>
       <td>16</td>
       <td>2026-03-06</td>
@@ -212,7 +212,7 @@
       <td>Allard Buijze</td>
       <td>Jan Galinski</td>
       <td>87</td>
-      <td>27</td>
+      <td>28</td>
       <td>138</td>
       <td>138</td>
       <td>2026-02-23</td>
@@ -232,7 +232,7 @@
       <td>Allard Buijze</td>
       <td>Jan Galinski</td>
       <td>76</td>
-      <td>27</td>
+      <td>28</td>
       <td>228</td>
       <td>111</td>
       <td>2026-02-23</td>
@@ -252,7 +252,7 @@
       <td>Allard Buijze</td>
       <td>Jan Galinski</td>
       <td>15</td>
-      <td>27</td>
+      <td>28</td>
       <td>136</td>
       <td>136</td>
       <td>2026-02-23</td>
@@ -272,8 +272,8 @@
       <td>Allard Buijze</td>
       <td>Jan Galinski</td>
       <td>22</td>
-      <td>27</td>
-      <td>124</td>
+      <td>28</td>
+      <td>125</td>
       <td>62</td>
       <td>2026-02-23</td>
       <td>2025-11-17</td>
@@ -292,7 +292,7 @@
       <td>Allard Buijze</td>
       <td>Jakob Hatzl</td>
       <td>67</td>
-      <td>16</td>
+      <td>17</td>
       <td>125</td>
       <td>16</td>
       <td>2026-03-06</td>
@@ -312,8 +312,8 @@
       <td>Allard Buijze</td>
       <td>Frank Versnel</td>
       <td>79</td>
-      <td>27</td>
-      <td>137</td>
+      <td>28</td>
+      <td>138</td>
       <td>125</td>
       <td>2026-02-23</td>
       <td>2025-11-04</td>
@@ -332,8 +332,8 @@
       <td>Allard Buijze</td>
       <td>Frank Versnel</td>
       <td>97</td>
-      <td>27</td>
-      <td>137</td>
+      <td>28</td>
+      <td>138</td>
       <td>125</td>
       <td>2026-02-23</td>
       <td>2025-11-04</td>
@@ -352,7 +352,7 @@
       <td>Jan Galinski</td>
       <td>John Hendrikx</td>
       <td>7</td>
-      <td>27</td>
+      <td>28</td>
       <td>76</td>
       <td>76</td>
       <td>2026-02-23</td>
@@ -372,8 +372,8 @@
       <td>Allard Buijze</td>
       <td>Jan Galinski</td>
       <td>73</td>
-      <td>27</td>
-      <td>137</td>
+      <td>28</td>
+      <td>138</td>
       <td>125</td>
       <td>2026-02-23</td>
       <td>2025-11-04</td>
@@ -392,9 +392,9 @@
       <td>Allard Buijze</td>
       <td>Jan Galinski</td>
       <td>17</td>
-      <td>27</td>
-      <td>137</td>
-      <td>137</td>
+      <td>28</td>
+      <td>138</td>
+      <td>138</td>
       <td>2026-02-23</td>
       <td>2025-11-04</td>
       <td>2025-11-04</td>
@@ -412,7 +412,7 @@
       <td>Allard Buijze</td>
       <td>Jan Galinski</td>
       <td>35</td>
-      <td>27</td>
+      <td>28</td>
       <td>137</td>
       <td>137</td>
       <td>2026-02-23</td>
@@ -432,7 +432,7 @@
       <td>Allard Buijze</td>
       <td>Christophe Bouhier</td>
       <td>99</td>
-      <td>27</td>
+      <td>28</td>
       <td>137</td>
       <td>125</td>
       <td>2026-02-23</td>
@@ -452,7 +452,7 @@
       <td>Allard Buijze</td>
       <td>David Gómez G</td>
       <td>13</td>
-      <td>46</td>
+      <td>47</td>
       <td>653</td>
       <td>653</td>
       <td>2026-02-04</td>
@@ -472,7 +472,7 @@
       <td>Allard Buijze</td>
       <td>David Gómez G</td>
       <td>22</td>
-      <td>46</td>
+      <td>47</td>
       <td>641</td>
       <td>641</td>
       <td>2026-02-04</td>
@@ -492,7 +492,7 @@
       <td>Allard Buijze</td>
       <td>David Gómez G</td>
       <td>22</td>
-      <td>46</td>
+      <td>47</td>
       <td>641</td>
       <td>641</td>
       <td>2026-02-04</td>
@@ -512,7 +512,7 @@
       <td>Allard Buijze</td>
       <td>David Gómez G</td>
       <td>23</td>
-      <td>46</td>
+      <td>47</td>
       <td>641</td>
       <td>641</td>
       <td>2026-02-04</td>
@@ -532,7 +532,7 @@
       <td>Allard Buijze</td>
       <td>David Gómez G</td>
       <td>22</td>
-      <td>46</td>
+      <td>47</td>
       <td>641</td>
       <td>641</td>
       <td>2026-02-04</td>
@@ -552,7 +552,7 @@
       <td>Allard Buijze</td>
       <td>David Gómez G</td>
       <td>23</td>
-      <td>46</td>
+      <td>47</td>
       <td>641</td>
       <td>641</td>
       <td>2026-02-04</td>
@@ -572,7 +572,7 @@
       <td>Allard Buijze</td>
       <td>David Gómez G</td>
       <td>22</td>
-      <td>46</td>
+      <td>47</td>
       <td>641</td>
       <td>641</td>
       <td>2026-02-04</td>
@@ -592,7 +592,7 @@
       <td>Allard Buijze</td>
       <td>David Gómez G</td>
       <td>23</td>
-      <td>46</td>
+      <td>47</td>
       <td>641</td>
       <td>641</td>
       <td>2026-02-04</td>
@@ -612,7 +612,7 @@
       <td>Allard Buijze</td>
       <td>David Gómez G</td>
       <td>22</td>
-      <td>46</td>
+      <td>47</td>
       <td>641</td>
       <td>641</td>
       <td>2026-02-04</td>
@@ -632,7 +632,7 @@
       <td>Allard Buijze</td>
       <td>David Gómez G</td>
       <td>24</td>
-      <td>46</td>
+      <td>47</td>
       <td>641</td>
       <td>641</td>
       <td>2026-02-04</td>
@@ -652,7 +652,7 @@
       <td>Allard Buijze</td>
       <td>David Gómez G</td>
       <td>22</td>
-      <td>46</td>
+      <td>47</td>
       <td>641</td>
       <td>641</td>
       <td>2026-02-04</td>
@@ -672,7 +672,7 @@
       <td>Allard Buijze</td>
       <td>David Gómez G</td>
       <td>23</td>
-      <td>46</td>
+      <td>47</td>
       <td>641</td>
       <td>641</td>
       <td>2026-02-04</td>
@@ -692,7 +692,7 @@
       <td>Allard Buijze</td>
       <td>David Gómez G</td>
       <td>22</td>
-      <td>46</td>
+      <td>47</td>
       <td>641</td>
       <td>641</td>
       <td>2026-02-04</td>
@@ -712,7 +712,7 @@
       <td>Allard Buijze</td>
       <td>David Gómez G</td>
       <td>23</td>
-      <td>46</td>
+      <td>47</td>
       <td>641</td>
       <td>641</td>
       <td>2026-02-04</td>
@@ -732,7 +732,7 @@
       <td>Allard Buijze</td>
       <td>David Gómez G</td>
       <td>22</td>
-      <td>46</td>
+      <td>47</td>
       <td>641</td>
       <td>641</td>
       <td>2026-02-04</td>

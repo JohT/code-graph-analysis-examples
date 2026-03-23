@@ -1,13 +1,13 @@
 | Feature | Mean absolute SHAP value |
 | --- | --- |
-| *Node embeddings aggregated* | 0.030120 |
-| articleRank | 0.021534 |
-| incomingDependencies | 0.016245 |
-| pageRank | 0.014208 |
-| degree | 0.010044 |
-| pageToArticleRankDifference | 0.009840 |
-| localClusteringCoefficient | 0.005256 |
-| betweenness | 0.003446 |
-| nodeEmbeddingPCA_25 | 0.002092 |
-| nodeEmbeddingPCA_22 | 0.002038 |
-| nodeEmbeddingPCA_31 | 0.001663 |
+| *Node embeddings aggregated* | 0.030532 |
+| articleRank | 0.021544 |
+| incomingDependencies | 0.016349 |
+| pageRank | 0.014050 |
+| pageToArticleRankDifference | 0.009388 |
+| degree | 0.009099 |
+| localClusteringCoefficient | 0.004865 |
+| betweenness | 0.003083 |
+| nodeEmbeddingPCA_31 | 0.002160 |
+| nodeEmbeddingPCA_25 | 0.001832 |
+| nodeEmbeddingPCA_27 | 0.001534 |
