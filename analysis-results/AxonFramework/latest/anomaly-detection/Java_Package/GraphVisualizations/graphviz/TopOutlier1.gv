@@ -16,20 +16,20 @@ strict digraph TopOutlier1 {
 	central [label="🧩 outlier #1\nconversion"];
 	"autoconfig_25145"  [label = "autoconfig\n(100.0%)"; penwidth = 2; ]; "autoconfig_25145" -> central [label=7; weight=7; penwidth=0.5];
 	"configuration_2105"  [label = "configuration\n(100.0%)"; penwidth = 2; ]; "configuration_2105" -> central [label=5; weight=5; penwidth=0.5];
-	"event_37159"  [label = "event\n(96.48%)"; penwidth = 5; ]; "event_37159" -> central [label=2; weight=2; penwidth=0.4];
+	"event_37159"  [label = "event\n(83.08%)"; penwidth = 5; ]; "event_37159" -> central [label=2; weight=2; penwidth=0.4];
 	"annotation_2062"  [label = "annotation\n(100.0%)"; penwidth = 2; ]; "annotation_2062" -> central [label=1; weight=1; penwidth=0.4];
 	"annotation_42198"  [label = "annotation\n(100.0%)"; penwidth = 2; ]; "annotation_42198" -> central [label=1; weight=1; penwidth=0.4];
 	"annotation_42200"  [label = "annotation\n(100.0%)"; penwidth = 2; ]; "annotation_42200" -> central [label=1; weight=1; penwidth=0.4];
 	"configuration_32560"  [shape = "circle"; height=1.8; label = "configuration\n(0.0%)"; penwidth = 2; ]; "configuration_32560" -> central [label=1; weight=1; penwidth=0.4];
-	"jpa_32559"  [label = "jpa\n(83.19%)"; penwidth = 5; ]; "jpa_32559" -> central [label=1; weight=1; penwidth=0.4];
-	"reflection_32556"  [label = "reflection\n(95.07%)"; penwidth = 2; ]; "reflection_32556" -> central [label=1; weight=1; penwidth=0.4];
+	"jpa_32559"  [label = "jpa\n(71.75%)"; penwidth = 5; ]; "jpa_32559" -> central [label=1; weight=1; penwidth=0.4];
+	"reflection_32556"  [label = "reflection\n(98.99%)"; penwidth = 2; ]; "reflection_32556" -> central [label=1; weight=1; penwidth=0.4];
 	"configuration_2081"  [label = "configuration\n(100.0%)"; penwidth = 2; ]; "configuration_2081" -> central [label=0; weight=0; penwidth=0.4];
-	"sequencing_2096"  [label = "sequencing\n(100.0%)"; penwidth = 2; ]; "sequencing_2096" -> central [label=0; weight=0; penwidth=0.4];
+	"sequencing_2096"  [label = "sequencing\n(92.76%)"; penwidth = 5; ]; "sequencing_2096" -> central [label=0; weight=0; penwidth=0.4];
 	"conversion_2097"  [shape = "circle"; height=1.8; label = "conversion\n(0.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "conversion_2097" [label=4; weight=4; penwidth=0.5; color = 5];
-	"eventhandling_2061"  [label = "eventhandling\n(84.84%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "eventhandling_2061" [label=2; weight=2; penwidth=0.4; color = 5];
+	"eventhandling_2061"  [label = "eventhandling\n(100.0%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "eventhandling_2061" [label=2; weight=2; penwidth=0.4; color = 5];
 	"annotation_47403"  [shape = "circle"; height=1.8; label = "annotation\n(0.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "annotation_47403" [label=1; weight=1; penwidth=0.4; color = 5];
 	"conversion_19"  [label = "conversion\n(100.0%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "conversion_19" [label=0; weight=0; penwidth=0.4; color = 5];
-	"infra_47410"  [shape = "circle"; height=1.8; label = "infra\n(0.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "infra_47410" [label=0; weight=0; penwidth=0.4; color = 5];
+	"infra_47410"  [label = "infra\n(90.19%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "infra_47410" [label=0; weight=0; penwidth=0.4; color = 5];
 	"event_37159" -> "eventhandling_2061" [label=17; weight=17; penwidth=0.3; color = 3]
 	"annotation_2062" -> "eventhandling_2061" [label=16; weight=16; penwidth=0.3; color = 3]
 	"autoconfig_25145" -> "jpa_32559" [label=15; weight=15; penwidth=0.3; color = 3]

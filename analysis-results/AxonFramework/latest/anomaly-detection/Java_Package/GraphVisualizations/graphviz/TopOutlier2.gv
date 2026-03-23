@@ -12,78 +12,32 @@ strict digraph TopOutlier2 {
     central [fontsize = 16;];
     central [color = 7; fillcolor = 5; penwidth = 3;];
 
-	graph   [label="Top Rank #2 Java Package Outlier\norg.axonframework.messaging.eventhandling.processing.streaming.token\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: cluster probability\nlarge circle: < 25% percentile of cluster probability\nthick outline: > 80% percentile of distance to cluster center\n\n"];
-	central [label="🧩 outlier #2\ntoken"];
-	"jpa_32559"  [label = "jpa\n(83.19%)"; penwidth = 5; ]; "jpa_32559" -> central [label=36; weight=36; penwidth=1.0];
-	"pooled_2076"  [label = "pooled\n(100.0%)"; penwidth = 2; ]; "pooled_2076" -> central [label=23; weight=23; penwidth=0.8];
-	"segmenting_2077"  [label = "segmenting\n(100.0%)"; penwidth = 2; ]; "segmenting_2077" -> central [label=23; weight=23; penwidth=0.8];
-	"event_37159"  [label = "event\n(96.48%)"; penwidth = 5; ]; "event_37159" -> central [label=22; weight=22; penwidth=0.8];
-	"inmemory_32558"  [label = "inmemory\n(100.0%)"; penwidth = 2; ]; "inmemory_32558" -> central [label=16; weight=16; penwidth=0.7];
-	"inmemory_2073"  [label = "inmemory\n(91.83%)"; penwidth = 2; ]; "inmemory_2073" -> central [label=6; weight=6; penwidth=0.5];
-	"jdbc_2074"  [label = "jdbc\n(91.83%)"; penwidth = 2; ]; "jdbc_2074" -> central [label=6; weight=6; penwidth=0.5];
-	"annotation_2064"  [shape = "circle"; height=1.8; label = "annotation\n(0.0%)"; penwidth = 2; ]; "annotation_2064" -> central [label=4; weight=4; penwidth=0.5];
-	"jpa_2075"  [label = "jpa\n(91.83%)"; penwidth = 2; ]; "jpa_2075" -> central [label=4; weight=4; penwidth=0.5];
-	"eventstreaming_2082"  [label = "eventstreaming\n(100.0%)"; penwidth = 2; ]; "eventstreaming_2082" -> central [label=3; weight=3; penwidth=0.5];
-	"store_2072"  [label = "store\n(86.47%)"; penwidth = 2; ]; "store_2072" -> central [label=3; weight=3; penwidth=0.5];
-	"annotation_2071"  [shape = "circle"; height=1.8; label = "annotation\n(0.0%)"; penwidth = 2; ]; "annotation_2071" -> central [label=2; weight=2; penwidth=0.4];
-	"eventstore_32557"  [label = "eventstore\n(100.0%)"; penwidth = 2; ]; "eventstore_32557" -> central [label=2; weight=2; penwidth=0.4];
-	"fixture_29398"  [label = "fixture\n(100.0%)"; penwidth = 2; ]; "fixture_29398" -> central [label=1; weight=1; penwidth=0.4];
-	"streaming_2069"  [shape = "circle"; height=1.8; label = "streaming\n(0.0%)"; penwidth = 2; ]; "streaming_2069" -> central [label=1; weight=1; penwidth=0.4];
-	"common_47401"  [label = "common\n(100.0%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "common_47401" [label=7; weight=7; penwidth=0.5; color = 5];
-	"core_2090"  [label = "core\n(86.38%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "core_2090" [label=4; weight=4; penwidth=0.5; color = 5];
-	"conversion_19"  [label = "conversion\n(100.0%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "conversion_19" [label=1; weight=1; penwidth=0.4; color = 5];
-	"pooled_2076" -> "segmenting_2077" [label=146; weight=146; penwidth=0.3; color = 3]
-	"pooled_2076" -> "common_47401" [label=56; weight=56; penwidth=0.3; color = 3]
-	"event_37159" -> "core_2090" [label=53; weight=53; penwidth=0.3; color = 3]
-	"eventstore_32557" -> "eventstreaming_2082" [label=53; weight=53; penwidth=0.3; color = 3]
-	"event_37159" -> "eventstore_32557" [label=50; weight=50; penwidth=0.3; color = 3]
-	"jpa_32559" -> "eventstore_32557" [label=46; weight=46; penwidth=0.3; color = 3]
-	"core_2090" -> "common_47401" [label=43; weight=43; penwidth=0.3; color = 3]
-	"pooled_2076" -> "core_2090" [label=38; weight=38; penwidth=0.3; color = 3]
-	"jdbc_2074" -> "store_2072" [label=37; weight=37; penwidth=0.3; color = 3]
-	"jdbc_2074" -> "segmenting_2077" [label=36; weight=36; penwidth=0.3; color = 3]
-	"fixture_29398" -> "core_2090" [label=34; weight=34; penwidth=0.3; color = 3]
-	"eventstore_32557" -> "core_2090" [label=32; weight=32; penwidth=0.3; color = 3]
-	"jpa_2075" -> "segmenting_2077" [label=31; weight=31; penwidth=0.3; color = 3]
-	"eventstreaming_2082" -> "core_2090" [label=25; weight=25; penwidth=0.3; color = 3]
-	"jpa_2075" -> "store_2072" [label=24; weight=24; penwidth=0.3; color = 3]
-	"jpa_32559" -> "common_47401" [label=20; weight=20; penwidth=0.3; color = 3]
-	"inmemory_32558" -> "eventstore_32557" [label=19; weight=19; penwidth=0.3; color = 3]
-	"jpa_32559" -> "core_2090" [label=19; weight=19; penwidth=0.3; color = 3]
-	"eventstore_32557" -> "common_47401" [label=17; weight=17; penwidth=0.3; color = 3]
-	"event_37159" -> "eventstreaming_2082" [label=15; weight=15; penwidth=0.3; color = 3]
-	"jpa_2075" -> "common_47401" [label=15; weight=15; penwidth=0.3; color = 3]
-	"segmenting_2077" -> "core_2090" [label=15; weight=15; penwidth=0.3; color = 3]
-	"inmemory_2073" -> "segmenting_2077" [label=14; weight=14; penwidth=0.3; color = 3]
-	"jdbc_2074" -> "common_47401" [label=13; weight=13; penwidth=0.3; color = 3]
-	"inmemory_32558" -> "core_2090" [label=12; weight=12; penwidth=0.3; color = 3]
-	"pooled_2076" -> "store_2072" [label=12; weight=12; penwidth=0.3; color = 3]
-	"inmemory_2073" -> "store_2072" [label=11; weight=11; penwidth=0.3; color = 3]
+	graph   [label="Top Rank #2 Java Package Outlier\norg.axonframework.messaging.eventhandling.replay.annotation\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: cluster probability\nlarge circle: < 25% percentile of cluster probability\nthick outline: > 80% percentile of distance to cluster center\n\n"];
+	central [label="🧩 outlier #2\nannotation"];
+	"annotation_2091"  [label = "annotation\n(100.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "annotation_2091" [label=9; weight=9; penwidth=0.6; color = 5];
+	"replay_2063"  [label = "replay\n(91.37%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "replay_2063" [label=7; weight=7; penwidth=0.5; color = 5];
+	"token_2070"  [label = "token\n(92.48%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "token_2070" [label=4; weight=4; penwidth=0.5; color = 5];
+	"core_2090"  [label = "core\n(94.76%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "core_2090" [label=2; weight=2; penwidth=0.4; color = 5];
+	"annotation_47403"  [shape = "circle"; height=1.8; label = "annotation\n(0.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "annotation_47403" [label=1; weight=1; penwidth=0.4; color = 5];
+	"eventhandling_2061"  [label = "eventhandling\n(100.0%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "eventhandling_2061" [label=1; weight=1; penwidth=0.4; color = 5];
+	"unitofwork_2099"  [label = "unitofwork\n(100.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "unitofwork_2099" [label=1; weight=1; penwidth=0.4; color = 5];
+	"conversion_19"  [label = "conversion\n(100.0%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "conversion_19" [label=0; weight=0; penwidth=0.4; color = 5];
+	"annotation_2091" -> "core_2090" [label=83; weight=83; penwidth=0.3; color = 3]
+	"eventhandling_2061" -> "core_2090" [label=54; weight=54; penwidth=0.3; color = 3]
+	"unitofwork_2099" -> "core_2090" [label=50; weight=50; penwidth=0.3; color = 3]
+	"annotation_2091" -> "annotation_47403" [label=16; weight=16; penwidth=0.3; color = 3]
+	"annotation_2091" -> "unitofwork_2099" [label=14; weight=14; penwidth=0.3; color = 3]
+	"replay_2063" -> "core_2090" [label=13; weight=13; penwidth=0.3; color = 3]
+	"eventhandling_2061" -> "unitofwork_2099" [label=9; weight=9; penwidth=0.3; color = 3]
 	"core_2090" -> "conversion_19" [label=8; weight=8; penwidth=0.3; color = 3]
-	"pooled_2076" -> "eventstreaming_2082" [label=8; weight=8; penwidth=0.3; color = 3]
-	"store_2072" -> "common_47401" [label=8; weight=8; penwidth=0.3; color = 3]
-	"store_2072" -> "segmenting_2077" [label=7; weight=7; penwidth=0.3; color = 3]
-	"conversion_19" -> "common_47401" [label=6; weight=6; penwidth=0.3; color = 3]
-	"event_37159" -> "streaming_2069" [label=5; weight=5; penwidth=0.3; color = 3]
-	"inmemory_2073" -> "common_47401" [label=5; weight=5; penwidth=0.3; color = 3]
-	"event_37159" -> "segmenting_2077" [label=4; weight=4; penwidth=0.3; color = 3]
-	"jpa_32559" -> "eventstreaming_2082" [label=4; weight=4; penwidth=0.3; color = 3]
-	"fixture_29398" -> "eventstore_32557" [label=3; weight=3; penwidth=0.3; color = 3]
-	"annotation_2064" -> "core_2090" [label=2; weight=2; penwidth=0.3; color = 3]
-	"event_37159" -> "common_47401" [label=2; weight=2; penwidth=0.3; color = 3]
-	"eventstreaming_2082" -> "common_47401" [label=2; weight=2; penwidth=0.3; color = 3]
-	"inmemory_32558" -> "eventstreaming_2082" [label=2; weight=2; penwidth=0.3; color = 3]
-	"jdbc_2074" -> "conversion_19" [label=2; weight=2; penwidth=0.3; color = 3]
-	"jpa_2075" -> "conversion_19" [label=2; weight=2; penwidth=0.3; color = 3]
-	"pooled_2076" -> "inmemory_2073" [label=2; weight=2; penwidth=0.3; color = 3]
-	"segmenting_2077" -> "common_47401" [label=2; weight=2; penwidth=0.3; color = 3]
-	"annotation_2071" -> "core_2090" [label=1; weight=1; penwidth=0.3; color = 3]
-	"event_37159" -> "store_2072" [label=1; weight=1; penwidth=0.3; color = 3]
-	"fixture_29398" -> "common_47401" [label=1; weight=1; penwidth=0.3; color = 3]
-	"streaming_2069" -> "segmenting_2077" [label=1; weight=1; penwidth=0.3; color = 3]
-	"annotation_2064" -> "conversion_19" [label=0; weight=0; penwidth=0.3; color = 3]
-	"fixture_29398" -> "eventstreaming_2082" [label=0; weight=0; penwidth=0.3; color = 3]
-	"jpa_32559" -> "conversion_19" [label=0; weight=0; penwidth=0.3; color = 3]
-	"pooled_2076" -> "streaming_2069" [label=0; weight=0; penwidth=0.3; color = 3]
-	"streaming_2069" -> "eventstreaming_2082" [label=0; weight=0; penwidth=0.3; color = 3]
+	"eventhandling_2061" -> "annotation_47403" [label=7; weight=7; penwidth=0.3; color = 3]
+	"core_2090" -> "unitofwork_2099" [label=5; weight=5; penwidth=0.3; color = 3]
+	"core_2090" -> "annotation_47403" [label=5; weight=5; penwidth=0.3; color = 3]
+	"eventhandling_2061" -> "conversion_19" [label=4; weight=4; penwidth=0.3; color = 3]
+	"token_2070" -> "core_2090" [label=4; weight=4; penwidth=0.3; color = 3]
+	"replay_2063" -> "conversion_19" [label=2; weight=2; penwidth=0.3; color = 3]
+	"core_2090" -> "annotation_2091" [label=1; weight=1; penwidth=0.3; color = 3]
+	"token_2070" -> "conversion_19" [label=1; weight=1; penwidth=0.3; color = 3]
+	"unitofwork_2099" -> "annotation_47403" [label=1; weight=1; penwidth=0.3; color = 3]
+	"core_2090" -> "eventhandling_2061" [label=0; weight=0; penwidth=0.3; color = 3]
 }

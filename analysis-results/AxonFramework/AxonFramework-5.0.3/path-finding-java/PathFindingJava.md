@@ -981,7 +981,7 @@ First, we'll have a look at the overall/total result of the longest path algorit
       <td>9</td>
       <td>4</td>
       <td>10</td>
-      <td>2</td>
+      <td>1</td>
       <td>10</td>
     </tr>
     <tr>
@@ -1213,9 +1213,9 @@ The following table shows the first 10 rows with all details of the query above.
       <td>22</td>
       <td>2</td>
       <td>22</td>
-      <td>19</td>
+      <td>20</td>
       <td>1</td>
-      <td>19</td>
+      <td>20</td>
       <td>[/org/axonframework/extension/metrics/micrometer/springboot -&gt; /org/axonframework/conversion, /org/axonframework/extension/metrics/micrometer/springboot -&gt; /org/axonframework/messaging/eventhandling/conversion, /org/axonframework/extension/metrics/micrometer/springboot -&gt; /org/axonframework/mess...</td>
       <td>[axon-metrics-micrometer-5.0.3 -&gt; axon-conversion-5.0.3, axon-metrics-micrometer-5.0.3 -&gt; axon-messaging-5.0.3, axon-metrics-micrometer-5.0.3 -&gt; axon-spring-boot-autoconfigure-5.0.3, axon-metrics-micrometer-5.0.3 -&gt; axon-test-5.0.3]</td>
       <td>[]</td>
@@ -1230,11 +1230,11 @@ The following table shows the first 10 rows with all details of the query above.
       <td>None</td>
       <td>4</td>
       <td>10</td>
-      <td>2</td>
-      <td>10</td>
-      <td>7</td>
       <td>1</td>
-      <td>7</td>
+      <td>10</td>
+      <td>10</td>
+      <td>1</td>
+      <td>10</td>
       <td>[/org/axonframework/extension/metrics/micrometer/springboot -&gt; /org/axonframework/messaging/commandhandling, /org/axonframework/extension/metrics/micrometer/springboot -&gt; /org/axonframework/messaging/eventhandling, /org/axonframework/extension/metrics/micrometer/springboot -&gt; /org/axonframework/...</td>
       <td>[axon-metrics-micrometer-5.0.3 -&gt; axon-messaging-5.0.3, axon-metrics-micrometer-5.0.3 -&gt; axon-update-5.0.3, axon-metrics-micrometer-5.0.3 -&gt; axon-common-5.0.3]</td>
       <td>[]</td>

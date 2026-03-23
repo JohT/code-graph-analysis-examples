@@ -12,24 +12,41 @@ strict digraph TopOutlier1 {
     central [fontsize = 16;];
     central [color = 7; fillcolor = 5; penwidth = 3;];
 
-	graph   [label="Top Rank #1 Java Type Outlier\norg.axonframework.axonserver.connector.query.AxonServerQueryBusConnector$AxonServerUpdateCallback\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: cluster probability\nlarge circle: < 25% percentile of cluster probability\nthick outline: > 80% percentile of distance to cluster center\n\n"];
-	central [label="🧩 outlier #1\nAxonServerQueryBusConnector$AxonServerUpdateCallback"];
-	"AxonServerQueryBusConnector$LocalSegmentAdapter_38715"  [shape = "circle"; height=1.8; label = "AxonServerQueryBusConnector$\nLocalSegmentAdapter\n(0.0%)"; penwidth = 2; ]; "AxonServerQueryBusConnector$LocalSegmentAdapter_38715" -> central [label=3; weight=3; penwidth=0.4];
-	"AxonServerQueryBusConnector_38711"  [shape = "circle"; height=1.8; label = "AxonServerQueryBusConnector\n(0.0%)"; penwidth = 2; ]; "AxonServerQueryBusConnector_38711" -> central [label=1; weight=1; penwidth=0.4];
-	"AxonServerQueryBusConnector_38711"  [shape = "circle"; height=1.8; label = "AxonServerQueryBusConnector\n(0.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "AxonServerQueryBusConnector_38711" [label=3; weight=3; penwidth=0.4; color = 5];
-	"FutureUtils_49753"  [label = "FutureUtils\n(69.01%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "FutureUtils_49753" [label=3; weight=3; penwidth=0.4; color = 5];
-	"QueryBusConnector$UpdateCallback_12560"  [shape = "circle"; height=1.8; label = "QueryBusConnector$\nUpdateCallback\n(0.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "QueryBusConnector$UpdateCallback_12560" [label=2; weight=2; penwidth=0.4; color = 5];
-	"QueryConverter_38713"  [shape = "circle"; height=1.8; label = "QueryConverter\n(0.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "QueryConverter_38713" [label=2; weight=2; penwidth=0.4; color = 5];
-	"ErrorCode_37736"  [label = "ErrorCode\n(38.03%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "ErrorCode_37736" [label=1; weight=1; penwidth=0.4; color = 5];
-	"SubscriptionQueryUpdateMessage_1945"  [shape = "circle"; height=1.8; label = "SubscriptionQueryUpdateMessage\n(0.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "SubscriptionQueryUpdateMessage_1945" [label=1; weight=1; penwidth=0.4; color = 5];
-	"QueryConverter_38713" -> "SubscriptionQueryUpdateMessage_1945" [label=7; weight=7; penwidth=0.3; color = 3]
-	"AxonServerQueryBusConnector_38711" -> "AxonServerQueryBusConnector$LocalSegmentAdapter_38715" [label=6; weight=6; penwidth=0.3; color = 3]
-	"AxonServerQueryBusConnector$LocalSegmentAdapter_38715" -> "AxonServerQueryBusConnector_38711" [label=5; weight=5; penwidth=0.3; color = 3]
-	"AxonServerQueryBusConnector_38711" -> "QueryConverter_38713" [label=2; weight=2; penwidth=0.3; color = 3]
-	"AxonServerQueryBusConnector$LocalSegmentAdapter_38715" -> "QueryConverter_38713" [label=2; weight=2; penwidth=0.3; color = 3]
-	"QueryConverter_38713" -> "ErrorCode_37736" [label=2; weight=2; penwidth=0.3; color = 3]
-	"AxonServerQueryBusConnector_38711" -> "FutureUtils_49753" [label=1; weight=1; penwidth=0.3; color = 3]
-	"AxonServerQueryBusConnector$LocalSegmentAdapter_38715" -> "FutureUtils_49753" [label=1; weight=1; penwidth=0.3; color = 3]
-	"AxonServerQueryBusConnector$LocalSegmentAdapter_38715" -> "QueryBusConnector$UpdateCallback_12560" [label=1; weight=1; penwidth=0.3; color = 3]
-	"QueryBusConnector$UpdateCallback_12560" -> "SubscriptionQueryUpdateMessage_1945" [label=1; weight=1; penwidth=0.3; color = 3]
+	graph   [label="Top Rank #1 Java Type Outlier\norg.axonframework.common.Registration\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: cluster probability\nlarge circle: < 25% percentile of cluster probability\nthick outline: > 80% percentile of distance to cluster center\n\n"];
+	central [label="🧩 outlier #1\nRegistration"];
+	"ContinuousMessageStream_34663"  [shape = "circle"; height=1.8; label = "ContinuousMessageStream\n(0.0%)"; penwidth = 2; ]; "ContinuousMessageStream_34663" -> central [label=6; weight=6; penwidth=0.5];
+	"AbstractCacheAdapter_49300"  [label = "AbstractCacheAdapter\n(100.0%)"; penwidth = 2; ]; "AbstractCacheAdapter_49300" -> central [label=4; weight=4; penwidth=0.5];
+	"AxonServerRegistration_37165"  [label = "AxonServerRegistration\n(7.84%)"; penwidth = 5; ]; "AxonServerRegistration_37165" -> central [label=4; weight=4; penwidth=0.5];
+	"AxonServerQueryBusConnector$LocalSegmentAdapter_38715"  [shape = "circle"; height=1.8; label = "AxonServerQueryBusConnector$\nLocalSegmentAdapter\n(0.0%)"; penwidth = 2; ]; "AxonServerQueryBusConnector$LocalSegmentAdapter_38715" -> central [label=2; weight=2; penwidth=0.4];
+	"EhCacheAdapter_49313"  [label = "EhCacheAdapter\n(31.24%)"; penwidth = 2; ]; "EhCacheAdapter_49313" -> central [label=2; weight=2; penwidth=0.4];
+	"JCacheAdapter_49312"  [label = "JCacheAdapter\n(31.24%)"; penwidth = 2; ]; "JCacheAdapter_49312" -> central [label=2; weight=2; penwidth=0.4];
+	"SubscribingEventProcessor_11263"  [label = "SubscribingEventProcessor\n(100.0%)"; penwidth = 5; ]; "SubscribingEventProcessor_11263" -> central [label=2; weight=2; penwidth=0.4];
+	"AggregateBasedJpaEventStorageEngine_35416"  [label = "AggregateBasedJpaEventStorageEngine\n(100.0%)"; penwidth = 2; ]; "AggregateBasedJpaEventStorageEngine_35416" -> central [label=1; weight=1; penwidth=0.4];
+	"Cache_49370"  [label = "Cache\n(31.24%)"; penwidth = 2; ]; "Cache_49370" -> central [label=1; weight=1; penwidth=0.4];
+	"DelegatingEventBus_7308"  [shape = "circle"; height=1.8; label = "DelegatingEventBus\n(0.0%)"; penwidth = 2; ]; "DelegatingEventBus_7308" -> central [label=1; weight=1; penwidth=0.4];
+	"DistributedQueryBus$DistributedHandler_13234"  [label = "DistributedQueryBus$\nDistributedHandler\n(54.33%)"; penwidth = 2; ]; "DistributedQueryBus$DistributedHandler_13234" -> central [label=1; weight=1; penwidth=0.4];
+	"EventSubscribers_6195"  [label = "EventSubscribers\n(64.03%)"; penwidth = 2; ]; "EventSubscribers_6195" -> central [label=1; weight=1; penwidth=0.4];
+	"InterceptingEventBus_11270"  [shape = "circle"; height=1.8; label = "InterceptingEventBus\n(0.0%)"; penwidth = 2; ]; "InterceptingEventBus_11270" -> central [label=1; weight=1; penwidth=0.4];
+	"InterceptingEventStore_35423"  [shape = "circle"; height=1.8; label = "InterceptingEventStore\n(0.0%)"; penwidth = 2; ]; "InterceptingEventStore_35423" -> central [label=1; weight=1; penwidth=0.4];
+	"NoCache_49318"  [label = "NoCache\n(100.0%)"; penwidth = 2; ]; "NoCache_49318" -> central [label=1; weight=1; penwidth=0.4];
+	"PayloadConvertingQueryBusConnector$1_12558"  [shape = "circle"; height=1.8; label = "PayloadConvertingQueryBusConnector$\n1\n(0.0%)"; penwidth = 2; ]; "PayloadConvertingQueryBusConnector$1_12558" -> central [label=1; weight=1; penwidth=0.4];
+	"QueryBusConnector$Handler_12559"  [shape = "circle"; height=1.8; label = "QueryBusConnector$\nHandler\n(0.0%)"; penwidth = 2; ]; "QueryBusConnector$Handler_12559" -> central [label=1; weight=1; penwidth=0.4];
+	"RecordingEventBus_30177"  [shape = "circle"; height=1.8; label = "RecordingEventBus\n(0.0%)"; penwidth = 2; ]; "RecordingEventBus_30177" -> central [label=1; weight=1; penwidth=0.4];
+	"RecordingEventStore_30178"  [shape = "circle"; height=1.8; label = "RecordingEventStore\n(0.0%)"; penwidth = 2; ]; "RecordingEventStore_30178" -> central [label=1; weight=1; penwidth=0.4];
+	"SimpleEventBus_6189"  [label = "SimpleEventBus\n(64.03%)"; penwidth = 2; ]; "SimpleEventBus_6189" -> central [label=1; weight=1; penwidth=0.4];
+	"StorageEngineBackedEventStore_33968"  [shape = "circle"; height=1.8; label = "StorageEngineBackedEventStore\n(0.0%)"; penwidth = 2; ]; "StorageEngineBackedEventStore_33968" -> central [label=1; weight=1; penwidth=0.4];
+	"SubscribableEventSource_6220"  [shape = "circle"; height=1.8; label = "SubscribableEventSource\n(0.0%)"; penwidth = 2; ]; "SubscribableEventSource_6220" -> central [label=1; weight=1; penwidth=0.4];
+	"WeakReferenceCache_49316"  [label = "WeakReferenceCache\n(61.25%)"; penwidth = 2; ]; "WeakReferenceCache_49316" -> central [label=1; weight=1; penwidth=0.4];
+	"SimpleEventBus_6189" -> "EventSubscribers_6195" [label=6; weight=6; penwidth=0.3; color = 3]
+	"PayloadConvertingQueryBusConnector$1_12558" -> "QueryBusConnector$Handler_12559" [label=5; weight=5; penwidth=0.3; color = 3]
+	"AggregateBasedJpaEventStorageEngine_35416" -> "ContinuousMessageStream_34663" [label=4; weight=4; penwidth=0.3; color = 3]
+	"InterceptingEventStore_35423" -> "InterceptingEventBus_11270" [label=4; weight=4; penwidth=0.3; color = 3]
+	"AxonServerQueryBusConnector$LocalSegmentAdapter_38715" -> "QueryBusConnector$Handler_12559" [label=3; weight=3; penwidth=0.3; color = 3]
+	"DistributedQueryBus$DistributedHandler_13234" -> "QueryBusConnector$Handler_12559" [label=2; weight=2; penwidth=0.3; color = 3]
+	"EhCacheAdapter_49313" -> "AbstractCacheAdapter_49300" [label=2; weight=2; penwidth=0.3; color = 3]
+	"JCacheAdapter_49312" -> "AbstractCacheAdapter_49300" [label=2; weight=2; penwidth=0.3; color = 3]
+	"SubscribingEventProcessor_11263" -> "SubscribableEventSource_6220" [label=2; weight=2; penwidth=0.3; color = 3]
+	"AbstractCacheAdapter_49300" -> "Cache_49370" [label=1; weight=1; penwidth=0.3; color = 3]
+	"NoCache_49318" -> "Cache_49370" [label=1; weight=1; penwidth=0.3; color = 3]
+	"WeakReferenceCache_49316" -> "Cache_49370" [label=1; weight=1; penwidth=0.3; color = 3]
 }

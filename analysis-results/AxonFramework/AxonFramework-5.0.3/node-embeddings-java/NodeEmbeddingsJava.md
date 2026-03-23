@@ -306,7 +306,7 @@ This step takes the original node embeddings in their high dimensionality, e.g. 
       <td>axon-conversion-5.0.3</td>
       <td>0</td>
       <td>1.501592</td>
-      <td>[0.40525737404823303, 0.37638407945632935, -0....</td>
+      <td>[0.44886624813079834, 0.5935465097427368, -0.0...</td>
     </tr>
     <tr>
       <th>1</th>
@@ -315,7 +315,7 @@ This step takes the original node embeddings in their high dimensionality, e.g. 
       <td>axon-conversion-5.0.3</td>
       <td>0</td>
       <td>0.154765</td>
-      <td>[0.33717307448387146, 0.4664531946182251, 0.03...</td>
+      <td>[0.4698389768600464, 0.6048622727394104, -0.10...</td>
     </tr>
     <tr>
       <th>2</th>
@@ -324,7 +324,7 @@ This step takes the original node embeddings in their high dimensionality, e.g. 
       <td>axon-conversion-5.0.3</td>
       <td>0</td>
       <td>0.150000</td>
-      <td>[0.5155348777770996, 0.48447930812835693, -0.0...</td>
+      <td>[0.4922807216644287, 0.6860561966896057, -0.09...</td>
     </tr>
     <tr>
       <th>3</th>
@@ -333,7 +333,7 @@ This step takes the original node embeddings in their high dimensionality, e.g. 
       <td>axon-conversion-5.0.3</td>
       <td>0</td>
       <td>0.151059</td>
-      <td>[0.34930917620658875, 0.333896666765213, 0.039...</td>
+      <td>[0.40810903906822205, 0.6523159146308899, 0.05...</td>
     </tr>
     <tr>
       <th>4</th>
@@ -342,7 +342,7 @@ This step takes the original node embeddings in their high dimensionality, e.g. 
       <td>axon-conversion-5.0.3</td>
       <td>0</td>
       <td>0.152647</td>
-      <td>[0.30912575125694275, 0.47509193420410156, -0....</td>
+      <td>[0.38765549659729004, 0.6447597146034241, -0.1...</td>
     </tr>
   </tbody>
 </table>
@@ -377,7 +377,7 @@ This step takes the original node embeddings in their high dimensionality, e.g. 
       <td>True</td>
       <td>1</td>
       <td>[27.239631432410533]</td>
-      <td>205</td>
+      <td>178</td>
     </tr>
   </tbody>
 </table>
@@ -407,7 +407,7 @@ This step takes the original node embeddings in their high dimensionality, e.g. 
       <th>0</th>
       <td>org.axonframework.conversion</td>
       <td>conversion</td>
-      <td>4:e1e78ec4-9b37-4c0a-976f-231ef7bb87d6:19</td>
+      <td>4:364b7bc6-f525-4c40-95d2-a0e2834c3096:19</td>
       <td>axon-conversion-5.0.3</td>
       <td>0</td>
       <td>1.501592</td>
@@ -417,7 +417,7 @@ This step takes the original node embeddings in their high dimensionality, e.g. 
       <th>1</th>
       <td>org.axonframework.conversion.jackson</td>
       <td>jackson</td>
-      <td>4:e1e78ec4-9b37-4c0a-976f-231ef7bb87d6:20</td>
+      <td>4:364b7bc6-f525-4c40-95d2-a0e2834c3096:20</td>
       <td>axon-conversion-5.0.3</td>
       <td>0</td>
       <td>0.154765</td>
@@ -427,7 +427,7 @@ This step takes the original node embeddings in their high dimensionality, e.g. 
       <th>2</th>
       <td>org.axonframework.conversion.converter</td>
       <td>converter</td>
-      <td>4:e1e78ec4-9b37-4c0a-976f-231ef7bb87d6:21</td>
+      <td>4:364b7bc6-f525-4c40-95d2-a0e2834c3096:21</td>
       <td>axon-conversion-5.0.3</td>
       <td>0</td>
       <td>0.150000</td>
@@ -437,7 +437,7 @@ This step takes the original node embeddings in their high dimensionality, e.g. 
       <th>3</th>
       <td>org.axonframework.conversion.jackson2</td>
       <td>jackson2</td>
-      <td>4:e1e78ec4-9b37-4c0a-976f-231ef7bb87d6:22</td>
+      <td>4:364b7bc6-f525-4c40-95d2-a0e2834c3096:22</td>
       <td>axon-conversion-5.0.3</td>
       <td>0</td>
       <td>0.151059</td>
@@ -447,7 +447,7 @@ This step takes the original node embeddings in their high dimensionality, e.g. 
       <th>4</th>
       <td>org.axonframework.conversion.avro</td>
       <td>avro</td>
-      <td>4:e1e78ec4-9b37-4c0a-976f-231ef7bb87d6:23</td>
+      <td>4:364b7bc6-f525-4c40-95d2-a0e2834c3096:23</td>
       <td>axon-conversion-5.0.3</td>
       <td>0</td>
       <td>0.152647</td>

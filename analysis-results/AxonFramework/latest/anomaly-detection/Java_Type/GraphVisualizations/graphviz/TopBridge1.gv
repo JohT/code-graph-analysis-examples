@@ -12,19 +12,17 @@ strict digraph TopBridge1 {
     central [fontsize = 16;];
     central [color = 7; fillcolor = 5; penwidth = 3;];
 
-	graph   [label="Top Rank #1 Java Type Bridge\norg.axonframework.common.caching.Cache\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
-	central [label="🌉 bridge #1\nCache"];
-	"AbstractCacheAdapter_49300" [label = "AbstractCacheAdapter"; ]; "AbstractCacheAdapter_49300" -> central [label=1; weight=1; penwidth=0.4];
-	"NoCache_49318" [label = "NoCache"; ]; "NoCache_49318" -> central [label=1; weight=1; penwidth=0.4];
-	"WeakReferenceCache_49316" [label = "WeakReferenceCache"; ]; "WeakReferenceCache_49316" -> central [label=1; weight=1; penwidth=0.4];
-	"Cache$EntryListener_49368" [label = "Cache$\nEntryListener"; color = 5; fillcolor = 1; ]; central -> "Cache$EntryListener_49368" [label=2; weight=2; penwidth=0.4; color = 5];
-	"Cache$EntryListenerAdapter_49311" [label = "Cache$\nEntryListenerAdapter"; color = 5; fillcolor = 1; ]; central -> "Cache$EntryListenerAdapter_49311" [label=1; weight=1; penwidth=0.4; color = 5];
-	"Registration_49367" [label = "Registration"; color = 5; fillcolor = 1; ]; central -> "Registration_49367" [label=1; weight=1; penwidth=0.4; color = 5];
-	"WeakReferenceCache_49316" -> "Cache$EntryListener_49368" [label=24; weight=24; penwidth=0.3; color = 3]
-	"AbstractCacheAdapter_49300" -> "Cache$EntryListener_49368" [label=5; weight=5; penwidth=0.3; color = 3]
-	"AbstractCacheAdapter_49300" -> "Registration_49367" [label=4; weight=4; penwidth=0.3; color = 3]
-	"Cache$EntryListenerAdapter_49311" -> "Cache$EntryListener_49368" [label=2; weight=2; penwidth=0.3; color = 3]
-	"NoCache_49318" -> "Cache$EntryListener_49368" [label=2; weight=2; penwidth=0.3; color = 3]
-	"NoCache_49318" -> "Registration_49367" [label=1; weight=1; penwidth=0.3; color = 3]
-	"WeakReferenceCache_49316" -> "Registration_49367" [label=1; weight=1; penwidth=0.3; color = 3]
+	graph   [label="Top Rank #1 Java Type Bridge\norg.axonframework.common.property.PropertyAccessStrategy\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
+	central [label="🌉 bridge #1\nPropertyAccessStrategy"];
+	"AbstractMethodPropertyAccessStrategy_49308" [label = "AbstractMethodPropertyAccessStrategy"; ]; "AbstractMethodPropertyAccessStrategy_49308" -> central [label=2; weight=2; penwidth=0.4];
+	"AnnotatedEntityModelRoutingKeyMatcher_43492" [label = "AnnotatedEntityModelRoutingKeyMatcher"; ]; "AnnotatedEntityModelRoutingKeyMatcher_43492" -> central [label=2; weight=2; penwidth=0.4];
+	"DirectPropertyAccessStrategy_49310" [label = "DirectPropertyAccessStrategy"; ]; "DirectPropertyAccessStrategy_49310" -> central [label=2; weight=2; penwidth=0.4];
+	"PropertyBasedEntityIdResolver_42204" [label = "PropertyBasedEntityIdResolver"; ]; "PropertyBasedEntityIdResolver_42204" -> central [label=1; weight=1; penwidth=0.4];
+	"PropertySequencingPolicy_20945" [label = "PropertySequencingPolicy"; ]; "PropertySequencingPolicy_20945" -> central [label=1; weight=1; penwidth=0.4];
+	"Property_49365" [label = "Property"; color = 5; fillcolor = 1; ]; central -> "Property_49365" [label=2; weight=2; penwidth=0.4; color = 5];
+	"AnnotatedEntityModelRoutingKeyMatcher_43492" -> "Property_49365" [label=9; weight=9; penwidth=0.3; color = 3]
+	"PropertyBasedEntityIdResolver_42204" -> "Property_49365" [label=4; weight=4; penwidth=0.3; color = 3]
+	"PropertySequencingPolicy_20945" -> "Property_49365" [label=2; weight=2; penwidth=0.3; color = 3]
+	"AbstractMethodPropertyAccessStrategy_49308" -> "Property_49365" [label=1; weight=1; penwidth=0.3; color = 3]
+	"DirectPropertyAccessStrategy_49310" -> "Property_49365" [label=1; weight=1; penwidth=0.3; color = 3]
 }
