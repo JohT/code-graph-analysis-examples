@@ -49,8 +49,8 @@
       <td>12.920319</td>
       <td>126.768924</td>
       <td>200.035857</td>
-      <td>539.585657</td>
-      <td>220.350598</td>
+      <td>539.609562</td>
+      <td>220.354582</td>
     </tr>
     <tr>
       <th>std</th>
@@ -58,8 +58,8 @@
       <td>42.712921</td>
       <td>432.754760</td>
       <td>159.768266</td>
-      <td>473.788184</td>
-      <td>234.735435</td>
+      <td>473.791860</td>
+      <td>234.734944</td>
     </tr>
     <tr>
       <th>min</th>
@@ -94,7 +94,7 @@
       <td>9.000000</td>
       <td>66.000000</td>
       <td>250.000000</td>
-      <td>615.000000</td>
+      <td>615.500000</td>
       <td>269.000000</td>
     </tr>
     <tr>
@@ -593,7 +593,7 @@
       <td>Matt Brophy</td>
       <td>10</td>
       <td>242</td>
-      <td>615</td>
+      <td>616</td>
       <td>241</td>
       <td>2025-07-24</td>
       <td>2024-07-15</td>
@@ -1470,8 +1470,8 @@ The following charts show how these metrics are distributed across pairs of file
       <td>tsx↔tsx</td>
       <td>16</td>
       <td>7</td>
-      <td>lib↔server</td>
-      <td>packages/react-router/lib/dom/lib.tsx↔packages/react-router/lib/dom/server.tsx</td>
+      <td>components↔server</td>
+      <td>packages/react-router/lib/components.tsx↔packages/react-router/lib/dom/server.tsx</td>
     </tr>
     <tr>
       <th>37</th>
@@ -1535,16 +1535,16 @@ This metric is useful to identify pairs of files that are frequently changed tog
       <td>ts↔ts</td>
       <td>1.000000</td>
       <td>1</td>
-      <td>vite-dev-test↔vite-absolute-base-test</td>
-      <td>integration/vite-dev-test.ts↔integration/vite-absolute-base-test.ts</td>
+      <td>vite-dev-custom-entry-test↔vite-absolute-base-test</td>
+      <td>integration/vite-dev-custom-entry-test.ts↔integration/vite-absolute-base-test.ts</td>
     </tr>
     <tr>
       <th>1</th>
       <td>ts↔ts</td>
       <td>0.800000</td>
       <td>2</td>
-      <td>vite-dotenv-test↔vite-node-env-test</td>
-      <td>integration/vite-dotenv-test.ts↔integration/vite-node-env-test.ts</td>
+      <td>vite-loader-context-test↔vite-node-env-test</td>
+      <td>integration/vite-loader-context-test.ts↔integration/vite-node-env-test.ts</td>
     </tr>
     <tr>
       <th>2</th>
@@ -1632,7 +1632,7 @@ This metric is useful to identify pairs of files that are frequently changed tog
       <td>0.694444</td>
       <td>3</td>
       <td>package↔package</td>
-      <td>examples/auth/package.json↔examples/custom-link/package.json</td>
+      <td>examples/basic/package.json↔examples/custom-link/package.json</td>
     </tr>
     <tr>
       <th>13</th>
@@ -1680,7 +1680,7 @@ This metric is useful to identify pairs of files that are frequently changed tog
       <td>0.621622</td>
       <td>9</td>
       <td>package↔package</td>
-      <td>examples/auth/package.json↔examples/modal/package.json</td>
+      <td>examples/basic/package.json↔examples/modal/package.json</td>
     </tr>
     <tr>
       <th>19</th>

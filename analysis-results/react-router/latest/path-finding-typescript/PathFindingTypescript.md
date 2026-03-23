@@ -734,7 +734,7 @@ Shows the top 20 projects with the longest shortest path (=Graph Diameter).
 
 #### All pairs shortest path for each project - Bar chart (absolute)
 
-    /tmp/ipykernel_29095/2329962485.py:20: FutureWarning: The provided callable <built-in function sum> is currently using np.sum. In a future version of pandas, the provided callable will be used directly. To keep current behavior pass the string np.sum instead.
+    /tmp/ipykernel_29239/2329962485.py:20: FutureWarning: The provided callable <built-in function sum> is currently using np.sum. In a future version of pandas, the provided callable will be used directly. To keep current behavior pass the string np.sum instead.
       data_frame = data_frame.groupby([column, "distance"], as_index=False)["pairCount"].apply(sum)
 
 
@@ -881,7 +881,7 @@ In this section we'll focus only on pairs of nodes that both belong to the same 
 
 **Note:** It is possible that a (shortest) path could have nodes in between that belong to different root projects. Therefore, the data of each root project isn't perfectly isolated. However, it shows how the dependencies interact across root projects "in real life" while still providing a decent isolation of each root project.
 
-    /tmp/ipykernel_29095/4070276133.py:8: FutureWarning: The provided callable <built-in function max> is currently using np.maximum.reduce. In a future version of pandas, the provided callable will be used directly. To keep current behavior pass the string np.maximum.reduce instead.
+    /tmp/ipykernel_29239/4070276133.py:8: FutureWarning: The provided callable <built-in function max> is currently using np.maximum.reduce. In a future version of pandas, the provided callable will be used directly. To keep current behavior pass the string np.maximum.reduce instead.
       apply(max).head(20))
 
 
@@ -973,7 +973,7 @@ Shows the top 20 root projects with the longest shortest path (=Graph Diameter).
 
 #### All pairs shortest path for each root project - Bar chart (absolute)
 
-    /tmp/ipykernel_29095/2329962485.py:20: FutureWarning: The provided callable <built-in function sum> is currently using np.sum. In a future version of pandas, the provided callable will be used directly. To keep current behavior pass the string np.sum instead.
+    /tmp/ipykernel_29239/2329962485.py:20: FutureWarning: The provided callable <built-in function sum> is currently using np.sum. In a future version of pandas, the provided callable will be used directly. To keep current behavior pass the string np.sum instead.
       data_frame = data_frame.groupby([column, "distance"], as_index=False)["pairCount"].apply(sum)
 
 
@@ -1354,7 +1354,7 @@ The following table shows the first 10 rows with all details of the query above.
       <td>10</td>
       <td>2</td>
       <td>10</td>
-      <td>[./lib/types/route-module-annotations.ts -&gt; ./index-react-server.ts, ./lib/dom/ssr/links.ts -&gt; ./index.ts, ./lib/dom/ssr/links.ts -&gt; ./lib/dom/ssr/entry.ts, ./lib/dom/ssr/links.ts -&gt; ./lib/dom/ssr/routeModules.ts]</td>
+      <td>[./lib/types/route-module-annotations.ts -&gt; ./index-react-server.ts, ./lib/types/route-module-annotations.ts -&gt; ./index.ts, ./lib/dom/ssr/links.ts -&gt; ./lib/dom/ssr/entry.ts, ./lib/types/route-module-annotations.ts -&gt; ./lib/dom/ssr/routeModules.ts]</td>
       <td>[react-router -&gt; react-router]</td>
       <td>[react-router -&gt; react-router]</td>
     </tr>
@@ -1583,7 +1583,7 @@ In this section we'll focus only on pairs of nodes that both belong to the same 
       <td>10</td>
       <td>2</td>
       <td>10</td>
-      <td>[./lib/types/route-module-annotations.ts -&gt; ./index-react-server.ts, ./lib/dom/ssr/links.ts -&gt; ./index.ts, ./lib/dom/ssr/links.ts -&gt; ./lib/dom/ssr/entry.ts, ./lib/dom/ssr/links.ts -&gt; ./lib/dom/ssr/routeModules.ts]</td>
+      <td>[./lib/types/route-module-annotations.ts -&gt; ./index-react-server.ts, ./lib/types/route-module-annotations.ts -&gt; ./index.ts, ./lib/dom/ssr/links.ts -&gt; ./lib/dom/ssr/entry.ts, ./lib/types/route-module-annotations.ts -&gt; ./lib/dom/ssr/routeModules.ts]</td>
       <td>[react-router -&gt; react-router]</td>
       <td>[react-router -&gt; react-router]</td>
     </tr>
@@ -1694,7 +1694,7 @@ Shows the top 20 projects with their max. longest path.
 
 #### Longest path for each project - Bar chart (absolute)
 
-    /tmp/ipykernel_29095/2329962485.py:20: FutureWarning: The provided callable <built-in function sum> is currently using np.sum. In a future version of pandas, the provided callable will be used directly. To keep current behavior pass the string np.sum instead.
+    /tmp/ipykernel_29239/2329962485.py:20: FutureWarning: The provided callable <built-in function sum> is currently using np.sum. In a future version of pandas, the provided callable will be used directly. To keep current behavior pass the string np.sum instead.
       data_frame = data_frame.groupby([column, "distance"], as_index=False)["pairCount"].apply(sum)
 
 
@@ -1935,7 +1935,7 @@ In this section we'll focus only on pairs of nodes that both belong to the same 
       <td>10</td>
       <td>2</td>
       <td>10</td>
-      <td>[./lib/types/route-module-annotations.ts -&gt; ./index-react-server.ts, ./lib/dom/ssr/links.ts -&gt; ./index.ts, ./lib/dom/ssr/links.ts -&gt; ./lib/dom/ssr/entry.ts, ./lib/dom/ssr/links.ts -&gt; ./lib/dom/ssr/routeModules.ts]</td>
+      <td>[./lib/types/route-module-annotations.ts -&gt; ./index-react-server.ts, ./lib/types/route-module-annotations.ts -&gt; ./index.ts, ./lib/dom/ssr/links.ts -&gt; ./lib/dom/ssr/entry.ts, ./lib/types/route-module-annotations.ts -&gt; ./lib/dom/ssr/routeModules.ts]</td>
       <td>[react-router -&gt; react-router]</td>
       <td>[react-router -&gt; react-router]</td>
     </tr>
@@ -2042,7 +2042,7 @@ Shows the top 20 root projects with their max. longest path.
 
 #### Longest path for each root project - Bar chart (absolute)
 
-    /tmp/ipykernel_29095/2329962485.py:20: FutureWarning: The provided callable <built-in function sum> is currently using np.sum. In a future version of pandas, the provided callable will be used directly. To keep current behavior pass the string np.sum instead.
+    /tmp/ipykernel_29239/2329962485.py:20: FutureWarning: The provided callable <built-in function sum> is currently using np.sum. In a future version of pandas, the provided callable will be used directly. To keep current behavior pass the string np.sum instead.
       data_frame = data_frame.groupby([column, "distance"], as_index=False)["pairCount"].apply(sum)
 
 
