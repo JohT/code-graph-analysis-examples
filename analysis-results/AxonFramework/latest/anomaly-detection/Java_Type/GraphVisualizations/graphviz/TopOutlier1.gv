@@ -12,41 +12,49 @@ strict digraph TopOutlier1 {
     central [fontsize = 16;];
     central [color = 7; fillcolor = 5; penwidth = 3;];
 
-	graph   [label="Top Rank #1 Java Type Outlier\norg.axonframework.common.Registration\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: cluster probability\nlarge circle: < 25% percentile of cluster probability\nthick outline: > 80% percentile of distance to cluster center\n\n"];
-	central [label="🧩 outlier #1\nRegistration"];
-	"ContinuousMessageStream_34663"  [shape = "circle"; height=1.8; label = "ContinuousMessageStream\n(0.0%)"; penwidth = 2; ]; "ContinuousMessageStream_34663" -> central [label=6; weight=6; penwidth=0.5];
-	"AbstractCacheAdapter_49300"  [label = "AbstractCacheAdapter\n(100.0%)"; penwidth = 2; ]; "AbstractCacheAdapter_49300" -> central [label=4; weight=4; penwidth=0.5];
-	"AxonServerRegistration_37165"  [label = "AxonServerRegistration\n(7.84%)"; penwidth = 5; ]; "AxonServerRegistration_37165" -> central [label=4; weight=4; penwidth=0.5];
-	"AxonServerQueryBusConnector$LocalSegmentAdapter_38715"  [shape = "circle"; height=1.8; label = "AxonServerQueryBusConnector$\nLocalSegmentAdapter\n(0.0%)"; penwidth = 2; ]; "AxonServerQueryBusConnector$LocalSegmentAdapter_38715" -> central [label=2; weight=2; penwidth=0.4];
-	"EhCacheAdapter_49313"  [label = "EhCacheAdapter\n(31.24%)"; penwidth = 2; ]; "EhCacheAdapter_49313" -> central [label=2; weight=2; penwidth=0.4];
-	"JCacheAdapter_49312"  [label = "JCacheAdapter\n(31.24%)"; penwidth = 2; ]; "JCacheAdapter_49312" -> central [label=2; weight=2; penwidth=0.4];
-	"SubscribingEventProcessor_11263"  [label = "SubscribingEventProcessor\n(100.0%)"; penwidth = 5; ]; "SubscribingEventProcessor_11263" -> central [label=2; weight=2; penwidth=0.4];
-	"AggregateBasedJpaEventStorageEngine_35416"  [label = "AggregateBasedJpaEventStorageEngine\n(100.0%)"; penwidth = 2; ]; "AggregateBasedJpaEventStorageEngine_35416" -> central [label=1; weight=1; penwidth=0.4];
-	"Cache_49370"  [label = "Cache\n(31.24%)"; penwidth = 2; ]; "Cache_49370" -> central [label=1; weight=1; penwidth=0.4];
-	"DelegatingEventBus_7308"  [shape = "circle"; height=1.8; label = "DelegatingEventBus\n(0.0%)"; penwidth = 2; ]; "DelegatingEventBus_7308" -> central [label=1; weight=1; penwidth=0.4];
-	"DistributedQueryBus$DistributedHandler_13234"  [label = "DistributedQueryBus$\nDistributedHandler\n(54.33%)"; penwidth = 2; ]; "DistributedQueryBus$DistributedHandler_13234" -> central [label=1; weight=1; penwidth=0.4];
-	"EventSubscribers_6195"  [label = "EventSubscribers\n(64.03%)"; penwidth = 2; ]; "EventSubscribers_6195" -> central [label=1; weight=1; penwidth=0.4];
-	"InterceptingEventBus_11270"  [shape = "circle"; height=1.8; label = "InterceptingEventBus\n(0.0%)"; penwidth = 2; ]; "InterceptingEventBus_11270" -> central [label=1; weight=1; penwidth=0.4];
-	"InterceptingEventStore_35423"  [shape = "circle"; height=1.8; label = "InterceptingEventStore\n(0.0%)"; penwidth = 2; ]; "InterceptingEventStore_35423" -> central [label=1; weight=1; penwidth=0.4];
-	"NoCache_49318"  [label = "NoCache\n(100.0%)"; penwidth = 2; ]; "NoCache_49318" -> central [label=1; weight=1; penwidth=0.4];
-	"PayloadConvertingQueryBusConnector$1_12558"  [shape = "circle"; height=1.8; label = "PayloadConvertingQueryBusConnector$\n1\n(0.0%)"; penwidth = 2; ]; "PayloadConvertingQueryBusConnector$1_12558" -> central [label=1; weight=1; penwidth=0.4];
-	"QueryBusConnector$Handler_12559"  [shape = "circle"; height=1.8; label = "QueryBusConnector$\nHandler\n(0.0%)"; penwidth = 2; ]; "QueryBusConnector$Handler_12559" -> central [label=1; weight=1; penwidth=0.4];
-	"RecordingEventBus_30177"  [shape = "circle"; height=1.8; label = "RecordingEventBus\n(0.0%)"; penwidth = 2; ]; "RecordingEventBus_30177" -> central [label=1; weight=1; penwidth=0.4];
-	"RecordingEventStore_30178"  [shape = "circle"; height=1.8; label = "RecordingEventStore\n(0.0%)"; penwidth = 2; ]; "RecordingEventStore_30178" -> central [label=1; weight=1; penwidth=0.4];
-	"SimpleEventBus_6189"  [label = "SimpleEventBus\n(64.03%)"; penwidth = 2; ]; "SimpleEventBus_6189" -> central [label=1; weight=1; penwidth=0.4];
-	"StorageEngineBackedEventStore_33968"  [shape = "circle"; height=1.8; label = "StorageEngineBackedEventStore\n(0.0%)"; penwidth = 2; ]; "StorageEngineBackedEventStore_33968" -> central [label=1; weight=1; penwidth=0.4];
-	"SubscribableEventSource_6220"  [shape = "circle"; height=1.8; label = "SubscribableEventSource\n(0.0%)"; penwidth = 2; ]; "SubscribableEventSource_6220" -> central [label=1; weight=1; penwidth=0.4];
-	"WeakReferenceCache_49316"  [label = "WeakReferenceCache\n(61.25%)"; penwidth = 2; ]; "WeakReferenceCache_49316" -> central [label=1; weight=1; penwidth=0.4];
-	"SimpleEventBus_6189" -> "EventSubscribers_6195" [label=6; weight=6; penwidth=0.3; color = 3]
-	"PayloadConvertingQueryBusConnector$1_12558" -> "QueryBusConnector$Handler_12559" [label=5; weight=5; penwidth=0.3; color = 3]
-	"AggregateBasedJpaEventStorageEngine_35416" -> "ContinuousMessageStream_34663" [label=4; weight=4; penwidth=0.3; color = 3]
-	"InterceptingEventStore_35423" -> "InterceptingEventBus_11270" [label=4; weight=4; penwidth=0.3; color = 3]
-	"AxonServerQueryBusConnector$LocalSegmentAdapter_38715" -> "QueryBusConnector$Handler_12559" [label=3; weight=3; penwidth=0.3; color = 3]
-	"DistributedQueryBus$DistributedHandler_13234" -> "QueryBusConnector$Handler_12559" [label=2; weight=2; penwidth=0.3; color = 3]
-	"EhCacheAdapter_49313" -> "AbstractCacheAdapter_49300" [label=2; weight=2; penwidth=0.3; color = 3]
-	"JCacheAdapter_49312" -> "AbstractCacheAdapter_49300" [label=2; weight=2; penwidth=0.3; color = 3]
-	"SubscribingEventProcessor_11263" -> "SubscribableEventSource_6220" [label=2; weight=2; penwidth=0.3; color = 3]
-	"AbstractCacheAdapter_49300" -> "Cache_49370" [label=1; weight=1; penwidth=0.3; color = 3]
-	"NoCache_49318" -> "Cache_49370" [label=1; weight=1; penwidth=0.3; color = 3]
-	"WeakReferenceCache_49316" -> "Cache_49370" [label=1; weight=1; penwidth=0.3; color = 3]
+	graph   [label="Top Rank #1 Java Type Outlier\norg.axonframework.common.ObjectUtils\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: cluster probability\nlarge circle: < 25% percentile of cluster probability\nthick outline: > 80% percentile of distance to cluster center\n\n"];
+	central [label="🧩 outlier #1\nObjectUtils"];
+	"AnnotationMessageTypeResolver_16675"  [shape = "circle"; height=1.8; label = "AnnotationMessageTypeResolver\n(0.0%)"; penwidth = 2; ]; "AnnotationMessageTypeResolver_16675" -> central [label=2; weight=2; penwidth=0.4];
+	"DefaultEventStoreTransaction_34071"  [label = "DefaultEventStoreTransaction\n(64.11%)"; penwidth = 2; ]; "DefaultEventStoreTransaction_34071" -> central [label=2; weight=2; penwidth=0.4];
+	"GenericMessage_5206"  [label = "GenericMessage\n(68.94%)"; penwidth = 2; ]; "GenericMessage_5206" -> central [label=2; weight=2; penwidth=0.4];
+	"GenericQueryResponseMessage_13565"  [label = "GenericQueryResponseMessage\n(100.0%)"; penwidth = 2; ]; "GenericQueryResponseMessage_13565" -> central [label=2; weight=2; penwidth=0.4];
+	"MessageTypeResolver_3752"  [shape = "circle"; height=1.8; label = "MessageTypeResolver\n(0.0%)"; penwidth = 2; ]; "MessageTypeResolver_3752" -> central [label=2; weight=2; penwidth=0.4];
+	"PooledStreamingEventProcessorConfiguration_9409"  [shape = "circle"; height=1.8; label = "PooledStreamingEventProcessorConfiguration\n(0.0%)"; penwidth = 2; ]; "PooledStreamingEventProcessorConfiguration_9409" -> central [label=2; weight=2; penwidth=0.4];
+	"AnnotationBasedEventSourcedEntityFactory_32717"  [label = "AnnotationBasedEventSourcedEntityFactory\n(100.0%)"; penwidth = 2; ]; "AnnotationBasedEventSourcedEntityFactory_32717" -> central [label=1; weight=1; penwidth=0.4];
+	"AxonServerConnectionManager$Builder_37161"  [label = "AxonServerConnectionManager$\nBuilder\n(100.0%)"; penwidth = 2; ]; "AxonServerConnectionManager$Builder_37161" -> central [label=1; weight=1; penwidth=0.4];
+	"CommandConverter_40689"  [label = "CommandConverter\n(100.0%)"; penwidth = 5; ]; "CommandConverter_40689" -> central [label=1; weight=1; penwidth=0.4];
+	"ExceptionConverter_37218"  [label = "ExceptionConverter\n(63.3%)"; penwidth = 2; ]; "ExceptionConverter_37218" -> central [label=1; weight=1; penwidth=0.4];
+	"GenericCommandMessage_5060"  [label = "GenericCommandMessage\n(67.7%)"; penwidth = 2; ]; "GenericCommandMessage_5060" -> central [label=1; weight=1; penwidth=0.4];
+	"GenericCommandResultMessage_3755"  [label = "GenericCommandResultMessage\n(100.0%)"; penwidth = 2; ]; "GenericCommandResultMessage_3755" -> central [label=1; weight=1; penwidth=0.4];
+	"GenericEventMessage_5224"  [shape = "circle"; height=1.8; label = "GenericEventMessage\n(0.0%)"; penwidth = 2; ]; "GenericEventMessage_5224" -> central [label=1; weight=1; penwidth=0.4];
+	"GenericQueryMessage_13240"  [label = "GenericQueryMessage\n(87.86%)"; penwidth = 2; ]; "GenericQueryMessage_13240" -> central [label=1; weight=1; penwidth=0.4];
+	"GenericResetContext_6202"  [label = "GenericResetContext\n(88.36%)"; penwidth = 2; ]; "GenericResetContext_6202" -> central [label=1; weight=1; penwidth=0.4];
+	"GenericResultMessage_5203"  [label = "GenericResultMessage\n(100.0%)"; penwidth = 2; ]; "GenericResultMessage_5203" -> central [label=1; weight=1; penwidth=0.4];
+	"GenericSubscriptionQueryUpdateMessage_14574"  [label = "GenericSubscriptionQueryUpdateMessage\n(100.0%)"; penwidth = 2; ]; "GenericSubscriptionQueryUpdateMessage_14574" -> central [label=1; weight=1; penwidth=0.4];
+	"InMemoryTokenStore_7319"  [shape = "circle"; height=1.8; label = "InMemoryTokenStore\n(0.0%)"; penwidth = 2; ]; "InMemoryTokenStore_7319" -> central [label=1; weight=1; penwidth=0.4];
+	"RecordingCommandBus_30161"  [label = "RecordingCommandBus\n(46.36%)"; penwidth = 2; ]; "RecordingCommandBus_30161" -> central [label=1; weight=1; penwidth=0.4];
+	"ReflectionUtils_49305"  [label = "ReflectionUtils\n(43.32%)"; penwidth = 2; ]; "ReflectionUtils_49305" -> central [label=1; weight=1; penwidth=0.4];
+	"TargetContextResolver_40726"  [label = "TargetContextResolver\n(51.97%)"; penwidth = 2; ]; "TargetContextResolver_40726" -> central [label=1; weight=1; penwidth=0.4];
+	"UpdateChecker_46465"  [label = "UpdateChecker\n(100.0%)"; penwidth = 5; ]; "UpdateChecker_46465" -> central [label=1; weight=1; penwidth=0.4];
+	"WeakReferenceCache_49316"  [label = "WeakReferenceCache\n(32.86%)"; penwidth = 2; ]; "WeakReferenceCache_49316" -> central [label=1; weight=1; penwidth=0.4];
+	"GenericCommandMessage_5060" -> "GenericMessage_5206" [label=6; weight=6; penwidth=0.3; color = 3]
+	"GenericCommandResultMessage_3755" -> "GenericResultMessage_5203" [label=6; weight=6; penwidth=0.3; color = 3]
+	"GenericEventMessage_5224" -> "GenericMessage_5206" [label=6; weight=6; penwidth=0.3; color = 3]
+	"GenericQueryResponseMessage_13565" -> "GenericMessage_5206" [label=6; weight=6; penwidth=0.3; color = 3]
+	"GenericSubscriptionQueryUpdateMessage_14574" -> "GenericMessage_5206" [label=6; weight=6; penwidth=0.3; color = 3]
+	"AnnotationBasedEventSourcedEntityFactory_32717" -> "MessageTypeResolver_3752" [label=5; weight=5; penwidth=0.3; color = 3]
+	"AnnotationMessageTypeResolver_16675" -> "MessageTypeResolver_3752" [label=5; weight=5; penwidth=0.3; color = 3]
+	"CommandConverter_40689" -> "GenericMessage_5206" [label=4; weight=4; penwidth=0.3; color = 3]
+	"GenericQueryMessage_13240" -> "GenericMessage_5206" [label=4; weight=4; penwidth=0.3; color = 3]
+	"GenericQueryResponseMessage_13565" -> "GenericResultMessage_5203" [label=4; weight=4; penwidth=0.3; color = 3]
+	"GenericResetContext_6202" -> "GenericMessage_5206" [label=4; weight=4; penwidth=0.3; color = 3]
+	"GenericResultMessage_5203" -> "GenericMessage_5206" [label=4; weight=4; penwidth=0.3; color = 3]
+	"RecordingCommandBus_30161" -> "GenericCommandResultMessage_3755" [label=4; weight=4; penwidth=0.3; color = 3]
+	"GenericSubscriptionQueryUpdateMessage_14574" -> "GenericResultMessage_5203" [label=3; weight=3; penwidth=0.3; color = 3]
+	"CommandConverter_40689" -> "GenericCommandMessage_5060" [label=2; weight=2; penwidth=0.3; color = 3]
+	"CommandConverter_40689" -> "GenericCommandResultMessage_3755" [label=2; weight=2; penwidth=0.3; color = 3]
+	"GenericCommandResultMessage_3755" -> "GenericMessage_5206" [label=2; weight=2; penwidth=0.3; color = 3]
+	"PooledStreamingEventProcessorConfiguration_9409" -> "GenericEventMessage_5224" [label=2; weight=2; penwidth=0.3; color = 3]
+	"AnnotationBasedEventSourcedEntityFactory_32717" -> "ReflectionUtils_49305" [label=1; weight=1; penwidth=0.3; color = 3]
+	"CommandConverter_40689" -> "ExceptionConverter_37218" [label=1; weight=1; penwidth=0.3; color = 3]
 }

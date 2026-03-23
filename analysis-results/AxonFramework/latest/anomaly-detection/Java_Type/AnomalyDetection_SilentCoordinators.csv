@@ -9,7 +9,7 @@
 "org.axonframework.test.fixture.AxonTestGiven","AxonTestGiven","axon-test-5.0.3",233.16666666666669,22,1,21,""
 "org.axonframework.test.extension.ProvidedAxonTestFixture","ProvidedAxonTestFixture","axon-test-5.0.3",210.49999999999997,2,1,1,""
 "org.axonframework.messaging.core.annotation.MultiHandlerDefinition","MultiHandlerDefinition","axon-messaging-5.0.3",201,9,1,8,""
-"org.axonframework.common.configuration.DecoratedComponent","DecoratedComponent","axon-common-5.0.3",188.66666666666657,9,1,8,""
+"org.axonframework.common.configuration.DecoratedComponent","DecoratedComponent","axon-common-5.0.3",188.6666666666666,9,1,8,""
 "org.axonframework.common.configuration.DecoratorDefinition$1","DecoratorDefinition$1","axon-common-5.0.3",175.00000000000009,6,1,5,""
 "org.axonframework.common.configuration.DecoratorDefinition$2","DecoratorDefinition$2","axon-common-5.0.3",175.00000000000009,6,1,5,""
 "org.axonframework.test.fixture.AxonTestThenCommand","AxonTestThenCommand","axon-test-5.0.3",167.6,14,1,13,""

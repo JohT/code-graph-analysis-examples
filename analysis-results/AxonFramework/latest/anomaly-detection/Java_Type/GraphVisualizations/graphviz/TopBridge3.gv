@@ -12,10 +12,48 @@ strict digraph TopBridge3 {
     central [fontsize = 16;];
     central [color = 7; fillcolor = 5; penwidth = 3;];
 
-	graph   [label="Top Rank #3 Java Type Bridge\norg.axonframework.axonserver.connector.util.GrpcMessageSizeWarningThresholdReachedException\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
-	central [label="🌉 bridge #3\nGrpcMessageSizeWarningThresholdReachedException"];
-	"GrpcMessageSizeInterceptor$1_37167" [label = "GrpcMessageSizeInterceptor$\n1"; ]; "GrpcMessageSizeInterceptor$1_37167" -> central [label=2; weight=2; penwidth=0.4];
-	"GrpcMessageSizeInterceptor$1$1_37745" [label = "GrpcMessageSizeInterceptor$\n1$\n1"; ]; "GrpcMessageSizeInterceptor$1$1_37745" -> central [label=2; weight=2; penwidth=0.4];
-	"GrpcMessageSizeInterceptor$1$1_37745" -> "GrpcMessageSizeInterceptor$1_37167" [label=10; weight=10; penwidth=0.3; color = 3]
-	"GrpcMessageSizeInterceptor$1_37167" -> "GrpcMessageSizeInterceptor$1$1_37745" [label=3; weight=3; penwidth=0.3; color = 3]
+	graph   [label="Top Rank #3 Java Type Bridge\norg.axonframework.messaging.eventstreaming.TagFilteredEventCriteria\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
+	central [label="🌉 bridge #3\nTagFilteredEventCriteria"];
+	"EventCriteria_8409" [label = "EventCriteria"; ]; "EventCriteria_8409" -> central [label=2; weight=2; penwidth=0.4];
+	"OrEventCriteriaBuilder_12556" [label = "OrEventCriteriaBuilder"; ]; "OrEventCriteriaBuilder_12556" -> central [label=2; weight=2; penwidth=0.4];
+	"EventCriteria_8409" [label = "EventCriteria"; color = 5; fillcolor = 1; ]; central -> "EventCriteria_8409" [label=5; weight=5; penwidth=0.5; color = 5];
+	"OrEventCriteria_12555" [label = "OrEventCriteria"; color = 5; fillcolor = 1; ]; central -> "OrEventCriteria_12555" [label=5; weight=5; penwidth=0.5; color = 5];
+	"Tag_12153" [label = "Tag"; color = 5; fillcolor = 1; ]; central -> "Tag_12153" [label=5; weight=5; penwidth=0.5; color = 5];
+	"QualifiedName_3120" [label = "QualifiedName"; color = 5; fillcolor = 1; ]; central -> "QualifiedName_3120" [label=3; weight=3; penwidth=0.4; color = 5];
+	"EventCriterion_12584" [label = "EventCriterion"; color = 5; fillcolor = 1; ]; central -> "EventCriterion_12584" [label=2; weight=2; penwidth=0.4; color = 5];
+	"TagAndTypeFilteredEventCriteria_12154" [label = "TagAndTypeFilteredEventCriteria"; color = 5; fillcolor = 1; ]; central -> "TagAndTypeFilteredEventCriteria_12154" [label=2; weight=2; penwidth=0.4; color = 5];
+	"AnyEvent_12554" [label = "AnyEvent"; color = 5; fillcolor = 1; ]; central -> "AnyEvent_12554" [label=1; weight=1; penwidth=0.4; color = 5];
+	"EventTypeRestrictableEventCriteria_8415" [label = "EventTypeRestrictableEventCriteria"; color = 5; fillcolor = 1; ]; central -> "EventTypeRestrictableEventCriteria_8415" [label=1; weight=1; penwidth=0.4; color = 5];
+	"OrEventCriteria_12555" -> "EventCriteria_8409" [label=12; weight=12; penwidth=0.3; color = 3]
+	"EventTypeRestrictableEventCriteria_8415" -> "EventCriteria_8409" [label=6; weight=6; penwidth=0.3; color = 3]
+	"OrEventCriteriaBuilder_12556" -> "EventTypeRestrictableEventCriteria_8415" [label=6; weight=6; penwidth=0.3; color = 3]
+	"OrEventCriteriaBuilder_12556" -> "EventCriteria_8409" [label=6; weight=6; penwidth=0.3; color = 3]
+	"EventCriteria_8409" -> "Tag_12153" [label=5; weight=5; penwidth=0.3; color = 3]
+	"TagAndTypeFilteredEventCriteria_12154" -> "QualifiedName_3120" [label=5; weight=5; penwidth=0.3; color = 3]
+	"TagAndTypeFilteredEventCriteria_12154" -> "Tag_12153" [label=5; weight=5; penwidth=0.3; color = 3]
+	"TagAndTypeFilteredEventCriteria_12154" -> "OrEventCriteria_12555" [label=5; weight=5; penwidth=0.3; color = 3]
+	"AnyEvent_12554" -> "EventCriteria_8409" [label=4; weight=4; penwidth=0.3; color = 3]
+	"EventCriteria_8409" -> "OrEventCriteria_12555" [label=4; weight=4; penwidth=0.3; color = 3]
+	"EventCriteria_8409" -> "EventTypeRestrictableEventCriteria_8415" [label=4; weight=4; penwidth=0.3; color = 3]
+	"TagAndTypeFilteredEventCriteria_12154" -> "EventCriteria_8409" [label=4; weight=4; penwidth=0.3; color = 3]
+	"EventCriteria_8409" -> "OrEventCriteriaBuilder_12556" [label=3; weight=3; penwidth=0.3; color = 3]
+	"EventTypeRestrictableEventCriteria_8415" -> "QualifiedName_3120" [label=3; weight=3; penwidth=0.3; color = 3]
+	"AnyEvent_12554" -> "TagAndTypeFilteredEventCriteria_12154" [label=2; weight=2; penwidth=0.3; color = 3]
+	"AnyEvent_12554" -> "QualifiedName_3120" [label=2; weight=2; penwidth=0.3; color = 3]
+	"EventCriteria_8409" -> "AnyEvent_12554" [label=2; weight=2; penwidth=0.3; color = 3]
+	"OrEventCriteria_12555" -> "QualifiedName_3120" [label=2; weight=2; penwidth=0.3; color = 3]
+	"OrEventCriteriaBuilder_12556" -> "Tag_12153" [label=2; weight=2; penwidth=0.3; color = 3]
+	"TagAndTypeFilteredEventCriteria_12154" -> "EventCriterion_12584" [label=2; weight=2; penwidth=0.3; color = 3]
+	"AnyEvent_12554" -> "EventCriterion_12584" [label=1; weight=1; penwidth=0.3; color = 3]
+	"AnyEvent_12554" -> "EventTypeRestrictableEventCriteria_8415" [label=1; weight=1; penwidth=0.3; color = 3]
+	"AnyEvent_12554" -> "Tag_12153" [label=1; weight=1; penwidth=0.3; color = 3]
+	"EventCriteria_8409" -> "QualifiedName_3120" [label=1; weight=1; penwidth=0.3; color = 3]
+	"EventCriteria_8409" -> "EventCriterion_12584" [label=1; weight=1; penwidth=0.3; color = 3]
+	"EventCriterion_12584" -> "Tag_12153" [label=1; weight=1; penwidth=0.3; color = 3]
+	"EventCriterion_12584" -> "EventCriteria_8409" [label=1; weight=1; penwidth=0.3; color = 3]
+	"EventCriterion_12584" -> "QualifiedName_3120" [label=1; weight=1; penwidth=0.3; color = 3]
+	"OrEventCriteria_12555" -> "Tag_12153" [label=1; weight=1; penwidth=0.3; color = 3]
+	"OrEventCriteria_12555" -> "AnyEvent_12554" [label=1; weight=1; penwidth=0.3; color = 3]
+	"OrEventCriteria_12555" -> "EventCriterion_12584" [label=1; weight=1; penwidth=0.3; color = 3]
+	"TagAndTypeFilteredEventCriteria_12154" -> "AnyEvent_12554" [label=1; weight=1; penwidth=0.3; color = 3]
 }

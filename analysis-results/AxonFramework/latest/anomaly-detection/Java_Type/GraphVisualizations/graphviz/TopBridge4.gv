@@ -12,10 +12,21 @@ strict digraph TopBridge4 {
     central [fontsize = 16;];
     central [color = 7; fillcolor = 5; penwidth = 3;];
 
-	graph   [label="Top Rank #4 Java Type Bridge\norg.axonframework.extension.springboot.autoconfig.AvroSchemaStoreAutoConfiguration$OnMissingDefaultSchemaStoreCondition$SchemaStoreIsMissingCondition\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
-	central [label="🌉 bridge #4\nAvroSchemaStoreAutoConfiguration$OnMissingDefaultSchemaStoreCondition$SchemaStoreIsMissingCondition"];
-	"AvroSchemaStoreAutoConfiguration_25694" [label = "AvroSchemaStoreAutoConfiguration"; ]; "AvroSchemaStoreAutoConfiguration_25694" -> central [label=1; weight=1; penwidth=0.4];
-	"AvroSchemaStoreAutoConfiguration$OnMissingDefaultSchemaStoreCondition_25464" [label = "AvroSchemaStoreAutoConfiguration$\nOnMissingDefaultSchemaStoreCondition"; ]; "AvroSchemaStoreAutoConfiguration$OnMissingDefaultSchemaStoreCondition_25464" -> central [label=1; weight=1; penwidth=0.4];
-	"AvroSchemaStoreAutoConfiguration$OnMissingDefaultSchemaStoreCondition_25464" [label = "AvroSchemaStoreAutoConfiguration$\nOnMissingDefaultSchemaStoreCondition"; color = 5; fillcolor = 1; ]; central -> "AvroSchemaStoreAutoConfiguration$OnMissingDefaultSchemaStoreCondition_25464" [label=1; weight=1; penwidth=0.4; color = 5];
-	"AvroSchemaStoreAutoConfiguration_25694" -> "AvroSchemaStoreAutoConfiguration$OnMissingDefaultSchemaStoreCondition_25464" [label=2; weight=2; penwidth=0.3; color = 3]
+	graph   [label="Top Rank #4 Java Type Bridge\norg.axonframework.messaging.eventstreaming.EventTypeRestrictableOrEventCriteria\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
+	central [label="🌉 bridge #4\nEventTypeRestrictableOrEventCriteria"];
+	"OrEventCriteriaBuilder_12556" [label = "OrEventCriteriaBuilder"; ]; "OrEventCriteriaBuilder_12556" -> central [label=2; weight=2; penwidth=0.4];
+	"EventCriteria_8409" [label = "EventCriteria"; color = 5; fillcolor = 1; ]; central -> "EventCriteria_8409" [label=4; weight=4; penwidth=0.5; color = 5];
+	"EventTypeRestrictableEventCriteria_8415" [label = "EventTypeRestrictableEventCriteria"; color = 5; fillcolor = 1; ]; central -> "EventTypeRestrictableEventCriteria_8415" [label=4; weight=4; penwidth=0.5; color = 5];
+	"OrEventCriteria_12555" [label = "OrEventCriteria"; color = 5; fillcolor = 1; ]; central -> "OrEventCriteria_12555" [label=2; weight=2; penwidth=0.4; color = 5];
+	"QualifiedName_3120" [label = "QualifiedName"; color = 5; fillcolor = 1; ]; central -> "QualifiedName_3120" [label=1; weight=1; penwidth=0.4; color = 5];
+	"OrEventCriteria_12555" -> "EventCriteria_8409" [label=12; weight=12; penwidth=0.3; color = 3]
+	"EventTypeRestrictableEventCriteria_8415" -> "EventCriteria_8409" [label=6; weight=6; penwidth=0.3; color = 3]
+	"OrEventCriteriaBuilder_12556" -> "EventTypeRestrictableEventCriteria_8415" [label=6; weight=6; penwidth=0.3; color = 3]
+	"OrEventCriteriaBuilder_12556" -> "EventCriteria_8409" [label=6; weight=6; penwidth=0.3; color = 3]
+	"EventCriteria_8409" -> "OrEventCriteria_12555" [label=4; weight=4; penwidth=0.3; color = 3]
+	"EventCriteria_8409" -> "EventTypeRestrictableEventCriteria_8415" [label=4; weight=4; penwidth=0.3; color = 3]
+	"EventCriteria_8409" -> "OrEventCriteriaBuilder_12556" [label=3; weight=3; penwidth=0.3; color = 3]
+	"EventTypeRestrictableEventCriteria_8415" -> "QualifiedName_3120" [label=3; weight=3; penwidth=0.3; color = 3]
+	"OrEventCriteria_12555" -> "QualifiedName_3120" [label=2; weight=2; penwidth=0.3; color = 3]
+	"EventCriteria_8409" -> "QualifiedName_3120" [label=1; weight=1; penwidth=0.3; color = 3]
 }

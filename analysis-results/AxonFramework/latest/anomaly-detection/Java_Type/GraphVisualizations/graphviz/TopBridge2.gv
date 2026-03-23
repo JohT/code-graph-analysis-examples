@@ -12,19 +12,21 @@ strict digraph TopBridge2 {
     central [fontsize = 16;];
     central [color = 7; fillcolor = 5; penwidth = 3;];
 
-	graph   [label="Top Rank #2 Java Type Bridge\norg.axonframework.common.caching.Cache\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
-	central [label="🌉 bridge #2\nCache"];
-	"AbstractCacheAdapter_49300" [label = "AbstractCacheAdapter"; ]; "AbstractCacheAdapter_49300" -> central [label=1; weight=1; penwidth=0.4];
-	"NoCache_49318" [label = "NoCache"; ]; "NoCache_49318" -> central [label=1; weight=1; penwidth=0.4];
-	"WeakReferenceCache_49316" [label = "WeakReferenceCache"; ]; "WeakReferenceCache_49316" -> central [label=1; weight=1; penwidth=0.4];
-	"Cache$EntryListener_49368" [label = "Cache$\nEntryListener"; color = 5; fillcolor = 1; ]; central -> "Cache$EntryListener_49368" [label=2; weight=2; penwidth=0.4; color = 5];
-	"Cache$EntryListenerAdapter_49311" [label = "Cache$\nEntryListenerAdapter"; color = 5; fillcolor = 1; ]; central -> "Cache$EntryListenerAdapter_49311" [label=1; weight=1; penwidth=0.4; color = 5];
-	"Registration_49367" [label = "Registration"; color = 5; fillcolor = 1; ]; central -> "Registration_49367" [label=1; weight=1; penwidth=0.4; color = 5];
-	"WeakReferenceCache_49316" -> "Cache$EntryListener_49368" [label=24; weight=24; penwidth=0.3; color = 3]
-	"AbstractCacheAdapter_49300" -> "Cache$EntryListener_49368" [label=5; weight=5; penwidth=0.3; color = 3]
-	"AbstractCacheAdapter_49300" -> "Registration_49367" [label=4; weight=4; penwidth=0.3; color = 3]
-	"Cache$EntryListenerAdapter_49311" -> "Cache$EntryListener_49368" [label=2; weight=2; penwidth=0.3; color = 3]
-	"NoCache_49318" -> "Cache$EntryListener_49368" [label=2; weight=2; penwidth=0.3; color = 3]
-	"NoCache_49318" -> "Registration_49367" [label=1; weight=1; penwidth=0.3; color = 3]
-	"WeakReferenceCache_49316" -> "Registration_49367" [label=1; weight=1; penwidth=0.3; color = 3]
+	graph   [label="Top Rank #2 Java Type Bridge\norg.axonframework.messaging.eventstreaming.OrEventCriteriaBuilder\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
+	central [label="🌉 bridge #2\nOrEventCriteriaBuilder"];
+	"EventCriteria_8409" [label = "EventCriteria"; ]; "EventCriteria_8409" -> central [label=3; weight=3; penwidth=0.4];
+	"EventCriteria_8409" [label = "EventCriteria"; color = 5; fillcolor = 1; ]; central -> "EventCriteria_8409" [label=6; weight=6; penwidth=0.5; color = 5];
+	"EventTypeRestrictableEventCriteria_8415" [label = "EventTypeRestrictableEventCriteria"; color = 5; fillcolor = 1; ]; central -> "EventTypeRestrictableEventCriteria_8415" [label=6; weight=6; penwidth=0.5; color = 5];
+	"EventTypeRestrictableOrEventCriteria_12557" [label = "EventTypeRestrictableOrEventCriteria"; color = 5; fillcolor = 1; ]; central -> "EventTypeRestrictableOrEventCriteria_12557" [label=2; weight=2; penwidth=0.4; color = 5];
+	"Tag_12153" [label = "Tag"; color = 5; fillcolor = 1; ]; central -> "Tag_12153" [label=2; weight=2; penwidth=0.4; color = 5];
+	"TagFilteredEventCriteria_12155" [label = "TagFilteredEventCriteria"; color = 5; fillcolor = 1; ]; central -> "TagFilteredEventCriteria_12155" [label=2; weight=2; penwidth=0.4; color = 5];
+	"EventTypeRestrictableEventCriteria_8415" -> "EventCriteria_8409" [label=6; weight=6; penwidth=0.3; color = 3]
+	"EventCriteria_8409" -> "Tag_12153" [label=5; weight=5; penwidth=0.3; color = 3]
+	"TagFilteredEventCriteria_12155" -> "EventCriteria_8409" [label=5; weight=5; penwidth=0.3; color = 3]
+	"TagFilteredEventCriteria_12155" -> "Tag_12153" [label=5; weight=5; penwidth=0.3; color = 3]
+	"EventCriteria_8409" -> "EventTypeRestrictableEventCriteria_8415" [label=4; weight=4; penwidth=0.3; color = 3]
+	"EventTypeRestrictableOrEventCriteria_12557" -> "EventTypeRestrictableEventCriteria_8415" [label=4; weight=4; penwidth=0.3; color = 3]
+	"EventTypeRestrictableOrEventCriteria_12557" -> "EventCriteria_8409" [label=4; weight=4; penwidth=0.3; color = 3]
+	"EventCriteria_8409" -> "TagFilteredEventCriteria_12155" [label=2; weight=2; penwidth=0.3; color = 3]
+	"TagFilteredEventCriteria_12155" -> "EventTypeRestrictableEventCriteria_8415" [label=1; weight=1; penwidth=0.3; color = 3]
 }
