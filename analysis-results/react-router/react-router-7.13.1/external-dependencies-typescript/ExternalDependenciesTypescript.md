@@ -75,7 +75,7 @@ Only the top 20 entries are shown. The whole table can be found in the following
       <td>436</td>
       <td>138</td>
       <td>635</td>
-      <td>[&lt;reactRouterVitePlugin&gt; of module &lt;plugin&gt; im...</td>
+      <td>[&lt;reactRouterRSCVitePlugin&gt; of module &lt;vite&gt; i...</td>
     </tr>
     <tr>
       <th>1</th>
@@ -130,7 +130,7 @@ Only the top 20 entries are shown. The whole table can be found in the following
       <td>15</td>
       <td>138</td>
       <td>635</td>
-      <td>[&lt;reactRouterVitePlugin&gt; of module &lt;plugin&gt; im...</td>
+      <td>[&lt;reactRouterRSCVitePlugin&gt; of module &lt;vite&gt; i...</td>
     </tr>
     <tr>
       <th>6</th>
@@ -152,7 +152,7 @@ Only the top 20 entries are shown. The whole table can be found in the following
       <td>43</td>
       <td>138</td>
       <td>635</td>
-      <td>[&lt;reactRouterVitePlugin&gt; of module &lt;plugin&gt; im...</td>
+      <td>[&lt;reactRouterRSCVitePlugin&gt; of module &lt;vite&gt; i...</td>
     </tr>
     <tr>
       <th>8</th>
@@ -251,7 +251,7 @@ Only the top 20 entries are shown. The whole table can be found in the following
       <td>9</td>
       <td>138</td>
       <td>635</td>
-      <td>[&lt;index&gt; of module &lt;routes&gt; imports &lt;pick&gt; fro...</td>
+      <td>[&lt;layout&gt; of module &lt;routes&gt; imports &lt;pick&gt; fr...</td>
     </tr>
     <tr>
       <th>17</th>
@@ -262,7 +262,7 @@ Only the top 20 entries are shown. The whole table can be found in the following
       <td>15</td>
       <td>138</td>
       <td>635</td>
-      <td>[&lt;reactRouterVitePlugin&gt; of module &lt;plugin&gt; im...</td>
+      <td>[&lt;reactRouterRSCVitePlugin&gt; of module &lt;vite&gt; i...</td>
     </tr>
     <tr>
       <th>18</th>
@@ -284,7 +284,7 @@ Only the top 20 entries are shown. The whole table can be found in the following
       <td>5</td>
       <td>138</td>
       <td>635</td>
-      <td>[&lt;reactRouterVitePlugin&gt; of module &lt;plugin&gt; im...</td>
+      <td>[&lt;reactRouterRSCVitePlugin&gt; of module &lt;vite&gt; i...</td>
     </tr>
   </tbody>
 </table>
@@ -587,7 +587,7 @@ external package.
       <td>0.724638</td>
       <td>1.104210</td>
       <td>1.136990</td>
-      <td>[@react-router/plugin, @react-router/vite, @re...</td>
+      <td>[@react-router/vite, @react-router/plugin, @re...</td>
     </tr>
     <tr>
       <th>1</th>
@@ -725,7 +725,7 @@ external package.
       <td>0.724638</td>
       <td>1.138716</td>
       <td>0.570142</td>
-      <td>[@react-router/plugin, @react-router/vite, @re...</td>
+      <td>[@react-router/vite, @react-router/plugin, @re...</td>
     </tr>
     <tr>
       <th>7</th>
@@ -748,7 +748,7 @@ external package.
       <td>0.724638</td>
       <td>1.138716</td>
       <td>0.570142</td>
-      <td>[@react-router/plugin, @react-router/vite, @re...</td>
+      <td>[@react-router/vite, @react-router/plugin, @re...</td>
     </tr>
     <tr>
       <th>8</th>
@@ -2246,7 +2246,7 @@ Only the first 40 entries are shown. The whole table can be found in the followi
       <td>133</td>
       <td>25</td>
       <td>3325.0</td>
-      <td>[ResolvedConfig.root, ViteDevServer, DevEnviro...</td>
+      <td>[DevEnvironment.moduleGraph, HotBroadcaster.se...</td>
     </tr>
     <tr>
       <th>1</th>
@@ -2258,7 +2258,7 @@ Only the first 40 entries are shown. The whole table can be found in the followi
       <td>133</td>
       <td>25</td>
       <td>3325.0</td>
-      <td>[PluginContext.resolve, ResolvedId.id, PluginC...</td>
+      <td>[RollupLog.pos, RollupLog.code, RollupLog.mess...</td>
     </tr>
     <tr>
       <th>2</th>
@@ -2270,7 +2270,7 @@ Only the first 40 entries are shown. The whole table can be found in the followi
       <td>133</td>
       <td>25</td>
       <td>3325.0</td>
-      <td>[rm, rename, readdir, readFile, cp, mkdir]</td>
+      <td>[readFile, rm, rename, readdir, cp, mkdir]</td>
     </tr>
     <tr>
       <th>3</th>
@@ -2282,7 +2282,7 @@ Only the first 40 entries are shown. The whole table can be found in the followi
       <td>133</td>
       <td>25</td>
       <td>3325.0</td>
-      <td>[transformAsync, BabelFileResult.code, BabelFi...</td>
+      <td>[BabelFileResult.map, transformAsync, BabelFil...</td>
     </tr>
     <tr>
       <th>4</th>
@@ -2754,7 +2754,7 @@ Only the first 40 entries are shown. The whole table can be found in the followi
       <td>133</td>
       <td>25</td>
       <td>3325.000000</td>
-      <td>[ResolvedConfig.root, ViteDevServer, DevEnviro...</td>
+      <td>[init, RollupLog.pos, dist, DevEnvironment.mod...</td>
     </tr>
     <tr>
       <th>1</th>
@@ -2766,7 +2766,7 @@ Only the first 40 entries are shown. The whole table can be found in the followi
       <td>133</td>
       <td>25</td>
       <td>3325.000000</td>
-      <td>[path.PlatformPath.relative, pick, GeneratorRe...</td>
+      <td>[BabelFileResult.map, global.NodeRequire.resol...</td>
     </tr>
     <tr>
       <th>2</th>
@@ -2922,7 +2922,7 @@ Only the first 40 entries are shown. The whole table can be found in the followi
       <td>141</td>
       <td>26</td>
       <td>783.333333</td>
-      <td>[ResolvedConfig.root, ViteDevServer, DevEnviro...</td>
+      <td>[picocolors, ResolvedConfig, Plugin, resolveCo...</td>
     </tr>
     <tr>
       <th>15</th>
@@ -2946,7 +2946,7 @@ Only the first 40 entries are shown. The whole table can be found in the followi
       <td>14</td>
       <td>6</td>
       <td>700.000000</td>
-      <td>[node:process, .emitKeypressEvents, beep, curs...</td>
+      <td>[node:process, .emitKeypressEvents, beep, .cre...</td>
     </tr>
     <tr>
       <th>17</th>
@@ -3150,7 +3150,7 @@ Only the first 40 entries are shown. The whole table can be found in the followi
       <td>8</td>
       <td>2</td>
       <td>400.000000</td>
-      <td>[cursor.move, cursor.save, cursor.down, Key, c...</td>
+      <td>[cursor.down, cursor.move, erase, cursor.save,...</td>
     </tr>
     <tr>
       <th>34</th>
@@ -3162,7 +3162,7 @@ Only the first 40 entries are shown. The whole table can be found in the followi
       <td>4</td>
       <td>1</td>
       <td>400.000000</td>
-      <td>[KVNamespace.get, Crypto.getRandomValues, KVNa...</td>
+      <td>[KVNamespace.delete, KVNamespace.put, Crypto.g...</td>
     </tr>
     <tr>
       <th>35</th>
@@ -3174,7 +3174,7 @@ Only the first 40 entries are shown. The whole table can be found in the followi
       <td>22</td>
       <td>2</td>
       <td>366.666667</td>
-      <td>[EventContext.passThroughOnException, EventCon...</td>
+      <td>[EventContext.request, Request.cf, EventContex...</td>
     </tr>
     <tr>
       <th>36</th>
@@ -3186,7 +3186,7 @@ Only the first 40 entries are shown. The whole table can be found in the followi
       <td>18</td>
       <td>2</td>
       <td>360.000000</td>
-      <td>[EventContext.request, Response.status, Respon...</td>
+      <td>[Request.headers, EventContext, Response, Requ...</td>
     </tr>
     <tr>
       <th>37</th>
@@ -3222,7 +3222,7 @@ Only the first 40 entries are shown. The whole table can be found in the followi
       <td>9</td>
       <td>5</td>
       <td>300.000000</td>
-      <td>[Session.post, picocolors, .writeFileSync, nod...</td>
+      <td>[Session.connect, .Session, Session.post, Sess...</td>
     </tr>
   </tbody>
 </table>
