@@ -4,10 +4,11 @@ on:
   pull_request:
     branches:
       - main
-    # Only watch root level Markdown documentation file changes
+    # Only watch root level Markdown documentation file changes and latest analysis results
     paths:
       - 'README.md'
       - '.github/workflows/check-links-in-documentation.yml' # also run when this file was changed
+      - 'analysis-results/**/latest/**' # also run when latest analysis results change
   schedule:
     - cron: "50 7 * * 1" # Every week at 07:50 AM on Monday 
 
