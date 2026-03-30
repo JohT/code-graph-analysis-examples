@@ -14,6 +14,6 @@ strict digraph TopAuthority2 {
 
 	graph   [label="Top Rank #2 Java Type Authority\norg.axonframework.common.TypeReference$1\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: Page Rank (normalized)\nlarge circle: > 80% percentile of Page Rank\nthick outline: > 80% percentile of Page Rank to Article Rank Difference\n\n"];
 	central [label="🏛️ authority #2\nTypeReference$1"];
-	"TypeReference_49296"  [shape = "circle"; height=2; label = "TypeReference\n(100.0%)"; penwidth = 5; ]; "TypeReference_49296" -> central [label=3; weight=3; penwidth=0.4];
-	"TypeReference_49296"  [shape = "circle"; height=2; label = "TypeReference\n(100.0%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "TypeReference_49296" [label=3; weight=3; penwidth=0.4; color = 5];
+	"TypeReference_5237"  [shape = "circle"; height=2; label = "TypeReference\n(100.0%)"; penwidth = 5; ]; "TypeReference_5237" -> central [label=3; weight=3; penwidth=0.4];
+	"TypeReference_5237"  [shape = "circle"; height=2; label = "TypeReference\n(100.0%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "TypeReference_5237" [label=3; weight=3; penwidth=0.4; color = 5];
 }

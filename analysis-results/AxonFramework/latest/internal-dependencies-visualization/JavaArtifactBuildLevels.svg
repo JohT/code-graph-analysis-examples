@@ -199,7 +199,7 @@
 <text xml:space="preserve" text-anchor="middle" x="839.07" y="-607.4" font-family="Helvetica,Arial,sans-serif" font-size="10.00">16</text>
 </g>
 <!-- axon&#45;spring&#45;boot&#45;autoconfigure&#45;5.0.3\n(level 1/7)&#45;&gt;axon&#45;server&#45;connector&#45;5.0.3\n(level 2/7) -->
-<g id="edge22" class="edge">
+<g id="edge23" class="edge">
 <title>axon&#45;spring&#45;boot&#45;autoconfigure&#45;5.0.3\n(level 1/7)&#45;&gt;axon&#45;server&#45;connector&#45;5.0.3\n(level 2/7)</title>
 <path fill="none" stroke="#1178b2" stroke-width="1.07" d="M765.34,-690.99C717,-675.11 654.67,-654.62 605.34,-638.41"/>
 <polygon fill="#1178b2" stroke="#1178b2" stroke-width="1.07" points="606.52,-635.12 595.93,-635.32 604.33,-641.77 606.52,-635.12"/>
@@ -227,7 +227,7 @@
 <text xml:space="preserve" text-anchor="middle" x="1016.15" y="-520.97" font-family="Helvetica,Arial,sans-serif" font-size="14.00">(level 2/7)</text>
 </g>
 <!-- axon&#45;spring&#45;boot&#45;autoconfigure&#45;5.0.3\n(level 1/7)&#45;&gt;axon&#45;update&#45;5.0.3\n(level 2/7) -->
-<g id="edge23" class="edge">
+<g id="edge22" class="edge">
 <title>axon&#45;spring&#45;boot&#45;autoconfigure&#45;5.0.3\n(level 1/7)&#45;&gt;axon&#45;update&#45;5.0.3\n(level 2/7)</title>
 <path fill="none" stroke="#1178b2" stroke-width="1.07" d="M904.61,-689.68C914.43,-683.96 924.02,-677.33 932.15,-669.82 961.63,-642.6 984.69,-602.76 999.13,-573.36"/>
 <polygon fill="#1178b2" stroke="#1178b2" stroke-width="1.07" points="1002.21,-575.04 1003.36,-564.51 995.89,-572.03 1002.21,-575.04"/>

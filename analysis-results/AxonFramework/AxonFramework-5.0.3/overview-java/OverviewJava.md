@@ -33,8 +33,8 @@
   <tbody>
     <tr>
       <th>0</th>
-      <td>537826</td>
-      <td>1668493</td>
+      <td>537827</td>
+      <td>1668574</td>
       <td>11</td>
       <td>128</td>
       <td>1822</td>
@@ -80,15 +80,15 @@ The whole table can be found in the CSV report `Number_of_types_per_artifact`.
       <th>1</th>
       <td>axon-messaging-5.0.3</td>
       <td>579</td>
-      <td>Annotation</td>
-      <td>26</td>
+      <td>Class</td>
+      <td>379</td>
     </tr>
     <tr>
       <th>2</th>
       <td>axon-messaging-5.0.3</td>
       <td>579</td>
-      <td>Class</td>
-      <td>379</td>
+      <td>Annotation</td>
+      <td>26</td>
     </tr>
     <tr>
       <th>3</th>
@@ -115,15 +115,15 @@ The whole table can be found in the CSV report `Number_of_types_per_artifact`.
       <th>6</th>
       <td>axon-common-5.0.3</td>
       <td>156</td>
-      <td>Enum</td>
-      <td>4</td>
+      <td>Annotation</td>
+      <td>2</td>
     </tr>
     <tr>
       <th>7</th>
       <td>axon-common-5.0.3</td>
       <td>156</td>
-      <td>Annotation</td>
-      <td>2</td>
+      <td>Enum</td>
+      <td>4</td>
     </tr>
     <tr>
       <th>8</th>
@@ -199,22 +199,22 @@ The whole table can be found in the CSV report `Number_of_types_per_artifact`.
       <th>18</th>
       <td>axon-spring-boot-autoconfigure-5.0.3</td>
       <td>75</td>
-      <td>Interface</td>
-      <td>1</td>
+      <td>Annotation</td>
+      <td>3</td>
     </tr>
     <tr>
       <th>19</th>
       <td>axon-spring-boot-autoconfigure-5.0.3</td>
       <td>75</td>
-      <td>Annotation</td>
-      <td>3</td>
+      <td>Enum</td>
+      <td>2</td>
     </tr>
     <tr>
       <th>20</th>
       <td>axon-spring-boot-autoconfigure-5.0.3</td>
       <td>75</td>
-      <td>Enum</td>
-      <td>2</td>
+      <td>Interface</td>
+      <td>1</td>
     </tr>
     <tr>
       <th>21</th>
@@ -592,17 +592,17 @@ The whole table can be found in the CSV report `Number_of_packages_per_artifact`
     </tr>
     <tr>
       <th>2</th>
-      <td>axon-spring-boot-autoconfigure-5.0.3</td>
-      <td>7</td>
-    </tr>
-    <tr>
-      <th>3</th>
       <td>axon-eventsourcing-5.0.3</td>
       <td>7</td>
     </tr>
     <tr>
-      <th>4</th>
+      <th>3</th>
       <td>axon-modelling-5.0.3</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>axon-spring-boot-autoconfigure-5.0.3</td>
       <td>7</td>
     </tr>
     <tr>
@@ -617,12 +617,12 @@ The whole table can be found in the CSV report `Number_of_packages_per_artifact`
     </tr>
     <tr>
       <th>7</th>
-      <td>axon-server-connector-5.0.3</td>
+      <td>axon-update-5.0.3</td>
       <td>5</td>
     </tr>
     <tr>
       <th>8</th>
-      <td>axon-update-5.0.3</td>
+      <td>axon-server-connector-5.0.3</td>
       <td>5</td>
     </tr>
     <tr>

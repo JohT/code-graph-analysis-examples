@@ -12,49 +12,27 @@ strict digraph TopOutlier1 {
     central [fontsize = 16;];
     central [color = 7; fillcolor = 5; penwidth = 3;];
 
-	graph   [label="Top Rank #1 Java Type Outlier\norg.axonframework.common.ObjectUtils\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: cluster probability\nlarge circle: < 25% percentile of cluster probability\nthick outline: > 80% percentile of distance to cluster center\n\n"];
-	central [label="🧩 outlier #1\nObjectUtils"];
-	"AnnotationMessageTypeResolver_16675"  [shape = "circle"; height=1.8; label = "AnnotationMessageTypeResolver\n(0.0%)"; penwidth = 2; ]; "AnnotationMessageTypeResolver_16675" -> central [label=2; weight=2; penwidth=0.4];
-	"DefaultEventStoreTransaction_34071"  [label = "DefaultEventStoreTransaction\n(64.11%)"; penwidth = 2; ]; "DefaultEventStoreTransaction_34071" -> central [label=2; weight=2; penwidth=0.4];
-	"GenericMessage_5206"  [label = "GenericMessage\n(68.94%)"; penwidth = 2; ]; "GenericMessage_5206" -> central [label=2; weight=2; penwidth=0.4];
-	"GenericQueryResponseMessage_13565"  [label = "GenericQueryResponseMessage\n(100.0%)"; penwidth = 2; ]; "GenericQueryResponseMessage_13565" -> central [label=2; weight=2; penwidth=0.4];
-	"MessageTypeResolver_3752"  [shape = "circle"; height=1.8; label = "MessageTypeResolver\n(0.0%)"; penwidth = 2; ]; "MessageTypeResolver_3752" -> central [label=2; weight=2; penwidth=0.4];
-	"PooledStreamingEventProcessorConfiguration_9409"  [shape = "circle"; height=1.8; label = "PooledStreamingEventProcessorConfiguration\n(0.0%)"; penwidth = 2; ]; "PooledStreamingEventProcessorConfiguration_9409" -> central [label=2; weight=2; penwidth=0.4];
-	"AnnotationBasedEventSourcedEntityFactory_32717"  [label = "AnnotationBasedEventSourcedEntityFactory\n(100.0%)"; penwidth = 2; ]; "AnnotationBasedEventSourcedEntityFactory_32717" -> central [label=1; weight=1; penwidth=0.4];
-	"AxonServerConnectionManager$Builder_37161"  [label = "AxonServerConnectionManager$\nBuilder\n(100.0%)"; penwidth = 2; ]; "AxonServerConnectionManager$Builder_37161" -> central [label=1; weight=1; penwidth=0.4];
-	"CommandConverter_40689"  [label = "CommandConverter\n(100.0%)"; penwidth = 5; ]; "CommandConverter_40689" -> central [label=1; weight=1; penwidth=0.4];
-	"ExceptionConverter_37218"  [label = "ExceptionConverter\n(63.3%)"; penwidth = 2; ]; "ExceptionConverter_37218" -> central [label=1; weight=1; penwidth=0.4];
-	"GenericCommandMessage_5060"  [label = "GenericCommandMessage\n(67.7%)"; penwidth = 2; ]; "GenericCommandMessage_5060" -> central [label=1; weight=1; penwidth=0.4];
-	"GenericCommandResultMessage_3755"  [label = "GenericCommandResultMessage\n(100.0%)"; penwidth = 2; ]; "GenericCommandResultMessage_3755" -> central [label=1; weight=1; penwidth=0.4];
-	"GenericEventMessage_5224"  [shape = "circle"; height=1.8; label = "GenericEventMessage\n(0.0%)"; penwidth = 2; ]; "GenericEventMessage_5224" -> central [label=1; weight=1; penwidth=0.4];
-	"GenericQueryMessage_13240"  [label = "GenericQueryMessage\n(87.86%)"; penwidth = 2; ]; "GenericQueryMessage_13240" -> central [label=1; weight=1; penwidth=0.4];
-	"GenericResetContext_6202"  [label = "GenericResetContext\n(88.36%)"; penwidth = 2; ]; "GenericResetContext_6202" -> central [label=1; weight=1; penwidth=0.4];
-	"GenericResultMessage_5203"  [label = "GenericResultMessage\n(100.0%)"; penwidth = 2; ]; "GenericResultMessage_5203" -> central [label=1; weight=1; penwidth=0.4];
-	"GenericSubscriptionQueryUpdateMessage_14574"  [label = "GenericSubscriptionQueryUpdateMessage\n(100.0%)"; penwidth = 2; ]; "GenericSubscriptionQueryUpdateMessage_14574" -> central [label=1; weight=1; penwidth=0.4];
-	"InMemoryTokenStore_7319"  [shape = "circle"; height=1.8; label = "InMemoryTokenStore\n(0.0%)"; penwidth = 2; ]; "InMemoryTokenStore_7319" -> central [label=1; weight=1; penwidth=0.4];
-	"RecordingCommandBus_30161"  [label = "RecordingCommandBus\n(46.36%)"; penwidth = 2; ]; "RecordingCommandBus_30161" -> central [label=1; weight=1; penwidth=0.4];
-	"ReflectionUtils_49305"  [label = "ReflectionUtils\n(43.32%)"; penwidth = 2; ]; "ReflectionUtils_49305" -> central [label=1; weight=1; penwidth=0.4];
-	"TargetContextResolver_40726"  [label = "TargetContextResolver\n(51.97%)"; penwidth = 2; ]; "TargetContextResolver_40726" -> central [label=1; weight=1; penwidth=0.4];
-	"UpdateChecker_46465"  [label = "UpdateChecker\n(100.0%)"; penwidth = 5; ]; "UpdateChecker_46465" -> central [label=1; weight=1; penwidth=0.4];
-	"WeakReferenceCache_49316"  [label = "WeakReferenceCache\n(32.86%)"; penwidth = 2; ]; "WeakReferenceCache_49316" -> central [label=1; weight=1; penwidth=0.4];
-	"GenericCommandMessage_5060" -> "GenericMessage_5206" [label=6; weight=6; penwidth=0.3; color = 3]
-	"GenericCommandResultMessage_3755" -> "GenericResultMessage_5203" [label=6; weight=6; penwidth=0.3; color = 3]
-	"GenericEventMessage_5224" -> "GenericMessage_5206" [label=6; weight=6; penwidth=0.3; color = 3]
-	"GenericQueryResponseMessage_13565" -> "GenericMessage_5206" [label=6; weight=6; penwidth=0.3; color = 3]
-	"GenericSubscriptionQueryUpdateMessage_14574" -> "GenericMessage_5206" [label=6; weight=6; penwidth=0.3; color = 3]
-	"AnnotationBasedEventSourcedEntityFactory_32717" -> "MessageTypeResolver_3752" [label=5; weight=5; penwidth=0.3; color = 3]
-	"AnnotationMessageTypeResolver_16675" -> "MessageTypeResolver_3752" [label=5; weight=5; penwidth=0.3; color = 3]
-	"CommandConverter_40689" -> "GenericMessage_5206" [label=4; weight=4; penwidth=0.3; color = 3]
-	"GenericQueryMessage_13240" -> "GenericMessage_5206" [label=4; weight=4; penwidth=0.3; color = 3]
-	"GenericQueryResponseMessage_13565" -> "GenericResultMessage_5203" [label=4; weight=4; penwidth=0.3; color = 3]
-	"GenericResetContext_6202" -> "GenericMessage_5206" [label=4; weight=4; penwidth=0.3; color = 3]
-	"GenericResultMessage_5203" -> "GenericMessage_5206" [label=4; weight=4; penwidth=0.3; color = 3]
-	"RecordingCommandBus_30161" -> "GenericCommandResultMessage_3755" [label=4; weight=4; penwidth=0.3; color = 3]
-	"GenericSubscriptionQueryUpdateMessage_14574" -> "GenericResultMessage_5203" [label=3; weight=3; penwidth=0.3; color = 3]
-	"CommandConverter_40689" -> "GenericCommandMessage_5060" [label=2; weight=2; penwidth=0.3; color = 3]
-	"CommandConverter_40689" -> "GenericCommandResultMessage_3755" [label=2; weight=2; penwidth=0.3; color = 3]
-	"GenericCommandResultMessage_3755" -> "GenericMessage_5206" [label=2; weight=2; penwidth=0.3; color = 3]
-	"PooledStreamingEventProcessorConfiguration_9409" -> "GenericEventMessage_5224" [label=2; weight=2; penwidth=0.3; color = 3]
-	"AnnotationBasedEventSourcedEntityFactory_32717" -> "ReflectionUtils_49305" [label=1; weight=1; penwidth=0.3; color = 3]
-	"CommandConverter_40689" -> "ExceptionConverter_37218" [label=1; weight=1; penwidth=0.3; color = 3]
+	graph   [label="Top Rank #1 Java Type Outlier\norg.axonframework.axonserver.connector.query.AbstractQueryResponseMessageStream\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: cluster probability\nlarge circle: < 25% percentile of cluster probability\nthick outline: > 80% percentile of distance to cluster center\n\n"];
+	central [label="🧩 outlier #1\nAbstractQueryResponseMessageStream"];
+	"QueryResponseMessageStream_42762"  [label = "QueryResponseMessageStream\n(6.31%)"; penwidth = 5; ]; "QueryResponseMessageStream_42762" -> central [label=2; weight=2; penwidth=0.4];
+	"QueryUpdateMessageStream_42760"  [label = "QueryUpdateMessageStream\n(6.31%)"; penwidth = 2; ]; "QueryUpdateMessageStream_42760" -> central [label=2; weight=2; penwidth=0.4];
+	"QueryResponseMessage_26240"  [shape = "circle"; height=1.8; label = "QueryResponseMessage\n(0.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "QueryResponseMessage_26240" [label=5; weight=5; penwidth=0.5; color = 5];
+	"MessageStream$Entry_17776"  [shape = "circle"; height=1.8; label = "MessageStream$\nEntry\n(0.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "MessageStream$Entry_17776" [label=4; weight=4; penwidth=0.5; color = 5];
+	"SimpleEntry_31479"  [shape = "circle"; height=1.8; label = "SimpleEntry\n(0.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "SimpleEntry_31479" [label=2; weight=2; penwidth=0.4; color = 5];
+	"AxonException_4013"  [label = "AxonException\n(33.79%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "AxonException_4013" [label=1; weight=1; penwidth=0.4; color = 5];
+	"Context_23056"  [shape = "circle"; height=1.8; label = "Context\n(0.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "Context_23056" [label=1; weight=1; penwidth=0.4; color = 5];
+	"Internal_4198"  [shape = "circle"; height=1.8; label = "Internal\n(0.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "Internal_4198" [label=1; weight=1; penwidth=0.4; color = 5];
+	"MessageStream_16593"  [label = "MessageStream\n(26.64%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "MessageStream_16593" [label=1; weight=1; penwidth=0.4; color = 5];
+	"MessageStream_16593" -> "Context_23056" [label=19; weight=19; penwidth=0.3; color = 3]
+	"MessageStream_16593" -> "MessageStream$Entry_17776" [label=13; weight=13; penwidth=0.3; color = 3]
+	"MessageStream_16593" -> "SimpleEntry_31479" [label=9; weight=9; penwidth=0.3; color = 3]
+	"SimpleEntry_31479" -> "Context_23056" [label=9; weight=9; penwidth=0.3; color = 3]
+	"SimpleEntry_31479" -> "MessageStream$Entry_17776" [label=4; weight=4; penwidth=0.3; color = 3]
+	"MessageStream$Entry_17776" -> "Context_23056" [label=2; weight=2; penwidth=0.3; color = 3]
+	"QueryResponseMessageStream_42762" -> "AxonException_4013" [label=2; weight=2; penwidth=0.3; color = 3]
+	"QueryResponseMessageStream_42762" -> "QueryResponseMessage_26240" [label=2; weight=2; penwidth=0.3; color = 3]
+	"QueryUpdateMessageStream_42760" -> "QueryResponseMessage_26240" [label=2; weight=2; penwidth=0.3; color = 3]
+	"QueryUpdateMessageStream_42760" -> "AxonException_4013" [label=2; weight=2; penwidth=0.3; color = 3]
+	"Context_23056" -> "Internal_4198" [label=1; weight=1; penwidth=0.3; color = 3]
+	"QueryResponseMessageStream_42762" -> "Internal_4198" [label=1; weight=1; penwidth=0.3; color = 3]
 }

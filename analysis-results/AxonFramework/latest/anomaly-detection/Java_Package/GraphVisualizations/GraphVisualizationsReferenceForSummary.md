@@ -46,5 +46,3 @@
 
 ![TopOutlier 1](./Java_Package/GraphVisualizations/TopOutlier1.svg)
 
-![TopOutlier 2](./Java_Package/GraphVisualizations/TopOutlier2.svg)
-

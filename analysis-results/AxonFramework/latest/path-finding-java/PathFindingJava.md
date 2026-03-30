@@ -131,7 +131,7 @@ Creates a in-memory projection of "Java:Package" nodes and their "DEPENDS_ON" re
       <td>120</td>
       <td>764</td>
       <td>0.053501</td>
-      <td>2663365</td>
+      <td>2728933</td>
       <td>0</td>
       <td>6.366667</td>
       <td>35</td>
@@ -686,7 +686,7 @@ In this section we'll focus only on pairs of nodes that both belong to the same 
       <td>286</td>
       <td>59</td>
       <td>39</td>
-      <td>[/org/axonframework/messaging/eventhandling/configuration -&gt; /org/axonframework/messaging/monitoring/interception, /org/axonframework/messaging/eventhandling/processing/streaming/pooled -&gt; /org/axonframework/messaging/monitoring/configuration, /org/axonframework/messaging/eventhandling/processin...</td>
+      <td>[/org/axonframework/messaging/eventhandling/processing/streaming/pooled -&gt; /org/axonframework/messaging/monitoring/configuration, /org/axonframework/messaging/eventhandling/processing/subscribing -&gt; /org/axonframework/messaging/monitoring/configuration, /org/axonframework/messaging/eventhandling...</td>
       <td>[axon-messaging-5.0.3 -&gt; axon-messaging-5.0.3]</td>
       <td>[]</td>
     </tr>
@@ -724,7 +724,7 @@ In this section we'll focus only on pairs of nodes that both belong to the same 
       <td>192</td>
       <td>39</td>
       <td>12</td>
-      <td>[/org/axonframework/messaging/eventhandling/replay -&gt; /org/axonframework/messaging/commandhandling, /org/axonframework/messaging/eventhandling/processing/streaming/token -&gt; /org/axonframework/messaging/commandhandling, /org/axonframework/messaging/queryhandling/distributed -&gt; /org/axonframework/...</td>
+      <td>[/org/axonframework/messaging/eventhandling/replay -&gt; /org/axonframework/messaging/commandhandling, /org/axonframework/messaging/eventhandling/processing/streaming/token -&gt; /org/axonframework/messaging/commandhandling, /org/axonframework/messaging/eventhandling/conversion -&gt; /org/axonframework/m...</td>
       <td>[axon-messaging-5.0.3 -&gt; axon-messaging-5.0.3]</td>
       <td>[]</td>
     </tr>
@@ -1194,11 +1194,11 @@ The following table shows the first 10 rows with all details of the query above.
       <td>28</td>
       <td>3</td>
       <td>28</td>
-      <td>19</td>
+      <td>18</td>
       <td>1</td>
-      <td>19</td>
-      <td>[/org/axonframework/extension/metrics/micrometer/springboot -&gt; /org/axonframework/conversion/jackson, /org/axonframework/extension/metrics/micrometer/springboot -&gt; /org/axonframework/conversion/jackson2, /org/axonframework/extension/metrics/micrometer/springboot -&gt; /org/axonframework/conversion/...</td>
-      <td>[axon-metrics-micrometer-5.0.3 -&gt; axon-conversion-5.0.3, axon-metrics-micrometer-5.0.3 -&gt; axon-messaging-5.0.3, axon-metrics-micrometer-5.0.3 -&gt; axon-spring-boot-autoconfigure-5.0.3, axon-metrics-micrometer-5.0.3 -&gt; axon-eventsourcing-5.0.3]</td>
+      <td>18</td>
+      <td>[/org/axonframework/extension/metrics/micrometer/springboot -&gt; /org/axonframework/eventsourcing/eventstore/jpa, /org/axonframework/extension/metrics/micrometer/springboot -&gt; /org/axonframework/conversion/jackson, /org/axonframework/extension/metrics/micrometer/springboot -&gt; /org/axonframework/co...</td>
+      <td>[axon-metrics-micrometer-5.0.3 -&gt; axon-eventsourcing-5.0.3, axon-metrics-micrometer-5.0.3 -&gt; axon-conversion-5.0.3, axon-metrics-micrometer-5.0.3 -&gt; axon-messaging-5.0.3, axon-metrics-micrometer-5.0.3 -&gt; axon-update-5.0.3]</td>
       <td>[]</td>
     </tr>
     <tr>
@@ -1213,11 +1213,11 @@ The following table shows the first 10 rows with all details of the query above.
       <td>22</td>
       <td>2</td>
       <td>22</td>
-      <td>20</td>
+      <td>19</td>
       <td>1</td>
-      <td>20</td>
-      <td>[/org/axonframework/extension/metrics/micrometer/springboot -&gt; /org/axonframework/conversion, /org/axonframework/extension/metrics/micrometer/springboot -&gt; /org/axonframework/messaging/eventhandling/conversion, /org/axonframework/extension/metrics/micrometer/springboot -&gt; /org/axonframework/mess...</td>
-      <td>[axon-metrics-micrometer-5.0.3 -&gt; axon-conversion-5.0.3, axon-metrics-micrometer-5.0.3 -&gt; axon-messaging-5.0.3, axon-metrics-micrometer-5.0.3 -&gt; axon-spring-boot-autoconfigure-5.0.3, axon-metrics-micrometer-5.0.3 -&gt; axon-test-5.0.3]</td>
+      <td>19</td>
+      <td>[/org/axonframework/extension/metrics/micrometer/springboot -&gt; /org/axonframework/test/server, /org/axonframework/extension/metrics/micrometer/springboot -&gt; /org/axonframework/common/io, /org/axonframework/extension/metrics/micrometer/springboot -&gt; /org/axonframework/common/jdbc, /org/axonframew...</td>
+      <td>[axon-metrics-micrometer-5.0.3 -&gt; axon-test-5.0.3, axon-metrics-micrometer-5.0.3 -&gt; axon-common-5.0.3, axon-metrics-micrometer-5.0.3 -&gt; axon-eventsourcing-5.0.3, axon-metrics-micrometer-5.0.3 -&gt; axon-conversion-5.0.3]</td>
       <td>[]</td>
     </tr>
     <tr>
@@ -1232,11 +1232,11 @@ The following table shows the first 10 rows with all details of the query above.
       <td>10</td>
       <td>2</td>
       <td>10</td>
-      <td>8</td>
+      <td>7</td>
       <td>1</td>
-      <td>8</td>
-      <td>[/org/axonframework/extension/metrics/micrometer/springboot -&gt; /org/axonframework/messaging/commandhandling, /org/axonframework/extension/metrics/micrometer/springboot -&gt; /org/axonframework/messaging/eventhandling, /org/axonframework/extension/metrics/micrometer/springboot -&gt; /org/axonframework/...</td>
-      <td>[axon-metrics-micrometer-5.0.3 -&gt; axon-messaging-5.0.3, axon-metrics-micrometer-5.0.3 -&gt; axon-update-5.0.3, axon-metrics-micrometer-5.0.3 -&gt; axon-common-5.0.3]</td>
+      <td>7</td>
+      <td>[/org/axonframework/extension/metrics/micrometer/springboot -&gt; /org/axonframework/common/tx, /org/axonframework/extension/metrics/micrometer/springboot -&gt; /org/axonframework/common/function, /org/axonframework/extension/metrics/micrometer/springboot -&gt; /org/axonframework/messaging/commandhandlin...</td>
+      <td>[axon-metrics-micrometer-5.0.3 -&gt; axon-common-5.0.3, axon-metrics-micrometer-5.0.3 -&gt; axon-messaging-5.0.3, axon-metrics-micrometer-5.0.3 -&gt; axon-update-5.0.3]</td>
       <td>[]</td>
     </tr>
   </tbody>
@@ -1559,7 +1559,7 @@ Creates a in-memory projection of "Java:Artifact" nodes and their "DEPENDS_ON" r
       <td>11</td>
       <td>30</td>
       <td>0.272727</td>
-      <td>2660823</td>
+      <td>2693607</td>
       <td>0</td>
       <td>2.727273</td>
       <td>7</td>

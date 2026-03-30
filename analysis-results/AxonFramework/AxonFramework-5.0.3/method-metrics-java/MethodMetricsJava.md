@@ -1348,7 +1348,7 @@ The following table shows the top 30 packages with the highest effective lines o
       <td>319</td>
       <td>121</td>
       <td>11</td>
-      <td>advanceTo</td>
+      <td>unwrap</td>
     </tr>
     <tr>
       <th>16</th>
@@ -1429,7 +1429,7 @@ The following table shows the top 30 packages with the highest effective lines o
       <td>234</td>
       <td>85</td>
       <td>13</td>
-      <td>lambda$computeIfPresent$4</td>
+      <td>computeIfAbsent</td>
     </tr>
     <tr>
       <th>25</th>
@@ -2526,7 +2526,7 @@ The following table shows the top 30 packages with the highest cyclomatic comple
       <td>248</td>
       <td>121</td>
       <td>7</td>
-      <td>covers</td>
+      <td>unwrap</td>
     </tr>
     <tr>
       <th>12</th>
@@ -2535,7 +2535,7 @@ The following table shows the top 30 packages with the highest cyclomatic comple
       <td>242</td>
       <td>186</td>
       <td>6</td>
-      <td>commit</td>
+      <td>runNextPhase</td>
     </tr>
     <tr>
       <th>8</th>
@@ -2544,7 +2544,7 @@ The following table shows the top 30 packages with the highest cyclomatic comple
       <td>218</td>
       <td>162</td>
       <td>4</td>
-      <td>appendEvents</td>
+      <td>releaseSegment</td>
     </tr>
     <tr>
       <th>11</th>
@@ -2553,7 +2553,7 @@ The following table shows the top 30 packages with the highest cyclomatic comple
       <td>216</td>
       <td>172</td>
       <td>4</td>
-      <td>subscribe</td>
+      <td>query</td>
     </tr>
     <tr>
       <th>10</th>
@@ -2607,7 +2607,7 @@ The following table shows the top 30 packages with the highest cyclomatic comple
       <td>147</td>
       <td>94</td>
       <td>8</td>
-      <td>equals</td>
+      <td>isDifferent</td>
     </tr>
     <tr>
       <th>24</th>
@@ -2634,7 +2634,7 @@ The following table shows the top 30 packages with the highest cyclomatic comple
       <td>139</td>
       <td>136</td>
       <td>2</td>
-      <td>batchSize</td>
+      <td>processorMode</td>
     </tr>
     <tr>
       <th>20</th>
@@ -2652,7 +2652,7 @@ The following table shows the top 30 packages with the highest cyclomatic comple
       <td>127</td>
       <td>90</td>
       <td>6</td>
-      <td>sendResponses</td>
+      <td>responseSendingLoop</td>
     </tr>
     <tr>
       <th>17</th>
@@ -2679,7 +2679,7 @@ The following table shows the top 30 packages with the highest cyclomatic comple
       <td>119</td>
       <td>92</td>
       <td>4</td>
-      <td>havingTags</td>
+      <td>or</td>
     </tr>
     <tr>
       <th>28</th>
@@ -2706,7 +2706,7 @@ The following table shows the top 30 packages with the highest cyclomatic comple
       <td>106</td>
       <td>64</td>
       <td>6</td>
-      <td>equals</td>
+      <td>validateSegment</td>
     </tr>
     <tr>
       <th>30</th>
@@ -2939,7 +2939,7 @@ The following table shows the top 30 packages containing the methods with the hi
       <td>axon-test-5.0.3</td>
       <td>org.axonframework.test.extension</td>
       <td>ProvidedAxonTestFixtureUtils</td>
-      <td>validateValueUsage</td>
+      <td>findOnMethods</td>
       <td>8</td>
     </tr>
     <tr>
@@ -2956,8 +2956,8 @@ The following table shows the top 30 packages containing the methods with the hi
       <td>21</td>
       <td>axon-messaging-5.0.3</td>
       <td>org.axonframework.messaging.eventhandling.proc...</td>
-      <td>TrackerStatus</td>
-      <td>equals</td>
+      <td>EventTrackerStatus</td>
+      <td>isDifferent</td>
       <td>8</td>
     </tr>
     <tr>

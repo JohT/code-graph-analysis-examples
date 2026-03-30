@@ -14,83 +14,83 @@ strict digraph TopHub1 {
 
 	graph   [label="Top Rank #1 Java Type Hub\norg.axonframework.messaging.core.unitofwork.ProcessingContext\n\nnodes: incoming dependencies (limited max. 40)\nnode value: local clustering coefficient\nthick outline: <1 0% percentile of local clustering coefficient\n\n"];
 	central [label="🎡 hub #1\nProcessingContext\n(in-degree=227)"];
-	"ResourceOverridingProcessingContext_16022"  [label = "ResourceOverridingProcessingContext\n(0.48)"; penwidth = 2; ]; "ResourceOverridingProcessingContext_16022" -> central [label=67; weight=67; penwidth=1.4];
-	"EventSourcingRepository_32561"  [label = "EventSourcingRepository\n(0.17)"; penwidth = 2; ]; "EventSourcingRepository_32561" -> central [label=23; weight=23; penwidth=0.8];
-	"DefaultEventStoreTransaction_34071"  [label = "DefaultEventStoreTransaction\n(0.24)"; penwidth = 2; ]; "DefaultEventStoreTransaction_34071" -> central [label=21; weight=21; penwidth=0.7];
-	"ProcessingLifecycle_10471"  [label = "ProcessingLifecycle\n(0.44)"; penwidth = 2; ]; "ProcessingLifecycle_10471" -> central [label=18; weight=18; penwidth=0.7];
-	"WorkPackage_8422"  [label = "WorkPackage\n(0.29)"; penwidth = 2; ]; "WorkPackage_8422" -> central [label=16; weight=16; penwidth=0.6];
-	"InterceptingEventStore_35423"  [label = "InterceptingEventStore\n(0.22)"; penwidth = 2; ]; "InterceptingEventStore_35423" -> central [label=15; weight=15; penwidth=0.6];
-	"SimpleEventBus_6189"  [label = "SimpleEventBus\n(0.16)"; penwidth = 2; ]; "SimpleEventBus_6189" -> central [label=14; weight=14; penwidth=0.6];
-	"InMemoryTokenStore_7319"  [label = "InMemoryTokenStore\n(0.11)"; penwidth = 2; ]; "InMemoryTokenStore_7319" -> central [label=13; weight=13; penwidth=0.6];
-	"JpaTokenStore_8392"  [label = "JpaTokenStore\n(0.11)"; penwidth = 2; ]; "JpaTokenStore_8392" -> central [label=13; weight=13; penwidth=0.6];
-	"SimpleRepository_45122"  [label = "SimpleRepository\n(0.31)"; penwidth = 2; ]; "SimpleRepository_45122" -> central [label=13; weight=13; penwidth=0.6];
-	"JdbcTokenStore_8386"  [label = "JdbcTokenStore\n(0.09)"; penwidth = 2; ]; "JdbcTokenStore_8386" -> central [label=12; weight=12; penwidth=0.6];
-	"StorageEngineBackedEventStore_33968"  [label = "StorageEngineBackedEventStore\n(0.17)"; penwidth = 2; ]; "StorageEngineBackedEventStore_33968" -> central [label=12; weight=12; penwidth=0.6];
-	"TokenStore_7322"  [label = "TokenStore\n(0.32)"; penwidth = 2; ]; "TokenStore_7322" -> central [label=12; weight=12; penwidth=0.6];
-	"UnitOfWork$UnitOfWorkProcessingContext_21375"  [label = "UnitOfWork$\nUnitOfWorkProcessingContext\n(0.38)"; penwidth = 2; ]; "UnitOfWork$UnitOfWorkProcessingContext_21375" -> central [label=12; weight=12; penwidth=0.6];
-	"SimpleQueryBus_14571"  [label = "SimpleQueryBus\n(0.11)"; penwidth = 2; ]; "SimpleQueryBus_14571" -> central [label=11; weight=11; penwidth=0.6];
-	"AnnotationBasedEventSourcedEntityFactory$ScannedEntityCreator_33161"  [label = "AnnotationBasedEventSourcedEntityFactory$\nScannedEntityCreator\n(0.46)"; penwidth = 2; ]; "AnnotationBasedEventSourcedEntityFactory$ScannedEntityCreator_33161" -> central [label=10; weight=10; penwidth=0.6];
-	"QueryGateway_14659"  [label = "QueryGateway\n(0.3)"; penwidth = 2; ]; "QueryGateway_14659" -> central [label=9; weight=9; penwidth=0.5];
-	"UnitOfWorkTimeoutInterceptorBuilder_23056"  [label = "UnitOfWorkTimeoutInterceptorBuilder\n(0.19)"; penwidth = 2; ]; "UnitOfWorkTimeoutInterceptorBuilder_23056" -> central [label=9; weight=9; penwidth=0.5];
-	"DefaultDispatchInterceptorRegistry_18834"  [label = "DefaultDispatchInterceptorRegistry\n(0.18)"; penwidth = 2; ]; "DefaultDispatchInterceptorRegistry_18834" -> central [label=8; weight=8; penwidth=0.5];
-	"InterceptorChainParameterResolverFactory_16674"  [label = "InterceptorChainParameterResolverFactory\n(0.33)"; penwidth = 2; ]; "InterceptorChainParameterResolverFactory_16674" -> central [label=8; weight=8; penwidth=0.5];
-	"MergeTask_10461"  [label = "MergeTask\n(0.42)"; penwidth = 2; ]; "MergeTask_10461" -> central [label=7; weight=7; penwidth=0.5];
-	"MessageHandlerInterceptorDefinition$ResultHandlingInterceptorMember_18842"  [label = "MessageHandlerInterceptorDefinition$\nResultHandlingInterceptorMember\n(0.31)"; penwidth = 2; ]; "MessageHandlerInterceptorDefinition$ResultHandlingInterceptorMember_18842" -> central [label=7; weight=7; penwidth=0.5];
-	"MethodInvokingMessageHandlingMember_15724"  [label = "MethodInvokingMessageHandlingMember\n(0.22)"; penwidth = 2; ]; "MethodInvokingMessageHandlingMember_15724" -> central [label=7; weight=7; penwidth=0.5];
-	"MonitoringCommandHandlerInterceptor_2019"  [label = "MonitoringCommandHandlerInterceptor\n(0.29)"; penwidth = 2; ]; "MonitoringCommandHandlerInterceptor_2019" -> central [label=7; weight=7; penwidth=0.5];
-	"MonitoringEventDispatchInterceptor_2995"  [label = "MonitoringEventDispatchInterceptor\n(0.27)"; penwidth = 2; ]; "MonitoringEventDispatchInterceptor_2995" -> central [label=7; weight=7; penwidth=0.5];
-	"MonitoringEventHandlerInterceptor_2020"  [label = "MonitoringEventHandlerInterceptor\n(0.27)"; penwidth = 2; ]; "MonitoringEventHandlerInterceptor_2020" -> central [label=7; weight=7; penwidth=0.5];
-	"MonitoringQueryHandlerInterceptor_2021"  [label = "MonitoringQueryHandlerInterceptor\n(0.27)"; penwidth = 2; ]; "MonitoringQueryHandlerInterceptor_2021" -> central [label=7; weight=7; penwidth=0.5];
-	"MonitoringSubscriptionQueryUpdateDispatchInterceptor_2022"  [label = "MonitoringSubscriptionQueryUpdateDispatchInterceptor\n(0.27)"; penwidth = 2; ]; "MonitoringSubscriptionQueryUpdateDispatchInterceptor_2022" -> central [label=7; weight=7; penwidth=0.5];
-	"SplitTask_9413"  [label = "SplitTask\n(0.47)"; penwidth = 2; ]; "SplitTask_9413" -> central [label=7; weight=7; penwidth=0.5];
-	"DefaultHandlerInterceptorRegistry_18258"  [label = "DefaultHandlerInterceptorRegistry\n(0.19)"; penwidth = 2; ]; "DefaultHandlerInterceptorRegistry_18258" -> central [label=6; weight=6; penwidth=0.5];
-	"DefaultMessageDispatchInterceptorChain$InterceptingDispatcher_19924"  [label = "DefaultMessageDispatchInterceptorChain$\nInterceptingDispatcher\n(0.76)"; penwidth = 2; ]; "DefaultMessageDispatchInterceptorChain$InterceptingDispatcher_19924" -> central [label=6; weight=6; penwidth=0.5];
-	"DefaultQueryGateway_14572"  [label = "DefaultQueryGateway\n(0.23)"; penwidth = 2; ]; "DefaultQueryGateway_14572" -> central [label=6; weight=6; penwidth=0.5];
-	"EventAppender_5230"  [label = "EventAppender\n(0.25)"; penwidth = 2; ]; "EventAppender_5230" -> central [label=6; weight=6; penwidth=0.5];
-	"InMemoryRepository_45845"  [label = "InMemoryRepository\n(0.4)"; penwidth = 2; ]; "InMemoryRepository_45845" -> central [label=6; weight=6; penwidth=0.5];
-	"InterceptingQueryBus_13241"  [label = "InterceptingQueryBus\n(0.32)"; penwidth = 2; ]; "InterceptingQueryBus_13241" -> central [label=6; weight=6; penwidth=0.5];
-	"QueryUpdateEmitter_13564"  [label = "QueryUpdateEmitter\n(0.22)"; penwidth = 2; ]; "QueryUpdateEmitter_13564" -> central [label=6; weight=6; penwidth=0.5];
-	"RecordingEventStore_30178"  [label = "RecordingEventStore\n(0.18)"; penwidth = 2; ]; "RecordingEventStore_30178" -> central [label=6; weight=6; penwidth=0.5];
-	"AnnotatedEntityMetamodel_42381"  [label = "AnnotatedEntityMetamodel\n(0.11)"; penwidth = 2; ]; "AnnotatedEntityMetamodel_42381" -> central [label=5; weight=5; penwidth=0.5];
-	"CommandGateway_4085"  [label = "CommandGateway\n(0.44)"; penwidth = 2; ]; "CommandGateway_4085" -> central [label=5; weight=5; penwidth=0.5];
-	"CommandSequencingInterceptor_4195"  [label = "CommandSequencingInterceptor\n(0.38)"; penwidth = 2; ]; "CommandSequencingInterceptor_4195" -> central [label=5; weight=5; penwidth=0.5];
-	"Context$ResourceKey_3721"  [label = "Context$\nResourceKey\n(0.09)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "Context$ResourceKey_3721" [label=9; weight=9; penwidth=0.5; color = 5];
-	"Context_8401"  [label = "Context\n(0.23)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "Context_8401" [label=2; weight=2; penwidth=0.4; color = 5];
-	"ResourceOverridingProcessingContext_16022"  [label = "ResourceOverridingProcessingContext\n(0.48)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "ResourceOverridingProcessingContext_16022" [label=2; weight=2; penwidth=0.4; color = 5];
-	"ApplicationContext_10470"  [label = "ApplicationContext\n(0.24)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "ApplicationContext_10470" [label=1; weight=1; penwidth=0.4; color = 5];
-	"ProcessingLifecycle_10471"  [label = "ProcessingLifecycle\n(0.44)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "ProcessingLifecycle_10471" [label=1; weight=1; penwidth=0.4; color = 5];
-	"ResourceOverridingProcessingContext_16022" -> "ProcessingLifecycle_10471" [label=17; weight=17; penwidth=0.3; color = 3]
-	"UnitOfWork$UnitOfWorkProcessingContext_21375" -> "Context$ResourceKey_3721" [label=13; weight=13; penwidth=0.3; color = 3]
-	"ResourceOverridingProcessingContext_16022" -> "Context$ResourceKey_3721" [label=12; weight=12; penwidth=0.3; color = 3]
-	"InMemoryRepository_45845" -> "SimpleRepository_45122" [label=9; weight=9; penwidth=0.3; color = 3]
-	"MergeTask_10461" -> "TokenStore_7322" [label=9; weight=9; penwidth=0.3; color = 3]
-	"SplitTask_9413" -> "TokenStore_7322" [label=8; weight=8; penwidth=0.3; color = 3]
-	"DefaultEventStoreTransaction_34071" -> "Context$ResourceKey_3721" [label=7; weight=7; penwidth=0.3; color = 3]
-	"SplitTask_9413" -> "WorkPackage_8422" [label=7; weight=7; penwidth=0.3; color = 3]
-	"Context_8401" -> "Context$ResourceKey_3721" [label=6; weight=6; penwidth=0.3; color = 3]
-	"InterceptingEventStore_35423" -> "Context$ResourceKey_3721" [label=5; weight=5; penwidth=0.3; color = 3]
-	"MergeTask_10461" -> "WorkPackage_8422" [label=4; weight=4; penwidth=0.3; color = 3]
-	"UnitOfWork$UnitOfWorkProcessingContext_21375" -> "ApplicationContext_10470" [label=4; weight=4; penwidth=0.3; color = 3]
-	"EventAppender_5230" -> "Context$ResourceKey_3721" [label=3; weight=3; penwidth=0.3; color = 3]
-	"EventSourcingRepository_32561" -> "Context$ResourceKey_3721" [label=3; weight=3; penwidth=0.3; color = 3]
-	"InterceptorChainParameterResolverFactory_16674" -> "Context$ResourceKey_3721" [label=3; weight=3; penwidth=0.3; color = 3]
-	"QueryUpdateEmitter_13564" -> "Context$ResourceKey_3721" [label=3; weight=3; penwidth=0.3; color = 3]
-	"SimpleEventBus_6189" -> "Context$ResourceKey_3721" [label=3; weight=3; penwidth=0.3; color = 3]
-	"SimpleQueryBus_14571" -> "Context$ResourceKey_3721" [label=3; weight=3; penwidth=0.3; color = 3]
-	"SimpleRepository_45122" -> "Context$ResourceKey_3721" [label=3; weight=3; penwidth=0.3; color = 3]
-	"StorageEngineBackedEventStore_33968" -> "Context$ResourceKey_3721" [label=3; weight=3; penwidth=0.3; color = 3]
-	"StorageEngineBackedEventStore_33968" -> "DefaultEventStoreTransaction_34071" [label=3; weight=3; penwidth=0.3; color = 3]
-	"UnitOfWork$UnitOfWorkProcessingContext_21375" -> "ProcessingLifecycle_10471" [label=3; weight=3; penwidth=0.3; color = 3]
-	"UnitOfWorkTimeoutInterceptorBuilder_23056" -> "Context$ResourceKey_3721" [label=3; weight=3; penwidth=0.3; color = 3]
-	"WorkPackage_8422" -> "TokenStore_7322" [label=3; weight=3; penwidth=0.3; color = 3]
-	"WorkPackage_8422" -> "Context_8401" [label=3; weight=3; penwidth=0.3; color = 3]
-	"InterceptorChainParameterResolverFactory_16674" -> "ResourceOverridingProcessingContext_16022" [label=2; weight=2; penwidth=0.3; color = 3]
-	"WorkPackage_8422" -> "Context$ResourceKey_3721" [label=2; weight=2; penwidth=0.3; color = 3]
-	"AnnotationBasedEventSourcedEntityFactory$ScannedEntityCreator_33161" -> "Context$ResourceKey_3721" [label=1; weight=1; penwidth=0.3; color = 3]
-	"DefaultQueryGateway_14572" -> "QueryGateway_14659" [label=1; weight=1; penwidth=0.3; color = 3]
-	"InMemoryTokenStore_7319" -> "TokenStore_7322" [label=1; weight=1; penwidth=0.3; color = 3]
-	"JdbcTokenStore_8386" -> "TokenStore_7322" [label=1; weight=1; penwidth=0.3; color = 3]
-	"JpaTokenStore_8392" -> "TokenStore_7322" [label=1; weight=1; penwidth=0.3; color = 3]
-	"MessageHandlerInterceptorDefinition$ResultHandlingInterceptorMember_18842" -> "InterceptorChainParameterResolverFactory_16674" [label=1; weight=1; penwidth=0.3; color = 3]
-	"SimpleQueryBus_14571" -> "Context_8401" [label=1; weight=1; penwidth=0.3; color = 3]
+	"ResourceOverridingProcessingContext_31488"  [label = "ResourceOverridingProcessingContext\n(0.48)"; penwidth = 2; ]; "ResourceOverridingProcessingContext_31488" -> central [label=67; weight=67; penwidth=1.4];
+	"EventSourcingRepository_9270"  [label = "EventSourcingRepository\n(0.17)"; penwidth = 2; ]; "EventSourcingRepository_9270" -> central [label=23; weight=23; penwidth=0.8];
+	"DefaultEventStoreTransaction_11460"  [label = "DefaultEventStoreTransaction\n(0.24)"; penwidth = 2; ]; "DefaultEventStoreTransaction_11460" -> central [label=21; weight=21; penwidth=0.7];
+	"ProcessingLifecycle_23955"  [label = "ProcessingLifecycle\n(0.44)"; penwidth = 2; ]; "ProcessingLifecycle_23955" -> central [label=18; weight=18; penwidth=0.7];
+	"WorkPackage_23039"  [label = "WorkPackage\n(0.29)"; penwidth = 2; ]; "WorkPackage_23039" -> central [label=16; weight=16; penwidth=0.6];
+	"InterceptingEventStore_11533"  [label = "InterceptingEventStore\n(0.22)"; penwidth = 2; ]; "InterceptingEventStore_11533" -> central [label=15; weight=15; penwidth=0.6];
+	"SimpleEventBus_20918"  [label = "SimpleEventBus\n(0.16)"; penwidth = 2; ]; "SimpleEventBus_20918" -> central [label=14; weight=14; penwidth=0.6];
+	"InMemoryTokenStore_20915"  [label = "InMemoryTokenStore\n(0.11)"; penwidth = 2; ]; "InMemoryTokenStore_20915" -> central [label=13; weight=13; penwidth=0.6];
+	"JpaTokenStore_22061"  [label = "JpaTokenStore\n(0.11)"; penwidth = 2; ]; "JpaTokenStore_22061" -> central [label=13; weight=13; penwidth=0.6];
+	"SimpleRepository_48702"  [label = "SimpleRepository\n(0.31)"; penwidth = 2; ]; "SimpleRepository_48702" -> central [label=13; weight=13; penwidth=0.6];
+	"JdbcTokenStore_22055"  [label = "JdbcTokenStore\n(0.09)"; penwidth = 2; ]; "JdbcTokenStore_22055" -> central [label=12; weight=12; penwidth=0.6];
+	"StorageEngineBackedEventStore_11528"  [label = "StorageEngineBackedEventStore\n(0.17)"; penwidth = 2; ]; "StorageEngineBackedEventStore_11528" -> central [label=12; weight=12; penwidth=0.6];
+	"TokenStore_21003"  [label = "TokenStore\n(0.32)"; penwidth = 2; ]; "TokenStore_21003" -> central [label=12; weight=12; penwidth=0.6];
+	"UnitOfWork$UnitOfWorkProcessingContext_35696"  [label = "UnitOfWork$\nUnitOfWorkProcessingContext\n(0.38)"; penwidth = 2; ]; "UnitOfWork$UnitOfWorkProcessingContext_35696" -> central [label=12; weight=12; penwidth=0.6];
+	"SimpleQueryBus_28302"  [label = "SimpleQueryBus\n(0.11)"; penwidth = 2; ]; "SimpleQueryBus_28302" -> central [label=11; weight=11; penwidth=0.6];
+	"AnnotationBasedEventSourcedEntityFactory$ScannedEntityCreator_9870"  [label = "AnnotationBasedEventSourcedEntityFactory$\nScannedEntityCreator\n(0.46)"; penwidth = 2; ]; "AnnotationBasedEventSourcedEntityFactory$ScannedEntityCreator_9870" -> central [label=10; weight=10; penwidth=0.6];
+	"QueryGateway_28341"  [label = "QueryGateway\n(0.3)"; penwidth = 2; ]; "QueryGateway_28341" -> central [label=9; weight=9; penwidth=0.5];
+	"UnitOfWorkTimeoutInterceptorBuilder_36746"  [label = "UnitOfWorkTimeoutInterceptorBuilder\n(0.19)"; penwidth = 2; ]; "UnitOfWorkTimeoutInterceptorBuilder_36746" -> central [label=9; weight=9; penwidth=0.5];
+	"DefaultDispatchInterceptorRegistry_32077"  [label = "DefaultDispatchInterceptorRegistry\n(0.18)"; penwidth = 2; ]; "DefaultDispatchInterceptorRegistry_32077" -> central [label=8; weight=8; penwidth=0.5];
+	"InterceptorChainParameterResolverFactory_31383"  [label = "InterceptorChainParameterResolverFactory\n(0.33)"; penwidth = 2; ]; "InterceptorChainParameterResolverFactory_31383" -> central [label=8; weight=8; penwidth=0.5];
+	"MergeTask_23958"  [label = "MergeTask\n(0.42)"; penwidth = 2; ]; "MergeTask_23958" -> central [label=7; weight=7; penwidth=0.5];
+	"MessageHandlerInterceptorDefinition$ResultHandlingInterceptorMember_32420"  [label = "MessageHandlerInterceptorDefinition$\nResultHandlingInterceptorMember\n(0.31)"; penwidth = 2; ]; "MessageHandlerInterceptorDefinition$ResultHandlingInterceptorMember_32420" -> central [label=7; weight=7; penwidth=0.5];
+	"MethodInvokingMessageHandlingMember_30084"  [label = "MethodInvokingMessageHandlingMember\n(0.22)"; penwidth = 2; ]; "MethodInvokingMessageHandlingMember_30084" -> central [label=7; weight=7; penwidth=0.5];
+	"MonitoringCommandHandlerInterceptor_16821"  [label = "MonitoringCommandHandlerInterceptor\n(0.29)"; penwidth = 2; ]; "MonitoringCommandHandlerInterceptor_16821" -> central [label=7; weight=7; penwidth=0.5];
+	"MonitoringEventDispatchInterceptor_16822"  [label = "MonitoringEventDispatchInterceptor\n(0.27)"; penwidth = 2; ]; "MonitoringEventDispatchInterceptor_16822" -> central [label=7; weight=7; penwidth=0.5];
+	"MonitoringEventHandlerInterceptor_15790"  [label = "MonitoringEventHandlerInterceptor\n(0.27)"; penwidth = 2; ]; "MonitoringEventHandlerInterceptor_15790" -> central [label=7; weight=7; penwidth=0.5];
+	"MonitoringQueryHandlerInterceptor_16819"  [label = "MonitoringQueryHandlerInterceptor\n(0.27)"; penwidth = 2; ]; "MonitoringQueryHandlerInterceptor_16819" -> central [label=7; weight=7; penwidth=0.5];
+	"MonitoringSubscriptionQueryUpdateDispatchInterceptor_16820"  [label = "MonitoringSubscriptionQueryUpdateDispatchInterceptor\n(0.27)"; penwidth = 2; ]; "MonitoringSubscriptionQueryUpdateDispatchInterceptor_16820" -> central [label=7; weight=7; penwidth=0.5];
+	"SplitTask_24052"  [label = "SplitTask\n(0.47)"; penwidth = 2; ]; "SplitTask_24052" -> central [label=7; weight=7; penwidth=0.5];
+	"DefaultHandlerInterceptorRegistry_32076"  [label = "DefaultHandlerInterceptorRegistry\n(0.19)"; penwidth = 2; ]; "DefaultHandlerInterceptorRegistry_32076" -> central [label=6; weight=6; penwidth=0.5];
+	"DefaultMessageDispatchInterceptorChain$InterceptingDispatcher_34078"  [label = "DefaultMessageDispatchInterceptorChain$\nInterceptingDispatcher\n(0.76)"; penwidth = 2; ]; "DefaultMessageDispatchInterceptorChain$InterceptingDispatcher_34078" -> central [label=6; weight=6; penwidth=0.5];
+	"DefaultQueryGateway_28300"  [label = "DefaultQueryGateway\n(0.23)"; penwidth = 2; ]; "DefaultQueryGateway_28300" -> central [label=6; weight=6; penwidth=0.5];
+	"EventAppender_19802"  [label = "EventAppender\n(0.25)"; penwidth = 2; ]; "EventAppender_19802" -> central [label=6; weight=6; penwidth=0.5];
+	"InMemoryRepository_49352"  [label = "InMemoryRepository\n(0.4)"; penwidth = 2; ]; "InMemoryRepository_49352" -> central [label=6; weight=6; penwidth=0.5];
+	"InterceptingQueryBus_27298"  [label = "InterceptingQueryBus\n(0.32)"; penwidth = 2; ]; "InterceptingQueryBus_27298" -> central [label=6; weight=6; penwidth=0.5];
+	"QueryUpdateEmitter_26930"  [label = "QueryUpdateEmitter\n(0.22)"; penwidth = 2; ]; "QueryUpdateEmitter_26930" -> central [label=6; weight=6; penwidth=0.5];
+	"RecordingEventStore_109"  [label = "RecordingEventStore\n(0.18)"; penwidth = 2; ]; "RecordingEventStore_109" -> central [label=6; weight=6; penwidth=0.5];
+	"AnnotatedEntityMetamodel_45732"  [label = "AnnotatedEntityMetamodel\n(0.11)"; penwidth = 2; ]; "AnnotatedEntityMetamodel_45732" -> central [label=5; weight=5; penwidth=0.5];
+	"CommandGateway_18875"  [label = "CommandGateway\n(0.44)"; penwidth = 2; ]; "CommandGateway_18875" -> central [label=5; weight=5; penwidth=0.5];
+	"CommandSequencingInterceptor_17851"  [label = "CommandSequencingInterceptor\n(0.38)"; penwidth = 2; ]; "CommandSequencingInterceptor_17851" -> central [label=5; weight=5; penwidth=0.5];
+	"Context$ResourceKey_18542"  [label = "Context$\nResourceKey\n(0.09)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "Context$ResourceKey_18542" [label=9; weight=9; penwidth=0.5; color = 5];
+	"Context_23056"  [label = "Context\n(0.23)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "Context_23056" [label=2; weight=2; penwidth=0.4; color = 5];
+	"ResourceOverridingProcessingContext_31488"  [label = "ResourceOverridingProcessingContext\n(0.48)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "ResourceOverridingProcessingContext_31488" [label=2; weight=2; penwidth=0.4; color = 5];
+	"ApplicationContext_23954"  [label = "ApplicationContext\n(0.24)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "ApplicationContext_23954" [label=1; weight=1; penwidth=0.4; color = 5];
+	"ProcessingLifecycle_23955"  [label = "ProcessingLifecycle\n(0.44)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "ProcessingLifecycle_23955" [label=1; weight=1; penwidth=0.4; color = 5];
+	"ResourceOverridingProcessingContext_31488" -> "ProcessingLifecycle_23955" [label=17; weight=17; penwidth=0.3; color = 3]
+	"UnitOfWork$UnitOfWorkProcessingContext_35696" -> "Context$ResourceKey_18542" [label=13; weight=13; penwidth=0.3; color = 3]
+	"ResourceOverridingProcessingContext_31488" -> "Context$ResourceKey_18542" [label=12; weight=12; penwidth=0.3; color = 3]
+	"InMemoryRepository_49352" -> "SimpleRepository_48702" [label=9; weight=9; penwidth=0.3; color = 3]
+	"MergeTask_23958" -> "TokenStore_21003" [label=9; weight=9; penwidth=0.3; color = 3]
+	"SplitTask_24052" -> "TokenStore_21003" [label=8; weight=8; penwidth=0.3; color = 3]
+	"DefaultEventStoreTransaction_11460" -> "Context$ResourceKey_18542" [label=7; weight=7; penwidth=0.3; color = 3]
+	"SplitTask_24052" -> "WorkPackage_23039" [label=7; weight=7; penwidth=0.3; color = 3]
+	"Context_23056" -> "Context$ResourceKey_18542" [label=6; weight=6; penwidth=0.3; color = 3]
+	"InterceptingEventStore_11533" -> "Context$ResourceKey_18542" [label=5; weight=5; penwidth=0.3; color = 3]
+	"MergeTask_23958" -> "WorkPackage_23039" [label=4; weight=4; penwidth=0.3; color = 3]
+	"UnitOfWork$UnitOfWorkProcessingContext_35696" -> "ApplicationContext_23954" [label=4; weight=4; penwidth=0.3; color = 3]
+	"EventAppender_19802" -> "Context$ResourceKey_18542" [label=3; weight=3; penwidth=0.3; color = 3]
+	"EventSourcingRepository_9270" -> "Context$ResourceKey_18542" [label=3; weight=3; penwidth=0.3; color = 3]
+	"InterceptorChainParameterResolverFactory_31383" -> "Context$ResourceKey_18542" [label=3; weight=3; penwidth=0.3; color = 3]
+	"QueryUpdateEmitter_26930" -> "Context$ResourceKey_18542" [label=3; weight=3; penwidth=0.3; color = 3]
+	"SimpleEventBus_20918" -> "Context$ResourceKey_18542" [label=3; weight=3; penwidth=0.3; color = 3]
+	"SimpleQueryBus_28302" -> "Context$ResourceKey_18542" [label=3; weight=3; penwidth=0.3; color = 3]
+	"SimpleRepository_48702" -> "Context$ResourceKey_18542" [label=3; weight=3; penwidth=0.3; color = 3]
+	"StorageEngineBackedEventStore_11528" -> "Context$ResourceKey_18542" [label=3; weight=3; penwidth=0.3; color = 3]
+	"StorageEngineBackedEventStore_11528" -> "DefaultEventStoreTransaction_11460" [label=3; weight=3; penwidth=0.3; color = 3]
+	"UnitOfWork$UnitOfWorkProcessingContext_35696" -> "ProcessingLifecycle_23955" [label=3; weight=3; penwidth=0.3; color = 3]
+	"UnitOfWorkTimeoutInterceptorBuilder_36746" -> "Context$ResourceKey_18542" [label=3; weight=3; penwidth=0.3; color = 3]
+	"WorkPackage_23039" -> "TokenStore_21003" [label=3; weight=3; penwidth=0.3; color = 3]
+	"WorkPackage_23039" -> "Context_23056" [label=3; weight=3; penwidth=0.3; color = 3]
+	"InterceptorChainParameterResolverFactory_31383" -> "ResourceOverridingProcessingContext_31488" [label=2; weight=2; penwidth=0.3; color = 3]
+	"WorkPackage_23039" -> "Context$ResourceKey_18542" [label=2; weight=2; penwidth=0.3; color = 3]
+	"AnnotationBasedEventSourcedEntityFactory$ScannedEntityCreator_9870" -> "Context$ResourceKey_18542" [label=1; weight=1; penwidth=0.3; color = 3]
+	"DefaultQueryGateway_28300" -> "QueryGateway_28341" [label=1; weight=1; penwidth=0.3; color = 3]
+	"InMemoryTokenStore_20915" -> "TokenStore_21003" [label=1; weight=1; penwidth=0.3; color = 3]
+	"JdbcTokenStore_22055" -> "TokenStore_21003" [label=1; weight=1; penwidth=0.3; color = 3]
+	"JpaTokenStore_22061" -> "TokenStore_21003" [label=1; weight=1; penwidth=0.3; color = 3]
+	"MessageHandlerInterceptorDefinition$ResultHandlingInterceptorMember_32420" -> "InterceptorChainParameterResolverFactory_31383" [label=1; weight=1; penwidth=0.3; color = 3]
+	"SimpleQueryBus_28302" -> "Context_23056" [label=1; weight=1; penwidth=0.3; color = 3]
 }

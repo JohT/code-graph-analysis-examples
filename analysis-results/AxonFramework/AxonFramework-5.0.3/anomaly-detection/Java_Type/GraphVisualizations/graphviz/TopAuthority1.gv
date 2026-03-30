@@ -14,131 +14,131 @@ strict digraph TopAuthority1 {
 
 	graph   [label="Top Rank #1 Java Type Authority\norg.axonframework.common.TypeReference\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: Page Rank (normalized)\nlarge circle: > 80% percentile of Page Rank\nthick outline: > 80% percentile of Page Rank to Article Rank Difference\n\n"];
 	central [label="🏛️ authority #1\nTypeReference"];
-	"Component$Identifier_49989"  [label = "Component$\nIdentifier\n(1.91%)"; penwidth = 2; ]; "Component$Identifier_49989" -> central [label=11; weight=11; penwidth=0.6];
-	"Configuration_50507"  [shape = "circle"; height=2; label = "Configuration\n(13.43%)"; penwidth = 2; ]; "Configuration_50507" -> central [label=7; weight=7; penwidth=0.5];
-	"Message_1930"  [shape = "circle"; height=2; label = "Message\n(33.9%)"; penwidth = 2; ]; "Message_1930" -> central [label=6; weight=6; penwidth=0.5];
-	"DefaultDispatchInterceptorRegistry_18834"  [label = "DefaultDispatchInterceptorRegistry\n(0.26%)"; penwidth = 2; ]; "DefaultDispatchInterceptorRegistry_18834" -> central [label=5; weight=5; penwidth=0.5];
-	"DefaultMessageMonitorRegistry_2997"  [label = "DefaultMessageMonitorRegistry\n(0.26%)"; penwidth = 2; ]; "DefaultMessageMonitorRegistry_2997" -> central [label=5; weight=5; penwidth=0.5];
-	"SubscriptionQueryUpdateMessage_1945"  [label = "SubscriptionQueryUpdateMessage\n(1.39%)"; penwidth = 2; ]; "SubscriptionQueryUpdateMessage_1945" -> central [label=5; weight=5; penwidth=0.5];
-	"CommandResultMessage_1929"  [label = "CommandResultMessage\n(4.07%)"; penwidth = 2; ]; "CommandResultMessage_1929" -> central [label=4; weight=4; penwidth=0.5];
-	"DefaultAxonApplication$AxonConfigurationImpl_50012"  [label = "DefaultAxonApplication$\nAxonConfigurationImpl\n(0.03%)"; penwidth = 2; ]; "DefaultAxonApplication$AxonConfigurationImpl_50012" -> central [label=4; weight=4; penwidth=0.5];
-	"DefaultHandlerInterceptorRegistry_18258"  [label = "DefaultHandlerInterceptorRegistry\n(0.21%)"; penwidth = 2; ]; "DefaultHandlerInterceptorRegistry_18258" -> central [label=4; weight=4; penwidth=0.5];
-	"QueryResponseMessage_12586"  [label = "QueryResponseMessage\n(1.39%)"; penwidth = 2; ]; "QueryResponseMessage_12586" -> central [label=4; weight=4; penwidth=0.5];
-	"CommandMessage_1923"  [label = "CommandMessage\n(5.96%)"; penwidth = 2; ]; "CommandMessage_1923" -> central [label=3; weight=3; penwidth=0.4];
-	"DefaultComponentRegistry$LocalConfiguration_51008"  [label = "DefaultComponentRegistry$\nLocalConfiguration\n(0.01%)"; penwidth = 2; ]; "DefaultComponentRegistry$LocalConfiguration_51008" -> central [label=3; weight=3; penwidth=0.4];
-	"EventMessage_1937"  [label = "EventMessage\n(9.18%)"; penwidth = 2; ]; "EventMessage_1937" -> central [label=3; weight=3; penwidth=0.4];
-	"QueryMessage_1943"  [label = "QueryMessage\n(2.55%)"; penwidth = 2; ]; "QueryMessage_1943" -> central [label=3; weight=3; penwidth=0.4];
-	"ResetContext_5615"  [label = "ResetContext\n(0.15%)"; penwidth = 2; ]; "ResetContext_5615" -> central [label=3; weight=3; penwidth=0.4];
-	"ResultMessage_3139"  [label = "ResultMessage\n(1.62%)"; penwidth = 2; ]; "ResultMessage_3139" -> central [label=3; weight=3; penwidth=0.4];
-	"TypeReference$1_49150"  [shape = "circle"; height=2; label = "TypeReference$\n1\n(42.61%)"; penwidth = 5; ]; "TypeReference$1_49150" -> central [label=3; weight=3; penwidth=0.4];
-	"TypeReference$2_49151"  [shape = "circle"; height=2; label = "TypeReference$\n2\n(42.61%)"; penwidth = 5; ]; "TypeReference$2_49151" -> central [label=3; weight=3; penwidth=0.4];
-	"AggregateBasedJpaEventStorageEngine_35416"  [label = "AggregateBasedJpaEventStorageEngine\n(0.14%)"; penwidth = 2; ]; "AggregateBasedJpaEventStorageEngine_35416" -> central [label=2; weight=2; penwidth=0.4];
-	"AggregateBasedJpaEventStorageEngine$1_35415"  [label = "AggregateBasedJpaEventStorageEngine$\n1\n(0.0%)"; penwidth = 5; ]; "AggregateBasedJpaEventStorageEngine$1_35415" -> central [label=2; weight=2; penwidth=0.4];
-	"ComponentDefinition_50520"  [label = "ComponentDefinition\n(2.21%)"; penwidth = 2; ]; "ComponentDefinition_50520" -> central [label=2; weight=2; penwidth=0.4];
-	"ComponentDefinition$2_50518"  [label = "ComponentDefinition$\n2\n(0.29%)"; penwidth = 2; ]; "ComponentDefinition$2_50518" -> central [label=2; weight=2; penwidth=0.4];
-	"ComponentNotFoundException_51801"  [label = "ComponentNotFoundException\n(5.01%)"; penwidth = 2; ]; "ComponentNotFoundException_51801" -> central [label=2; weight=2; penwidth=0.4];
-	"DefaultDispatchInterceptorRegistry$1_18824"  [label = "DefaultDispatchInterceptorRegistry$\n1\n(0.01%)"; penwidth = 5; ]; "DefaultDispatchInterceptorRegistry$1_18824" -> central [label=2; weight=2; penwidth=0.4];
-	"DefaultDispatchInterceptorRegistry$2_18822"  [label = "DefaultDispatchInterceptorRegistry$\n2\n(0.01%)"; penwidth = 5; ]; "DefaultDispatchInterceptorRegistry$2_18822" -> central [label=2; weight=2; penwidth=0.4];
-	"DefaultDispatchInterceptorRegistry$3_18833"  [label = "DefaultDispatchInterceptorRegistry$\n3\n(0.01%)"; penwidth = 5; ]; "DefaultDispatchInterceptorRegistry$3_18833" -> central [label=2; weight=2; penwidth=0.4];
-	"DefaultDispatchInterceptorRegistry$4_18825"  [label = "DefaultDispatchInterceptorRegistry$\n4\n(0.01%)"; penwidth = 5; ]; "DefaultDispatchInterceptorRegistry$4_18825" -> central [label=2; weight=2; penwidth=0.4];
-	"DefaultDispatchInterceptorRegistry$5_18821"  [label = "DefaultDispatchInterceptorRegistry$\n5\n(0.01%)"; penwidth = 5; ]; "DefaultDispatchInterceptorRegistry$5_18821" -> central [label=2; weight=2; penwidth=0.4];
-	"DefaultHandlerInterceptorRegistry$1_18836"  [label = "DefaultHandlerInterceptorRegistry$\n1\n(0.01%)"; penwidth = 5; ]; "DefaultHandlerInterceptorRegistry$1_18836" -> central [label=2; weight=2; penwidth=0.4];
-	"DefaultHandlerInterceptorRegistry$2_18823"  [label = "DefaultHandlerInterceptorRegistry$\n2\n(0.01%)"; penwidth = 5; ]; "DefaultHandlerInterceptorRegistry$2_18823" -> central [label=2; weight=2; penwidth=0.4];
-	"DefaultHandlerInterceptorRegistry$3_18832"  [label = "DefaultHandlerInterceptorRegistry$\n3\n(0.01%)"; penwidth = 5; ]; "DefaultHandlerInterceptorRegistry$3_18832" -> central [label=2; weight=2; penwidth=0.4];
-	"DefaultHandlerInterceptorRegistry$4_18835"  [label = "DefaultHandlerInterceptorRegistry$\n4\n(0.01%)"; penwidth = 5; ]; "DefaultHandlerInterceptorRegistry$4_18835" -> central [label=2; weight=2; penwidth=0.4];
-	"DefaultMessageMonitorRegistry$1_2999"  [label = "DefaultMessageMonitorRegistry$\n1\n(0.01%)"; penwidth = 5; ]; "DefaultMessageMonitorRegistry$1_2999" -> central [label=2; weight=2; penwidth=0.4];
-	"DefaultMessageMonitorRegistry$2_3000"  [label = "DefaultMessageMonitorRegistry$\n2\n(0.01%)"; penwidth = 5; ]; "DefaultMessageMonitorRegistry$2_3000" -> central [label=2; weight=2; penwidth=0.4];
-	"DefaultMessageMonitorRegistry$3_3001"  [label = "DefaultMessageMonitorRegistry$\n3\n(0.01%)"; penwidth = 5; ]; "DefaultMessageMonitorRegistry$3_3001" -> central [label=2; weight=2; penwidth=0.4];
-	"DefaultMessageMonitorRegistry$4_3002"  [label = "DefaultMessageMonitorRegistry$\n4\n(0.01%)"; penwidth = 5; ]; "DefaultMessageMonitorRegistry$4_3002" -> central [label=2; weight=2; penwidth=0.4];
-	"DefaultMessageMonitorRegistry$5_3003"  [label = "DefaultMessageMonitorRegistry$\n5\n(0.01%)"; penwidth = 5; ]; "DefaultMessageMonitorRegistry$5_3003" -> central [label=2; weight=2; penwidth=0.4];
-	"SimpleEventSourcedEntityModule$1_36282"  [label = "SimpleEventSourcedEntityModule$\n1\n(0.02%)"; penwidth = 2; ]; "SimpleEventSourcedEntityModule$1_36282" -> central [label=2; weight=2; penwidth=0.4];
-	"SimpleEventSourcedEntityModule$2_36284"  [label = "SimpleEventSourcedEntityModule$\n2\n(0.02%)"; penwidth = 2; ]; "SimpleEventSourcedEntityModule$2_36284" -> central [label=2; weight=2; penwidth=0.4];
-	"SimpleEventSourcedEntityModule$3_36336"  [label = "SimpleEventSourcedEntityModule$\n3\n(0.02%)"; penwidth = 2; ]; "SimpleEventSourcedEntityModule$3_36336" -> central [label=2; weight=2; penwidth=0.4];
-	"TypeReference$1_49150"  [shape = "circle"; height=2; label = "TypeReference$\n1\n(42.61%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "TypeReference$1_49150" [label=3; weight=3; penwidth=0.4; color = 5];
-	"TypeReference$2_49151"  [shape = "circle"; height=2; label = "TypeReference$\n2\n(42.61%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "TypeReference$2_49151" [label=3; weight=3; penwidth=0.4; color = 5];
-	"DefaultAxonApplication$AxonConfigurationImpl_50012" -> "Configuration_50507" [label=18; weight=18; penwidth=0.3; color = 3]
-	"DefaultComponentRegistry$LocalConfiguration_51008" -> "Component$Identifier_49989" [label=16; weight=16; penwidth=0.3; color = 3]
-	"DefaultComponentRegistry$LocalConfiguration_51008" -> "Configuration_50507" [label=12; weight=12; penwidth=0.3; color = 3]
-	"AggregateBasedJpaEventStorageEngine_35416" -> "EventMessage_1937" [label=10; weight=10; penwidth=0.3; color = 3]
-	"DefaultDispatchInterceptorRegistry_18834" -> "Configuration_50507" [label=10; weight=10; penwidth=0.3; color = 3]
-	"DefaultDispatchInterceptorRegistry_18834" -> "Message_1930" [label=9; weight=9; penwidth=0.3; color = 3]
-	"DefaultHandlerInterceptorRegistry_18258" -> "Configuration_50507" [label=8; weight=8; penwidth=0.3; color = 3]
-	"DefaultHandlerInterceptorRegistry_18258" -> "Message_1930" [label=8; weight=8; penwidth=0.3; color = 3]
-	"DefaultDispatchInterceptorRegistry_18834" -> "CommandMessage_1923" [label=7; weight=7; penwidth=0.3; color = 3]
-	"DefaultDispatchInterceptorRegistry_18834" -> "SubscriptionQueryUpdateMessage_1945" [label=7; weight=7; penwidth=0.3; color = 3]
-	"DefaultDispatchInterceptorRegistry_18834" -> "EventMessage_1937" [label=7; weight=7; penwidth=0.3; color = 3]
-	"DefaultDispatchInterceptorRegistry_18834" -> "QueryMessage_1943" [label=7; weight=7; penwidth=0.3; color = 3]
-	"DefaultHandlerInterceptorRegistry_18258" -> "EventMessage_1937" [label=7; weight=7; penwidth=0.3; color = 3]
-	"DefaultHandlerInterceptorRegistry_18258" -> "QueryMessage_1943" [label=7; weight=7; penwidth=0.3; color = 3]
-	"DefaultHandlerInterceptorRegistry_18258" -> "CommandMessage_1923" [label=7; weight=7; penwidth=0.3; color = 3]
-	"CommandMessage_1923" -> "Message_1930" [label=6; weight=6; penwidth=0.3; color = 3]
-	"CommandResultMessage_1929" -> "ResultMessage_3139" [label=6; weight=6; penwidth=0.3; color = 3]
-	"ComponentDefinition_50520" -> "Configuration_50507" [label=6; weight=6; penwidth=0.3; color = 3]
-	"Configuration_50507" -> "ComponentNotFoundException_51801" [label=6; weight=6; penwidth=0.3; color = 3]
-	"DefaultMessageMonitorRegistry_2997" -> "Configuration_50507" [label=6; weight=6; penwidth=0.3; color = 3]
-	"EventMessage_1937" -> "Message_1930" [label=6; weight=6; penwidth=0.3; color = 3]
-	"QueryMessage_1943" -> "Message_1930" [label=6; weight=6; penwidth=0.3; color = 3]
-	"QueryResponseMessage_12586" -> "ResultMessage_3139" [label=6; weight=6; penwidth=0.3; color = 3]
-	"ResetContext_5615" -> "Message_1930" [label=6; weight=6; penwidth=0.3; color = 3]
-	"ResultMessage_3139" -> "Message_1930" [label=6; weight=6; penwidth=0.3; color = 3]
-	"SubscriptionQueryUpdateMessage_1945" -> "QueryResponseMessage_12586" [label=6; weight=6; penwidth=0.3; color = 3]
-	"CommandResultMessage_1929" -> "Message_1930" [label=5; weight=5; penwidth=0.3; color = 3]
-	"DefaultDispatchInterceptorRegistry_18834" -> "ComponentDefinition_50520" [label=5; weight=5; penwidth=0.3; color = 3]
-	"DefaultMessageMonitorRegistry_2997" -> "EventMessage_1937" [label=5; weight=5; penwidth=0.3; color = 3]
-	"DefaultMessageMonitorRegistry_2997" -> "ComponentDefinition_50520" [label=5; weight=5; penwidth=0.3; color = 3]
-	"DefaultMessageMonitorRegistry_2997" -> "CommandMessage_1923" [label=5; weight=5; penwidth=0.3; color = 3]
-	"DefaultMessageMonitorRegistry_2997" -> "Message_1930" [label=5; weight=5; penwidth=0.3; color = 3]
-	"DefaultMessageMonitorRegistry_2997" -> "QueryMessage_1943" [label=5; weight=5; penwidth=0.3; color = 3]
-	"DefaultMessageMonitorRegistry_2997" -> "SubscriptionQueryUpdateMessage_1945" [label=5; weight=5; penwidth=0.3; color = 3]
-	"QueryResponseMessage_12586" -> "Message_1930" [label=5; weight=5; penwidth=0.3; color = 3]
-	"SubscriptionQueryUpdateMessage_1945" -> "Message_1930" [label=5; weight=5; penwidth=0.3; color = 3]
-	"SubscriptionQueryUpdateMessage_1945" -> "ResultMessage_3139" [label=5; weight=5; penwidth=0.3; color = 3]
-	"ComponentDefinition$2_50518" -> "Component$Identifier_49989" [label=4; weight=4; penwidth=0.3; color = 3]
-	"DefaultHandlerInterceptorRegistry_18258" -> "ComponentDefinition_50520" [label=4; weight=4; penwidth=0.3; color = 3]
-	"AggregateBasedJpaEventStorageEngine_35416" -> "AggregateBasedJpaEventStorageEngine$1_35415" [label=3; weight=3; penwidth=0.3; color = 3]
-	"ComponentDefinition_50520" -> "ComponentDefinition$2_50518" [label=3; weight=3; penwidth=0.3; color = 3]
-	"ComponentDefinition$2_50518" -> "ComponentDefinition_50520" [label=3; weight=3; penwidth=0.3; color = 3]
-	"DefaultDispatchInterceptorRegistry_18834" -> "DefaultDispatchInterceptorRegistry$3_18833" [label=3; weight=3; penwidth=0.3; color = 3]
-	"DefaultDispatchInterceptorRegistry_18834" -> "DefaultDispatchInterceptorRegistry$5_18821" [label=3; weight=3; penwidth=0.3; color = 3]
-	"DefaultDispatchInterceptorRegistry_18834" -> "DefaultDispatchInterceptorRegistry$4_18825" [label=3; weight=3; penwidth=0.3; color = 3]
-	"DefaultDispatchInterceptorRegistry_18834" -> "DefaultDispatchInterceptorRegistry$1_18824" [label=3; weight=3; penwidth=0.3; color = 3]
-	"DefaultDispatchInterceptorRegistry_18834" -> "DefaultDispatchInterceptorRegistry$2_18822" [label=3; weight=3; penwidth=0.3; color = 3]
-	"DefaultHandlerInterceptorRegistry_18258" -> "DefaultHandlerInterceptorRegistry$4_18835" [label=3; weight=3; penwidth=0.3; color = 3]
-	"DefaultHandlerInterceptorRegistry_18258" -> "DefaultHandlerInterceptorRegistry$3_18832" [label=3; weight=3; penwidth=0.3; color = 3]
-	"DefaultHandlerInterceptorRegistry_18258" -> "DefaultHandlerInterceptorRegistry$1_18836" [label=3; weight=3; penwidth=0.3; color = 3]
-	"DefaultHandlerInterceptorRegistry_18258" -> "DefaultHandlerInterceptorRegistry$2_18823" [label=3; weight=3; penwidth=0.3; color = 3]
-	"DefaultMessageMonitorRegistry_2997" -> "DefaultMessageMonitorRegistry$3_3001" [label=3; weight=3; penwidth=0.3; color = 3]
-	"DefaultMessageMonitorRegistry_2997" -> "DefaultMessageMonitorRegistry$4_3002" [label=3; weight=3; penwidth=0.3; color = 3]
-	"DefaultMessageMonitorRegistry_2997" -> "DefaultMessageMonitorRegistry$1_2999" [label=3; weight=3; penwidth=0.3; color = 3]
-	"DefaultMessageMonitorRegistry_2997" -> "DefaultMessageMonitorRegistry$2_3000" [label=3; weight=3; penwidth=0.3; color = 3]
-	"DefaultMessageMonitorRegistry_2997" -> "DefaultMessageMonitorRegistry$5_3003" [label=3; weight=3; penwidth=0.3; color = 3]
-	"AggregateBasedJpaEventStorageEngine$1_35415" -> "AggregateBasedJpaEventStorageEngine_35416" [label=1; weight=1; penwidth=0.3; color = 3]
-	"DefaultDispatchInterceptorRegistry$1_18824" -> "Message_1930" [label=1; weight=1; penwidth=0.3; color = 3]
-	"DefaultDispatchInterceptorRegistry$1_18824" -> "DefaultDispatchInterceptorRegistry_18834" [label=1; weight=1; penwidth=0.3; color = 3]
-	"DefaultDispatchInterceptorRegistry$2_18822" -> "DefaultDispatchInterceptorRegistry_18834" [label=1; weight=1; penwidth=0.3; color = 3]
-	"DefaultDispatchInterceptorRegistry$2_18822" -> "CommandMessage_1923" [label=1; weight=1; penwidth=0.3; color = 3]
-	"DefaultDispatchInterceptorRegistry$3_18833" -> "DefaultDispatchInterceptorRegistry_18834" [label=1; weight=1; penwidth=0.3; color = 3]
-	"DefaultDispatchInterceptorRegistry$3_18833" -> "EventMessage_1937" [label=1; weight=1; penwidth=0.3; color = 3]
-	"DefaultDispatchInterceptorRegistry$4_18825" -> "DefaultDispatchInterceptorRegistry_18834" [label=1; weight=1; penwidth=0.3; color = 3]
-	"DefaultDispatchInterceptorRegistry$4_18825" -> "QueryMessage_1943" [label=1; weight=1; penwidth=0.3; color = 3]
-	"DefaultDispatchInterceptorRegistry$5_18821" -> "SubscriptionQueryUpdateMessage_1945" [label=1; weight=1; penwidth=0.3; color = 3]
-	"DefaultDispatchInterceptorRegistry$5_18821" -> "DefaultDispatchInterceptorRegistry_18834" [label=1; weight=1; penwidth=0.3; color = 3]
-	"DefaultHandlerInterceptorRegistry$1_18836" -> "Message_1930" [label=1; weight=1; penwidth=0.3; color = 3]
-	"DefaultHandlerInterceptorRegistry$1_18836" -> "DefaultHandlerInterceptorRegistry_18258" [label=1; weight=1; penwidth=0.3; color = 3]
-	"DefaultHandlerInterceptorRegistry$2_18823" -> "DefaultHandlerInterceptorRegistry_18258" [label=1; weight=1; penwidth=0.3; color = 3]
-	"DefaultHandlerInterceptorRegistry$2_18823" -> "CommandMessage_1923" [label=1; weight=1; penwidth=0.3; color = 3]
-	"DefaultHandlerInterceptorRegistry$3_18832" -> "DefaultHandlerInterceptorRegistry_18258" [label=1; weight=1; penwidth=0.3; color = 3]
-	"DefaultHandlerInterceptorRegistry$3_18832" -> "EventMessage_1937" [label=1; weight=1; penwidth=0.3; color = 3]
-	"DefaultHandlerInterceptorRegistry$4_18835" -> "QueryMessage_1943" [label=1; weight=1; penwidth=0.3; color = 3]
-	"DefaultHandlerInterceptorRegistry$4_18835" -> "DefaultHandlerInterceptorRegistry_18258" [label=1; weight=1; penwidth=0.3; color = 3]
-	"DefaultMessageMonitorRegistry$1_2999" -> "DefaultMessageMonitorRegistry_2997" [label=1; weight=1; penwidth=0.3; color = 3]
-	"DefaultMessageMonitorRegistry$1_2999" -> "Message_1930" [label=1; weight=1; penwidth=0.3; color = 3]
-	"DefaultMessageMonitorRegistry$2_3000" -> "CommandMessage_1923" [label=1; weight=1; penwidth=0.3; color = 3]
-	"DefaultMessageMonitorRegistry$2_3000" -> "DefaultMessageMonitorRegistry_2997" [label=1; weight=1; penwidth=0.3; color = 3]
-	"DefaultMessageMonitorRegistry$3_3001" -> "DefaultMessageMonitorRegistry_2997" [label=1; weight=1; penwidth=0.3; color = 3]
-	"DefaultMessageMonitorRegistry$3_3001" -> "EventMessage_1937" [label=1; weight=1; penwidth=0.3; color = 3]
-	"DefaultMessageMonitorRegistry$4_3002" -> "DefaultMessageMonitorRegistry_2997" [label=1; weight=1; penwidth=0.3; color = 3]
-	"DefaultMessageMonitorRegistry$4_3002" -> "QueryMessage_1943" [label=1; weight=1; penwidth=0.3; color = 3]
-	"DefaultMessageMonitorRegistry$5_3003" -> "SubscriptionQueryUpdateMessage_1945" [label=1; weight=1; penwidth=0.3; color = 3]
-	"DefaultMessageMonitorRegistry$5_3003" -> "DefaultMessageMonitorRegistry_2997" [label=1; weight=1; penwidth=0.3; color = 3]
+	"Component$Identifier_5526"  [label = "Component$\nIdentifier\n(1.91%)"; penwidth = 2; ]; "Component$Identifier_5526" -> central [label=11; weight=11; penwidth=0.6];
+	"Configuration_5519"  [shape = "circle"; height=2; label = "Configuration\n(13.43%)"; penwidth = 2; ]; "Configuration_5519" -> central [label=7; weight=7; penwidth=0.5];
+	"Message_15738"  [shape = "circle"; height=2; label = "Message\n(33.9%)"; penwidth = 2; ]; "Message_15738" -> central [label=6; weight=6; penwidth=0.5];
+	"DefaultDispatchInterceptorRegistry_32077"  [label = "DefaultDispatchInterceptorRegistry\n(0.26%)"; penwidth = 2; ]; "DefaultDispatchInterceptorRegistry_32077" -> central [label=5; weight=5; penwidth=0.5];
+	"DefaultMessageMonitorRegistry_16824"  [label = "DefaultMessageMonitorRegistry\n(0.26%)"; penwidth = 2; ]; "DefaultMessageMonitorRegistry_16824" -> central [label=5; weight=5; penwidth=0.5];
+	"SubscriptionQueryUpdateMessage_16596"  [label = "SubscriptionQueryUpdateMessage\n(1.39%)"; penwidth = 2; ]; "SubscriptionQueryUpdateMessage_16596" -> central [label=5; weight=5; penwidth=0.5];
+	"CommandResultMessage_15737"  [label = "CommandResultMessage\n(4.07%)"; penwidth = 2; ]; "CommandResultMessage_15737" -> central [label=4; weight=4; penwidth=0.5];
+	"DefaultAxonApplication$AxonConfigurationImpl_5549"  [label = "DefaultAxonApplication$\nAxonConfigurationImpl\n(0.03%)"; penwidth = 2; ]; "DefaultAxonApplication$AxonConfigurationImpl_5549" -> central [label=4; weight=4; penwidth=0.5];
+	"DefaultHandlerInterceptorRegistry_32076"  [label = "DefaultHandlerInterceptorRegistry\n(0.21%)"; penwidth = 2; ]; "DefaultHandlerInterceptorRegistry_32076" -> central [label=4; weight=4; penwidth=0.5];
+	"QueryResponseMessage_26240"  [label = "QueryResponseMessage\n(1.39%)"; penwidth = 2; ]; "QueryResponseMessage_26240" -> central [label=4; weight=4; penwidth=0.5];
+	"CommandMessage_16599"  [label = "CommandMessage\n(5.96%)"; penwidth = 2; ]; "CommandMessage_16599" -> central [label=3; weight=3; penwidth=0.4];
+	"DefaultComponentRegistry$LocalConfiguration_6797"  [label = "DefaultComponentRegistry$\nLocalConfiguration\n(0.01%)"; penwidth = 2; ]; "DefaultComponentRegistry$LocalConfiguration_6797" -> central [label=3; weight=3; penwidth=0.4];
+	"EventMessage_15745"  [label = "EventMessage\n(9.18%)"; penwidth = 2; ]; "EventMessage_15745" -> central [label=3; weight=3; penwidth=0.4];
+	"QueryMessage_16594"  [label = "QueryMessage\n(2.55%)"; penwidth = 2; ]; "QueryMessage_16594" -> central [label=3; weight=3; penwidth=0.4];
+	"ResetContext_19982"  [label = "ResetContext\n(0.15%)"; penwidth = 2; ]; "ResetContext_19982" -> central [label=3; weight=3; penwidth=0.4];
+	"ResultMessage_17733"  [label = "ResultMessage\n(1.62%)"; penwidth = 2; ]; "ResultMessage_17733" -> central [label=3; weight=3; penwidth=0.4];
+	"TypeReference$1_4734"  [shape = "circle"; height=2; label = "TypeReference$\n1\n(42.61%)"; penwidth = 5; ]; "TypeReference$1_4734" -> central [label=3; weight=3; penwidth=0.4];
+	"TypeReference$2_4735"  [shape = "circle"; height=2; label = "TypeReference$\n2\n(42.61%)"; penwidth = 5; ]; "TypeReference$2_4735" -> central [label=3; weight=3; penwidth=0.4];
+	"AggregateBasedJpaEventStorageEngine_12526"  [label = "AggregateBasedJpaEventStorageEngine\n(0.14%)"; penwidth = 2; ]; "AggregateBasedJpaEventStorageEngine_12526" -> central [label=2; weight=2; penwidth=0.4];
+	"AggregateBasedJpaEventStorageEngine$1_12525"  [label = "AggregateBasedJpaEventStorageEngine$\n1\n(0.0%)"; penwidth = 5; ]; "AggregateBasedJpaEventStorageEngine$1_12525" -> central [label=2; weight=2; penwidth=0.4];
+	"ComponentDefinition_6307"  [label = "ComponentDefinition\n(2.21%)"; penwidth = 2; ]; "ComponentDefinition_6307" -> central [label=2; weight=2; penwidth=0.4];
+	"ComponentDefinition$2_6234"  [label = "ComponentDefinition$\n2\n(0.29%)"; penwidth = 2; ]; "ComponentDefinition$2_6234" -> central [label=2; weight=2; penwidth=0.4];
+	"ComponentNotFoundException_7590"  [label = "ComponentNotFoundException\n(5.01%)"; penwidth = 2; ]; "ComponentNotFoundException_7590" -> central [label=2; weight=2; penwidth=0.4];
+	"DefaultDispatchInterceptorRegistry$1_32477"  [label = "DefaultDispatchInterceptorRegistry$\n1\n(0.01%)"; penwidth = 5; ]; "DefaultDispatchInterceptorRegistry$1_32477" -> central [label=2; weight=2; penwidth=0.4];
+	"DefaultDispatchInterceptorRegistry$2_32475"  [label = "DefaultDispatchInterceptorRegistry$\n2\n(0.01%)"; penwidth = 5; ]; "DefaultDispatchInterceptorRegistry$2_32475" -> central [label=2; weight=2; penwidth=0.4];
+	"DefaultDispatchInterceptorRegistry$3_32469"  [label = "DefaultDispatchInterceptorRegistry$\n3\n(0.01%)"; penwidth = 5; ]; "DefaultDispatchInterceptorRegistry$3_32469" -> central [label=2; weight=2; penwidth=0.4];
+	"DefaultDispatchInterceptorRegistry$4_33602"  [label = "DefaultDispatchInterceptorRegistry$\n4\n(0.01%)"; penwidth = 5; ]; "DefaultDispatchInterceptorRegistry$4_33602" -> central [label=2; weight=2; penwidth=0.4];
+	"DefaultDispatchInterceptorRegistry$5_32474"  [label = "DefaultDispatchInterceptorRegistry$\n5\n(0.01%)"; penwidth = 5; ]; "DefaultDispatchInterceptorRegistry$5_32474" -> central [label=2; weight=2; penwidth=0.4];
+	"DefaultHandlerInterceptorRegistry$1_32471"  [label = "DefaultHandlerInterceptorRegistry$\n1\n(0.01%)"; penwidth = 5; ]; "DefaultHandlerInterceptorRegistry$1_32471" -> central [label=2; weight=2; penwidth=0.4];
+	"DefaultHandlerInterceptorRegistry$2_32476"  [label = "DefaultHandlerInterceptorRegistry$\n2\n(0.01%)"; penwidth = 5; ]; "DefaultHandlerInterceptorRegistry$2_32476" -> central [label=2; weight=2; penwidth=0.4];
+	"DefaultHandlerInterceptorRegistry$3_32468"  [label = "DefaultHandlerInterceptorRegistry$\n3\n(0.01%)"; penwidth = 5; ]; "DefaultHandlerInterceptorRegistry$3_32468" -> central [label=2; weight=2; penwidth=0.4];
+	"DefaultHandlerInterceptorRegistry$4_32470"  [label = "DefaultHandlerInterceptorRegistry$\n4\n(0.01%)"; penwidth = 5; ]; "DefaultHandlerInterceptorRegistry$4_32470" -> central [label=2; weight=2; penwidth=0.4];
+	"DefaultMessageMonitorRegistry$1_16826"  [label = "DefaultMessageMonitorRegistry$\n1\n(0.01%)"; penwidth = 5; ]; "DefaultMessageMonitorRegistry$1_16826" -> central [label=2; weight=2; penwidth=0.4];
+	"DefaultMessageMonitorRegistry$2_16827"  [label = "DefaultMessageMonitorRegistry$\n2\n(0.01%)"; penwidth = 5; ]; "DefaultMessageMonitorRegistry$2_16827" -> central [label=2; weight=2; penwidth=0.4];
+	"DefaultMessageMonitorRegistry$3_16828"  [label = "DefaultMessageMonitorRegistry$\n3\n(0.01%)"; penwidth = 5; ]; "DefaultMessageMonitorRegistry$3_16828" -> central [label=2; weight=2; penwidth=0.4];
+	"DefaultMessageMonitorRegistry$4_16829"  [label = "DefaultMessageMonitorRegistry$\n4\n(0.01%)"; penwidth = 5; ]; "DefaultMessageMonitorRegistry$4_16829" -> central [label=2; weight=2; penwidth=0.4];
+	"DefaultMessageMonitorRegistry$5_16830"  [label = "DefaultMessageMonitorRegistry$\n5\n(0.01%)"; penwidth = 5; ]; "DefaultMessageMonitorRegistry$5_16830" -> central [label=2; weight=2; penwidth=0.4];
+	"SimpleEventSourcedEntityModule$1_12930"  [label = "SimpleEventSourcedEntityModule$\n1\n(0.02%)"; penwidth = 2; ]; "SimpleEventSourcedEntityModule$1_12930" -> central [label=2; weight=2; penwidth=0.4];
+	"SimpleEventSourcedEntityModule$2_12932"  [label = "SimpleEventSourcedEntityModule$\n2\n(0.02%)"; penwidth = 2; ]; "SimpleEventSourcedEntityModule$2_12932" -> central [label=2; weight=2; penwidth=0.4];
+	"SimpleEventSourcedEntityModule$3_13045"  [label = "SimpleEventSourcedEntityModule$\n3\n(0.02%)"; penwidth = 2; ]; "SimpleEventSourcedEntityModule$3_13045" -> central [label=2; weight=2; penwidth=0.4];
+	"TypeReference$1_4734"  [shape = "circle"; height=2; label = "TypeReference$\n1\n(42.61%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "TypeReference$1_4734" [label=3; weight=3; penwidth=0.4; color = 5];
+	"TypeReference$2_4735"  [shape = "circle"; height=2; label = "TypeReference$\n2\n(42.61%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "TypeReference$2_4735" [label=3; weight=3; penwidth=0.4; color = 5];
+	"DefaultAxonApplication$AxonConfigurationImpl_5549" -> "Configuration_5519" [label=18; weight=18; penwidth=0.3; color = 3]
+	"DefaultComponentRegistry$LocalConfiguration_6797" -> "Component$Identifier_5526" [label=16; weight=16; penwidth=0.3; color = 3]
+	"DefaultComponentRegistry$LocalConfiguration_6797" -> "Configuration_5519" [label=12; weight=12; penwidth=0.3; color = 3]
+	"AggregateBasedJpaEventStorageEngine_12526" -> "EventMessage_15745" [label=10; weight=10; penwidth=0.3; color = 3]
+	"DefaultDispatchInterceptorRegistry_32077" -> "Configuration_5519" [label=10; weight=10; penwidth=0.3; color = 3]
+	"DefaultDispatchInterceptorRegistry_32077" -> "Message_15738" [label=9; weight=9; penwidth=0.3; color = 3]
+	"DefaultHandlerInterceptorRegistry_32076" -> "Configuration_5519" [label=8; weight=8; penwidth=0.3; color = 3]
+	"DefaultHandlerInterceptorRegistry_32076" -> "Message_15738" [label=8; weight=8; penwidth=0.3; color = 3]
+	"DefaultDispatchInterceptorRegistry_32077" -> "QueryMessage_16594" [label=7; weight=7; penwidth=0.3; color = 3]
+	"DefaultDispatchInterceptorRegistry_32077" -> "SubscriptionQueryUpdateMessage_16596" [label=7; weight=7; penwidth=0.3; color = 3]
+	"DefaultDispatchInterceptorRegistry_32077" -> "EventMessage_15745" [label=7; weight=7; penwidth=0.3; color = 3]
+	"DefaultDispatchInterceptorRegistry_32077" -> "CommandMessage_16599" [label=7; weight=7; penwidth=0.3; color = 3]
+	"DefaultHandlerInterceptorRegistry_32076" -> "EventMessage_15745" [label=7; weight=7; penwidth=0.3; color = 3]
+	"DefaultHandlerInterceptorRegistry_32076" -> "CommandMessage_16599" [label=7; weight=7; penwidth=0.3; color = 3]
+	"DefaultHandlerInterceptorRegistry_32076" -> "QueryMessage_16594" [label=7; weight=7; penwidth=0.3; color = 3]
+	"CommandMessage_16599" -> "Message_15738" [label=6; weight=6; penwidth=0.3; color = 3]
+	"CommandResultMessage_15737" -> "ResultMessage_17733" [label=6; weight=6; penwidth=0.3; color = 3]
+	"ComponentDefinition_6307" -> "Configuration_5519" [label=6; weight=6; penwidth=0.3; color = 3]
+	"Configuration_5519" -> "ComponentNotFoundException_7590" [label=6; weight=6; penwidth=0.3; color = 3]
+	"DefaultMessageMonitorRegistry_16824" -> "Configuration_5519" [label=6; weight=6; penwidth=0.3; color = 3]
+	"EventMessage_15745" -> "Message_15738" [label=6; weight=6; penwidth=0.3; color = 3]
+	"QueryMessage_16594" -> "Message_15738" [label=6; weight=6; penwidth=0.3; color = 3]
+	"QueryResponseMessage_26240" -> "ResultMessage_17733" [label=6; weight=6; penwidth=0.3; color = 3]
+	"ResetContext_19982" -> "Message_15738" [label=6; weight=6; penwidth=0.3; color = 3]
+	"ResultMessage_17733" -> "Message_15738" [label=6; weight=6; penwidth=0.3; color = 3]
+	"SubscriptionQueryUpdateMessage_16596" -> "QueryResponseMessage_26240" [label=6; weight=6; penwidth=0.3; color = 3]
+	"CommandResultMessage_15737" -> "Message_15738" [label=5; weight=5; penwidth=0.3; color = 3]
+	"DefaultDispatchInterceptorRegistry_32077" -> "ComponentDefinition_6307" [label=5; weight=5; penwidth=0.3; color = 3]
+	"DefaultMessageMonitorRegistry_16824" -> "ComponentDefinition_6307" [label=5; weight=5; penwidth=0.3; color = 3]
+	"DefaultMessageMonitorRegistry_16824" -> "Message_15738" [label=5; weight=5; penwidth=0.3; color = 3]
+	"DefaultMessageMonitorRegistry_16824" -> "CommandMessage_16599" [label=5; weight=5; penwidth=0.3; color = 3]
+	"DefaultMessageMonitorRegistry_16824" -> "QueryMessage_16594" [label=5; weight=5; penwidth=0.3; color = 3]
+	"DefaultMessageMonitorRegistry_16824" -> "EventMessage_15745" [label=5; weight=5; penwidth=0.3; color = 3]
+	"DefaultMessageMonitorRegistry_16824" -> "SubscriptionQueryUpdateMessage_16596" [label=5; weight=5; penwidth=0.3; color = 3]
+	"QueryResponseMessage_26240" -> "Message_15738" [label=5; weight=5; penwidth=0.3; color = 3]
+	"SubscriptionQueryUpdateMessage_16596" -> "Message_15738" [label=5; weight=5; penwidth=0.3; color = 3]
+	"SubscriptionQueryUpdateMessage_16596" -> "ResultMessage_17733" [label=5; weight=5; penwidth=0.3; color = 3]
+	"ComponentDefinition$2_6234" -> "Component$Identifier_5526" [label=4; weight=4; penwidth=0.3; color = 3]
+	"DefaultHandlerInterceptorRegistry_32076" -> "ComponentDefinition_6307" [label=4; weight=4; penwidth=0.3; color = 3]
+	"AggregateBasedJpaEventStorageEngine_12526" -> "AggregateBasedJpaEventStorageEngine$1_12525" [label=3; weight=3; penwidth=0.3; color = 3]
+	"ComponentDefinition_6307" -> "ComponentDefinition$2_6234" [label=3; weight=3; penwidth=0.3; color = 3]
+	"ComponentDefinition$2_6234" -> "ComponentDefinition_6307" [label=3; weight=3; penwidth=0.3; color = 3]
+	"DefaultDispatchInterceptorRegistry_32077" -> "DefaultDispatchInterceptorRegistry$1_32477" [label=3; weight=3; penwidth=0.3; color = 3]
+	"DefaultDispatchInterceptorRegistry_32077" -> "DefaultDispatchInterceptorRegistry$3_32469" [label=3; weight=3; penwidth=0.3; color = 3]
+	"DefaultDispatchInterceptorRegistry_32077" -> "DefaultDispatchInterceptorRegistry$5_32474" [label=3; weight=3; penwidth=0.3; color = 3]
+	"DefaultDispatchInterceptorRegistry_32077" -> "DefaultDispatchInterceptorRegistry$4_33602" [label=3; weight=3; penwidth=0.3; color = 3]
+	"DefaultDispatchInterceptorRegistry_32077" -> "DefaultDispatchInterceptorRegistry$2_32475" [label=3; weight=3; penwidth=0.3; color = 3]
+	"DefaultHandlerInterceptorRegistry_32076" -> "DefaultHandlerInterceptorRegistry$1_32471" [label=3; weight=3; penwidth=0.3; color = 3]
+	"DefaultHandlerInterceptorRegistry_32076" -> "DefaultHandlerInterceptorRegistry$4_32470" [label=3; weight=3; penwidth=0.3; color = 3]
+	"DefaultHandlerInterceptorRegistry_32076" -> "DefaultHandlerInterceptorRegistry$2_32476" [label=3; weight=3; penwidth=0.3; color = 3]
+	"DefaultHandlerInterceptorRegistry_32076" -> "DefaultHandlerInterceptorRegistry$3_32468" [label=3; weight=3; penwidth=0.3; color = 3]
+	"DefaultMessageMonitorRegistry_16824" -> "DefaultMessageMonitorRegistry$5_16830" [label=3; weight=3; penwidth=0.3; color = 3]
+	"DefaultMessageMonitorRegistry_16824" -> "DefaultMessageMonitorRegistry$3_16828" [label=3; weight=3; penwidth=0.3; color = 3]
+	"DefaultMessageMonitorRegistry_16824" -> "DefaultMessageMonitorRegistry$1_16826" [label=3; weight=3; penwidth=0.3; color = 3]
+	"DefaultMessageMonitorRegistry_16824" -> "DefaultMessageMonitorRegistry$4_16829" [label=3; weight=3; penwidth=0.3; color = 3]
+	"DefaultMessageMonitorRegistry_16824" -> "DefaultMessageMonitorRegistry$2_16827" [label=3; weight=3; penwidth=0.3; color = 3]
+	"AggregateBasedJpaEventStorageEngine$1_12525" -> "AggregateBasedJpaEventStorageEngine_12526" [label=1; weight=1; penwidth=0.3; color = 3]
+	"DefaultDispatchInterceptorRegistry$1_32477" -> "DefaultDispatchInterceptorRegistry_32077" [label=1; weight=1; penwidth=0.3; color = 3]
+	"DefaultDispatchInterceptorRegistry$1_32477" -> "Message_15738" [label=1; weight=1; penwidth=0.3; color = 3]
+	"DefaultDispatchInterceptorRegistry$2_32475" -> "DefaultDispatchInterceptorRegistry_32077" [label=1; weight=1; penwidth=0.3; color = 3]
+	"DefaultDispatchInterceptorRegistry$2_32475" -> "CommandMessage_16599" [label=1; weight=1; penwidth=0.3; color = 3]
+	"DefaultDispatchInterceptorRegistry$3_32469" -> "DefaultDispatchInterceptorRegistry_32077" [label=1; weight=1; penwidth=0.3; color = 3]
+	"DefaultDispatchInterceptorRegistry$3_32469" -> "EventMessage_15745" [label=1; weight=1; penwidth=0.3; color = 3]
+	"DefaultDispatchInterceptorRegistry$4_33602" -> "QueryMessage_16594" [label=1; weight=1; penwidth=0.3; color = 3]
+	"DefaultDispatchInterceptorRegistry$4_33602" -> "DefaultDispatchInterceptorRegistry_32077" [label=1; weight=1; penwidth=0.3; color = 3]
+	"DefaultDispatchInterceptorRegistry$5_32474" -> "DefaultDispatchInterceptorRegistry_32077" [label=1; weight=1; penwidth=0.3; color = 3]
+	"DefaultDispatchInterceptorRegistry$5_32474" -> "SubscriptionQueryUpdateMessage_16596" [label=1; weight=1; penwidth=0.3; color = 3]
+	"DefaultHandlerInterceptorRegistry$1_32471" -> "DefaultHandlerInterceptorRegistry_32076" [label=1; weight=1; penwidth=0.3; color = 3]
+	"DefaultHandlerInterceptorRegistry$1_32471" -> "Message_15738" [label=1; weight=1; penwidth=0.3; color = 3]
+	"DefaultHandlerInterceptorRegistry$2_32476" -> "CommandMessage_16599" [label=1; weight=1; penwidth=0.3; color = 3]
+	"DefaultHandlerInterceptorRegistry$2_32476" -> "DefaultHandlerInterceptorRegistry_32076" [label=1; weight=1; penwidth=0.3; color = 3]
+	"DefaultHandlerInterceptorRegistry$3_32468" -> "DefaultHandlerInterceptorRegistry_32076" [label=1; weight=1; penwidth=0.3; color = 3]
+	"DefaultHandlerInterceptorRegistry$3_32468" -> "EventMessage_15745" [label=1; weight=1; penwidth=0.3; color = 3]
+	"DefaultHandlerInterceptorRegistry$4_32470" -> "DefaultHandlerInterceptorRegistry_32076" [label=1; weight=1; penwidth=0.3; color = 3]
+	"DefaultHandlerInterceptorRegistry$4_32470" -> "QueryMessage_16594" [label=1; weight=1; penwidth=0.3; color = 3]
+	"DefaultMessageMonitorRegistry$1_16826" -> "DefaultMessageMonitorRegistry_16824" [label=1; weight=1; penwidth=0.3; color = 3]
+	"DefaultMessageMonitorRegistry$1_16826" -> "Message_15738" [label=1; weight=1; penwidth=0.3; color = 3]
+	"DefaultMessageMonitorRegistry$2_16827" -> "DefaultMessageMonitorRegistry_16824" [label=1; weight=1; penwidth=0.3; color = 3]
+	"DefaultMessageMonitorRegistry$2_16827" -> "CommandMessage_16599" [label=1; weight=1; penwidth=0.3; color = 3]
+	"DefaultMessageMonitorRegistry$3_16828" -> "EventMessage_15745" [label=1; weight=1; penwidth=0.3; color = 3]
+	"DefaultMessageMonitorRegistry$3_16828" -> "DefaultMessageMonitorRegistry_16824" [label=1; weight=1; penwidth=0.3; color = 3]
+	"DefaultMessageMonitorRegistry$4_16829" -> "QueryMessage_16594" [label=1; weight=1; penwidth=0.3; color = 3]
+	"DefaultMessageMonitorRegistry$4_16829" -> "DefaultMessageMonitorRegistry_16824" [label=1; weight=1; penwidth=0.3; color = 3]
+	"DefaultMessageMonitorRegistry$5_16830" -> "DefaultMessageMonitorRegistry_16824" [label=1; weight=1; penwidth=0.3; color = 3]
+	"DefaultMessageMonitorRegistry$5_16830" -> "SubscriptionQueryUpdateMessage_16596" [label=1; weight=1; penwidth=0.3; color = 3]
 }

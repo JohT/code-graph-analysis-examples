@@ -973,7 +973,7 @@ Only the top 40 entries are shown. The whole table can be found in the following
       <td>0.959184</td>
       <td>48</td>
       <td>1</td>
-      <td>[DefaultParameterResolverFactory$AnnotatedMetadataParameterResolver-&gt;Message, DefaultParameterResolverFactory$AnnotatedMetadataParameterResolver-&gt;Metadata, MessageHandler-&gt;Message, MultiHandlerDefinition-&gt;MessageStream, MessageStreamResolverUtils-&gt;MessageStream$Empty, MessageStreamResolverUtils-...</td>
+      <td>[SourceIdParameterResolverFactory$SourceIdParameterResolver-&gt;Context$ResourceKey, SourceIdParameterResolverFactory$SourceIdParameterResolver-&gt;LegacyResources, MessageIdentifierParameterResolverFactory$MessageIdentifierParameterResolver-&gt;Message, InterceptorChainParameterResolverFactory-&gt;Context$...</td>
       <td>[SimpleHandlerAttributes-&gt;HandlerAttributes]</td>
     </tr>
     <tr>
@@ -985,7 +985,7 @@ Only the top 40 entries are shown. The whole table can be found in the following
       <td>0.942857</td>
       <td>34</td>
       <td>1</td>
-      <td>[SimpleEventHandlingComponent-&gt;Message, SimpleEventHandlingComponent-&gt;MessageType, SimpleEventHandlingComponent-&gt;MessageStream, SimpleEventHandlingComponent-&gt;QualifiedName, SimpleEventHandlingComponent-&gt;MessageStream$Empty, TerminalEventMessage-&gt;MessageType, EventMessage-&gt;Message, SimpleEventBus...</td>
+      <td>[EventHandlerRegistry-&gt;QualifiedName, DelegatingEventHandlingComponent-&gt;QualifiedName, DelegatingEventHandlingComponent-&gt;Message, DelegatingEventHandlingComponent-&gt;MessageStream$Empty, EventHandlingComponent-&gt;QualifiedName, TerminalEventMessage-&gt;MessageType, EventBus-&gt;SubscribableEventSource, Si...</td>
       <td>[SubscribableEventSource-&gt;EventMessage]</td>
     </tr>
     <tr>
@@ -997,7 +997,7 @@ Only the top 40 entries are shown. The whole table can be found in the following
       <td>0.931034</td>
       <td>28</td>
       <td>1</td>
-      <td>[EventAppenderParameterResolverFactoryConfigurationEnhancer-&gt;ParameterResolverFactory, TimestampParameterResolverFactory-&gt;ParameterResolver, TimestampParameterResolverFactory-&gt;AbstractAnnotatedParameterResolverFactory, MethodSequencingPolicyEventHandlerDefinition-&gt;HandlerEnhancerDefinition, Meth...</td>
+      <td>[Event-&gt;Message, AnnotatedEventHandlingComponent-&gt;MessageHandlingMember, AnnotatedEventHandlingComponent-&gt;AnnotatedHandlerInspector, AnnotatedEventHandlingComponent-&gt;ParameterResolverFactory, AnnotatedEventHandlingComponent-&gt;HandlerDefinition, TimestampParameterResolverFactory$TimestampParameter...</td>
       <td>[HandlerTypeResolver-&gt;EventHandler]</td>
     </tr>
     <tr>
@@ -1009,7 +1009,7 @@ Only the top 40 entries are shown. The whole table can be found in the following
       <td>0.875000</td>
       <td>15</td>
       <td>1</td>
-      <td>[CommandDispatcherParameterResolverFactory-&gt;ParameterResolverFactory, CommandDispatcherParameterResolverFactory-&gt;ParameterResolver, CommandDispatcherParameterResolverFactoryConfigurationEnhancer-&gt;ParameterResolverFactory, AnnotatedCommandHandlingComponent-&gt;MessageHandlingMember, AnnotatedCommand...</td>
+      <td>[MethodCommandHandlerDefinition$MethodCommandHandlingMember-&gt;WrappedMessageHandlingMember, MethodCommandHandlerDefinition$MethodCommandHandlingMember-&gt;MessageHandlingMember, CommandHandler-&gt;MessageHandler, Command-&gt;Message, CommandDispatcherParameterResolverFactoryConfigurationEnhancer-&gt;Paramete...</td>
       <td>[HandlerTypeResolver-&gt;CommandHandler]</td>
     </tr>
     <tr>
@@ -1021,7 +1021,7 @@ Only the top 40 entries are shown. The whole table can be found in the following
       <td>0.857143</td>
       <td>13</td>
       <td>1</td>
-      <td>[MethodQueryHandlerDefinition$MethodQueryHandlingMember-&gt;WrappedMessageHandlingMember, MethodQueryHandlerDefinition$MethodQueryHandlingMember-&gt;UnsupportedHandlerException, MethodQueryHandlerDefinition$MethodQueryHandlingMember-&gt;MessageHandlingMember, AnnotatedQueryHandlingComponent-&gt;HandlerDefin...</td>
+      <td>[QueryHandler-&gt;MessageHandler, MethodQueryHandlerDefinition-&gt;HandlerEnhancerDefinition, MethodQueryHandlerDefinition-&gt;MessageHandlingMember, QueryResponse-&gt;Message, QueryHandlingMember-&gt;MessageHandlingMember, MethodQueryHandlerDefinition$MethodQueryHandlingMember-&gt;MessageHandlingMember, MethodQu...</td>
       <td>[HandlerTypeResolver-&gt;QueryHandler]</td>
     </tr>
     <tr>
@@ -1033,7 +1033,7 @@ Only the top 40 entries are shown. The whole table can be found in the following
       <td>0.846154</td>
       <td>12</td>
       <td>1</td>
-      <td>[AnnotationBasedEntityIdResolver-&gt;EntityIdResolutionException, AnnotationBasedEntityIdResolver-&gt;EntityIdResolver, InjectEntityParameterResolverFactory-&gt;EntityIdResolver, InjectEntityParameterResolverFactory-&gt;PropertyBasedEntityIdResolver, InjectEntityParameterResolver-&gt;EntityIdResolutionExceptio...</td>
+      <td>[AnnotationBasedEntityIdResolverDefinition-&gt;EntityIdResolver, InjectEntity-&gt;EntityIdResolver, EntityIdResolverDefinition-&gt;EntityIdResolver, AnnotationBasedEntityIdResolver-&gt;EntityIdResolver, AnnotationBasedEntityIdResolver-&gt;EntityIdResolutionException, InjectEntityParameterResolverFactory-&gt;Prope...</td>
       <td>[PropertyBasedEntityIdResolver-&gt;TargetEntityIdMemberMismatchException]</td>
     </tr>
     <tr>
@@ -1045,7 +1045,7 @@ Only the top 40 entries are shown. The whole table can be found in the following
       <td>0.666667</td>
       <td>5</td>
       <td>1</td>
-      <td>[TransactionalExecutorProvider-&gt;ProcessingContext, TransactionManager-&gt;ProcessingContext, TransactionManager-&gt;ProcessingLifecycle$Phase, TransactionManager-&gt;ProcessingLifecycle$ErrorHandler, TransactionManager-&gt;ProcessingLifecycle]</td>
+      <td>[TransactionalExecutorProvider-&gt;ProcessingContext, TransactionManager-&gt;ProcessingLifecycle$Phase, TransactionManager-&gt;ProcessingLifecycle$ErrorHandler, TransactionManager-&gt;ProcessingLifecycle, TransactionManager-&gt;ProcessingContext]</td>
       <td>[TransactionalUnitOfWorkFactory-&gt;TransactionManager]</td>
     </tr>
     <tr>
@@ -1057,7 +1057,7 @@ Only the top 40 entries are shown. The whole table can be found in the following
       <td>0.666667</td>
       <td>15</td>
       <td>3</td>
-      <td>[PooledStreamingEventProcessorModule-&gt;EventHandlingComponentsConfigurer$CompletePhase, PooledStreamingEventProcessorModule-&gt;EventHandlingComponentsConfigurer$RequiredComponentPhase, PooledStreamingEventProcessorModule-&gt;DefaultEventHandlingComponentsConfigurer, PooledStreamingEventProcessorModule...</td>
+      <td>[PooledStreamingEventProcessorModule-&gt;DefaultEventHandlingComponentsConfigurer, PooledStreamingEventProcessorModule-&gt;EventProcessorModule$CustomizationPhase, PooledStreamingEventProcessorModule-&gt;EventProcessorConfiguration, PooledStreamingEventProcessorModule-&gt;EventProcessorModule$EventHandlingP...</td>
       <td>[EventProcessorModule-&gt;PooledStreamingEventProcessorModule, EventProcessorModule-&gt;PooledStreamingEventProcessorConfiguration, EventProcessingConfigurer-&gt;PooledStreamingEventProcessorsConfigurer]</td>
     </tr>
     <tr>
@@ -1069,8 +1069,8 @@ Only the top 40 entries are shown. The whole table can be found in the following
       <td>0.666667</td>
       <td>15</td>
       <td>3</td>
-      <td>[SubscribingEventProcessorsConfigurer-&gt;EventProcessorModule$EventHandlingPhase, SubscribingEventProcessorsConfigurer-&gt;EventHandlingComponentsConfigurer$RequiredComponentPhase, SubscribingEventProcessorsConfigurer-&gt;EventHandlingComponentsConfigurer$CompletePhase, SubscribingEventProcessorsConfigu...</td>
-      <td>[EventProcessorModule-&gt;SubscribingEventProcessorConfiguration, EventProcessorModule-&gt;SubscribingEventProcessorModule, EventProcessingConfigurer-&gt;SubscribingEventProcessorsConfigurer]</td>
+      <td>[SubscribingEventProcessorsConfigurer-&gt;EventProcessingConfigurer, SubscribingEventProcessorsConfigurer-&gt;EventHandlingComponentsConfigurer$RequiredComponentPhase, SubscribingEventProcessorsConfigurer-&gt;EventProcessorModule$CustomizationPhase, SubscribingEventProcessorsConfigurer-&gt;EventProcessorMod...</td>
+      <td>[EventProcessorModule-&gt;SubscribingEventProcessorModule, EventProcessorModule-&gt;SubscribingEventProcessorConfiguration, EventProcessingConfigurer-&gt;SubscribingEventProcessorsConfigurer]</td>
     </tr>
     <tr>
       <th>9</th>
@@ -1081,8 +1081,8 @@ Only the top 40 entries are shown. The whole table can be found in the following
       <td>0.529412</td>
       <td>13</td>
       <td>4</td>
-      <td>[Component-&gt;DescribableComponent, DefaultComponentRegistry$LocalConfiguration-&gt;ComponentDescriptor, LazyInitializedComponentDefinition-&gt;ComponentDescriptor, Configuration-&gt;DescribableComponent, DefaultAxonApplication$AxonConfigurationImpl-&gt;ComponentDescriptor, DecoratedComponent-&gt;ComponentDescri...</td>
-      <td>[FilesystemStyleComponentDescriptor-&gt;Component$Identifier, FilesystemStyleComponentDescriptor-&gt;Component, JacksonComponentDescriptor-&gt;Component, JacksonComponentDescriptor-&gt;Component$Identifier]</td>
+      <td>[DefaultAxonApplication$AxonConfigurationImpl-&gt;ComponentDescriptor, AbstractComponent-&gt;ComponentDescriptor, DecoratedComponent-&gt;ComponentDescriptor, Components-&gt;DescribableComponent, Components-&gt;ComponentDescriptor, InstantiatedComponentDefinition-&gt;ComponentDescriptor, DefaultComponentRegistry-&gt;...</td>
+      <td>[FilesystemStyleComponentDescriptor-&gt;Component$Identifier, FilesystemStyleComponentDescriptor-&gt;Component, JacksonComponentDescriptor-&gt;Component$Identifier, JacksonComponentDescriptor-&gt;Component]</td>
     </tr>
     <tr>
       <th>10</th>
@@ -1093,8 +1093,8 @@ Only the top 40 entries are shown. The whole table can be found in the following
       <td>0.500000</td>
       <td>15</td>
       <td>5</td>
-      <td>[NoMoreInterceptors-&gt;MessageHandlingMember, MessageHandlerInterceptorDefinition$InterceptedMessageHandlingMember-&gt;MessageHandlingMember, MessageHandlerInterceptorDefinition$InterceptedMessageHandlingMember-&gt;WrappedMessageHandlingMember, MessageHandlerInterceptorMemberChain-&gt;MessageHandlingMember...</td>
-      <td>[AnnotatedHandlerInspector-&gt;MessageInterceptingMember, AnnotatedHandlerInspector-&gt;MessageHandlerInterceptorMemberChain, AnnotatedHandlerInspector-&gt;NoMoreInterceptors, ChainedMessageHandlerInterceptorMember-&gt;NoMoreInterceptors, ChainedMessageHandlerInterceptorMember-&gt;MessageHandlerInterceptorMemb...</td>
+      <td>[MessageInterceptingMember-&gt;MessageHandlingMember, MessageHandlerInterceptorDefinition$ResultHandlingInterceptorMember-&gt;InterceptorChainParameterResolverFactory, MessageHandlerInterceptorDefinition$ResultHandlingInterceptorMember-&gt;MessageHandlingMember, MessageHandlerInterceptorDefinition$Result...</td>
+      <td>[AnnotatedHandlerInspector-&gt;MessageInterceptingMember, AnnotatedHandlerInspector-&gt;NoMoreInterceptors, AnnotatedHandlerInspector-&gt;MessageHandlerInterceptorMemberChain, ChainedMessageHandlerInterceptorMember-&gt;NoMoreInterceptors, ChainedMessageHandlerInterceptorMember-&gt;MessageHandlerInterceptorMemb...</td>
     </tr>
     <tr>
       <th>11</th>
@@ -1117,7 +1117,7 @@ Only the top 40 entries are shown. The whole table can be found in the following
       <td>0.333333</td>
       <td>4</td>
       <td>2</td>
-      <td>[ErrorCode-&gt;AxonServerRemoteCommandHandlingException, ErrorCode-&gt;AxonServerNonTransientRemoteCommandHandlingException, ErrorCode-&gt;AxonServerCommandDispatchException, AxonServerConfigurationEnhancer-&gt;AxonServerCommandBusConnector]</td>
+      <td>[ErrorCode-&gt;AxonServerCommandDispatchException, ErrorCode-&gt;AxonServerNonTransientRemoteCommandHandlingException, ErrorCode-&gt;AxonServerRemoteCommandHandlingException, AxonServerConfigurationEnhancer-&gt;AxonServerCommandBusConnector]</td>
       <td>[CommandConverter-&gt;MetadataConverter, AxonServerCommandBusConnector-&gt;AxonServerConfiguration]</td>
     </tr>
     <tr>
@@ -1141,7 +1141,7 @@ Only the top 40 entries are shown. The whole table can be found in the following
       <td>0.333333</td>
       <td>4</td>
       <td>2</td>
-      <td>[SimpleEventHandlingComponent-&gt;SequentialPolicy, SimpleEventHandlingComponent-&gt;SequentialPerAggregatePolicy, SimpleEventHandlingComponent-&gt;HierarchicalSequencingPolicy, SimpleEventHandlingComponent-&gt;SequencingPolicy]</td>
+      <td>[SimpleEventHandlingComponent-&gt;SequencingPolicy, SimpleEventHandlingComponent-&gt;SequentialPolicy, SimpleEventHandlingComponent-&gt;SequentialPerAggregatePolicy, SimpleEventHandlingComponent-&gt;HierarchicalSequencingPolicy]</td>
       <td>[SequentialPerAggregatePolicy-&gt;EventMessage, ExtractionSequencingPolicy-&gt;EventMessage]</td>
     </tr>
     <tr>
@@ -1153,8 +1153,8 @@ Only the top 40 entries are shown. The whole table can be found in the following
       <td>0.200000</td>
       <td>6</td>
       <td>4</td>
-      <td>[QueryConverter-&gt;ErrorCode, QueryConverter-&gt;MetadataConverter, FlowControlledResponseSender-&gt;ErrorCode, AxonServerQueryDispatchException-&gt;ErrorCode, AxonServerQueryBusConnector-&gt;AxonServerConfiguration, AxonServerQueryBusConnector$AxonServerUpdateCallback-&gt;ErrorCode]</td>
-      <td>[ErrorCode-&gt;AxonServerNonTransientRemoteQueryHandlingException, ErrorCode-&gt;AxonServerQueryDispatchException, ErrorCode-&gt;AxonServerRemoteQueryHandlingException, AxonServerConfigurationEnhancer-&gt;AxonServerQueryBusConnector]</td>
+      <td>[AxonServerQueryDispatchException-&gt;ErrorCode, AxonServerQueryBusConnector$AxonServerUpdateCallback-&gt;ErrorCode, QueryConverter-&gt;ErrorCode, QueryConverter-&gt;MetadataConverter, AxonServerQueryBusConnector-&gt;AxonServerConfiguration, FlowControlledResponseSender-&gt;ErrorCode]</td>
+      <td>[ErrorCode-&gt;AxonServerQueryDispatchException, ErrorCode-&gt;AxonServerNonTransientRemoteQueryHandlingException, ErrorCode-&gt;AxonServerRemoteQueryHandlingException, AxonServerConfigurationEnhancer-&gt;AxonServerQueryBusConnector]</td>
     </tr>
     <tr>
       <th>16</th>
@@ -1165,7 +1165,7 @@ Only the top 40 entries are shown. The whole table can be found in the following
       <td>0.200000</td>
       <td>3</td>
       <td>2</td>
-      <td>[AnnotatedEntityMetamodel-&gt;AnnotationBasedEntityEvolvingComponent, AnnotatedEntityIdResolverDefinition-&gt;AnnotationBasedEntityIdResolver, AnnotatedEntityIdResolverDefinition-&gt;EntityIdResolverDefinition]</td>
+      <td>[AnnotatedEntityIdResolverDefinition-&gt;EntityIdResolverDefinition, AnnotatedEntityIdResolverDefinition-&gt;AnnotationBasedEntityIdResolver, AnnotatedEntityMetamodel-&gt;AnnotationBasedEntityEvolvingComponent]</td>
       <td>[AnnotationBasedEntityIdResolverDefinition-&gt;AnnotatedEntityMetamodel, EntityIdResolverDefinition-&gt;AnnotatedEntityMetamodel]</td>
     </tr>
     <tr>
@@ -1177,8 +1177,8 @@ Only the top 40 entries are shown. The whole table can be found in the following
       <td>0.142857</td>
       <td>8</td>
       <td>6</td>
-      <td>[SingleEntityChildMetamodel-&gt;EntityMetamodel, AbstractEntityChildMetamodel-&gt;ChildEntityNotFoundException, AbstractEntityChildMetamodel-&gt;EntityMetamodel, ListEntityChildMetamodel-&gt;EntityMetamodel, SingleEntityChildMetamodel$Builder-&gt;EntityMetamodel, EntityChildMetamodel-&gt;EntityMetamodel, Abstract...</td>
-      <td>[PolymorphicEntityMetamodel$Builder-&gt;EntityChildMetamodel, EntityMetamodelBuilder-&gt;EntityChildMetamodel, PolymorphicEntityMetamodelBuilder-&gt;EntityChildMetamodel, ConcreteEntityMetamodel-&gt;EntityChildMetamodel, ConcreteEntityMetamodel-&gt;ChildAmbiguityException, ConcreteEntityMetamodel$Builder-&gt;Enti...</td>
+      <td>[AbstractEntityChildMetamodel-&gt;ChildEntityNotFoundException, AbstractEntityChildMetamodel-&gt;EntityMetamodel, SingleEntityChildMetamodel-&gt;EntityMetamodel, ListEntityChildMetamodel$Builder-&gt;EntityMetamodel, SingleEntityChildMetamodel$Builder-&gt;EntityMetamodel, ListEntityChildMetamodel-&gt;EntityMetamod...</td>
+      <td>[ConcreteEntityMetamodel-&gt;EntityChildMetamodel, ConcreteEntityMetamodel-&gt;ChildAmbiguityException, PolymorphicEntityMetamodel$Builder-&gt;EntityChildMetamodel, PolymorphicEntityMetamodelBuilder-&gt;EntityChildMetamodel, ConcreteEntityMetamodel$Builder-&gt;EntityChildMetamodel, EntityMetamodelBuilder-&gt;Enti...</td>
     </tr>
     <tr>
       <th>18</th>
@@ -1189,8 +1189,8 @@ Only the top 40 entries are shown. The whole table can be found in the following
       <td>0.111111</td>
       <td>10</td>
       <td>8</td>
-      <td>[UnitOfWork-&gt;ApplicationContext, LegacyMessageSupportingContext-&gt;Context$ResourceKey, LegacyMessageSupportingContext-&gt;Message, ResourceOverridingProcessingContext-&gt;Context$ResourceKey, ProcessingContext-&gt;Context, ProcessingContext-&gt;ApplicationContext, ProcessingContext-&gt;Context$ResourceKey, Unit...</td>
-      <td>[DefaultMessageDispatchInterceptorChain-&gt;ProcessingContext, MessageHandlerInterceptor-&gt;ProcessingContext, DefaultMessageDispatchInterceptorChain$InterceptingDispatcher-&gt;ProcessingContext, MessageDispatchInterceptorChain-&gt;ProcessingContext, Message-&gt;ProcessingContext, MessageDispatchInterceptor-&gt;...</td>
+      <td>[LegacyMessageSupportingContext-&gt;Message, LegacyMessageSupportingContext-&gt;Context$ResourceKey, SimpleUnitOfWorkFactory-&gt;ApplicationContext, ResourceOverridingProcessingContext-&gt;Context$ResourceKey, ProcessingContext-&gt;Context, ProcessingContext-&gt;ApplicationContext, ProcessingContext-&gt;Context$Reso...</td>
+      <td>[DefaultMessageDispatchInterceptorChain$InterceptingDispatcher-&gt;ProcessingContext, MessageDispatchInterceptor-&gt;ProcessingContext, SubscribableEventSource-&gt;ProcessingContext, MessageHandlerInterceptor-&gt;ProcessingContext, MessageHandlerInterceptorChain-&gt;ProcessingContext, MessageDispatchIntercepto...</td>
     </tr>
     <tr>
       <th>19</th>
@@ -1201,8 +1201,8 @@ Only the top 40 entries are shown. The whole table can be found in the following
       <td>0.000000</td>
       <td>2</td>
       <td>2</td>
-      <td>[ExceptionConverter-&gt;ErrorCode, GrpcExceptionParser-&gt;ErrorCode]</td>
-      <td>[AxonServerConnectionManager$Builder-&gt;GrpcMessageSizeInterceptor, ErrorCode-&gt;ExceptionConverter]</td>
+      <td>[GrpcExceptionParser-&gt;ErrorCode, ExceptionConverter-&gt;ErrorCode]</td>
+      <td>[ErrorCode-&gt;ExceptionConverter, AxonServerConnectionManager$Builder-&gt;GrpcMessageSizeInterceptor]</td>
     </tr>
     <tr>
       <th>20</th>
@@ -1257,7 +1257,7 @@ Only the top 40 entries are shown. The whole table can be found in the following
       <td>org.axonframework.messaging.core.annotation</td>
       <td>axon-messaging-5.0.3</td>
       <td>org.axonframework.messaging.core</td>
-      <td>ChainedMessageHandlerInterceptorMember-&gt;Message</td>
+      <td>MethodInvokingMessageHandlingMember-&gt;MessageStream$Entry</td>
       <td>0.959184</td>
       <td>48</td>
       <td>1</td>
@@ -1268,7 +1268,7 @@ Only the top 40 entries are shown. The whole table can be found in the following
       <td>org.axonframework.messaging.core.annotation</td>
       <td>axon-messaging-5.0.3</td>
       <td>org.axonframework.messaging.core</td>
-      <td>MethodInvokingMessageHandlingMember-&gt;MessageStream$Single</td>
+      <td>PayloadParameterResolver-&gt;Message</td>
       <td>0.959184</td>
       <td>48</td>
       <td>1</td>
@@ -1279,7 +1279,7 @@ Only the top 40 entries are shown. The whole table can be found in the following
       <td>org.axonframework.messaging.core.annotation</td>
       <td>axon-messaging-5.0.3</td>
       <td>org.axonframework.messaging.core</td>
-      <td>MessageHandlingMember-&gt;MessageStream</td>
+      <td>Message-&gt;Message</td>
       <td>0.959184</td>
       <td>48</td>
       <td>1</td>
@@ -1290,7 +1290,7 @@ Only the top 40 entries are shown. The whole table can be found in the following
       <td>org.axonframework.messaging.core.annotation</td>
       <td>axon-messaging-5.0.3</td>
       <td>org.axonframework.messaging.core</td>
-      <td>ChainedMessageHandlerInterceptorMember-&gt;MessageStream</td>
+      <td>MethodInvokingMessageHandlingMember-&gt;MessageStream$Empty</td>
       <td>0.959184</td>
       <td>48</td>
       <td>1</td>
@@ -1301,7 +1301,7 @@ Only the top 40 entries are shown. The whole table can be found in the following
       <td>org.axonframework.messaging.core.annotation</td>
       <td>axon-messaging-5.0.3</td>
       <td>org.axonframework.messaging.core</td>
-      <td>AnnotatedMessageHandlingMemberDefinition-&gt;Message</td>
+      <td>DefaultParameterResolverFactory$MetadataParameterResolver-&gt;Metadata</td>
       <td>0.959184</td>
       <td>48</td>
       <td>1</td>
@@ -1312,7 +1312,7 @@ Only the top 40 entries are shown. The whole table can be found in the following
       <td>org.axonframework.messaging.core.annotation</td>
       <td>axon-messaging-5.0.3</td>
       <td>org.axonframework.messaging.core</td>
-      <td>AnnotatedMessageHandlingMemberDefinition-&gt;MessageStream</td>
+      <td>DefaultParameterResolverFactory$MessageParameterResolver-&gt;Message</td>
       <td>0.959184</td>
       <td>48</td>
       <td>1</td>
@@ -1323,7 +1323,7 @@ Only the top 40 entries are shown. The whole table can be found in the following
       <td>org.axonframework.messaging.core.annotation</td>
       <td>axon-messaging-5.0.3</td>
       <td>org.axonframework.messaging.core</td>
-      <td>AnnotationMessageTypeResolver-&gt;MessageTypeResolver</td>
+      <td>AggregateTypeParameterResolverFactory$AggregateTypeParameterResolver-&gt;Context$ResourceKey</td>
       <td>0.959184</td>
       <td>48</td>
       <td>1</td>
@@ -1334,7 +1334,7 @@ Only the top 40 entries are shown. The whole table can be found in the following
       <td>org.axonframework.messaging.core.annotation</td>
       <td>axon-messaging-5.0.3</td>
       <td>org.axonframework.messaging.core</td>
-      <td>PayloadParameterResolver-&gt;Message</td>
+      <td>WrappedMessageHandlingMember-&gt;MessageStream</td>
       <td>0.959184</td>
       <td>48</td>
       <td>1</td>
@@ -1345,7 +1345,7 @@ Only the top 40 entries are shown. The whole table can be found in the following
       <td>org.axonframework.messaging.core.annotation</td>
       <td>axon-messaging-5.0.3</td>
       <td>org.axonframework.messaging.core</td>
-      <td>DefaultParameterResolverFactory-&gt;Metadata</td>
+      <td>MethodInvokingMessageHandlingMember-&gt;MessageStream$Single</td>
       <td>0.959184</td>
       <td>48</td>
       <td>1</td>
@@ -1356,7 +1356,7 @@ Only the top 40 entries are shown. The whole table can be found in the following
       <td>org.axonframework.messaging.core.annotation</td>
       <td>axon-messaging-5.0.3</td>
       <td>org.axonframework.messaging.core</td>
-      <td>DefaultParameterResolverFactory$MessageParameterResolver-&gt;Message</td>
+      <td>MethodInvokingMessageHandlingMember-&gt;MessageStream</td>
       <td>0.959184</td>
       <td>48</td>
       <td>1</td>
@@ -1367,7 +1367,7 @@ Only the top 40 entries are shown. The whole table can be found in the following
       <td>org.axonframework.messaging.core.annotation</td>
       <td>axon-messaging-5.0.3</td>
       <td>org.axonframework.messaging.core</td>
-      <td>InterceptorChainParameterResolverFactory-&gt;Message</td>
+      <td>AnnotatedMessageHandlingMemberDefinition-&gt;Message</td>
       <td>0.959184</td>
       <td>48</td>
       <td>1</td>
@@ -1378,7 +1378,7 @@ Only the top 40 entries are shown. The whole table can be found in the following
       <td>org.axonframework.messaging.core.annotation</td>
       <td>axon-messaging-5.0.3</td>
       <td>org.axonframework.messaging.core</td>
-      <td>AggregateTypeParameterResolverFactory$AggregateTypeParameterResolver-&gt;Context$ResourceKey</td>
+      <td>DefaultParameterResolverFactory$MetadataParameterResolver-&gt;Message</td>
       <td>0.959184</td>
       <td>48</td>
       <td>1</td>
@@ -1389,7 +1389,7 @@ Only the top 40 entries are shown. The whole table can be found in the following
       <td>org.axonframework.messaging.core.annotation</td>
       <td>axon-messaging-5.0.3</td>
       <td>org.axonframework.messaging.core</td>
-      <td>InterceptorChainParameterResolverFactory-&gt;MessageStream</td>
+      <td>AnnotatedMessageHandlingMemberDefinition-&gt;MessageStream</td>
       <td>0.959184</td>
       <td>48</td>
       <td>1</td>
@@ -1400,7 +1400,7 @@ Only the top 40 entries are shown. The whole table can be found in the following
       <td>org.axonframework.messaging.core.annotation</td>
       <td>axon-messaging-5.0.3</td>
       <td>org.axonframework.messaging.core</td>
-      <td>InterceptorChainParameterResolverFactory-&gt;Context$ResourceKey</td>
+      <td>ChainedMessageHandlerInterceptorMember-&gt;MessageStream</td>
       <td>0.959184</td>
       <td>48</td>
       <td>1</td>
@@ -1411,7 +1411,7 @@ Only the top 40 entries are shown. The whole table can be found in the following
       <td>org.axonframework.messaging.core.annotation</td>
       <td>axon-messaging-5.0.3</td>
       <td>org.axonframework.messaging.core</td>
-      <td>WrappedMessageHandlingMember-&gt;MessageStream</td>
+      <td>MessageHandlingMember-&gt;Message</td>
       <td>0.959184</td>
       <td>48</td>
       <td>1</td>
@@ -1422,7 +1422,7 @@ Only the top 40 entries are shown. The whole table can be found in the following
       <td>org.axonframework.messaging.core.annotation</td>
       <td>axon-messaging-5.0.3</td>
       <td>org.axonframework.messaging.core</td>
-      <td>AnnotationMessageTypeResolver-&gt;MessageType</td>
+      <td>AggregateTypeParameterResolverFactory$AggregateTypeParameterResolver-&gt;LegacyResources</td>
       <td>0.959184</td>
       <td>48</td>
       <td>1</td>
@@ -1433,7 +1433,7 @@ Only the top 40 entries are shown. The whole table can be found in the following
       <td>org.axonframework.messaging.core.annotation</td>
       <td>axon-messaging-5.0.3</td>
       <td>org.axonframework.messaging.core</td>
-      <td>AnnotationMessageTypeResolver-&gt;ClassBasedMessageTypeResolver</td>
+      <td>WrappedMessageHandlingMember-&gt;Message</td>
       <td>0.959184</td>
       <td>48</td>
       <td>1</td>
@@ -1444,7 +1444,7 @@ Only the top 40 entries are shown. The whole table can be found in the following
       <td>org.axonframework.messaging.core.annotation</td>
       <td>axon-messaging-5.0.3</td>
       <td>org.axonframework.messaging.core</td>
-      <td>MessageStreamResolverUtils-&gt;GenericMessage</td>
+      <td>DefaultParameterResolverFactory-&gt;Message</td>
       <td>0.959184</td>
       <td>48</td>
       <td>1</td>
@@ -1455,7 +1455,7 @@ Only the top 40 entries are shown. The whole table can be found in the following
       <td>org.axonframework.messaging.core.annotation</td>
       <td>axon-messaging-5.0.3</td>
       <td>org.axonframework.messaging.core</td>
-      <td>WrappedMessageHandlingMember-&gt;Message</td>
+      <td>MessageHandlingMember-&gt;MessageStream</td>
       <td>0.959184</td>
       <td>48</td>
       <td>1</td>
@@ -1466,7 +1466,7 @@ Only the top 40 entries are shown. The whole table can be found in the following
       <td>org.axonframework.messaging.core.annotation</td>
       <td>axon-messaging-5.0.3</td>
       <td>org.axonframework.messaging.core</td>
-      <td>MessageHandlingMember-&gt;Message</td>
+      <td>MethodInvokingMessageHandlingMember-&gt;DelayedMessageStream</td>
       <td>0.959184</td>
       <td>48</td>
       <td>1</td>
@@ -1488,7 +1488,7 @@ Only the top 40 entries are shown. The whole table can be found in the following
       <td>org.axonframework.messaging.core.annotation</td>
       <td>axon-messaging-5.0.3</td>
       <td>org.axonframework.messaging.core</td>
-      <td>DefaultParameterResolverFactory-&gt;Message</td>
+      <td>MethodInvokingMessageHandlingMember-&gt;Message</td>
       <td>0.959184</td>
       <td>48</td>
       <td>1</td>
@@ -1499,7 +1499,7 @@ Only the top 40 entries are shown. The whole table can be found in the following
       <td>org.axonframework.messaging.core.annotation</td>
       <td>axon-messaging-5.0.3</td>
       <td>org.axonframework.messaging.core</td>
-      <td>MessageHandler-&gt;Message</td>
+      <td>MessageIdentifierParameterResolverFactory$MessageIdentifierParameterResolver-&gt;Message</td>
       <td>0.959184</td>
       <td>48</td>
       <td>1</td>
@@ -1510,7 +1510,7 @@ Only the top 40 entries are shown. The whole table can be found in the following
       <td>org.axonframework.messaging.core.annotation</td>
       <td>axon-messaging-5.0.3</td>
       <td>org.axonframework.messaging.core</td>
-      <td>MessageIdentifierParameterResolverFactory$MessageIdentifierParameterResolver-&gt;Message</td>
+      <td>DefaultParameterResolverFactory$AnnotatedMetadataParameterResolver-&gt;Message</td>
       <td>0.959184</td>
       <td>48</td>
       <td>1</td>
@@ -1521,7 +1521,7 @@ Only the top 40 entries are shown. The whole table can be found in the following
       <td>org.axonframework.messaging.core.annotation</td>
       <td>axon-messaging-5.0.3</td>
       <td>org.axonframework.messaging.core</td>
-      <td>MessageStreamResolverUtils-&gt;MessageStream$Empty</td>
+      <td>InterceptorChainParameterResolverFactory-&gt;MessageStream</td>
       <td>0.959184</td>
       <td>48</td>
       <td>1</td>
@@ -1532,7 +1532,7 @@ Only the top 40 entries are shown. The whole table can be found in the following
       <td>org.axonframework.messaging.core.annotation</td>
       <td>axon-messaging-5.0.3</td>
       <td>org.axonframework.messaging.core</td>
-      <td>AggregateTypeParameterResolverFactory$AggregateTypeParameterResolver-&gt;LegacyResources</td>
+      <td>MultiHandlerDefinition-&gt;MessageStream</td>
       <td>0.959184</td>
       <td>48</td>
       <td>1</td>
@@ -1543,7 +1543,7 @@ Only the top 40 entries are shown. The whole table can be found in the following
       <td>org.axonframework.messaging.core.annotation</td>
       <td>axon-messaging-5.0.3</td>
       <td>org.axonframework.messaging.core</td>
-      <td>AnnotatedHandlerInspector-&gt;Message</td>
+      <td>DefaultParameterResolverFactory$AnnotatedMetadataParameterResolver-&gt;Metadata</td>
       <td>0.959184</td>
       <td>48</td>
       <td>1</td>
@@ -1554,7 +1554,7 @@ Only the top 40 entries are shown. The whole table can be found in the following
       <td>org.axonframework.messaging.core.annotation</td>
       <td>axon-messaging-5.0.3</td>
       <td>org.axonframework.messaging.core</td>
-      <td>MultiHandlerDefinition-&gt;MessageStream</td>
+      <td>InterceptorChainParameterResolverFactory-&gt;Context$ResourceKey</td>
       <td>0.959184</td>
       <td>48</td>
       <td>1</td>
@@ -1565,7 +1565,7 @@ Only the top 40 entries are shown. The whole table can be found in the following
       <td>org.axonframework.messaging.core.annotation</td>
       <td>axon-messaging-5.0.3</td>
       <td>org.axonframework.messaging.core</td>
-      <td>AnnotatedHandlerInspector-&gt;MessageStream</td>
+      <td>HandlerDefinition-&gt;MessageStream</td>
       <td>0.959184</td>
       <td>48</td>
       <td>1</td>
@@ -1576,7 +1576,7 @@ Only the top 40 entries are shown. The whole table can be found in the following
       <td>org.axonframework.messaging.core.annotation</td>
       <td>axon-messaging-5.0.3</td>
       <td>org.axonframework.messaging.core</td>
-      <td>InterceptorChainParameterResolverFactory-&gt;MessageHandlerInterceptorChain</td>
+      <td>ChainedMessageHandlerInterceptorMember-&gt;Message</td>
       <td>0.959184</td>
       <td>48</td>
       <td>1</td>
@@ -1587,7 +1587,7 @@ Only the top 40 entries are shown. The whole table can be found in the following
       <td>org.axonframework.messaging.core.annotation</td>
       <td>axon-messaging-5.0.3</td>
       <td>org.axonframework.messaging.core</td>
-      <td>MessageStreamResolverUtils-&gt;MessageStream$Single</td>
+      <td>InterceptorChainParameterResolverFactory-&gt;MessageHandlerInterceptorChain</td>
       <td>0.959184</td>
       <td>48</td>
       <td>1</td>
@@ -1598,7 +1598,7 @@ Only the top 40 entries are shown. The whole table can be found in the following
       <td>org.axonframework.messaging.core.annotation</td>
       <td>axon-messaging-5.0.3</td>
       <td>org.axonframework.messaging.core</td>
-      <td>SourceIdParameterResolverFactory$SourceIdParameterResolver-&gt;LegacyResources</td>
+      <td>MessageHandler-&gt;Message</td>
       <td>0.959184</td>
       <td>48</td>
       <td>1</td>
@@ -1609,7 +1609,7 @@ Only the top 40 entries are shown. The whole table can be found in the following
       <td>org.axonframework.messaging.core.annotation</td>
       <td>axon-messaging-5.0.3</td>
       <td>org.axonframework.messaging.core</td>
-      <td>MessageStreamResolverUtils-&gt;MessageTypeResolver</td>
+      <td>InterceptorChainParameterResolverFactory-&gt;Message</td>
       <td>0.959184</td>
       <td>48</td>
       <td>1</td>
@@ -1620,7 +1620,7 @@ Only the top 40 entries are shown. The whole table can be found in the following
       <td>org.axonframework.messaging.core.annotation</td>
       <td>axon-messaging-5.0.3</td>
       <td>org.axonframework.messaging.core</td>
-      <td>DefaultParameterResolverFactory$AnnotatedMetadataParameterResolver-&gt;Metadata</td>
+      <td>SourceIdParameterResolverFactory$SourceIdParameterResolver-&gt;LegacyResources</td>
       <td>0.959184</td>
       <td>48</td>
       <td>1</td>
@@ -1631,7 +1631,7 @@ Only the top 40 entries are shown. The whole table can be found in the following
       <td>org.axonframework.messaging.core.annotation</td>
       <td>axon-messaging-5.0.3</td>
       <td>org.axonframework.messaging.core</td>
-      <td>MessageStreamResolverUtils-&gt;FluxUtils</td>
+      <td>AnnotatedHandlerInspector-&gt;Message</td>
       <td>0.959184</td>
       <td>48</td>
       <td>1</td>
@@ -1642,7 +1642,7 @@ Only the top 40 entries are shown. The whole table can be found in the following
       <td>org.axonframework.messaging.core.annotation</td>
       <td>axon-messaging-5.0.3</td>
       <td>org.axonframework.messaging.core</td>
-      <td>SourceIdParameterResolverFactory$SourceIdParameterResolver-&gt;Context$ResourceKey</td>
+      <td>DefaultParameterResolverFactory-&gt;Metadata</td>
       <td>0.959184</td>
       <td>48</td>
       <td>1</td>
@@ -1653,7 +1653,7 @@ Only the top 40 entries are shown. The whole table can be found in the following
       <td>org.axonframework.messaging.core.annotation</td>
       <td>axon-messaging-5.0.3</td>
       <td>org.axonframework.messaging.core</td>
-      <td>MessageStreamResolverUtils-&gt;MonoUtils</td>
+      <td>AnnotatedHandlerInspector-&gt;MessageStream</td>
       <td>0.959184</td>
       <td>48</td>
       <td>1</td>
@@ -1664,7 +1664,7 @@ Only the top 40 entries are shown. The whole table can be found in the following
       <td>org.axonframework.messaging.core.annotation</td>
       <td>axon-messaging-5.0.3</td>
       <td>org.axonframework.messaging.core</td>
-      <td>MessageStreamResolverUtils-&gt;MessageStream</td>
+      <td>AnnotatedHandlerAttributes-&gt;SimpleHandlerAttributes</td>
       <td>0.959184</td>
       <td>48</td>
       <td>1</td>
@@ -1675,7 +1675,7 @@ Only the top 40 entries are shown. The whole table can be found in the following
       <td>org.axonframework.messaging.core.annotation</td>
       <td>axon-messaging-5.0.3</td>
       <td>org.axonframework.messaging.core</td>
-      <td>DefaultParameterResolverFactory$AnnotatedMetadataParameterResolver-&gt;Message</td>
+      <td>SourceIdParameterResolverFactory$SourceIdParameterResolver-&gt;Context$ResourceKey</td>
       <td>0.959184</td>
       <td>48</td>
       <td>1</td>
@@ -1686,7 +1686,7 @@ Only the top 40 entries are shown. The whole table can be found in the following
       <td>org.axonframework.messaging.core.annotation</td>
       <td>axon-messaging-5.0.3</td>
       <td>org.axonframework.messaging.core</td>
-      <td>MethodInvokingMessageHandlingMember-&gt;MessageStream$Entry</td>
+      <td>AnnotationMessageTypeResolver-&gt;MessageType</td>
       <td>0.959184</td>
       <td>48</td>
       <td>1</td>
@@ -1839,7 +1839,7 @@ Only the top 40 entries are shown. The whole table can be found in the following
       <td>org.axonframework.messaging.eventhandling.processing.subscribing</td>
       <td>axon-messaging-5.0.3</td>
       <td>org.axonframework.messaging.eventhandling.configuration</td>
-      <td>SubscribingEventProcessorConfiguration&lt;-EventProcessorModule</td>
+      <td>SubscribingEventProcessorModule&lt;-EventProcessorModule</td>
       <td>0.666667</td>
       <td>15</td>
       <td>3</td>
@@ -1861,7 +1861,7 @@ Only the top 40 entries are shown. The whole table can be found in the following
       <td>org.axonframework.messaging.eventhandling.processing.subscribing</td>
       <td>axon-messaging-5.0.3</td>
       <td>org.axonframework.messaging.eventhandling.configuration</td>
-      <td>SubscribingEventProcessorModule&lt;-EventProcessorModule</td>
+      <td>SubscribingEventProcessorConfiguration&lt;-EventProcessorModule</td>
       <td>0.666667</td>
       <td>15</td>
       <td>3</td>
@@ -1872,7 +1872,7 @@ Only the top 40 entries are shown. The whole table can be found in the following
       <td>org.axonframework.common.configuration</td>
       <td>axon-common-5.0.3</td>
       <td>org.axonframework.common.infra</td>
-      <td>Component$Identifier&lt;-JacksonComponentDescriptor</td>
+      <td>Component&lt;-JacksonComponentDescriptor</td>
       <td>0.529412</td>
       <td>13</td>
       <td>4</td>
@@ -1883,7 +1883,7 @@ Only the top 40 entries are shown. The whole table can be found in the following
       <td>org.axonframework.common.configuration</td>
       <td>axon-common-5.0.3</td>
       <td>org.axonframework.common.infra</td>
-      <td>Component&lt;-JacksonComponentDescriptor</td>
+      <td>Component$Identifier&lt;-JacksonComponentDescriptor</td>
       <td>0.529412</td>
       <td>13</td>
       <td>4</td>
@@ -1927,7 +1927,7 @@ Only the top 40 entries are shown. The whole table can be found in the following
       <td>org.axonframework.messaging.core.interception.annotation</td>
       <td>axon-messaging-5.0.3</td>
       <td>org.axonframework.messaging.core.annotation</td>
-      <td>NoMoreInterceptors&lt;-AnnotatedHandlerInspector</td>
+      <td>MessageHandlerInterceptorMemberChain&lt;-AnnotatedHandlerInspector</td>
       <td>0.500000</td>
       <td>15</td>
       <td>5</td>
@@ -1938,7 +1938,7 @@ Only the top 40 entries are shown. The whole table can be found in the following
       <td>org.axonframework.messaging.core.interception.annotation</td>
       <td>axon-messaging-5.0.3</td>
       <td>org.axonframework.messaging.core.annotation</td>
-      <td>MessageHandlerInterceptorMemberChain&lt;-AnnotatedHandlerInspector</td>
+      <td>NoMoreInterceptors&lt;-AnnotatedHandlerInspector</td>
       <td>0.500000</td>
       <td>15</td>
       <td>5</td>
@@ -2059,7 +2059,7 @@ Only the top 40 entries are shown. The whole table can be found in the following
       <td>org.axonframework.axonserver.connector.query</td>
       <td>axon-server-connector-5.0.3</td>
       <td>org.axonframework.axonserver.connector</td>
-      <td>AxonServerQueryDispatchException&lt;-ErrorCode</td>
+      <td>AxonServerNonTransientRemoteQueryHandlingException&lt;-ErrorCode</td>
       <td>0.200000</td>
       <td>6</td>
       <td>4</td>
@@ -2070,7 +2070,7 @@ Only the top 40 entries are shown. The whole table can be found in the following
       <td>org.axonframework.axonserver.connector.query</td>
       <td>axon-server-connector-5.0.3</td>
       <td>org.axonframework.axonserver.connector</td>
-      <td>AxonServerNonTransientRemoteQueryHandlingException&lt;-ErrorCode</td>
+      <td>AxonServerQueryDispatchException&lt;-ErrorCode</td>
       <td>0.200000</td>
       <td>6</td>
       <td>4</td>
@@ -2114,7 +2114,7 @@ Only the top 40 entries are shown. The whole table can be found in the following
       <td>org.axonframework.modelling.entity.child</td>
       <td>axon-modelling-5.0.3</td>
       <td>org.axonframework.modelling.entity</td>
-      <td>EntityChildMetamodel&lt;-PolymorphicEntityMetamodel$Builder</td>
+      <td>EntityChildMetamodel&lt;-ConcreteEntityMetamodel</td>
       <td>0.142857</td>
       <td>8</td>
       <td>6</td>
@@ -2125,7 +2125,7 @@ Only the top 40 entries are shown. The whole table can be found in the following
       <td>org.axonframework.modelling.entity.child</td>
       <td>axon-modelling-5.0.3</td>
       <td>org.axonframework.modelling.entity</td>
-      <td>EntityChildMetamodel&lt;-EntityMetamodelBuilder</td>
+      <td>ChildAmbiguityException&lt;-ConcreteEntityMetamodel</td>
       <td>0.142857</td>
       <td>8</td>
       <td>6</td>
@@ -2136,7 +2136,7 @@ Only the top 40 entries are shown. The whole table can be found in the following
       <td>org.axonframework.modelling.entity.child</td>
       <td>axon-modelling-5.0.3</td>
       <td>org.axonframework.modelling.entity</td>
-      <td>EntityChildMetamodel&lt;-PolymorphicEntityMetamodelBuilder</td>
+      <td>EntityChildMetamodel&lt;-PolymorphicEntityMetamodel$Builder</td>
       <td>0.142857</td>
       <td>8</td>
       <td>6</td>
@@ -2147,7 +2147,7 @@ Only the top 40 entries are shown. The whole table can be found in the following
       <td>org.axonframework.modelling.entity.child</td>
       <td>axon-modelling-5.0.3</td>
       <td>org.axonframework.modelling.entity</td>
-      <td>EntityChildMetamodel&lt;-ConcreteEntityMetamodel</td>
+      <td>EntityChildMetamodel&lt;-PolymorphicEntityMetamodelBuilder</td>
       <td>0.142857</td>
       <td>8</td>
       <td>6</td>
@@ -2158,7 +2158,7 @@ Only the top 40 entries are shown. The whole table can be found in the following
       <td>org.axonframework.modelling.entity.child</td>
       <td>axon-modelling-5.0.3</td>
       <td>org.axonframework.modelling.entity</td>
-      <td>ChildAmbiguityException&lt;-ConcreteEntityMetamodel</td>
+      <td>EntityChildMetamodel&lt;-ConcreteEntityMetamodel$Builder</td>
       <td>0.142857</td>
       <td>8</td>
       <td>6</td>
@@ -2300,14 +2300,6 @@ The following table shows the top 40 most used combinations of methods of larger
     </tr>
     <tr>
       <th>11</th>
-      <td>org.axonframework.common.configuration.AbstractComponent</td>
-      <td>24</td>
-      <td>[describeTo]</td>
-      <td>1</td>
-      <td>2</td>
-    </tr>
-    <tr>
-      <th>12</th>
       <td>org.axonframework.messaging.core.unitofwork.UnitOfWork</td>
       <td>24</td>
       <td>[execute]</td>
@@ -2315,23 +2307,23 @@ The following table shows the top 40 most used combinations of methods of larger
       <td>2</td>
     </tr>
     <tr>
-      <th>13</th>
+      <th>12</th>
       <td>org.axonframework.test.fixture.AxonTestThenMessage</td>
       <td>22</td>
-      <td>[exception, exceptionSatisfies]</td>
+      <td>[exceptionSatisfies, exception]</td>
       <td>3</td>
       <td>2</td>
     </tr>
     <tr>
-      <th>14</th>
+      <th>13</th>
       <td>org.axonframework.messaging.commandhandling.CommandMessage</td>
       <td>20</td>
-      <td>[priority, routingKey]</td>
+      <td>[routingKey, priority]</td>
       <td>2</td>
       <td>2</td>
     </tr>
     <tr>
-      <th>15</th>
+      <th>14</th>
       <td>org.axonframework.messaging.commandhandling.CommandMessage</td>
       <td>19</td>
       <td>[withConvertedPayload]</td>
@@ -2339,7 +2331,7 @@ The following table shows the top 40 most used combinations of methods of larger
       <td>2</td>
     </tr>
     <tr>
-      <th>16</th>
+      <th>15</th>
       <td>org.axonframework.messaging.commandhandling.CommandMessage</td>
       <td>19</td>
       <td>[andMetadata]</td>
@@ -2347,7 +2339,7 @@ The following table shows the top 40 most used combinations of methods of larger
       <td>2</td>
     </tr>
     <tr>
-      <th>17</th>
+      <th>16</th>
       <td>org.axonframework.messaging.eventhandling.EventMessage</td>
       <td>19</td>
       <td>[withConvertedPayload]</td>
@@ -2355,7 +2347,7 @@ The following table shows the top 40 most used combinations of methods of larger
       <td>2</td>
     </tr>
     <tr>
-      <th>18</th>
+      <th>17</th>
       <td>org.axonframework.messaging.eventhandling.EventMessage</td>
       <td>19</td>
       <td>[identifier]</td>
@@ -2363,7 +2355,7 @@ The following table shows the top 40 most used combinations of methods of larger
       <td>2</td>
     </tr>
     <tr>
-      <th>19</th>
+      <th>18</th>
       <td>org.axonframework.messaging.eventstreaming.EventCriterion</td>
       <td>12</td>
       <td>[tags]</td>
@@ -2371,7 +2363,7 @@ The following table shows the top 40 most used combinations of methods of larger
       <td>2</td>
     </tr>
     <tr>
-      <th>20</th>
+      <th>19</th>
       <td>org.axonframework.messaging.eventstreaming.OrEventCriteria</td>
       <td>12</td>
       <td>[or]</td>
@@ -2379,7 +2371,7 @@ The following table shows the top 40 most used combinations of methods of larger
       <td>2</td>
     </tr>
     <tr>
-      <th>21</th>
+      <th>20</th>
       <td>org.axonframework.modelling.entity.ConcreteEntityMetamodel</td>
       <td>11</td>
       <td>[forEntityClass]</td>
@@ -2387,7 +2379,7 @@ The following table shows the top 40 most used combinations of methods of larger
       <td>2</td>
     </tr>
     <tr>
-      <th>22</th>
+      <th>21</th>
       <td>org.axonframework.modelling.entity.PolymorphicEntityMetamodel</td>
       <td>11</td>
       <td>[forSuperType]</td>
@@ -2395,10 +2387,18 @@ The following table shows the top 40 most used combinations of methods of larger
       <td>2</td>
     </tr>
     <tr>
-      <th>23</th>
+      <th>22</th>
       <td>org.axonframework.eventsourcing.eventstore.EventStore</td>
       <td>9</td>
       <td>[transaction]</td>
+      <td>1</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>23</th>
+      <td>org.axonframework.messaging.eventhandling.processing.streaming.token.WrappedToken</td>
+      <td>9</td>
+      <td>[unwrapLowerBound]</td>
       <td>1</td>
       <td>2</td>
     </tr>
@@ -2422,20 +2422,12 @@ The following table shows the top 40 most used combinations of methods of larger
       <th>26</th>
       <td>org.axonframework.conversion.ChainingContentTypeConverter</td>
       <td>5</td>
-      <td>[registerConverter, canConvert]</td>
+      <td>[canConvert, registerConverter]</td>
       <td>2</td>
       <td>2</td>
     </tr>
     <tr>
       <th>27</th>
-      <td>org.axonframework.messaging.core.unitofwork.UnitOfWork$UnitOfWorkProcessingContext</td>
-      <td>45</td>
-      <td>[on, commit, whenComplete, isCommitted, isCompleted, isStarted, isError, onError]</td>
-      <td>8</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <th>28</th>
       <td>org.axonframework.messaging.core.EmptyMessageStream</td>
       <td>44</td>
       <td>[instance]</td>
@@ -2443,15 +2435,15 @@ The following table shows the top 40 most used combinations of methods of larger
       <td>1</td>
     </tr>
     <tr>
-      <th>29</th>
+      <th>28</th>
       <td>org.axonframework.eventsourcing.eventstore.inmemory.InMemoryEventStorageEngine$MapBackedMessageStream</td>
       <td>43</td>
-      <td>[hasNextAvailable, isCompleted]</td>
+      <td>[isCompleted, hasNextAvailable]</td>
       <td>2</td>
       <td>1</td>
     </tr>
     <tr>
-      <th>30</th>
+      <th>29</th>
       <td>org.axonframework.eventsourcing.eventstore.inmemory.InMemoryEventStorageEngine$MapBackedMessageStream</td>
       <td>42</td>
       <td>[callback]</td>
@@ -2459,7 +2451,7 @@ The following table shows the top 40 most used combinations of methods of larger
       <td>1</td>
     </tr>
     <tr>
-      <th>31</th>
+      <th>30</th>
       <td>org.axonframework.messaging.core.DelayedMessageStream</td>
       <td>42</td>
       <td>[createSingle]</td>
@@ -2467,10 +2459,18 @@ The following table shows the top 40 most used combinations of methods of larger
       <td>1</td>
     </tr>
     <tr>
-      <th>32</th>
+      <th>31</th>
       <td>org.axonframework.messaging.core.MessageStream$Single</td>
       <td>42</td>
       <td>[asCompletableFuture]</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>32</th>
+      <td>org.axonframework.messaging.core.MessageStream$Single</td>
+      <td>42</td>
+      <td>[first]</td>
       <td>1</td>
       <td>1</td>
     </tr>
@@ -2484,22 +2484,14 @@ The following table shows the top 40 most used combinations of methods of larger
     </tr>
     <tr>
       <th>34</th>
-      <td>org.axonframework.messaging.core.MessageStream$Single</td>
-      <td>42</td>
-      <td>[first]</td>
-      <td>1</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <th>35</th>
       <td>org.axonframework.messaging.core.unitofwork.ProcessingContext</td>
       <td>37</td>
-      <td>[updateResource, removeResource, putResourceIfAbsent, putResource, computeResourceIfAbsent]</td>
+      <td>[removeResource, putResourceIfAbsent, updateResource, putResource, computeResourceIfAbsent]</td>
       <td>6</td>
       <td>1</td>
     </tr>
     <tr>
-      <th>36</th>
+      <th>35</th>
       <td>org.axonframework.messaging.core.unitofwork.ProcessingContext</td>
       <td>36</td>
       <td>[updateResource, computeResourceIfAbsent]</td>
@@ -2507,7 +2499,7 @@ The following table shows the top 40 most used combinations of methods of larger
       <td>1</td>
     </tr>
     <tr>
-      <th>37</th>
+      <th>36</th>
       <td>org.axonframework.messaging.core.unitofwork.ProcessingContext</td>
       <td>35</td>
       <td>[computeResourceIfAbsent]</td>
@@ -2515,7 +2507,7 @@ The following table shows the top 40 most used combinations of methods of larger
       <td>1</td>
     </tr>
     <tr>
-      <th>38</th>
+      <th>37</th>
       <td>org.axonframework.messaging.core.unitofwork.ProcessingContext</td>
       <td>34</td>
       <td>[computeResourceIfAbsent]</td>
@@ -2523,10 +2515,18 @@ The following table shows the top 40 most used combinations of methods of larger
       <td>1</td>
     </tr>
     <tr>
+      <th>38</th>
+      <td>org.axonframework.messaging.core.unitofwork.ProcessingContext</td>
+      <td>33</td>
+      <td>[putResource]</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
       <th>39</th>
       <td>org.axonframework.messaging.core.unitofwork.ProcessingContext</td>
       <td>33</td>
-      <td>[putResourceIfAbsent, computeResourceIfAbsent]</td>
+      <td>[removeResource, computeResourceIfAbsent]</td>
       <td>2</td>
       <td>1</td>
     </tr>
@@ -2590,7 +2590,7 @@ This table shows the top 40 packages that are used by the highest number of diff
       <th>4</th>
       <td>org.axonframework.messaging.core.MessageStream</td>
       <td>MessageStream</td>
-      <td>[Type, File, Java, ByteCode, GenericDeclaration, Interface, Mark4TopCentralityPageRank, Mark4TopCentralityArticleRank, Mark4TopCentralityBetweenness, Mark4TopCentralityHarmonic, Mark4TopCentralityHyperlinkInducedTopicSearchAuthority, Mark4TopCentralityHyperlinkInducedTopicSearchHub, Mark4TypeWea...</td>
+      <td>[Type, File, Java, ByteCode, Interface, GenericDeclaration, Mark4TopCentralityPageRank, Mark4TopCentralityArticleRank, Mark4TopCentralityBetweenness, Mark4TopCentralityHarmonic, Mark4TopCentralityHyperlinkInducedTopicSearchAuthority, Mark4TopCentralityHyperlinkInducedTopicSearchHub, Mark4TypeWea...</td>
       <td>36</td>
     </tr>
     <tr>
@@ -2618,28 +2618,28 @@ This table shows the top 40 packages that are used by the highest number of diff
       <th>8</th>
       <td>org.axonframework.common.configuration.Configuration</td>
       <td>Configuration</td>
-      <td>[Type, File, Java, ByteCode, Interface, Mark4TopCentralityPageRank, Mark4TopCentralityArticleRank, Mark4TopCentralityHyperlinkInducedTopicSearchAuthority, Mark4TopCentralityHyperlinkInducedTopicSearchHub, Mark4TypeWeaklyConnectedComponent0, Mark4TypeLabelPropagation14, Mark4TypeLouvainCommunity6...</td>
+      <td>[Type, File, Java, ByteCode, Interface, Mark4TopCentralityPageRank, Mark4TopCentralityArticleRank, Mark4TopCentralityHyperlinkInducedTopicSearchAuthority, Mark4TopCentralityHyperlinkInducedTopicSearchHub, Mark4TypeWeaklyConnectedComponent0, Mark4TypeLabelPropagation9, Mark4TypeLouvainCommunity6,...</td>
       <td>29</td>
     </tr>
     <tr>
       <th>9</th>
       <td>org.axonframework.common.FutureUtils</td>
       <td>FutureUtils</td>
-      <td>[Type, File, Java, Class, ByteCode, Mark4TopCentralityHarmonic, Mark4TopCentralityCloseness, Mark4TopCentralityHyperlinkInducedTopicSearchAuthority, Mark4TopCentralityHyperlinkInducedTopicSearchHub, Mark4TypeWeaklyConnectedComponent0, Mark4TypeLabelPropagation7, Mark4TypeLouvainCommunity12, Mark...</td>
+      <td>[Type, File, Java, ByteCode, Class, Mark4TopCentralityHarmonic, Mark4TopCentralityCloseness, Mark4TopCentralityHyperlinkInducedTopicSearchAuthority, Mark4TopCentralityHyperlinkInducedTopicSearchHub, Mark4TypeWeaklyConnectedComponent0, Mark4TypeLabelPropagation8, Mark4TypeLouvainCommunity5, Mark4...</td>
       <td>28</td>
     </tr>
     <tr>
       <th>10</th>
       <td>org.axonframework.messaging.core.Context$ResourceKey</td>
       <td>Context$ResourceKey</td>
-      <td>[Type, File, Java, Class, ByteCode, GenericDeclaration, Mark4TopCentralityPageRank, Mark4TopCentralityArticleRank, Mark4TopCentralityHarmonic, Mark4TopCentralityCloseness, Mark4TopCentralityHyperlinkInducedTopicSearchAuthority, Mark4TopCentralityHyperlinkInducedTopicSearchHub, Mark4TypeWeaklyCon...</td>
+      <td>[Type, File, Java, ByteCode, GenericDeclaration, Class, Mark4TopCentralityPageRank, Mark4TopCentralityArticleRank, Mark4TopCentralityHarmonic, Mark4TopCentralityCloseness, Mark4TopCentralityHyperlinkInducedTopicSearchAuthority, Mark4TopCentralityHyperlinkInducedTopicSearchHub, Mark4TypeWeaklyCon...</td>
       <td>25</td>
     </tr>
     <tr>
       <th>11</th>
       <td>org.axonframework.messaging.core.MessageStream$Empty</td>
       <td>MessageStream$Empty</td>
-      <td>[Type, File, Java, ByteCode, GenericDeclaration, Interface, Mark4TopCentralityHyperlinkInducedTopicSearchAuthority, Mark4TopCentralityHyperlinkInducedTopicSearchHub, Mark4TypeWeaklyConnectedComponent0, Mark4TypeLabelPropagation3, Mark4TypeLouvainCommunity8, Mark4TypeLeidenCommunity9, Mark4TypeKC...</td>
+      <td>[Type, File, Java, ByteCode, Interface, GenericDeclaration, Mark4TopCentralityHyperlinkInducedTopicSearchAuthority, Mark4TopCentralityHyperlinkInducedTopicSearchHub, Mark4TypeWeaklyConnectedComponent0, Mark4TypeLabelPropagation12, Mark4TypeLouvainCommunity9, Mark4TypeLeidenCommunity9, Mark4TypeK...</td>
       <td>25</td>
     </tr>
     <tr>
@@ -2653,189 +2653,189 @@ This table shows the top 40 packages that are used by the highest number of diff
       <th>13</th>
       <td>org.axonframework.common.Assert</td>
       <td>Assert</td>
-      <td>[Type, File, Java, Class, ByteCode, Mark4TopCentralityPageRank, Mark4TopCentralityArticleRank, Mark4TopCentralityHarmonic, Mark4TopCentralityCloseness, Mark4TypeWeaklyConnectedComponent0, Mark4TypeLabelPropagation1, Mark4TypeLouvainCommunity1, Mark4TypeLeidenCommunity1, Mark4TypeKCoreDecompositi...</td>
+      <td>[Type, File, Java, ByteCode, Class, Mark4TopCentralityPageRank, Mark4TopCentralityArticleRank, Mark4TopCentralityHarmonic, Mark4TopCentralityCloseness, Mark4TypeWeaklyConnectedComponent0, Mark4TypeLabelPropagation5, Mark4TypeLouvainCommunity3, Mark4TypeLeidenCommunity10, Mark4TypeKCoreDecomposit...</td>
       <td>22</td>
     </tr>
     <tr>
       <th>14</th>
       <td>org.axonframework.common.configuration.ComponentRegistry</td>
       <td>ComponentRegistry</td>
-      <td>[Type, File, Java, ByteCode, Interface, Mark4TopCentralityBetweenness, Mark4TypeWeaklyConnectedComponent0, Mark4TypeLabelPropagation13, Mark4TypeLouvainCommunity6, Mark4TypeLeidenCommunity7, Mark4TypeKCoreDecomposition10, Mark4TypeMaximumKCut51, Mark4TypeHDBSCAN-1]</td>
+      <td>[Type, File, Java, ByteCode, Interface, Mark4TopCentralityBetweenness, Mark4TypeWeaklyConnectedComponent0, Mark4TypeLabelPropagation9, Mark4TypeLouvainCommunity6, Mark4TypeLeidenCommunity6, Mark4TypeKCoreDecomposition10, Mark4TypeMaximumKCut0, Mark4TypeHDBSCAN63]</td>
       <td>22</td>
     </tr>
     <tr>
       <th>15</th>
       <td>org.axonframework.common.BuilderUtils</td>
       <td>BuilderUtils</td>
-      <td>[Type, File, Java, Class, ByteCode, Mark4TypeWeaklyConnectedComponent0, Mark4TypeLabelPropagation5, Mark4TypeLouvainCommunity3, Mark4TypeLeidenCommunity3, Mark4TypeKCoreDecomposition9, Mark4TypeMaximumKCut71, Mark4TypeHDBSCAN51, Mark4TopAnomalyHub]</td>
+      <td>[Type, File, Java, ByteCode, Class, Mark4TypeWeaklyConnectedComponent0, Mark4TypeLabelPropagation22, Mark4TypeLouvainCommunity14, Mark4TypeLeidenCommunity13, Mark4TypeKCoreDecomposition9, Mark4TypeMaximumKCut77, Mark4TypeHDBSCAN41, Mark4TopAnomalyHub]</td>
       <td>21</td>
     </tr>
     <tr>
       <th>16</th>
       <td>org.axonframework.messaging.commandhandling.CommandMessage</td>
       <td>CommandMessage</td>
-      <td>[Type, File, Java, ByteCode, Interface, Mark4TopCentralityArticleRank, Mark4TopCentralityHyperlinkInducedTopicSearchAuthority, Mark4TopCentralityHyperlinkInducedTopicSearchHub, Mark4TypeWeaklyConnectedComponent0, Mark4TypeLabelPropagation1, Mark4TypeLouvainCommunity9, Mark4TypeLeidenCommunity1, ...</td>
+      <td>[Type, File, Java, ByteCode, Interface, Mark4TopCentralityArticleRank, Mark4TopCentralityHyperlinkInducedTopicSearchAuthority, Mark4TopCentralityHyperlinkInducedTopicSearchHub, Mark4TypeWeaklyConnectedComponent0, Mark4TypeLabelPropagation2, Mark4TypeLouvainCommunity2, Mark4TypeLeidenCommunity2, ...</td>
       <td>20</td>
     </tr>
     <tr>
       <th>17</th>
       <td>org.axonframework.messaging.core.annotation.ParameterResolverFactory</td>
       <td>ParameterResolverFactory</td>
-      <td>[Type, File, Java, ByteCode, Interface, Mark4TypeWeaklyConnectedComponent0, Mark4TypeLabelPropagation22, Mark4TypeLouvainCommunity1, Mark4TypeLeidenCommunity14, Mark4TypeKCoreDecomposition9, Mark4TypeMaximumKCut92, Mark4TypeHDBSCAN-1]</td>
+      <td>[Type, File, Java, ByteCode, Interface, Mark4TypeWeaklyConnectedComponent0, Mark4TypeLabelPropagation9, Mark4TypeLouvainCommunity13, Mark4TypeLeidenCommunity3, Mark4TypeKCoreDecomposition9, Mark4TypeMaximumKCut88, Mark4TypeHDBSCAN97]</td>
       <td>20</td>
     </tr>
     <tr>
       <th>18</th>
       <td>org.axonframework.messaging.core.MessageStream$Entry</td>
       <td>MessageStream$Entry</td>
-      <td>[Type, File, Java, ByteCode, GenericDeclaration, Interface, Mark4TopCentralityArticleRank, Mark4TopCentralityHyperlinkInducedTopicSearchAuthority, Mark4TopCentralityHyperlinkInducedTopicSearchHub, Mark4TypeWeaklyConnectedComponent0, Mark4TypeLabelPropagation3, Mark4TypeLouvainCommunity8, Mark4Ty...</td>
+      <td>[Type, File, Java, ByteCode, Interface, GenericDeclaration, Mark4TopCentralityArticleRank, Mark4TopCentralityHyperlinkInducedTopicSearchAuthority, Mark4TopCentralityHyperlinkInducedTopicSearchHub, Mark4TypeWeaklyConnectedComponent0, Mark4TypeLabelPropagation12, Mark4TypeLouvainCommunity9, Mark4T...</td>
       <td>19</td>
     </tr>
     <tr>
       <th>19</th>
       <td>org.axonframework.common.configuration.ConfigurationEnhancer</td>
       <td>ConfigurationEnhancer</td>
-      <td>[Type, File, Java, ByteCode, Interface, Mark4TypeWeaklyConnectedComponent0, Mark4TypeLabelPropagation17, Mark4TypeLouvainCommunity6, Mark4TypeLeidenCommunity7, Mark4TypeKCoreDecomposition8, Mark4TypeMaximumKCut13, Mark4TypeHDBSCAN-1]</td>
+      <td>[Type, File, Java, ByteCode, Interface, Mark4TypeWeaklyConnectedComponent0, Mark4TypeLabelPropagation9, Mark4TypeLouvainCommunity6, Mark4TypeLeidenCommunity6, Mark4TypeKCoreDecomposition8, Mark4TypeMaximumKCut75, Mark4TypeHDBSCAN133]</td>
       <td>18</td>
     </tr>
     <tr>
       <th>20</th>
       <td>org.axonframework.conversion.Converter</td>
       <td>Converter</td>
-      <td>[Type, File, Java, ByteCode, Interface, Mark4TopCentralityPageRank, Mark4TopCentralityArticleRank, Mark4TopCentralityHarmonic, Mark4TopCentralityCloseness, Mark4TypeWeaklyConnectedComponent0, Mark4TypeLabelPropagation3, Mark4TypeLouvainCommunity4, Mark4TypeLeidenCommunity4, Mark4TypeKCoreDecompo...</td>
+      <td>[Type, File, Java, ByteCode, Interface, Mark4TopCentralityPageRank, Mark4TopCentralityArticleRank, Mark4TopCentralityHarmonic, Mark4TopCentralityCloseness, Mark4TypeWeaklyConnectedComponent0, Mark4TypeLabelPropagation7, Mark4TypeLouvainCommunity1, Mark4TypeLeidenCommunity1, Mark4TypeKCoreDecompo...</td>
       <td>18</td>
     </tr>
     <tr>
       <th>21</th>
       <td>org.axonframework.messaging.core.MessageStream$Single</td>
       <td>MessageStream$Single</td>
-      <td>[Type, File, Java, ByteCode, GenericDeclaration, Interface, Mark4TopCentralityArticleRank, Mark4TopCentralityBetweenness, Mark4TopCentralityHyperlinkInducedTopicSearchAuthority, Mark4TopCentralityHyperlinkInducedTopicSearchHub, Mark4TypeWeaklyConnectedComponent0, Mark4TypeLabelPropagation3, Mark...</td>
+      <td>[Type, File, Java, ByteCode, Interface, GenericDeclaration, Mark4TopCentralityArticleRank, Mark4TopCentralityBetweenness, Mark4TopCentralityHyperlinkInducedTopicSearchAuthority, Mark4TopCentralityHyperlinkInducedTopicSearchHub, Mark4TypeWeaklyConnectedComponent0, Mark4TypeLabelPropagation12, Mar...</td>
       <td>18</td>
     </tr>
     <tr>
       <th>22</th>
       <td>org.axonframework.messaging.core.MessageTypeResolver</td>
       <td>MessageTypeResolver</td>
-      <td>[Type, File, Java, ByteCode, Interface, Mark4TopCentralityHyperlinkInducedTopicSearchAuthority, Mark4TopCentralityHyperlinkInducedTopicSearchHub, Mark4TypeWeaklyConnectedComponent0, Mark4TypeLabelPropagation3, Mark4TypeLouvainCommunity4, Mark4TypeLeidenCommunity4, Mark4TypeKCoreDecomposition10, ...</td>
+      <td>[Type, File, Java, ByteCode, Interface, Mark4TopCentralityHyperlinkInducedTopicSearchAuthority, Mark4TopCentralityHyperlinkInducedTopicSearchHub, Mark4TypeWeaklyConnectedComponent0, Mark4TypeLabelPropagation7, Mark4TypeLouvainCommunity1, Mark4TypeLeidenCommunity1, Mark4TypeKCoreDecomposition10, ...</td>
       <td>18</td>
     </tr>
     <tr>
       <th>23</th>
       <td>org.axonframework.messaging.core.conversion.MessageConverter</td>
       <td>MessageConverter</td>
-      <td>[Type, File, Java, ByteCode, Interface, Mark4TypeWeaklyConnectedComponent0, Mark4TypeLabelPropagation3, Mark4TypeLouvainCommunity6, Mark4TypeLeidenCommunity4, Mark4TypeKCoreDecomposition9, Mark4TypeMaximumKCut91, Mark4TypeLocalClusteringCoefficient0.11333333333333333, Mark4TypeHDBSCAN-1]</td>
+      <td>[Type, File, Java, ByteCode, Interface, Mark4TypeWeaklyConnectedComponent0, Mark4TypeLabelPropagation9, Mark4TypeLouvainCommunity1, Mark4TypeLeidenCommunity6, Mark4TypeKCoreDecomposition9, Mark4TypeMaximumKCut0, Mark4TypeLocalClusteringCoefficient0.11333333333333333, Mark4TypeHDBSCAN111]</td>
       <td>17</td>
     </tr>
     <tr>
       <th>24</th>
       <td>org.axonframework.messaging.core.Metadata</td>
       <td>Metadata</td>
-      <td>[Type, File, Java, Class, ByteCode, Mark4TopCentralityPageRank, Mark4TopCentralityHarmonic, Mark4TopCentralityCloseness, Mark4TypeWeaklyConnectedComponent0, Mark4TypeLabelPropagation3, Mark4TypeLouvainCommunity4, Mark4TypeLeidenCommunity4, Mark4TypeKCoreDecomposition9, Mark4TypeMaximumKCut48, Ma...</td>
+      <td>[Type, File, Java, ByteCode, Class, Mark4TopCentralityPageRank, Mark4TopCentralityHarmonic, Mark4TopCentralityCloseness, Mark4TypeWeaklyConnectedComponent0, Mark4TypeLabelPropagation0, Mark4TypeLouvainCommunity1, Mark4TypeLeidenCommunity1, Mark4TypeKCoreDecomposition9, Mark4TypeMaximumKCut57, Ma...</td>
       <td>16</td>
     </tr>
     <tr>
       <th>25</th>
       <td>org.axonframework.common.ObjectUtils</td>
       <td>ObjectUtils</td>
-      <td>[Type, File, Java, Class, ByteCode, Mark4TypeWeaklyConnectedComponent0, Mark4TypeLabelPropagation3, Mark4TypeLouvainCommunity4, Mark4TypeLeidenCommunity4, Mark4TypeKCoreDecomposition9, Mark4TypeMaximumKCut43, Mark4TypeHDBSCAN63]</td>
+      <td>[Type, File, Java, ByteCode, Class, Mark4TypeWeaklyConnectedComponent0, Mark4TypeLabelPropagation7, Mark4TypeLouvainCommunity1, Mark4TypeLeidenCommunity1, Mark4TypeKCoreDecomposition9, Mark4TypeMaximumKCut21, Mark4TypeHDBSCAN-1]</td>
       <td>16</td>
     </tr>
     <tr>
       <th>26</th>
       <td>org.axonframework.messaging.eventhandling.processing.streaming.token.TrackingToken</td>
       <td>TrackingToken</td>
-      <td>[Type, File, Java, ByteCode, Interface, Mark4TopCentralityPageRank, Mark4TopCentralityArticleRank, Mark4TopCentralityHyperlinkInducedTopicSearchAuthority, Mark4TopCentralityHyperlinkInducedTopicSearchHub, Mark4TypeWeaklyConnectedComponent0, Mark4TypeLabelPropagation39, Mark4TypeLouvainCommunity1...</td>
+      <td>[Type, File, Java, ByteCode, Interface, Mark4TopCentralityPageRank, Mark4TopCentralityArticleRank, Mark4TopCentralityHyperlinkInducedTopicSearchAuthority, Mark4TopCentralityHyperlinkInducedTopicSearchHub, Mark4TypeWeaklyConnectedComponent0, Mark4TypeLabelPropagation15, Mark4TypeLouvainCommunity5...</td>
       <td>15</td>
     </tr>
     <tr>
       <th>27</th>
       <td>org.axonframework.common.AxonConfigurationException</td>
       <td>AxonConfigurationException</td>
-      <td>[Type, File, Java, Class, ByteCode, Throwable, Mark4TopCentralityBetweenness, Mark4TypeWeaklyConnectedComponent0, Mark4TypeLabelPropagation27, Mark4TypeLouvainCommunity1, Mark4TypeLeidenCommunity8, Mark4TypeKCoreDecomposition8, Mark4TypeMaximumKCut0, Mark4TypeHDBSCAN-1]</td>
+      <td>[Type, File, Java, ByteCode, Class, Throwable, Mark4TopCentralityBetweenness, Mark4TypeWeaklyConnectedComponent0, Mark4TypeLabelPropagation30, Mark4TypeLouvainCommunity4, Mark4TypeLeidenCommunity3, Mark4TypeKCoreDecomposition8, Mark4TypeMaximumKCut8, Mark4TypeHDBSCAN54]</td>
       <td>14</td>
     </tr>
     <tr>
       <th>28</th>
       <td>org.axonframework.messaging.commandhandling.CommandBus</td>
       <td>CommandBus</td>
-      <td>[Type, File, Java, ByteCode, Interface, Mark4TypeWeaklyConnectedComponent0, Mark4TypeLabelPropagation1, Mark4TypeLouvainCommunity9, Mark4TypeLeidenCommunity1, Mark4TypeKCoreDecomposition10, Mark4TypeMaximumKCut72, Mark4TypeHDBSCAN-1]</td>
+      <td>[Type, File, Java, ByteCode, Interface, Mark4TypeWeaklyConnectedComponent0, Mark4TypeLabelPropagation2, Mark4TypeLouvainCommunity2, Mark4TypeLeidenCommunity2, Mark4TypeKCoreDecomposition10, Mark4TypeMaximumKCut58, Mark4TypeHDBSCAN71]</td>
       <td>13</td>
     </tr>
     <tr>
       <th>29</th>
       <td>org.axonframework.common.ReflectionUtils</td>
       <td>ReflectionUtils</td>
-      <td>[Type, File, Java, Class, ByteCode, Mark4TopCentralityBetweenness, Mark4TypeWeaklyConnectedComponent0, Mark4TypeLabelPropagation19, Mark4TypeLouvainCommunity1, Mark4TypeLeidenCommunity1, Mark4TypeKCoreDecomposition8, Mark4TypeMaximumKCut54, Mark4TypeHDBSCAN53, Mark4TopAnomalyBottleneck, Mark4Top...</td>
+      <td>[Type, File, Java, ByteCode, Class, Mark4TopCentralityBetweenness, Mark4TypeWeaklyConnectedComponent0, Mark4TypeLabelPropagation5, Mark4TypeLouvainCommunity3, Mark4TypeLeidenCommunity3, Mark4TypeKCoreDecomposition8, Mark4TypeMaximumKCut55, Mark4TypeHDBSCAN49, Mark4TopAnomalyBottleneck, Mark4TopA...</td>
       <td>13</td>
     </tr>
     <tr>
       <th>30</th>
       <td>org.axonframework.messaging.commandhandling.CommandResultMessage</td>
       <td>CommandResultMessage</td>
-      <td>[Type, File, Java, ByteCode, Interface, Mark4TopCentralityHyperlinkInducedTopicSearchAuthority, Mark4TopCentralityHyperlinkInducedTopicSearchHub, Mark4TypeWeaklyConnectedComponent0, Mark4TypeLabelPropagation1, Mark4TypeLouvainCommunity4, Mark4TypeLeidenCommunity4, Mark4TypeKCoreDecomposition10, ...</td>
+      <td>[Type, File, Java, ByteCode, Interface, Mark4TopCentralityHyperlinkInducedTopicSearchAuthority, Mark4TopCentralityHyperlinkInducedTopicSearchHub, Mark4TypeWeaklyConnectedComponent0, Mark4TypeLabelPropagation2, Mark4TypeLouvainCommunity2, Mark4TypeLeidenCommunity2, Mark4TypeKCoreDecomposition10, ...</td>
       <td>12</td>
     </tr>
     <tr>
       <th>31</th>
       <td>org.axonframework.common.configuration.ComponentDefinition</td>
       <td>ComponentDefinition</td>
-      <td>[Type, File, Java, ByteCode, GenericDeclaration, Interface, Mark4TypeWeaklyConnectedComponent0, Mark4TypeLabelPropagation11, Mark4TypeLouvainCommunity11, Mark4TypeLeidenCommunity7, Mark4TypeKCoreDecomposition10, Mark4TypeMaximumKCut33, Mark4TypeHDBSCAN-1]</td>
+      <td>[Type, File, Java, ByteCode, Interface, GenericDeclaration, Mark4TypeWeaklyConnectedComponent0, Mark4TypeLabelPropagation9, Mark4TypeLouvainCommunity12, Mark4TypeLeidenCommunity6, Mark4TypeKCoreDecomposition10, Mark4TypeMaximumKCut84, Mark4TypeHDBSCAN-1]</td>
       <td>12</td>
     </tr>
     <tr>
       <th>32</th>
       <td>org.axonframework.common.configuration.ComponentDefinition$IncompleteComponentDefinition</td>
       <td>ComponentDefinition$IncompleteComponentDefinition</td>
-      <td>[Type, File, Java, ByteCode, GenericDeclaration, Interface, Mark4TypeWeaklyConnectedComponent0, Mark4TypeLabelPropagation11, Mark4TypeLouvainCommunity11, Mark4TypeLeidenCommunity7, Mark4TypeKCoreDecomposition10, Mark4TypeMaximumKCut16, Mark4TypeHDBSCAN17]</td>
+      <td>[Type, File, Java, ByteCode, Interface, GenericDeclaration, Mark4TypeWeaklyConnectedComponent0, Mark4TypeLabelPropagation9, Mark4TypeLouvainCommunity12, Mark4TypeLeidenCommunity6, Mark4TypeKCoreDecomposition10, Mark4TypeMaximumKCut32, Mark4TypeHDBSCAN-1]</td>
       <td>12</td>
     </tr>
     <tr>
       <th>33</th>
       <td>org.axonframework.messaging.core.Context</td>
       <td>Context</td>
-      <td>[Type, File, Java, ByteCode, Interface, Mark4TopCentralityPageRank, Mark4TopCentralityArticleRank, Mark4TopCentralityBetweenness, Mark4TopCentralityHarmonic, Mark4TopCentralityCloseness, Mark4TypeWeaklyConnectedComponent0, Mark4TypeLabelPropagation3, Mark4TypeLouvainCommunity8, Mark4TypeLeidenCo...</td>
+      <td>[Type, File, Java, ByteCode, Interface, Mark4TopCentralityPageRank, Mark4TopCentralityArticleRank, Mark4TopCentralityBetweenness, Mark4TopCentralityHarmonic, Mark4TopCentralityCloseness, Mark4TypeWeaklyConnectedComponent0, Mark4TypeLabelPropagation12, Mark4TypeLouvainCommunity9, Mark4TypeLeidenC...</td>
       <td>12</td>
     </tr>
     <tr>
       <th>34</th>
       <td>org.axonframework.messaging.queryhandling.QueryMessage</td>
       <td>QueryMessage</td>
-      <td>[Type, File, Java, ByteCode, Interface, Mark4TopCentralityHyperlinkInducedTopicSearchAuthority, Mark4TopCentralityHyperlinkInducedTopicSearchHub, Mark4TypeWeaklyConnectedComponent0, Mark4TypeLabelPropagation9, Mark4TypeLouvainCommunity8, Mark4TypeLeidenCommunity11, Mark4TypeKCoreDecomposition10,...</td>
+      <td>[Type, File, Java, ByteCode, Interface, Mark4TopCentralityHyperlinkInducedTopicSearchAuthority, Mark4TopCentralityHyperlinkInducedTopicSearchHub, Mark4TypeWeaklyConnectedComponent0, Mark4TypeLabelPropagation62, Mark4TypeLouvainCommunity1, Mark4TypeLeidenCommunity9, Mark4TypeKCoreDecomposition10,...</td>
       <td>12</td>
     </tr>
     <tr>
       <th>35</th>
       <td>org.axonframework.common.AxonNonTransientException</td>
       <td>AxonNonTransientException</td>
-      <td>[Type, File, Java, Class, ByteCode, Mark4TopCentralityPageRank, Mark4TopCentralityArticleRank, Mark4TypeWeaklyConnectedComponent0, Mark4TypeLabelPropagation2, Mark4TypeLouvainCommunity5, Mark4TypeLeidenCommunity6, Mark4TypeKCoreDecomposition4, Mark4TypeMaximumKCut49, Mark4TypeLocalClusteringCoef...</td>
+      <td>[Type, File, Java, ByteCode, Class, Mark4TopCentralityPageRank, Mark4TopCentralityArticleRank, Mark4TypeWeaklyConnectedComponent0, Mark4TypeLabelPropagation5, Mark4TypeLouvainCommunity7, Mark4TypeLeidenCommunity7, Mark4TypeKCoreDecomposition4, Mark4TypeMaximumKCut22, Mark4TypeLocalClusteringCoef...</td>
       <td>11</td>
     </tr>
     <tr>
       <th>36</th>
       <td>org.axonframework.common.configuration.ComponentBuilder</td>
       <td>ComponentBuilder</td>
-      <td>[Type, File, Java, ByteCode, GenericDeclaration, Interface, Mark4TypeWeaklyConnectedComponent0, Mark4TypeLabelPropagation13, Mark4TypeLouvainCommunity6, Mark4TypeLeidenCommunity7, Mark4TypeKCoreDecomposition10, Mark4TypeMaximumKCut52, Mark4TypeHDBSCAN81]</td>
+      <td>[Type, File, Java, ByteCode, Interface, GenericDeclaration, Mark4TypeWeaklyConnectedComponent0, Mark4TypeLabelPropagation9, Mark4TypeLouvainCommunity6, Mark4TypeLeidenCommunity6, Mark4TypeKCoreDecomposition10, Mark4TypeMaximumKCut41, Mark4TypeHDBSCAN125]</td>
       <td>11</td>
     </tr>
     <tr>
       <th>37</th>
       <td>org.axonframework.messaging.eventhandling.conversion.EventConverter</td>
       <td>EventConverter</td>
-      <td>[Type, File, Java, ByteCode, Interface, Mark4TypeWeaklyConnectedComponent0, Mark4TypeLabelPropagation3, Mark4TypeLouvainCommunity10, Mark4TypeLeidenCommunity7, Mark4TypeKCoreDecomposition9, Mark4TypeMaximumKCut1, Mark4TypeHDBSCAN-1]</td>
+      <td>[Type, File, Java, ByteCode, Interface, Mark4TypeWeaklyConnectedComponent0, Mark4TypeLabelPropagation9, Mark4TypeLouvainCommunity13, Mark4TypeLeidenCommunity2, Mark4TypeKCoreDecomposition9, Mark4TypeMaximumKCut0, Mark4TypeHDBSCAN147]</td>
       <td>11</td>
     </tr>
     <tr>
       <th>38</th>
       <td>org.axonframework.messaging.core.MessageHandlerInterceptor</td>
       <td>MessageHandlerInterceptor</td>
-      <td>[Type, File, Java, ByteCode, GenericDeclaration, Interface, Mark4TopCentralityHyperlinkInducedTopicSearchAuthority, Mark4TopCentralityHyperlinkInducedTopicSearchHub, Mark4TypeWeaklyConnectedComponent0, Mark4TypeLabelPropagation8, Mark4TypeLouvainCommunity6, Mark4TypeLeidenCommunity7, Mark4TypeKC...</td>
+      <td>[Type, File, Java, ByteCode, Interface, GenericDeclaration, Mark4TopCentralityHyperlinkInducedTopicSearchAuthority, Mark4TopCentralityHyperlinkInducedTopicSearchHub, Mark4TypeWeaklyConnectedComponent0, Mark4TypeLabelPropagation9, Mark4TypeLouvainCommunity6, Mark4TypeLeidenCommunity6, Mark4TypeKC...</td>
       <td>11</td>
     </tr>
     <tr>
       <th>39</th>
       <td>org.axonframework.messaging.core.annotation.ParameterResolver</td>
       <td>ParameterResolver</td>
-      <td>[Type, File, Java, ByteCode, GenericDeclaration, Interface, Mark4TypeWeaklyConnectedComponent0, Mark4TypeLabelPropagation3, Mark4TypeLouvainCommunity1, Mark4TypeLeidenCommunity8, Mark4TypeKCoreDecomposition7, Mark4TypeMaximumKCut51, Mark4TypeHDBSCAN27]</td>
+      <td>[Type, File, Java, ByteCode, Interface, GenericDeclaration, Mark4TypeWeaklyConnectedComponent0, Mark4TypeLabelPropagation7, Mark4TypeLouvainCommunity4, Mark4TypeLeidenCommunity3, Mark4TypeKCoreDecomposition7, Mark4TypeMaximumKCut21, Mark4TypeHDBSCAN128]</td>
       <td>11</td>
     </tr>
   </tbody>
@@ -2894,8 +2894,8 @@ The whole table can be found in the CSV report `ArtifactPackageUsage`.
       <td>7</td>
       <td>59</td>
       <td>0.118644</td>
-      <td>[org.axonframework.messaging.commandhandling, org.axonframework.messaging.core, org.axonframework.messaging.eventhandling, org.axonframework.messaging.queryhandling, org.axonframework.messaging.monitoring, org.axonframework.messaging.eventhandling.processing, org.axonframework.messaging.monitori...</td>
-      <td>[commandhandling, core, eventhandling, queryhandling, monitoring, processing, configuration]</td>
+      <td>[org.axonframework.messaging.core, org.axonframework.messaging.eventhandling.processing, org.axonframework.messaging.monitoring, org.axonframework.messaging.commandhandling, org.axonframework.messaging.queryhandling, org.axonframework.messaging.eventhandling, org.axonframework.messaging.monitori...</td>
+      <td>[core, processing, monitoring, commandhandling, queryhandling, eventhandling, configuration]</td>
     </tr>
     <tr>
       <th>3</th>
@@ -2920,22 +2920,22 @@ The whole table can be found in the CSV report `ArtifactPackageUsage`.
     <tr>
       <th>5</th>
       <td>axon-server-connector-5.0.3</td>
-      <td>axon-modelling-5.0.3</td>
-      <td>1</td>
-      <td>7</td>
-      <td>0.142857</td>
-      <td>[org.axonframework.modelling]</td>
-      <td>[modelling]</td>
-    </tr>
-    <tr>
-      <th>6</th>
-      <td>axon-server-connector-5.0.3</td>
       <td>axon-eventsourcing-5.0.3</td>
       <td>1</td>
       <td>7</td>
       <td>0.142857</td>
       <td>[org.axonframework.eventsourcing.eventstore]</td>
       <td>[eventstore]</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>axon-server-connector-5.0.3</td>
+      <td>axon-modelling-5.0.3</td>
+      <td>1</td>
+      <td>7</td>
+      <td>0.142857</td>
+      <td>[org.axonframework.modelling]</td>
+      <td>[modelling]</td>
     </tr>
     <tr>
       <th>7</th>
@@ -2954,8 +2954,8 @@ The whole table can be found in the CSV report `ArtifactPackageUsage`.
       <td>9</td>
       <td>59</td>
       <td>0.152542</td>
-      <td>[org.axonframework.messaging.core.unitofwork, org.axonframework.messaging.core, org.axonframework.messaging.monitoring, org.axonframework.messaging.commandhandling, org.axonframework.messaging.core.annotation, org.axonframework.messaging.eventhandling, org.axonframework.messaging.eventhandling.p...</td>
-      <td>[unitofwork, core, monitoring, commandhandling, annotation, eventhandling, token, conversion, eventstreaming]</td>
+      <td>[org.axonframework.messaging.commandhandling, org.axonframework.messaging.core, org.axonframework.messaging.eventhandling, org.axonframework.messaging.core.conversion, org.axonframework.messaging.eventstreaming, org.axonframework.messaging.eventhandling.processing.streaming.token, org.axonframew...</td>
+      <td>[commandhandling, core, eventhandling, conversion, eventstreaming, token, unitofwork, annotation, monitoring]</td>
     </tr>
     <tr>
       <th>9</th>
@@ -2969,7 +2969,7 @@ The whole table can be found in the CSV report `ArtifactPackageUsage`.
     </tr>
     <tr>
       <th>10</th>
-      <td>axon-eventsourcing-5.0.3</td>
+      <td>axon-modelling-5.0.3</td>
       <td>axon-conversion-5.0.3</td>
       <td>1</td>
       <td>5</td>
@@ -2980,16 +2980,16 @@ The whole table can be found in the CSV report `ArtifactPackageUsage`.
     <tr>
       <th>11</th>
       <td>axon-conversion-5.0.3</td>
-      <td>axon-conversion-5.0.3</td>
-      <td>1</td>
-      <td>5</td>
+      <td>axon-common-5.0.3</td>
+      <td>3</td>
+      <td>15</td>
       <td>0.200000</td>
-      <td>[org.axonframework.conversion]</td>
-      <td>[conversion]</td>
+      <td>[org.axonframework.common.infra, org.axonframework.common.annotation, org.axonframework.common]</td>
+      <td>[infra, annotation, common]</td>
     </tr>
     <tr>
       <th>12</th>
-      <td>axon-modelling-5.0.3</td>
+      <td>axon-eventsourcing-5.0.3</td>
       <td>axon-conversion-5.0.3</td>
       <td>1</td>
       <td>5</td>
@@ -3000,25 +3000,15 @@ The whole table can be found in the CSV report `ArtifactPackageUsage`.
     <tr>
       <th>13</th>
       <td>axon-conversion-5.0.3</td>
-      <td>axon-common-5.0.3</td>
-      <td>3</td>
-      <td>15</td>
-      <td>0.200000</td>
-      <td>[org.axonframework.common, org.axonframework.common.infra, org.axonframework.common.annotation]</td>
-      <td>[common, infra, annotation]</td>
-    </tr>
-    <tr>
-      <th>14</th>
-      <td>axon-spring-boot-autoconfigure-5.0.3</td>
-      <td>axon-server-connector-5.0.3</td>
+      <td>axon-conversion-5.0.3</td>
       <td>1</td>
       <td>5</td>
       <td>0.200000</td>
-      <td>[org.axonframework.axonserver.connector]</td>
-      <td>[connector]</td>
+      <td>[org.axonframework.conversion]</td>
+      <td>[conversion]</td>
     </tr>
     <tr>
-      <th>15</th>
+      <th>14</th>
       <td>axon-update-5.0.3</td>
       <td>axon-common-5.0.3</td>
       <td>3</td>
@@ -3028,14 +3018,24 @@ The whole table can be found in the CSV report `ArtifactPackageUsage`.
       <td>[annotation, common, configuration]</td>
     </tr>
     <tr>
+      <th>15</th>
+      <td>axon-spring-boot-autoconfigure-5.0.3</td>
+      <td>axon-server-connector-5.0.3</td>
+      <td>1</td>
+      <td>5</td>
+      <td>0.200000</td>
+      <td>[org.axonframework.axonserver.connector]</td>
+      <td>[connector]</td>
+    </tr>
+    <tr>
       <th>16</th>
       <td>axon-modelling-5.0.3</td>
       <td>axon-messaging-5.0.3</td>
       <td>13</td>
       <td>59</td>
       <td>0.220339</td>
-      <td>[org.axonframework.messaging.queryhandling.configuration, org.axonframework.messaging.core.configuration, org.axonframework.messaging.commandhandling.configuration, org.axonframework.messaging.commandhandling, org.axonframework.messaging.eventhandling, org.axonframework.messaging.core, org.axonf...</td>
-      <td>[configuration, commandhandling, eventhandling, core, unitofwork, annotation, conversion, reflection]</td>
+      <td>[org.axonframework.messaging.core.unitofwork, org.axonframework.messaging.eventhandling, org.axonframework.messaging.core, org.axonframework.messaging.commandhandling, org.axonframework.messaging.queryhandling.configuration, org.axonframework.messaging.commandhandling.configuration, org.axonfram...</td>
+      <td>[unitofwork, eventhandling, core, commandhandling, configuration, conversion, annotation, reflection]</td>
     </tr>
     <tr>
       <th>17</th>
@@ -3044,8 +3044,8 @@ The whole table can be found in the CSV report `ArtifactPackageUsage`.
       <td>4</td>
       <td>15</td>
       <td>0.266667</td>
-      <td>[org.axonframework.common, org.axonframework.common.infra, org.axonframework.common.annotation, org.axonframework.common.configuration]</td>
-      <td>[common, infra, annotation, configuration]</td>
+      <td>[org.axonframework.common, org.axonframework.common.configuration, org.axonframework.common.infra, org.axonframework.common.annotation]</td>
+      <td>[common, configuration, infra, annotation]</td>
     </tr>
     <tr>
       <th>18</th>
@@ -3054,8 +3054,8 @@ The whole table can be found in the CSV report `ArtifactPackageUsage`.
       <td>16</td>
       <td>59</td>
       <td>0.271186</td>
-      <td>[org.axonframework.messaging.core.unitofwork, org.axonframework.messaging.eventhandling.processing.streaming.token, org.axonframework.messaging.eventhandling.processing, org.axonframework.messaging.eventhandling.conversion, org.axonframework.messaging.eventstreaming, org.axonframework.messaging....</td>
-      <td>[unitofwork, token, processing, conversion, eventstreaming, streaming, subscribing, store, segmenting, core, eventhandling, distributed, queryhandling, commandhandling]</td>
+      <td>[org.axonframework.messaging.eventhandling.processing.subscribing, org.axonframework.messaging.eventstreaming, org.axonframework.messaging.eventhandling.processing.streaming, org.axonframework.messaging.core, org.axonframework.messaging.eventhandling.processing, org.axonframework.messaging.event...</td>
+      <td>[subscribing, eventstreaming, streaming, core, processing, token, conversion, unitofwork, segmenting, store, eventhandling, distributed, commandhandling, queryhandling]</td>
     </tr>
     <tr>
       <th>19</th>
@@ -3064,8 +3064,8 @@ The whole table can be found in the CSV report `ArtifactPackageUsage`.
       <td>16</td>
       <td>59</td>
       <td>0.271186</td>
-      <td>[org.axonframework.messaging.core.configuration, org.axonframework.messaging.eventhandling, org.axonframework.messaging.core.interception, org.axonframework.messaging.commandhandling, org.axonframework.messaging.core.annotation, org.axonframework.messaging.eventhandling.conversion, org.axonframe...</td>
-      <td>[configuration, eventhandling, interception, commandhandling, annotation, conversion, core, token, eventstreaming, unitofwork, transaction]</td>
+      <td>[org.axonframework.messaging.eventhandling.annotation, org.axonframework.messaging.eventstreaming, org.axonframework.messaging.core.unitofwork, org.axonframework.messaging.eventhandling, org.axonframework.messaging.core, org.axonframework.messaging.eventhandling.processing.streaming.token, org.a...</td>
+      <td>[annotation, eventstreaming, unitofwork, eventhandling, core, token, conversion, commandhandling, configuration, interception, transaction]</td>
     </tr>
     <tr>
       <th>20</th>
@@ -3074,8 +3074,8 @@ The whole table can be found in the CSV report `ArtifactPackageUsage`.
       <td>16</td>
       <td>59</td>
       <td>0.271186</td>
-      <td>[org.axonframework.messaging.core.annotation, org.axonframework.messaging.commandhandling.distributed, org.axonframework.messaging.core.interception, org.axonframework.messaging.eventhandling.processing.streaming.token.store.jpa, org.axonframework.messaging.queryhandling.distributed, org.axonfra...</td>
-      <td>[annotation, distributed, interception, jpa, conversion, timeout, store, core, eventhandling, transaction, correlation, queryhandling, commandhandling]</td>
+      <td>[org.axonframework.messaging.core.timeout, org.axonframework.messaging.core.conversion, org.axonframework.messaging.core.unitofwork.transaction.jpa, org.axonframework.messaging.core.annotation, org.axonframework.messaging.core, org.axonframework.messaging.eventhandling, org.axonframework.messagi...</td>
+      <td>[timeout, conversion, jpa, annotation, core, eventhandling, correlation, interception, commandhandling, distributed, queryhandling, store, transaction]</td>
     </tr>
     <tr>
       <th>21</th>
@@ -3094,8 +3094,8 @@ The whole table can be found in the CSV report `ArtifactPackageUsage`.
       <td>5</td>
       <td>15</td>
       <td>0.333333</td>
-      <td>[org.axonframework.common, org.axonframework.common.jdbc, org.axonframework.common.jpa, org.axonframework.common.configuration, org.axonframework.common.annotation]</td>
-      <td>[common, jdbc, jpa, configuration, annotation]</td>
+      <td>[org.axonframework.common.annotation, org.axonframework.common.jpa, org.axonframework.common.jdbc, org.axonframework.common.configuration, org.axonframework.common]</td>
+      <td>[annotation, jpa, jdbc, configuration, common]</td>
     </tr>
     <tr>
       <th>23</th>
@@ -3104,8 +3104,8 @@ The whole table can be found in the CSV report `ArtifactPackageUsage`.
       <td>5</td>
       <td>15</td>
       <td>0.333333</td>
-      <td>[org.axonframework.common, org.axonframework.common.configuration, org.axonframework.common.infra, org.axonframework.common.annotation, org.axonframework.common.property]</td>
-      <td>[common, configuration, infra, annotation, property]</td>
+      <td>[org.axonframework.common.infra, org.axonframework.common, org.axonframework.common.configuration, org.axonframework.common.property, org.axonframework.common.annotation]</td>
+      <td>[infra, common, configuration, property, annotation]</td>
     </tr>
     <tr>
       <th>24</th>
@@ -3114,8 +3114,8 @@ The whole table can be found in the CSV report `ArtifactPackageUsage`.
       <td>6</td>
       <td>15</td>
       <td>0.400000</td>
-      <td>[org.axonframework.common.configuration, org.axonframework.common.infra, org.axonframework.common.annotation, org.axonframework.common, org.axonframework.common.lifecycle, org.axonframework.common.util]</td>
-      <td>[configuration, infra, annotation, common, lifecycle, util]</td>
+      <td>[org.axonframework.common, org.axonframework.common.annotation, org.axonframework.common.configuration, org.axonframework.common.infra, org.axonframework.common.lifecycle, org.axonframework.common.util]</td>
+      <td>[common, annotation, configuration, infra, lifecycle, util]</td>
     </tr>
     <tr>
       <th>25</th>
@@ -3129,23 +3129,23 @@ The whole table can be found in the CSV report `ArtifactPackageUsage`.
     </tr>
     <tr>
       <th>26</th>
+      <td>axon-common-5.0.3</td>
+      <td>axon-common-5.0.3</td>
+      <td>8</td>
+      <td>15</td>
+      <td>0.533333</td>
+      <td>[org.axonframework.common, org.axonframework.common.tx, org.axonframework.common.function, org.axonframework.common.annotation, org.axonframework.common.configuration, org.axonframework.common.infra, org.axonframework.common.lifecycle, org.axonframework.common.io]</td>
+      <td>[common, tx, function, annotation, configuration, infra, lifecycle, io]</td>
+    </tr>
+    <tr>
+      <th>27</th>
       <td>axon-eventsourcing-5.0.3</td>
       <td>axon-common-5.0.3</td>
       <td>8</td>
       <td>15</td>
       <td>0.533333</td>
-      <td>[org.axonframework.common, org.axonframework.common.annotation, org.axonframework.common.configuration, org.axonframework.common.infra, org.axonframework.common.tx, org.axonframework.common.jpa, org.axonframework.common.jdbc, org.axonframework.common.io]</td>
-      <td>[common, annotation, configuration, infra, tx, jpa, jdbc, io]</td>
-    </tr>
-    <tr>
-      <th>27</th>
-      <td>axon-common-5.0.3</td>
-      <td>axon-common-5.0.3</td>
-      <td>8</td>
-      <td>15</td>
-      <td>0.533333</td>
-      <td>[org.axonframework.common.infra, org.axonframework.common.lifecycle, org.axonframework.common.annotation, org.axonframework.common, org.axonframework.common.configuration, org.axonframework.common.tx, org.axonframework.common.function, org.axonframework.common.io]</td>
-      <td>[infra, lifecycle, annotation, common, configuration, tx, function, io]</td>
+      <td>[org.axonframework.common.infra, org.axonframework.common.configuration, org.axonframework.common, org.axonframework.common.annotation, org.axonframework.common.jpa, org.axonframework.common.tx, org.axonframework.common.jdbc, org.axonframework.common.io]</td>
+      <td>[infra, configuration, common, annotation, jpa, tx, jdbc, io]</td>
     </tr>
     <tr>
       <th>28</th>
@@ -3154,18 +3154,18 @@ The whole table can be found in the CSV report `ArtifactPackageUsage`.
       <td>3</td>
       <td>5</td>
       <td>0.600000</td>
-      <td>[org.axonframework.update.detection, org.axonframework.update.configuration, org.axonframework.update]</td>
-      <td>[detection, configuration, update]</td>
+      <td>[org.axonframework.update.configuration, org.axonframework.update.detection, org.axonframework.update]</td>
+      <td>[configuration, detection, update]</td>
     </tr>
     <tr>
       <th>29</th>
-      <td>axon-metrics-micrometer-5.0.3</td>
-      <td>axon-metrics-micrometer-5.0.3</td>
-      <td>2</td>
-      <td>3</td>
+      <td>axon-test-5.0.3</td>
+      <td>axon-test-5.0.3</td>
+      <td>4</td>
+      <td>6</td>
       <td>0.666667</td>
-      <td>[org.axonframework.extension.metrics.micrometer, org.axonframework.extension.metrics.micrometer.reservoir]</td>
-      <td>[micrometer, reservoir]</td>
+      <td>[org.axonframework.test, org.axonframework.test.util, org.axonframework.test.matchers, org.axonframework.test.fixture]</td>
+      <td>[test, util, matchers, fixture]</td>
     </tr>
   </tbody>
 </table>
@@ -3198,14 +3198,14 @@ This table shows the top 30 types that only use a few (compared to all existing)
   <tbody>
     <tr>
       <th>0</th>
-      <td>axon-eventsourcing-5.0.3</td>
+      <td>axon-modelling-5.0.3</td>
       <td>axon-messaging-5.0.3</td>
-      <td>org.axonframework.eventsourcing.configuration</td>
+      <td>org.axonframework.modelling.repository</td>
       <td>org.axonframework.messaging.core</td>
       <td>1</td>
       <td>80</td>
       <td>0.012500</td>
-      <td>[org.axonframework.messaging.core.MessageTypeResolver]</td>
+      <td>[org.axonframework.messaging.core.Context$ResourceKey]</td>
     </tr>
     <tr>
       <th>1</th>
@@ -3220,14 +3220,14 @@ This table shows the top 30 types that only use a few (compared to all existing)
     </tr>
     <tr>
       <th>2</th>
-      <td>axon-modelling-5.0.3</td>
+      <td>axon-eventsourcing-5.0.3</td>
       <td>axon-messaging-5.0.3</td>
-      <td>org.axonframework.modelling.repository</td>
+      <td>org.axonframework.eventsourcing.configuration</td>
       <td>org.axonframework.messaging.core</td>
       <td>1</td>
       <td>80</td>
       <td>0.012500</td>
-      <td>[org.axonframework.messaging.core.Context$ResourceKey]</td>
+      <td>[org.axonframework.messaging.core.MessageTypeResolver]</td>
     </tr>
     <tr>
       <th>3</th>
@@ -3255,23 +3255,23 @@ This table shows the top 30 types that only use a few (compared to all existing)
       <th>5</th>
       <td>axon-messaging-5.0.3</td>
       <td>axon-common-5.0.3</td>
-      <td>org.axonframework.messaging.core</td>
-      <td>org.axonframework.common.configuration</td>
-      <td>1</td>
-      <td>46</td>
-      <td>0.021739</td>
-      <td>[org.axonframework.common.configuration.Configuration]</td>
-    </tr>
-    <tr>
-      <th>6</th>
-      <td>axon-messaging-5.0.3</td>
-      <td>axon-common-5.0.3</td>
       <td>org.axonframework.messaging.core.unitofwork</td>
       <td>org.axonframework.common.configuration</td>
       <td>1</td>
       <td>46</td>
       <td>0.021739</td>
       <td>[org.axonframework.common.configuration.ComponentNotFoundException]</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>axon-messaging-5.0.3</td>
+      <td>axon-common-5.0.3</td>
+      <td>org.axonframework.messaging.core</td>
+      <td>org.axonframework.common.configuration</td>
+      <td>1</td>
+      <td>46</td>
+      <td>0.021739</td>
+      <td>[org.axonframework.common.configuration.Configuration]</td>
     </tr>
     <tr>
       <th>7</th>
@@ -3319,50 +3319,6 @@ This table shows the top 30 types that only use a few (compared to all existing)
     </tr>
     <tr>
       <th>11</th>
-      <td>axon-spring-boot-autoconfigure-5.0.3</td>
-      <td>axon-common-5.0.3</td>
-      <td>org.axonframework.extension.springboot.autoconfig</td>
-      <td>org.axonframework.common</td>
-      <td>1</td>
-      <td>34</td>
-      <td>0.029412</td>
-      <td>[org.axonframework.common.AxonConfigurationException]</td>
-    </tr>
-    <tr>
-      <th>12</th>
-      <td>axon-update-5.0.3</td>
-      <td>axon-common-5.0.3</td>
-      <td>org.axonframework.update</td>
-      <td>org.axonframework.common</td>
-      <td>1</td>
-      <td>34</td>
-      <td>0.029412</td>
-      <td>[org.axonframework.common.ObjectUtils]</td>
-    </tr>
-    <tr>
-      <th>13</th>
-      <td>axon-messaging-5.0.3</td>
-      <td>axon-common-5.0.3</td>
-      <td>org.axonframework.messaging.monitoring</td>
-      <td>org.axonframework.common</td>
-      <td>1</td>
-      <td>34</td>
-      <td>0.029412</td>
-      <td>[org.axonframework.common.Assert]</td>
-    </tr>
-    <tr>
-      <th>14</th>
-      <td>axon-messaging-5.0.3</td>
-      <td>axon-common-5.0.3</td>
-      <td>org.axonframework.messaging.core.interception.annotation</td>
-      <td>org.axonframework.common</td>
-      <td>1</td>
-      <td>34</td>
-      <td>0.029412</td>
-      <td>[org.axonframework.common.AxonConfigurationException]</td>
-    </tr>
-    <tr>
-      <th>15</th>
       <td>axon-conversion-5.0.3</td>
       <td>axon-common-5.0.3</td>
       <td>org.axonframework.conversion.avro</td>
@@ -3371,6 +3327,50 @@ This table shows the top 30 types that only use a few (compared to all existing)
       <td>34</td>
       <td>0.029412</td>
       <td>[org.axonframework.common.BuilderUtils]</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>axon-messaging-5.0.3</td>
+      <td>axon-common-5.0.3</td>
+      <td>org.axonframework.messaging.commandhandling.tracing</td>
+      <td>org.axonframework.common</td>
+      <td>1</td>
+      <td>34</td>
+      <td>0.029412</td>
+      <td>[org.axonframework.common.BuilderUtils]</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>axon-messaging-5.0.3</td>
+      <td>axon-common-5.0.3</td>
+      <td>org.axonframework.messaging.eventhandling.processing.streaming.token.store</td>
+      <td>org.axonframework.common</td>
+      <td>1</td>
+      <td>34</td>
+      <td>0.029412</td>
+      <td>[org.axonframework.common.AxonTransientException]</td>
+    </tr>
+    <tr>
+      <th>14</th>
+      <td>axon-test-5.0.3</td>
+      <td>axon-common-5.0.3</td>
+      <td>org.axonframework.test.util</td>
+      <td>org.axonframework.common</td>
+      <td>1</td>
+      <td>34</td>
+      <td>0.029412</td>
+      <td>[org.axonframework.common.ObjectUtils]</td>
+    </tr>
+    <tr>
+      <th>15</th>
+      <td>axon-messaging-5.0.3</td>
+      <td>axon-common-5.0.3</td>
+      <td>org.axonframework.messaging.core.interception.annotation</td>
+      <td>org.axonframework.common</td>
+      <td>1</td>
+      <td>34</td>
+      <td>0.029412</td>
+      <td>[org.axonframework.common.AxonConfigurationException]</td>
     </tr>
     <tr>
       <th>16</th>
@@ -3385,127 +3385,39 @@ This table shows the top 30 types that only use a few (compared to all existing)
     </tr>
     <tr>
       <th>17</th>
-      <td>axon-test-5.0.3</td>
+      <td>axon-modelling-5.0.3</td>
       <td>axon-common-5.0.3</td>
-      <td>org.axonframework.test.util</td>
+      <td>org.axonframework.modelling.repository</td>
       <td>org.axonframework.common</td>
       <td>1</td>
       <td>34</td>
       <td>0.029412</td>
-      <td>[org.axonframework.common.ObjectUtils]</td>
+      <td>[org.axonframework.common.FutureUtils]</td>
     </tr>
     <tr>
       <th>18</th>
       <td>axon-messaging-5.0.3</td>
       <td>axon-common-5.0.3</td>
-      <td>org.axonframework.messaging.queryhandling.tracing</td>
+      <td>org.axonframework.messaging.commandhandling.interception</td>
       <td>org.axonframework.common</td>
       <td>1</td>
       <td>34</td>
       <td>0.029412</td>
-      <td>[org.axonframework.common.BuilderUtils]</td>
+      <td>[org.axonframework.common.FutureUtils]</td>
     </tr>
     <tr>
       <th>19</th>
-      <td>axon-messaging-5.0.3</td>
+      <td>axon-tracing-opentelemetry-5.0.3</td>
       <td>axon-common-5.0.3</td>
-      <td>org.axonframework.messaging.core.configuration.reflection</td>
+      <td>org.axonframework.extension.tracing.opentelemetry</td>
       <td>org.axonframework.common</td>
       <td>1</td>
       <td>34</td>
       <td>0.029412</td>
-      <td>[org.axonframework.common.Priority]</td>
+      <td>[org.axonframework.common.BuilderUtils]</td>
     </tr>
     <tr>
       <th>20</th>
-      <td>axon-messaging-5.0.3</td>
-      <td>axon-common-5.0.3</td>
-      <td>org.axonframework.messaging.eventstreaming</td>
-      <td>org.axonframework.common</td>
-      <td>1</td>
-      <td>34</td>
-      <td>0.029412</td>
-      <td>[org.axonframework.common.Assert]</td>
-    </tr>
-    <tr>
-      <th>21</th>
-      <td>axon-messaging-5.0.3</td>
-      <td>axon-common-5.0.3</td>
-      <td>org.axonframework.messaging.eventhandling.processing</td>
-      <td>org.axonframework.common</td>
-      <td>1</td>
-      <td>34</td>
-      <td>0.029412</td>
-      <td>[org.axonframework.common.AxonException]</td>
-    </tr>
-    <tr>
-      <th>22</th>
-      <td>axon-test-5.0.3</td>
-      <td>axon-common-5.0.3</td>
-      <td>org.axonframework.test.extension</td>
-      <td>org.axonframework.common</td>
-      <td>1</td>
-      <td>34</td>
-      <td>0.029412</td>
-      <td>[org.axonframework.common.ReflectionUtils]</td>
-    </tr>
-    <tr>
-      <th>23</th>
-      <td>axon-messaging-5.0.3</td>
-      <td>axon-common-5.0.3</td>
-      <td>org.axonframework.messaging.eventhandling.tracing</td>
-      <td>org.axonframework.common</td>
-      <td>1</td>
-      <td>34</td>
-      <td>0.029412</td>
-      <td>[org.axonframework.common.BuilderUtils]</td>
-    </tr>
-    <tr>
-      <th>24</th>
-      <td>axon-messaging-5.0.3</td>
-      <td>axon-common-5.0.3</td>
-      <td>org.axonframework.messaging.commandhandling.tracing</td>
-      <td>org.axonframework.common</td>
-      <td>1</td>
-      <td>34</td>
-      <td>0.029412</td>
-      <td>[org.axonframework.common.BuilderUtils]</td>
-    </tr>
-    <tr>
-      <th>25</th>
-      <td>axon-messaging-5.0.3</td>
-      <td>axon-common-5.0.3</td>
-      <td>org.axonframework.messaging.core.sequencing</td>
-      <td>org.axonframework.common</td>
-      <td>1</td>
-      <td>34</td>
-      <td>0.029412</td>
-      <td>[org.axonframework.common.BuilderUtils]</td>
-    </tr>
-    <tr>
-      <th>26</th>
-      <td>axon-messaging-5.0.3</td>
-      <td>axon-common-5.0.3</td>
-      <td>org.axonframework.messaging.core.timeout</td>
-      <td>org.axonframework.common</td>
-      <td>1</td>
-      <td>34</td>
-      <td>0.029412</td>
-      <td>[org.axonframework.common.AxonThreadFactory]</td>
-    </tr>
-    <tr>
-      <th>27</th>
-      <td>axon-test-5.0.3</td>
-      <td>axon-common-5.0.3</td>
-      <td>org.axonframework.test.server</td>
-      <td>org.axonframework.common</td>
-      <td>1</td>
-      <td>34</td>
-      <td>0.029412</td>
-      <td>[org.axonframework.common.Assert]</td>
-    </tr>
-    <tr>
-      <th>28</th>
       <td>axon-messaging-5.0.3</td>
       <td>axon-common-5.0.3</td>
       <td>org.axonframework.messaging.monitoring.configuration</td>
@@ -3516,15 +3428,103 @@ This table shows the top 30 types that only use a few (compared to all existing)
       <td>[org.axonframework.common.TypeReference]</td>
     </tr>
     <tr>
-      <th>29</th>
-      <td>axon-tracing-opentelemetry-5.0.3</td>
+      <th>21</th>
+      <td>axon-messaging-5.0.3</td>
       <td>axon-common-5.0.3</td>
-      <td>org.axonframework.extension.tracing.opentelemetry</td>
+      <td>org.axonframework.messaging.eventstreaming</td>
+      <td>org.axonframework.common</td>
+      <td>1</td>
+      <td>34</td>
+      <td>0.029412</td>
+      <td>[org.axonframework.common.Assert]</td>
+    </tr>
+    <tr>
+      <th>22</th>
+      <td>axon-test-5.0.3</td>
+      <td>axon-common-5.0.3</td>
+      <td>org.axonframework.test.server</td>
+      <td>org.axonframework.common</td>
+      <td>1</td>
+      <td>34</td>
+      <td>0.029412</td>
+      <td>[org.axonframework.common.Assert]</td>
+    </tr>
+    <tr>
+      <th>23</th>
+      <td>axon-test-5.0.3</td>
+      <td>axon-common-5.0.3</td>
+      <td>org.axonframework.test.extension</td>
+      <td>org.axonframework.common</td>
+      <td>1</td>
+      <td>34</td>
+      <td>0.029412</td>
+      <td>[org.axonframework.common.ReflectionUtils]</td>
+    </tr>
+    <tr>
+      <th>24</th>
+      <td>axon-update-5.0.3</td>
+      <td>axon-common-5.0.3</td>
+      <td>org.axonframework.update</td>
+      <td>org.axonframework.common</td>
+      <td>1</td>
+      <td>34</td>
+      <td>0.029412</td>
+      <td>[org.axonframework.common.ObjectUtils]</td>
+    </tr>
+    <tr>
+      <th>25</th>
+      <td>axon-eventsourcing-5.0.3</td>
+      <td>axon-common-5.0.3</td>
+      <td>org.axonframework.eventsourcing.annotation</td>
+      <td>org.axonframework.common</td>
+      <td>1</td>
+      <td>34</td>
+      <td>0.029412</td>
+      <td>[org.axonframework.common.ReflectionUtils]</td>
+    </tr>
+    <tr>
+      <th>26</th>
+      <td>axon-messaging-5.0.3</td>
+      <td>axon-common-5.0.3</td>
+      <td>org.axonframework.messaging.eventhandling.processing</td>
+      <td>org.axonframework.common</td>
+      <td>1</td>
+      <td>34</td>
+      <td>0.029412</td>
+      <td>[org.axonframework.common.AxonException]</td>
+    </tr>
+    <tr>
+      <th>27</th>
+      <td>axon-messaging-5.0.3</td>
+      <td>axon-common-5.0.3</td>
+      <td>org.axonframework.messaging.eventhandling.tracing</td>
       <td>org.axonframework.common</td>
       <td>1</td>
       <td>34</td>
       <td>0.029412</td>
       <td>[org.axonframework.common.BuilderUtils]</td>
+    </tr>
+    <tr>
+      <th>28</th>
+      <td>axon-messaging-5.0.3</td>
+      <td>axon-common-5.0.3</td>
+      <td>org.axonframework.messaging.monitoring</td>
+      <td>org.axonframework.common</td>
+      <td>1</td>
+      <td>34</td>
+      <td>0.029412</td>
+      <td>[org.axonframework.common.Assert]</td>
+    </tr>
+    <tr>
+      <th>29</th>
+      <td>axon-messaging-5.0.3</td>
+      <td>axon-common-5.0.3</td>
+      <td>org.axonframework.messaging.queryhandling.configuration</td>
+      <td>org.axonframework.common</td>
+      <td>1</td>
+      <td>34</td>
+      <td>0.029412</td>
+      <td>[org.axonframework.common.FutureUtils]</td>
     </tr>
   </tbody>
 </table>
@@ -3585,175 +3585,175 @@ This table shows 30 most used Java Annotations including some examples where the
       <td>jakarta.annotation.Nonnull</td>
       <td>Parameter</td>
       <td>3497</td>
-      <td>[org.axonframework.conversion.ChainedConverter.calculateChain(0), org.axonframework.conversion.ChainedConverter.calculateChain(1), org.axonframework.conversion.ChainedConverter.calculateChain(2), org.axonframework.conversion.ChainedConverter.canConvert(0), org.axonframework.conversion.ChainedCon...</td>
+      <td>[org.axonframework.test.fixture.RecordingCommandBus.&lt;init&gt;(0), org.axonframework.test.fixture.RecordingCommandBus.dispatch(0), org.axonframework.test.fixture.RecordingCommandBus.subscribe(0), org.axonframework.test.fixture.RecordingCommandBus.subscribe(1), org.axonframework.test.fixture.Recordin...</td>
     </tr>
     <tr>
       <th>1</th>
       <td>jakarta.annotation.Nonnull</td>
       <td>Method</td>
       <td>865</td>
-      <td>[org.axonframework.conversion.ContentTypeConverter.expectedSourceType, org.axonframework.conversion.ContentTypeConverter.targetType, org.axonframework.conversion.ChainedConverter.expectedSourceType, org.axonframework.conversion.ChainedConverter.targetType, org.axonframework.conversion.jackson.Js...</td>
+      <td>[org.axonframework.test.extension.ProvidedAxonTestFixtureUtils.getAxonTestFixtureProvider, org.axonframework.test.FixtureResourceParameterResolverFactory$FailingParameterResolver.resolveParameterValue, org.axonframework.common.util.ExecutorServiceFactory.createExecutorService, org.axonframework....</td>
     </tr>
     <tr>
       <th>2</th>
       <td>jakarta.annotation.Nullable</td>
       <td>Parameter</td>
       <td>395</td>
-      <td>[org.axonframework.conversion.ChainedConverter.convert(0), org.axonframework.conversion.Converter.convert(0), org.axonframework.conversion.jackson.JsonNodeToByteArrayConverter.convert(0), org.axonframework.conversion.jackson.ObjectNodeToJsonNodeConverter.convert(0), org.axonframework.conversion....</td>
+      <td>[org.axonframework.test.fixture.RecordingCommandBus.dispatch(1), org.axonframework.test.fixture.AxonTestThenCommand.&lt;init&gt;(4), org.axonframework.test.fixture.AxonTestThenNothing.&lt;init&gt;(3), org.axonframework.test.fixture.RecordingEventSink.publish(0), org.axonframework.test.fixture.AxonTestThenMe...</td>
     </tr>
     <tr>
       <th>3</th>
       <td>jakarta.annotation.Nullable</td>
       <td>Method</td>
       <td>112</td>
-      <td>[org.axonframework.conversion.ChainedConverter.convert, org.axonframework.conversion.ContentTypeConverter.convert, org.axonframework.conversion.Converter.convert, org.axonframework.conversion.jackson.JsonNodeToByteArrayConverter.convert, org.axonframework.conversion.jackson.ObjectNodeToJsonNodeC...</td>
+      <td>[org.axonframework.test.fixture.RecordingCommandBus.resultOf, org.axonframework.test.extension.AxonFrameworkExtension.resolveParameter, org.axonframework.common.ReflectionUtils.declaringClass, org.axonframework.common.FutureUtils.joinAndUnwrap, org.axonframework.common.configuration.AbstractComp...</td>
     </tr>
     <tr>
       <th>4</th>
       <td>org.axonframework.common.annotation.Internal</td>
       <td>Class</td>
       <td>83</td>
-      <td>[org.axonframework.messaging.monitoring.configuration.DefaultMessageMonitorRegistry, org.axonframework.messaging.commandhandling.distributed.DistributedCommandBusConfigurationEnhancer, org.axonframework.messaging.commandhandling.annotation.CommandDispatcherParameterResolverFactory, org.axonframe...</td>
+      <td>[org.axonframework.test.fixture.RecordingComponentsRegistry, org.axonframework.test.fixture.RecordingCommandBus, org.axonframework.test.fixture.RecordingEventSink, org.axonframework.test.fixture.MessagesRecordingConfigurationEnhancer, org.axonframework.test.util.RecordingCommandBus, org.axonfram...</td>
     </tr>
     <tr>
       <th>5</th>
       <td>jakarta.annotation.Nonnull</td>
       <td>Field</td>
       <td>72</td>
-      <td>[org.axonframework.conversion.avro.AvroConverterConfiguration.strategies, org.axonframework.conversion.avro.AvroConverterConfiguration.schemaStore, org.axonframework.conversion.avro.AvroConverterConfiguration.schemaIncompatibilityChecker, org.axonframework.conversion.avro.AvroConverterConfigurat...</td>
+      <td>[org.axonframework.test.fixture.AxonTestFixture$Customization.fieldFilters, org.axonframework.common.configuration.AbstractComponent$HandlerRegistration.handler, org.axonframework.common.configuration.Component$Identifier.type, org.axonframework.eventsourcing.eventstore.DefaultAppendCondition.co...</td>
     </tr>
     <tr>
       <th>6</th>
       <td>java.lang.FunctionalInterface</td>
       <td>Interface</td>
       <td>59</td>
-      <td>[org.axonframework.messaging.monitoring.configuration.MessageMonitorFactory, org.axonframework.messaging.commandhandling.distributed.CommandBusConnector$Handler, org.axonframework.messaging.commandhandling.CommandHandler, org.axonframework.messaging.commandhandling.CommandPriorityCalculator, org...</td>
+      <td>[org.axonframework.test.extension.AxonTestFixtureProvider, org.axonframework.test.matchers.FieldFilter, org.axonframework.common.jdbc.JdbcUtils$SqlResultConverter, org.axonframework.common.jdbc.ConnectionProvider, org.axonframework.common.jdbc.JdbcUtils$SqlFunction, org.axonframework.common.util...</td>
     </tr>
     <tr>
       <th>7</th>
       <td>org.springframework.context.annotation.Bean</td>
       <td>Method</td>
       <td>45</td>
-      <td>[org.axonframework.extension.springboot.autoconfig.UpdateCheckerAutoConfiguration.springUpdateCheckerConfigEnhancer, org.axonframework.extension.springboot.autoconfig.JdbcTransactionAutoConfiguration.axonTransactionManager, org.axonframework.extension.springboot.autoconfig.AxonTimeoutAutoConfigu...</td>
+      <td>[org.axonframework.extension.metrics.micrometer.springboot.MicrometerMetricsAutoConfiguration.disableMetricsConfigurationEnhancer, org.axonframework.extension.metrics.micrometer.springboot.MicrometerMetricsAutoConfiguration.meterRegistry, org.axonframework.extension.metrics.micrometer.springboot...</td>
     </tr>
     <tr>
       <th>8</th>
-      <td>java.lang.annotation.Retention</td>
-      <td>Annotation</td>
-      <td>42</td>
-      <td>[org.axonframework.messaging.commandhandling.annotation.CommandHandler, org.axonframework.messaging.commandhandling.annotation.Command, org.axonframework.messaging.eventhandling.annotation.EventHandler, org.axonframework.messaging.eventhandling.annotation.SequenceNumber, org.axonframework.messag...</td>
-    </tr>
-    <tr>
-      <th>9</th>
       <td>java.lang.annotation.Target</td>
       <td>Annotation</td>
       <td>42</td>
-      <td>[org.axonframework.messaging.commandhandling.annotation.CommandHandler, org.axonframework.messaging.commandhandling.annotation.Command, org.axonframework.messaging.eventhandling.annotation.EventHandler, org.axonframework.messaging.eventhandling.annotation.SequenceNumber, org.axonframework.messag...</td>
+      <td>[org.axonframework.test.extension.ProvidedAxonTestFixture, org.axonframework.common.annotation.Internal, org.axonframework.common.Priority, org.axonframework.eventsourcing.annotation.EventSourcedEntity, org.axonframework.eventsourcing.annotation.EventTag, org.axonframework.eventsourcing.annotati...</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>java.lang.annotation.Retention</td>
+      <td>Annotation</td>
+      <td>42</td>
+      <td>[org.axonframework.test.extension.ProvidedAxonTestFixture, org.axonframework.common.annotation.Internal, org.axonframework.common.Priority, org.axonframework.eventsourcing.annotation.EventSourcedEntity, org.axonframework.eventsourcing.annotation.EventTag, org.axonframework.eventsourcing.annotati...</td>
     </tr>
     <tr>
       <th>10</th>
       <td>org.springframework.boot.autoconfigure.condition.ConditionalOnMissingBean</td>
       <td>Method</td>
       <td>23</td>
-      <td>[org.axonframework.extension.springboot.autoconfig.JdbcTransactionAutoConfiguration.axonTransactionManager, org.axonframework.extension.springboot.autoconfig.Jackson2MapperAutoConfiguration.defaultAxonJackson2Mapper, org.axonframework.extension.springboot.autoconfig.JpaAutoConfiguration.entityMa...</td>
+      <td>[org.axonframework.extension.metrics.micrometer.springboot.MicrometerMetricsAutoConfiguration.meterRegistry, org.axonframework.extension.metrics.micrometer.springboot.MicrometerMetricsAutoConfiguration.metricsConfigurationEnhancer, org.axonframework.extension.springboot.autoconfig.JdbcTransactio...</td>
     </tr>
     <tr>
       <th>11</th>
       <td>org.springframework.boot.autoconfigure.AutoConfiguration</td>
       <td>Class</td>
       <td>21</td>
-      <td>[org.axonframework.extension.springboot.autoconfig.UpdateCheckerAutoConfiguration, org.axonframework.extension.springboot.autoconfig.JdbcTransactionAutoConfiguration, org.axonframework.extension.springboot.autoconfig.AxonTimeoutAutoConfiguration, org.axonframework.extension.springboot.autoconfig...</td>
+      <td>[org.axonframework.extension.metrics.micrometer.springboot.MicrometerMetricsAutoConfiguration, org.axonframework.extension.springboot.autoconfig.JdbcTransactionAutoConfiguration, org.axonframework.extension.springboot.autoconfig.AxonTimeoutAutoConfiguration, org.axonframework.extension.springboo...</td>
     </tr>
     <tr>
       <th>12</th>
       <td>org.axonframework.common.annotation.Internal</td>
       <td>Interface</td>
       <td>18</td>
-      <td>[org.axonframework.messaging.monitoring.configuration.MessageMonitorRegistry, org.axonframework.messaging.commandhandling.annotation.CommandHandlingMember, org.axonframework.messaging.eventhandling.annotation.EventHandlingMember, org.axonframework.messaging.queryhandling.annotation.QueryHandling...</td>
+      <td>[org.axonframework.common.jdbc.ConnectionProvider, org.axonframework.common.tx.TransactionalExecutor, org.axonframework.common.jpa.EntityManagerProvider, org.axonframework.common.configuration.Component, org.axonframework.eventsourcing.eventstore.EventCoordinator, org.axonframework.eventsourcing...</td>
     </tr>
     <tr>
       <th>13</th>
       <td>org.axonframework.common.annotation.Internal</td>
       <td>Constructor</td>
       <td>17</td>
-      <td>[org.axonframework.conversion.jackson.JacksonConverter.&lt;init&gt;, org.axonframework.conversion.jackson2.Jackson2Converter.&lt;init&gt;, org.axonframework.conversion.avro.AvroConverter.&lt;init&gt;, org.axonframework.messaging.eventhandling.processing.streaming.pooled.PooledStreamingEventProcessorConfiguration....</td>
+      <td>[org.axonframework.eventsourcing.eventstore.InterceptingEventStore.&lt;init&gt;, org.axonframework.conversion.jackson2.Jackson2Converter.&lt;init&gt;, org.axonframework.conversion.jackson.JacksonConverter.&lt;init&gt;, org.axonframework.conversion.avro.AvroConverter.&lt;init&gt;, org.axonframework.messaging.eventhandli...</td>
     </tr>
     <tr>
       <th>14</th>
       <td>java.lang.annotation.Documented</td>
       <td>Annotation</td>
       <td>15</td>
-      <td>[org.axonframework.messaging.commandhandling.annotation.CommandHandler, org.axonframework.messaging.eventhandling.annotation.EventHandler, org.axonframework.messaging.eventhandling.replay.annotation.AllowReplay, org.axonframework.messaging.eventhandling.replay.annotation.DisallowReplay, org.axon...</td>
+      <td>[org.axonframework.common.annotation.Internal, org.axonframework.eventsourcing.annotation.EventSourcingHandler, org.axonframework.messaging.commandhandling.annotation.CommandHandler, org.axonframework.messaging.eventhandling.annotation.EventHandler, org.axonframework.messaging.eventhandling.repl...</td>
     </tr>
     <tr>
       <th>15</th>
       <td>com.fasterxml.jackson.annotation.JsonProperty</td>
       <td>Parameter</td>
       <td>12</td>
-      <td>[org.axonframework.messaging.eventhandling.processing.streaming.token.GapAwareTrackingToken.&lt;init&gt;(0), org.axonframework.messaging.eventhandling.processing.streaming.token.GapAwareTrackingToken.&lt;init&gt;(1), org.axonframework.messaging.eventhandling.processing.streaming.token.ReplayToken.&lt;init&gt;(0),...</td>
+      <td>[org.axonframework.messaging.eventhandling.processing.streaming.token.GapAwareTrackingToken.&lt;init&gt;(0), org.axonframework.messaging.eventhandling.processing.streaming.token.GapAwareTrackingToken.&lt;init&gt;(1), org.axonframework.messaging.eventhandling.processing.streaming.token.store.ConfigToken.&lt;ini...</td>
     </tr>
     <tr>
       <th>16</th>
-      <td>org.springframework.boot.autoconfigure.condition.ConditionalOnProperty</td>
-      <td>Class</td>
-      <td>12</td>
-      <td>[org.axonframework.extension.springboot.autoconfig.Jackson2MapperAutoConfiguration$JacksonConfiguredCondition$EventsJacksonCondition, org.axonframework.extension.springboot.autoconfig.Jackson2MapperAutoConfiguration$JacksonConfiguredCondition$GeneralDefaultCondition, org.axonframework.extension....</td>
-    </tr>
-    <tr>
-      <th>17</th>
       <td>org.axonframework.common.Priority</td>
       <td>Class</td>
       <td>12</td>
-      <td>[org.axonframework.messaging.eventhandling.annotation.SequenceNumberParameterResolverFactory, org.axonframework.messaging.eventhandling.annotation.TimestampParameterResolverFactory, org.axonframework.messaging.core.annotation.SimpleResourceParameterResolverFactory, org.axonframework.messaging.co...</td>
+      <td>[org.axonframework.test.FixtureResourceParameterResolverFactory, org.axonframework.messaging.eventhandling.annotation.SequenceNumberParameterResolverFactory, org.axonframework.messaging.eventhandling.annotation.TimestampParameterResolverFactory, org.axonframework.messaging.core.annotation.Hierar...</td>
+    </tr>
+    <tr>
+      <th>17</th>
+      <td>org.springframework.boot.autoconfigure.condition.ConditionalOnProperty</td>
+      <td>Class</td>
+      <td>12</td>
+      <td>[org.axonframework.extension.springboot.autoconfig.AxonTimeoutAutoConfiguration, org.axonframework.extension.springboot.autoconfig.AvroSchemaStoreAutoConfiguration$AvroConfiguredCondition$MessagesAvroCondition, org.axonframework.extension.springboot.autoconfig.AvroSchemaStoreAutoConfiguration$Av...</td>
     </tr>
     <tr>
       <th>18</th>
-      <td>org.springframework.boot.context.properties.EnableConfigurationProperties</td>
-      <td>Class</td>
-      <td>11</td>
-      <td>[org.axonframework.extension.springboot.autoconfig.UpdateCheckerAutoConfiguration, org.axonframework.extension.springboot.autoconfig.AxonTimeoutAutoConfiguration, org.axonframework.extension.springboot.autoconfig.Jackson2MapperAutoConfiguration, org.axonframework.extension.springboot.autoconfig....</td>
-    </tr>
-    <tr>
-      <th>19</th>
       <td>org.axonframework.common.annotation.Internal</td>
       <td>Method</td>
       <td>11</td>
-      <td>[org.axonframework.messaging.eventhandling.conversion.DelegatingEventConverter.delegate, org.axonframework.messaging.eventhandling.processing.streaming.token.store.jpa.JpaTokenStore.converter, org.axonframework.messaging.eventhandling.processing.streaming.token.store.jdbc.JdbcTokenStore.converte...</td>
+      <td>[org.axonframework.messaging.eventhandling.conversion.DelegatingEventConverter.delegate, org.axonframework.messaging.eventhandling.processing.streaming.token.store.jdbc.JdbcTokenStore.converter, org.axonframework.messaging.eventhandling.processing.streaming.token.store.jpa.JpaTokenStore.converte...</td>
+    </tr>
+    <tr>
+      <th>19</th>
+      <td>org.springframework.boot.context.properties.EnableConfigurationProperties</td>
+      <td>Class</td>
+      <td>11</td>
+      <td>[org.axonframework.extension.metrics.micrometer.springboot.MicrometerMetricsAutoConfiguration, org.axonframework.extension.springboot.autoconfig.AxonTimeoutAutoConfiguration, org.axonframework.extension.springboot.autoconfig.Jackson2MapperAutoConfiguration, org.axonframework.extension.springboot...</td>
     </tr>
     <tr>
       <th>20</th>
       <td>org.springframework.boot.context.properties.ConfigurationProperties</td>
       <td>Class</td>
       <td>10</td>
-      <td>[org.axonframework.extension.springboot.DistributedCommandBusProperties, org.axonframework.extension.springboot.TokenStoreProperties, org.axonframework.extension.springboot.TagsConfigurationProperties, org.axonframework.extension.springboot.TimeoutProperties, org.axonframework.extension.springbo...</td>
+      <td>[org.axonframework.extension.metrics.micrometer.springboot.MetricsProperties, org.axonframework.axonserver.connector.AxonServerConfiguration, org.axonframework.extension.springboot.DistributedCommandBusProperties, org.axonframework.extension.springboot.TokenStoreProperties, org.axonframework.ext...</td>
     </tr>
     <tr>
       <th>21</th>
       <td>org.springframework.boot.autoconfigure.condition.ConditionalOnClass</td>
       <td>Class</td>
       <td>9</td>
-      <td>[org.axonframework.extension.springboot.autoconfig.Jackson2MapperAutoConfiguration, org.axonframework.extension.springboot.autoconfig.CBORMapperAutoConfiguration, org.axonframework.extension.springboot.autoconfig.AvroSchemaStoreAutoConfiguration, org.axonframework.extension.springboot.autoconfig...</td>
+      <td>[org.axonframework.extension.metrics.micrometer.springboot.MicrometerMetricsAutoConfiguration, org.axonframework.extension.springboot.autoconfig.Jackson2MapperAutoConfiguration, org.axonframework.extension.springboot.autoconfig.AvroSchemaStoreAutoConfiguration, org.axonframework.extension.spring...</td>
     </tr>
     <tr>
       <th>22</th>
-      <td>org.springframework.boot.autoconfigure.condition.ConditionalOnProperty</td>
-      <td>Method</td>
-      <td>8</td>
-      <td>[org.axonframework.extension.springboot.autoconfig.AxonServerAutoConfiguration.disableAxonServerConfigurationEnhancer, org.axonframework.extension.springboot.autoconfig.AxonServerAutoConfiguration.axonServerConfigurationEnhancer, org.axonframework.extension.springboot.autoconfig.AxonServerAutoCo...</td>
-    </tr>
-    <tr>
-      <th>23</th>
       <td>jakarta.persistence.Basic</td>
       <td>Field</td>
       <td>8</td>
-      <td>[org.axonframework.messaging.eventhandling.processing.streaming.token.store.jpa.TokenEntry.tokenType, org.axonframework.messaging.eventhandling.processing.streaming.token.store.jpa.TokenEntry.timestamp, org.axonframework.messaging.eventhandling.processing.streaming.token.store.jpa.TokenEntry.own...</td>
+      <td>[org.axonframework.eventsourcing.eventstore.jpa.AggregateEventEntry.type, org.axonframework.eventsourcing.eventstore.jpa.AggregateEventEntry.version, org.axonframework.eventsourcing.eventstore.jpa.AggregateEventEntry.timestamp, org.axonframework.eventsourcing.eventstore.jpa.AggregateEventEntry.p...</td>
     </tr>
     <tr>
-      <th>24</th>
+      <th>23</th>
       <td>org.springframework.boot.autoconfigure.AutoConfigureBefore</td>
       <td>Class</td>
       <td>8</td>
-      <td>[org.axonframework.extension.springboot.autoconfig.CorrelationDataProviderAutoConfiguration, org.axonframework.extension.springboot.autoconfig.Jackson2MapperAutoConfiguration, org.axonframework.extension.springboot.autoconfig.CBORMapperAutoConfiguration, org.axonframework.extension.springboot.au...</td>
+      <td>[org.axonframework.extension.metrics.micrometer.springboot.MicrometerMetricsAutoConfiguration, org.axonframework.extension.springboot.autoconfig.CorrelationDataProviderAutoConfiguration, org.axonframework.extension.springboot.autoconfig.Jackson2MapperAutoConfiguration, org.axonframework.extensio...</td>
+    </tr>
+    <tr>
+      <th>24</th>
+      <td>org.springframework.boot.autoconfigure.condition.ConditionalOnProperty</td>
+      <td>Method</td>
+      <td>8</td>
+      <td>[org.axonframework.extension.metrics.micrometer.springboot.MicrometerMetricsAutoConfiguration.disableMetricsConfigurationEnhancer, org.axonframework.extension.metrics.micrometer.springboot.MicrometerMetricsAutoConfiguration.meterRegistry, org.axonframework.extension.metrics.micrometer.springboot...</td>
     </tr>
     <tr>
       <th>25</th>
@@ -3767,28 +3767,28 @@ This table shows 30 most used Java Annotations including some examples where the
       <td>java.lang.SafeVarargs</td>
       <td>Constructor</td>
       <td>7</td>
-      <td>[org.axonframework.messaging.monitoring.MultiMessageMonitor.&lt;init&gt;, org.axonframework.messaging.core.retry.NonTransientExceptionClassesPredicate.&lt;init&gt;, org.axonframework.test.matchers.SequenceMatcher.&lt;init&gt;, org.axonframework.test.matchers.ListMatcher.&lt;init&gt;, org.axonframework.test.matchers.Exa...</td>
+      <td>[org.axonframework.test.matchers.SequenceMatcher.&lt;init&gt;, org.axonframework.test.matchers.ListMatcher.&lt;init&gt;, org.axonframework.test.matchers.ExactSequenceMatcher.&lt;init&gt;, org.axonframework.test.matchers.ListWithAllOfMatcher.&lt;init&gt;, org.axonframework.test.matchers.ListWithAnyOfMatcher.&lt;init&gt;, org....</td>
     </tr>
     <tr>
       <th>27</th>
-      <td>org.springframework.context.annotation.Conditional</td>
-      <td>Method</td>
-      <td>7</td>
-      <td>[org.axonframework.extension.springboot.autoconfig.UpdateCheckerAutoConfiguration.springUpdateCheckerConfigEnhancer, org.axonframework.extension.springboot.autoconfig.Jackson2MapperAutoConfiguration.defaultAxonJackson2Mapper, org.axonframework.extension.springboot.autoconfig.AvroSchemaStoreAutoC...</td>
-    </tr>
-    <tr>
-      <th>28</th>
       <td>java.lang.Deprecated</td>
       <td>Method</td>
       <td>7</td>
-      <td>[org.axonframework.messaging.core.GenericResultMessage.asResultMessage, org.axonframework.messaging.core.annotation.MessageHandlingMember.handleSync, org.axonframework.messaging.core.interception.annotation.MessageHandlerInterceptorMemberChain.handleSync, org.axonframework.messaging.core.interce...</td>
+      <td>[org.axonframework.test.fixture.AxonTestThenCommand.resultMessagePayloadSatisfies, org.axonframework.test.fixture.AxonTestPhase$Then$Command.resultMessagePayloadSatisfies, org.axonframework.messaging.core.GenericResultMessage.asResultMessage, org.axonframework.messaging.core.annotation.MessageHa...</td>
+    </tr>
+    <tr>
+      <th>28</th>
+      <td>org.springframework.context.annotation.Conditional</td>
+      <td>Method</td>
+      <td>7</td>
+      <td>[org.axonframework.extension.springboot.autoconfig.Jackson2MapperAutoConfiguration.defaultAxonJackson2Mapper, org.axonframework.extension.springboot.autoconfig.AvroSchemaStoreAutoConfiguration.defaultAxonSchemaStore, org.axonframework.extension.springboot.autoconfig.AvroSchemaStoreAutoConfigurat...</td>
     </tr>
     <tr>
       <th>29</th>
-      <td>java.beans.ConstructorProperties</td>
+      <td>com.fasterxml.jackson.annotation.JsonCreator</td>
       <td>Constructor</td>
       <td>6</td>
-      <td>[org.axonframework.messaging.eventhandling.processing.streaming.token.GapAwareTrackingToken.&lt;init&gt;, org.axonframework.messaging.eventhandling.processing.streaming.token.ReplayToken.&lt;init&gt;, org.axonframework.messaging.eventhandling.processing.streaming.token.store.ConfigToken.&lt;init&gt;, org.axonfram...</td>
+      <td>[org.axonframework.messaging.eventhandling.processing.streaming.token.GapAwareTrackingToken.&lt;init&gt;, org.axonframework.messaging.eventhandling.processing.streaming.token.store.ConfigToken.&lt;init&gt;, org.axonframework.messaging.eventhandling.processing.streaming.token.ReplayToken.&lt;init&gt;, org.axonfram...</td>
     </tr>
   </tbody>
 </table>
@@ -3822,7 +3822,7 @@ This table shows the file directory distance distribution between dependent file
       <td>2125</td>
       <td>881</td>
       <td>921</td>
-      <td>[/axon-eventsourcing-5.0.3.jar uses /axon-conversion-5.0.3.jar, /axon-spring-boot-autoconfigure-5.0.3.jar uses /axon-conversion-5.0.3.jar, /axon-messaging-5.0.3.jar uses /axon-conversion-5.0.3.jar, /axon-modelling-5.0.3.jar uses /axon-conversion-5.0.3.jar]</td>
+      <td>[/axon-spring-boot-autoconfigure-5.0.3.jar uses /axon-test-5.0.3.jar, /org/axonframework/test/extension uses /org/axonframework/test/fixture, /org/axonframework/test/fixture uses /org/axonframework/test/util, /org/axonframework/test/fixture uses /org/axonframework/test/matchers]</td>
     </tr>
     <tr>
       <th>1</th>
@@ -3830,7 +3830,7 @@ This table shows the file directory distance distribution between dependent file
       <td>100</td>
       <td>86</td>
       <td>41</td>
-      <td>[/org/axonframework/conversion/jackson2 uses /org/axonframework/conversion, /org/axonframework/conversion/avro uses /org/axonframework/conversion, /org/axonframework/conversion/jackson uses /org/axonframework/conversion, /org/axonframework/conversion/converter uses /org/axonframework/conversion]</td>
+      <td>[/org/axonframework/test/matchers uses /org/axonframework/test, /org/axonframework/test/extension uses /org/axonframework/test, /org/axonframework/test/fixture uses /org/axonframework/test, /org/axonframework/common/jpa uses /org/axonframework/common]</td>
     </tr>
     <tr>
       <th>2</th>
@@ -3838,7 +3838,7 @@ This table shows the file directory distance distribution between dependent file
       <td>2138</td>
       <td>631</td>
       <td>420</td>
-      <td>[/org/axonframework/conversion/avro/AvroConverter.class uses /org/axonframework/conversion/ChainingContentTypeConverter.class, /org/axonframework/conversion/jackson/JacksonConverter.class uses /org/axonframework/conversion/ChainingContentTypeConverter.class, /org/axonframework/conversion/jackson...</td>
+      <td>[/org/axonframework/test/fixture/AxonTestFixture$Customization.class uses /org/axonframework/test/matchers/FieldFilter.class, /org/axonframework/test/fixture/CommandValidator.class uses /org/axonframework/test/matchers/FieldFilter.class, /org/axonframework/test/fixture/AxonTestFixture$Customizat...</td>
     </tr>
     <tr>
       <th>3</th>
@@ -3846,7 +3846,7 @@ This table shows the file directory distance distribution between dependent file
       <td>2104</td>
       <td>679</td>
       <td>322</td>
-      <td>[/org/axonframework/messaging/eventhandling/conversion uses /org/axonframework/conversion, /org/axonframework/messaging/core/configuration uses /org/axonframework/conversion, /org/axonframework/messaging/commandhandling/gateway uses /org/axonframework/conversion, /org/axonframework/messaging/eve...</td>
+      <td>[/org/axonframework/extension/springboot/service/connection uses /org/axonframework/test/server, /org/axonframework/extension/springboot/service/connection/AxonServerTestContainerConnectionDetailsFactory.class uses /org/axonframework/test/server/AxonServerContainer.class, /org/axonframework/exte...</td>
     </tr>
   </tbody>
 </table>

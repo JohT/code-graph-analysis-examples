@@ -12,18 +12,15 @@ strict digraph TopBridge5 {
     central [fontsize = 16;];
     central [color = 7; fillcolor = 5; penwidth = 3;];
 
-	graph   [label="Top Rank #5 Java Type Bridge\norg.axonframework.messaging.core.timeout.HandlerTimeoutHandlerEnhancerDefinition\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
-	central [label="🌉 bridge #5\nHandlerTimeoutHandlerEnhancerDefinition"];
-	"AxonTimeoutAutoConfiguration_25687" [label = "AxonTimeoutAutoConfiguration"; ]; "AxonTimeoutAutoConfiguration_25687" -> central [label=3; weight=3; penwidth=0.4];
-	"MessageHandlingMember_3735" [label = "MessageHandlingMember"; color = 5; fillcolor = 1; ]; central -> "MessageHandlingMember_3735" [label=8; weight=8; penwidth=0.5; color = 5];
-	"HandlerTimeoutConfiguration_23054" [label = "HandlerTimeoutConfiguration"; color = 5; fillcolor = 1; ]; central -> "HandlerTimeoutConfiguration_23054" [label=5; weight=5; penwidth=0.5; color = 5];
-	"TaskTimeoutSettings_23055" [label = "TaskTimeoutSettings"; color = 5; fillcolor = 1; ]; central -> "TaskTimeoutSettings_23055" [label=4; weight=4; penwidth=0.5; color = 5];
-	"TimeoutWrappedMessageHandlingMember_23069" [label = "TimeoutWrappedMessageHandlingMember"; color = 5; fillcolor = 1; ]; central -> "TimeoutWrappedMessageHandlingMember_23069" [label=2; weight=2; penwidth=0.4; color = 5];
-	"CommandMessage_1923" [label = "CommandMessage"; color = 5; fillcolor = 1; ]; central -> "CommandMessage_1923" [label=1; weight=1; penwidth=0.4; color = 5];
-	"EventMessage_1937" [label = "EventMessage"; color = 5; fillcolor = 1; ]; central -> "EventMessage_1937" [label=1; weight=1; penwidth=0.4; color = 5];
-	"HandlerEnhancerDefinition_3734" [label = "HandlerEnhancerDefinition"; color = 5; fillcolor = 1; ]; central -> "HandlerEnhancerDefinition_3734" [label=1; weight=1; penwidth=0.4; color = 5];
-	"QueryMessage_1943" [label = "QueryMessage"; color = 5; fillcolor = 1; ]; central -> "QueryMessage_1943" [label=1; weight=1; penwidth=0.4; color = 5];
-	"HandlerTimeoutConfiguration_23054" -> "TaskTimeoutSettings_23055" [label=20; weight=20; penwidth=0.3; color = 3]
-	"HandlerEnhancerDefinition_3734" -> "MessageHandlingMember_3735" [label=2; weight=2; penwidth=0.3; color = 3]
-	"TimeoutWrappedMessageHandlingMember_23069" -> "MessageHandlingMember_3735" [label=1; weight=1; penwidth=0.3; color = 3]
+	graph   [label="Top Rank #5 Java Type Bridge\norg.axonframework.update.api.DetectedVulnerability\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
+	central [label="🌉 bridge #5\nDetectedVulnerability"];
+	"LoggingUpdateCheckerReporter_39045" [label = "LoggingUpdateCheckerReporter"; ]; "LoggingUpdateCheckerReporter_39045" -> central [label=12; weight=12; penwidth=0.6];
+	"UpdateCheckResponse_39660" [label = "UpdateCheckResponse"; ]; "UpdateCheckResponse_39660" -> central [label=7; weight=7; penwidth=0.5];
+	"DetectedVulnerabilitySeverity_39765" [label = "DetectedVulnerabilitySeverity"; color = 5; fillcolor = 1; ]; central -> "DetectedVulnerabilitySeverity_39765" [label=3; weight=3; penwidth=0.4; color = 5];
+	"Internal_4198" [label = "Internal"; color = 5; fillcolor = 1; ]; central -> "Internal_4198" [label=1; weight=1; penwidth=0.4; color = 5];
+	"LoggingUpdateCheckerReporter_39045" -> "UpdateCheckResponse_39660" [label=10; weight=10; penwidth=0.3; color = 3]
+	"UpdateCheckResponse_39660" -> "DetectedVulnerabilitySeverity_39765" [label=3; weight=3; penwidth=0.3; color = 3]
+	"LoggingUpdateCheckerReporter_39045" -> "DetectedVulnerabilitySeverity_39765" [label=2; weight=2; penwidth=0.3; color = 3]
+	"DetectedVulnerabilitySeverity_39765" -> "Internal_4198" [label=1; weight=1; penwidth=0.3; color = 3]
+	"UpdateCheckResponse_39660" -> "Internal_4198" [label=1; weight=1; penwidth=0.3; color = 3]
 }

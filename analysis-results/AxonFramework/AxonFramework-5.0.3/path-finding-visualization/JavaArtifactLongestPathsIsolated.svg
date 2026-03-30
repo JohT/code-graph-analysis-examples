@@ -8,27 +8,27 @@
  viewBox="0.00 0.00 641.00 815.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 810.65)">
 <title>JavaArtifactLongestPathsIsolated</title>
-<polygon fill="white" stroke="none" points="-4,4 -4,-810.65 636.82,-810.65 636.82,4 -4,4"/>
+<polygon fill="white" stroke="none" points="-4,4 -4,-810.65 636.94,-810.65 636.94,4 -4,4"/>
 <!-- axon&#45;metrics&#45;micrometer&#45;5.0.3\n(level 0/7) -->
 <g id="node1" class="node">
 <title>axon&#45;metrics&#45;micrometer&#45;5.0.3\n(level 0/7)</title>
-<ellipse fill="#98dafe" stroke="#1178b2" cx="324.48" cy="-777.23" rx="135.01" ry="29.42"/>
-<text xml:space="preserve" text-anchor="middle" x="324.48" y="-781.43" font-family="Helvetica,Arial,sans-serif" font-size="14.00">axon&#45;metrics&#45;micrometer&#45;5.0.3</text>
-<text xml:space="preserve" text-anchor="middle" x="324.48" y="-764.63" font-family="Helvetica,Arial,sans-serif" font-size="14.00">(level 0/7)</text>
+<ellipse fill="#98dafe" stroke="#1178b2" cx="284.48" cy="-777.23" rx="135.01" ry="29.42"/>
+<text xml:space="preserve" text-anchor="middle" x="284.48" y="-781.43" font-family="Helvetica,Arial,sans-serif" font-size="14.00">axon&#45;metrics&#45;micrometer&#45;5.0.3</text>
+<text xml:space="preserve" text-anchor="middle" x="284.48" y="-764.63" font-family="Helvetica,Arial,sans-serif" font-size="14.00">(level 0/7)</text>
 </g>
 <!-- axon&#45;spring&#45;boot&#45;autoconfigure&#45;5.0.3\n(level 1/7) -->
 <g id="node2" class="node">
 <title>axon&#45;spring&#45;boot&#45;autoconfigure&#45;5.0.3\n(level 1/7)</title>
-<ellipse fill="#98dafe" stroke="#1178b2" cx="324.48" cy="-670.4" rx="160.86" ry="29.42"/>
-<text xml:space="preserve" text-anchor="middle" x="324.48" y="-674.6" font-family="Helvetica,Arial,sans-serif" font-size="14.00">axon&#45;spring&#45;boot&#45;autoconfigure&#45;5.0.3</text>
-<text xml:space="preserve" text-anchor="middle" x="324.48" y="-657.8" font-family="Helvetica,Arial,sans-serif" font-size="14.00">(level 1/7)</text>
+<ellipse fill="#98dafe" stroke="#1178b2" cx="284.48" cy="-670.4" rx="160.86" ry="29.42"/>
+<text xml:space="preserve" text-anchor="middle" x="284.48" y="-674.6" font-family="Helvetica,Arial,sans-serif" font-size="14.00">axon&#45;spring&#45;boot&#45;autoconfigure&#45;5.0.3</text>
+<text xml:space="preserve" text-anchor="middle" x="284.48" y="-657.8" font-family="Helvetica,Arial,sans-serif" font-size="14.00">(level 1/7)</text>
 </g>
 <!-- axon&#45;metrics&#45;micrometer&#45;5.0.3\n(level 0/7)&#45;&gt;axon&#45;spring&#45;boot&#45;autoconfigure&#45;5.0.3\n(level 1/7) -->
 <g id="edge1" class="edge">
 <title>axon&#45;metrics&#45;micrometer&#45;5.0.3\n(level 0/7)&#45;&gt;axon&#45;spring&#45;boot&#45;autoconfigure&#45;5.0.3\n(level 1/7)</title>
-<path fill="none" stroke="#1178b2" d="M324.48,-747.59C324.48,-736.38 324.48,-723.33 324.48,-711.23"/>
-<polygon fill="#1178b2" stroke="#1178b2" points="327.98,-711.53 324.48,-701.53 320.98,-711.53 327.98,-711.53"/>
-<text xml:space="preserve" text-anchor="middle" x="326.98" y="-720.82" font-family="Helvetica,Arial,sans-serif" font-size="10.00">2</text>
+<path fill="none" stroke="#1178b2" d="M284.48,-747.59C284.48,-736.38 284.48,-723.33 284.48,-711.23"/>
+<polygon fill="#1178b2" stroke="#1178b2" points="287.98,-711.53 284.48,-701.53 280.98,-711.53 287.98,-711.53"/>
+<text xml:space="preserve" text-anchor="middle" x="286.98" y="-720.82" font-family="Helvetica,Arial,sans-serif" font-size="10.00">2</text>
 </g>
 <!-- axon&#45;test&#45;5.0.3\n(level 2/7) -->
 <g id="node3" class="node">
@@ -40,37 +40,37 @@
 <!-- axon&#45;spring&#45;boot&#45;autoconfigure&#45;5.0.3\n(level 1/7)&#45;&gt;axon&#45;test&#45;5.0.3\n(level 2/7) -->
 <g id="edge2" class="edge">
 <title>axon&#45;spring&#45;boot&#45;autoconfigure&#45;5.0.3\n(level 1/7)&#45;&gt;axon&#45;test&#45;5.0.3\n(level 2/7)</title>
-<path fill="none" stroke="#1178b2" stroke-width="1.01" d="M269.88,-642.41C238.33,-626.81 198.77,-607.24 167.2,-591.63"/>
-<polygon fill="#1178b2" stroke="#1178b2" stroke-width="1.01" points="169.13,-588.68 158.62,-587.39 166.03,-594.96 169.13,-588.68"/>
-<text xml:space="preserve" text-anchor="middle" x="227.34" y="-613.99" font-family="Helvetica,Arial,sans-serif" font-size="10.00">4</text>
-</g>
-<!-- axon&#45;server&#45;connector&#45;5.0.3\n(level 2/7) -->
-<g id="node9" class="node">
-<title>axon&#45;server&#45;connector&#45;5.0.3\n(level 2/7)</title>
-<ellipse fill="#98dafe" stroke="#1178b2" cx="324.48" cy="-563.57" rx="123.46" ry="29.42"/>
-<text xml:space="preserve" text-anchor="middle" x="324.48" y="-567.77" font-family="Helvetica,Arial,sans-serif" font-size="14.00">axon&#45;server&#45;connector&#45;5.0.3</text>
-<text xml:space="preserve" text-anchor="middle" x="324.48" y="-550.97" font-family="Helvetica,Arial,sans-serif" font-size="14.00">(level 2/7)</text>
-</g>
-<!-- axon&#45;spring&#45;boot&#45;autoconfigure&#45;5.0.3\n(level 1/7)&#45;&gt;axon&#45;server&#45;connector&#45;5.0.3\n(level 2/7) -->
-<g id="edge8" class="edge">
-<title>axon&#45;spring&#45;boot&#45;autoconfigure&#45;5.0.3\n(level 1/7)&#45;&gt;axon&#45;server&#45;connector&#45;5.0.3\n(level 2/7)</title>
-<path fill="none" stroke="#1178b2" stroke-width="1.07" d="M324.48,-640.76C324.48,-629.66 324.48,-616.77 324.48,-604.77"/>
-<polygon fill="#1178b2" stroke="#1178b2" stroke-width="1.07" points="327.98,-604.8 324.48,-594.8 320.98,-604.8 327.98,-604.8"/>
-<text xml:space="preserve" text-anchor="middle" x="329.48" y="-613.99" font-family="Helvetica,Arial,sans-serif" font-size="10.00">16</text>
+<path fill="none" stroke="#1178b2" stroke-width="1.01" d="M239.29,-641.86C215.32,-627.25 185.84,-609.29 161.34,-594.35"/>
+<polygon fill="#1178b2" stroke="#1178b2" stroke-width="1.01" points="163.19,-591.38 152.83,-589.17 159.55,-597.36 163.19,-591.38"/>
+<text xml:space="preserve" text-anchor="middle" x="206.14" y="-613.99" font-family="Helvetica,Arial,sans-serif" font-size="10.00">4</text>
 </g>
 <!-- axon&#45;update&#45;5.0.3\n(level 2/7) -->
-<g id="node10" class="node">
+<g id="node9" class="node">
 <title>axon&#45;update&#45;5.0.3\n(level 2/7)</title>
-<ellipse fill="#98dafe" stroke="#1178b2" cx="549.48" cy="-563.57" rx="83.34" ry="29.42"/>
-<text xml:space="preserve" text-anchor="middle" x="549.48" y="-567.77" font-family="Helvetica,Arial,sans-serif" font-size="14.00">axon&#45;update&#45;5.0.3</text>
-<text xml:space="preserve" text-anchor="middle" x="549.48" y="-550.97" font-family="Helvetica,Arial,sans-serif" font-size="14.00">(level 2/7)</text>
+<ellipse fill="#98dafe" stroke="#1178b2" cx="284.48" cy="-563.57" rx="83.34" ry="29.42"/>
+<text xml:space="preserve" text-anchor="middle" x="284.48" y="-567.77" font-family="Helvetica,Arial,sans-serif" font-size="14.00">axon&#45;update&#45;5.0.3</text>
+<text xml:space="preserve" text-anchor="middle" x="284.48" y="-550.97" font-family="Helvetica,Arial,sans-serif" font-size="14.00">(level 2/7)</text>
 </g>
 <!-- axon&#45;spring&#45;boot&#45;autoconfigure&#45;5.0.3\n(level 1/7)&#45;&gt;axon&#45;update&#45;5.0.3\n(level 2/7) -->
-<g id="edge9" class="edge">
+<g id="edge8" class="edge">
 <title>axon&#45;spring&#45;boot&#45;autoconfigure&#45;5.0.3\n(level 1/7)&#45;&gt;axon&#45;update&#45;5.0.3\n(level 2/7)</title>
-<path fill="none" stroke="#1178b2" stroke-width="1.07" d="M382.13,-642.54C415.03,-627.22 456.21,-608.03 489.49,-592.52"/>
-<polygon fill="#1178b2" stroke="#1178b2" stroke-width="1.07" points="490.94,-595.71 498.53,-588.31 487.98,-589.36 490.94,-595.71"/>
-<text xml:space="preserve" text-anchor="middle" x="448.73" y="-613.99" font-family="Helvetica,Arial,sans-serif" font-size="10.00">16</text>
+<path fill="none" stroke="#1178b2" stroke-width="1.07" d="M284.48,-640.76C284.48,-629.66 284.48,-616.77 284.48,-604.77"/>
+<polygon fill="#1178b2" stroke="#1178b2" stroke-width="1.07" points="287.98,-604.8 284.48,-594.8 280.98,-604.8 287.98,-604.8"/>
+<text xml:space="preserve" text-anchor="middle" x="289.48" y="-613.99" font-family="Helvetica,Arial,sans-serif" font-size="10.00">16</text>
+</g>
+<!-- axon&#45;server&#45;connector&#45;5.0.3\n(level 2/7) -->
+<g id="node10" class="node">
+<title>axon&#45;server&#45;connector&#45;5.0.3\n(level 2/7)</title>
+<ellipse fill="#98dafe" stroke="#1178b2" cx="509.48" cy="-563.57" rx="123.46" ry="29.42"/>
+<text xml:space="preserve" text-anchor="middle" x="509.48" y="-567.77" font-family="Helvetica,Arial,sans-serif" font-size="14.00">axon&#45;server&#45;connector&#45;5.0.3</text>
+<text xml:space="preserve" text-anchor="middle" x="509.48" y="-550.97" font-family="Helvetica,Arial,sans-serif" font-size="14.00">(level 2/7)</text>
+</g>
+<!-- axon&#45;spring&#45;boot&#45;autoconfigure&#45;5.0.3\n(level 1/7)&#45;&gt;axon&#45;server&#45;connector&#45;5.0.3\n(level 2/7) -->
+<g id="edge9" class="edge">
+<title>axon&#45;spring&#45;boot&#45;autoconfigure&#45;5.0.3\n(level 1/7)&#45;&gt;axon&#45;server&#45;connector&#45;5.0.3\n(level 2/7)</title>
+<path fill="none" stroke="#1178b2" stroke-width="1.07" d="M342.13,-642.54C373.26,-628.04 411.82,-610.07 444.07,-595.05"/>
+<polygon fill="#1178b2" stroke="#1178b2" stroke-width="1.07" points="445.25,-598.36 452.84,-590.96 442.3,-592.01 445.25,-598.36"/>
+<text xml:space="preserve" text-anchor="middle" x="408.73" y="-613.99" font-family="Helvetica,Arial,sans-serif" font-size="10.00">16</text>
 </g>
 <!-- axon&#45;eventsourcing&#45;5.0.3\n(level 3/7) -->
 <g id="node4" class="node">

@@ -16,16 +16,16 @@
 <text xml:space="preserve" text-anchor="middle" x="203" y="-366.8" font-family="Helvetica,Arial,sans-serif" font-size="14.00">node value: Page Rank (normalized)</text>
 <text xml:space="preserve" text-anchor="middle" x="203" y="-350" font-family="Helvetica,Arial,sans-serif" font-size="14.00">large circle: &gt; 80% percentile of Page Rank</text>
 <text xml:space="preserve" text-anchor="middle" x="203" y="-333.2" font-family="Helvetica,Arial,sans-serif" font-size="14.00">thick outline: &gt; 80% percentile of Page Rank to Article Rank Difference</text>
-<!-- central&#45;&gt;TypeReference_49296 -->
+<!-- central&#45;&gt;TypeReference_5237 -->
 <g id="edge2" class="edge">
-<title>central&#45;&gt;TypeReference_49296</title>
+<title>central&#45;&gt;TypeReference_5237</title>
 <path fill="none" stroke="#66c2a4" stroke-width="0.4" d="M209.61,-155.79C209.61,-154.07 209.61,-152.36 209.61,-150.64"/>
 <polygon fill="#66c2a4" stroke="#66c2a4" stroke-width="0.4" points="211.01,-150.7 209.58,-146.71 208.21,-150.72 211.01,-150.7"/>
 <text xml:space="preserve" text-anchor="middle" x="208.61" y="-152.48" font-family="Times,serif" font-size="4.00">3</text>
 </g>
-<!-- TypeReference_49296&#45;&gt;central -->
+<!-- TypeReference_5237&#45;&gt;central -->
 <g id="edge1" class="edge">
-<title>TypeReference_49296&#45;&gt;central</title>
+<title>TypeReference_5237&#45;&gt;central</title>
 <path fill="none" stroke="#238b45" stroke-width="0.4" d="M196.12,-145.91C196.11,-147.77 196.11,-149.64 196.11,-151.5"/>
 <polygon fill="#238b45" stroke="#238b45" stroke-width="0.4" points="194.71,-151.25 196.12,-155.25 197.51,-151.24 194.71,-151.25"/>
 <text xml:space="preserve" text-anchor="middle" x="195.11" y="-152" font-family="Times,serif" font-size="4.00">3</text>
@@ -38,9 +38,9 @@
 <text xml:space="preserve" text-anchor="middle" x="203" y="-237.8" font-family="Times,serif" font-size="16.00">🏛️ authority #3</text>
 <text xml:space="preserve" text-anchor="middle" x="203" y="-218.6" font-family="Times,serif" font-size="16.00">TypeReference$2</text>
 </g>
-<!-- TypeReference_49296 -->
+<!-- TypeReference_5237 -->
 <g id="node2" class="node">
-<title>TypeReference_49296</title>
+<title>TypeReference_5237</title>
 <ellipse fill="#f7fcfd" stroke="#66c2a4" stroke-width="5" cx="202.72" cy="-72" rx="72" ry="72"/>
 <text xml:space="preserve" text-anchor="middle" x="202.72" y="-75.6" font-family="Times,serif" font-size="12.00">TypeReference</text>
 <text xml:space="preserve" text-anchor="middle" x="202.72" y="-61.2" font-family="Times,serif" font-size="12.00">(100.0%)</text>

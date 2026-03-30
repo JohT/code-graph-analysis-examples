@@ -12,12 +12,9 @@ strict digraph TopAuthority2 {
     central [fontsize = 16;];
     central [color = 7; fillcolor = 5; penwidth = 3;];
 
-	graph   [label="Top Rank #2 Java Artifact Authority\n/axon-metrics-micrometer-5.0.3.jar\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: Page Rank (normalized)\nlarge circle: > 80% percentile of Page Rank\nthick outline: > 80% percentile of Page Rank to Article Rank Difference\n\n"];
-	central [label="🏛️ authority #2\naxon-metrics-micrometer-5.0.3"];
-	"axon-messaging-5.0.3_1818"  [label = "axon-messaging-5.0.3\n(51.95%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "axon-messaging-5.0.3_1818" [label=64; weight=64; penwidth=0.6; color = 5];
-	"axon-common-5.0.3_47383"  [shape = "circle"; height=2; label = "axon-common-5.0.3\n(100.0%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "axon-common-5.0.3_47383" [label=18; weight=18; penwidth=0.4; color = 5];
-	"axon-spring-boot-autoconfigure-5.0.3_25121"  [label = "axon-spring-boot-autoconfigure-5.0.3\n(0.26%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "axon-spring-boot-autoconfigure-5.0.3_25121" [label=2; weight=2; penwidth=0.4; color = 5];
-	"axon-messaging-5.0.3_1818" -> "axon-common-5.0.3_47383" [label=1008; weight=1008; penwidth=0.3; color = 3]
-	"axon-spring-boot-autoconfigure-5.0.3_25121" -> "axon-common-5.0.3_47383" [label=86; weight=86; penwidth=0.3; color = 3]
-	"axon-spring-boot-autoconfigure-5.0.3_25121" -> "axon-messaging-5.0.3_1818" [label=80; weight=80; penwidth=0.3; color = 3]
+	graph   [label="Top Rank #2 Java Artifact Authority\n/axon-tracing-opentelemetry-5.0.3.jar\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: Page Rank (normalized)\nlarge circle: > 80% percentile of Page Rank\nthick outline: > 80% percentile of Page Rank to Article Rank Difference\n\n"];
+	central [label="🏛️ authority #2\naxon-tracing-opentelemetry-5.0.3"];
+	"axon-messaging-5.0.3_15653"  [label = "axon-messaging-5.0.3\n(51.95%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "axon-messaging-5.0.3_15653" [label=22; weight=22; penwidth=0.5; color = 5];
+	"axon-common-5.0.3_3169"  [shape = "circle"; height=2; label = "axon-common-5.0.3\n(100.0%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "axon-common-5.0.3_3169" [label=2; weight=2; penwidth=0.4; color = 5];
+	"axon-messaging-5.0.3_15653" -> "axon-common-5.0.3_3169" [label=1008; weight=1008; penwidth=0.3; color = 3]
 }

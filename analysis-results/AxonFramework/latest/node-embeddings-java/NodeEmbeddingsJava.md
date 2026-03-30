@@ -84,7 +84,7 @@ The projection and related common parameters are shared across all embedding alg
       <td>120</td>
       <td>1528</td>
       <td>0.107003</td>
-      <td>2663439</td>
+      <td>2729007</td>
       <td>1</td>
       <td>12.733333</td>
       <td>79</td>
@@ -129,48 +129,48 @@ The projection and related common parameters are shared across all embedding alg
   <tbody>
     <tr>
       <th>0</th>
-      <td>org.axonframework.conversion</td>
-      <td>conversion</td>
-      <td>axon-conversion-5.0.3</td>
+      <td>org.axonframework.test</td>
+      <td>test</td>
+      <td>axon-test-5.0.3</td>
       <td>0</td>
-      <td>1.501592</td>
-      <td>[0.3811345100402832, -0.1716684252023697, 0.59...</td>
+      <td>0.274179</td>
+      <td>[-0.23496367037296295, 0.10786743462085724, 0....</td>
     </tr>
     <tr>
       <th>1</th>
-      <td>org.axonframework.conversion.jackson</td>
-      <td>jackson</td>
-      <td>axon-conversion-5.0.3</td>
+      <td>org.axonframework.test.fixture</td>
+      <td>fixture</td>
+      <td>axon-test-5.0.3</td>
       <td>0</td>
-      <td>0.154765</td>
-      <td>[0.3668135404586792, -0.20763283967971802, 0.6...</td>
+      <td>0.173906</td>
+      <td>[-0.31457746028900146, 0.14355161786079407, 0....</td>
     </tr>
     <tr>
       <th>2</th>
-      <td>org.axonframework.conversion.converter</td>
-      <td>converter</td>
-      <td>axon-conversion-5.0.3</td>
+      <td>org.axonframework.test.extension</td>
+      <td>extension</td>
+      <td>axon-test-5.0.3</td>
       <td>0</td>
       <td>0.150000</td>
-      <td>[0.2642297148704529, -0.14342153072357178, 0.5...</td>
+      <td>[-0.21415485441684723, 0.09640592336654663, 0....</td>
     </tr>
     <tr>
       <th>3</th>
-      <td>org.axonframework.conversion.jackson2</td>
-      <td>jackson2</td>
-      <td>axon-conversion-5.0.3</td>
+      <td>org.axonframework.test.matchers</td>
+      <td>matchers</td>
+      <td>axon-test-5.0.3</td>
       <td>0</td>
-      <td>0.151059</td>
-      <td>[0.3026638627052307, -0.16931608319282532, 0.5...</td>
+      <td>0.165941</td>
+      <td>[-0.30462098121643066, 0.14443513751029968, 0....</td>
     </tr>
     <tr>
       <th>4</th>
-      <td>org.axonframework.conversion.avro</td>
-      <td>avro</td>
-      <td>axon-conversion-5.0.3</td>
-      <td>0</td>
-      <td>0.152647</td>
-      <td>[0.310659795999527, -0.1719958484172821, 0.549...</td>
+      <td>org.axonframework.test.util</td>
+      <td>util</td>
+      <td>axon-test-5.0.3</td>
+      <td>1</td>
+      <td>0.152898</td>
+      <td>[-0.5316479802131653, 0.26299357414245605, 0.6...</td>
     </tr>
   </tbody>
 </table>
@@ -222,48 +222,48 @@ This step takes the original node embeddings in their high dimensionality, e.g. 
   <tbody>
     <tr>
       <th>0</th>
-      <td>org.axonframework.conversion</td>
-      <td>conversion</td>
-      <td>axon-conversion-5.0.3</td>
+      <td>org.axonframework.test</td>
+      <td>test</td>
+      <td>axon-test-5.0.3</td>
       <td>0</td>
-      <td>1.501592</td>
-      <td>[-1.0825317353010178, 0.21650634706020355, -0....</td>
+      <td>0.274179</td>
+      <td>[-0.21650634706020355, 1.0825317353010178, 0.0...</td>
     </tr>
     <tr>
       <th>1</th>
-      <td>org.axonframework.conversion.jackson</td>
-      <td>jackson</td>
-      <td>axon-conversion-5.0.3</td>
+      <td>org.axonframework.test.fixture</td>
+      <td>fixture</td>
+      <td>axon-test-5.0.3</td>
       <td>0</td>
-      <td>0.154765</td>
-      <td>[-0.4330126941204071, 0.21650634706020355, -1....</td>
+      <td>0.173906</td>
+      <td>[0.0, 0.4330126941204071, 0.6495190411806107, ...</td>
     </tr>
     <tr>
       <th>2</th>
-      <td>org.axonframework.conversion.converter</td>
-      <td>converter</td>
-      <td>axon-conversion-5.0.3</td>
+      <td>org.axonframework.test.extension</td>
+      <td>extension</td>
+      <td>axon-test-5.0.3</td>
       <td>0</td>
       <td>0.150000</td>
-      <td>[0.21650634706020355, 0.0, -1.2990380823612213...</td>
+      <td>[-0.8660253882408142, 0.4330126941204071, 0.43...</td>
     </tr>
     <tr>
       <th>3</th>
-      <td>org.axonframework.conversion.jackson2</td>
-      <td>jackson2</td>
-      <td>axon-conversion-5.0.3</td>
+      <td>org.axonframework.test.matchers</td>
+      <td>matchers</td>
+      <td>axon-test-5.0.3</td>
       <td>0</td>
-      <td>0.151059</td>
-      <td>[0.8660253882408142, 0.21650634706020355, -1.0...</td>
+      <td>0.165941</td>
+      <td>[-1.0825317353010178, 0.0, -0.2165063470602035...</td>
     </tr>
     <tr>
       <th>4</th>
-      <td>org.axonframework.conversion.avro</td>
-      <td>avro</td>
-      <td>axon-conversion-5.0.3</td>
-      <td>0</td>
-      <td>0.152647</td>
-      <td>[0.8660253882408142, 0.21650634706020355, -1.0...</td>
+      <td>org.axonframework.test.util</td>
+      <td>util</td>
+      <td>axon-test-5.0.3</td>
+      <td>1</td>
+      <td>0.152898</td>
+      <td>[0.4330126941204071, 0.0, 0.4330126941204071, ...</td>
     </tr>
   </tbody>
 </table>
@@ -301,48 +301,48 @@ This step takes the original node embeddings in their high dimensionality, e.g. 
   <tbody>
     <tr>
       <th>0</th>
-      <td>org.axonframework.conversion</td>
-      <td>conversion</td>
-      <td>axon-conversion-5.0.3</td>
+      <td>org.axonframework.test</td>
+      <td>test</td>
+      <td>axon-test-5.0.3</td>
       <td>0</td>
-      <td>1.501592</td>
-      <td>[0.4996255040168762, -0.036456406116485596, 0....</td>
+      <td>0.274179</td>
+      <td>[0.5792785286903381, -0.4581649899482727, 0.18...</td>
     </tr>
     <tr>
       <th>1</th>
-      <td>org.axonframework.conversion.jackson</td>
-      <td>jackson</td>
-      <td>axon-conversion-5.0.3</td>
+      <td>org.axonframework.test.fixture</td>
+      <td>fixture</td>
+      <td>axon-test-5.0.3</td>
       <td>0</td>
-      <td>0.154765</td>
-      <td>[0.595109760761261, -0.07301131635904312, 0.02...</td>
+      <td>0.173906</td>
+      <td>[0.595054566860199, -0.4593558609485626, 0.125...</td>
     </tr>
     <tr>
       <th>2</th>
-      <td>org.axonframework.conversion.converter</td>
-      <td>converter</td>
-      <td>axon-conversion-5.0.3</td>
+      <td>org.axonframework.test.extension</td>
+      <td>extension</td>
+      <td>axon-test-5.0.3</td>
       <td>0</td>
       <td>0.150000</td>
-      <td>[0.5166605710983276, -0.046477168798446655, 0....</td>
+      <td>[0.40763041377067566, -0.3744889199733734, 0.0...</td>
     </tr>
     <tr>
       <th>3</th>
-      <td>org.axonframework.conversion.jackson2</td>
-      <td>jackson2</td>
-      <td>axon-conversion-5.0.3</td>
+      <td>org.axonframework.test.matchers</td>
+      <td>matchers</td>
+      <td>axon-test-5.0.3</td>
       <td>0</td>
-      <td>0.151059</td>
-      <td>[0.4608446955680847, -0.15521088242530823, 0.0...</td>
+      <td>0.165941</td>
+      <td>[0.6016237139701843, -0.30807071924209595, -0....</td>
     </tr>
     <tr>
       <th>4</th>
-      <td>org.axonframework.conversion.avro</td>
-      <td>avro</td>
-      <td>axon-conversion-5.0.3</td>
-      <td>0</td>
-      <td>0.152647</td>
-      <td>[0.6486727595329285, 0.03763115406036377, 0.04...</td>
+      <td>org.axonframework.test.util</td>
+      <td>util</td>
+      <td>axon-test-5.0.3</td>
+      <td>1</td>
+      <td>0.152898</td>
+      <td>[0.23632530868053436, -0.06210244074463844, -0...</td>
     </tr>
   </tbody>
 </table>
@@ -376,8 +376,8 @@ This step takes the original node embeddings in their high dimensionality, e.g. 
       <td>java-package-embeddings-notebook-graphSAGE</td>
       <td>True</td>
       <td>1</td>
-      <td>[27.239631432410533]</td>
-      <td>189</td>
+      <td>[27.344867780561188]</td>
+      <td>178</td>
     </tr>
   </tbody>
 </table>
@@ -405,53 +405,53 @@ This step takes the original node embeddings in their high dimensionality, e.g. 
   <tbody>
     <tr>
       <th>0</th>
-      <td>org.axonframework.conversion</td>
-      <td>conversion</td>
-      <td>4:6c85ef27-858e-4298-9266-310ec5808a4a:19</td>
-      <td>axon-conversion-5.0.3</td>
+      <td>org.axonframework.test</td>
+      <td>test</td>
+      <td>4:530ac587-7eae-4121-9f3f-7c6b372f9b10:19</td>
+      <td>axon-test-5.0.3</td>
       <td>0</td>
-      <td>1.501592</td>
-      <td>[-0.004854696704727069, 0.03805140358176101, 0...</td>
+      <td>0.274179</td>
+      <td>[-0.004854696932375823, 0.038051402592092824, ...</td>
     </tr>
     <tr>
       <th>1</th>
-      <td>org.axonframework.conversion.jackson</td>
-      <td>jackson</td>
-      <td>4:6c85ef27-858e-4298-9266-310ec5808a4a:20</td>
-      <td>axon-conversion-5.0.3</td>
+      <td>org.axonframework.test.fixture</td>
+      <td>fixture</td>
+      <td>4:530ac587-7eae-4121-9f3f-7c6b372f9b10:20</td>
+      <td>axon-test-5.0.3</td>
       <td>0</td>
-      <td>0.154765</td>
-      <td>[-0.00485469670472707, 0.038051403581761026, 0...</td>
+      <td>0.173906</td>
+      <td>[-0.004854696932375824, 0.03805140259209287, 0...</td>
     </tr>
     <tr>
       <th>2</th>
-      <td>org.axonframework.conversion.converter</td>
-      <td>converter</td>
-      <td>4:6c85ef27-858e-4298-9266-310ec5808a4a:21</td>
-      <td>axon-conversion-5.0.3</td>
+      <td>org.axonframework.test.extension</td>
+      <td>extension</td>
+      <td>4:530ac587-7eae-4121-9f3f-7c6b372f9b10:21</td>
+      <td>axon-test-5.0.3</td>
       <td>0</td>
       <td>0.150000</td>
-      <td>[-0.004854696704727068, 0.03805140358176098, 0...</td>
+      <td>[-0.004854696932375822, 0.038051402592092935, ...</td>
     </tr>
     <tr>
       <th>3</th>
-      <td>org.axonframework.conversion.jackson2</td>
-      <td>jackson2</td>
-      <td>4:6c85ef27-858e-4298-9266-310ec5808a4a:22</td>
-      <td>axon-conversion-5.0.3</td>
-      <td>0</td>
-      <td>0.151059</td>
-      <td>[-0.004854696704727069, 0.038051403581761, 0.1...</td>
+      <td>org.axonframework.test.util</td>
+      <td>util</td>
+      <td>4:530ac587-7eae-4121-9f3f-7c6b372f9b10:22</td>
+      <td>axon-test-5.0.3</td>
+      <td>1</td>
+      <td>0.152898</td>
+      <td>[-0.004854696932375823, 0.03805140259209285, 0...</td>
     </tr>
     <tr>
       <th>4</th>
-      <td>org.axonframework.conversion.avro</td>
-      <td>avro</td>
-      <td>4:6c85ef27-858e-4298-9266-310ec5808a4a:23</td>
-      <td>axon-conversion-5.0.3</td>
-      <td>0</td>
-      <td>0.152647</td>
-      <td>[-0.00485469670472707, 0.03805140358176102, 0....</td>
+      <td>org.axonframework.test.server</td>
+      <td>server</td>
+      <td>4:530ac587-7eae-4121-9f3f-7c6b372f9b10:23</td>
+      <td>axon-test-5.0.3</td>
+      <td>2</td>
+      <td>0.277950</td>
+      <td>[-0.004854696932375825, 0.038051402592092894, ...</td>
     </tr>
   </tbody>
 </table>

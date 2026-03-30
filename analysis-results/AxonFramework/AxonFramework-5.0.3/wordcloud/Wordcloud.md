@@ -35,7 +35,7 @@
     </tr>
     <tr>
       <th>2</th>
-      <td>conversion</td>
+      <td>test</td>
     </tr>
     <tr>
       <th>3</th>
@@ -59,7 +59,7 @@
     </tr>
     <tr>
       <th>8</th>
-      <td>conversion</td>
+      <td>test</td>
     </tr>
     <tr>
       <th>9</th>
@@ -97,38 +97,38 @@
   <tbody>
     <tr>
       <th>0</th>
+      <td>John Hendrikx</td>
+      <td>79</td>
+    </tr>
+    <tr>
+      <th>1</th>
       <td>Jan Galinski</td>
       <td>174</td>
     </tr>
     <tr>
-      <th>1</th>
+      <th>2</th>
       <td>Steven van Beelen</td>
       <td>6483</td>
     </tr>
     <tr>
-      <th>2</th>
+      <th>3</th>
       <td>Jakob Hatzl</td>
       <td>8</td>
     </tr>
     <tr>
-      <th>3</th>
+      <th>4</th>
       <td>hatzlj</td>
       <td>42</td>
     </tr>
     <tr>
-      <th>4</th>
+      <th>5</th>
       <td>Allard Buijze</td>
       <td>2930</td>
     </tr>
     <tr>
-      <th>5</th>
+      <th>6</th>
       <td>Mateusz Nowak</td>
       <td>733</td>
-    </tr>
-    <tr>
-      <th>6</th>
-      <td>John Hendrikx</td>
-      <td>79</td>
     </tr>
     <tr>
       <th>7</th>
