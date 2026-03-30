@@ -29,21 +29,21 @@ strict digraph TypeScriptModuleBuildLevels {
 	"react-router-7.13.1\nprompt\n(level 1/5)" [];
 	"react-router-7.13.1\nprompt\n(level 1/5)" [];
 	"react-router-7.13.1\nprompt\n(level 1/5)" [];
+	"react-router-7.13.1\ncommands\n(level 1/5)" [];
+	"react-router-7.13.1\ncommands\n(level 1/5)" [];
+	"react-router-7.13.1\ncommands\n(level 1/5)" [];
+	"react-router-7.13.1\ncommands\n(level 1/5)" [];
 	"react-router-7.13.1\nflatRoutes\n(level 1/5)" [];
 	"react-router-7.13.1\nflatRoutes\n(level 1/5)" [];
 	"react-router-7.13.1\nreact-router-fs-routes\n(level 0/5)" [];
 	"react-router-7.13.1\nreact-router-fs-routes\n(level 0/5)" [];
-	"react-router-7.13.1\ncommands\n(level 1/5)" [];
-	"react-router-7.13.1\ncommands\n(level 1/5)" [];
-	"react-router-7.13.1\ncommands\n(level 1/5)" [];
-	"react-router-7.13.1\ncommands\n(level 1/5)" [];
 	"react-router-7.13.1\ncreate-react-router\n(level 0/5)" [];
 	"react-router-7.13.1\ncreate-react-router\n(level 0/5)" [];
 	"react-router-7.13.1\ncreate-react-router\n(level 0/5)" [];
-	"react-router-7.13.1\nreact-router-fs-routes\n(level 0/5)" [];
 	"react-router-7.13.1\nrun\n(level 0/5)" [];
 	"react-router-7.13.1\nplugin\n(level 0/5)" [];
 	"react-router-7.13.1\nplugin\n(level 0/5)" [];
 	"react-router-7.13.1\ndefineRoutes\n(level 0/5)" [];
 	"react-router-7.13.1\ndefineRoutes\n(level 0/5)" [];
+	"react-router-7.13.1\nreact-router-fs-routes\n(level 0/5)" [];
 }

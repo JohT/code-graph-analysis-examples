@@ -133,47 +133,47 @@ The projection and related common parameters are shared across all embedding alg
     <tr>
       <th>0</th>
       <td>/home/runner/work/code-graph-analysis-examples...</td>
-      <td>binaryTypes</td>
-      <td>react-router-architect</td>
+      <td>cli</td>
+      <td>create-react-router</td>
       <td>0</td>
-      <td>0.170968</td>
-      <td>[0.02488846518099308, 0.002204741118475795, 0....</td>
+      <td>0.150000</td>
+      <td>[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, ...</td>
     </tr>
     <tr>
       <th>1</th>
       <td>/home/runner/work/code-graph-analysis-examples...</td>
-      <td>react-router-architect</td>
-      <td>react-router-architect</td>
-      <td>0</td>
-      <td>0.401616</td>
-      <td>[0.024885451421141624, 0.002204746473580599, 0...</td>
+      <td>copy-template</td>
+      <td>create-react-router</td>
+      <td>1</td>
+      <td>0.152056</td>
+      <td>[0.23230689764022827, 0.01731780916452408, 0.2...</td>
     </tr>
     <tr>
       <th>2</th>
       <td>/home/runner/work/code-graph-analysis-examples...</td>
-      <td>server</td>
-      <td>react-router-architect</td>
-      <td>0</td>
-      <td>0.320687</td>
-      <td>[0.02488551288843155, 0.002204741584137082, 0....</td>
+      <td>create-react-router</td>
+      <td>create-react-router</td>
+      <td>1</td>
+      <td>0.150000</td>
+      <td>[0.22581294178962708, 0.01908833533525467, 0.2...</td>
     </tr>
     <tr>
       <th>3</th>
       <td>/home/runner/work/code-graph-analysis-examples...</td>
-      <td>arcTableSessionStorage</td>
-      <td>react-router-architect</td>
-      <td>0</td>
-      <td>0.320687</td>
-      <td>[0.024885451421141624, 0.002250050427392125, 0...</td>
+      <td>loading-indicator</td>
+      <td>create-react-router</td>
+      <td>1</td>
+      <td>0.151028</td>
+      <td>[0.22874408960342407, 0.019421633332967758, 0....</td>
     </tr>
     <tr>
       <th>4</th>
       <td>/home/runner/work/code-graph-analysis-examples...</td>
-      <td>cli</td>
+      <td>prompt</td>
       <td>create-react-router</td>
       <td>1</td>
-      <td>0.150000</td>
-      <td>[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, ...</td>
+      <td>0.159254</td>
+      <td>[0.06009089946746826, 0.20597676932811737, 0.2...</td>
     </tr>
   </tbody>
 </table>
@@ -229,47 +229,47 @@ This step takes the original node embeddings in their high dimensionality, e.g. 
     <tr>
       <th>0</th>
       <td>/home/runner/work/code-graph-analysis-examples...</td>
-      <td>binaryTypes</td>
-      <td>react-router-architect</td>
+      <td>cli</td>
+      <td>create-react-router</td>
       <td>0</td>
-      <td>0.170968</td>
-      <td>[0.6123724579811096, 0.3061862289905548, -0.61...</td>
+      <td>0.150000</td>
+      <td>[0.0, -0.3061862289905548, -0.3061862289905548...</td>
     </tr>
     <tr>
       <th>1</th>
       <td>/home/runner/work/code-graph-analysis-examples...</td>
-      <td>react-router-architect</td>
-      <td>react-router-architect</td>
-      <td>0</td>
-      <td>0.401616</td>
-      <td>[0.6123724579811096, 0.6123724579811096, -0.61...</td>
+      <td>copy-template</td>
+      <td>create-react-router</td>
+      <td>1</td>
+      <td>0.152056</td>
+      <td>[0.3061862289905548, 0.3061862289905548, -0.30...</td>
     </tr>
     <tr>
       <th>2</th>
       <td>/home/runner/work/code-graph-analysis-examples...</td>
-      <td>server</td>
-      <td>react-router-architect</td>
-      <td>0</td>
-      <td>0.320687</td>
-      <td>[0.6123724579811096, 0.3061862289905548, -0.61...</td>
+      <td>create-react-router</td>
+      <td>create-react-router</td>
+      <td>1</td>
+      <td>0.150000</td>
+      <td>[0.6123724579811096, 0.0, -0.3061862289905548,...</td>
     </tr>
     <tr>
       <th>3</th>
       <td>/home/runner/work/code-graph-analysis-examples...</td>
-      <td>arcTableSessionStorage</td>
-      <td>react-router-architect</td>
-      <td>0</td>
-      <td>0.320687</td>
-      <td>[0.3061862289905548, 0.6123724579811096, -0.61...</td>
+      <td>loading-indicator</td>
+      <td>create-react-router</td>
+      <td>1</td>
+      <td>0.151028</td>
+      <td>[0.3061862289905548, 0.3061862289905548, -0.30...</td>
     </tr>
     <tr>
       <th>4</th>
       <td>/home/runner/work/code-graph-analysis-examples...</td>
-      <td>cli</td>
+      <td>prompt</td>
       <td>create-react-router</td>
       <td>1</td>
-      <td>0.150000</td>
-      <td>[-0.3061862289905548, -0.3061862289905548, -0....</td>
+      <td>0.159254</td>
+      <td>[0.9185586869716644, 0.6123724579811096, 0.0, ...</td>
     </tr>
   </tbody>
 </table>
@@ -314,47 +314,47 @@ The [node2vec](https://towardsdatascience.com/complete-guide-to-understanding-no
     <tr>
       <th>0</th>
       <td>/home/runner/work/code-graph-analysis-examples...</td>
-      <td>binaryTypes</td>
-      <td>react-router-architect</td>
+      <td>cli</td>
+      <td>create-react-router</td>
       <td>0</td>
-      <td>0.170968</td>
-      <td>[-0.0984916165471077, -0.498098224401474, -0.1...</td>
+      <td>0.150000</td>
+      <td>[0.014910651370882988, 0.014269721694290638, 0...</td>
     </tr>
     <tr>
       <th>1</th>
       <td>/home/runner/work/code-graph-analysis-examples...</td>
-      <td>react-router-architect</td>
-      <td>react-router-architect</td>
-      <td>0</td>
-      <td>0.401616</td>
-      <td>[-0.1973680555820465, -0.6236392259597778, -0....</td>
+      <td>copy-template</td>
+      <td>create-react-router</td>
+      <td>1</td>
+      <td>0.152056</td>
+      <td>[1.147586703300476, -0.030150217935442924, 0.2...</td>
     </tr>
     <tr>
       <th>2</th>
       <td>/home/runner/work/code-graph-analysis-examples...</td>
-      <td>server</td>
-      <td>react-router-architect</td>
-      <td>0</td>
-      <td>0.320687</td>
-      <td>[-0.19494466483592987, -0.6963475942611694, -0...</td>
+      <td>create-react-router</td>
+      <td>create-react-router</td>
+      <td>1</td>
+      <td>0.150000</td>
+      <td>[1.3907814025878906, 0.04070856794714928, 0.24...</td>
     </tr>
     <tr>
       <th>3</th>
       <td>/home/runner/work/code-graph-analysis-examples...</td>
-      <td>arcTableSessionStorage</td>
-      <td>react-router-architect</td>
-      <td>0</td>
-      <td>0.320687</td>
-      <td>[-0.004214450716972351, -0.2781189978122711, -...</td>
+      <td>loading-indicator</td>
+      <td>create-react-router</td>
+      <td>1</td>
+      <td>0.151028</td>
+      <td>[1.284509539604187, -0.04783264175057411, 0.27...</td>
     </tr>
     <tr>
       <th>4</th>
       <td>/home/runner/work/code-graph-analysis-examples...</td>
-      <td>cli</td>
+      <td>prompt</td>
       <td>create-react-router</td>
       <td>1</td>
-      <td>0.150000</td>
-      <td>[0.013376571238040924, 0.011467508040368557, -...</td>
+      <td>0.159254</td>
+      <td>[1.378730297088623, 0.0198125671595335, 0.2981...</td>
     </tr>
   </tbody>
 </table>
@@ -388,8 +388,8 @@ The [node2vec](https://towardsdatascience.com/complete-guide-to-understanding-no
       <td>typescript-module-embeddings-notebook-graphSAGE</td>
       <td>False</td>
       <td>1</td>
-      <td>[37.92400343398706]</td>
-      <td>444</td>
+      <td>[35.96876404770583]</td>
+      <td>434</td>
     </tr>
   </tbody>
 </table>
@@ -421,52 +421,52 @@ The [node2vec](https://towardsdatascience.com/complete-guide-to-understanding-no
     <tr>
       <th>0</th>
       <td>/home/runner/work/code-graph-analysis-examples...</td>
-      <td>binaryTypes</td>
-      <td>4:2917a0e7-2f32-4bb1-a9fb-8e53870ba9d2:5571</td>
-      <td>react-router-architect</td>
+      <td>cli</td>
+      <td>4:8ded3c4a-8063-4151-af87-de2180d7f19a:9157</td>
+      <td>create-react-router</td>
       <td>0</td>
-      <td>0.170968</td>
-      <td>[-0.004854699470304265, 0.0380513757812722, 0....</td>
+      <td>0.150000</td>
+      <td>[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, ...</td>
     </tr>
     <tr>
       <th>1</th>
       <td>/home/runner/work/code-graph-analysis-examples...</td>
-      <td>react-router-architect</td>
-      <td>4:2917a0e7-2f32-4bb1-a9fb-8e53870ba9d2:5572</td>
-      <td>react-router-architect</td>
-      <td>0</td>
-      <td>0.401616</td>
-      <td>[-0.004854699470304265, 0.03805137578127221, 0...</td>
+      <td>copy-template</td>
+      <td>4:8ded3c4a-8063-4151-af87-de2180d7f19a:9158</td>
+      <td>create-react-router</td>
+      <td>1</td>
+      <td>0.152056</td>
+      <td>[-0.004854695782199414, 0.03805133782712355, 0...</td>
     </tr>
     <tr>
       <th>2</th>
       <td>/home/runner/work/code-graph-analysis-examples...</td>
-      <td>server</td>
-      <td>4:2917a0e7-2f32-4bb1-a9fb-8e53870ba9d2:5573</td>
-      <td>react-router-architect</td>
-      <td>0</td>
-      <td>0.320687</td>
-      <td>[-0.004854699470304268, 0.03805137578127229, 0...</td>
+      <td>create-react-router</td>
+      <td>4:8ded3c4a-8063-4151-af87-de2180d7f19a:9159</td>
+      <td>create-react-router</td>
+      <td>1</td>
+      <td>0.150000</td>
+      <td>[-0.004854695782199416, 0.03805133782712354, 0...</td>
     </tr>
     <tr>
       <th>3</th>
       <td>/home/runner/work/code-graph-analysis-examples...</td>
-      <td>arcTableSessionStorage</td>
-      <td>4:2917a0e7-2f32-4bb1-a9fb-8e53870ba9d2:5578</td>
-      <td>react-router-architect</td>
-      <td>0</td>
-      <td>0.320687</td>
-      <td>[-0.004854699470304214, 0.038051375781271844, ...</td>
+      <td>loading-indicator</td>
+      <td>4:8ded3c4a-8063-4151-af87-de2180d7f19a:9160</td>
+      <td>create-react-router</td>
+      <td>1</td>
+      <td>0.151028</td>
+      <td>[-0.004854695782199414, 0.038051337827123576, ...</td>
     </tr>
     <tr>
       <th>4</th>
       <td>/home/runner/work/code-graph-analysis-examples...</td>
-      <td>cli</td>
-      <td>4:2917a0e7-2f32-4bb1-a9fb-8e53870ba9d2:9449</td>
+      <td>prompt</td>
+      <td>4:8ded3c4a-8063-4151-af87-de2180d7f19a:9161</td>
       <td>create-react-router</td>
       <td>1</td>
-      <td>0.150000</td>
-      <td>[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, ...</td>
+      <td>0.159254</td>
+      <td>[-0.0048546957821994155, 0.03805133782712341, ...</td>
     </tr>
   </tbody>
 </table>

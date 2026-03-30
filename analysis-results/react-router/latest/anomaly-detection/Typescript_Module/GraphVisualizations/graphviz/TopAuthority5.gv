@@ -12,7 +12,10 @@ strict digraph TopAuthority5 {
     central [fontsize = 16;];
     central [color = 7; fillcolor = 5; penwidth = 3;];
 
-	graph   [label="Top Rank #5 Typescript Module Authority\n/home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.13.1/source/react-router-7.13.1/packages/react-router-express/server.ts\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: Page Rank (normalized)\nlarge circle: > 80% percentile of Page Rank\nthick outline: > 80% percentile of Page Rank to Article Rank Difference\n\n"];
-	central [label="🏛️ authority #5\nserver"];
-	"react-router-express_198555"  [label = "react-router-express\n(11.18%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "react-router-express_198555" [label=56; weight=56; penwidth=0.4; color = 5];
+	graph   [label="Top Rank #5 Typescript Module Authority\n/home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.13.1/source/react-router-7.13.1/packages/react-router-dev/config.ts\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: Page Rank (normalized)\nlarge circle: > 80% percentile of Page Rank\nthick outline: > 80% percentile of Page Rank to Article Rank Difference\n\n"];
+	central [label="🏛️ authority #5\nconfig"];
+	"config_121960"  [label = "config\n(21.68%)"; penwidth = 5; ]; "config_121960" -> central [label=288; weight=288; penwidth=0.5];
+	"plugin_121984"  [label = "plugin\n(1.09%)"; penwidth = 2; ]; "plugin_121984" -> central [label=4; weight=4; penwidth=0.4];
+	"config_121960"  [label = "config\n(21.68%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "config_121960" [label=1; weight=1; penwidth=0.4; color = 5];
+	"plugin_121984" -> "config_121960" [label=34; weight=34; penwidth=0.3; color = 3]
 }

@@ -12,66 +12,14 @@ strict digraph TopBottleneck4 {
     central [fontsize = 16;];
     central [color = 7; fillcolor = 5; penwidth = 3;];
 
-	graph   [label="Top Rank #4 Typescript Module Bottleneck\n/home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.13.1/source/react-router-7.13.1/packages/react-router/index-react-server.ts\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: Betweenness centrality\nthick outline: > 90% percentile of Betweenness centrality\n\n"];
-	central [label="🔒 bottleneck #4\nreact-router"];
-	"sessions_198356"  [label = "sessions\n(2.0)"; penwidth = 2; ]; "sessions_198356" -> central [label=344; weight=344; penwidth=0.5];
-	"router_198333"  [label = "router\n(139.0)"; penwidth = 2; ]; "router_198333" -> central [label=292; weight=292; penwidth=0.5];
-	"cookies_198343"  [label = "cookies\n(65.0)"; penwidth = 2; ]; "cookies_198343" -> central [label=216; weight=216; penwidth=0.5];
-	"server_198337"  [label = "server\n(80.5)"; penwidth = 2; ]; "server_198337" -> central [label=90; weight=90; penwidth=0.4];
-	"cookieStorage_198359"  [label = "cookieStorage\n(0.0)"; penwidth = 2; ]; "cookieStorage_198359" -> central [label=88; weight=88; penwidth=0.4];
-	"single-fetch_198357"  [label = "single-fetch\n(136.0)"; penwidth = 2; ]; "single-fetch_198357" -> central [label=45; weight=45; penwidth=0.4];
-	"react-router_198309"  [label = "react-router\n(1124.83)"; penwidth = 5; ]; "react-router_198309" -> central [label=36; weight=36; penwidth=0.4];
-	"routeModules_198328"  [label = "routeModules\n(298.0)"; penwidth = 2; ]; "routeModules_198328" -> central [label=22; weight=22; penwidth=0.4];
-	"fog-of-war_198324"  [label = "fog-of-war\n(21.5)"; penwidth = 2; ]; "fog-of-war_198324" -> central [label=9; weight=9; penwidth=0.4];
-	"memoryStorage_198361"  [label = "memoryStorage\n(32.0)"; penwidth = 2; ]; "memoryStorage_198361" -> central [label=9; weight=9; penwidth=0.4];
-	"routes_198353"  [label = "routes\n(128.5)"; penwidth = 2; ]; "routes_198353" -> central [label=2; weight=2; penwidth=0.4];
-	"react-router_198309"  [label = "react-router\n(1124.83)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "react-router_198309" [label=18; weight=18; penwidth=0.4; color = 5];
-	"server_198337"  [label = "server\n(80.5)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "server_198337" [label=9; weight=9; penwidth=0.4; color = 5];
-	"utils_198334"  [label = "utils\n(0.0)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "utils_198334" [label=6; weight=6; penwidth=0.4; color = 5];
-	"cookies_198343"  [label = "cookies\n(65.0)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "cookies_198343" [label=3; weight=3; penwidth=0.4; color = 5];
-	"cookieStorage_198359"  [label = "cookieStorage\n(0.0)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "cookieStorage_198359" [label=1; weight=1; penwidth=0.4; color = 5];
-	"dom-export_198306"  [label = "dom-export\n(397.0)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "dom-export_198306" [label=1; weight=1; penwidth=0.4; color = 5];
-	"href_198316"  [label = "href\n(0.0)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "href_198316" [label=1; weight=1; penwidth=0.4; color = 5];
-	"memoryStorage_198361"  [label = "memoryStorage\n(32.0)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "memoryStorage_198361" [label=1; weight=1; penwidth=0.4; color = 5];
-	"router_198333"  [label = "router\n(139.0)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "router_198333" [label=1; weight=1; penwidth=0.4; color = 5];
-	"router_198333" -> "utils_198334" [label=7312; weight=7312; penwidth=0.3; color = 3]
-	"router_198333" -> "react-router_198309" [label=4601; weight=4601; penwidth=0.3; color = 3]
-	"server_198337" -> "react-router_198309" [label=857; weight=857; penwidth=0.3; color = 3]
-	"single-fetch_198357" -> "react-router_198309" [label=841; weight=841; penwidth=0.3; color = 3]
-	"server_198337" -> "router_198333" [label=790; weight=790; penwidth=0.3; color = 3]
-	"single-fetch_198357" -> "router_198333" [label=506; weight=506; penwidth=0.3; color = 3]
-	"server_198337" -> "dom-export_198306" [label=468; weight=468; penwidth=0.3; color = 3]
-	"fog-of-war_198324" -> "react-router_198309" [label=378; weight=378; penwidth=0.3; color = 3]
-	"server_198337" -> "utils_198334" [label=367; weight=367; penwidth=0.3; color = 3]
-	"sessions_198356" -> "react-router_198309" [label=344; weight=344; penwidth=0.3; color = 3]
-	"fog-of-war_198324" -> "router_198333" [label=229; weight=229; penwidth=0.3; color = 3]
-	"cookies_198343" -> "react-router_198309" [label=216; weight=216; penwidth=0.3; color = 3]
-	"sessions_198356" -> "cookies_198343" [label=164; weight=164; penwidth=0.3; color = 3]
-	"utils_198334" -> "react-router_198309" [label=160; weight=160; penwidth=0.3; color = 3]
-	"routes_198353" -> "routeModules_198328" [label=112; weight=112; penwidth=0.3; color = 3]
-	"routeModules_198328" -> "react-router_198309" [label=94; weight=94; penwidth=0.3; color = 3]
-	"cookieStorage_198359" -> "react-router_198309" [label=88; weight=88; penwidth=0.3; color = 3]
-	"routeModules_198328" -> "utils_198334" [label=83; weight=83; penwidth=0.3; color = 3]
-	"cookieStorage_198359" -> "cookies_198343" [label=79; weight=79; penwidth=0.3; color = 3]
-	"single-fetch_198357" -> "utils_198334" [label=72; weight=72; penwidth=0.3; color = 3]
-	"routes_198353" -> "react-router_198309" [label=47; weight=47; penwidth=0.3; color = 3]
-	"fog-of-war_198324" -> "utils_198334" [label=31; weight=31; penwidth=0.3; color = 3]
-	"routes_198353" -> "utils_198334" [label=31; weight=31; penwidth=0.3; color = 3]
-	"react-router_198309" -> "server_198337" [label=21; weight=21; penwidth=0.3; color = 3]
-	"server_198337" -> "routeModules_198328" [label=20; weight=20; penwidth=0.3; color = 3]
-	"react-router_198309" -> "utils_198334" [label=19; weight=19; penwidth=0.3; color = 3]
-	"cookieStorage_198359" -> "sessions_198356" [label=18; weight=18; penwidth=0.3; color = 3]
-	"memoryStorage_198361" -> "react-router_198309" [label=9; weight=9; penwidth=0.3; color = 3]
-	"memoryStorage_198361" -> "sessions_198356" [label=9; weight=9; penwidth=0.3; color = 3]
-	"react-router_198309" -> "router_198333" [label=8; weight=8; penwidth=0.3; color = 3]
-	"fog-of-war_198324" -> "routeModules_198328" [label=7; weight=7; penwidth=0.3; color = 3]
-	"react-router_198309" -> "cookies_198343" [label=3; weight=3; penwidth=0.3; color = 3]
-	"react-router_198309" -> "routeModules_198328" [label=3; weight=3; penwidth=0.3; color = 3]
-	"react-router_198309" -> "fog-of-war_198324" [label=2; weight=2; penwidth=0.3; color = 3]
-	"dom-export_198306" -> "react-router_198309" [label=1; weight=1; penwidth=0.3; color = 3]
-	"dom-export_198306" -> "server_198337" [label=1; weight=1; penwidth=0.3; color = 3]
-	"react-router_198309" -> "cookieStorage_198359" [label=1; weight=1; penwidth=0.3; color = 3]
-	"react-router_198309" -> "dom-export_198306" [label=1; weight=1; penwidth=0.3; color = 3]
-	"react-router_198309" -> "href_198316" [label=1; weight=1; penwidth=0.3; color = 3]
-	"react-router_198309" -> "memoryStorage_198361" [label=1; weight=1; penwidth=0.3; color = 3]
+	graph   [label="Top Rank #4 Typescript Module Bottleneck\n/home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.13.1/source/react-router-7.13.1/packages/react-router/lib/types/route-data.ts\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: Betweenness centrality\nthick outline: > 90% percentile of Betweenness centrality\n\n"];
+	central [label="🔒 bottleneck #4\nroute-data"];
+	"routeModules_205750"  [label = "routeModules\n(275.42)"; penwidth = 2; ]; "routeModules_205750" -> central [label=1; weight=1; penwidth=0.4];
+	"data_205767"  [label = "data\n(1.0)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "data_205767" [label=1; weight=1; penwidth=0.4; color = 5];
+	"react-router_205731"  [label = "react-router\n(1142.04)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "react-router_205731" [label=1; weight=1; penwidth=0.4; color = 5];
+	"route-module_205791"  [label = "route-module\n(35.0)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "route-module_205791" [label=1; weight=1; penwidth=0.4; color = 5];
+	"data_205767" -> "react-router_205731" [label=39; weight=39; penwidth=0.3; color = 3]
+	"routeModules_205750" -> "react-router_205731" [label=16; weight=16; penwidth=0.3; color = 3]
+	"react-router_205731" -> "routeModules_205750" [label=3; weight=3; penwidth=0.3; color = 3]
+	"react-router_205731" -> "data_205767" [label=0; weight=0; penwidth=0.3; color = 3]
 }
