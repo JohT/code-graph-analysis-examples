@@ -278,13 +278,13 @@ Lists the 30 label combinations with the lowest number of nodes until they reach
     </tr>
     <tr>
       <th>4</th>
-      <td>[File]</td>
+      <td>[Type, File, Java, ByteCode, GenericDeclaratio...</td>
       <td>4</td>
       <td>0.000744</td>
     </tr>
     <tr>
       <th>5</th>
-      <td>[Type, File, Java, ByteCode, GenericDeclaratio...</td>
+      <td>[File]</td>
       <td>4</td>
       <td>0.000744</td>
     </tr>
@@ -314,19 +314,19 @@ Lists the 30 label combinations with the lowest number of nodes until they reach
     </tr>
     <tr>
       <th>10</th>
-      <td>[Type, File, Java, ByteCode, Throwable, Resolv...</td>
+      <td>[File, Maven, Xml, Pom, Document]</td>
       <td>11</td>
       <td>0.002045</td>
     </tr>
     <tr>
       <th>11</th>
-      <td>[Maven, Scm]</td>
+      <td>[File, Java, Manifest]</td>
       <td>11</td>
       <td>0.002045</td>
     </tr>
     <tr>
       <th>12</th>
-      <td>[File, Maven, Xml, Pom, Document]</td>
+      <td>[Java, ManifestSection]</td>
       <td>11</td>
       <td>0.002045</td>
     </tr>
@@ -338,31 +338,31 @@ Lists the 30 label combinations with the lowest number of nodes until they reach
     </tr>
     <tr>
       <th>14</th>
-      <td>[Java, ManifestSection]</td>
+      <td>[Maven, Scm]</td>
       <td>11</td>
       <td>0.002045</td>
     </tr>
     <tr>
       <th>15</th>
-      <td>[File, Java, Manifest]</td>
-      <td>11</td>
-      <td>0.002045</td>
-    </tr>
-    <tr>
-      <th>16</th>
       <td>[File, Artifact, Jar, Archive, Zip, Java]</td>
       <td>11</td>
       <td>0.002045</td>
     </tr>
     <tr>
+      <th>16</th>
+      <td>[Type, File, Java, ByteCode, Throwable, Resolv...</td>
+      <td>11</td>
+      <td>0.002045</td>
+    </tr>
+    <tr>
       <th>17</th>
-      <td>[File, Java, ServiceLoader]</td>
+      <td>[Maven, ExecutionGoal]</td>
       <td>13</td>
       <td>0.002417</td>
     </tr>
     <tr>
       <th>18</th>
-      <td>[Maven, PluginExecution]</td>
+      <td>[File, Java, ServiceLoader]</td>
       <td>13</td>
       <td>0.002417</td>
     </tr>
@@ -374,7 +374,7 @@ Lists the 30 label combinations with the lowest number of nodes until they reach
     </tr>
     <tr>
       <th>20</th>
-      <td>[Maven, ExecutionGoal]</td>
+      <td>[Maven, PluginExecution]</td>
       <td>13</td>
       <td>0.002417</td>
     </tr>
@@ -1042,7 +1042,7 @@ Lists the 30 relationships type with the lowest number of occurrences up to 0.5%
     </tr>
     <tr>
       <th>11</th>
-      <td>IS_ARTIFACT</td>
+      <td>USES_PLUGIN</td>
       <td>20</td>
       <td>0.001199</td>
     </tr>
@@ -1054,19 +1054,19 @@ Lists the 30 relationships type with the lowest number of occurrences up to 0.5%
     </tr>
     <tr>
       <th>13</th>
-      <td>USES_PLUGIN</td>
+      <td>IS_ARTIFACT</td>
       <td>20</td>
       <td>0.001199</td>
     </tr>
     <tr>
       <th>14</th>
-      <td>OF_NAMESPACE</td>
+      <td>HAS_ATTRIBUTE</td>
       <td>22</td>
       <td>0.001318</td>
     </tr>
     <tr>
       <th>15</th>
-      <td>HAS_ATTRIBUTE</td>
+      <td>OF_NAMESPACE</td>
       <td>22</td>
       <td>0.001318</td>
     </tr>
@@ -1120,13 +1120,13 @@ Lists the 30 relationships type with the lowest number of occurrences up to 0.5%
     </tr>
     <tr>
       <th>24</th>
-      <td>TO_ARTIFACT</td>
+      <td>DECLARES_DEPENDENCY</td>
       <td>205</td>
       <td>0.012286</td>
     </tr>
     <tr>
       <th>25</th>
-      <td>DECLARES_DEPENDENCY</td>
+      <td>TO_ARTIFACT</td>
       <td>205</td>
       <td>0.012286</td>
     </tr>

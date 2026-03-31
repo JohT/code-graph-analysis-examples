@@ -2540,22 +2540,22 @@ Only the last 20 entries are shown. The whole table can be found in the followin
   <tbody>
     <tr>
       <th>0</th>
-      <td>reactor.core.scheduler</td>
+      <td>org.testcontainers.containers</td>
       <td>2</td>
     </tr>
     <tr>
       <th>1</th>
-      <td>org.testcontainers.utility</td>
-      <td>2</td>
-    </tr>
-    <tr>
-      <th>2</th>
       <td>org.testcontainers.containers.wait.strategy</td>
       <td>2</td>
     </tr>
     <tr>
+      <th>2</th>
+      <td>org.testcontainers.utility</td>
+      <td>2</td>
+    </tr>
+    <tr>
       <th>3</th>
-      <td>org.testcontainers.containers</td>
+      <td>reactor.core.scheduler</td>
       <td>2</td>
     </tr>
     <tr>
@@ -2575,7 +2575,7 @@ Only the last 20 entries are shown. The whole table can be found in the followin
     </tr>
     <tr>
       <th>7</th>
-      <td>tools.jackson.dataformat.cbor</td>
+      <td>javax.cache.configuration</td>
       <td>3</td>
     </tr>
     <tr>
@@ -2585,7 +2585,7 @@ Only the last 20 entries are shown. The whole table can be found in the followin
     </tr>
     <tr>
       <th>9</th>
-      <td>javax.cache.configuration</td>
+      <td>tools.jackson.dataformat.cbor</td>
       <td>3</td>
     </tr>
     <tr>
@@ -2595,32 +2595,32 @@ Only the last 20 entries are shown. The whole table can be found in the followin
     </tr>
     <tr>
       <th>11</th>
-      <td>io.grpc.stub</td>
+      <td>tools.jackson.databind.json</td>
       <td>4</td>
     </tr>
     <tr>
       <th>12</th>
-      <td>org.apache.avro.specific</td>
-      <td>4</td>
-    </tr>
-    <tr>
-      <th>13</th>
       <td>org.springframework.beans.factory</td>
       <td>4</td>
     </tr>
     <tr>
-      <th>14</th>
-      <td>org.springframework.boot.testcontainers.servic...</td>
-      <td>4</td>
-    </tr>
-    <tr>
-      <th>15</th>
+      <th>13</th>
       <td>com.google.gson</td>
       <td>4</td>
     </tr>
     <tr>
+      <th>14</th>
+      <td>io.grpc.stub</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>15</th>
+      <td>org.springframework.boot.testcontainers.servic...</td>
+      <td>4</td>
+    </tr>
+    <tr>
       <th>16</th>
-      <td>tools.jackson.databind.json</td>
+      <td>org.apache.avro.specific</td>
       <td>4</td>
     </tr>
     <tr>
@@ -2630,7 +2630,7 @@ Only the last 20 entries are shown. The whole table can be found in the followin
     </tr>
     <tr>
       <th>18</th>
-      <td>jakarta.validation</td>
+      <td>org.springframework.context</td>
       <td>5</td>
     </tr>
     <tr>
