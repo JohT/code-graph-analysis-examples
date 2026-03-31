@@ -14,8 +14,8 @@ strict digraph TopAuthority4 {
 
 	graph   [label="Top Rank #4 Typescript Module Authority\n/home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.13.1/source/react-router-7.13.1/packages/react-router/lib/rsc/server.rsc.ts\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: Page Rank (normalized)\nlarge circle: > 80% percentile of Page Rank\nthick outline: > 80% percentile of Page Rank to Article Rank Difference\n\n"];
 	central [label="🏛️ authority #4\nserver"];
-	"react-router_205731"  [shape = "circle"; height=2; label = "react-router\n(100.0%)"; penwidth = 2; ]; "react-router_205731" -> central [label=9; weight=9; penwidth=0.4];
 	"react-router_205730"  [shape = "circle"; height=2; label = "react-router\n(44.11%)"; penwidth = 5; ]; "react-router_205730" -> central [label=9; weight=9; penwidth=0.4];
+	"react-router_205731"  [shape = "circle"; height=2; label = "react-router\n(100.0%)"; penwidth = 2; ]; "react-router_205731" -> central [label=9; weight=9; penwidth=0.4];
 	"react-router_205731"  [shape = "circle"; height=2; label = "react-router\n(100.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "react-router_205731" [label=142; weight=142; penwidth=0.5; color = 5];
 	"router_205755"  [label = "router\n(15.83%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "router_205755" [label=119; weight=119; penwidth=0.5; color = 5];
 	"utils_205756"  [shape = "circle"; height=2; label = "utils\n(43.43%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "utils_205756" [label=77; weight=77; penwidth=0.4; color = 5];
@@ -60,12 +60,12 @@ strict digraph TopAuthority4 {
 	"headers_205771" -> "routeModules_205750" [label=3; weight=3; penwidth=0.3; color = 3]
 	"react-router_205731" -> "routeModules_205750" [label=3; weight=3; penwidth=0.3; color = 3]
 	"routeModules_205750" -> "react-router_205730" [label=3; weight=3; penwidth=0.3; color = 3]
-	"dom-export_205728" -> "react-router_205730" [label=1; weight=1; penwidth=0.3; color = 3]
 	"dom-export_205728" -> "react-router_205731" [label=1; weight=1; penwidth=0.3; color = 3]
+	"dom-export_205728" -> "react-router_205730" [label=1; weight=1; penwidth=0.3; color = 3]
 	"headers_205771" -> "context_205736" [label=1; weight=1; penwidth=0.3; color = 3]
-	"react-router_205731" -> "dom-export_205728" [label=1; weight=1; penwidth=0.3; color = 3]
-	"react-router_205730" -> "dom-export_205728" [label=1; weight=1; penwidth=0.3; color = 3]
 	"react-router_205730" -> "router_205755" [label=1; weight=1; penwidth=0.3; color = 3]
+	"react-router_205730" -> "dom-export_205728" [label=1; weight=1; penwidth=0.3; color = 3]
+	"react-router_205731" -> "dom-export_205728" [label=1; weight=1; penwidth=0.3; color = 3]
 	"react-router_205729" -> "context_205736" [label=1; weight=1; penwidth=0.3; color = 3]
 	"routeModules_205750" -> "history_205751" [label=1; weight=1; penwidth=0.3; color = 3]
 }
