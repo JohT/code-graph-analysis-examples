@@ -182,3 +182,16 @@ Report | Analysis | Description
 | [PathFindingTypescript.md](./react-router/react-router-7.13.1/path-finding-typescript/PathFindingTypescript.md) | react-router-7.13.1 | Path Finding for Typescript |
 | [VisibilityMetricsTypescript.md](./react-router/react-router-7.13.1/visibility-metrics-typescript/VisibilityMetricsTypescript.md) | react-router-7.13.1 | Visibility Metrics for Typescript |
 | [Wordcloud.md](./react-router/react-router-7.13.1/wordcloud/Wordcloud.md) | react-router-7.13.1 | Wordcloud |
+| [GraphVisualizationsReferenceForSummary.md](./react-router/react-router-7.13.2/anomaly-detection/Typescript_Module/GraphVisualizations/GraphVisualizationsReferenceForSummary.md) | react-router-7.13.2 | Graph Visualizations |
+| [anomaly_detection_report.md](./react-router/react-router-7.13.2/anomaly-detection/anomaly_detection_report.md) | react-router-7.13.2 | 📊 Anomaly Detection Report |
+| [DependenciesGraphTypescript.md](./react-router/react-router-7.13.2/dependencies-graph-typescript/DependenciesGraphTypescript.md) | react-router-7.13.2 | Artifact Dependencies |
+| [ExternalDependenciesTypescript.md](./react-router/react-router-7.13.2/external-dependencies-typescript/ExternalDependenciesTypescript.md) | react-router-7.13.2 | External Dependencies for Typescript |
+| [GitHistoryGeneral.md](./react-router/react-router-7.13.2/git-history-general/GitHistoryGeneral.md) | react-router-7.13.2 | git log/history |
+| [InternalDependenciesTypescript.md](./react-router/react-router-7.13.2/internal-dependencies-typescript/InternalDependenciesTypescript.md) | react-router-7.13.2 | Internal Dependencies |
+| [NodeEmbeddingsTypescript.md](./react-router/react-router-7.13.2/node-embeddings-typescript/NodeEmbeddingsTypescript.md) | react-router-7.13.2 | Node Embeddings for TypeScript |
+| [ObjectOrientedDesignMetricsTypescript.md](./react-router/react-router-7.13.2/object-oriented-design-metrics-typescript/ObjectOrientedDesignMetricsTypescript.md) | react-router-7.13.2 | Object Oriented Design Quality Metrics |
+| [OverviewGeneral.md](./react-router/react-router-7.13.2/overview-general/OverviewGeneral.md) | react-router-7.13.2 | Overview in General |
+| [OverviewTypescript.md](./react-router/react-router-7.13.2/overview-typescript/OverviewTypescript.md) | react-router-7.13.2 | Overview for Typescript |
+| [PathFindingTypescript.md](./react-router/react-router-7.13.2/path-finding-typescript/PathFindingTypescript.md) | react-router-7.13.2 | Path Finding for Typescript |
+| [VisibilityMetricsTypescript.md](./react-router/react-router-7.13.2/visibility-metrics-typescript/VisibilityMetricsTypescript.md) | react-router-7.13.2 | Visibility Metrics for Typescript |
+| [Wordcloud.md](./react-router/react-router-7.13.2/wordcloud/Wordcloud.md) | react-router-7.13.2 | Wordcloud |
