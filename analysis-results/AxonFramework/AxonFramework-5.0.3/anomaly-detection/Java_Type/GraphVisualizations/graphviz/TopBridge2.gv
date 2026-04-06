@@ -12,22 +12,17 @@ strict digraph TopBridge2 {
     central [fontsize = 16;];
     central [color = 7; fillcolor = 5; penwidth = 3;];
 
-	graph   [label="Top Rank #2 Java Type Bridge\norg.axonframework.update.LoggingUpdateCheckerReporter\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
-	central [label="🌉 bridge #2\nLoggingUpdateCheckerReporter"];
-	"UpdateCheckerConfigurationEnhancer_39044" [label = "UpdateCheckerConfigurationEnhancer"; ]; "UpdateCheckerConfigurationEnhancer_39044" -> central [label=2; weight=2; penwidth=0.4];
-	"DetectedVulnerability_39663" [label = "DetectedVulnerability"; color = 5; fillcolor = 1; ]; central -> "DetectedVulnerability_39663" [label=12; weight=12; penwidth=0.6; color = 5];
-	"UpdateCheckResponse_39660" [label = "UpdateCheckResponse"; color = 5; fillcolor = 1; ]; central -> "UpdateCheckResponse_39660" [label=10; weight=10; penwidth=0.6; color = 5];
-	"Artifact_39662" [label = "Artifact"; color = 5; fillcolor = 1; ]; central -> "Artifact_39662" [label=8; weight=8; penwidth=0.5; color = 5];
-	"UpdateCheckRequest_39661" [label = "UpdateCheckRequest"; color = 5; fillcolor = 1; ]; central -> "UpdateCheckRequest_39661" [label=7; weight=7; penwidth=0.5; color = 5];
-	"ArtifactAvailableUpgrade_39664" [label = "ArtifactAvailableUpgrade"; color = 5; fillcolor = 1; ]; central -> "ArtifactAvailableUpgrade_39664" [label=6; weight=6; penwidth=0.5; color = 5];
-	"DetectedVulnerabilitySeverity_39765" [label = "DetectedVulnerabilitySeverity"; color = 5; fillcolor = 1; ]; central -> "DetectedVulnerabilitySeverity_39765" [label=2; weight=2; penwidth=0.4; color = 5];
-	"UpdateCheckerReporter_39052" [label = "UpdateCheckerReporter"; color = 5; fillcolor = 1; ]; central -> "UpdateCheckerReporter_39052" [label=1; weight=1; penwidth=0.4; color = 5];
-	"UpdateCheckRequest_39661" -> "Artifact_39662" [label=12; weight=12; penwidth=0.3; color = 3]
-	"UpdateCheckResponse_39660" -> "DetectedVulnerability_39663" [label=7; weight=7; penwidth=0.3; color = 3]
-	"UpdateCheckResponse_39660" -> "ArtifactAvailableUpgrade_39664" [label=6; weight=6; penwidth=0.3; color = 3]
-	"UpdateCheckerConfigurationEnhancer_39044" -> "UpdateCheckerReporter_39052" [label=4; weight=4; penwidth=0.3; color = 3]
-	"DetectedVulnerability_39663" -> "DetectedVulnerabilitySeverity_39765" [label=3; weight=3; penwidth=0.3; color = 3]
-	"UpdateCheckResponse_39660" -> "DetectedVulnerabilitySeverity_39765" [label=3; weight=3; penwidth=0.3; color = 3]
-	"UpdateCheckerReporter_39052" -> "UpdateCheckRequest_39661" [label=1; weight=1; penwidth=0.3; color = 3]
-	"UpdateCheckerReporter_39052" -> "UpdateCheckResponse_39660" [label=1; weight=1; penwidth=0.3; color = 3]
+	graph   [label="Top Rank #2 Java Type Bridge\norg.axonframework.test.util.MessageMonitorReport$Report$Ignored\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
+	central [label="🌉 bridge #2\nMessageMonitorReport$Report$Ignored"];
+	"MessageMonitorReport_2076" [label = "MessageMonitorReport"; ]; "MessageMonitorReport_2076" -> central [label=7; weight=7; penwidth=0.5];
+	"MessageMonitorReport$Report_2070" [label = "MessageMonitorReport$\nReport"; ]; "MessageMonitorReport$Report_2070" -> central [label=1; weight=1; penwidth=0.4];
+	"RecordingMessageMonitor$1_2078" [label = "RecordingMessageMonitor$\n1"; ]; "RecordingMessageMonitor$1_2078" -> central [label=1; weight=1; penwidth=0.4];
+	"Message_15738" [label = "Message"; color = 5; fillcolor = 1; ]; central -> "Message_15738" [label=3; weight=3; penwidth=0.4; color = 5];
+	"MessageMonitorReport$Report_2070" [label = "MessageMonitorReport$\nReport"; color = 5; fillcolor = 1; ]; central -> "MessageMonitorReport$Report_2070" [label=2; weight=2; penwidth=0.4; color = 5];
+	"MessageMonitorReport_2076" -> "MessageMonitorReport$Report_2070" [label=8; weight=8; penwidth=0.3; color = 3]
+	"RecordingMessageMonitor$1_2078" -> "MessageMonitorReport_2076" [label=6; weight=6; penwidth=0.3; color = 3]
+	"MessageMonitorReport_2076" -> "Message_15738" [label=3; weight=3; penwidth=0.3; color = 3]
+	"MessageMonitorReport$Report_2070" -> "Message_15738" [label=1; weight=1; penwidth=0.3; color = 3]
+	"RecordingMessageMonitor$1_2078" -> "Message_15738" [label=1; weight=1; penwidth=0.3; color = 3]
+	"RecordingMessageMonitor$1_2078" -> "MessageMonitorReport$Report_2070" [label=1; weight=1; penwidth=0.3; color = 3]
 }

@@ -746,10 +746,10 @@ Shows the top 20 artifacts with the longest shortest path (=Graph Diameter).
     axon-eventsourcing-5.0.3                3
     axon-modelling-5.0.3                    3
     axon-common-5.0.3                       2
-    axon-server-connector-5.0.3             2
     axon-metrics-micrometer-5.0.3           2
-    axon-test-5.0.3                         2
+    axon-server-connector-5.0.3             2
     axon-spring-boot-autoconfigure-5.0.3    2
+    axon-test-5.0.3                         2
     axon-conversion-5.0.3                   1
     axon-update-5.0.3                       1
     Name: distance, dtype: int64
@@ -981,7 +981,7 @@ First, we'll have a look at the overall/total result of the longest path algorit
       <td>9</td>
       <td>4</td>
       <td>10</td>
-      <td>1</td>
+      <td>2</td>
       <td>10</td>
     </tr>
     <tr>
@@ -1213,9 +1213,9 @@ The following table shows the first 10 rows with all details of the query above.
       <td>22</td>
       <td>2</td>
       <td>22</td>
-      <td>20</td>
+      <td>19</td>
       <td>1</td>
-      <td>20</td>
+      <td>19</td>
       <td>[/org/axonframework/extension/metrics/micrometer/springboot -&gt; /org/axonframework/test/server, /org/axonframework/extension/metrics/micrometer/springboot -&gt; /org/axonframework/common/io, /org/axonframework/extension/metrics/micrometer/springboot -&gt; /org/axonframework/common/jdbc, /org/axonframew...</td>
       <td>[axon-metrics-micrometer-5.0.3 -&gt; axon-test-5.0.3, axon-metrics-micrometer-5.0.3 -&gt; axon-common-5.0.3, axon-metrics-micrometer-5.0.3 -&gt; axon-eventsourcing-5.0.3, axon-metrics-micrometer-5.0.3 -&gt; axon-conversion-5.0.3]</td>
       <td>[]</td>
@@ -1230,12 +1230,12 @@ The following table shows the first 10 rows with all details of the query above.
       <td>None</td>
       <td>4</td>
       <td>10</td>
+      <td>2</td>
+      <td>10</td>
+      <td>7</td>
       <td>1</td>
-      <td>10</td>
-      <td>10</td>
-      <td>1</td>
-      <td>10</td>
-      <td>[/org/axonframework/extension/metrics/micrometer/springboot -&gt; /org/axonframework/common, /org/axonframework/extension/metrics/micrometer/springboot -&gt; /org/axonframework/common/tx, /org/axonframework/extension/metrics/micrometer/springboot -&gt; /org/axonframework/common/function, /org/axonframewo...</td>
+      <td>7</td>
+      <td>[/org/axonframework/extension/metrics/micrometer/springboot -&gt; /org/axonframework/common/tx, /org/axonframework/extension/metrics/micrometer/springboot -&gt; /org/axonframework/common/function, /org/axonframework/extension/metrics/micrometer/springboot -&gt; /org/axonframework/messaging/commandhandlin...</td>
       <td>[axon-metrics-micrometer-5.0.3 -&gt; axon-common-5.0.3, axon-metrics-micrometer-5.0.3 -&gt; axon-messaging-5.0.3, axon-metrics-micrometer-5.0.3 -&gt; axon-update-5.0.3]</td>
       <td>[]</td>
     </tr>
@@ -1427,8 +1427,8 @@ Shows the top 20 artifacts with their max. longest path.
     sourceProject
     axon-test-5.0.3                  3
     axon-metrics-micrometer-5.0.3    2
-    axon-messaging-5.0.3             1
     axon-eventsourcing-5.0.3         1
+    axon-messaging-5.0.3             1
     Name: distance, dtype: int64
 
 

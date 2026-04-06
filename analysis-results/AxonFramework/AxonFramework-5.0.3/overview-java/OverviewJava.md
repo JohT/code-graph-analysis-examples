@@ -342,18 +342,18 @@ The source data for this aggregated table can be found in the CSV report `Number
       <td>0</td>
     </tr>
     <tr>
-      <th>axon-test-5.0.3</th>
-      <td>53</td>
-      <td>19</td>
-      <td>1</td>
-      <td>0</td>
-    </tr>
-    <tr>
       <th>axon-spring-boot-autoconfigure-5.0.3</th>
       <td>67</td>
       <td>1</td>
       <td>3</td>
       <td>2</td>
+    </tr>
+    <tr>
+      <th>axon-test-5.0.3</th>
+      <td>53</td>
+      <td>19</td>
+      <td>1</td>
+      <td>0</td>
     </tr>
     <tr>
       <th>axon-server-connector-5.0.3</th>
@@ -461,18 +461,18 @@ The source data for this aggregated table can be found in the CSV report `Number
       <td>0.000000</td>
     </tr>
     <tr>
-      <th>axon-test-5.0.3</th>
-      <td>72.602740</td>
-      <td>26.027397</td>
-      <td>1.369863</td>
-      <td>0.000000</td>
-    </tr>
-    <tr>
       <th>axon-spring-boot-autoconfigure-5.0.3</th>
       <td>91.780822</td>
       <td>1.369863</td>
       <td>4.109589</td>
       <td>2.739726</td>
+    </tr>
+    <tr>
+      <th>axon-test-5.0.3</th>
+      <td>72.602740</td>
+      <td>26.027397</td>
+      <td>1.369863</td>
+      <td>0.000000</td>
     </tr>
     <tr>
       <th>axon-server-connector-5.0.3</th>
@@ -612,17 +612,17 @@ The whole table can be found in the CSV report `Number_of_packages_per_artifact`
     </tr>
     <tr>
       <th>6</th>
-      <td>axon-update-5.0.3</td>
+      <td>axon-conversion-5.0.3</td>
       <td>5</td>
     </tr>
     <tr>
       <th>7</th>
-      <td>axon-server-connector-5.0.3</td>
+      <td>axon-update-5.0.3</td>
       <td>5</td>
     </tr>
     <tr>
       <th>8</th>
-      <td>axon-conversion-5.0.3</td>
+      <td>axon-server-connector-5.0.3</td>
       <td>5</td>
     </tr>
     <tr>
