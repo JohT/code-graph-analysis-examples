@@ -12,22 +12,12 @@ strict digraph TopOutlier2 {
     central [fontsize = 16;];
     central [color = 7; fillcolor = 5; penwidth = 3;];
 
-	graph   [label="Top Rank #2 Java Type Outlier\norg.axonframework.axonserver.connector.query.QueryResponseMessageStream\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: cluster probability\nlarge circle: < 25% percentile of cluster probability\nthick outline: > 80% percentile of distance to cluster center\n\n"];
-	central [label="🧩 outlier #2\nQueryResponseMessageStream"];
-	"AxonServerQueryBusConnector_38711"  [label = "AxonServerQueryBusConnector\n(10.56%)"; penwidth = 2; ]; "AxonServerQueryBusConnector_38711" -> central [label=6; weight=6; penwidth=0.5];
-	"AbstractQueryResponseMessageStream_38875"  [shape = "circle"; height=1.8; label = "AbstractQueryResponseMessageStream\n(0.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "AbstractQueryResponseMessageStream_38875" [label=2; weight=2; penwidth=0.4; color = 5];
-	"AxonException_47417"  [label = "AxonException\n(33.55%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "AxonException_47417" [label=2; weight=2; penwidth=0.4; color = 5];
-	"QueryResponseMessage_12586"  [label = "QueryResponseMessage\n(54.77%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "QueryResponseMessage_12586" [label=2; weight=2; penwidth=0.4; color = 5];
-	"ExceptionConverter_37218"  [label = "ExceptionConverter\n(63.3%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "ExceptionConverter_37218" [label=1; weight=1; penwidth=0.4; color = 5];
-	"Internal_48307"  [shape = "circle"; height=1.8; label = "Internal\n(0.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "Internal_48307" [label=1; weight=1; penwidth=0.4; color = 5];
-	"QueryConverter_38713"  [label = "QueryConverter\n(100.0%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "QueryConverter_38713" [label=1; weight=1; penwidth=0.4; color = 5];
-	"QueryConverter_38713" -> "QueryResponseMessage_12586" [label=7; weight=7; penwidth=0.3; color = 3]
-	"AbstractQueryResponseMessageStream_38875" -> "QueryResponseMessage_12586" [label=5; weight=5; penwidth=0.3; color = 3]
-	"AxonServerQueryBusConnector_38711" -> "QueryResponseMessage_12586" [label=2; weight=2; penwidth=0.3; color = 3]
-	"AxonServerQueryBusConnector_38711" -> "QueryConverter_38713" [label=2; weight=2; penwidth=0.3; color = 3]
-	"AbstractQueryResponseMessageStream_38875" -> "AxonException_47417" [label=1; weight=1; penwidth=0.3; color = 3]
-	"AbstractQueryResponseMessageStream_38875" -> "Internal_48307" [label=1; weight=1; penwidth=0.3; color = 3]
-	"ExceptionConverter_37218" -> "AxonException_47417" [label=1; weight=1; penwidth=0.3; color = 3]
-	"QueryConverter_38713" -> "Internal_48307" [label=1; weight=1; penwidth=0.3; color = 3]
-	"QueryConverter_38713" -> "ExceptionConverter_37218" [label=1; weight=1; penwidth=0.3; color = 3]
+	graph   [label="Top Rank #2 Java Type Outlier\norg.axonframework.common.util.ExecutorServiceFactory\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: cluster probability\nlarge circle: < 25% percentile of cluster probability\nthick outline: > 80% percentile of distance to cluster center\n\n"];
+	central [label="🧩 outlier #2\nExecutorServiceFactory"];
+	"DistributedQueryBusConfiguration_26271"  [label = "DistributedQueryBusConfiguration\n(17.73%)"; penwidth = 5; ]; "DistributedQueryBusConfiguration_26271" -> central [label=8; weight=8; penwidth=0.5];
+	"DistributedCommandBusConfiguration_16810"  [label = "DistributedCommandBusConfiguration\n(17.73%)"; penwidth = 5; ]; "DistributedCommandBusConfiguration_16810" -> central [label=4; weight=4; penwidth=0.5];
+	"DistributedCommandBus_16814"  [label = "DistributedCommandBus\n(100.0%)"; penwidth = 2; ]; "DistributedCommandBus_16814" -> central [label=1; weight=1; penwidth=0.4];
+	"DistributedQueryBus_27300"  [label = "DistributedQueryBus\n(52.06%)"; penwidth = 2; ]; "DistributedQueryBus_27300" -> central [label=1; weight=1; penwidth=0.4];
+	"DistributedCommandBus_16814" -> "DistributedCommandBusConfiguration_16810" [label=3; weight=3; penwidth=0.3; color = 3]
+	"DistributedQueryBus_27300" -> "DistributedQueryBusConfiguration_26271" [label=2; weight=2; penwidth=0.3; color = 3]
 }

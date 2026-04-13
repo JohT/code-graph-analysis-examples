@@ -12,17 +12,18 @@ strict digraph TopBridge3 {
     central [fontsize = 16;];
     central [color = 7; fillcolor = 5; penwidth = 3;];
 
-	graph   [label="Top Rank #3 Java Type Bridge\norg.axonframework.test.util.MessageMonitorReport$Report$Failure\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
-	central [label="🌉 bridge #3\nMessageMonitorReport$Report$Failure"];
-	"MessageMonitorReport_2076" [label = "MessageMonitorReport"; ]; "MessageMonitorReport_2076" -> central [label=7; weight=7; penwidth=0.5];
-	"MessageMonitorReport$Report_2070" [label = "MessageMonitorReport$\nReport"; ]; "MessageMonitorReport$Report_2070" -> central [label=1; weight=1; penwidth=0.4];
-	"RecordingMessageMonitor$1_2078" [label = "RecordingMessageMonitor$\n1"; ]; "RecordingMessageMonitor$1_2078" -> central [label=1; weight=1; penwidth=0.4];
-	"Message_15738" [label = "Message"; color = 5; fillcolor = 1; ]; central -> "Message_15738" [label=3; weight=3; penwidth=0.4; color = 5];
-	"MessageMonitorReport$Report_2070" [label = "MessageMonitorReport$\nReport"; color = 5; fillcolor = 1; ]; central -> "MessageMonitorReport$Report_2070" [label=2; weight=2; penwidth=0.4; color = 5];
-	"MessageMonitorReport_2076" -> "MessageMonitorReport$Report_2070" [label=8; weight=8; penwidth=0.3; color = 3]
-	"RecordingMessageMonitor$1_2078" -> "MessageMonitorReport_2076" [label=6; weight=6; penwidth=0.3; color = 3]
-	"MessageMonitorReport_2076" -> "Message_15738" [label=3; weight=3; penwidth=0.3; color = 3]
-	"MessageMonitorReport$Report_2070" -> "Message_15738" [label=1; weight=1; penwidth=0.3; color = 3]
-	"RecordingMessageMonitor$1_2078" -> "Message_15738" [label=1; weight=1; penwidth=0.3; color = 3]
-	"RecordingMessageMonitor$1_2078" -> "MessageMonitorReport$Report_2070" [label=1; weight=1; penwidth=0.3; color = 3]
+	graph   [label="Top Rank #3 Java Type Bridge\norg.axonframework.conversion.avro.AvroConverterConfiguration\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
+	central [label="🌉 bridge #3\nAvroConverterConfiguration"];
+	"AvroConverter_15265" [label = "AvroConverter"; ]; "AvroConverter_15265" -> central [label=12; weight=12; penwidth=0.6];
+	"ConverterAutoConfiguration_49861" [label = "ConverterAutoConfiguration"; ]; "ConverterAutoConfiguration_49861" -> central [label=3; weight=3; penwidth=0.4];
+	"AvroConverterStrategyConfiguration_15276" [label = "AvroConverterStrategyConfiguration"; color = 5; fillcolor = 1; ]; central -> "AvroConverterStrategyConfiguration_15276" [label=10; weight=10; penwidth=0.6; color = 5];
+	"AvroConverterStrategy_15277" [label = "AvroConverterStrategy"; color = 5; fillcolor = 1; ]; central -> "AvroConverterStrategy_15277" [label=5; weight=5; penwidth=0.5; color = 5];
+	"SchemaIncompatibilityChecker_14111" [label = "SchemaIncompatibilityChecker"; color = 5; fillcolor = 1; ]; central -> "SchemaIncompatibilityChecker_14111" [label=5; weight=5; penwidth=0.5; color = 5];
+	"DefaultSchemaIncompatibilityChecker_13860" [label = "DefaultSchemaIncompatibilityChecker"; color = 5; fillcolor = 1; ]; central -> "DefaultSchemaIncompatibilityChecker_13860" [label=2; weight=2; penwidth=0.4; color = 5];
+	"AvroConverter_15265" -> "AvroConverterStrategy_15277" [label=19; weight=19; penwidth=0.3; color = 3]
+	"ConverterAutoConfiguration_49861" -> "AvroConverter_15265" [label=2; weight=2; penwidth=0.3; color = 3]
+	"ConverterAutoConfiguration_49861" -> "AvroConverterStrategy_15277" [label=2; weight=2; penwidth=0.3; color = 3]
+	"DefaultSchemaIncompatibilityChecker_13860" -> "SchemaIncompatibilityChecker_14111" [label=2; weight=2; penwidth=0.3; color = 3]
+	"AvroConverter_15265" -> "AvroConverterStrategyConfiguration_15276" [label=1; weight=1; penwidth=0.3; color = 3]
+	"AvroConverterStrategy_15277" -> "AvroConverterStrategyConfiguration_15276" [label=1; weight=1; penwidth=0.3; color = 3]
 }

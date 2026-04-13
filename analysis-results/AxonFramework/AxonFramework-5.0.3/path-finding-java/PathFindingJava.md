@@ -724,7 +724,7 @@ In this section we'll focus only on pairs of nodes that both belong to the same 
       <td>192</td>
       <td>39</td>
       <td>12</td>
-      <td>[/org/axonframework/messaging/eventhandling/replay -&gt; /org/axonframework/messaging/commandhandling, /org/axonframework/messaging/eventhandling/processing/streaming/token -&gt; /org/axonframework/messaging/commandhandling, /org/axonframework/messaging/eventhandling/conversion -&gt; /org/axonframework/m...</td>
+      <td>[/org/axonframework/messaging/queryhandling/distributed -&gt; /org/axonframework/messaging/commandhandling, /org/axonframework/messaging/queryhandling/interception -&gt; /org/axonframework/messaging/commandhandling, /org/axonframework/messaging/queryhandling/gateway -&gt; /org/axonframework/messaging/com...</td>
       <td>[axon-messaging-5.0.3 -&gt; axon-messaging-5.0.3]</td>
       <td>[]</td>
     </tr>

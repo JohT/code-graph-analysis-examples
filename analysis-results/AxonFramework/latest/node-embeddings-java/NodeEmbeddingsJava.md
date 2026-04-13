@@ -306,7 +306,7 @@ This step takes the original node embeddings in their high dimensionality, e.g. 
       <td>axon-test-5.0.3</td>
       <td>0</td>
       <td>0.274179</td>
-      <td>[0.7087686061859131, -0.6554818749427795, 0.28...</td>
+      <td>[0.6854783892631531, -0.7694690227508545, 0.47...</td>
     </tr>
     <tr>
       <th>1</th>
@@ -315,7 +315,7 @@ This step takes the original node embeddings in their high dimensionality, e.g. 
       <td>axon-test-5.0.3</td>
       <td>0</td>
       <td>0.173906</td>
-      <td>[0.6105182766914368, -0.4716789424419403, 0.37...</td>
+      <td>[0.5749295949935913, -0.5922526121139526, 0.38...</td>
     </tr>
     <tr>
       <th>2</th>
@@ -324,7 +324,7 @@ This step takes the original node embeddings in their high dimensionality, e.g. 
       <td>axon-test-5.0.3</td>
       <td>0</td>
       <td>0.150000</td>
-      <td>[0.6181262731552124, -0.47586125135421753, 0.1...</td>
+      <td>[0.5291760563850403, -0.8311705589294434, 0.42...</td>
     </tr>
     <tr>
       <th>3</th>
@@ -333,7 +333,7 @@ This step takes the original node embeddings in their high dimensionality, e.g. 
       <td>axon-test-5.0.3</td>
       <td>0</td>
       <td>0.165941</td>
-      <td>[0.6528207063674927, -0.3427617847919464, 0.12...</td>
+      <td>[0.5636782646179199, -0.6965258717536926, 0.36...</td>
     </tr>
     <tr>
       <th>4</th>
@@ -342,7 +342,7 @@ This step takes the original node embeddings in their high dimensionality, e.g. 
       <td>axon-messaging-5.0.3</td>
       <td>0</td>
       <td>0.730497</td>
-      <td>[0.3418835997581482, -0.23652960360050201, 0.3...</td>
+      <td>[0.18617381155490875, -0.40062636137008667, 0....</td>
     </tr>
   </tbody>
 </table>
@@ -377,7 +377,7 @@ This step takes the original node embeddings in their high dimensionality, e.g. 
       <td>True</td>
       <td>1</td>
       <td>[27.344867780561188]</td>
-      <td>201</td>
+      <td>202</td>
     </tr>
   </tbody>
 </table>
@@ -407,7 +407,7 @@ This step takes the original node embeddings in their high dimensionality, e.g. 
       <th>0</th>
       <td>org.axonframework.test</td>
       <td>test</td>
-      <td>4:3d14fca6-2131-4699-bb3f-a12e3114c2be:19</td>
+      <td>4:280ead05-f160-48b8-a555-9e9311a6322b:19</td>
       <td>axon-test-5.0.3</td>
       <td>0</td>
       <td>0.274179</td>
@@ -417,7 +417,7 @@ This step takes the original node embeddings in their high dimensionality, e.g. 
       <th>1</th>
       <td>org.axonframework.test.fixture</td>
       <td>fixture</td>
-      <td>4:3d14fca6-2131-4699-bb3f-a12e3114c2be:20</td>
+      <td>4:280ead05-f160-48b8-a555-9e9311a6322b:20</td>
       <td>axon-test-5.0.3</td>
       <td>0</td>
       <td>0.173906</td>
@@ -427,7 +427,7 @@ This step takes the original node embeddings in their high dimensionality, e.g. 
       <th>2</th>
       <td>org.axonframework.test.extension</td>
       <td>extension</td>
-      <td>4:3d14fca6-2131-4699-bb3f-a12e3114c2be:21</td>
+      <td>4:280ead05-f160-48b8-a555-9e9311a6322b:21</td>
       <td>axon-test-5.0.3</td>
       <td>0</td>
       <td>0.150000</td>
@@ -437,7 +437,7 @@ This step takes the original node embeddings in their high dimensionality, e.g. 
       <th>3</th>
       <td>org.axonframework.test.util</td>
       <td>util</td>
-      <td>4:3d14fca6-2131-4699-bb3f-a12e3114c2be:22</td>
+      <td>4:280ead05-f160-48b8-a555-9e9311a6322b:22</td>
       <td>axon-test-5.0.3</td>
       <td>1</td>
       <td>0.152898</td>
@@ -447,7 +447,7 @@ This step takes the original node embeddings in their high dimensionality, e.g. 
       <th>4</th>
       <td>org.axonframework.test.server</td>
       <td>server</td>
-      <td>4:3d14fca6-2131-4699-bb3f-a12e3114c2be:23</td>
+      <td>4:280ead05-f160-48b8-a555-9e9311a6322b:23</td>
       <td>axon-test-5.0.3</td>
       <td>1</td>
       <td>0.277950</td>

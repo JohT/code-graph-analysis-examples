@@ -12,10 +12,17 @@ strict digraph TopBridge5 {
     central [fontsize = 16;];
     central [color = 7; fillcolor = 5; penwidth = 3;];
 
-	graph   [label="Top Rank #5 Java Type Bridge\norg.axonframework.extension.springboot.autoconfig.ObjectMapperAutoConfiguration$JacksonConfiguredCondition$EventsJacksonCondition\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
-	central [label="🌉 bridge #5\nObjectMapperAutoConfiguration$JacksonConfiguredCondition$EventsJacksonCondition"];
-	"ObjectMapperAutoConfiguration_51049" [label = "ObjectMapperAutoConfiguration"; ]; "ObjectMapperAutoConfiguration_51049" -> central [label=1; weight=1; penwidth=0.4];
-	"ObjectMapperAutoConfiguration$JacksonConfiguredCondition_49788" [label = "ObjectMapperAutoConfiguration$\nJacksonConfiguredCondition"; ]; "ObjectMapperAutoConfiguration$JacksonConfiguredCondition_49788" -> central [label=1; weight=1; penwidth=0.4];
-	"ObjectMapperAutoConfiguration$JacksonConfiguredCondition_49788" [label = "ObjectMapperAutoConfiguration$\nJacksonConfiguredCondition"; color = 5; fillcolor = 1; ]; central -> "ObjectMapperAutoConfiguration$JacksonConfiguredCondition_49788" [label=1; weight=1; penwidth=0.4; color = 5];
-	"ObjectMapperAutoConfiguration_51049" -> "ObjectMapperAutoConfiguration$JacksonConfiguredCondition_49788" [label=2; weight=2; penwidth=0.3; color = 3]
+	graph   [label="Top Rank #5 Java Type Bridge\norg.axonframework.conversion.avro.AvroUtil\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
+	central [label="🌉 bridge #5\nAvroUtil"];
+	"SpecificRecordBaseConverterStrategy_15266" [label = "SpecificRecordBaseConverterStrategy"; ]; "SpecificRecordBaseConverterStrategy_15266" -> central [label=4; weight=4; penwidth=0.5];
+	"ByteArrayToGenericRecordConverter_15264" [label = "ByteArrayToGenericRecordConverter"; ]; "ByteArrayToGenericRecordConverter_15264" -> central [label=3; weight=3; penwidth=0.4];
+	"SchemaIncompatibilityChecker_14111" [label = "SchemaIncompatibilityChecker"; ]; "SchemaIncompatibilityChecker_14111" -> central [label=3; weight=3; penwidth=0.4];
+	"DefaultSchemaIncompatibilityChecker_13860" [label = "DefaultSchemaIncompatibilityChecker"; ]; "DefaultSchemaIncompatibilityChecker_13860" -> central [label=2; weight=2; penwidth=0.4];
+	"GenericRecordToByteArrayConverter_15267" [label = "GenericRecordToByteArrayConverter"; ]; "GenericRecordToByteArrayConverter_15267" -> central [label=1; weight=1; penwidth=0.4];
+	"ConversionException_14581" [label = "ConversionException"; color = 5; fillcolor = 1; ]; central -> "ConversionException_14581" [label=9; weight=9; penwidth=0.5; color = 5];
+	"SpecificRecordBaseConverterStrategy_15266" -> "ConversionException_14581" [label=8; weight=8; penwidth=0.3; color = 3]
+	"SpecificRecordBaseConverterStrategy_15266" -> "SchemaIncompatibilityChecker_14111" [label=5; weight=5; penwidth=0.3; color = 3]
+	"ByteArrayToGenericRecordConverter_15264" -> "ConversionException_14581" [label=2; weight=2; penwidth=0.3; color = 3]
+	"DefaultSchemaIncompatibilityChecker_13860" -> "SchemaIncompatibilityChecker_14111" [label=2; weight=2; penwidth=0.3; color = 3]
+	"GenericRecordToByteArrayConverter_15267" -> "ConversionException_14581" [label=2; weight=2; penwidth=0.3; color = 3]
 }

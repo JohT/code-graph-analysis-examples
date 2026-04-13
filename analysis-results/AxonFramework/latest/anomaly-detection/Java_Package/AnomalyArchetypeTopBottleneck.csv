@@ -5,7 +5,7 @@
 "axon-messaging-5.0.3","sequencing","org.axonframework.messaging.core.sequencing",415.1333333333333,4,""
 "axon-messaging-5.0.3","unitofwork","org.axonframework.messaging.core.unitofwork",375.78333333333336,5,""
 "axon-server-connector-5.0.3","connector","org.axonframework.axonserver.connector",335,6,""
-"axon-messaging-5.0.3","annotation","org.axonframework.messaging.commandhandling.annotation",219.08333333333331,7,""
+"axon-messaging-5.0.3","annotation","org.axonframework.messaging.commandhandling.annotation",219.0833333333333,7,""
 "axon-messaging-5.0.3","configuration","org.axonframework.messaging.eventhandling.configuration",191.25,8,""
 "axon-server-connector-5.0.3","event","org.axonframework.axonserver.connector.event",183,9,""
 "axon-messaging-5.0.3","transaction","org.axonframework.messaging.core.unitofwork.transaction",170.15,10,""
