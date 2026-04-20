@@ -18,8 +18,8 @@ strict digraph TopBottleneck3 {
 	"react-router_206208"  [label = "react-router\n(1222.92)"; penwidth = 5; ]; "react-router_206208" -> central [label=1; weight=1; penwidth=0.4];
 	"react-router_206207"  [label = "react-router\n(222.17)"; penwidth = 2; ]; "react-router_206207" -> central [label=1; weight=1; penwidth=0.4];
 	"browser_206237"  [label = "browser\n(0.0)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "browser_206237" [label=1; weight=1; penwidth=0.4; color = 5];
-	"react-router_206208"  [label = "react-router\n(1222.92)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "react-router_206208" [label=1; weight=1; penwidth=0.4; color = 5];
 	"react-router_206207"  [label = "react-router\n(222.17)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "react-router_206207" [label=1; weight=1; penwidth=0.4; color = 5];
+	"react-router_206208"  [label = "react-router\n(1222.92)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "react-router_206208" [label=1; weight=1; penwidth=0.4; color = 5];
 	"server_206236"  [label = "server\n(77.67)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "server_206236" [label=1; weight=1; penwidth=0.4; color = 5];
 	"server_206236" -> "react-router_206208" [label=175; weight=175; penwidth=0.3; color = 3]
 	"server_206236" -> "react-router_206207" [label=30; weight=30; penwidth=0.3; color = 3]

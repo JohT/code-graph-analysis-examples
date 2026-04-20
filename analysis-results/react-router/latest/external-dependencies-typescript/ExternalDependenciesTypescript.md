@@ -8,11 +8,7 @@
     Unable to revert mtime: /usr/share/fonts
     Unable to revert mtime: /usr/share/fonts/truetype
     Unable to revert mtime: /usr/share/fonts/truetype/dejavu
-
-
     Unable to revert mtime: /usr/share/fonts/truetype/lato
-
-
     Unable to revert mtime: /usr/share/fonts/truetype/liberation
     Unable to revert mtime: /usr/share/fonts/truetype/noto
 
@@ -452,7 +448,7 @@ Only the top 20 entries are shown. The whole table can be found in the following
       <td>10</td>
       <td>139</td>
       <td>631</td>
-      <td>[&lt;createRequestListener&gt; of module &lt;react-rout...</td>
+      <td>[&lt;RequestListenerOptions&gt; of module &lt;react-rou...</td>
     </tr>
   </tbody>
 </table>
@@ -2946,7 +2942,7 @@ Only the first 40 entries are shown. The whole table can be found in the followi
       <td>14</td>
       <td>6</td>
       <td>700.000000</td>
-      <td>[Key, node:process, beep, Interface.close, .em...</td>
+      <td>[.createInterface, Key, cursor.show, Interface...</td>
     </tr>
     <tr>
       <th>17</th>
@@ -3054,7 +3050,7 @@ Only the first 40 entries are shown. The whole table can be found in the followi
       <td>5</td>
       <td>3</td>
       <td>500.000000</td>
-      <td>[.existsSync, node:path, node:fs]</td>
+      <td>[node:path, .existsSync, node:fs]</td>
     </tr>
     <tr>
       <th>26</th>
@@ -3066,7 +3062,7 @@ Only the first 40 entries are shown. The whole table can be found in the followi
       <td>5</td>
       <td>3</td>
       <td>500.000000</td>
-      <td>[path.PlatformPath.relative, path.PlatformPath...</td>
+      <td>[path.PlatformPath.resolve, path.PlatformPath....</td>
     </tr>
     <tr>
       <th>27</th>
@@ -3102,7 +3098,7 @@ Only the first 40 entries are shown. The whole table can be found in the followi
       <td>9</td>
       <td>5</td>
       <td>450.000000</td>
-      <td>[.readFile, .writeFile, .mkdir, promises, .unl...</td>
+      <td>[.readFile, promises, .mkdir, .unlink, .writeF...</td>
     </tr>
     <tr>
       <th>30</th>
@@ -3114,7 +3110,7 @@ Only the first 40 entries are shown. The whole table can be found in the followi
       <td>9</td>
       <td>5</td>
       <td>450.000000</td>
-      <td>[path.PlatformPath.join, global.Buffer.toStrin...</td>
+      <td>[path.PlatformPath.join, path.PlatformPath.dir...</td>
     </tr>
     <tr>
       <th>31</th>
@@ -3150,7 +3146,7 @@ Only the first 40 entries are shown. The whole table can be found in the followi
       <td>8</td>
       <td>2</td>
       <td>400.000000</td>
-      <td>[cursor.move, cursor.save, cursor.to, cursor.r...</td>
+      <td>[cursor.move, Key, cursor.save, erase.line, er...</td>
     </tr>
     <tr>
       <th>34</th>
@@ -3162,7 +3158,7 @@ Only the first 40 entries are shown. The whole table can be found in the followi
       <td>4</td>
       <td>1</td>
       <td>400.000000</td>
-      <td>[KVNamespace.get, KVNamespace.put, Crypto.getR...</td>
+      <td>[KVNamespace.delete, KVNamespace.put, KVNamesp...</td>
     </tr>
     <tr>
       <th>35</th>
@@ -3174,7 +3170,7 @@ Only the first 40 entries are shown. The whole table can be found in the followi
       <td>22</td>
       <td>2</td>
       <td>366.666667</td>
-      <td>[EventContext, Response, Response.status, Requ...</td>
+      <td>[Response, EventContext, KVNamespace.delete, K...</td>
     </tr>
     <tr>
       <th>36</th>
@@ -3186,7 +3182,7 @@ Only the first 40 entries are shown. The whole table can be found in the followi
       <td>18</td>
       <td>2</td>
       <td>360.000000</td>
-      <td>[EventContext, Response, Request.cf, EventCont...</td>
+      <td>[Request.clone, Response, EventContext.request...</td>
     </tr>
     <tr>
       <th>37</th>
