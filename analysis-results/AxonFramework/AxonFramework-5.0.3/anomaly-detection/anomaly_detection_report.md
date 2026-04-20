@@ -1,6 +1,6 @@
 ---
 title: "Anomaly Detection Report"
-generated: "2026-04-13"
+generated: "2026-04-20"
 model_version: "v3.5.0"
 dataset: "AxonFramework-5.0.3"
 authors: ["JohT/code-graph-analysis-pipeline"]
@@ -180,7 +180,7 @@ See [Plot Interpretation Guide](#3-plot-interpretation-guide) on how to read the
 
 | Name | Contained in | Anomaly Score | Archetypes | Top Feature 1 | Top Feature 1 SHAP | Top Feature 2 | Top Feature 2 SHAP | Top Feature 3 | Top Feature 3 SHAP | Model Status |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| org.axonframework.common.annotation | axon-common-5.0.3 | 0.0271 | Bridge,  | pageToArticleRankDifference | -0.1741 | pageRank | -0.16 | articleRank | -0.1521 | Anomalous |
+| org.axonframework.common.annotation | axon-common-5.0.3 | 0.0271 | , Bridge | pageToArticleRankDifference | -0.1741 | pageRank | -0.16 | articleRank | -0.1521 | Anomalous |
 | org.axonframework.messaging.core | axon-messaging-5.0.3 | 0.0154 | , Bottleneck, Bridge | pageToArticleRankDifference | -0.1796 | articleRank | -0.1666 | pageRank | -0.1574 | Anomalous |
 | org.axonframework.common.configuration | axon-common-5.0.3 | 0.0153 | , Bridge | pageToArticleRankDifference | -0.1704 | pageRank | -0.137 | incomingDependencies | -0.1284 | Anomalous |
 | org.axonframework.messaging.core.annotation | axon-messaging-5.0.3 | 0.004 | Bottleneck, Bridge,  | pageRank | -0.1132 | pageToArticleRankDifference | -0.1041 | betweenness | -0.0994 | Anomalous |

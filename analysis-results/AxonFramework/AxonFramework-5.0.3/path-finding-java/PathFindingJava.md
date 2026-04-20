@@ -705,7 +705,7 @@ In this section we'll focus only on pairs of nodes that both belong to the same 
       <td>335</td>
       <td>57</td>
       <td>30</td>
-      <td>[/org/axonframework/messaging/eventhandling/processing/streaming/pooled -&gt; /org/axonframework/messaging/monitoring/interception, /org/axonframework/messaging/eventhandling/processing/subscribing -&gt; /org/axonframework/messaging/monitoring/interception, /org/axonframework/messaging/eventhandling/r...</td>
+      <td>[/org/axonframework/messaging/eventhandling/tracing -&gt; /org/axonframework/messaging/commandhandling, /org/axonframework/messaging/eventstreaming -&gt; /org/axonframework/messaging/commandhandling, /org/axonframework/messaging/queryhandling -&gt; /org/axonframework/messaging/commandhandling, /org/axonf...</td>
       <td>[axon-messaging-5.0.3 -&gt; axon-messaging-5.0.3]</td>
       <td>[]</td>
     </tr>
@@ -1194,9 +1194,9 @@ The following table shows the first 10 rows with all details of the query above.
       <td>28</td>
       <td>3</td>
       <td>28</td>
-      <td>19</td>
+      <td>18</td>
       <td>1</td>
-      <td>19</td>
+      <td>18</td>
       <td>[/org/axonframework/extension/metrics/micrometer/springboot -&gt; /org/axonframework/eventsourcing/eventstore/jpa, /org/axonframework/extension/metrics/micrometer/springboot -&gt; /org/axonframework/conversion/jackson, /org/axonframework/extension/metrics/micrometer/springboot -&gt; /org/axonframework/co...</td>
       <td>[axon-metrics-micrometer-5.0.3 -&gt; axon-eventsourcing-5.0.3, axon-metrics-micrometer-5.0.3 -&gt; axon-conversion-5.0.3, axon-metrics-micrometer-5.0.3 -&gt; axon-messaging-5.0.3, axon-metrics-micrometer-5.0.3 -&gt; axon-update-5.0.3]</td>
       <td>[]</td>
