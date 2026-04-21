@@ -81,12 +81,12 @@ The projection and related common parameters are shared across all embedding alg
   <tbody>
     <tr>
       <th>0</th>
-      <td>131</td>
-      <td>694</td>
-      <td>0.040752</td>
-      <td>2597874</td>
+      <td>130</td>
+      <td>688</td>
+      <td>0.041026</td>
+      <td>2597854</td>
       <td>0</td>
-      <td>5.29771</td>
+      <td>5.292308</td>
       <td>61</td>
       <td>3</td>
       <td>6</td>
@@ -145,8 +145,8 @@ The projection and related common parameters are shared across all embedding alg
       <td>copy-template</td>
       <td>create-react-router</td>
       <td>1</td>
-      <td>0.152056</td>
-      <td>[-0.038925547152757645, 0.07695594429969788, -...</td>
+      <td>0.152073</td>
+      <td>[-0.12880325317382812, -0.6151944994926453, -0...</td>
     </tr>
     <tr>
       <th>2</th>
@@ -155,7 +155,7 @@ The projection and related common parameters are shared across all embedding alg
       <td>create-react-router</td>
       <td>1</td>
       <td>0.150000</td>
-      <td>[-0.03444859758019447, -0.06892531365156174, -...</td>
+      <td>[-0.12389098852872849, -0.46659713983535767, -...</td>
     </tr>
     <tr>
       <th>3</th>
@@ -163,8 +163,8 @@ The projection and related common parameters are shared across all embedding alg
       <td>loading-indicator</td>
       <td>create-react-router</td>
       <td>1</td>
-      <td>0.151028</td>
-      <td>[-0.03670371323823929, -0.029285699129104614, ...</td>
+      <td>0.151037</td>
+      <td>[-0.12867006659507751, -0.516937792301178, -0....</td>
     </tr>
     <tr>
       <th>4</th>
@@ -172,8 +172,8 @@ The projection and related common parameters are shared across all embedding alg
       <td>prompt</td>
       <td>create-react-router</td>
       <td>1</td>
-      <td>0.159254</td>
-      <td>[-0.017586883157491684, -0.07040883600711823, ...</td>
+      <td>0.158293</td>
+      <td>[-0.14456351101398468, -0.5515146851539612, -0...</td>
     </tr>
   </tbody>
 </table>
@@ -233,7 +233,7 @@ This step takes the original node embeddings in their high dimensionality, e.g. 
       <td>create-react-router</td>
       <td>0</td>
       <td>0.150000</td>
-      <td>[-0.3061862289905548, 0.6123724579811096, 0.0,...</td>
+      <td>[-0.6123724579811096, -0.6123724579811096, 0.0...</td>
     </tr>
     <tr>
       <th>1</th>
@@ -241,8 +241,8 @@ This step takes the original node embeddings in their high dimensionality, e.g. 
       <td>copy-template</td>
       <td>create-react-router</td>
       <td>1</td>
-      <td>0.152056</td>
-      <td>[-0.6123724579811096, 0.6123724579811096, 0.61...</td>
+      <td>0.152073</td>
+      <td>[0.0, 0.6123724579811096, 0.0, 0.9185586869716...</td>
     </tr>
     <tr>
       <th>2</th>
@@ -251,7 +251,7 @@ This step takes the original node embeddings in their high dimensionality, e.g. 
       <td>create-react-router</td>
       <td>1</td>
       <td>0.150000</td>
-      <td>[-0.3061862289905548, 0.6123724579811096, 0.61...</td>
+      <td>[-0.6123724579811096, 0.6123724579811096, 0.30...</td>
     </tr>
     <tr>
       <th>3</th>
@@ -259,8 +259,8 @@ This step takes the original node embeddings in their high dimensionality, e.g. 
       <td>loading-indicator</td>
       <td>create-react-router</td>
       <td>1</td>
-      <td>0.151028</td>
-      <td>[-0.6123724579811096, 0.3061862289905548, 0.61...</td>
+      <td>0.151037</td>
+      <td>[-0.3061862289905548, 0.9185586869716644, 0.30...</td>
     </tr>
     <tr>
       <th>4</th>
@@ -268,8 +268,8 @@ This step takes the original node embeddings in their high dimensionality, e.g. 
       <td>prompt</td>
       <td>create-react-router</td>
       <td>1</td>
-      <td>0.159254</td>
-      <td>[-1.530931144952774, 0.0, 0.6123724579811096, ...</td>
+      <td>0.158293</td>
+      <td>[-0.6123724579811096, 0.6123724579811096, -0.3...</td>
     </tr>
   </tbody>
 </table>
@@ -318,7 +318,7 @@ The [node2vec](https://towardsdatascience.com/complete-guide-to-understanding-no
       <td>create-react-router</td>
       <td>0</td>
       <td>0.150000</td>
-      <td>[0.014409556053578854, -0.006091312039643526, ...</td>
+      <td>[0.014392759650945663, -0.005551737733185291, ...</td>
     </tr>
     <tr>
       <th>1</th>
@@ -326,8 +326,8 @@ The [node2vec](https://towardsdatascience.com/complete-guide-to-understanding-no
       <td>copy-template</td>
       <td>create-react-router</td>
       <td>1</td>
-      <td>0.152056</td>
-      <td>[1.4969319105148315, -0.5067443251609802, -0.5...</td>
+      <td>0.152073</td>
+      <td>[1.4783811569213867, 0.7065548300743103, -0.74...</td>
     </tr>
     <tr>
       <th>2</th>
@@ -336,7 +336,7 @@ The [node2vec](https://towardsdatascience.com/complete-guide-to-understanding-no
       <td>create-react-router</td>
       <td>1</td>
       <td>0.150000</td>
-      <td>[1.933887004852295, -0.6602634787559509, -0.66...</td>
+      <td>[1.734460473060608, 0.8591426014900208, -0.888...</td>
     </tr>
     <tr>
       <th>3</th>
@@ -344,8 +344,8 @@ The [node2vec](https://towardsdatascience.com/complete-guide-to-understanding-no
       <td>loading-indicator</td>
       <td>create-react-router</td>
       <td>1</td>
-      <td>0.151028</td>
-      <td>[1.6048654317855835, -0.5341870188713074, -0.5...</td>
+      <td>0.151037</td>
+      <td>[1.537385106086731, 0.7719590067863464, -0.777...</td>
     </tr>
     <tr>
       <th>4</th>
@@ -353,8 +353,8 @@ The [node2vec](https://towardsdatascience.com/complete-guide-to-understanding-no
       <td>prompt</td>
       <td>create-react-router</td>
       <td>1</td>
-      <td>0.159254</td>
-      <td>[1.7864806652069092, -0.6149952411651611, -0.6...</td>
+      <td>0.158293</td>
+      <td>[1.710094928741455, 0.8011044859886169, -0.856...</td>
     </tr>
   </tbody>
 </table>
@@ -388,8 +388,8 @@ The [node2vec](https://towardsdatascience.com/complete-guide-to-understanding-no
       <td>typescript-module-embeddings-notebook-graphSAGE</td>
       <td>False</td>
       <td>1</td>
-      <td>[32.486990916646455]</td>
-      <td>552</td>
+      <td>[34.40863489628529]</td>
+      <td>310</td>
     </tr>
   </tbody>
 </table>
@@ -422,7 +422,7 @@ The [node2vec](https://towardsdatascience.com/complete-guide-to-understanding-no
       <th>0</th>
       <td>/home/runner/work/code-graph-analysis-examples...</td>
       <td>cli</td>
-      <td>4:3b25b6bb-0ca5-4b9e-a24d-072b33bab52f:8856</td>
+      <td>4:5c142544-1ca7-4489-a469-321fafb22710:8858</td>
       <td>create-react-router</td>
       <td>0</td>
       <td>0.150000</td>
@@ -432,41 +432,41 @@ The [node2vec](https://towardsdatascience.com/complete-guide-to-understanding-no
       <th>1</th>
       <td>/home/runner/work/code-graph-analysis-examples...</td>
       <td>copy-template</td>
-      <td>4:3b25b6bb-0ca5-4b9e-a24d-072b33bab52f:8857</td>
+      <td>4:5c142544-1ca7-4489-a469-321fafb22710:8859</td>
       <td>create-react-router</td>
       <td>1</td>
-      <td>0.152056</td>
-      <td>[-0.004854695554559467, 0.03805150889980607, 0...</td>
+      <td>0.152073</td>
+      <td>[-0.0048546955226286635, 0.03805146452531604, ...</td>
     </tr>
     <tr>
       <th>2</th>
       <td>/home/runner/work/code-graph-analysis-examples...</td>
       <td>create-react-router</td>
-      <td>4:3b25b6bb-0ca5-4b9e-a24d-072b33bab52f:8858</td>
+      <td>4:5c142544-1ca7-4489-a469-321fafb22710:8860</td>
       <td>create-react-router</td>
       <td>1</td>
       <td>0.150000</td>
-      <td>[-0.004854695554559465, 0.038051508899806054, ...</td>
+      <td>[-0.004854695522628662, 0.038051464525315944, ...</td>
     </tr>
     <tr>
       <th>3</th>
       <td>/home/runner/work/code-graph-analysis-examples...</td>
       <td>loading-indicator</td>
-      <td>4:3b25b6bb-0ca5-4b9e-a24d-072b33bab52f:8859</td>
+      <td>4:5c142544-1ca7-4489-a469-321fafb22710:8861</td>
       <td>create-react-router</td>
       <td>1</td>
-      <td>0.151028</td>
-      <td>[-0.004854695554559465, 0.038051508899806054, ...</td>
+      <td>0.151037</td>
+      <td>[-0.004854695522628662, 0.038051464525315985, ...</td>
     </tr>
     <tr>
       <th>4</th>
       <td>/home/runner/work/code-graph-analysis-examples...</td>
       <td>prompt</td>
-      <td>4:3b25b6bb-0ca5-4b9e-a24d-072b33bab52f:8860</td>
+      <td>4:5c142544-1ca7-4489-a469-321fafb22710:8862</td>
       <td>create-react-router</td>
       <td>1</td>
-      <td>0.159254</td>
-      <td>[-0.004854695554559464, 0.03805150889980609, 0...</td>
+      <td>0.158293</td>
+      <td>[-0.004854695522628664, 0.03805146452531606, 0...</td>
     </tr>
   </tbody>
 </table>

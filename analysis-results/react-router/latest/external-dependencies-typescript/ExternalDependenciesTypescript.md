@@ -8,8 +8,17 @@
     Unable to revert mtime: /usr/share/fonts
     Unable to revert mtime: /usr/share/fonts/truetype
     Unable to revert mtime: /usr/share/fonts/truetype/dejavu
+
+
     Unable to revert mtime: /usr/share/fonts/truetype/lato
+
+
     Unable to revert mtime: /usr/share/fonts/truetype/liberation
+
+
+    Matplotlib is building the font cache; this may take a moment.
+
+
     Unable to revert mtime: /usr/share/fonts/truetype/noto
 
 
@@ -71,7 +80,7 @@ Only the top 20 entries are shown. The whole table can be found in the following
       <td>436</td>
       <td>139</td>
       <td>631</td>
-      <td>[&lt;reactRouterVitePlugin&gt; of module &lt;vite&gt; impo...</td>
+      <td>[&lt;reactRouterRSCVitePlugin&gt; of module &lt;vite&gt; i...</td>
     </tr>
     <tr>
       <th>1</th>
@@ -79,7 +88,7 @@ Only the top 20 entries are shown. The whole table can be found in the following
       <td>17</td>
       <td>20</td>
       <td>42</td>
-      <td>126</td>
+      <td>114</td>
       <td>139</td>
       <td>631</td>
       <td>[&lt;Context&gt; of module &lt;create-react-router&gt; imp...</td>
@@ -90,10 +99,10 @@ Only the top 20 entries are shown. The whole table can be found in the following
       <td>17</td>
       <td>27</td>
       <td>99</td>
-      <td>234</td>
+      <td>267</td>
       <td>139</td>
       <td>631</td>
-      <td>[&lt;relative&gt; of module &lt;routes&gt; imports &lt;resolv...</td>
+      <td>[&lt;createCookie&gt; of module &lt;react-router&gt; impor...</td>
     </tr>
     <tr>
       <th>3</th>
@@ -148,7 +157,7 @@ Only the top 20 entries are shown. The whole table can be found in the following
       <td>15</td>
       <td>139</td>
       <td>631</td>
-      <td>[&lt;reactRouterVitePlugin&gt; of module &lt;vite&gt; impo...</td>
+      <td>[&lt;reactRouterRSCVitePlugin&gt; of module &lt;vite&gt; i...</td>
     </tr>
     <tr>
       <th>8</th>
@@ -156,7 +165,7 @@ Only the top 20 entries are shown. The whole table can be found in the following
       <td>8</td>
       <td>24</td>
       <td>91</td>
-      <td>250</td>
+      <td>292</td>
       <td>139</td>
       <td>631</td>
       <td>[&lt;AwaitContextProvider&gt; of module &lt;react-route...</td>
@@ -181,7 +190,7 @@ Only the top 20 entries are shown. The whole table can be found in the following
       <td>14</td>
       <td>139</td>
       <td>631</td>
-      <td>[&lt;reactRouterVitePlugin&gt; of module &lt;vite&gt; impo...</td>
+      <td>[&lt;reactRouterVitePlugin&gt; of module &lt;plugin&gt; im...</td>
     </tr>
     <tr>
       <th>11</th>
@@ -203,7 +212,7 @@ Only the top 20 entries are shown. The whole table can be found in the following
       <td>10</td>
       <td>139</td>
       <td>631</td>
-      <td>[&lt;reactRouterVitePlugin&gt; of module &lt;vite&gt; impo...</td>
+      <td>[&lt;reactRouterVitePlugin&gt; of module &lt;plugin&gt; im...</td>
     </tr>
     <tr>
       <th>13</th>
@@ -211,7 +220,7 @@ Only the top 20 entries are shown. The whole table can be found in the following
       <td>6</td>
       <td>6</td>
       <td>10</td>
-      <td>104</td>
+      <td>92</td>
       <td>139</td>
       <td>631</td>
       <td>[&lt;ConfirmPrompt&gt; of module &lt;prompts-confirm&gt; i...</td>
@@ -222,7 +231,7 @@ Only the top 20 entries are shown. The whole table can be found in the following
       <td>6</td>
       <td>6</td>
       <td>27</td>
-      <td>292</td>
+      <td>248</td>
       <td>139</td>
       <td>631</td>
       <td>[&lt;ConfirmPrompt&gt; of module &lt;prompts-confirm&gt; i...</td>
@@ -247,7 +256,7 @@ Only the top 20 entries are shown. The whole table can be found in the following
       <td>9</td>
       <td>139</td>
       <td>631</td>
-      <td>[&lt;layout&gt; of module &lt;routes&gt; imports &lt;pick&gt; fr...</td>
+      <td>[&lt;route&gt; of module &lt;routes&gt; imports &lt;pick&gt; fro...</td>
     </tr>
     <tr>
       <th>17</th>
@@ -269,7 +278,7 @@ Only the top 20 entries are shown. The whole table can be found in the following
       <td>15</td>
       <td>139</td>
       <td>631</td>
-      <td>[&lt;reactRouterVitePlugin&gt; of module &lt;vite&gt; impo...</td>
+      <td>[&lt;reactRouterRSCVitePlugin&gt; of module &lt;vite&gt; i...</td>
     </tr>
     <tr>
       <th>19</th>
@@ -280,7 +289,7 @@ Only the top 20 entries are shown. The whole table can be found in the following
       <td>5</td>
       <td>139</td>
       <td>631</td>
-      <td>[&lt;reactRouterVitePlugin&gt; of module &lt;vite&gt; impo...</td>
+      <td>[&lt;reactRouterRSCVitePlugin&gt; of module &lt;vite&gt; i...</td>
     </tr>
   </tbody>
 </table>
@@ -390,7 +399,7 @@ Only the top 20 entries are shown. The whole table can be found in the following
       <td>53</td>
       <td>96</td>
       <td>606</td>
-      <td>1596</td>
+      <td>1545</td>
       <td>139</td>
       <td>631</td>
       <td>[&lt;copyTemplate&gt; of module &lt;copy-template&gt; impo...</td>
@@ -401,7 +410,7 @@ Only the top 20 entries are shown. The whole table can be found in the following
       <td>51</td>
       <td>93</td>
       <td>353</td>
-      <td>726</td>
+      <td>754</td>
       <td>139</td>
       <td>631</td>
       <td>[&lt;Context&gt; of module &lt;create-react-router&gt; imp...</td>
@@ -437,7 +446,7 @@ Only the top 20 entries are shown. The whole table can be found in the following
       <td>14</td>
       <td>139</td>
       <td>631</td>
-      <td>[&lt;createArcTableSessionStorage&gt; of module &lt;rea...</td>
+      <td>[&lt;createArcTableSessionStorage&gt; of module &lt;arc...</td>
     </tr>
     <tr>
       <th>5</th>
@@ -629,7 +638,7 @@ external package.
       <td>0.719424</td>
       <td>1.486811</td>
       <td>1.034238</td>
-      <td>[@react-router/routes, @react-router/plugin, @...</td>
+      <td>[react-router, cookies, sessions, @react-route...</td>
     </tr>
     <tr>
       <th>3</th>
@@ -652,7 +661,7 @@ external package.
       <td>0.719424</td>
       <td>1.217488</td>
       <td>0.850455</td>
-      <td>[utils, @react-router/vite, @react-router/plug...</td>
+      <td>[utils, @react-router/normalizeSlashes, @react...</td>
     </tr>
     <tr>
       <th>4</th>
@@ -675,7 +684,7 @@ external package.
       <td>0.719424</td>
       <td>1.039169</td>
       <td>0.634473</td>
-      <td>[utils, @react-router/vite, @react-router/plug...</td>
+      <td>[utils, @react-router/plugin, @react-router/vi...</td>
     </tr>
     <tr>
       <th>5</th>
@@ -767,7 +776,7 @@ external package.
       <td>0.719424</td>
       <td>0.959233</td>
       <td>0.587408</td>
-      <td>[@react-router/vite, @react-router/plugin, @re...</td>
+      <td>[@react-router/plugin, @react-router/vite, @re...</td>
     </tr>
     <tr>
       <th>9</th>
@@ -790,7 +799,7 @@ external package.
       <td>0.719424</td>
       <td>0.839329</td>
       <td>0.293704</td>
-      <td>[@react-router/server, @react-router/vite, @re...</td>
+      <td>[@react-router/server, @react-router/plugin, @...</td>
     </tr>
   </tbody>
 </table>
@@ -1956,7 +1965,7 @@ Only the top 20 entries are shown. The whole table can be found in the following
       <td>0.719424</td>
       <td>0.719424</td>
       <td>0.000000</td>
-      <td>[@react-router/react-router-architect, @react-...</td>
+      <td>[@react-router/arcTableSessionStorage, @react-...</td>
     </tr>
     <tr>
       <th>5</th>
@@ -2242,7 +2251,7 @@ Only the first 40 entries are shown. The whole table can be found in the followi
       <td>133</td>
       <td>25</td>
       <td>3325.0</td>
-      <td>[Plugin, createLogger, UserConfig.environments...</td>
+      <td>[DevEnvironment.pluginContainer, UserConfig.lo...</td>
     </tr>
     <tr>
       <th>1</th>
@@ -2254,7 +2263,7 @@ Only the first 40 entries are shown. The whole table can be found in the followi
       <td>133</td>
       <td>25</td>
       <td>3325.0</td>
-      <td>[PluginContext.environment, ResolvedId.id, Plu...</td>
+      <td>[RollupLog.code, RollupLog.message, RollupOpti...</td>
     </tr>
     <tr>
       <th>2</th>
@@ -2266,7 +2275,7 @@ Only the first 40 entries are shown. The whole table can be found in the followi
       <td>133</td>
       <td>25</td>
       <td>3325.0</td>
-      <td>[rm, readdir, cp, mkdir, readFile, rename]</td>
+      <td>[readFile, readdir, rm, cp, mkdir, rename]</td>
     </tr>
     <tr>
       <th>3</th>
@@ -2278,7 +2287,7 @@ Only the first 40 entries are shown. The whole table can be found in the followi
       <td>133</td>
       <td>25</td>
       <td>3325.0</td>
-      <td>[BabelFileResult.code, BabelFileResult.map, tr...</td>
+      <td>[BabelFileResult.code, transformAsync, BabelFi...</td>
     </tr>
     <tr>
       <th>4</th>
@@ -2302,7 +2311,7 @@ Only the first 40 entries are shown. The whole table can be found in the followi
       <td>133</td>
       <td>25</td>
       <td>3325.0</td>
-      <td>[relative, dist, resolve, path.normalize, path...</td>
+      <td>[path.normalize, path.dirname, resolve, join, ...</td>
     </tr>
     <tr>
       <th>6</th>
@@ -2338,7 +2347,7 @@ Only the first 40 entries are shown. The whole table can be found in the followi
       <td>133</td>
       <td>25</td>
       <td>3325.0</td>
-      <td>[rmSync, readdirSync, existsSync]</td>
+      <td>[readdirSync, rmSync, existsSync]</td>
     </tr>
     <tr>
       <th>9</th>
@@ -2386,7 +2395,7 @@ Only the first 40 entries are shown. The whole table can be found in the followi
       <td>133</td>
       <td>25</td>
       <td>3325.0</td>
-      <td>[ServerResponse.end, ServerResponse.setHeader]</td>
+      <td>[ServerResponse.setHeader, ServerResponse.end]</td>
     </tr>
     <tr>
       <th>13</th>
@@ -2506,7 +2515,7 @@ Only the first 40 entries are shown. The whole table can be found in the followi
       <td>23</td>
       <td>4</td>
       <td>2300.0</td>
-      <td>[ExportSpecifier.exported, ExpressionStatement...</td>
+      <td>[ExportSpecifier.local, ExportSpecifier.export...</td>
     </tr>
     <tr>
       <th>23</th>
@@ -2518,7 +2527,7 @@ Only the first 40 entries are shown. The whole table can be found in the followi
       <td>23</td>
       <td>4</td>
       <td>2300.0</td>
-      <td>[NodePath.remove, NodePath.parentPath, NodePat...</td>
+      <td>[NodePath.isProgram, NodePath.remove, NodePath...</td>
     </tr>
     <tr>
       <th>24</th>
@@ -2554,7 +2563,7 @@ Only the first 40 entries are shown. The whole table can be found in the followi
       <td>21</td>
       <td>4</td>
       <td>2100.0</td>
-      <td>[NodePath.isFunctionDeclaration, NodePath.get,...</td>
+      <td>[NodePath.isIdentifier, NodePath.isVariableDec...</td>
     </tr>
     <tr>
       <th>27</th>
@@ -2566,7 +2575,7 @@ Only the first 40 entries are shown. The whole table can be found in the followi
       <td>21</td>
       <td>4</td>
       <td>2100.0</td>
-      <td>[variableDeclarator, importDeclaration, variab...</td>
+      <td>[Program.body, variableDeclaration, importDecl...</td>
     </tr>
     <tr>
       <th>28</th>
@@ -2578,7 +2587,7 @@ Only the first 40 entries are shown. The whole table can be found in the followi
       <td>21</td>
       <td>4</td>
       <td>2100.0</td>
-      <td>[ParseResult.program, ParseResult]</td>
+      <td>[ParseResult, ParseResult.program]</td>
     </tr>
     <tr>
       <th>29</th>
@@ -2590,7 +2599,7 @@ Only the first 40 entries are shown. The whole table can be found in the followi
       <td>15</td>
       <td>3</td>
       <td>1500.0</td>
-      <td>[ResolvedConfig.server, ViteDevServer.config, ...</td>
+      <td>[ConfigEnv.mode, ResolvedConfig.plugins, ViteD...</td>
     </tr>
     <tr>
       <th>30</th>
@@ -2626,7 +2635,7 @@ Only the first 40 entries are shown. The whole table can be found in the followi
       <td>15</td>
       <td>3</td>
       <td>1500.0</td>
-      <td>[ResolvedConfig.server, ViteDevServer.config, ...</td>
+      <td>[ConfigEnv.mode, ResolvedConfig.plugins, ViteD...</td>
     </tr>
     <tr>
       <th>33</th>
@@ -2662,7 +2671,7 @@ Only the first 40 entries are shown. The whole table can be found in the followi
       <td>12</td>
       <td>2</td>
       <td>1200.0</td>
-      <td>[ResolvedBuildOptions.ssr, Plugin, Logger.warn...</td>
+      <td>[ResolvedBuildEnvironmentOptions.sourcemap, Lo...</td>
     </tr>
     <tr>
       <th>36</th>
@@ -2698,7 +2707,7 @@ Only the first 40 entries are shown. The whole table can be found in the followi
       <td>8</td>
       <td>5</td>
       <td>800.0</td>
-      <td>[semver, major]</td>
+      <td>[major, semver]</td>
     </tr>
     <tr>
       <th>39</th>
@@ -2750,7 +2759,7 @@ Only the first 40 entries are shown. The whole table can be found in the followi
       <td>133</td>
       <td>25</td>
       <td>3325.000000</td>
-      <td>[Plugin, createLogger, UserConfig.environments...</td>
+      <td>[DevEnvironment.pluginContainer, UserConfig.lo...</td>
     </tr>
     <tr>
       <th>1</th>
@@ -2762,7 +2771,7 @@ Only the first 40 entries are shown. The whole table can be found in the followi
       <td>133</td>
       <td>25</td>
       <td>3325.000000</td>
-      <td>[global.NodeJS.Process.env, GeneratorResult.co...</td>
+      <td>[BabelFileResult.code, transformAsync, global....</td>
     </tr>
     <tr>
       <th>2</th>
@@ -2774,7 +2783,7 @@ Only the first 40 entries are shown. The whole table can be found in the followi
       <td>23</td>
       <td>4</td>
       <td>2300.000000</td>
-      <td>[ExportSpecifier.exported, ExpressionStatement...</td>
+      <td>[ExportSpecifier.local, ExportSpecifier.export...</td>
     </tr>
     <tr>
       <th>3</th>
@@ -2786,7 +2795,7 @@ Only the first 40 entries are shown. The whole table can be found in the followi
       <td>23</td>
       <td>4</td>
       <td>2300.000000</td>
-      <td>[NodePath.remove, NodePath.parentPath, NodePat...</td>
+      <td>[NodePath.isProgram, NodePath.remove, NodePath...</td>
     </tr>
     <tr>
       <th>4</th>
@@ -2810,7 +2819,7 @@ Only the first 40 entries are shown. The whole table can be found in the followi
       <td>21</td>
       <td>4</td>
       <td>2100.000000</td>
-      <td>[NodePath.isFunctionDeclaration, NodePath.get,...</td>
+      <td>[NodePath.isIdentifier, NodePath.isVariableDec...</td>
     </tr>
     <tr>
       <th>6</th>
@@ -2822,7 +2831,7 @@ Only the first 40 entries are shown. The whole table can be found in the followi
       <td>21</td>
       <td>4</td>
       <td>2100.000000</td>
-      <td>[variableDeclarator, importDeclaration, variab...</td>
+      <td>[Program.body, variableDeclaration, importDecl...</td>
     </tr>
     <tr>
       <th>7</th>
@@ -2834,7 +2843,7 @@ Only the first 40 entries are shown. The whole table can be found in the followi
       <td>15</td>
       <td>3</td>
       <td>1500.000000</td>
-      <td>[ResolvedConfig.server, ViteDevServer.config, ...</td>
+      <td>[ConfigEnv.mode, ResolvedConfig.plugins, ViteD...</td>
     </tr>
     <tr>
       <th>8</th>
@@ -2858,7 +2867,7 @@ Only the first 40 entries are shown. The whole table can be found in the followi
       <td>15</td>
       <td>3</td>
       <td>1500.000000</td>
-      <td>[ResolvedConfig.server, ViteDevServer.config, ...</td>
+      <td>[ConfigEnv.mode, ResolvedConfig.plugins, ViteD...</td>
     </tr>
     <tr>
       <th>10</th>
@@ -2882,7 +2891,7 @@ Only the first 40 entries are shown. The whole table can be found in the followi
       <td>12</td>
       <td>2</td>
       <td>1200.000000</td>
-      <td>[ResolvedBuildOptions.ssr, Plugin, Logger.warn...</td>
+      <td>[ResolvedBuildEnvironmentOptions.sourcemap, Lo...</td>
     </tr>
     <tr>
       <th>12</th>
@@ -2894,7 +2903,7 @@ Only the first 40 entries are shown. The whole table can be found in the followi
       <td>8</td>
       <td>5</td>
       <td>800.000000</td>
-      <td>[semver, global.NodeJS.ProcessVersions.node, m...</td>
+      <td>[global.NodeJS.ProcessVersions.node, global.No...</td>
     </tr>
     <tr>
       <th>13</th>
@@ -2906,7 +2915,7 @@ Only the first 40 entries are shown. The whole table can be found in the followi
       <td>8</td>
       <td>5</td>
       <td>800.000000</td>
-      <td>[arg.Result."--no-typescript", arg.Result._, arg]</td>
+      <td>[arg.Result._, arg.Result."--no-typescript", arg]</td>
     </tr>
     <tr>
       <th>14</th>
@@ -2918,7 +2927,7 @@ Only the first 40 entries are shown. The whole table can be found in the followi
       <td>141</td>
       <td>26</td>
       <td>783.333333</td>
-      <td>[RollupLog.code, UserConfig.environments, Roll...</td>
+      <td>[resolveConfig, ResolvedConfig.build, Plugin, ...</td>
     </tr>
     <tr>
       <th>15</th>
@@ -2930,31 +2939,31 @@ Only the first 40 entries are shown. The whole table can be found in the followi
       <td>141</td>
       <td>26</td>
       <td>783.333333</td>
-      <td>[kebabCase, path.PlatformPath.join, global.Nod...</td>
+      <td>[path.PlatformPath.join, path.PlatformPath.pos...</td>
     </tr>
     <tr>
       <th>16</th>
       <td>prompts-prompt-base</td>
       <td>no namespace</td>
       <td>10</td>
-      <td>195</td>
+      <td>165</td>
       <td>2</td>
       <td>14</td>
       <td>6</td>
       <td>700.000000</td>
-      <td>[.createInterface, Key, cursor.show, Interface...</td>
+      <td>[beep, node:process, cursor, cursor.show, .cre...</td>
     </tr>
     <tr>
       <th>17</th>
       <td>prompts-prompt-base</td>
       <td>@types</td>
       <td>5</td>
-      <td>53</td>
+      <td>45</td>
       <td>2</td>
       <td>14</td>
       <td>6</td>
       <td>700.000000</td>
-      <td>[global.NodeJS.Process.stdin, global.NodeJS.Pr...</td>
+      <td>[global.NodeJS.Process.stdout, global.NodeJS.P...</td>
     </tr>
     <tr>
       <th>18</th>
@@ -2966,7 +2975,7 @@ Only the first 40 entries are shown. The whole table can be found in the followi
       <td>13</td>
       <td>4</td>
       <td>650.000000</td>
-      <td>[ViteNodeRunner, ViteNodeServer, ViteDevServer...</td>
+      <td>[ResolvedConfig.root, ViteNodeServer.resolveId...</td>
     </tr>
     <tr>
       <th>19</th>
@@ -2990,7 +2999,7 @@ Only the first 40 entries are shown. The whole table can be found in the followi
       <td>6</td>
       <td>5</td>
       <td>600.000000</td>
-      <td>[transformSync, BabelFileResult.code]</td>
+      <td>[BabelFileResult.code, transformSync]</td>
     </tr>
     <tr>
       <th>21</th>
@@ -3002,7 +3011,7 @@ Only the first 40 entries are shown. The whole table can be found in the followi
       <td>6</td>
       <td>5</td>
       <td>600.000000</td>
-      <td>[format, prettier]</td>
+      <td>[prettier, format]</td>
     </tr>
     <tr>
       <th>22</th>
@@ -3014,7 +3023,7 @@ Only the first 40 entries are shown. The whole table can be found in the followi
       <td>5</td>
       <td>2</td>
       <td>500.000000</td>
-      <td>[ArcTable.put, ArcTable.delete, functions, tab...</td>
+      <td>[ArcTable.put, ArcTable.delete, ArcTable.get, ...</td>
     </tr>
     <tr>
       <th>23</th>
@@ -3026,7 +3035,7 @@ Only the first 40 entries are shown. The whole table can be found in the followi
       <td>5</td>
       <td>2</td>
       <td>500.000000</td>
-      <td>[path.dirname, dist, path.resolve, path.basename]</td>
+      <td>[path.dirname, path.resolve, dist, path.basename]</td>
     </tr>
     <tr>
       <th>24</th>
@@ -3050,7 +3059,7 @@ Only the first 40 entries are shown. The whole table can be found in the followi
       <td>5</td>
       <td>3</td>
       <td>500.000000</td>
-      <td>[node:path, .existsSync, node:fs]</td>
+      <td>[node:fs, .existsSync, node:path]</td>
     </tr>
     <tr>
       <th>26</th>
@@ -3098,7 +3107,7 @@ Only the first 40 entries are shown. The whole table can be found in the followi
       <td>9</td>
       <td>5</td>
       <td>450.000000</td>
-      <td>[.readFile, promises, .mkdir, .unlink, .writeF...</td>
+      <td>[promises, .readFile, .unlink, .mkdir, .writeF...</td>
     </tr>
     <tr>
       <th>30</th>
@@ -3110,7 +3119,7 @@ Only the first 40 entries are shown. The whole table can be found in the followi
       <td>9</td>
       <td>5</td>
       <td>450.000000</td>
-      <td>[path.PlatformPath.join, path.PlatformPath.dir...</td>
+      <td>[path.PlatformPath.dirname, global.Buffer.toSt...</td>
     </tr>
     <tr>
       <th>31</th>
@@ -3122,7 +3131,7 @@ Only the first 40 entries are shown. The whole table can be found in the followi
       <td>4</td>
       <td>3</td>
       <td>400.000000</td>
-      <td>[loadEnv, UserConfig.envDir, UserConfig]</td>
+      <td>[loadEnv, UserConfig, UserConfig.envDir]</td>
     </tr>
     <tr>
       <th>32</th>
@@ -3141,12 +3150,12 @@ Only the first 40 entries are shown. The whole table can be found in the followi
       <td>prompts-text</td>
       <td>no namespace</td>
       <td>8</td>
-      <td>104</td>
+      <td>88</td>
       <td>2</td>
       <td>8</td>
       <td>2</td>
       <td>400.000000</td>
-      <td>[cursor.move, Key, cursor.save, erase.line, er...</td>
+      <td>[cursor.down, cursor.to, erase, erase.line, cu...</td>
     </tr>
     <tr>
       <th>34</th>
@@ -3158,7 +3167,7 @@ Only the first 40 entries are shown. The whole table can be found in the followi
       <td>4</td>
       <td>1</td>
       <td>400.000000</td>
-      <td>[KVNamespace.delete, KVNamespace.put, KVNamesp...</td>
+      <td>[KVNamespace.delete, Crypto.getRandomValues, K...</td>
     </tr>
     <tr>
       <th>35</th>
@@ -3170,7 +3179,7 @@ Only the first 40 entries are shown. The whole table can be found in the followi
       <td>22</td>
       <td>2</td>
       <td>366.666667</td>
-      <td>[Response, EventContext, KVNamespace.delete, K...</td>
+      <td>[Response, EventContext, Request.cf, EventCont...</td>
     </tr>
     <tr>
       <th>36</th>
@@ -3182,7 +3191,7 @@ Only the first 40 entries are shown. The whole table can be found in the followi
       <td>18</td>
       <td>2</td>
       <td>360.000000</td>
-      <td>[Request.clone, Response, EventContext.request...</td>
+      <td>[Response, EventContext, Request.cf, EventCont...</td>
     </tr>
     <tr>
       <th>37</th>
@@ -3194,7 +3203,7 @@ Only the first 40 entries are shown. The whole table can be found in the followi
       <td>3</td>
       <td>2</td>
       <td>300.000000</td>
-      <td>[resolveConfig, ResolvedConfig.plugins, Plugin...</td>
+      <td>[ResolvedConfig.plugins, resolveConfig, Plugin...</td>
     </tr>
     <tr>
       <th>38</th>
@@ -3206,7 +3215,7 @@ Only the first 40 entries are shown. The whole table can be found in the followi
       <td>3</td>
       <td>2</td>
       <td>300.000000</td>
-      <td>[normalizePath, escapePath, version]</td>
+      <td>[normalizePath, version, escapePath]</td>
     </tr>
     <tr>
       <th>39</th>
@@ -3218,7 +3227,7 @@ Only the first 40 entries are shown. The whole table can be found in the followi
       <td>9</td>
       <td>5</td>
       <td>300.000000</td>
-      <td>[Session, node:fs, picocolors, Session.post, n...</td>
+      <td>[Session, Session.connect, .Session, Session.p...</td>
     </tr>
   </tbody>
 </table>
@@ -5251,6 +5260,17 @@ Only the last 40 entries are shown. The whole table can be found in the followin
     </tr>
     <tr>
       <th>3</th>
+      <td>plugin</td>
+      <td>18</td>
+      <td>23</td>
+      <td>1</td>
+      <td>2.0</td>
+      <td>2.260870</td>
+      <td>3</td>
+      <td>0.540824</td>
+    </tr>
+    <tr>
+      <th>4</th>
       <td>react-router-cloudflare</td>
       <td>6</td>
       <td>1</td>
@@ -5261,7 +5281,7 @@ Only the last 40 entries are shown. The whole table can be found in the followin
       <td>0.000000</td>
     </tr>
     <tr>
-      <th>4</th>
+      <th>5</th>
       <td>react-router-node</td>
       <td>7</td>
       <td>7</td>
@@ -5272,9 +5292,9 @@ Only the last 40 entries are shown. The whole table can be found in the followin
       <td>0.377964</td>
     </tr>
     <tr>
-      <th>5</th>
+      <th>6</th>
       <td>server</td>
-      <td>25</td>
+      <td>22</td>
       <td>2</td>
       <td>2</td>
       <td>2.5</td>
@@ -5283,7 +5303,7 @@ Only the last 40 entries are shown. The whole table can be found in the followin
       <td>0.707107</td>
     </tr>
     <tr>
-      <th>6</th>
+      <th>7</th>
       <td>vite</td>
       <td>2</td>
       <td>22</td>
@@ -5294,7 +5314,7 @@ Only the last 40 entries are shown. The whole table can be found in the followin
       <td>0.476731</td>
     </tr>
     <tr>
-      <th>7</th>
+      <th>8</th>
       <td>arcTableSessionStorage</td>
       <td>1</td>
       <td>2</td>
@@ -5305,7 +5325,7 @@ Only the last 40 entries are shown. The whole table can be found in the followin
       <td>0.000000</td>
     </tr>
     <tr>
-      <th>8</th>
+      <th>9</th>
       <td>cloudflare</td>
       <td>1</td>
       <td>3</td>
@@ -5316,7 +5336,7 @@ Only the last 40 entries are shown. The whole table can be found in the followin
       <td>0.000000</td>
     </tr>
     <tr>
-      <th>9</th>
+      <th>10</th>
       <td>cloudflare-dev-proxy</td>
       <td>1</td>
       <td>3</td>
@@ -5327,7 +5347,7 @@ Only the last 40 entries are shown. The whole table can be found in the followin
       <td>0.000000</td>
     </tr>
     <tr>
-      <th>10</th>
+      <th>11</th>
       <td>fileStorage</td>
       <td>2</td>
       <td>4</td>
@@ -5338,7 +5358,7 @@ Only the last 40 entries are shown. The whole table can be found in the followin
       <td>0.000000</td>
     </tr>
     <tr>
-      <th>11</th>
+      <th>12</th>
       <td>fog-of-war</td>
       <td>6</td>
       <td>1</td>
@@ -5349,29 +5369,7 @@ Only the last 40 entries are shown. The whole table can be found in the followin
       <td>0.000000</td>
     </tr>
     <tr>
-      <th>12</th>
-      <td>plugin</td>
-      <td>17</td>
-      <td>22</td>
-      <td>1</td>
-      <td>2.0</td>
-      <td>1.954545</td>
-      <td>2</td>
-      <td>0.213201</td>
-    </tr>
-    <tr>
       <th>13</th>
-      <td>plugin</td>
-      <td>1</td>
-      <td>8</td>
-      <td>2</td>
-      <td>2.0</td>
-      <td>2.000000</td>
-      <td>2</td>
-      <td>0.000000</td>
-    </tr>
-    <tr>
-      <th>14</th>
       <td>react-router-architect</td>
       <td>4</td>
       <td>4</td>
@@ -5382,7 +5380,7 @@ Only the last 40 entries are shown. The whole table can be found in the followin
       <td>0.000000</td>
     </tr>
     <tr>
-      <th>15</th>
+      <th>14</th>
       <td>react-router-express</td>
       <td>3</td>
       <td>3</td>
@@ -5393,7 +5391,7 @@ Only the last 40 entries are shown. The whole table can be found in the followin
       <td>0.000000</td>
     </tr>
     <tr>
-      <th>16</th>
+      <th>15</th>
       <td>routes</td>
       <td>15</td>
       <td>2</td>
@@ -5404,7 +5402,7 @@ Only the last 40 entries are shown. The whole table can be found in the followin
       <td>0.000000</td>
     </tr>
     <tr>
-      <th>17</th>
+      <th>16</th>
       <td>server</td>
       <td>6</td>
       <td>6</td>
@@ -5415,7 +5413,7 @@ Only the last 40 entries are shown. The whole table can be found in the followin
       <td>0.516398</td>
     </tr>
     <tr>
-      <th>18</th>
+      <th>17</th>
       <td>server</td>
       <td>2</td>
       <td>2</td>
@@ -5426,7 +5424,7 @@ Only the last 40 entries are shown. The whole table can be found in the followin
       <td>0.000000</td>
     </tr>
     <tr>
-      <th>19</th>
+      <th>18</th>
       <td>server</td>
       <td>6</td>
       <td>4</td>
@@ -5437,7 +5435,7 @@ Only the last 40 entries are shown. The whole table can be found in the followin
       <td>0.500000</td>
     </tr>
     <tr>
-      <th>20</th>
+      <th>19</th>
       <td>stream</td>
       <td>4</td>
       <td>2</td>
@@ -5448,7 +5446,7 @@ Only the last 40 entries are shown. The whole table can be found in the followin
       <td>0.000000</td>
     </tr>
     <tr>
-      <th>21</th>
+      <th>20</th>
       <td>utils</td>
       <td>86</td>
       <td>1</td>
@@ -5459,7 +5457,7 @@ Only the last 40 entries are shown. The whole table can be found in the followin
       <td>0.000000</td>
     </tr>
     <tr>
-      <th>22</th>
+      <th>21</th>
       <td>worker</td>
       <td>5</td>
       <td>1</td>
@@ -5470,7 +5468,7 @@ Only the last 40 entries are shown. The whole table can be found in the followin
       <td>0.000000</td>
     </tr>
     <tr>
-      <th>23</th>
+      <th>22</th>
       <td>workersKVStorage</td>
       <td>1</td>
       <td>1</td>
@@ -5481,7 +5479,7 @@ Only the last 40 entries are shown. The whole table can be found in the followin
       <td>0.000000</td>
     </tr>
     <tr>
-      <th>24</th>
+      <th>23</th>
       <td>babel</td>
       <td>2</td>
       <td>1</td>
@@ -5492,7 +5490,7 @@ Only the last 40 entries are shown. The whole table can be found in the followin
       <td>0.000000</td>
     </tr>
     <tr>
-      <th>25</th>
+      <th>24</th>
       <td>build</td>
       <td>2</td>
       <td>1</td>
@@ -5503,7 +5501,7 @@ Only the last 40 entries are shown. The whole table can be found in the followin
       <td>0.000000</td>
     </tr>
     <tr>
-      <th>26</th>
+      <th>25</th>
       <td>commands</td>
       <td>5</td>
       <td>8</td>
@@ -5514,7 +5512,7 @@ Only the last 40 entries are shown. The whole table can be found in the followin
       <td>0.000000</td>
     </tr>
     <tr>
-      <th>27</th>
+      <th>26</th>
       <td>config</td>
       <td>13</td>
       <td>11</td>
@@ -5525,7 +5523,7 @@ Only the last 40 entries are shown. The whole table can be found in the followin
       <td>0.000000</td>
     </tr>
     <tr>
-      <th>28</th>
+      <th>27</th>
       <td>copy-template</td>
       <td>2</td>
       <td>1</td>
@@ -5536,10 +5534,21 @@ Only the last 40 entries are shown. The whole table can be found in the followin
       <td>0.000000</td>
     </tr>
     <tr>
-      <th>29</th>
+      <th>28</th>
       <td>create-react-router</td>
       <td>2</td>
       <td>2</td>
+      <td>1</td>
+      <td>1.0</td>
+      <td>1.000000</td>
+      <td>1</td>
+      <td>0.000000</td>
+    </tr>
+    <tr>
+      <th>29</th>
+      <td>detectPackageManager</td>
+      <td>1</td>
+      <td>1</td>
       <td>1</td>
       <td>1.0</td>
       <td>1.000000</td>
@@ -5608,6 +5617,17 @@ Only the last 40 entries are shown. The whole table can be found in the followin
     </tr>
     <tr>
       <th>3</th>
+      <td>plugin</td>
+      <td>18</td>
+      <td>23</td>
+      <td>1</td>
+      <td>1.0</td>
+      <td>2.043478</td>
+      <td>8</td>
+      <td>1.744557</td>
+    </tr>
+    <tr>
+      <th>4</th>
       <td>react-router-cloudflare</td>
       <td>6</td>
       <td>1</td>
@@ -5618,7 +5638,7 @@ Only the last 40 entries are shown. The whole table can be found in the followin
       <td>0.000000</td>
     </tr>
     <tr>
-      <th>4</th>
+      <th>5</th>
       <td>react-router-node</td>
       <td>7</td>
       <td>7</td>
@@ -5629,9 +5649,9 @@ Only the last 40 entries are shown. The whole table can be found in the followin
       <td>0.786796</td>
     </tr>
     <tr>
-      <th>5</th>
+      <th>6</th>
       <td>server</td>
-      <td>25</td>
+      <td>22</td>
       <td>2</td>
       <td>3</td>
       <td>3.5</td>
@@ -5640,7 +5660,7 @@ Only the last 40 entries are shown. The whole table can be found in the followin
       <td>0.707107</td>
     </tr>
     <tr>
-      <th>6</th>
+      <th>7</th>
       <td>vite</td>
       <td>2</td>
       <td>22</td>
@@ -5651,7 +5671,7 @@ Only the last 40 entries are shown. The whole table can be found in the followin
       <td>0.476731</td>
     </tr>
     <tr>
-      <th>7</th>
+      <th>8</th>
       <td>arcTableSessionStorage</td>
       <td>1</td>
       <td>2</td>
@@ -5662,7 +5682,7 @@ Only the last 40 entries are shown. The whole table can be found in the followin
       <td>0.000000</td>
     </tr>
     <tr>
-      <th>8</th>
+      <th>9</th>
       <td>cloudflare</td>
       <td>1</td>
       <td>3</td>
@@ -5673,7 +5693,7 @@ Only the last 40 entries are shown. The whole table can be found in the followin
       <td>0.000000</td>
     </tr>
     <tr>
-      <th>9</th>
+      <th>10</th>
       <td>cloudflare-dev-proxy</td>
       <td>1</td>
       <td>3</td>
@@ -5684,7 +5704,7 @@ Only the last 40 entries are shown. The whole table can be found in the followin
       <td>0.000000</td>
     </tr>
     <tr>
-      <th>10</th>
+      <th>11</th>
       <td>fileStorage</td>
       <td>2</td>
       <td>4</td>
@@ -5695,7 +5715,7 @@ Only the last 40 entries are shown. The whole table can be found in the followin
       <td>0.500000</td>
     </tr>
     <tr>
-      <th>11</th>
+      <th>12</th>
       <td>fog-of-war</td>
       <td>6</td>
       <td>1</td>
@@ -5706,29 +5726,7 @@ Only the last 40 entries are shown. The whole table can be found in the followin
       <td>0.000000</td>
     </tr>
     <tr>
-      <th>12</th>
-      <td>plugin</td>
-      <td>17</td>
-      <td>22</td>
-      <td>1</td>
-      <td>1.0</td>
-      <td>1.772727</td>
-      <td>7</td>
-      <td>1.540928</td>
-    </tr>
-    <tr>
       <th>13</th>
-      <td>plugin</td>
-      <td>1</td>
-      <td>8</td>
-      <td>1</td>
-      <td>1.0</td>
-      <td>1.000000</td>
-      <td>1</td>
-      <td>0.000000</td>
-    </tr>
-    <tr>
-      <th>14</th>
       <td>react-router-architect</td>
       <td>4</td>
       <td>4</td>
@@ -5739,7 +5737,7 @@ Only the last 40 entries are shown. The whole table can be found in the followin
       <td>0.500000</td>
     </tr>
     <tr>
-      <th>15</th>
+      <th>14</th>
       <td>react-router-express</td>
       <td>3</td>
       <td>3</td>
@@ -5750,7 +5748,7 @@ Only the last 40 entries are shown. The whole table can be found in the followin
       <td>0.000000</td>
     </tr>
     <tr>
-      <th>16</th>
+      <th>15</th>
       <td>routes</td>
       <td>15</td>
       <td>2</td>
@@ -5761,7 +5759,7 @@ Only the last 40 entries are shown. The whole table can be found in the followin
       <td>1.414214</td>
     </tr>
     <tr>
-      <th>17</th>
+      <th>16</th>
       <td>server</td>
       <td>6</td>
       <td>6</td>
@@ -5772,7 +5770,7 @@ Only the last 40 entries are shown. The whole table can be found in the followin
       <td>1.632993</td>
     </tr>
     <tr>
-      <th>18</th>
+      <th>17</th>
       <td>server</td>
       <td>2</td>
       <td>2</td>
@@ -5783,7 +5781,7 @@ Only the last 40 entries are shown. The whole table can be found in the followin
       <td>0.707107</td>
     </tr>
     <tr>
-      <th>19</th>
+      <th>18</th>
       <td>server</td>
       <td>6</td>
       <td>4</td>
@@ -5794,7 +5792,7 @@ Only the last 40 entries are shown. The whole table can be found in the followin
       <td>1.258306</td>
     </tr>
     <tr>
-      <th>20</th>
+      <th>19</th>
       <td>stream</td>
       <td>4</td>
       <td>2</td>
@@ -5805,7 +5803,7 @@ Only the last 40 entries are shown. The whole table can be found in the followin
       <td>1.414214</td>
     </tr>
     <tr>
-      <th>21</th>
+      <th>20</th>
       <td>utils</td>
       <td>86</td>
       <td>1</td>
@@ -5816,7 +5814,7 @@ Only the last 40 entries are shown. The whole table can be found in the followin
       <td>0.000000</td>
     </tr>
     <tr>
-      <th>22</th>
+      <th>21</th>
       <td>worker</td>
       <td>5</td>
       <td>1</td>
@@ -5827,7 +5825,7 @@ Only the last 40 entries are shown. The whole table can be found in the followin
       <td>0.000000</td>
     </tr>
     <tr>
-      <th>23</th>
+      <th>22</th>
       <td>workersKVStorage</td>
       <td>1</td>
       <td>1</td>
@@ -5838,7 +5836,7 @@ Only the last 40 entries are shown. The whole table can be found in the followin
       <td>0.000000</td>
     </tr>
     <tr>
-      <th>24</th>
+      <th>23</th>
       <td>babel</td>
       <td>2</td>
       <td>1</td>
@@ -5849,7 +5847,7 @@ Only the last 40 entries are shown. The whole table can be found in the followin
       <td>0.000000</td>
     </tr>
     <tr>
-      <th>25</th>
+      <th>24</th>
       <td>build</td>
       <td>2</td>
       <td>1</td>
@@ -5860,7 +5858,7 @@ Only the last 40 entries are shown. The whole table can be found in the followin
       <td>0.000000</td>
     </tr>
     <tr>
-      <th>26</th>
+      <th>25</th>
       <td>commands</td>
       <td>5</td>
       <td>8</td>
@@ -5871,7 +5869,7 @@ Only the last 40 entries are shown. The whole table can be found in the followin
       <td>0.462910</td>
     </tr>
     <tr>
-      <th>27</th>
+      <th>26</th>
       <td>config</td>
       <td>13</td>
       <td>11</td>
@@ -5882,7 +5880,7 @@ Only the last 40 entries are shown. The whole table can be found in the followin
       <td>0.924416</td>
     </tr>
     <tr>
-      <th>28</th>
+      <th>27</th>
       <td>copy-template</td>
       <td>2</td>
       <td>1</td>
@@ -5893,10 +5891,21 @@ Only the last 40 entries are shown. The whole table can be found in the followin
       <td>0.000000</td>
     </tr>
     <tr>
-      <th>29</th>
+      <th>28</th>
       <td>create-react-router</td>
       <td>2</td>
       <td>2</td>
+      <td>1</td>
+      <td>1.0</td>
+      <td>1.000000</td>
+      <td>1</td>
+      <td>0.000000</td>
+    </tr>
+    <tr>
+      <th>29</th>
+      <td>detectPackageManager</td>
+      <td>1</td>
+      <td>1</td>
       <td>1</td>
       <td>1.0</td>
       <td>1.000000</td>
@@ -5965,6 +5974,17 @@ Only the last 40 entries are shown. The whole table can be found in the followin
     </tr>
     <tr>
       <th>3</th>
+      <td>plugin</td>
+      <td>18</td>
+      <td>23</td>
+      <td>5.555556</td>
+      <td>5.555556</td>
+      <td>11.352657</td>
+      <td>44.444444</td>
+      <td>9.691982</td>
+    </tr>
+    <tr>
+      <th>4</th>
       <td>react-router-cloudflare</td>
       <td>6</td>
       <td>1</td>
@@ -5975,7 +5995,7 @@ Only the last 40 entries are shown. The whole table can be found in the followin
       <td>0.000000</td>
     </tr>
     <tr>
-      <th>4</th>
+      <th>5</th>
       <td>react-router-node</td>
       <td>7</td>
       <td>7</td>
@@ -5986,18 +6006,18 @@ Only the last 40 entries are shown. The whole table can be found in the followin
       <td>11.239940</td>
     </tr>
     <tr>
-      <th>5</th>
+      <th>6</th>
       <td>server</td>
-      <td>25</td>
+      <td>22</td>
       <td>2</td>
-      <td>12.000000</td>
-      <td>14.000000</td>
-      <td>14.000000</td>
-      <td>16.000000</td>
-      <td>2.828427</td>
+      <td>13.636364</td>
+      <td>15.909091</td>
+      <td>15.909091</td>
+      <td>18.181818</td>
+      <td>3.214122</td>
     </tr>
     <tr>
-      <th>6</th>
+      <th>7</th>
       <td>vite</td>
       <td>2</td>
       <td>22</td>
@@ -6008,7 +6028,7 @@ Only the last 40 entries are shown. The whole table can be found in the followin
       <td>23.836565</td>
     </tr>
     <tr>
-      <th>7</th>
+      <th>8</th>
       <td>arcTableSessionStorage</td>
       <td>1</td>
       <td>2</td>
@@ -6019,7 +6039,7 @@ Only the last 40 entries are shown. The whole table can be found in the followin
       <td>0.000000</td>
     </tr>
     <tr>
-      <th>8</th>
+      <th>9</th>
       <td>cloudflare</td>
       <td>1</td>
       <td>3</td>
@@ -6030,7 +6050,7 @@ Only the last 40 entries are shown. The whole table can be found in the followin
       <td>0.000000</td>
     </tr>
     <tr>
-      <th>9</th>
+      <th>10</th>
       <td>cloudflare-dev-proxy</td>
       <td>1</td>
       <td>3</td>
@@ -6041,7 +6061,7 @@ Only the last 40 entries are shown. The whole table can be found in the followin
       <td>0.000000</td>
     </tr>
     <tr>
-      <th>10</th>
+      <th>11</th>
       <td>fileStorage</td>
       <td>2</td>
       <td>4</td>
@@ -6052,7 +6072,7 @@ Only the last 40 entries are shown. The whole table can be found in the followin
       <td>25.000000</td>
     </tr>
     <tr>
-      <th>11</th>
+      <th>12</th>
       <td>fog-of-war</td>
       <td>6</td>
       <td>1</td>
@@ -6063,29 +6083,7 @@ Only the last 40 entries are shown. The whole table can be found in the followin
       <td>0.000000</td>
     </tr>
     <tr>
-      <th>12</th>
-      <td>plugin</td>
-      <td>17</td>
-      <td>22</td>
-      <td>5.882353</td>
-      <td>5.882353</td>
-      <td>10.427807</td>
-      <td>41.176471</td>
-      <td>9.064282</td>
-    </tr>
-    <tr>
       <th>13</th>
-      <td>plugin</td>
-      <td>1</td>
-      <td>8</td>
-      <td>100.000000</td>
-      <td>100.000000</td>
-      <td>100.000000</td>
-      <td>100.000000</td>
-      <td>0.000000</td>
-    </tr>
-    <tr>
-      <th>14</th>
       <td>react-router-architect</td>
       <td>4</td>
       <td>4</td>
@@ -6096,7 +6094,7 @@ Only the last 40 entries are shown. The whole table can be found in the followin
       <td>12.500000</td>
     </tr>
     <tr>
-      <th>15</th>
+      <th>14</th>
       <td>react-router-express</td>
       <td>3</td>
       <td>3</td>
@@ -6107,7 +6105,7 @@ Only the last 40 entries are shown. The whole table can be found in the followin
       <td>0.000000</td>
     </tr>
     <tr>
-      <th>16</th>
+      <th>15</th>
       <td>routes</td>
       <td>15</td>
       <td>2</td>
@@ -6118,7 +6116,7 @@ Only the last 40 entries are shown. The whole table can be found in the followin
       <td>9.428090</td>
     </tr>
     <tr>
-      <th>17</th>
+      <th>16</th>
       <td>server</td>
       <td>6</td>
       <td>6</td>
@@ -6129,7 +6127,7 @@ Only the last 40 entries are shown. The whole table can be found in the followin
       <td>27.216553</td>
     </tr>
     <tr>
-      <th>18</th>
+      <th>17</th>
       <td>server</td>
       <td>2</td>
       <td>2</td>
@@ -6140,7 +6138,7 @@ Only the last 40 entries are shown. The whole table can be found in the followin
       <td>35.355339</td>
     </tr>
     <tr>
-      <th>19</th>
+      <th>18</th>
       <td>server</td>
       <td>6</td>
       <td>4</td>
@@ -6151,7 +6149,7 @@ Only the last 40 entries are shown. The whole table can be found in the followin
       <td>20.971762</td>
     </tr>
     <tr>
-      <th>20</th>
+      <th>19</th>
       <td>stream</td>
       <td>4</td>
       <td>2</td>
@@ -6162,7 +6160,7 @@ Only the last 40 entries are shown. The whole table can be found in the followin
       <td>35.355339</td>
     </tr>
     <tr>
-      <th>21</th>
+      <th>20</th>
       <td>utils</td>
       <td>86</td>
       <td>1</td>
@@ -6173,7 +6171,7 @@ Only the last 40 entries are shown. The whole table can be found in the followin
       <td>0.000000</td>
     </tr>
     <tr>
-      <th>22</th>
+      <th>21</th>
       <td>worker</td>
       <td>5</td>
       <td>1</td>
@@ -6184,7 +6182,7 @@ Only the last 40 entries are shown. The whole table can be found in the followin
       <td>0.000000</td>
     </tr>
     <tr>
-      <th>23</th>
+      <th>22</th>
       <td>workersKVStorage</td>
       <td>1</td>
       <td>1</td>
@@ -6195,7 +6193,7 @@ Only the last 40 entries are shown. The whole table can be found in the followin
       <td>0.000000</td>
     </tr>
     <tr>
-      <th>24</th>
+      <th>23</th>
       <td>babel</td>
       <td>2</td>
       <td>1</td>
@@ -6206,7 +6204,7 @@ Only the last 40 entries are shown. The whole table can be found in the followin
       <td>0.000000</td>
     </tr>
     <tr>
-      <th>25</th>
+      <th>24</th>
       <td>build</td>
       <td>2</td>
       <td>1</td>
@@ -6217,7 +6215,7 @@ Only the last 40 entries are shown. The whole table can be found in the followin
       <td>0.000000</td>
     </tr>
     <tr>
-      <th>26</th>
+      <th>25</th>
       <td>commands</td>
       <td>5</td>
       <td>8</td>
@@ -6228,7 +6226,7 @@ Only the last 40 entries are shown. The whole table can be found in the followin
       <td>9.258201</td>
     </tr>
     <tr>
-      <th>27</th>
+      <th>26</th>
       <td>config</td>
       <td>13</td>
       <td>11</td>
@@ -6239,7 +6237,7 @@ Only the last 40 entries are shown. The whole table can be found in the followin
       <td>7.110894</td>
     </tr>
     <tr>
-      <th>28</th>
+      <th>27</th>
       <td>copy-template</td>
       <td>2</td>
       <td>1</td>
@@ -6250,7 +6248,7 @@ Only the last 40 entries are shown. The whole table can be found in the followin
       <td>0.000000</td>
     </tr>
     <tr>
-      <th>29</th>
+      <th>28</th>
       <td>create-react-router</td>
       <td>2</td>
       <td>2</td>
@@ -6258,6 +6256,17 @@ Only the last 40 entries are shown. The whole table can be found in the followin
       <td>50.000000</td>
       <td>50.000000</td>
       <td>50.000000</td>
+      <td>0.000000</td>
+    </tr>
+    <tr>
+      <th>29</th>
+      <td>detectPackageManager</td>
+      <td>1</td>
+      <td>1</td>
+      <td>100.000000</td>
+      <td>100.000000</td>
+      <td>100.000000</td>
+      <td>100.000000</td>
       <td>0.000000</td>
     </tr>
   </tbody>

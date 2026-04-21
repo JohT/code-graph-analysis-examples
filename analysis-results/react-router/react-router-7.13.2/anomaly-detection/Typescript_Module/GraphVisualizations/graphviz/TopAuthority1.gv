@@ -14,20 +14,20 @@ strict digraph TopAuthority1 {
 
 	graph   [label="Top Rank #1 Typescript Module Authority\n/home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.13.2/source/react-router-7.13.2/packages/react-router-dev/config/routes.ts\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: Page Rank (normalized)\nlarge circle: > 80% percentile of Page Rank\nthick outline: > 80% percentile of Page Rank to Article Rank Difference\n\n"];
 	central [label="🏛️ authority #1\nroutes"];
-	"plugin_122302"  [label = "plugin\n(1.05%)"; penwidth = 2; ]; "plugin_122302" -> central [label=1154; weight=1154; penwidth=0.9];
-	"generate_122285"  [label = "generate\n(1.46%)"; penwidth = 2; ]; "generate_122285" -> central [label=187; weight=187; penwidth=0.5];
-	"virtual-route-config_122320"  [label = "virtual-route-config\n(0.06%)"; penwidth = 2; ]; "virtual-route-config_122320" -> central [label=184; weight=184; penwidth=0.5];
-	"styles_122309"  [label = "styles\n(0.05%)"; penwidth = 2; ]; "styles_122309" -> central [label=90; weight=90; penwidth=0.4];
-	"config_122278"  [label = "config\n(20.91%)"; penwidth = 5; ]; "config_122278" -> central [label=38; weight=38; penwidth=0.4];
-	"resolve-relative-route-file-path_122306"  [label = "resolve-relative-route-file-path\n(0.08%)"; penwidth = 2; ]; "resolve-relative-route-file-path_122306" -> central [label=22; weight=22; penwidth=0.4];
-	"plugin_122318"  [label = "plugin\n(0.0%)"; penwidth = 2; ]; "plugin_122318" -> central [label=20; weight=20; penwidth=0.4];
-	"routes_122268"  [shape = "circle"; height=2; label = "routes\n(43.99%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "routes_122268" [label=5796; weight=5796; penwidth=2.9; color = 5];
-	"generate_122285" -> "config_122278" [label=405; weight=405; penwidth=0.3; color = 3]
-	"virtual-route-config_122320" -> "routes_122268" [label=184; weight=184; penwidth=0.3; color = 3]
-	"plugin_122302" -> "styles_122309" [label=45; weight=45; penwidth=0.3; color = 3]
-	"plugin_122302" -> "resolve-relative-route-file-path_122306" [label=45; weight=45; penwidth=0.3; color = 3]
-	"plugin_122302" -> "config_122278" [label=34; weight=34; penwidth=0.3; color = 3]
-	"plugin_122318" -> "config_122278" [label=18; weight=18; penwidth=0.3; color = 3]
-	"plugin_122318" -> "virtual-route-config_122320" [label=9; weight=9; penwidth=0.3; color = 3]
-	"styles_122309" -> "plugin_122302" [label=9; weight=9; penwidth=0.3; color = 3]
+	"plugin_205052"  [label = "plugin\n(1.14%)"; penwidth = 2; ]; "plugin_205052" -> central [label=361; weight=361; penwidth=0.7];
+	"generate_205035"  [label = "generate\n(1.62%)"; penwidth = 2; ]; "generate_205035" -> central [label=59; weight=59; penwidth=0.4];
+	"virtual-route-config_205070"  [label = "virtual-route-config\n(0.07%)"; penwidth = 2; ]; "virtual-route-config_205070" -> central [label=57; weight=57; penwidth=0.4];
+	"styles_205059"  [label = "styles\n(0.07%)"; penwidth = 2; ]; "styles_205059" -> central [label=30; weight=30; penwidth=0.4];
+	"config_205028"  [label = "config\n(17.33%)"; penwidth = 5; ]; "config_205028" -> central [label=21; weight=21; penwidth=0.4];
+	"resolve-relative-route-file-path_205056"  [label = "resolve-relative-route-file-path\n(0.17%)"; penwidth = 2; ]; "resolve-relative-route-file-path_205056" -> central [label=7; weight=7; penwidth=0.4];
+	"plugin_205068"  [label = "plugin\n(0.0%)"; penwidth = 2; ]; "plugin_205068" -> central [label=6; weight=6; penwidth=0.4];
+	"routes_205018"  [shape = "circle"; height=2; label = "routes\n(48.59%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "routes_205018" [label=1370; weight=1370; penwidth=1.4; color = 5];
+	"generate_205035" -> "config_205028" [label=75; weight=75; penwidth=0.3; color = 3]
+	"virtual-route-config_205070" -> "routes_205018" [label=57; weight=57; penwidth=0.3; color = 3]
+	"plugin_205052" -> "resolve-relative-route-file-path_205056" [label=25; weight=25; penwidth=0.3; color = 3]
+	"plugin_205052" -> "styles_205059" [label=25; weight=25; penwidth=0.3; color = 3]
+	"plugin_205052" -> "config_205028" [label=19; weight=19; penwidth=0.3; color = 3]
+	"plugin_205068" -> "config_205028" [label=10; weight=10; penwidth=0.3; color = 3]
+	"plugin_205068" -> "virtual-route-config_205070" [label=5; weight=5; penwidth=0.3; color = 3]
+	"styles_205059" -> "plugin_205052" [label=5; weight=5; penwidth=0.3; color = 3]
 }
