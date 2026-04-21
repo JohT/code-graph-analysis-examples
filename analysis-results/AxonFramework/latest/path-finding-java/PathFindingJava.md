@@ -667,7 +667,7 @@ In this section we'll focus only on pairs of nodes that both belong to the same 
       <td>267</td>
       <td>59</td>
       <td>43</td>
-      <td>[/org/axonframework/messaging/monitoring/interception -&gt; /org/axonframework/messaging/monitoring, /org/axonframework/messaging/monitoring/configuration -&gt; /org/axonframework/messaging/monitoring, /org/axonframework/messaging/eventhandling/processing/streaming/pooled -&gt; /org/axonframework/messagi...</td>
+      <td>[/org/axonframework/messaging/eventhandling/configuration -&gt; /org/axonframework/messaging/monitoring, /org/axonframework/messaging/core/configuration -&gt; /org/axonframework/messaging/monitoring, /org/axonframework/messaging/core/configuration -&gt; /org/axonframework/messaging/monitoring/interceptio...</td>
       <td>[axon-messaging-5.0.3 -&gt; axon-messaging-5.0.3]</td>
       <td>[]</td>
     </tr>
@@ -724,7 +724,7 @@ In this section we'll focus only on pairs of nodes that both belong to the same 
       <td>192</td>
       <td>39</td>
       <td>12</td>
-      <td>[/org/axonframework/messaging/queryhandling/distributed -&gt; /org/axonframework/messaging/commandhandling, /org/axonframework/messaging/queryhandling/interception -&gt; /org/axonframework/messaging/commandhandling, /org/axonframework/messaging/queryhandling/gateway -&gt; /org/axonframework/messaging/com...</td>
+      <td>[/org/axonframework/messaging/eventhandling/replay -&gt; /org/axonframework/messaging/commandhandling, /org/axonframework/messaging/eventhandling/processing/streaming/token -&gt; /org/axonframework/messaging/commandhandling, /org/axonframework/messaging/eventhandling/conversion -&gt; /org/axonframework/m...</td>
       <td>[axon-messaging-5.0.3 -&gt; axon-messaging-5.0.3]</td>
       <td>[]</td>
     </tr>
@@ -1118,9 +1118,9 @@ The following table shows the first 10 rows with all details of the query above.
       <td>14</td>
       <td>7</td>
       <td>14</td>
-      <td>4</td>
-      <td>4</td>
-      <td>4</td>
+      <td>3</td>
+      <td>3</td>
+      <td>3</td>
       <td>[/org/axonframework/messaging/eventhandling/replay/annotation -&gt; /org/axonframework/messaging/eventhandling/replay, /org/axonframework/messaging/commandhandling/retry -&gt; /org/axonframework/messaging/core/retry, /org/axonframework/messaging/core/reflection -&gt; /org/axonframework/messaging/core/con...</td>
       <td>[axon-messaging-5.0.3 -&gt; axon-messaging-5.0.3]</td>
       <td>[]</td>
@@ -1309,9 +1309,9 @@ In this section we'll focus only on pairs of nodes that both belong to the same 
       <td>14</td>
       <td>7</td>
       <td>14</td>
-      <td>4</td>
-      <td>4</td>
-      <td>4</td>
+      <td>3</td>
+      <td>3</td>
+      <td>3</td>
       <td>[/org/axonframework/messaging/eventhandling/replay/annotation -&gt; /org/axonframework/messaging/eventhandling/replay, /org/axonframework/messaging/commandhandling/retry -&gt; /org/axonframework/messaging/core/retry, /org/axonframework/messaging/core/reflection -&gt; /org/axonframework/messaging/core/con...</td>
       <td>[axon-messaging-5.0.3 -&gt; axon-messaging-5.0.3]</td>
       <td>[]</td>
@@ -1476,12 +1476,6 @@ Shows the top 50 artifacts with the highest number of dependency paths stacked b
   </thead>
   <tbody>
     <tr>
-      <th>axon-messaging-5.0.3</th>
-      <td>100.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-    </tr>
-    <tr>
       <th>axon-test-5.0.3</th>
       <td>25.0</td>
       <td>50.0</td>
@@ -1489,6 +1483,12 @@ Shows the top 50 artifacts with the highest number of dependency paths stacked b
     </tr>
     <tr>
       <th>axon-eventsourcing-5.0.3</th>
+      <td>100.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+    </tr>
+    <tr>
+      <th>axon-messaging-5.0.3</th>
       <td>100.0</td>
       <td>0.0</td>
       <td>0.0</td>
