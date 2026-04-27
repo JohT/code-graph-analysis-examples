@@ -49,7 +49,7 @@
       <td>13.027888</td>
       <td>127.872510</td>
       <td>227.912351</td>
-      <td>569.231076</td>
+      <td>569.254980</td>
       <td>248.474104</td>
     </tr>
     <tr>
@@ -58,7 +58,7 @@
       <td>43.146300</td>
       <td>435.736847</td>
       <td>166.185271</td>
-      <td>477.377597</td>
+      <td>477.379361</td>
       <td>239.580355</td>
     </tr>
     <tr>
@@ -94,7 +94,7 @@
       <td>9.000000</td>
       <td>66.000000</td>
       <td>285.000000</td>
-      <td>649.500000</td>
+      <td>650.000000</td>
       <td>304.000000</td>
     </tr>
     <tr>
@@ -573,7 +573,7 @@
       <td>Matt Brophy</td>
       <td>10</td>
       <td>277</td>
-      <td>649</td>
+      <td>650</td>
       <td>276</td>
       <td>2025-07-24</td>
       <td>2024-07-16</td>
@@ -1206,8 +1206,8 @@ The following charts show how these metrics are distributed across pairs of file
       <td>ts↔ts</td>
       <td>25</td>
       <td>4</td>
-      <td>catch-boundary-data-test↔catch-boundary-test</td>
-      <td>integration/catch-boundary-data-test.ts↔integration/catch-boundary-test.ts</td>
+      <td>action-test↔catch-boundary-test</td>
+      <td>integration/action-test.ts↔integration/catch-boundary-test.ts</td>
     </tr>
     <tr>
       <th>4</th>
@@ -1543,8 +1543,8 @@ This metric is useful to identify pairs of files that are frequently changed tog
       <td>ts↔ts</td>
       <td>0.800000</td>
       <td>2</td>
-      <td>vite-loader-context-test↔vite-node-env-test</td>
-      <td>integration/vite-loader-context-test.ts↔integration/vite-node-env-test.ts</td>
+      <td>vite-dotenv-test↔vite-node-env-test</td>
+      <td>integration/vite-dotenv-test.ts↔integration/vite-node-env-test.ts</td>
     </tr>
     <tr>
       <th>2</th>
@@ -1591,8 +1591,8 @@ This metric is useful to identify pairs of files that are frequently changed tog
       <td>ts↔ts</td>
       <td>0.428571</td>
       <td>8</td>
-      <td>vite↔vite-dot-client-test</td>
-      <td>integration/helpers/vite.ts↔integration/vite-dot-client-test.ts</td>
+      <td>vite-dev-test↔vite-dot-client-test</td>
+      <td>integration/vite-dev-test.ts↔integration/vite-dot-client-test.ts</td>
     </tr>
     <tr>
       <th>8</th>
@@ -1640,7 +1640,7 @@ This metric is useful to identify pairs of files that are frequently changed tog
       <td>0.676471</td>
       <td>4</td>
       <td>package↔package</td>
-      <td>examples/basic/package.json↔examples/custom-filter-link/package.json</td>
+      <td>examples/auth/package.json↔examples/custom-filter-link/package.json</td>
     </tr>
     <tr>
       <th>14</th>
@@ -1648,7 +1648,7 @@ This metric is useful to identify pairs of files that are frequently changed tog
       <td>0.666667</td>
       <td>5</td>
       <td>package↔package</td>
-      <td>examples/basic/package.json↔examples/custom-query-parsing/package.json</td>
+      <td>examples/custom-link/package.json↔examples/custom-query-parsing/package.json</td>
     </tr>
     <tr>
       <th>15</th>
@@ -1656,7 +1656,7 @@ This metric is useful to identify pairs of files that are frequently changed tog
       <td>0.656250</td>
       <td>6</td>
       <td>package↔package</td>
-      <td>examples/lazy-loading/package.json↔examples/multi-app/package.json</td>
+      <td>examples/basic/package.json↔examples/multi-app/package.json</td>
     </tr>
     <tr>
       <th>16</th>
@@ -1815,8 +1815,8 @@ This metric is useful to identify pairs of files that are frequently changed tog
       <td>tsx↔tsx</td>
       <td>0.409091</td>
       <td>6</td>
-      <td>data-memory-router-test↔entry.server</td>
-      <td>packages/react-router/__tests__/data-memory-router-test.tsx↔examples/ssr-data-router/src/entry.server.tsx</td>
+      <td>hooks↔entry.server</td>
+      <td>packages/react-router/lib/hooks.tsx↔examples/ssr-data-router/src/entry.server.tsx</td>
     </tr>
     <tr>
       <th>36</th>
@@ -1847,8 +1847,8 @@ This metric is useful to identify pairs of files that are frequently changed tog
       <td>tsx↔tsx</td>
       <td>0.384615</td>
       <td>10</td>
-      <td>components↔entry.client</td>
-      <td>packages/react-router/lib/components.tsx↔examples/ssr-data-router/src/entry.client.tsx</td>
+      <td>data-memory-router-test↔entry.client</td>
+      <td>packages/react-router/__tests__/data-memory-router-test.tsx↔examples/ssr-data-router/src/entry.client.tsx</td>
     </tr>
   </tbody>
 </table>
@@ -2372,7 +2372,7 @@ This metric is useful to identify pairs of files that are frequently changed tog
       <td>0.477273</td>
       <td>8</td>
       <td>package↔package</td>
-      <td>examples/lazy-loading/package.json↔examples/multi-app/package.json</td>
+      <td>examples/custom-query-parsing/package.json↔examples/multi-app/package.json</td>
     </tr>
     <tr>
       <th>18</th>
@@ -2646,7 +2646,7 @@ This is useful to identify pairs of files that score high in most metrics, which
       <td>0.702703</td>
       <td>0.541667</td>
       <td>58.020453</td>
-      <td>examples/auth/package.json↔examples/ssr/package.json</td>
+      <td>examples/search-params/package.json↔examples/ssr/package.json</td>
     </tr>
     <tr>
       <th>4</th>
@@ -2661,7 +2661,7 @@ This is useful to identify pairs of files that score high in most metrics, which
       <td>0.702703</td>
       <td>0.541667</td>
       <td>58.020453</td>
-      <td>examples/search-params/package.json↔examples/ssr/package.json</td>
+      <td>examples/auth/package.json↔examples/ssr/package.json</td>
     </tr>
     <tr>
       <th>5</th>
@@ -3331,7 +3331,7 @@ The frontier = the “best tradeoffs.”
       <td>2</td>
       <td>1</td>
       <td>39</td>
-      <td>examples/auth/package.json↔examples/ssr/package.json</td>
+      <td>examples/search-params/package.json↔examples/ssr/package.json</td>
     </tr>
     <tr>
       <th>8</th>
@@ -3345,7 +3345,7 @@ The frontier = the “best tradeoffs.”
       <td>2</td>
       <td>1</td>
       <td>39</td>
-      <td>examples/search-params/package.json↔examples/ssr/package.json</td>
+      <td>examples/auth/package.json↔examples/ssr/package.json</td>
     </tr>
     <tr>
       <th>9</th>

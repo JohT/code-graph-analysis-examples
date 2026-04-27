@@ -14,8 +14,8 @@ strict digraph TopAuthority4 {
 
 	graph   [label="Top Rank #4 Typescript Module Authority\n/home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.13.2/source/react-router-7.13.2/packages/react-router/lib/rsc/server.rsc.ts\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: Page Rank (normalized)\nlarge circle: > 80% percentile of Page Rank\nthick outline: > 80% percentile of Page Rank to Article Rank Difference\n\n"];
 	central [label="🏛️ authority #4\nserver"];
-	"react-router_206208"  [shape = "circle"; height=2; label = "react-router\n(100.0%)"; penwidth = 2; ]; "react-router_206208" -> central [label=9; weight=9; penwidth=0.4];
 	"react-router_206207"  [shape = "circle"; height=2; label = "react-router\n(44.45%)"; penwidth = 5; ]; "react-router_206207" -> central [label=9; weight=9; penwidth=0.4];
+	"react-router_206208"  [shape = "circle"; height=2; label = "react-router\n(100.0%)"; penwidth = 2; ]; "react-router_206208" -> central [label=9; weight=9; penwidth=0.4];
 	"react-router_206208"  [shape = "circle"; height=2; label = "react-router\n(100.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "react-router_206208" [label=175; weight=175; penwidth=0.5; color = 5];
 	"router_206232"  [label = "router\n(15.29%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "router_206232" [label=119; weight=119; penwidth=0.5; color = 5];
 	"utils_206233"  [shape = "circle"; height=2; label = "utils\n(43.92%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "utils_206233" [label=82; weight=82; penwidth=0.4; color = 5];
@@ -58,9 +58,9 @@ strict digraph TopAuthority4 {
 	"dom-export_206205" -> "react-router_206207" [label=1; weight=1; penwidth=0.3; color = 3]
 	"dom-export_206205" -> "react-router_206208" [label=1; weight=1; penwidth=0.3; color = 3]
 	"headers_206248" -> "utils_206233" [label=1; weight=1; penwidth=0.3; color = 3]
-	"react-router_206208" -> "dom-export_206205" [label=1; weight=1; penwidth=0.3; color = 3]
 	"react-router_206207" -> "router_206232" [label=1; weight=1; penwidth=0.3; color = 3]
 	"react-router_206207" -> "dom-export_206205" [label=1; weight=1; penwidth=0.3; color = 3]
+	"react-router_206208" -> "dom-export_206205" [label=1; weight=1; penwidth=0.3; color = 3]
 	"routeModules_206227" -> "history_206228" [label=1; weight=1; penwidth=0.3; color = 3]
 	"urls_206257" -> "history_206228" [label=1; weight=1; penwidth=0.3; color = 3]
 	"urls_206257" -> "react-router_206208" [label=1; weight=1; penwidth=0.3; color = 3]

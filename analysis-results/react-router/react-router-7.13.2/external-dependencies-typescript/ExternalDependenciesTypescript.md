@@ -2946,7 +2946,7 @@ Only the first 40 entries are shown. The whole table can be found in the followi
       <td>14</td>
       <td>6</td>
       <td>700.000000</td>
-      <td>[.emitKeypressEvents, node:readline, node:proc...</td>
+      <td>[beep, cursor, Key, .emitKeypressEvents, .crea...</td>
     </tr>
     <tr>
       <th>17</th>
@@ -3102,7 +3102,7 @@ Only the first 40 entries are shown. The whole table can be found in the followi
       <td>9</td>
       <td>5</td>
       <td>450.000000</td>
-      <td>[promises, .readFile, .unlink, .writeFile, .mk...</td>
+      <td>[.unlink, .mkdir, .writeFile, promises, .readF...</td>
     </tr>
     <tr>
       <th>30</th>
@@ -3114,7 +3114,7 @@ Only the first 40 entries are shown. The whole table can be found in the followi
       <td>9</td>
       <td>5</td>
       <td>450.000000</td>
-      <td>[path.PlatformPath.join, global.BufferConstruc...</td>
+      <td>[path.PlatformPath.join, global.Buffer.toStrin...</td>
     </tr>
     <tr>
       <th>31</th>
@@ -3150,7 +3150,7 @@ Only the first 40 entries are shown. The whole table can be found in the followi
       <td>8</td>
       <td>2</td>
       <td>400.000000</td>
-      <td>[cursor.move, cursor.restore, Key, erase, curs...</td>
+      <td>[cursor.move, erase.line, erase, cursor.down, ...</td>
     </tr>
     <tr>
       <th>34</th>
@@ -3162,7 +3162,7 @@ Only the first 40 entries are shown. The whole table can be found in the followi
       <td>4</td>
       <td>1</td>
       <td>400.000000</td>
-      <td>[Crypto.getRandomValues, KVNamespace.put, KVNa...</td>
+      <td>[KVNamespace.get, KVNamespace.put, KVNamespace...</td>
     </tr>
     <tr>
       <th>35</th>
@@ -3174,7 +3174,7 @@ Only the first 40 entries are shown. The whole table can be found in the followi
       <td>22</td>
       <td>2</td>
       <td>366.666667</td>
-      <td>[Response, EventContext, Crypto.getRandomValue...</td>
+      <td>[Response, EventContext, KVNamespace.get, KVNa...</td>
     </tr>
     <tr>
       <th>36</th>
@@ -3186,7 +3186,7 @@ Only the first 40 entries are shown. The whole table can be found in the followi
       <td>18</td>
       <td>2</td>
       <td>360.000000</td>
-      <td>[Response.status, Response, Headers.delete, Ev...</td>
+      <td>[Request.url, EventContext.env, EventContext, ...</td>
     </tr>
     <tr>
       <th>37</th>
