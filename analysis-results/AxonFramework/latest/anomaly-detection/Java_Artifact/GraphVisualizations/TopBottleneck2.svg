@@ -36,30 +36,30 @@
 <polygon fill="#ccece6" stroke="#ccece6" stroke-width="0.3" points="323.25,-462.61 319.12,-463.56 322.94,-465.39 323.25,-462.61"/>
 <text xml:space="preserve" text-anchor="middle" x="337.58" y="-467.25" font-family="Times,serif" font-size="4.00">1008</text>
 </g>
-<!-- axon&#45;spring&#45;boot&#45;autoconfigure&#45;5.0.3_49739&#45;&gt;central -->
+<!-- axon&#45;spring&#45;boot&#45;autoconfigure&#45;5.0.3_49734&#45;&gt;central -->
 <g id="edge2" class="edge">
-<title>axon&#45;spring&#45;boot&#45;autoconfigure&#45;5.0.3_49739&#45;&gt;central</title>
+<title>axon&#45;spring&#45;boot&#45;autoconfigure&#45;5.0.3_49734&#45;&gt;central</title>
 <path fill="none" stroke="#238b45" stroke-width="0.4" d="M633.26,-262.69C595.37,-232.42 535.24,-187.51 477.57,-157.69 432.42,-134.35 378.83,-115.14 335.44,-101.51"/>
 <polygon fill="#238b45" stroke="#238b45" stroke-width="0.4" points="336.09,-100.24 331.86,-100.39 335.26,-102.92 336.09,-100.24"/>
 <text xml:space="preserve" text-anchor="middle" x="475.56" y="-158.89" font-family="Times,serif" font-size="4.00">16</text>
 </g>
-<!-- axon&#45;spring&#45;boot&#45;autoconfigure&#45;5.0.3_49739&#45;&gt;axon&#45;messaging&#45;5.0.3_15653 -->
+<!-- axon&#45;spring&#45;boot&#45;autoconfigure&#45;5.0.3_49734&#45;&gt;axon&#45;messaging&#45;5.0.3_15653 -->
 <g id="edge12" class="edge">
-<title>axon&#45;spring&#45;boot&#45;autoconfigure&#45;5.0.3_49739&#45;&gt;axon&#45;messaging&#45;5.0.3_15653</title>
+<title>axon&#45;spring&#45;boot&#45;autoconfigure&#45;5.0.3_49734&#45;&gt;axon&#45;messaging&#45;5.0.3_15653</title>
 <path fill="none" stroke="#ccece6" stroke-width="0.3" d="M628.77,-327.12C583.32,-360.7 512.5,-413.01 468.19,-445.74"/>
 <polygon fill="#ccece6" stroke="#ccece6" stroke-width="0.3" points="467.54,-444.49 465.15,-447.99 469.2,-446.74 467.54,-444.49"/>
 <text xml:space="preserve" text-anchor="middle" x="544.7" y="-388.95" font-family="Times,serif" font-size="4.00">80</text>
 </g>
-<!-- axon&#45;spring&#45;boot&#45;autoconfigure&#45;5.0.3_49739&#45;&gt;axon&#45;eventsourcing&#45;5.0.3_9245 -->
+<!-- axon&#45;spring&#45;boot&#45;autoconfigure&#45;5.0.3_49734&#45;&gt;axon&#45;eventsourcing&#45;5.0.3_9245 -->
 <g id="edge14" class="edge">
-<title>axon&#45;spring&#45;boot&#45;autoconfigure&#45;5.0.3_49739&#45;&gt;axon&#45;eventsourcing&#45;5.0.3_9245</title>
+<title>axon&#45;spring&#45;boot&#45;autoconfigure&#45;5.0.3_49734&#45;&gt;axon&#45;eventsourcing&#45;5.0.3_9245</title>
 <path fill="none" stroke="#ccece6" stroke-width="0.3" d="M607.04,-267.01C566.98,-249.77 516.05,-227.86 477.14,-211.12"/>
 <polygon fill="#ccece6" stroke="#ccece6" stroke-width="0.3" points="478.06,-209.99 473.83,-209.69 476.95,-212.56 478.06,-209.99"/>
 <text xml:space="preserve" text-anchor="middle" x="538.07" y="-239.39" font-family="Times,serif" font-size="4.00">16</text>
 </g>
-<!-- axon&#45;spring&#45;boot&#45;autoconfigure&#45;5.0.3_49739&#45;&gt;axon&#45;common&#45;5.0.3_3169 -->
+<!-- axon&#45;spring&#45;boot&#45;autoconfigure&#45;5.0.3_49734&#45;&gt;axon&#45;common&#45;5.0.3_3169 -->
 <g id="edge11" class="edge">
-<title>axon&#45;spring&#45;boot&#45;autoconfigure&#45;5.0.3_49739&#45;&gt;axon&#45;common&#45;5.0.3_3169</title>
+<title>axon&#45;spring&#45;boot&#45;autoconfigure&#45;5.0.3_49734&#45;&gt;axon&#45;common&#45;5.0.3_3169</title>
 <path fill="none" stroke="#ccece6" stroke-width="0.3" d="M603.16,-322.15C521.27,-354.3 386.57,-407.19 312.56,-436.25"/>
 <polygon fill="#ccece6" stroke="#ccece6" stroke-width="0.3" points="312.28,-434.86 309.07,-437.62 313.3,-437.46 312.28,-434.86"/>
 <text xml:space="preserve" text-anchor="middle" x="452.75" y="-381.62" font-family="Times,serif" font-size="4.00">86</text>
@@ -128,9 +128,9 @@
 <text xml:space="preserve" text-anchor="middle" x="427.76" y="-479.21" font-family="Times,serif" font-size="12.00">axon&#45;messaging&#45;5.0.3</text>
 <text xml:space="preserve" text-anchor="middle" x="427.76" y="-464.81" font-family="Times,serif" font-size="12.00">(1.0)</text>
 </g>
-<!-- axon&#45;spring&#45;boot&#45;autoconfigure&#45;5.0.3_49739 -->
+<!-- axon&#45;spring&#45;boot&#45;autoconfigure&#45;5.0.3_49734 -->
 <g id="node3" class="node">
-<title>axon&#45;spring&#45;boot&#45;autoconfigure&#45;5.0.3_49739</title>
+<title>axon&#45;spring&#45;boot&#45;autoconfigure&#45;5.0.3_49734</title>
 <ellipse fill="#ccece6" stroke="#41ae76" stroke-width="5" cx="672.19" cy="-295.04" rx="107.97" ry="32.4"/>
 <text xml:space="preserve" text-anchor="middle" x="672.19" y="-298.64" font-family="Times,serif" font-size="12.00">axon&#45;spring&#45;boot&#45;autoconfigure&#45;5.0.3</text>
 <text xml:space="preserve" text-anchor="middle" x="672.19" y="-284.24" font-family="Times,serif" font-size="12.00">(6.0)</text>

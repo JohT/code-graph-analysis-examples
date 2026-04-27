@@ -15,7 +15,7 @@ strict digraph TopBottleneck2 {
 	graph   [label="Top Rank #2 Java Artifact Bottleneck\n/axon-conversion-5.0.3.jar\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: Betweenness centrality\nthick outline: > 90% percentile of Betweenness centrality\n\n"];
 	central [label="🔒 bottleneck #2\naxon-conversion-5.0.3"];
 	"axon-messaging-5.0.3_15653"  [label = "axon-messaging-5.0.3\n(1.0)"; penwidth = 2; ]; "axon-messaging-5.0.3_15653" -> central [label=74; weight=74; penwidth=0.6];
-	"axon-spring-boot-autoconfigure-5.0.3_49739"  [label = "axon-spring-boot-autoconfigure-5.0.3\n(6.0)"; penwidth = 5; ]; "axon-spring-boot-autoconfigure-5.0.3_49739" -> central [label=16; weight=16; penwidth=0.4];
+	"axon-spring-boot-autoconfigure-5.0.3_49734"  [label = "axon-spring-boot-autoconfigure-5.0.3\n(6.0)"; penwidth = 5; ]; "axon-spring-boot-autoconfigure-5.0.3_49734" -> central [label=16; weight=16; penwidth=0.4];
 	"axon-eventsourcing-5.0.3_9245"  [label = "axon-eventsourcing-5.0.3\n(6.0)"; penwidth = 5; ]; "axon-eventsourcing-5.0.3_9245" -> central [label=2; weight=2; penwidth=0.4];
 	"axon-modelling-5.0.3_45561"  [label = "axon-modelling-5.0.3\n(2.0)"; penwidth = 2; ]; "axon-modelling-5.0.3_45561" -> central [label=2; weight=2; penwidth=0.4];
 	"axon-common-5.0.3_3169"  [label = "axon-common-5.0.3\n(0.0)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "axon-common-5.0.3_3169" [label=30; weight=30; penwidth=0.5; color = 5];
@@ -24,8 +24,8 @@ strict digraph TopBottleneck2 {
 	"axon-modelling-5.0.3_45561" -> "axon-messaging-5.0.3_15653" [label=304; weight=304; penwidth=0.3; color = 3]
 	"axon-eventsourcing-5.0.3_9245" -> "axon-common-5.0.3_3169" [label=182; weight=182; penwidth=0.3; color = 3]
 	"axon-modelling-5.0.3_45561" -> "axon-common-5.0.3_3169" [label=182; weight=182; penwidth=0.3; color = 3]
-	"axon-spring-boot-autoconfigure-5.0.3_49739" -> "axon-common-5.0.3_3169" [label=86; weight=86; penwidth=0.3; color = 3]
-	"axon-spring-boot-autoconfigure-5.0.3_49739" -> "axon-messaging-5.0.3_15653" [label=80; weight=80; penwidth=0.3; color = 3]
+	"axon-spring-boot-autoconfigure-5.0.3_49734" -> "axon-common-5.0.3_3169" [label=86; weight=86; penwidth=0.3; color = 3]
+	"axon-spring-boot-autoconfigure-5.0.3_49734" -> "axon-messaging-5.0.3_15653" [label=80; weight=80; penwidth=0.3; color = 3]
 	"axon-eventsourcing-5.0.3_9245" -> "axon-modelling-5.0.3_45561" [label=54; weight=54; penwidth=0.3; color = 3]
-	"axon-spring-boot-autoconfigure-5.0.3_49739" -> "axon-eventsourcing-5.0.3_9245" [label=16; weight=16; penwidth=0.3; color = 3]
+	"axon-spring-boot-autoconfigure-5.0.3_49734" -> "axon-eventsourcing-5.0.3_9245" [label=16; weight=16; penwidth=0.3; color = 3]
 }

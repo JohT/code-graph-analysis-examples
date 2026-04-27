@@ -23,23 +23,23 @@ strict digraph TopHub5 {
 	"SimpleEventSourcedEntityModule_13026"  [label = "SimpleEventSourcedEntityModule\n(0.09)"; penwidth = 2; ]; "SimpleEventSourcedEntityModule_13026" -> central [label=16; weight=16; penwidth=0.6];
 	"AnnotatedEventSourcedEntityModule_12928"  [label = "AnnotatedEventSourcedEntityModule\n(0.11)"; penwidth = 2; ]; "AnnotatedEventSourcedEntityModule_12928" -> central [label=14; weight=14; penwidth=0.6];
 	"DefaultComponentRegistry$LocalConfiguration_6797"  [label = "DefaultComponentRegistry$\nLocalConfiguration\n(0.42)"; penwidth = 2; ]; "DefaultComponentRegistry$LocalConfiguration_6797" -> central [label=12; weight=12; penwidth=0.6];
-	"SimpleStateBasedEntityModule_48827"  [label = "SimpleStateBasedEntityModule\n(0.12)"; penwidth = 2; ]; "SimpleStateBasedEntityModule_48827" -> central [label=12; weight=12; penwidth=0.6];
+	"SimpleStateBasedEntityModule_48826"  [label = "SimpleStateBasedEntityModule\n(0.12)"; penwidth = 2; ]; "SimpleStateBasedEntityModule_48826" -> central [label=12; weight=12; penwidth=0.6];
 	"EventProcessorControlService_42873"  [label = "EventProcessorControlService\n(0.18)"; penwidth = 2; ]; "EventProcessorControlService_42873" -> central [label=11; weight=11; penwidth=0.6];
 	"DefaultDispatchInterceptorRegistry_32077"  [label = "DefaultDispatchInterceptorRegistry\n(0.18)"; penwidth = 2; ]; "DefaultDispatchInterceptorRegistry_32077" -> central [label=10; weight=10; penwidth=0.6];
 	"MessagingConfigurer_26227"  [label = "MessagingConfigurer\n(0.16)"; penwidth = 2; ]; "MessagingConfigurer_26227" -> central [label=10; weight=10; penwidth=0.6];
 	"MetricsConfigurationEnhancer_40019"  [label = "MetricsConfigurationEnhancer\n(0.12)"; penwidth = 2; ]; "MetricsConfigurationEnhancer_40019" -> central [label=10; weight=10; penwidth=0.6];
-	"InterceptorAutoConfiguration_49790"  [label = "InterceptorAutoConfiguration\n(0.3)"; penwidth = 2; ]; "InterceptorAutoConfiguration_49790" -> central [label=9; weight=9; penwidth=0.5];
+	"InterceptorAutoConfiguration_49785"  [label = "InterceptorAutoConfiguration\n(0.3)"; penwidth = 2; ]; "InterceptorAutoConfiguration_49785" -> central [label=9; weight=9; penwidth=0.5];
 	"AbstractComponent_5520"  [label = "AbstractComponent\n(0.33)"; penwidth = 2; ]; "AbstractComponent_5520" -> central [label=8; weight=8; penwidth=0.5];
 	"DefaultHandlerInterceptorRegistry_32076"  [label = "DefaultHandlerInterceptorRegistry\n(0.19)"; penwidth = 2; ]; "DefaultHandlerInterceptorRegistry_32076" -> central [label=8; weight=8; penwidth=0.5];
 	"HierarchicalConfiguration_6796"  [label = "HierarchicalConfiguration\n(0.83)"; penwidth = 2; ]; "HierarchicalConfiguration_6796" -> central [label=8; weight=8; penwidth=0.5];
 	"LifecycleRegistry_6297"  [label = "LifecycleRegistry\n(0.25)"; penwidth = 2; ]; "LifecycleRegistry_6297" -> central [label=8; weight=8; penwidth=0.5];
 	"PooledStreamingEventProcessorsConfigurer_24054"  [label = "PooledStreamingEventProcessorsConfigurer\n(0.24)"; penwidth = 2; ]; "PooledStreamingEventProcessorsConfigurer_24054" -> central [label=8; weight=8; penwidth=0.5];
 	"UpdateCheckerConfigurationEnhancer_39044"  [label = "UpdateCheckerConfigurationEnhancer\n(0.21)"; penwidth = 2; ]; "UpdateCheckerConfigurationEnhancer_39044" -> central [label=8; weight=8; penwidth=0.5];
-	"AxonServerAutoConfiguration_51045"  [label = "AxonServerAutoConfiguration\n(0.09)"; penwidth = 2; ]; "AxonServerAutoConfiguration_51045" -> central [label=7; weight=7; penwidth=0.5];
+	"AxonServerAutoConfiguration_51001"  [label = "AxonServerAutoConfiguration\n(0.09)"; penwidth = 2; ]; "AxonServerAutoConfiguration_51001" -> central [label=7; weight=7; penwidth=0.5];
 	"CommandHandlingModule$CommandHandlerPhase_18871"  [label = "CommandHandlingModule$\nCommandHandlerPhase\n(0.2)"; penwidth = 2; ]; "CommandHandlingModule$CommandHandlerPhase_18871" -> central [label=7; weight=7; penwidth=0.5];
 	"EventSourcingConfigurationDefaults_12955"  [label = "EventSourcingConfigurationDefaults\n(0.19)"; penwidth = 2; ]; "EventSourcingConfigurationDefaults_12955" -> central [label=7; weight=7; penwidth=0.5];
 	"QueryHandlingModule$QueryHandlerPhase_29244"  [label = "QueryHandlingModule$\nQueryHandlerPhase\n(0.2)"; penwidth = 2; ]; "QueryHandlingModule$QueryHandlerPhase_29244" -> central [label=7; weight=7; penwidth=0.5];
-	"AxonTimeoutAutoConfiguration$AxonTimeoutConfigurerModule_49858"  [label = "AxonTimeoutAutoConfiguration$\nAxonTimeoutConfigurerModule\n(0.13)"; penwidth = 2; ]; "AxonTimeoutAutoConfiguration$AxonTimeoutConfigurerModule_49858" -> central [label=6; weight=6; penwidth=0.5];
+	"AxonTimeoutAutoConfiguration$AxonTimeoutConfigurerModule_49853"  [label = "AxonTimeoutAutoConfiguration$\nAxonTimeoutConfigurerModule\n(0.13)"; penwidth = 2; ]; "AxonTimeoutAutoConfiguration$AxonTimeoutConfigurerModule_49853" -> central [label=6; weight=6; penwidth=0.5];
 	"ComponentDefinition_6307"  [label = "ComponentDefinition\n(0.21)"; penwidth = 2; ]; "ComponentDefinition_6307" -> central [label=6; weight=6; penwidth=0.5];
 	"DefaultMessageMonitorRegistry_16824"  [label = "DefaultMessageMonitorRegistry\n(0.18)"; penwidth = 2; ]; "DefaultMessageMonitorRegistry_16824" -> central [label=6; weight=6; penwidth=0.5];
 	"EventHandlingComponentsConfigurer$ComponentsPhase_26236"  [label = "EventHandlingComponentsConfigurer$\nComponentsPhase\n(0.15)"; penwidth = 2; ]; "EventHandlingComponentsConfigurer$ComponentsPhase_26236" -> central [label=6; weight=6; penwidth=0.5];
@@ -65,13 +65,13 @@ strict digraph TopHub5 {
 	"DefaultComponentRegistry$LocalConfiguration_6797" -> "DefaultComponentRegistry_5553" [label=13; weight=13; penwidth=0.3; color = 3]
 	"HierarchicalConfiguration_6796" -> "LifecycleRegistry_6297" [label=13; weight=13; penwidth=0.3; color = 3]
 	"DefaultComponentRegistry_5553" -> "LifecycleRegistry_6297" [label=10; weight=10; penwidth=0.3; color = 3]
-	"InterceptorAutoConfiguration_49790" -> "DispatchInterceptorRegistry_26224" [label=10; weight=10; penwidth=0.3; color = 3]
+	"InterceptorAutoConfiguration_49785" -> "DispatchInterceptorRegistry_26224" [label=10; weight=10; penwidth=0.3; color = 3]
 	"PooledStreamingEventProcessorsConfigurer_24054" -> "PooledStreamingEventProcessorModule_23085" [label=10; weight=10; penwidth=0.3; color = 3]
 	"SubscribingEventProcessorsConfigurer_25192" -> "SubscribingEventProcessorModule_25189" [label=10; weight=10; penwidth=0.3; color = 3]
 	"EventProcessingConfigurer_23953" -> "EventProcessorConfiguration_23060" [label=9; weight=9; penwidth=0.3; color = 3]
 	"PooledStreamingEventProcessorModule_23085" -> "ComponentDefinition_6307" [label=9; weight=9; penwidth=0.3; color = 3]
 	"AxonServerConfigurationEnhancer_42758" -> "EventProcessorControlService_42873" [label=6; weight=6; penwidth=0.3; color = 3]
-	"SimpleStateBasedEntityModule_48827" -> "ComponentDefinition_6307" [label=6; weight=6; penwidth=0.3; color = 3]
+	"SimpleStateBasedEntityModule_48826" -> "ComponentDefinition_6307" [label=6; weight=6; penwidth=0.3; color = 3]
 	"UpdateCheckerConfigurationEnhancer_39044" -> "ComponentDefinition_6307" [label=6; weight=6; penwidth=0.3; color = 3]
 	"AbstractComponent_5520" -> "LifecycleRegistry_6297" [label=5; weight=5; penwidth=0.3; color = 3]
 	"BaseModule_6912" -> "DefaultComponentRegistry_5553" [label=5; weight=5; penwidth=0.3; color = 3]
@@ -86,8 +86,8 @@ strict digraph TopHub5 {
 	"SimpleQueryHandlingModule_29377" -> "QueryHandlingModule$QueryHandlerPhase_29244" [label=5; weight=5; penwidth=0.3; color = 3]
 	"SubscribingEventProcessorModule_25189" -> "ComponentDefinition_6307" [label=5; weight=5; penwidth=0.3; color = 3]
 	"DefaultAxonApplication$AxonConfigurationImpl_5549" -> "TypeReference_5237" [label=4; weight=4; penwidth=0.3; color = 3]
-	"DefaultHandlerInterceptorRegistry_32076" -> "TypeReference_5237" [label=4; weight=4; penwidth=0.3; color = 3]
 	"DefaultHandlerInterceptorRegistry_32076" -> "ComponentDefinition_6307" [label=4; weight=4; penwidth=0.3; color = 3]
+	"DefaultHandlerInterceptorRegistry_32076" -> "TypeReference_5237" [label=4; weight=4; penwidth=0.3; color = 3]
 	"EventProcessingConfigurer_23953" -> "MessagingConfigurer_26227" [label=4; weight=4; penwidth=0.3; color = 3]
 	"AxonServerConfigurationEnhancer_42758" -> "AxonServerEventStorageEngineFactory_42865" [label=3; weight=3; penwidth=0.3; color = 3]
 	"DefaultComponentRegistry_5553" -> "DefaultComponentRegistry$LocalConfiguration_6797" [label=3; weight=3; penwidth=0.3; color = 3]
@@ -98,7 +98,7 @@ strict digraph TopHub5 {
 	"SimpleCommandHandlingModule_18859" -> "ComponentDefinition_6307" [label=3; weight=3; penwidth=0.3; color = 3]
 	"SimpleEventSourcedEntityModule_13026" -> "BaseModule_6912" [label=3; weight=3; penwidth=0.3; color = 3]
 	"SimpleQueryHandlingModule_29377" -> "ComponentDefinition_6307" [label=3; weight=3; penwidth=0.3; color = 3]
-	"SimpleStateBasedEntityModule_48827" -> "BaseModule_6912" [label=3; weight=3; penwidth=0.3; color = 3]
+	"SimpleStateBasedEntityModule_48826" -> "BaseModule_6912" [label=3; weight=3; penwidth=0.3; color = 3]
 	"SubscribingEventProcessorModule_25189" -> "EventProcessorConfiguration_23060" [label=3; weight=3; penwidth=0.3; color = 3]
 	"SubscribingEventProcessorsConfigurer_25192" -> "EventProcessingConfigurer_23953" [label=3; weight=3; penwidth=0.3; color = 3]
 	"AbstractComponent_5520" -> "ComponentDefinition_6307" [label=2; weight=2; penwidth=0.3; color = 3]
@@ -122,5 +122,5 @@ strict digraph TopHub5 {
 	"EventProcessorConfiguration_23060" -> "DescribableComponent_6293" [label=1; weight=1; penwidth=0.3; color = 3]
 	"MessagingConfigurer_26227" -> "LifecycleRegistry_6297" [label=1; weight=1; penwidth=0.3; color = 3]
 	"SimpleEventSourcedEntityModule_13026" -> "LifecycleRegistry_6297" [label=1; weight=1; penwidth=0.3; color = 3]
-	"SimpleStateBasedEntityModule_48827" -> "LifecycleRegistry_6297" [label=1; weight=1; penwidth=0.3; color = 3]
+	"SimpleStateBasedEntityModule_48826" -> "LifecycleRegistry_6297" [label=1; weight=1; penwidth=0.3; color = 3]
 }

@@ -273,30 +273,30 @@
 <polygon fill="#ccece6" stroke="#ccece6" stroke-width="0.3" points="601.68,-765.75 604.69,-768.74 604.2,-764.53 601.68,-765.75"/>
 <text xml:space="preserve" text-anchor="middle" x="539.97" y="-638.88" font-family="Times,serif" font-size="4.00">3</text>
 </g>
-<!-- SimpleStateBasedEntityModule_48827&#45;&gt;central -->
+<!-- SimpleStateBasedEntityModule_48826&#45;&gt;central -->
 <g id="edge10" class="edge">
-<title>SimpleStateBasedEntityModule_48827&#45;&gt;central</title>
+<title>SimpleStateBasedEntityModule_48826&#45;&gt;central</title>
 <path fill="none" stroke="#238b45" stroke-width="0.6" d="M935.94,-885.86C910.91,-843.8 866.67,-769.48 833.79,-714.23"/>
 <polygon fill="#238b45" stroke="#238b45" stroke-width="0.6" points="835.15,-713.79 831.9,-711.07 832.75,-715.22 835.15,-713.79"/>
 <text xml:space="preserve" text-anchor="middle" x="881.72" y="-799.32" font-family="Times,serif" font-size="4.00">12</text>
 </g>
-<!-- SimpleStateBasedEntityModule_48827&#45;&gt;LifecycleRegistry_6297 -->
+<!-- SimpleStateBasedEntityModule_48826&#45;&gt;LifecycleRegistry_6297 -->
 <g id="edge109" class="edge">
-<title>SimpleStateBasedEntityModule_48827&#45;&gt;LifecycleRegistry_6297</title>
+<title>SimpleStateBasedEntityModule_48826&#45;&gt;LifecycleRegistry_6297</title>
 <path fill="none" stroke="#ccece6" stroke-width="0.3" d="M930.99,-886.25C916.63,-867.26 898.5,-843.28 884,-824.11"/>
 <polygon fill="#ccece6" stroke="#ccece6" stroke-width="0.3" points="885.32,-823.54 881.8,-821.19 883.09,-825.23 885.32,-823.54"/>
 <text xml:space="preserve" text-anchor="middle" x="905.4" y="-854.93" font-family="Times,serif" font-size="4.00">1</text>
 </g>
-<!-- SimpleStateBasedEntityModule_48827&#45;&gt;ComponentDefinition_6307 -->
+<!-- SimpleStateBasedEntityModule_48826&#45;&gt;ComponentDefinition_6307 -->
 <g id="edge58" class="edge">
-<title>SimpleStateBasedEntityModule_48827&#45;&gt;ComponentDefinition_6307</title>
+<title>SimpleStateBasedEntityModule_48826&#45;&gt;ComponentDefinition_6307</title>
 <path fill="none" stroke="#ccece6" stroke-width="0.3" d="M957.62,-885.41C960.5,-843.75 965.44,-772.32 968.45,-728.67"/>
 <polygon fill="#ccece6" stroke="#ccece6" stroke-width="0.3" points="969.85,-728.82 968.73,-724.73 967.05,-728.62 969.85,-728.82"/>
 <text xml:space="preserve" text-anchor="middle" x="962.2" y="-805.98" font-family="Times,serif" font-size="4.00">6</text>
 </g>
-<!-- SimpleStateBasedEntityModule_48827&#45;&gt;BaseModule_6912 -->
+<!-- SimpleStateBasedEntityModule_48826&#45;&gt;BaseModule_6912 -->
 <g id="edge85" class="edge">
-<title>SimpleStateBasedEntityModule_48827&#45;&gt;BaseModule_6912</title>
+<title>SimpleStateBasedEntityModule_48826&#45;&gt;BaseModule_6912</title>
 <path fill="none" stroke="#ccece6" stroke-width="0.3" d="M966.89,-885.41C988.56,-823.42 1035.16,-690.11 1057.65,-625.79"/>
 <polygon fill="#ccece6" stroke="#ccece6" stroke-width="0.3" points="1058.95,-626.32 1058.95,-622.08 1056.31,-625.39 1058.95,-626.32"/>
 <text xml:space="preserve" text-anchor="middle" x="1011.97" y="-754.79" font-family="Times,serif" font-size="4.00">3</text>
@@ -378,16 +378,16 @@
 <polygon fill="#238b45" stroke="#238b45" stroke-width="0.6" points="754.72,-717.03 755.34,-712.84 752.24,-715.72 754.72,-717.03"/>
 <text xml:space="preserve" text-anchor="middle" x="632.98" y="-942.2" font-family="Times,serif" font-size="4.00">10</text>
 </g>
-<!-- InterceptorAutoConfiguration_49790&#45;&gt;central -->
+<!-- InterceptorAutoConfiguration_49785&#45;&gt;central -->
 <g id="edge15" class="edge">
-<title>InterceptorAutoConfiguration_49790&#45;&gt;central</title>
+<title>InterceptorAutoConfiguration_49785&#45;&gt;central</title>
 <path fill="none" stroke="#238b45" stroke-width="0.5" d="M688.11,-1099.6C705.53,-1023.04 748.87,-832.49 773.66,-723.51"/>
 <polygon fill="#238b45" stroke="#238b45" stroke-width="0.5" points="774.99,-723.98 774.51,-719.77 772.26,-723.36 774.99,-723.98"/>
 <text xml:space="preserve" text-anchor="middle" x="730.34" y="-910.76" font-family="Times,serif" font-size="4.00">9</text>
 </g>
-<!-- InterceptorAutoConfiguration_49790&#45;&gt;DispatchInterceptorRegistry_26224 -->
+<!-- InterceptorAutoConfiguration_49785&#45;&gt;DispatchInterceptorRegistry_26224 -->
 <g id="edge52" class="edge">
-<title>InterceptorAutoConfiguration_49790&#45;&gt;DispatchInterceptorRegistry_26224</title>
+<title>InterceptorAutoConfiguration_49785&#45;&gt;DispatchInterceptorRegistry_26224</title>
 <path fill="none" stroke="#ccece6" stroke-width="0.3" d="M652.77,-1101.45C599.24,-1040.96 482.18,-908.67 426.65,-845.92"/>
 <polygon fill="#ccece6" stroke="#ccece6" stroke-width="0.3" points="427.73,-845.03 424.03,-842.96 425.63,-846.88 427.73,-845.03"/>
 <text xml:space="preserve" text-anchor="middle" x="536.2" y="-973.17" font-family="Times,serif" font-size="4.00">10</text>
@@ -421,14 +421,14 @@
 <text xml:space="preserve" text-anchor="middle" x="718.63" y="-575.91" font-family="Times,serif" font-size="4.00">8</text>
 </g>
 <!-- DefaultHandlerInterceptorRegistry_32076&#45;&gt;ComponentDefinition_6307 -->
-<g id="edge74" class="edge">
+<g id="edge73" class="edge">
 <title>DefaultHandlerInterceptorRegistry_32076&#45;&gt;ComponentDefinition_6307</title>
 <path fill="none" stroke="#ccece6" stroke-width="0.3" d="M722.44,-555.83C778.87,-586.55 867.87,-635.01 922.67,-664.85"/>
 <polygon fill="#ccece6" stroke="#ccece6" stroke-width="0.3" points="921.97,-666.06 926.16,-666.75 923.31,-663.61 921.97,-666.06"/>
 <text xml:space="preserve" text-anchor="middle" x="823.44" y="-612.56" font-family="Times,serif" font-size="4.00">4</text>
 </g>
 <!-- DefaultHandlerInterceptorRegistry_32076&#45;&gt;TypeReference_5237 -->
-<g id="edge73" class="edge">
+<g id="edge74" class="edge">
 <title>DefaultHandlerInterceptorRegistry_32076&#45;&gt;TypeReference_5237</title>
 <path fill="none" stroke="#ccece6" stroke-width="0.3" d="M663.93,-560.49C654.56,-611.75 636.64,-709.81 626.86,-763.31"/>
 <polygon fill="#ccece6" stroke="#ccece6" stroke-width="0.3" points="625.53,-762.77 626.19,-766.95 628.29,-763.27 625.53,-762.77"/>
@@ -490,9 +490,9 @@
 <polygon fill="#ccece6" stroke="#ccece6" stroke-width="0.3" points="1022.56,-714.72 1018.35,-714.23 1021.33,-717.24 1022.56,-714.72"/>
 <text xml:space="preserve" text-anchor="middle" x="1070.35" y="-741.24" font-family="Times,serif" font-size="4.00">6</text>
 </g>
-<!-- AxonServerAutoConfiguration_51045&#45;&gt;central -->
+<!-- AxonServerAutoConfiguration_51001&#45;&gt;central -->
 <g id="edge22" class="edge">
-<title>AxonServerAutoConfiguration_51045&#45;&gt;central</title>
+<title>AxonServerAutoConfiguration_51001&#45;&gt;central</title>
 <path fill="none" stroke="#238b45" stroke-width="0.5" d="M1029.82,-141.26C989.93,-225.47 882.83,-451.57 826.9,-569.63"/>
 <polygon fill="#238b45" stroke="#238b45" stroke-width="0.5" points="825.71,-568.89 825.26,-573.1 828.24,-570.09 825.71,-568.89"/>
 <text xml:space="preserve" text-anchor="middle" x="926.32" y="-358.85" font-family="Times,serif" font-size="4.00">7</text>
@@ -525,9 +525,9 @@
 <polygon fill="#238b45" stroke="#238b45" stroke-width="0.5" points="855.11,-591.32 852.86,-594.91 856.86,-593.5 855.11,-591.32"/>
 <text xml:space="preserve" text-anchor="middle" x="1035.7" y="-449.14" font-family="Times,serif" font-size="4.00">7</text>
 </g>
-<!-- AxonTimeoutAutoConfiguration$AxonTimeoutConfigurerModule_49858&#45;&gt;central -->
+<!-- AxonTimeoutAutoConfiguration$AxonTimeoutConfigurerModule_49853&#45;&gt;central -->
 <g id="edge26" class="edge">
-<title>AxonTimeoutAutoConfiguration$AxonTimeoutConfigurerModule_49858&#45;&gt;central</title>
+<title>AxonTimeoutAutoConfiguration$AxonTimeoutConfigurerModule_49853&#45;&gt;central</title>
 <path fill="none" stroke="#238b45" stroke-width="0.5" d="M1311.53,-707.87C1186.19,-692.39 984.73,-667.53 873.02,-653.74"/>
 <polygon fill="#238b45" stroke="#238b45" stroke-width="0.5" points="873.32,-652.37 869.18,-653.27 872.98,-655.14 873.32,-652.37"/>
 <text xml:space="preserve" text-anchor="middle" x="1086.11" y="-681.36" font-family="Times,serif" font-size="4.00">6</text>
@@ -851,9 +851,9 @@
 <text xml:space="preserve" text-anchor="middle" x="460.75" y="-469.09" font-family="Times,serif" font-size="12.00">LocalConfiguration</text>
 <text xml:space="preserve" text-anchor="middle" x="460.75" y="-454.69" font-family="Times,serif" font-size="12.00">(0.42)</text>
 </g>
-<!-- SimpleStateBasedEntityModule_48827 -->
+<!-- SimpleStateBasedEntityModule_48826 -->
 <g id="node11" class="node">
-<title>SimpleStateBasedEntityModule_48827</title>
+<title>SimpleStateBasedEntityModule_48826</title>
 <ellipse fill="#ccece6" stroke="#41ae76" stroke-width="2" cx="955.34" cy="-918.45" rx="92.09" ry="32.4"/>
 <text xml:space="preserve" text-anchor="middle" x="955.34" y="-922.05" font-family="Times,serif" font-size="12.00">SimpleStateBasedEntityModule</text>
 <text xml:space="preserve" text-anchor="middle" x="955.34" y="-907.65" font-family="Times,serif" font-size="12.00">(0.12)</text>
@@ -886,9 +886,9 @@
 <text xml:space="preserve" text-anchor="middle" x="496.95" y="-1206.22" font-family="Times,serif" font-size="12.00">MetricsConfigurationEnhancer</text>
 <text xml:space="preserve" text-anchor="middle" x="496.95" y="-1191.82" font-family="Times,serif" font-size="12.00">(0.12)</text>
 </g>
-<!-- InterceptorAutoConfiguration_49790 -->
+<!-- InterceptorAutoConfiguration_49785 -->
 <g id="node16" class="node">
-<title>InterceptorAutoConfiguration_49790</title>
+<title>InterceptorAutoConfiguration_49785</title>
 <ellipse fill="#ccece6" stroke="#41ae76" stroke-width="2" cx="680.55" cy="-1132.84" rx="86.26" ry="32.4"/>
 <text xml:space="preserve" text-anchor="middle" x="680.55" y="-1136.44" font-family="Times,serif" font-size="12.00">InterceptorAutoConfiguration</text>
 <text xml:space="preserve" text-anchor="middle" x="680.55" y="-1122.04" font-family="Times,serif" font-size="12.00">(0.3)</text>
@@ -935,9 +935,9 @@
 <text xml:space="preserve" text-anchor="middle" x="1183.01" y="-798.03" font-family="Times,serif" font-size="12.00">UpdateCheckerConfigurationEnhancer</text>
 <text xml:space="preserve" text-anchor="middle" x="1183.01" y="-783.63" font-family="Times,serif" font-size="12.00">(0.21)</text>
 </g>
-<!-- AxonServerAutoConfiguration_51045 -->
+<!-- AxonServerAutoConfiguration_51001 -->
 <g id="node23" class="node">
-<title>AxonServerAutoConfiguration_51045</title>
+<title>AxonServerAutoConfiguration_51001</title>
 <ellipse fill="#ccece6" stroke="#41ae76" stroke-width="2" cx="1045.29" cy="-108.59" rx="89.37" ry="32.4"/>
 <text xml:space="preserve" text-anchor="middle" x="1045.29" y="-112.19" font-family="Times,serif" font-size="12.00">AxonServerAutoConfiguration</text>
 <text xml:space="preserve" text-anchor="middle" x="1045.29" y="-97.79" font-family="Times,serif" font-size="12.00">(0.09)</text>
@@ -965,9 +965,9 @@
 <text xml:space="preserve" text-anchor="middle" x="1259.75" y="-266.02" font-family="Times,serif" font-size="12.00">QueryHandlerPhase</text>
 <text xml:space="preserve" text-anchor="middle" x="1259.75" y="-251.62" font-family="Times,serif" font-size="12.00">(0.2)</text>
 </g>
-<!-- AxonTimeoutAutoConfiguration$AxonTimeoutConfigurerModule_49858 -->
+<!-- AxonTimeoutAutoConfiguration$AxonTimeoutConfigurerModule_49853 -->
 <g id="node27" class="node">
-<title>AxonTimeoutAutoConfiguration$AxonTimeoutConfigurerModule_49858</title>
+<title>AxonTimeoutAutoConfiguration$AxonTimeoutConfigurerModule_49853</title>
 <ellipse fill="#ccece6" stroke="#41ae76" stroke-width="2" cx="1422.03" cy="-721.51" rx="119.48" ry="33.6"/>
 <text xml:space="preserve" text-anchor="middle" x="1422.03" y="-732.31" font-family="Times,serif" font-size="12.00">AxonTimeoutAutoConfiguration$</text>
 <text xml:space="preserve" text-anchor="middle" x="1422.03" y="-717.91" font-family="Times,serif" font-size="12.00">AxonTimeoutConfigurerModule</text>

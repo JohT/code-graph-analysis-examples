@@ -31,7 +31,7 @@ strict digraph TopAuthority4 {
 	"DefaultMessageMonitorRegistry_16824"  [label = "DefaultMessageMonitorRegistry\n(0.26%)"; penwidth = 2; ]; "DefaultMessageMonitorRegistry_16824" -> central [label=5; weight=5; penwidth=0.5];
 	"InterceptingQueryBus_27298"  [label = "InterceptingQueryBus\n(0.0%)"; penwidth = 5; ]; "InterceptingQueryBus_27298" -> central [label=5; weight=5; penwidth=0.5];
 	"SimpleQueryUpdateEmitter_28337"  [label = "SimpleQueryUpdateEmitter\n(0.04%)"; penwidth = 2; ]; "SimpleQueryUpdateEmitter_28337" -> central [label=5; weight=5; penwidth=0.5];
-	"SimpleRepository_48702"  [label = "SimpleRepository\n(0.2%)"; penwidth = 2; ]; "SimpleRepository_48702" -> central [label=5; weight=5; penwidth=0.5];
+	"SimpleRepository_48701"  [label = "SimpleRepository\n(0.2%)"; penwidth = 2; ]; "SimpleRepository_48701" -> central [label=5; weight=5; penwidth=0.5];
 	"SubscribingEventProcessor_25191"  [label = "SubscribingEventProcessor\n(0.08%)"; penwidth = 2; ]; "SubscribingEventProcessor_25191" -> central [label=5; weight=5; penwidth=0.5];
 	"AbstractComponent_5520"  [label = "AbstractComponent\n(0.25%)"; penwidth = 2; ]; "AbstractComponent_5520" -> central [label=4; weight=4; penwidth=0.5];
 	"AxonServerCommandBusConnector_42880"  [label = "AxonServerCommandBusConnector\n(0.09%)"; penwidth = 2; ]; "AxonServerCommandBusConnector_42880" -> central [label=4; weight=4; penwidth=0.5];
@@ -57,7 +57,7 @@ strict digraph TopAuthority4 {
 	"PooledStreamingEventProcessor_23028" -> "PooledStreamingEventProcessorConfiguration_23088" [label=28; weight=28; penwidth=0.3; color = 3]
 	"PooledStreamingEventProcessorConfiguration_23088" -> "EventProcessorConfiguration_23060" [label=13; weight=13; penwidth=0.3; color = 3]
 	"AnnotatedEventHandlingComponent_19958" -> "SimpleEventHandlingComponent_18860" [label=10; weight=10; penwidth=0.3; color = 3]
-	"InMemoryRepository_49352" -> "SimpleRepository_48702" [label=9; weight=9; penwidth=0.3; color = 3]
+	"InMemoryRepository_49352" -> "SimpleRepository_48701" [label=9; weight=9; penwidth=0.3; color = 3]
 	"AnnotatedCommandHandlingComponent_17850" -> "SimpleCommandHandlingComponent_17824" [label=5; weight=5; penwidth=0.3; color = 3]
 	"AnnotatedQueryHandlingComponent_27240" -> "SimpleQueryHandlingComponent_27302" [label=5; weight=5; penwidth=0.3; color = 3]
 	"DecoratedComponent_7342" -> "AbstractComponent_5520" [label=4; weight=4; penwidth=0.3; color = 3]

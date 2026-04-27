@@ -1566,16 +1566,6 @@ The following table shows the top 30 methods with the highest effective lines of
     </tr>
     <tr>
       <th>6</th>
-      <td>61</td>
-      <td>axon-eventsourcing-5.0.3</td>
-      <td>org.axonframework.eventsourcing.annotation</td>
-      <td>AnnotationBasedEventCriteriaResolver$WrappedEv...</td>
-      <td>&lt;init&gt;</td>
-      <td>30</td>
-      <td>97</td>
-    </tr>
-    <tr>
-      <th>7</th>
       <td>18</td>
       <td>axon-conversion-5.0.3</td>
       <td>org.axonframework.conversion.avro</td>
@@ -1583,6 +1573,16 @@ The following table shows the top 30 methods with the highest effective lines of
       <td>convert</td>
       <td>30</td>
       <td>285</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>61</td>
+      <td>axon-eventsourcing-5.0.3</td>
+      <td>org.axonframework.eventsourcing.annotation</td>
+      <td>AnnotationBasedEventCriteriaResolver$WrappedEv...</td>
+      <td>&lt;init&gt;</td>
+      <td>30</td>
+      <td>97</td>
     </tr>
     <tr>
       <th>8</th>
@@ -1656,6 +1656,16 @@ The following table shows the top 30 methods with the highest effective lines of
     </tr>
     <tr>
       <th>15</th>
+      <td>8</td>
+      <td>axon-server-connector-5.0.3</td>
+      <td>org.axonframework.axonserver.connector.event</td>
+      <td>AggregateBasedAxonServerEventStorageEngine</td>
+      <td>lambda$appendEvents$0</td>
+      <td>21</td>
+      <td>540</td>
+    </tr>
+    <tr>
+      <th>16</th>
       <td>40</td>
       <td>axon-update-5.0.3</td>
       <td>org.axonframework.update</td>
@@ -1665,7 +1675,7 @@ The following table shows the top 30 methods with the highest effective lines of
       <td>169</td>
     </tr>
     <tr>
-      <th>16</th>
+      <th>17</th>
       <td>53</td>
       <td>axon-modelling-5.0.3</td>
       <td>org.axonframework.modelling.annotation</td>
@@ -1675,27 +1685,7 @@ The following table shows the top 30 methods with the highest effective lines of
       <td>120</td>
     </tr>
     <tr>
-      <th>17</th>
-      <td>14</td>
-      <td>axon-server-connector-5.0.3</td>
-      <td>org.axonframework.axonserver.connector.query</td>
-      <td>QueryConverter</td>
-      <td>convertQueryMessage</td>
-      <td>21</td>
-      <td>325</td>
-    </tr>
-    <tr>
       <th>18</th>
-      <td>16</td>
-      <td>axon-test-5.0.3</td>
-      <td>org.axonframework.test.matchers</td>
-      <td>DeepEqualsMatcher</td>
-      <td>matchingFields</td>
-      <td>21</td>
-      <td>318</td>
-    </tr>
-    <tr>
-      <th>19</th>
       <td>12</td>
       <td>axon-messaging-5.0.3</td>
       <td>org.axonframework.messaging.core.unitofwork</td>
@@ -1705,14 +1695,24 @@ The following table shows the top 30 methods with the highest effective lines of
       <td>375</td>
     </tr>
     <tr>
-      <th>20</th>
-      <td>8</td>
+      <th>19</th>
+      <td>14</td>
       <td>axon-server-connector-5.0.3</td>
-      <td>org.axonframework.axonserver.connector.event</td>
-      <td>AggregateBasedAxonServerEventStorageEngine</td>
-      <td>lambda$appendEvents$0</td>
+      <td>org.axonframework.axonserver.connector.query</td>
+      <td>QueryConverter</td>
+      <td>convertQueryMessage</td>
       <td>21</td>
-      <td>540</td>
+      <td>325</td>
+    </tr>
+    <tr>
+      <th>20</th>
+      <td>16</td>
+      <td>axon-test-5.0.3</td>
+      <td>org.axonframework.test.matchers</td>
+      <td>DeepEqualsMatcher</td>
+      <td>matchingFields</td>
+      <td>21</td>
+      <td>318</td>
     </tr>
     <tr>
       <th>21</th>
@@ -1726,16 +1726,6 @@ The following table shows the top 30 methods with the highest effective lines of
     </tr>
     <tr>
       <th>22</th>
-      <td>35</td>
-      <td>axon-server-connector-5.0.3</td>
-      <td>org.axonframework.axonserver.connector.command</td>
-      <td>CommandConverter</td>
-      <td>convertResultMessage</td>
-      <td>20</td>
-      <td>186</td>
-    </tr>
-    <tr>
-      <th>23</th>
       <td>20</td>
       <td>axon-messaging-5.0.3</td>
       <td>org.axonframework.messaging.core.configuration</td>
@@ -1745,7 +1735,7 @@ The following table shows the top 30 methods with the highest effective lines of
       <td>256</td>
     </tr>
     <tr>
-      <th>24</th>
+      <th>23</th>
       <td>10</td>
       <td>axon-eventsourcing-5.0.3</td>
       <td>org.axonframework.eventsourcing.eventstore.jpa</td>
@@ -1753,6 +1743,16 @@ The following table shows the top 30 methods with the highest effective lines of
       <td>withGapsCleaned</td>
       <td>20</td>
       <td>434</td>
+    </tr>
+    <tr>
+      <th>24</th>
+      <td>35</td>
+      <td>axon-server-connector-5.0.3</td>
+      <td>org.axonframework.axonserver.connector.command</td>
+      <td>CommandConverter</td>
+      <td>convertResultMessage</td>
+      <td>20</td>
+      <td>186</td>
     </tr>
     <tr>
       <th>25</th>
@@ -1766,16 +1766,6 @@ The following table shows the top 30 methods with the highest effective lines of
     </tr>
     <tr>
       <th>26</th>
-      <td>21</td>
-      <td>axon-messaging-5.0.3</td>
-      <td>org.axonframework.messaging.eventhandling.proc...</td>
-      <td>TrackerStatus</td>
-      <td>split</td>
-      <td>19</td>
-      <td>253</td>
-    </tr>
-    <tr>
-      <th>27</th>
       <td>29</td>
       <td>axon-messaging-5.0.3</td>
       <td>org.axonframework.messaging.eventhandling.proc...</td>
@@ -1785,7 +1775,7 @@ The following table shows the top 30 methods with the highest effective lines of
       <td>215</td>
     </tr>
     <tr>
-      <th>28</th>
+      <th>27</th>
       <td>7</td>
       <td>axon-eventsourcing-5.0.3</td>
       <td>org.axonframework.eventsourcing.eventstore</td>
@@ -1795,14 +1785,24 @@ The following table shows the top 30 methods with the highest effective lines of
       <td>605</td>
     </tr>
     <tr>
-      <th>29</th>
+      <th>28</th>
+      <td>21</td>
+      <td>axon-messaging-5.0.3</td>
+      <td>org.axonframework.messaging.eventhandling.proc...</td>
+      <td>TrackerStatus</td>
+      <td>split</td>
       <td>19</td>
-      <td>axon-modelling-5.0.3</td>
-      <td>org.axonframework.modelling.entity</td>
-      <td>ConcreteEntityMetamodel</td>
-      <td>&lt;init&gt;</td>
+      <td>253</td>
+    </tr>
+    <tr>
+      <th>29</th>
+      <td>28</td>
+      <td>axon-messaging-5.0.3</td>
+      <td>org.axonframework.messaging.commandhandling</td>
+      <td>SimpleCommandHandlingComponent</td>
+      <td>handle</td>
       <td>18</td>
-      <td>268</td>
+      <td>216</td>
     </tr>
   </tbody>
 </table>
@@ -2664,15 +2664,6 @@ The following table shows the top 30 packages with the highest cyclomatic comple
       <td>getExpectedRepresentation</td>
     </tr>
     <tr>
-      <th>19</th>
-      <td>axon-modelling-5.0.3</td>
-      <td>org.axonframework.modelling.entity</td>
-      <td>119</td>
-      <td>76</td>
-      <td>7</td>
-      <td>handleInstance</td>
-    </tr>
-    <tr>
       <th>43</th>
       <td>axon-messaging-5.0.3</td>
       <td>org.axonframework.messaging.eventstreaming</td>
@@ -2680,6 +2671,15 @@ The following table shows the top 30 packages with the highest cyclomatic comple
       <td>92</td>
       <td>4</td>
       <td>or</td>
+    </tr>
+    <tr>
+      <th>19</th>
+      <td>axon-modelling-5.0.3</td>
+      <td>org.axonframework.modelling.entity</td>
+      <td>119</td>
+      <td>76</td>
+      <td>7</td>
+      <td>handleInstance</td>
     </tr>
     <tr>
       <th>28</th>
@@ -2782,20 +2782,20 @@ The following table shows the top 30 packages containing the methods with the hi
     </tr>
     <tr>
       <th>4</th>
-      <td>67</td>
-      <td>axon-conversion-5.0.3</td>
-      <td>org.axonframework.conversion.jackson</td>
-      <td>JacksonConverter</td>
-      <td>convert</td>
-      <td>17</td>
-    </tr>
-    <tr>
-      <th>5</th>
       <td>46</td>
       <td>axon-update-5.0.3</td>
       <td>org.axonframework.update.api</td>
       <td>UpdateCheckResponse</td>
       <td>fromRequest</td>
+      <td>17</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>67</td>
+      <td>axon-conversion-5.0.3</td>
+      <td>org.axonframework.conversion.jackson</td>
+      <td>JacksonConverter</td>
+      <td>convert</td>
       <td>17</td>
     </tr>
     <tr>
@@ -2809,6 +2809,15 @@ The following table shows the top 30 packages containing the methods with the hi
     </tr>
     <tr>
       <th>7</th>
+      <td>32</td>
+      <td>axon-test-5.0.3</td>
+      <td>org.axonframework.test.server</td>
+      <td>AxonServerContainer</td>
+      <td>equals</td>
+      <td>13</td>
+    </tr>
+    <tr>
+      <th>8</th>
       <td>4</td>
       <td>axon-messaging-5.0.3</td>
       <td>org.axonframework.messaging.core.annotation</td>
@@ -2817,21 +2826,12 @@ The following table shows the top 30 packages containing the methods with the hi
       <td>13</td>
     </tr>
     <tr>
-      <th>8</th>
+      <th>9</th>
       <td>33</td>
       <td>axon-eventsourcing-5.0.3</td>
       <td>org.axonframework.eventsourcing.annotation.ref...</td>
       <td>AnnotationBasedEventSourcedEntityFactory</td>
       <td>addEntityCreatorExecutable</td>
-      <td>13</td>
-    </tr>
-    <tr>
-      <th>9</th>
-      <td>32</td>
-      <td>axon-test-5.0.3</td>
-      <td>org.axonframework.test.server</td>
-      <td>AxonServerContainer</td>
-      <td>equals</td>
       <td>13</td>
     </tr>
     <tr>
@@ -2890,15 +2890,6 @@ The following table shows the top 30 packages containing the methods with the hi
     </tr>
     <tr>
       <th>16</th>
-      <td>6</td>
-      <td>axon-common-5.0.3</td>
-      <td>org.axonframework.common</td>
-      <td>ReflectionUtils</td>
-      <td>fieldNameFromMember</td>
-      <td>9</td>
-    </tr>
-    <tr>
-      <th>17</th>
       <td>1</td>
       <td>axon-messaging-5.0.3</td>
       <td>org.axonframework.messaging.core</td>
@@ -2907,12 +2898,21 @@ The following table shows the top 30 packages containing the methods with the hi
       <td>9</td>
     </tr>
     <tr>
-      <th>18</th>
-      <td>24</td>
+      <th>17</th>
+      <td>6</td>
       <td>axon-common-5.0.3</td>
-      <td>org.axonframework.common.caching</td>
-      <td>EhCacheAdapter$CacheEventListenerAdapter</td>
-      <td>onEvent</td>
+      <td>org.axonframework.common</td>
+      <td>ReflectionUtils</td>
+      <td>fieldNameFromMember</td>
+      <td>9</td>
+    </tr>
+    <tr>
+      <th>18</th>
+      <td>7</td>
+      <td>axon-eventsourcing-5.0.3</td>
+      <td>org.axonframework.eventsourcing.eventstore</td>
+      <td>AggregateBasedConsistencyMarker</td>
+      <td>from</td>
       <td>8</td>
     </tr>
     <tr>
@@ -2926,33 +2926,6 @@ The following table shows the top 30 packages containing the methods with the hi
     </tr>
     <tr>
       <th>20</th>
-      <td>37</td>
-      <td>axon-modelling-5.0.3</td>
-      <td>org.axonframework.modelling.entity.child</td>
-      <td>FieldChildEntityFieldDefinition</td>
-      <td>evolveParentBasedOnChildInput</td>
-      <td>8</td>
-    </tr>
-    <tr>
-      <th>21</th>
-      <td>60</td>
-      <td>axon-test-5.0.3</td>
-      <td>org.axonframework.test.extension</td>
-      <td>ProvidedAxonTestFixtureUtils</td>
-      <td>findOnMethods</td>
-      <td>8</td>
-    </tr>
-    <tr>
-      <th>22</th>
-      <td>9</td>
-      <td>axon-messaging-5.0.3</td>
-      <td>org.axonframework.messaging.eventhandling.proc...</td>
-      <td>JdbcTokenStore</td>
-      <td>updateToken</td>
-      <td>8</td>
-    </tr>
-    <tr>
-      <th>23</th>
       <td>21</td>
       <td>axon-messaging-5.0.3</td>
       <td>org.axonframework.messaging.eventhandling.proc...</td>
@@ -2961,34 +2934,7 @@ The following table shows the top 30 packages containing the methods with the hi
       <td>8</td>
     </tr>
     <tr>
-      <th>24</th>
-      <td>3</td>
-      <td>axon-common-5.0.3</td>
-      <td>org.axonframework.common.configuration</td>
-      <td>DefaultComponentRegistry</td>
-      <td>hasComponent</td>
-      <td>8</td>
-    </tr>
-    <tr>
-      <th>25</th>
-      <td>7</td>
-      <td>axon-eventsourcing-5.0.3</td>
-      <td>org.axonframework.eventsourcing.eventstore</td>
-      <td>AggregateBasedConsistencyMarker</td>
-      <td>from</td>
-      <td>8</td>
-    </tr>
-    <tr>
-      <th>26</th>
-      <td>10</td>
-      <td>axon-eventsourcing-5.0.3</td>
-      <td>org.axonframework.eventsourcing.eventstore.jpa</td>
-      <td>GapAwareTrackingTokenOperations</td>
-      <td>withGapsCleaned</td>
-      <td>8</td>
-    </tr>
-    <tr>
-      <th>27</th>
+      <th>21</th>
       <td>16</td>
       <td>axon-test-5.0.3</td>
       <td>org.axonframework.test.matchers</td>
@@ -2997,21 +2943,75 @@ The following table shows the top 30 packages containing the methods with the hi
       <td>8</td>
     </tr>
     <tr>
+      <th>22</th>
+      <td>60</td>
+      <td>axon-test-5.0.3</td>
+      <td>org.axonframework.test.extension</td>
+      <td>ProvidedAxonTestFixtureUtils</td>
+      <td>findOnMethods</td>
+      <td>8</td>
+    </tr>
+    <tr>
+      <th>23</th>
+      <td>24</td>
+      <td>axon-common-5.0.3</td>
+      <td>org.axonframework.common.caching</td>
+      <td>EhCacheAdapter$CacheEventListenerAdapter</td>
+      <td>onEvent</td>
+      <td>8</td>
+    </tr>
+    <tr>
+      <th>24</th>
+      <td>37</td>
+      <td>axon-modelling-5.0.3</td>
+      <td>org.axonframework.modelling.entity.child</td>
+      <td>FieldChildEntityFieldDefinition</td>
+      <td>evolveParentBasedOnChildInput</td>
+      <td>8</td>
+    </tr>
+    <tr>
+      <th>25</th>
+      <td>3</td>
+      <td>axon-common-5.0.3</td>
+      <td>org.axonframework.common.configuration</td>
+      <td>DefaultComponentRegistry</td>
+      <td>hasComponent</td>
+      <td>8</td>
+    </tr>
+    <tr>
+      <th>26</th>
+      <td>9</td>
+      <td>axon-messaging-5.0.3</td>
+      <td>org.axonframework.messaging.eventhandling.proc...</td>
+      <td>JdbcTokenStore</td>
+      <td>updateToken</td>
+      <td>8</td>
+    </tr>
+    <tr>
+      <th>27</th>
+      <td>10</td>
+      <td>axon-eventsourcing-5.0.3</td>
+      <td>org.axonframework.eventsourcing.eventstore.jpa</td>
+      <td>GapAwareTrackingTokenOperations</td>
+      <td>withGapsCleaned</td>
+      <td>8</td>
+    </tr>
+    <tr>
       <th>28</th>
+      <td>38</td>
+      <td>axon-conversion-5.0.3</td>
+      <td>org.axonframework.conversion</td>
+      <td>ChainingContentTypeConverter</td>
+      <td>convert</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <th>29</th>
       <td>77</td>
       <td>axon-common-5.0.3</td>
       <td>org.axonframework.common.util</td>
       <td>PriorityRunnable</td>
       <td>equals</td>
-      <td>7</td>
-    </tr>
-    <tr>
-      <th>29</th>
-      <td>25</td>
-      <td>axon-common-5.0.3</td>
-      <td>org.axonframework.common.infra</td>
-      <td>FilesystemStyleComponentDescriptor$TreeRenderer</td>
-      <td>renderProperty</td>
       <td>7</td>
     </tr>
   </tbody>

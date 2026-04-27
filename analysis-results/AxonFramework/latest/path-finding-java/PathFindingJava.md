@@ -705,7 +705,7 @@ In this section we'll focus only on pairs of nodes that both belong to the same 
       <td>335</td>
       <td>57</td>
       <td>30</td>
-      <td>[/org/axonframework/messaging/eventhandling/tracing -&gt; /org/axonframework/messaging/commandhandling, /org/axonframework/messaging/eventstreaming -&gt; /org/axonframework/messaging/commandhandling, /org/axonframework/messaging/queryhandling -&gt; /org/axonframework/messaging/commandhandling, /org/axonf...</td>
+      <td>[/org/axonframework/messaging/eventhandling/processing/streaming/pooled -&gt; /org/axonframework/messaging/monitoring/interception, /org/axonframework/messaging/eventhandling/processing/subscribing -&gt; /org/axonframework/messaging/monitoring/interception, /org/axonframework/messaging/eventhandling/r...</td>
       <td>[axon-messaging-5.0.3 -&gt; axon-messaging-5.0.3]</td>
       <td>[]</td>
     </tr>
@@ -746,10 +746,10 @@ Shows the top 20 artifacts with the longest shortest path (=Graph Diameter).
     axon-eventsourcing-5.0.3                3
     axon-modelling-5.0.3                    3
     axon-common-5.0.3                       2
-    axon-metrics-micrometer-5.0.3           2
     axon-server-connector-5.0.3             2
-    axon-spring-boot-autoconfigure-5.0.3    2
+    axon-metrics-micrometer-5.0.3           2
     axon-test-5.0.3                         2
+    axon-spring-boot-autoconfigure-5.0.3    2
     axon-conversion-5.0.3                   1
     axon-update-5.0.3                       1
     Name: distance, dtype: int64
@@ -981,7 +981,7 @@ First, we'll have a look at the overall/total result of the longest path algorit
       <td>9</td>
       <td>4</td>
       <td>10</td>
-      <td>2</td>
+      <td>1</td>
       <td>10</td>
     </tr>
     <tr>
@@ -1118,9 +1118,9 @@ The following table shows the first 10 rows with all details of the query above.
       <td>14</td>
       <td>7</td>
       <td>14</td>
-      <td>3</td>
-      <td>3</td>
-      <td>3</td>
+      <td>4</td>
+      <td>4</td>
+      <td>4</td>
       <td>[/org/axonframework/messaging/eventhandling/replay/annotation -&gt; /org/axonframework/messaging/eventhandling/replay, /org/axonframework/messaging/commandhandling/retry -&gt; /org/axonframework/messaging/core/retry, /org/axonframework/messaging/core/reflection -&gt; /org/axonframework/messaging/core/con...</td>
       <td>[axon-messaging-5.0.3 -&gt; axon-messaging-5.0.3]</td>
       <td>[]</td>
@@ -1194,9 +1194,9 @@ The following table shows the first 10 rows with all details of the query above.
       <td>28</td>
       <td>3</td>
       <td>28</td>
-      <td>18</td>
+      <td>19</td>
       <td>1</td>
-      <td>18</td>
+      <td>19</td>
       <td>[/org/axonframework/extension/metrics/micrometer/springboot -&gt; /org/axonframework/eventsourcing/eventstore/jpa, /org/axonframework/extension/metrics/micrometer/springboot -&gt; /org/axonframework/conversion/jackson, /org/axonframework/extension/metrics/micrometer/springboot -&gt; /org/axonframework/co...</td>
       <td>[axon-metrics-micrometer-5.0.3 -&gt; axon-eventsourcing-5.0.3, axon-metrics-micrometer-5.0.3 -&gt; axon-conversion-5.0.3, axon-metrics-micrometer-5.0.3 -&gt; axon-messaging-5.0.3, axon-metrics-micrometer-5.0.3 -&gt; axon-update-5.0.3]</td>
       <td>[]</td>
@@ -1230,12 +1230,12 @@ The following table shows the first 10 rows with all details of the query above.
       <td>None</td>
       <td>4</td>
       <td>10</td>
-      <td>2</td>
-      <td>10</td>
-      <td>7</td>
       <td>1</td>
-      <td>7</td>
-      <td>[/org/axonframework/extension/metrics/micrometer/springboot -&gt; /org/axonframework/common/tx, /org/axonframework/extension/metrics/micrometer/springboot -&gt; /org/axonframework/common/function, /org/axonframework/extension/metrics/micrometer/springboot -&gt; /org/axonframework/messaging/commandhandlin...</td>
+      <td>10</td>
+      <td>10</td>
+      <td>1</td>
+      <td>10</td>
+      <td>[/org/axonframework/extension/metrics/micrometer/springboot -&gt; /org/axonframework/common, /org/axonframework/extension/metrics/micrometer/springboot -&gt; /org/axonframework/common/tx, /org/axonframework/extension/metrics/micrometer/springboot -&gt; /org/axonframework/common/function, /org/axonframewo...</td>
       <td>[axon-metrics-micrometer-5.0.3 -&gt; axon-common-5.0.3, axon-metrics-micrometer-5.0.3 -&gt; axon-messaging-5.0.3, axon-metrics-micrometer-5.0.3 -&gt; axon-update-5.0.3]</td>
       <td>[]</td>
     </tr>
@@ -1309,9 +1309,9 @@ In this section we'll focus only on pairs of nodes that both belong to the same 
       <td>14</td>
       <td>7</td>
       <td>14</td>
-      <td>3</td>
-      <td>3</td>
-      <td>3</td>
+      <td>4</td>
+      <td>4</td>
+      <td>4</td>
       <td>[/org/axonframework/messaging/eventhandling/replay/annotation -&gt; /org/axonframework/messaging/eventhandling/replay, /org/axonframework/messaging/commandhandling/retry -&gt; /org/axonframework/messaging/core/retry, /org/axonframework/messaging/core/reflection -&gt; /org/axonframework/messaging/core/con...</td>
       <td>[axon-messaging-5.0.3 -&gt; axon-messaging-5.0.3]</td>
       <td>[]</td>
@@ -1427,8 +1427,8 @@ Shows the top 20 artifacts with their max. longest path.
     sourceProject
     axon-test-5.0.3                  3
     axon-metrics-micrometer-5.0.3    2
-    axon-eventsourcing-5.0.3         1
     axon-messaging-5.0.3             1
+    axon-eventsourcing-5.0.3         1
     Name: distance, dtype: int64
 
 
@@ -1476,6 +1476,12 @@ Shows the top 50 artifacts with the highest number of dependency paths stacked b
   </thead>
   <tbody>
     <tr>
+      <th>axon-messaging-5.0.3</th>
+      <td>100.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+    </tr>
+    <tr>
       <th>axon-test-5.0.3</th>
       <td>25.0</td>
       <td>50.0</td>
@@ -1483,12 +1489,6 @@ Shows the top 50 artifacts with the highest number of dependency paths stacked b
     </tr>
     <tr>
       <th>axon-eventsourcing-5.0.3</th>
-      <td>100.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-    </tr>
-    <tr>
-      <th>axon-messaging-5.0.3</th>
       <td>100.0</td>
       <td>0.0</td>
       <td>0.0</td>

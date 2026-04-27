@@ -41,7 +41,7 @@ strict digraph TopHub2 {
 	"PooledStreamingEventProcessor_23028"  [label = "PooledStreamingEventProcessor\n(0.19)"; penwidth = 2; ]; "PooledStreamingEventProcessor_23028" -> central [label=1; weight=1; penwidth=0.4];
 	"PropertySequencingPolicy_34653"  [label = "PropertySequencingPolicy\n(0.17)"; penwidth = 2; ]; "PropertySequencingPolicy_34653" -> central [label=1; weight=1; penwidth=0.4];
 	"SimpleEntry_31479"  [label = "SimpleEntry\n(0.4)"; penwidth = 2; ]; "SimpleEntry_31479" -> central [label=1; weight=1; penwidth=0.4];
-	"SimpleStateManager_48534"  [label = "SimpleStateManager\n(0.16)"; penwidth = 2; ]; "SimpleStateManager_48534" -> central [label=1; weight=1; penwidth=0.4];
+	"SimpleStateManager_48533"  [label = "SimpleStateManager\n(0.16)"; penwidth = 2; ]; "SimpleStateManager_48533" -> central [label=1; weight=1; penwidth=0.4];
 	"SpecificRecordBaseConverterStrategy_15266"  [label = "SpecificRecordBaseConverterStrategy\n(0.25)"; penwidth = 2; ]; "SpecificRecordBaseConverterStrategy_15266" -> central [label=1; weight=1; penwidth=0.4];
 	"SubscribingEventProcessor_25191"  [label = "SubscribingEventProcessor\n(0.15)"; penwidth = 2; ]; "SubscribingEventProcessor_25191" -> central [label=1; weight=1; penwidth=0.4];
 	"TracingHandlerEnhancerDefinition_38244"  [label = "TracingHandlerEnhancerDefinition\n(0.33)"; penwidth = 2; ]; "TracingHandlerEnhancerDefinition_38244" -> central [label=1; weight=1; penwidth=0.4];

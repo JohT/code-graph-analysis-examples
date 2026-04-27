@@ -48,9 +48,9 @@
       <td>21.870886</td>
       <td>11.225316</td>
       <td>166.854430</td>
-      <td>57.267089</td>
-      <td>193.781013</td>
-      <td>152.581013</td>
+      <td>63.267089</td>
+      <td>199.165823</td>
+      <td>157.824051</td>
     </tr>
     <tr>
       <th>std</th>
@@ -58,53 +58,53 @@
       <td>12.024368</td>
       <td>359.925155</td>
       <td>6.964935</td>
-      <td>185.168868</td>
-      <td>159.942798</td>
+      <td>185.118026</td>
+      <td>159.946983</td>
     </tr>
     <tr>
       <th>min</th>
       <td>1.000000</td>
       <td>2.000000</td>
       <td>4.000000</td>
-      <td>46.000000</td>
-      <td>50.000000</td>
-      <td>46.000000</td>
+      <td>52.000000</td>
+      <td>55.000000</td>
+      <td>51.000000</td>
     </tr>
     <tr>
       <th>25%</th>
       <td>2.000000</td>
       <td>4.000000</td>
       <td>23.000000</td>
-      <td>55.000000</td>
-      <td>102.000000</td>
-      <td>55.000000</td>
+      <td>61.000000</td>
+      <td>107.000000</td>
+      <td>60.000000</td>
     </tr>
     <tr>
       <th>50%</th>
       <td>4.000000</td>
       <td>7.000000</td>
       <td>46.000000</td>
-      <td>57.000000</td>
-      <td>154.000000</td>
-      <td>106.000000</td>
+      <td>63.000000</td>
+      <td>160.000000</td>
+      <td>111.000000</td>
     </tr>
     <tr>
       <th>75%</th>
       <td>11.000000</td>
       <td>12.000000</td>
       <td>155.000000</td>
-      <td>57.000000</td>
-      <td>166.000000</td>
-      <td>155.000000</td>
+      <td>63.000000</td>
+      <td>172.000000</td>
+      <td>160.000000</td>
     </tr>
     <tr>
       <th>max</th>
       <td>2771.000000</td>
       <td>117.000000</td>
       <td>6350.000000</td>
-      <td>76.000000</td>
-      <td>2836.000000</td>
-      <td>683.000000</td>
+      <td>82.000000</td>
+      <td>2842.000000</td>
+      <td>688.000000</td>
     </tr>
   </tbody>
 </table>
@@ -152,9 +152,9 @@
       <td>Allard Buijze</td>
       <td>Jan Galinski</td>
       <td>28</td>
-      <td>57</td>
-      <td>467</td>
-      <td>467</td>
+      <td>63</td>
+      <td>472</td>
+      <td>472</td>
       <td>2026-02-23</td>
       <td>2025-01-09</td>
       <td>2025-01-09</td>
@@ -172,9 +172,9 @@
       <td>Allard Buijze</td>
       <td>Jan Galinski</td>
       <td>53</td>
-      <td>57</td>
-      <td>467</td>
-      <td>242</td>
+      <td>63</td>
+      <td>472</td>
+      <td>247</td>
       <td>2026-02-23</td>
       <td>2025-01-09</td>
       <td>2025-08-22</td>
@@ -192,9 +192,9 @@
       <td>Allard Buijze</td>
       <td>Jan Galinski</td>
       <td>29</td>
-      <td>46</td>
-      <td>154</td>
-      <td>46</td>
+      <td>52</td>
+      <td>160</td>
+      <td>51</td>
       <td>2026-03-06</td>
       <td>2025-11-17</td>
       <td>2026-03-06</td>
@@ -212,9 +212,9 @@
       <td>Allard Buijze</td>
       <td>Jan Galinski</td>
       <td>87</td>
-      <td>57</td>
-      <td>168</td>
-      <td>168</td>
+      <td>63</td>
+      <td>173</td>
+      <td>173</td>
       <td>2026-02-23</td>
       <td>2025-11-04</td>
       <td>2025-11-04</td>
@@ -232,9 +232,9 @@
       <td>Allard Buijze</td>
       <td>Jan Galinski</td>
       <td>76</td>
-      <td>57</td>
-      <td>258</td>
-      <td>140</td>
+      <td>63</td>
+      <td>263</td>
+      <td>146</td>
       <td>2026-02-23</td>
       <td>2025-08-06</td>
       <td>2025-12-01</td>
@@ -252,9 +252,9 @@
       <td>Allard Buijze</td>
       <td>Jan Galinski</td>
       <td>15</td>
-      <td>57</td>
-      <td>166</td>
-      <td>166</td>
+      <td>63</td>
+      <td>171</td>
+      <td>171</td>
       <td>2026-02-23</td>
       <td>2025-11-06</td>
       <td>2025-11-06</td>
@@ -272,9 +272,9 @@
       <td>Allard Buijze</td>
       <td>Jan Galinski</td>
       <td>22</td>
-      <td>57</td>
-      <td>154</td>
-      <td>92</td>
+      <td>63</td>
+      <td>160</td>
+      <td>97</td>
       <td>2026-02-23</td>
       <td>2025-11-17</td>
       <td>2026-01-19</td>
@@ -292,9 +292,9 @@
       <td>Allard Buijze</td>
       <td>Jakob Hatzl</td>
       <td>67</td>
-      <td>46</td>
-      <td>154</td>
-      <td>46</td>
+      <td>52</td>
+      <td>160</td>
+      <td>51</td>
       <td>2026-03-06</td>
       <td>2025-11-17</td>
       <td>2026-03-06</td>
@@ -312,9 +312,9 @@
       <td>Allard Buijze</td>
       <td>Frank Versnel</td>
       <td>79</td>
-      <td>57</td>
-      <td>167</td>
-      <td>155</td>
+      <td>63</td>
+      <td>173</td>
+      <td>160</td>
       <td>2026-02-23</td>
       <td>2025-11-04</td>
       <td>2025-11-17</td>
@@ -332,9 +332,9 @@
       <td>Allard Buijze</td>
       <td>Frank Versnel</td>
       <td>97</td>
-      <td>57</td>
-      <td>167</td>
-      <td>155</td>
+      <td>63</td>
+      <td>173</td>
+      <td>160</td>
       <td>2026-02-23</td>
       <td>2025-11-04</td>
       <td>2025-11-17</td>
@@ -352,9 +352,9 @@
       <td>Jan Galinski</td>
       <td>John Hendrikx</td>
       <td>7</td>
-      <td>57</td>
-      <td>106</td>
-      <td>106</td>
+      <td>63</td>
+      <td>111</td>
+      <td>111</td>
       <td>2026-02-23</td>
       <td>2026-01-05</td>
       <td>2026-01-05</td>
@@ -372,9 +372,9 @@
       <td>Allard Buijze</td>
       <td>Jan Galinski</td>
       <td>73</td>
-      <td>57</td>
-      <td>167</td>
-      <td>155</td>
+      <td>63</td>
+      <td>173</td>
+      <td>160</td>
       <td>2026-02-23</td>
       <td>2025-11-04</td>
       <td>2025-11-17</td>
@@ -392,9 +392,9 @@
       <td>Allard Buijze</td>
       <td>Jan Galinski</td>
       <td>17</td>
-      <td>57</td>
-      <td>167</td>
-      <td>167</td>
+      <td>63</td>
+      <td>173</td>
+      <td>173</td>
       <td>2026-02-23</td>
       <td>2025-11-04</td>
       <td>2025-11-04</td>
@@ -412,9 +412,9 @@
       <td>Allard Buijze</td>
       <td>Jan Galinski</td>
       <td>35</td>
-      <td>57</td>
-      <td>166</td>
-      <td>166</td>
+      <td>63</td>
+      <td>172</td>
+      <td>172</td>
       <td>2026-02-23</td>
       <td>2025-11-05</td>
       <td>2025-11-05</td>
@@ -432,9 +432,9 @@
       <td>Allard Buijze</td>
       <td>Christophe Bouhier</td>
       <td>99</td>
-      <td>57</td>
-      <td>166</td>
-      <td>155</td>
+      <td>63</td>
+      <td>172</td>
+      <td>160</td>
       <td>2026-02-23</td>
       <td>2025-11-05</td>
       <td>2025-11-17</td>
@@ -452,9 +452,9 @@
       <td>Allard Buijze</td>
       <td>David Gómez G</td>
       <td>13</td>
-      <td>76</td>
-      <td>683</td>
-      <td>683</td>
+      <td>82</td>
+      <td>688</td>
+      <td>688</td>
       <td>2026-02-04</td>
       <td>2024-06-07</td>
       <td>2024-06-07</td>
@@ -472,9 +472,9 @@
       <td>Allard Buijze</td>
       <td>David Gómez G</td>
       <td>22</td>
-      <td>76</td>
-      <td>671</td>
-      <td>671</td>
+      <td>82</td>
+      <td>676</td>
+      <td>676</td>
       <td>2026-02-04</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -492,9 +492,9 @@
       <td>Allard Buijze</td>
       <td>David Gómez G</td>
       <td>22</td>
-      <td>76</td>
-      <td>671</td>
-      <td>671</td>
+      <td>82</td>
+      <td>676</td>
+      <td>676</td>
       <td>2026-02-04</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -512,9 +512,9 @@
       <td>Allard Buijze</td>
       <td>David Gómez G</td>
       <td>23</td>
-      <td>76</td>
-      <td>671</td>
-      <td>671</td>
+      <td>82</td>
+      <td>676</td>
+      <td>676</td>
       <td>2026-02-04</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -532,9 +532,9 @@
       <td>Allard Buijze</td>
       <td>David Gómez G</td>
       <td>22</td>
-      <td>76</td>
-      <td>671</td>
-      <td>671</td>
+      <td>82</td>
+      <td>676</td>
+      <td>676</td>
       <td>2026-02-04</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -552,9 +552,9 @@
       <td>Allard Buijze</td>
       <td>David Gómez G</td>
       <td>23</td>
-      <td>76</td>
-      <td>671</td>
-      <td>671</td>
+      <td>82</td>
+      <td>676</td>
+      <td>676</td>
       <td>2026-02-04</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -572,9 +572,9 @@
       <td>Allard Buijze</td>
       <td>David Gómez G</td>
       <td>22</td>
-      <td>76</td>
-      <td>671</td>
-      <td>671</td>
+      <td>82</td>
+      <td>676</td>
+      <td>676</td>
       <td>2026-02-04</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -592,9 +592,9 @@
       <td>Allard Buijze</td>
       <td>David Gómez G</td>
       <td>23</td>
-      <td>76</td>
-      <td>671</td>
-      <td>671</td>
+      <td>82</td>
+      <td>676</td>
+      <td>676</td>
       <td>2026-02-04</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -612,9 +612,9 @@
       <td>Allard Buijze</td>
       <td>David Gómez G</td>
       <td>22</td>
-      <td>76</td>
-      <td>671</td>
-      <td>671</td>
+      <td>82</td>
+      <td>676</td>
+      <td>676</td>
       <td>2026-02-04</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -632,9 +632,9 @@
       <td>Allard Buijze</td>
       <td>David Gómez G</td>
       <td>24</td>
-      <td>76</td>
-      <td>671</td>
-      <td>671</td>
+      <td>82</td>
+      <td>676</td>
+      <td>676</td>
       <td>2026-02-04</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -652,9 +652,9 @@
       <td>Allard Buijze</td>
       <td>David Gómez G</td>
       <td>22</td>
-      <td>76</td>
-      <td>671</td>
-      <td>671</td>
+      <td>82</td>
+      <td>676</td>
+      <td>676</td>
       <td>2026-02-04</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -672,9 +672,9 @@
       <td>Allard Buijze</td>
       <td>David Gómez G</td>
       <td>23</td>
-      <td>76</td>
-      <td>671</td>
-      <td>671</td>
+      <td>82</td>
+      <td>676</td>
+      <td>676</td>
       <td>2026-02-04</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -692,9 +692,9 @@
       <td>Allard Buijze</td>
       <td>David Gómez G</td>
       <td>22</td>
-      <td>76</td>
-      <td>671</td>
-      <td>671</td>
+      <td>82</td>
+      <td>676</td>
+      <td>676</td>
       <td>2026-02-04</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -712,9 +712,9 @@
       <td>Allard Buijze</td>
       <td>David Gómez G</td>
       <td>23</td>
-      <td>76</td>
-      <td>671</td>
-      <td>671</td>
+      <td>82</td>
+      <td>676</td>
+      <td>676</td>
       <td>2026-02-04</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -732,9 +732,9 @@
       <td>Allard Buijze</td>
       <td>David Gómez G</td>
       <td>22</td>
-      <td>76</td>
-      <td>671</td>
-      <td>671</td>
+      <td>82</td>
+      <td>676</td>
+      <td>676</td>
       <td>2026-02-04</td>
       <td>2024-06-19</td>
       <td>2024-06-19</td>
@@ -1398,8 +1398,8 @@ The following charts show how these metrics are distributed across pairs of file
       <td>java↔md</td>
       <td>42</td>
       <td>8</td>
-      <td>EventSourcingConfigurationDefaults↔api-changes</td>
-      <td>eventsourcing/src/main/java/org/axonframework/eventsourcing/configuration/EventSourcingConfigurationDefaults.java↔axon-5/api-changes.md</td>
+      <td>DefaultEventStoreTransaction↔api-changes</td>
+      <td>eventsourcing/src/main/java/org/axonframework/eventsourcing/eventstore/DefaultEventStoreTransaction.java↔axon-5/api-changes.md</td>
     </tr>
     <tr>
       <th>28</th>
@@ -1462,8 +1462,8 @@ The following charts show how these metrics are distributed across pairs of file
       <td>java↔yml</td>
       <td>14</td>
       <td>6</td>
-      <td>QueryThreadingIntegrationTest↔main</td>
-      <td>integrationtests/src/test/java/org/axonframework/integrationtests/queryhandling/QueryThreadingIntegrationTest.java↔.github/workflows/main.yml</td>
+      <td>DefaultEventStoreTransaction↔main</td>
+      <td>eventsourcing/src/main/java/org/axonframework/eventsourcing/eventstore/DefaultEventStoreTransaction.java↔.github/workflows/main.yml</td>
     </tr>
     <tr>
       <th>36</th>
@@ -1559,8 +1559,8 @@ This metric is useful to identify pairs of files that are frequently changed tog
       <td>java↔java</td>
       <td>0.833333</td>
       <td>4</td>
-      <td>AnnotatedEventHandlingComponent↔AnnotationEventHandlerAdapter</td>
-      <td>messaging/src/main/java/org/axonframework/messaging/eventhandling/annotation/AnnotatedEventHandlingComponent.java↔stash/todo/src/main/java/org/axonframework/messaging/eventhandling/annotation/AnnotationEventHandlerAdapter.java</td>
+      <td>AnnotatedHandlerInspector↔AnnotationEventHandlerAdapter</td>
+      <td>messaging/src/main/java/org/axonframework/messaging/core/annotation/AnnotatedHandlerInspector.java↔stash/todo/src/main/java/org/axonframework/messaging/eventhandling/annotation/AnnotationEventHandlerAdapter.java</td>
     </tr>
     <tr>
       <th>4</th>
@@ -1640,7 +1640,7 @@ This metric is useful to identify pairs of files that are frequently changed tog
       <td>0.428571</td>
       <td>4</td>
       <td>pom↔pom</td>
-      <td>extensions/spring/spring-boot-autoconfigure/pom.xml↔stash/legacy-aggregate/pom.xml</td>
+      <td>build/parent/pom.xml↔stash/legacy-aggregate/pom.xml</td>
     </tr>
     <tr>
       <th>14</th>
@@ -1703,8 +1703,8 @@ This metric is useful to identify pairs of files that are frequently changed tog
       <td>java↔md</td>
       <td>0.750000</td>
       <td>2</td>
-      <td>ImmutableReflectionEntityModelAdministrationIT↔api-changes</td>
-      <td>integrationtests/src/test/java/org/axonframework/integrationtests/testsuite/administration/ImmutableReflectionEntityModelAdministrationIT.java↔axon-5/api-changes.md</td>
+      <td>MutableReflectionEntityModelAdministrationIT↔api-changes</td>
+      <td>integrationtests/src/test/java/org/axonframework/integrationtests/testsuite/administration/MutableReflectionEntityModelAdministrationIT.java↔axon-5/api-changes.md</td>
     </tr>
     <tr>
       <th>22</th>
@@ -1783,16 +1783,16 @@ This metric is useful to identify pairs of files that are frequently changed tog
       <td>java↔yml</td>
       <td>0.555556</td>
       <td>2</td>
-      <td>CreateCourseController↔application</td>
-      <td>examples/university-java-springboot/src/main/java/org/axonframework/examples/university/write/createcourse/CreateCourseController.java↔examples/university-java-springboot/src/main/resources/application.yml</td>
+      <td>RenameCourseController↔application</td>
+      <td>examples/university-java-springboot/src/main/java/org/axonframework/examples/university/write/renamecourse/RenameCourseController.java↔examples/university-java-springboot/src/main/resources/application.yml</td>
     </tr>
     <tr>
       <th>32</th>
       <td>java↔yml</td>
       <td>0.500000</td>
       <td>3</td>
-      <td>UnsubscribeStudentToCourseController↔application</td>
-      <td>examples/university-java-springboot/src/main/java/org/axonframework/examples/university/write/unsubscribestudent/UnsubscribeStudentToCourseController.java↔examples/university-java-springboot/src/main/resources/application.yml</td>
+      <td>SubscribeStudentToCourseController↔application</td>
+      <td>examples/university-java-springboot/src/main/java/org/axonframework/examples/university/write/subscribestudent/SubscribeStudentToCourseController.java↔examples/university-java-springboot/src/main/resources/application.yml</td>
     </tr>
     <tr>
       <th>33</th>
@@ -1982,7 +1982,7 @@ This metric is useful to identify pairs of files that are frequently changed tog
       <td>53.764286</td>
       <td>3</td>
       <td>pom↔pom</td>
-      <td>stash/legacy-aggregate/pom.xml↔stash/todo/pom.xml</td>
+      <td>stash/legacy-saga/pom.xml↔stash/todo/pom.xml</td>
     </tr>
     <tr>
       <th>13</th>
@@ -2022,7 +2022,7 @@ This metric is useful to identify pairs of files that are frequently changed tog
       <td>37.078818</td>
       <td>8</td>
       <td>pom↔pom</td>
-      <td>stash/legacy-saga/pom.xml↔update/pom.xml</td>
+      <td>stash/legacy/pom.xml↔update/pom.xml</td>
     </tr>
     <tr>
       <th>18</th>
@@ -2125,16 +2125,16 @@ This metric is useful to identify pairs of files that are frequently changed tog
       <td>java↔yml</td>
       <td>139.388889</td>
       <td>1</td>
-      <td>CreateCourseController↔application</td>
-      <td>examples/university-java-springboot/src/main/java/org/axonframework/examples/university/write/createcourse/CreateCourseController.java↔examples/university-java-springboot/src/main/resources/application.yml</td>
+      <td>RenameCourseController↔application</td>
+      <td>examples/university-java-springboot/src/main/java/org/axonframework/examples/university/write/renamecourse/RenameCourseController.java↔examples/university-java-springboot/src/main/resources/application.yml</td>
     </tr>
     <tr>
       <th>31</th>
       <td>java↔yml</td>
       <td>125.450000</td>
       <td>2</td>
-      <td>UnsubscribeStudentToCourseController↔application</td>
-      <td>examples/university-java-springboot/src/main/java/org/axonframework/examples/university/write/unsubscribestudent/UnsubscribeStudentToCourseController.java↔examples/university-java-springboot/src/main/resources/application.yml</td>
+      <td>SubscribeStudentToCourseController↔application</td>
+      <td>examples/university-java-springboot/src/main/java/org/axonframework/examples/university/write/subscribestudent/SubscribeStudentToCourseController.java↔examples/university-java-springboot/src/main/resources/application.yml</td>
     </tr>
     <tr>
       <th>32</th>
@@ -2291,8 +2291,8 @@ This metric is useful to identify pairs of files that are frequently changed tog
       <td>java↔java</td>
       <td>0.571429</td>
       <td>8</td>
-      <td>AnnotationBasedEntityEvolvingComponent↔AnnotationSagaMetaModelFactory</td>
-      <td>modelling/src/main/java/org/axonframework/modelling/annotation/AnnotationBasedEntityEvolvingComponent.java↔stash/legacy-saga/src/main/java/org/axonframework/modelling/saga/metamodel/AnnotationSagaMetaModelFactory.java</td>
+      <td>ExceptionHandlerTest↔AnnotationSagaMetaModelFactory</td>
+      <td>messaging/src/test/java/org/axonframework/messaging/core/interception/ExceptionHandlerTest.java↔stash/legacy-saga/src/main/java/org/axonframework/modelling/saga/metamodel/AnnotationSagaMetaModelFactory.java</td>
     </tr>
     <tr>
       <th>8</th>
@@ -2372,7 +2372,7 @@ This metric is useful to identify pairs of files that are frequently changed tog
       <td>0.214286</td>
       <td>8</td>
       <td>pom↔pom</td>
-      <td>stash/legacy-aggregate/pom.xml↔stash/todo/pom.xml</td>
+      <td>stash/legacy-saga/pom.xml↔stash/todo/pom.xml</td>
     </tr>
     <tr>
       <th>18</th>
@@ -2475,16 +2475,16 @@ This metric is useful to identify pairs of files that are frequently changed tog
       <td>java↔yml</td>
       <td>0.357143</td>
       <td>1</td>
-      <td>CreateCourseController↔application</td>
-      <td>examples/university-java-springboot/src/main/java/org/axonframework/examples/university/write/createcourse/CreateCourseController.java↔examples/university-java-springboot/src/main/resources/application.yml</td>
+      <td>RenameCourseController↔application</td>
+      <td>examples/university-java-springboot/src/main/java/org/axonframework/examples/university/write/renamecourse/RenameCourseController.java↔examples/university-java-springboot/src/main/resources/application.yml</td>
     </tr>
     <tr>
       <th>31</th>
       <td>java↔yml</td>
       <td>0.333333</td>
       <td>2</td>
-      <td>UnsubscribeStudentToCourseController↔application</td>
-      <td>examples/university-java-springboot/src/main/java/org/axonframework/examples/university/write/unsubscribestudent/UnsubscribeStudentToCourseController.java↔examples/university-java-springboot/src/main/resources/application.yml</td>
+      <td>SubscribeStudentToCourseController↔application</td>
+      <td>examples/university-java-springboot/src/main/java/org/axonframework/examples/university/write/subscribestudent/SubscribeStudentToCourseController.java↔examples/university-java-springboot/src/main/resources/application.yml</td>
     </tr>
     <tr>
       <th>32</th>
@@ -2666,21 +2666,6 @@ This is useful to identify pairs of files that score high in most metrics, which
     <tr>
       <th>5</th>
       <td>java↔java</td>
-      <td>Command↔QueryResponse</td>
-      <td>62</td>
-      <td>58</td>
-      <td>1</td>
-      <td>1</td>
-      <td>2</td>
-      <td>4</td>
-      <td>1.000000</td>
-      <td>1.000000</td>
-      <td>627.250000</td>
-      <td>messaging/src/main/java/org/axonframework/messaging/commandhandling/annotation/Command.java↔messaging/src/main/java/org/axonframework/messaging/queryhandling/annotation/QueryResponse.java</td>
-    </tr>
-    <tr>
-      <th>6</th>
-      <td>java↔java</td>
       <td>Event↔QueryResponse</td>
       <td>62</td>
       <td>58</td>
@@ -2692,6 +2677,21 @@ This is useful to identify pairs of files that score high in most metrics, which
       <td>1.000000</td>
       <td>627.250000</td>
       <td>messaging/src/main/java/org/axonframework/messaging/eventhandling/annotation/Event.java↔messaging/src/main/java/org/axonframework/messaging/queryhandling/annotation/QueryResponse.java</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>java↔java</td>
+      <td>Command↔QueryResponse</td>
+      <td>62</td>
+      <td>58</td>
+      <td>1</td>
+      <td>1</td>
+      <td>2</td>
+      <td>4</td>
+      <td>1.000000</td>
+      <td>1.000000</td>
+      <td>627.250000</td>
+      <td>messaging/src/main/java/org/axonframework/messaging/commandhandling/annotation/Command.java↔messaging/src/main/java/org/axonframework/messaging/queryhandling/annotation/QueryResponse.java</td>
     </tr>
     <tr>
       <th>7</th>
@@ -2891,21 +2891,6 @@ This is useful to identify pairs of files that score high in most metrics, which
     <tr>
       <th>20</th>
       <td>java↔yml</td>
-      <td>CreateCourseController↔application</td>
-      <td>18</td>
-      <td>14</td>
-      <td>2</td>
-      <td>1</td>
-      <td>1</td>
-      <td>5</td>
-      <td>0.555556</td>
-      <td>0.357143</td>
-      <td>139.388889</td>
-      <td>examples/university-java-springboot/src/main/java/org/axonframework/examples/university/write/createcourse/CreateCourseController.java↔examples/university-java-springboot/src/main/resources/application.yml</td>
-    </tr>
-    <tr>
-      <th>21</th>
-      <td>java↔yml</td>
       <td>RenameCourseController↔application</td>
       <td>18</td>
       <td>14</td>
@@ -2917,6 +2902,21 @@ This is useful to identify pairs of files that score high in most metrics, which
       <td>0.357143</td>
       <td>139.388889</td>
       <td>examples/university-java-springboot/src/main/java/org/axonframework/examples/university/write/renamecourse/RenameCourseController.java↔examples/university-java-springboot/src/main/resources/application.yml</td>
+    </tr>
+    <tr>
+      <th>21</th>
+      <td>java↔yml</td>
+      <td>CreateCourseController↔application</td>
+      <td>18</td>
+      <td>14</td>
+      <td>2</td>
+      <td>1</td>
+      <td>1</td>
+      <td>5</td>
+      <td>0.555556</td>
+      <td>0.357143</td>
+      <td>139.388889</td>
+      <td>examples/university-java-springboot/src/main/java/org/axonframework/examples/university/write/createcourse/CreateCourseController.java↔examples/university-java-springboot/src/main/resources/application.yml</td>
     </tr>
     <tr>
       <th>22</th>
@@ -2936,7 +2936,7 @@ This is useful to identify pairs of files that score high in most metrics, which
     <tr>
       <th>23</th>
       <td>java↔yml</td>
-      <td>UnsubscribeStudentToCourseController↔application</td>
+      <td>SubscribeStudentToCourseController↔application</td>
       <td>21</td>
       <td>14</td>
       <td>3</td>
@@ -2946,7 +2946,7 @@ This is useful to identify pairs of files that score high in most metrics, which
       <td>0.500000</td>
       <td>0.333333</td>
       <td>125.450000</td>
-      <td>examples/university-java-springboot/src/main/java/org/axonframework/examples/university/write/unsubscribestudent/UnsubscribeStudentToCourseController.java↔examples/university-java-springboot/src/main/resources/application.yml</td>
+      <td>examples/university-java-springboot/src/main/java/org/axonframework/examples/university/write/subscribestudent/SubscribeStudentToCourseController.java↔examples/university-java-springboot/src/main/resources/application.yml</td>
     </tr>
     <tr>
       <th>24</th>
@@ -2966,6 +2966,21 @@ This is useful to identify pairs of files that score high in most metrics, which
     <tr>
       <th>25</th>
       <td>java↔yml</td>
+      <td>UnsubscribeStudentToCourseController↔application</td>
+      <td>21</td>
+      <td>14</td>
+      <td>3</td>
+      <td>2</td>
+      <td>2</td>
+      <td>5</td>
+      <td>0.500000</td>
+      <td>0.333333</td>
+      <td>125.450000</td>
+      <td>examples/university-java-springboot/src/main/java/org/axonframework/examples/university/write/unsubscribestudent/UnsubscribeStudentToCourseController.java↔examples/university-java-springboot/src/main/resources/application.yml</td>
+    </tr>
+    <tr>
+      <th>26</th>
+      <td>java↔yml</td>
       <td>CourseStatsController↔application</td>
       <td>21</td>
       <td>14</td>
@@ -2977,21 +2992,6 @@ This is useful to identify pairs of files that score high in most metrics, which
       <td>0.333333</td>
       <td>125.450000</td>
       <td>examples/university-java-springboot/src/main/java/org/axonframework/examples/university/read/coursestats/controller/CourseStatsController.java↔examples/university-java-springboot/src/main/resources/application.yml</td>
-    </tr>
-    <tr>
-      <th>26</th>
-      <td>java↔yml</td>
-      <td>SubscribeStudentToCourseController↔application</td>
-      <td>21</td>
-      <td>14</td>
-      <td>3</td>
-      <td>2</td>
-      <td>2</td>
-      <td>5</td>
-      <td>0.500000</td>
-      <td>0.333333</td>
-      <td>125.450000</td>
-      <td>examples/university-java-springboot/src/main/java/org/axonframework/examples/university/write/subscribestudent/SubscribeStudentToCourseController.java↔examples/university-java-springboot/src/main/resources/application.yml</td>
     </tr>
     <tr>
       <th>27</th>
@@ -3141,7 +3141,7 @@ This is useful to identify pairs of files that score high in most metrics, which
       <td>0.428571</td>
       <td>0.214286</td>
       <td>53.764286</td>
-      <td>stash/legacy-aggregate/pom.xml↔stash/todo/pom.xml</td>
+      <td>stash/legacy-saga/pom.xml↔stash/todo/pom.xml</td>
     </tr>
     <tr>
       <th>37</th>
@@ -3156,7 +3156,7 @@ This is useful to identify pairs of files that score high in most metrics, which
       <td>0.428571</td>
       <td>0.214286</td>
       <td>53.764286</td>
-      <td>stash/legacy-saga/pom.xml↔stash/todo/pom.xml</td>
+      <td>stash/legacy/pom.xml↔stash/todo/pom.xml</td>
     </tr>
     <tr>
       <th>38</th>
@@ -3171,7 +3171,7 @@ This is useful to identify pairs of files that score high in most metrics, which
       <td>0.428571</td>
       <td>0.214286</td>
       <td>53.764286</td>
-      <td>stash/legacy/pom.xml↔stash/todo/pom.xml</td>
+      <td>stash/legacy-aggregate/pom.xml↔stash/todo/pom.xml</td>
     </tr>
     <tr>
       <th>39</th>
@@ -3447,20 +3447,6 @@ The frontier = the “best tradeoffs.”
     </tr>
     <tr>
       <th>16</th>
-      <td>Command↔QueryResponse</td>
-      <td>62</td>
-      <td>4</td>
-      <td>1.000000</td>
-      <td>1.000000</td>
-      <td>627.250000</td>
-      <td>58</td>
-      <td>1</td>
-      <td>1</td>
-      <td>2</td>
-      <td>messaging/src/main/java/org/axonframework/messaging/commandhandling/annotation/Command.java↔messaging/src/main/java/org/axonframework/messaging/queryhandling/annotation/QueryResponse.java</td>
-    </tr>
-    <tr>
-      <th>17</th>
       <td>Event↔QueryResponse</td>
       <td>62</td>
       <td>4</td>
@@ -3472,6 +3458,20 @@ The frontier = the “best tradeoffs.”
       <td>1</td>
       <td>2</td>
       <td>messaging/src/main/java/org/axonframework/messaging/eventhandling/annotation/Event.java↔messaging/src/main/java/org/axonframework/messaging/queryhandling/annotation/QueryResponse.java</td>
+    </tr>
+    <tr>
+      <th>17</th>
+      <td>Command↔QueryResponse</td>
+      <td>62</td>
+      <td>4</td>
+      <td>1.000000</td>
+      <td>1.000000</td>
+      <td>627.250000</td>
+      <td>58</td>
+      <td>1</td>
+      <td>1</td>
+      <td>2</td>
+      <td>messaging/src/main/java/org/axonframework/messaging/commandhandling/annotation/Command.java↔messaging/src/main/java/org/axonframework/messaging/queryhandling/annotation/QueryResponse.java</td>
     </tr>
     <tr>
       <th>18</th>

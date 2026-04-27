@@ -12,11 +12,11 @@ strict digraph TopBridge1 {
     central [fontsize = 16;];
     central [color = 7; fillcolor = 5; penwidth = 3;];
 
-	graph   [label="Top Rank #1 Java Type Bridge\norg.axonframework.conversion.avro.DefaultSchemaIncompatibilityChecker\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
-	central [label="🌉 bridge #1\nDefaultSchemaIncompatibilityChecker"];
-	"AvroConverterConfiguration_15275" [label = "AvroConverterConfiguration"; ]; "AvroConverterConfiguration_15275" -> central [label=2; weight=2; penwidth=0.4];
-	"AvroUtil_15263" [label = "AvroUtil"; color = 5; fillcolor = 1; ]; central -> "AvroUtil_15263" [label=2; weight=2; penwidth=0.4; color = 5];
-	"SchemaIncompatibilityChecker_14111" [label = "SchemaIncompatibilityChecker"; color = 5; fillcolor = 1; ]; central -> "SchemaIncompatibilityChecker_14111" [label=2; weight=2; penwidth=0.4; color = 5];
-	"AvroConverterConfiguration_15275" -> "SchemaIncompatibilityChecker_14111" [label=5; weight=5; penwidth=0.3; color = 3]
-	"SchemaIncompatibilityChecker_14111" -> "AvroUtil_15263" [label=3; weight=3; penwidth=0.3; color = 3]
+	graph   [label="Top Rank #1 Java Type Bridge\norg.axonframework.update.api.ArtifactAvailableUpgrade\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
+	central [label="🌉 bridge #1\nArtifactAvailableUpgrade"];
+	"LoggingUpdateCheckerReporter_39045" [label = "LoggingUpdateCheckerReporter"; ]; "LoggingUpdateCheckerReporter_39045" -> central [label=6; weight=6; penwidth=0.5];
+	"UpdateCheckResponse_39660" [label = "UpdateCheckResponse"; ]; "UpdateCheckResponse_39660" -> central [label=6; weight=6; penwidth=0.5];
+	"Internal_4198" [label = "Internal"; color = 5; fillcolor = 1; ]; central -> "Internal_4198" [label=1; weight=1; penwidth=0.4; color = 5];
+	"LoggingUpdateCheckerReporter_39045" -> "UpdateCheckResponse_39660" [label=10; weight=10; penwidth=0.3; color = 3]
+	"UpdateCheckResponse_39660" -> "Internal_4198" [label=1; weight=1; penwidth=0.3; color = 3]
 }

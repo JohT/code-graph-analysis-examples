@@ -9,7 +9,7 @@
 "com.google",5,9,12,36,120,1231,"JsonElement,JsonParser,JsonArray,JsonObject,MessageLite,ByteString",""
 "io.grpc",3,10,29,65,120,1231,"StreamObserver,ManagedChannelBuilder,GrpcSslContexts,SslContextBuilder,ClientInterceptor,ClientCallStreamObserver,ClientResponseObserver,Status,Metadata",""
 "io.micrometer",3,13,39,145,120,1231,"MeterRegistry,Timer,Timer$Builder,Clock,Tag,Gauge$Builder,Tags,Gauge,Counter",""
-"org.axonframework",3,10,22,64,120,1231,"EventProcessorSettings$ProcessorMode,EventProcessorSettings$SubscribingEventProcessorSettings,EventProcessorSettings$PooledEventProcessorSettings,EventProcessorSettings,SpringTransactionManager,SpringComponentRegistry,SpringLifecycleRegistry,SpringAxonApplication,SpringParameterResolverFactoryBean",""
+"org.axonframework",3,10,22,64,120,1231,"EventProcessorSettings$SubscribingEventProcessorSettings,EventProcessorSettings$PooledEventProcessorSettings,EventProcessorSettings$ProcessorMode,EventProcessorSettings,SpringTransactionManager,SpringAxonApplication,HandlerDefinitionFactoryBean,SpringComponentRegistry,SpringLifecycleRegistry",""
 "org.hamcrest",3,22,44,196,120,1231,"StringDescription,Matcher,CoreMatchers,Description,BaseMatcher,TypeSafeMatcher",""
 "org.reactivestreams",3,6,8,27,120,1231,"Publisher,Subscription,Subscriber",""
 "org.apache",2,12,42,144,120,1231,"AvroRuntimeException,SpecificRecordBase,SchemaStore,BinaryMessageEncoder,SpecificData,BinaryMessageDecoder,GenericRecord,SchemaCompatibility$Incompatibility,Schema",""
