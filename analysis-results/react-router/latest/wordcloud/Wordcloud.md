@@ -66,19 +66,19 @@
     </tr>
     <tr>
       <th>6</th>
-      <td>packages</td>
+      <td>tutorials</td>
     </tr>
     <tr>
       <th>7</th>
-      <td>react</td>
+      <td>address</td>
     </tr>
     <tr>
       <th>8</th>
-      <td>router</td>
+      <td>book</td>
     </tr>
     <tr>
       <th>9</th>
-      <td>dom</td>
+      <td>integration</td>
     </tr>
   </tbody>
 </table>
@@ -86,7 +86,7 @@
 
 
 
-    There are 17651 words in the dataset for the plot titled 'Wordcloud of names in code'.
+    There are 17648 words in the dataset for the plot titled 'Wordcloud of names in code'.
 
 
 
@@ -152,13 +152,13 @@
     </tr>
     <tr>
       <th>8</th>
-      <td>EdgeOneDev</td>
+      <td>nimrossum</td>
       <td>1</td>
     </tr>
     <tr>
       <th>9</th>
-      <td>Edmund Hung</td>
-      <td>3</td>
+      <td>Matteo Collina</td>
+      <td>1</td>
     </tr>
   </tbody>
 </table>

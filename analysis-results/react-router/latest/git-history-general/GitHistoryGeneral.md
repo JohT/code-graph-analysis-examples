@@ -48,9 +48,9 @@
       <td>20.621514</td>
       <td>13.027888</td>
       <td>127.872510</td>
-      <td>221.912351</td>
-      <td>563.318725</td>
-      <td>242.557769</td>
+      <td>227.912351</td>
+      <td>569.231076</td>
+      <td>248.474104</td>
     </tr>
     <tr>
       <th>std</th>
@@ -58,53 +58,53 @@
       <td>43.146300</td>
       <td>435.736847</td>
       <td>166.185271</td>
-      <td>477.362824</td>
-      <td>239.551046</td>
+      <td>477.377597</td>
+      <td>239.580355</td>
     </tr>
     <tr>
       <th>min</th>
       <td>1.000000</td>
       <td>2.000000</td>
       <td>2.000000</td>
-      <td>29.000000</td>
-      <td>33.000000</td>
-      <td>29.000000</td>
+      <td>35.000000</td>
+      <td>39.000000</td>
+      <td>34.000000</td>
     </tr>
     <tr>
       <th>25%</th>
       <td>2.000000</td>
       <td>2.000000</td>
       <td>5.500000</td>
-      <td>72.500000</td>
-      <td>267.000000</td>
-      <td>84.000000</td>
+      <td>78.500000</td>
+      <td>273.000000</td>
+      <td>90.000000</td>
     </tr>
     <tr>
       <th>50%</th>
       <td>5.000000</td>
       <td>4.000000</td>
       <td>23.000000</td>
-      <td>221.000000</td>
-      <td>420.000000</td>
-      <td>221.000000</td>
+      <td>227.000000</td>
+      <td>426.000000</td>
+      <td>226.000000</td>
     </tr>
     <tr>
       <th>75%</th>
       <td>12.000000</td>
       <td>9.000000</td>
       <td>66.000000</td>
-      <td>279.000000</td>
-      <td>644.500000</td>
-      <td>298.000000</td>
+      <td>285.000000</td>
+      <td>649.500000</td>
+      <td>304.000000</td>
     </tr>
     <tr>
       <th>max</th>
       <td>1395.000000</td>
       <td>580.000000</td>
       <td>4870.000000</td>
-      <td>755.000000</td>
-      <td>1740.000000</td>
-      <td>1683.000000</td>
+      <td>761.000000</td>
+      <td>1746.000000</td>
+      <td>1689.000000</td>
     </tr>
   </tbody>
 </table>
@@ -152,9 +152,9 @@
       <td>Logan McAnsh</td>
       <td>Matt Brophy</td>
       <td>5</td>
-      <td>755</td>
-      <td>1643</td>
-      <td>1643</td>
+      <td>761</td>
+      <td>1649</td>
+      <td>1649</td>
       <td>2024-03-27</td>
       <td>2021-10-20</td>
       <td>2021-10-20</td>
@@ -172,9 +172,9 @@
       <td>Jacob Ebey</td>
       <td>Mark Dalgleish</td>
       <td>19</td>
-      <td>411</td>
-      <td>420</td>
-      <td>420</td>
+      <td>417</td>
+      <td>426</td>
+      <td>426</td>
       <td>2025-03-06</td>
       <td>2025-02-24</td>
       <td>2025-02-24</td>
@@ -192,9 +192,9 @@
       <td>Mark Dalgleish</td>
       <td>Matt Brophy</td>
       <td>3</td>
-      <td>411</td>
-      <td>420</td>
-      <td>420</td>
+      <td>417</td>
+      <td>426</td>
+      <td>426</td>
       <td>2025-03-06</td>
       <td>2025-02-24</td>
       <td>2025-02-24</td>
@@ -212,9 +212,9 @@
       <td>Mark Dalgleish</td>
       <td>Matt Brophy</td>
       <td>3</td>
-      <td>257</td>
-      <td>267</td>
-      <td>267</td>
+      <td>263</td>
+      <td>273</td>
+      <td>273</td>
       <td>2025-08-07</td>
       <td>2025-07-28</td>
       <td>2025-07-28</td>
@@ -232,9 +232,9 @@
       <td>Mark Dalgleish</td>
       <td>Matt Brophy</td>
       <td>3</td>
-      <td>257</td>
-      <td>267</td>
-      <td>267</td>
+      <td>263</td>
+      <td>273</td>
+      <td>273</td>
       <td>2025-08-07</td>
       <td>2025-07-28</td>
       <td>2025-07-28</td>
@@ -252,9 +252,9 @@
       <td>Jacob Ebey</td>
       <td>Matt Brophy</td>
       <td>4</td>
-      <td>279</td>
-      <td>298</td>
-      <td>298</td>
+      <td>285</td>
+      <td>304</td>
+      <td>304</td>
       <td>2025-07-16</td>
       <td>2025-06-26</td>
       <td>2025-06-26</td>
@@ -272,9 +272,9 @@
       <td>Jacob Ebey</td>
       <td>Mark Dalgleish</td>
       <td>21</td>
-      <td>487</td>
-      <td>490</td>
-      <td>490</td>
+      <td>493</td>
+      <td>496</td>
+      <td>496</td>
       <td>2024-12-20</td>
       <td>2024-12-17</td>
       <td>2024-12-17</td>
@@ -292,9 +292,9 @@
       <td>Mark Dalgleish</td>
       <td>Matt Brophy</td>
       <td>3</td>
-      <td>487</td>
-      <td>490</td>
-      <td>490</td>
+      <td>493</td>
+      <td>496</td>
+      <td>496</td>
       <td>2024-12-20</td>
       <td>2024-12-17</td>
       <td>2024-12-17</td>
@@ -312,9 +312,9 @@
       <td>Mark Dalgleish</td>
       <td>Matt Brophy</td>
       <td>3</td>
-      <td>487</td>
-      <td>490</td>
-      <td>490</td>
+      <td>493</td>
+      <td>496</td>
+      <td>496</td>
       <td>2024-12-20</td>
       <td>2024-12-17</td>
       <td>2024-12-17</td>
@@ -332,9 +332,9 @@
       <td>Mark Dalgleish</td>
       <td>Matt Brophy</td>
       <td>3</td>
-      <td>487</td>
-      <td>490</td>
-      <td>490</td>
+      <td>493</td>
+      <td>496</td>
+      <td>496</td>
       <td>2024-12-20</td>
       <td>2024-12-17</td>
       <td>2024-12-17</td>
@@ -352,9 +352,9 @@
       <td>Mark Dalgleish</td>
       <td>Matt Brophy</td>
       <td>3</td>
-      <td>298</td>
-      <td>319</td>
-      <td>319</td>
+      <td>304</td>
+      <td>325</td>
+      <td>325</td>
       <td>2025-06-27</td>
       <td>2025-06-05</td>
       <td>2025-06-05</td>
@@ -372,9 +372,9 @@
       <td>Mark Dalgleish</td>
       <td>Matt Brophy</td>
       <td>3</td>
-      <td>298</td>
-      <td>319</td>
-      <td>319</td>
+      <td>304</td>
+      <td>325</td>
+      <td>325</td>
       <td>2025-06-27</td>
       <td>2025-06-05</td>
       <td>2025-06-05</td>
@@ -392,9 +392,9 @@
       <td>Mark Dalgleish</td>
       <td>Matt Brophy</td>
       <td>3</td>
-      <td>411</td>
-      <td>420</td>
-      <td>420</td>
+      <td>417</td>
+      <td>426</td>
+      <td>426</td>
       <td>2025-03-06</td>
       <td>2025-02-24</td>
       <td>2025-02-24</td>
@@ -412,9 +412,9 @@
       <td>Jacob Ebey</td>
       <td>Mark Dalgleish</td>
       <td>18</td>
-      <td>411</td>
-      <td>420</td>
-      <td>420</td>
+      <td>417</td>
+      <td>426</td>
+      <td>426</td>
       <td>2025-03-06</td>
       <td>2025-02-24</td>
       <td>2025-02-24</td>
@@ -432,9 +432,9 @@
       <td>Mark Dalgleish</td>
       <td>Matt Brophy</td>
       <td>12</td>
-      <td>271</td>
-      <td>420</td>
-      <td>270</td>
+      <td>277</td>
+      <td>426</td>
+      <td>276</td>
       <td>2025-07-24</td>
       <td>2025-02-24</td>
       <td>2025-07-24</td>
@@ -452,9 +452,9 @@
       <td>Mark Dalgleish</td>
       <td>Matt Brophy</td>
       <td>3</td>
-      <td>369</td>
       <td>375</td>
-      <td>375</td>
+      <td>381</td>
+      <td>381</td>
       <td>2025-04-17</td>
       <td>2025-04-11</td>
       <td>2025-04-11</td>
@@ -472,9 +472,9 @@
       <td>Mark Dalgleish</td>
       <td>Matt Brophy</td>
       <td>3</td>
-      <td>369</td>
       <td>375</td>
-      <td>375</td>
+      <td>381</td>
+      <td>381</td>
       <td>2025-04-17</td>
       <td>2025-04-11</td>
       <td>2025-04-11</td>
@@ -492,9 +492,9 @@
       <td>Mark Dalgleish</td>
       <td>Michael Jackson</td>
       <td>3</td>
-      <td>515</td>
-      <td>537</td>
-      <td>537</td>
+      <td>521</td>
+      <td>543</td>
+      <td>543</td>
       <td>2024-11-22</td>
       <td>2024-10-31</td>
       <td>2024-10-31</td>
@@ -512,9 +512,9 @@
       <td>Mark Dalgleish</td>
       <td>Michael Jackson</td>
       <td>3</td>
-      <td>515</td>
-      <td>537</td>
-      <td>537</td>
+      <td>521</td>
+      <td>543</td>
+      <td>543</td>
       <td>2024-11-22</td>
       <td>2024-10-31</td>
       <td>2024-10-31</td>
@@ -532,9 +532,9 @@
       <td>Mark Dalgleish</td>
       <td>Michael Jackson</td>
       <td>3</td>
-      <td>515</td>
-      <td>537</td>
-      <td>537</td>
+      <td>521</td>
+      <td>543</td>
+      <td>543</td>
       <td>2024-11-22</td>
       <td>2024-10-31</td>
       <td>2024-10-31</td>
@@ -552,9 +552,9 @@
       <td>Mark Dalgleish</td>
       <td>Michael Jackson</td>
       <td>3</td>
-      <td>515</td>
-      <td>537</td>
-      <td>537</td>
+      <td>521</td>
+      <td>543</td>
+      <td>543</td>
       <td>2024-11-22</td>
       <td>2024-10-31</td>
       <td>2024-10-31</td>
@@ -572,9 +572,9 @@
       <td>Mark Dalgleish</td>
       <td>Matt Brophy</td>
       <td>10</td>
-      <td>271</td>
-      <td>644</td>
-      <td>270</td>
+      <td>277</td>
+      <td>649</td>
+      <td>276</td>
       <td>2025-07-24</td>
       <td>2024-07-16</td>
       <td>2025-07-24</td>
@@ -592,9 +592,9 @@
       <td>Mark Dalgleish</td>
       <td>Matt Brophy</td>
       <td>10</td>
-      <td>271</td>
-      <td>645</td>
-      <td>270</td>
+      <td>277</td>
+      <td>650</td>
+      <td>276</td>
       <td>2025-07-24</td>
       <td>2024-07-15</td>
       <td>2025-07-24</td>
@@ -612,9 +612,9 @@
       <td>Jacob Ebey</td>
       <td>Mark Dalgleish</td>
       <td>25</td>
-      <td>459</td>
-      <td>460</td>
-      <td>460</td>
+      <td>465</td>
+      <td>466</td>
+      <td>466</td>
       <td>2025-01-17</td>
       <td>2025-01-16</td>
       <td>2025-01-16</td>
@@ -632,9 +632,9 @@
       <td>Mark Dalgleish</td>
       <td>Matt Brophy</td>
       <td>4</td>
-      <td>459</td>
-      <td>460</td>
-      <td>460</td>
+      <td>465</td>
+      <td>466</td>
+      <td>466</td>
       <td>2025-01-17</td>
       <td>2025-01-16</td>
       <td>2025-01-16</td>
@@ -652,9 +652,9 @@
       <td>Chance Strickland</td>
       <td>Hiroshi Ogawa</td>
       <td>72</td>
-      <td>271</td>
-      <td>668</td>
-      <td>270</td>
+      <td>277</td>
+      <td>674</td>
+      <td>276</td>
       <td>2025-07-24</td>
       <td>2024-06-21</td>
       <td>2025-07-24</td>
@@ -672,9 +672,9 @@
       <td>Alexandru Bereghici</td>
       <td>Chance Strickland</td>
       <td>36</td>
-      <td>174</td>
-      <td>668</td>
-      <td>174</td>
+      <td>180</td>
+      <td>674</td>
+      <td>179</td>
       <td>2025-10-29</td>
       <td>2024-06-21</td>
       <td>2025-10-29</td>
@@ -692,9 +692,9 @@
       <td>Alex Anderson</td>
       <td>Alexandru Bereghici</td>
       <td>56</td>
-      <td>57</td>
-      <td>668</td>
-      <td>56</td>
+      <td>63</td>
+      <td>674</td>
+      <td>62</td>
       <td>2026-02-23</td>
       <td>2024-06-21</td>
       <td>2026-02-23</td>
@@ -712,9 +712,9 @@
       <td>Chance Strickland</td>
       <td>Matt Brophy</td>
       <td>7</td>
-      <td>755</td>
-      <td>1740</td>
-      <td>1683</td>
+      <td>761</td>
+      <td>1746</td>
+      <td>1689</td>
       <td>2024-03-27</td>
       <td>2021-07-15</td>
       <td>2021-09-10</td>
@@ -732,9 +732,9 @@
       <td>Matt Brophy</td>
       <td>Michael Jackson</td>
       <td>14</td>
-      <td>515</td>
-      <td>720</td>
-      <td>720</td>
+      <td>521</td>
+      <td>726</td>
+      <td>726</td>
       <td>2024-11-22</td>
       <td>2024-04-30</td>
       <td>2024-04-30</td>
@@ -1206,8 +1206,8 @@ The following charts show how these metrics are distributed across pairs of file
       <td>ts↔ts</td>
       <td>25</td>
       <td>4</td>
-      <td>action-test↔catch-boundary-test</td>
-      <td>integration/action-test.ts↔integration/catch-boundary-test.ts</td>
+      <td>catch-boundary-data-test↔catch-boundary-test</td>
+      <td>integration/catch-boundary-data-test.ts↔integration/catch-boundary-test.ts</td>
     </tr>
     <tr>
       <th>4</th>
@@ -1238,8 +1238,8 @@ The following charts show how these metrics are distributed across pairs of file
       <td>ts↔ts</td>
       <td>19</td>
       <td>8</td>
-      <td>vite↔plugin</td>
-      <td>integration/helpers/vite.ts↔packages/react-router-dev/vite/plugin.ts</td>
+      <td>index↔router</td>
+      <td>packages/react-router/index.ts↔packages/react-router/lib/router/router.ts</td>
     </tr>
     <tr>
       <th>8</th>
@@ -1327,7 +1327,7 @@ The following charts show how these metrics are distributed across pairs of file
       <td>21</td>
       <td>9</td>
       <td>package↔package</td>
-      <td>examples/auth/package.json↔packages/react-router-dom/package.json</td>
+      <td>packages/create-react-router/package.json↔packages/react-router/package.json</td>
     </tr>
     <tr>
       <th>19</th>
@@ -1430,16 +1430,16 @@ The following charts show how these metrics are distributed across pairs of file
       <td>tsx↔tsx</td>
       <td>43</td>
       <td>2</td>
-      <td>data-memory-router-test↔hooks</td>
-      <td>packages/react-router/__tests__/data-memory-router-test.tsx↔packages/react-router/lib/hooks.tsx</td>
+      <td>hooks↔data-memory-router-test</td>
+      <td>packages/react-router/lib/hooks.tsx↔packages/react-router/__tests__/data-memory-router-test.tsx</td>
     </tr>
     <tr>
       <th>32</th>
       <td>tsx↔tsx</td>
       <td>35</td>
       <td>3</td>
-      <td>data-memory-router-test↔components</td>
-      <td>packages/react-router/__tests__/data-memory-router-test.tsx↔packages/react-router/lib/components.tsx</td>
+      <td>components↔lib</td>
+      <td>packages/react-router/lib/components.tsx↔packages/react-router/lib/dom/lib.tsx</td>
     </tr>
     <tr>
       <th>33</th>
@@ -1470,8 +1470,8 @@ The following charts show how these metrics are distributed across pairs of file
       <td>tsx↔tsx</td>
       <td>14</td>
       <td>7</td>
-      <td>navigate-test↔components</td>
-      <td>packages/react-router/__tests__/navigate-test.tsx↔packages/react-router/lib/components.tsx</td>
+      <td>hydrated-router↔lib</td>
+      <td>packages/react-router/lib/dom-export/hydrated-router.tsx↔packages/react-router/lib/dom/lib.tsx</td>
     </tr>
     <tr>
       <th>37</th>
@@ -1486,16 +1486,16 @@ The following charts show how these metrics are distributed across pairs of file
       <td>tsx↔tsx</td>
       <td>12</td>
       <td>9</td>
-      <td>useNavigate-test↔components</td>
-      <td>packages/react-router/__tests__/useNavigate-test.tsx↔packages/react-router/lib/components.tsx</td>
+      <td>components↔useNavigate-test</td>
+      <td>packages/react-router/lib/components.tsx↔packages/react-router/__tests__/useNavigate-test.tsx</td>
     </tr>
     <tr>
       <th>39</th>
       <td>tsx↔tsx</td>
       <td>11</td>
       <td>10</td>
-      <td>createRoutesFromChildren-test↔components</td>
-      <td>packages/react-router/__tests__/createRoutesFromChildren-test.tsx↔packages/react-router/lib/components.tsx</td>
+      <td>lib↔components</td>
+      <td>packages/react-router/lib/dom/lib.tsx↔packages/react-router/lib/dom/ssr/components.tsx</td>
     </tr>
   </tbody>
 </table>
@@ -1535,8 +1535,8 @@ This metric is useful to identify pairs of files that are frequently changed tog
       <td>ts↔ts</td>
       <td>1.000000</td>
       <td>1</td>
-      <td>vite-dev-test↔vite-absolute-base-test</td>
-      <td>integration/vite-dev-test.ts↔integration/vite-absolute-base-test.ts</td>
+      <td>vite-dev-custom-entry-test↔vite-absolute-base-test</td>
+      <td>integration/vite-dev-custom-entry-test.ts↔integration/vite-absolute-base-test.ts</td>
     </tr>
     <tr>
       <th>1</th>
@@ -1560,39 +1560,39 @@ This metric is useful to identify pairs of files that are frequently changed tog
       <td>0.666667</td>
       <td>4</td>
       <td>index↔index</td>
-      <td>packages/react-router-dom/index.ts↔packages/react-router/index.ts</td>
+      <td>packages/react-router/index.ts↔packages/react-router-dom/index.ts</td>
     </tr>
     <tr>
       <th>4</th>
       <td>ts↔ts</td>
       <td>0.555556</td>
       <td>5</td>
-      <td>dev↔plugin</td>
-      <td>packages/react-router/lib/server-runtime/dev.ts↔packages/react-router-dev/vite/plugin.ts</td>
+      <td>plugin↔dev</td>
+      <td>packages/react-router-dev/vite/plugin.ts↔packages/react-router/lib/server-runtime/dev.ts</td>
     </tr>
     <tr>
       <th>5</th>
       <td>ts↔ts</td>
       <td>0.500000</td>
       <td>6</td>
-      <td>lazy-discovery-test↔router</td>
-      <td>packages/react-router/__tests__/router/lazy-discovery-test.ts↔packages/react-router/lib/router/router.ts</td>
+      <td>router↔lazy-discovery-test</td>
+      <td>packages/react-router/lib/router/router.ts↔packages/react-router/__tests__/router/lazy-discovery-test.ts</td>
     </tr>
     <tr>
       <th>6</th>
       <td>ts↔ts</td>
       <td>0.444444</td>
       <td>7</td>
-      <td>redirects-test↔router</td>
-      <td>packages/react-router/__tests__/router/redirects-test.ts↔packages/react-router/lib/router/router.ts</td>
+      <td>router↔should-revalidate-test</td>
+      <td>packages/react-router/lib/router/router.ts↔packages/react-router/__tests__/router/should-revalidate-test.ts</td>
     </tr>
     <tr>
       <th>7</th>
       <td>ts↔ts</td>
       <td>0.428571</td>
       <td>8</td>
-      <td>vite-dev-test↔vite-dot-client-test</td>
-      <td>integration/vite-dev-test.ts↔integration/vite-dot-client-test.ts</td>
+      <td>vite↔vite-dot-client-test</td>
+      <td>integration/helpers/vite.ts↔integration/vite-dot-client-test.ts</td>
     </tr>
     <tr>
       <th>8</th>
@@ -1640,7 +1640,7 @@ This metric is useful to identify pairs of files that are frequently changed tog
       <td>0.676471</td>
       <td>4</td>
       <td>package↔package</td>
-      <td>examples/custom-filter-link/package.json↔examples/modal/package.json</td>
+      <td>examples/basic/package.json↔examples/custom-filter-link/package.json</td>
     </tr>
     <tr>
       <th>14</th>
@@ -1656,7 +1656,7 @@ This metric is useful to identify pairs of files that are frequently changed tog
       <td>0.656250</td>
       <td>6</td>
       <td>package↔package</td>
-      <td>examples/custom-query-parsing/package.json↔examples/multi-app/package.json</td>
+      <td>examples/lazy-loading/package.json↔examples/multi-app/package.json</td>
     </tr>
     <tr>
       <th>16</th>
@@ -1672,7 +1672,7 @@ This metric is useful to identify pairs of files that are frequently changed tog
       <td>0.638889</td>
       <td>8</td>
       <td>package↔package</td>
-      <td>examples/custom-link/package.json↔examples/modal/package.json</td>
+      <td>examples/modal/package.json↔examples/custom-link/package.json</td>
     </tr>
     <tr>
       <th>18</th>
@@ -1680,7 +1680,7 @@ This metric is useful to identify pairs of files that are frequently changed tog
       <td>0.621622</td>
       <td>9</td>
       <td>package↔package</td>
-      <td>examples/auth/package.json↔examples/modal/package.json</td>
+      <td>examples/modal/package.json↔examples/auth/package.json</td>
     </tr>
     <tr>
       <th>19</th>
@@ -1688,7 +1688,7 @@ This metric is useful to identify pairs of files that are frequently changed tog
       <td>0.606061</td>
       <td>10</td>
       <td>package↔package</td>
-      <td>examples/lazy-loading/package.json↔examples/modal/package.json</td>
+      <td>examples/custom-filter-link/package.json↔examples/custom-query-parsing/package.json</td>
     </tr>
     <tr>
       <th>20</th>
@@ -1775,24 +1775,24 @@ This metric is useful to identify pairs of files that are frequently changed tog
       <td>tsx↔tsx</td>
       <td>0.500000</td>
       <td>1</td>
-      <td>App↔App</td>
-      <td>examples/search-params/src/App.tsx↔examples/modal/src/App.tsx</td>
+      <td>entry.browser↔entry.browser</td>
+      <td>integration/helpers/rsc-vite/src/entry.browser.tsx↔playground/rsc-vite/src/entry.browser.tsx</td>
     </tr>
     <tr>
       <th>31</th>
       <td>tsx↔tsx</td>
       <td>0.477778</td>
       <td>2</td>
-      <td>data-memory-router-test↔hooks</td>
-      <td>packages/react-router/__tests__/data-memory-router-test.tsx↔packages/react-router/lib/hooks.tsx</td>
+      <td>hooks↔data-memory-router-test</td>
+      <td>packages/react-router/lib/hooks.tsx↔packages/react-router/__tests__/data-memory-router-test.tsx</td>
     </tr>
     <tr>
       <th>32</th>
       <td>tsx↔tsx</td>
       <td>0.434783</td>
       <td>3</td>
-      <td>app↔components</td>
-      <td>examples/data-router/src/app.tsx↔packages/react-router/lib/components.tsx</td>
+      <td>components↔app</td>
+      <td>packages/react-router/lib/components.tsx↔examples/data-router/src/app.tsx</td>
     </tr>
     <tr>
       <th>33</th>
@@ -1815,8 +1815,8 @@ This metric is useful to identify pairs of files that are frequently changed tog
       <td>tsx↔tsx</td>
       <td>0.409091</td>
       <td>6</td>
-      <td>entry.server↔hooks</td>
-      <td>examples/ssr-data-router/src/entry.server.tsx↔packages/react-router/lib/hooks.tsx</td>
+      <td>data-memory-router-test↔entry.server</td>
+      <td>packages/react-router/__tests__/data-memory-router-test.tsx↔examples/ssr-data-router/src/entry.server.tsx</td>
     </tr>
     <tr>
       <th>36</th>
@@ -1839,16 +1839,16 @@ This metric is useful to identify pairs of files that are frequently changed tog
       <td>tsx↔tsx</td>
       <td>0.388889</td>
       <td>9</td>
-      <td>data-memory-router-test↔components</td>
-      <td>packages/react-router/__tests__/data-memory-router-test.tsx↔packages/react-router/lib/components.tsx</td>
+      <td>components↔data-memory-router-test</td>
+      <td>packages/react-router/lib/components.tsx↔packages/react-router/__tests__/data-memory-router-test.tsx</td>
     </tr>
     <tr>
       <th>39</th>
       <td>tsx↔tsx</td>
       <td>0.384615</td>
       <td>10</td>
-      <td>entry.client↔components</td>
-      <td>examples/ssr-data-router/src/entry.client.tsx↔packages/react-router/lib/components.tsx</td>
+      <td>components↔entry.client</td>
+      <td>packages/react-router/lib/components.tsx↔examples/ssr-data-router/src/entry.client.tsx</td>
     </tr>
   </tbody>
 </table>
@@ -1933,8 +1933,8 @@ This metric is useful to identify pairs of files that are frequently changed tog
       <td>ts↔ts</td>
       <td>83.318182</td>
       <td>7</td>
-      <td>sessions-test↔fileStorage</td>
-      <td>packages/react-router-node/__tests__/sessions-test.ts↔packages/react-router-node/sessions/fileStorage.ts</td>
+      <td>fileStorage↔sessions-test</td>
+      <td>packages/react-router-node/sessions/fileStorage.ts↔packages/react-router-node/__tests__/sessions-test.ts</td>
     </tr>
     <tr>
       <th>7</th>
@@ -1957,8 +1957,8 @@ This metric is useful to identify pairs of files that are frequently changed tog
       <td>ts↔ts</td>
       <td>71.046512</td>
       <td>10</td>
-      <td>vite-dot-server-test↔vite-node-env-test</td>
-      <td>integration/vite-dot-server-test.ts↔integration/vite-node-env-test.ts</td>
+      <td>vite-hmr-hdr-test↔vite-node-env-test</td>
+      <td>integration/vite-hmr-hdr-test.ts↔integration/vite-node-env-test.ts</td>
     </tr>
     <tr>
       <th>10</th>
@@ -2126,7 +2126,7 @@ This metric is useful to identify pairs of files that are frequently changed tog
       <td>169.722222</td>
       <td>1</td>
       <td>App↔App</td>
-      <td>examples/search-params/src/App.tsx↔examples/modal/src/App.tsx</td>
+      <td>examples/modal/src/App.tsx↔examples/search-params/src/App.tsx</td>
     </tr>
     <tr>
       <th>31</th>
@@ -2198,7 +2198,7 @@ This metric is useful to identify pairs of files that are frequently changed tog
       <td>92.575758</td>
       <td>10</td>
       <td>App↔App</td>
-      <td>examples/auth/src/App.tsx↔examples/modal/src/App.tsx</td>
+      <td>examples/modal/src/App.tsx↔examples/auth/src/App.tsx</td>
     </tr>
   </tbody>
 </table>
@@ -2372,7 +2372,7 @@ This metric is useful to identify pairs of files that are frequently changed tog
       <td>0.477273</td>
       <td>8</td>
       <td>package↔package</td>
-      <td>examples/custom-query-parsing/package.json↔examples/multi-app/package.json</td>
+      <td>examples/lazy-loading/package.json↔examples/multi-app/package.json</td>
     </tr>
     <tr>
       <th>18</th>
@@ -2476,7 +2476,7 @@ This metric is useful to identify pairs of files that are frequently changed tog
       <td>0.250000</td>
       <td>1</td>
       <td>App↔App</td>
-      <td>examples/search-params/src/App.tsx↔examples/modal/src/App.tsx</td>
+      <td>examples/modal/src/App.tsx↔examples/search-params/src/App.tsx</td>
     </tr>
     <tr>
       <th>31</th>
@@ -2548,7 +2548,7 @@ This metric is useful to identify pairs of files that are frequently changed tog
       <td>0.176471</td>
       <td>10</td>
       <td>App↔App</td>
-      <td>examples/auth/src/App.tsx↔examples/modal/src/App.tsx</td>
+      <td>examples/modal/src/App.tsx↔examples/auth/src/App.tsx</td>
     </tr>
   </tbody>
 </table>
@@ -2646,7 +2646,7 @@ This is useful to identify pairs of files that score high in most metrics, which
       <td>0.702703</td>
       <td>0.541667</td>
       <td>58.020453</td>
-      <td>examples/search-params/package.json↔examples/ssr/package.json</td>
+      <td>examples/auth/package.json↔examples/ssr/package.json</td>
     </tr>
     <tr>
       <th>4</th>
@@ -2661,7 +2661,7 @@ This is useful to identify pairs of files that score high in most metrics, which
       <td>0.702703</td>
       <td>0.541667</td>
       <td>58.020453</td>
-      <td>examples/auth/package.json↔examples/ssr/package.json</td>
+      <td>examples/search-params/package.json↔examples/ssr/package.json</td>
     </tr>
     <tr>
       <th>5</th>
@@ -2751,7 +2751,7 @@ This is useful to identify pairs of files that score high in most metrics, which
       <td>0.500000</td>
       <td>0.250000</td>
       <td>169.722222</td>
-      <td>examples/search-params/src/App.tsx↔examples/modal/src/App.tsx</td>
+      <td>examples/modal/src/App.tsx↔examples/search-params/src/App.tsx</td>
     </tr>
     <tr>
       <th>11</th>
@@ -3251,20 +3251,6 @@ The frontier = the “best tradeoffs.”
     </tr>
     <tr>
       <th>2</th>
-      <td>data-memory-router-test↔hooks</td>
-      <td>139</td>
-      <td>43</td>
-      <td>0.477778</td>
-      <td>0.147766</td>
-      <td>5.982013</td>
-      <td>2</td>
-      <td>2</td>
-      <td>18</td>
-      <td>117</td>
-      <td>packages/react-router/__tests__/data-memory-router-test.tsx↔packages/react-router/lib/hooks.tsx</td>
-    </tr>
-    <tr>
-      <th>3</th>
       <td>components↔hooks</td>
       <td>163</td>
       <td>81</td>
@@ -3278,7 +3264,7 @@ The frontier = the “best tradeoffs.”
       <td>packages/react-router/lib/components.tsx↔packages/react-router/lib/hooks.tsx</td>
     </tr>
     <tr>
-      <th>4</th>
+      <th>3</th>
       <td>package↔package</td>
       <td>49</td>
       <td>22</td>
@@ -3292,7 +3278,7 @@ The frontier = the “best tradeoffs.”
       <td>examples/custom-query-parsing/package.json↔examples/lazy-loading/package.json</td>
     </tr>
     <tr>
-      <th>5</th>
+      <th>4</th>
       <td>package↔package</td>
       <td>49</td>
       <td>22</td>
@@ -3306,7 +3292,7 @@ The frontier = the “best tradeoffs.”
       <td>examples/lazy-loading/package.json↔examples/route-objects/package.json</td>
     </tr>
     <tr>
-      <th>6</th>
+      <th>5</th>
       <td>package↔package</td>
       <td>49</td>
       <td>22</td>
@@ -3320,7 +3306,7 @@ The frontier = the “best tradeoffs.”
       <td>examples/custom-query-parsing/package.json↔examples/route-objects/package.json</td>
     </tr>
     <tr>
-      <th>7</th>
+      <th>6</th>
       <td>package↔package</td>
       <td>46</td>
       <td>26</td>
@@ -3332,6 +3318,20 @@ The frontier = the “best tradeoffs.”
       <td>1</td>
       <td>39</td>
       <td>examples/auth/package.json↔examples/search-params/package.json</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>package↔package</td>
+      <td>46</td>
+      <td>26</td>
+      <td>0.702703</td>
+      <td>0.541667</td>
+      <td>58.020453</td>
+      <td>4</td>
+      <td>2</td>
+      <td>1</td>
+      <td>39</td>
+      <td>examples/auth/package.json↔examples/ssr/package.json</td>
     </tr>
     <tr>
       <th>8</th>
@@ -3349,17 +3349,17 @@ The frontier = the “best tradeoffs.”
     </tr>
     <tr>
       <th>9</th>
-      <td>package↔package</td>
-      <td>46</td>
-      <td>26</td>
-      <td>0.702703</td>
-      <td>0.541667</td>
-      <td>58.020453</td>
-      <td>4</td>
+      <td>hooks↔data-memory-router-test</td>
+      <td>139</td>
+      <td>43</td>
+      <td>0.477778</td>
+      <td>0.147766</td>
+      <td>5.982013</td>
       <td>2</td>
-      <td>1</td>
-      <td>39</td>
-      <td>examples/auth/package.json↔examples/ssr/package.json</td>
+      <td>2</td>
+      <td>18</td>
+      <td>117</td>
+      <td>packages/react-router/lib/hooks.tsx↔packages/react-router/__tests__/data-memory-router-test.tsx</td>
     </tr>
     <tr>
       <th>10</th>
@@ -3377,20 +3377,6 @@ The frontier = the “best tradeoffs.”
     </tr>
     <tr>
       <th>11</th>
-      <td>vite-loader-context-test↔vite-node-env-test</td>
-      <td>30</td>
-      <td>4</td>
-      <td>0.800000</td>
-      <td>0.222222</td>
-      <td>143.764706</td>
-      <td>23</td>
-      <td>2</td>
-      <td>3</td>
-      <td>2</td>
-      <td>integration/vite-loader-context-test.ts↔integration/vite-node-env-test.ts</td>
-    </tr>
-    <tr>
-      <th>12</th>
       <td>vite-server-bundles-test↔vite-node-env-test</td>
       <td>74</td>
       <td>5</td>
@@ -3402,6 +3388,20 @@ The frontier = the “best tradeoffs.”
       <td>43</td>
       <td>8</td>
       <td>integration/vite-server-bundles-test.ts↔integration/vite-node-env-test.ts</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>vite-loader-context-test↔vite-node-env-test</td>
+      <td>30</td>
+      <td>4</td>
+      <td>0.800000</td>
+      <td>0.222222</td>
+      <td>143.764706</td>
+      <td>23</td>
+      <td>2</td>
+      <td>3</td>
+      <td>2</td>
+      <td>integration/vite-loader-context-test.ts↔integration/vite-node-env-test.ts</td>
     </tr>
     <tr>
       <th>13</th>
@@ -3475,51 +3475,6 @@ The frontier = the “best tradeoffs.”
   <tbody>
     <tr>
       <th>0</th>
-      <td>json↔json</td>
-      <td>package↔package</td>
-      <td>619</td>
-      <td>3</td>
-      <td>0.036145</td>
-      <td>0.010490</td>
-      <td>0.536028</td>
-      <td>25</td>
-      <td>101</td>
-      <td>220</td>
-      <td>273</td>
-      <td>integration/package.json↔packages/react-router-serve/package.json</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>json↔json</td>
-      <td>package↔package</td>
-      <td>657</td>
-      <td>3</td>
-      <td>0.083333</td>
-      <td>0.004202</td>
-      <td>0.373837</td>
-      <td>25</td>
-      <td>98</td>
-      <td>250</td>
-      <td>284</td>
-      <td>examples/ssr-data-router/package.json↔packages/react-router/package.json</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>ts↔ts</td>
-      <td>client-data-test↔plugin</td>
-      <td>1528</td>
-      <td>3</td>
-      <td>0.044776</td>
-      <td>0.010067</td>
-      <td>0.584577</td>
-      <td>24</td>
-      <td>239</td>
-      <td>507</td>
-      <td>758</td>
-      <td>integration/client-data-test.ts↔packages/react-router-dev/vite/plugin.ts</td>
-    </tr>
-    <tr>
-      <th>3</th>
       <td>ts↔ts</td>
       <td>plugin↔router</td>
       <td>1515</td>
@@ -3534,9 +3489,24 @@ The frontier = the “best tradeoffs.”
       <td>packages/react-router-dev/vite/plugin.ts↔packages/react-router/lib/router/router.ts</td>
     </tr>
     <tr>
-      <th>4</th>
+      <th>1</th>
       <td>ts↔ts</td>
-      <td>vite↔server</td>
+      <td>plugin↔client-data-test</td>
+      <td>1528</td>
+      <td>3</td>
+      <td>0.044776</td>
+      <td>0.010067</td>
+      <td>0.584577</td>
+      <td>24</td>
+      <td>239</td>
+      <td>507</td>
+      <td>758</td>
+      <td>packages/react-router-dev/vite/plugin.ts↔integration/client-data-test.ts</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>ts↔ts</td>
+      <td>server↔vite</td>
       <td>1520</td>
       <td>3</td>
       <td>0.027273</td>
@@ -3546,7 +3516,37 @@ The frontier = the “best tradeoffs.”
       <td>248</td>
       <td>492</td>
       <td>756</td>
-      <td>integration/helpers/vite.ts↔packages/react-router/lib/server-runtime/server.ts</td>
+      <td>packages/react-router/lib/server-runtime/server.ts↔integration/helpers/vite.ts</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>json↔json</td>
+      <td>package↔package</td>
+      <td>619</td>
+      <td>3</td>
+      <td>0.036145</td>
+      <td>0.010490</td>
+      <td>0.536028</td>
+      <td>25</td>
+      <td>101</td>
+      <td>220</td>
+      <td>273</td>
+      <td>packages/react-router-serve/package.json↔integration/package.json</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>json↔json</td>
+      <td>package↔package</td>
+      <td>657</td>
+      <td>3</td>
+      <td>0.083333</td>
+      <td>0.004202</td>
+      <td>0.373837</td>
+      <td>25</td>
+      <td>98</td>
+      <td>250</td>
+      <td>284</td>
+      <td>packages/react-router/package.json↔examples/ssr-data-router/package.json</td>
     </tr>
   </tbody>
 </table>

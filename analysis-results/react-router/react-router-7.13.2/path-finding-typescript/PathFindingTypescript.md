@@ -128,12 +128,12 @@ Creates a in-memory projection of "TS:Module" nodes and their "DEPENDS_ON" relat
   <tbody>
     <tr>
       <th>0</th>
-      <td>130</td>
-      <td>344</td>
-      <td>0.020513</td>
-      <td>2597780</td>
+      <td>131</td>
+      <td>347</td>
+      <td>0.020376</td>
+      <td>2597800</td>
       <td>0</td>
-      <td>2.646154</td>
+      <td>2.648855</td>
       <td>27</td>
       <td>1</td>
       <td>3</td>
@@ -179,17 +179,17 @@ First, we'll have a look at the overall/total result of the all pairs shortest p
       <th>0</th>
       <td>0</td>
       <td>1</td>
-      <td>344</td>
-      <td>87</td>
-      <td>116</td>
+      <td>347</td>
+      <td>89</td>
+      <td>119</td>
     </tr>
     <tr>
       <th>1</th>
       <td>1</td>
       <td>2</td>
-      <td>972</td>
-      <td>60</td>
-      <td>98</td>
+      <td>973</td>
+      <td>61</td>
+      <td>99</td>
     </tr>
     <tr>
       <th>2</th>
@@ -289,9 +289,9 @@ The following table shows the first 10 rows with all details of the query above.
       <td>False</td>
       <td>False</td>
       <td>1</td>
-      <td>344</td>
-      <td>87</td>
-      <td>116</td>
+      <td>347</td>
+      <td>89</td>
+      <td>119</td>
       <td>21</td>
       <td>9</td>
       <td>9</td>
@@ -308,9 +308,9 @@ The following table shows the first 10 rows with all details of the query above.
       <td>False</td>
       <td>False</td>
       <td>2</td>
-      <td>972</td>
-      <td>60</td>
-      <td>98</td>
+      <td>973</td>
+      <td>61</td>
+      <td>99</td>
       <td>5</td>
       <td>2</td>
       <td>5</td>
@@ -346,13 +346,13 @@ The following table shows the first 10 rows with all details of the query above.
       <td>False</td>
       <td>False</td>
       <td>1</td>
-      <td>344</td>
-      <td>87</td>
-      <td>116</td>
+      <td>347</td>
+      <td>89</td>
+      <td>119</td>
       <td>211</td>
       <td>41</td>
       <td>50</td>
-      <td>[./lib/types/route-module-annotations.ts -&gt; ./index-react-server.ts, ./lib/types/route-data.ts -&gt; ./index.ts, ./lib/types/route-module-annotations.ts -&gt; ./index.ts, ./lib/types/route-module-annotations.ts -&gt; ./lib/dom/ssr/routeModules.ts]</td>
+      <td>[./index-react-server.ts -&gt; ./dom-export.ts, ./index.ts -&gt; ./dom-export.ts, ./lib/rsc/server.rsc.ts -&gt; ./dom-export.ts, ./index.ts -&gt; ./index-react-server-client.ts]</td>
       <td>[react-router -&gt; react-router]</td>
       <td>[react-router -&gt; react-router]</td>
     </tr>
@@ -365,13 +365,13 @@ The following table shows the first 10 rows with all details of the query above.
       <td>False</td>
       <td>False</td>
       <td>2</td>
-      <td>972</td>
-      <td>60</td>
-      <td>98</td>
+      <td>973</td>
+      <td>61</td>
+      <td>99</td>
       <td>848</td>
       <td>36</td>
       <td>50</td>
-      <td>[./lib/types/route-data.ts -&gt; ./dom-export.ts, ./lib/types/route-module-annotations.ts -&gt; ./dom-export.ts, ./lib/types/route-data.ts -&gt; ./index-react-server-client.ts, ./lib/types/route-module-annotations.ts -&gt; ./index-react-server-client.ts]</td>
+      <td>[./index-react-server-client.ts -&gt; ./dom-export.ts, ./lib/context.ts -&gt; ./dom-export.ts, ./lib/errors.ts -&gt; ./dom-export.ts, ./lib/dom/dom.ts -&gt; ./dom-export.ts]</td>
       <td>[react-router -&gt; react-router]</td>
       <td>[react-router -&gt; react-router]</td>
     </tr>
@@ -390,7 +390,7 @@ The following table shows the first 10 rows with all details of the query above.
       <td>477</td>
       <td>36</td>
       <td>45</td>
-      <td>[./lib/types/route-data.ts -&gt; ./lib/actions.ts, ./lib/types/route-module-annotations.ts -&gt; ./lib/actions.ts, ./lib/types/route-data.ts -&gt; ./lib/errors.ts, ./lib/types/route-module-annotations.ts -&gt; ./lib/errors.ts]</td>
+      <td>[./lib/server-runtime/serverHandoff.ts -&gt; ./dom-export.ts, ./lib/server-runtime/serverHandoff.ts -&gt; ./index-react-server-client.ts, ./lib/server-runtime/serverHandoff.ts -&gt; ./index-react-server.ts, ./index-react-server-client.ts -&gt; ./lib/actions.ts]</td>
       <td>[react-router -&gt; react-router]</td>
       <td>[react-router -&gt; react-router]</td>
     </tr>
@@ -409,7 +409,7 @@ The following table shows the first 10 rows with all details of the query above.
       <td>115</td>
       <td>36</td>
       <td>20</td>
-      <td>[./lib/types/route-data.ts -&gt; ./lib/dom/ssr/markup.ts, ./lib/types/route-module-annotations.ts -&gt; ./lib/dom/ssr/markup.ts, ./lib/types/route-data.ts -&gt; ./vendor/turbo-stream-v2/turbo-stream.ts, ./lib/types/route-module-annotations.ts -&gt; ./vendor/turbo-stream-v2/turbo-stream.ts]</td>
+      <td>[./lib/server-runtime/serverHandoff.ts -&gt; ./lib/actions.ts, ./lib/server-runtime/serverHandoff.ts -&gt; ./lib/errors.ts, ./dom-export.ts -&gt; ./lib/dom/ssr/markup.ts, ./index-react-server-client.ts -&gt; ./lib/dom/ssr/markup.ts]</td>
       <td>[react-router -&gt; react-router]</td>
       <td>[react-router -&gt; react-router]</td>
     </tr>
@@ -428,7 +428,7 @@ The following table shows the first 10 rows with all details of the query above.
       <td>119</td>
       <td>35</td>
       <td>5</td>
-      <td>[./lib/types/route-data.ts -&gt; ./vendor/turbo-stream-v2/flatten.ts, ./lib/types/route-module-annotations.ts -&gt; ./vendor/turbo-stream-v2/flatten.ts, ./lib/types/route-data.ts -&gt; ./vendor/turbo-stream-v2/unflatten.ts, ./lib/types/route-module-annotations.ts -&gt; ./vendor/turbo-stream-v2/unflatten.ts]</td>
+      <td>[./dom-export.ts -&gt; ./lib/types/utils.ts, ./index-react-server-client.ts -&gt; ./lib/types/utils.ts, ./index-react-server.ts -&gt; ./lib/types/utils.ts, ./lib/context.ts -&gt; ./lib/types/utils.ts]</td>
       <td>[react-router -&gt; react-router]</td>
       <td>[react-router -&gt; react-router]</td>
     </tr>
@@ -460,9 +460,9 @@ The following table shows the first 10 rows with all details of the query above.
       <td>False</td>
       <td>False</td>
       <td>1</td>
-      <td>344</td>
-      <td>87</td>
-      <td>116</td>
+      <td>347</td>
+      <td>89</td>
+      <td>119</td>
       <td>4</td>
       <td>2</td>
       <td>4</td>
@@ -518,9 +518,9 @@ In this section we'll focus only on pairs of nodes that both belong to the same 
       <td>False</td>
       <td>False</td>
       <td>1</td>
-      <td>344</td>
-      <td>87</td>
-      <td>116</td>
+      <td>347</td>
+      <td>89</td>
+      <td>119</td>
       <td>21</td>
       <td>9</td>
       <td>9</td>
@@ -537,9 +537,9 @@ In this section we'll focus only on pairs of nodes that both belong to the same 
       <td>False</td>
       <td>False</td>
       <td>2</td>
-      <td>972</td>
-      <td>60</td>
-      <td>98</td>
+      <td>973</td>
+      <td>61</td>
+      <td>99</td>
       <td>5</td>
       <td>2</td>
       <td>5</td>
@@ -575,13 +575,13 @@ In this section we'll focus only on pairs of nodes that both belong to the same 
       <td>False</td>
       <td>False</td>
       <td>1</td>
-      <td>344</td>
-      <td>87</td>
-      <td>116</td>
+      <td>347</td>
+      <td>89</td>
+      <td>119</td>
       <td>211</td>
       <td>41</td>
       <td>50</td>
-      <td>[./lib/types/route-module-annotations.ts -&gt; ./index-react-server.ts, ./lib/types/route-data.ts -&gt; ./index.ts, ./lib/types/route-module-annotations.ts -&gt; ./index.ts, ./lib/types/route-module-annotations.ts -&gt; ./lib/dom/ssr/routeModules.ts]</td>
+      <td>[./index-react-server.ts -&gt; ./dom-export.ts, ./index.ts -&gt; ./dom-export.ts, ./lib/rsc/server.rsc.ts -&gt; ./dom-export.ts, ./index.ts -&gt; ./index-react-server-client.ts]</td>
       <td>[react-router -&gt; react-router]</td>
       <td>[react-router -&gt; react-router]</td>
     </tr>
@@ -594,13 +594,13 @@ In this section we'll focus only on pairs of nodes that both belong to the same 
       <td>False</td>
       <td>False</td>
       <td>2</td>
-      <td>972</td>
-      <td>60</td>
-      <td>98</td>
+      <td>973</td>
+      <td>61</td>
+      <td>99</td>
       <td>848</td>
       <td>36</td>
       <td>50</td>
-      <td>[./lib/types/route-data.ts -&gt; ./dom-export.ts, ./lib/types/route-module-annotations.ts -&gt; ./dom-export.ts, ./lib/types/route-data.ts -&gt; ./index-react-server-client.ts, ./lib/types/route-module-annotations.ts -&gt; ./index-react-server-client.ts]</td>
+      <td>[./index-react-server-client.ts -&gt; ./dom-export.ts, ./lib/context.ts -&gt; ./dom-export.ts, ./lib/errors.ts -&gt; ./dom-export.ts, ./lib/dom/dom.ts -&gt; ./dom-export.ts]</td>
       <td>[react-router -&gt; react-router]</td>
       <td>[react-router -&gt; react-router]</td>
     </tr>
@@ -619,7 +619,7 @@ In this section we'll focus only on pairs of nodes that both belong to the same 
       <td>477</td>
       <td>36</td>
       <td>45</td>
-      <td>[./lib/types/route-data.ts -&gt; ./lib/actions.ts, ./lib/types/route-module-annotations.ts -&gt; ./lib/actions.ts, ./lib/types/route-data.ts -&gt; ./lib/errors.ts, ./lib/types/route-module-annotations.ts -&gt; ./lib/errors.ts]</td>
+      <td>[./lib/server-runtime/serverHandoff.ts -&gt; ./dom-export.ts, ./lib/server-runtime/serverHandoff.ts -&gt; ./index-react-server-client.ts, ./lib/server-runtime/serverHandoff.ts -&gt; ./index-react-server.ts, ./index-react-server-client.ts -&gt; ./lib/actions.ts]</td>
       <td>[react-router -&gt; react-router]</td>
       <td>[react-router -&gt; react-router]</td>
     </tr>
@@ -638,7 +638,7 @@ In this section we'll focus only on pairs of nodes that both belong to the same 
       <td>115</td>
       <td>36</td>
       <td>20</td>
-      <td>[./lib/types/route-data.ts -&gt; ./lib/dom/ssr/markup.ts, ./lib/types/route-module-annotations.ts -&gt; ./lib/dom/ssr/markup.ts, ./lib/types/route-data.ts -&gt; ./vendor/turbo-stream-v2/turbo-stream.ts, ./lib/types/route-module-annotations.ts -&gt; ./vendor/turbo-stream-v2/turbo-stream.ts]</td>
+      <td>[./lib/server-runtime/serverHandoff.ts -&gt; ./lib/actions.ts, ./lib/server-runtime/serverHandoff.ts -&gt; ./lib/errors.ts, ./dom-export.ts -&gt; ./lib/dom/ssr/markup.ts, ./index-react-server-client.ts -&gt; ./lib/dom/ssr/markup.ts]</td>
       <td>[react-router -&gt; react-router]</td>
       <td>[react-router -&gt; react-router]</td>
     </tr>
@@ -657,7 +657,7 @@ In this section we'll focus only on pairs of nodes that both belong to the same 
       <td>119</td>
       <td>35</td>
       <td>5</td>
-      <td>[./lib/types/route-data.ts -&gt; ./vendor/turbo-stream-v2/flatten.ts, ./lib/types/route-module-annotations.ts -&gt; ./vendor/turbo-stream-v2/flatten.ts, ./lib/types/route-data.ts -&gt; ./vendor/turbo-stream-v2/unflatten.ts, ./lib/types/route-module-annotations.ts -&gt; ./vendor/turbo-stream-v2/unflatten.ts]</td>
+      <td>[./dom-export.ts -&gt; ./lib/types/utils.ts, ./index-react-server-client.ts -&gt; ./lib/types/utils.ts, ./index-react-server.ts -&gt; ./lib/types/utils.ts, ./lib/context.ts -&gt; ./lib/types/utils.ts]</td>
       <td>[react-router -&gt; react-router]</td>
       <td>[react-router -&gt; react-router]</td>
     </tr>
@@ -689,9 +689,9 @@ In this section we'll focus only on pairs of nodes that both belong to the same 
       <td>False</td>
       <td>False</td>
       <td>1</td>
-      <td>344</td>
-      <td>87</td>
-      <td>116</td>
+      <td>347</td>
+      <td>89</td>
+      <td>119</td>
       <td>4</td>
       <td>2</td>
       <td>4</td>
@@ -717,6 +717,7 @@ Shows the top 20 projects with the longest shortest path (=Graph Diameter).
     react-router-dev                            5
     create-react-router                         3
     react-router-architect                      2
+    react-router-cloudflare                     2
     react-router-node                           2
     react-router-express                        1
     react-router-fs-routes                      1
@@ -733,7 +734,7 @@ Shows the top 20 projects with the longest shortest path (=Graph Diameter).
 
 #### All pairs shortest path for each project - Bar chart (absolute)
 
-    /tmp/ipykernel_29383/2329962485.py:20: FutureWarning: The provided callable <built-in function sum> is currently using np.sum. In a future version of pandas, the provided callable will be used directly. To keep current behavior pass the string np.sum instead.
+    /tmp/ipykernel_30142/2329962485.py:20: FutureWarning: The provided callable <built-in function sum> is currently using np.sum. In a future version of pandas, the provided callable will be used directly. To keep current behavior pass the string np.sum instead.
       data_frame = data_frame.groupby([column, "distance"], as_index=False)["pairCount"].apply(sum)
 
 
@@ -832,6 +833,15 @@ Shows the top 50 projects with the highest number of dependency paths stacked by
       <td>0.000000</td>
     </tr>
     <tr>
+      <th>react-router-cloudflare</th>
+      <td>75.000000</td>
+      <td>25.000000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+    </tr>
+    <tr>
       <th>react-router-express</th>
       <td>100.000000</td>
       <td>0.000000</td>
@@ -871,7 +881,7 @@ In this section we'll focus only on pairs of nodes that both belong to the same 
 
 **Note:** It is possible that a (shortest) path could have nodes in between that belong to different root projects. Therefore, the data of each root project isn't perfectly isolated. However, it shows how the dependencies interact across root projects "in real life" while still providing a decent isolation of each root project.
 
-    /tmp/ipykernel_29383/4070276133.py:8: FutureWarning: The provided callable <built-in function max> is currently using np.maximum.reduce. In a future version of pandas, the provided callable will be used directly. To keep current behavior pass the string np.maximum.reduce instead.
+    /tmp/ipykernel_30142/4070276133.py:8: FutureWarning: The provided callable <built-in function max> is currently using np.maximum.reduce. In a future version of pandas, the provided callable will be used directly. To keep current behavior pass the string np.maximum.reduce instead.
       apply(max).head(20))
 
 
@@ -963,7 +973,7 @@ Shows the top 20 root projects with the longest shortest path (=Graph Diameter).
 
 #### All pairs shortest path for each root project - Bar chart (absolute)
 
-    /tmp/ipykernel_29383/2329962485.py:20: FutureWarning: The provided callable <built-in function sum> is currently using np.sum. In a future version of pandas, the provided callable will be used directly. To keep current behavior pass the string np.sum instead.
+    /tmp/ipykernel_30142/2329962485.py:20: FutureWarning: The provided callable <built-in function sum> is currently using np.sum. In a future version of pandas, the provided callable will be used directly. To keep current behavior pass the string np.sum instead.
       data_frame = data_frame.groupby([column, "distance"], as_index=False)["pairCount"].apply(sum)
 
 
@@ -1056,6 +1066,15 @@ Shows the top 50 root projects with the highest number of dependency paths stack
       <th>react-router-fs-routes</th>
       <td>100.000000</td>
       <td>0.000000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+    </tr>
+    <tr>
+      <th>react-router-cloudflare</th>
+      <td>75.000000</td>
+      <td>25.000000</td>
       <td>0.000000</td>
       <td>0.000000</td>
       <td>0.000000</td>
@@ -1335,7 +1354,7 @@ The following table shows the first 10 rows with all details of the query above.
       <td>10</td>
       <td>2</td>
       <td>10</td>
-      <td>[./lib/types/route-module-annotations.ts -&gt; ./index-react-server.ts, ./lib/dom/ssr/links.ts -&gt; ./index.ts, ./lib/dom/ssr/links.ts -&gt; ./lib/dom/ssr/entry.ts, ./lib/dom/ssr/links.ts -&gt; ./lib/dom/ssr/routeModules.ts]</td>
+      <td>[./lib/types/route-module-annotations.ts -&gt; ./index-react-server.ts, ./lib/types/route-module-annotations.ts -&gt; ./index.ts, ./lib/dom/ssr/links.ts -&gt; ./lib/dom/ssr/entry.ts, ./lib/types/route-module-annotations.ts -&gt; ./lib/dom/ssr/routeModules.ts]</td>
       <td>[react-router -&gt; react-router]</td>
       <td>[react-router -&gt; react-router]</td>
     </tr>
@@ -1564,7 +1583,7 @@ In this section we'll focus only on pairs of nodes that both belong to the same 
       <td>10</td>
       <td>2</td>
       <td>10</td>
-      <td>[./lib/types/route-module-annotations.ts -&gt; ./index-react-server.ts, ./lib/dom/ssr/links.ts -&gt; ./index.ts, ./lib/dom/ssr/links.ts -&gt; ./lib/dom/ssr/entry.ts, ./lib/dom/ssr/links.ts -&gt; ./lib/dom/ssr/routeModules.ts]</td>
+      <td>[./lib/types/route-module-annotations.ts -&gt; ./index-react-server.ts, ./lib/types/route-module-annotations.ts -&gt; ./index.ts, ./lib/dom/ssr/links.ts -&gt; ./lib/dom/ssr/entry.ts, ./lib/types/route-module-annotations.ts -&gt; ./lib/dom/ssr/routeModules.ts]</td>
       <td>[react-router -&gt; react-router]</td>
       <td>[react-router -&gt; react-router]</td>
     </tr>
@@ -1675,7 +1694,7 @@ Shows the top 20 projects with their max. longest path.
 
 #### Longest path for each project - Bar chart (absolute)
 
-    /tmp/ipykernel_29383/2329962485.py:20: FutureWarning: The provided callable <built-in function sum> is currently using np.sum. In a future version of pandas, the provided callable will be used directly. To keep current behavior pass the string np.sum instead.
+    /tmp/ipykernel_30142/2329962485.py:20: FutureWarning: The provided callable <built-in function sum> is currently using np.sum. In a future version of pandas, the provided callable will be used directly. To keep current behavior pass the string np.sum instead.
       data_frame = data_frame.groupby([column, "distance"], as_index=False)["pairCount"].apply(sum)
 
 
@@ -1916,7 +1935,7 @@ In this section we'll focus only on pairs of nodes that both belong to the same 
       <td>10</td>
       <td>2</td>
       <td>10</td>
-      <td>[./lib/types/route-module-annotations.ts -&gt; ./index-react-server.ts, ./lib/dom/ssr/links.ts -&gt; ./index.ts, ./lib/dom/ssr/links.ts -&gt; ./lib/dom/ssr/entry.ts, ./lib/dom/ssr/links.ts -&gt; ./lib/dom/ssr/routeModules.ts]</td>
+      <td>[./lib/types/route-module-annotations.ts -&gt; ./index-react-server.ts, ./lib/types/route-module-annotations.ts -&gt; ./index.ts, ./lib/dom/ssr/links.ts -&gt; ./lib/dom/ssr/entry.ts, ./lib/types/route-module-annotations.ts -&gt; ./lib/dom/ssr/routeModules.ts]</td>
       <td>[react-router -&gt; react-router]</td>
       <td>[react-router -&gt; react-router]</td>
     </tr>
@@ -2023,7 +2042,7 @@ Shows the top 20 root projects with their max. longest path.
 
 #### Longest path for each root project - Bar chart (absolute)
 
-    /tmp/ipykernel_29383/2329962485.py:20: FutureWarning: The provided callable <built-in function sum> is currently using np.sum. In a future version of pandas, the provided callable will be used directly. To keep current behavior pass the string np.sum instead.
+    /tmp/ipykernel_30142/2329962485.py:20: FutureWarning: The provided callable <built-in function sum> is currently using np.sum. In a future version of pandas, the provided callable will be used directly. To keep current behavior pass the string np.sum instead.
       data_frame = data_frame.groupby([column, "distance"], as_index=False)["pairCount"].apply(sum)
 
 
@@ -2112,8 +2131,8 @@ Shows the top 50 root projects with the highest number of dependency paths stack
   <tbody>
     <tr>
       <th>0</th>
-      <td>130</td>
-      <td>0.020513</td>
+      <td>131</td>
+      <td>0.020376</td>
       <td>1</td>
       <td>27</td>
       <td>6</td>

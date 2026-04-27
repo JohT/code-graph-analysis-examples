@@ -38,7 +38,7 @@
     <tr>
       <th>0</th>
       <td>205366</td>
-      <td>438075</td>
+      <td>438080</td>
       <td>11</td>
       <td>159</td>
       <td>1308</td>
@@ -82,24 +82,24 @@ The whole table can be found in the CSV report `Number_of_elements_per_module_fo
       <td>react-router</td>
       <td>index.ts</td>
       <td>171</td>
-      <td>Interface</td>
-      <td>48</td>
+      <td>TypeAlias</td>
+      <td>64</td>
     </tr>
     <tr>
       <th>1</th>
       <td>react-router</td>
       <td>index.ts</td>
       <td>171</td>
-      <td>Variable</td>
-      <td>19</td>
+      <td>Interface</td>
+      <td>48</td>
     </tr>
     <tr>
       <th>2</th>
       <td>react-router</td>
       <td>index.ts</td>
       <td>171</td>
-      <td>TypeAlias</td>
-      <td>64</td>
+      <td>Variable</td>
+      <td>19</td>
     </tr>
     <tr>
       <th>3</th>
@@ -146,11 +146,19 @@ The whole table can be found in the CSV report `Number_of_elements_per_module_fo
       <td>utils</td>
       <td>lib/router/utils.ts</td>
       <td>86</td>
+      <td>Class</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>utils</td>
+      <td>lib/router/utils.ts</td>
+      <td>86</td>
       <td>Interface</td>
       <td>23</td>
     </tr>
     <tr>
-      <th>9</th>
+      <th>10</th>
       <td>utils</td>
       <td>lib/router/utils.ts</td>
       <td>86</td>
@@ -158,7 +166,7 @@ The whole table can be found in the CSV report `Number_of_elements_per_module_fo
       <td>9</td>
     </tr>
     <tr>
-      <th>10</th>
+      <th>11</th>
       <td>utils</td>
       <td>lib/router/utils.ts</td>
       <td>86</td>
@@ -166,31 +174,7 @@ The whole table can be found in the CSV report `Number_of_elements_per_module_fo
       <td>1</td>
     </tr>
     <tr>
-      <th>11</th>
-      <td>utils</td>
-      <td>lib/router/utils.ts</td>
-      <td>86</td>
-      <td>Class</td>
-      <td>3</td>
-    </tr>
-    <tr>
       <th>12</th>
-      <td>react-router</td>
-      <td>index-react-server.ts</td>
-      <td>40</td>
-      <td>Function</td>
-      <td>10</td>
-    </tr>
-    <tr>
-      <th>13</th>
-      <td>react-router</td>
-      <td>index-react-server.ts</td>
-      <td>40</td>
-      <td>Variable</td>
-      <td>6</td>
-    </tr>
-    <tr>
-      <th>14</th>
       <td>react-router</td>
       <td>index-react-server.ts</td>
       <td>40</td>
@@ -198,7 +182,7 @@ The whole table can be found in the CSV report `Number_of_elements_per_module_fo
       <td>15</td>
     </tr>
     <tr>
-      <th>15</th>
+      <th>13</th>
       <td>react-router</td>
       <td>index-react-server.ts</td>
       <td>40</td>
@@ -206,7 +190,15 @@ The whole table can be found in the CSV report `Number_of_elements_per_module_fo
       <td>4</td>
     </tr>
     <tr>
-      <th>16</th>
+      <th>14</th>
+      <td>react-router</td>
+      <td>index-react-server.ts</td>
+      <td>40</td>
+      <td>Function</td>
+      <td>10</td>
+    </tr>
+    <tr>
+      <th>15</th>
       <td>react-router</td>
       <td>index-react-server.ts</td>
       <td>40</td>
@@ -214,12 +206,20 @@ The whole table can be found in the CSV report `Number_of_elements_per_module_fo
       <td>1</td>
     </tr>
     <tr>
+      <th>16</th>
+      <td>react-router</td>
+      <td>index-react-server.ts</td>
+      <td>40</td>
+      <td>Variable</td>
+      <td>6</td>
+    </tr>
+    <tr>
       <th>17</th>
       <td>router</td>
       <td>lib/router/router.ts</td>
       <td>34</td>
-      <td>Function</td>
-      <td>8</td>
+      <td>TypeAlias</td>
+      <td>11</td>
     </tr>
     <tr>
       <th>18</th>
@@ -234,8 +234,8 @@ The whole table can be found in the CSV report `Number_of_elements_per_module_fo
       <td>router</td>
       <td>lib/router/router.ts</td>
       <td>34</td>
-      <td>TypeAlias</td>
-      <td>11</td>
+      <td>Function</td>
+      <td>8</td>
     </tr>
     <tr>
       <th>20</th>
@@ -274,7 +274,7 @@ The whole table can be found in the CSV report `Number_of_elements_per_module_fo
       <td>history</td>
       <td>lib/router/history.ts</td>
       <td>25</td>
-      <td>Function</td>
+      <td>Interface</td>
       <td>9</td>
     </tr>
     <tr>
@@ -282,7 +282,7 @@ The whole table can be found in the CSV report `Number_of_elements_per_module_fo
       <td>history</td>
       <td>lib/router/history.ts</td>
       <td>25</td>
-      <td>Interface</td>
+      <td>Function</td>
       <td>9</td>
     </tr>
     <tr>
@@ -314,8 +314,8 @@ The whole table can be found in the CSV report `Number_of_elements_per_module_fo
       <td>utils</td>
       <td>vendor/turbo-stream-v2/utils.ts</td>
       <td>24</td>
-      <td>Function</td>
-      <td>1</td>
+      <td>TypeAlias</td>
+      <td>2</td>
     </tr>
   </tbody>
 </table>

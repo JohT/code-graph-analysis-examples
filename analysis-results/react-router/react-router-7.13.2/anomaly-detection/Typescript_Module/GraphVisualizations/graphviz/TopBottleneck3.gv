@@ -14,17 +14,17 @@ strict digraph TopBottleneck3 {
 
 	graph   [label="Top Rank #3 Typescript Module Bottleneck\n/home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.13.2/source/react-router-7.13.2/packages/react-router/dom-export.ts\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: Betweenness centrality\nthick outline: > 90% percentile of Betweenness centrality\n\n"];
 	central [label="🔒 bottleneck #3\ndom-export"];
-	"server_199017"  [label = "server\n(96.0)"; penwidth = 2; ]; "server_199017" -> central [label=195; weight=195; penwidth=0.5];
-	"react-router_198989"  [label = "react-router\n(1163.17)"; penwidth = 5; ]; "react-router_198989" -> central [label=1; weight=1; penwidth=0.4];
-	"react-router_198988"  [label = "react-router\n(368.33)"; penwidth = 2; ]; "react-router_198988" -> central [label=1; weight=1; penwidth=0.4];
-	"browser_199018"  [label = "browser\n(0.0)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "browser_199018" [label=1; weight=1; penwidth=0.4; color = 5];
-	"react-router_198988"  [label = "react-router\n(368.33)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "react-router_198988" [label=1; weight=1; penwidth=0.4; color = 5];
-	"react-router_198989"  [label = "react-router\n(1163.17)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "react-router_198989" [label=1; weight=1; penwidth=0.4; color = 5];
-	"server_199017"  [label = "server\n(96.0)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "server_199017" [label=1; weight=1; penwidth=0.4; color = 5];
-	"server_199017" -> "react-router_198989" [label=543; weight=543; penwidth=0.3; color = 3]
-	"server_199017" -> "react-router_198988" [label=60; weight=60; penwidth=0.3; color = 3]
-	"react-router_198989" -> "react-router_198988" [label=30; weight=30; penwidth=0.3; color = 3]
-	"react-router_198988" -> "react-router_198989" [label=18; weight=18; penwidth=0.3; color = 3]
-	"react-router_198989" -> "server_199017" [label=15; weight=15; penwidth=0.3; color = 3]
-	"react-router_198988" -> "server_199017" [label=9; weight=9; penwidth=0.3; color = 3]
+	"server_206236"  [label = "server\n(77.67)"; penwidth = 2; ]; "server_206236" -> central [label=39; weight=39; penwidth=0.4];
+	"react-router_206208"  [label = "react-router\n(1222.92)"; penwidth = 5; ]; "react-router_206208" -> central [label=1; weight=1; penwidth=0.4];
+	"react-router_206207"  [label = "react-router\n(222.17)"; penwidth = 2; ]; "react-router_206207" -> central [label=1; weight=1; penwidth=0.4];
+	"browser_206237"  [label = "browser\n(0.0)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "browser_206237" [label=1; weight=1; penwidth=0.4; color = 5];
+	"react-router_206207"  [label = "react-router\n(222.17)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "react-router_206207" [label=1; weight=1; penwidth=0.4; color = 5];
+	"react-router_206208"  [label = "react-router\n(1222.92)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "react-router_206208" [label=1; weight=1; penwidth=0.4; color = 5];
+	"server_206236"  [label = "server\n(77.67)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "server_206236" [label=1; weight=1; penwidth=0.4; color = 5];
+	"server_206236" -> "react-router_206208" [label=175; weight=175; penwidth=0.3; color = 3]
+	"server_206236" -> "react-router_206207" [label=30; weight=30; penwidth=0.3; color = 3]
+	"react-router_206208" -> "react-router_206207" [label=24; weight=24; penwidth=0.3; color = 3]
+	"react-router_206207" -> "react-router_206208" [label=18; weight=18; penwidth=0.3; color = 3]
+	"react-router_206208" -> "server_206236" [label=9; weight=9; penwidth=0.3; color = 3]
+	"react-router_206207" -> "server_206236" [label=9; weight=9; penwidth=0.3; color = 3]
 }
