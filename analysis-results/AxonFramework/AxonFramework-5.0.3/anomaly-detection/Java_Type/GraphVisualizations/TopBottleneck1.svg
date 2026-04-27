@@ -366,7 +366,7 @@
 <text xml:space="preserve" text-anchor="middle" x="788.48" y="-853.59" font-family="Times,serif" font-size="4.00">11</text>
 </g>
 <!-- AggregateBasedJpaEventStorageEngine_12526&#45;&gt;MessageStream$Empty_17779 -->
-<g id="edge139" class="edge">
+<g id="edge140" class="edge">
 <title>AggregateBasedJpaEventStorageEngine_12526&#45;&gt;MessageStream$Empty_17779</title>
 <path fill="none" stroke="#ccece6" stroke-width="0.3" d="M817.39,-1023.26C790.55,-963.59 733.89,-837.65 705.22,-773.9"/>
 <polygon fill="#ccece6" stroke="#ccece6" stroke-width="0.3" points="706.64,-773.65 703.73,-770.58 704.09,-774.8 706.64,-773.65"/>
@@ -387,14 +387,14 @@
 <text xml:space="preserve" text-anchor="middle" x="896.33" y="-1002.74" font-family="Times,serif" font-size="4.00">10</text>
 </g>
 <!-- AggregateBasedJpaEventStorageEngine_12526&#45;&gt;MessageStream$Entry_17776 -->
-<g id="edge141" class="edge">
+<g id="edge139" class="edge">
 <title>AggregateBasedJpaEventStorageEngine_12526&#45;&gt;MessageStream$Entry_17776</title>
 <path fill="none" stroke="#ccece6" stroke-width="0.3" d="M827.74,-1022.74C814.27,-920.95 773.73,-614.69 759.33,-505.89"/>
 <polygon fill="#ccece6" stroke="#ccece6" stroke-width="0.3" points="760.72,-505.71 758.8,-501.93 757.94,-506.08 760.72,-505.71"/>
 <text xml:space="preserve" text-anchor="middle" x="792.24" y="-763.32" font-family="Times,serif" font-size="4.00">2</text>
 </g>
 <!-- AggregateBasedJpaEventStorageEngine_12526&#45;&gt;SimpleEntry_31479 -->
-<g id="edge140" class="edge">
+<g id="edge141" class="edge">
 <title>AggregateBasedJpaEventStorageEngine_12526&#45;&gt;SimpleEntry_31479</title>
 <path fill="none" stroke="#ccece6" stroke-width="0.3" d="M865.47,-1024.23C908.59,-982.98 983.23,-911.58 1025.77,-870.88"/>
 <polygon fill="#ccece6" stroke="#ccece6" stroke-width="0.3" points="1026.53,-872.09 1028.45,-868.31 1024.6,-870.07 1026.53,-872.09"/>

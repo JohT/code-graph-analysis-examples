@@ -5,7 +5,7 @@
 "org.axonframework.modelling.entity.annotation.AnnotatedEntityMetamodel: java.lang.Class getExpectedRepresentation(org.axonframework.messaging.core.QualifiedName)","getExpectedRepresentation","centralityPageRank",4.398521176681438,""
 "org.axonframework.common.infra.ComponentDescriptor: void describeWrapperOf(java.lang.Object)","describeWrapperOf","centralityPageRank",4.019625,""
 "org.axonframework.common.ExceptionUtils: boolean isExplicitlyNonTransient(java.lang.Throwable)","isExplicitlyNonTransient","centralityPageRank",3.5488169413451507,""
-"org.axonframework.common.Assert: void isTrue(boolean,java.util.function.Supplier)","isTrue","centralityPageRank",2.5903500000000004,""
+"org.axonframework.common.Assert: void isTrue(boolean,java.util.function.Supplier)","isTrue","centralityPageRank",2.5903499999999995,""
 "org.axonframework.common.configuration.DecoratorDefinition: org.axonframework.common.configuration.DecoratorDefinition$PartialDecoratorDefinition forType(java.lang.Class)","forType","centralityPageRank",1.8751683482142862,""
 "org.axonframework.common.ObjectUtils: java.lang.Class nullSafeTypeOf(java.lang.Object)","nullSafeTypeOf","centralityPageRank",1.4791874999999999,""
 "org.axonframework.axonserver.connector.MetadataConverter: java.util.Map convertMetadataValuesToGrpc(java.util.Map)","convertMetadataValuesToGrpc","centralityPageRank",1.1691500000000001,""

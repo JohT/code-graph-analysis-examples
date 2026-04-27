@@ -40,3 +40,9 @@
 
 ![TopBridge 5](./Java_Package/GraphVisualizations/TopBridge5.svg)
 
+---
+
+##### TopOutlier Graph Visualizations
+
+![TopOutlier 1](./Java_Package/GraphVisualizations/TopOutlier1.svg)
+

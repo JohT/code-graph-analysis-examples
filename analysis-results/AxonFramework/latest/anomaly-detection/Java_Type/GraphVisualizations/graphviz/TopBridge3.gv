@@ -12,26 +12,11 @@ strict digraph TopBridge3 {
     central [fontsize = 16;];
     central [color = 7; fillcolor = 5; penwidth = 3;];
 
-	graph   [label="Top Rank #3 Java Type Bridge\norg.axonframework.update.api.UpdateCheckResponse\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
-	central [label="🌉 bridge #3\nUpdateCheckResponse"];
-	"LoggingUpdateCheckerReporter_39045" [label = "LoggingUpdateCheckerReporter"; ]; "LoggingUpdateCheckerReporter_39045" -> central [label=10; weight=10; penwidth=0.6];
-	"UpdateChecker_39051" [label = "UpdateChecker"; ]; "UpdateChecker_39051" -> central [label=2; weight=2; penwidth=0.4];
-	"UpdateCheckerHttpClient_39038" [label = "UpdateCheckerHttpClient"; ]; "UpdateCheckerHttpClient_39038" -> central [label=2; weight=2; penwidth=0.4];
-	"UpdateCheckerReporter_39052" [label = "UpdateCheckerReporter"; ]; "UpdateCheckerReporter_39052" -> central [label=1; weight=1; penwidth=0.4];
-	"DetectedVulnerability_39663" [label = "DetectedVulnerability"; color = 5; fillcolor = 1; ]; central -> "DetectedVulnerability_39663" [label=7; weight=7; penwidth=0.5; color = 5];
-	"ArtifactAvailableUpgrade_39664" [label = "ArtifactAvailableUpgrade"; color = 5; fillcolor = 1; ]; central -> "ArtifactAvailableUpgrade_39664" [label=6; weight=6; penwidth=0.5; color = 5];
-	"DetectedVulnerabilitySeverity_39765" [label = "DetectedVulnerabilitySeverity"; color = 5; fillcolor = 1; ]; central -> "DetectedVulnerabilitySeverity_39765" [label=3; weight=3; penwidth=0.4; color = 5];
+	graph   [label="Top Rank #3 Java Type Bridge\norg.axonframework.update.api.ArtifactAvailableUpgrade\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
+	central [label="🌉 bridge #3\nArtifactAvailableUpgrade"];
+	"LoggingUpdateCheckerReporter_39045" [label = "LoggingUpdateCheckerReporter"; ]; "LoggingUpdateCheckerReporter_39045" -> central [label=6; weight=6; penwidth=0.5];
+	"UpdateCheckResponse_39660" [label = "UpdateCheckResponse"; ]; "UpdateCheckResponse_39660" -> central [label=6; weight=6; penwidth=0.5];
 	"Internal_4198" [label = "Internal"; color = 5; fillcolor = 1; ]; central -> "Internal_4198" [label=1; weight=1; penwidth=0.4; color = 5];
-	"LoggingUpdateCheckerReporter_39045" -> "DetectedVulnerability_39663" [label=12; weight=12; penwidth=0.3; color = 3]
-	"LoggingUpdateCheckerReporter_39045" -> "ArtifactAvailableUpgrade_39664" [label=6; weight=6; penwidth=0.3; color = 3]
-	"UpdateChecker_39051" -> "UpdateCheckerHttpClient_39038" [label=4; weight=4; penwidth=0.3; color = 3]
-	"UpdateChecker_39051" -> "UpdateCheckerReporter_39052" [label=4; weight=4; penwidth=0.3; color = 3]
-	"DetectedVulnerability_39663" -> "DetectedVulnerabilitySeverity_39765" [label=3; weight=3; penwidth=0.3; color = 3]
-	"LoggingUpdateCheckerReporter_39045" -> "DetectedVulnerabilitySeverity_39765" [label=2; weight=2; penwidth=0.3; color = 3]
-	"ArtifactAvailableUpgrade_39664" -> "Internal_4198" [label=1; weight=1; penwidth=0.3; color = 3]
-	"DetectedVulnerability_39663" -> "Internal_4198" [label=1; weight=1; penwidth=0.3; color = 3]
-	"DetectedVulnerabilitySeverity_39765" -> "Internal_4198" [label=1; weight=1; penwidth=0.3; color = 3]
-	"LoggingUpdateCheckerReporter_39045" -> "UpdateCheckerReporter_39052" [label=1; weight=1; penwidth=0.3; color = 3]
-	"UpdateChecker_39051" -> "Internal_4198" [label=1; weight=1; penwidth=0.3; color = 3]
-	"UpdateCheckerHttpClient_39038" -> "Internal_4198" [label=1; weight=1; penwidth=0.3; color = 3]
+	"LoggingUpdateCheckerReporter_39045" -> "UpdateCheckResponse_39660" [label=10; weight=10; penwidth=0.3; color = 3]
+	"UpdateCheckResponse_39660" -> "Internal_4198" [label=1; weight=1; penwidth=0.3; color = 3]
 }

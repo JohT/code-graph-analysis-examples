@@ -230,7 +230,7 @@ Only the top 20 entries are shown. The whole table can be found in the following
       <td>77</td>
       <td>120</td>
       <td>1231</td>
-      <td>[Bean, Primary, ConfigurationCondition$Configu...</td>
+      <td>[Bean, Conditional, Primary, ConfigurationCond...</td>
     </tr>
     <tr>
       <th>16</th>
@@ -497,7 +497,7 @@ Only the top 20 entries are shown. The whole table can be found in the following
       <td>64</td>
       <td>120</td>
       <td>1231</td>
-      <td>[EventProcessorSettings$SubscribingEventProces...</td>
+      <td>[EventProcessorSettings$ProcessorMode, EventPr...</td>
     </tr>
     <tr>
       <th>11</th>
@@ -2540,22 +2540,22 @@ Only the last 20 entries are shown. The whole table can be found in the followin
   <tbody>
     <tr>
       <th>0</th>
-      <td>org.testcontainers.containers</td>
+      <td>reactor.core.scheduler</td>
       <td>2</td>
     </tr>
     <tr>
       <th>1</th>
-      <td>org.testcontainers.containers.wait.strategy</td>
-      <td>2</td>
-    </tr>
-    <tr>
-      <th>2</th>
       <td>org.testcontainers.utility</td>
       <td>2</td>
     </tr>
     <tr>
+      <th>2</th>
+      <td>org.testcontainers.containers.wait.strategy</td>
+      <td>2</td>
+    </tr>
+    <tr>
       <th>3</th>
-      <td>reactor.core.scheduler</td>
+      <td>org.testcontainers.containers</td>
       <td>2</td>
     </tr>
     <tr>
@@ -2575,7 +2575,7 @@ Only the last 20 entries are shown. The whole table can be found in the followin
     </tr>
     <tr>
       <th>7</th>
-      <td>javax.cache.configuration</td>
+      <td>tools.jackson.dataformat.cbor</td>
       <td>3</td>
     </tr>
     <tr>
@@ -2585,7 +2585,7 @@ Only the last 20 entries are shown. The whole table can be found in the followin
     </tr>
     <tr>
       <th>9</th>
-      <td>tools.jackson.dataformat.cbor</td>
+      <td>javax.cache.configuration</td>
       <td>3</td>
     </tr>
     <tr>
@@ -2595,32 +2595,32 @@ Only the last 20 entries are shown. The whole table can be found in the followin
     </tr>
     <tr>
       <th>11</th>
-      <td>tools.jackson.databind.json</td>
-      <td>4</td>
-    </tr>
-    <tr>
-      <th>12</th>
-      <td>org.springframework.beans.factory</td>
-      <td>4</td>
-    </tr>
-    <tr>
-      <th>13</th>
-      <td>com.google.gson</td>
-      <td>4</td>
-    </tr>
-    <tr>
-      <th>14</th>
       <td>io.grpc.stub</td>
       <td>4</td>
     </tr>
     <tr>
-      <th>15</th>
+      <th>12</th>
+      <td>org.apache.avro.specific</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>org.springframework.beans.factory</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>14</th>
       <td>org.springframework.boot.testcontainers.servic...</td>
       <td>4</td>
     </tr>
     <tr>
+      <th>15</th>
+      <td>com.google.gson</td>
+      <td>4</td>
+    </tr>
+    <tr>
       <th>16</th>
-      <td>org.apache.avro.specific</td>
+      <td>tools.jackson.databind.json</td>
       <td>4</td>
     </tr>
     <tr>
@@ -2630,7 +2630,7 @@ Only the last 20 entries are shown. The whole table can be found in the followin
     </tr>
     <tr>
       <th>18</th>
-      <td>org.springframework.context</td>
+      <td>jakarta.validation</td>
       <td>5</td>
     </tr>
     <tr>
@@ -3042,7 +3042,7 @@ Only the last 40 entries are shown. The whole table can be found in the followin
       <td>100</td>
       <td>39</td>
       <td>133.333333</td>
-      <td>[ConditionalOnProperty, ConditionalOnClass, An...</td>
+      <td>[AnyNestedCondition, AllNestedConditions, Cond...</td>
     </tr>
     <tr>
       <th>30</th>
@@ -3054,7 +3054,7 @@ Only the last 40 entries are shown. The whole table can be found in the followin
       <td>100</td>
       <td>39</td>
       <td>133.333333</td>
-      <td>[Conditional, Bean, ConfigurationCondition$Con...</td>
+      <td>[ConfigurationCondition$ConfigurationPhase, Be...</td>
     </tr>
     <tr>
       <th>31</th>
@@ -3066,7 +3066,7 @@ Only the last 40 entries are shown. The whole table can be found in the followin
       <td>100</td>
       <td>39</td>
       <td>133.333333</td>
-      <td>[AutoConfiguration, AutoConfigurationPackages,...</td>
+      <td>[AutoConfigureAfter, AutoConfiguration, AutoCo...</td>
     </tr>
     <tr>
       <th>32</th>
@@ -3078,7 +3078,7 @@ Only the last 40 entries are shown. The whole table can be found in the followin
       <td>100</td>
       <td>39</td>
       <td>133.333333</td>
-      <td>[ConfigurationProperties, EnableConfigurationP...</td>
+      <td>[EnableConfigurationProperties, NestedConfigur...</td>
     </tr>
     <tr>
       <th>33</th>
@@ -3090,7 +3090,7 @@ Only the last 40 entries are shown. The whole table can be found in the followin
       <td>100</td>
       <td>39</td>
       <td>133.333333</td>
-      <td>[Nonnull, Nullable]</td>
+      <td>[Nullable, Nonnull]</td>
     </tr>
     <tr>
       <th>34</th>
@@ -3102,7 +3102,7 @@ Only the last 40 entries are shown. The whole table can be found in the followin
       <td>100</td>
       <td>39</td>
       <td>133.333333</td>
-      <td>[SpringEventSourcedEntityLookup, MessageHandle...</td>
+      <td>[SpringComponentRegistry, SpringLifecycleRegis...</td>
     </tr>
     <tr>
       <th>35</th>
@@ -3114,7 +3114,7 @@ Only the last 40 entries are shown. The whole table can be found in the followin
       <td>100</td>
       <td>39</td>
       <td>133.333333</td>
-      <td>[Status, SimpleStatusAggregator, Health$Builde...</td>
+      <td>[SimpleStatusAggregator, Status, Health$Builde...</td>
     </tr>
     <tr>
       <th>36</th>
@@ -3138,7 +3138,7 @@ Only the last 40 entries are shown. The whole table can be found in the followin
       <td>100</td>
       <td>39</td>
       <td>133.333333</td>
-      <td>[ConstructorBinding, DefaultValue, BindResult,...</td>
+      <td>[ConstructorBinding, DefaultValue, Bindable, B...</td>
     </tr>
     <tr>
       <th>38</th>
@@ -3150,7 +3150,7 @@ Only the last 40 entries are shown. The whole table can be found in the followin
       <td>100</td>
       <td>39</td>
       <td>133.333333</td>
-      <td>[ApplicationContext, ApplicationContextAware]</td>
+      <td>[ApplicationContextAware, ApplicationContext]</td>
     </tr>
     <tr>
       <th>39</th>
@@ -3162,7 +3162,7 @@ Only the last 40 entries are shown. The whole table can be found in the followin
       <td>100</td>
       <td>39</td>
       <td>133.333333</td>
-      <td>[SchemaStore$Cache, SchemaStore]</td>
+      <td>[SchemaStore, SchemaStore$Cache]</td>
     </tr>
   </tbody>
 </table>
@@ -3680,7 +3680,7 @@ Only the last 30 entries are shown. The whole table can be found in the followin
       <td>100.000000</td>
       <td>82.608696</td>
       <td>[org.axonframework.modelling, org.axonframewor...</td>
-      <td>[org.axonframework.modelling.EntityIdResolver,...</td>
+      <td>[org.axonframework.modelling.PayloadBasedEntit...</td>
     </tr>
     <tr>
       <th>29</th>
@@ -3970,7 +3970,7 @@ The following table groups the external packages by their first two levels. For 
       <td>100.000000</td>
       <td>82.608696</td>
       <td>[org.axonframework.modelling, org.axonframewor...</td>
-      <td>[org.axonframework.modelling.EntityIdResolver,...</td>
+      <td>[org.axonframework.modelling.PayloadBasedEntit...</td>
     </tr>
     <tr>
       <th>15</th>
@@ -4968,7 +4968,7 @@ Only the last 40 entries are shown. The whole table can be found in the followin
       <td>485</td>
       <td>39</td>
       <td>[org.springframework.boot.autoconfigure.condit...</td>
-      <td>[ConditionalOnProperty, ConditionalOnClass, An...</td>
+      <td>[AnyNestedCondition, AllNestedConditions, Cond...</td>
     </tr>
     <tr>
       <th>3</th>
@@ -5245,7 +5245,7 @@ Only the last 40 entries are shown. The whole table can be found in the followin
       <td>9</td>
       <td>33</td>
       <td>41</td>
-      <td>[SpringAxonApplication, SpringComponentRegistr...</td>
+      <td>[SpringComponentRegistry, SpringLifecycleRegis...</td>
       <td>autoconfig</td>
     </tr>
     <tr>
@@ -5747,11 +5747,11 @@ Only the last 20 entries are shown. The whole table can be found in the followin
       <th>10</th>
       <td>axon-spring-boot-autoconfigure-5.0.3</td>
       <td>org.axonframework.extension.springboot.autoconfig</td>
-      <td>AxonAutoConfiguration</td>
-      <td>12</td>
-      <td>48</td>
+      <td>JpaEventStoreAutoConfiguration</td>
+      <td>7</td>
+      <td>8</td>
       <td>6</td>
-      <td>12</td>
+      <td>7</td>
       <td>[org.springframework.boot.autoconfigure, org.s...</td>
       <td>[org.springframework.boot.autoconfigure.AutoCo...</td>
       <td>autoconfig</td>
@@ -5775,11 +5775,11 @@ Only the last 20 entries are shown. The whole table can be found in the followin
       <th>12</th>
       <td>axon-spring-boot-autoconfigure-5.0.3</td>
       <td>org.axonframework.extension.springboot.autoconfig</td>
-      <td>JpaEventStoreAutoConfiguration</td>
-      <td>7</td>
-      <td>8</td>
+      <td>AxonAutoConfiguration</td>
+      <td>12</td>
+      <td>48</td>
       <td>6</td>
-      <td>7</td>
+      <td>12</td>
       <td>[org.springframework.boot.autoconfigure, org.s...</td>
       <td>[org.springframework.boot.autoconfigure.AutoCo...</td>
       <td>autoconfig</td>

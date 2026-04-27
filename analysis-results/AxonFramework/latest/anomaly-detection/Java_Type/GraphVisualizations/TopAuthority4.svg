@@ -177,9 +177,9 @@
 <polygon fill="#238b45" stroke="#238b45" stroke-width="0.5" points="696.71,-466.05 697.74,-470.16 699.5,-466.3 696.71,-466.05"/>
 <text xml:space="preserve" text-anchor="middle" x="711.71" y="-305.79" font-family="Times,serif" font-size="4.00">5</text>
 </g>
-<!-- SimpleRepository_48701&#45;&gt;central -->
+<!-- SimpleRepository_48702&#45;&gt;central -->
 <g id="edge18" class="edge">
-<title>SimpleRepository_48701&#45;&gt;central</title>
+<title>SimpleRepository_48702&#45;&gt;central</title>
 <path fill="none" stroke="#238b45" stroke-width="0.5" d="M718.12,-916.46C713.49,-854.91 703.42,-720.99 696.81,-633.17"/>
 <polygon fill="#238b45" stroke="#238b45" stroke-width="0.5" points="698.21,-633.14 696.52,-629.26 695.42,-633.35 698.21,-633.14"/>
 <text xml:space="preserve" text-anchor="middle" x="706.28" y="-773.59" font-family="Times,serif" font-size="4.00">5</text>
@@ -261,9 +261,9 @@
 <polygon fill="#238b45" stroke="#238b45" stroke-width="0.5" points="730.86,-623.14 727.75,-620.25 728.38,-624.44 730.86,-623.14"/>
 <text xml:space="preserve" text-anchor="middle" x="815.73" y="-789.9" font-family="Times,serif" font-size="4.00">4</text>
 </g>
-<!-- InMemoryRepository_49352&#45;&gt;SimpleRepository_48701 -->
+<!-- InMemoryRepository_49352&#45;&gt;SimpleRepository_48702 -->
 <g id="edge44" class="edge">
-<title>InMemoryRepository_49352&#45;&gt;SimpleRepository_48701</title>
+<title>InMemoryRepository_49352&#45;&gt;SimpleRepository_48702</title>
 <path fill="none" stroke="#ccece6" stroke-width="0.3" d="M862.8,-978.77C835.18,-973.09 802.76,-966.42 775.85,-960.88"/>
 <polygon fill="#ccece6" stroke="#ccece6" stroke-width="0.3" points="776.23,-959.53 772.03,-960.09 775.66,-962.27 776.23,-959.53"/>
 <text xml:space="preserve" text-anchor="middle" x="815.96" y="-970.54" font-family="Times,serif" font-size="4.00">9</text>
@@ -486,9 +486,9 @@
 <text xml:space="preserve" text-anchor="middle" x="730.73" y="-108.92" font-family="Times,serif" font-size="12.00">SimpleQueryUpdateEmitter</text>
 <text xml:space="preserve" text-anchor="middle" x="730.73" y="-94.52" font-family="Times,serif" font-size="12.00">(0.04%)</text>
 </g>
-<!-- SimpleRepository_48701 -->
+<!-- SimpleRepository_48702 -->
 <g id="node19" class="node">
-<title>SimpleRepository_48701</title>
+<title>SimpleRepository_48702</title>
 <ellipse fill="#ccece6" stroke="#41ae76" stroke-width="2" cx="720.6" cy="-949.51" rx="52.93" ry="32.4"/>
 <text xml:space="preserve" text-anchor="middle" x="720.6" y="-953.11" font-family="Times,serif" font-size="12.00">SimpleRepository</text>
 <text xml:space="preserve" text-anchor="middle" x="720.6" y="-938.71" font-family="Times,serif" font-size="12.00">(0.2%)</text>

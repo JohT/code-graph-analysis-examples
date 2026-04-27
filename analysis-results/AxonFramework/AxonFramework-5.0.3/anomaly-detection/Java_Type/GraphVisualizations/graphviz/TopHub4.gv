@@ -162,6 +162,6 @@ strict digraph TopHub4 {
 	"MessageStream_16593" -> "EmptyMessageStream_31381" [label=1; weight=1; penwidth=0.3; color = 3]
 	"NoOpSpanFactory_38247" -> "SpanFactory_18531" [label=1; weight=1; penwidth=0.3; color = 3]
 	"OpenTelemetrySpanFactory_8813" -> "SpanFactory_18531" [label=1; weight=1; penwidth=0.3; color = 3]
-	"TagsUtil_40013" -> "MessageType_17772" [label=1; weight=1; penwidth=0.3; color = 3]
 	"TagsUtil_40013" -> "Metadata_18543" [label=1; weight=1; penwidth=0.3; color = 3]
+	"TagsUtil_40013" -> "MessageType_17772" [label=1; weight=1; penwidth=0.3; color = 3]
 }

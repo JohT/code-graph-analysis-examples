@@ -2,7 +2,7 @@
 "org.axonframework.common.BuilderUtils: void assertNonNull(java.lang.Object,java.lang.String)","assertNonNull","centralityArticleRank",2.6379539374632244,""
 "org.axonframework.common.infra.ComponentDescriptor: void describeWrapperOf(java.lang.Object)","describeWrapperOf","centralityArticleRank",2.1332657266913073,""
 "org.axonframework.common.BuilderUtils: void assertThat(java.lang.Object,java.util.function.Predicate,java.lang.String)","assertThat","centralityArticleRank",1.964669416075677,""
-"org.axonframework.common.Assert: void isTrue(boolean,java.util.function.Supplier)","isTrue","centralityArticleRank",1.3094613981807894,""
+"org.axonframework.common.Assert: void isTrue(boolean,java.util.function.Supplier)","isTrue","centralityArticleRank",1.3094613981807897,""
 "org.axonframework.common.Assert: void assertThat(java.lang.Object,java.util.function.Predicate,java.util.function.Supplier)","assertThat","centralityArticleRank",1.2154354932919662,""
 "org.axonframework.modelling.entity.annotation.AnnotatedEntityMetamodel: java.lang.Class getExpectedRepresentation(org.axonframework.messaging.core.QualifiedName)","getExpectedRepresentation","centralityArticleRank",0.9828674510114489,""
 "org.axonframework.common.configuration.DecoratorDefinition: org.axonframework.common.configuration.DecoratorDefinition$PartialDecoratorDefinition forType(java.lang.Class)","forType","centralityArticleRank",0.857208918236961,""

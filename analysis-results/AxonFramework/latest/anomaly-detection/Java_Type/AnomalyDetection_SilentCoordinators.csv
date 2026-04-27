@@ -5,7 +5,7 @@
 "org.axonframework.messaging.core.EmptyMessageStream","EmptyMessageStream","axon-messaging-5.0.3",347.2261904761904,7,1,6,""
 "org.axonframework.messaging.queryhandling.annotation.AnnotatedQueryHandlingComponent","AnnotatedQueryHandlingComponent","axon-messaging-5.0.3",305.8333333333333,24,1,23,""
 "org.axonframework.messaging.commandhandling.annotation.AnnotatedCommandHandlingComponent","AnnotatedCommandHandlingComponent","axon-messaging-5.0.3",287.58333333333337,23,1,22,""
-"org.axonframework.messaging.eventhandling.processing.streaming.pooled.PooledStreamingEventProcessorsConfigurer","PooledStreamingEventProcessorsConfigurer","axon-messaging-5.0.3",273.9333333333334,17,1,16,""
+"org.axonframework.messaging.eventhandling.processing.streaming.pooled.PooledStreamingEventProcessorsConfigurer","PooledStreamingEventProcessorsConfigurer","axon-messaging-5.0.3",273.93333333333334,17,1,16,""
 "org.axonframework.test.fixture.AxonTestGiven","AxonTestGiven","axon-test-5.0.3",233.16666666666669,22,1,21,""
 "org.axonframework.test.extension.ProvidedAxonTestFixture","ProvidedAxonTestFixture","axon-test-5.0.3",210.5,2,1,1,""
 "org.axonframework.messaging.core.annotation.MultiHandlerDefinition","MultiHandlerDefinition","axon-messaging-5.0.3",201,9,1,8,""

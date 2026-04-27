@@ -73,14 +73,14 @@
 <text xml:space="preserve" text-anchor="middle" x="250.7" y="-454.25" font-family="Times,serif" font-size="4.00">2</text>
 </g>
 <!-- QueryResponseMessageStream_42762&#45;&gt;QueryResponseMessage_26240 -->
-<g id="edge16" class="edge">
+<g id="edge17" class="edge">
 <title>QueryResponseMessageStream_42762&#45;&gt;QueryResponseMessage_26240</title>
 <path fill="none" stroke="#ccece6" stroke-width="0.3" d="M105.07,-499.76C121.96,-540.62 150.55,-609.81 171.65,-660.85"/>
 <polygon fill="#ccece6" stroke="#ccece6" stroke-width="0.3" points="170.28,-661.22 173.11,-664.39 172.87,-660.15 170.28,-661.22"/>
 <text xml:space="preserve" text-anchor="middle" x="138.3" y="-583.78" font-family="Times,serif" font-size="4.00">2</text>
 </g>
 <!-- QueryResponseMessageStream_42762&#45;&gt;AxonException_4013 -->
-<g id="edge17" class="edge">
+<g id="edge16" class="edge">
 <title>QueryResponseMessageStream_42762&#45;&gt;AxonException_4013</title>
 <path fill="none" stroke="#ccece6" stroke-width="0.3" d="M119.62,-498.51C139.56,-521.46 165.98,-551.86 185.69,-574.53"/>
 <polygon fill="#ccece6" stroke="#ccece6" stroke-width="0.3" points="184.56,-575.38 188.25,-577.48 186.68,-573.54 184.56,-575.38"/>
@@ -176,14 +176,14 @@
 <title>QueryResponseMessageStream_42762</title>
 <ellipse fill="#ccece6" stroke="#41ae76" stroke-width="5" cx="90.91" cy="-465.49" rx="90.91" ry="32.4"/>
 <text xml:space="preserve" text-anchor="middle" x="90.91" y="-469.09" font-family="Times,serif" font-size="12.00">QueryResponseMessageStream</text>
-<text xml:space="preserve" text-anchor="middle" x="90.91" y="-454.69" font-family="Times,serif" font-size="12.00">(6.12%)</text>
+<text xml:space="preserve" text-anchor="middle" x="90.91" y="-454.69" font-family="Times,serif" font-size="12.00">(4.75%)</text>
 </g>
 <!-- QueryUpdateMessageStream_42760 -->
 <g id="node3" class="node">
 <title>QueryUpdateMessageStream_42760</title>
 <ellipse fill="#ccece6" stroke="#41ae76" stroke-width="2" cx="422.96" cy="-626.42" rx="84.31" ry="32.4"/>
 <text xml:space="preserve" text-anchor="middle" x="422.96" y="-630.02" font-family="Times,serif" font-size="12.00">QueryUpdateMessageStream</text>
-<text xml:space="preserve" text-anchor="middle" x="422.96" y="-615.62" font-family="Times,serif" font-size="12.00">(6.12%)</text>
+<text xml:space="preserve" text-anchor="middle" x="422.96" y="-615.62" font-family="Times,serif" font-size="12.00">(4.75%)</text>
 </g>
 <!-- QueryResponseMessage_26240 -->
 <g id="node4" class="node">
@@ -212,7 +212,7 @@
 <title>AxonException_4013</title>
 <ellipse fill="#f7fcfd" stroke="#66c2a4" stroke-width="2" cx="213.34" cy="-606.35" rx="46.8" ry="32.4"/>
 <text xml:space="preserve" text-anchor="middle" x="213.34" y="-609.95" font-family="Times,serif" font-size="12.00">AxonException</text>
-<text xml:space="preserve" text-anchor="middle" x="213.34" y="-595.55" font-family="Times,serif" font-size="12.00">(35.31%)</text>
+<text xml:space="preserve" text-anchor="middle" x="213.34" y="-595.55" font-family="Times,serif" font-size="12.00">(26.2%)</text>
 </g>
 <!-- Context_23056 -->
 <g id="node8" class="node">
@@ -233,7 +233,7 @@
 <title>MessageStream_16593</title>
 <ellipse fill="#f7fcfd" stroke="#66c2a4" stroke-width="2" cx="681.38" cy="-178.94" rx="46.8" ry="32.4"/>
 <text xml:space="preserve" text-anchor="middle" x="681.38" y="-182.54" font-family="Times,serif" font-size="12.00">MessageStream</text>
-<text xml:space="preserve" text-anchor="middle" x="681.38" y="-168.14" font-family="Times,serif" font-size="12.00">(25.44%)</text>
+<text xml:space="preserve" text-anchor="middle" x="681.38" y="-168.14" font-family="Times,serif" font-size="12.00">(26.04%)</text>
 </g>
 </g>
 </svg>

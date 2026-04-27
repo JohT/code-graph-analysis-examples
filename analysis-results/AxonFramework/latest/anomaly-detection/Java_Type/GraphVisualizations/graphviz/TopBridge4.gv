@@ -12,15 +12,15 @@ strict digraph TopBridge4 {
     central [fontsize = 16;];
     central [color = 7; fillcolor = 5; penwidth = 3;];
 
-	graph   [label="Top Rank #4 Java Type Bridge\norg.axonframework.update.api.DetectedVulnerability\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
-	central [label="🌉 bridge #4\nDetectedVulnerability"];
-	"LoggingUpdateCheckerReporter_39045" [label = "LoggingUpdateCheckerReporter"; ]; "LoggingUpdateCheckerReporter_39045" -> central [label=12; weight=12; penwidth=0.6];
-	"UpdateCheckResponse_39660" [label = "UpdateCheckResponse"; ]; "UpdateCheckResponse_39660" -> central [label=7; weight=7; penwidth=0.5];
-	"DetectedVulnerabilitySeverity_39765" [label = "DetectedVulnerabilitySeverity"; color = 5; fillcolor = 1; ]; central -> "DetectedVulnerabilitySeverity_39765" [label=3; weight=3; penwidth=0.4; color = 5];
+	graph   [label="Top Rank #4 Java Type Bridge\norg.axonframework.update.api.DetectedVulnerabilitySeverity\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
+	central [label="🌉 bridge #4\nDetectedVulnerabilitySeverity"];
+	"DetectedVulnerability_39663" [label = "DetectedVulnerability"; ]; "DetectedVulnerability_39663" -> central [label=3; weight=3; penwidth=0.4];
+	"UpdateCheckResponse_39660" [label = "UpdateCheckResponse"; ]; "UpdateCheckResponse_39660" -> central [label=3; weight=3; penwidth=0.4];
+	"LoggingUpdateCheckerReporter_39045" [label = "LoggingUpdateCheckerReporter"; ]; "LoggingUpdateCheckerReporter_39045" -> central [label=2; weight=2; penwidth=0.4];
 	"Internal_4198" [label = "Internal"; color = 5; fillcolor = 1; ]; central -> "Internal_4198" [label=1; weight=1; penwidth=0.4; color = 5];
+	"LoggingUpdateCheckerReporter_39045" -> "DetectedVulnerability_39663" [label=12; weight=12; penwidth=0.3; color = 3]
 	"LoggingUpdateCheckerReporter_39045" -> "UpdateCheckResponse_39660" [label=10; weight=10; penwidth=0.3; color = 3]
-	"UpdateCheckResponse_39660" -> "DetectedVulnerabilitySeverity_39765" [label=3; weight=3; penwidth=0.3; color = 3]
-	"LoggingUpdateCheckerReporter_39045" -> "DetectedVulnerabilitySeverity_39765" [label=2; weight=2; penwidth=0.3; color = 3]
-	"DetectedVulnerabilitySeverity_39765" -> "Internal_4198" [label=1; weight=1; penwidth=0.3; color = 3]
+	"UpdateCheckResponse_39660" -> "DetectedVulnerability_39663" [label=7; weight=7; penwidth=0.3; color = 3]
+	"DetectedVulnerability_39663" -> "Internal_4198" [label=1; weight=1; penwidth=0.3; color = 3]
 	"UpdateCheckResponse_39660" -> "Internal_4198" [label=1; weight=1; penwidth=0.3; color = 3]
 }
