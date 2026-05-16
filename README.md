@@ -109,47 +109,47 @@ Below are examples drawn from more than a hundred reports produced by the analys
 
 ### External Dependencies of Java Packages
 
-<img src="./analysis-results/AxonFramework/latest/external-dependencies-java/ExternalDependenciesJava_files/ExternalDependenciesJava_19_1.png" width="600" alt="External dependencies of Java packages">
+<img src="./analysis-results/AxonFramework/latest/external-dependencies/Java_Top_external_packages_by_packages_above_threshold.svg" width="600" alt="External dependencies of Java packages">
 
 ### Java Artifact Dependencies including Longest Path(s)
 
-<img src="./analysis-results/AxonFramework/latest/path-finding-visualization/JavaArtifactLongestPaths.svg" width="600" alt="Longest path of Java artifacts">
+<img src="./analysis-results/AxonFramework/latest/internal-dependencies/Java_Artifact/Graph_Visualizations/JavaArtifactLongestPaths.svg" width="600" alt="Longest path of Java artifacts">
 
 ### All Pairs Shortest Paths of Java Packages per Artifact
 
-<img src="./analysis-results/AxonFramework/latest/path-finding-java/PathFindingJava_files/PathFindingJava_47_1.png" width="600" alt="All pairs shortest paths of Java packages per artifact">
+<img src="./analysis-results/AxonFramework/latest/internal-dependencies/Java_Package/Java_Package_AllPairsShortestPath_StackedBar_Log.svg" width="600" alt="All pairs shortest paths of Java packages per artifact">
 
 ### Object-Oriented Design Metrics for Java Packages
 
-<img src="./analysis-results/AxonFramework/latest/object-oriented-design-metrics-java/ObjectOrientedDesignMetricsJava_files/ObjectOrientedDesignMetricsJava_41_0.png" width="600" alt="Object-oriented design metrics for Java packages">
+<img src="./analysis-results/AxonFramework/latest/internal-dependencies/Java_Package/Java_Package_IncludingSubpackages_MainSequence.svg" width="600" alt="Object-oriented design metrics for Java packages">
 
 ### Effective Line Count of Java Methods
 
-<img src="./analysis-results/AxonFramework/latest/method-metrics-java/MethodMetricsJava_files/MethodMetricsJava_13_1.png" width="600" alt="Effective line count of Java methods">
+<img src="./analysis-results/AxonFramework/latest/java/MethodMetrics_LineCountDistribution_Histogram.svg" width="600" alt="Effective line count of Java methods">
 
 ### Cyclomatic Complexity Distribution for Java Methods
 
-<img src="./analysis-results/AxonFramework/latest/method-metrics-java/MethodMetricsJava_files/MethodMetricsJava_25_1.png" width="600" alt="Cyclomatic complexity distribution for Java methods">
+<img src="./analysis-results/AxonFramework/latest/java/MethodMetrics_TopPackagesLOC_Bar.svg" width="600" alt="Cyclomatic complexity distribution for Java methods">
 
 ### Visibility of Java Types
 
-<img src="./analysis-results/AxonFramework/latest/visibility-metrics-java/VisibilityMetricsJava_files/VisibilityMetricsJava_23_2.png" width="600" alt="Visibility of Java types">
+<img src="./analysis-results/AxonFramework/latest/internal-dependencies/Java_Package/Java_Package_RelativeVisibility.svg" width="600" alt="Visibility of Java types">
 
 ### Communities and Node Embeddings of Java Packages
 
-<img src="./analysis-results/AxonFramework/latest/node-embeddings-java/NodeEmbeddingsJava_files/NodeEmbeddingsJava_30_0.png" width="600" alt="Communities and node embeddings of Java packages">
+<img src="./analysis-results/AxonFramework/latest/node-embeddings/Package_Embeddings_FastRP_UMAP2D_Scatter.svg" width="600" alt="Communities and node embeddings of Java packages">
 
 ### Word Cloud of Git Authors
 
-<img src="./analysis-results/AxonFramework/latest/wordcloud/Wordcloud_files/Wordcloud_16_0.png" width="600" alt="Word cloud of Git authors">
+<img src="./analysis-results/AxonFramework/latest/git-history/GitAuthorWordcloud.svg" width="600" alt="Word cloud of Git authors">
 
 ### Number of distinct commit authors
 
-<img src="./analysis-results/AxonFramework/latest/git-history-general/GitHistoryGeneral_files/NumberOfDistinctCommitAuthors.svg" width="600" alt="Number of distinct commit authors">
+<img src="./analysis-results/AxonFramework/latest/git-history/NumberOfDistinctCommitAuthors.svg" width="600" alt="Number of distinct commit authors">
 
 ### Main Authors with highest number of commits
 
-<img src="./analysis-results/AxonFramework/latest/git-history-general/GitHistoryGeneral_files/MainAuthorsWithHighestNumberOfCommits.svg" width="600" alt="Main authors with highest number of commits">
+<img src="./analysis-results/AxonFramework/latest/git-history/MainAuthorsWithHighestNumberOfCommits.svg" width="600" alt="Main authors with highest number of commits">
 
 ### Clustering coefficient vs. Page Rank
 
@@ -181,19 +181,19 @@ The full Markdown report describing all detected anomalies readable for humans a
 
 The following treemap visualizes the distribution of Java archetypes (Authority, Bottleneck, Bridge, Hub, Outlier)  across different directories in the codebase. Each rectangle represents a directory. The color coding indicates the type and the strength of archetype, allowing for quick identification of architectural patterns and potential areas of concern within the project's structure.
 
-<img src="./analysis-results/AxonFramework/latest/anomaly-detection/JavaTreemap2ArchetypesOverviewPerDirectory.svg" width="600" alt="Java Archetypes Treemap">
+<img src="./analysis-results/AxonFramework/latest/archetypes/JavaTreemap1ArchetypesOverviewPerDirectory.svg" width="600" alt="Java Archetypes Treemap">
 
 ### Java Type Top 1 Authority
 
 An "Authority" is a code unit many important parts depend on: it has high global importance (PageRank) but low local support (ArticleRank). A large PageRank − ArticleRank gap flags widely used utilities or entry points that are central but not well supported locally.
 
-<img src="./analysis-results/AxonFramework/latest/anomaly-detection/Java_Type/GraphVisualizations/TopAuthority1.svg" width="600" alt="Top 1 Java Type Authority Graph Visualization">
+<img src="./analysis-results/AxonFramework/latest/archetypes/Java_Type/GraphVisualizations/TopAuthority1.svg" width="600" alt="Top 1 Java Type Authority Graph Visualization">
 
 ### Java Type Top 1 Bottleneck
 
 A "Bottleneck" is a code unit with exceptionally high Betweenness centrality — it lies on many shortest paths between other nodes, so it mediates a large fraction of dependency flows and is a potential single point of failure or architectural hotspot. Potentially an unintended dependency concentration: if removed, communication between modules breaks.
 
-<img src="./analysis-results/AxonFramework/latest/anomaly-detection/Java_Type/GraphVisualizations/TopBottleneck1.svg" width="600" alt="Top 1 Java Type Bottleneck Graph Visualization">
+<img src="./analysis-results/AxonFramework/latest/archetypes/Java_Type/GraphVisualizations/TopBottleneck1.svg" width="600" alt="Top 1 Java Type Bottleneck Graph Visualization">
 
 ### Java Type Top 1 Bridge
 
@@ -205,10 +205,10 @@ A "Bridge" is a code unit that connects different parts of the codebase. It is d
 
 A "Hub" is a code unit with a high out-degree (many dependencies) but low clustering coefficient (its neighbors are not well connected). Hubs are central dependencies that many other parts rely on, making them potential fragile hotspots in the architecture. The low clustering coefficient indicates that these hubs may not be well integrated into the surrounding code, increasing the risk of failure if the hub encounters issues.
 
-<img src="./analysis-results/AxonFramework/latest/anomaly-detection/Java_Type/GraphVisualizations/TopHub1.svg" width="600" alt="Top 1 Java Type Hub Graph Visualization">
+<img src="./analysis-results/AxonFramework/latest/archetypes/Java_Type/GraphVisualizations/TopHub1.svg" width="600" alt="Top 1 Java Type Hub Graph Visualization">
 
 ### Java Type Top 1 Outlier
 
 A "Outlier" is a code unit that significantly deviates from typical patterns in the codebase. It has a low clustering probability and a high distance to the nearest cluster centroid in the node embedding space. This indicates that the outlier has a unique structural position in the dependency graph, potentially representing specialized functionality or an architectural anomaly.
 
-<img src="./analysis-results/AxonFramework/latest/anomaly-detection/Java_Type/GraphVisualizations/TopOutlier1.svg" width="600" alt="Top 1 Java Type Outlier Graph Visualization">
+<img src="./analysis-results/AxonFramework/latest/anomaly-detection/Java_Package/GraphVisualizations/TopOutlier1.svg" width="600" alt="Top 1 Java Type Outlier Graph Visualization">
