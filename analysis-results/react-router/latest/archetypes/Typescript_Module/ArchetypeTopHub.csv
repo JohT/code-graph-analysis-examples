@@ -1,0 +1,5 @@
+"projectName","shortCodeUnitName","codeUnitName","localClusteringCoefficient","degree","incomingDependencies","outgoingDependencies","rank","Source Cypher File: domains/archetypes/labels/ArchetypeHub.cypher"
+"react-router-serve","cli","/home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.13.2/source/react-router-7.13.2/packages/react-router-serve/cli.ts",0,27,0,27,1,""
+"react-router-architect","server","/home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.13.2/source/react-router-7.13.2/packages/react-router-architect/server.ts",0,25,3,22,2,""
+"react-router-cloudflare","worker","/home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.13.2/source/react-router-7.13.2/packages/react-router-cloudflare/worker.ts",0,23,5,18,3,""
+"react-router-express","server","/home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.13.2/source/react-router-7.13.2/packages/react-router-express/server.ts",0,21,3,18,4,""

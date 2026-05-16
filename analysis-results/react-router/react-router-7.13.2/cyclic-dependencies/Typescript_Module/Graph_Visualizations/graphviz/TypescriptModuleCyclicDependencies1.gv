@@ -1,0 +1,37 @@
+strict digraph cycle {
+    graph [layout = "fdp"; start = "7"; splines = "curved"; pad = "0.8,0.4"; outputorder = "edgesfirst";];
+    graph [fontname = "Helvetica,Arial,sans-serif"; labelloc = "t";];
+    node [fontname = "Helvetica,Arial,sans-serif"; style = "filled"; fillcolor = "white";];
+    node [fontsize = 11; margin = "0.05,0.05";];
+    edge [fontsize = 9; arrowsize = "0.6";];
+
+    subgraph cluster_package {
+        label="./lib/router/router.ts";
+        style="filled";
+        fillcolor="lightblue";
+        "RouterInit";
+        "createStaticHandler";
+        "createRouter";
+        "Router";
+    }
+
+    subgraph cluster_dependent {
+        label="./lib/router/instrumentation.ts";
+        style="filled";
+        fillcolor="peachpuff";
+        "unstable_InstrumentRouterFunction";
+        "unstable_ClientInstrumentation";
+        "unstable_InstrumentRouteFunction";
+        "getRouteInstrumentationUpdates";
+        "instrumentClientSideRouter";
+    }
+
+    "createRouter" -> "getRouteInstrumentationUpdates" [color="#6699CC"; penwidth="0.5"];
+    "createRouter" -> "unstable_InstrumentRouterFunction" [color="#6699CC"; penwidth="0.5"];
+    "createStaticHandler" -> "unstable_InstrumentRouteFunction" [color="#6699CC"; penwidth="0.5"];
+    "createRouter" -> "instrumentClientSideRouter" [color="#6699CC"; penwidth="0.5"];
+    "RouterInit" -> "unstable_ClientInstrumentation" [color="#6699CC"; penwidth="0.5"];
+    "createStaticHandler" -> "getRouteInstrumentationUpdates" [color="#6699CC"; penwidth="0.5"];
+    "createRouter" -> "unstable_InstrumentRouteFunction" [color="#6699CC"; penwidth="0.5"];
+    "instrumentClientSideRouter" -> "Router" [color="red"; penwidth="2.5"; style="dashed";];
+}

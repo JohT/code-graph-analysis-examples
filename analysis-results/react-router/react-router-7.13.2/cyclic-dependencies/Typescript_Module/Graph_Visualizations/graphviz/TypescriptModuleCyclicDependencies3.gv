@@ -1,0 +1,107 @@
+strict digraph cycle {
+    graph [layout = "fdp"; start = "7"; splines = "curved"; pad = "0.8,0.4"; outputorder = "edgesfirst";];
+    graph [fontname = "Helvetica,Arial,sans-serif"; labelloc = "t";];
+    node [fontname = "Helvetica,Arial,sans-serif"; style = "filled"; fillcolor = "white";];
+    node [fontsize = 11; margin = "0.05,0.05";];
+    edge [fontsize = 9; arrowsize = "0.6";];
+
+    subgraph cluster_package {
+        label="./index-react-server.ts";
+        style="filled";
+        fillcolor="lightblue";
+        "RSCRouteMatch";
+        "replace_pkg" [label="replace"];
+        "MiddlewareFunction_pkg" [label="MiddlewareFunction"];
+        "redirect_pkg" [label="redirect"];
+        "RouterContext_pkg" [label="RouterContext"];
+        "createStaticHandler";
+        "MiddlewareNextFunction_pkg" [label="MiddlewareNextFunction"];
+        "matchRSCServerRequest";
+        "RouterContextProvider_pkg" [label="RouterContextProvider"];
+        "Await";
+        "data";
+        "matchRoutes_pkg" [label="matchRoutes"];
+        "createContext_pkg" [label="createContext"];
+        "redirectDocument_pkg" [label="redirectDocument"];
+        "RSCRouteManifest";
+    }
+
+    subgraph cluster_dependent {
+        label="./lib/router/utils.ts";
+        style="filled";
+        fillcolor="peachpuff";
+        "stripBasename";
+        "RedirectResult";
+        "replace_dep" [label="replace"];
+        "MiddlewareFunction_dep" [label="MiddlewareFunction"];
+        "getRoutePattern";
+        "convertRoutesToDataRoutes";
+        "TrackedPromise";
+        "RedirectFunction";
+        "ErrorResponseImpl";
+        "ErrorResult";
+        "RouterContext_dep" [label="RouterContext"];
+        "redirect_dep" [label="redirect"];
+        "isRouteErrorResponse";
+        "matchRoutesImpl";
+        "DataWithResponseInit";
+        "convertRouteMatchToUiMatch";
+        "MiddlewareNextFunction_dep" [label="MiddlewareNextFunction"];
+        "SuccessResult";
+        "ShouldRevalidateFunction";
+        "DataStrategyMatch";
+        "ResultType";
+        "RouterContextProvider_dep" [label="RouterContextProvider"];
+        "RouteMatch";
+        "matchRoutes_dep" [label="matchRoutes"];
+        "BaseRouteObject";
+        "redirectDocument_dep" [label="redirectDocument"];
+        "createContext_dep" [label="createContext"];
+        "DataStrategyResult";
+        "Params";
+        "MaybePromise";
+        "RouteObject";
+    }
+
+    "createStaticHandler" -> "ErrorResponseImpl" [color="#6699CC"; penwidth="0.5"];
+    "createStaticHandler" -> "RouterContextProvider_dep" [color="#6699CC"; penwidth="0.5"];
+    "matchRSCServerRequest" -> "RouterContextProvider_dep" [color="#6699CC"; penwidth="0.5"];
+    "replace_pkg" -> "replace_dep" [color="#6699CC"; penwidth="0.5"];
+    "redirect_pkg" -> "redirect_dep" [color="#6699CC"; penwidth="0.5"];
+    "matchRoutes_pkg" -> "RouteObject" [color="#6699CC"; penwidth="0.5"];
+    "redirectDocument_pkg" -> "redirectDocument_dep" [color="#6699CC"; penwidth="0.5"];
+    "createStaticHandler" -> "SuccessResult" [color="#6699CC"; penwidth="0.5"];
+    "createStaticHandler" -> "RedirectResult" [color="#6699CC"; penwidth="0.5"];
+    "matchRSCServerRequest" -> "RouteMatch" [color="#6699CC"; penwidth="0.5"];
+    "matchRSCServerRequest" -> "matchRoutes_dep" [color="#6699CC"; penwidth="0.5"];
+    "RouterContextProvider_pkg" -> "RouterContext_dep" [color="#6699CC"; penwidth="0.5"];
+    "RSCRouteManifest" -> "ShouldRevalidateFunction" [color="#6699CC"; penwidth="0.5"];
+    "createStaticHandler" -> "isRouteErrorResponse" [color="#6699CC"; penwidth="0.5"];
+    "createStaticHandler" -> "DataStrategyMatch" [color="#6699CC"; penwidth="0.5"];
+    "createContext_pkg" -> "RouterContext_dep" [color="#6699CC"; penwidth="0.5"];
+    "matchRoutes_pkg" -> "RouteMatch" [color="#6699CC"; penwidth="0.5"];
+    "createStaticHandler" -> "convertRoutesToDataRoutes" [color="#6699CC"; penwidth="0.5"];
+    "RSCRouteMatch" -> "Params" [color="#6699CC"; penwidth="0.5"];
+    "Await" -> "TrackedPromise" [color="#6699CC"; penwidth="0.5"];
+    "createStaticHandler" -> "matchRoutes_dep" [color="#6699CC"; penwidth="0.5"];
+    "createStaticHandler" -> "ResultType" [color="#6699CC"; penwidth="0.5"];
+    "matchRSCServerRequest" -> "stripBasename" [color="#6699CC"; penwidth="0.5"];
+    "replace_pkg" -> "RedirectFunction" [color="#6699CC"; penwidth="0.5"];
+    "createStaticHandler" -> "RouteMatch" [color="#6699CC"; penwidth="0.5"];
+    "redirectDocument_pkg" -> "RedirectFunction" [color="#6699CC"; penwidth="0.5"];
+    "matchRoutes_pkg" -> "matchRoutesImpl" [color="#6699CC"; penwidth="0.5"];
+    "createStaticHandler" -> "RouteObject" [color="#6699CC"; penwidth="0.5"];
+    "data" -> "DataWithResponseInit" [color="#6699CC"; penwidth="0.5"];
+    "redirect_pkg" -> "RedirectFunction" [color="#6699CC"; penwidth="0.5"];
+    "createStaticHandler" -> "getRoutePattern" [color="#6699CC"; penwidth="0.5"];
+    "MiddlewareFunction_pkg" -> "MaybePromise" [color="#6699CC"; penwidth="0.5"];
+    "createStaticHandler" -> "DataStrategyResult" [color="#6699CC"; penwidth="0.5"];
+    "MiddlewareFunction_pkg" -> "MiddlewareNextFunction_dep" [color="#6699CC"; penwidth="0.5"];
+    "createStaticHandler" -> "ErrorResult" [color="#6699CC"; penwidth="0.5"];
+    "RouteObject" -> "MiddlewareFunction_pkg" [color="red"; penwidth="2.5"; style="dashed";];
+    "RouterContextProvider_dep" -> "RouterContext_pkg" [color="red"; penwidth="2.5"; style="dashed";];
+    "createContext_dep" -> "RouterContext_pkg" [color="red"; penwidth="2.5"; style="dashed";];
+    "BaseRouteObject" -> "MiddlewareFunction_pkg" [color="red"; penwidth="2.5"; style="dashed";];
+    "convertRouteMatchToUiMatch" -> "data" [color="red"; penwidth="2.5"; style="dashed";];
+    "MiddlewareFunction_dep" -> "MiddlewareNextFunction_pkg" [color="red"; penwidth="2.5"; style="dashed";];
+}
