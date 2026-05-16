@@ -13,6 +13,7 @@ on:
       - '**/*.css'
       - '**/*.html'
       - '**/*.js'
+      - '**/*.zip'
       - '.gitignore'
       - '.gitattributes'
       - 'renovate.json'
@@ -60,13 +61,13 @@ jobs:
   analyze-code-graph:
     name: Analyze Code Graph
     needs: [prepare-code-to-analyze]
-    uses: JohT/code-graph-analysis-pipeline/.github/workflows/public-analyze-code-graph.yml@b81b565ef7bad68e74d6249f03a8986f6fbead86 # v3.5.0
+    uses: JohT/code-graph-analysis-pipeline/.github/workflows/public-analyze-code-graph.yml@8daa7271f66c396e2da53ec617b0d72694c3c04f # v4.0.0
     with:
       analysis-name: ${{ needs.prepare-code-to-analyze.outputs.analysis-name }}
       source-repository: https://github.com/remix-run/react-router.git
       source-repository-branch: react-router@${{ needs.prepare-code-to-analyze.outputs.project-version }}
-      jupyter-pdf: "false"
-      ref: v3.2.0
+      run-all-domains: true
+      ref: v4.0.0
 
   commit-analysis-results:
     name: Commit Analysis Results
