@@ -1,0 +1,51 @@
+strict digraph cycle {
+    graph [layout = "fdp"; start = "7"; splines = "curved"; pad = "0.8,0.4"; outputorder = "edgesfirst";];
+    graph [fontname = "Helvetica,Arial,sans-serif"; labelloc = "t";];
+    node [fontname = "Helvetica,Arial,sans-serif"; style = "filled"; fillcolor = "white";];
+    node [fontsize = 11; margin = "0.05,0.05";];
+    edge [fontsize = 9; arrowsize = "0.6";];
+
+    subgraph cluster_package {
+        label="org.axonframework.messaging.queryhandling.annotation";
+        style="filled";
+        fillcolor="lightblue";
+        "AnnotatedQueryHandlingComponent";
+        "QueryHandlingMember";
+        "Query";
+        "MethodQueryHandlerDefinition";
+        "MethodQueryHandlerDefinition$MethodQueryHandlingMember";
+        "QueryResponse";
+        "QueryHandler";
+    }
+
+    subgraph cluster_dependent {
+        label="org.axonframework.messaging.core.annotation";
+        style="filled";
+        fillcolor="peachpuff";
+        "WrappedMessageHandlingMember";
+        "HandlerTypeResolver";
+        "MessageHandler";
+        "MessageHandlingMember";
+        "ParameterResolverFactory";
+        "Message";
+        "AnnotatedHandlerInspector";
+        "UnsupportedHandlerException";
+        "HandlerDefinition";
+        "HandlerEnhancerDefinition";
+    }
+
+    "MethodQueryHandlerDefinition$MethodQueryHandlingMember" -> "WrappedMessageHandlingMember" [color="#6699CC"; penwidth="0.5"];
+    "AnnotatedQueryHandlingComponent" -> "AnnotatedHandlerInspector" [color="#6699CC"; penwidth="0.5"];
+    "QueryHandler" -> "MessageHandler" [color="#6699CC"; penwidth="0.5"];
+    "MethodQueryHandlerDefinition$MethodQueryHandlingMember" -> "UnsupportedHandlerException" [color="#6699CC"; penwidth="0.5"];
+    "AnnotatedQueryHandlingComponent" -> "HandlerDefinition" [color="#6699CC"; penwidth="0.5"];
+    "QueryHandlingMember" -> "MessageHandlingMember" [color="#6699CC"; penwidth="0.5"];
+    "MethodQueryHandlerDefinition$MethodQueryHandlingMember" -> "MessageHandlingMember" [color="#6699CC"; penwidth="0.5"];
+    "MethodQueryHandlerDefinition" -> "MessageHandlingMember" [color="#6699CC"; penwidth="0.5"];
+    "AnnotatedQueryHandlingComponent" -> "ParameterResolverFactory" [color="#6699CC"; penwidth="0.5"];
+    "Query" -> "Message" [color="#6699CC"; penwidth="0.5"];
+    "QueryResponse" -> "Message" [color="#6699CC"; penwidth="0.5"];
+    "MethodQueryHandlerDefinition" -> "HandlerEnhancerDefinition" [color="#6699CC"; penwidth="0.5"];
+    "AnnotatedQueryHandlingComponent" -> "MessageHandlingMember" [color="#6699CC"; penwidth="0.5"];
+    "HandlerTypeResolver" -> "QueryHandler" [color="red"; penwidth="2.5"; style="dashed";];
+}

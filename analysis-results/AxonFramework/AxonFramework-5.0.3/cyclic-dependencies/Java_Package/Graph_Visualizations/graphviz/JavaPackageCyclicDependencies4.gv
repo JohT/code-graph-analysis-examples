@@ -1,0 +1,55 @@
+strict digraph cycle {
+    graph [layout = "fdp"; start = "7"; splines = "curved"; pad = "0.8,0.4"; outputorder = "edgesfirst";];
+    graph [fontname = "Helvetica,Arial,sans-serif"; labelloc = "t";];
+    node [fontname = "Helvetica,Arial,sans-serif"; style = "filled"; fillcolor = "white";];
+    node [fontsize = 11; margin = "0.05,0.05";];
+    edge [fontsize = 9; arrowsize = "0.6";];
+
+    subgraph cluster_package {
+        label="org.axonframework.messaging.commandhandling.annotation";
+        style="filled";
+        fillcolor="lightblue";
+        "CommandDispatcherParameterResolverFactory";
+        "Command";
+        "AnnotatedCommandHandlingComponent";
+        "CommandHandler";
+        "CommandDispatcherParameterResolverFactory$1";
+        "MethodCommandHandlerDefinition$MethodCommandHandlingMember";
+        "MethodCommandHandlerDefinition";
+        "CommandDispatcherParameterResolverFactoryConfigurationEnhancer";
+        "CommandHandlingMember";
+    }
+
+    subgraph cluster_dependent {
+        label="org.axonframework.messaging.core.annotation";
+        style="filled";
+        fillcolor="peachpuff";
+        "WrappedMessageHandlingMember";
+        "HandlerTypeResolver";
+        "MessageHandler";
+        "ParameterResolver";
+        "MessageHandlingMember";
+        "ParameterResolverFactory";
+        "Message";
+        "AnnotatedHandlerInspector";
+        "HandlerDefinition";
+        "HandlerEnhancerDefinition";
+    }
+
+    "MethodCommandHandlerDefinition" -> "MessageHandlingMember" [color="#6699CC"; penwidth="0.5"];
+    "CommandDispatcherParameterResolverFactory" -> "ParameterResolver" [color="#6699CC"; penwidth="0.5"];
+    "CommandDispatcherParameterResolverFactoryConfigurationEnhancer" -> "ParameterResolverFactory" [color="#6699CC"; penwidth="0.5"];
+    "MethodCommandHandlerDefinition" -> "HandlerEnhancerDefinition" [color="#6699CC"; penwidth="0.5"];
+    "AnnotatedCommandHandlingComponent" -> "MessageHandlingMember" [color="#6699CC"; penwidth="0.5"];
+    "AnnotatedCommandHandlingComponent" -> "AnnotatedHandlerInspector" [color="#6699CC"; penwidth="0.5"];
+    "Command" -> "Message" [color="#6699CC"; penwidth="0.5"];
+    "CommandHandler" -> "MessageHandler" [color="#6699CC"; penwidth="0.5"];
+    "MethodCommandHandlerDefinition$MethodCommandHandlingMember" -> "MessageHandlingMember" [color="#6699CC"; penwidth="0.5"];
+    "AnnotatedCommandHandlingComponent" -> "HandlerDefinition" [color="#6699CC"; penwidth="0.5"];
+    "AnnotatedCommandHandlingComponent" -> "ParameterResolverFactory" [color="#6699CC"; penwidth="0.5"];
+    "CommandDispatcherParameterResolverFactory$1" -> "ParameterResolver" [color="#6699CC"; penwidth="0.5"];
+    "CommandDispatcherParameterResolverFactory" -> "ParameterResolverFactory" [color="#6699CC"; penwidth="0.5"];
+    "CommandHandlingMember" -> "MessageHandlingMember" [color="#6699CC"; penwidth="0.5"];
+    "MethodCommandHandlerDefinition$MethodCommandHandlingMember" -> "WrappedMessageHandlingMember" [color="#6699CC"; penwidth="0.5"];
+    "HandlerTypeResolver" -> "CommandHandler" [color="red"; penwidth="2.5"; style="dashed";];
+}
