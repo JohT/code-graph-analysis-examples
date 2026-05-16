@@ -1,5 +1,0 @@
-"codeUnitName","shortCodeUnitName","projectName","betweenness","articleRank","degree","incomingDependencies","outgoingDependencies","Source Cypher File: /home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/domains/anomaly-detection/queries/AnomalyDetectionDependencyHungryOrchestrators.cypher"
-"org.axonframework.messaging.core","core","axon-messaging-5.0.0",944.7333333333332,4.295277873539893,11293,10952,341,""
-"org.axonframework.messaging.core.unitofwork","unitofwork","axon-messaging-5.0.0",215.28333333333333,1.195187577053851,11823,11695,128,""
-"org.axonframework.messaging.core.annotation","annotation","axon-messaging-5.0.0",1071.5,0.7264589981473073,930,480,450,""
-"org.axonframework.messaging.eventhandling.processing.streaming.token","token","axon-messaging-5.0.0",141.16666666666666,0.47377743353615975,441,425,16,""

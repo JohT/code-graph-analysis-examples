@@ -1,5 +1,0 @@
-"codeUnitName","shortCodeUnitName","projectName","localClusteringCoefficient","pageRank","degree","incomingDependencies","outgoingDependencies","Source Cypher File: /home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/domains/anomaly-detection/queries/AnomalyDetectionPotentialOverEngineerOrIsolated.cypher"
-"org.axonframework.extension.tracing.opentelemetry","opentelemetry","axon-tracing-opentelemetry-5.0.1",1,0.15000000000000002,42,5,37,""
-"org.axonframework.messaging.core.unitofwork.annotation","annotation","axon-messaging-5.0.1",1,0.15000000000000002,18,1,17,""
-"org.axonframework.messaging.tracing.attributes","attributes","axon-messaging-5.0.1",1,0.15000000000000002,28,0,28,""
-"org.axonframework.messaging.queryhandling.tracing","tracing","axon-messaging-5.0.1",0.8333333333333334,0.15000000000000002,79,6,73,""

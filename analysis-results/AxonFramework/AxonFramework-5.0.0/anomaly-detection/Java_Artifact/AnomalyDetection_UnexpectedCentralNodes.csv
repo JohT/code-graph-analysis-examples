@@ -1,4 +1,0 @@
-"codeUnitName","shortCodeUnitName","projectName","betweenness","degree","incomingDependencies","outgoingDependencies","Source Cypher File: /home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/domains/anomaly-detection/queries/AnomalyDetectionUnexpectedCentralNodes.cypher"
-"/axon-update-5.0.0.jar","axon-update-5.0.0",,0,1,0,1,""
-"/axon-metrics-micrometer-5.0.0.jar","axon-metrics-micrometer-5.0.0",,0,2,0,2,""
-"/axon-tracing-opentelemetry-5.0.0.jar","axon-tracing-opentelemetry-5.0.0",,0,2,0,2,""

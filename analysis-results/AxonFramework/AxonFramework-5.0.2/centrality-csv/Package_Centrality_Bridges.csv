@@ -1,8 +1,0 @@
-"fromMemberName","toMemberName","fromIncomingDependencies","fromOutgoingDependencies","toIncomingDependencies","toOutgoingDependencies","Source Cypher File: Centrality/Centrality_10d_Bridges_Stream.cypher"
-"org.axonframework.extension.metrics.micrometer","org.axonframework.extension.metrics.micrometer.reservoir",18,202,2,0,""
-"org.axonframework.conversion","org.axonframework.conversion.converter",415,21,0,7,""
-"org.axonframework.extension.springboot.autoconfig","org.axonframework.extension.springboot.util",46,658,9,7,""
-"org.axonframework.extension.springboot.actuator.axonserver","org.axonframework.extension.springboot.actuator",2,3,2,0,""
-"org.axonframework.common","org.axonframework.common.lock",895,31,17,21,""
-"org.axonframework.common","org.axonframework.common.digest",895,31,0,1,""
-"org.axonframework.common","org.axonframework.common.caching",895,31,22,43,""

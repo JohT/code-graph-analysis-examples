@@ -1,6 +1,0 @@
-"communityId","conductance","modularity","memberCount","someMemberNamesShort","someMemberNames","Source Cypher File: Community_Detection/Community_Detection_9_Community_Metrics.cypher"
-0,1,-0.0659790844057728,1,"axon-common-5.0.1","/axon-common-5.0.1.jar",""
-1,1,-0.02243598214807538,4,"axon-server-connector-5.0.1,axon-test-5.0.1,axon-conversion-5.0.1,axon-metrics-micrometer-5.0.1","/axon-server-connector-5.0.1.jar,/axon-test-5.0.1.jar,/axon-conversion-5.0.1.jar,/axon-metrics-micrometer-5.0.1.jar",""
-2,1,-0.014667737027704433,3,"axon-tracing-opentelemetry-5.0.1,axon-spring-boot-autoconfigure-5.0.1,axon-modelling-5.0.1","/axon-tracing-opentelemetry-5.0.1.jar,/axon-spring-boot-autoconfigure-5.0.1.jar,/axon-modelling-5.0.1.jar",""
-3,1,-0.12696025530828223,1,"axon-messaging-5.0.1","/axon-messaging-5.0.1.jar",""
-4,1,-0.013438453557858498,2,"axon-update-5.0.1,axon-eventsourcing-5.0.1","/axon-update-5.0.1.jar,/axon-eventsourcing-5.0.1.jar",""

@@ -1,3 +1,0 @@
-"codeUnitName","shortCodeUnitName","projectName","localClusteringCoefficient","pageRank","degree","incomingDependencies","outgoingDependencies","Source Cypher File: /home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/domains/anomaly-detection/queries/AnomalyDetectionOverReferencesUtilities.cypher"
-"/axon-common-5.0.1.jar","axon-common-5.0.1",,0.4222222222222222,1.3131365452336337,10,10,0,""
-"/axon-messaging-5.0.1.jar","axon-messaging-5.0.1",,0.5,0.7746340425628347,9,7,2,""
