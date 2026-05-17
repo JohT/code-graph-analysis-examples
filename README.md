@@ -129,7 +129,7 @@ Below are examples drawn from more than a hundred reports produced by the analys
 
 ### Cyclomatic Complexity Distribution for Java Methods
 
-<img src="./analysis-results/AxonFramework/latest/java/MethodMetrics_TopPackagesLOC_Bar.svg" width="600" alt="Cyclomatic complexity distribution for Java methods">
+<img src="./analysis-results/AxonFramework/latest/java/MethodMetrics_CyclomaticComplexityDistribution_Normalized.svg" width="600" alt="Cyclomatic complexity distribution for Java methods">
 
 ### Visibility of Java Types
 
