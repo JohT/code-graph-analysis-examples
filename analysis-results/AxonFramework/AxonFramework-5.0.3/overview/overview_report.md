@@ -1,7 +1,7 @@
 ---
 title: "Overview Report"
-generated: "2026-05-16"
-model_version: "v4.0.0"
+generated: "2026-05-17"
+model_version: "v4.0.1"
 dataset: "AxonFramework-5.0.3"
 authors: ["JohT/code-graph-analysis-pipeline"]
 ---
@@ -29,16 +29,16 @@ Shows how many nodes carry each combination of labels and their share of the tot
 
 | nodeLabels | nodesWithThatLabels | nodesWithThatLabelsPercent |
 | --- | --- | --- |
-| ["Git","Update","Change"] | 264852 | 49.147145274784 |
-| ["Git","Change","Create"] | 99583 | 18.479075740031472 |
-| ["Git","Change","Delete"] | 61316 | 11.378076660431697 |
-| ["Git","Change","Rename"] | 24820 | 4.605712419464981 |
-| ["File","Git"] | 16609 | 3.082041803984442 |
-| ["Git","Commit"] | 16390 | 3.041403164989163 |
-| ["Java","ByteCode","Parameter"] | 9457 | 1.7548840592618984 |
-| ["Java","ByteCode","Member","Method"] | 9119 | 1.692163237433568 |
-| ["Java","ByteCode","Bound"] | 6545 | 1.2145200558178202 |
-| ["Java","Value","ByteCode","Annotation"] | 5562 | 1.0321100917431194 |
+| ["Git","Update","Change"] | 264852 | 49.1473276748303 |
+| ["Git","Change","Create"] | 99583 | 18.479144321517776 |
+| ["Git","Change","Delete"] | 61316 | 11.378118887944568 |
+| ["Git","Change","Rename"] | 24820 | 4.60572951266854 |
+| ["File","Git"] | 16609 | 3.082053242381619 |
+| ["Git","Commit"] | 16390 | 3.041414452563955 |
+| ["Java","ByteCode","Parameter"] | 9457 | 1.7548905721718928 |
+| ["Java","ByteCode","Member","Method"] | 9117 | 1.6917983870668445 |
+| ["Java","ByteCode","Bound"] | 6545 | 1.2145245632721835 |
+| ["Java","Value","ByteCode","Annotation"] | 5562 | 1.0321139222184696 |
 
 [Full data](./Node_label_combination_count.csv)
 
@@ -55,16 +55,16 @@ Shows the number of nodes carrying each individual label, sorted by count descen
 
 | nodeLabel | nodesWithThatLabel | nodesWithThatLabelPercent |
 | --- | --- | --- |
-| Git | 484820 | 89.9654107657136 |
-| Change | 451117 | 83.71132834535791 |
-| Update | 264852 | 49.147145274784 |
-| Create | 99583 | 18.479075740031472 |
-| Delete | 61316 | 11.378076660431697 |
-| Java | 46701 | 8.66605059232208 |
-| ByteCode | 46492 | 8.627267598943025 |
-| Rename | 24820 | 4.605712419464981 |
-| File | 19861 | 3.6854977583800954 |
-| Commit | 16390 | 3.041403164989163 |
+| Git | 484820 | 89.96574465479297 |
+| Change | 451117 | 83.71163902362989 |
+| Update | 264852 | 49.1473276748303 |
+| Create | 99583 | 18.479144321517776 |
+| Delete | 61316 | 11.378118887944568 |
+| Java | 46699 | 8.66571162417841 |
+| ByteCode | 46490 | 8.626928486863836 |
+| Rename | 24820 | 4.60572951266854 |
+| File | 19861 | 3.685511436386377 |
+| Commit | 16390 | 3.041414452563955 |
 
 [Full data](./Node_label_count.csv)
 
@@ -78,16 +78,16 @@ Shows the number of relationships for each type and their share of the total rel
 
 | relationshipType | nodesWithThatRelationshipType | nodesWithThatRelationshipTypePercent |
 | --- | --- | --- |
-| CONTAINS_CHANGE | 451117 | 26.903398908518174 |
-| MODIFIES | 451117 | 26.903398908518174 |
-| UPDATES | 264852 | 15.795057618575347 |
-| CREATES | 124949 | 7.451620733025884 |
-| DELETES | 86136 | 5.136918290341799 |
-| COMMITTED | 32780 | 1.9549106245635297 |
-| RENAMES | 24820 | 1.4801977334248568 |
-| INVOKES | 22754 | 1.356987076001176 |
-| DEPENDS_ON | 22707 | 1.354184123000734 |
-| HAS_PARENT | 19906 | 1.1871400516339725 |
+| CONTAINS_CHANGE | 451117 | 26.903639577573312 |
+| MODIFIES | 451117 | 26.903639577573312 |
+| UPDATES | 264852 | 15.795198916022777 |
+| CREATES | 124949 | 7.451687392800999 |
+| DELETES | 86136 | 5.1369642435418195 |
+| COMMITTED | 32780 | 1.9549281125580575 |
+| RENAMES | 24820 | 1.4802109747922816 |
+| INVOKES | 22746 | 1.3565221125151181 |
+| DEPENDS_ON | 22707 | 1.3541962370913914 |
+| HAS_PARENT | 19906 | 1.1871506714027056 |
 
 [Full data](./Relationship_type_count.csv)
 
@@ -155,7 +155,7 @@ Overview of scanned Java artifacts: number of packages, types, methods, and line
 
 | nodeCount | relationshipCount | artifactCount | packageCount | typeCount | methodCount | memberCount |
 | --- | --- | --- | --- | --- | --- | --- |
-| 538896 | 1676803 | 11 | 128 | 1822 | 5709 | 7176 |
+| 538894 | 1676788 | 11 | 128 | 1822 | 5709 | 7176 |
 
 [Full data](./Overview_size.csv)
 

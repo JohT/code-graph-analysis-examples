@@ -12,24 +12,46 @@ strict digraph TopBridge5 {
     central [fontsize = 16;];
     central [color = 7; fillcolor = 5; penwidth = 3;];
 
-	graph   [label="Top Rank #5 Java Type Bridge\norg.axonframework.test.fixture.AxonTestPhase$When$Event\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
-	central [label="🌉 bridge #5\nAxonTestPhase$When$Event"];
-	"AxonTestPhase$When_29" [label = "AxonTestPhase$\nWhen"; ]; "AxonTestPhase$When_29" -> central [label=7; weight=7; penwidth=0.5];
-	"AxonTestWhen_78" [label = "AxonTestWhen"; ]; "AxonTestWhen_78" -> central [label=4; weight=4; penwidth=0.5];
-	"AxonTestWhen$Event_130" [label = "AxonTestWhen$\nEvent"; ]; "AxonTestWhen$Event_130" -> central [label=2; weight=2; penwidth=0.4];
-	"AxonTestPhase_2066" [label = "AxonTestPhase"; ]; "AxonTestPhase_2066" -> central [label=1; weight=1; penwidth=0.4];
-	"AxonTestPhase$Then$Event_27" [label = "AxonTestPhase$\nThen$\nEvent"; color = 5; fillcolor = 1; ]; central -> "AxonTestPhase$Then$Event_27" [label=2; weight=2; penwidth=0.4; color = 5];
-	"AxonTestPhase$Then_25" [label = "AxonTestPhase$\nThen"; color = 5; fillcolor = 1; ]; central -> "AxonTestPhase$Then_25" [label=1; weight=1; penwidth=0.4; color = 5];
-	"AxonTestPhase$When_29" [label = "AxonTestPhase$\nWhen"; color = 5; fillcolor = 1; ]; central -> "AxonTestPhase$When_29" [label=1; weight=1; penwidth=0.4; color = 5];
-	"AxonTestWhen_78" -> "AxonTestWhen$Event_130" [label=6; weight=6; penwidth=0.3; color = 3]
-	"AxonTestWhen$Event_130" -> "AxonTestWhen_78" [label=6; weight=6; penwidth=0.3; color = 3]
-	"AxonTestWhen_78" -> "AxonTestPhase$When_29" [label=2; weight=2; penwidth=0.3; color = 3]
-	"AxonTestWhen$Event_130" -> "AxonTestPhase$Then$Event_27" [label=2; weight=2; penwidth=0.3; color = 3]
-	"AxonTestPhase_2066" -> "AxonTestPhase$Then_25" [label=1; weight=1; penwidth=0.3; color = 3]
-	"AxonTestPhase_2066" -> "AxonTestPhase$When_29" [label=1; weight=1; penwidth=0.3; color = 3]
-	"AxonTestPhase_2066" -> "AxonTestPhase$Then$Event_27" [label=1; weight=1; penwidth=0.3; color = 3]
-	"AxonTestPhase$Then_25" -> "AxonTestPhase$Then$Event_27" [label=1; weight=1; penwidth=0.3; color = 3]
-	"AxonTestPhase$Then$Event_27" -> "AxonTestPhase$Then_25" [label=1; weight=1; penwidth=0.3; color = 3]
-	"AxonTestWhen$Event_130" -> "AxonTestPhase$When_29" [label=1; weight=1; penwidth=0.3; color = 3]
-	"AxonTestWhen$Event_130" -> "AxonTestPhase$Then_25" [label=1; weight=1; penwidth=0.3; color = 3]
+	graph   [label="Top Rank #5 Java Type Bridge\norg.axonframework.extension.springboot.autoconfig.ConverterAutoConfiguration\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
+	central [label="🌉 bridge #5\nConverterAutoConfiguration"];
+	"AvroSchemaStoreAutoConfiguration_27016" [label = "AvroSchemaStoreAutoConfiguration"; ]; "AvroSchemaStoreAutoConfiguration_27016" -> central [label=1; weight=1; penwidth=0.4];
+	"CBORMapperAutoConfiguration_26724" [label = "CBORMapperAutoConfiguration"; ]; "CBORMapperAutoConfiguration_26724" -> central [label=1; weight=1; penwidth=0.4];
+	"ConverterAutoConfiguration$1_27012" [label = "ConverterAutoConfiguration$\n1"; ]; "ConverterAutoConfiguration$1_27012" -> central [label=1; weight=1; penwidth=0.4];
+	"ConverterProperties_26727" [label = "ConverterProperties"; color = 5; fillcolor = 1; ]; central -> "ConverterProperties_26727" [label=10; weight=10; penwidth=0.6; color = 5];
+	"ChainingContentTypeConverter_51374" [label = "ChainingContentTypeConverter"; color = 5; fillcolor = 1; ]; central -> "ChainingContentTypeConverter_51374" [label=8; weight=8; penwidth=0.5; color = 5];
+	"ConverterProperties$ConverterType_26699" [label = "ConverterProperties$\nConverterType"; color = 5; fillcolor = 1; ]; central -> "ConverterProperties$ConverterType_26699" [label=7; weight=7; penwidth=0.5; color = 5];
+	"DelegatingEventConverter_8308" [label = "DelegatingEventConverter"; color = 5; fillcolor = 1; ]; central -> "DelegatingEventConverter_8308" [label=6; weight=6; penwidth=0.5; color = 5];
+	"Converter_50418" [label = "Converter"; color = 5; fillcolor = 1; ]; central -> "Converter_50418" [label=4; weight=4; penwidth=0.5; color = 5];
+	"DelegatingMessageConverter_7572" [label = "DelegatingMessageConverter"; color = 5; fillcolor = 1; ]; central -> "DelegatingMessageConverter_7572" [label=4; weight=4; penwidth=0.5; color = 5];
+	"JacksonConverter_51373" [label = "JacksonConverter"; color = 5; fillcolor = 1; ]; central -> "JacksonConverter_51373" [label=4; weight=4; penwidth=0.5; color = 5];
+	"AvroConverterConfiguration_51465" [label = "AvroConverterConfiguration"; color = 5; fillcolor = 1; ]; central -> "AvroConverterConfiguration_51465" [label=3; weight=3; penwidth=0.4; color = 5];
+	"AvroConverter_51388" [label = "AvroConverter"; color = 5; fillcolor = 1; ]; central -> "AvroConverter_51388" [label=2; weight=2; penwidth=0.4; color = 5];
+	"AvroConverterStrategy_50693" [label = "AvroConverterStrategy"; color = 5; fillcolor = 1; ]; central -> "AvroConverterStrategy_50693" [label=2; weight=2; penwidth=0.4; color = 5];
+	"AxonConfigurationException_40962" [label = "AxonConfigurationException"; color = 5; fillcolor = 1; ]; central -> "AxonConfigurationException_40962" [label=2; weight=2; penwidth=0.4; color = 5];
+	"ConverterAutoConfiguration$1_27012" [label = "ConverterAutoConfiguration$\n1"; color = 5; fillcolor = 1; ]; central -> "ConverterAutoConfiguration$1_27012" [label=2; weight=2; penwidth=0.4; color = 5];
+	"Jackson2Converter_51380" [label = "Jackson2Converter"; color = 5; fillcolor = 1; ]; central -> "Jackson2Converter_51380" [label=2; weight=2; penwidth=0.4; color = 5];
+	"MessageConverter_4801" [label = "MessageConverter"; color = 5; fillcolor = 1; ]; central -> "MessageConverter_4801" [label=2; weight=2; penwidth=0.4; color = 5];
+	"AxonAutoConfiguration_26716" [label = "AxonAutoConfiguration"; color = 5; fillcolor = 1; ]; central -> "AxonAutoConfiguration_26716" [label=1; weight=1; penwidth=0.4; color = 5];
+	"EventConverter_7002" [label = "EventConverter"; color = 5; fillcolor = 1; ]; central -> "EventConverter_7002" [label=1; weight=1; penwidth=0.4; color = 5];
+	"AvroConverter_51388" -> "AvroConverterStrategy_50693" [label=19; weight=19; penwidth=0.3; color = 3]
+	"Jackson2Converter_51380" -> "ChainingContentTypeConverter_51374" [label=15; weight=15; penwidth=0.3; color = 3]
+	"JacksonConverter_51373" -> "ChainingContentTypeConverter_51374" [label=15; weight=15; penwidth=0.3; color = 3]
+	"ConverterProperties_26727" -> "ConverterProperties$ConverterType_26699" [label=13; weight=13; penwidth=0.3; color = 3]
+	"AvroConverter_51388" -> "AvroConverterConfiguration_51465" [label=12; weight=12; penwidth=0.3; color = 3]
+	"ConverterAutoConfiguration$1_27012" -> "ConverterProperties$ConverterType_26699" [label=12; weight=12; penwidth=0.3; color = 3]
+	"AvroConverter_51388" -> "ChainingContentTypeConverter_51374" [label=11; weight=11; penwidth=0.3; color = 3]
+	"DelegatingEventConverter_8308" -> "MessageConverter_4801" [label=9; weight=9; penwidth=0.3; color = 3]
+	"AvroConverterConfiguration_51465" -> "AvroConverterStrategy_50693" [label=5; weight=5; penwidth=0.3; color = 3]
+	"DelegatingMessageConverter_7572" -> "Converter_50418" [label=5; weight=5; penwidth=0.3; color = 3]
+	"DelegatingEventConverter_8308" -> "DelegatingMessageConverter_7572" [label=2; weight=2; penwidth=0.3; color = 3]
+	"AvroConverter_51388" -> "Converter_50418" [label=1; weight=1; penwidth=0.3; color = 3]
+	"CBORMapperAutoConfiguration_26724" -> "ConverterProperties_26727" [label=1; weight=1; penwidth=0.3; color = 3]
+	"ChainingContentTypeConverter_51374" -> "Converter_50418" [label=1; weight=1; penwidth=0.3; color = 3]
+	"DelegatingEventConverter_8308" -> "Converter_50418" [label=1; weight=1; penwidth=0.3; color = 3]
+	"DelegatingEventConverter_8308" -> "EventConverter_7002" [label=1; weight=1; penwidth=0.3; color = 3]
+	"DelegatingMessageConverter_7572" -> "MessageConverter_4801" [label=1; weight=1; penwidth=0.3; color = 3]
+	"EventConverter_7002" -> "Converter_50418" [label=1; weight=1; penwidth=0.3; color = 3]
+	"Jackson2Converter_51380" -> "Converter_50418" [label=1; weight=1; penwidth=0.3; color = 3]
+	"JacksonConverter_51373" -> "Converter_50418" [label=1; weight=1; penwidth=0.3; color = 3]
+	"MessageConverter_4801" -> "Converter_50418" [label=1; weight=1; penwidth=0.3; color = 3]
 }

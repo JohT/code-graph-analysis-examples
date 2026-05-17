@@ -23,7 +23,7 @@ strict digraph TopBottleneck3 {
 	"SimpleEventBus_8302"  [label = "SimpleEventBus\n(31.17)"; penwidth = 2; ]; "SimpleEventBus_8302" -> central [label=14; weight=14; penwidth=0.6];
 	"InMemoryTokenStore_8928"  [label = "InMemoryTokenStore\n(34.0)"; penwidth = 2; ]; "InMemoryTokenStore_8928" -> central [label=13; weight=13; penwidth=0.6];
 	"JpaTokenStore_8939"  [label = "JpaTokenStore\n(12.0)"; penwidth = 2; ]; "JpaTokenStore_8939" -> central [label=13; weight=13; penwidth=0.6];
-	"SimpleRepository_49200"  [label = "SimpleRepository\n(41.83)"; penwidth = 2; ]; "SimpleRepository_49200" -> central [label=13; weight=13; penwidth=0.6];
+	"SimpleRepository_49198"  [label = "SimpleRepository\n(41.83)"; penwidth = 2; ]; "SimpleRepository_49198" -> central [label=13; weight=13; penwidth=0.6];
 	"JdbcTokenStore_8933"  [label = "JdbcTokenStore\n(0.0)"; penwidth = 2; ]; "JdbcTokenStore_8933" -> central [label=12; weight=12; penwidth=0.6];
 	"StorageEngineBackedEventStore_32372"  [label = "StorageEngineBackedEventStore\n(12.83)"; penwidth = 2; ]; "StorageEngineBackedEventStore_32372" -> central [label=12; weight=12; penwidth=0.6];
 	"TokenStore_8940"  [label = "TokenStore\n(27.5)"; penwidth = 2; ]; "TokenStore_8940" -> central [label=12; weight=12; penwidth=0.6];
@@ -47,7 +47,7 @@ strict digraph TopBottleneck3 {
 	"DefaultMessageDispatchInterceptorChain$InterceptingDispatcher_21617"  [label = "DefaultMessageDispatchInterceptorChain$\nInterceptingDispatcher\n(3.0)"; penwidth = 2; ]; "DefaultMessageDispatchInterceptorChain$InterceptingDispatcher_21617" -> central [label=6; weight=6; penwidth=0.5];
 	"DefaultQueryGateway_15507"  [label = "DefaultQueryGateway\n(41.7)"; penwidth = 2; ]; "DefaultQueryGateway_15507" -> central [label=6; weight=6; penwidth=0.5];
 	"EventAppender_6998"  [label = "EventAppender\n(110.5)"; penwidth = 2; ]; "EventAppender_6998" -> central [label=6; weight=6; penwidth=0.5];
-	"InMemoryRepository_49547"  [label = "InMemoryRepository\n(0.0)"; penwidth = 2; ]; "InMemoryRepository_49547" -> central [label=6; weight=6; penwidth=0.5];
+	"InMemoryRepository_49545"  [label = "InMemoryRepository\n(0.0)"; penwidth = 2; ]; "InMemoryRepository_49545" -> central [label=6; weight=6; penwidth=0.5];
 	"InterceptingQueryBus_15499"  [label = "InterceptingQueryBus\n(68.5)"; penwidth = 2; ]; "InterceptingQueryBus_15499" -> central [label=6; weight=6; penwidth=0.5];
 	"QueryUpdateEmitter_14473"  [label = "QueryUpdateEmitter\n(222.67)"; penwidth = 2; ]; "QueryUpdateEmitter_14473" -> central [label=6; weight=6; penwidth=0.5];
 	"RecordingEventStore_109"  [label = "RecordingEventStore\n(654.08)"; penwidth = 5; ]; "RecordingEventStore_109" -> central [label=6; weight=6; penwidth=0.5];
@@ -62,7 +62,7 @@ strict digraph TopBottleneck3 {
 	"ResourceOverridingProcessingContext_18822" -> "ProcessingLifecycle_11393" [label=17; weight=17; penwidth=0.3; color = 3]
 	"UnitOfWork$UnitOfWorkProcessingContext_23065" -> "Context$ResourceKey_6231" [label=13; weight=13; penwidth=0.3; color = 3]
 	"ResourceOverridingProcessingContext_18822" -> "Context$ResourceKey_6231" [label=12; weight=12; penwidth=0.3; color = 3]
-	"InMemoryRepository_49547" -> "SimpleRepository_49200" [label=9; weight=9; penwidth=0.3; color = 3]
+	"InMemoryRepository_49545" -> "SimpleRepository_49198" [label=9; weight=9; penwidth=0.3; color = 3]
 	"MergeTask_12215" -> "TokenStore_8940" [label=9; weight=9; penwidth=0.3; color = 3]
 	"SplitTask_10966" -> "TokenStore_8940" [label=8; weight=8; penwidth=0.3; color = 3]
 	"DefaultEventStoreTransaction_32504" -> "Context$ResourceKey_6231" [label=7; weight=7; penwidth=0.3; color = 3]
@@ -77,7 +77,7 @@ strict digraph TopBottleneck3 {
 	"QueryUpdateEmitter_14473" -> "Context$ResourceKey_6231" [label=3; weight=3; penwidth=0.3; color = 3]
 	"SimpleEventBus_8302" -> "Context$ResourceKey_6231" [label=3; weight=3; penwidth=0.3; color = 3]
 	"SimpleQueryBus_16732" -> "Context$ResourceKey_6231" [label=3; weight=3; penwidth=0.3; color = 3]
-	"SimpleRepository_49200" -> "Context$ResourceKey_6231" [label=3; weight=3; penwidth=0.3; color = 3]
+	"SimpleRepository_49198" -> "Context$ResourceKey_6231" [label=3; weight=3; penwidth=0.3; color = 3]
 	"StorageEngineBackedEventStore_32372" -> "Context$ResourceKey_6231" [label=3; weight=3; penwidth=0.3; color = 3]
 	"StorageEngineBackedEventStore_32372" -> "DefaultEventStoreTransaction_32504" [label=3; weight=3; penwidth=0.3; color = 3]
 	"UnitOfWork$UnitOfWorkProcessingContext_23065" -> "ProcessingLifecycle_11393" [label=3; weight=3; penwidth=0.3; color = 3]

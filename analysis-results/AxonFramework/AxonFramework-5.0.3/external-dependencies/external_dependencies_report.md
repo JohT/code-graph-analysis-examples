@@ -1,7 +1,7 @@
 ---
 title: "External Dependencies Report"
-generated: "2026-05-16"
-model_version: "v4.0.0"
+generated: "2026-05-17"
+model_version: "v4.0.1"
 dataset: "AxonFramework-5.0.3"
 authors: ["JohT/code-graph-analysis-pipeline"]
 ---
@@ -45,7 +45,7 @@ External Java packages by internal caller type count. High `numberOfExternalCall
 | com.fasterxml.jackson.databind | 3 | 8 | 13 | 64 | 120 | 1231 | ["ObjectMapper","JsonNode","SerializationFeature","JavaType"] |
 | io.axoniq.axonserver.connector.control | 3 | 5 | 5 | 6 | 120 | 1231 | ["ControlChannel","ProcessorInstructionHandler"] |
 | io.grpc | 3 | 7 | 23 | 51 | 120 | 1231 | ["ManagedChannelBuilder","ClientInterceptor","MethodDescriptor","CallOptions","Channel","ClientCall","ForwardingClientCallListener$SimpleForwardingClientCallListener","ClientCall$Listener","Metadata"] |
-| io.micrometer.core.instrument | 3 | 13 | 37 | 141 | 120 | 1231 | ["Tags","Tag","Clock","Counter","MeterRegistry","Timer","Timer$Builder","Gauge","Gauge$Builder"] |
+| io.micrometer.core.instrument | 3 | 13 | 37 | 141 | 120 | 1231 | ["Clock","Timer","Timer$Builder","Tag","MeterRegistry","Tags","Counter","Gauge","Gauge$Builder"] |
 | org.hamcrest | 3 | 22 | 44 | 196 | 120 | 1231 | ["StringDescription","Matcher","CoreMatchers","Description","TypeSafeMatcher","BaseMatcher"] |
 | org.reactivestreams | 3 | 6 | 8 | 27 | 120 | 1231 | ["Publisher","Subscriber","Subscription"] |
 | org.springframework.boot.actuate.health | 3 | 4 | 7 | 24 | 120 | 1231 | ["Status","SimpleStatusAggregator","AbstractHealthIndicator","Health$Builder"] |
@@ -57,13 +57,13 @@ External Java packages by internal caller type count. High `numberOfExternalCall
 | io.grpc.stub | 2 | 3 | 4 | 11 | 120 | 1231 | ["StreamObserver","ClientCallStreamObserver","ClientResponseObserver"] |
 | io.micrometer.core.instrument.simple | 2 | 2 | 2 | 4 | 120 | 1231 | ["SimpleMeterRegistry"] |
 | javax.annotation | 2 | 2 | 2 | 2 | 120 | 1231 | ["Nonnull"] |
-| org.apache.avro | 2 | 5 | 17 | 56 | 120 | 1231 | ["Schema","InvalidNumberEncodingException","SchemaCompatibility$SchemaIncompatibilityType","SchemaNormalization","AvroRuntimeException","SchemaCompatibility$SchemaPairCompatibility","InvalidAvroMagicException","SchemaCompatibility$SchemaCompatibilityResult","SchemaCompatibility"] |
-| org.apache.avro.message | 2 | 9 | 12 | 38 | 120 | 1231 | ["SchemaStore","SchemaStore$Cache","BadHeaderException","BinaryMessageEncoder","BinaryMessageDecoder"] |
+| org.apache.avro | 2 | 5 | 17 | 56 | 120 | 1231 | ["Schema","InvalidAvroMagicException","SchemaNormalization","SchemaCompatibility$Incompatibility","SchemaCompatibility$SchemaCompatibilityResult","SchemaCompatibility$SchemaPairCompatibility","SchemaCompatibility$SchemaIncompatibilityType","AvroRuntimeException","SchemaCompatibility"] |
+| org.apache.avro.message | 2 | 9 | 12 | 38 | 120 | 1231 | ["SchemaStore","SchemaStore$Cache","BadHeaderException","BinaryMessageDecoder","BinaryMessageEncoder"] |
 | org.axonframework.extension.spring.config | 2 | 5 | 13 | 42 | 120 | 1231 | ["EventProcessorSettings","EventProcessorSettings$ProcessorMode","EventProcessorSettings$SubscribingEventProcessorSettings","EventProcessorSettings$PooledEventProcessorSettings","SpringEventSourcedEntityLookup","MessageHandlerLookup","EventProcessorSettings$MapWrapper","EventProcessorDefinition","ProcessorModuleFactory"] |
 | org.jetbrains.annotations | 2 | 3 | 3 | 4 | 120 | 1231 | ["NotNull"] |
 | org.springframework.core.env | 2 | 2 | 2 | 2 | 120 | 1231 | ["Environment"] |
 | org.springframework.core.type | 2 | 3 | 3 | 5 | 120 | 1231 | ["AnnotatedTypeMetadata","AnnotationMetadata"] |
-| tools.jackson.databind | 2 | 8 | 11 | 47 | 120 | 1231 | ["ObjectMapper","JsonNode","JavaType"] |
+| tools.jackson.databind | 2 | 8 | 11 | 47 | 120 | 1231 | ["ObjectMapper","JavaType","JsonNode"] |
 | tools.jackson.databind.json | 2 | 2 | 4 | 10 | 120 | 1231 | ["JsonMapper$Builder","JsonMapper"] |
 | IdTypeParameterResolver | 1 | 1 | 1 | 1 | 120 | 1231 | ["IdTypeParameterResolver"] |
 | ScannedEntityCreator | 1 | 1 | 1 | 4 | 120 | 1231 | ["ScannedEntityCreator"] |
@@ -89,9 +89,9 @@ External Java packages by internal caller type count. High `numberOfExternalCall
 | javax.cache | 1 | 1 | 1 | 13 | 120 | 1231 | ["Cache"] |
 | javax.cache.configuration | 1 | 2 | 3 | 9 | 120 | 1231 | ["CacheEntryListenerConfiguration","Factory"] |
 | javax.cache.event | 1 | 1 | 8 | 26 | 120 | 1231 | ["CacheEntryListener","CacheEntryEvent","CacheEntryListenerException","CacheEntryCreatedListener","CacheEntryEventFilter","CacheEntryRemovedListener","CacheEntryExpiredListener","CacheEntryUpdatedListener"] |
-| org.apache.avro.generic | 1 | 6 | 7 | 29 | 120 | 1231 | ["GenericRecord","GenericData","GenericDatumReader"] |
+| org.apache.avro.generic | 1 | 6 | 7 | 29 | 120 | 1231 | ["GenericData","GenericRecord","GenericDatumReader"] |
 | org.apache.avro.io | 1 | 1 | 1 | 3 | 120 | 1231 | ["DecoderFactory"] |
-| org.apache.avro.specific | 1 | 2 | 4 | 14 | 120 | 1231 | ["SpecificData","SpecificRecordBase"] |
+| org.apache.avro.specific | 1 | 2 | 4 | 14 | 120 | 1231 | ["SpecificRecordBase","SpecificData"] |
 | org.apache.commons.lang3.tuple | 1 | 1 | 1 | 4 | 120 | 1231 | ["Pair"] |
 | org.awaitility | 1 | 1 | 1 | 1 | 120 | 1231 | ["Awaitility"] |
 | org.awaitility.core | 1 | 1 | 1 | 2 | 120 | 1231 | ["ConditionFactory"] |
@@ -102,7 +102,7 @@ External Java packages by internal caller type count. High `numberOfExternalCall
 | org.axonframework.extension.spring.messaging.unitofwork | 1 | 2 | 2 | 4 | 120 | 1231 | ["SpringTransactionManager"] |
 | org.ehcache.config | 1 | 1 | 1 | 2 | 120 | 1231 | ["CacheRuntimeConfiguration"] |
 | org.ehcache.core | 1 | 1 | 1 | 13 | 120 | 1231 | ["Ehcache"] |
-| org.ehcache.event | 1 | 3 | 8 | 30 | 120 | 1231 | ["EventType","CacheEventListener","EventOrdering","EventFiring","CacheEvent"] |
+| org.ehcache.event | 1 | 3 | 8 | 30 | 120 | 1231 | ["EventType","CacheEventListener","CacheEvent","EventOrdering","EventFiring"] |
 | org.junit.jupiter.api | 1 | 1 | 1 | 2 | 120 | 1231 | ["Assertions"] |
 | org.junit.jupiter.api.extension | 1 | 1 | 8 | 28 | 120 | 1231 | ["ParameterResolutionException","BeforeEachCallback","AfterEachCallback","ParameterResolver","ExtensionContext$Store","ExtensionContext","ExtensionContext$Namespace","ParameterContext"] |
 | org.springframework.beans | 1 | 2 | 2 | 2 | 120 | 1231 | ["BeansException"] |
@@ -126,7 +126,7 @@ External Java packages by internal caller type count. High `numberOfExternalCall
 | reactor.core.scheduler | 1 | 1 | 2 | 2 | 120 | 1231 | ["Schedulers","Scheduler"] |
 | reactor.util.concurrent | 1 | 2 | 2 | 4 | 120 | 1231 | ["Queues"] |
 | tools.jackson.core | 1 | 3 | 3 | 6 | 120 | 1231 | ["JacksonException"] |
-| tools.jackson.databind.node | 1 | 2 | 3 | 12 | 120 | 1231 | ["JsonNodeType","ObjectNode"] |
+| tools.jackson.databind.node | 1 | 2 | 3 | 12 | 120 | 1231 | ["ObjectNode","JsonNodeType"] |
 | tools.jackson.dataformat.cbor | 1 | 2 | 3 | 9 | 120 | 1231 | ["CBORMapper","CBORMapper$Builder"] |
 
 ### 2.2 Most Used External Packages — Second-Level Grouping
@@ -144,15 +144,15 @@ Second-level package names (e.g. `javax.xml` from `javax.xml.stream`) reveal **f
 | reactor.core | 6 | 9 | 16 | 51 | 120 | 1231 | ["MonoSink","Flux","Mono","FluxSink","Schedulers","Scheduler"] |
 | com.google | 5 | 9 | 12 | 36 | 120 | 1231 | ["JsonElement","JsonParser","JsonArray","JsonObject","MessageLite","ByteString"] |
 | io.grpc | 3 | 10 | 29 | 65 | 120 | 1231 | ["StreamObserver","ManagedChannelBuilder","GrpcSslContexts","SslContextBuilder","ClientInterceptor","MethodDescriptor","CallOptions","Channel","ClientCall"] |
-| io.micrometer | 3 | 13 | 39 | 145 | 120 | 1231 | ["Tags","Tag","Clock","Counter","MeterRegistry","Timer","Timer$Builder","SimpleMeterRegistry","Gauge"] |
+| io.micrometer | 3 | 13 | 39 | 145 | 120 | 1231 | ["Clock","Timer","Timer$Builder","Tag","MeterRegistry","Tags","Counter","Gauge","Gauge$Builder"] |
 | org.axonframework | 3 | 10 | 22 | 64 | 120 | 1231 | ["EventProcessorSettings","EventProcessorSettings$ProcessorMode","EventProcessorSettings$SubscribingEventProcessorSettings","EventProcessorSettings$PooledEventProcessorSettings","SpringEventSourcedEntityLookup","MessageHandlerLookup","EventProcessorSettings$MapWrapper","EventProcessorDefinition","ProcessorModuleFactory"] |
 | org.hamcrest | 3 | 22 | 44 | 196 | 120 | 1231 | ["StringDescription","Matcher","CoreMatchers","Description","TypeSafeMatcher","BaseMatcher"] |
 | org.reactivestreams | 3 | 6 | 8 | 27 | 120 | 1231 | ["Publisher","Subscriber","Subscription"] |
 | javax.annotation | 2 | 2 | 2 | 2 | 120 | 1231 | ["Nonnull"] |
-| org.apache | 2 | 12 | 42 | 144 | 120 | 1231 | ["SchemaStore","Schema","SchemaStore$Cache","GenericRecord","InvalidNumberEncodingException","SchemaCompatibility$SchemaIncompatibilityType","SchemaNormalization","AvroRuntimeException","SchemaCompatibility$SchemaPairCompatibility"] |
+| org.apache | 2 | 12 | 42 | 144 | 120 | 1231 | ["SchemaStore","Schema","SchemaStore$Cache","InvalidAvroMagicException","SchemaNormalization","SchemaCompatibility$Incompatibility","SchemaCompatibility$SchemaCompatibilityResult","GenericData","SchemaCompatibility$SchemaPairCompatibility"] |
 | org.jetbrains | 2 | 3 | 3 | 4 | 120 | 1231 | ["NotNull"] |
 | org.junit | 2 | 2 | 9 | 30 | 120 | 1231 | ["ParameterResolutionException","BeforeEachCallback","AfterEachCallback","ParameterResolver","ExtensionContext$Store","ExtensionContext","ExtensionContext$Namespace","ParameterContext","Assertions"] |
-| tools.jackson | 2 | 9 | 24 | 84 | 120 | 1231 | ["CBORMapper","ObjectMapper","CBORMapper$Builder","JsonMapper$Builder","JsonMapper","JsonNodeType","ObjectNode","JsonNode","JacksonException"] |
+| tools.jackson | 2 | 9 | 24 | 84 | 120 | 1231 | ["CBORMapper","ObjectMapper","CBORMapper$Builder","JsonMapper$Builder","JsonMapper","JavaType","JacksonException","JsonNode","ObjectNode"] |
 | IdTypeParameterResolver | 1 | 1 | 1 | 1 | 120 | 1231 | ["IdTypeParameterResolver"] |
 | ScannedEntityCreator | 1 | 1 | 1 | 4 | 120 | 1231 | ["ScannedEntityCreator"] |
 | WrappedEventCriteriaBuilderMethod | 1 | 1 | 1 | 1 | 120 | 1231 | ["WrappedEventCriteriaBuilderMethod"] |
@@ -160,7 +160,7 @@ Second-level package names (e.g. `javax.xml` from `javax.xml.stream`) reveal **f
 | jakarta.validation | 1 | 2 | 5 | 16 | 120 | 1231 | ["ConstraintViolation","Validation","ValidatorFactory","Validator"] |
 | javax.cache | 1 | 2 | 12 | 48 | 120 | 1231 | ["CacheEntryListener","CacheEntryEvent","CacheEntryListenerException","CacheEntryCreatedListener","CacheEntryEventFilter","CacheEntryListenerConfiguration","CacheEntryRemovedListener","Factory","CacheEntryExpiredListener"] |
 | org.awaitility | 1 | 1 | 2 | 3 | 120 | 1231 | ["ConditionFactory","Awaitility"] |
-| org.ehcache | 1 | 3 | 10 | 45 | 120 | 1231 | ["EventType","CacheEventListener","EventOrdering","EventFiring","Ehcache","CacheRuntimeConfiguration","CacheEvent"] |
+| org.ehcache | 1 | 3 | 10 | 45 | 120 | 1231 | ["EventType","CacheEventListener","CacheEvent","EventOrdering","EventFiring","Ehcache","CacheRuntimeConfiguration"] |
 | org.testcontainers | 1 | 1 | 6 | 19 | 120 | 1231 | ["GenericContainer","HttpWaitStrategy","ContainerLaunchException","DockerImageName","MountableFile","Wait"] |
 | reactor.util | 1 | 2 | 2 | 4 | 120 | 1231 | ["Queues"] |
 
@@ -270,14 +270,14 @@ Artifacts ranked by number of internal packages with external dependencies.
 | axon-tracing-opentelemetry-5.0.3 | 5 | 16 | 6 | 320 | 26 | 85 | 6 | ["io.opentelemetry.context.propagation","io.opentelemetry.api.trace","jakarta.annotation","io.opentelemetry.context"] | ["TextMapSetter","TextMapPropagator","TextMapGetter","ContextPropagators","Tracer","SpanKind","Span","SpanBuilder","SpanContext"] |
 | axon-server-connector-5.0.3 | 72 | 113 | 23 | 156.94444444444443 | 242 | 1197 | 23 | ["io.axoniq.axonserver.grpc","jakarta.annotation","io.axoniq.axonserver.grpc.event.dcb","io.grpc"] | ["MetaDataValue$Builder","MetaDataValue","MetaDataValue$DataCase","ErrorMessage","SerializedObject","SerializedObject$Builder","ProcessingKey","ProcessingInstruction$Builder","ProcessingInstruction"] |
 | axon-spring-boot-autoconfigure-5.0.3 | 75 | 100 | 39 | 133.33333333333331 | 259 | 485 | 39 | ["org.springframework.boot.autoconfigure.condition","org.springframework.context.annotation","org.springframework.boot.autoconfigure","org.springframework.boot.context.properties"] | ["ConditionalOnProperty","ConditionalOnMissingBean","ConditionalOnBean","SearchStrategy","AnyNestedCondition","ConditionalOnClass","SpringBootCondition","ConditionOutcome","AllNestedConditions"] |
-| axon-metrics-micrometer-5.0.3 | 16 | 20 | 7 | 125 | 55 | 170 | 7 | ["io.micrometer.core.instrument","jakarta.annotation","org.springframework.boot.autoconfigure.condition","org.springframework.boot.autoconfigure"] | ["MeterRegistry","Tags","Tag","Clock","Timer","Timer$Builder","Counter","Gauge","Gauge$Builder"] |
-| axon-conversion-5.0.3 | 35 | 40 | 15 | 114.28571428571429 | 127 | 517 | 15 | ["jakarta.annotation","org.apache.avro","org.slf4j","org.apache.avro.message"] | ["Nullable","Nonnull","InvalidNumberEncodingException","SchemaCompatibility$SchemaIncompatibilityType","SchemaNormalization","AvroRuntimeException","SchemaCompatibility$SchemaPairCompatibility","InvalidAvroMagicException","SchemaCompatibility$SchemaCompatibilityResult"] |
+| axon-metrics-micrometer-5.0.3 | 16 | 20 | 7 | 125 | 55 | 170 | 7 | ["io.micrometer.core.instrument","jakarta.annotation","org.springframework.boot.autoconfigure","org.springframework.boot.autoconfigure.condition"] | ["MeterRegistry","Clock","Tag","Tags","Timer","Timer$Builder","Counter","Gauge","Gauge$Builder"] |
+| axon-conversion-5.0.3 | 35 | 40 | 15 | 114.28571428571429 | 127 | 517 | 15 | ["jakarta.annotation","org.apache.avro","org.slf4j","com.fasterxml.jackson.databind"] | ["Nonnull","Nullable","Schema","SchemaCompatibility$Incompatibility","AvroRuntimeException","InvalidAvroMagicException","SchemaNormalization","SchemaCompatibility$SchemaCompatibilityResult","SchemaCompatibility$SchemaPairCompatibility"] |
 | axon-test-5.0.3 | 78 | 32 | 12 | 41.02564102564103 | 105 | 496 | 12 | ["org.hamcrest","jakarta.annotation","org.junit.jupiter.api.extension","com.google.gson"] | ["Description","CoreMatchers","StringDescription","Matcher","BaseMatcher","TypeSafeMatcher","Nonnull","Nullable","ParameterResolutionException"] |
 | axon-eventsourcing-5.0.3 | 100 | 20 | 6 | 20 | 101 | 389 | 6 | ["jakarta.annotation","jakarta.persistence","org.slf4j","IdTypeParameterResolver"] | ["Nonnull","Nullable","EntityManager","TypedQuery","EntityExistsException","GeneratedValue","Column","Index","SequenceGenerator"] |
-| axon-common-5.0.3 | 156 | 29 | 11 | 18.58974358974359 | 116 | 560 | 11 | ["jakarta.annotation","org.slf4j","org.ehcache.event","javax.cache.event"] | ["Nonnull","Nullable","LoggerFactory","Logger","CacheEventListener","EventOrdering","EventFiring","EventType","CacheEvent"] |
+| axon-common-5.0.3 | 156 | 29 | 11 | 18.58974358974359 | 116 | 560 | 11 | ["jakarta.annotation","org.slf4j","javax.cache.event","org.ehcache.event"] | ["Nonnull","Nullable","LoggerFactory","Logger","CacheEntryListener","CacheEntryEvent","CacheEntryListenerException","CacheEntryCreatedListener","CacheEntryEventFilter"] |
 | axon-update-5.0.3 | 23 | 4 | 2 | 17.391304347826086 | 28 | 129 | 2 | ["jakarta.annotation","org.slf4j"] | ["Nullable","Nonnull","Logger","LoggerFactory"] |
 | axon-messaging-5.0.3 | 579 | 35 | 9 | 6.0449050086355784 | 633 | 3386 | 9 | ["jakarta.annotation","org.slf4j","com.fasterxml.jackson.annotation","jakarta.persistence"] | ["Nonnull","Nullable","Logger","LoggerFactory","JsonCreator","JsonProperty","JsonGetter","JsonTypeInfo","JsonTypeInfo$Id"] |
-| axon-modelling-5.0.3 | 92 | 4 | 2 | 4.3478260869565215 | 89 | 558 | 2 | ["jakarta.annotation","org.slf4j"] | ["Nonnull","Nullable","LoggerFactory","Logger"] |
+| axon-modelling-5.0.3 | 92 | 4 | 2 | 4.3478260869565215 | 89 | 558 | 2 | ["jakarta.annotation","org.slf4j"] | ["Nonnull","Nullable","Logger","LoggerFactory"] |
 
 ### 2.5 Aggregated External Package Usage per Artifact
 
@@ -287,9 +287,9 @@ Per-artifact: how many internal packages use external ones and their percentage.
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | axon-messaging-5.0.3 | 0 | 59 | 579 | 7 | 1 | 15 | 2 | 4 | 5.066228051190221 | 1.694915254237288 | 25.423728813559322 | 3.389830508474576 | 6.779661016949151 | 8.586827205407152 | 2 | 31 | 4 | 7.857142857142856 | 10.46308704332476 | 0.3454231433506045 | 5.354058721934369 | 0.690846286701209 | 1.3570194917345175 | 1.8070962078281105 | ["org.slf4j","reactor.core.publisher","org.reactivestreams","jakarta.persistence","com.fasterxml.jackson.annotation","reactor.util.concurrent","jakarta.validation"] | ["org.axonframework.messaging.commandhandling","org.axonframework.messaging.commandhandling.distributed","org.axonframework.messaging.commandhandling.interception","org.axonframework.messaging.eventhandling","org.axonframework.messaging.eventhandling.processing.streaming.token.store.inmemory","org.axonframework.messaging.eventhandling.processing.streaming.token.store.jdbc","org.axonframework.messaging.eventhandling.processing.streaming.token.store.jpa","org.axonframework.messaging.eventhandling.processing.streaming.pooled","org.axonframework.messaging.eventhandling.processing.streaming.segmenting"] | ["org.axonframework.messaging.commandhandling.SimpleCommandBus","org.axonframework.messaging.commandhandling.distributed.DistributedCommandBus","org.axonframework.messaging.commandhandling.distributed.DistributedCommandBus$DistributedHandler","org.axonframework.messaging.commandhandling.interception.CommandSequencingInterceptor","org.axonframework.messaging.eventhandling.EventSubscribers","org.axonframework.messaging.eventhandling.processing.streaming.token.store.inmemory.InMemoryTokenStore","org.axonframework.messaging.eventhandling.processing.streaming.token.store.jdbc.JdbcTokenStore","org.axonframework.messaging.eventhandling.processing.streaming.token.store.jpa.JpaTokenStore","org.axonframework.messaging.eventhandling.processing.streaming.pooled.Coordinator$CoordinationTask"] |
 | axon-server-connector-5.0.3 | 0 | 5 | 72 | 20 | 1 | 5 | 1 | 1.9 | 1.3337718577107003 | 20 | 100 | 20 | 38 | 26.675437154214006 | 1 | 18 | 3.5 | 5.2 | 4.8406176204456 | 1.3888888888888888 | 25 | 4.861111111111111 | 7.222222222222223 | 6.723080028396668 | ["io.axoniq.axonserver.grpc","io.axoniq.axonserver.connector","org.slf4j","com.google.protobuf","io.grpc","io.axoniq.axonserver.grpc.control","io.grpc.stub","io.axoniq.axonserver.connector.control","io.grpc.netty.shaded.io.grpc.netty"] | ["org.axonframework.axonserver.connector","org.axonframework.axonserver.connector.util","org.axonframework.axonserver.connector.query","org.axonframework.axonserver.connector.event","org.axonframework.axonserver.connector.command"] | ["org.axonframework.axonserver.connector.AxonServerException","org.axonframework.axonserver.connector.MetadataConverter$1","org.axonframework.axonserver.connector.ErrorCode","org.axonframework.axonserver.connector.InstructionAckSource","org.axonframework.axonserver.connector.ErrorCode$ExceptionBuilder","org.axonframework.axonserver.connector.MetadataConverter","org.axonframework.axonserver.connector.DefaultInstructionAckSource","org.axonframework.axonserver.connector.util.ProcessingInstructionUtils","org.axonframework.axonserver.connector.util.ExceptionConverter"] |
-| axon-common-5.0.3 | 0 | 15 | 156 | 10 | 1 | 4 | 1 | 1.2999999999999998 | 0.9486832980505138 | 6.666666666666667 | 26.666666666666668 | 6.666666666666667 | 8.666666666666668 | 6.324555320336759 | 1 | 8 | 1 | 2.3 | 2.263232692902394 | 0.6410256410256411 | 5.128205128205129 | 0.6410256410256411 | 1.4743589743589742 | 1.450790187757945 | ["org.slf4j","javax.cache.event","javax.cache.configuration","org.ehcache.event","javax.cache","org.ehcache.core","org.ehcache.config","com.fasterxml.jackson.databind","com.fasterxml.jackson.databind.node"] | ["org.axonframework.common","org.axonframework.common.property","org.axonframework.common.lifecycle","org.axonframework.common.configuration"] | ["org.axonframework.common.TypeReflectionUtils","org.axonframework.common.IdentifierFactory","org.axonframework.common.TypeReflectionUtils$VarMap","org.axonframework.common.property.AbstractMethodPropertyAccessStrategy","org.axonframework.common.lifecycle.ShutdownLatch","org.axonframework.common.configuration.DefaultAxonApplication","org.axonframework.common.configuration.DefaultAxonApplication$AxonConfigurationImpl","org.axonframework.common.configuration.DefaultComponentRegistry"] |
-| axon-conversion-5.0.3 | 0 | 5 | 35 | 14 | 1 | 4 | 1 | 1.2142857142857142 | 0.8017837257372732 | 20 | 80 | 20 | 24.28571428571429 | 16.035674514745462 | 1 | 6 | 2.5 | 3.0714285714285716 | 1.8999710813299528 | 2.857142857142857 | 17.142857142857142 | 7.142857142857142 | 8.775510204081632 | 5.428488803799865 | ["org.slf4j","tools.jackson.databind.node","tools.jackson.databind","tools.jackson.core","tools.jackson.databind.json","com.fasterxml.jackson.databind","com.fasterxml.jackson.databind.node","com.fasterxml.jackson.core","org.apache.avro.generic"] | ["org.axonframework.conversion","org.axonframework.conversion.jackson","org.axonframework.conversion.jackson2","org.axonframework.conversion.avro"] | ["org.axonframework.conversion.ChainingContentTypeConverter","org.axonframework.conversion.jackson.JacksonConverter","org.axonframework.conversion.jackson2.Jackson2Converter","org.axonframework.conversion.avro.AvroConverter"] |
-| axon-metrics-micrometer-5.0.3 | 0 | 3 | 16 | 2 | 2 | 3 | 2.5 | 2.5 | 0.7071067811865476 | 66.66666666666667 | 100 | 83.33333333333334 | 83.33333333333334 | 23.570226039551585 | 2 | 13 | 7.5 | 7.5 | 7.7781745930520225 | 12.5 | 81.25 | 46.875 | 46.875 | 48.613591206575144 | ["io.micrometer.core.instrument","io.micrometer.core.instrument.simple"] | ["org.axonframework.extension.metrics.micrometer","org.axonframework.extension.metrics.micrometer.springboot","org.axonframework.extension.metrics.micrometer.reservoir"] | ["org.axonframework.extension.metrics.micrometer.TagsUtil","org.axonframework.extension.metrics.micrometer.CapacityMonitor$1","org.axonframework.extension.metrics.micrometer.MessageCountingMonitor","org.axonframework.extension.metrics.micrometer.EventProcessorLatencyMonitor$Builder","org.axonframework.extension.metrics.micrometer.MessageTimerMonitor$1","org.axonframework.extension.metrics.micrometer.MessageTimerMonitor","org.axonframework.extension.metrics.micrometer.MetricsConfigurationEnhancer","org.axonframework.extension.metrics.micrometer.EventProcessorLatencyMonitor","org.axonframework.extension.metrics.micrometer.CapacityMonitor"] |
+| axon-common-5.0.3 | 0 | 15 | 156 | 10 | 1 | 4 | 1 | 1.2999999999999998 | 0.9486832980505138 | 6.666666666666667 | 26.666666666666668 | 6.666666666666667 | 8.666666666666668 | 6.324555320336759 | 1 | 8 | 1 | 2.3 | 2.263232692902394 | 0.6410256410256411 | 5.128205128205129 | 0.6410256410256411 | 1.4743589743589742 | 1.450790187757945 | ["org.slf4j","javax.cache.event","javax.cache.configuration","javax.cache","org.ehcache.event","org.ehcache.core","org.ehcache.config","com.fasterxml.jackson.databind","com.fasterxml.jackson.databind.node"] | ["org.axonframework.common","org.axonframework.common.property","org.axonframework.common.lifecycle","org.axonframework.common.configuration"] | ["org.axonframework.common.TypeReflectionUtils$VarMap","org.axonframework.common.TypeReflectionUtils","org.axonframework.common.IdentifierFactory","org.axonframework.common.property.AbstractMethodPropertyAccessStrategy","org.axonframework.common.lifecycle.ShutdownLatch","org.axonframework.common.configuration.DefaultAxonApplication$AxonConfigurationImpl","org.axonframework.common.configuration.DefaultAxonApplication","org.axonframework.common.configuration.DefaultComponentRegistry"] |
+| axon-conversion-5.0.3 | 0 | 5 | 35 | 14 | 1 | 4 | 1 | 1.2142857142857142 | 0.8017837257372732 | 20 | 80 | 20 | 24.28571428571429 | 16.035674514745462 | 1 | 6 | 2.5 | 3.0714285714285716 | 1.8999710813299528 | 2.857142857142857 | 17.142857142857142 | 7.142857142857142 | 8.775510204081632 | 5.428488803799865 | ["org.slf4j","tools.jackson.databind","tools.jackson.core","tools.jackson.databind.json","tools.jackson.databind.node","com.fasterxml.jackson.databind","com.fasterxml.jackson.core","com.fasterxml.jackson.databind.node","org.apache.avro.message"] | ["org.axonframework.conversion","org.axonframework.conversion.jackson","org.axonframework.conversion.jackson2","org.axonframework.conversion.avro"] | ["org.axonframework.conversion.ChainingContentTypeConverter","org.axonframework.conversion.jackson.JacksonConverter","org.axonframework.conversion.jackson2.Jackson2Converter","org.axonframework.conversion.avro.AvroConverter"] |
+| axon-metrics-micrometer-5.0.3 | 0 | 3 | 16 | 2 | 2 | 3 | 2.5 | 2.5 | 0.7071067811865476 | 66.66666666666667 | 100 | 83.33333333333334 | 83.33333333333334 | 23.570226039551585 | 2 | 13 | 7.5 | 7.5 | 7.7781745930520225 | 12.5 | 81.25 | 46.875 | 46.875 | 48.613591206575144 | ["io.micrometer.core.instrument","io.micrometer.core.instrument.simple"] | ["org.axonframework.extension.metrics.micrometer","org.axonframework.extension.metrics.micrometer.springboot","org.axonframework.extension.metrics.micrometer.reservoir"] | ["org.axonframework.extension.metrics.micrometer.MessageTimerMonitor","org.axonframework.extension.metrics.micrometer.CapacityMonitor$1","org.axonframework.extension.metrics.micrometer.EventProcessorLatencyMonitor$Builder","org.axonframework.extension.metrics.micrometer.MessageCountingMonitor$1","org.axonframework.extension.metrics.micrometer.CapacityMonitor","org.axonframework.extension.metrics.micrometer.TagsUtil","org.axonframework.extension.metrics.micrometer.EventProcessorLatencyMonitor","org.axonframework.extension.metrics.micrometer.MessageTimerMonitor$Builder","org.axonframework.extension.metrics.micrometer.MetricsConfigurationEnhancer"] |
 | axon-spring-boot-autoconfigure-5.0.3 | 0 | 7 | 75 | 35 | 1 | 3 | 1 | 1.2857142857142856 | 0.5185629788417316 | 14.285714285714286 | 42.85714285714286 | 14.285714285714286 | 18.367346938775512 | 7.408042554881878 | 1 | 8 | 2 | 2.285714285714287 | 1.7247579296719837 | 1.3333333333333333 | 10.666666666666666 | 2.6666666666666665 | 3.047619047619048 | 2.299677239562645 | ["org.springframework.boot.actuate.health","org.axonframework.extension.spring.config","org.springframework.core.env","org.slf4j","jakarta.persistence","org.springframework.boot.autoconfigure.condition","org.springframework.context.annotation","org.springframework.core.type","org.springframework.boot.autoconfigure"] | ["org.axonframework.extension.springboot.actuator","org.axonframework.extension.springboot.actuator.axonserver","org.axonframework.extension.springboot.autoconfig"] | ["org.axonframework.extension.springboot.actuator.HealthStatus","org.axonframework.extension.springboot.actuator.axonserver.AxonServerStatusAggregator","org.axonframework.extension.springboot.actuator.axonserver.AxonServerHealthIndicator","org.axonframework.extension.springboot.autoconfig.AxonServerActuatorAutoConfiguration"] |
 | axon-test-5.0.3 | 0 | 6 | 78 | 10 | 1 | 3 | 1 | 1.2000000000000002 | 0.6324555320336759 | 16.666666666666668 | 50 | 16.666666666666668 | 20 | 10.540925533894596 | 1 | 22 | 1 | 3.1 | 6.640783086353596 | 1.2820512820512822 | 28.205128205128208 | 1.2820512820512822 | 3.9743589743589745 | 8.5138244696841 | ["org.hamcrest","org.awaitility.core","org.awaitility","org.junit.jupiter.api.extension","com.google.gson","org.junit.jupiter.api","org.testcontainers.containers","org.testcontainers.containers.wait.strategy","org.testcontainers.utility"] | ["org.axonframework.test.fixture","org.axonframework.test.util","org.axonframework.test.matchers"] | ["org.axonframework.test.fixture.CommandValidator","org.axonframework.test.fixture.AxonTestThenCommand","org.axonframework.test.fixture.AxonTestThenEvent","org.axonframework.test.fixture.AxonTestThenMessage","org.axonframework.test.fixture.Reporter","org.axonframework.test.util.DescriptionUtils","org.axonframework.test.matchers.ExactClassMatcher","org.axonframework.test.matchers.Matchers","org.axonframework.test.matchers.ListMatcher"] |
 | axon-update-5.0.3 | 0 | 5 | 23 | 1 | 3 | 3 | 3 | 3 | 0 | 60 | 60 | 60 | 60 | 0 | 7 | 7 | 7 | 7 | 0 | 30.43478260869565 | 30.43478260869565 | 30.43478260869565 | 30.43478260869565 | 0 | ["org.slf4j"] | ["org.axonframework.update","org.axonframework.update.detection","org.axonframework.update.configuration"] | ["org.axonframework.update.UpdateCheckerConfigurationEnhancer","org.axonframework.update.UpdateCheckerHttpClient","org.axonframework.update.UpdateChecker","org.axonframework.update.LoggingUpdateCheckerReporter","org.axonframework.update.detection.AxonVersionDetector","org.axonframework.update.detection.MachineId","org.axonframework.update.configuration.PropertyFileUsagePropertyProvider"] |
@@ -305,6 +305,8 @@ Per-artifact: how many internal packages use external ones and their percentage.
 ![Java_Top_external_packages_by_types_others_drilldown](./Java_Top_external_packages_by_types_others_drilldown.svg)
 
 ![Java_Top_external_packages_by_packages_above_threshold](./Java_Top_external_packages_by_packages_above_threshold.svg)
+
+![Java_Top_external_packages_by_packages_others_drilldown](./Java_Top_external_packages_by_packages_others_drilldown.svg)
 
 ![Java_Top_second_level_packages_by_types_above_threshold](./Java_Top_second_level_packages_by_types_above_threshold.svg)
 
@@ -368,40 +370,40 @@ Java dependencies declared in Maven `pom.xml` files.
 
 | pom.artifactId | pom.name | scope | dependency.optional | dependentArtifact.group | dependentArtifact.name |
 | --- | --- | --- | --- | --- | --- |
-| axon-common | Axon Framework - Common | default | true | io.projectreactor | reactor-core |
-| axon-common | Axon Framework - Common | test | false | org.springframework | spring-context-support |
-| axon-common | Axon Framework - Common | default | false | com.fasterxml.jackson.core | jackson-databind |
-| axon-common | Axon Framework - Common | default | false | com.fasterxml.jackson.core | jackson-core |
-| axon-common | Axon Framework - Common | default | true | javax.cache | cache-api |
-| axon-common | Axon Framework - Common | default | true | jakarta.validation | jakarta.validation-api |
-| axon-common | Axon Framework - Common | test | false | org.springframework | spring-tx |
-| axon-common | Axon Framework - Common | test | false | com.tngtech.archunit | archunit-junit5 |
-| axon-common | Axon Framework - Common | default | false | org.slf4j | slf4j-api |
-| axon-common | Axon Framework - Common | default | true | org.ehcache | ehcache |
-| axon-common | Axon Framework - Common | default | true | com.fasterxml.jackson.datatype | jackson-datatype-jsr310 |
-| axon-common | Axon Framework - Common | provided | false | com.google.code.findbugs | jsr305 |
-| axon-common | Axon Framework - Common | test | false | org.glassfish.expressly | expressly |
-| axon-common | Axon Framework - Common | default | true | jakarta.persistence | jakarta.persistence-api |
-| axon-common | Axon Framework - Common | test | false | org.springframework | spring-orm |
-| axon-common | Axon Framework - Common | test | false | io.projectreactor | reactor-test |
-| axon-common | Axon Framework - Common | test | false | org.springframework.security | spring-security-config |
 | axon-common | Axon Framework - Common | default | false | org.reactivestreams | reactive-streams |
-| axon-common | Axon Framework - Common | test | false | org.springframework | spring-test |
-| axon-common | Axon Framework - Common | default | true | org.hibernate.orm | hibernate-core |
-| axon-common | Axon Framework - Common | default | true | jakarta.annotation | jakarta.annotation-api |
 | axon-common | Axon Framework - Common | test | false | org.hibernate.validator | hibernate-validator |
-| axon-conversion | Axon Framework - Conversion | default | true | org.apache.avro | avro |
+| axon-common | Axon Framework - Common | default | false | com.fasterxml.jackson.core | jackson-core |
+| axon-common | Axon Framework - Common | default | true | jakarta.persistence | jakarta.persistence-api |
+| axon-common | Axon Framework - Common | default | true | javax.cache | cache-api |
+| axon-common | Axon Framework - Common | default | true | jakarta.annotation | jakarta.annotation-api |
+| axon-common | Axon Framework - Common | default | false | com.fasterxml.jackson.core | jackson-databind |
+| axon-common | Axon Framework - Common | default | true | io.projectreactor | reactor-core |
+| axon-common | Axon Framework - Common | test | false | org.springframework.security | spring-security-config |
+| axon-common | Axon Framework - Common | default | true | org.ehcache | ehcache |
+| axon-common | Axon Framework - Common | provided | false | com.google.code.findbugs | jsr305 |
+| axon-common | Axon Framework - Common | default | true | com.fasterxml.jackson.datatype | jackson-datatype-jsr310 |
+| axon-common | Axon Framework - Common | default | false | org.slf4j | slf4j-api |
+| axon-common | Axon Framework - Common | test | false | org.springframework | spring-context-support |
+| axon-common | Axon Framework - Common | default | true | org.hibernate.orm | hibernate-core |
+| axon-common | Axon Framework - Common | test | false | org.springframework | spring-test |
+| axon-common | Axon Framework - Common | test | false | com.tngtech.archunit | archunit-junit5 |
+| axon-common | Axon Framework - Common | test | false | org.springframework | spring-orm |
+| axon-common | Axon Framework - Common | test | false | org.glassfish.expressly | expressly |
+| axon-common | Axon Framework - Common | test | false | org.springframework | spring-tx |
+| axon-common | Axon Framework - Common | default | true | jakarta.validation | jakarta.validation-api |
+| axon-common | Axon Framework - Common | test | false | io.projectreactor | reactor-test |
 | axon-conversion | Axon Framework - Conversion | test | false | org.axonframework | axon-common |
-| axon-conversion | Axon Framework - Conversion | default | false | com.fasterxml.jackson.core | jackson-databind |
-| axon-conversion | Axon Framework - Conversion | default | false | tools.jackson.core | jackson-databind |
-| axon-conversion | Axon Framework - Conversion | test | false | com.fasterxml.jackson.dataformat | jackson-dataformat-cbor |
-| axon-conversion | Axon Framework - Conversion | default | false | tools.jackson.core | jackson-core |
-| axon-conversion | Axon Framework - Conversion | test | false | tools.jackson.dataformat | jackson-dataformat-cbor |
 | axon-conversion | Axon Framework - Conversion | test | false | com.fasterxml.jackson.module | jackson-module-parameter-names |
-| axon-conversion | Axon Framework - Conversion | default | false | org.axonframework | axon-common |
-| axon-conversion | Axon Framework - Conversion | default | true | com.fasterxml.jackson.datatype | jackson-datatype-jsr310 |
-| axon-conversion | Axon Framework - Conversion | default | false | com.fasterxml.jackson.core | jackson-core |
+| axon-conversion | Axon Framework - Conversion | default | false | com.fasterxml.jackson.core | jackson-databind |
 | axon-conversion | Axon Framework - Conversion | default | true | jakarta.annotation | jakarta.annotation-api |
+| axon-conversion | Axon Framework - Conversion | default | true | com.fasterxml.jackson.datatype | jackson-datatype-jsr310 |
+| axon-conversion | Axon Framework - Conversion | default | false | tools.jackson.core | jackson-core |
+| axon-conversion | Axon Framework - Conversion | default | true | org.apache.avro | avro |
+| axon-conversion | Axon Framework - Conversion | test | false | com.fasterxml.jackson.dataformat | jackson-dataformat-cbor |
+| axon-conversion | Axon Framework - Conversion | default | false | org.axonframework | axon-common |
+| axon-conversion | Axon Framework - Conversion | default | false | tools.jackson.core | jackson-databind |
+| axon-conversion | Axon Framework - Conversion | test | false | tools.jackson.dataformat | jackson-dataformat-cbor |
+| axon-conversion | Axon Framework - Conversion | default | false | com.fasterxml.jackson.core | jackson-core |
 | axon-eventsourcing | Axon Framework - Event Sourcing | test | false | com.mysql | mysql-connector-j |
 | axon-eventsourcing | Axon Framework - Event Sourcing | test | false | org.springframework | spring-context-support |
 | axon-eventsourcing | Axon Framework - Event Sourcing | default | false | org.axonframework | axon-messaging |
@@ -466,38 +468,38 @@ Java dependencies declared in Maven `pom.xml` files.
 | axon-messaging | Axon Framework - Messaging | default | true | tools.jackson.core | jackson-databind |
 | axon-messaging | Axon Framework - Messaging | test | false | io.projectreactor | reactor-test |
 | axon-messaging | Axon Framework - Messaging | default | true | com.fasterxml.jackson.datatype | jackson-datatype-jsr310 |
-| axon-metrics-micrometer | Axon Extension - Metrics - Micrometer | provided | false | com.google.code.findbugs | jsr305 |
 | axon-metrics-micrometer | Axon Extension - Metrics - Micrometer | default | true | org.axonframework.extensions.spring | axon-spring-boot-autoconfigure |
-| axon-metrics-micrometer | Axon Extension - Metrics - Micrometer | default | false | io.micrometer | micrometer-core |
 | axon-metrics-micrometer | Axon Extension - Metrics - Micrometer | test | false | org.springframework.boot | spring-boot-starter-test |
 | axon-metrics-micrometer | Axon Extension - Metrics - Micrometer | default | true | org.springframework.boot | spring-boot-starter |
-| axon-metrics-micrometer | Axon Extension - Metrics - Micrometer | test | false | org.axonframework | axon-common |
+| axon-metrics-micrometer | Axon Extension - Metrics - Micrometer | provided | false | com.google.code.findbugs | jsr305 |
 | axon-metrics-micrometer | Axon Extension - Metrics - Micrometer | default | false | org.axonframework | axon-messaging |
-| axon-metrics-micrometer | Axon Extension - Metrics - Micrometer | test | false | org.axonframework | axon-messaging |
+| axon-metrics-micrometer | Axon Extension - Metrics - Micrometer | test | false | org.axonframework | axon-common |
 | axon-metrics-micrometer | Axon Extension - Metrics - Micrometer | default | false | jakarta.annotation | jakarta.annotation-api |
+| axon-metrics-micrometer | Axon Extension - Metrics - Micrometer | test | false | org.axonframework | axon-messaging |
+| axon-metrics-micrometer | Axon Extension - Metrics - Micrometer | default | false | io.micrometer | micrometer-core |
 | axon-modelling | Axon Framework - Modelling | test | false | org.springframework | spring-context-support |
-| axon-modelling | Axon Framework - Modelling | test | false | org.springframework | spring-tx |
-| axon-modelling | Axon Framework - Modelling | default | false | org.slf4j | slf4j-api |
-| axon-modelling | Axon Framework - Modelling | test | false | org.springframework.security | spring-security-config |
-| axon-modelling | Axon Framework - Modelling | test | false | org.springframework | spring-orm |
-| axon-modelling | Axon Framework - Modelling | test | false | org.axonframework | axon-common |
-| axon-modelling | Axon Framework - Modelling | test | false | org.springframework | spring-test |
-| axon-modelling | Axon Framework - Modelling | test | true | com.fasterxml.jackson.datatype | jackson-datatype-jsr310 |
-| axon-modelling | Axon Framework - Modelling | test | false | org.glassfish.expressly | expressly |
 | axon-modelling | Axon Framework - Modelling | default | false | org.axonframework | axon-messaging |
-| axon-modelling | Axon Framework - Modelling | test | false | org.hibernate.validator | hibernate-validator |
-| axon-modelling | Axon Framework - Modelling | default | true | org.quartz-scheduler | quartz |
 | axon-modelling | Axon Framework - Modelling | provided | false | com.google.code.findbugs | jsr305 |
+| axon-modelling | Axon Framework - Modelling | test | false | org.hibernate.validator | hibernate-validator |
+| axon-modelling | Axon Framework - Modelling | test | false | org.springframework | spring-orm |
+| axon-modelling | Axon Framework - Modelling | test | false | org.hibernate.orm | hibernate-core |
+| axon-modelling | Axon Framework - Modelling | default | false | jakarta.annotation | jakarta.annotation-api |
+| axon-modelling | Axon Framework - Modelling | test | false | org.glassfish.expressly | expressly |
+| axon-modelling | Axon Framework - Modelling | default | true | com.fasterxml.jackson.core | jackson-databind |
+| axon-modelling | Axon Framework - Modelling | test | false | org.axonframework | axon-common |
+| axon-modelling | Axon Framework - Modelling | test | false | org.springframework.security | spring-security-config |
+| axon-modelling | Axon Framework - Modelling | test | false | org.axonframework | axon-messaging |
+| axon-modelling | Axon Framework - Modelling | default | true | org.quartz-scheduler | quartz |
 | axon-modelling | Axon Framework - Modelling | test | false | com.mysql | mysql-connector-j |
 | axon-modelling | Axon Framework - Modelling | test | false | org.postgresql | postgresql |
 | axon-modelling | Axon Framework - Modelling | default | true | jakarta.persistence | jakarta.persistence-api |
 | axon-modelling | Axon Framework - Modelling | default | true | org.ehcache | ehcache |
-| axon-modelling | Axon Framework - Modelling | default | false | jakarta.annotation | jakarta.annotation-api |
-| axon-modelling | Axon Framework - Modelling | test | false | org.axonframework | axon-messaging |
-| axon-modelling | Axon Framework - Modelling | test | false | org.hibernate.orm | hibernate-core |
-| axon-modelling | Axon Framework - Modelling | default | true | com.fasterxml.jackson.core | jackson-databind |
-| axon-modelling | Axon Framework - Modelling | default | true | javax.cache | cache-api |
 | axon-modelling | Axon Framework - Modelling | test | false | org.hsqldb | hsqldb |
+| axon-modelling | Axon Framework - Modelling | test | true | com.fasterxml.jackson.datatype | jackson-datatype-jsr310 |
+| axon-modelling | Axon Framework - Modelling | test | false | org.springframework | spring-test |
+| axon-modelling | Axon Framework - Modelling | default | false | org.slf4j | slf4j-api |
+| axon-modelling | Axon Framework - Modelling | default | true | javax.cache | cache-api |
+| axon-modelling | Axon Framework - Modelling | test | false | org.springframework | spring-tx |
 | axon-server-connector | Axon Framework - Axon Server Connector | test | false | com.fasterxml.jackson.core | jackson-databind |
 | axon-server-connector | Axon Framework - Axon Server Connector | default | true | org.springframework | spring-context |
 | axon-server-connector | Axon Framework - Axon Server Connector | default | true | org.springframework.boot | spring-boot-configuration-processor |

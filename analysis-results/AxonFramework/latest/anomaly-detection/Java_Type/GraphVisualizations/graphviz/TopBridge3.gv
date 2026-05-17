@@ -12,24 +12,16 @@ strict digraph TopBridge3 {
     central [fontsize = 16;];
     central [color = 7; fillcolor = 5; penwidth = 3;];
 
-	graph   [label="Top Rank #3 Java Type Bridge\norg.axonframework.test.fixture.AxonTestPhase$When$Nothing\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
-	central [label="🌉 bridge #3\nAxonTestPhase$When$Nothing"];
-	"AxonTestPhase$When_29" [label = "AxonTestPhase$\nWhen"; ]; "AxonTestPhase$When_29" -> central [label=2; weight=2; penwidth=0.4];
-	"AxonTestWhen_78" [label = "AxonTestWhen"; ]; "AxonTestWhen_78" -> central [label=2; weight=2; penwidth=0.4];
-	"AxonTestWhen$Nothing_2072" [label = "AxonTestWhen$\nNothing"; ]; "AxonTestWhen$Nothing_2072" -> central [label=2; weight=2; penwidth=0.4];
-	"AxonTestPhase_2066" [label = "AxonTestPhase"; ]; "AxonTestPhase_2066" -> central [label=1; weight=1; penwidth=0.4];
-	"AxonTestPhase$Then$Nothing_26" [label = "AxonTestPhase$\nThen$\nNothing"; color = 5; fillcolor = 1; ]; central -> "AxonTestPhase$Then$Nothing_26" [label=2; weight=2; penwidth=0.4; color = 5];
-	"AxonTestPhase$Then_25" [label = "AxonTestPhase$\nThen"; color = 5; fillcolor = 1; ]; central -> "AxonTestPhase$Then_25" [label=1; weight=1; penwidth=0.4; color = 5];
-	"AxonTestPhase$When_29" [label = "AxonTestPhase$\nWhen"; color = 5; fillcolor = 1; ]; central -> "AxonTestPhase$When_29" [label=1; weight=1; penwidth=0.4; color = 5];
-	"AxonTestWhen$Nothing_2072" -> "AxonTestWhen_78" [label=6; weight=6; penwidth=0.3; color = 3]
-	"AxonTestWhen_78" -> "AxonTestWhen$Nothing_2072" [label=3; weight=3; penwidth=0.3; color = 3]
-	"AxonTestWhen_78" -> "AxonTestPhase$When_29" [label=2; weight=2; penwidth=0.3; color = 3]
-	"AxonTestWhen$Nothing_2072" -> "AxonTestPhase$Then$Nothing_26" [label=2; weight=2; penwidth=0.3; color = 3]
-	"AxonTestPhase_2066" -> "AxonTestPhase$Then_25" [label=1; weight=1; penwidth=0.3; color = 3]
-	"AxonTestPhase_2066" -> "AxonTestPhase$Then$Nothing_26" [label=1; weight=1; penwidth=0.3; color = 3]
-	"AxonTestPhase_2066" -> "AxonTestPhase$When_29" [label=1; weight=1; penwidth=0.3; color = 3]
-	"AxonTestPhase$Then_25" -> "AxonTestPhase$Then$Nothing_26" [label=1; weight=1; penwidth=0.3; color = 3]
-	"AxonTestPhase$Then$Nothing_26" -> "AxonTestPhase$Then_25" [label=1; weight=1; penwidth=0.3; color = 3]
-	"AxonTestWhen$Nothing_2072" -> "AxonTestPhase$When_29" [label=1; weight=1; penwidth=0.3; color = 3]
-	"AxonTestWhen$Nothing_2072" -> "AxonTestPhase$Then_25" [label=1; weight=1; penwidth=0.3; color = 3]
+	graph   [label="Top Rank #3 Java Type Bridge\norg.axonframework.common.lock.Lock\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
+	central [label="🌉 bridge #3\nLock"];
+	"NoOpLock_43440" [label = "NoOpLock"; ]; "NoOpLock_43440" -> central [label=2; weight=2; penwidth=0.4];
+	"LockFactory_43272" [label = "LockFactory"; ]; "LockFactory_43272" -> central [label=1; weight=1; penwidth=0.4];
+	"NullLockFactory_43183" [label = "NullLockFactory"; ]; "NullLockFactory_43183" -> central [label=1; weight=1; penwidth=0.4];
+	"PessimisticLockFactory_43443" [label = "PessimisticLockFactory"; ]; "PessimisticLockFactory_43443" -> central [label=1; weight=1; penwidth=0.4];
+	"PessimisticLockFactory$DisposableLock_43442" [label = "PessimisticLockFactory$\nDisposableLock"; ]; "PessimisticLockFactory$DisposableLock_43442" -> central [label=1; weight=1; penwidth=0.4];
+	"PessimisticLockFactory_43443" -> "PessimisticLockFactory$DisposableLock_43442" [label=12; weight=12; penwidth=0.3; color = 3]
+	"PessimisticLockFactory$DisposableLock_43442" -> "PessimisticLockFactory_43443" [label=8; weight=8; penwidth=0.3; color = 3]
+	"NullLockFactory_43183" -> "NoOpLock_43440" [label=1; weight=1; penwidth=0.3; color = 3]
+	"NullLockFactory_43183" -> "LockFactory_43272" [label=1; weight=1; penwidth=0.3; color = 3]
+	"PessimisticLockFactory_43443" -> "LockFactory_43272" [label=1; weight=1; penwidth=0.3; color = 3]
 }
