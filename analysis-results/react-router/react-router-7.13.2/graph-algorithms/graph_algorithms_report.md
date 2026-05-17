@@ -65,7 +65,7 @@ High PageRank = depended on by many important nodes. High betweenness = bridge b
 
 | nodeLabels | nodeName | betweennessScore |
 | --- | --- | --- |
-| ["TS","Local","Module"] | ./index.ts | 1163.1666666666667 |
+| ["TS","Local","Module"] | ./index.ts | 1163.1666666666665 |
 | ["TS","Local","Module"] | ./lib/server-runtime/server.ts | 554 |
 | ["TS","Local","Module"] | ./dom-export.ts | 372.33333333333337 |
 | ["TS","Local","Module"] | ./index-react-server.ts | 368.33333333333337 |

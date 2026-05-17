@@ -24,8 +24,8 @@ strict digraph TopAuthority1 {
 	"routes_15113"  [shape = "circle"; height=2; label = "routes\n(48.27%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "routes_15113" [label=3129; weight=3129; penwidth=2.6; color = 5];
 	"generate_15130" -> "config_15123" [label=196; weight=196; penwidth=0.3; color = 3]
 	"virtual-route-config_15165" -> "routes_15113" [label=112; weight=112; penwidth=0.3; color = 3]
-	"plugin_15147" -> "resolve-relative-route-file-path_15151" [label=35; weight=35; penwidth=0.3; color = 3]
 	"plugin_15147" -> "styles_15154" [label=35; weight=35; penwidth=0.3; color = 3]
+	"plugin_15147" -> "resolve-relative-route-file-path_15151" [label=35; weight=35; penwidth=0.3; color = 3]
 	"plugin_15147" -> "config_15123" [label=26; weight=26; penwidth=0.3; color = 3]
 	"plugin_15163" -> "config_15123" [label=14; weight=14; penwidth=0.3; color = 3]
 	"plugin_15163" -> "virtual-route-config_15165" [label=7; weight=7; penwidth=0.3; color = 3]
