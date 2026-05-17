@@ -60,8 +60,8 @@ strict digraph TopBridge3 {
 	"dom-export_98341" -> "react-router_98344" [label=1; weight=1; penwidth=0.3; color = 3]
 	"headers_98384" -> "utils_98369" [label=1; weight=1; penwidth=0.3; color = 3]
 	"react-router_98344" -> "dom-export_98341" [label=1; weight=1; penwidth=0.3; color = 3]
-	"react-router_98343" -> "dom-export_98341" [label=1; weight=1; penwidth=0.3; color = 3]
 	"react-router_98343" -> "router_98368" [label=1; weight=1; penwidth=0.3; color = 3]
-	"urls_98393" -> "react-router_98344" [label=1; weight=1; penwidth=0.3; color = 3]
+	"react-router_98343" -> "dom-export_98341" [label=1; weight=1; penwidth=0.3; color = 3]
 	"urls_98393" -> "history_98364" [label=1; weight=1; penwidth=0.3; color = 3]
+	"urls_98393" -> "react-router_98344" [label=1; weight=1; penwidth=0.3; color = 3]
 }

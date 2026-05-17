@@ -28,8 +28,8 @@ strict digraph TypeScriptModuleBuildLevels {
 	"react-router-7.13.2\nprompts-multi-select\n(level 2/5)" -> "react-router-7.13.2\nprompts-select\n(level 3/5)" [label = 650; penwidth = 1.09; ];
 	"react-router-7.13.2\ncreate-react-router\n(level 0/5)" -> "react-router-7.13.2\ncopy-template\n(level 1/5)" [label = 650; penwidth = 1.09; ];
 	"react-router-7.13.2\nrun\n(level 0/5)" -> "react-router-7.13.2\ncommands\n(level 1/5)" [label = 546; penwidth = 1.07; ];
-	"react-router-7.13.2\ncommands\n(level 1/5)" -> "react-router-7.13.2\ndev\n(level 2/5)" [label = 476; penwidth = 1.06; ];
 	"react-router-7.13.2\ncommands\n(level 1/5)" -> "react-router-7.13.2\nbuild\n(level 2/5)" [label = 476; penwidth = 1.06; ];
+	"react-router-7.13.2\ncommands\n(level 1/5)" -> "react-router-7.13.2\ndev\n(level 2/5)" [label = 476; penwidth = 1.06; ];
 	"react-router-7.13.2\ncommands\n(level 1/5)" -> "react-router-7.13.2\nprofiler\n(level 3/5)" [label = 364; penwidth = 1.05; ];
 	"react-router-7.13.2\nplugin\n(level 0/5)" -> "react-router-7.13.2\nvirtual-route-modules\n(level 1/5)" [label = 364; penwidth = 1.05; ];
 	"react-router-7.13.2\ndefineRoutes\n(level 0/5)" -> "react-router-7.13.2\nmanifest\n(level 1/5)" [label = 360; penwidth = 1.05; ];

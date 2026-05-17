@@ -1,7 +1,7 @@
 ---
 title: "Node Embeddings Report"
-generated: "2026-05-16"
-model_version: "v4.0.0"
+generated: "2026-05-17"
+model_version: "v4.0.1"
 dataset: "react-router-7.13.2"
 authors: ["JohT/code-graph-analysis-pipeline"]
 ---

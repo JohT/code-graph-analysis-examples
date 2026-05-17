@@ -1,6 +1,6 @@
 "fileDistanceAsFewestChangeDirectoryCommands","numberOfDependencies","numberOfDependencyUsers","numberOfDependencyProviders","examples","Source Cypher File: domains/internal-dependencies/queries/internal-dependencies/Set_file_distance_as_shortest_contains_path_for_dependencies.cypher"
 0,149,68,86,"./index.ts uses ./copy-template.ts,./index.ts uses ./loading-indicator.ts,./index.ts uses ./prompt.ts,./prompt.ts uses ./prompts-confirm.ts",""
 3,39,22,30,"./index.ts uses ./sessions/arcTableSessionStorage.ts,./index.ts uses ./sessions/fileStorage.ts,./vite/plugin.ts uses ./config.ts,./config/config.ts uses ./config.ts",""
-4,121,43,40,"./vite/rsc/virtual-route-config.ts uses ./routes.ts,./config/config.ts uses ./cli/detectPackageManager.ts,./vite/optimize-deps-entries.ts uses ./config/config.ts,./typegen/context.ts uses ./config/config.ts",""
+4,121,43,40,"./vite/rsc/virtual-route-config.ts uses ./routes.ts,./config/config.ts uses ./cli/detectPackageManager.ts,./typegen/context.ts uses ./config/config.ts,./vite/build.ts uses ./config/config.ts",""
 5,50,23,18,"./vite/rsc/plugin.ts uses ./config/config.ts,./vite/rsc/plugin.ts uses ./config/routes.ts,./vite/rsc/virtual-route-config.ts uses ./config/routes.ts,./vite/rsc/plugin.ts uses ./typegen/index.ts",""
 6,1,1,1,"./lib/server-runtime/single-fetch.ts uses ./vendor/turbo-stream-v2/turbo-stream.ts",""
