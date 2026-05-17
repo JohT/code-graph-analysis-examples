@@ -15,15 +15,15 @@ strict digraph TopOutlier4 {
 	graph   [label="Top Rank #4 Java Package Outlier\norg.axonframework.messaging.eventhandling.processing.subscribing\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: cluster probability\nlarge circle: < 25% percentile of cluster probability\nthick outline: > 80% percentile of distance to cluster center\n\n"];
 	central [label="🧩 outlier #4\nsubscribing"];
 	"configuration_4090"  [label = "configuration\n(100.0%)"; penwidth = 5; ]; "configuration_4090" -> central [label=9; weight=9; penwidth=0.6];
-	"event_35414"  [label = "event\n(92.44%)"; penwidth = 2; ]; "event_35414" -> central [label=5; weight=5; penwidth=0.5];
+	"event_35414"  [label = "event\n(93.81%)"; penwidth = 2; ]; "event_35414" -> central [label=5; weight=5; penwidth=0.5];
 	"configuration_4090"  [label = "configuration\n(100.0%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "configuration_4090" [label=28; weight=28; penwidth=0.9; color = 5];
 	"configuration_40444"  [shape = "circle"; height=1.8; label = "configuration\n(0.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "configuration_40444" [label=18; weight=18; penwidth=0.7; color = 5];
 	"common_40431"  [label = "common\n(100.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "common_40431" [label=9; weight=9; penwidth=0.6; color = 5];
 	"processing_4077"  [label = "processing\n(100.0%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "processing_4077" [label=9; weight=9; penwidth=0.6; color = 5];
 	"core_4099"  [label = "core\n(100.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "core_4099" [label=6; weight=6; penwidth=0.5; color = 5];
 	"eventhandling_4070"  [label = "eventhandling\n(100.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "eventhandling_4070" [label=6; weight=6; penwidth=0.5; color = 5];
-	"annotation_40433"  [shape = "circle"; height=1.8; label = "annotation\n(46.37%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "annotation_40433" [label=4; weight=4; penwidth=0.5; color = 5];
-	"unitofwork_4108"  [label = "unitofwork\n(100.0%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "unitofwork_4108" [label=4; weight=4; penwidth=0.5; color = 5];
+	"annotation_40433"  [shape = "circle"; height=1.8; label = "annotation\n(49.17%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "annotation_40433" [label=4; weight=4; penwidth=0.5; color = 5];
+	"unitofwork_4108"  [label = "unitofwork\n(100.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "unitofwork_4108" [label=4; weight=4; penwidth=0.5; color = 5];
 	"errorhandling_4088"  [label = "errorhandling\n(100.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "errorhandling_4088" [label=3; weight=3; penwidth=0.5; color = 5];
 	"infra_40440"  [label = "infra\n(100.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "infra_40440" [label=2; weight=2; penwidth=0.4; color = 5];
 	"interception_4074"  [label = "interception\n(100.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "interception_4074" [label=2; weight=2; penwidth=0.4; color = 5];

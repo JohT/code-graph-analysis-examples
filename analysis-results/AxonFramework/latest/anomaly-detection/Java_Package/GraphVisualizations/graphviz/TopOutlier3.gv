@@ -14,10 +14,10 @@ strict digraph TopOutlier3 {
 
 	graph   [label="Top Rank #3 Java Package Outlier\norg.axonframework.messaging.eventhandling.processing.streaming\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: cluster probability\nlarge circle: < 25% percentile of cluster probability\nthick outline: > 80% percentile of distance to cluster center\n\n"];
 	central [label="🧩 outlier #3\nstreaming"];
-	"event_35414"  [label = "event\n(92.44%)"; penwidth = 2; ]; "event_35414" -> central [label=5; weight=5; penwidth=0.5];
+	"event_35414"  [label = "event\n(93.81%)"; penwidth = 2; ]; "event_35414" -> central [label=5; weight=5; penwidth=0.5];
 	"pooled_4085"  [label = "pooled\n(100.0%)"; penwidth = 2; ]; "pooled_4085" -> central [label=0; weight=0; penwidth=0.4];
 	"segmenting_4086"  [label = "segmenting\n(100.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "segmenting_4086" [label=1; weight=1; penwidth=0.4; color = 5];
-	"token_4079"  [shape = "circle"; height=1.8; label = "token\n(78.35%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "token_4079" [label=1; weight=1; penwidth=0.4; color = 5];
+	"token_4079"  [shape = "circle"; height=1.8; label = "token\n(77.88%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "token_4079" [label=1; weight=1; penwidth=0.4; color = 5];
 	"eventstreaming_4091"  [label = "eventstreaming\n(100.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "eventstreaming_4091" [label=0; weight=0; penwidth=0.4; color = 5];
 	"processing_4077"  [label = "processing\n(100.0%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "processing_4077" [label=0; weight=0; penwidth=0.4; color = 5];
 	"pooled_4085" -> "segmenting_4086" [label=146; weight=146; penwidth=0.3; color = 3]

@@ -17,15 +17,15 @@ strict digraph TopBottleneck3 {
 	"axon-messaging-5.0.3_3169"  [label = "axon-messaging-5.0.3\n(1.0)"; penwidth = 2; ]; "axon-messaging-5.0.3_3169" -> central [label=74; weight=74; penwidth=0.6];
 	"axon-spring-boot-autoconfigure-5.0.3_26497"  [label = "axon-spring-boot-autoconfigure-5.0.3\n(6.0)"; penwidth = 5; ]; "axon-spring-boot-autoconfigure-5.0.3_26497" -> central [label=16; weight=16; penwidth=0.4];
 	"axon-eventsourcing-5.0.3_30199"  [label = "axon-eventsourcing-5.0.3\n(6.0)"; penwidth = 5; ]; "axon-eventsourcing-5.0.3_30199" -> central [label=2; weight=2; penwidth=0.4];
-	"axon-modelling-5.0.3_46018"  [label = "axon-modelling-5.0.3\n(2.0)"; penwidth = 2; ]; "axon-modelling-5.0.3_46018" -> central [label=2; weight=2; penwidth=0.4];
+	"axon-modelling-5.0.3_46020"  [label = "axon-modelling-5.0.3\n(2.0)"; penwidth = 2; ]; "axon-modelling-5.0.3_46020" -> central [label=2; weight=2; penwidth=0.4];
 	"axon-common-5.0.3_40413"  [label = "axon-common-5.0.3\n(0.0)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "axon-common-5.0.3_40413" [label=30; weight=30; penwidth=0.5; color = 5];
 	"axon-messaging-5.0.3_3169" -> "axon-common-5.0.3_40413" [label=1008; weight=1008; penwidth=0.3; color = 3]
 	"axon-eventsourcing-5.0.3_30199" -> "axon-messaging-5.0.3_3169" [label=354; weight=354; penwidth=0.3; color = 3]
-	"axon-modelling-5.0.3_46018" -> "axon-messaging-5.0.3_3169" [label=304; weight=304; penwidth=0.3; color = 3]
+	"axon-modelling-5.0.3_46020" -> "axon-messaging-5.0.3_3169" [label=304; weight=304; penwidth=0.3; color = 3]
 	"axon-eventsourcing-5.0.3_30199" -> "axon-common-5.0.3_40413" [label=182; weight=182; penwidth=0.3; color = 3]
-	"axon-modelling-5.0.3_46018" -> "axon-common-5.0.3_40413" [label=182; weight=182; penwidth=0.3; color = 3]
+	"axon-modelling-5.0.3_46020" -> "axon-common-5.0.3_40413" [label=182; weight=182; penwidth=0.3; color = 3]
 	"axon-spring-boot-autoconfigure-5.0.3_26497" -> "axon-common-5.0.3_40413" [label=86; weight=86; penwidth=0.3; color = 3]
 	"axon-spring-boot-autoconfigure-5.0.3_26497" -> "axon-messaging-5.0.3_3169" [label=80; weight=80; penwidth=0.3; color = 3]
-	"axon-eventsourcing-5.0.3_30199" -> "axon-modelling-5.0.3_46018" [label=54; weight=54; penwidth=0.3; color = 3]
+	"axon-eventsourcing-5.0.3_30199" -> "axon-modelling-5.0.3_46020" [label=54; weight=54; penwidth=0.3; color = 3]
 	"axon-spring-boot-autoconfigure-5.0.3_26497" -> "axon-eventsourcing-5.0.3_30199" [label=16; weight=16; penwidth=0.3; color = 3]
 }

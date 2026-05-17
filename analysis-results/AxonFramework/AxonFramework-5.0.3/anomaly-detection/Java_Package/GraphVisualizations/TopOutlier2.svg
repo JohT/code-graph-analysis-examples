@@ -1296,7 +1296,7 @@
 <title>annotation_4100</title>
 <ellipse fill="#ccece6" stroke="#41ae76" stroke-width="2" cx="240.48" cy="-680.78" rx="46.8" ry="32.4"/>
 <text xml:space="preserve" text-anchor="middle" x="240.48" y="-684.38" font-family="Times,serif" font-size="12.00">annotation</text>
-<text xml:space="preserve" text-anchor="middle" x="240.48" y="-669.98" font-family="Times,serif" font-size="12.00">(86.98%)</text>
+<text xml:space="preserve" text-anchor="middle" x="240.48" y="-669.98" font-family="Times,serif" font-size="12.00">(84.18%)</text>
 </g>
 <!-- eventhandling_4070 -->
 <g id="node3" class="node">
@@ -1331,7 +1331,7 @@
 <title>event_35414</title>
 <ellipse fill="#ccece6" stroke="#41ae76" stroke-width="2" cx="623.74" cy="-1090.24" rx="46.8" ry="32.4"/>
 <text xml:space="preserve" text-anchor="middle" x="623.74" y="-1093.84" font-family="Times,serif" font-size="12.00">event</text>
-<text xml:space="preserve" text-anchor="middle" x="623.74" y="-1079.44" font-family="Times,serif" font-size="12.00">(92.44%)</text>
+<text xml:space="preserve" text-anchor="middle" x="623.74" y="-1079.44" font-family="Times,serif" font-size="12.00">(93.81%)</text>
 </g>
 <!-- eventstore_30220 -->
 <g id="node8" class="node">
@@ -1380,7 +1380,7 @@
 <title>interception_4102</title>
 <ellipse fill="#ccece6" stroke="#41ae76" stroke-width="2" cx="863.24" cy="-988.44" rx="46.8" ry="32.4"/>
 <text xml:space="preserve" text-anchor="middle" x="863.24" y="-992.04" font-family="Times,serif" font-size="12.00">interception</text>
-<text xml:space="preserve" text-anchor="middle" x="863.24" y="-977.64" font-family="Times,serif" font-size="12.00">(96.68%)</text>
+<text xml:space="preserve" text-anchor="middle" x="863.24" y="-977.64" font-family="Times,serif" font-size="12.00">(94.51%)</text>
 </g>
 <!-- annotation_4103 -->
 <g id="node15" class="node">
@@ -1408,7 +1408,7 @@
 <title>detection_39398</title>
 <ellipse fill="#ccece6" stroke="#41ae76" stroke-width="2" cx="598.19" cy="-32.4" rx="46.8" ry="32.4"/>
 <text xml:space="preserve" text-anchor="middle" x="598.19" y="-36" font-family="Times,serif" font-size="12.00">detection</text>
-<text xml:space="preserve" text-anchor="middle" x="598.19" y="-21.6" font-family="Times,serif" font-size="12.00">(95.67%)</text>
+<text xml:space="preserve" text-anchor="middle" x="598.19" y="-21.6" font-family="Times,serif" font-size="12.00">(96.3%)</text>
 </g>
 <!-- query_35413 -->
 <g id="node19" class="node">
@@ -1429,7 +1429,7 @@
 <title>subscribing_4087</title>
 <ellipse fill="#ccece6" stroke="#41ae76" stroke-width="5" cx="371.4" cy="-1146.88" rx="64.8" ry="64.8"/>
 <text xml:space="preserve" text-anchor="middle" x="371.4" y="-1150.48" font-family="Times,serif" font-size="12.00">subscribing</text>
-<text xml:space="preserve" text-anchor="middle" x="371.4" y="-1136.08" font-family="Times,serif" font-size="12.00">(74.76%)</text>
+<text xml:space="preserve" text-anchor="middle" x="371.4" y="-1136.08" font-family="Times,serif" font-size="12.00">(73.04%)</text>
 </g>
 <!-- annotation_4064 -->
 <g id="node22" class="node">
@@ -1485,7 +1485,7 @@
 <title>jpa_40443</title>
 <ellipse fill="#ccece6" stroke="#41ae76" stroke-width="2" cx="989.26" cy="-121.62" rx="64.8" ry="64.8"/>
 <text xml:space="preserve" text-anchor="middle" x="989.26" y="-125.22" font-family="Times,serif" font-size="12.00">jpa</text>
-<text xml:space="preserve" text-anchor="middle" x="989.26" y="-110.82" font-family="Times,serif" font-size="12.00">(62.33%)</text>
+<text xml:space="preserve" text-anchor="middle" x="989.26" y="-110.82" font-family="Times,serif" font-size="12.00">(59.54%)</text>
 </g>
 <!-- annotation_30218 -->
 <g id="node30" class="node">
@@ -1548,14 +1548,14 @@
 <title>conversion_4106</title>
 <ellipse fill="#ccece6" stroke="#41ae76" stroke-width="5" cx="64.8" cy="-721.87" rx="64.8" ry="64.8"/>
 <text xml:space="preserve" text-anchor="middle" x="64.8" y="-725.47" font-family="Times,serif" font-size="12.00">conversion</text>
-<text xml:space="preserve" text-anchor="middle" x="64.8" y="-711.07" font-family="Times,serif" font-size="12.00">(28.8%)</text>
+<text xml:space="preserve" text-anchor="middle" x="64.8" y="-711.07" font-family="Times,serif" font-size="12.00">(27.58%)</text>
 </g>
 <!-- conversion_4076 -->
 <g id="node39" class="node">
 <title>conversion_4076</title>
 <ellipse fill="#ccece6" stroke="#41ae76" stroke-width="2" cx="202.63" cy="-1125.41" rx="64.8" ry="64.8"/>
 <text xml:space="preserve" text-anchor="middle" x="202.63" y="-1129.01" font-family="Times,serif" font-size="12.00">conversion</text>
-<text xml:space="preserve" text-anchor="middle" x="202.63" y="-1114.61" font-family="Times,serif" font-size="12.00">(62.33%)</text>
+<text xml:space="preserve" text-anchor="middle" x="202.63" y="-1114.61" font-family="Times,serif" font-size="12.00">(59.54%)</text>
 </g>
 <!-- distributed_4093 -->
 <g id="node40" class="node">

@@ -12,48 +12,24 @@ strict digraph TopBridge4 {
     central [fontsize = 16;];
     central [color = 7; fillcolor = 5; penwidth = 3;];
 
-	graph   [label="Top Rank #4 Java Type Bridge\norg.axonframework.messaging.eventstreaming.TagFilteredEventCriteria\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
-	central [label="🌉 bridge #4\nTagFilteredEventCriteria"];
-	"EventCriteria_9750" [label = "EventCriteria"; ]; "EventCriteria_9750" -> central [label=2; weight=2; penwidth=0.4];
-	"OrEventCriteriaBuilder_13613" [label = "OrEventCriteriaBuilder"; ]; "OrEventCriteriaBuilder_13613" -> central [label=2; weight=2; penwidth=0.4];
-	"EventCriteria_9750" [label = "EventCriteria"; color = 5; fillcolor = 1; ]; central -> "EventCriteria_9750" [label=5; weight=5; penwidth=0.5; color = 5];
-	"OrEventCriteria_13612" [label = "OrEventCriteria"; color = 5; fillcolor = 1; ]; central -> "OrEventCriteria_13612" [label=5; weight=5; penwidth=0.5; color = 5];
-	"Tag_13636" [label = "Tag"; color = 5; fillcolor = 1; ]; central -> "Tag_13636" [label=5; weight=5; penwidth=0.5; color = 5];
-	"QualifiedName_3799" [label = "QualifiedName"; color = 5; fillcolor = 1; ]; central -> "QualifiedName_3799" [label=3; weight=3; penwidth=0.4; color = 5];
-	"EventCriterion_13621" [label = "EventCriterion"; color = 5; fillcolor = 1; ]; central -> "EventCriterion_13621" [label=2; weight=2; penwidth=0.4; color = 5];
-	"TagAndTypeFilteredEventCriteria_13637" [label = "TagAndTypeFilteredEventCriteria"; color = 5; fillcolor = 1; ]; central -> "TagAndTypeFilteredEventCriteria_13637" [label=2; weight=2; penwidth=0.4; color = 5];
-	"AnyEvent_13611" [label = "AnyEvent"; color = 5; fillcolor = 1; ]; central -> "AnyEvent_13611" [label=1; weight=1; penwidth=0.4; color = 5];
-	"EventTypeRestrictableEventCriteria_9756" [label = "EventTypeRestrictableEventCriteria"; color = 5; fillcolor = 1; ]; central -> "EventTypeRestrictableEventCriteria_9756" [label=1; weight=1; penwidth=0.4; color = 5];
-	"OrEventCriteria_13612" -> "EventCriteria_9750" [label=12; weight=12; penwidth=0.3; color = 3]
-	"EventTypeRestrictableEventCriteria_9756" -> "EventCriteria_9750" [label=6; weight=6; penwidth=0.3; color = 3]
-	"OrEventCriteriaBuilder_13613" -> "EventTypeRestrictableEventCriteria_9756" [label=6; weight=6; penwidth=0.3; color = 3]
-	"OrEventCriteriaBuilder_13613" -> "EventCriteria_9750" [label=6; weight=6; penwidth=0.3; color = 3]
-	"EventCriteria_9750" -> "Tag_13636" [label=5; weight=5; penwidth=0.3; color = 3]
-	"TagAndTypeFilteredEventCriteria_13637" -> "QualifiedName_3799" [label=5; weight=5; penwidth=0.3; color = 3]
-	"TagAndTypeFilteredEventCriteria_13637" -> "OrEventCriteria_13612" [label=5; weight=5; penwidth=0.3; color = 3]
-	"TagAndTypeFilteredEventCriteria_13637" -> "Tag_13636" [label=5; weight=5; penwidth=0.3; color = 3]
-	"AnyEvent_13611" -> "EventCriteria_9750" [label=4; weight=4; penwidth=0.3; color = 3]
-	"EventCriteria_9750" -> "OrEventCriteria_13612" [label=4; weight=4; penwidth=0.3; color = 3]
-	"EventCriteria_9750" -> "EventTypeRestrictableEventCriteria_9756" [label=4; weight=4; penwidth=0.3; color = 3]
-	"TagAndTypeFilteredEventCriteria_13637" -> "EventCriteria_9750" [label=4; weight=4; penwidth=0.3; color = 3]
-	"EventCriteria_9750" -> "OrEventCriteriaBuilder_13613" [label=3; weight=3; penwidth=0.3; color = 3]
-	"EventTypeRestrictableEventCriteria_9756" -> "QualifiedName_3799" [label=3; weight=3; penwidth=0.3; color = 3]
-	"AnyEvent_13611" -> "QualifiedName_3799" [label=2; weight=2; penwidth=0.3; color = 3]
-	"AnyEvent_13611" -> "TagAndTypeFilteredEventCriteria_13637" [label=2; weight=2; penwidth=0.3; color = 3]
-	"EventCriteria_9750" -> "AnyEvent_13611" [label=2; weight=2; penwidth=0.3; color = 3]
-	"OrEventCriteria_13612" -> "QualifiedName_3799" [label=2; weight=2; penwidth=0.3; color = 3]
-	"OrEventCriteriaBuilder_13613" -> "Tag_13636" [label=2; weight=2; penwidth=0.3; color = 3]
-	"TagAndTypeFilteredEventCriteria_13637" -> "EventCriterion_13621" [label=2; weight=2; penwidth=0.3; color = 3]
-	"AnyEvent_13611" -> "Tag_13636" [label=1; weight=1; penwidth=0.3; color = 3]
-	"AnyEvent_13611" -> "EventCriterion_13621" [label=1; weight=1; penwidth=0.3; color = 3]
-	"AnyEvent_13611" -> "EventTypeRestrictableEventCriteria_9756" [label=1; weight=1; penwidth=0.3; color = 3]
-	"EventCriteria_9750" -> "QualifiedName_3799" [label=1; weight=1; penwidth=0.3; color = 3]
-	"EventCriteria_9750" -> "EventCriterion_13621" [label=1; weight=1; penwidth=0.3; color = 3]
-	"EventCriterion_13621" -> "Tag_13636" [label=1; weight=1; penwidth=0.3; color = 3]
-	"EventCriterion_13621" -> "QualifiedName_3799" [label=1; weight=1; penwidth=0.3; color = 3]
-	"EventCriterion_13621" -> "EventCriteria_9750" [label=1; weight=1; penwidth=0.3; color = 3]
-	"OrEventCriteria_13612" -> "Tag_13636" [label=1; weight=1; penwidth=0.3; color = 3]
-	"OrEventCriteria_13612" -> "EventCriterion_13621" [label=1; weight=1; penwidth=0.3; color = 3]
-	"OrEventCriteria_13612" -> "AnyEvent_13611" [label=1; weight=1; penwidth=0.3; color = 3]
-	"TagAndTypeFilteredEventCriteria_13637" -> "AnyEvent_13611" [label=1; weight=1; penwidth=0.3; color = 3]
+	graph   [label="Top Rank #4 Java Type Bridge\norg.axonframework.test.fixture.AxonTestPhase$When$Nothing\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
+	central [label="🌉 bridge #4\nAxonTestPhase$When$Nothing"];
+	"AxonTestPhase$When_29" [label = "AxonTestPhase$\nWhen"; ]; "AxonTestPhase$When_29" -> central [label=2; weight=2; penwidth=0.4];
+	"AxonTestWhen_78" [label = "AxonTestWhen"; ]; "AxonTestWhen_78" -> central [label=2; weight=2; penwidth=0.4];
+	"AxonTestWhen$Nothing_2072" [label = "AxonTestWhen$\nNothing"; ]; "AxonTestWhen$Nothing_2072" -> central [label=2; weight=2; penwidth=0.4];
+	"AxonTestPhase_2066" [label = "AxonTestPhase"; ]; "AxonTestPhase_2066" -> central [label=1; weight=1; penwidth=0.4];
+	"AxonTestPhase$Then$Nothing_26" [label = "AxonTestPhase$\nThen$\nNothing"; color = 5; fillcolor = 1; ]; central -> "AxonTestPhase$Then$Nothing_26" [label=2; weight=2; penwidth=0.4; color = 5];
+	"AxonTestPhase$Then_25" [label = "AxonTestPhase$\nThen"; color = 5; fillcolor = 1; ]; central -> "AxonTestPhase$Then_25" [label=1; weight=1; penwidth=0.4; color = 5];
+	"AxonTestPhase$When_29" [label = "AxonTestPhase$\nWhen"; color = 5; fillcolor = 1; ]; central -> "AxonTestPhase$When_29" [label=1; weight=1; penwidth=0.4; color = 5];
+	"AxonTestWhen$Nothing_2072" -> "AxonTestWhen_78" [label=6; weight=6; penwidth=0.3; color = 3]
+	"AxonTestWhen_78" -> "AxonTestWhen$Nothing_2072" [label=3; weight=3; penwidth=0.3; color = 3]
+	"AxonTestWhen_78" -> "AxonTestPhase$When_29" [label=2; weight=2; penwidth=0.3; color = 3]
+	"AxonTestWhen$Nothing_2072" -> "AxonTestPhase$Then$Nothing_26" [label=2; weight=2; penwidth=0.3; color = 3]
+	"AxonTestPhase_2066" -> "AxonTestPhase$Then_25" [label=1; weight=1; penwidth=0.3; color = 3]
+	"AxonTestPhase_2066" -> "AxonTestPhase$Then$Nothing_26" [label=1; weight=1; penwidth=0.3; color = 3]
+	"AxonTestPhase_2066" -> "AxonTestPhase$When_29" [label=1; weight=1; penwidth=0.3; color = 3]
+	"AxonTestPhase$Then_25" -> "AxonTestPhase$Then$Nothing_26" [label=1; weight=1; penwidth=0.3; color = 3]
+	"AxonTestPhase$Then$Nothing_26" -> "AxonTestPhase$Then_25" [label=1; weight=1; penwidth=0.3; color = 3]
+	"AxonTestWhen$Nothing_2072" -> "AxonTestPhase$When_29" [label=1; weight=1; penwidth=0.3; color = 3]
+	"AxonTestWhen$Nothing_2072" -> "AxonTestPhase$Then_25" [label=1; weight=1; penwidth=0.3; color = 3]
 }

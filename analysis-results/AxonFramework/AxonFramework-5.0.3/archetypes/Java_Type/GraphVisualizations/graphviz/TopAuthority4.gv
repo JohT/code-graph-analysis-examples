@@ -15,7 +15,7 @@ strict digraph TopAuthority4 {
 	graph   [label="Top Rank #4 Java Type Authority\norg.axonframework.common.infra.ComponentDescriptor\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: Page Rank (normalized)\nlarge circle: > 80% percentile of Page Rank\nthick outline: > 80% percentile of Page Rank to Article Rank Difference\n\n"];
 	central [label="🏛️ authority #4\nComponentDescriptor"];
 	"PooledStreamingEventProcessorConfiguration_10495"  [label = "PooledStreamingEventProcessorConfiguration\n(0.38%)"; penwidth = 2; ]; "PooledStreamingEventProcessorConfiguration_10495" -> central [label=14; weight=14; penwidth=0.6];
-	"ConcreteEntityMetamodel_47627"  [label = "ConcreteEntityMetamodel\n(0.09%)"; penwidth = 2; ]; "ConcreteEntityMetamodel_47627" -> central [label=8; weight=8; penwidth=0.5];
+	"ConcreteEntityMetamodel_47996"  [label = "ConcreteEntityMetamodel\n(0.09%)"; penwidth = 2; ]; "ConcreteEntityMetamodel_47996" -> central [label=8; weight=8; penwidth=0.5];
 	"DefaultComponentRegistry_43461"  [label = "DefaultComponentRegistry\n(0.22%)"; penwidth = 2; ]; "DefaultComponentRegistry_43461" -> central [label=7; weight=7; penwidth=0.5];
 	"EventSourcingRepository_30224"  [label = "EventSourcingRepository\n(0.01%)"; penwidth = 5; ]; "EventSourcingRepository_30224" -> central [label=7; weight=7; penwidth=0.5];
 	"PooledStreamingEventProcessor_9752"  [label = "PooledStreamingEventProcessor\n(0.03%)"; penwidth = 2; ]; "PooledStreamingEventProcessor_9752" -> central [label=7; weight=7; penwidth=0.5];
@@ -31,7 +31,7 @@ strict digraph TopAuthority4 {
 	"DefaultMessageMonitorRegistry_4034"  [label = "DefaultMessageMonitorRegistry\n(0.26%)"; penwidth = 2; ]; "DefaultMessageMonitorRegistry_4034" -> central [label=5; weight=5; penwidth=0.5];
 	"InterceptingQueryBus_15499"  [label = "InterceptingQueryBus\n(0.0%)"; penwidth = 5; ]; "InterceptingQueryBus_15499" -> central [label=5; weight=5; penwidth=0.5];
 	"SimpleQueryUpdateEmitter_15709"  [label = "SimpleQueryUpdateEmitter\n(0.04%)"; penwidth = 2; ]; "SimpleQueryUpdateEmitter_15709" -> central [label=5; weight=5; penwidth=0.5];
-	"SimpleRepository_49198"  [label = "SimpleRepository\n(0.2%)"; penwidth = 2; ]; "SimpleRepository_49198" -> central [label=5; weight=5; penwidth=0.5];
+	"SimpleRepository_49200"  [label = "SimpleRepository\n(0.2%)"; penwidth = 2; ]; "SimpleRepository_49200" -> central [label=5; weight=5; penwidth=0.5];
 	"SubscribingEventProcessor_12225"  [label = "SubscribingEventProcessor\n(0.08%)"; penwidth = 2; ]; "SubscribingEventProcessor_12225" -> central [label=5; weight=5; penwidth=0.5];
 	"AbstractComponent_43466"  [label = "AbstractComponent\n(0.25%)"; penwidth = 2; ]; "AbstractComponent_43466" -> central [label=4; weight=4; penwidth=0.5];
 	"AxonServerCommandBusConnector_36617"  [label = "AxonServerCommandBusConnector\n(0.09%)"; penwidth = 2; ]; "AxonServerCommandBusConnector_36617" -> central [label=4; weight=4; penwidth=0.5];
@@ -41,7 +41,7 @@ strict digraph TopAuthority4 {
 	"DefaultQueryGateway_15507"  [label = "DefaultQueryGateway\n(0.0%)"; penwidth = 5; ]; "DefaultQueryGateway_15507" -> central [label=4; weight=4; penwidth=0.5];
 	"EntityCommandHandlingComponent_47215"  [label = "EntityCommandHandlingComponent\n(0.02%)"; penwidth = 2; ]; "EntityCommandHandlingComponent_47215" -> central [label=4; weight=4; penwidth=0.5];
 	"EventProcessorConfiguration_9746"  [label = "EventProcessorConfiguration\n(0.71%)"; penwidth = 2; ]; "EventProcessorConfiguration_9746" -> central [label=4; weight=4; penwidth=0.5];
-	"InMemoryRepository_49545"  [label = "InMemoryRepository\n(0.0%)"; penwidth = 5; ]; "InMemoryRepository_49545" -> central [label=4; weight=4; penwidth=0.5];
+	"InMemoryRepository_49547"  [label = "InMemoryRepository\n(0.0%)"; penwidth = 5; ]; "InMemoryRepository_49547" -> central [label=4; weight=4; penwidth=0.5];
 	"InterceptingCommandBus_4866"  [label = "InterceptingCommandBus\n(0.0%)"; penwidth = 5; ]; "InterceptingCommandBus_4866" -> central [label=4; weight=4; penwidth=0.5];
 	"InterceptingEventBus_13609"  [label = "InterceptingEventBus\n(0.04%)"; penwidth = 2; ]; "InterceptingEventBus_13609" -> central [label=4; weight=4; penwidth=0.5];
 	"InterceptingEventStore_32377"  [label = "InterceptingEventStore\n(0.05%)"; penwidth = 2; ]; "InterceptingEventStore_32377" -> central [label=4; weight=4; penwidth=0.5];
@@ -57,7 +57,7 @@ strict digraph TopAuthority4 {
 	"PooledStreamingEventProcessor_9752" -> "PooledStreamingEventProcessorConfiguration_10495" [label=28; weight=28; penwidth=0.3; color = 3]
 	"PooledStreamingEventProcessorConfiguration_10495" -> "EventProcessorConfiguration_9746" [label=13; weight=13; penwidth=0.3; color = 3]
 	"AnnotatedEventHandlingComponent_7331" -> "SimpleEventHandlingComponent_7206" [label=10; weight=10; penwidth=0.3; color = 3]
-	"InMemoryRepository_49545" -> "SimpleRepository_49198" [label=9; weight=9; penwidth=0.3; color = 3]
+	"InMemoryRepository_49547" -> "SimpleRepository_49200" [label=9; weight=9; penwidth=0.3; color = 3]
 	"AnnotatedCommandHandlingComponent_5240" -> "SimpleCommandHandlingComponent_4834" [label=5; weight=5; penwidth=0.3; color = 3]
 	"AnnotatedQueryHandlingComponent_14687" -> "SimpleQueryHandlingComponent_14514" [label=5; weight=5; penwidth=0.3; color = 3]
 	"DecoratedComponent_44674" -> "AbstractComponent_43466" [label=4; weight=4; penwidth=0.3; color = 3]

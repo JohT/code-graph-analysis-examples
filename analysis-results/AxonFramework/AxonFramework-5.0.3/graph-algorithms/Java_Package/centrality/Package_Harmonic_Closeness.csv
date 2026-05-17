@@ -23,7 +23,7 @@
 "org.axonframework.messaging.queryhandling.annotation","annotation","centralityHarmonic",0.28221288515406157,""
 "org.axonframework.common.property","property","centralityHarmonic",0.26778711484593837,""
 "org.axonframework.messaging.core.configuration.reflection","reflection","centralityHarmonic",0.24425770308123246,""
-"org.axonframework.common.function","function","centralityHarmonic",0.2313725490196078,""
+"org.axonframework.common.function","function","centralityHarmonic",0.23137254901960783,""
 "org.axonframework.common.io","io","centralityHarmonic",0.2288515406162465,""
 "org.axonframework.messaging.commandhandling.gateway","gateway","centralityHarmonic",0.2203081232492997,""
 "org.axonframework.messaging.eventhandling.gateway","gateway","centralityHarmonic",0.21960784313725487,""

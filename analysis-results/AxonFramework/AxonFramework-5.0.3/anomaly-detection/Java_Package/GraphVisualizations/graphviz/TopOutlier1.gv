@@ -14,9 +14,9 @@ strict digraph TopOutlier1 {
 
 	graph   [label="Top Rank #1 Java Package Outlier\norg.axonframework.messaging.core.conversion\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: cluster probability\nlarge circle: < 25% percentile of cluster probability\nthick outline: > 80% percentile of distance to cluster center\n\n"];
 	central [label="🧩 outlier #1\nconversion"];
-	"autoconfig_27294"  [shape = "circle"; height=1.8; label = "autoconfig\n(61.48%)"; penwidth = 2; ]; "autoconfig_27294" -> central [label=4; weight=4; penwidth=0.5];
-	"configuration_4114"  [shape = "circle"; height=1.8; label = "configuration\n(78.36%)"; penwidth = 2; ]; "configuration_4114" -> central [label=4; weight=4; penwidth=0.5];
-	"conversion_4076"  [shape = "circle"; height=1.8; label = "conversion\n(62.33%)"; penwidth = 2; ]; "conversion_4076" -> central [label=4; weight=4; penwidth=0.5];
+	"autoconfig_27294"  [shape = "circle"; height=1.8; label = "autoconfig\n(56.09%)"; penwidth = 2; ]; "autoconfig_27294" -> central [label=4; weight=4; penwidth=0.5];
+	"configuration_4114"  [shape = "circle"; height=1.8; label = "configuration\n(73.28%)"; penwidth = 2; ]; "configuration_4114" -> central [label=4; weight=4; penwidth=0.5];
+	"conversion_4076"  [shape = "circle"; height=1.8; label = "conversion\n(59.54%)"; penwidth = 2; ]; "conversion_4076" -> central [label=4; weight=4; penwidth=0.5];
 	"annotation_46041"  [label = "annotation\n(100.0%)"; penwidth = 2; ]; "annotation_46041" -> central [label=3; weight=3; penwidth=0.5];
 	"annotation_4064"  [label = "annotation\n(100.0%)"; penwidth = 2; ]; "annotation_4064" -> central [label=1; weight=1; penwidth=0.4];
 	"annotation_4094"  [label = "annotation\n(100.0%)"; penwidth = 2; ]; "annotation_4094" -> central [label=1; weight=1; penwidth=0.4];
@@ -28,12 +28,12 @@ strict digraph TopOutlier1 {
 	"gateway_4096"  [label = "gateway\n(100.0%)"; penwidth = 2; ]; "gateway_4096" -> central [label=1; weight=1; penwidth=0.4];
 	"gateway_4066"  [label = "gateway\n(100.0%)"; penwidth = 2; ]; "gateway_4066" -> central [label=1; weight=1; penwidth=0.4];
 	"queryhandling_4092"  [label = "queryhandling\n(100.0%)"; penwidth = 2; ]; "queryhandling_4092" -> central [label=1; weight=1; penwidth=0.4];
-	"configuration_4098"  [label = "configuration\n(96.68%)"; penwidth = 2; ]; "configuration_4098" -> central [label=0; weight=0; penwidth=0.4];
-	"configuration_4069"  [label = "configuration\n(96.68%)"; penwidth = 2; ]; "configuration_4069" -> central [label=0; weight=0; penwidth=0.4];
+	"configuration_4098"  [label = "configuration\n(94.51%)"; penwidth = 2; ]; "configuration_4098" -> central [label=0; weight=0; penwidth=0.4];
+	"configuration_4069"  [label = "configuration\n(94.51%)"; penwidth = 2; ]; "configuration_4069" -> central [label=0; weight=0; penwidth=0.4];
 	"sequencing_4105"  [label = "sequencing\n(100.0%)"; penwidth = 2; ]; "sequencing_4105" -> central [label=0; weight=0; penwidth=0.4];
 	"core_4099"  [label = "core\n(100.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "core_4099" [label=2; weight=2; penwidth=0.4; color = 5];
-	"annotation_40433"  [shape = "circle"; height=1.8; label = "annotation\n(46.37%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "annotation_40433" [label=1; weight=1; penwidth=0.4; color = 5];
-	"conversion_50219"  [label = "conversion\n(85.2%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "conversion_50219" [label=1; weight=1; penwidth=0.4; color = 5];
+	"annotation_40433"  [shape = "circle"; height=1.8; label = "annotation\n(49.17%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "annotation_40433" [label=1; weight=1; penwidth=0.4; color = 5];
+	"conversion_50219"  [label = "conversion\n(89.39%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "conversion_50219" [label=1; weight=1; penwidth=0.4; color = 5];
 	"infra_40440"  [label = "infra\n(100.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "infra_40440" [label=0; weight=0; penwidth=0.4; color = 5];
 	"queryhandling_4092" -> "core_4099" [label=121; weight=121; penwidth=0.3; color = 3]
 	"fixture_20" -> "core_4099" [label=34; weight=34; penwidth=0.3; color = 3]
