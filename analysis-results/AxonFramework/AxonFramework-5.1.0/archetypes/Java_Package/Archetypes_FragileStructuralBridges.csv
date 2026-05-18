@@ -1,0 +1,3 @@
+"codeUnitName","shortCodeUnitName","projectName","betweenness","localClusteringCoefficient","degree","incomingDependencies","outgoingDependencies","Source Cypher File: domains/archetypes/queries/AnomalyDetectionFragileStructuralBridges.cypher"
+"org.axonframework.messaging.core","core","axon-messaging-5.1.0",1148.0714285714287,0.1469583048530417,13782,13384,398,""
+"org.axonframework.messaging.core.unitofwork","unitofwork","axon-messaging-5.1.0",399.08333333333337,0.16021825396825398,11910,11801,109,""

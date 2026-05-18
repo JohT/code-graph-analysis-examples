@@ -1,0 +1,6 @@
+"projectName","shortCodeUnitName","codeUnitName","localClusteringCoefficient","degree","incomingDependencies","outgoingDependencies","rank","Source Cypher File: domains/archetypes/labels/ArchetypeHub.cypher"
+"axon-common-5.1.0","common","org.axonframework.common",0.14285714285714285,1006,975,31,1,""
+"axon-messaging-5.1.0","core","org.axonframework.messaging.core",0.1469583048530417,13782,13384,398,2,""
+"axon-common-5.1.0","infra","org.axonframework.common.infra",0.15265700483091788,1360,1333,27,3,""
+"axon-common-5.1.0","annotation","org.axonframework.common.annotation",0.1581173982020095,4323,4318,5,4,""
+"axon-messaging-5.1.0","unitofwork","org.axonframework.messaging.core.unitofwork",0.16021825396825398,11910,11801,109,5,""
