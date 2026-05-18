@@ -25,6 +25,7 @@ The process involves three steps:
     - [External Dependencies of Java Packages](#external-dependencies-of-java-packages)
     - [Java Artifact Dependencies including Longest Paths](#java-artifact-dependencies-including-longest-paths)
     - [All Pairs Shortest Paths of Java Packages per Artifact](#all-pairs-shortest-paths-of-java-packages-per-artifact)
+    - [Resolvable Cyclic Dependency of Java Packages](#resolvable-cyclic-dependency-of-java-packages)
     - [Object-Oriented Design Metrics for Java Packages](#object-oriented-design-metrics-for-java-packages)
     - [Effective Line Count of Java Methods](#effective-line-count-of-java-methods)
     - [Cyclomatic Complexity Distribution for Java Methods](#cyclomatic-complexity-distribution-for-java-methods)
@@ -118,6 +119,10 @@ Below are examples drawn from more than a hundred reports produced by the analys
 ### All Pairs Shortest Paths of Java Packages per Artifact
 
 <img src="./analysis-results/AxonFramework/latest/internal-dependencies/Java_Package/Java_Package_AllPairsShortestPath_StackedBar_Log.svg" width="600" alt="All pairs shortest paths of Java packages per artifact">
+
+### Resolvable Cyclic Dependency of Java Packages
+
+<img src="./analysis-results/AxonFramework/latest/cyclic-dependencies/Java_Package/Graph_Visualizations/JavaPackageCyclicDependencies1.svg" width="600" alt="Resolvable cyclic dependencies of Java packages">
 
 ### Object-Oriented Design Metrics for Java Packages
 
