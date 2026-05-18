@@ -32,7 +32,7 @@ jobs:
     env: 
       PROJECT_NAME: AxonFramework
       # Version variable names matches renovate.json configuration entry
-      AXON_FRAMEWORK_VERSION: 5.0.3
+      AXON_FRAMEWORK_VERSION: 5.1.0
     outputs:
       project-name: ${{ env.PROJECT_NAME }}
       project-version: ${{ env.AXON_FRAMEWORK_VERSION }}
@@ -55,11 +55,11 @@ jobs:
         org.axonframework:axon-messaging:${{ needs.prepare-code-to-analyze.outputs.project-version }},
         org.axonframework:axon-modelling:${{ needs.prepare-code-to-analyze.outputs.project-version }},
         org.axonframework:axon-test:${{ needs.prepare-code-to-analyze.outputs.project-version }},
-        org.axonframework:axon-server-connector:${{ needs.prepare-code-to-analyze.outputs.project-version }},
+        io.axoniq.framework:axon-server-connector:${{ needs.prepare-code-to-analyze.outputs.project-version }},
         org.axonframework:axon-common:${{ needs.prepare-code-to-analyze.outputs.project-version }},
         org.axonframework:axon-update:${{ needs.prepare-code-to-analyze.outputs.project-version }},
         org.axonframework:axon-conversion:${{ needs.prepare-code-to-analyze.outputs.project-version }},
-        org.axonframework.extensions.spring:axon-spring-boot-autoconfigure:${{ needs.prepare-code-to-analyze.outputs.project-version }},
+        io.axoniq.framework:axoniq-spring-boot-autoconfigure:${{ needs.prepare-code-to-analyze.outputs.project-version }},
         org.axonframework.extensions.tracing:axon-tracing-opentelemetry:${{ needs.prepare-code-to-analyze.outputs.project-version }},
         org.axonframework.extensions.metrics:axon-metrics-micrometer:${{ needs.prepare-code-to-analyze.outputs.project-version }}
       source-repository: https://github.com/AxonFramework/AxonFramework.git
