@@ -38,8 +38,8 @@ strict digraph TopBottleneck4 {
 	"commandhandling_16806"  [label = "commandhandling\n(31.67)"; penwidth = 2; ]; "commandhandling_16806" -> central [label=3; weight=3; penwidth=0.4];
 	"entity_8315"  [label = "entity\n(24.5)"; penwidth = 2; ]; "entity_8315" -> central [label=3; weight=3; penwidth=0.4];
 	"event_37289"  [label = "event\n(32.0)"; penwidth = 2; ]; "event_37289" -> central [label=3; weight=3; penwidth=0.4];
-	"gateway_16809"  [label = "gateway\n(0.33)"; penwidth = 2; ]; "gateway_16809" -> central [label=3; weight=3; penwidth=0.4];
 	"gateway_16818"  [label = "gateway\n(2.38)"; penwidth = 2; ]; "gateway_16818" -> central [label=3; weight=3; penwidth=0.4];
+	"gateway_16809"  [label = "gateway\n(0.33)"; penwidth = 2; ]; "gateway_16809" -> central [label=3; weight=3; penwidth=0.4];
 	"handler_26"  [label = "handler\n(12.0)"; penwidth = 2; ]; "handler_26" -> central [label=3; weight=3; penwidth=0.4];
 	"inmemory_16825"  [label = "inmemory\n(3.0)"; penwidth = 2; ]; "inmemory_16825" -> central [label=3; weight=3; penwidth=0.4];
 	"jdbc_16826"  [label = "jdbc\n(0.0)"; penwidth = 2; ]; "jdbc_16826" -> central [label=3; weight=3; penwidth=0.4];
@@ -52,8 +52,8 @@ strict digraph TopBottleneck4 {
 	"annotation_8316"  [label = "annotation\n(66.24)"; penwidth = 2; ]; "annotation_8316" -> central [label=2; weight=2; penwidth=0.4];
 	"child_8317"  [label = "child\n(0.0)"; penwidth = 2; ]; "child_8317" -> central [label=2; weight=2; penwidth=0.4];
 	"modelling_8313"  [label = "modelling\n(74.5)"; penwidth = 2; ]; "modelling_8313" -> central [label=2; weight=2; penwidth=0.4];
+	"annotation_16816"  [label = "annotation\n(0.0)"; penwidth = 2; ]; "annotation_16816" -> central [label=1; weight=1; penwidth=0.4];
 	"annotation_8314"  [label = "annotation\n(105.95)"; penwidth = 2; ]; "annotation_8314" -> central [label=1; weight=1; penwidth=0.4];
-	"annotation_16823"  [label = "annotation\n(0.0)"; penwidth = 2; ]; "annotation_16823" -> central [label=1; weight=1; penwidth=0.4];
 	"core_16841"  [label = "core\n(1148.07)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "core_16841" [label=50; weight=50; penwidth=1.2; color = 5];
 	"common_42025"  [label = "common\n(0.0)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "common_42025" [label=11; weight=11; penwidth=0.6; color = 5];
 	"configuration_42038"  [label = "configuration\n(104.0)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "configuration_42038" [label=2; weight=2; penwidth=0.4; color = 5];
@@ -82,11 +82,11 @@ strict digraph TopBottleneck4 {
 	"interception_16837" -> "core_16841" [label=30; weight=30; penwidth=0.3; color = 3]
 	"pooled_16828" -> "configuration_16833" [label=30; weight=30; penwidth=0.3; color = 3]
 	"subscribing_16830" -> "configuration_16833" [label=30; weight=30; penwidth=0.3; color = 3]
-	"interception_16844" -> "configuration_42038" [label=29; weight=29; penwidth=0.3; color = 3]
 	"interception_16844" -> "common_42025" [label=29; weight=29; penwidth=0.3; color = 3]
+	"interception_16844" -> "configuration_42038" [label=29; weight=29; penwidth=0.3; color = 3]
 	"entity_8315" -> "commandhandling_16806" [label=27; weight=27; penwidth=0.3; color = 3]
-	"annotation_8316" -> "common_42025" [label=26; weight=26; penwidth=0.3; color = 3]
 	"annotation_8316" -> "child_8317" [label=26; weight=26; penwidth=0.3; color = 3]
+	"annotation_8316" -> "common_42025" [label=26; weight=26; penwidth=0.3; color = 3]
 	"configuration_16833" -> "configuration_42038" [label=26; weight=26; penwidth=0.3; color = 3]
 	"annotation_8316" -> "core_16841" [label=25; weight=25; penwidth=0.3; color = 3]
 	"configuration_16856" -> "interception_16844" [label=25; weight=25; penwidth=0.3; color = 3]
@@ -117,8 +117,8 @@ strict digraph TopBottleneck4 {
 	"commandhandling_16806" -> "common_42025" [label=15; weight=15; penwidth=0.3; color = 3]
 	"jpa_16827" -> "common_42025" [label=15; weight=15; penwidth=0.3; color = 3]
 	"configuration_42038" -> "annotation_42027" [label=14; weight=14; penwidth=0.3; color = 3]
-	"gateway_16809" -> "commandhandling_16806" [label=14; weight=14; penwidth=0.3; color = 3]
 	"gateway_16818" -> "core_16841" [label=14; weight=14; penwidth=0.3; color = 3]
+	"gateway_16809" -> "commandhandling_16806" [label=14; weight=14; penwidth=0.3; color = 3]
 	"inmemory_16825" -> "segmenting_16829" [label=14; weight=14; penwidth=0.3; color = 3]
 	"interception_16808" -> "commandhandling_16806" [label=14; weight=14; penwidth=0.3; color = 3]
 	"annotation_8314" -> "modelling_8313" [label=13; weight=13; penwidth=0.3; color = 3]
@@ -132,6 +132,7 @@ strict digraph TopBottleneck4 {
 	"child_8317" -> "common_42025" [label=11; weight=11; penwidth=0.3; color = 3]
 	"inmemory_16825" -> "store_16824" [label=11; weight=11; penwidth=0.3; color = 3]
 	"annotation_16845" -> "common_42025" [label=10; weight=10; penwidth=0.3; color = 3]
+	"annotation_16816" -> "annotation_16842" [label=10; weight=10; penwidth=0.3; color = 3]
 	"annotation_8314" -> "core_16841" [label=10; weight=10; penwidth=0.3; color = 3]
 	"configuration_16856" -> "queryhandling_16835" [label=10; weight=10; penwidth=0.3; color = 3]
 	"configuration_16856" -> "interception_16804" [label=10; weight=10; penwidth=0.3; color = 3]
@@ -169,33 +170,32 @@ strict digraph TopBottleneck4 {
 	"modelling_8313" -> "core_16841" [label=6; weight=6; penwidth=0.3; color = 3]
 	"pooled_16828" -> "annotation_42027" [label=6; weight=6; penwidth=0.3; color = 3]
 	"segmenting_16829" -> "annotation_42027" [label=6; weight=6; penwidth=0.3; color = 3]
-	"subscribing_16830" -> "core_16841" [label=6; weight=6; penwidth=0.3; color = 3]
 	"subscribing_16830" -> "eventhandling_16813" [label=6; weight=6; penwidth=0.3; color = 3]
+	"subscribing_16830" -> "core_16841" [label=6; weight=6; penwidth=0.3; color = 3]
 	"annotation_8316" -> "commandhandling_16806" [label=5; weight=5; penwidth=0.3; color = 3]
 	"configuration_16856" -> "gateway_16809" [label=5; weight=5; penwidth=0.3; color = 3]
 	"event_37289" -> "subscribing_16830" [label=5; weight=5; penwidth=0.3; color = 3]
 	"handler_26" -> "core_16841" [label=5; weight=5; penwidth=0.3; color = 3]
 	"inmemory_16825" -> "common_42025" [label=5; weight=5; penwidth=0.3; color = 3]
-	"interception_16844" -> "commandhandling_16806" [label=5; weight=5; penwidth=0.3; color = 3]
 	"interception_16844" -> "annotation_42027" [label=5; weight=5; penwidth=0.3; color = 3]
+	"interception_16844" -> "commandhandling_16806" [label=5; weight=5; penwidth=0.3; color = 3]
 	"interception_16844" -> "eventhandling_16813" [label=5; weight=5; penwidth=0.3; color = 3]
 	"modelling_8313" -> "common_42025" [label=5; weight=5; penwidth=0.3; color = 3]
 	"timeout_16855" -> "annotation_16842" [label=5; weight=5; penwidth=0.3; color = 3]
 	"annotation_16842" -> "annotation_16845" [label=4; weight=4; penwidth=0.3; color = 3]
 	"annotation_16845" -> "annotation_42027" [label=4; weight=4; penwidth=0.3; color = 3]
-	"annotation_16814" -> "annotation_42027" [label=4; weight=4; penwidth=0.3; color = 3]
 	"annotation_16814" -> "common_42025" [label=4; weight=4; penwidth=0.3; color = 3]
+	"annotation_16814" -> "annotation_42027" [label=4; weight=4; penwidth=0.3; color = 3]
 	"annotation_8314" -> "common_42025" [label=4; weight=4; penwidth=0.3; color = 3]
 	"annotation_42027" -> "common_42025" [label=4; weight=4; penwidth=0.3; color = 3]
 	"child_8317" -> "core_16841" [label=4; weight=4; penwidth=0.3; color = 3]
 	"configuration_16856" -> "interception_16808" [label=4; weight=4; penwidth=0.3; color = 3]
 	"configuration_16833" -> "annotation_42027" [label=4; weight=4; penwidth=0.3; color = 3]
 	"configuration_16833" -> "annotation_16842" [label=4; weight=4; penwidth=0.3; color = 3]
+	"configuration_16833" -> "core_16841" [label=4; weight=4; penwidth=0.3; color = 3]
 	"configuration_16833" -> "configuration_16856" [label=4; weight=4; penwidth=0.3; color = 3]
 	"configuration_16833" -> "annotation_16814" [label=4; weight=4; penwidth=0.3; color = 3]
-	"configuration_16833" -> "core_16841" [label=4; weight=4; penwidth=0.3; color = 3]
 	"entity_8315" -> "modelling_8313" [label=4; weight=4; penwidth=0.3; color = 3]
 	"event_37289" -> "segmenting_16829" [label=4; weight=4; penwidth=0.3; color = 3]
 	"eventsourcing_19" -> "repository_8319" [label=4; weight=4; penwidth=0.3; color = 3]
-	"handler_26" -> "annotation_42027" [label=4; weight=4; penwidth=0.3; color = 3]
 }

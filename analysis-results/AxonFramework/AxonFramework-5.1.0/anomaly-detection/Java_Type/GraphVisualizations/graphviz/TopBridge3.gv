@@ -12,13 +12,11 @@ strict digraph TopBridge3 {
     central [fontsize = 16;];
     central [color = 7; fillcolor = 5; penwidth = 3;];
 
-	graph   [label="Top Rank #3 Java Type Bridge\norg.axonframework.common.caching.JCacheAdapter\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
-	central [label="🌉 bridge #3\nJCacheAdapter"];
-	"Cache$EntryListener_42357" [label = "Cache$\nEntryListener"; color = 5; fillcolor = 1; ]; central -> "Cache$EntryListener_42357" [label=3; weight=3; penwidth=0.4; color = 5];
-	"JCacheAdapter$JCacheListenerAdapter_42838" [label = "JCacheAdapter$\nJCacheListenerAdapter"; color = 5; fillcolor = 1; ]; central -> "JCacheAdapter$JCacheListenerAdapter_42838" [label=3; weight=3; penwidth=0.4; color = 5];
-	"AbstractCacheAdapter_42837" [label = "AbstractCacheAdapter"; color = 5; fillcolor = 1; ]; central -> "AbstractCacheAdapter_42837" [label=2; weight=2; penwidth=0.4; color = 5];
-	"Registration_42356" [label = "Registration"; color = 5; fillcolor = 1; ]; central -> "Registration_42356" [label=2; weight=2; penwidth=0.4; color = 5];
-	"JCacheAdapter$JCacheListenerAdapter_42838" -> "Cache$EntryListener_42357" [label=7; weight=7; penwidth=0.3; color = 3]
-	"AbstractCacheAdapter_42837" -> "Cache$EntryListener_42357" [label=5; weight=5; penwidth=0.3; color = 3]
-	"AbstractCacheAdapter_42837" -> "Registration_42356" [label=4; weight=4; penwidth=0.3; color = 3]
+	graph   [label="Top Rank #3 Java Type Bridge\norg.axonframework.messaging.core.annotation.HandlerAttributes\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
+	central [label="🌉 bridge #3\nHandlerAttributes"];
+	"SimpleHandlerAttributes_29024" [label = "SimpleHandlerAttributes"; ]; "SimpleHandlerAttributes_29024" -> central [label=5; weight=5; penwidth=0.5];
+	"AnnotatedHandlerAttributes_29266" [label = "AnnotatedHandlerAttributes"; ]; "AnnotatedHandlerAttributes_29266" -> central [label=3; weight=3; penwidth=0.4];
+	"MethodInvokingMessageHandlingMember_28373" [label = "MethodInvokingMessageHandlingMember"; ]; "MethodInvokingMessageHandlingMember_28373" -> central [label=2; weight=2; penwidth=0.4];
+	"AnnotatedHandlerAttributes_29266" -> "SimpleHandlerAttributes_29024" [label=8; weight=8; penwidth=0.3; color = 3]
+	"MethodInvokingMessageHandlingMember_28373" -> "AnnotatedHandlerAttributes_29266" [label=2; weight=2; penwidth=0.3; color = 3]
 }

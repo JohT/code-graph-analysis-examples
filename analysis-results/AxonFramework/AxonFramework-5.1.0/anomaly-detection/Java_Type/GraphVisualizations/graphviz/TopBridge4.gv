@@ -12,21 +12,15 @@ strict digraph TopBridge4 {
     central [fontsize = 16;];
     central [color = 7; fillcolor = 5; penwidth = 3;];
 
-	graph   [label="Top Rank #4 Java Type Bridge\norg.axonframework.messaging.eventstreaming.EventTypeRestrictableOrEventCriteria\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
-	central [label="🌉 bridge #4\nEventTypeRestrictableOrEventCriteria"];
-	"OrEventCriteriaBuilder_26249" [label = "OrEventCriteriaBuilder"; ]; "OrEventCriteriaBuilder_26249" -> central [label=2; weight=2; penwidth=0.4];
-	"EventCriteria_22975" [label = "EventCriteria"; color = 5; fillcolor = 1; ]; central -> "EventCriteria_22975" [label=4; weight=4; penwidth=0.5; color = 5];
-	"EventTypeRestrictableEventCriteria_22983" [label = "EventTypeRestrictableEventCriteria"; color = 5; fillcolor = 1; ]; central -> "EventTypeRestrictableEventCriteria_22983" [label=4; weight=4; penwidth=0.5; color = 5];
-	"OrEventCriteria_26248" [label = "OrEventCriteria"; color = 5; fillcolor = 1; ]; central -> "OrEventCriteria_26248" [label=2; weight=2; penwidth=0.4; color = 5];
-	"QualifiedName_17271" [label = "QualifiedName"; color = 5; fillcolor = 1; ]; central -> "QualifiedName_17271" [label=1; weight=1; penwidth=0.4; color = 5];
-	"OrEventCriteria_26248" -> "EventCriteria_22975" [label=12; weight=12; penwidth=0.3; color = 3]
-	"EventTypeRestrictableEventCriteria_22983" -> "EventCriteria_22975" [label=6; weight=6; penwidth=0.3; color = 3]
-	"OrEventCriteriaBuilder_26249" -> "EventTypeRestrictableEventCriteria_22983" [label=6; weight=6; penwidth=0.3; color = 3]
-	"OrEventCriteriaBuilder_26249" -> "EventCriteria_22975" [label=6; weight=6; penwidth=0.3; color = 3]
-	"EventCriteria_22975" -> "OrEventCriteria_26248" [label=4; weight=4; penwidth=0.3; color = 3]
-	"EventCriteria_22975" -> "EventTypeRestrictableEventCriteria_22983" [label=4; weight=4; penwidth=0.3; color = 3]
-	"EventCriteria_22975" -> "OrEventCriteriaBuilder_26249" [label=3; weight=3; penwidth=0.3; color = 3]
-	"EventTypeRestrictableEventCriteria_22983" -> "QualifiedName_17271" [label=3; weight=3; penwidth=0.3; color = 3]
-	"OrEventCriteria_26248" -> "QualifiedName_17271" [label=2; weight=2; penwidth=0.3; color = 3]
-	"EventCriteria_22975" -> "QualifiedName_17271" [label=1; weight=1; penwidth=0.3; color = 3]
+	graph   [label="Top Rank #4 Java Type Bridge\norg.axonframework.common.TypeReflectionUtils\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
+	central [label="🌉 bridge #4\nTypeReflectionUtils"];
+	"TypeReflectionUtils$VarMap_41425" [label = "TypeReflectionUtils$\nVarMap"; ]; "TypeReflectionUtils$VarMap_41425" -> central [label=2; weight=2; penwidth=0.4];
+	"ReflectionUtils_41061" [label = "ReflectionUtils"; ]; "ReflectionUtils_41061" -> central [label=1; weight=1; penwidth=0.4];
+	"TypeReflectionUtils$VarMap_41425" [label = "TypeReflectionUtils$\nVarMap"; color = 5; fillcolor = 1; ]; central -> "TypeReflectionUtils$VarMap_41425" [label=5; weight=5; penwidth=0.5; color = 5];
+	"TypeReflectionUtils$VarMap$ParameterizedTypeImpl_41110" [label = "TypeReflectionUtils$\nVarMap$\nParameterizedTypeImpl"; color = 5; fillcolor = 1; ]; central -> "TypeReflectionUtils$VarMap$ParameterizedTypeImpl_41110" [label=1; weight=1; penwidth=0.4; color = 5];
+	"TypeReflectionUtils$VarMap$UnresolvedTypeVariableException_41983" [label = "TypeReflectionUtils$\nVarMap$\nUnresolvedTypeVariableException"; color = 5; fillcolor = 1; ]; central -> "TypeReflectionUtils$VarMap$UnresolvedTypeVariableException_41983" [label=1; weight=1; penwidth=0.4; color = 5];
+	"TypeReflectionUtils$VarMap_41425" -> "TypeReflectionUtils$VarMap$ParameterizedTypeImpl_41110" [label=3; weight=3; penwidth=0.3; color = 3]
+	"TypeReflectionUtils$VarMap_41425" -> "TypeReflectionUtils$VarMap$UnresolvedTypeVariableException_41983" [label=3; weight=3; penwidth=0.3; color = 3]
+	"TypeReflectionUtils$VarMap$ParameterizedTypeImpl_41110" -> "TypeReflectionUtils$VarMap_41425" [label=1; weight=1; penwidth=0.3; color = 3]
+	"TypeReflectionUtils$VarMap$UnresolvedTypeVariableException_41983" -> "TypeReflectionUtils$VarMap_41425" [label=1; weight=1; penwidth=0.3; color = 3]
 }

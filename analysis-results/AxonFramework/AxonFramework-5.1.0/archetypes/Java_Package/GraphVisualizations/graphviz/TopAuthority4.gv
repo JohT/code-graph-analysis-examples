@@ -17,8 +17,8 @@ strict digraph TopAuthority4 {
 	"jdbc_16853"  [label = "jdbc\n(0.05%)"; penwidth = 2; ]; "jdbc_16853" -> central [label=1; weight=1; penwidth=0.4];
 	"tx_42032"  [label = "tx\n(0.28%)"; penwidth = 2; ]; "tx_42032" -> central [label=1; weight=1; penwidth=0.4];
 	"jdbc_42028"  [label = "jdbc\n(0.52%)"; penwidth = 2; ]; "jdbc_42028" -> central [label=0; weight=0; penwidth=0.4];
-	"jpa_16854"  [label = "jpa\n(0.05%)"; penwidth = 2; ]; "jpa_16854" -> central [label=0; weight=0; penwidth=0.4];
 	"jpa_42037"  [label = "jpa\n(0.39%)"; penwidth = 2; ]; "jpa_42037" -> central [label=0; weight=0; penwidth=0.4];
+	"jpa_16854"  [label = "jpa\n(0.05%)"; penwidth = 2; ]; "jpa_16854" -> central [label=0; weight=0; penwidth=0.4];
 	"jpa_16854" -> "jpa_42037" [label=6; weight=6; penwidth=0.3; color = 3]
 	"jdbc_16853" -> "jdbc_42028" [label=2; weight=2; penwidth=0.3; color = 3]
 	"jdbc_16853" -> "tx_42032" [label=1; weight=1; penwidth=0.3; color = 3]

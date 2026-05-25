@@ -27,9 +27,9 @@ strict digraph TopBottleneck1 {
 	"tracing_16858"  [label = "tracing\n(25.0)"; penwidth = 2; ]; "tracing_16858" -> central [label=5; weight=5; penwidth=0.5];
 	"configuration_16833"  [label = "configuration\n(104.5)"; penwidth = 2; ]; "configuration_16833" -> central [label=4; weight=4; penwidth=0.5];
 	"reflection_16843"  [label = "reflection\n(0.0)"; penwidth = 2; ]; "reflection_16843" -> central [label=3; weight=3; penwidth=0.4];
-	"configuration_16840"  [label = "configuration\n(28.04)"; penwidth = 2; ]; "configuration_16840" -> central [label=2; weight=2; penwidth=0.4];
 	"configuration_16812"  [label = "configuration\n(27.32)"; penwidth = 2; ]; "configuration_16812" -> central [label=2; weight=2; penwidth=0.4];
 	"configuration_16856"  [label = "configuration\n(71.5)"; penwidth = 2; ]; "configuration_16856" -> central [label=2; weight=2; penwidth=0.4];
+	"configuration_16840"  [label = "configuration\n(28.04)"; penwidth = 2; ]; "configuration_16840" -> central [label=2; weight=2; penwidth=0.4];
 	"annotation_16851"  [label = "annotation\n(0.0)"; penwidth = 2; ]; "annotation_16851" -> central [label=1; weight=1; penwidth=0.4];
 	"annotation_16823"  [label = "annotation\n(0.0)"; penwidth = 2; ]; "annotation_16823" -> central [label=1; weight=1; penwidth=0.4];
 	"configuration_30"  [label = "configuration\n(0.0)"; penwidth = 2; ]; "configuration_30" -> central [label=1; weight=1; penwidth=0.4];
@@ -41,9 +41,9 @@ strict digraph TopBottleneck1 {
 	"annotation_42027"  [label = "annotation\n(15.33)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "annotation_42027" [label=17; weight=17; penwidth=0.7; color = 5];
 	"unitofwork_16850"  [label = "unitofwork\n(399.08)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "unitofwork_16850" [label=14; weight=14; penwidth=0.6; color = 5];
 	"annotation_16845"  [label = "annotation\n(0.0)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "annotation_16845" [label=4; weight=4; penwidth=0.5; color = 5];
+	"annotation_16807"  [label = "annotation\n(231.28)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "annotation_16807" [label=1; weight=1; penwidth=0.4; color = 5];
 	"annotation_16836"  [label = "annotation\n(146.4)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "annotation_16836" [label=1; weight=1; penwidth=0.4; color = 5];
 	"annotation_16814"  [label = "annotation\n(239.04)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "annotation_16814" [label=1; weight=1; penwidth=0.4; color = 5];
-	"annotation_16807"  [label = "annotation\n(231.28)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "annotation_16807" [label=1; weight=1; penwidth=0.4; color = 5];
 	"sequencing_16847"  [label = "sequencing\n(412.64)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "sequencing_16847" [label=1; weight=1; penwidth=0.4; color = 5];
 	"util_42029"  [label = "util\n(95.0)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "util_42029" [label=1; weight=1; penwidth=0.4; color = 5];
 	"queryhandling_16835" -> "core_16841" [label=130; weight=130; penwidth=0.3; color = 3]
@@ -60,11 +60,11 @@ strict digraph TopBottleneck1 {
 	"annotation_16836" -> "queryhandling_16835" [label=14; weight=14; penwidth=0.3; color = 3]
 	"annotation_16807" -> "common_42025" [label=14; weight=14; penwidth=0.3; color = 3]
 	"unitofwork_16850" -> "common_42025" [label=11; weight=11; penwidth=0.3; color = 3]
-	"annotation_16845" -> "common_42025" [label=10; weight=10; penwidth=0.3; color = 3]
 	"annotation_16845" -> "unitofwork_16850" [label=10; weight=10; penwidth=0.3; color = 3]
+	"annotation_16845" -> "common_42025" [label=10; weight=10; penwidth=0.3; color = 3]
 	"annotation_8314" -> "core_16841" [label=10; weight=10; penwidth=0.3; color = 3]
-	"configuration_16840" -> "queryhandling_16835" [label=10; weight=10; penwidth=0.3; color = 3]
 	"configuration_16856" -> "queryhandling_16835" [label=10; weight=10; penwidth=0.3; color = 3]
+	"configuration_16840" -> "queryhandling_16835" [label=10; weight=10; penwidth=0.3; color = 3]
 	"configuration_16856" -> "core_16841" [label=9; weight=9; penwidth=0.3; color = 3]
 	"queryhandling_16835" -> "unitofwork_16850" [label=9; weight=9; penwidth=0.3; color = 3]
 	"tracing_16858" -> "core_16841" [label=9; weight=9; penwidth=0.3; color = 3]
@@ -77,21 +77,21 @@ strict digraph TopBottleneck1 {
 	"core_16841" -> "annotation_42027" [label=7; weight=7; penwidth=0.3; color = 3]
 	"timeout_16855" -> "core_16841" [label=7; weight=7; penwidth=0.3; color = 3]
 	"annotation_8316" -> "annotation_8314" [label=6; weight=6; penwidth=0.3; color = 3]
-	"configuration_16840" -> "core_16841" [label=6; weight=6; penwidth=0.3; color = 3]
 	"configuration_16812" -> "core_16841" [label=6; weight=6; penwidth=0.3; color = 3]
 	"configuration_16856" -> "unitofwork_16850" [label=6; weight=6; penwidth=0.3; color = 3]
+	"configuration_16840" -> "core_16841" [label=6; weight=6; penwidth=0.3; color = 3]
 	"configuration_16833" -> "unitofwork_16850" [label=5; weight=5; penwidth=0.3; color = 3]
 	"core_16841" -> "unitofwork_16850" [label=5; weight=5; penwidth=0.3; color = 3]
-	"annotation_16814" -> "annotation_42027" [label=4; weight=4; penwidth=0.3; color = 3]
 	"annotation_16814" -> "unitofwork_16850" [label=4; weight=4; penwidth=0.3; color = 3]
 	"annotation_16814" -> "common_42025" [label=4; weight=4; penwidth=0.3; color = 3]
+	"annotation_16814" -> "annotation_42027" [label=4; weight=4; penwidth=0.3; color = 3]
 	"annotation_16845" -> "annotation_42027" [label=4; weight=4; penwidth=0.3; color = 3]
 	"annotation_8314" -> "common_42025" [label=4; weight=4; penwidth=0.3; color = 3]
 	"annotation_42027" -> "common_42025" [label=4; weight=4; penwidth=0.3; color = 3]
 	"configuration_16833" -> "annotation_42027" [label=4; weight=4; penwidth=0.3; color = 3]
+	"configuration_16833" -> "core_16841" [label=4; weight=4; penwidth=0.3; color = 3]
 	"configuration_16833" -> "configuration_16856" [label=4; weight=4; penwidth=0.3; color = 3]
 	"configuration_16833" -> "annotation_16814" [label=4; weight=4; penwidth=0.3; color = 3]
-	"configuration_16833" -> "core_16841" [label=4; weight=4; penwidth=0.3; color = 3]
 	"configuration_30" -> "annotation_8316" [label=4; weight=4; penwidth=0.3; color = 3]
 	"reflection_21" -> "annotation_42027" [label=4; weight=4; penwidth=0.3; color = 3]
 	"reflection_21" -> "unitofwork_16850" [label=4; weight=4; penwidth=0.3; color = 3]
@@ -107,33 +107,33 @@ strict digraph TopBottleneck1 {
 	"annotation_16814" -> "annotation_16845" [label=2; weight=2; penwidth=0.3; color = 3]
 	"annotation_8314" -> "annotation_8316" [label=2; weight=2; penwidth=0.3; color = 3]
 	"annotation_8316" -> "unitofwork_16850" [label=2; weight=2; penwidth=0.3; color = 3]
-	"annotation_16816" -> "core_16841" [label=2; weight=2; penwidth=0.3; color = 3]
 	"annotation_16816" -> "annotation_42027" [label=2; weight=2; penwidth=0.3; color = 3]
-	"configuration_16840" -> "annotation_16836" [label=2; weight=2; penwidth=0.3; color = 3]
+	"annotation_16816" -> "core_16841" [label=2; weight=2; penwidth=0.3; color = 3]
 	"configuration_16812" -> "annotation_16807" [label=2; weight=2; penwidth=0.3; color = 3]
-	"configuration_16856" -> "annotation_16807" [label=2; weight=2; penwidth=0.3; color = 3]
 	"configuration_16856" -> "reflection_16857" [label=2; weight=2; penwidth=0.3; color = 3]
+	"configuration_16856" -> "annotation_16807" [label=2; weight=2; penwidth=0.3; color = 3]
+	"configuration_16840" -> "annotation_16836" [label=2; weight=2; penwidth=0.3; color = 3]
 	"sequencing_16847" -> "common_42025" [label=2; weight=2; penwidth=0.3; color = 3]
 	"timeout_16855" -> "common_42025" [label=2; weight=2; penwidth=0.3; color = 3]
 	"annotation_16814" -> "reflection_16857" [label=1; weight=1; penwidth=0.3; color = 3]
-	"annotation_16836" -> "annotation_42027" [label=1; weight=1; penwidth=0.3; color = 3]
 	"annotation_16836" -> "unitofwork_16850" [label=1; weight=1; penwidth=0.3; color = 3]
 	"annotation_16836" -> "util_42029" [label=1; weight=1; penwidth=0.3; color = 3]
+	"annotation_16836" -> "annotation_42027" [label=1; weight=1; penwidth=0.3; color = 3]
 	"annotation_16807" -> "reflection_16857" [label=1; weight=1; penwidth=0.3; color = 3]
 	"annotation_16807" -> "unitofwork_16850" [label=1; weight=1; penwidth=0.3; color = 3]
 	"annotation_8314" -> "reflection_16857" [label=1; weight=1; penwidth=0.3; color = 3]
 	"annotation_8314" -> "unitofwork_16850" [label=1; weight=1; penwidth=0.3; color = 3]
 	"annotation_8316" -> "annotation_16807" [label=1; weight=1; penwidth=0.3; color = 3]
 	"annotation_16816" -> "unitofwork_16850" [label=1; weight=1; penwidth=0.3; color = 3]
-	"annotation_16851" -> "unitofwork_16850" [label=1; weight=1; penwidth=0.3; color = 3]
 	"annotation_16851" -> "common_42025" [label=1; weight=1; penwidth=0.3; color = 3]
-	"annotation_16823" -> "core_16841" [label=1; weight=1; penwidth=0.3; color = 3]
+	"annotation_16851" -> "unitofwork_16850" [label=1; weight=1; penwidth=0.3; color = 3]
 	"annotation_16823" -> "unitofwork_16850" [label=1; weight=1; penwidth=0.3; color = 3]
-	"configuration_16840" -> "common_42025" [label=1; weight=1; penwidth=0.3; color = 3]
+	"annotation_16823" -> "core_16841" [label=1; weight=1; penwidth=0.3; color = 3]
 	"configuration_16812" -> "common_42025" [label=1; weight=1; penwidth=0.3; color = 3]
-	"configuration_30" -> "annotation_8314" [label=1; weight=1; penwidth=0.3; color = 3]
-	"configuration_30" -> "configuration_16833" [label=1; weight=1; penwidth=0.3; color = 3]
+	"configuration_16840" -> "common_42025" [label=1; weight=1; penwidth=0.3; color = 3]
 	"configuration_30" -> "annotation_42027" [label=1; weight=1; penwidth=0.3; color = 3]
+	"configuration_30" -> "configuration_16833" [label=1; weight=1; penwidth=0.3; color = 3]
+	"configuration_30" -> "annotation_8314" [label=1; weight=1; penwidth=0.3; color = 3]
 	"configuration_30" -> "configuration_16856" [label=1; weight=1; penwidth=0.3; color = 3]
 	"queryhandling_16835" -> "annotation_42027" [label=1; weight=1; penwidth=0.3; color = 3]
 	"reflection_16857" -> "common_42025" [label=1; weight=1; penwidth=0.3; color = 3]

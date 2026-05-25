@@ -12,34 +12,14 @@ strict digraph TopBridge5 {
     central [fontsize = 16;];
     central [color = 7; fillcolor = 5; penwidth = 3;];
 
-	graph   [label="Top Rank #5 Java Type Bridge\norg.axonframework.messaging.eventstreaming.EventTypeRestrictableEventCriteria\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
-	central [label="🌉 bridge #5\nEventTypeRestrictableEventCriteria"];
-	"OrEventCriteriaBuilder_26249" [label = "OrEventCriteriaBuilder"; ]; "OrEventCriteriaBuilder_26249" -> central [label=6; weight=6; penwidth=0.5];
-	"EventCriteria_22975" [label = "EventCriteria"; ]; "EventCriteria_22975" -> central [label=4; weight=4; penwidth=0.5];
-	"EventTypeRestrictableOrEventCriteria_26250" [label = "EventTypeRestrictableOrEventCriteria"; ]; "EventTypeRestrictableOrEventCriteria_26250" -> central [label=4; weight=4; penwidth=0.5];
-	"AnyEvent_26247" [label = "AnyEvent"; ]; "AnyEvent_26247" -> central [label=1; weight=1; penwidth=0.4];
-	"PooledStreamingEventProcessorConfiguration_21998" [label = "PooledStreamingEventProcessorConfiguration"; ]; "PooledStreamingEventProcessorConfiguration_21998" -> central [label=1; weight=1; penwidth=0.4];
-	"TagFilteredEventCriteria_26260" [label = "TagFilteredEventCriteria"; ]; "TagFilteredEventCriteria_26260" -> central [label=1; weight=1; penwidth=0.4];
-	"EventCriteria_22975" [label = "EventCriteria"; color = 5; fillcolor = 1; ]; central -> "EventCriteria_22975" [label=6; weight=6; penwidth=0.5; color = 5];
-	"QualifiedName_17271" [label = "QualifiedName"; color = 5; fillcolor = 1; ]; central -> "QualifiedName_17271" [label=3; weight=3; penwidth=0.4; color = 5];
-	"MessageTypeResolver_17267" [label = "MessageTypeResolver"; color = 5; fillcolor = 1; ]; central -> "MessageTypeResolver_17267" [label=2; weight=2; penwidth=0.4; color = 5];
-	"MessageType_17275" [label = "MessageType"; color = 5; fillcolor = 1; ]; central -> "MessageType_17275" [label=1; weight=1; penwidth=0.4; color = 5];
-	"MessageType_17275" -> "QualifiedName_17271" [label=15; weight=15; penwidth=0.3; color = 3]
-	"OrEventCriteriaBuilder_26249" -> "EventCriteria_22975" [label=6; weight=6; penwidth=0.3; color = 3]
-	"MessageTypeResolver_17267" -> "MessageType_17275" [label=5; weight=5; penwidth=0.3; color = 3]
-	"PooledStreamingEventProcessorConfiguration_21998" -> "EventCriteria_22975" [label=5; weight=5; penwidth=0.3; color = 3]
-	"TagFilteredEventCriteria_26260" -> "EventCriteria_22975" [label=5; weight=5; penwidth=0.3; color = 3]
-	"AnyEvent_26247" -> "EventCriteria_22975" [label=4; weight=4; penwidth=0.3; color = 3]
-	"EventTypeRestrictableOrEventCriteria_26250" -> "EventCriteria_22975" [label=4; weight=4; penwidth=0.3; color = 3]
-	"EventCriteria_22975" -> "OrEventCriteriaBuilder_26249" [label=3; weight=3; penwidth=0.3; color = 3]
-	"PooledStreamingEventProcessorConfiguration_21998" -> "QualifiedName_17271" [label=3; weight=3; penwidth=0.3; color = 3]
-	"TagFilteredEventCriteria_26260" -> "QualifiedName_17271" [label=3; weight=3; penwidth=0.3; color = 3]
-	"AnyEvent_26247" -> "QualifiedName_17271" [label=2; weight=2; penwidth=0.3; color = 3]
-	"EventCriteria_22975" -> "TagFilteredEventCriteria_26260" [label=2; weight=2; penwidth=0.3; color = 3]
-	"EventCriteria_22975" -> "AnyEvent_26247" [label=2; weight=2; penwidth=0.3; color = 3]
-	"OrEventCriteriaBuilder_26249" -> "EventTypeRestrictableOrEventCriteria_26250" [label=2; weight=2; penwidth=0.3; color = 3]
-	"OrEventCriteriaBuilder_26249" -> "TagFilteredEventCriteria_26260" [label=2; weight=2; penwidth=0.3; color = 3]
-	"EventCriteria_22975" -> "QualifiedName_17271" [label=1; weight=1; penwidth=0.3; color = 3]
-	"EventTypeRestrictableOrEventCriteria_26250" -> "QualifiedName_17271" [label=1; weight=1; penwidth=0.3; color = 3]
-	"TagFilteredEventCriteria_26260" -> "AnyEvent_26247" [label=1; weight=1; penwidth=0.3; color = 3]
+	graph   [label="Top Rank #5 Java Type Bridge\norg.axonframework.common.TypeReflectionUtils$VarMap\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
+	central [label="🌉 bridge #5\nTypeReflectionUtils$VarMap"];
+	"TypeReflectionUtils_41113" [label = "TypeReflectionUtils"; ]; "TypeReflectionUtils_41113" -> central [label=5; weight=5; penwidth=0.5];
+	"TypeReflectionUtils$VarMap$ParameterizedTypeImpl_41110" [label = "TypeReflectionUtils$\nVarMap$\nParameterizedTypeImpl"; ]; "TypeReflectionUtils$VarMap$ParameterizedTypeImpl_41110" -> central [label=1; weight=1; penwidth=0.4];
+	"TypeReflectionUtils$VarMap$UnresolvedTypeVariableException_41983" [label = "TypeReflectionUtils$\nVarMap$\nUnresolvedTypeVariableException"; ]; "TypeReflectionUtils$VarMap$UnresolvedTypeVariableException_41983" -> central [label=1; weight=1; penwidth=0.4];
+	"TypeReflectionUtils$VarMap$ParameterizedTypeImpl_41110" [label = "TypeReflectionUtils$\nVarMap$\nParameterizedTypeImpl"; color = 5; fillcolor = 1; ]; central -> "TypeReflectionUtils$VarMap$ParameterizedTypeImpl_41110" [label=3; weight=3; penwidth=0.4; color = 5];
+	"TypeReflectionUtils$VarMap$UnresolvedTypeVariableException_41983" [label = "TypeReflectionUtils$\nVarMap$\nUnresolvedTypeVariableException"; color = 5; fillcolor = 1; ]; central -> "TypeReflectionUtils$VarMap$UnresolvedTypeVariableException_41983" [label=3; weight=3; penwidth=0.4; color = 5];
+	"TypeReflectionUtils_41113" [label = "TypeReflectionUtils"; color = 5; fillcolor = 1; ]; central -> "TypeReflectionUtils_41113" [label=2; weight=2; penwidth=0.4; color = 5];
+	"TypeReflectionUtils_41113" -> "TypeReflectionUtils$VarMap$ParameterizedTypeImpl_41110" [label=1; weight=1; penwidth=0.3; color = 3]
+	"TypeReflectionUtils_41113" -> "TypeReflectionUtils$VarMap$UnresolvedTypeVariableException_41983" [label=1; weight=1; penwidth=0.3; color = 3]
 }
