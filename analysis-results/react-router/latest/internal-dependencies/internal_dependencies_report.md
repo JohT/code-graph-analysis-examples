@@ -1,6 +1,6 @@
 ---
 title: "Internal Dependencies Report"
-generated: "2026-05-17"
+generated: "2026-05-25"
 model_version: "v4.0.1"
 dataset: "react-router-7.15.1"
 authors: ["JohT/code-graph-analysis-pipeline"]
@@ -78,8 +78,8 @@ Classes used across artifacts — extraction candidates. High reuse = type grown
 | directoryDistance | numberOfDependencies | percentageOfDependencies | numberOfDependencyUsers | numberOfDependencyProviders | examples |
 | --- | --- | --- | --- | --- | --- |
 | 0 | 150 | 41.21 | 69 | 86 | ["./index.ts uses ./copy-template.ts","./index.ts uses ./loading-indicator.ts","./index.ts uses ./prompt.ts","./prompt.ts uses ./prompts-confirm.ts"] |
-| 3 | 42 | 11.54 | 22 | 32 | ["./index.ts uses ./sessions/arcTableSessionStorage.ts","./index.ts uses ./sessions/fileStorage.ts","./vite/plugin.ts uses ./config.ts","./config/config.ts uses ./config.ts"] |
-| 4 | 121 | 33.24 | 43 | 41 | ["./vite/rsc/virtual-route-config.ts uses ./routes.ts","./config/config.ts uses ./cli/detectPackageManager.ts","./vite/optimize-deps-entries.ts uses ./config/config.ts","./cli/commands.ts uses ./config/config.ts"] |
+| 3 | 42 | 11.54 | 22 | 32 | ["./index.ts uses ./sessions/arcTableSessionStorage.ts","./index.ts uses ./sessions/fileStorage.ts","./config/config.ts uses ./config.ts","./vite/plugin.ts uses ./config.ts"] |
+| 4 | 121 | 33.24 | 43 | 41 | ["./vite/rsc/virtual-route-config.ts uses ./routes.ts","./config/config.ts uses ./cli/detectPackageManager.ts","./vite/optimize-deps-entries.ts uses ./config/config.ts","./typegen/generate.ts uses ./config/config.ts"] |
 | 5 | 50 | 13.74 | 24 | 18 | ["./vite/rsc/plugin.ts uses ./config/config.ts","./vite/rsc/plugin.ts uses ./config/routes.ts","./vite/rsc/virtual-route-config.ts uses ./config/routes.ts","./vite/rsc/plugin.ts uses ./typegen/index.ts"] |
 | 6 | 1 | 0.27 | 1 | 1 | ["./lib/server-runtime/single-fetch.ts uses ./vendor/turbo-stream-v2/turbo-stream.ts"] |
 
@@ -207,11 +207,11 @@ Graph diameter = longest shortest path among module pairs. Higher = deeper trans
 | distance | pairCount | sourceNodeCount | targetNodeCount | examples |
 | --- | --- | --- | --- | --- |
 | 6 | 3 | 1 | 3 | ["./lib/server-runtime/serverHandoff.ts ->./vendor/turbo-stream-v2/flatten.ts","./lib/server-runtime/serverHandoff.ts ->./vendor/turbo-stream-v2/unflatten.ts"] |
-| 5 | 120 | 36 | 6 | ["./dom-export.ts ->./lib/types/utils.ts","./index-react-server-client.ts ->./lib/types/utils.ts"] |
+| 5 | 120 | 36 | 6 | ["./typegen/index.ts ->./config/is-react-router-repo.ts","./dom-export.ts ->./lib/types/utils.ts"] |
 | 4 | 146 | 43 | 44 | ["./cli/run.ts ->./manifest.ts","./cli/run.ts ->./routes.ts"] |
 | 3 | 537 | 50 | 77 | ["./index.ts ->./prompts-prompt-base.ts","./cli/run.ts ->./config.ts"] |
-| 2 | 983 | 61 | 98 | ["./index-react-server-client.ts ->./dom-export.ts","./lib/context.ts ->./dom-export.ts"] |
-| 1 | 348 | 88 | 116 | ["./index.ts ->./copy-template.ts","./vite/rsc/virtual-route-config.ts ->./routes.ts"] |
+| 2 | 983 | 61 | 98 | ["./index.ts ->./prompts-confirm.ts","./index.ts ->./prompts-multi-select.ts"] |
+| 1 | 348 | 88 | 116 | ["./vite/rsc/virtual-route-config.ts ->./routes.ts","./vite/rsc/virtual-route-config.ts ->./config/routes.ts"] |
 
 [Full data per project](./Typescript_Module/Module_all_pairs_shortest_paths_distribution_per_project.csv)
 

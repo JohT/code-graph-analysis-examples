@@ -31,7 +31,7 @@ strict digraph TopAuthority4 {
 	"commands_15429" -> "build_15448" [label=14; weight=14; penwidth=0.3; color = 3]
 	"plugin_15475" -> "routes_15439" [label=12; weight=12; penwidth=0.3; color = 3]
 	"plugin_15459" -> "optimize-deps-entries_15458" [label=7; weight=7; penwidth=0.3; color = 3]
-	"plugin_15475" -> "optimize-deps-entries_15458" [label=7; weight=7; penwidth=0.3; color = 3]
 	"plugin_15475" -> "plugin_15459" [label=7; weight=7; penwidth=0.3; color = 3]
+	"plugin_15475" -> "optimize-deps-entries_15458" [label=7; weight=7; penwidth=0.3; color = 3]
 	"plugin_15459" -> "config_15422" [label=3; weight=3; penwidth=0.3; color = 3]
 }
