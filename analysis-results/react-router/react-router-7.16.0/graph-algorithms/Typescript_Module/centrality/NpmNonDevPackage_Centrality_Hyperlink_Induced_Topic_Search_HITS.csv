@@ -1,0 +1,8 @@
+"codeUnitName","shortCodeUnitName","centralityHyperlinkInducedTopicSearchAuthority","centralityHyperlinkInducedTopicSearchHub","incomingDependencies","outgoingDependencies","Source Cypher File: domains/graph-algorithms/queries/centrality/Centrality_9d_Hyperlink_Induced_Topic_Search_HITS_Stream_Mutated.cypher"
+"react-router","react-router",0.8135587631300957,0,36,0,""
+"@react-router/node","@react-router/node",0.5219684619208722,0.28120327451418947,22,1,""
+"@react-router/serve","@react-router/serve",0.1812057721130701,0.5242525859168274,16,3,""
+"@react-router/express","@react-router/express",0.18120577211307007,0.46161954846662545,8,2,""
+"@react-router/cloudflare","@react-router/cloudflare",0,0.28120327451418947,1,1,""
+"@react-router/dev","@react-router/dev",0,0.5242525859168274,25,3,""
+"react-router-dom","react-router-dom",0,0.28120327451418947,23,1,""
