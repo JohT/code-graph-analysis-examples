@@ -70,6 +70,22 @@ Report | Analysis | Description
 | [java_report.md](./AxonFramework/AxonFramework-5.1.0/java/java_report.md) | AxonFramework-5.1.0 | ☕ Java Report |
 | [node_embeddings_report.md](./AxonFramework/AxonFramework-5.1.0/node-embeddings/node_embeddings_report.md) | AxonFramework-5.1.0 | 🧬 Node Embeddings Report |
 | [overview_report.md](./AxonFramework/AxonFramework-5.1.0/overview/overview_report.md) | AxonFramework-5.1.0 | Overview Report |
+| [GraphVisualizationsReferenceForSummary.md](./AxonFramework/AxonFramework-5.1.1/anomaly-detection/Java_Package/GraphVisualizations/GraphVisualizationsReferenceForSummary.md) | AxonFramework-5.1.1 | Graph Visualizations |
+| [GraphVisualizationsReferenceForSummary.md](./AxonFramework/AxonFramework-5.1.1/anomaly-detection/Java_Type/GraphVisualizations/GraphVisualizationsReferenceForSummary.md) | AxonFramework-5.1.1 | Graph Visualizations |
+| [anomaly_detection_report.md](./AxonFramework/AxonFramework-5.1.1/anomaly-detection/anomaly_detection_report.md) | AxonFramework-5.1.1 | 📊 Anomaly Detection Report |
+| [GraphVisualizationsReferenceForSummary.md](./AxonFramework/AxonFramework-5.1.1/archetypes/Java_Artifact/GraphVisualizations/GraphVisualizationsReferenceForSummary.md) | AxonFramework-5.1.1 | Graph Visualizations |
+| [GraphVisualizationsReferenceForSummary.md](./AxonFramework/AxonFramework-5.1.1/archetypes/Java_Package/GraphVisualizations/GraphVisualizationsReferenceForSummary.md) | AxonFramework-5.1.1 | Graph Visualizations |
+| [GraphVisualizationsReferenceForSummary.md](./AxonFramework/AxonFramework-5.1.1/archetypes/Java_Type/GraphVisualizations/GraphVisualizationsReferenceForSummary.md) | AxonFramework-5.1.1 | Graph Visualizations |
+| [archetypes_report.md](./AxonFramework/AxonFramework-5.1.1/archetypes/archetypes_report.md) | AxonFramework-5.1.1 | 📊 Archetypes Report |
+| [GraphVisualizationsReferenceForSummary.md](./AxonFramework/AxonFramework-5.1.1/cyclic-dependencies/Java_Package/Graph_Visualizations/GraphVisualizationsReferenceForSummary.md) | AxonFramework-5.1.1 | Graph Visualizations |
+| [cyclic_dependencies_report.md](./AxonFramework/AxonFramework-5.1.1/cyclic-dependencies/cyclic_dependencies_report.md) | AxonFramework-5.1.1 | ♻️ Cyclic Dependencies Report |
+| [external_dependencies_report.md](./AxonFramework/AxonFramework-5.1.1/external-dependencies/external_dependencies_report.md) | AxonFramework-5.1.1 | 📦 External Dependencies Report |
+| [git_history_report.md](./AxonFramework/AxonFramework-5.1.1/git-history/git_history_report.md) | AxonFramework-5.1.1 | 📜 Git History Report |
+| [graph_algorithms_report.md](./AxonFramework/AxonFramework-5.1.1/graph-algorithms/graph_algorithms_report.md) | AxonFramework-5.1.1 | 📊 Graph Algorithms Report |
+| [internal_dependencies_report.md](./AxonFramework/AxonFramework-5.1.1/internal-dependencies/internal_dependencies_report.md) | AxonFramework-5.1.1 | 🔗 Internal Dependencies Report |
+| [java_report.md](./AxonFramework/AxonFramework-5.1.1/java/java_report.md) | AxonFramework-5.1.1 | ☕ Java Report |
+| [node_embeddings_report.md](./AxonFramework/AxonFramework-5.1.1/node-embeddings/node_embeddings_report.md) | AxonFramework-5.1.1 | 🧬 Node Embeddings Report |
+| [overview_report.md](./AxonFramework/AxonFramework-5.1.1/overview/overview_report.md) | AxonFramework-5.1.1 | Overview Report |
 | [GraphVisualizationsReferenceForSummary.md](./AxonFramework/latest/anomaly-detection/Java_Package/GraphVisualizations/GraphVisualizationsReferenceForSummary.md) | latest | Graph Visualizations |
 | [GraphVisualizationsReferenceForSummary.md](./AxonFramework/latest/anomaly-detection/Java_Type/GraphVisualizations/GraphVisualizationsReferenceForSummary.md) | latest | Graph Visualizations |
 | [anomaly_detection_report.md](./AxonFramework/latest/anomaly-detection/anomaly_detection_report.md) | latest | 📊 Anomaly Detection Report |
