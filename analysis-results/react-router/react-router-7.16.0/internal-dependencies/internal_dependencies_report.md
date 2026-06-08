@@ -79,7 +79,7 @@ Classes used across artifacts — extraction candidates. High reuse = type grown
 | --- | --- | --- | --- | --- | --- |
 | 0 | 150 | 41.21 | 69 | 86 | ["./index.ts uses ./copy-template.ts","./index.ts uses ./loading-indicator.ts","./index.ts uses ./prompt.ts","./prompt.ts uses ./prompts-confirm.ts"] |
 | 3 | 42 | 11.54 | 22 | 32 | ["./index.ts uses ./sessions/arcTableSessionStorage.ts","./index.ts uses ./sessions/fileStorage.ts","./vite/plugin.ts uses ./config.ts","./config/config.ts uses ./config.ts"] |
-| 4 | 121 | 33.24 | 43 | 41 | ["./vite/rsc/virtual-route-config.ts uses ./routes.ts","./config/config.ts uses ./cli/detectPackageManager.ts","./vite/build.ts uses ./config/config.ts","./vite/optimize-deps-entries.ts uses ./config/config.ts"] |
+| 4 | 121 | 33.24 | 43 | 41 | ["./vite/rsc/virtual-route-config.ts uses ./routes.ts","./config/config.ts uses ./cli/detectPackageManager.ts","./vite/cloudflare-dev-proxy.ts uses ./config/config.ts","./vite/build.ts uses ./config/config.ts"] |
 | 5 | 50 | 13.74 | 24 | 18 | ["./vite/rsc/plugin.ts uses ./config/config.ts","./vite/rsc/plugin.ts uses ./config/routes.ts","./vite/rsc/virtual-route-config.ts uses ./config/routes.ts","./vite/rsc/plugin.ts uses ./typegen/index.ts"] |
 | 6 | 1 | 0.27 | 1 | 1 | ["./lib/server-runtime/single-fetch.ts uses ./vendor/turbo-stream-v2/turbo-stream.ts"] |
 

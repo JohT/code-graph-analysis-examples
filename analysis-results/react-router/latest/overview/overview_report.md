@@ -107,9 +107,9 @@ Shows which node labels are connected by each relationship type, with count and 
 | ["Git","Commit"] | CONTAINS_CHANGE | ["Git","Update","Change"] | 59042 |
 | ["Git","Update","Change"] | MODIFIES | ["Git"] | 59042 |
 | ["TS","Union"] | CONTAINS | ["TS","NotIdentified"] | 53911 |
-| ["Git","Change","Create"] | MODIFIES | ["Git"] | 17486 |
 | ["Git","Commit"] | CONTAINS_CHANGE | ["Git","Change","Create"] | 17486 |
 | ["Git","Change","Create"] | CREATES | ["Git"] | 17486 |
+| ["Git","Change","Create"] | MODIFIES | ["Git"] | 17486 |
 | ["Git","Commit"] | HAS_PARENT | ["Git","Commit"] | 12005 |
 | ["Repository","Git"] | HAS_COMMIT | ["Git","Commit"] | 10918 |
 | ["Committer","Person","Git","Author"] | COMMITTED | ["Git","Commit"] | 10918 |
@@ -138,7 +138,7 @@ Shows node labels present on dependency nodes — nodes that represent external 
 | TS,Variable | TS,ExternalDeclaration | 382 | 0.18 |
 | TS,Function | TS,Property | 377 | 0.18 |
 | TS,Function | TS,Interface | 373 | 0.18 |
-| File,TS,Local,Module | TS,ExternalDeclaration | 314 | 0.15 |
+| File,TS,Local,Module | TS,ExternalDeclaration | 310 | 0.15 |
 | TS,Function | TS,TypeAlias | 301 | 0.14 |
 | TS,Function | TS,Variable | 287 | 0.14 |
 | TS,TypeAlias | TS,TypeAlias | 188 | 0.09 |
