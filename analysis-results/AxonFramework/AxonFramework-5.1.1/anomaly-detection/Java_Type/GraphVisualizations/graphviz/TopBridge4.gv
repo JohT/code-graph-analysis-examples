@@ -12,48 +12,77 @@ strict digraph TopBridge4 {
     central [fontsize = 16;];
     central [color = 7; fillcolor = 5; penwidth = 3;];
 
-	graph   [label="Top Rank #4 Java Type Bridge\norg.axonframework.messaging.eventstreaming.TagFilteredEventCriteria\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
-	central [label="🌉 bridge #4\nTagFilteredEventCriteria"];
-	"EventCriteria_5194" [label = "EventCriteria"; ]; "EventCriteria_5194" -> central [label=2; weight=2; penwidth=0.4];
-	"OrEventCriteriaBuilder_19863" [label = "OrEventCriteriaBuilder"; ]; "OrEventCriteriaBuilder_19863" -> central [label=2; weight=2; penwidth=0.4];
-	"EventCriteria_5194" [label = "EventCriteria"; color = 5; fillcolor = 1; ]; central -> "EventCriteria_5194" [label=5; weight=5; penwidth=0.5; color = 5];
-	"OrEventCriteria_19862" [label = "OrEventCriteria"; color = 5; fillcolor = 1; ]; central -> "OrEventCriteria_19862" [label=5; weight=5; penwidth=0.5; color = 5];
-	"Tag_19907" [label = "Tag"; color = 5; fillcolor = 1; ]; central -> "Tag_19907" [label=5; weight=5; penwidth=0.5; color = 5];
-	"QualifiedName_143" [label = "QualifiedName"; color = 5; fillcolor = 1; ]; central -> "QualifiedName_143" [label=3; weight=3; penwidth=0.4; color = 5];
-	"EventCriterion_19874" [label = "EventCriterion"; color = 5; fillcolor = 1; ]; central -> "EventCriterion_19874" [label=2; weight=2; penwidth=0.4; color = 5];
-	"TagAndTypeFilteredEventCriteria_19909" [label = "TagAndTypeFilteredEventCriteria"; color = 5; fillcolor = 1; ]; central -> "TagAndTypeFilteredEventCriteria_19909" [label=2; weight=2; penwidth=0.4; color = 5];
-	"AnyEvent_19861" [label = "AnyEvent"; color = 5; fillcolor = 1; ]; central -> "AnyEvent_19861" [label=1; weight=1; penwidth=0.4; color = 5];
-	"EventTypeRestrictableEventCriteria_5196" [label = "EventTypeRestrictableEventCriteria"; color = 5; fillcolor = 1; ]; central -> "EventTypeRestrictableEventCriteria_5196" [label=1; weight=1; penwidth=0.4; color = 5];
-	"OrEventCriteria_19862" -> "EventCriteria_5194" [label=12; weight=12; penwidth=0.3; color = 3]
-	"EventTypeRestrictableEventCriteria_5196" -> "EventCriteria_5194" [label=6; weight=6; penwidth=0.3; color = 3]
-	"OrEventCriteriaBuilder_19863" -> "EventCriteria_5194" [label=6; weight=6; penwidth=0.3; color = 3]
-	"OrEventCriteriaBuilder_19863" -> "EventTypeRestrictableEventCriteria_5196" [label=6; weight=6; penwidth=0.3; color = 3]
-	"EventCriteria_5194" -> "Tag_19907" [label=5; weight=5; penwidth=0.3; color = 3]
-	"TagAndTypeFilteredEventCriteria_19909" -> "QualifiedName_143" [label=5; weight=5; penwidth=0.3; color = 3]
-	"TagAndTypeFilteredEventCriteria_19909" -> "Tag_19907" [label=5; weight=5; penwidth=0.3; color = 3]
-	"TagAndTypeFilteredEventCriteria_19909" -> "OrEventCriteria_19862" [label=5; weight=5; penwidth=0.3; color = 3]
-	"AnyEvent_19861" -> "EventCriteria_5194" [label=4; weight=4; penwidth=0.3; color = 3]
-	"EventCriteria_5194" -> "EventTypeRestrictableEventCriteria_5196" [label=4; weight=4; penwidth=0.3; color = 3]
-	"EventCriteria_5194" -> "OrEventCriteria_19862" [label=4; weight=4; penwidth=0.3; color = 3]
-	"TagAndTypeFilteredEventCriteria_19909" -> "EventCriteria_5194" [label=4; weight=4; penwidth=0.3; color = 3]
-	"EventCriteria_5194" -> "OrEventCriteriaBuilder_19863" [label=3; weight=3; penwidth=0.3; color = 3]
-	"EventTypeRestrictableEventCriteria_5196" -> "QualifiedName_143" [label=3; weight=3; penwidth=0.3; color = 3]
-	"AnyEvent_19861" -> "TagAndTypeFilteredEventCriteria_19909" [label=2; weight=2; penwidth=0.3; color = 3]
-	"AnyEvent_19861" -> "QualifiedName_143" [label=2; weight=2; penwidth=0.3; color = 3]
-	"EventCriteria_5194" -> "AnyEvent_19861" [label=2; weight=2; penwidth=0.3; color = 3]
-	"OrEventCriteria_19862" -> "QualifiedName_143" [label=2; weight=2; penwidth=0.3; color = 3]
-	"OrEventCriteriaBuilder_19863" -> "Tag_19907" [label=2; weight=2; penwidth=0.3; color = 3]
-	"TagAndTypeFilteredEventCriteria_19909" -> "EventCriterion_19874" [label=2; weight=2; penwidth=0.3; color = 3]
-	"AnyEvent_19861" -> "Tag_19907" [label=1; weight=1; penwidth=0.3; color = 3]
-	"AnyEvent_19861" -> "EventTypeRestrictableEventCriteria_5196" [label=1; weight=1; penwidth=0.3; color = 3]
-	"AnyEvent_19861" -> "EventCriterion_19874" [label=1; weight=1; penwidth=0.3; color = 3]
-	"EventCriteria_5194" -> "EventCriterion_19874" [label=1; weight=1; penwidth=0.3; color = 3]
-	"EventCriteria_5194" -> "QualifiedName_143" [label=1; weight=1; penwidth=0.3; color = 3]
-	"EventCriterion_19874" -> "QualifiedName_143" [label=1; weight=1; penwidth=0.3; color = 3]
-	"EventCriterion_19874" -> "Tag_19907" [label=1; weight=1; penwidth=0.3; color = 3]
-	"EventCriterion_19874" -> "EventCriteria_5194" [label=1; weight=1; penwidth=0.3; color = 3]
-	"OrEventCriteria_19862" -> "AnyEvent_19861" [label=1; weight=1; penwidth=0.3; color = 3]
-	"OrEventCriteria_19862" -> "Tag_19907" [label=1; weight=1; penwidth=0.3; color = 3]
-	"OrEventCriteria_19862" -> "EventCriterion_19874" [label=1; weight=1; penwidth=0.3; color = 3]
-	"TagAndTypeFilteredEventCriteria_19909" -> "AnyEvent_19861" [label=1; weight=1; penwidth=0.3; color = 3]
+	graph   [label="Top Rank #4 Java Type Bridge\norg.axonframework.test.fixture.AxonTestThenMessage\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
+	central [label="🌉 bridge #4\nAxonTestThenMessage"];
+	"AxonTestThenCommand_39868" [label = "AxonTestThenCommand"; ]; "AxonTestThenCommand_39868" -> central [label=5; weight=5; penwidth=0.5];
+	"AxonTestThenEvent_39879" [label = "AxonTestThenEvent"; ]; "AxonTestThenEvent_39879" -> central [label=5; weight=5; penwidth=0.5];
+	"AxonTestThenNothing_39872" [label = "AxonTestThenNothing"; ]; "AxonTestThenNothing_39872" -> central [label=2; weight=2; penwidth=0.4];
+	"AxonAssertionError_39913" [label = "AxonAssertionError"; color = 5; fillcolor = 1; ]; central -> "AxonAssertionError_39913" [label=18; weight=18; penwidth=0.7; color = 5];
+	"AxonTestPhase$Then$MessageAssertions_39902" [label = "AxonTestPhase$\nThen$\nMessageAssertions"; color = 5; fillcolor = 1; ]; central -> "AxonTestPhase$Then$MessageAssertions_39902" [label=15; weight=15; penwidth=0.6; color = 5];
+	"EventMessage_1350" [label = "EventMessage"; color = 5; fillcolor = 1; ]; central -> "EventMessage_1350" [label=10; weight=10; penwidth=0.5; color = 5];
+	"RecordingComponentsRegistry_39869" [label = "RecordingComponentsRegistry"; color = 5; fillcolor = 1; ]; central -> "RecordingComponentsRegistry_39869" [label=10; weight=10; penwidth=0.5; color = 5];
+	"Reporter_39759" [label = "Reporter"; color = 5; fillcolor = 1; ]; central -> "Reporter_39759" [label=8; weight=8; penwidth=0.5; color = 5];
+	"CommandValidator_39878" [label = "CommandValidator"; color = 5; fillcolor = 1; ]; central -> "CommandValidator_39878" [label=6; weight=6; penwidth=0.5; color = 5];
+	"AxonTestFixture$Customization_39900" [label = "AxonTestFixture$\nCustomization"; color = 5; fillcolor = 1; ]; central -> "AxonTestFixture$Customization_39900" [label=5; weight=5; penwidth=0.5; color = 5];
+	"MapStringEntryMatcher_38844" [label = "MapStringEntryMatcher"; color = 5; fillcolor = 1; ]; central -> "MapStringEntryMatcher_38844" [label=5; weight=5; penwidth=0.5; color = 5];
+	"CommandMessage_155" [label = "CommandMessage"; color = 5; fillcolor = 1; ]; central -> "CommandMessage_155" [label=4; weight=4; penwidth=0.5; color = 5];
+	"MatchAllFieldFilter_39866" [label = "MatchAllFieldFilter"; color = 5; fillcolor = 1; ]; central -> "MatchAllFieldFilter_39866" [label=4; weight=4; penwidth=0.5; color = 5];
+	"RecordingCommandBus_39790" [label = "RecordingCommandBus"; color = 5; fillcolor = 1; ]; central -> "RecordingCommandBus_39790" [label=4; weight=4; penwidth=0.5; color = 5];
+	"RecordingEventSink_39874" [label = "RecordingEventSink"; color = 5; fillcolor = 1; ]; central -> "RecordingEventSink_39874" [label=4; weight=4; penwidth=0.5; color = 5];
+	"AxonTestPhase$Then$Message_39901" [label = "AxonTestPhase$\nThen$\nMessage"; color = 5; fillcolor = 1; ]; central -> "AxonTestPhase$Then$Message_39901" [label=3; weight=3; penwidth=0.4; color = 5];
+	"AxonConfiguration_30665" [label = "AxonConfiguration"; color = 5; fillcolor = 1; ]; central -> "AxonConfiguration_30665" [label=2; weight=2; penwidth=0.4; color = 5];
+	"AxonTestFixture_40605" [label = "AxonTestFixture"; color = 5; fillcolor = 1; ]; central -> "AxonTestFixture_40605" [label=2; weight=2; penwidth=0.4; color = 5];
+	"AxonTestPhase$Setup_39782" [label = "AxonTestPhase$\nSetup"; color = 5; fillcolor = 1; ]; central -> "AxonTestPhase$Setup_39782" [label=2; weight=2; penwidth=0.4; color = 5];
+	"Configuration_30845" [label = "Configuration"; color = 5; fillcolor = 1; ]; central -> "Configuration_30845" [label=2; weight=2; penwidth=0.4; color = 5];
+	"Matchers_38842" [label = "Matchers"; color = 5; fillcolor = 1; ]; central -> "Matchers_38842" [label=2; weight=2; penwidth=0.4; color = 5];
+	"AxonTestPhase$Then_39892" [label = "AxonTestPhase$\nThen"; color = 5; fillcolor = 1; ]; central -> "AxonTestPhase$Then_39892" [label=1; weight=1; penwidth=0.4; color = 5];
+	"Message_168" [label = "Message"; color = 5; fillcolor = 1; ]; central -> "Message_168" [label=1; weight=1; penwidth=0.4; color = 5];
+	"Reporter_39759" -> "AxonAssertionError_39913" [label=26; weight=26; penwidth=0.3; color = 3]
+	"CommandValidator_39878" -> "CommandMessage_155" [label=16; weight=16; penwidth=0.3; color = 3]
+	"AxonTestThenCommand_39868" -> "Reporter_39759" [label=14; weight=14; penwidth=0.3; color = 3]
+	"CommandValidator_39878" -> "AxonAssertionError_39913" [label=12; weight=12; penwidth=0.3; color = 3]
+	"AxonTestFixture_40605" -> "AxonTestFixture$Customization_39900" [label=11; weight=11; penwidth=0.3; color = 3]
+	"AxonTestThenCommand_39868" -> "Message_168" [label=10; weight=10; penwidth=0.3; color = 3]
+	"AxonTestFixture_40605" -> "AxonConfiguration_30665" [label=9; weight=9; penwidth=0.3; color = 3]
+	"CommandMessage_155" -> "Message_168" [label=6; weight=6; penwidth=0.3; color = 3]
+	"EventMessage_1350" -> "Message_168" [label=6; weight=6; penwidth=0.3; color = 3]
+	"RecordingCommandBus_39790" -> "CommandMessage_155" [label=6; weight=6; penwidth=0.3; color = 3]
+	"AxonTestFixture_40605" -> "RecordingComponentsRegistry_39869" [label=5; weight=5; penwidth=0.3; color = 3]
+	"AxonTestPhase$Then$MessageAssertions_39902" -> "EventMessage_1350" [label=4; weight=4; penwidth=0.3; color = 3]
+	"AxonTestThenCommand_39868" -> "AxonTestPhase$Then$MessageAssertions_39902" [label=4; weight=4; penwidth=0.3; color = 3]
+	"AxonTestThenCommand_39868" -> "AxonTestPhase$Then$Message_39901" [label=4; weight=4; penwidth=0.3; color = 3]
+	"AxonTestThenEvent_39879" -> "AxonTestPhase$Then$MessageAssertions_39902" [label=4; weight=4; penwidth=0.3; color = 3]
+	"AxonTestThenEvent_39879" -> "AxonTestPhase$Then$Message_39901" [label=4; weight=4; penwidth=0.3; color = 3]
+	"AxonTestThenEvent_39879" -> "Reporter_39759" [label=4; weight=4; penwidth=0.3; color = 3]
+	"RecordingCommandBus_39790" -> "Message_168" [label=4; weight=4; penwidth=0.3; color = 3]
+	"AxonTestPhase$Then$Message_39901" -> "AxonTestPhase$Setup_39782" [label=3; weight=3; penwidth=0.3; color = 3]
+	"AxonTestPhase$Then$MessageAssertions_39902" -> "CommandMessage_155" [label=3; weight=3; penwidth=0.3; color = 3]
+	"AxonTestThenCommand_39868" -> "AxonConfiguration_30665" [label=3; weight=3; penwidth=0.3; color = 3]
+	"RecordingComponentsRegistry_39869" -> "RecordingCommandBus_39790" [label=3; weight=3; penwidth=0.3; color = 3]
+	"RecordingComponentsRegistry_39869" -> "RecordingEventSink_39874" [label=3; weight=3; penwidth=0.3; color = 3]
+	"RecordingEventSink_39874" -> "EventMessage_1350" [label=3; weight=3; penwidth=0.3; color = 3]
+	"Reporter_39759" -> "EventMessage_1350" [label=3; weight=3; penwidth=0.3; color = 3]
+	"AxonTestFixture_40605" -> "AxonTestPhase$Setup_39782" [label=2; weight=2; penwidth=0.3; color = 3]
+	"AxonTestPhase$Then$Message_39901" -> "AxonTestPhase$Then$MessageAssertions_39902" [label=2; weight=2; penwidth=0.3; color = 3]
+	"AxonTestPhase$Then$MessageAssertions_39902" -> "Configuration_30845" [label=2; weight=2; penwidth=0.3; color = 3]
+	"AxonTestThenCommand_39868" -> "AxonTestFixture$Customization_39900" [label=2; weight=2; penwidth=0.3; color = 3]
+	"AxonTestThenEvent_39879" -> "AxonTestFixture$Customization_39900" [label=2; weight=2; penwidth=0.3; color = 3]
+	"AxonTestThenNothing_39872" -> "AxonTestFixture$Customization_39900" [label=2; weight=2; penwidth=0.3; color = 3]
+	"Matchers_38842" -> "Message_168" [label=2; weight=2; penwidth=0.3; color = 3]
+	"AxonConfiguration_30665" -> "Configuration_30845" [label=1; weight=1; penwidth=0.3; color = 3]
+	"AxonTestPhase$Then_39892" -> "AxonTestPhase$Then$Message_39901" [label=1; weight=1; penwidth=0.3; color = 3]
+	"AxonTestPhase$Then_39892" -> "AxonTestPhase$Then$MessageAssertions_39902" [label=1; weight=1; penwidth=0.3; color = 3]
+	"AxonTestPhase$Then$Message_39901" -> "AxonTestPhase$Then_39892" [label=1; weight=1; penwidth=0.3; color = 3]
+	"AxonTestPhase$Then$MessageAssertions_39902" -> "AxonTestPhase$Then_39892" [label=1; weight=1; penwidth=0.3; color = 3]
+	"AxonTestThenCommand_39868" -> "RecordingComponentsRegistry_39869" [label=1; weight=1; penwidth=0.3; color = 3]
+	"AxonTestThenCommand_39868" -> "AxonTestPhase$Then_39892" [label=1; weight=1; penwidth=0.3; color = 3]
+	"AxonTestThenEvent_39879" -> "AxonTestPhase$Then_39892" [label=1; weight=1; penwidth=0.3; color = 3]
+	"AxonTestThenEvent_39879" -> "RecordingComponentsRegistry_39869" [label=1; weight=1; penwidth=0.3; color = 3]
+	"AxonTestThenEvent_39879" -> "AxonConfiguration_30665" [label=1; weight=1; penwidth=0.3; color = 3]
+	"AxonTestThenNothing_39872" -> "AxonConfiguration_30665" [label=1; weight=1; penwidth=0.3; color = 3]
+	"AxonTestThenNothing_39872" -> "AxonTestPhase$Then_39892" [label=1; weight=1; penwidth=0.3; color = 3]
+	"AxonTestThenNothing_39872" -> "RecordingComponentsRegistry_39869" [label=1; weight=1; penwidth=0.3; color = 3]
+	"CommandValidator_39878" -> "Matchers_38842" [label=1; weight=1; penwidth=0.3; color = 3]
+	"Matchers_38842" -> "CommandMessage_155" [label=1; weight=1; penwidth=0.3; color = 3]
+	"Matchers_38842" -> "EventMessage_1350" [label=1; weight=1; penwidth=0.3; color = 3]
 }

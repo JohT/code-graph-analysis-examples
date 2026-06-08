@@ -12,70 +12,17 @@ strict digraph TopBridge1 {
     central [fontsize = 16;];
     central [color = 7; fillcolor = 5; penwidth = 3;];
 
-	graph   [label="Top Rank #1 Java Type Bridge\norg.axonframework.test.fixture.AxonTestPhase$Then\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
-	central [label="🌉 bridge #1\nAxonTestPhase$Then"];
-	"AxonTestGiven_39870" [label = "AxonTestGiven"; ]; "AxonTestGiven_39870" -> central [label=1; weight=1; penwidth=0.4];
-	"AxonTestPhase_39897" [label = "AxonTestPhase"; ]; "AxonTestPhase_39897" -> central [label=1; weight=1; penwidth=0.4];
-	"AxonTestPhase$Given_39893" [label = "AxonTestPhase$\nGiven"; ]; "AxonTestPhase$Given_39893" -> central [label=1; weight=1; penwidth=0.4];
-	"AxonTestPhase$Then$Command_39891" [label = "AxonTestPhase$\nThen$\nCommand"; ]; "AxonTestPhase$Then$Command_39891" -> central [label=1; weight=1; penwidth=0.4];
-	"AxonTestPhase$Then$Event_39788" [label = "AxonTestPhase$\nThen$\nEvent"; ]; "AxonTestPhase$Then$Event_39788" -> central [label=1; weight=1; penwidth=0.4];
-	"AxonTestPhase$Then$Message_39901" [label = "AxonTestPhase$\nThen$\nMessage"; ]; "AxonTestPhase$Then$Message_39901" -> central [label=1; weight=1; penwidth=0.4];
-	"AxonTestPhase$Then$MessageAssertions_39902" [label = "AxonTestPhase$\nThen$\nMessageAssertions"; ]; "AxonTestPhase$Then$MessageAssertions_39902" -> central [label=1; weight=1; penwidth=0.4];
-	"AxonTestPhase$Then$Nothing_39895" [label = "AxonTestPhase$\nThen$\nNothing"; ]; "AxonTestPhase$Then$Nothing_39895" -> central [label=1; weight=1; penwidth=0.4];
-	"AxonTestPhase$When$Command_39781" [label = "AxonTestPhase$\nWhen$\nCommand"; ]; "AxonTestPhase$When$Command_39781" -> central [label=1; weight=1; penwidth=0.4];
-	"AxonTestPhase$When$Event_39787" [label = "AxonTestPhase$\nWhen$\nEvent"; ]; "AxonTestPhase$When$Event_39787" -> central [label=1; weight=1; penwidth=0.4];
-	"AxonTestPhase$When$Nothing_39896" [label = "AxonTestPhase$\nWhen$\nNothing"; ]; "AxonTestPhase$When$Nothing_39896" -> central [label=1; weight=1; penwidth=0.4];
-	"AxonTestThenCommand_39868" [label = "AxonTestThenCommand"; ]; "AxonTestThenCommand_39868" -> central [label=1; weight=1; penwidth=0.4];
-	"AxonTestThenEvent_39879" [label = "AxonTestThenEvent"; ]; "AxonTestThenEvent_39879" -> central [label=1; weight=1; penwidth=0.4];
-	"AxonTestThenMessage_39899" [label = "AxonTestThenMessage"; ]; "AxonTestThenMessage_39899" -> central [label=1; weight=1; penwidth=0.4];
-	"AxonTestThenNothing_39872" [label = "AxonTestThenNothing"; ]; "AxonTestThenNothing_39872" -> central [label=1; weight=1; penwidth=0.4];
-	"AxonTestWhen$Command_39873" [label = "AxonTestWhen$\nCommand"; ]; "AxonTestWhen$Command_39873" -> central [label=1; weight=1; penwidth=0.4];
-	"AxonTestWhen$Event_39789" [label = "AxonTestWhen$\nEvent"; ]; "AxonTestWhen$Event_39789" -> central [label=1; weight=1; penwidth=0.4];
-	"AxonTestWhen$Nothing_39875" [label = "AxonTestWhen$\nNothing"; ]; "AxonTestWhen$Nothing_39875" -> central [label=1; weight=1; penwidth=0.4];
-	"AxonTestPhase$Then$Command_39891" [label = "AxonTestPhase$\nThen$\nCommand"; color = 5; fillcolor = 1; ]; central -> "AxonTestPhase$Then$Command_39891" [label=1; weight=1; penwidth=0.4; color = 5];
-	"AxonTestPhase$Then$Event_39788" [label = "AxonTestPhase$\nThen$\nEvent"; color = 5; fillcolor = 1; ]; central -> "AxonTestPhase$Then$Event_39788" [label=1; weight=1; penwidth=0.4; color = 5];
-	"AxonTestPhase$Then$Message_39901" [label = "AxonTestPhase$\nThen$\nMessage"; color = 5; fillcolor = 1; ]; central -> "AxonTestPhase$Then$Message_39901" [label=1; weight=1; penwidth=0.4; color = 5];
-	"AxonTestPhase$Then$MessageAssertions_39902" [label = "AxonTestPhase$\nThen$\nMessageAssertions"; color = 5; fillcolor = 1; ]; central -> "AxonTestPhase$Then$MessageAssertions_39902" [label=1; weight=1; penwidth=0.4; color = 5];
-	"AxonTestPhase$Then$Nothing_39895" [label = "AxonTestPhase$\nThen$\nNothing"; color = 5; fillcolor = 1; ]; central -> "AxonTestPhase$Then$Nothing_39895" [label=1; weight=1; penwidth=0.4; color = 5];
-	"AxonTestThenMessage_39899" -> "AxonTestPhase$Then$MessageAssertions_39902" [label=15; weight=15; penwidth=0.3; color = 3]
-	"AxonTestThenCommand_39868" -> "AxonTestPhase$Then$Command_39891" [label=14; weight=14; penwidth=0.3; color = 3]
-	"AxonTestGiven_39870" -> "AxonTestPhase$Given_39893" [label=10; weight=10; penwidth=0.3; color = 3]
-	"AxonTestThenEvent_39879" -> "AxonTestPhase$Then$Event_39788" [label=10; weight=10; penwidth=0.3; color = 3]
-	"AxonTestThenCommand_39868" -> "AxonTestThenMessage_39899" [label=5; weight=5; penwidth=0.3; color = 3]
-	"AxonTestThenEvent_39879" -> "AxonTestThenMessage_39899" [label=5; weight=5; penwidth=0.3; color = 3]
-	"AxonTestThenCommand_39868" -> "AxonTestPhase$Then$MessageAssertions_39902" [label=4; weight=4; penwidth=0.3; color = 3]
-	"AxonTestThenCommand_39868" -> "AxonTestPhase$Then$Message_39901" [label=4; weight=4; penwidth=0.3; color = 3]
-	"AxonTestThenEvent_39879" -> "AxonTestPhase$Then$MessageAssertions_39902" [label=4; weight=4; penwidth=0.3; color = 3]
-	"AxonTestThenEvent_39879" -> "AxonTestPhase$Then$Message_39901" [label=4; weight=4; penwidth=0.3; color = 3]
-	"AxonTestThenMessage_39899" -> "AxonTestPhase$Then$Message_39901" [label=3; weight=3; penwidth=0.3; color = 3]
-	"AxonTestThenNothing_39872" -> "AxonTestPhase$Then$Nothing_39895" [label=3; weight=3; penwidth=0.3; color = 3]
-	"AxonTestGiven_39870" -> "AxonTestPhase$Then$Nothing_39895" [label=2; weight=2; penwidth=0.3; color = 3]
-	"AxonTestGiven_39870" -> "AxonTestThenNothing_39872" [label=2; weight=2; penwidth=0.3; color = 3]
-	"AxonTestPhase$Given_39893" -> "AxonTestPhase$Then$Nothing_39895" [label=2; weight=2; penwidth=0.3; color = 3]
-	"AxonTestPhase$Then$Command_39891" -> "AxonTestPhase$Then$Message_39901" [label=2; weight=2; penwidth=0.3; color = 3]
-	"AxonTestPhase$Then$Event_39788" -> "AxonTestPhase$Then$Message_39901" [label=2; weight=2; penwidth=0.3; color = 3]
-	"AxonTestPhase$Then$Message_39901" -> "AxonTestPhase$Then$MessageAssertions_39902" [label=2; weight=2; penwidth=0.3; color = 3]
-	"AxonTestPhase$Then$Nothing_39895" -> "AxonTestPhase$Then$Message_39901" [label=2; weight=2; penwidth=0.3; color = 3]
-	"AxonTestPhase$When$Command_39781" -> "AxonTestPhase$Then$Command_39891" [label=2; weight=2; penwidth=0.3; color = 3]
-	"AxonTestPhase$When$Event_39787" -> "AxonTestPhase$Then$Event_39788" [label=2; weight=2; penwidth=0.3; color = 3]
-	"AxonTestPhase$When$Nothing_39896" -> "AxonTestPhase$Then$Nothing_39895" [label=2; weight=2; penwidth=0.3; color = 3]
-	"AxonTestThenNothing_39872" -> "AxonTestThenMessage_39899" [label=2; weight=2; penwidth=0.3; color = 3]
-	"AxonTestWhen$Command_39873" -> "AxonTestThenCommand_39868" [label=2; weight=2; penwidth=0.3; color = 3]
-	"AxonTestWhen$Command_39873" -> "AxonTestPhase$When$Command_39781" [label=2; weight=2; penwidth=0.3; color = 3]
-	"AxonTestWhen$Command_39873" -> "AxonTestPhase$Then$Command_39891" [label=2; weight=2; penwidth=0.3; color = 3]
-	"AxonTestWhen$Event_39789" -> "AxonTestPhase$Then$Event_39788" [label=2; weight=2; penwidth=0.3; color = 3]
-	"AxonTestWhen$Event_39789" -> "AxonTestPhase$When$Event_39787" [label=2; weight=2; penwidth=0.3; color = 3]
-	"AxonTestWhen$Event_39789" -> "AxonTestThenEvent_39879" [label=2; weight=2; penwidth=0.3; color = 3]
-	"AxonTestWhen$Nothing_39875" -> "AxonTestPhase$When$Nothing_39896" [label=2; weight=2; penwidth=0.3; color = 3]
-	"AxonTestWhen$Nothing_39875" -> "AxonTestPhase$Then$Nothing_39895" [label=2; weight=2; penwidth=0.3; color = 3]
-	"AxonTestWhen$Nothing_39875" -> "AxonTestThenNothing_39872" [label=2; weight=2; penwidth=0.3; color = 3]
-	"AxonTestPhase_39897" -> "AxonTestPhase$Given_39893" [label=1; weight=1; penwidth=0.3; color = 3]
-	"AxonTestPhase_39897" -> "AxonTestPhase$Then$Event_39788" [label=1; weight=1; penwidth=0.3; color = 3]
-	"AxonTestPhase_39897" -> "AxonTestPhase$When$Command_39781" [label=1; weight=1; penwidth=0.3; color = 3]
-	"AxonTestPhase_39897" -> "AxonTestPhase$Then$Message_39901" [label=1; weight=1; penwidth=0.3; color = 3]
-	"AxonTestPhase_39897" -> "AxonTestPhase$When$Event_39787" [label=1; weight=1; penwidth=0.3; color = 3]
-	"AxonTestPhase_39897" -> "AxonTestPhase$Then$Nothing_39895" [label=1; weight=1; penwidth=0.3; color = 3]
-	"AxonTestPhase_39897" -> "AxonTestPhase$Then$MessageAssertions_39902" [label=1; weight=1; penwidth=0.3; color = 3]
-	"AxonTestPhase_39897" -> "AxonTestPhase$Then$Command_39891" [label=1; weight=1; penwidth=0.3; color = 3]
-	"AxonTestPhase_39897" -> "AxonTestPhase$When$Nothing_39896" [label=1; weight=1; penwidth=0.3; color = 3]
+	graph   [label="Top Rank #1 Java Type Bridge\norg.axonframework.common.property.PropertyAccessStrategy\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
+	central [label="🌉 bridge #1\nPropertyAccessStrategy"];
+	"AbstractMethodPropertyAccessStrategy_27550" [label = "AbstractMethodPropertyAccessStrategy"; ]; "AbstractMethodPropertyAccessStrategy_27550" -> central [label=2; weight=2; penwidth=0.4];
+	"AnnotatedEntityModelRoutingKeyMatcher_41315" [label = "AnnotatedEntityModelRoutingKeyMatcher"; ]; "AnnotatedEntityModelRoutingKeyMatcher_41315" -> central [label=2; weight=2; penwidth=0.4];
+	"DirectPropertyAccessStrategy_27551" [label = "DirectPropertyAccessStrategy"; ]; "DirectPropertyAccessStrategy_27551" -> central [label=2; weight=2; penwidth=0.4];
+	"PropertyBasedEntityIdResolver_43666" [label = "PropertyBasedEntityIdResolver"; ]; "PropertyBasedEntityIdResolver_43666" -> central [label=1; weight=1; penwidth=0.4];
+	"PropertySequencingPolicy_10915" [label = "PropertySequencingPolicy"; ]; "PropertySequencingPolicy_10915" -> central [label=1; weight=1; penwidth=0.4];
+	"Property_28246" [label = "Property"; color = 5; fillcolor = 1; ]; central -> "Property_28246" [label=2; weight=2; penwidth=0.4; color = 5];
+	"AnnotatedEntityModelRoutingKeyMatcher_41315" -> "Property_28246" [label=9; weight=9; penwidth=0.3; color = 3]
+	"PropertyBasedEntityIdResolver_43666" -> "Property_28246" [label=4; weight=4; penwidth=0.3; color = 3]
+	"PropertySequencingPolicy_10915" -> "Property_28246" [label=2; weight=2; penwidth=0.3; color = 3]
+	"AbstractMethodPropertyAccessStrategy_27550" -> "Property_28246" [label=1; weight=1; penwidth=0.3; color = 3]
+	"DirectPropertyAccessStrategy_27551" -> "Property_28246" [label=1; weight=1; penwidth=0.3; color = 3]
 }

@@ -28,19 +28,19 @@ The goal is to detect potential **software quality, design, and architecture iss
 
 | Analyzed Units | Anomalies | Bridges | Outliers |
 | --- | --- | --- | --- |
-| 1481 | 66 | 17 | 18 |
+| 1481 | 66 | 17 | 16 |
 
 ### 1.2 Overview of Analyzed Structures
 
 | Abstraction Level | Units | Anomalies | Bridges | Outliers |
 | --- | --- | --- | --- | --- |
-| Type,Java,Interface | 391 | 39 | 7 | 4 |
-| Type,Java,Class | 758 | 15 | 2 | 5 |
-| Package,Java | 157 | 7 | 7 | 9 |
-| Type,Java,Record | 62 | 3 | 1 | 0 |
-| Type,Java,Class,Throwable | 43 | 1 | 0 | 0 |
-| Type,Java,Annotation | 43 | 1 | 0 | 0 |
-| Type,Java,Enum | 16 | 0 | 0 | 0 |
+| Type,Java,Interface | 391 | 34 | 4 | 1 |
+| Type,Java,Class | 758 | 18 | 5 | 8 |
+| Package,Java | 157 | 7 | 7 | 6 |
+| Type,Java,Record | 62 | 3 | 0 | 0 |
+| Type,Java,Class,Throwable | 43 | 2 | 0 | 0 |
+| Type,Java,Annotation | 43 | 2 | 1 | 0 |
+| Type,Java,Enum | 16 | 0 | 0 | 1 |
 | Artifact,Jar,Archive,Zip,Java | 11 | 0 | 0 | 0 |
 
 ### 1.3 Overview Charts
@@ -69,43 +69,42 @@ Each abstraction level includes anomaly statistics, SHAP feature importance, arc
 
 | Anomalies | Bridges | Outliers | CodeUnits | Dependencies | GraphDensity |
 | --- | --- | --- | --- | --- | --- |
-| 7 | 7 | 9 | 124 | 1554 | 0.101888 |
+| 7 | 7 | 6 | 124 | 1554 | 0.101888 |
 
 ##### Top global contributing features (via SHAP)
 
 | Feature | Mean absolute SHAP value |
 | --- | --- |
-| *Node embeddings aggregated* | 0.029272 |
-| pageToArticleRankDifference | 0.015017 |
-| incomingDependencies | 0.013987 |
-| pageRank | 0.013316 |
-| degree | 0.012317 |
-| articleRank | 0.012022 |
-| localClusteringCoefficient | 0.008166 |
-| betweenness | 0.007275 |
-| nodeEmbeddingPCA_17 | 0.004343 |
-| nodeEmbeddingPCA_8 | 0.003963 |
-| topologicalComponentLayer | 0.003868 |
+| *Node embeddings aggregated* | 0.026937 |
+| pageRank | 0.018026 |
+| pageToArticleRankDifference | 0.017142 |
+| articleRank | 0.013948 |
+| incomingDependencies | 0.010377 |
+| degree | 0.007572 |
+| topologicalComponentLayer | 0.006979 |
+| betweenness | 0.005002 |
+| localClusteringCoefficient | 0.004981 |
+| nodeEmbeddingPCA_17 | 0.002722 |
+| nodeEmbeddingPCA_1 | 0.002239 |
 
 #### Archetype Distribution
 
 | Archetype | Count | Max. Score | Model Status | Examples |
 | --- | --- | --- | --- | --- |
-| Bridge | 7 | 0.0275 | Anomalous | org.axonframework.common.configuration, org.axonframework.common.annotation, org.axonframework.messaging.core |
-| Outlier | 1 | 0.0223 | Anomalous | org.axonframework.common.annotation |
-| Outlier | 8 | -0.0081 | Typical | org.axonframework.eventsourcing.snapshot.api, org.axonframework.conversion, org.axonframework.common.lifecycle |
+| Bridge | 7 | 0.0401 | Anomalous | org.axonframework.messaging.core, org.axonframework.common.annotation, org.axonframework.common.function |
+| Outlier | 6 | -0.0539 | Typical | org.axonframework.eventsourcing.snapshot.api, org.axonframework.messaging.eventhandling.processing.subscribing, org.axonframework.common.lifecycle |
 
 #### Top anomalies with their local contributing features (via SHAP)
 
 | Name | Contained in | Anomaly Score | Archetypes | Top Feature 1 | Top Feature 1 SHAP | Top Feature 2 | Top Feature 2 SHAP | Top Feature 3 | Top Feature 3 SHAP | Model Status |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| org.axonframework.common.configuration | axon-common-5.1.1 | 0.0275 | Bridge, Outlier | incomingDependencies | -0.1529 | degree | -0.1431 | pageRank | -0.1131 | Anomalous |
-| org.axonframework.common.annotation | axon-common-5.1.1 | 0.0223 | Bridge, Outlier | incomingDependencies | -0.1471 | degree | -0.1226 | pageToArticleRankDifference | -0.1123 | Anomalous |
-| org.axonframework.messaging.core | axon-messaging-5.1.1 | 0.0079 | Bridge, Outlier | degree | -0.1499 | incomingDependencies | -0.1472 | pageRank | -0.1232 | Anomalous |
-| org.axonframework.common.util | axon-common-5.1.1 | 0.0037 | Bridge, Outlier | nodeEmbeddingPCA_17 | -0.1197 | nodeEmbeddingPCA_9 | -0.0782 | nodeEmbeddingPCA_8 | -0.0696 | Anomalous |
-| org.axonframework.messaging.eventhandling | axon-messaging-5.1.1 | 0.003 | Bridge, Outlier | incomingDependencies | -0.157 | degree | -0.1368 | pageRank | -0.1051 | Anomalous |
-| org.axonframework.messaging.core.unitofwork | axon-messaging-5.1.1 | 0.0008 | Bridge, Outlier | incomingDependencies | -0.1604 | degree | -0.1589 | pageToArticleRankDifference | -0.124 | Anomalous |
-| org.axonframework.messaging.core.annotation | axon-messaging-5.1.1 | 0.0001 | Bridge, Outlier | betweenness | -0.1188 | pageRank | -0.1019 | articleRank | -0.0966 | Anomalous |
+| org.axonframework.messaging.core | axon-messaging-5.1.1 | 0.0401 | Bridge, Outlier | pageRank | -0.1907 | pageToArticleRankDifference | -0.1734 | articleRank | -0.1404 | Anomalous |
+| org.axonframework.common.annotation | axon-common-5.1.1 | 0.0215 | Bridge, Outlier | pageToArticleRankDifference | -0.1574 | pageRank | -0.1474 | articleRank | -0.1163 | Anomalous |
+| org.axonframework.common.function | axon-common-5.1.1 | 0.0189 | Bridge, Outlier | nodeEmbeddingPCA_10 | -0.0923 | topologicalComponentLayer | -0.0844 | nodeEmbeddingPCA_6 | -0.0786 | Anomalous |
+| org.axonframework.messaging.core.unitofwork | axon-messaging-5.1.1 | 0.006 | Bridge, Outlier | pageToArticleRankDifference | -0.1621 | pageRank | -0.1609 | articleRank | -0.1289 | Anomalous |
+| org.axonframework.messaging.core.annotation | axon-messaging-5.1.1 | 0.0053 | Bridge, Outlier | pageRank | -0.1197 | betweenness | -0.1178 | articleRank | -0.1018 | Anomalous |
+| org.axonframework.common.configuration | axon-common-5.1.1 | 0.0045 | Bridge, Outlier | pageRank | -0.1362 | pageToArticleRankDifference | -0.13 | articleRank | -0.1222 | Anomalous |
+| org.axonframework.common | axon-common-5.1.1 | 0.0008 | Bridge, Outlier | pageToArticleRankDifference | -0.1944 | pageRank | -0.1835 | articleRank | -0.1447 | Anomalous |
 
 #### Visualizations
 
@@ -214,50 +213,49 @@ Each abstraction level includes anomaly statistics, SHAP feature importance, arc
 
 | Feature | Mean absolute SHAP value |
 | --- | --- |
-| articleRank | 0.017553 |
-| pageRank | 0.015912 |
-| *Node embeddings aggregated* | 0.015041 |
-| pageToArticleRankDifference | 0.010655 |
-| degree | 0.009430 |
-| incomingDependencies | 0.008856 |
-| topologicalComponentLayer | 0.004476 |
-| betweenness | 0.003763 |
-| localClusteringCoefficient | 0.002552 |
-| abstractness | 0.002050 |
-| nodeEmbeddingPCA_17 | 0.001218 |
+| *Node embeddings aggregated* | 0.026956 |
+| articleRank | 0.017671 |
+| pageRank | 0.016079 |
+| pageToArticleRankDifference | 0.013212 |
+| incomingDependencies | 0.011301 |
+| degree | 0.010442 |
+| topologicalComponentLayer | 0.005926 |
+| betweenness | 0.004235 |
+| localClusteringCoefficient | 0.003496 |
+| nodeEmbeddingPCA_31 | 0.001838 |
+| nodeEmbeddingPCA_13 | 0.001549 |
 
 #### Archetype Distribution
 
 | Archetype | Count | Max. Score | Model Status | Examples |
 | --- | --- | --- | --- | --- |
-| Bridge | 10 | 0.0217 | Anomalous | org.axonframework.test.fixture.AxonTestThenMessage, org.axonframework.messaging.eventstreaming.EventTypeRestrictableEventCriteria, org.axonframework.test.fixture.AxonTestPhase$Then$Message |
-| Outlier | 1 | 0.0623 | Anomalous | org.axonframework.messaging.eventstreaming.EventCriteria |
-| Outlier | 8 | -0.0126 | Typical | org.axonframework.common.Registration, org.axonframework.common.configuration.ComponentDecorator, org.axonframework.messaging.eventhandling.processing.streaming.token.store.jpa.TokenEntry$PK |
+| Bridge | 10 | 0.012 | Anomalous | org.axonframework.test.fixture.AxonTestThenMessage, org.axonframework.messaging.eventstreaming.EventTypeRestrictableEventCriteria, org.axonframework.common.property.PropertyAccessStrategy |
+| Outlier | 10 | -0.0164 | Typical | org.axonframework.common.lock.NullLockFactory, org.axonframework.common.ObjectUtils, org.axonframework.messaging.eventhandling.replay.ReplayBlockingEventHandlingComponent |
 
 #### Top anomalies with their local contributing features (via SHAP)
 
 | Name | Contained in | Anomaly Score | Archetypes | Top Feature 1 | Top Feature 1 SHAP | Top Feature 2 | Top Feature 2 SHAP | Top Feature 3 | Top Feature 3 SHAP | Model Status |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| org.axonframework.common.TypeReference | axon-common-5.1.1 | 0.0893 | Bridge, Outlier | articleRank | -0.2142 | pageRank | -0.1677 | pageToArticleRankDifference | -0.1318 | Anomalous |
-| org.axonframework.messaging.core.Message | axon-messaging-5.1.1 | 0.0869 | Bridge, Outlier | articleRank | -0.2082 | pageRank | -0.1634 | degree | -0.1386 | Anomalous |
-| org.axonframework.messaging.core.unitofwork.ProcessingContext | axon-messaging-5.1.1 | 0.0862 | Bridge, Outlier | articleRank | -0.2114 | pageRank | -0.1624 | degree | -0.1369 | Anomalous |
-| org.axonframework.conversion.Converter | axon-conversion-5.1.1 | 0.0662 | Bridge, Outlier | articleRank | -0.2278 | pageRank | -0.1712 | degree | -0.1398 | Anomalous |
-| org.axonframework.messaging.eventstreaming.EventCriteria | axon-messaging-5.1.1 | 0.0623 | Outlier, Bridge | articleRank | -0.2088 | pageRank | -0.1473 | degree | -0.1195 | Anomalous |
-| org.axonframework.messaging.core.QualifiedName | axon-messaging-5.1.1 | 0.0616 | Bridge, Outlier | articleRank | -0.2125 | pageRank | -0.1497 | degree | -0.1432 | Anomalous |
-| org.axonframework.messaging.core.MessageStream | axon-messaging-5.1.1 | 0.0583 | Bridge, Outlier | articleRank | -0.209 | pageRank | -0.1695 | degree | -0.1459 | Anomalous |
-| org.axonframework.common.AxonException | axon-common-5.1.1 | 0.0576 | Bridge, Outlier | articleRank | -0.2627 | pageRank | -0.205 | pageToArticleRankDifference | -0.1538 | Anomalous |
-| org.axonframework.common.annotation.Internal | axon-common-5.1.1 | 0.0551 | Bridge, Outlier | articleRank | -0.2286 | pageRank | -0.1687 | degree | -0.1468 | Anomalous |
-| org.axonframework.common.infra.ComponentDescriptor | axon-common-5.1.1 | 0.055 | Bridge, Outlier | articleRank | -0.2353 | pageRank | -0.1733 | degree | -0.1396 | Anomalous |
-| org.axonframework.messaging.core.Context$ResourceKey | axon-messaging-5.1.1 | 0.0546 | Bridge, Outlier | articleRank | -0.2357 | pageRank | -0.1727 | degree | -0.1437 | Anomalous |
-| org.axonframework.common.infra.DescribableComponent | axon-common-5.1.1 | 0.0543 | Bridge, Outlier | articleRank | -0.2304 | pageRank | -0.1684 | degree | -0.1374 | Anomalous |
-| org.axonframework.eventsourcing.eventstore.Position | axon-eventsourcing-5.1.1 | 0.0506 | Bridge, Outlier | articleRank | -0.22 | pageRank | -0.2132 | pageToArticleRankDifference | -0.1668 | Anomalous |
-| org.axonframework.messaging.eventhandling.EventMessage | axon-messaging-5.1.1 | 0.0451 | Bridge, Outlier | articleRank | -0.2124 | pageRank | -0.1708 | degree | -0.1483 | Anomalous |
-| org.axonframework.messaging.core.MessageStream$Empty | axon-messaging-5.1.1 | 0.0359 | Bridge, Outlier | articleRank | -0.2167 | degree | -0.1822 | incomingDependencies | -0.1507 | Anomalous |
-| org.axonframework.common.AxonConfigurationException | axon-common-5.1.1 | 0.0347 | Bridge, Outlier | articleRank | -0.2447 | pageRank | -0.1708 | pageToArticleRankDifference | -0.1217 | Anomalous |
-| org.axonframework.messaging.core.MessageType | axon-messaging-5.1.1 | 0.0341 | Bridge, Outlier | articleRank | -0.2183 | degree | -0.1566 | pageRank | -0.1374 | Anomalous |
-| org.axonframework.common.ReflectionUtils | axon-common-5.1.1 | 0.0338 | Bridge, Outlier | betweenness | -0.1256 | pageRank | -0.1185 | incomingDependencies | -0.1011 | Anomalous |
-| org.axonframework.messaging.core.annotation.ParameterResolver | axon-messaging-5.1.1 | 0.0325 | Bridge, Outlier | articleRank | -0.2122 | degree | -0.1682 | pageRank | -0.1419 | Anomalous |
-| org.axonframework.messaging.core.Context | axon-messaging-5.1.1 | 0.0314 | Bridge, Outlier | articleRank | -0.2228 | pageRank | -0.194 | pageToArticleRankDifference | -0.1411 | Anomalous |
+| org.axonframework.messaging.core.unitofwork.ProcessingContext | axon-messaging-5.1.1 | 0.0982 | Bridge, Outlier | articleRank | -0.2023 | pageRank | -0.1604 | degree | -0.1475 | Anomalous |
+| org.axonframework.messaging.core.Message | axon-messaging-5.1.1 | 0.0868 | Bridge, Outlier | articleRank | -0.2014 | pageRank | -0.1654 | degree | -0.1448 | Anomalous |
+| org.axonframework.messaging.core.MessageStream | axon-messaging-5.1.1 | 0.0832 | Bridge, Outlier | articleRank | -0.2087 | degree | -0.1658 | pageRank | -0.1602 | Anomalous |
+| org.axonframework.common.TypeReference | axon-common-5.1.1 | 0.0768 | Bridge, Outlier | articleRank | -0.2128 | pageRank | -0.1739 | pageToArticleRankDifference | -0.1365 | Anomalous |
+| org.axonframework.messaging.core.QualifiedName | axon-messaging-5.1.1 | 0.0698 | Bridge, Outlier | articleRank | -0.2002 | degree | -0.1568 | pageRank | -0.1407 | Anomalous |
+| org.axonframework.messaging.eventstreaming.EventCriteria | axon-messaging-5.1.1 | 0.0679 | Bridge, Outlier | articleRank | -0.2092 | pageRank | -0.1548 | pageToArticleRankDifference | -0.1199 | Anomalous |
+| org.axonframework.common.infra.ComponentDescriptor | axon-common-5.1.1 | 0.062 | Bridge, Outlier | articleRank | -0.2141 | pageRank | -0.1574 | degree | -0.1557 | Anomalous |
+| org.axonframework.common.annotation.Internal | axon-common-5.1.1 | 0.0578 | Bridge, Outlier | articleRank | -0.203 | degree | -0.1747 | pageRank | -0.1467 | Anomalous |
+| org.axonframework.common.ReflectionUtils | axon-common-5.1.1 | 0.055 | Bridge, Outlier | pageRank | -0.1749 | pageToArticleRankDifference | -0.1142 | articleRank | -0.1106 | Anomalous |
+| org.axonframework.common.infra.DescribableComponent | axon-common-5.1.1 | 0.0542 | Bridge, Outlier | articleRank | -0.214 | pageRank | -0.1662 | degree | -0.1387 | Anomalous |
+| org.axonframework.messaging.eventhandling.EventMessage | axon-messaging-5.1.1 | 0.0536 | Bridge, Outlier | articleRank | -0.2154 | degree | -0.1674 | pageRank | -0.1557 | Anomalous |
+| org.axonframework.conversion.Converter | axon-conversion-5.1.1 | 0.053 | Bridge, Outlier | articleRank | -0.205 | degree | -0.1635 | pageRank | -0.1565 | Anomalous |
+| org.axonframework.messaging.core.Context$ResourceKey | axon-messaging-5.1.1 | 0.0525 | Bridge, Outlier | articleRank | -0.2133 | pageRank | -0.1734 | degree | -0.1544 | Anomalous |
+| org.axonframework.messaging.core.Metadata | axon-messaging-5.1.1 | 0.0517 | Bridge, Outlier | articleRank | -0.2128 | pageRank | -0.1729 | incomingDependencies | -0.1504 | Anomalous |
+| org.axonframework.common.Assert | axon-common-5.1.1 | 0.0491 | Bridge, Outlier | articleRank | -0.2322 | pageRank | -0.1706 | pageToArticleRankDifference | -0.1253 | Anomalous |
+| org.axonframework.messaging.core.MessageType | axon-messaging-5.1.1 | 0.0474 | Bridge, Outlier | articleRank | -0.2079 | degree | -0.1582 | incomingDependencies | -0.1371 | Anomalous |
+| org.axonframework.messaging.eventhandling.processing.streaming.token.TrackingToken | axon-messaging-5.1.1 | 0.0459 | Bridge, Outlier | articleRank | -0.221 | degree | -0.1776 | incomingDependencies | -0.1604 | Anomalous |
+| org.axonframework.messaging.core.MessageStream$Entry | axon-messaging-5.1.1 | 0.043 | Bridge, Outlier | articleRank | -0.2287 | degree | -0.1804 | pageRank | -0.1545 | Anomalous |
+| org.axonframework.common.AxonException | axon-common-5.1.1 | 0.0424 | Bridge, Outlier | articleRank | -0.249 | pageRank | -0.2085 | pageToArticleRankDifference | -0.1482 | Anomalous |
+| org.axonframework.messaging.core.MessageStream$Single | axon-messaging-5.1.1 | 0.0415 | Bridge, Outlier | articleRank | -0.2385 | degree | -0.1788 | incomingDependencies | -0.1496 | Anomalous |
 
 #### Visualizations
 
@@ -343,6 +341,14 @@ Each abstraction level includes anomaly statistics, SHAP feature importance, arc
 ##### TopOutlier Graph Visualizations
 
 ![TopOutlier 1](./Java_Type/GraphVisualizations/TopOutlier1.svg)
+
+![TopOutlier 2](./Java_Type/GraphVisualizations/TopOutlier2.svg)
+
+![TopOutlier 3](./Java_Type/GraphVisualizations/TopOutlier3.svg)
+
+![TopOutlier 4](./Java_Type/GraphVisualizations/TopOutlier4.svg)
+
+![TopOutlier 5](./Java_Type/GraphVisualizations/TopOutlier5.svg)
 
 --
 

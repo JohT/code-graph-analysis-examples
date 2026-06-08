@@ -7,5 +7,5 @@
 "axon-messaging-5.1.1","annotation","org.axonframework.messaging.eventhandling.annotation",241.65238095238095,6,""
 "axon-messaging-5.1.1","annotation","org.axonframework.messaging.commandhandling.annotation",236.17619047619047,7,""
 "axon-eventsourcing-5.1.1","eventstore","org.axonframework.eventsourcing.eventstore",230.16666666666669,8,""
-"axon-eventsourcing-5.1.1","store","org.axonframework.eventsourcing.snapshot.store",196,9,""
+"axon-eventsourcing-5.1.1","store","org.axonframework.eventsourcing.snapshot.store",196.00000000000003,9,""
 "axon-messaging-5.1.1","transaction","org.axonframework.messaging.core.unitofwork.transaction",177.66666666666666,10,""

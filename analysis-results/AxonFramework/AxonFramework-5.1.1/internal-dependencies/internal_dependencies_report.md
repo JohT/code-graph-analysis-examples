@@ -196,7 +196,7 @@ Graph diameter = longest shortest path. Higher = deeper transitive dependencies.
 | 4 | 597 | 94 | 49 | ["/io/axoniq/framework/axonserver/connector/api/query ->/org/axonframework/messaging/commandhandling","/org/axonframework/eventsourcing/snapshot/inmemory ->/org/axonframework/messaging/commandhandling"] |
 | 3 | 976 | 100 | 65 | ["/org/axonframework/eventsourcing ->/org/axonframework/messaging/commandhandling","/org/axonframework/eventsourcing/snapshot/api ->/org/axonframework/messaging/commandhandling"] |
 | 2 | 990 | 108 | 80 | ["/io/axoniq/framework/axonserver/connector/event ->/org/axonframework/messaging/commandhandling","/io/axoniq/framework/axonserver/connector/query ->/org/axonframework/messaging/commandhandling"] |
-| 1 | 777 | 118 | 98 | ["/org/axonframework/messaging/commandhandling/interception ->/org/axonframework/messaging/commandhandling","/org/axonframework/messaging/commandhandling/retry ->/org/axonframework/messaging/commandhandling"] |
+| 1 | 777 | 118 | 98 | ["/org/axonframework/messaging/commandhandling/interception ->/org/axonframework/messaging/commandhandling","/io/axoniq/framework/axonserver/connector/api/command ->/org/axonframework/messaging/commandhandling"] |
 
 [Full data per project](./Java_Package/Package_all_pairs_shortest_paths_distribution_per_project.csv)
 

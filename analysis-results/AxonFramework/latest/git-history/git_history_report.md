@@ -239,7 +239,7 @@ Per-author file commit stats. Useful for knowledge boundaries and bus-factor ris
 | filePath | author | commitCount | commitHashes | lastCommitDate | lastCreationDate | lastModificationDate | daysSinceLastCommit | daysSinceLastCreation | daysSinceLastModification | maxCommitSha |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | AxonFramework-5.1.1/.claude/.mcp.json | Steven van Beelen | 3 | ["0d8494935f3df632c2f51767b80f3624b5d8ac14","5066f797b0ded94ff826b40752e4affd0f88f7dd","f86e96cf1f82bb61b9c269c928ea1afba539c052"] | 2026-03-23 | 2026-02-16 | 2026-02-16 | 77 | 111 | 111 | f86e96cf1f82bb61b9c269c928ea1afba539c052 |
-| AxonFramework-5.1.1/.claude/.mcp.json | Mateusz Nowak | 2 | ["56bd673b907885495d8442ffbea9a5d2e4b6c5f5","99bdfbc6fd46aea88993c080da524a14afcff9da"] | 2026-02-16 | 2026-02-16 | 2026-02-16 | 112 | 111 | 111 | 99bdfbc6fd46aea88993c080da524a14afcff9da |
+| AxonFramework-5.1.1/.claude/.mcp.json | Mateusz Nowak | 2 | ["99bdfbc6fd46aea88993c080da524a14afcff9da","56bd673b907885495d8442ffbea9a5d2e4b6c5f5"] | 2026-02-16 | 2026-02-16 | 2026-02-16 | 112 | 111 | 111 | 99bdfbc6fd46aea88993c080da524a14afcff9da |
 | AxonFramework-5.1.1/.claude/.mcp.json | Jan Galinski | 1 | ["be2d983a48bccdd3830d0d967e21cf5173a9c83b"] | 2026-02-19 | 2026-02-16 | 2026-02-16 | 109 | 111 | 111 | be2d983a48bccdd3830d0d967e21cf5173a9c83b |
 | AxonFramework-5.1.1/.claude/.mcp.json | John Hendrikx | 1 | ["346c595d30b9744f3c62e68e2ae0410ef66ba4a2"] | 2026-03-11 | 2026-02-16 | 2026-02-16 | 89 | 111 | 111 | 346c595d30b9744f3c62e68e2ae0410ef66ba4a2 |
 | AxonFramework-5.1.1/.claude/.mcp.json | hatzlj | 1 | ["28ead9298f9202653d199ccc5c96d9d6e176646f"] | 2026-03-20 | 2026-02-16 | 2026-02-16 | 80 | 111 | 111 | 28ead9298f9202653d199ccc5c96d9d6e176646f |

@@ -12,83 +12,16 @@ strict digraph TopOutlier4 {
     central [fontsize = 16;];
     central [color = 7; fillcolor = 5; penwidth = 3;];
 
-	graph   [label="Top Rank #4 Java Package Outlier\norg.axonframework.messaging.eventhandling.processing.subscribing\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: cluster probability\nlarge circle: < 25% percentile of cluster probability\nthick outline: > 80% percentile of distance to cluster center\n\n"];
-	central [label="🧩 outlier #4\nsubscribing"];
-	"configuration_47"  [label = "configuration\n(100.0%)"; penwidth = 2; ]; "configuration_47" -> central [label=9; weight=9; penwidth=0.6];
-	"event_21718"  [shape = "circle"; height=1.8; label = "event\n(51.79%)"; penwidth = 2; ]; "event_21718" -> central [label=5; weight=5; penwidth=0.5];
-	"configuration_47"  [label = "configuration\n(100.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "configuration_47" [label=30; weight=30; penwidth=0.9; color = 5];
-	"configuration_27533"  [shape = "circle"; height=1.8; label = "configuration\n(0.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "configuration_27533" [label=18; weight=18; penwidth=0.7; color = 5];
-	"processing_34"  [label = "processing\n(100.0%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "processing_34" [label=11; weight=11; penwidth=0.6; color = 5];
-	"common_27519"  [label = "common\n(100.0%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "common_27519" [label=9; weight=9; penwidth=0.6; color = 5];
-	"core_48"  [label = "core\n(100.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "core_48" [label=9; weight=9; penwidth=0.6; color = 5];
-	"eventhandling_27"  [label = "eventhandling\n(99.79%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "eventhandling_27" [label=7; weight=7; penwidth=0.5; color = 5];
-	"annotation_27532"  [shape = "circle"; height=1.8; label = "annotation\n(49.79%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "annotation_27532" [label=4; weight=4; penwidth=0.5; color = 5];
-	"unitofwork_49"  [label = "unitofwork\n(100.0%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "unitofwork_49" [label=4; weight=4; penwidth=0.5; color = 5];
-	"errorhandling_36"  [label = "errorhandling\n(100.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "errorhandling_36" [label=3; weight=3; penwidth=0.5; color = 5];
-	"infra_27526"  [label = "infra\n(95.2%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "infra_27526" [label=2; weight=2; penwidth=0.4; color = 5];
-	"interception_29"  [label = "interception\n(100.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "interception_29" [label=2; weight=2; penwidth=0.4; color = 5];
-	"segmenting_38"  [label = "segmenting\n(100.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "segmenting_38" [label=2; weight=2; penwidth=0.4; color = 5];
-	"monitoring_74"  [label = "monitoring\n(100.0%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "monitoring_74" [label=1; weight=1; penwidth=0.4; color = 5];
-	"eventhandling_27" -> "core_48" [label=59; weight=59; penwidth=0.3; color = 3]
-	"event_21718" -> "core_48" [label=53; weight=53; penwidth=0.3; color = 3]
+	graph   [label="Top Rank #4 Java Package Outlier\norg.axonframework.messaging.eventhandling.processing.streaming.token.annotation\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: cluster probability\nlarge circle: < 25% percentile of cluster probability\nthick outline: > 80% percentile of distance to cluster center\n\n"];
+	central [label="🧩 outlier #4\nannotation"];
+	"token_40"  [label = "token\n(96.85%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "token_40" [label=2; weight=2; penwidth=0.4; color = 5];
+	"annotation_62"  [label = "annotation\n(100.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "annotation_62" [label=1; weight=1; penwidth=0.4; color = 5];
+	"core_48"  [label = "core\n(85.75%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "core_48" [label=1; weight=1; penwidth=0.4; color = 5];
+	"unitofwork_49"  [label = "unitofwork\n(69.55%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "unitofwork_49" [label=1; weight=1; penwidth=0.4; color = 5];
+	"annotation_62" -> "core_48" [label=82; weight=82; penwidth=0.3; color = 3]
 	"unitofwork_49" -> "core_48" [label=50; weight=50; penwidth=0.3; color = 3]
-	"core_48" -> "common_27519" [label=43; weight=43; penwidth=0.3; color = 3]
-	"configuration_27533" -> "common_27519" [label=42; weight=42; penwidth=0.3; color = 3]
-	"configuration_47" -> "configuration_27533" [label=26; weight=26; penwidth=0.3; color = 3]
-	"event_21718" -> "eventhandling_27" [label=16; weight=16; penwidth=0.3; color = 3]
-	"segmenting_38" -> "core_48" [label=16; weight=16; penwidth=0.3; color = 3]
-	"configuration_27533" -> "annotation_27532" [label=14; weight=14; penwidth=0.3; color = 3]
-	"segmenting_38" -> "eventhandling_27" [label=13; weight=13; penwidth=0.3; color = 3]
-	"processing_34" -> "core_48" [label=12; weight=12; penwidth=0.3; color = 3]
-	"unitofwork_49" -> "common_27519" [label=11; weight=11; penwidth=0.3; color = 3]
-	"configuration_47" -> "eventhandling_27" [label=10; weight=10; penwidth=0.3; color = 3]
-	"event_21718" -> "configuration_27533" [label=10; weight=10; penwidth=0.3; color = 3]
-	"eventhandling_27" -> "common_27519" [label=10; weight=10; penwidth=0.3; color = 3]
-	"eventhandling_27" -> "unitofwork_49" [label=10; weight=10; penwidth=0.3; color = 3]
-	"configuration_27533" -> "infra_27526" [label=9; weight=9; penwidth=0.3; color = 3]
-	"interception_29" -> "eventhandling_27" [label=9; weight=9; penwidth=0.3; color = 3]
-	"configuration_47" -> "common_27519" [label=8; weight=8; penwidth=0.3; color = 3]
-	"core_48" -> "annotation_27532" [label=7; weight=7; penwidth=0.3; color = 3]
-	"interception_29" -> "core_48" [label=7; weight=7; penwidth=0.3; color = 3]
-	"processing_34" -> "eventhandling_27" [label=7; weight=7; penwidth=0.3; color = 3]
-	"event_21718" -> "annotation_27532" [label=6; weight=6; penwidth=0.3; color = 3]
-	"eventhandling_27" -> "annotation_27532" [label=6; weight=6; penwidth=0.3; color = 3]
-	"eventhandling_27" -> "infra_27526" [label=6; weight=6; penwidth=0.3; color = 3]
-	"segmenting_38" -> "annotation_27532" [label=6; weight=6; penwidth=0.3; color = 3]
-	"configuration_47" -> "unitofwork_49" [label=5; weight=5; penwidth=0.3; color = 3]
+	"annotation_62" -> "unitofwork_49" [label=14; weight=14; penwidth=0.3; color = 3]
+	"token_40" -> "core_48" [label=6; weight=6; penwidth=0.3; color = 3]
 	"core_48" -> "unitofwork_49" [label=5; weight=5; penwidth=0.3; color = 3]
-	"infra_27526" -> "configuration_27533" [label=5; weight=5; penwidth=0.3; color = 3]
-	"annotation_27532" -> "common_27519" [label=4; weight=4; penwidth=0.3; color = 3]
-	"configuration_47" -> "annotation_27532" [label=4; weight=4; penwidth=0.3; color = 3]
-	"configuration_47" -> "core_48" [label=4; weight=4; penwidth=0.3; color = 3]
-	"event_21718" -> "segmenting_38" [label=4; weight=4; penwidth=0.3; color = 3]
-	"processing_34" -> "common_27519" [label=4; weight=4; penwidth=0.3; color = 3]
-	"configuration_47" -> "errorhandling_36" [label=3; weight=3; penwidth=0.3; color = 3]
-	"event_21718" -> "unitofwork_49" [label=3; weight=3; penwidth=0.3; color = 3]
-	"event_21718" -> "infra_27526" [label=3; weight=3; penwidth=0.3; color = 3]
-	"event_21718" -> "processing_34" [label=3; weight=3; penwidth=0.3; color = 3]
-	"infra_27526" -> "common_27519" [label=3; weight=3; penwidth=0.3; color = 3]
-	"processing_34" -> "segmenting_38" [label=3; weight=3; penwidth=0.3; color = 3]
-	"segmenting_38" -> "unitofwork_49" [label=3; weight=3; penwidth=0.3; color = 3]
-	"configuration_47" -> "monitoring_74" [label=2; weight=2; penwidth=0.3; color = 3]
-	"errorhandling_36" -> "processing_34" [label=2; weight=2; penwidth=0.3; color = 3]
-	"event_21718" -> "common_27519" [label=2; weight=2; penwidth=0.3; color = 3]
-	"interception_29" -> "annotation_27532" [label=2; weight=2; penwidth=0.3; color = 3]
-	"monitoring_74" -> "core_48" [label=2; weight=2; penwidth=0.3; color = 3]
-	"processing_34" -> "unitofwork_49" [label=2; weight=2; penwidth=0.3; color = 3]
-	"segmenting_38" -> "common_27519" [label=2; weight=2; penwidth=0.3; color = 3]
-	"unitofwork_49" -> "configuration_27533" [label=2; weight=2; penwidth=0.3; color = 3]
-	"configuration_47" -> "infra_27526" [label=1; weight=1; penwidth=0.3; color = 3]
-	"core_48" -> "configuration_27533" [label=1; weight=1; penwidth=0.3; color = 3]
-	"errorhandling_36" -> "eventhandling_27" [label=1; weight=1; penwidth=0.3; color = 3]
-	"errorhandling_36" -> "core_48" [label=1; weight=1; penwidth=0.3; color = 3]
-	"interception_29" -> "unitofwork_49" [label=1; weight=1; penwidth=0.3; color = 3]
-	"monitoring_74" -> "common_27519" [label=1; weight=1; penwidth=0.3; color = 3]
-	"processing_34" -> "infra_27526" [label=1; weight=1; penwidth=0.3; color = 3]
-	"processing_34" -> "annotation_27532" [label=1; weight=1; penwidth=0.3; color = 3]
-	"segmenting_38" -> "infra_27526" [label=1; weight=1; penwidth=0.3; color = 3]
-	"unitofwork_49" -> "annotation_27532" [label=1; weight=1; penwidth=0.3; color = 3]
-	"configuration_47" -> "processing_34" [label=0; weight=0; penwidth=0.3; color = 3]
-	"core_48" -> "eventhandling_27" [label=0; weight=0; penwidth=0.3; color = 3]
-	"interception_29" -> "infra_27526" [label=0; weight=0; penwidth=0.3; color = 3]
+	"core_48" -> "annotation_62" [label=1; weight=1; penwidth=0.3; color = 3]
 }
