@@ -6,7 +6,7 @@
 "org.axonframework.common.Assert: void isTrue(boolean,java.util.function.Supplier)","isTrue","centralityArticleRank",1.1513719062427727,""
 "org.axonframework.modelling.entity.annotation.AnnotatedEntityMetamodel: java.lang.Class getExpectedRepresentation(org.axonframework.messaging.core.QualifiedName)","getExpectedRepresentation","centralityArticleRank",0.9868290418269072,""
 "org.axonframework.common.ObjectUtils: java.lang.Class nullSafeTypeOf(java.lang.Object)","nullSafeTypeOf","centralityArticleRank",0.9420864081269045,""
-"org.axonframework.common.configuration.ComponentRegistry: org.axonframework.common.configuration.ComponentRegistry registerDecorator(java.lang.Class,int,org.axonframework.common.configuration.ComponentDecorator)","registerDecorator","centralityArticleRank",0.6623719564295402,""
+"org.axonframework.common.configuration.ComponentRegistry: org.axonframework.common.configuration.ComponentRegistry registerDecorator(java.lang.Class,int,org.axonframework.common.configuration.ComponentDecorator)","registerDecorator","centralityArticleRank",0.6623719564295404,""
 "org.axonframework.common.ExceptionUtils: boolean isExplicitlyNonTransient(java.lang.Throwable)","isExplicitlyNonTransient","centralityArticleRank",0.6222451602008252,""
 "io.axoniq.framework.axonserver.connector.shared.MetadataConverter: java.util.Map convertGrpcToMetadataValues(java.util.Map)","convertGrpcToMetadataValues","centralityArticleRank",0.5317099401227181,""
 "org.axonframework.modelling.configuration.ModellingConfigurer: org.axonframework.modelling.configuration.ModellingConfigurer componentRegistry(java.util.function.Consumer)","componentRegistry","centralityArticleRank",0.5094161978839004,""

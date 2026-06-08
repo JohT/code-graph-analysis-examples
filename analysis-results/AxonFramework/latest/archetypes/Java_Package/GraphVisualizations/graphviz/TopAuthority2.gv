@@ -14,6 +14,6 @@ strict digraph TopAuthority2 {
 
 	graph   [label="Top Rank #2 Java Package Authority\norg.axonframework.common.io\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: Page Rank (normalized)\nlarge circle: > 80% percentile of Page Rank\nthick outline: > 80% percentile of Page Rank to Article Rank Difference\n\n"];
 	central [label="🏛️ authority #2\nio"];
-	"jpa_33049"  [label = "jpa\n(0.0%)"; penwidth = 5; ]; "jpa_33049" -> central [label=2; weight=2; penwidth=0.4];
-	"util_27530"  [label = "util\n(1.82%)"; penwidth = 2; ]; "util_27530" -> central [label=2; weight=2; penwidth=0.4];
+	"jpa_33047"  [label = "jpa\n(0.0%)"; penwidth = 5; ]; "jpa_33047" -> central [label=2; weight=2; penwidth=0.4];
+	"util_27529"  [label = "util\n(1.82%)"; penwidth = 2; ]; "util_27529" -> central [label=2; weight=2; penwidth=0.4];
 }

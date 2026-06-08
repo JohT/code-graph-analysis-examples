@@ -15,7 +15,7 @@ strict digraph TopHub2 {
 	graph   [label="Top Rank #2 Java Type Hub\norg.axonframework.common.Priority\n\nnodes: incoming dependencies (limited max. 40)\nnode value: local clustering coefficient\nthick outline: <10% percentile of local clustering coefficient\n\n"];
 	central [label="🎡 hub #2\nPriority\n(in-degree=13)"];
 	"AggregateTypeParameterResolverFactory_14683"  [label = "AggregateTypeParameterResolverFactory\n(0.2)"; penwidth = 2; ]; "AggregateTypeParameterResolverFactory_14683" -> central [label=1; weight=1; penwidth=0.4];
-	"ConfigurationParameterResolverFactory_16662"  [label = "ConfigurationParameterResolverFactory\n(0.13)"; penwidth = 2; ]; "ConfigurationParameterResolverFactory_16662" -> central [label=1; weight=1; penwidth=0.4];
+	"ConfigurationParameterResolverFactory_16663"  [label = "ConfigurationParameterResolverFactory\n(0.13)"; penwidth = 2; ]; "ConfigurationParameterResolverFactory_16663" -> central [label=1; weight=1; penwidth=0.4];
 	"DefaultParameterResolverFactory_14615"  [label = "DefaultParameterResolverFactory\n(0.2)"; penwidth = 2; ]; "DefaultParameterResolverFactory_14615" -> central [label=1; weight=1; penwidth=0.4];
 	"FixtureResourceParameterResolverFactory_39867"  [label = "FixtureResourceParameterResolverFactory\n(0.33)"; penwidth = 2; ]; "FixtureResourceParameterResolverFactory_39867" -> central [label=1; weight=1; penwidth=0.4];
 	"HierarchicalParameterResolverFactory_13912"  [label = "HierarchicalParameterResolverFactory\n(0.33)"; penwidth = 2; ]; "HierarchicalParameterResolverFactory_13912" -> central [label=1; weight=1; penwidth=0.4];

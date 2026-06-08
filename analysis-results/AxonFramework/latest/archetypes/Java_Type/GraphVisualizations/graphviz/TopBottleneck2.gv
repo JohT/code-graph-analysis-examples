@@ -18,34 +18,34 @@ strict digraph TopBottleneck2 {
 	"MethodInvokingMessageHandlingMember_15684"  [label = "MethodInvokingMessageHandlingMember\n(8.0)"; penwidth = 2; ]; "MethodInvokingMessageHandlingMember_15684" -> central [label=16; weight=16; penwidth=0.6];
 	"CommandResult_692"  [label = "CommandResult\n(138.5)"; penwidth = 2; ]; "CommandResult_692" -> central [label=13; weight=13; penwidth=0.6];
 	"MessageDecorator_209"  [label = "MessageDecorator\n(10.0)"; penwidth = 2; ]; "MessageDecorator_209" -> central [label=13; weight=13; penwidth=0.6];
-	"OpenTelemetrySpanFactory_38011"  [label = "OpenTelemetrySpanFactory\n(5.5)"; penwidth = 2; ]; "OpenTelemetrySpanFactory_38011" -> central [label=12; weight=12; penwidth=0.6];
+	"OpenTelemetrySpanFactory_38009"  [label = "OpenTelemetrySpanFactory\n(5.5)"; penwidth = 2; ]; "OpenTelemetrySpanFactory_38009" -> central [label=12; weight=12; penwidth=0.6];
 	"TagsUtil_45028"  [label = "TagsUtil\n(0.0)"; penwidth = 2; ]; "TagsUtil_45028" -> central [label=12; weight=12; penwidth=0.6];
 	"GenericResultMessage_186"  [label = "GenericResultMessage\n(101.83)"; penwidth = 2; ]; "GenericResultMessage_186" -> central [label=11; weight=11; penwidth=0.6];
 	"MultiSpanFactory_17699"  [label = "MultiSpanFactory\n(0.0)"; penwidth = 2; ]; "MultiSpanFactory_17699" -> central [label=11; weight=11; penwidth=0.6];
 	"AxonTestThenCommand_39868"  [label = "AxonTestThenCommand\n(178.77)"; penwidth = 2; ]; "AxonTestThenCommand_39868" -> central [label=10; weight=10; penwidth=0.5];
 	"GenericCommandMessage_713"  [label = "GenericCommandMessage\n(152.5)"; penwidth = 2; ]; "GenericCommandMessage_713" -> central [label=10; weight=10; penwidth=0.5];
 	"GenericEventMessage_2106"  [label = "GenericEventMessage\n(586.74)"; penwidth = 2; ]; "GenericEventMessage_2106" -> central [label=10; weight=10; penwidth=0.5];
-	"GenericQueryMessage_18692"  [label = "GenericQueryMessage\n(17.33)"; penwidth = 2; ]; "GenericQueryMessage_18692" -> central [label=10; weight=10; penwidth=0.5];
+	"GenericQueryMessage_18691"  [label = "GenericQueryMessage\n(17.33)"; penwidth = 2; ]; "GenericQueryMessage_18691" -> central [label=10; weight=10; penwidth=0.5];
 	"SpanFactory_205"  [label = "SpanFactory\n(171.25)"; penwidth = 2; ]; "SpanFactory_205" -> central [label=10; weight=10; penwidth=0.5];
 	"DefaultDispatchInterceptorRegistry_11488"  [label = "DefaultDispatchInterceptorRegistry\n(236.71)"; penwidth = 2; ]; "DefaultDispatchInterceptorRegistry_11488" -> central [label=9; weight=9; penwidth=0.5];
 	"GenericCommandResultMessage_707"  [label = "GenericCommandResultMessage\n(252.38)"; penwidth = 2; ]; "GenericCommandResultMessage_707" -> central [label=9; weight=9; penwidth=0.5];
 	"GenericQueryResponseMessage_17701"  [label = "GenericQueryResponseMessage\n(30.33)"; penwidth = 2; ]; "GenericQueryResponseMessage_17701" -> central [label=9; weight=9; penwidth=0.5];
 	"GenericReplayStatusChanged_2354"  [label = "GenericReplayStatusChanged\n(65.0)"; penwidth = 2; ]; "GenericReplayStatusChanged_2354" -> central [label=9; weight=9; penwidth=0.5];
 	"GenericResetContext_2353"  [label = "GenericResetContext\n(75.0)"; penwidth = 2; ]; "GenericResetContext_2353" -> central [label=9; weight=9; penwidth=0.5];
-	"GenericSubscriptionQueryUpdateMessage_18691"  [label = "GenericSubscriptionQueryUpdateMessage\n(85.17)"; penwidth = 2; ]; "GenericSubscriptionQueryUpdateMessage_18691" -> central [label=9; weight=9; penwidth=0.5];
+	"GenericSubscriptionQueryUpdateMessage_18690"  [label = "GenericSubscriptionQueryUpdateMessage\n(85.17)"; penwidth = 2; ]; "GenericSubscriptionQueryUpdateMessage_18690" -> central [label=9; weight=9; penwidth=0.5];
 	"CapacityMonitor_45030"  [label = "CapacityMonitor\n(22.5)"; penwidth = 2; ]; "CapacityMonitor_45030" -> central [label=8; weight=8; penwidth=0.5];
 	"DefaultHandlerInterceptorRegistry_11489"  [label = "DefaultHandlerInterceptorRegistry\n(187.38)"; penwidth = 2; ]; "DefaultHandlerInterceptorRegistry_11489" -> central [label=8; weight=8; penwidth=0.5];
 	"LoggingInterceptor_12531"  [label = "LoggingInterceptor\n(0.0)"; penwidth = 2; ]; "LoggingInterceptor_12531" -> central [label=8; weight=8; penwidth=0.5];
 	"DefaultQueryBusSpanFactory_17785"  [label = "DefaultQueryBusSpanFactory\n(9.5)"; penwidth = 2; ]; "DefaultQueryBusSpanFactory_17785" -> central [label=7; weight=7; penwidth=0.5];
 	"MessageHandlerInterceptorDefinition$ResultHandlingInterceptorMember_12534"  [label = "MessageHandlerInterceptorDefinition$\nResultHandlingInterceptorMember\n(19.33)"; penwidth = 2; ]; "MessageHandlerInterceptorDefinition$ResultHandlingInterceptorMember_12534" -> central [label=7; weight=7; penwidth=0.5];
-	"MetadataContextGetter_38010"  [label = "MetadataContextGetter\n(1.0)"; penwidth = 2; ]; "MetadataContextGetter_38010" -> central [label=7; weight=7; penwidth=0.5];
+	"MetadataContextGetter_38008"  [label = "MetadataContextGetter\n(1.0)"; penwidth = 2; ]; "MetadataContextGetter_38008" -> central [label=7; weight=7; penwidth=0.5];
 	"CommandMessage_155"  [label = "CommandMessage\n(651.56)"; penwidth = 5; ]; "CommandMessage_155" -> central [label=6; weight=6; penwidth=0.5];
 	"ConvertingCommandGateway$ConvertingCommandResult_2030"  [label = "ConvertingCommandGateway$\nConvertingCommandResult\n(0.0)"; penwidth = 2; ]; "ConvertingCommandGateway$ConvertingCommandResult_2030" -> central [label=6; weight=6; penwidth=0.5];
 	"EventMessage_1350"  [label = "EventMessage\n(1811.23)"; penwidth = 5; ]; "EventMessage_1350" -> central [label=6; weight=6; penwidth=0.5];
 	"FluxUtils_10456"  [label = "FluxUtils\n(290.94)"; penwidth = 2; ]; "FluxUtils_10456" -> central [label=6; weight=6; penwidth=0.5];
 	"MessageCountingMonitor_45063"  [label = "MessageCountingMonitor\n(36.0)"; penwidth = 2; ]; "MessageCountingMonitor_45063" -> central [label=6; weight=6; penwidth=0.5];
 	"MessageTypeResolver_1300"  [label = "MessageTypeResolver\n(789.03)"; penwidth = 5; ]; "MessageTypeResolver_1300" -> central [label=6; weight=6; penwidth=0.5];
-	"NoOpSpanFactory_16665"  [label = "NoOpSpanFactory\n(0.0)"; penwidth = 2; ]; "NoOpSpanFactory_16665" -> central [label=6; weight=6; penwidth=0.5];
+	"NoOpSpanFactory_16666"  [label = "NoOpSpanFactory\n(0.0)"; penwidth = 2; ]; "NoOpSpanFactory_16666" -> central [label=6; weight=6; penwidth=0.5];
 	"QueryMessage_10274"  [label = "QueryMessage\n(222.8)"; penwidth = 2; ]; "QueryMessage_10274" -> central [label=6; weight=6; penwidth=0.5];
 	"ReplayStatusChanged_3030"  [label = "ReplayStatusChanged\n(95.95)"; penwidth = 2; ]; "ReplayStatusChanged_3030" -> central [label=6; weight=6; penwidth=0.5];
 	"ResetContext_3029"  [label = "ResetContext\n(55.45)"; penwidth = 2; ]; "ResetContext_3029" -> central [label=6; weight=6; penwidth=0.5];
@@ -53,9 +53,9 @@ strict digraph TopBottleneck2 {
 	"BeanValidationInterceptor_12532"  [label = "BeanValidationInterceptor\n(0.0)"; penwidth = 2; ]; "BeanValidationInterceptor_12532" -> central [label=5; weight=5; penwidth=0.5];
 	"CommandResultMessage_687"  [label = "CommandResultMessage\n(563.31)"; penwidth = 2; ]; "CommandResultMessage_687" -> central [label=5; weight=5; penwidth=0.5];
 	"DefaultCommandGateway_1631"  [label = "DefaultCommandGateway\n(28.0)"; penwidth = 2; ]; "DefaultCommandGateway_1631" -> central [label=5; weight=5; penwidth=0.5];
-	"DefaultMessageMonitorRegistry_16595"  [label = "DefaultMessageMonitorRegistry\n(312.03)"; penwidth = 2; ]; "DefaultMessageMonitorRegistry_16595" -> central [label=5; weight=5; penwidth=0.5];
+	"DefaultMessageMonitorRegistry_16596"  [label = "DefaultMessageMonitorRegistry\n(312.03)"; penwidth = 2; ]; "DefaultMessageMonitorRegistry_16596" -> central [label=5; weight=5; penwidth=0.5];
 	"Converter_25974"  [label = "Converter\n(784.5)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "Converter_25974" [label=6; weight=6; penwidth=0.5; color = 5];
-	"TypeReference_27626"  [label = "TypeReference\n(1400.0)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "TypeReference_27626" [label=6; weight=6; penwidth=0.5; color = 5];
+	"TypeReference_27625"  [label = "TypeReference\n(1400.0)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "TypeReference_27625" [label=6; weight=6; penwidth=0.5; color = 5];
 	"ProcessingContext_159"  [label = "ProcessingContext\n(6610.47)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "ProcessingContext_159" [label=5; weight=5; penwidth=0.5; color = 5];
 	"Context$ResourceKey_218"  [label = "Context$\nResourceKey\n(0.0)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "Context$ResourceKey_218" [label=3; weight=3; penwidth=0.4; color = 5];
 	"MessageType_187"  [label = "MessageType\n(4151.32)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "MessageType_187" [label=1; weight=1; penwidth=0.4; color = 5];
@@ -95,50 +95,50 @@ strict digraph TopBottleneck2 {
 	"ResetContext_3029" -> "Converter_25974" [label=6; weight=6; penwidth=0.3; color = 3]
 	"ResultMessage_195" -> "Converter_25974" [label=6; weight=6; penwidth=0.3; color = 3]
 	"DefaultCommandGateway_1631" -> "CommandMessage_155" [label=5; weight=5; penwidth=0.3; color = 3]
-	"DefaultDispatchInterceptorRegistry_11488" -> "TypeReference_27626" [label=5; weight=5; penwidth=0.3; color = 3]
-	"DefaultMessageMonitorRegistry_16595" -> "TypeReference_27626" [label=5; weight=5; penwidth=0.3; color = 3]
-	"DefaultMessageMonitorRegistry_16595" -> "QueryMessage_10274" [label=5; weight=5; penwidth=0.3; color = 3]
-	"DefaultMessageMonitorRegistry_16595" -> "EventMessage_1350" [label=5; weight=5; penwidth=0.3; color = 3]
-	"DefaultMessageMonitorRegistry_16595" -> "CommandMessage_155" [label=5; weight=5; penwidth=0.3; color = 3]
+	"DefaultDispatchInterceptorRegistry_11488" -> "TypeReference_27625" [label=5; weight=5; penwidth=0.3; color = 3]
+	"DefaultMessageMonitorRegistry_16596" -> "TypeReference_27625" [label=5; weight=5; penwidth=0.3; color = 3]
+	"DefaultMessageMonitorRegistry_16596" -> "QueryMessage_10274" [label=5; weight=5; penwidth=0.3; color = 3]
+	"DefaultMessageMonitorRegistry_16596" -> "EventMessage_1350" [label=5; weight=5; penwidth=0.3; color = 3]
+	"DefaultMessageMonitorRegistry_16596" -> "CommandMessage_155" [label=5; weight=5; penwidth=0.3; color = 3]
 	"GenericReplayStatusChanged_2354" -> "ReplayStatusChanged_3030" [label=5; weight=5; penwidth=0.3; color = 3]
-	"GenericSubscriptionQueryUpdateMessage_18691" -> "Converter_25974" [label=5; weight=5; penwidth=0.3; color = 3]
+	"GenericSubscriptionQueryUpdateMessage_18690" -> "Converter_25974" [label=5; weight=5; penwidth=0.3; color = 3]
 	"MessageTypeResolver_1300" -> "MessageType_187" [label=5; weight=5; penwidth=0.3; color = 3]
 	"BeanValidationInterceptor_12532" -> "ProcessingContext_159" [label=4; weight=4; penwidth=0.3; color = 3]
-	"CommandResultMessage_687" -> "TypeReference_27626" [label=4; weight=4; penwidth=0.3; color = 3]
+	"CommandResultMessage_687" -> "TypeReference_27625" [label=4; weight=4; penwidth=0.3; color = 3]
 	"DefaultCommandGateway_1631" -> "MessageTypeResolver_1300" [label=4; weight=4; penwidth=0.3; color = 3]
-	"DefaultHandlerInterceptorRegistry_11489" -> "TypeReference_27626" [label=4; weight=4; penwidth=0.3; color = 3]
+	"DefaultHandlerInterceptorRegistry_11489" -> "TypeReference_27625" [label=4; weight=4; penwidth=0.3; color = 3]
 	"GenericCommandMessage_713" -> "CommandMessage_155" [label=4; weight=4; penwidth=0.3; color = 3]
 	"GenericCommandResultMessage_707" -> "CommandResultMessage_687" [label=4; weight=4; penwidth=0.3; color = 3]
 	"GenericCommandResultMessage_707" -> "MessageType_187" [label=4; weight=4; penwidth=0.3; color = 3]
 	"GenericCommandResultMessage_707" -> "Converter_25974" [label=4; weight=4; penwidth=0.3; color = 3]
 	"GenericEventMessage_2106" -> "EventMessage_1350" [label=4; weight=4; penwidth=0.3; color = 3]
-	"GenericQueryMessage_18692" -> "QueryMessage_10274" [label=4; weight=4; penwidth=0.3; color = 3]
+	"GenericQueryMessage_18691" -> "QueryMessage_10274" [label=4; weight=4; penwidth=0.3; color = 3]
 	"GenericQueryResponseMessage_17701" -> "MessageType_187" [label=4; weight=4; penwidth=0.3; color = 3]
 	"GenericQueryResponseMessage_17701" -> "GenericResultMessage_186" [label=4; weight=4; penwidth=0.3; color = 3]
 	"GenericQueryResponseMessage_17701" -> "Converter_25974" [label=4; weight=4; penwidth=0.3; color = 3]
 	"GenericResetContext_2353" -> "ResetContext_3029" [label=4; weight=4; penwidth=0.3; color = 3]
 	"LoggingInterceptor_12531" -> "MessageType_187" [label=4; weight=4; penwidth=0.3; color = 3]
 	"AxonTestThenCommand_39868" -> "CommandResultMessage_687" [label=3; weight=3; penwidth=0.3; color = 3]
-	"CommandMessage_155" -> "TypeReference_27626" [label=3; weight=3; penwidth=0.3; color = 3]
-	"EventMessage_1350" -> "TypeReference_27626" [label=3; weight=3; penwidth=0.3; color = 3]
+	"CommandMessage_155" -> "TypeReference_27625" [label=3; weight=3; penwidth=0.3; color = 3]
+	"EventMessage_1350" -> "TypeReference_27625" [label=3; weight=3; penwidth=0.3; color = 3]
+	"GenericCommandMessage_713" -> "Converter_25974" [label=3; weight=3; penwidth=0.3; color = 3]
 	"GenericCommandMessage_713" -> "MessageType_187" [label=3; weight=3; penwidth=0.3; color = 3]
 	"GenericCommandMessage_713" -> "MessageDecorator_209" [label=3; weight=3; penwidth=0.3; color = 3]
-	"GenericCommandMessage_713" -> "Converter_25974" [label=3; weight=3; penwidth=0.3; color = 3]
 	"GenericCommandResultMessage_707" -> "ResultMessage_195" [label=3; weight=3; penwidth=0.3; color = 3]
 	"GenericEventMessage_2106" -> "Converter_25974" [label=3; weight=3; penwidth=0.3; color = 3]
 	"GenericEventMessage_2106" -> "MessageDecorator_209" [label=3; weight=3; penwidth=0.3; color = 3]
 	"GenericEventMessage_2106" -> "Metadata_211" [label=3; weight=3; penwidth=0.3; color = 3]
 	"GenericEventMessage_2106" -> "MessageType_187" [label=3; weight=3; penwidth=0.3; color = 3]
-	"GenericQueryMessage_18692" -> "MessageDecorator_209" [label=3; weight=3; penwidth=0.3; color = 3]
-	"GenericQueryMessage_18692" -> "Converter_25974" [label=3; weight=3; penwidth=0.3; color = 3]
+	"GenericQueryMessage_18691" -> "MessageDecorator_209" [label=3; weight=3; penwidth=0.3; color = 3]
+	"GenericQueryMessage_18691" -> "Converter_25974" [label=3; weight=3; penwidth=0.3; color = 3]
 	"GenericQueryResponseMessage_17701" -> "ResultMessage_195" [label=3; weight=3; penwidth=0.3; color = 3]
-	"GenericSubscriptionQueryUpdateMessage_18691" -> "GenericResultMessage_186" [label=3; weight=3; penwidth=0.3; color = 3]
-	"GenericSubscriptionQueryUpdateMessage_18691" -> "ResultMessage_195" [label=3; weight=3; penwidth=0.3; color = 3]
-	"GenericSubscriptionQueryUpdateMessage_18691" -> "MessageType_187" [label=3; weight=3; penwidth=0.3; color = 3]
-	"QueryMessage_10274" -> "TypeReference_27626" [label=3; weight=3; penwidth=0.3; color = 3]
-	"ReplayStatusChanged_3030" -> "TypeReference_27626" [label=3; weight=3; penwidth=0.3; color = 3]
-	"ResetContext_3029" -> "TypeReference_27626" [label=3; weight=3; penwidth=0.3; color = 3]
-	"ResultMessage_195" -> "TypeReference_27626" [label=3; weight=3; penwidth=0.3; color = 3]
+	"GenericSubscriptionQueryUpdateMessage_18690" -> "ResultMessage_195" [label=3; weight=3; penwidth=0.3; color = 3]
+	"GenericSubscriptionQueryUpdateMessage_18690" -> "MessageType_187" [label=3; weight=3; penwidth=0.3; color = 3]
+	"GenericSubscriptionQueryUpdateMessage_18690" -> "GenericResultMessage_186" [label=3; weight=3; penwidth=0.3; color = 3]
+	"QueryMessage_10274" -> "TypeReference_27625" [label=3; weight=3; penwidth=0.3; color = 3]
+	"ReplayStatusChanged_3030" -> "TypeReference_27625" [label=3; weight=3; penwidth=0.3; color = 3]
+	"ResetContext_3029" -> "TypeReference_27625" [label=3; weight=3; penwidth=0.3; color = 3]
+	"ResultMessage_195" -> "TypeReference_27625" [label=3; weight=3; penwidth=0.3; color = 3]
 	"DefaultCommandGateway_1631" -> "Metadata_211" [label=2; weight=2; penwidth=0.3; color = 3]
 	"GenericQueryResponseMessage_17701" -> "Metadata_211" [label=2; weight=2; penwidth=0.3; color = 3]
 	"GenericReplayStatusChanged_2354" -> "Converter_25974" [label=2; weight=2; penwidth=0.3; color = 3]
@@ -149,22 +149,22 @@ strict digraph TopBottleneck2 {
 	"GenericResetContext_2353" -> "MessageType_187" [label=2; weight=2; penwidth=0.3; color = 3]
 	"GenericResultMessage_186" -> "MessageDecorator_209" [label=2; weight=2; penwidth=0.3; color = 3]
 	"GenericResultMessage_186" -> "Converter_25974" [label=2; weight=2; penwidth=0.3; color = 3]
-	"GenericSubscriptionQueryUpdateMessage_18691" -> "Metadata_211" [label=2; weight=2; penwidth=0.3; color = 3]
+	"GenericSubscriptionQueryUpdateMessage_18690" -> "Metadata_211" [label=2; weight=2; penwidth=0.3; color = 3]
 	"LoggingInterceptor_12531" -> "ProcessingContext_159" [label=2; weight=2; penwidth=0.3; color = 3]
 	"MessageDecorator_209" -> "Converter_25974" [label=2; weight=2; penwidth=0.3; color = 3]
-	"MetadataContextGetter_38010" -> "Metadata_211" [label=2; weight=2; penwidth=0.3; color = 3]
+	"MetadataContextGetter_38008" -> "Metadata_211" [label=2; weight=2; penwidth=0.3; color = 3]
 	"DefaultCommandGateway_1631" -> "CommandResult_692" [label=1; weight=1; penwidth=0.3; color = 3]
 	"DefaultCommandGateway_1631" -> "ProcessingContext_159" [label=1; weight=1; penwidth=0.3; color = 3]
 	"GenericCommandMessage_713" -> "Metadata_211" [label=1; weight=1; penwidth=0.3; color = 3]
-	"GenericQueryMessage_18692" -> "Metadata_211" [label=1; weight=1; penwidth=0.3; color = 3]
-	"GenericQueryMessage_18692" -> "MessageType_187" [label=1; weight=1; penwidth=0.3; color = 3]
+	"GenericQueryMessage_18691" -> "MessageType_187" [label=1; weight=1; penwidth=0.3; color = 3]
+	"GenericQueryMessage_18691" -> "Metadata_211" [label=1; weight=1; penwidth=0.3; color = 3]
 	"GenericReplayStatusChanged_2354" -> "Metadata_211" [label=1; weight=1; penwidth=0.3; color = 3]
 	"GenericResetContext_2353" -> "Metadata_211" [label=1; weight=1; penwidth=0.3; color = 3]
 	"GenericResultMessage_186" -> "Metadata_211" [label=1; weight=1; penwidth=0.3; color = 3]
 	"MessageDecorator_209" -> "Metadata_211" [label=1; weight=1; penwidth=0.3; color = 3]
 	"MessageDecorator_209" -> "MessageType_187" [label=1; weight=1; penwidth=0.3; color = 3]
-	"NoOpSpanFactory_16665" -> "SpanFactory_205" [label=1; weight=1; penwidth=0.3; color = 3]
-	"OpenTelemetrySpanFactory_38011" -> "SpanFactory_205" [label=1; weight=1; penwidth=0.3; color = 3]
+	"NoOpSpanFactory_16666" -> "SpanFactory_205" [label=1; weight=1; penwidth=0.3; color = 3]
+	"OpenTelemetrySpanFactory_38009" -> "SpanFactory_205" [label=1; weight=1; penwidth=0.3; color = 3]
 	"TagsUtil_45028" -> "Metadata_211" [label=1; weight=1; penwidth=0.3; color = 3]
 	"TagsUtil_45028" -> "MessageType_187" [label=1; weight=1; penwidth=0.3; color = 3]
 }

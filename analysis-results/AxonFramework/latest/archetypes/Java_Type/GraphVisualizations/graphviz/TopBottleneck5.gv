@@ -14,75 +14,75 @@ strict digraph TopBottleneck5 {
 
 	graph   [label="Top Rank #5 Java Type Bottleneck\norg.axonframework.common.ReflectionUtils\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: Betweenness centrality\nthick outline: > 90% percentile of Betweenness centrality\n\n"];
 	central [label="🔒 bottleneck #5\nReflectionUtils"];
-	"ProvidedAxonTestFixtureUtils_40607"  [label = "ProvidedAxonTestFixtureUtils\n(10.0)"; penwidth = 2; ]; "ProvidedAxonTestFixtureUtils_40607" -> central [label=7; weight=7; penwidth=0.5];
-	"AnnotationBasedEventCriteriaResolver$WrappedEventCriteriaBuilderMethod_36412"  [label = "AnnotationBasedEventCriteriaResolver$\nWrappedEventCriteriaBuilderMethod\n(0.0)"; penwidth = 2; ]; "AnnotationBasedEventCriteriaResolver$WrappedEventCriteriaBuilderMethod_36412" -> central [label=6; weight=6; penwidth=0.5];
-	"FieldChildEntityFieldDefinition_42232"  [label = "FieldChildEntityFieldDefinition\n(39.0)"; penwidth = 2; ]; "FieldChildEntityFieldDefinition_42232" -> central [label=6; weight=6; penwidth=0.5];
+	"ProvidedAxonTestFixtureUtils_40605"  [label = "ProvidedAxonTestFixtureUtils\n(10.0)"; penwidth = 2; ]; "ProvidedAxonTestFixtureUtils_40605" -> central [label=7; weight=7; penwidth=0.5];
+	"AnnotationBasedEventCriteriaResolver$WrappedEventCriteriaBuilderMethod_36410"  [label = "AnnotationBasedEventCriteriaResolver$\nWrappedEventCriteriaBuilderMethod\n(0.0)"; penwidth = 2; ]; "AnnotationBasedEventCriteriaResolver$WrappedEventCriteriaBuilderMethod_36410" -> central [label=6; weight=6; penwidth=0.5];
+	"FieldChildEntityFieldDefinition_42995"  [label = "FieldChildEntityFieldDefinition\n(39.0)"; penwidth = 2; ]; "FieldChildEntityFieldDefinition_42995" -> central [label=6; weight=6; penwidth=0.5];
 	"AnnotationRoutingStrategy_1636"  [label = "AnnotationRoutingStrategy\n(72.0)"; penwidth = 2; ]; "AnnotationRoutingStrategy_1636" -> central [label=5; weight=5; penwidth=0.5];
-	"AnnotatedEntityMetamodel_41096"  [label = "AnnotatedEntityMetamodel\n(3527.65)"; penwidth = 5; ]; "AnnotatedEntityMetamodel_41096" -> central [label=4; weight=4; penwidth=0.5];
+	"AnnotatedEntityMetamodel_41094"  [label = "AnnotatedEntityMetamodel\n(3527.65)"; penwidth = 5; ]; "AnnotatedEntityMetamodel_41094" -> central [label=4; weight=4; penwidth=0.5];
 	"AnnotationBasedTagResolver_34642"  [label = "AnnotationBasedTagResolver\n(11.5)"; penwidth = 2; ]; "AnnotationBasedTagResolver_34642" -> central [label=4; weight=4; penwidth=0.5];
-	"AnnotationBasedEntityIdResolver_42977"  [label = "AnnotationBasedEntityIdResolver\n(36.0)"; penwidth = 2; ]; "AnnotationBasedEntityIdResolver_42977" -> central [label=3; weight=3; penwidth=0.4];
-	"AbstractEntityChildModelDefinition_41343"  [label = "AbstractEntityChildModelDefinition\n(138.0)"; penwidth = 2; ]; "AbstractEntityChildModelDefinition_41343" -> central [label=2; weight=2; penwidth=0.4];
-	"AnnotationBasedEventSourcedEntityFactory$ScannedEntityCreator_36417"  [label = "AnnotationBasedEventSourcedEntityFactory$\nScannedEntityCreator\n(0.0)"; penwidth = 2; ]; "AnnotationBasedEventSourcedEntityFactory$ScannedEntityCreator_36417" -> central [label=2; weight=2; penwidth=0.4];
-	"ConstructorUtils_27542"  [label = "ConstructorUtils\n(15.17)"; penwidth = 2; ]; "ConstructorUtils_27542" -> central [label=2; weight=2; penwidth=0.4];
-	"ListEntityChildModelDefinition_42991"  [label = "ListEntityChildModelDefinition\n(0.0)"; penwidth = 2; ]; "ListEntityChildModelDefinition_42991" -> central [label=2; weight=2; penwidth=0.4];
-	"MethodQueryHandlerDefinition$MethodQueryHandlingMember_18806"  [label = "MethodQueryHandlerDefinition$\nMethodQueryHandlingMember\n(39.0)"; penwidth = 2; ]; "MethodQueryHandlerDefinition$MethodQueryHandlingMember_18806" -> central [label=2; weight=2; penwidth=0.4];
+	"AnnotationBasedEntityIdResolver_42969"  [label = "AnnotationBasedEntityIdResolver\n(36.0)"; penwidth = 2; ]; "AnnotationBasedEntityIdResolver_42969" -> central [label=3; weight=3; penwidth=0.4];
+	"AbstractEntityChildModelDefinition_41340"  [label = "AbstractEntityChildModelDefinition\n(138.0)"; penwidth = 2; ]; "AbstractEntityChildModelDefinition_41340" -> central [label=2; weight=2; penwidth=0.4];
+	"AnnotationBasedEventSourcedEntityFactory$ScannedEntityCreator_36415"  [label = "AnnotationBasedEventSourcedEntityFactory$\nScannedEntityCreator\n(0.0)"; penwidth = 2; ]; "AnnotationBasedEventSourcedEntityFactory$ScannedEntityCreator_36415" -> central [label=2; weight=2; penwidth=0.4];
+	"ConstructorUtils_27541"  [label = "ConstructorUtils\n(15.17)"; penwidth = 2; ]; "ConstructorUtils_27541" -> central [label=2; weight=2; penwidth=0.4];
+	"ListEntityChildModelDefinition_42983"  [label = "ListEntityChildModelDefinition\n(0.0)"; penwidth = 2; ]; "ListEntityChildModelDefinition_42983" -> central [label=2; weight=2; penwidth=0.4];
+	"MethodQueryHandlerDefinition$MethodQueryHandlingMember_18805"  [label = "MethodQueryHandlerDefinition$\nMethodQueryHandlingMember\n(39.0)"; penwidth = 2; ]; "MethodQueryHandlerDefinition$MethodQueryHandlingMember_18805" -> central [label=2; weight=2; penwidth=0.4];
 	"AbstractAnnotatedParameterResolverFactory_8225"  [label = "AbstractAnnotatedParameterResolverFactory\n(65.0)"; penwidth = 2; ]; "AbstractAnnotatedParameterResolverFactory_8225" -> central [label=1; weight=1; penwidth=0.4];
-	"AnnotatedEventSourcedEntityModule_37237"  [label = "AnnotatedEventSourcedEntityModule\n(1325.39)"; penwidth = 5; ]; "AnnotatedEventSourcedEntityModule_37237" -> central [label=1; weight=1; penwidth=0.4];
-	"AnnotationBasedEventCriteriaResolver_36519"  [label = "AnnotationBasedEventCriteriaResolver\n(380.67)"; penwidth = 2; ]; "AnnotationBasedEventCriteriaResolver_36519" -> central [label=1; weight=1; penwidth=0.4];
-	"AnnotationBasedEventSourcedEntityFactory_36520"  [label = "AnnotationBasedEventSourcedEntityFactory\n(166.17)"; penwidth = 2; ]; "AnnotationBasedEventSourcedEntityFactory_36520" -> central [label=1; weight=1; penwidth=0.4];
+	"AnnotatedEventSourcedEntityModule_37235"  [label = "AnnotatedEventSourcedEntityModule\n(1325.39)"; penwidth = 5; ]; "AnnotatedEventSourcedEntityModule_37235" -> central [label=1; weight=1; penwidth=0.4];
+	"AnnotationBasedEventCriteriaResolver_36517"  [label = "AnnotationBasedEventCriteriaResolver\n(380.67)"; penwidth = 2; ]; "AnnotationBasedEventCriteriaResolver_36517" -> central [label=1; weight=1; penwidth=0.4];
+	"AnnotationBasedEventSourcedEntityFactory_36518"  [label = "AnnotationBasedEventSourcedEntityFactory\n(166.17)"; penwidth = 2; ]; "AnnotationBasedEventSourcedEntityFactory_36518" -> central [label=1; weight=1; penwidth=0.4];
 	"AnnotationRoutingStrategy$RoutingKeyResolver_2031"  [label = "AnnotationRoutingStrategy$\nRoutingKeyResolver\n(0.0)"; penwidth = 2; ]; "AnnotationRoutingStrategy$RoutingKeyResolver_2031" -> central [label=1; weight=1; penwidth=0.4];
 	"AnnotationUtils_30315"  [label = "AnnotationUtils\n(390.33)"; penwidth = 2; ]; "AnnotationUtils_30315" -> central [label=1; weight=1; penwidth=0.4];
-	"DeepEqualsMatcher_38455"  [label = "DeepEqualsMatcher\n(56.17)"; penwidth = 2; ]; "DeepEqualsMatcher_38455" -> central [label=1; weight=1; penwidth=0.4];
+	"DeepEqualsMatcher_38453"  [label = "DeepEqualsMatcher\n(56.17)"; penwidth = 2; ]; "DeepEqualsMatcher_38453" -> central [label=1; weight=1; penwidth=0.4];
 	"HandlerTypeResolver_14682"  [label = "HandlerTypeResolver\n(0.0)"; penwidth = 2; ]; "HandlerTypeResolver_14682" -> central [label=1; weight=1; penwidth=0.4];
 	"IdentifierValidator_29338"  [label = "IdentifierValidator\n(0.0)"; penwidth = 2; ]; "IdentifierValidator_29338" -> central [label=1; weight=1; penwidth=0.4];
-	"MethodAccessedProperty_28250"  [label = "MethodAccessedProperty\n(36.0)"; penwidth = 2; ]; "MethodAccessedProperty_28250" -> central [label=1; weight=1; penwidth=0.4];
+	"MethodAccessedProperty_28249"  [label = "MethodAccessedProperty\n(36.0)"; penwidth = 2; ]; "MethodAccessedProperty_28249" -> central [label=1; weight=1; penwidth=0.4];
 	"MethodInvokingMessageHandlingMember_15684"  [label = "MethodInvokingMessageHandlingMember\n(8.0)"; penwidth = 2; ]; "MethodInvokingMessageHandlingMember_15684" -> central [label=1; weight=1; penwidth=0.4];
 	"NonTransientFieldsFilter_39881"  [label = "NonTransientFieldsFilter\n(0.0)"; penwidth = 2; ]; "NonTransientFieldsFilter_39881" -> central [label=1; weight=1; penwidth=0.4];
 	"QualifiedName_143"  [label = "QualifiedName\n(4627.04)"; penwidth = 5; ]; "QualifiedName_143" -> central [label=1; weight=1; penwidth=0.4];
 	"RoutingKeyCommandTargetResolverDefinition_42019"  [label = "RoutingKeyCommandTargetResolverDefinition\n(217.58)"; penwidth = 2; ]; "RoutingKeyCommandTargetResolverDefinition_42019" -> central [label=1; weight=1; penwidth=0.4];
-	"RoutingKeyEventTargetMatcherDefinition_42990"  [label = "RoutingKeyEventTargetMatcherDefinition\n(217.92)"; penwidth = 2; ]; "RoutingKeyEventTargetMatcherDefinition_42990" -> central [label=1; weight=1; penwidth=0.4];
+	"RoutingKeyEventTargetMatcherDefinition_42982"  [label = "RoutingKeyEventTargetMatcherDefinition\n(217.92)"; penwidth = 2; ]; "RoutingKeyEventTargetMatcherDefinition_42982" -> central [label=1; weight=1; penwidth=0.4];
 	"SingleEntityChildModelDefinition_42020"  [label = "SingleEntityChildModelDefinition\n(0.0)"; penwidth = 2; ]; "SingleEntityChildModelDefinition_42020" -> central [label=1; weight=1; penwidth=0.4];
-	"Assert_27578"  [label = "Assert\n(206.34)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "Assert_27578" [label=4; weight=4; penwidth=0.5; color = 5];
-	"AxonConfigurationException_28160"  [label = "AxonConfigurationException\n(1123.42)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "AxonConfigurationException_28160" [label=2; weight=2; penwidth=0.4; color = 5];
+	"Assert_27577"  [label = "Assert\n(206.34)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "Assert_27577" [label=4; weight=4; penwidth=0.5; color = 5];
+	"AxonConfigurationException_28159"  [label = "AxonConfigurationException\n(1123.42)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "AxonConfigurationException_28159" [label=2; weight=2; penwidth=0.4; color = 5];
 	"ObjectUtils_29343"  [label = "ObjectUtils\n(0.0)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "ObjectUtils_29343" [label=1; weight=1; penwidth=0.4; color = 5];
 	"TypeReflectionUtils_29193"  [label = "TypeReflectionUtils\n(2051.0)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "TypeReflectionUtils_29193" [label=1; weight=1; penwidth=0.4; color = 5];
-	"AnnotationBasedEventSourcedEntityFactory_36520" -> "AnnotationBasedEventSourcedEntityFactory$ScannedEntityCreator_36417" [label=19; weight=19; penwidth=0.3; color = 3]
-	"AnnotationBasedEventSourcedEntityFactory_36520" -> "AxonConfigurationException_28160" [label=16; weight=16; penwidth=0.3; color = 3]
+	"AnnotationBasedEventSourcedEntityFactory_36518" -> "AnnotationBasedEventSourcedEntityFactory$ScannedEntityCreator_36415" [label=19; weight=19; penwidth=0.3; color = 3]
+	"AnnotationBasedEventSourcedEntityFactory_36518" -> "AxonConfigurationException_28159" [label=16; weight=16; penwidth=0.3; color = 3]
 	"AnnotationRoutingStrategy_1636" -> "AnnotationRoutingStrategy$RoutingKeyResolver_2031" [label=15; weight=15; penwidth=0.3; color = 3]
-	"AnnotatedEntityMetamodel_41096" -> "QualifiedName_143" [label=11; weight=11; penwidth=0.3; color = 3]
-	"AnnotationBasedEventCriteriaResolver_36519" -> "AnnotationBasedEventCriteriaResolver$WrappedEventCriteriaBuilderMethod_36412" [label=11; weight=11; penwidth=0.3; color = 3]
-	"AnnotatedEventSourcedEntityModule_37237" -> "AxonConfigurationException_28160" [label=5; weight=5; penwidth=0.3; color = 3]
-	"AnnotatedEventSourcedEntityModule_37237" -> "AnnotatedEntityMetamodel_41096" [label=4; weight=4; penwidth=0.3; color = 3]
-	"AnnotationBasedEventSourcedEntityFactory_36520" -> "AnnotationUtils_30315" [label=4; weight=4; penwidth=0.3; color = 3]
-	"AnnotationRoutingStrategy_1636" -> "AxonConfigurationException_28160" [label=4; weight=4; penwidth=0.3; color = 3]
-	"ProvidedAxonTestFixtureUtils_40607" -> "AnnotationUtils_30315" [label=4; weight=4; penwidth=0.3; color = 3]
-	"AnnotatedEventSourcedEntityModule_37237" -> "AnnotationUtils_30315" [label=3; weight=3; penwidth=0.3; color = 3]
-	"AnnotatedEventSourcedEntityModule_37237" -> "ConstructorUtils_27542" [label=3; weight=3; penwidth=0.3; color = 3]
-	"AnnotationBasedEventCriteriaResolver$WrappedEventCriteriaBuilderMethod_36412" -> "AnnotationBasedEventCriteriaResolver_36519" [label=3; weight=3; penwidth=0.3; color = 3]
-	"AnnotationBasedEventSourcedEntityFactory$ScannedEntityCreator_36417" -> "QualifiedName_143" [label=3; weight=3; penwidth=0.3; color = 3]
-	"AnnotationBasedEventSourcedEntityFactory$ScannedEntityCreator_36417" -> "AnnotationBasedEventSourcedEntityFactory_36520" [label=3; weight=3; penwidth=0.3; color = 3]
-	"ListEntityChildModelDefinition_42991" -> "AxonConfigurationException_28160" [label=3; weight=3; penwidth=0.3; color = 3]
-	"AbstractAnnotatedParameterResolverFactory_8225" -> "Assert_27578" [label=2; weight=2; penwidth=0.3; color = 3]
-	"AbstractEntityChildModelDefinition_41343" -> "ConstructorUtils_27542" [label=2; weight=2; penwidth=0.3; color = 3]
-	"AnnotatedEntityMetamodel_41096" -> "AnnotationUtils_30315" [label=2; weight=2; penwidth=0.3; color = 3]
-	"AnnotatedEntityMetamodel_41096" -> "AxonConfigurationException_28160" [label=2; weight=2; penwidth=0.3; color = 3]
-	"AnnotatedEntityMetamodel_41096" -> "Assert_27578" [label=2; weight=2; penwidth=0.3; color = 3]
-	"AnnotationBasedEventSourcedEntityFactory$ScannedEntityCreator_36417" -> "AxonConfigurationException_28160" [label=2; weight=2; penwidth=0.3; color = 3]
+	"AnnotatedEntityMetamodel_41094" -> "QualifiedName_143" [label=11; weight=11; penwidth=0.3; color = 3]
+	"AnnotationBasedEventCriteriaResolver_36517" -> "AnnotationBasedEventCriteriaResolver$WrappedEventCriteriaBuilderMethod_36410" [label=11; weight=11; penwidth=0.3; color = 3]
+	"AnnotatedEventSourcedEntityModule_37235" -> "AxonConfigurationException_28159" [label=5; weight=5; penwidth=0.3; color = 3]
+	"AnnotatedEventSourcedEntityModule_37235" -> "AnnotatedEntityMetamodel_41094" [label=4; weight=4; penwidth=0.3; color = 3]
+	"AnnotationBasedEventSourcedEntityFactory_36518" -> "AnnotationUtils_30315" [label=4; weight=4; penwidth=0.3; color = 3]
+	"AnnotationRoutingStrategy_1636" -> "AxonConfigurationException_28159" [label=4; weight=4; penwidth=0.3; color = 3]
+	"ProvidedAxonTestFixtureUtils_40605" -> "AnnotationUtils_30315" [label=4; weight=4; penwidth=0.3; color = 3]
+	"AnnotatedEventSourcedEntityModule_37235" -> "AnnotationUtils_30315" [label=3; weight=3; penwidth=0.3; color = 3]
+	"AnnotatedEventSourcedEntityModule_37235" -> "ConstructorUtils_27541" [label=3; weight=3; penwidth=0.3; color = 3]
+	"AnnotationBasedEventCriteriaResolver$WrappedEventCriteriaBuilderMethod_36410" -> "AnnotationBasedEventCriteriaResolver_36517" [label=3; weight=3; penwidth=0.3; color = 3]
+	"AnnotationBasedEventSourcedEntityFactory$ScannedEntityCreator_36415" -> "QualifiedName_143" [label=3; weight=3; penwidth=0.3; color = 3]
+	"AnnotationBasedEventSourcedEntityFactory$ScannedEntityCreator_36415" -> "AnnotationBasedEventSourcedEntityFactory_36518" [label=3; weight=3; penwidth=0.3; color = 3]
+	"ListEntityChildModelDefinition_42983" -> "AxonConfigurationException_28159" [label=3; weight=3; penwidth=0.3; color = 3]
+	"AbstractAnnotatedParameterResolverFactory_8225" -> "Assert_27577" [label=2; weight=2; penwidth=0.3; color = 3]
+	"AbstractEntityChildModelDefinition_41340" -> "ConstructorUtils_27541" [label=2; weight=2; penwidth=0.3; color = 3]
+	"AnnotatedEntityMetamodel_41094" -> "Assert_27577" [label=2; weight=2; penwidth=0.3; color = 3]
+	"AnnotatedEntityMetamodel_41094" -> "AnnotationUtils_30315" [label=2; weight=2; penwidth=0.3; color = 3]
+	"AnnotatedEntityMetamodel_41094" -> "AxonConfigurationException_28159" [label=2; weight=2; penwidth=0.3; color = 3]
+	"AnnotationBasedEventSourcedEntityFactory$ScannedEntityCreator_36415" -> "AxonConfigurationException_28159" [label=2; weight=2; penwidth=0.3; color = 3]
 	"AnnotationRoutingStrategy$RoutingKeyResolver_2031" -> "AnnotationRoutingStrategy_1636" [label=2; weight=2; penwidth=0.3; color = 3]
-	"AnnotationUtils_30315" -> "AxonConfigurationException_28160" [label=2; weight=2; penwidth=0.3; color = 3]
-	"ListEntityChildModelDefinition_42991" -> "AbstractEntityChildModelDefinition_41343" [label=2; weight=2; penwidth=0.3; color = 3]
-	"QualifiedName_143" -> "Assert_27578" [label=2; weight=2; penwidth=0.3; color = 3]
-	"RoutingKeyCommandTargetResolverDefinition_42019" -> "AxonConfigurationException_28160" [label=2; weight=2; penwidth=0.3; color = 3]
-	"RoutingKeyEventTargetMatcherDefinition_42990" -> "AxonConfigurationException_28160" [label=2; weight=2; penwidth=0.3; color = 3]
-	"SingleEntityChildModelDefinition_42020" -> "AbstractEntityChildModelDefinition_41343" [label=2; weight=2; penwidth=0.3; color = 3]
+	"AnnotationUtils_30315" -> "AxonConfigurationException_28159" [label=2; weight=2; penwidth=0.3; color = 3]
+	"ListEntityChildModelDefinition_42983" -> "AbstractEntityChildModelDefinition_41340" [label=2; weight=2; penwidth=0.3; color = 3]
+	"QualifiedName_143" -> "Assert_27577" [label=2; weight=2; penwidth=0.3; color = 3]
+	"RoutingKeyCommandTargetResolverDefinition_42019" -> "AxonConfigurationException_28159" [label=2; weight=2; penwidth=0.3; color = 3]
+	"RoutingKeyEventTargetMatcherDefinition_42982" -> "AxonConfigurationException_28159" [label=2; weight=2; penwidth=0.3; color = 3]
+	"SingleEntityChildModelDefinition_42020" -> "AbstractEntityChildModelDefinition_41340" [label=2; weight=2; penwidth=0.3; color = 3]
 	"AbstractAnnotatedParameterResolverFactory_8225" -> "AnnotationUtils_30315" [label=1; weight=1; penwidth=0.3; color = 3]
-	"AbstractEntityChildModelDefinition_41343" -> "AnnotationUtils_30315" [label=1; weight=1; penwidth=0.3; color = 3]
-	"AnnotatedEventSourcedEntityModule_37237" -> "Assert_27578" [label=1; weight=1; penwidth=0.3; color = 3]
-	"AnnotationBasedEventCriteriaResolver_36519" -> "AnnotationUtils_30315" [label=1; weight=1; penwidth=0.3; color = 3]
-	"AnnotationBasedEventSourcedEntityFactory_36520" -> "ObjectUtils_29343" [label=1; weight=1; penwidth=0.3; color = 3]
-	"AnnotationBasedEventSourcedEntityFactory_36520" -> "QualifiedName_143" [label=1; weight=1; penwidth=0.3; color = 3]
+	"AbstractEntityChildModelDefinition_41340" -> "AnnotationUtils_30315" [label=1; weight=1; penwidth=0.3; color = 3]
+	"AnnotatedEventSourcedEntityModule_37235" -> "Assert_27577" [label=1; weight=1; penwidth=0.3; color = 3]
+	"AnnotationBasedEventCriteriaResolver_36517" -> "AnnotationUtils_30315" [label=1; weight=1; penwidth=0.3; color = 3]
+	"AnnotationBasedEventSourcedEntityFactory_36518" -> "ObjectUtils_29343" [label=1; weight=1; penwidth=0.3; color = 3]
+	"AnnotationBasedEventSourcedEntityFactory_36518" -> "QualifiedName_143" [label=1; weight=1; penwidth=0.3; color = 3]
 	"AnnotationRoutingStrategy_1636" -> "AnnotationUtils_30315" [label=1; weight=1; penwidth=0.3; color = 3]
 	"HandlerTypeResolver_14682" -> "AnnotationUtils_30315" [label=1; weight=1; penwidth=0.3; color = 3]
-	"RoutingKeyCommandTargetResolverDefinition_42019" -> "AnnotatedEntityMetamodel_41096" [label=1; weight=1; penwidth=0.3; color = 3]
-	"RoutingKeyEventTargetMatcherDefinition_42990" -> "AnnotatedEntityMetamodel_41096" [label=1; weight=1; penwidth=0.3; color = 3]
+	"RoutingKeyCommandTargetResolverDefinition_42019" -> "AnnotatedEntityMetamodel_41094" [label=1; weight=1; penwidth=0.3; color = 3]
+	"RoutingKeyEventTargetMatcherDefinition_42982" -> "AnnotatedEntityMetamodel_41094" [label=1; weight=1; penwidth=0.3; color = 3]
 }
