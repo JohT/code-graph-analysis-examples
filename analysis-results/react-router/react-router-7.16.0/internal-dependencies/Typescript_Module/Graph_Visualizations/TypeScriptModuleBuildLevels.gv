@@ -22,8 +22,8 @@ strict digraph TypeScriptModuleBuildLevels {
 	"react-router-7.16.0\ncopy-template\n(level 1/5)" -> "react-router-7.16.0\nutils\n(level 5/5)" [label = 1625; penwidth = 1.22; ];
 	"react-router-7.16.0\nprompt\n(level 1/5)" -> "react-router-7.16.0\nprompts-select\n(level 3/5)" [label = 1625; penwidth = 1.22; ];
 	"react-router-7.16.0\nprompt\n(level 1/5)" -> "react-router-7.16.0\nutils\n(level 5/5)" [label = 1300; penwidth = 1.18; ];
-	"react-router-7.16.0\nprompt\n(level 1/5)" -> "react-router-7.16.0\nprompts-text\n(level 2/5)" [label = 1300; penwidth = 1.18; ];
 	"react-router-7.16.0\nprompt\n(level 1/5)" -> "react-router-7.16.0\nprompts-confirm\n(level 2/5)" [label = 1300; penwidth = 1.18; ];
+	"react-router-7.16.0\nprompt\n(level 1/5)" -> "react-router-7.16.0\nprompts-text\n(level 2/5)" [label = 1300; penwidth = 1.18; ];
 	"react-router-7.16.0\nprompt\n(level 1/5)" -> "react-router-7.16.0\nprompts-multi-select\n(level 2/5)" [label = 975; penwidth = 1.13; ];
 	"react-router-7.16.0\nprompts-multi-select\n(level 2/5)" -> "react-router-7.16.0\nprompts-select\n(level 3/5)" [label = 650; penwidth = 1.09; ];
 	"react-router-7.16.0\ncreate-react-router\n(level 0/5)" -> "react-router-7.16.0\ncopy-template\n(level 1/5)" [label = 650; penwidth = 1.09; ];
@@ -37,13 +37,13 @@ strict digraph TypeScriptModuleBuildLevels {
 	"react-router-7.16.0\nflatRoutes\n(level 1/5)" -> "react-router-7.16.0\nmanifest\n(level 2/5)" [label = 210; penwidth = 1.03; ];
 	"react-router-7.16.0\ncommands\n(level 1/5)" -> "react-router-7.16.0\nhas-rsc-plugin\n(level 3/5)" [label = 182; penwidth = 1.02; ];
 	"react-router-7.16.0\nbuild\n(level 2/5)" -> "react-router-7.16.0\nhas-rsc-plugin\n(level 3/5)" [label = 91; penwidth = 1.01; ];
-	"react-router-7.16.0\ncommands\n(level 1/5)" -> "react-router-7.16.0\nuseJavascript\n(level 2/5)" [label = 91; penwidth = 1.01; ];
 	"react-router-7.16.0\ncommands\n(level 1/5)" -> "react-router-7.16.0\nformat\n(level 2/5)" [label = 91; penwidth = 1.01; ];
-	"react-router-7.16.0\nplugin\n(level 0/5)" -> "react-router-7.16.0\nvirtual-route-config\n(level 1/5)" [label = 91; penwidth = 1.01; ];
+	"react-router-7.16.0\ncommands\n(level 1/5)" -> "react-router-7.16.0\nuseJavascript\n(level 2/5)" [label = 91; penwidth = 1.01; ];
 	"react-router-7.16.0\nplugin\n(level 0/5)" -> "react-router-7.16.0\nvirtual-route-modules\n(level 1/5)" [label = 91; penwidth = 1.01; ];
+	"react-router-7.16.0\nplugin\n(level 0/5)" -> "react-router-7.16.0\nvirtual-route-config\n(level 1/5)" [label = 91; penwidth = 1.01; ];
 	"react-router-7.16.0\ndefineRoutes\n(level 0/5)" -> "react-router-7.16.0\nnormalizeSlashes\n(level 1/5)" [label = 28; penwidth = 1.0; ];
 	"react-router-7.16.0\nflatRoutes\n(level 1/5)" -> "react-router-7.16.0\nnormalizeSlashes\n(level 2/5)" [label = 24; penwidth = 1.0; ];
-	"react-router-7.16.0\nreact-router-fs-routes\n(level 0/5)" -> "react-router-7.16.0\nnormalizeSlashes\n(level 2/5)" [label = 6; penwidth = 1.0; ];
 	"react-router-7.16.0\nreact-router-fs-routes\n(level 0/5)" -> "react-router-7.16.0\nmanifest\n(level 2/5)" [label = 6; penwidth = 1.0; ];
+	"react-router-7.16.0\nreact-router-fs-routes\n(level 0/5)" -> "react-router-7.16.0\nnormalizeSlashes\n(level 2/5)" [label = 6; penwidth = 1.0; ];
 	"react-router-7.16.0\nreact-router-fs-routes\n(level 0/5)" -> "react-router-7.16.0\nflatRoutes\n(level 1/5)" [label = 6; penwidth = 1.0; ];
 }

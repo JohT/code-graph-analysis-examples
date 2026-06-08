@@ -80,8 +80,8 @@ strict digraph cycle {
     "createStaticHandler" -> "DataStrategyMatch" [color="#6699CC"; penwidth="0.5"];
     "createStaticHandler" -> "isRouteErrorResponse" [color="#6699CC"; penwidth="0.5"];
     "RouterContextProvider_pkg" -> "RouterContext_dep" [color="#6699CC"; penwidth="0.5"];
-    "createStaticHandler" -> "convertRoutesToDataRoutes" [color="#6699CC"; penwidth="0.5"];
     "matchRoutes_pkg" -> "RouteMatch" [color="#6699CC"; penwidth="0.5"];
+    "createStaticHandler" -> "convertRoutesToDataRoutes" [color="#6699CC"; penwidth="0.5"];
     "RSCRouteMatch" -> "Params" [color="#6699CC"; penwidth="0.5"];
     "createContext_pkg" -> "RouterContext_dep" [color="#6699CC"; penwidth="0.5"];
     "createStaticHandler" -> "ResultType" [color="#6699CC"; penwidth="0.5"];

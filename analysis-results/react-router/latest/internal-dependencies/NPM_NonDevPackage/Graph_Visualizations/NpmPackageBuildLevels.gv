@@ -7,15 +7,15 @@ strict digraph NpmPackageBuildLevels {
     node [style = filled; fillcolor = "0.560 0.400 0.999";];
     node [color = "0.560 0.900 0.700";];
     edge [color = "0.560 0.900 0.700";];
-	"@react-router/dev\n(level 0/4)" -> "react-router\n(level 4/4)" [label = 3; penwidth = 6.0; ];
 	"@react-router/serve\n(level 1/4)" -> "react-router\n(level 4/4)" [label = 3; penwidth = 6.0; ];
-	"@react-router/express\n(level 2/4)" -> "react-router\n(level 4/4)" [label = 3; penwidth = 6.0; ];
-	"@react-router/cloudflare\n(level 0/4)" -> "react-router\n(level 4/4)" [label = 3; penwidth = 6.0; ];
 	"@react-router/node\n(level 3/4)" -> "react-router\n(level 4/4)" [label = 3; penwidth = 6.0; ];
+	"@react-router/cloudflare\n(level 0/4)" -> "react-router\n(level 4/4)" [label = 3; penwidth = 6.0; ];
+	"@react-router/express\n(level 2/4)" -> "react-router\n(level 4/4)" [label = 3; penwidth = 6.0; ];
+	"@react-router/dev\n(level 0/4)" -> "react-router\n(level 4/4)" [label = 3; penwidth = 6.0; ];
 	"@react-router/dev\n(level 0/4)" -> "@react-router/serve\n(level 1/4)" [label = 3; penwidth = 6.0; ];
 	"react-router-dom\n(level 0/4)" -> "react-router\n(level 4/4)" [label = 2; penwidth = 1.0; ];
 	"@react-router/serve\n(level 1/4)" -> "@react-router/node\n(level 3/4)" [label = 2; penwidth = 1.0; ];
-	"@react-router/dev\n(level 0/4)" -> "@react-router/node\n(level 3/4)" [label = 2; penwidth = 1.0; ];
 	"@react-router/express\n(level 2/4)" -> "@react-router/node\n(level 3/4)" [label = 2; penwidth = 1.0; ];
+	"@react-router/dev\n(level 0/4)" -> "@react-router/node\n(level 3/4)" [label = 2; penwidth = 1.0; ];
 	"@react-router/serve\n(level 1/4)" -> "@react-router/express\n(level 2/4)" [label = 2; penwidth = 1.0; ];
 }

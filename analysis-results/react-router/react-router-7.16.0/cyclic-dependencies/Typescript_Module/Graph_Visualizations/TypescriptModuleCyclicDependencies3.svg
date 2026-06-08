@@ -74,7 +74,7 @@
 <polygon fill="#6699cc" stroke="#6699cc" stroke-width="0.5" points="194.68,-355.83 191.5,-350.33 190.55,-356.61 194.68,-355.83"/>
 </g>
 <!-- createStaticHandler&#45;&gt;convertRoutesToDataRoutes -->
-<g id="edge17" class="edge">
+<g id="edge18" class="edge">
 <title>createStaticHandler&#45;&gt;convertRoutesToDataRoutes</title>
 <path fill="none" stroke="#6699cc" stroke-width="0.5" d="M409.01,-658.97C543.63,-464.39 546.16,-450.74 507.6,-163.15"/>
 <polygon fill="#6699cc" stroke="#6699cc" stroke-width="0.5" points="509.72,-163.16 506.84,-157.49 505.56,-163.72 509.72,-163.16"/>
@@ -200,7 +200,7 @@
 <polygon fill="#6699cc" stroke="#6699cc" stroke-width="0.5" points="378.33,-298.5 380.61,-292.57 375.13,-295.79 378.33,-298.5"/>
 </g>
 <!-- matchRoutes_pkg&#45;&gt;RouteMatch -->
-<g id="edge18" class="edge">
+<g id="edge17" class="edge">
 <title>matchRoutes_pkg&#45;&gt;RouteMatch</title>
 <path fill="none" stroke="#6699cc" stroke-width="0.5" d="M272.61,-513.74C219.43,-370.14 218.32,-357.17 269.61,-234.87"/>
 <polygon fill="#6699cc" stroke="#6699cc" stroke-width="0.5" points="271.41,-236 271.8,-229.66 267.54,-234.37 271.41,-236"/>

@@ -28,7 +28,7 @@ strict digraph TopBridge4 {
 	"plugin_15503" -> "styles_15510" [label=35; weight=35; penwidth=0.3; color = 3]
 	"plugin_15503" -> "config_15479" [label=26; weight=26; penwidth=0.3; color = 3]
 	"plugin_15519" -> "config_15479" [label=16; weight=16; penwidth=0.3; color = 3]
-	"plugin_15519" -> "virtual-route-config_15521" [label=7; weight=7; penwidth=0.3; color = 3]
 	"plugin_15519" -> "plugin_15503" [label=7; weight=7; penwidth=0.3; color = 3]
+	"plugin_15519" -> "virtual-route-config_15521" [label=7; weight=7; penwidth=0.3; color = 3]
 	"styles_15510" -> "plugin_15503" [label=7; weight=7; penwidth=0.3; color = 3]
 }

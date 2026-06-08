@@ -1,6 +1,6 @@
 ---
 title: "Node Embeddings Report"
-generated: "2026-06-01"
+generated: "2026-06-08"
 model_version: "v4.0.1"
 dataset: "react-router-7.16.0"
 authors: ["JohT/code-graph-analysis-pipeline"]
