@@ -35,6 +35,6 @@
 """react-router-7.17.0\nplugin\n(level 0/5)"" -> ""react-router-7.17.0\nvirtual-route-config\n(level 1/5)"" [label = 91; penwidth = 1.01; ];",""
 """react-router-7.17.0\ndefineRoutes\n(level 0/5)"" -> ""react-router-7.17.0\nnormalizeSlashes\n(level 1/5)"" [label = 28; penwidth = 1.0; ];",""
 """react-router-7.17.0\nflatRoutes\n(level 1/5)"" -> ""react-router-7.17.0\nnormalizeSlashes\n(level 2/5)"" [label = 24; penwidth = 1.0; ];",""
-"""react-router-7.17.0\nreact-router-fs-routes\n(level 0/5)"" -> ""react-router-7.17.0\nmanifest\n(level 2/5)"" [label = 6; penwidth = 1.0; ];",""
 """react-router-7.17.0\nreact-router-fs-routes\n(level 0/5)"" -> ""react-router-7.17.0\nnormalizeSlashes\n(level 2/5)"" [label = 6; penwidth = 1.0; ];",""
+"""react-router-7.17.0\nreact-router-fs-routes\n(level 0/5)"" -> ""react-router-7.17.0\nmanifest\n(level 2/5)"" [label = 6; penwidth = 1.0; ];",""
 """react-router-7.17.0\nreact-router-fs-routes\n(level 0/5)"" -> ""react-router-7.17.0\nflatRoutes\n(level 1/5)"" [label = 6; penwidth = 1.0; ];",""

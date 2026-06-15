@@ -24,12 +24,12 @@ strict digraph TopAuthority1 {
 	"routes_14023"  [shape = "circle"; height=2; label = "routes\n(48.31%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "routes_14023" [label=3129; weight=3129; penwidth=2.5; color = 5];
 	"generate_14040" -> "config_14033" [label=196; weight=196; penwidth=0.3; color = 3]
 	"virtual-route-config_14075" -> "routes_14023" [label=112; weight=112; penwidth=0.3; color = 3]
-	"plugin_14057" -> "resolve-relative-route-file-path_14061" [label=35; weight=35; penwidth=0.3; color = 3]
 	"plugin_14057" -> "styles_14064" [label=35; weight=35; penwidth=0.3; color = 3]
+	"plugin_14057" -> "resolve-relative-route-file-path_14061" [label=35; weight=35; penwidth=0.3; color = 3]
 	"plugin_14057" -> "config_14033" [label=26; weight=26; penwidth=0.3; color = 3]
 	"plugin_14073" -> "config_14033" [label=16; weight=16; penwidth=0.3; color = 3]
 	"plugin_14073" -> "resolve-relative-route-file-path_14061" [label=7; weight=7; penwidth=0.3; color = 3]
-	"plugin_14073" -> "virtual-route-config_14075" [label=7; weight=7; penwidth=0.3; color = 3]
 	"plugin_14073" -> "plugin_14057" [label=7; weight=7; penwidth=0.3; color = 3]
+	"plugin_14073" -> "virtual-route-config_14075" [label=7; weight=7; penwidth=0.3; color = 3]
 	"styles_14064" -> "plugin_14057" [label=7; weight=7; penwidth=0.3; color = 3]
 }

@@ -63,10 +63,10 @@ strict digraph TopBottleneck4 {
 	"memoryStorage_97641" -> "sessions_97635" [label=6; weight=6; penwidth=0.3; color = 3]
 	"react-router_97588" -> "cookies_97622" [label=3; weight=3; penwidth=0.3; color = 3]
 	"react-router_97588" -> "routeModules_97607" [label=3; weight=3; penwidth=0.3; color = 3]
-	"dom-export_97585" -> "react-router_97588" [label=1; weight=1; penwidth=0.3; color = 3]
 	"dom-export_97585" -> "server_97616" [label=1; weight=1; penwidth=0.3; color = 3]
-	"react-router_97588" -> "cookieStorage_97639" [label=1; weight=1; penwidth=0.3; color = 3]
+	"dom-export_97585" -> "react-router_97588" [label=1; weight=1; penwidth=0.3; color = 3]
 	"react-router_97588" -> "href_97595" [label=1; weight=1; penwidth=0.3; color = 3]
+	"react-router_97588" -> "cookieStorage_97639" [label=1; weight=1; penwidth=0.3; color = 3]
 	"react-router_97588" -> "memoryStorage_97641" [label=1; weight=1; penwidth=0.3; color = 3]
 	"react-router_97588" -> "dom-export_97585" [label=1; weight=1; penwidth=0.3; color = 3]
 }
