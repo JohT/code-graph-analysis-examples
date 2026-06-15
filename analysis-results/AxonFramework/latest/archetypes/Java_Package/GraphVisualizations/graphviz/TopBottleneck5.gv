@@ -16,96 +16,96 @@ strict digraph TopBottleneck5 {
 	central [label="🔒 bottleneck #5\nconversion"];
 	"configuration_63"  [label = "configuration\n(71.5)"; penwidth = 2; ]; "configuration_63" -> central [label=4; weight=4; penwidth=0.5];
 	"conversion_28"  [label = "conversion\n(64.7)"; penwidth = 2; ]; "conversion_28" -> central [label=4; weight=4; penwidth=0.5];
-	"annotation_41085"  [label = "annotation\n(26.33)"; penwidth = 2; ]; "annotation_41085" -> central [label=3; weight=3; penwidth=0.5];
-	"configuration_21723"  [label = "configuration\n(41.58)"; penwidth = 2; ]; "configuration_21723" -> central [label=2; weight=2; penwidth=0.4];
+	"annotation_41087"  [label = "annotation\n(26.33)"; penwidth = 2; ]; "annotation_41087" -> central [label=3; weight=3; penwidth=0.5];
+	"configuration_21724"  [label = "configuration\n(41.58)"; penwidth = 2; ]; "configuration_21724" -> central [label=2; weight=2; penwidth=0.4];
 	"annotation_71"  [label = "annotation\n(151.4)"; penwidth = 2; ]; "annotation_71" -> central [label=1; weight=1; penwidth=0.4];
 	"annotation_25"  [label = "annotation\n(236.18)"; penwidth = 5; ]; "annotation_25" -> central [label=1; weight=1; penwidth=0.4];
-	"configuration_33050"  [label = "configuration\n(0.0)"; penwidth = 2; ]; "configuration_33050" -> central [label=1; weight=1; penwidth=0.4];
-	"fixture_38449"  [label = "fixture\n(45.5)"; penwidth = 2; ]; "fixture_38449" -> central [label=1; weight=1; penwidth=0.4];
-	"gateway_24"  [label = "gateway\n(0.33)"; penwidth = 2; ]; "gateway_24" -> central [label=1; weight=1; penwidth=0.4];
+	"configuration_33052"  [label = "configuration\n(0.0)"; penwidth = 2; ]; "configuration_33052" -> central [label=1; weight=1; penwidth=0.4];
+	"fixture_38451"  [label = "fixture\n(45.5)"; penwidth = 2; ]; "fixture_38451" -> central [label=1; weight=1; penwidth=0.4];
 	"gateway_70"  [label = "gateway\n(0.0)"; penwidth = 2; ]; "gateway_70" -> central [label=1; weight=1; penwidth=0.4];
-	"query_21721"  [label = "query\n(0.5)"; penwidth = 2; ]; "query_21721" -> central [label=1; weight=1; penwidth=0.4];
+	"gateway_24"  [label = "gateway\n(0.33)"; penwidth = 2; ]; "gateway_24" -> central [label=1; weight=1; penwidth=0.4];
+	"query_21722"  [label = "query\n(0.5)"; penwidth = 2; ]; "query_21722" -> central [label=1; weight=1; penwidth=0.4];
 	"queryhandling_67"  [label = "queryhandling\n(101.55)"; penwidth = 2; ]; "queryhandling_67" -> central [label=1; weight=1; penwidth=0.4];
-	"command_21720"  [label = "command\n(1.5)"; penwidth = 2; ]; "command_21720" -> central [label=0; weight=0; penwidth=0.4];
-	"configuration_26"  [label = "configuration\n(28.88)"; penwidth = 2; ]; "configuration_26" -> central [label=0; weight=0; penwidth=0.4];
+	"command_21721"  [label = "command\n(1.5)"; penwidth = 2; ]; "command_21721" -> central [label=0; weight=0; penwidth=0.4];
 	"configuration_72"  [label = "configuration\n(26.98)"; penwidth = 2; ]; "configuration_72" -> central [label=0; weight=0; penwidth=0.4];
+	"configuration_26"  [label = "configuration\n(28.88)"; penwidth = 2; ]; "configuration_26" -> central [label=0; weight=0; penwidth=0.4];
 	"sequencing_56"  [label = "sequencing\n(455.28)"; penwidth = 5; ]; "sequencing_56" -> central [label=0; weight=0; penwidth=0.4];
 	"core_48"  [label = "core\n(1185.53)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "core_48" [label=2; weight=2; penwidth=0.4; color = 5];
-	"annotation_27532"  [label = "annotation\n(16.33)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "annotation_27532" [label=1; weight=1; penwidth=0.4; color = 5];
-	"conversion_25908"  [label = "conversion\n(35.8)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "conversion_25908" [label=1; weight=1; penwidth=0.4; color = 5];
-	"infra_27526"  [label = "infra\n(39.32)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "infra_27526" [label=0; weight=0; penwidth=0.4; color = 5];
+	"annotation_27533"  [label = "annotation\n(16.33)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "annotation_27533" [label=1; weight=1; penwidth=0.4; color = 5];
+	"conversion_25909"  [label = "conversion\n(35.8)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "conversion_25909" [label=1; weight=1; penwidth=0.4; color = 5];
+	"infra_27527"  [label = "infra\n(39.32)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "infra_27527" [label=0; weight=0; penwidth=0.4; color = 5];
 	"queryhandling_67" -> "core_48" [label=130; weight=130; penwidth=0.3; color = 3]
-	"query_21721" -> "core_48" [label=38; weight=38; penwidth=0.3; color = 3]
-	"fixture_38449" -> "core_48" [label=34; weight=34; penwidth=0.3; color = 3]
-	"annotation_41085" -> "core_48" [label=25; weight=25; penwidth=0.3; color = 3]
-	"query_21721" -> "queryhandling_67" [label=22; weight=22; penwidth=0.3; color = 3]
+	"query_21722" -> "core_48" [label=38; weight=38; penwidth=0.3; color = 3]
+	"fixture_38451" -> "core_48" [label=34; weight=34; penwidth=0.3; color = 3]
+	"annotation_41087" -> "core_48" [label=25; weight=25; penwidth=0.3; color = 3]
+	"query_21722" -> "queryhandling_67" [label=22; weight=22; penwidth=0.3; color = 3]
 	"gateway_24" -> "core_48" [label=20; weight=20; penwidth=0.3; color = 3]
-	"command_21720" -> "core_48" [label=17; weight=17; penwidth=0.3; color = 3]
+	"command_21721" -> "core_48" [label=17; weight=17; penwidth=0.3; color = 3]
 	"annotation_71" -> "queryhandling_67" [label=14; weight=14; penwidth=0.3; color = 3]
 	"gateway_70" -> "queryhandling_67" [label=12; weight=12; penwidth=0.3; color = 3]
 	"configuration_63" -> "queryhandling_67" [label=10; weight=10; penwidth=0.3; color = 3]
 	"configuration_72" -> "queryhandling_67" [label=10; weight=10; penwidth=0.3; color = 3]
 	"gateway_70" -> "core_48" [label=10; weight=10; penwidth=0.3; color = 3]
-	"queryhandling_67" -> "conversion_25908" [label=10; weight=10; penwidth=0.3; color = 3]
+	"queryhandling_67" -> "conversion_25909" [label=10; weight=10; penwidth=0.3; color = 3]
 	"configuration_63" -> "core_48" [label=9; weight=9; penwidth=0.3; color = 3]
-	"core_48" -> "conversion_25908" [label=9; weight=9; penwidth=0.3; color = 3]
-	"annotation_41085" -> "annotation_27532" [label=8; weight=8; penwidth=0.3; color = 3]
+	"core_48" -> "conversion_25909" [label=9; weight=9; penwidth=0.3; color = 3]
+	"annotation_41087" -> "annotation_27533" [label=8; weight=8; penwidth=0.3; color = 3]
 	"annotation_71" -> "core_48" [label=8; weight=8; penwidth=0.3; color = 3]
 	"annotation_25" -> "core_48" [label=8; weight=8; penwidth=0.3; color = 3]
-	"configuration_21723" -> "query_21721" [label=8; weight=8; penwidth=0.3; color = 3]
-	"configuration_21723" -> "command_21720" [label=8; weight=8; penwidth=0.3; color = 3]
+	"configuration_21724" -> "query_21722" [label=8; weight=8; penwidth=0.3; color = 3]
+	"configuration_21724" -> "command_21721" [label=8; weight=8; penwidth=0.3; color = 3]
 	"sequencing_56" -> "core_48" [label=8; weight=8; penwidth=0.3; color = 3]
-	"core_48" -> "annotation_27532" [label=7; weight=7; penwidth=0.3; color = 3]
-	"configuration_26" -> "core_48" [label=6; weight=6; penwidth=0.3; color = 3]
+	"core_48" -> "annotation_27533" [label=7; weight=7; penwidth=0.3; color = 3]
 	"configuration_72" -> "core_48" [label=6; weight=6; penwidth=0.3; color = 3]
-	"fixture_38449" -> "annotation_27532" [label=6; weight=6; penwidth=0.3; color = 3]
+	"configuration_26" -> "core_48" [label=6; weight=6; penwidth=0.3; color = 3]
+	"fixture_38451" -> "annotation_27533" [label=6; weight=6; penwidth=0.3; color = 3]
 	"configuration_63" -> "gateway_24" [label=5; weight=5; penwidth=0.3; color = 3]
 	"configuration_63" -> "conversion_28" [label=5; weight=5; penwidth=0.3; color = 3]
-	"annotation_41085" -> "conversion_25908" [label=4; weight=4; penwidth=0.3; color = 3]
-	"configuration_63" -> "conversion_25908" [label=4; weight=4; penwidth=0.3; color = 3]
-	"configuration_33050" -> "annotation_41085" [label=4; weight=4; penwidth=0.3; color = 3]
-	"query_21721" -> "annotation_27532" [label=4; weight=4; penwidth=0.3; color = 3]
-	"queryhandling_67" -> "infra_27526" [label=4; weight=4; penwidth=0.3; color = 3]
-	"annotation_25" -> "annotation_27532" [label=3; weight=3; penwidth=0.3; color = 3]
+	"annotation_41087" -> "conversion_25909" [label=4; weight=4; penwidth=0.3; color = 3]
+	"configuration_63" -> "conversion_25909" [label=4; weight=4; penwidth=0.3; color = 3]
+	"configuration_33052" -> "annotation_41087" [label=4; weight=4; penwidth=0.3; color = 3]
+	"query_21722" -> "annotation_27533" [label=4; weight=4; penwidth=0.3; color = 3]
+	"queryhandling_67" -> "infra_27527" [label=4; weight=4; penwidth=0.3; color = 3]
+	"annotation_25" -> "annotation_27533" [label=3; weight=3; penwidth=0.3; color = 3]
 	"configuration_63" -> "sequencing_56" [label=3; weight=3; penwidth=0.3; color = 3]
-	"configuration_33050" -> "annotation_27532" [label=3; weight=3; penwidth=0.3; color = 3]
-	"configuration_33050" -> "core_48" [label=3; weight=3; penwidth=0.3; color = 3]
-	"gateway_24" -> "infra_27526" [label=3; weight=3; penwidth=0.3; color = 3]
-	"annotation_41085" -> "infra_27526" [label=2; weight=2; penwidth=0.3; color = 3]
+	"configuration_33052" -> "core_48" [label=3; weight=3; penwidth=0.3; color = 3]
+	"configuration_33052" -> "annotation_27533" [label=3; weight=3; penwidth=0.3; color = 3]
+	"gateway_24" -> "infra_27527" [label=3; weight=3; penwidth=0.3; color = 3]
+	"annotation_41087" -> "infra_27527" [label=2; weight=2; penwidth=0.3; color = 3]
 	"configuration_63" -> "annotation_25" [label=2; weight=2; penwidth=0.3; color = 3]
 	"configuration_63" -> "gateway_70" [label=2; weight=2; penwidth=0.3; color = 3]
-	"configuration_26" -> "annotation_25" [label=2; weight=2; penwidth=0.3; color = 3]
 	"configuration_72" -> "annotation_71" [label=2; weight=2; penwidth=0.3; color = 3]
-	"fixture_38449" -> "infra_27526" [label=2; weight=2; penwidth=0.3; color = 3]
-	"gateway_24" -> "conversion_25908" [label=2; weight=2; penwidth=0.3; color = 3]
-	"annotation_41085" -> "conversion_28" [label=1; weight=1; penwidth=0.3; color = 3]
-	"annotation_41085" -> "annotation_25" [label=1; weight=1; penwidth=0.3; color = 3]
-	"annotation_71" -> "infra_27526" [label=1; weight=1; penwidth=0.3; color = 3]
-	"annotation_71" -> "annotation_27532" [label=1; weight=1; penwidth=0.3; color = 3]
+	"configuration_26" -> "annotation_25" [label=2; weight=2; penwidth=0.3; color = 3]
+	"fixture_38451" -> "infra_27527" [label=2; weight=2; penwidth=0.3; color = 3]
+	"gateway_24" -> "conversion_25909" [label=2; weight=2; penwidth=0.3; color = 3]
+	"annotation_41087" -> "conversion_28" [label=1; weight=1; penwidth=0.3; color = 3]
+	"annotation_41087" -> "annotation_25" [label=1; weight=1; penwidth=0.3; color = 3]
+	"annotation_71" -> "infra_27527" [label=1; weight=1; penwidth=0.3; color = 3]
+	"annotation_71" -> "annotation_27533" [label=1; weight=1; penwidth=0.3; color = 3]
 	"annotation_25" -> "gateway_24" [label=1; weight=1; penwidth=0.3; color = 3]
-	"annotation_25" -> "infra_27526" [label=1; weight=1; penwidth=0.3; color = 3]
-	"command_21720" -> "infra_27526" [label=1; weight=1; penwidth=0.3; color = 3]
-	"command_21720" -> "annotation_27532" [label=1; weight=1; penwidth=0.3; color = 3]
-	"configuration_33050" -> "conversion_28" [label=1; weight=1; penwidth=0.3; color = 3]
-	"configuration_33050" -> "configuration_63" [label=1; weight=1; penwidth=0.3; color = 3]
-	"conversion_28" -> "annotation_27532" [label=1; weight=1; penwidth=0.3; color = 3]
-	"conversion_25908" -> "infra_27526" [label=1; weight=1; penwidth=0.3; color = 3]
-	"conversion_25908" -> "annotation_27532" [label=1; weight=1; penwidth=0.3; color = 3]
-	"gateway_24" -> "annotation_27532" [label=1; weight=1; penwidth=0.3; color = 3]
-	"gateway_70" -> "infra_27526" [label=1; weight=1; penwidth=0.3; color = 3]
-	"query_21721" -> "infra_27526" [label=1; weight=1; penwidth=0.3; color = 3]
-	"query_21721" -> "conversion_25908" [label=1; weight=1; penwidth=0.3; color = 3]
-	"queryhandling_67" -> "annotation_27532" [label=1; weight=1; penwidth=0.3; color = 3]
-	"sequencing_56" -> "annotation_27532" [label=1; weight=1; penwidth=0.3; color = 3]
-	"command_21720" -> "conversion_25908" [label=0; weight=0; penwidth=0.3; color = 3]
+	"annotation_25" -> "infra_27527" [label=1; weight=1; penwidth=0.3; color = 3]
+	"command_21721" -> "infra_27527" [label=1; weight=1; penwidth=0.3; color = 3]
+	"command_21721" -> "annotation_27533" [label=1; weight=1; penwidth=0.3; color = 3]
+	"configuration_33052" -> "configuration_63" [label=1; weight=1; penwidth=0.3; color = 3]
+	"configuration_33052" -> "conversion_28" [label=1; weight=1; penwidth=0.3; color = 3]
+	"conversion_28" -> "annotation_27533" [label=1; weight=1; penwidth=0.3; color = 3]
+	"conversion_25909" -> "annotation_27533" [label=1; weight=1; penwidth=0.3; color = 3]
+	"conversion_25909" -> "infra_27527" [label=1; weight=1; penwidth=0.3; color = 3]
+	"gateway_70" -> "infra_27527" [label=1; weight=1; penwidth=0.3; color = 3]
+	"gateway_24" -> "annotation_27533" [label=1; weight=1; penwidth=0.3; color = 3]
+	"query_21722" -> "conversion_25909" [label=1; weight=1; penwidth=0.3; color = 3]
+	"query_21722" -> "infra_27527" [label=1; weight=1; penwidth=0.3; color = 3]
+	"queryhandling_67" -> "annotation_27533" [label=1; weight=1; penwidth=0.3; color = 3]
+	"sequencing_56" -> "annotation_27533" [label=1; weight=1; penwidth=0.3; color = 3]
+	"command_21721" -> "conversion_25909" [label=0; weight=0; penwidth=0.3; color = 3]
 	"configuration_63" -> "configuration_72" [label=0; weight=0; penwidth=0.3; color = 3]
 	"configuration_63" -> "configuration_26" [label=0; weight=0; penwidth=0.3; color = 3]
-	"configuration_21723" -> "conversion_25908" [label=0; weight=0; penwidth=0.3; color = 3]
-	"configuration_33050" -> "conversion_25908" [label=0; weight=0; penwidth=0.3; color = 3]
-	"configuration_33050" -> "configuration_72" [label=0; weight=0; penwidth=0.3; color = 3]
-	"configuration_33050" -> "configuration_26" [label=0; weight=0; penwidth=0.3; color = 3]
-	"conversion_28" -> "conversion_25908" [label=0; weight=0; penwidth=0.3; color = 3]
-	"conversion_28" -> "infra_27526" [label=0; weight=0; penwidth=0.3; color = 3]
+	"configuration_21724" -> "conversion_25909" [label=0; weight=0; penwidth=0.3; color = 3]
+	"configuration_33052" -> "configuration_72" [label=0; weight=0; penwidth=0.3; color = 3]
+	"configuration_33052" -> "conversion_25909" [label=0; weight=0; penwidth=0.3; color = 3]
+	"configuration_33052" -> "configuration_26" [label=0; weight=0; penwidth=0.3; color = 3]
+	"conversion_28" -> "infra_27527" [label=0; weight=0; penwidth=0.3; color = 3]
+	"conversion_28" -> "conversion_25909" [label=0; weight=0; penwidth=0.3; color = 3]
+	"sequencing_56" -> "conversion_25909" [label=0; weight=0; penwidth=0.3; color = 3]
 	"sequencing_56" -> "conversion_28" [label=0; weight=0; penwidth=0.3; color = 3]
-	"sequencing_56" -> "conversion_25908" [label=0; weight=0; penwidth=0.3; color = 3]
 }

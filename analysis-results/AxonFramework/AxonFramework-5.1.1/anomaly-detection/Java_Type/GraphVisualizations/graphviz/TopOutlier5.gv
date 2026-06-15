@@ -14,7 +14,7 @@ strict digraph TopOutlier5 {
 
 	graph   [label="Top Rank #5 Java Type Outlier\norg.axonframework.messaging.eventhandling.processing.streaming.token.store.jpa.TokenEntry$PK\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: cluster probability\nlarge circle: < 25% percentile of cluster probability\nthick outline: > 80% percentile of distance to cluster center\n\n"];
 	central [label="🧩 outlier #5\nTokenEntry$PK"];
-	"JpaTokenStore_7318"  [label = "JpaTokenStore\n(28.85%)"; penwidth = 2; ]; "JpaTokenStore_7318" -> central [label=9; weight=9; penwidth=0.5];
-	"TokenEntry_7316"  [label = "TokenEntry\n(28.85%)"; penwidth = 5; ]; "TokenEntry_7316" -> central [label=2; weight=2; penwidth=0.4];
+	"JpaTokenStore_7318"  [label = "JpaTokenStore\n(25.16%)"; penwidth = 5; ]; "JpaTokenStore_7318" -> central [label=9; weight=9; penwidth=0.5];
+	"TokenEntry_7316"  [label = "TokenEntry\n(25.16%)"; penwidth = 5; ]; "TokenEntry_7316" -> central [label=2; weight=2; penwidth=0.4];
 	"JpaTokenStore_7318" -> "TokenEntry_7316" [label=34; weight=34; penwidth=0.3; color = 3]
 }

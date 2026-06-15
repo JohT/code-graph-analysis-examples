@@ -14,13 +14,13 @@ strict digraph TopOutlier4 {
 
 	graph   [label="Top Rank #4 Java Type Outlier\norg.axonframework.messaging.core.interception.DefaultDispatchInterceptorRegistry$GenericInterceptorDefinition\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: cluster probability\nlarge circle: < 25% percentile of cluster probability\nthick outline: > 80% percentile of distance to cluster center\n\n"];
 	central [label="🧩 outlier #4\nDefaultDispatchInterceptorRegistry$GenericInterceptorDefinition"];
-	"DefaultDispatchInterceptorRegistry_11488"  [label = "DefaultDispatchInterceptorRegistry\n(44.23%)"; penwidth = 2; ]; "DefaultDispatchInterceptorRegistry_11488" -> central [label=11; weight=11; penwidth=0.6];
+	"DefaultDispatchInterceptorRegistry_11488"  [label = "DefaultDispatchInterceptorRegistry\n(44.71%)"; penwidth = 2; ]; "DefaultDispatchInterceptorRegistry_11488" -> central [label=11; weight=11; penwidth=0.6];
 	"Component$Identifier_29213"  [label = "Component$\nIdentifier\n(100.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "Component$Identifier_29213" [label=3; weight=3; penwidth=0.4; color = 5];
 	"Message_168"  [shape = "circle"; height=1.8; label = "Message\n(0.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "Message_168" [label=3; weight=3; penwidth=0.4; color = 5];
-	"MessageDispatchInterceptor_157"  [label = "MessageDispatchInterceptor\n(44.23%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "MessageDispatchInterceptor_157" [label=3; weight=3; penwidth=0.4; color = 5];
+	"MessageDispatchInterceptor_157"  [label = "MessageDispatchInterceptor\n(44.71%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "MessageDispatchInterceptor_157" [label=3; weight=3; penwidth=0.4; color = 5];
 	"LazyInitializedComponentDefinition_31335"  [shape = "circle"; height=1.8; label = "LazyInitializedComponentDefinition\n(0.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "LazyInitializedComponentDefinition_31335" [label=2; weight=2; penwidth=0.4; color = 5];
 	"ComponentBuilder_31328"  [label = "ComponentBuilder\n(100.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "ComponentBuilder_31328" [label=1; weight=1; penwidth=0.4; color = 5];
-	"DefaultDispatchInterceptorRegistry_11488"  [label = "DefaultDispatchInterceptorRegistry\n(44.23%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "DefaultDispatchInterceptorRegistry_11488" [label=1; weight=1; penwidth=0.4; color = 5];
+	"DefaultDispatchInterceptorRegistry_11488"  [label = "DefaultDispatchInterceptorRegistry\n(44.71%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "DefaultDispatchInterceptorRegistry_11488" [label=1; weight=1; penwidth=0.4; color = 5];
 	"DefaultDispatchInterceptorRegistry_11488" -> "MessageDispatchInterceptor_157" [label=34; weight=34; penwidth=0.3; color = 3]
 	"DefaultDispatchInterceptorRegistry_11488" -> "Message_168" [label=9; weight=9; penwidth=0.3; color = 3]
 	"DefaultDispatchInterceptorRegistry_11488" -> "ComponentBuilder_31328" [label=5; weight=5; penwidth=0.3; color = 3]

@@ -2215,7 +2215,7 @@
 0.25,"axon-modelling-5.1.1","org.axonframework.modelling.configuration.StateBasedEntityModule$MessagingMetamodelPhase",4,4,"axon-modelling-5.1.1","org.axonframework.modelling.configuration.StateBasedEntityModule$EntityIdResolverPhase",3,4,""
 0.25,"axon-modelling-5.1.1","org.axonframework.modelling.entity.EntityMetamodelBuilder",8,6,"axon-messaging-5.1.1","org.axonframework.messaging.commandhandling.CommandHandlerRegistry",8,3,""
 0.25,"axon-modelling-5.1.1","org.axonframework.modelling.entity.annotation.CommandTargetResolverDefinition",3,2,"axon-modelling-5.1.1","org.axonframework.modelling.annotation.EntityIdResolverDefinition",4,3,""
-0.25,"axon-modelling-5.1.1","org.axonframework.modelling.entity.annotation.EventTargetMatcherDefinition",3,2,"axon-modelling-5.1.1","org.axonframework.modelling.annotation.EntityIdResolverDefinition",4,3,""
+0.25,"axon-modelling-5.1.1","org.axonframework.modelling.entity.annotation.EventTargetMatcherDefinition",3,2,"axon-modelling-5.1.1","org.axonframework.modelling.entity.annotation.RoutingKeyEventTargetMatcher",1,5,""
 0.25,"axon-modelling-5.1.1","org.axonframework.modelling.entity.annotation.RoutingKeyCommandTargetResolver",1,6,"axon-messaging-5.1.1","org.axonframework.messaging.core.sequencing.RoutingKeySequencingPolicy",1,4,""
 0.25,"axon-modelling-5.1.1","org.axonframework.modelling.entity.annotation.RoutingKeyEventTargetMatcher",1,5,"axon-modelling-5.1.1","org.axonframework.modelling.EntityEvolver",13,2,""
 0.25,"axon-modelling-5.1.1","org.axonframework.modelling.entity.annotation.RoutingKeyEventTargetMatcher",1,5,"axon-modelling-5.1.1","org.axonframework.modelling.entity.annotation.EventTargetMatcherDefinition",3,2,""

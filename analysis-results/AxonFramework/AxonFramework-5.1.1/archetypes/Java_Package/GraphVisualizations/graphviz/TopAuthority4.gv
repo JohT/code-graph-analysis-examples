@@ -15,14 +15,14 @@ strict digraph TopAuthority4 {
 	graph   [label="Top Rank #4 Java Package Authority\norg.axonframework.common.function\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: Page Rank (normalized)\nlarge circle: > 80% percentile of Page Rank\nthick outline: > 80% percentile of Page Rank to Article Rank Difference\n\n"];
 	central [label="🏛️ authority #4\nfunction"];
 	"jdbc_51"  [label = "jdbc\n(0.05%)"; penwidth = 2; ]; "jdbc_51" -> central [label=1; weight=1; penwidth=0.4];
-	"tx_27528"  [label = "tx\n(0.28%)"; penwidth = 2; ]; "tx_27528" -> central [label=1; weight=1; penwidth=0.4];
-	"jdbc_27527"  [label = "jdbc\n(0.52%)"; penwidth = 2; ]; "jdbc_27527" -> central [label=0; weight=0; penwidth=0.4];
+	"tx_27529"  [label = "tx\n(0.28%)"; penwidth = 2; ]; "tx_27529" -> central [label=1; weight=1; penwidth=0.4];
+	"jdbc_27528"  [label = "jdbc\n(0.52%)"; penwidth = 2; ]; "jdbc_27528" -> central [label=0; weight=0; penwidth=0.4];
+	"jpa_27531"  [label = "jpa\n(0.39%)"; penwidth = 2; ]; "jpa_27531" -> central [label=0; weight=0; penwidth=0.4];
 	"jpa_52"  [label = "jpa\n(0.05%)"; penwidth = 2; ]; "jpa_52" -> central [label=0; weight=0; penwidth=0.4];
-	"jpa_27530"  [label = "jpa\n(0.39%)"; penwidth = 2; ]; "jpa_27530" -> central [label=0; weight=0; penwidth=0.4];
-	"jpa_52" -> "jpa_27530" [label=6; weight=6; penwidth=0.3; color = 3]
-	"jdbc_51" -> "jdbc_27527" [label=2; weight=2; penwidth=0.3; color = 3]
-	"jdbc_51" -> "tx_27528" [label=1; weight=1; penwidth=0.3; color = 3]
-	"jpa_52" -> "tx_27528" [label=1; weight=1; penwidth=0.3; color = 3]
-	"jdbc_27527" -> "tx_27528" [label=0; weight=0; penwidth=0.3; color = 3]
-	"jpa_27530" -> "tx_27528" [label=0; weight=0; penwidth=0.3; color = 3]
+	"jpa_52" -> "jpa_27531" [label=6; weight=6; penwidth=0.3; color = 3]
+	"jdbc_51" -> "jdbc_27528" [label=2; weight=2; penwidth=0.3; color = 3]
+	"jdbc_51" -> "tx_27529" [label=1; weight=1; penwidth=0.3; color = 3]
+	"jpa_52" -> "tx_27529" [label=1; weight=1; penwidth=0.3; color = 3]
+	"jdbc_27528" -> "tx_27529" [label=0; weight=0; penwidth=0.3; color = 3]
+	"jpa_27531" -> "tx_27529" [label=0; weight=0; penwidth=0.3; color = 3]
 }

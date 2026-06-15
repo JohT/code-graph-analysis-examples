@@ -14,8 +14,8 @@ strict digraph TopOutlier3 {
 
 	graph   [label="Top Rank #3 Java Type Outlier\norg.axonframework.conversion.avro.GenericRecordToByteArrayConverter\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: cluster probability\nlarge circle: < 25% percentile of cluster probability\nthick outline: > 80% percentile of distance to cluster center\n\n"];
 	central [label="🧩 outlier #3\nGenericRecordToByteArrayConverter"];
-	"ConversionException_26207"  [label = "ConversionException\n(84.15%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "ConversionException_26207" [label=2; weight=2; penwidth=0.4; color = 5];
-	"AvroUtil_27119"  [label = "AvroUtil\n(63.2%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "AvroUtil_27119" [label=1; weight=1; penwidth=0.4; color = 5];
+	"ConversionException_26207"  [label = "ConversionException\n(82.28%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "ConversionException_26207" [label=2; weight=2; penwidth=0.4; color = 5];
+	"AvroUtil_27119"  [label = "AvroUtil\n(67.57%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "AvroUtil_27119" [label=1; weight=1; penwidth=0.4; color = 5];
 	"ContentTypeConverter_26043"  [label = "ContentTypeConverter\n(100.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "ContentTypeConverter_26043" [label=1; weight=1; penwidth=0.4; color = 5];
 	"AvroUtil_27119" -> "ConversionException_26207" [label=9; weight=9; penwidth=0.3; color = 3]
 }
