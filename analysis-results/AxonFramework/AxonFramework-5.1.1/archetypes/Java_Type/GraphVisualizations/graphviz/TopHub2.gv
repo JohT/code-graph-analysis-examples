@@ -15,14 +15,14 @@ strict digraph TopHub2 {
 	graph   [label="Top Rank #2 Java Type Hub\norg.axonframework.common.Priority\n\nnodes: incoming dependencies (limited max. 40)\nnode value: local clustering coefficient\nthick outline: <10% percentile of local clustering coefficient\n\n"];
 	central [label="🎡 hub #2\nPriority\n(in-degree=13)"];
 	"AggregateTypeParameterResolverFactory_41980"  [label = "AggregateTypeParameterResolverFactory\n(0.2)"; penwidth = 2; ]; "AggregateTypeParameterResolverFactory_41980" -> central [label=1; weight=1; penwidth=0.4];
-	"ConfigurationParameterResolverFactory_42824"  [label = "ConfigurationParameterResolverFactory\n(0.13)"; penwidth = 2; ]; "ConfigurationParameterResolverFactory_42824" -> central [label=1; weight=1; penwidth=0.4];
+	"ConfigurationParameterResolverFactory_42825"  [label = "ConfigurationParameterResolverFactory\n(0.13)"; penwidth = 2; ]; "ConfigurationParameterResolverFactory_42825" -> central [label=1; weight=1; penwidth=0.4];
 	"DefaultParameterResolverFactory_40922"  [label = "DefaultParameterResolverFactory\n(0.2)"; penwidth = 2; ]; "DefaultParameterResolverFactory_40922" -> central [label=1; weight=1; penwidth=0.4];
 	"FixtureResourceParameterResolverFactory_13636"  [label = "FixtureResourceParameterResolverFactory\n(0.33)"; penwidth = 2; ]; "FixtureResourceParameterResolverFactory_13636" -> central [label=1; weight=1; penwidth=0.4];
 	"HierarchicalParameterResolverFactory_39902"  [label = "HierarchicalParameterResolverFactory\n(0.33)"; penwidth = 2; ]; "HierarchicalParameterResolverFactory_39902" -> central [label=1; weight=1; penwidth=0.4];
 	"InterceptorChainParameterResolverFactory_38819"  [label = "InterceptorChainParameterResolverFactory\n(0.33)"; penwidth = 2; ]; "InterceptorChainParameterResolverFactory_38819" -> central [label=1; weight=1; penwidth=0.4];
 	"MessageIdentifierParameterResolverFactory_40916"  [label = "MessageIdentifierParameterResolverFactory\n(0.2)"; penwidth = 2; ]; "MessageIdentifierParameterResolverFactory_40916" -> central [label=1; weight=1; penwidth=0.4];
 	"PriorityAnnotationComparator_10484"  [label = "PriorityAnnotationComparator\n(0.1)"; penwidth = 2; ]; "PriorityAnnotationComparator_10484" -> central [label=1; weight=1; penwidth=0.4];
-	"ProcessingContextParameterResolverFactory_35887"  [label = "ProcessingContextParameterResolverFactory\n(0.4)"; penwidth = 2; ]; "ProcessingContextParameterResolverFactory_35887" -> central [label=1; weight=1; penwidth=0.4];
+	"ProcessingContextParameterResolverFactory_35888"  [label = "ProcessingContextParameterResolverFactory\n(0.4)"; penwidth = 2; ]; "ProcessingContextParameterResolverFactory_35888" -> central [label=1; weight=1; penwidth=0.4];
 	"SequenceNumberParameterResolverFactory_34675"  [label = "SequenceNumberParameterResolverFactory\n(0.2)"; penwidth = 2; ]; "SequenceNumberParameterResolverFactory_34675" -> central [label=1; weight=1; penwidth=0.4];
 	"SimpleResourceParameterResolverFactory_41976"  [label = "SimpleResourceParameterResolverFactory\n(0.33)"; penwidth = 2; ]; "SimpleResourceParameterResolverFactory_41976" -> central [label=1; weight=1; penwidth=0.4];
 	"SourceIdParameterResolverFactory_41977"  [label = "SourceIdParameterResolverFactory\n(0.2)"; penwidth = 2; ]; "SourceIdParameterResolverFactory_41977" -> central [label=1; weight=1; penwidth=0.4];

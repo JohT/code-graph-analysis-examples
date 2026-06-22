@@ -14,15 +14,15 @@ strict digraph TopAuthority4 {
 
 	graph   [label="Top Rank #4 Java Package Authority\norg.axonframework.common.function\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: Page Rank (normalized)\nlarge circle: > 80% percentile of Page Rank\nthick outline: > 80% percentile of Page Rank to Article Rank Difference\n\n"];
 	central [label="🏛️ authority #4\nfunction"];
-	"jdbc_26005"  [label = "jdbc\n(0.05%)"; penwidth = 2; ]; "jdbc_26005" -> central [label=1; weight=1; penwidth=0.4];
+	"jdbc_26003"  [label = "jdbc\n(0.05%)"; penwidth = 2; ]; "jdbc_26003" -> central [label=1; weight=1; penwidth=0.4];
 	"tx_7358"  [label = "tx\n(0.28%)"; penwidth = 2; ]; "tx_7358" -> central [label=1; weight=1; penwidth=0.4];
 	"jdbc_7357"  [label = "jdbc\n(0.52%)"; penwidth = 2; ]; "jdbc_7357" -> central [label=0; weight=0; penwidth=0.4];
-	"jpa_26006"  [label = "jpa\n(0.05%)"; penwidth = 2; ]; "jpa_26006" -> central [label=0; weight=0; penwidth=0.4];
+	"jpa_26004"  [label = "jpa\n(0.05%)"; penwidth = 2; ]; "jpa_26004" -> central [label=0; weight=0; penwidth=0.4];
 	"jpa_7360"  [label = "jpa\n(0.39%)"; penwidth = 2; ]; "jpa_7360" -> central [label=0; weight=0; penwidth=0.4];
-	"jpa_26006" -> "jpa_7360" [label=6; weight=6; penwidth=0.3; color = 3]
-	"jdbc_26005" -> "jdbc_7357" [label=2; weight=2; penwidth=0.3; color = 3]
-	"jdbc_26005" -> "tx_7358" [label=1; weight=1; penwidth=0.3; color = 3]
-	"jpa_26006" -> "tx_7358" [label=1; weight=1; penwidth=0.3; color = 3]
+	"jpa_26004" -> "jpa_7360" [label=6; weight=6; penwidth=0.3; color = 3]
+	"jdbc_26003" -> "jdbc_7357" [label=2; weight=2; penwidth=0.3; color = 3]
+	"jdbc_26003" -> "tx_7358" [label=1; weight=1; penwidth=0.3; color = 3]
+	"jpa_26004" -> "tx_7358" [label=1; weight=1; penwidth=0.3; color = 3]
 	"jdbc_7357" -> "tx_7358" [label=0; weight=0; penwidth=0.3; color = 3]
 	"jpa_7360" -> "tx_7358" [label=0; weight=0; penwidth=0.3; color = 3]
 }

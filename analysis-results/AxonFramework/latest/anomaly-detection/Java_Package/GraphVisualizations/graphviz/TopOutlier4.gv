@@ -12,12 +12,13 @@ strict digraph TopOutlier4 {
     central [fontsize = 16;];
     central [color = 7; fillcolor = 5; penwidth = 3;];
 
-	graph   [label="Top Rank #4 Java Package Outlier\norg.axonframework.update.detection\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: cluster probability\nlarge circle: < 25% percentile of cluster probability\nthick outline: > 80% percentile of distance to cluster center\n\n"];
-	central [label="🧩 outlier #4\ndetection"];
-	"update_4956"  [label = "update\n(100.0%)"; penwidth = 2; ]; "update_4956" -> central [label=7; weight=7; penwidth=0.5];
-	"api_4957"  [label = "api\n(100.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "api_4957" [label=8; weight=8; penwidth=0.5; color = 5];
-	"annotation_7362"  [shape = "circle"; height=1.8; label = "annotation\n(0.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "annotation_7362" [label=4; weight=4; penwidth=0.5; color = 5];
-	"update_4956" -> "api_4957" [label=59; weight=59; penwidth=0.3; color = 3]
-	"api_4957" -> "annotation_7362" [label=6; weight=6; penwidth=0.3; color = 3]
-	"update_4956" -> "annotation_7362" [label=4; weight=4; penwidth=0.3; color = 3]
+	graph   [label="Top Rank #4 Java Package Outlier\norg.axonframework.common.lifecycle\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: cluster probability\nlarge circle: < 25% percentile of cluster probability\nthick outline: > 80% percentile of distance to cluster center\n\n"];
+	central [label="🧩 outlier #4\nlifecycle"];
+	"query_18949"  [label = "query\n(70.39%)"; penwidth = 2; ]; "query_18949" -> central [label=16; weight=16; penwidth=0.7];
+	"command_18948"  [shape = "circle"; height=1.8; label = "command\n(57.67%)"; penwidth = 5; ]; "command_18948" -> central [label=12; weight=12; penwidth=0.6];
+	"configuration_7363"  [shape = "circle"; height=1.8; label = "configuration\n(0.0%)"; penwidth = 2; ]; "configuration_7363" -> central [label=2; weight=2; penwidth=0.4];
+	"common_7349"  [label = "common\n(76.38%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "common_7349" [label=2; weight=2; penwidth=0.4; color = 5];
+	"configuration_7363" -> "common_7349" [label=42; weight=42; penwidth=0.3; color = 3]
+	"query_18949" -> "common_7349" [label=10; weight=10; penwidth=0.3; color = 3]
+	"command_18948" -> "common_7349" [label=4; weight=4; penwidth=0.3; color = 3]
 }

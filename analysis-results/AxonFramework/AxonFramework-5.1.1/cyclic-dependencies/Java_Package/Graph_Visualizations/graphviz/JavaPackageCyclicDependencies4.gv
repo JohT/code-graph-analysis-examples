@@ -49,7 +49,7 @@ strict digraph cycle {
     "MethodCommandHandlerDefinition$MethodCommandHandlingMember" -> "WrappedMessageHandlingMember" [color="#6699CC"; penwidth="0.5"];
     "CommandDispatcherParameterResolverFactory" -> "ParameterResolverFactory" [color="#6699CC"; penwidth="0.5"];
     "CommandDispatcherParameterResolverFactory$1" -> "ParameterResolver" [color="#6699CC"; penwidth="0.5"];
-    "CommandHandlingMember" -> "MessageHandlingMember" [color="#6699CC"; penwidth="0.5"];
     "AnnotatedCommandHandlingComponent" -> "ParameterResolverFactory" [color="#6699CC"; penwidth="0.5"];
+    "CommandHandlingMember" -> "MessageHandlingMember" [color="#6699CC"; penwidth="0.5"];
     "HandlerTypeResolver" -> "CommandHandler" [color="red"; penwidth="2.5"; style="dashed";];
 }

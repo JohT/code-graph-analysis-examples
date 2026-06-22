@@ -12,24 +12,9 @@ strict digraph TopOutlier2 {
     central [fontsize = 16;];
     central [color = 7; fillcolor = 5; penwidth = 3;];
 
-	graph   [label="Top Rank #2 Java Type Outlier\norg.axonframework.common.configuration.ComponentDecorator\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: cluster probability\nlarge circle: < 25% percentile of cluster probability\nthick outline: > 80% percentile of distance to cluster center\n\n"];
-	central [label="🧩 outlier #2\nComponentDecorator"];
-	"DecoratedComponent_11101"  [label = "DecoratedComponent\n(100.0%)"; penwidth = 2; ]; "DecoratedComponent_11101" -> central [label=3; weight=3; penwidth=0.4];
-	"DefaultDecoratorDefinition_10759"  [label = "DefaultDecoratorDefinition\n(100.0%)"; penwidth = 2; ]; "DefaultDecoratorDefinition_10759" -> central [label=3; weight=3; penwidth=0.4];
-	"AxonServerConfigurationEnhancer_21344"  [label = "AxonServerConfigurationEnhancer\n(34.9%)"; penwidth = 2; ]; "AxonServerConfigurationEnhancer_21344" -> central [label=2; weight=2; penwidth=0.4];
-	"ComponentRegistry_11102"  [shape = "circle"; height=1.8; label = "ComponentRegistry\n(0.0%)"; penwidth = 2; ]; "ComponentRegistry_11102" -> central [label=2; weight=2; penwidth=0.4];
-	"DecoratorDefinition$1_10747"  [label = "DecoratorDefinition$\n1\n(83.98%)"; penwidth = 5; ]; "DecoratorDefinition$1_10747" -> central [label=1; weight=1; penwidth=0.4];
-	"DecoratorDefinition$2_11100"  [label = "DecoratorDefinition$\n2\n(83.98%)"; penwidth = 5; ]; "DecoratorDefinition$2_11100" -> central [label=1; weight=1; penwidth=0.4];
-	"DecoratorDefinition$PartialDecoratorDefinition_10674"  [shape = "circle"; height=1.8; label = "DecoratorDefinition$\nPartialDecoratorDefinition\n(13.98%)"; penwidth = 2; ]; "DecoratorDefinition$PartialDecoratorDefinition_10674" -> central [label=1; weight=1; penwidth=0.4];
-	"Configuration_10671"  [label = "Configuration\n(68.26%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "Configuration_10671" [label=1; weight=1; penwidth=0.4; color = 5];
-	"AxonServerConfigurationEnhancer_21344" -> "Configuration_10671" [label=33; weight=33; penwidth=0.3; color = 3]
-	"AxonServerConfigurationEnhancer_21344" -> "ComponentRegistry_11102" [label=13; weight=13; penwidth=0.3; color = 3]
-	"ComponentRegistry_11102" -> "DecoratorDefinition$PartialDecoratorDefinition_10674" [label=3; weight=3; penwidth=0.3; color = 3]
-	"DecoratedComponent_11101" -> "Configuration_10671" [label=3; weight=3; penwidth=0.3; color = 3]
-	"AxonServerConfigurationEnhancer_21344" -> "DecoratorDefinition$PartialDecoratorDefinition_10674" [label=2; weight=2; penwidth=0.3; color = 3]
-	"DecoratorDefinition$1_10747" -> "DecoratorDefinition$PartialDecoratorDefinition_10674" [label=2; weight=2; penwidth=0.3; color = 3]
-	"DecoratorDefinition$1_10747" -> "DefaultDecoratorDefinition_10759" [label=2; weight=2; penwidth=0.3; color = 3]
-	"DecoratorDefinition$2_11100" -> "DecoratorDefinition$PartialDecoratorDefinition_10674" [label=2; weight=2; penwidth=0.3; color = 3]
-	"DecoratorDefinition$2_11100" -> "DefaultDecoratorDefinition_10759" [label=2; weight=2; penwidth=0.3; color = 3]
-	"DefaultDecoratorDefinition_10759" -> "DecoratedComponent_11101" [label=2; weight=2; penwidth=0.3; color = 3]
+	graph   [label="Top Rank #2 Java Type Outlier\norg.axonframework.common.jdbc.ConnectionWrapperFactory$NoOpCloseHandler\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: cluster probability\nlarge circle: < 25% percentile of cluster probability\nthick outline: > 80% percentile of distance to cluster center\n\n"];
+	central [label="🧩 outlier #2\nConnectionWrapperFactory$NoOpCloseHandler"];
+	"ConnectionWrapperFactory_10372"  [shape = "circle"; height=1.8; label = "ConnectionWrapperFactory\n(7.38%)"; penwidth = 5; ]; "ConnectionWrapperFactory_10372" -> central [label=1; weight=1; penwidth=0.4];
+	"ConnectionWrapperFactory$ConnectionCloseHandler_10490"  [shape = "circle"; height=1.8; label = "ConnectionWrapperFactory$\nConnectionCloseHandler\n(7.38%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "ConnectionWrapperFactory$ConnectionCloseHandler_10490" [label=2; weight=2; penwidth=0.4; color = 5];
+	"ConnectionWrapperFactory_10372" -> "ConnectionWrapperFactory$ConnectionCloseHandler_10490" [label=10; weight=10; penwidth=0.3; color = 3]
 }

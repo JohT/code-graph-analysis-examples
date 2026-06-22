@@ -26,7 +26,7 @@
 <polygon fill="#6699cc" stroke="#6699cc" stroke-width="0.5" points="519.79,-158.42 516.2,-153.17 515.73,-159.51 519.79,-158.42"/>
 </g>
 <!-- AnnotatedQueryHandlingComponent&#45;&gt;ParameterResolverFactory -->
-<g id="edge10" class="edge">
+<g id="edge11" class="edge">
 <title>AnnotatedQueryHandlingComponent&#45;&gt;ParameterResolverFactory</title>
 <path fill="none" stroke="#6699cc" stroke-width="0.5" d="M438.55,-400.6C286.52,-339.45 273.61,-322.96 190.97,-146.71"/>
 <polygon fill="#6699cc" stroke="#6699cc" stroke-width="0.5" points="192.9,-145.87 188.45,-141.33 189.1,-147.65 192.9,-145.87"/>
@@ -44,7 +44,7 @@
 <polygon fill="#6699cc" stroke="#6699cc" stroke-width="0.5" points="362.26,-96.46 356.77,-93.26 359.06,-99.18 362.26,-96.46"/>
 </g>
 <!-- QueryHandlingMember&#45;&gt;MessageHandlingMember -->
-<g id="edge4" class="edge">
+<g id="edge5" class="edge">
 <title>QueryHandlingMember&#45;&gt;MessageHandlingMember</title>
 <path fill="none" stroke="#6699cc" stroke-width="0.5" d="M379.89,-353.35C482.95,-262.03 491.88,-249.73 506.99,-159.22"/>
 <polygon fill="#6699cc" stroke="#6699cc" stroke-width="0.5" points="509.06,-159.58 507.97,-153.32 504.92,-158.89 509.06,-159.58"/>
@@ -80,13 +80,13 @@
 <polygon fill="#6699cc" stroke="#6699cc" stroke-width="0.5" points="497.42,-159.09 498.92,-152.92 493.9,-156.8 497.42,-159.09"/>
 </g>
 <!-- MethodQueryHandlerDefinition$MethodQueryHandlingMember&#45;&gt;UnsupportedHandlerException -->
-<g id="edge5" class="edge">
+<g id="edge4" class="edge">
 <title>MethodQueryHandlerDefinition$MethodQueryHandlingMember&#45;&gt;UnsupportedHandlerException</title>
 <path fill="none" stroke="#6699cc" stroke-width="0.5" d="M188.93,-413.01C211.06,-203.16 216.66,-189.31 381.23,-48.1"/>
 <polygon fill="#6699cc" stroke="#6699cc" stroke-width="0.5" points="382.38,-49.88 385.57,-44.38 379.65,-46.69 382.38,-49.88"/>
 </g>
 <!-- QueryResponse&#45;&gt;Message -->
-<g id="edge11" class="edge">
+<g id="edge10" class="edge">
 <title>QueryResponse&#45;&gt;Message</title>
 <path fill="none" stroke="#6699cc" stroke-width="0.5" d="M371.71,-298.73C364.26,-287.99 357.88,-277.43 341.34,-249.17"/>
 <polygon fill="#6699cc" stroke="#6699cc" stroke-width="0.5" points="343.35,-248.45 338.51,-244.33 339.73,-250.57 343.35,-248.45"/>

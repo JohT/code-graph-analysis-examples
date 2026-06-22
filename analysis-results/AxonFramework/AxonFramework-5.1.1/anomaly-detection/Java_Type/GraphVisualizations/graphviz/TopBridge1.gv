@@ -12,10 +12,17 @@ strict digraph TopBridge1 {
     central [fontsize = 16;];
     central [color = 7; fillcolor = 5; penwidth = 3;];
 
-	graph   [label="Top Rank #1 Java Type Bridge\norg.axonframework.eventsourcing.annotation.EventTags\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
-	central [label="🌉 bridge #1\nEventTags"];
-	"AnnotationBasedTagResolver_2025" [label = "AnnotationBasedTagResolver"; ]; "AnnotationBasedTagResolver_2025" -> central [label=2; weight=2; penwidth=0.4];
-	"EventTag_1075" [label = "EventTag"; ]; "EventTag_1075" -> central [label=1; weight=1; penwidth=0.4];
-	"EventTag_1075" [label = "EventTag"; color = 5; fillcolor = 1; ]; central -> "EventTag_1075" [label=1; weight=1; penwidth=0.4; color = 5];
-	"AnnotationBasedTagResolver_2025" -> "EventTag_1075" [label=6; weight=6; penwidth=0.3; color = 3]
+	graph   [label="Top Rank #1 Java Type Bridge\norg.axonframework.test.util.MessageMonitorReport$Report$Success\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
+	central [label="🌉 bridge #1\nMessageMonitorReport$Report$Success"];
+	"MessageMonitorReport_14990" [label = "MessageMonitorReport"; ]; "MessageMonitorReport_14990" -> central [label=7; weight=7; penwidth=0.5];
+	"MessageMonitorReport$Report_15001" [label = "MessageMonitorReport$\nReport"; ]; "MessageMonitorReport$Report_15001" -> central [label=1; weight=1; penwidth=0.4];
+	"RecordingMessageMonitor$1_14989" [label = "RecordingMessageMonitor$\n1"; ]; "RecordingMessageMonitor$1_14989" -> central [label=1; weight=1; penwidth=0.4];
+	"Message_26063" [label = "Message"; color = 5; fillcolor = 1; ]; central -> "Message_26063" [label=3; weight=3; penwidth=0.4; color = 5];
+	"MessageMonitorReport$Report_15001" [label = "MessageMonitorReport$\nReport"; color = 5; fillcolor = 1; ]; central -> "MessageMonitorReport$Report_15001" [label=2; weight=2; penwidth=0.4; color = 5];
+	"MessageMonitorReport_14990" -> "MessageMonitorReport$Report_15001" [label=8; weight=8; penwidth=0.3; color = 3]
+	"RecordingMessageMonitor$1_14989" -> "MessageMonitorReport_14990" [label=6; weight=6; penwidth=0.3; color = 3]
+	"MessageMonitorReport_14990" -> "Message_26063" [label=3; weight=3; penwidth=0.3; color = 3]
+	"MessageMonitorReport$Report_15001" -> "Message_26063" [label=1; weight=1; penwidth=0.3; color = 3]
+	"RecordingMessageMonitor$1_14989" -> "Message_26063" [label=1; weight=1; penwidth=0.3; color = 3]
+	"RecordingMessageMonitor$1_14989" -> "MessageMonitorReport$Report_15001" [label=1; weight=1; penwidth=0.3; color = 3]
 }

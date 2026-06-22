@@ -29,16 +29,16 @@ Shows how many nodes carry each combination of labels and their share of the tot
 
 | nodeLabels | nodesWithThatLabels | nodesWithThatLabelsPercent |
 | --- | --- | --- |
-| ["Git","Update","Change"] | 315032 | 52.248618454659436 |
-| ["Git","Change","Create"] | 108443 | 17.98546474986234 |
-| ["Git","Change","Delete"] | 66549 | 11.037270212356622 |
-| ["Git","Change","Rename"] | 27910 | 4.628923223893271 |
-| ["Git","Commit"] | 17573 | 2.9145133577024884 |
-| ["File","Git"] | 17486 | 2.9000842527050428 |
-| ["Java","ByteCode","Parameter"] | 9346 | 1.5500507506451635 |
-| ["Java","ByteCode","Member","Method"] | 9004 | 1.493329441344859 |
-| ["Java","ByteCode","Bound"] | 6615 | 1.0971095351506266 |
-| ["Java","ByteCode","Bound","ParameterizedType"] | 5068 | 0.8405368290466178 |
+| ["Git","Update","Change"] | 315032 | 52.2485317995386 |
+| ["Git","Change","Create"] | 108443 | 17.9854349206981 |
+| ["Git","Change","Delete"] | 66549 | 11.037251906877696 |
+| ["Git","Change","Rename"] | 27910 | 4.628915546754369 |
+| ["Git","Commit"] | 17573 | 2.9145085239381774 |
+| ["File","Git"] | 17486 | 2.9000794428716192 |
+| ["Java","ByteCode","Parameter"] | 9346 | 1.5500481798626418 |
+| ["Java","ByteCode","Member","Method"] | 9007 | 1.4938245191550197 |
+| ["Java","ByteCode","Bound"] | 6615 | 1.0971077155779345 |
+| ["Java","ByteCode","Bound","ParameterizedType"] | 5068 | 0.8405354350036238 |
 
 [Full data](./Node_label_combination_count.csv)
 
@@ -55,16 +55,16 @@ Shows the number of nodes carrying each individual label, sorted by count descen
 
 | nodeLabel | nodesWithThatLabel | nodesWithThatLabelPercent |
 | --- | --- | --- |
-| Git | 555202 | 92.08124083668908 |
-| Change | 519420 | 86.14673238819931 |
-| Update | 315032 | 52.248618454659436 |
-| Create | 108443 | 17.98546474986234 |
-| Delete | 66549 | 11.037270212356622 |
-| Java | 41489 | 6.8810245659658875 |
-| ByteCode | 41274 | 6.845366432926222 |
-| Rename | 27910 | 4.628923223893271 |
-| File | 20672 | 3.4284880288184056 |
-| Commit | 17573 | 2.9145133577024884 |
+| Git | 555202 | 92.08108811856393 |
+| Change | 519420 | 86.14658951254583 |
+| Update | 315032 | 52.2485317995386 |
+| Create | 108443 | 17.9854349206981 |
+| Delete | 66549 | 11.037251906877696 |
+| Java | 41490 | 6.881179005189493 |
+| ByteCode | 41275 | 6.845520931289379 |
+| Rename | 27910 | 4.628915546754369 |
+| File | 20672 | 3.4284823426193594 |
+| Commit | 17573 | 2.9145085239381774 |
 
 [Full data](./Node_label_count.csv)
 
@@ -78,16 +78,16 @@ Shows the number of relationships for each type and their share of the total rel
 
 | relationshipType | nodesWithThatRelationshipType | nodesWithThatRelationshipTypePercent |
 | --- | --- | --- |
-| CONTAINS_CHANGE | 519420 | 27.542506568534137 |
-| MODIFIES | 519420 | 27.542506568534137 |
-| UPDATES | 315032 | 16.704730139960812 |
-| CREATES | 137839 | 7.30898225501555 |
-| DELETES | 94459 | 5.008735951555901 |
-| COMMITTED | 35146 | 1.8636343149237626 |
-| RENAMES | 27910 | 1.479941777998128 |
-| INVOKES | 23086 | 1.2241467533810386 |
-| DEPENDS_ON | 21776 | 1.154683344954756 |
-| HAS_PARENT | 21377 | 1.1335261694111782 |
+| CONTAINS_CHANGE | 519420 | 27.5429885272015 |
+| MODIFIES | 519420 | 27.5429885272015 |
+| UPDATES | 315032 | 16.705022451390672 |
+| CREATES | 137839 | 7.309110152864593 |
+| DELETES | 94459 | 5.008823598034204 |
+| COMMITTED | 35146 | 1.8636669261426666 |
+| RENAMES | 27910 | 1.479967675087971 |
+| INVOKES | 23058 | 1.2226834343310078 |
+| DEPENDS_ON | 21776 | 1.1547035504376801 |
+| HAS_PARENT | 21377 | 1.1335460046705679 |
 
 [Full data](./Relationship_type_count.csv)
 
@@ -155,7 +155,7 @@ Overview of scanned Java artifacts: number of packages, types, methods, and line
 
 | nodeCount | relationshipCount | artifactCount | packageCount | typeCount | methodCount | memberCount |
 | --- | --- | --- | --- | --- | --- | --- |
-| 602948 | 1885885 | 11 | 137 | 1854 | 5615 | 7029 |
+| 602949 | 1885852 | 11 | 137 | 1854 | 5615 | 7029 |
 
 [Full data](./Overview_size.csv)
 

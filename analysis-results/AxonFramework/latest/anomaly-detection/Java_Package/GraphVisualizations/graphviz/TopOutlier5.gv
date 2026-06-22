@@ -12,24 +12,11 @@ strict digraph TopOutlier5 {
     central [fontsize = 16;];
     central [color = 7; fillcolor = 5; penwidth = 3;];
 
-	graph   [label="Top Rank #5 Java Package Outlier\norg.axonframework.messaging.eventhandling.processing.streaming\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: cluster probability\nlarge circle: < 25% percentile of cluster probability\nthick outline: > 80% percentile of distance to cluster center\n\n"];
-	central [label="🧩 outlier #5\nstreaming"];
-	"event_18946"  [shape = "circle"; height=1.8; label = "event\n(65.14%)"; penwidth = 2; ]; "event_18946" -> central [label=5; weight=5; penwidth=0.5];
-	"pooled_25993"  [label = "pooled\n(100.0%)"; penwidth = 2; ]; "pooled_25993" -> central [label=2; weight=2; penwidth=0.4];
-	"segmenting_25992"  [label = "segmenting\n(100.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "segmenting_25992" [label=1; weight=1; penwidth=0.4; color = 5];
-	"token_25994"  [shape = "circle"; height=1.8; label = "token\n(72.81%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "token_25994" [label=1; weight=1; penwidth=0.4; color = 5];
-	"eventstreaming_26027"  [label = "eventstreaming\n(100.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "eventstreaming_26027" [label=0; weight=0; penwidth=0.4; color = 5];
-	"processing_25988"  [label = "processing\n(99.57%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "processing_25988" [label=0; weight=0; penwidth=0.4; color = 5];
-	"pooled_25993" -> "segmenting_25992" [label=148; weight=148; penwidth=0.3; color = 3]
-	"pooled_25993" -> "token_25994" [label=30; weight=30; penwidth=0.3; color = 3]
-	"segmenting_25992" -> "token_25994" [label=23; weight=23; penwidth=0.3; color = 3]
-	"event_18946" -> "token_25994" [label=22; weight=22; penwidth=0.3; color = 3]
-	"pooled_25993" -> "processing_25988" [label=16; weight=16; penwidth=0.3; color = 3]
-	"event_18946" -> "eventstreaming_26027" [label=15; weight=15; penwidth=0.3; color = 3]
-	"pooled_25993" -> "eventstreaming_26027" [label=8; weight=8; penwidth=0.3; color = 3]
-	"event_18946" -> "segmenting_25992" [label=4; weight=4; penwidth=0.3; color = 3]
-	"event_18946" -> "processing_25988" [label=3; weight=3; penwidth=0.3; color = 3]
-	"eventstreaming_26027" -> "token_25994" [label=3; weight=3; penwidth=0.3; color = 3]
-	"processing_25988" -> "token_25994" [label=3; weight=3; penwidth=0.3; color = 3]
-	"processing_25988" -> "segmenting_25992" [label=3; weight=3; penwidth=0.3; color = 3]
+	graph   [label="Top Rank #5 Java Package Outlier\norg.axonframework.eventsourcing.snapshot.inmemory\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: cluster probability\nlarge circle: < 25% percentile of cluster probability\nthick outline: > 80% percentile of distance to cluster center\n\n"];
+	central [label="🧩 outlier #5\ninmemory"];
+	"api_21"  [shape = "circle"; height=1.8; label = "api\n(60.24%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "api_21" [label=4; weight=4; penwidth=0.5; color = 5];
+	"core_26000"  [label = "core\n(84.93%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "core_26000" [label=4; weight=4; penwidth=0.5; color = 5];
+	"store_23"  [label = "store\n(66.3%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "store_23" [label=0; weight=0; penwidth=0.4; color = 5];
+	"store_23" -> "api_21" [label=2; weight=2; penwidth=0.3; color = 3]
+	"store_23" -> "core_26000" [label=2; weight=2; penwidth=0.3; color = 3]
 }

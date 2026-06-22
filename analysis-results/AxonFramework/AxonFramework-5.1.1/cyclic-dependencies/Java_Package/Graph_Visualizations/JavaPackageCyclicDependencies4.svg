@@ -44,7 +44,7 @@
 <polygon fill="#6699cc" stroke="#6699cc" stroke-width="0.5" points="316.46,-141.65 310.26,-140.22 314.21,-145.2 316.46,-141.65"/>
 </g>
 <!-- AnnotatedCommandHandlingComponent&#45;&gt;ParameterResolverFactory -->
-<g id="edge15" class="edge">
+<g id="edge14" class="edge">
 <title>AnnotatedCommandHandlingComponent&#45;&gt;ParameterResolverFactory</title>
 <path fill="none" stroke="#6699cc" stroke-width="0.5" d="M516.67,-368.75C507.53,-312.53 500.79,-301.16 435.63,-231.48"/>
 <polygon fill="#6699cc" stroke="#6699cc" stroke-width="0.5" points="437.4,-230.3 431.77,-227.36 434.33,-233.18 437.4,-230.3"/>
@@ -104,7 +104,7 @@
 <polygon fill="#6699cc" stroke="#6699cc" stroke-width="0.5" points="400.95,-233.77 402.43,-227.59 397.42,-231.5 400.95,-233.77"/>
 </g>
 <!-- CommandHandlingMember&#45;&gt;MessageHandlingMember -->
-<g id="edge14" class="edge">
+<g id="edge15" class="edge">
 <title>CommandHandlingMember&#45;&gt;MessageHandlingMember</title>
 <path fill="none" stroke="#6699cc" stroke-width="0.5" d="M478.61,-414.9C455.07,-300.3 447.13,-288.02 304.85,-145.15"/>
 <polygon fill="#6699cc" stroke="#6699cc" stroke-width="0.5" points="306.42,-143.75 300.7,-140.99 303.45,-146.72 306.42,-143.75"/>

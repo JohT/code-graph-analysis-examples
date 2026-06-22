@@ -12,17 +12,12 @@ strict digraph TopBridge1 {
     central [fontsize = 16;];
     central [color = 7; fillcolor = 5; penwidth = 3;];
 
-	graph   [label="Top Rank #1 Java Package Bridge\norg.axonframework.common.function\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
-	central [label="🌉 bridge #1\nfunction"];
-	"jdbc_26005" [label = "jdbc"; ]; "jdbc_26005" -> central [label=1; weight=1; penwidth=0.4];
-	"tx_7358" [label = "tx"; ]; "tx_7358" -> central [label=1; weight=1; penwidth=0.4];
-	"jdbc_7357" [label = "jdbc"; ]; "jdbc_7357" -> central [label=0; weight=0; penwidth=0.4];
-	"jpa_26006" [label = "jpa"; ]; "jpa_26006" -> central [label=0; weight=0; penwidth=0.4];
-	"jpa_7360" [label = "jpa"; ]; "jpa_7360" -> central [label=0; weight=0; penwidth=0.4];
-	"jpa_26006" -> "jpa_7360" [label=6; weight=6; penwidth=0.3; color = 3]
-	"jdbc_26005" -> "jdbc_7357" [label=2; weight=2; penwidth=0.3; color = 3]
-	"jdbc_26005" -> "tx_7358" [label=1; weight=1; penwidth=0.3; color = 3]
-	"jpa_26006" -> "tx_7358" [label=1; weight=1; penwidth=0.3; color = 3]
-	"jdbc_7357" -> "tx_7358" [label=0; weight=0; penwidth=0.3; color = 3]
-	"jpa_7360" -> "tx_7358" [label=0; weight=0; penwidth=0.3; color = 3]
+	graph   [label="Top Rank #1 Java Package Bridge\norg.axonframework.common.util\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
+	central [label="🌉 bridge #1\nutil"];
+	"util_18950" [label = "util"; ]; "util_18950" -> central [label=10; weight=10; penwidth=0.6];
+	"annotation_26014" [label = "annotation"; ]; "annotation_26014" -> central [label=1; weight=1; penwidth=0.4];
+	"annotation_26023" [label = "annotation"; ]; "annotation_26023" -> central [label=1; weight=1; penwidth=0.4];
+	"io_7354" [label = "io"; color = 5; fillcolor = 1; ]; central -> "io_7354" [label=2; weight=2; penwidth=0.4; color = 5];
+	"annotation_26023" -> "annotation_26014" [label=22; weight=22; penwidth=0.3; color = 3]
+	"annotation_26014" -> "annotation_26023" [label=1; weight=1; penwidth=0.3; color = 3]
 }

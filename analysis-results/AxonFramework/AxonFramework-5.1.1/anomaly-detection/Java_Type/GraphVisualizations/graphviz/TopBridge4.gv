@@ -12,11 +12,27 @@ strict digraph TopBridge4 {
     central [fontsize = 16;];
     central [color = 7; fillcolor = 5; penwidth = 3;];
 
-	graph   [label="Top Rank #4 Java Type Bridge\norg.axonframework.common.TypeReflectionUtils$VarMap$ParameterizedTypeImpl\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
-	central [label="🌉 bridge #4\nTypeReflectionUtils$VarMap$ParameterizedTypeImpl"];
-	"TypeReflectionUtils$VarMap_7490" [label = "TypeReflectionUtils$\nVarMap"; ]; "TypeReflectionUtils$VarMap_7490" -> central [label=3; weight=3; penwidth=0.4];
-	"TypeReflectionUtils_9373" [label = "TypeReflectionUtils"; ]; "TypeReflectionUtils_9373" -> central [label=1; weight=1; penwidth=0.4];
-	"TypeReflectionUtils$VarMap_7490" [label = "TypeReflectionUtils$\nVarMap"; color = 5; fillcolor = 1; ]; central -> "TypeReflectionUtils$VarMap_7490" [label=1; weight=1; penwidth=0.4; color = 5];
-	"TypeReflectionUtils_9373" -> "TypeReflectionUtils$VarMap_7490" [label=5; weight=5; penwidth=0.3; color = 3]
-	"TypeReflectionUtils$VarMap_7490" -> "TypeReflectionUtils_9373" [label=2; weight=2; penwidth=0.3; color = 3]
+	graph   [label="Top Rank #4 Java Type Bridge\norg.axonframework.test.util.MessageMonitorReport$Report\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
+	central [label="🌉 bridge #4\nMessageMonitorReport$Report"];
+	"MessageMonitorReport_14990" [label = "MessageMonitorReport"; ]; "MessageMonitorReport_14990" -> central [label=8; weight=8; penwidth=0.5];
+	"MessageMonitorReport$Report$Failure_15117" [label = "MessageMonitorReport$\nReport$\nFailure"; ]; "MessageMonitorReport$Report$Failure_15117" -> central [label=2; weight=2; penwidth=0.4];
+	"MessageMonitorReport$Report$Ignored_15118" [label = "MessageMonitorReport$\nReport$\nIgnored"; ]; "MessageMonitorReport$Report$Ignored_15118" -> central [label=2; weight=2; penwidth=0.4];
+	"MessageMonitorReport$Report$Success_15116" [label = "MessageMonitorReport$\nReport$\nSuccess"; ]; "MessageMonitorReport$Report$Success_15116" -> central [label=2; weight=2; penwidth=0.4];
+	"RecordingMessageMonitor$1_14989" [label = "RecordingMessageMonitor$\n1"; ]; "RecordingMessageMonitor$1_14989" -> central [label=1; weight=1; penwidth=0.4];
+	"Message_26063" [label = "Message"; color = 5; fillcolor = 1; ]; central -> "Message_26063" [label=1; weight=1; penwidth=0.4; color = 5];
+	"MessageMonitorReport$Report$Failure_15117" [label = "MessageMonitorReport$\nReport$\nFailure"; color = 5; fillcolor = 1; ]; central -> "MessageMonitorReport$Report$Failure_15117" [label=1; weight=1; penwidth=0.4; color = 5];
+	"MessageMonitorReport$Report$Ignored_15118" [label = "MessageMonitorReport$\nReport$\nIgnored"; color = 5; fillcolor = 1; ]; central -> "MessageMonitorReport$Report$Ignored_15118" [label=1; weight=1; penwidth=0.4; color = 5];
+	"MessageMonitorReport$Report$Success_15116" [label = "MessageMonitorReport$\nReport$\nSuccess"; color = 5; fillcolor = 1; ]; central -> "MessageMonitorReport$Report$Success_15116" [label=1; weight=1; penwidth=0.4; color = 5];
+	"MessageMonitorReport_14990" -> "MessageMonitorReport$Report$Failure_15117" [label=7; weight=7; penwidth=0.3; color = 3]
+	"MessageMonitorReport_14990" -> "MessageMonitorReport$Report$Success_15116" [label=7; weight=7; penwidth=0.3; color = 3]
+	"MessageMonitorReport_14990" -> "MessageMonitorReport$Report$Ignored_15118" [label=7; weight=7; penwidth=0.3; color = 3]
+	"RecordingMessageMonitor$1_14989" -> "MessageMonitorReport_14990" [label=6; weight=6; penwidth=0.3; color = 3]
+	"MessageMonitorReport_14990" -> "Message_26063" [label=3; weight=3; penwidth=0.3; color = 3]
+	"MessageMonitorReport$Report$Failure_15117" -> "Message_26063" [label=3; weight=3; penwidth=0.3; color = 3]
+	"MessageMonitorReport$Report$Ignored_15118" -> "Message_26063" [label=3; weight=3; penwidth=0.3; color = 3]
+	"MessageMonitorReport$Report$Success_15116" -> "Message_26063" [label=3; weight=3; penwidth=0.3; color = 3]
+	"RecordingMessageMonitor$1_14989" -> "Message_26063" [label=1; weight=1; penwidth=0.3; color = 3]
+	"RecordingMessageMonitor$1_14989" -> "MessageMonitorReport$Report$Success_15116" [label=1; weight=1; penwidth=0.3; color = 3]
+	"RecordingMessageMonitor$1_14989" -> "MessageMonitorReport$Report$Ignored_15118" [label=1; weight=1; penwidth=0.3; color = 3]
+	"RecordingMessageMonitor$1_14989" -> "MessageMonitorReport$Report$Failure_15117" [label=1; weight=1; penwidth=0.3; color = 3]
 }
