@@ -14,22 +14,22 @@ strict digraph TopBottleneck2 {
 
 	graph   [label="Top Rank #2 Java Artifact Bottleneck\n/axon-eventsourcing-5.1.1.jar\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: Betweenness centrality\nthick outline: > 90% percentile of Betweenness centrality\n\n"];
 	central [label="🔒 bottleneck #2\naxon-eventsourcing-5.1.1"];
-	"axon-server-connector-5.1.1_21694"  [label = "axon-server-connector-5.1.1\n(2.0)"; penwidth = 2; ]; "axon-server-connector-5.1.1_21694" -> central [label=86; weight=86; penwidth=0.6];
-	"axon-test-5.1.1_38431"  [label = "axon-test-5.1.1\n(0.0)"; penwidth = 2; ]; "axon-test-5.1.1_38431" -> central [label=6; weight=6; penwidth=0.4];
-	"axon-messaging-5.1.1_1"  [label = "axon-messaging-5.1.1\n(2.0)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "axon-messaging-5.1.1_1" [label=416; weight=416; penwidth=1.5; color = 5];
-	"axon-common-5.1.1_27502"  [label = "axon-common-5.1.1\n(0.0)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "axon-common-5.1.1_27502" [label=216; weight=216; penwidth=1.0; color = 5];
-	"axon-modelling-5.1.1_41043"  [label = "axon-modelling-5.1.1\n(3.0)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "axon-modelling-5.1.1_41043" [label=62; weight=62; penwidth=0.6; color = 5];
-	"axon-conversion-5.1.1_25891"  [label = "axon-conversion-5.1.1\n(5.0)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "axon-conversion-5.1.1_25891" [label=8; weight=8; penwidth=0.4; color = 5];
-	"axon-messaging-5.1.1_1" -> "axon-common-5.1.1_27502" [label=980; weight=980; penwidth=0.3; color = 3]
-	"axon-modelling-5.1.1_41043" -> "axon-messaging-5.1.1_1" [label=312; weight=312; penwidth=0.3; color = 3]
-	"axon-server-connector-5.1.1_21694" -> "axon-messaging-5.1.1_1" [label=278; weight=278; penwidth=0.3; color = 3]
-	"axon-test-5.1.1_38431" -> "axon-messaging-5.1.1_1" [label=200; weight=200; penwidth=0.3; color = 3]
-	"axon-modelling-5.1.1_41043" -> "axon-common-5.1.1_27502" [label=186; weight=186; penwidth=0.3; color = 3]
-	"axon-server-connector-5.1.1_21694" -> "axon-common-5.1.1_27502" [label=128; weight=128; penwidth=0.3; color = 3]
-	"axon-messaging-5.1.1_1" -> "axon-conversion-5.1.1_25891" [label=88; weight=88; penwidth=0.3; color = 3]
-	"axon-test-5.1.1_38431" -> "axon-common-5.1.1_27502" [label=84; weight=84; penwidth=0.3; color = 3]
-	"axon-conversion-5.1.1_25891" -> "axon-common-5.1.1_27502" [label=34; weight=34; penwidth=0.3; color = 3]
-	"axon-server-connector-5.1.1_21694" -> "axon-conversion-5.1.1_25891" [label=10; weight=10; penwidth=0.3; color = 3]
-	"axon-modelling-5.1.1_41043" -> "axon-conversion-5.1.1_25891" [label=2; weight=2; penwidth=0.3; color = 3]
-	"axon-server-connector-5.1.1_21694" -> "axon-modelling-5.1.1_41043" [label=2; weight=2; penwidth=0.3; color = 3]
+	"axon-server-connector-5.1.1_18099"  [label = "axon-server-connector-5.1.1\n(2.0)"; penwidth = 2; ]; "axon-server-connector-5.1.1_18099" -> central [label=86; weight=86; penwidth=0.6];
+	"axon-test-5.1.1_12849"  [label = "axon-test-5.1.1\n(0.0)"; penwidth = 2; ]; "axon-test-5.1.1_12849" -> central [label=6; weight=6; penwidth=0.4];
+	"axon-messaging-5.1.1_25955"  [label = "axon-messaging-5.1.1\n(2.0)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "axon-messaging-5.1.1_25955" [label=416; weight=416; penwidth=1.5; color = 5];
+	"axon-common-5.1.1_7331"  [label = "axon-common-5.1.1\n(0.0)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "axon-common-5.1.1_7331" [label=216; weight=216; penwidth=1.0; color = 5];
+	"axon-modelling-5.1.1_22311"  [label = "axon-modelling-5.1.1\n(3.0)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "axon-modelling-5.1.1_22311" [label=62; weight=62; penwidth=0.6; color = 5];
+	"axon-conversion-5.1.1_15474"  [label = "axon-conversion-5.1.1\n(5.0)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "axon-conversion-5.1.1_15474" [label=8; weight=8; penwidth=0.4; color = 5];
+	"axon-messaging-5.1.1_25955" -> "axon-common-5.1.1_7331" [label=980; weight=980; penwidth=0.3; color = 3]
+	"axon-modelling-5.1.1_22311" -> "axon-messaging-5.1.1_25955" [label=312; weight=312; penwidth=0.3; color = 3]
+	"axon-server-connector-5.1.1_18099" -> "axon-messaging-5.1.1_25955" [label=278; weight=278; penwidth=0.3; color = 3]
+	"axon-test-5.1.1_12849" -> "axon-messaging-5.1.1_25955" [label=200; weight=200; penwidth=0.3; color = 3]
+	"axon-modelling-5.1.1_22311" -> "axon-common-5.1.1_7331" [label=186; weight=186; penwidth=0.3; color = 3]
+	"axon-server-connector-5.1.1_18099" -> "axon-common-5.1.1_7331" [label=128; weight=128; penwidth=0.3; color = 3]
+	"axon-messaging-5.1.1_25955" -> "axon-conversion-5.1.1_15474" [label=88; weight=88; penwidth=0.3; color = 3]
+	"axon-test-5.1.1_12849" -> "axon-common-5.1.1_7331" [label=84; weight=84; penwidth=0.3; color = 3]
+	"axon-conversion-5.1.1_15474" -> "axon-common-5.1.1_7331" [label=34; weight=34; penwidth=0.3; color = 3]
+	"axon-server-connector-5.1.1_18099" -> "axon-conversion-5.1.1_15474" [label=10; weight=10; penwidth=0.3; color = 3]
+	"axon-modelling-5.1.1_22311" -> "axon-conversion-5.1.1_15474" [label=2; weight=2; penwidth=0.3; color = 3]
+	"axon-server-connector-5.1.1_18099" -> "axon-modelling-5.1.1_22311" [label=2; weight=2; penwidth=0.3; color = 3]
 }

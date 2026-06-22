@@ -14,15 +14,15 @@ strict digraph TopBridge1 {
 
 	graph   [label="Top Rank #1 Java Package Bridge\norg.axonframework.common.function\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
 	central [label="🌉 bridge #1\nfunction"];
-	"jdbc_51" [label = "jdbc"; ]; "jdbc_51" -> central [label=1; weight=1; penwidth=0.4];
-	"tx_27529" [label = "tx"; ]; "tx_27529" -> central [label=1; weight=1; penwidth=0.4];
-	"jdbc_27528" [label = "jdbc"; ]; "jdbc_27528" -> central [label=0; weight=0; penwidth=0.4];
-	"jpa_27531" [label = "jpa"; ]; "jpa_27531" -> central [label=0; weight=0; penwidth=0.4];
-	"jpa_52" [label = "jpa"; ]; "jpa_52" -> central [label=0; weight=0; penwidth=0.4];
-	"jpa_52" -> "jpa_27531" [label=6; weight=6; penwidth=0.3; color = 3]
-	"jdbc_51" -> "jdbc_27528" [label=2; weight=2; penwidth=0.3; color = 3]
-	"jdbc_51" -> "tx_27529" [label=1; weight=1; penwidth=0.3; color = 3]
-	"jpa_52" -> "tx_27529" [label=1; weight=1; penwidth=0.3; color = 3]
-	"jdbc_27528" -> "tx_27529" [label=0; weight=0; penwidth=0.3; color = 3]
-	"jpa_27531" -> "tx_27529" [label=0; weight=0; penwidth=0.3; color = 3]
+	"jdbc_26005" [label = "jdbc"; ]; "jdbc_26005" -> central [label=1; weight=1; penwidth=0.4];
+	"tx_7358" [label = "tx"; ]; "tx_7358" -> central [label=1; weight=1; penwidth=0.4];
+	"jdbc_7357" [label = "jdbc"; ]; "jdbc_7357" -> central [label=0; weight=0; penwidth=0.4];
+	"jpa_26006" [label = "jpa"; ]; "jpa_26006" -> central [label=0; weight=0; penwidth=0.4];
+	"jpa_7360" [label = "jpa"; ]; "jpa_7360" -> central [label=0; weight=0; penwidth=0.4];
+	"jpa_26006" -> "jpa_7360" [label=6; weight=6; penwidth=0.3; color = 3]
+	"jdbc_26005" -> "jdbc_7357" [label=2; weight=2; penwidth=0.3; color = 3]
+	"jdbc_26005" -> "tx_7358" [label=1; weight=1; penwidth=0.3; color = 3]
+	"jpa_26006" -> "tx_7358" [label=1; weight=1; penwidth=0.3; color = 3]
+	"jdbc_7357" -> "tx_7358" [label=0; weight=0; penwidth=0.3; color = 3]
+	"jpa_7360" -> "tx_7358" [label=0; weight=0; penwidth=0.3; color = 3]
 }

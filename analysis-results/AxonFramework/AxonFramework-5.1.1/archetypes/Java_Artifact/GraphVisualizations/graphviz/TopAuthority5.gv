@@ -12,12 +12,16 @@ strict digraph TopAuthority5 {
     central [fontsize = 16;];
     central [color = 7; fillcolor = 5; penwidth = 3;];
 
-	graph   [label="Top Rank #5 Java Artifact Authority\n/axon-test-5.1.1.jar\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: Page Rank (normalized)\nlarge circle: > 80% percentile of Page Rank\nthick outline: > 80% percentile of Page Rank to Article Rank Difference\n\n"];
-	central [label="🏛️ authority #5\naxon-test-5.1.1"];
-	"axon-messaging-5.1.1_1"  [label = "axon-messaging-5.1.1\n(51.11%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "axon-messaging-5.1.1_1" [label=200; weight=200; penwidth=0.9; color = 5];
-	"axon-common-5.1.1_27502"  [shape = "circle"; height=2; label = "axon-common-5.1.1\n(100.0%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "axon-common-5.1.1_27502" [label=84; weight=84; penwidth=0.6; color = 5];
-	"axon-eventsourcing-5.1.1_33023"  [label = "axon-eventsourcing-5.1.1\n(2.53%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "axon-eventsourcing-5.1.1_33023" [label=6; weight=6; penwidth=0.4; color = 5];
-	"axon-messaging-5.1.1_1" -> "axon-common-5.1.1_27502" [label=980; weight=980; penwidth=0.3; color = 3]
-	"axon-eventsourcing-5.1.1_33023" -> "axon-messaging-5.1.1_1" [label=416; weight=416; penwidth=0.3; color = 3]
-	"axon-eventsourcing-5.1.1_33023" -> "axon-common-5.1.1_27502" [label=216; weight=216; penwidth=0.3; color = 3]
+	graph   [label="Top Rank #5 Java Artifact Authority\n/axoniq-spring-boot-autoconfigure-5.1.1.jar\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: Page Rank (normalized)\nlarge circle: > 80% percentile of Page Rank\nthick outline: > 80% percentile of Page Rank to Article Rank Difference\n\n"];
+	central [label="🏛️ authority #5\naxoniq-spring-boot-autoconfigure-5.1.1"];
+	"axon-common-5.1.1_7331"  [shape = "circle"; height=2; label = "axon-common-5.1.1\n(100.0%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "axon-common-5.1.1_7331" [label=26; weight=26; penwidth=0.5; color = 5];
+	"axon-server-connector-5.1.1_18099"  [label = "axon-server-connector-5.1.1\n(3.02%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "axon-server-connector-5.1.1_18099" [label=16; weight=16; penwidth=0.4; color = 5];
+	"axon-messaging-5.1.1_25955"  [label = "axon-messaging-5.1.1\n(51.11%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "axon-messaging-5.1.1_25955" [label=12; weight=12; penwidth=0.4; color = 5];
+	"axon-conversion-5.1.1_15474"  [label = "axon-conversion-5.1.1\n(5.7%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "axon-conversion-5.1.1_15474" [label=4; weight=4; penwidth=0.4; color = 5];
+	"axon-messaging-5.1.1_25955" -> "axon-common-5.1.1_7331" [label=980; weight=980; penwidth=0.3; color = 3]
+	"axon-server-connector-5.1.1_18099" -> "axon-messaging-5.1.1_25955" [label=278; weight=278; penwidth=0.3; color = 3]
+	"axon-server-connector-5.1.1_18099" -> "axon-common-5.1.1_7331" [label=128; weight=128; penwidth=0.3; color = 3]
+	"axon-messaging-5.1.1_25955" -> "axon-conversion-5.1.1_15474" [label=88; weight=88; penwidth=0.3; color = 3]
+	"axon-conversion-5.1.1_15474" -> "axon-common-5.1.1_7331" [label=34; weight=34; penwidth=0.3; color = 3]
+	"axon-server-connector-5.1.1_18099" -> "axon-conversion-5.1.1_15474" [label=10; weight=10; penwidth=0.3; color = 3]
 }

@@ -12,175 +12,24 @@ strict digraph TopOutlier2 {
     central [fontsize = 16;];
     central [color = 7; fillcolor = 5; penwidth = 3;];
 
-	graph   [label="Top Rank #2 Java Type Outlier\norg.axonframework.common.configuration.ComponentRegistry\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: cluster probability\nlarge circle: < 25% percentile of cluster probability\nthick outline: > 80% percentile of distance to cluster center\n\n"];
-	central [label="🧩 outlier #2\nComponentRegistry"];
-	"MessagingConfigurer_8466"  [label = "MessagingConfigurer\n(100.0%)"; penwidth = 2; ]; "MessagingConfigurer_8466" -> central [label=39; weight=39; penwidth=1.0];
-	"MessagingConfigurationDefaults_16669"  [shape = "circle"; height=1.8; label = "MessagingConfigurationDefaults\n(0.0%)"; penwidth = 2; ]; "MessagingConfigurationDefaults_16669" -> central [label=24; weight=24; penwidth=0.8];
-	"AxonServerConfigurationEnhancer_24913"  [label = "AxonServerConfigurationEnhancer\n(37.42%)"; penwidth = 2; ]; "AxonServerConfigurationEnhancer_24913" -> central [label=13; weight=13; penwidth=0.6];
-	"DefaultComponentRegistry_30838"  [label = "DefaultComponentRegistry\n(90.26%)"; penwidth = 2; ]; "DefaultComponentRegistry_30838" -> central [label=12; weight=12; penwidth=0.6];
-	"PooledStreamingEventProcessorModule_5191"  [shape = "circle"; height=1.8; label = "PooledStreamingEventProcessorModule\n(0.0%)"; penwidth = 2; ]; "PooledStreamingEventProcessorModule_5191" -> central [label=11; weight=11; penwidth=0.6];
-	"AxonServerAutoConfiguration_45765"  [label = "AxonServerAutoConfiguration\n(87.67%)"; penwidth = 2; ]; "AxonServerAutoConfiguration_45765" -> central [label=9; weight=9; penwidth=0.5];
-	"EventSourcingConfigurer_37262"  [label = "EventSourcingConfigurer\n(81.99%)"; penwidth = 2; ]; "EventSourcingConfigurer_37262" -> central [label=9; weight=9; penwidth=0.5];
-	"SimpleEventSourcedEntityModule_36795"  [label = "SimpleEventSourcedEntityModule\n(97.38%)"; penwidth = 2; ]; "SimpleEventSourcedEntityModule_36795" -> central [label=8; weight=8; penwidth=0.5];
-	"SimpleStateBasedEntityModule_43914"  [label = "SimpleStateBasedEntityModule\n(98.48%)"; penwidth = 5; ]; "SimpleStateBasedEntityModule_43914" -> central [label=8; weight=8; penwidth=0.5];
-	"EventSourcingConfigurationDefaults_37233"  [shape = "circle"; height=1.8; label = "EventSourcingConfigurationDefaults\n(0.0%)"; penwidth = 2; ]; "EventSourcingConfigurationDefaults_37233" -> central [label=7; weight=7; penwidth=0.5];
-	"PooledStreamingEventProcessorsConfigurer_5035"  [shape = "circle"; height=1.8; label = "PooledStreamingEventProcessorsConfigurer\n(0.0%)"; penwidth = 2; ]; "PooledStreamingEventProcessorsConfigurer_5035" -> central [label=7; weight=7; penwidth=0.5];
-	"SubscribingEventProcessorModule_2365"  [label = "SubscribingEventProcessorModule\n(100.0%)"; penwidth = 5; ]; "SubscribingEventProcessorModule_2365" -> central [label=7; weight=7; penwidth=0.5];
-	"AxonTestFixture_40605"  [shape = "circle"; height=1.8; label = "AxonTestFixture\n(0.0%)"; penwidth = 2; ]; "AxonTestFixture_40605" -> central [label=6; weight=6; penwidth=0.5];
-	"BaseModule_32293"  [label = "BaseModule\n(48.13%)"; penwidth = 5; ]; "BaseModule_32293" -> central [label=6; weight=6; penwidth=0.5];
-	"MessagesRecordingConfigurationEnhancer_39876"  [shape = "circle"; height=1.8; label = "MessagesRecordingConfigurationEnhancer\n(0.0%)"; penwidth = 2; ]; "MessagesRecordingConfigurationEnhancer_39876" -> central [label=6; weight=6; penwidth=0.5];
-	"MetricsConfigurationEnhancer_45029"  [shape = "circle"; height=1.8; label = "MetricsConfigurationEnhancer\n(0.0%)"; penwidth = 2; ]; "MetricsConfigurationEnhancer_45029" -> central [label=6; weight=6; penwidth=0.5];
-	"EventBusConfigurationDefaults_9418"  [shape = "circle"; height=1.8; label = "EventBusConfigurationDefaults\n(0.0%)"; penwidth = 2; ]; "EventBusConfigurationDefaults_9418" -> central [label=5; weight=5; penwidth=0.5];
-	"ModellingConfigurer_44120"  [label = "ModellingConfigurer\n(81.99%)"; penwidth = 2; ]; "ModellingConfigurer_44120" -> central [label=5; weight=5; penwidth=0.5];
-	"ParameterResolverFactoryUtils_1312"  [label = "ParameterResolverFactoryUtils\n(100.0%)"; penwidth = 2; ]; "ParameterResolverFactoryUtils_1312" -> central [label=5; weight=5; penwidth=0.5];
-	"SubscribingEventProcessorsConfigurer_4161"  [label = "SubscribingEventProcessorsConfigurer\n(100.0%)"; penwidth = 2; ]; "SubscribingEventProcessorsConfigurer_4161" -> central [label=5; weight=5; penwidth=0.5];
-	"UpdateCheckerConfigurationEnhancer_21226"  [label = "UpdateCheckerConfigurationEnhancer\n(59.51%)"; penwidth = 5; ]; "UpdateCheckerConfigurationEnhancer_21226" -> central [label=5; weight=5; penwidth=0.5];
-	"EventProcessingConfigurer_4072"  [label = "EventProcessingConfigurer\n(64.4%)"; penwidth = 5; ]; "EventProcessingConfigurer_4072" -> central [label=3; weight=3; penwidth=0.4];
-	"AnnotatedEventSourcedEntityModule_37237"  [label = "AnnotatedEventSourcedEntityModule\n(58.5%)"; penwidth = 2; ]; "AnnotatedEventSourcedEntityModule_37237" -> central [label=2; weight=2; penwidth=0.4];
-	"AxonServerAutoConfiguration$1_45769"  [label = "AxonServerAutoConfiguration$\n1\n(26.41%)"; penwidth = 2; ]; "AxonServerAutoConfiguration$1_45769" -> central [label=2; weight=2; penwidth=0.4];
-	"HierarchicalParameterResolverFactoryConfigurationEnhancer_13904"  [label = "HierarchicalParameterResolverFactoryConfigurationEnhancer\n(100.0%)"; penwidth = 2; ]; "HierarchicalParameterResolverFactoryConfigurationEnhancer_13904" -> central [label=2; weight=2; penwidth=0.4];
-	"HierarchicalStateManagerConfigurationEnhancer_42994"  [label = "HierarchicalStateManagerConfigurationEnhancer\n(39.17%)"; penwidth = 5; ]; "HierarchicalStateManagerConfigurationEnhancer_42994" -> central [label=2; weight=2; penwidth=0.4];
-	"MicrometerMetricsAutoConfiguration$1_45437"  [shape = "circle"; height=1.8; label = "MicrometerMetricsAutoConfiguration$\n1\n(0.0%)"; penwidth = 2; ]; "MicrometerMetricsAutoConfiguration$1_45437" -> central [label=2; weight=2; penwidth=0.4];
-	"ModellingConfigurationDefaults_44122"  [label = "ModellingConfigurationDefaults\n(98.48%)"; penwidth = 5; ]; "ModellingConfigurationDefaults_44122" -> central [label=2; weight=2; penwidth=0.4];
-	"PostgresqlAutoConfiguration$1_45766"  [shape = "circle"; height=1.8; label = "PostgresqlAutoConfiguration$\n1\n(0.0%)"; penwidth = 2; ]; "PostgresqlAutoConfiguration$1_45766" -> central [label=2; weight=2; penwidth=0.4];
-	"SimpleCommandHandlingModule_1639"  [shape = "circle"; height=1.8; label = "SimpleCommandHandlingModule\n(0.0%)"; penwidth = 2; ]; "SimpleCommandHandlingModule_1639" -> central [label=2; weight=2; penwidth=0.4];
-	"SimpleQueryHandlingModule_19860"  [shape = "circle"; height=1.8; label = "SimpleQueryHandlingModule\n(0.0%)"; penwidth = 2; ]; "SimpleQueryHandlingModule_19860" -> central [label=2; weight=2; penwidth=0.4];
-	"ApplicationConfigurer_31497"  [label = "ApplicationConfigurer\n(100.0%)"; penwidth = 2; ]; "ApplicationConfigurer_31497" -> central [label=1; weight=1; penwidth=0.4];
-	"ClasspathParameterResolverConfigurationEnhancer_13905"  [label = "ClasspathParameterResolverConfigurationEnhancer\n(100.0%)"; penwidth = 2; ]; "ClasspathParameterResolverConfigurationEnhancer_13905" -> central [label=1; weight=1; penwidth=0.4];
-	"CommandDispatcherParameterResolverFactoryConfigurationEnhancer_1634"  [label = "CommandDispatcherParameterResolverFactoryConfigurationEnhancer\n(100.0%)"; penwidth = 2; ]; "CommandDispatcherParameterResolverFactoryConfigurationEnhancer_1634" -> central [label=1; weight=1; penwidth=0.4];
-	"ConfigurationEnhancer_31277"  [shape = "circle"; height=1.8; label = "ConfigurationEnhancer\n(0.0%)"; penwidth = 2; ]; "ConfigurationEnhancer_31277" -> central [label=1; weight=1; penwidth=0.4];
-	"ConfigurationParameterResolverConfigurationEnhancer_16663"  [label = "ConfigurationParameterResolverConfigurationEnhancer\n(96.27%)"; penwidth = 2; ]; "ConfigurationParameterResolverConfigurationEnhancer_16663" -> central [label=1; weight=1; penwidth=0.4];
-	"DefaultAxonApplication_32222"  [label = "DefaultAxonApplication\n(100.0%)"; penwidth = 2; ]; "DefaultAxonApplication_32222" -> central [label=1; weight=1; penwidth=0.4];
-	"EventAppenderParameterResolverFactoryConfigurationEnhancer_8272"  [label = "EventAppenderParameterResolverFactoryConfigurationEnhancer\n(96.79%)"; penwidth = 2; ]; "EventAppenderParameterResolverFactoryConfigurationEnhancer_8272" -> central [label=1; weight=1; penwidth=0.4];
-	"InjectEntityParameterResolverFactoryConfigurationEnhancer_43670"  [label = "InjectEntityParameterResolverFactoryConfigurationEnhancer\n(73.69%)"; penwidth = 5; ]; "InjectEntityParameterResolverFactoryConfigurationEnhancer_43670" -> central [label=1; weight=1; penwidth=0.4];
-	"ComponentDefinition_30844"  [shape = "circle"; height=1.8; label = "ComponentDefinition\n(11.29%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "ComponentDefinition_30844" [label=15; weight=15; penwidth=0.6; color = 5];
-	"ComponentBuilder_31328"  [label = "ComponentBuilder\n(100.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "ComponentBuilder_31328" [label=6; weight=6; penwidth=0.5; color = 5];
-	"SearchScope_30839"  [shape = "circle"; height=1.8; label = "SearchScope\n(0.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "SearchScope_30839" [label=6; weight=6; penwidth=0.5; color = 5];
-	"ComponentDefinition$IncompleteComponentDefinition_31273"  [shape = "circle"; height=1.8; label = "ComponentDefinition$\nIncompleteComponentDefinition\n(11.29%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "ComponentDefinition$IncompleteComponentDefinition_31273" [label=5; weight=5; penwidth=0.5; color = 5];
-	"DecoratorDefinition_30918"  [label = "DecoratorDefinition\n(14.38%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "DecoratorDefinition_30918" [label=5; weight=5; penwidth=0.5; color = 5];
-	"DecoratorDefinition$PartialDecoratorDefinition_30830"  [label = "DecoratorDefinition$\nPartialDecoratorDefinition\n(15.47%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "DecoratorDefinition$PartialDecoratorDefinition_30830" [label=3; weight=3; penwidth=0.4; color = 5];
-	"ComponentDecorator_30873"  [label = "ComponentDecorator\n(14.38%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "ComponentDecorator_30873" [label=2; weight=2; penwidth=0.4; color = 5];
-	"ConfigurationEnhancer_31277"  [shape = "circle"; height=1.8; label = "ConfigurationEnhancer\n(0.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "ConfigurationEnhancer_31277" [label=2; weight=2; penwidth=0.4; color = 5];
-	"ComponentFactory_31279"  [label = "ComponentFactory\n(90.26%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "ComponentFactory_31279" [label=1; weight=1; penwidth=0.4; color = 5];
-	"DescribableComponent_29216"  [label = "DescribableComponent\n(92.49%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "DescribableComponent_29216" [label=1; weight=1; penwidth=0.4; color = 5];
-	"Module_31278"  [label = "Module\n(58.21%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "Module_31278" [label=1; weight=1; penwidth=0.4; color = 5];
-	"OverridePolicy_31276"  [label = "OverridePolicy\n(88.72%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "OverridePolicy_31276" [label=1; weight=1; penwidth=0.4; color = 5];
-	"MessagingConfigurer_8466" -> "ComponentBuilder_31328" [label=50; weight=50; penwidth=0.3; color = 3]
-	"MessagingConfigurer_8466" -> "ApplicationConfigurer_31497" [label=28; weight=28; penwidth=0.3; color = 3]
-	"DefaultComponentRegistry_30838" -> "ConfigurationEnhancer_31277" [label=27; weight=27; penwidth=0.3; color = 3]
-	"AxonServerConfigurationEnhancer_24913" -> "ComponentDefinition_30844" [label=21; weight=21; penwidth=0.3; color = 3]
-	"EventSourcingConfigurer_37262" -> "ModellingConfigurer_44120" [label=18; weight=18; penwidth=0.3; color = 3]
-	"SimpleEventSourcedEntityModule_36795" -> "ComponentDefinition_30844" [label=16; weight=16; penwidth=0.3; color = 3]
-	"SimpleStateBasedEntityModule_43914" -> "ComponentBuilder_31328" [label=16; weight=16; penwidth=0.3; color = 3]
-	"ModellingConfigurer_44120" -> "MessagingConfigurer_8466" [label=13; weight=13; penwidth=0.3; color = 3]
-	"SimpleEventSourcedEntityModule_36795" -> "ComponentBuilder_31328" [label=13; weight=13; penwidth=0.3; color = 3]
-	"PooledStreamingEventProcessorsConfigurer_5035" -> "PooledStreamingEventProcessorModule_5191" [label=10; weight=10; penwidth=0.3; color = 3]
-	"SimpleCommandHandlingModule_1639" -> "ComponentBuilder_31328" [label=10; weight=10; penwidth=0.3; color = 3]
-	"SimpleQueryHandlingModule_19860" -> "ComponentBuilder_31328" [label=10; weight=10; penwidth=0.3; color = 3]
-	"SubscribingEventProcessorsConfigurer_4161" -> "SubscribingEventProcessorModule_2365" [label=10; weight=10; penwidth=0.3; color = 3]
-	"DefaultComponentRegistry_30838" -> "Module_31278" [label=9; weight=9; penwidth=0.3; color = 3]
-	"PooledStreamingEventProcessorModule_5191" -> "ComponentDefinition_30844" [label=9; weight=9; penwidth=0.3; color = 3]
-	"SimpleEventSourcedEntityModule_36795" -> "ComponentDefinition$IncompleteComponentDefinition_31273" [label=8; weight=8; penwidth=0.3; color = 3]
-	"AxonServerConfigurationEnhancer_24913" -> "ComponentDefinition$IncompleteComponentDefinition_31273" [label=7; weight=7; penwidth=0.3; color = 3]
-	"BaseModule_32293" -> "DefaultComponentRegistry_30838" [label=7; weight=7; penwidth=0.3; color = 3]
-	"DefaultComponentRegistry_30838" -> "OverridePolicy_31276" [label=7; weight=7; penwidth=0.3; color = 3]
-	"PooledStreamingEventProcessorModule_5191" -> "ComponentBuilder_31328" [label=7; weight=7; penwidth=0.3; color = 3]
-	"SubscribingEventProcessorModule_2365" -> "ComponentBuilder_31328" [label=7; weight=7; penwidth=0.3; color = 3]
-	"AxonServerConfigurationEnhancer_24913" -> "SearchScope_30839" [label=6; weight=6; penwidth=0.3; color = 3]
-	"AxonTestFixture_40605" -> "ApplicationConfigurer_31497" [label=6; weight=6; penwidth=0.3; color = 3]
-	"EventSourcingConfigurer_37262" -> "ComponentBuilder_31328" [label=6; weight=6; penwidth=0.3; color = 3]
-	"SimpleStateBasedEntityModule_43914" -> "ComponentDefinition_30844" [label=6; weight=6; penwidth=0.3; color = 3]
-	"UpdateCheckerConfigurationEnhancer_21226" -> "ComponentDefinition_30844" [label=6; weight=6; penwidth=0.3; color = 3]
-	"ComponentDefinition_30844" -> "ComponentDefinition$IncompleteComponentDefinition_31273" [label=5; weight=5; penwidth=0.3; color = 3]
-	"DefaultComponentRegistry_30838" -> "ComponentFactory_31279" [label=5; weight=5; penwidth=0.3; color = 3]
-	"EventProcessingConfigurer_4072" -> "PooledStreamingEventProcessorsConfigurer_5035" [label=5; weight=5; penwidth=0.3; color = 3]
-	"EventProcessingConfigurer_4072" -> "SubscribingEventProcessorsConfigurer_4161" [label=5; weight=5; penwidth=0.3; color = 3]
-	"MessagingConfigurer_8466" -> "EventProcessingConfigurer_4072" [label=5; weight=5; penwidth=0.3; color = 3]
-	"PooledStreamingEventProcessorModule_5191" -> "ComponentDefinition$IncompleteComponentDefinition_31273" [label=5; weight=5; penwidth=0.3; color = 3]
-	"SimpleStateBasedEntityModule_43914" -> "ComponentDefinition$IncompleteComponentDefinition_31273" [label=5; weight=5; penwidth=0.3; color = 3]
-	"SubscribingEventProcessorModule_2365" -> "ComponentDefinition_30844" [label=5; weight=5; penwidth=0.3; color = 3]
-	"UpdateCheckerConfigurationEnhancer_21226" -> "ComponentDefinition$IncompleteComponentDefinition_31273" [label=5; weight=5; penwidth=0.3; color = 3]
-	"AxonServerAutoConfiguration_45765" -> "ConfigurationEnhancer_31277" [label=4; weight=4; penwidth=0.3; color = 3]
-	"DefaultAxonApplication_32222" -> "DefaultComponentRegistry_30838" [label=4; weight=4; penwidth=0.3; color = 3]
-	"EventProcessingConfigurer_4072" -> "MessagingConfigurer_8466" [label=4; weight=4; penwidth=0.3; color = 3]
-	"AnnotatedEventSourcedEntityModule_37237" -> "ComponentBuilder_31328" [label=3; weight=3; penwidth=0.3; color = 3]
-	"AxonServerAutoConfiguration_45765" -> "DecoratorDefinition_30918" [label=3; weight=3; penwidth=0.3; color = 3]
-	"AxonServerAutoConfiguration_45765" -> "AxonServerAutoConfiguration$1_45769" [label=3; weight=3; penwidth=0.3; color = 3]
-	"AxonServerConfigurationEnhancer_24913" -> "DecoratorDefinition_30918" [label=3; weight=3; penwidth=0.3; color = 3]
-	"AxonTestFixture_40605" -> "MessagesRecordingConfigurationEnhancer_39876" [label=3; weight=3; penwidth=0.3; color = 3]
-	"DecoratorDefinition_30918" -> "DecoratorDefinition$PartialDecoratorDefinition_30830" [label=3; weight=3; penwidth=0.3; color = 3]
-	"DefaultAxonApplication_32222" -> "ApplicationConfigurer_31497" [label=3; weight=3; penwidth=0.3; color = 3]
-	"DefaultComponentRegistry_30838" -> "SearchScope_30839" [label=3; weight=3; penwidth=0.3; color = 3]
-	"EventSourcingConfigurer_37262" -> "ApplicationConfigurer_31497" [label=3; weight=3; penwidth=0.3; color = 3]
-	"ModellingConfigurer_44120" -> "ApplicationConfigurer_31497" [label=3; weight=3; penwidth=0.3; color = 3]
-	"PooledStreamingEventProcessorsConfigurer_5035" -> "EventProcessingConfigurer_4072" [label=3; weight=3; penwidth=0.3; color = 3]
-	"SimpleCommandHandlingModule_1639" -> "ComponentDefinition_30844" [label=3; weight=3; penwidth=0.3; color = 3]
-	"SimpleEventSourcedEntityModule_36795" -> "BaseModule_32293" [label=3; weight=3; penwidth=0.3; color = 3]
-	"SimpleQueryHandlingModule_19860" -> "ComponentDefinition_30844" [label=3; weight=3; penwidth=0.3; color = 3]
-	"SimpleStateBasedEntityModule_43914" -> "BaseModule_32293" [label=3; weight=3; penwidth=0.3; color = 3]
-	"SubscribingEventProcessorModule_2365" -> "ComponentDefinition$IncompleteComponentDefinition_31273" [label=3; weight=3; penwidth=0.3; color = 3]
-	"SubscribingEventProcessorsConfigurer_4161" -> "EventProcessingConfigurer_4072" [label=3; weight=3; penwidth=0.3; color = 3]
-	"AnnotatedEventSourcedEntityModule_37237" -> "BaseModule_32293" [label=2; weight=2; penwidth=0.3; color = 3]
-	"AxonServerAutoConfiguration_45765" -> "DecoratorDefinition$PartialDecoratorDefinition_30830" [label=2; weight=2; penwidth=0.3; color = 3]
-	"AxonServerAutoConfiguration$1_45769" -> "AxonServerAutoConfiguration_45765" [label=2; weight=2; penwidth=0.3; color = 3]
-	"AxonServerConfigurationEnhancer_24913" -> "ComponentDecorator_30873" [label=2; weight=2; penwidth=0.3; color = 3]
-	"AxonServerConfigurationEnhancer_24913" -> "DecoratorDefinition$PartialDecoratorDefinition_30830" [label=2; weight=2; penwidth=0.3; color = 3]
-	"ComponentDefinition$IncompleteComponentDefinition_31273" -> "ComponentDefinition_30844" [label=2; weight=2; penwidth=0.3; color = 3]
-	"DefaultComponentRegistry_30838" -> "ComponentDefinition_30844" [label=2; weight=2; penwidth=0.3; color = 3]
-	"DefaultComponentRegistry_30838" -> "ComponentDefinition$IncompleteComponentDefinition_31273" [label=2; weight=2; penwidth=0.3; color = 3]
-	"EventSourcingConfigurer_37262" -> "EventSourcingConfigurationDefaults_37233" [label=2; weight=2; penwidth=0.3; color = 3]
-	"MessagingConfigurer_8466" -> "DefaultAxonApplication_32222" [label=2; weight=2; penwidth=0.3; color = 3]
-	"MessagingConfigurer_8466" -> "MessagingConfigurationDefaults_16669" [label=2; weight=2; penwidth=0.3; color = 3]
-	"MessagingConfigurer_8466" -> "EventBusConfigurationDefaults_9418" [label=2; weight=2; penwidth=0.3; color = 3]
-	"ModellingConfigurationDefaults_44122" -> "ComponentDefinition$IncompleteComponentDefinition_31273" [label=2; weight=2; penwidth=0.3; color = 3]
-	"ModellingConfigurer_44120" -> "ModellingConfigurationDefaults_44122" [label=2; weight=2; penwidth=0.3; color = 3]
-	"PooledStreamingEventProcessorModule_5191" -> "BaseModule_32293" [label=2; weight=2; penwidth=0.3; color = 3]
-	"SimpleCommandHandlingModule_1639" -> "BaseModule_32293" [label=2; weight=2; penwidth=0.3; color = 3]
-	"SimpleCommandHandlingModule_1639" -> "ComponentDefinition$IncompleteComponentDefinition_31273" [label=2; weight=2; penwidth=0.3; color = 3]
-	"SimpleQueryHandlingModule_19860" -> "ComponentDefinition$IncompleteComponentDefinition_31273" [label=2; weight=2; penwidth=0.3; color = 3]
-	"SimpleQueryHandlingModule_19860" -> "BaseModule_32293" [label=2; weight=2; penwidth=0.3; color = 3]
-	"SubscribingEventProcessorModule_2365" -> "BaseModule_32293" [label=2; weight=2; penwidth=0.3; color = 3]
-	"AxonServerAutoConfiguration$1_45769" -> "ConfigurationEnhancer_31277" [label=1; weight=1; penwidth=0.3; color = 3]
-	"AxonServerAutoConfiguration$1_45769" -> "AxonServerConfigurationEnhancer_24913" [label=1; weight=1; penwidth=0.3; color = 3]
-	"AxonServerConfigurationEnhancer_24913" -> "ConfigurationEnhancer_31277" [label=1; weight=1; penwidth=0.3; color = 3]
-	"BaseModule_32293" -> "Module_31278" [label=1; weight=1; penwidth=0.3; color = 3]
-	"ClasspathParameterResolverConfigurationEnhancer_13905" -> "ConfigurationEnhancer_31277" [label=1; weight=1; penwidth=0.3; color = 3]
-	"ClasspathParameterResolverConfigurationEnhancer_13905" -> "ParameterResolverFactoryUtils_1312" [label=1; weight=1; penwidth=0.3; color = 3]
-	"CommandDispatcherParameterResolverFactoryConfigurationEnhancer_1634" -> "ConfigurationEnhancer_31277" [label=1; weight=1; penwidth=0.3; color = 3]
-	"CommandDispatcherParameterResolverFactoryConfigurationEnhancer_1634" -> "ParameterResolverFactoryUtils_1312" [label=1; weight=1; penwidth=0.3; color = 3]
-	"ComponentDefinition$IncompleteComponentDefinition_31273" -> "ComponentBuilder_31328" [label=1; weight=1; penwidth=0.3; color = 3]
-	"ComponentFactory_31279" -> "DescribableComponent_29216" [label=1; weight=1; penwidth=0.3; color = 3]
-	"ConfigurationParameterResolverConfigurationEnhancer_16663" -> "ConfigurationEnhancer_31277" [label=1; weight=1; penwidth=0.3; color = 3]
-	"ConfigurationParameterResolverConfigurationEnhancer_16663" -> "ParameterResolverFactoryUtils_1312" [label=1; weight=1; penwidth=0.3; color = 3]
-	"DecoratorDefinition$PartialDecoratorDefinition_30830" -> "ComponentDecorator_30873" [label=1; weight=1; penwidth=0.3; color = 3]
-	"DecoratorDefinition$PartialDecoratorDefinition_30830" -> "DecoratorDefinition_30918" [label=1; weight=1; penwidth=0.3; color = 3]
-	"DefaultComponentRegistry_30838" -> "DecoratorDefinition_30918" [label=1; weight=1; penwidth=0.3; color = 3]
-	"EventAppenderParameterResolverFactoryConfigurationEnhancer_8272" -> "ConfigurationEnhancer_31277" [label=1; weight=1; penwidth=0.3; color = 3]
-	"EventAppenderParameterResolverFactoryConfigurationEnhancer_8272" -> "ParameterResolverFactoryUtils_1312" [label=1; weight=1; penwidth=0.3; color = 3]
-	"EventBusConfigurationDefaults_9418" -> "ConfigurationEnhancer_31277" [label=1; weight=1; penwidth=0.3; color = 3]
-	"EventSourcingConfigurationDefaults_37233" -> "EventBusConfigurationDefaults_9418" [label=1; weight=1; penwidth=0.3; color = 3]
-	"EventSourcingConfigurationDefaults_37233" -> "ConfigurationEnhancer_31277" [label=1; weight=1; penwidth=0.3; color = 3]
-	"EventSourcingConfigurer_37262" -> "MessagingConfigurer_8466" [label=1; weight=1; penwidth=0.3; color = 3]
-	"HierarchicalParameterResolverFactoryConfigurationEnhancer_13904" -> "ConfigurationEnhancer_31277" [label=1; weight=1; penwidth=0.3; color = 3]
-	"HierarchicalStateManagerConfigurationEnhancer_42994" -> "ConfigurationEnhancer_31277" [label=1; weight=1; penwidth=0.3; color = 3]
-	"InjectEntityParameterResolverFactoryConfigurationEnhancer_43670" -> "ConfigurationEnhancer_31277" [label=1; weight=1; penwidth=0.3; color = 3]
-	"InjectEntityParameterResolverFactoryConfigurationEnhancer_43670" -> "ParameterResolverFactoryUtils_1312" [label=1; weight=1; penwidth=0.3; color = 3]
-	"MessagesRecordingConfigurationEnhancer_39876" -> "ConfigurationEnhancer_31277" [label=1; weight=1; penwidth=0.3; color = 3]
-	"MessagingConfigurationDefaults_16669" -> "ConfigurationEnhancer_31277" [label=1; weight=1; penwidth=0.3; color = 3]
-	"MessagingConfigurationDefaults_16669" -> "ParameterResolverFactoryUtils_1312" [label=1; weight=1; penwidth=0.3; color = 3]
-	"MessagingConfigurer_8466" -> "ParameterResolverFactoryUtils_1312" [label=1; weight=1; penwidth=0.3; color = 3]
-	"MetricsConfigurationEnhancer_45029" -> "ConfigurationEnhancer_31277" [label=1; weight=1; penwidth=0.3; color = 3]
-	"MicrometerMetricsAutoConfiguration$1_45437" -> "ConfigurationEnhancer_31277" [label=1; weight=1; penwidth=0.3; color = 3]
-	"MicrometerMetricsAutoConfiguration$1_45437" -> "MetricsConfigurationEnhancer_45029" [label=1; weight=1; penwidth=0.3; color = 3]
-	"ModellingConfigurationDefaults_44122" -> "ConfigurationEnhancer_31277" [label=1; weight=1; penwidth=0.3; color = 3]
-	"ModellingConfigurationDefaults_44122" -> "ComponentDefinition_30844" [label=1; weight=1; penwidth=0.3; color = 3]
-	"ParameterResolverFactoryUtils_1312" -> "SearchScope_30839" [label=1; weight=1; penwidth=0.3; color = 3]
-	"PooledStreamingEventProcessorModule_5191" -> "Module_31278" [label=1; weight=1; penwidth=0.3; color = 3]
-	"PostgresqlAutoConfiguration$1_45766" -> "ConfigurationEnhancer_31277" [label=1; weight=1; penwidth=0.3; color = 3]
-	"SimpleCommandHandlingModule_1639" -> "Module_31278" [label=1; weight=1; penwidth=0.3; color = 3]
-	"SimpleEventSourcedEntityModule_36795" -> "Module_31278" [label=1; weight=1; penwidth=0.3; color = 3]
-	"SimpleQueryHandlingModule_19860" -> "Module_31278" [label=1; weight=1; penwidth=0.3; color = 3]
-	"SimpleStateBasedEntityModule_43914" -> "Module_31278" [label=1; weight=1; penwidth=0.3; color = 3]
-	"SubscribingEventProcessorModule_2365" -> "Module_31278" [label=1; weight=1; penwidth=0.3; color = 3]
-	"UpdateCheckerConfigurationEnhancer_21226" -> "ConfigurationEnhancer_31277" [label=1; weight=1; penwidth=0.3; color = 3]
+	graph   [label="Top Rank #2 Java Type Outlier\norg.axonframework.common.configuration.ComponentDecorator\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: cluster probability\nlarge circle: < 25% percentile of cluster probability\nthick outline: > 80% percentile of distance to cluster center\n\n"];
+	central [label="🧩 outlier #2\nComponentDecorator"];
+	"DecoratedComponent_11101"  [label = "DecoratedComponent\n(100.0%)"; penwidth = 2; ]; "DecoratedComponent_11101" -> central [label=3; weight=3; penwidth=0.4];
+	"DefaultDecoratorDefinition_10759"  [label = "DefaultDecoratorDefinition\n(100.0%)"; penwidth = 2; ]; "DefaultDecoratorDefinition_10759" -> central [label=3; weight=3; penwidth=0.4];
+	"AxonServerConfigurationEnhancer_21344"  [label = "AxonServerConfigurationEnhancer\n(34.9%)"; penwidth = 2; ]; "AxonServerConfigurationEnhancer_21344" -> central [label=2; weight=2; penwidth=0.4];
+	"ComponentRegistry_11102"  [shape = "circle"; height=1.8; label = "ComponentRegistry\n(0.0%)"; penwidth = 2; ]; "ComponentRegistry_11102" -> central [label=2; weight=2; penwidth=0.4];
+	"DecoratorDefinition$1_10747"  [label = "DecoratorDefinition$\n1\n(83.98%)"; penwidth = 5; ]; "DecoratorDefinition$1_10747" -> central [label=1; weight=1; penwidth=0.4];
+	"DecoratorDefinition$2_11100"  [label = "DecoratorDefinition$\n2\n(83.98%)"; penwidth = 5; ]; "DecoratorDefinition$2_11100" -> central [label=1; weight=1; penwidth=0.4];
+	"DecoratorDefinition$PartialDecoratorDefinition_10674"  [shape = "circle"; height=1.8; label = "DecoratorDefinition$\nPartialDecoratorDefinition\n(13.98%)"; penwidth = 2; ]; "DecoratorDefinition$PartialDecoratorDefinition_10674" -> central [label=1; weight=1; penwidth=0.4];
+	"Configuration_10671"  [label = "Configuration\n(68.26%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "Configuration_10671" [label=1; weight=1; penwidth=0.4; color = 5];
+	"AxonServerConfigurationEnhancer_21344" -> "Configuration_10671" [label=33; weight=33; penwidth=0.3; color = 3]
+	"AxonServerConfigurationEnhancer_21344" -> "ComponentRegistry_11102" [label=13; weight=13; penwidth=0.3; color = 3]
+	"ComponentRegistry_11102" -> "DecoratorDefinition$PartialDecoratorDefinition_10674" [label=3; weight=3; penwidth=0.3; color = 3]
+	"DecoratedComponent_11101" -> "Configuration_10671" [label=3; weight=3; penwidth=0.3; color = 3]
+	"AxonServerConfigurationEnhancer_21344" -> "DecoratorDefinition$PartialDecoratorDefinition_10674" [label=2; weight=2; penwidth=0.3; color = 3]
+	"DecoratorDefinition$1_10747" -> "DecoratorDefinition$PartialDecoratorDefinition_10674" [label=2; weight=2; penwidth=0.3; color = 3]
+	"DecoratorDefinition$1_10747" -> "DefaultDecoratorDefinition_10759" [label=2; weight=2; penwidth=0.3; color = 3]
+	"DecoratorDefinition$2_11100" -> "DecoratorDefinition$PartialDecoratorDefinition_10674" [label=2; weight=2; penwidth=0.3; color = 3]
+	"DecoratorDefinition$2_11100" -> "DefaultDecoratorDefinition_10759" [label=2; weight=2; penwidth=0.3; color = 3]
+	"DefaultDecoratorDefinition_10759" -> "DecoratedComponent_11101" [label=2; weight=2; penwidth=0.3; color = 3]
 }

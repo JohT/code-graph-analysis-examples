@@ -3,4 +3,4 @@
 2,1,-0.0002554598750656611,2,"axon-tracing-opentelemetry-5.1.1,axon-metrics-micrometer-5.1.1","/axon-tracing-opentelemetry-5.1.1.jar,/axon-metrics-micrometer-5.1.1.jar",""
 3,1,-0.0019120839705430845,1,"axon-test-5.1.1","/axon-test-5.1.1.jar",""
 4,1,-7.648335882172338e-05,1,"axoniq-spring-boot-autoconfigure-5.1.1","/axoniq-spring-boot-autoconfigure-5.1.1.jar",""
-5,0.0829523187459177,-0.0058673012815008505,6,"axon-messaging-5.1.1,axon-server-connector-5.1.1,axon-conversion-5.1.1,axon-common-5.1.1,axon-eventsourcing-5.1.1,axon-modelling-5.1.1","/axon-messaging-5.1.1.jar,/axon-server-connector-5.1.1.jar,/axon-conversion-5.1.1.jar,/axon-common-5.1.1.jar,/axon-eventsourcing-5.1.1.jar,/axon-modelling-5.1.1.jar",""
+5,0.0829523187459177,-0.0058673012815008505,6,"axon-eventsourcing-5.1.1,axon-common-5.1.1,axon-conversion-5.1.1,axon-server-connector-5.1.1,axon-modelling-5.1.1,axon-messaging-5.1.1","/axon-eventsourcing-5.1.1.jar,/axon-common-5.1.1.jar,/axon-conversion-5.1.1.jar,/axon-server-connector-5.1.1.jar,/axon-modelling-5.1.1.jar,/axon-messaging-5.1.1.jar",""

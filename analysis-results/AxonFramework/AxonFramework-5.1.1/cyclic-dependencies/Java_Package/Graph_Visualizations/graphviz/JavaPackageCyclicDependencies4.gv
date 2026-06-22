@@ -13,8 +13,8 @@ strict digraph cycle {
         "Command";
         "AnnotatedCommandHandlingComponent";
         "CommandHandler";
-        "CommandDispatcherParameterResolverFactory$1";
         "MethodCommandHandlerDefinition$MethodCommandHandlingMember";
+        "CommandDispatcherParameterResolverFactory$1";
         "MethodCommandHandlerDefinition";
         "CommandDispatcherParameterResolverFactoryConfigurationEnhancer";
         "CommandHandlingMember";
@@ -43,13 +43,13 @@ strict digraph cycle {
     "AnnotatedCommandHandlingComponent" -> "MessageHandlingMember" [color="#6699CC"; penwidth="0.5"];
     "AnnotatedCommandHandlingComponent" -> "AnnotatedHandlerInspector" [color="#6699CC"; penwidth="0.5"];
     "Command" -> "Message" [color="#6699CC"; penwidth="0.5"];
-    "CommandHandler" -> "MessageHandler" [color="#6699CC"; penwidth="0.5"];
     "MethodCommandHandlerDefinition$MethodCommandHandlingMember" -> "MessageHandlingMember" [color="#6699CC"; penwidth="0.5"];
+    "CommandHandler" -> "MessageHandler" [color="#6699CC"; penwidth="0.5"];
     "AnnotatedCommandHandlingComponent" -> "HandlerDefinition" [color="#6699CC"; penwidth="0.5"];
-    "CommandDispatcherParameterResolverFactory$1" -> "ParameterResolver" [color="#6699CC"; penwidth="0.5"];
+    "MethodCommandHandlerDefinition$MethodCommandHandlingMember" -> "WrappedMessageHandlingMember" [color="#6699CC"; penwidth="0.5"];
     "CommandDispatcherParameterResolverFactory" -> "ParameterResolverFactory" [color="#6699CC"; penwidth="0.5"];
+    "CommandDispatcherParameterResolverFactory$1" -> "ParameterResolver" [color="#6699CC"; penwidth="0.5"];
     "CommandHandlingMember" -> "MessageHandlingMember" [color="#6699CC"; penwidth="0.5"];
     "AnnotatedCommandHandlingComponent" -> "ParameterResolverFactory" [color="#6699CC"; penwidth="0.5"];
-    "MethodCommandHandlerDefinition$MethodCommandHandlingMember" -> "WrappedMessageHandlingMember" [color="#6699CC"; penwidth="0.5"];
     "HandlerTypeResolver" -> "CommandHandler" [color="red"; penwidth="2.5"; style="dashed";];
 }

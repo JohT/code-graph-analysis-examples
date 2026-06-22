@@ -1,6 +1,6 @@
 ---
 title: "External Dependencies Report"
-generated: "2026-06-15"
+generated: "2026-06-22"
 model_version: "v4.0.1"
 dataset: "AxonFramework-5.1.1"
 authors: ["JohT/code-graph-analysis-pipeline"]
@@ -34,30 +34,30 @@ External Java packages by internal caller type count. High `numberOfExternalCall
 | externalPackageName | numberOfExternalCallerPackages | numberOfExternalCallerTypes | numberOfExternalTypeCalls | numberOfExternalTypeCallsWeighted | allPackages | allTypes | tenExternalTypeNames |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | org.jspecify.annotations | 124 | 124 | 124 | 124 | 124 | 1313 | ["NullMarked"] |
-| org.slf4j | 37 | 74 | 135 | 476 | 124 | 1313 | ["LoggerFactory","Logger"] |
-| io.axoniq.axonserver.grpc | 8 | 15 | 34 | 220 | 124 | 1313 | ["ErrorMessage","SerializedObject$Builder","MetaDataValue","MetaDataValue$Builder","SerializedObject","MetaDataValue$DataCase","ErrorMessage$Builder","ProcessingInstruction$Builder","ProcessingKey"] |
-| io.axoniq.axonserver.connector | 7 | 17 | 24 | 129 | 124 | 1313 | ["AxonServerConnection","AxonServerConnectionFactory","AxonServerConnectionFactory$Builder","ResultStream","Registration","ReplyChannel","FlowControl"] |
+| org.slf4j | 37 | 74 | 135 | 476 | 124 | 1313 | ["Logger","LoggerFactory"] |
+| io.axoniq.axonserver.grpc | 8 | 15 | 34 | 220 | 124 | 1313 | ["ErrorMessage","MetaDataValue$Builder","MetaDataValue","SerializedObject$Builder","SerializedObject","MetaDataValue$DataCase","ErrorMessage$Builder","ProcessingInstruction$Builder","ProcessingKey"] |
+| io.axoniq.axonserver.connector | 7 | 17 | 24 | 129 | 124 | 1313 | ["AxonServerConnection","AxonServerConnectionFactory$Builder","AxonServerConnectionFactory","ResultStream","Registration","FlowControl","ReplyChannel"] |
 | com.google.protobuf | 6 | 9 | 9 | 39 | 124 | 1313 | ["ByteString","MessageLite"] |
-| io.grpc | 6 | 8 | 26 | 60 | 124 | 1313 | ["StatusRuntimeException","Status$Code","Status","ClientInterceptor","ManagedChannelBuilder","Metadata","Metadata$Key","Metadata$AsciiMarshaller","ClientCall$Listener"] |
-| jakarta.persistence | 5 | 16 | 40 | 181 | 124 | 1313 | ["Basic","Id","Column","Entity","Lob","IdClass","LockModeType","Query","EntityManager"] |
-| reactor.core.publisher | 5 | 8 | 13 | 45 | 124 | 1313 | ["Mono","FluxSink","Flux","MonoSink"] |
+| io.grpc | 6 | 8 | 26 | 60 | 124 | 1313 | ["Status","Status$Code","StatusRuntimeException","ClientInterceptor","ManagedChannelBuilder","Metadata$Key","Metadata","Metadata$AsciiMarshaller","ClientCall$Listener"] |
+| jakarta.persistence | 5 | 16 | 40 | 181 | 124 | 1313 | ["EntityExistsException","Column","SequenceGenerator","GenerationType","Lob","Table","Basic","Id","GeneratedValue"] |
+| reactor.core.publisher | 5 | 8 | 13 | 45 | 124 | 1313 | ["Mono","Flux","FluxSink","MonoSink"] |
 | io.axoniq.axonserver.connector.control | 4 | 5 | 5 | 6 | 124 | 1313 | ["ControlChannel","ProcessorInstructionHandler"] |
 | org.springframework.boot.context.properties | 4 | 9 | 9 | 9 | 124 | 1313 | ["ConfigurationProperties","EnableConfigurationProperties"] |
-| com.fasterxml.jackson.annotation | 3 | 6 | 19 | 33 | 124 | 1313 | ["JsonIgnore","JsonProperty","JsonTypeInfo$Id","JsonTypeInfo","JsonGetter","JsonCreator"] |
-| io.axoniq.axonserver.grpc.control | 3 | 6 | 13 | 86 | 124 | 1313 | ["NodeInfo$Builder","NodeInfo","EventProcessorInfo","EventProcessorInfo$Builder","EventProcessorInfo$SegmentStatus","EventProcessorInfo$SegmentStatus$Builder","TopologyChange","QuerySubscription","CommandSubscription"] |
-| io.axoniq.framework.messaging.commandhandling.distributed | 3 | 4 | 7 | 26 | 124 | 1313 | ["CommandBusConnector","CommandBusConnector$ResultCallback","CommandBusConnector$Handler","PayloadConvertingCommandBusConnector","DistributedCommandBusConfiguration"] |
-| io.axoniq.framework.messaging.queryhandling.distributed | 3 | 5 | 8 | 28 | 124 | 1313 | ["QueryBusConnector$UpdateCallback","QueryBusConnector$Handler","QueryBusConnector","PayloadConvertingQueryBusConnector","DistributedQueryBusConfiguration"] |
-| io.micrometer.core.instrument | 3 | 13 | 37 | 141 | 124 | 1313 | ["Clock","Timer","MeterRegistry","Tag","Tags","Counter","Gauge$Builder","Gauge","Timer$Builder"] |
-| org.hamcrest | 3 | 22 | 44 | 196 | 124 | 1313 | ["Description","Matcher","TypeSafeMatcher","BaseMatcher","StringDescription","CoreMatchers"] |
+| com.fasterxml.jackson.annotation | 3 | 6 | 19 | 33 | 124 | 1313 | ["JsonCreator","JsonProperty","JsonTypeInfo$Id","JsonTypeInfo","JsonGetter","JsonIgnore"] |
+| io.axoniq.axonserver.grpc.control | 3 | 6 | 13 | 86 | 124 | 1313 | ["NodeInfo","NodeInfo$Builder","EventProcessorInfo$Builder","EventProcessorInfo","EventProcessorInfo$SegmentStatus$Builder","EventProcessorInfo$SegmentStatus","UpdateType","TopologyChange","QuerySubscription"] |
+| io.axoniq.framework.messaging.commandhandling.distributed | 3 | 4 | 7 | 26 | 124 | 1313 | ["DistributedCommandBusConfiguration","CommandBusConnector$ResultCallback","CommandBusConnector$Handler","CommandBusConnector","PayloadConvertingCommandBusConnector"] |
+| io.axoniq.framework.messaging.queryhandling.distributed | 3 | 5 | 8 | 28 | 124 | 1313 | ["DistributedQueryBusConfiguration","QueryBusConnector$UpdateCallback","QueryBusConnector$Handler","QueryBusConnector","PayloadConvertingQueryBusConnector"] |
+| io.micrometer.core.instrument | 3 | 13 | 37 | 141 | 124 | 1313 | ["Tags","MeterRegistry","Counter","Tag","Clock","Timer","Gauge$Builder","Gauge","Timer$Builder"] |
+| org.hamcrest | 3 | 22 | 44 | 196 | 124 | 1313 | ["Matcher","Description","BaseMatcher","TypeSafeMatcher","StringDescription","CoreMatchers"] |
 | org.reactivestreams | 3 | 6 | 7 | 26 | 124 | 1313 | ["Subscriber","Subscription","Publisher"] |
-| org.springframework.boot.actuate.health | 3 | 4 | 7 | 24 | 124 | 1313 | ["Status","SimpleStatusAggregator","Health$Builder","AbstractHealthIndicator"] |
-| com.fasterxml.jackson.databind | 2 | 6 | 11 | 56 | 124 | 1313 | ["JsonNode","ObjectMapper","JavaType","SerializationFeature"] |
-| com.fasterxml.jackson.databind.node | 2 | 3 | 5 | 28 | 124 | 1313 | ["ObjectNode","JsonNodeType","ArrayNode"] |
-| io.axoniq.axonserver.connector.event | 2 | 6 | 9 | 40 | 124 | 1313 | ["SnapshotChannel","DcbEventChannel$AppendEventsTransaction","DcbEventChannel","AggregateEventStream","EventChannel","AppendEventsTransaction","EventStream"] |
-| io.axoniq.axonserver.grpc.event.dcb | 2 | 7 | 36 | 132 | 124 | 1313 | ["GetLastSnapshotRequest","AddSnapshotResponse","Snapshot","Snapshot$Builder","GetLastSnapshotRequest$Builder","AddSnapshotRequest","AddSnapshotRequest$Builder","GetLastSnapshotResponse","Event$Builder"] |
+| org.springframework.boot.actuate.health | 3 | 4 | 7 | 24 | 124 | 1313 | ["Status","Health$Builder","AbstractHealthIndicator","SimpleStatusAggregator"] |
+| com.fasterxml.jackson.databind | 2 | 6 | 11 | 56 | 124 | 1313 | ["JsonNode","SerializationFeature","ObjectMapper","JavaType"] |
+| com.fasterxml.jackson.databind.node | 2 | 3 | 5 | 28 | 124 | 1313 | ["ArrayNode","ObjectNode","JsonNodeType"] |
+| io.axoniq.axonserver.connector.event | 2 | 6 | 9 | 40 | 124 | 1313 | ["SnapshotChannel","DcbEventChannel$AppendEventsTransaction","EventStream","AggregateEventStream","AppendEventsTransaction","EventChannel","DcbEventChannel"] |
+| io.axoniq.axonserver.grpc.event.dcb | 2 | 7 | 36 | 132 | 124 | 1313 | ["AddSnapshotRequest$Builder","GetLastSnapshotResponse","Snapshot$Builder","Snapshot","GetLastSnapshotRequest","AddSnapshotRequest","GetLastSnapshotRequest$Builder","AddSnapshotResponse","AppendEventsResponse"] |
 | io.micrometer.core.instrument.simple | 2 | 2 | 2 | 4 | 124 | 1313 | ["SimpleMeterRegistry"] |
-| org.springframework.boot.autoconfigure | 2 | 7 | 10 | 10 | 124 | 1313 | ["AutoConfiguration","AutoConfigureAfter","AutoConfigureBefore"] |
-| org.springframework.boot.autoconfigure.condition | 2 | 7 | 18 | 29 | 124 | 1313 | ["ConditionalOnClass","ConditionalOnMissingBean","ConditionalOnProperty","ConditionalOnBean"] |
+| org.springframework.boot.autoconfigure | 2 | 7 | 10 | 10 | 124 | 1313 | ["AutoConfiguration","AutoConfigureBefore","AutoConfigureAfter"] |
+| org.springframework.boot.autoconfigure.condition | 2 | 7 | 18 | 29 | 124 | 1313 | ["ConditionalOnProperty","ConditionalOnClass","ConditionalOnMissingBean","ConditionalOnBean"] |
 | org.springframework.context.annotation | 2 | 7 | 7 | 15 | 124 | 1313 | ["Bean"] |
 | IdTypeParameterResolver | 1 | 1 | 1 | 1 | 124 | 1313 | ["IdTypeParameterResolver"] |
 | ScannedEntityCreator | 1 | 1 | 1 | 4 | 124 | 1313 | ["ScannedEntityCreator"] |
@@ -66,32 +66,32 @@ External Java packages by internal caller type count. High `numberOfExternalCall
 | io.axoniq.axonserver.connector.admin | 1 | 1 | 1 | 3 | 124 | 1313 | ["AdminChannel"] |
 | io.axoniq.axonserver.connector.command | 1 | 1 | 1 | 3 | 124 | 1313 | ["CommandChannel"] |
 | io.axoniq.axonserver.connector.impl | 1 | 1 | 1 | 3 | 124 | 1313 | ["ServerAddress"] |
-| io.axoniq.axonserver.connector.query | 1 | 3 | 6 | 19 | 124 | 1313 | ["QueryHandler$UpdateHandler","QueryHandler","QueryDefinition","SubscriptionQueryResult","QueryChannel"] |
-| io.axoniq.axonserver.grpc.command | 1 | 3 | 8 | 64 | 124 | 1313 | ["Command$Builder","CommandResponse","CommandResponse$Builder","Command"] |
-| io.axoniq.axonserver.grpc.event | 1 | 3 | 5 | 31 | 124 | 1313 | ["Event$Builder","Event","EventWithToken","ConfirmationWithConsistencyMarker"] |
-| io.axoniq.axonserver.grpc.query | 1 | 5 | 14 | 98 | 124 | 1313 | ["SubscriptionQuery","QueryResponse","QueryRequest","QueryResponse$Builder","QueryRequest$Builder","QueryUpdate","QueryUpdate$Builder"] |
+| io.axoniq.axonserver.connector.query | 1 | 3 | 6 | 19 | 124 | 1313 | ["QueryHandler$UpdateHandler","QueryHandler","QueryChannel","QueryDefinition","SubscriptionQueryResult"] |
+| io.axoniq.axonserver.grpc.command | 1 | 3 | 8 | 64 | 124 | 1313 | ["CommandResponse","CommandResponse$Builder","Command$Builder","Command"] |
+| io.axoniq.axonserver.grpc.event | 1 | 3 | 5 | 31 | 124 | 1313 | ["Event","EventWithToken","Event$Builder","ConfirmationWithConsistencyMarker"] |
+| io.axoniq.axonserver.grpc.query | 1 | 5 | 14 | 98 | 124 | 1313 | ["QueryUpdate","QueryResponse","SubscriptionQuery","QueryRequest","QueryResponse$Builder","QueryRequest$Builder","QueryUpdate$Builder"] |
 | io.axoniq.framework.messaging.deadletter | 1 | 2 | 2 | 2 | 124 | 1313 | ["SequencedDeadLetterQueue"] |
 | io.axoniq.framework.messaging.eventhandling.deadletter | 1 | 3 | 4 | 15 | 124 | 1313 | ["SequencedDeadLetterQueueFactory","DeadLetterQueueConfiguration"] |
 | io.axoniq.framework.messaging.eventhandling.deadletter.jdbc | 1 | 1 | 3 | 12 | 124 | 1313 | ["DeadLetterSchema","JdbcSequencedDeadLetterQueue$Builder","JdbcSequencedDeadLetterQueue"] |
 | io.axoniq.framework.messaging.eventhandling.deadletter.jpa | 1 | 1 | 2 | 7 | 124 | 1313 | ["JpaSequencedDeadLetterQueue$Builder","JpaSequencedDeadLetterQueue"] |
-| io.axoniq.framework.postgresql | 1 | 2 | 2 | 2 | 124 | 1313 | ["PostgresqlEventStorageEngine","PostgresqlConfigurationEnhancer"] |
+| io.axoniq.framework.postgresql | 1 | 2 | 2 | 2 | 124 | 1313 | ["PostgresqlConfigurationEnhancer","PostgresqlEventStorageEngine"] |
 | io.axoniq.framework.testcontainer | 1 | 2 | 2 | 6 | 124 | 1313 | ["AxonServerContainer"] |
 | io.grpc.netty.shaded.io.grpc.netty | 1 | 1 | 1 | 1 | 124 | 1313 | ["GrpcSslContexts"] |
 | io.grpc.netty.shaded.io.netty.handler.ssl | 1 | 1 | 1 | 2 | 124 | 1313 | ["SslContextBuilder"] |
-| io.grpc.stub | 1 | 1 | 2 | 5 | 124 | 1313 | ["ClientResponseObserver","ClientCallStreamObserver"] |
+| io.grpc.stub | 1 | 1 | 2 | 5 | 124 | 1313 | ["ClientCallStreamObserver","ClientResponseObserver"] |
 | io.opentelemetry.api | 1 | 1 | 1 | 2 | 124 | 1313 | ["GlobalOpenTelemetry"] |
-| io.opentelemetry.api.trace | 1 | 3 | 9 | 47 | 124 | 1313 | ["Tracer","SpanBuilder","SpanContext","Span","StatusCode","SpanKind"] |
+| io.opentelemetry.api.trace | 1 | 3 | 9 | 47 | 124 | 1313 | ["SpanBuilder","SpanContext","Span","StatusCode","Tracer","SpanKind"] |
 | io.opentelemetry.context | 1 | 2 | 2 | 7 | 124 | 1313 | ["Scope","Context"] |
-| io.opentelemetry.context.propagation | 1 | 4 | 9 | 16 | 124 | 1313 | ["ContextPropagators","TextMapPropagator","TextMapSetter","TextMapGetter"] |
+| io.opentelemetry.context.propagation | 1 | 4 | 9 | 16 | 124 | 1313 | ["TextMapSetter","TextMapGetter","ContextPropagators","TextMapPropagator"] |
 | jakarta.validation | 1 | 2 | 5 | 16 | 124 | 1313 | ["Validator","ConstraintViolation","ValidatorFactory","Validation"] |
 | javax.cache | 1 | 1 | 1 | 13 | 124 | 1313 | ["Cache"] |
 | javax.cache.configuration | 1 | 2 | 3 | 9 | 124 | 1313 | ["CacheEntryListenerConfiguration","Factory"] |
-| javax.cache.event | 1 | 1 | 8 | 26 | 124 | 1313 | ["CacheEntryListener","CacheEntryEventFilter","CacheEntryListenerException","CacheEntryCreatedListener","CacheEntryUpdatedListener","CacheEntryRemovedListener","CacheEntryEvent","CacheEntryExpiredListener"] |
-| org.apache.avro | 1 | 4 | 16 | 54 | 124 | 1313 | ["SchemaCompatibility$SchemaCompatibilityType","SchemaCompatibility$SchemaCompatibilityResult","SchemaNormalization","InvalidAvroMagicException","AvroRuntimeException","SchemaCompatibility","InvalidNumberEncodingException","SchemaCompatibility$SchemaPairCompatibility","Schema"] |
+| javax.cache.event | 1 | 1 | 8 | 26 | 124 | 1313 | ["CacheEntryListener","CacheEntryCreatedListener","CacheEntryEventFilter","CacheEntryRemovedListener","CacheEntryExpiredListener","CacheEntryUpdatedListener","CacheEntryEvent","CacheEntryListenerException"] |
+| org.apache.avro | 1 | 4 | 16 | 54 | 124 | 1313 | ["SchemaCompatibility$SchemaIncompatibilityType","SchemaCompatibility$SchemaCompatibilityType","AvroRuntimeException","SchemaCompatibility$SchemaCompatibilityResult","SchemaNormalization","Schema","SchemaCompatibility$SchemaPairCompatibility","InvalidAvroMagicException","SchemaCompatibility$Incompatibility"] |
 | org.apache.avro.generic | 1 | 6 | 7 | 29 | 124 | 1313 | ["GenericData","GenericRecord","GenericDatumReader"] |
 | org.apache.avro.io | 1 | 1 | 1 | 3 | 124 | 1313 | ["DecoderFactory"] |
 | org.apache.avro.message | 1 | 6 | 8 | 28 | 124 | 1313 | ["BadHeaderException","SchemaStore","BinaryMessageEncoder","BinaryMessageDecoder"] |
-| org.apache.avro.specific | 1 | 2 | 4 | 14 | 124 | 1313 | ["SpecificRecordBase","SpecificData"] |
+| org.apache.avro.specific | 1 | 2 | 4 | 14 | 124 | 1313 | ["SpecificData","SpecificRecordBase"] |
 | org.apache.commons.lang3.tuple | 1 | 1 | 1 | 4 | 124 | 1313 | ["Pair"] |
 | org.awaitility | 1 | 1 | 1 | 1 | 124 | 1313 | ["Awaitility"] |
 | org.awaitility.core | 1 | 1 | 1 | 2 | 124 | 1313 | ["ConditionFactory"] |
@@ -99,14 +99,14 @@ External Java packages by internal caller type count. High `numberOfExternalCall
 | org.axonframework.extension.springboot.util | 1 | 1 | 1 | 1 | 124 | 1313 | ["RegisterDefaultEntities"] |
 | org.ehcache.config | 1 | 1 | 1 | 2 | 124 | 1313 | ["CacheRuntimeConfiguration"] |
 | org.ehcache.core | 1 | 1 | 1 | 13 | 124 | 1313 | ["Ehcache"] |
-| org.ehcache.event | 1 | 3 | 8 | 30 | 124 | 1313 | ["CacheEvent","EventType","CacheEventListener","EventOrdering","EventFiring"] |
-| org.junit.jupiter.api.extension | 1 | 1 | 8 | 28 | 124 | 1313 | ["ParameterContext","ParameterResolutionException","ExtensionContext$Namespace","BeforeEachCallback","ParameterResolver","AfterEachCallback","ExtensionContext","ExtensionContext$Store"] |
+| org.ehcache.event | 1 | 3 | 8 | 30 | 124 | 1313 | ["CacheEventListener","EventType","CacheEvent","EventFiring","EventOrdering"] |
+| org.junit.jupiter.api.extension | 1 | 1 | 8 | 28 | 124 | 1313 | ["ExtensionContext$Store","ParameterContext","ExtensionContext$Namespace","ExtensionContext","AfterEachCallback","ParameterResolutionException","BeforeEachCallback","ParameterResolver"] |
 | org.springframework.beans | 1 | 1 | 1 | 1 | 124 | 1313 | ["BeansException"] |
 | org.springframework.boot.autoconfigure.service.connection | 1 | 3 | 3 | 3 | 124 | 1313 | ["ConnectionDetails"] |
-| org.springframework.boot.docker.compose.core | 1 | 1 | 2 | 5 | 124 | 1313 | ["RunningService","ConnectionPorts"] |
+| org.springframework.boot.docker.compose.core | 1 | 1 | 2 | 5 | 124 | 1313 | ["ConnectionPorts","RunningService"] |
 | org.springframework.boot.docker.compose.service.connection | 1 | 1 | 2 | 5 | 124 | 1313 | ["DockerComposeConnectionSource","DockerComposeConnectionDetailsFactory"] |
-| org.springframework.boot.testcontainers.service.connection | 1 | 2 | 4 | 9 | 124 | 1313 | ["ContainerConnectionDetailsFactory","ContainerConnectionSource","ContainerConnectionDetailsFactory$ContainerConnectionDetails"] |
-| org.springframework.context | 1 | 1 | 2 | 4 | 124 | 1313 | ["ApplicationContext","ApplicationContextAware"] |
+| org.springframework.boot.testcontainers.service.connection | 1 | 2 | 4 | 9 | 124 | 1313 | ["ContainerConnectionSource","ContainerConnectionDetailsFactory$ContainerConnectionDetails","ContainerConnectionDetailsFactory"] |
+| org.springframework.context | 1 | 1 | 2 | 4 | 124 | 1313 | ["ApplicationContextAware","ApplicationContext"] |
 | org.springframework.lang | 1 | 1 | 1 | 1 | 124 | 1313 | ["Nullable"] |
 | reactor.core.scheduler | 1 | 1 | 2 | 2 | 124 | 1313 | ["Scheduler","Schedulers"] |
 | reactor.util.concurrent | 1 | 2 | 2 | 4 | 124 | 1313 | ["Queues"] |
@@ -122,30 +122,30 @@ Second-level package names (e.g. `javax.xml` from `javax.xml.stream`) reveal **f
 | externalSecondLevelPackageName | numberOfExternalCallerPackages | numberOfExternalCallerTypes | numberOfExternalTypeCalls | numberOfExternalTypeCallsWeighted | allPackages | allTypes | tenExternalTypeNames |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | org.jspecify | 124 | 124 | 124 | 124 | 124 | 1313 | ["NullMarked"] |
-| org.slf4j | 37 | 74 | 135 | 476 | 124 | 1313 | ["LoggerFactory","Logger"] |
-| io.axoniq | 12 | 50 | 187 | 932 | 124 | 1313 | ["GetLastSnapshotRequest","AddSnapshotResponse","Snapshot","Snapshot$Builder","GetLastSnapshotRequest$Builder","AddSnapshotRequest","SnapshotChannel","AddSnapshotRequest$Builder","AxonServerConnection"] |
-| org.springframework | 7 | 19 | 66 | 115 | 124 | 1313 | ["ConfigurationProperties","ConditionalOnClass","ConditionalOnMissingBean","AutoConfiguration","Bean","AutoConfigureAfter","AutoConfigureBefore","ConditionalOnProperty","EnableConfigurationProperties"] |
+| org.slf4j | 37 | 74 | 135 | 476 | 124 | 1313 | ["Logger","LoggerFactory"] |
+| io.axoniq | 12 | 50 | 187 | 932 | 124 | 1313 | ["SequencedDeadLetterQueueFactory","JpaSequencedDeadLetterQueue$Builder","SequencedDeadLetterQueue","JpaSequencedDeadLetterQueue","PostgresqlConfigurationEnhancer","PostgresqlEventStorageEngine","DeadLetterSchema","JdbcSequencedDeadLetterQueue$Builder","JdbcSequencedDeadLetterQueue"] |
+| org.springframework | 7 | 19 | 66 | 115 | 124 | 1313 | ["ConfigurationProperties","Status","Health$Builder","AbstractHealthIndicator","SimpleStatusAggregator","ConditionalOnProperty","ConditionalOnClass","ConditionalOnMissingBean","Bean"] |
 | com.google | 6 | 9 | 9 | 39 | 124 | 1313 | ["ByteString","MessageLite"] |
-| io.grpc | 6 | 9 | 30 | 68 | 124 | 1313 | ["StatusRuntimeException","Status$Code","Status","SslContextBuilder","ClientInterceptor","GrpcSslContexts","ManagedChannelBuilder","Metadata","Metadata$Key"] |
-| reactor.core | 6 | 9 | 15 | 47 | 124 | 1313 | ["Mono","FluxSink","Flux","MonoSink","Scheduler","Schedulers"] |
-| com.fasterxml | 5 | 12 | 36 | 118 | 124 | 1313 | ["JsonIgnore","JsonProperty","JsonTypeInfo$Id","JsonTypeInfo","JsonGetter","JsonCreator","JsonNode","ObjectNode","JsonNodeType"] |
-| jakarta.persistence | 5 | 16 | 40 | 181 | 124 | 1313 | ["Basic","Id","Column","Entity","Lob","IdClass","LockModeType","Query","EntityManager"] |
-| io.micrometer | 3 | 13 | 39 | 145 | 124 | 1313 | ["Clock","Timer","MeterRegistry","Tag","Tags","Counter","Gauge$Builder","Gauge","Timer$Builder"] |
-| org.hamcrest | 3 | 22 | 44 | 196 | 124 | 1313 | ["Description","Matcher","TypeSafeMatcher","BaseMatcher","StringDescription","CoreMatchers"] |
+| io.grpc | 6 | 9 | 30 | 68 | 124 | 1313 | ["Status","Status$Code","StatusRuntimeException","ClientInterceptor","ManagedChannelBuilder","GrpcSslContexts","SslContextBuilder","Metadata$Key","Metadata"] |
+| reactor.core | 6 | 9 | 15 | 47 | 124 | 1313 | ["Scheduler","Schedulers","Mono","Flux","FluxSink","MonoSink"] |
+| com.fasterxml | 5 | 12 | 36 | 118 | 124 | 1313 | ["ArrayNode","JsonNode","SerializationFeature","ObjectNode","ObjectMapper","JsonNodeType","JavaType","JsonProcessingException","JsonCreator"] |
+| jakarta.persistence | 5 | 16 | 40 | 181 | 124 | 1313 | ["EntityExistsException","Column","SequenceGenerator","GenerationType","Lob","Table","Basic","Id","GeneratedValue"] |
+| io.micrometer | 3 | 13 | 39 | 145 | 124 | 1313 | ["Tags","MeterRegistry","Counter","Tag","Clock","Timer","Gauge$Builder","Gauge","Timer$Builder"] |
+| org.hamcrest | 3 | 22 | 44 | 196 | 124 | 1313 | ["Matcher","Description","BaseMatcher","TypeSafeMatcher","StringDescription","CoreMatchers"] |
 | org.reactivestreams | 3 | 6 | 7 | 26 | 124 | 1313 | ["Subscriber","Subscription","Publisher"] |
-| org.axonframework | 2 | 2 | 2 | 2 | 124 | 1313 | ["AxonAutoConfiguration","RegisterDefaultEntities"] |
+| org.axonframework | 2 | 2 | 2 | 2 | 124 | 1313 | ["RegisterDefaultEntities","AxonAutoConfiguration"] |
 | IdTypeParameterResolver | 1 | 1 | 1 | 1 | 124 | 1313 | ["IdTypeParameterResolver"] |
 | ScannedEntityCreator | 1 | 1 | 1 | 4 | 124 | 1313 | ["ScannedEntityCreator"] |
 | WrappedEventCriteriaBuilderMethod | 1 | 1 | 1 | 1 | 124 | 1313 | ["WrappedEventCriteriaBuilderMethod"] |
-| io.opentelemetry | 1 | 5 | 21 | 72 | 124 | 1313 | ["ContextPropagators","TextMapPropagator","TextMapSetter","Tracer","GlobalOpenTelemetry","TextMapGetter","SpanBuilder","Scope","SpanContext"] |
+| io.opentelemetry | 1 | 5 | 21 | 72 | 124 | 1313 | ["TextMapSetter","Scope","SpanBuilder","SpanContext","Span","StatusCode","TextMapGetter","ContextPropagators","GlobalOpenTelemetry"] |
 | jakarta.validation | 1 | 2 | 5 | 16 | 124 | 1313 | ["Validator","ConstraintViolation","ValidatorFactory","Validation"] |
-| javax.cache | 1 | 2 | 12 | 48 | 124 | 1313 | ["CacheEntryListenerConfiguration","CacheEntryListener","Factory","CacheEntryEventFilter","CacheEntryListenerException","CacheEntryCreatedListener","CacheEntryUpdatedListener","CacheEntryRemovedListener","CacheEntryEvent"] |
-| org.apache | 1 | 9 | 37 | 132 | 124 | 1313 | ["SchemaCompatibility$SchemaCompatibilityType","SchemaCompatibility$SchemaCompatibilityResult","SchemaNormalization","InvalidAvroMagicException","SpecificRecordBase","AvroRuntimeException","SchemaCompatibility","InvalidNumberEncodingException","GenericData"] |
+| javax.cache | 1 | 2 | 12 | 48 | 124 | 1313 | ["CacheEntryListener","CacheEntryCreatedListener","CacheEntryEventFilter","CacheEntryRemovedListener","CacheEntryExpiredListener","CacheEntryUpdatedListener","CacheEntryEvent","CacheEntryListenerConfiguration","CacheEntryListenerException"] |
+| org.apache | 1 | 9 | 37 | 132 | 124 | 1313 | ["SpecificData","SchemaCompatibility$SchemaIncompatibilityType","GenericData","SchemaCompatibility$SchemaCompatibilityType","AvroRuntimeException","SchemaCompatibility$SchemaCompatibilityResult","SchemaNormalization","Schema","SpecificRecordBase"] |
 | org.awaitility | 1 | 1 | 2 | 3 | 124 | 1313 | ["Awaitility","ConditionFactory"] |
-| org.ehcache | 1 | 3 | 10 | 45 | 124 | 1313 | ["CacheEvent","EventType","CacheEventListener","CacheRuntimeConfiguration","Ehcache","EventOrdering","EventFiring"] |
-| org.junit | 1 | 1 | 8 | 28 | 124 | 1313 | ["ParameterContext","ParameterResolutionException","ExtensionContext$Namespace","BeforeEachCallback","ParameterResolver","AfterEachCallback","ExtensionContext","ExtensionContext$Store"] |
+| org.ehcache | 1 | 3 | 10 | 45 | 124 | 1313 | ["CacheEventListener","EventType","CacheEvent","EventFiring","EventOrdering","Ehcache","CacheRuntimeConfiguration"] |
+| org.junit | 1 | 1 | 8 | 28 | 124 | 1313 | ["ExtensionContext$Store","ParameterContext","ExtensionContext$Namespace","ExtensionContext","AfterEachCallback","ParameterResolutionException","BeforeEachCallback","ParameterResolver"] |
 | reactor.util | 1 | 2 | 2 | 4 | 124 | 1313 | ["Queues"] |
-| tools.jackson | 1 | 5 | 16 | 62 | 124 | 1313 | ["JsonNode","ObjectMapper","JacksonException","ObjectNode","JavaType","JsonMapper","JsonMapper$Builder","JsonNodeType"] |
+| tools.jackson | 1 | 5 | 16 | 62 | 124 | 1313 | ["ObjectNode","JsonNode","JsonNodeType","JacksonException","ObjectMapper","JsonMapper","JsonMapper$Builder","JavaType"] |
 
 ### 2.3 Most Spread External Packages
 
@@ -154,14 +154,14 @@ High spread indicates a pervasive cross-cutting dependency that is hard to repla
 
 | externalPackageName | numberOfArtifacts | sumNumberOfPackages | minNumberOfPackages | maxNumberOfPackages | medNumberOfPackages | avgNumberOfPackages | stdNumberOfPackages | minNumberOfPackagesPercentage | maxNumberOfPackagesPercentage | medNumberOfPackagesPercentage | avgNumberOfPackagesPercentage | stdNumberOfPackagesPercentage | sumNumberOfTypes | minNumberOfTypes | maxNumberOfTypes | medNumberOfTypes | avgNumberOfTypes | stdNumberOfTypes | minNumberOfTypesPercentage | maxNumberOfTypesPercentage | medNumberOfTypesPercentage | avgNumberOfTypesPercentage | stdNumberOfTypesPercentage | someArtifactNames |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| org.slf4j | 10 | 37 | 1 | 13 | 3.5 | 3.7 | 3.529242915351047 | 20 | 100 | 32.46753246753247 | 43.44087491455912 | 27.686369705310735 | 74 | 1 | 29 | 5.5 | 7.3999999999999995 | 8.527081042837057 | 1.2658227848101267 | 25 | 5.806304304897314 | 8.992885347775301 | 7.686736834401535 | ["axon-messaging-5.1.1","axon-update-5.1.1","axon-server-connector-5.1.1","axon-conversion-5.1.1"] |
-| jakarta.persistence | 4 | 5 | 1 | 2 | 1 | 1.25 | 0.5 | 3.508771929824561 | 20 | 7.878787878787879 | 9.81658692185008 | 7.16331017110085 | 15 | 1 | 6 | 4 | 3.75 | 2.0615528128088303 | 0.9478672985781991 | 3.8461538461538463 | 2.705357142857143 | 2.5511838576115826 | 1.2446298403628095 | ["axon-messaging-5.1.1","axon-common-5.1.1","axon-eventsourcing-5.1.1","axoniq-spring-boot-autoconfigure-5.1.1"] |
-| com.fasterxml.jackson.databind | 2 | 2 | 1 | 1 | 1 | 1 | 0 | 6.666666666666667 | 20 | 13.333333333333334 | 13.333333333333334 | 9.428090415820634 | 6 | 1 | 5 | 3 | 3 | 2.8284271247461903 | 0.5714285714285714 | 12.195121951219512 | 6.383275261324042 | 6.383275261324042 | 8.219192411283354 | ["axon-conversion-5.1.1","axon-common-5.1.1"] |
-| com.fasterxml.jackson.databind.node | 2 | 2 | 1 | 1 | 1 | 1 | 0 | 6.666666666666667 | 20 | 13.333333333333334 | 13.333333333333334 | 9.428090415820634 | 3 | 1 | 2 | 1.5 | 1.5 | 0.7071067811865476 | 0.5714285714285714 | 4.878048780487805 | 2.724738675958188 | 2.724738675958188 | 3.0452403538208106 | ["axon-conversion-5.1.1","axon-common-5.1.1"] |
-| io.axoniq.axonserver.connector | 2 | 7 | 1 | 6 | 3.5 | 3.5 | 3.5355339059327378 | 20 | 60 | 40 | 40 | 28.284271247461902 | 17 | 1 | 16 | 8.5 | 8.5 | 10.606601717798213 | 3.8461538461538463 | 20.253164556962027 | 12.049659201557937 | 12.049659201557937 | 11.601508532612781 | ["axon-server-connector-5.1.1","axoniq-spring-boot-autoconfigure-5.1.1"] |
-| io.axoniq.axonserver.connector.control | 2 | 4 | 1 | 3 | 2 | 2 | 1.4142135623730951 | 20 | 30 | 25 | 25 | 7.0710678118654755 | 5 | 1 | 4 | 2.5 | 2.5 | 2.1213203435596424 | 3.8461538461538463 | 5.063291139240507 | 4.454722492697177 | 4.454722492697177 | 0.8606460335766161 | ["axon-server-connector-5.1.1","axoniq-spring-boot-autoconfigure-5.1.1"] |
-| io.axoniq.framework.messaging.commandhandling.distributed | 2 | 3 | 1 | 2 | 1.5 | 1.5 | 0.7071067811865476 | 20 | 20 | 20 | 20 | 0 | 4 | 1 | 3 | 2 | 2 | 1.4142135623730951 | 3.79746835443038 | 3.8461538461538463 | 3.821811100292113 | 3.821811100292113 | 0.03442584134306453 | ["axon-server-connector-5.1.1","axoniq-spring-boot-autoconfigure-5.1.1"] |
-| io.axoniq.framework.messaging.queryhandling.distributed | 2 | 3 | 1 | 2 | 1.5 | 1.5 | 0.7071067811865476 | 20 | 20 | 20 | 20 | 0 | 5 | 1 | 4 | 2.5 | 2.5 | 2.1213203435596424 | 3.8461538461538463 | 5.063291139240507 | 4.454722492697177 | 4.454722492697177 | 0.8606460335766161 | ["axon-server-connector-5.1.1","axoniq-spring-boot-autoconfigure-5.1.1"] |
+| org.slf4j | 10 | 37 | 1 | 13 | 3.5 | 3.7 | 3.529242915351047 | 20 | 100 | 32.46753246753247 | 43.44087491455913 | 27.68636970531074 | 74 | 1 | 29 | 5.5 | 7.4 | 8.527081042837057 | 1.2658227848101267 | 25 | 5.806304304897314 | 8.992885347775298 | 7.686736834401533 | ["axon-eventsourcing-5.1.1","axon-update-5.1.1","axon-tracing-opentelemetry-5.1.1","axoniq-spring-boot-autoconfigure-5.1.1"] |
+| jakarta.persistence | 4 | 5 | 1 | 2 | 1 | 1.25 | 0.5 | 3.508771929824561 | 20 | 7.878787878787879 | 9.816586921850082 | 7.163310171100851 | 15 | 1 | 6 | 4 | 3.75 | 2.0615528128088303 | 0.9478672985781991 | 3.8461538461538463 | 2.705357142857143 | 2.5511838576115826 | 1.2446298403628095 | ["axon-eventsourcing-5.1.1","axoniq-spring-boot-autoconfigure-5.1.1","axon-common-5.1.1","axon-messaging-5.1.1"] |
+| com.fasterxml.jackson.databind | 2 | 2 | 1 | 1 | 1 | 1 | 0 | 6.666666666666667 | 20 | 13.333333333333334 | 13.333333333333332 | 9.428090415820634 | 6 | 1 | 5 | 3 | 3 | 2.8284271247461903 | 0.5714285714285714 | 12.195121951219512 | 6.383275261324042 | 6.383275261324042 | 8.219192411283354 | ["axon-common-5.1.1","axon-conversion-5.1.1"] |
+| com.fasterxml.jackson.databind.node | 2 | 2 | 1 | 1 | 1 | 1 | 0 | 6.666666666666667 | 20 | 13.333333333333334 | 13.333333333333332 | 9.428090415820634 | 3 | 1 | 2 | 1.5 | 1.5 | 0.7071067811865476 | 0.5714285714285714 | 4.878048780487805 | 2.724738675958188 | 2.7247386759581884 | 3.0452403538208106 | ["axon-common-5.1.1","axon-conversion-5.1.1"] |
+| io.axoniq.axonserver.connector | 2 | 7 | 1 | 6 | 3.5 | 3.5 | 3.5355339059327378 | 20 | 60 | 40 | 40 | 28.284271247461902 | 17 | 1 | 16 | 8.5 | 8.5 | 10.606601717798213 | 3.8461538461538463 | 20.253164556962027 | 12.049659201557937 | 12.049659201557937 | 11.601508532612781 | ["axoniq-spring-boot-autoconfigure-5.1.1","axon-server-connector-5.1.1"] |
+| io.axoniq.axonserver.connector.control | 2 | 4 | 1 | 3 | 2 | 2 | 1.4142135623730951 | 20 | 30 | 25 | 25 | 7.0710678118654755 | 5 | 1 | 4 | 2.5 | 2.5 | 2.1213203435596424 | 3.8461538461538463 | 5.063291139240507 | 4.454722492697177 | 4.454722492697177 | 0.8606460335766157 | ["axoniq-spring-boot-autoconfigure-5.1.1","axon-server-connector-5.1.1"] |
+| io.axoniq.framework.messaging.commandhandling.distributed | 2 | 3 | 1 | 2 | 1.5 | 1.5 | 0.7071067811865476 | 20 | 20 | 20 | 20 | 0 | 4 | 1 | 3 | 2 | 2 | 1.4142135623730951 | 3.79746835443038 | 3.8461538461538463 | 3.821811100292113 | 3.821811100292113 | 0.03442584134306453 | ["axoniq-spring-boot-autoconfigure-5.1.1","axon-server-connector-5.1.1"] |
+| io.axoniq.framework.messaging.queryhandling.distributed | 2 | 3 | 1 | 2 | 1.5 | 1.5 | 0.7071067811865476 | 20 | 20 | 20 | 20 | 0 | 5 | 1 | 4 | 2.5 | 2.5 | 2.1213203435596424 | 3.8461538461538463 | 5.063291139240507 | 4.454722492697177 | 4.454722492697177 | 0.8606460335766157 | ["axoniq-spring-boot-autoconfigure-5.1.1","axon-server-connector-5.1.1"] |
 | IdTypeParameterResolver | 1 | 1 | 1 | 1 | 1 | 1 | 0 | 9.090909090909092 | 9.090909090909092 | 9.090909090909092 | 9.090909090909092 | 0 | 1 | 1 | 1 | 1 | 1 | 0 | 0.78125 | 0.78125 | 0.78125 | 0.78125 | 0 | ["axon-eventsourcing-5.1.1"] |
 | ScannedEntityCreator | 1 | 1 | 1 | 1 | 1 | 1 | 0 | 9.090909090909092 | 9.090909090909092 | 9.090909090909092 | 9.090909090909092 | 0 | 1 | 1 | 1 | 1 | 1 | 0 | 0.78125 | 0.78125 | 0.78125 | 0.78125 | 0 | ["axon-eventsourcing-5.1.1"] |
 | WrappedEventCriteriaBuilderMethod | 1 | 1 | 1 | 1 | 1 | 1 | 0 | 9.090909090909092 | 9.090909090909092 | 9.090909090909092 | 9.090909090909092 | 0 | 1 | 1 | 1 | 1 | 1 | 0 | 0.78125 | 0.78125 | 0.78125 | 0.78125 | 0 | ["axon-eventsourcing-5.1.1"] |
@@ -235,17 +235,17 @@ Artifacts ranked by number of internal packages with external dependencies.
 
 | artifactName | numberOfTypesInArtifact | numberOfExternalTypesInArtifact | numberOfExternalPackagesInArtifact | externalTypeRate | numberOfExternalTypeCaller | numberOfExternalTypeCalls | numberOfExternalPackages | top5ExternalPackages | someExternalTypes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| axon-tracing-opentelemetry-5.1.1 | 6 | 16 | 6 | 266.6666666666667 | 24 | 80 | 6 | ["io.opentelemetry.context.propagation","io.opentelemetry.api.trace","io.opentelemetry.context","org.slf4j"] | ["ContextPropagators","TextMapPropagator","TextMapSetter","TextMapGetter","Tracer","SpanBuilder","SpanContext","Span","StatusCode"] |
-| axoniq-spring-boot-autoconfigure-5.1.1 | 26 | 45 | 26 | 173.0769230769231 | 84 | 166 | 26 | ["org.springframework.boot.autoconfigure.condition","org.springframework.boot.autoconfigure","org.springframework.boot.actuate.health","org.springframework.context.annotation"] | ["ConditionalOnClass","ConditionalOnMissingBean","ConditionalOnBean","ConditionalOnProperty","AutoConfiguration","AutoConfigureBefore","SimpleStatusAggregator","Status","Health$Builder"] |
-| axon-server-connector-5.1.1 | 79 | 125 | 24 | 158.22784810126583 | 239 | 1068 | 24 | ["io.axoniq.axonserver.grpc.event.dcb","io.axoniq.axonserver.grpc","io.grpc","io.axoniq.axonserver.connector"] | ["Event$Builder","TaggedEvent","Event","TaggedEvent$Builder","Tag$Builder","Tag","StreamEventsResponse","SequencedEvent","SourceEventsRequest"] |
-| axon-metrics-micrometer-5.1.1 | 19 | 21 | 8 | 110.5263157894737 | 52 | 163 | 8 | ["io.micrometer.core.instrument","org.jspecify.annotations","org.springframework.boot.autoconfigure.condition","org.springframework.boot.autoconfigure"] | ["MeterRegistry","Tag","Timer","Timer$Builder","Clock","Tags","Counter","Gauge$Builder","Gauge"] |
-| axon-conversion-5.1.1 | 41 | 39 | 15 | 95.1219512195122 | 78 | 293 | 15 | ["org.apache.avro","com.fasterxml.jackson.databind","org.apache.avro.message","org.slf4j"] | ["AvroRuntimeException","Schema","SchemaCompatibility$Incompatibility","SchemaCompatibility$SchemaCompatibilityType","SchemaCompatibility$SchemaCompatibilityResult","SchemaNormalization","InvalidAvroMagicException","SchemaCompatibility","InvalidNumberEncodingException"] |
-| axon-test-5.1.1 | 79 | 19 | 6 | 24.050632911392405 | 61 | 235 | 6 | ["org.hamcrest","org.junit.jupiter.api.extension","org.jspecify.annotations","org.slf4j"] | ["TypeSafeMatcher","Description","BaseMatcher","Matcher","StringDescription","CoreMatchers","ParameterContext","ParameterResolutionException","ExtensionContext$Namespace"] |
-| axon-common-5.1.1 | 175 | 28 | 11 | 16 | 61 | 198 | 11 | ["org.jspecify.annotations","org.slf4j","org.ehcache.event","javax.cache.event"] | ["NullMarked","LoggerFactory","Logger","CacheEvent","EventType","CacheEventListener","EventOrdering","EventFiring","CacheEntryListener"] |
-| axon-eventsourcing-5.1.1 | 128 | 19 | 6 | 14.84375 | 45 | 110 | 6 | ["org.slf4j","jakarta.persistence","org.jspecify.annotations","IdTypeParameterResolver"] | ["Logger","LoggerFactory","EntityManager","TypedQuery","GenerationType","Entity","Id","Index","SequenceGenerator"] |
+| axon-tracing-opentelemetry-5.1.1 | 6 | 16 | 6 | 266.6666666666667 | 24 | 80 | 6 | ["io.opentelemetry.context.propagation","io.opentelemetry.api.trace","io.opentelemetry.context","org.slf4j"] | ["TextMapSetter","TextMapGetter","TextMapPropagator","ContextPropagators","SpanBuilder","Tracer","SpanKind","Span","SpanContext"] |
+| axoniq-spring-boot-autoconfigure-5.1.1 | 26 | 45 | 26 | 173.0769230769231 | 84 | 166 | 26 | ["org.springframework.boot.autoconfigure.condition","org.springframework.boot.autoconfigure","org.springframework.boot.actuate.health","org.springframework.context.annotation"] | ["ConditionalOnMissingBean","ConditionalOnClass","ConditionalOnBean","ConditionalOnProperty","AutoConfiguration","AutoConfigureBefore","SimpleStatusAggregator","Health$Builder","Status"] |
+| axon-server-connector-5.1.1 | 79 | 125 | 24 | 158.22784810126583 | 239 | 1068 | 24 | ["io.axoniq.axonserver.grpc.event.dcb","io.axoniq.axonserver.grpc","io.grpc","io.axoniq.axonserver.connector"] | ["SequencedEvent","StreamEventsResponse","Event$Builder","Event","Tag$Builder","TaggedEvent$Builder","TaggedEvent","Tag","ConsistencyCondition$Builder"] |
+| axon-metrics-micrometer-5.1.1 | 19 | 21 | 8 | 110.5263157894737 | 52 | 163 | 8 | ["io.micrometer.core.instrument","org.jspecify.annotations","org.springframework.boot.autoconfigure.condition","org.springframework.boot.autoconfigure"] | ["Counter","Tag","MeterRegistry","Timer","Timer$Builder","Clock","Tags","Gauge$Builder","Gauge"] |
+| axon-conversion-5.1.1 | 41 | 39 | 15 | 95.1219512195122 | 78 | 293 | 15 | ["org.apache.avro","tools.jackson.databind","org.apache.avro.message","com.fasterxml.jackson.databind"] | ["AvroRuntimeException","SchemaCompatibility$SchemaIncompatibilityType","SchemaCompatibility$SchemaCompatibilityType","SchemaCompatibility$SchemaCompatibilityResult","SchemaNormalization","Schema","SchemaCompatibility$SchemaPairCompatibility","InvalidAvroMagicException","SchemaCompatibility$Incompatibility"] |
+| axon-test-5.1.1 | 79 | 19 | 6 | 24.050632911392405 | 61 | 235 | 6 | ["org.hamcrest","org.junit.jupiter.api.extension","org.jspecify.annotations","org.slf4j"] | ["Matcher","Description","BaseMatcher","StringDescription","TypeSafeMatcher","CoreMatchers","ExtensionContext$Store","ParameterContext","ExtensionContext$Namespace"] |
+| axon-common-5.1.1 | 175 | 28 | 11 | 16 | 61 | 198 | 11 | ["org.jspecify.annotations","org.slf4j","org.ehcache.event","javax.cache.event"] | ["NullMarked","Logger","LoggerFactory","CacheEventListener","EventType","CacheEvent","EventFiring","EventOrdering","CacheEntryListener"] |
+| axon-eventsourcing-5.1.1 | 128 | 19 | 6 | 14.84375 | 45 | 110 | 6 | ["org.slf4j","jakarta.persistence","org.jspecify.annotations","WrappedEventCriteriaBuilderMethod"] | ["Logger","LoggerFactory","EntityExistsException","TypedQuery","EntityManager","Column","SequenceGenerator","GenerationType","Lob"] |
 | axon-update-5.1.1 | 28 | 3 | 2 | 10.714285714285715 | 19 | 50 | 2 | ["org.slf4j","org.jspecify.annotations"] | ["LoggerFactory","Logger","NullMarked"] |
-| axon-messaging-5.1.1 | 633 | 33 | 8 | 5.213270142180095 | 176 | 498 | 8 | ["org.jspecify.annotations","org.slf4j","jakarta.persistence","com.fasterxml.jackson.annotation"] | ["NullMarked","LoggerFactory","Logger","EntityManager","EntityTransaction","EntityManagerFactory","LockModeType","Basic","Id"] |
-| axon-modelling-5.1.1 | 99 | 3 | 2 | 3.0303030303030303 | 11 | 24 | 2 | ["org.jspecify.annotations","org.slf4j"] | ["NullMarked","Logger","LoggerFactory"] |
+| axon-messaging-5.1.1 | 633 | 33 | 8 | 5.213270142180095 | 176 | 498 | 8 | ["org.jspecify.annotations","org.slf4j","com.fasterxml.jackson.annotation","jakarta.persistence"] | ["NullMarked","Logger","LoggerFactory","JsonTypeInfo$Id","JsonCreator","JsonTypeInfo","JsonGetter","JsonProperty","JsonIgnore"] |
+| axon-modelling-5.1.1 | 99 | 3 | 2 | 3.0303030303030303 | 11 | 24 | 2 | ["org.jspecify.annotations","org.slf4j"] | ["NullMarked","LoggerFactory","Logger"] |
 
 ### 2.5 Aggregated External Package Usage per Artifact
 
@@ -253,17 +253,17 @@ Per-artifact: how many internal packages use external ones and their percentage.
 
 | artifactName | leidenCommunityId | artifactPackages | artifactTypes | numberOfExternalPackages | minNumberOfPackages | maxNumberOfPackages | medNumberOfPackages | avgNumberOfPackages | stdNumberOfPackages | minNumberOfPackagesPercentage | maxNumberOfPackagesPercentage | medNumberOfPackagesPercentage | avgNumberOfPackagesPercentage | stdNumberOfPackagesPercentage | minNumberOfTypes | maxNumberOfTypes | medNumberOfTypes | avgNumberOfTypes | stdNumberOfTypes | minNumberOfTypesPercentage | maxNumberOfTypesPercentage | medNumberOfTypesPercentage | avgNumberOfTypesPercentage | stdNumberOfTypesPercentage | top10ExternalPackageNamesByUsageDescending | somePackageNames | someTypeNames |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| axon-messaging-5.1.1 | 0 | 57 | 633 | 7 | 1 | 13 | 2 | 3.714285714285714 | 4.347960660443227 | 1.7543859649122806 | 22.807017543859647 | 3.508771929824561 | 6.516290726817043 | 7.628001158672327 | 2 | 29 | 6 | 7.857142857142856 | 9.633769968684316 | 0.315955766192733 | 4.581358609794629 | 0.9478672985781991 | 1.2412547957571654 | 1.5219225858900973 | ["org.slf4j","reactor.core.publisher","org.reactivestreams","jakarta.persistence","com.fasterxml.jackson.annotation","jakarta.validation","reactor.util.concurrent"] | ["org.axonframework.messaging.commandhandling","org.axonframework.messaging.commandhandling.interception","org.axonframework.messaging.eventhandling","org.axonframework.messaging.eventhandling.processing.streaming.segmenting","org.axonframework.messaging.eventhandling.processing.streaming.pooled","org.axonframework.messaging.eventhandling.processing.streaming.token.store.inmemory","org.axonframework.messaging.eventhandling.processing.streaming.token.store.jdbc","org.axonframework.messaging.eventhandling.processing.streaming.token.store.jpa","org.axonframework.messaging.core.unitofwork"] | ["org.axonframework.messaging.commandhandling.SimpleCommandBus","org.axonframework.messaging.commandhandling.interception.CommandSequencingInterceptor","org.axonframework.messaging.eventhandling.EventSubscribers","org.axonframework.messaging.eventhandling.processing.streaming.segmenting.SequencingEventHandlingComponent","org.axonframework.messaging.eventhandling.processing.streaming.pooled.CoordinatorTask","org.axonframework.messaging.eventhandling.processing.streaming.pooled.PooledStreamingEventProcessor","org.axonframework.messaging.eventhandling.processing.streaming.pooled.MergeTask","org.axonframework.messaging.eventhandling.processing.streaming.pooled.SplitTask","org.axonframework.messaging.eventhandling.processing.streaming.pooled.Coordinator"] |
-| axon-server-connector-5.1.1 | 0 | 10 | 79 | 22 | 1 | 8 | 1.5 | 2.4999999999999996 | 2.132514723892674 | 10 | 80 | 15 | 25.000000000000007 | 21.325147238926743 | 1 | 16 | 3.5 | 5.045454545454545 | 4.530082231223294 | 1.2658227848101267 | 20.253164556962027 | 4.4303797468354436 | 6.386651323360185 | 5.7342813053459425 | ["io.axoniq.axonserver.grpc","com.google.protobuf","io.grpc","io.axoniq.axonserver.connector","org.slf4j","io.axoniq.axonserver.connector.control","io.axoniq.axonserver.grpc.control","io.axoniq.axonserver.grpc.event.dcb","io.axoniq.axonserver.connector.event"] | ["io.axoniq.framework.axonserver.connector.api","io.axoniq.framework.axonserver.connector.api.command","io.axoniq.framework.axonserver.connector.api.query","io.axoniq.framework.axonserver.connector.event","io.axoniq.framework.axonserver.connector.shared","io.axoniq.framework.axonserver.connector.command","io.axoniq.framework.axonserver.connector.query","io.axoniq.framework.axonserver.connector.util"] | ["io.axoniq.framework.axonserver.connector.api.AxonServerException","io.axoniq.framework.axonserver.connector.api.command.AxonServerCommandDispatchException","io.axoniq.framework.axonserver.connector.api.command.AxonServerRemoteCommandHandlingException","io.axoniq.framework.axonserver.connector.api.command.AxonServerNonTransientRemoteCommandHandlingException","io.axoniq.framework.axonserver.connector.api.query.AxonServerRemoteQueryHandlingException","io.axoniq.framework.axonserver.connector.api.query.AxonServerNonTransientRemoteQueryHandlingException","io.axoniq.framework.axonserver.connector.api.query.AxonServerQueryDispatchException","io.axoniq.framework.axonserver.connector.event.AggregateBasedAxonServerEventStorageEngine","io.axoniq.framework.axonserver.connector.shared.MetadataConverter$1"] |
-| axon-common-5.1.1 | 0 | 15 | 175 | 10 | 1 | 4 | 1 | 1.2999999999999998 | 0.9486832980505138 | 6.666666666666667 | 26.666666666666668 | 6.666666666666667 | 8.666666666666668 | 6.324555320336759 | 1 | 8 | 1 | 2.3 | 2.263232692902394 | 0.5714285714285714 | 4.571428571428571 | 0.5714285714285714 | 1.3142857142857145 | 1.2932758245156537 | ["org.slf4j","org.ehcache.event","javax.cache.configuration","javax.cache.event","org.ehcache.config","org.ehcache.core","javax.cache","com.fasterxml.jackson.databind.node","com.fasterxml.jackson.databind"] | ["org.axonframework.common","org.axonframework.common.lifecycle","org.axonframework.common.property","org.axonframework.common.configuration"] | ["org.axonframework.common.IdentifierFactory","org.axonframework.common.TypeReflectionUtils","org.axonframework.common.TypeReflectionUtils$VarMap","org.axonframework.common.lifecycle.ShutdownLatch","org.axonframework.common.property.AbstractMethodPropertyAccessStrategy","org.axonframework.common.configuration.DefaultComponentRegistry","org.axonframework.common.configuration.DefaultAxonApplication$AxonConfigurationImpl","org.axonframework.common.configuration.DefaultAxonApplication"] |
-| axon-conversion-5.1.1 | 0 | 5 | 41 | 14 | 1 | 4 | 1 | 1.2142857142857142 | 0.8017837257372732 | 20 | 80 | 20 | 24.28571428571429 | 16.035674514745462 | 1 | 6 | 2.5 | 3.071428571428571 | 1.8999710813299526 | 2.4390243902439024 | 14.634146341463413 | 6.097560975609756 | 7.491289198606273 | 4.634075808121835 | ["org.slf4j","tools.jackson.databind","tools.jackson.core","tools.jackson.databind.node","tools.jackson.databind.json","org.apache.avro","org.apache.avro.specific","org.apache.avro.generic","org.apache.avro.message"] | ["org.axonframework.conversion","org.axonframework.conversion.jackson","org.axonframework.conversion.avro","org.axonframework.conversion.jackson2"] | ["org.axonframework.conversion.ChainingContentTypeConverter","org.axonframework.conversion.jackson.JacksonConverter","org.axonframework.conversion.avro.AvroConverter","org.axonframework.conversion.jackson2.Jackson2Converter"] |
-| axon-eventsourcing-5.1.1 | 0 | 11 | 128 | 5 | 1 | 4 | 1 | 1.6 | 1.3416407864998738 | 9.090909090909092 | 36.36363636363637 | 9.090909090909092 | 14.545454545454547 | 12.196734422726127 | 1 | 9 | 1 | 3.2 | 3.4928498393145966 | 0.78125 | 7.03125 | 0.78125 | 2.5 | 2.728788936964528 | ["org.slf4j","jakarta.persistence","WrappedEventCriteriaBuilderMethod","IdTypeParameterResolver","ScannedEntityCreator"] | ["org.axonframework.eventsourcing.handler","org.axonframework.eventsourcing.eventstore","org.axonframework.eventsourcing.eventstore.inmemory","org.axonframework.eventsourcing.eventstore.jpa"] | ["org.axonframework.eventsourcing.handler.SnapshottingEntityLifecycleHandler","org.axonframework.eventsourcing.eventstore.DefaultEventStoreTransaction","org.axonframework.eventsourcing.eventstore.SnapshotCapableEventStorageEngine","org.axonframework.eventsourcing.eventstore.inmemory.InMemoryEventStorageEngine","org.axonframework.eventsourcing.eventstore.inmemory.InMemoryEventStorageEngine$1","org.axonframework.eventsourcing.eventstore.jpa.SQLErrorCodesResolver","org.axonframework.eventsourcing.eventstore.jpa.AggregateBasedJpaEventStorageEngine","org.axonframework.eventsourcing.eventstore.jpa.GapAwareTrackingTokenOperations","org.axonframework.eventsourcing.eventstore.jpa.JpaPollingEventCoordinator"] |
-| axon-metrics-micrometer-5.1.1 | 0 | 3 | 19 | 3 | 1 | 3 | 2 | 2 | 1 | 33.333333333333336 | 100 | 66.66666666666667 | 66.66666666666667 | 33.333333333333336 | 1 | 13 | 2 | 5.333333333333334 | 6.658328118479393 | 5.2631578947368425 | 68.42105263157896 | 10.526315789473685 | 28.070175438596493 | 35.04383220252313 | ["io.micrometer.core.instrument","io.micrometer.core.instrument.simple","org.axonframework.extension.springboot.autoconfig"] | ["org.axonframework.extension.metrics.micrometer","org.axonframework.extension.metrics.micrometer.reservoir","org.axonframework.extension.metrics.micrometer.springboot"] | ["org.axonframework.extension.metrics.micrometer.MessageTimerMonitor$1","org.axonframework.extension.metrics.micrometer.CapacityMonitor","org.axonframework.extension.metrics.micrometer.MessageCountingMonitor","org.axonframework.extension.metrics.micrometer.TagsUtil","org.axonframework.extension.metrics.micrometer.EventProcessorLatencyMonitor","org.axonframework.extension.metrics.micrometer.MessageTimerMonitor$Builder","org.axonframework.extension.metrics.micrometer.MessageCountingMonitor$1","org.axonframework.extension.metrics.micrometer.MessageTimerMonitor","org.axonframework.extension.metrics.micrometer.CapacityMonitor$1"] |
-| axon-test-5.1.1 | 0 | 5 | 79 | 5 | 1 | 3 | 1 | 1.4 | 0.8944271909999159 | 20 | 60 | 20 | 28 | 17.88854381999832 | 1 | 22 | 1 | 5.2 | 9.391485505499118 | 1.2658227848101267 | 27.848101265822788 | 1.2658227848101267 | 6.582278481012659 | 11.887956336074833 | ["org.hamcrest","org.slf4j","org.awaitility","org.awaitility.core","org.junit.jupiter.api.extension"] | ["org.axonframework.test.matchers","org.axonframework.test.fixture","org.axonframework.test.util"] | ["org.axonframework.test.matchers.ListWithAnyOfMatcher","org.axonframework.test.matchers.EqualsMatcher","org.axonframework.test.matchers.SequenceMatcher","org.axonframework.test.matchers.ListMatcher","org.axonframework.test.matchers.PayloadMatcher","org.axonframework.test.matchers.PredicateMatcher","org.axonframework.test.matchers.ListWithAllOfMatcher","org.axonframework.test.matchers.MapStringEntryMatcher$Matching","org.axonframework.test.matchers.Matchers"] |
-| axon-update-5.1.1 | 0 | 5 | 28 | 1 | 3 | 3 | 3 | 3 | 0 | 60 | 60 | 60 | 60 | 0 | 7 | 7 | 7 | 7 | 0 | 25 | 25 | 25 | 25 | 0 | ["org.slf4j"] | ["org.axonframework.update","org.axonframework.update.detection","org.axonframework.update.configuration"] | ["org.axonframework.update.LoggingUpdateCheckerReporter","org.axonframework.update.UpdateCheckerHttpClient","org.axonframework.update.UpdateChecker","org.axonframework.update.UpdateCheckerConfigurationEnhancer","org.axonframework.update.detection.MachineId","org.axonframework.update.detection.AxonVersionDetector","org.axonframework.update.configuration.PropertyFileUsagePropertyProvider"] |
-| axoniq-spring-boot-autoconfigure-5.1.1 | 0 | 5 | 26 | 19 | 1 | 3 | 1 | 1.1052631578947372 | 0.4588314677411235 | 20 | 60 | 20 | 22.105263157894736 | 9.17662935482247 | 1 | 4 | 1 | 1.5789473684210524 | 0.901590537370498 | 3.8461538461538463 | 15.384615384615385 | 3.8461538461538463 | 6.072874493927125 | 3.4676559129634534 | ["org.springframework.boot.actuate.health","io.axoniq.framework.messaging.deadletter","io.axoniq.framework.messaging.eventhandling.deadletter.jdbc","io.axoniq.framework.messaging.eventhandling.deadletter","io.axoniq.framework.postgresql","io.axoniq.framework.messaging.eventhandling.deadletter.jpa","jakarta.persistence","org.springframework.beans","io.axoniq.framework.messaging.commandhandling.distributed"] | ["io.axoniq.framework.springboot.actuator","io.axoniq.framework.springboot.actuator.axonserver","io.axoniq.framework.springboot.autoconfig"] | ["io.axoniq.framework.springboot.actuator.HealthStatus","io.axoniq.framework.springboot.actuator.axonserver.AxonServerStatusAggregator","io.axoniq.framework.springboot.actuator.axonserver.AxonServerHealthIndicator","io.axoniq.framework.springboot.autoconfig.AxonServerActuatorAutoConfiguration"] |
+| axon-messaging-5.1.1 | 0 | 57 | 633 | 7 | 1 | 13 | 2 | 3.714285714285714 | 4.347960660443227 | 1.7543859649122806 | 22.807017543859647 | 3.508771929824561 | 6.516290726817043 | 7.628001158672327 | 2 | 29 | 6 | 7.857142857142856 | 9.633769968684316 | 0.315955766192733 | 4.581358609794629 | 0.9478672985781991 | 1.2412547957571654 | 1.5219225858900973 | ["org.slf4j","reactor.core.publisher","org.reactivestreams","jakarta.persistence","com.fasterxml.jackson.annotation","jakarta.validation","reactor.util.concurrent"] | ["org.axonframework.messaging.commandhandling","org.axonframework.messaging.commandhandling.interception","org.axonframework.messaging.eventhandling","org.axonframework.messaging.eventhandling.processing.streaming.segmenting","org.axonframework.messaging.eventhandling.processing.streaming.pooled","org.axonframework.messaging.eventhandling.processing.streaming.token.store.inmemory","org.axonframework.messaging.eventhandling.processing.streaming.token.store.jdbc","org.axonframework.messaging.eventhandling.processing.streaming.token.store.jpa","org.axonframework.messaging.core.unitofwork"] | ["org.axonframework.messaging.commandhandling.SimpleCommandBus","org.axonframework.messaging.commandhandling.interception.CommandSequencingInterceptor","org.axonframework.messaging.eventhandling.EventSubscribers","org.axonframework.messaging.eventhandling.processing.streaming.segmenting.SequencingEventHandlingComponent","org.axonframework.messaging.eventhandling.processing.streaming.pooled.PooledStreamingEventProcessor","org.axonframework.messaging.eventhandling.processing.streaming.pooled.ClaimTask","org.axonframework.messaging.eventhandling.processing.streaming.pooled.DefaultWorkPackageEventFilter","org.axonframework.messaging.eventhandling.processing.streaming.pooled.MergeTask","org.axonframework.messaging.eventhandling.processing.streaming.pooled.WorkPackage"] |
+| axon-server-connector-5.1.1 | 0 | 10 | 79 | 22 | 1 | 8 | 1.5 | 2.4999999999999996 | 2.132514723892674 | 10 | 80 | 15 | 25.000000000000007 | 21.325147238926743 | 1 | 16 | 3.5 | 5.045454545454546 | 4.530082231223294 | 1.2658227848101267 | 20.253164556962027 | 4.4303797468354436 | 6.3866513233601845 | 5.7342813053459425 | ["io.axoniq.axonserver.grpc","io.grpc","com.google.protobuf","io.axoniq.axonserver.connector","org.slf4j","io.axoniq.axonserver.grpc.control","io.axoniq.axonserver.connector.control","io.axoniq.axonserver.grpc.event.dcb","io.axoniq.axonserver.connector.event"] | ["io.axoniq.framework.axonserver.connector.api","io.axoniq.framework.axonserver.connector.api.command","io.axoniq.framework.axonserver.connector.api.query","io.axoniq.framework.axonserver.connector.event","io.axoniq.framework.axonserver.connector.shared","io.axoniq.framework.axonserver.connector.command","io.axoniq.framework.axonserver.connector.query","io.axoniq.framework.axonserver.connector.util"] | ["io.axoniq.framework.axonserver.connector.api.AxonServerException","io.axoniq.framework.axonserver.connector.api.command.AxonServerCommandDispatchException","io.axoniq.framework.axonserver.connector.api.command.AxonServerNonTransientRemoteCommandHandlingException","io.axoniq.framework.axonserver.connector.api.command.AxonServerRemoteCommandHandlingException","io.axoniq.framework.axonserver.connector.api.query.AxonServerNonTransientRemoteQueryHandlingException","io.axoniq.framework.axonserver.connector.api.query.AxonServerRemoteQueryHandlingException","io.axoniq.framework.axonserver.connector.api.query.AxonServerQueryDispatchException","io.axoniq.framework.axonserver.connector.event.AggregateBasedAxonServerEventStorageEngine","io.axoniq.framework.axonserver.connector.shared.MetadataConverter$1"] |
+| axon-common-5.1.1 | 0 | 15 | 175 | 10 | 1 | 4 | 1 | 1.2999999999999998 | 0.9486832980505138 | 6.666666666666667 | 26.666666666666668 | 6.666666666666667 | 8.666666666666668 | 6.324555320336759 | 1 | 8 | 1 | 2.3 | 2.263232692902394 | 0.5714285714285714 | 4.571428571428571 | 0.5714285714285714 | 1.3142857142857145 | 1.2932758245156537 | ["org.slf4j","org.ehcache.event","javax.cache.event","javax.cache.configuration","javax.cache","org.ehcache.core","org.ehcache.config","com.fasterxml.jackson.databind.node","com.fasterxml.jackson.databind"] | ["org.axonframework.common","org.axonframework.common.lifecycle","org.axonframework.common.property","org.axonframework.common.configuration"] | ["org.axonframework.common.TypeReflectionUtils$VarMap","org.axonframework.common.IdentifierFactory","org.axonframework.common.TypeReflectionUtils","org.axonframework.common.lifecycle.ShutdownLatch","org.axonframework.common.property.AbstractMethodPropertyAccessStrategy","org.axonframework.common.configuration.DefaultComponentRegistry","org.axonframework.common.configuration.DefaultAxonApplication","org.axonframework.common.configuration.DefaultAxonApplication$AxonConfigurationImpl"] |
+| axon-conversion-5.1.1 | 0 | 5 | 41 | 14 | 1 | 4 | 1 | 1.2142857142857142 | 0.8017837257372732 | 20 | 80 | 20 | 24.28571428571429 | 16.035674514745462 | 1 | 6 | 2.5 | 3.071428571428571 | 1.8999710813299526 | 2.4390243902439024 | 14.634146341463413 | 6.097560975609756 | 7.491289198606272 | 4.634075808121835 | ["org.slf4j","tools.jackson.databind.node","tools.jackson.databind","tools.jackson.core","tools.jackson.databind.json","org.apache.avro.specific","org.apache.avro","org.apache.avro.generic","org.apache.avro.message"] | ["org.axonframework.conversion","org.axonframework.conversion.jackson","org.axonframework.conversion.avro","org.axonframework.conversion.jackson2"] | ["org.axonframework.conversion.ChainingContentTypeConverter","org.axonframework.conversion.jackson.JacksonConverter","org.axonframework.conversion.avro.AvroConverter","org.axonframework.conversion.jackson2.Jackson2Converter"] |
+| axon-eventsourcing-5.1.1 | 0 | 11 | 128 | 5 | 1 | 4 | 1 | 1.6 | 1.3416407864998738 | 9.090909090909092 | 36.36363636363637 | 9.090909090909092 | 14.545454545454547 | 12.196734422726127 | 1 | 9 | 1 | 3.2 | 3.4928498393145966 | 0.78125 | 7.03125 | 0.78125 | 2.5 | 2.728788936964528 | ["org.slf4j","jakarta.persistence","WrappedEventCriteriaBuilderMethod","ScannedEntityCreator","IdTypeParameterResolver"] | ["org.axonframework.eventsourcing.handler","org.axonframework.eventsourcing.eventstore","org.axonframework.eventsourcing.eventstore.inmemory","org.axonframework.eventsourcing.eventstore.jpa"] | ["org.axonframework.eventsourcing.handler.SnapshottingEntityLifecycleHandler","org.axonframework.eventsourcing.eventstore.SnapshotCapableEventStorageEngine","org.axonframework.eventsourcing.eventstore.DefaultEventStoreTransaction","org.axonframework.eventsourcing.eventstore.inmemory.InMemoryEventStorageEngine","org.axonframework.eventsourcing.eventstore.inmemory.InMemoryEventStorageEngine$1","org.axonframework.eventsourcing.eventstore.jpa.GapAwareTrackingTokenOperations","org.axonframework.eventsourcing.eventstore.jpa.SQLErrorCodesResolver","org.axonframework.eventsourcing.eventstore.jpa.AggregateBasedJpaEventStorageEngine","org.axonframework.eventsourcing.eventstore.jpa.JpaPollingEventCoordinator"] |
+| axon-metrics-micrometer-5.1.1 | 0 | 3 | 19 | 3 | 1 | 3 | 2 | 2 | 1 | 33.333333333333336 | 100 | 66.66666666666667 | 66.66666666666667 | 33.333333333333336 | 1 | 13 | 2 | 5.333333333333334 | 6.658328118479393 | 5.2631578947368425 | 68.42105263157896 | 10.526315789473685 | 28.070175438596493 | 35.04383220252313 | ["io.micrometer.core.instrument","io.micrometer.core.instrument.simple","org.axonframework.extension.springboot.autoconfig"] | ["org.axonframework.extension.metrics.micrometer","org.axonframework.extension.metrics.micrometer.reservoir","org.axonframework.extension.metrics.micrometer.springboot"] | ["org.axonframework.extension.metrics.micrometer.MessageCountingMonitor","org.axonframework.extension.metrics.micrometer.TagsUtil","org.axonframework.extension.metrics.micrometer.MessageTimerMonitor$1","org.axonframework.extension.metrics.micrometer.EventProcessorLatencyMonitor$Builder","org.axonframework.extension.metrics.micrometer.EventProcessorLatencyMonitor","org.axonframework.extension.metrics.micrometer.MessageTimerMonitor$Builder","org.axonframework.extension.metrics.micrometer.CapacityMonitor$1","org.axonframework.extension.metrics.micrometer.MessageCountingMonitor$1","org.axonframework.extension.metrics.micrometer.MetricsConfigurationEnhancer"] |
+| axon-test-5.1.1 | 0 | 5 | 79 | 5 | 1 | 3 | 1 | 1.4 | 0.8944271909999159 | 20 | 60 | 20 | 28 | 17.88854381999832 | 1 | 22 | 1 | 5.2 | 9.391485505499118 | 1.2658227848101267 | 27.848101265822788 | 1.2658227848101267 | 6.582278481012659 | 11.887956336074833 | ["org.hamcrest","org.slf4j","org.awaitility","org.awaitility.core","org.junit.jupiter.api.extension"] | ["org.axonframework.test.matchers","org.axonframework.test.fixture","org.axonframework.test.util"] | ["org.axonframework.test.matchers.ListMatcher","org.axonframework.test.matchers.PayloadMatcher","org.axonframework.test.matchers.MapStringEntryMatcher","org.axonframework.test.matchers.ExactSequenceMatcher","org.axonframework.test.matchers.MapStringEntryMatcher$Matching","org.axonframework.test.matchers.SequenceMatcher","org.axonframework.test.matchers.PayloadsMatcher","org.axonframework.test.matchers.EmptyCollectionMatcher","org.axonframework.test.matchers.PredicateMatcher"] |
+| axon-update-5.1.1 | 0 | 5 | 28 | 1 | 3 | 3 | 3 | 3 | 0 | 60 | 60 | 60 | 60 | 0 | 7 | 7 | 7 | 7 | 0 | 25 | 25 | 25 | 25 | 0 | ["org.slf4j"] | ["org.axonframework.update","org.axonframework.update.detection","org.axonframework.update.configuration"] | ["org.axonframework.update.UpdateCheckerHttpClient","org.axonframework.update.UpdateChecker","org.axonframework.update.LoggingUpdateCheckerReporter","org.axonframework.update.UpdateCheckerConfigurationEnhancer","org.axonframework.update.detection.MachineId","org.axonframework.update.detection.AxonVersionDetector","org.axonframework.update.configuration.PropertyFileUsagePropertyProvider"] |
+| axoniq-spring-boot-autoconfigure-5.1.1 | 0 | 5 | 26 | 19 | 1 | 3 | 1 | 1.1052631578947372 | 0.4588314677411235 | 20 | 60 | 20 | 22.105263157894736 | 9.17662935482247 | 1 | 4 | 1 | 1.5789473684210527 | 0.901590537370498 | 3.8461538461538463 | 15.384615384615385 | 3.8461538461538463 | 6.072874493927126 | 3.4676559129634543 | ["org.springframework.boot.actuate.health","io.axoniq.framework.messaging.eventhandling.deadletter","io.axoniq.framework.messaging.eventhandling.deadletter.jpa","io.axoniq.framework.messaging.deadletter","jakarta.persistence","io.axoniq.framework.postgresql","io.axoniq.framework.messaging.eventhandling.deadletter.jdbc","org.springframework.beans","io.axoniq.framework.messaging.queryhandling.distributed"] | ["io.axoniq.framework.springboot.actuator","io.axoniq.framework.springboot.actuator.axonserver","io.axoniq.framework.springboot.autoconfig"] | ["io.axoniq.framework.springboot.actuator.HealthStatus","io.axoniq.framework.springboot.actuator.axonserver.AxonServerHealthIndicator","io.axoniq.framework.springboot.actuator.axonserver.AxonServerStatusAggregator","io.axoniq.framework.springboot.autoconfig.AxonServerActuatorAutoConfiguration"] |
 | axon-modelling-5.1.1 | 0 | 7 | 99 | 1 | 2 | 2 | 2 | 2 | 0 | 28.571428571428573 | 28.571428571428573 | 28.571428571428573 | 28.571428571428573 | 0 | 2 | 2 | 2 | 2 | 0 | 2.0202020202020203 | 2.0202020202020203 | 2.0202020202020203 | 2.0202020202020203 | 0 | ["org.slf4j"] | ["org.axonframework.modelling","org.axonframework.modelling.entity.annotation"] | ["org.axonframework.modelling.SimpleEntityEvolvingComponent","org.axonframework.modelling.entity.annotation.AnnotatedEntityMetamodel"] |
-| axon-tracing-opentelemetry-5.1.1 | 0 | 1 | 6 | 5 | 1 | 1 | 1 | 1 | 0 | 100 | 100 | 100 | 100 | 0 | 1 | 4 | 2 | 2.2 | 1.3038404810405297 | 16.666666666666668 | 66.66666666666667 | 33.333333333333336 | 36.666666666666664 | 21.73067468400883 | ["io.opentelemetry.context.propagation","io.opentelemetry.api.trace","io.opentelemetry.api","io.opentelemetry.context","org.slf4j"] | ["org.axonframework.extension.tracing.opentelemetry"] | ["org.axonframework.extension.tracing.opentelemetry.OpenTelemetrySpanFactory$Builder","org.axonframework.extension.tracing.opentelemetry.MetadataContextSetter","org.axonframework.extension.tracing.opentelemetry.MetadataContextGetter","org.axonframework.extension.tracing.opentelemetry.OpenTelemetrySpanFactory"] |
+| axon-tracing-opentelemetry-5.1.1 | 0 | 1 | 6 | 5 | 1 | 1 | 1 | 1 | 0 | 100 | 100 | 100 | 100 | 0 | 1 | 4 | 2 | 2.2 | 1.3038404810405297 | 16.666666666666668 | 66.66666666666667 | 33.333333333333336 | 36.66666666666667 | 21.73067468400883 | ["io.opentelemetry.context.propagation","io.opentelemetry.context","io.opentelemetry.api.trace","org.slf4j","io.opentelemetry.api"] | ["org.axonframework.extension.tracing.opentelemetry"] | ["org.axonframework.extension.tracing.opentelemetry.MetadataContextSetter","org.axonframework.extension.tracing.opentelemetry.MetadataContextGetter","org.axonframework.extension.tracing.opentelemetry.OpenTelemetrySpanFactory$Builder","org.axonframework.extension.tracing.opentelemetry.OpenTelemetrySpanFactory"] |
 
 ### 2.6 Java Charts
 
@@ -338,188 +338,188 @@ Java dependencies declared in Maven `pom.xml` files.
 
 | pom.artifactId | pom.name | scope | dependency.optional | dependentArtifact.group | dependentArtifact.name |
 | --- | --- | --- | --- | --- | --- |
-| axon-common | Axon Framework - Common | test | false | org.springframework.security | spring-security-config |
-| axon-common | Axon Framework - Common | provided | false | com.google.code.findbugs | jsr305 |
-| axon-common | Axon Framework - Common | default | false | org.reactivestreams | reactive-streams |
-| axon-common | Axon Framework - Common | default | true | jakarta.persistence | jakarta.persistence-api |
-| axon-common | Axon Framework - Common | default | false | com.fasterxml.jackson.core | jackson-core |
-| axon-common | Axon Framework - Common | test | false | io.projectreactor | reactor-test |
-| axon-common | Axon Framework - Common | test | false | org.glassfish.expressly | expressly |
-| axon-common | Axon Framework - Common | test | false | org.springframework | spring-tx |
-| axon-common | Axon Framework - Common | default | true | com.fasterxml.jackson.datatype | jackson-datatype-jsr310 |
-| axon-common | Axon Framework - Common | default | true | org.hibernate.orm | hibernate-core |
-| axon-common | Axon Framework - Common | default | true | javax.cache | cache-api |
-| axon-common | Axon Framework - Common | test | false | org.hibernate.validator | hibernate-validator |
-| axon-common | Axon Framework - Common | test | false | org.springframework | spring-test |
 | axon-common | Axon Framework - Common | default | false | com.fasterxml.jackson.core | jackson-databind |
-| axon-common | Axon Framework - Common | test | false | org.springframework | spring-context-support |
+| axon-common | Axon Framework - Common | default | false | org.reactivestreams | reactive-streams |
+| axon-common | Axon Framework - Common | default | true | javax.cache | cache-api |
 | axon-common | Axon Framework - Common | default | true | jakarta.validation | jakarta.validation-api |
+| axon-common | Axon Framework - Common | test | false | org.glassfish.expressly | expressly |
 | axon-common | Axon Framework - Common | default | true | jakarta.annotation | jakarta.annotation-api |
-| axon-common | Axon Framework - Common | default | false | org.slf4j | slf4j-api |
-| axon-common | Axon Framework - Common | default | true | io.projectreactor | reactor-core |
+| axon-common | Axon Framework - Common | test | false | io.projectreactor | reactor-test |
+| axon-common | Axon Framework - Common | default | true | org.hibernate.orm | hibernate-core |
+| axon-common | Axon Framework - Common | default | true | jakarta.persistence | jakarta.persistence-api |
+| axon-common | Axon Framework - Common | test | false | org.hibernate.validator | hibernate-validator |
 | axon-common | Axon Framework - Common | test | false | org.springframework | spring-orm |
+| axon-common | Axon Framework - Common | test | false | org.springframework | spring-tx |
+| axon-common | Axon Framework - Common | provided | false | com.google.code.findbugs | jsr305 |
 | axon-common | Axon Framework - Common | default | true | org.ehcache | ehcache |
-| axon-conversion | Axon Framework - Conversion | default | false | com.fasterxml.jackson.core | jackson-core |
-| axon-conversion | Axon Framework - Conversion | default | true | org.apache.avro | avro |
-| axon-conversion | Axon Framework - Conversion | default | false | tools.jackson.core | jackson-core |
-| axon-conversion | Axon Framework - Conversion | default | true | com.fasterxml.jackson.datatype | jackson-datatype-jsr310 |
-| axon-conversion | Axon Framework - Conversion | test | false | tools.jackson.dataformat | jackson-dataformat-cbor |
-| axon-conversion | Axon Framework - Conversion | default | false | com.fasterxml.jackson.core | jackson-databind |
-| axon-conversion | Axon Framework - Conversion | default | false | tools.jackson.core | jackson-databind |
-| axon-conversion | Axon Framework - Conversion | test | false | org.axonframework | axon-common |
-| axon-conversion | Axon Framework - Conversion | test | false | com.fasterxml.jackson.module | jackson-module-parameter-names |
+| axon-common | Axon Framework - Common | default | true | com.fasterxml.jackson.datatype | jackson-datatype-jsr310 |
+| axon-common | Axon Framework - Common | test | false | org.springframework.security | spring-security-config |
+| axon-common | Axon Framework - Common | default | false | com.fasterxml.jackson.core | jackson-core |
+| axon-common | Axon Framework - Common | default | true | io.projectreactor | reactor-core |
+| axon-common | Axon Framework - Common | default | false | org.slf4j | slf4j-api |
+| axon-common | Axon Framework - Common | test | false | org.springframework | spring-context-support |
+| axon-common | Axon Framework - Common | test | false | org.springframework | spring-test |
 | axon-conversion | Axon Framework - Conversion | default | false | org.axonframework | axon-common |
-| axon-conversion | Axon Framework - Conversion | default | true | jakarta.annotation | jakarta.annotation-api |
+| axon-conversion | Axon Framework - Conversion | test | false | org.axonframework | axon-common |
+| axon-conversion | Axon Framework - Conversion | default | false | tools.jackson.core | jackson-core |
+| axon-conversion | Axon Framework - Conversion | default | false | com.fasterxml.jackson.core | jackson-core |
 | axon-conversion | Axon Framework - Conversion | test | false | com.fasterxml.jackson.dataformat | jackson-dataformat-cbor |
-| axon-eventsourcing | Axon Framework - Event Sourcing | test | false | io.projectreactor | reactor-test |
+| axon-conversion | Axon Framework - Conversion | test | false | tools.jackson.dataformat | jackson-dataformat-cbor |
+| axon-conversion | Axon Framework - Conversion | default | true | org.apache.avro | avro |
+| axon-conversion | Axon Framework - Conversion | default | false | tools.jackson.core | jackson-databind |
+| axon-conversion | Axon Framework - Conversion | default | true | com.fasterxml.jackson.datatype | jackson-datatype-jsr310 |
+| axon-conversion | Axon Framework - Conversion | default | true | jakarta.annotation | jakarta.annotation-api |
+| axon-conversion | Axon Framework - Conversion | default | false | com.fasterxml.jackson.core | jackson-databind |
+| axon-conversion | Axon Framework - Conversion | test | false | com.fasterxml.jackson.module | jackson-module-parameter-names |
 | axon-eventsourcing | Axon Framework - Event Sourcing | test | false | tools.jackson.core | jackson-databind |
-| axon-eventsourcing | Axon Framework - Event Sourcing | test | false | com.fasterxml.jackson.dataformat | jackson-dataformat-cbor |
-| axon-eventsourcing | Axon Framework - Event Sourcing | test | false | org.hibernate.validator | hibernate-validator |
-| axon-eventsourcing | Axon Framework - Event Sourcing | test | false | org.ehcache | ehcache |
 | axon-eventsourcing | Axon Framework - Event Sourcing | default | false | org.axonframework | axon-modelling |
-| axon-eventsourcing | Axon Framework - Event Sourcing | test | false | org.hibernate.orm | hibernate-core |
-| axon-eventsourcing | Axon Framework - Event Sourcing | test | false | org.springframework | spring-test |
+| axon-eventsourcing | Axon Framework - Event Sourcing | test | false | org.hibernate.validator | hibernate-validator |
+| axon-eventsourcing | Axon Framework - Event Sourcing | test | false | io.projectreactor | reactor-test |
+| axon-eventsourcing | Axon Framework - Event Sourcing | default | true | jakarta.validation | jakarta.validation-api |
+| axon-eventsourcing | Axon Framework - Event Sourcing | test | false | org.ehcache | ehcache |
+| axon-eventsourcing | Axon Framework - Event Sourcing | test | false | com.tngtech.archunit | archunit-junit5 |
+| axon-eventsourcing | Axon Framework - Event Sourcing | test | false | org.springframework | spring-context-support |
+| axon-eventsourcing | Axon Framework - Event Sourcing | test | false | org.springframework | spring-orm |
+| axon-eventsourcing | Axon Framework - Event Sourcing | test | false | org.testcontainers | testcontainers-junit-jupiter |
+| axon-eventsourcing | Axon Framework - Event Sourcing | default | true | io.projectreactor | reactor-core |
+| axon-eventsourcing | Axon Framework - Event Sourcing | test | false | nl.jqno.equalsverifier | equalsverifier |
+| axon-eventsourcing | Axon Framework - Event Sourcing | test | false | org.springframework | spring-tx |
+| axon-eventsourcing | Axon Framework - Event Sourcing | test | false | org.springframework.security | spring-security-config |
+| axon-eventsourcing | Axon Framework - Event Sourcing | test | false | jakarta.el | jakarta.el-api |
+| axon-eventsourcing | Axon Framework - Event Sourcing | test | false | com.mysql | mysql-connector-j |
+| axon-eventsourcing | Axon Framework - Event Sourcing | provided | false | com.google.code.findbugs | jsr305 |
+| axon-eventsourcing | Axon Framework - Event Sourcing | default | false | org.reactivestreams | reactive-streams |
+| axon-eventsourcing | Axon Framework - Event Sourcing | test | false | org.axonframework | axon-messaging |
+| axon-eventsourcing | Axon Framework - Event Sourcing | default | true | jakarta.persistence | jakarta.persistence-api |
 | axon-eventsourcing | Axon Framework - Event Sourcing | test | false | org.axonframework | axon-common |
 | axon-eventsourcing | Axon Framework - Event Sourcing | test | false | com.fasterxml.jackson.core | jackson-databind |
-| axon-eventsourcing | Axon Framework - Event Sourcing | default | false | org.reactivestreams | reactive-streams |
-| axon-eventsourcing | Axon Framework - Event Sourcing | test | false | com.tngtech.archunit | archunit-junit5 |
-| axon-eventsourcing | Axon Framework - Event Sourcing | default | true | jakarta.persistence | jakarta.persistence-api |
-| axon-eventsourcing | Axon Framework - Event Sourcing | test | false | nl.jqno.equalsverifier | equalsverifier |
-| axon-eventsourcing | Axon Framework - Event Sourcing | test | false | org.testcontainers | testcontainers-mysql |
-| axon-eventsourcing | Axon Framework - Event Sourcing | provided | false | com.google.code.findbugs | jsr305 |
-| axon-eventsourcing | Axon Framework - Event Sourcing | test | false | org.springframework | spring-context-support |
-| axon-eventsourcing | Axon Framework - Event Sourcing | default | true | io.projectreactor | reactor-core |
-| axon-eventsourcing | Axon Framework - Event Sourcing | test | false | org.springframework.security | spring-security-config |
-| axon-eventsourcing | Axon Framework - Event Sourcing | test | false | com.fasterxml.jackson.datatype | jackson-datatype-jsr310 |
-| axon-eventsourcing | Axon Framework - Event Sourcing | test | false | org.axonframework | axon-messaging |
-| axon-eventsourcing | Axon Framework - Event Sourcing | test | false | jakarta.el | jakarta.el-api |
 | axon-eventsourcing | Axon Framework - Event Sourcing | default | false | org.axonframework | axon-messaging |
-| axon-eventsourcing | Axon Framework - Event Sourcing | test | false | org.testcontainers | testcontainers-junit-jupiter |
-| axon-eventsourcing | Axon Framework - Event Sourcing | test | false | com.mysql | mysql-connector-j |
-| axon-eventsourcing | Axon Framework - Event Sourcing | test | false | org.springframework | spring-tx |
-| axon-eventsourcing | Axon Framework - Event Sourcing | test | false | com.fasterxml.jackson.core | jackson-core |
-| axon-eventsourcing | Axon Framework - Event Sourcing | test | false | org.glassfish.expressly | expressly |
-| axon-eventsourcing | Axon Framework - Event Sourcing | default | true | jakarta.validation | jakarta.validation-api |
-| axon-eventsourcing | Axon Framework - Event Sourcing | test | false | org.springframework | spring-orm |
+| axon-eventsourcing | Axon Framework - Event Sourcing | test | false | org.hibernate.orm | hibernate-core |
 | axon-eventsourcing | Axon Framework - Event Sourcing | test | false | org.hsqldb | hsqldb |
-| axon-messaging | Axon Framework - Messaging | test | false | org.axonframework | axon-conversion |
-| axon-messaging | Axon Framework - Messaging | default | true | org.ehcache | ehcache |
-| axon-messaging | Axon Framework - Messaging | default | false | org.slf4j | slf4j-api |
-| axon-messaging | Axon Framework - Messaging | default | true | tools.jackson.core | jackson-databind |
-| axon-messaging | Axon Framework - Messaging | test | false | io.projectreactor | reactor-test |
-| axon-messaging | Axon Framework - Messaging | test | false | org.springframework | spring-orm |
-| axon-messaging | Axon Framework - Messaging | default | true | org.quartz-scheduler | quartz |
-| axon-messaging | Axon Framework - Messaging | test | false | com.fasterxml.jackson.module | jackson-module-parameter-names |
-| axon-messaging | Axon Framework - Messaging | test | false | org.springframework | spring-tx |
-| axon-messaging | Axon Framework - Messaging | test | false | com.fasterxml.jackson.dataformat | jackson-dataformat-cbor |
-| axon-messaging | Axon Framework - Messaging | test | false | org.hibernate.validator | hibernate-validator |
-| axon-messaging | Axon Framework - Messaging | test | false | org.axonframework | axon-common |
-| axon-messaging | Axon Framework - Messaging | default | true | com.fasterxml.jackson.datatype | jackson-datatype-jsr310 |
-| axon-messaging | Axon Framework - Messaging | default | true | org.hibernate.orm | hibernate-core |
-| axon-messaging | Axon Framework - Messaging | default | true | io.projectreactor | reactor-core |
+| axon-eventsourcing | Axon Framework - Event Sourcing | test | false | com.fasterxml.jackson.datatype | jackson-datatype-jsr310 |
+| axon-eventsourcing | Axon Framework - Event Sourcing | test | false | org.testcontainers | testcontainers-mysql |
+| axon-eventsourcing | Axon Framework - Event Sourcing | test | false | com.fasterxml.jackson.core | jackson-core |
+| axon-eventsourcing | Axon Framework - Event Sourcing | test | false | com.fasterxml.jackson.dataformat | jackson-dataformat-cbor |
+| axon-eventsourcing | Axon Framework - Event Sourcing | test | false | org.springframework | spring-test |
+| axon-eventsourcing | Axon Framework - Event Sourcing | test | false | org.glassfish.expressly | expressly |
 | axon-messaging | Axon Framework - Messaging | test | false | org.glassfish.expressly | expressly |
-| axon-messaging | Axon Framework - Messaging | default | true | javax.cache | cache-api |
-| axon-messaging | Axon Framework - Messaging | test | false | com.google.code.gson | gson |
-| axon-messaging | Axon Framework - Messaging | provided | false | com.google.code.findbugs | jsr305 |
-| axon-messaging | Axon Framework - Messaging | default | true | com.github.kagkarlsson | db-scheduler |
 | axon-messaging | Axon Framework - Messaging | default | false | org.reactivestreams | reactive-streams |
-| axon-messaging | Axon Framework - Messaging | test | false | org.springframework | spring-context-support |
-| axon-messaging | Axon Framework - Messaging | test | false | org.hsqldb | hsqldb |
-| axon-messaging | Axon Framework - Messaging | default | true | org.jobrunr | jobrunr |
-| axon-messaging | Axon Framework - Messaging | default | true | jakarta.validation | jakarta.validation-api |
-| axon-messaging | Axon Framework - Messaging | default | true | jakarta.persistence | jakarta.persistence-api |
-| axon-messaging | Axon Framework - Messaging | default | false | org.axonframework | axon-common |
-| axon-messaging | Axon Framework - Messaging | test | false | tools.jackson.dataformat | jackson-dataformat-cbor |
-| axon-messaging | Axon Framework - Messaging | default | false | org.axonframework | axon-conversion |
-| axon-messaging | Axon Framework - Messaging | test | false | org.springframework.security | spring-security-config |
+| axon-messaging | Axon Framework - Messaging | provided | false | com.google.code.findbugs | jsr305 |
+| axon-messaging | Axon Framework - Messaging | default | true | javax.cache | cache-api |
 | axon-messaging | Axon Framework - Messaging | default | false | org.axonframework | axon-update |
+| axon-messaging | Axon Framework - Messaging | test | false | org.springframework | spring-context-support |
+| axon-messaging | Axon Framework - Messaging | default | true | org.jobrunr | jobrunr |
+| axon-messaging | Axon Framework - Messaging | test | false | com.google.code.gson | gson |
+| axon-messaging | Axon Framework - Messaging | default | true | tools.jackson.core | jackson-databind |
+| axon-messaging | Axon Framework - Messaging | test | false | com.fasterxml.jackson.module | jackson-module-parameter-names |
+| axon-messaging | Axon Framework - Messaging | test | false | org.hibernate.validator | hibernate-validator |
+| axon-messaging | Axon Framework - Messaging | test | false | tools.jackson.dataformat | jackson-dataformat-cbor |
+| axon-messaging | Axon Framework - Messaging | test | false | org.springframework.security | spring-security-config |
+| axon-messaging | Axon Framework - Messaging | default | true | org.ehcache | ehcache |
+| axon-messaging | Axon Framework - Messaging | default | true | com.github.kagkarlsson | db-scheduler |
+| axon-messaging | Axon Framework - Messaging | default | true | io.projectreactor | reactor-core |
+| axon-messaging | Axon Framework - Messaging | default | true | com.fasterxml.jackson.datatype | jackson-datatype-jsr310 |
+| axon-messaging | Axon Framework - Messaging | default | true | jakarta.validation | jakarta.validation-api |
+| axon-messaging | Axon Framework - Messaging | test | false | org.axonframework | axon-common |
+| axon-messaging | Axon Framework - Messaging | test | false | org.springframework | spring-orm |
+| axon-messaging | Axon Framework - Messaging | test | false | io.projectreactor | reactor-test |
 | axon-messaging | Axon Framework - Messaging | test | false | org.springframework | spring-test |
+| axon-messaging | Axon Framework - Messaging | default | false | org.slf4j | slf4j-api |
+| axon-messaging | Axon Framework - Messaging | default | false | org.axonframework | axon-common |
+| axon-messaging | Axon Framework - Messaging | test | false | org.hsqldb | hsqldb |
+| axon-messaging | Axon Framework - Messaging | default | true | jakarta.persistence | jakarta.persistence-api |
+| axon-messaging | Axon Framework - Messaging | default | false | org.axonframework | axon-conversion |
+| axon-messaging | Axon Framework - Messaging | test | false | com.fasterxml.jackson.dataformat | jackson-dataformat-cbor |
+| axon-messaging | Axon Framework - Messaging | test | false | org.springframework | spring-tx |
+| axon-messaging | Axon Framework - Messaging | test | false | org.axonframework | axon-conversion |
+| axon-messaging | Axon Framework - Messaging | default | true | org.hibernate.orm | hibernate-core |
+| axon-messaging | Axon Framework - Messaging | default | true | org.quartz-scheduler | quartz |
 | axon-metrics-micrometer | Axon Extension - Metrics - Micrometer | default | false | jakarta.annotation | jakarta.annotation-api |
-| axon-metrics-micrometer | Axon Extension - Metrics - Micrometer | default | true | org.axonframework.extensions.spring | axon-spring-boot-autoconfigure |
-| axon-metrics-micrometer | Axon Extension - Metrics - Micrometer | test | false | org.springframework.boot | spring-boot-starter-test |
-| axon-metrics-micrometer | Axon Extension - Metrics - Micrometer | default | false | org.axonframework | axon-messaging |
-| axon-metrics-micrometer | Axon Extension - Metrics - Micrometer | default | true | org.springframework.boot | spring-boot-starter |
 | axon-metrics-micrometer | Axon Extension - Metrics - Micrometer | default | false | io.micrometer | micrometer-core |
-| axon-metrics-micrometer | Axon Extension - Metrics - Micrometer | test | false | org.axonframework | axon-messaging |
-| axon-metrics-micrometer | Axon Extension - Metrics - Micrometer | provided | false | com.google.code.findbugs | jsr305 |
 | axon-metrics-micrometer | Axon Extension - Metrics - Micrometer | test | false | org.axonframework | axon-common |
-| axon-modelling | Axon Framework - Modelling | test | true | com.fasterxml.jackson.datatype | jackson-datatype-jsr310 |
-| axon-modelling | Axon Framework - Modelling | default | false | org.axonframework | axon-messaging |
-| axon-modelling | Axon Framework - Modelling | test | false | org.springframework.security | spring-security-config |
-| axon-modelling | Axon Framework - Modelling | test | false | org.axonframework | axon-common |
-| axon-modelling | Axon Framework - Modelling | test | false | org.springframework | spring-tx |
-| axon-modelling | Axon Framework - Modelling | test | false | org.glassfish.expressly | expressly |
-| axon-modelling | Axon Framework - Modelling | test | false | org.axonframework | axon-messaging |
-| axon-modelling | Axon Framework - Modelling | test | false | org.springframework | spring-orm |
-| axon-modelling | Axon Framework - Modelling | default | true | com.fasterxml.jackson.core | jackson-databind |
-| axon-modelling | Axon Framework - Modelling | default | true | jakarta.persistence | jakarta.persistence-api |
-| axon-modelling | Axon Framework - Modelling | provided | false | com.google.code.findbugs | jsr305 |
-| axon-modelling | Axon Framework - Modelling | default | true | javax.cache | cache-api |
-| axon-modelling | Axon Framework - Modelling | default | false | org.slf4j | slf4j-api |
-| axon-modelling | Axon Framework - Modelling | test | false | org.springframework | spring-context-support |
-| axon-modelling | Axon Framework - Modelling | default | true | org.quartz-scheduler | quartz |
-| axon-modelling | Axon Framework - Modelling | test | false | org.hsqldb | hsqldb |
+| axon-metrics-micrometer | Axon Extension - Metrics - Micrometer | default | false | org.axonframework | axon-messaging |
+| axon-metrics-micrometer | Axon Extension - Metrics - Micrometer | test | false | org.axonframework | axon-messaging |
+| axon-metrics-micrometer | Axon Extension - Metrics - Micrometer | default | true | org.springframework.boot | spring-boot-starter |
+| axon-metrics-micrometer | Axon Extension - Metrics - Micrometer | test | false | org.springframework.boot | spring-boot-starter-test |
+| axon-metrics-micrometer | Axon Extension - Metrics - Micrometer | default | true | org.axonframework.extensions.spring | axon-spring-boot-autoconfigure |
+| axon-metrics-micrometer | Axon Extension - Metrics - Micrometer | provided | false | com.google.code.findbugs | jsr305 |
 | axon-modelling | Axon Framework - Modelling | default | true | org.ehcache | ehcache |
-| axon-modelling | Axon Framework - Modelling | test | false | org.postgresql | postgresql |
-| axon-modelling | Axon Framework - Modelling | test | false | com.mysql | mysql-connector-j |
-| axon-modelling | Axon Framework - Modelling | test | false | org.hibernate.orm | hibernate-core |
-| axon-modelling | Axon Framework - Modelling | test | false | org.hibernate.validator | hibernate-validator |
 | axon-modelling | Axon Framework - Modelling | test | false | org.springframework | spring-test |
-| axon-server-connector | Axoniq Framework - Axon Server Connector | test | false | io.projectreactor | reactor-test |
-| axon-server-connector | Axoniq Framework - Axon Server Connector | default | true | org.springframework | spring-context |
-| axon-server-connector | Axoniq Framework - Axon Server Connector | test | false | io.axoniq.framework | axoniq-testcontainer |
-| axon-server-connector | Axoniq Framework - Axon Server Connector | test | false | org.testcontainers | testcontainers-junit-jupiter |
-| axon-server-connector | Axoniq Framework - Axon Server Connector | default | true | org.springframework.boot | spring-boot-starter |
-| axon-server-connector | Axoniq Framework - Axon Server Connector | test | false | org.axonframework | axon-test |
-| axon-server-connector | Axoniq Framework - Axon Server Connector | test | false | org.axonframework | axon-common |
-| axon-server-connector | Axoniq Framework - Axon Server Connector | default | false | io.axoniq | axonserver-connector-java |
-| axon-server-connector | Axoniq Framework - Axon Server Connector | test | false | org.axonframework | axon-messaging |
-| axon-server-connector | Axoniq Framework - Axon Server Connector | default | true | org.springframework.boot | spring-boot-configuration-processor |
-| axon-server-connector | Axoniq Framework - Axon Server Connector | default | false | io.axoniq.framework | axoniq-distributed-messaging |
-| axon-server-connector | Axoniq Framework - Axon Server Connector | default | true | org.axonframework | axon-eventsourcing |
-| axon-server-connector | Axoniq Framework - Axon Server Connector | test | false | org.testcontainers | testcontainers |
+| axon-modelling | Axon Framework - Modelling | default | false | org.axonframework | axon-messaging |
+| axon-modelling | Axon Framework - Modelling | default | true | org.quartz-scheduler | quartz |
+| axon-modelling | Axon Framework - Modelling | default | true | javax.cache | cache-api |
+| axon-modelling | Axon Framework - Modelling | provided | false | com.google.code.findbugs | jsr305 |
+| axon-modelling | Axon Framework - Modelling | test | false | org.springframework | spring-tx |
+| axon-modelling | Axon Framework - Modelling | test | false | org.axonframework | axon-common |
+| axon-modelling | Axon Framework - Modelling | test | false | org.hibernate.validator | hibernate-validator |
+| axon-modelling | Axon Framework - Modelling | test | false | org.hibernate.orm | hibernate-core |
+| axon-modelling | Axon Framework - Modelling | default | false | org.slf4j | slf4j-api |
+| axon-modelling | Axon Framework - Modelling | test | false | org.postgresql | postgresql |
+| axon-modelling | Axon Framework - Modelling | default | true | jakarta.persistence | jakarta.persistence-api |
+| axon-modelling | Axon Framework - Modelling | test | false | org.springframework | spring-context-support |
+| axon-modelling | Axon Framework - Modelling | test | false | org.springframework | spring-orm |
+| axon-modelling | Axon Framework - Modelling | test | false | org.glassfish.expressly | expressly |
+| axon-modelling | Axon Framework - Modelling | test | false | org.hsqldb | hsqldb |
+| axon-modelling | Axon Framework - Modelling | test | false | org.axonframework | axon-messaging |
+| axon-modelling | Axon Framework - Modelling | test | false | com.mysql | mysql-connector-j |
+| axon-modelling | Axon Framework - Modelling | default | true | com.fasterxml.jackson.core | jackson-databind |
+| axon-modelling | Axon Framework - Modelling | test | false | org.springframework.security | spring-security-config |
+| axon-modelling | Axon Framework - Modelling | test | true | com.fasterxml.jackson.datatype | jackson-datatype-jsr310 |
 | axon-server-connector | Axoniq Framework - Axon Server Connector | test | false | org.axonframework | axon-eventsourcing |
+| axon-server-connector | Axoniq Framework - Axon Server Connector | test | false | org.axonframework | axon-messaging |
+| axon-server-connector | Axoniq Framework - Axon Server Connector | test | false | org.axonframework | axon-common |
 | axon-server-connector | Axoniq Framework - Axon Server Connector | default | true | org.axonframework | axon-messaging |
+| axon-server-connector | Axoniq Framework - Axon Server Connector | test | false | org.testcontainers | testcontainers-junit-jupiter |
+| axon-server-connector | Axoniq Framework - Axon Server Connector | default | true | org.axonframework | axon-eventsourcing |
+| axon-server-connector | Axoniq Framework - Axon Server Connector | default | false | io.axoniq | axonserver-connector-java |
+| axon-server-connector | Axoniq Framework - Axon Server Connector | test | false | io.axoniq.framework | axoniq-testcontainer |
+| axon-server-connector | Axoniq Framework - Axon Server Connector | default | true | org.springframework | spring-context |
+| axon-server-connector | Axoniq Framework - Axon Server Connector | test | false | io.projectreactor | reactor-test |
 | axon-server-connector | Axoniq Framework - Axon Server Connector | default | true | io.projectreactor | reactor-core |
-| axon-test | Axon Framework - Test Fixtures | compile | false | org.junit.jupiter | junit-jupiter |
-| axon-test | Axon Framework - Test Fixtures | compile | false | org.awaitility | awaitility |
-| axon-test | Axon Framework - Test Fixtures | test | false | com.fasterxml.jackson.module | jackson-module-parameter-names |
-| axon-test | Axon Framework - Test Fixtures | test | false | com.fasterxml.jackson.core | jackson-databind |
-| axon-test | Axon Framework - Test Fixtures | compile | false | org.hamcrest | hamcrest-library |
-| axon-test | Axon Framework - Test Fixtures | test | false | com.fasterxml.jackson.datatype | jackson-datatype-jsr310 |
-| axon-test | Axon Framework - Test Fixtures | test | false | com.fasterxml.jackson.core | jackson-core |
-| axon-test | Axon Framework - Test Fixtures | compile | false | org.hamcrest | hamcrest |
+| axon-server-connector | Axoniq Framework - Axon Server Connector | default | true | org.springframework.boot | spring-boot-starter |
+| axon-server-connector | Axoniq Framework - Axon Server Connector | default | true | org.springframework.boot | spring-boot-configuration-processor |
+| axon-server-connector | Axoniq Framework - Axon Server Connector | test | false | org.testcontainers | testcontainers |
+| axon-server-connector | Axoniq Framework - Axon Server Connector | test | false | org.axonframework | axon-test |
+| axon-server-connector | Axoniq Framework - Axon Server Connector | default | false | io.axoniq.framework | axoniq-distributed-messaging |
 | axon-test | Axon Framework - Test Fixtures | test | false | jakarta.inject | jakarta.inject-api |
-| axon-test | Axon Framework - Test Fixtures | test | false | org.axonframework | axon-common |
-| axon-test | Axon Framework - Test Fixtures | test | false | jakarta.persistence | jakarta.persistence-api |
+| axon-test | Axon Framework - Test Fixtures | test | false | com.fasterxml.jackson.module | jackson-module-parameter-names |
+| axon-test | Axon Framework - Test Fixtures | compile | false | org.junit.jupiter | junit-jupiter |
+| axon-test | Axon Framework - Test Fixtures | test | false | com.fasterxml.jackson.core | jackson-core |
 | axon-test | Axon Framework - Test Fixtures | default | false | org.axonframework | axon-eventsourcing |
-| axon-tracing-opentelemetry | Axon Extension - Tracing - OpenTelemetry | test | false | org.axonframework | axon-common |
-| axon-tracing-opentelemetry | Axon Extension - Tracing - OpenTelemetry | provided | false | com.google.code.findbugs | jsr305 |
-| axon-tracing-opentelemetry | Axon Extension - Tracing - OpenTelemetry | default | false | jakarta.annotation | jakarta.annotation-api |
+| axon-test | Axon Framework - Test Fixtures | compile | false | org.hamcrest | hamcrest |
+| axon-test | Axon Framework - Test Fixtures | test | false | com.fasterxml.jackson.core | jackson-databind |
+| axon-test | Axon Framework - Test Fixtures | test | false | jakarta.persistence | jakarta.persistence-api |
+| axon-test | Axon Framework - Test Fixtures | test | false | com.fasterxml.jackson.datatype | jackson-datatype-jsr310 |
+| axon-test | Axon Framework - Test Fixtures | compile | false | org.hamcrest | hamcrest-library |
+| axon-test | Axon Framework - Test Fixtures | compile | false | org.awaitility | awaitility |
+| axon-test | Axon Framework - Test Fixtures | test | false | org.axonframework | axon-common |
 | axon-tracing-opentelemetry | Axon Extension - Tracing - OpenTelemetry | default | false | io.opentelemetry | opentelemetry-api |
+| axon-tracing-opentelemetry | Axon Extension - Tracing - OpenTelemetry | test | false | org.axonframework | axon-common |
+| axon-tracing-opentelemetry | Axon Extension - Tracing - OpenTelemetry | default | false | jakarta.annotation | jakarta.annotation-api |
+| axon-tracing-opentelemetry | Axon Extension - Tracing - OpenTelemetry | provided | false | com.google.code.findbugs | jsr305 |
 | axon-tracing-opentelemetry | Axon Extension - Tracing - OpenTelemetry | default | false | org.axonframework | axon-messaging |
-| axon-update | Axon Framework - Update | test | false | org.axonframework | axon-common |
 | axon-update | Axon Framework - Update | default | false | jakarta.annotation | jakarta.annotation-api |
 | axon-update | Axon Framework - Update | default | false | org.axonframework | axon-common |
-| axoniq-spring-boot-autoconfigure | Axoniq Framework - Spring Boot Autoconfigure | test | false | org.hibernate.orm | hibernate-core |
-| axoniq-spring-boot-autoconfigure | Axoniq Framework - Spring Boot Autoconfigure | default | true | org.testcontainers | testcontainers |
+| axon-update | Axon Framework - Update | test | false | org.axonframework | axon-common |
+| axoniq-spring-boot-autoconfigure | Axoniq Framework - Spring Boot Autoconfigure | default | false | io.axoniq.framework | axon-server-connector |
+| axoniq-spring-boot-autoconfigure | Axoniq Framework - Spring Boot Autoconfigure | test | false | org.axonframework | axon-messaging |
+| axoniq-spring-boot-autoconfigure | Axoniq Framework - Spring Boot Autoconfigure | default | true | org.springframework.boot | spring-boot-testcontainers |
 | axoniq-spring-boot-autoconfigure | Axoniq Framework - Spring Boot Autoconfigure | compile | false | io.axoniq.framework | axoniq-testcontainer |
 | axoniq-spring-boot-autoconfigure | Axoniq Framework - Spring Boot Autoconfigure | default | true | io.axoniq.framework | axoniq-postgresql |
-| axoniq-spring-boot-autoconfigure | Axoniq Framework - Spring Boot Autoconfigure | test | false | org.axonframework | axon-messaging |
-| axoniq-spring-boot-autoconfigure | Axoniq Framework - Spring Boot Autoconfigure | default | false | org.axonframework.extensions.spring | axon-spring-boot-starter |
-| axoniq-spring-boot-autoconfigure | Axoniq Framework - Spring Boot Autoconfigure | test | false | org.hsqldb | hsqldb |
 | axoniq-spring-boot-autoconfigure | Axoniq Framework - Spring Boot Autoconfigure | default | true | io.axoniq.framework | axoniq-dead-letter |
-| axoniq-spring-boot-autoconfigure | Axoniq Framework - Spring Boot Autoconfigure | default | true | org.springframework.boot | spring-boot-testcontainers |
-| axoniq-spring-boot-autoconfigure | Axoniq Framework - Spring Boot Autoconfigure | default | false | io.axoniq.framework | axon-server-connector |
-| axoniq-spring-boot-autoconfigure | Axoniq Framework - Spring Boot Autoconfigure | test | false | org.springframework.boot | spring-boot-starter-data-jpa |
-| axoniq-spring-boot-autoconfigure | Axoniq Framework - Spring Boot Autoconfigure | test | false | org.testcontainers | testcontainers-junit-jupiter |
-| axoniq-spring-boot-autoconfigure | Axoniq Framework - Spring Boot Autoconfigure | test | false | io.axoniq.framework | axoniq-dead-letter |
+| axoniq-spring-boot-autoconfigure | Axoniq Framework - Spring Boot Autoconfigure | default | false | org.axonframework.extensions.spring | axon-spring-boot-starter |
 | axoniq-spring-boot-autoconfigure | Axoniq Framework - Spring Boot Autoconfigure | test | false | org.springframework.boot | spring-boot-starter-test |
-| axoniq-spring-boot-autoconfigure | Axoniq Framework - Spring Boot Autoconfigure | default | true | jakarta.persistence | jakarta.persistence-api |
-| axoniq-spring-boot-autoconfigure | Axoniq Framework - Spring Boot Autoconfigure | default | true | org.springframework.boot | spring-boot-docker-compose |
-| axoniq-spring-boot-autoconfigure | Axoniq Framework - Spring Boot Autoconfigure | default | true | org.springframework.boot | spring-boot-actuator |
 | axoniq-spring-boot-autoconfigure | Axoniq Framework - Spring Boot Autoconfigure | default | true | org.springframework.boot | spring-boot-autoconfigure |
 | axoniq-spring-boot-autoconfigure | Axoniq Framework - Spring Boot Autoconfigure | test | false | org.axonframework | axon-common |
+| axoniq-spring-boot-autoconfigure | Axoniq Framework - Spring Boot Autoconfigure | test | false | io.axoniq.framework | axoniq-dead-letter |
+| axoniq-spring-boot-autoconfigure | Axoniq Framework - Spring Boot Autoconfigure | test | false | org.hibernate.orm | hibernate-core |
+| axoniq-spring-boot-autoconfigure | Axoniq Framework - Spring Boot Autoconfigure | test | false | org.testcontainers | testcontainers-junit-jupiter |
+| axoniq-spring-boot-autoconfigure | Axoniq Framework - Spring Boot Autoconfigure | test | false | org.springframework.boot | spring-boot-starter-data-jpa |
+| axoniq-spring-boot-autoconfigure | Axoniq Framework - Spring Boot Autoconfigure | default | true | jakarta.persistence | jakarta.persistence-api |
+| axoniq-spring-boot-autoconfigure | Axoniq Framework - Spring Boot Autoconfigure | default | true | org.springframework.boot | spring-boot-actuator |
+| axoniq-spring-boot-autoconfigure | Axoniq Framework - Spring Boot Autoconfigure | default | true | org.testcontainers | testcontainers |
+| axoniq-spring-boot-autoconfigure | Axoniq Framework - Spring Boot Autoconfigure | default | true | org.springframework.boot | spring-boot-docker-compose |
+| axoniq-spring-boot-autoconfigure | Axoniq Framework - Spring Boot Autoconfigure | test | false | org.hsqldb | hsqldb |
 
 ### 4.2 package.json Declared Dependencies
 

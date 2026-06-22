@@ -12,48 +12,11 @@ strict digraph TopBridge4 {
     central [fontsize = 16;];
     central [color = 7; fillcolor = 5; penwidth = 3;];
 
-	graph   [label="Top Rank #4 Java Type Bridge\norg.axonframework.messaging.eventstreaming.TagFilteredEventCriteria\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
-	central [label="🌉 bridge #4\nTagFilteredEventCriteria"];
-	"EventCriteria_5194" [label = "EventCriteria"; ]; "EventCriteria_5194" -> central [label=2; weight=2; penwidth=0.4];
-	"OrEventCriteriaBuilder_19863" [label = "OrEventCriteriaBuilder"; ]; "OrEventCriteriaBuilder_19863" -> central [label=2; weight=2; penwidth=0.4];
-	"EventCriteria_5194" [label = "EventCriteria"; color = 5; fillcolor = 1; ]; central -> "EventCriteria_5194" [label=5; weight=5; penwidth=0.5; color = 5];
-	"OrEventCriteria_19862" [label = "OrEventCriteria"; color = 5; fillcolor = 1; ]; central -> "OrEventCriteria_19862" [label=5; weight=5; penwidth=0.5; color = 5];
-	"Tag_19907" [label = "Tag"; color = 5; fillcolor = 1; ]; central -> "Tag_19907" [label=5; weight=5; penwidth=0.5; color = 5];
-	"QualifiedName_143" [label = "QualifiedName"; color = 5; fillcolor = 1; ]; central -> "QualifiedName_143" [label=3; weight=3; penwidth=0.4; color = 5];
-	"EventCriterion_19874" [label = "EventCriterion"; color = 5; fillcolor = 1; ]; central -> "EventCriterion_19874" [label=2; weight=2; penwidth=0.4; color = 5];
-	"TagAndTypeFilteredEventCriteria_19909" [label = "TagAndTypeFilteredEventCriteria"; color = 5; fillcolor = 1; ]; central -> "TagAndTypeFilteredEventCriteria_19909" [label=2; weight=2; penwidth=0.4; color = 5];
-	"AnyEvent_19861" [label = "AnyEvent"; color = 5; fillcolor = 1; ]; central -> "AnyEvent_19861" [label=1; weight=1; penwidth=0.4; color = 5];
-	"EventTypeRestrictableEventCriteria_5196" [label = "EventTypeRestrictableEventCriteria"; color = 5; fillcolor = 1; ]; central -> "EventTypeRestrictableEventCriteria_5196" [label=1; weight=1; penwidth=0.4; color = 5];
-	"OrEventCriteria_19862" -> "EventCriteria_5194" [label=12; weight=12; penwidth=0.3; color = 3]
-	"EventTypeRestrictableEventCriteria_5196" -> "EventCriteria_5194" [label=6; weight=6; penwidth=0.3; color = 3]
-	"OrEventCriteriaBuilder_19863" -> "EventCriteria_5194" [label=6; weight=6; penwidth=0.3; color = 3]
-	"OrEventCriteriaBuilder_19863" -> "EventTypeRestrictableEventCriteria_5196" [label=6; weight=6; penwidth=0.3; color = 3]
-	"EventCriteria_5194" -> "Tag_19907" [label=5; weight=5; penwidth=0.3; color = 3]
-	"TagAndTypeFilteredEventCriteria_19909" -> "OrEventCriteria_19862" [label=5; weight=5; penwidth=0.3; color = 3]
-	"TagAndTypeFilteredEventCriteria_19909" -> "QualifiedName_143" [label=5; weight=5; penwidth=0.3; color = 3]
-	"TagAndTypeFilteredEventCriteria_19909" -> "Tag_19907" [label=5; weight=5; penwidth=0.3; color = 3]
-	"AnyEvent_19861" -> "EventCriteria_5194" [label=4; weight=4; penwidth=0.3; color = 3]
-	"EventCriteria_5194" -> "OrEventCriteria_19862" [label=4; weight=4; penwidth=0.3; color = 3]
-	"EventCriteria_5194" -> "EventTypeRestrictableEventCriteria_5196" [label=4; weight=4; penwidth=0.3; color = 3]
-	"TagAndTypeFilteredEventCriteria_19909" -> "EventCriteria_5194" [label=4; weight=4; penwidth=0.3; color = 3]
-	"EventCriteria_5194" -> "OrEventCriteriaBuilder_19863" [label=3; weight=3; penwidth=0.3; color = 3]
-	"EventTypeRestrictableEventCriteria_5196" -> "QualifiedName_143" [label=3; weight=3; penwidth=0.3; color = 3]
-	"AnyEvent_19861" -> "TagAndTypeFilteredEventCriteria_19909" [label=2; weight=2; penwidth=0.3; color = 3]
-	"AnyEvent_19861" -> "QualifiedName_143" [label=2; weight=2; penwidth=0.3; color = 3]
-	"EventCriteria_5194" -> "AnyEvent_19861" [label=2; weight=2; penwidth=0.3; color = 3]
-	"OrEventCriteria_19862" -> "QualifiedName_143" [label=2; weight=2; penwidth=0.3; color = 3]
-	"OrEventCriteriaBuilder_19863" -> "Tag_19907" [label=2; weight=2; penwidth=0.3; color = 3]
-	"TagAndTypeFilteredEventCriteria_19909" -> "EventCriterion_19874" [label=2; weight=2; penwidth=0.3; color = 3]
-	"AnyEvent_19861" -> "EventTypeRestrictableEventCriteria_5196" [label=1; weight=1; penwidth=0.3; color = 3]
-	"AnyEvent_19861" -> "Tag_19907" [label=1; weight=1; penwidth=0.3; color = 3]
-	"AnyEvent_19861" -> "EventCriterion_19874" [label=1; weight=1; penwidth=0.3; color = 3]
-	"EventCriteria_5194" -> "EventCriterion_19874" [label=1; weight=1; penwidth=0.3; color = 3]
-	"EventCriteria_5194" -> "QualifiedName_143" [label=1; weight=1; penwidth=0.3; color = 3]
-	"EventCriterion_19874" -> "Tag_19907" [label=1; weight=1; penwidth=0.3; color = 3]
-	"EventCriterion_19874" -> "QualifiedName_143" [label=1; weight=1; penwidth=0.3; color = 3]
-	"EventCriterion_19874" -> "EventCriteria_5194" [label=1; weight=1; penwidth=0.3; color = 3]
-	"OrEventCriteria_19862" -> "AnyEvent_19861" [label=1; weight=1; penwidth=0.3; color = 3]
-	"OrEventCriteria_19862" -> "Tag_19907" [label=1; weight=1; penwidth=0.3; color = 3]
-	"OrEventCriteria_19862" -> "EventCriterion_19874" [label=1; weight=1; penwidth=0.3; color = 3]
-	"TagAndTypeFilteredEventCriteria_19909" -> "AnyEvent_19861" [label=1; weight=1; penwidth=0.3; color = 3]
+	graph   [label="Top Rank #4 Java Type Bridge\norg.axonframework.common.TypeReflectionUtils$VarMap$ParameterizedTypeImpl\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
+	central [label="🌉 bridge #4\nTypeReflectionUtils$VarMap$ParameterizedTypeImpl"];
+	"TypeReflectionUtils$VarMap_7490" [label = "TypeReflectionUtils$\nVarMap"; ]; "TypeReflectionUtils$VarMap_7490" -> central [label=3; weight=3; penwidth=0.4];
+	"TypeReflectionUtils_9373" [label = "TypeReflectionUtils"; ]; "TypeReflectionUtils_9373" -> central [label=1; weight=1; penwidth=0.4];
+	"TypeReflectionUtils$VarMap_7490" [label = "TypeReflectionUtils$\nVarMap"; color = 5; fillcolor = 1; ]; central -> "TypeReflectionUtils$VarMap_7490" [label=1; weight=1; penwidth=0.4; color = 5];
+	"TypeReflectionUtils_9373" -> "TypeReflectionUtils$VarMap_7490" [label=5; weight=5; penwidth=0.3; color = 3]
+	"TypeReflectionUtils$VarMap_7490" -> "TypeReflectionUtils_9373" [label=2; weight=2; penwidth=0.3; color = 3]
 }

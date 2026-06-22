@@ -9,11 +9,11 @@ strict digraph cycle {
         label="org.axonframework.messaging.eventhandling.annotation";
         style="filled";
         fillcolor="lightblue";
+        "MethodEventHandlerDefinition";
         "TimestampParameterResolverFactory";
         "Event";
-        "MethodEventHandlerDefinition";
-        "MethodSequencingPolicyEventHandlerDefinition$SequencingPolicyEventMessageHandlingMember";
         "SequenceNumberParameterResolverFactory";
+        "MethodSequencingPolicyEventHandlerDefinition$SequencingPolicyEventMessageHandlingMember";
         "EventAppenderParameterResolverFactoryConfigurationEnhancer";
         "SequenceNumberParameterResolverFactory$SequenceNumberParameterResolver";
         "TimestampParameterResolverFactory$TimestampParameterResolver";
@@ -22,8 +22,8 @@ strict digraph cycle {
         "EventAppenderParameterResolverFactory$1";
         "EventAppenderParameterResolverFactory";
         "EventHandlingMember";
-        "AnnotatedEventHandlingComponent";
         "MethodEventHandlerDefinition$MethodEventMessageHandlingMember";
+        "AnnotatedEventHandlingComponent";
     }
 
     subgraph cluster_dependent {
@@ -33,14 +33,14 @@ strict digraph cycle {
         "WrappedMessageHandlingMember";
         "HandlerTypeResolver";
         "MessageHandler";
-        "ParameterResolver";
         "AbstractAnnotatedParameterResolverFactory";
+        "ParameterResolver";
         "MessageHandlingMember";
         "ParameterResolverFactory";
         "Message";
         "AnnotatedHandlerInspector";
-        "HandlerDefinition";
         "UnsupportedHandlerException";
+        "HandlerDefinition";
         "HandlerEnhancerDefinition";
         "SequencingPolicy";
     }
@@ -53,25 +53,25 @@ strict digraph cycle {
     "AnnotatedEventHandlingComponent" -> "ParameterResolverFactory" [color="#6699CC"; penwidth="0.5"];
     "SequenceNumberParameterResolverFactory$SequenceNumberParameterResolver" -> "ParameterResolver" [color="#6699CC"; penwidth="0.5"];
     "TimestampParameterResolverFactory$TimestampParameterResolver" -> "ParameterResolver" [color="#6699CC"; penwidth="0.5"];
-    "EventHandlingMember" -> "MessageHandlingMember" [color="#6699CC"; penwidth="0.5"];
     "AnnotatedEventHandlingComponent" -> "HandlerDefinition" [color="#6699CC"; penwidth="0.5"];
-    "MethodSequencingPolicyEventHandlerDefinition$SequencingPolicyEventMessageHandlingMember" -> "WrappedMessageHandlingMember" [color="#6699CC"; penwidth="0.5"];
-    "MethodSequencingPolicyEventHandlerDefinition$SequencingPolicyEventMessageHandlingMember" -> "UnsupportedHandlerException" [color="#6699CC"; penwidth="0.5"];
-    "EventHandler" -> "MessageHandler" [color="#6699CC"; penwidth="0.5"];
-    "Event" -> "Message" [color="#6699CC"; penwidth="0.5"];
+    "EventHandlingMember" -> "MessageHandlingMember" [color="#6699CC"; penwidth="0.5"];
     "SequenceNumberParameterResolverFactory" -> "ParameterResolver" [color="#6699CC"; penwidth="0.5"];
+    "MethodSequencingPolicyEventHandlerDefinition$SequencingPolicyEventMessageHandlingMember" -> "UnsupportedHandlerException" [color="#6699CC"; penwidth="0.5"];
+    "MethodSequencingPolicyEventHandlerDefinition$SequencingPolicyEventMessageHandlingMember" -> "WrappedMessageHandlingMember" [color="#6699CC"; penwidth="0.5"];
+    "Event" -> "Message" [color="#6699CC"; penwidth="0.5"];
+    "EventHandler" -> "MessageHandler" [color="#6699CC"; penwidth="0.5"];
     "AnnotatedEventHandlingComponent" -> "AnnotatedHandlerInspector" [color="#6699CC"; penwidth="0.5"];
     "MethodSequencingPolicyEventHandlerDefinition" -> "SequencingPolicy" [color="#6699CC"; penwidth="0.5"];
     "EventAppenderParameterResolverFactory" -> "ParameterResolverFactory" [color="#6699CC"; penwidth="0.5"];
     "EventAppenderParameterResolverFactoryConfigurationEnhancer" -> "ParameterResolverFactory" [color="#6699CC"; penwidth="0.5"];
     "SequenceNumberParameterResolverFactory" -> "AbstractAnnotatedParameterResolverFactory" [color="#6699CC"; penwidth="0.5"];
     "MethodEventHandlerDefinition$MethodEventMessageHandlingMember" -> "WrappedMessageHandlingMember" [color="#6699CC"; penwidth="0.5"];
-    "EventAppenderParameterResolverFactory$1" -> "ParameterResolver" [color="#6699CC"; penwidth="0.5"];
-    "MethodSequencingPolicyEventHandlerDefinition$SequencingPolicyEventMessageHandlingMember" -> "MessageHandlingMember" [color="#6699CC"; penwidth="0.5"];
-    "TimestampParameterResolverFactory" -> "ParameterResolver" [color="#6699CC"; penwidth="0.5"];
     "MethodEventHandlerDefinition$MethodEventMessageHandlingMember" -> "UnsupportedHandlerException" [color="#6699CC"; penwidth="0.5"];
+    "TimestampParameterResolverFactory" -> "ParameterResolver" [color="#6699CC"; penwidth="0.5"];
+    "MethodSequencingPolicyEventHandlerDefinition$SequencingPolicyEventMessageHandlingMember" -> "MessageHandlingMember" [color="#6699CC"; penwidth="0.5"];
+    "EventAppenderParameterResolverFactory$1" -> "ParameterResolver" [color="#6699CC"; penwidth="0.5"];
     "MethodEventHandlerDefinition" -> "MessageHandlingMember" [color="#6699CC"; penwidth="0.5"];
-    "TimestampParameterResolverFactory" -> "AbstractAnnotatedParameterResolverFactory" [color="#6699CC"; penwidth="0.5"];
     "MethodEventHandlerDefinition$MethodEventMessageHandlingMember" -> "MessageHandlingMember" [color="#6699CC"; penwidth="0.5"];
+    "TimestampParameterResolverFactory" -> "AbstractAnnotatedParameterResolverFactory" [color="#6699CC"; penwidth="0.5"];
     "HandlerTypeResolver" -> "EventHandler" [color="red"; penwidth="2.5"; style="dashed";];
 }

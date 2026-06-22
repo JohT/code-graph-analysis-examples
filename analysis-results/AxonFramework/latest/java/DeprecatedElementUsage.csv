@@ -1,5 +1,5 @@
 "artifactName","deprecatedElement","numberOfElementsUsingDeprecatedElements","someElementsUsingDeprecatedElements","Source Cypher File: domains/java/queries/java-code-quality/Java_deprecated_element_usage.cypher"
-"axon-eventsourcing-5.1.1","Field",2,"org.axonframework.eventsourcing.handler.SnapshottingEntityLifecycleHandler.storeSnapshot,org.axonframework.eventsourcing.eventstore.jpa.GapAwareTrackingTokenOperations.gapTimeoutThreshold",""
+"axon-eventsourcing-5.1.1","Field",2,"org.axonframework.eventsourcing.eventstore.jpa.GapAwareTrackingTokenOperations.gapTimeoutThreshold,org.axonframework.eventsourcing.handler.SnapshottingEntityLifecycleHandler.storeSnapshot",""
 "axon-messaging-5.1.1","Method",3,"org.axonframework.messaging.core.annotation.ChainedMessageHandlerInterceptorMember.doHandleSync,org.axonframework.messaging.core.annotation.WrappedMessageHandlingMember.handleSync,org.axonframework.messaging.core.interception.annotation.MessageHandlerInterceptorMemberChain.handle",""
 "axon-messaging-5.1.1","Class",1,"org.axonframework.messaging.core.interception.annotation.MessageHandlerInterceptorMemberChain",""
 "axon-messaging-5.1.1","Field",1,"org.axonframework.messaging.eventhandling.GenericEventMessage.<init>",""

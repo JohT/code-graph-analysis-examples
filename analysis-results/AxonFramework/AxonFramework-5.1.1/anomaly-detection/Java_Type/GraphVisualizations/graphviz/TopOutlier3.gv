@@ -12,10 +12,70 @@ strict digraph TopOutlier3 {
     central [fontsize = 16;];
     central [color = 7; fillcolor = 5; penwidth = 3;];
 
-	graph   [label="Top Rank #3 Java Type Outlier\norg.axonframework.conversion.avro.GenericRecordToByteArrayConverter\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: cluster probability\nlarge circle: < 25% percentile of cluster probability\nthick outline: > 80% percentile of distance to cluster center\n\n"];
-	central [label="🧩 outlier #3\nGenericRecordToByteArrayConverter"];
-	"ConversionException_26207"  [label = "ConversionException\n(82.28%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "ConversionException_26207" [label=2; weight=2; penwidth=0.4; color = 5];
-	"AvroUtil_27119"  [label = "AvroUtil\n(67.57%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "AvroUtil_27119" [label=1; weight=1; penwidth=0.4; color = 5];
-	"ContentTypeConverter_26043"  [label = "ContentTypeConverter\n(100.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "ContentTypeConverter_26043" [label=1; weight=1; penwidth=0.4; color = 5];
-	"AvroUtil_27119" -> "ConversionException_26207" [label=9; weight=9; penwidth=0.3; color = 3]
+	graph   [label="Top Rank #3 Java Type Outlier\norg.axonframework.common.Assert\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: cluster probability\nlarge circle: < 25% percentile of cluster probability\nthick outline: > 80% percentile of distance to cluster center\n\n"];
+	central [label="🧩 outlier #3\nAssert"];
+	"ReflectionUtils_7471"  [label = "ReflectionUtils\n(50.79%)"; penwidth = 2; ]; "ReflectionUtils_7471" -> central [label=4; weight=4; penwidth=0.5];
+	"GlobalSequenceTrackingToken_32523"  [shape = "circle"; height=1.8; label = "GlobalSequenceTrackingToken\n(0.0%)"; penwidth = 2; ]; "GlobalSequenceTrackingToken_32523" -> central [label=3; weight=3; penwidth=0.4];
+	"PessimisticLockFactory$Builder_10385"  [label = "PessimisticLockFactory$\nBuilder\n(92.11%)"; penwidth = 2; ]; "PessimisticLockFactory$Builder_10385" -> central [label=3; weight=3; penwidth=0.4];
+	"AbstractAnnotatedParameterResolverFactory_33997"  [label = "AbstractAnnotatedParameterResolverFactory\n(100.0%)"; penwidth = 2; ]; "AbstractAnnotatedParameterResolverFactory_33997" -> central [label=2; weight=2; penwidth=0.4];
+	"AnnotatedEntityMetamodel_23122"  [label = "AnnotatedEntityMetamodel\n(92.4%)"; penwidth = 2; ]; "AnnotatedEntityMetamodel_23122" -> central [label=2; weight=2; penwidth=0.4];
+	"ChainedConverter_15577"  [label = "ChainedConverter\n(100.0%)"; penwidth = 2; ]; "ChainedConverter_15577" -> central [label=2; weight=2; penwidth=0.4];
+	"GapAwareTrackingToken_32525"  [label = "GapAwareTrackingToken\n(41.53%)"; penwidth = 5; ]; "GapAwareTrackingToken_32525" -> central [label=2; weight=2; penwidth=0.4];
+	"GenericTaggedEventMessage_2071"  [label = "GenericTaggedEventMessage\n(100.0%)"; penwidth = 2; ]; "GenericTaggedEventMessage_2071" -> central [label=2; weight=2; penwidth=0.4];
+	"MessageType_27190"  [shape = "circle"; height=1.8; label = "MessageType\n(0.0%)"; penwidth = 2; ]; "MessageType_27190" -> central [label=2; weight=2; penwidth=0.4];
+	"PooledStreamingEventProcessor_31550"  [label = "PooledStreamingEventProcessor\n(100.0%)"; penwidth = 2; ]; "PooledStreamingEventProcessor_31550" -> central [label=2; weight=2; penwidth=0.4];
+	"QualifiedName_26039"  [shape = "circle"; height=1.8; label = "QualifiedName\n(0.0%)"; penwidth = 2; ]; "QualifiedName_26039" -> central [label=2; weight=2; penwidth=0.4];
+	"Segment_28420"  [label = "Segment\n(23.25%)"; penwidth = 2; ]; "Segment_28420" -> central [label=2; weight=2; penwidth=0.4];
+	"Tag_44142"  [label = "Tag\n(100.0%)"; penwidth = 2; ]; "Tag_44142" -> central [label=2; weight=2; penwidth=0.4];
+	"WeakReferenceCache_8452"  [label = "WeakReferenceCache\n(27.35%)"; penwidth = 2; ]; "WeakReferenceCache_8452" -> central [label=2; weight=2; penwidth=0.4];
+	"AnnotatedEventSourcedEntityModule_4190"  [label = "AnnotatedEventSourcedEntityModule\n(100.0%)"; penwidth = 5; ]; "AnnotatedEventSourcedEntityModule_4190" -> central [label=1; weight=1; penwidth=0.4];
+	"AxonServerCommandBusConnector_20819"  [shape = "circle"; height=1.8; label = "AxonServerCommandBusConnector\n(14.97%)"; penwidth = 2; ]; "AxonServerCommandBusConnector_20819" -> central [label=1; weight=1; penwidth=0.4];
+	"AxonThreadFactory_9342"  [label = "AxonThreadFactory\n(100.0%)"; penwidth = 2; ]; "AxonThreadFactory_9342" -> central [label=1; weight=1; penwidth=0.4];
+	"BaseModule_12117"  [shape = "circle"; height=1.8; label = "BaseModule\n(0.0%)"; penwidth = 2; ]; "BaseModule_12117" -> central [label=1; weight=1; penwidth=0.4];
+	"BuilderUtils_7957"  [shape = "circle"; height=1.8; label = "BuilderUtils\n(0.0%)"; penwidth = 2; ]; "BuilderUtils_7957" -> central [label=1; weight=1; penwidth=0.4];
+	"ChainedConverter$Route_15503"  [label = "ChainedConverter$\nRoute\n(49.42%)"; penwidth = 5; ]; "ChainedConverter$Route_15503" -> central [label=1; weight=1; penwidth=0.4];
+	"Component$Identifier_9390"  [label = "Component$\nIdentifier\n(100.0%)"; penwidth = 2; ]; "Component$Identifier_9390" -> central [label=1; weight=1; penwidth=0.4];
+	"DecoratorDefinition_10749"  [shape = "circle"; height=1.8; label = "DecoratorDefinition\n(13.98%)"; penwidth = 5; ]; "DecoratorDefinition_10749" -> central [label=1; weight=1; penwidth=0.4];
+	"DefaultAxonApplication_11598"  [label = "DefaultAxonApplication\n(100.0%)"; penwidth = 2; ]; "DefaultAxonApplication_11598" -> central [label=1; weight=1; penwidth=0.4];
+	"DefaultComponentRegistry$LocalConfiguration_11103"  [label = "DefaultComponentRegistry$\nLocalConfiguration\n(100.0%)"; penwidth = 2; ]; "DefaultComponentRegistry$LocalConfiguration_11103" -> central [label=1; weight=1; penwidth=0.4];
+	"EventProcessorConfiguration_29384"  [label = "EventProcessorConfiguration\n(65.56%)"; penwidth = 5; ]; "EventProcessorConfiguration_29384" -> central [label=1; weight=1; penwidth=0.4];
+	"MultiMessageMonitor_45965"  [label = "MultiMessageMonitor\n(100.0%)"; penwidth = 5; ]; "MultiMessageMonitor_45965" -> central [label=1; weight=1; penwidth=0.4];
+	"PessimisticLockFactory_10384"  [label = "PessimisticLockFactory\n(100.0%)"; penwidth = 2; ]; "PessimisticLockFactory_10384" -> central [label=1; weight=1; penwidth=0.4];
+	"PropertyBasedEntityIdResolver_25118"  [label = "PropertyBasedEntityIdResolver\n(70.82%)"; penwidth = 2; ]; "PropertyBasedEntityIdResolver_25118" -> central [label=1; weight=1; penwidth=0.4];
+	"SimpleCommandHandlingComponent_27220"  [label = "SimpleCommandHandlingComponent\n(65.28%)"; penwidth = 5; ]; "SimpleCommandHandlingComponent_27220" -> central [label=1; weight=1; penwidth=0.4];
+	"SimpleEntityManagerProvider_10380"  [shape = "circle"; height=1.8; label = "SimpleEntityManagerProvider\n(0.0%)"; penwidth = 2; ]; "SimpleEntityManagerProvider_10380" -> central [label=1; weight=1; penwidth=0.4];
+	"SimpleEventHandlingComponent_33232"  [label = "SimpleEventHandlingComponent\n(100.0%)"; penwidth = 2; ]; "SimpleEventHandlingComponent_33232" -> central [label=1; weight=1; penwidth=0.4];
+	"SimpleQueryHandlingComponent_44064"  [label = "SimpleQueryHandlingComponent\n(100.0%)"; penwidth = 5; ]; "SimpleQueryHandlingComponent_44064" -> central [label=1; weight=1; penwidth=0.4];
+	"WorkPackage_29698"  [label = "WorkPackage\n(78.41%)"; penwidth = 5; ]; "WorkPackage_29698" -> central [label=1; weight=1; penwidth=0.4];
+	"StringUtils_7364"  [shape = "circle"; height=1.8; label = "StringUtils\n(0.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "StringUtils_7364" [label=1; weight=1; penwidth=0.4; color = 5];
+	"WorkPackage_29698" -> "Segment_28420" [label=17; weight=17; penwidth=0.3; color = 3]
+	"DefaultComponentRegistry$LocalConfiguration_11103" -> "Component$Identifier_9390" [label=16; weight=16; penwidth=0.3; color = 3]
+	"MessageType_27190" -> "QualifiedName_26039" [label=15; weight=15; penwidth=0.3; color = 3]
+	"AnnotatedEntityMetamodel_23122" -> "QualifiedName_26039" [label=11; weight=11; penwidth=0.3; color = 3]
+	"PessimisticLockFactory_10384" -> "PessimisticLockFactory$Builder_10385" [label=9; weight=9; penwidth=0.3; color = 3]
+	"PooledStreamingEventProcessor_31550" -> "Segment_28420" [label=7; weight=7; penwidth=0.3; color = 3]
+	"SimpleCommandHandlingComponent_27220" -> "QualifiedName_26039" [label=7; weight=7; penwidth=0.3; color = 3]
+	"SimpleEventHandlingComponent_33232" -> "QualifiedName_26039" [label=7; weight=7; penwidth=0.3; color = 3]
+	"SimpleQueryHandlingComponent_44064" -> "QualifiedName_26039" [label=6; weight=6; penwidth=0.3; color = 3]
+	"GenericTaggedEventMessage_2071" -> "Tag_44142" [label=5; weight=5; penwidth=0.3; color = 3]
+	"AnnotatedEntityMetamodel_23122" -> "ReflectionUtils_7471" [label=4; weight=4; penwidth=0.3; color = 3]
+	"AnnotatedEventSourcedEntityModule_4190" -> "AnnotatedEntityMetamodel_23122" [label=4; weight=4; penwidth=0.3; color = 3]
+	"AxonServerCommandBusConnector_20819" -> "QualifiedName_26039" [label=4; weight=4; penwidth=0.3; color = 3]
+	"AnnotatedEntityMetamodel_23122" -> "MessageType_27190" [label=3; weight=3; penwidth=0.3; color = 3]
+	"ChainedConverter_15577" -> "ChainedConverter$Route_15503" [label=3; weight=3; penwidth=0.3; color = 3]
+	"EventProcessorConfiguration_29384" -> "BuilderUtils_7957" [label=3; weight=3; penwidth=0.3; color = 3]
+	"PessimisticLockFactory$Builder_10385" -> "PessimisticLockFactory_10384" [label=3; weight=3; penwidth=0.3; color = 3]
+	"QualifiedName_26039" -> "StringUtils_7364" [label=3; weight=3; penwidth=0.3; color = 3]
+	"AnnotatedEventSourcedEntityModule_4190" -> "BaseModule_12117" [label=2; weight=2; penwidth=0.3; color = 3]
+	"PooledStreamingEventProcessor_31550" -> "WorkPackage_29698" [label=2; weight=2; penwidth=0.3; color = 3]
+	"PooledStreamingEventProcessor_31550" -> "MessageType_27190" [label=2; weight=2; penwidth=0.3; color = 3]
+	"SimpleEventHandlingComponent_33232" -> "MessageType_27190" [label=2; weight=2; penwidth=0.3; color = 3]
+	"AbstractAnnotatedParameterResolverFactory_33997" -> "ReflectionUtils_7471" [label=1; weight=1; penwidth=0.3; color = 3]
+	"AnnotatedEventSourcedEntityModule_4190" -> "ReflectionUtils_7471" [label=1; weight=1; penwidth=0.3; color = 3]
+	"BuilderUtils_7957" -> "StringUtils_7364" [label=1; weight=1; penwidth=0.3; color = 3]
+	"MessageType_27190" -> "StringUtils_7364" [label=1; weight=1; penwidth=0.3; color = 3]
+	"PooledStreamingEventProcessor_31550" -> "BuilderUtils_7957" [label=1; weight=1; penwidth=0.3; color = 3]
+	"QualifiedName_26039" -> "ReflectionUtils_7471" [label=1; weight=1; penwidth=0.3; color = 3]
+	"SimpleCommandHandlingComponent_27220" -> "MessageType_27190" [label=1; weight=1; penwidth=0.3; color = 3]
+	"SimpleQueryHandlingComponent_44064" -> "MessageType_27190" [label=1; weight=1; penwidth=0.3; color = 3]
 }

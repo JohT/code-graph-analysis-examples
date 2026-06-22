@@ -12,21 +12,10 @@ strict digraph TopBridge2 {
     central [fontsize = 16;];
     central [color = 7; fillcolor = 5; penwidth = 3;];
 
-	graph   [label="Top Rank #2 Java Type Bridge\norg.axonframework.messaging.eventstreaming.OrEventCriteriaBuilder\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
-	central [label="🌉 bridge #2\nOrEventCriteriaBuilder"];
-	"EventCriteria_5194" [label = "EventCriteria"; ]; "EventCriteria_5194" -> central [label=3; weight=3; penwidth=0.4];
-	"EventCriteria_5194" [label = "EventCriteria"; color = 5; fillcolor = 1; ]; central -> "EventCriteria_5194" [label=6; weight=6; penwidth=0.5; color = 5];
-	"EventTypeRestrictableEventCriteria_5196" [label = "EventTypeRestrictableEventCriteria"; color = 5; fillcolor = 1; ]; central -> "EventTypeRestrictableEventCriteria_5196" [label=6; weight=6; penwidth=0.5; color = 5];
-	"EventTypeRestrictableOrEventCriteria_19864" [label = "EventTypeRestrictableOrEventCriteria"; color = 5; fillcolor = 1; ]; central -> "EventTypeRestrictableOrEventCriteria_19864" [label=2; weight=2; penwidth=0.4; color = 5];
-	"Tag_19907" [label = "Tag"; color = 5; fillcolor = 1; ]; central -> "Tag_19907" [label=2; weight=2; penwidth=0.4; color = 5];
-	"TagFilteredEventCriteria_19908" [label = "TagFilteredEventCriteria"; color = 5; fillcolor = 1; ]; central -> "TagFilteredEventCriteria_19908" [label=2; weight=2; penwidth=0.4; color = 5];
-	"EventTypeRestrictableEventCriteria_5196" -> "EventCriteria_5194" [label=6; weight=6; penwidth=0.3; color = 3]
-	"EventCriteria_5194" -> "Tag_19907" [label=5; weight=5; penwidth=0.3; color = 3]
-	"TagFilteredEventCriteria_19908" -> "Tag_19907" [label=5; weight=5; penwidth=0.3; color = 3]
-	"TagFilteredEventCriteria_19908" -> "EventCriteria_5194" [label=5; weight=5; penwidth=0.3; color = 3]
-	"EventCriteria_5194" -> "EventTypeRestrictableEventCriteria_5196" [label=4; weight=4; penwidth=0.3; color = 3]
-	"EventTypeRestrictableOrEventCriteria_19864" -> "EventCriteria_5194" [label=4; weight=4; penwidth=0.3; color = 3]
-	"EventTypeRestrictableOrEventCriteria_19864" -> "EventTypeRestrictableEventCriteria_5196" [label=4; weight=4; penwidth=0.3; color = 3]
-	"EventCriteria_5194" -> "TagFilteredEventCriteria_19908" [label=2; weight=2; penwidth=0.3; color = 3]
-	"TagFilteredEventCriteria_19908" -> "EventTypeRestrictableEventCriteria_5196" [label=1; weight=1; penwidth=0.3; color = 3]
+	graph   [label="Top Rank #2 Java Type Bridge\norg.axonframework.eventsourcing.annotation.EventTag\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
+	central [label="🌉 bridge #2\nEventTag"];
+	"AnnotationBasedTagResolver_2025" [label = "AnnotationBasedTagResolver"; ]; "AnnotationBasedTagResolver_2025" -> central [label=6; weight=6; penwidth=0.5];
+	"EventTags_1076" [label = "EventTags"; ]; "EventTags_1076" -> central [label=1; weight=1; penwidth=0.4];
+	"EventTags_1076" [label = "EventTags"; color = 5; fillcolor = 1; ]; central -> "EventTags_1076" [label=1; weight=1; penwidth=0.4; color = 5];
+	"AnnotationBasedTagResolver_2025" -> "EventTags_1076" [label=2; weight=2; penwidth=0.3; color = 3]
 }

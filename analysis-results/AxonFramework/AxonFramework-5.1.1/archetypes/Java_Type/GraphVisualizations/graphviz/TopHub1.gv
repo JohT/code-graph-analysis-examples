@@ -14,20 +14,20 @@ strict digraph TopHub1 {
 
 	graph   [label="Top Rank #1 Java Type Hub\norg.axonframework.common.AxonNonTransientException\n\nnodes: incoming dependencies (limited max. 40)\nnode value: local clustering coefficient\nthick outline: <10% percentile of local clustering coefficient\n\n"];
 	central [label="🎡 hub #1\nAxonNonTransientException\n(in-degree=15)"];
-	"AxonConfigurationException_28160"  [label = "AxonConfigurationException\n(0.09)"; penwidth = 2; ]; "AxonConfigurationException_28160" -> central [label=3; weight=3; penwidth=0.4];
-	"ComponentDescriptorException_30251"  [label = "ComponentDescriptorException\n(0.0)"; penwidth = 5; ]; "ComponentDescriptorException_30251" -> central [label=3; weight=3; penwidth=0.4];
-	"ConversionException_26207"  [label = "ConversionException\n(0.07)"; penwidth = 2; ]; "ConversionException_26207" -> central [label=3; weight=3; penwidth=0.4];
-	"EventStoreException_34640"  [label = "EventStoreException\n(0.0)"; penwidth = 5; ]; "EventStoreException_34640" -> central [label=3; weight=3; penwidth=0.4];
-	"FixtureExecutionException_39918"  [label = "FixtureExecutionException\n(0.0)"; penwidth = 5; ]; "FixtureExecutionException_39918" -> central [label=3; weight=3; penwidth=0.4];
-	"IllegalPayloadAccessException_13610"  [label = "IllegalPayloadAccessException\n(0.0)"; penwidth = 5; ]; "IllegalPayloadAccessException_13610" -> central [label=3; weight=3; penwidth=0.4];
-	"MatcherExecutionException_38857"  [label = "MatcherExecutionException\n(0.0)"; penwidth = 5; ]; "MatcherExecutionException_38857" -> central [label=3; weight=3; penwidth=0.4];
-	"ResetNotSupportedException_2360"  [label = "ResetNotSupportedException\n(0.0)"; penwidth = 5; ]; "ResetNotSupportedException_2360" -> central [label=3; weight=3; penwidth=0.4];
-	"AppendEventsTransactionRejectedException_34430"  [label = "AppendEventsTransactionRejectedException\n(0.33)"; penwidth = 2; ]; "AppendEventsTransactionRejectedException_34430" -> central [label=2; weight=2; penwidth=0.4];
-	"CompletedEmitterException_18687"  [label = "CompletedEmitterException\n(0.0)"; penwidth = 5; ]; "CompletedEmitterException_18687" -> central [label=2; weight=2; penwidth=0.4];
-	"JSR303ViolationException_11474"  [label = "JSR303ViolationException\n(0.0)"; penwidth = 5; ]; "JSR303ViolationException_11474" -> central [label=2; weight=2; penwidth=0.4];
-	"RemoteNonTransientHandlingException_13609"  [label = "RemoteNonTransientHandlingException\n(0.33)"; penwidth = 2; ]; "RemoteNonTransientHandlingException_13609" -> central [label=2; weight=2; penwidth=0.4];
-	"ShutdownInProgressException_28142"  [label = "ShutdownInProgressException\n(0.0)"; penwidth = 5; ]; "ShutdownInProgressException_28142" -> central [label=2; weight=2; penwidth=0.4];
-	"AxonNonTransientExceptionClassesPredicate_13607"  [label = "AxonNonTransientExceptionClassesPredicate\n(0.0)"; penwidth = 5; ]; "AxonNonTransientExceptionClassesPredicate_13607" -> central [label=1; weight=1; penwidth=0.4];
-	"ExceptionUtils_27543"  [label = "ExceptionUtils\n(0.0)"; penwidth = 5; ]; "ExceptionUtils_27543" -> central [label=1; weight=1; penwidth=0.4];
-	"AxonException_28278"  [label = "AxonException\n(0.06)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "AxonException_28278" [label=3; weight=3; penwidth=0.4; color = 5];
+	"AxonConfigurationException_7932"  [label = "AxonConfigurationException\n(0.09)"; penwidth = 2; ]; "AxonConfigurationException_7932" -> central [label=3; weight=3; penwidth=0.4];
+	"ComponentDescriptorException_9501"  [label = "ComponentDescriptorException\n(0.0)"; penwidth = 5; ]; "ComponentDescriptorException_9501" -> central [label=3; weight=3; penwidth=0.4];
+	"ConversionException_15762"  [label = "ConversionException\n(0.07)"; penwidth = 2; ]; "ConversionException_15762" -> central [label=3; weight=3; penwidth=0.4];
+	"EventStoreException_2023"  [label = "EventStoreException\n(0.0)"; penwidth = 5; ]; "EventStoreException_2023" -> central [label=3; weight=3; penwidth=0.4];
+	"FixtureExecutionException_13670"  [label = "FixtureExecutionException\n(0.0)"; penwidth = 5; ]; "FixtureExecutionException_13670" -> central [label=3; weight=3; penwidth=0.4];
+	"IllegalPayloadAccessException_39906"  [label = "IllegalPayloadAccessException\n(0.0)"; penwidth = 5; ]; "IllegalPayloadAccessException_39906" -> central [label=3; weight=3; penwidth=0.4];
+	"MatcherExecutionException_13669"  [label = "MatcherExecutionException\n(0.0)"; penwidth = 5; ]; "MatcherExecutionException_13669" -> central [label=3; weight=3; penwidth=0.4];
+	"ResetNotSupportedException_28426"  [label = "ResetNotSupportedException\n(0.0)"; penwidth = 5; ]; "ResetNotSupportedException_28426" -> central [label=3; weight=3; penwidth=0.4];
+	"AppendEventsTransactionRejectedException_2020"  [label = "AppendEventsTransactionRejectedException\n(0.33)"; penwidth = 2; ]; "AppendEventsTransactionRejectedException_2020" -> central [label=2; weight=2; penwidth=0.4];
+	"CompletedEmitterException_45149"  [label = "CompletedEmitterException\n(0.0)"; penwidth = 5; ]; "CompletedEmitterException_45149" -> central [label=2; weight=2; penwidth=0.4];
+	"JSR303ViolationException_37677"  [label = "JSR303ViolationException\n(0.0)"; penwidth = 5; ]; "JSR303ViolationException_37677" -> central [label=2; weight=2; penwidth=0.4];
+	"RemoteNonTransientHandlingException_39905"  [label = "RemoteNonTransientHandlingException\n(0.33)"; penwidth = 2; ]; "RemoteNonTransientHandlingException_39905" -> central [label=2; weight=2; penwidth=0.4];
+	"ShutdownInProgressException_7793"  [label = "ShutdownInProgressException\n(0.0)"; penwidth = 5; ]; "ShutdownInProgressException_7793" -> central [label=2; weight=2; penwidth=0.4];
+	"AxonNonTransientExceptionClassesPredicate_39915"  [label = "AxonNonTransientExceptionClassesPredicate\n(0.0)"; penwidth = 5; ]; "AxonNonTransientExceptionClassesPredicate_39915" -> central [label=1; weight=1; penwidth=0.4];
+	"ExceptionUtils_7960"  [label = "ExceptionUtils\n(0.0)"; penwidth = 5; ]; "ExceptionUtils_7960" -> central [label=1; weight=1; penwidth=0.4];
+	"AxonException_8107"  [label = "AxonException\n(0.06)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "AxonException_8107" [label=3; weight=3; penwidth=0.4; color = 5];
 }

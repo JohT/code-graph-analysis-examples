@@ -1,5 +1,5 @@
 "codeUnitName","shortCodeUnitName","projectName","localClusteringCoefficient","pageRank","degree","incomingDependencies","outgoingDependencies","Source Cypher File: domains/archetypes/queries/AnomalyDetectionPotentialOverEngineerOrIsolated.cypher"
 "/axon-tracing-opentelemetry-5.1.1.jar","axon-tracing-opentelemetry-5.1.1",,1,0.15000000000000002,2,0,2,""
+"/axoniq-spring-boot-autoconfigure-5.1.1.jar","axoniq-spring-boot-autoconfigure-5.1.1",,1,0.15000000000000002,4,0,4,""
 "/axon-test-5.1.1.jar","axon-test-5.1.1",,1,0.15000000000000002,3,0,3,""
 "/axon-metrics-micrometer-5.1.1.jar","axon-metrics-micrometer-5.1.1",,1,0.15000000000000002,2,0,2,""
-"/axoniq-spring-boot-autoconfigure-5.1.1.jar","axoniq-spring-boot-autoconfigure-5.1.1",,1,0.15000000000000002,4,0,4,""

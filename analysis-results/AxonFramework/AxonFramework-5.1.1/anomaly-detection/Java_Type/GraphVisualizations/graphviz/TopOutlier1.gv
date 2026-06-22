@@ -12,70 +12,50 @@ strict digraph TopOutlier1 {
     central [fontsize = 16;];
     central [color = 7; fillcolor = 5; penwidth = 3;];
 
-	graph   [label="Top Rank #1 Java Type Outlier\norg.axonframework.common.Assert\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: cluster probability\nlarge circle: < 25% percentile of cluster probability\nthick outline: > 80% percentile of distance to cluster center\n\n"];
-	central [label="🧩 outlier #1\nAssert"];
-	"ReflectionUtils_27585"  [label = "ReflectionUtils\n(39.1%)"; penwidth = 2; ]; "ReflectionUtils_27585" -> central [label=4; weight=4; penwidth=0.5];
-	"GlobalSequenceTrackingToken_6268"  [shape = "circle"; height=1.8; label = "GlobalSequenceTrackingToken\n(0.0%)"; penwidth = 2; ]; "GlobalSequenceTrackingToken_6268" -> central [label=3; weight=3; penwidth=0.4];
-	"PessimisticLockFactory$Builder_30312"  [label = "PessimisticLockFactory$\nBuilder\n(100.0%)"; penwidth = 2; ]; "PessimisticLockFactory$Builder_30312" -> central [label=3; weight=3; penwidth=0.4];
-	"AbstractAnnotatedParameterResolverFactory_8225"  [label = "AbstractAnnotatedParameterResolverFactory\n(95.17%)"; penwidth = 2; ]; "AbstractAnnotatedParameterResolverFactory_8225" -> central [label=2; weight=2; penwidth=0.4];
-	"AnnotatedEntityMetamodel_41096"  [label = "AnnotatedEntityMetamodel\n(92.72%)"; penwidth = 5; ]; "AnnotatedEntityMetamodel_41096" -> central [label=2; weight=2; penwidth=0.4];
-	"ChainedConverter_25998"  [label = "ChainedConverter\n(100.0%)"; penwidth = 2; ]; "ChainedConverter_25998" -> central [label=2; weight=2; penwidth=0.4];
-	"GapAwareTrackingToken_6270"  [label = "GapAwareTrackingToken\n(41.16%)"; penwidth = 2; ]; "GapAwareTrackingToken_6270" -> central [label=2; weight=2; penwidth=0.4];
-	"GenericTaggedEventMessage_35702"  [label = "GenericTaggedEventMessage\n(99.6%)"; penwidth = 2; ]; "GenericTaggedEventMessage_35702" -> central [label=2; weight=2; penwidth=0.4];
-	"MessageType_187"  [shape = "circle"; height=1.8; label = "MessageType\n(0.0%)"; penwidth = 2; ]; "MessageType_187" -> central [label=2; weight=2; penwidth=0.4];
-	"PooledStreamingEventProcessor_5037"  [label = "PooledStreamingEventProcessor\n(100.0%)"; penwidth = 2; ]; "PooledStreamingEventProcessor_5037" -> central [label=2; weight=2; penwidth=0.4];
-	"QualifiedName_143"  [shape = "circle"; height=1.8; label = "QualifiedName\n(0.0%)"; penwidth = 2; ]; "QualifiedName_143" -> central [label=2; weight=2; penwidth=0.4];
-	"Segment_4163"  [label = "Segment\n(24.49%)"; penwidth = 2; ]; "Segment_4163" -> central [label=2; weight=2; penwidth=0.4];
-	"Tag_19907"  [label = "Tag\n(100.0%)"; penwidth = 2; ]; "Tag_19907" -> central [label=2; weight=2; penwidth=0.4];
-	"WeakReferenceCache_29342"  [label = "WeakReferenceCache\n(30.54%)"; penwidth = 2; ]; "WeakReferenceCache_29342" -> central [label=2; weight=2; penwidth=0.4];
-	"AnnotatedEventSourcedEntityModule_37237"  [label = "AnnotatedEventSourcedEntityModule\n(58.5%)"; penwidth = 2; ]; "AnnotatedEventSourcedEntityModule_37237" -> central [label=1; weight=1; penwidth=0.4];
-	"AxonServerCommandBusConnector_24094"  [shape = "circle"; height=1.8; label = "AxonServerCommandBusConnector\n(12.36%)"; penwidth = 2; ]; "AxonServerCommandBusConnector_24094" -> central [label=1; weight=1; penwidth=0.4];
-	"AxonThreadFactory_29339"  [label = "AxonThreadFactory\n(100.0%)"; penwidth = 2; ]; "AxonThreadFactory_29339" -> central [label=1; weight=1; penwidth=0.4];
-	"BaseModule_32293"  [label = "BaseModule\n(48.13%)"; penwidth = 5; ]; "BaseModule_32293" -> central [label=1; weight=1; penwidth=0.4];
-	"BuilderUtils_27540"  [shape = "circle"; height=1.8; label = "BuilderUtils\n(0.0%)"; penwidth = 2; ]; "BuilderUtils_27540" -> central [label=1; weight=1; penwidth=0.4];
-	"ChainedConverter$Route_25920"  [label = "ChainedConverter$\nRoute\n(59.81%)"; penwidth = 5; ]; "ChainedConverter$Route_25920" -> central [label=1; weight=1; penwidth=0.4];
-	"Component$Identifier_29213"  [label = "Component$\nIdentifier\n(100.0%)"; penwidth = 2; ]; "Component$Identifier_29213" -> central [label=1; weight=1; penwidth=0.4];
-	"DecoratorDefinition_30918"  [label = "DecoratorDefinition\n(14.38%)"; penwidth = 2; ]; "DecoratorDefinition_30918" -> central [label=1; weight=1; penwidth=0.4];
-	"DefaultAxonApplication_32222"  [label = "DefaultAxonApplication\n(100.0%)"; penwidth = 2; ]; "DefaultAxonApplication_32222" -> central [label=1; weight=1; penwidth=0.4];
-	"DefaultComponentRegistry$LocalConfiguration_31272"  [label = "DefaultComponentRegistry$\nLocalConfiguration\n(100.0%)"; penwidth = 2; ]; "DefaultComponentRegistry$LocalConfiguration_31272" -> central [label=1; weight=1; penwidth=0.4];
-	"EventProcessorConfiguration_2119"  [label = "EventProcessorConfiguration\n(62.14%)"; penwidth = 5; ]; "EventProcessorConfiguration_2119" -> central [label=1; weight=1; penwidth=0.4];
-	"MultiMessageMonitor_19912"  [shape = "circle"; height=1.8; label = "MultiMessageMonitor\n(0.0%)"; penwidth = 2; ]; "MultiMessageMonitor_19912" -> central [label=1; weight=1; penwidth=0.4];
-	"PessimisticLockFactory_30311"  [label = "PessimisticLockFactory\n(100.0%)"; penwidth = 2; ]; "PessimisticLockFactory_30311" -> central [label=1; weight=1; penwidth=0.4];
-	"PropertyBasedEntityIdResolver_43666"  [label = "PropertyBasedEntityIdResolver\n(62.14%)"; penwidth = 2; ]; "PropertyBasedEntityIdResolver_43666" -> central [label=1; weight=1; penwidth=0.4];
-	"SimpleCommandHandlingComponent_1633"  [label = "SimpleCommandHandlingComponent\n(61.47%)"; penwidth = 5; ]; "SimpleCommandHandlingComponent_1633" -> central [label=1; weight=1; penwidth=0.4];
-	"SimpleEntityManagerProvider_30307"  [shape = "circle"; height=1.8; label = "SimpleEntityManagerProvider\n(0.0%)"; penwidth = 2; ]; "SimpleEntityManagerProvider_30307" -> central [label=1; weight=1; penwidth=0.4];
-	"SimpleEventHandlingComponent_8266"  [label = "SimpleEventHandlingComponent\n(100.0%)"; penwidth = 2; ]; "SimpleEventHandlingComponent_8266" -> central [label=1; weight=1; penwidth=0.4];
-	"SimpleQueryHandlingComponent_17709"  [label = "SimpleQueryHandlingComponent\n(80.05%)"; penwidth = 5; ]; "SimpleQueryHandlingComponent_17709" -> central [label=1; weight=1; penwidth=0.4];
-	"WorkPackage_4095"  [label = "WorkPackage\n(58.61%)"; penwidth = 5; ]; "WorkPackage_4095" -> central [label=1; weight=1; penwidth=0.4];
-	"StringUtils_27535"  [shape = "circle"; height=1.8; label = "StringUtils\n(0.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "StringUtils_27535" [label=1; weight=1; penwidth=0.4; color = 5];
-	"WorkPackage_4095" -> "Segment_4163" [label=17; weight=17; penwidth=0.3; color = 3]
-	"DefaultComponentRegistry$LocalConfiguration_31272" -> "Component$Identifier_29213" [label=16; weight=16; penwidth=0.3; color = 3]
-	"MessageType_187" -> "QualifiedName_143" [label=15; weight=15; penwidth=0.3; color = 3]
-	"AnnotatedEntityMetamodel_41096" -> "QualifiedName_143" [label=11; weight=11; penwidth=0.3; color = 3]
-	"PessimisticLockFactory_30311" -> "PessimisticLockFactory$Builder_30312" [label=9; weight=9; penwidth=0.3; color = 3]
-	"PooledStreamingEventProcessor_5037" -> "Segment_4163" [label=7; weight=7; penwidth=0.3; color = 3]
-	"SimpleCommandHandlingComponent_1633" -> "QualifiedName_143" [label=7; weight=7; penwidth=0.3; color = 3]
-	"SimpleEventHandlingComponent_8266" -> "QualifiedName_143" [label=7; weight=7; penwidth=0.3; color = 3]
-	"SimpleQueryHandlingComponent_17709" -> "QualifiedName_143" [label=6; weight=6; penwidth=0.3; color = 3]
-	"GenericTaggedEventMessage_35702" -> "Tag_19907" [label=5; weight=5; penwidth=0.3; color = 3]
-	"AnnotatedEntityMetamodel_41096" -> "ReflectionUtils_27585" [label=4; weight=4; penwidth=0.3; color = 3]
-	"AnnotatedEventSourcedEntityModule_37237" -> "AnnotatedEntityMetamodel_41096" [label=4; weight=4; penwidth=0.3; color = 3]
-	"AxonServerCommandBusConnector_24094" -> "QualifiedName_143" [label=4; weight=4; penwidth=0.3; color = 3]
-	"AnnotatedEntityMetamodel_41096" -> "MessageType_187" [label=3; weight=3; penwidth=0.3; color = 3]
-	"ChainedConverter_25998" -> "ChainedConverter$Route_25920" [label=3; weight=3; penwidth=0.3; color = 3]
-	"EventProcessorConfiguration_2119" -> "BuilderUtils_27540" [label=3; weight=3; penwidth=0.3; color = 3]
-	"PessimisticLockFactory$Builder_30312" -> "PessimisticLockFactory_30311" [label=3; weight=3; penwidth=0.3; color = 3]
-	"QualifiedName_143" -> "StringUtils_27535" [label=3; weight=3; penwidth=0.3; color = 3]
-	"AnnotatedEventSourcedEntityModule_37237" -> "BaseModule_32293" [label=2; weight=2; penwidth=0.3; color = 3]
-	"PooledStreamingEventProcessor_5037" -> "MessageType_187" [label=2; weight=2; penwidth=0.3; color = 3]
-	"PooledStreamingEventProcessor_5037" -> "WorkPackage_4095" [label=2; weight=2; penwidth=0.3; color = 3]
-	"SimpleEventHandlingComponent_8266" -> "MessageType_187" [label=2; weight=2; penwidth=0.3; color = 3]
-	"AbstractAnnotatedParameterResolverFactory_8225" -> "ReflectionUtils_27585" [label=1; weight=1; penwidth=0.3; color = 3]
-	"AnnotatedEventSourcedEntityModule_37237" -> "ReflectionUtils_27585" [label=1; weight=1; penwidth=0.3; color = 3]
-	"BuilderUtils_27540" -> "StringUtils_27535" [label=1; weight=1; penwidth=0.3; color = 3]
-	"MessageType_187" -> "StringUtils_27535" [label=1; weight=1; penwidth=0.3; color = 3]
-	"PooledStreamingEventProcessor_5037" -> "BuilderUtils_27540" [label=1; weight=1; penwidth=0.3; color = 3]
-	"QualifiedName_143" -> "ReflectionUtils_27585" [label=1; weight=1; penwidth=0.3; color = 3]
-	"SimpleCommandHandlingComponent_1633" -> "MessageType_187" [label=1; weight=1; penwidth=0.3; color = 3]
-	"SimpleQueryHandlingComponent_17709" -> "MessageType_187" [label=1; weight=1; penwidth=0.3; color = 3]
+	graph   [label="Top Rank #1 Java Type Outlier\norg.axonframework.common.ObjectUtils\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: cluster probability\nlarge circle: < 25% percentile of cluster probability\nthick outline: > 80% percentile of distance to cluster center\n\n"];
+	central [label="🧩 outlier #1\nObjectUtils"];
+	"DefaultEventStoreTransaction_3119"  [label = "DefaultEventStoreTransaction\n(100.0%)"; penwidth = 2; ]; "DefaultEventStoreTransaction_3119" -> central [label=4; weight=4; penwidth=0.5];
+	"AnnotationMessageTypeResolver_41983"  [label = "AnnotationMessageTypeResolver\n(100.0%)"; penwidth = 2; ]; "AnnotationMessageTypeResolver_41983" -> central [label=2; weight=2; penwidth=0.4];
+	"GenericMessage_27197"  [label = "GenericMessage\n(100.0%)"; penwidth = 2; ]; "GenericMessage_27197" -> central [label=2; weight=2; penwidth=0.4];
+	"GenericQueryResponseMessage_44056"  [label = "GenericQueryResponseMessage\n(100.0%)"; penwidth = 2; ]; "GenericQueryResponseMessage_44056" -> central [label=2; weight=2; penwidth=0.4];
+	"MessageTypeResolver_27162"  [label = "MessageTypeResolver\n(100.0%)"; penwidth = 2; ]; "MessageTypeResolver_27162" -> central [label=2; weight=2; penwidth=0.4];
+	"PooledStreamingEventProcessorConfiguration_30389"  [label = "PooledStreamingEventProcessorConfiguration\n(100.0%)"; penwidth = 5; ]; "PooledStreamingEventProcessorConfiguration_30389" -> central [label=2; weight=2; penwidth=0.4];
+	"AnnotationBasedEventSourcedEntityFactory_3505"  [label = "AnnotationBasedEventSourcedEntityFactory\n(100.0%)"; penwidth = 2; ]; "AnnotationBasedEventSourcedEntityFactory_3505" -> central [label=1; weight=1; penwidth=0.4];
+	"AxonServerConnectionManager$Builder_18919"  [label = "AxonServerConnectionManager$\nBuilder\n(100.0%)"; penwidth = 2; ]; "AxonServerConnectionManager$Builder_18919" -> central [label=1; weight=1; penwidth=0.4];
+	"CommandConverter_20818"  [label = "CommandConverter\n(51.17%)"; penwidth = 2; ]; "CommandConverter_20818" -> central [label=1; weight=1; penwidth=0.4];
+	"ExceptionConverter_19590"  [label = "ExceptionConverter\n(100.0%)"; penwidth = 2; ]; "ExceptionConverter_19590" -> central [label=1; weight=1; penwidth=0.4];
+	"GenericCommandMessage_27228"  [label = "GenericCommandMessage\n(93.9%)"; penwidth = 2; ]; "GenericCommandMessage_27228" -> central [label=1; weight=1; penwidth=0.4];
+	"GenericCommandResultMessage_27222"  [label = "GenericCommandResultMessage\n(100.0%)"; penwidth = 2; ]; "GenericCommandResultMessage_27222" -> central [label=1; weight=1; penwidth=0.4];
+	"GenericEventMessage_29408"  [shape = "circle"; height=1.8; label = "GenericEventMessage\n(0.0%)"; penwidth = 2; ]; "GenericEventMessage_29408" -> central [label=1; weight=1; penwidth=0.4];
+	"GenericQueryMessage_44071"  [label = "GenericQueryMessage\n(88.73%)"; penwidth = 2; ]; "GenericQueryMessage_44071" -> central [label=1; weight=1; penwidth=0.4];
+	"GenericReplayStatusChanged_28370"  [label = "GenericReplayStatusChanged\n(64.02%)"; penwidth = 2; ]; "GenericReplayStatusChanged_28370" -> central [label=1; weight=1; penwidth=0.4];
+	"GenericResetContext_28369"  [label = "GenericResetContext\n(62.74%)"; penwidth = 2; ]; "GenericResetContext_28369" -> central [label=1; weight=1; penwidth=0.4];
+	"GenericResultMessage_27189"  [label = "GenericResultMessage\n(100.0%)"; penwidth = 2; ]; "GenericResultMessage_27189" -> central [label=1; weight=1; penwidth=0.4];
+	"GenericSubscriptionQueryUpdateMessage_44051"  [label = "GenericSubscriptionQueryUpdateMessage\n(100.0%)"; penwidth = 2; ]; "GenericSubscriptionQueryUpdateMessage_44051" -> central [label=1; weight=1; penwidth=0.4];
+	"InMemoryTokenStore_29713"  [shape = "circle"; height=1.8; label = "InMemoryTokenStore\n(0.0%)"; penwidth = 2; ]; "InMemoryTokenStore_29713" -> central [label=1; weight=1; penwidth=0.4];
+	"RecordingCommandBus_14624"  [label = "RecordingCommandBus\n(52.02%)"; penwidth = 2; ]; "RecordingCommandBus_14624" -> central [label=1; weight=1; penwidth=0.4];
+	"ReflectionUtils_7471"  [label = "ReflectionUtils\n(50.79%)"; penwidth = 2; ]; "ReflectionUtils_7471" -> central [label=1; weight=1; penwidth=0.4];
+	"UpdateChecker_4993"  [label = "UpdateChecker\n(52.53%)"; penwidth = 2; ]; "UpdateChecker_4993" -> central [label=1; weight=1; penwidth=0.4];
+	"WeakReferenceCache_8452"  [label = "WeakReferenceCache\n(27.35%)"; penwidth = 2; ]; "WeakReferenceCache_8452" -> central [label=1; weight=1; penwidth=0.4];
+	"GenericCommandMessage_27228" -> "GenericMessage_27197" [label=9; weight=9; penwidth=0.3; color = 3]
+	"GenericEventMessage_29408" -> "GenericMessage_27197" [label=9; weight=9; penwidth=0.3; color = 3]
+	"GenericQueryResponseMessage_44056" -> "GenericMessage_27197" [label=9; weight=9; penwidth=0.3; color = 3]
+	"GenericSubscriptionQueryUpdateMessage_44051" -> "GenericMessage_27197" [label=9; weight=9; penwidth=0.3; color = 3]
+	"GenericQueryMessage_44071" -> "GenericMessage_27197" [label=7; weight=7; penwidth=0.3; color = 3]
+	"GenericCommandResultMessage_27222" -> "GenericResultMessage_27189" [label=6; weight=6; penwidth=0.3; color = 3]
+	"AnnotationBasedEventSourcedEntityFactory_3505" -> "MessageTypeResolver_27162" [label=5; weight=5; penwidth=0.3; color = 3]
+	"AnnotationMessageTypeResolver_41983" -> "MessageTypeResolver_27162" [label=5; weight=5; penwidth=0.3; color = 3]
+	"GenericCommandResultMessage_27222" -> "GenericMessage_27197" [label=5; weight=5; penwidth=0.3; color = 3]
+	"CommandConverter_20818" -> "GenericMessage_27197" [label=4; weight=4; penwidth=0.3; color = 3]
+	"GenericQueryResponseMessage_44056" -> "GenericResultMessage_27189" [label=4; weight=4; penwidth=0.3; color = 3]
+	"GenericReplayStatusChanged_28370" -> "GenericMessage_27197" [label=4; weight=4; penwidth=0.3; color = 3]
+	"GenericResetContext_28369" -> "GenericMessage_27197" [label=4; weight=4; penwidth=0.3; color = 3]
+	"GenericResultMessage_27189" -> "GenericMessage_27197" [label=4; weight=4; penwidth=0.3; color = 3]
+	"RecordingCommandBus_14624" -> "GenericCommandResultMessage_27222" [label=4; weight=4; penwidth=0.3; color = 3]
+	"CommandConverter_20818" -> "GenericCommandResultMessage_27222" [label=3; weight=3; penwidth=0.3; color = 3]
+	"CommandConverter_20818" -> "GenericCommandMessage_27228" [label=3; weight=3; penwidth=0.3; color = 3]
+	"GenericSubscriptionQueryUpdateMessage_44051" -> "GenericResultMessage_27189" [label=3; weight=3; penwidth=0.3; color = 3]
+	"PooledStreamingEventProcessorConfiguration_30389" -> "GenericEventMessage_29408" [label=2; weight=2; penwidth=0.3; color = 3]
+	"AnnotationBasedEventSourcedEntityFactory_3505" -> "ReflectionUtils_7471" [label=1; weight=1; penwidth=0.3; color = 3]
+	"CommandConverter_20818" -> "ExceptionConverter_19590" [label=1; weight=1; penwidth=0.3; color = 3]
 }
