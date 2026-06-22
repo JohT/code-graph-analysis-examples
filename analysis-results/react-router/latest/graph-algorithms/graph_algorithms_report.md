@@ -65,13 +65,13 @@ High PageRank = depended on by many important nodes. High betweenness = bridge b
 
 | nodeLabels | nodeName | betweennessScore |
 | --- | --- | --- |
-| ["TS","Local","Module"] | ./index.ts | 1225 |
-| ["TS","Local","Module"] | ./lib/server-runtime/server.ts | 466.1666666666667 |
-| ["TS","Local","Module"] | ./lib/dom/ssr/routeModules.ts | 393.83333333333337 |
-| ["TS","Local","Module"] | ./lib/types/route-data.ts | 379.33333333333337 |
+| ["TS","Local","Module"] | ./index.ts | 1224.9999999999998 |
+| ["TS","Local","Module"] | ./lib/server-runtime/server.ts | 466.16666666666663 |
+| ["TS","Local","Module"] | ./lib/dom/ssr/routeModules.ts | 393.8333333333333 |
+| ["TS","Local","Module"] | ./lib/types/route-data.ts | 379.3333333333333 |
 | ["TS","Local","Module"] | ./lib/dom/ssr/entry.ts | 327 |
 | ["TS","Local","Module"] | ./dom-export.ts | 290.3333333333333 |
-| ["TS","Local","Module"] | ./index-react-server.ts | 228.16666666666666 |
+| ["TS","Local","Module"] | ./index-react-server.ts | 228.16666666666669 |
 | ["TS","Local","Module"] | ./lib/router/instrumentation.ts | 147.5 |
 | ["TS","Local","Module"] | ./lib/server-runtime/single-fetch.ts | 140 |
 | ["TS","Local","Module"] | ./lib/server-runtime/cookies.ts | 113 |

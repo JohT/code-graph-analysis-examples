@@ -14,8 +14,8 @@ strict digraph TopAuthority4 {
 
 	graph   [label="Top Rank #4 Typescript Module Authority\n/home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.17.0/source/react-router-7.17.0/packages/react-router/lib/rsc/server.rsc.ts\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: Page Rank (normalized)\nlarge circle: > 80% percentile of Page Rank\nthick outline: > 80% percentile of Page Rank to Article Rank Difference\n\n"];
 	central [label="🏛️ authority #4\nserver"];
-	"react-router_97720"  [shape = "circle"; height=2; label = "react-router\n(100.0%)"; penwidth = 2; ]; "react-router_97720" -> central [label=9; weight=9; penwidth=0.4];
 	"react-router_97719"  [shape = "circle"; height=2; label = "react-router\n(44.53%)"; penwidth = 5; ]; "react-router_97719" -> central [label=9; weight=9; penwidth=0.4];
+	"react-router_97720"  [shape = "circle"; height=2; label = "react-router\n(100.0%)"; penwidth = 2; ]; "react-router_97720" -> central [label=9; weight=9; penwidth=0.4];
 	"react-router_97720"  [shape = "circle"; height=2; label = "react-router\n(100.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "react-router_97720" [label=177; weight=177; penwidth=0.5; color = 5];
 	"router_97744"  [label = "router\n(15.18%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "router_97744" [label=124; weight=124; penwidth=0.5; color = 5];
 	"utils_97745"  [shape = "circle"; height=2; label = "utils\n(44.98%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "utils_97745" [label=82; weight=82; penwidth=0.4; color = 5];
@@ -36,8 +36,8 @@ strict digraph TopAuthority4 {
 	"utils_97745" -> "react-router_97719" [label=96; weight=96; penwidth=0.3; color = 3]
 	"router_97744" -> "react-router_97719" [label=73; weight=73; penwidth=0.3; color = 3]
 	"utils_97745" -> "react-router_97720" [label=43; weight=43; penwidth=0.3; color = 3]
-	"errors_97726" -> "react-router_97720" [label=36; weight=36; penwidth=0.3; color = 3]
 	"errors_97726" -> "utils_97745" [label=36; weight=36; penwidth=0.3; color = 3]
+	"errors_97726" -> "react-router_97720" [label=36; weight=36; penwidth=0.3; color = 3]
 	"headers_97760" -> "react-router_97720" [label=24; weight=24; penwidth=0.3; color = 3]
 	"react-router_97720" -> "react-router_97719" [label=24; weight=24; penwidth=0.3; color = 3]
 	"react-router_97720" -> "utils_97745" [label=21; weight=21; penwidth=0.3; color = 3]
@@ -58,9 +58,9 @@ strict digraph TopAuthority4 {
 	"dom-export_97717" -> "react-router_97719" [label=1; weight=1; penwidth=0.3; color = 3]
 	"dom-export_97717" -> "react-router_97720" [label=1; weight=1; penwidth=0.3; color = 3]
 	"headers_97760" -> "utils_97745" [label=1; weight=1; penwidth=0.3; color = 3]
-	"react-router_97720" -> "dom-export_97717" [label=1; weight=1; penwidth=0.3; color = 3]
-	"react-router_97719" -> "dom-export_97717" [label=1; weight=1; penwidth=0.3; color = 3]
 	"react-router_97719" -> "router_97744" [label=1; weight=1; penwidth=0.3; color = 3]
+	"react-router_97719" -> "dom-export_97717" [label=1; weight=1; penwidth=0.3; color = 3]
+	"react-router_97720" -> "dom-export_97717" [label=1; weight=1; penwidth=0.3; color = 3]
 	"routeModules_97739" -> "history_97740" [label=1; weight=1; penwidth=0.3; color = 3]
 	"urls_97769" -> "history_97740" [label=1; weight=1; penwidth=0.3; color = 3]
 	"urls_97769" -> "react-router_97720" [label=1; weight=1; penwidth=0.3; color = 3]

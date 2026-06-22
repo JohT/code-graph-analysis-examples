@@ -50,7 +50,7 @@
 <polygon fill="#6699cc" stroke="#6699cc" stroke-width="0.5" points="461.7,-107.66 462.54,-101.36 457.95,-105.76 461.7,-107.66"/>
 </g>
 <!-- getPartialManifest&#45;&gt;RouterState -->
-<g id="edge12" class="edge">
+<g id="edge13" class="edge">
 <title>getPartialManifest&#45;&gt;RouterState</title>
 <path fill="none" stroke="#6699cc" stroke-width="0.5" d="M175.66,-348.01C168.14,-312.39 170.33,-300.57 192.96,-238.73"/>
 <polygon fill="#6699cc" stroke="#6699cc" stroke-width="0.5" points="194.86,-239.66 194.96,-233.3 190.92,-238.21 194.86,-239.66"/>
@@ -98,7 +98,7 @@
 <polygon fill="#6699cc" stroke="#6699cc" stroke-width="0.5" points="460.65,-107.61 461.72,-101.34 456.97,-105.57 460.65,-107.61"/>
 </g>
 <!-- getPatchRoutesOnNavigationFunction_pkg&#45;&gt;RouterState -->
-<g id="edge13" class="edge">
+<g id="edge12" class="edge">
 <title>getPatchRoutesOnNavigationFunction_pkg&#45;&gt;RouterState</title>
 <path fill="none" stroke="#6699cc" stroke-width="0.5" d="M227.36,-297.74C210.49,-280.57 206.87,-270.68 203.86,-239.4"/>
 <polygon fill="#6699cc" stroke="#6699cc" stroke-width="0.5" points="205.97,-239.39 203.33,-233.6 201.79,-239.77 205.97,-239.39"/>

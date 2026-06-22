@@ -103,16 +103,16 @@ Shows the number of relationships for each type and their share of the total rel
 Shows which node labels are connected by each relationship type, with count and percentage share.
 | sourceLabels | relationshipType | targetLabels | relationshipCount |
 | --- | --- | --- | --- |
-| ["Git","Commit"] | CONTAINS_CHANGE | ["Git","Update","Change"] | 59235 |
 | ["Git","Update","Change"] | MODIFIES | ["Git"] | 59235 |
 | ["Git","Update","Change"] | UPDATES | ["Git"] | 59235 |
+| ["Git","Commit"] | CONTAINS_CHANGE | ["Git","Update","Change"] | 59235 |
 | ["TS","Union"] | CONTAINS | ["TS","NotIdentified"] | 53911 |
-| ["Git","Commit"] | CONTAINS_CHANGE | ["Git","Change","Create"] | 17496 |
-| ["Git","Change","Create"] | CREATES | ["Git"] | 17496 |
 | ["Git","Change","Create"] | MODIFIES | ["Git"] | 17496 |
+| ["Git","Change","Create"] | CREATES | ["Git"] | 17496 |
+| ["Git","Commit"] | CONTAINS_CHANGE | ["Git","Change","Create"] | 17496 |
 | ["Git","Commit"] | HAS_PARENT | ["Git","Commit"] | 12031 |
-| ["Repository","Git"] | HAS_COMMIT | ["Git","Commit"] | 10941 |
 | ["Committer","Person","Git","Author"] | COMMITTED | ["Git","Commit"] | 10941 |
+| ["Repository","Git"] | HAS_COMMIT | ["Git","Commit"] | 10941 |
 
 [Full data](./Node_labels_and_their_relationships.csv)
 
