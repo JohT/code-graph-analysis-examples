@@ -12,24 +12,26 @@ strict digraph TopBridge3 {
     central [fontsize = 16;];
     central [color = 7; fillcolor = 5; penwidth = 3;];
 
-	graph   [label="Top Rank #3 Typescript Module Bridge\n/home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.17.0/source/react-router-7.17.0/packages/react-router-dev/config/routes.ts\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
-	central [label="🌉 bridge #3\nroutes"];
-	"plugin_14057" [label = "plugin"; ]; "plugin_14057" -> central [label=702; weight=702; penwidth=0.9];
-	"generate_14040" [label = "generate"; ]; "generate_14040" -> central [label=114; weight=114; penwidth=0.5];
-	"virtual-route-config_14075" [label = "virtual-route-config"; ]; "virtual-route-config_14075" -> central [label=112; weight=112; penwidth=0.5];
-	"styles_14064" [label = "styles"; ]; "styles_14064" -> central [label=56; weight=56; penwidth=0.4];
-	"config_14033" [label = "config"; ]; "config_14033" -> central [label=30; weight=30; penwidth=0.4];
-	"resolve-relative-route-file-path_14061" [label = "resolve-relative-route-file-path"; ]; "resolve-relative-route-file-path_14061" -> central [label=14; weight=14; penwidth=0.4];
-	"plugin_14073" [label = "plugin"; ]; "plugin_14073" -> central [label=12; weight=12; penwidth=0.4];
-	"routes_14023" [label = "routes"; color = 5; fillcolor = 1; ]; central -> "routes_14023" [label=3129; weight=3129; penwidth=2.5; color = 5];
-	"generate_14040" -> "config_14033" [label=196; weight=196; penwidth=0.3; color = 3]
-	"virtual-route-config_14075" -> "routes_14023" [label=112; weight=112; penwidth=0.3; color = 3]
-	"plugin_14057" -> "styles_14064" [label=35; weight=35; penwidth=0.3; color = 3]
-	"plugin_14057" -> "resolve-relative-route-file-path_14061" [label=35; weight=35; penwidth=0.3; color = 3]
-	"plugin_14057" -> "config_14033" [label=26; weight=26; penwidth=0.3; color = 3]
-	"plugin_14073" -> "config_14033" [label=16; weight=16; penwidth=0.3; color = 3]
-	"plugin_14073" -> "resolve-relative-route-file-path_14061" [label=7; weight=7; penwidth=0.3; color = 3]
-	"plugin_14073" -> "plugin_14057" [label=7; weight=7; penwidth=0.3; color = 3]
-	"plugin_14073" -> "virtual-route-config_14075" [label=7; weight=7; penwidth=0.3; color = 3]
-	"styles_14064" -> "plugin_14057" [label=7; weight=7; penwidth=0.3; color = 3]
+	graph   [label="Top Rank #3 Typescript Module Bridge\n/home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.17.0/source/react-router-7.17.0/packages/react-router-dev/config/config.ts\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
+	central [label="🌉 bridge #3\nconfig"];
+	"generate_13767" [label = "generate"; ]; "generate_13767" -> central [label=288; weight=288; penwidth=0.6];
+	"optimize-deps-entries_13783" [label = "optimize-deps-entries"; ]; "optimize-deps-entries_13783" -> central [label=288; weight=288; penwidth=0.6];
+	"plugin_13784" [label = "plugin"; ]; "plugin_13784" -> central [label=30; weight=30; penwidth=0.4];
+	"plugin_13800" [label = "plugin"; ]; "plugin_13800" -> central [label=18; weight=18; penwidth=0.4];
+	"commands_13754" [label = "commands"; ]; "commands_13754" -> central [label=16; weight=16; penwidth=0.4];
+	"build_13773" [label = "build"; ]; "build_13773" -> central [label=8; weight=8; penwidth=0.4];
+	"cloudflare-dev-proxy_13775" [label = "cloudflare-dev-proxy"; ]; "cloudflare-dev-proxy_13775" -> central [label=8; weight=8; penwidth=0.4];
+	"config_13747" [label = "config"; color = 5; fillcolor = 1; ]; central -> "config_13747" [label=224; weight=224; penwidth=0.5; color = 5];
+	"routes_13764" [label = "routes"; color = 5; fillcolor = 1; ]; central -> "routes_13764" [label=34; weight=34; penwidth=0.4; color = 5];
+	"vite-node_13793" [label = "vite-node"; color = 5; fillcolor = 1; ]; central -> "vite-node_13793" [label=10; weight=10; penwidth=0.4; color = 5];
+	"detectPackageManager_13756" [label = "detectPackageManager"; color = 5; fillcolor = 1; ]; central -> "detectPackageManager_13756" [label=8; weight=8; penwidth=0.4; color = 5];
+	"plugin_13784" -> "routes_13764" [label=914; weight=914; penwidth=0.3; color = 3]
+	"generate_13767" -> "routes_13764" [label=148; weight=148; penwidth=0.3; color = 3]
+	"build_13773" -> "plugin_13784" [label=56; weight=56; penwidth=0.3; color = 3]
+	"commands_13754" -> "build_13773" [label=18; weight=18; penwidth=0.3; color = 3]
+	"plugin_13800" -> "routes_13764" [label=16; weight=16; penwidth=0.3; color = 3]
+	"plugin_13784" -> "optimize-deps-entries_13783" [label=8; weight=8; penwidth=0.3; color = 3]
+	"plugin_13800" -> "plugin_13784" [label=8; weight=8; penwidth=0.3; color = 3]
+	"plugin_13800" -> "optimize-deps-entries_13783" [label=8; weight=8; penwidth=0.3; color = 3]
+	"plugin_13784" -> "config_13747" [label=4; weight=4; penwidth=0.3; color = 3]
 }

@@ -1,6 +1,6 @@
 ---
 title: "Java Report"
-generated: "2026-06-15"
+generated: "2026-06-22"
 model_version: "v4.0.1"
 dataset: "react-router-7.17.0"
 authors: ["JohT/code-graph-analysis-pipeline"]

@@ -12,19 +12,46 @@ strict digraph TopBottleneck3 {
     central [fontsize = 16;];
     central [color = 7; fillcolor = 5; penwidth = 3;];
 
-	graph   [label="Top Rank #3 Typescript Module Bottleneck\n/home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.17.0/source/react-router-7.17.0/packages/react-router/dom-export.ts\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: Betweenness centrality\nthick outline: > 90% percentile of Betweenness centrality\n\n"];
-	central [label="🔒 bottleneck #3\ndom-export"];
-	"server_97616"  [label = "server\n(95.0)"; penwidth = 2; ]; "server_97616" -> central [label=195; weight=195; penwidth=0.5];
-	"react-router_97587"  [label = "react-router\n(370.5)"; penwidth = 2; ]; "react-router_97587" -> central [label=1; weight=1; penwidth=0.4];
-	"react-router_97588"  [label = "react-router\n(1209.0)"; penwidth = 5; ]; "react-router_97588" -> central [label=1; weight=1; penwidth=0.4];
-	"browser_97617"  [label = "browser\n(0.0)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "browser_97617" [label=1; weight=1; penwidth=0.4; color = 5];
-	"react-router_97587"  [label = "react-router\n(370.5)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "react-router_97587" [label=1; weight=1; penwidth=0.4; color = 5];
-	"react-router_97588"  [label = "react-router\n(1209.0)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "react-router_97588" [label=1; weight=1; penwidth=0.4; color = 5];
-	"server_97616"  [label = "server\n(95.0)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "server_97616" [label=1; weight=1; penwidth=0.4; color = 5];
-	"server_97616" -> "react-router_97588" [label=552; weight=552; penwidth=0.3; color = 3]
-	"server_97616" -> "react-router_97587" [label=60; weight=60; penwidth=0.3; color = 3]
-	"react-router_97588" -> "react-router_97587" [label=30; weight=30; penwidth=0.3; color = 3]
-	"react-router_97587" -> "react-router_97588" [label=18; weight=18; penwidth=0.3; color = 3]
-	"react-router_97588" -> "server_97616" [label=15; weight=15; penwidth=0.3; color = 3]
-	"react-router_97587" -> "server_97616" [label=9; weight=9; penwidth=0.3; color = 3]
+	graph   [label="Top Rank #3 Typescript Module Bottleneck\n/home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.17.0/source/react-router-7.17.0/packages/react-router/lib/dom/ssr/routeModules.ts\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: Betweenness centrality\nthick outline: > 90% percentile of Betweenness centrality\n\n"];
+	central [label="🔒 bottleneck #3\nrouteModules"];
+	"links_97737"  [label = "links\n(0.0)"; penwidth = 2; ]; "links_97737" -> central [label=16; weight=16; penwidth=0.4];
+	"routes_97764"  [label = "routes\n(106.33)"; penwidth = 2; ]; "routes_97764" -> central [label=13; weight=13; penwidth=0.4];
+	"server_97748"  [label = "server\n(78.5)"; penwidth = 2; ]; "server_97748" -> central [label=13; weight=13; penwidth=0.4];
+	"headers_97760"  [label = "headers\n(14.83)"; penwidth = 2; ]; "headers_97760" -> central [label=3; weight=3; penwidth=0.4];
+	"react-router_97720"  [label = "react-router\n(1225.0)"; penwidth = 5; ]; "react-router_97720" -> central [label=3; weight=3; penwidth=0.4];
+	"fog-of-war_97735"  [label = "fog-of-war\n(0.0)"; penwidth = 2; ]; "fog-of-war_97735" -> central [label=2; weight=2; penwidth=0.4];
+	"react-router_97720"  [label = "react-router\n(1225.0)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "react-router_97720" [label=16; weight=16; penwidth=0.4; color = 5];
+	"utils_97745"  [label = "utils\n(0.0)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "utils_97745" [label=14; weight=14; penwidth=0.4; color = 5];
+	"react-router_97719"  [label = "react-router\n(228.17)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "react-router_97719" [label=3; weight=3; penwidth=0.4; color = 5];
+	"history_97740"  [label = "history\n(0.0)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "history_97740" [label=1; weight=1; penwidth=0.4; color = 5];
+	"route-data_97779"  [label = "route-data\n(379.33)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "route-data_97779" [label=1; weight=1; penwidth=0.4; color = 5];
+	"history_97740" -> "react-router_97720" [label=259; weight=259; penwidth=0.3; color = 3]
+	"server_97748" -> "react-router_97720" [label=177; weight=177; penwidth=0.3; color = 3]
+	"utils_97745" -> "history_97740" [label=103; weight=103; penwidth=0.3; color = 3]
+	"utils_97745" -> "react-router_97719" [label=96; weight=96; penwidth=0.3; color = 3]
+	"server_97748" -> "utils_97745" [label=82; weight=82; penwidth=0.3; color = 3]
+	"fog-of-war_97735" -> "react-router_97720" [label=56; weight=56; penwidth=0.3; color = 3]
+	"utils_97745" -> "react-router_97720" [label=43; weight=43; penwidth=0.3; color = 3]
+	"server_97748" -> "react-router_97719" [label=30; weight=30; penwidth=0.3; color = 3]
+	"links_97737" -> "react-router_97720" [label=25; weight=25; penwidth=0.3; color = 3]
+	"headers_97760" -> "react-router_97720" [label=24; weight=24; penwidth=0.3; color = 3]
+	"react-router_97720" -> "react-router_97719" [label=24; weight=24; penwidth=0.3; color = 3]
+	"react-router_97720" -> "utils_97745" [label=21; weight=21; penwidth=0.3; color = 3]
+	"react-router_97719" -> "react-router_97720" [label=18; weight=18; penwidth=0.3; color = 3]
+	"routes_97764" -> "react-router_97720" [label=16; weight=16; penwidth=0.3; color = 3]
+	"fog-of-war_97735" -> "utils_97745" [label=10; weight=10; penwidth=0.3; color = 3]
+	"react-router_97720" -> "history_97740" [label=10; weight=10; penwidth=0.3; color = 3]
+	"routes_97764" -> "utils_97745" [label=10; weight=10; penwidth=0.3; color = 3]
+	"react-router_97720" -> "server_97748" [label=9; weight=9; penwidth=0.3; color = 3]
+	"react-router_97719" -> "server_97748" [label=9; weight=9; penwidth=0.3; color = 3]
+	"react-router_97719" -> "utils_97745" [label=6; weight=6; penwidth=0.3; color = 3]
+	"links_97737" -> "utils_97745" [label=4; weight=4; penwidth=0.3; color = 3]
+	"fog-of-war_97735" -> "history_97740" [label=3; weight=3; penwidth=0.3; color = 3]
+	"server_97748" -> "headers_97760" [label=3; weight=3; penwidth=0.3; color = 3]
+	"react-router_97720" -> "fog-of-war_97735" [label=2; weight=2; penwidth=0.3; color = 3]
+	"headers_97760" -> "utils_97745" [label=1; weight=1; penwidth=0.3; color = 3]
+	"links_97737" -> "history_97740" [label=1; weight=1; penwidth=0.3; color = 3]
+	"route-data_97779" -> "react-router_97720" [label=1; weight=1; penwidth=0.3; color = 3]
+	"routes_97764" -> "react-router_97719" [label=1; weight=1; penwidth=0.3; color = 3]
+	"server_97748" -> "history_97740" [label=1; weight=1; penwidth=0.3; color = 3]
 }

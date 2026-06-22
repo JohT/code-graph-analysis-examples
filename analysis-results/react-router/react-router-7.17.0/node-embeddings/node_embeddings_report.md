@@ -1,6 +1,6 @@
 ---
 title: "Node Embeddings Report"
-generated: "2026-06-15"
+generated: "2026-06-22"
 model_version: "v4.0.1"
 dataset: "react-router-7.17.0"
 authors: ["JohT/code-graph-analysis-pipeline"]
@@ -49,16 +49,16 @@ Useful to verify that the embedding pipeline ran end-to-end and that the propert
 
 | nodeLabels | nodeName | embeddingDimensions | communityLeidenId | pageRankScore |
 | --- | --- | --- | --- | --- |
-| ["TS","Local","Module"] | ./index.ts | 32 | 6 | 8.262568626816217 |
-| ["TS","Local","Module"] | ./index-react-server.ts | 32 | 6 | 5.37301481141475 |
-| ["TS","Local","Module"] | ./config/routes.ts | 32 | 5 | 4.5339216431966145 |
-| ["TS","Local","Module"] | ./routes.ts | 32 | 5 | 4.068943100165577 |
-| ["TS","Local","Module"] | ./lib/router/utils.ts | 32 | 6 | 4.004813371881062 |
-| ["TS","Local","Module"] | ./lib/rsc/server.rsc.ts | 32 | 6 | 2.1641195645713225 |
-| ["TS","Local","Module"] | ./lib/router/history.ts | 32 | 6 | 1.8357053387166504 |
-| ["TS","Local","Module"] | ./config/config.ts | 32 | 5 | 1.7924940678274695 |
-| ["TS","Local","Module"] | ./lib/router/router.ts | 32 | 6 | 1.5400002129338366 |
-| ["TS","Local","Module"] | ./config.ts | 32 | 5 | 1.3465609308218114 |
+| ["TS","Local","Module"] | ./index.ts | 32 | 9 | 8.951870515300346 |
+| ["TS","Local","Module"] | ./config/routes.ts | 32 | 5 | 4.510155154175984 |
+| ["TS","Local","Module"] | ./lib/router/utils.ts | 32 | 9 | 4.109070556065894 |
+| ["TS","Local","Module"] | ./index-react-server.ts | 32 | 9 | 4.069356391580621 |
+| ["TS","Local","Module"] | ./routes.ts | 32 | 5 | 4.04872680184805 |
+| ["TS","Local","Module"] | ./lib/router/history.ts | 32 | 9 | 2.8999881261799 |
+| ["TS","Local","Module"] | ./config/config.ts | 32 | 4 | 1.89713732533955 |
+| ["TS","Local","Module"] | ./lib/rsc/server.rsc.ts | 32 | 9 | 1.6436958672782775 |
+| ["TS","Local","Module"] | ./lib/router/router.ts | 32 | 9 | 1.4864535255079285 |
+| ["TS","Local","Module"] | ./config.ts | 32 | 4 | 1.4592375318539754 |
 
 ---
 

@@ -12,14 +12,37 @@ strict digraph TopBottleneck5 {
     central [fontsize = 16;];
     central [color = 7; fillcolor = 5; penwidth = 3;];
 
-	graph   [label="Top Rank #5 Typescript Module Bottleneck\n/home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.17.0/source/react-router-7.17.0/packages/react-router/lib/types/route-data.ts\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: Betweenness centrality\nthick outline: > 90% percentile of Betweenness centrality\n\n"];
-	central [label="🔒 bottleneck #5\nroute-data"];
-	"routeModules_97607"  [label = "routeModules\n(351.5)"; penwidth = 2; ]; "routeModules_97607" -> central [label=3; weight=3; penwidth=0.4];
-	"route-module_97649"  [label = "route-module\n(36.0)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "route-module_97649" [label=3; weight=3; penwidth=0.4; color = 5];
-	"data_97624"  [label = "data\n(6.5)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "data_97624" [label=1; weight=1; penwidth=0.4; color = 5];
-	"react-router_97588"  [label = "react-router\n(1209.0)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "react-router_97588" [label=1; weight=1; penwidth=0.4; color = 5];
-	"data_97624" -> "react-router_97588" [label=150; weight=150; penwidth=0.3; color = 3]
-	"routeModules_97607" -> "react-router_97588" [label=47; weight=47; penwidth=0.3; color = 3]
-	"react-router_97588" -> "routeModules_97607" [label=3; weight=3; penwidth=0.3; color = 3]
-	"react-router_97588" -> "data_97624" [label=0; weight=0; penwidth=0.3; color = 3]
+	graph   [label="Top Rank #5 Typescript Module Bottleneck\n/home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.17.0/source/react-router-7.17.0/packages/react-router/lib/dom/ssr/entry.ts\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: Betweenness centrality\nthick outline: > 90% percentile of Betweenness centrality\n\n"];
+	central [label="🔒 bottleneck #5\nentry"];
+	"fog-of-war_97735"  [label = "fog-of-war\n(0.0)"; penwidth = 2; ]; "fog-of-war_97735" -> central [label=15; weight=15; penwidth=0.4];
+	"links_97737"  [label = "links\n(0.0)"; penwidth = 2; ]; "links_97737" -> central [label=12; weight=12; penwidth=0.4];
+	"single-fetch_97768"  [label = "single-fetch\n(140.0)"; penwidth = 2; ]; "single-fetch_97768" -> central [label=9; weight=9; penwidth=0.4];
+	"routes_97764"  [label = "routes\n(106.33)"; penwidth = 2; ]; "routes_97764" -> central [label=1; weight=1; penwidth=0.4];
+	"react-router_97720"  [label = "react-router\n(1225.0)"; penwidth = 5; ]; "react-router_97720" -> central [label=0; weight=0; penwidth=0.4];
+	"react-router_97720"  [label = "react-router\n(1225.0)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "react-router_97720" [label=4; weight=4; penwidth=0.4; color = 5];
+	"utils_97745"  [label = "utils\n(0.0)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "utils_97745" [label=4; weight=4; penwidth=0.4; color = 5];
+	"routeModules_97739"  [label = "routeModules\n(393.83)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "routeModules_97739" [label=1; weight=1; penwidth=0.4; color = 5];
+	"router_97744"  [label = "router\n(94.0)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "router_97744" [label=1; weight=1; penwidth=0.4; color = 5];
+	"router_97744" -> "utils_97745" [label=1162; weight=1162; penwidth=0.3; color = 3]
+	"router_97744" -> "react-router_97720" [label=832; weight=832; penwidth=0.3; color = 3]
+	"single-fetch_97768" -> "react-router_97720" [label=141; weight=141; penwidth=0.3; color = 3]
+	"single-fetch_97768" -> "router_97744" [label=65; weight=65; penwidth=0.3; color = 3]
+	"fog-of-war_97735" -> "react-router_97720" [label=56; weight=56; penwidth=0.3; color = 3]
+	"utils_97745" -> "react-router_97720" [label=43; weight=43; penwidth=0.3; color = 3]
+	"fog-of-war_97735" -> "router_97744" [label=29; weight=29; penwidth=0.3; color = 3]
+	"links_97737" -> "react-router_97720" [label=25; weight=25; penwidth=0.3; color = 3]
+	"single-fetch_97768" -> "utils_97745" [label=24; weight=24; penwidth=0.3; color = 3]
+	"react-router_97720" -> "utils_97745" [label=21; weight=21; penwidth=0.3; color = 3]
+	"links_97737" -> "routeModules_97739" [label=16; weight=16; penwidth=0.3; color = 3]
+	"routeModules_97739" -> "react-router_97720" [label=16; weight=16; penwidth=0.3; color = 3]
+	"routes_97764" -> "react-router_97720" [label=16; weight=16; penwidth=0.3; color = 3]
+	"routeModules_97739" -> "utils_97745" [label=14; weight=14; penwidth=0.3; color = 3]
+	"routes_97764" -> "routeModules_97739" [label=13; weight=13; penwidth=0.3; color = 3]
+	"fog-of-war_97735" -> "utils_97745" [label=10; weight=10; penwidth=0.3; color = 3]
+	"routes_97764" -> "utils_97745" [label=10; weight=10; penwidth=0.3; color = 3]
+	"react-router_97720" -> "router_97744" [label=8; weight=8; penwidth=0.3; color = 3]
+	"links_97737" -> "utils_97745" [label=4; weight=4; penwidth=0.3; color = 3]
+	"react-router_97720" -> "routeModules_97739" [label=3; weight=3; penwidth=0.3; color = 3]
+	"fog-of-war_97735" -> "routeModules_97739" [label=2; weight=2; penwidth=0.3; color = 3]
+	"react-router_97720" -> "fog-of-war_97735" [label=2; weight=2; penwidth=0.3; color = 3]
 }

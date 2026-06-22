@@ -12,26 +12,8 @@ strict digraph TopBridge1 {
     central [fontsize = 16;];
     central [color = 7; fillcolor = 5; penwidth = 3;];
 
-	graph   [label="Top Rank #1 Typescript Module Bridge\n/home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.17.0/source/react-router-7.17.0/packages/react-router-dev/config/config.ts\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
-	central [label="🌉 bridge #1\nconfig"];
-	"generate_14040" [label = "generate"; ]; "generate_14040" -> central [label=196; weight=196; penwidth=0.5];
-	"optimize-deps-entries_14056" [label = "optimize-deps-entries"; ]; "optimize-deps-entries_14056" -> central [label=196; weight=196; penwidth=0.5];
-	"plugin_14057" [label = "plugin"; ]; "plugin_14057" -> central [label=26; weight=26; penwidth=0.4];
-	"plugin_14073" [label = "plugin"; ]; "plugin_14073" -> central [label=16; weight=16; penwidth=0.4];
-	"commands_14027" [label = "commands"; ]; "commands_14027" -> central [label=14; weight=14; penwidth=0.4];
-	"build_14046" [label = "build"; ]; "build_14046" -> central [label=7; weight=7; penwidth=0.4];
-	"cloudflare-dev-proxy_14048" [label = "cloudflare-dev-proxy"; ]; "cloudflare-dev-proxy_14048" -> central [label=7; weight=7; penwidth=0.4];
-	"config_14020" [label = "config"; color = 5; fillcolor = 1; ]; central -> "config_14020" [label=168; weight=168; penwidth=0.5; color = 5];
-	"routes_14037" [label = "routes"; color = 5; fillcolor = 1; ]; central -> "routes_14037" [label=30; weight=30; penwidth=0.4; color = 5];
-	"vite-node_14066" [label = "vite-node"; color = 5; fillcolor = 1; ]; central -> "vite-node_14066" [label=9; weight=9; penwidth=0.4; color = 5];
-	"detectPackageManager_14029" [label = "detectPackageManager"; color = 5; fillcolor = 1; ]; central -> "detectPackageManager_14029" [label=7; weight=7; penwidth=0.4; color = 5];
-	"plugin_14057" -> "routes_14037" [label=702; weight=702; penwidth=0.3; color = 3]
-	"generate_14040" -> "routes_14037" [label=114; weight=114; penwidth=0.3; color = 3]
-	"build_14046" -> "plugin_14057" [label=49; weight=49; penwidth=0.3; color = 3]
-	"commands_14027" -> "build_14046" [label=14; weight=14; penwidth=0.3; color = 3]
-	"plugin_14073" -> "routes_14037" [label=12; weight=12; penwidth=0.3; color = 3]
-	"plugin_14057" -> "optimize-deps-entries_14056" [label=7; weight=7; penwidth=0.3; color = 3]
-	"plugin_14073" -> "optimize-deps-entries_14056" [label=7; weight=7; penwidth=0.3; color = 3]
-	"plugin_14073" -> "plugin_14057" [label=7; weight=7; penwidth=0.3; color = 3]
-	"plugin_14057" -> "config_14020" [label=3; weight=3; penwidth=0.3; color = 3]
+	graph   [label="Top Rank #1 Typescript Module Bridge\n/home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.17.0/source/react-router-7.17.0/packages/react-router-express/index.ts\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
+	central [label="🌉 bridge #1\nreact-router-express"];
+	"server_14874" [label = "server"; ]; "server_14874" -> central [label=30; weight=30; penwidth=0.4];
+	"server_14874" [label = "server"; color = 5; fillcolor = 1; ]; central -> "server_14874" [label=1; weight=1; penwidth=0.4; color = 5];
 }

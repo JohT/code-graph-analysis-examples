@@ -1,6 +1,6 @@
 ---
 title: "Internal Dependencies Report"
-generated: "2026-06-15"
+generated: "2026-06-22"
 model_version: "v4.0.1"
 dataset: "react-router-7.17.0"
 authors: ["JohT/code-graph-analysis-pipeline"]
@@ -78,9 +78,9 @@ Classes used across artifacts — extraction candidates. High reuse = type grown
 | directoryDistance | numberOfDependencies | percentageOfDependencies | numberOfDependencyUsers | numberOfDependencyProviders | examples |
 | --- | --- | --- | --- | --- | --- |
 | 0 | 150 | 41.1 | 69 | 86 | ["./index.ts uses ./copy-template.ts","./index.ts uses ./loading-indicator.ts","./index.ts uses ./prompt.ts","./prompt.ts uses ./prompts-confirm.ts"] |
-| 3 | 43 | 11.78 | 22 | 33 | ["./index.ts uses ./sessions/arcTableSessionStorage.ts","./index.ts uses ./sessions/fileStorage.ts","./config/config.ts uses ./config.ts","./vite/plugin.ts uses ./config.ts"] |
-| 4 | 121 | 33.15 | 43 | 41 | ["./vite/rsc/virtual-route-config.ts uses ./routes.ts","./config/config.ts uses ./cli/detectPackageManager.ts","./vite/build.ts uses ./config/config.ts","./vite/cloudflare-dev-proxy.ts uses ./config/config.ts"] |
-| 5 | 50 | 13.7 | 24 | 18 | ["./vite/rsc/plugin.ts uses ./config/config.ts","./vite/rsc/virtual-route-config.ts uses ./config/routes.ts","./vite/rsc/plugin.ts uses ./config/routes.ts","./vite/rsc/plugin.ts uses ./typegen/index.ts"] |
+| 3 | 43 | 11.78 | 22 | 33 | ["./vite/plugin.ts uses ./config.ts","./config/config.ts uses ./config.ts","./vite/plugin.ts uses ./manifest.ts","./config/routes.ts uses ./routes.ts"] |
+| 4 | 121 | 33.15 | 43 | 41 | ["./vite/rsc/virtual-route-config.ts uses ./routes.ts","./config/config.ts uses ./cli/detectPackageManager.ts","./typegen/generate.ts uses ./config/config.ts","./vite/optimize-deps-entries.ts uses ./config/config.ts"] |
+| 5 | 50 | 13.7 | 24 | 18 | ["./vite/rsc/plugin.ts uses ./config/config.ts","./vite/rsc/plugin.ts uses ./config/routes.ts","./vite/rsc/virtual-route-config.ts uses ./config/routes.ts","./vite/rsc/plugin.ts uses ./typegen/index.ts"] |
 | 6 | 1 | 0.27 | 1 | 1 | ["./lib/server-runtime/single-fetch.ts uses ./vendor/turbo-stream-v2/turbo-stream.ts"] |
 
 [Full data](./Distance_distribution_between_dependent_files.csv)
@@ -140,8 +140,8 @@ Low `usedElementsPercent` = public API wider than needed. Candidates for narrowe
 | links | utils | 1 | 90 | 0.011111111111111112 | ["\"/home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.17.0/source/react-router-7.17.0/packages/react-router/lib/router/utils.ts\".DataRouteMatch"] | ["DataRouteMatch"] |
 | headers | utils | 1 | 90 | 0.011111111111111112 | ["\"/home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.17.0/source/react-router-7.17.0/packages/react-router/lib/router/utils.ts\".DataRouteMatch"] | ["DataRouteMatch"] |
 | urls | utils | 1 | 90 | 0.011111111111111112 | ["\"/home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.17.0/source/react-router-7.17.0/packages/react-router/lib/router/utils.ts\".stripBasename"] | ["stripBasename"] |
-| route-module-annotations | react-router | 2 | 171 | 0.011695906432748537 | ["\"/home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.17.0/source/react-router-7.17.0/packages/react-router/lib/router/links.ts\".LinkDescriptor","\"/home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.17.0/source/react-router-7.17.0/packages/react-router/lib/dom/ssr/routeModules.ts\".MetaDescriptor"] | ["LinkDescriptor","MetaDescriptor"] |
-| internal | react-router | 2 | 171 | 0.011695906432748537 | ["\"/home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.17.0/source/react-router-7.17.0/packages/react-router/lib/router/links.ts\".LinkDescriptor","\"/home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.17.0/source/react-router-7.17.0/packages/react-router/lib/dom/ssr/routeModules.ts\".MetaDescriptor"] | ["LinkDescriptor","MetaDescriptor"] |
+| internal | react-router | 2 | 171 | 0.011695906432748537 | ["\"/home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.17.0/source/react-router-7.17.0/packages/react-router/lib/dom/ssr/routeModules.ts\".MetaDescriptor","\"/home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.17.0/source/react-router-7.17.0/packages/react-router/lib/router/links.ts\".LinkDescriptor"] | ["MetaDescriptor","LinkDescriptor"] |
+| route-module-annotations | react-router | 2 | 171 | 0.011695906432748537 | ["\"/home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.17.0/source/react-router-7.17.0/packages/react-router/lib/dom/ssr/routeModules.ts\".MetaDescriptor","\"/home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.17.0/source/react-router-7.17.0/packages/react-router/lib/router/links.ts\".LinkDescriptor"] | ["MetaDescriptor","LinkDescriptor"] |
 | route-modules | react-router | 3 | 179 | 0.01675977653631285 | ["\"/home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.17.0/source/react-router-7.17.0/packages/react-router/lib/rsc/server.rsc.ts\".RSCRouteManifest","\"/home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.17.0/source/react-router-7.17.0/packages/react-router/lib/rsc/server.rsc.ts\".RSCRenderPayload","\"/home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.17.0/source/react-router-7.17.0/packages/react-router/lib/dom/ssr/routeModules.ts\".RouteModules"] | ["RSCRouteManifest","RSCRenderPayload","RouteModules"] |
 
 [Full data](./Typescript_Module/ModuleElementsUsageTypescript.csv)
@@ -210,8 +210,8 @@ Graph diameter = longest shortest path among module pairs. Higher = deeper trans
 | 5 | 120 | 36 | 6 | ["./typegen/index.ts ->./config/is-react-router-repo.ts","./dom-export.ts ->./lib/types/utils.ts"] |
 | 4 | 146 | 43 | 44 | ["./cli/run.ts ->./manifest.ts","./cli/run.ts ->./routes.ts"] |
 | 3 | 537 | 50 | 77 | ["./index.ts ->./prompts-prompt-base.ts","./cli/run.ts ->./config.ts"] |
-| 2 | 982 | 61 | 98 | ["./index.ts ->./prompts-confirm.ts","./index.ts ->./prompts-multi-select.ts"] |
-| 1 | 349 | 88 | 116 | ["./vite/rsc/virtual-route-config.ts ->./routes.ts","./vite/rsc/virtual-route-config.ts ->./config/routes.ts"] |
+| 2 | 981 | 61 | 97 | ["./index.ts ->./prompts-confirm.ts","./index.ts ->./prompts-multi-select.ts"] |
+| 1 | 348 | 88 | 115 | ["./server.ts ->./index.ts","./index.ts ->./server.ts"] |
 
 [Full data per project](./Typescript_Module/Module_all_pairs_shortest_paths_distribution_per_project.csv)
 
@@ -237,7 +237,7 @@ Deepest sequential TypeScript import chain.
 | 3 | 6 |
 | 2 | 15 |
 | 1 | 28 |
-| 0 | 14 |
+| 0 | 15 |
 
 [Full data per project](./Typescript_Module/Module_longest_paths_distribution.csv)
 
@@ -267,7 +267,7 @@ Max build level per abstraction. Higher = deeper sequential chain.
 | abstractionLevel | nodeCount | maxBuildLevel |
 | --- | --- | --- |
 | Java Package | 7 | 4 |
-| TypeScript Module | 37 | 5 |
+| TypeScript Module | 38 | 5 |
 
 Full topological sort results (node-level build order and level assignments) are in the abstraction-level CSV files under each subdirectory of `reports/internal-dependencies/`.
 

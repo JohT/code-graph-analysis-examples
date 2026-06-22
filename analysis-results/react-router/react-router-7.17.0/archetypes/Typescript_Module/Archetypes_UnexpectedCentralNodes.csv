@@ -1,7 +1,6 @@
 "codeUnitName","shortCodeUnitName","projectName","betweenness","degree","incomingDependencies","outgoingDependencies","Source Cypher File: domains/archetypes/queries/AnomalyDetectionUnexpectedCentralNodes.cypher"
-"/home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.17.0/source/react-router-7.17.0/packages/react-router/lib/server-runtime/entry.ts","entry","react-router",49.5,1,1,0,""
+"/home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.17.0/source/react-router-7.17.0/packages/react-router/lib/server-runtime/entry.ts","entry","react-router",59,1,1,0,""
 "/home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.17.0/source/react-router-7.17.0/packages/react-router/vendor/turbo-stream-v2/unflatten.ts","unflatten","react-router",37,1,1,0,""
-"/home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.17.0/source/react-router-7.17.0/packages/react-router-architect/binaryTypes.ts","binaryTypes","react-router-architect",0,1,1,0,""
 "/home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.17.0/source/react-router-7.17.0/packages/react-router-dev/config/format.ts","format","react-router-dev",0,1,1,0,""
 "/home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.17.0/source/react-router-7.17.0/packages/react-router-dev/typegen/params.ts","params","react-router-dev",0,1,1,0,""
 "/home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.17.0/source/react-router-7.17.0/packages/react-router-dev/vite/combine-urls.ts","combine-urls","react-router-dev",0,1,1,0,""
@@ -13,3 +12,4 @@
 "/home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.17.0/source/react-router-7.17.0/packages/react-router/lib/types/serializes-to.ts","serializes-to","react-router",0,1,1,0,""
 "/home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.17.0/source/react-router-7.17.0/packages/react-router/lib/types/utils.ts","utils","react-router",0,1,1,0,""
 "/home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.17.0/source/react-router-7.17.0/packages/react-router/vendor/turbo-stream-v2/flatten.ts","flatten","react-router",0,1,1,0,""
+"/home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.17.0/source/react-router-7.17.0/packages/react-router-architect/binaryTypes.ts","binaryTypes","react-router-architect",0,1,1,0,""

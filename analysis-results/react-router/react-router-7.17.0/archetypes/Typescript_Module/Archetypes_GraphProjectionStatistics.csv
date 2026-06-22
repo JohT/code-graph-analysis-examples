@@ -1,2 +1,2 @@
 "nodeCount","relationshipCount","density","sizeInBytes","degreeDistribution.min","degreeDistribution.mean","degreeDistribution.max","degreeDistribution.p50","degreeDistribution.p75","degreeDistribution.p90","degreeDistribution.p95","degreeDistribution.p99","degreeDistribution.p999","Source Cypher File: domains/archetypes/queries/AnomalyDetectionProjectionStatistics.cypher"
-130,698,0.041621943947525344,2597830,0,5.369230769230769,61,3,6,12,15,27,61,""
+130,696,0.04150268336314848,2630614,0,5.3538461538461535,61,3,6,12,15,27,61,""
