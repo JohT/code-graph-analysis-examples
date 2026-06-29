@@ -1,0 +1,8 @@
+"codeUnitName","shortCodeUnitName","propertyName","propertyValue","Source Cypher File: scripts/../cypher/Dependencies_Projection/Dependencies_8_Stream_Mutated_Value_Descending.cypher"
+"react-router","react-router","centralityCloseness",1,""
+"@react-router/node","@react-router/node","centralityCloseness",0.5,""
+"@react-router/express","@react-router/express","centralityCloseness",0.2222222222222222,""
+"@react-router/serve","@react-router/serve","centralityCloseness",0.16666666666666666,""
+"@react-router/cloudflare","@react-router/cloudflare","centralityCloseness",0,""
+"@react-router/dev","@react-router/dev","centralityCloseness",0,""
+"react-router-dom","react-router-dom","centralityCloseness",0,""
