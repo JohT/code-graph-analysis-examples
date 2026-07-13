@@ -1,6 +1,6 @@
 ---
 title: "Graph Algorithms Report"
-generated: "2026-07-06"
+generated: "2026-07-13"
 model_version: "v4.0.1"
 dataset: "react-router-7.18.1"
 authors: ["JohT/code-graph-analysis-pipeline"]
@@ -65,13 +65,13 @@ High PageRank = depended on by many important nodes. High betweenness = bridge b
 
 | nodeLabels | nodeName | betweennessScore |
 | --- | --- | --- |
-| ["TS","Local","Module"] | ./index.ts | 1238.6666666666667 |
+| ["TS","Local","Module"] | ./index.ts | 1238.6666666666665 |
 | ["TS","Local","Module"] | ./lib/server-runtime/server.ts | 471.1666666666667 |
 | ["TS","Local","Module"] | ./lib/dom/ssr/routeModules.ts | 408.1666666666667 |
 | ["TS","Local","Module"] | ./lib/types/route-data.ts | 372.1666666666667 |
 | ["TS","Local","Module"] | ./lib/dom/ssr/entry.ts | 343 |
 | ["TS","Local","Module"] | ./dom-export.ts | 292.3333333333333 |
-| ["TS","Local","Module"] | ./index-react-server.ts | 225.16666666666666 |
+| ["TS","Local","Module"] | ./index-react-server.ts | 225.16666666666669 |
 | ["TS","Local","Module"] | ./lib/router/instrumentation.ts | 144.66666666666666 |
 | ["TS","Local","Module"] | ./lib/server-runtime/single-fetch.ts | 138 |
 | ["TS","Local","Module"] | ./lib/server-runtime/cookies.ts | 115 |

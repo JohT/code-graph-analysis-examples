@@ -23,12 +23,12 @@ strict digraph TypeScriptModuleBuildLevels {
 	"react-router-7.18.1\ncopy-template\n(level 1/5)" -> "react-router-7.18.1\nutils\n(level 5/5)" [label = 1380; penwidth = 1.22; ];
 	"react-router-7.18.1\nprompt\n(level 1/5)" -> "react-router-7.18.1\nprompts-select\n(level 3/5)" [label = 1380; penwidth = 1.22; ];
 	"react-router-7.18.1\nprompt\n(level 1/5)" -> "react-router-7.18.1\nutils\n(level 5/5)" [label = 1104; penwidth = 1.17; ];
-	"react-router-7.18.1\nprompt\n(level 1/5)" -> "react-router-7.18.1\nprompts-confirm\n(level 2/5)" [label = 1104; penwidth = 1.17; ];
 	"react-router-7.18.1\nprompt\n(level 1/5)" -> "react-router-7.18.1\nprompts-text\n(level 2/5)" [label = 1104; penwidth = 1.17; ];
+	"react-router-7.18.1\nprompt\n(level 1/5)" -> "react-router-7.18.1\nprompts-confirm\n(level 2/5)" [label = 1104; penwidth = 1.17; ];
 	"react-router-7.18.1\nprompt\n(level 1/5)" -> "react-router-7.18.1\nprompts-multi-select\n(level 2/5)" [label = 828; penwidth = 1.13; ];
 	"react-router-7.18.1\nrun\n(level 0/5)" -> "react-router-7.18.1\ncommands\n(level 1/5)" [label = 720; penwidth = 1.11; ];
-	"react-router-7.18.1\ncommands\n(level 1/5)" -> "react-router-7.18.1\ndev\n(level 2/5)" [label = 688; penwidth = 1.1; ];
 	"react-router-7.18.1\ncommands\n(level 1/5)" -> "react-router-7.18.1\nbuild\n(level 2/5)" [label = 688; penwidth = 1.1; ];
+	"react-router-7.18.1\ncommands\n(level 1/5)" -> "react-router-7.18.1\ndev\n(level 2/5)" [label = 688; penwidth = 1.1; ];
 	"react-router-7.18.1\ndefineRoutes\n(level 0/5)" -> "react-router-7.18.1\nmanifest\n(level 1/5)" [label = 670; penwidth = 1.1; ];
 	"react-router-7.18.1\nflatRoutes\n(level 1/5)" -> "react-router-7.18.1\nnormalizeSlashes\n(level 2/5)" [label = 612; penwidth = 1.09; ];
 	"react-router-7.18.1\nprompts-multi-select\n(level 2/5)" -> "react-router-7.18.1\nprompts-select\n(level 3/5)" [label = 552; penwidth = 1.08; ];
