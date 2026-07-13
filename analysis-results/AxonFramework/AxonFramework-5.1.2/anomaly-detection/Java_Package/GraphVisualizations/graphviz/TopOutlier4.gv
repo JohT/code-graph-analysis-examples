@@ -14,19 +14,19 @@ strict digraph TopOutlier4 {
 
 	graph   [label="Top Rank #4 Java Package Outlier\norg.axonframework.messaging.eventhandling.processing.subscribing\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: cluster probability\nlarge circle: < 25% percentile of cluster probability\nthick outline: > 80% percentile of distance to cluster center\n\n"];
 	central [label="🧩 outlier #4\nsubscribing"];
-	"configuration_23472"  [label = "configuration\n(88.93%)"; penwidth = 5; ]; "configuration_23472" -> central [label=9; weight=9; penwidth=0.6];
-	"event_29"  [shape = "circle"; height=1.8; label = "event\n(63.78%)"; penwidth = 2; ]; "event_29" -> central [label=5; weight=5; penwidth=0.5];
-	"configuration_23472"  [label = "configuration\n(88.93%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "configuration_23472" [label=30; weight=30; penwidth=0.9; color = 5];
+	"configuration_23472"  [label = "configuration\n(100.0%)"; penwidth = 5; ]; "configuration_23472" -> central [label=9; weight=9; penwidth=0.6];
+	"event_29"  [shape = "circle"; height=1.8; label = "event\n(59.13%)"; penwidth = 2; ]; "event_29" -> central [label=5; weight=5; penwidth=0.5];
+	"configuration_23472"  [label = "configuration\n(100.0%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "configuration_23472" [label=30; weight=30; penwidth=0.9; color = 5];
 	"configuration_16931"  [shape = "circle"; height=1.8; label = "configuration\n(0.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "configuration_16931" [label=18; weight=18; penwidth=0.7; color = 5];
-	"processing_23459"  [label = "processing\n(81.02%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "processing_23459" [label=11; weight=11; penwidth=0.6; color = 5];
-	"common_16918"  [label = "common\n(82.15%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "common_16918" [label=9; weight=9; penwidth=0.6; color = 5];
-	"core_23480"  [label = "core\n(97.33%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "core_23480" [label=9; weight=9; penwidth=0.6; color = 5];
-	"eventhandling_23452"  [label = "eventhandling\n(87.07%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "eventhandling_23452" [label=7; weight=7; penwidth=0.5; color = 5];
-	"annotation_16920"  [shape = "circle"; height=1.8; label = "annotation\n(26.15%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "annotation_16920" [label=4; weight=4; penwidth=0.5; color = 5];
-	"unitofwork_23489"  [label = "unitofwork\n(82.15%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "unitofwork_23489" [label=4; weight=4; penwidth=0.5; color = 5];
-	"errorhandling_23470"  [label = "errorhandling\n(93.34%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "errorhandling_23470" [label=3; weight=3; penwidth=0.5; color = 5];
-	"infra_16927"  [label = "infra\n(77.64%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "infra_16927" [label=2; weight=2; penwidth=0.4; color = 5];
-	"interception_23456"  [label = "interception\n(87.07%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "interception_23456" [label=2; weight=2; penwidth=0.4; color = 5];
+	"processing_23459"  [label = "processing\n(100.0%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "processing_23459" [label=11; weight=11; penwidth=0.6; color = 5];
+	"common_16918"  [label = "common\n(79.2%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "common_16918" [label=9; weight=9; penwidth=0.6; color = 5];
+	"core_23480"  [label = "core\n(96.1%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "core_23480" [label=9; weight=9; penwidth=0.6; color = 5];
+	"eventhandling_23452"  [label = "eventhandling\n(83.38%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "eventhandling_23452" [label=7; weight=7; penwidth=0.5; color = 5];
+	"annotation_16920"  [shape = "circle"; height=1.8; label = "annotation\n(30.6%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "annotation_16920" [label=4; weight=4; penwidth=0.5; color = 5];
+	"unitofwork_23489"  [label = "unitofwork\n(79.2%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "unitofwork_23489" [label=4; weight=4; penwidth=0.5; color = 5];
+	"errorhandling_23470"  [label = "errorhandling\n(100.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "errorhandling_23470" [label=3; weight=3; penwidth=0.5; color = 5];
+	"infra_16927"  [label = "infra\n(72.55%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "infra_16927" [label=2; weight=2; penwidth=0.4; color = 5];
+	"interception_23456"  [label = "interception\n(83.38%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "interception_23456" [label=2; weight=2; penwidth=0.4; color = 5];
 	"segmenting_23468"  [label = "segmenting\n(100.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "segmenting_23468" [label=2; weight=2; penwidth=0.4; color = 5];
 	"monitoring_23442"  [shape = "circle"; height=1.8; label = "monitoring\n(0.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "monitoring_23442" [label=1; weight=1; penwidth=0.4; color = 5];
 	"eventhandling_23452" -> "core_23480" [label=59; weight=59; penwidth=0.3; color = 3]

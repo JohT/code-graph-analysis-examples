@@ -1,7 +1,7 @@
 "codeUnitName","shortCodeUnitName","projectName","localClusteringCoefficient","pageRank","degree","incomingDependencies","outgoingDependencies","Source Cypher File: domains/archetypes/queries/AnomalyDetectionOverReferencesUtilities.cypher"
 "org.axonframework.common.TypeReference$2","TypeReference$2","axon-common-5.1.2",0,23.05091489516343,2,1,1,""
 "org.axonframework.common.TypeReference$1","TypeReference$1","axon-common-5.1.2",0,23.05091489516343,2,1,1,""
-"org.axonframework.messaging.core.Metadata$MetadataCollector","Metadata$MetadataCollector","axon-messaging-5.1.2",0,7.113354909789305,2,1,1,""
+"org.axonframework.messaging.core.Metadata$MetadataCollector","Metadata$MetadataCollector","axon-messaging-5.1.2",0,7.113354909789307,2,1,1,""
 "org.axonframework.common.AxonNonTransientException","AxonNonTransientException","axon-common-5.1.2",0,7.015883661299967,16,15,1,""
 "org.axonframework.eventsourcing.eventstore.StartPosition","StartPosition","axon-eventsourcing-5.1.2",0,5.47843145871094,2,1,1,""
 "org.axonframework.messaging.eventhandling.processing.streaming.token.store.jdbc.TokenSchema$Builder","TokenSchema$Builder","axon-messaging-5.1.2",0,2.829387618250574,2,1,1,""

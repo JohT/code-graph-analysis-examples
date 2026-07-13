@@ -1,6 +1,6 @@
 ---
 title: "Internal Dependencies Report"
-generated: "2026-06-29"
+generated: "2026-07-13"
 model_version: "v4.0.1"
 dataset: "AxonFramework-5.1.2"
 authors: ["JohT/code-graph-analysis-pipeline"]
@@ -192,11 +192,11 @@ Graph diameter = longest shortest path. Higher = deeper transitive dependencies.
 | distance | pairCount | sourceNodeCount | targetNodeCount | examples |
 | --- | --- | --- | --- | --- |
 | 6 | 1 | 1 | 1 | ["/org/axonframework/extension/metrics/micrometer/springboot ->/org/axonframework/common/function"] |
-| 5 | 90 | 35 | 22 | ["/io/axoniq/framework/axonserver/connector/query ->/org/axonframework/eventsourcing/handler","/io/axoniq/framework/axonserver/connector/command ->/org/axonframework/eventsourcing/handler"] |
+| 5 | 90 | 35 | 22 | ["/org/axonframework/test/extension ->/org/axonframework/eventsourcing/handler","/org/axonframework/messaging/eventhandling/conversion ->/org/axonframework/common/io"] |
 | 4 | 597 | 94 | 49 | ["/io/axoniq/framework/springboot/autoconfig ->/io/axoniq/framework/axonserver/connector/api/query","/io/axoniq/framework/springboot/autoconfig ->/io/axoniq/framework/axonserver/connector/api/command"] |
 | 3 | 976 | 100 | 65 | ["/io/axoniq/framework/springboot/autoconfig ->/io/axoniq/framework/axonserver/connector/shared","/io/axoniq/framework/axonserver/connector/configuration ->/io/axoniq/framework/axonserver/connector/api/query"] |
-| 2 | 990 | 108 | 80 | ["/io/axoniq/framework/axonserver/connector/configuration ->/io/axoniq/framework/axonserver/connector/shared","/io/axoniq/framework/springboot/autoconfig ->/io/axoniq/framework/axonserver/connector/snapshot"] |
-| 1 | 777 | 118 | 98 | ["/io/axoniq/framework/axonserver/connector/query ->/io/axoniq/framework/axonserver/connector/shared","/io/axoniq/framework/axonserver/connector/event ->/io/axoniq/framework/axonserver/connector/shared"] |
+| 2 | 990 | 108 | 80 | ["/io/axoniq/framework/axonserver/connector/configuration ->/io/axoniq/framework/axonserver/connector/shared","/org/axonframework/test/fixture ->/org/axonframework/eventsourcing/annotation"] |
+| 1 | 777 | 118 | 98 | ["/io/axoniq/framework/axonserver/connector/query ->/io/axoniq/framework/axonserver/connector/shared","/org/axonframework/test/fixture ->/org/axonframework/eventsourcing/eventstore"] |
 
 [Full data per project](./Java_Package/Package_all_pairs_shortest_paths_distribution_per_project.csv)
 

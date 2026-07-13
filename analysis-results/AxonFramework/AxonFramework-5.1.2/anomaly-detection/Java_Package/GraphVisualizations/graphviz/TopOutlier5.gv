@@ -12,13 +12,43 @@ strict digraph TopOutlier5 {
     central [fontsize = 16;];
     central [color = 7; fillcolor = 5; penwidth = 3;];
 
-	graph   [label="Top Rank #5 Java Package Outlier\norg.axonframework.common.lifecycle\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: cluster probability\nlarge circle: < 25% percentile of cluster probability\nthick outline: > 80% percentile of distance to cluster center\n\n"];
-	central [label="🧩 outlier #5\nlifecycle"];
-	"query_25"  [shape = "circle"; height=1.8; label = "query\n(60.02%)"; penwidth = 2; ]; "query_25" -> central [label=16; weight=16; penwidth=0.7];
-	"command_31"  [shape = "circle"; height=1.8; label = "command\n(59.79%)"; penwidth = 5; ]; "command_31" -> central [label=12; weight=12; penwidth=0.6];
-	"configuration_16931"  [shape = "circle"; height=1.8; label = "configuration\n(0.0%)"; penwidth = 2; ]; "configuration_16931" -> central [label=2; weight=2; penwidth=0.4];
-	"common_16918"  [label = "common\n(82.15%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "common_16918" [label=2; weight=2; penwidth=0.4; color = 5];
+	graph   [label="Top Rank #5 Java Package Outlier\norg.axonframework.modelling.configuration\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: cluster probability\nlarge circle: < 25% percentile of cluster probability\nthick outline: > 80% percentile of distance to cluster center\n\n"];
+	central [label="🧩 outlier #5\nconfiguration"];
+	"configuration_4225"  [shape = "circle"; height=1.8; label = "configuration\n(0.0%)"; penwidth = 2; ]; "configuration_4225" -> central [label=20; weight=20; penwidth=0.7];
+	"configuration_16931"  [shape = "circle"; height=1.8; label = "configuration\n(0.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "configuration_16931" [label=22; weight=22; penwidth=0.8; color = 5];
+	"configuration_23495"  [label = "configuration\n(69.93%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "configuration_23495" [label=13; weight=13; penwidth=0.6; color = 5];
+	"common_16918"  [label = "common\n(79.2%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "common_16918" [label=8; weight=8; penwidth=0.5; color = 5];
+	"repository_12642"  [label = "repository\n(74.66%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "repository_12642" [label=6; weight=6; penwidth=0.5; color = 5];
+	"entity_12638"  [label = "entity\n(100.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "entity_12638" [label=4; weight=4; penwidth=0.5; color = 5];
+	"modelling_12636"  [label = "modelling\n(74.66%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "modelling_12636" [label=4; weight=4; penwidth=0.5; color = 5];
+	"commandhandling_23445"  [label = "commandhandling\n(67.91%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "commandhandling_23445" [label=1; weight=1; penwidth=0.4; color = 5];
+	"configuration_23479"  [label = "configuration\n(74.34%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "configuration_23479" [label=0; weight=0; penwidth=0.4; color = 5];
+	"configuration_23451"  [label = "configuration\n(75.82%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "configuration_23451" [label=0; weight=0; penwidth=0.4; color = 5];
+	"configuration_23495" -> "configuration_16931" [label=57; weight=57; penwidth=0.3; color = 3]
 	"configuration_16931" -> "common_16918" [label=42; weight=42; penwidth=0.3; color = 3]
-	"query_25" -> "common_16918" [label=10; weight=10; penwidth=0.3; color = 3]
-	"command_31" -> "common_16918" [label=4; weight=4; penwidth=0.3; color = 3]
+	"configuration_4225" -> "configuration_16931" [label=38; weight=38; penwidth=0.3; color = 3]
+	"entity_12638" -> "commandhandling_23445" [label=28; weight=28; penwidth=0.3; color = 3]
+	"configuration_4225" -> "common_16918" [label=22; weight=22; penwidth=0.3; color = 3]
+	"modelling_12636" -> "repository_12642" [label=17; weight=17; penwidth=0.3; color = 3]
+	"commandhandling_23445" -> "common_16918" [label=15; weight=15; penwidth=0.3; color = 3]
+	"configuration_23479" -> "configuration_16931" [label=12; weight=12; penwidth=0.3; color = 3]
+	"configuration_23451" -> "configuration_16931" [label=12; weight=12; penwidth=0.3; color = 3]
+	"configuration_23451" -> "commandhandling_23445" [label=10; weight=10; penwidth=0.3; color = 3]
+	"configuration_23495" -> "commandhandling_23445" [label=8; weight=8; penwidth=0.3; color = 3]
+	"entity_12638" -> "modelling_12636" [label=6; weight=6; penwidth=0.3; color = 3]
+	"configuration_4225" -> "entity_12638" [label=5; weight=5; penwidth=0.3; color = 3]
+	"modelling_12636" -> "common_16918" [label=5; weight=5; penwidth=0.3; color = 3]
+	"configuration_4225" -> "modelling_12636" [label=3; weight=3; penwidth=0.3; color = 3]
+	"configuration_4225" -> "commandhandling_23445" [label=2; weight=2; penwidth=0.3; color = 3]
+	"entity_12638" -> "repository_12642" [label=2; weight=2; penwidth=0.3; color = 3]
+	"modelling_12636" -> "configuration_16931" [label=2; weight=2; penwidth=0.3; color = 3]
+	"configuration_4225" -> "configuration_23495" [label=1; weight=1; penwidth=0.3; color = 3]
+	"configuration_4225" -> "repository_12642" [label=1; weight=1; penwidth=0.3; color = 3]
+	"configuration_23479" -> "common_16918" [label=1; weight=1; penwidth=0.3; color = 3]
+	"configuration_23451" -> "common_16918" [label=1; weight=1; penwidth=0.3; color = 3]
+	"repository_12642" -> "common_16918" [label=1; weight=1; penwidth=0.3; color = 3]
+	"configuration_4225" -> "configuration_23479" [label=0; weight=0; penwidth=0.3; color = 3]
+	"configuration_4225" -> "configuration_23451" [label=0; weight=0; penwidth=0.3; color = 3]
+	"configuration_23495" -> "configuration_23479" [label=0; weight=0; penwidth=0.3; color = 3]
+	"configuration_23495" -> "configuration_23451" [label=0; weight=0; penwidth=0.3; color = 3]
 }

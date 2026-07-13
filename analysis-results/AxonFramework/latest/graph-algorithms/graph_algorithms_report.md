@@ -1,6 +1,6 @@
 ---
 title: "Graph Algorithms Report"
-generated: "2026-06-29"
+generated: "2026-07-13"
 model_version: "v4.0.1"
 dataset: "AxonFramework-5.1.2"
 authors: ["JohT/code-graph-analysis-pipeline"]
@@ -35,16 +35,16 @@ High PageRank = depended on by many important nodes. High betweenness = bridge b
 
 | nodeLabels | nodeName | pageRankScore |
 | --- | --- | --- |
-| ["Type","Java","Class","GenericDeclaration"] | org.axonframework.common.TypeReference | 53.888843550190856 |
+| ["Type","Java","Class","GenericDeclaration"] | org.axonframework.common.TypeReference | 53.88884355019086 |
 | ["Type","Java","Class"] | org.axonframework.common.TypeReference$2 | 23.05091489516343 |
 | ["Type","Java","Class"] | org.axonframework.common.TypeReference$1 | 23.05091489516343 |
-| ["Type","Java","Class","GenericDeclaration"] | org.axonframework.messaging.core.Context$ResourceKey | 22.415779759592738 |
+| ["Type","Java","Class","GenericDeclaration"] | org.axonframework.messaging.core.Context$ResourceKey | 22.41577975959274 |
 | ["Type","Java","Interface"] | org.axonframework.messaging.core.Message | 18.58762244866973 |
-| ["Type","Java","Interface"] | org.axonframework.messaging.core.unitofwork.ProcessingContext | 16.884484613817275 |
+| ["Type","Java","Interface"] | org.axonframework.messaging.core.unitofwork.ProcessingContext | 16.88448461381728 |
 | ["Package","Java"] | org.axonframework.common | 11.60540778191177 |
-| ["Type","Java","Interface"] | org.axonframework.common.infra.ComponentDescriptor | 11.165464275573271 |
-| ["Type","Java","Interface"] | org.axonframework.common.infra.DescribableComponent | 11.040244162776043 |
-| ["Type","Java","Interface"] | org.axonframework.conversion.Converter | 10.524578358009311 |
+| ["Type","Java","Interface"] | org.axonframework.common.infra.ComponentDescriptor | 11.16546427557327 |
+| ["Type","Java","Interface"] | org.axonframework.common.infra.DescribableComponent | 11.040244162776041 |
+| ["Type","Java","Interface"] | org.axonframework.conversion.Converter | 10.524578358009308 |
 
 [Full data](./Java_Package/centrality/Package_Centrality_Page_Rank.csv)
 
@@ -52,16 +52,16 @@ High PageRank = depended on by many important nodes. High betweenness = bridge b
 
 | nodeLabels | nodeName | articleRankScore |
 | --- | --- | --- |
-| ["Type","Java","Interface"] | org.axonframework.messaging.core.Message | 8.761437539518026 |
+| ["Type","Java","Interface"] | org.axonframework.messaging.core.Message | 8.761437539518028 |
 | ["Type","Java","Class","GenericDeclaration"] | org.axonframework.messaging.core.Context$ResourceKey | 7.664558490342938 |
 | ["Type","Java","Interface"] | org.axonframework.messaging.core.unitofwork.ProcessingContext | 7.158462095853332 |
 | ["Package","Java"] | org.axonframework.common | 6.034603518270907 |
 | ["Type","Java","Class","GenericDeclaration"] | org.axonframework.common.TypeReference | 5.9386639048500305 |
-| ["Type","Java","Interface"] | org.axonframework.conversion.Converter | 4.5310774543255485 |
+| ["Type","Java","Interface"] | org.axonframework.conversion.Converter | 4.531077454325549 |
 | ["Package","Java"] | org.axonframework.messaging.core | 4.520396567052293 |
-| ["Type","Java","Interface"] | org.axonframework.messaging.core.Context | 3.2271814483597225 |
+| ["Type","Java","Interface"] | org.axonframework.messaging.core.Context | 3.2271814483597234 |
 | ["Type","Java","Interface","GenericDeclaration"] | org.axonframework.messaging.core.MessageStream | 3.224865458930251 |
-| ["Type","Java","Interface"] | org.axonframework.messaging.eventhandling.EventMessage | 2.7517491051033214 |
+| ["Type","Java","Interface"] | org.axonframework.messaging.eventhandling.EventMessage | 2.751749105103321 |
 
 [Full data](./Java_Package/centrality/Package_Centrality_Article_Rank.csv)
 
@@ -92,16 +92,16 @@ High community sizes may indicate monolithic modules; many small = well-modulari
 
 | communityId | communitySize |
 | --- | --- |
-| 1 | 192 |
-| 8 | 171 |
-| 2 | 122 |
-| 7 | 114 |
-| 6 | 109 |
-| 12 | 101 |
-| 9 | 92 |
+| 8 | 193 |
+| 1 | 189 |
+| 2 | 123 |
+| 12 | 113 |
+| 6 | 111 |
+| 7 | 110 |
+| 9 | 95 |
 | 3 | 82 |
 | 0 | 80 |
-| 16 | 65 |
+| 15 | 65 |
 
 [Full data](./Java_Package/communities/Package_Communities_Leiden.csv)
 

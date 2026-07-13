@@ -12,16 +12,13 @@ strict digraph TopBridge4 {
     central [fontsize = 16;];
     central [color = 7; fillcolor = 5; penwidth = 3;];
 
-	graph   [label="Top Rank #4 Java Type Bridge\norg.axonframework.common.caching.EhCacheAdapter\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
-	central [label="🌉 bridge #4\nEhCacheAdapter"];
-	"EhCacheAdapter$1_18877" [label = "EhCacheAdapter$\n1"; ]; "EhCacheAdapter$1_18877" -> central [label=1; weight=1; penwidth=0.4];
-	"Cache$EntryListener_18862" [label = "Cache$\nEntryListener"; color = 5; fillcolor = 1; ]; central -> "Cache$EntryListener_18862" [label=3; weight=3; penwidth=0.4; color = 5];
-	"EhCacheAdapter$CacheEventListenerAdapter_18876" [label = "EhCacheAdapter$\nCacheEventListenerAdapter"; color = 5; fillcolor = 1; ]; central -> "EhCacheAdapter$CacheEventListenerAdapter_18876" [label=3; weight=3; penwidth=0.4; color = 5];
-	"AbstractCacheAdapter_17913" [label = "AbstractCacheAdapter"; color = 5; fillcolor = 1; ]; central -> "AbstractCacheAdapter_17913" [label=2; weight=2; penwidth=0.4; color = 5];
-	"Registration_18861" [label = "Registration"; color = 5; fillcolor = 1; ]; central -> "Registration_18861" [label=2; weight=2; penwidth=0.4; color = 5];
-	"EhCacheAdapter$1_18877" [label = "EhCacheAdapter$\n1"; color = 5; fillcolor = 1; ]; central -> "EhCacheAdapter$1_18877" [label=1; weight=1; penwidth=0.4; color = 5];
-	"EhCacheAdapter$CacheEventListenerAdapter_18876" -> "Cache$EntryListener_18862" [label=7; weight=7; penwidth=0.3; color = 3]
-	"AbstractCacheAdapter_17913" -> "Cache$EntryListener_18862" [label=5; weight=5; penwidth=0.3; color = 3]
-	"AbstractCacheAdapter_17913" -> "Registration_18861" [label=4; weight=4; penwidth=0.3; color = 3]
-	"EhCacheAdapter$CacheEventListenerAdapter_18876" -> "EhCacheAdapter$1_18877" [label=2; weight=2; penwidth=0.3; color = 3]
+	graph   [label="Top Rank #4 Java Type Bridge\nio.axoniq.framework.axonserver.connector.util.GrpcMessageSizeInterceptor\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
+	central [label="🌉 bridge #4\nGrpcMessageSizeInterceptor"];
+	"GrpcMessageSizeInterceptor$1_39" [label = "GrpcMessageSizeInterceptor$\n1"; ]; "GrpcMessageSizeInterceptor$1_39" -> central [label=11; weight=11; penwidth=0.6];
+	"GrpcMessageSizeInterceptor$1$1_469" [label = "GrpcMessageSizeInterceptor$\n1$\n1"; ]; "GrpcMessageSizeInterceptor$1$1_469" -> central [label=6; weight=6; penwidth=0.5];
+	"AxonServerConnectionManager$Builder_1983" [label = "AxonServerConnectionManager$\nBuilder"; ]; "AxonServerConnectionManager$Builder_1983" -> central [label=2; weight=2; penwidth=0.4];
+	"GrpcMessageSizeInterceptor$1_39" [label = "GrpcMessageSizeInterceptor$\n1"; color = 5; fillcolor = 1; ]; central -> "GrpcMessageSizeInterceptor$1_39" [label=3; weight=3; penwidth=0.4; color = 5];
+	"GrpcMessageSizeInterceptor$1$1_469" [label = "GrpcMessageSizeInterceptor$\n1$\n1"; color = 5; fillcolor = 1; ]; central -> "GrpcMessageSizeInterceptor$1$1_469" [label=1; weight=1; penwidth=0.4; color = 5];
+	"GrpcMessageSizeInterceptor$1$1_469" -> "GrpcMessageSizeInterceptor$1_39" [label=10; weight=10; penwidth=0.3; color = 3]
+	"GrpcMessageSizeInterceptor$1_39" -> "GrpcMessageSizeInterceptor$1$1_469" [label=3; weight=3; penwidth=0.3; color = 3]
 }
