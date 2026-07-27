@@ -16,142 +16,142 @@
 <text xml:space="preserve" text-anchor="middle" x="494" y="-617.56" font-family="Helvetica,Arial,sans-serif" font-size="14.00">node value: Page Rank (normalized)</text>
 <text xml:space="preserve" text-anchor="middle" x="494" y="-600.76" font-family="Helvetica,Arial,sans-serif" font-size="14.00">large circle: &gt; 80% percentile of Page Rank</text>
 <text xml:space="preserve" text-anchor="middle" x="494" y="-583.96" font-family="Helvetica,Arial,sans-serif" font-size="14.00">thick outline: &gt; 80% percentile of Page Rank to Article Rank Difference</text>
-<!-- central&#45;&gt;config_13753 -->
+<!-- central&#45;&gt;config_13746 -->
 <g id="edge8" class="edge">
-<title>central&#45;&gt;config_13753</title>
+<title>central&#45;&gt;config_13746</title>
 <path fill="none" stroke="#66c2a4" stroke-width="0.5" d="M580.17,-273.67C605.14,-275.66 632.27,-277.81 655.12,-279.63"/>
 <polygon fill="#66c2a4" stroke="#66c2a4" stroke-width="0.5" points="654.78,-281 658.88,-279.92 655,-278.21 654.78,-281"/>
 <text xml:space="preserve" text-anchor="middle" x="617.23" y="-278.05" font-family="Times,serif" font-size="4.00">224</text>
 </g>
-<!-- central&#45;&gt;routes_13770 -->
+<!-- central&#45;&gt;routes_13763 -->
 <g id="edge9" class="edge">
-<title>central&#45;&gt;routes_13770</title>
+<title>central&#45;&gt;routes_13763</title>
 <path fill="none" stroke="#66c2a4" stroke-width="0.4" d="M568.16,-309.07C595.5,-326.53 627.28,-346.81 654.74,-364.35"/>
 <polygon fill="#66c2a4" stroke="#66c2a4" stroke-width="0.4" points="653.78,-365.39 657.9,-366.36 655.28,-363.03 653.78,-365.39"/>
 <text xml:space="preserve" text-anchor="middle" x="611.49" y="-339.21" font-family="Times,serif" font-size="4.00">34</text>
 </g>
-<!-- central&#45;&gt;vite&#45;node_13799 -->
+<!-- central&#45;&gt;vite&#45;node_13792 -->
 <g id="edge10" class="edge">
-<title>central&#45;&gt;vite&#45;node_13799</title>
+<title>central&#45;&gt;vite&#45;node_13792</title>
 <path fill="none" stroke="#66c2a4" stroke-width="0.4" d="M517.81,-191.53C525.57,-151.33 534.77,-103.7 541.07,-71.1"/>
 <polygon fill="#66c2a4" stroke="#66c2a4" stroke-width="0.4" points="542.41,-71.58 541.79,-67.39 539.66,-71.05 542.41,-71.58"/>
 <text xml:space="preserve" text-anchor="middle" x="528.04" y="-129.42" font-family="Times,serif" font-size="4.00">10</text>
 </g>
-<!-- central&#45;&gt;detectPackageManager_13762 -->
+<!-- central&#45;&gt;detectPackageManager_13755 -->
 <g id="edge11" class="edge">
-<title>central&#45;&gt;detectPackageManager_13762</title>
+<title>central&#45;&gt;detectPackageManager_13755</title>
 <path fill="none" stroke="#66c2a4" stroke-width="0.4" d="M464.36,-200.6C441.5,-161.12 413.42,-112.61 394.42,-79.8"/>
 <polygon fill="#66c2a4" stroke="#66c2a4" stroke-width="0.4" points="395.67,-79.16 392.45,-76.4 393.25,-80.56 395.67,-79.16"/>
 <text xml:space="preserve" text-anchor="middle" x="426.87" y="-138.77" font-family="Times,serif" font-size="4.00">8</text>
 </g>
-<!-- generate_13773&#45;&gt;central -->
+<!-- generate_13766&#45;&gt;central -->
 <g id="edge1" class="edge">
-<title>generate_13773&#45;&gt;central</title>
+<title>generate_13766&#45;&gt;central</title>
 <path fill="none" stroke="#238b45" stroke-width="0.6" d="M685.68,-198.07C655.92,-209.4 615.13,-224.92 579.66,-238.42"/>
 <polygon fill="#238b45" stroke="#238b45" stroke-width="0.6" points="579.45,-237.01 576.21,-239.74 580.44,-239.62 579.45,-237.01"/>
 <text xml:space="preserve" text-anchor="middle" x="627.5" y="-220.28" font-family="Times,serif" font-size="4.00">288</text>
 </g>
-<!-- generate_13773&#45;&gt;routes_13770 -->
+<!-- generate_13766&#45;&gt;routes_13763 -->
 <g id="edge13" class="edge">
-<title>generate_13773&#45;&gt;routes_13770</title>
+<title>generate_13766&#45;&gt;routes_13763</title>
 <path fill="none" stroke="#ccece6" stroke-width="0.3" d="M744.73,-213.19C753.97,-232.85 763.52,-259.13 763.58,-283.86 763.61,-301.02 759.86,-318.81 754.56,-335.35"/>
 <polygon fill="#ccece6" stroke="#ccece6" stroke-width="0.3" points="753.25,-334.85 753.33,-339.09 755.91,-335.73 753.25,-334.85"/>
 <text xml:space="preserve" text-anchor="middle" x="760.58" y="-285.09" font-family="Times,serif" font-size="4.00">148</text>
 </g>
-<!-- optimize&#45;deps&#45;entries_13789&#45;&gt;central -->
+<!-- optimize&#45;deps&#45;entries_13782&#45;&gt;central -->
 <g id="edge2" class="edge">
-<title>optimize&#45;deps&#45;entries_13789&#45;&gt;central</title>
+<title>optimize&#45;deps&#45;entries_13782&#45;&gt;central</title>
 <path fill="none" stroke="#238b45" stroke-width="0.6" d="M390.61,-419.07C407.95,-395.72 432.38,-362.83 454.04,-333.65"/>
 <polygon fill="#238b45" stroke="#238b45" stroke-width="0.6" points="455.14,-334.52 456.4,-330.47 452.89,-332.85 455.14,-334.52"/>
 <text xml:space="preserve" text-anchor="middle" x="420.81" y="-375.57" font-family="Times,serif" font-size="4.00">288</text>
 </g>
-<!-- plugin_13790&#45;&gt;central -->
+<!-- plugin_13783&#45;&gt;central -->
 <g id="edge3" class="edge">
-<title>plugin_13790&#45;&gt;central</title>
+<title>plugin_13783&#45;&gt;central</title>
 <path fill="none" stroke="#238b45" stroke-width="0.4" d="M572.95,-394.01C564.22,-378.2 553.23,-358.29 542.56,-338.98"/>
 <polygon fill="#238b45" stroke="#238b45" stroke-width="0.4" points="543.88,-338.48 540.73,-335.65 541.43,-339.83 543.88,-338.48"/>
 <text xml:space="preserve" text-anchor="middle" x="554.78" y="-365.92" font-family="Times,serif" font-size="4.00">30</text>
 </g>
-<!-- plugin_13790&#45;&gt;optimize&#45;deps&#45;entries_13789 -->
+<!-- plugin_13783&#45;&gt;optimize&#45;deps&#45;entries_13782 -->
 <g id="edge17" class="edge">
-<title>plugin_13790&#45;&gt;optimize&#45;deps&#45;entries_13789</title>
+<title>plugin_13783&#45;&gt;optimize&#45;deps&#45;entries_13782</title>
 <path fill="none" stroke="#ccece6" stroke-width="0.3" d="M542.95,-430.43C511.32,-433.96 469.22,-438.67 434.19,-442.59"/>
 <polygon fill="#ccece6" stroke="#ccece6" stroke-width="0.3" points="434.23,-441.17 430.41,-443.01 434.54,-443.96 434.23,-441.17"/>
 <text xml:space="preserve" text-anchor="middle" x="485.75" y="-437.91" font-family="Times,serif" font-size="4.00">8</text>
 </g>
-<!-- plugin_13790&#45;&gt;config_13753 -->
+<!-- plugin_13783&#45;&gt;config_13746 -->
 <g id="edge20" class="edge">
-<title>plugin_13790&#45;&gt;config_13753</title>
+<title>plugin_13783&#45;&gt;config_13746</title>
 <path fill="none" stroke="#ccece6" stroke-width="0.3" d="M614.09,-396.56C633.35,-373.56 660.44,-341.22 680.66,-317.08"/>
 <polygon fill="#ccece6" stroke="#ccece6" stroke-width="0.3" points="681.56,-318.19 683.05,-314.22 679.41,-316.39 681.56,-318.19"/>
 <text xml:space="preserve" text-anchor="middle" x="647.67" y="-356.48" font-family="Times,serif" font-size="4.00">4</text>
 </g>
-<!-- plugin_13790&#45;&gt;routes_13770 -->
+<!-- plugin_13783&#45;&gt;routes_13763 -->
 <g id="edge12" class="edge">
-<title>plugin_13790&#45;&gt;routes_13770</title>
+<title>plugin_13783&#45;&gt;routes_13763</title>
 <path fill="none" stroke="#ccece6" stroke-width="0.3" d="M636.97,-418.49C638.97,-418.21 641,-417.92 643.04,-417.63"/>
 <polygon fill="#ccece6" stroke="#ccece6" stroke-width="0.3" points="643.04,-419.04 646.81,-417.09 642.65,-416.27 643.04,-419.04"/>
 <text xml:space="preserve" text-anchor="middle" x="645.28" y="-418.94" font-family="Times,serif" font-size="4.00">914</text>
 </g>
-<!-- plugin_13806&#45;&gt;central -->
+<!-- plugin_13799&#45;&gt;central -->
 <g id="edge4" class="edge">
-<title>plugin_13806&#45;&gt;central</title>
+<title>plugin_13799&#45;&gt;central</title>
 <path fill="none" stroke="#238b45" stroke-width="0.4" d="M490.48,-353.04C490.69,-351.6 490.91,-350.14 491.13,-348.65"/>
 <polygon fill="#238b45" stroke="#238b45" stroke-width="0.4" points="492.5,-348.9 491.7,-344.74 489.73,-348.49 492.5,-348.9"/>
 <text xml:space="preserve" text-anchor="middle" x="489.08" y="-350.13" font-family="Times,serif" font-size="4.00">18</text>
 </g>
-<!-- plugin_13806&#45;&gt;optimize&#45;deps&#45;entries_13789 -->
-<g id="edge18" class="edge">
-<title>plugin_13806&#45;&gt;optimize&#45;deps&#45;entries_13789</title>
+<!-- plugin_13799&#45;&gt;optimize&#45;deps&#45;entries_13782 -->
+<g id="edge19" class="edge">
+<title>plugin_13799&#45;&gt;optimize&#45;deps&#45;entries_13782</title>
 <path fill="none" stroke="#ccece6" stroke-width="0.3" d="M447.94,-406.47C437.64,-412.05 426.34,-418.18 415.55,-424.04"/>
 <polygon fill="#ccece6" stroke="#ccece6" stroke-width="0.3" points="415.16,-422.65 412.31,-425.79 416.5,-425.12 415.16,-422.65"/>
 <text xml:space="preserve" text-anchor="middle" x="428.88" y="-412.66" font-family="Times,serif" font-size="4.00">8</text>
 </g>
-<!-- plugin_13806&#45;&gt;plugin_13790 -->
-<g id="edge19" class="edge">
-<title>plugin_13806&#45;&gt;plugin_13790</title>
+<!-- plugin_13799&#45;&gt;plugin_13783 -->
+<g id="edge18" class="edge">
+<title>plugin_13799&#45;&gt;plugin_13783</title>
 <path fill="none" stroke="#ccece6" stroke-width="0.3" d="M527.52,-401.73C533.06,-403.8 538.76,-405.93 544.36,-408.02"/>
 <polygon fill="#ccece6" stroke="#ccece6" stroke-width="0.3" points="543.55,-409.22 547.79,-409.31 544.53,-406.6 543.55,-409.22"/>
 <text xml:space="preserve" text-anchor="middle" x="536.5" y="-406.66" font-family="Times,serif" font-size="4.00">8</text>
 </g>
-<!-- plugin_13806&#45;&gt;routes_13770 -->
+<!-- plugin_13799&#45;&gt;routes_13763 -->
 <g id="edge16" class="edge">
-<title>plugin_13806&#45;&gt;routes_13770</title>
+<title>plugin_13799&#45;&gt;routes_13763</title>
 <path fill="none" stroke="#ccece6" stroke-width="0.3" d="M533.28,-385.25C551.14,-385.31 571.6,-385.8 590.14,-387.27 607.58,-388.65 626.22,-390.92 643.81,-393.43"/>
 <polygon fill="#ccece6" stroke="#ccece6" stroke-width="0.3" points="643.17,-394.75 647.33,-393.93 643.57,-391.98 643.17,-394.75"/>
 <text xml:space="preserve" text-anchor="middle" x="588.96" y="-388.53" font-family="Times,serif" font-size="4.00">16</text>
 </g>
-<!-- commands_13760&#45;&gt;central -->
+<!-- commands_13753&#45;&gt;central -->
 <g id="edge5" class="edge">
-<title>commands_13760&#45;&gt;central</title>
+<title>commands_13753&#45;&gt;central</title>
 <path fill="none" stroke="#238b45" stroke-width="0.4" d="M565.82,-487.77C554.42,-470.54 541.8,-447.75 536.67,-425.15 532.82,-408.17 541.09,-403.34 539.06,-386.05 537.46,-372.41 534.42,-358.19 530.76,-344.54"/>
 <polygon fill="#238b45" stroke="#238b45" stroke-width="0.4" points="532.17,-344.4 529.77,-340.91 529.47,-345.14 532.17,-344.4"/>
 <text xml:space="preserve" text-anchor="middle" x="533.86" y="-413.8" font-family="Times,serif" font-size="4.00">16</text>
 </g>
-<!-- commands_13760&#45;&gt;build_13779 -->
+<!-- commands_13753&#45;&gt;build_13772 -->
 <g id="edge15" class="edge">
-<title>commands_13760&#45;&gt;build_13779</title>
+<title>commands_13753&#45;&gt;build_13772</title>
 <path fill="none" stroke="#ccece6" stroke-width="0.3" d="M540.48,-521.8C539.33,-521.92 538.18,-522.03 537.04,-522.15"/>
 <polygon fill="#ccece6" stroke="#ccece6" stroke-width="0.3" points="536.9,-520.75 533.06,-522.55 537.18,-523.54 536.9,-520.75"/>
 <text xml:space="preserve" text-anchor="middle" x="535.25" y="-523.33" font-family="Times,serif" font-size="4.00">18</text>
 </g>
-<!-- build_13779&#45;&gt;central -->
+<!-- build_13772&#45;&gt;central -->
 <g id="edge6" class="edge">
-<title>build_13779&#45;&gt;central</title>
+<title>build_13772&#45;&gt;central</title>
 <path fill="none" stroke="#238b45" stroke-width="0.4" d="M503.82,-496.63C518.8,-468.82 537.69,-426.18 539.06,-386.05 539.55,-371.93 537.41,-357.26 533.98,-343.24"/>
 <polygon fill="#238b45" stroke="#238b45" stroke-width="0.4" points="535.37,-343.02 533.02,-339.5 532.65,-343.72 535.37,-343.02"/>
 <text xml:space="preserve" text-anchor="middle" x="532.89" y="-422.73" font-family="Times,serif" font-size="4.00">8</text>
 </g>
-<!-- build_13779&#45;&gt;plugin_13790 -->
+<!-- build_13772&#45;&gt;plugin_13783 -->
 <g id="edge14" class="edge">
-<title>build_13779&#45;&gt;plugin_13790</title>
+<title>build_13772&#45;&gt;plugin_13783</title>
 <path fill="none" stroke="#ccece6" stroke-width="0.3" d="M513.21,-500.24C527.52,-486.27 545.01,-469.2 559.69,-454.87"/>
 <polygon fill="#ccece6" stroke="#ccece6" stroke-width="0.3" points="560.38,-456.16 562.26,-452.36 558.42,-454.15 560.38,-456.16"/>
 <text xml:space="preserve" text-anchor="middle" x="536.19" y="-477.06" font-family="Times,serif" font-size="4.00">56</text>
 </g>
-<!-- cloudflare&#45;dev&#45;proxy_13781&#45;&gt;central -->
+<!-- cloudflare&#45;dev&#45;proxy_13774&#45;&gt;central -->
 <g id="edge7" class="edge">
-<title>cloudflare&#45;dev&#45;proxy_13781&#45;&gt;central</title>
+<title>cloudflare&#45;dev&#45;proxy_13774&#45;&gt;central</title>
 <path fill="none" stroke="#238b45" stroke-width="0.4" d="M311.58,-209.85C344.93,-219.9 388.11,-232.91 425.02,-244.03"/>
 <polygon fill="#238b45" stroke="#238b45" stroke-width="0.4" points="424.22,-245.25 428.45,-245.06 425.03,-242.56 424.22,-245.25"/>
 <text xml:space="preserve" text-anchor="middle" x="369.18" y="-228.71" font-family="Times,serif" font-size="4.00">8</text>
@@ -164,82 +164,82 @@
 <text xml:space="preserve" text-anchor="middle" x="503.12" y="-272.35" font-family="Times,serif" font-size="16.00">🏛️ authority #3</text>
 <text xml:space="preserve" text-anchor="middle" x="503.12" y="-253.15" font-family="Times,serif" font-size="16.00">config</text>
 </g>
-<!-- generate_13773 -->
+<!-- generate_13766 -->
 <g id="node2" class="node">
-<title>generate_13773</title>
+<title>generate_13766</title>
 <ellipse fill="#ccece6" stroke="#41ae76" stroke-width="2" cx="727.65" cy="-182.1" rx="46.8" ry="32.4"/>
 <text xml:space="preserve" text-anchor="middle" x="727.65" y="-185.7" font-family="Times,serif" font-size="12.00">generate</text>
-<text xml:space="preserve" text-anchor="middle" x="727.65" y="-171.3" font-family="Times,serif" font-size="12.00">(1.57%)</text>
+<text xml:space="preserve" text-anchor="middle" x="727.65" y="-171.3" font-family="Times,serif" font-size="12.00">(1.61%)</text>
 </g>
-<!-- optimize&#45;deps&#45;entries_13789 -->
+<!-- optimize&#45;deps&#45;entries_13782 -->
 <g id="node3" class="node">
-<title>optimize&#45;deps&#45;entries_13789</title>
+<title>optimize&#45;deps&#45;entries_13782</title>
 <ellipse fill="#ccece6" stroke="#41ae76" stroke-width="2" cx="367.62" cy="-450.03" rx="62.99" ry="32.4"/>
 <text xml:space="preserve" text-anchor="middle" x="367.62" y="-453.63" font-family="Times,serif" font-size="12.00">optimize&#45;deps&#45;entries</text>
 <text xml:space="preserve" text-anchor="middle" x="367.62" y="-439.23" font-family="Times,serif" font-size="12.00">(0.06%)</text>
 </g>
-<!-- plugin_13790 -->
+<!-- plugin_13783 -->
 <g id="node4" class="node">
-<title>plugin_13790</title>
+<title>plugin_13783</title>
 <ellipse fill="#ccece6" stroke="#41ae76" stroke-width="2" cx="590.14" cy="-425.15" rx="46.8" ry="32.4"/>
 <text xml:space="preserve" text-anchor="middle" x="590.14" y="-428.75" font-family="Times,serif" font-size="12.00">plugin</text>
-<text xml:space="preserve" text-anchor="middle" x="590.14" y="-414.35" font-family="Times,serif" font-size="12.00">(1.18%)</text>
+<text xml:space="preserve" text-anchor="middle" x="590.14" y="-414.35" font-family="Times,serif" font-size="12.00">(1.21%)</text>
 </g>
-<!-- plugin_13806 -->
+<!-- plugin_13799 -->
 <g id="node5" class="node">
-<title>plugin_13806</title>
+<title>plugin_13799</title>
 <ellipse fill="#ccece6" stroke="#41ae76" stroke-width="2" cx="485.59" cy="-386.05" rx="46.8" ry="32.4"/>
 <text xml:space="preserve" text-anchor="middle" x="485.59" y="-389.65" font-family="Times,serif" font-size="12.00">plugin</text>
 <text xml:space="preserve" text-anchor="middle" x="485.59" y="-375.25" font-family="Times,serif" font-size="12.00">(0.0%)</text>
 </g>
-<!-- commands_13760 -->
+<!-- commands_13753 -->
 <g id="node6" class="node">
-<title>commands_13760</title>
+<title>commands_13753</title>
 <ellipse fill="#ccece6" stroke="#41ae76" stroke-width="2" cx="587.75" cy="-517.02" rx="46.8" ry="32.4"/>
 <text xml:space="preserve" text-anchor="middle" x="587.75" y="-520.62" font-family="Times,serif" font-size="12.00">commands</text>
-<text xml:space="preserve" text-anchor="middle" x="587.75" y="-506.22" font-family="Times,serif" font-size="12.00">(1.56%)</text>
+<text xml:space="preserve" text-anchor="middle" x="587.75" y="-506.22" font-family="Times,serif" font-size="12.00">(1.59%)</text>
 </g>
-<!-- build_13779 -->
+<!-- build_13772 -->
 <g id="node7" class="node">
-<title>build_13779</title>
+<title>build_13772</title>
 <ellipse fill="#ccece6" stroke="#41ae76" stroke-width="2" cx="485.42" cy="-527.36" rx="46.8" ry="32.4"/>
 <text xml:space="preserve" text-anchor="middle" x="485.42" y="-530.96" font-family="Times,serif" font-size="12.00">build</text>
-<text xml:space="preserve" text-anchor="middle" x="485.42" y="-516.56" font-family="Times,serif" font-size="12.00">(0.35%)</text>
+<text xml:space="preserve" text-anchor="middle" x="485.42" y="-516.56" font-family="Times,serif" font-size="12.00">(0.36%)</text>
 </g>
-<!-- cloudflare&#45;dev&#45;proxy_13781 -->
+<!-- cloudflare&#45;dev&#45;proxy_13774 -->
 <g id="node8" class="node">
-<title>cloudflare&#45;dev&#45;proxy_13781</title>
+<title>cloudflare&#45;dev&#45;proxy_13774</title>
 <ellipse fill="#ccece6" stroke="#41ae76" stroke-width="2" cx="256.95" cy="-193.4" rx="61.82" ry="32.4"/>
 <text xml:space="preserve" text-anchor="middle" x="256.95" y="-197" font-family="Times,serif" font-size="12.00">cloudflare&#45;dev&#45;proxy</text>
 <text xml:space="preserve" text-anchor="middle" x="256.95" y="-182.6" font-family="Times,serif" font-size="12.00">(0.0%)</text>
 </g>
-<!-- config_13753 -->
+<!-- config_13746 -->
 <g id="node9" class="node">
-<title>config_13753</title>
+<title>config_13746</title>
 <ellipse fill="#f7fcfd" stroke="#66c2a4" stroke-width="5" cx="708.48" cy="-283.86" rx="46.8" ry="32.4"/>
 <text xml:space="preserve" text-anchor="middle" x="708.48" y="-287.46" font-family="Times,serif" font-size="12.00">config</text>
-<text xml:space="preserve" text-anchor="middle" x="708.48" y="-273.06" font-family="Times,serif" font-size="12.00">(15.99%)</text>
+<text xml:space="preserve" text-anchor="middle" x="708.48" y="-273.06" font-family="Times,serif" font-size="12.00">(16.36%)</text>
 </g>
-<!-- routes_13770 -->
+<!-- routes_13763 -->
 <g id="node10" class="node">
-<title>routes_13770</title>
+<title>routes_13763</title>
 <ellipse fill="#f7fcfd" stroke="#66c2a4" stroke-width="5" cx="720.87" cy="-406.57" rx="72" ry="72"/>
 <text xml:space="preserve" text-anchor="middle" x="720.87" y="-410.17" font-family="Times,serif" font-size="12.00">routes</text>
-<text xml:space="preserve" text-anchor="middle" x="720.87" y="-395.77" font-family="Times,serif" font-size="12.00">(53.26%)</text>
+<text xml:space="preserve" text-anchor="middle" x="720.87" y="-395.77" font-family="Times,serif" font-size="12.00">(54.5%)</text>
 </g>
-<!-- vite&#45;node_13799 -->
+<!-- vite&#45;node_13792 -->
 <g id="node11" class="node">
-<title>vite&#45;node_13799</title>
+<title>vite&#45;node_13792</title>
 <ellipse fill="#f7fcfd" stroke="#66c2a4" stroke-width="5" cx="548.55" cy="-32.4" rx="46.8" ry="32.4"/>
 <text xml:space="preserve" text-anchor="middle" x="548.55" y="-36" font-family="Times,serif" font-size="12.00">vite&#45;node</text>
-<text xml:space="preserve" text-anchor="middle" x="548.55" y="-21.6" font-family="Times,serif" font-size="12.00">(0.71%)</text>
+<text xml:space="preserve" text-anchor="middle" x="548.55" y="-21.6" font-family="Times,serif" font-size="12.00">(0.73%)</text>
 </g>
-<!-- detectPackageManager_13762 -->
+<!-- detectPackageManager_13755 -->
 <g id="node12" class="node">
-<title>detectPackageManager_13762</title>
+<title>detectPackageManager_13755</title>
 <ellipse fill="#f7fcfd" stroke="#66c2a4" stroke-width="5" cx="372.76" cy="-42.39" rx="67.24" ry="32.4"/>
 <text xml:space="preserve" text-anchor="middle" x="372.76" y="-45.99" font-family="Times,serif" font-size="12.00">detectPackageManager</text>
-<text xml:space="preserve" text-anchor="middle" x="372.76" y="-31.59" font-family="Times,serif" font-size="12.00">(0.57%)</text>
+<text xml:space="preserve" text-anchor="middle" x="372.76" y="-31.59" font-family="Times,serif" font-size="12.00">(0.58%)</text>
 </g>
 </g>
 </svg>

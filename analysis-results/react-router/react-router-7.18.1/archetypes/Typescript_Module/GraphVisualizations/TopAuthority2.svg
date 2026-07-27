@@ -16,30 +16,30 @@
 <text xml:space="preserve" text-anchor="middle" x="473.5" y="-363.96" font-family="Helvetica,Arial,sans-serif" font-size="14.00">node value: Page Rank (normalized)</text>
 <text xml:space="preserve" text-anchor="middle" x="473.5" y="-347.16" font-family="Helvetica,Arial,sans-serif" font-size="14.00">large circle: &gt; 80% percentile of Page Rank</text>
 <text xml:space="preserve" text-anchor="middle" x="473.5" y="-330.36" font-family="Helvetica,Arial,sans-serif" font-size="14.00">thick outline: &gt; 80% percentile of Page Rank to Article Rank Difference</text>
-<!-- central&#45;&gt;routes_13770 -->
+<!-- central&#45;&gt;routes_13763 -->
 <g id="edge3" class="edge">
-<title>central&#45;&gt;routes_13770</title>
+<title>central&#45;&gt;routes_13763</title>
 <path fill="none" stroke="#66c2a4" stroke-width="0.4" d="M419.69,-153.5C419.71,-152.4 419.73,-151.29 419.74,-150.19"/>
 <polygon fill="#66c2a4" stroke="#66c2a4" stroke-width="0.4" points="421.14,-150.57 419.79,-146.55 418.34,-150.53 421.14,-150.57"/>
 <text xml:space="preserve" text-anchor="middle" x="418.74" y="-146.8" font-family="Times,serif" font-size="4.00">6</text>
 </g>
-<!-- routes_13770&#45;&gt;central -->
+<!-- routes_13763&#45;&gt;central -->
 <g id="edge1" class="edge">
-<title>routes_13770&#45;&gt;central</title>
+<title>routes_13763&#45;&gt;central</title>
 <path fill="none" stroke="#238b45" stroke-width="2.9" d="M406.32,-145.89C406.32,-146.04 406.31,-146.19 406.31,-146.34"/>
 <polygon fill="#238b45" stroke="#238b45" stroke-width="2.9" points="404.94,-144.72 406.27,-148.74 407.74,-144.77 404.94,-144.72"/>
 <text xml:space="preserve" text-anchor="middle" x="402.31" y="-147.48" font-family="Times,serif" font-size="4.00">4340</text>
 </g>
-<!-- virtual&#45;route&#45;config_13808&#45;&gt;central -->
+<!-- virtual&#45;route&#45;config_13801&#45;&gt;central -->
 <g id="edge2" class="edge">
-<title>virtual&#45;route&#45;config_13808&#45;&gt;central</title>
+<title>virtual&#45;route&#45;config_13801&#45;&gt;central</title>
 <path fill="none" stroke="#238b45" stroke-width="0.5" d="M511.09,-176.65C502.45,-181.3 493.13,-186.32 483.79,-191.35"/>
 <polygon fill="#238b45" stroke="#238b45" stroke-width="0.5" points="483.32,-190.02 480.46,-193.15 484.64,-192.49 483.32,-190.02"/>
 <text xml:space="preserve" text-anchor="middle" x="492.55" y="-186.22" font-family="Times,serif" font-size="4.00">146</text>
 </g>
-<!-- virtual&#45;route&#45;config_13808&#45;&gt;routes_13770 -->
+<!-- virtual&#45;route&#45;config_13801&#45;&gt;routes_13763 -->
 <g id="edge4" class="edge">
-<title>virtual&#45;route&#45;config_13808&#45;&gt;routes_13770</title>
+<title>virtual&#45;route&#45;config_13801&#45;&gt;routes_13763</title>
 <path fill="none" stroke="#ccece6" stroke-width="0.3" d="M512.93,-129.85C503.18,-124.14 492.51,-117.89 481.89,-111.67"/>
 <polygon fill="#ccece6" stroke="#ccece6" stroke-width="0.3" points="482.85,-110.61 478.69,-109.8 481.43,-113.03 482.85,-110.61"/>
 <text xml:space="preserve" text-anchor="middle" x="492.28" y="-120.72" font-family="Times,serif" font-size="4.00">146</text>
@@ -52,16 +52,16 @@
 <text xml:space="preserve" text-anchor="middle" x="411.79" y="-234.96" font-family="Times,serif" font-size="16.00">🏛️ authority #2</text>
 <text xml:space="preserve" text-anchor="middle" x="411.79" y="-215.76" font-family="Times,serif" font-size="16.00">routes</text>
 </g>
-<!-- routes_13770 -->
+<!-- routes_13763 -->
 <g id="node2" class="node">
-<title>routes_13770</title>
+<title>routes_13763</title>
 <ellipse fill="#f7fcfd" stroke="#66c2a4" stroke-width="5" cx="414.17" cy="-72" rx="72" ry="72"/>
 <text xml:space="preserve" text-anchor="middle" x="414.17" y="-75.6" font-family="Times,serif" font-size="12.00">routes</text>
-<text xml:space="preserve" text-anchor="middle" x="414.17" y="-61.2" font-family="Times,serif" font-size="12.00">(53.26%)</text>
+<text xml:space="preserve" text-anchor="middle" x="414.17" y="-61.2" font-family="Times,serif" font-size="12.00">(54.5%)</text>
 </g>
-<!-- virtual&#45;route&#45;config_13808 -->
+<!-- virtual&#45;route&#45;config_13801 -->
 <g id="node3" class="node">
-<title>virtual&#45;route&#45;config_13808</title>
+<title>virtual&#45;route&#45;config_13801</title>
 <ellipse fill="#ccece6" stroke="#41ae76" stroke-width="2" cx="553.65" cy="-153.71" rx="57.56" ry="32.4"/>
 <text xml:space="preserve" text-anchor="middle" x="553.65" y="-157.31" font-family="Times,serif" font-size="12.00">virtual&#45;route&#45;config</text>
 <text xml:space="preserve" text-anchor="middle" x="553.65" y="-142.91" font-family="Times,serif" font-size="12.00">(0.05%)</text>

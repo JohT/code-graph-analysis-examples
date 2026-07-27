@@ -14,12 +14,12 @@ strict digraph TopBottleneck4 {
 
 	graph   [label="Top Rank #4 Typescript Module Bottleneck\n/home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.18.1/source/react-router-7.18.1/packages/react-router/lib/types/route-data.ts\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: Betweenness centrality\nthick outline: > 90% percentile of Betweenness centrality\n\n"];
 	central [label="🔒 bottleneck #4\nroute-data"];
-	"routeModules_97779"  [label = "routeModules\n(408.17)"; penwidth = 2; ]; "routeModules_97779" -> central [label=1; weight=1; penwidth=0.4];
-	"data_97797"  [label = "data\n(80.17)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "data_97797" [label=1; weight=1; penwidth=0.4; color = 5];
-	"react-router_97761"  [label = "react-router\n(1238.67)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "react-router_97761" [label=1; weight=1; penwidth=0.4; color = 5];
-	"route-module_97822"  [label = "route-module\n(37.0)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "route-module_97822" [label=1; weight=1; penwidth=0.4; color = 5];
-	"data_97797" -> "react-router_97761" [label=39; weight=39; penwidth=0.3; color = 3]
-	"routeModules_97779" -> "react-router_97761" [label=16; weight=16; penwidth=0.3; color = 3]
-	"react-router_97761" -> "routeModules_97779" [label=3; weight=3; penwidth=0.3; color = 3]
-	"react-router_97761" -> "data_97797" [label=0; weight=0; penwidth=0.3; color = 3]
+	"routeModules_97948"  [label = "routeModules\n(346.0)"; penwidth = 2; ]; "routeModules_97948" -> central [label=2; weight=2; penwidth=0.4];
+	"route-module_97991"  [label = "route-module\n(37.0)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "route-module_97991" [label=2; weight=2; penwidth=0.4; color = 5];
+	"data_97966"  [label = "data\n(27.0)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "data_97966" [label=1; weight=1; penwidth=0.4; color = 5];
+	"react-router_97930"  [label = "react-router\n(1195.33)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "react-router_97930" [label=1; weight=1; penwidth=0.4; color = 5];
+	"data_97966" -> "react-router_97930" [label=68; weight=68; penwidth=0.3; color = 3]
+	"routeModules_97948" -> "react-router_97930" [label=24; weight=24; penwidth=0.3; color = 3]
+	"react-router_97930" -> "routeModules_97948" [label=3; weight=3; penwidth=0.3; color = 3]
+	"react-router_97930" -> "data_97966" [label=0; weight=0; penwidth=0.3; color = 3]
 }

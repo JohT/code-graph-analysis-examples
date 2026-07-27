@@ -14,59 +14,59 @@ strict digraph TopBridge5 {
 
 	graph   [label="Top Rank #5 Typescript Module Bridge\n/home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.18.1/source/react-router-7.18.1/packages/react-router/index-react-server.ts\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
 	central [label="🌉 bridge #5\nreact-router"];
-	"utils_97786" [label = "utils"; ]; "utils_97786" -> central [label=96; weight=96; penwidth=0.5];
-	"router_97784" [label = "router"; ]; "router_97784" -> central [label=73; weight=73; penwidth=0.4];
-	"sessions_97808" [label = "sessions"; ]; "sessions_97808" -> central [label=56; weight=56; penwidth=0.4];
-	"server_97789" [label = "server"; ]; "server_97789" -> central [label=30; weight=30; penwidth=0.4];
-	"react-router_97761" [label = "react-router"; ]; "react-router_97761" -> central [label=24; weight=24; penwidth=0.4];
-	"cookies_97795" [label = "cookies"; ]; "cookies_97795" -> central [label=18; weight=18; penwidth=0.4];
-	"cookieStorage_97812" [label = "cookieStorage"; ]; "cookieStorage_97812" -> central [label=16; weight=16; penwidth=0.4];
-	"single-fetch_97809" [label = "single-fetch"; ]; "single-fetch_97809" -> central [label=15; weight=15; penwidth=0.4];
-	"memoryStorage_97814" [label = "memoryStorage"; ]; "memoryStorage_97814" -> central [label=3; weight=3; penwidth=0.4];
-	"routeModules_97779" [label = "routeModules"; ]; "routeModules_97779" -> central [label=3; weight=3; penwidth=0.4];
-	"routes_97805" [label = "routes"; ]; "routes_97805" -> central [label=1; weight=1; penwidth=0.4];
-	"react-router_97761" [label = "react-router"; color = 5; fillcolor = 1; ]; central -> "react-router_97761" [label=18; weight=18; penwidth=0.4; color = 5];
-	"server_97789" [label = "server"; color = 5; fillcolor = 1; ]; central -> "server_97789" [label=9; weight=9; penwidth=0.4; color = 5];
-	"utils_97786" [label = "utils"; color = 5; fillcolor = 1; ]; central -> "utils_97786" [label=6; weight=6; penwidth=0.4; color = 5];
-	"cookies_97795" [label = "cookies"; color = 5; fillcolor = 1; ]; central -> "cookies_97795" [label=3; weight=3; penwidth=0.4; color = 5];
-	"cookieStorage_97812" [label = "cookieStorage"; color = 5; fillcolor = 1; ]; central -> "cookieStorage_97812" [label=1; weight=1; penwidth=0.4; color = 5];
-	"dom-export_97758" [label = "dom-export"; color = 5; fillcolor = 1; ]; central -> "dom-export_97758" [label=1; weight=1; penwidth=0.4; color = 5];
-	"href_97768" [label = "href"; color = 5; fillcolor = 1; ]; central -> "href_97768" [label=1; weight=1; penwidth=0.4; color = 5];
-	"memoryStorage_97814" [label = "memoryStorage"; color = 5; fillcolor = 1; ]; central -> "memoryStorage_97814" [label=1; weight=1; penwidth=0.4; color = 5];
-	"router_97784" [label = "router"; color = 5; fillcolor = 1; ]; central -> "router_97784" [label=1; weight=1; penwidth=0.4; color = 5];
-	"router_97784" -> "utils_97786" [label=1162; weight=1162; penwidth=0.3; color = 3]
-	"router_97784" -> "react-router_97761" [label=832; weight=832; penwidth=0.3; color = 3]
-	"server_97789" -> "react-router_97761" [label=177; weight=177; penwidth=0.3; color = 3]
-	"single-fetch_97809" -> "react-router_97761" [label=141; weight=141; penwidth=0.3; color = 3]
-	"server_97789" -> "router_97784" [label=124; weight=124; penwidth=0.3; color = 3]
-	"server_97789" -> "utils_97786" [label=82; weight=82; penwidth=0.3; color = 3]
-	"single-fetch_97809" -> "router_97784" [label=65; weight=65; penwidth=0.3; color = 3]
-	"sessions_97808" -> "react-router_97761" [label=56; weight=56; penwidth=0.3; color = 3]
-	"utils_97786" -> "react-router_97761" [label=43; weight=43; penwidth=0.3; color = 3]
-	"server_97789" -> "dom-export_97758" [label=39; weight=39; penwidth=0.3; color = 3]
-	"single-fetch_97809" -> "utils_97786" [label=24; weight=24; penwidth=0.3; color = 3]
-	"sessions_97808" -> "cookies_97795" [label=23; weight=23; penwidth=0.3; color = 3]
-	"react-router_97761" -> "utils_97786" [label=21; weight=21; penwidth=0.3; color = 3]
-	"cookies_97795" -> "react-router_97761" [label=18; weight=18; penwidth=0.3; color = 3]
-	"cookieStorage_97812" -> "react-router_97761" [label=16; weight=16; penwidth=0.3; color = 3]
-	"routeModules_97779" -> "react-router_97761" [label=16; weight=16; penwidth=0.3; color = 3]
-	"routes_97805" -> "react-router_97761" [label=16; weight=16; penwidth=0.3; color = 3]
-	"routeModules_97779" -> "utils_97786" [label=14; weight=14; penwidth=0.3; color = 3]
-	"cookieStorage_97812" -> "cookies_97795" [label=13; weight=13; penwidth=0.3; color = 3]
-	"routes_97805" -> "routeModules_97779" [label=13; weight=13; penwidth=0.3; color = 3]
-	"server_97789" -> "routeModules_97779" [label=13; weight=13; penwidth=0.3; color = 3]
-	"routes_97805" -> "utils_97786" [label=10; weight=10; penwidth=0.3; color = 3]
-	"react-router_97761" -> "server_97789" [label=9; weight=9; penwidth=0.3; color = 3]
-	"react-router_97761" -> "router_97784" [label=8; weight=8; penwidth=0.3; color = 3]
-	"cookieStorage_97812" -> "sessions_97808" [label=6; weight=6; penwidth=0.3; color = 3]
-	"memoryStorage_97814" -> "sessions_97808" [label=3; weight=3; penwidth=0.3; color = 3]
-	"memoryStorage_97814" -> "react-router_97761" [label=3; weight=3; penwidth=0.3; color = 3]
-	"react-router_97761" -> "cookies_97795" [label=3; weight=3; penwidth=0.3; color = 3]
-	"react-router_97761" -> "routeModules_97779" [label=3; weight=3; penwidth=0.3; color = 3]
-	"dom-export_97758" -> "react-router_97761" [label=1; weight=1; penwidth=0.3; color = 3]
-	"dom-export_97758" -> "server_97789" [label=1; weight=1; penwidth=0.3; color = 3]
-	"react-router_97761" -> "href_97768" [label=1; weight=1; penwidth=0.3; color = 3]
-	"react-router_97761" -> "memoryStorage_97814" [label=1; weight=1; penwidth=0.3; color = 3]
-	"react-router_97761" -> "cookieStorage_97812" [label=1; weight=1; penwidth=0.3; color = 3]
-	"react-router_97761" -> "dom-export_97758" [label=1; weight=1; penwidth=0.3; color = 3]
+	"utils_97955" [label = "utils"; ]; "utils_97955" -> central [label=246; weight=246; penwidth=0.5];
+	"router_97953" [label = "router"; ]; "router_97953" -> central [label=98; weight=98; penwidth=0.5];
+	"sessions_97977" [label = "sessions"; ]; "sessions_97977" -> central [label=88; weight=88; penwidth=0.5];
+	"server_97958" [label = "server"; ]; "server_97958" -> central [label=40; weight=40; penwidth=0.4];
+	"cookies_97964" [label = "cookies"; ]; "cookies_97964" -> central [label=36; weight=36; penwidth=0.4];
+	"react-router_97930" [label = "react-router"; ]; "react-router_97930" -> central [label=26; weight=26; penwidth=0.4];
+	"cookieStorage_97981" [label = "cookieStorage"; ]; "cookieStorage_97981" -> central [label=24; weight=24; penwidth=0.4];
+	"single-fetch_97978" [label = "single-fetch"; ]; "single-fetch_97978" -> central [label=20; weight=20; penwidth=0.4];
+	"routeModules_97948" [label = "routeModules"; ]; "routeModules_97948" -> central [label=5; weight=5; penwidth=0.4];
+	"memoryStorage_97983" [label = "memoryStorage"; ]; "memoryStorage_97983" -> central [label=4; weight=4; penwidth=0.4];
+	"routes_97974" [label = "routes"; ]; "routes_97974" -> central [label=1; weight=1; penwidth=0.4];
+	"react-router_97930" [label = "react-router"; color = 5; fillcolor = 1; ]; central -> "react-router_97930" [label=18; weight=18; penwidth=0.4; color = 5];
+	"server_97958" [label = "server"; color = 5; fillcolor = 1; ]; central -> "server_97958" [label=9; weight=9; penwidth=0.4; color = 5];
+	"utils_97955" [label = "utils"; color = 5; fillcolor = 1; ]; central -> "utils_97955" [label=6; weight=6; penwidth=0.4; color = 5];
+	"cookies_97964" [label = "cookies"; color = 5; fillcolor = 1; ]; central -> "cookies_97964" [label=3; weight=3; penwidth=0.4; color = 5];
+	"cookieStorage_97981" [label = "cookieStorage"; color = 5; fillcolor = 1; ]; central -> "cookieStorage_97981" [label=1; weight=1; penwidth=0.4; color = 5];
+	"dom-export_97927" [label = "dom-export"; color = 5; fillcolor = 1; ]; central -> "dom-export_97927" [label=1; weight=1; penwidth=0.4; color = 5];
+	"href_97937" [label = "href"; color = 5; fillcolor = 1; ]; central -> "href_97937" [label=1; weight=1; penwidth=0.4; color = 5];
+	"memoryStorage_97983" [label = "memoryStorage"; color = 5; fillcolor = 1; ]; central -> "memoryStorage_97983" [label=1; weight=1; penwidth=0.4; color = 5];
+	"router_97953" [label = "router"; color = 5; fillcolor = 1; ]; central -> "router_97953" [label=1; weight=1; penwidth=0.4; color = 5];
+	"router_97953" -> "utils_97955" [label=1863; weight=1863; penwidth=0.3; color = 3]
+	"router_97953" -> "react-router_97930" [label=1312; weight=1312; penwidth=0.3; color = 3]
+	"server_97958" -> "react-router_97930" [label=280; weight=280; penwidth=0.3; color = 3]
+	"single-fetch_97978" -> "react-router_97930" [label=228; weight=228; penwidth=0.3; color = 3]
+	"server_97958" -> "router_97953" [label=199; weight=199; penwidth=0.3; color = 3]
+	"server_97958" -> "utils_97955" [label=121; weight=121; penwidth=0.3; color = 3]
+	"single-fetch_97978" -> "router_97953" [label=110; weight=110; penwidth=0.3; color = 3]
+	"sessions_97977" -> "react-router_97930" [label=88; weight=88; penwidth=0.3; color = 3]
+	"server_97958" -> "dom-export_97927" [label=78; weight=78; penwidth=0.3; color = 3]
+	"utils_97955" -> "react-router_97930" [label=59; weight=59; penwidth=0.3; color = 3]
+	"sessions_97977" -> "cookies_97964" [label=38; weight=38; penwidth=0.3; color = 3]
+	"cookies_97964" -> "react-router_97930" [label=36; weight=36; penwidth=0.3; color = 3]
+	"single-fetch_97978" -> "utils_97955" [label=32; weight=32; penwidth=0.3; color = 3]
+	"cookieStorage_97981" -> "react-router_97930" [label=24; weight=24; penwidth=0.3; color = 3]
+	"routeModules_97948" -> "react-router_97930" [label=24; weight=24; penwidth=0.3; color = 3]
+	"routeModules_97948" -> "utils_97955" [label=22; weight=22; penwidth=0.3; color = 3]
+	"routes_97974" -> "react-router_97930" [label=22; weight=22; penwidth=0.3; color = 3]
+	"routes_97974" -> "routeModules_97948" [label=22; weight=22; penwidth=0.3; color = 3]
+	"react-router_97930" -> "utils_97955" [label=21; weight=21; penwidth=0.3; color = 3]
+	"cookieStorage_97981" -> "cookies_97964" [label=20; weight=20; penwidth=0.3; color = 3]
+	"server_97958" -> "routeModules_97948" [label=17; weight=17; penwidth=0.3; color = 3]
+	"routes_97974" -> "utils_97955" [label=14; weight=14; penwidth=0.3; color = 3]
+	"react-router_97930" -> "server_97958" [label=11; weight=11; penwidth=0.3; color = 3]
+	"cookieStorage_97981" -> "sessions_97977" [label=8; weight=8; penwidth=0.3; color = 3]
+	"react-router_97930" -> "router_97953" [label=8; weight=8; penwidth=0.3; color = 3]
+	"memoryStorage_97983" -> "react-router_97930" [label=4; weight=4; penwidth=0.3; color = 3]
+	"memoryStorage_97983" -> "sessions_97977" [label=4; weight=4; penwidth=0.3; color = 3]
+	"react-router_97930" -> "routeModules_97948" [label=3; weight=3; penwidth=0.3; color = 3]
+	"react-router_97930" -> "cookies_97964" [label=3; weight=3; penwidth=0.3; color = 3]
+	"dom-export_97927" -> "server_97958" [label=1; weight=1; penwidth=0.3; color = 3]
+	"dom-export_97927" -> "react-router_97930" [label=1; weight=1; penwidth=0.3; color = 3]
+	"react-router_97930" -> "href_97937" [label=1; weight=1; penwidth=0.3; color = 3]
+	"react-router_97930" -> "memoryStorage_97983" [label=1; weight=1; penwidth=0.3; color = 3]
+	"react-router_97930" -> "cookieStorage_97981" [label=1; weight=1; penwidth=0.3; color = 3]
+	"react-router_97930" -> "dom-export_97927" [label=1; weight=1; penwidth=0.3; color = 3]
 }

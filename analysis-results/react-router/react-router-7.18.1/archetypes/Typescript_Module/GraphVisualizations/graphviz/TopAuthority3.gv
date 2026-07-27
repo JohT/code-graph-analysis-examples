@@ -14,24 +14,24 @@ strict digraph TopAuthority3 {
 
 	graph   [label="Top Rank #3 Typescript Module Authority\n/home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.18.1/source/react-router-7.18.1/packages/react-router-dev/config/config.ts\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: Page Rank (normalized)\nlarge circle: > 80% percentile of Page Rank\nthick outline: > 80% percentile of Page Rank to Article Rank Difference\n\n"];
 	central [label="🏛️ authority #3\nconfig"];
-	"generate_13773"  [label = "generate\n(1.57%)"; penwidth = 2; ]; "generate_13773" -> central [label=288; weight=288; penwidth=0.6];
-	"optimize-deps-entries_13789"  [label = "optimize-deps-entries\n(0.06%)"; penwidth = 2; ]; "optimize-deps-entries_13789" -> central [label=288; weight=288; penwidth=0.6];
-	"plugin_13790"  [label = "plugin\n(1.18%)"; penwidth = 2; ]; "plugin_13790" -> central [label=30; weight=30; penwidth=0.4];
-	"plugin_13806"  [label = "plugin\n(0.0%)"; penwidth = 2; ]; "plugin_13806" -> central [label=18; weight=18; penwidth=0.4];
-	"commands_13760"  [label = "commands\n(1.56%)"; penwidth = 2; ]; "commands_13760" -> central [label=16; weight=16; penwidth=0.4];
-	"build_13779"  [label = "build\n(0.35%)"; penwidth = 2; ]; "build_13779" -> central [label=8; weight=8; penwidth=0.4];
-	"cloudflare-dev-proxy_13781"  [label = "cloudflare-dev-proxy\n(0.0%)"; penwidth = 2; ]; "cloudflare-dev-proxy_13781" -> central [label=8; weight=8; penwidth=0.4];
-	"config_13753"  [label = "config\n(15.99%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "config_13753" [label=224; weight=224; penwidth=0.5; color = 5];
-	"routes_13770"  [shape = "circle"; height=2; label = "routes\n(53.26%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "routes_13770" [label=34; weight=34; penwidth=0.4; color = 5];
-	"vite-node_13799"  [label = "vite-node\n(0.71%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "vite-node_13799" [label=10; weight=10; penwidth=0.4; color = 5];
-	"detectPackageManager_13762"  [label = "detectPackageManager\n(0.57%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "detectPackageManager_13762" [label=8; weight=8; penwidth=0.4; color = 5];
-	"plugin_13790" -> "routes_13770" [label=914; weight=914; penwidth=0.3; color = 3]
-	"generate_13773" -> "routes_13770" [label=148; weight=148; penwidth=0.3; color = 3]
-	"build_13779" -> "plugin_13790" [label=56; weight=56; penwidth=0.3; color = 3]
-	"commands_13760" -> "build_13779" [label=18; weight=18; penwidth=0.3; color = 3]
-	"plugin_13806" -> "routes_13770" [label=16; weight=16; penwidth=0.3; color = 3]
-	"plugin_13790" -> "optimize-deps-entries_13789" [label=8; weight=8; penwidth=0.3; color = 3]
-	"plugin_13806" -> "optimize-deps-entries_13789" [label=8; weight=8; penwidth=0.3; color = 3]
-	"plugin_13806" -> "plugin_13790" [label=8; weight=8; penwidth=0.3; color = 3]
-	"plugin_13790" -> "config_13753" [label=4; weight=4; penwidth=0.3; color = 3]
+	"generate_13766"  [label = "generate\n(1.61%)"; penwidth = 2; ]; "generate_13766" -> central [label=288; weight=288; penwidth=0.6];
+	"optimize-deps-entries_13782"  [label = "optimize-deps-entries\n(0.06%)"; penwidth = 2; ]; "optimize-deps-entries_13782" -> central [label=288; weight=288; penwidth=0.6];
+	"plugin_13783"  [label = "plugin\n(1.21%)"; penwidth = 2; ]; "plugin_13783" -> central [label=30; weight=30; penwidth=0.4];
+	"plugin_13799"  [label = "plugin\n(0.0%)"; penwidth = 2; ]; "plugin_13799" -> central [label=18; weight=18; penwidth=0.4];
+	"commands_13753"  [label = "commands\n(1.59%)"; penwidth = 2; ]; "commands_13753" -> central [label=16; weight=16; penwidth=0.4];
+	"build_13772"  [label = "build\n(0.36%)"; penwidth = 2; ]; "build_13772" -> central [label=8; weight=8; penwidth=0.4];
+	"cloudflare-dev-proxy_13774"  [label = "cloudflare-dev-proxy\n(0.0%)"; penwidth = 2; ]; "cloudflare-dev-proxy_13774" -> central [label=8; weight=8; penwidth=0.4];
+	"config_13746"  [label = "config\n(16.36%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "config_13746" [label=224; weight=224; penwidth=0.5; color = 5];
+	"routes_13763"  [shape = "circle"; height=2; label = "routes\n(54.5%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "routes_13763" [label=34; weight=34; penwidth=0.4; color = 5];
+	"vite-node_13792"  [label = "vite-node\n(0.73%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "vite-node_13792" [label=10; weight=10; penwidth=0.4; color = 5];
+	"detectPackageManager_13755"  [label = "detectPackageManager\n(0.58%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "detectPackageManager_13755" [label=8; weight=8; penwidth=0.4; color = 5];
+	"plugin_13783" -> "routes_13763" [label=914; weight=914; penwidth=0.3; color = 3]
+	"generate_13766" -> "routes_13763" [label=148; weight=148; penwidth=0.3; color = 3]
+	"build_13772" -> "plugin_13783" [label=56; weight=56; penwidth=0.3; color = 3]
+	"commands_13753" -> "build_13772" [label=18; weight=18; penwidth=0.3; color = 3]
+	"plugin_13799" -> "routes_13763" [label=16; weight=16; penwidth=0.3; color = 3]
+	"plugin_13783" -> "optimize-deps-entries_13782" [label=8; weight=8; penwidth=0.3; color = 3]
+	"plugin_13799" -> "plugin_13783" [label=8; weight=8; penwidth=0.3; color = 3]
+	"plugin_13799" -> "optimize-deps-entries_13782" [label=8; weight=8; penwidth=0.3; color = 3]
+	"plugin_13783" -> "config_13746" [label=4; weight=4; penwidth=0.3; color = 3]
 }

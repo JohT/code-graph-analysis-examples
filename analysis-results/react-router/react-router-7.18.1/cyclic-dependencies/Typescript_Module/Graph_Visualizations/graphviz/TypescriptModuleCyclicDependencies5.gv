@@ -11,8 +11,8 @@ strict digraph cycle {
         fillcolor="lightblue";
         "fetchAndApplyManifestPatches";
         "getPartialManifest";
-        "getPatchRoutesOnNavigationFunction_pkg" [label="getPatchRoutesOnNavigationFunction"];
         "useFogOFWarDiscovery_pkg" [label="useFogOFWarDiscovery"];
+        "getPatchRoutesOnNavigationFunction_pkg" [label="getPatchRoutesOnNavigationFunction"];
         "isFogOfWarEnabled";
     }
 
@@ -20,8 +20,8 @@ strict digraph cycle {
         label="./index.ts";
         style="filled";
         fillcolor="peachpuff";
-        "RouterState";
         "AssetsManifest";
+        "RouterState";
         "PatchRoutesOnNavigationFunction";
         "DataRouteObject";
         "useFogOFWarDiscovery_dep" [label="useFogOFWarDiscovery"];
@@ -33,24 +33,24 @@ strict digraph cycle {
         "createPath";
     }
 
-    "getPatchRoutesOnNavigationFunction_pkg" -> "Router" [color="#6699CC"; penwidth="0.5"];
     "fetchAndApplyManifestPatches" -> "Router" [color="#6699CC"; penwidth="0.5"];
+    "getPatchRoutesOnNavigationFunction_pkg" -> "Router" [color="#6699CC"; penwidth="0.5"];
     "fetchAndApplyManifestPatches" -> "AssetsManifest" [color="#6699CC"; penwidth="0.5"];
     "getPatchRoutesOnNavigationFunction_pkg" -> "AssetsManifest" [color="#6699CC"; penwidth="0.5"];
     "getPatchRoutesOnNavigationFunction_pkg" -> "RouteModules" [color="#6699CC"; penwidth="0.5"];
     "fetchAndApplyManifestPatches" -> "createClientRoutes" [color="#6699CC"; penwidth="0.5"];
     "fetchAndApplyManifestPatches" -> "RouteModules" [color="#6699CC"; penwidth="0.5"];
     "getPartialManifest" -> "Router" [color="#6699CC"; penwidth="0.5"];
-    "getPatchRoutesOnNavigationFunction_pkg" -> "RouterState" [color="#6699CC"; penwidth="0.5"];
-    "getPartialManifest" -> "RouterState" [color="#6699CC"; penwidth="0.5"];
     "getPartialManifest" -> "AssetsManifest" [color="#6699CC"; penwidth="0.5"];
     "getPatchRoutesOnNavigationFunction_pkg" -> "createPath" [color="#6699CC"; penwidth="0.5"];
     "useFogOFWarDiscovery_pkg" -> "RouteModules" [color="#6699CC"; penwidth="0.5"];
+    "getPatchRoutesOnNavigationFunction_pkg" -> "RouterState" [color="#6699CC"; penwidth="0.5"];
+    "getPartialManifest" -> "RouterState" [color="#6699CC"; penwidth="0.5"];
     "getPatchRoutesOnNavigationFunction_pkg" -> "PatchRoutesOnNavigationFunction" [color="#6699CC"; penwidth="0.5"];
-    "useFogOFWarDiscovery_pkg" -> "AssetsManifest" [color="#6699CC"; penwidth="0.5"];
     "getPartialManifest" -> "RouteMatch" [color="#6699CC"; penwidth="0.5"];
-    "useFogOFWarDiscovery_pkg" -> "Router" [color="#6699CC"; penwidth="0.5"];
+    "useFogOFWarDiscovery_pkg" -> "AssetsManifest" [color="#6699CC"; penwidth="0.5"];
     "getPartialManifest" -> "DataRouteObject" [color="#6699CC"; penwidth="0.5"];
+    "useFogOFWarDiscovery_pkg" -> "Router" [color="#6699CC"; penwidth="0.5"];
     "getPatchRoutesOnNavigationFunction_dep" -> "isFogOfWarEnabled" [color="red"; penwidth="2.5"; style="dashed";];
     "useFogOFWarDiscovery_dep" -> "fetchAndApplyManifestPatches" [color="red"; penwidth="2.5"; style="dashed";];
     "useFogOFWarDiscovery_dep" -> "isFogOfWarEnabled" [color="red"; penwidth="2.5"; style="dashed";];
