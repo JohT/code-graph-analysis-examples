@@ -12,30 +12,19 @@ strict digraph TopBridge5 {
     central [fontsize = 16;];
     central [color = 7; fillcolor = 5; penwidth = 3;];
 
-	graph   [label="Top Rank #5 Java Type Bridge\norg.axonframework.test.fixture.AxonTestPhase$Then$Nothing\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
-	central [label="🌉 bridge #5\nAxonTestPhase$Then$Nothing"];
-	"AxonTestThenNothing_15639" [label = "AxonTestThenNothing"; ]; "AxonTestThenNothing_15639" -> central [label=3; weight=3; penwidth=0.4];
-	"AxonTestGiven_15635" [label = "AxonTestGiven"; ]; "AxonTestGiven_15635" -> central [label=2; weight=2; penwidth=0.4];
-	"AxonTestPhase$Given_15726" [label = "AxonTestPhase$\nGiven"; ]; "AxonTestPhase$Given_15726" -> central [label=2; weight=2; penwidth=0.4];
-	"AxonTestPhase$When$Nothing_14389" [label = "AxonTestPhase$\nWhen$\nNothing"; ]; "AxonTestPhase$When$Nothing_14389" -> central [label=2; weight=2; penwidth=0.4];
-	"AxonTestWhen$Nothing_15642" [label = "AxonTestWhen$\nNothing"; ]; "AxonTestWhen$Nothing_15642" -> central [label=2; weight=2; penwidth=0.4];
-	"AxonTestPhase_15728" [label = "AxonTestPhase"; ]; "AxonTestPhase_15728" -> central [label=1; weight=1; penwidth=0.4];
-	"AxonTestPhase$Then_14387" [label = "AxonTestPhase$\nThen"; ]; "AxonTestPhase$Then_14387" -> central [label=1; weight=1; penwidth=0.4];
-	"AxonTestPhase$Then$Message_14393" [label = "AxonTestPhase$\nThen$\nMessage"; color = 5; fillcolor = 1; ]; central -> "AxonTestPhase$Then$Message_14393" [label=2; weight=2; penwidth=0.4; color = 5];
-	"AxonTestPhase$Then_14387" [label = "AxonTestPhase$\nThen"; color = 5; fillcolor = 1; ]; central -> "AxonTestPhase$Then_14387" [label=1; weight=1; penwidth=0.4; color = 5];
-	"AxonTestGiven_15635" -> "AxonTestPhase$Given_15726" [label=10; weight=10; penwidth=0.3; color = 3]
-	"AxonTestGiven_15635" -> "AxonTestThenNothing_15639" [label=2; weight=2; penwidth=0.3; color = 3]
-	"AxonTestWhen$Nothing_15642" -> "AxonTestPhase$When$Nothing_14389" [label=2; weight=2; penwidth=0.3; color = 3]
-	"AxonTestWhen$Nothing_15642" -> "AxonTestThenNothing_15639" [label=2; weight=2; penwidth=0.3; color = 3]
-	"AxonTestGiven_15635" -> "AxonTestPhase$Then_14387" [label=1; weight=1; penwidth=0.3; color = 3]
-	"AxonTestPhase_15728" -> "AxonTestPhase$Then$Message_14393" [label=1; weight=1; penwidth=0.3; color = 3]
-	"AxonTestPhase_15728" -> "AxonTestPhase$When$Nothing_14389" [label=1; weight=1; penwidth=0.3; color = 3]
-	"AxonTestPhase_15728" -> "AxonTestPhase$Then_14387" [label=1; weight=1; penwidth=0.3; color = 3]
-	"AxonTestPhase_15728" -> "AxonTestPhase$Given_15726" [label=1; weight=1; penwidth=0.3; color = 3]
-	"AxonTestPhase$Given_15726" -> "AxonTestPhase$Then_14387" [label=1; weight=1; penwidth=0.3; color = 3]
-	"AxonTestPhase$Then_14387" -> "AxonTestPhase$Then$Message_14393" [label=1; weight=1; penwidth=0.3; color = 3]
-	"AxonTestPhase$Then$Message_14393" -> "AxonTestPhase$Then_14387" [label=1; weight=1; penwidth=0.3; color = 3]
-	"AxonTestPhase$When$Nothing_14389" -> "AxonTestPhase$Then_14387" [label=1; weight=1; penwidth=0.3; color = 3]
-	"AxonTestThenNothing_15639" -> "AxonTestPhase$Then_14387" [label=1; weight=1; penwidth=0.3; color = 3]
-	"AxonTestWhen$Nothing_15642" -> "AxonTestPhase$Then_14387" [label=1; weight=1; penwidth=0.3; color = 3]
+	graph   [label="Top Rank #5 Java Type Bridge\norg.axonframework.common.caching.Cache\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
+	central [label="🌉 bridge #5\nCache"];
+	"AbstractCacheAdapter_10144" [label = "AbstractCacheAdapter"; ]; "AbstractCacheAdapter_10144" -> central [label=1; weight=1; penwidth=0.4];
+	"NoCache_11042" [label = "NoCache"; ]; "NoCache_11042" -> central [label=1; weight=1; penwidth=0.4];
+	"WeakReferenceCache_11040" [label = "WeakReferenceCache"; ]; "WeakReferenceCache_11040" -> central [label=1; weight=1; penwidth=0.4];
+	"Cache$EntryListener_10475" [label = "Cache$\nEntryListener"; color = 5; fillcolor = 1; ]; central -> "Cache$EntryListener_10475" [label=2; weight=2; penwidth=0.4; color = 5];
+	"Cache$EntryListenerAdapter_10123" [label = "Cache$\nEntryListenerAdapter"; color = 5; fillcolor = 1; ]; central -> "Cache$EntryListenerAdapter_10123" [label=1; weight=1; penwidth=0.4; color = 5];
+	"Registration_10474" [label = "Registration"; color = 5; fillcolor = 1; ]; central -> "Registration_10474" [label=1; weight=1; penwidth=0.4; color = 5];
+	"WeakReferenceCache_11040" -> "Cache$EntryListener_10475" [label=24; weight=24; penwidth=0.3; color = 3]
+	"AbstractCacheAdapter_10144" -> "Cache$EntryListener_10475" [label=5; weight=5; penwidth=0.3; color = 3]
+	"AbstractCacheAdapter_10144" -> "Registration_10474" [label=4; weight=4; penwidth=0.3; color = 3]
+	"Cache$EntryListenerAdapter_10123" -> "Cache$EntryListener_10475" [label=2; weight=2; penwidth=0.3; color = 3]
+	"NoCache_11042" -> "Cache$EntryListener_10475" [label=2; weight=2; penwidth=0.3; color = 3]
+	"NoCache_11042" -> "Registration_10474" [label=1; weight=1; penwidth=0.3; color = 3]
+	"WeakReferenceCache_11040" -> "Registration_10474" [label=1; weight=1; penwidth=0.3; color = 3]
 }

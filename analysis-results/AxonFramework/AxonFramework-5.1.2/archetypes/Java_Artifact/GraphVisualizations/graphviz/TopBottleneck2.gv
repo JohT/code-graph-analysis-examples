@@ -14,19 +14,19 @@ strict digraph TopBottleneck2 {
 
 	graph   [label="Top Rank #2 Java Artifact Bottleneck\n/axon-modelling-5.1.2.jar\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: Betweenness centrality\nthick outline: > 90% percentile of Betweenness centrality\n\n"];
 	central [label="🔒 bottleneck #2\naxon-modelling-5.1.2"];
-	"axon-eventsourcing-5.1.2_17494"  [label = "axon-eventsourcing-5.1.2\n(3.0)"; penwidth = 5; ]; "axon-eventsourcing-5.1.2_17494" -> central [label=62; weight=62; penwidth=0.6];
+	"axon-eventsourcing-5.1.2_17496"  [label = "axon-eventsourcing-5.1.2\n(3.0)"; penwidth = 5; ]; "axon-eventsourcing-5.1.2_17496" -> central [label=62; weight=62; penwidth=0.6];
 	"axon-server-connector-5.1.2_3690"  [label = "axon-server-connector-5.1.2\n(2.0)"; penwidth = 2; ]; "axon-server-connector-5.1.2_3690" -> central [label=2; weight=2; penwidth=0.4];
-	"axon-messaging-5.1.2_25071"  [label = "axon-messaging-5.1.2\n(2.0)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "axon-messaging-5.1.2_25071" [label=312; weight=312; penwidth=1.2; color = 5];
+	"axon-messaging-5.1.2_25073"  [label = "axon-messaging-5.1.2\n(2.0)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "axon-messaging-5.1.2_25073" [label=312; weight=312; penwidth=1.2; color = 5];
 	"axon-common-5.1.2_8863"  [label = "axon-common-5.1.2\n(0.0)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "axon-common-5.1.2_8863" [label=186; weight=186; penwidth=0.9; color = 5];
-	"axon-conversion-5.1.2_23465"  [label = "axon-conversion-5.1.2\n(5.0)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "axon-conversion-5.1.2_23465" [label=2; weight=2; penwidth=0.4; color = 5];
-	"axon-messaging-5.1.2_25071" -> "axon-common-5.1.2_8863" [label=980; weight=980; penwidth=0.3; color = 3]
-	"axon-eventsourcing-5.1.2_17494" -> "axon-messaging-5.1.2_25071" [label=418; weight=418; penwidth=0.3; color = 3]
-	"axon-server-connector-5.1.2_3690" -> "axon-messaging-5.1.2_25071" [label=278; weight=278; penwidth=0.3; color = 3]
-	"axon-eventsourcing-5.1.2_17494" -> "axon-common-5.1.2_8863" [label=220; weight=220; penwidth=0.3; color = 3]
+	"axon-conversion-5.1.2_23467"  [label = "axon-conversion-5.1.2\n(5.0)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "axon-conversion-5.1.2_23467" [label=2; weight=2; penwidth=0.4; color = 5];
+	"axon-messaging-5.1.2_25073" -> "axon-common-5.1.2_8863" [label=980; weight=980; penwidth=0.3; color = 3]
+	"axon-eventsourcing-5.1.2_17496" -> "axon-messaging-5.1.2_25073" [label=418; weight=418; penwidth=0.3; color = 3]
+	"axon-server-connector-5.1.2_3690" -> "axon-messaging-5.1.2_25073" [label=278; weight=278; penwidth=0.3; color = 3]
+	"axon-eventsourcing-5.1.2_17496" -> "axon-common-5.1.2_8863" [label=220; weight=220; penwidth=0.3; color = 3]
 	"axon-server-connector-5.1.2_3690" -> "axon-common-5.1.2_8863" [label=128; weight=128; penwidth=0.3; color = 3]
-	"axon-messaging-5.1.2_25071" -> "axon-conversion-5.1.2_23465" [label=88; weight=88; penwidth=0.3; color = 3]
-	"axon-server-connector-5.1.2_3690" -> "axon-eventsourcing-5.1.2_17494" [label=86; weight=86; penwidth=0.3; color = 3]
-	"axon-conversion-5.1.2_23465" -> "axon-common-5.1.2_8863" [label=34; weight=34; penwidth=0.3; color = 3]
-	"axon-server-connector-5.1.2_3690" -> "axon-conversion-5.1.2_23465" [label=10; weight=10; penwidth=0.3; color = 3]
-	"axon-eventsourcing-5.1.2_17494" -> "axon-conversion-5.1.2_23465" [label=8; weight=8; penwidth=0.3; color = 3]
+	"axon-messaging-5.1.2_25073" -> "axon-conversion-5.1.2_23467" [label=88; weight=88; penwidth=0.3; color = 3]
+	"axon-server-connector-5.1.2_3690" -> "axon-eventsourcing-5.1.2_17496" [label=86; weight=86; penwidth=0.3; color = 3]
+	"axon-conversion-5.1.2_23467" -> "axon-common-5.1.2_8863" [label=34; weight=34; penwidth=0.3; color = 3]
+	"axon-server-connector-5.1.2_3690" -> "axon-conversion-5.1.2_23467" [label=10; weight=10; penwidth=0.3; color = 3]
+	"axon-eventsourcing-5.1.2_17496" -> "axon-conversion-5.1.2_23467" [label=8; weight=8; penwidth=0.3; color = 3]
 }

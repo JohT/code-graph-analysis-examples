@@ -26,13 +26,13 @@
 <polygon fill="#6699cc" stroke="#6699cc" stroke-width="0.5" points="345.27,-151.36 349.32,-146.46 343.1,-147.77 345.27,-151.36"/>
 </g>
 <!-- AnnotatedQueryHandlingComponent&#45;&gt;ParameterResolverFactory -->
-<g id="edge10" class="edge">
+<g id="edge9" class="edge">
 <title>AnnotatedQueryHandlingComponent&#45;&gt;ParameterResolverFactory</title>
 <path fill="none" stroke="#6699cc" stroke-width="0.5" d="M104.92,-341.84C58.46,-233.65 57.06,-220.97 93.33,-120.95"/>
 <polygon fill="#6699cc" stroke="#6699cc" stroke-width="0.5" points="95.21,-121.93 95.29,-115.58 91.26,-120.5 95.21,-121.93"/>
 </g>
 <!-- AnnotatedQueryHandlingComponent&#45;&gt;AnnotatedHandlerInspector -->
-<g id="edge1" class="edge">
+<g id="edge2" class="edge">
 <title>AnnotatedQueryHandlingComponent&#45;&gt;AnnotatedHandlerInspector</title>
 <path fill="none" stroke="#6699cc" stroke-width="0.5" d="M140.22,-342.49C191.52,-309.25 213.38,-295.54 346.86,-212.43"/>
 <polygon fill="#6699cc" stroke="#6699cc" stroke-width="0.5" points="347.85,-214.29 351.83,-209.34 345.63,-210.73 347.85,-214.29"/>
@@ -50,7 +50,7 @@
 <polygon fill="#6699cc" stroke="#6699cc" stroke-width="0.5" points="362.46,-153.83 364.34,-147.76 359.09,-151.34 362.46,-153.83"/>
 </g>
 <!-- Query&#45;&gt;Message -->
-<g id="edge9" class="edge">
+<g id="edge10" class="edge">
 <title>Query&#45;&gt;Message</title>
 <path fill="none" stroke="#6699cc" stroke-width="0.5" d="M194.17,-276.18C258.5,-114.2 266.9,-98.73 354.44,-45.57"/>
 <polygon fill="#6699cc" stroke="#6699cc" stroke-width="0.5" points="355.35,-47.47 359.4,-42.57 353.18,-43.88 355.35,-47.47"/>
@@ -92,7 +92,7 @@
 <polygon fill="#6699cc" stroke="#6699cc" stroke-width="0.5" points="302.57,-95.67 296.83,-92.95 299.62,-98.66 302.57,-95.67"/>
 </g>
 <!-- QueryHandler&#45;&gt;MessageHandler -->
-<g id="edge2" class="edge">
+<g id="edge1" class="edge">
 <title>QueryHandler&#45;&gt;MessageHandler</title>
 <path fill="none" stroke="#6699cc" stroke-width="0.5" d="M357.45,-322.58C315.67,-306.66 302.13,-292.4 247.71,-221.32"/>
 <polygon fill="#6699cc" stroke="#6699cc" stroke-width="0.5" points="249.49,-220.19 244.18,-216.7 246.16,-222.74 249.49,-220.19"/>

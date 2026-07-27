@@ -5,7 +5,7 @@
 "axon-messaging-5.1.2","QualifiedName","org.axonframework.messaging.core.QualifiedName",4625.822222222222,4,""
 "axon-common-5.1.2","ReflectionUtils","org.axonframework.common.ReflectionUtils",4488.466666666667,5,""
 "axon-messaging-5.1.2","MessageType","org.axonframework.messaging.core.MessageType",4159.611111111112,6,""
-"axon-modelling-5.1.2","AnnotatedEntityMetamodel","org.axonframework.modelling.entity.annotation.AnnotatedEntityMetamodel",3527.9704545454542,7,""
+"axon-modelling-5.1.2","AnnotatedEntityMetamodel","org.axonframework.modelling.entity.annotation.AnnotatedEntityMetamodel",3527.9704545454547,7,""
 "axon-messaging-5.1.2","ProcessingLifecycle","org.axonframework.messaging.core.unitofwork.ProcessingLifecycle",2523.4428571428557,8,""
 "axon-common-5.1.2","TypeReflectionUtils","org.axonframework.common.TypeReflectionUtils",2054,9,""
 "axon-eventsourcing-5.1.2","SimpleEventSourcedEntityModule","org.axonframework.eventsourcing.configuration.SimpleEventSourcedEntityModule",2006.2623015873016,10,""

@@ -16,23 +16,23 @@
 <text xml:space="preserve" text-anchor="middle" x="203" y="-368.74" font-family="Helvetica,Arial,sans-serif" font-size="14.00">node value: Page Rank (normalized)</text>
 <text xml:space="preserve" text-anchor="middle" x="203" y="-351.94" font-family="Helvetica,Arial,sans-serif" font-size="14.00">large circle: &gt; 80% percentile of Page Rank</text>
 <text xml:space="preserve" text-anchor="middle" x="203" y="-335.14" font-family="Helvetica,Arial,sans-serif" font-size="14.00">thick outline: &gt; 80% percentile of Page Rank to Article Rank Difference</text>
-<!-- jdbc_25140&#45;&gt;central -->
+<!-- jdbc_25142&#45;&gt;central -->
 <g id="edge1" class="edge">
-<title>jdbc_25140&#45;&gt;central</title>
+<title>jdbc_25142&#45;&gt;central</title>
 <path fill="none" stroke="#238b45" stroke-width="0.4" d="M220.56,-62.87C207.12,-73.49 190.9,-86.31 175.1,-98.79"/>
 <polygon fill="#238b45" stroke="#238b45" stroke-width="0.4" points="174.27,-97.67 171.99,-101.24 176,-99.86 174.27,-97.67"/>
 <text xml:space="preserve" text-anchor="middle" x="195.17" y="-83.34" font-family="Times,serif" font-size="4.00">1</text>
 </g>
-<!-- jdbc_25140&#45;&gt;tx_8888 -->
+<!-- jdbc_25142&#45;&gt;tx_8888 -->
 <g id="edge8" class="edge">
-<title>jdbc_25140&#45;&gt;tx_8888</title>
+<title>jdbc_25142&#45;&gt;tx_8888</title>
 <path fill="none" stroke="#ccece6" stroke-width="0.3" d="M247.55,-71.15C247.44,-71.99 247.33,-72.84 247.22,-73.69"/>
 <polygon fill="#ccece6" stroke="#ccece6" stroke-width="0.3" points="245.85,-73.34 246.72,-77.49 248.63,-73.71 245.85,-73.34"/>
 <text xml:space="preserve" text-anchor="middle" x="246.24" y="-74.73" font-family="Times,serif" font-size="4.00">1</text>
 </g>
-<!-- jdbc_25140&#45;&gt;jdbc_8884 -->
+<!-- jdbc_25142&#45;&gt;jdbc_8884 -->
 <g id="edge7" class="edge">
-<title>jdbc_25140&#45;&gt;jdbc_8884</title>
+<title>jdbc_25142&#45;&gt;jdbc_8884</title>
 <path fill="none" stroke="#ccece6" stroke-width="0.3" d="M204.51,-36.17C191.81,-35.65 178.02,-35.08 165.09,-34.55"/>
 <polygon fill="#ccece6" stroke="#ccece6" stroke-width="0.3" points="165.25,-33.15 161.19,-34.39 165.13,-35.95 165.25,-33.15"/>
 <text xml:space="preserve" text-anchor="middle" x="182.02" y="-36.49" font-family="Times,serif" font-size="4.00">2</text>
@@ -72,23 +72,23 @@
 <polygon fill="#ccece6" stroke="#ccece6" stroke-width="0.3" points="237.93,-148.63 237.15,-144.47 235.16,-148.21 237.93,-148.63"/>
 <text xml:space="preserve" text-anchor="middle" x="228.35" y="-196.04" font-family="Times,serif" font-size="4.00">0</text>
 </g>
-<!-- jpa_25141&#45;&gt;central -->
+<!-- jpa_25143&#45;&gt;central -->
 <g id="edge5" class="edge">
-<title>jpa_25141&#45;&gt;central</title>
+<title>jpa_25143&#45;&gt;central</title>
 <path fill="none" stroke="#238b45" stroke-width="0.4" d="M279.39,-190.26C253.59,-184.04 220.48,-176.06 190.44,-168.83"/>
 <polygon fill="#238b45" stroke="#238b45" stroke-width="0.4" points="190.84,-167.48 186.62,-167.9 190.18,-170.2 190.84,-167.48"/>
 <text xml:space="preserve" text-anchor="middle" x="231.92" y="-180.26" font-family="Times,serif" font-size="4.00">0</text>
 </g>
-<!-- jpa_25141&#45;&gt;tx_8888 -->
+<!-- jpa_25143&#45;&gt;tx_8888 -->
 <g id="edge9" class="edge">
-<title>jpa_25141&#45;&gt;tx_8888</title>
+<title>jpa_25143&#45;&gt;tx_8888</title>
 <path fill="none" stroke="#ccece6" stroke-width="0.3" d="M298.91,-173.09C289.96,-163.25 279.84,-152.15 270.67,-142.08"/>
 <polygon fill="#ccece6" stroke="#ccece6" stroke-width="0.3" points="271.89,-141.34 268.16,-139.33 269.82,-143.23 271.89,-141.34"/>
 <text xml:space="preserve" text-anchor="middle" x="282.52" y="-157.39" font-family="Times,serif" font-size="4.00">1</text>
 </g>
-<!-- jpa_25141&#45;&gt;jpa_8893 -->
+<!-- jpa_25143&#45;&gt;jpa_8893 -->
 <g id="edge6" class="edge">
-<title>jpa_25141&#45;&gt;jpa_8893</title>
+<title>jpa_25143&#45;&gt;jpa_8893</title>
 <path fill="none" stroke="#ccece6" stroke-width="0.3" d="M291.14,-224.97C279.01,-233.66 265.24,-243.53 252.85,-252.41"/>
 <polygon fill="#ccece6" stroke="#ccece6" stroke-width="0.3" points="252.2,-251.15 249.77,-254.62 253.83,-253.43 252.2,-251.15"/>
 <text xml:space="preserve" text-anchor="middle" x="269.26" y="-241.13" font-family="Times,serif" font-size="4.00">6</text>
@@ -101,9 +101,9 @@
 <text xml:space="preserve" text-anchor="middle" x="110.76" y="-154.43" font-family="Times,serif" font-size="16.00">🏛️ authority #3</text>
 <text xml:space="preserve" text-anchor="middle" x="110.76" y="-135.23" font-family="Times,serif" font-size="16.00">function</text>
 </g>
-<!-- jdbc_25140 -->
+<!-- jdbc_25142 -->
 <g id="node2" class="node">
-<title>jdbc_25140</title>
+<title>jdbc_25142</title>
 <ellipse fill="#ccece6" stroke="#41ae76" stroke-width="2" cx="251.88" cy="-38.13" rx="46.8" ry="32.4"/>
 <text xml:space="preserve" text-anchor="middle" x="251.88" y="-41.73" font-family="Times,serif" font-size="12.00">jdbc</text>
 <text xml:space="preserve" text-anchor="middle" x="251.88" y="-27.33" font-family="Times,serif" font-size="12.00">(0.05%)</text>
@@ -129,9 +129,9 @@
 <text xml:space="preserve" text-anchor="middle" x="216.39" y="-282.14" font-family="Times,serif" font-size="12.00">jpa</text>
 <text xml:space="preserve" text-anchor="middle" x="216.39" y="-267.74" font-family="Times,serif" font-size="12.00">(0.39%)</text>
 </g>
-<!-- jpa_25141 -->
+<!-- jpa_25143 -->
 <g id="node6" class="node">
-<title>jpa_25141</title>
+<title>jpa_25143</title>
 <ellipse fill="#ccece6" stroke="#41ae76" stroke-width="2" cx="324.44" cy="-201.11" rx="46.8" ry="32.4"/>
 <text xml:space="preserve" text-anchor="middle" x="324.44" y="-204.71" font-family="Times,serif" font-size="12.00">jpa</text>
 <text xml:space="preserve" text-anchor="middle" x="324.44" y="-190.31" font-family="Times,serif" font-size="12.00">(0.05%)</text>

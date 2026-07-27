@@ -14,178 +14,178 @@ strict digraph TopAuthority1 {
 
 	graph   [label="Top Rank #1 Java Package Authority\norg.axonframework.common\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: Page Rank (normalized)\nlarge circle: > 80% percentile of Page Rank\nthick outline: > 80% percentile of Page Rank to Article Rank Difference\n\n"];
 	central [label="🏛️ authority #1\ncommon"];
-	"pooled_25115"  [label = "pooled\n(0.21%)"; penwidth = 2; ]; "pooled_25115" -> central [label=61; weight=61; penwidth=1.4];
-	"core_25128"  [shape = "circle"; height=2; label = "core\n(54.52%)"; penwidth = 2; ]; "core_25128" -> central [label=44; weight=44; penwidth=1.1];
+	"pooled_25117"  [label = "pooled\n(0.21%)"; penwidth = 2; ]; "pooled_25117" -> central [label=61; weight=61; penwidth=1.4];
+	"core_25130"  [shape = "circle"; height=2; label = "core\n(54.52%)"; penwidth = 2; ]; "core_25130" -> central [label=44; weight=44; penwidth=1.1];
 	"configuration_8894"  [label = "configuration\n(10.92%)"; penwidth = 2; ]; "configuration_8894" -> central [label=42; weight=42; penwidth=1.1];
-	"interception_25131"  [label = "interception\n(0.19%)"; penwidth = 2; ]; "interception_25131" -> central [label=29; weight=29; penwidth=0.9];
+	"interception_25133"  [label = "interception\n(0.19%)"; penwidth = 2; ]; "interception_25133" -> central [label=29; weight=29; penwidth=0.9];
 	"annotation_22"  [label = "annotation\n(0.15%)"; penwidth = 2; ]; "annotation_22" -> central [label=26; weight=26; penwidth=0.8];
-	"configuration_17523"  [label = "configuration\n(0.0%)"; penwidth = 5; ]; "configuration_17523" -> central [label=22; weight=22; penwidth=0.8];
-	"queryhandling_25122"  [label = "queryhandling\n(2.59%)"; penwidth = 2; ]; "queryhandling_25122" -> central [label=22; weight=22; penwidth=0.8];
-	"reflection_17514"  [label = "reflection\n(0.07%)"; penwidth = 2; ]; "reflection_17514" -> central [label=22; weight=22; penwidth=0.8];
-	"eventstore_17520"  [label = "eventstore\n(3.34%)"; penwidth = 2; ]; "eventstore_17520" -> central [label=21; weight=21; penwidth=0.8];
-	"annotation_25129"  [label = "annotation\n(6.94%)"; penwidth = 2; ]; "annotation_25129" -> central [label=20; weight=20; penwidth=0.7];
-	"jpa_17522"  [label = "jpa\n(0.0%)"; penwidth = 5; ]; "jpa_17522" -> central [label=19; weight=19; penwidth=0.7];
-	"commandhandling_25093"  [label = "commandhandling\n(4.23%)"; penwidth = 2; ]; "commandhandling_25093" -> central [label=15; weight=15; penwidth=0.7];
-	"configuration_25092"  [label = "configuration\n(0.25%)"; penwidth = 2; ]; "configuration_25092" -> central [label=15; weight=15; penwidth=0.7];
-	"jpa_25114"  [label = "jpa\n(0.0%)"; penwidth = 5; ]; "jpa_25114" -> central [label=15; weight=15; penwidth=0.7];
-	"annotation_25094"  [label = "annotation\n(0.14%)"; penwidth = 2; ]; "annotation_25094" -> central [label=14; weight=14; penwidth=0.6];
+	"configuration_17525"  [label = "configuration\n(0.0%)"; penwidth = 5; ]; "configuration_17525" -> central [label=22; weight=22; penwidth=0.8];
+	"queryhandling_25124"  [label = "queryhandling\n(2.59%)"; penwidth = 2; ]; "queryhandling_25124" -> central [label=22; weight=22; penwidth=0.8];
+	"reflection_17516"  [label = "reflection\n(0.07%)"; penwidth = 2; ]; "reflection_17516" -> central [label=22; weight=22; penwidth=0.8];
+	"eventstore_17522"  [label = "eventstore\n(3.34%)"; penwidth = 2; ]; "eventstore_17522" -> central [label=21; weight=21; penwidth=0.8];
+	"annotation_25131"  [label = "annotation\n(6.94%)"; penwidth = 2; ]; "annotation_25131" -> central [label=20; weight=20; penwidth=0.7];
+	"jpa_17524"  [label = "jpa\n(0.0%)"; penwidth = 5; ]; "jpa_17524" -> central [label=19; weight=19; penwidth=0.7];
+	"commandhandling_25095"  [label = "commandhandling\n(4.23%)"; penwidth = 2; ]; "commandhandling_25095" -> central [label=15; weight=15; penwidth=0.7];
+	"configuration_25094"  [label = "configuration\n(0.25%)"; penwidth = 2; ]; "configuration_25094" -> central [label=15; weight=15; penwidth=0.7];
+	"jpa_25116"  [label = "jpa\n(0.0%)"; penwidth = 5; ]; "jpa_25116" -> central [label=15; weight=15; penwidth=0.7];
+	"annotation_25096"  [label = "annotation\n(0.14%)"; penwidth = 2; ]; "annotation_25096" -> central [label=14; weight=14; penwidth=0.6];
 	"micrometer_23147"  [label = "micrometer\n(0.56%)"; penwidth = 5; ]; "micrometer_23147" -> central [label=14; weight=14; penwidth=0.6];
-	"jdbc_25113"  [label = "jdbc\n(0.0%)"; penwidth = 5; ]; "jdbc_25113" -> central [label=13; weight=13; penwidth=0.6];
+	"jdbc_25115"  [label = "jdbc\n(0.0%)"; penwidth = 5; ]; "jdbc_25115" -> central [label=13; weight=13; penwidth=0.6];
 	"api_4131"  [label = "api\n(3.38%)"; penwidth = 2; ]; "api_4131" -> central [label=11; weight=11; penwidth=0.6];
 	"child_23"  [label = "child\n(0.34%)"; penwidth = 2; ]; "child_23" -> central [label=11; weight=11; penwidth=0.6];
-	"replay_25102"  [label = "replay\n(0.89%)"; penwidth = 2; ]; "replay_25102" -> central [label=11; weight=11; penwidth=0.6];
-	"unitofwork_25137"  [label = "unitofwork\n(12.6%)"; penwidth = 2; ]; "unitofwork_25137" -> central [label=11; weight=11; penwidth=0.6];
-	"annotation_25132"  [label = "annotation\n(0.21%)"; penwidth = 2; ]; "annotation_25132" -> central [label=10; weight=10; penwidth=0.6];
-	"eventhandling_25100"  [label = "eventhandling\n(6.53%)"; penwidth = 2; ]; "eventhandling_25100" -> central [label=10; weight=10; penwidth=0.6];
+	"replay_25104"  [label = "replay\n(0.89%)"; penwidth = 2; ]; "replay_25104" -> central [label=11; weight=11; penwidth=0.6];
+	"unitofwork_25139"  [label = "unitofwork\n(12.6%)"; penwidth = 2; ]; "unitofwork_25139" -> central [label=11; weight=11; penwidth=0.6];
+	"annotation_25134"  [label = "annotation\n(0.21%)"; penwidth = 2; ]; "annotation_25134" -> central [label=10; weight=10; penwidth=0.6];
+	"eventhandling_25102"  [label = "eventhandling\n(6.53%)"; penwidth = 2; ]; "eventhandling_25102" -> central [label=10; weight=10; penwidth=0.6];
 	"query_4130"  [label = "query\n(0.08%)"; penwidth = 2; ]; "query_4130" -> central [label=10; weight=10; penwidth=0.6];
 	"shared_4127"  [label = "shared\n(0.26%)"; penwidth = 2; ]; "shared_4127" -> central [label=9; weight=9; penwidth=0.6];
-	"subscribing_25117"  [label = "subscribing\n(0.17%)"; penwidth = 2; ]; "subscribing_25117" -> central [label=9; weight=9; penwidth=0.6];
-	"configuration_25120"  [label = "configuration\n(0.51%)"; penwidth = 2; ]; "configuration_25120" -> central [label=8; weight=8; penwidth=0.5];
+	"subscribing_25119"  [label = "subscribing\n(0.17%)"; penwidth = 2; ]; "subscribing_25119" -> central [label=9; weight=9; penwidth=0.6];
 	"configuration_24"  [label = "configuration\n(0.15%)"; penwidth = 2; ]; "configuration_24" -> central [label=8; weight=8; penwidth=0.5];
-	"store_25111"  [label = "store\n(1.0%)"; penwidth = 2; ]; "store_25111" -> central [label=8; weight=8; penwidth=0.5];
-	"annotation_17513"  [label = "annotation\n(0.19%)"; penwidth = 2; ]; "annotation_17513" -> central [label=7; weight=7; penwidth=0.5];
-	"extension_14734"  [label = "extension\n(0.0%)"; penwidth = 5; ]; "extension_14734" -> central [label=7; weight=7; penwidth=0.5];
+	"configuration_25122"  [label = "configuration\n(0.51%)"; penwidth = 2; ]; "configuration_25122" -> central [label=8; weight=8; penwidth=0.5];
+	"store_25113"  [label = "store\n(1.0%)"; penwidth = 2; ]; "store_25113" -> central [label=8; weight=8; penwidth=0.5];
+	"annotation_17515"  [label = "annotation\n(0.19%)"; penwidth = 2; ]; "annotation_17515" -> central [label=7; weight=7; penwidth=0.5];
+	"extension_14389"  [label = "extension\n(0.0%)"; penwidth = 5; ]; "extension_14389" -> central [label=7; weight=7; penwidth=0.5];
 	"lock_8892"  [label = "lock\n(0.0%)"; penwidth = 5; ]; "lock_8892" -> central [label=7; weight=7; penwidth=0.5];
-	"matchers_14736"  [label = "matchers\n(0.14%)"; penwidth = 2; ]; "matchers_14736" -> central [label=7; weight=7; penwidth=0.5];
-	"token_25109"  [label = "token\n(4.22%)"; penwidth = 2; ]; "token_25109" -> central [label=7; weight=7; penwidth=0.5];
+	"matchers_14384"  [label = "matchers\n(0.14%)"; penwidth = 2; ]; "matchers_14384" -> central [label=7; weight=7; penwidth=0.5];
+	"token_25111"  [label = "token\n(4.22%)"; penwidth = 2; ]; "token_25111" -> central [label=7; weight=7; penwidth=0.5];
 	"caching_8887"  [label = "caching\n(0.0%)"; penwidth = 5; ]; "caching_8887" -> central [label=6; weight=6; penwidth=0.5];
-	"conversion_23483"  [label = "conversion\n(12.56%)"; penwidth = 2; ]; "conversion_23483" -> central [label=6; weight=6; penwidth=0.5];
-	"tracing_25119"  [label = "tracing\n(0.0%)"; penwidth = 5; ]; "tracing_25119" -> central [label=6; weight=6; penwidth=0.5];
-	"inmemory_25112"  [label = "inmemory\n(0.01%)"; penwidth = 2; ]; "inmemory_25112" -> central [label=5; weight=5; penwidth=0.5];
+	"conversion_23485"  [label = "conversion\n(12.56%)"; penwidth = 2; ]; "conversion_23485" -> central [label=6; weight=6; penwidth=0.5];
+	"tracing_25121"  [label = "tracing\n(0.0%)"; penwidth = 5; ]; "tracing_25121" -> central [label=6; weight=6; penwidth=0.5];
+	"inmemory_25114"  [label = "inmemory\n(0.01%)"; penwidth = 2; ]; "inmemory_25114" -> central [label=5; weight=5; penwidth=0.5];
 	"modelling_19"  [label = "modelling\n(0.67%)"; penwidth = 2; ]; "modelling_19" -> central [label=5; weight=5; penwidth=0.5];
-	"annotation_20"  [label = "annotation\n(0.15%)"; penwidth = 2; ]; "annotation_20" -> central [label=4; weight=4; penwidth=0.5];
-	"queryhandling_25122" -> "core_25128" [label=130; weight=130; penwidth=0.3; color = 3]
-	"annotation_25129" -> "core_25128" [label=86; weight=86; penwidth=0.3; color = 3]
-	"commandhandling_25093" -> "core_25128" [label=68; weight=68; penwidth=0.3; color = 3]
-	"interception_25131" -> "core_25128" [label=62; weight=62; penwidth=0.3; color = 3]
-	"eventhandling_25100" -> "core_25128" [label=59; weight=59; penwidth=0.3; color = 3]
-	"jpa_17522" -> "eventstore_17520" [label=54; weight=54; penwidth=0.3; color = 3]
-	"eventstore_17520" -> "core_25128" [label=53; weight=53; penwidth=0.3; color = 3]
-	"unitofwork_25137" -> "core_25128" [label=50; weight=50; penwidth=0.3; color = 3]
-	"pooled_25115" -> "unitofwork_25137" [label=48; weight=48; penwidth=0.3; color = 3]
-	"pooled_25115" -> "core_25128" [label=44; weight=44; penwidth=0.3; color = 3]
-	"configuration_17523" -> "configuration_8894" [label=38; weight=38; penwidth=0.3; color = 3]
-	"query_4130" -> "core_25128" [label=38; weight=38; penwidth=0.3; color = 3]
-	"jdbc_25113" -> "store_25111" [label=37; weight=37; penwidth=0.3; color = 3]
-	"jpa_17522" -> "token_25109" [label=34; weight=34; penwidth=0.3; color = 3]
-	"pooled_25115" -> "token_25109" [label=30; weight=30; penwidth=0.3; color = 3]
-	"pooled_25115" -> "configuration_25120" [label=30; weight=30; penwidth=0.3; color = 3]
-	"subscribing_25117" -> "configuration_25120" [label=30; weight=30; penwidth=0.3; color = 3]
-	"interception_25131" -> "configuration_8894" [label=29; weight=29; penwidth=0.3; color = 3]
-	"replay_25102" -> "core_25128" [label=28; weight=28; penwidth=0.3; color = 3]
+	"annotation_25103"  [label = "annotation\n(0.18%)"; penwidth = 2; ]; "annotation_25103" -> central [label=4; weight=4; penwidth=0.5];
+	"queryhandling_25124" -> "core_25130" [label=130; weight=130; penwidth=0.3; color = 3]
+	"annotation_25131" -> "core_25130" [label=86; weight=86; penwidth=0.3; color = 3]
+	"commandhandling_25095" -> "core_25130" [label=68; weight=68; penwidth=0.3; color = 3]
+	"interception_25133" -> "core_25130" [label=62; weight=62; penwidth=0.3; color = 3]
+	"eventhandling_25102" -> "core_25130" [label=59; weight=59; penwidth=0.3; color = 3]
+	"jpa_17524" -> "eventstore_17522" [label=54; weight=54; penwidth=0.3; color = 3]
+	"eventstore_17522" -> "core_25130" [label=53; weight=53; penwidth=0.3; color = 3]
+	"annotation_25103" -> "annotation_25131" [label=51; weight=51; penwidth=0.3; color = 3]
+	"unitofwork_25139" -> "core_25130" [label=50; weight=50; penwidth=0.3; color = 3]
+	"pooled_25117" -> "unitofwork_25139" [label=48; weight=48; penwidth=0.3; color = 3]
+	"pooled_25117" -> "core_25130" [label=44; weight=44; penwidth=0.3; color = 3]
+	"configuration_17525" -> "configuration_8894" [label=38; weight=38; penwidth=0.3; color = 3]
+	"query_4130" -> "core_25130" [label=38; weight=38; penwidth=0.3; color = 3]
+	"jdbc_25115" -> "store_25113" [label=37; weight=37; penwidth=0.3; color = 3]
+	"jpa_17524" -> "token_25111" [label=34; weight=34; penwidth=0.3; color = 3]
+	"pooled_25117" -> "token_25111" [label=30; weight=30; penwidth=0.3; color = 3]
+	"pooled_25117" -> "configuration_25122" [label=30; weight=30; penwidth=0.3; color = 3]
+	"subscribing_25119" -> "configuration_25122" [label=30; weight=30; penwidth=0.3; color = 3]
+	"interception_25133" -> "configuration_8894" [label=29; weight=29; penwidth=0.3; color = 3]
+	"replay_25104" -> "core_25130" [label=28; weight=28; penwidth=0.3; color = 3]
 	"annotation_22" -> "child_23" [label=26; weight=26; penwidth=0.3; color = 3]
-	"configuration_25120" -> "configuration_8894" [label=26; weight=26; penwidth=0.3; color = 3]
-	"annotation_22" -> "core_25128" [label=25; weight=25; penwidth=0.3; color = 3]
-	"eventstore_17520" -> "eventhandling_25100" [label=25; weight=25; penwidth=0.3; color = 3]
-	"jpa_25114" -> "store_25111" [label=24; weight=24; penwidth=0.3; color = 3]
-	"pooled_25115" -> "configuration_8894" [label=23; weight=23; penwidth=0.3; color = 3]
+	"configuration_25122" -> "configuration_8894" [label=26; weight=26; penwidth=0.3; color = 3]
+	"annotation_22" -> "core_25130" [label=25; weight=25; penwidth=0.3; color = 3]
+	"eventstore_17522" -> "eventhandling_25102" [label=25; weight=25; penwidth=0.3; color = 3]
+	"jpa_25116" -> "store_25113" [label=24; weight=24; penwidth=0.3; color = 3]
+	"pooled_25117" -> "configuration_8894" [label=23; weight=23; penwidth=0.3; color = 3]
 	"configuration_24" -> "configuration_8894" [label=22; weight=22; penwidth=0.3; color = 3]
-	"query_4130" -> "queryhandling_25122" [label=22; weight=22; penwidth=0.3; color = 3]
-	"configuration_17523" -> "configuration_24" [label=20; weight=20; penwidth=0.3; color = 3]
-	"pooled_25115" -> "eventhandling_25100" [label=20; weight=20; penwidth=0.3; color = 3]
-	"annotation_25132" -> "annotation_25129" [label=19; weight=19; penwidth=0.3; color = 3]
-	"configuration_25092" -> "configuration_8894" [label=18; weight=18; penwidth=0.3; color = 3]
-	"subscribing_25117" -> "configuration_8894" [label=18; weight=18; penwidth=0.3; color = 3]
-	"annotation_25132" -> "core_25128" [label=17; weight=17; penwidth=0.3; color = 3]
-	"eventstore_17520" -> "unitofwork_25137" [label=17; weight=17; penwidth=0.3; color = 3]
-	"jpa_17522" -> "core_25128" [label=17; weight=17; penwidth=0.3; color = 3]
+	"query_4130" -> "queryhandling_25124" [label=22; weight=22; penwidth=0.3; color = 3]
+	"annotation_25103" -> "eventhandling_25102" [label=20; weight=20; penwidth=0.3; color = 3]
+	"configuration_17525" -> "configuration_24" [label=20; weight=20; penwidth=0.3; color = 3]
+	"pooled_25117" -> "eventhandling_25102" [label=20; weight=20; penwidth=0.3; color = 3]
+	"annotation_25134" -> "annotation_25131" [label=19; weight=19; penwidth=0.3; color = 3]
+	"configuration_25094" -> "configuration_8894" [label=18; weight=18; penwidth=0.3; color = 3]
+	"subscribing_25119" -> "configuration_8894" [label=18; weight=18; penwidth=0.3; color = 3]
+	"annotation_25134" -> "core_25130" [label=17; weight=17; penwidth=0.3; color = 3]
+	"eventstore_17522" -> "unitofwork_25139" [label=17; weight=17; penwidth=0.3; color = 3]
+	"jpa_17524" -> "core_25130" [label=17; weight=17; penwidth=0.3; color = 3]
+	"annotation_25103" -> "core_25130" [label=16; weight=16; penwidth=0.3; color = 3]
 	"query_4130" -> "shared_4127" [label=16; weight=16; penwidth=0.3; color = 3]
-	"reflection_17514" -> "core_25128" [label=16; weight=16; penwidth=0.3; color = 3]
-	"configuration_17523" -> "eventstore_17520" [label=15; weight=15; penwidth=0.3; color = 3]
-	"annotation_25129" -> "unitofwork_25137" [label=14; weight=14; penwidth=0.3; color = 3]
-	"annotation_25094" -> "annotation_25129" [label=13; weight=13; penwidth=0.3; color = 3]
-	"annotation_20" -> "modelling_19" [label=13; weight=13; penwidth=0.3; color = 3]
-	"pooled_25115" -> "store_25111" [label=12; weight=12; penwidth=0.3; color = 3]
-	"annotation_22" -> "annotation_25129" [label=11; weight=11; penwidth=0.3; color = 3]
-	"annotation_25094" -> "commandhandling_25093" [label=11; weight=11; penwidth=0.3; color = 3]
-	"annotation_20" -> "annotation_25129" [label=11; weight=11; penwidth=0.3; color = 3]
-	"inmemory_25112" -> "store_25111" [label=11; weight=11; penwidth=0.3; color = 3]
-	"micrometer_23147" -> "core_25128" [label=11; weight=11; penwidth=0.3; color = 3]
-	"annotation_25132" -> "unitofwork_25137" [label=10; weight=10; penwidth=0.3; color = 3]
-	"annotation_20" -> "core_25128" [label=10; weight=10; penwidth=0.3; color = 3]
-	"configuration_25120" -> "eventhandling_25100" [label=10; weight=10; penwidth=0.3; color = 3]
-	"eventhandling_25100" -> "unitofwork_25137" [label=10; weight=10; penwidth=0.3; color = 3]
-	"queryhandling_25122" -> "unitofwork_25137" [label=10; weight=10; penwidth=0.3; color = 3]
-	"queryhandling_25122" -> "conversion_23483" [label=10; weight=10; penwidth=0.3; color = 3]
-	"configuration_25120" -> "pooled_25115" [label=9; weight=9; penwidth=0.3; color = 3]
-	"configuration_25120" -> "subscribing_25117" [label=9; weight=9; penwidth=0.3; color = 3]
-	"core_25128" -> "conversion_23483" [label=9; weight=9; penwidth=0.3; color = 3]
-	"reflection_17514" -> "annotation_25129" [label=9; weight=9; penwidth=0.3; color = 3]
-	"subscribing_25117" -> "core_25128" [label=9; weight=9; penwidth=0.3; color = 3]
-	"annotation_25094" -> "core_25128" [label=8; weight=8; penwidth=0.3; color = 3]
-	"eventstore_17520" -> "annotation_17513" [label=8; weight=8; penwidth=0.3; color = 3]
-	"interception_25131" -> "queryhandling_25122" [label=8; weight=8; penwidth=0.3; color = 3]
-	"jpa_17522" -> "eventhandling_25100" [label=8; weight=8; penwidth=0.3; color = 3]
+	"reflection_17516" -> "core_25130" [label=16; weight=16; penwidth=0.3; color = 3]
+	"configuration_17525" -> "eventstore_17522" [label=15; weight=15; penwidth=0.3; color = 3]
+	"annotation_25131" -> "unitofwork_25139" [label=14; weight=14; penwidth=0.3; color = 3]
+	"annotation_25096" -> "annotation_25131" [label=13; weight=13; penwidth=0.3; color = 3]
+	"pooled_25117" -> "store_25113" [label=12; weight=12; penwidth=0.3; color = 3]
+	"annotation_22" -> "annotation_25131" [label=11; weight=11; penwidth=0.3; color = 3]
+	"annotation_25096" -> "commandhandling_25095" [label=11; weight=11; penwidth=0.3; color = 3]
+	"inmemory_25114" -> "store_25113" [label=11; weight=11; penwidth=0.3; color = 3]
+	"micrometer_23147" -> "core_25130" [label=11; weight=11; penwidth=0.3; color = 3]
+	"annotation_25134" -> "unitofwork_25139" [label=10; weight=10; penwidth=0.3; color = 3]
+	"configuration_25122" -> "eventhandling_25102" [label=10; weight=10; penwidth=0.3; color = 3]
+	"eventhandling_25102" -> "unitofwork_25139" [label=10; weight=10; penwidth=0.3; color = 3]
+	"queryhandling_25124" -> "conversion_23485" [label=10; weight=10; penwidth=0.3; color = 3]
+	"queryhandling_25124" -> "unitofwork_25139" [label=10; weight=10; penwidth=0.3; color = 3]
+	"configuration_25122" -> "pooled_25117" [label=9; weight=9; penwidth=0.3; color = 3]
+	"configuration_25122" -> "subscribing_25119" [label=9; weight=9; penwidth=0.3; color = 3]
+	"core_25130" -> "conversion_23485" [label=9; weight=9; penwidth=0.3; color = 3]
+	"reflection_17516" -> "annotation_25131" [label=9; weight=9; penwidth=0.3; color = 3]
+	"subscribing_25119" -> "core_25130" [label=9; weight=9; penwidth=0.3; color = 3]
+	"annotation_25096" -> "core_25130" [label=8; weight=8; penwidth=0.3; color = 3]
+	"eventstore_17522" -> "annotation_17515" [label=8; weight=8; penwidth=0.3; color = 3]
+	"interception_25133" -> "queryhandling_25124" [label=8; weight=8; penwidth=0.3; color = 3]
+	"jpa_17524" -> "eventhandling_25102" [label=8; weight=8; penwidth=0.3; color = 3]
 	"shared_4127" -> "api_4131" [label=8; weight=8; penwidth=0.3; color = 3]
-	"subscribing_25117" -> "eventhandling_25100" [label=7; weight=7; penwidth=0.3; color = 3]
-	"annotation_22" -> "annotation_20" [label=6; weight=6; penwidth=0.3; color = 3]
-	"inmemory_25112" -> "token_25109" [label=6; weight=6; penwidth=0.3; color = 3]
-	"interception_25131" -> "unitofwork_25137" [label=6; weight=6; penwidth=0.3; color = 3]
-	"jdbc_25113" -> "token_25109" [label=6; weight=6; penwidth=0.3; color = 3]
-	"modelling_19" -> "core_25128" [label=6; weight=6; penwidth=0.3; color = 3]
-	"shared_4127" -> "commandhandling_25093" [label=6; weight=6; penwidth=0.3; color = 3]
-	"shared_4127" -> "queryhandling_25122" [label=6; weight=6; penwidth=0.3; color = 3]
-	"token_25109" -> "core_25128" [label=6; weight=6; penwidth=0.3; color = 3]
-	"tracing_25119" -> "eventhandling_25100" [label=6; weight=6; penwidth=0.3; color = 3]
-	"annotation_22" -> "commandhandling_25093" [label=5; weight=5; penwidth=0.3; color = 3]
-	"commandhandling_25093" -> "conversion_23483" [label=5; weight=5; penwidth=0.3; color = 3]
-	"configuration_25120" -> "unitofwork_25137" [label=5; weight=5; penwidth=0.3; color = 3]
-	"core_25128" -> "unitofwork_25137" [label=5; weight=5; penwidth=0.3; color = 3]
-	"eventhandling_25100" -> "replay_25102" [label=5; weight=5; penwidth=0.3; color = 3]
-	"interception_25131" -> "commandhandling_25093" [label=5; weight=5; penwidth=0.3; color = 3]
-	"interception_25131" -> "eventhandling_25100" [label=5; weight=5; penwidth=0.3; color = 3]
-	"micrometer_23147" -> "configuration_25092" [label=5; weight=5; penwidth=0.3; color = 3]
-	"annotation_22" -> "conversion_23483" [label=4; weight=4; penwidth=0.3; color = 3]
-	"annotation_25129" -> "annotation_25132" [label=4; weight=4; penwidth=0.3; color = 3]
-	"child_23" -> "core_25128" [label=4; weight=4; penwidth=0.3; color = 3]
-	"configuration_17523" -> "annotation_17513" [label=4; weight=4; penwidth=0.3; color = 3]
-	"configuration_17523" -> "annotation_22" [label=4; weight=4; penwidth=0.3; color = 3]
-	"configuration_25092" -> "queryhandling_25122" [label=4; weight=4; penwidth=0.3; color = 3]
-	"configuration_25120" -> "annotation_25129" [label=4; weight=4; penwidth=0.3; color = 3]
-	"configuration_25120" -> "core_25128" [label=4; weight=4; penwidth=0.3; color = 3]
+	"subscribing_25119" -> "eventhandling_25102" [label=7; weight=7; penwidth=0.3; color = 3]
+	"inmemory_25114" -> "token_25111" [label=6; weight=6; penwidth=0.3; color = 3]
+	"interception_25133" -> "unitofwork_25139" [label=6; weight=6; penwidth=0.3; color = 3]
+	"jdbc_25115" -> "token_25111" [label=6; weight=6; penwidth=0.3; color = 3]
+	"modelling_19" -> "core_25130" [label=6; weight=6; penwidth=0.3; color = 3]
+	"shared_4127" -> "commandhandling_25095" [label=6; weight=6; penwidth=0.3; color = 3]
+	"shared_4127" -> "queryhandling_25124" [label=6; weight=6; penwidth=0.3; color = 3]
+	"token_25111" -> "core_25130" [label=6; weight=6; penwidth=0.3; color = 3]
+	"tracing_25121" -> "eventhandling_25102" [label=6; weight=6; penwidth=0.3; color = 3]
+	"annotation_22" -> "commandhandling_25095" [label=5; weight=5; penwidth=0.3; color = 3]
+	"commandhandling_25095" -> "conversion_23485" [label=5; weight=5; penwidth=0.3; color = 3]
+	"configuration_25122" -> "unitofwork_25139" [label=5; weight=5; penwidth=0.3; color = 3]
+	"core_25130" -> "unitofwork_25139" [label=5; weight=5; penwidth=0.3; color = 3]
+	"eventhandling_25102" -> "replay_25104" [label=5; weight=5; penwidth=0.3; color = 3]
+	"interception_25133" -> "eventhandling_25102" [label=5; weight=5; penwidth=0.3; color = 3]
+	"interception_25133" -> "commandhandling_25095" [label=5; weight=5; penwidth=0.3; color = 3]
+	"micrometer_23147" -> "configuration_25094" [label=5; weight=5; penwidth=0.3; color = 3]
+	"annotation_22" -> "conversion_23485" [label=4; weight=4; penwidth=0.3; color = 3]
+	"annotation_25131" -> "annotation_25134" [label=4; weight=4; penwidth=0.3; color = 3]
+	"annotation_25103" -> "unitofwork_25139" [label=4; weight=4; penwidth=0.3; color = 3]
+	"child_23" -> "core_25130" [label=4; weight=4; penwidth=0.3; color = 3]
+	"configuration_17525" -> "annotation_22" [label=4; weight=4; penwidth=0.3; color = 3]
+	"configuration_17525" -> "annotation_17515" [label=4; weight=4; penwidth=0.3; color = 3]
+	"configuration_25094" -> "queryhandling_25124" [label=4; weight=4; penwidth=0.3; color = 3]
 	"configuration_24" -> "modelling_19" [label=4; weight=4; penwidth=0.3; color = 3]
-	"eventhandling_25100" -> "conversion_23483" [label=4; weight=4; penwidth=0.3; color = 3]
-	"jpa_25114" -> "token_25109" [label=4; weight=4; penwidth=0.3; color = 3]
+	"configuration_25122" -> "annotation_25131" [label=4; weight=4; penwidth=0.3; color = 3]
+	"configuration_25122" -> "core_25130" [label=4; weight=4; penwidth=0.3; color = 3]
+	"configuration_25122" -> "annotation_25103" [label=4; weight=4; penwidth=0.3; color = 3]
+	"eventhandling_25102" -> "conversion_23485" [label=4; weight=4; penwidth=0.3; color = 3]
+	"jpa_25116" -> "token_25111" [label=4; weight=4; penwidth=0.3; color = 3]
 	"micrometer_23147" -> "configuration_8894" [label=4; weight=4; penwidth=0.3; color = 3]
 	"query_4130" -> "api_4131" [label=4; weight=4; penwidth=0.3; color = 3]
-	"reflection_17514" -> "unitofwork_25137" [label=4; weight=4; penwidth=0.3; color = 3]
-	"replay_25102" -> "conversion_23483" [label=4; weight=4; penwidth=0.3; color = 3]
+	"reflection_17516" -> "unitofwork_25139" [label=4; weight=4; penwidth=0.3; color = 3]
+	"replay_25104" -> "conversion_23485" [label=4; weight=4; penwidth=0.3; color = 3]
 	"shared_4127" -> "modelling_19" [label=4; weight=4; penwidth=0.3; color = 3]
-	"subscribing_25117" -> "unitofwork_25137" [label=4; weight=4; penwidth=0.3; color = 3]
-	"tracing_25119" -> "core_25128" [label=4; weight=4; penwidth=0.3; color = 3]
-	"annotation_20" -> "configuration_8894" [label=3; weight=3; penwidth=0.3; color = 3]
-	"child_23" -> "commandhandling_25093" [label=3; weight=3; penwidth=0.3; color = 3]
-	"commandhandling_25093" -> "unitofwork_25137" [label=3; weight=3; penwidth=0.3; color = 3]
-	"configuration_17523" -> "modelling_19" [label=3; weight=3; penwidth=0.3; color = 3]
-	"configuration_17523" -> "core_25128" [label=3; weight=3; penwidth=0.3; color = 3]
-	"configuration_25092" -> "core_25128" [label=3; weight=3; penwidth=0.3; color = 3]
-	"eventstore_17520" -> "token_25109" [label=3; weight=3; penwidth=0.3; color = 3]
-	"inmemory_25112" -> "unitofwork_25137" [label=3; weight=3; penwidth=0.3; color = 3]
-	"jdbc_25113" -> "unitofwork_25137" [label=3; weight=3; penwidth=0.3; color = 3]
-	"jpa_25114" -> "unitofwork_25137" [label=3; weight=3; penwidth=0.3; color = 3]
-	"replay_25102" -> "eventhandling_25100" [label=3; weight=3; penwidth=0.3; color = 3]
-	"shared_4127" -> "core_25128" [label=3; weight=3; penwidth=0.3; color = 3]
-	"store_25111" -> "unitofwork_25137" [label=3; weight=3; penwidth=0.3; color = 3]
-	"store_25111" -> "token_25109" [label=3; weight=3; penwidth=0.3; color = 3]
-	"annotation_22" -> "unitofwork_25137" [label=2; weight=2; penwidth=0.3; color = 3]
+	"subscribing_25119" -> "unitofwork_25139" [label=4; weight=4; penwidth=0.3; color = 3]
+	"tracing_25121" -> "core_25130" [label=4; weight=4; penwidth=0.3; color = 3]
+	"child_23" -> "commandhandling_25095" [label=3; weight=3; penwidth=0.3; color = 3]
+	"commandhandling_25095" -> "unitofwork_25139" [label=3; weight=3; penwidth=0.3; color = 3]
+	"configuration_17525" -> "core_25130" [label=3; weight=3; penwidth=0.3; color = 3]
+	"configuration_17525" -> "modelling_19" [label=3; weight=3; penwidth=0.3; color = 3]
+	"configuration_25094" -> "core_25130" [label=3; weight=3; penwidth=0.3; color = 3]
+	"eventstore_17522" -> "token_25111" [label=3; weight=3; penwidth=0.3; color = 3]
+	"inmemory_25114" -> "unitofwork_25139" [label=3; weight=3; penwidth=0.3; color = 3]
+	"jdbc_25115" -> "unitofwork_25139" [label=3; weight=3; penwidth=0.3; color = 3]
+	"jpa_25116" -> "unitofwork_25139" [label=3; weight=3; penwidth=0.3; color = 3]
+	"replay_25104" -> "eventhandling_25102" [label=3; weight=3; penwidth=0.3; color = 3]
+	"shared_4127" -> "core_25130" [label=3; weight=3; penwidth=0.3; color = 3]
+	"store_25113" -> "token_25111" [label=3; weight=3; penwidth=0.3; color = 3]
+	"store_25113" -> "unitofwork_25139" [label=3; weight=3; penwidth=0.3; color = 3]
 	"annotation_22" -> "modelling_19" [label=2; weight=2; penwidth=0.3; color = 3]
-	"annotation_17513" -> "configuration_8894" [label=2; weight=2; penwidth=0.3; color = 3]
-	"annotation_20" -> "annotation_22" [label=2; weight=2; penwidth=0.3; color = 3]
-	"child_23" -> "unitofwork_25137" [label=2; weight=2; penwidth=0.3; color = 3]
-	"configuration_17523" -> "commandhandling_25093" [label=2; weight=2; penwidth=0.3; color = 3]
-	"configuration_17523" -> "eventhandling_25100" [label=2; weight=2; penwidth=0.3; color = 3]
-	"configuration_25092" -> "eventhandling_25100" [label=2; weight=2; penwidth=0.3; color = 3]
-	"configuration_25092" -> "commandhandling_25093" [label=2; weight=2; penwidth=0.3; color = 3]
-	"jdbc_25113" -> "conversion_23483" [label=2; weight=2; penwidth=0.3; color = 3]
-	"jpa_25114" -> "conversion_23483" [label=2; weight=2; penwidth=0.3; color = 3]
-	"matchers_14736" -> "core_25128" [label=2; weight=2; penwidth=0.3; color = 3]
-	"micrometer_23147" -> "eventhandling_25100" [label=2; weight=2; penwidth=0.3; color = 3]
-	"modelling_19" -> "unitofwork_25137" [label=2; weight=2; penwidth=0.3; color = 3]
-	"modelling_19" -> "annotation_20" [label=2; weight=2; penwidth=0.3; color = 3]
+	"annotation_22" -> "unitofwork_25139" [label=2; weight=2; penwidth=0.3; color = 3]
+	"annotation_17515" -> "configuration_8894" [label=2; weight=2; penwidth=0.3; color = 3]
+	"annotation_25103" -> "annotation_25134" [label=2; weight=2; penwidth=0.3; color = 3]
+	"annotation_25103" -> "replay_25104" [label=2; weight=2; penwidth=0.3; color = 3]
+	"child_23" -> "unitofwork_25139" [label=2; weight=2; penwidth=0.3; color = 3]
+	"configuration_17525" -> "eventhandling_25102" [label=2; weight=2; penwidth=0.3; color = 3]
+	"configuration_17525" -> "commandhandling_25095" [label=2; weight=2; penwidth=0.3; color = 3]
+	"configuration_25094" -> "commandhandling_25095" [label=2; weight=2; penwidth=0.3; color = 3]
+	"configuration_25094" -> "eventhandling_25102" [label=2; weight=2; penwidth=0.3; color = 3]
+	"jdbc_25115" -> "conversion_23485" [label=2; weight=2; penwidth=0.3; color = 3]
+	"jpa_25116" -> "conversion_23485" [label=2; weight=2; penwidth=0.3; color = 3]
+	"matchers_14384" -> "core_25130" [label=2; weight=2; penwidth=0.3; color = 3]
+	"micrometer_23147" -> "eventhandling_25102" [label=2; weight=2; penwidth=0.3; color = 3]
+	"modelling_19" -> "unitofwork_25139" [label=2; weight=2; penwidth=0.3; color = 3]
 	"modelling_19" -> "configuration_8894" [label=2; weight=2; penwidth=0.3; color = 3]
-	"pooled_25115" -> "replay_25102" [label=2; weight=2; penwidth=0.3; color = 3]
-	"pooled_25115" -> "inmemory_25112" [label=2; weight=2; penwidth=0.3; color = 3]
-	"shared_4127" -> "eventstore_17520" [label=2; weight=2; penwidth=0.3; color = 3]
-	"unitofwork_25137" -> "configuration_8894" [label=2; weight=2; penwidth=0.3; color = 3]
-	"annotation_22" -> "eventhandling_25100" [label=1; weight=1; penwidth=0.3; color = 3]
+	"pooled_25117" -> "inmemory_25114" [label=2; weight=2; penwidth=0.3; color = 3]
+	"pooled_25117" -> "replay_25104" [label=2; weight=2; penwidth=0.3; color = 3]
+	"shared_4127" -> "eventstore_17522" [label=2; weight=2; penwidth=0.3; color = 3]
+	"unitofwork_25139" -> "configuration_8894" [label=2; weight=2; penwidth=0.3; color = 3]
+	"annotation_22" -> "eventhandling_25102" [label=1; weight=1; penwidth=0.3; color = 3]
 }
