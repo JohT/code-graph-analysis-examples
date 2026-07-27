@@ -24,12 +24,12 @@ strict digraph TopAuthority1 {
 	"routes_13749"  [shape = "circle"; height=2; label = "routes\n(48.73%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "routes_13749" [label=4340; weight=4340; penwidth=2.9; color = 5];
 	"generate_13766" -> "config_13759" [label=288; weight=288; penwidth=0.3; color = 3]
 	"virtual-route-config_13801" -> "routes_13749" [label=146; weight=146; penwidth=0.3; color = 3]
-	"plugin_13783" -> "styles_13790" [label=40; weight=40; penwidth=0.3; color = 3]
 	"plugin_13783" -> "resolve-relative-route-file-path_13787" [label=40; weight=40; penwidth=0.3; color = 3]
+	"plugin_13783" -> "styles_13790" [label=40; weight=40; penwidth=0.3; color = 3]
 	"plugin_13783" -> "config_13759" [label=30; weight=30; penwidth=0.3; color = 3]
 	"plugin_13799" -> "config_13759" [label=18; weight=18; penwidth=0.3; color = 3]
-	"plugin_13799" -> "plugin_13783" [label=8; weight=8; penwidth=0.3; color = 3]
 	"plugin_13799" -> "resolve-relative-route-file-path_13787" [label=8; weight=8; penwidth=0.3; color = 3]
 	"plugin_13799" -> "virtual-route-config_13801" [label=8; weight=8; penwidth=0.3; color = 3]
+	"plugin_13799" -> "plugin_13783" [label=8; weight=8; penwidth=0.3; color = 3]
 	"styles_13790" -> "plugin_13783" [label=8; weight=8; penwidth=0.3; color = 3]
 }

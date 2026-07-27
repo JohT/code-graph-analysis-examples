@@ -15,11 +15,11 @@ strict digraph TopBottleneck5 {
 	graph   [label="Top Rank #5 Typescript Module Bottleneck\n/home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.18.1/source/react-router-7.18.1/packages/react-router/dom-export.ts\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: Betweenness centrality\nthick outline: > 90% percentile of Betweenness centrality\n\n"];
 	central [label="🔒 bottleneck #5\ndom-export"];
 	"server_97958"  [label = "server\n(112.0)"; penwidth = 2; ]; "server_97958" -> central [label=78; weight=78; penwidth=0.4];
-	"react-router_97929"  [label = "react-router\n(298.5)"; penwidth = 2; ]; "react-router_97929" -> central [label=1; weight=1; penwidth=0.4];
 	"react-router_97930"  [label = "react-router\n(1195.33)"; penwidth = 5; ]; "react-router_97930" -> central [label=1; weight=1; penwidth=0.4];
+	"react-router_97929"  [label = "react-router\n(298.5)"; penwidth = 2; ]; "react-router_97929" -> central [label=1; weight=1; penwidth=0.4];
 	"browser_97959"  [label = "browser\n(0.0)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "browser_97959" [label=1; weight=1; penwidth=0.4; color = 5];
-	"react-router_97929"  [label = "react-router\n(298.5)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "react-router_97929" [label=1; weight=1; penwidth=0.4; color = 5];
 	"react-router_97930"  [label = "react-router\n(1195.33)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "react-router_97930" [label=1; weight=1; penwidth=0.4; color = 5];
+	"react-router_97929"  [label = "react-router\n(298.5)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "react-router_97929" [label=1; weight=1; penwidth=0.4; color = 5];
 	"server_97958"  [label = "server\n(112.0)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "server_97958" [label=1; weight=1; penwidth=0.4; color = 5];
 	"server_97958" -> "react-router_97930" [label=280; weight=280; penwidth=0.3; color = 3]
 	"server_97958" -> "react-router_97929" [label=40; weight=40; penwidth=0.3; color = 3]

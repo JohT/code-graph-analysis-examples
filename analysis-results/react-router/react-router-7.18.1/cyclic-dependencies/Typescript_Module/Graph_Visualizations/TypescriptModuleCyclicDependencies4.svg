@@ -20,13 +20,13 @@
 <text xml:space="preserve" text-anchor="middle" x="137.9" y="-173.25" font-family="Helvetica,Arial,sans-serif" font-size="14.00">./index.ts</text>
 </g>
 <!-- callRouteHandler&#45;&gt;ActionFunction -->
-<g id="edge3" class="edge">
+<g id="edge2" class="edge">
 <title>callRouteHandler&#45;&gt;ActionFunction</title>
 <path fill="none" stroke="#6699cc" stroke-width="0.5" d="M69.6,-254.23C34.62,-186.27 33.15,-174.47 54.53,-98.55"/>
 <polygon fill="#6699cc" stroke="#6699cc" stroke-width="0.5" points="56.43,-99.55 56.04,-93.21 52.39,-98.41 56.43,-99.55"/>
 </g>
 <!-- callRouteHandler&#45;&gt;DataWithResponseInit -->
-<g id="edge2" class="edge">
+<g id="edge3" class="edge">
 <title>callRouteHandler&#45;&gt;DataWithResponseInit</title>
 <path fill="none" stroke="#6699cc" stroke-width="0.5" d="M70.34,-254.15C55.06,-220.92 54.93,-209.66 67.31,-156.67"/>
 <polygon fill="#6699cc" stroke="#6699cc" stroke-width="0.5" points="69.29,-157.41 68.62,-151.09 65.21,-156.45 69.29,-157.41"/>
