@@ -12,17 +12,11 @@ strict digraph TopBridge2 {
     central [fontsize = 16;];
     central [color = 7; fillcolor = 5; penwidth = 3;];
 
-	graph   [label="Top Rank #2 Java Type Bridge\norg.axonframework.eventsourcing.eventstore.SourcingStrategy\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
-	central [label="🌉 bridge #2\nSourcingStrategy"];
-	"DefaultSourcingCondition_7351" [label = "DefaultSourcingCondition"; ]; "DefaultSourcingCondition_7351" -> central [label=4; weight=4; penwidth=0.5];
-	"SourcingStrategy$Absolute_6294" [label = "SourcingStrategy$\nAbsolute"; ]; "SourcingStrategy$Absolute_6294" -> central [label=3; weight=3; penwidth=0.4];
-	"SourcingStrategy$Snapshot_6293" [label = "SourcingStrategy$\nSnapshot"; ]; "SourcingStrategy$Snapshot_6293" -> central [label=3; weight=3; penwidth=0.4];
-	"SourcingCondition_5514" [label = "SourcingCondition"; ]; "SourcingCondition_5514" -> central [label=2; weight=2; penwidth=0.4];
-	"SourcingStrategy$Absolute_6294" [label = "SourcingStrategy$\nAbsolute"; color = 5; fillcolor = 1; ]; central -> "SourcingStrategy$Absolute_6294" [label=1; weight=1; penwidth=0.4; color = 5];
-	"SourcingStrategy$Snapshot_6293" [label = "SourcingStrategy$\nSnapshot"; color = 5; fillcolor = 1; ]; central -> "SourcingStrategy$Snapshot_6293" [label=1; weight=1; penwidth=0.4; color = 5];
-	"DefaultSourcingCondition_7351" -> "SourcingCondition_5514" [label=5; weight=5; penwidth=0.3; color = 3]
-	"SourcingCondition_5514" -> "SourcingStrategy$Absolute_6294" [label=5; weight=5; penwidth=0.3; color = 3]
-	"SourcingCondition_5514" -> "DefaultSourcingCondition_7351" [label=4; weight=4; penwidth=0.3; color = 3]
-	"DefaultSourcingCondition_7351" -> "SourcingStrategy$Absolute_6294" [label=3; weight=3; penwidth=0.3; color = 3]
-	"SourcingStrategy$Absolute_6294" -> "SourcingStrategy$Snapshot_6293" [label=2; weight=2; penwidth=0.3; color = 3]
+	graph   [label="Top Rank #2 Java Type Bridge\norg.axonframework.common.TypeReflectionUtils$VarMap$ParameterizedTypeImpl\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
+	central [label="🌉 bridge #2\nTypeReflectionUtils$VarMap$ParameterizedTypeImpl"];
+	"TypeReflectionUtils$VarMap_8986" [label = "TypeReflectionUtils$\nVarMap"; ]; "TypeReflectionUtils$VarMap_8986" -> central [label=3; weight=3; penwidth=0.4];
+	"TypeReflectionUtils_10167" [label = "TypeReflectionUtils"; ]; "TypeReflectionUtils_10167" -> central [label=1; weight=1; penwidth=0.4];
+	"TypeReflectionUtils$VarMap_8986" [label = "TypeReflectionUtils$\nVarMap"; color = 5; fillcolor = 1; ]; central -> "TypeReflectionUtils$VarMap_8986" [label=1; weight=1; penwidth=0.4; color = 5];
+	"TypeReflectionUtils_10167" -> "TypeReflectionUtils$VarMap_8986" [label=5; weight=5; penwidth=0.3; color = 3]
+	"TypeReflectionUtils$VarMap_8986" -> "TypeReflectionUtils_10167" [label=2; weight=2; penwidth=0.3; color = 3]
 }

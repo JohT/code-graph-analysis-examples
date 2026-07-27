@@ -14,54 +14,54 @@ strict digraph TopAuthority4 {
 
 	graph   [label="Top Rank #4 Java Type Authority\norg.axonframework.common.infra.ComponentDescriptor\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: Page Rank (normalized)\nlarge circle: > 80% percentile of Page Rank\nthick outline: > 80% percentile of Page Rank to Article Rank Difference\n\n"];
 	central [label="🏛️ authority #4\nComponentDescriptor"];
-	"PooledStreamingEventProcessorConfiguration_29445"  [label = "PooledStreamingEventProcessorConfiguration\n(0.44%)"; penwidth = 2; ]; "PooledStreamingEventProcessorConfiguration_29445" -> central [label=17; weight=17; penwidth=0.7];
-	"SnapshottingEntityLifecycleHandler_6291"  [label = "SnapshottingEntityLifecycleHandler\n(0.01%)"; penwidth = 5; ]; "SnapshottingEntityLifecycleHandler_6291" -> central [label=9; weight=9; penwidth=0.5];
-	"ConcreteEntityMetamodel_13652"  [label = "ConcreteEntityMetamodel\n(0.08%)"; penwidth = 2; ]; "ConcreteEntityMetamodel_13652" -> central [label=8; weight=8; penwidth=0.5];
-	"PooledStreamingEventProcessor_29806"  [label = "PooledStreamingEventProcessor\n(0.01%)"; penwidth = 2; ]; "PooledStreamingEventProcessor_29806" -> central [label=8; weight=8; penwidth=0.5];
-	"DefaultComponentRegistry_19498"  [label = "DefaultComponentRegistry\n(0.21%)"; penwidth = 2; ]; "DefaultComponentRegistry_19498" -> central [label=7; weight=7; penwidth=0.5];
-	"FieldChildEntityFieldDefinition_13365"  [label = "FieldChildEntityFieldDefinition\n(0.66%)"; penwidth = 5; ]; "FieldChildEntityFieldDefinition_13365" -> central [label=6; weight=6; penwidth=0.5];
-	"SimpleEventHandlingComponent_25877"  [label = "SimpleEventHandlingComponent\n(0.03%)"; penwidth = 2; ]; "SimpleEventHandlingComponent_25877" -> central [label=6; weight=6; penwidth=0.5];
-	"SubscribingEventProcessor_32530"  [label = "SubscribingEventProcessor\n(0.07%)"; penwidth = 2; ]; "SubscribingEventProcessor_32530" -> central [label=6; weight=6; penwidth=0.5];
-	"AggregateBasedJpaEventStorageEngine_7117"  [label = "AggregateBasedJpaEventStorageEngine\n(0.13%)"; penwidth = 2; ]; "AggregateBasedJpaEventStorageEngine_7117" -> central [label=5; weight=5; penwidth=0.5];
-	"AnnotatedCommandHandlingComponent_25215"  [label = "AnnotatedCommandHandlingComponent\n(0.03%)"; penwidth = 2; ]; "AnnotatedCommandHandlingComponent_25215" -> central [label=5; weight=5; penwidth=0.5];
-	"AnnotatedEntityIdResolver_12441"  [label = "AnnotatedEntityIdResolver\n(0.05%)"; penwidth = 2; ]; "AnnotatedEntityIdResolver_12441" -> central [label=5; weight=5; penwidth=0.5];
-	"AnnotatedEventHandlingComponent_26309"  [label = "AnnotatedEventHandlingComponent\n(0.06%)"; penwidth = 2; ]; "AnnotatedEventHandlingComponent_26309" -> central [label=5; weight=5; penwidth=0.5];
-	"AnnotatedQueryHandlingComponent_33623"  [label = "AnnotatedQueryHandlingComponent\n(0.03%)"; penwidth = 2; ]; "AnnotatedQueryHandlingComponent_33623" -> central [label=5; weight=5; penwidth=0.5];
-	"AnnotationBasedEventCriteriaResolver_5233"  [label = "AnnotationBasedEventCriteriaResolver\n(0.19%)"; penwidth = 2; ]; "AnnotationBasedEventCriteriaResolver_5233" -> central [label=5; weight=5; penwidth=0.5];
-	"DefaultCommandGateway_25244"  [label = "DefaultCommandGateway\n(0.0%)"; penwidth = 5; ]; "DefaultCommandGateway_25244" -> central [label=5; weight=5; penwidth=0.5];
-	"DefaultDispatchInterceptorRegistry_38773"  [label = "DefaultDispatchInterceptorRegistry\n(0.26%)"; penwidth = 2; ]; "DefaultDispatchInterceptorRegistry_38773" -> central [label=5; weight=5; penwidth=0.5];
-	"DefaultMessageMonitorRegistry_24159"  [label = "DefaultMessageMonitorRegistry\n(0.27%)"; penwidth = 2; ]; "DefaultMessageMonitorRegistry_24159" -> central [label=5; weight=5; penwidth=0.5];
-	"InterceptingQueryBus_32925"  [label = "InterceptingQueryBus\n(0.0%)"; penwidth = 5; ]; "InterceptingQueryBus_32925" -> central [label=5; weight=5; penwidth=0.5];
-	"SimpleQueryUpdateEmitter_34600"  [label = "SimpleQueryUpdateEmitter\n(0.04%)"; penwidth = 2; ]; "SimpleQueryUpdateEmitter_34600" -> central [label=5; weight=5; penwidth=0.5];
-	"SimpleRepository_14144"  [label = "SimpleRepository\n(0.21%)"; penwidth = 2; ]; "SimpleRepository_14144" -> central [label=5; weight=5; penwidth=0.5];
-	"AbstractComponent_20095"  [label = "AbstractComponent\n(0.26%)"; penwidth = 2; ]; "AbstractComponent_20095" -> central [label=4; weight=4; penwidth=0.5];
-	"AxonServerCommandBusConnector_2169"  [label = "AxonServerCommandBusConnector\n(0.14%)"; penwidth = 2; ]; "AxonServerCommandBusConnector_2169" -> central [label=4; weight=4; penwidth=0.5];
-	"AxonServerQueryBusConnector_1035"  [label = "AxonServerQueryBusConnector\n(0.2%)"; penwidth = 2; ]; "AxonServerQueryBusConnector_1035" -> central [label=4; weight=4; penwidth=0.5];
-	"DecoratedComponent_21045"  [label = "DecoratedComponent\n(0.03%)"; penwidth = 2; ]; "DecoratedComponent_21045" -> central [label=4; weight=4; penwidth=0.5];
-	"DefaultHandlerInterceptorRegistry_38771"  [label = "DefaultHandlerInterceptorRegistry\n(0.22%)"; penwidth = 2; ]; "DefaultHandlerInterceptorRegistry_38771" -> central [label=4; weight=4; penwidth=0.5];
-	"DefaultQueryGateway_34599"  [label = "DefaultQueryGateway\n(0.0%)"; penwidth = 5; ]; "DefaultQueryGateway_34599" -> central [label=4; weight=4; penwidth=0.5];
-	"EntityCommandHandlingComponent_12369"  [label = "EntityCommandHandlingComponent\n(0.02%)"; penwidth = 2; ]; "EntityCommandHandlingComponent_12369" -> central [label=4; weight=4; penwidth=0.5];
-	"EventProcessorConfiguration_28719"  [label = "EventProcessorConfiguration\n(0.75%)"; penwidth = 2; ]; "EventProcessorConfiguration_28719" -> central [label=4; weight=4; penwidth=0.5];
-	"EventSourcingRepository_4230"  [label = "EventSourcingRepository\n(0.01%)"; penwidth = 5; ]; "EventSourcingRepository_4230" -> central [label=4; weight=4; penwidth=0.5];
-	"InMemoryRepository_14747"  [label = "InMemoryRepository\n(0.0%)"; penwidth = 5; ]; "InMemoryRepository_14747" -> central [label=4; weight=4; penwidth=0.5];
-	"InterceptingCommandBus_25118"  [label = "InterceptingCommandBus\n(0.0%)"; penwidth = 5; ]; "InterceptingCommandBus_25118" -> central [label=4; weight=4; penwidth=0.5];
-	"InterceptingEventBus_32537"  [label = "InterceptingEventBus\n(0.04%)"; penwidth = 2; ]; "InterceptingEventBus_32537" -> central [label=4; weight=4; penwidth=0.5];
-	"InterceptingEventStore_7112"  [label = "InterceptingEventStore\n(0.04%)"; penwidth = 2; ]; "InterceptingEventStore_7112" -> central [label=4; weight=4; penwidth=0.5];
-	"PolymorphicEntityMetamodel_13644"  [label = "PolymorphicEntityMetamodel\n(0.08%)"; penwidth = 2; ]; "PolymorphicEntityMetamodel_13644" -> central [label=4; weight=4; penwidth=0.5];
-	"ProcessingContextEventAppender_28262"  [label = "ProcessingContextEventAppender\n(0.08%)"; penwidth = 2; ]; "ProcessingContextEventAppender_28262" -> central [label=4; weight=4; penwidth=0.5];
-	"RecordingCommandBus_44843"  [label = "RecordingCommandBus\n(0.02%)"; penwidth = 2; ]; "RecordingCommandBus_44843" -> central [label=4; weight=4; penwidth=0.5];
-	"SimpleCommandHandlingComponent_25126"  [label = "SimpleCommandHandlingComponent\n(0.05%)"; penwidth = 2; ]; "SimpleCommandHandlingComponent_25126" -> central [label=4; weight=4; penwidth=0.5];
-	"SimpleEntityLifecycleHandler_4285"  [label = "SimpleEntityLifecycleHandler\n(0.02%)"; penwidth = 2; ]; "SimpleEntityLifecycleHandler_4285" -> central [label=4; weight=4; penwidth=0.5];
-	"SimpleQueryBus_34602"  [label = "SimpleQueryBus\n(0.0%)"; penwidth = 5; ]; "SimpleQueryBus_34602" -> central [label=4; weight=4; penwidth=0.5];
-	"SimpleQueryHandlingComponent_32919"  [label = "SimpleQueryHandlingComponent\n(0.05%)"; penwidth = 2; ]; "SimpleQueryHandlingComponent_32919" -> central [label=4; weight=4; penwidth=0.5];
-	"PooledStreamingEventProcessor_29806" -> "PooledStreamingEventProcessorConfiguration_29445" [label=29; weight=29; penwidth=0.3; color = 3]
-	"PooledStreamingEventProcessorConfiguration_29445" -> "EventProcessorConfiguration_28719" [label=15; weight=15; penwidth=0.3; color = 3]
-	"AnnotatedEventHandlingComponent_26309" -> "SimpleEventHandlingComponent_25877" [label=14; weight=14; penwidth=0.3; color = 3]
-	"InMemoryRepository_14747" -> "SimpleRepository_14144" [label=9; weight=9; penwidth=0.3; color = 3]
-	"AnnotatedCommandHandlingComponent_25215" -> "SimpleCommandHandlingComponent_25126" [label=5; weight=5; penwidth=0.3; color = 3]
-	"AnnotatedQueryHandlingComponent_33623" -> "SimpleQueryHandlingComponent_32919" [label=5; weight=5; penwidth=0.3; color = 3]
-	"DecoratedComponent_21045" -> "AbstractComponent_20095" [label=4; weight=4; penwidth=0.3; color = 3]
-	"InterceptingEventStore_7112" -> "InterceptingEventBus_32537" [label=4; weight=4; penwidth=0.3; color = 3]
-	"EventSourcingRepository_4230" -> "SimpleEntityLifecycleHandler_4285" [label=2; weight=2; penwidth=0.3; color = 3]
-	"PooledStreamingEventProcessorConfiguration_29445" -> "PooledStreamingEventProcessor_29806" [label=2; weight=2; penwidth=0.3; color = 3]
+	"PooledStreamingEventProcessorConfiguration_31438"  [label = "PooledStreamingEventProcessorConfiguration\n(0.44%)"; penwidth = 2; ]; "PooledStreamingEventProcessorConfiguration_31438" -> central [label=17; weight=17; penwidth=0.7];
+	"SnapshottingEntityLifecycleHandler_18893"  [label = "SnapshottingEntityLifecycleHandler\n(0.01%)"; penwidth = 5; ]; "SnapshottingEntityLifecycleHandler_18893" -> central [label=9; weight=9; penwidth=0.5];
+	"ConcreteEntityMetamodel_2001"  [label = "ConcreteEntityMetamodel\n(0.08%)"; penwidth = 2; ]; "ConcreteEntityMetamodel_2001" -> central [label=8; weight=8; penwidth=0.5];
+	"PooledStreamingEventProcessor_31412"  [label = "PooledStreamingEventProcessor\n(0.01%)"; penwidth = 2; ]; "PooledStreamingEventProcessor_31412" -> central [label=8; weight=8; penwidth=0.5];
+	"DefaultComponentRegistry_11691"  [label = "DefaultComponentRegistry\n(0.21%)"; penwidth = 2; ]; "DefaultComponentRegistry_11691" -> central [label=7; weight=7; penwidth=0.5];
+	"FieldChildEntityFieldDefinition_2077"  [label = "FieldChildEntityFieldDefinition\n(0.66%)"; penwidth = 5; ]; "FieldChildEntityFieldDefinition_2077" -> central [label=6; weight=6; penwidth=0.5];
+	"SimpleEventHandlingComponent_27789"  [label = "SimpleEventHandlingComponent\n(0.03%)"; penwidth = 2; ]; "SimpleEventHandlingComponent_27789" -> central [label=6; weight=6; penwidth=0.5];
+	"SubscribingEventProcessor_33597"  [label = "SubscribingEventProcessor\n(0.07%)"; penwidth = 2; ]; "SubscribingEventProcessor_33597" -> central [label=6; weight=6; penwidth=0.5];
+	"AggregateBasedJpaEventStorageEngine_21027"  [label = "AggregateBasedJpaEventStorageEngine\n(0.13%)"; penwidth = 2; ]; "AggregateBasedJpaEventStorageEngine_21027" -> central [label=5; weight=5; penwidth=0.5];
+	"AnnotatedCommandHandlingComponent_26242"  [label = "AnnotatedCommandHandlingComponent\n(0.03%)"; penwidth = 2; ]; "AnnotatedCommandHandlingComponent_26242" -> central [label=5; weight=5; penwidth=0.5];
+	"AnnotatedEntityIdResolver_275"  [label = "AnnotatedEntityIdResolver\n(0.05%)"; penwidth = 2; ]; "AnnotatedEntityIdResolver_275" -> central [label=5; weight=5; penwidth=0.5];
+	"AnnotatedEventHandlingComponent_28391"  [label = "AnnotatedEventHandlingComponent\n(0.06%)"; penwidth = 2; ]; "AnnotatedEventHandlingComponent_28391" -> central [label=5; weight=5; penwidth=0.5];
+	"AnnotatedQueryHandlingComponent_35640"  [label = "AnnotatedQueryHandlingComponent\n(0.03%)"; penwidth = 2; ]; "AnnotatedQueryHandlingComponent_35640" -> central [label=5; weight=5; penwidth=0.5];
+	"AnnotationBasedEventCriteriaResolver_18894"  [label = "AnnotationBasedEventCriteriaResolver\n(0.19%)"; penwidth = 2; ]; "AnnotationBasedEventCriteriaResolver_18894" -> central [label=5; weight=5; penwidth=0.5];
+	"DefaultCommandGateway_27329"  [label = "DefaultCommandGateway\n(0.0%)"; penwidth = 5; ]; "DefaultCommandGateway_27329" -> central [label=5; weight=5; penwidth=0.5];
+	"DefaultDispatchInterceptorRegistry_39719"  [label = "DefaultDispatchInterceptorRegistry\n(0.26%)"; penwidth = 2; ]; "DefaultDispatchInterceptorRegistry_39719" -> central [label=5; weight=5; penwidth=0.5];
+	"DefaultMessageMonitorRegistry_26074"  [label = "DefaultMessageMonitorRegistry\n(0.27%)"; penwidth = 2; ]; "DefaultMessageMonitorRegistry_26074" -> central [label=5; weight=5; penwidth=0.5];
+	"InterceptingQueryBus_35626"  [label = "InterceptingQueryBus\n(0.0%)"; penwidth = 5; ]; "InterceptingQueryBus_35626" -> central [label=5; weight=5; penwidth=0.5];
+	"SimpleQueryUpdateEmitter_36723"  [label = "SimpleQueryUpdateEmitter\n(0.04%)"; penwidth = 2; ]; "SimpleQueryUpdateEmitter_36723" -> central [label=5; weight=5; penwidth=0.5];
+	"SimpleRepository_2732"  [label = "SimpleRepository\n(0.21%)"; penwidth = 2; ]; "SimpleRepository_2732" -> central [label=5; weight=5; penwidth=0.5];
+	"AbstractComponent_11696"  [label = "AbstractComponent\n(0.26%)"; penwidth = 2; ]; "AbstractComponent_11696" -> central [label=4; weight=4; penwidth=0.5];
+	"AxonServerCommandBusConnector_6868"  [label = "AxonServerCommandBusConnector\n(0.14%)"; penwidth = 2; ]; "AxonServerCommandBusConnector_6868" -> central [label=4; weight=4; penwidth=0.5];
+	"AxonServerQueryBusConnector_5037"  [label = "AxonServerQueryBusConnector\n(0.2%)"; penwidth = 2; ]; "AxonServerQueryBusConnector_5037" -> central [label=4; weight=4; penwidth=0.5];
+	"DecoratedComponent_13093"  [label = "DecoratedComponent\n(0.03%)"; penwidth = 2; ]; "DecoratedComponent_13093" -> central [label=4; weight=4; penwidth=0.5];
+	"DefaultHandlerInterceptorRegistry_39718"  [label = "DefaultHandlerInterceptorRegistry\n(0.22%)"; penwidth = 2; ]; "DefaultHandlerInterceptorRegistry_39718" -> central [label=4; weight=4; penwidth=0.5];
+	"DefaultQueryGateway_35634"  [label = "DefaultQueryGateway\n(0.0%)"; penwidth = 5; ]; "DefaultQueryGateway_35634" -> central [label=4; weight=4; penwidth=0.5];
+	"EntityCommandHandlingComponent_961"  [label = "EntityCommandHandlingComponent\n(0.02%)"; penwidth = 2; ]; "EntityCommandHandlingComponent_961" -> central [label=4; weight=4; penwidth=0.5];
+	"EventProcessorConfiguration_31405"  [label = "EventProcessorConfiguration\n(0.75%)"; penwidth = 2; ]; "EventProcessorConfiguration_31405" -> central [label=4; weight=4; penwidth=0.5];
+	"EventSourcingRepository_17524"  [label = "EventSourcingRepository\n(0.01%)"; penwidth = 5; ]; "EventSourcingRepository_17524" -> central [label=4; weight=4; penwidth=0.5];
+	"InMemoryRepository_3141"  [label = "InMemoryRepository\n(0.0%)"; penwidth = 5; ]; "InMemoryRepository_3141" -> central [label=4; weight=4; penwidth=0.5];
+	"InterceptingCommandBus_27338"  [label = "InterceptingCommandBus\n(0.0%)"; penwidth = 5; ]; "InterceptingCommandBus_27338" -> central [label=4; weight=4; penwidth=0.5];
+	"InterceptingEventBus_34674"  [label = "InterceptingEventBus\n(0.04%)"; penwidth = 2; ]; "InterceptingEventBus_34674" -> central [label=4; weight=4; penwidth=0.5];
+	"InterceptingEventStore_21022"  [label = "InterceptingEventStore\n(0.04%)"; penwidth = 2; ]; "InterceptingEventStore_21022" -> central [label=4; weight=4; penwidth=0.5];
+	"PolymorphicEntityMetamodel_294"  [label = "PolymorphicEntityMetamodel\n(0.08%)"; penwidth = 2; ]; "PolymorphicEntityMetamodel_294" -> central [label=4; weight=4; penwidth=0.5];
+	"ProcessingContextEventAppender_29374"  [label = "ProcessingContextEventAppender\n(0.08%)"; penwidth = 2; ]; "ProcessingContextEventAppender_29374" -> central [label=4; weight=4; penwidth=0.5];
+	"RecordingCommandBus_15544"  [label = "RecordingCommandBus\n(0.02%)"; penwidth = 2; ]; "RecordingCommandBus_15544" -> central [label=4; weight=4; penwidth=0.5];
+	"SimpleCommandHandlingComponent_26154"  [label = "SimpleCommandHandlingComponent\n(0.05%)"; penwidth = 2; ]; "SimpleCommandHandlingComponent_26154" -> central [label=4; weight=4; penwidth=0.5];
+	"SimpleEntityLifecycleHandler_17579"  [label = "SimpleEntityLifecycleHandler\n(0.02%)"; penwidth = 2; ]; "SimpleEntityLifecycleHandler_17579" -> central [label=4; weight=4; penwidth=0.5];
+	"SimpleQueryBus_36725"  [label = "SimpleQueryBus\n(0.0%)"; penwidth = 5; ]; "SimpleQueryBus_36725" -> central [label=4; weight=4; penwidth=0.5];
+	"SimpleQueryHandlingComponent_35635"  [label = "SimpleQueryHandlingComponent\n(0.05%)"; penwidth = 2; ]; "SimpleQueryHandlingComponent_35635" -> central [label=4; weight=4; penwidth=0.5];
+	"PooledStreamingEventProcessor_31412" -> "PooledStreamingEventProcessorConfiguration_31438" [label=29; weight=29; penwidth=0.3; color = 3]
+	"PooledStreamingEventProcessorConfiguration_31438" -> "EventProcessorConfiguration_31405" [label=15; weight=15; penwidth=0.3; color = 3]
+	"AnnotatedEventHandlingComponent_28391" -> "SimpleEventHandlingComponent_27789" [label=14; weight=14; penwidth=0.3; color = 3]
+	"InMemoryRepository_3141" -> "SimpleRepository_2732" [label=9; weight=9; penwidth=0.3; color = 3]
+	"AnnotatedCommandHandlingComponent_26242" -> "SimpleCommandHandlingComponent_26154" [label=5; weight=5; penwidth=0.3; color = 3]
+	"AnnotatedQueryHandlingComponent_35640" -> "SimpleQueryHandlingComponent_35635" [label=5; weight=5; penwidth=0.3; color = 3]
+	"DecoratedComponent_13093" -> "AbstractComponent_11696" [label=4; weight=4; penwidth=0.3; color = 3]
+	"InterceptingEventStore_21022" -> "InterceptingEventBus_34674" [label=4; weight=4; penwidth=0.3; color = 3]
+	"EventSourcingRepository_17524" -> "SimpleEntityLifecycleHandler_17579" [label=2; weight=2; penwidth=0.3; color = 3]
+	"PooledStreamingEventProcessorConfiguration_31438" -> "PooledStreamingEventProcessor_31412" [label=2; weight=2; penwidth=0.3; color = 3]
 }

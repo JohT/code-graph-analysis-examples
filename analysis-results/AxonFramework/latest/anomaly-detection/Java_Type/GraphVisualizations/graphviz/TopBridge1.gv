@@ -12,15 +12,11 @@ strict digraph TopBridge1 {
     central [fontsize = 16;];
     central [color = 7; fillcolor = 5; penwidth = 3;];
 
-	graph   [label="Top Rank #1 Java Type Bridge\norg.axonframework.update.api.DetectedVulnerabilitySeverity\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
-	central [label="🌉 bridge #1\nDetectedVulnerabilitySeverity"];
-	"DetectedVulnerability_11494" [label = "DetectedVulnerability"; ]; "DetectedVulnerability_11494" -> central [label=3; weight=3; penwidth=0.4];
-	"UpdateCheckResponse_11491" [label = "UpdateCheckResponse"; ]; "UpdateCheckResponse_11491" -> central [label=3; weight=3; penwidth=0.4];
-	"LoggingUpdateCheckerReporter_10878" [label = "LoggingUpdateCheckerReporter"; ]; "LoggingUpdateCheckerReporter_10878" -> central [label=2; weight=2; penwidth=0.4];
-	"Internal_17891" [label = "Internal"; color = 5; fillcolor = 1; ]; central -> "Internal_17891" [label=1; weight=1; penwidth=0.4; color = 5];
-	"LoggingUpdateCheckerReporter_10878" -> "DetectedVulnerability_11494" [label=12; weight=12; penwidth=0.3; color = 3]
-	"LoggingUpdateCheckerReporter_10878" -> "UpdateCheckResponse_11491" [label=10; weight=10; penwidth=0.3; color = 3]
-	"UpdateCheckResponse_11491" -> "DetectedVulnerability_11494" [label=7; weight=7; penwidth=0.3; color = 3]
-	"DetectedVulnerability_11494" -> "Internal_17891" [label=1; weight=1; penwidth=0.3; color = 3]
-	"UpdateCheckResponse_11491" -> "Internal_17891" [label=1; weight=1; penwidth=0.3; color = 3]
+	graph   [label="Top Rank #1 Java Type Bridge\norg.axonframework.common.TypeReflectionUtils$VarMap$UnresolvedTypeVariableException\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
+	central [label="🌉 bridge #1\nTypeReflectionUtils$VarMap$UnresolvedTypeVariableException"];
+	"TypeReflectionUtils$VarMap_8986" [label = "TypeReflectionUtils$\nVarMap"; ]; "TypeReflectionUtils$VarMap_8986" -> central [label=3; weight=3; penwidth=0.4];
+	"TypeReflectionUtils_10167" [label = "TypeReflectionUtils"; ]; "TypeReflectionUtils_10167" -> central [label=1; weight=1; penwidth=0.4];
+	"TypeReflectionUtils$VarMap_8986" [label = "TypeReflectionUtils$\nVarMap"; color = 5; fillcolor = 1; ]; central -> "TypeReflectionUtils$VarMap_8986" [label=1; weight=1; penwidth=0.4; color = 5];
+	"TypeReflectionUtils_10167" -> "TypeReflectionUtils$VarMap_8986" [label=5; weight=5; penwidth=0.3; color = 3]
+	"TypeReflectionUtils$VarMap_8986" -> "TypeReflectionUtils_10167" [label=2; weight=2; penwidth=0.3; color = 3]
 }

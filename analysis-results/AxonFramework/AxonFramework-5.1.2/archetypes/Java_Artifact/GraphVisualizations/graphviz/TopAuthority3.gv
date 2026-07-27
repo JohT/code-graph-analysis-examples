@@ -14,5 +14,5 @@ strict digraph TopAuthority3 {
 
 	graph   [label="Top Rank #3 Java Artifact Authority\n/axon-update-5.1.2.jar\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: Page Rank (normalized)\nlarge circle: > 80% percentile of Page Rank\nthick outline: > 80% percentile of Page Rank to Article Rank Difference\n\n"];
 	central [label="🏛️ authority #3\naxon-update-5.1.2"];
-	"axon-common-5.1.2_16900"  [shape = "circle"; height=2; label = "axon-common-5.1.2\n(100.0%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "axon-common-5.1.2_16900" [label=54; weight=54; penwidth=0.5; color = 5];
+	"axon-common-5.1.2_8863"  [shape = "circle"; height=2; label = "axon-common-5.1.2\n(100.0%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "axon-common-5.1.2_8863" [label=54; weight=54; penwidth=0.5; color = 5];
 }

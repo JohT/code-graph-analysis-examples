@@ -22,9 +22,9 @@ strict digraph JavaArtifactLongestPathsIsolated {
 	"axon-server-connector-5.1.2\n(level 1/6)" -> "axon-eventsourcing-5.1.2\n(level 2/6)" [label=86; penwidth=1.43; ];
 	"axon-eventsourcing-5.1.2\n(level 2/6)" -> "axon-modelling-5.1.2\n(level 3/6)" [label=62; penwidth=1.31; ];
 	"axon-modelling-5.1.2\n(level 3/6)" -> "axon-messaging-5.1.2\n(level 4/6)" [label=312; penwidth=2.58; ];
-	"axoniq-spring-boot-autoconfigure-5.1.2\n(level 0/6)" -> "axon-server-connector-5.1.2\n(level 1/6)" [label=16; penwidth=1.07; ];
 	"axon-server-connector-5.1.2\n(level 1/6)" -> "axon-eventsourcing-5.1.2\n(level 2/6)" [label=86; penwidth=1.43; ];
 	"axon-eventsourcing-5.1.2\n(level 2/6)" -> "axon-modelling-5.1.2\n(level 3/6)" [label=62; penwidth=1.31; ];
 	"axoniq-spring-boot-autoconfigure-5.1.2\n(level 0/6)" -> "axon-server-connector-5.1.2\n(level 1/6)" [label=16; penwidth=1.07; ];
 	"axon-server-connector-5.1.2\n(level 1/6)" -> "axon-eventsourcing-5.1.2\n(level 2/6)" [label=86; penwidth=1.43; ];
+	"axoniq-spring-boot-autoconfigure-5.1.2\n(level 0/6)" -> "axon-server-connector-5.1.2\n(level 1/6)" [label=16; penwidth=1.07; ];
 }

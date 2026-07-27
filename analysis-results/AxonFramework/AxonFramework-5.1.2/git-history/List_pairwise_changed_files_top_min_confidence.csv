@@ -42,7 +42,7 @@
 "xml↔xml","pom","Example SpringBoot.run",5,0.5555555555555556,21.536796536796533,0.06172839506172839,0.0016750418760469012,"examples/pom.xml",".run/Example SpringBoot.run.xml",""
 "xml↔xml","pom","pom",7,0.5,106.60714285714286,0.3333333333333333,0.0023450586264656616,"examples/university-java-springboot-3/pom.xml","examples/university-java-springboot-4/pom.xml",""
 "xml↔xml","pom","pom",5,0.45454545454545453,10.201640464798361,0.03597122302158273,0.0016750418760469012,"extensions/spring/spring-boot-autoconfigure/pom.xml","extensions/reactor/axon-reactor/pom.xml",""
-"xml↔xml","pom","pom",6,0.42857142857142855,16.614100185528756,0.07058823529411765,0.0020100502512562816,"examples/pom.xml","examples/university-java-springboot-3/pom.xml",""
+"xml↔xml","pom","pom",6,0.42857142857142855,16.614100185528756,0.07058823529411765,0.0020100502512562816,"examples/university-java-springboot-3/pom.xml","examples/pom.xml",""
 "xml↔xml","pom","pom",6,0.42857142857142855,13.905279503105591,0.06,0.0020100502512562816,"examples/university-java-springboot-3/pom.xml","examples/university-java/pom.xml",""
 "xml↔xml","pom","pom",5,0.4166666666666667,18.563432835820894,0.06756756756756757,0.0016750418760469012,"axon-framework-bom/pom.xml","extensions/spring/spring-boot-starter-test/pom.xml",""
 "xml↔xml","pom","pom",4,0.36363636363636365,16.200814111261874,0.05405405405405406,0.001340033500837521,"axon-framework-bom/pom.xml","extensions/reactor/axon-reactor/pom.xml",""

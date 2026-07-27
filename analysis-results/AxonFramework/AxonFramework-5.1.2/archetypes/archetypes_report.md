@@ -54,7 +54,7 @@ The goal is to identify code that plays a distinctive structural role — such a
 | Archetype | Count | Max. Rank | Examples |
 | --- | --- | --- | --- |
 | Authority | 7 | 7 | /axon-common-5.1.2.jar, /axon-server-connector-5.1.2.jar, /axon-update-5.1.2.jar |
-| Bottleneck | 3 | 3 | /axon-conversion-5.1.2.jar, /axon-eventsourcing-5.1.2.jar, /axon-modelling-5.1.2.jar |
+| Bottleneck | 3 | 3 | /axon-conversion-5.1.2.jar, /axon-modelling-5.1.2.jar, /axon-eventsourcing-5.1.2.jar |
 | Hub | 1 | 1 | /axon-common-5.1.2.jar |
 
 #### Graph Visualizations
@@ -153,7 +153,7 @@ The goal is to identify code that plays a distinctive structural role — such a
 
 | Archetype | Count | Max. Rank | Examples |
 | --- | --- | --- | --- |
-| Authority | 10 | 10 | org.axonframework.common.TypeReference, org.axonframework.common.TypeReference$1, org.axonframework.common.TypeReference$2 |
+| Authority | 10 | 10 | org.axonframework.common.TypeReference, org.axonframework.common.TypeReference$2, org.axonframework.common.TypeReference$1 |
 | Bottleneck | 10 | 10 | org.axonframework.messaging.core.MessageStream, org.axonframework.messaging.core.Message, org.axonframework.messaging.core.unitofwork.ProcessingContext |
 | Hub | 2 | 2 | org.axonframework.common.AxonNonTransientException, org.axonframework.common.Priority |
 

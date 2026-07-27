@@ -12,9 +12,15 @@ strict digraph TopBridge3 {
     central [fontsize = 16;];
     central [color = 7; fillcolor = 5; penwidth = 3;];
 
-	graph   [label="Top Rank #3 Java Type Bridge\norg.axonframework.test.extension.ProvidedAxonTestFixture\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
-	central [label="🌉 bridge #3\nProvidedAxonTestFixture"];
-	"ProvidedAxonTestFixtureUtils_46185" [label = "ProvidedAxonTestFixtureUtils"; ]; "ProvidedAxonTestFixtureUtils_46185" -> central [label=4; weight=4; penwidth=0.5];
-	"AxonTestFixtureProvider_46177" [label = "AxonTestFixtureProvider"; color = 5; fillcolor = 1; ]; central -> "AxonTestFixtureProvider_46177" [label=2; weight=2; penwidth=0.4; color = 5];
-	"ProvidedAxonTestFixtureUtils_46185" -> "AxonTestFixtureProvider_46177" [label=16; weight=16; penwidth=0.3; color = 3]
+	graph   [label="Top Rank #3 Java Type Bridge\norg.axonframework.common.TypeReflectionUtils\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
+	central [label="🌉 bridge #3\nTypeReflectionUtils"];
+	"TypeReflectionUtils$VarMap_8986" [label = "TypeReflectionUtils$\nVarMap"; ]; "TypeReflectionUtils$VarMap_8986" -> central [label=2; weight=2; penwidth=0.4];
+	"ReflectionUtils_8968" [label = "ReflectionUtils"; ]; "ReflectionUtils_8968" -> central [label=1; weight=1; penwidth=0.4];
+	"TypeReflectionUtils$VarMap_8986" [label = "TypeReflectionUtils$\nVarMap"; color = 5; fillcolor = 1; ]; central -> "TypeReflectionUtils$VarMap_8986" [label=5; weight=5; penwidth=0.5; color = 5];
+	"TypeReflectionUtils$VarMap$ParameterizedTypeImpl_10133" [label = "TypeReflectionUtils$\nVarMap$\nParameterizedTypeImpl"; color = 5; fillcolor = 1; ]; central -> "TypeReflectionUtils$VarMap$ParameterizedTypeImpl_10133" [label=1; weight=1; penwidth=0.4; color = 5];
+	"TypeReflectionUtils$VarMap$UnresolvedTypeVariableException_8902" [label = "TypeReflectionUtils$\nVarMap$\nUnresolvedTypeVariableException"; color = 5; fillcolor = 1; ]; central -> "TypeReflectionUtils$VarMap$UnresolvedTypeVariableException_8902" [label=1; weight=1; penwidth=0.4; color = 5];
+	"TypeReflectionUtils$VarMap_8986" -> "TypeReflectionUtils$VarMap$ParameterizedTypeImpl_10133" [label=3; weight=3; penwidth=0.3; color = 3]
+	"TypeReflectionUtils$VarMap_8986" -> "TypeReflectionUtils$VarMap$UnresolvedTypeVariableException_8902" [label=3; weight=3; penwidth=0.3; color = 3]
+	"TypeReflectionUtils$VarMap$ParameterizedTypeImpl_10133" -> "TypeReflectionUtils$VarMap_8986" [label=1; weight=1; penwidth=0.3; color = 3]
+	"TypeReflectionUtils$VarMap$UnresolvedTypeVariableException_8902" -> "TypeReflectionUtils$VarMap_8986" [label=1; weight=1; penwidth=0.3; color = 3]
 }

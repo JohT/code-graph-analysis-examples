@@ -1,7 +1,7 @@
 ---
 title: "Overview Report"
-generated: "2026-07-13"
-model_version: "v4.0.1"
+generated: "2026-07-27"
+model_version: "v4.0.2"
 dataset: "AxonFramework-5.1.2"
 authors: ["JohT/code-graph-analysis-pipeline"]
 ---
@@ -29,16 +29,16 @@ Shows how many nodes carry each combination of labels and their share of the tot
 
 | nodeLabels | nodesWithThatLabels | nodesWithThatLabelsPercent |
 | --- | --- | --- |
-| ["Git","Change","Update"] | 315202 | 52.23055534382136 |
-| ["Git","Change","Create"] | 108637 | 18.001696819457745 |
-| ["Git","Change","Delete"] | 66564 | 11.029989295455374 |
-| ["Git","Change","Rename"] | 27910 | 4.62482725251126 |
-| ["Git","Commit"] | 17612 | 2.91839690330449 |
-| ["File","Git"] | 17554 | 2.908786011844595 |
-| ["Java","ByteCode","Parameter"] | 9368 | 1.5523246757981182 |
-| ["Java","ByteCode","Member","Method"] | 8998 | 1.4910138164849989 |
-| ["Java","ByteCode","Bound"] | 6639 | 1.1001156621075692 |
-| ["Java","ByteCode","Bound","ParameterizedType"] | 5076 | 0.8411187077659317 |
+| ["Git","Change","Update"] | 315202 | 52.2348831351337 |
+| ["Git","Change","Create"] | 108637 | 18.003188428853623 |
+| ["Git","Change","Delete"] | 66564 | 11.030903233504356 |
+| ["Git","Change","Rename"] | 27910 | 4.62521046281934 |
+| ["Git","Commit"] | 17612 | 2.9186387198557586 |
+| ["File","Git"] | 17554 | 2.9090270320433786 |
+| ["Java","ByteCode","Parameter"] | 9368 | 1.5524533004547323 |
+| ["Java","ByteCode","Member","Method"] | 8950 | 1.483182860703443 |
+| ["Java","ByteCode","Bound"] | 6639 | 1.1002068170067216 |
+| ["Java","ByteCode","Bound","ParameterizedType"] | 5076 | 0.841188402338623 |
 
 [Full data](./Node_label_combination_count.csv)
 
@@ -55,16 +55,16 @@ Shows the number of nodes carrying each individual label, sorted by count descen
 
 | nodeLabel | nodesWithThatLabel | nodesWithThatLabelPercent |
 | --- | --- | --- |
-| Git | 555689 | 92.08045973202184 |
-| Change | 519799 | 86.13330637864924 |
-| Update | 315202 | 52.23055534382136 |
-| Create | 108637 | 18.001696819457745 |
-| Delete | 66564 | 11.029989295455374 |
-| Java | 41535 | 6.882558220460594 |
-| ByteCode | 41320 | 6.846931640048916 |
-| Rename | 27910 | 4.62482725251126 |
-| File | 20743 | 3.4372193371136173 |
-| Commit | 17612 | 2.91839690330449 |
+| Git | 555689 | 92.08808946161291 |
+| Change | 519799 | 86.1404433308144 |
+| Update | 315202 | 52.2348831351337 |
+| Create | 108637 | 18.003188428853623 |
+| Delete | 66564 | 11.030903233504356 |
+| Java | 41485 | 6.874842567182384 |
+| ByteCode | 41270 | 6.839213034774423 |
+| Rename | 27910 | 4.62521046281934 |
+| File | 20743 | 3.437504142968885 |
+| Commit | 17612 | 2.9186387198557586 |
 
 [Full data](./Node_label_count.csv)
 
@@ -78,16 +78,16 @@ Shows the number of relationships for each type and their share of the total rel
 
 | relationshipType | nodesWithThatRelationshipType | nodesWithThatRelationshipTypePercent |
 | --- | --- | --- |
-| CONTAINS_CHANGE | 519799 | 27.541660948679052 |
-| MODIFIES | 519799 | 27.541660948679052 |
-| UPDATES | 315202 | 16.701045239305067 |
-| CREATES | 138033 | 7.31370796351862 |
-| DELETES | 94474 | 5.005725052309653 |
-| COMMITTED | 35224 | 1.8663511573825091 |
-| RENAMES | 27910 | 1.4788173064542878 |
-| INVOKES | 22970 | 1.217070352176818 |
-| DEPENDS_ON | 21808 | 1.1555015341868544 |
-| HAS_PARENT | 21427 | 1.135314167875171 |
+| CONTAINS_CHANGE | 519799 | 27.542755467761452 |
+| MODIFIES | 519799 | 27.542755467761452 |
+| UPDATES | 315202 | 16.7017089470148 |
+| CREATES | 138033 | 7.313998613851733 |
+| DELETES | 94474 | 5.005923982272562 |
+| COMMITTED | 35224 | 1.8664253270907205 |
+| RENAMES | 27910 | 1.4788760753776407 |
+| INVOKES | 22958 | 1.216482871319236 |
+| DEPENDS_ON | 21808 | 1.155547454383217 |
+| HAS_PARENT | 21427 | 1.1353592858157184 |
 
 [Full data](./Relationship_type_count.csv)
 
@@ -134,11 +134,11 @@ Shows node labels present on dependency nodes — nodes that represent external 
 | --- | --- | --- | --- |
 | StronglyConnectedComponent,TypeMembers | StronglyConnectedComponent,TypeMembers | 4124 | 0.68 |
 | StronglyConnectedComponent,PackageMembers | StronglyConnectedComponent,PackageMembers | 357 | 0.06 |
-| Type,File,Java,ByteCode,Interface | Type,File,Java,ByteCode,JavaType,ExternalType,ExternalAnnotation | 124 | 0.02 |
+| Type,File,Java,ByteCode,Interface | Type,File,Java,ByteCode,ExternalType,ExternalAnnotation,JavaType | 124 | 0.02 |
 | Type,File,Java,Class,ByteCode,InternalJavaType,ConnectedInternalJavaType | Type,File,Java,ByteCode,JavaType | 38 | 0.01 |
 | Type,File,Java,Class,ByteCode,InternalJavaType,ConnectedInternalJavaType | Type,File,Java,ByteCode,JavaType | 34 | 0.01 |
 | Type,File,Java,Class,ByteCode,InternalJavaType,ConnectedInternalJavaType | Type,File,Java,ByteCode,ResolvedDuplicateType | 32 | 0.01 |
-| Type,File,Java,Class,ByteCode,InternalJavaType,ConnectedInternalJavaType | Type,File,Java,ByteCode,JavaType,ResolvedDuplicateType | 28 | 0 |
+| Type,File,Java,Class,ByteCode,InternalJavaType,ConnectedInternalJavaType | Type,File,Java,ByteCode,ResolvedDuplicateType,JavaType | 28 | 0 |
 | StronglyConnectedComponent,ArtifactMembers | StronglyConnectedComponent,ArtifactMembers | 27 | 0 |
 | Type,File,Java,Class,ByteCode,InternalJavaType,ConnectedInternalJavaType | Type,File,Java,ByteCode,JavaType | 27 | 0 |
 | Type,File,Java,Class,ByteCode,InternalJavaType,ConnectedInternalJavaType | Type,File,Java,ByteCode,JavaType | 25 | 0 |
@@ -155,7 +155,7 @@ Overview of scanned Java artifacts: number of packages, types, methods, and line
 
 | nodeCount | relationshipCount | artifactCount | packageCount | typeCount | methodCount | memberCount |
 | --- | --- | --- | --- | --- | --- | --- |
-| 603482 | 1887319 | 11 | 137 | 1856 | 5623 | 7042 |
+| 603432 | 1887244 | 11 | 137 | 1856 | 5623 | 7042 |
 
 [Full data](./Overview_size.csv)
 

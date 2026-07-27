@@ -14,93 +14,93 @@
 <text xml:space="preserve" text-anchor="middle" x="444.38" y="-745.47" font-family="Helvetica,Arial,sans-serif" font-size="14.00">nodes: incoming dependencies (limited max. 40)</text>
 <text xml:space="preserve" text-anchor="middle" x="444.38" y="-728.67" font-family="Helvetica,Arial,sans-serif" font-size="14.00">node value: local clustering coefficient</text>
 <text xml:space="preserve" text-anchor="middle" x="444.38" y="-711.87" font-family="Helvetica,Arial,sans-serif" font-size="14.00">thick outline: &lt;10% percentile of local clustering coefficient</text>
-<!-- AggregateTypeParameterResolverFactory_36538&#45;&gt;central -->
+<!-- AggregateTypeParameterResolverFactory_37832&#45;&gt;central -->
 <g id="edge1" class="edge">
-<title>AggregateTypeParameterResolverFactory_36538&#45;&gt;central</title>
+<title>AggregateTypeParameterResolverFactory_37832&#45;&gt;central</title>
 <path fill="none" stroke="#238b45" stroke-width="0.4" d="M639.44,-142.92C623.58,-166.05 601.07,-197.41 578.97,-223.18 558.45,-247.1 534.24,-271.87 512.53,-293.02"/>
 <polygon fill="#238b45" stroke="#238b45" stroke-width="0.4" points="511.68,-291.9 509.78,-295.69 513.63,-293.91 511.68,-291.9"/>
 <text xml:space="preserve" text-anchor="middle" x="577.73" y="-224.66" font-family="Times,serif" font-size="4.00">1</text>
 </g>
-<!-- ConfigurationParameterResolverFactory_42551&#45;&gt;central -->
+<!-- ConfigurationParameterResolverFactory_43960&#45;&gt;central -->
 <g id="edge2" class="edge">
-<title>ConfigurationParameterResolverFactory_42551&#45;&gt;central</title>
+<title>ConfigurationParameterResolverFactory_43960&#45;&gt;central</title>
 <path fill="none" stroke="#238b45" stroke-width="0.4" d="M495.16,-65.1C526.35,-114.95 581.46,-205.99 578.97,-223.18 574.01,-257.43 549.23,-285.71 522.92,-306.7"/>
 <polygon fill="#238b45" stroke="#238b45" stroke-width="0.4" points="522.13,-305.54 519.84,-309.11 523.85,-307.74 522.13,-305.54"/>
 <text xml:space="preserve" text-anchor="middle" x="552.1" y="-163.73" font-family="Times,serif" font-size="4.00">1</text>
 </g>
-<!-- DefaultParameterResolverFactory_37808&#45;&gt;central -->
+<!-- DefaultParameterResolverFactory_37842&#45;&gt;central -->
 <g id="edge3" class="edge">
-<title>DefaultParameterResolverFactory_37808&#45;&gt;central</title>
+<title>DefaultParameterResolverFactory_37842&#45;&gt;central</title>
 <path fill="none" stroke="#238b45" stroke-width="0.4" d="M244.21,-476.27C283.31,-452.33 339.26,-418.07 383.35,-391.07"/>
 <polygon fill="#238b45" stroke="#238b45" stroke-width="0.4" points="383.85,-392.41 386.53,-389.13 382.38,-390.02 383.85,-392.41"/>
 <text xml:space="preserve" text-anchor="middle" x="314.92" y="-433.56" font-family="Times,serif" font-size="4.00">1</text>
 </g>
-<!-- FixtureResourceParameterResolverFactory_46192&#45;&gt;central -->
+<!-- FixtureResourceParameterResolverFactory_16809&#45;&gt;central -->
 <g id="edge4" class="edge">
-<title>FixtureResourceParameterResolverFactory_46192&#45;&gt;central</title>
+<title>FixtureResourceParameterResolverFactory_16809&#45;&gt;central</title>
 <path fill="none" stroke="#238b45" stroke-width="0.4" d="M244.41,-360.22C286.74,-357.86 333.18,-355.28 371.45,-353.14"/>
 <polygon fill="#238b45" stroke="#238b45" stroke-width="0.4" points="371.08,-354.57 375,-352.95 370.93,-351.77 371.08,-354.57"/>
 <text xml:space="preserve" text-anchor="middle" x="308.96" y="-357.77" font-family="Times,serif" font-size="4.00">1</text>
 </g>
-<!-- HierarchicalParameterResolverFactory_36532&#45;&gt;central -->
+<!-- HierarchicalParameterResolverFactory_37753&#45;&gt;central -->
 <g id="edge5" class="edge">
-<title>HierarchicalParameterResolverFactory_36532&#45;&gt;central</title>
+<title>HierarchicalParameterResolverFactory_37753&#45;&gt;central</title>
 <path fill="none" stroke="#238b45" stroke-width="0.4" d="M656.58,-504.22C618.72,-475.33 561.65,-431.78 517.51,-398.09"/>
 <polygon fill="#238b45" stroke="#238b45" stroke-width="0.4" points="518.6,-397.16 514.57,-395.85 516.9,-399.39 518.6,-397.16"/>
 <text xml:space="preserve" text-anchor="middle" x="584.37" y="-451.08" font-family="Times,serif" font-size="4.00">1</text>
 </g>
-<!-- InterceptorChainParameterResolverFactory_36545&#45;&gt;central -->
+<!-- InterceptorChainParameterResolverFactory_37840&#45;&gt;central -->
 <g id="edge6" class="edge">
-<title>InterceptorChainParameterResolverFactory_36545&#45;&gt;central</title>
+<title>InterceptorChainParameterResolverFactory_37840&#45;&gt;central</title>
 <path fill="none" stroke="#238b45" stroke-width="0.4" d="M448.28,-438.27C448.41,-435.66 448.54,-432.96 448.68,-430.2"/>
 <polygon fill="#238b45" stroke="#238b45" stroke-width="0.4" points="450.07,-430.48 448.86,-426.42 447.27,-430.35 450.07,-430.48"/>
 <text xml:space="preserve" text-anchor="middle" x="447.6" y="-432.95" font-family="Times,serif" font-size="4.00">1</text>
 </g>
-<!-- MessageIdentifierParameterResolverFactory_36534&#45;&gt;central -->
+<!-- MessageIdentifierParameterResolverFactory_37755&#45;&gt;central -->
 <g id="edge7" class="edge">
-<title>MessageIdentifierParameterResolverFactory_36534&#45;&gt;central</title>
+<title>MessageIdentifierParameterResolverFactory_37755&#45;&gt;central</title>
 <path fill="none" stroke="#238b45" stroke-width="0.4" d="M442.13,-256.47C442.54,-260.01 442.96,-263.72 443.4,-267.53"/>
 <polygon fill="#238b45" stroke="#238b45" stroke-width="0.4" points="442,-267.63 443.85,-271.44 444.78,-267.31 442,-267.63"/>
 <text xml:space="preserve" text-anchor="middle" x="441.99" y="-265.19" font-family="Times,serif" font-size="4.00">1</text>
 </g>
-<!-- PriorityAnnotationComparator_17906&#45;&gt;central -->
+<!-- PriorityAnnotationComparator_9486&#45;&gt;central -->
 <g id="edge8" class="edge">
-<title>PriorityAnnotationComparator_17906&#45;&gt;central</title>
+<title>PriorityAnnotationComparator_9486&#45;&gt;central</title>
 <path fill="none" stroke="#238b45" stroke-width="0.4" d="M288.69,-143.12C288.92,-171.48 290.62,-209.74 297.68,-223.18 316.38,-258.82 350.07,-287.96 381.28,-309.16"/>
 <polygon fill="#238b45" stroke="#238b45" stroke-width="0.4" points="380.46,-310.3 384.57,-311.37 382.03,-307.97 380.46,-310.3"/>
 <text xml:space="preserve" text-anchor="middle" x="311.21" y="-247.21" font-family="Times,serif" font-size="4.00">1</text>
 </g>
-<!-- ProcessingContextParameterResolverFactory_39944&#45;&gt;central -->
+<!-- ProcessingContextParameterResolverFactory_42427&#45;&gt;central -->
 <g id="edge9" class="edge">
-<title>ProcessingContextParameterResolverFactory_39944&#45;&gt;central</title>
+<title>ProcessingContextParameterResolverFactory_42427&#45;&gt;central</title>
 <path fill="none" stroke="#238b45" stroke-width="0.4" d="M684.68,-261.33C637.8,-278.97 577.02,-301.84 529.43,-319.74"/>
 <polygon fill="#238b45" stroke="#238b45" stroke-width="0.4" points="528.98,-318.42 525.72,-321.14 529.96,-321.04 528.98,-318.42"/>
 <text xml:space="preserve" text-anchor="middle" x="604.1" y="-292.47" font-family="Times,serif" font-size="4.00">1</text>
 </g>
-<!-- SequenceNumberParameterResolverFactory_25878&#45;&gt;central -->
+<!-- SequenceNumberParameterResolverFactory_27791&#45;&gt;central -->
 <g id="edge10" class="edge">
-<title>SequenceNumberParameterResolverFactory_25878&#45;&gt;central</title>
+<title>SequenceNumberParameterResolverFactory_27791&#45;&gt;central</title>
 <path fill="none" stroke="#238b45" stroke-width="0.4" d="M566,-622.09C567.65,-597.95 570.28,-564.52 573.8,-535.25 577.23,-506.78 593.24,-498.66 583.94,-471.54 572.89,-439.32 547.42,-412.23 521.83,-391.76"/>
 <polygon fill="#238b45" stroke="#238b45" stroke-width="0.4" points="522.87,-390.8 518.86,-389.42 521.13,-393 522.87,-390.8"/>
 <text xml:space="preserve" text-anchor="middle" x="577.18" y="-518.18" font-family="Times,serif" font-size="4.00">1</text>
 </g>
-<!-- SimpleResourceParameterResolverFactory_36542&#45;&gt;central -->
+<!-- SimpleResourceParameterResolverFactory_37837&#45;&gt;central -->
 <g id="edge11" class="edge">
-<title>SimpleResourceParameterResolverFactory_36542&#45;&gt;central</title>
+<title>SimpleResourceParameterResolverFactory_37837&#45;&gt;central</title>
 <path fill="none" stroke="#238b45" stroke-width="0.4" d="M659.09,-380.7C617.86,-374.29 571.5,-367.09 533.19,-361.13"/>
 <polygon fill="#238b45" stroke="#238b45" stroke-width="0.4" points="533.8,-359.81 529.63,-360.58 533.37,-362.58 533.8,-359.81"/>
 <text xml:space="preserve" text-anchor="middle" x="593.04" y="-371.79" font-family="Times,serif" font-size="4.00">1</text>
 </g>
-<!-- SourceIdParameterResolverFactory_36546&#45;&gt;central -->
+<!-- SourceIdParameterResolverFactory_37841&#45;&gt;central -->
 <g id="edge12" class="edge">
-<title>SourceIdParameterResolverFactory_36546&#45;&gt;central</title>
+<title>SourceIdParameterResolverFactory_37841&#45;&gt;central</title>
 <path fill="none" stroke="#238b45" stroke-width="0.4" d="M309.38,-584.29C307.31,-544.35 304.86,-481.5 309.36,-471.54 324.53,-437.95 354.02,-410.16 382.32,-389.55"/>
 <polygon fill="#238b45" stroke="#238b45" stroke-width="0.4" points="382.85,-390.89 385.28,-387.42 381.21,-388.62 382.85,-390.89"/>
 <text xml:space="preserve" text-anchor="middle" x="310.2" y="-468.83" font-family="Times,serif" font-size="4.00">1</text>
 </g>
-<!-- TimestampParameterResolverFactory_25882&#45;&gt;central -->
+<!-- TimestampParameterResolverFactory_27795&#45;&gt;central -->
 <g id="edge13" class="edge">
-<title>TimestampParameterResolverFactory_25882&#45;&gt;central</title>
+<title>TimestampParameterResolverFactory_27795&#45;&gt;central</title>
 <path fill="none" stroke="#238b45" stroke-width="0.4" d="M228.97,-236.82C272.41,-258.53 332.64,-288.63 379.67,-312.13"/>
 <polygon fill="#238b45" stroke="#238b45" stroke-width="0.4" points="378.86,-313.29 383.06,-313.83 380.11,-310.79 378.86,-313.29"/>
 <text xml:space="preserve" text-anchor="middle" x="305.07" y="-276.55" font-family="Times,serif" font-size="4.00">1</text>
@@ -114,93 +114,93 @@
 <text xml:space="preserve" text-anchor="middle" x="452.68" y="-343.82" font-family="Times,serif" font-size="16.00">Priority</text>
 <text xml:space="preserve" text-anchor="middle" x="452.68" y="-324.62" font-family="Times,serif" font-size="16.00">(in&#45;degree=13)</text>
 </g>
-<!-- AggregateTypeParameterResolverFactory_36538 -->
+<!-- AggregateTypeParameterResolverFactory_37832 -->
 <g id="node2" class="node">
-<title>AggregateTypeParameterResolverFactory_36538</title>
+<title>AggregateTypeParameterResolverFactory_37832</title>
 <ellipse fill="#ccece6" stroke="#41ae76" stroke-width="2" cx="661.16" cy="-110.24" rx="120.36" ry="32.4"/>
 <text xml:space="preserve" text-anchor="middle" x="661.16" y="-113.84" font-family="Times,serif" font-size="12.00">AggregateTypeParameterResolverFactory</text>
 <text xml:space="preserve" text-anchor="middle" x="661.16" y="-99.44" font-family="Times,serif" font-size="12.00">(0.2)</text>
 </g>
-<!-- ConfigurationParameterResolverFactory_42551 -->
+<!-- ConfigurationParameterResolverFactory_43960 -->
 <g id="node3" class="node">
-<title>ConfigurationParameterResolverFactory_42551</title>
+<title>ConfigurationParameterResolverFactory_43960</title>
 <ellipse fill="#ccece6" stroke="#41ae76" stroke-width="2" cx="474.41" cy="-32.4" rx="116.11" ry="32.4"/>
 <text xml:space="preserve" text-anchor="middle" x="474.41" y="-36" font-family="Times,serif" font-size="12.00">ConfigurationParameterResolverFactory</text>
 <text xml:space="preserve" text-anchor="middle" x="474.41" y="-21.6" font-family="Times,serif" font-size="12.00">(0.13)</text>
 </g>
-<!-- DefaultParameterResolverFactory_37808 -->
+<!-- DefaultParameterResolverFactory_37842 -->
 <g id="node4" class="node">
-<title>DefaultParameterResolverFactory_37808</title>
+<title>DefaultParameterResolverFactory_37842</title>
 <ellipse fill="#ccece6" stroke="#41ae76" stroke-width="2" cx="196.65" cy="-505.39" rx="97.88" ry="32.4"/>
 <text xml:space="preserve" text-anchor="middle" x="196.65" y="-508.99" font-family="Times,serif" font-size="12.00">DefaultParameterResolverFactory</text>
 <text xml:space="preserve" text-anchor="middle" x="196.65" y="-494.59" font-family="Times,serif" font-size="12.00">(0.2)</text>
 </g>
-<!-- FixtureResourceParameterResolverFactory_46192 -->
+<!-- FixtureResourceParameterResolverFactory_16809 -->
 <g id="node5" class="node">
-<title>FixtureResourceParameterResolverFactory_46192</title>
+<title>FixtureResourceParameterResolverFactory_16809</title>
 <ellipse fill="#ccece6" stroke="#41ae76" stroke-width="2" cx="123.08" cy="-366.98" rx="123.08" ry="32.4"/>
 <text xml:space="preserve" text-anchor="middle" x="123.08" y="-370.58" font-family="Times,serif" font-size="12.00">FixtureResourceParameterResolverFactory</text>
 <text xml:space="preserve" text-anchor="middle" x="123.08" y="-356.18" font-family="Times,serif" font-size="12.00">(0.33)</text>
 </g>
-<!-- HierarchicalParameterResolverFactory_36532 -->
+<!-- HierarchicalParameterResolverFactory_37753 -->
 <g id="node6" class="node">
-<title>HierarchicalParameterResolverFactory_36532</title>
+<title>HierarchicalParameterResolverFactory_37753</title>
 <ellipse fill="#ccece6" stroke="#41ae76" stroke-width="2" cx="697.24" cy="-535.25" rx="111.44" ry="32.4"/>
 <text xml:space="preserve" text-anchor="middle" x="697.24" y="-538.85" font-family="Times,serif" font-size="12.00">HierarchicalParameterResolverFactory</text>
 <text xml:space="preserve" text-anchor="middle" x="697.24" y="-524.45" font-family="Times,serif" font-size="12.00">(0.33)</text>
 </g>
-<!-- InterceptorChainParameterResolverFactory_36545 -->
+<!-- InterceptorChainParameterResolverFactory_37840 -->
 <g id="node7" class="node">
-<title>InterceptorChainParameterResolverFactory_36545</title>
+<title>InterceptorChainParameterResolverFactory_37840</title>
 <ellipse fill="#ccece6" stroke="#41ae76" stroke-width="2" cx="446.65" cy="-471.54" rx="124.24" ry="32.4"/>
 <text xml:space="preserve" text-anchor="middle" x="446.65" y="-475.14" font-family="Times,serif" font-size="12.00">InterceptorChainParameterResolverFactory</text>
 <text xml:space="preserve" text-anchor="middle" x="446.65" y="-460.74" font-family="Times,serif" font-size="12.00">(0.33)</text>
 </g>
-<!-- MessageIdentifierParameterResolverFactory_36534 -->
+<!-- MessageIdentifierParameterResolverFactory_37755 -->
 <g id="node8" class="node">
-<title>MessageIdentifierParameterResolverFactory_36534</title>
+<title>MessageIdentifierParameterResolverFactory_37755</title>
 <ellipse fill="#ccece6" stroke="#41ae76" stroke-width="2" cx="438.32" cy="-223.18" rx="127.34" ry="32.4"/>
 <text xml:space="preserve" text-anchor="middle" x="438.32" y="-226.78" font-family="Times,serif" font-size="12.00">MessageIdentifierParameterResolverFactory</text>
 <text xml:space="preserve" text-anchor="middle" x="438.32" y="-212.38" font-family="Times,serif" font-size="12.00">(0.2)</text>
 </g>
-<!-- PriorityAnnotationComparator_17906 -->
+<!-- PriorityAnnotationComparator_9486 -->
 <g id="node9" class="node">
-<title>PriorityAnnotationComparator_17906</title>
+<title>PriorityAnnotationComparator_9486</title>
 <ellipse fill="#ccece6" stroke="#41ae76" stroke-width="2" cx="289.02" cy="-109.91" rx="88.6" ry="32.4"/>
 <text xml:space="preserve" text-anchor="middle" x="289.02" y="-113.51" font-family="Times,serif" font-size="12.00">PriorityAnnotationComparator</text>
 <text xml:space="preserve" text-anchor="middle" x="289.02" y="-99.11" font-family="Times,serif" font-size="12.00">(0.1)</text>
 </g>
-<!-- ProcessingContextParameterResolverFactory_39944 -->
+<!-- ProcessingContextParameterResolverFactory_42427 -->
 <g id="node10" class="node">
-<title>ProcessingContextParameterResolverFactory_39944</title>
+<title>ProcessingContextParameterResolverFactory_42427</title>
 <ellipse fill="#ccece6" stroke="#41ae76" stroke-width="2" cx="757.75" cy="-233.83" rx="129.3" ry="32.4"/>
 <text xml:space="preserve" text-anchor="middle" x="757.75" y="-237.43" font-family="Times,serif" font-size="12.00">ProcessingContextParameterResolverFactory</text>
 <text xml:space="preserve" text-anchor="middle" x="757.75" y="-223.03" font-family="Times,serif" font-size="12.00">(0.4)</text>
 </g>
-<!-- SequenceNumberParameterResolverFactory_25878 -->
+<!-- SequenceNumberParameterResolverFactory_27791 -->
 <g id="node11" class="node">
-<title>SequenceNumberParameterResolverFactory_25878</title>
+<title>SequenceNumberParameterResolverFactory_27791</title>
 <ellipse fill="#ccece6" stroke="#41ae76" stroke-width="2" cx="563.96" cy="-655.27" rx="126.57" ry="32.4"/>
 <text xml:space="preserve" text-anchor="middle" x="563.96" y="-658.87" font-family="Times,serif" font-size="12.00">SequenceNumberParameterResolverFactory</text>
 <text xml:space="preserve" text-anchor="middle" x="563.96" y="-644.47" font-family="Times,serif" font-size="12.00">(0.2)</text>
 </g>
-<!-- SimpleResourceParameterResolverFactory_36542 -->
+<!-- SimpleResourceParameterResolverFactory_37837 -->
 <g id="node12" class="node">
-<title>SimpleResourceParameterResolverFactory_36542</title>
+<title>SimpleResourceParameterResolverFactory_37837</title>
 <ellipse fill="#ccece6" stroke="#41ae76" stroke-width="2" cx="766.06" cy="-397.33" rx="122.7" ry="32.4"/>
 <text xml:space="preserve" text-anchor="middle" x="766.06" y="-400.93" font-family="Times,serif" font-size="12.00">SimpleResourceParameterResolverFactory</text>
 <text xml:space="preserve" text-anchor="middle" x="766.06" y="-386.53" font-family="Times,serif" font-size="12.00">(0.33)</text>
 </g>
-<!-- SourceIdParameterResolverFactory_36546 -->
+<!-- SourceIdParameterResolverFactory_37841 -->
 <g id="node13" class="node">
-<title>SourceIdParameterResolverFactory_36546</title>
+<title>SourceIdParameterResolverFactory_37841</title>
 <ellipse fill="#ccece6" stroke="#41ae76" stroke-width="2" cx="311.3" cy="-617.58" rx="102.14" ry="32.4"/>
 <text xml:space="preserve" text-anchor="middle" x="311.3" y="-621.18" font-family="Times,serif" font-size="12.00">SourceIdParameterResolverFactory</text>
 <text xml:space="preserve" text-anchor="middle" x="311.3" y="-606.78" font-family="Times,serif" font-size="12.00">(0.2)</text>
 </g>
-<!-- TimestampParameterResolverFactory_25882 -->
+<!-- TimestampParameterResolverFactory_27795 -->
 <g id="node14" class="node">
-<title>TimestampParameterResolverFactory_25882</title>
+<title>TimestampParameterResolverFactory_27795</title>
 <ellipse fill="#ccece6" stroke="#41ae76" stroke-width="2" cx="172.21" cy="-208.46" rx="108.35" ry="32.4"/>
 <text xml:space="preserve" text-anchor="middle" x="172.21" y="-212.06" font-family="Times,serif" font-size="12.00">TimestampParameterResolverFactory</text>
 <text xml:space="preserve" text-anchor="middle" x="172.21" y="-197.66" font-family="Times,serif" font-size="12.00">(0.2)</text>

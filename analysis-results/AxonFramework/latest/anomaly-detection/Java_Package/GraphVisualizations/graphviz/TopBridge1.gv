@@ -12,8 +12,12 @@ strict digraph TopBridge1 {
     central [fontsize = 16;];
     central [color = 7; fillcolor = 5; penwidth = 3;];
 
-	graph   [label="Top Rank #1 Java Package Bridge\norg.axonframework.common.io\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
-	central [label="🌉 bridge #1\nio"];
-	"jpa_4224" [label = "jpa"; ]; "jpa_4224" -> central [label=2; weight=2; penwidth=0.4];
-	"util_16922" [label = "util"; ]; "util_16922" -> central [label=2; weight=2; penwidth=0.4];
+	graph   [label="Top Rank #1 Java Package Bridge\norg.axonframework.common.util\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
+	central [label="🌉 bridge #1\nutil"];
+	"util_4129" [label = "util"; ]; "util_4129" -> central [label=10; weight=10; penwidth=0.6];
+	"annotation_25129" [label = "annotation"; ]; "annotation_25129" -> central [label=1; weight=1; penwidth=0.4];
+	"annotation_25123" [label = "annotation"; ]; "annotation_25123" -> central [label=1; weight=1; penwidth=0.4];
+	"io_8882" [label = "io"; color = 5; fillcolor = 1; ]; central -> "io_8882" [label=2; weight=2; penwidth=0.4; color = 5];
+	"annotation_25123" -> "annotation_25129" [label=22; weight=22; penwidth=0.3; color = 3]
+	"annotation_25129" -> "annotation_25123" [label=1; weight=1; penwidth=0.3; color = 3]
 }

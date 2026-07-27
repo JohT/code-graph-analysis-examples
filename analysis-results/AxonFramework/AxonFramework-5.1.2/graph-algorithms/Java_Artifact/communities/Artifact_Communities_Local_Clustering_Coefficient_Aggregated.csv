@@ -1,5 +1,5 @@
 "localClusteringCoefficient","memberCount","memberNameExamples","Source Cypher File: domains/graph-algorithms/queries/community-detection/Community_Detection_10d_LocalClusteringCoefficient_Stream_Aggregated.cypher"
-1,5,"/axon-modelling-5.1.2.jar,/axoniq-spring-boot-autoconfigure-5.1.2.jar,/axon-tracing-opentelemetry-5.1.2.jar,/axon-metrics-micrometer-5.1.2.jar,/axon-test-5.1.2.jar",""
+1,5,"/axon-modelling-5.1.2.jar,/axon-test-5.1.2.jar,/axon-tracing-opentelemetry-5.1.2.jar,/axon-metrics-micrometer-5.1.2.jar,/axoniq-spring-boot-autoconfigure-5.1.2.jar",""
 0.87,2,"/axon-server-connector-5.1.2.jar,/axon-conversion-5.1.2.jar",""
 0.8,1,"/axon-eventsourcing-5.1.2.jar",""
 0.47,1,"/axon-messaging-5.1.2.jar",""

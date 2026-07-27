@@ -12,53 +12,30 @@ strict digraph TopBridge5 {
     central [fontsize = 16;];
     central [color = 7; fillcolor = 5; penwidth = 3;];
 
-	graph   [label="Top Rank #5 Java Type Bridge\norg.axonframework.test.fixture.AxonTestPhase$When\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
-	central [label="🌉 bridge #5\nAxonTestPhase$When"];
-	"AxonTestFixture_44881" [label = "AxonTestFixture"; ]; "AxonTestFixture_44881" -> central [label=2; weight=2; penwidth=0.4];
-	"AxonTestGiven_44883" [label = "AxonTestGiven"; ]; "AxonTestGiven_44883" -> central [label=2; weight=2; penwidth=0.4];
-	"AxonTestPhase$Given_44785" [label = "AxonTestPhase$\nGiven"; ]; "AxonTestPhase$Given_44785" -> central [label=2; weight=2; penwidth=0.4];
-	"AxonTestPhase$Setup_44831" [label = "AxonTestPhase$\nSetup"; ]; "AxonTestPhase$Setup_44831" -> central [label=2; weight=2; penwidth=0.4];
-	"AxonTestWhen_44830" [label = "AxonTestWhen"; ]; "AxonTestWhen_44830" -> central [label=2; weight=2; penwidth=0.4];
-	"AxonTestPhase_46176" [label = "AxonTestPhase"; ]; "AxonTestPhase_46176" -> central [label=1; weight=1; penwidth=0.4];
-	"AxonTestPhase$When$Command_44827" [label = "AxonTestPhase$\nWhen$\nCommand"; ]; "AxonTestPhase$When$Command_44827" -> central [label=1; weight=1; penwidth=0.4];
-	"AxonTestPhase$When$Event_44784" [label = "AxonTestPhase$\nWhen$\nEvent"; ]; "AxonTestPhase$When$Event_44784" -> central [label=1; weight=1; penwidth=0.4];
-	"AxonTestPhase$When$Nothing_44782" [label = "AxonTestPhase$\nWhen$\nNothing"; ]; "AxonTestPhase$When$Nothing_44782" -> central [label=1; weight=1; penwidth=0.4];
-	"AxonTestWhen$Command_44879" [label = "AxonTestWhen$\nCommand"; ]; "AxonTestWhen$Command_44879" -> central [label=1; weight=1; penwidth=0.4];
-	"AxonTestWhen$Event_44885" [label = "AxonTestWhen$\nEvent"; ]; "AxonTestWhen$Event_44885" -> central [label=1; weight=1; penwidth=0.4];
-	"AxonTestWhen$Nothing_46184" [label = "AxonTestWhen$\nNothing"; ]; "AxonTestWhen$Nothing_46184" -> central [label=1; weight=1; penwidth=0.4];
-	"AxonTestPhase$When$Event_44784" [label = "AxonTestPhase$\nWhen$\nEvent"; color = 5; fillcolor = 1; ]; central -> "AxonTestPhase$When$Event_44784" [label=7; weight=7; penwidth=0.5; color = 5];
-	"Metadata_25038" [label = "Metadata"; color = 5; fillcolor = 1; ]; central -> "Metadata_25038" [label=5; weight=5; penwidth=0.5; color = 5];
-	"AxonTestPhase$When$Command_44827" [label = "AxonTestPhase$\nWhen$\nCommand"; color = 5; fillcolor = 1; ]; central -> "AxonTestPhase$When$Command_44827" [label=4; weight=4; penwidth=0.5; color = 5];
-	"AxonTestPhase$When$Nothing_44782" [label = "AxonTestPhase$\nWhen$\nNothing"; color = 5; fillcolor = 1; ]; central -> "AxonTestPhase$When$Nothing_44782" [label=2; weight=2; penwidth=0.4; color = 5];
-	"EventMessage_23517" [label = "EventMessage"; color = 5; fillcolor = 1; ]; central -> "EventMessage_23517" [label=1; weight=1; penwidth=0.4; color = 5];
-	"AxonTestWhen_44830" -> "EventMessage_23517" [label=14; weight=14; penwidth=0.3; color = 3]
-	"AxonTestGiven_44883" -> "EventMessage_23517" [label=13; weight=13; penwidth=0.3; color = 3]
-	"AxonTestGiven_44883" -> "AxonTestPhase$Given_44785" [label=10; weight=10; penwidth=0.3; color = 3]
-	"AxonTestWhen$Command_44879" -> "AxonTestWhen_44830" [label=7; weight=7; penwidth=0.3; color = 3]
-	"AxonTestGiven_44883" -> "Metadata_25038" [label=6; weight=6; penwidth=0.3; color = 3]
-	"AxonTestPhase$Given_44785" -> "Metadata_25038" [label=6; weight=6; penwidth=0.3; color = 3]
-	"AxonTestWhen_44830" -> "Metadata_25038" [label=6; weight=6; penwidth=0.3; color = 3]
-	"AxonTestWhen_44830" -> "AxonTestWhen$Event_44885" [label=6; weight=6; penwidth=0.3; color = 3]
-	"AxonTestWhen$Event_44885" -> "AxonTestWhen_44830" [label=6; weight=6; penwidth=0.3; color = 3]
-	"AxonTestWhen$Nothing_46184" -> "AxonTestWhen_44830" [label=6; weight=6; penwidth=0.3; color = 3]
-	"AxonTestWhen_44830" -> "AxonTestWhen$Command_44879" [label=4; weight=4; penwidth=0.3; color = 3]
-	"AxonTestWhen_44830" -> "AxonTestPhase$When$Event_44784" [label=4; weight=4; penwidth=0.3; color = 3]
-	"AxonTestWhen_44830" -> "AxonTestWhen$Nothing_46184" [label=3; weight=3; penwidth=0.3; color = 3]
-	"AxonTestFixture_44881" -> "AxonTestGiven_44883" [label=2; weight=2; penwidth=0.3; color = 3]
-	"AxonTestFixture_44881" -> "AxonTestPhase$Setup_44831" [label=2; weight=2; penwidth=0.3; color = 3]
-	"AxonTestFixture_44881" -> "AxonTestWhen_44830" [label=2; weight=2; penwidth=0.3; color = 3]
-	"AxonTestFixture_44881" -> "AxonTestPhase$Given_44785" [label=2; weight=2; penwidth=0.3; color = 3]
-	"AxonTestGiven_44883" -> "AxonTestWhen_44830" [label=2; weight=2; penwidth=0.3; color = 3]
-	"AxonTestPhase$Setup_44831" -> "AxonTestPhase$Given_44785" [label=2; weight=2; penwidth=0.3; color = 3]
-	"AxonTestWhen_44830" -> "AxonTestPhase$When$Nothing_44782" [label=2; weight=2; penwidth=0.3; color = 3]
-	"AxonTestWhen_44830" -> "AxonTestPhase$When$Command_44827" [label=2; weight=2; penwidth=0.3; color = 3]
-	"AxonTestWhen$Command_44879" -> "AxonTestPhase$When$Command_44827" [label=2; weight=2; penwidth=0.3; color = 3]
-	"AxonTestWhen$Event_44885" -> "AxonTestPhase$When$Event_44784" [label=2; weight=2; penwidth=0.3; color = 3]
-	"AxonTestWhen$Nothing_46184" -> "AxonTestPhase$When$Nothing_44782" [label=2; weight=2; penwidth=0.3; color = 3]
-	"AxonTestPhase_46176" -> "AxonTestPhase$When$Nothing_44782" [label=1; weight=1; penwidth=0.3; color = 3]
-	"AxonTestPhase_46176" -> "AxonTestPhase$When$Event_44784" [label=1; weight=1; penwidth=0.3; color = 3]
-	"AxonTestPhase_46176" -> "AxonTestPhase$Given_44785" [label=1; weight=1; penwidth=0.3; color = 3]
-	"AxonTestPhase_46176" -> "AxonTestPhase$When$Command_44827" [label=1; weight=1; penwidth=0.3; color = 3]
-	"AxonTestPhase_46176" -> "AxonTestPhase$Setup_44831" [label=1; weight=1; penwidth=0.3; color = 3]
-	"AxonTestPhase$Given_44785" -> "EventMessage_23517" [label=1; weight=1; penwidth=0.3; color = 3]
+	graph   [label="Top Rank #5 Java Type Bridge\norg.axonframework.test.fixture.AxonTestPhase$Then$Nothing\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
+	central [label="🌉 bridge #5\nAxonTestPhase$Then$Nothing"];
+	"AxonTestThenNothing_15639" [label = "AxonTestThenNothing"; ]; "AxonTestThenNothing_15639" -> central [label=3; weight=3; penwidth=0.4];
+	"AxonTestGiven_15635" [label = "AxonTestGiven"; ]; "AxonTestGiven_15635" -> central [label=2; weight=2; penwidth=0.4];
+	"AxonTestPhase$Given_15726" [label = "AxonTestPhase$\nGiven"; ]; "AxonTestPhase$Given_15726" -> central [label=2; weight=2; penwidth=0.4];
+	"AxonTestPhase$When$Nothing_14389" [label = "AxonTestPhase$\nWhen$\nNothing"; ]; "AxonTestPhase$When$Nothing_14389" -> central [label=2; weight=2; penwidth=0.4];
+	"AxonTestWhen$Nothing_15642" [label = "AxonTestWhen$\nNothing"; ]; "AxonTestWhen$Nothing_15642" -> central [label=2; weight=2; penwidth=0.4];
+	"AxonTestPhase_15728" [label = "AxonTestPhase"; ]; "AxonTestPhase_15728" -> central [label=1; weight=1; penwidth=0.4];
+	"AxonTestPhase$Then_14387" [label = "AxonTestPhase$\nThen"; ]; "AxonTestPhase$Then_14387" -> central [label=1; weight=1; penwidth=0.4];
+	"AxonTestPhase$Then$Message_14393" [label = "AxonTestPhase$\nThen$\nMessage"; color = 5; fillcolor = 1; ]; central -> "AxonTestPhase$Then$Message_14393" [label=2; weight=2; penwidth=0.4; color = 5];
+	"AxonTestPhase$Then_14387" [label = "AxonTestPhase$\nThen"; color = 5; fillcolor = 1; ]; central -> "AxonTestPhase$Then_14387" [label=1; weight=1; penwidth=0.4; color = 5];
+	"AxonTestGiven_15635" -> "AxonTestPhase$Given_15726" [label=10; weight=10; penwidth=0.3; color = 3]
+	"AxonTestGiven_15635" -> "AxonTestThenNothing_15639" [label=2; weight=2; penwidth=0.3; color = 3]
+	"AxonTestWhen$Nothing_15642" -> "AxonTestPhase$When$Nothing_14389" [label=2; weight=2; penwidth=0.3; color = 3]
+	"AxonTestWhen$Nothing_15642" -> "AxonTestThenNothing_15639" [label=2; weight=2; penwidth=0.3; color = 3]
+	"AxonTestGiven_15635" -> "AxonTestPhase$Then_14387" [label=1; weight=1; penwidth=0.3; color = 3]
+	"AxonTestPhase_15728" -> "AxonTestPhase$Then$Message_14393" [label=1; weight=1; penwidth=0.3; color = 3]
+	"AxonTestPhase_15728" -> "AxonTestPhase$When$Nothing_14389" [label=1; weight=1; penwidth=0.3; color = 3]
+	"AxonTestPhase_15728" -> "AxonTestPhase$Then_14387" [label=1; weight=1; penwidth=0.3; color = 3]
+	"AxonTestPhase_15728" -> "AxonTestPhase$Given_15726" [label=1; weight=1; penwidth=0.3; color = 3]
+	"AxonTestPhase$Given_15726" -> "AxonTestPhase$Then_14387" [label=1; weight=1; penwidth=0.3; color = 3]
+	"AxonTestPhase$Then_14387" -> "AxonTestPhase$Then$Message_14393" [label=1; weight=1; penwidth=0.3; color = 3]
+	"AxonTestPhase$Then$Message_14393" -> "AxonTestPhase$Then_14387" [label=1; weight=1; penwidth=0.3; color = 3]
+	"AxonTestPhase$When$Nothing_14389" -> "AxonTestPhase$Then_14387" [label=1; weight=1; penwidth=0.3; color = 3]
+	"AxonTestThenNothing_15639" -> "AxonTestPhase$Then_14387" [label=1; weight=1; penwidth=0.3; color = 3]
+	"AxonTestWhen$Nothing_15642" -> "AxonTestPhase$Then_14387" [label=1; weight=1; penwidth=0.3; color = 3]
 }
