@@ -31,7 +31,7 @@ strict digraph TopBridge3 {
 	"commands_13753" -> "build_13772" [label=18; weight=18; penwidth=0.3; color = 3]
 	"plugin_13799" -> "routes_13763" [label=16; weight=16; penwidth=0.3; color = 3]
 	"plugin_13783" -> "optimize-deps-entries_13782" [label=8; weight=8; penwidth=0.3; color = 3]
-	"plugin_13799" -> "plugin_13783" [label=8; weight=8; penwidth=0.3; color = 3]
 	"plugin_13799" -> "optimize-deps-entries_13782" [label=8; weight=8; penwidth=0.3; color = 3]
+	"plugin_13799" -> "plugin_13783" [label=8; weight=8; penwidth=0.3; color = 3]
 	"plugin_13783" -> "config_13746" [label=4; weight=4; penwidth=0.3; color = 3]
 }

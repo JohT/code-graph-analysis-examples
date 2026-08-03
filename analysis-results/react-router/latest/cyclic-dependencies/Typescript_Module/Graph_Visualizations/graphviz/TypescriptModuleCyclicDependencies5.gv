@@ -11,8 +11,8 @@ strict digraph cycle {
         fillcolor="lightblue";
         "fetchAndApplyManifestPatches";
         "getPartialManifest";
-        "useFogOFWarDiscovery_pkg" [label="useFogOFWarDiscovery"];
         "getPatchRoutesOnNavigationFunction_pkg" [label="getPatchRoutesOnNavigationFunction"];
+        "useFogOFWarDiscovery_pkg" [label="useFogOFWarDiscovery"];
         "isFogOfWarEnabled";
     }
 
@@ -33,10 +33,10 @@ strict digraph cycle {
         "createClientRoutes";
     }
 
-    "fetchAndApplyManifestPatches" -> "Router" [color="#6699CC"; penwidth="0.5"];
     "getPatchRoutesOnNavigationFunction_pkg" -> "Router" [color="#6699CC"; penwidth="0.5"];
-    "getPatchRoutesOnNavigationFunction_pkg" -> "AssetsManifest" [color="#6699CC"; penwidth="0.5"];
+    "fetchAndApplyManifestPatches" -> "Router" [color="#6699CC"; penwidth="0.5"];
     "fetchAndApplyManifestPatches" -> "AssetsManifest" [color="#6699CC"; penwidth="0.5"];
+    "getPatchRoutesOnNavigationFunction_pkg" -> "AssetsManifest" [color="#6699CC"; penwidth="0.5"];
     "getPatchRoutesOnNavigationFunction_pkg" -> "RouteModules" [color="#6699CC"; penwidth="0.5"];
     "fetchAndApplyManifestPatches" -> "RouteModules" [color="#6699CC"; penwidth="0.5"];
     "fetchAndApplyManifestPatches" -> "createClientRoutes" [color="#6699CC"; penwidth="0.5"];

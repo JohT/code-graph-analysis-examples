@@ -1,6 +1,6 @@
 ---
 title: "Internal Dependencies Report"
-generated: "2026-07-27"
+generated: "2026-08-03"
 model_version: "v4.0.2"
 dataset: "react-router-7.18.1"
 authors: ["JohT/code-graph-analysis-pipeline"]
@@ -78,9 +78,9 @@ Classes used across artifacts — extraction candidates. High reuse = type grown
 | directoryDistance | numberOfDependencies | percentageOfDependencies | numberOfDependencyUsers | numberOfDependencyProviders | examples |
 | --- | --- | --- | --- | --- | --- |
 | 0 | 154 | 41.85 | 71 | 88 | ["./server.ts uses ./index.ts","./index.ts uses ./server.ts","./index.ts uses ./stream.ts","./index.ts uses ./copy-template.ts"] |
-| 3 | 43 | 11.68 | 22 | 33 | ["./index.ts uses ./sessions/fileStorage.ts","./config/config.ts uses ./config.ts","./vite/plugin.ts uses ./config.ts","./vite/plugin.ts uses ./manifest.ts"] |
-| 4 | 121 | 32.88 | 43 | 41 | ["./vite/rsc/virtual-route-config.ts uses ./routes.ts","./config/config.ts uses ./cli/detectPackageManager.ts","./typegen/generate.ts uses ./config/config.ts","./vite/optimize-deps-entries.ts uses ./config/config.ts"] |
-| 5 | 48 | 13.04 | 23 | 17 | ["./vite/rsc/plugin.ts uses ./config/config.ts","./vite/rsc/plugin.ts uses ./config/routes.ts","./vite/rsc/virtual-route-config.ts uses ./config/routes.ts","./vite/rsc/plugin.ts uses ./typegen/index.ts"] |
+| 3 | 43 | 11.68 | 22 | 33 | ["./index.ts uses ./sessions/fileStorage.ts","./vite/plugin.ts uses ./config.ts","./config/config.ts uses ./config.ts","./vite/plugin.ts uses ./manifest.ts"] |
+| 4 | 121 | 32.88 | 43 | 41 | ["./vite/rsc/virtual-route-config.ts uses ./routes.ts","./config/config.ts uses ./cli/detectPackageManager.ts","./vite/optimize-deps-entries.ts uses ./config/config.ts","./typegen/generate.ts uses ./config/config.ts"] |
+| 5 | 48 | 13.04 | 23 | 17 | ["./vite/rsc/plugin.ts uses ./config/config.ts","./vite/rsc/virtual-route-config.ts uses ./config/routes.ts","./vite/rsc/plugin.ts uses ./config/routes.ts","./vite/rsc/plugin.ts uses ./typegen/index.ts"] |
 | 6 | 2 | 0.54 | 2 | 2 | ["./vendor/turbo-stream-v2/unflatten.ts uses ./lib/router/utils.ts","./lib/server-runtime/single-fetch.ts uses ./vendor/turbo-stream-v2/turbo-stream.ts"] |
 
 [Full data](./Distance_distribution_between_dependent_files.csv)
@@ -212,7 +212,7 @@ Graph diameter = longest shortest path among module pairs. Higher = deeper trans
 | 4 | 181 | 44 | 69 | ["./cli/run.ts ->./manifest.ts","./cli/run.ts ->./routes.ts"] |
 | 3 | 560 | 51 | 81 | ["./index.ts ->./prompts-prompt-base.ts","./cli/run.ts ->./config.ts"] |
 | 2 | 949 | 63 | 99 | ["./server.ts ->./stream.ts","./server.ts ->./sessions/fileStorage.ts"] |
-| 1 | 354 | 89 | 119 | ["./server.ts ->./index.ts","./index.ts ->./server.ts"] |
+| 1 | 354 | 89 | 119 | ["./server.ts ->./binaryTypes.ts","./defineRoutes.ts ->./manifest.ts"] |
 
 [Full data per project](./Typescript_Module/Module_all_pairs_shortest_paths_distribution_per_project.csv)
 

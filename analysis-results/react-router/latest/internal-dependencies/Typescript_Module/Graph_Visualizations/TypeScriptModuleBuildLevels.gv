@@ -41,8 +41,8 @@ strict digraph TypeScriptModuleBuildLevels {
 	"react-router-7.18.1\ncommands\n(level 1/5)" -> "react-router-7.18.1\nformat\n(level 2/5)" [label = 120; penwidth = 1.03; ];
 	"react-router-7.18.1\ncommands\n(level 1/5)" -> "react-router-7.18.1\nuseJavascript\n(level 2/5)" [label = 120; penwidth = 1.03; ];
 	"react-router-7.18.1\nplugin\n(level 0/5)" -> "react-router-7.18.1\nvirtual-route-config\n(level 1/5)" [label = 120; penwidth = 1.03; ];
-	"react-router-7.18.1\nreact-router-fs-routes\n(level 0/5)" -> "react-router-7.18.1\nmanifest\n(level 2/5)" [label = 45; penwidth = 1.01; ];
 	"react-router-7.18.1\nreact-router-fs-routes\n(level 0/5)" -> "react-router-7.18.1\nnormalizeSlashes\n(level 2/5)" [label = 45; penwidth = 1.01; ];
+	"react-router-7.18.1\nreact-router-fs-routes\n(level 0/5)" -> "react-router-7.18.1\nmanifest\n(level 2/5)" [label = 45; penwidth = 1.01; ];
 	"react-router-7.18.1\nreact-router-fs-routes\n(level 0/5)" -> "react-router-7.18.1\nflatRoutes\n(level 1/5)" [label = 45; penwidth = 1.01; ];
 	"react-router-7.18.1\ndefineRoutes\n(level 0/5)" -> "react-router-7.18.1\nmanifest\n(level 1/5)" [label = 6; penwidth = 1.0; ];
 	"react-router-7.18.1\ndefineRoutes\n(level 0/5)" -> "react-router-7.18.1\nnormalizeSlashes\n(level 1/5)" [label = 1; penwidth = 1.0; ];

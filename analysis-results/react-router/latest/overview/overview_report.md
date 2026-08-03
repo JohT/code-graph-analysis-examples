@@ -1,6 +1,6 @@
 ---
 title: "Overview Report"
-generated: "2026-07-27"
+generated: "2026-08-03"
 model_version: "v4.0.2"
 dataset: "react-router-7.18.1"
 authors: ["JohT/code-graph-analysis-pipeline"]
@@ -111,8 +111,8 @@ Shows which node labels are connected by each relationship type, with count and 
 | ["Git","Change","Create"] | MODIFIES | ["Git"] | 17520 |
 | ["Git","Change","Create"] | CREATES | ["Git"] | 17520 |
 | ["Git","Commit"] | HAS_PARENT | ["Git","Commit"] | 12073 |
-| ["Committer","Person","Git","Author"] | COMMITTED | ["Git","Commit"] | 10982 |
 | ["Repository","Git"] | HAS_COMMIT | ["Git","Commit"] | 10982 |
+| ["Committer","Person","Git","Author"] | COMMITTED | ["Git","Commit"] | 10982 |
 
 [Full data](./Node_labels_and_their_relationships.csv)
 
