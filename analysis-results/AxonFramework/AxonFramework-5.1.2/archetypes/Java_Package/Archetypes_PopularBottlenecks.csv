@@ -1,6 +1,6 @@
 "codeUnitName","shortCodeUnitName","projectName","betweenness","pageRank","degree","incomingDependencies","outgoingDependencies","Source Cypher File: domains/archetypes/queries/AnomalyDetectionPopularBottlenecks.cypher"
 "org.axonframework.messaging.core","core","axon-messaging-5.1.2",1186.3,6.395915548685645,14073,13678,395,""
-"org.axonframework.messaging.core.unitofwork","unitofwork","axon-messaging-5.1.2",392.3333333333333,1.5933847344784098,12238,12129,109,""
+"org.axonframework.messaging.core.unitofwork","unitofwork","axon-messaging-5.1.2",392.33333333333337,1.5933847344784098,12238,12129,109,""
 "org.axonframework.common.configuration","configuration","axon-common-5.1.2",103.14285714285714,1.400518259136048,3861,3499,362,""
 "org.axonframework.messaging.core.annotation","annotation","axon-messaging-5.1.2",1351.9714285714283,0.9451248372381634,980,509,471,""
 "org.axonframework.eventsourcing.eventstore","eventstore","axon-eventsourcing-5.1.2",231.4,0.5329101349692642,1260,275,985,""

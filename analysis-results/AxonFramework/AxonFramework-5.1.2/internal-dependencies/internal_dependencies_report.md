@@ -1,6 +1,6 @@
 ---
 title: "Internal Dependencies Report"
-generated: "2026-07-27"
+generated: "2026-08-03"
 model_version: "v4.0.2"
 dataset: "AxonFramework-5.1.2"
 authors: ["JohT/code-graph-analysis-pipeline"]
@@ -192,11 +192,11 @@ Graph diameter = longest shortest path. Higher = deeper transitive dependencies.
 | distance | pairCount | sourceNodeCount | targetNodeCount | examples |
 | --- | --- | --- | --- | --- |
 | 6 | 1 | 1 | 1 | ["/org/axonframework/extension/metrics/micrometer/springboot ->/org/axonframework/common/function"] |
-| 5 | 90 | 35 | 22 | ["/org/axonframework/messaging/eventhandling/conversion ->/org/axonframework/common/io","/org/axonframework/messaging/eventhandling/processing/streaming ->/org/axonframework/common/io"] |
-| 4 | 597 | 94 | 49 | ["/io/axoniq/framework/springboot/autoconfig ->/org/axonframework/modelling","/io/axoniq/framework/springboot/autoconfig ->/org/axonframework/modelling/annotation"] |
+| 5 | 90 | 35 | 22 | ["/org/axonframework/eventsourcing/snapshot/api ->/org/axonframework/common/io","/org/axonframework/extension/metrics/micrometer/springboot ->/org/axonframework/common/io"] |
+| 4 | 597 | 94 | 49 | ["/org/axonframework/test/extension ->/org/axonframework/modelling","/org/axonframework/eventsourcing/snapshot/inmemory ->/org/axonframework/modelling"] |
 | 3 | 976 | 100 | 65 | ["/io/axoniq/framework/axonserver/connector/snapshot ->/org/axonframework/modelling","/io/axoniq/framework/axonserver/connector/configuration ->/org/axonframework/modelling"] |
 | 2 | 990 | 108 | 80 | ["/io/axoniq/framework/axonserver/connector/query ->/org/axonframework/modelling","/io/axoniq/framework/axonserver/connector/event ->/org/axonframework/modelling"] |
-| 1 | 777 | 118 | 98 | ["/io/axoniq/framework/springboot ->/io/axoniq/framework/axonserver/connector/api","/org/axonframework/modelling/annotation ->/org/axonframework/modelling"] |
+| 1 | 777 | 118 | 98 | ["/org/axonframework/modelling/annotation ->/org/axonframework/modelling","/io/axoniq/framework/springboot ->/io/axoniq/framework/axonserver/connector/api"] |
 
 [Full data per project](./Java_Package/Package_all_pairs_shortest_paths_distribution_per_project.csv)
 

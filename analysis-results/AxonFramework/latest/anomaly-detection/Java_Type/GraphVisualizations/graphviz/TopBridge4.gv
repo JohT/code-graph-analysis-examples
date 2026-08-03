@@ -12,27 +12,21 @@ strict digraph TopBridge4 {
     central [fontsize = 16;];
     central [color = 7; fillcolor = 5; penwidth = 3;];
 
-	graph   [label="Top Rank #4 Java Type Bridge\norg.axonframework.test.util.MessageMonitorReport$Report\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
-	central [label="🌉 bridge #4\nMessageMonitorReport$Report"];
-	"MessageMonitorReport_16805" [label = "MessageMonitorReport"; ]; "MessageMonitorReport_16805" -> central [label=8; weight=8; penwidth=0.5];
-	"MessageMonitorReport$Report$Failure_16819" [label = "MessageMonitorReport$\nReport$\nFailure"; ]; "MessageMonitorReport$Report$Failure_16819" -> central [label=2; weight=2; penwidth=0.4];
-	"MessageMonitorReport$Report$Ignored_16818" [label = "MessageMonitorReport$\nReport$\nIgnored"; ]; "MessageMonitorReport$Report$Ignored_16818" -> central [label=2; weight=2; penwidth=0.4];
-	"MessageMonitorReport$Report$Success_16817" [label = "MessageMonitorReport$\nReport$\nSuccess"; ]; "MessageMonitorReport$Report$Success_16817" -> central [label=2; weight=2; penwidth=0.4];
-	"RecordingMessageMonitor$1_16807" [label = "RecordingMessageMonitor$\n1"; ]; "RecordingMessageMonitor$1_16807" -> central [label=1; weight=1; penwidth=0.4];
-	"Message_25158" [label = "Message"; color = 5; fillcolor = 1; ]; central -> "Message_25158" [label=1; weight=1; penwidth=0.4; color = 5];
-	"MessageMonitorReport$Report$Failure_16819" [label = "MessageMonitorReport$\nReport$\nFailure"; color = 5; fillcolor = 1; ]; central -> "MessageMonitorReport$Report$Failure_16819" [label=1; weight=1; penwidth=0.4; color = 5];
-	"MessageMonitorReport$Report$Ignored_16818" [label = "MessageMonitorReport$\nReport$\nIgnored"; color = 5; fillcolor = 1; ]; central -> "MessageMonitorReport$Report$Ignored_16818" [label=1; weight=1; penwidth=0.4; color = 5];
-	"MessageMonitorReport$Report$Success_16817" [label = "MessageMonitorReport$\nReport$\nSuccess"; color = 5; fillcolor = 1; ]; central -> "MessageMonitorReport$Report$Success_16817" [label=1; weight=1; penwidth=0.4; color = 5];
-	"MessageMonitorReport_16805" -> "MessageMonitorReport$Report$Failure_16819" [label=7; weight=7; penwidth=0.3; color = 3]
-	"MessageMonitorReport_16805" -> "MessageMonitorReport$Report$Success_16817" [label=7; weight=7; penwidth=0.3; color = 3]
-	"MessageMonitorReport_16805" -> "MessageMonitorReport$Report$Ignored_16818" [label=7; weight=7; penwidth=0.3; color = 3]
-	"RecordingMessageMonitor$1_16807" -> "MessageMonitorReport_16805" [label=6; weight=6; penwidth=0.3; color = 3]
-	"MessageMonitorReport_16805" -> "Message_25158" [label=3; weight=3; penwidth=0.3; color = 3]
-	"MessageMonitorReport$Report$Failure_16819" -> "Message_25158" [label=3; weight=3; penwidth=0.3; color = 3]
-	"MessageMonitorReport$Report$Ignored_16818" -> "Message_25158" [label=3; weight=3; penwidth=0.3; color = 3]
-	"MessageMonitorReport$Report$Success_16817" -> "Message_25158" [label=3; weight=3; penwidth=0.3; color = 3]
-	"RecordingMessageMonitor$1_16807" -> "Message_25158" [label=1; weight=1; penwidth=0.3; color = 3]
-	"RecordingMessageMonitor$1_16807" -> "MessageMonitorReport$Report$Ignored_16818" [label=1; weight=1; penwidth=0.3; color = 3]
-	"RecordingMessageMonitor$1_16807" -> "MessageMonitorReport$Report$Failure_16819" [label=1; weight=1; penwidth=0.3; color = 3]
-	"RecordingMessageMonitor$1_16807" -> "MessageMonitorReport$Report$Success_16817" [label=1; weight=1; penwidth=0.3; color = 3]
+	graph   [label="Top Rank #4 Java Type Bridge\norg.axonframework.messaging.eventstreaming.EventTypeRestrictableOrEventCriteria\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
+	central [label="🌉 bridge #4\nEventTypeRestrictableOrEventCriteria"];
+	"OrEventCriteriaBuilder_34678" [label = "OrEventCriteriaBuilder"; ]; "OrEventCriteriaBuilder_34678" -> central [label=2; weight=2; penwidth=0.4];
+	"EventCriteria_31410" [label = "EventCriteria"; color = 5; fillcolor = 1; ]; central -> "EventCriteria_31410" [label=4; weight=4; penwidth=0.5; color = 5];
+	"EventTypeRestrictableEventCriteria_31419" [label = "EventTypeRestrictableEventCriteria"; color = 5; fillcolor = 1; ]; central -> "EventTypeRestrictableEventCriteria_31419" [label=4; weight=4; penwidth=0.5; color = 5];
+	"OrEventCriteria_34677" [label = "OrEventCriteria"; color = 5; fillcolor = 1; ]; central -> "OrEventCriteria_34677" [label=2; weight=2; penwidth=0.4; color = 5];
+	"QualifiedName_26160" [label = "QualifiedName"; color = 5; fillcolor = 1; ]; central -> "QualifiedName_26160" [label=1; weight=1; penwidth=0.4; color = 5];
+	"OrEventCriteria_34677" -> "EventCriteria_31410" [label=12; weight=12; penwidth=0.3; color = 3]
+	"EventTypeRestrictableEventCriteria_31419" -> "EventCriteria_31410" [label=6; weight=6; penwidth=0.3; color = 3]
+	"OrEventCriteriaBuilder_34678" -> "EventCriteria_31410" [label=6; weight=6; penwidth=0.3; color = 3]
+	"OrEventCriteriaBuilder_34678" -> "EventTypeRestrictableEventCriteria_31419" [label=6; weight=6; penwidth=0.3; color = 3]
+	"EventCriteria_31410" -> "OrEventCriteria_34677" [label=4; weight=4; penwidth=0.3; color = 3]
+	"EventCriteria_31410" -> "EventTypeRestrictableEventCriteria_31419" [label=4; weight=4; penwidth=0.3; color = 3]
+	"EventCriteria_31410" -> "OrEventCriteriaBuilder_34678" [label=3; weight=3; penwidth=0.3; color = 3]
+	"EventTypeRestrictableEventCriteria_31419" -> "QualifiedName_26160" [label=3; weight=3; penwidth=0.3; color = 3]
+	"OrEventCriteria_34677" -> "QualifiedName_26160" [label=2; weight=2; penwidth=0.3; color = 3]
+	"EventCriteria_31410" -> "QualifiedName_26160" [label=1; weight=1; penwidth=0.3; color = 3]
 }

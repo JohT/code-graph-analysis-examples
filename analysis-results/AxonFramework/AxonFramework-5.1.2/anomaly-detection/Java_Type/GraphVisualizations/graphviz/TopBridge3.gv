@@ -12,17 +12,19 @@ strict digraph TopBridge3 {
     central [fontsize = 16;];
     central [color = 7; fillcolor = 5; penwidth = 3;];
 
-	graph   [label="Top Rank #3 Java Type Bridge\norg.axonframework.test.util.MessageMonitorReport$Report$Failure\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
-	central [label="🌉 bridge #3\nMessageMonitorReport$Report$Failure"];
-	"MessageMonitorReport_16805" [label = "MessageMonitorReport"; ]; "MessageMonitorReport_16805" -> central [label=7; weight=7; penwidth=0.5];
-	"MessageMonitorReport$Report_16800" [label = "MessageMonitorReport$\nReport"; ]; "MessageMonitorReport$Report_16800" -> central [label=1; weight=1; penwidth=0.4];
-	"RecordingMessageMonitor$1_16807" [label = "RecordingMessageMonitor$\n1"; ]; "RecordingMessageMonitor$1_16807" -> central [label=1; weight=1; penwidth=0.4];
-	"Message_25158" [label = "Message"; color = 5; fillcolor = 1; ]; central -> "Message_25158" [label=3; weight=3; penwidth=0.4; color = 5];
-	"MessageMonitorReport$Report_16800" [label = "MessageMonitorReport$\nReport"; color = 5; fillcolor = 1; ]; central -> "MessageMonitorReport$Report_16800" [label=2; weight=2; penwidth=0.4; color = 5];
-	"MessageMonitorReport_16805" -> "MessageMonitorReport$Report_16800" [label=8; weight=8; penwidth=0.3; color = 3]
-	"RecordingMessageMonitor$1_16807" -> "MessageMonitorReport_16805" [label=6; weight=6; penwidth=0.3; color = 3]
-	"MessageMonitorReport_16805" -> "Message_25158" [label=3; weight=3; penwidth=0.3; color = 3]
-	"MessageMonitorReport$Report_16800" -> "Message_25158" [label=1; weight=1; penwidth=0.3; color = 3]
-	"RecordingMessageMonitor$1_16807" -> "Message_25158" [label=1; weight=1; penwidth=0.3; color = 3]
-	"RecordingMessageMonitor$1_16807" -> "MessageMonitorReport$Report_16800" [label=1; weight=1; penwidth=0.3; color = 3]
+	graph   [label="Top Rank #3 Java Type Bridge\norg.axonframework.common.caching.Cache\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
+	central [label="🌉 bridge #3\nCache"];
+	"AbstractCacheAdapter_10144" [label = "AbstractCacheAdapter"; ]; "AbstractCacheAdapter_10144" -> central [label=1; weight=1; penwidth=0.4];
+	"NoCache_11042" [label = "NoCache"; ]; "NoCache_11042" -> central [label=1; weight=1; penwidth=0.4];
+	"WeakReferenceCache_11040" [label = "WeakReferenceCache"; ]; "WeakReferenceCache_11040" -> central [label=1; weight=1; penwidth=0.4];
+	"Cache$EntryListener_10475" [label = "Cache$\nEntryListener"; color = 5; fillcolor = 1; ]; central -> "Cache$EntryListener_10475" [label=2; weight=2; penwidth=0.4; color = 5];
+	"Cache$EntryListenerAdapter_10123" [label = "Cache$\nEntryListenerAdapter"; color = 5; fillcolor = 1; ]; central -> "Cache$EntryListenerAdapter_10123" [label=1; weight=1; penwidth=0.4; color = 5];
+	"Registration_10474" [label = "Registration"; color = 5; fillcolor = 1; ]; central -> "Registration_10474" [label=1; weight=1; penwidth=0.4; color = 5];
+	"WeakReferenceCache_11040" -> "Cache$EntryListener_10475" [label=24; weight=24; penwidth=0.3; color = 3]
+	"AbstractCacheAdapter_10144" -> "Cache$EntryListener_10475" [label=5; weight=5; penwidth=0.3; color = 3]
+	"AbstractCacheAdapter_10144" -> "Registration_10474" [label=4; weight=4; penwidth=0.3; color = 3]
+	"Cache$EntryListenerAdapter_10123" -> "Cache$EntryListener_10475" [label=2; weight=2; penwidth=0.3; color = 3]
+	"NoCache_11042" -> "Cache$EntryListener_10475" [label=2; weight=2; penwidth=0.3; color = 3]
+	"NoCache_11042" -> "Registration_10474" [label=1; weight=1; penwidth=0.3; color = 3]
+	"WeakReferenceCache_11040" -> "Registration_10474" [label=1; weight=1; penwidth=0.3; color = 3]
 }
