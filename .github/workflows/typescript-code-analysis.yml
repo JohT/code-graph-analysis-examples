@@ -61,7 +61,7 @@ jobs:
   analyze-code-graph:
     name: Analyze Code Graph
     needs: [prepare-code-to-analyze]
-    uses: JohT/code-graph-analysis-pipeline/.github/workflows/public-analyze-code-graph.yml@24538c67bb08d4970b315ba99495203143cf66b9 # v4.0.1
+    uses: JohT/code-graph-analysis-pipeline/.github/workflows/public-analyze-code-graph.yml@3506d93491660971334c71390417a08a2e80c57a # v4.0.2
     with:
       analysis-name: ${{ needs.prepare-code-to-analyze.outputs.analysis-name }}
       source-repository: https://github.com/remix-run/react-router.git
