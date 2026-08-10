@@ -12,16 +12,13 @@ strict digraph TopOutlier5 {
     central [fontsize = 16;];
     central [color = 7; fillcolor = 5; penwidth = 3;];
 
-	graph   [label="Top Rank #5 Java Package Outlier\norg.axonframework.messaging.eventhandling.processing.streaming.token.annotation\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: cluster probability\nlarge circle: < 25% percentile of cluster probability\nthick outline: > 80% percentile of distance to cluster center\n\n"];
-	central [label="🧩 outlier #5\nannotation"];
-	"token_25111"  [label = "token\n(98.85%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "token_25111" [label=2; weight=2; penwidth=0.4; color = 5];
-	"annotation_25131"  [label = "annotation\n(98.92%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "annotation_25131" [label=1; weight=1; penwidth=0.4; color = 5];
-	"core_25130"  [label = "core\n(98.34%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "core_25130" [label=1; weight=1; penwidth=0.4; color = 5];
-	"unitofwork_25139"  [label = "unitofwork\n(68.33%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "unitofwork_25139" [label=1; weight=1; penwidth=0.4; color = 5];
-	"annotation_25131" -> "core_25130" [label=86; weight=86; penwidth=0.3; color = 3]
-	"unitofwork_25139" -> "core_25130" [label=50; weight=50; penwidth=0.3; color = 3]
-	"annotation_25131" -> "unitofwork_25139" [label=14; weight=14; penwidth=0.3; color = 3]
-	"token_25111" -> "core_25130" [label=6; weight=6; penwidth=0.3; color = 3]
-	"core_25130" -> "unitofwork_25139" [label=5; weight=5; penwidth=0.3; color = 3]
-	"core_25130" -> "annotation_25131" [label=1; weight=1; penwidth=0.3; color = 3]
+	graph   [label="Top Rank #5 Java Package Outlier\norg.axonframework.common.lifecycle\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: cluster probability\nlarge circle: < 25% percentile of cluster probability\nthick outline: > 80% percentile of distance to cluster center\n\n"];
+	central [label="🧩 outlier #5\nlifecycle"];
+	"query_4130"  [label = "query\n(77.37%)"; penwidth = 5; ]; "query_4130" -> central [label=16; weight=16; penwidth=0.7];
+	"command_4136"  [shape = "circle"; height=1.8; label = "command\n(69.04%)"; penwidth = 5; ]; "command_4136" -> central [label=12; weight=12; penwidth=0.6];
+	"configuration_8894"  [shape = "circle"; height=1.8; label = "configuration\n(0.0%)"; penwidth = 2; ]; "configuration_8894" -> central [label=2; weight=2; penwidth=0.4];
+	"common_8881"  [label = "common\n(100.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "common_8881" [label=2; weight=2; penwidth=0.4; color = 5];
+	"configuration_8894" -> "common_8881" [label=42; weight=42; penwidth=0.3; color = 3]
+	"query_4130" -> "common_8881" [label=10; weight=10; penwidth=0.3; color = 3]
+	"command_4136" -> "common_8881" [label=4; weight=4; penwidth=0.3; color = 3]
 }

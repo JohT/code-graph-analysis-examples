@@ -19,18 +19,18 @@ strict digraph cycle {
         "MessageHandlingMember";
         "ChainedMessageHandlerInterceptorMember";
         "DefaultParameterResolverFactory";
-        "SourceIdParameterResolverFactory$SourceIdParameterResolver";
         "InterceptorChainParameterResolverFactory";
+        "SourceIdParameterResolverFactory$SourceIdParameterResolver";
         "Message_pkg" [label="Message"];
         "AnnotatedHandlerInspector";
         "MultiHandlerDefinition";
         "HandlerAttributes";
         "HandlerDefinition";
-        "PayloadParameterResolver";
         "MessageStreamResolverUtils";
-        "DefaultParameterResolverFactory$MetadataParameterResolver";
+        "PayloadParameterResolver";
         "DefaultParameterResolverFactory$AnnotatedMetadataParameterResolver";
         "AnnotatedHandlerAttributes";
+        "DefaultParameterResolverFactory$MetadataParameterResolver";
         "AnnotationMessageTypeResolver";
     }
 
@@ -39,22 +39,22 @@ strict digraph cycle {
         style="filled";
         fillcolor="peachpuff";
         "LegacyResources";
-        "ClassBasedMessageTypeResolver";
         "MessageHandlerInterceptorChain";
+        "ClassBasedMessageTypeResolver";
         "Context$ResourceKey";
+        "GenericMessage";
         "DelayedMessageStream";
         "MessageStream$Entry";
-        "GenericMessage";
         "Metadata";
-        "QualifiedName";
         "MessageTypeResolver";
+        "QualifiedName";
         "MessageStream";
         "SimpleHandlerAttributes";
         "FluxUtils";
         "Message_dep" [label="Message"];
         "MonoUtils";
-        "MessageStream$Single";
         "MessageStream$Empty";
+        "MessageStream$Single";
         "MessageType";
     }
 
@@ -63,8 +63,8 @@ strict digraph cycle {
     "MessageStreamResolverUtils" -> "FluxUtils" [color="#6699CC"; penwidth="0.5"];
     "AnnotationMessageTypeResolver" -> "MessageTypeResolver" [color="#6699CC"; penwidth="0.5"];
     "AnnotatedHandlerInspector" -> "MessageStream" [color="#6699CC"; penwidth="0.5"];
-    "InterceptorChainParameterResolverFactory" -> "Message_dep" [color="#6699CC"; penwidth="0.5"];
     "MessageStreamResolverUtils" -> "GenericMessage" [color="#6699CC"; penwidth="0.5"];
+    "InterceptorChainParameterResolverFactory" -> "Message_dep" [color="#6699CC"; penwidth="0.5"];
     "InterceptorChainParameterResolverFactory" -> "Context$ResourceKey" [color="#6699CC"; penwidth="0.5"];
     "AnnotationMessageTypeResolver" -> "MessageType" [color="#6699CC"; penwidth="0.5"];
     "MethodInvokingMessageHandlingMember" -> "MessageStream" [color="#6699CC"; penwidth="0.5"];
@@ -83,17 +83,17 @@ strict digraph cycle {
     "DefaultParameterResolverFactory$AnnotatedMetadataParameterResolver" -> "Message_dep" [color="#6699CC"; penwidth="0.5"];
     "MethodInvokingMessageHandlingMember" -> "MessageStream$Entry" [color="#6699CC"; penwidth="0.5"];
     "DefaultParameterResolverFactory" -> "Metadata" [color="#6699CC"; penwidth="0.5"];
-    "DefaultParameterResolverFactory" -> "Message_dep" [color="#6699CC"; penwidth="0.5"];
     "MessageStreamResolverUtils" -> "MessageStream" [color="#6699CC"; penwidth="0.5"];
-    "DefaultParameterResolverFactory$MetadataParameterResolver" -> "Metadata" [color="#6699CC"; penwidth="0.5"];
+    "DefaultParameterResolverFactory" -> "Message_dep" [color="#6699CC"; penwidth="0.5"];
     "HandlerDefinition" -> "MessageStream" [color="#6699CC"; penwidth="0.5"];
+    "DefaultParameterResolverFactory$MetadataParameterResolver" -> "Metadata" [color="#6699CC"; penwidth="0.5"];
     "AggregateTypeParameterResolverFactory$AggregateTypeParameterResolver" -> "LegacyResources" [color="#6699CC"; penwidth="0.5"];
     "MessageStreamResolverUtils" -> "MessageStream$Single" [color="#6699CC"; penwidth="0.5"];
     "MessageStreamResolverUtils" -> "MessageTypeResolver" [color="#6699CC"; penwidth="0.5"];
     "AnnotatedHandlerAttributes" -> "SimpleHandlerAttributes" [color="#6699CC"; penwidth="0.5"];
     "MethodInvokingMessageHandlingMember" -> "DelayedMessageStream" [color="#6699CC"; penwidth="0.5"];
-    "MessageHandlingMember" -> "MessageStream" [color="#6699CC"; penwidth="0.5"];
     "MessageStreamResolverUtils" -> "MonoUtils" [color="#6699CC"; penwidth="0.5"];
+    "MessageHandlingMember" -> "MessageStream" [color="#6699CC"; penwidth="0.5"];
     "AnnotationMessageTypeResolver" -> "ClassBasedMessageTypeResolver" [color="#6699CC"; penwidth="0.5"];
     "MethodInvokingMessageHandlingMember" -> "MessageStream$Empty" [color="#6699CC"; penwidth="0.5"];
     "AnnotatedMessageHandlingMemberDefinition" -> "MessageStream" [color="#6699CC"; penwidth="0.5"];

@@ -1,7 +1,7 @@
 "projectName","shortCodeUnitName","codeUnitName","betweenness","rank","Source Cypher File: domains/archetypes/labels/ArchetypeBottleneck.cypher"
 "axon-messaging-5.1.2","MessageStream","org.axonframework.messaging.core.MessageStream",11352.07135642136,1,""
 "axon-messaging-5.1.2","Message","org.axonframework.messaging.core.Message",9809.049206349207,2,""
-"axon-messaging-5.1.2","ProcessingContext","org.axonframework.messaging.core.unitofwork.ProcessingContext",6610.471428571428,3,""
+"axon-messaging-5.1.2","ProcessingContext","org.axonframework.messaging.core.unitofwork.ProcessingContext",6610.471428571427,3,""
 "axon-messaging-5.1.2","QualifiedName","org.axonframework.messaging.core.QualifiedName",4625.822222222222,4,""
 "axon-common-5.1.2","ReflectionUtils","org.axonframework.common.ReflectionUtils",4488.466666666667,5,""
 "axon-messaging-5.1.2","MessageType","org.axonframework.messaging.core.MessageType",4159.611111111112,6,""

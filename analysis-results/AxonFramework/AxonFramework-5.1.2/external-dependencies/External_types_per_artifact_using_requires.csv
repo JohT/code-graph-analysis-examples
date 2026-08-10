@@ -10,7 +10,7 @@
 "axon-common-5.1.2","javax.cache",1,13,175,"Cache",""
 "axon-common-5.1.2","org.ehcache.core",1,13,175,"Ehcache",""
 "axon-common-5.1.2","org.ehcache.config",1,2,175,"CacheRuntimeConfiguration",""
-"axon-conversion-5.1.2","org.apache.avro",16,54,41,"SchemaNormalization,SchemaCompatibility,SchemaCompatibility$Incompatibility,Schema,SchemaCompatibility$SchemaPairCompatibility,SchemaCompatibility$SchemaCompatibilityResult,SchemaCompatibility$SchemaCompatibilityType,SchemaCompatibility$SchemaIncompatibilityType,AvroRuntimeException,InvalidAvroMagicException,InvalidNumberEncodingException",""
+"axon-conversion-5.1.2","org.apache.avro",16,54,41,"SchemaCompatibility,SchemaCompatibility$Incompatibility,Schema,SchemaCompatibility$SchemaPairCompatibility,SchemaCompatibility$SchemaCompatibilityResult,SchemaCompatibility$SchemaCompatibilityType,SchemaCompatibility$SchemaIncompatibilityType,SchemaNormalization,AvroRuntimeException,InvalidAvroMagicException,InvalidNumberEncodingException",""
 "axon-conversion-5.1.2","tools.jackson.databind",8,39,41,"JsonNode,ObjectMapper,JavaType",""
 "axon-conversion-5.1.2","org.slf4j",8,39,41,"Logger,LoggerFactory",""
 "axon-conversion-5.1.2","com.fasterxml.jackson.databind",8,42,41,"ObjectMapper,JavaType,JsonNode",""
