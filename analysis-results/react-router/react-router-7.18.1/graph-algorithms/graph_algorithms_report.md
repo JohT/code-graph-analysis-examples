@@ -1,6 +1,6 @@
 ---
 title: "Graph Algorithms Report"
-generated: "2026-08-03"
+generated: "2026-08-10"
 model_version: "v4.0.2"
 dataset: "react-router-7.18.1"
 authors: ["JohT/code-graph-analysis-pipeline"]
