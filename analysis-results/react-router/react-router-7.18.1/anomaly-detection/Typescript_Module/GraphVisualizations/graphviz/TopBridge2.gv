@@ -12,10 +12,26 @@ strict digraph TopBridge2 {
     central [fontsize = 16;];
     central [color = 7; fillcolor = 5; penwidth = 3;];
 
-	graph   [label="Top Rank #2 Typescript Module Bridge\n/home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.18.1/source/react-router-7.18.1/packages/react-router-dev/config.ts\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
+	graph   [label="Top Rank #2 Typescript Module Bridge\n/home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.18.1/source/react-router-7.18.1/packages/react-router-dev/config/config.ts\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
 	central [label="🌉 bridge #2\nconfig"];
-	"config_13759" [label = "config"; ]; "config_13759" -> central [label=224; weight=224; penwidth=0.5];
-	"plugin_13783" [label = "plugin"; ]; "plugin_13783" -> central [label=4; weight=4; penwidth=0.4];
-	"config_13759" [label = "config"; color = 5; fillcolor = 1; ]; central -> "config_13759" [label=1; weight=1; penwidth=0.4; color = 5];
-	"plugin_13783" -> "config_13759" [label=30; weight=30; penwidth=0.3; color = 3]
+	"generate_97023" [label = "generate"; ]; "generate_97023" -> central [label=40; weight=40; penwidth=0.4];
+	"optimize-deps-entries_97039" [label = "optimize-deps-entries"; ]; "optimize-deps-entries_97039" -> central [label=40; weight=40; penwidth=0.4];
+	"plugin_97040" [label = "plugin"; ]; "plugin_97040" -> central [label=15; weight=15; penwidth=0.4];
+	"plugin_97056" [label = "plugin"; ]; "plugin_97056" -> central [label=9; weight=9; penwidth=0.4];
+	"commands_97010" [label = "commands"; ]; "commands_97010" -> central [label=8; weight=8; penwidth=0.4];
+	"build_97029" [label = "build"; ]; "build_97029" -> central [label=4; weight=4; penwidth=0.4];
+	"cloudflare-dev-proxy_97031" [label = "cloudflare-dev-proxy"; ]; "cloudflare-dev-proxy_97031" -> central [label=4; weight=4; penwidth=0.4];
+	"config_97003" [label = "config"; color = 5; fillcolor = 1; ]; central -> "config_97003" [label=48; weight=48; penwidth=0.4; color = 5];
+	"routes_97020" [label = "routes"; color = 5; fillcolor = 1; ]; central -> "routes_97020" [label=17; weight=17; penwidth=0.4; color = 5];
+	"vite-node_97049" [label = "vite-node"; color = 5; fillcolor = 1; ]; central -> "vite-node_97049" [label=5; weight=5; penwidth=0.4; color = 5];
+	"detectPackageManager_97012" [label = "detectPackageManager"; color = 5; fillcolor = 1; ]; central -> "detectPackageManager_97012" [label=4; weight=4; penwidth=0.4; color = 5];
+	"plugin_97040" -> "routes_97020" [label=233; weight=233; penwidth=0.3; color = 3]
+	"generate_97023" -> "routes_97020" [label=38; weight=38; penwidth=0.3; color = 3]
+	"build_97029" -> "plugin_97040" [label=28; weight=28; penwidth=0.3; color = 3]
+	"commands_97010" -> "build_97029" [label=5; weight=5; penwidth=0.3; color = 3]
+	"plugin_97040" -> "optimize-deps-entries_97039" [label=4; weight=4; penwidth=0.3; color = 3]
+	"plugin_97056" -> "optimize-deps-entries_97039" [label=4; weight=4; penwidth=0.3; color = 3]
+	"plugin_97056" -> "plugin_97040" [label=4; weight=4; penwidth=0.3; color = 3]
+	"plugin_97056" -> "routes_97020" [label=4; weight=4; penwidth=0.3; color = 3]
+	"plugin_97040" -> "config_97003" [label=2; weight=2; penwidth=0.3; color = 3]
 }

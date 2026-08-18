@@ -1,6 +1,6 @@
 ---
 title: "Anomaly Detection Report"
-generated: "2026-08-10"
+generated: "2026-08-18"
 model_version: "v4.0.2"
 dataset: "react-router-7.18.1"
 authors: ["JohT/code-graph-analysis-pipeline"]
@@ -28,13 +28,13 @@ The goal is to detect potential **software quality, design, and architecture iss
 
 | Analyzed Units | Anomalies | Bridges | Outliers |
 | --- | --- | --- | --- |
-| 201 | 7 | 7 | 10 |
+| 201 | 7 | 7 | 4 |
 
 ### 1.2 Overview of Analyzed Structures
 
 | Abstraction Level | Units | Anomalies | Bridges | Outliers |
 | --- | --- | --- | --- | --- |
-| TS,Local,Module | 157 | 7 | 7 | 10 |
+| TS,Local,Module | 157 | 7 | 7 | 4 |
 | Package,Json,NPM | 33 | 0 | 0 | 0 |
 | Package,Json,NPM,NpmNonDevPackage | 7 | 0 | 0 | 0 |
 | Package,Json,NPM,NpmDevPackage | 2 | 0 | 0 | 0 |
@@ -66,43 +66,42 @@ Each abstraction level includes anomaly statistics, SHAP feature importance, arc
 
 | Anomalies | Bridges | Outliers | CodeUnits | Dependencies | GraphDensity |
 | --- | --- | --- | --- | --- | --- |
-| 7 | 7 | 10 | 131 | 708 | 0.041574 |
+| 7 | 7 | 4 | 130 | 700 | 0.041741 |
 
 ##### Top global contributing features (via SHAP)
 
 | Feature | Mean absolute SHAP value |
 | --- | --- |
-| pageToArticleRankDifference | 0.028675 |
-| *Node embeddings aggregated* | 0.027421 |
-| pageRank | 0.016439 |
-| articleRank | 0.009967 |
-| degree | 0.007942 |
-| incomingDependencies | 0.006593 |
-| outgoingDependencies | 0.003638 |
-| topologicalComponentLayer | 0.002972 |
-| nodeEmbeddingPCA_11 | 0.002967 |
-| nodeEmbeddingPCA_18 | 0.002649 |
-| nodeEmbeddingPCA_10 | 0.002635 |
+| *Node embeddings aggregated* | 0.035470 |
+| pageToArticleRankDifference | 0.021200 |
+| pageRank | 0.016596 |
+| articleRank | 0.010648 |
+| incomingDependencies | 0.007977 |
+| degree | 0.007152 |
+| topologicalComponentLayer | 0.006970 |
+| nodeEmbeddingPCA_8 | 0.006454 |
+| nodeEmbeddingPCA_19 | 0.004134 |
+| stronglyConnectedComponentSizeRatio | 0.003856 |
+| nodeEmbeddingPCA_4 | 0.002889 |
 
 #### Archetype Distribution
 
 | Archetype | Count | Max. Score | Model Status | Examples |
 | --- | --- | --- | --- | --- |
-| Bridge | 7 | 0.0451 | Anomalous | /home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.18.1/source/react-router-7.18.1/packages/react-router-dev/config/config.ts, /home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.18.1/source/react-router-7.18.1/packages/react-router/index.ts, /home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.18.1/source/react-router-7.18.1/packages/react-router/index-react-server.ts |
-| Outlier | 1 | 0.0067 | Anomalous | /home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.18.1/source/react-router-7.18.1/packages/react-router-express/server.ts |
-| Outlier | 9 | -0.0019 | Typical | /home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.18.1/source/react-router-7.18.1/packages/react-router-express/index.ts, /home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.18.1/source/react-router-7.18.1/packages/react-router-cloudflare/worker.ts, /home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.18.1/source/react-router-7.18.1/packages/react-router-cloudflare/index.ts |
+| Bridge | 7 | 0.0754 | Anomalous | /home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.18.1/source/react-router-7.18.1/packages/react-router/index.ts, /home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.18.1/source/react-router-7.18.1/packages/react-router/index-react-server.ts, /home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.18.1/source/react-router-7.18.1/packages/react-router-dev/config.ts |
+| Outlier | 4 | -0.0007 | Typical | /home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.18.1/source/react-router-7.18.1/packages/react-router-dev/vite/dev.ts, /home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.18.1/source/react-router-7.18.1/packages/react-router-dev/vite/profiler.ts, /home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.18.1/source/react-router-7.18.1/packages/react-router-dev/cli/run.ts |
 
 #### Top anomalies with their local contributing features (via SHAP)
 
 | Name | Contained in | Anomaly Score | Archetypes | Top Feature 1 | Top Feature 1 SHAP | Top Feature 2 | Top Feature 2 SHAP | Top Feature 3 | Top Feature 3 SHAP | Model Status |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| /home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.18.1/source/react-router-7.18.1/packages/react-router-dev/config/config.ts | react-router-dev | 0.0451 | Bridge, Outlier | pageToArticleRankDifference | -0.2517 | pageRank | -0.0958 | nodeEmbeddingPCA_16 | -0.0581 | Anomalous |
-| /home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.18.1/source/react-router-7.18.1/packages/react-router/index.ts | react-router | 0.0298 | Bridge, Outlier | pageToArticleRankDifference | -0.2339 | pageRank | -0.172 | incomingDependencies | -0.1251 | Anomalous |
-| /home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.18.1/source/react-router-7.18.1/packages/react-router/index-react-server.ts | react-router | 0.0143 | Bridge, Outlier | pageToArticleRankDifference | -0.2424 | pageRank | -0.1568 | articleRank | -0.1286 | Anomalous |
-| /home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.18.1/source/react-router-7.18.1/packages/react-router-express/server.ts | react-router-express | 0.0067 | Bridge, Outlier | pageToArticleRankDifference | -0.2562 | nodeEmbeddingPCA_10 | -0.0685 | nodeEmbeddingPCA_19 | -0.042 | Anomalous |
-| /home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.18.1/source/react-router-7.18.1/packages/react-router/lib/router/utils.ts | react-router | 0.0062 | Bridge, Outlier | pageToArticleRankDifference | -0.2418 | pageRank | -0.1338 | articleRank | -0.1285 | Anomalous |
-| /home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.18.1/source/react-router-7.18.1/packages/react-router-dev/config.ts | react-router-dev | 0.0047 | Bridge, Outlier | pageToArticleRankDifference | -0.248 | pageRank | -0.0827 | nodeEmbeddingPCA_18 | -0.0441 | Anomalous |
-| /home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.18.1/source/react-router-7.18.1/packages/react-router-dev/config/routes.ts | react-router-dev | 0.0002 | Bridge, Outlier | pageToArticleRankDifference | -0.2318 | pageRank | -0.1619 | articleRank | -0.087 | Anomalous |
+| /home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.18.1/source/react-router-7.18.1/packages/react-router/index.ts | react-router | 0.0754 | Bridge, Outlier | pageToArticleRankDifference | -0.1736 | pageRank | -0.1717 | incomingDependencies | -0.146 | Anomalous |
+| /home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.18.1/source/react-router-7.18.1/packages/react-router/index-react-server.ts | react-router | 0.0678 | Bridge, Outlier | pageRank | -0.1874 | pageToArticleRankDifference | -0.1746 | articleRank | -0.1234 | Anomalous |
+| /home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.18.1/source/react-router-7.18.1/packages/react-router-dev/config.ts | react-router-dev | 0.0436 | Bridge, Outlier | pageToArticleRankDifference | -0.0889 | topologicalComponentLayer | -0.0777 | nodeEmbeddingPCA_8 | -0.0597 | Anomalous |
+| /home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.18.1/source/react-router-7.18.1/packages/react-router-dev/config/routes.ts | react-router-dev | 0.0212 | Bridge, Outlier | pageToArticleRankDifference | -0.1885 | pageRank | -0.1825 | articleRank | -0.0952 | Anomalous |
+| /home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.18.1/source/react-router-7.18.1/packages/react-router-dev/config/config.ts | react-router-dev | 0.018 | Bridge, Outlier | pageToArticleRankDifference | -0.1446 | nodeEmbeddingPCA_19 | -0.0777 | topologicalComponentLayer | -0.0711 | Anomalous |
+| /home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.18.1/source/react-router-7.18.1/packages/react-router/lib/router/utils.ts | react-router | 0.0117 | Bridge, Outlier | pageRank | -0.1847 | incomingDependencies | -0.1363 | articleRank | -0.1157 | Anomalous |
+| /home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.18.1/source/react-router-7.18.1/packages/react-router-dev/routes.ts | react-router-dev | 0.0006 | Bridge, Outlier | pageToArticleRankDifference | -0.188 | pageRank | -0.1822 | articleRank | -0.1103 | Anomalous |
 
 #### Visualizations
 
@@ -180,6 +179,14 @@ Each abstraction level includes anomaly statistics, SHAP feature importance, arc
 ![TopBridge 4](./Typescript_Module/GraphVisualizations/TopBridge4.svg)
 
 ![TopBridge 5](./Typescript_Module/GraphVisualizations/TopBridge5.svg)
+
+---
+
+##### TopOutlier Graph Visualizations
+
+![TopOutlier 1](./Typescript_Module/GraphVisualizations/TopOutlier1.svg)
+
+![TopOutlier 2](./Typescript_Module/GraphVisualizations/TopOutlier2.svg)
 
 --
 

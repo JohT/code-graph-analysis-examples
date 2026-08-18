@@ -12,19 +12,14 @@ strict digraph TopBottleneck5 {
     central [fontsize = 16;];
     central [color = 7; fillcolor = 5; penwidth = 3;];
 
-	graph   [label="Top Rank #5 Typescript Module Bottleneck\n/home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.18.1/source/react-router-7.18.1/packages/react-router/dom-export.ts\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: Betweenness centrality\nthick outline: > 90% percentile of Betweenness centrality\n\n"];
-	central [label="🔒 bottleneck #5\ndom-export"];
-	"server_97958"  [label = "server\n(112.0)"; penwidth = 2; ]; "server_97958" -> central [label=78; weight=78; penwidth=0.4];
-	"react-router_97930"  [label = "react-router\n(1195.33)"; penwidth = 5; ]; "react-router_97930" -> central [label=1; weight=1; penwidth=0.4];
-	"react-router_97929"  [label = "react-router\n(298.5)"; penwidth = 2; ]; "react-router_97929" -> central [label=1; weight=1; penwidth=0.4];
-	"browser_97959"  [label = "browser\n(0.0)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "browser_97959" [label=1; weight=1; penwidth=0.4; color = 5];
-	"react-router_97929"  [label = "react-router\n(298.5)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "react-router_97929" [label=1; weight=1; penwidth=0.4; color = 5];
-	"react-router_97930"  [label = "react-router\n(1195.33)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "react-router_97930" [label=1; weight=1; penwidth=0.4; color = 5];
-	"server_97958"  [label = "server\n(112.0)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "server_97958" [label=1; weight=1; penwidth=0.4; color = 5];
-	"server_97958" -> "react-router_97930" [label=280; weight=280; penwidth=0.3; color = 3]
-	"server_97958" -> "react-router_97929" [label=40; weight=40; penwidth=0.3; color = 3]
-	"react-router_97930" -> "react-router_97929" [label=26; weight=26; penwidth=0.3; color = 3]
-	"react-router_97929" -> "react-router_97930" [label=18; weight=18; penwidth=0.3; color = 3]
-	"react-router_97930" -> "server_97958" [label=11; weight=11; penwidth=0.3; color = 3]
-	"react-router_97929" -> "server_97958" [label=9; weight=9; penwidth=0.3; color = 3]
+	graph   [label="Top Rank #5 Typescript Module Bottleneck\n/home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.18.1/source/react-router-7.18.1/packages/react-router/lib/types/route-data.ts\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: Betweenness centrality\nthick outline: > 90% percentile of Betweenness centrality\n\n"];
+	central [label="🔒 bottleneck #5\nroute-data"];
+	"routeModules_86528"  [label = "routeModules\n(353.5)"; penwidth = 2; ]; "routeModules_86528" -> central [label=6; weight=6; penwidth=0.4];
+	"route-module_86571"  [label = "route-module\n(37.0)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "route-module_86571" [label=6; weight=6; penwidth=0.4; color = 5];
+	"data_86546"  [label = "data\n(1.5)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "data_86546" [label=3; weight=3; penwidth=0.4; color = 5];
+	"react-router_86510"  [label = "react-router\n(1250.5)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "react-router_86510" [label=3; weight=3; penwidth=0.4; color = 5];
+	"data_86546" -> "react-router_86510" [label=689; weight=689; penwidth=0.3; color = 3]
+	"routeModules_86528" -> "react-router_86510" [label=182; weight=182; penwidth=0.3; color = 3]
+	"react-router_86510" -> "routeModules_86528" [label=3; weight=3; penwidth=0.3; color = 3]
+	"react-router_86510" -> "data_86546" [label=0; weight=0; penwidth=0.3; color = 3]
 }

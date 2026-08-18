@@ -1,6 +1,6 @@
 ---
 title: "Node Embeddings Report"
-generated: "2026-08-10"
+generated: "2026-08-18"
 model_version: "v4.0.2"
 dataset: "react-router-7.18.1"
 authors: ["JohT/code-graph-analysis-pipeline"]
@@ -38,7 +38,7 @@ Shows which embedding properties exist and on how many nodes per label.
 
 | nodeLabels | nodeCount | fastRandomProjectionCount | hashGNNCount | node2VecCount | fastRandomProjectionDimensions | hashGNNDimensions | node2VecDimensions |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| ["TS","Local","Module"] | 131 | 131 | 131 | 131 | 32 | 32 | 32 |
+| ["TS","Local","Module"] | 130 | 130 | 130 | 130 | 32 | 32 | 32 |
 
 ---
 
@@ -49,16 +49,16 @@ Useful to verify that the embedding pipeline ran end-to-end and that the propert
 
 | nodeLabels | nodeName | embeddingDimensions | communityLeidenId | pageRankScore |
 | --- | --- | --- | --- | --- |
-| ["TS","Local","Module"] | ./index.ts | 32 | 8 | 8.150240394925964 |
-| ["TS","Local","Module"] | ./config/routes.ts | 32 | 5 | 4.510155154175984 |
-| ["TS","Local","Module"] | ./index-react-server.ts | 32 | 8 | 4.3577885425688185 |
-| ["TS","Local","Module"] | ./routes.ts | 32 | 5 | 4.04872680184805 |
-| ["TS","Local","Module"] | ./lib/router/utils.ts | 32 | 8 | 3.822423393062565 |
-| ["TS","Local","Module"] | ./lib/router/history.ts | 32 | 8 | 2.273652054730552 |
-| ["TS","Local","Module"] | ./config/config.ts | 32 | 4 | 1.89713732533955 |
-| ["TS","Local","Module"] | ./lib/rsc/server.rsc.ts | 32 | 8 | 1.7583672785631015 |
-| ["TS","Local","Module"] | ./config.ts | 32 | 4 | 1.4592375318539754 |
-| ["TS","Local","Module"] | ./lib/router/router.ts | 32 | 8 | 1.4529576338219823 |
+| ["TS","Local","Module"] | ./index.ts | 32 | 2 | 7.74454794932003 |
+| ["TS","Local","Module"] | ./index-react-server.ts | 32 | 1 | 5.966840687252372 |
+| ["TS","Local","Module"] | ./config/routes.ts | 32 | 16 | 4.590541454489806 |
+| ["TS","Local","Module"] | ./routes.ts | 32 | 16 | 4.117128388905979 |
+| ["TS","Local","Module"] | ./lib/router/utils.ts | 32 | 1 | 3.652890036891216 |
+| ["TS","Local","Module"] | ./lib/rsc/server.rsc.ts | 32 | 0 | 2.7327267995487743 |
+| ["TS","Local","Module"] | ./lib/router/router.ts | 32 | 1 | 1.578272736463822 |
+| ["TS","Local","Module"] | ./config/config.ts | 32 | 16 | 1.3778280655650803 |
+| ["TS","Local","Module"] | ./utils.ts | 32 | 15 | 1.2457147505432433 |
+| ["TS","Local","Module"] | ./lib/router/history.ts | 32 | 2 | 1.1792603401652801 |
 
 ---
 

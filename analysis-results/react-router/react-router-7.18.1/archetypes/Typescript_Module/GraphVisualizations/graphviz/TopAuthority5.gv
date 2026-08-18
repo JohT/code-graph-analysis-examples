@@ -12,10 +12,7 @@ strict digraph TopAuthority5 {
     central [fontsize = 16;];
     central [color = 7; fillcolor = 5; penwidth = 3;];
 
-	graph   [label="Top Rank #5 Typescript Module Authority\n/home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.18.1/source/react-router-7.18.1/packages/react-router-dev/config.ts\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: Page Rank (normalized)\nlarge circle: > 80% percentile of Page Rank\nthick outline: > 80% percentile of Page Rank to Article Rank Difference\n\n"];
-	central [label="🏛️ authority #5\nconfig"];
-	"config_13759"  [label = "config\n(21.84%)"; penwidth = 5; ]; "config_13759" -> central [label=224; weight=224; penwidth=0.5];
-	"plugin_13783"  [label = "plugin\n(1.21%)"; penwidth = 2; ]; "plugin_13783" -> central [label=4; weight=4; penwidth=0.4];
-	"config_13759"  [label = "config\n(21.84%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "config_13759" [label=1; weight=1; penwidth=0.4; color = 5];
-	"plugin_13783" -> "config_13759" [label=30; weight=30; penwidth=0.3; color = 3]
+	graph   [label="Top Rank #5 Typescript Module Authority\n/home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.18.1/source/react-router-7.18.1/packages/react-router-dev/config/is-react-router-repo.ts\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: Page Rank (normalized)\nlarge circle: > 80% percentile of Page Rank\nthick outline: > 80% percentile of Page Rank to Article Rank Difference\n\n"];
+	central [label="🏛️ authority #5\nis-react-router-repo"];
+	"vite_97050"  [label = "vite\n(9.61%)"; penwidth = 5; ]; "vite_97050" -> central [label=4; weight=4; penwidth=0.4];
 }

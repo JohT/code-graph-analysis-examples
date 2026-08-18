@@ -12,7 +12,10 @@ strict digraph TopBridge1 {
     central [fontsize = 16;];
     central [color = 7; fillcolor = 5; penwidth = 3;];
 
-	graph   [label="Top Rank #1 Typescript Module Bridge\n/home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.18.1/source/react-router-7.18.1/packages/react-router-express/server.ts\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
-	central [label="🌉 bridge #1\nserver"];
-	"react-router-express_7752" [label = "react-router-express"; color = 5; fillcolor = 1; ]; central -> "react-router-express_7752" [label=72; weight=72; penwidth=0.4; color = 5];
+	graph   [label="Top Rank #1 Typescript Module Bridge\n/home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.18.1/source/react-router-7.18.1/packages/react-router-dev/config.ts\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
+	central [label="🌉 bridge #1\nconfig"];
+	"config_97016" [label = "config"; ]; "config_97016" -> central [label=48; weight=48; penwidth=0.4];
+	"plugin_97040" [label = "plugin"; ]; "plugin_97040" -> central [label=2; weight=2; penwidth=0.4];
+	"config_97016" [label = "config"; color = 5; fillcolor = 1; ]; central -> "config_97016" [label=1; weight=1; penwidth=0.4; color = 5];
+	"plugin_97040" -> "config_97016" [label=15; weight=15; penwidth=0.3; color = 3]
 }
