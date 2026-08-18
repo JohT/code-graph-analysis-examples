@@ -12,38 +12,48 @@ strict digraph TopBridge5 {
     central [fontsize = 16;];
     central [color = 7; fillcolor = 5; penwidth = 3;];
 
-	graph   [label="Top Rank #5 Java Type Bridge\norg.axonframework.messaging.eventstreaming.TagAndTypeFilteredEventCriteria\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
-	central [label="🌉 bridge #5\nTagAndTypeFilteredEventCriteria"];
-	"AnyEvent_34676" [label = "AnyEvent"; ]; "AnyEvent_34676" -> central [label=2; weight=2; penwidth=0.4];
-	"TagFilteredEventCriteria_34686" [label = "TagFilteredEventCriteria"; ]; "TagFilteredEventCriteria_34686" -> central [label=2; weight=2; penwidth=0.4];
-	"OrEventCriteria_34677" [label = "OrEventCriteria"; color = 5; fillcolor = 1; ]; central -> "OrEventCriteria_34677" [label=5; weight=5; penwidth=0.5; color = 5];
-	"QualifiedName_26160" [label = "QualifiedName"; color = 5; fillcolor = 1; ]; central -> "QualifiedName_26160" [label=5; weight=5; penwidth=0.5; color = 5];
-	"Tag_34515" [label = "Tag"; color = 5; fillcolor = 1; ]; central -> "Tag_34515" [label=5; weight=5; penwidth=0.5; color = 5];
-	"EventCriteria_31400" [label = "EventCriteria"; color = 5; fillcolor = 1; ]; central -> "EventCriteria_31400" [label=4; weight=4; penwidth=0.5; color = 5];
-	"EventCriterion_34666" [label = "EventCriterion"; color = 5; fillcolor = 1; ]; central -> "EventCriterion_34666" [label=2; weight=2; penwidth=0.4; color = 5];
-	"AnyEvent_34676" [label = "AnyEvent"; color = 5; fillcolor = 1; ]; central -> "AnyEvent_34676" [label=1; weight=1; penwidth=0.4; color = 5];
-	"OrEventCriteria_34677" -> "EventCriteria_31400" [label=12; weight=12; penwidth=0.3; color = 3]
-	"EventCriteria_31400" -> "Tag_34515" [label=5; weight=5; penwidth=0.3; color = 3]
-	"TagFilteredEventCriteria_34686" -> "EventCriteria_31400" [label=5; weight=5; penwidth=0.3; color = 3]
-	"TagFilteredEventCriteria_34686" -> "OrEventCriteria_34677" [label=5; weight=5; penwidth=0.3; color = 3]
-	"TagFilteredEventCriteria_34686" -> "Tag_34515" [label=5; weight=5; penwidth=0.3; color = 3]
-	"AnyEvent_34676" -> "EventCriteria_31400" [label=4; weight=4; penwidth=0.3; color = 3]
-	"EventCriteria_31400" -> "OrEventCriteria_34677" [label=4; weight=4; penwidth=0.3; color = 3]
-	"TagFilteredEventCriteria_34686" -> "QualifiedName_26160" [label=3; weight=3; penwidth=0.3; color = 3]
-	"AnyEvent_34676" -> "QualifiedName_26160" [label=2; weight=2; penwidth=0.3; color = 3]
-	"EventCriteria_31400" -> "TagFilteredEventCriteria_34686" [label=2; weight=2; penwidth=0.3; color = 3]
-	"EventCriteria_31400" -> "AnyEvent_34676" [label=2; weight=2; penwidth=0.3; color = 3]
-	"OrEventCriteria_34677" -> "QualifiedName_26160" [label=2; weight=2; penwidth=0.3; color = 3]
-	"TagFilteredEventCriteria_34686" -> "EventCriterion_34666" [label=2; weight=2; penwidth=0.3; color = 3]
-	"AnyEvent_34676" -> "EventCriterion_34666" [label=1; weight=1; penwidth=0.3; color = 3]
-	"AnyEvent_34676" -> "Tag_34515" [label=1; weight=1; penwidth=0.3; color = 3]
-	"EventCriteria_31400" -> "EventCriterion_34666" [label=1; weight=1; penwidth=0.3; color = 3]
-	"EventCriteria_31400" -> "QualifiedName_26160" [label=1; weight=1; penwidth=0.3; color = 3]
-	"EventCriterion_34666" -> "Tag_34515" [label=1; weight=1; penwidth=0.3; color = 3]
-	"EventCriterion_34666" -> "EventCriteria_31400" [label=1; weight=1; penwidth=0.3; color = 3]
-	"EventCriterion_34666" -> "QualifiedName_26160" [label=1; weight=1; penwidth=0.3; color = 3]
-	"OrEventCriteria_34677" -> "EventCriterion_34666" [label=1; weight=1; penwidth=0.3; color = 3]
-	"OrEventCriteria_34677" -> "Tag_34515" [label=1; weight=1; penwidth=0.3; color = 3]
-	"OrEventCriteria_34677" -> "AnyEvent_34676" [label=1; weight=1; penwidth=0.3; color = 3]
-	"TagFilteredEventCriteria_34686" -> "AnyEvent_34676" [label=1; weight=1; penwidth=0.3; color = 3]
+	graph   [label="Top Rank #5 Java Type Bridge\norg.axonframework.messaging.eventstreaming.TagFilteredEventCriteria\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
+	central [label="🌉 bridge #5\nTagFilteredEventCriteria"];
+	"EventCriteria_11787" [label = "EventCriteria"; ]; "EventCriteria_11787" -> central [label=2; weight=2; penwidth=0.4];
+	"OrEventCriteriaBuilder_15739" [label = "OrEventCriteriaBuilder"; ]; "OrEventCriteriaBuilder_15739" -> central [label=2; weight=2; penwidth=0.4];
+	"EventCriteria_11787" [label = "EventCriteria"; color = 5; fillcolor = 1; ]; central -> "EventCriteria_11787" [label=5; weight=5; penwidth=0.5; color = 5];
+	"OrEventCriteria_15675" [label = "OrEventCriteria"; color = 5; fillcolor = 1; ]; central -> "OrEventCriteria_15675" [label=5; weight=5; penwidth=0.5; color = 5];
+	"Tag_15736" [label = "Tag"; color = 5; fillcolor = 1; ]; central -> "Tag_15736" [label=5; weight=5; penwidth=0.5; color = 5];
+	"QualifiedName_8210" [label = "QualifiedName"; color = 5; fillcolor = 1; ]; central -> "QualifiedName_8210" [label=3; weight=3; penwidth=0.4; color = 5];
+	"EventCriterion_15735" [label = "EventCriterion"; color = 5; fillcolor = 1; ]; central -> "EventCriterion_15735" [label=2; weight=2; penwidth=0.4; color = 5];
+	"TagAndTypeFilteredEventCriteria_15737" [label = "TagAndTypeFilteredEventCriteria"; color = 5; fillcolor = 1; ]; central -> "TagAndTypeFilteredEventCriteria_15737" [label=2; weight=2; penwidth=0.4; color = 5];
+	"AnyEvent_15674" [label = "AnyEvent"; color = 5; fillcolor = 1; ]; central -> "AnyEvent_15674" [label=1; weight=1; penwidth=0.4; color = 5];
+	"EventTypeRestrictableEventCriteria_11796" [label = "EventTypeRestrictableEventCriteria"; color = 5; fillcolor = 1; ]; central -> "EventTypeRestrictableEventCriteria_11796" [label=1; weight=1; penwidth=0.4; color = 5];
+	"OrEventCriteria_15675" -> "EventCriteria_11787" [label=12; weight=12; penwidth=0.3; color = 3]
+	"EventTypeRestrictableEventCriteria_11796" -> "EventCriteria_11787" [label=6; weight=6; penwidth=0.3; color = 3]
+	"OrEventCriteriaBuilder_15739" -> "EventTypeRestrictableEventCriteria_11796" [label=6; weight=6; penwidth=0.3; color = 3]
+	"OrEventCriteriaBuilder_15739" -> "EventCriteria_11787" [label=6; weight=6; penwidth=0.3; color = 3]
+	"EventCriteria_11787" -> "Tag_15736" [label=5; weight=5; penwidth=0.3; color = 3]
+	"TagAndTypeFilteredEventCriteria_15737" -> "OrEventCriteria_15675" [label=5; weight=5; penwidth=0.3; color = 3]
+	"TagAndTypeFilteredEventCriteria_15737" -> "QualifiedName_8210" [label=5; weight=5; penwidth=0.3; color = 3]
+	"TagAndTypeFilteredEventCriteria_15737" -> "Tag_15736" [label=5; weight=5; penwidth=0.3; color = 3]
+	"AnyEvent_15674" -> "EventCriteria_11787" [label=4; weight=4; penwidth=0.3; color = 3]
+	"EventCriteria_11787" -> "EventTypeRestrictableEventCriteria_11796" [label=4; weight=4; penwidth=0.3; color = 3]
+	"EventCriteria_11787" -> "OrEventCriteria_15675" [label=4; weight=4; penwidth=0.3; color = 3]
+	"TagAndTypeFilteredEventCriteria_15737" -> "EventCriteria_11787" [label=4; weight=4; penwidth=0.3; color = 3]
+	"EventCriteria_11787" -> "OrEventCriteriaBuilder_15739" [label=3; weight=3; penwidth=0.3; color = 3]
+	"EventTypeRestrictableEventCriteria_11796" -> "QualifiedName_8210" [label=3; weight=3; penwidth=0.3; color = 3]
+	"AnyEvent_15674" -> "QualifiedName_8210" [label=2; weight=2; penwidth=0.3; color = 3]
+	"AnyEvent_15674" -> "TagAndTypeFilteredEventCriteria_15737" [label=2; weight=2; penwidth=0.3; color = 3]
+	"EventCriteria_11787" -> "AnyEvent_15674" [label=2; weight=2; penwidth=0.3; color = 3]
+	"OrEventCriteria_15675" -> "QualifiedName_8210" [label=2; weight=2; penwidth=0.3; color = 3]
+	"OrEventCriteriaBuilder_15739" -> "Tag_15736" [label=2; weight=2; penwidth=0.3; color = 3]
+	"TagAndTypeFilteredEventCriteria_15737" -> "EventCriterion_15735" [label=2; weight=2; penwidth=0.3; color = 3]
+	"AnyEvent_15674" -> "EventTypeRestrictableEventCriteria_11796" [label=1; weight=1; penwidth=0.3; color = 3]
+	"AnyEvent_15674" -> "EventCriterion_15735" [label=1; weight=1; penwidth=0.3; color = 3]
+	"AnyEvent_15674" -> "Tag_15736" [label=1; weight=1; penwidth=0.3; color = 3]
+	"EventCriteria_11787" -> "QualifiedName_8210" [label=1; weight=1; penwidth=0.3; color = 3]
+	"EventCriteria_11787" -> "EventCriterion_15735" [label=1; weight=1; penwidth=0.3; color = 3]
+	"EventCriterion_15735" -> "QualifiedName_8210" [label=1; weight=1; penwidth=0.3; color = 3]
+	"EventCriterion_15735" -> "Tag_15736" [label=1; weight=1; penwidth=0.3; color = 3]
+	"EventCriterion_15735" -> "EventCriteria_11787" [label=1; weight=1; penwidth=0.3; color = 3]
+	"OrEventCriteria_15675" -> "Tag_15736" [label=1; weight=1; penwidth=0.3; color = 3]
+	"OrEventCriteria_15675" -> "EventCriterion_15735" [label=1; weight=1; penwidth=0.3; color = 3]
+	"OrEventCriteria_15675" -> "AnyEvent_15674" [label=1; weight=1; penwidth=0.3; color = 3]
+	"TagAndTypeFilteredEventCriteria_15737" -> "AnyEvent_15674" [label=1; weight=1; penwidth=0.3; color = 3]
 }

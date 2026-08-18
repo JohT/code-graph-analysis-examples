@@ -16,33 +16,33 @@
 <text xml:space="preserve" text-anchor="middle" x="211.5" y="-403.71" font-family="Helvetica,Arial,sans-serif" font-size="14.00">node value: cluster probability</text>
 <text xml:space="preserve" text-anchor="middle" x="211.5" y="-386.91" font-family="Helvetica,Arial,sans-serif" font-size="14.00">large circle: &lt; 25% percentile of cluster probability</text>
 <text xml:space="preserve" text-anchor="middle" x="211.5" y="-370.11" font-family="Helvetica,Arial,sans-serif" font-size="14.00">thick outline: &gt; 80% percentile of distance to cluster center</text>
-<!-- central&#45;&gt;ConversionException_24163 -->
+<!-- central&#45;&gt;ConversionException_45127 -->
 <g id="edge1" class="edge">
-<title>central&#45;&gt;ConversionException_24163</title>
+<title>central&#45;&gt;ConversionException_45127</title>
 <path fill="none" stroke="#66c2a4" stroke-width="0.4" d="M192.88,-118.26C175.07,-99.68 157.53,-81.39 143.24,-66.5"/>
 <polygon fill="#66c2a4" stroke="#66c2a4" stroke-width="0.4" points="144.26,-65.53 140.48,-63.62 142.24,-67.47 144.26,-65.53"/>
 <text xml:space="preserve" text-anchor="middle" x="165.35" y="-91.79" font-family="Times,serif" font-size="4.00">2</text>
 </g>
-<!-- central&#45;&gt;AvroUtil_24971 -->
+<!-- central&#45;&gt;AvroUtil_44671 -->
 <g id="edge2" class="edge">
-<title>central&#45;&gt;AvroUtil_24971</title>
-<path fill="none" stroke="#66c2a4" stroke-width="0.4" d="M275.68,-81.64C275.59,-80.41 275.51,-79.2 275.42,-78.01"/>
-<polygon fill="#66c2a4" stroke="#66c2a4" stroke-width="0.4" points="276.83,-78 275.15,-74.11 274.03,-78.2 276.83,-78"/>
-<text xml:space="preserve" text-anchor="middle" x="274.44" y="-79.44" font-family="Times,serif" font-size="4.00">1</text>
+<title>central&#45;&gt;AvroUtil_44671</title>
+<path fill="none" stroke="#66c2a4" stroke-width="0.4" d="M275.68,-81.64C275.55,-79.84 275.43,-78.08 275.31,-76.36"/>
+<polygon fill="#66c2a4" stroke="#66c2a4" stroke-width="0.4" points="276.71,-76.39 275.04,-72.5 273.92,-76.59 276.71,-76.39"/>
+<text xml:space="preserve" text-anchor="middle" x="274.35" y="-78.21" font-family="Times,serif" font-size="4.00">1</text>
 </g>
-<!-- central&#45;&gt;ContentTypeConverter_23681 -->
+<!-- central&#45;&gt;ContentTypeConverter_44889 -->
 <g id="edge3" class="edge">
-<title>central&#45;&gt;ContentTypeConverter_23681</title>
+<title>central&#45;&gt;ContentTypeConverter_44889</title>
 <path fill="none" stroke="#66c2a4" stroke-width="0.4" d="M156.61,-249.52C149.84,-251.38 143.2,-253.21 136.8,-254.97"/>
 <polygon fill="#66c2a4" stroke="#66c2a4" stroke-width="0.4" points="136.49,-253.6 133,-256.02 137.23,-256.3 136.49,-253.6"/>
 <text xml:space="preserve" text-anchor="middle" x="143.71" y="-253.99" font-family="Times,serif" font-size="4.00">1</text>
 </g>
-<!-- AvroUtil_24971&#45;&gt;ConversionException_24163 -->
+<!-- AvroUtil_44671&#45;&gt;ConversionException_45127 -->
 <g id="edge4" class="edge">
-<title>AvroUtil_24971&#45;&gt;ConversionException_24163</title>
-<path fill="none" stroke="#ccece6" stroke-width="0.3" d="M223.59,-36.79C209.79,-36.26 194.52,-35.66 179.78,-35.09"/>
-<polygon fill="#ccece6" stroke="#ccece6" stroke-width="0.3" points="180.14,-33.7 176.09,-34.95 180.03,-36.5 180.14,-33.7"/>
-<text xml:space="preserve" text-anchor="middle" x="198.96" y="-37.07" font-family="Times,serif" font-size="4.00">9</text>
+<title>AvroUtil_44671&#45;&gt;ConversionException_45127</title>
+<path fill="none" stroke="#ccece6" stroke-width="0.3" d="M225.35,-36.86C211.16,-36.31 195.3,-35.69 180.01,-35.1"/>
+<polygon fill="#ccece6" stroke="#ccece6" stroke-width="0.3" points="180.22,-33.71 176.16,-34.95 180.11,-36.5 180.22,-33.71"/>
+<text xml:space="preserve" text-anchor="middle" x="199.58" y="-37.1" font-family="Times,serif" font-size="4.00">9</text>
 </g>
 <!-- central -->
 <g id="node1" class="node">
@@ -52,23 +52,23 @@
 <text xml:space="preserve" text-anchor="middle" x="284.93" y="-219.03" font-family="Times,serif" font-size="16.00">🧩 outlier #2</text>
 <text xml:space="preserve" text-anchor="middle" x="284.93" y="-199.83" font-family="Times,serif" font-size="16.00">GenericRecordToByteArrayConverter</text>
 </g>
-<!-- ConversionException_24163 -->
+<!-- ConversionException_45127 -->
 <g id="node2" class="node">
-<title>ConversionException_24163</title>
+<title>ConversionException_45127</title>
 <ellipse fill="#f7fcfd" stroke="#66c2a4" stroke-width="5" cx="110.54" cy="-32.4" rx="63" ry="32.4"/>
 <text xml:space="preserve" text-anchor="middle" x="110.54" y="-36" font-family="Times,serif" font-size="12.00">ConversionException</text>
-<text xml:space="preserve" text-anchor="middle" x="110.54" y="-21.6" font-family="Times,serif" font-size="12.00">(80.57%)</text>
+<text xml:space="preserve" text-anchor="middle" x="110.54" y="-21.6" font-family="Times,serif" font-size="12.00">(63.42%)</text>
 </g>
-<!-- AvroUtil_24971 -->
+<!-- AvroUtil_44671 -->
 <g id="node3" class="node">
-<title>AvroUtil_24971</title>
-<ellipse fill="#f7fcfd" stroke="#66c2a4" stroke-width="5" cx="272.68" cy="-38.7" rx="46.8" ry="32.4"/>
+<title>AvroUtil_44671</title>
+<ellipse fill="#f7fcfd" stroke="#66c2a4" stroke-width="2" cx="272.68" cy="-38.7" rx="46.8" ry="32.4"/>
 <text xml:space="preserve" text-anchor="middle" x="272.68" y="-42.3" font-family="Times,serif" font-size="12.00">AvroUtil</text>
-<text xml:space="preserve" text-anchor="middle" x="272.68" y="-27.9" font-family="Times,serif" font-size="12.00">(80.66%)</text>
+<text xml:space="preserve" text-anchor="middle" x="272.68" y="-27.9" font-family="Times,serif" font-size="12.00">(54.48%)</text>
 </g>
-<!-- ContentTypeConverter_23681 -->
+<!-- ContentTypeConverter_44889 -->
 <g id="node4" class="node">
-<title>ContentTypeConverter_23681</title>
+<title>ContentTypeConverter_44889</title>
 <ellipse fill="#f7fcfd" stroke="#66c2a4" stroke-width="2" cx="73.26" cy="-272.45" rx="66.87" ry="32.4"/>
 <text xml:space="preserve" text-anchor="middle" x="73.26" y="-276.05" font-family="Times,serif" font-size="12.00">ContentTypeConverter</text>
 <text xml:space="preserve" text-anchor="middle" x="73.26" y="-261.65" font-family="Times,serif" font-size="12.00">(100.0%)</text>

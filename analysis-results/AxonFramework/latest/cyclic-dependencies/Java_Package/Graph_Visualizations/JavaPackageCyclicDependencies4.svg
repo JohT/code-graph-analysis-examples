@@ -26,7 +26,7 @@
 <polygon fill="#6699cc" stroke="#6699cc" stroke-width="0.5" points="399.58,-50.11 401.94,-44.21 396.41,-47.35 399.58,-50.11"/>
 </g>
 <!-- CommandDispatcherParameterResolverFactory&#45;&gt;ParameterResolverFactory -->
-<g id="edge15" class="edge">
+<g id="edge11" class="edge">
 <title>CommandDispatcherParameterResolverFactory&#45;&gt;ParameterResolverFactory</title>
 <path fill="none" stroke="#6699cc" stroke-width="0.5" d="M265.65,-420.9C302.01,-325.48 312.01,-312.4 459.99,-155.43"/>
 <polygon fill="#6699cc" stroke="#6699cc" stroke-width="0.5" points="461.3,-157.1 463.88,-151.3 458.24,-154.22 461.3,-157.1"/>
@@ -44,13 +44,13 @@
 <polygon fill="#6699cc" stroke="#6699cc" stroke-width="0.5" points="323.59,-154.31 319.94,-149.1 319.55,-155.45 323.59,-154.31"/>
 </g>
 <!-- AnnotatedCommandHandlingComponent&#45;&gt;ParameterResolverFactory -->
-<g id="edge13" class="edge">
+<g id="edge14" class="edge">
 <title>AnnotatedCommandHandlingComponent&#45;&gt;ParameterResolverFactory</title>
 <path fill="none" stroke="#6699cc" stroke-width="0.5" d="M526.03,-382.19C551.62,-286.13 549.96,-273.61 493.06,-157.38"/>
 <polygon fill="#6699cc" stroke="#6699cc" stroke-width="0.5" points="494.99,-156.55 490.47,-152.09 491.22,-158.4 494.99,-156.55"/>
 </g>
 <!-- AnnotatedCommandHandlingComponent&#45;&gt;AnnotatedHandlerInspector -->
-<g id="edge4" class="edge">
+<g id="edge6" class="edge">
 <title>AnnotatedCommandHandlingComponent&#45;&gt;AnnotatedHandlerInspector</title>
 <path fill="none" stroke="#6699cc" stroke-width="0.5" d="M503.23,-382.43C342.03,-218.64 329.87,-203.84 295.93,-98.46"/>
 <polygon fill="#6699cc" stroke="#6699cc" stroke-width="0.5" points="297.93,-97.84 294.1,-92.77 293.93,-99.13 297.93,-97.84"/>
@@ -68,13 +68,13 @@
 <polygon fill="#6699cc" stroke="#6699cc" stroke-width="0.5" points="575.32,-147.77 580.11,-143.59 573.76,-143.87 575.32,-147.77"/>
 </g>
 <!-- CommandDispatcherParameterResolverFactory$1&#45;&gt;ParameterResolver -->
-<g id="edge11" class="edge">
+<g id="edge12" class="edge">
 <title>CommandDispatcherParameterResolverFactory$1&#45;&gt;ParameterResolver</title>
 <path fill="none" stroke="#6699cc" stroke-width="0.5" d="M304.18,-337.08C306.05,-160.34 309.03,-145.3 397.29,-48.42"/>
 <polygon fill="#6699cc" stroke="#6699cc" stroke-width="0.5" points="398.83,-49.85 401.33,-44 395.73,-47.02 398.83,-49.85"/>
 </g>
 <!-- MethodCommandHandlerDefinition$MethodCommandHandlingMember&#45;&gt;WrappedMessageHandlingMember -->
-<g id="edge14" class="edge">
+<g id="edge15" class="edge">
 <title>MethodCommandHandlerDefinition$MethodCommandHandlingMember&#45;&gt;WrappedMessageHandlingMember</title>
 <path fill="none" stroke="#6699cc" stroke-width="0.5" d="M655.15,-299.75C633.17,-257.95 622.42,-247.83 553.66,-206.58"/>
 <polygon fill="#6699cc" stroke="#6699cc" stroke-width="0.5" points="555.04,-204.96 548.81,-203.68 552.88,-208.57 555.04,-204.96"/>
@@ -92,7 +92,7 @@
 <polygon fill="#6699cc" stroke="#6699cc" stroke-width="0.5" points="360.13,-146.68 353.79,-146.32 358.53,-150.56 360.13,-146.68"/>
 </g>
 <!-- MethodCommandHandlerDefinition&#45;&gt;HandlerEnhancerDefinition -->
-<g id="edge6" class="edge">
+<g id="edge4" class="edge">
 <title>MethodCommandHandlerDefinition&#45;&gt;HandlerEnhancerDefinition</title>
 <path fill="none" stroke="#6699cc" stroke-width="0.5" d="M742.12,-362.86C688.11,-229.1 677.25,-217.08 488.04,-102.1"/>
 <polygon fill="#6699cc" stroke="#6699cc" stroke-width="0.5" points="489.26,-100.38 483.04,-99.06 487.08,-103.97 489.26,-100.38"/>
@@ -104,7 +104,7 @@
 <polygon fill="#6699cc" stroke="#6699cc" stroke-width="0.5" points="432.11,-152.28 437.08,-148.32 430.73,-148.31 432.11,-152.28"/>
 </g>
 <!-- CommandHandlingMember&#45;&gt;MessageHandlingMember -->
-<g id="edge12" class="edge">
+<g id="edge13" class="edge">
 <title>CommandHandlingMember&#45;&gt;MessageHandlingMember</title>
 <path fill="none" stroke="#6699cc" stroke-width="0.5" d="M468.58,-432.36C360.22,-348.58 353.5,-333.94 319.35,-155.03"/>
 <polygon fill="#6699cc" stroke="#6699cc" stroke-width="0.5" points="321.46,-154.84 318.27,-149.34 317.33,-155.63 321.46,-154.84"/>

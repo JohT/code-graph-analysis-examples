@@ -1,6 +1,6 @@
 "codeUnitName","shortCodeUnitName","projectName","betweenness","degree","incomingDependencies","outgoingDependencies","Source Cypher File: domains/archetypes/queries/AnomalyDetectionSilentCoordinators.cypher"
-"/axon-update-5.1.2.jar","axon-update-5.1.2",,0,1,0,1,""
 "/axon-test-5.1.2.jar","axon-test-5.1.2",,0,3,0,3,""
-"/axon-tracing-opentelemetry-5.1.2.jar","axon-tracing-opentelemetry-5.1.2",,0,2,0,2,""
 "/axon-metrics-micrometer-5.1.2.jar","axon-metrics-micrometer-5.1.2",,0,2,0,2,""
+"/axon-update-5.1.2.jar","axon-update-5.1.2",,0,1,0,1,""
+"/axon-tracing-opentelemetry-5.1.2.jar","axon-tracing-opentelemetry-5.1.2",,0,2,0,2,""
 "/axoniq-spring-boot-autoconfigure-5.1.2.jar","axoniq-spring-boot-autoconfigure-5.1.2",,0,4,0,4,""

@@ -12,21 +12,16 @@ strict digraph TopBridge1 {
     central [fontsize = 16;];
     central [color = 7; fillcolor = 5; penwidth = 3;];
 
-	graph   [label="Top Rank #1 Java Type Bridge\norg.axonframework.messaging.eventstreaming.OrEventCriteriaBuilder\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
-	central [label="🌉 bridge #1\nOrEventCriteriaBuilder"];
-	"EventCriteria_31400" [label = "EventCriteria"; ]; "EventCriteria_31400" -> central [label=3; weight=3; penwidth=0.4];
-	"EventCriteria_31400" [label = "EventCriteria"; color = 5; fillcolor = 1; ]; central -> "EventCriteria_31400" [label=6; weight=6; penwidth=0.5; color = 5];
-	"EventTypeRestrictableEventCriteria_31409" [label = "EventTypeRestrictableEventCriteria"; color = 5; fillcolor = 1; ]; central -> "EventTypeRestrictableEventCriteria_31409" [label=6; weight=6; penwidth=0.5; color = 5];
-	"EventTypeRestrictableOrEventCriteria_34679" [label = "EventTypeRestrictableOrEventCriteria"; color = 5; fillcolor = 1; ]; central -> "EventTypeRestrictableOrEventCriteria_34679" [label=2; weight=2; penwidth=0.4; color = 5];
-	"Tag_34515" [label = "Tag"; color = 5; fillcolor = 1; ]; central -> "Tag_34515" [label=2; weight=2; penwidth=0.4; color = 5];
-	"TagFilteredEventCriteria_34686" [label = "TagFilteredEventCriteria"; color = 5; fillcolor = 1; ]; central -> "TagFilteredEventCriteria_34686" [label=2; weight=2; penwidth=0.4; color = 5];
-	"EventTypeRestrictableEventCriteria_31409" -> "EventCriteria_31400" [label=6; weight=6; penwidth=0.3; color = 3]
-	"EventCriteria_31400" -> "Tag_34515" [label=5; weight=5; penwidth=0.3; color = 3]
-	"TagFilteredEventCriteria_34686" -> "EventCriteria_31400" [label=5; weight=5; penwidth=0.3; color = 3]
-	"TagFilteredEventCriteria_34686" -> "Tag_34515" [label=5; weight=5; penwidth=0.3; color = 3]
-	"EventCriteria_31400" -> "EventTypeRestrictableEventCriteria_31409" [label=4; weight=4; penwidth=0.3; color = 3]
-	"EventTypeRestrictableOrEventCriteria_34679" -> "EventTypeRestrictableEventCriteria_31409" [label=4; weight=4; penwidth=0.3; color = 3]
-	"EventTypeRestrictableOrEventCriteria_34679" -> "EventCriteria_31400" [label=4; weight=4; penwidth=0.3; color = 3]
-	"EventCriteria_31400" -> "TagFilteredEventCriteria_34686" [label=2; weight=2; penwidth=0.3; color = 3]
-	"TagFilteredEventCriteria_34686" -> "EventTypeRestrictableEventCriteria_31409" [label=1; weight=1; penwidth=0.3; color = 3]
+	graph   [label="Top Rank #1 Java Type Bridge\norg.axonframework.common.caching.EhCacheAdapter\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
+	central [label="🌉 bridge #1\nEhCacheAdapter"];
+	"EhCacheAdapter$1_34488" [label = "EhCacheAdapter$\n1"; ]; "EhCacheAdapter$1_34488" -> central [label=1; weight=1; penwidth=0.4];
+	"Cache$EntryListener_34497" [label = "Cache$\nEntryListener"; color = 5; fillcolor = 1; ]; central -> "Cache$EntryListener_34497" [label=3; weight=3; penwidth=0.4; color = 5];
+	"EhCacheAdapter$CacheEventListenerAdapter_34487" [label = "EhCacheAdapter$\nCacheEventListenerAdapter"; color = 5; fillcolor = 1; ]; central -> "EhCacheAdapter$CacheEventListenerAdapter_34487" [label=3; weight=3; penwidth=0.4; color = 5];
+	"AbstractCacheAdapter_34474" [label = "AbstractCacheAdapter"; color = 5; fillcolor = 1; ]; central -> "AbstractCacheAdapter_34474" [label=2; weight=2; penwidth=0.4; color = 5];
+	"Registration_34496" [label = "Registration"; color = 5; fillcolor = 1; ]; central -> "Registration_34496" [label=2; weight=2; penwidth=0.4; color = 5];
+	"EhCacheAdapter$1_34488" [label = "EhCacheAdapter$\n1"; color = 5; fillcolor = 1; ]; central -> "EhCacheAdapter$1_34488" [label=1; weight=1; penwidth=0.4; color = 5];
+	"EhCacheAdapter$CacheEventListenerAdapter_34487" -> "Cache$EntryListener_34497" [label=7; weight=7; penwidth=0.3; color = 3]
+	"AbstractCacheAdapter_34474" -> "Cache$EntryListener_34497" [label=5; weight=5; penwidth=0.3; color = 3]
+	"AbstractCacheAdapter_34474" -> "Registration_34496" [label=4; weight=4; penwidth=0.3; color = 3]
+	"EhCacheAdapter$CacheEventListenerAdapter_34487" -> "EhCacheAdapter$1_34488" [label=2; weight=2; penwidth=0.3; color = 3]
 }

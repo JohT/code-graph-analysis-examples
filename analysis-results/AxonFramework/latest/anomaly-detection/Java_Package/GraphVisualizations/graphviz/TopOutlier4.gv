@@ -12,26 +12,11 @@ strict digraph TopOutlier4 {
     central [fontsize = 16;];
     central [color = 7; fillcolor = 5; penwidth = 3;];
 
-	graph   [label="Top Rank #4 Java Package Outlier\norg.axonframework.eventsourcing.snapshot.api\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: cluster probability\nlarge circle: < 25% percentile of cluster probability\nthick outline: > 80% percentile of distance to cluster center\n\n"];
-	central [label="🧩 outlier #4\napi"];
-	"snapshot_4128"  [label = "snapshot\n(71.79%)"; penwidth = 5; ]; "snapshot_4128" -> central [label=16; weight=16; penwidth=0.7];
-	"handler_17517"  [label = "handler\n(79.9%)"; penwidth = 2; ]; "handler_17517" -> central [label=13; weight=13; penwidth=0.6];
-	"eventstore_17518"  [label = "eventstore\n(100.0%)"; penwidth = 2; ]; "eventstore_17518" -> central [label=7; weight=7; penwidth=0.5];
-	"inmemory_17514"  [shape = "circle"; height=1.8; label = "inmemory\n(68.47%)"; penwidth = 5; ]; "inmemory_17514" -> central [label=4; weight=4; penwidth=0.5];
-	"configuration_17521"  [shape = "circle"; height=1.8; label = "configuration\n(0.0%)"; penwidth = 2; ]; "configuration_17521" -> central [label=3; weight=3; penwidth=0.5];
-	"store_17515"  [shape = "circle"; height=1.8; label = "store\n(58.06%)"; penwidth = 5; ]; "store_17515" -> central [label=2; weight=2; penwidth=0.4];
-	"eventhandling_25098"  [label = "eventhandling\n(100.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "eventhandling_25098" [label=1; weight=1; penwidth=0.4; color = 5];
-	"eventstore_17518"  [label = "eventstore\n(100.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "eventstore_17518" [label=1; weight=1; penwidth=0.4; color = 5];
-	"eventstore_17518" -> "eventhandling_25098" [label=25; weight=25; penwidth=0.3; color = 3]
-	"configuration_17521" -> "eventstore_17518" [label=15; weight=15; penwidth=0.3; color = 3]
-	"handler_17517" -> "eventstore_17518" [label=10; weight=10; penwidth=0.3; color = 3]
-	"snapshot_4128" -> "eventstore_17518" [label=10; weight=10; penwidth=0.3; color = 3]
-	"configuration_17521" -> "handler_17517" [label=6; weight=6; penwidth=0.3; color = 3]
-	"handler_17517" -> "eventhandling_25098" [label=3; weight=3; penwidth=0.3; color = 3]
-	"configuration_17521" -> "eventhandling_25098" [label=2; weight=2; penwidth=0.3; color = 3]
-	"configuration_17521" -> "store_17515" [label=1; weight=1; penwidth=0.3; color = 3]
-	"eventstore_17518" -> "store_17515" [label=1; weight=1; penwidth=0.3; color = 3]
-	"handler_17517" -> "store_17515" [label=1; weight=1; penwidth=0.3; color = 3]
-	"inmemory_17514" -> "store_17515" [label=0; weight=0; penwidth=0.3; color = 3]
-	"snapshot_4128" -> "store_17515" [label=0; weight=0; penwidth=0.3; color = 3]
+	graph   [label="Top Rank #4 Java Package Outlier\norg.axonframework.eventsourcing.snapshot.inmemory\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: cluster probability\nlarge circle: < 25% percentile of cluster probability\nthick outline: > 80% percentile of distance to cluster center\n\n"];
+	central [label="🧩 outlier #4\ninmemory"];
+	"api_39279"  [shape = "circle"; height=1.8; label = "api\n(51.94%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "api_39279" [label=4; weight=4; penwidth=0.5; color = 5];
+	"core_6390"  [label = "core\n(100.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "core_6390" [label=4; weight=4; penwidth=0.5; color = 5];
+	"store_39278"  [shape = "circle"; height=1.8; label = "store\n(48.36%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "store_39278" [label=0; weight=0; penwidth=0.4; color = 5];
+	"store_39278" -> "api_39279" [label=2; weight=2; penwidth=0.3; color = 3]
+	"store_39278" -> "core_6390" [label=2; weight=2; penwidth=0.3; color = 3]
 }

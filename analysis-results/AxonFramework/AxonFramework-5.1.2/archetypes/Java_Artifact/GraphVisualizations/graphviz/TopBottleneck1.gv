@@ -14,23 +14,23 @@ strict digraph TopBottleneck1 {
 
 	graph   [label="Top Rank #1 Java Artifact Bottleneck\n/axon-conversion-5.1.2.jar\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: Betweenness centrality\nthick outline: > 90% percentile of Betweenness centrality\n\n"];
 	central [label="🔒 bottleneck #1\naxon-conversion-5.1.2"];
-	"axon-messaging-5.1.2_25069"  [label = "axon-messaging-5.1.2\n(2.0)"; penwidth = 2; ]; "axon-messaging-5.1.2_25069" -> central [label=88; weight=88; penwidth=0.6];
-	"axon-server-connector-5.1.2_3690"  [label = "axon-server-connector-5.1.2\n(2.0)"; penwidth = 2; ]; "axon-server-connector-5.1.2_3690" -> central [label=10; weight=10; penwidth=0.4];
-	"axon-eventsourcing-5.1.2_17492"  [label = "axon-eventsourcing-5.1.2\n(3.0)"; penwidth = 5; ]; "axon-eventsourcing-5.1.2_17492" -> central [label=8; weight=8; penwidth=0.4];
-	"axoniq-spring-boot-autoconfigure-5.1.2_45766"  [label = "axoniq-spring-boot-autoconfigure-5.1.2\n(0.0)"; penwidth = 2; ]; "axoniq-spring-boot-autoconfigure-5.1.2_45766" -> central [label=4; weight=4; penwidth=0.4];
+	"axon-messaging-5.1.2_6333"  [label = "axon-messaging-5.1.2\n(2.0)"; penwidth = 2; ]; "axon-messaging-5.1.2_6333" -> central [label=88; weight=88; penwidth=0.6];
+	"axon-server-connector-5.1.2_27075"  [label = "axon-server-connector-5.1.2\n(2.0)"; penwidth = 2; ]; "axon-server-connector-5.1.2_27075" -> central [label=10; weight=10; penwidth=0.4];
+	"axon-eventsourcing-5.1.2_39255"  [label = "axon-eventsourcing-5.1.2\n(3.0)"; penwidth = 5; ]; "axon-eventsourcing-5.1.2_39255" -> central [label=8; weight=8; penwidth=0.4];
+	"axoniq-spring-boot-autoconfigure-5.1.2_45839"  [label = "axoniq-spring-boot-autoconfigure-5.1.2\n(0.0)"; penwidth = 2; ]; "axoniq-spring-boot-autoconfigure-5.1.2_45839" -> central [label=4; weight=4; penwidth=0.4];
 	"axon-modelling-5.1.2_1"  [label = "axon-modelling-5.1.2\n(3.0)"; penwidth = 5; ]; "axon-modelling-5.1.2_1" -> central [label=2; weight=2; penwidth=0.4];
-	"axon-common-5.1.2_8863"  [label = "axon-common-5.1.2\n(0.0)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "axon-common-5.1.2_8863" [label=34; weight=34; penwidth=0.5; color = 5];
-	"axon-messaging-5.1.2_25069" -> "axon-common-5.1.2_8863" [label=980; weight=980; penwidth=0.3; color = 3]
-	"axon-eventsourcing-5.1.2_17492" -> "axon-messaging-5.1.2_25069" [label=418; weight=418; penwidth=0.3; color = 3]
-	"axon-modelling-5.1.2_1" -> "axon-messaging-5.1.2_25069" [label=312; weight=312; penwidth=0.3; color = 3]
-	"axon-server-connector-5.1.2_3690" -> "axon-messaging-5.1.2_25069" [label=278; weight=278; penwidth=0.3; color = 3]
-	"axon-eventsourcing-5.1.2_17492" -> "axon-common-5.1.2_8863" [label=220; weight=220; penwidth=0.3; color = 3]
-	"axon-modelling-5.1.2_1" -> "axon-common-5.1.2_8863" [label=186; weight=186; penwidth=0.3; color = 3]
-	"axon-server-connector-5.1.2_3690" -> "axon-common-5.1.2_8863" [label=128; weight=128; penwidth=0.3; color = 3]
-	"axon-server-connector-5.1.2_3690" -> "axon-eventsourcing-5.1.2_17492" [label=86; weight=86; penwidth=0.3; color = 3]
-	"axon-eventsourcing-5.1.2_17492" -> "axon-modelling-5.1.2_1" [label=62; weight=62; penwidth=0.3; color = 3]
-	"axoniq-spring-boot-autoconfigure-5.1.2_45766" -> "axon-common-5.1.2_8863" [label=26; weight=26; penwidth=0.3; color = 3]
-	"axoniq-spring-boot-autoconfigure-5.1.2_45766" -> "axon-server-connector-5.1.2_3690" [label=16; weight=16; penwidth=0.3; color = 3]
-	"axoniq-spring-boot-autoconfigure-5.1.2_45766" -> "axon-messaging-5.1.2_25069" [label=12; weight=12; penwidth=0.3; color = 3]
-	"axon-server-connector-5.1.2_3690" -> "axon-modelling-5.1.2_1" [label=2; weight=2; penwidth=0.3; color = 3]
+	"axon-common-5.1.2_32285"  [label = "axon-common-5.1.2\n(0.0)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "axon-common-5.1.2_32285" [label=34; weight=34; penwidth=0.5; color = 5];
+	"axon-messaging-5.1.2_6333" -> "axon-common-5.1.2_32285" [label=980; weight=980; penwidth=0.3; color = 3]
+	"axon-eventsourcing-5.1.2_39255" -> "axon-messaging-5.1.2_6333" [label=418; weight=418; penwidth=0.3; color = 3]
+	"axon-modelling-5.1.2_1" -> "axon-messaging-5.1.2_6333" [label=312; weight=312; penwidth=0.3; color = 3]
+	"axon-server-connector-5.1.2_27075" -> "axon-messaging-5.1.2_6333" [label=278; weight=278; penwidth=0.3; color = 3]
+	"axon-eventsourcing-5.1.2_39255" -> "axon-common-5.1.2_32285" [label=220; weight=220; penwidth=0.3; color = 3]
+	"axon-modelling-5.1.2_1" -> "axon-common-5.1.2_32285" [label=186; weight=186; penwidth=0.3; color = 3]
+	"axon-server-connector-5.1.2_27075" -> "axon-common-5.1.2_32285" [label=128; weight=128; penwidth=0.3; color = 3]
+	"axon-server-connector-5.1.2_27075" -> "axon-eventsourcing-5.1.2_39255" [label=86; weight=86; penwidth=0.3; color = 3]
+	"axon-eventsourcing-5.1.2_39255" -> "axon-modelling-5.1.2_1" [label=62; weight=62; penwidth=0.3; color = 3]
+	"axoniq-spring-boot-autoconfigure-5.1.2_45839" -> "axon-common-5.1.2_32285" [label=26; weight=26; penwidth=0.3; color = 3]
+	"axoniq-spring-boot-autoconfigure-5.1.2_45839" -> "axon-server-connector-5.1.2_27075" [label=16; weight=16; penwidth=0.3; color = 3]
+	"axoniq-spring-boot-autoconfigure-5.1.2_45839" -> "axon-messaging-5.1.2_6333" [label=12; weight=12; penwidth=0.3; color = 3]
+	"axon-server-connector-5.1.2_27075" -> "axon-modelling-5.1.2_1" [label=2; weight=2; penwidth=0.3; color = 3]
 }

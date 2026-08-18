@@ -1,4 +1,4 @@
 "codeUnitName","shortCodeUnitName","projectName","betweenness","degree","incomingDependencies","outgoingDependencies","Source Cypher File: domains/archetypes/queries/AnomalyDetectionUnexpectedCentralNodes.cypher"
 "/axon-update-5.1.2.jar","axon-update-5.1.2",,0,1,0,1,""
-"/axon-tracing-opentelemetry-5.1.2.jar","axon-tracing-opentelemetry-5.1.2",,0,2,0,2,""
 "/axon-metrics-micrometer-5.1.2.jar","axon-metrics-micrometer-5.1.2",,0,2,0,2,""
+"/axon-tracing-opentelemetry-5.1.2.jar","axon-tracing-opentelemetry-5.1.2",,0,2,0,2,""

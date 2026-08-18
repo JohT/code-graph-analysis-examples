@@ -14,39 +14,39 @@ strict digraph TopAuthority4 {
 
 	graph   [label="Top Rank #4 Java Package Authority\norg.axonframework.extension.metrics.micrometer\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: Page Rank (normalized)\nlarge circle: > 80% percentile of Page Rank\nthick outline: > 80% percentile of Page Rank to Article Rank Difference\n\n"];
 	central [label="🏛️ authority #4\nmicrometer"];
-	"springboot_23148"  [label = "springboot\n(0.0%)"; penwidth = 5; ]; "springboot_23148" -> central [label=1; weight=1; penwidth=0.4];
-	"monitoring_25088"  [label = "monitoring\n(1.21%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "monitoring_25088" [label=19; weight=19; penwidth=0.7; color = 5];
-	"common_8881"  [shape = "circle"; height=2; label = "common\n(100.0%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "common_8881" [label=14; weight=14; penwidth=0.6; color = 5];
-	"reservoir_23149"  [label = "reservoir\n(0.28%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "reservoir_23149" [label=12; weight=12; penwidth=0.6; color = 5];
-	"core_25126"  [shape = "circle"; height=2; label = "core\n(54.52%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "core_25126" [label=11; weight=11; penwidth=0.6; color = 5];
-	"configuration_25090"  [label = "configuration\n(0.25%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "configuration_25090" [label=5; weight=5; penwidth=0.5; color = 5];
-	"configuration_8894"  [label = "configuration\n(10.92%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "configuration_8894" [label=4; weight=4; penwidth=0.5; color = 5];
-	"eventhandling_25098"  [label = "eventhandling\n(6.53%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "eventhandling_25098" [label=2; weight=2; penwidth=0.4; color = 5];
-	"commandhandling_25091"  [label = "commandhandling\n(4.23%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "commandhandling_25091" [label=0; weight=0; penwidth=0.4; color = 5];
-	"processing_25105"  [label = "processing\n(0.8%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "processing_25105" [label=0; weight=0; penwidth=0.4; color = 5];
-	"queryhandling_25120"  [label = "queryhandling\n(2.59%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "queryhandling_25120" [label=0; weight=0; penwidth=0.4; color = 5];
-	"queryhandling_25120" -> "core_25126" [label=130; weight=130; penwidth=0.3; color = 3]
-	"commandhandling_25091" -> "core_25126" [label=68; weight=68; penwidth=0.3; color = 3]
-	"eventhandling_25098" -> "core_25126" [label=59; weight=59; penwidth=0.3; color = 3]
-	"core_25126" -> "common_8881" [label=44; weight=44; penwidth=0.3; color = 3]
-	"configuration_8894" -> "common_8881" [label=42; weight=42; penwidth=0.3; color = 3]
-	"queryhandling_25120" -> "common_8881" [label=22; weight=22; penwidth=0.3; color = 3]
-	"configuration_25090" -> "configuration_8894" [label=18; weight=18; penwidth=0.3; color = 3]
-	"commandhandling_25091" -> "common_8881" [label=15; weight=15; penwidth=0.3; color = 3]
-	"configuration_25090" -> "common_8881" [label=15; weight=15; penwidth=0.3; color = 3]
-	"processing_25105" -> "core_25126" [label=14; weight=14; penwidth=0.3; color = 3]
-	"configuration_25090" -> "monitoring_25088" [label=13; weight=13; penwidth=0.3; color = 3]
-	"eventhandling_25098" -> "common_8881" [label=10; weight=10; penwidth=0.3; color = 3]
-	"processing_25105" -> "eventhandling_25098" [label=7; weight=7; penwidth=0.3; color = 3]
-	"configuration_25090" -> "queryhandling_25120" [label=4; weight=4; penwidth=0.3; color = 3]
-	"processing_25105" -> "common_8881" [label=4; weight=4; penwidth=0.3; color = 3]
-	"configuration_25090" -> "core_25126" [label=3; weight=3; penwidth=0.3; color = 3]
-	"configuration_25090" -> "commandhandling_25091" [label=2; weight=2; penwidth=0.3; color = 3]
-	"configuration_25090" -> "eventhandling_25098" [label=2; weight=2; penwidth=0.3; color = 3]
-	"monitoring_25088" -> "core_25126" [label=2; weight=2; penwidth=0.3; color = 3]
-	"core_25126" -> "configuration_8894" [label=1; weight=1; penwidth=0.3; color = 3]
-	"monitoring_25088" -> "common_8881" [label=1; weight=1; penwidth=0.3; color = 3]
-	"springboot_23148" -> "configuration_8894" [label=1; weight=1; penwidth=0.3; color = 3]
-	"core_25126" -> "eventhandling_25098" [label=0; weight=0; penwidth=0.3; color = 3]
-	"monitoring_25088" -> "commandhandling_25091" [label=0; weight=0; penwidth=0.3; color = 3]
+	"springboot_31296"  [label = "springboot\n(0.0%)"; penwidth = 5; ]; "springboot_31296" -> central [label=1; weight=1; penwidth=0.4];
+	"monitoring_6352"  [label = "monitoring\n(1.21%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "monitoring_6352" [label=19; weight=19; penwidth=0.7; color = 5];
+	"common_32303"  [shape = "circle"; height=2; label = "common\n(100.0%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "common_32303" [label=14; weight=14; penwidth=0.6; color = 5];
+	"reservoir_31297"  [label = "reservoir\n(0.28%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "reservoir_31297" [label=12; weight=12; penwidth=0.6; color = 5];
+	"core_6390"  [shape = "circle"; height=2; label = "core\n(54.52%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "core_6390" [label=11; weight=11; penwidth=0.6; color = 5];
+	"configuration_6354"  [label = "configuration\n(0.25%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "configuration_6354" [label=5; weight=5; penwidth=0.5; color = 5];
+	"configuration_32316"  [label = "configuration\n(10.92%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "configuration_32316" [label=4; weight=4; penwidth=0.5; color = 5];
+	"eventhandling_6362"  [label = "eventhandling\n(6.53%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "eventhandling_6362" [label=2; weight=2; penwidth=0.4; color = 5];
+	"commandhandling_6355"  [label = "commandhandling\n(4.23%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "commandhandling_6355" [label=0; weight=0; penwidth=0.4; color = 5];
+	"processing_6369"  [label = "processing\n(0.8%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "processing_6369" [label=0; weight=0; penwidth=0.4; color = 5];
+	"queryhandling_6384"  [label = "queryhandling\n(2.59%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "queryhandling_6384" [label=0; weight=0; penwidth=0.4; color = 5];
+	"queryhandling_6384" -> "core_6390" [label=130; weight=130; penwidth=0.3; color = 3]
+	"commandhandling_6355" -> "core_6390" [label=68; weight=68; penwidth=0.3; color = 3]
+	"eventhandling_6362" -> "core_6390" [label=59; weight=59; penwidth=0.3; color = 3]
+	"core_6390" -> "common_32303" [label=44; weight=44; penwidth=0.3; color = 3]
+	"configuration_32316" -> "common_32303" [label=42; weight=42; penwidth=0.3; color = 3]
+	"queryhandling_6384" -> "common_32303" [label=22; weight=22; penwidth=0.3; color = 3]
+	"configuration_6354" -> "configuration_32316" [label=18; weight=18; penwidth=0.3; color = 3]
+	"commandhandling_6355" -> "common_32303" [label=15; weight=15; penwidth=0.3; color = 3]
+	"configuration_6354" -> "common_32303" [label=15; weight=15; penwidth=0.3; color = 3]
+	"processing_6369" -> "core_6390" [label=14; weight=14; penwidth=0.3; color = 3]
+	"configuration_6354" -> "monitoring_6352" [label=13; weight=13; penwidth=0.3; color = 3]
+	"eventhandling_6362" -> "common_32303" [label=10; weight=10; penwidth=0.3; color = 3]
+	"processing_6369" -> "eventhandling_6362" [label=7; weight=7; penwidth=0.3; color = 3]
+	"configuration_6354" -> "queryhandling_6384" [label=4; weight=4; penwidth=0.3; color = 3]
+	"processing_6369" -> "common_32303" [label=4; weight=4; penwidth=0.3; color = 3]
+	"configuration_6354" -> "core_6390" [label=3; weight=3; penwidth=0.3; color = 3]
+	"configuration_6354" -> "commandhandling_6355" [label=2; weight=2; penwidth=0.3; color = 3]
+	"configuration_6354" -> "eventhandling_6362" [label=2; weight=2; penwidth=0.3; color = 3]
+	"monitoring_6352" -> "core_6390" [label=2; weight=2; penwidth=0.3; color = 3]
+	"core_6390" -> "configuration_32316" [label=1; weight=1; penwidth=0.3; color = 3]
+	"monitoring_6352" -> "common_32303" [label=1; weight=1; penwidth=0.3; color = 3]
+	"springboot_31296" -> "configuration_32316" [label=1; weight=1; penwidth=0.3; color = 3]
+	"core_6390" -> "eventhandling_6362" [label=0; weight=0; penwidth=0.3; color = 3]
+	"monitoring_6352" -> "commandhandling_6355" [label=0; weight=0; penwidth=0.3; color = 3]
 }

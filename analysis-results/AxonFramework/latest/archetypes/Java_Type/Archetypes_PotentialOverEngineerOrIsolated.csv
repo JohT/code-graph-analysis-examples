@@ -1,6 +1,4 @@
 "codeUnitName","shortCodeUnitName","projectName","localClusteringCoefficient","pageRank","degree","incomingDependencies","outgoingDependencies","Source Cypher File: domains/archetypes/queries/AnomalyDetectionPotentialOverEngineerOrIsolated.cypher"
-"io.axoniq.framework.axonserver.connector.shared.GrpcExceptionParser","GrpcExceptionParser","axon-server-connector-5.1.2",1,0.15000000000000002,2,0,2,""
-"org.axonframework.common.jdbc.ConnectionWrapperFactory","ConnectionWrapperFactory","axon-common-5.1.2",1,0.15000000000000002,2,0,2,""
 "org.axonframework.messaging.eventhandling.processing.streaming.token.store.jdbc.Oracle11TokenTableFactory","Oracle11TokenTableFactory","axon-messaging-5.1.2",1,0.15000000000000002,2,0,2,""
 "org.axonframework.messaging.eventhandling.processing.streaming.segmenting.AddedTrackerStatus","AddedTrackerStatus","axon-messaging-5.1.2",1,0.15000000000000002,2,0,2,""
 "org.axonframework.messaging.eventhandling.processing.streaming.segmenting.RemovedTrackerStatus","RemovedTrackerStatus","axon-messaging-5.1.2",1,0.15000000000000002,2,0,2,""
@@ -12,4 +10,6 @@
 "org.axonframework.messaging.tracing.attributes.MessageTypeSpanAttributesProvider","MessageTypeSpanAttributesProvider","axon-messaging-5.1.2",1,0.15000000000000002,2,0,2,""
 "org.axonframework.messaging.tracing.attributes.PayloadTypeSpanAttributesProvider","PayloadTypeSpanAttributesProvider","axon-messaging-5.1.2",1,0.15000000000000002,2,0,2,""
 "org.axonframework.messaging.tracing.attributes.AggregateIdentifierSpanAttributesProvider","AggregateIdentifierSpanAttributesProvider","axon-messaging-5.1.2",1,0.15000000000000002,2,0,2,""
+"io.axoniq.framework.axonserver.connector.shared.GrpcExceptionParser","GrpcExceptionParser","axon-server-connector-5.1.2",1,0.15000000000000002,2,0,2,""
+"org.axonframework.common.jdbc.ConnectionWrapperFactory","ConnectionWrapperFactory","axon-common-5.1.2",1,0.15000000000000002,2,0,2,""
 "io.axoniq.framework.springboot.service.connection.AxonServerTestContainerConnectionDetailsFactory","AxonServerTestContainerConnectionDetailsFactory","axoniq-spring-boot-autoconfigure-5.1.2",1,0.15000000000000002,2,0,2,""

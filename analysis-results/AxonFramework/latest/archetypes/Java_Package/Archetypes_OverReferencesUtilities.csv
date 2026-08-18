@@ -1,5 +1,5 @@
 "codeUnitName","shortCodeUnitName","projectName","localClusteringCoefficient","pageRank","degree","incomingDependencies","outgoingDependencies","Source Cypher File: domains/archetypes/queries/AnomalyDetectionOverReferencesUtilities.cypher"
-"org.axonframework.common","common","axon-common-5.1.2",0.14285714285714285,11.60540778191177,1009,978,31,""
+"org.axonframework.common","common","axon-common-5.1.2",0.14285714285714285,11.605407781911776,1009,978,31,""
 "org.axonframework.messaging.core","core","axon-messaging-5.1.2",0.1479835953520164,6.395915548685645,14073,13678,395,""
 "org.axonframework.common.annotation","annotation","axon-common-5.1.2",0.15864621893178213,2.6579651568246065,4352,4347,5,""
 "org.axonframework.messaging.core.unitofwork","unitofwork","axon-messaging-5.1.2",0.16170634920634921,1.5933847344784098,12238,12129,109,""
