@@ -15,11 +15,11 @@ strict digraph TopBottleneck3 {
 	graph   [label="Top Rank #3 Typescript Module Bottleneck\n/home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.18.1/source/react-router-7.18.1/packages/react-router/dom-export.ts\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: Betweenness centrality\nthick outline: > 90% percentile of Betweenness centrality\n\n"];
 	central [label="🔒 bottleneck #3\ndom-export"];
 	"server_86538"  [label = "server\n(126.0)"; penwidth = 2; ]; "server_86538" -> central [label=1014; weight=1014; penwidth=0.6];
-	"react-router_86509"  [label = "react-router\n(413.5)"; penwidth = 2; ]; "react-router_86509" -> central [label=1; weight=1; penwidth=0.4];
 	"react-router_86510"  [label = "react-router\n(1250.5)"; penwidth = 5; ]; "react-router_86510" -> central [label=1; weight=1; penwidth=0.4];
+	"react-router_86509"  [label = "react-router\n(413.5)"; penwidth = 2; ]; "react-router_86509" -> central [label=1; weight=1; penwidth=0.4];
 	"browser_86539"  [label = "browser\n(0.0)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "browser_86539" [label=1; weight=1; penwidth=0.4; color = 5];
-	"react-router_86509"  [label = "react-router\n(413.5)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "react-router_86509" [label=1; weight=1; penwidth=0.4; color = 5];
 	"react-router_86510"  [label = "react-router\n(1250.5)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "react-router_86510" [label=1; weight=1; penwidth=0.4; color = 5];
+	"react-router_86509"  [label = "react-router\n(413.5)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "react-router_86509" [label=1; weight=1; penwidth=0.4; color = 5];
 	"server_86538"  [label = "server\n(126.0)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "server_86538" [label=1; weight=1; penwidth=0.4; color = 5];
 	"server_86538" -> "react-router_86510" [label=2197; weight=2197; penwidth=0.3; color = 3]
 	"server_86538" -> "react-router_86509" [label=130; weight=130; penwidth=0.3; color = 3]

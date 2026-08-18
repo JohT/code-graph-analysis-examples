@@ -105,10 +105,12 @@ Shows which node labels are connected by each relationship type, with count and 
 | --- | --- | --- | --- |
 | ["Git","Update","Change"] | MODIFIES | ["Git"] | 59455 |
 | ["Git","Commit"] | CONTAINS_CHANGE | ["Git","Update","Change"] | 59455 |
+| ["Git","Update","Change"] | MODIFIES | ["Git"] | 59455 |
 | ["Git","Update","Change"] | UPDATES | ["Git"] | 59455 |
 | ["TS","Union"] | CONTAINS | ["TS","NotIdentified"] | 53911 |
 | ["Git","Change","Create"] | MODIFIES | ["Git"] | 17520 |
 | ["Git","Commit"] | CONTAINS_CHANGE | ["Git","Change","Create"] | 17520 |
+| ["Git","Change","Create"] | MODIFIES | ["Git"] | 17520 |
 | ["Git","Change","Create"] | CREATES | ["Git"] | 17520 |
 | ["Git","Commit"] | HAS_PARENT | ["Git","Commit"] | 12073 |
 | ["Author","Person","Git","Committer"] | COMMITTED | ["Git","Commit"] | 10982 |
