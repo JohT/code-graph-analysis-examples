@@ -12,10 +12,23 @@ strict digraph TopOutlier2 {
     central [fontsize = 16;];
     central [color = 7; fillcolor = 5; penwidth = 3;];
 
-	graph   [label="Top Rank #2 Java Type Outlier\norg.axonframework.conversion.avro.GenericRecordToByteArrayConverter\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: cluster probability\nlarge circle: < 25% percentile of cluster probability\nthick outline: > 80% percentile of distance to cluster center\n\n"];
-	central [label="🧩 outlier #2\nGenericRecordToByteArrayConverter"];
-	"ConversionException_45127"  [label = "ConversionException\n(63.42%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "ConversionException_45127" [label=2; weight=2; penwidth=0.4; color = 5];
-	"AvroUtil_44671"  [label = "AvroUtil\n(54.48%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "AvroUtil_44671" [label=1; weight=1; penwidth=0.4; color = 5];
-	"ContentTypeConverter_44889"  [label = "ContentTypeConverter\n(100.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "ContentTypeConverter_44889" [label=1; weight=1; penwidth=0.4; color = 5];
-	"AvroUtil_44671" -> "ConversionException_45127" [label=9; weight=9; penwidth=0.3; color = 3]
+	graph   [label="Top Rank #2 Java Type Outlier\norg.axonframework.conversion.jackson.JacksonConverter\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: cluster probability\nlarge circle: < 25% percentile of cluster probability\nthick outline: > 80% percentile of distance to cluster center\n\n"];
+	central [label="🧩 outlier #2\nJacksonConverter"];
+	"MessagingConfigurationDefaults_25567"  [label = "MessagingConfigurationDefaults\n(72.06%)"; penwidth = 2; ]; "MessagingConfigurationDefaults_25567" -> central [label=2; weight=2; penwidth=0.4];
+	"ChainingContentTypeConverter_44714"  [label = "ChainingContentTypeConverter\n(33.83%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "ChainingContentTypeConverter_44714" [label=15; weight=15; penwidth=0.6; color = 5];
+	"ComponentDescriptor_35355"  [shape = "circle"; height=1.8; label = "ComponentDescriptor\n(0.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "ComponentDescriptor_35355" [label=3; weight=3; penwidth=0.4; color = 5];
+	"ByteArrayToJsonNodeConverter_44712"  [label = "ByteArrayToJsonNodeConverter\n(100.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "ByteArrayToJsonNodeConverter_44712" [label=2; weight=2; penwidth=0.4; color = 5];
+	"ConversionException_45127"  [label = "ConversionException\n(92.4%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "ConversionException_45127" [label=2; weight=2; penwidth=0.4; color = 5];
+	"JsonNodeToByteArrayConverter_44709"  [label = "JsonNodeToByteArrayConverter\n(100.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "JsonNodeToByteArrayConverter_44709" [label=2; weight=2; penwidth=0.4; color = 5];
+	"JsonNodeToObjectNodeConverter_44711"  [label = "JsonNodeToObjectNodeConverter\n(100.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "JsonNodeToObjectNodeConverter_44711" [label=2; weight=2; penwidth=0.4; color = 5];
+	"ObjectNodeToJsonNodeConverter_44710"  [shape = "circle"; height=1.8; label = "ObjectNodeToJsonNodeConverter\n(15.18%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "ObjectNodeToJsonNodeConverter_44710" [label=2; weight=2; penwidth=0.4; color = 5];
+	"Converter_45140"  [shape = "circle"; height=1.8; label = "Converter\n(25.44%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "Converter_45140" [label=1; weight=1; penwidth=0.4; color = 5];
+	"Internal_33604"  [shape = "circle"; height=1.8; label = "Internal\n(0.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "Internal_33604" [label=1; weight=1; penwidth=0.4; color = 5];
+	"ByteArrayToJsonNodeConverter_44712" -> "ConversionException_45127" [label=2; weight=2; penwidth=0.3; color = 3]
+	"ChainingContentTypeConverter_44714" -> "ComponentDescriptor_35355" [label=2; weight=2; penwidth=0.3; color = 3]
+	"ChainingContentTypeConverter_44714" -> "ConversionException_45127" [label=2; weight=2; penwidth=0.3; color = 3]
+	"JsonNodeToByteArrayConverter_44709" -> "ConversionException_45127" [label=2; weight=2; penwidth=0.3; color = 3]
+	"JsonNodeToObjectNodeConverter_44711" -> "ConversionException_45127" [label=2; weight=2; penwidth=0.3; color = 3]
+	"MessagingConfigurationDefaults_25567" -> "Converter_45140" [label=2; weight=2; penwidth=0.3; color = 3]
+	"ChainingContentTypeConverter_44714" -> "Converter_45140" [label=1; weight=1; penwidth=0.3; color = 3]
 }

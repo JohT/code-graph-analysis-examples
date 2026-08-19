@@ -12,21 +12,34 @@ strict digraph TopBridge4 {
     central [fontsize = 16;];
     central [color = 7; fillcolor = 5; penwidth = 3;];
 
-	graph   [label="Top Rank #4 Java Type Bridge\norg.axonframework.messaging.eventstreaming.OrEventCriteriaBuilder\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
-	central [label="🌉 bridge #4\nOrEventCriteriaBuilder"];
-	"EventCriteria_11787" [label = "EventCriteria"; ]; "EventCriteria_11787" -> central [label=3; weight=3; penwidth=0.4];
+	graph   [label="Top Rank #4 Java Type Bridge\norg.axonframework.messaging.eventstreaming.EventTypeRestrictableEventCriteria\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
+	central [label="🌉 bridge #4\nEventTypeRestrictableEventCriteria"];
+	"OrEventCriteriaBuilder_15739" [label = "OrEventCriteriaBuilder"; ]; "OrEventCriteriaBuilder_15739" -> central [label=6; weight=6; penwidth=0.5];
+	"EventCriteria_11787" [label = "EventCriteria"; ]; "EventCriteria_11787" -> central [label=4; weight=4; penwidth=0.5];
+	"EventTypeRestrictableOrEventCriteria_16647" [label = "EventTypeRestrictableOrEventCriteria"; ]; "EventTypeRestrictableOrEventCriteria_16647" -> central [label=4; weight=4; penwidth=0.5];
+	"AnyEvent_15674" [label = "AnyEvent"; ]; "AnyEvent_15674" -> central [label=1; weight=1; penwidth=0.4];
+	"PooledStreamingEventProcessorConfiguration_12576" [label = "PooledStreamingEventProcessorConfiguration"; ]; "PooledStreamingEventProcessorConfiguration_12576" -> central [label=1; weight=1; penwidth=0.4];
+	"TagFilteredEventCriteria_15738" [label = "TagFilteredEventCriteria"; ]; "TagFilteredEventCriteria_15738" -> central [label=1; weight=1; penwidth=0.4];
 	"EventCriteria_11787" [label = "EventCriteria"; color = 5; fillcolor = 1; ]; central -> "EventCriteria_11787" [label=6; weight=6; penwidth=0.5; color = 5];
-	"EventTypeRestrictableEventCriteria_11796" [label = "EventTypeRestrictableEventCriteria"; color = 5; fillcolor = 1; ]; central -> "EventTypeRestrictableEventCriteria_11796" [label=6; weight=6; penwidth=0.5; color = 5];
-	"EventTypeRestrictableOrEventCriteria_16647" [label = "EventTypeRestrictableOrEventCriteria"; color = 5; fillcolor = 1; ]; central -> "EventTypeRestrictableOrEventCriteria_16647" [label=2; weight=2; penwidth=0.4; color = 5];
-	"Tag_15736" [label = "Tag"; color = 5; fillcolor = 1; ]; central -> "Tag_15736" [label=2; weight=2; penwidth=0.4; color = 5];
-	"TagFilteredEventCriteria_15738" [label = "TagFilteredEventCriteria"; color = 5; fillcolor = 1; ]; central -> "TagFilteredEventCriteria_15738" [label=2; weight=2; penwidth=0.4; color = 5];
-	"EventTypeRestrictableEventCriteria_11796" -> "EventCriteria_11787" [label=6; weight=6; penwidth=0.3; color = 3]
-	"EventCriteria_11787" -> "Tag_15736" [label=5; weight=5; penwidth=0.3; color = 3]
+	"QualifiedName_8210" [label = "QualifiedName"; color = 5; fillcolor = 1; ]; central -> "QualifiedName_8210" [label=3; weight=3; penwidth=0.4; color = 5];
+	"MessageTypeResolver_8206" [label = "MessageTypeResolver"; color = 5; fillcolor = 1; ]; central -> "MessageTypeResolver_8206" [label=2; weight=2; penwidth=0.4; color = 5];
+	"MessageType_8214" [label = "MessageType"; color = 5; fillcolor = 1; ]; central -> "MessageType_8214" [label=1; weight=1; penwidth=0.4; color = 5];
+	"MessageType_8214" -> "QualifiedName_8210" [label=15; weight=15; penwidth=0.3; color = 3]
+	"OrEventCriteriaBuilder_15739" -> "EventCriteria_11787" [label=6; weight=6; penwidth=0.3; color = 3]
+	"MessageTypeResolver_8206" -> "MessageType_8214" [label=5; weight=5; penwidth=0.3; color = 3]
+	"PooledStreamingEventProcessorConfiguration_12576" -> "EventCriteria_11787" [label=5; weight=5; penwidth=0.3; color = 3]
 	"TagFilteredEventCriteria_15738" -> "EventCriteria_11787" [label=5; weight=5; penwidth=0.3; color = 3]
-	"TagFilteredEventCriteria_15738" -> "Tag_15736" [label=5; weight=5; penwidth=0.3; color = 3]
-	"EventCriteria_11787" -> "EventTypeRestrictableEventCriteria_11796" [label=4; weight=4; penwidth=0.3; color = 3]
-	"EventTypeRestrictableOrEventCriteria_16647" -> "EventTypeRestrictableEventCriteria_11796" [label=4; weight=4; penwidth=0.3; color = 3]
+	"AnyEvent_15674" -> "EventCriteria_11787" [label=4; weight=4; penwidth=0.3; color = 3]
 	"EventTypeRestrictableOrEventCriteria_16647" -> "EventCriteria_11787" [label=4; weight=4; penwidth=0.3; color = 3]
+	"EventCriteria_11787" -> "OrEventCriteriaBuilder_15739" [label=3; weight=3; penwidth=0.3; color = 3]
+	"PooledStreamingEventProcessorConfiguration_12576" -> "QualifiedName_8210" [label=3; weight=3; penwidth=0.3; color = 3]
+	"TagFilteredEventCriteria_15738" -> "QualifiedName_8210" [label=3; weight=3; penwidth=0.3; color = 3]
+	"AnyEvent_15674" -> "QualifiedName_8210" [label=2; weight=2; penwidth=0.3; color = 3]
+	"EventCriteria_11787" -> "AnyEvent_15674" [label=2; weight=2; penwidth=0.3; color = 3]
 	"EventCriteria_11787" -> "TagFilteredEventCriteria_15738" [label=2; weight=2; penwidth=0.3; color = 3]
-	"TagFilteredEventCriteria_15738" -> "EventTypeRestrictableEventCriteria_11796" [label=1; weight=1; penwidth=0.3; color = 3]
+	"OrEventCriteriaBuilder_15739" -> "TagFilteredEventCriteria_15738" [label=2; weight=2; penwidth=0.3; color = 3]
+	"OrEventCriteriaBuilder_15739" -> "EventTypeRestrictableOrEventCriteria_16647" [label=2; weight=2; penwidth=0.3; color = 3]
+	"EventCriteria_11787" -> "QualifiedName_8210" [label=1; weight=1; penwidth=0.3; color = 3]
+	"EventTypeRestrictableOrEventCriteria_16647" -> "QualifiedName_8210" [label=1; weight=1; penwidth=0.3; color = 3]
+	"TagFilteredEventCriteria_15738" -> "AnyEvent_15674" [label=1; weight=1; penwidth=0.3; color = 3]
 }

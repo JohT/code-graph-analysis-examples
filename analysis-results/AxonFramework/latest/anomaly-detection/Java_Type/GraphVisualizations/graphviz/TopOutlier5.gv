@@ -12,133 +12,23 @@ strict digraph TopOutlier5 {
     central [fontsize = 16;];
     central [color = 7; fillcolor = 5; penwidth = 3;];
 
-	graph   [label="Top Rank #5 Java Type Outlier\norg.axonframework.messaging.eventstreaming.EventCriteria\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: cluster probability\nlarge circle: < 25% percentile of cluster probability\nthick outline: > 80% percentile of distance to cluster center\n\n"];
-	central [label="🧩 outlier #5\nEventCriteria"];
-	"OrEventCriteria_15675"  [label = "OrEventCriteria\n(100.0%)"; penwidth = 2; ]; "OrEventCriteria_15675" -> central [label=12; weight=12; penwidth=0.6];
-	"EventTypeRestrictableEventCriteria_11796"  [label = "EventTypeRestrictableEventCriteria\n(90.47%)"; penwidth = 2; ]; "EventTypeRestrictableEventCriteria_11796" -> central [label=6; weight=6; penwidth=0.5];
-	"OrEventCriteriaBuilder_15739"  [label = "OrEventCriteriaBuilder\n(100.0%)"; penwidth = 2; ]; "OrEventCriteriaBuilder_15739" -> central [label=6; weight=6; penwidth=0.5];
-	"DefaultAppendCondition_41518"  [label = "DefaultAppendCondition\n(95.09%)"; penwidth = 2; ]; "DefaultAppendCondition_41518" -> central [label=5; weight=5; penwidth=0.5];
-	"DefaultStreamingCondition_15742"  [label = "DefaultStreamingCondition\n(78.29%)"; penwidth = 2; ]; "DefaultStreamingCondition_15742" -> central [label=5; weight=5; penwidth=0.5];
-	"PooledStreamingEventProcessorConfiguration_12576"  [label = "PooledStreamingEventProcessorConfiguration\n(98.43%)"; penwidth = 5; ]; "PooledStreamingEventProcessorConfiguration_12576" -> central [label=5; weight=5; penwidth=0.5];
-	"TagFilteredEventCriteria_15738"  [label = "TagFilteredEventCriteria\n(100.0%)"; penwidth = 2; ]; "TagFilteredEventCriteria_15738" -> central [label=5; weight=5; penwidth=0.5];
-	"AnyEvent_15674"  [label = "AnyEvent\n(100.0%)"; penwidth = 2; ]; "AnyEvent_15674" -> central [label=4; weight=4; penwidth=0.5];
-	"AppendCondition_40547"  [label = "AppendCondition\n(100.0%)"; penwidth = 2; ]; "AppendCondition_40547" -> central [label=4; weight=4; penwidth=0.5];
-	"DefaultSourcingCondition_41519"  [label = "DefaultSourcingCondition\n(53.48%)"; penwidth = 5; ]; "DefaultSourcingCondition_41519" -> central [label=4; weight=4; penwidth=0.5];
-	"EventTypeRestrictableOrEventCriteria_16647"  [label = "EventTypeRestrictableOrEventCriteria\n(90.47%)"; penwidth = 2; ]; "EventTypeRestrictableOrEventCriteria_16647" -> central [label=4; weight=4; penwidth=0.5];
-	"StreamingCondition_13558"  [shape = "circle"; height=1.8; label = "StreamingCondition\n(0.0%)"; penwidth = 2; ]; "StreamingCondition_13558" -> central [label=4; weight=4; penwidth=0.5];
-	"TagAndTypeFilteredEventCriteria_15737"  [label = "TagAndTypeFilteredEventCriteria\n(100.0%)"; penwidth = 2; ]; "TagAndTypeFilteredEventCriteria_15737" -> central [label=4; weight=4; penwidth=0.5];
-	"AnnotationBasedEventCriteriaResolver_40322"  [label = "AnnotationBasedEventCriteriaResolver\n(100.0%)"; penwidth = 2; ]; "AnnotationBasedEventCriteriaResolver_40322" -> central [label=3; weight=3; penwidth=0.4];
-	"ConditionConverter_29390"  [shape = "circle"; height=1.8; label = "ConditionConverter\n(0.0%)"; penwidth = 2; ]; "ConditionConverter_29390" -> central [label=3; weight=3; penwidth=0.4];
-	"Coordinator$Builder_13612"  [label = "Coordinator$\nBuilder\n(89.85%)"; penwidth = 2; ]; "Coordinator$Builder_13612" -> central [label=3; weight=3; penwidth=0.4];
-	"NoAppendCondition_41964"  [label = "NoAppendCondition\n(95.09%)"; penwidth = 2; ]; "NoAppendCondition_41964" -> central [label=3; weight=3; penwidth=0.4];
-	"PooledStreamingEventProcessor_11790"  [label = "PooledStreamingEventProcessor\n(100.0%)"; penwidth = 2; ]; "PooledStreamingEventProcessor_11790" -> central [label=3; weight=3; penwidth=0.4];
-	"SourcingCondition_40520"  [label = "SourcingCondition\n(53.48%)"; penwidth = 5; ]; "SourcingCondition_40520" -> central [label=3; weight=3; penwidth=0.4];
-	"AnnotationBasedEventCriteriaResolver$WrappedEventCriteriaBuilderMethod_40562"  [label = "AnnotationBasedEventCriteriaResolver$\nWrappedEventCriteriaBuilderMethod\n(100.0%)"; penwidth = 2; ]; "AnnotationBasedEventCriteriaResolver$WrappedEventCriteriaBuilderMethod_40562" -> central [label=2; weight=2; penwidth=0.4];
-	"EventsCondition_15740"  [shape = "circle"; height=1.8; label = "EventsCondition\n(0.0%)"; penwidth = 2; ]; "EventsCondition_15740" -> central [label=2; weight=2; penwidth=0.4];
-	"AggregateBasedAxonServerEventStorageEngine_29389"  [label = "AggregateBasedAxonServerEventStorageEngine\n(97.17%)"; penwidth = 2; ]; "AggregateBasedAxonServerEventStorageEngine_29389" -> central [label=1; weight=1; penwidth=0.4];
-	"AggregateBasedConsistencyMarker_40560"  [label = "AggregateBasedConsistencyMarker\n(55.14%)"; penwidth = 5; ]; "AggregateBasedConsistencyMarker_40560" -> central [label=1; weight=1; penwidth=0.4];
-	"AggregateBasedJpaEventStorageEngine_42575"  [label = "AggregateBasedJpaEventStorageEngine\n(100.0%)"; penwidth = 2; ]; "AggregateBasedJpaEventStorageEngine_42575" -> central [label=1; weight=1; penwidth=0.4];
-	"Coordinator_11800"  [label = "Coordinator\n(100.0%)"; penwidth = 2; ]; "Coordinator_11800" -> central [label=1; weight=1; penwidth=0.4];
-	"CriteriaResolver_39335"  [label = "CriteriaResolver\n(93.06%)"; penwidth = 5; ]; "CriteriaResolver_39335" -> central [label=1; weight=1; penwidth=0.4];
-	"DefaultEventStoreTransaction_40983"  [label = "DefaultEventStoreTransaction\n(73.35%)"; penwidth = 5; ]; "DefaultEventStoreTransaction_40983" -> central [label=1; weight=1; penwidth=0.4];
-	"EventCriterion_15735"  [shape = "circle"; height=1.8; label = "EventCriterion\n(0.0%)"; penwidth = 2; ]; "EventCriterion_15735" -> central [label=1; weight=1; penwidth=0.4];
-	"SnapshotCapableEventStorageEngine_41965"  [shape = "circle"; height=1.8; label = "SnapshotCapableEventStorageEngine\n(0.0%)"; penwidth = 2; ]; "SnapshotCapableEventStorageEngine_41965" -> central [label=1; weight=1; penwidth=0.4];
-	"SnapshottingEntityLifecycleHandler_40323"  [shape = "circle"; height=1.8; label = "SnapshottingEntityLifecycleHandler\n(0.0%)"; penwidth = 2; ]; "SnapshottingEntityLifecycleHandler_40323" -> central [label=1; weight=1; penwidth=0.4];
-	"StartingFrom_15741"  [label = "StartingFrom\n(78.29%)"; penwidth = 2; ]; "StartingFrom_15741" -> central [label=1; weight=1; penwidth=0.4];
-	"Tag_15736"  [label = "Tag\n(100.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "Tag_15736" [label=5; weight=5; penwidth=0.5; color = 5];
-	"EventTypeRestrictableEventCriteria_11796"  [label = "EventTypeRestrictableEventCriteria\n(90.47%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "EventTypeRestrictableEventCriteria_11796" [label=4; weight=4; penwidth=0.5; color = 5];
-	"OrEventCriteria_15675"  [label = "OrEventCriteria\n(100.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "OrEventCriteria_15675" [label=4; weight=4; penwidth=0.5; color = 5];
-	"OrEventCriteriaBuilder_15739"  [label = "OrEventCriteriaBuilder\n(100.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "OrEventCriteriaBuilder_15739" [label=3; weight=3; penwidth=0.4; color = 5];
-	"AnyEvent_15674"  [label = "AnyEvent\n(100.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "AnyEvent_15674" [label=2; weight=2; penwidth=0.4; color = 5];
-	"TagFilteredEventCriteria_15738"  [label = "TagFilteredEventCriteria\n(100.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "TagFilteredEventCriteria_15738" [label=2; weight=2; penwidth=0.4; color = 5];
-	"EventCriterion_15735"  [shape = "circle"; height=1.8; label = "EventCriterion\n(0.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "EventCriterion_15735" [label=1; weight=1; penwidth=0.4; color = 5];
-	"QualifiedName_8210"  [shape = "circle"; height=1.8; label = "QualifiedName\n(0.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "QualifiedName_8210" [label=1; weight=1; penwidth=0.4; color = 5];
-	"PooledStreamingEventProcessor_11790" -> "PooledStreamingEventProcessorConfiguration_12576" [label=29; weight=29; penwidth=0.3; color = 3]
-	"DefaultEventStoreTransaction_40983" -> "AppendCondition_40547" [label=26; weight=26; penwidth=0.3; color = 3]
-	"Coordinator_11800" -> "Coordinator$Builder_13612" [label=23; weight=23; penwidth=0.3; color = 3]
-	"PooledStreamingEventProcessor_11790" -> "Coordinator$Builder_13612" [label=19; weight=19; penwidth=0.3; color = 3]
-	"AnnotationBasedEventCriteriaResolver_40322" -> "AnnotationBasedEventCriteriaResolver$WrappedEventCriteriaBuilderMethod_40562" [label=11; weight=11; penwidth=0.3; color = 3]
-	"PooledStreamingEventProcessor_11790" -> "Coordinator_11800" [label=10; weight=10; penwidth=0.3; color = 3]
-	"SnapshotCapableEventStorageEngine_41965" -> "SourcingCondition_40520" [label=9; weight=9; penwidth=0.3; color = 3]
-	"AggregateBasedJpaEventStorageEngine_42575" -> "AggregateBasedConsistencyMarker_40560" [label=8; weight=8; penwidth=0.3; color = 3]
+	graph   [label="Top Rank #5 Java Type Outlier\nio.axoniq.framework.axonserver.connector.event.AggregateBasedAxonServerEventStorageEngine$1\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: cluster probability\nlarge circle: < 25% percentile of cluster probability\nthick outline: > 80% percentile of distance to cluster center\n\n"];
+	central [label="🧩 outlier #5\nAggregateBasedAxonServerEventStorageEngine$1"];
+	"AggregateBasedAxonServerEventStorageEngine_29389"  [label = "AggregateBasedAxonServerEventStorageEngine\n(100.0%)"; penwidth = 2; ]; "AggregateBasedAxonServerEventStorageEngine_29389" -> central [label=3; weight=3; penwidth=0.4];
+	"AggregateBasedConsistencyMarker_40560"  [label = "AggregateBasedConsistencyMarker\n(31.67%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "AggregateBasedConsistencyMarker_40560" [label=6; weight=6; penwidth=0.5; color = 5];
+	"AggregateBasedConsistencyMarker$AggregateSequencer_40573"  [label = "AggregateBasedConsistencyMarker$\nAggregateSequencer\n(34.12%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "AggregateBasedConsistencyMarker$AggregateSequencer_40573" [label=4; weight=4; penwidth=0.5; color = 5];
+	"EventStorageEngine$AppendTransaction_40541"  [label = "EventStorageEngine$\nAppendTransaction\n(100.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "EventStorageEngine$AppendTransaction_40541" [label=2; weight=2; penwidth=0.4; color = 5];
+	"AggregateBasedAxonServerEventStorageEngine_29389"  [label = "AggregateBasedAxonServerEventStorageEngine\n(100.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "AggregateBasedAxonServerEventStorageEngine_29389" [label=1; weight=1; penwidth=0.4; color = 5];
+	"AggregateBasedEventStorageEngineUtils_41967"  [shape = "circle"; height=1.8; label = "AggregateBasedEventStorageEngineUtils\n(0.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "AggregateBasedEventStorageEngineUtils_41967" [label=1; weight=1; penwidth=0.4; color = 5];
+	"ConsistencyMarker_40536"  [label = "ConsistencyMarker\n(100.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "ConsistencyMarker_40536" [label=1; weight=1; penwidth=0.4; color = 5];
 	"AggregateBasedAxonServerEventStorageEngine_29389" -> "AggregateBasedConsistencyMarker_40560" [label=7; weight=7; penwidth=0.3; color = 3]
-	"AggregateBasedConsistencyMarker_40560" -> "AppendCondition_40547" [label=7; weight=7; penwidth=0.3; color = 3]
-	"AggregateBasedJpaEventStorageEngine_42575" -> "StreamingCondition_13558" [label=7; weight=7; penwidth=0.3; color = 3]
-	"AggregateBasedJpaEventStorageEngine_42575" -> "SourcingCondition_40520" [label=6; weight=6; penwidth=0.3; color = 3]
-	"AppendCondition_40547" -> "DefaultAppendCondition_41518" [label=6; weight=6; penwidth=0.3; color = 3]
-	"OrEventCriteriaBuilder_15739" -> "EventTypeRestrictableEventCriteria_11796" [label=6; weight=6; penwidth=0.3; color = 3]
-	"AggregateBasedAxonServerEventStorageEngine_29389" -> "SourcingCondition_40520" [label=5; weight=5; penwidth=0.3; color = 3]
-	"DefaultEventStoreTransaction_40983" -> "SourcingCondition_40520" [label=5; weight=5; penwidth=0.3; color = 3]
-	"DefaultSourcingCondition_41519" -> "SourcingCondition_40520" [label=5; weight=5; penwidth=0.3; color = 3]
-	"TagAndTypeFilteredEventCriteria_15737" -> "OrEventCriteria_15675" [label=5; weight=5; penwidth=0.3; color = 3]
-	"TagAndTypeFilteredEventCriteria_15737" -> "QualifiedName_8210" [label=5; weight=5; penwidth=0.3; color = 3]
-	"TagAndTypeFilteredEventCriteria_15737" -> "Tag_15736" [label=5; weight=5; penwidth=0.3; color = 3]
-	"TagFilteredEventCriteria_15738" -> "OrEventCriteria_15675" [label=5; weight=5; penwidth=0.3; color = 3]
-	"TagFilteredEventCriteria_15738" -> "Tag_15736" [label=5; weight=5; penwidth=0.3; color = 3]
-	"AggregateBasedAxonServerEventStorageEngine_29389" -> "StreamingCondition_13558" [label=4; weight=4; penwidth=0.3; color = 3]
-	"ConditionConverter_29390" -> "EventCriterion_15735" [label=4; weight=4; penwidth=0.3; color = 3]
-	"ConditionConverter_29390" -> "Tag_15736" [label=4; weight=4; penwidth=0.3; color = 3]
-	"EventTypeRestrictableOrEventCriteria_16647" -> "EventTypeRestrictableEventCriteria_11796" [label=4; weight=4; penwidth=0.3; color = 3]
-	"SnapshottingEntityLifecycleHandler_40323" -> "CriteriaResolver_39335" [label=4; weight=4; penwidth=0.3; color = 3]
-	"SourcingCondition_40520" -> "DefaultSourcingCondition_41519" [label=4; weight=4; penwidth=0.3; color = 3]
-	"AggregateBasedAxonServerEventStorageEngine_29389" -> "EventCriterion_15735" [label=3; weight=3; penwidth=0.3; color = 3]
-	"AggregateBasedJpaEventStorageEngine_42575" -> "EventCriterion_15735" [label=3; weight=3; penwidth=0.3; color = 3]
-	"AnnotationBasedEventCriteriaResolver$WrappedEventCriteriaBuilderMethod_40562" -> "AnnotationBasedEventCriteriaResolver_40322" [label=3; weight=3; penwidth=0.3; color = 3]
-	"ConditionConverter_29390" -> "StreamingCondition_13558" [label=3; weight=3; penwidth=0.3; color = 3]
-	"ConditionConverter_29390" -> "AppendCondition_40547" [label=3; weight=3; penwidth=0.3; color = 3]
-	"ConditionConverter_29390" -> "SourcingCondition_40520" [label=3; weight=3; penwidth=0.3; color = 3]
-	"Coordinator$Builder_13612" -> "Coordinator_11800" [label=3; weight=3; penwidth=0.3; color = 3]
-	"DefaultAppendCondition_41518" -> "AppendCondition_40547" [label=3; weight=3; penwidth=0.3; color = 3]
-	"EventTypeRestrictableEventCriteria_11796" -> "QualifiedName_8210" [label=3; weight=3; penwidth=0.3; color = 3]
-	"PooledStreamingEventProcessorConfiguration_12576" -> "QualifiedName_8210" [label=3; weight=3; penwidth=0.3; color = 3]
-	"TagFilteredEventCriteria_15738" -> "QualifiedName_8210" [label=3; weight=3; penwidth=0.3; color = 3]
-	"AggregateBasedAxonServerEventStorageEngine_29389" -> "Tag_15736" [label=2; weight=2; penwidth=0.3; color = 3]
-	"AggregateBasedJpaEventStorageEngine_42575" -> "Tag_15736" [label=2; weight=2; penwidth=0.3; color = 3]
-	"AggregateBasedJpaEventStorageEngine_42575" -> "QualifiedName_8210" [label=2; weight=2; penwidth=0.3; color = 3]
-	"AggregateBasedJpaEventStorageEngine_42575" -> "AppendCondition_40547" [label=2; weight=2; penwidth=0.3; color = 3]
-	"AnnotationBasedEventCriteriaResolver_40322" -> "Tag_15736" [label=2; weight=2; penwidth=0.3; color = 3]
-	"AnyEvent_15674" -> "QualifiedName_8210" [label=2; weight=2; penwidth=0.3; color = 3]
-	"AnyEvent_15674" -> "TagAndTypeFilteredEventCriteria_15737" [label=2; weight=2; penwidth=0.3; color = 3]
-	"ConditionConverter_29390" -> "QualifiedName_8210" [label=2; weight=2; penwidth=0.3; color = 3]
-	"DefaultEventStoreTransaction_40983" -> "DefaultAppendCondition_41518" [label=2; weight=2; penwidth=0.3; color = 3]
-	"DefaultStreamingCondition_15742" -> "StreamingCondition_13558" [label=2; weight=2; penwidth=0.3; color = 3]
-	"EventTypeRestrictableOrEventCriteria_16647" -> "OrEventCriteria_15675" [label=2; weight=2; penwidth=0.3; color = 3]
-	"NoAppendCondition_41964" -> "DefaultAppendCondition_41518" [label=2; weight=2; penwidth=0.3; color = 3]
-	"NoAppendCondition_41964" -> "AppendCondition_40547" [label=2; weight=2; penwidth=0.3; color = 3]
-	"OrEventCriteria_15675" -> "QualifiedName_8210" [label=2; weight=2; penwidth=0.3; color = 3]
-	"OrEventCriteriaBuilder_15739" -> "TagFilteredEventCriteria_15738" [label=2; weight=2; penwidth=0.3; color = 3]
-	"OrEventCriteriaBuilder_15739" -> "Tag_15736" [label=2; weight=2; penwidth=0.3; color = 3]
-	"OrEventCriteriaBuilder_15739" -> "EventTypeRestrictableOrEventCriteria_16647" [label=2; weight=2; penwidth=0.3; color = 3]
-	"PooledStreamingEventProcessorConfiguration_12576" -> "PooledStreamingEventProcessor_11790" [label=2; weight=2; penwidth=0.3; color = 3]
-	"SnapshottingEntityLifecycleHandler_40323" -> "SourcingCondition_40520" [label=2; weight=2; penwidth=0.3; color = 3]
-	"StartingFrom_15741" -> "StreamingCondition_13558" [label=2; weight=2; penwidth=0.3; color = 3]
-	"StartingFrom_15741" -> "DefaultStreamingCondition_15742" [label=2; weight=2; penwidth=0.3; color = 3]
-	"StreamingCondition_13558" -> "DefaultStreamingCondition_15742" [label=2; weight=2; penwidth=0.3; color = 3]
-	"StreamingCondition_13558" -> "StartingFrom_15741" [label=2; weight=2; penwidth=0.3; color = 3]
-	"TagAndTypeFilteredEventCriteria_15737" -> "EventCriterion_15735" [label=2; weight=2; penwidth=0.3; color = 3]
-	"TagFilteredEventCriteria_15738" -> "EventCriterion_15735" [label=2; weight=2; penwidth=0.3; color = 3]
-	"TagFilteredEventCriteria_15738" -> "TagAndTypeFilteredEventCriteria_15737" [label=2; weight=2; penwidth=0.3; color = 3]
-	"AggregateBasedAxonServerEventStorageEngine_29389" -> "AppendCondition_40547" [label=1; weight=1; penwidth=0.3; color = 3]
-	"AnnotationBasedEventCriteriaResolver_40322" -> "CriteriaResolver_39335" [label=1; weight=1; penwidth=0.3; color = 3]
-	"AnyEvent_15674" -> "EventTypeRestrictableEventCriteria_11796" [label=1; weight=1; penwidth=0.3; color = 3]
-	"AnyEvent_15674" -> "EventCriterion_15735" [label=1; weight=1; penwidth=0.3; color = 3]
-	"AnyEvent_15674" -> "Tag_15736" [label=1; weight=1; penwidth=0.3; color = 3]
-	"AppendCondition_40547" -> "EventsCondition_15740" [label=1; weight=1; penwidth=0.3; color = 3]
-	"AppendCondition_40547" -> "NoAppendCondition_41964" [label=1; weight=1; penwidth=0.3; color = 3]
-	"EventCriterion_15735" -> "QualifiedName_8210" [label=1; weight=1; penwidth=0.3; color = 3]
-	"EventCriterion_15735" -> "Tag_15736" [label=1; weight=1; penwidth=0.3; color = 3]
-	"EventTypeRestrictableOrEventCriteria_16647" -> "QualifiedName_8210" [label=1; weight=1; penwidth=0.3; color = 3]
-	"EventsCondition_15740" -> "QualifiedName_8210" [label=1; weight=1; penwidth=0.3; color = 3]
-	"EventsCondition_15740" -> "Tag_15736" [label=1; weight=1; penwidth=0.3; color = 3]
-	"OrEventCriteria_15675" -> "Tag_15736" [label=1; weight=1; penwidth=0.3; color = 3]
-	"OrEventCriteria_15675" -> "EventCriterion_15735" [label=1; weight=1; penwidth=0.3; color = 3]
-	"OrEventCriteria_15675" -> "AnyEvent_15674" [label=1; weight=1; penwidth=0.3; color = 3]
-	"PooledStreamingEventProcessorConfiguration_12576" -> "EventTypeRestrictableEventCriteria_11796" [label=1; weight=1; penwidth=0.3; color = 3]
-	"SnapshotCapableEventStorageEngine_41965" -> "StreamingCondition_13558" [label=1; weight=1; penwidth=0.3; color = 3]
-	"SnapshotCapableEventStorageEngine_41965" -> "AppendCondition_40547" [label=1; weight=1; penwidth=0.3; color = 3]
-	"SourcingCondition_40520" -> "EventsCondition_15740" [label=1; weight=1; penwidth=0.3; color = 3]
-	"StreamingCondition_13558" -> "EventsCondition_15740" [label=1; weight=1; penwidth=0.3; color = 3]
-	"TagAndTypeFilteredEventCriteria_15737" -> "AnyEvent_15674" [label=1; weight=1; penwidth=0.3; color = 3]
-	"TagFilteredEventCriteria_15738" -> "AnyEvent_15674" [label=1; weight=1; penwidth=0.3; color = 3]
-	"TagFilteredEventCriteria_15738" -> "EventTypeRestrictableEventCriteria_11796" [label=1; weight=1; penwidth=0.3; color = 3]
+	"AggregateBasedAxonServerEventStorageEngine_29389" -> "ConsistencyMarker_40536" [label=5; weight=5; penwidth=0.3; color = 3]
+	"AggregateBasedConsistencyMarker$AggregateSequencer_40573" -> "AggregateBasedConsistencyMarker_40560" [label=5; weight=5; penwidth=0.3; color = 3]
+	"AggregateBasedAxonServerEventStorageEngine_29389" -> "AggregateBasedEventStorageEngineUtils_41967" [label=4; weight=4; penwidth=0.3; color = 3]
+	"AggregateBasedConsistencyMarker_40560" -> "ConsistencyMarker_40536" [label=4; weight=4; penwidth=0.3; color = 3]
+	"AggregateBasedConsistencyMarker_40560" -> "AggregateBasedConsistencyMarker$AggregateSequencer_40573" [label=4; weight=4; penwidth=0.3; color = 3]
+	"AggregateBasedAxonServerEventStorageEngine_29389" -> "AggregateBasedConsistencyMarker$AggregateSequencer_40573" [label=3; weight=3; penwidth=0.3; color = 3]
+	"AggregateBasedAxonServerEventStorageEngine_29389" -> "EventStorageEngine$AppendTransaction_40541" [label=2; weight=2; penwidth=0.3; color = 3]
+	"AggregateBasedEventStorageEngineUtils_41967" -> "ConsistencyMarker_40536" [label=2; weight=2; penwidth=0.3; color = 3]
+	"EventStorageEngine$AppendTransaction_40541" -> "ConsistencyMarker_40536" [label=1; weight=1; penwidth=0.3; color = 3]
 }

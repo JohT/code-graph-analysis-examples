@@ -192,11 +192,11 @@ Graph diameter = longest shortest path. Higher = deeper transitive dependencies.
 | distance | pairCount | sourceNodeCount | targetNodeCount | examples |
 | --- | --- | --- | --- | --- |
 | 6 | 1 | 1 | 1 | ["/org/axonframework/extension/metrics/micrometer/springboot ->/org/axonframework/common/function"] |
-| 5 | 90 | 35 | 22 | ["/org/axonframework/messaging/core/unitofwork/transaction ->/org/axonframework/messaging/commandhandling","/org/axonframework/messaging/eventhandling/conversion ->/org/axonframework/messaging/commandhandling/gateway"] |
-| 4 | 597 | 94 | 49 | ["/org/axonframework/test/extension ->/org/axonframework/modelling","/org/axonframework/test/extension ->/org/axonframework/modelling/annotation"] |
-| 3 | 976 | 100 | 65 | ["/org/axonframework/test/fixture ->/org/axonframework/modelling","/org/axonframework/test/fixture ->/org/axonframework/modelling/annotation"] |
+| 5 | 90 | 35 | 22 | ["/io/axoniq/framework/axonserver/connector/configuration ->/org/axonframework/messaging/monitoring/interception","/io/axoniq/framework/axonserver/connector/configuration ->/org/axonframework/messaging/commandhandling/interception"] |
+| 4 | 597 | 94 | 49 | ["/org/axonframework/eventsourcing/snapshot/inmemory ->/org/axonframework/modelling","/org/axonframework/eventsourcing/snapshot/store ->/org/axonframework/modelling"] |
+| 3 | 976 | 100 | 65 | ["/io/axoniq/framework/axonserver/connector/snapshot ->/org/axonframework/modelling","/io/axoniq/framework/axonserver/connector/configuration ->/org/axonframework/modelling"] |
 | 2 | 990 | 108 | 80 | ["/io/axoniq/framework/axonserver/connector/query ->/org/axonframework/modelling","/io/axoniq/framework/axonserver/connector/event ->/org/axonframework/modelling"] |
-| 1 | 777 | 118 | 98 | ["/org/axonframework/modelling/annotation ->/org/axonframework/modelling","/io/axoniq/framework/axonserver/connector/shared ->/org/axonframework/modelling"] |
+| 1 | 777 | 118 | 98 | ["/io/axoniq/framework/axonserver/connector/shared ->/org/axonframework/modelling","/org/axonframework/modelling/annotation ->/org/axonframework/modelling"] |
 
 [Full data per project](./Java_Package/Package_all_pairs_shortest_paths_distribution_per_project.csv)
 

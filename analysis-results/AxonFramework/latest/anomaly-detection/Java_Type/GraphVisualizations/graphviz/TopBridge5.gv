@@ -12,48 +12,27 @@ strict digraph TopBridge5 {
     central [fontsize = 16;];
     central [color = 7; fillcolor = 5; penwidth = 3;];
 
-	graph   [label="Top Rank #5 Java Type Bridge\norg.axonframework.messaging.eventstreaming.TagFilteredEventCriteria\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
-	central [label="🌉 bridge #5\nTagFilteredEventCriteria"];
-	"EventCriteria_11787" [label = "EventCriteria"; ]; "EventCriteria_11787" -> central [label=2; weight=2; penwidth=0.4];
-	"OrEventCriteriaBuilder_15739" [label = "OrEventCriteriaBuilder"; ]; "OrEventCriteriaBuilder_15739" -> central [label=2; weight=2; penwidth=0.4];
-	"EventCriteria_11787" [label = "EventCriteria"; color = 5; fillcolor = 1; ]; central -> "EventCriteria_11787" [label=5; weight=5; penwidth=0.5; color = 5];
-	"OrEventCriteria_15675" [label = "OrEventCriteria"; color = 5; fillcolor = 1; ]; central -> "OrEventCriteria_15675" [label=5; weight=5; penwidth=0.5; color = 5];
-	"Tag_15736" [label = "Tag"; color = 5; fillcolor = 1; ]; central -> "Tag_15736" [label=5; weight=5; penwidth=0.5; color = 5];
-	"QualifiedName_8210" [label = "QualifiedName"; color = 5; fillcolor = 1; ]; central -> "QualifiedName_8210" [label=3; weight=3; penwidth=0.4; color = 5];
-	"EventCriterion_15735" [label = "EventCriterion"; color = 5; fillcolor = 1; ]; central -> "EventCriterion_15735" [label=2; weight=2; penwidth=0.4; color = 5];
-	"TagAndTypeFilteredEventCriteria_15737" [label = "TagAndTypeFilteredEventCriteria"; color = 5; fillcolor = 1; ]; central -> "TagAndTypeFilteredEventCriteria_15737" [label=2; weight=2; penwidth=0.4; color = 5];
-	"AnyEvent_15674" [label = "AnyEvent"; color = 5; fillcolor = 1; ]; central -> "AnyEvent_15674" [label=1; weight=1; penwidth=0.4; color = 5];
-	"EventTypeRestrictableEventCriteria_11796" [label = "EventTypeRestrictableEventCriteria"; color = 5; fillcolor = 1; ]; central -> "EventTypeRestrictableEventCriteria_11796" [label=1; weight=1; penwidth=0.4; color = 5];
-	"OrEventCriteria_15675" -> "EventCriteria_11787" [label=12; weight=12; penwidth=0.3; color = 3]
-	"EventTypeRestrictableEventCriteria_11796" -> "EventCriteria_11787" [label=6; weight=6; penwidth=0.3; color = 3]
-	"OrEventCriteriaBuilder_15739" -> "EventTypeRestrictableEventCriteria_11796" [label=6; weight=6; penwidth=0.3; color = 3]
-	"OrEventCriteriaBuilder_15739" -> "EventCriteria_11787" [label=6; weight=6; penwidth=0.3; color = 3]
-	"EventCriteria_11787" -> "Tag_15736" [label=5; weight=5; penwidth=0.3; color = 3]
-	"TagAndTypeFilteredEventCriteria_15737" -> "OrEventCriteria_15675" [label=5; weight=5; penwidth=0.3; color = 3]
-	"TagAndTypeFilteredEventCriteria_15737" -> "QualifiedName_8210" [label=5; weight=5; penwidth=0.3; color = 3]
-	"TagAndTypeFilteredEventCriteria_15737" -> "Tag_15736" [label=5; weight=5; penwidth=0.3; color = 3]
-	"AnyEvent_15674" -> "EventCriteria_11787" [label=4; weight=4; penwidth=0.3; color = 3]
-	"EventCriteria_11787" -> "EventTypeRestrictableEventCriteria_11796" [label=4; weight=4; penwidth=0.3; color = 3]
-	"EventCriteria_11787" -> "OrEventCriteria_15675" [label=4; weight=4; penwidth=0.3; color = 3]
-	"TagAndTypeFilteredEventCriteria_15737" -> "EventCriteria_11787" [label=4; weight=4; penwidth=0.3; color = 3]
-	"EventCriteria_11787" -> "OrEventCriteriaBuilder_15739" [label=3; weight=3; penwidth=0.3; color = 3]
-	"EventTypeRestrictableEventCriteria_11796" -> "QualifiedName_8210" [label=3; weight=3; penwidth=0.3; color = 3]
-	"AnyEvent_15674" -> "QualifiedName_8210" [label=2; weight=2; penwidth=0.3; color = 3]
-	"AnyEvent_15674" -> "TagAndTypeFilteredEventCriteria_15737" [label=2; weight=2; penwidth=0.3; color = 3]
-	"EventCriteria_11787" -> "AnyEvent_15674" [label=2; weight=2; penwidth=0.3; color = 3]
-	"OrEventCriteria_15675" -> "QualifiedName_8210" [label=2; weight=2; penwidth=0.3; color = 3]
-	"OrEventCriteriaBuilder_15739" -> "Tag_15736" [label=2; weight=2; penwidth=0.3; color = 3]
-	"TagAndTypeFilteredEventCriteria_15737" -> "EventCriterion_15735" [label=2; weight=2; penwidth=0.3; color = 3]
-	"AnyEvent_15674" -> "EventTypeRestrictableEventCriteria_11796" [label=1; weight=1; penwidth=0.3; color = 3]
-	"AnyEvent_15674" -> "EventCriterion_15735" [label=1; weight=1; penwidth=0.3; color = 3]
-	"AnyEvent_15674" -> "Tag_15736" [label=1; weight=1; penwidth=0.3; color = 3]
-	"EventCriteria_11787" -> "QualifiedName_8210" [label=1; weight=1; penwidth=0.3; color = 3]
-	"EventCriteria_11787" -> "EventCriterion_15735" [label=1; weight=1; penwidth=0.3; color = 3]
-	"EventCriterion_15735" -> "QualifiedName_8210" [label=1; weight=1; penwidth=0.3; color = 3]
-	"EventCriterion_15735" -> "Tag_15736" [label=1; weight=1; penwidth=0.3; color = 3]
-	"EventCriterion_15735" -> "EventCriteria_11787" [label=1; weight=1; penwidth=0.3; color = 3]
-	"OrEventCriteria_15675" -> "Tag_15736" [label=1; weight=1; penwidth=0.3; color = 3]
-	"OrEventCriteria_15675" -> "EventCriterion_15735" [label=1; weight=1; penwidth=0.3; color = 3]
-	"OrEventCriteria_15675" -> "AnyEvent_15674" [label=1; weight=1; penwidth=0.3; color = 3]
-	"TagAndTypeFilteredEventCriteria_15737" -> "AnyEvent_15674" [label=1; weight=1; penwidth=0.3; color = 3]
+	graph   [label="Top Rank #5 Java Type Bridge\norg.axonframework.test.util.MessageMonitorReport$Report\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
+	central [label="🌉 bridge #5\nMessageMonitorReport$Report"];
+	"MessageMonitorReport_5236" [label = "MessageMonitorReport"; ]; "MessageMonitorReport_5236" -> central [label=8; weight=8; penwidth=0.5];
+	"MessageMonitorReport$Report$Failure_4881" [label = "MessageMonitorReport$\nReport$\nFailure"; ]; "MessageMonitorReport$Report$Failure_4881" -> central [label=2; weight=2; penwidth=0.4];
+	"MessageMonitorReport$Report$Ignored_4880" [label = "MessageMonitorReport$\nReport$\nIgnored"; ]; "MessageMonitorReport$Report$Ignored_4880" -> central [label=2; weight=2; penwidth=0.4];
+	"MessageMonitorReport$Report$Success_4879" [label = "MessageMonitorReport$\nReport$\nSuccess"; ]; "MessageMonitorReport$Report$Success_4879" -> central [label=2; weight=2; penwidth=0.4];
+	"RecordingMessageMonitor$1_6185" [label = "RecordingMessageMonitor$\n1"; ]; "RecordingMessageMonitor$1_6185" -> central [label=1; weight=1; penwidth=0.4];
+	"Message_6422" [label = "Message"; color = 5; fillcolor = 1; ]; central -> "Message_6422" [label=1; weight=1; penwidth=0.4; color = 5];
+	"MessageMonitorReport$Report$Failure_4881" [label = "MessageMonitorReport$\nReport$\nFailure"; color = 5; fillcolor = 1; ]; central -> "MessageMonitorReport$Report$Failure_4881" [label=1; weight=1; penwidth=0.4; color = 5];
+	"MessageMonitorReport$Report$Ignored_4880" [label = "MessageMonitorReport$\nReport$\nIgnored"; color = 5; fillcolor = 1; ]; central -> "MessageMonitorReport$Report$Ignored_4880" [label=1; weight=1; penwidth=0.4; color = 5];
+	"MessageMonitorReport$Report$Success_4879" [label = "MessageMonitorReport$\nReport$\nSuccess"; color = 5; fillcolor = 1; ]; central -> "MessageMonitorReport$Report$Success_4879" [label=1; weight=1; penwidth=0.4; color = 5];
+	"MessageMonitorReport_5236" -> "MessageMonitorReport$Report$Failure_4881" [label=7; weight=7; penwidth=0.3; color = 3]
+	"MessageMonitorReport_5236" -> "MessageMonitorReport$Report$Ignored_4880" [label=7; weight=7; penwidth=0.3; color = 3]
+	"MessageMonitorReport_5236" -> "MessageMonitorReport$Report$Success_4879" [label=7; weight=7; penwidth=0.3; color = 3]
+	"RecordingMessageMonitor$1_6185" -> "MessageMonitorReport_5236" [label=6; weight=6; penwidth=0.3; color = 3]
+	"MessageMonitorReport_5236" -> "Message_6422" [label=3; weight=3; penwidth=0.3; color = 3]
+	"MessageMonitorReport$Report$Failure_4881" -> "Message_6422" [label=3; weight=3; penwidth=0.3; color = 3]
+	"MessageMonitorReport$Report$Ignored_4880" -> "Message_6422" [label=3; weight=3; penwidth=0.3; color = 3]
+	"MessageMonitorReport$Report$Success_4879" -> "Message_6422" [label=3; weight=3; penwidth=0.3; color = 3]
+	"RecordingMessageMonitor$1_6185" -> "Message_6422" [label=1; weight=1; penwidth=0.3; color = 3]
+	"RecordingMessageMonitor$1_6185" -> "MessageMonitorReport$Report$Ignored_4880" [label=1; weight=1; penwidth=0.3; color = 3]
+	"RecordingMessageMonitor$1_6185" -> "MessageMonitorReport$Report$Failure_4881" [label=1; weight=1; penwidth=0.3; color = 3]
+	"RecordingMessageMonitor$1_6185" -> "MessageMonitorReport$Report$Success_4879" [label=1; weight=1; penwidth=0.3; color = 3]
 }
