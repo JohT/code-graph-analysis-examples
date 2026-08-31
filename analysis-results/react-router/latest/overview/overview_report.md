@@ -1,6 +1,6 @@
 ---
 title: "Overview Report"
-generated: "2026-08-25"
+generated: "2026-08-31"
 model_version: "v4.0.2"
 dataset: "react-router-7.18.1"
 authors: ["JohT/code-graph-analysis-pipeline"]
@@ -103,13 +103,13 @@ Shows the number of relationships for each type and their share of the total rel
 Shows which node labels are connected by each relationship type, with count and percentage share.
 | sourceLabels | relationshipType | targetLabels | relationshipCount |
 | --- | --- | --- | --- |
-| ["Git","Update","Change"] | UPDATES | ["Git"] | 59455 |
 | ["Git","Update","Change"] | MODIFIES | ["Git"] | 59455 |
+| ["Git","Update","Change"] | UPDATES | ["Git"] | 59455 |
 | ["Git","Commit"] | CONTAINS_CHANGE | ["Git","Update","Change"] | 59455 |
 | ["TS","Union"] | CONTAINS | ["TS","NotIdentified"] | 53911 |
-| ["Git","Change","Create"] | CREATES | ["Git"] | 17520 |
 | ["Git","Change","Create"] | MODIFIES | ["Git"] | 17520 |
 | ["Git","Commit"] | CONTAINS_CHANGE | ["Git","Change","Create"] | 17520 |
+| ["Git","Change","Create"] | CREATES | ["Git"] | 17520 |
 | ["Git","Commit"] | HAS_PARENT | ["Git","Commit"] | 12073 |
 | ["Author","Person","Git","Committer"] | COMMITTED | ["Git","Commit"] | 10982 |
 | ["Repository","Git"] | HAS_COMMIT | ["Git","Commit"] | 10982 |

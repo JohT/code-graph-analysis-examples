@@ -1,6 +1,6 @@
 ---
 title: "Git History Report"
-generated: "2026-08-25"
+generated: "2026-08-31"
 model_version: "v4.0.2"
 dataset: "react-router-7.18.1"
 authors: ["JohT/code-graph-analysis-pipeline"]
@@ -43,16 +43,16 @@ Commit frequency and author count per directory. High values = active, potential
 
 | directoryPath | directoryName | directoryParentPath | directoryParentName | mainAuthor | secondAuthor | thirdAuthor | authorCount | fileCount | commitCount | lastCreationDate | lastModificationDate | lastCommitDate | daysSinceLastCommit | daysSinceLastCreation | daysSinceLastModification | maxCommitSha | maxFileRelativePath | directoryPathLength | combinedDirectoriesCount |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| react-router-7.18.1 | react-router-7.18.1 |  |  | Matt Brophy | github-actions[bot] | Remix Run Bot | 602 | 1181 | 4915 | 2026-06-16 | 2026-06-29 | 2026-06-29 | 57 | 69 | 56 | fff84b5f20f35c347c9d6313dfc603db0eac6e19 | react-router-7.18.1/typedoc.mjs | 1 | 1 |
-| react-router-7.18.1/.agents/skills | .agents/skills | react-router-7.18.1 | react-router-7.18.1 | Matt Brophy | Brooks Lybrand | null | 2 | 7 | 12 | 2026-06-16 | 2026-06-16 | 2026-06-16 | 70 | 69 | 69 | fadd6c490cc84abc560a2413ee6fa0f2617d098d | react-router-7.18.1/.agents/skills/react-router/references/rsc.md | 3 | 2 |
-| react-router-7.18.1/.agents/skills/fix-bug | fix-bug | react-router-7.18.1/.agents/skills | skills | Matt Brophy | Brooks Lybrand | null | 2 | 1 | 8 | 2026-03-18 | 2026-06-04 | 2026-06-04 | 82 | 159 | 81 | d6f3a05d4124ae9c1f2f74c599f80d091268ce0c | react-router-7.18.1/.agents/skills/fix-bug/SKILL.md | 4 | 1 |
-| react-router-7.18.1/.agents/skills/implement-rfc | implement-rfc | react-router-7.18.1/.agents/skills | skills | Matt Brophy | null | null | 1 | 1 | 4 | 2026-05-07 | 2026-06-04 | 2026-06-04 | 82 | 109 | 81 | fadd6c490cc84abc560a2413ee6fa0f2617d098d | react-router-7.18.1/.agents/skills/implement-rfc/SKILL.md | 4 | 1 |
-| react-router-7.18.1/.agents/skills/react-router | react-router | react-router-7.18.1/.agents/skills | skills | Brooks Lybrand | null | null | 1 | 5 | 1 | 2026-06-16 | 2026-06-16 | 2026-06-16 | 70 | 69 | 69 | 8f364c820ef698952e4bed876d6c93c895357692 | react-router-7.18.1/.agents/skills/react-router/references/rsc.md | 4 | 1 |
-| react-router-7.18.1/.agents/skills/react-router/references | references | react-router-7.18.1/.agents/skills/react-router | react-router | Brooks Lybrand | null | null | 1 | 4 | 1 | 2026-06-16 | 2026-06-16 | 2026-06-16 | 70 | 69 | 69 | 8f364c820ef698952e4bed876d6c93c895357692 | react-router-7.18.1/.agents/skills/react-router/references/rsc.md | 5 | 1 |
-| react-router-7.18.1/.github | .github | react-router-7.18.1 | react-router-7.18.1 | Matt Brophy | Michael Jackson | Michaël De Boey | 22 | 19 | 221 | 2026-05-26 | 2026-06-16 | 2026-06-16 | 70 | 90 | 69 | ff67b74a33c9f13fac28afc4923d0bf5628998ec | react-router-7.18.1/.github/workflows/test.yml | 2 | 1 |
-| react-router-7.18.1/.github/ISSUE_TEMPLATE | ISSUE_TEMPLATE | react-router-7.18.1/.github | .github | Matt Brophy | Pedro Cattori | Tim Dorr | 13 | 3 | 51 | 2023-01-11 | 2026-06-04 | 2026-06-04 | 82 | 1321 | 81 | ff67b74a33c9f13fac28afc4923d0bf5628998ec | react-router-7.18.1/.github/ISSUE_TEMPLATE/documentation_isse.yml | 3 | 1 |
-| react-router-7.18.1/.github/workflows | workflows | react-router-7.18.1/.github | .github | Matt Brophy | dependabot[bot] | Michael Jackson | 16 | 14 | 182 | 2026-05-26 | 2026-06-16 | 2026-06-16 | 70 | 90 | 69 | ff4c0712f7b24d38f51f7b967d7c31aeac531bed | react-router-7.18.1/.github/workflows/test.yml | 3 | 1 |
-| react-router-7.18.1/decisions | decisions | react-router-7.18.1 | react-router-7.18.1 | Matt Brophy | Pedro Cattori | Michael Jackson | 10 | 20 | 69 | 2026-02-19 | 2026-06-04 | 2026-06-04 | 82 | 186 | 81 | ff67b74a33c9f13fac28afc4923d0bf5628998ec | react-router-7.18.1/decisions/template.md | 2 | 1 |
+| react-router-7.18.1 | react-router-7.18.1 |  |  | Matt Brophy | github-actions[bot] | Remix Run Bot | 602 | 1181 | 4915 | 2026-06-16 | 2026-06-29 | 2026-06-29 | 63 | 75 | 62 | fff84b5f20f35c347c9d6313dfc603db0eac6e19 | react-router-7.18.1/typedoc.mjs | 1 | 1 |
+| react-router-7.18.1/.agents/skills | .agents/skills | react-router-7.18.1 | react-router-7.18.1 | Matt Brophy | Brooks Lybrand | null | 2 | 7 | 12 | 2026-06-16 | 2026-06-16 | 2026-06-16 | 76 | 75 | 75 | fadd6c490cc84abc560a2413ee6fa0f2617d098d | react-router-7.18.1/.agents/skills/react-router/references/rsc.md | 3 | 2 |
+| react-router-7.18.1/.agents/skills/fix-bug | fix-bug | react-router-7.18.1/.agents/skills | skills | Matt Brophy | Brooks Lybrand | null | 2 | 1 | 8 | 2026-03-18 | 2026-06-04 | 2026-06-04 | 88 | 165 | 87 | d6f3a05d4124ae9c1f2f74c599f80d091268ce0c | react-router-7.18.1/.agents/skills/fix-bug/SKILL.md | 4 | 1 |
+| react-router-7.18.1/.agents/skills/implement-rfc | implement-rfc | react-router-7.18.1/.agents/skills | skills | Matt Brophy | null | null | 1 | 1 | 4 | 2026-05-07 | 2026-06-04 | 2026-06-04 | 88 | 115 | 87 | fadd6c490cc84abc560a2413ee6fa0f2617d098d | react-router-7.18.1/.agents/skills/implement-rfc/SKILL.md | 4 | 1 |
+| react-router-7.18.1/.agents/skills/react-router | react-router | react-router-7.18.1/.agents/skills | skills | Brooks Lybrand | null | null | 1 | 5 | 1 | 2026-06-16 | 2026-06-16 | 2026-06-16 | 76 | 75 | 75 | 8f364c820ef698952e4bed876d6c93c895357692 | react-router-7.18.1/.agents/skills/react-router/references/rsc.md | 4 | 1 |
+| react-router-7.18.1/.agents/skills/react-router/references | references | react-router-7.18.1/.agents/skills/react-router | react-router | Brooks Lybrand | null | null | 1 | 4 | 1 | 2026-06-16 | 2026-06-16 | 2026-06-16 | 76 | 75 | 75 | 8f364c820ef698952e4bed876d6c93c895357692 | react-router-7.18.1/.agents/skills/react-router/references/rsc.md | 5 | 1 |
+| react-router-7.18.1/.github | .github | react-router-7.18.1 | react-router-7.18.1 | Matt Brophy | Michael Jackson | Michaël De Boey | 22 | 19 | 221 | 2026-05-26 | 2026-06-16 | 2026-06-16 | 76 | 96 | 75 | ff67b74a33c9f13fac28afc4923d0bf5628998ec | react-router-7.18.1/.github/workflows/test.yml | 2 | 1 |
+| react-router-7.18.1/.github/ISSUE_TEMPLATE | ISSUE_TEMPLATE | react-router-7.18.1/.github | .github | Matt Brophy | Pedro Cattori | Tim Dorr | 13 | 3 | 51 | 2023-01-11 | 2026-06-04 | 2026-06-04 | 88 | 1327 | 87 | ff67b74a33c9f13fac28afc4923d0bf5628998ec | react-router-7.18.1/.github/ISSUE_TEMPLATE/documentation_isse.yml | 3 | 1 |
+| react-router-7.18.1/.github/workflows | workflows | react-router-7.18.1/.github | .github | Matt Brophy | dependabot[bot] | Michael Jackson | 16 | 14 | 182 | 2026-05-26 | 2026-06-16 | 2026-06-16 | 76 | 96 | 75 | ff4c0712f7b24d38f51f7b967d7c31aeac531bed | react-router-7.18.1/.github/workflows/test.yml | 3 | 1 |
+| react-router-7.18.1/decisions | decisions | react-router-7.18.1 | react-router-7.18.1 | Matt Brophy | Pedro Cattori | Michael Jackson | 10 | 20 | 69 | 2026-02-19 | 2026-06-04 | 2026-06-04 | 88 | 192 | 87 | ff67b74a33c9f13fac28afc4923d0bf5628998ec | react-router-7.18.1/decisions/template.md | 2 | 1 |
 
 [Full data](./List_git_file_directories_with_commit_statistics.csv)
 
@@ -105,10 +105,10 @@ Shows all files that were changed together with another particular file.
 | filePath | commitCount | coChangeRate | maxLift | avgLift |
 | --- | --- | --- | --- | --- |
 | react-router-7.18.1/packages/react-router-dom/package.json | 354 | 0.00046254194236257015 | 2.320969825948165 | 1.331182839435704 |
-| react-router-7.18.1/contributors.yml | 226 | 0.0004984143366899113 | 1.2969891844489916 | 0.7031130066603464 |
+| react-router-7.18.1/contributors.yml | 226 | 0.0004984143366899113 | 1.2969891844489916 | 0.7031130066603465 |
 | react-router-7.18.1/packages/react-router/CHANGELOG.md | 192 | 0.000727553827615215 | 1.6150276243093924 | 1.0815284973878734 |
-| react-router-7.18.1/pnpm-lock.yaml | 152 | 0.000655624568668047 | 5.965714285714285 | 1.494260559969712 |
-| react-router-7.18.1/packages/react-router/package.json | 140 | 0.0005109563643264865 | 1.297627118644068 | 0.7070373175934741 |
+| react-router-7.18.1/pnpm-lock.yaml | 152 | 0.000655624568668047 | 5.965714285714285 | 1.4942605599697123 |
+| react-router-7.18.1/packages/react-router/package.json | 140 | 0.0005109563643264865 | 1.297627118644068 | 0.7070373175934743 |
 | react-router-7.18.1/packages/react-router/lib/hooks.tsx | 132 | 0.0016518583406332124 | 5.36719115126967 | 3.1294908855590995 |
 | react-router-7.18.1/packages/react-router/index.ts | 106 | 0.0023841655420602788 | 4.337950138504155 | 2.90807350367342 |
 | react-router-7.18.1/packages/react-router-dev/CHANGELOG.md | 96 | 0.0005112474437627812 | 3.43218085106383 | 2.087307077561485 |
@@ -238,16 +238,16 @@ Per-author file commit stats. Useful for knowledge boundaries and bus-factor ris
 
 | filePath | author | commitCount | commitHashes | lastCommitDate | lastCreationDate | lastModificationDate | daysSinceLastCommit | daysSinceLastCreation | daysSinceLastModification | maxCommitSha |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| react-router-7.18.1/.agents/skills/fix-bug/SKILL.md | Matt Brophy | 7 | ["a842fca719e81505f454a8e6a8c728cdaed22067","06c1149bc0b4f50db0cc6fc10471b4ad963b8969","2469dd6621fbcaec689571c3f003af5711bc54de","1497c6ba52e55158e4f12b54617b1255935c75d5","46321cf2767cb820c1be8bbea3bafbc32c6c4ffd","963affeb924f2256bd20c0c5c87e4c4b4fcbd188","d6f3a05d4124ae9c1f2f74c599f80d091268ce0c"] | 2026-06-04 | 2026-03-18 | 2026-06-04 | 82 | 159 | 81 | d6f3a05d4124ae9c1f2f74c599f80d091268ce0c |
-| react-router-7.18.1/.agents/skills/fix-bug/SKILL.md | Brooks Lybrand | 1 | ["4f8fff6cdb31c549fd011ac516fad5ad2e641b5f"] | 2026-05-29 | 2026-03-18 | 2026-06-04 | 88 | 159 | 81 | 4f8fff6cdb31c549fd011ac516fad5ad2e641b5f |
-| react-router-7.18.1/.agents/skills/implement-rfc/SKILL.md | Matt Brophy | 4 | ["fadd6c490cc84abc560a2413ee6fa0f2617d098d","522bc1b8cd0d7b3565bf9193789f2b7d5503856b","a6ab746a43675332ec3c190b1390724bf5c833db","d6f3a05d4124ae9c1f2f74c599f80d091268ce0c"] | 2026-06-04 | 2026-05-07 | 2026-06-04 | 82 | 109 | 81 | fadd6c490cc84abc560a2413ee6fa0f2617d098d |
-| react-router-7.18.1/.agents/skills/react-router/SKILL.md | Brooks Lybrand | 1 | ["8f364c820ef698952e4bed876d6c93c895357692"] | 2026-06-16 | 2026-06-16 | 2026-06-16 | 70 | 69 | 69 | 8f364c820ef698952e4bed876d6c93c895357692 |
-| react-router-7.18.1/.agents/skills/react-router/references/data-mode.md | Brooks Lybrand | 1 | ["8f364c820ef698952e4bed876d6c93c895357692"] | 2026-06-16 | 2026-06-16 | 2026-06-16 | 70 | 69 | 69 | 8f364c820ef698952e4bed876d6c93c895357692 |
-| react-router-7.18.1/.agents/skills/react-router/references/declarative-mode.md | Brooks Lybrand | 1 | ["8f364c820ef698952e4bed876d6c93c895357692"] | 2026-06-16 | 2026-06-16 | 2026-06-16 | 70 | 69 | 69 | 8f364c820ef698952e4bed876d6c93c895357692 |
-| react-router-7.18.1/.agents/skills/react-router/references/framework-mode.md | Brooks Lybrand | 1 | ["8f364c820ef698952e4bed876d6c93c895357692"] | 2026-06-16 | 2026-06-16 | 2026-06-16 | 70 | 69 | 69 | 8f364c820ef698952e4bed876d6c93c895357692 |
-| react-router-7.18.1/.agents/skills/react-router/references/rsc.md | Brooks Lybrand | 1 | ["8f364c820ef698952e4bed876d6c93c895357692"] | 2026-06-16 | 2026-06-16 | 2026-06-16 | 70 | 69 | 69 | 8f364c820ef698952e4bed876d6c93c895357692 |
-| react-router-7.18.1/.browserslistrc | Michael Jackson | 3 | ["82c500c4a1a5d53a608faee25f8322c661b242a1","b3f728487ae6fe7d5ef4ddc759fb2a4ca0df712e","f6df0697e1b2064a2b3a12e8b39577326fdd945b"] | 2021-09-09 | 2018-10-30 | 2021-09-09 | 1811 | 2855 | 1810 | f6df0697e1b2064a2b3a12e8b39577326fdd945b |
-| react-router-7.18.1/.browserslistrc | Matt Brophy | 1 | ["4fa24c1b12c7c2ff8f32bb611b8b5b3ac4678c61"] | 2024-03-27 | 2018-10-30 | 2021-09-09 | 881 | 2855 | 1810 | 4fa24c1b12c7c2ff8f32bb611b8b5b3ac4678c61 |
+| react-router-7.18.1/.agents/skills/fix-bug/SKILL.md | Matt Brophy | 7 | ["2469dd6621fbcaec689571c3f003af5711bc54de","a842fca719e81505f454a8e6a8c728cdaed22067","06c1149bc0b4f50db0cc6fc10471b4ad963b8969","1497c6ba52e55158e4f12b54617b1255935c75d5","46321cf2767cb820c1be8bbea3bafbc32c6c4ffd","d6f3a05d4124ae9c1f2f74c599f80d091268ce0c","963affeb924f2256bd20c0c5c87e4c4b4fcbd188"] | 2026-06-04 | 2026-03-18 | 2026-06-04 | 88 | 165 | 87 | d6f3a05d4124ae9c1f2f74c599f80d091268ce0c |
+| react-router-7.18.1/.agents/skills/fix-bug/SKILL.md | Brooks Lybrand | 1 | ["4f8fff6cdb31c549fd011ac516fad5ad2e641b5f"] | 2026-05-29 | 2026-03-18 | 2026-06-04 | 94 | 165 | 87 | 4f8fff6cdb31c549fd011ac516fad5ad2e641b5f |
+| react-router-7.18.1/.agents/skills/implement-rfc/SKILL.md | Matt Brophy | 4 | ["fadd6c490cc84abc560a2413ee6fa0f2617d098d","522bc1b8cd0d7b3565bf9193789f2b7d5503856b","a6ab746a43675332ec3c190b1390724bf5c833db","d6f3a05d4124ae9c1f2f74c599f80d091268ce0c"] | 2026-06-04 | 2026-05-07 | 2026-06-04 | 88 | 115 | 87 | fadd6c490cc84abc560a2413ee6fa0f2617d098d |
+| react-router-7.18.1/.agents/skills/react-router/SKILL.md | Brooks Lybrand | 1 | ["8f364c820ef698952e4bed876d6c93c895357692"] | 2026-06-16 | 2026-06-16 | 2026-06-16 | 76 | 75 | 75 | 8f364c820ef698952e4bed876d6c93c895357692 |
+| react-router-7.18.1/.agents/skills/react-router/references/data-mode.md | Brooks Lybrand | 1 | ["8f364c820ef698952e4bed876d6c93c895357692"] | 2026-06-16 | 2026-06-16 | 2026-06-16 | 76 | 75 | 75 | 8f364c820ef698952e4bed876d6c93c895357692 |
+| react-router-7.18.1/.agents/skills/react-router/references/declarative-mode.md | Brooks Lybrand | 1 | ["8f364c820ef698952e4bed876d6c93c895357692"] | 2026-06-16 | 2026-06-16 | 2026-06-16 | 76 | 75 | 75 | 8f364c820ef698952e4bed876d6c93c895357692 |
+| react-router-7.18.1/.agents/skills/react-router/references/framework-mode.md | Brooks Lybrand | 1 | ["8f364c820ef698952e4bed876d6c93c895357692"] | 2026-06-16 | 2026-06-16 | 2026-06-16 | 76 | 75 | 75 | 8f364c820ef698952e4bed876d6c93c895357692 |
+| react-router-7.18.1/.agents/skills/react-router/references/rsc.md | Brooks Lybrand | 1 | ["8f364c820ef698952e4bed876d6c93c895357692"] | 2026-06-16 | 2026-06-16 | 2026-06-16 | 76 | 75 | 75 | 8f364c820ef698952e4bed876d6c93c895357692 |
+| react-router-7.18.1/.browserslistrc | Michael Jackson | 3 | ["82c500c4a1a5d53a608faee25f8322c661b242a1","b3f728487ae6fe7d5ef4ddc759fb2a4ca0df712e","f6df0697e1b2064a2b3a12e8b39577326fdd945b"] | 2021-09-09 | 2018-10-30 | 2021-09-09 | 1817 | 2861 | 1816 | f6df0697e1b2064a2b3a12e8b39577326fdd945b |
+| react-router-7.18.1/.browserslistrc | Matt Brophy | 1 | ["4fa24c1b12c7c2ff8f32bb611b8b5b3ac4678c61"] | 2024-03-27 | 2018-10-30 | 2021-09-09 | 887 | 2861 | 1816 | 4fa24c1b12c7c2ff8f32bb611b8b5b3ac4678c61 |
 
 [Full data](./List_git_files_with_commit_statistics_by_author.csv)
 

@@ -24,12 +24,12 @@ strict digraph TopBridge3 {
 	"routes_97006" [label = "routes"; color = 5; fillcolor = 1; ]; central -> "routes_97006" [label=786; weight=786; penwidth=0.5; color = 5];
 	"generate_97023" -> "config_97016" [label=40; weight=40; penwidth=0.3; color = 3]
 	"virtual-route-config_97058" -> "routes_97006" [label=37; weight=37; penwidth=0.3; color = 3]
-	"plugin_97040" -> "resolve-relative-route-file-path_97044" [label=20; weight=20; penwidth=0.3; color = 3]
 	"plugin_97040" -> "styles_97047" [label=20; weight=20; penwidth=0.3; color = 3]
+	"plugin_97040" -> "resolve-relative-route-file-path_97044" [label=20; weight=20; penwidth=0.3; color = 3]
 	"plugin_97040" -> "config_97016" [label=15; weight=15; penwidth=0.3; color = 3]
 	"plugin_97056" -> "config_97016" [label=9; weight=9; penwidth=0.3; color = 3]
-	"plugin_97056" -> "resolve-relative-route-file-path_97044" [label=4; weight=4; penwidth=0.3; color = 3]
 	"plugin_97056" -> "virtual-route-config_97058" [label=4; weight=4; penwidth=0.3; color = 3]
+	"plugin_97056" -> "resolve-relative-route-file-path_97044" [label=4; weight=4; penwidth=0.3; color = 3]
 	"plugin_97056" -> "plugin_97040" [label=4; weight=4; penwidth=0.3; color = 3]
 	"styles_97047" -> "plugin_97040" [label=4; weight=4; penwidth=0.3; color = 3]
 }
