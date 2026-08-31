@@ -250,3 +250,16 @@ Report | Analysis | Description
 | [java_report.md](./react-router/react-router-7.18.1/java/java_report.md) | react-router-7.18.1 | ☕ Java Report |
 | [node_embeddings_report.md](./react-router/react-router-7.18.1/node-embeddings/node_embeddings_report.md) | react-router-7.18.1 | 🧬 Node Embeddings Report |
 | [overview_report.md](./react-router/react-router-7.18.1/overview/overview_report.md) | react-router-7.18.1 | Overview Report |
+| [GraphVisualizationsReferenceForSummary.md](./react-router/react-router-7.18.3/anomaly-detection/Typescript_Module/GraphVisualizations/GraphVisualizationsReferenceForSummary.md) | react-router-7.18.3 | Graph Visualizations |
+| [anomaly_detection_report.md](./react-router/react-router-7.18.3/anomaly-detection/anomaly_detection_report.md) | react-router-7.18.3 | 📊 Anomaly Detection Report |
+| [GraphVisualizationsReferenceForSummary.md](./react-router/react-router-7.18.3/archetypes/Typescript_Module/GraphVisualizations/GraphVisualizationsReferenceForSummary.md) | react-router-7.18.3 | Graph Visualizations |
+| [archetypes_report.md](./react-router/react-router-7.18.3/archetypes/archetypes_report.md) | react-router-7.18.3 | 📊 Archetypes Report |
+| [GraphVisualizationsReferenceForSummary.md](./react-router/react-router-7.18.3/cyclic-dependencies/Typescript_Module/Graph_Visualizations/GraphVisualizationsReferenceForSummary.md) | react-router-7.18.3 | Graph Visualizations |
+| [cyclic_dependencies_report.md](./react-router/react-router-7.18.3/cyclic-dependencies/cyclic_dependencies_report.md) | react-router-7.18.3 | ♻️ Cyclic Dependencies Report |
+| [external_dependencies_report.md](./react-router/react-router-7.18.3/external-dependencies/external_dependencies_report.md) | react-router-7.18.3 | 📦 External Dependencies Report |
+| [git_history_report.md](./react-router/react-router-7.18.3/git-history/git_history_report.md) | react-router-7.18.3 | 📜 Git History Report |
+| [graph_algorithms_report.md](./react-router/react-router-7.18.3/graph-algorithms/graph_algorithms_report.md) | react-router-7.18.3 | 📊 Graph Algorithms Report |
+| [internal_dependencies_report.md](./react-router/react-router-7.18.3/internal-dependencies/internal_dependencies_report.md) | react-router-7.18.3 | 🔗 Internal Dependencies Report |
+| [java_report.md](./react-router/react-router-7.18.3/java/java_report.md) | react-router-7.18.3 | ☕ Java Report |
+| [node_embeddings_report.md](./react-router/react-router-7.18.3/node-embeddings/node_embeddings_report.md) | react-router-7.18.3 | 🧬 Node Embeddings Report |
+| [overview_report.md](./react-router/react-router-7.18.3/overview/overview_report.md) | react-router-7.18.3 | Overview Report |
