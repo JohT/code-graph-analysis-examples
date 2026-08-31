@@ -59,7 +59,6 @@
 "Type,File,Java,Class,ByteCode,GenericDeclaration,InternalJavaType,ConnectedInternalJavaType,Record","Type,File,Java,ByteCode,Throwable,JavaType,ExternalType",3,0,""
 "Type,File,Java,Class,ByteCode,InternalJavaType,ConnectedInternalJavaType,Interface,GenericDeclaration,Record","Type,File,Java,ByteCode,PrimitiveType",3,0,""
 "Type,File,Java,Class,ByteCode,Throwable,InternalJavaType,ConnectedInternalJavaType,Interface,GenericDeclaration","Type,File,Java,ByteCode,JavaType",3,0,""
-"File,Artifact,Jar,Archive,Zip,Java","File,Artifact,Jar,Archive,Zip,Java",2,0,""
 "Type,File,Java,ByteCode,GenericDeclaration,Interface,InternalJavaType,ConnectedInternalJavaType,Class,Record,Annotation,Throwable","Type,File,Java,ByteCode,ResolvedDuplicateType",2,0,""
 "Type,File,Java,ByteCode,GenericDeclaration,Interface,InternalJavaType,ConnectedInternalJavaType,Class,Throwable,Enum","Type,File,Java,ByteCode,JavaType",2,0,""
 "Type,File,Java,ByteCode,Record,InternalJavaType,ConnectedInternalJavaType,Class,GenericDeclaration,Interface","Type,File,Java,ByteCode,PrimitiveType",2,0,""
