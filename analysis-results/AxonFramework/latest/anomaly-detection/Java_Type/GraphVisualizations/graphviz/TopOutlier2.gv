@@ -12,23 +12,19 @@ strict digraph TopOutlier2 {
     central [fontsize = 16;];
     central [color = 7; fillcolor = 5; penwidth = 3;];
 
-	graph   [label="Top Rank #2 Java Type Outlier\norg.axonframework.conversion.jackson.JacksonConverter\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: cluster probability\nlarge circle: < 25% percentile of cluster probability\nthick outline: > 80% percentile of distance to cluster center\n\n"];
-	central [label="🧩 outlier #2\nJacksonConverter"];
-	"MessagingConfigurationDefaults_25567"  [label = "MessagingConfigurationDefaults\n(72.06%)"; penwidth = 2; ]; "MessagingConfigurationDefaults_25567" -> central [label=2; weight=2; penwidth=0.4];
-	"ChainingContentTypeConverter_44714"  [label = "ChainingContentTypeConverter\n(33.83%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "ChainingContentTypeConverter_44714" [label=15; weight=15; penwidth=0.6; color = 5];
-	"ComponentDescriptor_35355"  [shape = "circle"; height=1.8; label = "ComponentDescriptor\n(0.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "ComponentDescriptor_35355" [label=3; weight=3; penwidth=0.4; color = 5];
-	"ByteArrayToJsonNodeConverter_44712"  [label = "ByteArrayToJsonNodeConverter\n(100.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "ByteArrayToJsonNodeConverter_44712" [label=2; weight=2; penwidth=0.4; color = 5];
-	"ConversionException_45127"  [label = "ConversionException\n(92.4%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "ConversionException_45127" [label=2; weight=2; penwidth=0.4; color = 5];
-	"JsonNodeToByteArrayConverter_44709"  [label = "JsonNodeToByteArrayConverter\n(100.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "JsonNodeToByteArrayConverter_44709" [label=2; weight=2; penwidth=0.4; color = 5];
-	"JsonNodeToObjectNodeConverter_44711"  [label = "JsonNodeToObjectNodeConverter\n(100.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "JsonNodeToObjectNodeConverter_44711" [label=2; weight=2; penwidth=0.4; color = 5];
-	"ObjectNodeToJsonNodeConverter_44710"  [shape = "circle"; height=1.8; label = "ObjectNodeToJsonNodeConverter\n(15.18%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "ObjectNodeToJsonNodeConverter_44710" [label=2; weight=2; penwidth=0.4; color = 5];
-	"Converter_45140"  [shape = "circle"; height=1.8; label = "Converter\n(25.44%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "Converter_45140" [label=1; weight=1; penwidth=0.4; color = 5];
-	"Internal_33604"  [shape = "circle"; height=1.8; label = "Internal\n(0.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "Internal_33604" [label=1; weight=1; penwidth=0.4; color = 5];
-	"ByteArrayToJsonNodeConverter_44712" -> "ConversionException_45127" [label=2; weight=2; penwidth=0.3; color = 3]
-	"ChainingContentTypeConverter_44714" -> "ComponentDescriptor_35355" [label=2; weight=2; penwidth=0.3; color = 3]
-	"ChainingContentTypeConverter_44714" -> "ConversionException_45127" [label=2; weight=2; penwidth=0.3; color = 3]
-	"JsonNodeToByteArrayConverter_44709" -> "ConversionException_45127" [label=2; weight=2; penwidth=0.3; color = 3]
-	"JsonNodeToObjectNodeConverter_44711" -> "ConversionException_45127" [label=2; weight=2; penwidth=0.3; color = 3]
-	"MessagingConfigurationDefaults_25567" -> "Converter_45140" [label=2; weight=2; penwidth=0.3; color = 3]
-	"ChainingContentTypeConverter_44714" -> "Converter_45140" [label=1; weight=1; penwidth=0.3; color = 3]
+	graph   [label="Top Rank #2 Java Type Outlier\norg.axonframework.common.caching.Cache\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: cluster probability\nlarge circle: < 25% percentile of cluster probability\nthick outline: > 80% percentile of distance to cluster center\n\n"];
+	central [label="🧩 outlier #2\nCache"];
+	"AbstractCacheAdapter_34474"  [label = "AbstractCacheAdapter\n(100.0%)"; penwidth = 2; ]; "AbstractCacheAdapter_34474" -> central [label=1; weight=1; penwidth=0.4];
+	"NoCache_34491"  [label = "NoCache\n(100.0%)"; penwidth = 2; ]; "NoCache_34491" -> central [label=1; weight=1; penwidth=0.4];
+	"WeakReferenceCache_34489"  [label = "WeakReferenceCache\n(34.95%)"; penwidth = 2; ]; "WeakReferenceCache_34489" -> central [label=1; weight=1; penwidth=0.4];
+	"Cache$EntryListener_34497"  [label = "Cache$\nEntryListener\n(28.39%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "Cache$EntryListener_34497" [label=2; weight=2; penwidth=0.4; color = 5];
+	"Cache$EntryListenerAdapter_34484"  [label = "Cache$\nEntryListenerAdapter\n(100.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "Cache$EntryListenerAdapter_34484" [label=1; weight=1; penwidth=0.4; color = 5];
+	"Registration_34496"  [label = "Registration\n(14.32%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "Registration_34496" [label=1; weight=1; penwidth=0.4; color = 5];
+	"WeakReferenceCache_34489" -> "Cache$EntryListener_34497" [label=24; weight=24; penwidth=0.3; color = 3]
+	"AbstractCacheAdapter_34474" -> "Cache$EntryListener_34497" [label=5; weight=5; penwidth=0.3; color = 3]
+	"AbstractCacheAdapter_34474" -> "Registration_34496" [label=4; weight=4; penwidth=0.3; color = 3]
+	"Cache$EntryListenerAdapter_34484" -> "Cache$EntryListener_34497" [label=2; weight=2; penwidth=0.3; color = 3]
+	"NoCache_34491" -> "Cache$EntryListener_34497" [label=2; weight=2; penwidth=0.3; color = 3]
+	"NoCache_34491" -> "Registration_34496" [label=1; weight=1; penwidth=0.3; color = 3]
+	"WeakReferenceCache_34489" -> "Registration_34496" [label=1; weight=1; penwidth=0.3; color = 3]
 }

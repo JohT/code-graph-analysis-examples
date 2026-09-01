@@ -12,43 +12,16 @@ strict digraph TopBridge3 {
     central [fontsize = 16;];
     central [color = 7; fillcolor = 5; penwidth = 3;];
 
-	graph   [label="Top Rank #3 Java Type Bridge\norg.axonframework.messaging.eventstreaming.AnyEvent\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
-	central [label="🌉 bridge #3\nAnyEvent"];
-	"EventCriteria_11787" [label = "EventCriteria"; ]; "EventCriteria_11787" -> central [label=2; weight=2; penwidth=0.4];
-	"OrEventCriteria_15675" [label = "OrEventCriteria"; ]; "OrEventCriteria_15675" -> central [label=1; weight=1; penwidth=0.4];
-	"TagAndTypeFilteredEventCriteria_15737" [label = "TagAndTypeFilteredEventCriteria"; ]; "TagAndTypeFilteredEventCriteria_15737" -> central [label=1; weight=1; penwidth=0.4];
-	"TagFilteredEventCriteria_15738" [label = "TagFilteredEventCriteria"; ]; "TagFilteredEventCriteria_15738" -> central [label=1; weight=1; penwidth=0.4];
-	"EventCriteria_11787" [label = "EventCriteria"; color = 5; fillcolor = 1; ]; central -> "EventCriteria_11787" [label=4; weight=4; penwidth=0.5; color = 5];
-	"QualifiedName_8210" [label = "QualifiedName"; color = 5; fillcolor = 1; ]; central -> "QualifiedName_8210" [label=2; weight=2; penwidth=0.4; color = 5];
-	"TagAndTypeFilteredEventCriteria_15737" [label = "TagAndTypeFilteredEventCriteria"; color = 5; fillcolor = 1; ]; central -> "TagAndTypeFilteredEventCriteria_15737" [label=2; weight=2; penwidth=0.4; color = 5];
-	"EventCriterion_15735" [label = "EventCriterion"; color = 5; fillcolor = 1; ]; central -> "EventCriterion_15735" [label=1; weight=1; penwidth=0.4; color = 5];
-	"EventTypeRestrictableEventCriteria_11796" [label = "EventTypeRestrictableEventCriteria"; color = 5; fillcolor = 1; ]; central -> "EventTypeRestrictableEventCriteria_11796" [label=1; weight=1; penwidth=0.4; color = 5];
-	"Tag_15736" [label = "Tag"; color = 5; fillcolor = 1; ]; central -> "Tag_15736" [label=1; weight=1; penwidth=0.4; color = 5];
-	"OrEventCriteria_15675" -> "EventCriteria_11787" [label=12; weight=12; penwidth=0.3; color = 3]
-	"EventTypeRestrictableEventCriteria_11796" -> "EventCriteria_11787" [label=6; weight=6; penwidth=0.3; color = 3]
-	"EventCriteria_11787" -> "Tag_15736" [label=5; weight=5; penwidth=0.3; color = 3]
-	"TagAndTypeFilteredEventCriteria_15737" -> "OrEventCriteria_15675" [label=5; weight=5; penwidth=0.3; color = 3]
-	"TagAndTypeFilteredEventCriteria_15737" -> "QualifiedName_8210" [label=5; weight=5; penwidth=0.3; color = 3]
-	"TagAndTypeFilteredEventCriteria_15737" -> "Tag_15736" [label=5; weight=5; penwidth=0.3; color = 3]
-	"TagFilteredEventCriteria_15738" -> "EventCriteria_11787" [label=5; weight=5; penwidth=0.3; color = 3]
-	"TagFilteredEventCriteria_15738" -> "OrEventCriteria_15675" [label=5; weight=5; penwidth=0.3; color = 3]
-	"TagFilteredEventCriteria_15738" -> "Tag_15736" [label=5; weight=5; penwidth=0.3; color = 3]
-	"EventCriteria_11787" -> "EventTypeRestrictableEventCriteria_11796" [label=4; weight=4; penwidth=0.3; color = 3]
-	"EventCriteria_11787" -> "OrEventCriteria_15675" [label=4; weight=4; penwidth=0.3; color = 3]
-	"TagAndTypeFilteredEventCriteria_15737" -> "EventCriteria_11787" [label=4; weight=4; penwidth=0.3; color = 3]
-	"EventTypeRestrictableEventCriteria_11796" -> "QualifiedName_8210" [label=3; weight=3; penwidth=0.3; color = 3]
-	"TagFilteredEventCriteria_15738" -> "QualifiedName_8210" [label=3; weight=3; penwidth=0.3; color = 3]
-	"EventCriteria_11787" -> "TagFilteredEventCriteria_15738" [label=2; weight=2; penwidth=0.3; color = 3]
-	"OrEventCriteria_15675" -> "QualifiedName_8210" [label=2; weight=2; penwidth=0.3; color = 3]
-	"TagAndTypeFilteredEventCriteria_15737" -> "EventCriterion_15735" [label=2; weight=2; penwidth=0.3; color = 3]
-	"TagFilteredEventCriteria_15738" -> "EventCriterion_15735" [label=2; weight=2; penwidth=0.3; color = 3]
-	"TagFilteredEventCriteria_15738" -> "TagAndTypeFilteredEventCriteria_15737" [label=2; weight=2; penwidth=0.3; color = 3]
-	"EventCriteria_11787" -> "QualifiedName_8210" [label=1; weight=1; penwidth=0.3; color = 3]
-	"EventCriteria_11787" -> "EventCriterion_15735" [label=1; weight=1; penwidth=0.3; color = 3]
-	"EventCriterion_15735" -> "QualifiedName_8210" [label=1; weight=1; penwidth=0.3; color = 3]
-	"EventCriterion_15735" -> "Tag_15736" [label=1; weight=1; penwidth=0.3; color = 3]
-	"EventCriterion_15735" -> "EventCriteria_11787" [label=1; weight=1; penwidth=0.3; color = 3]
-	"OrEventCriteria_15675" -> "Tag_15736" [label=1; weight=1; penwidth=0.3; color = 3]
-	"OrEventCriteria_15675" -> "EventCriterion_15735" [label=1; weight=1; penwidth=0.3; color = 3]
-	"TagFilteredEventCriteria_15738" -> "EventTypeRestrictableEventCriteria_11796" [label=1; weight=1; penwidth=0.3; color = 3]
+	graph   [label="Top Rank #3 Java Type Bridge\norg.axonframework.common.caching.EhCacheAdapter\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
+	central [label="🌉 bridge #3\nEhCacheAdapter"];
+	"EhCacheAdapter$1_34488" [label = "EhCacheAdapter$\n1"; ]; "EhCacheAdapter$1_34488" -> central [label=1; weight=1; penwidth=0.4];
+	"Cache$EntryListener_34497" [label = "Cache$\nEntryListener"; color = 5; fillcolor = 1; ]; central -> "Cache$EntryListener_34497" [label=3; weight=3; penwidth=0.4; color = 5];
+	"EhCacheAdapter$CacheEventListenerAdapter_34487" [label = "EhCacheAdapter$\nCacheEventListenerAdapter"; color = 5; fillcolor = 1; ]; central -> "EhCacheAdapter$CacheEventListenerAdapter_34487" [label=3; weight=3; penwidth=0.4; color = 5];
+	"AbstractCacheAdapter_34474" [label = "AbstractCacheAdapter"; color = 5; fillcolor = 1; ]; central -> "AbstractCacheAdapter_34474" [label=2; weight=2; penwidth=0.4; color = 5];
+	"Registration_34496" [label = "Registration"; color = 5; fillcolor = 1; ]; central -> "Registration_34496" [label=2; weight=2; penwidth=0.4; color = 5];
+	"EhCacheAdapter$1_34488" [label = "EhCacheAdapter$\n1"; color = 5; fillcolor = 1; ]; central -> "EhCacheAdapter$1_34488" [label=1; weight=1; penwidth=0.4; color = 5];
+	"EhCacheAdapter$CacheEventListenerAdapter_34487" -> "Cache$EntryListener_34497" [label=7; weight=7; penwidth=0.3; color = 3]
+	"AbstractCacheAdapter_34474" -> "Cache$EntryListener_34497" [label=5; weight=5; penwidth=0.3; color = 3]
+	"AbstractCacheAdapter_34474" -> "Registration_34496" [label=4; weight=4; penwidth=0.3; color = 3]
+	"EhCacheAdapter$CacheEventListenerAdapter_34487" -> "EhCacheAdapter$1_34488" [label=2; weight=2; penwidth=0.3; color = 3]
 }

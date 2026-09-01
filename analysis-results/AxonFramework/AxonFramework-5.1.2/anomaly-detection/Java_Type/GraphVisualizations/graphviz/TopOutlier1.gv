@@ -12,34 +12,10 @@ strict digraph TopOutlier1 {
     central [fontsize = 16;];
     central [color = 7; fillcolor = 5; penwidth = 3;];
 
-	graph   [label="Top Rank #1 Java Type Outlier\norg.axonframework.common.Registration\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: cluster probability\nlarge circle: < 25% percentile of cluster probability\nthick outline: > 80% percentile of distance to cluster center\n\n"];
-	central [label="🧩 outlier #1\nRegistration"];
-	"ContinuousMessageStream_41999"  [shape = "circle"; height=1.8; label = "ContinuousMessageStream\n(0.0%)"; penwidth = 2; ]; "ContinuousMessageStream_41999" -> central [label=5; weight=5; penwidth=0.5];
-	"AbstractCacheAdapter_34474"  [label = "AbstractCacheAdapter\n(100.0%)"; penwidth = 2; ]; "AbstractCacheAdapter_34474" -> central [label=4; weight=4; penwidth=0.5];
-	"AxonServerQueryBusConnector$LocalSegmentAdapter_28206"  [shape = "circle"; height=1.8; label = "AxonServerQueryBusConnector$\nLocalSegmentAdapter\n(0.0%)"; penwidth = 2; ]; "AxonServerQueryBusConnector$LocalSegmentAdapter_28206" -> central [label=2; weight=2; penwidth=0.4];
-	"EhCacheAdapter_34486"  [shape = "circle"; height=1.8; label = "EhCacheAdapter\n(19.95%)"; penwidth = 2; ]; "EhCacheAdapter_34486" -> central [label=2; weight=2; penwidth=0.4];
-	"JCacheAdapter_34485"  [shape = "circle"; height=1.8; label = "JCacheAdapter\n(19.95%)"; penwidth = 5; ]; "JCacheAdapter_34485" -> central [label=2; weight=2; penwidth=0.4];
-	"SubscribingEventProcessor_15665"  [shape = "circle"; height=1.8; label = "SubscribingEventProcessor\n(0.0%)"; penwidth = 2; ]; "SubscribingEventProcessor_15665" -> central [label=2; weight=2; penwidth=0.4];
-	"AggregateBasedJpaEventStorageEngine_42575"  [label = "AggregateBasedJpaEventStorageEngine\n(41.36%)"; penwidth = 2; ]; "AggregateBasedJpaEventStorageEngine_42575" -> central [label=1; weight=1; penwidth=0.4];
-	"Cache_34499"  [shape = "circle"; height=1.8; label = "Cache\n(19.95%)"; penwidth = 5; ]; "Cache_34499" -> central [label=1; weight=1; penwidth=0.4];
-	"DelegatingEventBus_10306"  [label = "DelegatingEventBus\n(100.0%)"; penwidth = 2; ]; "DelegatingEventBus_10306" -> central [label=1; weight=1; penwidth=0.4];
-	"EventSubscribers_10313"  [label = "EventSubscribers\n(100.0%)"; penwidth = 2; ]; "EventSubscribers_10313" -> central [label=1; weight=1; penwidth=0.4];
-	"InterceptingEventBus_15672"  [label = "InterceptingEventBus\n(100.0%)"; penwidth = 2; ]; "InterceptingEventBus_15672" -> central [label=1; weight=1; penwidth=0.4];
-	"InterceptingEventStore_41969"  [shape = "circle"; height=1.8; label = "InterceptingEventStore\n(0.0%)"; penwidth = 2; ]; "InterceptingEventStore_41969" -> central [label=1; weight=1; penwidth=0.4];
-	"NoCache_34491"  [label = "NoCache\n(100.0%)"; penwidth = 2; ]; "NoCache_34491" -> central [label=1; weight=1; penwidth=0.4];
-	"RecordingEventBus_5231"  [label = "RecordingEventBus\n(100.0%)"; penwidth = 2; ]; "RecordingEventBus_5231" -> central [label=1; weight=1; penwidth=0.4];
-	"RecordingEventStore_5232"  [shape = "circle"; height=1.8; label = "RecordingEventStore\n(0.0%)"; penwidth = 2; ]; "RecordingEventStore_5232" -> central [label=1; weight=1; penwidth=0.4];
-	"SimpleEventBus_10324"  [label = "SimpleEventBus\n(100.0%)"; penwidth = 2; ]; "SimpleEventBus_10324" -> central [label=1; weight=1; penwidth=0.4];
-	"StorageEngineBackedEventStore_41963"  [shape = "circle"; height=1.8; label = "StorageEngineBackedEventStore\n(0.0%)"; penwidth = 2; ]; "StorageEngineBackedEventStore_41963" -> central [label=1; weight=1; penwidth=0.4];
-	"SubscribableEventSource_10114"  [label = "SubscribableEventSource\n(47.13%)"; penwidth = 5; ]; "SubscribableEventSource_10114" -> central [label=1; weight=1; penwidth=0.4];
-	"WeakReferenceCache_34489"  [label = "WeakReferenceCache\n(30.41%)"; penwidth = 2; ]; "WeakReferenceCache_34489" -> central [label=1; weight=1; penwidth=0.4];
-	"SimpleEventBus_10324" -> "EventSubscribers_10313" [label=6; weight=6; penwidth=0.3; color = 3]
-	"AggregateBasedJpaEventStorageEngine_42575" -> "ContinuousMessageStream_41999" [label=4; weight=4; penwidth=0.3; color = 3]
-	"InterceptingEventStore_41969" -> "InterceptingEventBus_15672" [label=4; weight=4; penwidth=0.3; color = 3]
-	"EhCacheAdapter_34486" -> "AbstractCacheAdapter_34474" [label=2; weight=2; penwidth=0.3; color = 3]
-	"JCacheAdapter_34485" -> "AbstractCacheAdapter_34474" [label=2; weight=2; penwidth=0.3; color = 3]
-	"SubscribingEventProcessor_15665" -> "SubscribableEventSource_10114" [label=2; weight=2; penwidth=0.3; color = 3]
-	"AbstractCacheAdapter_34474" -> "Cache_34499" [label=1; weight=1; penwidth=0.3; color = 3]
-	"NoCache_34491" -> "Cache_34499" [label=1; weight=1; penwidth=0.3; color = 3]
-	"WeakReferenceCache_34489" -> "Cache_34499" [label=1; weight=1; penwidth=0.3; color = 3]
+	graph   [label="Top Rank #1 Java Type Outlier\norg.axonframework.common.configuration.DefaultComponentRegistry$1\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: cluster probability\nlarge circle: < 25% percentile of cluster probability\nthick outline: > 80% percentile of distance to cluster center\n\n"];
+	central [label="🧩 outlier #1\nDefaultComponentRegistry$1"];
+	"DefaultComponentRegistry_35441"  [label = "DefaultComponentRegistry\n(100.0%)"; penwidth = 2; ]; "DefaultComponentRegistry_35441" -> central [label=2; weight=2; penwidth=0.4];
+	"SearchScope_36529"  [shape = "circle"; height=1.8; label = "SearchScope\n(12.07%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "SearchScope_36529" [label=7; weight=7; penwidth=0.5; color = 5];
+	"DefaultComponentRegistry_35441"  [label = "DefaultComponentRegistry\n(100.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "DefaultComponentRegistry_35441" [label=1; weight=1; penwidth=0.4; color = 5];
+	"DefaultComponentRegistry_35441" -> "SearchScope_36529" [label=3; weight=3; penwidth=0.3; color = 3]
 }

@@ -12,11 +12,52 @@ strict digraph TopOutlier5 {
     central [fontsize = 16;];
     central [color = 7; fillcolor = 5; penwidth = 3;];
 
-	graph   [label="Top Rank #5 Java Package Outlier\norg.axonframework.eventsourcing.snapshot.inmemory\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: cluster probability\nlarge circle: < 25% percentile of cluster probability\nthick outline: > 80% percentile of distance to cluster center\n\n"];
-	central [label="🧩 outlier #5\ninmemory"];
-	"api_39279"  [shape = "circle"; height=1.8; label = "api\n(50.97%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "api_39279" [label=4; weight=4; penwidth=0.5; color = 5];
-	"core_6390"  [label = "core\n(100.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "core_6390" [label=4; weight=4; penwidth=0.5; color = 5];
-	"store_39278"  [shape = "circle"; height=1.8; label = "store\n(43.69%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "store_39278" [label=0; weight=0; penwidth=0.4; color = 5];
-	"store_39278" -> "api_39279" [label=2; weight=2; penwidth=0.3; color = 3]
-	"store_39278" -> "core_6390" [label=2; weight=2; penwidth=0.3; color = 3]
+	graph   [label="Top Rank #5 Java Package Outlier\nio.axoniq.framework.axonserver.connector.command\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: cluster probability\nlarge circle: < 25% percentile of cluster probability\nthick outline: > 80% percentile of distance to cluster center\n\n"];
+	central [label="🧩 outlier #5\ncommand"];
+	"configuration_27104"  [label = "configuration\n(92.05%)"; penwidth = 5; ]; "configuration_27104" -> central [label=8; weight=8; penwidth=0.5];
+	"core_6390"  [label = "core\n(100.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "core_6390" [label=17; weight=17; penwidth=0.7; color = 5];
+	"commandhandling_6355"  [label = "commandhandling\n(94.39%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "commandhandling_6355" [label=12; weight=12; penwidth=0.6; color = 5];
+	"lifecycle_32313"  [label = "lifecycle\n(85.43%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "lifecycle_32313" [label=12; weight=12; penwidth=0.6; color = 5];
+	"shared_27096"  [label = "shared\n(85.43%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "shared_27096" [label=5; weight=5; penwidth=0.5; color = 5];
+	"api_27100"  [label = "api\n(92.05%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "api_27100" [label=4; weight=4; penwidth=0.5; color = 5];
+	"common_32303"  [label = "common\n(100.0%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "common_32303" [label=4; weight=4; penwidth=0.5; color = 5];
+	"util_27098"  [shape = "circle"; height=1.8; label = "util\n(0.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "util_27098" [label=4; weight=4; penwidth=0.5; color = 5];
+	"annotation_32305"  [shape = "circle"; height=1.8; label = "annotation\n(38.54%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "annotation_32305" [label=1; weight=1; penwidth=0.4; color = 5];
+	"infra_32312"  [label = "infra\n(95.48%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "infra_32312" [label=1; weight=1; penwidth=0.4; color = 5];
+	"conversion_6397"  [shape = "circle"; height=1.8; label = "conversion\n(60.47%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "conversion_6397" [label=0; weight=0; penwidth=0.4; color = 5];
+	"conversion_44701"  [label = "conversion\n(100.0%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "conversion_44701" [label=0; weight=0; penwidth=0.4; color = 5];
+	"unitofwork_6399"  [label = "unitofwork\n(100.0%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "unitofwork_6399" [label=0; weight=0; penwidth=0.4; color = 5];
+	"commandhandling_6355" -> "core_6390" [label=68; weight=68; penwidth=0.3; color = 3]
+	"configuration_27104" -> "api_27100" [label=54; weight=54; penwidth=0.3; color = 3]
+	"unitofwork_6399" -> "core_6390" [label=50; weight=50; penwidth=0.3; color = 3]
+	"core_6390" -> "common_32303" [label=44; weight=44; penwidth=0.3; color = 3]
+	"commandhandling_6355" -> "common_32303" [label=15; weight=15; penwidth=0.3; color = 3]
+	"api_27100" -> "common_32303" [label=11; weight=11; penwidth=0.3; color = 3]
+	"unitofwork_6399" -> "common_32303" [label=11; weight=11; penwidth=0.3; color = 3]
+	"core_6390" -> "conversion_44701" [label=9; weight=9; penwidth=0.3; color = 3]
+	"shared_27096" -> "common_32303" [label=9; weight=9; penwidth=0.3; color = 3]
+	"shared_27096" -> "api_27100" [label=8; weight=8; penwidth=0.3; color = 3]
+	"core_6390" -> "annotation_32305" [label=7; weight=7; penwidth=0.3; color = 3]
+	"conversion_44701" -> "common_32303" [label=6; weight=6; penwidth=0.3; color = 3]
+	"shared_27096" -> "commandhandling_6355" [label=6; weight=6; penwidth=0.3; color = 3]
+	"commandhandling_6355" -> "conversion_44701" [label=5; weight=5; penwidth=0.3; color = 3]
+	"core_6390" -> "unitofwork_6399" [label=5; weight=5; penwidth=0.3; color = 3]
+	"annotation_32305" -> "common_32303" [label=4; weight=4; penwidth=0.3; color = 3]
+	"commandhandling_6355" -> "unitofwork_6399" [label=3; weight=3; penwidth=0.3; color = 3]
+	"infra_32312" -> "common_32303" [label=3; weight=3; penwidth=0.3; color = 3]
+	"shared_27096" -> "core_6390" [label=3; weight=3; penwidth=0.3; color = 3]
+	"api_27100" -> "util_27098" [label=2; weight=2; penwidth=0.3; color = 3]
+	"commandhandling_6355" -> "infra_32312" [label=2; weight=2; penwidth=0.3; color = 3]
+	"configuration_27104" -> "conversion_6397" [label=2; weight=2; penwidth=0.3; color = 3]
+	"conversion_6397" -> "core_6390" [label=2; weight=2; penwidth=0.3; color = 3]
+	"lifecycle_32313" -> "common_32303" [label=2; weight=2; penwidth=0.3; color = 3]
+	"configuration_27104" -> "common_32303" [label=1; weight=1; penwidth=0.3; color = 3]
+	"conversion_6397" -> "annotation_32305" [label=1; weight=1; penwidth=0.3; color = 3]
+	"conversion_6397" -> "conversion_44701" [label=1; weight=1; penwidth=0.3; color = 3]
+	"conversion_44701" -> "infra_32312" [label=1; weight=1; penwidth=0.3; color = 3]
+	"conversion_44701" -> "annotation_32305" [label=1; weight=1; penwidth=0.3; color = 3]
+	"shared_27096" -> "annotation_32305" [label=1; weight=1; penwidth=0.3; color = 3]
+	"unitofwork_6399" -> "annotation_32305" [label=1; weight=1; penwidth=0.3; color = 3]
+	"configuration_27104" -> "conversion_44701" [label=0; weight=0; penwidth=0.3; color = 3]
+	"conversion_6397" -> "infra_32312" [label=0; weight=0; penwidth=0.3; color = 3]
 }
