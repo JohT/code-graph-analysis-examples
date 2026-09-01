@@ -1,6 +1,6 @@
 ---
 title: "Overview Report"
-generated: "2026-08-31"
+generated: "2026-09-01"
 model_version: "v4.0.2"
 dataset: "react-router-7.18.3"
 authors: ["JohT/code-graph-analysis-pipeline"]
@@ -104,12 +104,12 @@ Shows which node labels are connected by each relationship type, with count and 
 | sourceLabels | relationshipType | targetLabels | relationshipCount |
 | --- | --- | --- | --- |
 | ["Git","Update","Change"] | MODIFIES | ["Git"] | 59539 |
-| ["Git","Update","Change"] | UPDATES | ["Git"] | 59539 |
 | ["Git","Commit"] | CONTAINS_CHANGE | ["Git","Update","Change"] | 59539 |
+| ["Git","Update","Change"] | UPDATES | ["Git"] | 59539 |
 | ["TS","Union"] | CONTAINS | ["TS","NotIdentified"] | 53911 |
-| ["Git","Change","Create"] | CREATES | ["Git"] | 17534 |
 | ["Git","Change","Create"] | MODIFIES | ["Git"] | 17534 |
 | ["Git","Commit"] | CONTAINS_CHANGE | ["Git","Change","Create"] | 17534 |
+| ["Git","Change","Create"] | CREATES | ["Git"] | 17534 |
 | ["Git","Commit"] | HAS_PARENT | ["Git","Commit"] | 12084 |
 | ["Repository","Git"] | HAS_COMMIT | ["Git","Commit"] | 10993 |
 | ["Committer","Person","Git","Author"] | COMMITTED | ["Git","Commit"] | 10993 |

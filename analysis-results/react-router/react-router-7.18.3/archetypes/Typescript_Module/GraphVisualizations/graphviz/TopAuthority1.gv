@@ -28,8 +28,8 @@ strict digraph TopAuthority1 {
 	"plugin_97077" -> "styles_97084" [label=20; weight=20; penwidth=0.3; color = 3]
 	"plugin_97077" -> "config_97053" [label=15; weight=15; penwidth=0.3; color = 3]
 	"plugin_97093" -> "config_97053" [label=9; weight=9; penwidth=0.3; color = 3]
-	"plugin_97093" -> "resolve-relative-route-file-path_97081" [label=4; weight=4; penwidth=0.3; color = 3]
 	"plugin_97093" -> "virtual-route-config_97095" [label=4; weight=4; penwidth=0.3; color = 3]
+	"plugin_97093" -> "resolve-relative-route-file-path_97081" [label=4; weight=4; penwidth=0.3; color = 3]
 	"plugin_97093" -> "plugin_97077" [label=4; weight=4; penwidth=0.3; color = 3]
 	"styles_97084" -> "plugin_97077" [label=4; weight=4; penwidth=0.3; color = 3]
 }

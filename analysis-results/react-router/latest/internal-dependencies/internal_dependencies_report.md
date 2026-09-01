@@ -1,6 +1,6 @@
 ---
 title: "Internal Dependencies Report"
-generated: "2026-08-31"
+generated: "2026-09-01"
 model_version: "v4.0.2"
 dataset: "react-router-7.18.3"
 authors: ["JohT/code-graph-analysis-pipeline"]
@@ -79,8 +79,8 @@ Classes used across artifacts — extraction candidates. High reuse = type grown
 | --- | --- | --- | --- | --- | --- |
 | 0 | 154 | 41.62 | 70 | 88 | ["./index-react-server.ts uses ./dom-export.ts","./index.ts uses ./dom-export.ts","./index.ts uses ./index-react-server-client.ts","./dom-export.ts uses ./index-react-server.ts"] |
 | 3 | 44 | 11.89 | 23 | 33 | ["./lib/errors.ts uses ./index.ts","./lib/context.ts uses ./index.ts","./lib/rsc/server.rsc.ts uses ./lib/actions.ts","./lib/server-runtime/server.ts uses ./lib/actions.ts"] |
-| 4 | 122 | 32.97 | 44 | 41 | ["./lib/rsc/route-modules.ts uses ./dom-export.ts","./lib/rsc/server.rsc.ts uses ./dom-export.ts","./lib/rsc/server.rsc.ts uses ./index-react-server-client.ts","./lib/server-runtime/routes.ts uses ./index-react-server.ts"] |
-| 5 | 48 | 12.97 | 23 | 17 | ["./lib/server-runtime/sessions/cookieStorage.ts uses ./index-react-server.ts","./lib/server-runtime/sessions/memoryStorage.ts uses ./index-react-server.ts","./lib/dom/ssr/routeModules.ts uses ./index-react-server.ts","./lib/server-runtime/sessions/cookieStorage.ts uses ./index.ts"] |
+| 4 | 122 | 32.97 | 44 | 41 | ["./lib/rsc/route-modules.ts uses ./dom-export.ts","./lib/rsc/server.rsc.ts uses ./dom-export.ts","./lib/rsc/server.rsc.ts uses ./index-react-server-client.ts","./lib/server-runtime/server.ts uses ./index-react-server.ts"] |
+| 5 | 48 | 12.97 | 23 | 17 | ["./lib/server-runtime/sessions/memoryStorage.ts uses ./index-react-server.ts","./lib/server-runtime/sessions/cookieStorage.ts uses ./index-react-server.ts","./lib/dom/ssr/routeModules.ts uses ./index-react-server.ts","./lib/server-runtime/sessions/cookieStorage.ts uses ./index.ts"] |
 | 6 | 2 | 0.54 | 2 | 2 | ["./vendor/turbo-stream-v2/unflatten.ts uses ./lib/router/utils.ts","./lib/server-runtime/single-fetch.ts uses ./vendor/turbo-stream-v2/turbo-stream.ts"] |
 
 [Full data](./Distance_distribution_between_dependent_files.csv)
