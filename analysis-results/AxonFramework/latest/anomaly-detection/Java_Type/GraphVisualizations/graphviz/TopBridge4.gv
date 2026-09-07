@@ -12,9 +12,10 @@ strict digraph TopBridge4 {
     central [fontsize = 16;];
     central [color = 7; fillcolor = 5; penwidth = 3;];
 
-	graph   [label="Top Rank #4 Java Type Bridge\norg.axonframework.test.extension.ProvidedAxonTestFixture\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
-	central [label="🌉 bridge #4\nProvidedAxonTestFixture"];
-	"ProvidedAxonTestFixtureUtils_5234" [label = "ProvidedAxonTestFixtureUtils"; ]; "ProvidedAxonTestFixtureUtils_5234" -> central [label=4; weight=4; penwidth=0.5];
-	"AxonTestFixtureProvider_5260" [label = "AxonTestFixtureProvider"; color = 5; fillcolor = 1; ]; central -> "AxonTestFixtureProvider_5260" [label=2; weight=2; penwidth=0.4; color = 5];
-	"ProvidedAxonTestFixtureUtils_5234" -> "AxonTestFixtureProvider_5260" [label=16; weight=16; penwidth=0.3; color = 3]
+	graph   [label="Top Rank #4 Java Type Bridge\nio.axoniq.framework.axonserver.connector.util.GrpcMessageSizeWarningThresholdReachedException\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
+	central [label="🌉 bridge #4\nGrpcMessageSizeWarningThresholdReachedException"];
+	"GrpcMessageSizeInterceptor$1_27494" [label = "GrpcMessageSizeInterceptor$\n1"; ]; "GrpcMessageSizeInterceptor$1_27494" -> central [label=2; weight=2; penwidth=0.4];
+	"GrpcMessageSizeInterceptor$1$1_27546" [label = "GrpcMessageSizeInterceptor$\n1$\n1"; ]; "GrpcMessageSizeInterceptor$1$1_27546" -> central [label=2; weight=2; penwidth=0.4];
+	"GrpcMessageSizeInterceptor$1$1_27546" -> "GrpcMessageSizeInterceptor$1_27494" [label=10; weight=10; penwidth=0.3; color = 3]
+	"GrpcMessageSizeInterceptor$1_27494" -> "GrpcMessageSizeInterceptor$1$1_27546" [label=3; weight=3; penwidth=0.3; color = 3]
 }

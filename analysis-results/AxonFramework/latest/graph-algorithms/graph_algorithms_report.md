@@ -1,6 +1,6 @@
 ---
 title: "Graph Algorithms Report"
-generated: "2026-09-01"
+generated: "2026-09-07"
 model_version: "v4.0.2"
 dataset: "AxonFramework-5.1.2"
 authors: ["JohT/code-graph-analysis-pipeline"]
@@ -35,14 +35,14 @@ High PageRank = depended on by many important nodes. High betweenness = bridge b
 
 | nodeLabels | nodeName | pageRankScore |
 | --- | --- | --- |
-| ["Type","Java","Class","GenericDeclaration"] | org.axonframework.common.TypeReference | 53.88884355019087 |
+| ["Type","Java","Class","GenericDeclaration"] | org.axonframework.common.TypeReference | 53.88884355019086 |
 | ["Type","Java","Class"] | org.axonframework.common.TypeReference$2 | 23.050914895163437 |
 | ["Type","Java","Class"] | org.axonframework.common.TypeReference$1 | 23.050914895163437 |
-| ["Type","Java","Class","GenericDeclaration"] | org.axonframework.messaging.core.Context$ResourceKey | 22.415779759592734 |
-| ["Type","Java","Interface"] | org.axonframework.messaging.core.Message | 18.587622448669745 |
+| ["Type","Java","Class","GenericDeclaration"] | org.axonframework.messaging.core.Context$ResourceKey | 22.41577975959273 |
+| ["Type","Java","Interface"] | org.axonframework.messaging.core.Message | 18.58762244866974 |
 | ["Type","Java","Interface"] | org.axonframework.messaging.core.unitofwork.ProcessingContext | 16.88448461381727 |
 | ["Package","Java"] | org.axonframework.common | 11.605407781911776 |
-| ["Type","Java","Interface"] | org.axonframework.common.infra.ComponentDescriptor | 11.165464275573271 |
+| ["Type","Java","Interface"] | org.axonframework.common.infra.ComponentDescriptor | 11.165464275573267 |
 | ["Type","Java","Interface"] | org.axonframework.common.infra.DescribableComponent | 11.040244162776043 |
 | ["Type","Java","Interface"] | org.axonframework.conversion.Converter | 10.524578358009311 |
 
@@ -52,15 +52,15 @@ High PageRank = depended on by many important nodes. High betweenness = bridge b
 
 | nodeLabels | nodeName | articleRankScore |
 | --- | --- | --- |
-| ["Type","Java","Interface"] | org.axonframework.messaging.core.Message | 8.76143753951803 |
-| ["Type","Java","Class","GenericDeclaration"] | org.axonframework.messaging.core.Context$ResourceKey | 7.6645584903429365 |
-| ["Type","Java","Interface"] | org.axonframework.messaging.core.unitofwork.ProcessingContext | 7.158462095853328 |
+| ["Type","Java","Interface"] | org.axonframework.messaging.core.Message | 8.761437539518031 |
+| ["Type","Java","Class","GenericDeclaration"] | org.axonframework.messaging.core.Context$ResourceKey | 7.664558490342938 |
+| ["Type","Java","Interface"] | org.axonframework.messaging.core.unitofwork.ProcessingContext | 7.158462095853329 |
 | ["Package","Java"] | org.axonframework.common | 6.034603518270907 |
-| ["Type","Java","Class","GenericDeclaration"] | org.axonframework.common.TypeReference | 5.9386639048500305 |
+| ["Type","Java","Class","GenericDeclaration"] | org.axonframework.common.TypeReference | 5.93866390485003 |
 | ["Type","Java","Interface"] | org.axonframework.conversion.Converter | 4.5310774543255485 |
 | ["Package","Java"] | org.axonframework.messaging.core | 4.520396567052293 |
 | ["Type","Java","Interface"] | org.axonframework.messaging.core.Context | 3.2271814483597234 |
-| ["Type","Java","GenericDeclaration","Interface"] | org.axonframework.messaging.core.MessageStream | 3.2248654589302523 |
+| ["Type","Java","GenericDeclaration","Interface"] | org.axonframework.messaging.core.MessageStream | 3.224865458930252 |
 | ["Type","Java","Interface"] | org.axonframework.messaging.eventhandling.EventMessage | 2.7517491051033205 |
 
 [Full data](./Java_Package/centrality/Package_Centrality_Article_Rank.csv)
@@ -72,7 +72,7 @@ High PageRank = depended on by many important nodes. High betweenness = bridge b
 | ["Type","Java","GenericDeclaration","Interface"] | org.axonframework.messaging.core.MessageStream | 11352.07135642136 |
 | ["Type","Java","Interface"] | org.axonframework.messaging.core.Message | 9809.049206349211 |
 | ["Type","Java","Interface"] | org.axonframework.messaging.core.unitofwork.ProcessingContext | 6610.471428571429 |
-| ["Type","Java","Record"] | org.axonframework.messaging.core.QualifiedName | 4625.822222222221 |
+| ["Type","Java","Record"] | org.axonframework.messaging.core.QualifiedName | 4625.822222222222 |
 | ["Type","Java","Class"] | org.axonframework.common.ReflectionUtils | 4488.466666666667 |
 | ["Type","Java","Record"] | org.axonframework.messaging.core.MessageType | 4159.6111111111095 |
 | ["Type","Java","Class","GenericDeclaration"] | org.axonframework.modelling.entity.annotation.AnnotatedEntityMetamodel | 3527.9704545454547 |
@@ -92,16 +92,16 @@ High community sizes may indicate monolithic modules; many small = well-modulari
 
 | communityId | communitySize |
 | --- | --- |
-| 1 | 193 |
-| 4 | 186 |
-| 0 | 135 |
-| 2 | 114 |
-| 6 | 103 |
-| 11 | 95 |
-| 5 | 64 |
-| 9 | 64 |
-| 10 | 61 |
-| 3 | 60 |
+| 6 | 168 |
+| 3 | 157 |
+| 0 | 148 |
+| 8 | 144 |
+| 11 | 97 |
+| 5 | 90 |
+| 9 | 86 |
+| 7 | 64 |
+| 10 | 64 |
+| 4 | 61 |
 
 [Full data](./Java_Package/communities/Package_Communities_Leiden.csv)
 

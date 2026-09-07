@@ -12,19 +12,17 @@ strict digraph TopBridge5 {
     central [fontsize = 16;];
     central [color = 7; fillcolor = 5; penwidth = 3;];
 
-	graph   [label="Top Rank #5 Java Type Bridge\norg.axonframework.common.caching.Cache\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
-	central [label="🌉 bridge #5\nCache"];
-	"AbstractCacheAdapter_34474" [label = "AbstractCacheAdapter"; ]; "AbstractCacheAdapter_34474" -> central [label=1; weight=1; penwidth=0.4];
-	"NoCache_34491" [label = "NoCache"; ]; "NoCache_34491" -> central [label=1; weight=1; penwidth=0.4];
-	"WeakReferenceCache_34489" [label = "WeakReferenceCache"; ]; "WeakReferenceCache_34489" -> central [label=1; weight=1; penwidth=0.4];
-	"Cache$EntryListener_34497" [label = "Cache$\nEntryListener"; color = 5; fillcolor = 1; ]; central -> "Cache$EntryListener_34497" [label=2; weight=2; penwidth=0.4; color = 5];
-	"Cache$EntryListenerAdapter_34484" [label = "Cache$\nEntryListenerAdapter"; color = 5; fillcolor = 1; ]; central -> "Cache$EntryListenerAdapter_34484" [label=1; weight=1; penwidth=0.4; color = 5];
-	"Registration_34496" [label = "Registration"; color = 5; fillcolor = 1; ]; central -> "Registration_34496" [label=1; weight=1; penwidth=0.4; color = 5];
-	"WeakReferenceCache_34489" -> "Cache$EntryListener_34497" [label=24; weight=24; penwidth=0.3; color = 3]
-	"AbstractCacheAdapter_34474" -> "Cache$EntryListener_34497" [label=5; weight=5; penwidth=0.3; color = 3]
-	"AbstractCacheAdapter_34474" -> "Registration_34496" [label=4; weight=4; penwidth=0.3; color = 3]
-	"Cache$EntryListenerAdapter_34484" -> "Cache$EntryListener_34497" [label=2; weight=2; penwidth=0.3; color = 3]
-	"NoCache_34491" -> "Cache$EntryListener_34497" [label=2; weight=2; penwidth=0.3; color = 3]
-	"NoCache_34491" -> "Registration_34496" [label=1; weight=1; penwidth=0.3; color = 3]
-	"WeakReferenceCache_34489" -> "Registration_34496" [label=1; weight=1; penwidth=0.3; color = 3]
+	graph   [label="Top Rank #5 Java Type Bridge\norg.axonframework.messaging.core.RemoteExceptionDescription\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
+	central [label="🌉 bridge #5\nRemoteExceptionDescription"];
+	"RemoteHandlingException_22516" [label = "RemoteHandlingException"; ]; "RemoteHandlingException_22516" -> central [label=4; weight=4; penwidth=0.5];
+	"RemoteNonTransientHandlingException_26213" [label = "RemoteNonTransientHandlingException"; ]; "RemoteNonTransientHandlingException_26213" -> central [label=3; weight=3; penwidth=0.4];
+	"AxonServerNonTransientRemoteCommandHandlingException_27123" [label = "AxonServerNonTransientRemoteCommandHandlingException"; ]; "AxonServerNonTransientRemoteCommandHandlingException_27123" -> central [label=2; weight=2; penwidth=0.4];
+	"AxonServerNonTransientRemoteQueryHandlingException_27128" [label = "AxonServerNonTransientRemoteQueryHandlingException"; ]; "AxonServerNonTransientRemoteQueryHandlingException_27128" -> central [label=2; weight=2; penwidth=0.4];
+	"AxonServerRemoteCommandHandlingException_27122" [label = "AxonServerRemoteCommandHandlingException"; ]; "AxonServerRemoteCommandHandlingException_27122" -> central [label=2; weight=2; penwidth=0.4];
+	"AxonServerRemoteQueryHandlingException_27127" [label = "AxonServerRemoteQueryHandlingException"; ]; "AxonServerRemoteQueryHandlingException_27127" -> central [label=2; weight=2; penwidth=0.4];
+	"ExceptionUtils_33446" [label = "ExceptionUtils"; color = 5; fillcolor = 1; ]; central -> "ExceptionUtils_33446" [label=1; weight=1; penwidth=0.4; color = 5];
+	"AxonServerNonTransientRemoteCommandHandlingException_27123" -> "RemoteNonTransientHandlingException_26213" [label=2; weight=2; penwidth=0.3; color = 3]
+	"AxonServerNonTransientRemoteQueryHandlingException_27128" -> "RemoteNonTransientHandlingException_26213" [label=2; weight=2; penwidth=0.3; color = 3]
+	"AxonServerRemoteCommandHandlingException_27122" -> "RemoteHandlingException_22516" [label=2; weight=2; penwidth=0.3; color = 3]
+	"AxonServerRemoteQueryHandlingException_27127" -> "RemoteHandlingException_22516" [label=2; weight=2; penwidth=0.3; color = 3]
 }

@@ -16,10 +16,10 @@ strict digraph TopOutlier2 {
 	central [label="🧩 outlier #2\nCache"];
 	"AbstractCacheAdapter_34474"  [label = "AbstractCacheAdapter\n(100.0%)"; penwidth = 2; ]; "AbstractCacheAdapter_34474" -> central [label=1; weight=1; penwidth=0.4];
 	"NoCache_34491"  [label = "NoCache\n(100.0%)"; penwidth = 2; ]; "NoCache_34491" -> central [label=1; weight=1; penwidth=0.4];
-	"WeakReferenceCache_34489"  [label = "WeakReferenceCache\n(34.95%)"; penwidth = 2; ]; "WeakReferenceCache_34489" -> central [label=1; weight=1; penwidth=0.4];
-	"Cache$EntryListener_34497"  [label = "Cache$\nEntryListener\n(28.39%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "Cache$EntryListener_34497" [label=2; weight=2; penwidth=0.4; color = 5];
+	"WeakReferenceCache_34489"  [label = "WeakReferenceCache\n(38.68%)"; penwidth = 2; ]; "WeakReferenceCache_34489" -> central [label=1; weight=1; penwidth=0.4];
+	"Cache$EntryListener_34497"  [label = "Cache$\nEntryListener\n(38.68%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "Cache$EntryListener_34497" [label=2; weight=2; penwidth=0.4; color = 5];
 	"Cache$EntryListenerAdapter_34484"  [label = "Cache$\nEntryListenerAdapter\n(100.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "Cache$EntryListenerAdapter_34484" [label=1; weight=1; penwidth=0.4; color = 5];
-	"Registration_34496"  [label = "Registration\n(14.32%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "Registration_34496" [label=1; weight=1; penwidth=0.4; color = 5];
+	"Registration_34496"  [label = "Registration\n(16.97%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "Registration_34496" [label=1; weight=1; penwidth=0.4; color = 5];
 	"WeakReferenceCache_34489" -> "Cache$EntryListener_34497" [label=24; weight=24; penwidth=0.3; color = 3]
 	"AbstractCacheAdapter_34474" -> "Cache$EntryListener_34497" [label=5; weight=5; penwidth=0.3; color = 3]
 	"AbstractCacheAdapter_34474" -> "Registration_34496" [label=4; weight=4; penwidth=0.3; color = 3]
