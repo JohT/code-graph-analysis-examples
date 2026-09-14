@@ -1,6 +1,6 @@
 ---
 title: "Overview Report"
-generated: "2026-09-07"
+generated: "2026-09-14"
 model_version: "v4.0.2"
 dataset: "react-router-7.18.3"
 authors: ["JohT/code-graph-analysis-pipeline"]
@@ -103,8 +103,8 @@ Shows the number of relationships for each type and their share of the total rel
 Shows which node labels are connected by each relationship type, with count and percentage share.
 | sourceLabels | relationshipType | targetLabels | relationshipCount |
 | --- | --- | --- | --- |
-| ["Git","Update","Change"] | MODIFIES | ["Git"] | 59539 |
 | ["Git","Update","Change"] | UPDATES | ["Git"] | 59539 |
+| ["Git","Update","Change"] | MODIFIES | ["Git"] | 59539 |
 | ["Git","Commit"] | CONTAINS_CHANGE | ["Git","Update","Change"] | 59539 |
 | ["TS","Union"] | CONTAINS | ["TS","NotIdentified"] | 53911 |
 | ["Git","Change","Create"] | MODIFIES | ["Git"] | 17534 |
@@ -138,7 +138,7 @@ Shows node labels present on dependency nodes — nodes that represent external 
 | TS,Function | TS,Property | 384 | 0.18 |
 | TS,Variable | TS,ExternalDeclaration | 383 | 0.18 |
 | TS,Function | TS,Interface | 376 | 0.18 |
-| File,TS,Local,Module | TS,ExternalDeclaration | 310 | 0.15 |
+| File,TS,Local,Module | TS,ExternalDeclaration | 314 | 0.15 |
 | TS,Function | TS,TypeAlias | 308 | 0.15 |
 | TS,Function | TS,Variable | 296 | 0.14 |
 | TS,TypeAlias | TS,TypeAlias | 188 | 0.09 |
