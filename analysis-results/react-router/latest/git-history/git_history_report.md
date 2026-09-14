@@ -105,14 +105,14 @@ Shows all files that were changed together with another particular file.
 | filePath | commitCount | coChangeRate | maxLift | avgLift |
 | --- | --- | --- | --- | --- |
 | react-router-7.18.3/packages/react-router-dom/package.json | 352 | 0.00046300985342844327 | 2.3024432736508467 | 1.3188771487573363 |
-| react-router-7.18.3/packages/react-router/CHANGELOG.md | 190 | 0.0007014564450925738 | 1.614752293577982 | 1.0693595298730993 |
-| react-router-7.18.3/contributors.yml | 167 | 0.0006438579040304734 | 1.3015443827340931 | 0.6436760606404729 |
-| react-router-7.18.3/packages/react-router/lib/components.tsx | 157 | 0.0011788910914879557 | 6.079104379753475 | 3.0799227043571236 |
-| react-router-7.18.3/pnpm-lock.yaml | 150 | 0.0006851661527920521 | 5.986666666666667 | 1.5290736748268356 |
-| react-router-7.18.3/packages/react-router/lib/hooks.tsx | 139 | 0.0015408662106885123 | 3.61661997198319 | 1.8584262518639023 |
+| react-router-7.18.3/packages/react-router/CHANGELOG.md | 190 | 0.0007014564450925738 | 1.614752293577982 | 1.0693595298730991 |
+| react-router-7.18.3/contributors.yml | 167 | 0.0006438579040304734 | 1.3015443827340931 | 0.643676060640473 |
+| react-router-7.18.3/packages/react-router/lib/components.tsx | 157 | 0.0011788910914879557 | 6.079104379753475 | 3.079922704357124 |
+| react-router-7.18.3/pnpm-lock.yaml | 150 | 0.0006851661527920521 | 5.986666666666667 | 1.5290736748268359 |
+| react-router-7.18.3/packages/react-router/lib/hooks.tsx | 139 | 0.0015408662106885123 | 3.61661997198319 | 1.8584262518639025 |
 | react-router-7.18.3/packages/react-router/package.json | 135 | 0.00047654347135444246 | 1.2985164319248828 | 0.7131529643352874 |
 | react-router-7.18.3/packages/react-router-dev/CHANGELOG.md | 94 | 0.0005253451070250936 | 3.3200704225352116 | 2.031431906627879 |
-| react-router-7.18.3/packages/react-router/lib/router/router.ts | 91 | 0.0014057093425605537 | 8.184895833333334 | 2.5063186737082845 |
+| react-router-7.18.3/packages/react-router/lib/router/router.ts | 91 | 0.0014057093425605537 | 8.184895833333334 | 2.5063186737082854 |
 | react-router-7.18.3/packages/react-router-node/CHANGELOG.md | 90 | 0.0010028525583883046 | 3.4386443661971833 | 1.8094424029948144 |
 
 [Full data](./List_git_files_that_were_changed_together_with_another_file.csv)
@@ -238,9 +238,9 @@ Per-author file commit stats. Useful for knowledge boundaries and bus-factor ris
 
 | filePath | author | commitCount | commitHashes | lastCommitDate | lastCreationDate | lastModificationDate | daysSinceLastCommit | daysSinceLastCreation | daysSinceLastModification | maxCommitSha |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| react-router-7.18.3/.agents/skills/fix-bug/SKILL.md | Matt Brophy | 7 | ["2469dd6621fbcaec689571c3f003af5711bc54de","a842fca719e81505f454a8e6a8c728cdaed22067","06c1149bc0b4f50db0cc6fc10471b4ad963b8969","1497c6ba52e55158e4f12b54617b1255935c75d5","46321cf2767cb820c1be8bbea3bafbc32c6c4ffd","963affeb924f2256bd20c0c5c87e4c4b4fcbd188","d6f3a05d4124ae9c1f2f74c599f80d091268ce0c"] | 2026-06-04 | 2026-03-18 | 2026-06-04 | 102 | 179 | 101 | d6f3a05d4124ae9c1f2f74c599f80d091268ce0c |
+| react-router-7.18.3/.agents/skills/fix-bug/SKILL.md | Matt Brophy | 7 | ["a842fca719e81505f454a8e6a8c728cdaed22067","2469dd6621fbcaec689571c3f003af5711bc54de","06c1149bc0b4f50db0cc6fc10471b4ad963b8969","46321cf2767cb820c1be8bbea3bafbc32c6c4ffd","1497c6ba52e55158e4f12b54617b1255935c75d5","d6f3a05d4124ae9c1f2f74c599f80d091268ce0c","963affeb924f2256bd20c0c5c87e4c4b4fcbd188"] | 2026-06-04 | 2026-03-18 | 2026-06-04 | 102 | 179 | 101 | d6f3a05d4124ae9c1f2f74c599f80d091268ce0c |
 | react-router-7.18.3/.agents/skills/fix-bug/SKILL.md | Brooks Lybrand | 1 | ["4f8fff6cdb31c549fd011ac516fad5ad2e641b5f"] | 2026-05-29 | 2026-03-18 | 2026-06-04 | 108 | 179 | 101 | 4f8fff6cdb31c549fd011ac516fad5ad2e641b5f |
-| react-router-7.18.3/.agents/skills/implement-rfc/SKILL.md | Matt Brophy | 4 | ["522bc1b8cd0d7b3565bf9193789f2b7d5503856b","a6ab746a43675332ec3c190b1390724bf5c833db","fadd6c490cc84abc560a2413ee6fa0f2617d098d","d6f3a05d4124ae9c1f2f74c599f80d091268ce0c"] | 2026-06-04 | 2026-05-07 | 2026-06-04 | 102 | 129 | 101 | fadd6c490cc84abc560a2413ee6fa0f2617d098d |
+| react-router-7.18.3/.agents/skills/implement-rfc/SKILL.md | Matt Brophy | 4 | ["a6ab746a43675332ec3c190b1390724bf5c833db","522bc1b8cd0d7b3565bf9193789f2b7d5503856b","fadd6c490cc84abc560a2413ee6fa0f2617d098d","d6f3a05d4124ae9c1f2f74c599f80d091268ce0c"] | 2026-06-04 | 2026-05-07 | 2026-06-04 | 102 | 129 | 101 | fadd6c490cc84abc560a2413ee6fa0f2617d098d |
 | react-router-7.18.3/.agents/skills/react-router/SKILL.md | Brooks Lybrand | 1 | ["8f364c820ef698952e4bed876d6c93c895357692"] | 2026-06-16 | 2026-06-16 | 2026-06-16 | 90 | 89 | 89 | 8f364c820ef698952e4bed876d6c93c895357692 |
 | react-router-7.18.3/.agents/skills/react-router/references/data-mode.md | Brooks Lybrand | 1 | ["8f364c820ef698952e4bed876d6c93c895357692"] | 2026-06-16 | 2026-06-16 | 2026-06-16 | 90 | 89 | 89 | 8f364c820ef698952e4bed876d6c93c895357692 |
 | react-router-7.18.3/.agents/skills/react-router/references/declarative-mode.md | Brooks Lybrand | 1 | ["8f364c820ef698952e4bed876d6c93c895357692"] | 2026-06-16 | 2026-06-16 | 2026-06-16 | 90 | 89 | 89 | 8f364c820ef698952e4bed876d6c93c895357692 |
