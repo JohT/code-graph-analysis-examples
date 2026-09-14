@@ -12,16 +12,12 @@ strict digraph TopBridge1 {
     central [fontsize = 16;];
     central [color = 7; fillcolor = 5; penwidth = 3;];
 
-	graph   [label="Top Rank #1 Java Type Bridge\norg.axonframework.common.caching.EhCacheAdapter\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
-	central [label="🌉 bridge #1\nEhCacheAdapter"];
-	"EhCacheAdapter$1_34488" [label = "EhCacheAdapter$\n1"; ]; "EhCacheAdapter$1_34488" -> central [label=1; weight=1; penwidth=0.4];
-	"Cache$EntryListener_34497" [label = "Cache$\nEntryListener"; color = 5; fillcolor = 1; ]; central -> "Cache$EntryListener_34497" [label=3; weight=3; penwidth=0.4; color = 5];
-	"EhCacheAdapter$CacheEventListenerAdapter_34487" [label = "EhCacheAdapter$\nCacheEventListenerAdapter"; color = 5; fillcolor = 1; ]; central -> "EhCacheAdapter$CacheEventListenerAdapter_34487" [label=3; weight=3; penwidth=0.4; color = 5];
-	"AbstractCacheAdapter_34474" [label = "AbstractCacheAdapter"; color = 5; fillcolor = 1; ]; central -> "AbstractCacheAdapter_34474" [label=2; weight=2; penwidth=0.4; color = 5];
-	"Registration_34496" [label = "Registration"; color = 5; fillcolor = 1; ]; central -> "Registration_34496" [label=2; weight=2; penwidth=0.4; color = 5];
-	"EhCacheAdapter$1_34488" [label = "EhCacheAdapter$\n1"; color = 5; fillcolor = 1; ]; central -> "EhCacheAdapter$1_34488" [label=1; weight=1; penwidth=0.4; color = 5];
-	"EhCacheAdapter$CacheEventListenerAdapter_34487" -> "Cache$EntryListener_34497" [label=7; weight=7; penwidth=0.3; color = 3]
-	"AbstractCacheAdapter_34474" -> "Cache$EntryListener_34497" [label=5; weight=5; penwidth=0.3; color = 3]
-	"AbstractCacheAdapter_34474" -> "Registration_34496" [label=4; weight=4; penwidth=0.3; color = 3]
-	"EhCacheAdapter$CacheEventListenerAdapter_34487" -> "EhCacheAdapter$1_34488" [label=2; weight=2; penwidth=0.3; color = 3]
+	graph   [label="Top Rank #1 Java Type Bridge\norg.axonframework.messaging.core.RemoteNonTransientHandlingException\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
+	central [label="🌉 bridge #1\nRemoteNonTransientHandlingException"];
+	"AxonServerNonTransientRemoteCommandHandlingException_27123" [label = "AxonServerNonTransientRemoteCommandHandlingException"; ]; "AxonServerNonTransientRemoteCommandHandlingException_27123" -> central [label=2; weight=2; penwidth=0.4];
+	"AxonServerNonTransientRemoteQueryHandlingException_27128" [label = "AxonServerNonTransientRemoteQueryHandlingException"; ]; "AxonServerNonTransientRemoteQueryHandlingException_27128" -> central [label=2; weight=2; penwidth=0.4];
+	"RemoteExceptionDescription_18769" [label = "RemoteExceptionDescription"; color = 5; fillcolor = 1; ]; central -> "RemoteExceptionDescription_18769" [label=3; weight=3; penwidth=0.4; color = 5];
+	"AxonNonTransientException_33425" [label = "AxonNonTransientException"; color = 5; fillcolor = 1; ]; central -> "AxonNonTransientException_33425" [label=2; weight=2; penwidth=0.4; color = 5];
+	"AxonServerNonTransientRemoteCommandHandlingException_27123" -> "RemoteExceptionDescription_18769" [label=2; weight=2; penwidth=0.3; color = 3]
+	"AxonServerNonTransientRemoteQueryHandlingException_27128" -> "RemoteExceptionDescription_18769" [label=2; weight=2; penwidth=0.3; color = 3]
 }
