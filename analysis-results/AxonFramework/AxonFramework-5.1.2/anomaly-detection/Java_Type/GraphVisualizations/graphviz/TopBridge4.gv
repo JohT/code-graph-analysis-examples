@@ -12,10 +12,21 @@ strict digraph TopBridge4 {
     central [fontsize = 16;];
     central [color = 7; fillcolor = 5; penwidth = 3;];
 
-	graph   [label="Top Rank #4 Java Type Bridge\nio.axoniq.framework.axonserver.connector.util.GrpcMessageSizeWarningThresholdReachedException\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
-	central [label="🌉 bridge #4\nGrpcMessageSizeWarningThresholdReachedException"];
-	"GrpcMessageSizeInterceptor$1_27494" [label = "GrpcMessageSizeInterceptor$\n1"; ]; "GrpcMessageSizeInterceptor$1_27494" -> central [label=2; weight=2; penwidth=0.4];
-	"GrpcMessageSizeInterceptor$1$1_27546" [label = "GrpcMessageSizeInterceptor$\n1$\n1"; ]; "GrpcMessageSizeInterceptor$1$1_27546" -> central [label=2; weight=2; penwidth=0.4];
-	"GrpcMessageSizeInterceptor$1$1_27546" -> "GrpcMessageSizeInterceptor$1_27494" [label=10; weight=10; penwidth=0.3; color = 3]
-	"GrpcMessageSizeInterceptor$1_27494" -> "GrpcMessageSizeInterceptor$1$1_27546" [label=3; weight=3; penwidth=0.3; color = 3]
+	graph   [label="Top Rank #4 Java Type Bridge\norg.axonframework.messaging.eventstreaming.OrEventCriteriaBuilder\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
+	central [label="🌉 bridge #4\nOrEventCriteriaBuilder"];
+	"EventCriteria_11787" [label = "EventCriteria"; ]; "EventCriteria_11787" -> central [label=3; weight=3; penwidth=0.4];
+	"EventCriteria_11787" [label = "EventCriteria"; color = 5; fillcolor = 1; ]; central -> "EventCriteria_11787" [label=6; weight=6; penwidth=0.5; color = 5];
+	"EventTypeRestrictableEventCriteria_11796" [label = "EventTypeRestrictableEventCriteria"; color = 5; fillcolor = 1; ]; central -> "EventTypeRestrictableEventCriteria_11796" [label=6; weight=6; penwidth=0.5; color = 5];
+	"EventTypeRestrictableOrEventCriteria_16647" [label = "EventTypeRestrictableOrEventCriteria"; color = 5; fillcolor = 1; ]; central -> "EventTypeRestrictableOrEventCriteria_16647" [label=2; weight=2; penwidth=0.4; color = 5];
+	"Tag_15736" [label = "Tag"; color = 5; fillcolor = 1; ]; central -> "Tag_15736" [label=2; weight=2; penwidth=0.4; color = 5];
+	"TagFilteredEventCriteria_15738" [label = "TagFilteredEventCriteria"; color = 5; fillcolor = 1; ]; central -> "TagFilteredEventCriteria_15738" [label=2; weight=2; penwidth=0.4; color = 5];
+	"EventTypeRestrictableEventCriteria_11796" -> "EventCriteria_11787" [label=6; weight=6; penwidth=0.3; color = 3]
+	"EventCriteria_11787" -> "Tag_15736" [label=5; weight=5; penwidth=0.3; color = 3]
+	"TagFilteredEventCriteria_15738" -> "EventCriteria_11787" [label=5; weight=5; penwidth=0.3; color = 3]
+	"TagFilteredEventCriteria_15738" -> "Tag_15736" [label=5; weight=5; penwidth=0.3; color = 3]
+	"EventCriteria_11787" -> "EventTypeRestrictableEventCriteria_11796" [label=4; weight=4; penwidth=0.3; color = 3]
+	"EventTypeRestrictableOrEventCriteria_16647" -> "EventTypeRestrictableEventCriteria_11796" [label=4; weight=4; penwidth=0.3; color = 3]
+	"EventTypeRestrictableOrEventCriteria_16647" -> "EventCriteria_11787" [label=4; weight=4; penwidth=0.3; color = 3]
+	"EventCriteria_11787" -> "TagFilteredEventCriteria_15738" [label=2; weight=2; penwidth=0.3; color = 3]
+	"TagFilteredEventCriteria_15738" -> "EventTypeRestrictableEventCriteria_11796" [label=1; weight=1; penwidth=0.3; color = 3]
 }
