@@ -24,3 +24,5 @@
 
 ![TopOutlier 4](./Java_Type/GraphVisualizations/TopOutlier4.svg)
 
+![TopOutlier 5](./Java_Type/GraphVisualizations/TopOutlier5.svg)
+
