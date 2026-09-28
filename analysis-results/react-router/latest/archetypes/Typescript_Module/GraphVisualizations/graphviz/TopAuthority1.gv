@@ -24,12 +24,12 @@ strict digraph TopAuthority1 {
 	"routes_97047"  [shape = "circle"; height=2; label = "routes\n(50.51%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "routes_97047" [label=786; weight=786; penwidth=0.5; color = 5];
 	"generate_97064" -> "config_97057" [label=40; weight=40; penwidth=0.3; color = 3]
 	"virtual-route-config_97099" -> "routes_97047" [label=37; weight=37; penwidth=0.3; color = 3]
-	"plugin_97081" -> "styles_97088" [label=20; weight=20; penwidth=0.3; color = 3]
 	"plugin_97081" -> "resolve-relative-route-file-path_97085" [label=20; weight=20; penwidth=0.3; color = 3]
+	"plugin_97081" -> "styles_97088" [label=20; weight=20; penwidth=0.3; color = 3]
 	"plugin_97081" -> "config_97057" [label=15; weight=15; penwidth=0.3; color = 3]
 	"plugin_97097" -> "config_97057" [label=9; weight=9; penwidth=0.3; color = 3]
-	"plugin_97097" -> "virtual-route-config_97099" [label=4; weight=4; penwidth=0.3; color = 3]
-	"plugin_97097" -> "plugin_97081" [label=4; weight=4; penwidth=0.3; color = 3]
 	"plugin_97097" -> "resolve-relative-route-file-path_97085" [label=4; weight=4; penwidth=0.3; color = 3]
+	"plugin_97097" -> "plugin_97081" [label=4; weight=4; penwidth=0.3; color = 3]
+	"plugin_97097" -> "virtual-route-config_97099" [label=4; weight=4; penwidth=0.3; color = 3]
 	"styles_97088" -> "plugin_97081" [label=4; weight=4; penwidth=0.3; color = 3]
 }
