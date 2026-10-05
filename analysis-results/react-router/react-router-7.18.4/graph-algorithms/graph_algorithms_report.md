@@ -1,6 +1,6 @@
 ---
 title: "Graph Algorithms Report"
-generated: "2026-09-28"
+generated: "2026-10-05"
 model_version: "v4.0.2"
 dataset: "react-router-7.18.4"
 authors: ["JohT/code-graph-analysis-pipeline"]
@@ -86,16 +86,16 @@ High community sizes may indicate monolithic modules; many small = well-modulari
 
 | communityId | communitySize |
 | --- | --- |
-| 15 | 45 |
-| 2 | 23 |
-| 14 | 10 |
+| 16 | 45 |
+| 2 | 22 |
+| 15 | 10 |
 | 1 | 7 |
 | 6 | 7 |
 | 7 | 6 |
 | 0 | 4 |
-| 8 | 4 |
-| 12 | 4 |
-| 16 | 4 |
+| 9 | 4 |
+| 13 | 4 |
+| 17 | 4 |
 
 ### 3.2 Strongly Connected Components (SCC)
 

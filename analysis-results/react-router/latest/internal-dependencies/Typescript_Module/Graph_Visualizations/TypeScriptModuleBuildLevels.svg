@@ -299,14 +299,14 @@
 <text xml:space="preserve" text-anchor="middle" x="1247.4" y="-500.66" font-family="Helvetica,Arial,sans-serif" font-size="10.00">225</text>
 </g>
 <!-- react&#45;router&#45;7.18.4\nprompt\n(level 1/5)&#45;&gt;react&#45;router&#45;7.18.4\nprompts&#45;confirm\n(level 2/5) -->
-<g id="edge20" class="edge">
+<g id="edge21" class="edge">
 <title>react&#45;router&#45;7.18.4\nprompt\n(level 1/5)&#45;&gt;react&#45;router&#45;7.18.4\nprompts&#45;confirm\n(level 2/5)</title>
 <path fill="none" stroke="#1178b2" stroke-width="1.07" d="M1309.97,-664.72C1354.03,-591.22 1449.06,-432.7 1497.24,-352.33"/>
 <polygon fill="#1178b2" stroke="#1178b2" stroke-width="1.07" points="1500.18,-354.22 1502.32,-343.85 1494.18,-350.62 1500.18,-354.22"/>
 <text xml:space="preserve" text-anchor="middle" x="1437.88" y="-500.66" font-family="Helvetica,Arial,sans-serif" font-size="10.00">180</text>
 </g>
 <!-- react&#45;router&#45;7.18.4\nprompt\n(level 1/5)&#45;&gt;react&#45;router&#45;7.18.4\nprompts&#45;text\n(level 2/5) -->
-<g id="edge21" class="edge">
+<g id="edge20" class="edge">
 <title>react&#45;router&#45;7.18.4\nprompt\n(level 1/5)&#45;&gt;react&#45;router&#45;7.18.4\nprompts&#45;text\n(level 2/5)</title>
 <path fill="none" stroke="#1178b2" stroke-width="1.07" d="M1291.69,-663.24C1301.01,-590.11 1320.6,-436.31 1330.89,-355.54"/>
 <polygon fill="#1178b2" stroke="#1178b2" stroke-width="1.07" points="1334.34,-356.14 1332.13,-345.78 1327.4,-355.26 1334.34,-356.14"/>
@@ -395,32 +395,32 @@
 <polygon fill="#1178b2" stroke="#1178b2" stroke-width="1.01" points="2096.7,-355.21 2092.55,-345.46 2089.72,-355.67 2096.7,-355.21"/>
 <text xml:space="preserve" text-anchor="middle" x="2104.28" y="-500.66" font-family="Helvetica,Arial,sans-serif" font-size="10.00">56</text>
 </g>
-<!-- react&#45;router&#45;7.18.4\nformat\n(level 2/5) -->
+<!-- react&#45;router&#45;7.18.4\nuseJavascript\n(level 2/5) -->
 <g id="node26" class="node">
-<title>react&#45;router&#45;7.18.4\nformat\n(level 2/5)</title>
+<title>react&#45;router&#45;7.18.4\nuseJavascript\n(level 2/5)</title>
 <ellipse fill="#98dafe" stroke="#1178b2" cx="2239.52" cy="-503.66" rx="85.52" ry="41.3"/>
 <text xml:space="preserve" text-anchor="middle" x="2239.52" y="-516.26" font-family="Helvetica,Arial,sans-serif" font-size="14.00">react&#45;router&#45;7.18.4</text>
-<text xml:space="preserve" text-anchor="middle" x="2239.52" y="-499.46" font-family="Helvetica,Arial,sans-serif" font-size="14.00">format</text>
+<text xml:space="preserve" text-anchor="middle" x="2239.52" y="-499.46" font-family="Helvetica,Arial,sans-serif" font-size="14.00">useJavascript</text>
 <text xml:space="preserve" text-anchor="middle" x="2239.52" y="-482.66" font-family="Helvetica,Arial,sans-serif" font-size="14.00">(level 2/5)</text>
 </g>
-<!-- react&#45;router&#45;7.18.4\ncommands\n(level 1/5)&#45;&gt;react&#45;router&#45;7.18.4\nformat\n(level 2/5) -->
+<!-- react&#45;router&#45;7.18.4\ncommands\n(level 1/5)&#45;&gt;react&#45;router&#45;7.18.4\nuseJavascript\n(level 2/5) -->
 <g id="edge37" class="edge">
-<title>react&#45;router&#45;7.18.4\ncommands\n(level 1/5)&#45;&gt;react&#45;router&#45;7.18.4\nformat\n(level 2/5)</title>
+<title>react&#45;router&#45;7.18.4\ncommands\n(level 1/5)&#45;&gt;react&#45;router&#45;7.18.4\nuseJavascript\n(level 2/5)</title>
 <path fill="none" stroke="#1178b2" d="M2124.27,-665.75C2129.41,-659.05 2134.65,-652.12 2139.52,-645.54 2162.19,-614.92 2186.99,-580 2206.21,-552.59"/>
 <polygon fill="#1178b2" stroke="#1178b2" points="2209.03,-554.66 2211.9,-544.46 2203.3,-550.65 2209.03,-554.66"/>
 <text xml:space="preserve" text-anchor="middle" x="2201.99" y="-601.25" font-family="Helvetica,Arial,sans-serif" font-size="10.00">28</text>
 </g>
-<!-- react&#45;router&#45;7.18.4\nuseJavascript\n(level 2/5) -->
+<!-- react&#45;router&#45;7.18.4\nformat\n(level 2/5) -->
 <g id="node27" class="node">
-<title>react&#45;router&#45;7.18.4\nuseJavascript\n(level 2/5)</title>
+<title>react&#45;router&#45;7.18.4\nformat\n(level 2/5)</title>
 <ellipse fill="#98dafe" stroke="#1178b2" cx="2428.52" cy="-503.66" rx="85.52" ry="41.3"/>
 <text xml:space="preserve" text-anchor="middle" x="2428.52" y="-516.26" font-family="Helvetica,Arial,sans-serif" font-size="14.00">react&#45;router&#45;7.18.4</text>
-<text xml:space="preserve" text-anchor="middle" x="2428.52" y="-499.46" font-family="Helvetica,Arial,sans-serif" font-size="14.00">useJavascript</text>
+<text xml:space="preserve" text-anchor="middle" x="2428.52" y="-499.46" font-family="Helvetica,Arial,sans-serif" font-size="14.00">format</text>
 <text xml:space="preserve" text-anchor="middle" x="2428.52" y="-482.66" font-family="Helvetica,Arial,sans-serif" font-size="14.00">(level 2/5)</text>
 </g>
-<!-- react&#45;router&#45;7.18.4\ncommands\n(level 1/5)&#45;&gt;react&#45;router&#45;7.18.4\nuseJavascript\n(level 2/5) -->
+<!-- react&#45;router&#45;7.18.4\ncommands\n(level 1/5)&#45;&gt;react&#45;router&#45;7.18.4\nformat\n(level 2/5) -->
 <g id="edge38" class="edge">
-<title>react&#45;router&#45;7.18.4\ncommands\n(level 1/5)&#45;&gt;react&#45;router&#45;7.18.4\nuseJavascript\n(level 2/5)</title>
+<title>react&#45;router&#45;7.18.4\ncommands\n(level 1/5)&#45;&gt;react&#45;router&#45;7.18.4\nformat\n(level 2/5)</title>
 <path fill="none" stroke="#1178b2" d="M2154.78,-675.1C2172.92,-666.04 2192.72,-655.73 2210.52,-645.54 2266.16,-613.71 2327.27,-573.75 2370.6,-544.53"/>
 <polygon fill="#1178b2" stroke="#1178b2" points="2372.54,-547.44 2378.86,-538.94 2368.61,-541.65 2372.54,-547.44"/>
 <text xml:space="preserve" text-anchor="middle" x="2346.44" y="-601.25" font-family="Helvetica,Arial,sans-serif" font-size="10.00">28</text>
@@ -441,14 +441,14 @@
 <text xml:space="preserve" text-anchor="middle" x="202.02" y="-767.13" font-family="Helvetica,Arial,sans-serif" font-size="10.00">120</text>
 </g>
 <!-- react&#45;router&#45;7.18.4\nreact&#45;router&#45;fs&#45;routes\n(level 0/5)&#45;&gt;react&#45;router&#45;7.18.4\nmanifest\n(level 2/5) -->
-<g id="edge25" class="edge">
+<g id="edge24" class="edge">
 <title>react&#45;router&#45;7.18.4\nreact&#45;router&#45;fs&#45;routes\n(level 0/5)&#45;&gt;react&#45;router&#45;7.18.4\nmanifest\n(level 2/5)</title>
 <path fill="none" stroke="#1178b2" stroke-width="1.04" d="M136.17,-802.5C115.95,-788.15 95.59,-769.2 84.52,-746.13 55.61,-685.86 63.1,-607 72.86,-556.08"/>
 <polygon fill="#1178b2" stroke="#1178b2" stroke-width="1.04" points="76.24,-557.06 74.79,-546.57 69.38,-555.67 76.24,-557.06"/>
 <text xml:space="preserve" text-anchor="middle" x="92.02" y="-701.84" font-family="Helvetica,Arial,sans-serif" font-size="10.00">120</text>
 </g>
 <!-- react&#45;router&#45;7.18.4\nreact&#45;router&#45;fs&#45;routes\n(level 0/5)&#45;&gt;react&#45;router&#45;7.18.4\nnormalizeSlashes\n(level 2/5) -->
-<g id="edge24" class="edge">
+<g id="edge25" class="edge">
 <title>react&#45;router&#45;7.18.4\nreact&#45;router&#45;fs&#45;routes\n(level 0/5)&#45;&gt;react&#45;router&#45;7.18.4\nnormalizeSlashes\n(level 2/5)</title>
 <path fill="none" stroke="#1178b2" stroke-width="1.04" d="M245.69,-800.23C262.91,-785.77 280.12,-767.33 289.52,-746.13 316.47,-685.32 311.17,-607.15 303.24,-556.48"/>
 <polygon fill="#1178b2" stroke="#1178b2" stroke-width="1.04" points="306.71,-556 301.62,-546.72 299.81,-557.16 306.71,-556"/>
