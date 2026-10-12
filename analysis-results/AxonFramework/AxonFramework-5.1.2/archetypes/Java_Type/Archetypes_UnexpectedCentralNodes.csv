@@ -1,6 +1,6 @@
 "codeUnitName","shortCodeUnitName","projectName","betweenness","degree","incomingDependencies","outgoingDependencies","Source Cypher File: domains/archetypes/queries/AnomalyDetectionUnexpectedCentralNodes.cypher"
 "org.axonframework.test.extension.ProvidedAxonTestFixture","ProvidedAxonTestFixture","axon-test-5.1.2",221,2,1,1,""
-"org.axonframework.messaging.core.MessageTypeNotResolvedException","MessageTypeNotResolvedException","axon-messaging-5.1.2",72.83333333333333,2,1,1,""
+"org.axonframework.messaging.core.MessageTypeNotResolvedException","MessageTypeNotResolvedException","axon-messaging-5.1.2",72.83333333333334,2,1,1,""
 "org.axonframework.common.ProcessUtils","ProcessUtils","axon-common-5.1.2",20,2,1,1,""
 "io.axoniq.framework.axonserver.connector.api.command.AxonServerCommandDispatchException","AxonServerCommandDispatchException","axon-server-connector-5.1.2",18,2,1,1,""
 "org.axonframework.messaging.eventhandling.NoHandlerForEventException","NoHandlerForEventException","axon-messaging-5.1.2",10,2,1,1,""
