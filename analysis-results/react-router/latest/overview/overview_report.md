@@ -104,8 +104,8 @@ Shows which node labels are connected by each relationship type, with count and 
 | sourceLabels | relationshipType | targetLabels | relationshipCount |
 | --- | --- | --- | --- |
 | ["Git","Update","Change"] | MODIFIES | ["Git"] | 59569 |
-| ["Git","Commit"] | CONTAINS_CHANGE | ["Git","Update","Change"] | 59569 |
 | ["Git","Update","Change"] | UPDATES | ["Git"] | 59569 |
+| ["Git","Commit"] | CONTAINS_CHANGE | ["Git","Update","Change"] | 59569 |
 | ["TS","Union"] | CONTAINS | ["TS","NotIdentified"] | 53911 |
 | ["Git","Change","Create"] | MODIFIES | ["Git"] | 17536 |
 | ["Git","Commit"] | CONTAINS_CHANGE | ["Git","Change","Create"] | 17536 |

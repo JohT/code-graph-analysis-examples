@@ -74,8 +74,8 @@ Files committed together = logical coupling signal. May belong to the same conce
 | react-router-7.18.4/packages/react-router/CHANGELOG.md | react-router-7.18.4/packages/react-router/package.json | 181 |
 | react-router-7.18.4/packages/react-router-dom/package.json | react-router-7.18.4/packages/react-router/CHANGELOG.md | 179 |
 | react-router-7.18.4/packages/react-router/lib/components.tsx | react-router-7.18.4/packages/react-router/lib/hooks.tsx | 91 |
-| react-router-7.18.4/packages/react-router/package.json | react-router-7.18.4/contributors.yml | 91 |
 | react-router-7.18.4/packages/react-router-dom/package.json | react-router-7.18.4/contributors.yml | 91 |
+| react-router-7.18.4/packages/react-router/package.json | react-router-7.18.4/contributors.yml | 91 |
 | react-router-7.18.4/packages/react-router-node/CHANGELOG.md | react-router-7.18.4/packages/react-router-serve/CHANGELOG.md | 88 |
 | react-router-7.18.4/packages/react-router-dev/CHANGELOG.md | react-router-7.18.4/packages/react-router-node/CHANGELOG.md | 88 |
 | react-router-7.18.4/packages/react-router-dev/CHANGELOG.md | react-router-7.18.4/packages/react-router-serve/CHANGELOG.md | 86 |
@@ -104,16 +104,16 @@ Shows all files that were changed together with another particular file.
 
 | filePath | commitCount | coChangeRate | maxLift | avgLift |
 | --- | --- | --- | --- | --- |
-| react-router-7.18.4/packages/react-router-dom/package.json | 353 | 0.0004587752131420254 | 2.3052918424753868 | 1.3196509686953621 |
-| react-router-7.18.4/packages/react-router/CHANGELOG.md | 191 | 0.0007024434735278109 | 1.6138461538461542 | 1.0717432466023733 |
-| react-router-7.18.4/contributors.yml | 167 | 0.0006438579040304734 | 1.3032008184741302 | 0.6444952474818858 |
-| react-router-7.18.4/packages/react-router/lib/components.tsx | 155 | 0.0012351778656126482 | 6.086841070023603 | 3.1811746805971914 |
-| react-router-7.18.4/pnpm-lock.yaml | 150 | 0.0006851661527920521 | 5.994285714285715 | 1.530310636161729 |
-| react-router-7.18.4/packages/react-router/lib/hooks.tsx | 138 | 0.001655251826174569 | 3.6212227336401837 | 1.9231027797570928 |
-| react-router-7.18.4/packages/react-router/package.json | 135 | 0.00047587322737222806 | 1.2983403656821377 | 0.7130507651588457 |
-| react-router-7.18.4/packages/react-router-dev/CHANGELOG.md | 95 | 0.0005173700175905806 | 3.3391933441852055 | 2.0468454262659685 |
-| react-router-7.18.4/packages/react-router/lib/router/router.ts | 94 | 0.001157279162819329 | 8.15888888888889 | 2.3537741326913446 |
-| react-router-7.18.4/packages/react-router-node/CHANGELOG.md | 91 | 0.0009885394601053719 | 3.458025847536992 | 1.8275652020160027 |
+| react-router-7.18.4/packages/react-router-dom/package.json | 353 | 0.0004587752131420254 | 2.3052918424753868 | 1.3196509686953584 |
+| react-router-7.18.4/packages/react-router/CHANGELOG.md | 191 | 0.0007024434735278109 | 1.6138461538461542 | 1.071743246602374 |
+| react-router-7.18.4/contributors.yml | 167 | 0.0006438579040304734 | 1.3032008184741302 | 0.6444952474818859 |
+| react-router-7.18.4/packages/react-router/lib/components.tsx | 155 | 0.0012351778656126482 | 6.086841070023603 | 3.181174680597192 |
+| react-router-7.18.4/pnpm-lock.yaml | 150 | 0.0006851661527920521 | 5.994285714285715 | 1.5303106361617282 |
+| react-router-7.18.4/packages/react-router/lib/hooks.tsx | 138 | 0.001655251826174569 | 3.6212227336401837 | 1.923102779757092 |
+| react-router-7.18.4/packages/react-router/package.json | 135 | 0.00047587322737222806 | 1.2983403656821377 | 0.713050765158846 |
+| react-router-7.18.4/packages/react-router-dev/CHANGELOG.md | 95 | 0.0005173700175905806 | 3.3391933441852055 | 2.0468454262659663 |
+| react-router-7.18.4/packages/react-router/lib/router/router.ts | 94 | 0.001157279162819329 | 8.15888888888889 | 2.3537741326913433 |
+| react-router-7.18.4/packages/react-router-node/CHANGELOG.md | 91 | 0.0009885394601053719 | 3.458025847536992 | 1.8275652020160031 |
 
 [Full data](./List_git_files_that_were_changed_together_with_another_file.csv)
 
@@ -174,15 +174,15 @@ Commit overlap counts and dependency info between file pairs.
 | firstFileName | secondFileName | filePairLineBreak | filePairWithRelativePathLineBreak | filePair | filePairWithRelativePath | firstFileExtension | secondFileExtension | fileExtensionPair | updateCommitCount | updateCommitMinConfidence | updateCommitSupport | updateCommitLift | updateCommitJaccardSimilarity |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | integration/CHANGELOG.md | packages/create-react-router/CHANGELOG.md | CHANGELOG<br>CHANGELOG | integration/CHANGELOG.md<br>packages/create-react-router/CHANGELOG.md | CHANGELOG↔CHANGELOG | integration/CHANGELOG.md↔packages/create-react-router/CHANGELOG.md | md | md | md↔md | 4 | 0.041237113402061855 | 0.001271051795360661 | 0.6239095955590801 | 0.013289036544850499 |
-| packages/react-router-node/package.json | packages/create-react-router/CHANGELOG.md | package<br>CHANGELOG | packages/react-router-node/package.json<br>packages/create-react-router/CHANGELOG.md | package↔CHANGELOG | packages/react-router-node/package.json↔packages/create-react-router/CHANGELOG.md | json | md | json↔md | 27 | 0.12980769230769232 | 0.008579599618684462 | 1.7092251367878981 | 0.06428571428571428 |
-| packages/react-router-remix-routes-option-adapter/package.json | packages/create-react-router/CHANGELOG.md | package<br>CHANGELOG | packages/react-router-remix-routes-option-adapter/package.json<br>packages/create-react-router/CHANGELOG.md | package↔CHANGELOG | packages/react-router-remix-routes-option-adapter/package.json↔packages/create-react-router/CHANGELOG.md | json | md | json↔md | 27 | 0.12980769230769232 | 0.008579599618684462 | 1.86531875658588 | 0.0675 |
+| packages/react-router-dev/package.json | packages/create-react-router/CHANGELOG.md | package<br>CHANGELOG | packages/react-router-dev/package.json<br>packages/create-react-router/CHANGELOG.md | package↔CHANGELOG | packages/react-router-dev/package.json↔packages/create-react-router/CHANGELOG.md | json | md | json↔md | 27 | 0.12980769230769232 | 0.008579599618684462 | 1.3220220313666915 | 0.05510204081632653 |
 | packages/react-router-serve/package.json | packages/create-react-router/CHANGELOG.md | package<br>CHANGELOG | packages/react-router-serve/package.json<br>packages/create-react-router/CHANGELOG.md | package↔CHANGELOG | packages/react-router-serve/package.json↔packages/create-react-router/CHANGELOG.md | json | md | json↔md | 27 | 0.12980769230769232 | 0.008579599618684462 | 1.7457470414201182 | 0.06506024096385542 |
 | packages/react-router-dom/package.json | packages/create-react-router/CHANGELOG.md | package<br>CHANGELOG | packages/react-router-dom/package.json<br>packages/create-react-router/CHANGELOG.md | package↔CHANGELOG | packages/react-router-dom/package.json↔packages/create-react-router/CHANGELOG.md | json | md | json↔md | 27 | 0.12980769230769232 | 0.008579599618684462 | 0.6078940590659341 | 0.031652989449003514 |
-| packages/create-react-router/package.json | packages/create-react-router/CHANGELOG.md | package<br>CHANGELOG | packages/create-react-router/package.json<br>packages/create-react-router/CHANGELOG.md | package↔CHANGELOG | packages/create-react-router/package.json↔packages/create-react-router/CHANGELOG.md | json | md | json↔md | 27 | 0.12980769230769232 | 0.008579599618684462 | 1.7838637890493785 | 0.06585365853658537 |
-| packages/react-router-architect/package.json | packages/create-react-router/CHANGELOG.md | package<br>CHANGELOG | packages/react-router-architect/package.json<br>packages/create-react-router/CHANGELOG.md | package↔CHANGELOG | packages/react-router-architect/package.json↔packages/create-react-router/CHANGELOG.md | json | md | json↔md | 27 | 0.12980769230769232 | 0.008579599618684462 | 1.7383183306055647 | 0.06490384615384616 |
 | packages/react-router-express/package.json | packages/create-react-router/CHANGELOG.md | package<br>CHANGELOG | packages/react-router-express/package.json<br>packages/create-react-router/CHANGELOG.md | package↔CHANGELOG | packages/react-router-express/package.json↔packages/create-react-router/CHANGELOG.md | json | md | json↔md | 27 | 0.12980769230769232 | 0.008579599618684462 | 1.7383183306055647 | 0.06490384615384616 |
+| packages/react-router-cloudflare/package.json | packages/create-react-router/CHANGELOG.md | package<br>CHANGELOG | packages/react-router-cloudflare/package.json<br>packages/create-react-router/CHANGELOG.md | package↔CHANGELOG | packages/react-router-cloudflare/package.json↔packages/create-react-router/CHANGELOG.md | json | md | json↔md | 27 | 0.12980769230769232 | 0.008579599618684462 | 1.723648977604674 | 0.0645933014354067 |
 | packages/react-router/package.json | packages/create-react-router/CHANGELOG.md | package<br>CHANGELOG | packages/react-router/package.json<br>packages/create-react-router/CHANGELOG.md | package↔CHANGELOG | packages/react-router/package.json↔packages/create-react-router/CHANGELOG.md | json | md | json↔md | 27 | 0.12980769230769232 | 0.008579599618684462 | 0.574549659201558 | 0.030269058295964126 |
-| packages/react-router-fs-routes/package.json | packages/create-react-router/CHANGELOG.md | package<br>CHANGELOG | packages/react-router-fs-routes/package.json<br>packages/create-react-router/CHANGELOG.md | package↔CHANGELOG | packages/react-router-fs-routes/package.json↔packages/create-react-router/CHANGELOG.md | json | md | json↔md | 27 | 0.12980769230769232 | 0.008579599618684462 | 1.7838637890493785 | 0.06585365853658537 |
+| packages/react-router-architect/package.json | packages/create-react-router/CHANGELOG.md | package<br>CHANGELOG | packages/react-router-architect/package.json<br>packages/create-react-router/CHANGELOG.md | package↔CHANGELOG | packages/react-router-architect/package.json↔packages/create-react-router/CHANGELOG.md | json | md | json↔md | 27 | 0.12980769230769232 | 0.008579599618684462 | 1.7383183306055647 | 0.06490384615384616 |
+| packages/react-router-remix-routes-option-adapter/package.json | packages/create-react-router/CHANGELOG.md | package<br>CHANGELOG | packages/react-router-remix-routes-option-adapter/package.json<br>packages/create-react-router/CHANGELOG.md | package↔CHANGELOG | packages/react-router-remix-routes-option-adapter/package.json↔packages/create-react-router/CHANGELOG.md | json | md | json↔md | 27 | 0.12980769230769232 | 0.008579599618684462 | 1.86531875658588 | 0.0675 |
+| packages/create-react-router/package.json | packages/create-react-router/CHANGELOG.md | package<br>CHANGELOG | packages/create-react-router/package.json<br>packages/create-react-router/CHANGELOG.md | package↔CHANGELOG | packages/create-react-router/package.json↔packages/create-react-router/CHANGELOG.md | json | md | json↔md | 27 | 0.12980769230769232 | 0.008579599618684462 | 1.7838637890493785 | 0.06585365853658537 |
 
 [Full data](./List_pairwise_changed_files.csv)
 
@@ -238,9 +238,9 @@ Per-author file commit stats. Useful for knowledge boundaries and bus-factor ris
 
 | filePath | author | commitCount | commitHashes | lastCommitDate | lastCreationDate | lastModificationDate | daysSinceLastCommit | daysSinceLastCreation | daysSinceLastModification | maxCommitSha |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| react-router-7.18.4/.agents/skills/fix-bug/SKILL.md | Matt Brophy | 7 | ["2469dd6621fbcaec689571c3f003af5711bc54de","a842fca719e81505f454a8e6a8c728cdaed22067","06c1149bc0b4f50db0cc6fc10471b4ad963b8969","1497c6ba52e55158e4f12b54617b1255935c75d5","46321cf2767cb820c1be8bbea3bafbc32c6c4ffd","d6f3a05d4124ae9c1f2f74c599f80d091268ce0c","963affeb924f2256bd20c0c5c87e4c4b4fcbd188"] | 2026-06-04 | 2026-03-18 | 2026-06-04 | 137 | 214 | 136 | d6f3a05d4124ae9c1f2f74c599f80d091268ce0c |
+| react-router-7.18.4/.agents/skills/fix-bug/SKILL.md | Matt Brophy | 7 | ["2469dd6621fbcaec689571c3f003af5711bc54de","06c1149bc0b4f50db0cc6fc10471b4ad963b8969","a842fca719e81505f454a8e6a8c728cdaed22067","46321cf2767cb820c1be8bbea3bafbc32c6c4ffd","1497c6ba52e55158e4f12b54617b1255935c75d5","d6f3a05d4124ae9c1f2f74c599f80d091268ce0c","963affeb924f2256bd20c0c5c87e4c4b4fcbd188"] | 2026-06-04 | 2026-03-18 | 2026-06-04 | 137 | 214 | 136 | d6f3a05d4124ae9c1f2f74c599f80d091268ce0c |
 | react-router-7.18.4/.agents/skills/fix-bug/SKILL.md | Brooks Lybrand | 1 | ["4f8fff6cdb31c549fd011ac516fad5ad2e641b5f"] | 2026-05-29 | 2026-03-18 | 2026-06-04 | 143 | 214 | 136 | 4f8fff6cdb31c549fd011ac516fad5ad2e641b5f |
-| react-router-7.18.4/.agents/skills/implement-rfc/SKILL.md | Matt Brophy | 4 | ["522bc1b8cd0d7b3565bf9193789f2b7d5503856b","fadd6c490cc84abc560a2413ee6fa0f2617d098d","a6ab746a43675332ec3c190b1390724bf5c833db","d6f3a05d4124ae9c1f2f74c599f80d091268ce0c"] | 2026-06-04 | 2026-05-07 | 2026-06-04 | 137 | 164 | 136 | fadd6c490cc84abc560a2413ee6fa0f2617d098d |
+| react-router-7.18.4/.agents/skills/implement-rfc/SKILL.md | Matt Brophy | 4 | ["fadd6c490cc84abc560a2413ee6fa0f2617d098d","a6ab746a43675332ec3c190b1390724bf5c833db","522bc1b8cd0d7b3565bf9193789f2b7d5503856b","d6f3a05d4124ae9c1f2f74c599f80d091268ce0c"] | 2026-06-04 | 2026-05-07 | 2026-06-04 | 137 | 164 | 136 | fadd6c490cc84abc560a2413ee6fa0f2617d098d |
 | react-router-7.18.4/.agents/skills/react-router/SKILL.md | Brooks Lybrand | 1 | ["8f364c820ef698952e4bed876d6c93c895357692"] | 2026-06-16 | 2026-06-16 | 2026-06-16 | 125 | 124 | 124 | 8f364c820ef698952e4bed876d6c93c895357692 |
 | react-router-7.18.4/.agents/skills/react-router/references/data-mode.md | Brooks Lybrand | 1 | ["8f364c820ef698952e4bed876d6c93c895357692"] | 2026-06-16 | 2026-06-16 | 2026-06-16 | 125 | 124 | 124 | 8f364c820ef698952e4bed876d6c93c895357692 |
 | react-router-7.18.4/.agents/skills/react-router/references/declarative-mode.md | Brooks Lybrand | 1 | ["8f364c820ef698952e4bed876d6c93c895357692"] | 2026-06-16 | 2026-06-16 | 2026-06-16 | 125 | 124 | 124 | 8f364c820ef698952e4bed876d6c93c895357692 |
