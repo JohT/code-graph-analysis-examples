@@ -16,9 +16,9 @@
 <text xml:space="preserve" text-anchor="middle" x="359.43" y="-757.16" font-family="Helvetica,Arial,sans-serif" font-size="14.00">node value: cluster probability</text>
 <text xml:space="preserve" text-anchor="middle" x="359.43" y="-740.36" font-family="Helvetica,Arial,sans-serif" font-size="14.00">large circle: &lt; 25% percentile of cluster probability</text>
 <text xml:space="preserve" text-anchor="middle" x="359.43" y="-723.56" font-family="Helvetica,Arial,sans-serif" font-size="14.00">thick outline: &gt; 80% percentile of distance to cluster center</text>
-<!-- central&#45;&gt;eventstore_39281 -->
+<!-- central&#45;&gt;eventstore_39261 -->
 <g id="edge8" class="edge">
-<title>central&#45;&gt;eventstore_39281</title>
+<title>central&#45;&gt;eventstore_39261</title>
 <path fill="none" stroke="#66c2a4" stroke-width="0.4" d="M346.26,-377.51C391.29,-379.82 446.86,-382.67 486.67,-384.71"/>
 <polygon fill="#66c2a4" stroke="#66c2a4" stroke-width="0.4" points="486.28,-386.1 490.35,-384.9 486.43,-383.3 486.28,-386.1"/>
 <text xml:space="preserve" text-anchor="middle" x="418" y="-382.44" font-family="Times,serif" font-size="4.00">1</text>
@@ -30,128 +30,128 @@
 <polygon fill="#66c2a4" stroke="#66c2a4" stroke-width="0.4" points="336.47,-606.05 338.95,-609.49 339.15,-605.25 336.47,-606.05"/>
 <text xml:space="preserve" text-anchor="middle" x="314.66" y="-532.11" font-family="Times,serif" font-size="4.00">1</text>
 </g>
-<!-- snapshot_27097&#45;&gt;central -->
+<!-- snapshot_27086&#45;&gt;central -->
 <g id="edge1" class="edge">
-<title>snapshot_27097&#45;&gt;central</title>
+<title>snapshot_27086&#45;&gt;central</title>
 <path fill="none" stroke="#238b45" stroke-width="0.7" d="M555.11,-128.13C535.38,-171.82 504,-229.81 462.59,-269.96 429.33,-302.22 384.01,-327.2 345.58,-344.54"/>
 <polygon fill="#238b45" stroke="#238b45" stroke-width="0.7" points="345.46,-343.06 342.38,-345.97 346.6,-345.61 345.46,-343.06"/>
 <text xml:space="preserve" text-anchor="middle" x="460.58" y="-271.17" font-family="Times,serif" font-size="4.00">16</text>
 </g>
-<!-- snapshot_27097&#45;&gt;eventstore_39281 -->
+<!-- snapshot_27086&#45;&gt;eventstore_39261 -->
 <g id="edge12" class="edge">
-<title>snapshot_27097&#45;&gt;eventstore_39281</title>
+<title>snapshot_27086&#45;&gt;eventstore_39261</title>
 <path fill="none" stroke="#ccece6" stroke-width="0.3" d="M571,-132.38C562.67,-197.82 550.13,-296.39 543.34,-349.78"/>
 <polygon fill="#ccece6" stroke="#ccece6" stroke-width="0.3" points="541.95,-349.58 542.83,-353.73 544.73,-349.94 541.95,-349.58"/>
 <text xml:space="preserve" text-anchor="middle" x="554.59" y="-246.86" font-family="Times,serif" font-size="4.00">10</text>
 </g>
-<!-- snapshot_27097&#45;&gt;store_39278 -->
+<!-- snapshot_27086&#45;&gt;store_39258 -->
 <g id="edge20" class="edge">
-<title>snapshot_27097&#45;&gt;store_39278</title>
+<title>snapshot_27086&#45;&gt;store_39258</title>
 <path fill="none" stroke="#ccece6" stroke-width="0.3" d="M530.29,-110.59C509.33,-129.15 484.8,-150.87 463.37,-169.85"/>
 <polygon fill="#ccece6" stroke="#ccece6" stroke-width="0.3" points="462.63,-168.63 460.57,-172.33 464.49,-170.72 462.63,-168.63"/>
 <text xml:space="preserve" text-anchor="middle" x="494.4" y="-142.69" font-family="Times,serif" font-size="4.00">0</text>
 </g>
-<!-- handler_39280&#45;&gt;central -->
+<!-- handler_39260&#45;&gt;central -->
 <g id="edge2" class="edge">
-<title>handler_39280&#45;&gt;central</title>
+<title>handler_39260&#45;&gt;central</title>
 <path fill="none" stroke="#238b45" stroke-width="0.6" d="M592.19,-490.53C525.19,-466.27 418.19,-427.54 345.85,-401.35"/>
 <polygon fill="#238b45" stroke="#238b45" stroke-width="0.6" points="346.66,-400.16 342.42,-400.11 345.71,-402.79 346.66,-400.16"/>
 <text xml:space="preserve" text-anchor="middle" x="464.88" y="-446.36" font-family="Times,serif" font-size="4.00">13</text>
 </g>
-<!-- handler_39280&#45;&gt;eventstore_39281 -->
+<!-- handler_39260&#45;&gt;eventstore_39261 -->
 <g id="edge11" class="edge">
-<title>handler_39280&#45;&gt;eventstore_39281</title>
+<title>handler_39260&#45;&gt;eventstore_39261</title>
 <path fill="none" stroke="#ccece6" stroke-width="0.3" d="M609.73,-464.74C595.42,-449.18 579.94,-432.36 567.08,-418.39"/>
 <polygon fill="#ccece6" stroke="#ccece6" stroke-width="0.3" points="568.26,-417.6 564.52,-415.6 566.2,-419.49 568.26,-417.6"/>
 <text xml:space="preserve" text-anchor="middle" x="584.84" y="-441.06" font-family="Times,serif" font-size="4.00">10</text>
 </g>
-<!-- handler_39280&#45;&gt;store_39278 -->
+<!-- handler_39260&#45;&gt;store_39258 -->
 <g id="edge18" class="edge">
-<title>handler_39280&#45;&gt;store_39278</title>
+<title>handler_39260&#45;&gt;store_39258</title>
 <path fill="none" stroke="#ccece6" stroke-width="0.3" d="M625.86,-453.72C615.54,-432.62 603.55,-408.78 592.02,-387.38 585.48,-375.23 585.19,-371.19 576.36,-360.59 544.44,-322.26 501.68,-285.68 467.48,-259.06"/>
 <polygon fill="#ccece6" stroke="#ccece6" stroke-width="0.3" points="468.58,-258.14 464.56,-256.79 466.86,-260.35 468.58,-258.14"/>
 <text xml:space="preserve" text-anchor="middle" x="558.45" y="-342.66" font-family="Times,serif" font-size="4.00">1</text>
 </g>
-<!-- handler_39280&#45;&gt;eventhandling_6362 -->
+<!-- handler_39260&#45;&gt;eventhandling_6362 -->
 <g id="edge14" class="edge">
-<title>handler_39280&#45;&gt;eventhandling_6362</title>
+<title>handler_39260&#45;&gt;eventhandling_6362</title>
 <path fill="none" stroke="#ccece6" stroke-width="0.3" d="M591.28,-531.35C551.76,-543.88 500.16,-561.97 456.58,-582.97 433.62,-594.04 408.69,-607.72 388.59,-619.2"/>
 <polygon fill="#ccece6" stroke="#ccece6" stroke-width="0.3" points="388.33,-617.74 385.55,-620.94 389.72,-620.17 388.33,-617.74"/>
 <text xml:space="preserve" text-anchor="middle" x="484.58" y="-566.26" font-family="Times,serif" font-size="4.00">3</text>
 </g>
-<!-- eventstore_39281&#45;&gt;central -->
+<!-- eventstore_39261&#45;&gt;central -->
 <g id="edge3" class="edge">
-<title>eventstore_39281&#45;&gt;central</title>
+<title>eventstore_39261&#45;&gt;central</title>
 <path fill="none" stroke="#238b45" stroke-width="0.5" d="M490.99,-384.94C452.27,-382.95 396.72,-380.1 350.89,-377.75"/>
 <polygon fill="#238b45" stroke="#238b45" stroke-width="0.5" points="351.02,-376.35 346.95,-377.54 350.88,-379.15 351.02,-376.35"/>
 <text xml:space="preserve" text-anchor="middle" x="417.44" y="-377.61" font-family="Times,serif" font-size="4.00">7</text>
 </g>
-<!-- eventstore_39281&#45;&gt;store_39278 -->
+<!-- eventstore_39261&#45;&gt;store_39258 -->
 <g id="edge17" class="edge">
-<title>eventstore_39281&#45;&gt;store_39278</title>
+<title>eventstore_39261&#45;&gt;store_39258</title>
 <path fill="none" stroke="#ccece6" stroke-width="0.3" d="M516.43,-358.13C499.03,-335.12 474.25,-302.36 452.96,-274.21"/>
 <polygon fill="#ccece6" stroke="#ccece6" stroke-width="0.3" points="454.19,-273.51 450.66,-271.17 451.95,-275.2 454.19,-273.51"/>
 <text xml:space="preserve" text-anchor="middle" x="482.56" y="-315.87" font-family="Times,serif" font-size="4.00">1</text>
 </g>
-<!-- eventstore_39281&#45;&gt;eventhandling_6362 -->
+<!-- eventstore_39261&#45;&gt;eventhandling_6362 -->
 <g id="edge9" class="edge">
-<title>eventstore_39281&#45;&gt;eventhandling_6362</title>
+<title>eventstore_39261&#45;&gt;eventhandling_6362</title>
 <path fill="none" stroke="#ccece6" stroke-width="0.3" d="M516.6,-416.91C480.87,-464.97 410.39,-559.77 373.16,-609.86"/>
 <polygon fill="#ccece6" stroke="#ccece6" stroke-width="0.3" points="372.07,-608.98 370.81,-613.02 374.32,-610.65 372.07,-608.98"/>
 <text xml:space="preserve" text-anchor="middle" x="441.56" y="-516.35" font-family="Times,serif" font-size="4.00">25</text>
 </g>
-<!-- inmemory_39277&#45;&gt;central -->
+<!-- inmemory_39257&#45;&gt;central -->
 <g id="edge4" class="edge">
-<title>inmemory_39277&#45;&gt;central</title>
+<title>inmemory_39257&#45;&gt;central</title>
 <path fill="none" stroke="#238b45" stroke-width="0.5" d="M101.78,-120.71C136.02,-172.47 187.02,-249.57 223.7,-305.02"/>
 <polygon fill="#238b45" stroke="#238b45" stroke-width="0.5" points="222.52,-305.77 225.9,-308.34 224.86,-304.23 222.52,-305.77"/>
 <text xml:space="preserve" text-anchor="middle" x="163.11" y="-216.13" font-family="Times,serif" font-size="4.00">4</text>
 </g>
-<!-- inmemory_39277&#45;&gt;store_39278 -->
+<!-- inmemory_39257&#45;&gt;store_39258 -->
 <g id="edge19" class="edge">
-<title>inmemory_39277&#45;&gt;store_39278</title>
+<title>inmemory_39257&#45;&gt;store_39258</title>
 <path fill="none" stroke="#ccece6" stroke-width="0.3" d="M126.09,-91.88C187.61,-119.05 282.03,-160.76 344.84,-188.51"/>
 <polygon fill="#ccece6" stroke="#ccece6" stroke-width="0.3" points="343.92,-189.63 348.14,-189.97 345.05,-187.07 343.92,-189.63"/>
 <text xml:space="preserve" text-anchor="middle" x="236.28" y="-142.19" font-family="Times,serif" font-size="4.00">0</text>
 </g>
-<!-- configuration_39284&#45;&gt;central -->
+<!-- configuration_39264&#45;&gt;central -->
 <g id="edge5" class="edge">
-<title>configuration_39284&#45;&gt;central</title>
+<title>configuration_39264&#45;&gt;central</title>
 <path fill="none" stroke="#238b45" stroke-width="0.5" d="M463.74,-586.08C424.3,-543.03 366.52,-479.96 324.14,-433.7"/>
 <polygon fill="#238b45" stroke="#238b45" stroke-width="0.5" points="325.37,-432.96 321.63,-430.96 323.3,-434.85 325.37,-432.96"/>
 <text xml:space="preserve" text-anchor="middle" x="391.44" y="-509.45" font-family="Times,serif" font-size="4.00">3</text>
 </g>
-<!-- configuration_39284&#45;&gt;handler_39280 -->
+<!-- configuration_39264&#45;&gt;handler_39260 -->
 <g id="edge13" class="edge">
-<title>configuration_39284&#45;&gt;handler_39280</title>
+<title>configuration_39264&#45;&gt;handler_39260</title>
 <path fill="none" stroke="#ccece6" stroke-width="0.3" d="M558.37,-592.7C572.01,-581.33 586.83,-568.97 600.64,-557.46"/>
 <polygon fill="#ccece6" stroke="#ccece6" stroke-width="0.3" points="601.23,-558.79 603.4,-555.15 599.44,-556.63 601.23,-558.79"/>
 <text xml:space="preserve" text-anchor="middle" x="580.11" y="-574.93" font-family="Times,serif" font-size="4.00">6</text>
 </g>
-<!-- configuration_39284&#45;&gt;eventstore_39281 -->
+<!-- configuration_39264&#45;&gt;eventstore_39261 -->
 <g id="edge10" class="edge">
-<title>configuration_39284&#45;&gt;eventstore_39281</title>
+<title>configuration_39264&#45;&gt;eventstore_39261</title>
 <path fill="none" stroke="#ccece6" stroke-width="0.3" d="M516.19,-569.29C521.87,-523.06 529.29,-462.7 533.99,-424.48"/>
 <polygon fill="#ccece6" stroke="#ccece6" stroke-width="0.3" points="535.34,-424.98 534.44,-420.84 532.56,-424.64 535.34,-424.98"/>
 <text xml:space="preserve" text-anchor="middle" x="523.48" y="-494.93" font-family="Times,serif" font-size="4.00">15</text>
 </g>
-<!-- configuration_39284&#45;&gt;store_39278 -->
+<!-- configuration_39264&#45;&gt;store_39258 -->
 <g id="edge16" class="edge">
-<title>configuration_39284&#45;&gt;store_39278</title>
+<title>configuration_39264&#45;&gt;store_39258</title>
 <path fill="none" stroke="#ccece6" stroke-width="0.3" d="M493.12,-570.72C475.05,-494 444.84,-365.75 426.21,-286.63"/>
 <polygon fill="#ccece6" stroke="#ccece6" stroke-width="0.3" points="427.6,-286.45 425.32,-282.88 424.88,-287.09 427.6,-286.45"/>
 <text xml:space="preserve" text-anchor="middle" x="458.17" y="-427.76" font-family="Times,serif" font-size="4.00">1</text>
 </g>
-<!-- configuration_39284&#45;&gt;eventhandling_6362 -->
+<!-- configuration_39264&#45;&gt;eventhandling_6362 -->
 <g id="edge15" class="edge">
-<title>configuration_39284&#45;&gt;eventhandling_6362</title>
+<title>configuration_39264&#45;&gt;eventhandling_6362</title>
 <path fill="none" stroke="#ccece6" stroke-width="0.3" d="M442.87,-637.87C428.69,-638.59 413.89,-639.35 400.32,-640.04"/>
 <polygon fill="#ccece6" stroke="#ccece6" stroke-width="0.3" points="400.53,-638.62 396.61,-640.22 400.68,-641.42 400.53,-638.62"/>
 <text xml:space="preserve" text-anchor="middle" x="418.35" y="-640.27" font-family="Times,serif" font-size="4.00">2</text>
 </g>
-<!-- store_39278&#45;&gt;central -->
+<!-- store_39258&#45;&gt;central -->
 <g id="edge6" class="edge">
-<title>store_39278&#45;&gt;central</title>
+<title>store_39258&#45;&gt;central</title>
 <path fill="none" stroke="#238b45" stroke-width="0.4" d="M364.91,-267.12C351.82,-281.65 337.36,-297.7 323.73,-312.83"/>
 <polygon fill="#238b45" stroke="#238b45" stroke-width="0.4" points="322.7,-311.88 321.06,-315.79 324.78,-313.76 322.7,-311.88"/>
 <text xml:space="preserve" text-anchor="middle" x="341.89" y="-292.76" font-family="Times,serif" font-size="4.00">2</text>
@@ -164,54 +164,54 @@
 <text xml:space="preserve" text-anchor="middle" x="269.03" y="-378.34" font-family="Times,serif" font-size="16.00">🧩 outlier #2</text>
 <text xml:space="preserve" text-anchor="middle" x="269.03" y="-359.14" font-family="Times,serif" font-size="16.00">api</text>
 </g>
-<!-- snapshot_27097 -->
+<!-- snapshot_27086 -->
 <g id="node2" class="node">
-<title>snapshot_27097</title>
+<title>snapshot_27086</title>
 <ellipse fill="#ccece6" stroke="#41ae76" stroke-width="2" cx="579.29" cy="-67.2" rx="64.8" ry="64.8"/>
 <text xml:space="preserve" text-anchor="middle" x="579.29" y="-70.8" font-family="Times,serif" font-size="12.00">snapshot</text>
-<text xml:space="preserve" text-anchor="middle" x="579.29" y="-56.4" font-family="Times,serif" font-size="12.00">(62.63%)</text>
+<text xml:space="preserve" text-anchor="middle" x="579.29" y="-56.4" font-family="Times,serif" font-size="12.00">(65.12%)</text>
 </g>
-<!-- handler_39280 -->
+<!-- handler_39260 -->
 <g id="node3" class="node">
-<title>handler_39280</title>
+<title>handler_39260</title>
 <ellipse fill="#ccece6" stroke="#41ae76" stroke-width="2" cx="654.05" cy="-512.92" rx="64.8" ry="64.8"/>
 <text xml:space="preserve" text-anchor="middle" x="654.05" y="-516.52" font-family="Times,serif" font-size="12.00">handler</text>
-<text xml:space="preserve" text-anchor="middle" x="654.05" y="-502.12" font-family="Times,serif" font-size="12.00">(64.44%)</text>
+<text xml:space="preserve" text-anchor="middle" x="654.05" y="-502.12" font-family="Times,serif" font-size="12.00">(65.52%)</text>
 </g>
-<!-- eventstore_39281 -->
+<!-- eventstore_39261 -->
 <g id="node4" class="node">
-<title>eventstore_39281</title>
+<title>eventstore_39261</title>
 <ellipse fill="#f7fcfd" stroke="#66c2a4" stroke-width="2" cx="538.55" cy="-387.38" rx="46.8" ry="32.4"/>
 <text xml:space="preserve" text-anchor="middle" x="538.55" y="-390.98" font-family="Times,serif" font-size="12.00">eventstore</text>
 <text xml:space="preserve" text-anchor="middle" x="538.55" y="-376.58" font-family="Times,serif" font-size="12.00">(100.0%)</text>
 </g>
-<!-- inmemory_39277 -->
+<!-- inmemory_39257 -->
 <g id="node5" class="node">
-<title>inmemory_39277</title>
+<title>inmemory_39257</title>
 <ellipse fill="#ccece6" stroke="#41ae76" stroke-width="5" cx="64.8" cy="-64.8" rx="64.8" ry="64.8"/>
 <text xml:space="preserve" text-anchor="middle" x="64.8" y="-68.4" font-family="Times,serif" font-size="12.00">inmemory</text>
-<text xml:space="preserve" text-anchor="middle" x="64.8" y="-54" font-family="Times,serif" font-size="12.00">(56.0%)</text>
+<text xml:space="preserve" text-anchor="middle" x="64.8" y="-54" font-family="Times,serif" font-size="12.00">(57.25%)</text>
 </g>
-<!-- configuration_39284 -->
+<!-- configuration_39264 -->
 <g id="node6" class="node">
-<title>configuration_39284</title>
+<title>configuration_39264</title>
 <ellipse fill="#ccece6" stroke="#41ae76" stroke-width="2" cx="508.16" cy="-634.56" rx="64.8" ry="64.8"/>
 <text xml:space="preserve" text-anchor="middle" x="508.16" y="-638.16" font-family="Times,serif" font-size="12.00">configuration</text>
-<text xml:space="preserve" text-anchor="middle" x="508.16" y="-623.76" font-family="Times,serif" font-size="12.00">(63.59%)</text>
+<text xml:space="preserve" text-anchor="middle" x="508.16" y="-623.76" font-family="Times,serif" font-size="12.00">(0.0%)</text>
 </g>
-<!-- store_39278 -->
+<!-- store_39258 -->
 <g id="node7" class="node">
-<title>store_39278</title>
+<title>store_39258</title>
 <ellipse fill="#ccece6" stroke="#41ae76" stroke-width="5" cx="409.86" cy="-217.23" rx="64.8" ry="64.8"/>
 <text xml:space="preserve" text-anchor="middle" x="409.86" y="-220.83" font-family="Times,serif" font-size="12.00">store</text>
-<text xml:space="preserve" text-anchor="middle" x="409.86" y="-206.43" font-family="Times,serif" font-size="12.00">(48.87%)</text>
+<text xml:space="preserve" text-anchor="middle" x="409.86" y="-206.43" font-family="Times,serif" font-size="12.00">(47.78%)</text>
 </g>
 <!-- eventhandling_6362 -->
 <g id="node8" class="node">
 <title>eventhandling_6362</title>
 <ellipse fill="#f7fcfd" stroke="#66c2a4" stroke-width="2" cx="348.78" cy="-642.65" rx="46.8" ry="32.4"/>
 <text xml:space="preserve" text-anchor="middle" x="348.78" y="-646.25" font-family="Times,serif" font-size="12.00">eventhandling</text>
-<text xml:space="preserve" text-anchor="middle" x="348.78" y="-631.85" font-family="Times,serif" font-size="12.00">(100.0%)</text>
+<text xml:space="preserve" text-anchor="middle" x="348.78" y="-631.85" font-family="Times,serif" font-size="12.00">(82.94%)</text>
 </g>
 </g>
 </svg>

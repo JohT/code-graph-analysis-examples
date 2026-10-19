@@ -105,12 +105,12 @@ Artifact dependencies where dependents use only a small `usedPackagesPercent`. L
 | axon-tracing-opentelemetry-5.1.2 | axon-messaging-5.1.2 | 2 | 57 | 0.03508771929824561 | ["org.axonframework.messaging.tracing","org.axonframework.messaging.core"] | ["tracing","core"] |
 | axon-tracing-opentelemetry-5.1.2 | axon-common-5.1.2 | 1 | 15 | 0.06666666666666667 | ["org.axonframework.common"] | ["common"] |
 | axoniq-spring-boot-autoconfigure-5.1.2 | axon-common-5.1.2 | 1 | 15 | 0.06666666666666667 | ["org.axonframework.common.configuration"] | ["configuration"] |
-| axoniq-spring-boot-autoconfigure-5.1.2 | axon-messaging-5.1.2 | 4 | 57 | 0.07017543859649122 | ["org.axonframework.messaging.eventhandling.conversion","org.axonframework.messaging.eventhandling.processing.streaming.pooled","org.axonframework.messaging.core.unitofwork.transaction.jpa","org.axonframework.messaging.core.unitofwork.transaction.jdbc"] | ["conversion","pooled","jpa","jdbc"] |
+| axoniq-spring-boot-autoconfigure-5.1.2 | axon-messaging-5.1.2 | 4 | 57 | 0.07017543859649122 | ["org.axonframework.messaging.core.unitofwork.transaction.jdbc","org.axonframework.messaging.eventhandling.conversion","org.axonframework.messaging.eventhandling.processing.streaming.pooled","org.axonframework.messaging.core.unitofwork.transaction.jpa"] | ["jdbc","conversion","pooled","jpa"] |
 | axon-test-5.1.2 | axon-eventsourcing-5.1.2 | 1 | 11 | 0.09090909090909091 | ["org.axonframework.eventsourcing.eventstore"] | ["eventstore"] |
-| axon-metrics-micrometer-5.1.2 | axon-messaging-5.1.2 | 7 | 57 | 0.12280701754385964 | ["org.axonframework.messaging.monitoring","org.axonframework.messaging.eventhandling.processing","org.axonframework.messaging.queryhandling","org.axonframework.messaging.monitoring.configuration","org.axonframework.messaging.eventhandling","org.axonframework.messaging.core","org.axonframework.messaging.commandhandling"] | ["monitoring","processing","queryhandling","configuration","eventhandling","core","commandhandling"] |
-| axon-metrics-micrometer-5.1.2 | axon-common-5.1.2 | 2 | 15 | 0.13333333333333333 | ["org.axonframework.common","org.axonframework.common.configuration"] | ["common","configuration"] |
+| axon-metrics-micrometer-5.1.2 | axon-messaging-5.1.2 | 7 | 57 | 0.12280701754385964 | ["org.axonframework.messaging.queryhandling","org.axonframework.messaging.eventhandling","org.axonframework.messaging.monitoring","org.axonframework.messaging.commandhandling","org.axonframework.messaging.monitoring.configuration","org.axonframework.messaging.core","org.axonframework.messaging.eventhandling.processing"] | ["queryhandling","eventhandling","monitoring","commandhandling","configuration","core","processing"] |
+| axon-metrics-micrometer-5.1.2 | axon-common-5.1.2 | 2 | 15 | 0.13333333333333333 | ["org.axonframework.common.configuration","org.axonframework.common"] | ["configuration","common"] |
 | axon-server-connector-5.1.2 | axon-modelling-5.1.2 | 1 | 7 | 0.14285714285714285 | ["org.axonframework.modelling"] | ["modelling"] |
-| axon-test-5.1.2 | axon-messaging-5.1.2 | 9 | 57 | 0.15789473684210525 | ["org.axonframework.messaging.core","org.axonframework.messaging.core.unitofwork","org.axonframework.messaging.monitoring","org.axonframework.messaging.commandhandling","org.axonframework.messaging.eventstreaming","org.axonframework.messaging.core.conversion","org.axonframework.messaging.eventhandling.processing.streaming.token","org.axonframework.messaging.eventhandling","org.axonframework.messaging.core.annotation"] | ["core","unitofwork","monitoring","commandhandling","eventstreaming","conversion","token","eventhandling","annotation"] |
+| axon-test-5.1.2 | axon-messaging-5.1.2 | 9 | 57 | 0.15789473684210525 | ["org.axonframework.messaging.commandhandling","org.axonframework.messaging.core","org.axonframework.messaging.monitoring","org.axonframework.messaging.core.unitofwork","org.axonframework.messaging.eventstreaming","org.axonframework.messaging.eventhandling","org.axonframework.messaging.eventhandling.processing.streaming.token","org.axonframework.messaging.core.conversion","org.axonframework.messaging.core.annotation"] | ["commandhandling","core","monitoring","unitofwork","eventstreaming","eventhandling","token","conversion","annotation"] |
 | axon-modelling-5.1.2 | axon-conversion-5.1.2 | 1 | 5 | 0.2 | ["org.axonframework.conversion"] | ["conversion"] |
 
 [Full data](./Java_Artifact/ArtifactPackageUsage.csv)
@@ -123,16 +123,16 @@ Classes used across artifacts — extraction candidates. High reuse = type grown
 
 | artifactName | dependentArtifactName | fullPackageName | fullDependentPackageName | dependentTypes | dependentPackageTypes | typeUsagePercentage | dependentTypeNameExamples |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| axon-eventsourcing-5.1.2 | axon-messaging-5.1.2 | org.axonframework.eventsourcing | org.axonframework.messaging.core | 1 | 87 | 0.0115 | ["org.axonframework.messaging.core.Context$ResourceKey"] |
+| axon-modelling-5.1.2 | axon-messaging-5.1.2 | org.axonframework.modelling.repository | org.axonframework.messaging.core | 1 | 87 | 0.0115 | ["org.axonframework.messaging.core.Context$ResourceKey"] |
 | axon-eventsourcing-5.1.2 | axon-messaging-5.1.2 | org.axonframework.eventsourcing.snapshot.store | org.axonframework.messaging.core | 1 | 87 | 0.0115 | ["org.axonframework.messaging.core.QualifiedName"] |
 | axon-eventsourcing-5.1.2 | axon-messaging-5.1.2 | org.axonframework.eventsourcing.snapshot.inmemory | org.axonframework.messaging.core | 1 | 87 | 0.0115 | ["org.axonframework.messaging.core.QualifiedName"] |
 | axon-server-connector-5.1.2 | axon-messaging-5.1.2 | io.axoniq.framework.axonserver.connector.snapshot | org.axonframework.messaging.core | 1 | 87 | 0.0115 | ["org.axonframework.messaging.core.QualifiedName"] |
 | axon-test-5.1.2 | axon-messaging-5.1.2 | org.axonframework.test.matchers | org.axonframework.messaging.core | 1 | 87 | 0.0115 | ["org.axonframework.messaging.core.Message"] |
-| axon-eventsourcing-5.1.2 | axon-messaging-5.1.2 | org.axonframework.eventsourcing | org.axonframework.messaging.core | 1 | 87 | 0.0115 | ["org.axonframework.messaging.core.Context$ResourceKey"] |
-| axon-modelling-5.1.2 | axon-messaging-5.1.2 | org.axonframework.modelling.repository | org.axonframework.messaging.core | 1 | 87 | 0.0115 | ["org.axonframework.messaging.core.Context$ResourceKey"] |
 | axon-eventsourcing-5.1.2 | axon-messaging-5.1.2 | org.axonframework.eventsourcing.configuration | org.axonframework.messaging.core.annotation | 1 | 53 | 0.0189 | ["org.axonframework.messaging.core.annotation.ParameterResolverFactory"] |
-| axon-server-connector-5.1.2 | axon-eventsourcing-5.1.2 | io.axoniq.framework.axonserver.connector.shared | org.axonframework.eventsourcing.eventstore | 1 | 52 | 0.0192 | ["org.axonframework.eventsourcing.eventstore.EventStoreException"] |
 | axon-server-connector-5.1.2 | axon-eventsourcing-5.1.2 | io.axoniq.framework.axonserver.connector.configuration | org.axonframework.eventsourcing.eventstore | 1 | 52 | 0.0192 | ["org.axonframework.eventsourcing.eventstore.EventStorageEngine"] |
-| axon-eventsourcing-5.1.2 | axon-common-5.1.2 | org.axonframework.eventsourcing.annotation.reflection | org.axonframework.common.configuration | 1 | 51 | 0.0196 | ["org.axonframework.common.configuration.Configuration"] |
+| axon-server-connector-5.1.2 | axon-eventsourcing-5.1.2 | io.axoniq.framework.axonserver.connector.shared | org.axonframework.eventsourcing.eventstore | 1 | 52 | 0.0192 | ["org.axonframework.eventsourcing.eventstore.EventStoreException"] |
+| axon-messaging-5.1.2 | axon-common-5.1.2 | org.axonframework.messaging.core.unitofwork | org.axonframework.common.configuration | 1 | 51 | 0.0196 | ["org.axonframework.common.configuration.ComponentNotFoundException"] |
 
 [Full data](./Java_Artifact/ClassesPerPackageUsageAcrossArtifacts.csv)
 
@@ -143,9 +143,9 @@ Classes used across artifacts — extraction candidates. High reuse = type grown
 | directoryDistance | numberOfDependencies | percentageOfDependencies | numberOfDependencyUsers | numberOfDependencyProviders | examples |
 | --- | --- | --- | --- | --- | --- |
 | 0 | 2131 | 32.81 | 869 | 901 | ["/axon-eventsourcing-5.1.2.jar uses /axon-modelling-5.1.2.jar","/axon-server-connector-5.1.2.jar uses /axon-modelling-5.1.2.jar","/org/axonframework/modelling/configuration uses /org/axonframework/modelling/entity","/org/axonframework/modelling/entity/annotation uses /org/axonframework/modelling/entity/child"] |
-| 1 | 94 | 1.45 | 82 | 37 | ["/org/axonframework/modelling/annotation uses /org/axonframework/modelling","/org/axonframework/modelling/configuration uses /org/axonframework/modelling","/org/axonframework/modelling/entity uses /org/axonframework/modelling","/org/axonframework/modelling uses /org/axonframework/modelling/annotation"] |
-| 2 | 2202 | 33.91 | 623 | 451 | ["/org/axonframework/modelling/entity/annotation uses /org/axonframework/modelling","/org/axonframework/modelling/entity/child uses /org/axonframework/modelling","/org/axonframework/modelling/entity/annotation uses /org/axonframework/modelling/annotation","/org/axonframework/modelling/annotation uses /org/axonframework/modelling/entity/annotation"] |
-| 4 | 2067 | 31.83 | 671 | 283 | ["/io/axoniq/framework/axonserver/connector/shared uses /org/axonframework/modelling","/org/axonframework/eventsourcing/configuration uses /org/axonframework/modelling","/org/axonframework/eventsourcing uses /org/axonframework/modelling","/org/axonframework/eventsourcing/handler uses /org/axonframework/modelling"] |
+| 1 | 94 | 1.45 | 82 | 37 | ["/org/axonframework/modelling/entity uses /org/axonframework/modelling","/org/axonframework/modelling/configuration uses /org/axonframework/modelling","/org/axonframework/modelling/annotation uses /org/axonframework/modelling","/org/axonframework/modelling uses /org/axonframework/modelling/annotation"] |
+| 2 | 2202 | 33.91 | 623 | 451 | ["/org/axonframework/modelling/entity/child uses /org/axonframework/modelling","/org/axonframework/modelling/entity/annotation uses /org/axonframework/modelling","/org/axonframework/modelling/entity/annotation uses /org/axonframework/modelling/annotation","/org/axonframework/modelling/annotation uses /org/axonframework/modelling/entity/annotation"] |
+| 4 | 2067 | 31.83 | 671 | 283 | ["/io/axoniq/framework/axonserver/connector/shared uses /org/axonframework/modelling","/org/axonframework/eventsourcing uses /org/axonframework/modelling","/org/axonframework/eventsourcing/configuration uses /org/axonframework/modelling","/org/axonframework/eventsourcing/handler uses /org/axonframework/modelling"] |
 
 [Full data](./Distance_distribution_between_dependent_files.csv)
 
@@ -196,7 +196,7 @@ Graph diameter = longest shortest path. Higher = deeper transitive dependencies.
 | 4 | 597 | 94 | 49 | ["/org/axonframework/eventsourcing/snapshot/inmemory ->/org/axonframework/modelling","/org/axonframework/eventsourcing/snapshot/store ->/org/axonframework/modelling"] |
 | 3 | 976 | 100 | 65 | ["/io/axoniq/framework/axonserver/connector/snapshot ->/org/axonframework/modelling","/io/axoniq/framework/axonserver/connector/configuration ->/org/axonframework/modelling"] |
 | 2 | 990 | 108 | 80 | ["/io/axoniq/framework/axonserver/connector/query ->/org/axonframework/modelling","/io/axoniq/framework/axonserver/connector/event ->/org/axonframework/modelling"] |
-| 1 | 777 | 118 | 98 | ["/org/axonframework/modelling/annotation ->/org/axonframework/modelling","/org/axonframework/modelling/entity ->/org/axonframework/modelling"] |
+| 1 | 777 | 118 | 98 | ["/org/axonframework/modelling/annotation ->/org/axonframework/modelling","/io/axoniq/framework/axonserver/connector/shared ->/org/axonframework/modelling"] |
 
 [Full data per project](./Java_Package/Package_all_pairs_shortest_paths_distribution_per_project.csv)
 

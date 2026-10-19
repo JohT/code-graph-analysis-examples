@@ -35,14 +35,14 @@ High PageRank = depended on by many important nodes. High betweenness = bridge b
 
 | nodeLabels | nodeName | pageRankScore |
 | --- | --- | --- |
-| ["Type","Java","Class","GenericDeclaration"] | org.axonframework.common.TypeReference | 53.88884355019086 |
+| ["Type","Java","Class","GenericDeclaration"] | org.axonframework.common.TypeReference | 53.888843550190856 |
 | ["Type","Java","Class"] | org.axonframework.common.TypeReference$2 | 23.050914895163437 |
 | ["Type","Java","Class"] | org.axonframework.common.TypeReference$1 | 23.050914895163437 |
 | ["Type","Java","Class","GenericDeclaration"] | org.axonframework.messaging.core.Context$ResourceKey | 22.415779759592734 |
 | ["Type","Java","Interface"] | org.axonframework.messaging.core.Message | 18.58762244866974 |
 | ["Type","Java","Interface"] | org.axonframework.messaging.core.unitofwork.ProcessingContext | 16.88448461381727 |
 | ["Package","Java"] | org.axonframework.common | 11.605407781911776 |
-| ["Type","Java","Interface"] | org.axonframework.common.infra.ComponentDescriptor | 11.165464275573267 |
+| ["Type","Java","Interface"] | org.axonframework.common.infra.ComponentDescriptor | 11.16546427557327 |
 | ["Type","Java","Interface"] | org.axonframework.common.infra.DescribableComponent | 11.040244162776043 |
 | ["Type","Java","Interface"] | org.axonframework.conversion.Converter | 10.524578358009311 |
 
@@ -53,14 +53,14 @@ High PageRank = depended on by many important nodes. High betweenness = bridge b
 | nodeLabels | nodeName | articleRankScore |
 | --- | --- | --- |
 | ["Type","Java","Interface"] | org.axonframework.messaging.core.Message | 8.76143753951803 |
-| ["Type","Java","Class","GenericDeclaration"] | org.axonframework.messaging.core.Context$ResourceKey | 7.664558490342937 |
-| ["Type","Java","Interface"] | org.axonframework.messaging.core.unitofwork.ProcessingContext | 7.158462095853327 |
+| ["Type","Java","Class","GenericDeclaration"] | org.axonframework.messaging.core.Context$ResourceKey | 7.6645584903429365 |
+| ["Type","Java","Interface"] | org.axonframework.messaging.core.unitofwork.ProcessingContext | 7.158462095853329 |
 | ["Package","Java"] | org.axonframework.common | 6.034603518270907 |
 | ["Type","Java","Class","GenericDeclaration"] | org.axonframework.common.TypeReference | 5.938663904850031 |
-| ["Type","Java","Interface"] | org.axonframework.conversion.Converter | 4.5310774543255485 |
+| ["Type","Java","Interface"] | org.axonframework.conversion.Converter | 4.531077454325549 |
 | ["Package","Java"] | org.axonframework.messaging.core | 4.520396567052293 |
 | ["Type","Java","Interface"] | org.axonframework.messaging.core.Context | 3.2271814483597225 |
-| ["Type","Java","GenericDeclaration","Interface"] | org.axonframework.messaging.core.MessageStream | 3.224865458930252 |
+| ["Type","Java","GenericDeclaration","Interface"] | org.axonframework.messaging.core.MessageStream | 3.2248654589302523 |
 | ["Type","Java","Interface"] | org.axonframework.messaging.eventhandling.EventMessage | 2.751749105103321 |
 
 [Full data](./Java_Package/centrality/Package_Centrality_Article_Rank.csv)
@@ -72,7 +72,7 @@ High PageRank = depended on by many important nodes. High betweenness = bridge b
 | ["Type","Java","GenericDeclaration","Interface"] | org.axonframework.messaging.core.MessageStream | 11352.07135642136 |
 | ["Type","Java","Interface"] | org.axonframework.messaging.core.Message | 9809.049206349211 |
 | ["Type","Java","Interface"] | org.axonframework.messaging.core.unitofwork.ProcessingContext | 6610.471428571429 |
-| ["Type","Java","Record"] | org.axonframework.messaging.core.QualifiedName | 4625.822222222222 |
+| ["Type","Java","Record"] | org.axonframework.messaging.core.QualifiedName | 4625.822222222221 |
 | ["Type","Java","Class"] | org.axonframework.common.ReflectionUtils | 4488.466666666667 |
 | ["Type","Java","Record"] | org.axonframework.messaging.core.MessageType | 4159.6111111111095 |
 | ["Type","Java","Class","GenericDeclaration"] | org.axonframework.modelling.entity.annotation.AnnotatedEntityMetamodel | 3527.9704545454547 |
@@ -92,16 +92,16 @@ High community sizes may indicate monolithic modules; many small = well-modulari
 
 | communityId | communitySize |
 | --- | --- |
-| 1 | 196 |
-| 7 | 179 |
-| 3 | 154 |
-| 0 | 144 |
-| 10 | 94 |
-| 5 | 89 |
-| 4 | 71 |
+| 1 | 212 |
+| 7 | 153 |
+| 0 | 132 |
+| 4 | 116 |
+| 2 | 111 |
+| 11 | 94 |
+| 8 | 85 |
 | 6 | 69 |
-| 11 | 68 |
-| 8 | 64 |
+| 9 | 67 |
+| 5 | 64 |
 
 [Full data](./Java_Package/communities/Package_Communities_Leiden.csv)
 
@@ -115,7 +115,7 @@ Components with more than one member = circular dependencies.
 | 11 | 31 |
 | 16 | 15 |
 | 61 | 13 |
-| 845 | 12 |
+| 838 | 12 |
 | 77 | 11 |
 | 56 | 11 |
 | 46 | 10 |

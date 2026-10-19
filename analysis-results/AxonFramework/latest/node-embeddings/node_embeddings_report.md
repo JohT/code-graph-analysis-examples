@@ -60,15 +60,15 @@ Useful to verify that the embedding pipeline ran end-to-end and that the propert
 
 | nodeLabels | nodeName | embeddingDimensions | communityLeidenId | pageRankScore |
 | --- | --- | --- | --- | --- |
-| ["Type","Java","Class","GenericDeclaration","InternalJavaType","ConnectedInternalJavaType"] | org.axonframework.common.TypeReference | 64 | 1 | 53.88884355019086 |
+| ["Type","Java","Class","GenericDeclaration","InternalJavaType","ConnectedInternalJavaType"] | org.axonframework.common.TypeReference | 64 | 1 | 53.888843550190856 |
 | ["Type","Java","Class","InternalJavaType","ConnectedInternalJavaType"] | org.axonframework.common.TypeReference$2 | 64 | 1 | 23.050914895163437 |
 | ["Type","Java","Class","InternalJavaType","ConnectedInternalJavaType"] | org.axonframework.common.TypeReference$1 | 64 | 1 | 23.050914895163437 |
-| ["Type","Java","Class","GenericDeclaration","InternalJavaType","ConnectedInternalJavaType"] | org.axonframework.messaging.core.Context$ResourceKey | 64 | 3 | 22.415779759592734 |
+| ["Type","Java","Class","GenericDeclaration","InternalJavaType","ConnectedInternalJavaType"] | org.axonframework.messaging.core.Context$ResourceKey | 64 | 2 | 22.415779759592734 |
 | ["Type","Java","Interface","InternalJavaType","ConnectedInternalJavaType"] | org.axonframework.messaging.core.Message | 64 | 7 | 18.58762244866974 |
-| ["Type","Java","Interface","InternalJavaType","ConnectedInternalJavaType"] | org.axonframework.messaging.core.unitofwork.ProcessingContext | 64 | 3 | 16.88448461381727 |
+| ["Type","Java","Interface","InternalJavaType","ConnectedInternalJavaType"] | org.axonframework.messaging.core.unitofwork.ProcessingContext | 64 | 2 | 16.88448461381727 |
 | ["Package","Java"] | org.axonframework.common | 32 | 0 | 11.605407781911776 |
-| ["Type","Java","Interface","InternalJavaType","ConnectedInternalJavaType"] | org.axonframework.common.infra.ComponentDescriptor | 64 | 5 | 11.165464275573267 |
-| ["Type","Java","Interface","InternalJavaType","ConnectedInternalJavaType"] | org.axonframework.common.infra.DescribableComponent | 64 | 1 | 11.040244162776043 |
+| ["Type","Java","Interface","InternalJavaType","ConnectedInternalJavaType"] | org.axonframework.common.infra.ComponentDescriptor | 64 | 10 | 11.16546427557327 |
+| ["Type","Java","Interface","InternalJavaType","ConnectedInternalJavaType"] | org.axonframework.common.infra.DescribableComponent | 64 | 3 | 11.040244162776043 |
 | ["Type","Java","Interface","InternalJavaType","ConnectedInternalJavaType"] | org.axonframework.conversion.Converter | 64 | 7 | 10.524578358009311 |
 
 ---

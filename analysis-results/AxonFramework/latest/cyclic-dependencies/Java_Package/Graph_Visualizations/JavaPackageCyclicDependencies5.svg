@@ -26,31 +26,31 @@
 <polygon fill="#6699cc" stroke="#6699cc" stroke-width="0.5" points="394.14,-204.18 396.19,-198.16 390.83,-201.59 394.14,-204.18"/>
 </g>
 <!-- AnnotatedQueryHandlingComponent&#45;&gt;ParameterResolverFactory -->
-<g id="edge11" class="edge">
+<g id="edge9" class="edge">
 <title>AnnotatedQueryHandlingComponent&#45;&gt;ParameterResolverFactory</title>
 <path fill="none" stroke="#6699cc" stroke-width="0.5" d="M105.49,-427.79C56.17,-303.94 55.88,-291.21 108.41,-157.35"/>
 <polygon fill="#6699cc" stroke="#6699cc" stroke-width="0.5" points="110.27,-158.36 110.51,-152.01 106.36,-156.82 110.27,-158.36"/>
 </g>
 <!-- AnnotatedQueryHandlingComponent&#45;&gt;AnnotatedHandlerInspector -->
-<g id="edge3" class="edge">
+<g id="edge2" class="edge">
 <title>AnnotatedQueryHandlingComponent&#45;&gt;AnnotatedHandlerInspector</title>
 <path fill="none" stroke="#6699cc" stroke-width="0.5" d="M109.21,-427.93C94.54,-353.12 97.22,-340.74 149.08,-236.42"/>
 <polygon fill="#6699cc" stroke="#6699cc" stroke-width="0.5" points="150.94,-237.39 151.74,-231.08 147.18,-235.52 150.94,-237.39"/>
 </g>
 <!-- AnnotatedQueryHandlingComponent&#45;&gt;HandlerDefinition -->
-<g id="edge6" class="edge">
+<g id="edge5" class="edge">
 <title>AnnotatedQueryHandlingComponent&#45;&gt;HandlerDefinition</title>
 <path fill="none" stroke="#6699cc" stroke-width="0.5" d="M115.56,-427.81C129.3,-336.21 136.41,-323.6 244.32,-190.02"/>
 <polygon fill="#6699cc" stroke="#6699cc" stroke-width="0.5" points="245.92,-191.38 248.06,-185.39 242.66,-188.74 245.92,-191.38"/>
 </g>
 <!-- QueryHandlingMember&#45;&gt;MessageHandlingMember -->
-<g id="edge5" class="edge">
+<g id="edge6" class="edge">
 <title>QueryHandlingMember&#45;&gt;MessageHandlingMember</title>
 <path fill="none" stroke="#6699cc" stroke-width="0.5" d="M334.73,-302.37C386.55,-251.79 395.87,-240.12 405.08,-204.17"/>
 <polygon fill="#6699cc" stroke="#6699cc" stroke-width="0.5" points="407.1,-204.73 406.5,-198.4 403.03,-203.72 407.1,-204.73"/>
 </g>
 <!-- Query&#45;&gt;Message -->
-<g id="edge9" class="edge">
+<g id="edge11" class="edge">
 <title>Query&#45;&gt;Message</title>
 <path fill="none" stroke="#6699cc" stroke-width="0.5" d="M236.25,-384.21C403.57,-266.68 416.62,-255.06 458.8,-155.44"/>
 <polygon fill="#6699cc" stroke="#6699cc" stroke-width="0.5" points="460.67,-156.42 461.07,-150.07 456.8,-154.78 460.67,-156.42"/>
@@ -92,7 +92,7 @@
 <polygon fill="#6699cc" stroke="#6699cc" stroke-width="0.5" points="470.34,-156.75 468.39,-150.7 466.14,-156.64 470.34,-156.75"/>
 </g>
 <!-- QueryHandler&#45;&gt;MessageHandler -->
-<g id="edge2" class="edge">
+<g id="edge3" class="edge">
 <title>QueryHandler&#45;&gt;MessageHandler</title>
 <path fill="none" stroke="#6699cc" stroke-width="0.5" d="M346.9,-419.77C417.73,-294.44 420.19,-281.79 387.08,-148.22"/>
 <polygon fill="#6699cc" stroke="#6699cc" stroke-width="0.5" points="389.15,-147.82 385.66,-142.5 385.07,-148.83 389.15,-147.82"/>
