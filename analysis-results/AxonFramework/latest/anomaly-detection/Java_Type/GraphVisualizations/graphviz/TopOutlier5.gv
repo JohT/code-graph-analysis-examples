@@ -12,19 +12,23 @@ strict digraph TopOutlier5 {
     central [fontsize = 16;];
     central [color = 7; fillcolor = 5; penwidth = 3;];
 
-	graph   [label="Top Rank #5 Java Type Outlier\norg.axonframework.messaging.core.interception.DefaultDispatchInterceptorRegistry$GenericInterceptorDefinition\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: cluster probability\nlarge circle: < 25% percentile of cluster probability\nthick outline: > 80% percentile of distance to cluster center\n\n"];
-	central [label="🧩 outlier #5\nDefaultDispatchInterceptorRegistry$GenericInterceptorDefinition"];
-	"DefaultDispatchInterceptorRegistry_20920"  [label = "DefaultDispatchInterceptorRegistry\n(40.13%)"; penwidth = 2; ]; "DefaultDispatchInterceptorRegistry_20920" -> central [label=11; weight=11; penwidth=0.6];
-	"Component$Identifier_35449"  [label = "Component$\nIdentifier\n(100.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "Component$Identifier_35449" [label=3; weight=3; penwidth=0.4; color = 5];
-	"Message_6422"  [shape = "circle"; height=1.8; label = "Message\n(0.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "Message_6422" [label=3; weight=3; penwidth=0.4; color = 5];
-	"MessageDispatchInterceptor_6436"  [label = "MessageDispatchInterceptor\n(40.13%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "MessageDispatchInterceptor_6436" [label=3; weight=3; penwidth=0.4; color = 5];
-	"LazyInitializedComponentDefinition_35492"  [shape = "circle"; height=1.8; label = "LazyInitializedComponentDefinition\n(0.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "LazyInitializedComponentDefinition_35492" [label=2; weight=2; penwidth=0.4; color = 5];
-	"ComponentBuilder_35447"  [label = "ComponentBuilder\n(100.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "ComponentBuilder_35447" [label=1; weight=1; penwidth=0.4; color = 5];
-	"DefaultDispatchInterceptorRegistry_20920"  [label = "DefaultDispatchInterceptorRegistry\n(40.13%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "DefaultDispatchInterceptorRegistry_20920" [label=1; weight=1; penwidth=0.4; color = 5];
-	"DefaultDispatchInterceptorRegistry_20920" -> "MessageDispatchInterceptor_6436" [label=34; weight=34; penwidth=0.3; color = 3]
-	"DefaultDispatchInterceptorRegistry_20920" -> "Message_6422" [label=9; weight=9; penwidth=0.3; color = 3]
-	"DefaultDispatchInterceptorRegistry_20920" -> "ComponentBuilder_35447" [label=5; weight=5; penwidth=0.3; color = 3]
-	"LazyInitializedComponentDefinition_35492" -> "ComponentBuilder_35447" [label=4; weight=4; penwidth=0.3; color = 3]
-	"LazyInitializedComponentDefinition_35492" -> "Component$Identifier_35449" [label=2; weight=2; penwidth=0.3; color = 3]
-	"MessageDispatchInterceptor_6436" -> "Message_6422" [label=1; weight=1; penwidth=0.3; color = 3]
+	graph   [label="Top Rank #5 Java Type Outlier\nio.axoniq.framework.axonserver.connector.event.AggregateBasedAxonServerEventStorageEngine$1\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: cluster probability\nlarge circle: < 25% percentile of cluster probability\nthick outline: > 80% percentile of distance to cluster center\n\n"];
+	central [label="🧩 outlier #5\nAggregateBasedAxonServerEventStorageEngine$1"];
+	"AggregateBasedAxonServerEventStorageEngine_29389"  [label = "AggregateBasedAxonServerEventStorageEngine\n(100.0%)"; penwidth = 2; ]; "AggregateBasedAxonServerEventStorageEngine_29389" -> central [label=3; weight=3; penwidth=0.4];
+	"AggregateBasedConsistencyMarker_40560"  [label = "AggregateBasedConsistencyMarker\n(31.67%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "AggregateBasedConsistencyMarker_40560" [label=6; weight=6; penwidth=0.5; color = 5];
+	"AggregateBasedConsistencyMarker$AggregateSequencer_40573"  [label = "AggregateBasedConsistencyMarker$\nAggregateSequencer\n(34.12%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "AggregateBasedConsistencyMarker$AggregateSequencer_40573" [label=4; weight=4; penwidth=0.5; color = 5];
+	"EventStorageEngine$AppendTransaction_40541"  [label = "EventStorageEngine$\nAppendTransaction\n(100.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "EventStorageEngine$AppendTransaction_40541" [label=2; weight=2; penwidth=0.4; color = 5];
+	"AggregateBasedAxonServerEventStorageEngine_29389"  [label = "AggregateBasedAxonServerEventStorageEngine\n(100.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "AggregateBasedAxonServerEventStorageEngine_29389" [label=1; weight=1; penwidth=0.4; color = 5];
+	"AggregateBasedEventStorageEngineUtils_41967"  [shape = "circle"; height=1.8; label = "AggregateBasedEventStorageEngineUtils\n(0.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "AggregateBasedEventStorageEngineUtils_41967" [label=1; weight=1; penwidth=0.4; color = 5];
+	"ConsistencyMarker_40536"  [label = "ConsistencyMarker\n(100.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "ConsistencyMarker_40536" [label=1; weight=1; penwidth=0.4; color = 5];
+	"AggregateBasedAxonServerEventStorageEngine_29389" -> "AggregateBasedConsistencyMarker_40560" [label=7; weight=7; penwidth=0.3; color = 3]
+	"AggregateBasedAxonServerEventStorageEngine_29389" -> "ConsistencyMarker_40536" [label=5; weight=5; penwidth=0.3; color = 3]
+	"AggregateBasedConsistencyMarker$AggregateSequencer_40573" -> "AggregateBasedConsistencyMarker_40560" [label=5; weight=5; penwidth=0.3; color = 3]
+	"AggregateBasedAxonServerEventStorageEngine_29389" -> "AggregateBasedEventStorageEngineUtils_41967" [label=4; weight=4; penwidth=0.3; color = 3]
+	"AggregateBasedConsistencyMarker_40560" -> "ConsistencyMarker_40536" [label=4; weight=4; penwidth=0.3; color = 3]
+	"AggregateBasedConsistencyMarker_40560" -> "AggregateBasedConsistencyMarker$AggregateSequencer_40573" [label=4; weight=4; penwidth=0.3; color = 3]
+	"AggregateBasedAxonServerEventStorageEngine_29389" -> "AggregateBasedConsistencyMarker$AggregateSequencer_40573" [label=3; weight=3; penwidth=0.3; color = 3]
+	"AggregateBasedAxonServerEventStorageEngine_29389" -> "EventStorageEngine$AppendTransaction_40541" [label=2; weight=2; penwidth=0.3; color = 3]
+	"AggregateBasedEventStorageEngineUtils_41967" -> "ConsistencyMarker_40536" [label=2; weight=2; penwidth=0.3; color = 3]
+	"EventStorageEngine$AppendTransaction_40541" -> "ConsistencyMarker_40536" [label=1; weight=1; penwidth=0.3; color = 3]
 }
