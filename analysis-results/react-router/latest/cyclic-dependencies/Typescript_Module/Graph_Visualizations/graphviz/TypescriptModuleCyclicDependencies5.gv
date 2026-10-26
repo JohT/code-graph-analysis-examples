@@ -42,8 +42,8 @@ strict digraph cycle {
     "fetchAndApplyManifestPatches" -> "RouteModules" [color="#6699CC"; penwidth="0.5"];
     "getPartialManifest" -> "Router" [color="#6699CC"; penwidth="0.5"];
     "getPatchRoutesOnNavigationFunction_pkg" -> "createPath" [color="#6699CC"; penwidth="0.5"];
-    "getPartialManifest" -> "RouterState" [color="#6699CC"; penwidth="0.5"];
     "getPatchRoutesOnNavigationFunction_pkg" -> "RouterState" [color="#6699CC"; penwidth="0.5"];
+    "getPartialManifest" -> "RouterState" [color="#6699CC"; penwidth="0.5"];
     "getPartialManifest" -> "AssetsManifest" [color="#6699CC"; penwidth="0.5"];
     "useFogOFWarDiscovery_pkg" -> "RouteModules" [color="#6699CC"; penwidth="0.5"];
     "getPatchRoutesOnNavigationFunction_pkg" -> "PatchRoutesOnNavigationFunction" [color="#6699CC"; penwidth="0.5"];
