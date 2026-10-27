@@ -1,6 +1,6 @@
 ---
 title: "Cyclic Dependencies Report"
-generated: "2026-10-26"
+generated: "2026-10-27"
 model_version: "v4.0.2"
 dataset: "AxonFramework-5.1.2"
 authors: ["JohT/code-graph-analysis-pipeline"]
