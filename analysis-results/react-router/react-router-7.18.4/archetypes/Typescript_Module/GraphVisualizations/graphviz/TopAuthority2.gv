@@ -12,10 +12,9 @@ strict digraph TopAuthority2 {
     central [fontsize = 16;];
     central [color = 7; fillcolor = 5; penwidth = 3;];
 
-	graph   [label="Top Rank #2 Typescript Module Authority\n/home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.18.4/source/react-router-7.18.4/packages/react-router-dev/routes.ts\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: Page Rank (normalized)\nlarge circle: > 80% percentile of Page Rank\nthick outline: > 80% percentile of Page Rank to Article Rank Difference\n\n"];
-	central [label="🏛️ authority #2\nroutes"];
-	"routes_97061"  [shape = "circle"; height=2; label = "routes\n(56.54%)"; penwidth = 5; ]; "routes_97061" -> central [label=786; weight=786; penwidth=0.5];
-	"virtual-route-config_97099"  [label = "virtual-route-config\n(0.05%)"; penwidth = 2; ]; "virtual-route-config_97099" -> central [label=37; weight=37; penwidth=0.4];
-	"routes_97061"  [shape = "circle"; height=2; label = "routes\n(56.54%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "routes_97061" [label=6; weight=6; penwidth=0.4; color = 5];
-	"virtual-route-config_97099" -> "routes_97061" [label=37; weight=37; penwidth=0.3; color = 3]
+	graph   [label="Top Rank #2 Typescript Module Authority\n/home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.18.4/source/react-router-7.18.4/packages/react-router/lib/router/url.ts\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: Page Rank (normalized)\nlarge circle: > 80% percentile of Page Rank\nthick outline: > 80% percentile of Page Rank to Article Rank Difference\n\n"];
+	central [label="🏛️ authority #2\nurl"];
+	"utils_98347"  [shape = "circle"; height=2; label = "utils\n(43.56%)"; penwidth = 2; ]; "utils_98347" -> central [label=4; weight=4; penwidth=0.4];
+	"router_98345"  [label = "router\n(11.91%)"; penwidth = 2; ]; "router_98345" -> central [label=3; weight=3; penwidth=0.4];
+	"router_98345" -> "utils_98347" [label=230; weight=230; penwidth=0.3; color = 3]
 }

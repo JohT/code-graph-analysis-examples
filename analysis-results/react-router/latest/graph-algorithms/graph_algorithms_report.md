@@ -1,7 +1,7 @@
 ---
 title: "Graph Algorithms Report"
-generated: "2026-10-27"
-model_version: "v4.0.2"
+generated: "2026-11-01"
+model_version: "v5.0.0"
 dataset: "react-router-7.18.4"
 authors: ["JohT/code-graph-analysis-pipeline"]
 ---
@@ -35,46 +35,46 @@ High PageRank = depended on by many important nodes. High betweenness = bridge b
 
 | nodeLabels | nodeName | pageRankScore |
 | --- | --- | --- |
-| ["TS","Local","Module"] | ./index.ts | 8.003663837757346 |
-| ["TS","Local","Module"] | ./index-react-server.ts | 6.102978257811217 |
-| ["TS","Local","Module"] | ./config/routes.ts | 4.590541454489806 |
-| ["TS","Local","Module"] | ./routes.ts | 4.117128388905979 |
-| ["TS","Local","Module"] | ./lib/router/utils.ts | 3.7219434709082964 |
-| ["TS","Local","Module"] | ./lib/rsc/server.rsc.ts | 2.8053598178527768 |
-| ["TS","Local","Module"] | ./lib/router/router.ts | 1.6175603703714025 |
-| ["TS","Local","Module"] | ./config/config.ts | 1.3778280655650803 |
-| ["TS","Local","Module"] | ./utils.ts | 1.2457147505432433 |
-| ["TS","Local","Module"] | ./lib/router/history.ts | 1.2335277462850367 |
+| ["TS","Local","Module"] | ./config/routes.ts | 4.521835360658178 |
+| ["TS","Local","Module"] | ./routes.ts | 4.058809050094733 |
+| ["TS","Local","Module"] | ./lib/router/url.ts | 2.189948927363485 |
+| ["TS","Local","Module"] | ./lib/router/history.ts | 2.1726310617196747 |
+| ["TS","Local","Module"] | ./lib/router/utils.ts | 2.0545285811791114 |
+| ["TS","Local","Module"] | ./utils.ts | 1.2310670442525808 |
+| ["TS","Local","Module"] | ./config/is-react-router-repo.ts | 1.1421281906923575 |
+| ["TS","Local","Module"] | ./index.ts | 0.9997042353362876 |
+| ["TS","Local","Module"] | ./server.ts | 0.9997042353362876 |
+| ["TS","Local","Module"] | ./vite/vite.ts | 0.9487072964079414 |
 
 ### 2.2 Top Nodes by ArticleRank
 
 | nodeLabels | nodeName | articleRankScore |
 | --- | --- | --- |
-| ["TS","Local","Module"] | ./index.ts | 6.735317512461596 |
-| ["TS","Local","Module"] | ./index-react-server.ts | 5.134700072687087 |
-| ["TS","Local","Module"] | ./lib/router/utils.ts | 3.179606844182068 |
-| ["TS","Local","Module"] | ./lib/rsc/server.rsc.ts | 2.2515967328811612 |
-| ["TS","Local","Module"] | ./config/routes.ts | 2.009284159168137 |
-| ["TS","Local","Module"] | ./routes.ts | 1.91519143210542 |
-| ["TS","Local","Module"] | ./lib/router/router.ts | 1.3791189106599886 |
-| ["TS","Local","Module"] | ./utils.ts | 1.1885097927221095 |
-| ["TS","Local","Module"] | ./lib/router/history.ts | 1.0684587533134795 |
-| ["TS","Local","Module"] | ./vite/vite.ts | 0.6962855596746846 |
+| ["TS","Local","Module"] | ./config/routes.ts | 1.8809882288177266 |
+| ["TS","Local","Module"] | ./routes.ts | 1.7767260866669135 |
+| ["TS","Local","Module"] | ./lib/router/history.ts | 1.4102754234583277 |
+| ["TS","Local","Module"] | ./lib/router/utils.ts | 1.3389968349317953 |
+| ["TS","Local","Module"] | ./utils.ts | 1.2111837353332375 |
+| ["TS","Local","Module"] | ./vite/vite.ts | 0.6634183538942674 |
+| ["TS","Local","Module"] | ./lib/router/url.ts | 0.633573298779074 |
+| ["Package","Json","NPM","NpmNonDevPackage"] | /home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.18.4/./source/react-router-7.18.4/packages/react-router/package.json | 0.6210063135297951 |
+| ["TS","Local","Module"] | ./lib/router/router.ts | 0.5119785467651081 |
+| ["TS","Local","Module"] | ./vendor/turbo-stream-v2/utils.ts | 0.49217418688088044 |
 
 ### 2.3 Top Nodes by Betweenness Centrality
 
 | nodeLabels | nodeName | betweennessScore |
 | --- | --- | --- |
-| ["TS","Local","Module"] | ./index.ts | 1315 |
-| ["TS","Local","Module"] | ./lib/server-runtime/server.ts | 566.5 |
-| ["TS","Local","Module"] | ./dom-export.ts | 490 |
-| ["TS","Local","Module"] | ./index-react-server.ts | 443 |
-| ["TS","Local","Module"] | ./lib/types/route-data.ts | 373.5 |
-| ["TS","Local","Module"] | ./lib/dom/ssr/routeModules.ts | 360.5 |
-| ["TS","Local","Module"] | ./lib/server-runtime/routes.ts | 235.5 |
-| ["TS","Local","Module"] | ./lib/server-runtime/single-fetch.ts | 142 |
-| ["TS","Local","Module"] | ./lib/dom/ssr/entry.ts | 140 |
-| ["TS","Local","Module"] | ./lib/router/instrumentation.ts | 139 |
+| ["TS","Local","Module"] | ./lib/router/instrumentation.ts | 444.5 |
+| ["TS","Local","Module"] | ./lib/router/router.ts | 424 |
+| ["TS","Local","Module"] | ./lib/server-runtime/server.ts | 411 |
+| ["TS","Local","Module"] | ./lib/dom/ssr/entry.ts | 385 |
+| ["TS","Local","Module"] | ./lib/server-runtime/data.ts | 166 |
+| ["TS","Local","Module"] | ./lib/dom/ssr/routeModules.ts | 130.5 |
+| ["TS","Local","Module"] | ./lib/types/route-data.ts | 108.5 |
+| ["TS","Local","Module"] | ./vite/plugin.ts | 97.5 |
+| ["TS","Local","Module"] | ./lib/server-runtime/single-fetch.ts | 96 |
+| ["TS","Local","Module"] | ./lib/server-runtime/routes.ts | 79 |
 
 ---
 
@@ -86,16 +86,16 @@ High community sizes may indicate monolithic modules; many small = well-modulari
 
 | communityId | communitySize |
 | --- | --- |
-| 16 | 45 |
-| 2 | 22 |
-| 15 | 10 |
-| 1 | 7 |
-| 6 | 7 |
-| 7 | 6 |
-| 0 | 4 |
-| 9 | 4 |
-| 13 | 4 |
+| 9 | 45 |
+| 10 | 43 |
+| 3 | 10 |
+| 1 | 4 |
+| 4 | 4 |
+| 7 | 4 |
 | 17 | 4 |
+| 0 | 3 |
+| 8 | 3 |
+| 5 | 2 |
 
 ### 3.2 Strongly Connected Components (SCC)
 
@@ -103,16 +103,16 @@ Components with more than one member = circular dependencies.
 
 | componentId | componentSize |
 | --- | --- |
-| 0 | 36 |
-| 85 | 2 |
-| 42 | 2 |
-| 40 | 2 |
-| 65 | 2 |
-| 83 | 2 |
-| 24 | 2 |
+| 76 | 18 |
+| 20 | 2 |
+| 22 | 2 |
+| 53 | 2 |
+| 3 | 2 |
+| 0 | 2 |
+| 30 | 2 |
+| 28 | 2 |
 | 6 | 1 |
-| 5 | 1 |
-| 2 | 1 |
+| 11 | 1 |
 
 ### 3.3 Weakly Connected Components (WCC)
 
@@ -120,15 +120,15 @@ Weakly connected components identify isolated clusters of code units.
 
 | componentId | componentSize |
 | --- | --- |
-| 0 | 53 |
+| 10 | 51 |
 | 9 | 45 |
-| 8 | 10 |
-| 6 | 4 |
-| 10 | 4 |
-| 3 | 3 |
-| 11 | 3 |
+| 3 | 10 |
+| 1 | 4 |
+| 4 | 4 |
+| 7 | 4 |
+| 0 | 3 |
+| 8 | 3 |
 | 5 | 2 |
-| 1 | 1 |
 | 2 | 1 |
 
 ### 3.4 Local Clustering Coefficient
@@ -148,13 +148,13 @@ Jaccard similarity: code units sharing common dependencies. High = potential dup
 
 | sourceNodeLabels | sourceNodeName | targetNodeLabels | targetNodeName | similarityScore |
 | --- | --- | --- | --- | --- |
-| ["TS","Local","Module"] | ./prompts-text.ts | ["TS","Local","Module"] | ./prompts-confirm.ts | 1 |
+| ["TS","Local","Module"] | ./lib/dom/ssr/routeModules.ts | ["TS","Local","Module"] | ./lib/server-runtime/routeMatching.ts | 1 |
 | ["TS","Local","Module"] | ./prompts-confirm.ts | ["TS","Local","Module"] | ./prompts-text.ts | 1 |
+| ["TS","Local","Module"] | ./index-react-server-client.ts | ["TS","Local","Module"] | ./lib/router/navigation.ts | 1 |
 | ["TS","Local","Module"] | ./vite/vite.ts | ["TS","Local","Module"] | ./vite/ssr-externals.ts | 1 |
+| ["TS","Local","Module"] | ./prompts-text.ts | ["TS","Local","Module"] | ./prompts-confirm.ts | 1 |
+| ["TS","Local","Module"] | ./lib/server-runtime/routeMatching.ts | ["TS","Local","Module"] | ./lib/dom/ssr/routeModules.ts | 1 |
+| ["TS","Local","Module"] | ./lib/router/navigation.ts | ["TS","Local","Module"] | ./index-react-server-client.ts | 1 |
 | ["TS","Local","Module"] | ./vite/ssr-externals.ts | ["TS","Local","Module"] | ./vite/vite.ts | 1 |
-| ["TS","Local","Module"] | ./prompts-select.ts | ["TS","Local","Module"] | ./prompts-multi-select.ts | 0.9314516129032258 |
-| ["TS","Local","Module"] | ./prompts-multi-select.ts | ["TS","Local","Module"] | ./prompts-select.ts | 0.9314516129032258 |
-| ["TS","Local","Module"] | ./vendor/turbo-stream-v2/flatten.ts | ["TS","Local","Module"] | ./vendor/turbo-stream-v2/unflatten.ts | 0.8702928870292888 |
-| ["TS","Local","Module"] | ./vendor/turbo-stream-v2/unflatten.ts | ["TS","Local","Module"] | ./vendor/turbo-stream-v2/flatten.ts | 0.8702928870292888 |
-| ["TS","Local","Module"] | ./copy-template.ts | ["TS","Local","Module"] | ./prompts-prompt-base.ts | 0.8333333333333334 |
-| ["TS","Local","Module"] | ./prompts-prompt-base.ts | ["TS","Local","Module"] | ./copy-template.ts | 0.8333333333333334 |
+| ["TS","Local","Module"] | ./prompts-select.ts | ["TS","Local","Module"] | ./prompts-multi-select.ts | 0.9488054607508533 |
+| ["TS","Local","Module"] | ./prompts-multi-select.ts | ["TS","Local","Module"] | ./prompts-select.ts | 0.9488054607508533 |

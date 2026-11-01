@@ -12,14 +12,23 @@ strict digraph TopBottleneck5 {
     central [fontsize = 16;];
     central [color = 7; fillcolor = 5; penwidth = 3;];
 
-	graph   [label="Top Rank #5 Typescript Module Bottleneck\n/home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.18.4/source/react-router-7.18.4/packages/react-router/lib/types/route-data.ts\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: Betweenness centrality\nthick outline: > 90% percentile of Betweenness centrality\n\n"];
-	central [label="🔒 bottleneck #5\nroute-data"];
-	"routeModules_86568"  [label = "routeModules\n(360.5)"; penwidth = 2; ]; "routeModules_86568" -> central [label=6; weight=6; penwidth=0.4];
-	"route-module_86612"  [label = "route-module\n(38.0)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "route-module_86612" [label=6; weight=6; penwidth=0.4; color = 5];
-	"data_86587"  [label = "data\n(3.0)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "data_86587" [label=3; weight=3; penwidth=0.4; color = 5];
-	"react-router_86550"  [label = "react-router\n(1315.0)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "react-router_86550" [label=3; weight=3; penwidth=0.4; color = 5];
-	"data_86587" -> "react-router_86550" [label=689; weight=689; penwidth=0.3; color = 3]
-	"routeModules_86568" -> "react-router_86550" [label=182; weight=182; penwidth=0.3; color = 3]
-	"react-router_86550" -> "routeModules_86568" [label=3; weight=3; penwidth=0.3; color = 3]
-	"react-router_86550" -> "data_86587" [label=0; weight=0; penwidth=0.3; color = 3]
+	graph   [label="Top Rank #5 Typescript Module Bottleneck\n/home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.18.4/source/react-router-7.18.4/packages/react-router/lib/server-runtime/data.ts\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: Betweenness centrality\nthick outline: > 90% percentile of Betweenness centrality\n\n"];
+	central [label="🔒 bottleneck #5\ndata"];
+	"routes_98366"  [label = "routes\n(79.0)"; penwidth = 2; ]; "routes_98366" -> central [label=2; weight=2; penwidth=0.4];
+	"react-router_98321"  [label = "react-router\n(0.0)"; penwidth = 2; ]; "react-router_98321" -> central [label=0; weight=0; penwidth=0.4];
+	"single-fetch_98370"  [label = "single-fetch\n(96.0)"; penwidth = 2; ]; "single-fetch_98370" -> central [label=0; weight=0; penwidth=0.4];
+	"utils_98347"  [label = "utils\n(6.0)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "utils_98347" [label=5; weight=5; penwidth=0.4; color = 5];
+	"router_98345"  [label = "router\n(424.0)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "router_98345" [label=2; weight=2; penwidth=0.4; color = 5];
+	"entry_98334"  [label = "entry\n(385.0)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "entry_98334" [label=0; weight=0; penwidth=0.4; color = 5];
+	"router_98345" -> "utils_98347" [label=230; weight=230; penwidth=0.3; color = 3]
+	"react-router_98321" -> "utils_98347" [label=21; weight=21; penwidth=0.3; color = 3]
+	"single-fetch_98370" -> "router_98345" [label=10; weight=10; penwidth=0.3; color = 3]
+	"react-router_98321" -> "router_98345" [label=8; weight=8; penwidth=0.3; color = 3]
+	"single-fetch_98370" -> "utils_98347" [label=8; weight=8; penwidth=0.3; color = 3]
+	"routes_98366" -> "utils_98347" [label=3; weight=3; penwidth=0.3; color = 3]
+	"entry_98334" -> "utils_98347" [label=1; weight=1; penwidth=0.3; color = 3]
+	"single-fetch_98370" -> "entry_98334" [label=1; weight=1; penwidth=0.3; color = 3]
+	"entry_98334" -> "router_98345" [label=0; weight=0; penwidth=0.3; color = 3]
+	"react-router_98321" -> "entry_98334" [label=0; weight=0; penwidth=0.3; color = 3]
+	"routes_98366" -> "entry_98334" [label=0; weight=0; penwidth=0.3; color = 3]
 }

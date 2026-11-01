@@ -1,7 +1,7 @@
 ---
 title: "Node Embeddings Report"
-generated: "2026-10-27"
-model_version: "v4.0.2"
+generated: "2026-11-01"
+model_version: "v5.0.0"
 dataset: "react-router-7.18.4"
 authors: ["JohT/code-graph-analysis-pipeline"]
 ---
@@ -49,16 +49,16 @@ Useful to verify that the embedding pipeline ran end-to-end and that the propert
 
 | nodeLabels | nodeName | embeddingDimensions | communityLeidenId | pageRankScore |
 | --- | --- | --- | --- | --- |
-| ["TS","Local","Module"] | ./index.ts | 32 | 2 | 8.003663837757346 |
-| ["TS","Local","Module"] | ./index-react-server.ts | 32 | 1 | 6.102978257811217 |
-| ["TS","Local","Module"] | ./config/routes.ts | 32 | 16 | 4.590541454489806 |
-| ["TS","Local","Module"] | ./routes.ts | 32 | 16 | 4.117128388905979 |
-| ["TS","Local","Module"] | ./lib/router/utils.ts | 32 | 1 | 3.7219434709082964 |
-| ["TS","Local","Module"] | ./lib/rsc/server.rsc.ts | 32 | 0 | 2.8053598178527768 |
-| ["TS","Local","Module"] | ./lib/router/router.ts | 32 | 1 | 1.6175603703714025 |
-| ["TS","Local","Module"] | ./config/config.ts | 32 | 16 | 1.3778280655650803 |
-| ["TS","Local","Module"] | ./utils.ts | 32 | 15 | 1.2457147505432433 |
-| ["TS","Local","Module"] | ./lib/router/history.ts | 32 | 2 | 1.2335277462850367 |
+| ["TS","Local","Module"] | ./config/routes.ts | 32 | 9 | 4.521835360658178 |
+| ["TS","Local","Module"] | ./routes.ts | 32 | 9 | 4.058809050094733 |
+| ["TS","Local","Module"] | ./lib/router/url.ts | 32 | 10 | 2.189948927363485 |
+| ["TS","Local","Module"] | ./lib/router/history.ts | 32 | 10 | 2.1726310617196747 |
+| ["TS","Local","Module"] | ./lib/router/utils.ts | 32 | 10 | 2.0545285811791114 |
+| ["TS","Local","Module"] | ./utils.ts | 32 | 3 | 1.2310670442525808 |
+| ["TS","Local","Module"] | ./config/is-react-router-repo.ts | 32 | 9 | 1.1421281906923575 |
+| ["TS","Local","Module"] | ./server.ts | 32 | 5 | 0.9997042353362876 |
+| ["TS","Local","Module"] | ./index.ts | 32 | 5 | 0.9997042353362876 |
+| ["TS","Local","Module"] | ./vite/vite.ts | 32 | 9 | 0.9487072964079414 |
 
 ---
 

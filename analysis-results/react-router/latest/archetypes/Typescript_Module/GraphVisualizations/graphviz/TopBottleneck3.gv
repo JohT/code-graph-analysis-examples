@@ -12,19 +12,84 @@ strict digraph TopBottleneck3 {
     central [fontsize = 16;];
     central [color = 7; fillcolor = 5; penwidth = 3;];
 
-	graph   [label="Top Rank #3 Typescript Module Bottleneck\n/home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.18.4/source/react-router-7.18.4/packages/react-router/dom-export.ts\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: Betweenness centrality\nthick outline: > 90% percentile of Betweenness centrality\n\n"];
-	central [label="🔒 bottleneck #3\ndom-export"];
-	"server_86579"  [label = "server\n(132.0)"; penwidth = 2; ]; "server_86579" -> central [label=1014; weight=1014; penwidth=0.6];
-	"react-router_86550"  [label = "react-router\n(1315.0)"; penwidth = 5; ]; "react-router_86550" -> central [label=1; weight=1; penwidth=0.4];
-	"react-router_86549"  [label = "react-router\n(443.0)"; penwidth = 2; ]; "react-router_86549" -> central [label=1; weight=1; penwidth=0.4];
-	"browser_86580"  [label = "browser\n(0.0)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "browser_86580" [label=1; weight=1; penwidth=0.4; color = 5];
-	"react-router_86549"  [label = "react-router\n(443.0)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "react-router_86549" [label=1; weight=1; penwidth=0.4; color = 5];
-	"react-router_86550"  [label = "react-router\n(1315.0)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "react-router_86550" [label=1; weight=1; penwidth=0.4; color = 5];
-	"server_86579"  [label = "server\n(132.0)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "server_86579" [label=1; weight=1; penwidth=0.4; color = 5];
-	"server_86579" -> "react-router_86550" [label=2197; weight=2197; penwidth=0.3; color = 3]
-	"server_86579" -> "react-router_86549" [label=130; weight=130; penwidth=0.3; color = 3]
-	"react-router_86550" -> "react-router_86549" [label=44; weight=44; penwidth=0.3; color = 3]
-	"react-router_86550" -> "server_86579" [label=29; weight=29; penwidth=0.3; color = 3]
-	"react-router_86549" -> "react-router_86550" [label=18; weight=18; penwidth=0.3; color = 3]
-	"react-router_86549" -> "server_86579" [label=9; weight=9; penwidth=0.3; color = 3]
+	graph   [label="Top Rank #3 Typescript Module Bottleneck\n/home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.18.4/source/react-router-7.18.4/packages/react-router/lib/server-runtime/server.ts\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: Betweenness centrality\nthick outline: > 90% percentile of Betweenness centrality\n\n"];
+	central [label="🔒 bottleneck #3\nserver"];
+	"react-router_98321"  [label = "react-router\n(0.0)"; penwidth = 2; ]; "react-router_98321" -> central [label=1; weight=1; penwidth=0.4];
+	"mode_98364"  [label = "mode\n(0.0)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "mode_98364" [label=19; weight=19; penwidth=0.4; color = 5];
+	"build_98354"  [label = "build\n(53.5)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "build_98354" [label=18; weight=18; penwidth=0.4; color = 5];
+	"router_98345"  [label = "router\n(424.0)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "router_98345" [label=18; weight=18; penwidth=0.4; color = 5];
+	"utils_98347"  [label = "utils\n(6.0)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "utils_98347" [label=15; weight=15; penwidth=0.4; color = 5];
+	"single-fetch_98370"  [label = "single-fetch\n(96.0)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "single-fetch_98370" [label=7; weight=7; penwidth=0.4; color = 5];
+	"errors_98361"  [label = "errors\n(23.0)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "errors_98361" [label=5; weight=5; penwidth=0.4; color = 5];
+	"dev_98359"  [label = "dev\n(0.0)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "dev_98359" [label=4; weight=4; penwidth=0.4; color = 5];
+	"routeMatching_98365"  [label = "routeMatching\n(0.0)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "routeMatching_98365" [label=3; weight=3; penwidth=0.4; color = 5];
+	"urls_98371"  [label = "urls\n(0.0)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "urls_98371" [label=3; weight=3; penwidth=0.4; color = 5];
+	"fog-of-war_98335"  [label = "fog-of-war\n(0.0)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "fog-of-war_98335" [label=2; weight=2; penwidth=0.4; color = 5];
+	"serverHandoff_98368"  [label = "serverHandoff\n(24.0)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "serverHandoff_98368" [label=2; weight=2; penwidth=0.4; color = 5];
+	"actions_98324"  [label = "actions\n(0.0)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "actions_98324" [label=1; weight=1; penwidth=0.4; color = 5];
+	"data_98358"  [label = "data\n(166.0)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "data_98358" [label=1; weight=1; penwidth=0.4; color = 5];
+	"entry_98360"  [label = "entry\n(11.0)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "entry_98360" [label=1; weight=1; penwidth=0.4; color = 5];
+	"entry_98334"  [label = "entry\n(385.0)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "entry_98334" [label=1; weight=1; penwidth=0.4; color = 5];
+	"headers_98362"  [label = "headers\n(59.0)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "headers_98362" [label=1; weight=1; penwidth=0.4; color = 5];
+	"instrumentation_98342"  [label = "instrumentation\n(444.5)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "instrumentation_98342" [label=1; weight=1; penwidth=0.4; color = 5];
+	"routes_98366"  [label = "routes\n(79.0)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "routes_98366" [label=1; weight=1; penwidth=0.4; color = 5];
+	"future_98376"  [label = "future\n(0.0)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "future_98376" [label=0; weight=0; penwidth=0.4; color = 5];
+	"history_98340"  [label = "history\n(23.0)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "history_98340" [label=0; weight=0; penwidth=0.4; color = 5];
+	"router_98345" -> "utils_98347" [label=230; weight=230; penwidth=0.3; color = 3]
+	"router_98345" -> "history_98340" [label=147; weight=147; penwidth=0.3; color = 3]
+	"utils_98347" -> "history_98340" [label=33; weight=33; penwidth=0.3; color = 3]
+	"react-router_98321" -> "utils_98347" [label=21; weight=21; penwidth=0.3; color = 3]
+	"react-router_98321" -> "history_98340" [label=10; weight=10; penwidth=0.3; color = 3]
+	"single-fetch_98370" -> "router_98345" [label=10; weight=10; penwidth=0.3; color = 3]
+	"react-router_98321" -> "router_98345" [label=8; weight=8; penwidth=0.3; color = 3]
+	"single-fetch_98370" -> "utils_98347" [label=8; weight=8; penwidth=0.3; color = 3]
+	"single-fetch_98370" -> "mode_98364" [label=7; weight=7; penwidth=0.3; color = 3]
+	"errors_98361" -> "mode_98364" [label=6; weight=6; penwidth=0.3; color = 3]
+	"data_98358" -> "utils_98347" [label=5; weight=5; penwidth=0.3; color = 3]
+	"fog-of-war_98335" -> "router_98345" [label=4; weight=4; penwidth=0.3; color = 3]
+	"instrumentation_98342" -> "history_98340" [label=4; weight=4; penwidth=0.3; color = 3]
+	"instrumentation_98342" -> "router_98345" [label=4; weight=4; penwidth=0.3; color = 3]
+	"instrumentation_98342" -> "utils_98347" [label=4; weight=4; penwidth=0.3; color = 3]
+	"router_98345" -> "instrumentation_98342" [label=4; weight=4; penwidth=0.3; color = 3]
+	"single-fetch_98370" -> "build_98354" [label=4; weight=4; penwidth=0.3; color = 3]
+	"fog-of-war_98335" -> "utils_98347" [label=3; weight=3; penwidth=0.3; color = 3]
+	"routeMatching_98365" -> "utils_98347" [label=3; weight=3; penwidth=0.3; color = 3]
+	"routes_98366" -> "utils_98347" [label=3; weight=3; penwidth=0.3; color = 3]
+	"single-fetch_98370" -> "errors_98361" [label=3; weight=3; penwidth=0.3; color = 3]
+	"data_98358" -> "router_98345" [label=2; weight=2; penwidth=0.3; color = 3]
+	"errors_98361" -> "utils_98347" [label=2; weight=2; penwidth=0.3; color = 3]
+	"fog-of-war_98335" -> "entry_98334" [label=2; weight=2; penwidth=0.3; color = 3]
+	"headers_98362" -> "router_98345" [label=2; weight=2; penwidth=0.3; color = 3]
+	"react-router_98321" -> "fog-of-war_98335" [label=2; weight=2; penwidth=0.3; color = 3]
+	"routes_98366" -> "data_98358" [label=2; weight=2; penwidth=0.3; color = 3]
+	"single-fetch_98370" -> "headers_98362" [label=2; weight=2; penwidth=0.3; color = 3]
+	"single-fetch_98370" -> "urls_98371" [label=2; weight=2; penwidth=0.3; color = 3]
+	"urls_98371" -> "utils_98347" [label=2; weight=2; penwidth=0.3; color = 3]
+	"entry_98334" -> "utils_98347" [label=1; weight=1; penwidth=0.3; color = 3]
+	"fog-of-war_98335" -> "history_98340" [label=1; weight=1; penwidth=0.3; color = 3]
+	"react-router_98321" -> "mode_98364" [label=1; weight=1; penwidth=0.3; color = 3]
+	"react-router_98321" -> "instrumentation_98342" [label=1; weight=1; penwidth=0.3; color = 3]
+	"react-router_98321" -> "build_98354" [label=1; weight=1; penwidth=0.3; color = 3]
+	"react-router_98321" -> "dev_98359" [label=1; weight=1; penwidth=0.3; color = 3]
+	"routes_98366" -> "dev_98359" [label=1; weight=1; penwidth=0.3; color = 3]
+	"single-fetch_98370" -> "entry_98334" [label=1; weight=1; penwidth=0.3; color = 3]
+	"single-fetch_98370" -> "actions_98324" [label=1; weight=1; penwidth=0.3; color = 3]
+	"build_98354" -> "instrumentation_98342" [label=0; weight=0; penwidth=0.3; color = 3]
+	"build_98354" -> "entry_98334" [label=0; weight=0; penwidth=0.3; color = 3]
+	"build_98354" -> "routes_98366" [label=0; weight=0; penwidth=0.3; color = 3]
+	"data_98358" -> "entry_98334" [label=0; weight=0; penwidth=0.3; color = 3]
+	"entry_98360" -> "routes_98366" [label=0; weight=0; penwidth=0.3; color = 3]
+	"entry_98334" -> "router_98345" [label=0; weight=0; penwidth=0.3; color = 3]
+	"headers_98362" -> "utils_98347" [label=0; weight=0; penwidth=0.3; color = 3]
+	"headers_98362" -> "build_98354" [label=0; weight=0; penwidth=0.3; color = 3]
+	"instrumentation_98342" -> "data_98358" [label=0; weight=0; penwidth=0.3; color = 3]
+	"react-router_98321" -> "future_98376" [label=0; weight=0; penwidth=0.3; color = 3]
+	"react-router_98321" -> "entry_98334" [label=0; weight=0; penwidth=0.3; color = 3]
+	"react-router_98321" -> "data_98358" [label=0; weight=0; penwidth=0.3; color = 3]
+	"routeMatching_98365" -> "routes_98366" [label=0; weight=0; penwidth=0.3; color = 3]
+	"routes_98366" -> "entry_98334" [label=0; weight=0; penwidth=0.3; color = 3]
+	"serverHandoff_98368" -> "entry_98334" [label=0; weight=0; penwidth=0.3; color = 3]
+	"single-fetch_98370" -> "data_98358" [label=0; weight=0; penwidth=0.3; color = 3]
+	"urls_98371" -> "history_98340" [label=0; weight=0; penwidth=0.3; color = 3]
+	"urls_98371" -> "entry_98334" [label=0; weight=0; penwidth=0.3; color = 3]
 }

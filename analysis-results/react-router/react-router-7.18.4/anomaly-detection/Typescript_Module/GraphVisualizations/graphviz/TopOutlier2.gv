@@ -12,11 +12,9 @@ strict digraph TopOutlier2 {
     central [fontsize = 16;];
     central [color = 7; fillcolor = 5; penwidth = 3;];
 
-	graph   [label="Top Rank #2 Typescript Module Outlier\n/home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.18.4/source/react-router-7.18.4/packages/react-router-dev/vite/dev.ts\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: cluster probability\nlarge circle: < 25% percentile of cluster probability\nthick outline: > 80% percentile of distance to cluster center\n\n"];
-	central [label="🧩 outlier #2\ndev"];
-	"commands_97051"  [label = "commands\n(11.17%)"; penwidth = 2; ]; "commands_97051" -> central [label=5; weight=5; penwidth=0.4];
-	"profiler_97082"  [shape = "circle"; height=1.8; label = "profiler\n(2.88%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "profiler_97082" [label=12; weight=12; penwidth=0.4; color = 5];
-	"vite_97091"  [label = "vite\n(89.29%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "vite_97091" [label=8; weight=8; penwidth=0.4; color = 5];
-	"commands_97051" -> "profiler_97082" [label=16; weight=16; penwidth=0.3; color = 3]
-	"commands_97051" -> "vite_97091" [label=8; weight=8; penwidth=0.3; color = 3]
+	graph   [label="Top Rank #2 Typescript Module Outlier\n/home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.18.4/source/react-router-7.18.4/packages/react-router/lib/server-runtime/warnings.ts\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: cluster probability\nlarge circle: < 25% percentile of cluster probability\nthick outline: > 80% percentile of distance to cluster center\n\n"];
+	central [label="🧩 outlier #2\nwarnings"];
+	"cookies_98356"  [label = "cookies\n(90.63%)"; penwidth = 2; ]; "cookies_98356" -> central [label=1; weight=1; penwidth=0.4];
+	"sessions_98369"  [label = "sessions\n(18.36%)"; penwidth = 5; ]; "sessions_98369" -> central [label=1; weight=1; penwidth=0.4];
+	"sessions_98369" -> "cookies_98356" [label=4; weight=4; penwidth=0.3; color = 3]
 }

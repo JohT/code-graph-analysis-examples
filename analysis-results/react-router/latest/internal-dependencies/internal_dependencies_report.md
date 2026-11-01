@@ -1,7 +1,7 @@
 ---
 title: "Internal Dependencies Report"
-generated: "2026-10-27"
-model_version: "v4.0.2"
+generated: "2026-11-01"
+model_version: "v5.0.0"
 dataset: "react-router-7.18.4"
 authors: ["JohT/code-graph-analysis-pipeline"]
 ---
@@ -77,11 +77,11 @@ Classes used across artifacts — extraction candidates. High reuse = type grown
 
 | directoryDistance | numberOfDependencies | percentageOfDependencies | numberOfDependencyUsers | numberOfDependencyProviders | examples |
 | --- | --- | --- | --- | --- | --- |
-| 0 | 154 | 41.62 | 70 | 88 | ["./index.ts uses ./dom-export.ts","./index-react-server.ts uses ./dom-export.ts","./index.ts uses ./index-react-server-client.ts","./index.ts uses ./index-react-server.ts"] |
-| 3 | 44 | 11.89 | 23 | 33 | ["./lib/errors.ts uses ./index.ts","./lib/context.ts uses ./index.ts","./lib/server-runtime/server.ts uses ./lib/actions.ts","./lib/server-runtime/single-fetch.ts uses ./lib/actions.ts"] |
-| 4 | 122 | 32.97 | 44 | 41 | ["./lib/rsc/route-modules.ts uses ./dom-export.ts","./lib/rsc/server.rsc.ts uses ./dom-export.ts","./lib/rsc/server.rsc.ts uses ./index-react-server-client.ts","./lib/types/route-module-annotations.ts uses ./index-react-server.ts"] |
-| 5 | 48 | 12.97 | 23 | 17 | ["./lib/dom/ssr/routeModules.ts uses ./index-react-server.ts","./lib/server-runtime/sessions/memoryStorage.ts uses ./index-react-server.ts","./lib/server-runtime/sessions/cookieStorage.ts uses ./index-react-server.ts","./lib/server-runtime/sessions/memoryStorage.ts uses ./index.ts"] |
-| 6 | 2 | 0.54 | 2 | 2 | ["./vendor/turbo-stream-v2/unflatten.ts uses ./lib/router/utils.ts","./lib/server-runtime/single-fetch.ts uses ./vendor/turbo-stream-v2/turbo-stream.ts"] |
+| 0 | 147 | 46.96 | 67 | 85 | ["./worker.ts uses ./index.ts","./index.ts uses ./worker.ts","./server.ts uses ./binaryTypes.ts","./server.ts uses ./index.ts"] |
+| 3 | 42 | 13.42 | 23 | 32 | ["./index.ts uses ./sessions/workersKVStorage.ts","./index.ts uses ./sessions/arcTableSessionStorage.ts","./index.ts uses ./sessions/fileStorage.ts","./vite/plugin.ts uses ./config.ts"] |
+| 4 | 83 | 26.52 | 34 | 37 | ["./vite/rsc/virtual-route-config.ts uses ./routes.ts","./config/config.ts uses ./cli/detectPackageManager.ts","./vite/optimize-deps-entries.ts uses ./config/config.ts","./typegen/generate.ts uses ./config/config.ts"] |
+| 5 | 39 | 12.46 | 21 | 15 | ["./vite/rsc/plugin.ts uses ./config/config.ts","./vite/rsc/plugin.ts uses ./config/routes.ts","./vite/rsc/virtual-route-config.ts uses ./config/routes.ts","./vite/rsc/plugin.ts uses ./typegen/index.ts"] |
+| 6 | 2 | 0.64 | 2 | 2 | ["./vendor/turbo-stream-v2/unflatten.ts uses ./lib/router/utils.ts","./lib/server-runtime/single-fetch.ts uses ./vendor/turbo-stream-v2/turbo-stream.ts"] |
 
 [Full data](./Distance_distribution_between_dependent_files.csv)
 
@@ -95,16 +95,16 @@ Modules by element count and dependency connectivity. Reveals central and comple
 
 | rootProjectName | moduleName | numberOfElements | numberOfGitCommits | incomingDependencies | outgoingDependencies |
 | --- | --- | --- | --- | --- | --- |
-| react-router-7.18.4 | dom-export | 7 | 0 | 19 | 0 |
-| react-router-7.18.4 | react-router | 5 | 0 | 9 | 4 |
-| react-router-7.18.4 | react-router | 40 | 0 | 109 | 4 |
-| react-router-7.18.4 | react-router | 170 | 0 | 377 | 13 |
-| react-router-7.18.4 | actions | 1 | 0 | 3 | 0 |
-| react-router-7.18.4 | context | 19 | 0 | 12 | 10 |
-| react-router-7.18.4 | errors | 4 | 0 | 2 | 0 |
-| react-router-7.18.4 | href | 1 | 0 | 2 | 0 |
-| react-router-7.18.4 | dom | 14 | 0 | 6 | 0 |
-| react-router-7.18.4 | global | 2 | 0 | 0 | 0 |
+| react-router-7.18.4 | react-router-cloudflare | 6 | 0 | 5 | 0 |
+| react-router-7.18.4 | worker | 5 | 0 | 5 | 18 |
+| react-router-7.18.4 | workersKVStorage | 1 | 0 | 1 | 5 |
+| react-router-7.18.4 | binaryTypes | 1 | 0 | 1 | 0 |
+| react-router-7.18.4 | react-router-architect | 4 | 0 | 3 | 0 |
+| react-router-7.18.4 | server | 6 | 0 | 3 | 23 |
+| react-router-7.18.4 | arcTableSessionStorage | 1 | 0 | 1 | 6 |
+| react-router-7.18.4 | copy-template | 2 | 0 | 2 | 33 |
+| react-router-7.18.4 | create-react-router | 2 | 0 | 0 | 28 |
+| react-router-7.18.4 | loading-indicator | 1 | 0 | 1 | 12 |
 
 [Full data](./Typescript_Module/List_all_Typescript_modules.csv)
 
@@ -135,14 +135,14 @@ Low `usedElementsPercent` = public API wider than needed. Candidates for narrowe
 | --- | --- | --- | --- | --- | --- | --- |
 | memoryStorage | react-router | 1 | 178 | 0.0056179775280898875 | ["\"/home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.18.4/source/react-router-7.18.4/packages/react-router/lib/server-runtime/sessions\".SessionStorage"] | ["SessionStorage"] |
 | navigation | react-router | 1 | 170 | 0.0058823529411764705 | ["\"/home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.18.4/source/react-router-7.18.4/packages/react-router/lib/context.ts\".Navigator"] | ["Navigator"] |
+| mode | react-router | 1 | 170 | 0.0058823529411764705 | ["\"/home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.18.4/source/react-router-7.18.4/packages/react-router/lib/server-runtime/mode.ts\".ServerMode"] | ["ServerMode"] |
 | route-data | react-router | 1 | 170 | 0.0058823529411764705 | ["\"/home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.18.4/source/react-router-7.18.4/packages/react-router/lib/server-runtime/data.ts\".AppLoadContext"] | ["AppLoadContext"] |
 | urls | react-router | 1 | 170 | 0.0058823529411764705 | ["\"/home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.18.4/source/react-router-7.18.4/packages/react-router/lib/router/history.ts\".Path"] | ["Path"] |
-| mode | react-router | 1 | 170 | 0.0058823529411764705 | ["\"/home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.18.4/source/react-router-7.18.4/packages/react-router/lib/server-runtime/mode.ts\".ServerMode"] | ["ServerMode"] |
+| urls | utils | 1 | 91 | 0.01098901098901099 | ["\"/home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.18.4/source/react-router-7.18.4/packages/react-router/lib/router/utils.ts\".stripBasename"] | ["stripBasename"] |
 | links | utils | 1 | 91 | 0.01098901098901099 | ["\"/home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.18.4/source/react-router-7.18.4/packages/react-router/lib/router/utils.ts\".DataRouteMatch"] | ["DataRouteMatch"] |
 | headers | utils | 1 | 91 | 0.01098901098901099 | ["\"/home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.18.4/source/react-router-7.18.4/packages/react-router/lib/router/utils.ts\".DataRouteMatch"] | ["DataRouteMatch"] |
-| urls | utils | 1 | 91 | 0.01098901098901099 | ["\"/home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.18.4/source/react-router-7.18.4/packages/react-router/lib/router/utils.ts\".stripBasename"] | ["stripBasename"] |
-| internal | react-router | 2 | 170 | 0.011764705882352941 | ["\"/home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.18.4/source/react-router-7.18.4/packages/react-router/lib/router/links.ts\".LinkDescriptor","\"/home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.18.4/source/react-router-7.18.4/packages/react-router/lib/dom/ssr/routeModules.ts\".MetaDescriptor"] | ["LinkDescriptor","MetaDescriptor"] |
-| route-module-annotations | react-router | 2 | 170 | 0.011764705882352941 | ["\"/home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.18.4/source/react-router-7.18.4/packages/react-router/lib/router/links.ts\".LinkDescriptor","\"/home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.18.4/source/react-router-7.18.4/packages/react-router/lib/dom/ssr/routeModules.ts\".MetaDescriptor"] | ["LinkDescriptor","MetaDescriptor"] |
+| route-module-annotations | react-router | 2 | 170 | 0.011764705882352941 | ["\"/home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.18.4/source/react-router-7.18.4/packages/react-router/lib/dom/ssr/routeModules.ts\".MetaDescriptor","\"/home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.18.4/source/react-router-7.18.4/packages/react-router/lib/router/links.ts\".LinkDescriptor"] | ["MetaDescriptor","LinkDescriptor"] |
+| internal | react-router | 2 | 170 | 0.011764705882352941 | ["\"/home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.18.4/source/react-router-7.18.4/packages/react-router/lib/dom/ssr/routeModules.ts\".MetaDescriptor","\"/home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.18.4/source/react-router-7.18.4/packages/react-router/lib/router/links.ts\".LinkDescriptor"] | ["MetaDescriptor","LinkDescriptor"] |
 
 [Full data](./Typescript_Module/ModuleElementsUsageTypescript.csv)
 
@@ -206,13 +206,15 @@ Graph diameter = longest shortest path among module pairs. Higher = deeper trans
 
 | distance | pairCount | sourceNodeCount | targetNodeCount | examples |
 | --- | --- | --- | --- | --- |
-| 7 | 1 | 1 | 1 | ["./vendor/turbo-stream-v2/turbo-stream.ts ->./lib/types/utils.ts"] |
-| 6 | 7 | 3 | 6 | ["./vendor/turbo-stream-v2/turbo-stream.ts ->./lib/dom/ssr/markup.ts","./vendor/turbo-stream-v2/turbo-stream.ts ->./lib/types/route-module.ts"] |
-| 5 | 139 | 38 | 24 | ["./typegen/index.ts ->./config/is-react-router-repo.ts","./vendor/turbo-stream-v2/turbo-stream.ts ->./lib/actions.ts"] |
-| 4 | 185 | 45 | 70 | ["./cli/run.ts ->./manifest.ts","./cli/run.ts ->./routes.ts"] |
-| 3 | 598 | 52 | 82 | ["./index.ts ->./prompts-prompt-base.ts","./cli/run.ts ->./config.ts"] |
-| 2 | 984 | 63 | 98 | ["./index.ts ->./prompts-confirm.ts","./index.ts ->./prompts-multi-select.ts"] |
-| 1 | 353 | 88 | 116 | ["./index.ts ->./copy-template.ts","./index.ts ->./loading-indicator.ts"] |
+| 9 | 2 | 2 | 1 | ["./index-react-server-client.ts ->./lib/types/utils.ts","./lib/router/navigation.ts ->./lib/types/utils.ts"] |
+| 8 | 13 | 7 | 5 | ["./index-react-server-client.ts ->./lib/types/route-module.ts","./lib/router/navigation.ts ->./lib/types/route-module.ts"] |
+| 7 | 35 | 14 | 8 | ["./lib/dom/ssr/routeModules.ts ->./lib/dom/ssr/markup.ts","./lib/server-runtime/entry.ts ->./lib/dom/ssr/markup.ts"] |
+| 6 | 81 | 21 | 23 | ["./lib/dom/ssr/routeModules.ts ->./lib/actions.ts","./lib/server-runtime/entry.ts ->./lib/actions.ts"] |
+| 5 | 152 | 25 | 27 | ["./index-react-server-client.ts ->./lib/actions.ts","./lib/dom/ssr/links.ts ->./lib/actions.ts"] |
+| 4 | 187 | 32 | 53 | ["./vite/styles.ts ->./typegen/params.ts","./vite/styles.ts ->./typegen/route.ts"] |
+| 3 | 175 | 41 | 65 | ["./vendor/turbo-stream-v2/turbo-stream.ts ->./lib/router/history.ts","./vendor/turbo-stream-v2/turbo-stream.ts ->./lib/router/url.ts"] |
+| 2 | 292 | 58 | 88 | ["./vendor/turbo-stream-v2/unflatten.ts ->./lib/router/history.ts","./vendor/turbo-stream-v2/unflatten.ts ->./lib/router/url.ts"] |
+| 1 | 300 | 87 | 115 | ["./vendor/turbo-stream-v2/unflatten.ts ->./lib/router/utils.ts","./worker.ts ->./index.ts"] |
 
 [Full data per project](./Typescript_Module/Module_all_pairs_shortest_paths_distribution_per_project.csv)
 
@@ -234,11 +236,11 @@ Deepest sequential TypeScript import chain.
 | distance | pathsCount |
 | --- | --- |
 | 5 | 1 |
-| 4 | 2 |
-| 3 | 6 |
-| 2 | 15 |
-| 1 | 28 |
-| 0 | 15 |
+| 4 | 4 |
+| 3 | 9 |
+| 2 | 24 |
+| 1 | 36 |
+| 0 | 16 |
 
 [Full data per project](./Typescript_Module/Module_longest_paths_distribution.csv)
 
@@ -268,7 +270,7 @@ Max build level per abstraction. Higher = deeper sequential chain.
 | abstractionLevel | nodeCount | maxBuildLevel |
 | --- | --- | --- |
 | Java Package | 7 | 4 |
-| TypeScript Module | 39 | 5 |
+| TypeScript Module | 53 | 5 |
 
 Full topological sort results (node-level build order and level assignments) are in the abstraction-level CSV files under each subdirectory of `reports/internal-dependencies/`.
 
