@@ -2,7 +2,7 @@
 title: "Graph Algorithms Report"
 generated: "2026-11-01"
 model_version: "v5.0.0"
-dataset: "react-router-7.18.4"
+dataset: "react-router-7.18.5"
 authors: ["JohT/code-graph-analysis-pipeline"]
 ---
 
@@ -37,9 +37,9 @@ High PageRank = depended on by many important nodes. High betweenness = bridge b
 | --- | --- | --- |
 | ["TS","Local","Module"] | ./config/routes.ts | 4.521835360658178 |
 | ["TS","Local","Module"] | ./routes.ts | 4.058809050094733 |
-| ["TS","Local","Module"] | ./lib/router/url.ts | 2.189948927363485 |
-| ["TS","Local","Module"] | ./lib/router/history.ts | 2.1726310617196747 |
-| ["TS","Local","Module"] | ./lib/router/utils.ts | 2.0545285811791114 |
+| ["TS","Local","Module"] | ./lib/router/url.ts | 2.190798123865918 |
+| ["TS","Local","Module"] | ./lib/router/history.ts | 2.1735853762109403 |
+| ["TS","Local","Module"] | ./lib/router/utils.ts | 2.054881414965637 |
 | ["TS","Local","Module"] | ./utils.ts | 1.2310670442525808 |
 | ["TS","Local","Module"] | ./config/is-react-router-repo.ts | 1.1421281906923575 |
 | ["TS","Local","Module"] | ./index.ts | 0.9997042353362876 |
@@ -52,14 +52,14 @@ High PageRank = depended on by many important nodes. High betweenness = bridge b
 | --- | --- | --- |
 | ["TS","Local","Module"] | ./config/routes.ts | 1.8809882288177266 |
 | ["TS","Local","Module"] | ./routes.ts | 1.7767260866669135 |
-| ["TS","Local","Module"] | ./lib/router/history.ts | 1.4102754234583277 |
-| ["TS","Local","Module"] | ./lib/router/utils.ts | 1.3389968349317953 |
+| ["TS","Local","Module"] | ./lib/router/history.ts | 1.4106164243952255 |
+| ["TS","Local","Module"] | ./lib/router/utils.ts | 1.3387158617912789 |
 | ["TS","Local","Module"] | ./utils.ts | 1.2111837353332375 |
 | ["TS","Local","Module"] | ./vite/vite.ts | 0.6634183538942674 |
-| ["TS","Local","Module"] | ./lib/router/url.ts | 0.633573298779074 |
-| ["Package","Json","NPM","NpmNonDevPackage"] | /home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.18.4/./source/react-router-7.18.4/packages/react-router/package.json | 0.6210063135297951 |
-| ["TS","Local","Module"] | ./lib/router/router.ts | 0.5119785467651081 |
-| ["TS","Local","Module"] | ./vendor/turbo-stream-v2/utils.ts | 0.49217418688088044 |
+| ["TS","Local","Module"] | ./lib/router/url.ts | 0.6336415233792219 |
+| ["Package","Json","NPM","NpmNonDevPackage"] | /home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.18.5/./source/react-router-7.18.5/packages/react-router/package.json | 0.6210063135297951 |
+| ["TS","Local","Module"] | ./lib/router/router.ts | 0.5126564258908599 |
+| ["TS","Local","Module"] | ./vendor/turbo-stream-v2/utils.ts | 0.4921703014036848 |
 
 ### 2.3 Top Nodes by Betweenness Centrality
 

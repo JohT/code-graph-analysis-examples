@@ -2,7 +2,7 @@
 title: "Overview Report"
 generated: "2026-11-01"
 model_version: "v5.0.0"
-dataset: "react-router-7.18.4"
+dataset: "react-router-7.18.5"
 authors: ["JohT/code-graph-analysis-pipeline"]
 ---
 
@@ -29,16 +29,16 @@ Shows how many nodes carry each combination of labels and their share of the tot
 
 | nodeLabels | nodesWithThatLabels | nodesWithThatLabelsPercent |
 | --- | --- | --- |
-| ["Git","Update","Change"] | 59569 | 28.430904630539995 |
-| ["Type","TS","NotIdentified"] | 54186 | 25.86172335124712 |
-| ["Git","Change","Create"] | 17536 | 8.369526827731693 |
-| ["Git","Commit"] | 10997 | 5.248613510753048 |
-| ["Type","TS","Declared"] | 10795 | 5.1522035872127985 |
-| ["Git","Change","Delete"] | 9795 | 4.674926738003647 |
-| ["Type","TS","Primitive"] | 9734 | 4.645812850201888 |
-| ["File","Git"] | 6450 | 3.0784356773990322 |
-| ["Type","TS","Union"] | 5473 | 2.6121361957216904 |
-| ["Type","TS","Literal"] | 3404 | 1.6246503947079542 |
+| ["Git","Update","Change"] | 59603 | 28.43518916082248 |
+| ["Type","TS","NotIdentified"] | 54186 | 25.850865893802776 |
+| ["Git","Change","Create"] | 17539 | 8.367444301321502 |
+| ["Git","Commit"] | 11000 | 5.247841228949 |
+| ["Type","TS","Declared"] | 10796 | 5.1505176279757645 |
+| ["Git","Change","Delete"] | 9797 | 4.6739182290921235 |
+| ["Type","TS","Primitive"] | 9747 | 4.650064405324174 |
+| ["File","Git"] | 6453 | 3.078574495491627 |
+| ["Type","TS","Union"] | 5476 | 2.612470779065884 |
+| ["Type","TS","Literal"] | 3406 | 1.6249224750727542 |
 
 [Full data](./Node_label_combination_count.csv)
 
@@ -55,16 +55,16 @@ Shows the number of nodes carrying each individual label, sorted by count descen
 
 | nodeLabel | nodesWithThatLabel | nodesWithThatLabelPercent |
 | --- | --- | --- |
-| Git | 110409 | 52.69565964433329 |
-| TS | 94680 | 45.18857208312254 |
-| Change | 89912 | 42.912916066093295 |
-| Type | 88658 | 42.31441089718502 |
-| Update | 59569 | 28.430904630539995 |
-| NotIdentified | 54186 | 25.86172335124712 |
-| Create | 17536 | 8.369526827731693 |
-| Declared | 11040 | 5.269136415269041 |
-| Commit | 10997 | 5.248613510753048 |
-| Delete | 9795 | 4.674926738003647 |
+| Git | 110465 | 52.70025285053194 |
+| TS | 94712 | 45.18486713420161 |
+| Change | 89951 | 42.91350603501741 |
+| Type | 88678 | 42.306187681885405 |
+| Update | 59603 | 28.43518916082248 |
+| NotIdentified | 54186 | 25.850865893802776 |
+| Create | 17539 | 8.367444301321502 |
+| Declared | 11041 | 5.26740136443872 |
+| Commit | 11000 | 5.247841228949 |
+| Delete | 9797 | 4.6739182290921235 |
 
 [Full data](./Node_label_count.csv)
 
@@ -78,16 +78,16 @@ Shows the number of relationships for each type and their share of the total rel
 
 | relationshipType | nodesWithThatRelationshipType | nodesWithThatRelationshipTypePercent |
 | --- | --- | --- |
-| CONTAINS_CHANGE | 89912 | 19.965093505882145 |
-| MODIFIES | 89912 | 19.965093505882145 |
-| CONTAINS | 73597 | 16.34232345796343 |
-| UPDATES | 59569 | 13.227385166072308 |
-| COMMITTED | 21994 | 4.883800455649656 |
-| CREATES | 20548 | 4.562714002122812 |
-| DELETES | 12727 | 2.826049304312684 |
-| HAS_PARENT | 12088 | 2.6841584026504064 |
-| HAS_COMMIT | 10997 | 2.441900227824828 |
-| DEPENDS_ON | 10064 | 2.234726188308545 |
+| CONTAINS_CHANGE | 89951 | 19.96439962091367 |
+| MODIFIES | 89951 | 19.96439962091367 |
+| CONTAINS | 73603 | 16.336001882114804 |
+| UPDATES | 59603 | 13.228736874579686 |
+| COMMITTED | 22000 | 4.8828450118408995 |
+| CREATES | 20551 | 4.561243083561014 |
+| DELETES | 12729 | 2.8251697343510367 |
+| HAS_PARENT | 12091 | 2.6835672290076507 |
+| HAS_COMMIT | 11000 | 2.4414225059204497 |
+| DEPENDS_ON | 10085 | 2.238340542927976 |
 
 [Full data](./Relationship_type_count.csv)
 
@@ -103,16 +103,16 @@ Shows the number of relationships for each type and their share of the total rel
 Shows which node labels are connected by each relationship type, with count and percentage share.
 | sourceLabels | relationshipType | targetLabels | relationshipCount |
 | --- | --- | --- | --- |
-| ["Git","Commit"] | CONTAINS_CHANGE | ["Git","Update","Change"] | 59569 |
-| ["Git","Update","Change"] | MODIFIES | ["Git"] | 59569 |
-| ["Git","Update","Change"] | UPDATES | ["Git"] | 59569 |
+| ["Git","Commit"] | CONTAINS_CHANGE | ["Git","Update","Change"] | 59603 |
+| ["Git","Update","Change"] | MODIFIES | ["Git"] | 59603 |
+| ["Git","Update","Change"] | UPDATES | ["Git"] | 59603 |
 | ["TS","Union"] | CONTAINS | ["TS","NotIdentified"] | 53911 |
-| ["Git","Commit"] | CONTAINS_CHANGE | ["Git","Change","Create"] | 17536 |
-| ["Git","Change","Create"] | MODIFIES | ["Git"] | 17536 |
-| ["Git","Change","Create"] | CREATES | ["Git"] | 17536 |
-| ["Git","Commit"] | HAS_PARENT | ["Git","Commit"] | 12088 |
-| ["Repository","Git"] | HAS_COMMIT | ["Git","Commit"] | 10997 |
-| ["Author","Person","Git","Committer"] | COMMITTED | ["Git","Commit"] | 10997 |
+| ["Git","Commit"] | CONTAINS_CHANGE | ["Git","Change","Create"] | 17539 |
+| ["Git","Change","Create"] | MODIFIES | ["Git"] | 17539 |
+| ["Git","Change","Create"] | CREATES | ["Git"] | 17539 |
+| ["Git","Commit"] | HAS_PARENT | ["Git","Commit"] | 12091 |
+| ["Author","Person","Git","Committer"] | COMMITTED | ["Git","Commit"] | 11000 |
+| ["Repository","Git"] | HAS_COMMIT | ["Git","Commit"] | 11000 |
 
 [Full data](./Node_labels_and_their_relationships.csv)
 
@@ -133,14 +133,14 @@ Shows node labels present on dependency nodes — nodes that represent external 
 | sourceLabels | targetLabels | numberOfNodes | percentageOfTotalNodes |
 | --- | --- | --- | --- |
 | TS,Function | TS,ExternalDeclaration | 1189 | 0.57 |
-| TS,Function | TS,Function | 834 | 0.4 |
+| TS,Function | TS,Function | 838 | 0.4 |
 | TS,Function | TS,ExternalModule | 446 | 0.21 |
-| TS,Function | TS,Property | 384 | 0.18 |
+| TS,Function | TS,Property | 388 | 0.19 |
 | TS,Variable | TS,ExternalDeclaration | 383 | 0.18 |
-| TS,Function | TS,Interface | 376 | 0.18 |
+| TS,Function | TS,Interface | 377 | 0.18 |
 | File,TS,Local,Module | TS,ExternalDeclaration | 310 | 0.15 |
-| TS,Function | TS,TypeAlias | 308 | 0.15 |
-| TS,Function | TS,Variable | 296 | 0.14 |
+| TS,Function | TS,TypeAlias | 309 | 0.15 |
+| TS,Function | TS,Variable | 299 | 0.14 |
 | StronglyConnectedComponent,ModuleMembers | StronglyConnectedComponent,ModuleMembers | 195 | 0.09 |
 
 [Full data](./Dependency_node_labels.csv)
@@ -170,7 +170,7 @@ Overview of scanned TypeScript modules: number of exported language elements per
 
 | nodeCount | relationshipCount | projectCount | moduleCount | functionCount | objectCount | typeAliasCount | interfaceCount | classCount | methodCount |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 209522 | 450346 | 11 | 160 | 1337 | 1561 | 341 | 142 | 14 | 128 |
+| 209610 | 450557 | 11 | 160 | 1339 | 1561 | 341 | 142 | 14 | 128 |
 
 [Full data](./Overview_size_for_Typescript.csv)
 

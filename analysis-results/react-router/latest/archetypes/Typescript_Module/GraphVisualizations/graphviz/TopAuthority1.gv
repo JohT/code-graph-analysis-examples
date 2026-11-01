@@ -12,7 +12,7 @@ strict digraph TopAuthority1 {
     central [fontsize = 16;];
     central [color = 7; fillcolor = 5; penwidth = 3;];
 
-	graph   [label="Top Rank #1 Typescript Module Authority\n/home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.18.4/source/react-router-7.18.4/packages/react-router-dev/config/routes.ts\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: Page Rank (normalized)\nlarge circle: > 80% percentile of Page Rank\nthick outline: > 80% percentile of Page Rank to Article Rank Difference\n\n"];
+	graph   [label="Top Rank #1 Typescript Module Authority\n/home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.18.5/source/react-router-7.18.5/packages/react-router-dev/config/routes.ts\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: Page Rank (normalized)\nlarge circle: > 80% percentile of Page Rank\nthick outline: > 80% percentile of Page Rank to Article Rank Difference\n\n"];
 	central [label="🏛️ authority #1\nroutes"];
 	"plugin_14815"  [label = "plugin\n(2.26%)"; penwidth = 2; ]; "plugin_14815" -> central [label=60; weight=60; penwidth=0.5];
 	"generate_14798"  [label = "generate\n(3.08%)"; penwidth = 2; ]; "generate_14798" -> central [label=10; weight=10; penwidth=0.4];
@@ -28,8 +28,8 @@ strict digraph TopAuthority1 {
 	"plugin_14815" -> "config_14791" [label=7; weight=7; penwidth=0.3; color = 3]
 	"generate_14798" -> "config_14791" [label=6; weight=6; penwidth=0.3; color = 3]
 	"plugin_14831" -> "config_14791" [label=4; weight=4; penwidth=0.3; color = 3]
+	"plugin_14831" -> "resolve-relative-route-file-path_14819" [label=2; weight=2; penwidth=0.3; color = 3]
 	"plugin_14831" -> "virtual-route-config_14833" [label=2; weight=2; penwidth=0.3; color = 3]
 	"plugin_14831" -> "plugin_14815" [label=2; weight=2; penwidth=0.3; color = 3]
-	"plugin_14831" -> "resolve-relative-route-file-path_14819" [label=2; weight=2; penwidth=0.3; color = 3]
 	"styles_14822" -> "plugin_14815" [label=2; weight=2; penwidth=0.3; color = 3]
 }

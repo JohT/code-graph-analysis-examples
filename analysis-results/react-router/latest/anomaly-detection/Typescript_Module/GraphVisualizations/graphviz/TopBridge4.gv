@@ -12,61 +12,26 @@ strict digraph TopBridge4 {
     central [fontsize = 16;];
     central [color = 7; fillcolor = 5; penwidth = 3;];
 
-	graph   [label="Top Rank #4 Typescript Module Bridge\n/home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.18.4/source/react-router-7.18.4/packages/react-router/index-react-server.ts\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
-	central [label="🌉 bridge #4\nreact-router"];
-	"utils_86576" [label = "utils"; ]; "utils_86576" -> central [label=13026; weight=13026; penwidth=2.5];
-	"sessions_86598" [label = "sessions"; ]; "sessions_86598" -> central [label=666; weight=666; penwidth=0.5];
-	"cookies_86585" [label = "cookies"; ]; "cookies_86585" -> central [label=468; weight=468; penwidth=0.5];
-	"router_86574" [label = "router"; ]; "router_86574" -> central [label=318; weight=318; penwidth=0.5];
-	"cookieStorage_86602" [label = "cookieStorage"; ]; "cookieStorage_86602" -> central [label=166; weight=166; penwidth=0.4];
-	"server_86579" [label = "server"; ]; "server_86579" -> central [label=130; weight=130; penwidth=0.4];
-	"single-fetch_86599" [label = "single-fetch"; ]; "single-fetch_86599" -> central [label=65; weight=65; penwidth=0.4];
-	"routeModules_86568" [label = "routeModules"; ]; "routeModules_86568" -> central [label=45; weight=45; penwidth=0.4];
-	"react-router_86550" [label = "react-router"; ]; "react-router_86550" -> central [label=44; weight=44; penwidth=0.4];
-	"memoryStorage_86604" [label = "memoryStorage"; ]; "memoryStorage_86604" -> central [label=13; weight=13; penwidth=0.4];
-	"routes_86595" [label = "routes"; ]; "routes_86595" -> central [label=3; weight=3; penwidth=0.4];
-	"react-router_86550" [label = "react-router"; color = 5; fillcolor = 1; ]; central -> "react-router_86550" [label=18; weight=18; penwidth=0.4; color = 5];
-	"server_86579" [label = "server"; color = 5; fillcolor = 1; ]; central -> "server_86579" [label=9; weight=9; penwidth=0.4; color = 5];
-	"utils_86576" [label = "utils"; color = 5; fillcolor = 1; ]; central -> "utils_86576" [label=6; weight=6; penwidth=0.4; color = 5];
-	"cookies_86585" [label = "cookies"; color = 5; fillcolor = 1; ]; central -> "cookies_86585" [label=3; weight=3; penwidth=0.4; color = 5];
-	"cookieStorage_86602" [label = "cookieStorage"; color = 5; fillcolor = 1; ]; central -> "cookieStorage_86602" [label=1; weight=1; penwidth=0.4; color = 5];
-	"dom-export_86547" [label = "dom-export"; color = 5; fillcolor = 1; ]; central -> "dom-export_86547" [label=1; weight=1; penwidth=0.4; color = 5];
-	"href_86557" [label = "href"; color = 5; fillcolor = 1; ]; central -> "href_86557" [label=1; weight=1; penwidth=0.4; color = 5];
-	"memoryStorage_86604" [label = "memoryStorage"; color = 5; fillcolor = 1; ]; central -> "memoryStorage_86604" [label=1; weight=1; penwidth=0.4; color = 5];
-	"router_86574" [label = "router"; color = 5; fillcolor = 1; ]; central -> "router_86574" [label=1; weight=1; penwidth=0.4; color = 5];
-	"router_86574" -> "utils_86576" [label=15239; weight=15239; penwidth=0.3; color = 3]
-	"router_86574" -> "react-router_86550" [label=10419; weight=10419; penwidth=0.3; color = 3]
-	"server_86579" -> "react-router_86550" [label=2197; weight=2197; penwidth=0.3; color = 3]
-	"single-fetch_86599" -> "react-router_86550" [label=1911; weight=1911; penwidth=0.3; color = 3]
-	"server_86579" -> "router_86574" [label=1612; weight=1612; penwidth=0.3; color = 3]
-	"single-fetch_86599" -> "router_86574" [label=1030; weight=1030; penwidth=0.3; color = 3]
-	"server_86579" -> "dom-export_86547" [label=1014; weight=1014; penwidth=0.3; color = 3]
-	"server_86579" -> "utils_86576" [label=715; weight=715; penwidth=0.3; color = 3]
-	"sessions_86598" -> "react-router_86550" [label=666; weight=666; penwidth=0.3; color = 3]
-	"cookies_86585" -> "react-router_86550" [label=468; weight=468; penwidth=0.3; color = 3]
-	"sessions_86598" -> "cookies_86585" [label=328; weight=328; penwidth=0.3; color = 3]
-	"utils_86576" -> "react-router_86550" [label=250; weight=250; penwidth=0.3; color = 3]
-	"routes_86595" -> "routeModules_86568" [label=234; weight=234; penwidth=0.3; color = 3]
-	"routeModules_86568" -> "react-router_86550" [label=182; weight=182; penwidth=0.3; color = 3]
-	"cookieStorage_86602" -> "react-router_86550" [label=166; weight=166; penwidth=0.3; color = 3]
-	"routeModules_86568" -> "utils_86576" [label=159; weight=159; penwidth=0.3; color = 3]
-	"cookieStorage_86602" -> "cookies_86585" [label=153; weight=153; penwidth=0.3; color = 3]
-	"single-fetch_86599" -> "utils_86576" [label=104; weight=104; penwidth=0.3; color = 3]
-	"routes_86595" -> "react-router_86550" [label=71; weight=71; penwidth=0.3; color = 3]
-	"server_86579" -> "routeModules_86568" [label=55; weight=55; penwidth=0.3; color = 3]
-	"routes_86595" -> "utils_86576" [label=45; weight=45; penwidth=0.3; color = 3]
-	"react-router_86550" -> "server_86579" [label=29; weight=29; penwidth=0.3; color = 3]
-	"cookieStorage_86602" -> "sessions_86598" [label=26; weight=26; penwidth=0.3; color = 3]
-	"react-router_86550" -> "utils_86576" [label=21; weight=21; penwidth=0.3; color = 3]
-	"memoryStorage_86604" -> "sessions_86598" [label=13; weight=13; penwidth=0.3; color = 3]
-	"memoryStorage_86604" -> "react-router_86550" [label=13; weight=13; penwidth=0.3; color = 3]
-	"react-router_86550" -> "router_86574" [label=8; weight=8; penwidth=0.3; color = 3]
-	"react-router_86550" -> "cookies_86585" [label=3; weight=3; penwidth=0.3; color = 3]
-	"react-router_86550" -> "routeModules_86568" [label=3; weight=3; penwidth=0.3; color = 3]
-	"dom-export_86547" -> "server_86579" [label=1; weight=1; penwidth=0.3; color = 3]
-	"dom-export_86547" -> "react-router_86550" [label=1; weight=1; penwidth=0.3; color = 3]
-	"react-router_86550" -> "memoryStorage_86604" [label=1; weight=1; penwidth=0.3; color = 3]
-	"react-router_86550" -> "href_86557" [label=1; weight=1; penwidth=0.3; color = 3]
-	"react-router_86550" -> "cookieStorage_86602" [label=1; weight=1; penwidth=0.3; color = 3]
-	"react-router_86550" -> "dom-export_86547" [label=1; weight=1; penwidth=0.3; color = 3]
+	graph   [label="Top Rank #4 Typescript Module Bridge\n/home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.18.5/source/react-router-7.18.5/packages/react-router-dev/config/config.ts\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
+	central [label="🌉 bridge #4\nconfig"];
+	"plugin_14815" [label = "plugin"; ]; "plugin_14815" -> central [label=7; weight=7; penwidth=0.4];
+	"generate_14798" [label = "generate"; ]; "generate_14798" -> central [label=6; weight=6; penwidth=0.4];
+	"optimize-deps-entries_14814" [label = "optimize-deps-entries"; ]; "optimize-deps-entries_14814" -> central [label=6; weight=6; penwidth=0.4];
+	"commands_14785" [label = "commands"; ]; "commands_14785" -> central [label=4; weight=4; penwidth=0.4];
+	"plugin_14831" [label = "plugin"; ]; "plugin_14831" -> central [label=4; weight=4; penwidth=0.4];
+	"build_14804" [label = "build"; ]; "build_14804" -> central [label=2; weight=2; penwidth=0.4];
+	"cloudflare-dev-proxy_14806" [label = "cloudflare-dev-proxy"; ]; "cloudflare-dev-proxy_14806" -> central [label=2; weight=2; penwidth=0.4];
+	"config_14778" [label = "config"; color = 5; fillcolor = 1; ]; central -> "config_14778" [label=8; weight=8; penwidth=0.4; color = 5];
+	"routes_14795" [label = "routes"; color = 5; fillcolor = 1; ]; central -> "routes_14795" [label=8; weight=8; penwidth=0.4; color = 5];
+	"detectPackageManager_14787" [label = "detectPackageManager"; color = 5; fillcolor = 1; ]; central -> "detectPackageManager_14787" [label=2; weight=2; penwidth=0.4; color = 5];
+	"vite-node_14824" [label = "vite-node"; color = 5; fillcolor = 1; ]; central -> "vite-node_14824" [label=2; weight=2; penwidth=0.4; color = 5];
+	"plugin_14815" -> "routes_14795" [label=60; weight=60; penwidth=0.3; color = 3]
+	"build_14804" -> "plugin_14815" [label=14; weight=14; penwidth=0.3; color = 3]
+	"generate_14798" -> "routes_14795" [label=10; weight=10; penwidth=0.3; color = 3]
+	"plugin_14815" -> "optimize-deps-entries_14814" [label=2; weight=2; penwidth=0.3; color = 3]
+	"plugin_14831" -> "plugin_14815" [label=2; weight=2; penwidth=0.3; color = 3]
+	"plugin_14831" -> "optimize-deps-entries_14814" [label=2; weight=2; penwidth=0.3; color = 3]
+	"commands_14785" -> "build_14804" [label=1; weight=1; penwidth=0.3; color = 3]
+	"plugin_14815" -> "config_14778" [label=1; weight=1; penwidth=0.3; color = 3]
+	"plugin_14831" -> "routes_14795" [label=1; weight=1; penwidth=0.3; color = 3]
 }

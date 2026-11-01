@@ -12,9 +12,9 @@ strict digraph TopBridge1 {
     central [fontsize = 16;];
     central [color = 7; fillcolor = 5; penwidth = 3;];
 
-	graph   [label="Top Rank #1 Typescript Module Bridge\n/home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.18.4/source/react-router-7.18.4/packages/react-router/lib/server-runtime/warnings.ts\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
-	central [label="🌉 bridge #1\nwarnings"];
-	"cookies_98356" [label = "cookies"; ]; "cookies_98356" -> central [label=1; weight=1; penwidth=0.4];
-	"sessions_98369" [label = "sessions"; ]; "sessions_98369" -> central [label=1; weight=1; penwidth=0.4];
-	"sessions_98369" -> "cookies_98356" [label=4; weight=4; penwidth=0.3; color = 3]
+	graph   [label="Top Rank #1 Typescript Module Bridge\n/home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.18.5/source/react-router-7.18.5/packages/react-router/lib/types/route-data.ts\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
+	central [label="🌉 bridge #1\nroute-data"];
+	"routeModules_98371" [label = "routeModules"; ]; "routeModules_98371" -> central [label=0; weight=0; penwidth=0.4];
+	"data_98390" [label = "data"; color = 5; fillcolor = 1; ]; central -> "data_98390" [label=0; weight=0; penwidth=0.4; color = 5];
+	"route-module_98415" [label = "route-module"; color = 5; fillcolor = 1; ]; central -> "route-module_98415" [label=0; weight=0; penwidth=0.4; color = 5];
 }

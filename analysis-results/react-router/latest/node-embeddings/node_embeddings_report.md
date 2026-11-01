@@ -2,7 +2,7 @@
 title: "Node Embeddings Report"
 generated: "2026-11-01"
 model_version: "v5.0.0"
-dataset: "react-router-7.18.4"
+dataset: "react-router-7.18.5"
 authors: ["JohT/code-graph-analysis-pipeline"]
 ---
 
@@ -51,9 +51,9 @@ Useful to verify that the embedding pipeline ran end-to-end and that the propert
 | --- | --- | --- | --- | --- |
 | ["TS","Local","Module"] | ./config/routes.ts | 32 | 9 | 4.521835360658178 |
 | ["TS","Local","Module"] | ./routes.ts | 32 | 9 | 4.058809050094733 |
-| ["TS","Local","Module"] | ./lib/router/url.ts | 32 | 10 | 2.189948927363485 |
-| ["TS","Local","Module"] | ./lib/router/history.ts | 32 | 10 | 2.1726310617196747 |
-| ["TS","Local","Module"] | ./lib/router/utils.ts | 32 | 10 | 2.0545285811791114 |
+| ["TS","Local","Module"] | ./lib/router/url.ts | 32 | 10 | 2.190798123865918 |
+| ["TS","Local","Module"] | ./lib/router/history.ts | 32 | 10 | 2.1735853762109403 |
+| ["TS","Local","Module"] | ./lib/router/utils.ts | 32 | 10 | 2.054881414965637 |
 | ["TS","Local","Module"] | ./utils.ts | 32 | 3 | 1.2310670442525808 |
 | ["TS","Local","Module"] | ./config/is-react-router-repo.ts | 32 | 9 | 1.1421281906923575 |
 | ["TS","Local","Module"] | ./server.ts | 32 | 5 | 0.9997042353362876 |

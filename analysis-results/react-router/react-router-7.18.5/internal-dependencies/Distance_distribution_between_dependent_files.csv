@@ -1,0 +1,6 @@
+"fileDistanceAsFewestChangeDirectoryCommands","numberOfDependencies","numberOfDependencyUsers","numberOfDependencyProviders","examples","Source Cypher File: domains/internal-dependencies/queries/internal-dependencies/Set_file_distance_as_shortest_contains_path_for_dependencies.cypher"
+0,147,67,85,"./worker.ts uses ./index.ts,./index.ts uses ./worker.ts,./server.ts uses ./binaryTypes.ts,./server.ts uses ./index.ts",""
+3,42,23,32,"./index.ts uses ./sessions/workersKVStorage.ts,./index.ts uses ./sessions/arcTableSessionStorage.ts,./index.ts uses ./sessions/fileStorage.ts,./vite/plugin.ts uses ./config.ts",""
+4,83,34,37,"./vite/rsc/virtual-route-config.ts uses ./routes.ts,./config/config.ts uses ./cli/detectPackageManager.ts,./vite/build.ts uses ./config/config.ts,./cli/commands.ts uses ./config/config.ts",""
+5,39,21,15,"./vite/rsc/plugin.ts uses ./config/config.ts,./vite/rsc/plugin.ts uses ./config/routes.ts,./vite/rsc/virtual-route-config.ts uses ./config/routes.ts,./vite/rsc/plugin.ts uses ./typegen/index.ts",""
+6,2,2,2,"./vendor/turbo-stream-v2/unflatten.ts uses ./lib/router/utils.ts,./lib/server-runtime/single-fetch.ts uses ./vendor/turbo-stream-v2/turbo-stream.ts",""

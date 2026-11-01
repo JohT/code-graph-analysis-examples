@@ -12,9 +12,10 @@ strict digraph TopBridge2 {
     central [fontsize = 16;];
     central [color = 7; fillcolor = 5; penwidth = 3;];
 
-	graph   [label="Top Rank #2 Typescript Module Bridge\n/home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.18.4/source/react-router-7.18.4/packages/react-router/lib/types/route-data.ts\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
-	central [label="🌉 bridge #2\nroute-data"];
-	"routeModules_98339" [label = "routeModules"; ]; "routeModules_98339" -> central [label=0; weight=0; penwidth=0.4];
-	"data_98358" [label = "data"; color = 5; fillcolor = 1; ]; central -> "data_98358" [label=0; weight=0; penwidth=0.4; color = 5];
-	"route-module_98383" [label = "route-module"; color = 5; fillcolor = 1; ]; central -> "route-module_98383" [label=0; weight=0; penwidth=0.4; color = 5];
+	graph   [label="Top Rank #2 Typescript Module Bridge\n/home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.18.5/source/react-router-7.18.5/packages/react-router-dev/routes.ts\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
+	central [label="🌉 bridge #2\nroutes"];
+	"routes_14795" [label = "routes"; ]; "routes_14795" -> central [label=119; weight=119; penwidth=0.7];
+	"virtual-route-config_14833" [label = "virtual-route-config"; ]; "virtual-route-config_14833" -> central [label=9; weight=9; penwidth=0.4];
+	"routes_14795" [label = "routes"; color = 5; fillcolor = 1; ]; central -> "routes_14795" [label=6; weight=6; penwidth=0.4; color = 5];
+	"virtual-route-config_14833" -> "routes_14795" [label=9; weight=9; penwidth=0.3; color = 3]
 }

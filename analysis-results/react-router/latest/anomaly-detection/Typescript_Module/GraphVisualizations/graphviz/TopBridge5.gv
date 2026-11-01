@@ -12,67 +12,27 @@ strict digraph TopBridge5 {
     central [fontsize = 16;];
     central [color = 7; fillcolor = 5; penwidth = 3;];
 
-	graph   [label="Top Rank #5 Typescript Module Bridge\n/home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.18.4/source/react-router-7.18.4/packages/react-router/lib/router/utils.ts\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
+	graph   [label="Top Rank #5 Typescript Module Bridge\n/home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.18.5/source/react-router-7.18.5/packages/create-react-router/utils.ts\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
 	central [label="🌉 bridge #5\nutils"];
-	"router_86574" [label = "router"; ]; "router_86574" -> central [label=15239; weight=15239; penwidth=2.8];
-	"server_86579" [label = "server"; ]; "server_86579" -> central [label=715; weight=715; penwidth=0.5];
-	"routeModules_86568" [label = "routeModules"; ]; "routeModules_86568" -> central [label=159; weight=159; penwidth=0.4];
-	"single-fetch_86599" [label = "single-fetch"; ]; "single-fetch_86599" -> central [label=104; weight=104; penwidth=0.4];
-	"fog-of-war_86564" [label = "fog-of-war"; ]; "fog-of-war_86564" -> central [label=78; weight=78; penwidth=0.4];
-	"context_86555" [label = "context"; ]; "context_86555" -> central [label=71; weight=71; penwidth=0.4];
-	"routes_86595" [label = "routes"; ]; "routes_86595" -> central [label=45; weight=45; penwidth=0.4];
-	"react-router_86550" [label = "react-router"; ]; "react-router_86550" -> central [label=21; weight=21; penwidth=0.4];
-	"links_86566" [label = "links"; ]; "links_86566" -> central [label=19; weight=19; penwidth=0.4];
-	"react-router_86549" [label = "react-router"; ]; "react-router_86549" -> central [label=6; weight=6; penwidth=0.4];
-	"headers_86591" [label = "headers"; ]; "headers_86591" -> central [label=3; weight=3; penwidth=0.4];
-	"react-router_86549" [label = "react-router"; color = 5; fillcolor = 1; ]; central -> "react-router_86549" [label=13026; weight=13026; penwidth=2.5; color = 5];
-	"history_86569" [label = "history"; color = 5; fillcolor = 1; ]; central -> "history_86569" [label=510; weight=510; penwidth=0.5; color = 5];
-	"react-router_86550" [label = "react-router"; color = 5; fillcolor = 1; ]; central -> "react-router_86550" [label=250; weight=250; penwidth=0.4; color = 5];
-	"url_86575" [label = "url"; color = 5; fillcolor = 1; ]; central -> "url_86575" [label=52; weight=52; penwidth=0.4; color = 5];
-	"history_86569" -> "react-router_86550" [label=15574; weight=15574; penwidth=0.3; color = 3]
-	"router_86574" -> "react-router_86550" [label=10419; weight=10419; penwidth=0.3; color = 3]
-	"router_86574" -> "history_86569" [label=6165; weight=6165; penwidth=0.3; color = 3]
-	"server_86579" -> "react-router_86550" [label=2197; weight=2197; penwidth=0.3; color = 3]
-	"single-fetch_86599" -> "react-router_86550" [label=1911; weight=1911; penwidth=0.3; color = 3]
-	"server_86579" -> "router_86574" [label=1612; weight=1612; penwidth=0.3; color = 3]
-	"single-fetch_86599" -> "router_86574" [label=1030; weight=1030; penwidth=0.3; color = 3]
-	"fog-of-war_86564" -> "react-router_86550" [label=829; weight=829; penwidth=0.3; color = 3]
-	"fog-of-war_86564" -> "router_86574" [label=517; weight=517; penwidth=0.3; color = 3]
-	"headers_86591" -> "react-router_86550" [label=396; weight=396; penwidth=0.3; color = 3]
-	"context_86555" -> "react-router_86550" [label=361; weight=361; penwidth=0.3; color = 3]
-	"headers_86591" -> "router_86574" [label=344; weight=344; penwidth=0.3; color = 3]
-	"router_86574" -> "react-router_86549" [label=318; weight=318; penwidth=0.3; color = 3]
-	"links_86566" -> "react-router_86550" [label=237; weight=237; penwidth=0.3; color = 3]
-	"links_86566" -> "routeModules_86568" [label=234; weight=234; penwidth=0.3; color = 3]
-	"routes_86595" -> "routeModules_86568" [label=234; weight=234; penwidth=0.3; color = 3]
-	"routeModules_86568" -> "react-router_86550" [label=182; weight=182; penwidth=0.3; color = 3]
-	"context_86555" -> "history_86569" [label=166; weight=166; penwidth=0.3; color = 3]
-	"server_86579" -> "react-router_86549" [label=130; weight=130; penwidth=0.3; color = 3]
-	"routes_86595" -> "react-router_86550" [label=71; weight=71; penwidth=0.3; color = 3]
-	"single-fetch_86599" -> "react-router_86549" [label=65; weight=65; penwidth=0.3; color = 3]
-	"context_86555" -> "router_86574" [label=58; weight=58; penwidth=0.3; color = 3]
-	"server_86579" -> "routeModules_86568" [label=55; weight=55; penwidth=0.3; color = 3]
-	"headers_86591" -> "routeModules_86568" [label=45; weight=45; penwidth=0.3; color = 3]
-	"routeModules_86568" -> "react-router_86549" [label=45; weight=45; penwidth=0.3; color = 3]
-	"react-router_86550" -> "react-router_86549" [label=44; weight=44; penwidth=0.3; color = 3]
-	"router_86574" -> "url_86575" [label=39; weight=39; penwidth=0.3; color = 3]
-	"react-router_86550" -> "server_86579" [label=29; weight=29; penwidth=0.3; color = 3]
-	"server_86579" -> "fog-of-war_86564" [label=26; weight=26; penwidth=0.3; color = 3]
-	"single-fetch_86599" -> "headers_86591" [label=26; weight=26; penwidth=0.3; color = 3]
-	"routeModules_86568" -> "history_86569" [label=23; weight=23; penwidth=0.3; color = 3]
-	"react-router_86549" -> "react-router_86550" [label=18; weight=18; penwidth=0.3; color = 3]
-	"fog-of-war_86564" -> "history_86569" [label=13; weight=13; penwidth=0.3; color = 3]
-	"history_86569" -> "url_86575" [label=13; weight=13; penwidth=0.3; color = 3]
-	"server_86579" -> "headers_86591" [label=13; weight=13; penwidth=0.3; color = 3]
-	"fog-of-war_86564" -> "routeModules_86568" [label=10; weight=10; penwidth=0.3; color = 3]
-	"react-router_86550" -> "history_86569" [label=10; weight=10; penwidth=0.3; color = 3]
-	"react-router_86549" -> "server_86579" [label=9; weight=9; penwidth=0.3; color = 3]
-	"react-router_86550" -> "context_86555" [label=8; weight=8; penwidth=0.3; color = 3]
-	"react-router_86550" -> "router_86574" [label=8; weight=8; penwidth=0.3; color = 3]
-	"links_86566" -> "history_86569" [label=3; weight=3; penwidth=0.3; color = 3]
-	"react-router_86550" -> "routeModules_86568" [label=3; weight=3; penwidth=0.3; color = 3]
-	"routes_86595" -> "react-router_86549" [label=3; weight=3; penwidth=0.3; color = 3]
-	"server_86579" -> "history_86569" [label=3; weight=3; penwidth=0.3; color = 3]
-	"react-router_86550" -> "fog-of-war_86564" [label=2; weight=2; penwidth=0.3; color = 3]
-	"react-router_86549" -> "router_86574" [label=1; weight=1; penwidth=0.3; color = 3]
+	"create-react-router_7640" [label = "create-react-router"; ]; "create-react-router_7640" -> central [label=1120; weight=1120; penwidth=2.9];
+	"prompts-multi-select_7644" [label = "prompts-multi-select"; ]; "prompts-multi-select_7644" -> central [label=605; weight=605; penwidth=1.8];
+	"prompts-select_7646" [label = "prompts-select"; ]; "prompts-select_7646" -> central [label=550; weight=550; penwidth=1.6];
+	"prompts-confirm_7643" [label = "prompts-confirm"; ]; "prompts-confirm_7643" -> central [label=385; weight=385; penwidth=1.3];
+	"prompts-text_7647" [label = "prompts-text"; ]; "prompts-text_7647" -> central [label=385; weight=385; penwidth=1.3];
+	"prompts-prompt-base_7645" [label = "prompts-prompt-base"; ]; "prompts-prompt-base_7645" -> central [label=110; weight=110; penwidth=0.6];
+	"loading-indicator_7641" [label = "loading-indicator"; ]; "loading-indicator_7641" -> central [label=90; weight=90; penwidth=0.6];
+	"copy-template_7639" [label = "copy-template"; ]; "copy-template_7639" -> central [label=50; weight=50; penwidth=0.5];
+	"prompt_7642" [label = "prompt"; ]; "prompt_7642" -> central [label=40; weight=40; penwidth=0.5];
+	"prompts-confirm_7643" -> "prompts-prompt-base_7645" [label=562; weight=562; penwidth=0.3; color = 3]
+	"prompts-multi-select_7644" -> "prompts-prompt-base_7645" [label=562; weight=562; penwidth=0.3; color = 3]
+	"prompts-select_7646" -> "prompts-prompt-base_7645" [label=562; weight=562; penwidth=0.3; color = 3]
+	"prompts-text_7647" -> "prompts-prompt-base_7645" [label=562; weight=562; penwidth=0.3; color = 3]
+	"create-react-router_7640" -> "prompt_7642" [label=75; weight=75; penwidth=0.3; color = 3]
+	"prompt_7642" -> "prompts-text_7647" [label=40; weight=40; penwidth=0.3; color = 3]
+	"prompt_7642" -> "prompts-confirm_7643" [label=40; weight=40; penwidth=0.3; color = 3]
+	"prompt_7642" -> "prompts-select_7646" [label=35; weight=35; penwidth=0.3; color = 3]
+	"prompt_7642" -> "prompts-multi-select_7644" [label=30; weight=30; penwidth=0.3; color = 3]
+	"create-react-router_7640" -> "copy-template_7639" [label=20; weight=20; penwidth=0.3; color = 3]
+	"create-react-router_7640" -> "loading-indicator_7641" [label=10; weight=10; penwidth=0.3; color = 3]
+	"prompts-multi-select_7644" -> "prompts-select_7646" [label=5; weight=5; penwidth=0.3; color = 3]
 }

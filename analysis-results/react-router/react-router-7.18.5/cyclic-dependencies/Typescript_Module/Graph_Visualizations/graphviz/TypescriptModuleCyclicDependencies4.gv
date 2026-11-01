@@ -1,0 +1,34 @@
+strict digraph cycle {
+    graph [layout = "fdp"; start = "7"; splines = "curved"; pad = "0.8,0.4"; outputorder = "edgesfirst";];
+    graph [fontname = "Helvetica,Arial,sans-serif"; labelloc = "t";];
+    node [fontname = "Helvetica,Arial,sans-serif"; style = "filled"; fillcolor = "white";];
+    node [fontsize = 11; margin = "0.05,0.05";];
+    edge [fontsize = 9; arrowsize = "0.6";];
+
+    subgraph cluster_package {
+        label="./lib/server-runtime/data.ts";
+        style="filled";
+        fillcolor="lightblue";
+        "callRouteHandler";
+        "AppLoadContext";
+    }
+
+    subgraph cluster_dependent {
+        label="./index.ts";
+        style="filled";
+        fillcolor="peachpuff";
+        "ActionFunction";
+        "DataWithResponseInit";
+        "LoaderFunctionArgs";
+        "ActionFunctionArgs";
+        "RequestHandler";
+        "LoaderFunction";
+    }
+
+    "callRouteHandler" -> "LoaderFunction" [color="#6699CC"; penwidth="0.5"];
+    "callRouteHandler" -> "ActionFunction" [color="#6699CC"; penwidth="0.5"];
+    "callRouteHandler" -> "DataWithResponseInit" [color="#6699CC"; penwidth="0.5"];
+    "callRouteHandler" -> "LoaderFunctionArgs" [color="#6699CC"; penwidth="0.5"];
+    "callRouteHandler" -> "ActionFunctionArgs" [color="#6699CC"; penwidth="0.5"];
+    "RequestHandler" -> "AppLoadContext" [color="red"; penwidth="2.5"; style="dashed";];
+}

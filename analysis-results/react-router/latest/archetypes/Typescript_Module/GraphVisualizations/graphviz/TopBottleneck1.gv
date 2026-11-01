@@ -12,27 +12,27 @@ strict digraph TopBottleneck1 {
     central [fontsize = 16;];
     central [color = 7; fillcolor = 5; penwidth = 3;];
 
-	graph   [label="Top Rank #1 Typescript Module Bottleneck\n/home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.18.4/source/react-router-7.18.4/packages/react-router/lib/router/instrumentation.ts\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: Betweenness centrality\nthick outline: > 90% percentile of Betweenness centrality\n\n"];
+	graph   [label="Top Rank #1 Typescript Module Bottleneck\n/home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.18.5/source/react-router-7.18.5/packages/react-router/lib/router/instrumentation.ts\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: Betweenness centrality\nthick outline: > 90% percentile of Betweenness centrality\n\n"];
 	central [label="🔒 bottleneck #1\ninstrumentation"];
-	"router_98345"  [label = "router\n(424.0)"; penwidth = 5; ]; "router_98345" -> central [label=4; weight=4; penwidth=0.4];
-	"react-router_98321"  [label = "react-router\n(0.0)"; penwidth = 2; ]; "react-router_98321" -> central [label=1; weight=1; penwidth=0.4];
-	"history_98340"  [label = "history\n(23.0)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "history_98340" [label=4; weight=4; penwidth=0.4; color = 5];
-	"router_98345"  [label = "router\n(424.0)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "router_98345" [label=4; weight=4; penwidth=0.4; color = 5];
-	"utils_98347"  [label = "utils\n(6.0)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "utils_98347" [label=4; weight=4; penwidth=0.4; color = 5];
-	"server_98367"  [label = "server\n(411.0)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "server_98367" [label=1; weight=1; penwidth=0.4; color = 5];
-	"data_98358"  [label = "data\n(166.0)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "data_98358" [label=0; weight=0; penwidth=0.4; color = 5];
-	"router_98345" -> "utils_98347" [label=230; weight=230; penwidth=0.3; color = 3]
-	"router_98345" -> "history_98340" [label=147; weight=147; penwidth=0.3; color = 3]
-	"utils_98347" -> "history_98340" [label=33; weight=33; penwidth=0.3; color = 3]
-	"react-router_98321" -> "utils_98347" [label=21; weight=21; penwidth=0.3; color = 3]
-	"server_98367" -> "router_98345" [label=18; weight=18; penwidth=0.3; color = 3]
-	"server_98367" -> "utils_98347" [label=15; weight=15; penwidth=0.3; color = 3]
-	"react-router_98321" -> "history_98340" [label=10; weight=10; penwidth=0.3; color = 3]
-	"react-router_98321" -> "router_98345" [label=8; weight=8; penwidth=0.3; color = 3]
-	"data_98358" -> "utils_98347" [label=5; weight=5; penwidth=0.3; color = 3]
-	"data_98358" -> "router_98345" [label=2; weight=2; penwidth=0.3; color = 3]
-	"react-router_98321" -> "server_98367" [label=1; weight=1; penwidth=0.3; color = 3]
-	"server_98367" -> "data_98358" [label=1; weight=1; penwidth=0.3; color = 3]
-	"react-router_98321" -> "data_98358" [label=0; weight=0; penwidth=0.3; color = 3]
-	"server_98367" -> "history_98340" [label=0; weight=0; penwidth=0.3; color = 3]
+	"router_98377"  [label = "router\n(424.0)"; penwidth = 5; ]; "router_98377" -> central [label=4; weight=4; penwidth=0.4];
+	"react-router_98353"  [label = "react-router\n(0.0)"; penwidth = 2; ]; "react-router_98353" -> central [label=1; weight=1; penwidth=0.4];
+	"history_98372"  [label = "history\n(23.0)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "history_98372" [label=4; weight=4; penwidth=0.4; color = 5];
+	"router_98377"  [label = "router\n(424.0)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "router_98377" [label=4; weight=4; penwidth=0.4; color = 5];
+	"utils_98379"  [label = "utils\n(6.0)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "utils_98379" [label=4; weight=4; penwidth=0.4; color = 5];
+	"server_98399"  [label = "server\n(411.0)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "server_98399" [label=1; weight=1; penwidth=0.4; color = 5];
+	"data_98390"  [label = "data\n(166.0)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "data_98390" [label=0; weight=0; penwidth=0.4; color = 5];
+	"router_98377" -> "utils_98379" [label=230; weight=230; penwidth=0.3; color = 3]
+	"router_98377" -> "history_98372" [label=147; weight=147; penwidth=0.3; color = 3]
+	"utils_98379" -> "history_98372" [label=33; weight=33; penwidth=0.3; color = 3]
+	"react-router_98353" -> "utils_98379" [label=21; weight=21; penwidth=0.3; color = 3]
+	"server_98399" -> "router_98377" [label=19; weight=19; penwidth=0.3; color = 3]
+	"server_98399" -> "utils_98379" [label=15; weight=15; penwidth=0.3; color = 3]
+	"react-router_98353" -> "history_98372" [label=10; weight=10; penwidth=0.3; color = 3]
+	"react-router_98353" -> "router_98377" [label=8; weight=8; penwidth=0.3; color = 3]
+	"data_98390" -> "utils_98379" [label=5; weight=5; penwidth=0.3; color = 3]
+	"data_98390" -> "router_98377" [label=2; weight=2; penwidth=0.3; color = 3]
+	"react-router_98353" -> "server_98399" [label=1; weight=1; penwidth=0.3; color = 3]
+	"server_98399" -> "data_98390" [label=1; weight=1; penwidth=0.3; color = 3]
+	"react-router_98353" -> "data_98390" [label=0; weight=0; penwidth=0.3; color = 3]
+	"server_98399" -> "history_98372" [label=0; weight=0; penwidth=0.3; color = 3]
 }

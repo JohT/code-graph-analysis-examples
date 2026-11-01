@@ -12,43 +12,43 @@ strict digraph TopBottleneck2 {
     central [fontsize = 16;];
     central [color = 7; fillcolor = 5; penwidth = 3;];
 
-	graph   [label="Top Rank #2 Typescript Module Bottleneck\n/home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.18.4/source/react-router-7.18.4/packages/react-router/lib/router/router.ts\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: Betweenness centrality\nthick outline: > 90% percentile of Betweenness centrality\n\n"];
+	graph   [label="Top Rank #2 Typescript Module Bottleneck\n/home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.18.5/source/react-router-7.18.5/packages/react-router/lib/router/router.ts\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: Betweenness centrality\nthick outline: > 90% percentile of Betweenness centrality\n\n"];
 	central [label="🔒 bottleneck #2\nrouter"];
-	"server_98350"  [label = "server\n(2.0)"; penwidth = 2; ]; "server_98350" -> central [label=25; weight=25; penwidth=0.5];
-	"single-fetch_98370"  [label = "single-fetch\n(96.0)"; penwidth = 2; ]; "single-fetch_98370" -> central [label=10; weight=10; penwidth=0.4];
-	"react-router_98321"  [label = "react-router\n(0.0)"; penwidth = 2; ]; "react-router_98321" -> central [label=8; weight=8; penwidth=0.4];
-	"fog-of-war_98335"  [label = "fog-of-war\n(0.0)"; penwidth = 2; ]; "fog-of-war_98335" -> central [label=4; weight=4; penwidth=0.4];
-	"headers_98362"  [label = "headers\n(59.0)"; penwidth = 2; ]; "headers_98362" -> central [label=2; weight=2; penwidth=0.4];
-	"context_98326"  [label = "context\n(63.0)"; penwidth = 2; ]; "context_98326" -> central [label=1; weight=1; penwidth=0.4];
-	"react-router_98320"  [label = "react-router\n(0.0)"; penwidth = 2; ]; "react-router_98320" -> central [label=1; weight=1; penwidth=0.4];
-	"utils_98347"  [label = "utils\n(6.0)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "utils_98347" [label=230; weight=230; penwidth=0.9; color = 5];
-	"history_98340"  [label = "history\n(23.0)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "history_98340" [label=147; weight=147; penwidth=0.7; color = 5];
-	"instrumentation_98342"  [label = "instrumentation\n(444.5)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "instrumentation_98342" [label=4; weight=4; penwidth=0.4; color = 5];
-	"navigation_98344"  [label = "navigation\n(22.0)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "navigation_98344" [label=3; weight=3; penwidth=0.4; color = 5];
-	"url_98346"  [label = "url\n(0.0)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "url_98346" [label=3; weight=3; penwidth=0.4; color = 5];
-	"utils_98347" -> "history_98340" [label=33; weight=33; penwidth=0.3; color = 3]
-	"server_98350" -> "utils_98347" [label=22; weight=22; penwidth=0.3; color = 3]
-	"react-router_98321" -> "utils_98347" [label=21; weight=21; penwidth=0.3; color = 3]
-	"react-router_98321" -> "history_98340" [label=10; weight=10; penwidth=0.3; color = 3]
-	"react-router_98320" -> "server_98350" [label=9; weight=9; penwidth=0.3; color = 3]
-	"react-router_98321" -> "context_98326" [label=8; weight=8; penwidth=0.3; color = 3]
-	"single-fetch_98370" -> "utils_98347" [label=8; weight=8; penwidth=0.3; color = 3]
-	"react-router_98320" -> "utils_98347" [label=6; weight=6; penwidth=0.3; color = 3]
-	"react-router_98321" -> "server_98350" [label=5; weight=5; penwidth=0.3; color = 3]
-	"instrumentation_98342" -> "history_98340" [label=4; weight=4; penwidth=0.3; color = 3]
-	"instrumentation_98342" -> "utils_98347" [label=4; weight=4; penwidth=0.3; color = 3]
-	"utils_98347" -> "url_98346" [label=4; weight=4; penwidth=0.3; color = 3]
-	"fog-of-war_98335" -> "utils_98347" [label=3; weight=3; penwidth=0.3; color = 3]
-	"context_98326" -> "history_98340" [label=2; weight=2; penwidth=0.3; color = 3]
-	"context_98326" -> "utils_98347" [label=2; weight=2; penwidth=0.3; color = 3]
-	"react-router_98321" -> "fog-of-war_98335" [label=2; weight=2; penwidth=0.3; color = 3]
-	"server_98350" -> "fog-of-war_98335" [label=2; weight=2; penwidth=0.3; color = 3]
-	"single-fetch_98370" -> "headers_98362" [label=2; weight=2; penwidth=0.3; color = 3]
-	"fog-of-war_98335" -> "history_98340" [label=1; weight=1; penwidth=0.3; color = 3]
-	"history_98340" -> "url_98346" [label=1; weight=1; penwidth=0.3; color = 3]
-	"navigation_98344" -> "context_98326" [label=1; weight=1; penwidth=0.3; color = 3]
-	"react-router_98321" -> "instrumentation_98342" [label=1; weight=1; penwidth=0.3; color = 3]
-	"server_98350" -> "headers_98362" [label=1; weight=1; penwidth=0.3; color = 3]
-	"headers_98362" -> "utils_98347" [label=0; weight=0; penwidth=0.3; color = 3]
-	"server_98350" -> "history_98340" [label=0; weight=0; penwidth=0.3; color = 3]
+	"server_98382"  [label = "server\n(2.0)"; penwidth = 2; ]; "server_98382" -> central [label=25; weight=25; penwidth=0.5];
+	"single-fetch_98402"  [label = "single-fetch\n(96.0)"; penwidth = 2; ]; "single-fetch_98402" -> central [label=10; weight=10; penwidth=0.4];
+	"react-router_98353"  [label = "react-router\n(0.0)"; penwidth = 2; ]; "react-router_98353" -> central [label=8; weight=8; penwidth=0.4];
+	"fog-of-war_98367"  [label = "fog-of-war\n(0.0)"; penwidth = 2; ]; "fog-of-war_98367" -> central [label=4; weight=4; penwidth=0.4];
+	"headers_98394"  [label = "headers\n(59.0)"; penwidth = 2; ]; "headers_98394" -> central [label=2; weight=2; penwidth=0.4];
+	"context_98358"  [label = "context\n(63.0)"; penwidth = 2; ]; "context_98358" -> central [label=1; weight=1; penwidth=0.4];
+	"react-router_98352"  [label = "react-router\n(0.0)"; penwidth = 2; ]; "react-router_98352" -> central [label=1; weight=1; penwidth=0.4];
+	"utils_98379"  [label = "utils\n(6.0)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "utils_98379" [label=230; weight=230; penwidth=0.9; color = 5];
+	"history_98372"  [label = "history\n(23.0)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "history_98372" [label=147; weight=147; penwidth=0.7; color = 5];
+	"instrumentation_98374"  [label = "instrumentation\n(444.5)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "instrumentation_98374" [label=4; weight=4; penwidth=0.4; color = 5];
+	"navigation_98376"  [label = "navigation\n(22.0)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "navigation_98376" [label=3; weight=3; penwidth=0.4; color = 5];
+	"url_98378"  [label = "url\n(0.0)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "url_98378" [label=3; weight=3; penwidth=0.4; color = 5];
+	"utils_98379" -> "history_98372" [label=33; weight=33; penwidth=0.3; color = 3]
+	"server_98382" -> "utils_98379" [label=22; weight=22; penwidth=0.3; color = 3]
+	"react-router_98353" -> "utils_98379" [label=21; weight=21; penwidth=0.3; color = 3]
+	"react-router_98353" -> "history_98372" [label=10; weight=10; penwidth=0.3; color = 3]
+	"react-router_98352" -> "server_98382" [label=9; weight=9; penwidth=0.3; color = 3]
+	"react-router_98353" -> "context_98358" [label=8; weight=8; penwidth=0.3; color = 3]
+	"single-fetch_98402" -> "utils_98379" [label=8; weight=8; penwidth=0.3; color = 3]
+	"react-router_98352" -> "utils_98379" [label=6; weight=6; penwidth=0.3; color = 3]
+	"react-router_98353" -> "server_98382" [label=5; weight=5; penwidth=0.3; color = 3]
+	"instrumentation_98374" -> "utils_98379" [label=4; weight=4; penwidth=0.3; color = 3]
+	"instrumentation_98374" -> "history_98372" [label=4; weight=4; penwidth=0.3; color = 3]
+	"utils_98379" -> "url_98378" [label=4; weight=4; penwidth=0.3; color = 3]
+	"fog-of-war_98367" -> "utils_98379" [label=3; weight=3; penwidth=0.3; color = 3]
+	"server_98382" -> "fog-of-war_98367" [label=3; weight=3; penwidth=0.3; color = 3]
+	"context_98358" -> "history_98372" [label=2; weight=2; penwidth=0.3; color = 3]
+	"context_98358" -> "utils_98379" [label=2; weight=2; penwidth=0.3; color = 3]
+	"react-router_98353" -> "fog-of-war_98367" [label=2; weight=2; penwidth=0.3; color = 3]
+	"single-fetch_98402" -> "headers_98394" [label=2; weight=2; penwidth=0.3; color = 3]
+	"fog-of-war_98367" -> "history_98372" [label=1; weight=1; penwidth=0.3; color = 3]
+	"history_98372" -> "url_98378" [label=1; weight=1; penwidth=0.3; color = 3]
+	"navigation_98376" -> "context_98358" [label=1; weight=1; penwidth=0.3; color = 3]
+	"react-router_98353" -> "instrumentation_98374" [label=1; weight=1; penwidth=0.3; color = 3]
+	"server_98382" -> "headers_98394" [label=1; weight=1; penwidth=0.3; color = 3]
+	"headers_98394" -> "utils_98379" [label=0; weight=0; penwidth=0.3; color = 3]
+	"server_98382" -> "history_98372" [label=0; weight=0; penwidth=0.3; color = 3]
 }

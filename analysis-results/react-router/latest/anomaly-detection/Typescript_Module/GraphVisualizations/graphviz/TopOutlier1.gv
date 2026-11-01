@@ -12,9 +12,9 @@ strict digraph TopOutlier1 {
     central [fontsize = 16;];
     central [color = 7; fillcolor = 5; penwidth = 3;];
 
-	graph   [label="Top Rank #1 Typescript Module Outlier\n/home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.18.4/source/react-router-7.18.4/packages/react-router-dev/vite/profiler.ts\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: cluster probability\nlarge circle: < 25% percentile of cluster probability\nthick outline: > 80% percentile of distance to cluster center\n\n"];
+	graph   [label="Top Rank #1 Typescript Module Outlier\n/home/runner/work/code-graph-analysis-examples/code-graph-analysis-examples/temp/react-router-7.18.5/source/react-router-7.18.5/packages/react-router-dev/vite/profiler.ts\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: cluster probability\nlarge circle: < 25% percentile of cluster probability\nthick outline: > 80% percentile of distance to cluster center\n\n"];
 	central [label="🧩 outlier #1\nprofiler"];
-	"commands_14785"  [shape = "circle"; height=1.8; label = "commands\n(9.11%)"; penwidth = 2; ]; "commands_14785" -> central [label=8; weight=8; penwidth=0.4];
-	"dev_14809"  [shape = "circle"; height=1.8; label = "dev\n(8.16%)"; penwidth = 5; ]; "dev_14809" -> central [label=6; weight=6; penwidth=0.4];
+	"commands_14785"  [shape = "circle"; height=1.8; label = "commands\n(10.25%)"; penwidth = 2; ]; "commands_14785" -> central [label=8; weight=8; penwidth=0.4];
+	"dev_14809"  [shape = "circle"; height=1.8; label = "dev\n(9.68%)"; penwidth = 5; ]; "dev_14809" -> central [label=6; weight=6; penwidth=0.4];
 	"commands_14785" -> "dev_14809" [label=1; weight=1; penwidth=0.3; color = 3]
 }

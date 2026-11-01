@@ -1,0 +1,38 @@
+strict digraph cycle {
+    graph [layout = "fdp"; start = "7"; splines = "curved"; pad = "0.8,0.4"; outputorder = "edgesfirst";];
+    graph [fontname = "Helvetica,Arial,sans-serif"; labelloc = "t";];
+    node [fontname = "Helvetica,Arial,sans-serif"; style = "filled"; fillcolor = "white";];
+    node [fontsize = 11; margin = "0.05,0.05";];
+    edge [fontsize = 9; arrowsize = "0.6";];
+
+    subgraph cluster_package {
+        label="./lib/server-runtime/routes.ts";
+        style="filled";
+        fillcolor="lightblue";
+        "ServerRouteManifest";
+        "createStaticHandlerDataRoutes";
+    }
+
+    subgraph cluster_dependent {
+        label="./index.ts";
+        style="filled";
+        fillcolor="peachpuff";
+        "MiddlewareFunction";
+        "replace";
+        "decodeViaTurboStream";
+        "redirect";
+        "ServerBuild";
+        "DataRouteObject";
+        "redirectDocument";
+        "SingleFetchRedirectSymbol";
+    }
+
+    "createStaticHandlerDataRoutes" -> "redirectDocument" [color="#6699CC"; penwidth="0.5"];
+    "createStaticHandlerDataRoutes" -> "decodeViaTurboStream" [color="#6699CC"; penwidth="0.5"];
+    "createStaticHandlerDataRoutes" -> "redirect" [color="#6699CC"; penwidth="0.5"];
+    "createStaticHandlerDataRoutes" -> "MiddlewareFunction" [color="#6699CC"; penwidth="0.5"];
+    "createStaticHandlerDataRoutes" -> "SingleFetchRedirectSymbol" [color="#6699CC"; penwidth="0.5"];
+    "createStaticHandlerDataRoutes" -> "DataRouteObject" [color="#6699CC"; penwidth="0.5"];
+    "createStaticHandlerDataRoutes" -> "replace" [color="#6699CC"; penwidth="0.5"];
+    "ServerBuild" -> "ServerRouteManifest" [color="red"; penwidth="2.5"; style="dashed";];
+}
