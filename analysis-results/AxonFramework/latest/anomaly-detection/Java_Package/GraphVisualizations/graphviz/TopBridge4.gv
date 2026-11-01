@@ -12,170 +12,179 @@ strict digraph TopBridge4 {
     central [fontsize = 16;];
     central [color = 7; fillcolor = 5; penwidth = 3;];
 
-	graph   [label="Top Rank #4 Java Package Bridge\norg.axonframework.conversion\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
-	central [label="🌉 bridge #4\nconversion"];
-	"avro_44705" [label = "avro"; ]; "avro_44705" -> central [label=52; weight=52; penwidth=1.3];
-	"jackson_44702" [label = "jackson"; ]; "jackson_44702" -> central [label=24; weight=24; penwidth=0.8];
-	"jackson2_44704" [label = "jackson2"; ]; "jackson2_44704" -> central [label=24; weight=24; penwidth=0.8];
-	"queryhandling_6384" [label = "queryhandling"; ]; "queryhandling_6384" -> central [label=10; weight=10; penwidth=0.6];
-	"core_6390" [label = "core"; ]; "core_6390" -> central [label=9; weight=9; penwidth=0.6];
-	"commandhandling_6355" [label = "commandhandling"; ]; "commandhandling_6355" -> central [label=5; weight=5; penwidth=0.5];
-	"converter_44703" [label = "converter"; ]; "converter_44703" -> central [label=5; weight=5; penwidth=0.5];
-	"annotation_22" [label = "annotation"; ]; "annotation_22" -> central [label=4; weight=4; penwidth=0.5];
-	"configuration_6405" [label = "configuration"; ]; "configuration_6405" -> central [label=4; weight=4; penwidth=0.5];
-	"eventhandling_6362" [label = "eventhandling"; ]; "eventhandling_6362" -> central [label=4; weight=4; penwidth=0.5];
-	"replay_6364" [label = "replay"; ]; "replay_6364" -> central [label=4; weight=4; penwidth=0.5];
-	"gateway_6358" [label = "gateway"; ]; "gateway_6358" -> central [label=2; weight=2; penwidth=0.4];
-	"jdbc_6375" [label = "jdbc"; ]; "jdbc_6375" -> central [label=2; weight=2; penwidth=0.4];
-	"jpa_6376" [label = "jpa"; ]; "jpa_6376" -> central [label=2; weight=2; penwidth=0.4];
-	"autoconfig_45862" [label = "autoconfig"; ]; "autoconfig_45862" -> central [label=1; weight=1; penwidth=0.4];
-	"conversion_6397" [label = "conversion"; ]; "conversion_6397" -> central [label=1; weight=1; penwidth=0.4];
-	"handler_39280" [label = "handler"; ]; "handler_39280" -> central [label=1; weight=1; penwidth=0.4];
-	"jpa_6403" [label = "jpa"; ]; "jpa_6403" -> central [label=1; weight=1; penwidth=0.4];
-	"pooled_6377" [label = "pooled"; ]; "pooled_6377" -> central [label=1; weight=1; penwidth=0.4];
-	"query_27099" [label = "query"; ]; "query_27099" -> central [label=1; weight=1; penwidth=0.4];
-	"snapshot_27097" [label = "snapshot"; ]; "snapshot_27097" -> central [label=1; weight=1; penwidth=0.4];
-	"token_6371" [label = "token"; ]; "token_6371" -> central [label=1; weight=1; penwidth=0.4];
-	"annotation_6365" [label = "annotation"; ]; "annotation_6365" -> central [label=0; weight=0; penwidth=0.4];
-	"command_27105" [label = "command"; ]; "command_27105" -> central [label=0; weight=0; penwidth=0.4];
-	"configuration_27104" [label = "configuration"; ]; "configuration_27104" -> central [label=0; weight=0; penwidth=0.4];
-	"configuration_39284" [label = "configuration"; ]; "configuration_39284" -> central [label=0; weight=0; penwidth=0.4];
-	"conversion_6368" [label = "conversion"; ]; "conversion_6368" -> central [label=0; weight=0; penwidth=0.4];
-	"jpa_39283" [label = "jpa"; ]; "jpa_39283" -> central [label=0; weight=0; penwidth=0.4];
-	"sequencing_6396" [label = "sequencing"; ]; "sequencing_6396" -> central [label=0; weight=0; penwidth=0.4];
-	"common_32303" [label = "common"; color = 5; fillcolor = 1; ]; central -> "common_32303" [label=6; weight=6; penwidth=0.5; color = 5];
-	"annotation_32305" [label = "annotation"; color = 5; fillcolor = 1; ]; central -> "annotation_32305" [label=1; weight=1; penwidth=0.4; color = 5];
-	"infra_32312" [label = "infra"; color = 5; fillcolor = 1; ]; central -> "infra_32312" [label=1; weight=1; penwidth=0.4; color = 5];
-	"queryhandling_6384" -> "core_6390" [label=130; weight=130; penwidth=0.3; color = 3]
-	"commandhandling_6355" -> "core_6390" [label=68; weight=68; penwidth=0.3; color = 3]
-	"pooled_6377" -> "common_32303" [label=61; weight=61; penwidth=0.3; color = 3]
-	"eventhandling_6362" -> "core_6390" [label=59; weight=59; penwidth=0.3; color = 3]
-	"core_6390" -> "common_32303" [label=44; weight=44; penwidth=0.3; color = 3]
-	"pooled_6377" -> "core_6390" [label=44; weight=44; penwidth=0.3; color = 3]
-	"query_27099" -> "core_6390" [label=38; weight=38; penwidth=0.3; color = 3]
-	"jpa_39283" -> "token_6371" [label=34; weight=34; penwidth=0.3; color = 3]
-	"pooled_6377" -> "token_6371" [label=30; weight=30; penwidth=0.3; color = 3]
-	"replay_6364" -> "core_6390" [label=28; weight=28; penwidth=0.3; color = 3]
-	"annotation_22" -> "common_32303" [label=26; weight=26; penwidth=0.3; color = 3]
-	"annotation_22" -> "core_6390" [label=25; weight=25; penwidth=0.3; color = 3]
-	"configuration_39284" -> "common_32303" [label=22; weight=22; penwidth=0.3; color = 3]
-	"query_27099" -> "queryhandling_6384" [label=22; weight=22; penwidth=0.3; color = 3]
-	"queryhandling_6384" -> "common_32303" [label=22; weight=22; penwidth=0.3; color = 3]
-	"gateway_6358" -> "core_6390" [label=20; weight=20; penwidth=0.3; color = 3]
-	"pooled_6377" -> "eventhandling_6362" [label=20; weight=20; penwidth=0.3; color = 3]
-	"jpa_39283" -> "common_32303" [label=19; weight=19; penwidth=0.3; color = 3]
-	"command_27105" -> "core_6390" [label=17; weight=17; penwidth=0.3; color = 3]
-	"jpa_39283" -> "core_6390" [label=17; weight=17; penwidth=0.3; color = 3]
-	"commandhandling_6355" -> "common_32303" [label=15; weight=15; penwidth=0.3; color = 3]
-	"jpa_6376" -> "common_32303" [label=15; weight=15; penwidth=0.3; color = 3]
-	"gateway_6358" -> "commandhandling_6355" [label=14; weight=14; penwidth=0.3; color = 3]
-	"jdbc_6375" -> "common_32303" [label=13; weight=13; penwidth=0.3; color = 3]
-	"command_27105" -> "commandhandling_6355" [label=12; weight=12; penwidth=0.3; color = 3]
-	"replay_6364" -> "common_32303" [label=11; weight=11; penwidth=0.3; color = 3]
-	"configuration_6405" -> "queryhandling_6384" [label=10; weight=10; penwidth=0.3; color = 3]
-	"eventhandling_6362" -> "common_32303" [label=10; weight=10; penwidth=0.3; color = 3]
-	"query_27099" -> "common_32303" [label=10; weight=10; penwidth=0.3; color = 3]
-	"configuration_6405" -> "core_6390" [label=9; weight=9; penwidth=0.3; color = 3]
-	"handler_39280" -> "core_6390" [label=9; weight=9; penwidth=0.3; color = 3]
-	"annotation_22" -> "annotation_32305" [label=8; weight=8; penwidth=0.3; color = 3]
-	"configuration_6405" -> "commandhandling_6355" [label=8; weight=8; penwidth=0.3; color = 3]
-	"configuration_27104" -> "query_27099" [label=8; weight=8; penwidth=0.3; color = 3]
-	"configuration_27104" -> "command_27105" [label=8; weight=8; penwidth=0.3; color = 3]
-	"jpa_39283" -> "eventhandling_6362" [label=8; weight=8; penwidth=0.3; color = 3]
-	"sequencing_6396" -> "core_6390" [label=8; weight=8; penwidth=0.3; color = 3]
-	"annotation_6365" -> "replay_6364" [label=7; weight=7; penwidth=0.3; color = 3]
-	"core_6390" -> "annotation_32305" [label=7; weight=7; penwidth=0.3; color = 3]
-	"snapshot_27097" -> "core_6390" [label=7; weight=7; penwidth=0.3; color = 3]
-	"token_6371" -> "common_32303" [label=7; weight=7; penwidth=0.3; color = 3]
-	"configuration_39284" -> "handler_39280" [label=6; weight=6; penwidth=0.3; color = 3]
-	"eventhandling_6362" -> "sequencing_6396" [label=6; weight=6; penwidth=0.3; color = 3]
-	"eventhandling_6362" -> "annotation_32305" [label=6; weight=6; penwidth=0.3; color = 3]
-	"eventhandling_6362" -> "infra_32312" [label=6; weight=6; penwidth=0.3; color = 3]
-	"jdbc_6375" -> "token_6371" [label=6; weight=6; penwidth=0.3; color = 3]
-	"pooled_6377" -> "annotation_32305" [label=6; weight=6; penwidth=0.3; color = 3]
-	"pooled_6377" -> "infra_32312" [label=6; weight=6; penwidth=0.3; color = 3]
-	"token_6371" -> "core_6390" [label=6; weight=6; penwidth=0.3; color = 3]
-	"annotation_22" -> "commandhandling_6355" [label=5; weight=5; penwidth=0.3; color = 3]
-	"configuration_6405" -> "gateway_6358" [label=5; weight=5; penwidth=0.3; color = 3]
-	"configuration_6405" -> "conversion_6368" [label=5; weight=5; penwidth=0.3; color = 3]
-	"eventhandling_6362" -> "replay_6364" [label=5; weight=5; penwidth=0.3; color = 3]
-	"annotation_6365" -> "token_6371" [label=4; weight=4; penwidth=0.3; color = 3]
-	"annotation_32305" -> "common_32303" [label=4; weight=4; penwidth=0.3; color = 3]
-	"autoconfig_45862" -> "pooled_6377" [label=4; weight=4; penwidth=0.3; color = 3]
-	"command_27105" -> "common_32303" [label=4; weight=4; penwidth=0.3; color = 3]
-	"configuration_6405" -> "conversion_6397" [label=4; weight=4; penwidth=0.3; color = 3]
-	"configuration_39284" -> "annotation_22" [label=4; weight=4; penwidth=0.3; color = 3]
-	"conversion_6368" -> "conversion_6397" [label=4; weight=4; penwidth=0.3; color = 3]
-	"handler_39280" -> "infra_32312" [label=4; weight=4; penwidth=0.3; color = 3]
-	"handler_39280" -> "annotation_32305" [label=4; weight=4; penwidth=0.3; color = 3]
-	"jpa_6376" -> "token_6371" [label=4; weight=4; penwidth=0.3; color = 3]
-	"jpa_6403" -> "core_6390" [label=4; weight=4; penwidth=0.3; color = 3]
-	"query_27099" -> "annotation_32305" [label=4; weight=4; penwidth=0.3; color = 3]
-	"queryhandling_6384" -> "infra_32312" [label=4; weight=4; penwidth=0.3; color = 3]
-	"replay_6364" -> "annotation_32305" [label=4; weight=4; penwidth=0.3; color = 3]
-	"annotation_22" -> "conversion_6397" [label=3; weight=3; penwidth=0.3; color = 3]
-	"autoconfig_45862" -> "jpa_6403" [label=3; weight=3; penwidth=0.3; color = 3]
-	"configuration_6405" -> "sequencing_6396" [label=3; weight=3; penwidth=0.3; color = 3]
-	"configuration_39284" -> "core_6390" [label=3; weight=3; penwidth=0.3; color = 3]
-	"configuration_39284" -> "annotation_32305" [label=3; weight=3; penwidth=0.3; color = 3]
-	"gateway_6358" -> "infra_32312" [label=3; weight=3; penwidth=0.3; color = 3]
-	"handler_39280" -> "eventhandling_6362" [label=3; weight=3; penwidth=0.3; color = 3]
-	"infra_32312" -> "common_32303" [label=3; weight=3; penwidth=0.3; color = 3]
-	"replay_6364" -> "eventhandling_6362" [label=3; weight=3; penwidth=0.3; color = 3]
-	"annotation_22" -> "infra_32312" [label=2; weight=2; penwidth=0.3; color = 3]
-	"annotation_6365" -> "annotation_32305" [label=2; weight=2; penwidth=0.3; color = 3]
-	"annotation_6365" -> "core_6390" [label=2; weight=2; penwidth=0.3; color = 3]
-	"commandhandling_6355" -> "infra_32312" [label=2; weight=2; penwidth=0.3; color = 3]
-	"configuration_6405" -> "eventhandling_6362" [label=2; weight=2; penwidth=0.3; color = 3]
-	"configuration_6405" -> "jackson_44702" [label=2; weight=2; penwidth=0.3; color = 3]
-	"configuration_27104" -> "conversion_6397" [label=2; weight=2; penwidth=0.3; color = 3]
-	"configuration_27104" -> "snapshot_27097" [label=2; weight=2; penwidth=0.3; color = 3]
-	"configuration_39284" -> "eventhandling_6362" [label=2; weight=2; penwidth=0.3; color = 3]
-	"configuration_39284" -> "commandhandling_6355" [label=2; weight=2; penwidth=0.3; color = 3]
-	"conversion_6397" -> "core_6390" [label=2; weight=2; penwidth=0.3; color = 3]
-	"conversion_6368" -> "eventhandling_6362" [label=2; weight=2; penwidth=0.3; color = 3]
-	"pooled_6377" -> "replay_6364" [label=2; weight=2; penwidth=0.3; color = 3]
-	"sequencing_6396" -> "common_32303" [label=2; weight=2; penwidth=0.3; color = 3]
-	"annotation_22" -> "conversion_6368" [label=1; weight=1; penwidth=0.3; color = 3]
-	"annotation_22" -> "eventhandling_6362" [label=1; weight=1; penwidth=0.3; color = 3]
-	"annotation_6365" -> "eventhandling_6362" [label=1; weight=1; penwidth=0.3; color = 3]
-	"autoconfig_45862" -> "conversion_6368" [label=1; weight=1; penwidth=0.3; color = 3]
-	"autoconfig_45862" -> "configuration_27104" [label=1; weight=1; penwidth=0.3; color = 3]
-	"avro_44705" -> "annotation_32305" [label=1; weight=1; penwidth=0.3; color = 3]
-	"avro_44705" -> "common_32303" [label=1; weight=1; penwidth=0.3; color = 3]
-	"avro_44705" -> "infra_32312" [label=1; weight=1; penwidth=0.3; color = 3]
-	"command_27105" -> "annotation_32305" [label=1; weight=1; penwidth=0.3; color = 3]
-	"command_27105" -> "infra_32312" [label=1; weight=1; penwidth=0.3; color = 3]
-	"configuration_27104" -> "common_32303" [label=1; weight=1; penwidth=0.3; color = 3]
-	"configuration_39284" -> "conversion_6397" [label=1; weight=1; penwidth=0.3; color = 3]
-	"configuration_39284" -> "configuration_6405" [label=1; weight=1; penwidth=0.3; color = 3]
-	"configuration_39284" -> "conversion_6368" [label=1; weight=1; penwidth=0.3; color = 3]
-	"conversion_6397" -> "annotation_32305" [label=1; weight=1; penwidth=0.3; color = 3]
-	"conversion_6368" -> "annotation_32305" [label=1; weight=1; penwidth=0.3; color = 3]
-	"gateway_6358" -> "annotation_32305" [label=1; weight=1; penwidth=0.3; color = 3]
-	"gateway_6358" -> "conversion_6397" [label=1; weight=1; penwidth=0.3; color = 3]
-	"jackson_44702" -> "annotation_32305" [label=1; weight=1; penwidth=0.3; color = 3]
-	"jackson_44702" -> "infra_32312" [label=1; weight=1; penwidth=0.3; color = 3]
-	"jackson2_44704" -> "infra_32312" [label=1; weight=1; penwidth=0.3; color = 3]
-	"jackson2_44704" -> "annotation_32305" [label=1; weight=1; penwidth=0.3; color = 3]
-	"jdbc_6375" -> "annotation_32305" [label=1; weight=1; penwidth=0.3; color = 3]
-	"jpa_6376" -> "annotation_32305" [label=1; weight=1; penwidth=0.3; color = 3]
-	"jpa_6403" -> "annotation_32305" [label=1; weight=1; penwidth=0.3; color = 3]
-	"jpa_39283" -> "conversion_6368" [label=1; weight=1; penwidth=0.3; color = 3]
-	"jpa_39283" -> "infra_32312" [label=1; weight=1; penwidth=0.3; color = 3]
-	"jpa_39283" -> "annotation_32305" [label=1; weight=1; penwidth=0.3; color = 3]
-	"query_27099" -> "conversion_6397" [label=1; weight=1; penwidth=0.3; color = 3]
-	"query_27099" -> "infra_32312" [label=1; weight=1; penwidth=0.3; color = 3]
-	"queryhandling_6384" -> "annotation_32305" [label=1; weight=1; penwidth=0.3; color = 3]
-	"queryhandling_6384" -> "conversion_6397" [label=1; weight=1; penwidth=0.3; color = 3]
-	"replay_6364" -> "token_6371" [label=1; weight=1; penwidth=0.3; color = 3]
-	"sequencing_6396" -> "commandhandling_6355" [label=1; weight=1; penwidth=0.3; color = 3]
-	"sequencing_6396" -> "annotation_32305" [label=1; weight=1; penwidth=0.3; color = 3]
-	"sequencing_6396" -> "eventhandling_6362" [label=1; weight=1; penwidth=0.3; color = 3]
-	"command_27105" -> "conversion_6397" [label=0; weight=0; penwidth=0.3; color = 3]
-	"conversion_6397" -> "infra_32312" [label=0; weight=0; penwidth=0.3; color = 3]
-	"conversion_6368" -> "infra_32312" [label=0; weight=0; penwidth=0.3; color = 3]
-	"core_6390" -> "eventhandling_6362" [label=0; weight=0; penwidth=0.3; color = 3]
-	"sequencing_6396" -> "conversion_6397" [label=0; weight=0; penwidth=0.3; color = 3]
-	"sequencing_6396" -> "conversion_6368" [label=0; weight=0; penwidth=0.3; color = 3]
+	graph   [label="Top Rank #4 Java Package Bridge\norg.axonframework.common.configuration\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
+	central [label="🌉 bridge #4\nconfiguration"];
+	"configuration_6912" [label = "configuration"; ]; "configuration_6912" -> central [label=57; weight=57; penwidth=1.4];
+	"configuration_36237" [label = "configuration"; ]; "configuration_36237" -> central [label=38; weight=38; penwidth=1.0];
+	"interception_6900" [label = "interception"; ]; "interception_6900" -> central [label=29; weight=29; penwidth=0.9];
+	"configuration_6889" [label = "configuration"; ]; "configuration_6889" -> central [label=26; weight=26; penwidth=0.8];
+	"configuration_1040" [label = "configuration"; ]; "configuration_1040" -> central [label=26; weight=26; penwidth=0.8];
+	"pooled_6884" [label = "pooled"; ]; "pooled_6884" -> central [label=23; weight=23; penwidth=0.8];
+	"configuration_31597" [label = "configuration"; ]; "configuration_31597" -> central [label=22; weight=22; penwidth=0.8];
+	"configuration_6861" [label = "configuration"; ]; "configuration_6861" -> central [label=18; weight=18; penwidth=0.7];
+	"subscribing_6886" [label = "subscribing"; ]; "subscribing_6886" -> central [label=18; weight=18; penwidth=0.7];
+	"fixture_27533" [label = "fixture"; ]; "fixture_27533" -> central [label=13; weight=13; penwidth=0.6];
+	"configuration_6868" [label = "configuration"; ]; "configuration_6868" -> central [label=12; weight=12; penwidth=0.6];
+	"configuration_6896" [label = "configuration"; ]; "configuration_6896" -> central [label=12; weight=12; penwidth=0.6];
+	"event_1039" [label = "event"; ]; "event_1039" -> central [label=10; weight=10; penwidth=0.6];
+	"autoconfig_31368" [label = "autoconfig"; ]; "autoconfig_31368" -> central [label=9; weight=9; penwidth=0.6];
+	"update_35260" [label = "update"; ]; "update_35260" -> central [label=6; weight=6; penwidth=0.5];
+	"infra_41202" [label = "infra"; ]; "infra_41202" -> central [label=5; weight=5; penwidth=0.5];
+	"micrometer_22" [label = "micrometer"; ]; "micrometer_22" -> central [label=4; weight=4; penwidth=0.5];
+	"reflection_6913" [label = "reflection"; ]; "reflection_6913" -> central [label=4; weight=4; penwidth=0.5];
+	"annotation_31593" [label = "annotation"; ]; "annotation_31593" -> central [label=3; weight=3; penwidth=0.5];
+	"correlation_6902" [label = "correlation"; ]; "correlation_6902" -> central [label=3; weight=3; penwidth=0.5];
+	"reflection_6899" [label = "reflection"; ]; "reflection_6899" -> central [label=3; weight=3; penwidth=0.5];
+	"annotation_36227" [label = "annotation"; ]; "annotation_36227" -> central [label=2; weight=2; penwidth=0.4];
+	"modelling_31592" [label = "modelling"; ]; "modelling_31592" -> central [label=2; weight=2; penwidth=0.4];
+	"unitofwork_6906" [label = "unitofwork"; ]; "unitofwork_6906" -> central [label=2; weight=2; penwidth=0.4];
+	"annotation_6863" [label = "annotation"; ]; "annotation_6863" -> central [label=1; weight=1; penwidth=0.4];
+	"annotation_6870" [label = "annotation"; ]; "annotation_6870" -> central [label=1; weight=1; penwidth=0.4];
+	"core_6897" [label = "core"; ]; "core_6897" -> central [label=1; weight=1; penwidth=0.4];
+	"reflection_36228" [label = "reflection"; ]; "reflection_36228" -> central [label=1; weight=1; penwidth=0.4];
+	"springboot_23" [label = "springboot"; ]; "springboot_23" -> central [label=1; weight=1; penwidth=0.4];
+	"annotation_31595" [label = "annotation"; ]; "annotation_31595" -> central [label=0; weight=0; penwidth=0.4];
+	"common_41193" [label = "common"; color = 5; fillcolor = 1; ]; central -> "common_41193" [label=42; weight=42; penwidth=1.1; color = 5];
+	"annotation_41195" [label = "annotation"; color = 5; fillcolor = 1; ]; central -> "annotation_41195" [label=14; weight=14; penwidth=0.6; color = 5];
+	"infra_41202" [label = "infra"; color = 5; fillcolor = 1; ]; central -> "infra_41202" [label=9; weight=9; penwidth=0.6; color = 5];
+	"lifecycle_41203" [label = "lifecycle"; color = 5; fillcolor = 1; ]; central -> "lifecycle_41203" [label=2; weight=2; penwidth=0.4; color = 5];
+	"interception_6900" -> "core_6897" [label=62; weight=62; penwidth=0.3; color = 3]
+	"pooled_6884" -> "common_41193" [label=61; weight=61; penwidth=0.3; color = 3]
+	"event_1039" -> "core_6897" [label=53; weight=53; penwidth=0.3; color = 3]
+	"unitofwork_6906" -> "core_6897" [label=50; weight=50; penwidth=0.3; color = 3]
+	"pooled_6884" -> "unitofwork_6906" [label=48; weight=48; penwidth=0.3; color = 3]
+	"core_6897" -> "common_41193" [label=44; weight=44; penwidth=0.3; color = 3]
+	"pooled_6884" -> "core_6897" [label=44; weight=44; penwidth=0.3; color = 3]
+	"fixture_27533" -> "core_6897" [label=34; weight=34; penwidth=0.3; color = 3]
+	"pooled_6884" -> "configuration_6889" [label=30; weight=30; penwidth=0.3; color = 3]
+	"subscribing_6886" -> "configuration_6889" [label=30; weight=30; penwidth=0.3; color = 3]
+	"interception_6900" -> "common_41193" [label=29; weight=29; penwidth=0.3; color = 3]
+	"annotation_31595" -> "common_41193" [label=26; weight=26; penwidth=0.3; color = 3]
+	"annotation_31595" -> "core_6897" [label=25; weight=25; penwidth=0.3; color = 3]
+	"configuration_6912" -> "interception_6900" [label=25; weight=25; penwidth=0.3; color = 3]
+	"configuration_36237" -> "common_41193" [label=22; weight=22; penwidth=0.3; color = 3]
+	"reflection_36228" -> "common_41193" [label=22; weight=22; penwidth=0.3; color = 3]
+	"configuration_36237" -> "configuration_31597" [label=20; weight=20; penwidth=0.3; color = 3]
+	"configuration_6912" -> "configuration_6861" [label=17; weight=17; penwidth=0.3; color = 3]
+	"annotation_6870" -> "core_6897" [label=16; weight=16; penwidth=0.3; color = 3]
+	"reflection_36228" -> "core_6897" [label=16; weight=16; penwidth=0.3; color = 3]
+	"configuration_6861" -> "common_41193" [label=15; weight=15; penwidth=0.3; color = 3]
+	"annotation_6863" -> "common_41193" [label=14; weight=14; penwidth=0.3; color = 3]
+	"micrometer_22" -> "common_41193" [label=14; weight=14; penwidth=0.3; color = 3]
+	"annotation_31593" -> "modelling_31592" [label=13; weight=13; penwidth=0.3; color = 3]
+	"configuration_31597" -> "configuration_6912" [label=13; weight=13; penwidth=0.3; color = 3]
+	"micrometer_22" -> "core_6897" [label=11; weight=11; penwidth=0.3; color = 3]
+	"unitofwork_6906" -> "common_41193" [label=11; weight=11; penwidth=0.3; color = 3]
+	"annotation_31593" -> "core_6897" [label=10; weight=10; penwidth=0.3; color = 3]
+	"fixture_27533" -> "unitofwork_6906" [label=10; weight=10; penwidth=0.3; color = 3]
+	"configuration_6912" -> "core_6897" [label=9; weight=9; penwidth=0.3; color = 3]
+	"configuration_6889" -> "subscribing_6886" [label=9; weight=9; penwidth=0.3; color = 3]
+	"configuration_6889" -> "pooled_6884" [label=9; weight=9; penwidth=0.3; color = 3]
+	"configuration_1040" -> "event_1039" [label=9; weight=9; penwidth=0.3; color = 3]
+	"subscribing_6886" -> "core_6897" [label=9; weight=9; penwidth=0.3; color = 3]
+	"subscribing_6886" -> "common_41193" [label=9; weight=9; penwidth=0.3; color = 3]
+	"annotation_6863" -> "core_6897" [label=8; weight=8; penwidth=0.3; color = 3]
+	"annotation_31595" -> "annotation_41195" [label=8; weight=8; penwidth=0.3; color = 3]
+	"configuration_6912" -> "correlation_6902" [label=8; weight=8; penwidth=0.3; color = 3]
+	"configuration_6889" -> "common_41193" [label=8; weight=8; penwidth=0.3; color = 3]
+	"configuration_31597" -> "common_41193" [label=8; weight=8; penwidth=0.3; color = 3]
+	"annotation_36227" -> "common_41193" [label=7; weight=7; penwidth=0.3; color = 3]
+	"configuration_6912" -> "configuration_6889" [label=7; weight=7; penwidth=0.3; color = 3]
+	"core_6897" -> "annotation_41195" [label=7; weight=7; penwidth=0.3; color = 3]
+	"annotation_31595" -> "annotation_31593" [label=6; weight=6; penwidth=0.3; color = 3]
+	"configuration_6912" -> "unitofwork_6906" [label=6; weight=6; penwidth=0.3; color = 3]
+	"configuration_6868" -> "core_6897" [label=6; weight=6; penwidth=0.3; color = 3]
+	"configuration_6896" -> "core_6897" [label=6; weight=6; penwidth=0.3; color = 3]
+	"event_1039" -> "annotation_41195" [label=6; weight=6; penwidth=0.3; color = 3]
+	"fixture_27533" -> "annotation_41195" [label=6; weight=6; penwidth=0.3; color = 3]
+	"interception_6900" -> "unitofwork_6906" [label=6; weight=6; penwidth=0.3; color = 3]
+	"modelling_31592" -> "core_6897" [label=6; weight=6; penwidth=0.3; color = 3]
+	"pooled_6884" -> "infra_41202" [label=6; weight=6; penwidth=0.3; color = 3]
+	"pooled_6884" -> "annotation_41195" [label=6; weight=6; penwidth=0.3; color = 3]
+	"configuration_6889" -> "unitofwork_6906" [label=5; weight=5; penwidth=0.3; color = 3]
+	"core_6897" -> "unitofwork_6906" [label=5; weight=5; penwidth=0.3; color = 3]
+	"correlation_6902" -> "core_6897" [label=5; weight=5; penwidth=0.3; color = 3]
+	"event_1039" -> "subscribing_6886" [label=5; weight=5; penwidth=0.3; color = 3]
+	"interception_6900" -> "annotation_41195" [label=5; weight=5; penwidth=0.3; color = 3]
+	"micrometer_22" -> "configuration_6861" [label=5; weight=5; penwidth=0.3; color = 3]
+	"modelling_31592" -> "common_41193" [label=5; weight=5; penwidth=0.3; color = 3]
+	"annotation_31593" -> "common_41193" [label=4; weight=4; penwidth=0.3; color = 3]
+	"annotation_6870" -> "unitofwork_6906" [label=4; weight=4; penwidth=0.3; color = 3]
+	"annotation_6870" -> "annotation_41195" [label=4; weight=4; penwidth=0.3; color = 3]
+	"annotation_6870" -> "common_41193" [label=4; weight=4; penwidth=0.3; color = 3]
+	"annotation_41195" -> "common_41193" [label=4; weight=4; penwidth=0.3; color = 3]
+	"autoconfig_31368" -> "pooled_6884" [label=4; weight=4; penwidth=0.3; color = 3]
+	"configuration_36237" -> "annotation_36227" [label=4; weight=4; penwidth=0.3; color = 3]
+	"configuration_36237" -> "annotation_31595" [label=4; weight=4; penwidth=0.3; color = 3]
+	"configuration_6889" -> "core_6897" [label=4; weight=4; penwidth=0.3; color = 3]
+	"configuration_6889" -> "annotation_6870" [label=4; weight=4; penwidth=0.3; color = 3]
+	"configuration_6889" -> "annotation_41195" [label=4; weight=4; penwidth=0.3; color = 3]
+	"configuration_6889" -> "configuration_6912" [label=4; weight=4; penwidth=0.3; color = 3]
+	"configuration_31597" -> "modelling_31592" [label=4; weight=4; penwidth=0.3; color = 3]
+	"reflection_36228" -> "unitofwork_6906" [label=4; weight=4; penwidth=0.3; color = 3]
+	"reflection_36228" -> "annotation_41195" [label=4; weight=4; penwidth=0.3; color = 3]
+	"subscribing_6886" -> "unitofwork_6906" [label=4; weight=4; penwidth=0.3; color = 3]
+	"subscribing_6886" -> "annotation_41195" [label=4; weight=4; penwidth=0.3; color = 3]
+	"update_35260" -> "annotation_41195" [label=4; weight=4; penwidth=0.3; color = 3]
+	"annotation_6863" -> "annotation_41195" [label=3; weight=3; penwidth=0.3; color = 3]
+	"configuration_36237" -> "annotation_41195" [label=3; weight=3; penwidth=0.3; color = 3]
+	"configuration_36237" -> "modelling_31592" [label=3; weight=3; penwidth=0.3; color = 3]
+	"configuration_36237" -> "core_6897" [label=3; weight=3; penwidth=0.3; color = 3]
+	"configuration_6861" -> "core_6897" [label=3; weight=3; penwidth=0.3; color = 3]
+	"event_1039" -> "unitofwork_6906" [label=3; weight=3; penwidth=0.3; color = 3]
+	"event_1039" -> "infra_41202" [label=3; weight=3; penwidth=0.3; color = 3]
+	"infra_41202" -> "common_41193" [label=3; weight=3; penwidth=0.3; color = 3]
+	"interception_6900" -> "infra_41202" [label=3; weight=3; penwidth=0.3; color = 3]
+	"annotation_31593" -> "annotation_31595" [label=2; weight=2; penwidth=0.3; color = 3]
+	"annotation_31595" -> "unitofwork_6906" [label=2; weight=2; penwidth=0.3; color = 3]
+	"annotation_31595" -> "modelling_31592" [label=2; weight=2; penwidth=0.3; color = 3]
+	"annotation_31595" -> "infra_41202" [label=2; weight=2; penwidth=0.3; color = 3]
+	"configuration_6912" -> "annotation_6863" [label=2; weight=2; penwidth=0.3; color = 3]
+	"configuration_6912" -> "reflection_6913" [label=2; weight=2; penwidth=0.3; color = 3]
+	"configuration_6861" -> "annotation_41195" [label=2; weight=2; penwidth=0.3; color = 3]
+	"configuration_6868" -> "annotation_6863" [label=2; weight=2; penwidth=0.3; color = 3]
+	"correlation_6902" -> "annotation_41195" [label=2; weight=2; penwidth=0.3; color = 3]
+	"event_1039" -> "common_41193" [label=2; weight=2; penwidth=0.3; color = 3]
+	"fixture_27533" -> "infra_41202" [label=2; weight=2; penwidth=0.3; color = 3]
+	"lifecycle_41203" -> "common_41193" [label=2; weight=2; penwidth=0.3; color = 3]
+	"modelling_31592" -> "unitofwork_6906" [label=2; weight=2; penwidth=0.3; color = 3]
+	"modelling_31592" -> "annotation_31593" [label=2; weight=2; penwidth=0.3; color = 3]
+	"modelling_31592" -> "infra_41202" [label=2; weight=2; penwidth=0.3; color = 3]
+	"subscribing_6886" -> "infra_41202" [label=2; weight=2; penwidth=0.3; color = 3]
+	"annotation_31593" -> "unitofwork_6906" [label=1; weight=1; penwidth=0.3; color = 3]
+	"annotation_31593" -> "reflection_6913" [label=1; weight=1; penwidth=0.3; color = 3]
+	"annotation_36227" -> "annotation_31595" [label=1; weight=1; penwidth=0.3; color = 3]
+	"annotation_36227" -> "annotation_41195" [label=1; weight=1; penwidth=0.3; color = 3]
+	"annotation_36227" -> "reflection_36228" [label=1; weight=1; penwidth=0.3; color = 3]
+	"annotation_36227" -> "infra_41202" [label=1; weight=1; penwidth=0.3; color = 3]
+	"annotation_36227" -> "annotation_6870" [label=1; weight=1; penwidth=0.3; color = 3]
+	"annotation_6863" -> "unitofwork_6906" [label=1; weight=1; penwidth=0.3; color = 3]
+	"annotation_6863" -> "reflection_6913" [label=1; weight=1; penwidth=0.3; color = 3]
+	"annotation_6863" -> "infra_41202" [label=1; weight=1; penwidth=0.3; color = 3]
+	"annotation_6870" -> "reflection_6913" [label=1; weight=1; penwidth=0.3; color = 3]
+	"annotation_6870" -> "infra_41202" [label=1; weight=1; penwidth=0.3; color = 3]
+	"annotation_31595" -> "annotation_6863" [label=1; weight=1; penwidth=0.3; color = 3]
+	"autoconfig_31368" -> "configuration_1040" [label=1; weight=1; penwidth=0.3; color = 3]
+	"configuration_36237" -> "annotation_31593" [label=1; weight=1; penwidth=0.3; color = 3]
+	"configuration_36237" -> "configuration_6912" [label=1; weight=1; penwidth=0.3; color = 3]
+	"configuration_36237" -> "interception_6900" [label=1; weight=1; penwidth=0.3; color = 3]
+	"configuration_36237" -> "configuration_6889" [label=1; weight=1; penwidth=0.3; color = 3]
+	"configuration_6889" -> "interception_6900" [label=1; weight=1; penwidth=0.3; color = 3]
+	"configuration_6889" -> "configuration_6861" [label=1; weight=1; penwidth=0.3; color = 3]
+	"configuration_6889" -> "infra_41202" [label=1; weight=1; penwidth=0.3; color = 3]
+	"configuration_1040" -> "common_41193" [label=1; weight=1; penwidth=0.3; color = 3]
+	"configuration_6861" -> "infra_41202" [label=1; weight=1; penwidth=0.3; color = 3]
+	"configuration_6868" -> "common_41193" [label=1; weight=1; penwidth=0.3; color = 3]
+	"configuration_6896" -> "common_41193" [label=1; weight=1; penwidth=0.3; color = 3]
+	"fixture_27533" -> "common_41193" [label=1; weight=1; penwidth=0.3; color = 3]
+	"interception_6900" -> "correlation_6902" [label=1; weight=1; penwidth=0.3; color = 3]
+	"reflection_6913" -> "common_41193" [label=1; weight=1; penwidth=0.3; color = 3]
+	"reflection_6899" -> "reflection_6913" [label=1; weight=1; penwidth=0.3; color = 3]
+	"springboot_23" -> "micrometer_22" [label=1; weight=1; penwidth=0.3; color = 3]
+	"unitofwork_6906" -> "annotation_41195" [label=1; weight=1; penwidth=0.3; color = 3]
+	"update_35260" -> "common_41193" [label=1; weight=1; penwidth=0.3; color = 3]
+	"annotation_36227" -> "unitofwork_6906" [label=0; weight=0; penwidth=0.3; color = 3]
+	"annotation_36227" -> "annotation_31593" [label=0; weight=0; penwidth=0.3; color = 3]
+	"configuration_6912" -> "configuration_6896" [label=0; weight=0; penwidth=0.3; color = 3]
+	"configuration_6912" -> "configuration_6868" [label=0; weight=0; penwidth=0.3; color = 3]
 }

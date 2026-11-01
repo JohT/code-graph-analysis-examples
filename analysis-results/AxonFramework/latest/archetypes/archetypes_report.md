@@ -53,7 +53,7 @@ The goal is to identify code that plays a distinctive structural role — such a
 
 | Archetype | Count | Max. Rank | Examples |
 | --- | --- | --- | --- |
-| Authority | 7 | 7 | /axon-common-5.1.2.jar, /axon-server-connector-5.1.2.jar, /axon-test-5.1.2.jar |
+| Authority | 7 | 7 | /axon-common-5.1.2.jar, /axon-server-connector-5.1.2.jar, /axon-metrics-micrometer-5.1.2.jar |
 | Bottleneck | 3 | 3 | /axon-conversion-5.1.2.jar, /axon-modelling-5.1.2.jar, /axon-eventsourcing-5.1.2.jar |
 | Hub | 1 | 1 | /axon-common-5.1.2.jar |
 

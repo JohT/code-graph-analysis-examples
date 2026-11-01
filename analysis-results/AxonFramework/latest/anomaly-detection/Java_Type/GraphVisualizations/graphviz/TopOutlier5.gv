@@ -12,23 +12,56 @@ strict digraph TopOutlier5 {
     central [fontsize = 16;];
     central [color = 7; fillcolor = 5; penwidth = 3;];
 
-	graph   [label="Top Rank #5 Java Type Outlier\nio.axoniq.framework.axonserver.connector.event.AggregateBasedAxonServerEventStorageEngine$1\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: cluster probability\nlarge circle: < 25% percentile of cluster probability\nthick outline: > 80% percentile of distance to cluster center\n\n"];
-	central [label="🧩 outlier #5\nAggregateBasedAxonServerEventStorageEngine$1"];
-	"AggregateBasedAxonServerEventStorageEngine_29389"  [label = "AggregateBasedAxonServerEventStorageEngine\n(100.0%)"; penwidth = 2; ]; "AggregateBasedAxonServerEventStorageEngine_29389" -> central [label=3; weight=3; penwidth=0.4];
-	"AggregateBasedConsistencyMarker_40560"  [label = "AggregateBasedConsistencyMarker\n(31.67%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "AggregateBasedConsistencyMarker_40560" [label=6; weight=6; penwidth=0.5; color = 5];
-	"AggregateBasedConsistencyMarker$AggregateSequencer_40573"  [label = "AggregateBasedConsistencyMarker$\nAggregateSequencer\n(34.12%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "AggregateBasedConsistencyMarker$AggregateSequencer_40573" [label=4; weight=4; penwidth=0.5; color = 5];
-	"EventStorageEngine$AppendTransaction_40541"  [label = "EventStorageEngine$\nAppendTransaction\n(100.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "EventStorageEngine$AppendTransaction_40541" [label=2; weight=2; penwidth=0.4; color = 5];
-	"AggregateBasedAxonServerEventStorageEngine_29389"  [label = "AggregateBasedAxonServerEventStorageEngine\n(100.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "AggregateBasedAxonServerEventStorageEngine_29389" [label=1; weight=1; penwidth=0.4; color = 5];
-	"AggregateBasedEventStorageEngineUtils_41967"  [shape = "circle"; height=1.8; label = "AggregateBasedEventStorageEngineUtils\n(0.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "AggregateBasedEventStorageEngineUtils_41967" [label=1; weight=1; penwidth=0.4; color = 5];
-	"ConsistencyMarker_40536"  [label = "ConsistencyMarker\n(100.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "ConsistencyMarker_40536" [label=1; weight=1; penwidth=0.4; color = 5];
-	"AggregateBasedAxonServerEventStorageEngine_29389" -> "AggregateBasedConsistencyMarker_40560" [label=7; weight=7; penwidth=0.3; color = 3]
-	"AggregateBasedAxonServerEventStorageEngine_29389" -> "ConsistencyMarker_40536" [label=5; weight=5; penwidth=0.3; color = 3]
-	"AggregateBasedConsistencyMarker$AggregateSequencer_40573" -> "AggregateBasedConsistencyMarker_40560" [label=5; weight=5; penwidth=0.3; color = 3]
-	"AggregateBasedAxonServerEventStorageEngine_29389" -> "AggregateBasedEventStorageEngineUtils_41967" [label=4; weight=4; penwidth=0.3; color = 3]
-	"AggregateBasedConsistencyMarker_40560" -> "ConsistencyMarker_40536" [label=4; weight=4; penwidth=0.3; color = 3]
-	"AggregateBasedConsistencyMarker_40560" -> "AggregateBasedConsistencyMarker$AggregateSequencer_40573" [label=4; weight=4; penwidth=0.3; color = 3]
-	"AggregateBasedAxonServerEventStorageEngine_29389" -> "AggregateBasedConsistencyMarker$AggregateSequencer_40573" [label=3; weight=3; penwidth=0.3; color = 3]
-	"AggregateBasedAxonServerEventStorageEngine_29389" -> "EventStorageEngine$AppendTransaction_40541" [label=2; weight=2; penwidth=0.3; color = 3]
-	"AggregateBasedEventStorageEngineUtils_41967" -> "ConsistencyMarker_40536" [label=2; weight=2; penwidth=0.3; color = 3]
-	"EventStorageEngine$AppendTransaction_40541" -> "ConsistencyMarker_40536" [label=1; weight=1; penwidth=0.3; color = 3]
+	graph   [label="Top Rank #5 Java Type Outlier\norg.axonframework.messaging.core.MessageDispatchInterceptorChain\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: cluster probability\nlarge circle: < 25% percentile of cluster probability\nthick outline: > 80% percentile of distance to cluster center\n\n"];
+	central [label="🧩 outlier #5\nMessageDispatchInterceptorChain"];
+	"DefaultDispatchInterceptorRegistry_21815"  [label = "DefaultDispatchInterceptorRegistry\n(38.81%)"; penwidth = 5; ]; "DefaultDispatchInterceptorRegistry_21815" -> central [label=12; weight=12; penwidth=0.6];
+	"BeanValidationInterceptor_21971"  [label = "BeanValidationInterceptor\n(42.19%)"; penwidth = 5; ]; "BeanValidationInterceptor_21971" -> central [label=3; weight=3; penwidth=0.4];
+	"CorrelationDataInterceptor_21970"  [label = "CorrelationDataInterceptor\n(72.13%)"; penwidth = 2; ]; "CorrelationDataInterceptor_21970" -> central [label=3; weight=3; penwidth=0.4];
+	"MonitoringEventDispatchInterceptor_7353"  [label = "MonitoringEventDispatchInterceptor\n(100.0%)"; penwidth = 2; ]; "MonitoringEventDispatchInterceptor_7353" -> central [label=3; weight=3; penwidth=0.4];
+	"MonitoringSubscriptionQueryUpdateDispatchInterceptor_7351"  [label = "MonitoringSubscriptionQueryUpdateDispatchInterceptor\n(100.0%)"; penwidth = 2; ]; "MonitoringSubscriptionQueryUpdateDispatchInterceptor_7351" -> central [label=3; weight=3; penwidth=0.4];
+	"LoggingInterceptor_21967"  [label = "LoggingInterceptor\n(42.19%)"; penwidth = 2; ]; "LoggingInterceptor_21967" -> central [label=2; weight=2; penwidth=0.4];
+	"DefaultMessageDispatchInterceptorChain_7895"  [label = "DefaultMessageDispatchInterceptorChain\n(73.05%)"; penwidth = 2; ]; "DefaultMessageDispatchInterceptorChain_7895" -> central [label=1; weight=1; penwidth=0.4];
+	"DefaultMessageDispatchInterceptorChain$InterceptingDispatcher_22888"  [label = "DefaultMessageDispatchInterceptorChain$\nInterceptingDispatcher\n(42.19%)"; penwidth = 5; ]; "DefaultMessageDispatchInterceptorChain$InterceptingDispatcher_22888" -> central [label=1; weight=1; penwidth=0.4];
+	"MessageDispatchInterceptor_6940"  [label = "MessageDispatchInterceptor\n(38.81%)"; penwidth = 5; ]; "MessageDispatchInterceptor_6940" -> central [label=1; weight=1; penwidth=0.4];
+	"Message_6926"  [label = "Message\n(100.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "Message_6926" [label=1; weight=1; penwidth=0.4; color = 5];
+	"MessageStream_6938"  [label = "MessageStream\n(48.68%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "MessageStream_6938" [label=1; weight=1; penwidth=0.4; color = 5];
+	"ProcessingContext_6936"  [label = "ProcessingContext\n(98.54%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "ProcessingContext_6936" [label=1; weight=1; penwidth=0.4; color = 5];
+	"DefaultDispatchInterceptorRegistry_21815" -> "MessageDispatchInterceptor_6940" [label=34; weight=34; penwidth=0.3; color = 3]
+	"MessageStream_6938" -> "Message_6926" [label=26; weight=26; penwidth=0.3; color = 3]
+	"DefaultDispatchInterceptorRegistry_21815" -> "Message_6926" [label=9; weight=9; penwidth=0.3; color = 3]
+	"BeanValidationInterceptor_21971" -> "MessageStream_6938" [label=8; weight=8; penwidth=0.3; color = 3]
+	"DefaultDispatchInterceptorRegistry_21815" -> "ProcessingContext_6936" [label=8; weight=8; penwidth=0.3; color = 3]
+	"DefaultDispatchInterceptorRegistry_21815" -> "MessageStream_6938" [label=8; weight=8; penwidth=0.3; color = 3]
+	"LoggingInterceptor_21967" -> "Message_6926" [label=8; weight=8; penwidth=0.3; color = 3]
+	"DefaultMessageDispatchInterceptorChain$InterceptingDispatcher_22888" -> "MessageStream_6938" [label=7; weight=7; penwidth=0.3; color = 3]
+	"MonitoringEventDispatchInterceptor_7353" -> "ProcessingContext_6936" [label=7; weight=7; penwidth=0.3; color = 3]
+	"MonitoringSubscriptionQueryUpdateDispatchInterceptor_7351" -> "ProcessingContext_6936" [label=7; weight=7; penwidth=0.3; color = 3]
+	"DefaultMessageDispatchInterceptorChain_7895" -> "MessageStream_6938" [label=6; weight=6; penwidth=0.3; color = 3]
+	"DefaultMessageDispatchInterceptorChain$InterceptingDispatcher_22888" -> "ProcessingContext_6936" [label=6; weight=6; penwidth=0.3; color = 3]
+	"LoggingInterceptor_21967" -> "MessageStream_6938" [label=6; weight=6; penwidth=0.3; color = 3]
+	"BeanValidationInterceptor_21971" -> "Message_6926" [label=5; weight=5; penwidth=0.3; color = 3]
+	"CorrelationDataInterceptor_21970" -> "ProcessingContext_6936" [label=5; weight=5; penwidth=0.3; color = 3]
+	"Message_6926" -> "ProcessingContext_6936" [label=5; weight=5; penwidth=0.3; color = 3]
+	"BeanValidationInterceptor_21971" -> "ProcessingContext_6936" [label=4; weight=4; penwidth=0.3; color = 3]
+	"CorrelationDataInterceptor_21970" -> "Message_6926" [label=4; weight=4; penwidth=0.3; color = 3]
+	"DefaultMessageDispatchInterceptorChain_7895" -> "ProcessingContext_6936" [label=4; weight=4; penwidth=0.3; color = 3]
+	"DefaultMessageDispatchInterceptorChain_7895" -> "DefaultMessageDispatchInterceptorChain$InterceptingDispatcher_22888" [label=3; weight=3; penwidth=0.3; color = 3]
+	"DefaultMessageDispatchInterceptorChain_7895" -> "MessageDispatchInterceptor_6940" [label=3; weight=3; penwidth=0.3; color = 3]
+	"DefaultMessageDispatchInterceptorChain$InterceptingDispatcher_22888" -> "MessageDispatchInterceptor_6940" [label=3; weight=3; penwidth=0.3; color = 3]
+	"CorrelationDataInterceptor_21970" -> "MessageStream_6938" [label=2; weight=2; penwidth=0.3; color = 3]
+	"DefaultMessageDispatchInterceptorChain_7895" -> "Message_6926" [label=2; weight=2; penwidth=0.3; color = 3]
+	"LoggingInterceptor_21967" -> "ProcessingContext_6936" [label=2; weight=2; penwidth=0.3; color = 3]
+	"MonitoringEventDispatchInterceptor_7353" -> "MessageStream_6938" [label=2; weight=2; penwidth=0.3; color = 3]
+	"MonitoringSubscriptionQueryUpdateDispatchInterceptor_7351" -> "MessageStream_6938" [label=2; weight=2; penwidth=0.3; color = 3]
+	"BeanValidationInterceptor_21971" -> "MessageDispatchInterceptor_6940" [label=1; weight=1; penwidth=0.3; color = 3]
+	"CorrelationDataInterceptor_21970" -> "MessageDispatchInterceptor_6940" [label=1; weight=1; penwidth=0.3; color = 3]
+	"DefaultMessageDispatchInterceptorChain$InterceptingDispatcher_22888" -> "Message_6926" [label=1; weight=1; penwidth=0.3; color = 3]
+	"LoggingInterceptor_21967" -> "MessageDispatchInterceptor_6940" [label=1; weight=1; penwidth=0.3; color = 3]
+	"MessageDispatchInterceptor_6940" -> "Message_6926" [label=1; weight=1; penwidth=0.3; color = 3]
+	"MessageDispatchInterceptor_6940" -> "ProcessingContext_6936" [label=1; weight=1; penwidth=0.3; color = 3]
+	"MessageDispatchInterceptor_6940" -> "MessageStream_6938" [label=1; weight=1; penwidth=0.3; color = 3]
+	"MonitoringEventDispatchInterceptor_7353" -> "Message_6926" [label=1; weight=1; penwidth=0.3; color = 3]
+	"MonitoringEventDispatchInterceptor_7353" -> "MessageDispatchInterceptor_6940" [label=1; weight=1; penwidth=0.3; color = 3]
+	"MonitoringSubscriptionQueryUpdateDispatchInterceptor_7351" -> "MessageDispatchInterceptor_6940" [label=1; weight=1; penwidth=0.3; color = 3]
+	"MonitoringSubscriptionQueryUpdateDispatchInterceptor_7351" -> "Message_6926" [label=1; weight=1; penwidth=0.3; color = 3]
 }
