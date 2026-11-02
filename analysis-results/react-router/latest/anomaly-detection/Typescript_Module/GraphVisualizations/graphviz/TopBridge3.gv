@@ -29,7 +29,7 @@ strict digraph TopBridge3 {
 	"generate_14798" -> "config_14791" [label=6; weight=6; penwidth=0.3; color = 3]
 	"plugin_14831" -> "config_14791" [label=4; weight=4; penwidth=0.3; color = 3]
 	"plugin_14831" -> "resolve-relative-route-file-path_14819" [label=2; weight=2; penwidth=0.3; color = 3]
-	"plugin_14831" -> "virtual-route-config_14833" [label=2; weight=2; penwidth=0.3; color = 3]
 	"plugin_14831" -> "plugin_14815" [label=2; weight=2; penwidth=0.3; color = 3]
+	"plugin_14831" -> "virtual-route-config_14833" [label=2; weight=2; penwidth=0.3; color = 3]
 	"styles_14822" -> "plugin_14815" [label=2; weight=2; penwidth=0.3; color = 3]
 }

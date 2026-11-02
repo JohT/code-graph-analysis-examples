@@ -1,6 +1,6 @@
 ---
 title: "Internal Dependencies Report"
-generated: "2026-11-01"
+generated: "2026-11-02"
 model_version: "v5.0.0"
 dataset: "react-router-7.18.5"
 authors: ["JohT/code-graph-analysis-pipeline"]
@@ -78,8 +78,8 @@ Classes used across artifacts — extraction candidates. High reuse = type grown
 | directoryDistance | numberOfDependencies | percentageOfDependencies | numberOfDependencyUsers | numberOfDependencyProviders | examples |
 | --- | --- | --- | --- | --- | --- |
 | 0 | 147 | 46.96 | 67 | 85 | ["./worker.ts uses ./index.ts","./index.ts uses ./worker.ts","./server.ts uses ./binaryTypes.ts","./server.ts uses ./index.ts"] |
-| 3 | 42 | 13.42 | 23 | 32 | ["./index.ts uses ./sessions/workersKVStorage.ts","./index.ts uses ./sessions/arcTableSessionStorage.ts","./index.ts uses ./sessions/fileStorage.ts","./vite/plugin.ts uses ./config.ts"] |
-| 4 | 83 | 26.52 | 34 | 37 | ["./vite/rsc/virtual-route-config.ts uses ./routes.ts","./config/config.ts uses ./cli/detectPackageManager.ts","./vite/build.ts uses ./config/config.ts","./cli/commands.ts uses ./config/config.ts"] |
+| 3 | 42 | 13.42 | 23 | 32 | ["./index.ts uses ./sessions/workersKVStorage.ts","./index.ts uses ./sessions/arcTableSessionStorage.ts","./index.ts uses ./sessions/fileStorage.ts","./config/config.ts uses ./config.ts"] |
+| 4 | 83 | 26.52 | 34 | 37 | ["./vite/rsc/virtual-route-config.ts uses ./routes.ts","./config/config.ts uses ./cli/detectPackageManager.ts","./vite/optimize-deps-entries.ts uses ./config/config.ts","./typegen/context.ts uses ./config/config.ts"] |
 | 5 | 39 | 12.46 | 21 | 15 | ["./vite/rsc/plugin.ts uses ./config/config.ts","./vite/rsc/plugin.ts uses ./config/routes.ts","./vite/rsc/virtual-route-config.ts uses ./config/routes.ts","./vite/rsc/plugin.ts uses ./typegen/index.ts"] |
 | 6 | 2 | 0.64 | 2 | 2 | ["./vendor/turbo-stream-v2/unflatten.ts uses ./lib/router/utils.ts","./lib/server-runtime/single-fetch.ts uses ./vendor/turbo-stream-v2/turbo-stream.ts"] |
 
@@ -214,7 +214,7 @@ Graph diameter = longest shortest path among module pairs. Higher = deeper trans
 | 4 | 187 | 32 | 53 | ["./cli/run.ts ->./manifest.ts","./cli/run.ts ->./routes.ts"] |
 | 3 | 175 | 41 | 65 | ["./vendor/turbo-stream-v2/turbo-stream.ts ->./lib/router/history.ts","./vendor/turbo-stream-v2/turbo-stream.ts ->./lib/router/url.ts"] |
 | 2 | 292 | 58 | 88 | ["./vendor/turbo-stream-v2/unflatten.ts ->./lib/router/history.ts","./vendor/turbo-stream-v2/unflatten.ts ->./lib/router/url.ts"] |
-| 1 | 300 | 87 | 115 | ["./vendor/turbo-stream-v2/unflatten.ts ->./lib/router/utils.ts","./vite/rsc/virtual-route-config.ts ->./routes.ts"] |
+| 1 | 300 | 87 | 115 | ["./vite/rsc/virtual-route-config.ts ->./routes.ts","./vite/rsc/plugin.ts ->./config/config.ts"] |
 
 [Full data per project](./Typescript_Module/Module_all_pairs_shortest_paths_distribution_per_project.csv)
 
