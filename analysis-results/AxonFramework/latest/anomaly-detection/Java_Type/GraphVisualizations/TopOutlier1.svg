@@ -33,9 +33,9 @@
 <!-- AbstractCacheAdapter_42930&#45;&gt;Cache_43070 -->
 <g id="edge26" class="edge">
 <title>AbstractCacheAdapter_42930&#45;&gt;Cache_43070</title>
-<path fill="none" stroke="#ccece6" stroke-width="0.3" d="M656.86,-107.72C658.01,-107.75 659.15,-107.77 660.29,-107.8"/>
-<polygon fill="#ccece6" stroke="#ccece6" stroke-width="0.3" points="660.18,-109.2 664.21,-107.89 660.24,-106.4 660.18,-109.2"/>
-<text xml:space="preserve" text-anchor="middle" x="659.08" y="-109" font-family="Times,serif" font-size="4.00">1</text>
+<path fill="none" stroke="#ccece6" stroke-width="0.3" d="M656.86,-107.72C658.5,-107.76 660.13,-107.8 661.75,-107.83"/>
+<polygon fill="#ccece6" stroke="#ccece6" stroke-width="0.3" points="661.52,-109.23 665.55,-107.92 661.58,-106.43 661.52,-109.23"/>
+<text xml:space="preserve" text-anchor="middle" x="660.14" y="-109.02" font-family="Times,serif" font-size="4.00">1</text>
 </g>
 <!-- AxonServerQueryBusConnector$LocalSegmentAdapter_2073&#45;&gt;central -->
 <g id="edge3" class="edge">
@@ -61,16 +61,16 @@
 <!-- JCacheAdapter_42564&#45;&gt;central -->
 <g id="edge5" class="edge">
 <title>JCacheAdapter_42564&#45;&gt;central</title>
-<path fill="none" stroke="#238b45" stroke-width="0.4" d="M694.58,-223.76C660.64,-249.15 607.41,-288.96 565.15,-320.57"/>
-<polygon fill="#238b45" stroke="#238b45" stroke-width="0.4" points="564.47,-319.33 562.1,-322.85 566.14,-321.58 564.47,-319.33"/>
-<text xml:space="preserve" text-anchor="middle" x="627.15" y="-274.65" font-family="Times,serif" font-size="4.00">2</text>
+<path fill="none" stroke="#238b45" stroke-width="0.4" d="M696.05,-222.67C662.17,-248 607.98,-288.54 565.1,-320.61"/>
+<polygon fill="#238b45" stroke="#238b45" stroke-width="0.4" points="564.36,-319.41 562,-322.93 566.04,-321.65 564.36,-319.41"/>
+<text xml:space="preserve" text-anchor="middle" x="628.05" y="-273.98" font-family="Times,serif" font-size="4.00">2</text>
 </g>
 <!-- JCacheAdapter_42564&#45;&gt;AbstractCacheAdapter_42930 -->
 <g id="edge24" class="edge">
 <title>JCacheAdapter_42564&#45;&gt;AbstractCacheAdapter_42930</title>
-<path fill="none" stroke="#ccece6" stroke-width="0.3" d="M692.68,-174.77C674.51,-162.65 652.27,-147.82 633.14,-135.06"/>
-<polygon fill="#ccece6" stroke="#ccece6" stroke-width="0.3" points="634.33,-134.17 630.23,-133.12 632.78,-136.5 634.33,-134.17"/>
-<text xml:space="preserve" text-anchor="middle" x="660.35" y="-155.08" font-family="Times,serif" font-size="4.00">2</text>
+<path fill="none" stroke="#ccece6" stroke-width="0.3" d="M693.75,-175.49C675.44,-163.27 652.77,-148.15 633.29,-135.16"/>
+<polygon fill="#ccece6" stroke="#ccece6" stroke-width="0.3" points="634.43,-134.23 630.32,-133.18 632.87,-136.56 634.43,-134.23"/>
+<text xml:space="preserve" text-anchor="middle" x="660.52" y="-155.19" font-family="Times,serif" font-size="4.00">2</text>
 </g>
 <!-- SubscribingEventProcessor_15611&#45;&gt;central -->
 <g id="edge6" class="edge">
@@ -103,16 +103,16 @@
 <!-- Cache_43070&#45;&gt;central -->
 <g id="edge8" class="edge">
 <title>Cache_43070&#45;&gt;central</title>
-<path fill="none" stroke="#238b45" stroke-width="0.4" d="M688.9,-139.12C655.48,-179.81 595.11,-253.34 551.54,-306.4"/>
-<polygon fill="#238b45" stroke="#238b45" stroke-width="0.4" points="550.54,-305.42 549.08,-309.4 552.7,-307.19 550.54,-305.42"/>
-<text xml:space="preserve" text-anchor="middle" x="617.8" y="-225.69" font-family="Times,serif" font-size="4.00">1</text>
+<path fill="none" stroke="#238b45" stroke-width="0.4" d="M689.94,-137.85C656.78,-178.23 595.69,-252.64 551.67,-306.24"/>
+<polygon fill="#238b45" stroke="#238b45" stroke-width="0.4" points="550.64,-305.29 549.18,-309.27 552.8,-307.07 550.64,-305.29"/>
+<text xml:space="preserve" text-anchor="middle" x="618.31" y="-225.07" font-family="Times,serif" font-size="4.00">1</text>
 </g>
 <!-- DelegatingEventBus_11546&#45;&gt;central -->
 <g id="edge9" class="edge">
 <title>DelegatingEventBus_11546&#45;&gt;central</title>
-<path fill="none" stroke="#238b45" stroke-width="0.4" d="M739.03,-491.65C694.42,-468.88 625.13,-433.51 572.57,-406.69"/>
-<polygon fill="#238b45" stroke="#238b45" stroke-width="0.4" points="573.24,-405.45 569.04,-404.88 571.96,-407.95 573.24,-405.45"/>
-<text xml:space="preserve" text-anchor="middle" x="652.94" y="-449.42" font-family="Times,serif" font-size="4.00">1</text>
+<path fill="none" stroke="#238b45" stroke-width="0.4" d="M737.77,-491C693.17,-468.24 624.77,-433.33 572.72,-406.76"/>
+<polygon fill="#238b45" stroke="#238b45" stroke-width="0.4" points="573.43,-405.55 569.23,-404.98 572.15,-408.04 573.43,-405.55"/>
+<text xml:space="preserve" text-anchor="middle" x="652.25" y="-449.06" font-family="Times,serif" font-size="4.00">1</text>
 </g>
 <!-- EventSubscribers_10335&#45;&gt;central -->
 <g id="edge10" class="edge">
@@ -152,9 +152,9 @@
 <!-- NoCache_43340&#45;&gt;Cache_43070 -->
 <g id="edge27" class="edge">
 <title>NoCache_43340&#45;&gt;Cache_43070</title>
-<path fill="none" stroke="#ccece6" stroke-width="0.3" d="M582.73,-50.35C608.33,-61.81 641.57,-76.7 668.15,-88.6"/>
-<polygon fill="#ccece6" stroke="#ccece6" stroke-width="0.3" points="667.38,-89.79 671.6,-90.15 668.53,-87.24 667.38,-89.79"/>
-<text xml:space="preserve" text-anchor="middle" x="626.16" y="-66.65" font-family="Times,serif" font-size="4.00">1</text>
+<path fill="none" stroke="#ccece6" stroke-width="0.3" d="M582.73,-50.35C608.8,-62.02 642.79,-77.25 669.61,-89.25"/>
+<polygon fill="#ccece6" stroke="#ccece6" stroke-width="0.3" points="668.87,-90.46 673.09,-90.82 670.02,-87.9 668.87,-90.46"/>
+<text xml:space="preserve" text-anchor="middle" x="627.01" y="-67.03" font-family="Times,serif" font-size="4.00">1</text>
 </g>
 <!-- RecordingEventBus_27620&#45;&gt;central -->
 <g id="edge14" class="edge">
@@ -208,9 +208,9 @@
 <!-- WeakReferenceCache_42566&#45;&gt;Cache_43070 -->
 <g id="edge28" class="edge">
 <title>WeakReferenceCache_42566&#45;&gt;Cache_43070</title>
-<path fill="none" stroke="#ccece6" stroke-width="0.3" d="M822.13,-238.27C799.07,-210.79 765.21,-170.43 741.46,-142.13"/>
-<polygon fill="#ccece6" stroke="#ccece6" stroke-width="0.3" points="742.55,-141.25 738.91,-139.09 740.41,-143.05 742.55,-141.25"/>
-<text xml:space="preserve" text-anchor="middle" x="779.38" y="-189.71" font-family="Times,serif" font-size="4.00">1</text>
+<path fill="none" stroke="#ccece6" stroke-width="0.3" d="M822.13,-238.27C798.78,-210.44 764.35,-169.4 740.57,-141.06"/>
+<polygon fill="#ccece6" stroke="#ccece6" stroke-width="0.3" points="741.66,-140.18 738.01,-138.02 739.51,-141.98 741.66,-140.18"/>
+<text xml:space="preserve" text-anchor="middle" x="778.81" y="-189.03" font-family="Times,serif" font-size="4.00">1</text>
 </g>
 <!-- central -->
 <g id="node1" class="node">
@@ -247,14 +247,14 @@
 <title>EhCacheAdapter_42565</title>
 <ellipse fill="#ccece6" stroke="#41ae76" stroke-width="2" cx="406.58" cy="-71.52" rx="50.19" ry="32.4"/>
 <text xml:space="preserve" text-anchor="middle" x="406.58" y="-75.12" font-family="Times,serif" font-size="12.00">EhCacheAdapter</text>
-<text xml:space="preserve" text-anchor="middle" x="406.58" y="-60.72" font-family="Times,serif" font-size="12.00">(16.65%)</text>
+<text xml:space="preserve" text-anchor="middle" x="406.58" y="-60.72" font-family="Times,serif" font-size="12.00">(16.44%)</text>
 </g>
 <!-- JCacheAdapter_42564 -->
 <g id="node6" class="node">
 <title>JCacheAdapter_42564</title>
-<ellipse fill="#ccece6" stroke="#41ae76" stroke-width="5" cx="728.31" cy="-198.53" rx="46.8" ry="32.4"/>
+<ellipse fill="#ccece6" stroke="#41ae76" stroke-width="2" cx="728.31" cy="-198.53" rx="46.8" ry="32.4"/>
 <text xml:space="preserve" text-anchor="middle" x="728.31" y="-202.13" font-family="Times,serif" font-size="12.00">JCacheAdapter</text>
-<text xml:space="preserve" text-anchor="middle" x="728.31" y="-187.73" font-family="Times,serif" font-size="12.00">(16.65%)</text>
+<text xml:space="preserve" text-anchor="middle" x="728.31" y="-187.73" font-family="Times,serif" font-size="12.00">(16.44%)</text>
 </g>
 <!-- SubscribingEventProcessor_15611 -->
 <g id="node7" class="node">
@@ -273,14 +273,14 @@
 <!-- Cache_43070 -->
 <g id="node9" class="node">
 <title>Cache_43070</title>
-<ellipse fill="#ccece6" stroke="#41ae76" stroke-width="5" cx="713.65" cy="-108.97" rx="46.8" ry="32.4"/>
+<ellipse fill="#ccece6" stroke="#41ae76" stroke-width="2" cx="713.65" cy="-108.97" rx="46.8" ry="32.4"/>
 <text xml:space="preserve" text-anchor="middle" x="713.65" y="-112.57" font-family="Times,serif" font-size="12.00">Cache</text>
-<text xml:space="preserve" text-anchor="middle" x="713.65" y="-98.17" font-family="Times,serif" font-size="12.00">(16.65%)</text>
+<text xml:space="preserve" text-anchor="middle" x="713.65" y="-98.17" font-family="Times,serif" font-size="12.00">(16.44%)</text>
 </g>
 <!-- DelegatingEventBus_11546 -->
 <g id="node10" class="node">
 <title>DelegatingEventBus_11546</title>
-<ellipse fill="#ccece6" stroke="#41ae76" stroke-width="2" cx="783.71" cy="-514.45" rx="60.28" ry="32.4"/>
+<ellipse fill="#ccece6" stroke="#41ae76" stroke-width="5" cx="783.71" cy="-514.45" rx="60.28" ry="32.4"/>
 <text xml:space="preserve" text-anchor="middle" x="783.71" y="-518.05" font-family="Times,serif" font-size="12.00">DelegatingEventBus</text>
 <text xml:space="preserve" text-anchor="middle" x="783.71" y="-503.65" font-family="Times,serif" font-size="12.00">(100.0%)</text>
 </g>
@@ -289,7 +289,7 @@
 <title>EventSubscribers_10335</title>
 <ellipse fill="#ccece6" stroke="#41ae76" stroke-width="2" cx="285.81" cy="-595.44" rx="51.37" ry="32.4"/>
 <text xml:space="preserve" text-anchor="middle" x="285.81" y="-599.04" font-family="Times,serif" font-size="12.00">EventSubscribers</text>
-<text xml:space="preserve" text-anchor="middle" x="285.81" y="-584.64" font-family="Times,serif" font-size="12.00">(100.0%)</text>
+<text xml:space="preserve" text-anchor="middle" x="285.81" y="-584.64" font-family="Times,serif" font-size="12.00">(95.88%)</text>
 </g>
 <!-- InterceptingEventBus_16680 -->
 <g id="node12" class="node">
@@ -345,14 +345,14 @@
 <title>SubscribableEventSource_11379</title>
 <ellipse fill="#ccece6" stroke="#41ae76" stroke-width="5" cx="840.45" cy="-429.02" rx="74.24" ry="32.4"/>
 <text xml:space="preserve" text-anchor="middle" x="840.45" y="-432.62" font-family="Times,serif" font-size="12.00">SubscribableEventSource</text>
-<text xml:space="preserve" text-anchor="middle" x="840.45" y="-418.22" font-family="Times,serif" font-size="12.00">(43.46%)</text>
+<text xml:space="preserve" text-anchor="middle" x="840.45" y="-418.22" font-family="Times,serif" font-size="12.00">(35.93%)</text>
 </g>
 <!-- WeakReferenceCache_42566 -->
 <g id="node20" class="node">
 <title>WeakReferenceCache_42566</title>
 <ellipse fill="#ccece6" stroke="#41ae76" stroke-width="2" cx="847.66" cy="-268.69" rx="64.52" ry="32.4"/>
 <text xml:space="preserve" text-anchor="middle" x="847.66" y="-272.29" font-family="Times,serif" font-size="12.00">WeakReferenceCache</text>
-<text xml:space="preserve" text-anchor="middle" x="847.66" y="-257.89" font-family="Times,serif" font-size="12.00">(48.12%)</text>
+<text xml:space="preserve" text-anchor="middle" x="847.66" y="-257.89" font-family="Times,serif" font-size="12.00">(57.06%)</text>
 </g>
 </g>
 </svg>

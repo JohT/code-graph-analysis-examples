@@ -12,56 +12,24 @@ strict digraph TopOutlier5 {
     central [fontsize = 16;];
     central [color = 7; fillcolor = 5; penwidth = 3;];
 
-	graph   [label="Top Rank #5 Java Type Outlier\norg.axonframework.messaging.core.MessageDispatchInterceptorChain\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: cluster probability\nlarge circle: < 25% percentile of cluster probability\nthick outline: > 80% percentile of distance to cluster center\n\n"];
-	central [label="🧩 outlier #5\nMessageDispatchInterceptorChain"];
-	"DefaultDispatchInterceptorRegistry_21815"  [label = "DefaultDispatchInterceptorRegistry\n(38.81%)"; penwidth = 5; ]; "DefaultDispatchInterceptorRegistry_21815" -> central [label=12; weight=12; penwidth=0.6];
-	"BeanValidationInterceptor_21971"  [label = "BeanValidationInterceptor\n(42.19%)"; penwidth = 5; ]; "BeanValidationInterceptor_21971" -> central [label=3; weight=3; penwidth=0.4];
-	"CorrelationDataInterceptor_21970"  [label = "CorrelationDataInterceptor\n(72.13%)"; penwidth = 2; ]; "CorrelationDataInterceptor_21970" -> central [label=3; weight=3; penwidth=0.4];
-	"MonitoringEventDispatchInterceptor_7353"  [label = "MonitoringEventDispatchInterceptor\n(100.0%)"; penwidth = 2; ]; "MonitoringEventDispatchInterceptor_7353" -> central [label=3; weight=3; penwidth=0.4];
-	"MonitoringSubscriptionQueryUpdateDispatchInterceptor_7351"  [label = "MonitoringSubscriptionQueryUpdateDispatchInterceptor\n(100.0%)"; penwidth = 2; ]; "MonitoringSubscriptionQueryUpdateDispatchInterceptor_7351" -> central [label=3; weight=3; penwidth=0.4];
-	"LoggingInterceptor_21967"  [label = "LoggingInterceptor\n(42.19%)"; penwidth = 2; ]; "LoggingInterceptor_21967" -> central [label=2; weight=2; penwidth=0.4];
-	"DefaultMessageDispatchInterceptorChain_7895"  [label = "DefaultMessageDispatchInterceptorChain\n(73.05%)"; penwidth = 2; ]; "DefaultMessageDispatchInterceptorChain_7895" -> central [label=1; weight=1; penwidth=0.4];
-	"DefaultMessageDispatchInterceptorChain$InterceptingDispatcher_22888"  [label = "DefaultMessageDispatchInterceptorChain$\nInterceptingDispatcher\n(42.19%)"; penwidth = 5; ]; "DefaultMessageDispatchInterceptorChain$InterceptingDispatcher_22888" -> central [label=1; weight=1; penwidth=0.4];
-	"MessageDispatchInterceptor_6940"  [label = "MessageDispatchInterceptor\n(38.81%)"; penwidth = 5; ]; "MessageDispatchInterceptor_6940" -> central [label=1; weight=1; penwidth=0.4];
-	"Message_6926"  [label = "Message\n(100.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "Message_6926" [label=1; weight=1; penwidth=0.4; color = 5];
-	"MessageStream_6938"  [label = "MessageStream\n(48.68%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "MessageStream_6938" [label=1; weight=1; penwidth=0.4; color = 5];
-	"ProcessingContext_6936"  [label = "ProcessingContext\n(98.54%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "ProcessingContext_6936" [label=1; weight=1; penwidth=0.4; color = 5];
-	"DefaultDispatchInterceptorRegistry_21815" -> "MessageDispatchInterceptor_6940" [label=34; weight=34; penwidth=0.3; color = 3]
-	"MessageStream_6938" -> "Message_6926" [label=26; weight=26; penwidth=0.3; color = 3]
-	"DefaultDispatchInterceptorRegistry_21815" -> "Message_6926" [label=9; weight=9; penwidth=0.3; color = 3]
-	"BeanValidationInterceptor_21971" -> "MessageStream_6938" [label=8; weight=8; penwidth=0.3; color = 3]
-	"DefaultDispatchInterceptorRegistry_21815" -> "ProcessingContext_6936" [label=8; weight=8; penwidth=0.3; color = 3]
-	"DefaultDispatchInterceptorRegistry_21815" -> "MessageStream_6938" [label=8; weight=8; penwidth=0.3; color = 3]
-	"LoggingInterceptor_21967" -> "Message_6926" [label=8; weight=8; penwidth=0.3; color = 3]
-	"DefaultMessageDispatchInterceptorChain$InterceptingDispatcher_22888" -> "MessageStream_6938" [label=7; weight=7; penwidth=0.3; color = 3]
-	"MonitoringEventDispatchInterceptor_7353" -> "ProcessingContext_6936" [label=7; weight=7; penwidth=0.3; color = 3]
-	"MonitoringSubscriptionQueryUpdateDispatchInterceptor_7351" -> "ProcessingContext_6936" [label=7; weight=7; penwidth=0.3; color = 3]
-	"DefaultMessageDispatchInterceptorChain_7895" -> "MessageStream_6938" [label=6; weight=6; penwidth=0.3; color = 3]
-	"DefaultMessageDispatchInterceptorChain$InterceptingDispatcher_22888" -> "ProcessingContext_6936" [label=6; weight=6; penwidth=0.3; color = 3]
-	"LoggingInterceptor_21967" -> "MessageStream_6938" [label=6; weight=6; penwidth=0.3; color = 3]
-	"BeanValidationInterceptor_21971" -> "Message_6926" [label=5; weight=5; penwidth=0.3; color = 3]
-	"CorrelationDataInterceptor_21970" -> "ProcessingContext_6936" [label=5; weight=5; penwidth=0.3; color = 3]
-	"Message_6926" -> "ProcessingContext_6936" [label=5; weight=5; penwidth=0.3; color = 3]
-	"BeanValidationInterceptor_21971" -> "ProcessingContext_6936" [label=4; weight=4; penwidth=0.3; color = 3]
-	"CorrelationDataInterceptor_21970" -> "Message_6926" [label=4; weight=4; penwidth=0.3; color = 3]
-	"DefaultMessageDispatchInterceptorChain_7895" -> "ProcessingContext_6936" [label=4; weight=4; penwidth=0.3; color = 3]
-	"DefaultMessageDispatchInterceptorChain_7895" -> "DefaultMessageDispatchInterceptorChain$InterceptingDispatcher_22888" [label=3; weight=3; penwidth=0.3; color = 3]
-	"DefaultMessageDispatchInterceptorChain_7895" -> "MessageDispatchInterceptor_6940" [label=3; weight=3; penwidth=0.3; color = 3]
-	"DefaultMessageDispatchInterceptorChain$InterceptingDispatcher_22888" -> "MessageDispatchInterceptor_6940" [label=3; weight=3; penwidth=0.3; color = 3]
-	"CorrelationDataInterceptor_21970" -> "MessageStream_6938" [label=2; weight=2; penwidth=0.3; color = 3]
-	"DefaultMessageDispatchInterceptorChain_7895" -> "Message_6926" [label=2; weight=2; penwidth=0.3; color = 3]
-	"LoggingInterceptor_21967" -> "ProcessingContext_6936" [label=2; weight=2; penwidth=0.3; color = 3]
-	"MonitoringEventDispatchInterceptor_7353" -> "MessageStream_6938" [label=2; weight=2; penwidth=0.3; color = 3]
-	"MonitoringSubscriptionQueryUpdateDispatchInterceptor_7351" -> "MessageStream_6938" [label=2; weight=2; penwidth=0.3; color = 3]
-	"BeanValidationInterceptor_21971" -> "MessageDispatchInterceptor_6940" [label=1; weight=1; penwidth=0.3; color = 3]
-	"CorrelationDataInterceptor_21970" -> "MessageDispatchInterceptor_6940" [label=1; weight=1; penwidth=0.3; color = 3]
-	"DefaultMessageDispatchInterceptorChain$InterceptingDispatcher_22888" -> "Message_6926" [label=1; weight=1; penwidth=0.3; color = 3]
-	"LoggingInterceptor_21967" -> "MessageDispatchInterceptor_6940" [label=1; weight=1; penwidth=0.3; color = 3]
-	"MessageDispatchInterceptor_6940" -> "Message_6926" [label=1; weight=1; penwidth=0.3; color = 3]
-	"MessageDispatchInterceptor_6940" -> "ProcessingContext_6936" [label=1; weight=1; penwidth=0.3; color = 3]
-	"MessageDispatchInterceptor_6940" -> "MessageStream_6938" [label=1; weight=1; penwidth=0.3; color = 3]
-	"MonitoringEventDispatchInterceptor_7353" -> "Message_6926" [label=1; weight=1; penwidth=0.3; color = 3]
-	"MonitoringEventDispatchInterceptor_7353" -> "MessageDispatchInterceptor_6940" [label=1; weight=1; penwidth=0.3; color = 3]
-	"MonitoringSubscriptionQueryUpdateDispatchInterceptor_7351" -> "MessageDispatchInterceptor_6940" [label=1; weight=1; penwidth=0.3; color = 3]
-	"MonitoringSubscriptionQueryUpdateDispatchInterceptor_7351" -> "Message_6926" [label=1; weight=1; penwidth=0.3; color = 3]
+	graph   [label="Top Rank #5 Java Type Outlier\norg.axonframework.common.configuration.ComponentDecorator\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: cluster probability\nlarge circle: < 25% percentile of cluster probability\nthick outline: > 80% percentile of distance to cluster center\n\n"];
+	central [label="🧩 outlier #5\nComponentDecorator"];
+	"DecoratedComponent_45174"  [label = "DecoratedComponent\n(53.07%)"; penwidth = 2; ]; "DecoratedComponent_45174" -> central [label=3; weight=3; penwidth=0.4];
+	"DefaultDecoratorDefinition_45090"  [label = "DefaultDecoratorDefinition\n(49.89%)"; penwidth = 5; ]; "DefaultDecoratorDefinition_45090" -> central [label=3; weight=3; penwidth=0.4];
+	"AxonServerConfigurationEnhancer_4196"  [label = "AxonServerConfigurationEnhancer\n(38.74%)"; penwidth = 2; ]; "AxonServerConfigurationEnhancer_4196" -> central [label=2; weight=2; penwidth=0.4];
+	"ComponentRegistry_44298"  [label = "ComponentRegistry\n(70.42%)"; penwidth = 5; ]; "ComponentRegistry_44298" -> central [label=2; weight=2; penwidth=0.4];
+	"DecoratorDefinition$1_45407"  [label = "DecoratorDefinition$\n1\n(55.88%)"; penwidth = 2; ]; "DecoratorDefinition$1_45407" -> central [label=1; weight=1; penwidth=0.4];
+	"DecoratorDefinition$2_44406"  [label = "DecoratorDefinition$\n2\n(55.88%)"; penwidth = 2; ]; "DecoratorDefinition$2_44406" -> central [label=1; weight=1; penwidth=0.4];
+	"DecoratorDefinition$PartialDecoratorDefinition_44865"  [label = "DecoratorDefinition$\nPartialDecoratorDefinition\n(26.6%)"; penwidth = 2; ]; "DecoratorDefinition$PartialDecoratorDefinition_44865" -> central [label=1; weight=1; penwidth=0.4];
+	"Configuration_44300"  [label = "Configuration\n(44.83%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "Configuration_44300" [label=1; weight=1; penwidth=0.4; color = 5];
+	"AxonServerConfigurationEnhancer_4196" -> "Configuration_44300" [label=33; weight=33; penwidth=0.3; color = 3]
+	"AxonServerConfigurationEnhancer_4196" -> "ComponentRegistry_44298" [label=13; weight=13; penwidth=0.3; color = 3]
+	"ComponentRegistry_44298" -> "DecoratorDefinition$PartialDecoratorDefinition_44865" [label=3; weight=3; penwidth=0.3; color = 3]
+	"DecoratedComponent_45174" -> "Configuration_44300" [label=3; weight=3; penwidth=0.3; color = 3]
+	"AxonServerConfigurationEnhancer_4196" -> "DecoratorDefinition$PartialDecoratorDefinition_44865" [label=2; weight=2; penwidth=0.3; color = 3]
+	"DecoratorDefinition$1_45407" -> "DecoratorDefinition$PartialDecoratorDefinition_44865" [label=2; weight=2; penwidth=0.3; color = 3]
+	"DecoratorDefinition$1_45407" -> "DefaultDecoratorDefinition_45090" [label=2; weight=2; penwidth=0.3; color = 3]
+	"DecoratorDefinition$2_44406" -> "DecoratorDefinition$PartialDecoratorDefinition_44865" [label=2; weight=2; penwidth=0.3; color = 3]
+	"DecoratorDefinition$2_44406" -> "DefaultDecoratorDefinition_45090" [label=2; weight=2; penwidth=0.3; color = 3]
+	"DefaultDecoratorDefinition_45090" -> "DecoratedComponent_45174" [label=2; weight=2; penwidth=0.3; color = 3]
 }

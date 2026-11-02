@@ -12,24 +12,13 @@ strict digraph TopOutlier3 {
     central [fontsize = 16;];
     central [color = 7; fillcolor = 5; penwidth = 3;];
 
-	graph   [label="Top Rank #3 Java Type Outlier\norg.axonframework.common.configuration.ComponentDecorator\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: cluster probability\nlarge circle: < 25% percentile of cluster probability\nthick outline: > 80% percentile of distance to cluster center\n\n"];
-	central [label="🧩 outlier #3\nComponentDecorator"];
-	"DecoratedComponent_45174"  [label = "DecoratedComponent\n(100.0%)"; penwidth = 5; ]; "DecoratedComponent_45174" -> central [label=3; weight=3; penwidth=0.4];
-	"DefaultDecoratorDefinition_45090"  [label = "DefaultDecoratorDefinition\n(100.0%)"; penwidth = 2; ]; "DefaultDecoratorDefinition_45090" -> central [label=3; weight=3; penwidth=0.4];
-	"AxonServerConfigurationEnhancer_4196"  [label = "AxonServerConfigurationEnhancer\n(40.91%)"; penwidth = 2; ]; "AxonServerConfigurationEnhancer_4196" -> central [label=2; weight=2; penwidth=0.4];
-	"ComponentRegistry_44298"  [label = "ComponentRegistry\n(67.26%)"; penwidth = 2; ]; "ComponentRegistry_44298" -> central [label=2; weight=2; penwidth=0.4];
-	"DecoratorDefinition$1_45407"  [label = "DecoratorDefinition$\n1\n(53.13%)"; penwidth = 2; ]; "DecoratorDefinition$1_45407" -> central [label=1; weight=1; penwidth=0.4];
-	"DecoratorDefinition$2_44406"  [label = "DecoratorDefinition$\n2\n(53.13%)"; penwidth = 2; ]; "DecoratorDefinition$2_44406" -> central [label=1; weight=1; penwidth=0.4];
-	"DecoratorDefinition$PartialDecoratorDefinition_44865"  [label = "DecoratorDefinition$\nPartialDecoratorDefinition\n(23.94%)"; penwidth = 2; ]; "DecoratorDefinition$PartialDecoratorDefinition_44865" -> central [label=1; weight=1; penwidth=0.4];
-	"Configuration_44300"  [label = "Configuration\n(84.15%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "Configuration_44300" [label=1; weight=1; penwidth=0.4; color = 5];
-	"AxonServerConfigurationEnhancer_4196" -> "Configuration_44300" [label=33; weight=33; penwidth=0.3; color = 3]
-	"AxonServerConfigurationEnhancer_4196" -> "ComponentRegistry_44298" [label=13; weight=13; penwidth=0.3; color = 3]
-	"ComponentRegistry_44298" -> "DecoratorDefinition$PartialDecoratorDefinition_44865" [label=3; weight=3; penwidth=0.3; color = 3]
-	"DecoratedComponent_45174" -> "Configuration_44300" [label=3; weight=3; penwidth=0.3; color = 3]
-	"AxonServerConfigurationEnhancer_4196" -> "DecoratorDefinition$PartialDecoratorDefinition_44865" [label=2; weight=2; penwidth=0.3; color = 3]
-	"DecoratorDefinition$1_45407" -> "DecoratorDefinition$PartialDecoratorDefinition_44865" [label=2; weight=2; penwidth=0.3; color = 3]
-	"DecoratorDefinition$1_45407" -> "DefaultDecoratorDefinition_45090" [label=2; weight=2; penwidth=0.3; color = 3]
-	"DecoratorDefinition$2_44406" -> "DecoratorDefinition$PartialDecoratorDefinition_44865" [label=2; weight=2; penwidth=0.3; color = 3]
-	"DecoratorDefinition$2_44406" -> "DefaultDecoratorDefinition_45090" [label=2; weight=2; penwidth=0.3; color = 3]
-	"DefaultDecoratorDefinition_45090" -> "DecoratedComponent_45174" [label=2; weight=2; penwidth=0.3; color = 3]
+	graph   [label="Top Rank #3 Java Type Outlier\norg.axonframework.messaging.core.HandlerExecutionException\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: cluster probability\nlarge circle: < 25% percentile of cluster probability\nthick outline: > 80% percentile of distance to cluster center\n\n"];
+	central [label="🧩 outlier #3\nHandlerExecutionException"];
+	"CommandExecutionException_9404"  [label = "CommandExecutionException\n(30.06%)"; penwidth = 2; ]; "CommandExecutionException_9404" -> central [label=4; weight=4; penwidth=0.5];
+	"QueryExecutionException_16692"  [label = "QueryExecutionException\n(30.06%)"; penwidth = 2; ]; "QueryExecutionException_16692" -> central [label=4; weight=4; penwidth=0.5];
+	"ExceptionFactory_1042"  [label = "ExceptionFactory\n(94.39%)"; penwidth = 2; ]; "ExceptionFactory_1042" -> central [label=1; weight=1; penwidth=0.4];
+	"AxonException_41209"  [label = "AxonException\n(28.42%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "AxonException_41209" [label=2; weight=2; penwidth=0.4; color = 5];
+	"ExceptionFactory_1042" -> "AxonException_41209" [label=5; weight=5; penwidth=0.3; color = 3]
+	"ExceptionFactory_1042" -> "QueryExecutionException_16692" [label=4; weight=4; penwidth=0.3; color = 3]
+	"ExceptionFactory_1042" -> "CommandExecutionException_9404" [label=4; weight=4; penwidth=0.3; color = 3]
 }

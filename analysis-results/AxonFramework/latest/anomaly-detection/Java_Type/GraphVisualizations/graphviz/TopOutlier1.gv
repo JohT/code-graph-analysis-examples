@@ -17,13 +17,13 @@ strict digraph TopOutlier1 {
 	"ContinuousMessageStream_38872"  [shape = "circle"; height=1.8; label = "ContinuousMessageStream\n(0.0%)"; penwidth = 2; ]; "ContinuousMessageStream_38872" -> central [label=5; weight=5; penwidth=0.5];
 	"AbstractCacheAdapter_42930"  [label = "AbstractCacheAdapter\n(100.0%)"; penwidth = 2; ]; "AbstractCacheAdapter_42930" -> central [label=4; weight=4; penwidth=0.5];
 	"AxonServerQueryBusConnector$LocalSegmentAdapter_2073"  [shape = "circle"; height=1.8; label = "AxonServerQueryBusConnector$\nLocalSegmentAdapter\n(0.0%)"; penwidth = 2; ]; "AxonServerQueryBusConnector$LocalSegmentAdapter_2073" -> central [label=2; weight=2; penwidth=0.4];
-	"EhCacheAdapter_42565"  [label = "EhCacheAdapter\n(16.65%)"; penwidth = 2; ]; "EhCacheAdapter_42565" -> central [label=2; weight=2; penwidth=0.4];
-	"JCacheAdapter_42564"  [label = "JCacheAdapter\n(16.65%)"; penwidth = 5; ]; "JCacheAdapter_42564" -> central [label=2; weight=2; penwidth=0.4];
+	"EhCacheAdapter_42565"  [label = "EhCacheAdapter\n(16.44%)"; penwidth = 2; ]; "EhCacheAdapter_42565" -> central [label=2; weight=2; penwidth=0.4];
+	"JCacheAdapter_42564"  [label = "JCacheAdapter\n(16.44%)"; penwidth = 2; ]; "JCacheAdapter_42564" -> central [label=2; weight=2; penwidth=0.4];
 	"SubscribingEventProcessor_15611"  [shape = "circle"; height=1.8; label = "SubscribingEventProcessor\n(0.0%)"; penwidth = 2; ]; "SubscribingEventProcessor_15611" -> central [label=2; weight=2; penwidth=0.4];
 	"AggregateBasedJpaEventStorageEngine_39849"  [label = "AggregateBasedJpaEventStorageEngine\n(100.0%)"; penwidth = 2; ]; "AggregateBasedJpaEventStorageEngine_39849" -> central [label=1; weight=1; penwidth=0.4];
-	"Cache_43070"  [label = "Cache\n(16.65%)"; penwidth = 5; ]; "Cache_43070" -> central [label=1; weight=1; penwidth=0.4];
-	"DelegatingEventBus_11546"  [label = "DelegatingEventBus\n(100.0%)"; penwidth = 2; ]; "DelegatingEventBus_11546" -> central [label=1; weight=1; penwidth=0.4];
-	"EventSubscribers_10335"  [label = "EventSubscribers\n(100.0%)"; penwidth = 2; ]; "EventSubscribers_10335" -> central [label=1; weight=1; penwidth=0.4];
+	"Cache_43070"  [label = "Cache\n(16.44%)"; penwidth = 2; ]; "Cache_43070" -> central [label=1; weight=1; penwidth=0.4];
+	"DelegatingEventBus_11546"  [label = "DelegatingEventBus\n(100.0%)"; penwidth = 5; ]; "DelegatingEventBus_11546" -> central [label=1; weight=1; penwidth=0.4];
+	"EventSubscribers_10335"  [label = "EventSubscribers\n(95.88%)"; penwidth = 2; ]; "EventSubscribers_10335" -> central [label=1; weight=1; penwidth=0.4];
 	"InterceptingEventBus_16680"  [label = "InterceptingEventBus\n(100.0%)"; penwidth = 2; ]; "InterceptingEventBus_16680" -> central [label=1; weight=1; penwidth=0.4];
 	"InterceptingEventStore_38826"  [shape = "circle"; height=1.8; label = "InterceptingEventStore\n(0.0%)"; penwidth = 2; ]; "InterceptingEventStore_38826" -> central [label=1; weight=1; penwidth=0.4];
 	"NoCache_43340"  [label = "NoCache\n(100.0%)"; penwidth = 2; ]; "NoCache_43340" -> central [label=1; weight=1; penwidth=0.4];
@@ -31,8 +31,8 @@ strict digraph TopOutlier1 {
 	"RecordingEventStore_27621"  [shape = "circle"; height=1.8; label = "RecordingEventStore\n(0.0%)"; penwidth = 2; ]; "RecordingEventStore_27621" -> central [label=1; weight=1; penwidth=0.4];
 	"SimpleEventBus_11544"  [label = "SimpleEventBus\n(100.0%)"; penwidth = 2; ]; "SimpleEventBus_11544" -> central [label=1; weight=1; penwidth=0.4];
 	"StorageEngineBackedEventStore_38820"  [shape = "circle"; height=1.8; label = "StorageEngineBackedEventStore\n(0.0%)"; penwidth = 2; ]; "StorageEngineBackedEventStore_38820" -> central [label=1; weight=1; penwidth=0.4];
-	"SubscribableEventSource_11379"  [label = "SubscribableEventSource\n(43.46%)"; penwidth = 5; ]; "SubscribableEventSource_11379" -> central [label=1; weight=1; penwidth=0.4];
-	"WeakReferenceCache_42566"  [label = "WeakReferenceCache\n(48.12%)"; penwidth = 2; ]; "WeakReferenceCache_42566" -> central [label=1; weight=1; penwidth=0.4];
+	"SubscribableEventSource_11379"  [label = "SubscribableEventSource\n(35.93%)"; penwidth = 5; ]; "SubscribableEventSource_11379" -> central [label=1; weight=1; penwidth=0.4];
+	"WeakReferenceCache_42566"  [label = "WeakReferenceCache\n(57.06%)"; penwidth = 2; ]; "WeakReferenceCache_42566" -> central [label=1; weight=1; penwidth=0.4];
 	"SimpleEventBus_11544" -> "EventSubscribers_10335" [label=6; weight=6; penwidth=0.3; color = 3]
 	"AggregateBasedJpaEventStorageEngine_39849" -> "ContinuousMessageStream_38872" [label=4; weight=4; penwidth=0.3; color = 3]
 	"InterceptingEventStore_38826" -> "InterceptingEventBus_16680" [label=4; weight=4; penwidth=0.3; color = 3]

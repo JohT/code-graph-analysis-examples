@@ -14,13 +14,13 @@ strict digraph TopOutlier2 {
 
 	graph   [label="Top Rank #2 Java Package Outlier\norg.axonframework.eventsourcing.snapshot.api\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: cluster probability\nlarge circle: < 25% percentile of cluster probability\nthick outline: > 80% percentile of distance to cluster center\n\n"];
 	central [label="🧩 outlier #2\napi"];
-	"snapshot_1033"  [label = "snapshot\n(75.24%)"; penwidth = 2; ]; "snapshot_1033" -> central [label=16; weight=16; penwidth=0.7];
-	"handler_36233"  [label = "handler\n(80.59%)"; penwidth = 2; ]; "handler_36233" -> central [label=13; weight=13; penwidth=0.6];
+	"snapshot_1033"  [label = "snapshot\n(50.49%)"; penwidth = 5; ]; "snapshot_1033" -> central [label=16; weight=16; penwidth=0.7];
+	"handler_36233"  [label = "handler\n(50.49%)"; penwidth = 2; ]; "handler_36233" -> central [label=13; weight=13; penwidth=0.6];
 	"eventstore_36234"  [label = "eventstore\n(100.0%)"; penwidth = 2; ]; "eventstore_36234" -> central [label=7; weight=7; penwidth=0.5];
-	"inmemory_36230"  [shape = "circle"; height=1.8; label = "inmemory\n(67.72%)"; penwidth = 5; ]; "inmemory_36230" -> central [label=4; weight=4; penwidth=0.5];
-	"configuration_36237"  [shape = "circle"; height=1.8; label = "configuration\n(0.0%)"; penwidth = 2; ]; "configuration_36237" -> central [label=3; weight=3; penwidth=0.5];
-	"store_36231"  [shape = "circle"; height=1.8; label = "store\n(52.76%)"; penwidth = 5; ]; "store_36231" -> central [label=2; weight=2; penwidth=0.4];
-	"eventhandling_6869"  [label = "eventhandling\n(100.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "eventhandling_6869" [label=1; weight=1; penwidth=0.4; color = 5];
+	"inmemory_36230"  [label = "inmemory\n(50.49%)"; penwidth = 5; ]; "inmemory_36230" -> central [label=4; weight=4; penwidth=0.5];
+	"configuration_36237"  [shape = "circle"; height=1.8; label = "configuration\n(41.91%)"; penwidth = 2; ]; "configuration_36237" -> central [label=3; weight=3; penwidth=0.5];
+	"store_36231"  [shape = "circle"; height=1.8; label = "store\n(41.53%)"; penwidth = 5; ]; "store_36231" -> central [label=2; weight=2; penwidth=0.4];
+	"eventhandling_6869"  [label = "eventhandling\n(56.28%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "eventhandling_6869" [label=1; weight=1; penwidth=0.4; color = 5];
 	"eventstore_36234"  [label = "eventstore\n(100.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "eventstore_36234" [label=1; weight=1; penwidth=0.4; color = 5];
 	"eventstore_36234" -> "eventhandling_6869" [label=25; weight=25; penwidth=0.3; color = 3]
 	"configuration_36237" -> "eventstore_36234" [label=15; weight=15; penwidth=0.3; color = 3]

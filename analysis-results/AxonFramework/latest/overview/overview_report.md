@@ -1,6 +1,6 @@
 ---
 title: "Overview Report"
-generated: "2026-11-01"
+generated: "2026-11-02"
 model_version: "v5.0.0"
 dataset: "AxonFramework-5.1.2"
 authors: ["JohT/code-graph-analysis-pipeline"]

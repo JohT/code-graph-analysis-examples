@@ -12,9 +12,19 @@ strict digraph TopBridge5 {
     central [fontsize = 16;];
     central [color = 7; fillcolor = 5; penwidth = 3;];
 
-	graph   [label="Top Rank #5 Java Type Bridge\nio.axoniq.framework.springboot.service.connection.AxonServerTestContainerConnectionDetailsFactory$AxonServerContainerConnectionDetails\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
-	central [label="🌉 bridge #5\nAxonServerTestContainerConnectionDetailsFactory$AxonServerContainerConnectionDetails"];
-	"AxonServerTestContainerConnectionDetailsFactory_30984" [label = "AxonServerTestContainerConnectionDetailsFactory"; ]; "AxonServerTestContainerConnectionDetailsFactory_30984" -> central [label=3; weight=3; penwidth=0.4];
-	"AxonServerConnectionDetails_31103" [label = "AxonServerConnectionDetails"; color = 5; fillcolor = 1; ]; central -> "AxonServerConnectionDetails_31103" [label=1; weight=1; penwidth=0.4; color = 5];
-	"AxonServerTestContainerConnectionDetailsFactory_30984" -> "AxonServerConnectionDetails_31103" [label=2; weight=2; penwidth=0.3; color = 3]
+	graph   [label="Top Rank #5 Java Type Bridge\norg.axonframework.common.configuration.ComponentLifecycleHandler\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
+	central [label="🌉 bridge #5\nComponentLifecycleHandler"];
+	"AbstractComponent_44301" [label = "AbstractComponent"; ]; "AbstractComponent_44301" -> central [label=6; weight=6; penwidth=0.5];
+	"AbstractComponent$HandlerRegistration_44858" [label = "AbstractComponent$\nHandlerRegistration"; ]; "AbstractComponent$HandlerRegistration_44858" -> central [label=3; weight=3; penwidth=0.4];
+	"ComponentDefinition_44384" [label = "ComponentDefinition"; ]; "ComponentDefinition_44384" -> central [label=2; weight=2; penwidth=0.4];
+	"DecoratorDefinition_44863" [label = "DecoratorDefinition"; ]; "DecoratorDefinition_44863" -> central [label=2; weight=2; penwidth=0.4];
+	"DefaultDecoratorDefinition_45090" [label = "DefaultDecoratorDefinition"; ]; "DefaultDecoratorDefinition_45090" -> central [label=2; weight=2; penwidth=0.4];
+	"Configuration_44300" [label = "Configuration"; color = 5; fillcolor = 1; ]; central -> "Configuration_44300" [label=1; weight=1; penwidth=0.4; color = 5];
+	"AbstractComponent_44301" -> "AbstractComponent$HandlerRegistration_44858" [label=17; weight=17; penwidth=0.3; color = 3]
+	"AbstractComponent_44301" -> "Configuration_44300" [label=8; weight=8; penwidth=0.3; color = 3]
+	"DefaultDecoratorDefinition_45090" -> "AbstractComponent$HandlerRegistration_44858" [label=7; weight=7; penwidth=0.3; color = 3]
+	"ComponentDefinition_44384" -> "Configuration_44300" [label=6; weight=6; penwidth=0.3; color = 3]
+	"DefaultDecoratorDefinition_45090" -> "DecoratorDefinition_44863" [label=3; weight=3; penwidth=0.3; color = 3]
+	"AbstractComponent_44301" -> "ComponentDefinition_44384" [label=2; weight=2; penwidth=0.3; color = 3]
+	"DecoratorDefinition_44863" -> "Configuration_44300" [label=2; weight=2; penwidth=0.3; color = 3]
 }
