@@ -43,8 +43,8 @@ strict digraph TopBottleneck4 {
 	"gateway_6874"  [label = "gateway\n(2.52)"; penwidth = 2; ]; "gateway_6874" -> central [label=3; weight=3; penwidth=0.5];
 	"inmemory_6881"  [label = "inmemory\n(0.0)"; penwidth = 2; ]; "inmemory_6881" -> central [label=3; weight=3; penwidth=0.5];
 	"jdbc_6882"  [label = "jdbc\n(0.0)"; penwidth = 2; ]; "jdbc_6882" -> central [label=3; weight=3; penwidth=0.5];
-	"jpa_6910"  [label = "jpa\n(2.0)"; penwidth = 2; ]; "jpa_6910" -> central [label=3; weight=3; penwidth=0.5];
 	"jpa_6883"  [label = "jpa\n(0.0)"; penwidth = 2; ]; "jpa_6883" -> central [label=3; weight=3; penwidth=0.5];
+	"jpa_6910"  [label = "jpa\n(2.0)"; penwidth = 2; ]; "jpa_6910" -> central [label=3; weight=3; penwidth=0.5];
 	"segmenting_6885"  [label = "segmenting\n(61.92)"; penwidth = 2; ]; "segmenting_6885" -> central [label=3; weight=3; penwidth=0.5];
 	"store_6880"  [label = "store\n(1.5)"; penwidth = 2; ]; "store_6880" -> central [label=3; weight=3; penwidth=0.5];
 	"timeout_6911"  [label = "timeout\n(0.0)"; penwidth = 2; ]; "timeout_6911" -> central [label=3; weight=3; penwidth=0.5];
@@ -53,7 +53,7 @@ strict digraph TopBottleneck4 {
 	"child_31596"  [label = "child\n(0.0)"; penwidth = 2; ]; "child_31596" -> central [label=2; weight=2; penwidth=0.4];
 	"modelling_31592"  [label = "modelling\n(61.33)"; penwidth = 2; ]; "modelling_31592" -> central [label=2; weight=2; penwidth=0.4];
 	"processing_6876"  [label = "processing\n(40.24)"; penwidth = 2; ]; "processing_6876" -> central [label=2; weight=2; penwidth=0.4];
-	"annotation_6892"  [label = "annotation\n(147.57)"; penwidth = 2; ]; "annotation_6892" -> central [label=1; weight=1; penwidth=0.4];
+	"annotation_6872"  [label = "annotation\n(0.0)"; penwidth = 2; ]; "annotation_6872" -> central [label=1; weight=1; penwidth=0.4];
 	"core_6897"  [label = "core\n(1185.47)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "core_6897" [label=50; weight=50; penwidth=1.2; color = 5];
 	"common_41193"  [label = "common\n(0.0)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "common_41193" [label=11; weight=11; penwidth=0.6; color = 5];
 	"configuration_41206"  [label = "configuration\n(103.14)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "configuration_41206" [label=2; weight=2; penwidth=0.4; color = 5];
@@ -68,8 +68,8 @@ strict digraph TopBottleneck4 {
 	"pooled_6884" -> "common_41193" [label=61; weight=61; penwidth=0.3; color = 3]
 	"eventhandling_6869" -> "core_6897" [label=59; weight=59; penwidth=0.3; color = 3]
 	"configuration_6912" -> "configuration_41206" [label=57; weight=57; penwidth=0.3; color = 3]
-	"event_1039" -> "core_6897" [label=53; weight=53; penwidth=0.3; color = 3]
 	"event_1039" -> "eventstore_36234" [label=53; weight=53; penwidth=0.3; color = 3]
+	"event_1039" -> "core_6897" [label=53; weight=53; penwidth=0.3; color = 3]
 	"eventstore_36234" -> "core_6897" [label=53; weight=53; penwidth=0.3; color = 3]
 	"annotation_6870" -> "annotation_6898" [label=51; weight=51; penwidth=0.3; color = 3]
 	"core_6897" -> "common_41193" [label=44; weight=44; penwidth=0.3; color = 3]
@@ -85,8 +85,8 @@ strict digraph TopBottleneck4 {
 	"interception_6900" -> "common_41193" [label=29; weight=29; penwidth=0.3; color = 3]
 	"interception_6900" -> "configuration_41206" [label=29; weight=29; penwidth=0.3; color = 3]
 	"entity_31594" -> "commandhandling_6862" [label=28; weight=28; penwidth=0.3; color = 3]
-	"annotation_31595" -> "common_41193" [label=26; weight=26; penwidth=0.3; color = 3]
 	"annotation_31595" -> "child_31596" [label=26; weight=26; penwidth=0.3; color = 3]
+	"annotation_31595" -> "common_41193" [label=26; weight=26; penwidth=0.3; color = 3]
 	"configuration_6889" -> "configuration_41206" [label=26; weight=26; penwidth=0.3; color = 3]
 	"annotation_31595" -> "core_6897" [label=25; weight=25; penwidth=0.3; color = 3]
 	"configuration_6912" -> "interception_6900" [label=25; weight=25; penwidth=0.3; color = 3]
@@ -95,7 +95,6 @@ strict digraph TopBottleneck4 {
 	"fixture_27533" -> "commandhandling_6862" [label=24; weight=24; penwidth=0.3; color = 3]
 	"jpa_6883" -> "store_6880" [label=24; weight=24; penwidth=0.3; color = 3]
 	"pooled_6884" -> "configuration_41206" [label=23; weight=23; penwidth=0.3; color = 3]
-	"annotation_6892" -> "annotation_6898" [label=22; weight=22; penwidth=0.3; color = 3]
 	"interception_6893" -> "queryhandling_6891" [label=22; weight=22; penwidth=0.3; color = 3]
 	"queryhandling_6891" -> "common_41193" [label=22; weight=22; penwidth=0.3; color = 3]
 	"reflection_36228" -> "common_41193" [label=22; weight=22; penwidth=0.3; color = 3]
@@ -118,7 +117,6 @@ strict digraph TopBottleneck4 {
 	"segmenting_6885" -> "core_6897" [label=16; weight=16; penwidth=0.3; color = 3]
 	"commandhandling_6862" -> "common_41193" [label=15; weight=15; penwidth=0.3; color = 3]
 	"jpa_6883" -> "common_41193" [label=15; weight=15; penwidth=0.3; color = 3]
-	"annotation_6892" -> "queryhandling_6891" [label=14; weight=14; penwidth=0.3; color = 3]
 	"configuration_41206" -> "annotation_41195" [label=14; weight=14; penwidth=0.3; color = 3]
 	"gateway_6865" -> "commandhandling_6862" [label=14; weight=14; penwidth=0.3; color = 3]
 	"gateway_6874" -> "core_6897" [label=14; weight=14; penwidth=0.3; color = 3]
@@ -136,6 +134,7 @@ strict digraph TopBottleneck4 {
 	"inmemory_6881" -> "store_6880" [label=11; weight=11; penwidth=0.3; color = 3]
 	"subscribing_6886" -> "processing_6876" [label=11; weight=11; penwidth=0.3; color = 3]
 	"annotation_6901" -> "common_41193" [label=10; weight=10; penwidth=0.3; color = 3]
+	"annotation_6872" -> "annotation_6898" [label=10; weight=10; penwidth=0.3; color = 3]
 	"configuration_6912" -> "queryhandling_6891" [label=10; weight=10; penwidth=0.3; color = 3]
 	"configuration_6912" -> "interception_6860" [label=10; weight=10; penwidth=0.3; color = 3]
 	"configuration_6889" -> "eventhandling_6869" [label=10; weight=10; penwidth=0.3; color = 3]
@@ -143,8 +142,8 @@ strict digraph TopBottleneck4 {
 	"eventhandling_6869" -> "common_41193" [label=10; weight=10; penwidth=0.3; color = 3]
 	"handler_36233" -> "eventstore_36234" [label=10; weight=10; penwidth=0.3; color = 3]
 	"configuration_6912" -> "core_6897" [label=9; weight=9; penwidth=0.3; color = 3]
-	"configuration_6889" -> "subscribing_6886" [label=9; weight=9; penwidth=0.3; color = 3]
 	"configuration_6889" -> "pooled_6884" [label=9; weight=9; penwidth=0.3; color = 3]
+	"configuration_6889" -> "subscribing_6886" [label=9; weight=9; penwidth=0.3; color = 3]
 	"gateway_6894" -> "core_6897" [label=9; weight=9; penwidth=0.3; color = 3]
 	"handler_36233" -> "core_6897" [label=9; weight=9; penwidth=0.3; color = 3]
 	"interception_6860" -> "core_6897" [label=9; weight=9; penwidth=0.3; color = 3]
@@ -153,7 +152,6 @@ strict digraph TopBottleneck4 {
 	"subscribing_6886" -> "common_41193" [label=9; weight=9; penwidth=0.3; color = 3]
 	"annotation_31595" -> "annotation_41195" [label=8; weight=8; penwidth=0.3; color = 3]
 	"annotation_31595" -> "entity_31594" [label=8; weight=8; penwidth=0.3; color = 3]
-	"annotation_6892" -> "core_6897" [label=8; weight=8; penwidth=0.3; color = 3]
 	"configuration_6912" -> "commandhandling_6862" [label=8; weight=8; penwidth=0.3; color = 3]
 	"configuration_6889" -> "common_41193" [label=8; weight=8; penwidth=0.3; color = 3]
 	"entity_31594" -> "child_31596" [label=8; weight=8; penwidth=0.3; color = 3]
@@ -170,8 +168,8 @@ strict digraph TopBottleneck4 {
 	"timeout_6911" -> "core_6897" [label=7; weight=7; penwidth=0.3; color = 3]
 	"entity_31594" -> "modelling_31592" [label=6; weight=6; penwidth=0.3; color = 3]
 	"event_1039" -> "annotation_41195" [label=6; weight=6; penwidth=0.3; color = 3]
-	"eventhandling_6869" -> "sequencing_6903" [label=6; weight=6; penwidth=0.3; color = 3]
 	"eventhandling_6869" -> "annotation_41195" [label=6; weight=6; penwidth=0.3; color = 3]
+	"eventhandling_6869" -> "sequencing_6903" [label=6; weight=6; penwidth=0.3; color = 3]
 	"fixture_27533" -> "annotation_41195" [label=6; weight=6; penwidth=0.3; color = 3]
 	"modelling_31592" -> "core_6897" [label=6; weight=6; penwidth=0.3; color = 3]
 	"pooled_6884" -> "annotation_41195" [label=6; weight=6; penwidth=0.3; color = 3]
@@ -194,8 +192,10 @@ strict digraph TopBottleneck4 {
 	"child_31596" -> "core_6897" [label=4; weight=4; penwidth=0.3; color = 3]
 	"configuration_6912" -> "interception_6864" [label=4; weight=4; penwidth=0.3; color = 3]
 	"configuration_6889" -> "core_6897" [label=4; weight=4; penwidth=0.3; color = 3]
-	"configuration_6889" -> "annotation_6870" [label=4; weight=4; penwidth=0.3; color = 3]
-	"configuration_6889" -> "annotation_6898" [label=4; weight=4; penwidth=0.3; color = 3]
-	"configuration_6889" -> "annotation_41195" [label=4; weight=4; penwidth=0.3; color = 3]
 	"configuration_6889" -> "configuration_6912" [label=4; weight=4; penwidth=0.3; color = 3]
+	"configuration_6889" -> "annotation_6870" [label=4; weight=4; penwidth=0.3; color = 3]
+	"configuration_6889" -> "annotation_41195" [label=4; weight=4; penwidth=0.3; color = 3]
+	"configuration_6889" -> "annotation_6898" [label=4; weight=4; penwidth=0.3; color = 3]
+	"event_1039" -> "segmenting_6885" [label=4; weight=4; penwidth=0.3; color = 3]
+	"eventsourcing_36226" -> "repository_31598" [label=4; weight=4; penwidth=0.3; color = 3]
 }

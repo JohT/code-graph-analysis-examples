@@ -17,15 +17,15 @@ strict digraph TopBridge5 {
 	"configuration_6912" [label = "configuration"; ]; "configuration_6912" -> central [label=57; weight=57; penwidth=1.4];
 	"configuration_36237" [label = "configuration"; ]; "configuration_36237" -> central [label=38; weight=38; penwidth=1.0];
 	"interception_6900" [label = "interception"; ]; "interception_6900" -> central [label=29; weight=29; penwidth=0.9];
-	"configuration_6889" [label = "configuration"; ]; "configuration_6889" -> central [label=26; weight=26; penwidth=0.8];
 	"configuration_1040" [label = "configuration"; ]; "configuration_1040" -> central [label=26; weight=26; penwidth=0.8];
+	"configuration_6889" [label = "configuration"; ]; "configuration_6889" -> central [label=26; weight=26; penwidth=0.8];
 	"pooled_6884" [label = "pooled"; ]; "pooled_6884" -> central [label=23; weight=23; penwidth=0.8];
 	"configuration_31597" [label = "configuration"; ]; "configuration_31597" -> central [label=22; weight=22; penwidth=0.8];
 	"configuration_6861" [label = "configuration"; ]; "configuration_6861" -> central [label=18; weight=18; penwidth=0.7];
 	"subscribing_6886" [label = "subscribing"; ]; "subscribing_6886" -> central [label=18; weight=18; penwidth=0.7];
 	"fixture_27533" [label = "fixture"; ]; "fixture_27533" -> central [label=13; weight=13; penwidth=0.6];
-	"configuration_6868" [label = "configuration"; ]; "configuration_6868" -> central [label=12; weight=12; penwidth=0.6];
 	"configuration_6896" [label = "configuration"; ]; "configuration_6896" -> central [label=12; weight=12; penwidth=0.6];
+	"configuration_6868" [label = "configuration"; ]; "configuration_6868" -> central [label=12; weight=12; penwidth=0.6];
 	"event_1039" [label = "event"; ]; "event_1039" -> central [label=10; weight=10; penwidth=0.6];
 	"autoconfig_31368" [label = "autoconfig"; ]; "autoconfig_31368" -> central [label=9; weight=9; penwidth=0.6];
 	"update_35260" [label = "update"; ]; "update_35260" -> central [label=6; weight=6; penwidth=0.5];
@@ -38,8 +38,8 @@ strict digraph TopBridge5 {
 	"annotation_36227" [label = "annotation"; ]; "annotation_36227" -> central [label=2; weight=2; penwidth=0.4];
 	"modelling_31592" [label = "modelling"; ]; "modelling_31592" -> central [label=2; weight=2; penwidth=0.4];
 	"unitofwork_6906" [label = "unitofwork"; ]; "unitofwork_6906" -> central [label=2; weight=2; penwidth=0.4];
-	"annotation_6863" [label = "annotation"; ]; "annotation_6863" -> central [label=1; weight=1; penwidth=0.4];
 	"annotation_6870" [label = "annotation"; ]; "annotation_6870" -> central [label=1; weight=1; penwidth=0.4];
+	"annotation_6863" [label = "annotation"; ]; "annotation_6863" -> central [label=1; weight=1; penwidth=0.4];
 	"core_6897" [label = "core"; ]; "core_6897" -> central [label=1; weight=1; penwidth=0.4];
 	"reflection_36228" [label = "reflection"; ]; "reflection_36228" -> central [label=1; weight=1; penwidth=0.4];
 	"springboot_23" [label = "springboot"; ]; "springboot_23" -> central [label=1; weight=1; penwidth=0.4];
@@ -78,9 +78,9 @@ strict digraph TopBridge5 {
 	"annotation_31593" -> "core_6897" [label=10; weight=10; penwidth=0.3; color = 3]
 	"fixture_27533" -> "unitofwork_6906" [label=10; weight=10; penwidth=0.3; color = 3]
 	"configuration_6912" -> "core_6897" [label=9; weight=9; penwidth=0.3; color = 3]
-	"configuration_6889" -> "subscribing_6886" [label=9; weight=9; penwidth=0.3; color = 3]
-	"configuration_6889" -> "pooled_6884" [label=9; weight=9; penwidth=0.3; color = 3]
 	"configuration_1040" -> "event_1039" [label=9; weight=9; penwidth=0.3; color = 3]
+	"configuration_6889" -> "pooled_6884" [label=9; weight=9; penwidth=0.3; color = 3]
+	"configuration_6889" -> "subscribing_6886" [label=9; weight=9; penwidth=0.3; color = 3]
 	"subscribing_6886" -> "core_6897" [label=9; weight=9; penwidth=0.3; color = 3]
 	"subscribing_6886" -> "common_41193" [label=9; weight=9; penwidth=0.3; color = 3]
 	"annotation_6863" -> "core_6897" [label=8; weight=8; penwidth=0.3; color = 3]
@@ -93,14 +93,14 @@ strict digraph TopBridge5 {
 	"core_6897" -> "annotation_41195" [label=7; weight=7; penwidth=0.3; color = 3]
 	"annotation_31595" -> "annotation_31593" [label=6; weight=6; penwidth=0.3; color = 3]
 	"configuration_6912" -> "unitofwork_6906" [label=6; weight=6; penwidth=0.3; color = 3]
-	"configuration_6868" -> "core_6897" [label=6; weight=6; penwidth=0.3; color = 3]
 	"configuration_6896" -> "core_6897" [label=6; weight=6; penwidth=0.3; color = 3]
+	"configuration_6868" -> "core_6897" [label=6; weight=6; penwidth=0.3; color = 3]
 	"event_1039" -> "annotation_41195" [label=6; weight=6; penwidth=0.3; color = 3]
 	"fixture_27533" -> "annotation_41195" [label=6; weight=6; penwidth=0.3; color = 3]
 	"interception_6900" -> "unitofwork_6906" [label=6; weight=6; penwidth=0.3; color = 3]
 	"modelling_31592" -> "core_6897" [label=6; weight=6; penwidth=0.3; color = 3]
-	"pooled_6884" -> "infra_41202" [label=6; weight=6; penwidth=0.3; color = 3]
 	"pooled_6884" -> "annotation_41195" [label=6; weight=6; penwidth=0.3; color = 3]
+	"pooled_6884" -> "infra_41202" [label=6; weight=6; penwidth=0.3; color = 3]
 	"configuration_6889" -> "unitofwork_6906" [label=5; weight=5; penwidth=0.3; color = 3]
 	"core_6897" -> "unitofwork_6906" [label=5; weight=5; penwidth=0.3; color = 3]
 	"correlation_6902" -> "core_6897" [label=5; weight=5; penwidth=0.3; color = 3]
@@ -109,38 +109,38 @@ strict digraph TopBridge5 {
 	"micrometer_22" -> "configuration_6861" [label=5; weight=5; penwidth=0.3; color = 3]
 	"modelling_31592" -> "common_41193" [label=5; weight=5; penwidth=0.3; color = 3]
 	"annotation_31593" -> "common_41193" [label=4; weight=4; penwidth=0.3; color = 3]
-	"annotation_6870" -> "unitofwork_6906" [label=4; weight=4; penwidth=0.3; color = 3]
 	"annotation_6870" -> "annotation_41195" [label=4; weight=4; penwidth=0.3; color = 3]
 	"annotation_6870" -> "common_41193" [label=4; weight=4; penwidth=0.3; color = 3]
+	"annotation_6870" -> "unitofwork_6906" [label=4; weight=4; penwidth=0.3; color = 3]
 	"annotation_41195" -> "common_41193" [label=4; weight=4; penwidth=0.3; color = 3]
 	"autoconfig_31368" -> "pooled_6884" [label=4; weight=4; penwidth=0.3; color = 3]
-	"configuration_36237" -> "annotation_36227" [label=4; weight=4; penwidth=0.3; color = 3]
 	"configuration_36237" -> "annotation_31595" [label=4; weight=4; penwidth=0.3; color = 3]
+	"configuration_36237" -> "annotation_36227" [label=4; weight=4; penwidth=0.3; color = 3]
 	"configuration_6889" -> "core_6897" [label=4; weight=4; penwidth=0.3; color = 3]
+	"configuration_6889" -> "configuration_6912" [label=4; weight=4; penwidth=0.3; color = 3]
 	"configuration_6889" -> "annotation_6870" [label=4; weight=4; penwidth=0.3; color = 3]
 	"configuration_6889" -> "annotation_41195" [label=4; weight=4; penwidth=0.3; color = 3]
-	"configuration_6889" -> "configuration_6912" [label=4; weight=4; penwidth=0.3; color = 3]
 	"configuration_31597" -> "modelling_31592" [label=4; weight=4; penwidth=0.3; color = 3]
-	"reflection_36228" -> "unitofwork_6906" [label=4; weight=4; penwidth=0.3; color = 3]
 	"reflection_36228" -> "annotation_41195" [label=4; weight=4; penwidth=0.3; color = 3]
-	"subscribing_6886" -> "unitofwork_6906" [label=4; weight=4; penwidth=0.3; color = 3]
+	"reflection_36228" -> "unitofwork_6906" [label=4; weight=4; penwidth=0.3; color = 3]
 	"subscribing_6886" -> "annotation_41195" [label=4; weight=4; penwidth=0.3; color = 3]
+	"subscribing_6886" -> "unitofwork_6906" [label=4; weight=4; penwidth=0.3; color = 3]
 	"update_35260" -> "annotation_41195" [label=4; weight=4; penwidth=0.3; color = 3]
 	"annotation_6863" -> "annotation_41195" [label=3; weight=3; penwidth=0.3; color = 3]
 	"configuration_36237" -> "annotation_41195" [label=3; weight=3; penwidth=0.3; color = 3]
 	"configuration_36237" -> "modelling_31592" [label=3; weight=3; penwidth=0.3; color = 3]
 	"configuration_36237" -> "core_6897" [label=3; weight=3; penwidth=0.3; color = 3]
 	"configuration_6861" -> "core_6897" [label=3; weight=3; penwidth=0.3; color = 3]
-	"event_1039" -> "unitofwork_6906" [label=3; weight=3; penwidth=0.3; color = 3]
 	"event_1039" -> "infra_41202" [label=3; weight=3; penwidth=0.3; color = 3]
+	"event_1039" -> "unitofwork_6906" [label=3; weight=3; penwidth=0.3; color = 3]
 	"infra_41202" -> "common_41193" [label=3; weight=3; penwidth=0.3; color = 3]
 	"interception_6900" -> "infra_41202" [label=3; weight=3; penwidth=0.3; color = 3]
 	"annotation_31593" -> "annotation_31595" [label=2; weight=2; penwidth=0.3; color = 3]
 	"annotation_31595" -> "unitofwork_6906" [label=2; weight=2; penwidth=0.3; color = 3]
 	"annotation_31595" -> "modelling_31592" [label=2; weight=2; penwidth=0.3; color = 3]
 	"annotation_31595" -> "infra_41202" [label=2; weight=2; penwidth=0.3; color = 3]
-	"configuration_6912" -> "annotation_6863" [label=2; weight=2; penwidth=0.3; color = 3]
 	"configuration_6912" -> "reflection_6913" [label=2; weight=2; penwidth=0.3; color = 3]
+	"configuration_6912" -> "annotation_6863" [label=2; weight=2; penwidth=0.3; color = 3]
 	"configuration_6861" -> "annotation_41195" [label=2; weight=2; penwidth=0.3; color = 3]
 	"configuration_6868" -> "annotation_6863" [label=2; weight=2; penwidth=0.3; color = 3]
 	"correlation_6902" -> "annotation_41195" [label=2; weight=2; penwidth=0.3; color = 3]
@@ -148,34 +148,34 @@ strict digraph TopBridge5 {
 	"fixture_27533" -> "infra_41202" [label=2; weight=2; penwidth=0.3; color = 3]
 	"lifecycle_41203" -> "common_41193" [label=2; weight=2; penwidth=0.3; color = 3]
 	"modelling_31592" -> "unitofwork_6906" [label=2; weight=2; penwidth=0.3; color = 3]
-	"modelling_31592" -> "annotation_31593" [label=2; weight=2; penwidth=0.3; color = 3]
 	"modelling_31592" -> "infra_41202" [label=2; weight=2; penwidth=0.3; color = 3]
+	"modelling_31592" -> "annotation_31593" [label=2; weight=2; penwidth=0.3; color = 3]
 	"subscribing_6886" -> "infra_41202" [label=2; weight=2; penwidth=0.3; color = 3]
-	"annotation_31593" -> "unitofwork_6906" [label=1; weight=1; penwidth=0.3; color = 3]
 	"annotation_31593" -> "reflection_6913" [label=1; weight=1; penwidth=0.3; color = 3]
-	"annotation_36227" -> "annotation_31595" [label=1; weight=1; penwidth=0.3; color = 3]
+	"annotation_31593" -> "unitofwork_6906" [label=1; weight=1; penwidth=0.3; color = 3]
 	"annotation_36227" -> "annotation_41195" [label=1; weight=1; penwidth=0.3; color = 3]
-	"annotation_36227" -> "reflection_36228" [label=1; weight=1; penwidth=0.3; color = 3]
 	"annotation_36227" -> "infra_41202" [label=1; weight=1; penwidth=0.3; color = 3]
 	"annotation_36227" -> "annotation_6870" [label=1; weight=1; penwidth=0.3; color = 3]
-	"annotation_6863" -> "unitofwork_6906" [label=1; weight=1; penwidth=0.3; color = 3]
-	"annotation_6863" -> "reflection_6913" [label=1; weight=1; penwidth=0.3; color = 3]
-	"annotation_6863" -> "infra_41202" [label=1; weight=1; penwidth=0.3; color = 3]
+	"annotation_36227" -> "reflection_36228" [label=1; weight=1; penwidth=0.3; color = 3]
+	"annotation_36227" -> "annotation_31595" [label=1; weight=1; penwidth=0.3; color = 3]
 	"annotation_6870" -> "reflection_6913" [label=1; weight=1; penwidth=0.3; color = 3]
 	"annotation_6870" -> "infra_41202" [label=1; weight=1; penwidth=0.3; color = 3]
+	"annotation_6863" -> "reflection_6913" [label=1; weight=1; penwidth=0.3; color = 3]
+	"annotation_6863" -> "infra_41202" [label=1; weight=1; penwidth=0.3; color = 3]
+	"annotation_6863" -> "unitofwork_6906" [label=1; weight=1; penwidth=0.3; color = 3]
 	"annotation_31595" -> "annotation_6863" [label=1; weight=1; penwidth=0.3; color = 3]
 	"autoconfig_31368" -> "configuration_1040" [label=1; weight=1; penwidth=0.3; color = 3]
-	"configuration_36237" -> "annotation_31593" [label=1; weight=1; penwidth=0.3; color = 3]
-	"configuration_36237" -> "configuration_6912" [label=1; weight=1; penwidth=0.3; color = 3]
-	"configuration_36237" -> "interception_6900" [label=1; weight=1; penwidth=0.3; color = 3]
 	"configuration_36237" -> "configuration_6889" [label=1; weight=1; penwidth=0.3; color = 3]
+	"configuration_36237" -> "interception_6900" [label=1; weight=1; penwidth=0.3; color = 3]
+	"configuration_36237" -> "configuration_6912" [label=1; weight=1; penwidth=0.3; color = 3]
+	"configuration_36237" -> "annotation_31593" [label=1; weight=1; penwidth=0.3; color = 3]
+	"configuration_1040" -> "common_41193" [label=1; weight=1; penwidth=0.3; color = 3]
 	"configuration_6889" -> "interception_6900" [label=1; weight=1; penwidth=0.3; color = 3]
 	"configuration_6889" -> "configuration_6861" [label=1; weight=1; penwidth=0.3; color = 3]
 	"configuration_6889" -> "infra_41202" [label=1; weight=1; penwidth=0.3; color = 3]
-	"configuration_1040" -> "common_41193" [label=1; weight=1; penwidth=0.3; color = 3]
 	"configuration_6861" -> "infra_41202" [label=1; weight=1; penwidth=0.3; color = 3]
-	"configuration_6868" -> "common_41193" [label=1; weight=1; penwidth=0.3; color = 3]
 	"configuration_6896" -> "common_41193" [label=1; weight=1; penwidth=0.3; color = 3]
+	"configuration_6868" -> "common_41193" [label=1; weight=1; penwidth=0.3; color = 3]
 	"fixture_27533" -> "common_41193" [label=1; weight=1; penwidth=0.3; color = 3]
 	"interception_6900" -> "correlation_6902" [label=1; weight=1; penwidth=0.3; color = 3]
 	"reflection_6913" -> "common_41193" [label=1; weight=1; penwidth=0.3; color = 3]

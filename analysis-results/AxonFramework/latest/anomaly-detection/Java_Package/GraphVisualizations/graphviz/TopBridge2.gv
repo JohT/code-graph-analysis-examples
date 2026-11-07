@@ -28,8 +28,8 @@ strict digraph TopBridge2 {
 	"segmenting_6885" [label = "segmenting"; ]; "segmenting_6885" -> central [label=6; weight=6; penwidth=0.5];
 	"extension_27534" [label = "extension"; ]; "extension_27534" -> central [label=5; weight=5; penwidth=0.5];
 	"interception_6900" [label = "interception"; ]; "interception_6900" -> central [label=5; weight=5; penwidth=0.5];
-	"annotation_6870" [label = "annotation"; ]; "annotation_6870" -> central [label=4; weight=4; penwidth=0.5];
 	"annotation_6901" [label = "annotation"; ]; "annotation_6901" -> central [label=4; weight=4; penwidth=0.5];
+	"annotation_6870" [label = "annotation"; ]; "annotation_6870" -> central [label=4; weight=4; penwidth=0.5];
 	"configuration_6889" [label = "configuration"; ]; "configuration_6889" -> central [label=4; weight=4; penwidth=0.5];
 	"detection_35261" [label = "detection"; ]; "detection_35261" -> central [label=4; weight=4; penwidth=0.5];
 	"handler_36233" [label = "handler"; ]; "handler_36233" -> central [label=4; weight=4; penwidth=0.5];
@@ -51,9 +51,9 @@ strict digraph TopBridge2 {
 	"avro_5231" [label = "avro"; ]; "avro_5231" -> central [label=1; weight=1; penwidth=0.4];
 	"command_1041" [label = "command"; ]; "command_1041" -> central [label=1; weight=1; penwidth=0.4];
 	"common_35262" [label = "common"; ]; "common_35262" -> central [label=1; weight=1; penwidth=0.4];
+	"conversion_6875" [label = "conversion"; ]; "conversion_6875" -> central [label=1; weight=1; penwidth=0.4];
 	"conversion_5227" [label = "conversion"; ]; "conversion_5227" -> central [label=1; weight=1; penwidth=0.4];
 	"conversion_6904" [label = "conversion"; ]; "conversion_6904" -> central [label=1; weight=1; penwidth=0.4];
-	"conversion_6875" [label = "conversion"; ]; "conversion_6875" -> central [label=1; weight=1; penwidth=0.4];
 	"common_41193" [label = "common"; color = 5; fillcolor = 1; ]; central -> "common_41193" [label=4; weight=4; penwidth=0.5; color = 5];
 	"pooled_6884" -> "segmenting_6885" [label=148; weight=148; penwidth=0.3; color = 3]
 	"annotation_6898" -> "core_6897" [label=86; weight=86; penwidth=0.3; color = 3]
@@ -61,8 +61,8 @@ strict digraph TopBridge2 {
 	"pooled_6884" -> "common_41193" [label=61; weight=61; penwidth=0.3; color = 3]
 	"eventhandling_6869" -> "core_6897" [label=59; weight=59; penwidth=0.3; color = 3]
 	"update_35260" -> "api_35263" [label=59; weight=59; penwidth=0.3; color = 3]
-	"event_1039" -> "core_6897" [label=53; weight=53; penwidth=0.3; color = 3]
 	"event_1039" -> "eventstore_36234" [label=53; weight=53; penwidth=0.3; color = 3]
+	"event_1039" -> "core_6897" [label=53; weight=53; penwidth=0.3; color = 3]
 	"eventstore_36234" -> "core_6897" [label=53; weight=53; penwidth=0.3; color = 3]
 	"avro_5231" -> "conversion_5227" [label=52; weight=52; penwidth=0.3; color = 3]
 	"annotation_6870" -> "annotation_6898" [label=51; weight=51; penwidth=0.3; color = 3]
@@ -114,8 +114,8 @@ strict digraph TopBridge2 {
 	"eventhandling_6869" -> "common_41193" [label=10; weight=10; penwidth=0.3; color = 3]
 	"handler_36233" -> "eventstore_36234" [label=10; weight=10; penwidth=0.3; color = 3]
 	"query_1035" -> "common_41193" [label=10; weight=10; penwidth=0.3; color = 3]
-	"configuration_6889" -> "subscribing_6886" [label=9; weight=9; penwidth=0.3; color = 3]
 	"configuration_6889" -> "pooled_6884" [label=9; weight=9; penwidth=0.3; color = 3]
+	"configuration_6889" -> "subscribing_6886" [label=9; weight=9; penwidth=0.3; color = 3]
 	"core_6897" -> "conversion_5227" [label=9; weight=9; penwidth=0.3; color = 3]
 	"handler_36233" -> "core_6897" [label=9; weight=9; penwidth=0.3; color = 3]
 	"interception_6873" -> "eventhandling_6869" [label=9; weight=9; penwidth=0.3; color = 3]
@@ -149,8 +149,8 @@ strict digraph TopBridge2 {
 	"configuration_6889" -> "core_6897" [label=4; weight=4; penwidth=0.3; color = 3]
 	"configuration_6889" -> "annotation_6870" [label=4; weight=4; penwidth=0.3; color = 3]
 	"configuration_6889" -> "annotation_6898" [label=4; weight=4; penwidth=0.3; color = 3]
-	"configuration_36237" -> "annotation_36227" [label=4; weight=4; penwidth=0.3; color = 3]
 	"configuration_36237" -> "annotation_31595" [label=4; weight=4; penwidth=0.3; color = 3]
+	"configuration_36237" -> "annotation_36227" [label=4; weight=4; penwidth=0.3; color = 3]
 	"conversion_6875" -> "conversion_6904" [label=4; weight=4; penwidth=0.3; color = 3]
 	"event_1039" -> "segmenting_6885" [label=4; weight=4; penwidth=0.3; color = 3]
 	"eventhandling_6869" -> "conversion_5227" [label=4; weight=4; penwidth=0.3; color = 3]
@@ -170,25 +170,25 @@ strict digraph TopBridge2 {
 	"annotation_36227" -> "configuration_41206" [label=2; weight=2; penwidth=0.3; color = 3]
 	"configuration_36237" -> "eventhandling_6869" [label=2; weight=2; penwidth=0.3; color = 3]
 	"configuration_6861" -> "eventhandling_6869" [label=2; weight=2; penwidth=0.3; color = 3]
-	"conversion_6904" -> "core_6897" [label=2; weight=2; penwidth=0.3; color = 3]
 	"conversion_6875" -> "eventhandling_6869" [label=2; weight=2; penwidth=0.3; color = 3]
+	"conversion_6904" -> "core_6897" [label=2; weight=2; penwidth=0.3; color = 3]
 	"event_1039" -> "conversion_6875" [label=2; weight=2; penwidth=0.3; color = 3]
 	"event_1039" -> "common_41193" [label=2; weight=2; penwidth=0.3; color = 3]
 	"jdbc_41196" -> "common_41193" [label=2; weight=2; penwidth=0.3; color = 3]
 	"pooled_6884" -> "interception_6873" [label=2; weight=2; penwidth=0.3; color = 3]
 	"pooled_6884" -> "replay_6871" [label=2; weight=2; penwidth=0.3; color = 3]
 	"segmenting_6885" -> "common_41193" [label=2; weight=2; penwidth=0.3; color = 3]
-	"subscribing_6886" -> "interception_6873" [label=2; weight=2; penwidth=0.3; color = 3]
 	"subscribing_6886" -> "segmenting_6885" [label=2; weight=2; penwidth=0.3; color = 3]
+	"subscribing_6886" -> "interception_6873" [label=2; weight=2; penwidth=0.3; color = 3]
 	"annotation_6898" -> "annotation_6870" [label=1; weight=1; penwidth=0.3; color = 3]
-	"annotation_6898" -> "annotation_6863" [label=1; weight=1; penwidth=0.3; color = 3]
 	"annotation_6898" -> "annotation_6892" [label=1; weight=1; penwidth=0.3; color = 3]
-	"annotation_31595" -> "eventhandling_6869" [label=1; weight=1; penwidth=0.3; color = 3]
+	"annotation_6898" -> "annotation_6863" [label=1; weight=1; penwidth=0.3; color = 3]
 	"annotation_31595" -> "conversion_6875" [label=1; weight=1; penwidth=0.3; color = 3]
+	"annotation_31595" -> "eventhandling_6869" [label=1; weight=1; penwidth=0.3; color = 3]
 	"annotation_31595" -> "annotation_6863" [label=1; weight=1; penwidth=0.3; color = 3]
-	"annotation_6870" -> "conversion_6875" [label=1; weight=1; penwidth=0.3; color = 3]
 	"annotation_6870" -> "configuration_41206" [label=1; weight=1; penwidth=0.3; color = 3]
-	"annotation_6863" -> "conversion_6904" [label=1; weight=1; penwidth=0.3; color = 3]
+	"annotation_6870" -> "conversion_6875" [label=1; weight=1; penwidth=0.3; color = 3]
 	"annotation_6863" -> "configuration_41206" [label=1; weight=1; penwidth=0.3; color = 3]
+	"annotation_6863" -> "conversion_6904" [label=1; weight=1; penwidth=0.3; color = 3]
 	"annotation_6872" -> "eventhandling_6869" [label=1; weight=1; penwidth=0.3; color = 3]
 }

@@ -121,9 +121,9 @@ strict digraph TopBottleneck2 {
 	"AxonTestThenCommand_27636" -> "CommandResultMessage_6925" [label=3; weight=3; penwidth=0.3; color = 3]
 	"CommandMessage_6943" -> "TypeReference_43400" [label=3; weight=3; penwidth=0.3; color = 3]
 	"EventMessage_6933" -> "TypeReference_43400" [label=3; weight=3; penwidth=0.3; color = 3]
-	"GenericCommandMessage_9410" -> "Converter_6150" [label=3; weight=3; penwidth=0.3; color = 3]
 	"GenericCommandMessage_9410" -> "MessageType_7890" [label=3; weight=3; penwidth=0.3; color = 3]
 	"GenericCommandMessage_9410" -> "MessageDecorator_9357" [label=3; weight=3; penwidth=0.3; color = 3]
+	"GenericCommandMessage_9410" -> "Converter_6150" [label=3; weight=3; penwidth=0.3; color = 3]
 	"GenericCommandResultMessage_7887" -> "ResultMessage_7841" [label=3; weight=3; penwidth=0.3; color = 3]
 	"GenericEventMessage_11545" -> "Converter_6150" [label=3; weight=3; penwidth=0.3; color = 3]
 	"GenericEventMessage_11545" -> "MessageType_7890" [label=3; weight=3; penwidth=0.3; color = 3]
@@ -165,6 +165,6 @@ strict digraph TopBottleneck2 {
 	"MessageDecorator_9357" -> "Metadata_9343" [label=1; weight=1; penwidth=0.3; color = 3]
 	"NoOpSpanFactory_26651" -> "SpanFactory_9360" [label=1; weight=1; penwidth=0.3; color = 3]
 	"OpenTelemetrySpanFactory_30174" -> "SpanFactory_9360" [label=1; weight=1; penwidth=0.3; color = 3]
-	"TagsUtil_115" -> "Metadata_9343" [label=1; weight=1; penwidth=0.3; color = 3]
 	"TagsUtil_115" -> "MessageType_7890" [label=1; weight=1; penwidth=0.3; color = 3]
+	"TagsUtil_115" -> "Metadata_9343" [label=1; weight=1; penwidth=0.3; color = 3]
 }
