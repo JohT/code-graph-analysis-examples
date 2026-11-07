@@ -1,604 +1,604 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="800" height="800">
 <style>text{font-family:'Droid Sans Mono';font-weight:normal;font-style:normal;}</style>
 <rect width="100%" height="100%" style="fill:white"></rect>
-<text transform="translate(38,759)" font-size="241" style="fill:rgb(72, 31, 112)">route</text>
-<text transform="translate(22,351)" font-size="201" style="fill:rgb(216, 226, 25)">react</text>
-<text transform="translate(74,186)" font-size="186" style="fill:rgb(36, 135, 142)">router</text>
-<text transform="translate(38,553)" font-size="186" style="fill:rgb(110, 206, 88)">path</text>
-<text transform="translate(449,427)" font-size="97" style="fill:rgb(32, 147, 140)">option</text>
-<text transform="translate(549,618)" font-size="94" style="fill:rgb(76, 194, 108)">node</text>
-<text transform="translate(63,67)" font-size="91" style="fill:rgb(54, 93, 141)">server</text>
-<text transform="translate(471,522)" font-size="88" style="fill:rgb(132, 212, 75)">config</text>
-<text transform="translate(555,76)" font-size="87" style="fill:rgb(99, 203, 95)">vite</text>
-<text transform="translate(39,446)" font-size="79" style="fill:rgb(56, 185, 119)">file</text>
-<text transform="translate(143,607)" font-size="76" style="fill:rgb(58, 83, 139)">request</text>
-<text transform="translate(793,361) rotate(-90)" font-size="75" style="fill:rgb(58, 186, 118)">action</text>
-<text transform="translate(32,238)" font-size="66" style="fill:rgb(80, 196, 106)">manifest</text>
-<text transform="translate(172,389)" font-size="51" style="fill:rgb(33, 165, 133)">component</text>
-<text transform="translate(613,278)" font-size="49" style="fill:rgb(72, 35, 116)">url</text>
-<text transform="translate(552,456)" font-size="47" style="fill:rgb(39, 128, 142)">arg</text>
-<text transform="translate(365,227)" font-size="45" style="fill:rgb(53, 183, 121)">entry</text>
-<text transform="translate(781,751) rotate(-90)" font-size="43" style="fill:rgb(86, 198, 103)">match</text>
-<text transform="translate(46,798)" font-size="42" style="fill:rgb(72, 24, 106)">loader</text>
-<text transform="translate(573,221)" font-size="42" style="fill:rgb(41, 175, 127)">prompt</text>
-<text transform="translate(382,53)" font-size="42" style="fill:rgb(68, 57, 131)">state</text>
-<text transform="translate(627,797)" font-size="42" style="fill:rgb(65, 66, 135)">method</text>
-<text transform="translate(640,340)" font-size="42" style="fill:rgb(37, 133, 142)">text</text>
-<text transform="translate(518,561)" font-size="42" style="fill:rgb(186, 222, 40)">client</text>
-<text transform="translate(78,341)" font-size="41" style="fill:rgb(39, 126, 142)">key</text>
-<text transform="translate(384,798)" font-size="39" style="fill:rgb(30, 155, 138)">mode</text>
-<text transform="translate(102,716)" font-size="38" style="fill:rgb(39, 173, 129)">json</text>
-<text transform="translate(197,797)" font-size="38" style="fill:rgb(31, 150, 139)">session</text>
-<text transform="translate(565,298)" font-size="37" style="fill:rgb(34, 167, 133)">response</text>
-<text transform="translate(478,789)" font-size="37" style="fill:rgb(59, 187, 117)">export</text>
-<text transform="translate(9,381)" font-size="37" style="fill:rgb(50, 101, 142)">matches</text>
-<text transform="translate(30,792) rotate(-90)" font-size="37" style="fill:rgb(62, 73, 137)">directory</text>
-<text transform="translate(30,303) rotate(-90)" font-size="37" style="fill:rgb(72, 23, 105)">location</text>
-<text transform="translate(477,23)" font-size="37" style="fill:rgb(42, 120, 142)">enc</text>
-<text transform="translate(42,567) rotate(-90)" font-size="36" style="fill:rgb(216, 226, 25)">resolved</text>
-<text transform="translate(732,455)" font-size="35" style="fill:rgb(94, 201, 98)">ctx</text>
-<text transform="translate(382,564) rotate(-90)" font-size="34" style="fill:rgb(72, 29, 111)">header</text>
-<text transform="translate(443,298)" font-size="33" style="fill:rgb(55, 90, 140)">load</text>
-<text transform="translate(226,424)" font-size="33" style="fill:rgb(65, 68, 135)">stream</text>
-<text transform="translate(403,727) rotate(-90)" font-size="33" style="fill:rgb(44, 113, 142)">params</text>
-<text transform="translate(475,592)" font-size="33" style="fill:rgb(157, 217, 59)">code</text>
-<text transform="translate(531,242) rotate(-90)" font-size="33" style="fill:rgb(248, 230, 33)">environment</text>
-<text transform="translate(614,761) rotate(-90)" font-size="33" style="fill:rgb(129, 211, 77)">express</text>
-<text transform="translate(56,758) rotate(-90)" font-size="33" style="fill:rgb(72, 38, 119)">enabled</text>
-<text transform="translate(90,625)" font-size="22" style="fill:rgb(64, 69, 136)">declaration</text>
-<text transform="translate(453,757)" font-size="22" style="fill:rgb(40, 174, 128)">index</text>
-<text transform="translate(58,163) rotate(-90)" font-size="22" style="fill:rgb(62, 73, 137)">typescript</text>
-<text transform="translate(191,185) rotate(-90)" font-size="22" style="fill:rgb(50, 100, 142)">default</text>
-<text transform="translate(96,748)" font-size="22" style="fill:rgb(38, 173, 129)">storage</text>
-<text transform="translate(474,731) rotate(-90)" font-size="22" style="fill:rgb(37, 133, 142)">expression</text>
-<text transform="translate(662,716)" font-size="22" style="fill:rgb(200, 224, 32)">process</text>
-<text transform="translate(71,586)" font-size="22" style="fill:rgb(70, 50, 126)">global</text>
-<text transform="translate(677,371)" font-size="22" style="fill:rgb(45, 178, 125)">env</text>
-<text transform="translate(79,282)" font-size="22" style="fill:rgb(173, 220, 48)">style</text>
-<text transform="translate(680,154)" font-size="22" style="fill:rgb(70, 10, 93)">color</text>
-<text transform="translate(361,74)" font-size="22" style="fill:rgb(33, 143, 141)">chunk</text>
-<text transform="translate(85,190) rotate(-90)" font-size="22" style="fill:rgb(72, 27, 109)">prerender</text>
-<text transform="translate(694,18)" font-size="22" style="fill:rgb(68, 191, 112)">history</text>
-<text transform="translate(658,449)" font-size="22" style="fill:rgb(72, 24, 106)">fetch</text>
-<text transform="translate(460,322)" font-size="22" style="fill:rgb(46, 179, 124)">cookie</text>
-<text transform="translate(97,303)" font-size="22" style="fill:rgb(65, 66, 135)">root</text>
-<text transform="translate(477,370)" font-size="22" style="fill:rgb(31, 158, 137)">basename</text>
-<text transform="translate(440,445)" font-size="22" style="fill:rgb(84, 197, 104)">meta</text>
-<text transform="translate(359,407)" font-size="22" style="fill:rgb(132, 212, 75)">resolve</text>
-<text transform="translate(712,560)" font-size="22" style="fill:rgb(40, 124, 142)">bright</text>
-<text transform="translate(313,639)" font-size="22" style="fill:rgb(37, 131, 142)">bg</text>
-<text transform="translate(33,108) rotate(-90)" font-size="22" style="fill:rgb(41, 123, 142)">redirect</text>
-<text transform="translate(593,240)" font-size="22" style="fill:rgb(157, 217, 59)">select</text>
-<text transform="translate(699,180)" font-size="22" style="fill:rgb(31, 150, 139)">git</text>
-<text transform="translate(645,180) rotate(-90)" font-size="22" style="fill:rgb(160, 218, 57)">lazy</text>
-<text transform="translate(798,700) rotate(-90)" font-size="22" style="fill:rgb(202, 225, 31)">middleware</text>
-<text transform="translate(104,674)" font-size="22" style="fill:rgb(31, 158, 137)">handle</text>
-<text transform="translate(566,322)" font-size="22" style="fill:rgb(60, 80, 139)">asset</text>
-<text transform="translate(566,19)" font-size="22" style="fill:rgb(31, 151, 139)">init</text>
-<text transform="translate(263,543) rotate(-90)" font-size="22" style="fill:rgb(80, 196, 106)">typecheck</text>
-<text transform="translate(473,550)" font-size="22" style="fill:rgb(127, 211, 78)">hub</text>
-<text transform="translate(390,339) rotate(-90)" font-size="22" style="fill:rgb(62, 76, 138)">strategy</text>
-<text transform="translate(334,755) rotate(-90)" font-size="22" style="fill:rgb(186, 222, 40)">promise</text>
-<text transform="translate(516,472)" font-size="22" style="fill:rgb(55, 184, 120)">status</text>
-<text transform="translate(147,772)" font-size="22" style="fill:rgb(71, 46, 124)">choice</text>
-<text transform="translate(304,181) rotate(-90)" font-size="22" style="fill:rgb(60, 80, 139)">pathname</text>
-<text transform="translate(156,555) rotate(-90)" font-size="22" style="fill:rgb(39, 128, 142)">children</text>
-<text transform="translate(192,325)" font-size="22" style="fill:rgb(53, 95, 141)">cache</text>
-<text transform="translate(119,185)" font-size="22" style="fill:rgb(61, 78, 138)">info</text>
-<text transform="translate(418,187) rotate(-90)" font-size="22" style="fill:rgb(33, 144, 141)">writable</text>
-<text transform="translate(388,20)" font-size="22" style="fill:rgb(70, 51, 127)">future</text>
-<text transform="translate(428,706) rotate(-90)" font-size="22" style="fill:rgb(55, 184, 120)">annotation</text>
-<text transform="translate(168,82)" font-size="20" style="fill:rgb(32, 164, 134)">revalidate</text>
-<text transform="translate(265,724) rotate(-90)" font-size="20" style="fill:rgb(54, 92, 141)">import</text>
-<text transform="translate(564,161)" font-size="20" style="fill:rgb(72, 36, 117)">fs</text>
-<text transform="translate(666,356)" font-size="20" style="fill:rgb(35, 136, 142)">modules</text>
-<text transform="translate(635,771)" font-size="20" style="fill:rgb(44, 115, 142)">rsc</text>
-<text transform="translate(134,129)" font-size="20" style="fill:rgb(64, 70, 136)">map</text>
-<text transform="translate(351,168) rotate(-90)" font-size="20" style="fill:rgb(82, 197, 105)">platform</text>
-<text transform="translate(287,555) rotate(-90)" font-size="20" style="fill:rgb(65, 68, 135)">fetcher</text>
-<text transform="translate(625,429) rotate(-90)" font-size="20" style="fill:rgb(59, 82, 139)">proxy</text>
-<text transform="translate(265,279)" font-size="20" style="fill:rgb(32, 147, 140)">string</text>
-<text transform="translate(494,737) rotate(-90)" font-size="20" style="fill:rgb(41, 121, 142)">pattern</text>
-<text transform="translate(48,12)" font-size="19" style="fill:rgb(173, 220, 48)">serve</text>
-<text transform="translate(16,583) rotate(-90)" font-size="19" style="fill:rgb(31, 152, 139)">template</text>
-<text transform="translate(579,736) rotate(-90)" font-size="19" style="fill:rgb(32, 146, 140)">hydrate</text>
-<text transform="translate(686,731)" font-size="19" style="fill:rgb(52, 97, 141)">decode</text>
-<text transform="translate(465,141)" font-size="19" style="fill:rgb(64, 189, 114)">body</text>
-<text transform="translate(129,729)" font-size="19" style="fill:rgb(40, 174, 128)">parent</text>
-<text transform="translate(200,15)" font-size="19" style="fill:rgb(40, 125, 142)">statement</text>
-<text transform="translate(496,338)" font-size="19" style="fill:rgb(103, 204, 92)">tsup</text>
-<text transform="translate(662,510)" font-size="19" style="fill:rgb(72, 24, 106)">ssr</text>
-<text transform="translate(433,193) rotate(-90)" font-size="19" style="fill:rgb(49, 104, 142)">boundary</text>
-<text transform="translate(121,691)" font-size="19" style="fill:rgb(32, 164, 134)">babel</text>
-<text transform="translate(690,133)" font-size="19" style="fill:rgb(71, 45, 123)">flash</text>
-<text transform="translate(69,606)" font-size="19" style="fill:rgb(253, 231, 37)">define</text>
-<text transform="translate(112,12)" font-size="14" style="fill:rgb(218, 227, 25)">properties</text>
-<text transform="translate(224,165)" font-size="14" style="fill:rgb(241, 229, 29)">base</text>
-<text transform="translate(443,564)" font-size="14" style="fill:rgb(31, 161, 135)">normalize</text>
-<text transform="translate(332,200)" font-size="14" style="fill:rgb(197, 224, 33)">fallback</text>
-<text transform="translate(683,232)" font-size="14" style="fill:rgb(33, 165, 133)">generate</text>
-<text transform="translate(739,371)" font-size="14" style="fill:rgb(42, 176, 127)">literal</text>
-<text transform="translate(357,772)" font-size="14" style="fill:rgb(65, 66, 135)">navigation</text>
-<text transform="translate(421,554) rotate(-90)" font-size="14" style="fill:rgb(149, 216, 64)">gateway</text>
-<text transform="translate(713,194)" font-size="14" style="fill:rgb(78, 195, 107)">release</text>
-<text transform="translate(230,200)" font-size="14" style="fill:rgb(33, 144, 141)">validate</text>
-<text transform="translate(703,539)" font-size="14" style="fill:rgb(33, 145, 140)">dist</text>
-<text transform="translate(95,79)" font-size="14" style="fill:rgb(42, 119, 142)">uploader</text>
-<text transform="translate(294,765)" font-size="14" style="fill:rgb(69, 55, 129)">submit</text>
-<text transform="translate(323,622)" font-size="14" style="fill:rgb(66, 63, 133)">bundle</text>
-<text transform="translate(331,438)" font-size="14" style="fill:rgb(72, 20, 103)">isbot</text>
-<text transform="translate(467,239) rotate(-90)" font-size="14" style="fill:rgb(76, 194, 108)">app</text>
-<text transform="translate(577,334)" font-size="14" style="fill:rgb(35, 137, 142)">relative</text>
-<text transform="translate(466,462)" font-size="14" style="fill:rgb(34, 139, 141)">href</text>
-<text transform="translate(594,708) rotate(-90)" font-size="14" style="fill:rgb(44, 114, 142)">around</text>
-<text transform="translate(277,401)" font-size="14" style="fill:rgb(68, 57, 131)">serialize</text>
-<text transform="translate(72,200)" font-size="14" style="fill:rgb(165, 219, 54)">cloudflare</text>
-<text transform="translate(435,551) rotate(-90)" font-size="14" style="fill:rgb(71, 42, 122)">framework</text>
-<text transform="translate(236,145) rotate(-90)" font-size="14" style="fill:rgb(46, 179, 124)">dir</text>
-<text transform="translate(479,612)" font-size="14" style="fill:rgb(216, 226, 25)">sync</text>
-<text transform="translate(722,468)" font-size="14" style="fill:rgb(31, 153, 138)">property</text>
-<text transform="translate(164,401)" font-size="14" style="fill:rgb(72, 26, 108)">transition</text>
-<text transform="translate(793,787) rotate(-90)" font-size="14" style="fill:rgb(35, 137, 142)">descriptor</text>
-<text transform="translate(462,275)" font-size="14" style="fill:rgb(253, 231, 37)">remix</text>
-<text transform="translate(116,158)" font-size="14" style="fill:rgb(208, 225, 28)">eslint</text>
-<text transform="translate(315,510)" font-size="14" style="fill:rgb(49, 102, 142)">jest</text>
-<text transform="translate(729,89)" font-size="14" style="fill:rgb(244, 230, 30)">tsconfig</text>
-<text transform="translate(158,487)" font-size="14" style="fill:rgb(72, 29, 111)">extract</text>
-<text transform="translate(299,328)" font-size="14" style="fill:rgb(42, 120, 142)">user</text>
-<text transform="translate(414,422)" font-size="14" style="fill:rgb(35, 169, 131)">case</text>
-<text transform="translate(310,12)" font-size="14" style="fill:rgb(41, 121, 142)">discovery</text>
-<text transform="translate(88,316)" font-size="14" style="fill:rgb(42, 118, 142)">blocker</text>
-<text transform="translate(67,737) rotate(-90)" font-size="14" style="fill:rgb(144, 215, 67)">instrumentation</text>
-<text transform="translate(447,201)" font-size="14" style="fill:rgb(72, 31, 112)">content</text>
-<text transform="translate(365,358)" font-size="14" style="fill:rgb(176, 221, 47)">render</text>
-<text transform="translate(227,771)" font-size="14" style="fill:rgb(31, 148, 140)">cursor</text>
-<text transform="translate(659,309)" font-size="14" style="fill:rgb(42, 118, 142)">prefix</text>
-<text transform="translate(683,116)" font-size="14" style="fill:rgb(40, 125, 142)">metadata</text>
-<text transform="translate(447,550) rotate(-90)" font-size="14" style="fill:rgb(194, 223, 35)">navigate</text>
-<text transform="translate(2,311)" font-size="14" style="fill:rgb(168, 219, 52)">parse</text>
-<text transform="translate(601,359)" font-size="14" style="fill:rgb(176, 221, 47)">copy</text>
-<text transform="translate(69,434)" font-size="14" style="fill:rgb(53, 183, 121)">repo</text>
-<text transform="translate(72,566)" font-size="14" style="fill:rgb(68, 191, 112)">transform</text>
-<text transform="translate(71,513)" font-size="14" style="fill:rgb(69, 5, 89)">reset</text>
-<text transform="translate(104,760)" font-size="14" style="fill:rgb(74, 193, 109)">write</text>
-<text transform="translate(272,355) rotate(-90)" font-size="14" style="fill:rgb(69, 56, 130)">reference</text>
-<text transform="translate(62,772)" font-size="14" style="fill:rgb(72, 24, 106)">invariant</text>
-<text transform="translate(691,268)" font-size="14" style="fill:rgb(70, 7, 90)">preview</text>
-<text transform="translate(504,356)" font-size="14" style="fill:rgb(38, 129, 142)">source</text>
-<text transform="translate(12,116) rotate(-90)" font-size="14" style="fill:rgb(57, 85, 140)">constructor</text>
-<text transform="translate(586,533)" font-size="14" style="fill:rgb(251, 231, 35)">virtual</text>
-<text transform="translate(701,243)" font-size="14" style="fill:rgb(44, 114, 142)">single</text>
-<text transform="translate(505,731) rotate(-90)" font-size="14" style="fill:rgb(71, 42, 122)">playground</text>
-<text transform="translate(600,64)" font-size="14" style="fill:rgb(68, 191, 112)">log</text>
-<text transform="translate(396,238)" font-size="14" style="fill:rgb(40, 124, 142)">entries</text>
-<text transform="translate(164,639)" font-size="14" style="fill:rgb(32, 146, 140)">buffer</text>
-<text transform="translate(307,314)" font-size="14" style="fill:rgb(236, 229, 27)">read</text>
-<text transform="translate(660,678)" font-size="14" style="fill:rgb(200, 224, 32)">confirm</text>
-<text transform="translate(10,337)" font-size="14" style="fill:rgb(44, 113, 142)">opts</text>
-<text transform="translate(193,60)" font-size="14" style="fill:rgb(69, 55, 129)">label</text>
-<text transform="translate(739,321)" font-size="14" style="fill:rgb(241, 229, 29)">initial</text>
-<text transform="translate(345,421)" font-size="14" style="fill:rgb(54, 92, 141)">next</text>
-<text transform="translate(597,154)" font-size="14" style="fill:rgb(58, 84, 140)">deps</text>
-<text transform="translate(794,75) rotate(-90)" font-size="14" style="fill:rgb(72, 38, 119)">keyword</text>
-<text transform="translate(626,685) rotate(-90)" font-size="14" style="fill:rgb(173, 220, 48)">replace</text>
-<text transform="translate(556,711) rotate(-90)" font-size="14" style="fill:rgb(41, 121, 142)">encode</text>
-<text transform="translate(468,163)" font-size="14" style="fill:rgb(31, 160, 136)">links</text>
-<text transform="translate(468,78)" font-size="14" style="fill:rgb(72, 33, 115)">page</text>
-<text transform="translate(153,563)" font-size="14" style="fill:rgb(31, 160, 136)">errors</text>
-<text transform="translate(357,46)" font-size="14" style="fill:rgb(66, 65, 134)">run</text>
-<text transform="translate(639,14)" font-size="14" style="fill:rgb(157, 217, 59)">table</text>
-<text transform="translate(625,794) rotate(-90)" font-size="14" style="fill:rgb(139, 214, 70)">readable</text>
-<text transform="translate(127,251)" font-size="14" style="fill:rgb(142, 214, 69)">valid</text>
-<text transform="translate(369,162) rotate(-90)" font-size="14" style="fill:rgb(50, 100, 142)">sensitive</text>
-<text transform="translate(248,734) rotate(-90)" font-size="14" style="fill:rgb(244, 230, 30)">identifier</text>
-<text transform="translate(554,72) rotate(-90)" font-size="14" style="fill:rgb(189, 223, 38)">variable</text>
-<text transform="translate(13,460) rotate(-90)" font-size="14" style="fill:rgb(66, 64, 134)">version</text>
-<text transform="translate(380,721) rotate(-90)" font-size="14" style="fill:rgb(31, 152, 139)">integration</text>
-<text transform="translate(2,392)" font-size="14" style="fill:rgb(53, 95, 141)">update</text>
-<text transform="translate(571,426) rotate(-90)" font-size="14" style="fill:rgb(70, 10, 93)">multi</text>
-<text transform="translate(563,271)" font-size="14" style="fill:rgb(61, 188, 116)">search</text>
-<text transform="translate(116,417)" font-size="14" style="fill:rgb(38, 129, 142)">red</text>
-<text transform="translate(441,327) rotate(-90)" font-size="14" style="fill:rgb(208, 225, 28)">browser</text>
-<text transform="translate(795,540) rotate(-90)" font-size="14" style="fill:rgb(202, 225, 31)">warning</text>
-<text transform="translate(44,298) rotate(-90)" font-size="14" style="fill:rgb(61, 188, 116)">current</text>
-<text transform="translate(44,154) rotate(-90)" font-size="14" style="fill:rgb(32, 146, 140)">submission</text>
-<text transform="translate(719,771)" font-size="14" style="fill:rgb(54, 93, 141)">island</text>
-<text transform="translate(614,348)" font-size="14" style="fill:rgb(251, 231, 35)">semver</text>
-<text transform="translate(125,145)" font-size="14" style="fill:rgb(34, 141, 141)">format</text>
-<text transform="translate(603,88)" font-size="14" style="fill:rgb(41, 122, 142)">branch</text>
-<text transform="translate(623,194)" font-size="10" style="fill:rgb(32, 164, 134)">compression</text>
-<text transform="translate(428,615)" font-size="10" style="fill:rgb(33, 166, 133)">strip</text>
-<text transform="translate(315,494)" font-size="10" style="fill:rgb(72, 31, 112)">maybe</text>
-<text transform="translate(95,402)" font-size="10" style="fill:rgb(69, 53, 129)">tarball</text>
-<text transform="translate(242,560)" font-size="10" style="fill:rgb(181, 222, 43)">hint</text>
-<text transform="translate(70,348)" font-size="10" style="fill:rgb(63, 71, 136)">green</text>
-<text transform="translate(719,618) rotate(-90)" font-size="10" style="fill:rgb(66, 190, 113)">optional</text>
-<text transform="translate(329,523)" font-size="10" style="fill:rgb(239, 229, 28)">graph</text>
-<text transform="translate(316,475)" font-size="10" style="fill:rgb(41, 175, 127)">skip</text>
-<text transform="translate(512,268)" font-size="10" style="fill:rgb(176, 221, 47)">array</text>
-<text transform="translate(171,89)" font-size="10" style="fill:rgb(86, 198, 103)">hash</text>
-<text transform="translate(491,495)" font-size="10" style="fill:rgb(74, 193, 109)">class</text>
-<text transform="translate(630,26)" font-size="10" style="fill:rgb(49, 181, 123)">remove</text>
-<text transform="translate(232,116)" font-size="10" style="fill:rgb(53, 95, 141)">utils</text>
-<text transform="translate(474,109)" font-size="10" style="fill:rgb(72, 28, 110)">vitejs</text>
-<text transform="translate(677,172)" font-size="10" style="fill:rgb(68, 57, 131)">spa</text>
-<text transform="translate(741,603)" font-size="10" style="fill:rgb(248, 230, 33)">vanilla</text>
-<text transform="translate(375,732)" font-size="10" style="fill:rgb(178, 221, 45)">adapter</text>
-<text transform="translate(4,347)" font-size="10" style="fill:rgb(108, 205, 90)">worker</text>
-<text transform="translate(600,196)" font-size="10" style="fill:rgb(119, 209, 83)">arc</text>
-<text transform="translate(563,118)" font-size="10" style="fill:rgb(69, 5, 89)">query</text>
-<text transform="translate(110,358)" font-size="10" style="fill:rgb(72, 35, 116)">download</text>
-<text transform="translate(669,554)" font-size="10" style="fill:rgb(48, 106, 142)">black</text>
-<text transform="translate(704,161)" font-size="10" style="fill:rgb(44, 115, 142)">white</text>
-<text transform="translate(341,229)" font-size="10" style="fill:rgb(37, 171, 130)">blue</text>
-<text transform="translate(761,243)" font-size="10" style="fill:rgb(52, 97, 141)">cyan</text>
-<text transform="translate(33,177)" font-size="10" style="fill:rgb(42, 118, 142)">yellow</text>
-<text transform="translate(487,765)" font-size="10" style="fill:rgb(213, 226, 26)">optimize</text>
-<text transform="translate(698,253)" font-size="10" style="fill:rgb(64, 189, 114)">layout</text>
-<text transform="translate(459,330)" font-size="10" style="fill:rgb(31, 149, 139)">hmr</text>
-<text transform="translate(684,47)" font-size="10" style="fill:rgb(37, 132, 142)">child</text>
-<text transform="translate(182,309)" font-size="10" style="fill:rgb(53, 94, 141)">compiler</text>
-<text transform="translate(560,798)" font-size="10" style="fill:rgb(71, 47, 125)">external</text>
-<text transform="translate(607,248)" font-size="10" style="fill:rgb(31, 152, 139)">specifier</text>
-<text transform="translate(659,491)" font-size="10" style="fill:rgb(251, 231, 35)">declare</text>
-<text transform="translate(330,219)" font-size="10" style="fill:rgb(223, 227, 24)">enum</text>
-<text transform="translate(347,236)" font-size="10" style="fill:rgb(66, 64, 134)">call</text>
-<text transform="translate(341,702) rotate(-90)" font-size="10" style="fill:rgb(50, 101, 142)">branches</text>
-<text transform="translate(488,502)" font-size="10" style="fill:rgb(31, 152, 139)">image</text>
-<text transform="translate(266,562)" font-size="10" style="fill:rgb(37, 133, 142)">temporary</text>
-<text transform="translate(144,49)" font-size="10" style="fill:rgb(71, 16, 99)">cross</text>
-<text transform="translate(475,61)" font-size="10" style="fill:rgb(72, 38, 119)">wireit</text>
-<text transform="translate(4,322)" font-size="10" style="fill:rgb(251, 231, 35)">exit</text>
-<text transform="translate(43,600) rotate(-90)" font-size="10" style="fill:rgb(50, 182, 122)">shared</text>
-<text transform="translate(123,429)" font-size="10" style="fill:rgb(58, 84, 140)">join</text>
-<text transform="translate(676,541)" font-size="10" style="fill:rgb(162, 218, 55)">find</text>
-<text transform="translate(236,138)" font-size="10" style="fill:rgb(30, 157, 137)">async</text>
-<text transform="translate(109,658)" font-size="10" style="fill:rgb(71, 47, 125)">plugins</text>
-<text transform="translate(186,522)" font-size="10" style="fill:rgb(84, 197, 104)">schema</text>
-<text transform="translate(742,65)" font-size="10" style="fill:rgb(241, 229, 29)">banner</text>
-<text transform="translate(231,244)" font-size="10" style="fill:rgb(42, 118, 142)">manager</text>
-<text transform="translate(545,493)" font-size="10" style="fill:rgb(34, 168, 132)">fd</text>
-<text transform="translate(534,211)" font-size="10" style="fill:rgb(72, 35, 116)">exists</text>
-<text transform="translate(719,25)" font-size="10" style="fill:rgb(40, 124, 142)">listener</text>
-<text transform="translate(184,276)" font-size="10" style="fill:rgb(71, 13, 96)">runtime</text>
-<text transform="translate(643,529)" font-size="10" style="fill:rgb(38, 129, 142)">filename</text>
-<text transform="translate(72,493)" font-size="10" style="fill:rgb(134, 213, 73)">preload</text>
-<text transform="translate(325,532)" font-size="10" style="fill:rgb(31, 162, 135)">member</text>
-<text transform="translate(192,693) rotate(-90)" font-size="10" style="fill:rgb(33, 145, 140)">navigator</text>
-<text transform="translate(634,626)" font-size="10" style="fill:rgb(72, 26, 108)">scroll</text>
-<text transform="translate(75,337) rotate(-90)" font-size="10" style="fill:rgb(37, 172, 130)">deprecated</text>
-<text transform="translate(31,193)" font-size="10" style="fill:rgb(68, 2, 86)">legacy</text>
-<text transform="translate(507,255) rotate(-90)" font-size="10" style="fill:rgb(56, 89, 140)">payload</text>
-<text transform="translate(616,101)" font-size="10" style="fill:rgb(64, 189, 114)">preset</text>
-<text transform="translate(515,722) rotate(-90)" font-size="10" style="fill:rgb(231, 228, 25)">javascript</text>
-<text transform="translate(665,561)" font-size="10" style="fill:rgb(31, 160, 136)">agent</text>
-<text transform="translate(650,57)" font-size="10" style="fill:rgb(43, 116, 142)">cf</text>
-<text transform="translate(195,43)" font-size="10" style="fill:rgb(55, 184, 120)">delete</text>
-<text transform="translate(79,295)" font-size="10" style="fill:rgb(63, 188, 115)">non</text>
-<text transform="translate(7,354)" font-size="10" style="fill:rgb(66, 65, 134)">length</text>
-<text transform="translate(370,597)" font-size="10" style="fill:rgb(84, 197, 104)">dest</text>
-<text transform="translate(583,305)" font-size="10" style="fill:rgb(32, 163, 134)">done</text>
-<text transform="translate(43,24)" font-size="10" style="fill:rgb(59, 187, 117)">size</text>
-<text transform="translate(313,53)" font-size="10" style="fill:rgb(31, 161, 135)">local</text>
-<text transform="translate(433,626)" font-size="10" style="fill:rgb(92, 200, 99)">step</text>
-<text transform="translate(503,531)" font-size="10" style="fill:rgb(63, 188, 115)">loading</text>
-<text transform="translate(67,418)" font-size="10" style="fill:rgb(72, 36, 117)">logger</text>
-<text transform="translate(444,305)" font-size="10" style="fill:rgb(53, 95, 141)">symbol</text>
-<text transform="translate(441,191) rotate(-90)" font-size="10" style="fill:rgb(72, 41, 121)">pipeline</text>
-<text transform="translate(128,436)" font-size="10" style="fill:rgb(47, 180, 124)">cli</text>
-<text transform="translate(545,196)" font-size="10" style="fill:rgb(149, 216, 64)">absolute</text>
-<text transform="translate(705,275)" font-size="10" style="fill:rgb(119, 209, 83)">interface</text>
-<text transform="translate(487,343)" font-size="10" style="fill:rgb(33, 166, 133)">regex</text>
-<text transform="translate(465,122)" font-size="10" style="fill:rgb(70, 48, 126)">segment</text>
-<text transform="translate(329,436) rotate(-90)" font-size="10" style="fill:rgb(33, 166, 133)">re</text>
-<text transform="translate(351,84)" font-size="10" style="fill:rgb(63, 188, 115)">unstable</text>
-<text transform="translate(756,228)" font-size="10" style="fill:rgb(239, 229, 28)">change</text>
-<text transform="translate(565,26)" font-size="10" style="fill:rgb(57, 86, 140)">declarator</text>
-<text transform="translate(632,754) rotate(-90)" font-size="10" style="fill:rgb(223, 227, 24)">named</text>
-<text transform="translate(302,772)" font-size="10" style="fill:rgb(132, 212, 75)">signature</text>
-<text transform="translate(324,446)" font-size="10" style="fill:rgb(60, 79, 138)">patch</text>
-<text transform="translate(632,371)" font-size="10" style="fill:rgb(223, 227, 24)">window</text>
-<text transform="translate(284,186)" font-size="10" style="fill:rgb(155, 217, 60)">memory</text>
-<text transform="translate(551,626)" font-size="10" style="fill:rgb(31, 162, 135)">origin</text>
-<text transform="translate(50,589) rotate(-90)" font-size="10" style="fill:rgb(38, 173, 129)">instrument</text>
-<text transform="translate(485,796)" font-size="10" style="fill:rgb(31, 159, 136)">secret</text>
-<text transform="translate(125,114)" font-size="9" style="fill:rgb(216, 226, 25)">typegen</text>
-<text transform="translate(770,291) rotate(-90)" font-size="9" style="fill:rgb(119, 209, 83)">watch</text>
-<text transform="translate(685,472)" font-size="9" style="fill:rgb(45, 113, 142)">hooks</text>
-<text transform="translate(247,252)" font-size="9" style="fill:rgb(63, 71, 136)">morgan</text>
-<text transform="translate(470,469)" font-size="9" style="fill:rgb(72, 32, 113)">tester</text>
-<text transform="translate(667,662)" font-size="9" style="fill:rgb(52, 182, 121)">esbuild</text>
-<text transform="translate(476,600)" font-size="9" style="fill:rgb(72, 31, 112)">support</text>
-<text transform="translate(184,531)" font-size="9" style="fill:rgb(71, 45, 123)">output</text>
-<text transform="translate(271,431)" font-size="9" style="fill:rgb(72, 38, 119)">close</text>
-<text transform="translate(161,604)" font-size="9" style="fill:rgb(48, 105, 142)">github</text>
-<text transform="translate(236,311)" font-size="9" style="fill:rgb(144, 215, 67)">lib</text>
-<text transform="translate(277,613)" font-size="9" style="fill:rgb(47, 107, 142)">escape</text>
-<text transform="translate(99,727) rotate(-90)" font-size="9" style="fill:rgb(218, 227, 25)">level</text>
-<text transform="translate(200,434)" font-size="9" style="fill:rgb(110, 206, 88)">flatten</text>
-<text transform="translate(85,531)" font-size="9" style="fill:rgb(37, 131, 142)">ids</text>
-<text transform="translate(711,308)" font-size="9" style="fill:rgb(55, 184, 120)">names</text>
-<text transform="translate(217,152)" font-size="9" style="fill:rgb(46, 179, 124)">command</text>
-<text transform="translate(534,79)" font-size="9" style="fill:rgb(101, 203, 94)">boolean</text>
-<text transform="translate(224,359)" font-size="9" style="fill:rgb(54, 93, 141)">comment</text>
-<text transform="translate(72,522)" font-size="9" style="fill:rgb(51, 98, 141)">internal</text>
-<text transform="translate(337,359)" font-size="9" style="fill:rgb(74, 193, 109)">mask</text>
-<text transform="translate(481,150)" font-size="9" style="fill:rgb(251, 231, 35)">rel</text>
-<text transform="translate(93,146) rotate(-90)" font-size="9" style="fill:rgb(36, 170, 131)">revalidating</text>
-<text transform="translate(433,376)" font-size="9" style="fill:rgb(72, 193, 110)">cycle</text>
-<text transform="translate(493,434)" font-size="8" style="fill:rgb(38, 130, 142)">mdx</text>
-<text transform="translate(716,214)" font-size="8" style="fill:rgb(51, 99, 141)">remark</text>
-<text transform="translate(742,423) rotate(-90)" font-size="8" style="fill:rgb(173, 220, 48)">picocolors</text>
-<text transform="translate(759,233)" font-size="8" style="fill:rgb(66, 64, 134)">core</text>
-<text transform="translate(648,46)" font-size="8" style="fill:rgb(41, 123, 142)">split</text>
-<text transform="translate(278,624)" font-size="8" style="fill:rgb(62, 73, 137)">webpack</text>
-<text transform="translate(479,624)" font-size="8" style="fill:rgb(58, 186, 118)">mjackson</text>
-<text transform="translate(413,429)" font-size="8" style="fill:rgb(61, 78, 138)">architect</text>
-<text transform="translate(481,570)" font-size="8" style="fill:rgb(63, 72, 137)">generator</text>
-<text transform="translate(382,561)" font-size="8" style="fill:rgb(50, 100, 142)">namespace</text>
-<text transform="translate(354,779)" font-size="8" style="fill:rgb(231, 228, 25)">binary</text>
-<text transform="translate(285,359)" font-size="8" style="fill:rgb(61, 78, 138)">fn</text>
-<text transform="translate(422,27)" font-size="8" style="fill:rgb(57, 85, 140)">install</text>
-<text transform="translate(233,718) rotate(-90)" font-size="8" style="fill:rgb(71, 19, 101)">dependencies</text>
-<text transform="translate(625,709) rotate(-90)" font-size="8" style="fill:rgb(31, 161, 135)">obj</text>
-<text transform="translate(761,111)" font-size="8" style="fill:rgb(71, 46, 124)">stat</text>
-<text transform="translate(451,361)" font-size="8" style="fill:rgb(165, 219, 54)">char</text>
-<text transform="translate(247,261)" font-size="8" style="fill:rgb(49, 102, 142)">slashes</text>
-<text transform="translate(305,83)" font-size="8" style="fill:rgb(218, 227, 25)">dirent</text>
-<text transform="translate(619,109)" font-size="8" style="fill:rgb(61, 77, 138)">public</text>
-<text transform="translate(642,418) rotate(-90)" font-size="8" style="fill:rgb(72, 41, 121)">number</text>
-<text transform="translate(115,165)" font-size="8" style="fill:rgb(51, 98, 141)">controller</text>
-<text transform="translate(592,503)" font-size="8" style="fill:rgb(194, 223, 35)">post</text>
-<text transform="translate(753,137)" font-size="8" style="fill:rgb(42, 120, 142)">resource</text>
-<text transform="translate(182,192)" font-size="8" style="fill:rgb(82, 197, 105)">flag</text>
-<text transform="translate(662,602) rotate(-90)" font-size="8" style="fill:rgb(64, 189, 114)">runner</text>
-<text transform="translate(469,411)" font-size="8" style="fill:rgb(45, 178, 125)">warn</text>
-<text transform="translate(267,439)" font-size="8" style="fill:rgb(31, 160, 136)">digest</text>
-<text transform="translate(683,432) rotate(-90)" font-size="8" style="fill:rgb(223, 227, 24)">revalidation</text>
-<text transform="translate(715,628)" font-size="8" style="fill:rgb(66, 63, 133)">critical</text>
-<text transform="translate(540,70) rotate(-90)" font-size="8" style="fill:rgb(68, 1, 84)">document</text>
-<text transform="translate(439,580)" font-size="8" style="fill:rgb(40, 125, 142)">pending</text>
-<text transform="translate(714,510)" font-size="8" style="fill:rgb(52, 97, 141)">target</text>
-<text transform="translate(134,262)" font-size="7" style="fill:rgb(64, 189, 114)">rollup</text>
-<text transform="translate(204,561)" font-size="7" style="fill:rgb(144, 215, 67)">prettier</text>
-<text transform="translate(716,415) rotate(-90)" font-size="7" style="fill:rgb(58, 186, 118)">parser</text>
-<text transform="translate(365,343)" font-size="7" style="fill:rgb(42, 176, 127)">wrangler</text>
-<text transform="translate(288,73)" font-size="7" style="fill:rgb(45, 113, 142)">custom</text>
-<text transform="translate(14,797)" font-size="7" style="fill:rgb(119, 209, 83)">readdir</text>
-<text transform="translate(758,394)" font-size="7" style="fill:rgb(33, 143, 141)">port</text>
-<text transform="translate(186,380)" font-size="7" style="fill:rgb(71, 45, 123)">wait</text>
-<text transform="translate(440,592)" font-size="7" style="fill:rgb(241, 229, 29)">incoming</text>
-<text transform="translate(17,56) rotate(-90)" font-size="7" style="fill:rgb(62, 73, 137)">tests</text>
-<text transform="translate(160,591)" font-size="7" style="fill:rgb(68, 58, 131)">msg</text>
-<text transform="translate(561,738) rotate(-90)" font-size="7" style="fill:rgb(241, 229, 29)">clear</text>
-<text transform="translate(236,122)" font-size="7" style="fill:rgb(103, 204, 92)">project</text>
-<text transform="translate(633,451)" font-size="7" style="fill:rgb(61, 188, 116)">union</text>
-<text transform="translate(534,187)" font-size="7" style="fill:rgb(38, 173, 129)">hex</text>
-<text transform="translate(413,441)" font-size="7" style="fill:rgb(65, 66, 135)">frame</text>
-<text transform="translate(471,529)" font-size="7" style="fill:rgb(72, 37, 118)">success</text>
-<text transform="translate(737,182)" font-size="7" style="fill:rgb(36, 135, 142)">line</text>
-<text transform="translate(546,653)" font-size="7" style="fill:rgb(66, 65, 134)">protocol</text>
-<text transform="translate(76,500)" font-size="7" style="fill:rgb(134, 213, 73)">destroy</text>
-<text transform="translate(775,434) rotate(-90)" font-size="7" style="fill:rgb(71, 46, 124)">high</text>
-<text transform="translate(87,404) rotate(-90)" font-size="7" style="fill:rgb(35, 169, 131)">water</text>
-<text transform="translate(566,108)" font-size="7" style="fill:rgb(69, 5, 89)">mark</text>
-<text transform="translate(181,282)" font-size="7" style="fill:rgb(70, 7, 90)">trailing</text>
-<text transform="translate(500,509)" font-size="7" style="fill:rgb(147, 215, 65)">empty</text>
-<text transform="translate(641,66)" font-size="7" style="fill:rgb(72, 28, 110)">watcher</text>
-<text transform="translate(472,67)" font-size="7" style="fill:rgb(38, 173, 129)">resolver</text>
-<text transform="translate(81,479)" font-size="7" style="fill:rgb(34, 139, 141)">allowed</text>
-<text transform="translate(270,44)" font-size="7" style="fill:rgb(45, 113, 142)">err</text>
-<text transform="translate(623,184)" font-size="7" style="fill:rgb(210, 226, 27)">chunked</text>
-<text transform="translate(628,632)" font-size="7" style="fill:rgb(72, 193, 110)">dynamic</text>
-<text transform="translate(2,588)" font-size="7" style="fill:rgb(68, 58, 131)">detect</text>
-<text transform="translate(281,595) rotate(-90)" font-size="7" style="fill:rgb(70, 50, 126)">wrapped</text>
-<text transform="translate(112,592)" font-size="7" style="fill:rgb(67, 62, 133)">configure</text>
-<text transform="translate(357,790)" font-size="7" style="fill:rgb(115, 208, 86)">side</text>
-<text transform="translate(165,416)" font-size="7" style="fill:rgb(37, 132, 142)">rest</text>
-<text transform="translate(249,730)" font-size="7" style="fill:rgb(69, 5, 89)">handoff</text>
-<text transform="translate(235,622)" font-size="7" style="fill:rgb(69, 55, 129)">matcher</text>
-<text transform="translate(118,47) rotate(-90)" font-size="7" style="fill:rgb(62, 74, 137)">expires</text>
-<text transform="translate(454,767)" font-size="7" style="fill:rgb(70, 192, 111)">signal</text>
-<text transform="translate(591,163)" font-size="7" style="fill:rgb(112, 207, 87)">mutation</text>
-<text transform="translate(293,527) rotate(-90)" font-size="7" style="fill:rgb(31, 150, 139)">unsupported</text>
-<text transform="translate(644,518) rotate(-90)" font-size="7" style="fill:rgb(51, 98, 141)">patches</text>
-<text transform="translate(686,61)" font-size="7" style="fill:rgb(44, 114, 142)">results</text>
-<text transform="translate(524,443)" font-size="6" style="fill:rgb(44, 114, 142)">sort</text>
-<text transform="translate(751,758)" font-size="6" style="fill:rgb(69, 5, 89)">add</text>
-<text transform="translate(466,395)" font-size="6" style="fill:rgb(66, 190, 113)">clean</text>
-<text transform="translate(282,709) rotate(-90)" font-size="6" style="fill:rgb(72, 38, 119)">execa</text>
-<text transform="translate(666,496)" font-size="6" style="fill:rgb(160, 218, 57)">register</text>
-<text transform="translate(767,566)" font-size="6" style="fill:rgb(67, 61, 132)">traverse</text>
-<text transform="translate(678,131)" font-size="6" style="fill:rgb(72, 29, 111)">pass</text>
-<text transform="translate(704,80)" font-size="6" style="fill:rgb(34, 139, 141)">crypto</text>
-<text transform="translate(599,566)" font-size="6" style="fill:rgb(31, 161, 136)">domain</text>
-<text transform="translate(600,686)" font-size="6" style="fill:rgb(46, 109, 142)">host</text>
-<text transform="translate(546,766)" font-size="6" style="fill:rgb(72, 24, 106)">structured</text>
-<text transform="translate(626,121)" font-size="6" style="fill:rgb(218, 227, 25)">equal</text>
-<text transform="translate(715,476)" font-size="6" style="fill:rgb(38, 130, 142)">question</text>
-<text transform="translate(300,357)" font-size="6" style="fill:rgb(49, 104, 142)">answer</text>
-<text transform="translate(729,332)" font-size="6" style="fill:rgb(72, 27, 109)">first</text>
-<text transform="translate(567,237)" font-size="6" style="fill:rgb(31, 152, 139)">timeout</text>
-<text transform="translate(534,453)" font-size="6" style="fill:rgb(71, 46, 124)">stdin</text>
-<text transform="translate(344,209)" font-size="6" style="fill:rgb(57, 86, 140)">stdout</text>
-<text transform="translate(617,473)" font-size="6" style="fill:rgb(71, 19, 101)">abort</text>
-<text transform="translate(281,682) rotate(-90)" font-size="6" style="fill:rgb(51, 98, 141)">move</text>
-<text transform="translate(778,273)" font-size="6" style="fill:rgb(71, 44, 122)">last</text>
-<text transform="translate(19,618)" font-size="6" style="fill:rgb(49, 104, 142)">indicator</text>
-<text transform="translate(310,657)" font-size="6" style="fill:rgb(117, 208, 84)">argv</text>
-<text transform="translate(277,284)" font-size="6" style="fill:rgb(72, 38, 119)">mkdir</text>
-<text transform="translate(412,448)" font-size="6" style="fill:rgb(57, 85, 140)">filter</text>
-<text transform="translate(770,636)" font-size="6" style="fill:rgb(33, 144, 141)">flat</text>
-<text transform="translate(656,264)" font-size="6" style="fill:rgb(32, 164, 134)">dirname</text>
-<text transform="translate(184,223)" font-size="6" style="fill:rgb(54, 93, 141)">req</text>
-<text transform="translate(17,736)" font-size="6" style="fill:rgb(168, 219, 52)">flush</text>
-<text transform="translate(65,445)" font-size="6" style="fill:rgb(34, 168, 132)">monitor</text>
-<text transform="translate(486,167)" font-size="6" style="fill:rgb(69, 56, 130)">concurrency</text>
-<text transform="translate(544,728)" font-size="6" style="fill:rgb(44, 114, 142)">max</text>
-<text transform="translate(406,641)" font-size="6" style="fill:rgb(168, 219, 52)">ok</text>
-<text transform="translate(206,593)" font-size="6" style="fill:rgb(139, 214, 70)">exported</text>
-<text transform="translate(405,713)" font-size="6" style="fill:rgb(76, 194, 108)">merge</text>
-<text transform="translate(739,94)" font-size="6" style="fill:rgb(58, 186, 118)">assert</text>
-<text transform="translate(265,711)" font-size="6" style="fill:rgb(46, 110, 142)">ast</text>
-<text transform="translate(609,93)" font-size="6" style="fill:rgb(71, 17, 100)">invalidate</text>
-<text transform="translate(191,265)" font-size="6" style="fill:rgb(71, 45, 123)">inject</text>
-<text transform="translate(14,681)" font-size="6" style="fill:rgb(38, 130, 142)">main</text>
-<text transform="translate(183,358)" font-size="6" style="fill:rgb(66, 190, 113)">connect</text>
-<text transform="translate(321,484)" font-size="6" style="fill:rgb(200, 224, 32)">container</text>
-<text transform="translate(525,401)" font-size="6" style="fill:rgb(64, 69, 136)">reload</text>
-<text transform="translate(65,53)" font-size="6" style="fill:rgb(47, 107, 142)">await</text>
-<text transform="translate(298,197)" font-size="6" style="fill:rgb(66, 63, 133)">tuple</text>
-<text transform="translate(671,405) rotate(-90)" font-size="6" style="fill:rgb(63, 72, 137)">spread</text>
-<text transform="translate(176,213)" font-size="6" style="fill:rgb(42, 118, 142)">program</text>
-<text transform="translate(765,118)" font-size="6" style="fill:rgb(47, 108, 142)">enable</text>
-<text transform="translate(339,627)" font-size="6" style="fill:rgb(41, 175, 127)">outlet</text>
-<text transform="translate(39,608)" font-size="6" style="fill:rgb(86, 198, 103)">deferred</text>
-<text transform="translate(7,465)" font-size="6" style="fill:rgb(31, 151, 139)">blocked</text>
-<text transform="translate(144,54)" font-size="6" style="fill:rgb(31, 149, 139)">unblocked</text>
-<text transform="translate(306,649)" font-size="6" style="fill:rgb(229, 228, 25)">proceeding</text>
-<text transform="translate(526,304) rotate(-90)" font-size="6" style="fill:rgb(55, 91, 141)">tracked</text>
-<text transform="translate(673,138)" font-size="6" style="fill:rgb(72, 40, 120)">hydration</text>
-<text transform="translate(675,161)" font-size="6" style="fill:rgb(55, 91, 141)">proceed</text>
-<text transform="translate(694,624)" font-size="6" style="fill:rgb(31, 159, 136)">ld</text>
-<text transform="translate(774,589) rotate(-90)" font-size="6" style="fill:rgb(70, 11, 94)">script</text>
-<text transform="translate(195,65)" font-size="6" style="fill:rgb(244, 230, 30)">reply</text>
-<text transform="translate(436,269)" font-size="6" style="fill:rgb(72, 41, 121)">scoped</text>
-<text transform="translate(503,456)" font-size="6" style="fill:rgb(110, 206, 88)">convert</text>
-<text transform="translate(192,752)" font-size="6" style="fill:rgb(71, 19, 101)">effect</text>
-<text transform="translate(641,31)" font-size="6" style="fill:rgb(56, 88, 140)">turbo</text>
-<text transform="translate(767,34)" font-size="5" style="fill:rgb(37, 132, 142)">glob</text>
-<text transform="translate(196,329)" font-size="5" style="fill:rgb(157, 217, 59)">frontmatter</text>
-<text transform="translate(595,71)" font-size="5" style="fill:rgb(134, 213, 73)">ansi</text>
-<text transform="translate(728,44)" font-size="5" style="fill:rgb(43, 116, 142)">gunzip</text>
-<text transform="translate(101,350)" font-size="5" style="fill:rgb(31, 148, 140)">tar</text>
-<text transform="translate(527,286)" font-size="5" style="fill:rgb(54, 92, 141)">jsesc</text>
-<text transform="translate(565,545) rotate(-90)" font-size="5" style="fill:rgb(35, 169, 131)">dedent</text>
-<text transform="translate(587,782) rotate(-90)" font-size="5" style="fill:rgb(71, 13, 96)">pkg</text>
-<text transform="translate(93,687)" font-size="5" style="fill:rgb(69, 5, 89)">values</text>
-<text transform="translate(296,568)" font-size="5" style="fill:rgb(72, 37, 118)">raw</text>
-<text transform="translate(49,467) rotate(-90)" font-size="5" style="fill:rgb(70, 10, 93)">restore</text>
-<text transform="translate(760,69)" font-size="5" style="fill:rgb(68, 1, 84)">closed</text>
-<text transform="translate(19,478)" font-size="5" style="fill:rgb(56, 89, 140)">debug</text>
-<text transform="translate(386,687)" font-size="5" style="fill:rgb(60, 80, 139)">token</text>
-<text transform="translate(552,201)" font-size="5" style="fill:rgb(173, 220, 48)">events</text>
-<text transform="translate(399,737)" font-size="5" style="fill:rgb(61, 188, 116)">cwd</text>
-<text transform="translate(151,228)" font-size="5" style="fill:rgb(63, 71, 136)">arr</text>
-<text transform="translate(350,469)" font-size="5" style="fill:rgb(69, 4, 87)">os</text>
-<text transform="translate(483,648) rotate(-90)" font-size="5" style="fill:rgb(71, 16, 99)">posix</text>
-<text transform="translate(121,389)" font-size="5" style="fill:rgb(72, 29, 111)">ignored</text>
-<text transform="translate(637,432)" font-size="5" style="fill:rgb(68, 59, 132)">filepath</text>
-<text transform="translate(220,404)" font-size="5" style="fill:rgb(70, 11, 94)">esm</text>
-<text transform="translate(771,182)" font-size="5" style="fill:rgb(34, 168, 132)">original</text>
-<text transform="translate(601,365)" font-size="5" style="fill:rgb(68, 57, 131)">throw</text>
-<text transform="translate(485,260)" font-size="5" style="fill:rgb(68, 57, 131)">extension</text>
-<text transform="translate(251,227)" font-size="5" style="fill:rgb(47, 107, 142)">sourcemap</text>
-<text transform="translate(677,735)" font-size="5" style="fill:rgb(82, 197, 105)">changed</text>
-<text transform="translate(59,129)" font-size="5" style="fill:rgb(51, 98, 141)">omit</text>
-<text transform="translate(667,313)" font-size="5" style="fill:rgb(54, 93, 141)">dependency</text>
-<text transform="translate(532,226)" font-size="5" style="fill:rgb(45, 113, 142)">top</text>
-<text transform="translate(631,439)" font-size="5" style="fill:rgb(72, 26, 108)">rolldown</text>
-<text transform="translate(6,241) rotate(-90)" font-size="5" style="fill:rgb(162, 218, 55)">invalid</text>
-<text transform="translate(223,442)" font-size="5" style="fill:rgb(50, 101, 142)">record</text>
-<text transform="translate(399,58)" font-size="5" style="fill:rgb(45, 178, 125)">order</text>
-<text transform="translate(592,225)" font-size="5" style="fill:rgb(66, 65, 134)">alias</text>
-<text transform="translate(663,81)" font-size="5" style="fill:rgb(38, 173, 129)">assignment</text>
-<text transform="translate(157,491)" font-size="5" style="fill:rgb(36, 134, 142)">fragment</text>
-<text transform="translate(47,523) rotate(-90)" font-size="5" style="fill:rgb(64, 70, 136)">attribute</text>
-<text transform="translate(389,672)" font-size="5" style="fill:rgb(46, 179, 124)">binding</text>
-<text transform="translate(68,354)" font-size="5" style="fill:rgb(31, 151, 139)">position</text>
-<text transform="translate(761,215)" font-size="5" style="fill:rgb(69, 55, 129)">prevent</text>
-<text transform="translate(265,448)" font-size="5" style="fill:rgb(33, 143, 141)">provider</text>
-<text transform="translate(247,550)" font-size="5" style="fill:rgb(54, 92, 141)">short</text>
-<text transform="translate(156,199)" font-size="5" style="fill:rgb(216, 226, 25)">transitioning</text>
-<text transform="translate(674,183)" font-size="5" style="fill:rgb(186, 222, 40)">override</text>
-<text transform="translate(347,240)" font-size="5" style="fill:rgb(108, 205, 90)">primitive</text>
-<text transform="translate(717,498)" font-size="5" style="fill:rgb(63, 72, 137)">keyed</text>
-<text transform="translate(50,435) rotate(-90)" font-size="5" style="fill:rgb(236, 229, 27)">readonly</text>
-<text transform="translate(315,239) rotate(-90)" font-size="5" style="fill:rgb(64, 69, 136)">submitting</text>
-<text transform="translate(409,78)" font-size="5" style="fill:rgb(197, 224, 33)">supported</text>
-<text transform="translate(219,145) rotate(-90)" font-size="5" style="fill:rgb(162, 218, 55)">prefetch</text>
-<text transform="translate(33,183)" font-size="5" style="fill:rgb(68, 1, 84)">condition</text>
-<text transform="translate(688,23)" font-size="4" style="fill:rgb(39, 128, 142)">ecosystem</text>
-<text transform="translate(176,61)" font-size="4" style="fill:rgb(208, 225, 28)">ci</text>
-<text transform="translate(68,79) rotate(-90)" font-size="4" style="fill:rgb(119, 209, 83)">playwright</text>
-<text transform="translate(161,368)" font-size="4" style="fill:rgb(218, 227, 25)">check</text>
-<text transform="translate(199,47)" font-size="4" style="fill:rgb(134, 213, 73)">docs</text>
-<text transform="translate(573,81)" font-size="4" style="fill:rgb(110, 206, 88)">stringify</text>
-<text transform="translate(626,582)" font-size="4" style="fill:rgb(57, 85, 140)">compat</text>
-<text transform="translate(709,120)" font-size="4" style="fill:rgb(38, 173, 129)">functions</text>
-<text transform="translate(314,264)" font-size="4" style="fill:rgb(58, 83, 139)">recursive</text>
-<text transform="translate(536,435)" font-size="4" style="fill:rgb(72, 38, 119)">testing</text>
-<text transform="translate(499,737)" font-size="4" style="fill:rgb(248, 230, 33)">library</text>
-<text transform="translate(454,734)" font-size="4" style="fill:rgb(108, 205, 90)">clone</text>
-<text transform="translate(721,456)" font-size="4" style="fill:rgb(50, 182, 122)">accept</text>
-<text transform="translate(170,733)" font-size="4" style="fill:rgb(70, 52, 128)">send</text>
-<text transform="translate(719,363)" font-size="4" style="fill:rgb(41, 122, 142)">require</text>
-<text transform="translate(675,652)" font-size="4" style="fill:rgb(184, 222, 41)">shorthand</text>
-<text transform="translate(719,137)" font-size="4" style="fill:rgb(34, 140, 141)">placeholder</text>
-<text transform="translate(371,53)" font-size="4" style="fill:rgb(33, 143, 141)">count</text>
-<text transform="translate(32,165)" font-size="4" style="fill:rgb(189, 223, 38)">site</text>
-<text transform="translate(684,461)" font-size="4" style="fill:rgb(132, 212, 75)">temp</text>
-<text transform="translate(538,201)" font-size="4" style="fill:rgb(69, 4, 87)">help</text>
-<text transform="translate(530,412)" font-size="4" style="fill:rgb(72, 36, 117)">show</text>
-<text transform="translate(337,562)" font-size="4" style="fill:rgb(68, 58, 131)">left</text>
-<text transform="translate(605,51)" font-size="4" style="fill:rgb(101, 203, 94)">right</text>
-<text transform="translate(398,246)" font-size="4" style="fill:rgb(33, 144, 141)">cancel</text>
-<text transform="translate(484,302)" font-size="4" style="fill:rgb(70, 8, 92)">intersection</text>
-<text transform="translate(565,166)" font-size="4" style="fill:rgb(72, 20, 103)">generic</text>
-<text transform="translate(640,18)" font-size="4" style="fill:rgb(66, 65, 134)">multiselect</text>
-<text transform="translate(267,61)" font-size="4" style="fill:rgb(66, 65, 134)">heading</text>
-<text transform="translate(720,483)" font-size="4" style="fill:rgb(218, 227, 25)">stop</text>
-<text transform="translate(786,475)" font-size="4" style="fill:rgb(71, 14, 97)">bold</text>
-<text transform="translate(598,441)" font-size="4" style="fill:rgb(51, 98, 141)">gray</text>
-<text transform="translate(86,152)" font-size="4" style="fill:rgb(44, 114, 142)">dim</text>
-<text transform="translate(148,221)" font-size="4" style="fill:rgb(35, 136, 142)">inverse</text>
-<text transform="translate(533,793)" font-size="4" style="fill:rgb(41, 121, 142)">underline</text>
-<text transform="translate(627,650)" font-size="4" style="fill:rgb(122, 209, 81)">title</text>
-<text transform="translate(57,376) rotate(-90)" font-size="4" style="fill:rgb(72, 31, 112)">safe</text>
-<text transform="translate(344,409)" font-size="4" style="fill:rgb(218, 227, 25)">stderr</text>
-<text transform="translate(653,73)" font-size="4" style="fill:rgb(39, 126, 142)">readline</text>
-<text transform="translate(300,591)" font-size="4" style="fill:rgb(221, 227, 24)">sep</text>
-<text transform="translate(737,163)" font-size="4" style="fill:rgb(71, 45, 123)">erase</text>
-<text transform="translate(90,631)" font-size="4" style="fill:rgb(39, 128, 142)">lookup</text>
-<text transform="translate(419,471)" font-size="4" style="fill:rgb(147, 215, 65)">extname</text>
-<text transform="translate(766,42)" font-size="4" style="fill:rgb(56, 89, 140)">parsed</text>
-<text transform="translate(166,584)" font-size="4" style="fill:rgb(38, 129, 142)">normalized</text>
-<text transform="translate(740,583)" font-size="4" style="fill:rgb(31, 161, 135)">listen</text>
-<text transform="translate(721,489)" font-size="4" style="fill:rgb(52, 97, 141)">reason</text>
-<text transform="translate(775,410) rotate(-90)" font-size="4" style="fill:rgb(70, 52, 128)">resume</text>
-<text transform="translate(756,356)" font-size="4" style="fill:rgb(71, 16, 99)">pause</text>
-<text transform="translate(623,510)" font-size="4" style="fill:rgb(110, 206, 88)">slash</text>
-<text transform="translate(761,47)" font-size="4" style="fill:rgb(226, 228, 24)">profile</text>
-<text transform="translate(568,553)" font-size="4" style="fill:rgb(69, 55, 129)">sri</text>
-<text transform="translate(629,225)" font-size="4" style="fill:rgb(34, 140, 141)">timestamp</text>
-<text transform="translate(596,515)" font-size="4" style="fill:rgb(43, 116, 142)">lineage</text>
-<text transform="translate(219,236) rotate(-90)" font-size="4" style="fill:rgb(66, 64, 134)">fullpath</text>
-<text transform="translate(7,192)" font-size="4" style="fill:rgb(218, 227, 25)">combine</text>
-<text transform="translate(248,268)" font-size="4" style="fill:rgb(62, 74, 137)">dotenv</text>
-<text transform="translate(1,287)" font-size="4" style="fill:rgb(147, 215, 65)">imported</text>
-<text transform="translate(308,731)" font-size="4" style="fill:rgb(149, 216, 64)">oxc</text>
-<text transform="translate(529,549)" font-size="4" style="fill:rgb(35, 136, 142)">dedupe</text>
-<text transform="translate(80,266)" font-size="4" style="fill:rgb(64, 69, 136)">group</text>
-<text transform="translate(632,752)" font-size="4" style="fill:rgb(70, 48, 126)">nullable</text>
-<text transform="translate(237,169)" font-size="4" style="fill:rgb(54, 92, 141)">issue</text>
-<text transform="translate(174,609)" font-size="4" style="fill:rgb(57, 86, 140)">deep</text>
-<text transform="translate(734,430)" font-size="4" style="fill:rgb(63, 188, 115)">reg</text>
-<text transform="translate(330,515)" font-size="4" style="fill:rgb(32, 146, 140)">exp</text>
-<text transform="translate(754,748) rotate(-90)" font-size="4" style="fill:rgb(42, 119, 142)">rm</text>
-<text transform="translate(554,12)" font-size="4" style="fill:rgb(62, 76, 138)">hot</text>
-<text transform="translate(138,134)" font-size="4" style="fill:rgb(152, 216, 62)">argument</text>
-<text transform="translate(481,114)" font-size="4" style="fill:rgb(55, 91, 141)">block</text>
-<text transform="translate(629,599)" font-size="4" style="fill:rgb(62, 76, 138)">return</text>
-<text transform="translate(128,451)" font-size="4" style="fill:rgb(54, 93, 141)">topic</text>
-<text transform="translate(131,189)" font-size="4" style="fill:rgb(32, 164, 134)">instantiation</text>
-<text transform="translate(443,597)" font-size="4" style="fill:rgb(70, 51, 127)">void</text>
-<text transform="translate(566,275)" font-size="4" style="fill:rgb(64, 189, 114)">predicate</text>
-<text transform="translate(200,511)" font-size="4" style="fill:rgb(63, 72, 137)">indexed</text>
-<text transform="translate(161,644)" font-size="4" style="fill:rgb(43, 116, 142)">private</text>
-<text transform="translate(772,262)" font-size="4" style="fill:rgb(65, 66, 135)">directive</text>
-<text transform="translate(16,111) rotate(-90)" font-size="4" style="fill:rgb(253, 231, 37)">partial</text>
-<text transform="translate(3,487)" font-size="4" style="fill:rgb(213, 226, 26)">scope</text>
-<text transform="translate(298,638)" font-size="4" style="fill:rgb(34, 139, 141)">commit</text>
-<text transform="translate(91,79) rotate(-90)" font-size="4" style="fill:rgb(50, 182, 122)">push</text>
-<text transform="translate(184,796)" font-size="4" style="fill:rgb(68, 2, 86)">allow</text>
+<text transform="translate(31,524)" font-size="241" style="fill:rgb(69, 55, 129)">route</text>
+<text transform="translate(21,671)" font-size="201" style="fill:rgb(253, 231, 37)">react</text>
+<text transform="translate(6,134)" font-size="185" style="fill:rgb(46, 109, 142)">router</text>
+<text transform="translate(45,316)" font-size="184" style="fill:rgb(66, 64, 134)">path</text>
+<text transform="translate(63,768)" font-size="125" style="fill:rgb(32, 163, 134)">option</text>
+<text transform="translate(504,269)" font-size="121" style="fill:rgb(129, 211, 77)">node</text>
+<text transform="translate(79,383)" font-size="117" style="fill:rgb(63, 72, 137)">server</text>
+<text transform="translate(492,337)" font-size="85" style="fill:rgb(51, 98, 141)">config</text>
+<text transform="translate(88,209)" font-size="84" style="fill:rgb(46, 111, 142)">vite</text>
+<text transform="translate(592,650)" font-size="76" style="fill:rgb(32, 147, 140)">file</text>
+<text transform="translate(504,728)" font-size="70" style="fill:rgb(31, 148, 140)">request</text>
+<text transform="translate(525,797)" font-size="69" style="fill:rgb(31, 151, 139)">action</text>
+<text transform="translate(54,546) rotate(-90)" font-size="68" style="fill:rgb(47, 107, 142)">manifest</text>
+<text transform="translate(407,179)" font-size="53" style="fill:rgb(71, 44, 122)">component</text>
+<text transform="translate(96,556)" font-size="51" style="fill:rgb(197, 224, 33)">url</text>
+<text transform="translate(675,103)" font-size="49" style="fill:rgb(236, 229, 27)">arg</text>
+<text transform="translate(657,52)" font-size="47" style="fill:rgb(62, 73, 137)">entry</text>
+<text transform="translate(562,387)" font-size="45" style="fill:rgb(72, 23, 105)">match</text>
+<text transform="translate(631,559)" font-size="44" style="fill:rgb(54, 93, 141)">loader</text>
+<text transform="translate(33,712) rotate(-90)" font-size="44" style="fill:rgb(52, 96, 141)">prompt</text>
+<text transform="translate(200,558)" font-size="44" style="fill:rgb(72, 35, 116)">state</text>
+<text transform="translate(331,559)" font-size="44" style="fill:rgb(184, 222, 41)">method</text>
+<text transform="translate(260,32)" font-size="44" style="fill:rgb(31, 152, 139)">text</text>
+<text transform="translate(608,684)" font-size="44" style="fill:rgb(117, 208, 84)">client</text>
+<text transform="translate(448,627)" font-size="43" style="fill:rgb(176, 221, 47)">key</text>
+<text transform="translate(643,590)" font-size="41" style="fill:rgb(39, 128, 142)">mode</text>
+<text transform="translate(692,163)" font-size="40" style="fill:rgb(69, 53, 129)">json</text>
+<text transform="translate(26,31)" font-size="40" style="fill:rgb(72, 193, 110)">session</text>
+<text transform="translate(434,22)" font-size="39" style="fill:rgb(45, 113, 142)">response</text>
+<text transform="translate(362,211) rotate(-90)" font-size="39" style="fill:rgb(149, 216, 64)">export</text>
+<text transform="translate(787,526) rotate(-90)" font-size="39" style="fill:rgb(31, 152, 139)">matches</text>
+<text transform="translate(298,791)" font-size="29" style="fill:rgb(32, 163, 134)">directory</text>
+<text transform="translate(620,74)" font-size="29" style="fill:rgb(64, 69, 136)">location</text>
+<text transform="translate(684,496)" font-size="29" style="fill:rgb(31, 161, 135)">enc</text>
+<text transform="translate(4,162)" font-size="29" style="fill:rgb(48, 105, 142)">resolved</text>
+<text transform="translate(85,527)" font-size="28" style="fill:rgb(65, 68, 135)">ctx</text>
+<text transform="translate(179,795)" font-size="28" style="fill:rgb(181, 222, 43)">header</text>
+<text transform="translate(84,480)" font-size="28" style="fill:rgb(52, 96, 141)">load</text>
+<text transform="translate(504,516) rotate(-90)" font-size="28" style="fill:rgb(45, 113, 142)">stream</text>
+<text transform="translate(133,691)" font-size="28" style="fill:rgb(108, 205, 90)">params</text>
+<text transform="translate(607,112)" font-size="28" style="fill:rgb(37, 171, 130)">code</text>
+<text transform="translate(513,201)" font-size="28" style="fill:rgb(32, 147, 140)">environment</text>
+<text transform="translate(678,745)" font-size="28" style="fill:rgb(71, 16, 99)">express</text>
+<text transform="translate(383,698)" font-size="28" style="fill:rgb(253, 231, 37)">enabled</text>
+<text transform="translate(479,525) rotate(-90)" font-size="28" style="fill:rgb(31, 151, 139)">declaration</text>
+<text transform="translate(627,569) rotate(-90)" font-size="28" style="fill:rgb(58, 186, 118)">index</text>
+<text transform="translate(1,792)" font-size="24" style="fill:rgb(54, 92, 141)">typescript</text>
+<text transform="translate(500,288)" font-size="24" style="fill:rgb(71, 19, 101)">default</text>
+<text transform="translate(515,750)" font-size="24" style="fill:rgb(38, 130, 142)">storage</text>
+<text transform="translate(327,530) rotate(-90)" font-size="24" style="fill:rgb(43, 117, 142)">expression</text>
+<text transform="translate(84,496)" font-size="24" style="fill:rgb(36, 134, 142)">process</text>
+<text transform="translate(67,661)" font-size="24" style="fill:rgb(61, 77, 138)">global</text>
+<text transform="translate(19,75) rotate(-90)" font-size="24" style="fill:rgb(50, 101, 142)">env</text>
+<text transform="translate(52,83)" font-size="24" style="fill:rgb(54, 93, 141)">style</text>
+<text transform="translate(538,474)" font-size="24" style="fill:rgb(53, 95, 141)">color</text>
+<text transform="translate(75,605)" font-size="24" style="fill:rgb(33, 144, 141)">chunk</text>
+<text transform="translate(382,308) rotate(-90)" font-size="24" style="fill:rgb(139, 214, 70)">prerender</text>
+<text transform="translate(216,154)" font-size="24" style="fill:rgb(124, 210, 80)">history</text>
+<text transform="translate(193,639)" font-size="24" style="fill:rgb(37, 172, 130)">fetch</text>
+<text transform="translate(99,438)" font-size="24" style="fill:rgb(56, 185, 119)">cookie</text>
+<text transform="translate(106,456)" font-size="24" style="fill:rgb(68, 191, 112)">root</text>
+<text transform="translate(486,357)" font-size="24" style="fill:rgb(68, 1, 84)">basename</text>
+<text transform="translate(731,22)" font-size="23" style="fill:rgb(244, 230, 30)">meta</text>
+<text transform="translate(407,207)" font-size="23" style="fill:rgb(49, 181, 123)">resolve</text>
+<text transform="translate(791,659) rotate(-90)" font-size="23" style="fill:rgb(32, 147, 140)">bright</text>
+<text transform="translate(514,552) rotate(-90)" font-size="23" style="fill:rgb(55, 90, 140)">bg</text>
+<text transform="translate(623,131)" font-size="23" style="fill:rgb(68, 2, 86)">redirect</text>
+<text transform="translate(410,494) rotate(-90)" font-size="23" style="fill:rgb(147, 215, 65)">select</text>
+<text transform="translate(104,630)" font-size="23" style="fill:rgb(62, 74, 137)">git</text>
+<text transform="translate(15,193)" font-size="23" style="fill:rgb(90, 200, 100)">lazy</text>
+<text transform="translate(442,381) rotate(-90)" font-size="23" style="fill:rgb(50, 100, 142)">middleware</text>
+<text transform="translate(632,23)" font-size="23" style="fill:rgb(33, 145, 140)">handle</text>
+<text transform="translate(551,450)" font-size="23" style="fill:rgb(37, 132, 142)">asset</text>
+<text transform="translate(63,131)" font-size="23" style="fill:rgb(31, 154, 138)">init</text>
+<text transform="translate(576,148) rotate(-90)" font-size="23" style="fill:rgb(59, 187, 117)">typecheck</text>
+<text transform="translate(259,374)" font-size="23" style="fill:rgb(70, 192, 111)">hub</text>
+<text transform="translate(380,682) rotate(-90)" font-size="23" style="fill:rgb(165, 219, 54)">strategy</text>
+<text transform="translate(36,690)" font-size="23" style="fill:rgb(52, 97, 141)">promise</text>
+<text transform="translate(713,195)" font-size="23" style="fill:rgb(58, 186, 118)">status</text>
+<text transform="translate(535,430)" font-size="23" style="fill:rgb(244, 230, 30)">choice</text>
+<text transform="translate(450,137) rotate(-90)" font-size="23" style="fill:rgb(53, 94, 141)">pathname</text>
+<text transform="translate(388,500) rotate(-90)" font-size="23" style="fill:rgb(241, 229, 29)">children</text>
+<text transform="translate(457,791)" font-size="23" style="fill:rgb(74, 193, 109)">cache</text>
+<text transform="translate(705,391)" font-size="23" style="fill:rgb(40, 125, 142)">info</text>
+<text transform="translate(236,130) rotate(-90)" font-size="23" style="fill:rgb(72, 20, 103)">writable</text>
+<text transform="translate(252,603)" font-size="23" style="fill:rgb(32, 147, 140)">future</text>
+<text transform="translate(609,351)" font-size="18" style="fill:rgb(38, 130, 142)">annotation</text>
+<text transform="translate(500,687)" font-size="18" style="fill:rgb(38, 130, 142)">revalidate</text>
+<text transform="translate(2,749)" font-size="18" style="fill:rgb(213, 226, 26)">import</text>
+<text transform="translate(74,558)" font-size="18" style="fill:rgb(59, 187, 117)">fs</text>
+<text transform="translate(48,108)" font-size="18" style="fill:rgb(57, 85, 140)">modules</text>
+<text transform="translate(272,102)" font-size="18" style="fill:rgb(176, 221, 47)">rsc</text>
+<text transform="translate(574,551)" font-size="18" style="fill:rgb(31, 150, 139)">map</text>
+<text transform="translate(160,303) rotate(-90)" font-size="18" style="fill:rgb(70, 192, 111)">platform</text>
+<text transform="translate(460,597)" font-size="18" style="fill:rgb(35, 138, 141)">fetcher</text>
+<text transform="translate(604,141)" font-size="18" style="fill:rgb(189, 223, 38)">proxy</text>
+<text transform="translate(6,767)" font-size="18" style="fill:rgb(200, 224, 32)">string</text>
+<text transform="translate(244,492) rotate(-90)" font-size="18" style="fill:rgb(78, 195, 107)">pattern</text>
+<text transform="translate(743,136)" font-size="17" style="fill:rgb(72, 31, 112)">serve</text>
+<text transform="translate(298,757) rotate(-90)" font-size="17" style="fill:rgb(37, 172, 130)">template</text>
+<text transform="translate(486,103)" font-size="17" style="fill:rgb(72, 28, 110)">hydrate</text>
+<text transform="translate(250,389)" font-size="17" style="fill:rgb(32, 146, 140)">decode</text>
+<text transform="translate(280,298) rotate(-90)" font-size="17" style="fill:rgb(165, 219, 54)">body</text>
+<text transform="translate(733,282)" font-size="17" style="fill:rgb(72, 36, 117)">parent</text>
+<text transform="translate(662,477)" font-size="17" style="fill:rgb(71, 19, 101)">statement</text>
+<text transform="translate(596,401)" font-size="17" style="fill:rgb(38, 129, 142)">tsup</text>
+<text transform="translate(564,633)" font-size="17" style="fill:rgb(251, 231, 35)">ssr</text>
+<text transform="translate(489,297) rotate(-90)" font-size="17" style="fill:rgb(213, 226, 26)">boundary</text>
+<text transform="translate(445,649)" font-size="17" style="fill:rgb(33, 144, 141)">babel</text>
+<text transform="translate(491,674)" font-size="17" style="fill:rgb(54, 93, 141)">flash</text>
+<text transform="translate(115,509)" font-size="17" style="fill:rgb(202, 225, 31)">define</text>
+<text transform="translate(261,315) rotate(-90)" font-size="17" style="fill:rgb(31, 154, 138)">properties</text>
+<text transform="translate(496,654)" font-size="17" style="fill:rgb(34, 141, 141)">base</text>
+<text transform="translate(9,214)" font-size="17" style="fill:rgb(157, 217, 59)">normalize</text>
+<text transform="translate(339,210) rotate(-90)" font-size="17" style="fill:rgb(71, 14, 97)">fallback</text>
+<text transform="translate(355,757) rotate(-90)" font-size="17" style="fill:rgb(47, 180, 124)">generate</text>
+<text transform="translate(536,494)" font-size="17" style="fill:rgb(45, 112, 142)">literal</text>
+<text transform="translate(713,173)" font-size="13" style="fill:rgb(44, 115, 142)">navigation</text>
+<text transform="translate(170,249)" font-size="13" style="fill:rgb(72, 32, 113)">gateway</text>
+<text transform="translate(618,86)" font-size="13" style="fill:rgb(84, 197, 104)">release</text>
+<text transform="translate(379,147)" font-size="13" style="fill:rgb(39, 173, 129)">validate</text>
+<text transform="translate(153,77)" font-size="13" style="fill:rgb(37, 133, 142)">dist</text>
+<text transform="translate(4,729)" font-size="13" style="fill:rgb(32, 146, 140)">uploader</text>
+<text transform="translate(169,396)" font-size="13" style="fill:rgb(30, 155, 138)">submit</text>
+<text transform="translate(151,379) rotate(-90)" font-size="13" style="fill:rgb(234, 229, 26)">bundle</text>
+<text transform="translate(724,401)" font-size="13" style="fill:rgb(108, 205, 90)">isbot</text>
+<text transform="translate(641,775)" font-size="13" style="fill:rgb(45, 178, 125)">app</text>
+<text transform="translate(463,148)" font-size="13" style="fill:rgb(32, 164, 134)">relative</text>
+<text transform="translate(786,798) rotate(-90)" font-size="13" style="fill:rgb(35, 138, 141)">href</text>
+<text transform="translate(212,13)" font-size="13" style="fill:rgb(186, 222, 40)">around</text>
+<text transform="translate(567,588)" font-size="13" style="fill:rgb(144, 215, 67)">serialize</text>
+<text transform="translate(10,172)" font-size="13" style="fill:rgb(34, 140, 141)">cloudflare</text>
+<text transform="translate(720,755)" font-size="13" style="fill:rgb(108, 205, 90)">framework</text>
+<text transform="translate(169,178)" font-size="13" style="fill:rgb(112, 207, 87)">dir</text>
+<text transform="translate(584,783)" font-size="13" style="fill:rgb(37, 132, 142)">sync</text>
+<text transform="translate(697,367)" font-size="13" style="fill:rgb(38, 130, 142)">property</text>
+<text transform="translate(14,535) rotate(-90)" font-size="13" style="fill:rgb(30, 156, 137)">transition</text>
+<text transform="translate(11,330) rotate(-90)" font-size="13" style="fill:rgb(108, 205, 90)">descriptor</text>
+<text transform="translate(673,318)" font-size="13" style="fill:rgb(213, 226, 26)">remix</text>
+<text transform="translate(655,443)" font-size="13" style="fill:rgb(31, 161, 135)">eslint</text>
+<text transform="translate(268,71)" font-size="13" style="fill:rgb(244, 230, 30)">jest</text>
+<text transform="translate(100,671)" font-size="13" style="fill:rgb(71, 44, 122)">tsconfig</text>
+<text transform="translate(357,569)" font-size="13" style="fill:rgb(32, 163, 134)">extract</text>
+<text transform="translate(387,361)" font-size="13" style="fill:rgb(115, 208, 86)">user</text>
+<text transform="translate(623,639)" font-size="13" style="fill:rgb(74, 193, 109)">case</text>
+<text transform="translate(229,389) rotate(-90)" font-size="13" style="fill:rgb(184, 222, 41)">discovery</text>
+<text transform="translate(798,107) rotate(-90)" font-size="13" style="fill:rgb(41, 123, 142)">blocker</text>
+<text transform="translate(798,491) rotate(-90)" font-size="13" style="fill:rgb(52, 96, 141)">instrumentation</text>
+<text transform="translate(607,283)" font-size="13" style="fill:rgb(44, 113, 142)">content</text>
+<text transform="translate(17,144)" font-size="13" style="fill:rgb(57, 86, 140)">render</text>
+<text transform="translate(586,415)" font-size="13" style="fill:rgb(244, 230, 30)">cursor</text>
+<text transform="translate(28,383)" font-size="13" style="fill:rgb(33, 145, 140)">prefix</text>
+<text transform="translate(64,62)" font-size="13" style="fill:rgb(31, 161, 135)">metadata</text>
+<text transform="translate(142,760) rotate(-90)" font-size="13" style="fill:rgb(38, 130, 142)">navigate</text>
+<text transform="translate(326,283)" font-size="13" style="fill:rgb(33, 142, 141)">parse</text>
+<text transform="translate(324,261)" font-size="13" style="fill:rgb(103, 204, 92)">copy</text>
+<text transform="translate(396,62)" font-size="13" style="fill:rgb(239, 229, 28)">repo</text>
+<text transform="translate(1,554)" font-size="13" style="fill:rgb(46, 109, 142)">transform</text>
+<text transform="translate(494,561)" font-size="13" style="fill:rgb(38, 129, 142)">reset</text>
+<text transform="translate(90,143)" font-size="13" style="fill:rgb(36, 134, 142)">write</text>
+<text transform="translate(425,308) rotate(-90)" font-size="13" style="fill:rgb(48, 105, 142)">reference</text>
+<text transform="translate(456,503) rotate(-90)" font-size="13" style="fill:rgb(38, 173, 129)">invariant</text>
+<text transform="translate(711,601)" font-size="13" style="fill:rgb(168, 219, 52)">preview</text>
+<text transform="translate(577,31)" font-size="13" style="fill:rgb(70, 11, 94)">source</text>
+<text transform="translate(395,681) rotate(-90)" font-size="13" style="fill:rgb(184, 222, 41)">constructor</text>
+<text transform="translate(739,576)" font-size="13" style="fill:rgb(70, 8, 92)">virtual</text>
+<text transform="translate(251,348)" font-size="13" style="fill:rgb(53, 94, 141)">single</text>
+<text transform="translate(260,497) rotate(-90)" font-size="13" style="fill:rgb(108, 205, 90)">playground</text>
+<text transform="translate(91,743)" font-size="13" style="fill:rgb(71, 13, 96)">log</text>
+<text transform="translate(219,773) rotate(-90)" font-size="13" style="fill:rgb(31, 161, 136)">entries</text>
+<text transform="translate(233,681)" font-size="13" style="fill:rgb(39, 127, 142)">buffer</text>
+<text transform="translate(50,700)" font-size="13" style="fill:rgb(38, 130, 142)">read</text>
+<text transform="translate(738,125)" font-size="13" style="fill:rgb(52, 182, 121)">confirm</text>
+<text transform="translate(751,248)" font-size="13" style="fill:rgb(34, 168, 132)">opts</text>
+<text transform="translate(82,259)" font-size="13" style="fill:rgb(41, 175, 127)">label</text>
+<text transform="translate(546,504)" font-size="13" style="fill:rgb(66, 190, 113)">initial</text>
+<text transform="translate(202,650)" font-size="13" style="fill:rgb(63, 188, 115)">next</text>
+<text transform="translate(492,69)" font-size="13" style="fill:rgb(88, 199, 101)">deps</text>
+<text transform="translate(297,291) rotate(-90)" font-size="13" style="fill:rgb(162, 218, 55)">keyword</text>
+<text transform="translate(723,253) rotate(-90)" font-size="13" style="fill:rgb(60, 79, 138)">replace</text>
+<text transform="translate(320,240)" font-size="13" style="fill:rgb(61, 188, 116)">encode</text>
+<text transform="translate(418,191)" font-size="13" style="fill:rgb(67, 61, 132)">links</text>
+<text transform="translate(573,535)" font-size="13" style="fill:rgb(70, 52, 128)">page</text>
+<text transform="translate(682,110)" font-size="13" style="fill:rgb(32, 147, 140)">errors</text>
+<text transform="translate(728,306)" font-size="13" style="fill:rgb(84, 197, 104)">run</text>
+<text transform="translate(155,99)" font-size="13" style="fill:rgb(139, 214, 70)">table</text>
+<text transform="translate(421,473) rotate(-90)" font-size="13" style="fill:rgb(34, 141, 141)">readable</text>
+<text transform="translate(563,644)" font-size="13" style="fill:rgb(31, 150, 139)">valid</text>
+<text transform="translate(372,131) rotate(-90)" font-size="13" style="fill:rgb(72, 193, 110)">sensitive</text>
+<text transform="translate(460,112) rotate(-90)" font-size="13" style="fill:rgb(69, 4, 87)">identifier</text>
+<text transform="translate(452,310) rotate(-90)" font-size="13" style="fill:rgb(54, 93, 141)">variable</text>
+<text transform="translate(66,615)" font-size="13" style="fill:rgb(44, 114, 142)">version</text>
+<text transform="translate(396,391)" font-size="10" style="fill:rgb(72, 33, 115)">integration</text>
+<text transform="translate(141,208) rotate(-90)" font-size="10" style="fill:rgb(32, 147, 140)">update</text>
+<text transform="translate(327,58)" font-size="10" style="fill:rgb(42, 176, 127)">multi</text>
+<text transform="translate(364,174)" font-size="10" style="fill:rgb(122, 209, 81)">search</text>
+<text transform="translate(396,399)" font-size="10" style="fill:rgb(47, 108, 142)">red</text>
+<text transform="translate(18,468)" font-size="10" style="fill:rgb(52, 97, 141)">browser</text>
+<text transform="translate(395,13)" font-size="10" style="fill:rgb(72, 32, 113)">warning</text>
+<text transform="translate(179,601)" font-size="10" style="fill:rgb(78, 195, 107)">current</text>
+<text transform="translate(140,8)" font-size="10" style="fill:rgb(31, 162, 135)">submission</text>
+<text transform="translate(323,293)" font-size="10" style="fill:rgb(115, 208, 86)">island</text>
+<text transform="translate(363,367) rotate(-90)" font-size="10" style="fill:rgb(68, 58, 131)">semver</text>
+<text transform="translate(753,674)" font-size="10" style="fill:rgb(70, 11, 94)">format</text>
+<text transform="translate(463,634)" font-size="10" style="fill:rgb(149, 216, 64)">branch</text>
+<text transform="translate(334,449) rotate(-90)" font-size="10" style="fill:rgb(35, 169, 131)">compression</text>
+<text transform="translate(668,634)" font-size="10" style="fill:rgb(90, 200, 100)">strip</text>
+<text transform="translate(646,736)" font-size="10" style="fill:rgb(66, 190, 113)">maybe</text>
+<text transform="translate(175,528)" font-size="10" style="fill:rgb(241, 229, 29)">tarball</text>
+<text transform="translate(55,531)" font-size="10" style="fill:rgb(31, 154, 138)">hint</text>
+<text transform="translate(267,56)" font-size="10" style="fill:rgb(168, 219, 52)">green</text>
+<text transform="translate(509,110)" font-size="10" style="fill:rgb(45, 113, 142)">optional</text>
+<text transform="translate(333,67)" font-size="10" style="fill:rgb(239, 229, 28)">graph</text>
+<text transform="translate(332,250)" font-size="10" style="fill:rgb(82, 197, 105)">skip</text>
+<text transform="translate(613,146)" font-size="10" style="fill:rgb(58, 83, 139)">array</text>
+<text transform="translate(389,746)" font-size="10" style="fill:rgb(71, 44, 122)">hash</text>
+<text transform="translate(468,214)" font-size="10" style="fill:rgb(129, 211, 77)">class</text>
+<text transform="translate(122,214)" font-size="10" style="fill:rgb(168, 219, 52)">remove</text>
+<text transform="translate(398,77)" font-size="10" style="fill:rgb(86, 198, 103)">utils</text>
+<text transform="translate(399,87)" font-size="10" style="fill:rgb(64, 70, 136)">vitejs</text>
+<text transform="translate(294,529)" font-size="10" style="fill:rgb(42, 119, 142)">spa</text>
+<text transform="translate(49,8)" font-size="10" style="fill:rgb(63, 188, 115)">vanilla</text>
+<text transform="translate(76,365)" font-size="10" style="fill:rgb(241, 229, 29)">adapter</text>
+<text transform="translate(135,318)" font-size="10" style="fill:rgb(42, 120, 142)">worker</text>
+<text transform="translate(119,341)" font-size="10" style="fill:rgb(39, 128, 142)">arc</text>
+<text transform="translate(295,641)" font-size="10" style="fill:rgb(53, 183, 121)">query</text>
+<text transform="translate(419,531)" font-size="10" style="fill:rgb(48, 105, 142)">download</text>
+<text transform="translate(25,122) rotate(-90)" font-size="10" style="fill:rgb(170, 220, 50)">black</text>
+<text transform="translate(379,154)" font-size="10" style="fill:rgb(68, 2, 86)">white</text>
+<text transform="translate(262,197)" font-size="10" style="fill:rgb(57, 86, 140)">blue</text>
+<text transform="translate(170,199)" font-size="10" style="fill:rgb(34, 168, 132)">cyan</text>
+<text transform="translate(610,93)" font-size="10" style="fill:rgb(231, 228, 25)">yellow</text>
+<text transform="translate(3,221)" font-size="10" style="fill:rgb(55, 184, 120)">optimize</text>
+<text transform="translate(680,287)" font-size="10" style="fill:rgb(226, 228, 24)">layout</text>
+<text transform="translate(681,608)" font-size="10" style="fill:rgb(46, 109, 142)">hmr</text>
+<text transform="translate(513,772) rotate(-90)" font-size="10" style="fill:rgb(35, 169, 131)">child</text>
+<text transform="translate(3,201)" font-size="10" style="fill:rgb(58, 186, 118)">compiler</text>
+<text transform="translate(158,403)" font-size="10" style="fill:rgb(54, 93, 141)">external</text>
+<text transform="translate(441,766) rotate(-90)" font-size="10" style="fill:rgb(61, 77, 138)">specifier</text>
+<text transform="translate(796,258) rotate(-90)" font-size="10" style="fill:rgb(231, 228, 25)">declare</text>
+<text transform="translate(462,740)" font-size="10" style="fill:rgb(72, 37, 118)">enum</text>
+<text transform="translate(465,726)" font-size="10" style="fill:rgb(60, 79, 138)">call</text>
+<text transform="translate(638,566)" font-size="10" style="fill:rgb(99, 203, 95)">branches</text>
+<text transform="translate(398,678)" font-size="10" style="fill:rgb(55, 90, 140)">image</text>
+<text transform="translate(451,29)" font-size="10" style="fill:rgb(132, 212, 75)">temporary</text>
+<text transform="translate(90,267)" font-size="10" style="fill:rgb(50, 101, 142)">cross</text>
+<text transform="translate(2,716)" font-size="10" style="fill:rgb(186, 222, 40)">wireit</text>
+<text transform="translate(87,731)" font-size="10" style="fill:rgb(213, 226, 26)">exit</text>
+<text transform="translate(266,84)" font-size="10" style="fill:rgb(46, 110, 142)">shared</text>
+<text transform="translate(670,244)" font-size="10" style="fill:rgb(64, 189, 114)">join</text>
+<text transform="translate(24,257)" font-size="10" style="fill:rgb(30, 157, 137)">find</text>
+<text transform="translate(562,556)" font-size="10" style="fill:rgb(72, 22, 104)">async</text>
+<text transform="translate(130,564)" font-size="10" style="fill:rgb(35, 138, 141)">plugins</text>
+<text transform="translate(239,565)" font-size="10" style="fill:rgb(35, 138, 141)">schema</text>
+<text transform="translate(508,253) rotate(-90)" font-size="10" style="fill:rgb(54, 92, 141)">banner</text>
+<text transform="translate(151,83)" font-size="10" style="fill:rgb(47, 107, 142)">manager</text>
+<text transform="translate(400,118)" font-size="10" style="fill:rgb(56, 89, 140)">fd</text>
+<text transform="translate(619,250) rotate(-90)" font-size="10" style="fill:rgb(62, 74, 137)">exists</text>
+<text transform="translate(336,798)" font-size="10" style="fill:rgb(58, 186, 118)">listener</text>
+<text transform="translate(261,45)" font-size="10" style="fill:rgb(34, 141, 141)">runtime</text>
+<text transform="translate(2,425)" font-size="10" style="fill:rgb(49, 104, 142)">filename</text>
+<text transform="translate(150,106)" font-size="10" style="fill:rgb(170, 220, 50)">preload</text>
+<text transform="translate(159,698)" font-size="10" style="fill:rgb(165, 219, 54)">member</text>
+<text transform="translate(366,734) rotate(-90)" font-size="10" style="fill:rgb(57, 85, 140)">navigator</text>
+<text transform="translate(584,459)" font-size="10" style="fill:rgb(49, 104, 142)">scroll</text>
+<text transform="translate(271,487) rotate(-90)" font-size="10" style="fill:rgb(30, 157, 137)">deprecated</text>
+<text transform="translate(322,272)" font-size="10" style="fill:rgb(32, 146, 140)">legacy</text>
+<text transform="translate(42,673) rotate(-90)" font-size="10" style="fill:rgb(155, 217, 60)">payload</text>
+<text transform="translate(84,285)" font-size="10" style="fill:rgb(59, 81, 139)">preset</text>
+<text transform="translate(496,288) rotate(-90)" font-size="10" style="fill:rgb(32, 146, 140)">javascript</text>
+<text transform="translate(262,304)" font-size="10" style="fill:rgb(71, 19, 101)">agent</text>
+<text transform="translate(284,765)" font-size="10" style="fill:rgb(80, 196, 106)">cf</text>
+<text transform="translate(176,367)" font-size="10" style="fill:rgb(53, 94, 141)">delete</text>
+<text transform="translate(399,53)" font-size="10" style="fill:rgb(72, 40, 120)">non</text>
+<text transform="translate(564,598)" font-size="10" style="fill:rgb(49, 103, 142)">length</text>
+<text transform="translate(26,303)" font-size="10" style="fill:rgb(33, 144, 141)">dest</text>
+<text transform="translate(681,755)" font-size="10" style="fill:rgb(42, 118, 142)">done</text>
+<text transform="translate(631,757)" font-size="10" style="fill:rgb(57, 85, 140)">size</text>
+<text transform="translate(150,479)" font-size="10" style="fill:rgb(71, 19, 101)">local</text>
+<text transform="translate(670,623)" font-size="10" style="fill:rgb(66, 190, 113)">step</text>
+<text transform="translate(244,776)" font-size="10" style="fill:rgb(71, 16, 99)">loading</text>
+<text transform="translate(286,178)" font-size="10" style="fill:rgb(88, 199, 101)">logger</text>
+<text transform="translate(343,387)" font-size="10" style="fill:rgb(41, 123, 142)">symbol</text>
+<text transform="translate(10,774)" font-size="10" style="fill:rgb(208, 225, 28)">pipeline</text>
+<text transform="translate(718,611)" font-size="10" style="fill:rgb(170, 220, 50)">cli</text>
+<text transform="translate(339,533)" font-size="10" style="fill:rgb(43, 116, 142)">absolute</text>
+<text transform="translate(218,161)" font-size="10" style="fill:rgb(31, 154, 138)">interface</text>
+<text transform="translate(251,722)" font-size="10" style="fill:rgb(90, 200, 100)">regex</text>
+<text transform="translate(153,416)" font-size="10" style="fill:rgb(71, 45, 123)">segment</text>
+<text transform="translate(633,608)" font-size="10" style="fill:rgb(122, 209, 81)">re</text>
+<text transform="translate(57,393)" font-size="10" style="fill:rgb(45, 178, 125)">unstable</text>
+<text transform="translate(663,429)" font-size="10" style="fill:rgb(189, 223, 38)">change</text>
+<text transform="translate(457,798)" font-size="10" style="fill:rgb(239, 229, 28)">declarator</text>
+<text transform="translate(480,386)" font-size="10" style="fill:rgb(253, 231, 37)">named</text>
+<text transform="translate(230,768) rotate(-90)" font-size="10" style="fill:rgb(72, 31, 112)">signature</text>
+<text transform="translate(17,395)" font-size="10" style="fill:rgb(33, 165, 133)">patch</text>
+<text transform="translate(626,748)" font-size="10" style="fill:rgb(72, 24, 106)">window</text>
+<text transform="translate(249,734)" font-size="10" style="fill:rgb(72, 31, 112)">memory</text>
+<text transform="translate(174,143)" font-size="10" style="fill:rgb(61, 188, 116)">origin</text>
+<text transform="translate(273,798)" font-size="10" style="fill:rgb(54, 92, 141)">instrument</text>
+<text transform="translate(417,214)" font-size="10" style="fill:rgb(71, 47, 125)">secret</text>
+<text transform="translate(251,610)" font-size="9" style="fill:rgb(200, 224, 32)">typegen</text>
+<text transform="translate(188,588)" font-size="9" style="fill:rgb(36, 135, 142)">watch</text>
+<text transform="translate(674,139)" font-size="9" style="fill:rgb(96, 202, 96)">hooks</text>
+<text transform="translate(685,655)" font-size="9" style="fill:rgb(32, 163, 134)">morgan</text>
+<text transform="translate(155,162)" font-size="9" style="fill:rgb(84, 197, 104)">tester</text>
+<text transform="translate(731,656) rotate(-90)" font-size="9" style="fill:rgb(71, 47, 125)">esbuild</text>
+<text transform="translate(85,274)" font-size="9" style="fill:rgb(236, 229, 27)">support</text>
+<text transform="translate(401,28)" font-size="9" style="fill:rgb(31, 148, 140)">output</text>
+<text transform="translate(634,359)" font-size="9" style="fill:rgb(48, 106, 142)">close</text>
+<text transform="translate(397,101)" font-size="9" style="fill:rgb(30, 155, 138)">github</text>
+<text transform="translate(528,33)" font-size="9" style="fill:rgb(68, 191, 112)">lib</text>
+<text transform="translate(172,151)" font-size="9" style="fill:rgb(56, 88, 140)">escape</text>
+<text transform="translate(449,612) rotate(-90)" font-size="9" style="fill:rgb(52, 97, 141)">level</text>
+<text transform="translate(224,472) rotate(-90)" font-size="9" style="fill:rgb(165, 219, 54)">flatten</text>
+<text transform="translate(746,518)" font-size="9" style="fill:rgb(226, 228, 24)">ids</text>
+<text transform="translate(486,522)" font-size="9" style="fill:rgb(58, 84, 140)">names</text>
+<text transform="translate(748,533)" font-size="9" style="fill:rgb(70, 51, 127)">command</text>
+<text transform="translate(93,697)" font-size="9" style="fill:rgb(66, 65, 134)">boolean</text>
+<text transform="translate(186,288)" font-size="9" style="fill:rgb(47, 107, 142)">comment</text>
+<text transform="translate(4,8)" font-size="9" style="fill:rgb(58, 186, 118)">internal</text>
+<text transform="translate(511,711) rotate(-90)" font-size="9" style="fill:rgb(71, 45, 123)">mask</text>
+<text transform="translate(185,513) rotate(-90)" font-size="9" style="fill:rgb(94, 201, 98)">rel</text>
+<text transform="translate(11,140) rotate(-90)" font-size="9" style="fill:rgb(165, 219, 54)">revalidating</text>
+<text transform="translate(461,763)" font-size="9" style="fill:rgb(71, 13, 96)">cycle</text>
+<text transform="translate(484,365)" font-size="8" style="fill:rgb(71, 16, 99)">mdx</text>
+<text transform="translate(514,546)" font-size="8" style="fill:rgb(39, 128, 142)">remark</text>
+<text transform="translate(552,273) rotate(-90)" font-size="8" style="fill:rgb(42, 118, 142)">picocolors</text>
+<text transform="translate(220,183)" font-size="8" style="fill:rgb(31, 160, 136)">core</text>
+<text transform="translate(343,376)" font-size="8" style="fill:rgb(210, 226, 27)">split</text>
+<text transform="translate(607,574)" font-size="8" style="fill:rgb(65, 68, 135)">webpack</text>
+<text transform="translate(617,625)" font-size="8" style="fill:rgb(62, 74, 137)">mjackson</text>
+<text transform="translate(687,718)" font-size="8" style="fill:rgb(68, 1, 84)">architect</text>
+<text transform="translate(281,167)" font-size="8" style="fill:rgb(63, 72, 137)">generator</text>
+<text transform="translate(25,89) rotate(-90)" font-size="8" style="fill:rgb(72, 37, 118)">namespace</text>
+<text transform="translate(66,623)" font-size="8" style="fill:rgb(213, 226, 26)">binary</text>
+<text transform="translate(604,715)" font-size="8" style="fill:rgb(234, 229, 26)">fn</text>
+<text transform="translate(118,640)" font-size="8" style="fill:rgb(144, 215, 67)">install</text>
+<text transform="translate(577,266) rotate(-90)" font-size="8" style="fill:rgb(71, 46, 124)">dependencies</text>
+<text transform="translate(773,551)" font-size="8" style="fill:rgb(62, 73, 137)">obj</text>
+<text transform="translate(527,712)" font-size="8" style="fill:rgb(45, 112, 142)">stat</text>
+<text transform="translate(167,466)" font-size="8" style="fill:rgb(31, 151, 139)">char</text>
+<text transform="translate(511,323)" font-size="8" style="fill:rgb(71, 13, 96)">slashes</text>
+<text transform="translate(630,30)" font-size="8" style="fill:rgb(31, 160, 136)">dirent</text>
+<text transform="translate(294,208) rotate(-90)" font-size="8" style="fill:rgb(56, 89, 140)">public</text>
+<text transform="translate(27,345)" font-size="8" style="fill:rgb(34, 141, 141)">number</text>
+<text transform="translate(768,86) rotate(-90)" font-size="8" style="fill:rgb(192, 223, 37)">controller</text>
+<text transform="translate(471,679)" font-size="8" style="fill:rgb(36, 134, 142)">post</text>
+<text transform="translate(518,755)" font-size="8" style="fill:rgb(71, 17, 100)">resource</text>
+<text transform="translate(568,613)" font-size="8" style="fill:rgb(53, 183, 121)">flag</text>
+<text transform="translate(650,6)" font-size="8" style="fill:rgb(74, 193, 109)">runner</text>
+<text transform="translate(580,188) rotate(-90)" font-size="8" style="fill:rgb(71, 45, 123)">warn</text>
+<text transform="translate(128,388)" font-size="8" style="fill:rgb(178, 221, 45)">digest</text>
+<text transform="translate(486,473) rotate(-90)" font-size="8" style="fill:rgb(31, 161, 136)">revalidation</text>
+<text transform="translate(55,541)" font-size="8" style="fill:rgb(71, 46, 124)">critical</text>
+<text transform="translate(265,313)" font-size="8" style="fill:rgb(124, 210, 80)">document</text>
+<text transform="translate(250,750)" font-size="8" style="fill:rgb(44, 177, 126)">pending</text>
+<text transform="translate(471,185)" font-size="8" style="fill:rgb(31, 154, 138)">target</text>
+<text transform="translate(421,628)" font-size="7" style="fill:rgb(37, 133, 142)">rollup</text>
+<text transform="translate(305,693)" font-size="7" style="fill:rgb(38, 129, 142)">prettier</text>
+<text transform="translate(529,265) rotate(-90)" font-size="7" style="fill:rgb(70, 10, 93)">parser</text>
+<text transform="translate(241,572)" font-size="7" style="fill:rgb(157, 217, 59)">wrangler</text>
+<text transform="translate(31,734)" font-size="7" style="fill:rgb(71, 16, 99)">custom</text>
+<text transform="translate(574,652)" font-size="7" style="fill:rgb(56, 185, 119)">readdir</text>
+<text transform="translate(395,734)" font-size="7" style="fill:rgb(72, 40, 120)">port</text>
+<text transform="translate(119,128)" font-size="7" style="fill:rgb(48, 106, 142)">wait</text>
+<text transform="translate(562,481)" font-size="7" style="fill:rgb(88, 199, 101)">incoming</text>
+<text transform="translate(332,298)" font-size="7" style="fill:rgb(132, 212, 75)">tests</text>
+<text transform="translate(164,740)" font-size="7" style="fill:rgb(69, 5, 89)">msg</text>
+<text transform="translate(748,583)" font-size="7" style="fill:rgb(34, 167, 133)">clear</text>
+<text transform="translate(632,270)" font-size="7" style="fill:rgb(37, 132, 142)">project</text>
+<text transform="translate(47,560)" font-size="7" style="fill:rgb(110, 206, 88)">union</text>
+<text transform="translate(163,260)" font-size="7" style="fill:rgb(60, 80, 139)">hex</text>
+<text transform="translate(160,215)" font-size="7" style="fill:rgb(160, 218, 57)">frame</text>
+<text transform="translate(743,533) rotate(-90)" font-size="7" style="fill:rgb(173, 220, 48)">success</text>
+<text transform="translate(764,93)" font-size="7" style="fill:rgb(35, 138, 141)">line</text>
+<text transform="translate(102,37)" font-size="7" style="fill:rgb(30, 156, 137)">protocol</text>
+<text transform="translate(244,656)" font-size="7" style="fill:rgb(248, 230, 33)">destroy</text>
+<text transform="translate(674,230)" font-size="7" style="fill:rgb(170, 220, 50)">high</text>
+<text transform="translate(752,437) rotate(-90)" font-size="7" style="fill:rgb(160, 218, 57)">water</text>
+<text transform="translate(162,775)" font-size="7" style="fill:rgb(40, 125, 142)">mark</text>
+<text transform="translate(479,372)" font-size="7" style="fill:rgb(42, 118, 142)">trailing</text>
+<text transform="translate(572,325) rotate(-90)" font-size="7" style="fill:rgb(31, 158, 137)">empty</text>
+<text transform="translate(254,698)" font-size="7" style="fill:rgb(165, 219, 54)">watcher</text>
+<text transform="translate(334,491) rotate(-90)" font-size="7" style="fill:rgb(32, 147, 140)">resolver</text>
+<text transform="translate(108,422)" font-size="7" style="fill:rgb(46, 179, 124)">allowed</text>
+<text transform="translate(720,265)" font-size="7" style="fill:rgb(39, 127, 142)">err</text>
+<text transform="translate(249,667)" font-size="7" style="fill:rgb(40, 174, 128)">chunked</text>
+<text transform="translate(105,44)" font-size="7" style="fill:rgb(34, 167, 133)">dynamic</text>
+<text transform="translate(188,297)" font-size="7" style="fill:rgb(44, 113, 142)">detect</text>
+<text transform="translate(633,786)" font-size="7" style="fill:rgb(69, 5, 89)">wrapped</text>
+<text transform="translate(65,637)" font-size="7" style="fill:rgb(30, 156, 137)">configure</text>
+<text transform="translate(522,307)" font-size="7" style="fill:rgb(34, 140, 141)">side</text>
+<text transform="translate(268,236)" font-size="7" style="fill:rgb(36, 170, 131)">rest</text>
+<text transform="translate(127,580)" font-size="7" style="fill:rgb(36, 134, 142)">handoff</text>
+<text transform="translate(316,743) rotate(-90)" font-size="7" style="fill:rgb(31, 152, 139)">matcher</text>
+<text transform="translate(379,163)" font-size="7" style="fill:rgb(181, 222, 43)">expires</text>
+<text transform="translate(522,533)" font-size="7" style="fill:rgb(49, 104, 142)">signal</text>
+<text transform="translate(681,357)" font-size="7" style="fill:rgb(70, 10, 93)">mutation</text>
+<text transform="translate(652,259) rotate(-90)" font-size="7" style="fill:rgb(80, 196, 106)">unsupported</text>
+<text transform="translate(23,354)" font-size="7" style="fill:rgb(244, 230, 30)">patches</text>
+<text transform="translate(28,442)" font-size="7" style="fill:rgb(49, 181, 123)">results</text>
+<text transform="translate(684,164)" font-size="6" style="fill:rgb(41, 123, 142)">sort</text>
+<text transform="translate(340,521) rotate(-90)" font-size="6" style="fill:rgb(221, 227, 24)">add</text>
+<text transform="translate(402,366)" font-size="6" style="fill:rgb(86, 198, 103)">clean</text>
+<text transform="translate(676,760)" font-size="6" style="fill:rgb(72, 35, 116)">execa</text>
+<text transform="translate(67,196)" font-size="6" style="fill:rgb(44, 113, 142)">register</text>
+<text transform="translate(734,412)" font-size="6" style="fill:rgb(32, 147, 140)">traverse</text>
+<text transform="translate(764,101)" font-size="6" style="fill:rgb(46, 109, 142)">pass</text>
+<text transform="translate(679,323)" font-size="6" style="fill:rgb(34, 167, 133)">crypto</text>
+<text transform="translate(489,579)" font-size="6" style="fill:rgb(31, 161, 136)">domain</text>
+<text transform="translate(343,725) rotate(-90)" font-size="6" style="fill:rgb(38, 129, 142)">host</text>
+<text transform="translate(649,531)" font-size="6" style="fill:rgb(142, 214, 69)">structured</text>
+<text transform="translate(538,732)" font-size="6" style="fill:rgb(47, 107, 142)">equal</text>
+<text transform="translate(766,178)" font-size="6" style="fill:rgb(66, 190, 113)">question</text>
+<text transform="translate(797,656) rotate(-90)" font-size="6" style="fill:rgb(35, 138, 141)">answer</text>
+<text transform="translate(512,583)" font-size="6" style="fill:rgb(55, 90, 140)">first</text>
+<text transform="translate(164,726)" font-size="6" style="fill:rgb(108, 205, 90)">timeout</text>
+<text transform="translate(358,313)" font-size="6" style="fill:rgb(34, 140, 141)">stdin</text>
+<text transform="translate(678,503)" font-size="6" style="fill:rgb(31, 162, 135)">stdout</text>
+<text transform="translate(162,542) rotate(-90)" font-size="6" style="fill:rgb(50, 100, 142)">abort</text>
+<text transform="translate(613,323)" font-size="6" style="fill:rgb(51, 99, 141)">move</text>
+<text transform="translate(19,670)" font-size="6" style="fill:rgb(129, 211, 77)">last</text>
+<text transform="translate(168,189)" font-size="6" style="fill:rgb(69, 55, 129)">indicator</text>
+<text transform="translate(769,200)" font-size="6" style="fill:rgb(49, 181, 123)">argv</text>
+<text transform="translate(659,335) rotate(-90)" font-size="6" style="fill:rgb(202, 225, 31)">mkdir</text>
+<text transform="translate(796,523) rotate(-90)" font-size="6" style="fill:rgb(66, 63, 133)">filter</text>
+<text transform="translate(321,631)" font-size="6" style="fill:rgb(186, 222, 40)">flat</text>
+<text transform="translate(686,302)" font-size="6" style="fill:rgb(64, 69, 136)">dirname</text>
+<text transform="translate(26,577)" font-size="6" style="fill:rgb(32, 164, 134)">req</text>
+<text transform="translate(194,254)" font-size="6" style="fill:rgb(42, 176, 127)">flush</text>
+<text transform="translate(713,136)" font-size="6" style="fill:rgb(96, 202, 96)">monitor</text>
+<text transform="translate(562,620)" font-size="6" style="fill:rgb(236, 229, 27)">concurrency</text>
+<text transform="translate(196,23)" font-size="6" style="fill:rgb(44, 114, 142)">max</text>
+<text transform="translate(768,608)" font-size="6" style="fill:rgb(49, 103, 142)">ok</text>
+<text transform="translate(735,485)" font-size="6" style="fill:rgb(31, 149, 139)">exported</text>
+<text transform="translate(565,205)" font-size="6" style="fill:rgb(72, 27, 109)">merge</text>
+<text transform="translate(494,56)" font-size="6" style="fill:rgb(35, 138, 141)">assert</text>
+<text transform="translate(101,505)" font-size="6" style="fill:rgb(90, 200, 100)">ast</text>
+<text transform="translate(77,797)" font-size="6" style="fill:rgb(218, 227, 25)">invalidate</text>
+<text transform="translate(179,534)" font-size="6" style="fill:rgb(59, 81, 139)">inject</text>
+<text transform="translate(540,38)" font-size="6" style="fill:rgb(47, 180, 124)">main</text>
+<text transform="translate(300,652)" font-size="6" style="fill:rgb(234, 229, 26)">connect</text>
+<text transform="translate(104,461)" font-size="6" style="fill:rgb(71, 17, 100)">container</text>
+<text transform="translate(719,357)" font-size="6" style="fill:rgb(31, 151, 139)">reload</text>
+<text transform="translate(746,707)" font-size="6" style="fill:rgb(208, 225, 28)">await</text>
+<text transform="translate(522,724)" font-size="6" style="fill:rgb(173, 220, 48)">tuple</text>
+<text transform="translate(227,498)" font-size="6" style="fill:rgb(32, 147, 140)">spread</text>
+<text transform="translate(252,581)" font-size="6" style="fill:rgb(99, 203, 95)">program</text>
+<text transform="translate(646,307) rotate(-90)" font-size="6" style="fill:rgb(178, 221, 45)">enable</text>
+<text transform="translate(611,657)" font-size="6" style="fill:rgb(41, 121, 142)">outlet</text>
+<text transform="translate(388,796)" font-size="6" style="fill:rgb(34, 140, 141)">deferred</text>
+<text transform="translate(525,140)" font-size="6" style="fill:rgb(68, 2, 86)">blocked</text>
+<text transform="translate(58,776)" font-size="6" style="fill:rgb(72, 193, 110)">unblocked</text>
+<text transform="translate(92,6)" font-size="6" style="fill:rgb(173, 220, 48)">proceeding</text>
+<text transform="translate(94,91)" font-size="6" style="fill:rgb(71, 17, 100)">tracked</text>
+<text transform="translate(47,89)" font-size="6" style="fill:rgb(50, 182, 122)">hydration</text>
+<text transform="translate(559,136) rotate(-90)" font-size="6" style="fill:rgb(38, 130, 142)">proceed</text>
+<text transform="translate(365,20)" font-size="6" style="fill:rgb(34, 141, 141)">ld</text>
+<text transform="translate(190,238)" font-size="6" style="fill:rgb(72, 29, 111)">script</text>
+<text transform="translate(450,126)" font-size="6" style="fill:rgb(45, 178, 125)">reply</text>
+<text transform="translate(68,673)" font-size="6" style="fill:rgb(40, 124, 142)">scoped</text>
+<text transform="translate(27,262)" font-size="6" style="fill:rgb(63, 72, 137)">convert</text>
+<text transform="translate(534,341)" font-size="6" style="fill:rgb(84, 197, 104)">effect</text>
+<text transform="translate(418,168)" font-size="6" style="fill:rgb(38, 173, 129)">turbo</text>
+<text transform="translate(496,271)" font-size="5" style="fill:rgb(234, 229, 26)">glob</text>
+<text transform="translate(456,772)" font-size="5" style="fill:rgb(205, 225, 29)">frontmatter</text>
+<text transform="translate(542,370)" font-size="5" style="fill:rgb(72, 28, 110)">ansi</text>
+<text transform="translate(658,90)" font-size="5" style="fill:rgb(33, 165, 133)">gunzip</text>
+<text transform="translate(232,211)" font-size="5" style="fill:rgb(31, 159, 136)">tar</text>
+<text transform="translate(524,617)" font-size="5" style="fill:rgb(72, 32, 113)">jsesc</text>
+<text transform="translate(286,5)" font-size="5" style="fill:rgb(70, 50, 126)">dedent</text>
+<text transform="translate(299,184)" font-size="5" style="fill:rgb(36, 135, 142)">pkg</text>
+<text transform="translate(562,602)" font-size="5" style="fill:rgb(31, 159, 136)">values</text>
+<text transform="translate(369,700)" font-size="5" style="fill:rgb(42, 118, 142)">raw</text>
+<text transform="translate(667,640)" font-size="5" style="fill:rgb(226, 228, 24)">restore</text>
+<text transform="translate(774,111)" font-size="5" style="fill:rgb(122, 209, 81)">closed</text>
+<text transform="translate(279,394)" font-size="5" style="fill:rgb(30, 155, 138)">debug</text>
+<text transform="translate(742,452)" font-size="5" style="fill:rgb(67, 62, 133)">token</text>
+<text transform="translate(614,76) rotate(-90)" font-size="5" style="fill:rgb(223, 227, 24)">events</text>
+<text transform="translate(142,156)" font-size="5" style="fill:rgb(168, 219, 52)">cwd</text>
+<text transform="translate(748,787)" font-size="5" style="fill:rgb(58, 186, 118)">arr</text>
+<text transform="translate(501,215) rotate(-90)" font-size="5" style="fill:rgb(72, 37, 118)">os</text>
+<text transform="translate(687,331)" font-size="5" style="fill:rgb(157, 217, 59)">posix</text>
+<text transform="translate(263,244)" font-size="5" style="fill:rgb(94, 201, 98)">ignored</text>
+<text transform="translate(748,637)" font-size="5" style="fill:rgb(52, 96, 141)">filepath</text>
+<text transform="translate(27,532)" font-size="5" style="fill:rgb(194, 223, 35)">esm</text>
+<text transform="translate(310,586)" font-size="5" style="fill:rgb(57, 85, 140)">original</text>
+<text transform="translate(698,5)" font-size="5" style="fill:rgb(33, 144, 141)">throw</text>
+<text transform="translate(716,342)" font-size="5" style="fill:rgb(39, 126, 142)">extension</text>
+<text transform="translate(54,175)" font-size="5" style="fill:rgb(41, 121, 142)">sourcemap</text>
+<text transform="translate(777,680)" font-size="5" style="fill:rgb(60, 79, 138)">changed</text>
+<text transform="translate(319,322)" font-size="5" style="fill:rgb(197, 224, 33)">omit</text>
+<text transform="translate(205,696)" font-size="5" style="fill:rgb(67, 62, 133)">dependency</text>
+<text transform="translate(291,212)" font-size="5" style="fill:rgb(31, 154, 138)">top</text>
+<text transform="translate(735,497)" font-size="5" style="fill:rgb(55, 90, 140)">rolldown</text>
+<text transform="translate(540,603) rotate(-90)" font-size="5" style="fill:rgb(137, 213, 72)">invalid</text>
+<text transform="translate(703,688)" font-size="5" style="fill:rgb(32, 163, 134)">record</text>
+<text transform="translate(4,15)" font-size="5" style="fill:rgb(47, 180, 124)">order</text>
+<text transform="translate(139,325)" font-size="5" style="fill:rgb(72, 22, 104)">alias</text>
+<text transform="translate(265,106)" font-size="5" style="fill:rgb(45, 178, 125)">assignment</text>
+<text transform="translate(237,645)" font-size="5" style="fill:rgb(31, 158, 137)">fragment</text>
+<text transform="translate(632,528) rotate(-90)" font-size="5" style="fill:rgb(101, 203, 94)">attribute</text>
+<text transform="translate(197,277)" font-size="5" style="fill:rgb(82, 197, 105)">binding</text>
+<text transform="translate(5,685) rotate(-90)" font-size="5" style="fill:rgb(241, 229, 29)">position</text>
+<text transform="translate(214,191)" font-size="5" style="fill:rgb(62, 74, 137)">prevent</text>
+<text transform="translate(84,583)" font-size="5" style="fill:rgb(67, 62, 133)">provider</text>
+<text transform="translate(414,110)" font-size="5" style="fill:rgb(39, 173, 129)">short</text>
+<text transform="translate(542,391)" font-size="5" style="fill:rgb(55, 184, 120)">transitioning</text>
+<text transform="translate(146,186) rotate(-90)" font-size="5" style="fill:rgb(62, 76, 138)">override</text>
+<text transform="translate(770,362)" font-size="5" style="fill:rgb(57, 85, 140)">primitive</text>
+<text transform="translate(672,720) rotate(-90)" font-size="5" style="fill:rgb(99, 203, 95)">keyed</text>
+<text transform="translate(673,417)" font-size="5" style="fill:rgb(68, 57, 131)">readonly</text>
+<text transform="translate(693,530)" font-size="5" style="fill:rgb(132, 212, 75)">submitting</text>
+<text transform="translate(461,751)" font-size="5" style="fill:rgb(34, 141, 141)">supported</text>
+<text transform="translate(466,730)" font-size="5" style="fill:rgb(33, 144, 141)">prefetch</text>
+<text transform="translate(163,59)" font-size="5" style="fill:rgb(67, 62, 133)">condition</text>
+<text transform="translate(595,478)" font-size="4" style="fill:rgb(202, 225, 31)">ecosystem</text>
+<text transform="translate(673,114)" font-size="4" style="fill:rgb(248, 230, 33)">ci</text>
+<text transform="translate(353,772)" font-size="4" style="fill:rgb(178, 221, 45)">playwright</text>
+<text transform="translate(77,202)" font-size="4" style="fill:rgb(33, 165, 133)">check</text>
+<text transform="translate(467,218)" font-size="4" style="fill:rgb(202, 225, 31)">docs</text>
+<text transform="translate(555,77) rotate(-90)" font-size="4" style="fill:rgb(72, 26, 108)">stringify</text>
+<text transform="translate(2,19)" font-size="4" style="fill:rgb(40, 125, 142)">compat</text>
+<text transform="translate(184,213)" font-size="4" style="fill:rgb(53, 94, 141)">functions</text>
+<text transform="translate(286,517)" font-size="4" style="fill:rgb(51, 99, 141)">recursive</text>
+<text transform="translate(423,638)" font-size="4" style="fill:rgb(192, 223, 37)">testing</text>
+<text transform="translate(177,421)" font-size="4" style="fill:rgb(66, 190, 113)">library</text>
+<text transform="translate(110,548) rotate(-90)" font-size="4" style="fill:rgb(59, 187, 117)">clone</text>
+<text transform="translate(756,227)" font-size="4" style="fill:rgb(69, 53, 129)">accept</text>
+<text transform="translate(616,338)" font-size="4" style="fill:rgb(53, 95, 141)">send</text>
+<text transform="translate(626,644)" font-size="4" style="fill:rgb(35, 137, 142)">require</text>
+<text transform="translate(154,111)" font-size="4" style="fill:rgb(44, 177, 126)">shorthand</text>
+<text transform="translate(765,563)" font-size="4" style="fill:rgb(71, 44, 122)">placeholder</text>
+<text transform="translate(168,731)" font-size="4" style="fill:rgb(71, 13, 96)">count</text>
+<text transform="translate(121,51)" font-size="4" style="fill:rgb(39, 173, 129)">site</text>
+<text transform="translate(112,168)" font-size="4" style="fill:rgb(94, 201, 98)">temp</text>
+<text transform="translate(787,267)" font-size="4" style="fill:rgb(38, 130, 142)">help</text>
+<text transform="translate(7,343)" font-size="4" style="fill:rgb(34, 139, 141)">show</text>
+<text transform="translate(527,636) rotate(-90)" font-size="4" style="fill:rgb(41, 122, 142)">left</text>
+<text transform="translate(80,187)" font-size="4" style="fill:rgb(34, 141, 141)">right</text>
+<text transform="translate(267,531)" font-size="4" style="fill:rgb(65, 68, 135)">cancel</text>
+<text transform="translate(503,658)" font-size="4" style="fill:rgb(92, 200, 99)">intersection</text>
+<text transform="translate(26,235)" font-size="4" style="fill:rgb(170, 220, 50)">generic</text>
+<text transform="translate(140,571)" font-size="4" style="fill:rgb(71, 42, 122)">multiselect</text>
+<text transform="translate(366,207) rotate(-90)" font-size="4" style="fill:rgb(39, 173, 129)">heading</text>
+<text transform="translate(599,517)" font-size="4" style="fill:rgb(226, 228, 24)">stop</text>
+<text transform="translate(602,245)" font-size="4" style="fill:rgb(56, 185, 119)">bold</text>
+<text transform="translate(796,632) rotate(-90)" font-size="4" style="fill:rgb(72, 36, 117)">gray</text>
+<text transform="translate(382,545)" font-size="4" style="fill:rgb(208, 225, 28)">dim</text>
+<text transform="translate(579,138)" font-size="4" style="fill:rgb(226, 228, 24)">inverse</text>
+<text transform="translate(192,777)" font-size="4" style="fill:rgb(48, 106, 142)">underline</text>
+<text transform="translate(769,77)" font-size="4" style="fill:rgb(65, 68, 135)">title</text>
+<text transform="translate(587,605)" font-size="4" style="fill:rgb(32, 146, 140)">safe</text>
+<text transform="translate(570,434)" font-size="4" style="fill:rgb(70, 48, 126)">stderr</text>
+<text transform="translate(389,573)" font-size="4" style="fill:rgb(66, 190, 113)">readline</text>
+<text transform="translate(707,777)" font-size="4" style="fill:rgb(37, 132, 142)">sep</text>
+<text transform="translate(421,772)" font-size="4" style="fill:rgb(43, 116, 142)">erase</text>
+<text transform="translate(752,200)" font-size="4" style="fill:rgb(78, 195, 107)">lookup</text>
+<text transform="translate(14,501)" font-size="4" style="fill:rgb(165, 219, 54)">extname</text>
+<text transform="translate(427,236)" font-size="4" style="fill:rgb(34, 168, 132)">parsed</text>
+<text transform="translate(144,142)" font-size="4" style="fill:rgb(71, 42, 122)">normalized</text>
+<text transform="translate(604,754)" font-size="4" style="fill:rgb(41, 175, 127)">listen</text>
+<text transform="translate(102,111)" font-size="4" style="fill:rgb(39, 128, 142)">reason</text>
+<text transform="translate(252,499)" font-size="4" style="fill:rgb(64, 69, 136)">resume</text>
+<text transform="translate(290,403)" font-size="4" style="fill:rgb(70, 48, 126)">pause</text>
+<text transform="translate(202,711)" font-size="4" style="fill:rgb(31, 160, 136)">slash</text>
+<text transform="translate(90,291)" font-size="4" style="fill:rgb(124, 210, 80)">profile</text>
+<text transform="translate(19,28) rotate(-90)" font-size="4" style="fill:rgb(71, 42, 122)">sri</text>
+<text transform="translate(303,70) rotate(-90)" font-size="4" style="fill:rgb(42, 176, 127)">timestamp</text>
+<text transform="translate(221,772)" font-size="4" style="fill:rgb(39, 128, 142)">lineage</text>
+<text transform="translate(428,241)" font-size="4" style="fill:rgb(127, 211, 78)">fullpath</text>
+<text transform="translate(56,710)" font-size="4" style="fill:rgb(45, 178, 125)">combine</text>
+<text transform="translate(730,325)" font-size="4" style="fill:rgb(71, 14, 97)">dotenv</text>
+<text transform="translate(268,250)" font-size="4" style="fill:rgb(35, 137, 142)">imported</text>
+<text transform="translate(166,239)" font-size="4" style="fill:rgb(72, 40, 120)">oxc</text>
+<text transform="translate(260,687)" font-size="4" style="fill:rgb(68, 58, 131)">dedupe</text>
+<text transform="translate(766,286)" font-size="4" style="fill:rgb(208, 225, 28)">group</text>
+<text transform="translate(630,712) rotate(-90)" font-size="4" style="fill:rgb(32, 147, 140)">nullable</text>
+<text transform="translate(245,353)" font-size="4" style="fill:rgb(52, 97, 141)">issue</text>
+<text transform="translate(648,539)" font-size="4" style="fill:rgb(194, 223, 35)">deep</text>
+<text transform="translate(212,365)" font-size="4" style="fill:rgb(71, 19, 101)">reg</text>
+<text transform="translate(343,35)" font-size="4" style="fill:rgb(61, 77, 138)">exp</text>
+<text transform="translate(162,251)" font-size="4" style="fill:rgb(132, 212, 75)">rm</text>
+<text transform="translate(289,158)" font-size="4" style="fill:rgb(38, 130, 142)">hot</text>
+<text transform="translate(192,34)" font-size="4" style="fill:rgb(115, 208, 86)">argument</text>
+<text transform="translate(205,323)" font-size="4" style="fill:rgb(71, 47, 125)">block</text>
+<text transform="translate(311,474) rotate(-90)" font-size="4" style="fill:rgb(64, 189, 114)">return</text>
+<text transform="translate(675,616) rotate(-90)" font-size="4" style="fill:rgb(170, 220, 50)">topic</text>
+<text transform="translate(264,112)" font-size="4" style="fill:rgb(30, 157, 137)">instantiation</text>
+<text transform="translate(271,587)" font-size="4" style="fill:rgb(132, 212, 75)">void</text>
+<text transform="translate(754,255)" font-size="4" style="fill:rgb(68, 1, 84)">predicate</text>
+<text transform="translate(603,287)" font-size="4" style="fill:rgb(71, 16, 99)">indexed</text>
+<text transform="translate(102,247) rotate(-90)" font-size="4" style="fill:rgb(34, 140, 141)">private</text>
+<text transform="translate(498,116)" font-size="4" style="fill:rgb(176, 221, 47)">directive</text>
+<text transform="translate(494,315) rotate(-90)" font-size="4" style="fill:rgb(101, 203, 94)">partial</text>
+<text transform="translate(2,229)" font-size="4" style="fill:rgb(39, 173, 129)">scope</text>
+<text transform="translate(28,413)" font-size="4" style="fill:rgb(72, 28, 110)">commit</text>
+<text transform="translate(57,367)" font-size="4" style="fill:rgb(59, 82, 139)">push</text>
+<text transform="translate(540,384)" font-size="4" style="fill:rgb(37, 132, 142)">allow</text>
 </svg>

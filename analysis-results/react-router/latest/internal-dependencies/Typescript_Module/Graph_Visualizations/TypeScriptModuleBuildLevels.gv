@@ -31,15 +31,15 @@ strict digraph TypeScriptModuleBuildLevels {
 	"react-router-7.18.5\nflatRoutes\n(level 1/5)" -> "react-router-7.18.5\nnormalizeSlashes\n(level 2/5)" [label = 364; penwidth = 1.09; ];
 	"react-router-7.18.5\ncreate-react-router\n(level 0/5)" -> "react-router-7.18.5\nloading-indicator\n(level 1/5)" [label = 190; penwidth = 1.04; ];
 	"react-router-7.18.5\ndefineRoutes\n(level 0/5)" -> "react-router-7.18.5\nmanifest\n(level 1/5)" [label = 162; penwidth = 1.04; ];
-	"react-router-7.18.5\nreact-router-fs-routes\n(level 0/5)" -> "react-router-7.18.5\nmanifest\n(level 2/5)" [label = 91; penwidth = 1.02; ];
 	"react-router-7.18.5\nreact-router-fs-routes\n(level 0/5)" -> "react-router-7.18.5\nnormalizeSlashes\n(level 2/5)" [label = 91; penwidth = 1.02; ];
+	"react-router-7.18.5\nreact-router-fs-routes\n(level 0/5)" -> "react-router-7.18.5\nmanifest\n(level 2/5)" [label = 91; penwidth = 1.02; ];
 	"react-router-7.18.5\nreact-router-fs-routes\n(level 0/5)" -> "react-router-7.18.5\nflatRoutes\n(level 1/5)" [label = 91; penwidth = 1.02; ];
 	"react-router-7.18.5\nrun\n(level 0/5)" -> "react-router-7.18.5\ncommands\n(level 1/5)" [label = 36; penwidth = 1.01; ];
 	"react-router-7.18.5\ncommands\n(level 1/5)" -> "react-router-7.18.5\nprofiler\n(level 3/5)" [label = 24; penwidth = 1.01; ];
 	"react-router-7.18.5\ndev\n(level 2/5)" -> "react-router-7.18.5\nprofiler\n(level 3/5)" [label = 18; penwidth = 1.0; ];
 	"react-router-7.18.5\nreact-router\n(level 0/5)" -> "react-router-7.18.5\nserver\n(level 1/5)" [label = 18; penwidth = 1.0; ];
-	"react-router-7.18.5\ncommands\n(level 1/5)" -> "react-router-7.18.5\ndev\n(level 2/5)" [label = 16; penwidth = 1.0; ];
 	"react-router-7.18.5\ncommands\n(level 1/5)" -> "react-router-7.18.5\nbuild\n(level 2/5)" [label = 16; penwidth = 1.0; ];
+	"react-router-7.18.5\ncommands\n(level 1/5)" -> "react-router-7.18.5\ndev\n(level 2/5)" [label = 16; penwidth = 1.0; ];
 	"react-router-7.18.5\ndefineRoutes\n(level 0/5)" -> "react-router-7.18.5\nnormalizeSlashes\n(level 1/5)" [label = 15; penwidth = 1.0; ];
 	"react-router-7.18.5\nreact-router\n(level 0/5)" -> "react-router-7.18.5\nserver\n(level 1/5)" [label = 14; penwidth = 1.0; ];
 	"react-router-7.18.5\ncommands\n(level 1/5)" -> "react-router-7.18.5\nhas-rsc-plugin\n(level 3/5)" [label = 12; penwidth = 1.0; ];
@@ -64,11 +64,11 @@ strict digraph TypeScriptModuleBuildLevels {
 	"react-router-7.18.5\nreact-router\n(level 0/5)" -> "react-router-7.18.5\nregister\n(level 2/5)" [label = 1; penwidth = 1.0; ];
 	"react-router-7.18.5\nhref\n(level 1/5)" -> "react-router-7.18.5\nregister\n(level 2/5)" [label = 1; penwidth = 1.0; ];
 	"react-router-7.18.5\nmemoryStorage\n(level 1/5)" -> "react-router-7.18.5\nsessions\n(level 2/5)" [label = 1; penwidth = 1.0; ];
-	"react-router-7.18.5\nreact-router\n(level 0/5)" -> "react-router-7.18.5\nmemoryStorage\n(level 1/5)" [label = 1; penwidth = 1.0; ];
 	"react-router-7.18.5\nreact-router\n(level 0/5)" -> "react-router-7.18.5\ncookieStorage\n(level 1/5)" [label = 1; penwidth = 1.0; ];
-	"react-router-7.18.5\nreact-router\n(level 0/5)" -> "react-router-7.18.5\nhref\n(level 1/5)" [label = 1; penwidth = 1.0; ];
+	"react-router-7.18.5\nreact-router\n(level 0/5)" -> "react-router-7.18.5\nmemoryStorage\n(level 1/5)" [label = 1; penwidth = 1.0; ];
 	"react-router-7.18.5\nreact-router\n(level 0/5)" -> "react-router-7.18.5\nhref\n(level 1/5)" [label = 1; penwidth = 1.0; ];
 	"react-router-7.18.5\nreact-router\n(level 0/5)" -> "react-router-7.18.5\nserializes-to\n(level 1/5)" [label = 1; penwidth = 1.0; ];
 	"react-router-7.18.5\nreact-router\n(level 0/5)" -> "react-router-7.18.5\ncookieStorage\n(level 1/5)" [label = 1; penwidth = 1.0; ];
+	"react-router-7.18.5\nreact-router\n(level 0/5)" -> "react-router-7.18.5\nhref\n(level 1/5)" [label = 1; penwidth = 1.0; ];
 	"react-router-7.18.5\nreact-router\n(level 0/5)" -> "react-router-7.18.5\nmemoryStorage\n(level 1/5)" [label = 1; penwidth = 1.0; ];
 }
