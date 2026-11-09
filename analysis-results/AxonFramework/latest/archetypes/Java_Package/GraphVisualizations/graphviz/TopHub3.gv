@@ -33,10 +33,10 @@ strict digraph TopHub3 {
 	"modelling_31592"  [label = "modelling\n(0.53)"; penwidth = 2; ]; "modelling_31592" -> central [label=2; weight=2; penwidth=0.4];
 	"repository_31598"  [label = "repository\n(0.65)"; penwidth = 2; ]; "repository_31598" -> central [label=2; weight=2; penwidth=0.4];
 	"subscribing_6886"  [label = "subscribing\n(0.65)"; penwidth = 2; ]; "subscribing_6886" -> central [label=2; weight=2; penwidth=0.4];
-	"annotation_6892"  [label = "annotation\n(0.58)"; penwidth = 2; ]; "annotation_6892" -> central [label=1; weight=1; penwidth=0.4];
-	"annotation_6863"  [label = "annotation\n(0.58)"; penwidth = 2; ]; "annotation_6863" -> central [label=1; weight=1; penwidth=0.4];
-	"annotation_6870"  [label = "annotation\n(0.53)"; penwidth = 2; ]; "annotation_6870" -> central [label=1; weight=1; penwidth=0.4];
 	"annotation_36227"  [label = "annotation\n(0.58)"; penwidth = 2; ]; "annotation_36227" -> central [label=1; weight=1; penwidth=0.4];
+	"annotation_6892"  [label = "annotation\n(0.58)"; penwidth = 2; ]; "annotation_6892" -> central [label=1; weight=1; penwidth=0.4];
+	"annotation_6870"  [label = "annotation\n(0.53)"; penwidth = 2; ]; "annotation_6870" -> central [label=1; weight=1; penwidth=0.4];
+	"annotation_6863"  [label = "annotation\n(0.58)"; penwidth = 2; ]; "annotation_6863" -> central [label=1; weight=1; penwidth=0.4];
 	"avro_5231"  [label = "avro\n(0.83)"; penwidth = 2; ]; "avro_5231" -> central [label=1; weight=1; penwidth=0.4];
 	"command_1041"  [label = "command\n(0.41)"; penwidth = 2; ]; "command_1041" -> central [label=1; weight=1; penwidth=0.4];
 	"configuration_6889"  [label = "configuration\n(0.56)"; penwidth = 2; ]; "configuration_6889" -> central [label=1; weight=1; penwidth=0.4];
@@ -67,8 +67,8 @@ strict digraph TopHub3 {
 	"interception_6900" -> "common_41193" [label=29; weight=29; penwidth=0.3; color = 3]
 	"interception_6900" -> "configuration_41206" [label=29; weight=29; penwidth=0.3; color = 3]
 	"entity_31594" -> "commandhandling_6862" [label=28; weight=28; penwidth=0.3; color = 3]
-	"annotation_31595" -> "child_31596" [label=26; weight=26; penwidth=0.3; color = 3]
 	"annotation_31595" -> "common_41193" [label=26; weight=26; penwidth=0.3; color = 3]
+	"annotation_31595" -> "child_31596" [label=26; weight=26; penwidth=0.3; color = 3]
 	"configuration_6889" -> "configuration_41206" [label=26; weight=26; penwidth=0.3; color = 3]
 	"eventstore_36234" -> "eventhandling_6869" [label=25; weight=25; penwidth=0.3; color = 3]
 	"fixture_27533" -> "eventhandling_6869" [label=25; weight=25; penwidth=0.3; color = 3]
@@ -108,8 +108,8 @@ strict digraph TopHub3 {
 	"handler_36233" -> "eventstore_36234" [label=10; weight=10; penwidth=0.3; color = 3]
 	"query_1035" -> "common_41193" [label=10; weight=10; penwidth=0.3; color = 3]
 	"queryhandling_6891" -> "conversion_5227" [label=10; weight=10; penwidth=0.3; color = 3]
-	"configuration_6889" -> "pooled_6884" [label=9; weight=9; penwidth=0.3; color = 3]
 	"configuration_6889" -> "subscribing_6886" [label=9; weight=9; penwidth=0.3; color = 3]
+	"configuration_6889" -> "pooled_6884" [label=9; weight=9; penwidth=0.3; color = 3]
 	"subscribing_6886" -> "common_41193" [label=9; weight=9; penwidth=0.3; color = 3]
 	"annotation_31595" -> "entity_31594" [label=8; weight=8; penwidth=0.3; color = 3]
 	"configuration_6889" -> "common_41193" [label=8; weight=8; penwidth=0.3; color = 3]
@@ -163,13 +163,13 @@ strict digraph TopHub3 {
 	"tracing_6867" -> "common_41193" [label=2; weight=2; penwidth=0.3; color = 3]
 	"annotation_31595" -> "eventhandling_6869" [label=1; weight=1; penwidth=0.3; color = 3]
 	"annotation_31595" -> "annotation_6863" [label=1; weight=1; penwidth=0.3; color = 3]
-	"annotation_6863" -> "gateway_6865" [label=1; weight=1; penwidth=0.3; color = 3]
-	"annotation_6863" -> "configuration_41206" [label=1; weight=1; penwidth=0.3; color = 3]
-	"annotation_6870" -> "configuration_41206" [label=1; weight=1; penwidth=0.3; color = 3]
-	"annotation_6870" -> "gateway_6874" [label=1; weight=1; penwidth=0.3; color = 3]
-	"annotation_36227" -> "annotation_6870" [label=1; weight=1; penwidth=0.3; color = 3]
 	"annotation_36227" -> "eventsourcing_36226" [label=1; weight=1; penwidth=0.3; color = 3]
 	"annotation_36227" -> "annotation_31595" [label=1; weight=1; penwidth=0.3; color = 3]
+	"annotation_36227" -> "annotation_6870" [label=1; weight=1; penwidth=0.3; color = 3]
+	"annotation_6870" -> "gateway_6874" [label=1; weight=1; penwidth=0.3; color = 3]
+	"annotation_6870" -> "configuration_41206" [label=1; weight=1; penwidth=0.3; color = 3]
+	"annotation_6863" -> "configuration_41206" [label=1; weight=1; penwidth=0.3; color = 3]
+	"annotation_6863" -> "gateway_6865" [label=1; weight=1; penwidth=0.3; color = 3]
 	"avro_5231" -> "common_41193" [label=1; weight=1; penwidth=0.3; color = 3]
 	"child_31596" -> "eventhandling_6869" [label=1; weight=1; penwidth=0.3; color = 3]
 	"configuration_6889" -> "interception_6900" [label=1; weight=1; penwidth=0.3; color = 3]
@@ -177,8 +177,8 @@ strict digraph TopHub3 {
 	"eventsourcing_36226" -> "eventhandling_6869" [label=1; weight=1; penwidth=0.3; color = 3]
 	"fixture_27533" -> "common_41193" [label=1; weight=1; penwidth=0.3; color = 3]
 	"gateway_6874" -> "common_41193" [label=1; weight=1; penwidth=0.3; color = 3]
-	"handler_36233" -> "modelling_31592" [label=1; weight=1; penwidth=0.3; color = 3]
 	"handler_36233" -> "conversion_5227" [label=1; weight=1; penwidth=0.3; color = 3]
+	"handler_36233" -> "modelling_31592" [label=1; weight=1; penwidth=0.3; color = 3]
 	"interception_6864" -> "common_41193" [label=1; weight=1; penwidth=0.3; color = 3]
 	"modelling_31592" -> "eventhandling_6869" [label=1; weight=1; penwidth=0.3; color = 3]
 	"pooled_6884" -> "conversion_5227" [label=1; weight=1; penwidth=0.3; color = 3]

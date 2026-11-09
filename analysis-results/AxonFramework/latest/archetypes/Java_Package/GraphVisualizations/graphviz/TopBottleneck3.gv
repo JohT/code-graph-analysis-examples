@@ -27,9 +27,9 @@ strict digraph TopBottleneck3 {
 	"commandhandling_6862"  [label = "commandhandling\n(31.67)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "commandhandling_6862" [label=1; weight=1; penwidth=0.4; color = 5];
 	"eventhandling_6869"  [label = "eventhandling\n(83.0)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "eventhandling_6869" [label=1; weight=1; penwidth=0.4; color = 5];
 	"property_41198"  [label = "property\n(0.0)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "property_41198" [label=1; weight=1; penwidth=0.4; color = 5];
-	"conversion_6904"  [label = "conversion\n(353.38)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "conversion_6904" [label=0; weight=0; penwidth=0.4; color = 5];
 	"conversion_6875"  [label = "conversion\n(50.32)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "conversion_6875" [label=0; weight=0; penwidth=0.4; color = 5];
 	"conversion_5227"  [label = "conversion\n(35.15)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "conversion_5227" [label=0; weight=0; penwidth=0.4; color = 5];
+	"conversion_6904"  [label = "conversion\n(353.38)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "conversion_6904" [label=0; weight=0; penwidth=0.4; color = 5];
 	"annotation_6898" -> "core_6897" [label=86; weight=86; penwidth=0.3; color = 3]
 	"commandhandling_6862" -> "core_6897" [label=68; weight=68; penwidth=0.3; color = 3]
 	"eventhandling_6869" -> "core_6897" [label=59; weight=59; penwidth=0.3; color = 3]
@@ -60,30 +60,30 @@ strict digraph TopBottleneck3 {
 	"commandhandling_6862" -> "conversion_5227" [label=5; weight=5; penwidth=0.3; color = 3]
 	"configuration_6912" -> "conversion_6875" [label=5; weight=5; penwidth=0.3; color = 3]
 	"core_6897" -> "unitofwork_6906" [label=5; weight=5; penwidth=0.3; color = 3]
+	"annotation_6870" -> "unitofwork_6906" [label=4; weight=4; penwidth=0.3; color = 3]
 	"annotation_6870" -> "annotation_41195" [label=4; weight=4; penwidth=0.3; color = 3]
 	"annotation_6870" -> "common_41193" [label=4; weight=4; penwidth=0.3; color = 3]
-	"annotation_6870" -> "unitofwork_6906" [label=4; weight=4; penwidth=0.3; color = 3]
 	"annotation_41195" -> "common_41193" [label=4; weight=4; penwidth=0.3; color = 3]
+	"configuration_6912" -> "conversion_5227" [label=4; weight=4; penwidth=0.3; color = 3]
 	"configuration_6912" -> "conversion_6904" [label=4; weight=4; penwidth=0.3; color = 3]
 	"configuration_6912" -> "interception_6864" [label=4; weight=4; penwidth=0.3; color = 3]
-	"configuration_6912" -> "conversion_5227" [label=4; weight=4; penwidth=0.3; color = 3]
 	"conversion_6875" -> "conversion_6904" [label=4; weight=4; penwidth=0.3; color = 3]
 	"eventhandling_6869" -> "conversion_5227" [label=4; weight=4; penwidth=0.3; color = 3]
 	"interception_6864" -> "unitofwork_6906" [label=4; weight=4; penwidth=0.3; color = 3]
 	"commandhandling_6862" -> "unitofwork_6906" [label=3; weight=3; penwidth=0.3; color = 3]
 	"property_41198" -> "common_41193" [label=3; weight=3; penwidth=0.3; color = 3]
 	"segmenting_6885" -> "unitofwork_6906" [label=3; weight=3; penwidth=0.3; color = 3]
-	"configuration_6912" -> "eventhandling_6869" [label=2; weight=2; penwidth=0.3; color = 3]
 	"configuration_6912" -> "annotation_6898" [label=2; weight=2; penwidth=0.3; color = 3]
-	"conversion_6904" -> "core_6897" [label=2; weight=2; penwidth=0.3; color = 3]
+	"configuration_6912" -> "eventhandling_6869" [label=2; weight=2; penwidth=0.3; color = 3]
 	"conversion_6875" -> "eventhandling_6869" [label=2; weight=2; penwidth=0.3; color = 3]
+	"conversion_6904" -> "core_6897" [label=2; weight=2; penwidth=0.3; color = 3]
 	"segmenting_6885" -> "common_41193" [label=2; weight=2; penwidth=0.3; color = 3]
 	"annotation_6870" -> "conversion_6875" [label=1; weight=1; penwidth=0.3; color = 3]
 	"annotation_6898" -> "annotation_6870" [label=1; weight=1; penwidth=0.3; color = 3]
-	"conversion_6904" -> "conversion_5227" [label=1; weight=1; penwidth=0.3; color = 3]
-	"conversion_6904" -> "annotation_41195" [label=1; weight=1; penwidth=0.3; color = 3]
 	"conversion_6875" -> "annotation_41195" [label=1; weight=1; penwidth=0.3; color = 3]
 	"conversion_5227" -> "annotation_41195" [label=1; weight=1; penwidth=0.3; color = 3]
+	"conversion_6904" -> "conversion_5227" [label=1; weight=1; penwidth=0.3; color = 3]
+	"conversion_6904" -> "annotation_41195" [label=1; weight=1; penwidth=0.3; color = 3]
 	"core_6897" -> "annotation_6898" [label=1; weight=1; penwidth=0.3; color = 3]
 	"interception_6864" -> "common_41193" [label=1; weight=1; penwidth=0.3; color = 3]
 	"interception_6864" -> "annotation_41195" [label=1; weight=1; penwidth=0.3; color = 3]

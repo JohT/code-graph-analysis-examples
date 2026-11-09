@@ -85,7 +85,7 @@
 "axon-test-5.1.2","org.awaitility",1,1,79,19,6,24.050632911392405,"Awaitility",""
 "axon-test-5.1.2","org.awaitility.core",1,2,79,19,6,24.050632911392405,"ConditionFactory",""
 "axon-common-5.1.2","org.jspecify.annotations",15,15,175,28,11,16,"NullMarked",""
-"axon-common-5.1.2","org.slf4j",14,49,175,28,11,16,"LoggerFactory,Logger",""
+"axon-common-5.1.2","org.slf4j",14,49,175,28,11,16,"Logger,LoggerFactory",""
 "axon-common-5.1.2","javax.cache.event",8,26,175,28,11,16,"CacheEntryUpdatedListener,CacheEntryListenerException,CacheEntryEvent,CacheEntryRemovedListener,CacheEntryListener,CacheEntryExpiredListener,CacheEntryEventFilter,CacheEntryCreatedListener",""
 "axon-common-5.1.2","org.ehcache.event",8,30,175,28,11,16,"EventType,EventFiring,CacheEventListener,EventOrdering,CacheEvent",""
 "axon-common-5.1.2","jakarta.persistence",5,11,175,28,11,16,"EntityManagerFactory,EntityManager",""
