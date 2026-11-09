@@ -26,8 +26,8 @@ strict digraph cycle {
     }
 
     "callRouteHandler" -> "LoaderFunction" [color="#6699CC"; penwidth="0.5"];
-    "callRouteHandler" -> "DataWithResponseInit" [color="#6699CC"; penwidth="0.5"];
     "callRouteHandler" -> "ActionFunction" [color="#6699CC"; penwidth="0.5"];
+    "callRouteHandler" -> "DataWithResponseInit" [color="#6699CC"; penwidth="0.5"];
     "callRouteHandler" -> "LoaderFunctionArgs" [color="#6699CC"; penwidth="0.5"];
     "callRouteHandler" -> "ActionFunctionArgs" [color="#6699CC"; penwidth="0.5"];
     "RequestHandler" -> "AppLoadContext" [color="red"; penwidth="2.5"; style="dashed";];
