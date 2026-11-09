@@ -39,12 +39,12 @@ High PageRank = depended on by many important nodes. High betweenness = bridge b
 | ["Type","Java","Class"] | org.axonframework.common.TypeReference$1 | 23.050914895163434 |
 | ["Type","Java","Class"] | org.axonframework.common.TypeReference$2 | 23.050914895163434 |
 | ["Type","Java","Class","GenericDeclaration"] | org.axonframework.messaging.core.Context$ResourceKey | 22.415779759592738 |
-| ["Type","Java","Interface"] | org.axonframework.messaging.core.Message | 18.587622448669748 |
+| ["Type","Java","Interface"] | org.axonframework.messaging.core.Message | 18.58762244866975 |
 | ["Type","Java","Interface"] | org.axonframework.messaging.core.unitofwork.ProcessingContext | 16.884484613817275 |
 | ["Package","Java"] | org.axonframework.common | 11.605407781911774 |
-| ["Type","Java","Interface"] | org.axonframework.common.infra.ComponentDescriptor | 11.165464275573271 |
-| ["Type","Java","Interface"] | org.axonframework.common.infra.DescribableComponent | 11.040244162776043 |
-| ["Type","Java","Interface"] | org.axonframework.conversion.Converter | 10.524578358009313 |
+| ["Type","Java","Interface"] | org.axonframework.common.infra.ComponentDescriptor | 11.165464275573273 |
+| ["Type","Java","Interface"] | org.axonframework.common.infra.DescribableComponent | 11.040244162776045 |
+| ["Type","Java","Interface"] | org.axonframework.conversion.Converter | 10.524578358009315 |
 
 [Full data](./Java_Package/centrality/Package_Centrality_Page_Rank.csv)
 
@@ -52,12 +52,12 @@ High PageRank = depended on by many important nodes. High betweenness = bridge b
 
 | nodeLabels | nodeName | articleRankScore |
 | --- | --- | --- |
-| ["Type","Java","Interface"] | org.axonframework.messaging.core.Message | 8.761437539518031 |
+| ["Type","Java","Interface"] | org.axonframework.messaging.core.Message | 8.761437539518028 |
 | ["Type","Java","Class","GenericDeclaration"] | org.axonframework.messaging.core.Context$ResourceKey | 7.664558490342938 |
 | ["Type","Java","Interface"] | org.axonframework.messaging.core.unitofwork.ProcessingContext | 7.15846209585333 |
 | ["Package","Java"] | org.axonframework.common | 6.034603518270909 |
 | ["Type","Java","Class","GenericDeclaration"] | org.axonframework.common.TypeReference | 5.938663904850031 |
-| ["Type","Java","Interface"] | org.axonframework.conversion.Converter | 4.531077454325549 |
+| ["Type","Java","Interface"] | org.axonframework.conversion.Converter | 4.5310774543255485 |
 | ["Package","Java"] | org.axonframework.messaging.core | 4.520396567052293 |
 | ["Type","Java","Interface"] | org.axonframework.messaging.core.Context | 3.227181448359722 |
 | ["Type","Java","Interface","GenericDeclaration"] | org.axonframework.messaging.core.MessageStream | 3.224865458930252 |
@@ -72,7 +72,7 @@ High PageRank = depended on by many important nodes. High betweenness = bridge b
 | ["Type","Java","Interface","GenericDeclaration"] | org.axonframework.messaging.core.MessageStream | 11352.071356421367 |
 | ["Type","Java","Interface"] | org.axonframework.messaging.core.Message | 9809.04920634921 |
 | ["Type","Java","Interface"] | org.axonframework.messaging.core.unitofwork.ProcessingContext | 6610.471428571431 |
-| ["Type","Java","Record"] | org.axonframework.messaging.core.QualifiedName | 4625.822222222219 |
+| ["Type","Java","Record"] | org.axonframework.messaging.core.QualifiedName | 4625.82222222222 |
 | ["Type","Java","Class"] | org.axonframework.common.ReflectionUtils | 4488.466666666665 |
 | ["Type","Java","Record"] | org.axonframework.messaging.core.MessageType | 4159.611111111112 |
 | ["Type","Java","Class","GenericDeclaration"] | org.axonframework.modelling.entity.annotation.AnnotatedEntityMetamodel | 3527.9704545454547 |
@@ -92,16 +92,16 @@ High community sizes may indicate monolithic modules; many small = well-modulari
 
 | communityId | communitySize |
 | --- | --- |
-| 1 | 239 |
-| 0 | 189 |
-| 5 | 131 |
-| 12 | 129 |
-| 11 | 119 |
-| 8 | 82 |
-| 14 | 72 |
-| 15 | 63 |
-| 3 | 59 |
-| 9 | 53 |
+| 1 | 198 |
+| 0 | 191 |
+| 12 | 117 |
+| 5 | 103 |
+| 8 | 95 |
+| 11 | 94 |
+| 15 | 68 |
+| 2 | 67 |
+| 14 | 63 |
+| 13 | 60 |
 
 [Full data](./Java_Package/communities/Package_Communities_Leiden.csv)
 

@@ -12,38 +12,106 @@ strict digraph TopBridge5 {
     central [fontsize = 16;];
     central [color = 7; fillcolor = 5; penwidth = 3;];
 
-	graph   [label="Top Rank #5 Java Type Bridge\norg.axonframework.messaging.eventstreaming.TagAndTypeFilteredEventCriteria\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
-	central [label="🌉 bridge #5\nTagAndTypeFilteredEventCriteria"];
-	"AnyEvent_16682" [label = "AnyEvent"; ]; "AnyEvent_16682" -> central [label=2; weight=2; penwidth=0.4];
-	"TagFilteredEventCriteria_16812" [label = "TagFilteredEventCriteria"; ]; "TagFilteredEventCriteria_16812" -> central [label=2; weight=2; penwidth=0.4];
-	"OrEventCriteria_16683" [label = "OrEventCriteria"; color = 5; fillcolor = 1; ]; central -> "OrEventCriteria_16683" [label=5; weight=5; penwidth=0.5; color = 5];
-	"QualifiedName_7886" [label = "QualifiedName"; color = 5; fillcolor = 1; ]; central -> "QualifiedName_7886" [label=5; weight=5; penwidth=0.5; color = 5];
-	"Tag_16810" [label = "Tag"; color = 5; fillcolor = 1; ]; central -> "Tag_16810" [label=5; weight=5; penwidth=0.5; color = 5];
-	"EventCriteria_13621" [label = "EventCriteria"; color = 5; fillcolor = 1; ]; central -> "EventCriteria_13621" [label=4; weight=4; penwidth=0.5; color = 5];
-	"EventCriterion_16672" [label = "EventCriterion"; color = 5; fillcolor = 1; ]; central -> "EventCriterion_16672" [label=2; weight=2; penwidth=0.4; color = 5];
-	"AnyEvent_16682" [label = "AnyEvent"; color = 5; fillcolor = 1; ]; central -> "AnyEvent_16682" [label=1; weight=1; penwidth=0.4; color = 5];
-	"OrEventCriteria_16683" -> "EventCriteria_13621" [label=12; weight=12; penwidth=0.3; color = 3]
-	"EventCriteria_13621" -> "Tag_16810" [label=5; weight=5; penwidth=0.3; color = 3]
-	"TagFilteredEventCriteria_16812" -> "Tag_16810" [label=5; weight=5; penwidth=0.3; color = 3]
-	"TagFilteredEventCriteria_16812" -> "OrEventCriteria_16683" [label=5; weight=5; penwidth=0.3; color = 3]
-	"TagFilteredEventCriteria_16812" -> "EventCriteria_13621" [label=5; weight=5; penwidth=0.3; color = 3]
-	"AnyEvent_16682" -> "EventCriteria_13621" [label=4; weight=4; penwidth=0.3; color = 3]
-	"EventCriteria_13621" -> "OrEventCriteria_16683" [label=4; weight=4; penwidth=0.3; color = 3]
-	"TagFilteredEventCriteria_16812" -> "QualifiedName_7886" [label=3; weight=3; penwidth=0.3; color = 3]
-	"AnyEvent_16682" -> "QualifiedName_7886" [label=2; weight=2; penwidth=0.3; color = 3]
-	"EventCriteria_13621" -> "TagFilteredEventCriteria_16812" [label=2; weight=2; penwidth=0.3; color = 3]
-	"EventCriteria_13621" -> "AnyEvent_16682" [label=2; weight=2; penwidth=0.3; color = 3]
-	"OrEventCriteria_16683" -> "QualifiedName_7886" [label=2; weight=2; penwidth=0.3; color = 3]
-	"TagFilteredEventCriteria_16812" -> "EventCriterion_16672" [label=2; weight=2; penwidth=0.3; color = 3]
-	"AnyEvent_16682" -> "EventCriterion_16672" [label=1; weight=1; penwidth=0.3; color = 3]
-	"AnyEvent_16682" -> "Tag_16810" [label=1; weight=1; penwidth=0.3; color = 3]
-	"EventCriteria_13621" -> "QualifiedName_7886" [label=1; weight=1; penwidth=0.3; color = 3]
-	"EventCriteria_13621" -> "EventCriterion_16672" [label=1; weight=1; penwidth=0.3; color = 3]
-	"EventCriterion_16672" -> "QualifiedName_7886" [label=1; weight=1; penwidth=0.3; color = 3]
-	"EventCriterion_16672" -> "Tag_16810" [label=1; weight=1; penwidth=0.3; color = 3]
-	"EventCriterion_16672" -> "EventCriteria_13621" [label=1; weight=1; penwidth=0.3; color = 3]
-	"OrEventCriteria_16683" -> "EventCriterion_16672" [label=1; weight=1; penwidth=0.3; color = 3]
-	"OrEventCriteria_16683" -> "Tag_16810" [label=1; weight=1; penwidth=0.3; color = 3]
-	"OrEventCriteria_16683" -> "AnyEvent_16682" [label=1; weight=1; penwidth=0.3; color = 3]
-	"TagFilteredEventCriteria_16812" -> "AnyEvent_16682" [label=1; weight=1; penwidth=0.3; color = 3]
+	graph   [label="Top Rank #5 Java Type Bridge\norg.axonframework.messaging.core.unitofwork.UnitOfWork\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
+	central [label="🌉 bridge #5\nUnitOfWork"];
+	"WorkPackage_13637" [label = "WorkPackage"; ]; "WorkPackage_13637" -> central [label=7; weight=7; penwidth=0.5];
+	"MergeTask_14623" [label = "MergeTask"; ]; "MergeTask_14623" -> central [label=4; weight=4; penwidth=0.5];
+	"SimpleUnitOfWorkFactory_16703" [label = "SimpleUnitOfWorkFactory"; ]; "SimpleUnitOfWorkFactory_16703" -> central [label=4; weight=4; penwidth=0.5];
+	"UnitOfWork$UnitOfWorkProcessingContext_23798" [label = "UnitOfWork$\nUnitOfWorkProcessingContext"; ]; "UnitOfWork$UnitOfWorkProcessingContext_23798" -> central [label=4; weight=4; penwidth=0.5];
+	"UnitOfWorkFactory_9347" [label = "UnitOfWorkFactory"; ]; "UnitOfWorkFactory_9347" -> central [label=4; weight=4; penwidth=0.5];
+	"Coordinator$CoordinationTask_13189" [label = "Coordinator$\nCoordinationTask"; ]; "Coordinator$CoordinationTask_13189" -> central [label=3; weight=3; penwidth=0.4];
+	"AxonTestGiven_27599" [label = "AxonTestGiven"; ]; "AxonTestGiven_27599" -> central [label=2; weight=2; penwidth=0.4];
+	"AxonTestWhen_27589" [label = "AxonTestWhen"; ]; "AxonTestWhen_27589" -> central [label=2; weight=2; penwidth=0.4];
+	"ClaimTask_14626" [label = "ClaimTask"; ]; "ClaimTask_14626" -> central [label=2; weight=2; penwidth=0.4];
+	"PooledStreamingEventProcessor_13624" [label = "PooledStreamingEventProcessor"; ]; "PooledStreamingEventProcessor_13624" -> central [label=2; weight=2; penwidth=0.4];
+	"SplitTask_13192" [label = "SplitTask"; ]; "SplitTask_13192" -> central [label=2; weight=2; penwidth=0.4];
+	"SubscribingEventProcessor_15611" [label = "SubscribingEventProcessor"; ]; "SubscribingEventProcessor_15611" -> central [label=2; weight=2; penwidth=0.4];
+	"Coordinator_13634" [label = "Coordinator"; ]; "Coordinator_13634" -> central [label=1; weight=1; penwidth=0.4];
+	"EventProcessorControlService_4189" [label = "EventProcessorControlService"; ]; "EventProcessorControlService_4189" -> central [label=1; weight=1; penwidth=0.4];
+	"SimpleCommandBus_9411" [label = "SimpleCommandBus"; ]; "SimpleCommandBus_9411" -> central [label=1; weight=1; penwidth=0.4];
+	"SimpleQueryBus_17539" [label = "SimpleQueryBus"; ]; "SimpleQueryBus_17539" -> central [label=1; weight=1; penwidth=0.4];
+	"TransactionalUnitOfWorkFactory_24114" [label = "TransactionalUnitOfWorkFactory"; ]; "TransactionalUnitOfWorkFactory_24114" -> central [label=1; weight=1; penwidth=0.4];
+	"UnitOfWork$UnitOfWorkProcessingContext_23798" [label = "UnitOfWork$\nUnitOfWorkProcessingContext"; color = 5; fillcolor = 1; ]; central -> "UnitOfWork$UnitOfWorkProcessingContext_23798" [label=13; weight=13; penwidth=0.6; color = 5];
+	"ProcessingContext_6936" [label = "ProcessingContext"; color = 5; fillcolor = 1; ]; central -> "ProcessingContext_6936" [label=5; weight=5; penwidth=0.5; color = 5];
+	"ProcessingLifecycle_14388" [label = "ProcessingLifecycle"; color = 5; fillcolor = 1; ]; central -> "ProcessingLifecycle_14388" [label=4; weight=4; penwidth=0.5; color = 5];
+	"ProcessingLifecycle$Phase_6935" [label = "ProcessingLifecycle$\nPhase"; color = 5; fillcolor = 1; ]; central -> "ProcessingLifecycle$Phase_6935" [label=3; weight=3; penwidth=0.4; color = 5];
+	"ProcessingLifecycle$ErrorHandler_6934" [label = "ProcessingLifecycle$\nErrorHandler"; color = 5; fillcolor = 1; ]; central -> "ProcessingLifecycle$ErrorHandler_6934" [label=2; weight=2; penwidth=0.4; color = 5];
+	"ApplicationContext_14387" [label = "ApplicationContext"; color = 5; fillcolor = 1; ]; central -> "ApplicationContext_14387" [label=1; weight=1; penwidth=0.4; color = 5];
+	"FutureUtils_43624" [label = "FutureUtils"; color = 5; fillcolor = 1; ]; central -> "FutureUtils_43624" [label=1; weight=1; penwidth=0.4; color = 5];
+	"Internal_42019" [label = "Internal"; color = 5; fillcolor = 1; ]; central -> "Internal_42019" [label=1; weight=1; penwidth=0.4; color = 5];
+	"UnitOfWork$UnitOfWorkProcessingContext$CauseAndPhase_23799" [label = "UnitOfWork$\nUnitOfWorkProcessingContext$\nCauseAndPhase"; color = 5; fillcolor = 1; ]; central -> "UnitOfWork$UnitOfWorkProcessingContext$CauseAndPhase_23799" [label=1; weight=1; penwidth=0.4; color = 5];
+	"UnitOfWork$UnitOfWorkProcessingContext$Status_23800" [label = "UnitOfWork$\nUnitOfWorkProcessingContext$\nStatus"; color = 5; fillcolor = 1; ]; central -> "UnitOfWork$UnitOfWorkProcessingContext$Status_23800" [label=1; weight=1; penwidth=0.4; color = 5];
+	"Coordinator$CoordinationTask_13189" -> "Coordinator_13634" [label=167; weight=167; penwidth=0.3; color = 3]
+	"Coordinator$CoordinationTask_13189" -> "WorkPackage_13637" [label=35; weight=35; penwidth=0.3; color = 3]
+	"UnitOfWork$UnitOfWorkProcessingContext_23798" -> "ProcessingLifecycle$Phase_6935" [label=19; weight=19; penwidth=0.3; color = 3]
+	"ProcessingLifecycle_14388" -> "ProcessingContext_6936" [label=18; weight=18; penwidth=0.3; color = 3]
+	"UnitOfWork$UnitOfWorkProcessingContext_23798" -> "UnitOfWork$UnitOfWorkProcessingContext$Status_23800" [label=17; weight=17; penwidth=0.3; color = 3]
+	"PooledStreamingEventProcessor_13624" -> "ProcessingContext_6936" [label=16; weight=16; penwidth=0.3; color = 3]
+	"WorkPackage_13637" -> "ProcessingContext_6936" [label=16; weight=16; penwidth=0.3; color = 3]
+	"UnitOfWork$UnitOfWorkProcessingContext_23798" -> "UnitOfWork$UnitOfWorkProcessingContext$CauseAndPhase_23799" [label=15; weight=15; penwidth=0.3; color = 3]
+	"SimpleQueryBus_17539" -> "ProcessingContext_6936" [label=13; weight=13; penwidth=0.3; color = 3]
+	"UnitOfWork$UnitOfWorkProcessingContext_23798" -> "ProcessingContext_6936" [label=12; weight=12; penwidth=0.3; color = 3]
+	"UnitOfWork$UnitOfWorkProcessingContext_23798" -> "ProcessingLifecycle$ErrorHandler_6934" [label=11; weight=11; penwidth=0.3; color = 3]
+	"PooledStreamingEventProcessor_13624" -> "Coordinator_13634" [label=10; weight=10; penwidth=0.3; color = 3]
+	"Coordinator_13634" -> "Coordinator$CoordinationTask_13189" [label=8; weight=8; penwidth=0.3; color = 3]
+	"UnitOfWork$UnitOfWorkProcessingContext_23798" -> "FutureUtils_43624" [label=8; weight=8; penwidth=0.3; color = 3]
+	"SplitTask_13192" -> "WorkPackage_13637" [label=7; weight=7; penwidth=0.3; color = 3]
+	"Coordinator$CoordinationTask_13189" -> "FutureUtils_43624" [label=6; weight=6; penwidth=0.3; color = 3]
+	"MergeTask_14623" -> "ProcessingContext_6936" [label=6; weight=6; penwidth=0.3; color = 3]
+	"MergeTask_14623" -> "UnitOfWorkFactory_9347" [label=6; weight=6; penwidth=0.3; color = 3]
+	"SplitTask_13192" -> "ProcessingContext_6936" [label=6; weight=6; penwidth=0.3; color = 3]
+	"Coordinator_13634" -> "FutureUtils_43624" [label=5; weight=5; penwidth=0.3; color = 3]
+	"SubscribingEventProcessor_15611" -> "FutureUtils_43624" [label=5; weight=5; penwidth=0.3; color = 3]
+	"SubscribingEventProcessor_15611" -> "ProcessingContext_6936" [label=5; weight=5; penwidth=0.3; color = 3]
+	"WorkPackage_13637" -> "FutureUtils_43624" [label=5; weight=5; penwidth=0.3; color = 3]
+	"ClaimTask_14626" -> "UnitOfWorkFactory_9347" [label=4; weight=4; penwidth=0.3; color = 3]
+	"EventProcessorControlService_4189" -> "UnitOfWorkFactory_9347" [label=4; weight=4; penwidth=0.3; color = 3]
+	"MergeTask_14623" -> "WorkPackage_13637" [label=4; weight=4; penwidth=0.3; color = 3]
+	"PooledStreamingEventProcessor_13624" -> "FutureUtils_43624" [label=4; weight=4; penwidth=0.3; color = 3]
+	"ProcessingLifecycle_14388" -> "ProcessingLifecycle$Phase_6935" [label=4; weight=4; penwidth=0.3; color = 3]
+	"SimpleCommandBus_9411" -> "UnitOfWorkFactory_9347" [label=4; weight=4; penwidth=0.3; color = 3]
+	"SimpleQueryBus_17539" -> "UnitOfWorkFactory_9347" [label=4; weight=4; penwidth=0.3; color = 3]
+	"SplitTask_13192" -> "UnitOfWorkFactory_9347" [label=4; weight=4; penwidth=0.3; color = 3]
+	"TransactionalUnitOfWorkFactory_24114" -> "UnitOfWorkFactory_9347" [label=4; weight=4; penwidth=0.3; color = 3]
+	"UnitOfWork$UnitOfWorkProcessingContext_23798" -> "ApplicationContext_14387" [label=4; weight=4; penwidth=0.3; color = 3]
+	"UnitOfWork$UnitOfWorkProcessingContext$CauseAndPhase_23799" -> "ProcessingLifecycle$Phase_6935" [label=4; weight=4; penwidth=0.3; color = 3]
+	"WorkPackage_13637" -> "UnitOfWorkFactory_9347" [label=4; weight=4; penwidth=0.3; color = 3]
+	"AxonTestGiven_27599" -> "UnitOfWorkFactory_9347" [label=3; weight=3; penwidth=0.3; color = 3]
+	"AxonTestGiven_27599" -> "ProcessingContext_6936" [label=3; weight=3; penwidth=0.3; color = 3]
+	"AxonTestWhen_27589" -> "UnitOfWorkFactory_9347" [label=3; weight=3; penwidth=0.3; color = 3]
+	"AxonTestWhen_27589" -> "ProcessingContext_6936" [label=3; weight=3; penwidth=0.3; color = 3]
+	"Coordinator$CoordinationTask_13189" -> "UnitOfWorkFactory_9347" [label=3; weight=3; penwidth=0.3; color = 3]
+	"Coordinator$CoordinationTask_13189" -> "ProcessingContext_6936" [label=3; weight=3; penwidth=0.3; color = 3]
+	"EventProcessorControlService_4189" -> "SubscribingEventProcessor_15611" [label=3; weight=3; penwidth=0.3; color = 3]
+	"MergeTask_14623" -> "FutureUtils_43624" [label=3; weight=3; penwidth=0.3; color = 3]
+	"PooledStreamingEventProcessor_13624" -> "UnitOfWorkFactory_9347" [label=3; weight=3; penwidth=0.3; color = 3]
+	"SimpleUnitOfWorkFactory_16703" -> "ApplicationContext_14387" [label=3; weight=3; penwidth=0.3; color = 3]
+	"UnitOfWork$UnitOfWorkProcessingContext_23798" -> "ProcessingLifecycle_14388" [label=3; weight=3; penwidth=0.3; color = 3]
+	"AxonTestGiven_27599" -> "AxonTestWhen_27589" [label=2; weight=2; penwidth=0.3; color = 3]
+	"ClaimTask_14626" -> "WorkPackage_13637" [label=2; weight=2; penwidth=0.3; color = 3]
+	"ClaimTask_14626" -> "ProcessingContext_6936" [label=2; weight=2; penwidth=0.3; color = 3]
+	"ClaimTask_14626" -> "FutureUtils_43624" [label=2; weight=2; penwidth=0.3; color = 3]
+	"Coordinator_13634" -> "UnitOfWorkFactory_9347" [label=2; weight=2; penwidth=0.3; color = 3]
+	"Coordinator_13634" -> "WorkPackage_13637" [label=2; weight=2; penwidth=0.3; color = 3]
+	"Coordinator_13634" -> "SplitTask_13192" [label=2; weight=2; penwidth=0.3; color = 3]
+	"Coordinator_13634" -> "ClaimTask_14626" [label=2; weight=2; penwidth=0.3; color = 3]
+	"Coordinator_13634" -> "MergeTask_14623" [label=2; weight=2; penwidth=0.3; color = 3]
+	"PooledStreamingEventProcessor_13624" -> "WorkPackage_13637" [label=2; weight=2; penwidth=0.3; color = 3]
+	"ProcessingLifecycle_14388" -> "ProcessingLifecycle$ErrorHandler_6934" [label=2; weight=2; penwidth=0.3; color = 3]
+	"ProcessingLifecycle$ErrorHandler_6934" -> "ProcessingLifecycle$Phase_6935" [label=2; weight=2; penwidth=0.3; color = 3]
+	"SimpleCommandBus_9411" -> "ProcessingContext_6936" [label=2; weight=2; penwidth=0.3; color = 3]
+	"Coordinator_13634" -> "ProcessingContext_6936" [label=1; weight=1; penwidth=0.3; color = 3]
+	"EventProcessorControlService_4189" -> "ProcessingContext_6936" [label=1; weight=1; penwidth=0.3; color = 3]
+	"EventProcessorControlService_4189" -> "Internal_42019" [label=1; weight=1; penwidth=0.3; color = 3]
+	"EventProcessorControlService_4189" -> "FutureUtils_43624" [label=1; weight=1; penwidth=0.3; color = 3]
+	"ProcessingContext_6936" -> "ApplicationContext_14387" [label=1; weight=1; penwidth=0.3; color = 3]
+	"ProcessingContext_6936" -> "ProcessingLifecycle_14388" [label=1; weight=1; penwidth=0.3; color = 3]
+	"ProcessingLifecycle_14388" -> "FutureUtils_43624" [label=1; weight=1; penwidth=0.3; color = 3]
+	"ProcessingLifecycle$ErrorHandler_6934" -> "ProcessingContext_6936" [label=1; weight=1; penwidth=0.3; color = 3]
+	"SimpleQueryBus_17539" -> "FutureUtils_43624" [label=1; weight=1; penwidth=0.3; color = 3]
+	"SimpleUnitOfWorkFactory_16703" -> "UnitOfWorkFactory_9347" [label=1; weight=1; penwidth=0.3; color = 3]
+	"SplitTask_13192" -> "FutureUtils_43624" [label=1; weight=1; penwidth=0.3; color = 3]
+	"SubscribingEventProcessor_15611" -> "UnitOfWorkFactory_9347" [label=1; weight=1; penwidth=0.3; color = 3]
+	"UnitOfWork$UnitOfWorkProcessingContext$CauseAndPhase_23799" -> "UnitOfWork$UnitOfWorkProcessingContext_23798" [label=1; weight=1; penwidth=0.3; color = 3]
+	"UnitOfWork$UnitOfWorkProcessingContext$Status_23800" -> "UnitOfWork$UnitOfWorkProcessingContext_23798" [label=1; weight=1; penwidth=0.3; color = 3]
 }

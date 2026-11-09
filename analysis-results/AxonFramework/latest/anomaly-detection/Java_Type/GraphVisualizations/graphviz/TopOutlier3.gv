@@ -12,13 +12,9 @@ strict digraph TopOutlier3 {
     central [fontsize = 16;];
     central [color = 7; fillcolor = 5; penwidth = 3;];
 
-	graph   [label="Top Rank #3 Java Type Outlier\norg.axonframework.messaging.core.HandlerExecutionException\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: cluster probability\nlarge circle: < 25% percentile of cluster probability\nthick outline: > 80% percentile of distance to cluster center\n\n"];
-	central [label="🧩 outlier #3\nHandlerExecutionException"];
-	"CommandExecutionException_9404"  [label = "CommandExecutionException\n(30.06%)"; penwidth = 2; ]; "CommandExecutionException_9404" -> central [label=4; weight=4; penwidth=0.5];
-	"QueryExecutionException_16692"  [label = "QueryExecutionException\n(30.06%)"; penwidth = 2; ]; "QueryExecutionException_16692" -> central [label=4; weight=4; penwidth=0.5];
-	"ExceptionFactory_1042"  [label = "ExceptionFactory\n(94.39%)"; penwidth = 2; ]; "ExceptionFactory_1042" -> central [label=1; weight=1; penwidth=0.4];
-	"AxonException_41209"  [label = "AxonException\n(28.42%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "AxonException_41209" [label=2; weight=2; penwidth=0.4; color = 5];
-	"ExceptionFactory_1042" -> "AxonException_41209" [label=5; weight=5; penwidth=0.3; color = 3]
-	"ExceptionFactory_1042" -> "QueryExecutionException_16692" [label=4; weight=4; penwidth=0.3; color = 3]
-	"ExceptionFactory_1042" -> "CommandExecutionException_9404" [label=4; weight=4; penwidth=0.3; color = 3]
+	graph   [label="Top Rank #3 Java Type Outlier\norg.axonframework.messaging.eventhandling.processing.streaming.token.store.jpa.TokenEntry$PK\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: cluster probability\nlarge circle: < 25% percentile of cluster probability\nthick outline: > 80% percentile of distance to cluster center\n\n"];
+	central [label="🧩 outlier #3\nTokenEntry$PK"];
+	"JpaTokenStore_12616"  [label = "JpaTokenStore\n(23.67%)"; penwidth = 5; ]; "JpaTokenStore_12616" -> central [label=9; weight=9; penwidth=0.5];
+	"TokenEntry_12615"  [label = "TokenEntry\n(23.67%)"; penwidth = 5; ]; "TokenEntry_12615" -> central [label=2; weight=2; penwidth=0.4];
+	"JpaTokenStore_12616" -> "TokenEntry_12615" [label=34; weight=34; penwidth=0.3; color = 3]
 }

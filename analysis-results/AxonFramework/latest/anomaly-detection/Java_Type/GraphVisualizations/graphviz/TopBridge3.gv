@@ -12,21 +12,9 @@ strict digraph TopBridge3 {
     central [fontsize = 16;];
     central [color = 7; fillcolor = 5; penwidth = 3;];
 
-	graph   [label="Top Rank #3 Java Type Bridge\norg.axonframework.messaging.eventstreaming.OrEventCriteriaBuilder\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
-	central [label="🌉 bridge #3\nOrEventCriteriaBuilder"];
-	"EventCriteria_13621" [label = "EventCriteria"; ]; "EventCriteria_13621" -> central [label=3; weight=3; penwidth=0.4];
-	"EventCriteria_13621" [label = "EventCriteria"; color = 5; fillcolor = 1; ]; central -> "EventCriteria_13621" [label=6; weight=6; penwidth=0.5; color = 5];
-	"EventTypeRestrictableEventCriteria_13630" [label = "EventTypeRestrictableEventCriteria"; color = 5; fillcolor = 1; ]; central -> "EventTypeRestrictableEventCriteria_13630" [label=6; weight=6; penwidth=0.5; color = 5];
-	"EventTypeRestrictableOrEventCriteria_16685" [label = "EventTypeRestrictableOrEventCriteria"; color = 5; fillcolor = 1; ]; central -> "EventTypeRestrictableOrEventCriteria_16685" [label=2; weight=2; penwidth=0.4; color = 5];
-	"Tag_16810" [label = "Tag"; color = 5; fillcolor = 1; ]; central -> "Tag_16810" [label=2; weight=2; penwidth=0.4; color = 5];
-	"TagFilteredEventCriteria_16812" [label = "TagFilteredEventCriteria"; color = 5; fillcolor = 1; ]; central -> "TagFilteredEventCriteria_16812" [label=2; weight=2; penwidth=0.4; color = 5];
-	"EventTypeRestrictableEventCriteria_13630" -> "EventCriteria_13621" [label=6; weight=6; penwidth=0.3; color = 3]
-	"EventCriteria_13621" -> "Tag_16810" [label=5; weight=5; penwidth=0.3; color = 3]
-	"TagFilteredEventCriteria_16812" -> "Tag_16810" [label=5; weight=5; penwidth=0.3; color = 3]
-	"TagFilteredEventCriteria_16812" -> "EventCriteria_13621" [label=5; weight=5; penwidth=0.3; color = 3]
-	"EventCriteria_13621" -> "EventTypeRestrictableEventCriteria_13630" [label=4; weight=4; penwidth=0.3; color = 3]
-	"EventTypeRestrictableOrEventCriteria_16685" -> "EventCriteria_13621" [label=4; weight=4; penwidth=0.3; color = 3]
-	"EventTypeRestrictableOrEventCriteria_16685" -> "EventTypeRestrictableEventCriteria_13630" [label=4; weight=4; penwidth=0.3; color = 3]
-	"EventCriteria_13621" -> "TagFilteredEventCriteria_16812" [label=2; weight=2; penwidth=0.3; color = 3]
-	"TagFilteredEventCriteria_16812" -> "EventTypeRestrictableEventCriteria_13630" [label=1; weight=1; penwidth=0.3; color = 3]
+	graph   [label="Top Rank #3 Java Type Bridge\norg.axonframework.common.jdbc.ConnectionWrapperFactory$ConnectionCloseHandler\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
+	central [label="🌉 bridge #3\nConnectionWrapperFactory$ConnectionCloseHandler"];
+	"ConnectionWrapperFactory_42550" [label = "ConnectionWrapperFactory"; ]; "ConnectionWrapperFactory_42550" -> central [label=10; weight=10; penwidth=0.5];
+	"ConnectionWrapperFactory$NoOpCloseHandler_41221" [label = "ConnectionWrapperFactory$\nNoOpCloseHandler"; ]; "ConnectionWrapperFactory$NoOpCloseHandler_41221" -> central [label=2; weight=2; penwidth=0.4];
+	"ConnectionWrapperFactory_42550" -> "ConnectionWrapperFactory$NoOpCloseHandler_41221" [label=1; weight=1; penwidth=0.3; color = 3]
 }
