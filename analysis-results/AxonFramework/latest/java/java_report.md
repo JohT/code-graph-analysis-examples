@@ -1,6 +1,6 @@
 ---
 title: "Java Report"
-generated: "2026-11-09"
+generated: "2026-11-16"
 model_version: "v5.0.1"
 dataset: "AxonFramework-5.1.2"
 authors: ["JohT/code-graph-analysis-pipeline"]

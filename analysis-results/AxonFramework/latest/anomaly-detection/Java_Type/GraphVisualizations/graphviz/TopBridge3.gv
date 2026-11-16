@@ -12,9 +12,9 @@ strict digraph TopBridge3 {
     central [fontsize = 16;];
     central [color = 7; fillcolor = 5; penwidth = 3;];
 
-	graph   [label="Top Rank #3 Java Type Bridge\norg.axonframework.common.jdbc.ConnectionWrapperFactory$ConnectionCloseHandler\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
-	central [label="🌉 bridge #3\nConnectionWrapperFactory$ConnectionCloseHandler"];
-	"ConnectionWrapperFactory_42550" [label = "ConnectionWrapperFactory"; ]; "ConnectionWrapperFactory_42550" -> central [label=10; weight=10; penwidth=0.5];
-	"ConnectionWrapperFactory$NoOpCloseHandler_41221" [label = "ConnectionWrapperFactory$\nNoOpCloseHandler"; ]; "ConnectionWrapperFactory$NoOpCloseHandler_41221" -> central [label=2; weight=2; penwidth=0.4];
-	"ConnectionWrapperFactory_42550" -> "ConnectionWrapperFactory$NoOpCloseHandler_41221" [label=1; weight=1; penwidth=0.3; color = 3]
+	graph   [label="Top Rank #3 Java Type Bridge\norg.axonframework.common.jdbc.ConnectionWrapperFactory\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
+	central [label="🌉 bridge #3\nConnectionWrapperFactory"];
+	"ConnectionWrapperFactory$ConnectionCloseHandler_41721" [label = "ConnectionWrapperFactory$\nConnectionCloseHandler"; color = 5; fillcolor = 1; ]; central -> "ConnectionWrapperFactory$ConnectionCloseHandler_41721" [label=10; weight=10; penwidth=0.5; color = 5];
+	"ConnectionWrapperFactory$NoOpCloseHandler_41221" [label = "ConnectionWrapperFactory$\nNoOpCloseHandler"; color = 5; fillcolor = 1; ]; central -> "ConnectionWrapperFactory$NoOpCloseHandler_41221" [label=1; weight=1; penwidth=0.4; color = 5];
+	"ConnectionWrapperFactory$NoOpCloseHandler_41221" -> "ConnectionWrapperFactory$ConnectionCloseHandler_41721" [label=2; weight=2; penwidth=0.3; color = 3]
 }
