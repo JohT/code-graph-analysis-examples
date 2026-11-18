@@ -1,6 +1,6 @@
 ---
 title: "Internal Dependencies Report"
-generated: "2026-11-16"
+generated: "2026-11-18"
 model_version: "v5.0.1"
 dataset: "react-router-7.18.5"
 authors: ["JohT/code-graph-analysis-pipeline"]
@@ -79,7 +79,7 @@ Classes used across artifacts — extraction candidates. High reuse = type grown
 | --- | --- | --- | --- | --- | --- |
 | 0 | 147 | 46.96 | 67 | 85 | ["./worker.ts uses ./index.ts","./index.ts uses ./worker.ts","./server.ts uses ./binaryTypes.ts","./server.ts uses ./index.ts"] |
 | 3 | 42 | 13.42 | 23 | 32 | ["./index.ts uses ./sessions/workersKVStorage.ts","./index.ts uses ./sessions/arcTableSessionStorage.ts","./index.ts uses ./sessions/fileStorage.ts","./config/config.ts uses ./config.ts"] |
-| 4 | 83 | 26.52 | 34 | 37 | ["./vite/rsc/virtual-route-config.ts uses ./routes.ts","./config/config.ts uses ./cli/detectPackageManager.ts","./vite/optimize-deps-entries.ts uses ./config/config.ts","./cli/commands.ts uses ./config/config.ts"] |
+| 4 | 83 | 26.52 | 34 | 37 | ["./vite/rsc/virtual-route-config.ts uses ./routes.ts","./config/config.ts uses ./cli/detectPackageManager.ts","./vite/optimize-deps-entries.ts uses ./config/config.ts","./vite/build.ts uses ./config/config.ts"] |
 | 5 | 39 | 12.46 | 21 | 15 | ["./vite/rsc/plugin.ts uses ./config/config.ts","./vite/rsc/plugin.ts uses ./config/routes.ts","./vite/rsc/virtual-route-config.ts uses ./config/routes.ts","./vite/rsc/plugin.ts uses ./typegen/index.ts"] |
 | 6 | 2 | 0.64 | 2 | 2 | ["./vendor/turbo-stream-v2/unflatten.ts uses ./lib/router/utils.ts","./lib/server-runtime/single-fetch.ts uses ./vendor/turbo-stream-v2/turbo-stream.ts"] |
 
@@ -210,11 +210,11 @@ Graph diameter = longest shortest path among module pairs. Higher = deeper trans
 | 8 | 13 | 7 | 5 | ["./index-react-server-client.ts ->./lib/types/route-module.ts","./lib/router/navigation.ts ->./lib/types/route-module.ts"] |
 | 7 | 35 | 14 | 8 | ["./lib/dom/ssr/routeModules.ts ->./lib/dom/ssr/markup.ts","./lib/server-runtime/entry.ts ->./lib/dom/ssr/markup.ts"] |
 | 6 | 81 | 21 | 23 | ["./lib/dom/ssr/routeModules.ts ->./lib/actions.ts","./lib/server-runtime/entry.ts ->./lib/actions.ts"] |
-| 5 | 152 | 25 | 27 | ["./index-react-server-client.ts ->./lib/actions.ts","./lib/dom/ssr/links.ts ->./lib/actions.ts"] |
-| 4 | 187 | 32 | 53 | ["./vite/styles.ts ->./typegen/params.ts","./vite/styles.ts ->./typegen/route.ts"] |
-| 3 | 175 | 41 | 65 | ["./vendor/turbo-stream-v2/turbo-stream.ts ->./lib/router/history.ts","./vendor/turbo-stream-v2/turbo-stream.ts ->./lib/router/url.ts"] |
-| 2 | 292 | 58 | 88 | ["./vendor/turbo-stream-v2/unflatten.ts ->./lib/router/history.ts","./vendor/turbo-stream-v2/unflatten.ts ->./lib/router/url.ts"] |
-| 1 | 300 | 87 | 115 | ["./vendor/turbo-stream-v2/unflatten.ts ->./lib/router/utils.ts","./vendor/turbo-stream-v2/turbo-stream.ts ->./vendor/turbo-stream-v2/flatten.ts"] |
+| 5 | 152 | 25 | 27 | ["./typegen/index.ts ->./config/is-react-router-repo.ts","./index-react-server-client.ts ->./lib/actions.ts"] |
+| 4 | 187 | 32 | 53 | ["./cli/run.ts ->./manifest.ts","./cli/run.ts ->./routes.ts"] |
+| 3 | 175 | 41 | 65 | ["./index.ts ->./prompts-prompt-base.ts","./cli/run.ts ->./config.ts"] |
+| 2 | 292 | 58 | 88 | ["./worker.ts ->./sessions/workersKVStorage.ts","./index.ts ->./binaryTypes.ts"] |
+| 1 | 300 | 87 | 115 | ["./worker.ts ->./index.ts","./index.ts ->./worker.ts"] |
 
 [Full data per project](./Typescript_Module/Module_all_pairs_shortest_paths_distribution_per_project.csv)
 
