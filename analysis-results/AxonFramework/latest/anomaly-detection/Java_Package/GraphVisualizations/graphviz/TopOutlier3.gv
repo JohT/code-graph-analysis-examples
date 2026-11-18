@@ -12,52 +12,13 @@ strict digraph TopOutlier3 {
     central [fontsize = 16;];
     central [color = 7; fillcolor = 5; penwidth = 3;];
 
-	graph   [label="Top Rank #3 Java Package Outlier\nio.axoniq.framework.axonserver.connector.command\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: cluster probability\nlarge circle: < 25% percentile of cluster probability\nthick outline: > 80% percentile of distance to cluster center\n\n"];
-	central [label="🧩 outlier #3\ncommand"];
-	"configuration_1040"  [label = "configuration\n(100.0%)"; penwidth = 5; ]; "configuration_1040" -> central [label=8; weight=8; penwidth=0.5];
-	"core_6897"  [label = "core\n(68.74%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "core_6897" [label=17; weight=17; penwidth=0.7; color = 5];
-	"commandhandling_6862"  [shape = "circle"; height=1.8; label = "commandhandling\n(41.64%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "commandhandling_6862" [label=12; weight=12; penwidth=0.6; color = 5];
-	"lifecycle_41203"  [shape = "circle"; height=1.8; label = "lifecycle\n(42.9%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "lifecycle_41203" [label=12; weight=12; penwidth=0.6; color = 5];
-	"shared_1032"  [shape = "circle"; height=1.8; label = "shared\n(42.9%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "shared_1032" [label=5; weight=5; penwidth=0.5; color = 5];
-	"api_1036"  [label = "api\n(100.0%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "api_1036" [label=4; weight=4; penwidth=0.5; color = 5];
-	"common_41193"  [label = "common\n(49.93%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "common_41193" [label=4; weight=4; penwidth=0.5; color = 5];
-	"util_1034"  [shape = "circle"; height=1.8; label = "util\n(0.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "util_1034" [label=4; weight=4; penwidth=0.5; color = 5];
-	"annotation_41195"  [label = "annotation\n(97.23%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "annotation_41195" [label=1; weight=1; penwidth=0.4; color = 5];
-	"infra_41202"  [label = "infra\n(49.66%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "infra_41202" [label=1; weight=1; penwidth=0.4; color = 5];
-	"conversion_6904"  [shape = "circle"; height=1.8; label = "conversion\n(0.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "conversion_6904" [label=0; weight=0; penwidth=0.4; color = 5];
-	"conversion_5227"  [label = "conversion\n(100.0%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "conversion_5227" [label=0; weight=0; penwidth=0.4; color = 5];
-	"unitofwork_6906"  [label = "unitofwork\n(49.93%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "unitofwork_6906" [label=0; weight=0; penwidth=0.4; color = 5];
-	"commandhandling_6862" -> "core_6897" [label=68; weight=68; penwidth=0.3; color = 3]
-	"configuration_1040" -> "api_1036" [label=54; weight=54; penwidth=0.3; color = 3]
-	"unitofwork_6906" -> "core_6897" [label=50; weight=50; penwidth=0.3; color = 3]
-	"core_6897" -> "common_41193" [label=44; weight=44; penwidth=0.3; color = 3]
-	"commandhandling_6862" -> "common_41193" [label=15; weight=15; penwidth=0.3; color = 3]
-	"api_1036" -> "common_41193" [label=11; weight=11; penwidth=0.3; color = 3]
-	"unitofwork_6906" -> "common_41193" [label=11; weight=11; penwidth=0.3; color = 3]
-	"core_6897" -> "conversion_5227" [label=9; weight=9; penwidth=0.3; color = 3]
-	"shared_1032" -> "common_41193" [label=9; weight=9; penwidth=0.3; color = 3]
-	"shared_1032" -> "api_1036" [label=8; weight=8; penwidth=0.3; color = 3]
-	"core_6897" -> "annotation_41195" [label=7; weight=7; penwidth=0.3; color = 3]
-	"conversion_5227" -> "common_41193" [label=6; weight=6; penwidth=0.3; color = 3]
-	"shared_1032" -> "commandhandling_6862" [label=6; weight=6; penwidth=0.3; color = 3]
-	"commandhandling_6862" -> "conversion_5227" [label=5; weight=5; penwidth=0.3; color = 3]
-	"core_6897" -> "unitofwork_6906" [label=5; weight=5; penwidth=0.3; color = 3]
-	"annotation_41195" -> "common_41193" [label=4; weight=4; penwidth=0.3; color = 3]
-	"commandhandling_6862" -> "unitofwork_6906" [label=3; weight=3; penwidth=0.3; color = 3]
-	"infra_41202" -> "common_41193" [label=3; weight=3; penwidth=0.3; color = 3]
-	"shared_1032" -> "core_6897" [label=3; weight=3; penwidth=0.3; color = 3]
-	"api_1036" -> "util_1034" [label=2; weight=2; penwidth=0.3; color = 3]
-	"commandhandling_6862" -> "infra_41202" [label=2; weight=2; penwidth=0.3; color = 3]
-	"configuration_1040" -> "conversion_6904" [label=2; weight=2; penwidth=0.3; color = 3]
-	"conversion_6904" -> "core_6897" [label=2; weight=2; penwidth=0.3; color = 3]
-	"lifecycle_41203" -> "common_41193" [label=2; weight=2; penwidth=0.3; color = 3]
-	"configuration_1040" -> "common_41193" [label=1; weight=1; penwidth=0.3; color = 3]
-	"conversion_6904" -> "conversion_5227" [label=1; weight=1; penwidth=0.3; color = 3]
-	"conversion_6904" -> "annotation_41195" [label=1; weight=1; penwidth=0.3; color = 3]
-	"conversion_5227" -> "infra_41202" [label=1; weight=1; penwidth=0.3; color = 3]
-	"conversion_5227" -> "annotation_41195" [label=1; weight=1; penwidth=0.3; color = 3]
-	"shared_1032" -> "annotation_41195" [label=1; weight=1; penwidth=0.3; color = 3]
-	"unitofwork_6906" -> "annotation_41195" [label=1; weight=1; penwidth=0.3; color = 3]
-	"configuration_1040" -> "conversion_5227" [label=0; weight=0; penwidth=0.3; color = 3]
-	"conversion_6904" -> "infra_41202" [label=0; weight=0; penwidth=0.3; color = 3]
+	graph   [label="Top Rank #3 Java Package Outlier\norg.axonframework.common.lifecycle\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: cluster probability\nlarge circle: < 25% percentile of cluster probability\nthick outline: > 80% percentile of distance to cluster center\n\n"];
+	central [label="🧩 outlier #3\nlifecycle"];
+	"query_1035"  [shape = "circle"; height=1.8; label = "query\n(68.21%)"; penwidth = 2; ]; "query_1035" -> central [label=16; weight=16; penwidth=0.7];
+	"command_1041"  [shape = "circle"; height=1.8; label = "command\n(68.21%)"; penwidth = 5; ]; "command_1041" -> central [label=12; weight=12; penwidth=0.6];
+	"configuration_41206"  [shape = "circle"; height=1.8; label = "configuration\n(0.0%)"; penwidth = 2; ]; "configuration_41206" -> central [label=2; weight=2; penwidth=0.4];
+	"common_41193"  [label = "common\n(75.07%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "common_41193" [label=2; weight=2; penwidth=0.4; color = 5];
+	"configuration_41206" -> "common_41193" [label=42; weight=42; penwidth=0.3; color = 3]
+	"query_1035" -> "common_41193" [label=10; weight=10; penwidth=0.3; color = 3]
+	"command_1041" -> "common_41193" [label=4; weight=4; penwidth=0.3; color = 3]
 }

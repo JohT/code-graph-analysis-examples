@@ -1,6 +1,6 @@
 ---
 title: "Internal Dependencies Report"
-generated: "2026-11-16"
+generated: "2026-11-18"
 model_version: "v5.0.1"
 dataset: "AxonFramework-5.1.2"
 authors: ["JohT/code-graph-analysis-pipeline"]
@@ -196,7 +196,7 @@ Graph diameter = longest shortest path. Higher = deeper transitive dependencies.
 | 4 | 597 | 94 | 49 | ["/io/axoniq/framework/springboot/autoconfig ->/io/axoniq/framework/axonserver/connector/api/query","/io/axoniq/framework/springboot/autoconfig ->/io/axoniq/framework/axonserver/connector/api/command"] |
 | 3 | 976 | 100 | 65 | ["/io/axoniq/framework/springboot/autoconfig ->/io/axoniq/framework/axonserver/connector/shared","/org/axonframework/messaging/core/unitofwork/annotation ->/org/axonframework/conversion"] |
 | 2 | 990 | 108 | 80 | ["/io/axoniq/framework/springboot/autoconfig ->/io/axoniq/framework/axonserver/connector/snapshot","/io/axoniq/framework/springboot ->/io/axoniq/framework/axonserver/connector/util"] |
-| 1 | 777 | 118 | 98 | ["/org/axonframework/extension/metrics/micrometer/springboot ->/org/axonframework/extension/metrics/micrometer","/io/axoniq/framework/springboot ->/io/axoniq/framework/axonserver/connector/api"] |
+| 1 | 777 | 118 | 98 | ["/org/axonframework/extension/metrics/micrometer/springboot ->/org/axonframework/extension/metrics/micrometer","/org/axonframework/extension/metrics/micrometer ->/org/axonframework/extension/metrics/micrometer/reservoir"] |
 
 [Full data per project](./Java_Package/Package_all_pairs_shortest_paths_distribution_per_project.csv)
 

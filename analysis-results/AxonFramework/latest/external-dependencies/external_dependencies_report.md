@@ -1,6 +1,6 @@
 ---
 title: "External Dependencies Report"
-generated: "2026-11-16"
+generated: "2026-11-18"
 model_version: "v5.0.1"
 dataset: "AxonFramework-5.1.2"
 authors: ["JohT/code-graph-analysis-pipeline"]
