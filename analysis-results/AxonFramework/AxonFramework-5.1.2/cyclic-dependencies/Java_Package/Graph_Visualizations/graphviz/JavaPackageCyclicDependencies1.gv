@@ -12,25 +12,25 @@ strict digraph cycle {
         "MethodInvokingMessageHandlingMember";
         "WrappedMessageHandlingMember";
         "AnnotatedMessageHandlingMemberDefinition";
-        "MessageIdentifierParameterResolverFactory$MessageIdentifierParameterResolver";
         "MessageHandler";
+        "MessageIdentifierParameterResolverFactory$MessageIdentifierParameterResolver";
         "DefaultParameterResolverFactory$MessageParameterResolver";
         "AggregateTypeParameterResolverFactory$AggregateTypeParameterResolver";
         "MessageHandlingMember";
         "ChainedMessageHandlerInterceptorMember";
         "DefaultParameterResolverFactory";
-        "Message_pkg" [label="Message"];
         "InterceptorChainParameterResolverFactory";
+        "Message_pkg" [label="Message"];
         "SourceIdParameterResolverFactory$SourceIdParameterResolver";
-        "AnnotatedHandlerInspector";
         "MultiHandlerDefinition";
+        "AnnotatedHandlerInspector";
         "HandlerAttributes";
         "HandlerDefinition";
         "MessageStreamResolverUtils";
         "PayloadParameterResolver";
         "DefaultParameterResolverFactory$MetadataParameterResolver";
-        "DefaultParameterResolverFactory$AnnotatedMetadataParameterResolver";
         "AnnotatedHandlerAttributes";
+        "DefaultParameterResolverFactory$AnnotatedMetadataParameterResolver";
         "AnnotationMessageTypeResolver";
     }
 
@@ -40,11 +40,11 @@ strict digraph cycle {
         fillcolor="peachpuff";
         "LegacyResources";
         "MessageHandlerInterceptorChain";
-        "ClassBasedMessageTypeResolver";
         "Context$ResourceKey";
+        "ClassBasedMessageTypeResolver";
+        "GenericMessage";
         "DelayedMessageStream";
         "MessageStream$Entry";
-        "GenericMessage";
         "Metadata";
         "QualifiedName";
         "MessageTypeResolver";
@@ -53,8 +53,8 @@ strict digraph cycle {
         "FluxUtils";
         "Message_dep" [label="Message"];
         "MonoUtils";
-        "MessageStream$Empty";
         "MessageStream$Single";
+        "MessageStream$Empty";
         "MessageType";
     }
 
@@ -80,8 +80,8 @@ strict digraph cycle {
     "WrappedMessageHandlingMember" -> "MessageStream" [color="#6699CC"; penwidth="0.5"];
     "AnnotationMessageTypeResolver" -> "QualifiedName" [color="#6699CC"; penwidth="0.5"];
     "AnnotatedHandlerInspector" -> "Message_dep" [color="#6699CC"; penwidth="0.5"];
-    "MethodInvokingMessageHandlingMember" -> "MessageStream$Entry" [color="#6699CC"; penwidth="0.5"];
     "DefaultParameterResolverFactory$AnnotatedMetadataParameterResolver" -> "Message_dep" [color="#6699CC"; penwidth="0.5"];
+    "MethodInvokingMessageHandlingMember" -> "MessageStream$Entry" [color="#6699CC"; penwidth="0.5"];
     "DefaultParameterResolverFactory" -> "Metadata" [color="#6699CC"; penwidth="0.5"];
     "MessageStreamResolverUtils" -> "MessageStream" [color="#6699CC"; penwidth="0.5"];
     "DefaultParameterResolverFactory" -> "Message_dep" [color="#6699CC"; penwidth="0.5"];

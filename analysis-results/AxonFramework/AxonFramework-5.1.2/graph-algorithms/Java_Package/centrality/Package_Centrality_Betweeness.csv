@@ -46,7 +46,7 @@
 "org.axonframework.modelling.entity.annotation","annotation","centralityBetweenness",26.333333333333336,""
 "org.axonframework.messaging.tracing","tracing","centralityBetweenness",25,""
 "org.axonframework.messaging.core.correlation","correlation","centralityBetweenness",20,""
-"org.axonframework.common.annotation","annotation","centralityBetweenness",16.333333333333332,""
+"org.axonframework.common.annotation","annotation","centralityBetweenness",16.333333333333336,""
 "org.axonframework.messaging.eventhandling.processing.streaming","streaming","centralityBetweenness",15.833333333333332,""
 "org.axonframework.eventsourcing.annotation.reflection","reflection","centralityBetweenness",14.9,""
 "org.axonframework.test","test","centralityBetweenness",12.5,""

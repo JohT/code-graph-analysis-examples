@@ -19,21 +19,21 @@ strict digraph TopBottleneck3 {
 	"ProcessingLifecycle_14388"  [label = "ProcessingLifecycle\n(2523.44)"; penwidth = 5; ]; "ProcessingLifecycle_14388" -> central [label=18; weight=18; penwidth=0.7];
 	"PooledStreamingEventProcessor_13624"  [label = "PooledStreamingEventProcessor\n(832.76)"; penwidth = 5; ]; "PooledStreamingEventProcessor_13624" -> central [label=16; weight=16; penwidth=0.6];
 	"WorkPackage_13637"  [label = "WorkPackage\n(374.83)"; penwidth = 2; ]; "WorkPackage_13637" -> central [label=16; weight=16; penwidth=0.6];
-	"EventSourcingRepository_36238"  [label = "EventSourcingRepository\n(25.5)"; penwidth = 2; ]; "EventSourcingRepository_36238" -> central [label=15; weight=15; penwidth=0.6];
+	"EventSourcingRepository_36237"  [label = "EventSourcingRepository\n(25.5)"; penwidth = 2; ]; "EventSourcingRepository_36237" -> central [label=15; weight=15; penwidth=0.6];
 	"InterceptingEventStore_38826"  [label = "InterceptingEventStore\n(61.58)"; penwidth = 2; ]; "InterceptingEventStore_38826" -> central [label=15; weight=15; penwidth=0.6];
 	"SimpleEventBus_11544"  [label = "SimpleEventBus\n(31.17)"; penwidth = 2; ]; "SimpleEventBus_11544" -> central [label=14; weight=14; penwidth=0.6];
 	"InMemoryTokenStore_11557"  [label = "InMemoryTokenStore\n(34.0)"; penwidth = 2; ]; "InMemoryTokenStore_11557" -> central [label=13; weight=13; penwidth=0.6];
 	"JpaTokenStore_12616"  [label = "JpaTokenStore\n(0.0)"; penwidth = 2; ]; "JpaTokenStore_12616" -> central [label=13; weight=13; penwidth=0.6];
 	"SimpleQueryBus_17539"  [label = "SimpleQueryBus\n(59.65)"; penwidth = 2; ]; "SimpleQueryBus_17539" -> central [label=13; weight=13; penwidth=0.6];
-	"SimpleRepository_34339"  [label = "SimpleRepository\n(38.83)"; penwidth = 2; ]; "SimpleRepository_34339" -> central [label=13; weight=13; penwidth=0.6];
+	"SimpleRepository_34333"  [label = "SimpleRepository\n(38.83)"; penwidth = 2; ]; "SimpleRepository_34333" -> central [label=13; weight=13; penwidth=0.6];
 	"JdbcTokenStore_12610"  [label = "JdbcTokenStore\n(0.0)"; penwidth = 2; ]; "JdbcTokenStore_12610" -> central [label=12; weight=12; penwidth=0.6];
 	"StorageEngineBackedEventStore_38820"  [label = "StorageEngineBackedEventStore\n(68.7)"; penwidth = 2; ]; "StorageEngineBackedEventStore_38820" -> central [label=12; weight=12; penwidth=0.6];
 	"TokenStore_11378"  [label = "TokenStore\n(24.0)"; penwidth = 2; ]; "TokenStore_11378" -> central [label=12; weight=12; penwidth=0.6];
-	"UnitOfWork$UnitOfWorkProcessingContext_23798"  [label = "UnitOfWork$\nUnitOfWorkProcessingContext\n(29.0)"; penwidth = 2; ]; "UnitOfWork$UnitOfWorkProcessingContext_23798" -> central [label=12; weight=12; penwidth=0.6];
+	"UnitOfWork$UnitOfWorkProcessingContext_23801"  [label = "UnitOfWork$\nUnitOfWorkProcessingContext\n(29.0)"; penwidth = 2; ]; "UnitOfWork$UnitOfWorkProcessingContext_23801" -> central [label=12; weight=12; penwidth=0.6];
 	"AnnotationBasedEventSourcedEntityFactory$ScannedEntityCreator_36727"  [label = "AnnotationBasedEventSourcedEntityFactory$\nScannedEntityCreator\n(0.0)"; penwidth = 2; ]; "AnnotationBasedEventSourcedEntityFactory$ScannedEntityCreator_36727" -> central [label=10; weight=10; penwidth=0.5];
 	"ProcessorEventHandlingComponents_14383"  [label = "ProcessorEventHandlingComponents\n(206.0)"; penwidth = 2; ]; "ProcessorEventHandlingComponents_14383" -> central [label=9; weight=9; penwidth=0.5];
 	"QueryGateway_17785"  [label = "QueryGateway\n(4.33)"; penwidth = 2; ]; "QueryGateway_17785" -> central [label=9; weight=9; penwidth=0.5];
-	"UnitOfWorkTimeoutInterceptorBuilder_25932"  [label = "UnitOfWorkTimeoutInterceptorBuilder\n(0.0)"; penwidth = 2; ]; "UnitOfWorkTimeoutInterceptorBuilder_25932" -> central [label=9; weight=9; penwidth=0.5];
+	"UnitOfWorkTimeoutInterceptorBuilder_25926"  [label = "UnitOfWorkTimeoutInterceptorBuilder\n(0.0)"; penwidth = 2; ]; "UnitOfWorkTimeoutInterceptorBuilder_25926" -> central [label=9; weight=9; penwidth=0.5];
 	"DefaultDispatchInterceptorRegistry_21815"  [label = "DefaultDispatchInterceptorRegistry\n(236.71)"; penwidth = 2; ]; "DefaultDispatchInterceptorRegistry_21815" -> central [label=8; weight=8; penwidth=0.5];
 	"InterceptorChainParameterResolverFactory_19601"  [label = "InterceptorChainParameterResolverFactory\n(15.33)"; penwidth = 2; ]; "InterceptorChainParameterResolverFactory_19601" -> central [label=8; weight=8; penwidth=0.5];
 	"AnnotatedEventHandlingComponent_10372"  [label = "AnnotatedEventHandlingComponent\n(498.97)"; penwidth = 2; ]; "AnnotatedEventHandlingComponent_10372" -> central [label=7; weight=7; penwidth=0.5];
@@ -60,28 +60,28 @@ strict digraph TopBottleneck3 {
 	"ApplicationContext_14387"  [label = "ApplicationContext\n(0.0)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "ApplicationContext_14387" [label=1; weight=1; penwidth=0.4; color = 5];
 	"ProcessingLifecycle_14388"  [label = "ProcessingLifecycle\n(2523.44)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "ProcessingLifecycle_14388" [label=1; weight=1; penwidth=0.4; color = 5];
 	"ResourceOverridingProcessingContext_20947" -> "ProcessingLifecycle_14388" [label=17; weight=17; penwidth=0.3; color = 3]
-	"UnitOfWork$UnitOfWorkProcessingContext_23798" -> "Context$ResourceKey_9342" [label=13; weight=13; penwidth=0.3; color = 3]
+	"UnitOfWork$UnitOfWorkProcessingContext_23801" -> "Context$ResourceKey_9342" [label=13; weight=13; penwidth=0.3; color = 3]
 	"ResourceOverridingProcessingContext_20947" -> "Context$ResourceKey_9342" [label=12; weight=12; penwidth=0.3; color = 3]
 	"DefaultEventStoreTransaction_38757" -> "Context$ResourceKey_9342" [label=11; weight=11; penwidth=0.3; color = 3]
-	"InMemoryRepository_34677" -> "SimpleRepository_34339" [label=9; weight=9; penwidth=0.3; color = 3]
+	"InMemoryRepository_34677" -> "SimpleRepository_34333" [label=9; weight=9; penwidth=0.3; color = 3]
 	"MergeTask_14623" -> "TokenStore_11378" [label=8; weight=8; penwidth=0.3; color = 3]
 	"PooledStreamingEventProcessor_13624" -> "ProcessorEventHandlingComponents_14383" [label=8; weight=8; penwidth=0.3; color = 3]
 	"Context_11989" -> "Context$ResourceKey_9342" [label=6; weight=6; penwidth=0.3; color = 3]
 	"InterceptingEventStore_38826" -> "Context$ResourceKey_9342" [label=5; weight=5; penwidth=0.3; color = 3]
 	"PooledStreamingEventProcessor_13624" -> "TokenStore_11378" [label=5; weight=5; penwidth=0.3; color = 3]
 	"MergeTask_14623" -> "WorkPackage_13637" [label=4; weight=4; penwidth=0.3; color = 3]
-	"UnitOfWork$UnitOfWorkProcessingContext_23798" -> "ApplicationContext_14387" [label=4; weight=4; penwidth=0.3; color = 3]
+	"UnitOfWork$UnitOfWorkProcessingContext_23801" -> "ApplicationContext_14387" [label=4; weight=4; penwidth=0.3; color = 3]
 	"EventAppender_10351" -> "Context$ResourceKey_9342" [label=3; weight=3; penwidth=0.3; color = 3]
-	"EventSourcingRepository_36238" -> "Context$ResourceKey_9342" [label=3; weight=3; penwidth=0.3; color = 3]
+	"EventSourcingRepository_36237" -> "Context$ResourceKey_9342" [label=3; weight=3; penwidth=0.3; color = 3]
 	"InterceptorChainParameterResolverFactory_19601" -> "Context$ResourceKey_9342" [label=3; weight=3; penwidth=0.3; color = 3]
 	"QueryUpdateEmitter_16690" -> "Context$ResourceKey_9342" [label=3; weight=3; penwidth=0.3; color = 3]
 	"SimpleEventBus_11544" -> "Context$ResourceKey_9342" [label=3; weight=3; penwidth=0.3; color = 3]
 	"SimpleQueryBus_17539" -> "Context$ResourceKey_9342" [label=3; weight=3; penwidth=0.3; color = 3]
-	"SimpleRepository_34339" -> "Context$ResourceKey_9342" [label=3; weight=3; penwidth=0.3; color = 3]
+	"SimpleRepository_34333" -> "Context$ResourceKey_9342" [label=3; weight=3; penwidth=0.3; color = 3]
 	"StorageEngineBackedEventStore_38820" -> "Context$ResourceKey_9342" [label=3; weight=3; penwidth=0.3; color = 3]
 	"StorageEngineBackedEventStore_38820" -> "DefaultEventStoreTransaction_38757" [label=3; weight=3; penwidth=0.3; color = 3]
-	"UnitOfWork$UnitOfWorkProcessingContext_23798" -> "ProcessingLifecycle_14388" [label=3; weight=3; penwidth=0.3; color = 3]
-	"UnitOfWorkTimeoutInterceptorBuilder_25932" -> "Context$ResourceKey_9342" [label=3; weight=3; penwidth=0.3; color = 3]
+	"UnitOfWork$UnitOfWorkProcessingContext_23801" -> "ProcessingLifecycle_14388" [label=3; weight=3; penwidth=0.3; color = 3]
+	"UnitOfWorkTimeoutInterceptorBuilder_25926" -> "Context$ResourceKey_9342" [label=3; weight=3; penwidth=0.3; color = 3]
 	"WorkPackage_13637" -> "Context_11989" [label=3; weight=3; penwidth=0.3; color = 3]
 	"WorkPackage_13637" -> "TokenStore_11378" [label=3; weight=3; penwidth=0.3; color = 3]
 	"EntityManagerTransactionManager_25177" -> "ProcessingLifecycle_14388" [label=2; weight=2; penwidth=0.3; color = 3]

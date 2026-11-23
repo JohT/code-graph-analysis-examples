@@ -14,24 +14,24 @@ strict digraph TopOutlier2 {
 
 	graph   [label="Top Rank #2 Java Package Outlier\norg.axonframework.eventsourcing.snapshot.api\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: cluster probability\nlarge circle: < 25% percentile of cluster probability\nthick outline: > 80% percentile of distance to cluster center\n\n"];
 	central [label="🧩 outlier #2\napi"];
-	"snapshot_1033"  [shape = "circle"; height=1.8; label = "snapshot\n(65.72%)"; penwidth = 2; ]; "snapshot_1033" -> central [label=16; weight=16; penwidth=0.7];
-	"handler_36233"  [shape = "circle"; height=1.8; label = "handler\n(65.72%)"; penwidth = 2; ]; "handler_36233" -> central [label=13; weight=13; penwidth=0.6];
-	"eventstore_36234"  [label = "eventstore\n(100.0%)"; penwidth = 2; ]; "eventstore_36234" -> central [label=7; weight=7; penwidth=0.5];
-	"inmemory_36230"  [shape = "circle"; height=1.8; label = "inmemory\n(60.82%)"; penwidth = 5; ]; "inmemory_36230" -> central [label=4; weight=4; penwidth=0.5];
-	"configuration_36237"  [shape = "circle"; height=1.8; label = "configuration\n(59.44%)"; penwidth = 2; ]; "configuration_36237" -> central [label=3; weight=3; penwidth=0.5];
-	"store_36231"  [shape = "circle"; height=1.8; label = "store\n(46.1%)"; penwidth = 5; ]; "store_36231" -> central [label=2; weight=2; penwidth=0.4];
-	"eventhandling_6869"  [label = "eventhandling\n(76.29%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "eventhandling_6869" [label=1; weight=1; penwidth=0.4; color = 5];
-	"eventstore_36234"  [label = "eventstore\n(100.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "eventstore_36234" [label=1; weight=1; penwidth=0.4; color = 5];
-	"eventstore_36234" -> "eventhandling_6869" [label=25; weight=25; penwidth=0.3; color = 3]
-	"configuration_36237" -> "eventstore_36234" [label=15; weight=15; penwidth=0.3; color = 3]
-	"handler_36233" -> "eventstore_36234" [label=10; weight=10; penwidth=0.3; color = 3]
-	"snapshot_1033" -> "eventstore_36234" [label=10; weight=10; penwidth=0.3; color = 3]
-	"configuration_36237" -> "handler_36233" [label=6; weight=6; penwidth=0.3; color = 3]
-	"handler_36233" -> "eventhandling_6869" [label=3; weight=3; penwidth=0.3; color = 3]
-	"configuration_36237" -> "eventhandling_6869" [label=2; weight=2; penwidth=0.3; color = 3]
-	"configuration_36237" -> "store_36231" [label=1; weight=1; penwidth=0.3; color = 3]
-	"eventstore_36234" -> "store_36231" [label=1; weight=1; penwidth=0.3; color = 3]
-	"handler_36233" -> "store_36231" [label=1; weight=1; penwidth=0.3; color = 3]
-	"inmemory_36230" -> "store_36231" [label=0; weight=0; penwidth=0.3; color = 3]
-	"snapshot_1033" -> "store_36231" [label=0; weight=0; penwidth=0.3; color = 3]
+	"snapshot_1033"  [shape = "circle"; height=1.8; label = "snapshot\n(51.95%)"; penwidth = 2; ]; "snapshot_1033" -> central [label=16; weight=16; penwidth=0.7];
+	"handler_36232"  [shape = "circle"; height=1.8; label = "handler\n(54.07%)"; penwidth = 2; ]; "handler_36232" -> central [label=13; weight=13; penwidth=0.6];
+	"eventstore_36233"  [label = "eventstore\n(100.0%)"; penwidth = 2; ]; "eventstore_36233" -> central [label=7; weight=7; penwidth=0.5];
+	"inmemory_36229"  [shape = "circle"; height=1.8; label = "inmemory\n(41.36%)"; penwidth = 5; ]; "inmemory_36229" -> central [label=4; weight=4; penwidth=0.5];
+	"configuration_36236"  [shape = "circle"; height=1.8; label = "configuration\n(0.0%)"; penwidth = 2; ]; "configuration_36236" -> central [label=3; weight=3; penwidth=0.5];
+	"store_36230"  [shape = "circle"; height=1.8; label = "store\n(41.49%)"; penwidth = 5; ]; "store_36230" -> central [label=2; weight=2; penwidth=0.4];
+	"eventhandling_6869"  [label = "eventhandling\n(68.35%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "eventhandling_6869" [label=1; weight=1; penwidth=0.4; color = 5];
+	"eventstore_36233"  [label = "eventstore\n(100.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "eventstore_36233" [label=1; weight=1; penwidth=0.4; color = 5];
+	"eventstore_36233" -> "eventhandling_6869" [label=25; weight=25; penwidth=0.3; color = 3]
+	"configuration_36236" -> "eventstore_36233" [label=15; weight=15; penwidth=0.3; color = 3]
+	"handler_36232" -> "eventstore_36233" [label=10; weight=10; penwidth=0.3; color = 3]
+	"snapshot_1033" -> "eventstore_36233" [label=10; weight=10; penwidth=0.3; color = 3]
+	"configuration_36236" -> "handler_36232" [label=6; weight=6; penwidth=0.3; color = 3]
+	"handler_36232" -> "eventhandling_6869" [label=3; weight=3; penwidth=0.3; color = 3]
+	"configuration_36236" -> "eventhandling_6869" [label=2; weight=2; penwidth=0.3; color = 3]
+	"configuration_36236" -> "store_36230" [label=1; weight=1; penwidth=0.3; color = 3]
+	"eventstore_36233" -> "store_36230" [label=1; weight=1; penwidth=0.3; color = 3]
+	"handler_36232" -> "store_36230" [label=1; weight=1; penwidth=0.3; color = 3]
+	"inmemory_36229" -> "store_36230" [label=0; weight=0; penwidth=0.3; color = 3]
+	"snapshot_1033" -> "store_36230" [label=0; weight=0; penwidth=0.3; color = 3]
 }

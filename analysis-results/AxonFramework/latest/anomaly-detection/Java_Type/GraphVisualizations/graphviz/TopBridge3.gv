@@ -12,9 +12,21 @@ strict digraph TopBridge3 {
     central [fontsize = 16;];
     central [color = 7; fillcolor = 5; penwidth = 3;];
 
-	graph   [label="Top Rank #3 Java Type Bridge\nio.axoniq.framework.springboot.service.connection.AxonServerTestContainerConnectionDetailsFactory$AxonServerContainerConnectionDetails\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
-	central [label="🌉 bridge #3\nAxonServerTestContainerConnectionDetailsFactory$AxonServerContainerConnectionDetails"];
-	"AxonServerTestContainerConnectionDetailsFactory_30984" [label = "AxonServerTestContainerConnectionDetailsFactory"; ]; "AxonServerTestContainerConnectionDetailsFactory_30984" -> central [label=3; weight=3; penwidth=0.4];
-	"AxonServerConnectionDetails_31103" [label = "AxonServerConnectionDetails"; color = 5; fillcolor = 1; ]; central -> "AxonServerConnectionDetails_31103" [label=1; weight=1; penwidth=0.4; color = 5];
-	"AxonServerTestContainerConnectionDetailsFactory_30984" -> "AxonServerConnectionDetails_31103" [label=2; weight=2; penwidth=0.3; color = 3]
+	graph   [label="Top Rank #3 Java Type Bridge\norg.axonframework.messaging.eventstreaming.EventTypeRestrictableOrEventCriteria\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
+	central [label="🌉 bridge #3\nEventTypeRestrictableOrEventCriteria"];
+	"OrEventCriteriaBuilder_16684" [label = "OrEventCriteriaBuilder"; ]; "OrEventCriteriaBuilder_16684" -> central [label=2; weight=2; penwidth=0.4];
+	"EventCriteria_13621" [label = "EventCriteria"; color = 5; fillcolor = 1; ]; central -> "EventCriteria_13621" [label=4; weight=4; penwidth=0.5; color = 5];
+	"EventTypeRestrictableEventCriteria_13630" [label = "EventTypeRestrictableEventCriteria"; color = 5; fillcolor = 1; ]; central -> "EventTypeRestrictableEventCriteria_13630" [label=4; weight=4; penwidth=0.5; color = 5];
+	"OrEventCriteria_16683" [label = "OrEventCriteria"; color = 5; fillcolor = 1; ]; central -> "OrEventCriteria_16683" [label=2; weight=2; penwidth=0.4; color = 5];
+	"QualifiedName_7886" [label = "QualifiedName"; color = 5; fillcolor = 1; ]; central -> "QualifiedName_7886" [label=1; weight=1; penwidth=0.4; color = 5];
+	"OrEventCriteria_16683" -> "EventCriteria_13621" [label=12; weight=12; penwidth=0.3; color = 3]
+	"EventTypeRestrictableEventCriteria_13630" -> "EventCriteria_13621" [label=6; weight=6; penwidth=0.3; color = 3]
+	"OrEventCriteriaBuilder_16684" -> "EventCriteria_13621" [label=6; weight=6; penwidth=0.3; color = 3]
+	"OrEventCriteriaBuilder_16684" -> "EventTypeRestrictableEventCriteria_13630" [label=6; weight=6; penwidth=0.3; color = 3]
+	"EventCriteria_13621" -> "OrEventCriteria_16683" [label=4; weight=4; penwidth=0.3; color = 3]
+	"EventCriteria_13621" -> "EventTypeRestrictableEventCriteria_13630" [label=4; weight=4; penwidth=0.3; color = 3]
+	"EventCriteria_13621" -> "OrEventCriteriaBuilder_16684" [label=3; weight=3; penwidth=0.3; color = 3]
+	"EventTypeRestrictableEventCriteria_13630" -> "QualifiedName_7886" [label=3; weight=3; penwidth=0.3; color = 3]
+	"OrEventCriteria_16683" -> "QualifiedName_7886" [label=2; weight=2; penwidth=0.3; color = 3]
+	"EventCriteria_13621" -> "QualifiedName_7886" [label=1; weight=1; penwidth=0.3; color = 3]
 }

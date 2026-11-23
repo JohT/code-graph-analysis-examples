@@ -1,6 +1,6 @@
 ---
 title: "Internal Dependencies Report"
-generated: "2026-11-18"
+generated: "2026-11-23"
 model_version: "v5.0.1"
 dataset: "AxonFramework-5.1.2"
 authors: ["JohT/code-graph-analysis-pipeline"]
@@ -69,8 +69,8 @@ ISP (Robert C. Martin): Interfaces declaring many methods but callers use only a
 | org.axonframework.messaging.commandhandling.CommandBus | 6 | 1 | 0.17 | 7 | ["dispatch"] |
 | org.axonframework.messaging.core.unitofwork.ProcessingContext | 32 | 1 | 0.03 | 5 | ["withResource"] |
 | org.axonframework.common.configuration.ComponentDefinition$ComponentCreator | 17 | 1 | 0.06 | 5 | ["createComponent"] |
-| org.axonframework.messaging.eventhandling.EventMessage | 19 | 1 | 0.05 | 4 | ["timestamp"] |
 | org.axonframework.messaging.eventhandling.EventMessage | 19 | 2 | 0.11 | 4 | ["timestamp","identifier"] |
+| org.axonframework.messaging.eventhandling.EventMessage | 19 | 1 | 0.05 | 4 | ["timestamp"] |
 | org.axonframework.messaging.core.MessageStream$Empty | 45 | 1 | 0.02 | 3 | ["cast"] |
 | org.axonframework.messaging.eventhandling.EventMessage | 19 | 1 | 0.05 | 3 | ["identifier"] |
 | org.axonframework.messaging.eventhandling.EventMessage | 19 | 1 | 0.05 | 3 | ["andMetadata"] |
@@ -105,12 +105,12 @@ Artifact dependencies where dependents use only a small `usedPackagesPercent`. L
 | axon-tracing-opentelemetry-5.1.2 | axon-messaging-5.1.2 | 2 | 57 | 0.03508771929824561 | ["org.axonframework.messaging.tracing","org.axonframework.messaging.core"] | ["tracing","core"] |
 | axon-tracing-opentelemetry-5.1.2 | axon-common-5.1.2 | 1 | 15 | 0.06666666666666667 | ["org.axonframework.common"] | ["common"] |
 | axoniq-spring-boot-autoconfigure-5.1.2 | axon-common-5.1.2 | 1 | 15 | 0.06666666666666667 | ["org.axonframework.common.configuration"] | ["configuration"] |
-| axoniq-spring-boot-autoconfigure-5.1.2 | axon-messaging-5.1.2 | 4 | 57 | 0.07017543859649122 | ["org.axonframework.messaging.core.unitofwork.transaction.jpa","org.axonframework.messaging.eventhandling.conversion","org.axonframework.messaging.core.unitofwork.transaction.jdbc","org.axonframework.messaging.eventhandling.processing.streaming.pooled"] | ["jpa","conversion","jdbc","pooled"] |
+| axoniq-spring-boot-autoconfigure-5.1.2 | axon-messaging-5.1.2 | 4 | 57 | 0.07017543859649122 | ["org.axonframework.messaging.core.unitofwork.transaction.jdbc","org.axonframework.messaging.eventhandling.conversion","org.axonframework.messaging.core.unitofwork.transaction.jpa","org.axonframework.messaging.eventhandling.processing.streaming.pooled"] | ["jdbc","conversion","jpa","pooled"] |
 | axon-test-5.1.2 | axon-eventsourcing-5.1.2 | 1 | 11 | 0.09090909090909091 | ["org.axonframework.eventsourcing.eventstore"] | ["eventstore"] |
-| axon-metrics-micrometer-5.1.2 | axon-messaging-5.1.2 | 7 | 57 | 0.12280701754385964 | ["org.axonframework.messaging.queryhandling","org.axonframework.messaging.core","org.axonframework.messaging.eventhandling.processing","org.axonframework.messaging.monitoring","org.axonframework.messaging.commandhandling","org.axonframework.messaging.monitoring.configuration","org.axonframework.messaging.eventhandling"] | ["queryhandling","core","processing","monitoring","commandhandling","configuration","eventhandling"] |
+| axon-metrics-micrometer-5.1.2 | axon-messaging-5.1.2 | 7 | 57 | 0.12280701754385964 | ["org.axonframework.messaging.core","org.axonframework.messaging.commandhandling","org.axonframework.messaging.monitoring.configuration","org.axonframework.messaging.eventhandling.processing","org.axonframework.messaging.queryhandling","org.axonframework.messaging.monitoring","org.axonframework.messaging.eventhandling"] | ["core","commandhandling","configuration","processing","queryhandling","monitoring","eventhandling"] |
 | axon-metrics-micrometer-5.1.2 | axon-common-5.1.2 | 2 | 15 | 0.13333333333333333 | ["org.axonframework.common.configuration","org.axonframework.common"] | ["configuration","common"] |
 | axon-server-connector-5.1.2 | axon-modelling-5.1.2 | 1 | 7 | 0.14285714285714285 | ["org.axonframework.modelling"] | ["modelling"] |
-| axon-test-5.1.2 | axon-messaging-5.1.2 | 9 | 57 | 0.15789473684210525 | ["org.axonframework.messaging.commandhandling","org.axonframework.messaging.eventhandling","org.axonframework.messaging.core","org.axonframework.messaging.core.conversion","org.axonframework.messaging.eventhandling.processing.streaming.token","org.axonframework.messaging.eventstreaming","org.axonframework.messaging.core.unitofwork","org.axonframework.messaging.core.annotation","org.axonframework.messaging.monitoring"] | ["commandhandling","eventhandling","core","conversion","token","eventstreaming","unitofwork","annotation","monitoring"] |
+| axon-test-5.1.2 | axon-messaging-5.1.2 | 9 | 57 | 0.15789473684210525 | ["org.axonframework.messaging.core.unitofwork","org.axonframework.messaging.core.conversion","org.axonframework.messaging.core","org.axonframework.messaging.commandhandling","org.axonframework.messaging.eventstreaming","org.axonframework.messaging.eventhandling.processing.streaming.token","org.axonframework.messaging.eventhandling","org.axonframework.messaging.core.annotation","org.axonframework.messaging.monitoring"] | ["unitofwork","conversion","core","commandhandling","eventstreaming","token","eventhandling","annotation","monitoring"] |
 | axon-server-connector-5.1.2 | axon-conversion-5.1.2 | 1 | 5 | 0.2 | ["org.axonframework.conversion"] | ["conversion"] |
 
 [Full data](./Java_Artifact/ArtifactPackageUsage.csv)
@@ -123,15 +123,15 @@ Classes used across artifacts — extraction candidates. High reuse = type grown
 
 | artifactName | dependentArtifactName | fullPackageName | fullDependentPackageName | dependentTypes | dependentPackageTypes | typeUsagePercentage | dependentTypeNameExamples |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| axon-modelling-5.1.2 | axon-messaging-5.1.2 | org.axonframework.modelling.repository | org.axonframework.messaging.core | 1 | 87 | 0.0115 | ["org.axonframework.messaging.core.Context$ResourceKey"] |
-| axon-eventsourcing-5.1.2 | axon-messaging-5.1.2 | org.axonframework.eventsourcing | org.axonframework.messaging.core | 1 | 87 | 0.0115 | ["org.axonframework.messaging.core.Context$ResourceKey"] |
-| axon-test-5.1.2 | axon-messaging-5.1.2 | org.axonframework.test.matchers | org.axonframework.messaging.core | 1 | 87 | 0.0115 | ["org.axonframework.messaging.core.Message"] |
 | axon-eventsourcing-5.1.2 | axon-messaging-5.1.2 | org.axonframework.eventsourcing.snapshot.store | org.axonframework.messaging.core | 1 | 87 | 0.0115 | ["org.axonframework.messaging.core.QualifiedName"] |
 | axon-eventsourcing-5.1.2 | axon-messaging-5.1.2 | org.axonframework.eventsourcing.snapshot.inmemory | org.axonframework.messaging.core | 1 | 87 | 0.0115 | ["org.axonframework.messaging.core.QualifiedName"] |
 | axon-server-connector-5.1.2 | axon-messaging-5.1.2 | io.axoniq.framework.axonserver.connector.snapshot | org.axonframework.messaging.core | 1 | 87 | 0.0115 | ["org.axonframework.messaging.core.QualifiedName"] |
+| axon-modelling-5.1.2 | axon-messaging-5.1.2 | org.axonframework.modelling.repository | org.axonframework.messaging.core | 1 | 87 | 0.0115 | ["org.axonframework.messaging.core.Context$ResourceKey"] |
+| axon-eventsourcing-5.1.2 | axon-messaging-5.1.2 | org.axonframework.eventsourcing | org.axonframework.messaging.core | 1 | 87 | 0.0115 | ["org.axonframework.messaging.core.Context$ResourceKey"] |
+| axon-test-5.1.2 | axon-messaging-5.1.2 | org.axonframework.test.matchers | org.axonframework.messaging.core | 1 | 87 | 0.0115 | ["org.axonframework.messaging.core.Message"] |
 | axon-eventsourcing-5.1.2 | axon-messaging-5.1.2 | org.axonframework.eventsourcing.configuration | org.axonframework.messaging.core.annotation | 1 | 53 | 0.0189 | ["org.axonframework.messaging.core.annotation.ParameterResolverFactory"] |
-| axon-server-connector-5.1.2 | axon-eventsourcing-5.1.2 | io.axoniq.framework.axonserver.connector.configuration | org.axonframework.eventsourcing.eventstore | 1 | 52 | 0.0192 | ["org.axonframework.eventsourcing.eventstore.EventStorageEngine"] |
 | axon-server-connector-5.1.2 | axon-eventsourcing-5.1.2 | io.axoniq.framework.axonserver.connector.shared | org.axonframework.eventsourcing.eventstore | 1 | 52 | 0.0192 | ["org.axonframework.eventsourcing.eventstore.EventStoreException"] |
+| axon-server-connector-5.1.2 | axon-eventsourcing-5.1.2 | io.axoniq.framework.axonserver.connector.configuration | org.axonframework.eventsourcing.eventstore | 1 | 52 | 0.0192 | ["org.axonframework.eventsourcing.eventstore.EventStorageEngine"] |
 | axon-eventsourcing-5.1.2 | axon-common-5.1.2 | org.axonframework.eventsourcing.annotation | org.axonframework.common.configuration | 1 | 51 | 0.0196 | ["org.axonframework.common.configuration.Configuration"] |
 
 [Full data](./Java_Artifact/ClassesPerPackageUsageAcrossArtifacts.csv)
@@ -145,7 +145,7 @@ Classes used across artifacts — extraction candidates. High reuse = type grown
 | 0 | 2131 | 32.81 | 869 | 901 | ["/org/axonframework/extension/metrics/micrometer/MetricsConfigurationEnhancer.class uses /org/axonframework/extension/metrics/micrometer/TagsUtil.class","/org/axonframework/extension/metrics/micrometer/MetricsConfigurationEnhancer.class uses /org/axonframework/extension/metrics/micrometer/MessageTimerMonitor$Builder.class","/org/axonframework/extension/metrics/micrometer/MessageTimerMonitor.class uses /org/axonframework/extension/metrics/micrometer/MessageTimerMonitor$Builder.class","/org/axonframework/extension/metrics/micrometer/MetricsConfigurationEnhancer.class uses /org/axonframework/extension/metrics/micrometer/MessageTimerMonitor.class"] |
 | 1 | 94 | 1.45 | 82 | 37 | ["/org/axonframework/extension/metrics/micrometer/springboot uses /org/axonframework/extension/metrics/micrometer","/org/axonframework/extension/metrics/micrometer uses /org/axonframework/extension/metrics/micrometer/reservoir","/org/axonframework/conversion/avro uses /org/axonframework/conversion","/org/axonframework/conversion/jackson2 uses /org/axonframework/conversion"] |
 | 2 | 2202 | 33.91 | 623 | 451 | ["/org/axonframework/extension/metrics/micrometer/CapacityMonitor$1.class uses /org/axonframework/extension/metrics/micrometer/reservoir/SlidingTimeWindowReservoir.class","/org/axonframework/extension/metrics/micrometer/CapacityMonitor.class uses /org/axonframework/extension/metrics/micrometer/reservoir/SlidingTimeWindowReservoir.class","/org/axonframework/extension/metrics/micrometer/springboot/MicrometerMetricsAutoConfiguration$1.class uses /org/axonframework/extension/metrics/micrometer/MetricsConfigurationEnhancer.class","/io/axoniq/framework/axonserver/connector/shared uses /io/axoniq/framework/axonserver/connector/api/query"] |
-| 4 | 2067 | 31.83 | 671 | 283 | ["/io/axoniq/framework/springboot uses /io/axoniq/framework/axonserver/connector/api","/io/axoniq/framework/springboot/autoconfig uses /io/axoniq/framework/axonserver/connector/api","/io/axoniq/framework/springboot/actuator/axonserver uses /io/axoniq/framework/axonserver/connector/api","/io/axoniq/framework/springboot/autoconfig uses /io/axoniq/framework/axonserver/connector/configuration"] |
+| 4 | 2067 | 31.83 | 671 | 283 | ["/io/axoniq/framework/springboot/autoconfig uses /io/axoniq/framework/axonserver/connector/api","/io/axoniq/framework/springboot/actuator/axonserver uses /io/axoniq/framework/axonserver/connector/api","/io/axoniq/framework/springboot uses /io/axoniq/framework/axonserver/connector/api","/io/axoniq/framework/springboot/autoconfig uses /io/axoniq/framework/axonserver/connector/configuration"] |
 
 [Full data](./Distance_distribution_between_dependent_files.csv)
 
@@ -196,7 +196,7 @@ Graph diameter = longest shortest path. Higher = deeper transitive dependencies.
 | 4 | 597 | 94 | 49 | ["/io/axoniq/framework/springboot/autoconfig ->/io/axoniq/framework/axonserver/connector/api/query","/io/axoniq/framework/springboot/autoconfig ->/io/axoniq/framework/axonserver/connector/api/command"] |
 | 3 | 976 | 100 | 65 | ["/io/axoniq/framework/springboot/autoconfig ->/io/axoniq/framework/axonserver/connector/shared","/org/axonframework/messaging/core/unitofwork/annotation ->/org/axonframework/conversion"] |
 | 2 | 990 | 108 | 80 | ["/io/axoniq/framework/springboot/autoconfig ->/io/axoniq/framework/axonserver/connector/snapshot","/io/axoniq/framework/springboot ->/io/axoniq/framework/axonserver/connector/util"] |
-| 1 | 777 | 118 | 98 | ["/org/axonframework/extension/metrics/micrometer/springboot ->/org/axonframework/extension/metrics/micrometer","/org/axonframework/extension/metrics/micrometer ->/org/axonframework/extension/metrics/micrometer/reservoir"] |
+| 1 | 777 | 118 | 98 | ["/io/axoniq/framework/springboot ->/io/axoniq/framework/axonserver/connector/api","/io/axoniq/framework/springboot/actuator/axonserver ->/io/axoniq/framework/axonserver/connector/api"] |
 
 [Full data per project](./Java_Package/Package_all_pairs_shortest_paths_distribution_per_project.csv)
 

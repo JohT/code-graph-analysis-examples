@@ -39,7 +39,7 @@
 "org.axonframework.messaging.monitoring","monitoring","centralityHarmonic",0.09485094850948511,""
 "org.axonframework.eventsourcing.snapshot.store","store","centralityHarmonic",0.09485094850948508,""
 "org.axonframework.eventsourcing.snapshot.api","api","centralityHarmonic",0.09349593495934959,""
-"org.axonframework.modelling.entity.annotation","annotation","centralityHarmonic",0.08401084010840108,""
+"org.axonframework.modelling.entity.annotation","annotation","centralityHarmonic",0.08401084010840107,""
 "org.axonframework.eventsourcing.annotation","annotation","centralityHarmonic",0.08130081300813008,""
 "org.axonframework.modelling.entity.child","child","centralityHarmonic",0.08130081300813008,""
 "org.axonframework.messaging.eventhandling.processing","processing","centralityHarmonic",0.07994579945799458,""

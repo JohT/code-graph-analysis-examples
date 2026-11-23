@@ -14,16 +14,16 @@
 <text xml:space="preserve" text-anchor="middle" x="481.54" y="-701.21" font-family="Helvetica,Arial,sans-serif" font-size="14.00">nodes: incoming dependencies (limited max. 40)</text>
 <text xml:space="preserve" text-anchor="middle" x="481.54" y="-684.41" font-family="Helvetica,Arial,sans-serif" font-size="14.00">node value: local clustering coefficient</text>
 <text xml:space="preserve" text-anchor="middle" x="481.54" y="-667.61" font-family="Helvetica,Arial,sans-serif" font-size="14.00">thick outline: &lt;10% percentile of local clustering coefficient</text>
-<!-- central&#45;&gt;AxonException_41209 -->
+<!-- central&#45;&gt;AxonException_41208 -->
 <g id="edge16" class="edge">
-<title>central&#45;&gt;AxonException_41209</title>
+<title>central&#45;&gt;AxonException_41208</title>
 <path fill="none" stroke="#66c2a4" stroke-width="0.4" d="M411.16,-413.66C389.08,-445.64 365.45,-479.88 348.42,-504.55"/>
 <polygon fill="#66c2a4" stroke="#66c2a4" stroke-width="0.4" points="347.42,-503.53 346.3,-507.62 349.72,-505.12 347.42,-503.53"/>
 <text xml:space="preserve" text-anchor="middle" x="376.83" y="-463.14" font-family="Times,serif" font-size="4.00">3</text>
 </g>
-<!-- AxonConfigurationException_42017&#45;&gt;central -->
+<!-- AxonConfigurationException_42018&#45;&gt;central -->
 <g id="edge1" class="edge">
-<title>AxonConfigurationException_42017&#45;&gt;central</title>
+<title>AxonConfigurationException_42018&#45;&gt;central</title>
 <path fill="none" stroke="#238b45" stroke-width="0.4" d="M549.08,-207.1C544.38,-214.32 539.16,-222.35 533.72,-230.71"/>
 <polygon fill="#238b45" stroke="#238b45" stroke-width="0.4" points="532.71,-229.69 531.7,-233.81 535.06,-231.22 532.71,-229.69"/>
 <text xml:space="preserve" text-anchor="middle" x="539.22" y="-217.12" font-family="Times,serif" font-size="4.00">3</text>
@@ -49,9 +49,9 @@
 <polygon fill="#238b45" stroke="#238b45" stroke-width="0.4" points="363.09,-352.69 366.65,-350.39 362.43,-349.97 363.09,-352.69"/>
 <text xml:space="preserve" text-anchor="middle" x="321.48" y="-362.26" font-family="Times,serif" font-size="4.00">3</text>
 </g>
-<!-- FixtureExecutionException_27601&#45;&gt;central -->
+<!-- FixtureExecutionException_27595&#45;&gt;central -->
 <g id="edge5" class="edge">
-<title>FixtureExecutionException_27601&#45;&gt;central</title>
+<title>FixtureExecutionException_27595&#45;&gt;central</title>
 <path fill="none" stroke="#238b45" stroke-width="0.4" d="M580.16,-573.12C564.6,-537.24 539.33,-478.96 517.18,-427.88"/>
 <polygon fill="#238b45" stroke="#238b45" stroke-width="0.4" points="518.57,-427.57 515.7,-424.46 516.01,-428.69 518.57,-427.57"/>
 <text xml:space="preserve" text-anchor="middle" x="546.76" y="-494.79" font-family="Times,serif" font-size="4.00">3</text>
@@ -98,9 +98,9 @@
 <polygon fill="#238b45" stroke="#238b45" stroke-width="0.4" points="537.68,-232.74 536.46,-236.79 539.95,-234.38 537.68,-232.74"/>
 <text xml:space="preserve" text-anchor="middle" x="581.52" y="-169.81" font-family="Times,serif" font-size="4.00">2</text>
 </g>
-<!-- RemoteNonTransientHandlingException_26645&#45;&gt;central -->
+<!-- RemoteNonTransientHandlingException_26612&#45;&gt;central -->
 <g id="edge12" class="edge">
-<title>RemoteNonTransientHandlingException_26645&#45;&gt;central</title>
+<title>RemoteNonTransientHandlingException_26612&#45;&gt;central</title>
 <path fill="none" stroke="#238b45" stroke-width="0.4" d="M241.33,-286.98C279.32,-293.2 322.66,-300.29 361.45,-306.65"/>
 <polygon fill="#238b45" stroke="#238b45" stroke-width="0.4" points="360.91,-307.97 365.08,-307.24 361.36,-305.21 360.91,-307.97"/>
 <text xml:space="preserve" text-anchor="middle" x="302.48" y="-298.36" font-family="Times,serif" font-size="4.00">2</text>
@@ -112,16 +112,16 @@
 <polygon fill="#238b45" stroke="#238b45" stroke-width="0.4" points="375.14,-268.17 379.29,-269.02 376.58,-265.76 375.14,-268.17"/>
 <text xml:space="preserve" text-anchor="middle" x="315.82" y="-232.82" font-family="Times,serif" font-size="4.00">2</text>
 </g>
-<!-- AxonNonTransientExceptionClassesPredicate_24110&#45;&gt;central -->
+<!-- AxonNonTransientExceptionClassesPredicate_24109&#45;&gt;central -->
 <g id="edge14" class="edge">
-<title>AxonNonTransientExceptionClassesPredicate_24110&#45;&gt;central</title>
+<title>AxonNonTransientExceptionClassesPredicate_24109&#45;&gt;central</title>
 <path fill="none" stroke="#238b45" stroke-width="0.4" d="M204.33,-432.21C251.97,-413.13 315,-387.89 367.98,-366.68"/>
 <polygon fill="#238b45" stroke="#238b45" stroke-width="0.4" points="368.34,-368.04 371.53,-365.25 367.3,-365.44 368.34,-368.04"/>
 <text xml:space="preserve" text-anchor="middle" x="287.14" y="-399.85" font-family="Times,serif" font-size="4.00">1</text>
 </g>
-<!-- ExceptionUtils_42551&#45;&gt;central -->
+<!-- ExceptionUtils_42515&#45;&gt;central -->
 <g id="edge15" class="edge">
-<title>ExceptionUtils_42551&#45;&gt;central</title>
+<title>ExceptionUtils_42515&#45;&gt;central</title>
 <path fill="none" stroke="#238b45" stroke-width="0.4" d="M549.86,-447.29C544.66,-439.06 538.77,-429.74 532.63,-420.01"/>
 <polygon fill="#238b45" stroke="#238b45" stroke-width="0.4" points="533.81,-419.27 530.49,-416.63 531.44,-420.76 533.81,-419.27"/>
 <text xml:space="preserve" text-anchor="middle" x="538.96" y="-432.82" font-family="Times,serif" font-size="4.00">1</text>
@@ -135,9 +135,9 @@
 <text xml:space="preserve" text-anchor="middle" x="472.49" y="-320.02" font-family="Times,serif" font-size="16.00">AxonNonTransientException</text>
 <text xml:space="preserve" text-anchor="middle" x="472.49" y="-300.82" font-family="Times,serif" font-size="16.00">(in&#45;degree=15)</text>
 </g>
-<!-- AxonConfigurationException_42017 -->
+<!-- AxonConfigurationException_42018 -->
 <g id="node2" class="node">
-<title>AxonConfigurationException_42017</title>
+<title>AxonConfigurationException_42018</title>
 <ellipse fill="#ccece6" stroke="#41ae76" stroke-width="2" cx="570" cy="-174.95" rx="85.49" ry="32.4"/>
 <text xml:space="preserve" text-anchor="middle" x="570" y="-178.55" font-family="Times,serif" font-size="12.00">AxonConfigurationException</text>
 <text xml:space="preserve" text-anchor="middle" x="570" y="-164.15" font-family="Times,serif" font-size="12.00">(0.09)</text>
@@ -163,9 +163,9 @@
 <text xml:space="preserve" text-anchor="middle" x="219.5" y="-389.53" font-family="Times,serif" font-size="12.00">EventStoreException</text>
 <text xml:space="preserve" text-anchor="middle" x="219.5" y="-375.13" font-family="Times,serif" font-size="12.00">(0.0)</text>
 </g>
-<!-- FixtureExecutionException_27601 -->
+<!-- FixtureExecutionException_27595 -->
 <g id="node6" class="node">
-<title>FixtureExecutionException_27601</title>
+<title>FixtureExecutionException_27595</title>
 <ellipse fill="#ccece6" stroke="#41ae76" stroke-width="5" cx="594.93" cy="-607.18" rx="79.28" ry="32.4"/>
 <text xml:space="preserve" text-anchor="middle" x="594.93" y="-610.78" font-family="Times,serif" font-size="12.00">FixtureExecutionException</text>
 <text xml:space="preserve" text-anchor="middle" x="594.93" y="-596.38" font-family="Times,serif" font-size="12.00">(0.0)</text>
@@ -212,9 +212,9 @@
 <text xml:space="preserve" text-anchor="middle" x="653" y="-80.04" font-family="Times,serif" font-size="12.00">JSR303ViolationException</text>
 <text xml:space="preserve" text-anchor="middle" x="653" y="-65.64" font-family="Times,serif" font-size="12.00">(0.0)</text>
 </g>
-<!-- RemoteNonTransientHandlingException_26645 -->
+<!-- RemoteNonTransientHandlingException_26612 -->
 <g id="node13" class="node">
-<title>RemoteNonTransientHandlingException_26645</title>
+<title>RemoteNonTransientHandlingException_26612</title>
 <ellipse fill="#ccece6" stroke="#41ae76" stroke-width="2" cx="139.66" cy="-270.34" rx="116.89" ry="32.4"/>
 <text xml:space="preserve" text-anchor="middle" x="139.66" y="-273.94" font-family="Times,serif" font-size="12.00">RemoteNonTransientHandlingException</text>
 <text xml:space="preserve" text-anchor="middle" x="139.66" y="-259.54" font-family="Times,serif" font-size="12.00">(0.33)</text>
@@ -226,23 +226,23 @@
 <text xml:space="preserve" text-anchor="middle" x="204.73" y="-168.1" font-family="Times,serif" font-size="12.00">ShutdownInProgressException</text>
 <text xml:space="preserve" text-anchor="middle" x="204.73" y="-153.7" font-family="Times,serif" font-size="12.00">(0.0)</text>
 </g>
-<!-- AxonNonTransientExceptionClassesPredicate_24110 -->
+<!-- AxonNonTransientExceptionClassesPredicate_24109 -->
 <g id="node15" class="node">
-<title>AxonNonTransientExceptionClassesPredicate_24110</title>
+<title>AxonNonTransientExceptionClassesPredicate_24109</title>
 <ellipse fill="#ccece6" stroke="#41ae76" stroke-width="5" cx="131.62" cy="-461.32" rx="131.62" ry="32.4"/>
 <text xml:space="preserve" text-anchor="middle" x="131.62" y="-464.92" font-family="Times,serif" font-size="12.00">AxonNonTransientExceptionClassesPredicate</text>
 <text xml:space="preserve" text-anchor="middle" x="131.62" y="-450.52" font-family="Times,serif" font-size="12.00">(0.0)</text>
 </g>
-<!-- ExceptionUtils_42551 -->
+<!-- ExceptionUtils_42515 -->
 <g id="node16" class="node">
-<title>ExceptionUtils_42551</title>
+<title>ExceptionUtils_42515</title>
 <ellipse fill="#ccece6" stroke="#41ae76" stroke-width="5" cx="569.78" cy="-478.83" rx="46.8" ry="32.4"/>
 <text xml:space="preserve" text-anchor="middle" x="569.78" y="-482.43" font-family="Times,serif" font-size="12.00">ExceptionUtils</text>
 <text xml:space="preserve" text-anchor="middle" x="569.78" y="-468.03" font-family="Times,serif" font-size="12.00">(0.0)</text>
 </g>
-<!-- AxonException_41209 -->
+<!-- AxonException_41208 -->
 <g id="node17" class="node">
-<title>AxonException_41209</title>
+<title>AxonException_41208</title>
 <ellipse fill="#f7fcfd" stroke="#66c2a4" stroke-width="5" cx="324.34" cy="-539.43" rx="46.8" ry="32.4"/>
 <text xml:space="preserve" text-anchor="middle" x="324.34" y="-543.03" font-family="Times,serif" font-size="12.00">AxonException</text>
 <text xml:space="preserve" text-anchor="middle" x="324.34" y="-528.63" font-family="Times,serif" font-size="12.00">(0.06)</text>

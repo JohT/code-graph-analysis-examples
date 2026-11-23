@@ -12,19 +12,14 @@ strict digraph TopBridge2 {
     central [fontsize = 16;];
     central [color = 7; fillcolor = 5; penwidth = 3;];
 
-	graph   [label="Top Rank #2 Java Type Bridge\norg.axonframework.common.caching.Cache\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
-	central [label="🌉 bridge #2\nCache"];
-	"AbstractCacheAdapter_42930" [label = "AbstractCacheAdapter"; ]; "AbstractCacheAdapter_42930" -> central [label=1; weight=1; penwidth=0.4];
-	"NoCache_43340" [label = "NoCache"; ]; "NoCache_43340" -> central [label=1; weight=1; penwidth=0.4];
-	"WeakReferenceCache_42566" [label = "WeakReferenceCache"; ]; "WeakReferenceCache_42566" -> central [label=1; weight=1; penwidth=0.4];
-	"Cache$EntryListener_43068" [label = "Cache$\nEntryListener"; color = 5; fillcolor = 1; ]; central -> "Cache$EntryListener_43068" [label=2; weight=2; penwidth=0.4; color = 5];
-	"Cache$EntryListenerAdapter_42563" [label = "Cache$\nEntryListenerAdapter"; color = 5; fillcolor = 1; ]; central -> "Cache$EntryListenerAdapter_42563" [label=1; weight=1; penwidth=0.4; color = 5];
-	"Registration_43067" [label = "Registration"; color = 5; fillcolor = 1; ]; central -> "Registration_43067" [label=1; weight=1; penwidth=0.4; color = 5];
-	"WeakReferenceCache_42566" -> "Cache$EntryListener_43068" [label=24; weight=24; penwidth=0.3; color = 3]
-	"AbstractCacheAdapter_42930" -> "Cache$EntryListener_43068" [label=5; weight=5; penwidth=0.3; color = 3]
-	"AbstractCacheAdapter_42930" -> "Registration_43067" [label=4; weight=4; penwidth=0.3; color = 3]
-	"Cache$EntryListenerAdapter_42563" -> "Cache$EntryListener_43068" [label=2; weight=2; penwidth=0.3; color = 3]
-	"NoCache_43340" -> "Cache$EntryListener_43068" [label=2; weight=2; penwidth=0.3; color = 3]
-	"NoCache_43340" -> "Registration_43067" [label=1; weight=1; penwidth=0.3; color = 3]
-	"WeakReferenceCache_42566" -> "Registration_43067" [label=1; weight=1; penwidth=0.3; color = 3]
+	graph   [label="Top Rank #2 Java Type Bridge\nio.axoniq.framework.axonserver.connector.util.GrpcMessageSizeInterceptor$1$1\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\n\n"];
+	central [label="🌉 bridge #2\nGrpcMessageSizeInterceptor$1$1"];
+	"GrpcMessageSizeInterceptor$1_1465" [label = "GrpcMessageSizeInterceptor$\n1"; ]; "GrpcMessageSizeInterceptor$1_1465" -> central [label=3; weight=3; penwidth=0.4];
+	"GrpcMessageSizeInterceptor_1479" [label = "GrpcMessageSizeInterceptor"; ]; "GrpcMessageSizeInterceptor_1479" -> central [label=1; weight=1; penwidth=0.4];
+	"GrpcMessageSizeInterceptor$1_1465" [label = "GrpcMessageSizeInterceptor$\n1"; color = 5; fillcolor = 1; ]; central -> "GrpcMessageSizeInterceptor$1_1465" [label=10; weight=10; penwidth=0.5; color = 5];
+	"GrpcMessageSizeInterceptor_1479" [label = "GrpcMessageSizeInterceptor"; color = 5; fillcolor = 1; ]; central -> "GrpcMessageSizeInterceptor_1479" [label=6; weight=6; penwidth=0.5; color = 5];
+	"GrpcMessageSizeWarningThresholdReachedException_1496" [label = "GrpcMessageSizeWarningThresholdReachedException"; color = 5; fillcolor = 1; ]; central -> "GrpcMessageSizeWarningThresholdReachedException_1496" [label=2; weight=2; penwidth=0.4; color = 5];
+	"GrpcMessageSizeInterceptor$1_1465" -> "GrpcMessageSizeInterceptor_1479" [label=11; weight=11; penwidth=0.3; color = 3]
+	"GrpcMessageSizeInterceptor_1479" -> "GrpcMessageSizeInterceptor$1_1465" [label=3; weight=3; penwidth=0.3; color = 3]
+	"GrpcMessageSizeInterceptor$1_1465" -> "GrpcMessageSizeWarningThresholdReachedException_1496" [label=2; weight=2; penwidth=0.3; color = 3]
 }

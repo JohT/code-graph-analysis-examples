@@ -12,36 +12,13 @@ strict digraph TopOutlier5 {
     central [fontsize = 16;];
     central [color = 7; fillcolor = 5; penwidth = 3;];
 
-	graph   [label="Top Rank #5 Java Package Outlier\norg.axonframework.eventsourcing.snapshot.store\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: cluster probability\nlarge circle: < 25% percentile of cluster probability\nthick outline: > 80% percentile of distance to cluster center\n\n"];
-	central [label="🧩 outlier #5\nstore"];
-	"configuration_36237"  [shape = "circle"; height=1.8; label = "configuration\n(59.44%)"; penwidth = 2; ]; "configuration_36237" -> central [label=1; weight=1; penwidth=0.4];
-	"configuration_1040"  [label = "configuration\n(81.99%)"; penwidth = 5; ]; "configuration_1040" -> central [label=1; weight=1; penwidth=0.4];
-	"eventstore_36234"  [label = "eventstore\n(100.0%)"; penwidth = 2; ]; "eventstore_36234" -> central [label=1; weight=1; penwidth=0.4];
-	"handler_36233"  [shape = "circle"; height=1.8; label = "handler\n(65.72%)"; penwidth = 2; ]; "handler_36233" -> central [label=1; weight=1; penwidth=0.4];
-	"inmemory_36230"  [shape = "circle"; height=1.8; label = "inmemory\n(60.82%)"; penwidth = 5; ]; "inmemory_36230" -> central [label=0; weight=0; penwidth=0.4];
-	"snapshot_1033"  [shape = "circle"; height=1.8; label = "snapshot\n(65.72%)"; penwidth = 2; ]; "snapshot_1033" -> central [label=0; weight=0; penwidth=0.4];
-	"api_36232"  [shape = "circle"; height=1.8; label = "api\n(61.24%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "api_36232" [label=2; weight=2; penwidth=0.4; color = 5];
-	"core_6897"  [label = "core\n(100.0%)"; penwidth = 2; color = 5; fillcolor = 1; ]; central -> "core_6897" [label=2; weight=2; penwidth=0.4; color = 5];
-	"annotation_41195"  [label = "annotation\n(91.97%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "annotation_41195" [label=1; weight=1; penwidth=0.4; color = 5];
-	"eventstore_36234" -> "core_6897" [label=53; weight=53; penwidth=0.3; color = 3]
-	"snapshot_1033" -> "api_36232" [label=16; weight=16; penwidth=0.3; color = 3]
-	"configuration_36237" -> "eventstore_36234" [label=15; weight=15; penwidth=0.3; color = 3]
-	"handler_36233" -> "api_36232" [label=13; weight=13; penwidth=0.3; color = 3]
-	"eventstore_36234" -> "annotation_41195" [label=11; weight=11; penwidth=0.3; color = 3]
-	"handler_36233" -> "eventstore_36234" [label=10; weight=10; penwidth=0.3; color = 3]
-	"snapshot_1033" -> "eventstore_36234" [label=10; weight=10; penwidth=0.3; color = 3]
-	"handler_36233" -> "core_6897" [label=9; weight=9; penwidth=0.3; color = 3]
-	"core_6897" -> "annotation_41195" [label=7; weight=7; penwidth=0.3; color = 3]
-	"eventstore_36234" -> "api_36232" [label=7; weight=7; penwidth=0.3; color = 3]
-	"snapshot_1033" -> "core_6897" [label=7; weight=7; penwidth=0.3; color = 3]
-	"configuration_36237" -> "handler_36233" [label=6; weight=6; penwidth=0.3; color = 3]
-	"handler_36233" -> "annotation_41195" [label=4; weight=4; penwidth=0.3; color = 3]
-	"inmemory_36230" -> "api_36232" [label=4; weight=4; penwidth=0.3; color = 3]
-	"inmemory_36230" -> "core_6897" [label=4; weight=4; penwidth=0.3; color = 3]
-	"configuration_36237" -> "annotation_41195" [label=3; weight=3; penwidth=0.3; color = 3]
-	"configuration_36237" -> "api_36232" [label=3; weight=3; penwidth=0.3; color = 3]
-	"configuration_36237" -> "core_6897" [label=3; weight=3; penwidth=0.3; color = 3]
-	"configuration_1040" -> "snapshot_1033" [label=2; weight=2; penwidth=0.3; color = 3]
-	"api_36232" -> "eventstore_36234" [label=1; weight=1; penwidth=0.3; color = 3]
-	"configuration_1040" -> "eventstore_36234" [label=1; weight=1; penwidth=0.3; color = 3]
+	graph   [label="Top Rank #5 Java Package Outlier\norg.axonframework.common.lifecycle\n\ndark nodes: incoming dependencies (limited max. 40)\nbright nodes: outgoing dependencies (limited max. 40)\nnode value: cluster probability\nlarge circle: < 25% percentile of cluster probability\nthick outline: > 80% percentile of distance to cluster center\n\n"];
+	central [label="🧩 outlier #5\nlifecycle"];
+	"query_1035"  [shape = "circle"; height=1.8; label = "query\n(53.56%)"; penwidth = 2; ]; "query_1035" -> central [label=16; weight=16; penwidth=0.7];
+	"command_1041"  [shape = "circle"; height=1.8; label = "command\n(53.56%)"; penwidth = 5; ]; "command_1041" -> central [label=12; weight=12; penwidth=0.6];
+	"configuration_41205"  [shape = "circle"; height=1.8; label = "configuration\n(0.0%)"; penwidth = 2; ]; "configuration_41205" -> central [label=2; weight=2; penwidth=0.4];
+	"common_41192"  [label = "common\n(68.54%)"; penwidth = 5; color = 5; fillcolor = 1; ]; central -> "common_41192" [label=2; weight=2; penwidth=0.4; color = 5];
+	"configuration_41205" -> "common_41192" [label=42; weight=42; penwidth=0.3; color = 3]
+	"query_1035" -> "common_41192" [label=10; weight=10; penwidth=0.3; color = 3]
+	"command_1041" -> "common_41192" [label=4; weight=4; penwidth=0.3; color = 3]
 }
